@@ -1,7 +1,7 @@
 ![Ironhack Logo](https://i.imgur.com/1QgrNNw.png)
 
 # JS | Spotify Clone
-
+ a
 ## Introduction
 
 Everyone likes music, right? Odds are if you do, you've heard of Spotify. Today we're going to copy an older (and simpler) version of the Spotify home page:
