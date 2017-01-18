@@ -6,3 +6,126 @@ Green: #00B172
 White: #FFF
 
 */
+html{
+  margin: 0;
+  font-family: "Helvetica Neue", Helvetica, Arial, sans-serif;
+}
+
+body{
+  margin: 0;
+}
+
+nav{
+  background-color: #FFF;
+  position: fixed;
+  width: 100%;
+  margin: 0 auto;
+  top: 0;
+}
+
+.logo{
+  float: left;
+  height: 60px;
+  padding: 15px 30px;
+}
+
+.logo > img{
+  height: 100%;
+}
+
+.menu{
+  float: right;
+  padding: 20px 30px;
+  margin: 0 auto;
+}
+
+.menu > li{
+  display:inline-block;
+  padding:12px 12px 12px 25px;
+  font-size: 1.2em;
+}
+
+.landing-page{
+  background-image: url(../images/landing.jpg);
+  background-size: contain;
+  height: 500px;
+  padding-top: 250px;
+}
+
+.titles{
+  color: #FFF;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  text-align: center;
+  padding: 8px;
+}
+
+h1{
+  font-size:4.8em;
+}
+
+h4{
+  font-size: 1.6em;
+}
+
+.content-section-title{
+  text-align: center;
+  padding: 30px;
+}
+
+.section-title{
+  display: inline-block;
+  font-size: 2.2em;
+  margin: 0 auto;
+  color: #000000;
+  line-height: 60px;
+  border-bottom: 5px solid #00B172;
+}
+
+.content-items-spotify{
+  width: 50%;
+  display: inline-block;
+}
+
+.content-items-spotify > div{
+  width: 17%;
+  padding: 7%;
+  float: left;
+}
+
+.content-items-spotify > div > img{
+  width: 100%;
+}
+
+
+
+
+
+
+/**
+ * For modern browsers
+ * 1. The space content is one way to avoid an Opera bug when the
+ *    contenteditable attribute is included anywhere else in the document.
+ *    Otherwise it causes space to appear at the top and bottom of elements
+ *    that are clearfixed.
+ * 2. The use of `table` rather than `block` is only necessary if using
+ *    `:before` to contain the top-margins of child elements.
+ */
+.cf:before,
+.cf:after {
+    content: " "; /* 1 */
+    display: table; /* 2 */
+}
+
+.cf:after {
+    clear: both;
+}
+
+/**
+ * For IE 6/7 only
+ * Include this rule to trigger hasLayout and contain floats.
+ */
+.cf {
+    *zoom: 1;
+}
