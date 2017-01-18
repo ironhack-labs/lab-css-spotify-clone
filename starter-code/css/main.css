@@ -6,3 +6,173 @@ Green: #00B172
 White: #FFF
 
 */
+.large-image p, h1, .kanye {
+    color: white;
+}
+
+body {
+  font-family: 'Open Sans', sans-serif;
+}
+
+nav {
+  width: 100%;
+  height: 80px;
+  position: fixed;
+  top: 0px;
+  background: white;
+  padding: 10px;
+  z-index: 1;
+}
+nav img {
+  height:90%;
+  width: auto;
+  position: relative;
+  top:0;
+  transition-property: position;
+ transition-duration: 1s;
+ transition-timing-function:ease-in-out;
+ transition-delay: 1s;
+
+}
+
+@keyframes bouceamiento {
+  0% {
+    top: 0;
+  }
+  50% {
+    top: -5px;
+  }
+  100%{
+    top: 0;
+  }
+}
+
+nav img:hover,
+nav img:active{
+  animation: bouceamiento 0.5s ease-in-out;
+}
+
+ul {
+  float: right;
+  list-style-type: none;
+  margin-right: 20px;
+}
+
+li {
+  float: left;
+  margin-right: 10px;
+  font-size: 30px;
+}
+
+div {
+  width:100%;
+  margin: 0;
+}
+
+#landing {
+  width: 100%;
+
+}
+
+h1 {
+  font-size: 80px;
+  position: absolute;
+  top: 20%;
+  left: 25%;
+
+}
+
+.large-image p {
+  font-size: 40px;
+  position: relative;
+  top: -800px;
+  text-align: center;
+  margin: 5px 0 5px 0;
+}
+
+h2 {
+  text-align: center;
+  clear: both;
+  font-size: 60px;
+
+}
+
+.ligne-verte {
+  width: 600px;
+  height: 20px;
+margin-left: auto;
+margin-right: auto;
+  clear:both;
+  background: #23CF5F ;
+}
+
+
+.spotify {
+  width: 100%;
+}
+
+.container {
+  width: 80%;
+  margin-left: auto;
+  margin-right: auto;
+
+}
+.spot {
+  width: 25%;
+  float: left;
+  margin: 60px;
+
+}
+h3 {
+  color: #23CF5F;
+  font-size: 40px;
+  text-align: center;
+
+}
+.spotify img {
+  height: auto;
+  width: 60%;
+  position: relative;
+  left: 50px;
+}
+
+
+.green-div {
+  clear: both;
+  background: #23CF5F;
+  margin: 50px;
+  width: 95%;
+  height: 800px;
+    position: relative;
+}
+h4{
+  font-size: 40px;
+  text-decoration:underline
+}
+
+h5 {
+  font-size: 30px;
+}
+
+.kanye {
+  width: 40%;
+  float: left;
+  margin-left: 70px;
+
+
+}
+
+.white-icon {
+  width: 200px;
+  height: auto;
+  position: absolute;
+  left: 45%;
+  top: 35%;
+}
+
+.yeezy {
+  height:80%;
+  position: absolute;
+  top: 50px;
+  right: 50px;
+}
