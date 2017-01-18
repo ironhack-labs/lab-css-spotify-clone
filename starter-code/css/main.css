@@ -47,9 +47,13 @@ nav{
 
 .landing-page{
   background-image: url(../images/landing.jpg);
-  background-size: contain;
-  height: 500px;
+  background-size: cover;
+  height: 570px;
   padding-top: 250px;
+}
+
+.slogan{
+  padding: 8px;
 }
 
 .titles{
@@ -58,7 +62,6 @@ nav{
   justify-content: center;
   align-items: center;
   text-align: center;
-  padding: 8px;
 }
 
 h1{
@@ -67,6 +70,7 @@ h1{
 
 h4{
   font-size: 1.6em;
+  margin: 0 auto;
 }
 
 .content-section-title{
@@ -84,48 +88,85 @@ h4{
 }
 
 .content-items-spotify{
-  width: 50%;
-  display: inline-block;
+  width: 100%;
+  margin: 0 auto;
+  text-align: center;
+  display: flex;
+  justify-content: center;
+  align-items: center;
 }
 
-.content-items-spotify > div{
-  width: 17%;
-  padding: 7%;
+.container-item{
+  width: 29%;
+  padding: 2%;
+  float: left;
+  justify-content: center;
+  align-items: center;
+  text-align: center;
+}
+
+.container-icon{
+
+  height: 100px;
+}
+
+.container-icon > img{
+  width: 25%;
+}
+
+h5{
+ display: block;
+ color: #00B172;
+ text-align: center;
+ font-size: 1.8em;
+ margin: 0 auto;
+ padding: 20px;
+}
+
+.container-item p{
+  margin: 0 auto;
+}
+
+.green-div{
+  width: 92%;
+  height: 720px;
+  background-color: #00B172;
+  margin: 0 auto;
+  margin-top: 50px;
+  margin-bottom: 50px;
+
+}
+
+.green-content{
+  width: 40%;
+  padding: 5%;
   float: left;
 }
 
-.content-items-spotify > div > img{
-  width: 100%;
+.green-title{
+  display: inline-block;
+  color: #FFF;
+  font-size: 2.3em;
+  margin: 0 auto;
+  line-height: 60px;
+  border-bottom: 3px solid #FFF;
 }
 
-
-
-
-
-
-/**
- * For modern browsers
- * 1. The space content is one way to avoid an Opera bug when the
- *    contenteditable attribute is included anywhere else in the document.
- *    Otherwise it causes space to appear at the top and bottom of elements
- *    that are clearfixed.
- * 2. The use of `table` rather than `block` is only necessary if using
- *    `:before` to contain the top-margins of child elements.
- */
-.cf:before,
-.cf:after {
-    content: " "; /* 1 */
-    display: table; /* 2 */
+.green-skill{
+  color: #FFF;
+  font-size: 2em;
+  margin: 0 auto;
+  padding: 50px 0 35px 0;
 }
 
-.cf:after {
-    clear: both;
+.green-content > p{
+  color: #FFF;
+  font-size: 1.2em;
+  margin: 0 auto;
 }
 
-/**
- * For IE 6/7 only
- * Include this rule to trigger hasLayout and contain floats.
- */
-.cf {
-    *zoom: 1;
+.green-content > img{
+  width: 310px;
+  margin: 0 auto;
+  float: right;
 }
