@@ -6,3 +6,93 @@ Green: #00B172
 White: #FFF
 
 */
+*{
+  margin: 0;
+  font-family: 'Montserrat', sans-serif;
+}
+
+.navbar{
+  height:70px;
+  background-color: white;
+  position: fixed;
+  width: 100%;
+}
+
+.logo{
+  margin:10px;
+  margin-left: 30px;
+  width: 200px;
+  float: left;
+}
+
+.menu{
+  float: right;
+  margin:30px;
+  font-size: 13px;
+}
+
+.spoty{
+  width: 150px;
+  height: auto;
+  position: relative;
+}
+
+.spoty:hover{
+  animation: MoveUpDown 0.25s linear infinite;
+}
+
+@keyframes MoveUpDown {
+  0 {
+    top: 0;
+  }
+  100% {
+    top: 10px;
+  }
+}
+
+ul {
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+    overflow: hidden;
+}
+
+li {
+    float: left;
+    padding-right: 30px;
+}
+
+.content{
+  background: url('../images/landing.jpg');
+  background-size: cover;
+  height: 80vh;
+  color: white;
+  margin: 0 auto;
+}
+
+h1{
+  text-align: center;
+  padding-top: 250px;
+  font-size: 60px;
+}
+
+h3{
+  text-align: center;
+  font-weight: 100;
+  padding-top: 30px;
+
+}
+
+.whats{
+  width: 255px;
+  margin: 0 auto;
+  font-size: 27px;
+  font-weight: bold;
+  margin-top: 30px;
+  padding-bottom: 10px;
+  border-bottom: 4px #00B172 solid;
+}
+
+.whats p{
+  text-align: center;
+}
