@@ -33,6 +33,31 @@ nav{
   height: 100%;
 }
 
+.logo > img:hover{
+  animation: slidein 0.5s;
+  animation-iteration-count:infinite;
+
+}
+
+@keyframes slidein {
+  0% {
+    margin-top: 0;
+  }
+
+  25% {
+    margin-top: 5px;
+  }
+
+
+  75% {
+    margin-top: -5px;
+  }
+
+  100% {
+    margin-top: 0;
+  }
+}
+
 .menu{
   float: right;
   padding: 20px 30px;
