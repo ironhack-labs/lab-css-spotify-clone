@@ -9,6 +9,7 @@ White: #FFF
 
 body {
   font-family: 'Open Sans', sans-serif;
+  font-weight: 300;
   margin: 0;
 }
 
@@ -52,7 +53,7 @@ body {
   left: 50%;
   top: 200px;
   margin-left: -350px;
-  font-size: 76px;
+  font-size: 75px;
   font-weight: bold;
   color: white;
 }
@@ -62,7 +63,7 @@ body {
   left: 50%;
   top: 350px;
   margin-left: -300px;
-  font-size: 24px;
+  font-size: 28px;
   font-weight: lighter;
   text-align: center;
   color: white;
@@ -80,11 +81,9 @@ body {
   left: 50%;
   margin-left: -158px;
   font-size: 35px;
-  font-weight: bold;
+  font-weight: 900;
   padding-bottom: 2px;
-  border-bottom-color: green;
-  border-bottom-style: solid;
-  border-bottom-width: thick;
+  border-bottom: 5px solid #1EA758;
 }
 
 .features-container {
@@ -93,45 +92,31 @@ body {
   padding-top: 25px;
 }
 
-.first-feature-frame {
+.feature-frame {
   float: left;
   width: 33%;
 }
 
-.ff-pic {
-  width: 30%;
-  height: auto;
+.feature-frame img {
+  height: 95px;
+  width: 110px;
   display: block;
   margin-left: auto;
   margin-right: auto;
 }
 
-.second-feature-frame {
-  float: left;
-  width: 33%;
+.feature-frame h2 {
+  color: #1EA758;
+  text-align: center;
 }
 
-.sf-pic {
-  width: 30%;
-  height: auto;
-  display: block;
-  margin-left: auto;
-  margin-right: auto;
+.feature-frame p {
+  text-align: center;
 }
 
-.third-feature-frame {
-  float: left;
-  width: 33%;
-}
-
-.tf-pic {
-  width: 30%;
-  height: auto;
-  display: block;
-  margin-left: auto;
-  margin-right: auto;
-}
-
-.feature-heading {
-
+.last-part {
+  width: 100%;
+  margin-left: 20px;
+  margin-right: 20px;
+  background-color: #1EA758;
 }
