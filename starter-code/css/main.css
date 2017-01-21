@@ -28,6 +28,32 @@ body {
   width: 18%;
   height: auto;
   padding-top: 3px;
+  -webkit-animation: bounce 0.25s ease-in-out none infinite alternate;
+  animation: bounce 0.25s ease-out none infinite alternate;
+}
+
+.top-navbar-picture:hover {
+  -webkit-animation: bounce 0.25s ease-in-out none infinite alternate;
+  animation: bounce 0.25s ease-out none infinite alternate;
+}
+
+@-webkit-keyframes bounce{
+  0% {
+    margin-top: 0px;
+  }
+
+  100% {
+    margin-top: -10px;
+  }
+}
+@keyframes bounce{
+  0% {
+    margin-top: 0px;
+  }
+
+  100% {
+    margin-top: -10px;
+  }
 }
 
 .top-navbar-items {
@@ -112,6 +138,7 @@ body {
 
 .feature-frame p {
   text-align: center;
+  color: black;
 }
 
 .last-part {
