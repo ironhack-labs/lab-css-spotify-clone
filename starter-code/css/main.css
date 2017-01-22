@@ -1,12 +1,3 @@
-/*
-Colors:
-
-Text: 1A1A1A
-Green: #00B172
-White: #FFF
-
-*/
-
 html, body {
   height: 100%;
 }
@@ -20,18 +11,31 @@ nav {
   position: fixed;
   width: 100%;
   text-align: right;
-  margin-top: 8px;
   font-size: 21px;
+  background-color: white;
+  z-index: 1;
 }
 
 nav > img {
   float: left;
   width: 150px;
+  margin-left: 15px;
+  margin-top: 0.5em;
+}
+
+nav > img:hover {
+  animation: upAndDown 1s infinite;
+  animation-timing-function: linear;
+}
+
+@keyframes upAndDown {
+    25%  {transform: translateY(-5px);}
+    75%  {transform: translateY(5px);}
+    100% {transform: translateY(0);}
 }
 
 nav > ul {
   float: right;
-  margin-top: 7.5px;
   margin-right: 40px;
 }
 
@@ -40,16 +44,44 @@ li {
   margin-left: 30px;
 }
 
-nav div {
-  margin-top: 10px;
-}
-
-section > div {
-  clear: left;
+section:first-child {
+  z-index: 1;
 }
 
 section img {
   height: auto;
   width: 100%;
-  margin-top: 70px;
+  position: relative;
+}
+
+section > div {
+  clear: left;
+  position: absolute;
+  color: white;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%,-50%);
+}
+
+h1 {
+  margin-top: 0;
+  margin-bottom: 0.5em;
+  font-size: 72px;
+}
+
+h3 {
+  font-size: 32px;
+  font-weight: 100;
+}
+
+h2 {
+  display: inline-block;
+  color: black;
+  font-size: 38px;
+  padding-bottom: 5px;
+  border-bottom: 5px solid #00B172 ;
+}
+
+.center {
+  text-align: center;
 }
