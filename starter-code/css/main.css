@@ -11,6 +11,7 @@ body {
   margin: none;
 }
 #header {
+  margin-top: 0px;
   position: fixed;
   float: left;
   background-color: white;
@@ -20,10 +21,42 @@ body {
   padding: 20px;
 }
 #logo {
+  position: relative;
+  bottom: 0%;
   float: left;
   height: 100%;
   width: auto;
   margin-left: 4%;
+  animation-name: jiggle;
+  animation-duration: 1.5s;
+  animation-iteration-count: infinite;
+  animation-timing-function: linear;
+  animation-play-state: paused;
+}
+#logo:hover {
+  animation-play-state: running;
+}
+@keyframes jiggle {
+  0%   {bottom: 0%;}
+  10%  {bottom: 20%;}
+  14%  {transform: rotate(5deg);}
+  18%  {transform: rotate(-5deg);}
+  22%  {transform: rotate(-5deg);}
+  26%  {transform: rotate(5deg);}
+  30%  {transform: rotate(5deg);}
+  34%  {transform: rotate(-5deg);}
+  38%  {transform: rotate(-5deg);}
+  42%  {transform: rotate(5deg);}
+  46%  {transform: rotate(5deg);}
+  50%  {transform: rotate(-5deg);}
+  54%  {transform: rotate(-5deg);}
+  58%  {transform: rotate(5deg);}
+  62%  {transform: rotate(5deg);}
+  66%  {transform: rotate(-5deg);}
+  70%  {transform: rotate(-5deg);}
+  75%  {transform: rotate(5deg);}
+  80%  {bottom: 20%;}
+  100% {bottom: 0%;}
 }
 #header-links {
   position: relative;
