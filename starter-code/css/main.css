@@ -13,7 +13,7 @@ White: #FFF
 
 .background-container,
 .background-container > img,
-.topnav, footer {
+.navbar, footer {
   width: 100%
 }
 
@@ -48,19 +48,21 @@ p {
   text-align: center;
 }
 
-.top-nav {
-  position: relative;
+.navbar {
+  position: fixed;
   height: 100px;
+  z-index: 1;
+  background-color: white;
 }
 
-.top-nav > img {
+.navbar > img {
   position: absolute;
   height: 100px;
   animation: bounce 0.7s linear infinite;
   animation-play-state: paused;
 }
 
-.top-nav > img:hover {
+.navbar > img:hover {
   animation-play-state: running;
 }
 
@@ -90,7 +92,7 @@ li {
   margin: 0px 0px 0px 40px;
 }
 
-.top-nav > div {
+.navbar > div {
   float: right;
   height: 100px;
   width: 500px;
