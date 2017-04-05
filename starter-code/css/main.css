@@ -1,8 +1,168 @@
 /*
 Colors:
 
-Text: 1A1A1A
-Green: #00B172
-White: #FFF
+Text: #1A1A1A;
+Green: #00B172;
+White: #FFF;
 
 */
+
+* body, div, h1, h2, h3, h4, ul, ol, li, p {
+  margin: 0;
+  padding: 0;
+  border: 0;
+  font-size: 100%;
+}
+
+body {
+  font-family: helvetica, arial, sans-serif;
+  background: #fff;
+}
+
+main {
+  width: 900px;
+  margin: 0 auto;
+}
+
+header {
+  width: 900px;
+  height: 80px;
+  position: fixed;
+  z-index: 999;
+  background: #fff;
+}
+
+header:after {
+  content: "";
+  display: block;
+  clear: both;
+}
+
+header #brand {
+  float:left;
+}
+
+header #brand img {
+  width: 180px;
+  margin-top: 15px;
+  margin-left: 10px;
+  background: #fff;
+}
+
+header nav {
+  width: 500px;
+  float: right;
+}
+
+header nav ul {
+  list-style: none;
+  text-align: right;
+}
+
+header nav ul li {
+  display: inline;
+  padding: 15px;
+  position: relative;
+  top: 35px;
+}
+
+.sectionPicture {
+  position: relative;
+  top: 80px;
+
+}
+
+.sectionPicture img{
+  width: 900px;
+}
+
+.sectionPicture h1 {
+  text-align: center;
+  position: relative;
+  top: -400px;
+  color: #fff;
+  font-size: 60px;
+}
+
+.sectionPicture h4 {
+  width: 500px;
+  margin: 0 auto;
+  position: relative;
+  top: -380px;
+  color: #fff;
+  font-size: 20px;
+  text-align: center;
+  line-height: 1.5;
+  font-weight: light;
+}
+
+.sectionSpecs {
+  width: 900px;
+  margin: 0 auto;
+}
+
+.sectionSpecs h2 {
+  width: 275px;
+  margin: 0 auto;
+  position: relative;
+  top: -30px;
+  font-size: 30px;
+  text-align: center;
+  padding-bottom: 5px;
+  margin-bottom: 20px;
+  border-bottom: 5px solid #00B172;
+}
+
+
+.specsWrapper:after {
+  content: "";
+  display: block;
+  clear: both;
+}
+
+.specsBox {
+  width: 300px;
+  margin: 0 auto 40px 0;
+  float: left;
+}
+
+.specsBox img {
+  width: 150px;
+  display: block;
+  margin: 0 auto 10px auto;
+}
+
+.specsBox h4, p {
+  text-align: center;
+}
+
+.specsBox h4 {
+  width: 90px;
+  margin: 0 auto;
+  font-size: 20px;
+  margin-bottom: 20px;
+}
+
+.specsBox p {
+  width: 200px;
+  margin: 0 auto;
+  font-weight: bold;
+}
+
+.sectionInfo {
+  width: 800px;
+  margin: 0 auto;
+  background: #00B172;
+}
+
+.pain {
+  text-align: center;
+  position: relative;
+  top: -100px;
+}
+
+.pain img{
+  width: 100px;
+  margin: 0 auto;
+
+}
