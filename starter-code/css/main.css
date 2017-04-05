@@ -6,3 +6,147 @@ Green: #00B172
 White: #FFF
 
 */
+body{
+  padding:0;
+  margin:0
+  }
+
+*{
+  font-family: helvetica;
+}
+
+nav{
+  position:fixed;
+  top: 0;
+  left: 0;
+  background-color: #FFF;
+  width: 100%;
+  height: 60px;
+  z-index: 99;
+}
+
+nav section.left{
+  float: left;
+}
+
+nav section.right{
+  float: right;
+}
+
+nav section.right ul li{
+  list-style-type: none;
+  display: inline;
+  float: right;
+  padding-right: 10px;
+  color: grey;
+}
+
+
+section.one{
+/*clear:both;
+position: relative;*/
+background-image: url('../images/landing.jpg');
+background-repeat: no-repeat;
+color:#FFF;
+background-size: cover;
+background-position: bottom;
+height:800px;
+align-items: center;
+/*margin-top: 100px;*/
+}
+
+section.one .center{
+vertical-align: middle;
+padding-top: 30%;
+text-align: center;
+}
+
+section.one .center h1{
+font-size: 60px;
+padding: 0
+}
+
+section.one .center p{
+font-size: 18px;
+}
+
+section.two{
+  text-align: center;
+  align-items: center;
+}
+
+section.two .what{
+text-align: center;
+border-bottom: 3px solid #00B172;
+width: 240px;
+margin: auto;
+height: 30px;
+}
+
+section.two .millions{
+color: gray;
+float:left;
+width: 33%;
+}
+
+section.two h5{
+font-size: 24px;
+color: #00B172;
+}
+
+section.two .hd{
+color: gray;
+float:left;
+width: 33%;
+}
+
+section.two .stream{
+color: gray;
+float:left;
+width: 33%;
+}
+
+section.three{
+clear: both;
+position: relative;
+background-color: #00B172;
+background-image: url('../images/spotify-icon-white.png');
+background-position: center;
+background-size: 10%;
+background-repeat: no-repeat;
+text-align: left;
+padding: 5%;
+height:600px;
+}
+
+section.three .left{
+  float: left;
+  width: 50%;
+  height:600px;
+
+}
+
+section.three .left .kanye{
+  float: left;
+  color: #FFF;
+  font-size: 24px;
+  border-bottom: 3px solid #FFF;
+  width: 200x;
+  margin: auto;
+  height: 100px;
+}
+
+section.three .left .text{
+  clear: both;
+  color: #FFF;
+}
+
+section.three .left .text h4{
+color: #FFF;
+font-size: 24px;
+}
+
+section.three .right{
+  padding-top: 30px;
+  float:right;
+}
