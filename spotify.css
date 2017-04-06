@@ -1,0 +1,152 @@
+/*
+Colors:
+Text: 1A1A1A
+Green: #00B172
+White: #FFF
+*/
+body {
+  line-height: 2em;
+}
+
+#icon:hover {
+  -webkit-animation-name: bounce;
+  animation-name: bounce;
+  -webkit-transform-origin: center bottom;
+  transform-origin: center bottom;
+}
+
+@keyframes bounce {
+  from, 20%, 53%, 80%, to {
+    -webkit-animation-timing-function: cubic-bezier(0.215, 0.610, 0.355, 1.000);
+    animation-timing-function: cubic-bezier(0.215, 0.610, 0.355, 1.000);
+    -webkit-transform: translate3d(0,0,0);
+    transform: translate3d(0,0,0);
+  }
+
+  40%, 43% {
+    -webkit-animation-timing-function: cubic-bezier(0.755, 0.050, 0.855, 0.060);
+    animation-timing-function: cubic-bezier(0.755, 0.050, 0.855, 0.060);
+    -webkit-transform: translate3d(0, -30px, 0);
+    transform: translate3d(0, -30px, 0);
+  }
+
+  70% {
+    -webkit-animation-timing-function: cubic-bezier(0.755, 0.050, 0.855, 0.060);
+    animation-timing-function: cubic-bezier(0.755, 0.050, 0.855, 0.060);
+    -webkit-transform: translate3d(0, -15px, 0);
+    transform: translate3d(0, -15px, 0);
+  }
+
+  90% {
+    -webkit-transform: translate3d(0,-4px,0);
+    transform: translate3d(0,-4px,0);
+  }
+}
+
+#icon {
+margin-left: 30px;
+margin-top: 10px;
+}
+
+li {
+list-style-type: none;
+display: inline-block;
+}
+
+#menu {
+position: right;
+float: right;
+}
+
+#menu > li {
+  display: inline-block;
+  margin-right: 1em;
+}
+
+#title #titleinfo {
+  font-family: sans-serif;
+}
+
+#title {
+  font-size: 3em;
+  position: absolute;
+  top: 400px;
+  left: 0;
+  width: 100%;
+  color: white;
+  font-family: sans-serif;
+}
+
+#titleinfo {
+  font-weight: lighter;
+  position: absolute;
+  top: 500px;
+  left: 0;
+  width: 100%;
+  color: white;
+  font-family: sans-serif;
+}
+
+.backgroundimage {
+  position: relative;
+   width: 100%;
+}
+
+.right {
+  float: left;
+}
+
+#hr1 {
+  width: inherit;
+  size: 10px;
+  color: #00B172;
+}
+
+h4 {
+  color: #00B172;
+  font-size: 1.2em;
+}
+
+
+.s3img {
+  margin: auto 150px;
+  position: relative;
+  padding-top: 30px;
+}
+
+.section3 {
+  width: 33.33%;
+  border: 10px;
+  margin: 0 auto;
+  position: relative;
+}
+.center-text {
+  text-align: center;
+}
+
+.left-text {
+  text-align: left;
+}
+
+#section4left{
+  width: 50%;
+  margin-left: 10px;
+  margin-top: 30px
+
+}
+
+#kanye {
+  margin-top: 30px;
+  margin-left: 10px;
+
+
+}
+
+#green-box {
+  background-color: 1A1A1A;
+  width:70%;
+  margin: 0 auto;
+  position: relative;
+
+
+}
