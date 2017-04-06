@@ -8,33 +8,35 @@ White: #FFF
 */
 body {
   margin: 0;
-  background-image: url('../images/screenshot.png');
-  background-size: 100% auto;
 }
 
 body > header {
-  height: 80px
+  height: 68px;
 }
 
 .spotify-logo-box {
   float: left;
 }
 .spotify-logo-box > img {
-  height: 80px;
+  height: 60px;
+  margin: 12px 32px;
 }
 
 header > ul {
   float: right;
+  margin: 15px 0 0;
 }
 
 header > ul > li {
   display: inline-block;
+  font-size: 23px;
+  margin: 18px;
 }
 
 .image-landing {
   background-image: url('../images/landing.jpg');
   background-size: cover;
-  height: 600px;
+  height: 685px;
 }
 
 .image-landing div {
@@ -45,24 +47,51 @@ header > ul > li {
   top: 250px;
 }
 
+.image-landing h1 {
+  font-size: 80px;
+}
+
+.image-landing h3 {
+  font-size: 30px;
+}
+
 .what-white-section {
-  background: white;
   text-align: center;
+}
+
+.icon-img img{
+  width: 115px;
+}
+
+.what-white-section h2 {
+  font-size: 42px;
+  margin-bottom: 8px;
+}
+
+.what-white-section h3 {
+  font-size: 26px;
+  margin-top: 45px;
+}
+
+.what-white-section p {
+  font-size: 25px;
+  margin-top: 70px;
 }
 
 .what-white-section header {
-  background: grey;
 }
 
 .what-white-section > section {
-  background: blue;
   display: inline-block;
+  vertical-align: middle;
   text-align: center;
   width: 400px;
   height: 350px;
+  padding: 40px 15px;
 }
 
 .green-section {
+  clear: both;
   background: #00B172;
   margin: 0px 50px;
   padding: 80px;
