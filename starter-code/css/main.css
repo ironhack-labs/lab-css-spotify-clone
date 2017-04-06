@@ -6,3 +6,207 @@ Green: #00B172
 White: #FFF
 
 */
+
+
+main{
+  border: 1px solid black;
+  margin: -1% 5% 5% 5%;
+}
+
+.top{
+  position: fixed;
+  flex-direction: column;
+  background-color: #FFF;
+  margin-right: 5.5%;
+  padding-top: 2%;
+  border: 1px solid black;
+}
+
+.spotify-logo{
+display: inline-block;
+width: 47%;
+padding: 0 0 2% 2%;
+}
+
+
+@keyframes bounce {
+  from, 20%, 53%, 80%, to {
+    animation-timing-function: cubic-bezier(0.215, 0.610, 0.355, 1.000);
+    transform: translate3d(0,0,0);
+  }
+
+  40%, 43% {
+    animation-timing-function: cubic-bezier(0.755, 0.050, 0.855, 0.060);
+    transform: translate3d(0, -30px, 0);
+  }
+
+  70% {
+    animation-timing-function: cubic-bezier(0.755, 0.050, 0.855, 0.060);
+    transform: translate3d(0, -15px, 0);
+  }
+
+  90% {
+    transform: translate3d(0,-4px,0);
+  }
+
+}
+.spotify-logo > img {
+  max-width: 50%;
+
+
+}
+
+.spotify-logo > img:hover {
+  animation-name: bounce;
+  animation-duration: 2s; /* or: Xms */
+  animation-iteration-count: infinite;
+  animation-direction: alternate; /* or: normal */
+  animation-timing-function: ease-out; /* or: ease, ease-in, ease-in-out, linear, cubic-bezier(x1, y1, x2, y2) */
+  animation-fill-mode: forwards; /* or: backwards, both, none */
+  animation-delay: 0
+}
+
+.menu{
+display: inline-block;
+float: right;
+width: 50%;
+}
+
+.menu  li {
+  font-weight: bold;
+  color: 1A1A1A;
+  display: inline-block;
+  padding: 5% 3% 3% 3%;
+  margin-left: 5%;
+
+}
+
+.header{
+ padding: 25%;
+ border: 2px solid black;
+ background: url("../images/landing.jpg");
+ background-size:contain;
+
+}
+.header > h1 {
+  color: #FFF;
+  text-align: center;
+  font-size: 400%;
+  margin-bottom: 5%;
+  margin-top: -5%;
+}
+
+.header > h2 {
+  color: #FFF;
+  padding-left: 5%;
+  display: flex;
+  text-align:center;
+}
+
+.intro-body{
+display: flex;
+flex-direction: column;
+border-bottom: 1px solid black;
+}
+
+.what, .millions, .HD-music, .stream {
+ text-align: center;
+}
+
+.what >h2 {
+  font-size: 200%;
+  padding-top: -5%;
+  margin: 2% 30% 0 30%;
+}
+
+.features{
+ padding-top: 5%;
+ display: flex;
+ flex-direction: row;
+}
+
+.features > h3 {
+  width: 40%;
+}
+
+.millions > img {
+  max-width: 20%;
+}
+
+.HD-music >img{
+  max-width: 20%;
+}
+
+.stream > img{
+  max-width: 20%;
+}
+
+.HD-music > h3 {
+  padding-top: 4%;
+}
+
+p, .kanye {
+  font-family: "courier new";
+}
+
+p {
+ font-size: 150%;
+ max-width: 50%;
+ margin-left: 25%;
+ text-align: center;
+}
+
+
+.green-box{
+ background-color: #00B172;
+ display: flex;
+ flex-direction: row;
+ width: 100%;
+
+}
+
+.green--box-left{
+  border: 1px solid black;
+  display: flex;
+  flex-direction: row;
+}
+
+.green-box-left > img{
+
+}
+
+.green-text {
+  margin-top: 5%;
+  margin-right: 20%;
+}
+.green-text > h2 {
+  padding: 5% 0 0 25%;
+
+}
+
+.green-text > p {
+  text-align: left;
+}
+
+.green-text > img {
+  max-width: 20%;
+  float:right;
+}
+
+.green-text, .kanye{
+ color: #FFF;
+}
+
+.kanye{
+ font-size: 100%;
+ text-align: left;
+ margin: 5% 10% 0 20%;
+ width: 40%;
+}
+
+
+.green-box-right > img {
+ max-width: 100%;
+ float: right;
+ padding: 20% 10% 0 0;
+}
