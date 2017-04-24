@@ -8,7 +8,7 @@ Everyone likes music, right? Odds are if you do, you've heard of Spotify. Today 
 
 ![Spotify image](https://i.imgur.com/xVD0bm6.jpg)
 
-All of the necessary assets and images are included in the starter code.
+All of the necessary assets and images are included in the starter code. If you'd like a full length PDF version of the webite as reference, [check out this link](https://s3-eu-west-1.amazonaws.com/ih-materials/uploads/spotify-prototype.pdf).
 
 ## Exercise
 
