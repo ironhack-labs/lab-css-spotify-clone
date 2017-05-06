@@ -6,3 +6,107 @@ Green: #00B172
 White: #FFF
 
 */
+* {
+  margin: 0;
+  -webkit-box-sizing: border-box;
+  box-sizing: border-box;
+}
+body {
+  border: 1px solid blue;
+}
+
+header {
+  padding: 1% 0% 1% 1%;
+  height: 5rem;
+  width: 80rem;
+  float: left;
+  border: 1px solid black;
+  overflow: auto;
+  background-color: white;
+  position: fixed;
+}
+
+header img {
+  float:left;
+  height: 100%;
+
+}
+
+body header ul {
+  border: 1px solid green;
+  /*float: right;*/
+  display: inline-block;
+  height: auto;
+  float: right;
+}
+
+header li {
+  display: inline-block;
+}
+
+body > section {
+  background-image: url("../images/landing.jpg");
+  background-position: center;
+  background-size: contain;
+  height: 55rem;
+}
+
+body > section > h1 {
+  text-align: center;
+  /*height: 20%;*/
+  color: white;
+  border: 1px solid green;
+}
+
+body > section > p {
+  color: white;
+  border: 1px solid red;
+}
+
+body > main > h1 {
+  border: 1px solid red;
+  text-align: center;
+}
+
+#left-main {
+  border: 1px solid blue;
+  display: inline-block;
+  width: 33%;
+}
+
+#left-main > h2 {
+  text-align: center;
+  width: 6rem;
+  border: 1px solid blue;
+
+}
+#left-main > h3 {
+  text-align: center;
+  width: 9.3rem;
+}
+
+#left-main > img {
+  display:inline-block;
+  height: 5rem;
+}
+
+#center-main {
+  border: 1px solid red;
+  display: inline-block;
+  width: 33%;
+}
+
+#center-main > img {
+  display:inline-block;
+  height: 5rem;
+}
+#right-main {
+  border: 1px solid black;
+  display: inline-block;
+  width: 33%;
+}
+
+/*#spotify-logo {*/
+  /*height: 5%;*/
+  /*width: 5rem;*/
+/*}*/
