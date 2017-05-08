@@ -6,3 +6,207 @@ Green: #00B172
 White: #FFF
 
 */
+
+body {
+  font-family: 'Montserrat', sans-serif;
+}
+
+header{
+  /*position: fixed;
+  top: 0;
+  width: 100%;
+  overflow: hidden;*/
+
+  /*overflow: hidden;
+  background-color: #333;
+  position: fixed;
+  top: 0;
+  width: 100%;*/
+
+  width: 100%;
+  padding: 12px;
+  background-color: white;
+  position: fixed;
+  top: 0;
+  z-index: 1;
+
+}
+
+
+.spo-header-img {
+  display: inline;
+}
+
+.spo-header-img>img {
+  max-width: 20%;
+  max-height: 20%;
+}
+
+.spo-header-ul {
+  float: right;
+  padding-right: 5%;
+  ;
+}
+
+.spo-header-ul li {
+  display: inline-block;
+  padding-left: 20px;
+}
+
+.music-4-everyone {
+  width: 100%;
+  position: relative;
+}
+
+.music-4-everyone>img {
+  z-index: -1;
+  max-width: 100%;
+  max-height: 100%;
+}
+
+.music-4-everyone-wrapper {
+  position: absolute;
+  top: 20%;
+  left: 27%;
+  width: 50%;
+  height: 50%;
+  text-align: center;
+}
+
+.music-4-everyone-wrapper span, .music-4-everyone-wrapper p {
+  position: absolute;
+  width: 100%;
+  color: white;
+}
+
+.music-4-everyone-wrapper p {
+  top: 40%;
+  width: 100%;
+  display: block;
+  text-align: center;
+  font-size: 21px;
+  margin: 0;
+  padding-top: 10%;
+  ;
+}
+
+.music-4-everyone-wrapper span {
+  font-size: 56px;
+  font-weight: bold;
+  top: 20%;
+  width: 100%;
+  display: block;
+  text-align: center;
+}
+
+.whats-on-spo>span {
+  display: inline-block;
+  font-weight: bold;
+  font-size: 30px;
+  text-align: center;
+  width: 100%;
+  text-decoration: underline;
+  text-decoration-color: #00B172;
+  -webkit-text-underline-position: under;
+  -ms-text-underline-position: below;
+  text-underline-position: under;
+  padding-top: 2%;
+}
+
+.spo-boxes {
+  display: flex;
+}
+
+.spo-boxes span {
+  color: #00B172;
+  display: inline-block;
+  width: 100%;
+  text-align: center;
+  font-weight: bold;
+  font-size: 20px;
+}
+
+.spo-boxes p{
+  text-align: center;
+  font-size: 17px;
+}
+
+.spo-boxes-mil, .spo-boxes-hd ,.spo-boxes-stream{
+  flex-grow: 1;
+  padding-left: 5%;
+  padding-right: 5%;
+  padding-bottom: 5%;
+}
+
+.spo-boxes img {
+  max-width: 100px;
+  align-self: flex-end;
+}
+
+.image-wrapper {
+  height: 186px;
+  display: flex;
+  justify-content: center;
+  padding-bottom: 8%;
+}
+
+.yeezy{
+  padding: 20px;
+  background-color: #00B172;
+  display: flex;
+  position: relative;
+}
+
+.yeezy-left{
+  flex-grow: 1;
+  padding-left: 50px;
+  padding-top:20px;
+  color: white;
+
+}
+
+.yeezy-left-spans{
+    width: 34%;
+}
+
+.yeezy-right{
+  flex-grow: 2;
+}
+.yeezy-right>img{
+  max-width: 300px;
+}
+
+#span-kanye{
+  font-size: 30px;
+  text-decoration: underline;
+  text-decoration-color: white;
+  -webkit-text-underline-position: under;
+  -ms-text-underline-position: below;
+  text-underline-position: under;
+}
+
+#span-search,#span-browse,#span-discover{
+  font-size: 24px;
+  font-weight: bold;
+}
+
+.yeezy-spo-ico{
+  position: absolute;
+  width: 100%;
+  text-align: center;
+  top: 250px;
+}
+
+.yeezy-spo-ico>img{
+  max-width: 100px;
+}
+
+/*ANIMATION LOGO*/
+@keyframes spo-jump {
+  0%   {transform: translate3d(0,0,0) scale3d(1,1,1);}
+  40%  {transform: translate3d(0,30%,0) scale3d(.7,1.5,1);}
+  100% {transform: translate3d(0,100%,0) scale3d(1.5,.7,1);}
+}
+.spo-jump:hover {
+  animation: spo-jump .5s linear alternate infinite;
+}
