@@ -201,8 +201,10 @@ ul li {
 
 .green-box {
   background-color: #00B172;
-  margin:40px;
-  height:90%;
+  width:90%;
+  margin:40px auto;
+  height:auto;
+  overflow: hidden;
   clear:both;
   color:#fff;
   position: relative;
@@ -295,11 +297,11 @@ ul li {
 
 @media screen and (max-width:689px) {
   .menu-items {
-    display:none!important;
+    display:none;
   }
 
   .hamburger {
-    display:block!important;
+    display:block;
   }
 
   .page-content .col-1-3, .green-box .col-1-2 {
@@ -311,10 +313,6 @@ ul li {
 
   #center-logo {
     display:none;
-  }
-
-  .green-box {
-    height:auto;
   }
 
   .last-content {
