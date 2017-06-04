@@ -6,3 +6,197 @@ Green: #00B172
 White: #FFF
 
 */
+body {
+  display: flex;
+  color:  #1A1A1A;
+  flex-direction: column;
+  margin: 0;
+  padding: 0;
+  font-family: sans-serif;
+}
+
+ul {
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+    overflow: hidden;
+}
+
+li {
+  float: left;
+}
+li a {
+    display: block;
+    color: black;
+    text-align: center;
+    padding: 16px;
+    text-decoration: none;
+}
+li a:hover {
+    color: #1AB26B;
+}
+
+h3 {
+  text-align: center;
+  padding:  10px;
+  border-bottom: 2px solid;
+  display: flex;
+  justify-content: center;
+  margin: 0 auto;
+  margin-top: 15px;
+}
+h4 {
+  margin: 10px auto 0;
+  color: #1AB26B;
+  font-size: 15pt;
+  letter-spacing: 1pt;
+}
+.top-nav {
+  order: 1;
+  padding:  5px;
+  width: 100%;
+  display: block;
+  position: fixed;
+  background-color:  white;
+}
+.nav-links {
+  float: right;
+  font-weight: bold;
+}
+
+.spotify-home {
+  position: relative;
+  float: left;
+width: 150px;
+}
+
+/* Title Banner */
+.music-for-everyone {
+  flex-basis: auto;
+  background-image: url("../images/landing.jpg");
+  background-repeat: no-repeat;
+  background-size: 100% 100%;
+}
+.title {
+  font-family: sans-serif;
+  text-align:  center;
+  color: white;
+  margin: 25%;
+  font-size: 50pt;
+}
+.subtitle{
+  text-align: center;
+  color: white;
+  margin: -22% 0 25% 0;
+  font-size: 20px;
+}
+
+.subtitle-panels {
+  display: flex;
+  margin-bottom: 50px;
+}
+
+/* Features */
+.whats-on-spotify {
+  height: 58px;
+}
+.what-is {
+  color: #1A1A1A;
+  border-color: #1AB26B;
+  border-width: 4px;
+  padding: 0;
+  padding-bottom: 5px;
+  width: 288px;
+  font-family: sans-serif;
+  font-size: 22pt;
+  letter-spacing: 1pt;
+}
+.badges {
+  display: flex;
+  margin: 25px 25px 0px;
+  justify-content: center;
+  padding:  0 10px;
+}
+.feature-badge {
+  display:  flex;
+  flex-direction: column;
+  justify-content: center;
+  flex-grow: 10;
+  padding: 0 auto;
+  text-align: center;
+  padding: 0%;
+  margin: 0 auto;
+}
+.badge-icon {
+  width: 130px;
+  margin: 0 auto;
+}
+p.feature {
+  color:#767676;
+  width: 155px;
+  margin: 5% auto;
+}
+
+.showcase {
+  order: 3;
+  display: flex;
+  flex-direction: column;
+  background-color: #1AB26B;
+  margin: 2%;
+  padding: 1%;
+}
+
+h4.green-box {
+  display: inline;
+  color:white;
+  float: left;
+  margin-left: 0;
+  margin-top: 59px;
+}
+h3.green-box {
+  color:white;
+}
+p.green-box {
+  color: white;
+}
+
+.showcase-logo {
+  width: 140px;
+}
+
+.demo-image {
+   margin: auto 5%
+   ;width: 20%;
+   height: 60%;
+ }
+
+h3.yeezy {
+  padding: 0;
+  color: white;
+  border-width: 3px;
+  font-stretch: expanded;
+  font-size: 18pt;
+  width: 100%;
+  padding-bottom: 3px;
+  margin-top: 8%;
+}
+
+.showcase-text{
+display: flex;
+flex-direction: column;
+width: 16%;
+margin: 0 0 0 5%;
+}
+
+.showcase-images {
+  margin: auto;
+}
+
+#kanye {
+  float: left;
+  width: 25%;
+  margin: 1.5% 5%;
+  border-bottom: white;
+  width: 318px;
+  letter-spacing: 0pt;
+}
