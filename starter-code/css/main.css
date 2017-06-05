@@ -1,8 +1,121 @@
+@import url('https://fonts.googleapis.com/css?family=Raleway');
+
+.navBar{
+  position: fixed;
+  height: 80px;
+  width: 100%;
+  background-color: white;
+  z-index: 1;
+}
+
+.logo{
+  background-image: url(../images/spotify-logo.png);
+  height: 90px;
+  width: 145px;
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: contain;
+  float:left;
+  margin-left: 300px;
+
+}
+
+
+.logo:hover{
+  animation: jump 0.1s;
+}
+
+@keyframes jump {
+  0%{transform: translateY(0px);}
+  25%{transform: translateY(10px);}
+  50%{transform: translateY(0px);}
+  75%{transform: translateY(-10px);}
+  100%{transform: translateY(0px);}
+}
+
+.nav {
+  height: 100px;
+  width: 70px;
+  float: right;
+  text-align: center;
+  position: relative;
+  float: right;
+  font-family: 'Raleway', sans-serif;
+}
+
+.nav > p {
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  font-size: 13px;
+  color: #1A1A1A;
+}
+
+.navBar div:nth-child(2){
+  margin-right: 285px;
+}
+
+.mainImage {
+  background-image: url(../images/landing.jpg);
+  height: 600px;
+  width: 900px;
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+  margin: 0 auto;
+  text-align: center;
+  position: relative;
+
+}
+
+
+.topText {
+  width: 100%;
+  height: 100px;
+  position: absolute;
+  top:318px;
+}
+
+.bottomText {
+  width: 100%;
+  height: 100px;
+  position: absolute;
+  top:250px;
+}
+
+
+.bottomText > p {
+  font-size: 55px;
+  margin-top: 22px;
+  font-family: 'Raleway', sans-serif;
+  color: white;
+}
+
+
+.topText > p {
+  font-size: 19px;
+  margin-top: 29px;
+  font-family: 'Raleway', sans-serif;
+  color: white;
+}
+
+.footer{
+  height: 20px;
+  width: 243px;
+  margin: 0 auto;
+  text-align: center;
+}
+
+.footer > p {
+  font-size: 26px;
+  margin-top: 27px;
+  font-family: 'Raleway', sans-serif;
+  border-bottom: 4px solid #00B172;
+}
 /*
 Colors:
-
-Text: 1A1A1A
+Text: #1A1A1A
 Green: #00B172
 White: #FFF
-
 */
