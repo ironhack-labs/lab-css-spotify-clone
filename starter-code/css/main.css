@@ -6,3 +6,182 @@ Green: #00B172
 White: #FFF
 
 */
+
+
+@-moz-keyframes bounce {
+  0% { margin-top: 0;}
+  20% { margin-top: -1%;}
+  40% { margin-top: -0.5%;}
+  100% { margin-top: 0;}
+}
+
+@-webkit-keyframes bounce {
+  0% { margin-top: 0}
+  20% { margin-top: -1%;}
+  40% { margin-top: -0.5%;}
+  100% { margin-top: 0;}
+}
+
+* {
+  box-sizing: content-box;
+}
+
+body {
+  font-family: 'Open Sans', sans-serif;
+  margin: 0;
+}
+
+nav {
+  background-color: #ffffff;
+  position: fixed;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100px;
+  z-index: 10;
+}
+
+.nav_logo {
+  position: relative;
+  top: 25px;
+  left: 25px;
+  height: 50px;
+}
+
+.nav_logo:hover {
+  -moz-animation:bounce 1s linear;
+  -webkit-animation:bounce 1s linear;
+}
+
+nav > ul {
+  position: absolute;
+  right: 20px;
+  top: 35px;
+  margin: 0;
+}
+
+nav > ul a {
+  float: left;
+  color: #1A1A1A;
+  list-style-type: none;
+  padding-right: 35px;
+  text-decoration: none;
+  font-weight: 300;
+  font-size: 1.3em;
+}
+
+.jumbo1 {
+  position: relative;
+  margin: 0;
+  left: 0;
+  width: 100%;
+  height: 900px;
+}
+
+/* ¿cómo  aplico overflow:hidden a la imagen? */
+.jumbo1 .bg-image {
+  width: 100%;
+  height: 100%;
+}
+
+.jumbo1 > div {
+  position: absolute;
+  top: 25%;
+  left: 0;
+  width: 100%;
+  color: #fff;
+  text-align: center;
+}
+
+.jumbo1  h1 {
+  font-size: 5em;
+  margin-bottom: 20px;
+}
+
+.jumbo1 p {
+  font-size: 1.8em;
+  padding-top: 0px;
+}
+
+.title {
+  position: absolute;
+  margin: 0;
+  left: 0;
+  width: 100%;
+}
+
+.title h2 {
+
+  top:50px;
+  text-align: center;
+  font-size: 2em;
+  width: 100%;
+
+}
+
+.topic-container {
+  margin: 0, 10%, 0, 10%;
+  width: 100%;
+  height: auto;
+}
+
+.topic {
+  position: relative;
+  float: left;
+  top: 100px;
+  text-align: center;
+  width: 33%;
+}
+
+.topic img {
+  width: 100px;
+}
+
+.topic h3 {
+  color: #00B172;
+  font-size: 1.6em;
+}
+
+.topic p {
+  font-weight: 300;
+  font-size: 1.3em;
+  padding: 10px;
+  margin: 50px;
+}
+
+footer {
+  float: left;
+  width: 90%;
+  right: 10%;
+  margin-left: 30px;
+  margin-bottom: 30px;
+  margin-top: 200px;
+  height: inherit;
+  background-color: #00B172;
+  padding: 30px;
+}
+
+.footer-content {
+  float: left;
+  width: 500px;
+  margin: 0;
+  color: #fff;
+}
+
+footer h3 {
+  font-size: 2em;
+}
+
+footer p {
+  font-size: 1.3em;
+}
+
+footer img {
+  position: relative;
+  float: right;
+  top: 0;
+  right: 0;
+  width: 300px;
+  height: auto;
+  margin: 30px 30px 30px 0 ;
+}
