@@ -6,3 +6,98 @@ Green: #00B172
 White: #FFF
 
 */
+body {
+  font-family: arial;
+  margin: none;
+}
+#header {
+  margin-top: 0px;
+  position: fixed;
+  float: left;
+  background-color: white;
+  z-index: 1;
+  height: 80px;
+  width: 100%;
+  padding: 20px;
+}
+#logo {
+  position: relative;
+  bottom: 0%;
+  float: left;
+  height: 100%;
+  width: auto;
+  margin-left: 4%;
+  animation-name: jiggle;
+  animation-duration: 1.5s;
+  animation-iteration-count: infinite;
+  animation-timing-function: linear;
+  animation-play-state: paused;
+}
+#logo:hover {
+  animation-play-state: running;
+}
+@keyframes jiggle {
+  0%   {bottom: 0%;}
+  10%  {bottom: 20%;}
+  14%  {transform: rotate(5deg);}
+  18%  {transform: rotate(-5deg);}
+  22%  {transform: rotate(-5deg);}
+  26%  {transform: rotate(5deg);}
+  30%  {transform: rotate(5deg);}
+  34%  {transform: rotate(-5deg);}
+  38%  {transform: rotate(-5deg);}
+  42%  {transform: rotate(5deg);}
+  46%  {transform: rotate(5deg);}
+  50%  {transform: rotate(-5deg);}
+  54%  {transform: rotate(-5deg);}
+  58%  {transform: rotate(5deg);}
+  62%  {transform: rotate(5deg);}
+  66%  {transform: rotate(-5deg);}
+  70%  {transform: rotate(-5deg);}
+  75%  {transform: rotate(5deg);}
+  80%  {bottom: 20%;}
+  100% {bottom: 0%;}
+}
+#header-links {
+  position: relative;
+  top: 10%;
+  right: 4%;
+  list-style-type: none;
+}
+#header-links li {
+  float: right;
+  margin-right: 2%;
+  font-size: 1.8vw;
+  color: #505050;
+}
+#contents {
+  clear: both;
+}
+#splash-container {
+  position: relative;
+  z-index: 0;
+}
+#splash-img {
+  width: 100%;
+  height: auto;
+}
+#splash-text {
+  width: 100%;
+  position: absolute;
+  z-index: 1;
+  bottom: 35%;
+  color: white;
+  text-align: center;
+  font-size: 2.1vw;
+}
+#splash-header {
+  font-size: 6vw;
+  font-weight: bold;
+}
+#whatsOn {
+  position: absolute;
+  left: 38%;
+  font-size: 2vw;
+  font-weight: bold;
+  border-bottom: 4px solid green;
+}
