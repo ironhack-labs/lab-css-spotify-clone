@@ -6,3 +6,113 @@ Green: #00B172
 White: #FFF
 
 */
+.container-main {
+  background-color: white;
+  font-family: arial;
+}
+
+.background-container,
+.background-container > img,
+.navbar, footer {
+  width: 100%
+}
+
+.background-container {
+  position: relative;
+  height: 1259px;
+}
+
+.background-container > img {
+  float: left;
+}
+
+.container-center {
+ position: absolute;
+ color: white;
+ width: 770px;
+ margin: 525px;
+}
+
+h1 {
+  font-size: 80px;
+  width: 800px;
+  text-align: center;
+  margin: 0 auto;
+  line-height: 2;
+}
+
+p {
+  font-size: 25px;
+  width: 600px;
+  margin: 0 auto;
+  text-align: center;
+}
+
+.navbar {
+  position: fixed;
+  height: 100px;
+  z-index: 1;
+  background-color: white;
+}
+
+.navbar > img {
+  position: absolute;
+  height: 100px;
+  animation: bounce 0.7s linear infinite;
+  animation-play-state: paused;
+}
+
+.navbar > img:hover {
+  animation-play-state: running;
+}
+
+@keyframes bounce {
+  0% {
+    top: 0px;
+  }
+
+  25% {top: -10px;}
+  50% {top: 0px;}
+  75% {top: -5px;}
+  100% {top: 0px;}
+}
+
+ul {
+  position: absolute;
+  list-style-type: none;
+  top: 30px;
+  font-size: 20px;
+  color: #1A1A1A;
+  right: 45px;
+
+}
+
+li {
+  float: left;
+  margin: 0px 0px 0px 40px;
+}
+
+.navbar > div {
+  float: right;
+  height: 100px;
+  width: 500px;
+}
+
+h3 {
+  font-size: 30px;
+  text-align: center;
+}
+
+ footer {
+  position: relative;
+  height: 150px;
+  z-index: 1;
+}
+
+.background-container + footer > div {
+  position: relative;
+  margin: 0 auto;
+  width: 271px;
+  height: 50px;
+  border-bottom: 5px solid green;
+}
