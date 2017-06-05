@@ -6,3 +6,168 @@ Green: #00B172
 White: #FFF
 
 */
+
+body {
+  font-family: 'Open Sans', sans-serif;
+}
+
+.top-container {
+  width: 100%;
+  height: 150px;
+  /*border-style: dashed;*/
+}
+
+.spotify-logo {
+  width: 300px;
+  height: 100px;
+  margin-top: 25px;
+  margin-left: 50px;
+  /*border-style: dashed;*/
+  background-image: url("../images/spotify-logo.png");
+  background-repeat: no-repeat;
+  background-size: contain;
+  float: left;
+}
+
+@-webkit-keyframes hvr-wobble-vertical {
+16.65% {
+  -webkit-transform: translateY(8px);
+  transform: translateY(8px);
+}
+33.3% {
+  -webkit-transform: translateY(-6px);
+  transform: translateY(-6px);
+}
+49.95% {
+  -webkit-transform: translateY(4px);
+  transform: translateY(4px);
+}
+66.6% {
+  -webkit-transform: translateY(-2px);
+  transform: translateY(-2px);
+}
+83.25% {
+  -webkit-transform: translateY(1px);
+  transform: translateY(1px);
+}
+100% {
+  -webkit-transform: translateY(0);
+  transform: translateY(0);
+}
+}
+@keyframes hvr-wobble-vertical {
+16.65% {
+  -webkit-transform: translateY(8px);
+  transform: translateY(8px);
+}
+33.3% {
+  -webkit-transform: translateY(-6px);
+  transform: translateY(-6px);
+}
+49.95% {
+  -webkit-transform: translateY(4px);
+  transform: translateY(4px);
+}
+66.6% {
+  -webkit-transform: translateY(-2px);
+  transform: translateY(-2px);
+}
+83.25% {
+  -webkit-transform: translateY(1px);
+  transform: translateY(1px);
+}
+100% {
+  -webkit-transform: translateY(0);
+  transform: translateY(0);
+}
+}
+.hvr-wobble-vertical {
+display: inline-block;
+vertical-align: middle;
+-webkit-transform: perspective(1px) translateZ(0);
+transform: perspective(1px) translateZ(0);
+box-shadow: 0 0 1px transparent;
+}
+.hvr-wobble-vertical:hover, .hvr-wobble-vertical:focus, .hvr-wobble-vertical:active {
+-webkit-animation-name: hvr-wobble-vertical;
+animation-name: hvr-wobble-vertical;
+-webkit-animation-duration: 1s;
+animation-duration: 1s;
+-webkit-animation-timing-function: ease-in-out;
+animation-timing-function: ease-in-out;
+-webkit-animation-iteration-count: 1;
+animation-iteration-count: 1;
+}
+
+.menu {
+  font-family: 'Open Sans', sans-serif;
+  color: 1A1A1A;
+  font-size: 40px;
+  text-align: right;
+  padding-top: 47.5px;
+  padding-right: 100px;
+
+}
+
+.menu-items {
+  list-style-type: none;
+  margin: 31px;
+  padding: 0;
+  overflow: hidden;
+  float: right;
+}
+
+.menu-items li {
+  font-size: 30px;
+  float: left;
+
+}
+
+.menu-items li a {
+    display: block;
+    color: #1A1A1A;
+    text-align: center;
+    padding: 14px 16px;
+    text-decoration: none;
+}
+
+
+.landing-image {
+  width: 100%;
+  height: 1000px;
+  background-image: url("../images/landing.jpg");
+  background-size: contain;
+}
+
+.landing-text{
+  height: 750px;
+  width: 100%;
+  margin: 0 auto;
+  padding-top: 300px;
+  text-align: center;
+  color: #FFF;
+  float: left;
+}
+
+h1 {
+  font-size: 100px;
+  margin-bottom: 25px;
+}
+
+.landing-text p {
+  font-size: 35px;
+}
+
+.bottom {
+  width: 400px;
+  height: 125px;
+  text-align: center;
+  /*border-style: dotted;*/
+  margin: 0 auto;
+  clear: both;
+}
+
+.bottom h2 {
+  font-size: 40px;
+  /*border-style: dotted;*/
+}
