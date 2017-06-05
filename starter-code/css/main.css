@@ -6,3 +6,159 @@ Green: #00B172
 White: #FFF
 
 */
+* {
+  margin: 0;
+  padding: 0;
+}
+body {
+  background-color: #fff;
+  font-family: 'Open Sans', sans-serif;
+}
+
+/*=======================
+LOGO ANIMATION
+=========================*/
+
+@-webkit-keyframes hvr-wobble-vertical {
+ 16.65% {
+   -webkit-transform: translateY(8px);
+   transform: translateY(8px);
+ }
+ 33.3% {
+   -webkit-transform: translateY(-6px);
+   transform: translateY(-6px);
+ }
+ 49.95% {
+   -webkit-transform: translateY(4px);
+   transform: translateY(4px);
+ }
+ 66.6% {
+   -webkit-transform: translateY(-2px);
+   transform: translateY(-2px);
+ }
+ 83.25% {
+   -webkit-transform: translateY(1px);
+   transform: translateY(1px);
+ }
+ 100% {
+   -webkit-transform: translateY(0);
+   transform: translateY(0);
+ }
+}
+@keyframes hvr-wobble-vertical {
+ 16.65% {
+   -webkit-transform: translateY(8px);
+   transform: translateY(8px);
+ }
+ 33.3% {
+   -webkit-transform: translateY(-6px);
+   transform: translateY(-6px);
+ }
+ 49.95% {
+   -webkit-transform: translateY(4px);
+   transform: translateY(4px);
+ }
+ 66.6% {
+   -webkit-transform: translateY(-2px);
+   transform: translateY(-2px);
+ }
+ 83.25% {
+   -webkit-transform: translateY(1px);
+   transform: translateY(1px);
+ }
+ 100% {
+   -webkit-transform: translateY(0);
+   transform: translateY(0);
+ }
+}
+.hvr-wobble-vertical {
+ display: inline-block;
+ vertical-align: middle;
+ -webkit-transform: perspective(1px) translateZ(0);
+ transform: perspective(1px) translateZ(0);
+ box-shadow: 0 0 1px transparent;
+}
+.hvr-wobble-vertical:hover, .hvr-wobble-vertical:focus, .hvr-wobble-vertical:active {
+ -webkit-animation-name: hvr-wobble-vertical;
+ animation-name: hvr-wobble-vertical;
+ -webkit-animation-duration: 1s;
+ animation-duration: 1s;
+ -webkit-animation-timing-function: ease-in-out;
+ animation-timing-function: ease-in-out;
+ -webkit-animation-iteration-count: 1;
+ animation-iteration-count: 1;
+}
+/*=======================
+NAVBAR
+=========================*/
+
+.navegation {
+  height: 50px;
+  width: 100%;
+  background-color: #fff;
+}
+.hvr-wobble-vertical {
+  width: 200px;
+  position: absolute;
+  top: 15px;
+  left: 30px;
+}
+.nav-bar li {
+  position: relative;
+  display: inline-block;
+  top: 30px;
+  float: right;
+  font-size: 20px;
+  margin-right: 35px;
+  font-weight: 100;
+  clear: left;
+}
+/*=======================
+MAIN COVER
+=========================*/
+.landing-cover {
+  background-image: url('../images/landing.jpg');
+  height: 680px;
+  background-size: cover;
+  background-position: center center;
+  color: #fff;
+  margin-top: 40px;
+}
+
+.main-cover {
+  display: block !important;
+  text-align: center;
+}
+.main-cover h3 {
+  font-size: 28px;
+  font-weight: 300;
+}
+.main-cover h1 {
+  position: relative;;
+  text-align: center;
+  font-size: 70px;
+  padding-top: 250px;
+  margin-bottom: 25px;
+}
+
+/*=======================
+FOOTER
+=========================*/
+
+.spotify {
+  display: block;
+  text-align: center;
+  margin: 30px;
+  font-weight: 600;
+  font-size: 35px;
+}
+.spotify:after {
+  position: absolute;
+  content: '';
+  width: 16%;
+  height: 1px;
+  border-bottom: 4px solid #299e5c;
+  bottom: 25px;
+  left: 50%;
+  margin-left: -8.5%;
+}
