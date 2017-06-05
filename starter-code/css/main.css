@@ -7,9 +7,14 @@ body {
 }
 
 .top img {
+  position: absolute;
   padding: 15px 30px;
   float: left;
   height: 70px;
+}
+
+.top img:hover {
+  animation: jump 0.6s forwards;
 }
 
 .top a {
@@ -134,4 +139,13 @@ body {
   top: 0;
   bottom: 0;
   margin: auto;
+}
+
+/*KEYFRAMES*/
+
+@keyframes jump {
+  0% { transform: translateY(-1px) }
+  40% { transform: translateY(-12px) }
+  70% { transform: translateY(5px) }
+  100% { transform: translateY(-1px) }
 }
