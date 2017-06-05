@@ -6,3 +6,217 @@ Green: #00B172
 White: #FFF
 
 */
+body{
+  padding: 0;
+  margin: 0;
+}
+.nav-list {
+    display: inline;
+    float: right;
+    margin: 33px 28px;
+    font-size: 20px;
+    font-family: 'Open Sans', sans-serif;
+    color: #6B6B6B;
+}
+
+li {
+  display: inline;
+  padding: 0px 18px;
+  font-weight: 100;
+}
+
+#nav-bar {
+  position: fixed;
+  top: 0;
+  left:0;
+  right: 0;
+  height: 90px;
+  background-color: #fff;
+  z-index: 1;
+}
+
+.nav-img {
+  position: absolute;
+  margin: 15px 33px;
+  float: left;
+  height: 60px;
+  width: 200px;
+}
+
+.img-row {
+  position: relative;
+  background-image: url(../images/landing.jpg);
+  background-repeat: no-repeat;
+  background-position: center;
+  background-size: 100% 100%;
+  width: 100%;
+  color: white;
+  text-align: center;
+  height: 700px;
+  border: 0px;
+  margin: 0px;
+  padding: 0px;
+  left: 0;
+}
+
+.img-row > h1 {
+  font-size: 75px;
+  font-weight: bold;
+  padding-top: 220px;
+  font-family: 'Open Sans', sans-serif;
+  margin-bottom: 30px;
+}
+
+.img-row > h2 {
+  font-size: 28px;
+  margin: 0px;
+  padding: 0px;
+  font-weight:lighter;
+  font-family: 'Open Sans', sans-serif;
+
+
+}
+
+.cf:before,
+.cf:after {
+    content: " "; /* 1 */
+    display: table; /* 2 */
+}
+
+.cf:after {
+    clear: both;
+}
+
+
+
+/**
+ * For IE 6/7 only
+ * Include this rule to trigger hasLayout and contain floats.
+ */
+.cf {
+    *zoom: 1;
+}
+
+#third-row {
+  width: 100%;
+  text-align: center;
+  position: relative;
+  align-items: center;
+  align-content: center;
+  display:block;
+}
+
+.whats-on > h3 {
+  border-bottom: 5px solid #00B172;
+  padding-bottom: 5px;
+  color: #1A1A1A;
+  font-size: 36px;
+  font-weight: bold;
+  box-sizing: border-box;
+}
+
+h1, h2, p, h3 {
+  font-family: 'Open Sans', sans-serif;
+}
+.icons {
+  box-sizing: border-box;
+  padding: 15px 96px;
+  float: left;
+}
+
+.icons h4 {
+  color: #00B172;
+  padding: 20px
+  font-weight: bold;
+  font-size: 28px;
+  font-family: 'Open Sans', sans-serif;
+}
+
+.icons p {
+  font-size: 23px;
+  font-weight: 100;
+  font-family: 'Open Sans', sans-serif;
+}
+
+.icon-img {
+  height: 95px;
+  width: 110px;
+}
+
+.whats-on {
+  width: 340px;
+  margin: 0px 37%;
+  align-self: center;
+}
+
+#green-div{
+  background-color: #1EA758;
+  margin: 20px 45px;
+  padding: 50px 85px;
+  position: relative;
+}
+
+.green-text {
+  float:left;
+}
+
+.green-text h3 {
+  color: #fff;
+  font-weight: bold;
+  font-size: 38px;
+  border-bottom: 4px solid #fff;
+  display:inline-block;
+  font-family: 'Open Sans', sans-serif;
+  margin-top: 25px;
+  padding-bottom: 4px;
+}
+
+.green-text h4 {
+  color: #fff;
+  font-weight: bold;
+  font-size: 30px;
+  font-family: 'Open Sans', sans-serif;
+  margin-top: 30px;
+}
+
+.green-text p {
+  color: #fff;
+  font-weight: 100;
+  font-size: 20px;
+}
+
+#green-div > img {
+
+  float: right;
+}
+
+.img-app {
+  width: 350px;
+  padding-top: 40px;
+}
+
+.img-white {
+  position: absolute;
+  height: 120px;
+  width: 120px;
+  top: 48%;
+  right: 47%;
+}
+
+.nav-img:hover {
+  animation-name: slidein;
+  animation-duration: 0.5s;
+  animation-iteration-count: infinite;
+}
+
+@keyframes slidein {
+  0% {
+    margin-top: 15px;
+  }
+  30% {
+    margin-top: 5px;
+  }
+  100% {
+    margin-top: 15px;
+  }
+}
