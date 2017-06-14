@@ -6,3 +6,134 @@ Green: #00B172
 White: #FFF
 
 */
+body {
+  font: 200 16px/1.5 "Helvetica Neue", Helvetica, Arial, sans-serif;
+  height: 100%;
+  width: 100%;
+  margin: -7px;
+}
+.header {
+  height: 147px;
+  position: fixed;
+  background-color: white;
+  width: 100%;
+  z-index: 100;
+}
+
+#logo {
+  padding: 30px 60px;
+  float: left;
+}
+
+#logo:hover {
+  animation: todown 0.5s
+}
+
+@keyframes todown {
+  from { transform:translateY(0) }
+	50% { transform:translateY(30px) }
+	to { transform:translateY(0) }
+}
+
+#nav {
+  float: right;
+  font-size: 1.95em;
+  margin-right: 40px;
+}
+
+#nav ul li {
+    display:inline-block;
+    margin: 20px 25px;
+}
+
+.banner {
+  background-image: url("../images/landing.jpg");
+  background-size: 1900px;
+  background-position: center;
+  background-repeat: no-repeat;
+  height: 900px;
+  color: white;
+  font-size: 2.5em;
+  text-align: center;
+  padding-top: 300px;
+}
+
+h1 {
+  font-size: 110px;
+  margin-bottom: -10px;
+}
+
+.services {
+  height: 700px;
+  padding: 50px 70px;
+  text-align: center;
+}
+
+.each-service {
+  float: left;
+  width: 400px;
+  margin: 130px 85px 85px 85px;
+  font-size: 2em;
+}
+
+#hq-icon {
+  padding-top: 20px;
+  margin-bottom: 20px;
+}
+
+#devices-icon {
+  margin-bottom: 5px;
+}
+
+h2 {
+  font-size: 3em;
+  border-bottom: 6px #00B172 solid;
+  width: 430px;
+  margin: auto;
+  font-weight: bold;
+}
+
+h3 {
+  color: #00B172;
+}
+
+h3 span {
+  color: white;
+}
+
+.information {
+  background-color: #00B172;
+  margin: 20px 70px;
+  height: 1090px;
+  position: relative;
+}
+
+.actions {
+  font-size: 2em;
+  color: white;
+  margin-left: 130px;
+  width: 1000px;
+  padding-top: 40px;
+}
+
+#title-information {
+  font-size: 3em;
+  border-bottom: 6px white solid;
+  color: white;
+  padding-top: 90px;
+  width: 646px;
+  margin-left: 130px;
+  font-weight: bold;
+}
+
+#spotify-logo {
+  position: absolute;
+  left: 44%;
+  top: 42%;
+}
+
+#spotify-app {
+  position: absolute;
+  right: 8%;
+  top: 16%;
+}
