@@ -6,3 +6,143 @@ Green: #00B172
 White: #FFF
 
 */
+body {
+  font-family: Helvetica;
+  margin: 0;
+  width: 100%;
+  height: 100%;
+}
+header {
+  position: fixed;
+  width: 100%;
+  height: 15vh;
+  background-color: #FFF;
+}
+ul > li {
+  display: inline-block;
+}
+header a {
+  color: #1A1A1A;
+  margin-right: 20px;
+  font-size: 25px;
+  text-transform: capitalize;
+}
+.headerRight {
+  float: right;
+  margin-right: 30px;
+  margin-top: 55px;
+}
+.logo {
+  width: 210px;
+  margin: 30px;
+  float: left;
+}
+.logo:hover {
+  animation-name: bounce;
+  animation-duration: 200ms;
+  animation-direction: alternate;
+  animation-iteration-count: infinite;
+}
+@keyframes bounce {
+  100% {
+    margin-top: 1vh;
+  }
+}
+.textBack {
+  background-image: url("../images/landing.jpg");
+  color: #FFF;
+  background-repeat: no-repeat;
+  background-size: 100%;
+  height: 850px;
+  text-align: center;
+  font-size: 30px;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+}
+.textBack p {
+  margin: 5px;
+}
+.textBackMiddle {
+  font-size: 100px;
+  margin: 0;
+  margin-bottom: 15px;
+}
+section {
+  text-align: center;
+  overflow: auto;
+}
+section > h1 {
+  font-size: 35px;
+  margin-bottom: 75px;
+}
+section u {
+  text-decoration: none;
+  border-bottom: 4px solid #00B172;
+}
+section div {
+  width: 33.3%;
+  float: left;
+}
+.imgSection {
+  height: 120px;
+}
+section span {
+  color: #00B172;
+  display: block;
+  font-weight: bolder;
+  font-size: 25px;
+  margin-top: 10px;
+  margin-bottom: 20px;
+}
+.middleSection > p {
+  font-size: 20px;
+  margin: 5px;
+}
+.middleSection {
+
+}
+.greenSection {
+  color: #FFF;
+  background-color: #00B172;
+  margin: 50px;
+  overflow: auto;
+  padding-bottom: 100px;
+}
+.greenSection u {
+  text-decoration: none;
+  border-bottom: 4px solid #FFF;
+}
+.content {
+  padding: 50px;
+  float: left;
+  width: 40%;
+}
+.content > h1 {
+  font-size: 35px;
+}
+.content > span {
+  font-size: 30px;
+  font-weight: 600;
+  margin-bottom: 35px;
+  display: block;
+  margin-top: 47px;
+}
+.content > p {
+  font-size: 22px;
+  margin: 15px;
+}
+.whiteLogo {
+  height: 150px;
+  position: absolute;
+  margin-top: 400px;
+  margin-left: -50px;
+}
+.appRight > img {
+  height: 80vh;
+}
+.appRight {
+  float: right;
+  width: 35%;
+  margin-top: 107px;
+}
