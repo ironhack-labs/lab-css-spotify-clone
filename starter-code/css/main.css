@@ -3,6 +3,196 @@ Colors:
 
 Text: 1A1A1A
 Green: #00B172
-White: #FFF
+White: #FFF*/
+html {
+}
 
-*/
+body {
+  font-family: 'Open Sans', sans-serif;
+  font-size: 18px;
+   width: 100%;
+}
+
+nav {
+ height: 100px;
+  width: 100%;
+  padding-right: 60px;
+ background-color: white;
+ position: fixed;
+ box-sizing: border-box;
+ top: 0;
+ left:0;
+}
+
+
+nav ul {
+  float: right;
+}
+
+nav ul li {
+  display: inline-block;
+  margin-top: 15px;
+  vertical-align: middle;
+}
+
+#logoBox{
+  float:left;
+  padding-top: 15px;
+  padding-left: 40px;
+}
+#logo{
+  width: 230px;
+}
+
+#logo:hover{
+animation-name: bouncingLogo;
+animation-duration: 200ms;
+animation-direction: alternate;
+animation-iteration-count: infinite;
+}
+
+@keyframes bouncingLogo {
+  100%{
+    margin-top: 9px;
+  }
+}
+
+a{
+    text-decoration: none;
+    font-weight: lighter;
+    font-size: 1.5em;
+    color: black;
+    font: verdana;
+    margin-left: 20px;
+}
+
+
+.picture{
+  box-sizing: border-box;
+  background-image: url(../images/landing.jpg);
+  background-size: cover;
+  height: 780px;
+  background-position: center;
+  text-align: center;
+  /*position: relative;*/
+}
+
+#advertise{
+  color: white;
+  position: relative;
+  top: 35%;
+}
+
+#adTitleForE{
+  font-size: 4.5em;
+  font-weight: bold;
+  height: 80px;
+  line-height: 100px;
+  margin: 0px;
+}
+
+#adText{
+  font-size: 1.8em;
+}
+
+#middleTop{
+  text-align: center;
+  font-weight: bold;
+  height: 60px;
+  width: 350px;
+  border-bottom: 5px solid RGB(000, 177 ,114);
+  font-size: 2.1em;
+  margin-left: 65vh;
+  padding-top: 3.7%;
+
+}
+
+#middleMain{
+height: 450px;
+margin-top: 100px;
+}
+
+figure{
+  height: 120px;
+}
+
+#musicIconPic{
+  height: 120px;
+}
+
+#hdMusicPic{
+  height: 120px;
+}
+
+#devicesPic{
+  height: 120px;
+}
+
+#middleMainSongsBox, #hdMusicBox, #devicesBox{
+  float: left;
+  width: 33%;
+  text-align: center;
+}
+
+#middleMainSongsTitle, #middleMainSongsTitle, #middleMainSongsTitle{
+font-size: 2em;
+margin-top: 20px;
+margin-bottom: 20px;
+font-weight: bold;
+color: RGB(000, 177 ,114);
+}
+
+#middleMainSongsText, #middleMainSongsText, #middleMainSongsText{
+font-size: 1.4em;
+}
+
+.main{
+  box-sizing: border-box;
+  height: 780px;
+   background-color: #00B172;
+   margin-bottom: 40px;
+   margin-right: 40px;
+   margin-left: 40px;
+   background-image: url(../images/spotify-icon-white.png);
+   background-size: 140px;
+   background-position: center;
+   background-repeat: no-repeat;
+}
+
+.mainLeftBox{
+  float: left;
+  color: white;
+  width: 50%;
+  margin-top: 3%;
+  margin-left: 6%;
+
+}
+
+.mainRightBox{
+  float: right;
+  width:30%;
+  margin-top: 8%;
+}
+
+
+#spotiApp{
+  height: 610px;
+}
+
+#mainLeftBoxP1{
+  width: 522px;
+  border-bottom: 3px solid white;
+  font-size: 2.2em;
+  font-weight: bold;
+  padding-bottom: 12px;
+
+}
+
+#mainLeftBoxP2, #mainLeftBoxP4, #mainLeftBoxP6{
+  font-size: 1.8em;
+  font-weight: bold;
+}
+
+#mainLeftBoxP3, #mainLeftBoxP5, #mainLeftBoxP7{
+font-size: 1.1em;
+}
