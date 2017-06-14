@@ -6,3 +6,121 @@ Green: #00B172
 White: #FFF
 
 */
+
+@import url(https://fonts.googleapis.com/css?family=Montserrat);
+body {
+  font-family: "Montserrat";
+  font-weight: lighter;
+  margin: 0px;
+  padding: 0;
+}
+
+.navbar {
+  height: 100px;
+  padding: 20px 40px;
+  position: fixed;
+  background-color: white;
+  width: 100%;
+  box-sizing: border-box;
+  font-size: 120%;
+}
+
+.spotify-logo {
+  float: left;
+  height: 60px;
+}
+.spotify-logo:hover{
+  transform: rotate(180deg);
+  transition: 1s ease-in;
+}
+#navbar-menu {
+  float: right;
+  margin-right: 20px;
+}
+
+#navbar-menu li {
+  list-style-type: none;
+  display: inline;
+  margin: 0 15px 0 0;
+}
+
+.music {
+  clear: both;
+  background-image: url(../images/landing.jpg);
+  height: 700px;
+  background-size: cover;
+  color: white;
+  text-align: center;
+  display: flex;
+  justify-content: center;
+  align-content: center;
+  flex-direction: column;
+  font-size: 200%;
+}
+
+.icons {
+  padding: 50px 100px 50px 100px;
+  height: 500px;
+  font-size: 120%;
+}
+.line-green{
+  border-bottom: solid 3px #1AB26B;
+  padding-bottom: 5px;
+  width: 25%;
+}
+
+.icon {
+  display: inline-block;
+  float: left;
+  width: 33%;
+  text-align: center;
+  margin-top: 100px;
+}
+.green-title{
+  color: #1AB26B;
+}
+.music-icon {
+  width: 100px;
+}
+
+.high-quality-icon {
+  width: 100px;
+}
+
+.devices-icon {
+  width: 100px;
+}
+
+.green {
+  clear: both;
+  background-color: #1AB26B;
+  height: 500px;
+  margin: 0px 25px 25px 25px;
+  color: white;
+  padding: 100px;
+}
+
+.text {
+  display: inline-block;
+  float: left;
+  height: 500px;
+  line-height: 200%;
+}
+
+.spotify-icon-white {
+  width: 100px;
+  display: inline-block;
+  margin-top: 250px;
+  margin-left: 100px;
+}
+
+.spotify-app {
+  height: 500px;
+  display: inline-block;
+  float: right;
+}
+.line-white{
+  border-bottom: solid 3px white;
+  padding-bottom: 5px;
+  margin-bottom: 30px;
+}
