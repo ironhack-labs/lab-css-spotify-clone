@@ -6,3 +6,178 @@ Green: #00B172
 White: #FFF
 
 */
+
+body {
+    margin: 0;
+    padding: 0;
+    font-family: Nunito, Helvetica, Arial, sans-serif;
+}
+
+.navigation-container {
+    margin-left: 30px;
+    margin-right: 30px;
+}
+
+.navigation {
+    height: 80px;
+    width: 100%;
+    text-align: center;
+}
+
+.navigation img {
+    float: left;
+    width: 200px;
+    margin-top: 10px;
+    margin-bottom: 10px;
+    padding: 10px 35px;
+    overflow: hidden;
+}
+
+
+.navigation img:hover {
+	animation: bounce 1s;
+}
+
+.navigation ul {
+    float: right;
+    padding-top: 15px;
+}
+
+.navigation li {
+    list-style-type: none;
+    padding: 0px;
+    margin-right: 15px;
+    display: inline;
+    font-size: 21px;
+}
+
+.main-image {
+    background-image: url('../images/landing.jpg');
+    background-size: cover;
+    height: 800px;
+    color: #ffffff;
+    display: inline-block;
+    width: 100%;
+    text-align: center;
+}
+
+.landing-title {
+    padding-top: 350px;
+    font-size: 68px;
+    font-weight: bolder
+}
+
+.landing-subtitle {
+    font-size: 20px;
+    width: 500px;
+    display: inline-block;
+    padding-top: 25px;
+}
+
+.whatson {
+    text-align: center;
+    padding-top: 40px;
+    font-size: 30px;
+}
+
+.whatson span {
+    border-bottom: solid #1ab26b;
+    font-weight: bold;
+}
+
+.whatson-wrapper div {
+    display: inline;
+}
+
+.whatson-wrapper img {
+    width: 120px;
+    height: 86px;
+    margin-left: 110px;
+    margin-right: 110px;
+}
+
+.whatson-detail {
+    font-size: 28px;
+    float: left;
+    width: 367px;
+    padding-top: 60px;
+    margin-left: 40px;
+}
+
+.whatson-detail-title {
+    display: block !important;
+    font-weight: bold;
+    color: #1ab26b;
+}
+
+.whatson-detail-description {
+    font-size: 20px;
+}
+
+.yeezi {
+    background-color: #1ab26b;
+    display: inline-block;
+    width: 90%;
+    margin-left: 60px;
+    margin-right: 60px;
+    margin-top: 100px;
+    height: 700px;
+}
+
+.yeezi-wrapper {
+    display: inline;
+}
+
+.yeezi-title {
+    font-size: 37px;
+    border-bottom: 3px solid;
+}
+
+.yeezi-detail {
+   padding-top: 30px;
+   font-size: 30px;
+}
+
+.yeezi-description {
+    display: inline-block;
+    width: 475px;
+    color: #fff;
+    margin: 80px;
+}
+
+.yeezi-description span {
+    font-size: 18px;
+    display: block;
+    width: 400px;
+}
+
+
+.yeezi-picture {
+    display: inline-block;
+    width: 475px;
+    position: relative;
+}
+
+.yeezi-picture img {
+    position: absolute;
+    width: 320px;
+    top: -400px;
+    left: 100px;
+}
+
+@keyframes bounce {
+	0%, 20%, 60%, 100% {
+		-webkit-transform: translateY(0);
+		transform: translateY(0);
+	}
+
+	40% {
+		-webkit-transform: translateY(-20px);
+		transform: translateY(-20px);
+	}
+
+	80% {
+		-webkit-transform: translateY(-10px);
+		transform: translateY(-10px);
+	}
+}
