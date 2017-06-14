@@ -9,13 +9,34 @@ font-family: 'Open Sans', sans-serif;
 font-size: 18px
 }
 
-body{
+body {
   height: 100%;
 }
 
-.header{
+nav {
  height: 100px;
+ width: 100%;
  background-color: white;
+ position: fixed;
+ top: 0;
+ left:0;
+}
+
+.header{
+  padding-right: 60px;
+  width: 100%;
+  box-sizing: border-box;
+}
+
+nav ul {
+  float: right;
+
+}
+
+nav ul li {
+  display: inline-block;
+  margin-top: 15px;
+  vertical-align: middle;
 }
 
 #logoBox{
@@ -25,12 +46,6 @@ body{
 }
 #logo{
   width: 230px;
-}
-
-#links{
-  float:right;
-  padding-top: 30px;
-  padding-right: 40px;
 }
 
 a{
@@ -49,7 +64,7 @@ a{
   height: 780px;
   background-position: center;
   text-align: center;
-  position: relative;
+  /*position: relative;*/
 }
 
 #advertise{
@@ -70,11 +85,6 @@ a{
   font-size: 1.8em;
 }
 
-.main{
- background-color: #00B172
-
-}
-
 #middleTop{
   text-align: center;
   font-weight: bold;
@@ -88,7 +98,7 @@ a{
 }
 
 #middleMain{
-height: 490px;
+height: 450px;
 margin-top: 100px;
 }
 
@@ -124,4 +134,16 @@ color: RGB(000, 177 ,114);
 
 #middleMainSongsText, #middleMainSongsText, #middleMainSongsText{
 font-size: 1.4em;
+}
+
+.main{
+  height: 780px;
+   background-color: #00B172;
+   margin-bottom: 40px;
+   margin-right: 40px;
+   margin-left: 40px;
+   background-image: url(../images/spotify-icon-white.png);
+   background-size: 140px;
+   background-position: center;
+   background-repeat: no-repeat;
 }
