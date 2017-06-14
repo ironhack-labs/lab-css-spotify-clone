@@ -5,32 +5,28 @@ Text: 1A1A1A
 Green: #00B172
 White: #FFF*/
 html {
-font-family: 'Open Sans', sans-serif;
-font-size: 18px
 }
 
 body {
-  height: 100%;
+  font-family: 'Open Sans', sans-serif;
+  font-size: 18px;
+   width: 100%;
 }
 
 nav {
  height: 100px;
- width: 100%;
+  width: 100%;
+  padding-right: 60px;
  background-color: white;
  position: fixed;
+ box-sizing: border-box;
  top: 0;
  left:0;
 }
 
-.header{
-  padding-right: 60px;
-  width: 100%;
-  box-sizing: border-box;
-}
 
 nav ul {
   float: right;
-
 }
 
 nav ul li {
@@ -48,6 +44,19 @@ nav ul li {
   width: 230px;
 }
 
+#logo:hover{
+animation-name: bouncingLogo;
+animation-duration: 200ms;
+animation-direction: alternate;
+animation-iteration-count: infinite;
+}
+
+@keyframes bouncingLogo {
+  100%{
+    margin-top: 9px;
+  }
+}
+
 a{
     text-decoration: none;
     font-weight: lighter;
@@ -59,6 +68,7 @@ a{
 
 
 .picture{
+  box-sizing: border-box;
   background-image: url(../images/landing.jpg);
   background-size: cover;
   height: 780px;
@@ -137,6 +147,7 @@ font-size: 1.4em;
 }
 
 .main{
+  box-sizing: border-box;
   height: 780px;
    background-color: #00B172;
    margin-bottom: 40px;
@@ -146,4 +157,42 @@ font-size: 1.4em;
    background-size: 140px;
    background-position: center;
    background-repeat: no-repeat;
+}
+
+.mainLeftBox{
+  float: left;
+  color: white;
+  width: 50%;
+  margin-top: 3%;
+  margin-left: 6%;
+
+}
+
+.mainRightBox{
+  float: right;
+  width:30%;
+  margin-top: 8%;
+}
+
+
+#spotiApp{
+  height: 610px;
+}
+
+#mainLeftBoxP1{
+  width: 522px;
+  border-bottom: 3px solid white;
+  font-size: 2.2em;
+  font-weight: bold;
+  padding-bottom: 12px;
+
+}
+
+#mainLeftBoxP2, #mainLeftBoxP4, #mainLeftBoxP6{
+  font-size: 1.8em;
+  font-weight: bold;
+}
+
+#mainLeftBoxP3, #mainLeftBoxP5, #mainLeftBoxP7{
+font-size: 1.1em;
 }
