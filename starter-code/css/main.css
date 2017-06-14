@@ -23,27 +23,38 @@ div#logo-banner {
   float:left;
 }
 
+
+
 div#logo-banner img {
   width:200px;
+  transition-property: width;
+   transition-duration: 0.1s;
+   transition-timing-function: linear;
+}
+
+div#logo-banner img:hover {
+    width: 210px;
 }
 
 div#menu {
-  width:35%;
   float:right;
-  padding-right: -50px;
-  margin-top: 5px;
+  margin-right:40px;
+  margin-top: 10px;
 }
+
 
 div#menu li, a{
   text-decoration: none;
   display:inline-block;
   margin-right:10px;
+  color: #000;
+  font-size: 18px;
 }
 
 
 div#promotionalimage {
   width:100%;
-  height:600px;
+  height:700px;
   background-image: url("../images/landing.jpg");
   background-size: cover;
   background-position: center;
@@ -64,7 +75,7 @@ h1 {
 }
 
 h4 {
-  font-size: 17px;
+  font-size: 22px;
   line-height: 10px;
 }
 
@@ -72,7 +83,6 @@ div#features {
   margin-top: 15px;
   width:100%;
   height:400px;
-
 }
 
 div#what {
@@ -85,6 +95,7 @@ div#what {
 h2 {
     display:inline;
     border-bottom: 2px solid #00B172;
+    font-size:40px;
 }
 
 .icons {
@@ -107,9 +118,10 @@ h2 {
 }
 
 div#greenbox {
-  width:87%;
-  height: 470px;
-  margin-left:30px;
+  width:90%;
+  height: 650px;
+  margin-left:80px;
+  margin-bottom:20px;
   background-color: #00B172;
 }
 
@@ -117,43 +129,44 @@ div#description {
   width: 40%;
   float:left;
   color: #FFF;
-  padding:20px;
+  padding:60px;
 }
 
 .logobackground {
   position:absolute;
-  margin-top: 20vh;
-  margin-left: 40vw;
-
+  margin-top: 22vh;
+  margin-left: 42vw;
   width:5px;
 }
 
 .logobackground img {
-  width: 80px;
+  width: 120px;
 }
 
 div#description h3 {
       display:inline;
       border-bottom: 2px solid #FFF;
-      font-size: 25px;
+      font-size: 35px;
 
 }
 div#description h4 {
         text-align: left;
         font-weight: bold;
-        font-size: 20px;
+        font-size: 25px;
+}
+
+div#description p {
+  font-size: 20px;
 }
 
 div#appscreen {
   float:right;
   width: 30%;
-  height: 300px;
-  padding-right: 20px;
-  padding-bottom: 80px;
+  height: 400px;
+  margin-top:100px;
+  margin-right:40px;
 }
 
 div#appscreen img {
     width: 250px;
-    margin-top: 10px;
-
 }
