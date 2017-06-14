@@ -6,3 +6,126 @@ Green: #00B172
 White: #FFF
 
 */
+
+body {
+  font: 200 16px/1.5 "Helvetica Neue", Helvetica, Arial, sans-serif;
+  margin: 0;
+  color: #1A1A1A;
+}
+
+nav {
+  min-height: 40px;
+  padding: 10px 20px;
+  background-color: #FFF;
+}
+
+nav img {
+  height: 60px;
+}
+
+nav .menu-items {
+  float: right;
+  padding: 6px 0 0 0;
+}
+
+nav div, nav ul li {
+  display: inline-block;
+  margin-right: 10px;
+}
+
+a:hover .bounce{
+   animation: mybounce 2s infinite;
+}
+
+@keyframes mybounce {
+ 0%, 20%, 50%, 80%, 100% {transform: translateY(0);}
+ 40% {transform: translateY(-30px);}
+ 60% {transform: translateY(-15px);}
+}
+
+h1 {
+  font-size: 60px;
+}
+
+.header-image {
+  /*height: 100vh;*/
+  background-size: cover;
+  background-image: url('../images/landing.jpg');
+  color: #FFF;
+  font-size: 21px;
+}
+
+.header-image div {
+  padding: 35vh;
+  text-align: center;
+}
+
+.title-section {
+  text-align: center;
+  font-size: 22px;
+  margin: 0px 494px;
+}
+
+.title-section h2 {
+  border-bottom: 3px solid #00B172;
+}
+
+.section1 {
+  height: 240px;
+  margin: 100px;
+}
+
+.section1 .sub-sections1 {
+  width: 33%;
+  float: left;
+  text-align: center;
+  height: 300px;
+}
+
+.sub-sections1 h3 {
+  font-size: 24px;
+  color: #00B172;
+}
+
+.sub-sections1 p {
+  font-size: 21px;
+  padding: 0 65px;
+}
+
+.section1 .sub-sections1 img {
+  width: 100px;
+}
+
+.section2 {
+  background-color: #00B172;
+  color: #FFF;
+  margin: 30px;
+  padding: 30px 70px 40px 70px;
+}
+
+.section2 h2 {
+  font-size: 31px;
+}
+
+.sub-section2 {
+  display: inline-block;
+  width: 32%;
+  vertical-align: middle;
+  font-size: 21px;
+}
+
+.sub-section2 .icon-spotify-white {
+  width: 120px;
+}
+
+.sub-section2 img {
+  width: 100%;
+}
+
+.text-center {
+  text-align: center;
+}
+
+.align-top {
+  vertical-align: top;
+}
