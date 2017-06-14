@@ -6,3 +6,169 @@ Green: #00B172
 White: #FFF
 
 */
+
+@import url(https://fonts.googleapis.com/css?family=Montserrat);
+
+:root{
+  --text: #1A1A1A;
+  --green: #00B172;
+  --white: #FFF;
+}
+
+body{
+  margin: 0px;
+  font-family: "Montserrat", sans-serif;
+}
+
+.clear-fix{
+  clear: both;
+}
+
+.header-wrapper{
+  box-sizing: border-box;
+  position: fixed;
+  top: 0px;
+  width: 100%;
+  background: var(--white);
+  padding: 15px 60px;
+}
+
+.header-logo{
+  width: 25%;
+  max-width: 200px;
+  float: left;
+}
+
+.header-logo > img{
+  width: 100%;
+  animation: bounce 0.5s ease-in-out infinite;
+  animation-direction: alternate;
+  animation-play-state: paused;
+}
+
+.header-logo > img:hover{
+  animation-play-state: running;
+}
+
+@keyframes bounce {
+  0%{
+    transform: translateY(0px);
+  }
+  100%{
+    transform: translateY(-10px);
+  }
+}
+
+.header-navigation{
+  float: right;
+}
+
+.header-navigation li{
+  display: inline;
+  list-style-image: none;
+  font-size: 1.2em;
+  margin-left: 10px;
+}
+
+.banner-wrapper{
+  height: 700px;
+  padding: 20px;
+  background-image: url("../images/landing.jpg");
+  background-size: contain;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  color: white;
+  font-size: 1.5em;
+}
+
+.banner-wrapper > h1{
+  font-size: 2.8em;
+  margin-bottom: 0px;
+}
+
+.banner-wrapper > p, .banner-wrapper > h1{
+  text-align: center;
+}
+
+.info-wrapper{
+  width: 1200px;
+  max-width: 90%;
+  margin: auto;
+}
+
+.info-wrapper-header{
+  text-align: center;
+  margin: 25px 0px;
+}
+
+.info-wrapper-header h1{
+  padding: 5px 0px;
+  display: inline;
+  border-bottom: 3px solid var(--green);
+}
+
+.info-wrapper-specs {
+  display: flex;
+  justify-content: space-around;
+  margin: 60px 0px;
+}
+
+.info-wrapper-specs > div {
+  width: 20%;
+  text-align: center;
+}
+
+.info-wrapper-specs > div > figure {
+  max-height: 100px;
+}
+
+.info-wrapper-specs > div > figure > img{
+  width: 75%;
+
+}
+
+.info-wrapper-specs > div > h2 {
+  color: var(--green);
+}
+
+.info-wrapper-greencard{
+  margin: 20px;
+  background-color: var(--green);
+  background-image: url("../images/spotify-icon-white.png");
+  background-repeat: no-repeat;
+  background-position: center;
+  background-size: 120px;
+  padding: 60px;
+  color: var(--white);
+  display: flex;
+  justify-content: space-between;
+  font-size: 1.10em;
+}
+
+.info-wrapper-greencard-text{
+  width: 45%;
+}
+.info-wrapper-greencard-text h1{
+  display: inline;
+  border-bottom: 3px solid var(--white);
+  font-size: 2em;
+}
+
+.info-wrapper-greencard-text h1 + h2{
+  margin-top: 60px;
+}
+
+.info-wrapper-greencard-text p{
+  line-height: 2em;
+}
+
+.info-wrapper-greencard-image{
+  width: 30%;
+  margin-top: 40px;
+}
+
+.info-wrapper-greencard-image > img{
+  width: 100%;
+}
