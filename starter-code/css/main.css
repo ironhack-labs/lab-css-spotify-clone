@@ -6,3 +6,126 @@ Green: #00B172
 White: #FFF
 
 */
+body, html {
+  margin: 0;
+  font-size: 18px;
+  font-family: 'Montserrat', sans-serif;
+}
+*, *:before, *:after {
+  box-sizing: border-box;
+  -webkit-box-sizing: border-box;
+  -moz-box-sizing: border-box;
+}
+.header{
+  width:90%;
+  margin: auto;
+}
+.logo{
+  width:180px;
+  float: left;
+  padding: 20px;
+}
+.logo img{
+  width:100%;
+}
+.nav{
+  float: right;
+}
+.nav li{
+  display: inline-block;
+  padding:20px;
+  list-style: none;
+}
+.hero{
+  height: 100vh;
+  background: url(../images/landing.jpg);
+  background-size: cover;
+}
+.hero .text{
+  position: relative;
+  top:35%;
+  width: 50%;
+  left:25%;
+  text-align: center;
+}
+.hero .text h1{
+  color:#fff;
+  margin: 0;
+  font-size: 3rem
+}
+.hero .lead{
+  color:#fff;
+  font-size: 1.5rem;
+}
+.section-title{
+  padding:5px;
+  font-size: 2rem;
+  display: inline-block;
+}
+.row{
+  width:100%;
+  display: block;
+}
+.about .row{
+  text-align: center;
+}
+.section{
+  padding:40px 60px;
+  margin:20px;
+}
+.about .section-title{
+  color:#000;
+  border-bottom:3px solid #00B172;
+  display: inline-block;
+  margin-bottom: 80px;
+}
+.about .box{
+  float:left;
+  width: 33.3%;
+  text-align: center;
+  margin-bottom: 60px;
+}
+.about .box h3{
+  color:#00B172;
+  font-size: 1.5rem
+}
+.about .box .icon{
+  width:auto;
+  height: 100px;
+}
+.background{
+  background: #00B172;
+  color:#fff;
+}
+.background .section-title{
+  border-bottom: 2px solid #fff;
+}
+.col{
+  float: left;
+  position: relative;
+}
+.col-40{
+  width:40%;
+}
+.col-60{
+  width:60%;
+}
+.background .img{
+  width:60%;
+  left:20%;
+  top:50px;
+  position: relative;
+}
+.background .item{
+  padding:20px 0;
+  width:50%;
+}
+.background .item h3{
+  font-size: 1.5rem;
+}
+.col .spotify-icon{
+  position: absolute;
+  top:45%;
+  right:20px;
+  width:120px;
+}
