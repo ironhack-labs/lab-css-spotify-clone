@@ -6,3 +6,175 @@ Green: #00B172
 White: #FFF
 
 */
+
+/* CSS Reset */
+*,
+*:before,
+*:after {
+    margin: 0;
+    padding: 0;
+}
+
+html { font-size: 10px; }
+
+body { font-family: 'Open Sans', sans-serif; }
+
+/*
+  HEADER
+*/
+.headerContainer {
+    position: fixed;
+    height: 8rem;
+    width: 100%;
+    background-color: #fff;
+    z-index: 999; 
+}
+
+.clearfix:after {
+  content: "";
+  display: table;
+  clear: both;
+}
+
+/* Logo */
+.headerContainer > a {
+    height: 80%;
+    float: left;
+}
+.spotifyLogo {
+    height: 80%;
+    padding: 1.4rem;
+    padding-left: 4rem;
+}
+
+/* Top navigation */
+.headerContainer > nav {
+    float: right;
+    padding: 2rem;
+    margin-right: 2rem;
+}
+
+.spotifyNav > li {
+    list-style: none;
+    float: left;
+    margin: 0.5rem 1rem;
+    font-size: 1.8rem;
+}
+
+.spotifyNavLink {
+    text-decoration: none;
+    color: #1A1A1A;
+    font-weight: 300;
+}
+
+.spotifyNavLink:hover { text-decoration: underline; }
+
+/*
+  HERO BANNER
+*/
+.heroBanner { 
+    background: url('../images/landing.jpg') no-repeat 0 0;
+    background-size: cover;
+    padding: 25%;
+    text-align: center;
+    color: #fff;
+}
+
+.heroBanner > h1 {
+    font-weight: 600;
+    font-size: 6rem;
+    margin-bottom: 2rem;
+}
+
+.heroBanner p {
+    font-weight: 300;
+    font-size: 2rem;
+}
+
+
+/*
+  WHAT'S ON
+*/
+.whatsON {
+    text-align: center;
+    color: #1A1A1A;
+    margin-top: 4rem;
+    margin-bottom: 12rem;
+}
+
+.whatsONTitle { margin-bottom: 8rem; }
+
+
+.whatsON h2 { 
+   font-size: 3rem;
+   display: inline-block;
+   padding-bottom: .5rem;
+   border-bottom: 4px solid #00B172; 
+}
+
+/* 3 columns */
+.threeColumnsGrid {
+    display: inline-block;
+    width: 25%;
+}
+.threeColumnsGrid > img {
+    height: 8rem;
+    margin-bottom: 1rem;
+}
+
+.threeColumnsGrid > h3 {
+    color: #00B172;
+    font-weight: 600;;
+    font-size: 2.5rem;
+    margin-bottom: 2rem;
+}
+
+.threeColumnsGrid > p { font-size: 2rem; }
+
+/*
+  GREEN SECTION
+*/
+.greenHighlight {
+    margin: 0 3rem 3rem 3rem;
+    background: #00B172 url('../images/spotify-icon-white.png') no-repeat 50% 50%;
+    background-size: 6%;
+    padding: 6rem 12rem;
+}
+
+.leftPanel { 
+    display: inline-block;
+    width: 50%;
+    color: #fff;
+    vertical-align: top;
+ }
+
+.leftPanel > h2 {
+    font-weight: 600;;
+    font-size: 2.6rem;
+    margin-bottom: 8rem;
+    padding-bottom: .5rem;
+    border-bottom: 4px solid #fff; 
+    display: inline-block;
+}
+
+.leftPanelContent { margin-bottom: 4rem; }
+.leftPanelContent > h3 { 
+    color: #fff;
+    font-weight: 600;;
+    font-size: 2.5rem;
+    margin-bottom: 2rem;
+ }
+
+ .leftPanelContent > p { font-size: 1.8rem; }
+
+ .rightPanel {
+     display: inline-block;
+     width: 49%;
+     vertical-align: top;
+     text-align: right
+ }
+ .rightPanel > img {
+     width: 60%;
+     margin-top: 2rem;
+     margin-right: 2rem;
+}
