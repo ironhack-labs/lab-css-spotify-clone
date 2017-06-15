@@ -37,7 +37,7 @@ You will receive the images and resources in the starter code. Write your CSS an
 
 ## Steps
 
-The page is split into 4 sections. 
+The page is split into 4 sections.
 
 #### Navbar
 
