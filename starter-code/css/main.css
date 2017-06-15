@@ -6,3 +6,198 @@ Green: #00B172
 White: #FFF
 
 */
+
+body {
+  font-family: 'Montserrat', sans-serif;
+  color: #1A1A1A;
+  width: 100%;
+  height: 100%;
+  margin: 0;
+  padding: 0;
+}
+
+.navbar {
+  position: fixed;
+  width: 100%;
+  height: 95px;
+  background-color: #fff;
+  z-index: 1;
+}
+
+.logo {
+  margin: 0;
+  padding: 0;
+}
+
+.logo img {
+  height: 60px;
+  width: 200px;
+  position: absolute;
+  margin: 15px 33px;
+  float: left;
+}
+
+.logo>img:hover {
+  animation: bounce 0.5s ease-in-out infinite;
+}
+
+@keyframes bounce {
+  0% {
+    margin-top: 13px;
+  }
+  40% {
+    margin-top: 5px;
+  }
+  100% {
+    margin-top: 13px;
+  }
+}
+
+
+}
+.menu {
+  display: inline;
+  float: right;
+  margin: 33px 28px;
+  color: #6B6B6B;
+}
+ul {
+  padding-left: 910px;
+  padding-top: 35px;
+}
+li {
+  display: inline;
+  padding: 0px 18px;
+  font-weight: 100;
+}
+h1 {
+  margin: 0;
+}
+.largeImage {
+  border: 0px;
+  left: 0;
+  width: 100%;
+  height: 900px;
+  background-size: 100% 100%;
+  background-image: url(../images/landing.jpg);
+  background-repeat: no-repeat;
+  background-position: center;
+  text-align: center;
+  color: white;
+}
+.largeImage>h1 {
+  margin-bottom: 29px;
+  font-size: 75px;
+  font-weight: bold;
+  padding-top: 220px;
+  padding-top: 340px;
+}
+.largeImage>h2 {
+  font-size: 27px;
+  margin: 0px;
+  padding: 0px;
+  font-weight: lighter;
+}
+.whatSpotify {
+  height: 440px;
+  display: block;
+  width: 100%;
+  position: relative;
+}
+.title2 {
+  margin-left: 540px;
+  width: 22.7%;
+}
+.title2>h3 {
+  padding-bottom: 5px;
+  color: #1A1A1A;
+  font-size: 36px;
+  font-weight: bold;
+  box-sizing: border-box;
+  text-align: center;
+  border-bottom: 5px solid #00B172;
+}
+.column1 {
+  height: 100%;
+  width: 33%;
+  float: left;
+  padding: 20px 0px 0px 0px;
+  display: block;
+  align-content: center;
+  align-self: center;
+  margin-top: 80px;
+  margin-bottom: -30px;
+}
+.column1>h4, h5 {
+  display: block;
+  text-align: center;
+}
+.column1 img {
+  height: 95px;
+  width: 110px;
+  padding-left: 160px;
+}
+.column1 h5 {
+  font-weight: 100;
+  font-size: 23px;
+  padding-right: 50px;
+  font-weight: 100;
+}
+.column1 h4 {
+  color: #00B172;
+  font-size: 29px;
+  font-weight: bold;
+  padding-right: 40px;
+}
+.green {
+  margin: 20px 45px;
+  padding: 50px 85px;
+  background-color: #00B172;
+  background-image: url("../images/spotify-icon-white.png");
+  background-repeat: no-repeat;
+  background-position: center;
+  background-size: 120px;
+  padding: 60px;
+  position: relative;
+  display: flex;
+  color: #FFF;
+}
+.text {
+  float: left;
+  width: 50%;
+  padding-left: 30px;
+}
+.image2 {
+  width: 60%;
+}
+h6 {
+  border-bottom: 4px solid #fff;
+  color: #fff;
+  display: inline-block;
+  margin-top: 25px;
+  padding-bottom: 4px;
+  font-weight: bold;
+  font-size: 38px;
+  display: inline-block;
+}
+h7 {
+  padding-bottom: 40px;
+  font-weight: bold;
+  font-size: 30px;
+  color: #fff;
+  margin-top: -10px;
+  display: inline-block;
+}
+h8 {
+  padding-bottom: 40px;
+  color: #fff;
+  line-height: 25px;
+  font-weight: lighter;
+  font-size: 20px;
+  display: inline-block;
+}
+.green img {
+  float: right;
+  width: 350px;
+  padding-top: 40px;
+}
