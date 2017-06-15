@@ -6,3 +6,188 @@ Green: #00B172
 White: #FFF
 
 */
+*{
+  margin: 0;
+  padding: 0;
+}
+
+html{
+  margin: 0;
+  padding: 0;
+  font-family: 'Open Sans', sans-serif;
+}
+
+.header{
+  width: 100%;
+  position: fixed;
+  top: 0;
+  margin: 0px 0;
+  padding: 8px 0;
+  background-color: white;
+}
+
+.header > img {
+  float: left;
+  width: 200px;
+  margin-left: 50px;
+}
+
+.header ul {
+    list-style-type: none;
+    margin: 0;
+    padding: 10px;
+    overflow: hidden;
+}
+
+.header ul li {
+    float: right;
+}
+
+.header li a {
+    display: block;
+    color: white;
+    text-align: center;
+    padding: 14px 16px;
+    text-decoration: none;
+    color: #1A1A1A;
+}
+
+@keyframes bouncingLogo {
+  0% { transform: translate(0, 0); }
+  50% {transform: translate(0, 10px); }
+  100% { transform: translate(0, 0); }
+}
+
+.logo:hover{
+  animation: bouncingLogo 1s linear infinite;
+}
+
+.full-width{
+  height: 100vh;
+  background:url('../images/landing.jpg') no-repeat center center;
+  -webkit-background-size: cover;
+  -moz-background-size: cover;
+  -o-background-size: cover;
+  background-size: cover;
+  color: white;
+  font-size: 3rem;
+}
+
+.full-width align-center{
+  position: relative;
+  top: 40%;
+}
+
+.padding-top{
+  padding-top: 15%;
+}
+
+.spotify-info{
+  background-color: white;
+  font-size: 2rem;
+  text-decoration: underline;
+  -moz-text-decoration-color: #00B172;
+  text-decoration-color: #00B172;
+  text-underline-position: under;
+}
+
+.spotify-info > h3{
+  margin: 0 auto;
+  font-size: 3rem;
+}
+
+.spotify-info > img{
+  width: 100px;
+  height: 100px;
+}
+
+.songs{
+  width: 28%;
+  margin: 5% 0 0 7%;
+  float: left;
+}
+
+.songs h3{
+  color: #00B172;
+}
+
+.songs p{
+  font-size: 1.5rem;
+}
+
+
+.music{
+  width: 28%;
+  margin: 5% 0 0 0;
+  float: left;
+}
+
+.music h3{
+  color: #00B172;
+}
+
+.music p{
+  font-size: 1.5rem;
+}
+
+.stream{
+  width: 28%;
+  margin: 5% 0 0 0;
+  float: left;
+}
+
+.stream h3{
+  color: #00B172;
+}
+
+.stream p{
+  font-size: 1.5rem;
+}
+
+.footer-content{
+  float: left;
+  color: white;
+  height: 100%;
+  width: 86%;
+  background-color: #00B172;
+  margin: 5% 0 0 8%;
+}
+
+.footer-left{
+  float: left;
+  width: 55%;
+  position: relative;
+}
+
+.margin-left{
+  float: left;
+  width: 55%;
+  margin: 2% 20%;
+  font-size: 1.5rem;
+}
+
+.footer-right{
+  float: left;
+  width: 45%;
+}
+
+.footer-right img{
+  margin: 10% 0px 0 15%;
+  width: 75%;
+}
+
+.border_bot{
+  font-size: 2rem;
+   top: 0px;
+   margin: 7% 20%;
+   border-bottom-color:White;
+   border-bottom-style: solid;
+   width: 60%;
+   height: 100px;
+}
+
+.spotify-icon{
+  position: absolute;
+  left: 50%;
+  margin-top: 28%;
+}
