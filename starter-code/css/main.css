@@ -134,6 +134,8 @@ hr {
     margin-bottom: 20px;
     border-color: #00B172;
     border-width: 6px;
+    border-left: 0;
+    border-right: 0;
 }
 
 .secondary-container {
@@ -149,6 +151,7 @@ hr {
     /*adding margins to create a proportional grid*/
     margin: 0 5% 0 5%;
     padding: 0 3% 0 3%;
+    position: relative;
     
 }
 
@@ -162,6 +165,7 @@ hr {
     max-width: 93%;
     /*margin:0 10% 0 10%;*/
     padding-bottom: 20px;
+
 }
 
 .secondary-container .marketing-box h3 {
@@ -170,11 +174,14 @@ hr {
     padding-bottom: 20px;
     color: #00B172;
 
+
 }
 
 .secondary-container .marketing-box p {
     font-size: 1.3rem;
     text-align: center;
+    position: absolute;
+    bottom: 0px;
 }
 
 /* Green Section */
