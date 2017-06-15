@@ -6,3 +6,177 @@ Green: #00B172
 White: #FFF
 
 */
+body {
+  font-family: "Helvetica";
+}
+nav {
+  position: fixed;
+  width: 100%;
+  height: 60px;
+}
+@keyframes bounce {
+	0%, 20%, 60%, 100% {
+		transform: translateY(0);
+	}
+
+	40% {
+		transform: translateY(-20px);
+	}
+
+	80% {
+		transform: translateY(-10px);
+	}
+}
+nav > .spotify-logo {
+  height: 50px;
+  float:left;
+  transition-duration: 2s;
+
+}
+.spotify-logo:hover{
+  animation: bounce 1s;
+}
+nav > ul  {
+  float: right;
+  list-style: none;
+  margin-left: 50px;
+
+}
+li {
+  display: inline-block;
+  padding-right: 30px;
+
+}
+li > a {
+  list-style: none;
+  text-decoration: none;
+  color:black;
+
+}
+header {
+  height: 50vh;
+  width: 100%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  background-image: url("../images/landing.jpg");
+  background-size: cover;
+  background-position: center;
+  position: relative;
+  top: 70px;
+}
+h1 {
+  color:white;
+  position: absolute;
+  top:80px;
+  right:40%px;
+  font-size: 56px;
+
+}
+#text-top {
+  color: white;
+  position: absolute;
+  top:165px;
+  right:34%;
+  font-size: 20px;
+  text-align: center;
+}
+#text-middle {
+  justify-content: center;
+  position: absolute;
+  top: 400px;
+  left: 520px;
+  font-size: 32px;
+  border-bottom: 3px solid #00B172;
+}
+.image {
+  width: 50px;
+  height: 50px;
+  position: absolute;
+  top: -70px;
+  left: 30px;
+}
+span {
+  color:green;
+  font-size: 25px;
+}
+.container1 {
+  position: absolute;
+  left: 150px;
+  top: 575px;
+  text-align: center;
+
+}
+.container2 {
+  position: absolute;
+  left: 620px;
+  top: 575px;
+  text-align: center;
+
+}
+.container3 {
+  position: absolute;
+  right: 130px;
+  top: 575px;
+  text-align: center;
+
+}
+.bottom {
+  background-color: #00B172;
+  position: absolute;
+  width: 100%;
+  height: 600px;
+  top: 800px;
+  left: 0;
+}
+
+.logo-spotify-white{
+  height: 120px;
+  position: absolute;
+  top: 45%;
+  right: 500px;
+}
+.kanye-west{
+  height: 400px;
+  position: absolute;
+  right: 150px;
+  top: 20%;
+
+}
+
+.bottom1{
+  position: absolute;
+  top: 10%;
+  left: 150px;
+}
+.bottom2{
+  position: absolute;
+  top: 45%;
+  left: 93%;
+}
+.bottom3{
+  position: absolute;
+  top: 20%;
+  right: 60px;
+}
+
+a {
+  color: white;
+}
+
+.middle-text {
+  text-align: center;
+}
+.green-text {
+  color:#00B172;
+}
+
+.bottom-title {
+  color:white;
+  font-weight: bold;
+
+}
+#kanye-title{
+  border-bottom: 3px solid white;
+
+}
