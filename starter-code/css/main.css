@@ -6,3 +6,165 @@ Green: #00B172
 White: #FFF
 
 */
+
+@import url(https://fonts.googleapis.com/css?family=Montserrat);
+body {
+  margin: 0;
+  padding: 0;
+  font-family: 'Montserrat', sans-serif;
+}
+
+/*NAV*/
+
+nav {
+  height: 56px;
+  padding: 25px 0 23px 37px;
+  width: 100%;
+  position: fixed;
+  background-color: white;
+}
+
+.spotify-left {
+  float: left;
+}
+
+.spotify-logo {
+  width: 200px;
+}
+
+.spotify-logo:hover {
+  transform: rotateX(360deg);
+  transition: 1s ease-in 1s;
+}
+
+.spotify-right {
+  float: right;
+  height: 56px;
+  padding: 25px 42px 23px 0;
+  font-size: 21px;
+}
+
+.spotify-right>a {
+  padding-left: 10px;
+  text-decoration: none;
+  color: black;
+}
+
+/*HEADER*/
+
+.background-top {
+  background-image: url("../images/landing.jpg");
+  background-repeat: no-repeat;
+  background-size: cover;
+  height: 750px;
+  width: 100%;
+  text-align: center;
+  vertical-align: middle;
+}
+
+.text-container {
+  padding-top: 200px;
+  color: white;
+}
+
+div>h1 {
+  font-size: 70px;
+  font-weight: 100;
+}
+
+div>p {
+  font-size: 24px;
+  font-weight: 100;
+  margin-top: -5px;
+}
+
+/*SECTION*/
+
+.container-section {
+  height: 350px;
+  margin: 60px;
+}
+
+.container-section h3 {
+  color: #00B172;
+  font-size: 24;
+  font-weight: 100;
+}
+
+.c-music-logo {
+  width: 33%;
+  float: left;
+  text-align: center;
+}
+
+.music-log {
+  width: 33%;
+}
+
+.c-high-quality-icon {
+  width: 33%;
+  float: left;
+  text-align: center;
+}
+
+.quality-icon {
+  margin-bottom: 8px;
+  width: 33%;
+}
+
+.c-devices-icon {
+  width: 33%;
+  float: left;
+  text-align: center;
+}
+
+.devices-icon {
+  width: 33%;
+}
+
+h4 {
+  text-align: center;
+  border-bottom: 3px #00B172 solid;
+  font-size: 25px;
+  width: 33%;
+  margin-left: 400px;
+}
+
+/*FOOTER*/
+
+footer {
+  position: relative;
+  background-color: #00B172;
+  height: 600px;
+  padding: 70px;
+}
+
+.c-left-text {
+  float: left;
+  color: white;
+  text-align: left;
+}
+
+.c-left-text h3 {
+  border-bottom: 3px white solid;
+  font-size: 28px;
+  margin-top: 45px;
+}
+
+.c-left-text p {}
+
+.spotify-app {
+  height: 575px;
+}
+
+.c-right-spotity-app {
+  float: right;
+}
+
+.icon-white {
+  position: absolute;
+  width: 120px;
+  transform: translate(-50%, -50%);
+  top: 50%;
+  left: 50%
+}
