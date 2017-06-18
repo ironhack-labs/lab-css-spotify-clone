@@ -6,18 +6,30 @@
 
 .top-container {
   position: fixed;
-  height: 400px;
+  width: 100%;
 }
 
 .top-container nav {
   display: flex;
-  display: row;
+  padding: 0 10px 0 20px;
 }
 
-.top-container nav img {
+.top-container nav div.logo {
+  flex-basis: 69%;
+}
+
+.top-container nav div.logo img {
   width: 200px;
+  height: 60px;
 }
 
 .top-container nav ul li {
+  margin: 0 0 0 10px;
   list-style: none;
+  display: inline;
+}
+
+.top-container nav ul li a {
+  text-decoration: none;
+  color: #1A1A1A;
 }
