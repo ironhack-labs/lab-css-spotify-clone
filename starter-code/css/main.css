@@ -143,9 +143,41 @@
 
 .lower-section .lower-content-left {
   flex-direction: column;
-  width: 37em;
+  width: 21em;
 }
 
 .lower-section .lower-content-left h1 {
   font-size: 1.5em;
+}
+
+.lower-section .lower-content-right {
+  display: flex;
+  flex-direction: row;
+  justify-content: flex-end;
+  width: 37em;
+  position: relative;
+  left: 21em;
+  bottom: 25em;
+}
+
+.lower-section .lower-content-right div.logo {
+  align-self: center;
+  position: relative;
+  right: 4em;
+  bottom: 10em;
+}
+
+.lower-section .lower-content-right div.logo img {
+  width: 7em;
+}
+
+.lower-section .lower-content-right div.advertisment {
+  align-self: flex-start;
+  position: relative;
+  left: 4em;
+  bottom: 5em;
+}
+
+.lower-section .lower-content-right img {
+  width: 22em;
 }

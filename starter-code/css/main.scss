@@ -46,20 +46,20 @@ $white: #FFF;
     align-items: center;
     color: $white;
     img{
-    max-width: 100%;
-    height: auto;
+        max-width: 100%;
+        height: auto;
     }
     h1{
-    position: absolute;
-    font-weight: bold;
-    top: 3em;
-    font-size: 4em;
+        position: absolute;
+        font-weight: bold;
+        top: 3em;
+        font-size: 4em;
     }
     span{
-    position: absolute;
-    top: 12em;
-    font-size: 2em;
-    text-align: center;
+        position: absolute;
+        top: 12em;
+        font-size: 2em;
+        text-align: center;
     }    
 }
 .second-section{
@@ -87,21 +87,21 @@ $white: #FFF;
         left: 5em;
         padding: 25px 0 0 0;
         img{
-        position: relative;
-        left: 6.5em;
-        width: 7em;
-        height: 6em;
+            position: relative;
+            left: 6.5em;
+            width: 7em;
+            height: 6em;
         }
         h1{
-        color:$green;
-        text-align: center;
-        font-size: 1.5em;
+            color:$green;
+            text-align: center;
+            font-size: 1.5em;
         }
         span{
-        color:$text;
-        text-align: center;
-        position: relative;
-        left: 5em;
+            color:$text;
+            text-align: center;
+            position: relative;
+            left: 5em;
         }
 
     }
@@ -127,11 +127,39 @@ $white: #FFF;
     }
     .lower-content-left{
         flex-direction: column;
-        width: 37em;
+        width: 21em;
         h1{
             font-size: 1.5em;
         }
     }
+    .lower-content-right {
+    display: flex;
+    flex-direction: row;
+    justify-content: flex-end;
+    width: 37em;
+    position: relative;
+    left: 21em;
+    bottom: 25em;
+        div.logo{
+            align-self: center;
+            position: relative;
+            right: 4em;
+            bottom: 10em;
+            img{
+                width: 7em;
+            }
+            
+        }
+        div.advertisment{
+            align-self: flex-start;
+            position: relative;
+            left: 4em;
+            bottom: 5em;
+            }
+            img{
+                width: 22em;
+            }   
+      }
 }
 
 
