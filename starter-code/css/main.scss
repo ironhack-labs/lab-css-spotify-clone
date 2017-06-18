@@ -10,19 +10,24 @@ $white: #FFF;
     font-size:18px;
 }
 .top-container{
-    position: fixed;
+    background-color: $white;
     width: 100%;
+    padding: 15px 0 10px 0;
+    z-index: 100;
+    position: sticky;
+    top: 0px;
     nav{
         display: flex;
         padding: 0 10px 0 20px;
         div.logo{
-            flex-basis: 69%;
+            flex-basis: 65%;
             img{
             width: 200px;
             height: 60px;
             }
         }
         ul{
+            word-spacing: 15px;
             li{
                 margin: 0 0 0 10px;
                 list-style: none;
@@ -33,6 +38,73 @@ $white: #FFF;
                 }
             }
         }
-    }
-    
+    }   
 }
+.first-section{ 
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    color: $white;
+    img{
+    max-width: 100%;
+    height: auto;
+    }
+    h1{
+    position: absolute;
+    font-weight: bold;
+    top: 3em;
+    font-size: 4em;
+    }
+    span{
+    position: absolute;
+    top: 12em;
+    font-size: 2em;
+    text-align: center;
+    }    
+}
+.second-section{
+    display: flex;
+    flex-direction: column;
+    color: $text;
+    align-items: center;
+    h1{
+        font-size: 2em;
+        border-bottom: 3px solid $green;
+        padding: 0 0 10px 0;
+    }
+}
+.third-section{
+    display: flex;
+    flex-direction: row;
+    color: $text;
+    
+    padding: 10px;
+    section{ 
+        flex-direction: column; 
+        flex-basis: 20em;
+        align-items: center;
+        position: relative;
+        left: 5em;
+        padding: 25px 0 0 0;
+        img{
+        position: relative;
+        left: 6.5em;
+        width: 7em;
+        height: 6em;
+        }
+        h1{
+        color:$green;
+        text-align: center;
+        font-size: 1.5em;
+        }
+        span{
+        color:$text;
+        text-align: center;
+        position: relative;
+        left: 5em;
+        }
+
+    }
+}
+
+

@@ -5,8 +5,12 @@
 }
 
 .top-container {
-  position: fixed;
+  background-color: #FFF;
   width: 100%;
+  padding: 15px 0 10px 0;
+  z-index: 100;
+  position: sticky;
+  top: 0px;
 }
 
 .top-container nav {
@@ -15,12 +19,16 @@
 }
 
 .top-container nav div.logo {
-  flex-basis: 69%;
+  flex-basis: 65%;
 }
 
 .top-container nav div.logo img {
   width: 200px;
   height: 60px;
+}
+
+.top-container nav ul {
+  word-spacing: 15px;
 }
 
 .top-container nav ul li {
@@ -32,4 +40,79 @@
 .top-container nav ul li a {
   text-decoration: none;
   color: #1A1A1A;
+}
+
+.first-section {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  color: #FFF;
+}
+
+.first-section img {
+  max-width: 100%;
+  height: auto;
+}
+
+.first-section h1 {
+  position: absolute;
+  font-weight: bold;
+  top: 3em;
+  font-size: 4em;
+}
+
+.first-section span {
+  position: absolute;
+  top: 12em;
+  font-size: 2em;
+  text-align: center;
+}
+
+.second-section {
+  display: flex;
+  flex-direction: column;
+  color: #1A1A1A;
+  align-items: center;
+}
+
+.second-section h1 {
+  font-size: 2em;
+  border-bottom: 3px solid #00B172;
+  padding: 0 0 10px 0;
+}
+
+.third-section {
+  display: flex;
+  flex-direction: row;
+  color: #1A1A1A;
+  padding: 10px;
+}
+
+.third-section section {
+  flex-direction: column;
+  flex-basis: 20em;
+  align-items: center;
+  position: relative;
+  left: 5em;
+  padding: 25px 0 0 0;
+}
+
+.third-section section img {
+  position: relative;
+  left: 6.5em;
+  width: 7em;
+  height: 6em;
+}
+
+.third-section section h1 {
+  color: #00B172;
+  text-align: center;
+  font-size: 1.5em;
+}
+
+.third-section section span {
+  color: #1A1A1A;
+  text-align: center;
+  position: relative;
+  left: 5em;
 }
