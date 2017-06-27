@@ -1,8 +1,173 @@
+@import url('https://fonts.googleapis.com/css?family=Source+Sans+Pro');
+
 /*
 Colors:
-
 Text: 1A1A1A
 Green: #00B172
 White: #FFF
-
 */
+
+html {
+  font-family: Source Sans Pro;
+  font-size: 18px;
+}
+
+body {
+  margin: 0;
+}
+
+/* Navigation Bar */
+nav {
+  height: 60px;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  padding: 0 10px;
+}
+
+nav #logo {
+  height: 70%;
+  display: block;
+}
+
+nav #top-right-nav {
+  list-style: none;
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+}
+
+nav #top-right-nav a {
+  text-decoration: none;
+  display: block;
+  margin: 0 20px;
+  color: rgba(0, 0, 0, 0.7);
+}
+
+/* Header */
+header {
+  height: 500px;
+  background: url('../images/landing.jpg') no-repeat center center;
+  -webkit-background-size: cover;
+  -moz-background-size: cover;
+  -o-background-size: cover;
+  background-size: cover;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+}
+
+header h1 {
+  font-size: 3.5em;
+  font-weight: 400;
+  color: white;
+  margin: 0 0 20px 0;
+}
+
+header h3 {
+  font-weight: 100;
+  color: white;
+  text-align: center;
+  line-height: 30px;
+}
+
+/* What's on Spotify */
+#whats-on-spotify {
+  display: flex;
+  height: 350px;
+  flex-direction: column;
+  align-items: center;
+  justify-content: space-around;
+  padding: 20px 0;
+}
+
+#whats-on-spotify #icon-container {
+  display: flex;
+  width: 85%;
+  align-items: center;
+  justify-content: space-around;
+}
+
+#whats-on-spotify h2 {
+  border-bottom: 2px solid #00B172;
+  padding-bottom: 5px;
+  margin: 0 0 10px 0;
+}
+
+#whats-on-spotify article {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: flex-start;
+  width: 30%;
+  height: 180px;
+}
+
+#whats-on-spotify img {
+  display: block;
+  height: 60px;
+  margin-bottom: 20px;
+}
+
+#whats-on-spotify h3 {
+  color: #00B172;
+  margin: 0;
+  font-size: 1.5em;
+  margin-bottom: 10px;
+}
+
+#whats-on-spotify p {
+  text-align: center;
+  font-size: 1.5em
+  margin: 0;
+  width: 80%;
+}
+
+/* Yeezy Green Box*/
+#yeezy {
+  height: 600px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+#green-box {
+  background-color: #00B172;
+  color: white;
+  height: 90%;
+  width: 95%;
+  padding: 0;
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+}
+
+#green-box h2 {
+  border-bottom: solid 2px white;
+  margin: 0 0 30px 0;
+}
+
+#green-box h3 {
+  font-weight: bolder;
+  font-size: 1.2em;
+  margin: 0 0 10px 0;
+}
+
+#green-box p {
+  font-weight: lighter;
+  margin: 0 0 20px 0;
+}
+
+#green-box img {
+  display: block;
+}
+
+#green-box #icon {
+  height: 100px;
+  margin-right: 40px;
+}
+
+#green-box #screencap {
+  height: 80%;
+}
