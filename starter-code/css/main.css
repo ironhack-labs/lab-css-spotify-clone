@@ -10,7 +10,16 @@ White: #FFF
 
 .spotify-logo img {
   float: left;
+  margin-bottom: 30px;
 }
+
+.spotify-logo:hover img {
+  animation-name: logo;
+  animation-duration: 0.5s;
+  animation-direction: alternate;
+  animation-iteration-count: infinite;
+}
+
 .spotify-logo li {
   display: inline;
 }
@@ -23,6 +32,17 @@ White: #FFF
   margin: 20px;
 }
 
+@keyframes logo {
+  0% {
+    margin-top: 5px;
+  }
+
+  100% {
+    margin-top: 25px;
+  }
+
+}
+
 .part2 {
   clear:both;
   background-image: url("../images/landing.jpg");
@@ -31,6 +51,7 @@ White: #FFF
   background-position: contain;
   height: auto;
   padding: 150px;
+  margin-top: 300px;
 }
 
 h1 , h3 {
