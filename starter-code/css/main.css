@@ -1,8 +1,160 @@
-/*
-Colors:
+html {
+  font-family: sans-serif;
+}
+header{
+  width: 100%;
+  height: 120px;
+  overflow: auto;
+}
+header > img {
+  width: 230px;
+  display: inline-block;
+  float: left;
+  padding: 20px 20px 17px 38px;
+}
+header > img:hover {
+  width:250px;
 
-Text: 1A1A1A
-Green: #00B172
-White: #FFF
+}
+body {
+  margin: 0;
+}
+nav {
+  float: right;
+}
+h1 {
+  font-size: 110px;
+}
+.navButtons > li {
+  display: inline-block;
+  font-size: 30px;
+  padding: 25px 13px;
+}
+#downloadButton {
+  padding-right: 30px;
+}
+.landing {
+  position: absolute;
+   top: 50%;
+   left: 50%;
+   transform: translate(-50%, -50%);
+}
 
-*/
+.bannerBackground{
+  content: '';
+  height: 1000px;
+  background-image: url("../images/landing.jpg");
+  background-size: cover;
+  position: relative;
+  background-repeat: no-repeat;
+  background-position: center center;
+}
+.bannerText{
+  color: white;
+  display: inline-block;
+  text-align: center;
+}
+.bannerText > p {
+  font-size: 45px;
+}
+.parentBorder{
+  text-align: center;
+}
+div > .needBorder {
+  padding-top: 50px;
+  font-size: 45px;
+  display:inline-block;
+  border-bottom: 5px solid #1ab26b;
+  padding-bottom: 5px;
+  margin-bottom: 40px;
+  font-weight: bold;
+}
+.icons {
+  text-align: center;
+  margin-bottom: 170px;
+
+}
+.music, .quality {
+  width: 22%;
+  height: 300px;
+  display: inline-block;
+  margin: 0px 60px;
+  text-align: center;
+}
+
+.devices{
+  width: 22%;
+  height: 300px;
+  display: inline-block;
+  margin: 30px 60px 0px 60px;
+  text-align: center;
+  position:relative;
+  top:32px;
+}
+.pair3{
+  width: 40%;
+}
+.oneLiner {
+  color: #1ab26b;
+  font-size: 30px;
+  font-weight: bold;
+}
+.description {
+  color: black;
+  font-size: 26px;
+  margin: 0;
+}
+.squeeze {
+  width: 70%;
+  text-align: center;
+  display: inline-block;
+}
+.kanyeBackground{
+  background-color: #1ab26b;
+  width: 95%;
+  height: 1100px;
+  margin: 0 auto;
+  position: relative;
+  margin-bottom: 50px;
+}
+.iconWhite{
+  height: 200px;
+  width: 200px;
+  background-image: url("../images/spotify-icon-white.png");
+  background-size: 200px;
+  background-repeat: no-repeat;
+  position: absolute;
+  top: 43%;
+  left: 43%;
+}
+.kanyeText{
+  display: inline-block;
+  float: left;
+  width: 680px;
+  padding-top: 70px;
+  padding-left: 150px;
+}
+.kanyeText p{
+  font-size: 38px;
+  color: white;
+}
+h2 {
+  color: white;
+  font-size: 55px;
+  border-bottom: 5px solid white;
+  padding-bottom: 5px;
+  display: inline-block;
+}
+h3 {
+  color: white;
+  font-size: 42px;
+}
+.app {
+  float:right;
+  width: 430px;
+  padding: 150px 200px;
+}
+.squeezeKanye{
+  width: 80%;
+  display: inline-block;
+}
