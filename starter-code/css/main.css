@@ -63,6 +63,7 @@ body{
   overflow: auto;
   box-sizing: border-box;
   z-index: 2;
+  height: 85px;
 }
 
 
@@ -78,6 +79,14 @@ li{
 
 .header .logo-green{
   max-width: 200px;
+  margin: 0px;
+}
+
+.header .logo-green:hover{
+  margin-top: -5px;
+  transition-property: margin;
+  transition-duration: .003s;
+  transition-timing-function:linear;
 }
 
 .header nav{
