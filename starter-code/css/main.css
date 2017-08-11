@@ -6,3 +6,170 @@ Green: #00B172
 White: #FFF
 
 */
+html {
+  font: Helvetica;
+  font-family: sans-serif;
+}
+.container:hover {
+  width: 300px;
+}
+
+.container:hover {
+  animation: shake 0.82s cubic-bezier(.36,.07,.19,.97) both;
+  transform: translate3d(0, 0, 0);
+  backface-visibility: hidden;
+  perspective: 1000px;
+}
+
+@keyframes shake {
+  10%, 90% {
+    transform: translate3d(-1px, 0, 0);
+  }
+
+  20%, 80% {
+    transform: translate3d(2px, 0, 0);
+  }
+
+  30%, 50%, 70% {
+    transform: translate3d(-4px, 0, 0);
+  }
+
+  40%, 60% {
+    transform: translate3d(4px, 0, 0);
+  }
+}
+
+header {
+  position: fixed;
+  width: 100%;
+  height: 80px;
+  background-color: white;
+  font: Helvetica;
+  font-size: 25px;
+  word-spacing: 15px;
+  margin-right: 100px;
+  z-index:10;
+}
+
+.spotify-logo {
+  height: 60px;
+  float: left;
+  padding-left: 20px;
+  padding-top: 10px;
+}
+
+.header-paragraph {
+  float: right;
+  padding-right: 60px;
+}
+
+.background-image {
+  height: 650px;
+  width: 100%;
+  position: relative;
+  z-index: 0;
+}
+
+.main-heading {
+  position: absolute;
+  top: 200px;
+  left: 0;
+  width: 100%;
+  z-index: 1;
+  color: white;
+  text-align: center;
+  font-size: 70px;
+}
+
+.main-paragraph {
+  position: absolute;
+  top: 310px;
+  left: 0;
+  width: 100%;
+  z-index: 1;
+  color: white;
+  text-align: center;
+  font-size: 28px;
+}
+
+.list-section {
+  padding-bottom: 80px;
+}
+
+.info-heading {
+  text-align: center;
+  color: black;
+  padding-top: 25px;
+  font-size: 35px;
+}
+
+.music-icon, .noise-icon, .devices-icon {
+  width: 125px;
+}
+
+.info-heading3 {
+  padding-top: 10px;
+  text-align: center;
+}
+
+.info-paragraph {
+  text-align: center;
+  width: 200px;
+  margin: 0 auto;
+}
+
+.cow {
+  display: inline-block;
+  width: 33%;
+  text-align: center;
+}
+
+.kanye {
+  background-color: #00B172;
+  margin: 30px;
+  height: 700;
+}
+
+.kanye-text {
+  color: white;
+  text-align:left;
+  padding-left: 60px;
+
+}
+
+.kanye-h2 {
+  font-size: 35px;
+  color: white;
+  text-align:left;
+  padding-left: 60px;
+  padding-top: 40px;
+}
+
+.kanye-h3 {
+  font-size: 28px;
+}
+
+.kanye-paragraph {
+  font-size: 20px;
+  font-weight: lighter;
+  padding-bottom: 20px;
+}
+
+.kanye-text, .app-image, .spotify-icon {
+    display: inline-block;
+    width: 33%;
+}
+
+.app-image {
+  height: 500px;
+  width: auto;
+  padding-left: 90px;
+  padding-bottom: 10px;
+}
+
+.spotify-icon {
+  height: 100px;
+  width: auto;
+  padding-bottom: 220px;
+  padding-left: 100px;
+}
