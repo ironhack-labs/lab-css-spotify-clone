@@ -19,6 +19,7 @@ html, body{
 html, body{
   margin: 0;
   font-family: "Arial", sans-serif;
+  font-weight: lighter;
 }
 #fix-nav-bar{
  width: 100%;
@@ -29,12 +30,17 @@ html, body{
 
 #fix-nav-bar img{
   height: 75px;
+  padding: 10px;
+}
+
+#fix-nav-bar a{
+  padding: 20px;
+
 }
 
 #links{
  display: inline-block;
  position: absolute;
- padding-right: 10px;
  right: 0;
  top: 30%;
 }
@@ -45,22 +51,21 @@ html, body{
   background-size: 100% auto;
   text-align: center;
   color: #fff;
-  padding: 200px 150px 400px;
-  position: relative;
-  top: 75px;
+  padding: 0 150px 400px;
 }
 
 #jumbotron > h1{
-  font-size: 72px;
+  padding-top: 200px;
   padding-bottom: 30px;
+  font-size: 72px;
 }
 
-p, a{
+#jumbotron > p{
+  font-size: 28px;
+}
+
+p, #fix-nav-bar a{
   font-size: 24px;
-}
-
-a{
-  padding: 15px;
 }
 
 h3{
@@ -73,10 +78,12 @@ h3{
  }
 
 #divider{
-   width:330px;
+   width:317px;
    left: 50%;
    border-bottom: 4px solid #32B478;
    margin: 30px auto;
+   text-align: center;
+   padding-bottom: 10px;
  }
 #icons{
   width: 950px;
@@ -109,7 +116,7 @@ h3{
  }
 
  #details > h2{
-   width: 417px;
+   width: 470px;
    border-bottom: 4px solid #fff;
    padding-bottom: 20px;
    text-align: center;
@@ -128,6 +135,7 @@ h3{
   background-color: #32B478;
   position: relative;
   padding: 30px;
+  margin: 0 30px
 }
  #logo-white{
    top: 45%;
@@ -136,7 +144,7 @@ h3{
  }
 
  #kanye-app{
-   width: 25%;
+   width: 26%;
    position:relative;
    left: 23%;
    padding: 50px 0;
