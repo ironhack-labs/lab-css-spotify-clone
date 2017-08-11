@@ -1,8 +1,218 @@
 /*
 Colors:
 
-Text: 1A1A1A
+Text: #1A1A1A
 Green: #00B172
 White: #FFF
 
 */
+html, body, div, span, applet, object, iframe,
+h1, h2, h3, h4, h5, h6, p, blockquote, pre,
+a, abbr, acronym, address, big, cite, code,
+del, dfn, em, img, ins, kbd, q, s, samp,
+small, strike, strong, sub, sup, tt, var,
+b, u, i, center,
+dl, dt, dd, ol, ul, li,
+fieldset, form, label, legend,
+table, caption, tbody, tfoot, thead, tr, th, td,
+article, aside, canvas, details, embed,
+figure, figcaption, footer, header, hgroup,
+menu, nav, output, ruby, section, summary,
+time, mark, audio, video {
+	margin: 0;
+	padding: 0;
+	border: 0;
+	font-size: 100%;
+	font: inherit;
+	vertical-align: baseline;
+}
+/* HTML5 display-role reset for older browsers */
+article, aside, details, figcaption, figure,
+footer, header, hgroup, menu, nav, section {
+	display: block;
+}
+body {
+	line-height: 1;
+}
+ol, ul {
+	list-style: none;
+}
+blockquote, q {
+	quotes: none;
+}
+blockquote:before, blockquote:after,
+q:before, q:after {
+	content: '';
+	content: none;
+}
+table {
+	border-collapse: collapse;
+	border-spacing: 0;
+}
+
+body{
+  font-family: 'Open Sans', sans-serif;
+}
+
+
+.header{
+  position: fixed;
+  background-color: #FFF;
+  width: 100%;
+  padding: 15px;
+  overflow: auto;
+  box-sizing: border-box;
+  z-index: 2;
+  height: 85px;
+}
+
+
+ul{
+  list-style: none;
+}
+
+li{
+  display: inline-block;
+  font-size: 18px;
+  padding: 0px 20px;
+}
+
+.header .logo-green{
+  max-width: 200px;
+  margin: 0px;
+}
+
+.header .logo-green:hover{
+  margin-top: -5px;
+  transition-property: margin;
+  transition-duration: .003s;
+  transition-timing-function:linear;
+}
+
+.header nav{
+  float: right;
+  padding-top: 20px;
+}
+
+
+
+
+.center-div{
+  width: 1000px;
+  margin: 0 auto;
+  overflow: auto;
+  padding: 65px;
+}
+
+
+.center-div .mil-songs .music-icon{
+  height: 100px;
+}
+
+.center-div div {
+  float: left;
+  margin: 0 auto;
+  width: 30%;
+  text-align: center;
+  padding: 0 1.6%;
+}
+
+.center-div h3 {
+  font-weight: bold;
+  font-size: 20px;
+  padding-top: 10px;
+  padding-bottom: 20px;
+}
+
+.center-div .hd-music .quality-icon{
+  height: 100px;
+}
+
+
+.center-div .strm-every .devices-icon{
+  height: 100px;
+}
+
+
+.center-main-text{
+  background-image: url("../images/landing.jpg");
+  text-align: center;
+  color: white;
+  height: 700px;
+  background-size: cover;
+  background-repeat: no-repeat;
+  text-align: center;
+}
+
+.center-main-text h1{
+  font-size: 80px;
+  font-weight: bold;
+  padding: 300px 0px 20px 0px;
+}
+
+.center-main-text p{
+  font-size: 30px;
+}
+
+.on-spotify h2{
+  border-bottom: 5px solid #00B172;
+  text-align: center;
+  width: 355px;
+  margin: 0 auto;
+  font-size: 40px;
+  font-weight: bold;
+  padding: 40px 0px 9px 0px
+}
+
+.on-spotify h3{
+  color: #00B172;
+  font-weight: bold;
+}
+
+
+.bottom-yeezy{
+  clear: both;
+  background-color: #00B172;
+  box-sizing: border-box;
+  overflow: auto;
+  margin: 40px;
+  position: relative;
+}
+
+.bottom-yeezy .yeezy-text{
+  max-width: 400px;
+  float: left;
+  color: #FFF;
+  padding: 85px;
+}
+
+.bottom-yeezy .yeezy-text h3{
+  font-size: 30px;
+  padding-bottom: 15px;
+  border-bottom: 3px solid #FFF;
+  margin-bottom: 20px;
+}
+
+.bottom-yeezy .yeezy-text h4{
+  font-size: 25px;
+  font-weight: bold;
+  padding: 20px 0px;
+}
+
+.bottom-yeezy .yeezy-text p{
+  line-height: 30px;
+  font-size: 15px;
+}
+
+.white-logo .logo{
+  max-width: 150px;
+  position: absolute;
+  top: 35%;
+  left: 43%;
+}
+
+.app-scrn{
+  max-width: 350px;
+  float: right;
+  padding: 120px 75px;
+}
