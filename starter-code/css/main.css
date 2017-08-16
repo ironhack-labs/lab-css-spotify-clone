@@ -1,8 +1,234 @@
 /*
 Colors:
 
-Text: 1A1A1A
+Text: #1A1A1A
 Green: #00B172
 White: #FFF
 
 */
+
+* {
+  box-sizing: border-box;
+}
+
+body {
+  margin: 0 auto;
+  padding: 0;
+  text-align: center;
+  font-family: 'Source Sans Pro', sans-serif;
+  font-weight: 300;
+}
+
+/* NAVBAR CONTENT*/
+
+.navbar {
+  display: flex;
+  height: 20px;
+  position: relative;
+}
+
+.nav-logo {
+  width: 175px;
+  margin: 0 0 0 20px;
+  padding: 0;
+  position: absolute;
+  top: -6px;
+  left: -45px;
+}
+
+.navbar li {
+  display: inline-block;
+  list-style-type: none;
+  padding: 0;
+  margin: 0;
+  position: relative;
+  right: -30px;
+}
+
+.navbar li:first-child {
+  margin-right: auto;
+}
+.navbar a {
+  margin: 10px;
+  border-radius: 5px;
+	display: block;
+	padding-right: 8px;
+	text-decoration: none;
+  color: black;
+}
+
+.navbar a:hover {
+  color: grey;
+}
+
+.navbar .nav-logo {
+  padding: 0;
+  margin: 0;
+}
+
+
+
+/* JUMBOTRON CONTENT*/
+
+.jumbotron {
+  background-image: url("../images/landing.jpg");
+  background-size: cover;
+  background-position: center;
+  height: 65vh;
+  width: 100%;
+  color: white;
+  text-align: center;
+}
+
+.jumbotron-content {
+  position: relative;
+  top: 30%;
+}
+
+.jumbotron h1 {
+  font-size: 60px;
+  line-height: 40px;
+}
+
+.jumbotron p {
+  font-size: 22px;
+  max-width: 500px;
+  margin: 0 auto;
+}
+
+
+
+/*MIDDLE INFO*/
+
+.middle-info {
+  margin-top: 25px;
+  margin-bottom: 80px;
+}
+
+.middle-info h2 {
+  margin-top: 20px;
+  margin-bottom: 80px;
+  font-size: 26px;
+}
+
+.green-underline {
+  border-bottom: 3px solid #00B172;
+}
+
+.middle-icons {
+  height: 100px;
+}
+
+.sub-middle-info-flex {
+  display: flex;
+  flex-direction: row;
+  flex-wrap: wrap;
+  justify-content: center;
+  align-content: center;
+  align-items: center;
+}
+
+.flex-item-1 {
+  order: 0;
+  flex: 0 1 auto;
+  align-self: auto;
+  max-width: 300px;
+  margin: 0 50px;
+}
+
+.flex-item-2 {
+  order: 0;
+  flex: 0 1 auto;
+  align-self: auto;
+  max-width: 300px;
+  margin: 0 50px 0 50px;
+}
+
+.flex-item-2 img {
+  height: 105px;
+}
+
+.flex-item-3 {
+  order: 0;
+  flex: 0 1 auto;
+  align-self: auto;
+  max-width: 300px;
+  margin: 0 50px;
+}
+
+.sub-middle-info-flex h3 {
+  color: #00B172;
+  font-size: 25px;
+}
+
+.sub-middle-info-flex p {
+  font-size: 20px;
+}
+
+/*BOTTOM INFO*/
+
+.bottom-info {
+  background-color: #00B172;
+  background-image: url("../images/spotify-icon-white.png");
+  background-repeat: no-repeat;
+  background-size: 100px;
+  background-position: center;
+  color: white;
+  margin: 20px;
+  padding: 25px 20px 20px 60px;
+  text-align: left;
+  display: flex;
+  flex-direction: row;
+  flex-wrap: wrap;
+  justify-content: center;
+  align-content: center;
+  align-items: center;
+}
+
+.left-column {
+  max-width: 450px;
+  margin-right: 100px;
+  order: 0;
+  flex: 0 1 auto;
+  align-self: auto;
+  margin: 0 150px 30px 150px;
+}
+
+.left-column-content {
+  max-width: 230px;
+}
+
+.right-column {
+  order: 0;
+  flex: 0 1 auto;
+  align-self: auto;
+  max-width: 300px;
+  margin: 0 150px 0 150px;
+}
+
+.right-column img{
+  height: 460px;
+  padding: 0;
+}
+
+.bottom-info h2 {
+  font-size: 28px;
+  padding-bottom: 20px;
+}
+
+.bottom-info-heading {
+  font-size: 22px;
+}
+
+.bottom-info p {
+  font-size: 18px;
+}
+
+.white-underline {
+  border-bottom: 3px solid #fff;
+  padding-bottom: 2px;
+}
+
+.spotify-logo {
+  height: 100px;
+}
