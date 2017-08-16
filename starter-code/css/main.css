@@ -6,3 +6,190 @@ Green: #00B172
 White: #FFF
 
 */
+
+body {
+  margin: 0;
+  font-family: 'Open Sans', sans-serif;
+}
+
+nav {
+  position: fixed;
+  top: 0;
+  background: #fff;
+  height: 95px;
+  z-index: 999;
+}
+
+nav > div {
+  width: 15%;
+  padding: 12px 30px;
+}
+
+nav > div > img {
+  width: 100%;
+}
+
+nav > div:hover {
+  animation-name: animo;
+  animation-duration: 0.15s;
+  animation-iteration-count: 3;
+}
+
+@keyframes animo {
+  25% {
+    transform: translateY(2px);
+  }
+  50% {
+    transform: translateY(-2px);
+  }
+}
+
+nav ul {
+  float: right;
+  position: relative;
+  top: -88px;
+}
+
+nav ul li {
+  list-style: none;
+  float: left;
+  margin-right: 50px;
+}
+
+nav a {
+  text-decoration: none;
+  color: #1A1A1A;
+  font-size: 1.5em;
+}
+
+nav a:hover {
+  color: #00B172;
+}
+
+section.header {
+  background: url("../images/landing.jpg") no-repeat;
+  background-size: cover;
+  width: 100%;
+  height: 1000px;
+  color: white;
+}
+
+section.header div {
+  width: 75%;
+  position: absolute;
+  top: 70%;
+  left: 50%;
+  transform: translate(-50%, -70%);
+  text-align: center;
+  font-size: 2em;
+}
+
+section.header h1 {
+  font-size: 3em;
+}
+
+section.header p {
+  position: relative;
+  top: -50px;
+}
+
+section.sect {
+  width: 94%;
+  margin: 0 auto;
+}
+
+section.what-on {
+  height: 550px;
+  text-align: center;
+}
+
+section.what-on h2 {
+  color: #1A1A1A;
+  font-size: 2.5em;
+  padding-top: 20px;
+}
+
+section.what-on hr {
+  width: 23%;
+  height: 5px;
+  border-radius: 2px;
+  border: none;
+  background: #00B172;
+  position: relative;
+  top: -30px;
+
+}
+
+section.what-on div {
+  width: 20%;
+  margin: 50px 20px;
+  display: inline-block;
+  font-size: 1.5em;
+  vertical-align: top;
+}
+
+section.what-on h3 {
+  color: #00B172;
+}
+
+section.what-on div img {
+  width: 50%;
+}
+
+section.what-on div#superespecial {
+  padding-top: 0.8em;
+}
+
+section.kanye-west {
+  height: 850px;
+  background: #00B172;
+  margin-bottom: 100px;
+  position: relative;
+}
+
+section.kanye-west div.icon {
+  width: 150px;
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+}
+
+img[src*="icon-white"] {
+  width: 100%;
+}
+
+section.kanye-west div.content {
+  width: 35%;
+  height: 75%;
+  display: inline-block;
+  vertical-align: top;
+  margin: 8%;
+  color: #fff;
+  font-size: 1.5em;
+}
+
+section.kanye-west hr {
+  width: 90%;
+  height: 3px;
+  float: left;
+  position: relative;
+  top: -45px;
+  border: none;
+  background: #fff;
+}
+
+section.kanye-west h2 {
+  margin-top: 0;
+}
+
+section.kanye-west div.photo {
+  width: 23%;
+  display: inline-block;
+  float: right;
+  margin: 10% 8%;
+}
+
+img[src*="spotify-app."] {
+  width: 100%;
+}
