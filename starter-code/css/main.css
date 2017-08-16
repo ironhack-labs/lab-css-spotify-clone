@@ -4,5 +4,181 @@ Colors:
 Text: 1A1A1A
 Green: #00B172
 White: #FFF
-
+Thin, Light, Bold och Semibold
 */
+html {
+  box-sizing: border-box;
+}
+* {
+  box-sizing: inherit;
+  margin: 0;
+  padding: 0;
+}
+
+body {
+  font-family: 'Montserrat', sans-serif;
+}
+/* ===== Style for the white header ===== */
+.header {
+  max-width: 100%;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  margin: 0 10px;
+  padding: 15px 25px;
+}
+
+.header-logo {
+  display: inline-block;
+  width: 197px;
+  height: 59px;
+}
+
+.header-links {
+  list-style-type: none;
+}
+
+.header-links li {
+  font-weight: 300;
+  font-size: 20px;
+  display: inline-block;
+  padding: 0 10px;
+}
+
+.header-links li a{
+  text-decoration: none;
+  color: #1a1a1a;
+}
+
+/* ===== Style for the big photo and title ===== */
+.splash {
+  width: 100vw;
+  height: 100vh;
+  background-size: cover;
+  background-image: url("../images/landing.jpg");
+  color: white;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+
+}
+
+.titlebig {
+  font-size: 70px;
+  font-weight: 500;
+  display: block;
+  margin-bottom: 20px;
+  text-align: center;
+}
+
+.titleinfo {
+  width: 55%;
+  text-align: center;
+  display: block;
+  font-size: 26px;
+  font-weight: 300;
+  line-height: 36px;
+}
+
+/* ===== Style for the white middle part ===== */
+
+.middle {
+  padding: 30px 0;
+  display: flex;
+  justify-content: center;
+  margin-bottom: 30px;
+}
+
+.middle h2 {
+  font-size: 30px;
+  font-weight: 400;
+  margin-top: 10px;
+  padding-bottom: 5px;
+  border-bottom: 4px solid #00B172;
+}
+
+.middleinfo {
+  width: 100%;
+  display: flex;
+  justify-content: space-around;
+  margin-bottom: 50px;
+  align-items: flex-start;
+}
+
+.info {
+  width: 20%;
+  font-size: 26px;
+  font-weight: 200;
+  display: flex;
+  justify-content: center;
+  flex-direction: column;
+  align-items: center;
+  }
+
+.info h3 {
+  font-size: 24px;
+  font-weight: 600;
+  color: #00B172;
+  margin: 20px 0;
+  text-align: center;
+}
+
+.info img {
+  height: 80px;
+}
+
+.info p {
+  font-size: 20px;
+  font-weight: 200;
+  text-align: center;
+}
+/* ===== Style for the green bottom part ===== */
+
+.bottom {
+  height: 100vh;
+  max-width: 95%;
+  background-color: #00B172;
+  background-image: url("../images/spotify-icon-white.png");
+  background-repeat: no-repeat;
+  background-position: center;
+  background-size: 10%;
+  margin: 0px auto;
+  margin-top: 90px;
+  margin-bottom: 30px;
+  display: flex;
+  justify-content: space-between;
+  flex-wrap: wrap;
+}
+
+.bottominfo {
+  margin: 80px 75px 60px 75px;
+  max-width: 37%;
+  color: white;
+}
+
+.bottominfo h2 {
+  font-size: 32px;
+  font-weight: 400;
+  margin-bottom: 30px;
+  padding-bottom: 10px;
+  border-bottom: 4px solid white;
+}
+
+.bottominfo h3 {
+  font-size: 26px;
+  font-weight: 600;
+  margin: 30px 0;
+}
+
+.bottominfo p {
+  font-size: 20px;
+  font-weight: 300;
+  line-height: 28px;
+  width: 70%;
+}
+
+.bottom img {
+  margin: 100px 75px 60px 75px;
+  height: 80%;
+}
