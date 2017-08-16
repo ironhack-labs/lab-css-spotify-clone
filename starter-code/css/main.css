@@ -6,3 +6,161 @@ Green: #00B172
 White: #FFF
 
 */
+body{
+  margin: 0;
+  color: #1a1a1a;
+  font-family: 'Roboto', sans-serif;
+}
+/*-----------NAV--------------*/
+
+nav{
+  position: fixed;
+  top:0;
+  width: 100%;
+  background: #fff;
+
+}
+.logo{
+  width: 200px;
+  display: inline-block;
+  margin: 20px 40px;
+}
+ul{
+    display: inline-block;
+    float: right;
+    margin: 0 20px;
+
+}
+ul > li{
+  list-style-type: none;
+  display: inline-block;
+  font-size: 20px;
+  padding: 40px 20px;
+  background: transparent;
+  transition: background 0.3s, color 0.3s;
+}
+ul > li:hover{
+  background:#00B172;
+  color:white;
+}
+/*-----------SECTION1---------------*/
+.first{
+  background-image: url("../images/landing.jpg");
+  background-position: center;
+  background-size: cover;
+  background-repeat: no-repeat;
+  height:100vh;
+  color: white;
+}
+.first p{
+  font-size: 30px;
+  margin: 10px 0;
+  font-weight: 300;
+}
+h1{
+  text-align: center;
+  font-size: 80px;
+  font-weight: 600;
+  padding-top: 300px;
+  margin-bottom: 20px;
+}
+.center{
+  text-align: center;
+}
+/*---------------SECTION 2 -------------- */
+.second{
+  margin: 60px auto;
+  text-align: center;
+}
+
+
+h2{
+  font-size: 55px;
+  font-weight: 500;
+}
+.second h2:after{
+  content: "";
+  background-color: #00B172;
+  width: 450px;
+  height: 3px;
+  margin: 5px auto;
+  display: block;
+}
+.category{
+  display: inline-block;
+  width: 15%;
+  vertical-align: top;
+  margin: 60px 8%
+}
+.icon{
+  height: 200px;
+
+
+}
+
+.category h3{
+
+  color: #00B172;
+  font-size: 30px;
+}
+.category p {
+  font-size: 25px;
+  font-weight: 300;
+}
+
+/*---------------SECTION3-----------------*/
+.third{
+  background: #00B172;
+  color: white;
+  margin: 50px;
+  padding: 50px;
+  background-image: url("../images/spotify-icon-white.png");
+  background-repeat: no-repeat;
+  background-position: center center;
+  background-size: 200px 200px;
+}
+.third h2{
+  font-size: 55px;
+  font-weight: 500;
+}
+.third h2:after{
+  content: "";
+  background-color: white;
+  width: 680px;
+  height: 4px;
+  margin: 5px 0;
+  display: block;
+}
+.content{
+  display: inline-block;
+  vertical-align: text-top;
+  width: 45%;
+  margin-left: 3%;
+}
+.content img{
+  height: 700px;
+  margin: 60px 0 30px;
+  float: right;
+  cursor: pointer;
+}
+.content img:hover{
+  animation: phone 0.3s linear infinite alternate;
+}
+.choices h3{
+
+  font-size: 30px;
+}
+.choices p {
+  font-size: 25px;
+  font-weight: 300;
+  margin: 10px auto;
+}
+/*-------------KEYFRAMES-----------------*/
+@keyframes phone {
+  0%{
+    transform: rotate(-3deg);
+  }
+  100%{
+    transform: rotate(3deg);
+  }
+}
