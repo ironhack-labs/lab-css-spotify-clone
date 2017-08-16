@@ -6,3 +6,159 @@ Green: #00B172
 White: #FFF
 
 */
+
+html {
+  font-family: 'Open Sans', sans-serif;
+}
+
+nav{
+  position: fixed;
+  background-color: #fff;
+  margin: 0px;
+  top: 0px;
+  left: 0px;
+  right: 0px;
+  z-index: 999;
+}
+
+nav>img:hover{
+  animation: jumping-logo 1s;
+}
+
+@keyframes jumping-logo{
+  50%{transform: translateY(100%);}
+}
+
+header h1{
+  color: #fff;
+  font-size: 80px;
+}
+
+header h2{
+  color: #fff;
+  font-size: 30px;
+  font-weight: lighter;
+}
+
+.title-header{
+  width: 60%;
+}
+
+nav>img{
+  width: 250px;
+  height: 70px;
+  vertical-align: middle;
+  padding: 10px;
+}
+nav>ul{
+  display: inline-block;
+  margin-left: 600px;
+}
+nav li{
+  display: inline;
+  margin: 0px 10px;
+  list-style: none;
+  font-size: 20px;
+}
+
+header{
+  background: url("../images/landing.jpg");
+  background-size: cover;
+  display: flex;
+  height: 900px;
+}
+
+.title-header{
+  margin: auto;
+  text-align: center;
+}
+
+.on-spotify article{
+  display: inline-block;
+  text-align: center;
+  width: 25%;
+  margin: 20px 35px;
+}
+
+.on-spotify img{
+  width: 30%;
+  height: 30%;
+}
+
+.center-text{
+  text-align: center;
+  font-size: 30px;
+  margin-bottom: 5px;
+}
+
+.green-container{
+  background-color: #00B172;
+  margin: 0px 10px;
+  height: 600px;
+  color: #fff;
+  position: relative;
+}
+
+.img-center{
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  width: 150px;
+  position: absolute;
+}
+
+hr{
+  height: 2px;
+  background-color: #00B172;
+  margin: 0% 35%;
+}
+
+.on-spotify h3{
+  color: #00B172;
+  font-size: 25px;
+}
+
+.on-spotify p{
+  font-size: 20px;
+  font-weight: lighter;
+}
+
+.green-container article{
+  display: inline-block;
+  text-align: center;
+  width: 40%;
+  margin: 20px 5px;
+}
+
+.green-container h2{
+  font-size: 25px;
+  text-align: left;
+}
+
+.green-container h3, .green-container p{
+  font-size: 20px;
+  text-align: left;
+}
+
+.green-container p{
+  font-weight: lighter;
+}
+
+.green-container>article{
+  padding-left: 40px;
+  width: 30%;
+  vertical-align: middle;
+}
+
+.green-container hr{
+  height: 2px;
+  background-color: #fff;
+  width: 100%;
+  margin: 0px;
+}
+
+.kanye{
+  width: 80%;
+  height: 80%;
+  margin-left: 300px;
+}
