@@ -6,3 +6,171 @@ Green: #00B172
 White: #FFF
 
 */
+
+* {
+	box-sizing: border-box;
+	margin: 0px;
+	padding: 0px;
+	font-family: montserrat, arial;
+}
+
+a:link {
+	text-decoration: none;
+	color: #1A1A1A;
+}
+
+a:visited {
+	text-decoration: none;
+	color: #1A1A1A;
+}
+
+a:hover {
+	text-decoration: none;
+	color: #00B172;
+}
+
+nav {
+	padding: 5px;
+}
+
+.logo {
+	height: 60px;
+	margin-left: 20px;
+	display: inline-block;
+}
+
+nav ul {
+	display: inline;
+	float: right;
+	margin-top: 22px;
+	margin-right: 20px;
+}
+
+nav li {
+	font-size: 110%;
+	display: inline;
+	margin: 10px;
+}
+
+banner {
+	margin-bottom: 30px;
+	display: block;
+	width: 100%;
+	height: 700px;
+	color: white;
+	background-image: url("../images/landing.jpg");
+	background-size: cover;
+	text-align: center;
+}
+
+banner h2 {
+	font-size: 400%;
+	font-weight:lighter;
+	transform: translateY(280%);
+}
+
+banner h3 {
+	font-size: 130%;
+	transform: translateY(480%);
+	font-weight: lighter;
+}
+
+.title {
+	display: flex;
+	justify-content: center;
+}
+
+.title h3 {
+	border-bottom: 4px solid #00B172;
+	padding-bottom: 4px;
+	font-size: 170%;
+	text-align: center;
+	margin-bottom: 80px;
+}
+
+
+.icons-container {
+	margin: auto;
+	max-width: 90%;
+	display: flex;
+	justify-content: space-around;
+	text-align: center;
+	margin-bottom:70px;
+}
+
+.icons-container img {
+	max-height: 80px;
+	margin-bottom: 10px;
+}
+
+.icons-container h4 {
+	font-size: 140%;
+	margin-bottom: 20px;
+	color: #00B172;
+
+}
+
+.icons-container p {
+	font-size: 120%;
+	font-weight: lighter;
+}
+
+.centre-icons {
+	margin-left: 30px;
+}
+
+bottom {
+	margin: 20px 30px 20px 30px;
+	position: relative;
+	color: white;
+	padding: 50px 60px 30px 80px;
+	background-color: #00B172;
+	display: flex;
+	justify-content: space-between;
+}
+
+.white-icon {
+	position: absolute;
+	top: 42%;
+	transform: translateY(-50%);
+	left: 50%;
+	transform: translateX(-50%);
+	max-height: 16%;
+}
+
+.left-side {
+	max-width: 50%;
+	font-size: 140%;
+}
+
+.left-side h3 {
+	border-bottom: 2px solid #FFF;
+	padding-bottom: 2px;
+	margin-bottom: 50px;
+}
+
+.left-side h4 {
+	margin-bottom: 30px;
+}
+
+.left-side p {
+	font-size: 75%;
+	font-weight: lighter;
+	line-height: 1.5em;
+	margin-bottom: 30px;
+}
+
+
+.right-side {
+	position: relative;
+	max-width: 50%;
+	padding-left: 50px;
+}
+
+.right-side img {
+	position: absolute;
+	right: 46%;
+	top: 8%;
+	width: 270px;
+
+
