@@ -6,3 +6,180 @@ Green: #00B172
 White: #FFF
 
 */
+
+@import url('https://fonts.googleapis.com/css?family=Lato:300,400,700');
+
+body{
+  margin:0;
+  padding:0;
+  color: #1A1A1A;
+  font-family: 'Lato', sans-serif;
+}
+nav{
+  position: fixed;
+  top: 0;
+  left: 0;
+  z-index: 99;
+}
+h1{
+  color:white;
+  font-size: 5em;
+}
+h2{
+  font-size: 2em;
+}
+p{
+  font-size: 1.5em;
+  font-weight: 300;
+}
+
+.nav{
+  width: 100%;
+  background: blue;
+  height: 80px;
+  background: #FFF;
+}
+.logo{
+  width:20%;
+  height: 60px;
+  padding: 10px 40px;
+}
+.logo img{
+  width: 200px;
+  -webkit-transition: -webkit-transform 1s ease-out; /* Safari */
+  transition: transform 0.5s ease-out;
+}
+.logo img:hover{
+  width: 200px;
+  -ms-transform: translateX(50px); /* IE 9 */
+  -webkit-transform: translateX(50px); /* Chrome, Safari, Opera */
+  transform:translateX(50px);
+}
+.categories{
+  width:70%;
+  height: 80px;
+  text-align: right;
+}
+.col{
+  float: left;
+}
+nav ul{
+  list-style-type: none;
+  display: inline;
+}
+nav ul li{
+  display: inline-block;
+  text-align: right;
+  font-size: 1.3em;
+  font-weight: 300;
+  padding: 25px 15px;
+}
+nav ul li a{
+  text-decoration: none;
+  cursor: pointer;
+}
+header{
+  height: 700px;
+  margin-top: 80px;
+  background: url('../images/landing.jpg') bottom;
+  background-size: cover;
+  display: flex;
+}
+header .title{
+  margin: auto;
+  text-align: center;
+}
+header h2{
+  line-height: 0.5em;
+  font-weight: 300;
+  color: white;
+}
+.description{
+  width: 100%;
+  padding: 30px 0 100px 0 ;
+}
+.description .title{
+  width: 100%;
+  text-align: center;
+  padding: 20px 0;
+}
+.description .title h2{
+  font-size: 2.3em;
+  border-bottom: solid 4px #00B172;
+  display: inline;
+  padding-bottom: 3px;
+}
+.description article{
+  text-align: center;
+  padding-top: 60px;
+}
+.description article .img{
+  height: 100px;
+}
+.description article h3{
+  color: #00B172;
+  font-size: 1.8em;
+}
+
+.col1-3{
+  display: inline-block;
+  vertical-align: middle;
+  padding: 0 5%;
+  width: 23%;
+}
+
+.information{
+  width: 82%;
+  background: #00B172;
+  margin: 0 3% 30px 3%;
+  overflow: hidden;
+  padding: 5% 7%;
+}
+.information p{
+  font-size: 1.4em;
+}
+.information .leftSide{
+  width: 70%;
+  color: white;
+}
+.information article{
+    padding-right: 60%;
+    margin-top: 50px;
+}
+.information h3{
+    color: white;
+    font-size: 1.8em;
+}
+.information h2{
+  font-size: 2.3em;
+  border-bottom: solid 4px white;
+  display: inline;
+  padding-bottom: 3px;
+}
+.information .rightSide{
+  width: 30%;
+}
+.information .rightSide img{
+  width: 100%;
+  margin-top: 50px;
+}
+.information .icon{
+  position: relative;
+  width: 150px;
+  height: 150px;
+  background: url('../images/spotify-icon-white.png');
+  background-size: cover;
+  margin: auto;
+  top: 300px;
+  -webkit-transition: -webkit-transform 1s ease-out; /* Safari */
+  transition: transform 1s ease-out;
+}
+
+.information .icon:hover{
+  -ms-transform: rotate(7deg); /* IE 9 */
+  -webkit-transform: rotate(7deg); /* Chrome, Safari, Opera */
+  transform: rotate(360deg);
+}
+.clearfix{
+  clear: both;
+}
