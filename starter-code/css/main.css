@@ -6,3 +6,135 @@ Green: #00B172
 White: #FFF
 
 */
+
+@import url('https://fonts.googleapis.com/css?family=Montserrat');
+body {
+  font-family: 'Montserrat', sans-serif;
+  margin: 0;
+  padding: 0;
+}
+
+.header {
+  padding: 15px;
+}
+
+.header-logo {
+  width: 200px;
+  padding: 10px 15px;
+  transition: width 2s infinite;
+}
+
+.header-logo:hover {
+  width: 300px;
+}
+
+.header-bar {
+  float: right;
+}
+
+#header-menu li {
+  display: inline-block;
+  padding: 10px 15px;
+}
+
+.intro-section {
+  background-image: url('../images/landing.jpg');
+  background-position: center;
+  background-size: cover;
+  height: 500px;
+  width: 100%;
+}
+
+.intro-content {
+  margin: 0 auto;
+  text-align: center;
+  color: #fff;
+}
+
+.intro-content h1 {
+  margin: 0;
+  font-size: 60px;
+  padding-top: 150px;
+}
+
+.card-section {
+  text-align: center;
+  width: 100%;
+  height: auto;
+  margin: 50px auto;
+}
+
+.card-logo {
+  width: 100px;
+}
+
+.card-section h2 {
+  font-size: 45px;
+}
+
+.card-section article {
+  width: 30%;
+  display: inline-block;
+  vertical-align: middle;
+}
+
+.card-section article>h3 {
+  color: #00B172;
+}
+
+.footer {
+  background-color: #00B172;
+  color: #fff;
+  width: 90%;
+  height: 800px;
+  margin: 0 auto 50px;
+}
+
+.footer-item {
+  display: inline-block;
+  vertical-align: middle;
+  height: 600px;
+}
+
+.items {
+  width: 50%;
+  margin-left: 60px;
+}
+
+.items>h3 {
+  font-size: 30px;
+  color: #fff;
+}
+
+.items>p {
+  font-size: 25px;
+  color: #fff;
+  margin-top: 0;
+}
+
+.footer h2 {
+  font-size: 35px;
+  width: 40%;
+  padding-bottom: 10px;
+  color: #fff;
+  border-bottom: 3px solid #fff;
+  margin-left: 50px;
+  padding-top: 50px;
+}
+
+.spotify-icon {
+  width: 10%;
+}
+
+.spotify-icon img {
+  width: 50%;
+  margin-top: 150px;
+}
+
+.app-phone {
+  width: 30%;
+  background-image: url("../images/spotify-app.jpg");
+  background-size: cover;
+  float: right;
+  margin-right: 50px;
+}
