@@ -9,13 +9,17 @@ White: #FFF
 body {
   margin: 0;
   font-family: Montserrat;
+  z-index: -1;
 }
 
 .menu {
   background-color: white;
   color: #1A1A1A;
   width: 100%;
-  height: 70px;
+  height: 150px;
+  position: fixed;
+  top: 0;
+  z-index: 1;
 }
 
 .menu img {
@@ -33,6 +37,7 @@ body {
   padding-top: 25px;
   padding-right: 20px;
   font-size: 20px;
+  height: 100px;
 }
 
 .music {
@@ -124,6 +129,7 @@ body {
   position: absolute;
   top: 1750px;
   left: 650px;
+  z-index: 1;
 }
 
 .spotify-app {
