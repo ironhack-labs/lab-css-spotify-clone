@@ -6,3 +6,134 @@ Green: #00B172
 White: #FFF
 
 */
+
+body {
+  margin: 0;
+  padding: 0;
+  background: white;
+box-sizing: border-box;
+  font-family: sans-serif;
+}
+
+.main-header {
+  /*position:fixed;*/
+  top: 0;
+  left: 0;
+  width: 100%;
+  background: white;
+}
+
+.main-header > img {
+  margin: 20px 40px ;
+  width: 200px;
+  vertical-align: middle;
+}
+
+.main-header nav {
+  display: inline-block;
+  float: right;
+  margin-right: 40px;
+}
+
+.clearfix {
+  clear: both;
+}
+
+nav li {
+  display: inline;
+  list-style: none;
+  margin-left:15px;
+}
+
+.landing-page {
+  display:flex;
+  background-image: url('../images/landing.jpg');
+  background-size: cover;
+  color: white;
+  height: 1000px;
+}
+
+.text {
+  width: 70%;
+  margin: auto;
+  text-align: center;
+}
+
+.text > h1 {
+font-size: 3em;
+}
+
+.whats-on-spotify {
+  padding-top: 40px;
+  height: 600px;
+  text-align:center;
+}
+.whats-on-spotify > h2{
+  margin: 0 auto 60px;
+  width: 24%;
+  padding-bottom: 5px;
+  border-bottom:  3px solid #00B172;
+}
+
+.whats-on-spotify > h2 + .col-3 {
+margin-left: 5%;
+}
+
+
+
+.col-3 {
+  float:left;
+  width: 24%;
+  margin: auto;
+  height: 400px;
+  padding: 0 20px;
+
+}
+
+.col-3>.icon{
+  width: 30%;
+  height: 100px;
+}
+
+.col-middle {
+  margin: 0 5%;
+}
+
+.yeezy{
+  color:white;
+}
+
+.yeezy h2{
+    width: 50%;
+  color:white;
+  font-weight: lighter;
+    border-bottom:  3px solid #FFF;
+    padding-bottom: 5px;
+    display: inline;
+    margin-bottom: 50px;
+}
+
+.bg-green {
+  background: #00B172;
+  width: 92%;
+  height: 900px;
+  margin: 0 auto 50px;
+  overflow: hidden;
+  position:relative;
+  padding:80px;
+}
+
+.col-2{
+  width: 50%;
+  border: 3px solid blue;
+  padding-top: 50px;
+  float:left;
+}
+
+.app{
+  width: 40%;
+float:left;
+}
+.app col-2 img {
+
+}
