@@ -1,8 +1,173 @@
-/*
-Colors:
+* {
+  box-sizing: border-box;
+}
 
-Text: 1A1A1A
-Green: #00B172
-White: #FFF
+body {
+  height: 100%;
+  font: 200 16px/1.5 "Helvetica Neue", Helvetica, Arial, sans-serif;
+  margin: 0;
+}
 
-*/
+.container {
+  width: 100%;
+}
+
+/* Navigation */
+nav {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  background-color: #fff;
+  padding-top: 20px;
+  padding-bottom: 20px;
+}
+
+nav a {
+  text-decoration: none;
+  padding-left: 40px;
+}
+
+nav img {
+  width: 200px;
+}
+
+nav ul {
+  padding-right: 40px;
+  list-style: none;
+  display: flex;
+  flex-direction: row;
+  flex-wrap: wrap;
+}
+
+nav li {
+  font-size: 20px;
+  padding-right: 20px;
+}
+
+/* Banner / Landing */
+.banner {
+  height: 820px;
+  display: flex;
+  align-items: center;
+  background: url(../images/landing.jpg);
+  background-size: cover;
+  background-repeat: no-repeat;
+  background-position: center center;
+}
+
+.banner-text {
+  padding-bottom: 170px;
+}
+
+.banner-text h1, p {
+  color: #fff;
+}
+
+.banner-text p {
+  margin-top: -45px;
+  text-align: center;
+  font-size: 28px;
+}
+
+.banner-text {
+  color: #fff;
+  margin: 0 auto;
+}
+
+.banner-text h1 {
+  font-size: 70px;
+}
+
+/* What's on Spotify? */
+.whats-on-spotify {
+  display: flex;
+  justify-content: center;
+  margin-top: 40px;
+  margin-bottom: 70px;
+}
+
+.whats-on-spotify span {
+  font-size: 30px;
+  font-weight: bold;
+  letter-spacing: 1px;
+  border-bottom: 4px solid #00B172;
+}
+
+.app-features {
+  display: flex;
+  justify-content: space-around;
+  margin-bottom: 80px;
+}
+
+.app-features ul {
+  margin-right: 20px;
+}
+
+.app-features img {
+  width: 125px;
+}
+
+.app-features li {
+  list-style: none;
+  text-align: center;
+}
+
+.app-features li:nth-child(2) {
+  font-size: 25px;
+  font-weight: bold;
+  color: #00B172;
+}
+
+.app-features li:not(:nth-child(2)) {
+  font-size: 23px;
+  padding-top: 17px;
+  font-weight: lighter;
+}
+
+/* Artist Feature */
+.artist-feature {
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+  width: 95%;
+  height: 700px;
+  margin: 0 auto;
+  background-color: #1ab26b;
+  background-repeat: repeat;
+}
+
+.artist-feature-text {
+  margin-left: 60px;
+}
+
+.artist-feature-text h2 {
+  color: #fff;
+  font-size: 33px;
+  font-weight: bold;
+  letter-spacing: 1px;
+  border-bottom: 4px solid #fff;
+}
+
+.artist-feature-text h3 {
+  color: #fff;
+  font-size: 25px;
+  letter-spacing: 1px;
+}
+
+.artist-feature-text p {
+  font-size: 20px;
+  letter-spacing: 1px;
+}
+
+.spotify-white-icon {
+  width: 120px;
+  height: 120px;
+  margin-right: 100px;
+}
+
+.spotify-app {
+  width: 300px;
+  height: 550px;
+  margin-top: 80px;
+  margin-right: 60px;
+}
