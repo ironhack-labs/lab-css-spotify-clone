@@ -5,4 +5,176 @@ Text: 1A1A1A
 Green: #00B172
 White: #FFF
 
+font: sans-serif
 */
+
+* body {
+  font-family: sans-serif;
+}
+
+
+/* ================= */
+/*  Navbar Styling   */
+/* ================= */
+.navbar {
+  position: fixed;
+  margin-top: -90px;
+  width: 100%;
+  background-color: white;
+  font-weight: lighter;
+  font-size: 1.2em;
+}
+
+.navbar img {
+  width: 200px;
+  margin: 15px 35px;
+}
+
+.navbar ul {
+  list-style: none;
+  float: right;
+  margin: 30px 40px;
+}
+
+.navbar ul li {
+  float: left;
+  margin: 0px 10px;
+}
+
+
+/* ========================== */
+/*  Main background styling   */
+/* ========================== */
+.main-background {
+  height: 800px;
+  width: 100%;
+  margin-top: 90px;
+  color: white;
+  background-image: url('../images/landing.jpg');
+  background-repeat: no-repeat;
+  background-size: cover;
+
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+}
+
+.main-background h1 {
+  font-size: 4em;
+}
+
+.main-background h2 {
+  width: 575px;
+  font-weight: lighter;
+  text-align: center;
+}
+
+
+/* ====================== */
+/*  Description styling   */
+/* ====================== */
+.description {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+.description .title {
+  width: 270px;
+  height: 40px;
+  margin-top: 40px;
+  font-size: 2em;
+  border-bottom: 4px solid #2fc364;
+}
+
+.description-bar {
+  display: flex;
+  text-align: center;
+}
+
+.description-bar div {
+  flex: 1;
+}
+
+/* Selector for the 3 titles in description-bar*/
+.description-bar div div:first-of-type {
+  font-size: 1.5em;
+  font-weight: bold;
+  color: #2fc364;
+  margin-bottom: 30px;
+}
+
+.description-bar div img {
+  height: 85px;
+  margin-top: 85px;
+  margin-bottom: 20px;
+}
+
+/* Selector for the 3 small texts in description-bar*/
+.description-bar div div:last-of-type {
+  font-size: 1.2em;
+  font-weight: lighter;
+  color: #615858;
+  width: 220px;
+  margin: 0px 60px;
+  margin-bottom: 90px;
+}
+
+
+/* ======================== */
+/*  Green section styling   */
+/* ======================== */
+.green-section {
+  display: flex;
+  background-color: #45a768;
+  padding: 60px 80px;
+  margin: 0px 30px;
+  color: white;
+}
+
+.columnA {
+  width: 450px;
+  height: 600px;
+  margin-right: 200px;
+}
+
+.columnB img {
+  width: 300px;
+  height: 525px;
+}
+
+#green-section-main-title {
+  width: 410px;
+  height: 42px;
+  font-size: 2em;
+  border-bottom: 4px solid white;
+  margin-bottom: 60px;
+}
+
+.greensection-titles {
+  font-size: 1.5em;
+  font-weight: bold;
+  margin-top: 45px;
+  margin-bottom: 30px;
+}
+
+.greensection-parag {
+  width: 300px;
+  font-weight: lighter;
+  font-size: 1.2em;
+}
+
+.green-section {
+  position: relative;
+}
+
+#white-logo img {
+  height: 115px;
+}
+
+#white-logo {
+  position: absolute;
+  margin-top: 25%;
+  margin-left: 40%;
+}
