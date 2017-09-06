@@ -6,3 +6,125 @@ Green: #00B172
 White: #FFF
 
 */
+body {
+  height: 75%:
+}
+h1 {
+  font-size: 5em;
+}
+
+h2 {
+  font-size: 2.5em;
+  text-align: center;
+  text-decoration: underline;
+  text-decoration-color: green;
+  text-underline-position: left;
+}
+
+h3 {
+  color: #3CB371;
+  font-size: 1.3em;
+  font-weight: 900;
+}
+h4 {
+  font-size: 2.5em;
+  color: #FFF;
+  text-decoration: underline;
+}
+
+h5 {
+  color: #FFF;
+  font-size: 1.3em;
+}
+
+p {
+  color: #FFF;
+  font-size: 1.2em;
+}
+
+quote {
+  font-size: 2em;
+}
+
+@keyframes bounce {
+	0%, 20%, 60%, 100% {
+		transform: translateY(0);
+		transform: translateY(0);
+	}
+
+	40% {
+		transform: translateY(-20px);
+		transform: translateY(-20px);
+	}
+
+	80% {
+		transform: translateY(-10px);
+		transform: translateY(-10px);
+	}
+}
+
+  .animation-logo:hover {
+    animation: bounce 1s;
+    animation-iteration-count: infinite;
+  }
+  .nav-style{
+    background-color: #FFF;
+    position: fixed;
+    top: 0;
+    width: 100%;
+    padding: 20px;
+  }
+
+  .nav-style > ul {
+    float: right;
+    list-style: none;
+    display: inline-flex;
+  }
+
+
+
+  .nav-style > img {
+    width: 10%;
+    float: left;
+  }
+  .div-central {
+    background: url("/home/valentin/code/lab/lab-css-spotify-clone/starter-code/images/landing.jpg");
+    background-size: contain;
+    text-align: center;
+    color: #FFF;
+    padding: 150px;
+  }
+
+  .container {
+    background-color: #FFF;
+    font-size: 1.5em;
+    display: block;
+    text-align: center;
+    padding: 50px 0;
+  }
+
+  .section-kanye {
+    background-color: #3CB371;
+    padding: 25px 100px;
+    margin: 20px;
+  }
+
+  .spotify-logo {
+    width: 12%;
+    height: 25%;
+    position: absolute;
+    top: 1400px;
+    left: 600px;
+  }
+
+  .spotify-app {
+    width: 300px;
+    float: right;
+    position: relative;
+    bottom: 550px;
+  }
+
+  .col{float: left;}
+  .col-3{width: 30%;}
+  .col-middle{margin: 0 5%;}
+  .clearfix{clear: both;}
