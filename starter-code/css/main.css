@@ -26,14 +26,14 @@ h1 .navbar-logo {
   margin: 10px 20px;
 }
 
-a.logo:hover {
+.navbar-logo:hover {
   animation: jump 1s;
-  animation-duration: infinite;
+  animation-direction: alternate;
 }
 
 @keyframes jump {
   100% {
-    margin-top: -20px;
+	  margin-top: -20px;
   }
 }
 
