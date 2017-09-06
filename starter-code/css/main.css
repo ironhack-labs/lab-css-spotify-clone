@@ -6,3 +6,175 @@ Green: #00B172
 White: #FFF
 
 */
+
+
+body{
+  font: 200 16px/1.5 "Helvetica Neue", Helvetica, Arial, sans-serif;
+}
+
+.nav{
+  position: fixed;
+  top: 0;
+  width: 100%;
+  height: 100px;
+  background-color: white;
+  z-index: 10;
+  }
+
+#logo {
+  height:60px;
+  float: left;
+  margin-left: 5%;
+  margin-top: 1%;
+  padding-bottom: 1%;
+}
+
+#logo:hover {
+  animation-name: logo;
+  animation-duration: 0.2s;
+  animation-iteration-count: infinite;
+  animation-direction: alternate;
+}
+
+@keyframes logo {
+  0% {margin-top: 0%;}
+  100% {margin-top: 1%;}
+}
+
+.nav-list li{
+  float: right;
+  list-style: none;
+  display: inline;
+  font-size: 1.5em;
+  vertical-align: text-top;
+  padding-left: 2%;
+  margin-top: 1%;
+}
+
+.nav-list{
+  margin-right: 5%;
+}
+
+.main-image{
+  background-image: url("../images/landing.jpg");
+  background-repeat: no-repeat;
+  background-size: contain;
+  height: 1000px;
+  color: #FFF;
+  margin-top: 50px;
+}
+
+.main-image h1{
+  text-align: center;
+  font-size: 5em;
+  position: relative;
+  padding-top: 21%;
+  padding-bottom: -10%;
+  margin-top: -5%;
+}
+
+.main-image p{
+  font-size: 2em;
+  margin-top: -4%;
+}
+
+.section3 h2, .main-image p{
+  text-align: center;
+}
+
+.section3 h2{
+  font-size: 2.2em;
+  margin-top: -10%;
+}
+
+.section3 span{
+  border-bottom: solid 4px #00B172;
+  padding-bottom: 15px;
+}
+
+.section3 {
+  padding-bottom: 5%;
+}
+
+.icons {
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  text-align: center;
+  width: 85%;
+  margin-left: 5%
+}
+
+.icons h3{
+  color: #00B172;
+  font-size: 1.8em;
+}
+
+.icons p{
+  font-size: 1.5em;
+}
+
+.icons div{
+  padding-top: 7%;
+  margin-left: 5%;
+}
+
+.icons img {
+  height: 90px;
+}
+
+.end{
+  color: #FFF;
+  background-color: #00B172;
+  width: 90%;
+  margin-left: 5%;
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  flex-wrap: nowrap;
+  margin-bottom: 3%;
+}
+
+.last-section{
+  width: 100%;
+}
+
+.last-section h2{
+  font-size: 2em;
+  padding: 10% 0 0 15%;
+}
+
+.last-section span{
+  border-bottom: solid 4px;
+  padding-bottom: 8px;
+}
+
+.last-section h3{
+  font-size: 1.6em;
+  padding-left: 15%;
+}
+
+.last-section p{
+  font-size: 1.3em;
+  padding-left: 15%;
+}
+
+#search{
+  padding-top: 5%;
+}
+
+#bottom{
+  padding-bottom: 5%;
+}
+
+#white-logo{
+  width: 40%;
+  padding-top: 100%;
+}
+
+#kanye{
+  width:100%;
+  padding-top: 50%;
+  margin-left: -30%;
+
+}
