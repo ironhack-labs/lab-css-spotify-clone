@@ -1,8 +1,226 @@
 /*
 Colors:
-
 Text: 1A1A1A
 Green: #00B172
 White: #FFF
-
 */
+/* GENERAL STYLING*/
+*{
+  font: 200 16px/1.5 "Helvetica Neue", Helvetica, Arial, sans-serif;
+  margin: 0;
+ }
+/* NAV BAR SECTION */
+.nav{
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  height:70px;
+  padding: 0 20px;
+}
+.nav-bar-image{
+  height:50px;
+  width:150px;
+
+}
+
+.nav-bar-image img {
+  height:100%;
+}
+
+.nav-bar-menu {
+  display: block;
+
+}
+
+.nav-bar-menu-list{
+  display: inline-block;
+  font-size: 1.1em;
+  margin: 0 20px;
+}
+/*  BACKGROUND IMAGE SECTION */
+
+.section-background-image{
+  background-image: url('../images/landing.jpg');
+  background-repeat:no-repeat;
+  background-size: cover;
+  background-position: center;
+  height: 500px;
+  padding: 250px 0 0;
+}
+.section-background-title{
+  color: white;
+  font-size: 4em;
+  font-weight: bold;
+  text-align: center;
+
+}
+
+.section-background-text {
+  color: white;
+  font-size: 2em;
+  text-align: center;
+}
+
+/*  INFO SECTION */
+.section-info{
+
+}
+
+.section-info-title {
+  text-align: center;
+  font-size: 3em;
+  font-weight: bold;
+  padding: 50px;
+}
+.underlying{
+  text-align:center;
+  margin: -50px auto;
+  width: 400px;
+  border: 0;
+  border-top: 5px solid #00B172;
+  padding: 0;
+}
+    /* ------- Container -------------- */
+.container{
+  margin: auto;
+  padding : 90px 75px;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+}
+    /* ------- Article -------------- */
+.section-info-song {
+  width:33%;
+  padding: 20px;
+  text-align: center;
+
+}
+
+.section-info-song-img {
+  width: 33%;
+  height: 20%;
+  margin: auto;
+}
+
+.section-info-song-img > img {
+  width: 100%;
+}
+
+.section-info-song-title{
+  color: #00B172;
+  font-size: 2.1em;
+  font-weight: bold;
+  padding: 15px;
+}
+.section-info-song-text{
+  font-size: 1.5em;
+
+}
+
+  /* ------- Music -------------- */
+  .section-info-music {
+    width:33%;
+    padding: 20px;
+    text-align: center;
+
+  }
+
+  .section-info-music-img {
+    width: 33%;
+    height: 20%;
+    margin: auto;
+  }
+
+  .section-info-music-img > img {
+    width: 100%;
+  }
+
+  .section-info-music-title{
+    color: #00B172;
+    font-size: 2.1em;
+    font-weight: bold;
+    padding: 15px;
+  }
+  .section-info-music-text{
+    font-size: 1.5em;
+  }
+    /* ------- Stream -------------- */
+    .section-info-stream {
+      width:33%;
+      padding: 35px 30px 10px;
+      text-align: center;
+
+    }
+
+    .section-info-stream-img {
+      width: 33%;
+      height: 20%;
+      margin: auto;
+    }
+
+    .section-info-stream-img > img {
+      width: 100%;
+    }
+
+    .section-info-stream-title{
+      color: #00B172;
+      font-size: 2.1em;
+      font-weight: bold;
+      padding: 15px;
+    }
+    .section-info-stream-text{
+      font-size: 1.5em;
+    }
+
+/*  GREEN SECTION */
+.section-green{
+  background-color: #00B172;
+  height: 800px;
+  display: flex;
+  justify-content: flex-start;
+  margin: 40px;
+}
+.section-green-left-block{
+  width: 38%;
+  padding: 40px 0 0 80px;
+}
+.section-green-title-art{
+  font-size: 2.9em;
+  font-weight: 500;
+  color: white;
+  border-bottom: 5px solid white;
+  margin-bottom: 50px;
+}
+
+.section-green-title{
+  font-size: 1.7em;
+  font-weight: bold;
+  color: white;
+  margin-bottom: 10px;
+}
+.section-green-text {
+  margin-bottom: 70px;
+}
+.section-green-text > p {
+  font-size: 1.5em;
+  color: white;
+}
+.section-green-icon{
+  position: absolute;
+  margin-left: 40%;
+  margin-top: 20%;
+  height: 40%;
+}
+.section-green-icon > img {
+  height: 50%;
+}
+
+.section-green-image-right{
+  display: flex;
+  justify-content:flex-end;
+  padding: 90px 20px 30px 20px;
+  margin-left: 90px;
+}
+.section-green-image-right > img {
+  height: 100%;
+}
