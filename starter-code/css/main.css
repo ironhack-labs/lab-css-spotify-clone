@@ -6,3 +6,190 @@ Green: #00B172
 White: #FFF
 
 */
+
+*{
+  margin: 0;
+  padding: 0;
+  color: 1A1A1A;
+  font-family: Montserrat, sans-serif;
+  font-size: 20px;
+  line-height: 1.5;
+}
+
+a {
+  color: black;
+}
+
+h1 .navbar-logo {
+  width: 17%;
+  float: left;
+  margin: 10px 20px;
+}
+
+a.logo:hover {
+  animation: jump 1s;
+  animation-duration: infinite;
+}
+
+@keyframes jump {
+  100% {
+    margin-top: -20px;
+  }
+}
+
+h3 {
+  font-size: 1.8rem;
+  text-decoration: underline;
+}
+
+h4 {
+  font-size: 1.5rem;
+}
+
+p {
+  font-size: 1.3rem;
+}
+
+#content-info h3 {
+  text-decoration-color: #00B172;
+  text-align:center;
+}
+
+.info-col3 {
+  width: 25%;
+  margin: 3%;
+  float: left;
+  text-align: center;
+}
+
+.info-col3 img {
+  width: 150px;
+}
+
+.info-col3 h4 {
+  color: #00B172;
+}
+
+.navbar-menu {
+  float: right;
+  width: 35%;
+}
+
+.navbar-menu .navbar-item {
+  display: inline;
+  list-style-type: none;
+  margin: 5px;
+  height: 100px;
+  line-height: 100px;
+  white-space: nowrap;
+  font-size: 1.5rem;
+
+}
+
+.navbar-menu .navbar-item a {
+  text-decoration: none;
+  font-size: 1.5rem;
+  color: 1A1A1A;
+}
+
+.navbar {
+  position: fixed;
+  z-index: 100;
+  padding: 5px;
+  margin-bottom: 5px;
+  top: 0;
+	left: 0;
+	right: 0;
+  height: 110px;
+  background-color: #FFF;
+}
+
+.container {
+  position: relative;
+  top: 125px;
+  padding: 5%;
+}
+
+.clear-fix {
+  clear: both;
+}
+
+#main-img {
+  width:100%;
+  color: #FFF;
+  height: 900px;
+  text-align: center;
+  padding: 40% auto;
+  border: 1px solid black;
+}
+
+#main-img .img {
+  background-image: url("/home/liuda/code/labs/lab-css-spotify-clone/starter-code/images/landing.jpg");
+  background-repeat: no-repeat;
+  background-position: center;
+  background-size: cover;
+  position: absolute;
+  z-index: 1;
+  top: 0;
+  bottom:0;
+  right:0;
+  left:0;
+}
+
+#main-img .img .text-intro {
+  position: absolute;
+  top: 40%;
+  left: 0%;
+  right: 0%;
+}
+.text-intro p {
+  font-size: 1.5rem;
+}
+
+.text-intro h2{
+  font-size: 4rem;
+  margin-bottom: 50px;
+}
+
+.green {
+  background-color: #00B172;
+  color: #FFF;
+  margin: 5%;
+  padding: 5%;
+}
+
+
+.green > img {
+  width: 150px;
+  position: absolute;
+  top: 40%;
+  left: 50%;
+}
+
+.green .col2 {
+  position: relative;
+  width: 40%;
+}
+
+.col2 section {
+  margin: 35px;
+}
+.col2 section p,h4 {
+  margin: 10px;
+}
+
+.col2 h3 {
+  margin: 35px;
+}
+
+
+.col2:last-child {
+  position: absolute;
+  right: 50px;
+  top: 15%;
+  margin-right: -200px;
+}
+
+.green .col2 img {
+  width: 355px;
+}
