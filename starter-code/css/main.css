@@ -6,3 +6,140 @@ Green: #00B172
 White: #FFF
 
 */
+
+nav{
+  top: 0px;
+  background-color: white;
+  position: fixed;
+  display: flex;
+  height: 80px;
+  padding-bottom: 50px;
+}
+
+.logo img{
+  max-width:30%;
+}
+
+.logo img:hover {
+  animation: bounce 1s;
+  animation-iteration-count: infinite;
+  animation-direction: alternate;
+  }
+
+.navText{
+  align-items: center;
+}
+
+ul{
+padding-top: 50px;
+padding-right: 50px;
+width:500px;
+list-style-type: none;
+display: flex;
+align-items: center;
+}
+
+li{
+  font-family:  "Times New Roman", Times, serif;
+  font-size: 20px;
+  padding: 5px;
+}
+
+
+.bigPics {
+  background-image: url(../images/landing.jpg);
+  height:800px;
+  width: 100%;
+  justify-content: center;
+  align-items: center;
+  background-size:cover;
+  background-position-y: center;
+}
+
+.bigPics section{
+  padding-top: 25%;
+}
+
+.music{
+  text-align: center;
+  margin:0px;
+  font-size: 5rem;
+  color: white;
+}
+
+.text1{
+  text-align: center;
+  font-size: 2rem;
+  color: white;
+}
+
+.what section {
+  display: flex;
+  justify-content: space-evenly;
+
+}
+
+.whatson{
+  padding: 0px;
+  text-align: center;
+  width:275px;
+  margin-left: 40%;
+  border-bottom:3px #00B172 solid;
+  }
+
+  .part2{
+    text-align: center;
+    color: #00B172;
+    font-weight: bold;
+  }
+
+  .what section p{
+    text-align:center;
+}
+
+.what img{
+  width: 50px;
+}
+
+.part3{
+margin-left:200px;
+margin-right:200px;
+margin-bottom: 50px;
+display:flex;
+background-color: #00B172;
+color:#FFF;
+padding-top: 10px;
+padding-left: 40px;
+padding-bottom: 20px;
+}
+
+.part3 h1{
+  padding: 0px;
+  text-align: left;
+  width:385px;
+  border-bottom:3px #FFF solid;
+}
+.part3 aside{
+  max-width: 30%;
+   }
+
+
+  .icon img{
+    padding-top:200PX;
+    padding-right: 700px;
+    max-width: 30%;
+  }
+
+  .app img{
+    padding-top: 30px;
+    max-width: 65%;
+    padding-right: 50px;
+    }
+
+
+
+@keyframes bounce {
+  100% {
+    margin-top: 120px;
+  }
+}
