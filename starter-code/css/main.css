@@ -6,3 +6,144 @@ Green: #00B172
 White: #FFF
 
 */
+
+* {
+	box-sizing: border-box;
+}
+
+body {
+	font-family: Circular,Helvetica,Arial,sans-serif;
+	margin: 0px;
+}
+
+header {
+	width: 100%;
+	height: 70px;
+	display: flex;
+	justify-content: space-between;
+	position: fixed;
+	background-color: white;
+	padding-top: 10px;
+	padding-bottom: 10px;
+	align-items: center;
+	top: 0px;
+}
+
+#logo {
+	max-height: 100%;
+	margin-left: 20px;
+}
+
+ul {
+	display: flex;
+	list-style-type: none;
+	flex-direction: row;
+}
+
+li {
+	margin-right: 30px;
+	font-weight: 30px;
+}
+
+.page-top {
+	width: 100%;
+	background-image: url(../images/landing.jpg);
+	background-size: cover;
+	display: block;
+	overflow: hidden;
+	height: 600px;
+	display: flex;
+	justify-content: center;
+	align-items: center;
+	flex-direction: column;
+	text-align: center;
+}
+
+#caption {
+	display: flex;
+	justify-content: center;
+	align-items: center;
+	color: white;
+
+}
+	
+h1 {
+	display: flex;
+	justify-content: center;
+	align-items: center;
+	color: white;
+	font-size: 50px;
+}
+
+.main {
+	margin-top: 70px;
+}
+
+.page-center {
+	height: 500px;
+	overflow: hidden;
+	width: 100%;
+	margin-top: 30px;
+}
+
+.minimal-left {
+	max-width: 33%;
+}
+.minimal-center {
+	max-width: 33%;
+}
+.minimal-right {
+	max-width: 33%;
+}
+#music {
+	max-width: 50%;
+}
+#sound {
+	max-width: 50%
+}
+#devices {
+	max-width: 50%
+}
+
+.minimal {
+	display: flex;
+	justify-content: space-between;
+	margin : 20px;
+	text-align: center;
+	align-items: center;
+
+}
+
+.title-center {
+	height: 40px;
+	font-weight: bold;
+	display: flex;
+	justify-content: center;
+	align-items: center;
+	padding: 10px;
+	text-decoration: underline;
+	text-decoration-color: #00B172;
+	text-decoration-line: 3px; 	
+	font-size : 40px;
+}
+
+h3{
+	color: #00B172;
+}
+
+.page-bottom {
+	height: 600px;
+	margin: 20px;
+	background-color: #00B172;
+	background-image: url(../images/spotify-icon-white.png);
+	display: flex;
+	justify-content: space-around;
+	align-items: center;
+	background-repeat: no-repeat;
+	background-size: 100px;
+	background-position: center;
+}
+
+#Kanye {
+	max-height: 400px;
+}
