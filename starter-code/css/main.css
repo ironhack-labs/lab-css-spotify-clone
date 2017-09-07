@@ -1,3 +1,4 @@
+
 /*
 Colors:
 
@@ -6,3 +7,164 @@ Green: #00B172
 White: #FFF
 
 */
+
+body {
+  font: 200 16px/1.5 "Helvetica Neue", Helvetica, Arial, sans-serif;*/
+}
+
+.navbar{
+  top:0px;
+  width:98.6%;
+  background:White;
+  display:flex;
+  justify-content: flex-start;
+  position:fixed;
+  border-bottom: 1px solid black;
+  z-index:1;
+}
+
+.iconspotify{
+  display:block;
+  padding-top: 10px;
+  padding-bottom: 20px;
+  padding-left: 30px;
+}
+
+.iconspotify:hover {
+ animation-name : bounce;
+ position: relative;
+ animation-iteration-count : infinite;
+ animation-duration: 2s;
+}
+
+@keyframes bounce {
+  0% {
+    margin-top : 50px;
+  }
+  50% {
+    margin-top : -20px;
+  }
+  100%{
+    margin-top : 50px;
+  }
+}
+
+
+ul {
+  list-style:none;
+  position: absolute;
+  text-indent: 2em;
+  margin-left: 625px;
+  padding-top: 35px;
+}
+
+ul li {
+  display: table-cell;
+  color: black;
+  opacity: 0.8;
+  font-size: 18px;
+}
+
+.backgroundbloc{
+  height: 720px;
+  background-image: url(../images/landing.jpg);
+  background-size: cover;
+  background-repeat: no-repeat;
+  background-position-y: center;
+  background-position-x: center;
+}
+
+.baselinegroup {
+  position: relative;
+  color: white;
+  padding-left: 50px;
+  margin-bottom: 300px;
+  top:250px; width:1000px; height:20px;
+  text-align: center;
+}
+
+h1{
+  font-size: 65px;
+  padding-top:10px;
+}
+
+.paragraph {
+  font-size: 25px;
+  margin-top: -40px;
+  line-height: 1.2;
+}
+
+h2{
+  text-align: center;
+  font-size: 30px;
+}
+
+.border {
+  border: 2px solid #00B172;
+  width: 256px;
+  margin: 0 auto;
+  margin-top:-24px;
+}
+
+img[alt*="icon"] {
+height: 90px;
+}
+
+.groupmenu{
+  display:flex;
+  justify-content: space-around;
+  margin-top: 60px;
+  text-align:center;
+}
+
+.groupmenu p {
+  font-size: 21px;
+  width: 220px;
+}
+
+h3{
+  color:#00B172;
+  font-size: 24px;
+}
+
+.greenzone {
+  background-color: #00B172;
+  display:flex;
+  justify-content:space-around;
+  align-items:center ;
+}
+
+.bloctext {
+  color: White;
+  padding-top: 15px;
+  margin-bottom: 25px;
+  margin-left: -45px;
+}
+
+.borderkanye {
+  border: 2px solid white;
+  width: 396px;
+  margin: 0 auto;
+  margin-top:-36px;
+}
+
+h4{
+  font-size: 30px;
+}
+
+h5{
+  font-size: 25px;
+}
+
+.bloctext p{
+  width: 270px;
+  font-size: 19px;
+  margin-bottom: 1px;
+}
+
+.whitespotify{
+  margin-right: 85px;
+}
+
+.app{
+}
