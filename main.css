@@ -1,0 +1,173 @@
+/*
+Colors:
+Text: 1A1A1A
+Green: #00B172
+White: #FFF
+*/
+
+body {
+    font-family: inconsolata, Bungee Shade;
+}
+
+.nav {
+    position: fixed;
+    top: 0;
+    width: 100%;
+    height: 100px;
+    background-color: white;
+    z-index: 10;
+}
+
+#logo {
+    height: 60px;
+    float: left;
+    margin-left: 20px;
+    margin-top: 10px;
+    padding-bottom: 10px;
+}
+
+@keyframes logo {
+    10px {
+        margin-top: 10px;
+    }
+    100% {
+        margin-top: 1%;
+    }
+}
+
+.nav-list li {
+    float: right;
+    list-style: none;
+    display: inline;
+    font-size: 25px;
+    vertical-align: text-top;
+    padding-left: 2%;
+    margin-top: 1%;
+}
+
+.nav-list {
+    margin-right: 5%;
+}
+
+.landingimg {
+    background-image: url("../images/landing.jpg");
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+    height: 890px;
+    color: white;
+    margin-top: 50px;
+}
+
+.landingimg h1 {
+    text-align: center;
+    font-family: bungee shade;
+    font-size: 68px;
+    position: relative;
+    padding-top: 130px;
+    padding-bottom: 50px;
+    margin-top: 80px;
+}
+
+.landingimg p {
+    font-size: 30px;
+    margin-top: 100px;
+    text-align: center;
+}
+
+.middleclass h2,
+.landingimg p {
+    text-align: center;
+}
+
+.middleclass h2 {
+    font-size: 50px;
+    margin-top: 120px;
+    margin-bottom: 120px;
+    font-family: bungee shade;
+}
+
+.middleclass span {
+    border-bottom: solid 4px #00B172;
+    padding-bottom: 15px;
+}
+
+.middleclass {
+    padding-bottom: 5%;
+}
+
+.icons {
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    text-align: center;
+    width: 85%;
+    margin-left: 5%
+}
+
+.icons h3 {
+    color: #00B172;
+    font-size: 1.8em;
+}
+
+.icons p {
+    font-size: 1.5em;
+}
+
+.icons div {
+    padding-top: 7%;
+    margin-left: 5%;
+}
+
+.icons img {
+    height: 90px;
+}
+
+.bottomclass {
+    color: #FFF;
+    background-color: #00B172;
+    width: 1200px;
+    margin: auto;
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    flex-wrap: nowrap;
+    margin-bottom: 100px;
+}
+
+.lowclass {
+    width: 100%;
+}
+
+.lowclass h2 {
+    font-size: 30px;
+    padding: 10% 0 0 15%;
+}
+
+.lowclass span {
+    border-bottom: solid 4px;
+    padding-bottom: 10px;
+}
+
+.lowclass h3 {
+    font-size: 25px;
+    padding-left: 15%;
+}
+
+.lowclass p {
+    font-size: 1.3em;
+    padding-left: 15%;
+}
+
+#roundlogo {
+    width: 40%;
+    padding-top: 100%;
+}
+
+#kanye {
+    width: 100%;
+    padding-top: 30px;
+    margin-left: 20px;
+    margin-bottom: 10px;
+    margin-right: 100px;
+}
