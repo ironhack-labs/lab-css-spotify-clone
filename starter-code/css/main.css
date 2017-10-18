@@ -6,3 +6,208 @@ Green: #00B172
 White: #FFF
 
 */
+body{
+  color: #1A1A1A;
+  margin: 0;
+  padding: 0;
+  font-family: 'Open Sans', sans-serif;
+}
+nav{
+  background: white;
+  margin-bottom: 10px;
+  position: fixed;
+width: 100%;
+padding: 10px;
+}
+h1{
+  color:rgb(255,255,255);
+  text-align:center;
+  font-weight: 600;
+  font-size: 65px;
+}
+
+h2{
+  font-weight: 400;
+  font-size: 30px;
+      margin-bottom: 0;
+}
+
+h3{
+  color: #00B172;
+  font-weight: 700;
+  font-size: 21px;
+}
+
+hr{
+  width: 235px;
+border: 2px solid #00B172;
+}
+.inline-block{
+  display:inline-block;
+}
+
+.logo{
+  width: 25%;
+  text-align: left;
+}
+
+.menu{
+  width: 72%;
+  text-align: center;
+}
+
+.iconLogo{
+  width: 180px;
+  margin-left: 20px;
+  margin-top: 8px;
+  transition-duration: 2s;
+  vertical-align: middle;
+
+}
+
+ul.menuTop{
+  text-align: right;
+  padding: 0;
+  margin: 0;
+}
+ul.menuTop > li{
+  display: inline;
+  text-align: right;
+  font-size: 17px;
+  font-weight: 100;
+  margin-left: 20px;
+}
+
+.firstDivImage{
+  background: url("../images/landing.jpg");
+  display: block;
+  background-size: cover;
+  padding: 210px;
+}
+
+.firstDivImage > p{
+  color: white;
+  text-align: center;
+  font-size: 22px;
+  width: 80%;
+  margin: 0 auto;
+  font-weight: 100;
+}
+
+.imgbox{
+  width: 100px;
+}
+
+.box{
+  text-align: center;
+  width: 30%;
+  height: 300px;
+  vertical-align: bottom;
+}
+
+.box > p{
+  font-weight: 100;
+  width: 60%;
+  font-size: 18px;
+  margin: 0 auto;
+}
+.secondDivImage{
+  text-align: center;
+}
+
+.imgbox2{
+    margin-top: 15px;
+}
+
+.imgbox3{
+    margin-top: 2px;
+}
+
+.boxes{
+    margin-top: 50px;
+}
+
+.greenBox{
+  background: #00B172 url("../images/spotify-icon-white.png");
+  background-position: 50%;
+  background-repeat: no-repeat;
+  background-size: 100px;
+  top: 50%;
+  left: 50%;
+  width: 95%;
+  margin: 0 auto;
+}
+
+.col40{
+  width: 49%;
+  text-align: right;
+}
+
+/* not used */
+.col50{
+  width: 50%;
+}
+.col55{
+  margin-left: 8%;
+  color: white;
+  padding-top: 33px;
+}
+.smartphoneApp{
+  width: 257px;
+  vertical-align: bottom;
+}
+.titleGreenBox > hr{
+  border-bottom: 3px solid white;
+  width: 378px;
+  margin: 0;
+}
+
+.divBoxLeftGreenBox > h3{
+  color: white;
+  font-size: 24px;
+}
+.divBoxLeftGreenBox{
+  font-size: 16px;
+  font-weight: 100;
+  font-family: sans-serif;
+  width: 58%;
+  line-height: 25px;
+}
+
+.titleGreenBox{
+    width: 42%;
+}
+
+li > a{
+  text-decoration: none;
+  color: #1A1A1A;
+}
+
+.bounce {
+  @include animation(bounce 2s infinite);
+}
+
+.iconLogo:hover{
+  animation: bounce 1s;
+}
+@keyframes bounce {
+	0%, 20%, 60%, 100% {
+		-webkit-transform: translateY(0);
+		transform: translateY(0);
+	}
+
+	40% {
+		-webkit-transform: translateY(-20px);
+		transform: translateY(-20px);
+	}
+
+	80% {
+		-webkit-transform: translateY(-10px);
+		transform: translateY(-10px);
+	}
+}
+/* REMOVE FROM HERE FOR NORMAL EXERCISE */
+span.txt-rotate {
+    top: 44px;
+    position: fixed;
+}
