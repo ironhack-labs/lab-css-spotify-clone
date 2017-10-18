@@ -1,8 +1,189 @@
-/*
-Colors:
+@import url('https://fonts.googleapis.com/css?family=Montserrat');
+@import url('https://fonts.googleapis.com/css?family=Open+Sans:300');
+body {
+  margin: 0px;
+  padding: 0px;
+  font-family: "Open Sans";
+}
 
-Text: 1A1A1A
-Green: #00B172
-White: #FFF
+nav {
+  width: 100%;
+  height: 45px;
+  background-color: white;
+  color: black;
+  font-family: "Open Sans";
+  font-size: 1.4em;
+  font-weight: bolder;
+}
 
-*/
+#logo {
+  position: absolute;
+  width: 200px;
+  height: 60px;
+  left: 40px;
+  top: 15px;
+}
+
+ul {
+  position: absolute;
+  right: 40px;
+  top: 10px;
+  word-spacing: 30px;
+}
+
+#banner {
+  text-align: center;
+  color: white;
+  position: relative;
+  height: 990px;
+}
+
+#landingImage {
+  position: absolute;
+  top: 0px;
+  left: 0px;
+  width: 100%;
+  z-index: -1;
+}
+
+#text {
+  position: relative;
+  top: 300px;
+  left: 20px;
+}
+
+h1 {
+  font-size: 5em;
+  font-family: "Montserrat";
+}
+
+h2 {
+  font-size: 2em;
+  font-weight: bold;
+}
+
+h3 {
+  font-family: "Montserrat";
+  font-size: 2.5em;
+  text-decoration: underline;
+  text-decoration-style: solid;
+}
+
+#info {
+  position: relative;
+  height: 600px;
+}
+
+#info h3 {
+  text-align: center;
+  text-decoration-color: #00B172;
+}
+
+#songs {
+  position: absolute;
+  display: inline-block;
+  left: 150px;
+  text-align: center;
+  padding-top: 100px;
+  top: 160px;
+  font-size: 1.3em;
+  width: 300px;
+}
+
+#music {
+  display: inline-block;
+  margin-left: 550px;
+  text-align: center;
+  padding-top: 100px;
+  position: relative;
+  top: 40px;
+  font-size: 1.3em;
+  width: 300px;
+}
+
+#stream {
+  display: inline-block;
+  position: relative;
+  left: 80px;
+  top: 70px;
+  text-align: center;
+  padding-top: 100px;
+  font-size: 1.3em;
+  width: 400px;
+}
+
+#musicIcon {
+  position: absolute;
+  top: 20px;
+  left: 85px;
+  width: 130px;
+  height: 100px;
+}
+
+#qualityIcon {
+  position: absolute;
+  top: 20px;
+  left: 85px;
+  width: 130px;
+  height: 100px;
+}
+
+#streamIcon {
+  position: absolute;
+  top: 20px;
+  left: 150px;
+  width: 100px;
+  height: 100px;
+}
+
+h4 {
+  font-weight: bold;
+  font-family: "Montserrat";
+  color: #00B172;
+  font-size: 1.6em;
+}
+
+#kanye {
+  height: 850px;
+  position: relative;
+  margin-left: 40px;
+  margin-right: 40px;
+  margin-bottom: 40px;
+  background-color: #00B172;
+  color: white;
+  font-size: 1.05em;
+}
+
+#kanyeInfo {
+  position: absolute;
+  width: 600px;
+  margin: 80px;
+}
+
+#kanyeInfo h3 {
+  text-decoration-color: white;
+  color: white;
+}
+
+h5 {
+  color: white;
+  font-size: 1.9em;
+  font-family: "Montserrat";
+  font-weight: bold;
+}
+
+#kanyePhoto {
+  position: absolute;
+  width: 350px;
+  right: 150px;
+  top: 140px;
+}
+
+#spotifyWhite {
+  z-index: 1;
+  width: 130px;
+  height: 130px;
+  position: absolute;
+  top: 400px;
+  left: 580px;
+}
