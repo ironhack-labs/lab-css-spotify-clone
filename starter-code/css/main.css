@@ -5,4 +5,179 @@ Text: 1A1A1A
 Green: #00B172
 White: #FFF
 
-*/
+You must use 1 descendant selector, and 1 multi selector. You can use more.
+Animate the green Spotify logo in the upper left-hand corner to jump up and down when a user hovers over it.*/
+
+body {
+  margin: 0px;
+  padding: 0px;
+  font-family: sans-serif;
+}
+
+nav {
+  background-color: #FFF;
+  height: 100px;
+  width: 100%;
+}
+
+.navlogo {
+  width: 30%;
+  height: 75%;
+  background-image: url(../images/spotify-logo.png);
+  background-size: contain;
+  background-repeat: no-repeat;
+  background-position: left;
+  float: left;
+  margin: 10px;
+}
+
+.navtext {
+  width: 50%;
+  height: 20%;
+  float: right;
+  text-align: right;
+  vertical-align: middle;
+  margin: 35px 20px;
+  font-size: 1.5em;
+  word-spacing: 1.5em;
+}
+
+.sectioneOne {
+  background-image: url(../images/landing.jpg);
+  background-size: cover;
+  background-position: center;
+  background-repeat: no-repeat;
+  height: 1000px;
+  margin: 0px;
+  text-align: center;
+}
+
+.forEveryone {
+  width: 100%;
+  position: absolute;
+  margin: 200px auto;
+  text-align: center;
+}
+
+.forEveryone h1 {
+  font-size: 4.5em;
+}
+
+.forEveryone p {
+  font-size: 2em;
+}
+
+.sectioneTwo {
+  height: 600px;
+  margin: 0;
+  text-align: center;
+  width: 100%;
+}
+
+.what {
+  height: 80px;
+}
+
+.what p {
+  margin: 0;
+  padding: 50px;
+  font-size: 3em;
+  text-decoration: underline;
+}
+
+.forCols {
+  text-align: center;
+  margin-top: 130px;
+}
+
+.col {
+  width: 30%;
+  display: inline-block;
+  margin: 0 25px;
+  vertical-align: top;
+  height: 300px;
+  margin: 5px;
+}
+
+.colmed {
+  margin-top: 20px;
+}
+
+.col h3 {
+  font-size: 2em;
+  color: #00B172;
+  margin: 0;
+}
+
+.col img {
+  width: 100px;
+  height: auto;
+}
+
+.col p {
+  font-size: 1.5em;
+}
+
+.sectioneThree {
+  background-color: #00B172;
+  height: 800px;
+  margin: 0 auto 20px;
+  width: 85%;
+}
+
+.kanyeText {
+  position: relative;
+  width: 40%;
+  height: 80%;
+  display: inline-block;
+  margin: 40px 100px;
+  text-align: left;
+  vertical-align: top;
+  line-height: 2.5em;
+}
+
+.kanyeText h3 {
+  font-size: 2em;
+  text-decoration: underline;
+}
+
+.kanyeText h2 {
+  font-size: 1.7em;
+}
+
+.kanyeText p {
+  font-size: 1em;
+}
+
+.kanyePic {
+  width: 25%;
+  height: 70%;
+  background-image: url(../images/spotify-app.jpg);
+  background-size: contain;
+  background-position: center;
+  background-repeat: no-repeat;
+  display: inline-block;
+  margin-top: 95px;
+  margin-left: 100px;
+}
+
+.what p, .kanyeText h3 {
+  text-decoration: underline;
+}
+
+.forEveryone, .kanyeText {
+  color: white;
+}
+
+.crazyLogo {
+  position: absolute;
+  display: inline-block;
+  margin: 300px;
+  width: 100px;
+  height: 100px;
+  background-image: url(../images/spotify-icon-white.png);
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+  margin: 350px -100px;
+}
