@@ -6,3 +6,174 @@ Green: #00B172
 White: #FFF
 
 */
+body {
+  margin: 0;
+  padding: 0;
+  font-family: 'Open Sans';
+}
+nav{
+  background-color: white;
+  position: fixed;
+  z-index: 2;
+  width: 100%;
+  padding-right: 10px;
+  float: right;
+  display: inline;
+  height: 80px;
+
+}
+
+.logo img {
+  width: 200px;
+  display: inline-block;
+  float: left;
+  vertical-align: middle;
+  padding-left: 20px;
+  padding-top: 10px;
+  margin top: 0px;
+}
+.logo img:hover {
+    transition-property: bounce;
+    transition-duration: infinite;
+    transition-timing-function:linear;
+    margin-top: 10px;
+}
+
+.navbar {
+  text-decoration: none;
+  text-align: right;
+  padding-right: 30px;
+  vertical-align: middle;
+}
+.nav-links {
+  text-decoration: none;
+  display: inline-block;
+  padding: 10px;
+  font-size: 20px;
+}
+.section-one {
+  background-image: url(../images/landing.jpg);
+  background-size: cover;
+  margin: 0;
+  justify-content: center;
+  color: white;
+  text-align: center;
+  vertical-align: middle;
+  padding: 300px;
+}
+.section-one h1 {
+  font-size: 75px;
+}
+.section-one p {
+  font-size: 25px;
+}
+.section-two-up {
+  text-align: center;
+  font-size: 20px;
+  position: relative;
+}
+.section-two-up hr {
+  border-color: #00B172;
+  width: 310px;
+  text-align: center;
+}
+.section-two-down {
+  display: inline-block;
+}
+.section-two-down-left {
+  width: 33%;
+  display: inline-block;
+  text-align: center;
+
+
+}
+.title-sect-two-left img {
+  width: 33%;
+
+}
+.title-sect-two-left p {
+  color: #00B172;
+  font-size: 25px;
+}
+.section-two-down-cent {
+  width: 33%;
+  display: inline-block;
+  text-align: center;
+
+}
+.title-sect-two-cent img {
+  width: 33%;
+}
+.title-sect-two-cent p {
+  color: #00B172;
+  font-size: 25px;
+}
+.section-two-down-right {
+  width: 33%;
+  display: inline-block;
+  text-align: center;
+  vertical-align: top;
+}
+.title-sect-two-right img {
+  width: 33%;
+}
+.title-sect-two-right p {
+  color: #00B172;
+  font-size: 25px;
+}
+.text-sect-two-left {
+  font-size: 20px;
+}
+.text-sect-two-cent {
+  font-size: 20px;
+}
+.text-sect-two-right {
+  font-size: 20px;
+}
+
+.section-three {
+ background: #00B172 url("../images/spotify-icon-white.png") center no-repeat;
+background-size: 100px;
+ margin: 30px;
+ color: white;
+}
+.section-three-left {
+  border-color: white;
+  display: inline-block;
+  text-align: left;
+  vertical-align: middle;
+  padding-left: 140px;
+  padding-top: 40px;
+  width: 50%;
+  font-size: 20px;
+  position: relative;
+}
+.section-three-left h2 {
+  font-size: 35px;
+  margin-bottom: 0px;
+  padding-bottom: 0px;
+
+}
+.section-three-left hr {
+  border-color: white;
+  width: 70%;
+  display: inline-block;
+  border-width: thin;
+  color: white;
+  border-style: solid;
+}
+.section-three-left h3 {
+  font-size: 35px;
+  margin: 0;
+}
+.section-three-right {
+   display: inline-block;
+   width: 40%;
+   position: absolute;
+}
+.section-three-right img {
+  width: 310px;
+  height: 500px;
+  padding-left: 70px;
+  padding-top: 85px;
+}
