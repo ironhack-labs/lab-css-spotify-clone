@@ -5,4 +5,222 @@ Text: 1A1A1A
 Green: #00B172
 White: #FFF
 
+
+* {
+    border: 1px solid red;
+}
 */
+html {
+    font: 200 16px/1.5 "Helvetica Neue", Helvetica, Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+    width: 100%;
+    height: 100%;  
+}
+body {
+    margin: 0;
+    padding: 0;
+    width: 100%;
+    height: 100%;  
+    display: block;
+    font-family: Roboto, system-ui, sans-serif;
+
+}
+header {
+    box-sizing: border-box;
+}
+header .nav {
+    position: relative;
+    box-sizing: border-box;
+    height: 2em;
+}
+header .logo-container {
+    display: inline-block;
+    position: relative;
+    width: 267px;
+    height: 70px;
+    box-sizing: border-box;
+    padding-left: 2%;
+    padding-top: 0.5%;
+}
+header .logo-spotify {
+width: 100%;
+height: 100%;
+}
+header .nav-menu {
+    display: inline-block;
+    box-sizing: border-box;
+    vertical-align: top;
+    width: 80%;
+    text-align: right;
+}
+header .menu {
+    list-style-type: none;
+    vertical-align: left;
+    box-sizing: border-box;
+}
+
+header .list {
+    display: inline-block;
+    box-sizing: border-box;
+    margin: 0 2%;
+    font-size: 20px;
+}
+.image-music{
+    background-image: url(../images/landing.jpg);
+    background-size: 100%;
+    height: 953px;
+    box-sizing: border-box;
+    background-size: 100%;
+}
+.music {
+    display: block;
+    width: 100%;
+    height: 953px;
+    box-sizing: border-box;
+    background-size: 100%;
+}
+#image h1 {
+    color: #ffffff;
+    text-align: center;
+    padding-top: 22%;
+    font-size: 72px;
+}
+#image h2 {
+    color: #ffffff;
+    text-align: center;
+    font-size: 23px;
+    padding: 0px;
+    margin: auto;
+}
+#container {
+    display: block;
+    box-sizing: border-box;
+    margin-bottom: 8%;
+}
+#container .title-container{
+    text-align: center;
+    font-size: 45px;
+    text-decoration: underline;
+    text-decoration-color: #00B172;
+    box-sizing: border-box;
+
+}
+
+#container .title-comtainer h2{
+    text-align: center;
+    font-size: 72px;
+}
+
+#container .devices {
+    text-align: center;
+    margin: 0 1% 0 1%;
+    vertical-align: top;
+}
+#container .high-quality-img {
+    height: 100%;
+    width: 100%;
+}
+#container .devices {
+    display: inline-block;
+    width: 30%;
+}
+#container .img-device {
+    height: 90px;
+    width: 90px;
+    align-items: center;
+    vertical-align: middle;
+    display: inline-block;
+}
+#container h3 {
+    color: #00B172;
+    font-size: 25px;
+}
+#container .text {
+    padding: 0;
+    margin: 0;
+    font-size: 20px;
+    margin: 0px 103px;
+}
+#style-footer {
+    background-color: #00B172;
+    color: #ffffff;
+    display: block;
+    margin: 14px;
+}
+#style-footer h2 {
+    font-size: 42px;
+    text-decoration: underline;
+    text-decoration-color: #ffffff;
+    margin-right: -13%;
+    box-sizing: border-box;
+}
+#style-footer h3 {
+font-size: 29px;
+}
+#style-footer p {
+    font-size: 18px;
+    margin-right: 48%;
+}
+#style-footer .seccion-left{
+    display: inline-block;
+    width: 40%;
+    vertical-align: left;
+    box-sizing: border-box;
+    padding-left: 4%;
+}
+#style-footer .title-footer {
+    box-sizing: border-box;
+}
+#style-footer .seccion-center {
+    display: inline-block;
+    width: 18%;
+    vertical-align: middle;
+    margin-top: -40%;
+    box-sizing: border-box;
+    padding-left: 4%;
+    padding-right: 4%;
+
+}
+#style-footer .seccion-right {
+    display: inline-block;
+    width: 40%;
+    vertical-align: right;
+    box-sizing: border-box;  
+    text-align: center;
+    padding-left: 9%;
+    padding-left: 9%;
+    padding-top: 4%;
+    padding-bottom: 4%;
+   
+}
+#style-footer .logo-container {
+    height: 130px;
+    width: 130px; 
+    animation-name: boucing;
+    animation-duration: 2s;
+}
+#style-footer .logo-spotify-green {
+        height: 100%;
+        width:100%;
+       
+    }
+    #style-footer .logo-container:hover{
+    }
+        @keyframes bouncing {
+        0% { margin-top: 9em;  height: 4.5em; }
+        10% { height: 4em }
+        15% { height: 4.5em }
+        50% { margin-top: 0em; height: 4.5em;}
+        100% { margin-top: 9em; height: 4.5em; }
+      }
+    
+#style-footer .logo-app{
+    width: 347px;
+    height: 650px;
+
+}
+#style-footer .app-img{
+    width: 100%;
+    height: 100%;
+}
