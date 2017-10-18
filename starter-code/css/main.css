@@ -6,3 +6,151 @@ Green: #00B172
 White: #FFF
 
 */
+
+
+/*nav{
+  position: fixed;
+  top:0;
+  background-color: yellow;
+  height: 10vh;
+}*/
+
+body {
+  margin: 0;
+  padding: 0;
+  font-size: 1.2em;
+  font-family: "Open Sans";
+
+}
+
+header, .kanye {
+    color: #FFF;
+}
+
+.logo {
+  display: inline-block;
+  vertical-align: middle;
+}
+
+.menu {
+  display: inline-block;
+  position: absolute;
+  right: 50px;
+  top: 50%;
+  transform: translateY(-50%);
+}
+
+nav {
+  padding: 10px;
+  overflow: hidden;
+  background-color: white;
+  position: fixed;
+  top: 0;
+  width: 100%;
+  z-index: 2;
+}
+
+nav a {
+  display: inline-block;
+  text-align: center;
+  padding: 14px 16px;
+  text-decoration: none;
+  font-size: 17px;
+  color: black;
+}
+
+header {
+  height: 100vh;
+  position: relative;
+  background-image: url("../images/landing.jpg");
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+
+}
+
+.textImage {
+  position: absolute;
+  right: 50px;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  text-align: center;
+}
+
+.textImage h1 {
+  font-size: 3.5em;
+}
+
+.textImage p {
+  font-size: 1.4em;
+}
+
+.title {
+  text-align: center;
+}
+
+.title h1 {
+  text-decoration: underline;
+  text-underline-position: under;
+  text-decoration-color: #00B172;
+}
+
+.container {
+  width: 100%;
+  margin: 0 auto;
+  padding: 50px 0 80px 0;
+  color: black;
+  text-align: center;
+}
+
+.container h3 {
+  color: #00B172;
+  font-weight: bolder;
+}
+
+img {
+  margin-left: auto;
+	margin-right: auto;
+	display: block;
+}
+
+article {
+  display: inline-block;
+}
+
+.col-20 {
+  width: 20%;
+  vertical-align: middle;
+}
+
+.col-side{
+  margin: 0 9.7% 0 9.7%;
+}
+
+.kanye {
+  margin: 0 2.5% 2.5% 2.5%;
+  width: 95%;
+  height: 700px;
+  background-color: #00B172;
+  background-image: url("../images/spotify-icon-white.png");
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: 150px;
+  box-sizing: border-box;
+  padding: 4% 5%;
+  position: relative;
+  z-index: 1;
+}
+
+.kanye > h1 {
+  text-decoration: underline;
+  text-underline-position: under;
+  margin-bottom: 40px;
+}
+
+.kanyeImg{
+  position: absolute;
+  right: 90px;
+  top: 65px;
+}
