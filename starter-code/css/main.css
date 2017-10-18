@@ -6,3 +6,138 @@ Green: #00B172
 White: #FFF
 
 */
+
+html {
+  box-sizing: border-box;
+}
+
+*, *:before, *:after {
+  box-sizing: inherit;
+}
+
+body {
+  font: 200 16px/1.5 "Roboto", "Helvetica Neue", Helvetica, Arial, sans-serif;
+  margin: 0px;
+}
+
+header {
+  background-color: white;
+  width: 100%;
+  height: 80px;
+  padding: 20px 0px;
+  position: fixed;
+}
+
+.navigation {
+  width: 70%;
+  float: right;
+}
+
+.logo {
+  max-width: 15%;
+  float: left;
+  margin: 0px 40px;
+  max-height: 40px;
+}
+
+header p {
+  float: right;
+  margin: 10px 15px;
+}
+
+h1 {
+  color: white;
+  text-align: center;
+  margin: 0px;
+  padding: 25% 0px 0px 0px;
+  font-size: 60px;
+  font-weight: 500;
+  padding: 27% 0px 0px 0px;
+}
+
+.stageSlider p {
+  color: white;
+  text-align: center;
+  margin: 0px 0px;
+}
+
+.stageSlider {
+  background-image: url(../images/landing.jpg);
+  background-size: cover;
+  height: 700px;
+}
+
+.feature-title {
+  text-align: center;
+  text-decoration: underline;
+  text-decoration-color: #58b560;
+  font-size: 35px;
+}
+
+.features {
+  width:100%;
+
+      padding: 3% 3% 30% 3%;
+}
+
+.feature-boxes {
+  width:33%;
+  float:left;
+  padding:1%;
+      text-align: center;
+}
+
+.feature-boxes img {
+    height: 75px;
+}
+
+.feature-box-title {
+  color:#58b560;
+  font-size: 28px;
+}
+
+.feature-boxes p {
+  font-size:23px;
+}
+
+footer {
+  background-color:#58b560;
+  border-style: solid;
+border-color: white;
+border-width: 40px;
+color:white;
+float:left;
+}
+
+footer h2 {
+  text-decoration: white;
+      text-decoration: underline;
+      font-size: 30px;
+      padding-left:6%;
+          font-size: 36px;
+}
+
+footer h3{
+  font-size: 24px;
+}
+.footer-left{
+  float: left;
+    width: 40%;
+  padding: 0px 0px 6% 6%;
+}
+
+.footer-right{
+  width: 60%;
+    float: right;
+    text-align: center;
+}
+
+.footer-right img:nth-child(1){
+  max-width: 20%;
+padding: 33% 0px;
+}
+
+.footer-right img:nth-child(2){
+  max-width: 45%;
+padding: 5% 1%;
+}
