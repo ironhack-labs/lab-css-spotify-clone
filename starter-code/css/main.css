@@ -1,8 +1,149 @@
 /*
 Colors:
-
 Text: 1A1A1A
 Green: #00B172
 White: #FFF
-
 */
+/* Declare fonts */
+
+@import url(https://fonts.googleapis.com/css?family=Montserrat:400);
+
+body {
+  font-family: 'Montserrat', sans-serif;
+  margin: 0;
+  padding: 0px;
+}
+nav {
+  box-sizing: border-box;
+  position: fixed;
+  top: 0px;
+  width: 100%;
+  background: white;
+  padding: 15px 60px;
+}
+.nav-logo {
+  width: 25%;
+  max-width: 200px;
+  float: left;
+}
+.nav-logo>img {
+  width: 100%;
+  animation: bounce 0.5s ease-in-out infinite;
+  animation-direction: alternate;
+  animation-play-state: paused;
+}
+.nav-logo>img:hover {
+  animation-play-state: running;
+}
+@keyframes bounce {
+  0% {
+    transform: translateY(0px);
+  }
+  100% {
+    transform: translateY(-10px);
+  }
+}
+.navigation {
+  float: right;
+}
+.navigation li {
+  display: inline;
+  list-style-image: none;
+  font-size: 1.2em;
+  margin-left: 10px;
+}
+.tittle {
+  margin: 0px;
+  background-image: url("../images/landing.jpg");
+  background-size: cover;
+  width: 100%;
+  height: 900px;
+  color: white;
+}
+.tittle > h1 {
+  text-align: center;
+  padding-top: 300px;
+  font-size: 5em;
+  margin: 0px;
+}
+.tittle > h2 {
+  text-align: center;
+  font-size: 1.8em;
+  line-height: 15px;
+}
+.tittle > h3 {
+  text-align: center;
+  font-size: 2em;
+}
+.info-spotify {
+  text-align: center;
+  margin: 25px 0px;
+}
+.info-spotify > h3 {
+  padding: 5px 0px;
+  display: inline;
+  border-bottom: 3px solid #00B172;
+}
+.three-icons {
+  height: 500px;
+  margin: 60px;
+}
+.three-icons h3 {
+  color: #00B172
+}
+.icons {
+  width: 33%;
+  float: left;
+  text-align: center;
+}
+.img-speaker-icon {
+  width: 33%;
+  margin-top: 50px;
+}
+.img-high-icon {
+  width: 33%;
+  margin-top: 70px;
+}
+.img-devices-icon {
+  width: 33%;
+  margin-top: 50px;
+}
+footer {
+  position: relative;
+  height: 550px;
+  margin: 30px;
+  color: white;
+  background-color: #00b172;
+  text-align: left;
+}
+footer h3 {
+  text-align: left;
+}
+footer-left h2 {
+padding-top: 20px;
+border-bottom: 4px solid white;
+}
+.footer-h2 {
+  margin: 0 100px;
+}
+.footer-left {
+  float: left;
+  padding-left: 30px;
+}
+.text {
+  padding-left: 100px;
+  padding-top: 10px;
+}
+.img-spotify-app {
+  height: 450px;
+  margin-top: 40px;
+  margin-left: 400px;
+}
+
+.spotify-icon-white {
+  width: 100px;
+  transform: translate(-50%, -50%);
+  position: absolute;
+  top: 50%;
+  left: 50%;
+}
