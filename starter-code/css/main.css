@@ -1,8 +1,180 @@
-/*
-Colors:
+html, body {
+    box-sizing: border-box;
+    width: 100%;
+    margin: 0;
+    font-family: 'Roboto', sans-serif;
+}
 
-Text: 1A1A1A
-Green: #00B172
-White: #FFF
+p, li {
+    font-weight: 300;
+}
 
-*/
+h2 {
+    font-size: 40px;
+    font-weight: 400;
+}
+
+h3 {
+    font-size: 30px;
+}
+
+
+/* Navbar */
+
+.navbar {
+    position: fixed;
+    width: 100%;
+    height: 90px;
+    background-color: white;
+}
+
+.logo {
+    display: inline-block;
+}
+
+.logo img {
+    width: 200px;
+}
+
+.navbar-links {
+    display: inline-block;
+    float: right;
+}
+
+.navbar-links>li {
+    list-style: none;
+    display: inline;
+    margin: 10px;
+    font-size: 20px;
+}
+
+.logo, .navbar-links {
+    padding: 15px 40px;
+}
+
+
+/* Landing */
+
+.landing {
+    background-image: url('../images/landing.jpg');
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    display: flex;
+    width: 100%;
+    height: 700px;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    text-align: center;
+    color: white;
+}
+
+.landing h1 {
+    margin: -35px 0 20px;
+    font-size: 80px;
+    font-weight: 500;
+}
+
+.landing p {
+    margin: 10px;
+    font-size: 27px;
+}
+
+
+/* Body */
+
+.white-container {
+    text-align: center;
+}
+
+.white-container h2 {
+    width: 25%;
+    margin: 50px auto;
+    border-bottom: 3px solid #1AB26B;
+}
+
+.flex-container {
+    display: flex;
+}
+
+.col-div img {
+    width: 30%;
+    height: auto;
+}
+
+.col-div h3 {
+    color: #1AB26B;
+}
+
+.col-div p {
+    margin: 0 auto;
+    width: 60%;
+    font-size: 25px;
+    color: #333;
+}
+
+.col-img-2 {
+    margin-top: 20px;
+}
+
+.col-img-3 {
+    margin-top: 5px;
+}
+
+
+/* Green container */
+
+.green-container {
+    display: flex;
+    margin: 3%;
+    padding: 7%;
+    justify-content: space-between;
+    background-color: #1AB26B;
+    color: white;
+}
+
+.left-side {
+    width: 50%;
+}
+
+.underline-white {
+    width: 93%;
+    margin-top: 0;
+    margin-bottom: 50px;
+    padding-bottom: 10px;
+    border-bottom: 3px solid white;
+    color: white;
+}
+
+.left-side h3 {
+    margin-bottom: 30px;
+}
+
+.left-side p {
+    font-size: 22px;
+    margin: 0;
+    line-height: 1.5;
+}
+
+.center {
+    z-index: -1;
+}
+
+.white-logo {
+    width: 10%;
+    height: auto;
+    position: absolute;
+    margin: 20% 35%;
+}
+
+.right-side {
+    width: 40%;
+    padding-top: 4%;
+}
+
+.app-img {
+    width: 80%;
+    height: 95%;
+    float: right;
+}
