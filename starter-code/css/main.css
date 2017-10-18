@@ -1,8 +1,182 @@
-/*
-Colors:
+@@keyframes jump {
+  0% {
+    margin-top: 0px;
+  }
 
-Text: 1A1A1A
-Green: #00B172
-White: #FFF
+  50% {
+    margin-top: -5px;
+  }
 
-*/
+  100% {
+    margin-top: 0px;
+  }
+}
+
+body {
+  margin:0;
+  font-family: sans-serif;
+}
+
+nav {
+  text-align: right;
+  padding-top: 5px;
+  height: 60px;
+  background-color: white;
+  width: 100%;
+}
+
+.spotify_logo > img{
+  height: 50px;
+  width: 150px;
+  margin-top: 0px;
+  transition: all 0.5s ease;
+}
+
+.spotify_logo > img:hover {
+  margin-top: -2px;
+}
+
+.spotify_logo {
+  text-align: left;
+  padding-left: 30px;
+  width: 50px;
+  height: 20px;
+}
+
+.discover {
+  text-align: right;
+}
+
+.discover > a{
+  margin-right: 20px;
+}
+
+.title {
+  text-align: center;
+  padding-top: 180px;
+  font-size: 25px;
+}
+
+.title h1 {
+    font-size: 70px;
+    font-weight: 400;
+}
+header {
+  text-align: center;
+  color: #FFF;
+  background-image: url(../images/landing.jpg);
+  background-position: center center;
+  background-size: cover;
+  background-repeat: no-repeat;
+  width: 100%;
+  height: 600px;
+}
+
+
+section > h2 {
+  text-align: center;
+  padding-top: 20px;
+  border-bottom: 2px solid #00B172;
+  width: 250px;
+  padding-bottom: 5px;
+  margin:auto;
+  margin-bottom: 40px;
+
+
+}
+
+section {
+  padding-top: 20px;
+  padding-bottom: 20px;
+}
+
+.music > img {
+  width: 100px;
+  height: 75px;
+}
+
+.music > h3 {
+  color:#00B172
+}
+
+.hq > img {
+  width: 100px;
+  height: 75px;
+}
+
+.hq > h3 {
+  color:#00B172
+}
+
+.devices> img{
+  width: 100px;
+  height: 75px;
+}
+
+.devices > h3 {
+  color:#00B172
+}
+.music {
+  display: inline-block;
+  width: 33%;
+  text-align: center;
+}
+
+.hq {
+  display: inline-block;
+  width: 33%;
+  text-align: center;
+}
+
+.devices {
+  display: inline-block;
+  width: 33%;
+  text-align: center;
+}
+
+.text_ad {
+display: inline-block;
+text-align: left;
+padding-left: 150px;
+color: #FFF;
+float: left;
+width: 25%;
+padding-top: 65px;
+height: 460px;
+
+}
+
+.text_ad > h2 {
+  border-bottom: 3px solid #FFF;
+  padding-bottom: 5px;
+
+}
+
+.logo {
+  height: 120px;
+  width: 120px;
+  display: inline-block;
+  padding-bottom: 200px;
+  padding-left: 100px;
+}
+
+.picture {
+  display: inline-block;
+  padding-left: 130px;
+  width: 30%;
+}
+
+.picture > img {
+  width: 300px;
+  height: 460px;
+  padding: 50px;
+
+}
+
+.spotify_ad {
+  background-color: #00B172;
+  margin: 20px;
+  padding: 30px;
+
+
+}
