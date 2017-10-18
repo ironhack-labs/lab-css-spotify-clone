@@ -6,3 +6,205 @@ Green: #00B172
 White: #FFF
 
 */
+
+body{
+  font-family: 'Open Sans', sans-serif;
+  margin: 0;
+}
+
+/*--NAVIGATION BAR--*/
+
+nav{
+  width: 100%;
+  height: 100px;
+  position: fixed;
+  top: 0px;
+  background-color: #FFF;
+  z-index: 10;
+}
+
+#logo > img{
+  width: 260px;
+  height: 80px;
+}
+
+#logo{
+  top: 10px;
+  left: 10px;
+}
+/*Hover animation*/
+#logo:hover{
+  animation: bounce 0.5s;
+  animation-iteration-count: infinite;
+}
+
+@keyframes bounce{
+  30%{
+    top: 0px;
+  }
+  75%{
+    top: 20px;
+  }
+}
+
+.inline{
+  display: inline-block;
+  position: absolute;
+}
+
+#lista{
+    right: 10px;
+    top: 25px;
+}
+/*Descendant Selector*/
+ul > li{
+  display: inline-block;
+  list-style-type: none;
+  padding-right: 20px;
+}
+
+a{
+  text-decoration: none;
+  color: black;
+}
+
+/*--HEADER--*/
+
+header{
+  background-image: url("../images/landing.jpg");
+  background-repeat: no-repeat;
+  background-size: cover;
+  width: 100%;
+  height: 700px;
+}
+
+.container{
+  position: relative;
+  top: 280px;
+  text-align: center;
+  color: white;
+}
+
+h1{
+  font-size: 45px;
+  margin-bottom: 0px;
+}
+
+p{
+  font-size: 20px;
+}
+
+/*--SECTION 1--*/
+
+.section1{
+  width: 100%;
+  height: 400px;
+}
+
+#heading{
+  width: 100%;
+  height: 100px;
+}
+/*Multi Selector*/
+#heading, .section{
+  text-align: center;
+}
+
+#heading h2 span{
+  border-bottom: 3px solid #00B172;
+}
+
+.section{
+  width: 900px;
+  height: 250px;
+  position: relative;
+  margin: 0 auto;
+}
+
+.subsection{
+  width: 300px;
+  height: 250px;
+  position: absolute;
+}
+
+.subsection > img{
+  width: 90px;
+  height: 90px;
+}
+
+.subsection > p{
+  font-size: 15px;
+}
+
+#ss2{
+  left: 33%;
+}
+
+#ss3{
+  left: 66%;
+}
+
+h3{
+  color: #00B172;
+}
+
+/*--SECTION 2--*/
+
+.section2{
+  width: 850px;
+  height: 500px;
+  background-color: #00B172;
+  margin: 0 auto;
+  margin-bottom: 30px;
+}
+
+.subContainer > img{
+  width: 80px;
+  height: 80px;
+  margin-left: 320px;
+  margin-top: 170px;
+}
+
+.subContainer{
+  position: relative;
+  margin: 0 auto;
+  top: 25px;
+  width: 700px;
+  height: 420px;
+}
+
+.text{
+  position: absolute;
+  width: 400px;
+  height: 420px;
+}
+
+.kanye{
+  position: absolute;
+  width: 260px;
+  height: 420px;
+  right: 0px;
+}
+
+.text *{
+  color: white;
+}
+
+.text p{
+  font-size: 15px;
+}
+
+.text  h2  span {
+  border-bottom: 3px solid white;
+}
+
+.kanye div{
+  position: absolute;
+  bottom: 0px;
+  left: 50px;
+  background-image: url("../images/spotify-app.jpg");
+  background-repeat: no-repeat;
+  background-size: contain;
+  width: 100%;
+  height: 92%;
+}
