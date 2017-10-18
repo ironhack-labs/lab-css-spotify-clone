@@ -6,3 +6,190 @@ Green: #00B172
 White: #FFF
 
 */
+body {
+  margin: 0;
+  padding: 0;
+  font-size: 0; /*Eliminates gap between divs.*/
+  font-family: 'Open Sans','Roboto', sans-serif;
+}
+
+.navbar {
+  width: 100%;
+  position: fixed;
+  z-index: 1;
+  padding: 10px;
+  background-color: white;
+}
+
+.navlogo {
+  display: inline-block;
+  width: 20%;
+  margin-right: 38%;
+  vertical-align: middle;
+}
+
+.navlogo > img {
+  width: 80%;
+  height: auto;
+  margin-left: 10%;
+}
+
+.anim:hover {
+  animation: logo 2s;
+}
+
+@keyframes logo {
+	0%, 20%, 60%, 100% {
+		-webkit-transform: translateY(0);
+		transform: translateY(0);
+	}
+
+	40% {
+		-webkit-transform: translateY(-20px);
+		transform: translateY(-20px);
+	}
+
+	80% {
+		-webkit-transform: translateY(-10px);
+		transform: translateY(-10px);
+	}
+}
+
+.navmenu {
+  display: inline-block;
+  width: 40%;
+  vertical-align: middle;
+  text-align: right;
+  margin-right: 2%;
+}
+
+.navmenu a {
+  color: #1A1A1A;
+  font-size: 20px;
+  text-decoration: none;
+  margin-right: 6%;
+}
+
+.header {
+  width: 100%;
+  height: 900px;
+  display: inline-block;
+  background-image: url("../images/landing.jpg");
+  background-size: cover;
+  background-repeat: no-repeat;
+  text-align: center;
+}
+
+.header > h1 {
+  height: 100px;
+  width: 70%;
+  position: absolute;
+  top: 39%;
+  left: 15%;
+  color: white;
+  font-size: 75px;
+}
+
+.header > p {
+  height: 100px;
+  width: 60%;
+  position: absolute;
+  top: 62%;
+  left: 20%;
+  color: white;
+  font-size: 27px;
+}
+
+.info {
+  width: 100%;
+  display: inline-block;
+  padding-bottom: 5%;
+}
+
+.info h1 {
+  width: 25%;
+  box-sizing: border-box;
+  margin: 3% auto;
+  color: black;
+  font-size: 37px;
+  padding: 0.5% 0;
+  border-bottom: 5px solid #00B172;
+}
+
+.col-30 {
+  margin: 2% auto;
+  vertical-align: text-top;
+  width: 30%;
+  display: inline-block;
+  text-align: center;
+}
+
+.marginleft {
+  margin-left: 5%;
+}
+
+.col-30 > img {
+  width: 33%;
+  height: auto;
+  margin: 2% auto;
+}
+
+.col-30 > h2 {
+  color:  #00B172;
+  font-size: 28px;
+  width: 100%;
+}
+
+.col-30 > p {
+  width: 100%;
+  color: black;
+  font-size: 24px;
+  margin: 0;
+}
+
+.music {
+  width: 95%;
+  margin: 0 2.5%;
+  background-color: #00B172;
+  background-image: url(../images/spotify-icon-white.png);
+  background-position: center;
+  background-size: 10%;
+  background-repeat: no-repeat;
+}
+
+.col-40 {
+  width: 50%;
+  display: inline-block;
+  margin-left: 7%;
+  margin-right: 2%;
+}
+
+.col-40 h1 {
+  display: inline-block;
+  color: white;
+  font-size: 35px;
+  padding: 0.5% 0;
+  border-bottom: 5px solid white;
+}
+
+.col-40 h2 {
+  color: white;
+  font-size: 28px;
+}
+
+.col-40 p {
+  color: white;
+  font-size: 20px
+}
+
+.col-20 {
+  width: 30%;
+  display: inline-block;
+}
+
+.col-20 img {
+  width: 80%;
+  height: auto;
+  margin-left: 20%;
+  margin-top: 25%;
+}
