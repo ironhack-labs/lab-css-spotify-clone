@@ -6,3 +6,142 @@ Green: #00B172
 White: #FFF
 
 */
+body{
+  margin: 0;
+  padding: 0;
+  font-family: 'Roboto', sans-serif;
+}
+header{
+  margin-bottom: 25px;
+  padding: 15px 0 15px 0;
+  position: fixed;
+  background: white;
+}
+header img{
+  width: 15%;
+  margin-left: 15px;
+}
+nav{
+  float: right;
+}
+nav ul li{
+  list-style: none;
+  display: inline-block;
+  font-size: 1.5em;
+  margin-right: 20px;
+}
+.content div:nth-of-type(2){
+  background: url(../images/landing.jpg);
+  text-align: center;
+  background-position: center;
+  padding: 200px;
+  background-size: 100%;
+}
+.content div:nth-of-type(2) p{
+  font-size: 2em;
+  color: white;
+}
+.content div:nth-of-type(2) h1{
+  color: white;
+  font-size: 4em;
+}
+.content .underlined{
+  font-size: 3em;
+  text-align: center;
+  padding-top: 50px;
+  padding-bottom: 30px;
+  margin:0 auto;
+  border-bottom: 12px solid #00B172;
+  width: 35%;
+}
+.content div:nth-of-type(3){
+  text-align: center;
+  margin-bottom: 50px;
+}
+.content div:nth-of-type(3)>section{
+  width: 33%;
+  margin-top: 30px;
+  text-align: center;
+  display: inline-block;
+}
+.content div:nth-of-type(3)>section img{
+  width: 40%;
+}
+.content div:nth-of-type(3)>section h3{
+  color: #00B172;
+  font-size: 1.5em;
+}
+.content div:nth-of-type(3)>section p{
+  font-size: 1em;
+}
+.content div:last-of-type{
+  width: 90%;
+  margin: 0 auto;
+  text-align: center;
+  position: relative;
+  background: #00B172;
+  z-index: -1;
+}
+.content div:last-of-type>section{
+  width: 30%;
+  margin-right: 15%;
+  vertical-align: top;
+  display: inline-block;
+}
+.content div:last-of-type p, .content div:last-of-type h5{
+  text-align: left;
+}
+.content div:last-of-type h4{
+  border-bottom: 3px solid white;
+  padding-bottom: 5px;
+}
+.content div:last-of-type h5, .content div:last-of-type h4{
+  font-size: 1.7em;
+  color: white;
+  padding-bottom: 30px;
+}
+.content div:last-of-type>section p{
+  color: white;
+  font-size: 1.5em;
+}
+.content div:last-of-type img:first-of-type{
+  display: inline-block;
+  width: 30%;
+  margin-top: 50px;
+  padding-left: 15%;
+}
+.content div:last-of-type img:last-of-type{
+  position: absolute;
+  width: 10%;
+  right: 45%;
+  top: 300px;
+}
+.clear{
+  clear: both;
+}
+a{
+  color: black;
+  text-decoration: none;
+}
+a:hover{
+  color: #00B172;
+}
+.logoBounce:hover {
+    animation-name: bounce;
+    animation-duration: 1s;
+    animation-iteration-count: infinite;
+}
+
+@keyframes bounce {
+  0% {
+    margin-left: 10px;
+  }
+
+  50% {
+    margin-left: 30px;
+  }
+
+  100% {
+    margin-left: 10px;
+  }
+}
