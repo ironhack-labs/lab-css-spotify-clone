@@ -10,47 +10,58 @@
 
 <body>
   <nav>
-    <div class="logo inl-block"><img src="images/spotify-logo.png" alt="Spotify"></div>
+    <a href="#">
+      <div class="logo inl-block"><img src="images/spotify-logo.png" alt="Spotify"></div>
+    </a>
     <div class="menu inl-block">
       <ul>
-        <li>Premium</li>
-        <li>Discover</li>
-        <li>Help</li>
-        <li>Download</li>
+        <a href="#"><li>Premium</li></a>
+        <a href="#"><li>Discover</li></a>
+        <a href="#"><li>Help</li></a>
+        <a href="#"><li>Download</li></a>
       </ul>
     </div>
   </nav>
-  <section>
+  <section class="main">
     <div class="bg">
-    <h1>Music for everyone.</h1>
-    <p>Spotify is now free on mobile, tablet and computer. Listen to the right music, wherever you are.</p>
-  </div>
+      <h1>Music for everyone.</h1>
+      <p>Spotify is now free on mobile, tablet and computer.
+        <br>Listen to the right music, wherever you are.</p>
+    </div>
   </section>
-  <section>
+  <section class="whats-on">
     <div class="container">
       <h2>What’s on Spotify?</h2>
-      <div class="inl-block">
-        <img src="images/music-icon.png" alt="Music">
-        <h3>Millions of Songs</h3>
-        <p>There are millions of songs on Spotify</p>
-      </div>
-      <div class="inl-block">
-        <img src="images/high-quality-icon.png" alt="High Quality">
-        <h3>HD Music</h3>
-        <p>Listen to music as if you were listening live</p>
-      </div>
-      <div class="inl-block">
-        <img src="images/devices-icon.png" alt="Devices">
-        <h3>Stream Everywhere</h3>
-        <p>Stream music on your smartphone, tablet or computer
-        </p>
+      <div class="columns">
+        <div class="col3 inl-block">
+          <div class="imgcont">
+            <img src="images/music-icon.png" alt="Music">
+          </div>
+          <h3>Millions of Songs</h3>
+          <p>There are millions of songs on Spotify</p>
+        </div>
+        <div class="col3 inl-block">
+          <div class="imgcont">
+            <img src="images/high-quality-icon.png" alt="High Quality">
+          </div>
+          <h3>HD Music</h3>
+          <p>Listen to music as if you were listening live</p>
+        </div>
+        <div class="col3 inl-block">
+          <div class="imgcont">
+            <img src="images/devices-icon.png" alt="Devices">
+          </div>
+          <h3>Stream Everywhere</h3>
+          <p>Stream music on your smartphone, tablet or computer
+          </p>
+        </div>
       </div>
     </div>
   </section>
 
   <section>
-    <div class="container">
-      <article class="left">
+    <div class="container green">
+      <article class="colleft inl-block">
         <h2>It’s as yeezy as Kanye West.</h2>
         <div class="items">
           <h3>Search</h3>
@@ -65,7 +76,7 @@
           <p>Enjoy new music every Monday with your own personal playlist.Or sit back and enjoy Radio.</p>
         </div>
       </article>
-      <div class="right">
+      <div class="colright inl-block">
         <img src="images/spotify-app.jpg" alt="Spotify App">
       </div>
     </div>
