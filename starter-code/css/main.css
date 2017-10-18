@@ -6,3 +6,113 @@ Green: #00B172
 White: #FFF
 
 */
+
+body {
+  margin: 0;
+  padding: 0;
+  font-family: 'Helvetica', 'Open Sans', sans-serif;
+  line.height: 1.5;
+  background-color: white;
+}
+
+nav {
+  display: inline-block;
+  top: 0;
+  float: right;
+  padding: 15px 0 0 20px;
+  text-decoration: none;
+}
+
+nav ul li {
+  display: inline-block;
+  list-style: none;
+  font-size: 16px;
+  margin-right: 20px;
+}
+
+header {
+  position: fixed;
+  margin: 0 0 25px 0;
+  padding: 10px 0 10px 0;
+  background-color: white;
+}
+
+.logoMove {
+  width: 15%;
+  margin: 0 0 0 15px;
+}
+
+.logoMove:hover {
+  animation-name: bounce;
+  animation-duration: 0.5s;
+  animation-iteration-count: infinite;
+}
+
+@keyframes bounce {
+  0% {
+    margin-left: 10px;
+  }
+  50% {
+    margin-left: 50px;
+  }
+  100% {
+    margin-left: 10px;
+  }
+}
+
+.section1 {
+  padding: 250px;
+  background: url(../images/landing.jpg);
+  text-align: center;
+  background-position: center;
+  background-size: 100%;
+  font-size: 20px;
+  color: white;
+}
+
+.sectionHeader {
+  padding: 50px 0 30px 0;
+  font-size: 45px;
+  text-align: center;
+  margin: 0 auto;
+  border-bottom: 12px solid #00B172;
+  width: 35%;
+}
+
+.section2icons {
+  display: inline-block;
+  text-align: center;
+}
+
+.musicIcon, .qualityIcon, .devices {
+  display: inline-block;
+  width: 33%;
+  margin-top: 30px;
+  text-align: center;
+}
+
+.section3 {
+  display: inline-block;
+  position: relative;
+  margin: 10%;
+  width: 90%;
+  color: white;
+  background: #00B172;
+}
+
+.section3left, .spotifygreen, .section3right {
+  width: 30%;
+  margin-right: 15%;
+  vertical-align: top;
+  display: inline-block;
+}
+
+.section3left {
+  display: inline-block;
+  text-align: left;
+  padding: 30px;
+}
+
+.spotifygreen {
+  width: 30px;
+}
