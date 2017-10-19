@@ -5,4 +5,153 @@ Text: 1A1A1A
 Green: #00B172
 White: #FFF
 
+
+NEW
+
+zoom: 1;
+transform: scale()3;
+transition: background-color 2s, width 2s,
+
+
+.box {
+    display: flex;
+    color: white;
+    justify-content: center;
+    align-items: center;
+    width: 100px;
+    height: 100px;
+    background-color: #3838FF;
+    transition: background-color 2s, width 2s, height 2s;
+}
+
+.box:hover {
+    background-color: #00D1AE;
+    width: 200px;
+    height: 200px;
+
+}
+
+
 */
+
+
+.navbar {
+  background-color: white;
+  width: 100%;
+  position: fixed;
+}
+
+.menu {
+  list-style-type: none;
+  margin: 0;
+  padding: 25px 40px;;
+  overflow: hidden;
+  float: right;
+}
+
+.menu > li {
+    float: right;
+    display: block;
+    color: 1A1A1A;
+    text-align: center;
+    padding: 14px 16px;
+    text-decoration: none;
+    font-family: futura;
+    font-size: 20px;
+}
+
+.logo {
+  width: 200px;
+  padding: 15px 50px;
+  transition: padding-bottom;
+}
+
+.logo:hover {
+  padding-bottom: 20px;
+  cursor: pointer;
+}
+
+.bounce {
+  animation-name: bounce;
+  transform-origin: center bottom;
+}
+
+.topbox {
+  background-image: url('../images/landing.jpg');
+  color: white;
+  background-size: cover;
+  height: 800px;
+  top: 50%
+  position: absolute;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  margin-bottom: 50px;
+  font-family: helvetica;
+}
+
+.middlebox {
+  text-align: center;
+  font-family: helvetica;
+}
+
+.centerbox {
+  float: left;
+  width: 30%;
+  padding-bottom: 60px;
+}
+
+.bottombox {
+  width: 100%;
+  text-align: left;
+  font-family: helvetica;
+}
+
+.centerbox img {
+  width: 150px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 130px;
+  padding-left: 30%;
+}
+
+.bottombox .greenheading {
+  color: #00B172;
+}
+
+.weezy {
+  display: inline-block;
+  background-color: #00B172;
+  padding: 80px;
+  width: 80%;
+  margin: 60px;
+  font-family: helvetica;
+  text-align: left;
+}
+
+.logowhite img {
+  width: 10%;
+  position: absolute;
+  align-items: center;
+}
+
+.weezy-pic {
+  float: right;
+}
+
+.weezy-pic img {
+  height: 600px;
+  float: right;
+}
+
+.weezy-text {
+  display: inline-block;
+  color: white;
+  float: left;
+  text-align:left;
+}
+
+.centerbox h2, h1 {
+  text-align: center;
+}
