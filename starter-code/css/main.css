@@ -6,3 +6,48 @@ Green: #00B172
 White: #FFF
 
 */
+
+html {
+    box-sizing: border-box;
+    font-family: Helveticas, sans-serif;
+  }
+  
+*, *:before, *:after {
+   box-sizing: inherit;
+}
+
+nav {
+    height: 100px;
+    position: fixed;
+    width: 100%;
+    border: 1px solid black; 
+}
+
+nav > img {
+    max-height: 75%;
+    float: left;
+    left: 30px;
+    padding-left: 40px;
+    position: absolute;
+    top: 50%;
+    transform: translateY(-50%);
+}
+
+#nav-bar > li {
+    float: right;
+    font-size: 22px;
+    list-style: none;
+    padding-right: 40px;
+    
+}
+
+#main {
+    position: relative;
+    top: 100px;
+    width: 100%;
+    background-color: red;
+}
+
+.main-foto {
+    background-image: url("../images/landing.jpg");
+}
