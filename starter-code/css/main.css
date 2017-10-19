@@ -6,3 +6,99 @@ Green: #00B172
 White: #FFF
 
 */
+html {
+  box-sizing: border-box;
+  background:#FFF;
+  font-family:'helvetica neue';
+  font-size: 20px;
+  font-weight: 200;
+}
+body {
+  margin: 0;
+}
+.content{
+  position: fixed;
+  width: 100%;
+
+}
+#navbar{
+  position: fixed;
+  width: 100%;
+  display: flex;
+  height: 100px;
+}
+#logo{
+  position: relative;
+  float: left;
+  width: 300px;
+  height: 100px;
+  margin-right:0;
+  background-image: url("../images/spotify-logo.png");
+  background-size: 200px;
+  background-repeat: no-repeat;
+  background-position: left;
+}
+.links{
+  display: inline-flex;
+  position: relative: ;
+  width: 100%;
+  align-items: center;
+  justify-content: flex-end;
+
+
+}
+.link{
+  margin-right: 20px;
+  font-size: 30px;
+
+
+}
+.background{
+
+  height: 600px;
+  position: relative;
+  background-image: url("../images/landing.jpg");
+  background-repeat: no-repeat;
+  background-size: 100%;
+  background-position: center;
+}
+.text{
+  position: absolute;
+  width: 600px;
+  left: 40px;
+  left: 30%;
+  color: white;
+  font-size: 21px;
+  margin-top: 200px;
+}
+h1{
+  font-size: 57px;
+
+}
+.button{
+  display: flex;
+  height: 40px;
+}
+.question{
+
+  width: 100%;
+  position: relative;
+  height: 50px;
+  display: flex;
+  font-size: 30px;
+}
+a{
+  position: absolute;
+  left: 35%;
+}
+#text1{
+  margin-left: 30px;
+}
+#text2{
+  margin-left: 60px;
+}
+hr{
+  position: absolute;
+  width: 100%;
+  height: 100%;
+}
