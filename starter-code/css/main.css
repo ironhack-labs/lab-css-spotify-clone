@@ -6,3 +6,140 @@ Green: #00B172
 White: #FFF
 
 */
+
+div, header, menu, footer {
+  box-sizing: border-box;
+}
+.space {
+  height: 60px;
+}
+body {
+
+  font-family: "Helvetica Neue", Helvetica, Arial, sans-serif;
+  background-color: white;
+  margin: 0;
+  padding: 0;
+}
+nav {
+  color: grey;
+  padding: .8em 1em;
+  position: fixed;
+  width: 100%;
+  background-color: white;
+  align-items: center;
+}
+nav ul {
+  list-style: none;
+  float: right;
+  width: 300px;
+  padding-right: 1em;
+}
+nav li {
+  font-size: .9em;
+  display: inline-block;
+  margin-right: .8em;
+}
+.logo {
+  height: 40px;
+}
+nav .logo:hover {
+  cursor: pointer;
+  animation-name: bounce;
+  animation-timing-function: ease-in-out;
+  animation-duration: .3s;
+}
+@keyframes bounce {
+	0% {
+    margin-top: 0;
+	}
+  50% {
+    margin-top: -5px;
+  }
+  100% {
+    margin-top: 5px;
+  }
+}
+.hero-image {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  text-align: center;
+  color: white;
+  height: 400px;
+  background-image: url("../images/landing.jpg");
+  background-repeat: no-repeat;
+  background-position: bottom;
+  background-size: cover;
+}
+
+.hero-image div {
+  width: 70%;
+  margin: 0 auto;
+  font-weight: 300;
+}
+
+.icon {
+  height: 50px;
+}
+
+.features-container {
+  text-align: center;
+  display: flex;
+  flex-direction: column;
+  margin-bottom: 3em;
+}
+
+.features {
+  display: flex;
+  font-weight: 300;
+}
+
+.features h3 {
+  color: #00B172;
+}
+.features div {
+  width: 33%;
+}
+
+.artist {
+  display: flex;
+  position: relative;
+  justify-content: space-between;
+  color: white;
+  background-image: url("../spotify-icon-white.png");
+  background-position: bottom;
+  background-size: cover;
+  background-color: #00B172;
+  padding: 3em 3em 2em 3em;
+}
+.artist h2 {
+  display: inline-block;
+  padding-bottom: 8px;
+  border-bottom: 2px solid white;
+}
+.artist h2:after {
+  content:"";
+
+}
+.logo-float {
+  position: absolute;
+  bottom: 200px;
+  right: 190px;
+  width: 220px;
+}
+
+.text-container {
+  line-height: 1.5em;
+  /*border: 1px solid red;*/
+  width: 50%;
+  font-size: 12px;
+}
+.text-container h2 {
+  margin: 0;
+}
+
+.artist img {
+  width: 30%;
+  margin-top: 1em;
+  align-self: center;
+}
