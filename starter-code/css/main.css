@@ -6,3 +6,188 @@ Green: #00B172
 White: #FFF
 
 */
+html,body {
+  margin: 0;
+  font-family: 'Open Sans', sans-serif;
+  overflow-x: hidden;
+}
+
+h1 {
+  color: 1A1A1A;
+  font-size: 80px;
+  font-weight: bold;
+  text-align: center;
+  position: relative;
+  top: 260px;
+  right: 280px;
+}
+
+h2 {
+  font-size: 30px;
+  font-weight: normal;
+}
+
+h3 {
+  font-size: 25px;
+}
+
+.container h2 {
+  color: 1A1A1A;
+  width: 280px;
+  border-bottom: 3px solid #00B172;
+  padding-bottom: 3px;
+  position: relative;
+  left: 500px;
+  text-align: center;
+  font-weight: bold;
+}
+
+.container h3 {
+  color: #00B172;
+  text-align: center;
+}
+
+.green-container h2 {
+  color: #FFF;
+  width: 380px;
+  border-bottom: 3px solid #FFF;
+  padding-bottom: 3px;
+  position: absolute;
+  left: 10%;
+}
+
+.green-container h3 {
+  color: #FFF;
+  position: relative;
+  left: 100px;
+  top: 120px;
+}
+
+.green-container p {
+  color: #FFF;
+  font-size: 22px;
+  font-weight: lighter;
+  line-height: 1.5em;
+  position: relative;
+  left: 100px;
+  top: 140px;
+}
+
+.header p {
+  font-size: 28px;
+  font-weight: lighter;
+  text-align: center;
+  line-height: 1.5em;
+  position: relative;
+  top: 230px;
+  right: 280px;
+}
+
+nav {
+  background-color: #FFF;
+  position: fixed;
+  height: 60px;
+  width: 100%;
+  padding:15px;
+}
+
+.logo {
+  width: 15%;
+  float: left;
+  position: relative;
+  left: 30px;
+}
+
+#menu > li {
+  float: left;
+  list-style-type: none;
+  position: relative;
+  left: 600px;
+}
+
+.nav-bar-li a {
+  text-decoration: none;
+  color: black;
+  padding-right:30px;
+  font-size: 22px;
+  font-weight: lighter;
+}
+
+.header {
+  background-image: url('./../images/landing.jpg');
+  background-repeat: no-repeat;
+  background-size: cover;
+  width: 100%;
+  height: 100%;
+  color: white;
+  font-size: 35px;
+  padding: 30% 0px;
+}
+
+.img {
+  position: absolute;
+  top:0;
+  right: 0;
+}
+
+.container {
+  margin: 0 0;
+  padding: 40px 0;
+  width: 1280px;
+  height: 450px;
+}
+
+.col {
+  float: left;
+}
+
+.col-3 {
+  width: 30%;
+}
+
+.col-middle {
+  margin: 0 5%;
+}
+
+.container .text {
+  font-size: 20px;
+  font-weight: lighter;
+  margin: 20px 0;
+  text-align: center;
+}
+
+.container img {
+  height: 100px;
+  margin: 40px 150px 0;
+}
+
+.col-middle img {
+  height: 100px;
+  position: relative;
+  right: 40px;
+}
+
+.green-container {
+  background-color: #00B172;
+  margin: 30px;
+  padding: 40px 0;
+  width: 1220px;
+  height: 800px;
+}
+
+.white-log{
+  width: 15%;
+  position: absolute;
+  top: 1650px;
+  left: 550px;
+  width: 10%;
+}
+
+#app img {
+  float: right;
+  position: relative;
+  width: 30%;
+  left: -100px;
+  top: -550px;
+  z-index: 0;
+}
