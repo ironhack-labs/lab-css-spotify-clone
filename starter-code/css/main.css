@@ -190,3 +190,23 @@ nav {
   left: 750px;
   top: 1420px;
 }
+
+.animation:hover {
+  animation: logo 1s;
+}
+
+@keyframes logo {
+	0%, 20%, 60%, 100% {
+	-webkit-transform: translateY(0);
+	transform: translateY(0);
+}
+
+	40% {
+	-webkit-transform: translateY(-20px);
+	transform: translateY(-20px);
+}
+
+	80% {
+	-webkit-transform: translateY(-10px);
+	transform: translateY(-10px);
+}
