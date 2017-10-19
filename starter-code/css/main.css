@@ -28,7 +28,7 @@ header {
   position: fixed;
 }
 
-.navigation {
+.navbar {
   width: 70%;
   float: right;
 }
@@ -38,11 +38,21 @@ header {
   float: left;
   margin: 0px 40px;
   max-height: 40px;
+  transition: 0.3s;
 }
 
-header p {
+.logo:hover {
+  transform: scale(1.5, 1.5);
+  transition: transform 0.3s;
+}
+
+header a {
   float: right;
-  margin: 10px 15px;
+  margin: 0px 15px;
+}
+
+header li {
+  list-style: none;
 }
 
 h1 {
@@ -52,7 +62,6 @@ h1 {
   padding: 25% 0px 0px 0px;
   font-size: 60px;
   font-weight: 500;
-  padding: 27% 0px 0px 0px;
 }
 
 .stageSlider p {
@@ -68,76 +77,77 @@ h1 {
 }
 
 .feature-title {
-  text-align: center;
-  text-decoration: underline;
-  text-decoration-color: #58b560;
+  border-bottom: 5px solid #58b560;
+  display: inline-block;
   font-size: 35px;
 }
 
 .features {
-  width:100%;
-
-      padding: 3% 3% 30% 3%;
+  width: 100%;
+  padding: 3% 3% 30% 3%;
+  text-align: center;
 }
 
 .feature-boxes {
-  width:33%;
-  float:left;
-  padding:1%;
-      text-align: center;
+  width: 33%;
+  float: left;
+  padding: 1%;
 }
 
 .feature-boxes img {
-    height: 75px;
+  height: 75px;
 }
 
 .feature-box-title {
-  color:#58b560;
+  color: #58b560;
   font-size: 28px;
 }
 
 .feature-boxes p {
-  font-size:23px;
+  font-size: 23px;
 }
 
 footer {
-  background-color:#58b560;
+  background-color: #58b560;
   border-style: solid;
-border-color: white;
-border-width: 40px;
-color:white;
-float:left;
+  border-color: white;
+  border-width: 40px;
+  color: white;
+  float: left;
 }
 
 footer h2 {
   text-decoration: white;
-      text-decoration: underline;
-      font-size: 30px;
-      padding-left:6%;
-          font-size: 36px;
+  text-decoration: underline;
+  font-size: 30px;
+  padding-left: 6%;
+  font-size: 36px;
 }
 
-footer h3{
+footer h3 {
   font-size: 24px;
 }
-.footer-left{
+
+.footer-left {
   float: left;
-    width: 40%;
+  width: 40%;
   padding: 0px 0px 6% 6%;
 }
 
-.footer-right{
+.footer-right {
   width: 60%;
-    float: right;
-    text-align: center;
+  float: right;
+  text-align: center;
 }
 
-.footer-right img:nth-child(1){
+.footer-right img:nth-child(1) {
   max-width: 20%;
-padding: 33% 0px;
+  padding: 33% 0px;
+  margin: 0px 34px;
 }
 
-.footer-right img:nth-child(2){
+.footer-right img:nth-child(2) {
   max-width: 45%;
-padding: 5% 1%;
+  padding: 5% 1%;
+  margin: 0px 34px;
 }
