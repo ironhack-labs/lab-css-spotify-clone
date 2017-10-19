@@ -16,7 +16,8 @@ html {
 }
 
 body {
-  font: 200 16px/1.5 "Roboto", "Helvetica Neue", Helvetica, Arial, sans-serif;
+  font: 200 16px/1.5 "Roboto", "Helvetica Neue",
+  Helvetica, Arial, sans-serif;
   margin: 0px;
 }
 
@@ -42,13 +43,21 @@ header {
 }
 
 .logo:hover {
-  transform: scale(1.5, 1.5);
+  transform: scale(1.1, 1.1);
   transition: transform 0.3s;
 }
 
 header a {
   float: right;
-  margin: 0px 15px;
+  margin: 0px 25px;
+  color: black;
+  text-decoration: none;
+}
+
+header a:hover {
+  transform-style:flat;
+  color: #58b560;
+  transition:  0.3s;
 }
 
 header li {
@@ -63,6 +72,8 @@ h1 {
   font-size: 60px;
   font-weight: 500;
 }
+
+
 
 .stageSlider p {
   color: white;
@@ -92,10 +103,17 @@ h1 {
   width: 33%;
   float: left;
   padding: 1%;
+
+}
+
+.feature-boxes img:hover{
+  transform:scale(1.1);
+  transition:0.3s;
 }
 
 .feature-boxes img {
   height: 75px;
+  transition:0.3s;
 }
 
 .feature-box-title {
