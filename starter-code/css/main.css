@@ -1,8 +1,125 @@
-/*
-Colors:
-
-Text: 1A1A1A
-Green: #00B172
-White: #FFF
-
-*/
+body {
+    font-family: 'Raleway', serif;
+    margin: 0px;
+}
+.clear-fix {
+    clear: both;
+}
+.head {
+    box-sizing: border-box;
+    position: fixed;
+    top: 0px;
+    width: 100%;
+    background-color: #FFF;
+    padding: 15px 60px;
+}
+.head-logo {
+    width: 25%;
+    max-width: 200px;
+    float: left;
+}
+.head-logo > img {
+    width: 100%;
+    animation: bounce 0.5s ease-in-out infinite;
+    animation-direction: alternate;
+    animation-play-state: paused;
+}
+.head-logo > img:hover {
+    animation-play-state: running;
+}
+@keyframes bounce {
+    0% {
+        transform: translateY(0px);
+    }
+    100% {
+        transform: translateY(-10px);
+    }
+}
+.menu {
+    float: right;
+}
+.menu li {
+    display: inline;
+    list-style-image: none;
+    font-size: 1.2em;
+    margin-left: 10px;
+}
+container1 {
+    height: 700px;
+    padding: 20px;
+    background-image: url("../images/landing.jpg");
+    background-size: contain;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    color: white;
+    font-size: 1.5em;
+}
+.container1 > h1 {
+    font-size: 2.8em;
+    margin-bottom: 0px;
+}
+.container1 > p,
+.container1 > h1 {
+    text-align: center;
+}
+.info {
+    width: 1200px;
+    max-width: 90%;
+    margin: auto;
+}
+.info-top {
+    padding: 5px 0px;
+    display: inline;
+    border-bottom: 3px solid #00B172;
+}
+.info-specs {
+    display: flex;
+    justify-content: space-around;
+    margin: 60px 0px;
+}
+.info-specs > div {
+    width: 20%;
+    text-align: center;
+}
+.info-specs > div > figure {
+    max-height: 100px;
+}
+.info-specs > div > figure > img {
+    width: 75%;
+}
+.info-specs > div > h2 {
+    color: #00B172;
+}
+.container {
+    margin: 20px;
+    background-color: #00B172;
+    background-image: url("../images/spotify-icon-white.png");
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: 120px;
+    padding: 60px;
+    color: #FFF;
+    display: flex;
+    justify-content: space-between;
+    font-size: 1.10em;
+}
+.list {
+    width: 45%;
+}
+.list {
+    display: inline;
+    border-bottom: 3px solid #FFF;
+    font-size: 2em;
+}
+.list {
+    margin-top: 60px;
+}
+.info-image-bot {
+    width: 30%;
+    margin-top: 40px;
+}
+.info-image-bot > img {
+    width: 100%;
+}
