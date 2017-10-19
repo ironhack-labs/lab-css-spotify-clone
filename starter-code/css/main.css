@@ -33,12 +33,24 @@ nav{
   margin top: 0px;
 }
 .logo img:hover {
-    transition-property: bounce;
-    transition-duration: infinite;
-    transition-timing-function:linear;
-    margin-top: 10px;
+
+    animation-name: bounce;
+    animation-duration: 0.2s;
+    animation-iteration-count: infinite;
 }
 
+@keyframes bounce {
+25% {
+  margin-top: -10px;
+}
+50% {
+  margin-top: 0px;
+
+}
+75% {
+  margin-top: 10px;
+}
+}
 .navbar {
   text-decoration: none;
   text-align: right;
