@@ -6,3 +6,213 @@ Green: #00B172
 White: #FFF
 
 */
+/**{
+  outline:1px solid blue;
+  font-family: sans-serif;
+}
+*/
+*, *:before, *:after {
+  box-sizing: border-box;
+}
+
+body {
+  outline:1px solid blue;
+  font-family: sans-serif;
+}
+
+.header{
+  height: 100px;
+  /*width: cover;*/
+  position: fixed;
+  top:0px;
+  left:0px;
+  z-index: 10;
+  background-color: #ffffff;
+}
+
+.logo{
+  float: left;
+  height: 100px;
+  /*background-image: url(../images/spotify-logo.png);*/
+  width: 220px;
+  margin-left: 40px;
+}
+
+.logoSpotify {
+    max-width: 100%;
+    height: auto;
+    margin-top: 18px;
+    /*display: flex;
+    justify-content: center;
+    align-items: center;*/
+}
+
+.menu{
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  float: right;
+  height:100%;
+  font-size: 22px;
+  flex-basis: auto;
+}
+
+.menu ul{
+   list-style-type: none;
+   text-align: center;
+   margin-right: 10px;
+}
+
+.menu li{
+   display: inline;
+   text-align: center;
+   margin: 0 35px 0 0;
+}
+
+.menu li a {
+   text-decoration: none;
+}
+
+.container {
+  position: relative;
+  margin-top: 100px;
+}
+
+.full_image{
+  height: 700px;
+  background-image: url(../images/landing.jpg);
+  background-size: cover;
+  background-position: center;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  color:#ffffff;
+}
+
+.full_image h1{
+  margin: 0px 0px 55px 0px;
+  font-size: 4.5em;
+}
+
+.full_image p{
+  margin: 0px;
+  font-size: 1.75em;
+}
+
+.whatsOn{
+  height: 150px;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+}
+
+h2{
+  font-size: 2em;
+  border-bottom: 3px solid #00B172;
+}
+
+h3{
+  font-size: 1.8em;
+}
+
+
+.milions{
+  width: 33%;
+  float:left;
+  padding:0 70px;
+  text-align: center;
+}
+
+.milions p {
+  font-size: 1.3em;
+}
+
+.speaker{
+  width: 100px;
+  height: 100px;
+  display: block;
+  margin: auto;
+}
+
+.music{
+  width: 33%;
+  float:left;
+  padding:0 70px;
+  text-align: center;
+}
+
+.music p {
+  font-size: 1.3em;
+}
+
+.hd{
+  width: 150px;
+  height: 100px;
+  display: block;
+  margin: auto;
+}
+
+.stream{
+  width: 33%;
+  float:left;
+  padding:0 70px;
+  text-align: center;
+}
+
+.stream p {
+  font-size: 1.3em;
+}
+
+.devices{
+  width: 100px;
+  height: 100px;
+  display: block;
+  margin: auto;
+}
+
+.footer{
+  float: left;
+  width: 100%;
+  height: 700px;
+  background-color: #00B172;
+  background-image: url(../images/spotify-icon-white.png);
+  background-repeat: no-repeat;
+  background-position: center;
+  background-size: 130px;
+}
+
+.yeezy{
+  float: left;
+  width: 60%;
+  padding-left: 100px;
+  padding-right: 350px;
+}
+
+.screenShot{
+  float: left;
+  width: 40%;
+  height: 700px;
+  background-image: url(../images/spotify-app.jpg);
+  background-repeat: no-repeat;
+  background-position: center;
+  background-size: 340px;
+}
+
+.footer h3 {
+  overflow-x: visible;
+  color:white;
+  font-size: 1.9em;
+  border-bottom: 3px solid white;
+}
+
+.footer h4 {
+  color:white;
+  font-size: 1.6em;
+}
+
+.footer p {
+  color:white;
+  font-size: 1.3em;
+}
