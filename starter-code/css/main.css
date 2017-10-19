@@ -1,8 +1,208 @@
 /*
 Colors:
-
 Text: 1A1A1A
 Green: #00B172
 White: #FFF
-
 */
+
+
+/*
+div {
+    border: 1px solid black;
+}
+*/
+
+html {
+    font-family: 'Roboto';
+}
+
+@keyframes bounce {
+    0% {
+      margin-top: -10px;
+    }
+  
+    100% {
+      margin-top: -5px;
+    }
+  }
+
+body {
+    padding: 0;
+    margin: 0
+}
+
+nav {
+    position: fixed;
+    background-color: #FFF;
+    width: 100%;
+    height: 60px;
+    padding: 15px;
+}
+
+nav section.left {
+    float: left;
+    margin: 5px;
+}
+
+.logohead {
+    width: 200px;
+    margin: -5px;
+}
+
+.logohead:hover {
+    animation-name: bounce;
+    animation-duration: 0.5s;
+    animation-delay: 0.5s;
+}
+
+nav section.right {
+    float: right;
+    margin: 6px 30px;
+}
+
+nav section.right ul li {
+    list-style-type: none;
+    display: inline;
+    float: right;
+    padding-right: 30px;
+    font-size: 20px;
+    font-weight: lighter;
+    color: rgb(0, 0, 0);
+}
+
+section.one {
+    background-image: url('../images/landing.jpg');
+    background-repeat: no-repeat;
+    color: #FFF;
+    background-size: cover;
+    background-position: bottom;
+    height: 800px;
+    align-items: center;
+}
+
+section.one .center {
+    vertical-align: middle;
+    padding-top: 250px;
+    text-align: center;
+}
+
+section.one .center h1 {
+    font-size: 80px;
+    margin-bottom: -10px;
+}
+
+section.one .center p {
+    font-size: 30px;
+    font-weight: lighter;
+}
+
+section.two {
+    text-align: center;
+    align-items: center;
+    margin: 60px 0px;
+}
+
+section.two .what {
+    text-align: center;
+    border-bottom: 4px solid #00B172;
+    width: 340px;
+    height: 55px;
+    margin: auto;
+}
+
+section.two .what h2 {
+    font-size: 40px;
+}
+
+section.two .squares {
+    color: gray;
+    width: 400px;
+}
+
+section.two h5 {
+    font-size: 30px;
+    color: #00B172;
+    margin: 0;
+}
+
+section.two p {
+    font-size: 25px;
+    font-weight: 100;
+    color: rgb(0, 0, 0);
+}
+
+section.three {
+    clear: both;
+    background-color: #00B172;
+    background-image: url('../images/spotify-icon-white.png');
+    background-position: center;
+    background-size: 12%;
+    background-repeat: no-repeat;
+    text-align: left;
+    padding: 8% 8% 10% 8%;
+    margin: 3%;
+    height: 680px;
+}
+
+section.three .left {
+    float: left;
+    width: 50%;
+    height: 600px;
+}
+
+section.three .left .kanye {
+    float: left;
+    border-bottom: 4px solid #FFF;
+    margin: auto;
+    margin-bottom: 40px;
+}
+
+section.three .left .kanye h3 {
+    color: #FFF;
+    font-weight: 500;
+    font-size: 45px;
+    margin: 1px;
+}
+
+section.three .left .text {
+    clear: both;
+}
+
+section.three .left .text h4 {
+    color: #FFF;
+    font-size: 35px;
+    font-weight: 600;
+    margin: 0;
+}
+
+section.three .left .text p {
+    color: #FFF;
+    font-size: 30px;
+    font-weight: lighter;
+    margin: 40px 0px;
+}
+
+section.three .right {
+    padding-top: 30px;
+    float: right;
+}
+
+.layout {
+    display: flex;
+    justify-content: space-around;
+}
+
+.square-icon {
+    width: 150px;
+    padding-top: 30px;
+}
+
+.square-icon1 {
+    width: 150px;
+    padding-top: 30px;
+    padding-bottom: 16px;
+}
+
+.kanye-image {
+    width: 400px;
+}
