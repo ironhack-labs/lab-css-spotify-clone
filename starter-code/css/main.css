@@ -42,8 +42,22 @@ nav li {
 .logo {
   height: 40px;
 }
-.logo:hover {
-  /*TO DO ANIMATION*/
+nav .logo:hover {
+  cursor: pointer;
+  animation-name: bounce;
+  animation-timing-function: ease-in-out;
+  animation-duration: .3s;
+}
+@keyframes bounce {
+	0% {
+    margin-top: 0;
+	}
+  50% {
+    margin-top: -5px;
+  }
+  100% {
+    margin-top: 5px;
+  }
 }
 .hero-image {
   display: flex;
@@ -61,7 +75,9 @@ nav li {
 .hero-image div {
   width: 70%;
   margin: 0 auto;
+  font-weight: 300;
 }
+
 .icon {
   height: 50px;
 }
@@ -75,14 +91,15 @@ nav li {
 
 .features {
   display: flex;
+  font-weight: 300;
 }
+
 .features h3 {
   color: #00B172;
 }
 .features div {
   width: 33%;
 }
-
 
 .artist {
   display: flex;
@@ -95,7 +112,15 @@ nav li {
   background-color: #00B172;
   padding: 3em 3em 2em 3em;
 }
+.artist h2 {
+  display: inline-block;
+  padding-bottom: 8px;
+  border-bottom: 2px solid white;
+}
+.artist h2:after {
+  content:"";
 
+}
 .logo-float {
   position: absolute;
   bottom: 200px;
