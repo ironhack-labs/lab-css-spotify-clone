@@ -50,12 +50,19 @@ li {
 }
 
 .logoSpotify:hover {
-  width: 342px;
-  height: 69px;
-  transition-property: width;
-  transition-duration: 2s;
-  transition-timing-function: linear;
-  transition-delay: 1s;
+  animation: bounce 2s infinite;
+}
+
+@keyframes bounce {
+  0% {
+    margin-top: 0;
+  }
+  50% {
+    margin-top: 16px;
+  }
+  100% {
+    margin-top: 0;
+  }
 }
 
 .float {
