@@ -1,4 +1,4 @@
-@import url('https://fonts.googleapis.com/css?family=Open+Sans:100,300,400,600,700');
+@import url('https://fonts.googleapis.com/css?family=Open+Sans:300,400,600,700');
 /*
 Colors:
 
@@ -8,13 +8,13 @@ White: #FFF
 
 */
 body {
-  font-family: "Open Sans","OpenSans",sans-serif;
+  font-family: 'Open Sans', 'op', sans-serif;
   margin: 0;
 }
 
 header {
   box-sizing: border-box;
-  height: 50px;
+  height: 65px;
   margin: 13px 0;
 }
 
@@ -26,11 +26,12 @@ header img {
 
 nav {
   float: right;
-  line-height: 50px;
+  line-height: 65px;
 }
 
 nav a {
-  font-size: 17px;
+  font-size: 22px;
+  font-weight: 300;
   text-decoration: none;
   color: #586269;
   padding-right: 25px;
@@ -57,7 +58,7 @@ h1 {
 
 #top-content p {
   box-sizing: border-box;
-  width: 575px;
+  width: 618px;
   margin: 0 auto;
   font-size: 27px;
   text-align: center;
@@ -65,9 +66,10 @@ h1 {
   padding-top: 34px;
 }
 
-.container {
-  width: 1000px;
+.container, .container2 {
+  width: 1180px;
   margin: 0 auto;
+  overflow: auto;
 }
 
 h2 {
@@ -82,11 +84,23 @@ h2 {
   padding-top: 16px;
 }
 
+.container2 h2 {
+  margin: 50px 0 46px 90px;
+  border-bottom-color: #fff;
+  color: #fff;
+  width: 448px;
+}
+
+.container2 {
+  background-color: #00B172;
+  margin-bottom: 30px;
+}
+
 .features {
   width: 33%;
   float: left;
   text-align: center;
-  font-size: 20px;
+  font-size: 23px;
   font-weight: 100;
   padding-top: 76px;
 }
@@ -100,18 +114,53 @@ h2 {
 h3 {
   font-size: 28px;
   font-weight: 700;
+}
+
+.features > h3 {
   color: #00B172;
 }
 
 .features > p {
-  padding: 0 48px;
+  padding: 0 57px;
+}
+
+.details {
+  margin-left: 90px;
+  color: #fff
+}
+
+.details > p {
+  font-size: 21px;
+  font-weight: 300;
+  width: 317px;
+  display: inline-block;
+  margin: 0;
+}
+
+.col {
+  width: 33%;
+  float: left;
+  height: 770px;
+}
+
+#white-icon {
+  display: block;
+  margin: 0 auto;
+  width: 125px;
+  padding-top: 300px;
+}
+
+#app {
+  display: block;
+  width: 317px;
+  padding-top: 90px;
 }
 
 header > img:hover {
   display: block;
   cursor: pointer;
   animation-name: bounce;
-  animation: spotjumper 4s 5;
+  animation: spotjumper 2s infinite;
 }
 
 @keyframes spotjumper {
