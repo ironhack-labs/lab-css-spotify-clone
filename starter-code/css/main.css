@@ -15,7 +15,15 @@ nav{
   overflow: auto;
   height: 15%;
   box-sizing: border-box;
+  display: block;
+  position: fixed;
+  top: 0;
+  width: 100%;
   padding: 20px 0;
+  background-color: white;
+  /*margin: 20px 0;
+  position: fixed;*/
+
 
 }
 
@@ -30,15 +38,15 @@ width: 50%;
 }
 @keyframes bounce {
 	0%, 20%, 60%, 100% {
-		-webkit-transform: translateY(0);
+
 		transform: translateY(0);
 	}
 	40% {
-		-webkit-transform: translateY(-20px);
+
 		transform: translateY(-20px);
 	}
 	80% {
-		-webkit-transform: translateY(-10px);
+
 		transform: translateY(-10px);
 	}
 }
@@ -56,7 +64,6 @@ width: 50%;
 }
 nav a{
   text-decoration: none;
-  padding: 20px 0;
   margin: 0 15px;
   font-size: 1.5em;
   color: black;
@@ -65,14 +72,14 @@ nav a{
   background-image: url(../images/landing.jpg);
   background-size: cover;
   background-position: center;
-  height: 900px;
+  height: 950px;
 }
 
 .backtxt{
   width: 55%;
   color: white;
   margin: 0 auto;
-  padding-top: 10%;
+  padding-top: 15%;
   text-align: center;
   font-size: 2.6em;
 }
@@ -122,8 +129,8 @@ padding: 0 4%;
 
 }
 .container img{
-  width: 40%;
-  height: 40%;
+  width: 30%;
+  height: 30%;
 }
 
 .descContainer{
