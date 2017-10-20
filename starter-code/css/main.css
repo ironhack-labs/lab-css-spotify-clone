@@ -12,8 +12,10 @@ body {
 
 /*---CONTAINERS---*/
 
+nav { }
+
 .heading-container {
-  height: 120px;
+  height: 60px;
   width: 100%;
 }
 
@@ -22,16 +24,30 @@ body {
   background-size: cover;
   height: 700px;
   color: white;
+  text-align: center;
 }
+
+.middle-container {
+  border-bottom: 3px solid #00B172;
+  width: 190px;
+  margin: 0 auto;
+  text-align: center;
+
+}
+
 /*---TEXT---*/
 ul {
   overflow: auto;
+  display: inline-block;
+  position: absolute;
+  top: 24px;
+  left: 842px;
 }
 
 li {
   list-style-type: none;
   float: right;
-  margin: 0 30px 30px 40px;
+  margin: 15px 30px 30px 40px;
   font-size: 17px;
  }
 
@@ -40,10 +56,35 @@ a {
   color: #1A1A1A;
 }
 
+
+p {
+  text-align: center;
+  font-size: 25px;
+}
+
+.main-text {
+  position: relative;
+  top: 200px;
+}
+
+
+/*---HEADINGS---*/
+h1 {
+  font-size: 60px;
+}
+
+h3 {
+  font-size: 22px;
+  margin: 10px 0 0 0;
+  padding-bottom: 5px;
+}
+
+
 /*---IMAGES---*/
 
 .heading-container img {
   width: 180px;
   margin-top: 25px;
   margin-bottom: 0;
+  margin-left: 5px;
 }
