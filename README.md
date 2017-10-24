@@ -1,6 +1,6 @@
 ![Ironhack Logo](https://i.imgur.com/1QgrNNw.png)
 
-# JS | Spotify Clone
+# JS | Spotify Clone | Test
 
 ## Introduction
 
