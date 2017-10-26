@@ -6,3 +6,213 @@ Green: #00B172
 White: #FFF
 
 */
+
+/* SETTINGS */
+
+@import url("https://fonts.googleapis.com/css?family=Montserrat:400,200,700,900");
+
+* {
+  font-family: "Montserrat", sans-serif;
+}
+
+body {
+  margin: 0;
+  background-color: #ffffff;
+}
+
+/* NAV */
+
+li {
+  margin-top: 20px;
+  display: inline;
+  /* float: right; */
+  margin: 20px;
+  font-weight: 700;
+  font-size: 1.125rem;
+}
+
+nav {
+  height: 10vh;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.divlogo {
+    padding: 10px;
+}
+
+nav > img {
+    margin: 50px 0 50px 0;
+}
+
+.logo {
+  height: 8vh;
+  animation: flip-in-hor-top 0.5s cubic-bezier(0.25, 0.46, 0.45, 0.94) both;
+}
+
+@keyframes flip-in-hor-top {
+  0% {
+    -webkit-transform: rotateX(-80deg);
+    transform: rotateX(-80deg);
+    opacity: 0;
+  }
+  100% {
+    -webkit-transform: rotateX(0);
+    transform: rotateX(0);
+    opacity: 1;
+  }
+}
+
+.divlogo:hover {
+    transition: opacity 1s cubic-bezier(0.075, 0.82, 0.165, 1) 0s;
+    opacity: 0.8;
+}
+
+.logo {
+
+}
+
+/* HEADER */
+
+.color-change-5x {
+}
+
+header {
+  height: 90vh;
+  display: flex;
+  background-image: url(../images/landing.jpg);
+  background-attachment: fixed;
+  background-position: center center;
+  background-size: cover;
+  animation: color-change-5x 2s ease-in-out infinite alternate both;
+}
+
+@keyframes color-change-5x {
+  0% {
+    opacity: 0.9;
+  }
+  100% {
+    opacity: 1;
+  }
+}
+
+.header-text {
+  margin: auto;
+  text-align: center;
+}
+
+h1 {
+  font-size: 6rem;
+  position: relative;
+  color: #ffffff;
+}
+
+h2 {
+  font-size: 2rem;
+  position: inherit;
+  color: #ffffff;
+}
+
+/* PRODUCT */
+
+product {
+  margin-top: 10vh;
+}
+
+.wos {
+  margin: 0 auto;
+  text-align: center;
+}
+
+.wos > h3 {
+  margin-top: 10vh;
+  text-align: center;
+  font-size: 3rem;
+  border-bottom: 0.5rem solid #00b172;
+  padding-bottom: 10px;
+  letter-spacing: 1px;
+  display: inline-block;
+}
+
+.trio {
+  margin-top: 10vh;
+}
+
+.feat {
+  float: left;
+  width: 25%;
+  margin-left: 6%;
+  text-align: center;
+}
+
+.feat > h4 {
+  text-align: center;
+  color: #00b172;
+  font-weight: 700;
+  font-size: 2rem;
+}
+
+.feat > p {
+  font-size: 1.75rem;
+  font-weight: 200;
+}
+
+.icon {
+  height: 125px;
+}
+
+/* KW */
+
+.kw {
+  clear: both;
+  background-color: #ffffff;
+  padding-top: 100px;
+}
+
+.container {
+  background-color: #00b172;
+  margin: 2vw;
+  padding: 5vh;
+  background-image: url(../images/spotify-icon-white.png);
+  /* background-attachment: fixed; */
+  background-position: center center;
+  background-size: 200px;
+  background-repeat: no-repeat;
+}
+
+.container > .kwtxt > h3 {
+  font-size: 3rem;
+  color: #ffffff;
+  /* text-decoration: underline;
+    text-decoration-color: #fff;
+    text-decoration-line: ;
+    text-decoration-style: solid; */
+  border-bottom: 0.25rem solid #ffffff;
+  letter-spacing: 1px;
+}
+
+.container > .kwtxt > h4 {
+  font-size: 2rem;
+  color: #ffffff;
+}
+
+.container > .kwtxt > p {
+  font-size: 1.5rem;
+  color: #ffffff;
+  font-weight: 200;
+  line-height: 5vh;
+  font-size: 2rem;
+}
+
+.kwimg {
+  float: right;
+  width: 50%;
+  width: 450px;
+  margin-right: 5vw;
+  margin-top: 5vh;
+}
+
+.kwtxt {
+  width: 40%;
+}
