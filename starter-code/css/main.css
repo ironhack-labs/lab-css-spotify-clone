@@ -1,8 +1,112 @@
 /*
 Colors:
-
 Text: 1A1A1A
 Green: #00B172
 White: #FFF
-
 */
+
+*{
+	border: 1px solid transparent;	
+	box-sizing: border-box;
+	font-family: 'Lato', sans-serif;
+}
+
+ul{
+	float: right;
+	padding-right: 50px;
+}
+
+li{
+	list-style: none;
+	display: inline;
+    margin-left: 10px;
+}
+
+nav{
+	height: 100px;
+	margin-bottom: 40px;
+/*	position: static;
+*/}
+
+.container{
+	text-align: center;
+}
+
+
+.picture{
+	background-image:url(../images/landing.jpg);
+	background-size: cover;
+	background-attachment: unset;
+    background-position: center;
+
+/*	background-color: blue;
+*/	height: 700px;
+}
+
+.picture h1, .picture p{
+	color: white;
+    width: 400px;
+    margin: 10px auto;
+    text-align: center;
+    margin-top: 100px;
+    line-height: 1.5;
+}
+
+.right-box{
+	clear: both;
+	width:50%;
+	display: inline-block;
+/*	float: left;
+*/}
+
+.right-box p, .right-box h2,.right-box h3{
+	width:100%;
+	display: inline-block;
+	color: white;
+}
+
+.right-box p{
+    font-weight: 100;
+}
+
+
+.kanye{
+	width: 35%;
+	display: inline-block;
+	float:right;
+}
+
+.test{
+	width: 33%;
+	height: 500px;
+	float:left;
+	text-align: center;
+	padding-top: 100px;
+}
+
+.spotify-logo{
+	width: 25%;
+	margin: 10px;
+}
+
+.yeezy{
+	background-color: #00B172;
+	padding: 100px;
+	clear: both;
+	background-image: url("../images/spotify-icon-white.png");
+	background-repeat: no-repeat;
+    background-attachment: unset;
+    background-position: center;
+    background-size: 10%;
+}
+
+.kanye-pic{
+	width: 80%;
+}
+
+.three-logos{
+	width: 40%;
+	vertical-align: middle;
+}
+
+
