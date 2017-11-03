@@ -6,3 +6,189 @@ Green: #00B172
 White: #FFF
 
 */
+
+@import url('http://fonts.googleapis.com/css?family=Roboto');
+
+.navbar {
+  position: fixed;
+  width: 1000px;
+  height: 80px;
+  z-index: 200;
+  background-color: white;
+  top: 0;
+  margin-left: 50%;
+  left: -500px;
+}
+
+.logo-navbar {
+  float: left;
+  position: relative;
+  margin: 10px 10px;
+}
+
+.logo-navbar:hover{
+  animation-name: jump;
+  animation-duration: 0.5s;
+  animation-iteration-count: infinite;
+}
+
+@keyframes jump {
+  0% {
+    margin-top: 10px
+  }
+  30% {
+    margin-top: 0px;
+  }
+  70% {
+    margin-top: 20px;
+  }
+  100% {
+    margin-top: 10px;
+  }
+}
+
+.logo-navbar>img {
+  height: 50px;
+}
+
+.menu-navbar {
+  float: right;
+  position: relative;
+  margin-top: 20px;
+  font-family: 'Roboto';
+}
+
+.menu-navbar>ul {
+  list-style-type: none;
+  text-align: center;
+  overflow: hidden;
+}
+.menu-navbar li {
+  float: left;
+  padding-right: 20px;
+}
+
+.content {
+  position: relative;
+  width: 1000px;
+  margin-top: 80px;
+  margin-left: 50%;
+  left: -500px;
+  font-family: 'Roboto';
+}
+
+.big-img {
+  position: relative;
+  background-image: url('../images/landing.jpg');
+  background-size: contain;
+  background-repeat: no-repeat;
+  height: 670px;;
+  width: 1000px;
+  color: white;
+  text-align: center;
+}
+
+.big-img>h1,span {
+  padding-top: 25%;
+}
+
+.big-img>h1 {
+  font-size: 60px;
+}
+
+.big-img>span {
+  font-weight: lighter;
+  font-size: 23px;
+}
+
+.info-spoti {
+  position: relative;
+  width: 1000px;
+}
+
+.whats {
+  position: relative;
+  width: 100%;
+  padding-top: 20px;
+  font-weight: black;
+  font-size: 30px;
+}
+
+.underline {
+  width: 246px;
+  position: relative;
+  padding-bottom: 5px;
+  margin-left: 50%;
+  left: -135px;
+  border-bottom-width: 4px;
+  border-bottom-style: inset;
+  border-bottom-color: #00B172;
+}
+
+.features {
+  width: 100%;
+  height: 350px;
+  position: relative;
+  padding-top: 50px;
+}
+
+.feature {
+  width: 33%;
+  height: 300px;
+  position: relative;
+  float: left;
+  text-align: center;
+}
+
+.feature>img {
+  width: auto;
+  height: 100px;
+}
+
+.feature>h1 {
+  color: #00B172;
+  font-weight: bold;
+}
+
+.feature>div {
+  box-sizing: border-box;
+  padding: 0px 28px;
+  font-size: 28px;
+  font-weight: lighter;
+}
+
+.green {
+  position: relative;
+  background-color: #00B172;
+  color: white;
+  height: 620px;
+  box-sizing: border-box;
+  padding: 50px;
+}
+
+.green-info {
+  width: 33%;
+  position: relative;
+  float: left;
+  font-size: 19px;
+}
+
+.green-info > h1 {
+  width: 432px;
+  font-size: 35px;
+  padding-bottom: 10px;
+  border-bottom-width: 4px;
+  border-bottom-style: inset;
+  border-bottom-color: white;
+}
+.green-info > img[src$=".png"] {
+  height: 120px;
+  padding-left: 90px;
+  padding-top: 200px;
+}
+
+.green-info > img[src$=".jpg"] {
+  height: 500px;
+  float: right;
+  padding-top: 20px;
+}
