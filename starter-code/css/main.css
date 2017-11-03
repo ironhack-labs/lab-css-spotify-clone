@@ -1,8 +1,192 @@
 /*
 Colors:
 
-Text: 1A1A1A
+Text: #1A1A1A
 Green: #00B172
 White: #FFF
 
 */
+body {
+    /*border: 2px solid black; */
+    box-sizing: border-box;
+    color: #1A1A1A;
+    font-family: "proxima_nova_ltthin";
+    margin: 0;
+    padding: 0;
+}
+
+.bottom {
+    background-color: #00B172;
+    margin: 2vw;
+    padding: 4vw 0;
+}
+
+.bottom .center {
+    background-image: url("../images/spotify-icon-white.png");
+    background-repeat: no-repeat;
+    background-size: contain;
+    border: 2px solid black;
+    display: inline-block;
+    height: 10vw;
+    width: 10vw;
+}
+
+.bottom .left {
+    color: #FFF;
+    border: 2px solid black; 
+    display: inline-block;
+    margin-left: 5vw;
+    width: 40vw;
+}
+
+.bottom .left > div {
+    width: 20vw;
+}
+
+.bottom .left h1 {
+    border-bottom: 3px solid #FFF;
+    color: #FFF;
+    display: inline-block;
+    font-family: 'proxima_nova_ltsemibold';
+    font-size: 2em;
+    width: auto;
+}
+
+.bottom .left h2 {
+    font-family: 'proxima_nova_ltsemibold';
+}
+
+.bottom .left p {
+    font-size: 1.2em;
+}
+
+.bottom .right {
+    background-image: url("../images/spotify-app.jpg");
+    background-repeat: no-repeat;
+    background-size: contain;
+    border: 2px solid red;
+    display: inline-block;
+    height: 60vh;
+    margin: 2vw 2vw;
+    width: 30vw;
+}
+
+.icon {
+    height: 10vw;
+    width: 10vw;
+
+}
+
+.logo {
+    /*border: 2px solid green;*/
+    background-image: url("../images/spotify-logo.png");
+    background-repeat: no-repeat;
+    background-size: contain;
+    /*display: block;*/
+    position: fixed;
+    height: 70px;
+    top: 2vh;
+    left: 2vw;
+    width: 200px;
+}
+
+.logoAndMenu {
+    background-color: #FFF;
+    /*border: 2px solid blue;*/
+    height: 80px;
+    left: 0;
+    position: fixed;
+    top: 0;
+    width: 100vw;
+    vertical-align: middle;
+}
+
+.menu {
+    /*border: 2px solid red;*/
+    display: block;
+    height: 80px;
+    width: 60vw;
+    position: fixed;
+    top: 0vh;
+    right: 0vw;
+}
+
+.menu li {
+    /*border: 2px solid red;*/
+    display: inline-block;
+    font-size: 1.2em;
+    list-style-type: none;
+    margin: 1vw;
+}
+
+.middle {
+    /*border: 2px solid orange;*/
+    margin: 2vw 0;
+    text-align: center;
+}
+
+.middle .col {
+    /*border: 2px solid darkorchid;*/
+    display: inline-block;
+    /*overflow: hidden;*/
+    width: 30vw;
+}
+
+.middle h1 {
+    border-bottom: 3px solid #00B172;
+    display: inline-block;
+    font-family: 'proxima_nova_ltsemibold';
+    font-size: 2em;
+    width: auto;
+}
+
+.middle h2 {
+    color: #00B172;
+    font-family: 'proxima_nova_ltsemibold';
+}
+
+.middle header {
+    margin-bottom: 2vw;
+}
+
+.middle p {
+    font-size: 1.2em;
+}
+
+ul {
+    text-align: center;
+}
+
+.up {
+    background-image: url("../images/landing.jpg");
+    background-repeat: no-repeat;
+    background-size: cover;
+    border: 2px solid green;
+    color: white;
+    height: auto;
+    margin: 0 auto;
+    text-align: center;
+    vertical-align: center;
+}
+
+.up h1 {
+    color: #FFF;
+    font-family: "proxima_nova_altbold";
+    font-size: 4em;
+}
+
+.up p {
+    color: #FFF;
+    font-size: 1.5em;
+    width: 40vw;
+    margin: 0 auto;
+}
+
+.upContent {
+    /*border: 2px solid magenta;*/
+    width: 60vw;
+    text-align: center;
+    margin: 0 auto;
+    margin-top: 20vw;
+    margin-bottom: 20vw;
+}
