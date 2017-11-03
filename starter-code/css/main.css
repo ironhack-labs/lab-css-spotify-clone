@@ -6,3 +6,154 @@ Green: #00B172
 White: #FFF
 
 */
+
+* {
+  margin: 0;
+  padding: 0;
+}
+
+body {
+  font: 200 16px/1.5 "Helvetica Neue", Helvetica, Arial, sans-serif;
+  color: #1A1A1A;
+  text-align: center;
+}
+
+h1 {
+  font-size: 75px;
+  padding-bottom: 15px;
+}
+
+h2 {
+  font-size: 35px;
+}
+
+h3 {
+  font-size: 30px;
+}
+
+nav {
+  position: fixed;
+  background-color: white;
+  width: 100%;
+  height: 90px;
+  text-align: left;
+}
+
+nav img {
+  box-sizing: border-box;
+  padding: 10px 35px;
+  height: 80px;
+}
+
+nav ul {
+  float: right;
+  box-sizing: border-box;
+  padding-top: 28px;
+}
+
+nav li {
+  display: inline;
+  padding-right: 33px;
+}
+
+nav a {
+  color: #1A1A1A;
+  font-size: 21px;
+  text-decoration: none;
+  list-style-type: none;
+}
+
+.clearfix {
+  clear: both;
+}
+
+#title {
+  height: 800px;
+  background-image: url(../images/landing.jpg);
+  background-repeat: no-repeat;
+  background-position: center;
+  background-size: cover;
+  color: #FFF;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+#title p {
+  font-size: 29px;
+}
+
+#info {
+  margin-bottom: 80px;
+}
+
+.info-header-h2 {
+  border-bottom: 4px solid #00B172;
+  width: 316px;
+  margin: 30px auto 90px auto;
+}
+
+.info-article {
+  display: inline-block;
+  box-sizing: border-box;
+  width: 30%;
+  vertical-align: top;
+}
+
+.info-article>img {
+  height: 100px;
+}
+
+.info-article>h3 {
+  color: #00B172;
+}
+
+.info-article>p {
+  color: #1A1A1A;
+  font-size: 24px;
+  box-sizing: border-box;
+  margin: 0 20px;
+  padding: 0 45px;
+}
+
+#playlist {
+  color: #FFF;
+  background-color: #00B172;
+  background-image: url(../images/spotify-icon-white.png);
+  background-repeat: no-repeat;
+  background-position: center;
+  background-size: 130px;
+  margin: 0 30px;
+  text-align: left;
+  padding: 80px 100px;
+}
+
+.playl-article {
+  box-sizing: border-box;
+  width: 500px;
+  display: inline-block;
+}
+
+#playlist>img {
+  float: right;
+  padding-top: 30px;
+  width: 330px;
+}
+
+#playlist h2 {
+  border-bottom: 4px solid #FFF;
+  width: 470px;
+  margin-bottom: 50px;
+}
+
+.play-art-div {
+  box-sizing: border-box;
+  width: 295px;
+}
+.play-art-div>h3{
+  margin-bottom: 35px;
+}
+.play-art-div>p{
+  margin-bottom: 30px;
+  font-size: 20px;
+}
