@@ -6,3 +6,196 @@ Green: #00B172
 White: #FFF
 
 */
+@import url('https://fonts.googleapis.com/css?family=Roboto:100,200,300,400,500,700');
+
+* {
+  font-family: 'Roboto';
+  margin: 0;
+}
+
+html {
+
+}
+/*Navbar*/
+
+#nav, #divlogo, #navlinks, #icons, header, .kanye {
+  display: flex;
+}
+#nav {
+  color:black;
+  padding: 15px 0px 20px 15px;
+  width: 100%;
+  box-sizing: border-box;
+  position: fixed;
+  background-color: #fff;
+  z-index: 10;
+}
+#logo {
+  width: 25%;
+  min-width: 120px;
+  margin-left: 30px;
+  position: relative;
+}
+#logo:hover{
+  animation-name: logo-movimiento;
+  animation-duration: 0.3s;
+  animation-iteration-count:2;
+  animation-timing-function:ease-in-out;
+}
+@keyframes logo-movimiento {
+  0% {
+    bottom: 0px;
+  }
+  50% {
+    bottom: 7px;
+  }
+  100% {
+    bottom:0px;
+  }
+}
+#divlogo {
+  width: 60%;
+  align-items: center;
+}
+#navlinks {
+  width: 40%;
+  justify-content: space-around;
+  align-items: center;
+  font-size: 1.8vmax;
+  font-weight: 300;
+}
+#navlinks span {
+  padding: 5px;
+}
+
+/*Header*/
+
+header {
+  background-image: url(../images/landing.jpg);
+  background-position: bottom;
+  background-size: cover;
+  height: 100vh;
+  width: 100%;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+}
+
+header span {
+  color: white;
+  font-size: 2.8vmax;
+  line-height: 3vmax;
+  font-weight: lighter;
+}
+header :first-child {
+  font-size: 6vmax;
+  margin-bottom: 45px;
+  font-weight: 500;
+}
+
+/*Main Section*/
+.main {
+  text-align:center;
+}
+#title {
+  position: relative;
+  top: 40px;
+  width: 30%;
+  margin: auto;
+}
+#title > span {
+  font-size: 3vmax;
+  width: 100%;
+  border-bottom: 4px solid #00B172;
+}
+
+/*Icons*/
+
+#icons {
+  align-items:baseline;
+  justify-content: space-around;
+  height: 80vh;
+  box-sizing: border-box;
+  text-align: center;
+}
+#icons img {
+height: 110px;
+}
+#icons div {
+  width: 33%;
+  display: flex;
+  flex-direction: column;
+  align-items:center;
+  justify-content: center;
+  margin-top: 100px;
+  padding: 50px;
+  box-sizing: border-box;
+}
+
+#icons span {
+  font-size: 1.8vmax;
+  font-weight: 100;
+  max-width: 80%;
+}
+#icons span:first-of-type {
+  color: #1AB26B;
+  font-size: 2.3vmax;
+  font-weight: bold;
+  line-height: 2.5vmax;
+  margin: 20px 0px;
+  max-width: 100%;
+  margin-bottom: 30px;
+}
+.kanye {
+  height: auto;
+  width: 95%;
+  margin: auto;
+  background-color: #1AB26B;
+  background-image: url(../images/spotify-icon-white.png);
+  background-position: center;
+  background-size: 10%;
+  background-repeat: no-repeat;
+  margin-bottom: 30px;
+  padding: 6% 6%;
+  box-sizing: border-box;
+}
+#kanye-description {
+width: 60%;
+text-align: left;
+color:#fff;
+}
+#kanye-description span {
+  display: block;
+  max-width: 50%;
+  font-size: 1.6vmax;
+  line-height: 2.1vmax;
+  font-weight: lighter;
+
+}
+#kanye-description :nth-child(2n+2) {
+  font-size: 2.3vmax;
+  font-weight: bold;
+  margin: 40px 0px;
+}
+#kanye-description :first-child {
+  font-size:3vmax;
+  font-weight: normal;
+  display: inline;
+  padding-bottom: 4px;
+  border-bottom: 4px solid #fff;
+  white-space: nowrap;
+  margin-bottom: 35px;
+  max-width: none;
+  height: 100px;
+
+}
+#kanye-picture {
+  width:40%;
+  text-align: center;
+  display: flex;
+  justify-content:flex-end;
+  align-items:center;
+}
+#kanye-picture img {
+  width: 75%;
+}
