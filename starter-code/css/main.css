@@ -6,3 +6,168 @@ Green: #00B172
 White: #FFF
 
 */
+
+@import url('https://fonts.googleapis.com/css?family=Montserrat:300,400,700');
+
+* {
+  box-sizing: border-box;
+}
+body {
+  font-family: 'Montserrat', sans-serif;
+}
+.sectionInner {
+  width: 1170px;
+  margin: 0 auto;
+}
+section h2 {
+  font-size: 36px;
+  font-weight: 400;
+}
+section h4 {
+  font-size: 28px;
+}
+section p {
+  font-size: 22px;
+  font-weight: 300;
+  line-height: 1.5;
+}
+
+/* Header nav */
+
+header {
+  height: 70px;
+  padding: 0 15px;
+  position: fixed;
+  background-color: #fff;
+  width: 100%;
+  z-index: 1000;
+}
+nav {
+  height: 50px;
+  margin-top: 10px;
+  position: relative;
+}
+nav > div, nav li {
+  display: inline-block;
+}
+nav li a {
+  padding: 0 10px;
+  text-decoration: none;
+  font-weight: 300;
+  color: #000;
+}
+.logo > a > img {
+  height: 50px;
+}
+.logo{
+  float: left;
+  position: absolute;
+}
+.logo:hover {
+  animation-name: bounce;
+  animation-duration: 1s;
+  animation-iteration-count: infinite;
+}
+.links {
+  float: right;
+}
+
+/* Hero Section */
+
+.heroSection {
+  background-image: url(../images/landing.jpg);
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-position: center;
+  color: #fff;
+  text-align: center;
+}
+.heroSection .sectionInner {
+  position: relative;
+  height: 100vh;
+}
+.heroText {
+  position: absolute;
+  top: 50%;
+  transform: translateY(-50%);
+  width: 100%;
+}
+.heroSection h1 {
+  font-size: 80px;
+  font-weight: 400;
+}
+.heroSection h3 {
+  font-size: 28px;
+  font-weight: 300;
+  margin: 0;
+}
+
+/* Second section */
+
+.secondSection {
+  color: #1A1A1A;
+  text-align: center;
+}
+.secondSection .sectionInner {
+  padding: 40px 0;
+}
+.secondSection .sectionInner > div {
+  width: 33%;
+  display: inline-block;
+  padding: 10px;
+  vertical-align: top;
+}
+.secondSection .sectionInner > div > img {
+  height: 110px;
+}
+.secondSection h2 {
+  width: 326px;
+  border-bottom: 4px solid #00B172;
+  padding-bottom: 5px;
+  margin: 15px auto 20px;
+}
+.secondSection h4 {
+  color: #00B172;
+}
+
+/* Green section */
+
+.greenSection .sectionInner {
+  background-color: #00B172;
+  color: #fff;
+  padding: 80px;
+}
+.greenSection h2 {
+  margin-top: 0px;
+  text-align: left;
+  width: 472px;
+  border-bottom: 4px solid #fff;
+  padding-bottom: 5px;
+}
+.greenSection > .sectionInner > div {
+  width: 33%;
+  display: inline-block;
+  vertical-align: middle;
+}
+.greenSection .spotify-app img {
+  width: 100%;
+}
+.greenSection .spotify-icon {
+  vertical-align: middle;
+  text-align: center;
+}
+.greenSection .spotify-icon img {
+  width: 100px;
+}
+.greenSection .features {
+  vertical-align: top !important;
+}
+
+
+/* animacion logo */
+
+@keyframes bounce {
+  0% {top: 0;}
+  50% {top: -10px;}
+  100% {top: 0;}
+}
