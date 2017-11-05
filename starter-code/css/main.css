@@ -13,13 +13,14 @@ html, body {
   box-sizing: content-box;
   font-family: 'Open Sans', sans-serif;
   font-size: 15px;
+  color: 1A1A1A;
 
 }
 
 header {
   height: 120px;
   position: fixed;
-  background-color: white;
+  background-color: #FFF;
   width: 100%;
   display: inline-block;
   border: 2px solid red;
@@ -45,20 +46,27 @@ nav {
     float: right;
     margin-left: 30px;
 
+
 }
 
 nav ul {
     list-style-type: none;
-    margin: 0;
-    padding: 0;
+    position: absolute;
+    right: 0;
+    top: 23%;
+    display: inline-block;
+    width: 79%;
+
 }
 
 nav li {
-  display: inline;
+  float: right;
+  margin-right: 5%;
+  font-size: 1.3vw;
 }
 
 
-.section-1 {
+.landing {
   background-image: url('../images/landing.jpg');
   background-size: cover;
   background-repeat: no-repeat;
@@ -67,39 +75,39 @@ nav li {
   background-color: yellow;
 }
 
-.inner {
+.inner-landing {
   color:white;
   text-align: center;
   background-color: pink;
 }
 
-.section-2 {
+.features {
   border: 2px solid green;
   height: 300px;
 }
 
-.section-2 h1 {
+.features h1 {
   text-decoration: none;
   border-bottom: 4px solid #00B172;
 
 }
-.section-2 img {
+.features img {
   width: 150px;
   height: 90px;
 }
 
-.section-2 div {
+.features div {
   width: 25%;
   display: inline-block;
   border: dotted 2px orange;
   margin: 0 auto;
   vertical-align: top;
 }
-.section-2 h2 {
+.features h2 {
   color:#00B172;
 }
 
-.section-3 {
+.kanye-west {
   background-color: #00B172;
   height: 300px;
   border: 2px solid blue;
