@@ -6,3 +6,225 @@ Green: #00B172
 White: #FFF
 
 */
+@import url('https://fonts.googleapis.com/css?family=Roboto:100,200,300,400,500,700');
+
+* {
+  font-family: 'Roboto';
+  margin: 0;
+
+}
+
+html {
+
+}
+body {
+  width: 80%;
+  min-width: 500px;
+  margin:auto;
+}
+/*Navbar*/
+
+#nav, #divlogo, #navlinks, #icons, header, .kanye {
+  display: flex;
+}
+/*Byron, el nav se me sale del ancho total de la pagina cuando la hago estrecha tipo movil y no he logrado saber porque. También le he puesto flex wrap para que los links fueran abajo del logo y tampoco logro que lo haga :( */
+#nav {
+  color:black;
+  padding: 15px 0px 20px 15px;
+  min-width: 500px;
+  width: 80%;
+  margin: auto;
+  box-sizing: border-box;
+  background-color: #fff;
+  position: fixed;
+  z-index: 10;
+  display: flex;
+  justify-content: space-between;
+  flex-wrap: wrap;
+  flex-flow: row;
+  top: 0px;
+}
+#logo {
+  width: 20%;
+  min-width: 120px;
+  margin-left: 30px;
+
+}
+#logo:hover{
+  animation-name: logo-movimiento;
+  animation-duration: 0.3s;
+  animation-iteration-count:2;
+  animation-timing-function:ease-in-out;
+}
+@keyframes logo-movimiento {
+  0% {
+    bottom: 0px;
+  }
+  50% {
+    bottom: 7px;
+  }
+  100% {
+    bottom:0px;
+  }
+}
+#divlogo {
+  display: flex;
+  align-items: center;
+  align-self: flex-start;
+}
+#navlinks {
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+  font-size: 1.4rem;
+  font-weight: 300;
+  box-sizing: border-box;
+}
+#navlinks span {
+  padding: 5px;
+}
+
+/*Header*/
+
+header {
+  background-image: url(../images/landing.jpg);
+  background-position: bottom;
+  background-size: cover;
+  height: 90vh;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  padding: 10%;
+  margin-top:70px;
+
+}
+
+header span {
+  color: white;
+  font-size: 1.8rem;
+  line-height: 2.3rem;
+  font-weight: lighter;
+}
+header :first-child {
+  font-size: 4rem;
+  line-height: 4rem;
+  margin-bottom: 45px;
+  font-weight: 500;
+}
+
+/*Main Section*/
+.main {
+  text-align:center;
+  height: auto;
+}
+#title {
+  position: relative;
+  top: 40px;
+  width: 100%;
+  margin: auto;
+}
+#title > span {
+  font-size: 2.5rem;
+  line-height: 2.5rem;
+  width: 100%;
+  border-bottom: 4px solid #00B172;
+}
+
+/*Icons*/
+
+#icons {
+  display: flex;
+  align-items:baseline;
+  justify-content: space-around;
+  flex-wrap: wrap;
+  height: auto;
+  box-sizing: border-box;
+  text-align: center;
+  margin-bottom: 100px;
+}
+#icons img {
+height: 110px;
+}
+#icons div {
+  display: flex;
+  flex-direction: column;
+  align-items:center;
+  justify-content: center;
+  margin-top: 100px;
+  box-sizing: border-box;
+}
+
+#icons span {
+  font-size: 1.4rem;
+  line-height: 2rem;
+  font-weight: 100;
+  max-width: 65%;
+}
+#icons span:first-of-type {
+  color: #1AB26B;
+  font-size: 1.7rem;
+  line-height: 1.7rem;
+  font-weight: bold;
+  margin: 20px 0px;
+  max-width: 100%;
+  margin-bottom: 30px;
+}
+.kanye {
+  height: auto;
+  width: 95%;
+  margin: auto;
+  background-color: #1AB26B;
+  background-image: url(../images/spotify-icon-white.png);
+  background-position: center;
+  background-size: 10%;
+  background-repeat: no-repeat;
+  margin-bottom: 30px;
+  padding: 6% 6%;
+  box-sizing: border-box;
+}
+#kanye-description {
+width: 60%;
+text-align: left;
+color:#fff;
+}
+#kanye-description span {
+  display: block;
+  max-width: 50%;
+  font-size: 1.5rem;
+  line-height: 2rem;
+  font-weight: lighter;
+
+}
+#kanye-description .titles {
+  font-size: 2rem;
+  line-height: 2rem;
+  font-weight: bold;
+  margin: 40px 0px;
+}
+#kanye-title {
+  padding-bottom: 40px;
+}
+#kanye-title span {
+  font-size: 2.5rem;
+  line-height: 2.5rem;
+  font-weight: normal;
+  display: inline;
+  padding-bottom: 4px;
+  border-bottom: 4px solid #fff;
+  white-space: nowrap;
+  margin-bottom: 35px;
+  max-width: none;
+  height: 100px;
+
+}
+#kanye-picture {
+  width:40%;
+  text-align: center;
+  display: flex;
+  justify-content:flex-end;
+  align-items:center;
+  padding-top: 70px;
+}
+#kanye-picture img {
+  width: 75%;
+}
