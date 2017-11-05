@@ -6,3 +6,96 @@ Green: #00B172
 White: #FFF
 
 */
+
+/* general css */
+* {
+  font-family: 'Montserrat', sans-serif;
+  font-weight: 400;
+  font-size: 22px;
+  box-sizing: border-box;
+  padding: 0;
+  margin: 0;
+  /*border: 1px solid lightgrey;*/
+}
+
+a {
+  text-decoration: none;
+  color: #1A1A1A;
+}
+
+li {
+  list-style: none;
+}
+
+.menu-font-style {
+  font-size: 0.9em;
+  font-weight: 300;
+}
+
+.menu-font-style:hover {
+  color: #00B172;
+}
+
+/*navigation bar*/
+.nav-bar {
+  width: 100%;
+  height: 90px;
+  padding: 0 30px;
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+}
+
+.logo-container {
+  width: 200px;
+  height: 90px;
+}
+
+.logo-container img {
+  position: relative;
+  width: 200px;
+  height: auto;
+  padding: 13px 0;
+}
+
+.logo-container img:hover {
+  animation-name: bounce;
+  animation-duration: 0.5s;
+  animation-direction: alternate;
+  animation-iteration-count: infinite;
+  animation-timing-function: ease;
+}
+
+@keyframes bounce {
+  0% {
+    bottom: 0;
+    }
+  100% {
+    bottom: 17px;
+    }
+  }
+
+.nav-bar > ul {
+  height: 90px;
+}
+
+.nav-bar > ul > li {
+  display: inline-block;
+  margin: 28px 20px;
+}
+
+.slide-left-right:after {
+content: '';
+display: block;
+height: 4px;
+width: 0;
+background: transparent;
+transition: width .5s ease, border-color .5s ease;
+-webkit-transition: width .5s ease, border-color .5s ease;
+-moz-transition: width .5s ease, border-color .5s ease;
+}
+
+.slide-left-right:hover:after {
+width: 100%;
+background: #00B172;
+}
