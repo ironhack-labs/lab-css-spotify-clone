@@ -4,5 +4,100 @@ Colors:
 Text: 1A1A1A
 Green: #00B172
 White: #FFF
-
 */
+
+body{
+  font: 200 16px/1.5 "Proxima Nova", Helvetica, Arial, sans-serif;
+  margin: 0;
+}
+
+.header{
+  height: 50px
+  background-color: white;
+  float:left;
+  position:fixed;
+}
+ul{
+  list-style-type: none;
+}
+li{
+  display: inline;
+  margin-right: 15px;
+}
+.nav-list{
+  float:right;
+  margin-left:600px;
+
+}
+.clear{
+  clear: both;
+}
+.central-block{
+  background-size: cover;
+  background-position: center;
+  color: white;
+  background-image: url("/Users/antonellabriatore/lab-css-spotify-clone/starter-code/images/landing.jpg");
+  height: 600px;
+  margin-top: 0px;
+  margin-bottom: 35px;
+}
+.center-text{
+  text-align: center;
+  font-stretch: semi-condensed;
+  padding-top: 150px;
+  font-size: 40px;
+}
+.central-block > h1{
+  font-size: 20px;
+}
+.whats-on > h1{
+  margin-bottom: 40px;
+  text-align: center;
+  font-size: 30px;
+  margin-left: 35%;
+  margin-right:35%;
+  border-bottom: 3px #00B172 solid;
+}
+.whats-on > div{
+  float:left;
+  text-align: center;
+  width: 30%;
+  margin-left: 25px;
+}
+.wo-blocks > h1{
+  color:#00B172;
+}
+.yeezy{
+  background-color: #00B172;
+  color:#FFF;
+  background-image: url("/Users/antonellabriatore/lab-css-spotify-clone/starter-code/images/spotify-icon-white.png");
+  background-repeat: no-repeat;
+  background-position: center;
+  background-size:90px;
+  height: 500px;
+  margin-left: 20px;
+  margin-right: 20px;
+  padding-left: 80px;
+  padding-right: 80px;
+  padding-top: 60px;
+  position: relative;
+
+}
+.yeezy > h1{
+  font-weight: normal;
+  font-size: 25px;
+  border-bottom: 2px solid white;
+  width:335px;
+}
+.yeezy-text{
+  float:left;
+  position: relative;
+}
+.features{
+  width: 300px;
+  position: left;
+}
+.yeezy-image{
+  float: right;
+
+}
