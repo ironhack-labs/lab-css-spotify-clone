@@ -11,13 +11,15 @@ White: #FFF
 * {
   font-family: 'Roboto';
   margin: 0;
+
 }
 
 html {
 
 }
 body {
-  width: 70%;
+  width: 80%;
+  min-width: 500px;
   margin:auto;
 }
 /*Navbar*/
@@ -28,18 +30,24 @@ body {
 #nav {
   color:black;
   padding: 15px 0px 20px 15px;
-  width: 70%;
+  min-width: 500px;
+  width: 80%;
   margin: auto;
   box-sizing: border-box;
-  position: fixed;
   background-color: #fff;
+  position: fixed;
   z-index: 10;
+  display: flex;
+  justify-content: space-between;
+  flex-wrap: wrap;
+  flex-flow: row;
+  top: 0px;
 }
 #logo {
-  width: 25%;
+  width: 20%;
   min-width: 120px;
   margin-left: 30px;
-  position: relative;
+
 }
 #logo:hover{
   animation-name: logo-movimiento;
@@ -59,15 +67,17 @@ body {
   }
 }
 #divlogo {
-  width: 60%;
+  display: flex;
   align-items: center;
+  align-self: flex-start;
 }
 #navlinks {
-  width: 40%;
+  display: flex;
   justify-content: space-around;
   align-items: center;
   font-size: 1.4rem;
   font-weight: 300;
+  box-sizing: border-box;
 }
 #navlinks span {
   padding: 5px;
@@ -80,10 +90,12 @@ header {
   background-position: bottom;
   background-size: cover;
   height: 90vh;
-  width: 100%;
   flex-direction: column;
   align-items: center;
   justify-content: center;
+  padding: 10%;
+  margin-top:70px;
+
 }
 
 header span {
@@ -107,7 +119,7 @@ header :first-child {
 #title {
   position: relative;
   top: 40px;
-  width: 30%;
+  width: 100%;
   margin: auto;
 }
 #title > span {
@@ -120,8 +132,10 @@ header :first-child {
 /*Icons*/
 
 #icons {
+  display: flex;
   align-items:baseline;
   justify-content: space-around;
+  flex-wrap: wrap;
   height: auto;
   box-sizing: border-box;
   text-align: center;
@@ -131,13 +145,11 @@ header :first-child {
 height: 110px;
 }
 #icons div {
-  width: 33%;
   display: flex;
   flex-direction: column;
   align-items:center;
   justify-content: center;
   margin-top: 100px;
-  padding: 50px;
   box-sizing: border-box;
 }
 
