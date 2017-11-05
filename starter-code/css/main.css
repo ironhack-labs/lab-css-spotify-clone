@@ -6,3 +6,213 @@ Green: #00B172
 White: #FFF
 
 */
+body{
+    margin-left: 0;
+    margin-right: 0;
+    font-family: proxima_nova,"Helvetica Neue",Helvetica,Arial,sans-serif;
+}
+.top-section{
+    height: 75px;
+    margin-top: 13px;
+}
+.logo{
+
+    position: relative;
+    float: left;
+    width: 50%;
+}
+.logo:hover { 
+    animation: bounce;
+    animation-duration: 5s;
+}
+.logo img{
+    margin-left:6%;
+    margin-top: -1%;
+    width: 35%;
+}
+ul{
+    padding-left: 40%;
+}
+ul li{
+    display: inline-block;
+    padding-right: 6%;
+    font-size: 120%;
+    font-weight: 300;
+    vertical-align: middle;
+}
+.top-menu {
+    position: relative;
+    display: inline-block;
+    width: 50%;
+
+}
+.main-text{
+    background-image: url("../images/landing.jpg");
+    background-size: cover;
+    background-position: center center;
+    padding: 22% 18%;
+}
+.main-text h1,p{
+    color: white;
+    text-align: center;
+}
+
+.main-text h1{
+    font-size: 5em;
+}
+
+.main-text p{
+    font-size: 2em;
+    font-weight: lighter;
+    padding: center;
+}
+.info{
+    width: 22.7%;
+    font-size: 2em;
+    text-align: center;
+    padding: center;
+    padding-top: 3%;
+    margin: 0 auto;
+    border-bottom: 3px solid #00B172;
+
+}
+.main-features{
+    padding-top: 5%;
+
+}
+.main-features img{
+    width: 30%;
+}
+.main-features p{
+    color: black;
+    font-size: 140%;
+    padding-left: 7%;
+    padding-right: 7%;
+}
+
+.songs,.music,.streaming{
+    text-align: center;
+    padding: center;
+    width: 33%;
+    color: #00B172;
+    vertical-align: top;
+}
+
+
+.songs{
+    float: left;
+}
+.music{
+    padding-top: 1.3%;
+    float: left;
+}
+.streaming{
+    float: right;
+}
+.example{
+    float: left;
+    margin: 20px;
+    color: white;
+    width: 97%;
+    padding-top: 5%;
+    padding-bottom: 5%;
+    background: #00B172 url("../images/spotify-icon-white.png") no-repeat center;
+    background-size: 120px 120px;    
+}
+.example-left{
+    float: left;
+    margin-left: 4%;
+    width: 60%;
+}
+.example-text{
+    
+    float: left;
+    width: 30%;
+    padding-right: 5%;
+    padding-left: 5%;
+}
+.example-text p{
+
+    text-align: left;
+    font-size: 140%; 
+
+}
+.example-text p{
+    
+        text-align: left;
+        font-size: 130%;
+        margin-bottom: 9%; 
+    
+}
+.example-title h1{
+    border-bottom: 3px solid white;
+    font-size: 180%;
+    margin-bottom: 12%;
+}
+
+.example-left img{
+    width: 30%;
+}
+.example-logo{
+    padding-top: 25%;
+    width: 30%;
+    float: right;
+    margin:0;
+
+}
+.example-logo img{
+    height: 90%;
+}
+
+.example-left p{
+   text-align: left;
+   font-size: 210%;
+
+}
+.example-title{
+    width: 120%;
+    font-size: 120%;
+}
+
+.album{
+    float: right;
+    padding-top: 2%;
+    width: 30%;
+}
+.album img{
+    width: 80%;
+}
+
+@keyframes bounce {
+    0% {
+      transform:translateY(-100%);
+      opacity: 0;
+    }
+    15% {
+        transform:translateY(-100%);
+      opacity: 0;
+    }
+    30% {
+        transform:translateY(0);
+      padding-bottom: 5px;
+    }
+    45% {
+        transform:translateY(-50%);
+    }
+    60% {
+        transform:translateY(0%);
+      padding-bottom: 6px;
+    }
+    75% {
+        transform:translateY(-30%);
+    }
+    90% {
+        transform:translateY(0%);
+      padding-bottom: 7px;
+    }
+    100% {
+        transform:translateY(0%);
+      padding-bottom: 7px;
+    }
+
+  }
