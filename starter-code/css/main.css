@@ -1,13 +1,5 @@
-/*
-Colors:
-
-Text: 1A1A1A
-Green: #00B172
-White: #FFF
-
-*/
-
 /* general css */
+
 * {
   font-family: 'Montserrat', sans-serif;
   font-weight: 400;
@@ -15,7 +7,6 @@ White: #FFF
   box-sizing: border-box;
   padding: 0;
   margin: 0;
-  /*border: 1px solid lightgrey;*/
 }
 
 a {
@@ -27,16 +18,8 @@ li {
   list-style: none;
 }
 
-.menu-font-style {
-  font-size: 0.9em;
-  font-weight: 300;
-}
-
-.menu-font-style:hover {
-  color: #00B172;
-}
-
 /*navigation bar*/
+
 .nav-bar {
   width: 100%;
   height: 90px;
@@ -44,6 +27,15 @@ li {
   display: flex;
   flex-direction: row;
   justify-content: space-between;
+}
+
+.menu-font-style {
+  font-size: 0.9em;
+  font-weight: 300;
+}
+
+.menu-font-style:hover {
+  color: #00B172;
 }
 
 .logo-container {
@@ -69,33 +61,220 @@ li {
 @keyframes bounce {
   0% {
     bottom: 0;
-    }
+  }
   100% {
     bottom: 17px;
-    }
   }
+}
 
-.nav-bar > ul {
+.nav-bar>ul {
   height: 90px;
 }
 
-.nav-bar > ul > li {
+.nav-bar>ul>li {
   display: inline-block;
   margin: 28px 20px;
 }
 
 .slide-left-right:after {
-content: '';
-display: block;
-height: 4px;
-width: 0;
-background: transparent;
-transition: width .5s ease, border-color .5s ease;
--webkit-transition: width .5s ease, border-color .5s ease;
--moz-transition: width .5s ease, border-color .5s ease;
+  content: '';
+  display: block;
+  height: 4px;
+  width: 0;
+  background: transparent;
+  transition: width .5s ease, border-color .5s ease;
+  -webkit-transition: width .5s ease, border-color .5s ease;
+  -moz-transition: width .5s ease, border-color .5s ease;
 }
 
 .slide-left-right:hover:after {
-width: 100%;
-background: #00B172;
+  width: 100%;
+  background: #00B172;
+}
+
+/*header*/
+
+header {
+  width: 100%;
+  height: 800px;
+}
+
+.header-container {
+  width: 100%;
+  height: 800px;
+  color: white;
+  text-align: center;
+  padding-top: 300px;
+  background-image: url("../images/landing.jpg");
+  background-size: cover;
+}
+
+.header-container h1 {
+  font-size: 6vw;
+  font-weight: 400;
+  padding-bottom: 35px;
+  animation-name: appear;
+  animation-duration: 2s;
+  animation-iteration-count: 1;
+  animation-timing-function: ease-in;
+}
+
+.header-container p {
+  width: 55%;
+  margin: 0 auto;
+  font-weight: 300;
+  font-size: 2.1vw;
+  animation-name: appear;
+  animation-duration: 2s;
+  animation-iteration-count: 1;
+  animation-timing-function: ease-in;
+}
+
+@keyframes appear {
+  0% {
+    opacity: 0;
+  }
+  100% {
+    opacity: 1;
+  }
+}
+
+/*section below header*/
+
+.content-info {
+  width: 100%;
+  height: 450px;
+}
+
+.icon-container {
+  width: 100%;
+  margin-top: 25px;
+  display: flex;
+  flex-direction: row;
+  justify-content: space-around;
+  align-items: baseline;
+}
+
+.info-header h2 {
+  text-align: center;
+  font-size: 1.4em;
+  font-weight: 500;
+  padding: 45px 0 25px 0;
+  text-decoration: underline;
+  text-decoration-color: #00B172;
+  text-underline-position: under;
+}
+
+.icon-block {
+  width: 26%;
+  height: 300px;
+  display: inline-block;
+  vertical-align: top;
+  text-align: center;
+}
+
+.icon-block img {
+  width: 40%;
+  display: block;
+  margin: 10px auto;
+}
+
+.icon-block h4 {
+  color: #00B172;
+  font-weight: 600;
+  font-size: 1.1em;
+  padding: 10px 0;
+}
+
+.icon-block p {
+  color: black;
+  font-weight: 200;
+  font-size: 1em;
+  padding: 15px 0;
+}
+
+/*footer*/
+
+footer {
+  width: 100%;
+  height: 700px;
+}
+
+.footer-header, .footer-list {
+  padding-left: 75px;
+  width: 50%;
+  color: white;
+  display: inline-block;
+}
+
+.footer-list {
+  width: 35%;
+  height: 70%;
+  margin-bottom: 50px;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-around;
+}
+
+.footer-header {
+  padding-top: 70px;
+}
+
+.footer-header p {
+  display: inline-block;
+  padding-bottom: 10px;
+  font-size: 1.4em;
+  font-weight: 500;
+  border-bottom: 3px solid white;
+}
+
+.footer-list h5 {
+  font-weight: 500;
+  font-size: 1em;
+}
+
+.footer-list p {
+  font-weight: 200;
+  font-size: 0.9em;
+}
+
+.green-container {
+  width: 94%;
+  height: 94%;
+  margin: 30px auto;
+  background-color: #00B172;
+  position: relative;
+  display: flex;
+  flex-direction: column;
+  flex-wrap: wrap;
+  justify-content: space-between;
+}
+
+.white-icon-container {
+  width: 110px;
+  height: 110px;
+  top: 44%;
+  left: 47%;
+  position: absolute;
+}
+
+.white-icon-container img {
+  width: 100%;
+}
+
+.kanye-container {
+  margin: 0;
+  width: 40%;
+  margin-left: 115px;
+  margin-top: 50px;
+  margin-bottom: 40px;
+  height: 100%;
+  display: inline-block;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.kanye-container img {
+  width: 65%;
 }
