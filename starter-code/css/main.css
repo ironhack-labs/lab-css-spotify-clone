@@ -1,16 +1,15 @@
 /*
 Colors:
-
 Text: 1A1A1A
 Green: #00B172
 White: #FFF
-
 */
 
 body {
   margin: 0;
   padding: 0;
   font-family: 'Helvetica', 'Open Sans', sans-serif;
+  font-weight: 300;
   line.height: 1.5;
   background-color: white;
 }
@@ -19,8 +18,9 @@ nav {
   display: inline-block;
   top: 0;
   float: right;
-  padding: 15px 0 0 20px;
+  padding: -5px 0 0 20px;
   text-decoration: none;
+  margin: -2px;
 }
 
 nav ul li {
@@ -28,6 +28,12 @@ nav ul li {
   list-style: none;
   font-size: 16px;
   margin-right: 20px;
+}
+
+a:link {
+  text-decoration: none;
+  color: black;
+  font-weight: 200;
 }
 
 header {
@@ -60,6 +66,10 @@ header {
   }
 }
 
+.clear {
+  clear: both;
+}
+
 .section1 {
   padding: 250px;
   background: url(../images/landing.jpg);
@@ -68,6 +78,22 @@ header {
   background-size: 100%;
   font-size: 20px;
   color: white;
+}
+
+.section2 img {
+  width: 40%;
+}
+
+.iconsCenter {
+  display: flex;
+  flex-direction: row;
+  text-align: center;
+  padding: 35px;
+  margin: 35px;
+}
+
+h3 {
+  color: #00B172;
 }
 
 .sectionHeader {
@@ -79,40 +105,42 @@ header {
   width: 35%;
 }
 
-.section2icons {
-  display: inline-block;
-  text-align: center;
-}
-
-.musicIcon, .qualityIcon, .devices {
-  display: inline-block;
-  width: 33%;
-  margin-top: 30px;
-  text-align: center;
-}
-
-.section3 {
-  display: inline-block;
-  position: relative;
-  margin: 10%;
-  width: 90%;
+.footer {
   color: white;
   background: #00B172;
-}
-
-.section3left, .spotifygreen, .section3right {
-  width: 30%;
-  margin-right: 15%;
-  vertical-align: top;
   display: inline-block;
+  text-align: center;
+  margin-left: 12px;
+  margin-right: 52px;
 }
 
-.section3left {
+.textFooter {}
+
+.section3 {}
+
+.sec1 {
+  background-color: yellow;
   display: inline-block;
-  text-align: left;
-  padding: 30px;
+
 }
 
-.spotifygreen {
-  width: 30px;
+.sec2 {
+  background-color: red;
+  display: inline-block;
+
+}
+
+.sec3 {
+  background-color: blue;
+  display: inline-block;
+
+}
+
+.logoFooter {
+  width: 50px;
+  height: auto;
+}
+
+.iphoneMusic {
+
 }
