@@ -6,3 +6,133 @@ Green: #00B172
 White: #FFF
 
 */
+*{
+    margin: 0;
+}
+body{
+    font-family: sans-serif;    
+}
+.nav-bar{
+    width: 100%;
+    position: fixed;
+    background-color: #FFF;
+    height: 75px;
+    padding: 13px 31px;
+    box-sizing: border-box;
+}
+.spotify-logo{
+    width: 170px;
+    float: left;
+}
+
+.nav-bar ul{
+    list-style: none;
+    float: right;
+    padding: 15px 0;
+}
+.nav-bar li{
+    text-align: center;
+    margin-left: 10px;
+    display: inline-block;
+}
+.nav-bar li:first-child{
+    margin-left: 0;
+}
+/**/
+.main-info{
+    padding-top: 75px;
+    background-image: url("../images/landing.jpg");
+    background-size: cover;
+    color: #FFF;
+    text-align: center;
+}
+.main-title{
+    font-size: 80px; 
+    padding: 190px 0 45px;
+}
+.main-paragraph{
+    font-size: 32px;
+    font-family: inherit;
+    width: 800px;
+    margin: 0 auto;
+    padding-bottom: 285px;
+}
+/**/
+.second-info{
+    padding: 40px 0;
+    float: left;
+}
+.second-title{
+    font-size: 28px;
+    text-align: center;
+    border-bottom: 3px solid #00B172;
+    width: 255px;
+    margin: 0 auto;
+    margin-bottom: 76px;
+}
+.second-img{
+    width: 32%;
+}
+.second-subinfo{
+    float: left;
+    width: calc(90%/3);
+    text-align: center;
+    margin: 0 10px;
+    vertical-align: middle;
+    min-height: 163px;
+}
+.second-paragraph{
+    padding: 0 70px;
+}
+.second-subtitle{
+    color: #00B172;
+    padding: 18px 0;
+}
+/**/
+.third-info{
+    background: #00B172;
+    margin: 30px;
+    padding: 60px 75px;
+    color: #FFF;
+    float: left;
+}
+.third-img{
+    width: 260px;
+    float: left;
+
+}
+.third-container{
+    float: left;
+    width: 29%;
+}
+.third-subinfo{
+    width: 100%;
+}
+.third-img-logo{
+    width: 100px;
+    float: left;
+}
+.third-logo{
+    margin: 180px 108px;
+    float: left;
+}
+.third-title{
+    border-bottom: 1px solid #fff;
+    margin-bottom: 20px;
+    padding-bottom: 5px;
+    width: 50%;
+    font-size: 30px;
+}
+.third-subtitle{
+    margin: 20px 0;
+    font-size: 22px;
+}
+.third-paragraph{
+    line-height: 30px;
+    font-size: 18px;
+    padding-bottom: 10px;
+}
+/**/
+.clearfix{
+    clear: both;
+}
