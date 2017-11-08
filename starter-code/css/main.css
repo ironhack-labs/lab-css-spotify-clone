@@ -7,18 +7,24 @@ White: #FFF
 
 */
 
+body{
+    margin-top:0;
+   font-family: "Open Sans";
+
+}
+
 .container {
-    font-family: "arial";
     box-sizing: border-box;
     display: inline-block;
     width: 1200px;
 }
+
 header {
     position: fixed;
     background-color: #FFF;
-    padding: 5px, 0, 5px, 0;
-    height: 45px;
+    padding: 5px 0 5px 0;
     width: 1200px;
+    z-index:1;
 }
 .div-logo {
     display: inline-block;
@@ -29,26 +35,25 @@ header {
 }
 .logo-spotify {
     width: 100%;
-    height: 45px;
-    margin: auto;
-    padding: 15px 35px;
+
 }
+.div-logo{
+    position :relative;
+    animation: MyAnimation 5s infinite;
+}
+
 .logo-spotify:hover {
-    transition-property: all;
-    transition-duration: 5s;
-    transition-timing-function: linear;
-    transition-delay: 1s;
-    transform: rotate(33deg);
+
 }
-@keyframes logo-spotify:hover {
-  0% {top: 0%; left: 0%;}
-  30% {top: 50px;}
-  60% {left: 50px;}
-  100% {top: 100px; left: 100px;}
+
+@keyframes MyAnimation {
+    0%   {top: 0px;}
+    25%  {top: 200px;}
+    75%  {top: 50px}
+    100% {top: 100px;}
 }
+
 .nav-bar {
-    Width: 800px;
-    display: inline-block;
     float: right;
     background-color: #FFF;
 }
@@ -76,10 +81,10 @@ header {
     position: relative;
     top: 80px;
     height: 700px;
-    width: 1200px;
     margin: 5px 5px;
     background-image: url("../images/landing.jpg");
     background-size: 100%;
+    z-index:0;
 }
 .text-first-section {
     position: absolute;
@@ -90,14 +95,13 @@ header {
 }
 .title-background-image {
     font-size: 4em;
-    font-weight: 300;
+    font-weight: 700;
 }
 .text-background-image {
     font-size: 2em;
     font-weight: 300;
 }
 .second-section {
-    width: 1200px;
     height: 600px;
     position: relative;
     top: 100px;
@@ -138,13 +142,10 @@ header {
 .third-section {
     background-color: #00B172;
     color: white;
-    width: 1200px;
-    height: 850px;
     margin: 5px 5px;
     clear: both;
 }
 .third-section-texts {
-    float: left;
     position: relative;
 }
 .third-section-title {
@@ -165,16 +166,14 @@ header {
     font-weight: lighter;
 }
 .spotify-app-image {
-    width: 15%;
-    float: right;
+    width: 20%;
     position: absolute;
-    top: 1420px;
-    left: 730px;
-    margin: 50px 50px;
+    top: 156px;
+    left: 800px;
 }
 .spotify-icon-white {
     position: absolute;
     width: 6%;
-    top: 1720px;
+    top: 250px;
     left: 550px;
 }
