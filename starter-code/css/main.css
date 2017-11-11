@@ -6,3 +6,162 @@ Green: #00B172
 White: #FFF
 
 */
+
+body {
+  background-color: #FFF;
+  color: #1A1A1A;
+  font-family: 'Roboto', sans-serif;
+  margin: 0;
+}
+
+/* NAV */
+
+nav {
+  background-color: white;
+  height: 75px;
+  padding-top: 10px;
+  position: fixed;
+  top: 0;
+  width: 100%;
+}
+
+nav img {
+  box-sizing: border-box;
+  height: 65px;
+  padding: 10px 35px;
+}
+
+nav ul {
+  box-sizing: border-box;
+  float: right;
+  padding: 10px 35px;
+}
+
+nav li {
+  display: inline-block;
+  font-size: 14pt;
+  padding-right: 20px;
+}
+
+/* HEADER */
+
+header {
+  background: url("../images/landing.jpg");
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+  height: 700px;
+}
+
+.container-header {
+  align-content: center;
+  color: #FFF;
+  display: flex;
+  flex-direction: column;
+  height: 700px;
+  justify-content: center;
+  position: relative;
+  text-align:center;
+}
+
+header h1{
+  font-size: 70px;
+  font-weight: 500;
+}
+
+header p{
+  font-size: 30px;
+  font-weight: 300;
+  padding: 0 22%;
+}
+
+/* WHITE BOX */
+
+.white-box {
+  margin: 0px 50px;
+  padding-top: 24px;
+}
+
+.h1-line {
+  font-size: 35px;
+  font-weight: 500;
+  text-align:center;
+  text-decoration: underline #00B172;
+}
+
+.white-box-global{
+  align-items: flex-start;
+  flex-direction: row;
+  flex-direction: nowrap;
+  justify-content: space-around;
+  padding: 0 10%;
+}
+
+.white-box-individual {
+  display: inline-grid;
+  flex-direction: column;
+  padding: 20px 10px;
+  text-align:center;
+  width: 30%;
+}
+
+.white-box-individual h2{
+  color: #00B172;
+  font-size: 30px;
+  font-weight: bolder;
+}
+
+.white-box-individual img{
+  height: 85px;
+}
+
+.white-box-individual p{
+  font-size: 25px;
+  font-weight: 300;
+}
+
+/* GREEN BOX */
+
+.green-box {
+  align-content: space-between;
+  align-items: center;
+  background: #00B172 url("../images/spotify-icon-white.png");
+  background-position: 50%;
+  background-repeat: no-repeat;
+  background-size: 100px;
+  color: #FFF;
+  flex-direction: row;
+  justify-content: space-around;
+  margin: 0 35px 35px 35px;
+  padding: 5% 10%;
+}
+
+.green-box h1{
+  font-size: 35px;
+  font-weight: 500;
+  text-decoration: underline;
+}
+
+.green-box h2{
+  font-size: 30px;
+  font-weight: bolder;
+}
+
+.green-box p{
+  font-size: 25px;
+  font-weight: 300;
+}
+
+.green-box-individual {
+  display: inline-block;
+  width: 450px;
+}
+
+.green-box img {
+  float: right;
+  width: 300px;
+}
+
+/* Download */
+
+@import url('https://fonts.googleapis.com/css?family=Roboto');
