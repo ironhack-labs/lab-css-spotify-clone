@@ -1,0 +1,279 @@
+/*
+Colors:
+
+Text: 1A1A1A
+Green: #00B172
+White: #FFF
+
+*/
+
+html{
+  box-sizing: border-box;
+  -webkit-box-sizing: border-box;
+  -moz-box-sizing: border-box;
+  font-family: "Montserrat", sans-serif;
+}
+
+/*
+div{
+  border: 1px solid black;
+}
+*/
+
+*:before, *, *:after {
+  box-sizing: inherit;
+  -webkit-box-sizing: inherit;
+  -moz-box-sizing: inherit;
+}
+
+
+.firstpage{
+  width: 100%;
+  height: 1000px;
+  background-image: url("images/landing.jpg");
+  background-repeat: no-repeat;
+  background-size: contain;
+
+}
+
+.brand{
+  height: 57px;
+  position: fixed;
+}
+
+.navigation{
+  height: 85px;
+  width: 100%;
+  padding: 16px;
+  background-color: white;
+  position: fixed;
+  top: 0;
+  z-index:10;
+}
+
+.menu{
+
+  font-family: "Montserrat", sans-serif;
+  color: #272727;
+  font-size: 1.1em;
+  text-decoration: none;
+}
+
+.menu-items{
+  position: fixed;
+  left: 48%;
+  top: 16px;
+  width: 590px;
+  height: 37px;
+  margin: 0;
+  padding:0;
+  display: inline;
+
+
+}
+
+.menu ul{
+  text-decoration: none;
+  margin-right: 10px;
+  margin-left: 10px;
+
+}
+
+.menu-items ul li{
+  list-style: none;
+  display: inline;
+  float: right;
+  margin-left: 20px;
+  margin-right: 20px;
+
+
+}
+
+.supertitulo{
+  color: white;
+  font-size: 4em;
+  font-weight: 300;
+  justify-content: center;
+  text-align: center;
+}
+
+.text-on-the-first-page{
+  font-family: "Montserrat", sans-serif;
+  color: white;
+  font-size: 1.8em;
+  font-weight: 100;
+  justify-content: center;
+  text-align: center;
+}
+
+
+.supertitulo , .text-on-the-first-page{
+  position: relative;
+  top: 170px;
+}
+
+
+.second-page{
+  background-color: white;
+  width: 100%;
+  height: 450px;
+}
+
+.big-title-second-page{
+  justify-content: center;
+  text-align: center;
+  position: relative;
+  margin: 0 auto;
+  bottom: 78px;
+  border-bottom: 5px solid #12B273;
+  display: block;
+  width: 319px;
+  padding-bottom: 0px;
+  height: 50px;
+}
+
+
+.millions-of-songs{
+  float: left;
+  display: block;
+  position: relative;
+  left: 10%;
+  width: 282px;
+
+}
+
+.speaker{
+  margin: 0 auto;
+  width: 103px;
+  justify-content: center;
+  text-align: center;
+  position: relative;
+  left: 78px;
+}
+
+.second-page-h1{
+  color: #12B273;
+  justify-content: center;
+  text-align: center;
+}
+
+.p-second-page{
+  font-weight:100;
+  font-size: 1.5em;
+  justify-content: center;
+  text-align: center;
+
+}
+
+.hd-music{
+  display: block;
+  position: relative;
+  margin: 0 auto;
+  justify-content: center;
+  text-align: center;
+  width: 282px;
+
+}
+
+.high-quality-icon{
+  margin: 0 auto;
+  width: 103px;
+  justify-content: center;
+  text-align: center;
+  position: relative;
+
+}
+
+.stream-everywhere{
+  float: right;
+  display: block;
+  position: relative;
+  right: 10%;
+  width: 329px;
+  position: relative;
+  bottom: 252px;
+
+}
+.devices-icon{
+  margin: 0 auto;
+  width: 103px;
+  justify-content: center;
+  text-align: center;
+  position: relative;
+  left: 78px;
+}
+
+.third-page{
+  width: 100%;
+  height: 780px;
+  background-color:#12B273;
+  color: white;
+}
+
+.left-float{
+  float:left;
+  display: block;
+  width: 50%;
+  position: relative;
+  top: 138px;
+  left: 110px;
+}
+
+.search , .browse , .discover{
+  display: block;
+
+}
+
+.h1-third-page{
+  font-weight: 500;
+  margin-bottom: 30px;
+}
+
+.p-third-page{
+  font-weight: 100;
+  font-size: 1.2em;
+  margin-bottom: 39px;
+}
+}
+
+.white-logo{
+  width: 100px;
+  margin: 0 auto;
+  justify-content: center;
+  text-align: center;
+
+}
+
+.cool-title{
+  position: relative;
+
+}
+
+.supertitulo-third-page{
+  border-bottom: 5px solid white;
+  width: 447px;
+  font-weight: 300;
+  padding-bottom: 11px;
+}
+
+.spotify-app{
+  width: 337px;
+  float: right;
+  position: absolute;
+  right: 8%;
+  top: 1644px;
+
+}
+
+.white-logo{
+  margin: 0 auto;
+  justify-content: center;
+  text-align: center;
+  display: block;
+  clear:both;
+  display: block;
+  position: absolute;
+  left: 50%;
+  top: 240%;
+  width: 110px;
+}
