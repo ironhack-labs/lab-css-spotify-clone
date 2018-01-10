@@ -39,6 +39,7 @@ h4{
 p{
   font-size: 24px;
   font-weight: 100;
+  line-height: 34px;
 }
 .topbar{
   box-sizing: border-box;
@@ -52,9 +53,6 @@ p{
 .logo{
   height: 60px;
   float: left;
-}
-.top-nav{
-  float: right;
 }
 .top-nav a{
   display: inline-block;
@@ -90,7 +88,7 @@ header .header-text{
 
 .section1{
   text-align: center;
-  margin-bottom: 80px;
+  margin-bottom: 40px;
 }
 
 .section-title{
@@ -117,6 +115,30 @@ header .header-text{
   height: 100px;
 }
 
+.section2{
+  box-sizing: border-box;
+  background-color: #00B172;
+  border: 40px solid #fff;
+  padding: 30px 100px 50px 100px;
+  color: #fff;
+  background-image: url(../images/spotify-icon-white.png);
+  background-repeat: no-repeat;
+  background-position: 50% 50%;
+  background-size: 140px;
+}
+
+.section2 .pull-left{
+  width: 480px;
+}
+
+.section2 p{
+  width: 360px;
+}
+
+.section2 img{
+  width: 330px;
+  margin-top: 90px;
+}
 
 .col{
   box-sizing: border-box;
@@ -133,4 +155,12 @@ header .header-text{
 
 .clearfix{
   clear: both;
+}
+
+.pull-left{
+  float: left;
+}
+
+.pull-right{
+  float: right;
 }
