@@ -1,8 +1,176 @@
 /*
 Colors:
 
-Text: 1A1A1A
+Text: #1A1A1A
 Green: #00B172
 White: #FFF
 
 */
+@import url("https://fonts.googleapis.com/css?family=Montserrat");
+
+body {
+  font-family: "Montserrat", sans-serif;
+}
+
+main {
+  width: 1350px;
+  margin: 0 auto;
+}
+
+/* secion 1 */
+
+.section1 {
+  height: 100px;
+  display: flex;
+  justify-content: space-between;
+  margin-bottom: 10px;
+}
+
+@keyframes mybouncein {
+  0% {
+    margin-top: 0px;
+  }
+  100% {
+    margin-top: 30px;
+  }
+}
+
+.logo {
+  width: 300px;
+  align-self: center;
+  margin-left: 30px;
+}
+
+.logo:hover {
+  animation-name: mybouncein;
+  animation-duration: 1s;
+  animation-iteration-count: infinite;
+  animation-direction: alternate;
+}
+
+.nav-bar {
+  list-style: none;
+  align-self: center;
+}
+
+.nav-bar > li {
+  display: inline;
+  font-size: 1.5em;
+  margin-right: 30px;
+}
+
+.nav-bar > li > a {
+  text-decoration: none;
+  color: #1a1a1a;
+}
+
+/* section 2 */
+.section2 {
+  background-image: url("../images/landing.jpg");
+  background-size: 100% 700px;
+  background-repeat: no-repeat;
+  background-position: contain;
+  height: 550px;
+  width: 100%;
+  position: relative;
+  padding-top: 200px;
+}
+.section2 h1 {
+  /* position: absoltute; */
+  color: #fff;
+  font-size: 5em;
+  text-align: center;
+  margin-top: 0;
+  margin-bottom: 0;
+}
+.section2 p {
+  color: #fff;
+  text-align: center;
+  font-size: 2em;
+}
+
+/* section 3 */
+.section3 {
+  text-align: center;
+}
+.section3 img {
+  width: 120px;
+  height: 100px;
+}
+
+.section3-bis {
+  display: flex;
+  justify-content: space-around;
+  margin-top: 50px;
+}
+
+.section3 > p {
+  display: inline-block;
+  margin: 0 auto;
+  font-size: 2em;
+  margin-top: 0;
+  /* text-decoration: underline; */
+  border-bottom: 3px solid #00b172;
+  /* text-decoration-color: #00b172; */
+  font-weight: bold;
+}
+
+.songs,
+.music,
+.stream {
+  width: 25%;
+  text-align: center;
+  font-size: 1.5em;
+}
+
+.subtitle {
+  font-weight: bold;
+  color: #00b172;
+  font-size: 1.1em;
+}
+
+/* section 4 */
+
+.section4 {
+  display: flex;
+  justify-content: space-between;
+  background-color: #00b172;
+  padding: 80px;
+  margin: 40px;
+}
+
+.little-logo {
+  height: 130px;
+  position: absolute;
+  margin-top: 200px;
+  margin-left: 500px;
+}
+
+.kanye {
+  width: 300px;
+  height: 500px;
+  align-self: center;
+}
+
+.text {
+  color: #fff;
+  font-size: 1.4em;
+  width: 500px;
+}
+
+.text .bold {
+  font-weight: bolder;
+  font-size: 1.2em;
+}
+
+.text .underline {
+  font-size: 1.6em;
+  font-weight: bold;
+  margin-top: 0;
+  margin-right: 16px;
+  border-bottom: 3px solid #fff;
+}
+
+.text .desc {
+  margin-right: 125px;
+}
