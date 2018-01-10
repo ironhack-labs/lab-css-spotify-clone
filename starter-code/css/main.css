@@ -1,16 +1,14 @@
-/*
-Colors:
-Text: 1A1A1A
-Green: #00B172
-White: #FFF
-*/
 body {
     margin: 0 auto;
     color: #1a1a1a;
     font-family: 'Open Sans', Helvetica, sans-serif;
 }
-.clear{
+.clear {
     clear: both;
+}
+a {
+    text-decoration: none;
+    color: inherit;
 }
 /*---NAV BAR---*/
 .nav-bar {
@@ -22,6 +20,7 @@ body {
     background: #fff;
     font-size: 20px;
     z-index: 10;
+    border-bottom: 1px solid #00B172;
 }
 .nav-bar img {
     height: 60px;
@@ -36,9 +35,13 @@ body {
 .nav-menu li {
     display: inline-block;
     margin-right: 25px;
+    line-height: 60px;
 }
 .nav-menu li:last-child {
     margin-right: 0;
+}
+.nav-menu a:hover {
+    color: #00B172;
 }
 /* --- COVER --- */
 .cover {
@@ -92,10 +95,11 @@ body {
 .green-section {
     margin: 20px;
     background: #00B172;
-    /* height: 400px; */
+    color: #fff;
+    position: relative
 }
 .green-floating-img {
-    position: relative;
+    position: absolute;
     float: left;
     top: 50%;
     left: 50%;
@@ -105,6 +109,8 @@ body {
 .green-text {
     width: 50%;
     float: left;
+    padding: 50px;
+    box-sizing: border-box;
 }
 .green-img {
     width: 50%;
@@ -116,8 +122,13 @@ body {
     width: 350px;
 }
 .green-title {
-
+    font-size: 26px;
+    padding-bottom: 10px;
+    margin-bottom: 50px;
+    display: inline-block;
+    border-bottom: 5px solid #fff;
 }
 .green-subtitle {
-
+    font-size: 24px;
+    font-weight: bold; 
 }
