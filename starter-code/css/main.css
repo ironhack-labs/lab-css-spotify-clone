@@ -1,3 +1,7 @@
+
+div, nav{
+    border: 1px solid red;
+}
 /*
 Colors:
 
@@ -6,3 +10,163 @@ Green: #00B172
 White: #FFF
 
 */
+
+/* --------------- reset --------------- */
+
+html {
+    box-sizing: border-box;
+  }
+  *, *:before, *:after {
+    box-sizing: inherit;
+  }
+
+/* --------------- layout --------------- */
+
+body{
+
+}
+#nav-bar{
+    width: 100%;
+    overflow: auto;
+    position: fixed;
+    top:0;
+    left: 0;
+    background-color: white;
+    z-index: 1000;
+}
+.banner{
+    width: 100%;
+    margin-bottom: 10px;
+}
+.whatson{
+    width: 100%;
+}
+.icons{
+    width: 100%;
+    padding: 100px;
+    display: flex;
+    justify-content: center;
+    margin-bottom: 10px;
+}
+.icons div{
+    width: 400px;
+    margin: 0 40px 0 40px;
+    text-align: center;
+}
+.green{
+    width: 95%;
+    margin-left: 2.5%;
+    background-color: #00B172;
+    overflow: auto;
+    padding: 8%;
+    background-image: url(../images/spotify-icon-white.png);
+    background-repeat: no-repeat;
+    background-size: 10%;
+    background-position: center;
+}
+
+/* --------------- typography --------------- */
+
+.banner h2{
+    width: 100%;
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    text-align: center;
+    color: white;
+    font-family: 'Montserrat', sans-serif;
+    font-size: 100px;
+}
+.banner p{
+    width: 50%;
+    position: absolute;
+    top: 70%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    text-align: center;
+    color: white;
+    font-family: 'Montserrat', sans-serif;
+    font-size: 35px;
+}
+.whatson h2{
+    text-align: center;
+    font-family: 'Montserrat', sans-serif;
+    font-size: 35px;
+}
+.icons h3{
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 30px;
+    font-weight: bolder;
+    color: #00B172;
+}
+.icons p{
+    font-family: 'Montserrat', sans-serif;
+    font-size: 24px;
+}
+.green h2{
+    font-family: 'Montserrat', sans-serif;
+    font-size: 50px;
+    color: white;
+    width: 800px;
+}
+.green hr{
+    border: 2px solid white;
+    width: 700px;
+    margin-left: 0;
+    margin-top: -30px;
+}
+.green h3{
+    font-family: 'Montserrat', sans-serif;
+    font-size: 40px;
+    color: white;
+    padding: 2% 0 0 0;
+}
+.green p{
+    font-family: 'Montserrat', sans-serif;
+    font-size: 22px;
+    color: white;
+}
+
+/* --------------- components --------------- */
+
+
+#nav-bar img{
+    float: left;
+    width: 330px;
+    padding: 20px 10px 20px 40px;
+}
+#nav-bar ul{
+    float: right;
+}
+#nav-bar ul li{
+    display: inline-block;
+    padding: 30px 40px 10px 10px;
+    font-family: 'Montserrat', sans-serif;
+    font-size: 24px
+}
+.banner img{
+    width: 100%;
+}
+.whatson hr{
+    width: 320px;
+    color:#00B172;
+    border: 2px #00B172 solid;
+    margin-top: -25px;
+}
+.icons img{
+    width: 150px;
+}
+.hd img{
+    margin-top: 15px;
+}
+.left-ct{
+    float: left;
+    margin-top: -100px;
+}
+.right-ct{
+    float: right;
+}
+.right-ct img{
+    width: 380px;
+}
