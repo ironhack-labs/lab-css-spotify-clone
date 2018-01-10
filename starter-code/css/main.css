@@ -1,8 +1,123 @@
 /*
 Colors:
-
 Text: 1A1A1A
 Green: #00B172
 White: #FFF
-
 */
+body {
+    margin: 0 auto;
+    color: #1a1a1a;
+    font-family: 'Open Sans', Helvetica, sans-serif;
+}
+.clear{
+    clear: both;
+}
+/*---NAV BAR---*/
+.nav-bar {
+    position: fixed;
+    top: 0;
+    width: 100%;   
+    padding: 15px 40px;
+    box-sizing: border-box;
+    background: #fff;
+    font-size: 20px;
+    z-index: 10;
+}
+.nav-bar img {
+    height: 60px;
+    float: left;
+}
+.nav-menu {
+    list-style: none;
+    padding: 0px;
+    margin: 0px;
+    float: right;
+}
+.nav-menu li {
+    display: inline-block;
+    margin-right: 25px;
+}
+.nav-menu li:last-child {
+    margin-right: 0;
+}
+/* --- COVER --- */
+.cover {
+    height: 100vh;
+    color: #fff;
+    background: url(../images/landing.jpg);
+    background-size: cover;
+}
+.cover div{
+    position: relative;
+    float: left;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    text-align: center;
+}
+.cover h1 {
+    margin: 0;
+    margin-bottom: 50px;
+    font-size: 78px;
+    font-weight: bold;
+}
+.cover h3{
+    margin: 0;
+    font-size: 28px;
+    font-weight: normal;
+}
+/* --- whats on SPOTIFY --- */
+.whats-on {
+    text-align: center;
+    padding: 60px;
+}
+.whats-on span {
+    font-size: 36px;
+    border-bottom: 5px solid #00B172;
+}
+.column-3 {
+    width: 33%;
+    display: inline-block;
+    vertical-align: middle;
+    margin-top: 40px;
+}
+.column-3 img {
+    width: 150px;
+}
+.column-3 h4 {
+    color: #00B172;
+    font-size: 24px;
+}
+/* --- GREEN SECTION --- */
+.green-section {
+    margin: 20px;
+    background: #00B172;
+    /* height: 400px; */
+}
+.green-floating-img {
+    position: relative;
+    float: left;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    width: 100px;
+}
+.green-text {
+    width: 50%;
+    float: left;
+}
+.green-img {
+    width: 50%;
+    float: right;
+    padding: 50px 0;
+    text-align: center;
+}
+.green-img img {
+    width: 350px;
+}
+.green-title {
+
+}
+.green-subtitle {
+
+}
