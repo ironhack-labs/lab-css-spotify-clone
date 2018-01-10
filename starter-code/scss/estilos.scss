@@ -1,0 +1,94 @@
+/* para compilar a css y minificar:
+sass --watch scss:css --style compressed
+en el directorio del proyecto*/
+
+@import 'reset';
+@import 'helpers';
+
+/*
+Colors:
+
+Text: 1A1A1A
+Green: #00B172
+White: #FFF
+
+*/
+
+$text-color:#1A1A1A;
+$green:#00B172;
+body {
+    font-family: 'Muli', sans-serif;
+    font-size: 18px;
+}
+a {
+    text-decoration: none;
+}
+.header {
+    background: white;
+    padding: 10px 20px;
+    height: 70px;
+    .header-brand {
+        float: left;
+        width: 200px;
+    }
+    .main-nav {
+        float: right;
+        font-size: 1.3em;
+        font-weight: 300;
+        ul {
+            line-height: 69px;
+            a {
+                color: $text-color;
+                transition: color .2s ease-in-out;
+                &:hover {
+                    color: $green;
+                }
+            }
+        }
+    }
+}
+
+main {
+    section {
+        padding: 75px 0;
+        &.hero {
+            background: url(../images/landing.jpg);
+            height: calc(100vh - 70px);
+            display: table;
+            width: 100%;
+            background-size: cover;
+            background-repeat: no-repeat;
+            .hero-wrapper {
+                color: white;
+                display: table-cell;
+                text-align: center;
+                vertical-align: middle;
+                h1 {
+                    font-size: 1.9em;
+                    font-weight: 200;
+                    width: 800px;
+                    margin: 40px auto 0;
+                    max-width: 100%;
+                    line-height: 1.4;
+                }
+                h2 {
+                    font-size: 5em;
+                    font-weight: 600;
+                }
+            }
+        }
+        &.features {
+            .section-header {
+                text-align: center;
+                h2 {
+                    border-bottom: 4px solid $green;
+                    font-size: 2.5em;
+                    font-weight: 600;
+                    display: inline-block;
+                    padding-bottom:10px; 
+                }
+            }
+            
+        }
+    }
+}
