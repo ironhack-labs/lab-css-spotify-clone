@@ -6,3 +6,211 @@ Green: #00B172
 White: #FFF
 
 */
+/* ---- reset ---- */
+
+html {
+    box-sizing: border-box;
+  }
+  *, *:before, *:after {
+    box-sizing: inherit;
+  }
+  
+  
+  
+  
+  /* ---- typography ---- */
+  
+body {
+    color: 1A1A1A;
+    font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif
+}
+
+.navigation a {
+    text-decoration: none;
+    color: 1A1A1A;
+    font-size: 22px;
+    font-weight: 300;
+}
+
+.welcome {
+    color: white;
+}
+
+.welcome>h1 {
+    font-size: 75px;
+    font-weight: 550;
+}
+
+.welcome>p {
+    font-size: 28px;
+    font-weight: 250;
+}
+
+.what {
+    font-size: 22px;
+    font-weight: 100;
+}
+
+.definition h3 {
+    color: #00B172;
+    font-size: 30px;
+}
+
+.definition p {
+    font-size: 25px;
+}
+
+.yeezy {
+    color: white;
+}
+
+.yeezy h2 {
+    font-size: 35px;
+    font-weight: 500;
+}
+
+.yeezy h3 {
+    font-size: 30px;
+    font-weight: 400;
+}
+
+.yeezy p {
+    font-size: 20px;
+    font-weight: 100;
+}
+  
+    /* ---- layout ---- */
+
+.site-nav>img {
+    float: left;
+    margin: 20px 20px;
+}
+
+.site-nav>nav {
+    float: right;
+    padding: 20px 20px;
+}
+
+.welcome {
+    clear: both;
+    height: 900px;
+}
+
+.welcome>h1,
+.welcome>p {
+    text-align: center;
+}
+
+.definition {
+    text-align: center;
+    padding-bottom: 400px;
+}
+
+.million, 
+.hd {
+    margin-left: 100px;
+    margin-right: 100px;
+}
+
+.stream {
+    margin-right: 100px;
+}
+
+.what {
+    padding: 30px 0;
+}
+
+.million {
+    float: left;
+}
+
+.hd {
+    float: left;
+}
+
+.stream {
+    float: right;
+}
+
+.kanye {
+    clear: both;
+    margin: auto 20px;
+    height: 750px;
+}
+
+.yeezy {
+    margin: 70px 100px;
+    float: left;
+    
+}
+
+.yeezy p,
+.yeezy h3 {
+    margin: 40px 0;
+}
+
+.screenshot {
+    float: right;
+    margin-top: 100px;
+    margin-right: 100px;
+}
+  
+  /* ---- components ---- */
+
+.spo-logo {
+    height: 60px;
+}
+
+.navigation>ul {
+    list-style: none;
+    overflow: hidden;
+}
+
+.navigation li {
+    float: left;
+    padding-right: 40px;
+}
+  
+.welcome {
+    background-image: url('../images/landing.jpg');
+    background-size: cover;
+    background-position: center;
+}
+
+.welcome>h1 {
+    padding-top:270px;
+}
+
+.definition img {
+    height: 100px;
+}
+
+.definition h2 {
+    text-decoration: underline;
+    text-decoration-color: #00B172;
+}
+
+.kanye {
+    background-color: #00B172;
+    background-image: url('../images/spotify-icon-white.png');
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: 150px;
+}
+
+.kanye img {
+    height: 600px;
+}
+
+.yeezy h2 {
+    text-decoration: underline;
+    text-decoration-color: white;
+}
+
+/* img {
+    height: 20px;
+}
+
+/*div {
+    border: solid 1px red;
+}
