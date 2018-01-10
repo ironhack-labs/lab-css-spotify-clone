@@ -38,6 +38,11 @@ a {
     .header-brand {
         float: left;
         width: 200px;
+        img {
+            &:hover {
+                animation: shake 0.8s ease-out;
+            }
+        }
     }
     .main-nav {
         float: right;
@@ -65,7 +70,7 @@ main {
         }
         &.hero {
             background: url(../images/landing.jpg);
-            height: calc(80vh - 70px);
+            height: calc(90vh - 70px);
             display: table;
             width: 100%;
             background-size: cover;
@@ -168,6 +173,12 @@ main {
                 left: 50%;
                 margin-top: -75px;
                 margin-left: -75px;
+                animation: none;
+            }
+            &:hover {
+                &::after {
+                    animation: shake 0.5s ease-out;
+                }
             }
         }
         &:not(:last-child) {
