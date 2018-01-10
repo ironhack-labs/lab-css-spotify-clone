@@ -1,0 +1,191 @@
+/* para compilar a css y minificar:
+sass --watch scss:css --style compressed
+en el directorio del proyecto*/
+
+@import 'reset';
+@import 'helpers';
+
+/*
+Colors:
+
+Text: 1A1A1A
+Green: #00B172
+White: #FFF
+
+*/
+
+$text-color:#1A1A1A;
+$green:#00B172;
+body {
+    font-family: 'Muli', sans-serif;
+    font-size: 18px;
+}
+
+a {
+    text-decoration: none;
+}
+
+.header {
+    position: fixed;
+    width: 100%;
+    background: white;
+    padding: 15px 40px 0;
+    height: 90px;
+    box-sizing: border-box;
+    -webkit-box-shadow: 0px -4px 16px 1px rgba(0,0,0,0.2);
+    -moz-box-shadow: 0px -4px 16px 1px rgba(0,0,0,0.2);
+    box-shadow: 0px -4px 16px 1px rgba(0,0,0,0.2);
+    .header-brand {
+        float: left;
+        width: 200px;
+        img {
+            &:hover {
+                animation: shake 0.8s ease-out;
+            }
+        }
+    }
+    .main-nav {
+        float: right;
+        font-size: 1.3em;
+        font-weight: 300;
+        ul {
+            line-height: 69px;
+            a {
+                color: $text-color;
+                transition: color .2s ease-in-out;
+                &:hover {
+                    color: $green;
+                }
+            }
+        }
+    }
+}
+
+main {
+    section {
+        .content-wrapper {
+            width: 1200px;
+            max-width: 100%;
+            margin: 0 auto;
+        }
+        &.hero {
+            background: url(../images/landing.jpg);
+            height: calc(90vh - 70px);
+            display: table;
+            width: 100%;
+            background-size: cover;
+            background-repeat: no-repeat;
+            .hero-wrapper {
+                color: white;
+                display: table-cell;
+                text-align: center;
+                vertical-align: middle;
+                h1 {
+                    font-size: 1.9em;
+                    font-weight: 200;
+                    width: 800px;
+                    margin: 40px auto 0;
+                    max-width: 100%;
+                    line-height: 1.4;
+                }
+                h2 {
+                    font-size: 5em;
+                    font-weight: 600;
+                }
+            }
+        }
+        &.features {
+            .section-header {
+                text-align: center;
+                h2 {
+                    border-bottom: 4px solid $green;
+                    font-size: 2.5em;
+                    font-weight: 800;
+                    display: inline-block;
+                    padding-bottom: 10px;
+                }
+            }
+            .column-wrapper {
+                margin-top: 125px;
+                text-align: center;
+                h3 {
+                    color: $green;
+                    font-weight: 800;
+                    font-size: 1.8em;
+                }
+                p {
+                    font-weight: 200;
+                    font-size: 1.3em;
+                    line-height: 1.4;
+                    width: 275px;
+                    margin: 30px auto 0;
+                    max-width: 100%;
+                }
+                .img-icon {
+                    width: auto;
+                    margin-bottom: 30px;
+                    height: 100px;
+                }
+            }
+        }
+        &.player {
+            position: relative;
+            .green-box {
+                background: $green;
+                margin: 0 50px;
+                color: white;
+                h2 {
+                    font-size: 2em;
+                    font-weight: 800;
+                    display: inline-block;
+                    border-bottom: 4px solid white;
+                    padding-bottom: 10px;
+                    margin-bottom: 10px;
+                }
+                h3 {
+                    font-size: 1.6em;
+                    font-weight: 800;
+                    letter-spacing: 2px;
+                    margin: 35px 0;
+                }
+                p {
+                    font-size: 1.3em;
+                    font-weight: 200;
+                    line-height: 1.4;
+                    width: 360px;
+                    max-width: 100%;
+                }
+                .column-wrapper {
+                    padding: 100px 0;
+                }
+                img {
+                    width: 350px;
+                }
+            }
+            &::after {
+                content: '';
+                height: 150px;
+                width: 150px;
+                background: url(../images/spotify-icon-white.png);
+                background-size: contain;
+                position: absolute;
+                top: 50%;
+                left: 50%;
+                margin-top: -75px;
+                margin-left: -75px;
+                animation: none;
+            }
+            &:hover {
+                &::after {
+                    animation: shake 0.5s ease-out;
+                }
+            }
+        }
+        &:not(:last-child) {
+            padding: 75px 0;
+        }
+        &:last-child {
+            padding-bottom: 50px;
+        }
+    }
+}
