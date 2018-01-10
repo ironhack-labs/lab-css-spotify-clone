@@ -1,3 +1,7 @@
+div, ul, img {
+    border: 1px solid red;
+}
+
 /*
 Colors:
 
@@ -6,3 +10,87 @@ Green: #00B172
 White: #FFF
 
 */
+
+/* ---- reset ---- */
+
+html {
+    box-sizing: border-box;
+  }
+  *, *:before, *:after {
+    box-sizing: inherit;
+  }
+  
+  
+  
+  
+  /* ---- typography ---- */
+  
+  body {
+      font-family: 'Montserrat', sans-serif;
+      margin: 0px 0px 0px 0px;
+  }
+  
+  h1, p {
+      color: blueviolet;
+      text-align: center;
+      transform: translateY(-50%);
+  }
+  
+  h2 {}
+  
+  h3 {}
+
+  
+  
+  
+  
+  /* ---- layout ---- */
+
+  .nav-bar {
+      position: fixed;
+      width: 100%;
+      background-color: rgba(165, 42, 42, 0.281);
+      overflow: hidden;
+      background-color: white;
+  }
+  
+  #site-header {}
+  
+  #site-footer {}
+  
+  #site-main {}
+  
+  
+  
+  
+  /* ---- components ---- */
+
+.nav-bar ul{
+    list-style: none;
+    float: right;
+    width: 600px;
+    text-align: center;
+    margin-top: 2.5%;
+}
+.nav-bar li{
+    display: inline;
+    padding: 3%;
+}
+
+
+
+.img-nav-logo {
+    width: 20%;
+  }
+
+
+  .back-image {
+      width: 100%;
+      max-width: 1900px;
+  }
+
+  .img-landing {
+      width: 100%;
+  }
+  
+  
