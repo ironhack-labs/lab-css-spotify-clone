@@ -6,3 +6,107 @@ Green: #00B172
 White: #FFF
 
 */
+@import url('https://fonts.googleapis.com/css?family=Montserrat');
+
+body{
+    font-family: 'Montserrat', sans-serif;
+    margin: 0;
+}
+nav {
+    display: block;
+    position: fixed;
+    background-color: #FFF;
+    padding: 10px;
+}
+.spotifyLogo {
+    float: left;
+    width: 20%;
+    display: inline-block;
+}
+ul {
+    float: right;
+}
+#background {
+    display: block;
+    background-image: URL("../images/landing.jpg");
+    background-repeat: no-repeat;
+    background-size: cover;
+    margin:0;
+    width: 100%;
+    display: flex;
+    text-align: center;
+
+    
+}
+.container {
+    color:#FFF;
+    height: 400px;
+    padding: 150px 150px;
+    
+}
+#background h1{
+    font-size: 3.5em;
+    font-weight: bolder;
+    justify-content: flex-end;
+}
+#background p {
+    font-size:1.4em;
+}
+#inline > li {
+display: inline-block;
+padding-right: 20px;
+}
+.spotifySectionDiv{
+    width:30%;
+    float: left;
+}
+#spotifySection img {
+    height: 100px;
+}
+#spotifySection {
+    padding:20px;
+    height: 350px;
+    text-align: center;
+}
+.spot{
+    padding-left: 5%;
+    padding-right: 5%;
+}
+#spotifySection  h1{
+font-weight: bold;
+text-decoration-line: underline ;
+text-decoration-color : #00B172; 
+}
+
+#spotifySection  h2{
+    color:#00B172;
+    font-weight: bolder;
+    }
+.clear{
+    float: none;
+}
+#greenSection{
+    background-color: #00B172;
+    color: white;
+    margin: 20px;
+    padding: 50px;
+    height:500px;
+}
+.app {
+    float: right;
+    width: 30%;
+    
+  
+}
+#greenSection h1{
+text-decoration-line: underline;
+text-decoration-color: white; 
+}
+.icon {
+    width:10%;
+    float: right;
+    padding: 20px;
+}
+.greentext{
+    display:block;
+}
