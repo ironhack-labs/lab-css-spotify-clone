@@ -6,3 +6,125 @@ Green: #00B172
 White: #FFF
 
 */
+ul li {
+  display: inline;
+  padding: 10px;
+}
+
+.header {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-between;
+  align-items: center;
+  height: 70px;
+  position: fixed;
+  width: 100%;
+  background-color: white;
+  top: 0;
+  left: 0;
+  z-index: 100;
+}
+
+.headerImage {
+  align-self: left;
+  height: 100%;
+  padding: 10px;
+
+}
+
+.headerLinks {
+  align-self: right;
+  padding: 10px 20px;
+  color: #1A1A1A;
+}
+
+.description {
+  margin-top: 70px;
+
+}
+
+.descriptionText {
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  color: #FFF;
+  text-align: center;
+}
+
+
+h2, h3, .question, .whatsOnBlocks, .whatsOnBlocks > div, .headerLinks, .greenSection {
+  font-family: proxima_nova,"Helvetica Neue",Helvetica,Arial,sans-serif;
+}
+h2 {
+  font-size: 2.8em;
+}
+
+h3{
+  font-size: 1.1em;
+}
+
+.question {
+  text-align: center;
+  font-size: 1.6em;
+  border-bottom: 2px solid #00B172;
+  padding-bottom: 5px;
+  border-width: 100%;
+  width: 27%;
+}
+
+.questionContainer {
+  display: flex;
+  justify-content: space-around;
+}
+
+.whatsOnBlocks {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-between;
+  padding-top: 20px;
+  padding-bottom: 40px;
+}
+
+.whatsOnBlocks > div {
+  width: 25%;
+  text-align: center;
+}
+
+.whatsOnBlocks b {
+  color: #00B172;
+}
+
+.greenSection {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-between;
+  align-items: center;
+  background-color: #00B172;
+  color: white;
+  padding: 10%;
+}
+
+.infoColumn {
+  display: flex;
+  flex-direction: column;
+  width: 40%;
+}
+
+.titleContainer {
+  display: flex;
+  flex-direction: row;
+}
+
+.title {
+  text-align: left;
+  font-size: 1.6em;
+  border-bottom: 2px solid white;
+  padding-bottom: 5px;
+  border-width: 100%;
+  width: 95%;
+}
+
+.infoColumnText {
+  width: 80%;
+}
