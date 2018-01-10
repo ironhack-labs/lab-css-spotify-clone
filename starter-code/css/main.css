@@ -14,6 +14,12 @@ body{
     font-weight: 100;
 }
 
+nav{
+    position: fixed;
+    background-color: white;
+    width: 100%;
+}
+
 li{
     list-style: none;
     display:inline-block;
@@ -30,14 +36,17 @@ li{
     background-image: url(../images/spotify-logo.png);
     background-repeat: no-repeat;
     background-size: 40%;
-    margin: 20px;
+    margin-left: 20px;
+    margin-top: 20px;
     height: 90px;
     width: 50%;
     display: inline-block;
+    animation-name: myslidein;
+    animation-duration: 1s;
 }
 
 .landing{
-    height: 600px;
+    height: 900px;
     background-image: url("../images/landing.jpg");
     background-size: 100% 100%;
     background-repeat: no-repeat;
@@ -134,3 +143,13 @@ li{
     font-size: 14px;
     font-weight: 200;
 }
+
+@keyframes myslidein {
+    0% {
+      margin-left: 25%;
+    }
+  
+    100% {
+      margin-left: 0%;
+    }
+  }
