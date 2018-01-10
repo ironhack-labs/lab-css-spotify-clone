@@ -6,3 +6,134 @@ Green: #00B172
 White: #FFF
 
 */
+
+@import url("https://fonts.googleapis.com/css?family=Roboto");
+
+body {
+  font-family: Roboto;
+}
+
+/* HEADER */
+.logoStyle {
+  width: 18%;
+  height: 75%;
+  padding: 10px 40px;
+}
+.flexStyle {
+  display: flex;
+  height: 100px;
+}
+
+ul {
+  position: absolute;
+  right: 5%;
+  list-style-type: none;
+  margin: 0;
+  padding: 0;
+  overflow: hidden;
+}
+
+li {
+  float: left;
+}
+
+li a {
+  display: block;
+  text-align: center;
+  padding: 14px 16px;
+  text-decoration: none;
+}
+.clearFix {
+  clear: both;
+}
+
+.presentation {
+  background-image: url(../images/landing.jpg);
+  background-repeat: no-repeat;
+  background-size: cover;
+  height: 800px;
+  color: white;
+}
+
+.textTitle {
+  padding-top: 20%;
+  text-align: center;
+}
+
+h1 {
+  font-size: 70px;
+  letter-spacing: 4px;
+}
+
+.pTitle {
+  font-size: 24px;
+  letter-spacing: 1px;
+  font-weight: 100;
+}
+
+/* CONTENT */
+.content {
+  text-align: center;
+}
+
+.marginBloc {
+  margin: 0 38%;
+}
+.blocTitle {
+  padding: 10px;
+  font-size: 29px;
+  letter-spacing: 2px;
+  border-bottom: 5px solid #1ab26b;
+}
+.blocIcone {
+  padding: 5% 0 30% 8%;
+}
+.bloc {
+  float: left;
+  width: 30%;
+}
+.titleGreen {
+  font-size: 30px;
+  color: #1ab26b;
+  font-weight: bold;
+}
+
+.bloc img {
+  width: 50%;
+}
+
+/* FOOTER */
+.footer {
+  background-color: #1ab26b;
+  height: 650px;
+  color: white;
+  padding: 82px 50px 82px 82px;
+  background-image: url("../images/spotify-icon-white.png");
+  background-repeat: no-repeat;
+  background-size: 100px 100px;
+  background-position: center;
+}
+
+.footerBloc {
+  width: 40%;
+  float: left;
+}
+
+.footer h3 {
+  font-size: 35px;
+  text-decoration: underline;
+}
+
+.titleFooter {
+  font-size: 30px;
+  font-weight: bold;
+}
+
+.footerBloc img {
+  width: 80%;
+}
+
+.footerIcon {
+  position: abolute;
+  top: 50%;
+}
