@@ -1,8 +1,127 @@
 /*
 Colors:
-
 Text: 1A1A1A
 Green: #00B172
 White: #FFF
-
 */
+@import url('https://fonts.googleapis.com/css?family=Roboto+Condensed:700|Roboto:100,300,700');
+
+body {
+    margin: 0;
+    padding: 0;
+    font-family: 'Roboto';
+    font-weight: 100;
+    font-size: 24px;
+}
+header {
+    width: 100%;
+    position: fixed;
+    background-color: #FFF;
+    top: 0;
+    padding: 2% 1% 1% 1%;
+}
+.logo {
+    float: left;
+    height: 80px;
+}
+.logo-hover:hover{
+        transition-duration: 2s;
+        transition-timing-function:linear;
+        transition-delay: 1s;  
+        height: 130%;
+}
+.menu-ul {
+    float: right;
+    padding:10px 30px 10px 10px;
+}
+.menu-li {
+    display: inline; 
+    padding: 20px;
+}
+.clearfix {
+    clear: both;
+}
+.landing-foto {
+    background-image: url("../images/landing.jpg");
+    height: 1000px;
+    background-size: cover;
+}
+h1 {
+    color:white;
+    text-align: center;
+    padding-top:450px;
+    font-size: 72px;
+}
+.landing-text {
+    color:white;
+    text-align: center;
+    padding-right: 25%;
+    padding-left: 25%;
+    font-size: 48x;
+}
+.main-info {
+    height: 500px;
+}
+.main-info-header{
+    text-align: center;
+    text-decoration: underline;
+    text-decoration-color: #00B172;  
+    font-size:36px;
+    padding:5% 3%; 
+}
+.main-info-sub{
+    padding: 0 5%
+}
+.col { 
+    float: left; 
+}
+.col-3 {
+    width: 30%;
+}
+ .col-middle {
+    margin: 0 5%;
+ }
+.icon {
+    text-align: center;
+}
+h3 {
+    color: #00B172;
+    text-align: center;
+}
+p {
+    text-align: center;
+    color: #1a1a1a
+}
+.footer {
+    margin: 2% 2%;
+    padding: 3% 3%;
+    background-color: #00B172;
+    background-image: url("../images/spotify-icon-white.png");
+    background-repeat: no-repeat;
+    background-size: 150px;
+    background-position: center;
+    height: 750px;
+}
+.footer-izq {
+    float: left;
+    width: 40%;
+}
+.footer-der {
+    float: right;
+    margin: 0;
+    padding: 50px 50px 0 0;
+}
+.footer-izq-main{
+    color: #FFF;
+    text-decoration: underline;
+    font-size: 41px;
+}
+.footer-izq-sub{
+    color: #FFF;
+    text-align: left;
+    font-size: 30px;
+}
+.footer-izq-text{
+    color: #FFF;
+    text-align: left;
+}
