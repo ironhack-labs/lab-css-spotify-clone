@@ -6,3 +6,187 @@ Green: #00B172
 White: #FFF
 
 */
+*{
+	font-family: 'Roboto', sans-serif;
+	box-sizing: border-box;
+	text-decoration: none;
+	list-style: none;
+}
+
+body{
+	margin: 0;
+	padding: 0;
+}
+
+section, header{
+	padding-left: 3%;
+	padding-right: 3%;
+}
+
+img{
+	max-width: 100%;
+}
+
+header{
+	width: 100%;
+	position: fixed;
+	background: #fff;
+	padding-top: 15px;
+	padding-bottom: 15px;
+	z-index: 2;
+	box-shadow: rgba(0, 0, 0, 0.1) 0px 3px 3px;
+}
+
+header a img{
+	width: 200px;
+}
+
+header nav{
+	float: right;
+}
+
+header nav ul li{
+	display: inline-block;
+	margin-left: 25px;
+}
+
+header nav ul li a{
+	color: #1A1A1A;;
+	font-size: 20px;
+	font-weight: 300;
+}
+
+section#banner{
+	background: url(../images/landing.jpg) no-repeat center center;
+	background-size: cover;
+	height: 100vh;
+	width: 100vw;
+	clear: both;
+	position: relative;
+	padding: 0;
+}
+
+section#banner div{
+	position: absolute;
+	top: 50%;
+	left: 50%;
+	transform: translate(-50%,-50%);
+	text-align: center;
+	color: #fff
+}
+
+section#banner div h1{
+	font-size: 70px;
+    font-weight: 400;
+    width: 100%;
+    margin-bottom: 30px;
+}
+
+section#banner div p{
+	font-size: 27px;
+	font-weight: 300;
+	margin-bottom: 0;
+}
+
+section#banner div p:last-child{
+	margin-top: 5px;
+}
+
+section#caracteristicas{
+	padding-top: 20px;
+	padding-bottom: 50px;
+	text-align: center;
+	color: #1A1A1A;
+}
+
+section#caracteristicas h2{
+	border-bottom: 4px solid #00B172;
+	display: inline-block;
+	padding-bottom: 5px;
+	font-size: 32px;
+	font-weight: 500;
+	color: #1A1A1A;
+}
+
+section#caracteristicas div{
+	margin: 0 auto;
+}
+
+section#caracteristicas div article{
+	width: 30%;
+	padding: 38px;
+	display: inline-block;
+}
+
+section#caracteristicas div article img{
+	width: 120px;
+}
+
+section#caracteristicas div article h3{
+	font-size: 28px;
+	color: #00B172;
+}
+
+section#caracteristicas div article p{
+	font-size: 20px;
+	font-weight: 300;
+}
+
+section#caracteristicas-2{
+	background: #00B172;
+	background-clip: content-box;
+	position: relative;
+	margin-bottom: 3%;
+}
+
+section#caracteristicas-2 div#west{
+	width: 50%;
+	display: inline-block;
+	color: #fff;
+	padding: 70px 70px 40px;
+}
+
+section#caracteristicas-2 div#west h2{
+	border-bottom: 4px solid #fff;
+    display: inline-block;
+    padding-bottom: 5px;
+    font-size: 32px;
+    font-weight: 500;
+    margin-bottom: 0;
+}
+
+section#caracteristicas-2 div#west div{
+	padding-right: 40%;
+}
+
+section#caracteristicas-2 div#west div h3{
+	font-size: 27px;
+	margin-top: 60px;
+}
+
+section#caracteristicas-2 div#west div p{
+	font-size: 20px;
+    font-weight: 300;
+    margin-top: 30px;
+    line-height: 30px;
+}
+
+section#caracteristicas-2 div#foto{
+	width: 30%;
+	display: inline-block;
+	float: right;
+	margin-right: 70px;
+	margin-top: 135px;
+}
+
+section#caracteristicas-2 div#logo{
+	position: absolute;
+	top: 50%;
+	left: 50%;
+	transform: translate(-50%,-50%);
+	width: 120px;
+}
+
+
+
+
