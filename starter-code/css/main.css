@@ -10,13 +10,13 @@ White: #FFF
 body{
 	margin:0;
 	font-family: "Trebuchet MS", Helvetica, sans-serif;
-	font-size:32px;
+	font-size:24px;
 	background-color: #FFF;
 }
 
 #header{
 	background-color: #FFF;
-	height:150px;
+	height:100px;
 	width:100%;
 	position: fixed;
 	top:0%;
@@ -26,19 +26,20 @@ body{
 	margin-left: 5%;
 	margin-top:25px;
 	float: left;
-	height:100px;
+	height:50px;
 	width:auto;
 }
 
 #menu{
 	margin-right: 5%;
-	margin-top:25px;
+	margin-top:10px;
 	float: right;
 }
 
 #menu > ul{
 	list-style-type: none;
 }
+
 #menu > ul > li{
 	float:left;
 }
@@ -57,7 +58,7 @@ body{
 	background-repeat: no-repeat;
 	background-size: cover;
 	width:100%;
-	height:1200px;
+	height:1000px;
 	display: flex;
 	justify-content: center;
 	align-items: center;
@@ -65,7 +66,7 @@ body{
 }
 
 #landing h1{
-	font-size:100px;
+	font-size:72px;
 }
 
 .text-centered{
@@ -78,20 +79,26 @@ body{
 }
 
 .green-underline{
-	width:450px;
+	display: inline-block;
 	border-bottom: 5px solid #00B172;
-	margin: 150px auto;
+	margin: 0 auto;
+	margin-top: 50px;
 	line-height: 0.3em;
+}
+
+.columns{
+	margin: 100px auto;
 }
 
 .col{
 	width:30%;
 	float:left;
 	text-align: center;
+	margin:100px auto;
 }
 
 .col-middle{
-	margin:0 5%;
+	margin:100px 5%;
 }
 
 .clear-fix{
@@ -108,16 +115,19 @@ body{
 	color: #00B172;
 }
 
+.col p{
+	margin: 0 10%;
+}
+
 #green-card{
 	position: relative;
 	background-color: #00B172;
-	padding: 100px;
+	padding: 80px;
 	color: #FFF;
-	margin-top: 150px;
 }
 
 .white-underline{
-	width:650px;
+	display: inline-block;
 	border-bottom: 5px solid #FFF;
 	line-height: 0.3em;
 }
@@ -129,14 +139,13 @@ body{
 
 .right-col{
 	width: 30%;
-	margin-left: 10%;
 	float: right;
 }
 
 .right-col img{
-	width: 90%;
+	width: 80%;
 	height: auto;
-	margin-top: 40%;
+	margin-top:30%;
 }
 
 .watermark{
@@ -146,7 +155,7 @@ body{
 }
 
 .watermark img{
-	height: 150px;
+	height: 100px;
 	width:auto;
 }
 
