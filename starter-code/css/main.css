@@ -6,3 +6,175 @@ Green: #00B172
 White: #FFF
 
 */
+
+body{
+	margin:0;
+	font-family: "Trebuchet MS", Helvetica, sans-serif;
+	font-size:24px;
+	background-color: #FFF;
+}
+
+#header{
+	background-color: #FFF;
+	height:100px;
+	width:100%;
+	position: fixed;
+	top:0%;
+	z-index:9999;
+}
+
+#header img{
+	margin-left: 5%;
+	margin-top:25px;
+	float: left;
+	height:50px;
+	width:auto;
+}
+
+#menu{
+	margin-right: 5%;
+	margin-top:10px;
+	float: right;
+}
+
+#menu > ul{
+	list-style-type: none;
+}
+
+#menu > ul > li{
+	float:left;
+}
+
+#menu > ul > li:not(:first-child){
+	margin-left:20px;
+}
+
+#menu a{
+	text-decoration:none;
+}
+
+#menu a, .columns p {
+	color: #1A1A1A;
+}
+
+#landing{
+	background-image: url("../images/landing.jpg");
+	background-repeat: no-repeat;
+	background-size: cover;
+	width:100%;
+	height:1000px;
+	display: flex;
+	justify-content: center;
+	align-items: center;
+	color: #FFF;
+}
+
+h1{
+	font-size:72px;
+}
+
+.text-centered{
+	text-align: center;
+}
+
+#content{
+	width:90%;
+	margin:0 auto;
+}
+
+.green-underline{
+	display: inline-block;
+	margin: 0 auto;
+	margin-top: 50px;
+	line-height: 0.3em;
+}
+
+.green-underline hr{
+	border-top: 5px solid #00B172;
+}
+
+.columns{
+	margin: 100px auto;
+}
+
+.col{
+	width:30%;
+	float:left;
+	text-align: center;
+	margin:100px auto;
+}
+
+.col-middle{
+	margin:100px 5%;
+}
+
+.clear-fix{
+	clear:both;
+}
+
+.col img{
+	height: 125px;
+	width: auto;
+	margin: 0 auto;
+}
+
+.col h3{
+	color: #00B172;
+}
+
+.col p{
+	margin: 0 10%;
+}
+
+#green-card{
+	position: relative;
+	background-color: #00B172;
+	padding: 80px;
+	color: #FFF;
+	z-index:2;
+}
+
+.white-underline{
+	display: inline-block;
+	line-height: 0.3em;
+}
+
+.white-underline hr{
+	border-top: 5px solid #FFF;
+}
+
+.left-col{
+	width: 60%;
+	float: left
+}
+
+.left-col p{
+	width: 60%;
+}
+
+.right-col{
+	width: 30%;
+	float: right;
+}
+
+.right-col img{
+	width:90%;
+	height: auto;
+	margin-top:30%;
+}
+
+.watermark{
+	position: absolute;
+	top:50%;
+	left:50%;
+}
+
+.watermark img{
+	height: 100px;
+	width:auto;
+}
+
+#header img:hover {
+    margin-top: 20px;
+    transition-property: margin-top;
+}
