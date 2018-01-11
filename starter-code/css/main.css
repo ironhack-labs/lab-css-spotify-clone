@@ -126,9 +126,17 @@ White: #FFF
 }
 
 .white-logo{
-    height: 50px;
-    margin-left: -80px;
-    margin-top: 10px;;
+    height: 150px;
+    margin: 30px 30px;
+    position: relative;
+    bottom:200px;
+    right: 100px;
+    transition-duration:0.2s;
+    transition-timing-function: linear;
+}
+
+.white-logo:hover{
+    bottom: 250px;
 }
 
 .app-img{
@@ -153,7 +161,7 @@ White: #FFF
     line-height: 1.5;
 }
 
-/* --------- TEMP ----------*/
+/* --------- TEMP ----------
 div, header, footer, nav, article {
 	border: 1px solid black;
 } 
