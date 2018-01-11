@@ -6,3 +6,184 @@ Green: #00B172
 White: #FFF
 
 */
+
+/************** Boxing everything **************/
+
+/* .top-picture,
+.middle, 
+.bottom
+.about-one,
+.about-two,
+.about-three
+.bottom-first {
+    border: 1px solid red;
+} */
+
+html {
+    box-sizing: border-box;
+  }
+  *, *:before, *:after {
+    box-sizing: inherit;
+  }
+
+/************** Typography**************/
+
+body{
+    font-family: 'Montserrat', sans-serif;
+}
+
+/************** Nav **************/
+
+.nav-div{
+    background-color: white;
+}
+nav{
+    margin-top: -115px;;
+    position: fixed;
+    background-color: white;
+    padding-top: 30px;;
+}
+
+nav ul {
+    list-style: none;
+    float: right;
+    font-size: 1.2rem;
+    margin-bottom: 40px
+}
+
+nav li{
+    display: inline;
+    margin-right: 50px;
+}
+
+.logo{
+    margin-left: 18px;
+    float: left;
+    width: 17%;
+}
+
+/************** Middle **************/
+.top-picture{
+    background-image: url(../images/landing.jpg);
+    background-repeat: no-repeat;
+    width: 100%;
+    background-size:1250px 650px;
+    margin-top: 100px;
+    padding-bottom: 190px;
+}
+
+h1{
+    color: #FFF;
+    text-align: center;
+    font-size: 4.5em;
+    padding-top: 180px;
+    margin-bottom: -20px;
+}
+
+.top-picture p {
+    color: #FFF;
+    text-align: center;
+    font-size: 1.5rem;
+}
+
+h2 {
+    text-align: center;
+    font-size: 2.2rem;
+    margin-bottom: 0;
+}
+
+hr{
+    height: 5px;
+    color: #00B172;
+    background-color: #00B172;
+    border: none;
+    width: 278px;
+    margin-top: .8px;;
+}
+
+.middle-img{
+    width:35%;
+}
+
+.about-one, .about-two,.about-three {
+    width: 30%;
+    float: left;
+    text-align: center;
+    align-content: center;
+    margin-top: 140px;
+    font-size: 1.3rem;
+    font-weight:100;
+}
+
+h3{
+    color:#00B172;
+    font-size: 2rem;
+}
+.about-one{
+    margin-left: 50px;
+}
+
+.middle{
+    margin-bottom: 550px;
+}
+
+/************** Bottom **************/
+
+.bottom{
+    background-color: #00B172;
+    padding-top: -60px;
+    padding-bottom: 500px;
+}
+
+.bottom-title{
+    font-size:2em;
+    padding-top: 80px;
+    text-align: left;
+    padding-bottom: 40px;
+}
+
+.bottom hr{
+    height: 4px;
+    background-color: white;
+    width:425px;
+    float: left;
+    margin-left: 93px;
+    margin-top:-9px;
+}
+
+.bottom-first,
+.bottom-title{
+    margin-left: 90px;
+}
+
+.bottom-first{
+    color:white;
+    width: 250px;
+    float: left;
+}
+
+h4{
+    font-size:1.6rem;
+}
+
+h4 p{
+    font-size: 1.4rem;
+}
+
+.bottom-middle{
+    width:300px;
+    margin-left: 200px;
+}
+.bottom-circle{
+    width:40%;
+    margin-left: 300px;
+    margin-top: -310px;
+    float: left
+}
+
+.bottom-app{
+    width:22%;
+    float: right;
+    margin-right:170px;
+    margin-top: -30px;
+}
