@@ -6,3 +6,249 @@ Green: #00B172
 White: #FFF
 
 */
+
+/*============== Reset ===============*/
+
+html, body, div, span, applet, object, iframe,
+h1, h2, h3, h4, h5, h6, p, blockquote, pre,
+a, abbr, acronym, address, big, cite, code,
+del, dfn, em, img, ins, kbd, q, s, samp,
+small, strike, strong, sub, sup, tt, var,
+b, u, i, center,
+dl, dt, dd, ol, ul, li,
+fieldset, form, label, legend,
+table, caption, tbody, tfoot, thead, tr, th, td,
+article, aside, canvas, details, embed, 
+figure, figcaption, footer, header, hgroup, 
+menu, nav, output, ruby, section, summary,
+time, mark, audio, video {
+	margin: 0;
+	padding: 0;
+	border: 0;
+	font-size: 100%;
+	font: inherit;
+	vertical-align: baseline;
+}
+/* HTML5 display-role reset for older browsers */
+article, aside, details, figcaption, figure, 
+footer, header, hgroup, menu, nav, section {
+	display: block;
+}
+body {
+	line-height: 1;
+}
+ol, ul {
+	list-style: none;
+}
+blockquote, q {
+	quotes: none;
+}
+blockquote:before, blockquote:after,
+q:before, q:after {
+	content: '';
+	content: none;
+}
+table {
+	border-collapse: collapse;
+	border-spacing: 0;
+}
+
+/*============ Typography ============*/
+
+p, h1, h2, h3 {
+    font-family: 'Open Sans', sans-serif;
+    font-size: 1.3em;
+    font-weight: 300;
+    line-height: 1.5em;
+    color: rgb(34, 34, 34);
+    margin-bottom: 10px;
+
+
+}
+
+h2 {
+    font-size: 2.3em;
+    font-weight: 600;
+    line-height: 1em;
+    
+  }
+
+
+h3 {
+    font-size: 2em;
+    font-weight: 600;
+    color:  #00B172;
+  }
+
+
+/*============== Navigation ==============*/
+
+
+
+.top {
+    position: fixed;
+    overflow: hidden;
+    width: 100%;
+    height: 100px;
+    background-color: white;
+    z-index: 300;
+
+
+}
+
+img.logo1 {
+    width: 250px;
+    float: left;
+
+    margin: 10px 25px;
+}
+
+
+.navbar{
+    float: right;
+    top: 20px;
+    right: 20px;
+    color: black;
+    font-size: 1.5em;
+    font-weight: 100;
+  }
+
+  ul.navbar {
+    float: right;
+    margin: 35px 25px;
+
+  }
+
+  .navbar ul{
+    line-height: 1.5em;
+    list-style: none;
+    margin-right: 25px;
+  }
+  .navbar li{
+    display: inline-block;
+    margin: 0 5px;
+  }
+  .navbar a{
+    color: #000000;
+    text-decoration: none;
+  }
+
+  /*============ Sektion2 ==============*/
+
+  .main-picture{
+    background: url(../images/landing.jpg);
+    background-size: cover;
+    width: 100%;
+    height: 800px;
+    position: relative;
+    float: left;
+    margin-top: 100px; 
+  }
+
+  .big-title {
+    text-align: center;
+    font-family: "Open Sans";
+    font-size: 5em;
+    font-weight: 600;
+    color: white;
+  }
+
+  .big-copy {
+    text-align: center;
+    font-family: "Open Sans";
+    font-size: 2.1em;
+    font-weight: 300;
+    color: white;
+  }
+
+  .main-picture-centering {
+    margin: 180px 0;
+  }
+
+  /*==================Section3=================*/
+
+.main-title {
+    text-align: center;
+    text-decoration: underline;
+    line-height: 3em;
+
+}
+
+/*.three-items h2 {
+    border-bottom: 1px solid #00B172;
+    
+}*/
+
+
+.wrapper {
+    clear: both;
+    overflow: hidden;
+    padding: 0 30px;
+    margin-bottom: 100px;
+}
+
+.card {
+    
+    width: 30%;
+    float: left;
+    margin: 0 10px;
+    padding: 0 5px;
+   
+}
+
+
+img.icon {
+    clear: both;
+    height: 150px;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+.card h3, p, img {
+    text-align: center;
+    
+}
+
+
+/*==============Sektion 3================*/
+
+.articles {
+    float:left;
+    width: 50%;
+    position: relative;
+
+}
+
+.phone {
+    height: 600px;
+    float: right;
+
+
+}
+
+.article-picture{
+    background-color: #00B172;
+    overflow: hidden;
+    margin: 20px;
+    padding: 40px;
+    position: relative;
+}
+
+.signet {
+    width: 100px;
+    position: absolute;
+    top: 50%;
+    left: 50%;
+  
+
+}
+
+.oncolor {
+    text-align: left;
+    color: white;
+}
+
+.articles > h3 {
+
+    color: white; 
+}
