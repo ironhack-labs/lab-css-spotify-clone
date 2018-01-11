@@ -6,3 +6,196 @@ Green: #00B172
 White: #FFF
 
 */
+
+@import url('href=http://fonts.googleapis.com/css?family=Roboto:400,100,‌​300,400,500,600,700');
+
+body {
+  font-family: 'Roboto', sans-serif;
+  background-color: #fff;
+  color: #1A1A1A;
+}
+
+.content {
+  max-width: 1092px;  
+  margin: 0 auto;
+}
+
+nav {
+  position: fixed;
+  top:0;
+  left:0;
+  height: 100px;
+  width: 100%;
+  font-size: 16px;
+  background-color: #fff;
+}
+
+.nav-content {
+  width: 1092px;
+  margin: 0 auto;
+}
+
+.logo{
+  float: left;
+  max-width: 240px;
+  margin-left: 30px;
+}
+
+.logo img {
+  margin-top: 15px;
+  width: 100%;
+  position: relative;
+}
+
+.logo a:hover img {
+  animation-name: up-and-down;
+  animation-duration: 1s;
+  animation-iteration-count: infinite;
+  animation-timing-function: linear;
+  animation-direction: alternate;
+}
+
+@keyframes up-and-down {
+  0% {
+    top: 8px;
+    margin-top: 0;
+  }
+  50% {
+    top: 4px;
+    margin-top: 0;
+  }
+  100% {
+    top: 20px;
+    margin-top: 0;
+  }
+}
+
+.top-links {
+  display: inline-block;
+  float: right;
+  padding: 0;
+  margin-right: 30px;
+}
+
+.top-links li {
+  display: inline-block;
+  margin: 15px 10px;
+  font-size: 24px;
+}
+
+.top-links li a{
+  color: #1A1A1A;
+  text-decoration: none;
+}
+
+section {
+  clear: both;
+  width: 1092px;
+  margin: 0 auto;
+  text-align: center;
+  margin-bottom: 40px;
+}
+
+.big-image {   
+  background-image: url(../images/landing.jpg);
+  background-size: contain;
+  background-repeat: no-repeat;
+  height: 530px;  
+  color: #fff;
+  padding-top: 20%;
+}
+
+.big-image h1 {
+  font-size: 60px;
+}
+
+.big-image h3 {
+  font-size: 28px;
+  margin-left: 20%;
+  margin-right: 20%;
+}
+
+.one-column h2 {
+  font-size: 34px;
+  font-weight: 700;
+  padding-bottom: 6px;
+  border-bottom: 2px solid #00B172;
+  display: inline;
+}
+
+.one-column, .three-columns {
+  margin-top: 20px;
+  margin-bottom: 80px;
+}
+
+.column1, .column2, .column3 {
+  width: 33%;
+  float: left;
+} 
+
+.three-columns img {
+  max-width: 40%;
+  min-height: 123px;
+}
+
+.three-columns h3 { 
+  font-size: 30px;
+  color: #00B172;
+}
+
+.three-columns p { 
+  font-size: 24px;
+  width: 80%;
+  margin: 0 auto;
+  line-height: 1.2;
+  margin-bottom: 80px;
+}
+
+#green {
+  background-color: #00B172;
+  background-image: url(../images/spotify-icon-white.png);
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: 15%;
+  padding: 50px;
+  width: calc(100% - 100px);
+  margin-bottom: 30px;
+}
+
+.right-green, .left-green {
+  width: 49%;
+  display: inline-block;
+}
+
+.right-green {
+  text-align: left;
+}
+
+.right-green h2, .right-green h3, .right-green p {
+  color: #fff;
+}
+
+.right-green h2 {
+  font-size: 36px;
+  padding-bottom: 6px;
+  border-bottom: 2px solid #fff;
+  display: inline;
+}
+
+.right-green h3 {
+  font-size: 28px;
+  margin-top: 60px;
+}
+
+.right-green p {
+  font-size: 22px;
+  line-height: 0.8;
+}
+
+.left-green {
+  text-align: right;
+}
+
+.left-green img {
+  max-width: 75%;
+}
