@@ -6,3 +6,151 @@ Green: #00B172
 White: #FFF
 
 */
+
+/* --------- reset ---------- */
+
+
+html {
+    box-sizing: border-box;
+  }
+  
+  *, *:before, *:after {
+    box-sizing: inherit;
+  }
+  
+  body, p, ul, li, h1 {
+    margin: 0;
+    padding: 0;
+    color:1A1A1A;
+    font-size: 1.1em;
+  }
+  
+  body {
+    font: 200 16px/1.5 "Helvetica Neue", Helvetica, Arial, sans-serif;
+  }
+  /*-------------------------------------*/
+  .spotify-menu{
+    margin:0 20%;
+    }
+
+  /* header  */
+  .header{
+      height:90px;
+      position:absolute;
+      top:0;
+      width:60%;
+  }
+  .header-left{
+      float: left;
+      width:30%;
+      padding:1em;
+  }
+  .header-right{
+      float: right;
+      padding:1.7em 1em;
+  }
+  .header-right li{
+      display:inline;
+      list-style: none;
+      padding-right:1em;
+  }
+  .header-left:hover{
+    transition-property:padding-top;
+    transition-duration:0.2s;
+    padding-top: 3em;
+    }
+  /*Top-Element*/
+  .main-container{
+      margin-top:90px;
+  }
+  .top-element{
+      clear:both;
+      background:url('../images/landing.jpg')no-repeat;
+      background-size:1250px 650px;
+      color:white;
+      text-align:center;
+      padding:10em 6em;
+  }
+  .top-element h1{
+      font-size:3em;
+      padding-bottom: 0.5em;
+  }
+
+  /*Mid-element*/
+  .whats-spotify{
+      text-align: center;
+      text-decoration:underline #00B172;
+      font-size: 1.6em;
+      padding-top:1em;
+  }
+
+
+  .actions-spotify{
+      float: left;
+      text-align: center;
+      padding:3em 0;
+      width:100%;
+  }
+  .actions-spotify> div{
+      float: left;
+      width:33.3%;
+  }
+  .animate{
+      height:110px;
+  }
+
+.actions-spotify h1{
+    color:#00B172;
+    padding-bottom: 1em;
+}
+
+
+
+  /*buttom-element*/
+  .buttom-element{
+      clear:both;
+      background-color:#00B172;
+      overflow:hidden;
+      color: white;
+      padding-left: 2em;
+      margin: 0 12px 12px 12px;
+  }
+  .buttom-element h1{
+      font-size:1.3em;
+      text-decoration:underline;
+      padding: 1.4em 0;
+  }
+  .action{
+    padding: 1.4em 0;
+    font-weight: bold;
+  }
+
+  .buttom-element div{
+      float: left;
+  }
+  .buttom-text-float{
+    width:50%;
+  }
+  .app{
+      height:22em;
+  }
+  .buttom-logo-float{
+      margin:30% 5% 30% -10%;
+      width:20%;
+  }
+  
+  .buttom-application{
+    padding:15% 3px;
+    width:30%;
+  }
+
+  .icon{
+    width:8em;
+}
+
+
+
+  /* --------- TEMP ---------x
+div, header, footer, nav, article {
+	border: 1px solid black;
+}*/
