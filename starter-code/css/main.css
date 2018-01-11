@@ -6,3 +6,154 @@ Green: #00B172
 White: #FFF
 
 */
+
+body {
+    font-family: 'Roboto', sans-serif;
+    margin: 0px;
+    padding: 0px;
+}
+.menu {
+    height: 83px;
+    background-color: white;
+    position: fixed;
+    width: 100%;
+}
+
+.logo {
+ float: left;
+ width: 45%;
+}
+
+.logo img{
+    height: 55px;
+    margin-top: 14px;
+    margin-left: 40px;
+}
+
+nav {
+    float: right;
+    margin-top: 14px;
+    width: 32%;
+}
+
+header {
+    background-image: url("../images/landing.jpg");
+    background-position: center center;
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+    background-size: cover;
+    height: 720px;
+    color: #ffffff;
+    text-align: center;
+    display: flex;
+    justify-content: center;
+    align-content: center;
+    flex-direction: column;
+}
+
+
+header > p {
+    margin: 0px;
+    /*No sé por qué pero el atributo margin
+    cambia todos las etiquetas p*/
+}
+
+header h1 {
+    font-size: 85px;
+    margin-bottom: 30px;
+}
+
+ul{
+    display: inline-block;
+}
+ul li {
+    list-style: none;
+    display: inline-block;
+    margin-left: 30px;
+}
+
+.whats {
+    margin-top: 50px;
+    margin-bottom: 50px;
+    width: 100%;
+    text-align: -webkit-center;
+}
+
+.title {
+    text-align: center;
+    border-bottom: 5px solid #00B172;
+    display: flex;
+    justify-content: center;
+    width: 20%;
+}
+
+.whatsGroup {
+    display: flex;
+    justify-content: center;
+    margin-top: 100px;
+}
+
+.whatsChild {
+    width: 25%;
+}
+
+.icon {
+    text-align: center;
+}
+
+.titulo {
+    text-align: center;
+    color: #00b172;
+    font-weight: bold;
+    font-size: 30px;
+    margin-bottom: 40px;
+}
+
+.text {
+    text-align: center;
+}
+
+[class$="Child"] img {
+    height: 100px;
+    margin-bottom: 15px;
+}
+.clearfix {
+    clear: both;
+}
+
+footer {
+    background-color: #1AB26B;
+    background-image: url("../images/spotify-icon-white.png");
+    background-repeat: no-repeat;
+    background-size: 150px 150px;
+    background-position: center;
+    margin-top: 150px;
+    margin-left: 25px;
+    margin-right: 25px;
+    padding: 25px;
+    height: -webkit-fill-available;
+}
+
+.fooLeft{
+    float: left;
+    width:35%;
+    text-align: left;
+    color: white;
+    padding: 80px;
+}
+
+.fooLeft b {
+    font-size: 25px;
+}
+
+.fooRight {
+    float: right;
+    width:40%;
+    text-align: right;
+    padding: 80px;
+}
+
+.fooRight img {
+    max-width: 350px;
+    height: auto;
+}
