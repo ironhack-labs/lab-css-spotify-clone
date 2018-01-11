@@ -20,6 +20,7 @@ body{
 	width:100%;
 	position: fixed;
 	top:0%;
+	z-index:9999;
 }
 
 #header img{
@@ -50,6 +51,9 @@ body{
 
 #menu a{
 	text-decoration:none;
+}
+
+#menu a, .columns p {
 	color: #1A1A1A;
 }
 
@@ -65,7 +69,7 @@ body{
 	color: #FFF;
 }
 
-#landing h1{
+h1{
 	font-size:72px;
 }
 
@@ -80,10 +84,13 @@ body{
 
 .green-underline{
 	display: inline-block;
-	border-bottom: 5px solid #00B172;
 	margin: 0 auto;
 	margin-top: 50px;
 	line-height: 0.3em;
+}
+
+.green-underline hr{
+	border-top: 5px solid #00B172;
 }
 
 .columns{
@@ -124,17 +131,25 @@ body{
 	background-color: #00B172;
 	padding: 80px;
 	color: #FFF;
+	z-index:2;
 }
 
 .white-underline{
 	display: inline-block;
-	border-bottom: 5px solid #FFF;
 	line-height: 0.3em;
+}
+
+.white-underline hr{
+	border-top: 5px solid #FFF;
 }
 
 .left-col{
 	width: 60%;
 	float: left
+}
+
+.left-col p{
+	width: 60%;
 }
 
 .right-col{
@@ -143,7 +158,7 @@ body{
 }
 
 .right-col img{
-	width: 80%;
+	width:90%;
 	height: auto;
 	margin-top:30%;
 }
