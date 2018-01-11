@@ -99,8 +99,15 @@ body {
 .spotify-logo {
     width: 200px;
     margin: 10px 20px 10px 30px;
+    animation: 2s linear 2s linear;
+    animation-direction: alternate;
+    position: relative;
 }
 
+.spotify-logo:hover {
+    top: 60px;
+}
+    
 .nav-items {
     list-style: none;
     float: right;
@@ -164,9 +171,13 @@ body {
 }
 
 .sbd-features {
-    width: 400px;
+    width: 485px;
     float: left;
-    padding: 40px 0px 0 40px;
+    padding-left: 40px;
+}
+
+.sbd-features p {
+    margin-bottom: 50px;
 }
 
 .spotify-icon {
