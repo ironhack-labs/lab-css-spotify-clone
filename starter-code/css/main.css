@@ -1,8 +1,50 @@
-/*
-Colors:
+body {
+    font-family: Arial, Helvetica, sans-serif;
+    margin: 0;
+}
 
-Text: 1A1A1A
-Green: #00B172
-White: #FFF
+nav {
+    float: right;
+}
 
-*/
+nav img {
+    float: left;
+}
+
+header {
+    width: 100%;
+    float: left;
+    position: fixed;
+    z-index: 2;
+    background-color: white;
+}
+
+header nav ul li{
+    display:inline-block;
+}
+#section2{
+    background-image: url("../images/landing.jpg");
+    background-position: 0;
+    height: 500px;
+    background-size: 100%;
+    position: relative;
+
+}
+#section2 #thir-part{
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%,-50%);
+    text-align: center;
+}
+h1{
+    color:white;
+}
+h3{
+    color:white;
+}
+#sector3 #first-part h2{
+text-align: center;   
+border-bottom: 4px;
+
+}
