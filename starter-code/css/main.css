@@ -20,6 +20,7 @@ html {
 body {
     margin: 0;
     padding: 0;
+    width: 100%;
 }
   
 /* ---- typography ---- */
@@ -56,21 +57,46 @@ a {
 
 /* ---- layout ---- */
 
-#wrapper {
-    width: 100%;
-}
-
 /* - header - */
 
 #site-header {
     overflow: hidden;
-    position: sticky;
+    background-color: #fff;
+    width: 100%;
+    position: fixed;
 }
 
 .brand-logo {
     float: left;
     width: 17%;
     margin: 10px 10px 10px 30px;
+}
+
+.brand-logo:hover {
+    animation: jump 1.5s ease 0s 3 normal;
+}
+@keyframes jump {
+    0%{
+        transform: translateY(0);
+    }
+    20%{
+        transform: translateY(0);
+    }
+    40%{
+        transform: translateY(-30px);
+    }
+    50%{
+        transform: translateY(0);
+    }
+    60%{
+        transform: translateY(-15px);
+    }
+    80%{
+        transform: translateY(0);
+    }
+    100%{
+        transform: translateY(0);
+    }
 }
 
 .navigation {
@@ -155,6 +181,10 @@ hr {
     color: #00B172;
 }
 
+.content-info p {
+    width: 75%;
+    margin: auto;
+}
 
 .main-ad {
     background-color: #00B172;
