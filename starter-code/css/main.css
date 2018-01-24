@@ -6,3 +6,109 @@ Green: #00B172
 White: #FFF
 
 */
+
+* {
+  margin: 0;
+  padding: 0;
+}
+body {
+  font-family: 'Raleway', sans-serif;
+}
+
+.background {
+  background-image: url('../images/landing-small.jpg');
+  background-size: cover;
+  background-repeat: no-repeat;
+  height: 690px;
+  width: 100%;
+  margin-top: 60px;
+  display: grid;
+}
+.header {
+  position: fixed;
+  top: 0;
+  width: 100%;
+  background: white;
+}
+
+.header nav {
+  display: inline-grid;
+  width: 100%;
+  height: 90px;
+  margin-left: auto;
+  margin-right: auto;
+}
+.header ul {
+  margin-top: 25px;
+  margin-right: 20px;
+  list-style: none;
+  float: right;
+}
+
+.header li {
+  display: inline;
+  margin: 9px;
+  font-size: 1.3em;
+  font-weight: lighter;
+}
+.logo img {
+  max-height: 200px;
+  max-width: 200px;
+  margin-left: 20px;
+  margin-top: 10px;
+}
+
+.splash {
+  color: white;
+  text-align: center;
+  align-self: center;
+  max-width: 60%;
+  margin-left: auto;
+  margin-right: auto;
+}
+
+.splash h1 {
+  font-size: 4em;
+  word-spacing: 5px;
+  margin-bottom: 20px;
+}
+
+.splash p {
+  font-size: 1.8em;
+  line-height: 1.3;
+  font-weight: lighter;
+}
+
+.columns {
+  margin-bottom: 40px;
+}
+
+.columns h2 {
+  text-decoration: underline #00b172;
+  text-underline-position: under;
+}
+.columns header {
+  width: 500px;
+  padding: 0;
+  text-align: center;
+  margin-top: 30px;
+  margin-left: auto;
+  margin-right: auto;
+  font-size: 1.5em;
+}
+
+.images {
+  display: grid;
+  grid-template-columns: repeat(3, 1fr);
+  grid-gap: 10px;
+  padding: 30px;
+}
+
+.images figure {
+  text-align: center;
+}
+
+.img-columns img {
+  max-width: 100px;
+  max-height: 100px;
+}
