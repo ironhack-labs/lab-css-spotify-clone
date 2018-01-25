@@ -12,14 +12,14 @@ White: #FFF
   padding: 0;
 }
 body {
-  font-family: 'Raleway', sans-serif;
+  font-family: 'Open Sans', sans-serif;
 }
 
 .background {
   background-image: url('../images/landing-small.jpg');
   background-size: cover;
   background-repeat: no-repeat;
-  height: 690px;
+  height: 670px;
   width: 100%;
   margin-top: 60px;
   display: grid;
@@ -91,7 +91,7 @@ body {
   width: 500px;
   padding: 0;
   text-align: center;
-  margin-top: 30px;
+  margin-top: 40px;
   margin-left: auto;
   margin-right: auto;
   font-size: 1.5em;
@@ -117,11 +117,13 @@ body {
 .img-columns h2 {
   margin-bottom: 30px;
   color: #00b172;
+  font-weight: bold;
 }
 
 .img-columns figcaption {
   font-size: 1.5em;
   font-weight: 100;
+  color: #1a1a1a;
 }
 
 .yeezy {
@@ -131,7 +133,9 @@ body {
   padding: 80px;
 }
 
-.yeezy h1 {
+.yeezy .section-header {
+  font-size: 2em;
+  word-spacing: 5px;
   text-decoration: underline;
   text-underline-position: under;
 }
@@ -144,6 +148,7 @@ body {
 
 .icon {
   align-self: center;
+  margin-left: 100px;
 }
 .icon img {
   max-height: 120px;
@@ -153,4 +158,16 @@ body {
 .yeezus img {
   height: 600px;
   width: 330px;
+}
+
+.main-content h1 {
+  font-size: 1.8em;
+  margin-top: 40px;
+  margin-bottom: 40px;
+}
+
+.main-content p {
+  font-size: 1.3em;
+  line-height: 1.5;
+  font-weight: 100;
 }
