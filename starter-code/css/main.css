@@ -5,4 +5,172 @@ Text: 1A1A1A
 Green: #00B172
 White: #FFF
 
+font-family: 'Roboto', sans-serif;
+
 */
+  body{
+  font-family: 'Roboto', sans-serif;
+  margin: 0;
+}
+
+.container{
+  width: 95%;
+  margin: 0 auto;
+}
+
+.clear-float{
+  clear: both;
+}
+
+/* nav styling starts here */
+#nav{
+  position: fixed;
+  width: 100%;
+  height: 100px;
+  background-color: #FFFFFF;
+}
+#spotify-logo{
+  width: 200px;
+  margin: 20px 30px;
+}
+
+#spotify-logo:hover{
+  animation: mover 0.3s infinite  alternate;
+}
+@-webkit-keyframes mover {
+  0% { transform: translateY(0); }
+  100% { transform: translateY(-20px); }
+}
+@keyframes mover {
+  0% { transform: translateY(0); }
+  100% { transform: translateY(-20px); }
+}
+
+#nav-ul{
+  display: inline-block; 
+  float: right;
+  list-style-type: none;
+  margin: 0 15px 0 0;
+}
+
+#nav-ul li{
+  display: inline-block;
+  float: left;
+  font-size: 1.2em;
+  text-align: center;
+  line-height: 100px;
+  margin: 0 20px;
+  font-weight: 300;
+}
+
+#nav-ul li > a{
+  text-decoration: none;
+  color: #1A1A1A;
+}
+/* header styling starts here */
+
+#header{
+  background-image: url("../images/landing.jpg");
+  background-size: contain;
+  height: 650px;
+  margin-top: 0;
+  text-align: center;
+  color: white;
+}
+
+.header-text{
+  padding-top: 200px;
+}
+
+.header-text > h1{
+  font-weight: 500;
+  font-size: 5em;
+}
+
+.header-text > p{
+  font-size: 28px;
+}
+
+/* whats-on section starts here */
+#whats-on > h3{
+  font-size: 38px;
+  font-weight: 500;
+  text-align: center;
+  border-bottom: 5px solid #00B172;
+  width: 320px;
+  margin: 40px auto 80px auto;
+}
+
+.col-3{
+  width: 30%;
+  float: left;
+  margin: 0 1.66%;
+  text-align: center;
+}
+
+.col-3 > img{
+  width: 120px;
+  height: 100px;
+}
+
+.col-3 > h4{
+  font-size: 26px;
+  color: #00B172;
+}
+
+.col-3 p {
+  font-size: 1.5em;
+  font-weight: 300;
+}
+/* music sections starts here */
+
+#yeezus{
+  background-color: #00B172;
+  color: white;
+  margin: 70px auto 20px auto;
+  height: 700px;
+}
+
+.yeezus-col-3{
+  float: left;
+  width: 33%;
+  text-align: center;
+}
+
+.yeezus-display h4{
+  font-size: 2em;
+  margin: 0;
+}
+
+.yeezus-display p{
+  font-weight: 300;
+  font-size: 20px;
+  line-height: 32px;
+}
+
+#yeezus > h3{
+  font-size: 38px;
+  font-weight: 400;
+  border-bottom: 3px solid white;
+  width: 470px;
+  padding-bottom: 10px;
+  margin-left: 50px;
+  padding-top: 50px;
+}
+
+.yeezus-display{
+  display: inline-block; 
+  text-align: left;
+}
+
+#spotify-icon{
+  width: 150px;
+}
+
+.spotify-icon-col{
+  padding-top: 12%;
+}
+
+#spotify-app{
+  height: 500px;
+}
