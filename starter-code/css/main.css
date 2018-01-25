@@ -40,6 +40,11 @@ nav img{
     padding-left: 50px;
 }
 
+nav img:hover{
+    animation-name: bouncing;
+    animation-duration: 0.5s;
+    animation-iteration-count: infinite;
+}
 .landing_page{
     background-image: url("/Users/Raul/Documents/IronHack/week1/day3/lab-css-spotify-clone/starter-code/images/landing.jpg");
     background-repeat: no-repeat;
@@ -147,4 +152,13 @@ nav img{
 .green_text p{
     width: 75%;
     font-size: 1.3em;
+}
+
+@keyframes bouncing{
+    0%, 20%, 40%, 60%, 80%, 100% {transform: translateY(0);}
+  50% {transform: translateY(-5px);}
+
+  25% {transform: translateY(-5px);}
+
+  75% {transform: translateY(-5px);}
 }
