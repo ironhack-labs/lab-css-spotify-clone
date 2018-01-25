@@ -26,6 +26,7 @@ White: #FFF
   }
 
   .logo {
+    position: absolute;
     float: left;
     width: 12%;
     height: auto;
@@ -154,4 +155,28 @@ White: #FFF
     left: 50%;
     transform: translate(-50%, -50%);
     width: 10%;
+  }
+
+  nav, what-container {
+    color: #1A1A1A;
+  }
+
+  .logo:hover {
+    animation-name: bounce;
+    animation-duration: 1s;
+    animation-iteration-count: infinite;
+  }
+
+  @keyframes bounce {
+    0% {
+      margin-top: 0px;
+    }
+    
+    50% {
+      margin-top: -10px;
+    }
+
+    95% {
+      margin-top: 0px;
+    }
   }
