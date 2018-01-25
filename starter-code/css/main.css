@@ -67,9 +67,8 @@ nav ul li {
 
 #mid-container b{
     color: black;
-    text-decoration-line: underline;
-    text-decoration-style: solid;
-    text-decoration-color:#00B172;
+    border-bottom: 4px solid; 
+    border-bottom-color: #00B172; 
 }
 
 #mid-container p>ul{
@@ -79,6 +78,7 @@ nav ul li {
 #flex-container {
     display: flex;
     justify-content: center;
+    align-items: baseline;
 }
 
 .whats-on-info {
@@ -109,30 +109,54 @@ nav ul li {
 
 #bot-container {
     background-color: #00B172;
-    height: 500px;
+    height: 700px;
     margin-top: 30px;
+    margin-bottom: 50px;
+}
+
+#bot-container img[alt*="white"]{
+    position: relative;
+    top: 280px;
+    left: -60px;
+    width: 140px;
+    height: auto;
 }
 
 #bot-container-left {
-    width: 300px;
+    margin-top: 50px;
+    width: 480px;
     height: 500px;
-    background-color: red;
     float: left;
+    margin-left: 200px;
+    color: white;
 }
 
+#bot-container-left h2{
+    font-size: 36px;
+    font-weight: normal;
+    border-bottom: 3px solid; 
+    border-bottom-color: white; 
+    margin-right: 20px;
+}
+
+#bot-container-left h1{
+    font-size: 26px;
+    font-weight: 900;
+    margin: 30px 0;
+}
+
+
 #bot-container-right {
-    /* background-image: url("../images/spotify-app.jpg"); */
-    /* background-repeat: no-repeat;
-    background-size: cover;
-    background-position: center center; */
     float: right;
+    margin-right: 200px;
 }
 
 #bot-container-right img{
     height: 600px;
     width:  auto;
-    margin-right: 190px;
+    margin-top: 50px;
 }
+
 
 
 
