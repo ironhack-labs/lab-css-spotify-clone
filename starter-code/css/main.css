@@ -1,8 +1,194 @@
 /*
 Colors:
-
 Text: 1A1A1A
 Green: #00B172
 White: #FFF
 
 */
+body{
+  width: 1200;
+  margin: 0 auto;
+}
+h1,h2,h3,p {
+font-family: 'Montserrat', sans-serif;
+}
+.full-width {
+  width: 1200;
+  margin: 0 auto;
+}
+
+.half-width {
+width: 600px;
+float: left;
+}
+
+.third-width {
+  width: 33.33%; 
+  float: left; 
+}
+
+/* Nav Bar and Logo  */
+
+nav{
+  height: 30px;
+  text-align: right;
+  padding-right: 25px;
+}
+
+nav ul{
+  margin: 0;
+  padding: 25px 0 0 0;
+}
+
+ nav ul li {
+  display: inline-block;
+}
+ 
+ nav ul li a {
+  text-decoration: none;
+  font-family: 'Montserrat', sans-serif;
+  font-weight: lighter; 
+  color: #1A1A1A; 
+  font-size: 1.3em;
+  padding: 5px 16px;
+}
+
+.brand{
+  float: left;
+  display: inline-block;
+  margin: 10px 15px;
+  line-height: 24px;
+  height: 55px; 
+  }
+
+ /* Jumbotrom img  */
+ .jumbotrom {
+  background-image:url('../images/landing.jpg');
+  background-size: cover;
+  background-repeat: no-repeat;
+  height: 800px;
+  color: #fff;
+  text-align: center;
+}
+.jumbotrom h1{
+  font-size: 4.5em;
+  font-weight: 700;
+  padding-top: 200px;
+  letter-spacing: 2px;
+}
+.jumbotrom p {
+  font-size:1.5em;
+  font-weight: 500;
+}
+
+/* Section  Two */
+.section-two {
+  height: 450px;
+}
+
+.section-two h2{
+  font-weight: 400;
+  font-size: 2em;
+  text-align: center;
+  padding-top: 20px;
+  margin-bottom: -6px;
+}
+.section-two h3{
+  color:#00B172;
+  font-size: 1.9em;
+  text-align: center;
+  padding-top: 2px;
+  padding-bottom: 10px;
+ }
+
+ hr {
+   width: 23%;
+   border-top: 4px solid #00B172;
+}
+.section-two p {
+  text-align: center;
+  font-size: 1.6em;
+}
+
+.features-icons {
+  width: 120px;
+  height: 120px;
+  margin-left: auto;
+	margin-right: auto;
+	display: block;
+}
+
+
+/* Section  Three */
+.section-three{
+background-color: #00B172;
+height: 800px;
+color: #fff;
+position: relative;
+margin:30px;
+}
+
+.section-three h2{
+  font-size: 2em;
+  font-weight: 600;
+  padding: 35px 0;
+  text-align: left;
+  margin-left: 50px;
+  margin-bottom: 15px;
+ text-decoration: underline solid #fff;
+  }
+
+
+.section-three h3{
+  font-size: 1.9em;
+  text-align: left;
+  margin-left: 50px;
+ }
+
+ .section-three p{
+  font-size:1.5em;
+  font-weight: 500;
+  text-align: left;
+  margin-left: 50px;
+}
+
+.artist {
+  width: 320px;
+  height: 600px;
+  right:120px;
+  top:120px;
+  position: absolute;
+}
+
+.spotify-icon {
+  height: 140px;
+  width: 140px;
+  position: absolute;
+  left:45%;
+  top:40%;
+  animation-duration: 1s;
+  animation-fill-mode: both;
+  animation-timing-function: ease-in-out;
+  animation-iteration-count: infinite;
+}
+
+.spotify-icon:hover {
+  cursor: pointer;
+  animation-name: bounce;
+}
+
+@keyframes bounce {
+	0%, 100%, 20%, 50%, 80% {
+
+		transform: translateY(0)
+	}
+	40% {
+	
+		transform: translateY(-30px)
+	}
+	60% {
+
+		transform: translateY(-15px)
+	}
+}
+
