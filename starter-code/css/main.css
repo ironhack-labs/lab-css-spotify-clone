@@ -6,3 +6,220 @@ Green: #00B172
 White: #FFF
 
 */
+
+body{
+  margin: 0;
+  font-family: Arial;
+  display: flex;
+  flex-direction: column;
+}
+
+nav{
+  height: 100px;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  font-weight: lighter;
+  font-size: 25px;
+  position: fixed;
+  background-color: white;
+  width: 100%;
+  z-index: 1000;
+}
+
+nav ul{
+  float: right;
+  margin-right: 20px;
+}
+nav li{
+  display: inline;
+  margin-right: 20px;
+}
+
+a{
+  text-decoration: none;
+  color: #5D5D5D;
+  font-weight: lighter;
+}
+
+header{
+  background-image: url(../images/landing.jpg);
+  /* position: fixed; */
+  background-position: center;
+  background-size: 1500px;
+  background-position-y: -100px;
+  background-repeat: no-repeat;
+  height: 840px;
+  display: flex;
+  justify-content: center;
+  align-items: flex-start;
+  color: #ffffff;
+}
+
+.header-text{
+  text-align: center;
+  width: 80%;
+  position: relative;
+  top: 250px
+}
+
+.header-text h1{
+  font-size: 85px;
+  -webkit-margin-before: 0;
+  -webkit-margin-after: 0;
+  margin-bottom: 35px;
+  font-weight: 500;
+}
+
+.header-text span{
+  font-weight: lighter;
+  font-size: 30px;
+}
+
+.container-1{
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  height: 625px;
+}
+
+.container-1 h3{
+  font-size: 37px;
+  padding-top: 15px;
+}
+
+.wannabe-hr{
+  height: 4px;
+  width: 100%;
+  border-color: #00B172;
+  background-color: #00B172;
+  margin-top: 7px;
+}
+
+.container-1-stuff{
+  display: flex;
+  justify-content: space-around;
+  position: relative;
+  top: 45px;
+}
+
+.container-1-stuff img{
+  height: auto;
+  width: auto;
+  max-height: 150px;
+  max-width: 150px;
+}
+.container-1-stuff .container{
+  text-align: center;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: flex-start;
+  width: 30%;
+}
+
+.container-1-stuff .music {
+  position: relative;
+  top: 24.5px;
+}
+
+.container-1-stuff .stream{
+  position: relative;
+  top: 10px;
+}
+
+.container-1-stuff .container h3{
+  font-size: 30px;
+  font-weight: 800;
+  color: #00B172;
+}
+
+.container-1-stuff p{
+  font-size: 25px;
+  width: 70%;
+  -webkit-margin-before: 0;
+}
+
+.container-green{
+  background-color: #00B172;
+  color: #ffffff;
+  width: 95%;
+  height: 775px;
+  margin: 0 auto;
+  margin-bottom: 40px;
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+
+}
+
+
+.container-green .wannabe-hr{
+  background-color: #ffffff;
+  border-color: #ffffff;
+}
+
+#white-icon{
+  height: auto;
+  width: auto;
+  max-height: 120px;
+  max-width: 120px;
+  position: relative;
+}
+
+.container-green .container-title{
+  width: 480px;
+  font-size: 37px;
+  font-weight: 500;
+}
+
+.container-text{
+  display: flex;
+  flex-direction: column;
+  width: 330px;
+  font-size: 22px;
+  padding-left: 35px;
+}
+
+.container-text p{
+  font-weight: lighter;
+}
+
+#yeezy-bae{
+  height: auto;
+  width: auto;
+  max-height: 600px;
+  max-width: 600px;
+  position: relative;
+  top: 25px;
+}
+
+
+@keyframes bounce {
+	0%, 20%, 60%, 100% {
+		-webkit-transform: translateY(0);
+		transform: translateY(0);
+	}
+
+	40% {
+		-webkit-transform: translateY(-20px);
+		transform: translateY(-20px);
+	}
+
+	80% {
+		-webkit-transform: translateY(-10px);
+		transform: translateY(-10px);
+	}
+}
+
+nav img{
+  height: auto;
+  width: auto;
+  max-height: 220px;
+  max-width: 220px;
+  float: left;
+  margin-left: 40px;
+}
+nav img:hover{
+  animation: bounce 1s;
+}
