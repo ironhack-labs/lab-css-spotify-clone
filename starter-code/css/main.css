@@ -17,7 +17,8 @@ White: #FFF
     position: fixed;
     background-color: #fff;
     width: 100%;
-    border: 2px solid red;
+    z-index: 2;
+    /* border: 2px solid red; */
 }
 
 #navBar ul li {
@@ -25,7 +26,7 @@ White: #FFF
     float: right;
     margin-top: 20px;
     padding-right: 45px;
-    border: 2px solid red;
+    /* border: 2px solid red; */
 }
 
 a {
@@ -39,11 +40,11 @@ a {
     width: 10%;
     margin: 5px;
     padding: 10px;
-    border: 2px solid red;
+    /* border: 2px solid red; */
 }
 
 .container {
-    border: 5px solid red;
+    /* border: 5px solid red; */
 }
 
 .main {
@@ -53,13 +54,13 @@ a {
     text-align: center;
     color: #fff;
     height: 450px;
-    border: 2px solid red;
+    /* border: 2px solid red; */
 }
 
 .heading-wrapper {
     display: inline-block;
     margin: 125px;
-    border: 2px solid red;
+    /* border: 2px solid red; */
 }
 
 .heading-wrapper h1 {
@@ -74,13 +75,13 @@ a {
     text-align: center;
     text-decoration: underline;
     text-decoration-color: #31a05f;
-    border: 2px solid red;
+    /* border: 2px solid red; */
 }
 
 .row img {
     width: 100px;
-    height: 100px;
-    border: 4px solid blue;
+    height: 120px;
+    /* border: 4px solid blue; */
 }
 
 
@@ -88,26 +89,28 @@ a {
     column-count: 3;
     text-align: center;
     width: 100%;
+    margin: 10px;
+
 }
 
 .column-left {
-    border: 2px solid purple;
+    /* border: 2px solid purple; */
 }
 
 .column-center {
-    border: 2px solid orange;
+    /* border: 2px solid orange; */
 }
 
 .column-right {
-    border: 2px solid grey;
+    /* border: 2px solid grey; */
 }
 
 
 .yeezy {
     background-color: #2FD565;
     margin: 20px;
-    border: 4px solid black;
-    height: 600px;
+    /* border: 4px solid black; */
+    height: 800px;
 }
 
 .yeezy-wrapper {
@@ -127,4 +130,21 @@ a {
     width: 250px;
 }
 
+.icon img {
+    width: 100px;
+    height: 100px;
+    position: relative;
+    top: 50%;
+    left: 50%;
+    transform: translate(-60%, -400%);
+}
 
+.app img {
+    float: right;
+    margin: auto;
+    width: 300px;
+    height: 500px;
+    position: relative;
+    overflow: hidden;
+    transform: translate(-20%, -135%);
+}
