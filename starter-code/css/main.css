@@ -6,3 +6,148 @@ Green: #00B172
 White: #FFF
 
 */
+body{
+    background-color:#FFF;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+}
+.nav-bar{
+    position:fixed;
+    background-color:#FFF;
+    height: 100px;
+    width:100%;
+}
+.nav-bar ul{
+    width:40%;
+    margin:0px;
+   text-decoration: none;
+   display: inline-block;
+   float:right;
+
+}
+  .nav-bar li{
+    padding:40px 0;
+    list-style-type:none;
+    text-align:center;
+    float:left;
+    width:25%;
+  }
+  .nav-bar a{
+   text-decoration:none;
+   font-size: 1.6em;
+   color:1A1A1A;
+  }
+
+.start{
+    color:#FFF;
+    padding: 300px 400px;
+    text-align: center;
+    width:50%;
+}
+.start h1{
+    font-size: 4em;
+}
+.start p{
+    font-size:2em;
+    font-weight: lighter;
+}
+.background-concert{
+    background-image: url("../images/landing.jpg");
+    background-size: cover;
+}
+
+.section2{
+    height: 500px;
+    text-align: center;
+}
+
+.section2 h2{
+   text-decoration: underline;
+   text-decoration-color: #00B172;
+   text-decoration-style: solid 5px;
+   font-size: 3em;
+}
+.container{
+    width:33%;
+    display:inline-block;
+    float:left;
+    box-sizing: border-box;
+    padding: 70px;
+    height: 400px;
+    text-align: center;
+    font-size: 1.8em;
+}
+
+.container h3{
+    font-size: 1.3em;
+    color:#00B172;
+    margin-bottom: 10px;
+}
+.container p{
+    margin-top:0;
+}
+.middle{
+    margin-bottom:20px;
+}
+.img-col{
+    width:150px;
+}
+
+.green{
+ background-color: #00B172;
+ margin:20px;
+ color:white;
+ text-align: left;
+ height: 700px;
+ 
+}
+.green h2{
+    text-decoration: underline;
+    font-weight: 400;
+    font-size: 3em;
+    margin-top:20px;
+}
+
+.green h3{
+   font-size: 1.8em;
+}
+.green-info{
+    padding:10px 70px;
+    width:50%;
+    position:relative;
+    display:inline-block;
+}
+.green-info p{
+    font-weight: lighter;
+    padding-right:300px;
+   /* line-height: 4vh;*/
+   font-size: 1.8em;
+
+}
+.yeezy-phone{
+    height:80%;
+    float:right;
+    margin-right: 5%;
+    margin-top:5%;
+}
+.spotify-round-logo{
+    position:absolute;
+    width:15%;
+    right: 10%;
+    top:40%;
+}
+.clearfix{
+    clear:both;
+}
+
+.logo{
+    float:left;
+    animation-name:bounce;
+    width:20%;
+}
+.logo:hover {
+    width: 25%;
+    transition-property: width;
+    transition-duration: 0.2s;
+    transition-timing-function:linear;
+   /* transition-delay: 1s;*/
+}
