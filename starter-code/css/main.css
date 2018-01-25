@@ -6,3 +6,177 @@ Green: #00B172
 White: #FFF
 
 */
+
+@import url('https://fonts.googleapis.com/css?family=Raleway:300,400,700');
+
+  body {
+    font-family: Raleway;
+    font-size: 18px;
+    margin: 0;
+  }
+  nav{
+    position: fixed;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 8vh;
+    background: white;
+    padding: 10px 20px;
+    z-index: 1;
+  }
+
+  .logo {
+    position: absolute;
+    float: left;
+    width: 12%;
+    height: auto;
+  }
+
+  nav ul li {
+    float: left;
+    padding-right: 30px;
+    font-size: 120%;
+    margin-top: -1%;
+  }
+
+  nav ul {
+    list-style: none;
+    float: right;
+    padding-right: 40px;
+  }
+
+  .container {
+    position: relative;
+    height: 100vh;
+  }
+
+  .large-background {
+    position: relative;
+    background-size: cover;
+    background-image: url(../images/landing.jpg);
+    height: 148vh;
+    top: 8vh;
+  }
+
+  .text-header {
+    position: absolute;
+    color: white;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    text-align: center;
+    font-size: 175%;
+  }
+
+  .what-container {
+    position: absolute;
+    top: 148vh;
+    width: 100%;
+    padding-left: 5%;
+    padding-right: 5%;
+  }
+
+  .what-container > h2 {
+    width: 100%;
+    text-align: center;
+    line-height: 50px;
+    font-size: 225%;
+    text-decoration: underline;
+    text-decoration-color: #00B172;
+    padding-bottom: 90px;
+    margin-left: -5%;
+  }
+
+  .what-item {
+    float: left;
+    width: 20%;
+    padding-left: 5%;
+    padding-right: 5%;
+    text-align: center;
+  }
+
+  .what-item > img {
+    width: 10vw;
+    height: 8vw;
+    display: block;
+    margin: 0 auto;
+  }
+
+  .what-item > h3 {
+    color: #00B172;
+    font-size: 160%;
+    line-height: 80%;
+  }
+
+  .what-item > p {
+    font-size: 130%;
+  }
+
+  .yeezy-container {
+    position: absolute;
+    top: 248vh;
+    width: 100%;
+    background-color: #00B172;
+    color: white;
+  }
+
+  .yeezy-text {
+    position: relative;
+    padding: 2.5% 5% 5% 5%;
+    float: left;
+    width: 25%;
+    font-size: 142%;
+  }
+
+  .yeezy-text > h2 {
+    width: 200%;
+    text-decoration: underline;
+    text-decoration-color: white;
+  }
+
+  .yeezy-text > h3 {
+    line-height: 200%;
+  }
+
+  .yeezy-text > p {
+    font-weight: 300;
+  }
+
+  .KANYE {
+    padding: 5%;
+    padding-top: 7.5%;
+    float: right;
+    width: 25%;
+  }
+
+  .white-icon {
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    width: 10%;
+  }
+
+  nav, what-container {
+    color: #1A1A1A;
+  }
+
+  .logo:hover {
+    animation-name: bounce;
+    animation-duration: 1s;
+    animation-iteration-count: infinite;
+  }
+
+  @keyframes bounce {
+    0% {
+      margin-top: 0px;
+    }
+    
+    50% {
+      margin-top: -10px;
+    }
+
+    95% {
+      margin-top: 0px;
+    }
+  }
