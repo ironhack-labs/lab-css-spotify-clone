@@ -18,6 +18,29 @@ body{
   margin: 0;
 }
 
+h1, h4, h3{
+  text-align: center
+}
+
+h1{
+  font-size: 5em;
+}
+
+h4{
+  font-size: 1.5em;
+  font-weight: 100;
+}
+
+h3{
+  font-size: 2em;
+  text-decoration: underline solid #00B172;
+}
+
+h5{
+  font-size: 1.7em;
+  margin: 10px 0px;
+}
+
 .fixed-nav-bar{
   position: fixed;
    width: 100%;
@@ -49,51 +72,44 @@ nav ul li a{
   width: 200px;
   margin-left: 30px; 
   margin-top: 10px; 
+  position: relative;
+ 
 }
 
-.spotify-logo:hover{
-    position: relative;
-    top: 250px;
-    transition-property: top;
-    transition-duration: 10s;
-    transition-timing-function:linear;
-    transition-delay: 1s;
+ .spotify-logo:hover{ 
+  animation-name: jump;
+  animation-duration: 2s;
+  animation-timing-function: ease;
+} 
+
+@keyframes jump {
+  0% {
+    top: 0px;
+  }
+
+  50%{
+    top: -50px;
+  }
+
+  100% {
+    top: 0px;
+  }
 }
+
+
 .clearfix{
   clear: both;
 }
 
 .landing{
   background-image: url("../images/landing.jpg");
-  background-size: cover; 
-  height: 1000px;
+  background-size: contain; 
+  height: 800px;
   margin-top: 50px;
   
 }
 
-h1, h4, h3{
-  text-align: center
-}
-
-h1{
-  font-size: 4em;
-}
-
-h4{
-  font-size: 1.5em;
-  font-weight: 100;
-}
-
-h3{
-  font-size: 2em;
-  text-decoration: underline solid #00B172;
-}
-
-h5{
-  font-size: 1.7em;
-}
-
- .u{
+.u{
   color:#00B172;
 }
 
@@ -102,18 +118,19 @@ h5{
   margin: 0 auto; 
   color: #FFF;
   position: relative;
-  top: 250px;
+  top: 275px;
 }
 
 .container{
   width: 90%;
-  margin: 0 auto;
+  margin: 25px auto ;
 }
 
 .col-3{
   float: left;
   width: 33%; 
   text-align: center;
+  margin: 50px 0px;
 }
 
 .col-3 h5{
@@ -139,7 +156,7 @@ h5{
 
 .left{
   float: left;
-  width: 40%;
+  width: 35%;
   color: #FFF;
 }
 
@@ -148,15 +165,17 @@ h5{
 }
 
 .left, .right{
-  margin: 80px 80px 50px;
+  margin: 80px 120px 50px;
 }
 
 .left h3{
   text-decoration: underline solid white;
+  text-align: left;
 }
 
 .left p{
   font-size: 1.3em;
+  margin: 30px 0; 
 }
 .yeezy{
   width: 300px;
