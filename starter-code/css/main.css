@@ -6,3 +6,164 @@ Green: #00B172
 White: #FFF
 
 */
+
+.clearfix {
+    clear: both;
+}
+
+* {
+    font-family: Helvetica, sans-serif
+}
+
+/* Start of Nav Bar */
+.nav-bar {
+    /* position: fixed; */
+    height: 100px;
+    position: fixed;
+    width: 100%;
+    background-color: white;
+    z-index: 2;
+}
+
+.nav-bar > img {
+    height: 80px;
+    width: 300px;
+    float: left;
+    padding-top: 10px;
+    padding-left: 10px;
+}
+
+.nav-bar > ul {
+    text-decoration-style: none;
+    float: right;
+    margin-right: 25px;
+    margin-top: 43px;
+    font-size: 20px;
+}
+
+.nav-bar li {
+    display: inline;
+    padding-right: 25px;
+}
+
+.main-logo:hover{
+    animation: mover 0.3s infinite  alternate;
+   }
+   @keyframes mover {
+    0% { transform: translateY(0); }
+    100% { transform: translateY(-20px); }
+   }
+
+/* Start of Header */
+.header {
+    background-image: url("../images/landing.jpg");
+    background-position: center;
+    background-size: cover;
+    height: 900px;
+    position: relative;
+}
+
+.header > h1 {
+    color: white;
+    position: absolute;
+    top: 35%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    font-size: 76px;
+}
+
+.header > p {
+    color: white;
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    font-size: 33px;
+    text-align: center;
+}
+
+/* Start of Whats on Spotify Section */
+.whats-on > h2 {
+    text-align: center;
+    text-decoration: underline;
+    text-decoration-color: #00B172;
+    text-align: center;
+    padding-top: 20px;
+    font-size: 45px;
+}
+
+.float-30 {
+    float: left;
+    width: 30%;
+    margin-left: 40px;
+    text-align: center;
+    margin-top: 80px;
+}
+
+.float-30 > h3 {
+    color: #00B172;
+    font-size: 30px;
+}
+
+.float-30 > p {
+    color: #1A1A1A;
+    text-align: center;
+    width: 300px;
+    font-size: 30px;
+    padding-left: 99px;
+    margin-bottom: 100px;
+}
+
+.float-30 > img {
+    width: 120px;
+    height: 100px;
+}
+
+
+/* Start of Green Section */
+.background-green {
+    background-color: #00B172;
+    width: 95%;
+    margin: 0 auto;
+    position: relative;
+}
+
+.green-text {
+    width: 90%;
+    margin: 0 auto;
+    padding: 50px 0;
+}
+
+h4,
+h5,
+p {
+    color: white;
+}
+
+.green-text > h4 {
+    text-decoration: underline;
+    text-decoration-color: white;
+    font-size: 50px;
+}
+
+.green-text > h5 {
+    font-size: 35px;
+}
+
+.green-text > p {
+    font-size: 25px;
+}
+
+.green-text > .app {
+    position: absolute;
+    top: 150px;
+    left: 1076px;
+    width: 400px;
+}
+
+.green-text > .white-icon {
+    position: absolute;
+    width: 150px;
+    top: 384px;
+    left: 692px;
+}
