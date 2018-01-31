@@ -6,3 +6,184 @@ Green: #00B172
 White: #FFF
 
 */
+
+/* You must use 1 descendant selector, and 1 multi selector. You can use more.
+Animate the green Spotify logo in the upper left-hand corner to jump up and down when a user hovers over it. */
+html {
+  font-family: 'Open Sans', sans-serif;
+  font-size: 16px
+}
+
+body{
+  margin: 0;
+}
+
+h1, h4, h3{
+  text-align: center
+}
+
+h1{
+  font-size: 5em;
+}
+
+h4{
+  font-size: 1.5em;
+  font-weight: 100;
+}
+
+h3{
+  font-size: 2em;
+  text-decoration: underline solid #00B172;
+}
+
+h5{
+  font-size: 1.7em;
+  margin: 10px 0px;
+}
+
+.fixed-nav-bar{
+  position: fixed;
+   width: 100%;
+   z-index: 9999;
+   top: 0;
+   left: 0;
+   background-color: white;
+ }
+
+nav ul {
+  list-style-type: none;
+  float: right; 
+  margin-right: 17px;
+}
+
+nav ul li{
+  display: inline-block;
+  margin: 10px;
+}
+
+nav ul li a{
+  text-decoration: none;
+  color: black;
+  font-size: 1.3em;
+}
+
+.spotify-logo{
+  float: left;
+  width: 200px;
+  margin-left: 30px; 
+  margin-top: 10px; 
+  position: relative;
+ 
+}
+
+ .spotify-logo:hover{ 
+  animation-name: jump;
+  animation-duration: 2s;
+  animation-timing-function: ease;
+} 
+
+@keyframes jump {
+  0% {
+    top: 0px;
+  }
+
+  50%{
+    top: -50px;
+  }
+
+  100% {
+    top: 0px;
+  }
+}
+
+
+.clearfix{
+  clear: both;
+}
+
+.landing{
+  background-image: url("../images/landing.jpg");
+  background-size: contain; 
+  height: 800px;
+  margin-top: 50px;
+  
+}
+
+.u{
+  color:#00B172;
+}
+
+.content{
+  width: 60%;
+  margin: 0 auto; 
+  color: #FFF;
+  position: relative;
+  top: 275px;
+}
+
+.container{
+  width: 90%;
+  margin: 25px auto ;
+}
+
+.col-3{
+  float: left;
+  width: 33%; 
+  text-align: center;
+  margin: 50px 0px;
+}
+
+.col-3 h5{
+  color:  #00B172;
+  font-weight: bold;
+}
+
+.col-3 img{
+  width: 100px;
+}
+
+.col-3 p{
+  font-size: 1.5em;
+}
+
+.container-green{
+  width: 95%;
+  margin: 0 auto 50px;
+  background-color: #00B172;
+  position: relative;
+  
+}
+
+.left{
+  float: left;
+  width: 35%;
+  color: #FFF;
+}
+
+.right{
+  float: right;
+}
+
+.left, .right{
+  margin: 80px 120px 50px;
+}
+
+.left h3{
+  text-decoration: underline solid white;
+  text-align: left;
+}
+
+.left p{
+  font-size: 1.3em;
+  margin: 30px 0; 
+}
+.yeezy{
+  width: 300px;
+}
+
+.spotify-icon{
+  width: 100px;
+  position: absolute; 
+  bottom: 50%;
+  left: 50%;
+}/
