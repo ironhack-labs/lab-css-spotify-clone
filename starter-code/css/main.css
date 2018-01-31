@@ -6,3 +6,158 @@ Green: #00B172
 White: #FFF
 
 */
+* {
+    font-family: 'Open Sans', sans-serif;
+}
+
+nav img{
+    position: absolute;
+    height: 75px;
+    top: 50%;
+    transform: translateY(-50%);
+    margin-left: 40px;
+}
+
+nav {
+    width: 100%;
+    height: 100px;
+    position: relative;
+}
+
+nav ul{
+    float:right;
+    margin: 0 auto;
+    list-style-type: none;
+    padding-right: 40px;
+    padding-top: 25px;
+    padding-bottom: 25px;
+}
+
+nav ul li {
+    float: left;
+    padding: 15px;
+    font-size: 28px;
+    color: #1A1A1A;
+}
+
+#top-container {
+    height: 1000px;
+    width: 100%;    
+    background-image: url("../images/landing.jpg");
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center center;
+    font-size: 42px;
+    color: white;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    text-align: center; 
+}
+
+#mid-container {
+    height: 400px;
+    width: 100%;    
+    font-size: 42px;
+    color: white;
+    text-align: center; 
+    clear: both;
+}
+
+#mid-container b{
+    color: black;
+    border-bottom: 4px solid; 
+    border-bottom-color: #00B172; 
+}
+
+#mid-container p>ul{
+    color: black;
+}
+
+#flex-container {
+    display: flex;
+    justify-content: center;
+    align-items: baseline;
+}
+
+.whats-on-info {
+    width: 300px;
+    height: 300px;
+    font-size: 20px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    text-align: center; 
+    float: left;
+    margin: 0 20px;
+}
+
+.whats-on-info img{
+    width: 40%;
+    height: 40%;
+}
+
+.whats-on-info p{
+    color: black;
+}
+
+.whats-on-info h2{
+    color: #00B172;;
+}
+
+#bot-container {
+    background-color: #00B172;
+    height: 700px;
+    margin-top: 30px;
+    margin-bottom: 50px;
+}
+
+#bot-container img[alt*="white"]{
+    position: relative;
+    top: 280px;
+    left: -60px;
+    width: 140px;
+    height: auto;
+}
+
+#bot-container-left {
+    margin-top: 50px;
+    width: 480px;
+    height: 500px;
+    float: left;
+    margin-left: 200px;
+    color: white;
+}
+
+#bot-container-left h2{
+    font-size: 36px;
+    font-weight: normal;
+    border-bottom: 3px solid; 
+    border-bottom-color: white; 
+    margin-right: 20px;
+}
+
+#bot-container-left h1{
+    font-size: 26px;
+    font-weight: 900;
+    margin: 30px 0;
+}
+
+
+#bot-container-right {
+    float: right;
+    margin-right: 200px;
+}
+
+#bot-container-right img{
+    height: 600px;
+    width:  auto;
+    margin-top: 50px;
+}
+
+
+
+
+
