@@ -5,4 +5,199 @@ Text: 1A1A1A
 Green: #00B172
 White: #FFF
 
+
 */
+
+/* ---- reset ---- */
+
+html {
+    box-sizing: border-box;
+    font-family: 'Montserrat', sans-serif;
+}
+
+body {
+    margin: 0;
+}
+
+*,
+*:before,
+*:after {
+    box-sizing: inherit;
+}
+
+
+/* ---- typography ---- */
+
+.nav-items li {
+    font-size: 20px;
+}
+
+#landing-text {
+    color: white;
+    text-align: center;
+}
+
+#landing-text h1 {
+    font-size: 70px;
+}
+
+#landing-text p {
+    font-weight: 300;
+    font-size: 30px;
+}
+
+#features {
+    text-align: center;
+}
+
+.main-features-title {
+    font-size: 34px;
+    font-weight: bold;
+}
+
+.feature-title {
+    color: #1AB26B;
+    font-size: 26px;
+    font-weight: bold;
+}
+
+#kanye-west{
+    color: white;
+}
+
+#kanye-west p span {
+    font-weight: bold;
+    font-size: 20px;
+}
+
+.sbd-title {
+    font-weight: bold;
+    font-size: 28px;
+}
+
+.sbd-features {
+    font-size: 20px;
+}
+
+#kanye-west p span {
+    font-size: 32px;
+}
+
+/* ---- layout ---- */
+
+.landing-background {
+    background-image: url('../images/landing.jpg');
+    background-repeat: no-repeat;
+    background-size: cover;
+    padding: 335px 0;
+}
+
+#nav {
+    background-color: white;
+    position: fixed;
+    right: 0;
+    left: 0;
+    z-index: 1000;
+}
+
+.spotify-logo {
+    width: 200px;
+    margin: 10px 20px 10px 30px;
+    animation: 2s linear 2s linear;
+    animation-direction: alternate;
+    position: relative;
+}
+
+.spotify-logo:hover {
+    top: 60px;
+}
+    
+.nav-items {
+    list-style: none;
+    float: right;
+}
+
+.nav-items li {
+    float: left;
+    margin: 10px 30px 0px 0px;
+}
+
+#landing-text {
+    max-width: 800px;
+    margin: 0 auto;
+}
+
+#landing-text h1 {
+    margin-top: 0px;
+}
+
+#landing-text p {
+    margin: 0;
+}
+
+#features {
+    max-width: 1200px;
+    margin: 0 auto 450px auto;
+}
+
+.main-features-title {
+    margin-bottom: 100px;
+}
+
+.main-features-title span {
+    border-bottom: 5px #1AB26B solid;
+}
+
+#feature1,
+#feature2,
+#feature3 {
+    float: left;
+    width: 275px;
+    margin: 0 62px 0 62px;
+}
+
+.main-features img {
+    width: 50%;
+}
+
+#kanye-west {
+    clear:both;
+    margin: 0 auto 35px auto;
+    max-width: 95%;
+    background-color: #1AB26B;
+    padding: 40px;
+    position:relative;
+    overflow: hidden;
+}
+
+#kanye-west p span{
+    border-bottom: 5px white solid;
+}
+
+.sbd-features {
+    width: 485px;
+    float: left;
+    padding-left: 40px;
+}
+
+.sbd-features p {
+    margin-bottom: 50px;
+}
+
+.spotify-icon {
+    width: 130px;
+    position:absolute;
+    right: 560px;
+    bottom: 300px;
+}
+
+.spotify-app {
+    padding: 40px 40px 0 0;
+}
+
+.spotify-app img{
+    float: right;
+    width: 360px;
+}
+
+/* ---- components ---- */
