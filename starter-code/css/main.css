@@ -56,6 +56,11 @@ nav img {
 	height: 80px;
   margin-left: 25px;
   margin-top: 15px;
+  animation-name: increase;
+  animation-duration:1s;
+  animation-timing-function:ease-in;
+  animation-iteration-count:infinite;
+  animation-direction: alternate;
 }
 
 nav ul {
@@ -74,6 +79,19 @@ li a{
     display: block;
     float: left;
     color: #1A1A1A;
+}
+
+/*------------------------------------------------------
+ANIMACIÓN
+------------------------------------------------------*/
+
+@keyframes increase {
+  0% {
+    height: 80px;
+  }
+  100% {
+    height: 90px;
+  }
 }
 
 /*------------------------------------------------------
