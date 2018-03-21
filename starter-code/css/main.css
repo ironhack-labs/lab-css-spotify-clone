@@ -6,3 +6,198 @@ Green: #00B172
 White: #FFF
 
 */
+@import url("https://fonts.googleapis.com/css?family=Roboto:100,300,400,700");
+* {
+  margin: 0;
+  padding: 0;
+  font-family: "Roboto";
+}
+main {
+  padding-top: 10vh;
+}
+
+.nav-bar {
+  box-sizing: border-box;
+  height: 10vh;
+  display: inline-block;
+  width: 100%;
+  position: fixed;
+  background-color: white;
+  z-index:  2;
+  align-items: center;
+}
+.nav-bar > img {
+  max-width: 100%;
+  max-height: 100%;
+  height: 70%;
+  float: left;
+  position: absolute;
+  top: 50%;
+  transform: translateY(-50%);
+  margin-left: 30px;
+}
+.nav-bar img:hover {
+  animation-name: bounce;
+  animation-duration: 0.5s;
+  animation-iteration-count: infinite;
+
+  animation-fill-mode: both;
+  animation-direction: alternate;
+}
+.nav-bar > ul {
+  float: right;
+  margin: 30px 0;
+  width: 35%;
+  list-style-type: none;
+  white-space: nowrap;
+  font-size: 1.5em;
+  font-weight: 300;
+  text-align: center;
+  vertical-align: middle;
+}
+.nav-bar ul > li {
+  display: inline-block;
+  margin-right: 15px;
+}
+.header {
+  position: relative;
+  box-sizing: border-box;
+  background-image: url('../images/landing.jpg');
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+  color: white;
+  width: 100%;
+  height: 95vh;
+}
+.header > h1{
+  display: block;
+  font-size: 4.8em;
+  padding-top: 250px;
+  margin: 0 auto;
+  text-align: center;
+  font-weight: 500;
+}
+.header > p {
+  display: block;
+  font-size: 2em;
+  margin: 0 auto;
+  text-align: center;
+  width: 60%;
+  font-weight: 100;
+  padding-top: 35px;
+}
+.clearfix {
+  clear: both;
+}
+.whats {
+  width: 100%;
+  box-sizing: border-box;
+
+  height: 100px;
+  text-align:  center;
+}
+.whats > h2 {
+  font-size: 2em;
+  padding-top:  30px;
+  border-bottom: 4px solid #00b762;
+  width: 28%;
+  margin: 0 auto;
+}
+.wrapper {
+  width: 100%;
+  box-sizing: border-box;
+  height: 400px;
+}
+
+.col {
+  float: left;
+  text-align:  center;
+  height: 100%;
+}
+.col-3 {
+  width: 33.33%;
+  margin:  0 auto;
+}
+.col > img {
+  width: 35%;
+}
+
+.col > h3 {
+  font-size: 2em;
+  color: #00b762;
+  padding: 30px 0;
+}
+.col > p {
+  margin: 0 auto;
+  text-align: center;
+  width: 80%;
+  font-size: 1.5em;
+  font-weight: 100;
+}
+.info {
+  color: white;
+  width: 90%;
+  box-sizing: border-box;
+  background-color: #00b762;
+  margin: 0 auto 30px auto;
+  height: 100vh;
+  position: relative;
+  padding: 60px 80px;
+}
+.left {
+  width: 50%;
+  float: left;
+  height: 100%;
+  z-index:  1;
+  font-size: 1.5em;
+  margin: 0 a;
+}
+.image {
+  width: 50%;
+  float: right;
+  z-index:  1;
+  height: 100%;
+
+
+}
+.image > img {
+  padding: 60px 0 0 110px;
+  width: 60%;
+  margin-left: auto;
+  margin-right: auto;
+  display: block;
+}
+.info > img {
+  width: 15%;
+  position:  absolute;
+  left: 42.5%;
+  top: 42.5%;
+  z-index: 0;
+}
+.left > h2 {
+  border-bottom: 4px solid white;
+  padding: 10px 0;
+  text-align: left;
+  width: 80%;
+}
+
+.left > h3 {
+  margin-top: 70px;
+  margin-bottom: 30px;
+
+}
+.left > p {
+  font-weight: 100;
+  width: 65%;
+  font-size: 1em;
+}
+
+@keyframes bounce {
+  0% {
+    top: 39px;
+  }
+  100% {
+    top: 42px;
+  }
+}
