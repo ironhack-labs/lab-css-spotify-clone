@@ -6,3 +6,160 @@ Green: #00B172
 White: #FFF
 
 */
+*{
+    margin: 0;
+    padding: 0;
+}
+body{
+    font-size: 16px;
+    font-family: Helvetica,Arial,sans-serif;
+    color:#FFF;
+}
+img{
+    max-width: 100%; /*para que no se te vaya la imagen*/
+}
+.nav-bar{
+    position: fixed;
+    top:0;
+    padding:30px 0 30px 0;
+    height: 70px;
+    background-color: #FFF;
+    z-index: 100;
+}
+.clearfix{
+    clear: both;
+}
+.nav-bar-left{
+    float: left;
+    width: 20%;
+}
+.img-logo{
+    position: relative;
+    bottom:15px;
+}
+.nav-bar-right {
+    float: right;
+    width:40%;
+    color:black;
+}
+.nav-list{
+    font-size: 1.8em;
+    text-align: center;
+}
+.nav-li{
+    text-decoration-style: none;
+    display: inline-block;
+    height: 60px;
+    padding: 30px 15px;
+}
+.main{
+    background-image: url("../images/landing.jpg");
+    background-repeat: no-repeat;
+    background-size: cover;
+    height: 1100px;
+}
+.main-wrap {
+    position: relative;
+    top:350px;
+    left:220px;
+    text-align: center;
+    width: 60%;
+    margin:5% 5%;
+}
+.main-wrap h1{
+    font-size: 5.5em;
+    padding-bottom:35px;  
+    padding-left: 60px; /*no he conseguido centar a la vez el h1 y h3,solo usando el padding*/
+}
+.main-wrap h3 {
+    font-size: 2em;
+    line-height: 1.5;
+}
+.description h4{
+    width: 22%;
+    font-size:2.5em;
+    color:black;
+    margin: 0 auto;
+    border-bottom: 5px #00B172 solid;
+    padding: 25px 0 10px 0;
+}
+.description-wrap{
+    margin:0 auto;
+    margin-top: 80px;
+}
+.column3{
+    float:left;
+    width: 32%; 
+    text-align: center;
+    padding: 20px 0 20px 0;  
+}
+.column3 strong{
+    display: block;
+    color:#00B172;
+    font-size: 2em;
+}
+.img-icon{
+    width: 33%;
+    padding-bottom: 20px;
+}
+.img-icon-middle{
+    width: 33%;
+    padding-bottom: 40px;/*he tenido que crear otra clase para 
+                            igualar con los otros tag de strong*/
+}
+.column3 p{
+    color: black;
+    font-size: 1.8em;
+    margin-top: 30px;
+}
+.section-end{
+    position: relative;
+    margin:4.5% 4.5%;
+    background-color: #00B172;
+    height: 1050px;
+}
+.text{
+    float: left;
+    width: 50%;
+    color:#FFF;
+    margin-left: 110px;
+    
+}
+.text h4{
+    font-size: 3em;
+    width: 85%;
+    border-bottom: 4px solid #FFF;
+    margin-top: 60px;
+}
+.text b{
+    font-size: 2.2em;
+    display: inline-block;
+    margin-top: 70px;
+}
+.text p {
+    font-size: 1.6em;
+    margin-top: 50px;
+}
+.img-wrap{
+    float: right;
+    background-image: url("../images/spotify-app.jpg");
+    background-repeat: no-repeat;
+    background-size: cover;
+    height:800px;
+    width: 30%;
+    margin-top: 90px;
+    margin-right: 110px;
+}
+
+.icon-white{
+    position: absolute;
+    width: 12%;
+    top:35%;
+    left: 40%;
+}
+
+
+
+
+
+
