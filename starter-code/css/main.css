@@ -15,7 +15,10 @@ body{
   font-family: Roboto;
   font-size: 16px;
   font-weight: 300;
-  max-width: 1200px;
+
+ }
+ .clear{
+ clear: both;
  }
  /* -- NAv -- */
 .nav-bar{
@@ -24,6 +27,7 @@ body{
   max-width: 1200px;
   height: 8%;
   position: fixed;
+  
 }
 .nav-bar img{
   float: left;
@@ -43,11 +47,28 @@ body{
 /* -- Header -- */
 header{
   width: 100%;
+  height: 650px;
   max-width: 1200px;
-  height: 400px;
-  background-color: red;
+  background-image: url("../images/landing.jpg");
+  background-size: cover;
+  /* Si pones cover, entiendo que no es necesario
+  poner background-repeat: no-repeat; no?  */
+  text-align: center;
+  color: white;
+  clear: both;
 }
 
+header h1{
+  font-size: 65px;
+  padding-top: 235px;
+  margin-bottom: 2%;
+  /* Sería posible haber usado un line-height 650px
+  y poner de algun modo el (header p) debajo de h1
+  sin complicarte mucho? */
+}
+header p{
+  font-size: 25px;
+}
 /* -- Section2 -- */
 .section2{
   width: 100%;
