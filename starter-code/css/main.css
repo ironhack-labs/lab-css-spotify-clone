@@ -6,3 +6,130 @@ Green: #00B172
 White: #FFF
 
 */
+
+/* ---- reset ---- */
+
+html {
+  box-sizing: border-box;
+}
+*, *:before, *:after {
+  box-sizing: inherit;
+}
+
+body {
+  margin: 0;
+  padding: 0;
+}
+
+
+
+
+/*----spotify-nav-----*/
+
+.spotify-nav-ul,
+.spotify-nav-ul li {
+  float: right;
+  display: inline;
+}
+.spotify-nav-ul a {
+  text-decoration: none;
+  padding: 6px;
+}
+.spotify-nav img {
+  padding: 10px;
+  margin-left: 30px;
+}
+
+
+/*----header-spotify----*/
+.header-spotify {
+  background: url("./../images/landing.jpg");
+  background-repeat: no-repeat; 
+  height: 100vh;
+  background-size: cover;
+  background-position: center;
+  text-align: center;
+
+}
+.header-spotify h1 {
+  margin: 0px;
+}
+
+
+
+/*----about-spotify----*/
+.about-spotify {
+  margin: 0 auto;
+  text-align: center;
+  margin-bottom: 400px;
+}
+.about-spotify h2 {
+  text-align: center;
+
+}
+.col {
+  float: left;
+  margin-left: 30px;
+}
+.col-3 {
+  width: 31%;
+}
+.clearfix{
+  clear: both;
+}
+
+/*----kanye-west----*/
+.kanye-west {
+  background-color: #00B172;
+  margin: 40px;
+  padding: 30px;
+  overflow: hidden;
+}
+.app-kanye-west {
+  float: right;
+  padding-bottom: 100px;
+}
+.white-logo {
+  position: relative;
+  left: 50%;
+}
+.kanye-west ul, 
+.kanye-west li {
+  list-style-type: none;
+}
+
+
+/*----text-properties----*/
+.spotify-nav-ul a{
+  color:black;
+}
+
+.header-spotify {
+  color: white;
+  font-size: 35px;
+}
+.about-spotify h2 {
+  font-size: 35px;
+  text-decoration: underline;
+  text-decoration-color: #00B172;
+}
+.about-spotify h3 {
+  color: #00B172;
+}
+.about-spotify p {
+  font-size: 20px;
+}
+.kanye-west h2 {
+  font-size: 40px;
+  text-decoration: underline;
+}
+.kanye-west h3 {
+  font-size: 30px;
+}
+.kanye-west p {
+  font-size: 20px;
+}
+.kanye-west {
+  color:white;
+}
+
