@@ -7,30 +7,100 @@ White: #FFF
 
 */
 
-* {
-  
+img {
+  max-width: 100%;
 }
+
+.clearfix {
+  clear: both;
+}
+
+* {
+  margin: 0;
+  padding: 0;
+}
+
 
 header {
   background-color: red;  
+  position: fixed;
+  width: 100%;
+}
+
+.menu {
+
+}
+
+.menu ul {
+  float: right;
+  display: inline-flex;
 }
 
 body {
-  background-color: pink
+  background-color: pink;
+  margin: 0 auto;
+  
 }
 
 #container {
   background-color: green;
+  margin: 0 auto;
+  width: 95%;
+  padding-top: 77px; 
 }
 
-#portada {
+.portada {
   background-color: yellowgreen;
+  background-image: url("../images/landing.jpg");
+  background-size: cover;
+  height: 60vh;
+  color: white;
+  margin: 0 auto;
+ 
 }
 
-#what {
-  background-color: wheat;
+.portada h1 {
+  font-size: 50px;
+  margin: 0 auto;
+  text-align: center;
+}
+
+.portada p {
+  font-size: 20px;
+  margin: 0 auto;
+  text-align: center;
+}
+
+.logo img{
+  width: 25%;
+  float: left;
 }
 
 #green {
   background-color: whitesmoke;
+}
+
+#info {
+  width: 100%;
+  float: left;
+  margin: 0 auto;
+  background-color: turquoise;
+}
+
+#what {
+  background-color: wheat;
+  width: 33%;
+  float: left;
+}
+
+#music {
+  width: 33%;
+  float: left;
+  background-color: steelblue;
+}
+
+#stream {
+  width: 33%;
+  float: left;
+  background-color: royalblue;
 }
