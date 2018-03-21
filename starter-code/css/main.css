@@ -6,3 +6,137 @@ Green: #00B172
 White: #FFF
 
 */
+
+
+/* ---- reset ---- */
+
+html {
+    box-sizing: border-box;
+  }
+  *, *:before, *:after {
+    box-sizing: inherit;
+  }
+  
+  body {
+    margin: 0;
+    padding: 0;
+  }
+  
+  
+  /* ---- typography ---- */
+  
+  body {
+    color: #111;
+    font-family: Helvetica, Arial, sans-serif;
+    font-size: 16px;
+    line-height: 147%;
+  }
+  
+  h1 {
+    font-size: 30px;
+
+  }
+  
+  h2 {
+    font-size: 23px;
+    }
+  
+  h3 {}
+  
+  p {
+    margin: 0;
+  }
+  
+  
+  
+  /* ---- layout ---- */
+  
+ 
+  
+  @media (min-width: 768px) {
+    .container {
+      max-width: 728px;
+      margin: 0 auto;
+    }
+  }
+  
+
+  /* ---- components ---- */
+
+  /* ---- nav-bar ---- */
+
+  .container{
+    padding: 10px;
+    height: 100px;
+  }
+  .container img{
+    width: 20%;
+    height: auto;
+    float: left;
+    display: block;
+    padding-top: 20px;
+}
+
+  #nav-bar ul{
+    float: right;
+    display: block;
+    padding-top: 20px;
+    
+  }
+  #nav-bar ul{
+    
+    text-decoration: none;
+  }
+
+  /* ---- section1 ---- */
+
+  .landing{
+    background-image: url("../images/landing.jpg");
+    height: 600px;
+    position: relative;
+    width: 100%;
+    background-size: cover;
+  }
+
+  .text{
+    color:white;
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    text-align: center;
+    
+  }
+
+  /* ---- section2 ---- */
+
+  .title{
+    text-align: center;
+    padding-top: 30px;
+  }
+
+  /* ---- section3 ---- */
+
+  #section3{
+    background-color: #00B172;
+  }
+  
+  .text2{
+    float: left;
+  }
+
+  .kanye img{
+    float: right;
+    width: 40%;
+  }
+
+  .log img{
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    width: 5%;
+  }
+
+
+
