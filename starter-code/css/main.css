@@ -7,6 +7,8 @@ White: #FFF
 
 */
 
+@import url('https://fonts.googleapis.com/css?family=Roboto:100,300,400,700');
+
 img {
   max-width: 100%;
 }
@@ -18,6 +20,7 @@ img {
 * {
   margin: 0;
   padding: 0;
+  font-family: Roboto;
 }
 
 
@@ -25,6 +28,8 @@ header {
   background-color: red;  
   position: fixed;
   width: 100%;
+  box-sizing: border-box;
+  height: 10vh;
 }
 
 .menu {
@@ -45,8 +50,8 @@ body {
 #container {
   background-color: green;
   margin: 0 auto;
-  width: 95%;
-  padding-top: 77px; 
+  width: 100%;
+  padding-top: 10vh; 
 }
 
 .portada {
