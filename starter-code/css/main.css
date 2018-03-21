@@ -6,3 +6,206 @@ Green: #00B172
 White: #FFF
 
 */
+
+/* ---- reset ---- */
+
+html {
+  box-sizing: border-box;
+}
+*,
+*:before,
+*:after {
+  box-sizing: inherit;
+}
+
+body {
+  margin: 0;
+  padding: 0;
+}
+
+/* ---- typography ---- */
+
+body {
+  color: #111;
+  font-family: Helvetica, Arial, sans-serif;
+  font-size: 16px;
+  line-height: 147%;
+}
+
+h1 {
+  font-size: 60px;
+}
+
+h2 {
+}
+
+h3 {
+}
+
+p {
+  margin: 0;
+}
+
+/* ---- layout ---- */
+
+#site-header {
+  color: black;
+  background: white;
+}
+
+#site-footer {
+  color: white;
+  padding: 60px 0;
+  background: #111;
+}
+
+#site-main {
+  margin-bottom: 60px;
+}
+
+.container {
+  margin: 0 20px;
+}
+
+.section {
+  margin-bottom: 20px;
+  padding-top: 20px;
+}
+
+@media (min-width: 768px) {
+  .container {
+    max-width: 728px;
+    margin: 0 auto;
+  }
+}
+
+/* ---- components ---- */
+
+.logo {
+  height: 7vh;
+  width: auto;
+  float: left;
+  margin-bottom: 6px;
+  padding-top: 6px;
+  padding-left: 6px;
+}
+
+#main-nav {
+  overflow: hidden;
+}
+
+#main-nav li {
+  display: inline;
+  float: right;
+  list-style-type: none;
+  padding: 0 12px;
+}
+
+#main-nav a {
+  text-decoration: none;
+  color: black;
+}
+
+.main-info {
+  background-image: url("../images/landing.jpg");
+  background-size: cover;
+  height: 84vh;
+}
+
+.main-info h1,
+.main-info p {
+  color: white;
+  text-align: center;
+  vertical-align: super;
+}
+
+.main-info-text {
+  padding-top: 209px;
+}
+
+.main-info-text p {
+  font-size: 25px;
+}
+.h3-like {
+  width: 38%;
+  margin: 0 auto;
+  margin-bottom: 75px;
+}
+
+#site-main .h3-like h3 {
+  text-align: center;
+  display: block;
+  border-bottom: 5px solid #00b172;
+  font-size: 30px;
+  margin: 0;
+  padding-top: 25px;
+  padding-bottom: 6px;
+}
+
+.col {
+  float: left;
+}
+
+.col-middle {
+  margin: 0 5%;
+}
+
+.col-3 {
+  width: 30%;
+}
+
+.icons {
+  height: 10vh;
+  width: auto;
+  display: block;
+  margin: 0 auto;
+}
+
+#site-main div {
+  text-align: center;
+}
+
+#site-main h4 {
+  color: #00b172;
+  font-size: 23px;
+}
+
+.clearfix {
+  clear: both;
+}
+
+#footer-text {
+  padding-left: 30px;
+}
+.footer-container {
+  background-color: #00b172;
+  overflow: hidden;
+}
+
+.h3-like-footer {
+  width: 57%;
+  margin-bottom: 75px;
+}
+
+#footer-text h3,
+#footer-text h4,
+#footer-text p {
+  color: white;
+  text-align: left;
+}
+
+#footer-text .h3-like-footer h3 {
+  text-align: left;
+  display: block;
+  border-bottom: 5px solid white;
+  font-size: 28px;
+  margin: 0;
+  padding-top: 25px;
+  padding-bottom: 6px;
+}
+
+.footer-image {
+  display: block;
+  height: 10vh;
+  width: auto;
+}
