@@ -16,7 +16,6 @@ header {
   position: fixed;
   top: 0;
   background-color: white;
-  clear: both;
 }
 
 img {
@@ -70,21 +69,27 @@ ul > li {
   margin-top: 60px;
 }
 
+h2 {
+  margin-bottom: 10px;
+  padding-bottom: 5px;
+  border-bottom: 4px solid #FFF;
+}
+
 #section2 h2 {
   text-align: center;
-  clear: both;
+
   width: 330px;
   margin: 0 auto;
   margin-bottom: 10px;
   padding-bottom: 5px;
-  border-bottom: 4px solid #00B172;
+  border-bottom-color: #00B172;
 }
 
 #content2 {
   width: 90%;
   margin: 0 auto;
   height: 500px;
-  position: relative;
+  /*position: relative;*/
   top: 50px;
 }
 
@@ -105,8 +110,45 @@ ul > li {
   text-align: center;
 }
 
-.greentext {
-  color: #00B172;
+.greentext, .whitetext {
   font-weight: 800;
   font-size: 28px;
+}
+.greentext {
+  color: #00B172;
+}
+
+#section3 {
+  width: 90%;
+  margin: 0 auto;
+  height: 800px;
+  background-image: url("..//images/spotify-icon-white.png");
+  background-repeat: no-repeat;
+  background-size: 100px;
+  background-position: 50%;
+  background-color: #00B172;
+  color: #FFF;
+}
+
+.left-half {
+  width: 40%;
+  float: left;
+  box-sizing: border-box;
+  margin-top: 50px;
+}
+
+.right-half {
+  width: 50%;
+  float: right;
+  box-sizing: border-box;
+  margin-top: 50px;
+}
+
+#Kanye {
+  display: block;
+  margin: auto;
+}
+
+#section3 h2, #section3 p {
+  margin-left: 170px;
 }
