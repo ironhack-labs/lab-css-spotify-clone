@@ -1,8 +1,151 @@
 /*
 Colors:
 
-Text: 1A1A1A
+Text: #1A1A1A
 Green: #00B172
 White: #FFF
 
 */
+
+/* ---- reset ---- */
+
+html {
+  box-sizing: border-box;
+}
+*, *:before, *:after {
+  box-sizing: inherit;
+}
+
+body {
+  margin: 0;
+  padding: 0;
+}
+
+
+/* ---- typography ---- */
+
+body {
+  color: #1A1A1A;
+  font-family: Helvetica, Arial, sans-serif;
+  font-size: 16px;
+  line-height: 147%;
+  background-color: #FFF;
+}
+
+h1 {
+  text-align: center;
+  font-size: 50px;
+  font-weight: bold;
+  padding-top: 25%;
+}
+
+
+h2 {
+  text-align: center;
+}
+
+.icons h3 {
+  color: #00B172;
+}
+
+p {
+  margin: 0;
+  text-align: center;
+  font-weight: 400;
+}
+
+
+
+/* ---- layout ---- */
+
+#site-header {
+  padding: 16px 16px;
+  position: fixed;
+  background-color: #FFF;
+}
+
+#top-right  {
+  float: right;
+}
+
+#main-title {
+  color: #FFF;
+  padding: 60px 0;
+  background-image: url("../images/landing.jpg");
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-position: 0 0;
+  height: 100vh;
+}
+
+#highlights {
+  margin-bottom: 60px;
+  /* display: inline-block; */
+}
+
+#hightlights div {
+
+}
+.col-container{
+  margin: 0 auto;
+  width: 60vw;
+}
+.col{
+  float:left;
+  width: 33%;
+}
+
+#features{
+  color: #FFF;
+  background-color: #00B172;
+}
+
+.container {
+  margin: 0 20px;
+}
+
+.section {
+  margin-bottom: 20px;
+  padding-top: 20px;
+}
+
+@media (min-width: 768px) {
+  .container {
+    max-width: 728px;
+    margin: 0 auto;
+  }
+}
+
+
+
+/* ---- components ---- */
+
+/* ---- site-header ---- */
+
+#site-header img {
+  width: 15%;
+  float: left;
+}
+
+/* --- top-right ---*/
+
+#top-right a {
+  padding: 0px 12px;
+  text-decoration: none;
+  color:#1A1A1A;
+}
+#top-right li {
+  display: inline-block;
+
+}
+ /* --- main-title ---*/
+
+ #main-title p {
+   vertical-align: middle;
+ }
+
+ /* --- highlights --- */
+
+ #highlights img {
+   width: 20%;
+ }
