@@ -45,7 +45,7 @@ ul > li {
   padding-left: 30px;
 }
 
-.section1 {
+#section1 {
   color: #FFF;
   display: block;
   width: 100%;
@@ -58,16 +58,30 @@ ul > li {
   font-size: 80px;
   font-weight: 700;
 }
-.section1 .text {
+#section1 .text {
   text-align: center;
   padding-top: 300px;
   font-size: 36px;
 }
 
-
-.section2 h2 {
-  text-align: center;
+#section2 {
+  height: 800px;
 }
+
+#section2 h2 {
+  text-align: center;
+  clear: both;
+  margin-bottom: 10px;
+}
+
+#content2 {
+  width: 90%;
+  margin: 0 auto;
+  height: 700px;
+  position: relative;
+  top: 50px;
+}
+
 .left {
   width: 33%;
   float: left;
@@ -75,5 +89,22 @@ ul > li {
 }
 
 .logo {
+  display: block;
   height: 80px;
+  margin: 0 auto;
+}
+
+.left > p {
+  text-align: center;
+}
+
+hr { 
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+  border-style: inset;
+  border-width: 4px;
+  font-size: 0;
+  width: 330px;
+  border-color: #00B172;
 }
