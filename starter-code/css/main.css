@@ -6,3 +6,95 @@ Green: #00B172
 White: #FFF
 
 */
+
+html {
+  box-sizing: border-box;
+}
+*, *:before, *:after {
+  box-sizing: inherit;
+}
+
+body {
+  margin: 0;
+  padding: 0;
+  color: #fff;
+  font-family: Arial, Helvetica, sans-serif;
+}
+h1 {
+  font-size: 58px;
+}
+
+/* ---- typography ---- */
+
+/* ---- layout ---- */
+
+
+/** navigation **/
+
+
+.navbar img {
+  width: 30%;
+  float: left;
+}
+.navbar {
+  overflow: hidden;
+  background-color:white;
+  position: fixed;
+  top: 0;
+  width: 100%;
+ }
+ 
+ 
+ .navbar a {
+  float: right;
+  display: block;
+  color: black;
+  text-align: center;
+  padding: 50px 16px;
+  text-decoration: none;
+  font-size: 17px;
+ }
+ 
+ .navbar a:hover {
+  background: #ddd;
+  color: black;
+ }
+ 
+ @media only screen and (max-width: 600px) {
+  .navbar {
+      display:flex;
+      flex-direction: column;
+  }
+}
+
+/*------music section-------*/
+
+.music {
+  background-image: url(/home/mihai/Desktop/ironhack/lab-css-spotify-clone/starter-code/images/landing.jpg);
+  background-size: cover;
+  height: 100vh;
+  margin-bottom: 50px;
+}
+.music div {
+  padding-top: 40vh;
+}
+.music h1, h3 {
+ text-align: center;
+}
+
+.music h3{
+  
+}
+
+/*------info section------*/
+
+.info h2 {
+  color: #1A1A1A;
+  text-align: center;
+  line-height: 3px;
+}
+.info hr {
+  width: 25%;
+  height: 5px;
+  background-color: #00B172;
+}
