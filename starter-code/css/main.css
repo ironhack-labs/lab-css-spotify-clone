@@ -25,17 +25,13 @@ img {
 }
 
 
+/* seccion superior */
 header {
-  /* background-color: red;   */
   position: fixed;
   width: 100%;
   box-sizing: border-box;
   height: 10vh;
   background-color: white;
-}
-
-.menu {
-
 }
 
 .menu ul {
@@ -49,28 +45,34 @@ header {
   margin: 0% 11% 0% 0% ;
 }
 
+#spotify:hover {
+  transform: rotate(360deg);
+}
 
+.logo img {
+  width: 18%;
+  float: left;
+  padding: 1.4% 1% 1% 2.4%;
+  transition: transform .8s ease-in-out;
+}
+
+/* cuerpo */
 body {
-  /* background-color: pink; */
   margin: 0 auto;
-  
 }
 
 #container {
-  /* background-color: green; */
   margin: 0 auto;
   width: 100%;
   padding-top: 10vh; 
 }
 
 .portada {
-  /* background-color: yellowgreen; */
   background-image: url("../images/landing.jpg");
   background-size: cover;
   height: 60vh;
   color: white;
   margin: 0 auto;
-
 }
 
 .portada h1 {
@@ -102,18 +104,6 @@ body {
   padding: 0;
   width: 50%;
   color: #00B172;
-  /* background-color: #00B172; */
-}
-
-
-.logo:hover {
-  animation: shake;
-}
-
-.logo img {
-  width: 18%;
-  float: left;
-  padding: 1.4% 1% 1% 2.4%;
 }
 
 .center-text {
@@ -123,10 +113,50 @@ body {
 
 .img-size {
   width: 30%;
-/*   padding-left: 25%; */
-
 }
 
+.green-text h4 {
+  padding: 11% 0% 7% 0%;
+  font-size: 20px;
+  font-weight: bold;
+  }
+
+/* barra central */
+#barra {
+  margin: 6% 0% 0% 0%;
+  text-align: center;
+}
+
+/* bloque de info central con los tres bloques */
+#info {
+  width: 100%;
+  float: left;
+  margin: 0 auto;
+  text-align:center;
+  margin: 9% 1% 4% 1%;
+}
+
+#what {
+  width: 33%;
+  float: left;
+}
+
+#music {
+  width: 33%;
+  float: left;
+}
+
+#stream {
+  width: 33%;
+  float: left;
+}
+
+.borde-dentro {
+  border: 20px solid white;
+  box-sizing: border-box;
+}
+
+/* seccion verde final */
 #green {
   color: white;
   background: #00B172 url("../images/spotify-icon-white.png");
@@ -142,22 +172,10 @@ body {
 }
 
 .green-text {
-/*   background-color: whitesmoke; */
   float: left;
   width: 50%;
   padding: 31px 0% 0% 6%;
 }
-
-.green-text h4 {
-  padding: 11% 0% 7% 0%;
-  font-size: 20px;
-  font-weight: bold;
-  }
-
-  #barra {
-    margin: 6% 0% 0% 0%;
-    text-align: center;
-  }
 
 .green-app {
   width: 50%;
@@ -173,58 +191,3 @@ body {
   display: inline;
 }
 
-#info {
-  width: 100%;
-  float: left;
-  margin: 0 auto;
-  /* background-color: turquoise; */
-  text-align:center;
-  margin: 9% 1% 4% 1%;
-}
-
-#what {
-  /* background-color: wheat; */
-  width: 33%;
-  float: left;
-}
-
-#music {
-  width: 33%;
-  float: left;
-  /* background-color: steelblue; */
-}
-
-#stream {
-  width: 33%;
-  float: left;
-  /* background-color: royalblue; */
-}
-
-.borde-dentro {
-  border: 20px solid white;
-  box-sizing: border-box;
-}
-
-/* animacion imagen logo */
-
-@keyframes shake {
-  0% {
-    margin-top:10px;
-  }
-  
-  25% {
-    margin-top:110px;
-  }
-
-  50% {
-    margin-top:10px;
-  }
-
-  75% {
-    margin-top:110px;
-  }
-
-  100% {
-    margin-top:10px;
-  }
-}
