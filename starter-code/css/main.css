@@ -6,3 +6,188 @@ Green: #00B172
 White: #FFF
 
 */
+@import url('https://fonts.googleapis.com/css?family=Raleway:300,400,500,700,900');
+*{
+  margin: 0;
+  font-family: 'Raleway', sans-serif;
+}
+img {
+  max-width: 100%;
+}
+.clearfix{
+  clear: both; 
+  }
+/*-----nav-------*/
+.menu{
+  position: fixed;
+  width: 100%;
+  height: 100px;
+  background-color: #FFF;
+}
+.logo{
+  box-sizing: border-box;
+  vertical-align: middle;
+  padding-top: 14px;
+  padding-left: 40px;
+  float: left;
+  height: 100px;
+  
+}
+.logo:hover {
+  animation-name: menu-animacion;
+  animation-duration: 3s;
+  animation-iteration-count: infinite;  
+}
+.top-links {
+  display: inline-block;
+  padding: 0;
+  text-align: right;
+  padding-top: 40px;
+}
+.top-links li {
+  float: right;
+  margin: 0 20px 0 0;
+  text-align: right;  
+  text-decoration: none;
+  list-style-type: none;
+}
+.top-links li a{
+  text-decoration: none;
+  text-align: right;
+  color: black;
+}
+
+.col-nav-a{
+  float: left;  
+  width: 30%; 
+  height: 100px;
+  justify-content: center; 
+  background-color: white;
+  box-sizing: border-box;
+}
+.col-nav-b{
+  float: right;  
+  width: 30%; 
+  height: 100px;
+  justify-content: right; 
+  background-color: white;
+  box-sizing: border-box;
+}
+@keyframes menu-animacion {
+  0% {
+   background-color: white;
+  }
+
+  50% {
+    background-color: black;
+  } 
+  
+  100% {
+    background-color: white;
+  }
+}
+/*----- principal-------*/
+.principal{
+  background-image: url("../images/landing.jpg");
+  width: 100%;
+  height: 900px;
+  color: white;
+  box-sizing: border-box;
+  background-repeat: no-repeat;
+  background-size: cover; 
+}
+h1{
+  padding-top: 20%;
+  font-size: 100px;
+  text-align: center;  
+}
+/*----- section 1--------*/
+h2{
+  text-align: center;
+  width: 100%;
+  height: 100px;
+}
+.section1 h2{
+  padding-top: 30px;
+  padding-bottom: 30px;
+  font-size: 40px;
+  text-decoration: underline;
+  text-decoration-color: #00B172;
+}
+
+.container-section1{
+  width: 100%;
+  height: 400px;
+}
+.columna-centrada {
+  margin: 0 auto;
+  text-align: center;  
+}
+.col-3{
+  float: left;  
+  width: 33%; 
+  justify-content: center;       
+}
+.stilo-section1 h3{
+ color: #00B172;
+ padding-top: 20px;
+ font-size: 30px;
+}
+.stilo-section1 p{  
+   padding-top: 20px;
+   font-size: 20px;
+   font-weight: 200;
+
+ }
+/*----- section 2--------*/
+.container-section2{
+  background-color: #00B172;
+  background-image: url("../images/spotify-icon-white.png");
+  width: 95%;
+  height: 800px;
+  margin:0 auto;
+  background-repeat: no-repeat;
+  background-size: 140px; 
+  background-position: center;
+}
+.col-a{
+  float: left;  
+  width: 60%; 
+  height: 700px;
+  padding: 5% 25% 5% 5%;
+  box-sizing: border-box;
+  color: white;
+}
+.stilo-section2{
+  text-align: left;  
+}
+.stilo-section2 h3{
+  font-size: 50px;
+  padding-bottom: 20px;
+  text-decoration: underline;
+  text-decoration-color: white;
+  line-height: 80px;
+}
+.stilo-section2 h4{
+  font-size: 30px;
+  padding-bottom: 10px;
+}
+.stilo-section2 p{
+  font-size: 20px;
+  padding: 25px 0;
+  
+}
+.col-b{
+  float: left;  
+  width: 40%; 
+  height: 700px;
+  justify-content: center;
+  box-sizing: border-box;
+}
+.phone{
+  padding-top: 10%;
+}
+.bottom{
+  width: 100%; 
+  height: 30px;
+}
