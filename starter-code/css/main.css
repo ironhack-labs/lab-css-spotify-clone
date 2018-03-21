@@ -93,7 +93,6 @@ section{
 }
 article{
   margin:auto;
-  text-align: center;
 }
 section#landing{
   background: url("../images/landing.jpg") no-repeat;
@@ -101,6 +100,7 @@ section#landing{
   background-attachment: fixed;
   background-position: 50% 0;
   background-repeat: no-repeat;
+  text-align: center;
 }
 section#landing article{
   margin-top: 30vh;
@@ -112,10 +112,13 @@ section#landing p{
   font-weight: 300;
   font-size: 1.3em;
 }
+section#features {
+  text-align:center;
+}
 section#yeezy{
-  padding: 20px;
-  background-color:#00B172;
+
   color:white;
+  z-index: 2;
 }
 section#yeezy p{
   font-weight: 300;
@@ -127,11 +130,18 @@ section#yeezy h2{
 section#yeezy h3{
   color:white;
 }
+section#yeezy article{
+  background-color:#00B172;
+  margin: 40px;
+  position:absolute;
+  overflow:auto;
+}
 #white-logo-back{
-  z-index:0;
-  top: 50%;
-  left:50%;
-  width: 100px;
+  position:relative;
+  width: 130px;
+  top: 50vh;
+  right: 50%;
+  z-index: 3;
 }
 section#yeezy div:nth-child(1){
   padding: 2.5% 5%;
@@ -139,5 +149,6 @@ section#yeezy div:nth-child(1){
 }
 section#yeezy div:nth-child(2){
   width: 30%;
-  padding:5%;
+  padding:5% 3%;
 }
+
