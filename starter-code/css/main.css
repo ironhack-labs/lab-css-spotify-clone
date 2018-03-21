@@ -1,3 +1,5 @@
+@import url('https://fonts.googleapis.com/css?family=Cabin:400,400i,500,500i,600,600i,700,700i');
+
 /*
 Colors:
 
@@ -6,3 +8,195 @@ Green: #00B172
 White: #FFF
 
 */
+
+* {
+  font-family: Cabin, Arial, Helvetica;
+  margin: 0;
+  padding: 0;
+}
+
+img {
+  max-width: 100%;
+}
+
+.clear-fix {
+  clear: both;
+}
+
+.header {
+  position: fixed;
+  display: flex;
+  align-items: center;
+  background-color: white;
+  width: 100%;
+  padding: 20px;
+  border-bottom: 1px solid grey;
+  z-index: 100;
+}
+
+@keyframes logoAnimado {
+  0% {
+    width: 250px;
+    height: 80px;
+  }
+
+  100% {
+    width: 300px;
+    height: 100px;
+  }
+}
+
+.logo img {
+  height: 80px;
+  width: 250px;
+  float: left;
+  animation: logoAnimado 1s alternate-reverse;
+}
+
+.menu {
+  margin-left: auto;
+  padding-right: 70px;
+}
+
+.menu ul {
+  list-style-type: none;
+}
+
+.menu li {
+  display: inline-block;
+}
+
+.menu ul li a {
+  text-decoration: none;
+  color: black;
+  font-size: 2em;
+  padding-left: 10px;
+}
+
+.main {
+  background-image: url("../images/landing.jpg");
+  background-size: cover;
+  background-repeat: no-repeat;
+  background-position: center;
+  padding-top: 300px;
+  height: 700px;
+}
+
+.main-text {
+  color: white;
+  text-align: center;
+  width: 60%;
+  height: 200px;
+  position: absolute;
+  top: 40%;
+  left: 21%;
+}
+
+.main h1 {
+  font-size: 6em;
+}
+
+.main h3{
+  font-size: 2em;
+  font-weight: lighter;
+}
+
+.content {
+  position: relative;
+  box-sizing: border-box;
+  width: 100%;
+  padding: 50px 0;
+}
+
+.content-title {
+  text-align: center;
+}
+
+.content-title-underline {
+  width: 400px;
+  margin: 0 auto;
+}
+
+ .content-title h2 {
+  border-bottom: 3px solid #00D667;
+  font-size: 3em;
+  margin-bottom: 20px;
+}
+
+.content-features {
+  box-sizing: border-box;
+  width: 100%;
+  padding-top: 50px;
+  text-align: center;
+}
+
+.content-features img {
+  width: 100px;
+  height: 100px;
+}
+
+.content-features-box {
+  padding: 20px 0;
+  width: 33%;
+  float: left;
+}
+
+.content-features-box h3 {
+  color: #00D667;
+  font-size: 2em;
+}
+
+.content-features-box p {
+  margin-top: 20px;
+  font-size: 2em;
+}
+
+.footer {
+  margin-top: 50px;
+  background-color: #00D667;
+  width: 95%;
+  margin: 0 auto;
+  background-image: url("../images/spotify-icon-white.png");
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: 140px;
+}
+
+.footer-left {
+  color: white;
+  width: 50%;
+  padding: 80px 0 50px 80px;
+  float:left;
+}
+
+.footer-left-title {
+  border-bottom: 4px solid white;
+  font-size: 1.7em;
+  width: 55%;
+  padding: 0 0 10px 0;
+}
+
+.footer-left-content {
+  padding: 30px 0;
+  width: 60%;
+  font-size: 1.2em;
+}
+
+.footer-left-content h3 {
+  font-size: 1.5em;
+  margin-top: 30px;
+}
+
+.footer-left-content p {
+  padding-top: 20px;
+}
+
+.footer-right{
+  text-align: center;
+  padding: 100px;
+}
+
+.footer-right img {
+  width: 350px;
+  height: 600px;
+}
