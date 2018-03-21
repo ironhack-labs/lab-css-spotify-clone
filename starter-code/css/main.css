@@ -7,36 +7,101 @@ White: #FFF
 
 */
 
-@import url('https://fonts.googleapis.com/css?family=Roboto:400,900');
-
-header{
-  position: fixed;
-  overflow:auto;
+@import url('https://fonts.googleapis.com/css?family=Roboto:100,300,700,900');
+*{
+  box-sizing: border-box;
 }
-#logo img{
-  width: 200px;
+body{
+  font-family: 'Roboto', sans-serif;
+  margin:0;
+  font-size: 1.6em;
+  font-weight: 300;
 }
-#logo{
-  margin-left: 2%;
+.center{
+  margin:auto;
+  text-align: center;
+}
+.col-3{
   float:left;
+  width: 33%;
+  position:relative;
+  padding: 5%
+}
+.col-3 > img {
+  height: 100px;
+}
+h1{
+  font-size: 3em;
+  font-weight: 700;
+}
+h2{
+  display: inline-block;
+  line-height: 1.5em;
+  font-weight: 600;
+  border-bottom: 4px solid #00B172;
+}
+h3{
+  color: #00B172;
+}
+p{
+  font-weight: 100;
+}
+.header{
+  margin-top: 60px;
+  width: 30%;
 }
 navbar{
-  float: right;
+  position:fixed;
+  width: 100%;
+  height: 100px;
+  display:block;
+  z-index: 5;
+  background:white;
+}
+#logo img{
+  height: 60px;
+}
+#logo{
+  float:left;
+  margin-left: 2%;
+  padding: 20px;
+}
+menu{
+  float:right;
+  padding: 15px 20px;
 }
 nav{
   display: inline-block;
+  margin-right: 10px;
 }
-header, main, section{
+main, section{
   float:left;
   width:100%;
 }
 main{
   position:relative;
-  top: 50px;
+  top: 100px;
 }
 section{
-  height:calc(100vh - 50px)
+  height:calc(100vh - 100px);
 }
 article{
   margin:auto;
+  text-align: center;
+}
+#landing{
+  background: url("../images/landing.jpg") no-repeat;
+  background-size: cover;
+  background-attachment: fixed;
+  background-position: 50% 0;
+  background-repeat: no-repeat;
+}
+#landing article{
+  margin-top: 30vh;
+  width: 50vw;
+  color: white;
+  line-height: 0.8em;
+}
+#landing p{
+  font-weight: 300;
 }
