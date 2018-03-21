@@ -21,6 +21,12 @@ body{
   margin:auto;
   text-align: center;
 }
+.left{
+  float:left;
+}
+img{
+  max-width:100%;
+}
 .col-3{
   float:left;
   width: 33%;
@@ -89,19 +95,44 @@ article{
   margin:auto;
   text-align: center;
 }
-#landing{
+section#landing{
   background: url("../images/landing.jpg") no-repeat;
   background-size: cover;
   background-attachment: fixed;
   background-position: 50% 0;
   background-repeat: no-repeat;
 }
-#landing article{
+section#landing article{
   margin-top: 30vh;
   width: 50vw;
   color: white;
   line-height: 0.8em;
 }
-#landing p{
+section#landing p{
   font-weight: 300;
+}
+section#yeezy{
+  padding: 20px;
+  background-color:#00B172;
+  color:white;
+}
+section#yeezy p{
+  font-weight: 300;
+}
+section#yeezy h2{
+  border-color:white;
+}
+#white-logo-back{
+  z-index:0;
+  top: 50%;
+  left:50%;
+  width: 100px;
+}
+section#yeezy div:nth-child(1){
+  padding: 2.5% 5%;
+  width: 60%;
+}
+section#yeezy div:nth-child(2){
+  width: 30%;
+  padding:5%;
 }
