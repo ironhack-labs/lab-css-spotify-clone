@@ -6,3 +6,197 @@ Green: #00B172
 White: #FFF
 
 */
+
+/*------------------------------------------------------
+ASPECTOS GENERALES
+------------------------------------------------------*/
+
+* {
+  margin: 0;
+  padding: 0;
+  text-decoration: none;
+  list-style: none;
+}
+
+body {
+  font-family: 'Roboto', sans-serif;
+  color: #1A1A1A;
+}
+
+img {
+  max-width: 100%;
+}
+
+/*------------------------------------------------------
+HEADER
+------------------------------------------------------*/
+
+header {
+  background-color: #fff;
+  position: fixed;
+  height: 15vh;
+  font-size: 25px;
+  width: 100%;
+}
+
+#false-header {
+  height: 15vh;
+}
+
+/*------------------------------------------------------
+BARRA DE NAVEGACIÓN
+------------------------------------------------------*/
+
+nav {
+	width: auto;
+	height: 15vh;
+}
+
+nav img {
+	height: 80px;
+  margin-left: 25px;
+  margin-top: 15px;
+}
+
+nav ul {
+	float:right;
+  margin-right: 25px;
+  margin-top: 40px;
+}
+
+nav li {
+	display: inline-block;	
+	letter-spacing:2px;
+}
+
+li a{
+    padding: 0 10px;
+    display: block;
+    float: left;
+    color: #1A1A1A;
+}
+
+/*------------------------------------------------------
+SECCIÓN 1
+------------------------------------------------------*/
+
+#one {
+  height: 85vh;
+  background: rgba(0,0,0,0) url("../images/landing.jpg") repeat fixed center bottom / cover;
+  color: #fff;
+  text-align: center;
+}
+
+#one div {
+  display: inline-block;
+  width: 60%;
+}
+
+#one h2 {
+  padding: 30vh 0 40px 0;
+  font-size: 70px;
+}
+
+#one p {
+  font-size: 25px;
+}
+
+/*------------------------------------------------------
+SECCIÓN 2
+------------------------------------------------------*/
+
+#two {
+  text-align: center;
+  margin-bottom: 100px;
+  margin: 60px 60px 100px 60px;
+}
+
+#two h1 {
+  font-size: 40px;
+}
+
+#under-green {
+  margin-bottom: 100px;
+  display: inline-block;
+  width: 332px;
+  border-width: 0 0 4px;
+  border-style: solid;
+  border-color: #00B172;
+}
+
+#two h4 {
+  font-size: 35px;
+  color: #00B172;
+  margin: 20px 0;
+}
+
+#two p {
+  font-size: 23px;
+  font-weight: 300;
+}
+
+.terc {
+  display: inline-block;
+  width: 25%;
+  margin: 0 20px;
+}
+
+#two img {
+  width: 150px;
+}
+
+/*------------------------------------------------------
+SECCIÓN 3
+------------------------------------------------------*/
+
+#three {
+  margin: 40px;
+  background: #00B172 url("../images/spotify-icon-white.png") center no-repeat;
+  background-size: 130px;
+  text-align: center;
+  padding: 50px;
+  color: #fff;
+}
+
+#under-white {
+  margin-bottom: 100px;
+  display: inline-block;
+  width: 494px;
+  border-width: 0 0 4px;
+  border-style: solid;
+  border-color: #fff;
+}
+
+.mid{
+  display: inline-block;
+  width: 26%;
+  text-align: left;
+}
+
+#three h3{
+  font-size: 40px;
+}
+
+#three img {
+  max-width: none;
+  height: 700px;
+  
+}
+
+#three h4 {
+  font-size: 35px;
+}
+
+#three p {
+  font-size: 23px;
+  font-weight: 300;
+  margin: 50px 0;
+}
+
+.right {
+  margin-right: 180px;
+}
+
+.left {
+  margin-left: 180px;
+}
