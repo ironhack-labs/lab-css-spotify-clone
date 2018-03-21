@@ -3,25 +3,31 @@
 <head>
   <meta charset="UTF-8">
   <title>Spotify</title>
+  <link rel="stylesheet" href="css/main.css">
 </head>
 <body>
- <img src = "images/spotify-logo.png"  alt = "Logo Spotify">
+  <div >
+      <img class = "logocorp" src = "images/spotify-logo.png"  alt = "Logo Spotify">
+  </div>
+ 
  <nav class = "nav-bar">
  <ul>
    <li>Premium</li> 
    <li>Discover</li> 
-   <li>Help Download</li>
+   <li>Help</li>
+   <li>Download</li>
   </ul>
 </nav>
 <header class = "cabezera">
 <h1>Music for everyone.</h1>
 <aside>
-  <p>Spotify is now free on mobile, tablet and computer.</p>
-  <p>Listen to the right music, wherever you are.</p>
+  <p class = "blanco">Spotify is now free on mobile, tablet and computer.</p>
+  <p class = "blanco">Listen to the right music, wherever you are.</p>
 </aside>
 </header>
 <div class = "what-is">
 <h2>What’s on Spotify?</h2>
+<div class = "caja">  
 <div class ="left">
   <img src = "images/music-icon.png" alt = "altavoz">
 <h3>Millions of Songs</h3>
@@ -42,27 +48,29 @@
     computer</p>
 </div>
 </div>
+</div>
+<div class = "clearfix"></div>
 <footer>
   <div class = "contenedor">
-    <div class = "logopq middle">
-      <img src = "images/spotify-icon-white.png"> 
-    </div>
-    <div class = "kanye">
-      <img src = "images/spotify-app.jpg">
-    </div>
-      <h2>It’s as yeezy as Kanye West.</h2>
-      <h3>Search</h3>
+    <h2>It’s as yeezy as Kanye West.</h2>
+    <div class = "texto">
+      <h4>Search</h4>
       <p>Know what you want to listen to?
           Just search and hit play.</p>
-      <h3>Browse</h3>
+      <h4>Browse</h4>
       <p>Check out the latest charts,
           brand new releases and great
           playlists for right now.</p>
-      <h3>Discover</h3>
+      <h4>Discover</h4>
       <p>Enjoy new music every Monday
           with your own personal playlist.
           Or sit back and enjoy Radio.</p>
+    </div>
+    <div class = "kanye">
+        <img src = "images/spotify-app.jpg">
+      </div>
   </div>
+  <div class = "clearfix"></div>
 </footer>
 </body>
 </html>
