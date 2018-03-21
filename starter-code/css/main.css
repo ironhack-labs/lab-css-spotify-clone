@@ -6,3 +6,138 @@ Green: #00B172
 White: #FFF
 
 */
+
+/* ---- reset ---- */
+
+html {
+    box-sizing: border-box;
+  }
+  *, *:before, *:after {
+    box-sizing: inherit;
+  }
+  
+  body {
+    margin: 0;
+    padding: 0;
+  }
+  
+  
+  /* ---- typography ---- */
+  
+  body {
+    color: #111;
+    font-family: Helvetica, Arial, sans-serif;
+    font-size: 16px;
+    line-height: 147%;
+  }
+  
+  h1 {}
+  
+  h2 {}
+  
+  h3 {}
+  
+  p {
+    margin: 0;
+  }
+  
+  
+  
+  /* ---- layout ---- */
+  #site-nav{
+     position: fixed;
+     background-color: white;
+     top:0px;
+     left: 0px;
+     right:0px;
+     padding:10px 30px;
+     
+  }
+
+  #site-nav .logo{
+      float: left;
+      width: 150px;
+  }
+  #site-nav .nav-menu{
+      float: right;
+
+  }
+  #site-nav .nav-links li,
+  #site-nav .nav-links {
+      
+      display: inline-block;
+      list-style: none;
+  }
+
+  .nav-links li a{
+      color: #111; 
+      font-weight: 200;
+      text-decoration: none;
+  }
+  .nav-links li{
+   margin-right: 20px;
+ }
+
+  #hero{
+      background-image: url(../images/landing.jpg);
+      background-size: cover;
+      background-repeat: no-repeat;
+      background-position:center;
+      height: 100vh;
+      padding: 250px 0px;
+      color: white;
+      text-align: center;
+      margin-bottom: 40px;
+
+}
+
+#hero h1{
+    font-size: 70px;
+    font-weight: 400;
+    
+}
+#hero p {
+    font-size: 25px;
+    font-weight: 200;
+    line-height: 1.2em;
+}
+
+#site-features{
+ display: flex;
+ justify-content: space-around;
+ align-items: center;
+ flex-direction: row;
+}
+
+#site-features .feature{
+    display: inline-block;
+    text-align: center;
+    width: 250px;
+    height: 200px;
+    margin:50px 0;
+}
+  
+#site-features .feature img{
+    width:100px;
+}
+
+#site-features .feature h3{
+    font-size: 25px;
+    color:#00B172;
+}
+
+#site-features .feature p{
+    font-size: 20px;
+    font-weight: 100;
+}
+.section-title{
+    text-align: center;
+    text-decoration: underline;
+    text-decoration-color: #00B172;
+    font-size: 20px;
+    line-height: 1.5em;
+
+}
+
+
+
