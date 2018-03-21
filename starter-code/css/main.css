@@ -30,6 +30,7 @@ header {
   width: 100%;
   box-sizing: border-box;
   height: 10vh;
+  background-color: white;
 }
 
 .menu {
@@ -64,10 +65,27 @@ body {
  
 }
 
+
 .portada h1 {
   font-size: 50px;
   margin: 0 auto;
   text-align: center;
+}
+
+#info h1 {
+  text-align: center;
+}
+
+.hr-green {
+  display: block;
+  height: 1px;
+  border: 0;
+  border-top: 1px solid #ccc;
+  margin: 1em 0;
+  padding: 0;
+  width: 50%;
+  color: green;
+  background-color: green;
 }
 
 .portada p {
@@ -82,7 +100,22 @@ body {
 }
 
 #green {
+  color: white;
+}
+
+.green-header {
+  color: #00B172;
+}
+
+.green-text {
   background-color: whitesmoke;
+  float: left;
+  width: 50%;
+}
+
+.green-app {
+  float: right;
+  width: 50%;
 }
 
 #info {
@@ -90,6 +123,13 @@ body {
   float: left;
   margin: 0 auto;
   background-color: turquoise;
+}
+
+#info h1 {
+  border-bottom: 5px solid green;
+  width: 28%;
+  margin: 0 0 0 36%;
+  margin-bottom: 10px;
 }
 
 #what {
