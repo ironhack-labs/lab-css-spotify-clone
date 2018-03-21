@@ -6,3 +6,83 @@ Green: #00B172
 White: #FFF
 
 */
+
+
+
+.nav-bar {
+  color: black;
+}
+
+.bounce {
+  animation-name: bounce;
+  animation-duration: 1s;
+  animation-iteration-count: infinite;
+  animation-direction:alternate;
+}
+
+#whats-on article {
+  float: left;
+}
+
+#whats-on hr {
+  margin-left: 40%;
+  margin-right: 40%;
+  color: #00B172;
+}
+
+#yeezy  {
+  float: left;
+}
+
+@keyframes bounce {
+  0% {
+    margin-top: 0px;
+  }
+  25%{
+    margin-right: 5px;
+  }
+  50% {
+    margin-left: 5px;
+  }
+
+  100% {
+    margin-bottom: 5px;
+  }
+}
+
+.col { 
+  float: left;
+ }
+
+ .col-3 {
+  width: 30%;
+}
+
+ .clearfix { 
+   clear: both;
+   }
+
+.nav-bar-item  {
+  color: white;
+  text-decoration: none;
+  font-size: 20px;
+}
+
+img {
+  max-width: 100%;
+  }
+
+#yeezy {
+  background-color: #00B172;
+  color: white;
+  text-align: left;
+  height: 500px;
+  width: 1000px;
+  float: left;
+  box-sizing: border-box;
+}
+
+h2 {
+  text-align: center;
+}
+
