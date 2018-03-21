@@ -9,12 +9,17 @@ White: #FFF
 body {
   font-family: Arial, Helvetica, sans-serif;
   font-size: 24px;
+  font-weight: 100;
 }
 header {
   height: 100px;
   position: fixed;
   top: 0;
   background-color: white;
+}
+
+img {
+  max-width: 100%;
 }
 
 main {
@@ -42,10 +47,33 @@ ul > li {
 
 .section1 {
   color: #FFF;
-  text-align: center;
   display: block;
   width: 100%;
   background-image: url("../images/landing.jpg");
   background-size: contain;
-  height: 600px;
+  height: 1000px;
+}
+
+#title {
+  font-size: 80px;
+  font-weight: 700;
+}
+.section1 .text {
+  text-align: center;
+  padding-top: 300px;
+  font-size: 36px;
+}
+
+
+.section2 h2 {
+  text-align: center;
+}
+.left {
+  width: 33%;
+  float: left;
+  box-sizing: border-box;
+}
+
+.logo {
+  height: 80px;
 }
