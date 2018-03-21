@@ -40,10 +40,11 @@ header {
 .menu ul {
   float: right;
   display: inline-flex;
+  list-style-type: none;
 }
 
 body {
-  background-color: pink;
+  /* background-color: pink; */
   margin: 0 auto;
   
 }
@@ -84,8 +85,8 @@ body {
   margin: 1em 0;
   padding: 0;
   width: 50%;
-  color: green;
-  background-color: green;
+  color: #00B172;
+  background-color: #00B172;
 }
 
 .portada p {
@@ -99,8 +100,20 @@ body {
   float: left;
 }
 
+.center-text {
+  text-align: center;
+}
+
+.img-size {
+  width: 50%;
+  padding-left: 25%;
+
+}
+
 #green {
   color: white;
+  background-color: #00B172;
+  display: flex;
 }
 
 .green-header {
@@ -148,4 +161,9 @@ body {
   width: 33%;
   float: left;
   background-color: royalblue;
+}
+
+.borde-dentro {
+  border: 20px solid white;
+  box-sizing: border-box;
 }
