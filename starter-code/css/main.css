@@ -6,3 +6,157 @@ Green: #00B172
 White: #FFF
 
 */
+img {
+    max-width: 100%;
+}
+p {
+    font-family: Robot, Arial, Helvetica, sans-serif;
+    font-size: 1.5em;
+    line-height: 1.5em;
+    
+    color: #1A1A1A;
+}
+h1, h2, h3, h4{
+    font-family: Robot, Arial, Helvetica, sans-serif;
+}
+h1{
+    font-size: 6em;
+    color: white;
+    margin: 25px, auto, 0, auto;
+    text-align: center;
+    
+}
+h2{
+    font-size: 3.5em;
+}
+h3{
+    font-size: 2em;
+    color: #00B172
+}
+h4{
+    font-size: 2em;
+}
+.fix{
+    position: fixed;
+    top: 0;
+    background-color: white;
+    padding: 3%;
+}
+.nav-bar{
+    padding: 20px 10px;
+    height: 40px;
+    
+  }
+  @keyframes mover {
+    0% {
+      top: 0%;
+    }
+    100% {
+      top: 60%;
+    }
+  }
+  
+  .nav-bar ul{
+    width: 1200px;
+    margin: 0 auto;
+    text-align: center;
+    font-size: 25px;
+    font-family: 'Courier New', Courier, monospace;
+  }
+  .nav-bar li{
+    float: right;
+    width:15%;
+  }
+  li{
+    list-style-type: none;
+  }
+  .logocorp{
+      width: 20%;
+      float: left;
+      margin-right: 1%;
+      position:absolute;
+     animation-name:mover;
+    animation-duration:1s;
+    animation-timing-function:ease-in;
+    animation-iteration-count:infinite;
+    animation-direction: alternate;
+  }
+  .cabezera{
+    background-image:url("../images/landing.jpg");
+    background-size: cover;
+    background-repeat: no-repeat;
+    padding:15% 15% 30% 15%;
+    margin: 2% 0;
+  }
+   .blanco {
+      color: white;
+      text-align: center;
+      margin: auto;  
+  }
+.what-is > h2 {
+    border-bottom: 5px solid #00B172;
+    display: inline;
+    margin-left: 30%;
+    
+}
+.what-is img{
+    width: 30%;
+    margin-left: 75px;
+}
+.what-is{
+    margin: auto 25px;
+}
+.caja{
+    margin-top: 150px;
+}
+
+.left{
+    float: left;
+    width: 30%;
+}
+.middle{
+  float: left;
+  width: 30%;
+  margin-left:5%;
+  margin-right: 5%;
+}
+.clearfix{
+    clear: both;
+}
+footer{
+    background-color: #00B172;
+    color: #FFF;
+    background-image: url("../images/spotify-icon-white.png");
+    background-repeat: no-repeat;
+    background-size: 15%;
+    background-position: center;
+
+}
+footer p{
+    color: white;
+}
+.contenedor{
+   margin: 0 auto;
+   padding-top: 2%;
+}
+.contenedor h2{
+    border-bottom: 5px solid #FFF;
+    display: inline;
+    margin-left: 5%;
+    
+}
+
+ .kanye{
+  width: 25%;
+  float: left;
+  margin-left: 25%;
+  margin-top: 2%;
+  margin-bottom: 10%;
+  
+ } 
+ .texto{
+  float:left;
+  width: 40%;
+  margin-left: 3%;
+  
+ }
