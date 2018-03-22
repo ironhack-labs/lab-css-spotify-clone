@@ -6,3 +6,188 @@ Green: #00B172
 White: #FFF
 
 */
+
+@import url('https://fonts.googleapis.com/css?family=Roboto:100,300,400,700');
+
+img {
+  max-width: 100%;
+}
+
+.clearfix {
+  clear: both;
+}
+
+* {
+  margin: 0;
+  padding: 0;
+  font-family: Roboto;
+  font-weight: normal;
+}
+
+
+/* seccion superior */
+header {
+  position: fixed;
+  width: 100%;
+  box-sizing: border-box;
+  height: 87px;
+  background-color: white;
+}
+
+.menu ul {
+  float: right;
+  display: inline-flex;
+  list-style-type: none;
+  padding: 3.4% 9% 1% 1%;
+}
+
+.menu ul li {
+  margin: 0% 11% 0% 0% ;
+}
+
+#spotify:hover {
+  transform: rotate(360deg);
+}
+
+.logo img {
+  width: 200px;
+  float: left;
+  padding: 1.4% 1% 1% 2.4%;
+  transition: transform .8s ease-in-out;
+}
+
+/* cuerpo */
+body {
+  margin: 0 auto;
+}
+
+#container {
+  margin: 0 auto;
+  width: 100%;
+  padding-top: 10vh; 
+}
+
+.portada {
+  background-image: url("../images/landing.jpg");
+  background-size: cover;
+  height: 60vh;
+  color: white;
+  margin: 0 auto;
+}
+
+.portada h1 {
+  font-size: 50px;
+  margin: 0 auto;
+  text-align: center;
+  padding-top: 14%;
+}
+
+.portada p {
+  font-size: 20px;
+  margin: 3%;
+  text-align: center;
+}
+
+.h1-central{
+  text-align: center;
+  font-weight: normal;
+  border-bottom: 5px solid #00B172;
+  display: inline;
+ }
+
+.hr-green {
+  display: block;
+  height: 1px;
+  border: 0;
+  border-top: 1px solid #ccc;
+  margin: 1em 0;
+  padding: 0;
+  width: 50%;
+  color: #00B172;
+}
+
+.center-text {
+  text-align: center;
+  padding: 6% 18% 6% 18%;
+}
+
+.img-size {
+  width: 30%;
+}
+
+.green-text h4 {
+  padding: 11% 0% 7% 0%;
+  font-size: 20px;
+  font-weight: bold;
+  }
+
+/* barra central */
+#barra {
+  margin: 6% 0% 0% 0%;
+  text-align: center;
+}
+
+/* bloque de info central con los tres bloques */
+#info {
+  width: 100%;
+  float: left;
+  margin: 0 auto;
+  text-align:center;
+  margin: 9% 1% 4% 1%;
+}
+
+#what {
+  width: 33%;
+  float: left;
+}
+
+#music {
+  width: 33%;
+  float: left;
+}
+
+#stream {
+  width: 33%;
+  float: left;
+}
+
+.borde-dentro {
+  border: 20px solid white;
+  box-sizing: border-box;
+}
+
+/* seccion verde final */
+#green {
+  color: white;
+  background: #00B172 url("../images/spotify-icon-white.png");
+  background-repeat: no-repeat;
+  background-size: 11%;
+  background-position: center;
+  display: flex;
+}
+
+.green-header {
+  color: #00B172;
+  margin: 1% 0% 9% 0%;
+}
+
+.green-text {
+  float: left;
+  width: 50%;
+  padding: 31px 0% 0% 6%;
+}
+
+.green-app {
+  width: 50%;
+}
+
+.green-app img {
+  float: right;
+  margin: 5% 10% 5% 0%;
+}
+
+.green-text h2 {
+  border-bottom: 5px solid white;
+  display: inline;
+}
+
