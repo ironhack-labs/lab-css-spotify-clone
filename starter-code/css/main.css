@@ -36,10 +36,24 @@ h3{
 h4{
     font-size: 2em;
 }
+.fix{
+    position: fixed;
+    top: 0;
+    background-color: white;
+    padding: 3%;
+}
 .nav-bar{
     padding: 20px 10px;
     height: 40px;
     
+  }
+  @keyframes mover {
+    0% {
+      top: 0%;
+    }
+    100% {
+      top: 60%;
+    }
   }
   
   .nav-bar ul{
@@ -60,6 +74,12 @@ h4{
       width: 20%;
       float: left;
       margin-right: 1%;
+      position:absolute;
+     animation-name:mover;
+    animation-duration:1s;
+    animation-timing-function:ease-in;
+    animation-iteration-count:infinite;
+    animation-direction: alternate;
   }
   .cabezera{
     background-image:url("../images/landing.jpg");
