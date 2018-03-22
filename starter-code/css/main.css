@@ -21,13 +21,21 @@ nav-bar{
     
 }
 
+h2 {
+    line-height: 0;
+    padding: 0;
+}
+
 .clearfix{
     clear: both;
 }
 
 .container.logo {
     height: 50px;
-    
+    background-color: white;
+}
+.logo:hover{
+    background-color: yellow;
 }
 
 .logo {
@@ -35,6 +43,7 @@ nav-bar{
     float: left;
     margin: 10px; 
 }
+
 
 #spotify-index > li {
 list-style-type: none;
@@ -68,6 +77,7 @@ margin: 0px 10px 0px 10px;
 }
 .container-whats {
     text-align: center;
+    height: 50px;
 }
 
 .container-images {
@@ -120,14 +130,26 @@ width: 50%;
 
 }
 
+.btest { 
+    border: 1px solid #000000;
+}
+
 .box {
-    height:100px;
     margin: 0 auto;
     width: 250px;
-    border-bottom: 3px solid #00B172; 
+    overflow: hidden;
+   box-sizing: content-box;
+   border-bottom: 3px solid #00B172; 
     
+}
+.box2 {
+
+    box-sizing: content-box;
+    padding: 0 auto;
+    display: inline-block;
 }
 
 .color {
     color:#00B172; 
 }
+
