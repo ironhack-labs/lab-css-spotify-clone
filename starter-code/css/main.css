@@ -2,7 +2,261 @@
 Colors:
 
 Text: 1A1A1A
-Green: #00B172
+Green: #19b969
 White: #FFF
 
 */
+
+body {
+  font-family: 'Montserrat', sans-serif;
+  padding: 0;
+  margin: 0;
+}
+
+img {
+  max-width: 100%;
+}
+
+/* Utilities */
+
+.clearfix {
+  width:100%;
+  clear: both;
+}
+
+.float-left {
+  float: left;
+}
+
+.center-text{
+  text-align: center;
+}
+
+/* Sections and styles */
+
+
+.navbar{
+  position:fixed;
+  top:0;
+  width:100%;
+  background-color:white;
+  height: 76px;
+  box-shadow: 0px -1px 5px black;
+  animation: slideDown;
+  animation-duration: 1s;
+  animation-timing-function: ease-out;
+}
+
+.navbar ul li{
+  display: inline-block;
+}
+
+.top-links {
+  float: right;
+  padding: 0;
+  margin: 0 20px 0 0;
+  line-height: 38px;
+}
+
+.top-links li a{
+  display: inline-block;
+  margin: 0 10px;
+  text-decoration:none;
+  color: #1A1A1A;
+  font-weight: 400;
+  font-size: 16pt;
+}
+
+.top-links li a:hover{
+  animation: linkBump;
+  animation-duration: 1s;
+}
+
+.logo {
+  margin-top: 10px;
+  margin-left: 40px;
+  animation: bounce;
+  animation-duration: 2s;
+  animation-iteration-count: initial;
+}
+
+#section1{
+  background-image: url('../images/landing.jpg');
+  background-size: cover;
+  background-position: center;
+  background-repeat: no-repeat;
+  width: 100%;
+  height: 810px;
+  color: white;
+  margin-top: -60px;
+
+}
+
+.titles {
+  width: 100%;
+  height: 100%;
+  text-align: center;
+}
+
+.titles h1 {
+  font-size: 60pt;
+  font-weight: 600;
+  padding-top: 220px;
+}
+
+.titles p{
+  font-size: 24pt;
+  font-weight: 300;
+  line-height: 40pt;
+}
+
+#section2{
+  margin-bottom: 60px;
+}
+#section2 h2{
+  font-size: 28pt;
+  font-weight: 600;
+  line-height: 2pt;
+}
+
+.underlined-div{
+  margin: 30px auto 60px auto;
+  display:inline-block;
+  border-bottom: 4px solid #19b969;
+}
+
+.column-3{
+  width:33%;
+  box-sizing: border-box;
+  float:left;
+  text-align: center;
+}
+
+.column-3 img{
+  max-height: 100px;
+}
+
+.column-3 h4{
+  color: #19b969;
+  font-weight: 700;
+  font-size: 24pt;
+  line-height: 0pt;
+}
+
+.column-3 p{
+  font-weight: 200;
+  font-size: 18pt;
+
+}
+
+#yeezy-section {
+  width: 100%;  
+  padding: 40px 0px 20px 90px;
+  background-color: #19b969;
+  display: inline-block; 
+  background-image: url('../images/spotify-icon-white.png');
+  background-position: center;
+  background-size: 140px;
+  background-repeat: no-repeat;
+  box-sizing: border-box;
+  border: solid 40px white;
+  animation: pulsation;
+  animation-duration: 2s;
+  animation-iteration-count: infinite;
+  animation-timing-function: ease-out;
+}
+
+#yeezy-title{
+  display: inline-block;
+  border-bottom: 4px solid white;
+}
+
+#yeezy-title h3{
+  font-size: 28pt;
+  font-weight: 600;
+  line-height: 1px;
+  
+}
+
+#yeezy-text{
+  font-size: 16pt;
+  max-width: 360px;
+  line-height: 26pt;
+  
+}
+
+#yeezy-pic {
+  padding-top:60px;
+}
+
+.pulsation {
+  position: relative;
+  animation: bounce;
+  animation-duration: 2s;
+  animation-iteration-count: infinite;
+}
+
+.column-2 {
+  float: left;
+  width:50%;
+  box-sizing: border-box;
+  color: white;
+  font-size: 18pt;
+  font-weight: 300;
+}
+
+.column-2 h4{
+  font-size:22pt;
+  line-height: 36pt;
+}
+
+
+/* Animations */
+
+@keyframes bounce {
+  from {
+    transform: translateX(-900px);
+  }
+  to {
+    transform: translateX(0px);
+  }
+}
+
+@keyframes linkBump {
+  0% {
+    color: black;
+    
+  }
+  50%{
+    color: #19b969;
+    text-shadow: 0px 1px 2px #c2e0bb;
+    ;
+  }
+  100%{
+    color :black;
+  }
+  
+}
+
+@keyframes pulsation {
+  0% {
+    background-size: 140px;
+  }
+  50% {
+    background-size: 140px;
+    background-position-y: 325px;
+  }
+  100% {
+    background-size: 140px;
+  }
+}
+
+@keyframes slideDown {
+  0% {
+    top:-80px;
+  }
+
+  100% {
+    top:0px;
+  }
+}
