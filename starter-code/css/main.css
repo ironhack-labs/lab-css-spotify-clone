@@ -6,3 +6,201 @@ Green: #00B172
 White: #FFF
 
 */
+
+*{
+    font-family: "Open Sans", sans-serif;
+    color:1A1A1A;
+}
+
+img {
+    max-width: 100%;
+}
+
+.clearfix {
+    clear: both;
+}
+
+nav{
+    height:50px;
+    padding-top:15px;
+    padding-left:25px;
+    
+}
+
+.header-logo img{
+    width: 20%;
+    display: inline-block;
+    position:absolute;
+    }
+
+    .header-logo img:hover {
+        animation: shake 0.82s cubic-bezier(.36,.07,.19,.97) both;
+        transform: translate3d(0, 0, 0);
+        backface-visibility: hidden;
+        perspective: 1000px;
+      }
+      
+      @keyframes shake {
+        10%, 90% {
+          transform: translate3d(-1px, 0, 0);
+        }
+        
+        20%, 80% {
+          transform: translate3d(2px, 0, 0);
+        }
+      
+        30%, 50%, 70% {
+          transform: translate3d(-4px, 0, 0);
+        }
+      
+        40%, 60% {
+          transform: translate3d(4px, 0, 0);
+        }
+      }
+
+.header-list{
+        float:right;
+        display: inline-block;
+        padding-right: 55px;
+        word-spacing: 25px;
+        
+    }
+
+.header-list li{
+    display:inline-block;
+    list-style-type: none;
+    font-size: 25px;
+    
+}
+
+.foto {
+    background-image: url("../images/landing.jpg");
+    background-repeat: no-repeat;
+    background-size: cover;
+    height: 650px;
+    margin:50px 0 0 0;
+}
+
+.foto h1 {
+    color:white;
+    font-size: 72px;
+    text-align:center;
+    padding-top: 170px;
+
+}
+
+.foto p {
+    color:white;
+    text-align:center;
+    font-size: 25px;
+    
+}
+
+.spotify p{
+    border-bottom: 5px solid #00B172;
+    font-size:32px;
+    line-height: 35px;
+    text-align: center;
+    padding-bottom: 9px;
+    
+}
+
+.spotify {
+    width: 30%;
+    margin: 0 auto;
+}
+
+.tres{
+    width: 100%;
+}
+.desleft {
+    
+    display: inline-block;
+    float: left;
+    width:33%;
+    text-align: center;
+}
+
+.desmiddle{
+    display: inline-block;
+    float: left;
+    width: 33%;
+    text-align: center;
+}
+
+.desright {
+    display: inline-block;
+    float:left;
+    width: 33%;
+    text-align: center;
+}
+
+.tres h2 {
+    color:#00B172;
+}
+
+.desleft img{
+    width:30%;
+}
+
+.desmiddle img{
+    width:30%;
+    margin-bottom: 15px;
+}
+
+.desright img{
+    width:30%;
+}
+
+.text {
+    background-color: #00B172;
+    margin: 25px;
+    height: 800px;
+    padding-top: 35px;
+    padding-left: 35px;
+    color:white;
+    background-image: url("../images/spotify-icon-white.png");
+    background-size: 15%;
+    background-repeat: no-repeat;
+    background-position-x: 530px;
+    background-position-y: center;
+}
+
+
+
+.text h2 {
+    
+    margin-bottom: 20px;
+    padding-bottom: 9px;
+    font-size: 45px;
+    border-bottom: 5px solid white;
+}
+
+.textkanye {
+    display: inline-block;
+    width: 45%;
+    
+    
+    
+}
+
+.text h3 {
+    font-size: 35px;
+}
+
+.textkanye img {
+    width: 20%;
+    position: fixed;
+}
+
+
+.kanye {
+    display: inline-block;
+    width: 50%;
+}
+
+.fotokanye {
+    float:right;
+    margin:35px;
+    width: 50%;
+}
