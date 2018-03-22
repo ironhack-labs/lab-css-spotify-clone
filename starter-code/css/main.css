@@ -118,3 +118,24 @@ footer img {
   position: relative;
   left: 25%;
 }
+
+
+
+
+.logo {
+  animation-name: hola;
+  animation-duration:0.5s;
+  animation-timing-function:ease-in;
+  animation-iteration-count:infinite;
+  animation-direction: alternate;
+}
+
+.logo:hover {
+  position: relative;
+  top: 5px;
+}
+
+@keyframes hola {
+  0%   {top: 0%;}
+  100% { top:100%;}
+}
