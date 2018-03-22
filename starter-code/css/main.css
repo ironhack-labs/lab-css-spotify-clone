@@ -129,6 +129,11 @@ SECCIÓN 2
   margin: 60px 60px 100px 60px;
 }
 
+#cont {
+  text-align: center;
+  height: 333px;
+}
+
 #two h1 {
   font-size: 40px;
 }
@@ -155,9 +160,15 @@ SECCIÓN 2
 }
 
 .terc {
-  display: inline-block;
-  width: 25%;
-  margin: 0 20px;
+  box-sizing: border-box;
+  position: relative;
+  float: left;
+  width: 33%;
+  padding: 5px;
+}
+
+.box-img {
+  height: 130px;;
 }
 
 #two img {
