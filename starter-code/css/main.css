@@ -105,14 +105,15 @@ h1{
 h2{
   text-align: center;
   width: 100%;
-  height: 100px;
+  height: 50px;
 }
 .section1 h2{
   padding-top: 30px;
-  padding-bottom: 30px;
+  padding-bottom: 10px;
   font-size: 40px;
-  text-decoration: underline;
-  text-decoration-color: #00B172;
+  border-bottom: 5px solid #00B172;
+  width: 400px;
+  margin: 0 auto;
 }
 
 .container-section1{
@@ -137,7 +138,9 @@ h2{
    padding-top: 20px;
    font-size: 20px;
    font-weight: 200;
-
+ }
+ .stilo-section1 img{
+   padding-top: 100px;
  }
 /*----- section 2--------*/
 .container-section2{
@@ -154,7 +157,7 @@ h2{
   float: left;  
   width: 60%; 
   height: 700px;
-  padding: 5% 25% 5% 5%;
+  padding: 7% 15% 7% 7%;
   box-sizing: border-box;
   color: white;
 }
@@ -162,11 +165,14 @@ h2{
   text-align: left;  
 }
 .stilo-section2 h3{
-  font-size: 50px;
+  font-size: 35px;
   padding-bottom: 20px;
   text-decoration: underline;
   text-decoration-color: white;
   line-height: 80px;
+}
+.stilo-section2 h3 ~ p, .stilo-section2 h3 ~ h4{
+ padding-right: 150px; 
 }
 .stilo-section2 h4{
   font-size: 30px;
@@ -175,6 +181,7 @@ h2{
 .stilo-section2 p{
   font-size: 20px;
   padding: 25px 0;
+  font-weight: 100;
   
 }
 .col-b{
