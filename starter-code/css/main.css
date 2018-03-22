@@ -137,3 +137,21 @@ header p{
   position: relative;
   left: 40%;
 }
+/* Animación */
+#logo{
+  animation-name: logo;
+  animation-duration:2s;
+  animation-iteration-count: infinite;
+  animation-direction: alternate;
+}
+@keyframes logo{
+  0%{
+    margin-top: 10px;
+    margin-left: 30px;
+  }
+  100%{
+    margin-top: 10px;
+    margin-left: 200px;
+  }
+
+}
