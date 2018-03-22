@@ -49,11 +49,12 @@ img {
 
 .logo img {
   width: 150px;
+  transform: rotate(0);
+  transition: transform 0.5s linear;
 }
 
 .logo img:hover {
   transform: rotate(-5deg);
-  transition: transform 0.5s linear;
 }
 
 .navbar {
