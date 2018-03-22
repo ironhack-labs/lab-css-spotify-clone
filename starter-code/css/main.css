@@ -205,10 +205,10 @@ width: 20%}
 }
 
 .logo-img:hover{
-	-webkit-animation: vibracion 0.05s infinite;
+	-webkit-animation: vibracion 0.01s infinite;
 }
 @-webkit-keyframes vibracion{
-	0%  { -webkit-transform:rotateZ(-5deg); }
-	50% { -webkit-transform:rotateZ( 0deg) scale(.8); }
-	100%{ -webkit-transform:rotateZ( 5deg); }
+	0%  { transform:rotateZ(-5deg); }
+	50% { transform:rotateZ( 0deg); }
+	100%{ transform:rotateZ( 5deg); }
 }
