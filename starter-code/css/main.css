@@ -6,3 +6,209 @@ Green: #00B172
 White: #FFF
 
 */
+
+* {
+  margin: 0;
+  font-family: 'Roboto', sans-serif;
+
+}
+.clearfix {
+  clear: both;
+}
+img {
+  max-width: 100%;
+}
+
+.header {
+  background-color: white;
+  height: 150px;
+  position: fixed;
+  width: 100%;
+
+
+}
+
+.logo {
+  width: 40%;
+  float: left;
+  height: 150px;
+}
+.logo img {
+  width: 40%;
+  padding-top: 30px;
+  padding-left: 50px;
+}
+
+.naveg {
+  width: 60%;
+  float: right;
+  height: 150px;
+
+
+}
+.naveg ul {
+  float: right;
+  padding-top: 60px;
+  padding-right: 40px;
+  word-spacing: 25px;
+  font-size: 30px;
+  font-weight: 100;
+  color: #1A1A1A;
+
+}
+
+.naveg li {
+display: inline-block;
+text-decoration: none;
+
+
+}
+.main {
+
+padding-top: 100px;
+
+}
+.intro{
+  background-image: url("../images/landing.jpg");
+  background-size: cover;
+  height: 1300px;
+  width: 100%;
+  background-repeat: no-repeat;
+  text-align: center;
+  color: white;
+}
+.intro h1{
+  font-size: 100px;
+}
+.intro p{
+  font-size: 30px;
+  font-weight: lighter;
+}
+.align {
+padding-top: 500px;
+}
+
+.what {
+}
+.question {
+  text-align: center;
+  color: black;
+
+
+}
+.question h1 {
+  font-size: 50px;
+  padding-top: 40px;
+}
+
+.wraper {
+width: 100%;
+margin: 0 auto;
+text-align: center;
+padding-top: 90px;
+}
+
+.col {
+  width: 33%;
+  float: left;
+
+}
+.col h1 {
+  font-size: 30px;
+  color: #00B172;
+  padding-top: 20px;
+  padding-left: 20px;
+  padding-bottom: 20px;
+}
+.col p {
+  font-size: 30px;
+  padding-top: 10px;
+}
+.col-img {
+width: 20%}
+
+.footer {
+  width: 90%;
+  margin: 50px auto 100px auto;
+  background-color: #00B172;
+  padding-top: 140px;
+  padding-bottom: 80px; 
+  background-image: url("../images/spotify-icon-white.png");
+  background-repeat: no-repeat;
+  background-size: 10%;
+  background-position: center;
+
+
+
+}
+.footer hr {
+  margin: 10px auto 30px 180px;
+  width: 75%;
+  color: white;
+  height: 5px;
+  border: 0;
+  background-color: white;
+
+
+}
+
+.footer h1 {
+
+  font-size: 50px;
+  padding-left: 180px;
+
+
+}
+.footer h2 {
+
+  font-size: 40px;
+  padding-left: 180px;
+  padding-bottom: 40px;
+  padding-top: 30px;
+
+
+
+}
+
+.footer p {
+
+  font-size: 30px;
+  padding-left: 180px;
+
+
+
+}
+
+.options {
+  width: 49%;
+  color: white;
+  float: left;
+}
+
+.kanye {
+  width: 49%;
+  float: left;
+}
+.kanye-img {
+  width: 25%;
+  margin-left: 20%;
+  
+}
+.question hr {
+  margin: 20px auto 30px auto;
+  width: 21%;
+  color: #00B172;
+  height: 5px;
+  border: 0;
+  background-color: #00B172;
+
+}
+
+.logo-img:hover{
+	-webkit-animation: vibracion 0.01s infinite;
+}
+@-webkit-keyframes vibracion{
+	0%  { transform:rotateZ(-5deg); }
+	50% { transform:rotateZ( 0deg); }
+	100%{ transform:rotateZ( 5deg); }
+}
