@@ -1,8 +1,157 @@
 /*
 Colors:
-
 Text: 1A1A1A
 Green: #00B172
 White: #FFF
-
 */
+@import url('https://fonts.googleapis.com/css?family=Roboto+Condensed:700|Roboto:100,300,700');
+
+* {
+  margin: 0;
+  padding: 0;
+
+}
+body{
+  font-family: Roboto;
+  font-size: 16px;
+  font-weight: 300;
+  max-width: 100%;
+
+ }
+ .clear{
+ clear: both;
+ }
+ /* -- Nav -- */
+.nav-bar{
+  background-color: white;
+  width: 100%;
+  max-width: 100%;
+  height: 12%;
+  position: fixed;
+  
+}
+.nav-bar img{
+  float: left;
+  width: 200px;
+  display: block;
+  margin: 10px 0 0 30px;
+}
+.nav-bar ul{
+  float: right;
+  padding-top: 2%;
+}
+.nav-bar li{
+  display: inline-block;
+  padding: 1em;
+}
+
+/* -- Header -- */
+header{
+  width: 100%;
+  height: 650px;
+  max-width: 100%;
+  background-image: url("../images/landing.jpg");
+  background-size: cover;
+  /* Si pones cover, entiendo que no es necesario
+  poner background-repeat: no-repeat; no?  */
+  text-align: center;
+  color: white;
+  clear: both;
+}
+
+header h1{
+  font-size: 65px;
+  padding-top: 235px;
+  margin-bottom: 2%;
+  /* Sería posible haber usado un line-height 650px
+  y poner de algun modo el (header p) debajo de h1
+  sin complicarte mucho? */
+}
+header p{
+  font-size: 25px;
+}
+/* -- Section2 -- */
+.section2{
+  max-width: 100%;
+  height: 450px;
+}
+.section2 h2{
+  width: 200px;
+  margin: 4% auto;
+  border-bottom: 4px solid #00B172;
+  line-height: 40px;
+}
+.section2 div{
+  width: 32%;
+  display: inline-block;
+  padding-top: 4%;
+}
+.section2 img{
+  width: 50%;
+  display: block;
+  margin: 0 auto;
+  padding-bottom: 10%;
+
+}
+.section2 h3{
+  display: block;
+  text-align: center;
+  color: #00B172;
+}
+.section2 p{
+  text-align: center;
+  padding-top: 2%;
+}
+/* -- Section3 -- */
+.section3{
+  width: 92%;
+  max-width: 100%;
+  background-color: #00B172;
+  color: white;
+  margin: 0 auto;
+  background-image: url("../images/spotify-icon-white.png");
+  background-repeat: no-repeat;
+  background-position: center;
+  background-size: 100px;
+
+}
+.section3 div{
+  width: 35%;
+  padding: 5%;
+  display: inline-block;
+  vertical-align: top;
+  margin-top: 2%;
+
+}
+.section3 h2{
+  text-decoration: underline;
+  padding-bottom: 10%;
+
+}
+.section3 p{
+  padding-top: 4%;
+  padding-bottom: 6%;
+}
+.section3 img{
+  width: 84%;
+  position: relative;
+  left: 40%;
+}
+/* Animación */
+#logo{
+  animation-name: logo;
+  animation-duration:2s;
+  animation-iteration-count: infinite;
+  animation-direction: alternate;
+}
+@keyframes logo{
+  0%{
+    margin-top: 10px;
+    margin-left: 30px;
+  }
+  100%{
+    margin-top: 10px;
+    margin-left: 200px;
+  }
+
+}
