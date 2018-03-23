@@ -6,3 +6,206 @@ Green: #00B172
 White: #FFF
 
 */
+
+@import url('https://fonts.googleapis.com/css?family=Roboto:100,300,700,900');
+/* --- Consideraciones generales --- */ 
+*{
+  box-sizing: border-box;
+}
+body{
+  font-family: 'Roboto', sans-serif;
+  margin:0;
+  font-size: 1.5em;
+  font-weight: 300;
+}
+.center{
+  margin:auto;
+  text-align: center;
+}
+.left{
+  float:left;
+}
+img{
+  max-width:100%;
+}
+.col-3{
+  float:left;
+  width: 33%;
+  position:relative;
+  padding: 5%
+}
+.col-3 > img {
+  height: 100px;
+}
+.col-3:hover img, #white-logo-back:hover{
+  animation: squishy 0.5s infinite ease-in;
+}
+h1{
+  font-size: 3em;
+  font-weight: 700;
+}
+h2{
+  display: inline-block;
+  line-height: 1.5em;
+  font-weight: 600;
+}
+h3{
+  color: #00B172;
+}
+a{
+  text-decoration: none;
+  color:black;
+}
+p{
+  font-weight: 100;
+}
+
+main, section{
+  float:left;
+  width:100%;
+}
+main{
+  position:relative;
+  top: 100px;
+}
+section{
+  height:100vh;
+}
+article{
+  margin:auto;
+}
+/* --- Elementos de navbar --- */ 
+navbar{
+  position:fixed;
+  width: 100%;
+  height: 100px;
+  display:block;
+  z-index: 5;
+  background:white;
+}
+#logo img{
+  height: 60px;
+}
+#logo{
+  float:left;
+  margin-left: 2%;
+  padding: 20px;
+  z-index:7;
+  position:relative;
+}
+#logo:hover{
+  animation: bounce 0.5s alternate infinite ease-in;
+}
+menu{
+  float:right;
+  padding: 15px 20px;
+}
+nav{
+  display: inline-block;
+  margin-right: 10px;
+  border-bottom: 3px solid white;
+}
+nav:hover{
+  border-bottom: 3px solid #00B172;
+  transition: all 1.5s;
+}
+
+/* --- La primera sección --- */
+section#landing{
+  background: url("../images/landing.jpg") no-repeat;
+  background-size: cover;
+  background-attachment: fixed;
+  background-repeat: no-repeat;
+  text-align: center;
+}
+section#landing:hover{
+  animation: crazy 0.5s infinite ease-out;
+}
+section#landing article{
+  margin-top: 30vh;
+  width: 50vw;
+  color: white;
+  line-height: 0.5em;
+}
+section#landing p{
+  font-weight: 300;
+  font-size: 1.3em;
+}
+
+/* --- La segunda sección --- */
+section#features {
+  text-align:center;
+}
+section#features h2{
+border-bottom: 4px solid #00B172;
+}
+.header{
+  margin-top: 60px;
+  width: 30%;
+}
+
+/* --- La tercera sección --- */ 
+section#yeezy{
+  color:white;
+  z-index: 2;
+}
+section#yeezy article{
+  background-color:#00B172;
+  margin: 40px;
+  position:absolute;
+  overflow:auto;
+}
+section#yeezy div:nth-child(1){
+  padding: 2.5% 5%;
+  width: 60%;
+}
+section#yeezy div:nth-child(2){
+  width: 30%;
+  padding:5% 3%;
+}
+section#yeezy h2{
+  border-bottom: 4px solid white;
+}
+section#yeezy h3{
+  color:white;
+}
+section#yeezy p{
+  font-weight: 300;
+  width: 50%;
+}
+#white-logo-back{
+  position:relative;
+  width: 130px;
+  top: 50vh;
+  right: 50%;
+  z-index: 3;
+}
+
+/* --- Animaciones --- */ 
+@keyframes bounce{
+  0%{
+    top: 0px;
+    transform: scale(1,1);
+  }
+  100%{
+    top: 10px;
+    transform: scale(1.1, 0.9);
+  }
+}
+@keyframes crazy{
+  0%{
+    filter: grayscale(20%);
+  }
+
+  100%{
+    filter: grayscale(70%);
+  }
+}
+@keyframes squishy{
+  0%{
+    transform:scale(1,1)
+  }
+  100%{
+    transform:scale(1.2,0.8)
+  }
+}
