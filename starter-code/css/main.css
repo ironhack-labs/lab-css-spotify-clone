@@ -6,3 +6,148 @@ Green: #00B172
 White: #FFF
 
 */
+
+*{
+  margin:0;
+  font-family: Arial;
+}
+h1{
+  font-size: 90px;
+}
+h3{
+  font-size: 50px;
+}
+h4{
+  font-size: 30px;
+  color: #3fb859;
+}
+p{
+  font-size: 40px;
+  line-height: 55px;
+}
+nav {
+  background-color: white;
+  width: 100%;
+  position: fixed;
+  top: 0;
+}
+nav img{
+  width: 250px;
+  margin: 15px 0 15px 40px;
+  animation-name: animacionchida;
+  animation-duration: 5s;
+}
+
+@keyframes animacionchida{
+0%{
+  opacity: 0;
+}50{
+  opacity: 0.7
+}
+100%{
+  opacity: 1;
+}
+}
+
+nav > ul{
+  float:right;
+  margin: 23px 20px;
+  font-weight: 100;
+  font-size: 23px;
+}
+nav > ul > li{
+  list-style-type: none;
+  float: left;
+  margin: 20px 30px 0 0;
+}
+#header{
+  background-image: url('/Users/administrador/Documents/IRONHACK/WEEK1/DAY3/lab-css-spotify-clone/starter-code/images/landing.jpg');
+  background-size: cover;
+  height: 900px;
+  margin-top: 111px;
+}
+#header h1, #header p{
+  color: white;
+  text-align: center;
+}
+#header h1{
+  padding-top:300px;
+}
+#header p{
+  margin-top: 30px;
+}
+#whatson > h3{
+  text-align: center;
+  margin-top: 60px;
+}
+h3 + hr{
+  margin: 15px auto;
+  width: 450px;
+  height: 6px;
+  background-color: #3fb859;
+  border: none
+}
+#whatson > div{
+  width: 28%;
+  float: left;
+  margin: 140px 0 140px 53px;
+  text-align: center;
+}
+#whatson > div > img{
+  width: 150px;
+}
+#whatson > div > h4{
+  margin: 20px 0 20px 0;
+}
+
+/*h4:nth-of-type(2){
+  color: black
+}
+*/
+
+#whatson > div > p{
+  font-size: 30px;
+}
+#yeezy{
+  width: 95%;
+  margin: 0 auto 40px;
+  background-color: #3fb859;
+  clear: both;
+  padding-bottom: 100px;
+  height: 800px;
+}
+#yeezy div:first-child{
+  width: 40%;
+  padding: 60px 20px 40px 80px;
+  float: left;
+  color: white;
+}
+#yeezy div:first-child h3{
+  font-size: 40px;
+}
+#yeezy div:first-child hr{
+  background-color: white;
+  border: none;
+  height: 5px;
+  width: 550px;
+  float: left;
+  margin-bottom: 80px;
+}
+#yeezy div:first-child h5{
+  font-size: 35px;
+  margin: 40px 0 35px 0;
+}
+#yeezy div:first-child p{
+  font-size: 25px;
+  line-height: 35px;
+}
+#yeezy div:first-child img{
+  width: 120px;
+  float: right;;
+}
+
+#yeezy div:last-child img{
+  width: 400px;
+  float: right;
+  margin: 70px 150px;
+}
