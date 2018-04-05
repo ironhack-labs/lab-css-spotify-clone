@@ -6,3 +6,152 @@ Green: #00B172
 White: #FFF
 
 */
+*{
+  box-sizing: border-box;
+}
+
+html{
+  height: 100%;
+}
+
+body{
+  margin: 0px;
+  font-family: Arial, Helvetica, sans-serif;
+  height: 100%;
+}
+
+.navbar{
+  position: fixed;
+  top: 0;
+  width:100%;
+  margin: 0;
+  height: 90px;
+  background-color: white;
+  padding: 12px 18px;
+}
+
+.logo{
+  height: 60px;
+  width: auto;
+  float: left;
+}
+
+.navbar-links li{
+  display: inline;
+  float: right;
+}
+
+
+.navbar-links a{
+  text-decoration: none;
+  color: grey;
+  font-size: 18px;
+  padding-left: 35px;
+}
+
+.splash{
+  background-image: url("../images/landing.jpg");
+  background-repeat: no-repeat;
+  background-size: 100% 100%;
+  height: 800px;
+    /* clear: both; */
+  overflow: auto;
+  margin-top: 75px;
+  padding-top: 120px;
+  color:white;
+  text-align: center;
+}
+
+.splash-wrapper{
+  padding-top: 150px;
+}
+
+.splash-wrapper h1{
+  font-size: 4em;
+}
+
+.splash-wrapper p{
+  font-size: 1.5em;
+  line-height: .25em;
+}
+
+.whats-on-spotify-wrapper{
+  text-align: center;
+  margin-top: 50px;
+  height: 550px;
+}
+
+.whats-on-spotify-header-wrapper>h2{
+  display: inline;
+  font-size: 2.2em;
+  border-bottom: 2px solid #00B172;
+  border-bottom-width: medium;
+  padding-bottom: 5px;
+}
+
+.icon{
+  height: 100px;
+  width: 130px;
+  margin-bottom: 0;
+}
+
+.whats-on-spotify-wrapper h3{
+  font-size: 2em;
+  color: #00B172;
+  margin-top: 10px;
+}
+
+.whats-on-spotify-wrapper p{
+  color: rgb(83, 83, 83);
+  font-size: 1.5em;
+  font-weight: lighter;
+}
+
+.whats-on-spotify-box-wrapper{
+  width: 96%;
+  margin: 30px auto;
+  margin-top:100px;
+}
+
+.box-text{
+  width: 50%;
+  margin: 0 auto;
+  padding-bottom: 20px;
+}
+
+.col-3{
+  width: 33%;
+  float: left;
+}
+
+
+.kanye-west-wrapper{
+  background-color: #00B172;
+  margin: auto 2% 2% 2%;
+}
+
+.kanye-west h2{
+  display: inline;
+  color: #FFF;
+  font-size: 2.2em;
+  border-bottom: 2px solid #FFF;
+  border-bottom-width: medium;
+  padding-bottom: 5px;
+  font-weight: lighter;
+}
+
+.kanye-west h3{
+  font-size: 2em;
+  color: #FFF;
+}
+
+.kanye-west p{
+  color:#FFF;
+  font-size: 1.5em;
+  font-weight: lighter;
+}
+
+.screen-capture{
+  height: 20%;
+  width: 20%;
+}
