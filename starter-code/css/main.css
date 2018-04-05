@@ -6,3 +6,145 @@ Green: #00B172
 White: #FFF
 
 */
+body{
+  margin: 0;
+  padding: 0;
+  font-size: 30px;
+  font-family: Helvetica, sans-serif;
+  font-weight: 100;
+  color: #1A1A1A;
+}
+
+.clearfix{
+  clear: both;
+}
+
+navbar{
+  position: fixed;
+  background-color: white;
+  height: 15vh;
+  width: 100vw;
+  margin: 0;
+  padding-left: 3vw;
+  z-index: 1;
+}
+
+navbar .logo{
+  height: 10vh;
+  float: left;
+  position: absolute;
+  top: 50%;
+  transform: translateY(-50%);
+}
+
+navbar .links{
+  position: relative;
+  float: right;
+  top: 50%;
+  transform: translateY(-50%);
+  margin-right: 10%;
+}
+
+navbar a{
+  text-decoration: none;
+  color: #1A1A1A;
+  padding-right: 10px;
+}
+
+.top-image{
+  background-image: url("../images/landing.jpg");
+  background-repeat: no-repeat;
+  background-size: cover;
+  height: 85vh;
+  width: 100vw;
+  padding-top: 15vh;
+}
+
+.top-image h1, .top-image p {
+  color: #FFF;
+  text-align: center;
+}
+
+.top-image h1{
+  font-size: 80px;
+}
+
+.top-image p{
+  margin: 0;
+  padding: 0;
+}
+
+.headers-holder{
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  width: 90%;
+}
+
+.features h3{
+  border-bottom: 5px solid #00B172;
+  padding-bottom: 10px;
+  width: fit-content;
+  display: block;
+  margin: 50px auto 100px auto;
+}
+
+.features-holder{
+  width: 95%;
+  margin: 0 auto;
+}
+
+.feature{
+  box-sizing: border-box;
+  width: 33%;
+  float: left;
+  margin: 0 auto;
+  text-align: center;
+  padding-left: 3%;
+  padding-right: 3%;
+}
+
+.feature img{
+  width: 10vw;
+  height: 10vw;
+}
+
+.feature h4{
+  color: #00B172;
+}
+
+.yeezyness{
+  box-sizing: border-box;
+  background-color: #00B172;
+  background-image: url("../images/spotify-icon-white.png");
+  background-repeat: no-repeat;
+  background-position: center;
+  background-size: 10vw 10vw;
+  width: 95%;
+  margin: 0 auto 40px auto;
+  color: #FFF;
+  padding: 50px;
+}
+
+.actions{
+  width: 40%;
+  margin: 0;
+  display: inline-block;
+}
+
+.actions h3{
+  margin-top: 0;
+  padding-bottom: 10px;
+  border-bottom: 5px solid #FFF;
+}
+
+.app-image-box{
+  width: 30%;
+  float: right;
+  margin-top: 25px;
+}
+
+.app-image-box img{
+  width: 90%;
+}
