@@ -1,8 +1,186 @@
 /*
 Colors:
-
 Text: 1A1A1A
 Green: #00B172
 White: #FFF
-
 */
+
+*{
+  font-family: "IBM Plex Sans Condensed", sans-serif;
+}
+
+nav img{
+  width: 20%;
+  position: absolute;
+  top: 20px;
+  left: 0px;  
+}
+
+nav {
+  background-color: white;
+  height: 100px;
+  position: relative;
+}
+
+nav a {
+  color: black;
+  text-decoration: none;
+  font-size: 2em;
+}
+
+.top-links {
+  display: inline-block;
+  float: right;
+  position: absolute;
+  top:20px;
+  right:0px; 
+}
+
+.top-links li {
+  display: inline-block;
+  margin: 0 10px;
+}
+
+.first{
+  background-image: url("../images/landing.jpg");
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-position: relative;
+  width: 100%;
+  height: 1000px;
+}
+
+.first h1{
+  color: white;
+  position: absolute;
+  top: 300px;
+  left: 500px;
+  font-size: 4em;
+}
+
+.first h2{
+  color: white;
+  font-size: 3em; 
+  position: relative;
+  text-align: center;
+  top: 400px;
+}
+
+.second{
+  background-color: white;
+  width: 100%;
+  height: 500px;
+}
+
+.second .top{
+  width: 100%;
+}
+
+.top h1{
+  float: left;
+  border-bottom: 5px solid  #00B172;;
+  margin-left: 590px;
+}
+
+.second img{
+  width: 25%;
+}
+
+.right h1{
+  color: #00B172;
+}
+
+.center h1{
+  color: #00B172;
+}
+
+.left h1{
+  color: #00B172;
+}
+
+.left, .center, .right{
+  width: 33%;
+  float: left;
+  margin-top: 50px;
+  text-align: center;
+}
+
+.left {
+  clear: both;
+}
+
+.center{
+  left: 780px;
+}
+
+.container {
+  color: white;
+  background-color: #00B172;
+  width: 100%;
+  height: 750px;
+  margin: 20px, 0, 0px, 2px;
+  position: relative;
+}
+
+.center img{
+  padding:6px;
+}
+
+.final-text{
+  padding: 50px;
+  width: 39%;
+  height: 400px;
+}
+
+.top-text{
+  padding-top: 10px;
+  font-size: 1.5em;
+  border-bottom: 5px solid white;
+}
+
+.final-text h2{
+  font-size: 1.3em;
+}
+
+.imageone{
+  position: absolute;
+  left: 650px;  
+  top: 300px;
+  width: 10%;
+}
+.imagetwo {
+  position: absolute;
+  top: 50px;
+  right: 100px;
+  width: 25%;
+}
+
+.top.left:hover{
+  animation: bounce 1.5s ease-in-out infinite;
+}
+
+@keyframes bounce { 
+  0%{
+    top:30px;
+  }
+  
+  20%{
+    top:18px;
+  }
+  
+  40%{
+    top:30px;
+  }
+  
+  60%{
+    top:25px;
+  }
+  
+  80%{
+    top:30px;
+  }
+  
+  100%{
+    top:30px;
+  }
+}
