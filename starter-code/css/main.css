@@ -38,6 +38,26 @@ html, body {
 	margin-left: 50px;
 	margin-top: 15px;
 	width: 200px;
+	animation: bounce 0.8s 2s ease 1;
+}
+
+@keyframes bounce {
+	0% {
+		transform: translateY(0);
+	}
+
+	40% {
+		transform: translateY(-30px);
+	}
+	70% {
+		transform: translateY(0);
+	}
+	85% {
+		transform: translateY(-10px);
+	}
+	100% {
+		transform:translateY(0);
+	}
 }
 
 .menu ul {
