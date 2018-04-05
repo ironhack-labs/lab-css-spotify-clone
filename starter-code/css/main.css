@@ -6,3 +6,168 @@ Green: #00B172
 White: #FFF
 
 */
+
+@import url('https://fonts.googleapis.com/css?family=Montserrat:300,400,500,600,700');
+body {
+    font-family: 'Montserrat', sans-serif;
+}
+
+#logo {
+    width: 18%;
+    animation: bounce .7s ease infinite;
+}
+
+nav {
+    margin: 20px;
+}
+
+ul {
+    list-style-type: none;
+    float: right;
+}
+
+li {
+    float: left;
+    margin-left: 48px;
+    font-size: 22px;
+}
+
+a {
+    text-decoration: none;
+    color: black;
+}
+
+.portada {
+    background-image: url("../images/landing.jpg");
+    height: 728px;
+    background-position: 0 -115px;
+    background-size: cover;
+    background-repeat: no-repeat;
+    position: relative;
+}
+
+.portada h1 {
+    color: white;
+    text-align: center;
+}
+
+.portada p {
+    color: white;
+    text-align: center;
+}
+
+.portada h1 {
+    font-size: 70px;
+    padding-top: 205px;
+    margin: 0;
+}
+
+.portada p {
+    font-size: 25px;
+    padding: 10px 24%;
+    font-weight: 300;
+}
+
+.whats h2 {
+    font-size: 35px;
+    font-weight: 600;
+    border-bottom: 4px solid #00B172;
+    width: 30%;
+    text-align: center;
+    margin: 45px auto;
+}
+
+.whats article {
+    width: 33%;
+    text-align: center;
+    float: left;
+}
+
+.whats img {
+    width: 35%;
+}
+
+.clearfix {
+    clear: both;
+}
+
+.whats,
+.yeezy {
+    margin: 0 30px;
+}
+
+.whats p {
+    width: 71%;
+    margin: 0 auto;
+    font-size: 23px;
+    font-weight: 300;
+    color: black;
+}
+
+.whats h3 {
+    color: #00B172;
+    font-size: 27px;
+}
+
+.image {
+    height: 110px;
+}
+
+.whats {
+    margin: 0 30px 80px;
+}
+
+.yeezy {
+    background-color: #00B172;
+    color: white;
+    padding: 60px 86px;
+    height: 600px;
+}
+
+.yeezy h2 {
+    width: 90%;
+    border-bottom: 4px solid white;
+    font-size: 32px;
+    font-weight: 400;
+    margin-bottom: 50px;
+}
+
+.yeezy article {
+    width: 50%;
+    float: left;
+}
+
+.yeezy img {
+    width: 60%;
+    float: right;
+}
+
+.yeezy p {
+    text-align: left;
+    font-weight: 300;
+    width: 57%;
+    font-size: 20px;
+}
+
+.yeezy h3 {
+    text-align: left;
+    font-weight: 400;
+    font-size: 29px;
+    width: 70%;
+}
+
+#logo-blanco {
+    position: absolute;
+    right: 44%;
+    padding-top: 230px;
+    width: 10%;
+}
+
+@keyframes bounce {
+    0% {
+        transform: translateY(0);
+    }
+    50% {
+        transform: translateY(-15px);
+    }
+}
