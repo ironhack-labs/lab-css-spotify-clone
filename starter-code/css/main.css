@@ -27,6 +27,27 @@ White: #FFF
 	padding-left: 25px;
 }
 
+.top-logo:hover {
+	animation: jump 1s infinite;
+}
+
+@keyframes jump {
+	0%, 20%, 60%, 100% {
+		-webkit-transform: translateY(0);
+		transform: translateY(0);
+	}
+
+	40% {
+		-webkit-transform: translateY(-20px);
+		transform: translateY(-20px);
+	}
+
+	80% {
+		-webkit-transform: translateY(-10px);
+		transform: translateY(-10px);
+	}
+}
+
 .nav-bar li {
 	font-size: 1.3rem;
 	list-style-type: none;
@@ -103,6 +124,7 @@ header {
 
 .articles p {
 	color: #1A1A1A;
+	font-size: 1.5rem;
 }
 
 .description hr {
@@ -116,14 +138,16 @@ article h5 {
 	margin-bottom: 25px;
 }
 
-article p {
-	font-size: 1.4rem;
+.services p {
+	font-size: 1.5rem;
+	line-height: 35px;
+	width: 75%; 
 }
 
 .services {
 	background-color: #00B172;
 	margin: 30px;
-	height: 800px;
+	height: 850px;
 	color: #FFF;
 }
 
@@ -162,5 +186,5 @@ h2 {
 	position: absolute;
 	width: 9%;
 	margin-top: 230px;
-	margin-left: 90px;
+	margin-left: 50px;
 }
