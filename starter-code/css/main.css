@@ -6,3 +6,209 @@ Green: #00B172
 White: #FFF
 
 */
+
+
+body {
+  margin: 0 auto;
+  color: #1A1A1A;
+  font-family: CircularStd,Helvetica,Arial,sans-serif;
+}
+
+h3 {
+  font-size: 1.3em;
+}
+
+
+/* -----Navbar----- */
+.nav {
+  height: 70px;
+  width: 100%;
+  position: relative;
+}
+
+.logo {
+  height: 40px;
+  margin: 15px 30px 15px 30px;
+  position: relative;
+}
+
+.logo:hover {
+  animation: bounce .5s;
+  animation-iteration-count: infinite;
+}
+@keyframes bounce {
+  0%, 100% {transform: translateY(0);} 
+  30% {transform: translateY(-10px);} 
+  60% {transform: translateY(-5px);} 
+} 
+
+.menuItems {
+  float: right;
+  padding: 30px 30px 15px 30px;
+  position: relative;
+}
+
+.menuItems > a {
+  padding-left: 30px;
+  text-decoration: none;
+  color: #1A1A1A;
+  font-weight: 100;
+  font-size: 1em;
+}
+
+
+/* -----Large image background with text----- */
+.header {
+  background-image: url("../images/landing.jpg");
+  background-size: cover;
+  position: relative;
+  width: 100%;
+  height: 600px;
+}
+
+.headerText {
+  position: relative;
+  padding-top: 175px;
+}
+
+.headerText > h1 {
+  color: #fff;
+  text-align: center;
+  font-size: 3.5em;
+  font-weight: 550;
+}
+
+.headerText > h3 {
+  color: #fff;
+  text-align: center;
+  font-weight: 100;
+  line-height: 1.25em;
+}
+
+
+/* -----What's on Spotify section----- */
+.what {
+  /* margin: 0, auto; */
+  width: 100%;
+  height: 100%;
+  text-align: center;
+}
+
+.what > h2 {
+  font-size: 1.5em;
+  font-weight: 550;
+  text-align: center;
+  padding-top: 30px;
+  padding-bottom: 4px;
+  margin: 0 auto;
+}
+
+.what h3 {
+  color: #00B172;
+  font-weight: 550;
+  text-align: center;
+  padding-top: 20px;
+  padding-bottom: 4px;
+  margin: 0 auto;
+}
+
+.what p {
+  font-weight: 100;
+  font-size: 1.1em;
+  text-align: center;
+  padding-top: 20px;
+  padding-bottom: 4px;
+  margin: 0px auto 70px auto;
+}
+
+.what img {
+  height: 75px;
+}
+
+.what > .underline {
+  width: 210px;
+  height: 3px;
+  background-color: #00B172;
+  margin: 0 auto;
+}
+
+/* I CAN'T FIGURE OUT WHY EITHER THE FIRST OR LAST DIV GO SLIGHTLY OUT OF VERTICAL ALIGNMENT DEPENDING ON THE PAGE WIDTH. */
+.songs, .hd, .stream {
+  width: 25%;
+  /* float: left; */
+  text-align: center;
+  padding-left: 30px;
+  padding-right: 30px;
+  padding-top: 60px;
+  margin: 0 auto;
+  display: inline-block;
+}
+
+
+/* -----Green Section----- */
+.spotlight {
+  background-color: #00B172;
+  clear: both;
+  margin-left: 30px;
+  margin-right: 30px;
+  margin-bottom: 30px;
+  padding: 50px 50px 50px 50px;
+  height: 485px;
+  text-align: right;
+}
+
+.spotlight h2 {
+  font-size: 1.5em;
+  font-weight: 550;
+  padding-bottom: 4px;
+  margin: 0 auto;
+  color: #fff;
+  clear: both;
+  text-align: left;
+}
+
+.spotlight .underline {
+  width: 320px;
+  height: 3px;
+  background-color: #fff;
+  clear: both;
+}
+
+.spotlight h3 {
+  color: #fff;
+  font-weight: 550;
+  padding-top: 30px;
+  padding-bottom: 10px;
+  margin: 0 auto;
+  text-align: left;
+}
+
+.spotlight p {
+  color: #fff;
+  font-weight: 100;
+  line-height: 1.4em;
+  font-size: 1em;
+  text-align: left;
+}
+
+.text {
+  float: left;
+}
+
+.logoIcon {
+  width: 90px;
+  margin: 0 auto;
+}
+
+#logoIcon {
+  width: 90px;
+  float: left;
+  padding-top: 200px;
+}
+
+#screenshot {
+  width: 250px;
+  clear: both;
+  display: inline-block;
+  margin-top: 20px;
+}
