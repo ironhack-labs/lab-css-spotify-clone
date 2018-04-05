@@ -21,7 +21,28 @@ nav img{
     width: 200px;
     float: left;
     margin: 15px 0px 20px 10px;
+    
 }
+
+nav img:hover{
+    width: 200px;
+    float: left;
+    margin: 15px 0px 20px 10px;
+    animation: myslidein 4s infinite;
+}
+
+@keyframes myslidein {
+    0% {
+        transform: translateX(100px);
+
+        transform: scale(2)
+      
+    }
+  
+    100% {
+        transform: translateY(20)
+    }
+  }
 
 nav ul{
     float: right;
