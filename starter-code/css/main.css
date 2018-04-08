@@ -64,6 +64,12 @@ nav {
   padding-top: 10px;
 }
 
+nav a{
+  color: black;
+  text-decoration: none;
+  font-size: 24px;
+}
+
 .navigation {
   float: right;
   padding: 0px 10px;
@@ -128,45 +134,59 @@ nav {
 
 /* green background */
 
-#greenBackground{
-  background-color: #00B172;
+.containerGreen {
   color: white;
-  margin: 20px;
-  height:600px;
+  background-color: #00B172;
+  width: 100%;
+  height: 750px;
+  margin: 75px 20px 20px 20px;
+  position: relative;
 }
 
-.greenDiv{
-  background-color: #00B172;
-  color: white;
-  margin: 20px;
-  height: 600px;
+.greenText{
+  padding: 50px;
+  width: 40%;
+  height: 400px;
+  float: left;
 }
 
-#greenDiv h3{
-  text-decoration-line: underline;
-  text-decoration-color: white; 
+.greenText h3{
+  padding-top: 10px;
+  padding-bottom: 10px;
+  font-size: 40px;
+  border-bottom: 5px solid white;
   }
 
-#greenDiv h4{
+.greenText h4{
   color: white; 
-  padding-left: 10%;
-  padding-right: 10%;
+  padding-top: 20px;
+  padding-bottom: 20px;
+  font-weight: bold;
+  font-size: 40px;
   }
-  
-.greenDiv{
-  display:block;
-  padding-top: -200px;
+
+  .greenText p{
+    color: white; 
+    font-size: 20px;
+    font-weight: 300;
+    padding: 10px 0px;
+    }
+
+.greenTextSBD{
+  padding-top: 50px;
 }
 
-.appScreen {
-  float: right;
-  width: 30%;
-  max-width: 15%;
+.iconSpotify{
+  position: absolute;
+  left: 650px;  
+  top: 300px;
+  width: 10%;
+}
+.appScreen{
+  position: absolute;
+  top: 50px;
+  right: 100px;
+  width: 25%;
 }
 
-.icon {
-  width:10%;
-  float: right;
-  padding: 20px 300px 20px 20px;
-}
-
+.top-text{
