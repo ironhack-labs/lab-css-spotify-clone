@@ -6,3 +6,176 @@ Green: #00B172
 White: #FFF
 
 */
+html, body{
+	margin: 0;
+	padding: 0;
+	font-family: 'Montserrat', sans-serif;
+}
+nav{
+	background-color: white;
+	height: 100px;
+	position: relative;
+}
+nav > img{
+	width: 200px;
+	position: absolute;
+	height: 60px;
+	top:20px;
+	left: 30px;
+}
+
+ul{
+	top:0px;
+	right:10px;
+	position: absolute;
+
+}
+ul li{
+	display: inline-block;
+	list-style: none;
+	color: #1A1A1A;
+	font-size: 1.5em;
+	padding: 16px;
+}
+
+#main{
+	background-image: url(../images/landing.jpg);
+	background-size: cover;
+	background-repeat: no-repeat;
+	height: 600px;
+	position: relative;
+}
+.text{
+	position: absolute;
+	top:100px;
+	left:300px;
+}
+#main h1{
+	font-size: 5em;
+	color:white;
+	text-align: center;
+}
+#main p{
+	font-size: 1.2em;
+	color: white;
+	font-weight: 50;
+	margin:1px;
+	text-align: center;
+}
+
+
+section> h2{
+	text-align: center;
+	font-size: 3em;
+	text-decoration: underline #00B172;
+	
+}
+
+.table{
+	height: 400px;
+}
+
+.col{
+	float: left;
+	width: 33%;
+	position: relative;
+	height: 400px;
+}
+.col img{
+	height:150px;
+	width: 150px;
+	position: absolute;
+	left: 150px;
+	top: 50px;
+}
+.col>h4{
+	position: absolute;
+	top: 180px;
+	left: 80px;
+	color: #00B172;
+	font-size: 2em;
+}
+#hd{
+	position: absolute;
+	top: 180px;
+	left: 150px;
+	color: #00B172;
+	font-size: 2em;
+}
+.col>p{
+	position: absolute;
+	top:250px;
+	left: 120px;
+	font-size: 1.3em;
+}
+.kanye{
+	position: relative;
+	height: 630px;
+	background-color: #00B172;
+	margin:0px 30px;
+	color: white;
+	padding:30px 100px;
+}
+
+.kanye h2{
+	text-align: left;
+	font-size: 2em;
+	text-decoration: underline;
+}
+
+.kanye h4{
+	font-size:1.5em;
+	font-weight: bold;
+}
+.kanye p{
+	font-size: 1.1em;
+}
+
+.circle{
+	position: absolute;
+	width: 130px;
+	height: 130px;
+	top:350px;
+	left: 600px;
+}
+
+.west{
+	position: absolute;
+	right: 100px;
+	top:150px;
+	width: 350px;
+	height: 500px;
+}
+
+nav > img:hover{
+	animation: 1.5s up ease-out infinite;
+}
+@keyframes up{
+  0%{
+     transform:translateY(0%);
+  }
+  12.5%{
+    transform:translateY(-30%);
+  }
+  25%{
+     transform:translateY(0%);
+  }
+  37.5%{
+     transform:translateY(-25%)
+  }
+  50%{
+     transform:translateY(-20%);
+  }
+  65%{
+    transform:translateY(0%);
+  }
+  75%{
+     transform:translateY(-20%);
+  }
+  87.5%{
+    transform:translateY(0%)
+  }
+  100%{
+     transform:translateY(-10%);
+  }
+}
