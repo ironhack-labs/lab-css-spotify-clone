@@ -6,27 +6,27 @@ Green: #00B172
 White: #FFF
 
 */
-body{
-    font-family: Helvetica, sans-serif;
+body {
+    font-family: 'Raleway',sans-serif, Helvetica;
     font-size: 16px;
     color: #1A1A1A;
 }
-.nav-bar-wrap{
+.nav-bar-wrap {
     position: fixed;
     background-color: #fff;
     width: 100%;
     padding: .5%;
     z-index: 999; /*no se para que sirve*/
 }
-.spotify-logo{
+.spotify-logo {
     width: 15em;
     float:left;
 }
-.nav-bar{
+.nav-bar {
     position: absolute;
     left: 60%; 
 }
-ul li{
+ul li {
     display: inline;
     list-style-type: none;
     margin: 1em;
@@ -35,7 +35,7 @@ ul li{
     text-decoration: none; 
     font-size: 1.2em; 
 }
-.music-for-everyone{
+.music-for-everyone {
     background-image: url ("images/landing.jpg");
     text-align:center;
     width: 100%;
@@ -43,17 +43,57 @@ ul li{
 .on-spotify {
     text-align: center;
 }
-.on-spotify h2{
+.on-spotify h2 {
     font-size: 2.2em;
     border-bottom: .1em solid #00B172;
     display: inline-block;
     line-height: 1.5em;
 }
-.three-icons{
-   
-    display: inline;
-    float: left;
+.three-icons {
+    margin: auto;
+    width: 100%;
+
 }
-.three-icons img{
-    width: 20%;
+
+.three-icons article {
+    border: 2px solid forestgreen;
+    display: inline-block;
+    width: 12em;
+    padding: 5%;
+    text-align: center;
+    margin: 4%;
+}
+.three-icons img {
+    width: 60%;
+}
+.three-icons h2 {
+    color: #00B172;
+}
+.three-icons p {
+    font-size: 1.3em;
+    color: #707070;
+    font-weight: 100;
+}
+footer {
+    background-color: #00B172;
+    margin: 2%;
+    color: #fff;
+    padding: 2.5% 5%;
+}
+footer h2 {
+    font-size: 2.2em;
+    border-bottom: .1em solid #fff;
+    display: inline-block;
+    line-height: 1.5em;
+}
+footer h3 {
+    font-size: 1.7em;
+}
+#spotify-icon-white {
+    width: 10%;
+}
+#iphone {
+    width: 30%;
+    float: right;
+    margin-left: 1%;
 }
