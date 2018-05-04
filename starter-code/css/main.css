@@ -12,26 +12,46 @@ html {
     font-size: 18px
   }
 
-  .nav{
+.nav{
+    position:fixed;
     background-color: white;
-    height:100px;  
+    height:110px;  
+    width: 100%;
+    z-index: 1;
+    margin-top: 0;
 }
 
 #logogreen{
-    position:relative;
+    position:fixed;
     float: left;
     height:80px;
     left: 50px;
     top:15px;
 }
-.nav > p{
-    position:relative;
+a:link {
+    color:#1A1A1A;
+    text-decoration: none;
+}
+a:visited {
+    color:#1A1A1A;
+    text-decoration: none;
+}
+ul > li {
+    display: inline-block;
+    /* You can also add some margins here to make it look prettier */
+    zoom:1;
+    *display:inline;
+    padding-left: 30px;
+    /* this fix is needed for IE7- */
+}
+
+.nav > ul{
+    position: relative;
     float:right;
-    right: 50px;
-    line-height: 100px;
-    word-spacing: 27px;
+    right: 80px;
+    
     font-size: 30px;
-    top:10px;
+    top:30px;
     -webkit-margin-after: 0px;
     -webkit-margin-before: 0px;
 
@@ -48,13 +68,13 @@ html {
 
 .firstview > img{
     width: 100%;
-    margin: -7% 0 0 0;
+    
     
 }
 
 .center{
     position: absolute;
-    top: 40%;
+    top: 47%;
     left: 50%;
     transform: translate(-50%, -50%);
     width: fit-content;
@@ -97,21 +117,20 @@ h2{
 .description{
     width: 100%;
 }
-#music{
+#music, #devices, #quality {
     position: relative;
     width: 400px;
+    
+}
+#music{
     float:left;
     left:10%;
 }
 #devices{
-    position: relative;
-    width: 400px;
     float:right;
     right: 10%;
 }
 #quality{
-    position: relative;
-    width: 400px;
     margin: 140px auto;
 }
 h3{
