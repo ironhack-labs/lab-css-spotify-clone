@@ -6,3 +6,178 @@ Green: #00B172
 White: #FFF
 
 */
+:root {
+    font-size:calc(1vh + 1vw + 0.5vmin);
+  }
+body{
+    width:100%; 
+    font-family: Helvetica, sans-serif;   
+    color: #1A1A1A;
+    margin:0
+}
+.navBar{
+    position:fixed;
+    width: 100%; 
+    height: 4em;
+    background-color: white;
+    z-index:1;
+}
+#logoNav{
+    width: 9em;
+    position: fixed;
+    float: left;
+    margin-top: 0.6em;
+    margin-left: 1.7em;
+}
+#logoNav:hover{
+    animation-name: poping;
+    animation-duration: 1s;
+}
+.menuNav{
+    float: right;
+    margin-right: 5vw;
+    margin-top: 1.5em;
+    font-size: 0.95em;
+}
+.menuNav > li{
+    display: inline-block;
+    padding-left: 1.6vw;
+}
+a:link,a:visited {
+    color:#1A1A1A;
+    text-decoration: none;
+}
+.mainBody{
+    position: relative;
+    text-align: center;
+    color: white;
+    z-index: 0;
+}
+#bigImage{
+    width: 100%;
+}
+.centered {
+    position: absolute;
+    top: 40%;
+    left: 40%;
+    transform: translate(-30%, -30%);
+}
+h1{
+    font-size: 5.8vw;
+}
+.centered p{
+    font-size: 2.2vw; 
+    margin: 0;
+}
+.whatsOnSpotify{
+    width: fit-content;
+    margin: 0 auto;
+    margin-top: 1.2em;
+    font-size: 2.7vw;
+    padding-bottom: 0.1em;
+    border-bottom: 0.1em solid;
+    border-color: #00B172;
+}
+.threeFeatures{
+    width:90%;
+    margin-left: 5%;
+    margin-top: 7vw;
+    display: flex;
+    justify-content: center;
+    text-align: center;
+}
+.imageThird{
+    position: relative;
+    width: 35%;
+}
+h2{
+    color: #00B172;
+    font-size: 2.2vw;
+}
+h2#hdMusic{
+    margin-top: 3.4vw;
+}
+.threeFeatures div p{
+    width: 70%;
+    margin: 0 auto;
+    font-size: 1.8vw;
+}
+.mainGreen{
+    position: relative;
+    background-color: #00B172;
+    width: 95%;
+    margin-left: 2.5%;
+    margin-top: 8vw;
+    margin-bottom: 2.5vw;
+    height: 59vw;
+}
+#textInGreenBox{
+    position: absolute;
+    color: white;
+    margin-left: 8vw;
+    margin-top: 3.5vw;
+}
+#textInGreenBox h3{
+    font-size: 2.7vw;
+    border-bottom: 0.1em solid;
+    border-color: white;
+    padding-bottom: 0.2em;
+    width: fit-content;
+}
+#textInGreenBox h4{
+    font-size: 2.1vw; 
+    padding-top: 1.5vw;
+}
+#textInGreenBox p{
+    font-size: 1.5vw;
+    width: 22vw;
+}
+#imageInGreenBox{
+    position: absolute;
+    color: white;
+    margin-top: 9vw;
+}
+#appImage{
+    width: 27%;
+    margin-left: 60vw
+}
+#logoWhite{
+    width: 10%;
+    margin-left: 42vw;
+    margin-top: 26vw;
+}
+@keyframes poping {
+    0% {
+        margin-top: 0.4em;
+     }
+    10% {
+        margin-top: 0.6em;
+    }
+    20% {
+        margin-top: 0.8em;
+    }
+    30% {
+        margin-top: 0.6em;
+    }
+    40% {
+        margin-top: 0.4em;
+    }
+    50% {
+        margin-top: 0.6em;
+    }
+    60% {
+        margin-top: 0.8em;
+    }
+    70% {
+        margin-top: 0.6em;
+    }
+    80% {
+        margin-top: 0.4em;
+    }
+    90% {
+        margin-top: 0.6em;
+    }
+    100% {
+        margin-top: 0.8em;
+    }
+}
