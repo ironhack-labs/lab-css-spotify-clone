@@ -6,3 +6,90 @@ Green: #00B172
 White: #FFF
 
 */
+
+/*Global styles*/
+
+body {
+    font-family: 'Montserrat', sans-serif;
+    color: #1A1A1A;
+}
+
+.container {
+    max-width: 1400px; 
+    padding: 0 20px;
+}
+
+.text-center {
+    text-align: center;
+}
+
+h2 {
+    position: relative;
+}
+
+h2:after {
+    position: absolute;
+    bottom: -10px;
+    left: 0; right: 0;
+    height: 2px;
+    content:"";
+}
+
+/*header*/
+
+.fixed-header {
+    position: fixed;
+    background: #fff;
+    width: 100%;
+    top: 0;
+    left: 0;
+    right: 0;
+    padding: 10px 0;
+}
+
+.logo {
+    height: 50px;
+    float: left;
+}
+
+
+nav {
+    float: right;
+}
+
+nav ul {
+    list-style-type: none;
+}
+
+nav ul li {
+    display: inline-block;
+    padding-left: 10px;
+}
+
+/*
+HERO SECTION
+*/
+
+#hero {
+    height: 100vh;
+    background: url("../images/landing.jpg") center/cover no-repeat;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.centered-text-wrap {
+    text-align: center;
+    color: #fff;
+}
+
+/* info section */
+#info-section {
+    text-align: center;
+}
+#info-section h2 {
+    display: inline-block;
+}
+#info-section .container > h2:after {
+    background: #00B172;
+}
