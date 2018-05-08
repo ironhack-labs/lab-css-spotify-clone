@@ -17,10 +17,15 @@ body {
 .container {
     max-width: 1400px; 
     padding: 0 20px;
+    margin: 0 auto;
 }
 
 .text-center {
     text-align: center;
+}
+
+img {
+    max-width: 100%;
 }
 
 h2 {
@@ -33,6 +38,45 @@ h2:after {
     left: 0; right: 0;
     height: 2px;
     content:"";
+}
+
+h2 {
+    font-weight: 700;
+    font-size: 32px;
+}
+
+
+h3 {
+    font-weight: 700;
+    font-size: 26px;
+}
+
+p {
+    font-size: 18px;
+}
+
+.centered-img {
+    position: absolute;
+    top: 0;
+    right: 0;
+    left: 0;
+    bottom: 0;
+    margin: auto auto;
+}
+
+
+.col-3 {
+    width: 33%;
+}
+
+
+.col-4 {
+    width: 40%;
+}
+
+
+.col-6 {
+    width: 60%;
 }
 
 /*header*/
@@ -78,6 +122,15 @@ HERO SECTION
     justify-content: center;
 }
 
+#hero h1 {
+    font-size: 90px;
+
+}
+
+#hero p {
+    font-size: 26px;
+    
+}
 .centered-text-wrap {
     text-align: center;
     color: #fff;
@@ -92,4 +145,30 @@ HERO SECTION
 }
 #info-section .container > h2:after {
     background: #00B172;
+}
+
+.info-wrapper {
+    display: flex;
+    justify-content: space-around;
+    padding: 50px 0;
+
+}
+
+.info-wrapper img {
+    height: 100px;
+}
+
+
+.info-wrapper h3 {
+    color: #00B172;
+
+}
+
+#instruction-section {
+    background: #00B172;
+    color: #fff;
+}
+
+#instruction-section h2:after {
+    background: #fff;
 }
