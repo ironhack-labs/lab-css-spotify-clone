@@ -12,11 +12,12 @@ White: #FFF
 body {
     font-family: 'Montserrat', sans-serif;
     color: #1A1A1A;
+    margin: 0;
 }
 
 .container {
     max-width: 1400px; 
-    padding: 0 20px;
+    padding: 0 15px;
     margin: 0 auto;
 }
 
@@ -32,6 +33,7 @@ h2 {
     position: relative;
 }
 
+
 h2:after {
     position: absolute;
     bottom: -10px;
@@ -40,43 +42,11 @@ h2:after {
     content:"";
 }
 
-h2 {
-    font-weight: 700;
-    font-size: 32px;
-}
 
 
-h3 {
-    font-weight: 700;
-    font-size: 26px;
-}
 
-p {
-    font-size: 18px;
-}
-
-.centered-img {
-    position: absolute;
-    top: 0;
-    right: 0;
-    left: 0;
-    bottom: 0;
-    margin: auto auto;
-}
-
-
-.col-3 {
-    width: 33%;
-}
-
-
-.col-4 {
-    width: 40%;
-}
-
-
-.col-6 {
-    width: 60%;
+.col-3, .col-4, .col-6 {
+    width: 100%;
 }
 
 /*header*/
@@ -92,27 +62,37 @@ p {
 }
 
 .logo {
-    height: 50px;
+    height: 20px;
     float: left;
+    display: none;
 }
 
 
 nav {
-    float: right;
+    
 }
 
 nav ul {
     list-style-type: none;
+    padding: 0;
+    margin: 0 auto;
 }
 
 nav ul li {
     display: inline-block;
-    padding-left: 10px;
+    padding-left: 8px;
+    font-size: 14px;
 }
 
 /*
 HERO SECTION
 */
+
+.logo {
+    height: 20px;
+    float: left;
+    display: none;
+}
 
 #hero {
     height: 100vh;
@@ -122,23 +102,18 @@ HERO SECTION
     justify-content: center;
 }
 
-#hero h1 {
-    font-size: 90px;
 
-}
 
-#hero p {
-    font-size: 26px;
-    
-}
 .centered-text-wrap {
     text-align: center;
     color: #fff;
+    padding: 0 15px;
 }
 
 /* info section */
 #info-section {
     text-align: center;
+    padding: 10px 0 0;
 }
 #info-section h2 {
     display: inline-block;
@@ -148,14 +123,12 @@ HERO SECTION
 }
 
 .info-wrapper {
-    display: flex;
-    justify-content: space-around;
-    padding: 50px 0;
-
+    padding: 30px 0;
+    
 }
 
 .info-wrapper img {
-    height: 100px;
+    height: 60px;
 }
 
 
@@ -167,8 +140,117 @@ HERO SECTION
 #instruction-section {
     background: #00B172;
     color: #fff;
+    position: relative;
 }
 
+#instruction-section .text-wrap {
+    padding: 20px;
+}
 #instruction-section h2:after {
     background: #fff;
+}
+
+#instruction-section .app {
+    padding-top: 20px;
+}
+
+.spotify-img {
+    height: 50px;
+}
+
+
+
+@media only screen and (min-width:768px) {
+    /*global styles*/
+    h2 {
+        font-weight: 700;
+        font-size: 32px;
+    }
+    
+    
+    h3 {
+        font-weight: 700;
+        font-size: 26px;
+    }
+    
+    p {
+        font-size: 18px;
+    }
+
+
+    .col-3 {
+        width: 33%;
+    }
+
+
+    .col-4 {
+        width: 40%;
+    }
+
+
+    .col-6 {
+        width: 60%;
+    }
+
+    .logo {
+        height: 50px;
+        display: inline-block;
+    }
+
+
+
+
+    nav {
+        float: right;
+    }
+
+    nav ul {
+        list-style-type: none;
+        margin: 20px 0;
+    }
+
+    nav ul li {
+        padding-left: 10px;
+        font-size: 16px;
+    }
+
+
+    /*specific styles*/
+    #hero h1 {
+        font-size: 70px;
+    
+    }
+
+    #hero p {
+        font-size: 18px;
+        
+    }
+
+    .info-wrapper {
+        display: flex;
+        justify-content: space-around;
+        padding: 50px 0;
+        
+    }
+    
+
+    .info-wrapper img {
+        height: 100px;
+    }
+
+
+    .centered-img {
+        position: absolute;
+        top: 0;
+        right: 0;
+        left: 0;
+        bottom: 0;
+        margin: auto auto;
+    }
+
+
+    #instruction-section {
+       display: flex;
+    }
+
 }
