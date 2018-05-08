@@ -21,7 +21,7 @@ body {
 
 .navbar{
     width:100%;
-    padding: 10px 20px;
+    padding: 20px 30px;
     position: fixed;
     display: flex;
     justify-content: space-between;
@@ -30,8 +30,25 @@ body {
 }
 
 .spotify-logo{
-    height: 50px;
-    width: 165px;
+    height: 45px;
+}
+
+@keyframes logoSpotify {
+    0% {
+        height: 45px;
+    }
+  
+    50% {
+        height: 50px;
+    }
+
+    100% {
+        height: 45px;
+    }
+  }
+
+.spotify-logo:hover{
+    animation: logoSpotify 2s infinite;
 }
 
 .menu-navbar li{
@@ -42,18 +59,19 @@ body {
 
 .header{
     width: 100%;
-    height: 100%;
+    height: 900px;
     background-image: url("./../images/landing.jpg");
-    background-position: center ;
     background-size: cover;
     padding: 80px;
-    color: white;
-    
+    color: white; 
     font-size: 30px;
+    position: relative;
 
 }
+
 .header-content{
     width: 55%;
+    height: min-content;
     text-align: center;
     position:absolute;
     left:0px;
@@ -61,6 +79,11 @@ body {
     top:0px;
     bottom: 0px;
     margin:auto;
+}
+
+.header-content-p{
+    padding-left: 150px;
+    padding-right: 150px;
 }
 
 .content{
@@ -71,6 +94,7 @@ body {
 .first-content-header{
     display: flex;
     justify-content: center;
+    padding-top: 50px;
 }
 
 .first-content-header h1{
