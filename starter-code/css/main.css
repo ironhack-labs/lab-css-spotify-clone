@@ -6,3 +6,214 @@ Green: #00B172
 White: #FFF
 
 */
+
+/*generales*/
+html {
+  box-sizing: border-box;
+}
+
+*,
+*:before,
+*:after {
+  box-sizing: inherit;
+}
+
+body {
+  background-color: #f2f2f2;
+  font-family: "Montserrat", sans-serif;
+}
+
+/* fin de generales */
+
+.contenedor {
+  display: flex;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  flex-direction: row;
+  flex-wrap: nowrap;
+  justify-content: space-between;
+  align-content: center;
+  margin-top: 20px;
+  padding-bottom: 0 auto;
+  align-items: center;
+}
+
+.nav-image {
+  float: left;
+  height: 80px;
+  width: 240px;
+}
+
+.navegador a {
+  text-decoration: none;
+  text-align: center;
+}
+
+.button {
+  background-color: #f2f2f2;
+  padding: 10px 15px;
+  font-size: 1.5em;
+  color: black;
+  font-weight: bold;
+  font-family: "Montserrat", sans-serif;
+  text-decoration: none;
+  margin-top: 20px;
+  display: inline-block;
+  transition: all 0.3s ease;
+}
+
+h2 {
+  font-family: "Montserrat", sans-serif;
+  font-size: 2em;
+  text-transform: capitalize;
+  text-align: center;
+}
+h2::after {
+  /*---separador*/
+  content: "";
+  margin: 0 auto;
+  height: 30px;
+  width: 100px;
+  display: block;
+  padding-bottom: 2px;
+}
+span {
+  display: inline-block;
+  border-bottom: 4.5px solid #00b172;
+  padding-bottom: 3px;
+}
+
+/* header */
+div.hero {
+  background-image: url(../images/landing.jpg);
+  text-align: center;
+  height: 100vh;
+  background-position: top center;
+  background-size: cover;
+  position: relative;
+  margin-bottom: 0px; /*espacio entre hero y navegador*/
+  background-size: cover;
+  background-repeat: no-repeat;
+  height: 680px;
+  width: auto;
+  background-position: center center;
+}
+
+.hero p {
+  display: flex;
+  flex-direction: column;
+  flex-wrap: nowrap;
+  align-items: center;
+  justify-content: center;
+  color: white;
+  font-size: 33px;
+  padding: 50px 0 50px 0;
+}
+
+.hero h1 {
+  padding: 170px 0 1px 0;
+  margin-bottom: 0 auto;
+  font-size: 5.8em;
+color: white;
+  display: flex;
+  flex-direction: column;
+  flex-wrap: nowrap;
+  align-items: center;
+  margin-top: 20px;
+}
+
+/* specs*/
+
+
+.contenedor-info {
+  display: flex;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  flex-direction: row;
+  flex-wrap: nowrap;
+  justify-content: space-around;
+  margin: 60px 10% 0;
+  padding: 20px;
+  text-align: center;
+  width: 80%;
+}
+
+.contenedor-info h3 {
+  font-size: 2.2em;
+  text-align: center;
+  color: #00b172;
+  text-decoration-style: wavy;
+  font-style: bold;
+}
+
+.contenedor-info img {
+  height: 130px;
+  width: 150px;
+  justify-content: center;
+}
+
+.contenedor-info p {
+  text-align: center;
+  text-align: justify;
+  font-size: 1.8em;
+}
+
+.clearfix {
+  clear: both;
+}
+
+.col {
+  float: left;
+}
+
+.col-3 {
+  width: 30%;
+}
+
+.col-middle {
+  margin: 0 5%;
+}
+
+.green-one {
+  background-color: #00b172;
+  height: 750px;
+  max-width: 1200px;
+  margin: 0 auto;
+}
+
+.player {
+  height: 650px;
+  width: 380px;
+  margin-right: 90px;
+}
+
+.spotify {
+  height: 130px;
+  width: 130px;
+  margin-right: 60px;
+}
+
+.info {
+  align-items: flex-start;
+  flex-direction: column;
+  width: 25%;
+  margin-left: 65px;
+  color: white;
+}
+
+.info h3 {
+  font-size: 1.8em;
+}
+
+.info p {
+  font-size: 20px;
+}
+
+.title2 h2 span {
+  display: inline-block;
+  border-bottom: 4.5px solid white;
+  padding-bottom: 3px;
+  width: 50%;
+}
