@@ -3,40 +3,86 @@
 <head>
   <meta charset="UTF-8">
   <title>Spotify</title>
+  <link rel="stylesheet" href="css/main.css">
+  <link href="https://fonts.googleapis.com/css?family=Montserrat:100,400,700" rel="stylesheet">
+  <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0-alpha.6/css/bootstrap.min.css">
+
+
 </head>
 <body>
-Premium Discover Help Download
-
-Music for everyone.
-Spotify is now free on mobile, tablet and computer.
-Listen to the right music, wherever you are.
-
-What’s on Spotify?
-
-Millions of Songs
-There are millions of
-songs on Spotify
-
-HD Music
-Listen to music as if you
-were listening live
-
-Stream Everywhere
-Stream music on your
-smartphone, tablet or
-computer
-
-It’s as yeezy as Kanye West.
-Search
-Know what you want to listen to?
-Just search and hit play.
-Browse
-Check out the latest charts,
-brand new releases and great
-playlists for right now.
-Discover
-Enjoy new music every Monday
-with your own personal playlist.
-Or sit back and enjoy Radio.
+  
+  <header>
+    <nav>
+      <img src="images/spotify-logo.png" class="navImg" alt="logo1">
+      <ul>
+        <li> <a href="#premium" class="menu" data-id="#premium">Premium</a></li>
+        <li><a href="#discover" class="menu" data-id="#discover">Discover</a></li>
+        <li><a href="#help" class="menu" data-id="#help">Help</a></li>
+        <li><a href="#download" class="menu" data-id="#download">Download</a></li>
+      </ul>
+    </nav>
+  </header>
+  
+  <main>
+    
+    <header class="hero">
+      <div class="wrapper">
+        <h1>Music for everyone</h1>
+        <p>Spotify is now free on mobile, tablet and computer. Listen to the right music, wherever you are.</p>
+      </div>
+    </header>
+    
+    <section class="section1">
+      <div class="wrapHr">
+        <h2>What’s on Spotify?</h2>
+        <hr>
+      </div>
+      
+      <article>
+        <img src="images/music-icon.png" class="big" alt="logo2"> 
+        <header><h3>Millions of Songs</h3></header>
+        <p>There are millions of songs on Spotify</p>
+      </article>
+      
+      <article>
+        <img src="images/high-quality-icon.png" class="big" alt="logo3"> 
+        <header><h3>HD Music</h3></header>
+        <p>Listen to music as if you were listening live</p>
+      </article>
+      
+      <article>
+        <img src="images/devices-icon.png" class="big"  alt="logo4"> 
+        <header><h3>Stream Everywhere</h3></header>
+        <p>Stream music on your smartphone, tablet or computer</p>
+      </article>
+      <div class="clearfix"></div>
+      
+      <section class="section2">
+        <div class="left floatBoth">
+          <h2>It’s as yeezy as Kanye West. </h2>
+          <hr class="notCenter">
+          <div class="sub-article">
+            <h3 class="white">Search</h3>
+            <p>Know what you want to listen to? <br> Just search and hit play.</p>
+          </div>
+          <div class="sub-article">
+            <h3 class="white">Browse</h3>
+            <p>Check out the latest charts, <br> brand new releases and great <br> playlists for right now.</p>
+          </div>
+          <div class="sub-article">
+            <h3 class="white">Discover</h3>
+            <p>Enjoy new music every Monday <br> with your own personal playlist. <br> Or sit back and enjoy Radio.</p>
+          </div>
+        </div>
+        <img src="images/spotify-icon-white.png" alt="logo5">
+        <img  class="right" src="images/spotify-app.jpg" alt="logo6">
+        <div class="clearfix floatBoth"></div>
+      </section>
+      
+    </section>
+    
+  </main>
+  <script  src="https://code.jquery.com/jquery-3.2.1.min.js"></script>
+  <script src="app.js"></script>
 </body>
 </html>
