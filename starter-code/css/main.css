@@ -1,8 +1,173 @@
-/*
-Colors:
+h1, body, html, main {  
+    margin: 0; 
+}
 
-Text: 1A1A1A
-Green: #00B172
-White: #FFF
+html {   
+    font-family: 'Open Sans', sans-serif;   
+    font-size: 24px; 
+    color: #1A1A1A;
+    text-align: center;
+}
 
-*/
+.wrapper {
+    max-width: 1600px;
+    margin: 0 auto;
+}
+/* Nav */
+nav {
+    height: 100px;
+    width: 100%;
+    margin: 10px auto 25px auto;
+}
+
+nav img {
+    height: 70px;
+    float: left;
+    margin: 15px auto 0 2em;
+}
+
+nav ol {
+    height: 70px;
+    float: right;
+    margin: 15px 15px 0 0;
+    list-style-type: none;
+    counter-reset: item;
+}
+
+nav ol li {
+    float: left;
+    padding: 0 15px;
+    font-size: 25px;
+    margin: 20px auto;
+}
+/* Top */
+.bodyTop {
+    height: 800px;
+    background-size: cover;
+    margin: 0;
+}
+#landing {
+    background-image: url("../images/landing.jpg");  
+}
+h1 {
+    color: #fff;
+    padding-top: 320px;
+    font-size: 70px;
+    font-weight: 800;
+    text-align: center;
+}
+
+h2 {
+    padding: 10px 0 20px 0;
+    font-size: 40px;
+    font-weight: 800;
+    text-decoration: underline #00B172;
+    text-align: center;
+}
+
+h3 {
+    font-size: 32px;
+    font-weight: 900;
+    color: #00B172;
+    margin: 0;
+}
+
+.icon {
+    height:100px;
+    width:120px;
+    margin: 0;
+}
+
+.topText {
+    color: #fff;
+    font-size: 40px;
+    font-weight: 400;
+    text-align: center;
+    margin: 0 20%;
+}
+/* main  */
+main {
+    display: block;
+    margin: 10px auto 1px auto;
+}
+.mainDivLeft {
+    width: 30%;
+    display: block;
+    margin: 0 auto;
+    float: left;
+    text-align: center;
+    padding: 0 30px;
+    font-size: 28px;
+
+}
+.mainDivCenter {
+    width: 30%;
+    display: block;
+    margin: 0 auto;
+    float: center;
+    text-align: center;
+    padding: 0 30px;
+    font-size: 28px;
+}
+.mainDivRight {
+    width: 30%;
+    display: block;
+    margin: 0 auto;
+    float: right;
+    text-align: center;
+    margin: -354px 0 0 0;
+    padding: 0 30px;
+    font-size: 28px;
+}
+
+/*bottom*/
+.footer {
+    height: 900px;
+    background-color: #00B172;
+    margin: 30px 2% 0px 2%;
+    color: #fff;
+    background-size: cover;
+}
+.footerH2 {
+    padding: 60px 0 0 8%;
+    font-size 40px;
+    font-weight: 800;
+    text-decoration: underline #fff;
+    text-align: left;
+    color: #fff;
+}
+.footer h3 {
+    font-size: 35px;
+    font-weight: 800;
+    text-align: left;
+    color: #fff;
+    margin: 10px auto;
+}
+.footer p {
+    font-size: 25px;
+    font-weight: 200;
+    text-align: left;
+    color: #fff;
+}
+
+.footerLeft {
+    width: 400px;
+    margin: 20px 10px 0 8%;
+    float: left;
+    text-align: left
+    color: #fff;
+}
+.footerCenter {
+    float: center;
+    height:150px;
+    width:150px;
+    display: block;
+    margin: 200px auto 0 auto;
+
+}
+.footerRight {
+    width: 400px;
+    height: 700px;
+    float: right;
+    margin: -400px 8% 20px 10px;
+}
