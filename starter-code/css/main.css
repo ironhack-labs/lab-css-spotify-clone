@@ -115,6 +115,29 @@ section{
     width: 200px;
 }
 
+.main-menu img:hover {
+    animation: jump 3s infinite;
+    position: absolute
+}
+
+@keyframes jump {
+    0% {
+      top: 30px;
+    }
+    25% {
+      top: 0;
+    }
+    50% {
+        top: 40px;
+    }
+    75% {
+        top:0;
+    }
+    100% {
+        top: 30px;
+    }
+  }
+
 .main-menu ul {
     list-style-type: none;
 }
