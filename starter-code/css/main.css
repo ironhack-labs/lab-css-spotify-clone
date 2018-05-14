@@ -6,3 +6,198 @@ Green: #00B172
 White: #FFF
 
 */
+
+
+:root {
+    --color-text: #1A1A1A;
+    --green: #00B172;
+}
+
+* {
+    box-sizing: border-box;
+}
+
+html, body {
+    margin: 0;
+    height: 100%;
+    font-family: 'Open Sans', Helvetica, Arial, sans-serif;
+}
+
+h1 {
+    font-size: 4em;
+    margin-bottom: 0;
+}
+
+h2 {
+    font-size: 2.3em;
+}
+
+h3 {
+    font-size: 1.6em;
+}
+
+p {
+    font-size: 1.2em;
+}
+
+.col-6 {
+    width: 50%;
+}
+
+.clearfix:after {
+    content: " ";
+    display: block;
+    height: 0;
+    overflow: hidden; 
+    clear: both;
+}
+
+.float-l {
+    float: left;
+}
+
+.float-r {
+    float: right;
+}
+
+.wrapper {
+    max-width: 1200px;
+    margin: 0 auto;
+}
+
+.color-primary {
+    color: var(--color-text);
+}
+
+.color-secondary {
+    color: var(--green);
+}
+
+.color-white {
+    color: #FFFFFF;
+}
+
+section{
+    padding: 3em 0;
+}
+
+.title {
+    width: 100%;
+    margin-bottom: 4em;
+}
+
+#whats-on .title {
+    text-align: center;
+}
+
+#whats-on .title h2 {
+    border-bottom-color: var(--green);
+}
+
+.title h2 {
+    display: inline;
+    padding-bottom: 5px;
+    border-bottom: 5px solid;
+}
+
+.main-menu {
+    position: fixed;
+    z-index: 1; /*avoid overlap of the green block*/
+    background-color: white;
+    padding-top: 1em;
+    width: 100%;
+    -webkit-box-shadow: 0px 1px 10px 0px rgba(0,0,0,0.44);
+    -moz-box-shadow: 0px 1px 10px 0px rgba(0,0,0,0.44);
+    box-shadow: 0px 1px 10px 0px rgba(0,0,0,0.44);
+}
+
+.main-menu img {
+    width: 200px;
+}
+
+.main-menu ul {
+    list-style-type: none;
+}
+
+.main-menu li {
+    display: inline-block;
+    padding: 1em;
+}
+
+.main-menu a {
+    text-decoration: none;
+    color: inherit;
+}
+
+.main-menu a:hover {
+    color: var(--green);
+}
+
+main { 
+    padding-top: 102px; /* to compensate header's height  */
+}
+
+#cover {
+    background-image: url(../images/landing.jpg);
+    background-size: 100%;
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+    height: 1000px;
+    display: flex; 
+    flex-direction: column;
+    justify-content: center;
+    align-items: center
+}
+
+#cover p {
+    margin: 0;
+    font-size: 1.7em;
+}
+
+#whats-on img{
+    height: 100px;
+}
+
+#whats-on > div {
+    width: 33%;
+    padding: 0 6%;
+    text-align: center;
+    vertical-align: middle;
+}
+
+#whats-on h2 {
+    text-align: center;
+}
+
+#green {
+    background-color: var(--green);
+    position: relative;
+    /* Alternative way to display the 
+    spotify's small logo:
+
+    background-image: url(../images/spotify-icon-white.png);
+    background-repeat: no-repeat;
+    background-size: 100px;
+    background-position: center;
+    
+    */
+}
+
+#green p {
+    padding-right: 50%;
+}
+
+#spotify-app{
+    text-align: right;
+    margin-top: 70px;
+}
+
+#spotify-app img {
+    width: 50%;
+}
+
+#small-logo {
+    position: absolute;
+    width: 120px;
+    top: 40%; 
+}
