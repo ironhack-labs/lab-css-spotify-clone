@@ -6,3 +6,191 @@ Green: #00B172
 White: #FFF
 
 */
+
+/*General*/
+
+
+
+body {
+    font-family:  sans-serif;
+    color: #1A1A1A;
+    margin: 0;
+}
+
+.container {
+   max-width: 1400px; 
+    padding: 0 15px;
+    margin: 0 auto;
+}
+
+.text-center {
+    text-align: center;
+}
+
+img {
+   max-width: 100%;
+}
+
+h2 {
+    position: relative;
+    text-decoration-line: underline;
+    text-decoration-color: #00B172
+}
+
+
+h2:after {
+    position: absolute;
+    bottom: -10px;
+    height: 2px;
+    content:"";
+}
+
+.col-1, .col-2, .col-3, .col-4 {
+     width: 100%;
+}
+
+
+
+.fixed-header {
+    position: fixed;
+    background: #fff;
+    width: 100%;
+    /*Posicion 0= A 50 ??? se me escapa algo??? con el logo aclarado*/
+    top: 0;
+    left: 0;
+    right: 0;
+    padding: 10px 0;
+}
+
+.logo {
+    height: 20ch;
+    float: left;
+    display: none;
+}
+
+nav ul {
+    list-style-type: none;
+    padding: 0;/* VALOR SINO NO FUNCIONA*/
+    margin: 0 auto;
+}
+
+nav ul li {
+    display: inline-block;
+    padding-left: 8px;
+    font-size: 14px;
+}
+
+
+/*1º PARTE , Recordar poner nombres para no tardar tanto*/
+
+.logo {
+    height: 20px;
+    float: left;
+    display: none;
+}
+
+#hero {
+    height: 100vh;
+    background: url("../images/landing.jpg") center/cover no-repeat;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.centered-text-wrap {
+    text-align: center;
+    color: #fff;
+    padding: 0 15px;
+}
+
+/* 2º PARTE  */
+
+#info-section {
+    text-align: center;
+    padding: 10px 0 0;
+}
+#info-section h2 {
+    display: inline-block;
+}
+#info-section .container > h2:after {
+    background: #00B172;
+}
+
+.info-wrapper {
+    padding: 30px 0;
+}
+
+.info-wrapper img {
+    height: 60px;
+}
+
+
+.info-wrapper h3 {
+    color: #00B172;
+}
+
+#instruction-section {
+    background: #00B172;
+    color: #fff;
+    position: relative;
+    padding: 20px;
+}
+
+#instruction-section h2:after {
+    background: #fff;
+}
+
+
+
+.spotify-img {
+    height: 70px;
+}
+
+/*Each @keyframes is composed of
+
+Name of the animation: A name that describes the animation, for example, bounceIn. 
+Stages of the animation: Each stage of the animation is represented as a percentage.
+ 0% represents the beginning state of the animation. 
+ 100% represents the ending state of the animation. .
+-The @keyframes are added to your main CSS file.*/
+
+
+
+    .spotify-img {
+        height: 100px;
+
+    }
+
+
+    #hero p {
+        font-size: 18px;
+    }
+
+    .info-wrapper {
+        display: flex;
+        justify-content: space-around;
+        padding: 50px 0;
+    }
+
+    .info-wrapper img {
+        height: 100px;
+    }
+
+     
+
+    #instruction-section {
+       display: flex;
+       text-align: left;
+       padding: 30px 50px;
+       align-items: center;
+       justify-content: space-around;
+    }
+
+    #instruction-section p {
+        max-width: 300px;
+     }
+
+
+    
+ 
+
