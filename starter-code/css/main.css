@@ -2,7 +2,7 @@
 Colors:
 
 Text: 1A1A1A
-Green: #00B172
+#00B172: #00B172
 White: #FFF
 
 */
@@ -16,7 +16,7 @@ html, body, h1, h2, p, ul {
 	margin: 0;
 	padding: 0;
   border: 0;
-  font-family: Arial, Helvetica, sans-serif;		
+  font-family: Arial, Helvetica, sans-serif;		  
 }
 
 img {
@@ -45,18 +45,100 @@ nav ul li {
   background-color: orange;
   background: url('../images/landing.jpg') no-repeat center;
   background-size: cover;
-  height: 34em;;
+  height: 47em;;
+}
+
+.spotify-header h1 {
+  font-size: 5em;
+  margin-bottom: 1em;  
   color: white;
 }
 
-.spotify-header h1, .spotify-header h2 {
-  
+.spotify-header h2 {
+  color: white;
 }
 
 #features {
-  background-color: olivedrab;
+  display: flex;
+  flex-flow: column nowrap;  
+  align-items: center;  
+  padding: 50px;
+}
+
+#features div h1 {
+  border-bottom: 5px solid #00B172;
+  display: inline-block;  
+  font-size: 2.5em;
+  margin: 30px 0;
+}
+
+#features .three-features {
+  display: flex;
+  flex-flow: row nowrap;  
+  align-items: flex-start;
+  justify-content: space-around;
+  padding: 50px 0px;
+}
+
+#features .three-features > div {
+  display: flex;
+  flex-flow: column nowrap;  
+  align-items: center;
+  justify-content: center;
+  width: 19em;
+  text-align: center;
+  padding: 0 50px;
+}
+
+#features .three-features > div img {
+  height: 7em;
+}
+
+#features .three-features > div h2 {
+  color: #00B172;
+  margin: 20px 0;
+  font-size: 2em;
+}
+
+#features .three-features > div p {
+  font-size: 1.2em;
 }
 
 #spotify-footer {
-  background-color: mediumturquoise;
+  background-color: #00B172;
+  width: 80em;
+  margin: 0 auto;
+  padding: 4em;
+  color: white;
+  display: flex;
+  flex-flow: row nowrap;  
+  align-items: center;
+  justify-content: space-around;
+}
+
+#spotify-footer .footer-img img {
+  height: 40em;
+}
+
+#spotify-footer .footer-logo img {
+  height: 8em;
+}
+
+#spotify-footer h1 {
+  border-bottom: 5px solid white;
+  display: inline-block;  
+  font-size: 2.5em;  
+}
+
+#spotify-footer h2, #spotify-footer p {
+  margin: 1em 0;
+}
+
+#spotify-footer h2 {
+  font-size: 2em;
+}
+
+#spotify-footer p{
+  width: 15em;
+  font-size: 1.3em;
 }
