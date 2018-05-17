@@ -6,3 +6,34 @@ Green: #00B172
 White: #FFF
 
 */
+
+.flex {
+  display: flex;
+}
+
+header {
+  border: 1px solid red;
+  width: 100%;
+  height: 8%;
+  padding: 1%;
+  position: fixed;
+  background-color: #FFF;
+}
+
+.brand {
+  float: left;
+  height: 100%;
+}
+
+header .brand .logo {
+  height: 100%;
+}
+
+nav {
+  border: 1px solid blue;
+  float: right;
+}
+
+nav li {
+  display: inline-block;
+}
