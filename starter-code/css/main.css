@@ -7,12 +7,21 @@ White: #FFF
 
 */
 
+/* FONTS */
+@import url('https://fonts.googleapis.com/css?family=Montserrat:200,300,400,700');
+
 .flex {
   display: flex;
 }
 
+body {
+  margin: 0;
+  color: #1A1A1A;
+  font-family: "Montserrat", sans-serif;
+}
+
+/* HEADER */
 header {
-  border: 1px solid red;
   width: 100%;
   height: 8%;
   padding: 1%;
@@ -30,10 +39,38 @@ header .brand .logo {
 }
 
 nav {
-  border: 1px solid blue;
   float: right;
+  width: 50%;
+  margin: 1% 0 0 0;
+  text-align: right;
 }
 
-nav li {
-  display: inline-block;
+nav ul li {
+  display: inline;
+  margin: 0 5%;
+}
+
+nav li a {
+  color: #000;
+  text-decoration: none;
+}
+
+/* LANDING */
+.landing {
+  height: 1000px;
+  background: url("../images/landing.jpg") 0 0/cover;
+  color: #FFF;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+
+.landing h1 {
+  font-size: 5em;
+  margin: 0 0 0.5em 0;
+}
+
+.landing p {
+  font-size: 2em;
+  margin: 0;
 }
