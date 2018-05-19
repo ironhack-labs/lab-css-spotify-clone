@@ -6,3 +6,173 @@ Green: #00B172
 White: #FFF
 
 */
+
+body
+{
+    font-family: 'Roboto', sans-serif;
+    padding:0;
+    margin:0;
+}
+.header nav
+{
+    font-size: 25px;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    margin-right: 30px;
+    margin-top:10px;
+    font-weight: 300;
+}
+.header nav figure
+{
+    width: 10%;
+}
+.header nav img
+{
+    width: 100%;
+    height: auto;
+    position: relative;
+    top:0;
+    transition: top 2s;
+}
+.header nav img:hover
+{
+    animation-name: logo-move;
+    animation-duration: 0.5s;
+    animation-iteration-count: infinite;
+}
+.header li
+{
+    display: inline-block;
+    list-style-type: none;
+    padding: 15px;
+}
+.header .front-page
+{
+    padding: 14% 0 20% 0;
+    background-image: url(../images/landing.jpg);
+    background-position: center;
+    background-size: cover;
+    color: #FFFFFF;
+    text-align: center;
+    margin: 0;
+}
+.header .front-page h1
+{
+    font-size: 80px;
+    padding-bottom: 5px;
+}
+.header .front-page .subtitle1, .header .front-page .subtitle2
+{
+    font-weight: 300;   
+    font-size: 30px; 
+}
+.whatson
+{
+    text-align: center;
+    padding: 60px 10px;
+}
+.whatson>.title
+{
+    font-size: 40px;
+    font-weight: 700;
+    color: #1A1A1A;
+    border-bottom: 4px #00B172 solid;
+    display: inline-block;
+    margin-bottom: 80px;
+}
+.whatson .elements
+{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-evenly;
+    align-items: baseline;
+}
+.whatson .element img
+{
+    width: 30%;
+    display: block;
+    margin: auto;
+}
+.element .title
+{
+    color: #00B172;
+    font-weight: 700;
+    font-size: 30px;
+}
+.element .title + p
+{
+    font-weight: 300;
+    font-size: 28px;
+}
+.kanye
+{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-evenly;
+    background-color: #00B172;
+    color: #FFFFFF;
+    align-items: center;
+    position: relative;
+    margin: 40px;
+    padding: 40px 90px;
+}
+.kanye .text
+{
+    width: 60%;
+}
+.kanye .text h3
+{
+    font-size: 40px;
+    padding-bottom: 10px;
+    border-bottom: #FFFFFF 4px solid;
+    display: inline-block;
+}
+.kanye .text h4
+{
+    font-size: 31px;
+}
+.kanye .text p
+{
+    font-size: 23px;
+    font-weight: 300;
+}
+.kanye .logo img
+{
+    width: 50%;
+}
+.kanye .app img
+{
+    width: 70%;
+}
+.kanye .app
+{
+    text-align: right;
+}
+.kanye .logo
+{
+    position: absolute;
+    top: 40%;
+    left:45%;
+    width: 20%;
+}
+
+@keyframes logo-move
+{
+    0%
+    {
+        top:0;
+    }
+    25%
+    {
+        top:2px;
+    }
+    75%
+    {
+        top:-2px;
+    }
+    100%
+    {
+        top:0;
+    }
+}
