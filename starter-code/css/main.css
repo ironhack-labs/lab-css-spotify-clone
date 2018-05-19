@@ -1,8 +1,154 @@
-/*
-Colors:
 
-Text: 1A1A1A
-Green: #00B172
-White: #FFF
+body {
+  font-family: Roboto, system-ui, sans-serif;
+  font-weight: 200;
+  margin: 0;
+}
 
-*/
+.nav-bar ul {
+  list-style-type: none;
+  align-items: center;
+
+}
+.nav-bar li {
+  font-size: 20px;
+  display:inline;
+  padding: 0px 20px;
+  
+}
+
+.nav-bar {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  align-items: center;
+  padding: 10px 0px 10px 0px;
+}
+.nav-bar img {
+  height: 60px;
+  margin: 0 5px;
+}
+
+.general {
+  background: url("landing.jpg") 0 0/cover no-repeat;
+  position: relative;
+  width: 100%;
+  background-position: center;
+  height: 600px;
+  color: white;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+  font-size: 30px;
+ 
+}
+.general h1 {
+  font-weight: 500;
+}
+.general p {
+  margin: 0;
+  padding: 0;
+  
+  letter-spacing: 1,7px;
+  font-size: 90%;
+  
+}
+.div2 {
+  display: flex;
+  position: relative;
+  height: 13%;
+  justify-content: center;
+
+}
+.all {
+  position: absolute;
+  
+  width: 100%;
+  display: flex;
+  flex-direction: column;
+
+}
+.div2 h1 {
+font-weight: 500;
+border-bottom-style: solid;
+border-bottom-color: rgb(30, 182, 106);
+padding-bottom: 10px;
+font-size: 30px;
+}
+.div3 {
+  display: flex;
+  justify-content: center;
+  
+}
+.div3Items {
+  
+ 
+  display: flex;
+  width: 33%;
+  flex-direction: column;
+  align-content: center;
+  align-items: center;
+  text-align: center;
+  margin: 40px;
+ 
+}
+.item {
+  width: 100%;
+  
+}
+
+.div3Items img {
+  width: 40%;
+  margin: 0 auto;
+}
+.div3Items h1 {
+  
+  color: rgb(30, 182, 106);
+}
+.div3Items p {
+  width: 50%;
+}
+
+.greenDiv {
+  display: flex;
+  margin: 0 40px;
+  color: white;
+  background: url("spotify-icon-white.png") no-repeat  rgb(30, 182, 106);;
+  background-position: center;
+  background-size: 130PX;
+  padding: 50px;
+  margin-bottom: 40px;
+}
+.greenDiv h1 {
+  border-bottom-style: solid;
+  border-bottom-color: white;
+  width: 63%;
+  padding-bottom: 10px;
+  font-weight: 400;
+  font-size: 35px;
+}
+.greenDiv h2 {
+  font-size: 30px;
+}
+.greenDiv p {
+  font-size: 23px;
+  width: 60%;
+}
+
+.greenDiv1 {
+  display: flex;
+  align-content: space-around;
+  flex-direction: column;
+
+}
+.greenDiv2 {
+  display: flex;
+
+  width: 50%;
+  align-items: center;
+  justify-content: center;
+}
+.greenDiv2 img {
+ width: 75%;
+}
