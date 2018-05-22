@@ -14,6 +14,13 @@ White: #FFF
   display: flex;
 }
 
+@keyframes brandBounce {
+  0% { margin: 0; }
+  25% { margin: 2px 0 0 0; }
+  75% { margin: -2px 0 0 0; }
+  100% { margin: 0; }
+}
+
 body {
   margin: 0;
   color: #1A1A1A;
@@ -36,6 +43,10 @@ header {
 
 header .brand .logo {
   height: 100%;
+}
+
+header .brand .logo:hover {
+  animation: brandBounce 750ms linear 0ms infinite;
 }
 
 nav {
@@ -128,7 +139,6 @@ nav li a {
 }
 
 .green-section h2 {
-  /* width: 70%; */
   border-bottom: 0.1em solid #FFF;
   font-weight: 600;
 }
@@ -142,9 +152,6 @@ nav li a {
 .green-left p {
   font-weight: 300;
   width: 70%;
-}
-
-.green-middle {
 }
 
 .green-middle img {
