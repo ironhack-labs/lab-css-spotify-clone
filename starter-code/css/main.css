@@ -6,3 +6,162 @@ Green: #00B172
 White: #FFF
 
 */
+
+/* FONTS */
+@import url('https://fonts.googleapis.com/css?family=Montserrat:200,300,400,600,700');
+
+.flex {
+  display: flex;
+}
+
+@keyframes brandBounce {
+  0% { margin: 0; }
+  25% { margin: 2px 0 0 0; }
+  75% { margin: -2px 0 0 0; }
+  100% { margin: 0; }
+}
+
+body {
+  margin: 0;
+  color: #1A1A1A;
+  font: 15px/1.5 "Montserrat", Arial, sans-serif;
+}
+
+/* HEADER */
+header {
+  width: 100%;
+  height: 8%;
+  padding: 1%;
+  position: fixed;
+  background-color: #FFF;
+}
+
+.brand {
+  float: left;
+  height: 100%;
+}
+
+header .brand .logo {
+  height: 100%;
+}
+
+header .brand .logo:hover {
+  animation: brandBounce 750ms linear 0ms infinite;
+}
+
+nav {
+  float: right;
+  width: 50%;
+  margin: 0 3% 0 0;
+  font-size: 1.5em;
+  text-align: right;
+}
+
+nav ul li {
+  display: inline;
+  margin: 0 2%;
+}
+
+nav li a {
+  color: #000;
+  text-decoration: none;
+}
+
+/* LANDING */
+.landing {
+  height: 1000px;
+  background: url("../images/landing.jpg") 0 0/cover;
+  color: #FFF;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+
+.landing h1 {
+  font-size: 6em;
+  margin: 0 0 0.5em 0;
+}
+
+.landing p {
+  font-size: 2em;
+  margin: 0;
+}
+
+/* WHATS'S ON SPOTIFY? */
+.whats-on-spotify {
+  flex-direction: column;
+  align-items: center;
+}
+
+.whats-on-spotify h2 {
+  font-size: 2.5em;
+  font-weight: 600;
+  border-bottom: 0.1em solid #00B172;
+}
+
+.column-container {
+  width: 100%;
+  margin: 6.5em 0 0 0;
+  justify-content: space-evenly;
+}
+
+.column {
+  width: 33%;
+  flex-direction: column;
+  align-items: center;
+}
+
+.column img {
+  height: 10em;
+}
+
+.column h3 {
+  font-size: 2.5em;
+  color: #00B172;
+  margin: 0.2em 0;
+}
+
+.column p {
+  width: 65%;
+  font-size: 2em;
+  font-weight: 200;
+  text-align: center;
+}
+
+/* GREEN SECTION */
+.green-section {
+  color: #FFF;
+  background-color: #00B172;
+  justify-content: space-between;
+  align-items: center;
+  padding: 6em 5em;
+  margin: 3em;
+}
+
+.green-section h2 {
+  border-bottom: 0.1em solid #FFF;
+  font-weight: 600;
+}
+
+.green-left {
+  width: 45%;
+  flex-direction: column;
+  font-size: 2em;
+}
+
+.green-left p {
+  font-weight: 300;
+  width: 70%;
+}
+
+.green-middle img {
+  width: 10em;
+}
+
+.green-right {
+  margin: 3em 0 0 10em;
+}
+
+.green-right img {
+  width: 33em;
+}
