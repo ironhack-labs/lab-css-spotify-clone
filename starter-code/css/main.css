@@ -6,3 +6,112 @@ Green: #00B172
 White: #FFF
 
 */
+
+body{
+    font: 500 16px/1.5 "Helvetica Neue", Helvetica, Arial, sans-serif;
+    text-align: center;
+}
+
+#nav{
+    
+
+}
+#nav img{
+    width: 100px;
+    float: left;
+    margin-bottom:10px;
+}
+
+#nav img:hover{
+    position: absolute;
+    top:2px;
+    left:8px;
+    margin-bottom:15px;
+    /* float: left; */
+    transition-property:margin-bottom;
+    transition-duration: 2s;
+    transition-timing-function: linear;
+    transition-delay: 0.5s;
+
+}
+
+
+ul li{
+    display: inline;
+    /* list-style-type: none; */
+    padding-right: 20px;
+    float: right;
+
+}
+
+#header{
+    
+    clear: both;
+    background: url("../images/landing.jpg");
+    background-repeat: no-repeat;
+    background-size: 100%;
+    height: 1000px;
+
+    color: white;
+
+
+}
+
+#header h1{
+    font-size: 50pt;
+    /* line-height: 500px; */
+    padding-top: 350px;
+}
+
+#header h2{
+    font-size: 18pt;
+    /* font-style: normal; */
+    line-height: 10px;
+
+    /* padding-bottom: 0; */
+    /* line-height: ; */
+
+}
+
+#features div div{
+    float: left;
+    width:33.3%;
+
+}
+#features h2{
+    color:#00B172;
+}
+
+#footer{
+    clear: both;
+    color: white;
+    text-align: left;
+}
+
+#footer div{
+ 
+    background: #00B172;
+}
+
+/* #footer>div{
+    width:100%;
+} */
+
+
+#footerLeft{
+    float: left;
+    width:33%;
+    margin-left: 10%;
+}
+
+#footerMiddle{
+    float: left;
+    line-height: 500px;
+    /* width:33%; */
+    /* margin-right: */
+}
+
+#footerRight{
+    margin-left:75%;
+    line-height: 0;
+}
