@@ -28,6 +28,7 @@ body {
   top: 0;
   z-index: 1;
 }
+
 /* NAV - SECTION */
 .navbar img {
   height: 50px;
@@ -56,6 +57,7 @@ header {
 }
 header .header-content {
   position: absolute;
+  width: 100%;
   top: 50%;
   transform: translateY(-50%);
 }
@@ -67,6 +69,7 @@ header p {
   font-weight: lighter;
 }
 h1 {
+  font-size: 60px;
   padding-bottom: 20px;
 }
 
@@ -74,9 +77,6 @@ h1 {
 h2 {
   font-size: 40px;
   font-weight: 450;
-  /* display: inline-block; */
-  border-bottom: 4px solid #00b172;
-  /* text-decoration: #00b172 underline; */
 }
 
 h3 {
@@ -89,6 +89,8 @@ h3 {
 
 .whats-on h2 {
   border-bottom: 4px solid #00b172;
+  width: 25rem;
+  margin: 0 auto;
 }
 
 .whats-on .col-3 {
@@ -119,13 +121,15 @@ h3 {
 
 .green {
   background-color: #00b172;
-  margin: 30px 5vh 5vh 5vh;
+  margin: 50px 5vh 5vh 5vh;
   color: white;
   position: relative;
 }
 
 .green h2 {
-  text-decoration: underline;
+  /* text-decoration: underline; */
+  border-bottom: 4px solid white;
+  width: 33rem;
 }
 
 .green h3 {
@@ -135,12 +139,9 @@ h3 {
 
 .green-content {
   display: inline-block;
-  /* float: left; */
-  /* width: 50%; */
   padding: 30px 5%;
   padding-right: 50%;
   text-align: left;
-  /* margin-left: 20px; */
 }
 .green .phone-img {
   position: absolute;
