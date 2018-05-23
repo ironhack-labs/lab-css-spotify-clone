@@ -6,3 +6,189 @@ Green: #00B172
 White: #FFF
 
 */
+
+* {
+  /* border: 1px solid red; */
+  padding: 0px;
+  margin: 0px;
+}
+
+body {
+  font-family: Arial, Helvetica, sans-serif
+}
+
+.wrapper {
+  width: 900px;
+  margin: 0 auto;
+}
+
+.header {
+  height: 60px;
+  line-height: 40px;
+}
+
+.header .logo {
+  height: 40px;
+  float: left;
+  padding: 10px 15px;
+}
+
+.logo-jump:hover {
+  animation: bounce 1.2s ease-out;
+}
+
+.header .nav {
+  float: right;
+  padding: 10px 15px;
+}
+
+.header .nav ul {
+  list-style-type: none;
+}
+
+.header .nav li {
+  display: inline;
+  padding: 0 5px;
+  color: grey;
+  font-size: .9em;
+  font-weight: lighter;
+}
+
+.banner {
+  width: 900px;
+  background: url("../images/landing.jpg") no-repeat center center;
+  background-size: 900px;
+  height: 80vh;
+  text-align: center;
+}
+
+.banner h1, .banner p {
+  color: white; 
+  position: absolute;
+  top: 35%; left: 50%;
+  transform: translate(-50%,-50%);
+}
+
+.banner h1 {
+  font-size: 3em;
+  font-weight: 400;
+  top: 35%; left: 50%;
+  transform: translate(-50%,-50%);
+}
+
+.banner p {
+  font-size: 1em;
+  font-weight: 200;
+  line-height: 1.5em;
+  top: 50%; left: 50%;
+  transform: translate(-50%,-50%);
+}
+
+.feature-section {
+  text-align: center; 
+  text-decoration: underline;
+  text-decoration-color: #00B172;
+  padding: 20px 0;
+}
+
+.feature-section h2 {
+  color: #1A1A1A;
+  padding-bottom: 20px;
+}
+
+.feature {
+  width: 30%;
+  float: left;
+  padding-bottom: 20px;
+  padding-left: 20px;
+}
+
+.feature .name {
+  color: #00B172;
+  font-size: 1.5em;
+  font-weight: 800;
+}
+
+.feature .icon {
+  width: 60px;
+}
+
+.preview-section {
+  clear: both;
+  width: 900px;
+  margin: 0 auto;
+  height: 500px;
+  background-color: #00B172;
+}
+
+#easy {
+  font-size: 1.5em;
+  font-weight: 800;
+  line-height: 2em;
+  border-bottom: 3px solid white;
+  padding-bottom: 3px;
+  margin: 0;
+}
+
+.preview {
+  padding-top: 10px;
+}
+
+.preview .name {
+  font-size: 1.2em;
+  font-weight: 700;
+  padding: 20px 0;
+}
+
+.preview .desc {
+  font-size: 1em;
+  font-weight: 100;
+  width: 80%
+}
+
+.col1 {
+  width: 38%;
+  padding: 20px 0 20px 7%;
+  color: white; 
+  float: left;
+}
+
+.col2 {
+  width: 10%;
+  padding: 190px 0 0 0;
+  float: left;
+  text-align: center;
+}
+
+.col3 {
+  width: 38%;
+  padding: 70px 2% 20px 2%;
+  float: left;
+  text-align: center;
+}
+
+#kayne {
+  width: 220px;
+}
+
+#white-logo {
+  width: 100px;
+}
+
+
+@keyframes bounce {
+	0%, 20%, 60%, 100% {
+		-webkit-transform: translateY(0);
+		transform: translateY(0);
+	}
+
+	40% {
+		-webkit-transform: translateY(-20px);
+		transform: translateY(-20px);
+	}
+
+	80% {
+		-webkit-transform: translateY(-10px);
+		transform: translateY(-10px);
+	}
+}
