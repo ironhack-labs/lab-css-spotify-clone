@@ -6,3 +6,156 @@ Green: #00B172
 White: #FFF
 
 */
+
+* {
+  margin: 0;
+}
+
+.clearfix {
+  clear: both;
+}
+
+body {
+  font: 200 16px/1.5 "Helvetica Neue", Helvetica, Arial, Helvetica, sans-serif;
+  text-align: center;
+}
+
+.navbar {
+  padding: 20px 5vw;
+  position: fixed;
+  background-color: white;
+  width: 90vw;
+  top: 0;
+  z-index: 1;
+}
+/* NAV - SECTION */
+.navbar img {
+  height: 50px;
+  float: left;
+}
+.navbar li {
+  float: right;
+}
+
+.navbar li {
+  list-style-type: none;
+  padding: 0 10px;
+  line-height: 50px;
+}
+/* HEADER - SECTION */
+
+header {
+  position: relative;
+  margin-top: 90px;
+  background-image: url(../images/landing.jpg);
+  background-repeat: none;
+  background-size: 100%;
+  width: 100vw;
+  height: 66vw;
+  color: white;
+}
+header .header-content {
+  position: absolute;
+  top: 50%;
+  transform: translateY(-50%);
+}
+header p {
+  width: 50%;
+  margin: 0 auto;
+  font-size: 20px;
+  letter-spacing: 0.04em;
+  font-weight: lighter;
+}
+h1 {
+  padding-bottom: 20px;
+}
+
+/*  SECTION 1 --- Whats on */
+h2 {
+  font-size: 40px;
+  font-weight: 450;
+  /* display: inline-block; */
+  border-bottom: 4px solid #00b172;
+  /* text-decoration: #00b172 underline; */
+}
+
+h3 {
+  font-size: 25px;
+}
+
+.whats-on {
+  margin: 40px 10vw 0 10vh;
+}
+
+.whats-on h2 {
+  border-bottom: 4px solid #00b172;
+}
+
+.whats-on .col-3 {
+  float: left;
+  width: 30%;
+  padding-top: 10vh;
+}
+
+.whats-on .col-mid {
+  margin-right: 5%;
+  margin-left: 5%;
+}
+.whats-on img {
+  height: 100px;
+  margin: 0 auto;
+}
+
+.whats-on h3 {
+  color: #00b172;
+}
+
+.whats-on .col-3 div {
+  margin-top: 10px;
+  font-size: 25px;
+}
+
+/* SECTION 2 --- green */
+
+.green {
+  background-color: #00b172;
+  margin: 30px 5vh 5vh 5vh;
+  color: white;
+  position: relative;
+}
+
+.green h2 {
+  text-decoration: underline;
+}
+
+.green h3 {
+  margin-bottom: 12px;
+  margin-top: 12px;
+}
+
+.green-content {
+  display: inline-block;
+  /* float: left; */
+  /* width: 50%; */
+  padding: 30px 5%;
+  padding-right: 50%;
+  text-align: left;
+  /* margin-left: 20px; */
+}
+.green .phone-img {
+  position: absolute;
+  top: 50%;
+  right: 10px;
+  transform: translateY(-50%);
+  height: 80%;
+  padding: 5%;
+}
+.green .white-logo {
+  position: absolute;
+  width: 8vw;
+  right: 45%;
+  top: 50%;
+}
+.green .inner-content {
+  padding-right: 30%;
+}
