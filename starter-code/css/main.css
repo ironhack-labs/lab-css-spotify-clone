@@ -1,8 +1,142 @@
 /*
 Colors:
 
-Text: 1A1A1A
+Text: 1A1A1A --BLACK FOR SOME TEXT
 Green: #00B172
 White: #FFF
 
 */
+
+@import url('https://fonts.googleapis.com/css?family=Open+Sans:400,600,800');
+/*    GENERAL RULES    */
+*{
+    padding: 0;
+    margin: 0;
+    font-family: "Open Sans", sans-serif;
+
+}
+
+.flex-col {
+    display: flex;
+    flex-direction: column;
+}
+.flex-row {
+    display: flex;
+}
+
+
+
+/*   SPECIFIC SECTIONS    */
+
+/*NAVIGATINON*/
+
+#navigation, #navigation li {
+    justify-content: space-between;
+    align-items: center;
+    margin: 10px 20px;
+    font-size: 1.1em
+}
+#spotify-logo {
+    height: 60px;} /*Right now, this is deciding the height of
+                    the whole NAV-bar, because the image is huge*/
+
+/*TOP-SECTION*/
+#top-section {
+    display: flex;
+    background-image: url(/images/landing.jpg);
+    background-size: cover;
+    height: 100vh;
+    background-attachment: fixed;
+    color: #FFF;
+    text-align: center;
+}
+.concert {
+    margin: auto;
+    font-size: 2em;
+}
+.concert h1{
+    padding: 20px;
+}
+
+
+/*MIDDLE PART*/
+
+.middle-section {
+    text-align: center;
+    display: flex;
+}
+.h2-header {
+    font-size: 2.5em;
+    font-weight: 600;
+}
+#h2-header-div {
+    text-align: center;
+    justify-content: center;
+    margin: 0 auto;
+    padding: 40px 0 40px 0;
+}
+.h2-header:after {
+    content:' ';
+    display:block;
+    border: 2px solid #00B172;
+}
+.music-logo-box {
+    font-size: 1.1em;
+    justify-content: center;
+    margin: auto;
+    text-align: center;
+    padding: 30px 0 30px 0;
+}
+.music-logo-box h3{
+    color: #00B172;
+}
+.music-logo-box img {
+    width: 120px;
+    margin: auto;
+}
+
+/*LOWER PART*/
+.lower-section {
+    background-color: #00B172;
+    margin: 50px;
+    padding: 70px 20px 70px 100px;
+    background-image: url(/images/spotify-icon-white.png);
+    background-size: 160px;
+    background-repeat: no-repeat;
+    background-position: center;
+    justify-content: space-between;
+}
+
+.lower-section h2 { /*KANYE*/
+    font-size: 2.5em;
+    font-weight: 600;
+    color: #fff;
+    padding-bottom: 15px;
+}
+.lower-section h2:after {
+    content:' ';
+    display:block;
+    border: 2px solid #FFF
+}
+.lower-section h3 {
+    font-size: 2em;
+    font-weight: 600;
+    color: #fff;
+    padding: 30px 0;
+}
+.lower-section p {
+    font-size: 1.3em;
+    font-weight: 500;
+    color: #fff;
+
+}
+
+.lower-section p {
+    margin: 5px 0;
+}
+
+#phone-example-image {
+    width: 350px;
+    height: 640px;
+    padding: 0 100px 0 0;
+}
