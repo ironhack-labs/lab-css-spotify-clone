@@ -1,8 +1,157 @@
 /*
 Colors:
-
 Text: 1A1A1A
 Green: #00B172
 White: #FFF
-
 */
+
+*{
+    margin: 0;
+}
+body {
+    font: 200 16px/1.5 "Helvetica Neue", Helvetica, Arial, sans-serif;
+    margin: 0;
+  }
+  h1 {
+    color: #fff;
+    margin: 100px auto 50px auto;
+    font-size: 45px;
+    font-weight: 500;
+    padding: 140px 0px 0px; 
+  }
+
+  
+  h4 {
+      color: #fff;
+      font-weight: 100;
+      font-size: 20px;
+  }
+
+.navbar {
+    position: fixed;
+    top: 0;
+    height: 100px;
+    width: 100%;
+    background: #fff;
+    z-index: 1;
+}
+.navUl {
+    height: 70px;
+    float: left;
+    z-index: 2;
+    padding: 5px;
+    margin: 9px;
+}
+.navLinks {
+    background: none;
+    margin: 30px 50px;
+}
+
+ul li {
+    float: right;
+    list-style-type: none;
+    margin: 10px;
+}
+/*Section HEADER*/
+.welcome {
+    clear: both;
+    text-align: center;
+    background-image: url(../images/landing.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+    height: 100vh;
+    width: 100vw;
+    position: relative;
+}
+
+
+/*Section PRODUCT*/
+.Product {
+    width: 100%;
+    height: 300px;
+    margin: 40px 0px 0px 0px;
+
+}
+
+.Product h2 {
+    border-bottom:2px solid #00B172;
+    text-align: center;
+    width: 18%;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+.Product h3 {
+    text-align: center;
+    color: #00B172;
+}
+
+.Product p {
+    text-align: center;
+}
+
+.col {
+    float: left;
+
+    margin-top: 40px;
+}
+
+.col-3 {
+    width: 30%;
+}
+.col-mid {
+    margin: 0% 5%;
+}
+.Product img {
+    width: 30%;
+    padding: 0px 0px 0px 130px;
+}
+.right {
+    float: right;
+}
+
+/*Section INFO*/
+.ProductInfo {
+    clear: both;
+    background: #00B172;
+    position: absolute;
+    width: 100%;
+    height: 500px;
+    margin: 50px;
+}
+
+.ProductInfo h2 {
+    border-bottom: 2px solid #fff;
+    }
+
+.ProductInfo img {
+    margin: auto;
+    margin-top: auto;
+    margin-bottom: auto;
+    display: block;
+    height: 30%;
+}
+
+.backImg {
+    display: inline-block;
+    vertical-align: middle;
+    z-index: -1;
+}
+
+.left {
+    padding: 80px;
+    color: #fff;
+    display: block;
+    width: 50%;
+    float: left;
+}
+.clearfix {
+    clear: both;
+}
+
+.right {
+    margin: 50px;
+    height: 200px;
+    float: right;
+}
+
