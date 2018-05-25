@@ -6,3 +6,204 @@ Green: #00B172
 White: #FFF
 
 */
+
+
+body {
+  margin: 0;
+  padding: 0;
+  letter-spacing: 0.5px;
+  font-family: Roboto, system-ui, sans-serif;
+}
+
+.clear-fix { /* clear the previus floats */
+  clear: both;
+} 
+
+h1 {
+  font-size: 60px;
+  font-weight: bold;
+}
+h2 {
+  font-size: 32px;
+  font-weight: bold;
+}
+h3 {
+  font-size: 23px;
+  font-weight: bold;
+}
+p {
+  font-weight: 100;
+}
+
+.black-font {
+  color: #1A1A1A;
+}
+.white-font {
+  color: #FFF;
+}
+.background-white {
+  background-color: #FFF;
+}
+
+
+/* -------------nav------------------- */
+
+nav {
+  position: fixed;
+  width: 100%;
+  height: 5%;
+  display: flex; /* for center all the content*/
+  flex-direction: row;
+  justify-content: space-between;
+  align-items: center;
+  padding: 15px 0px 15px 2%;
+}
+
+.nav-left{
+  float: left;
+}
+
+.nav-left img{
+  height: 50px;
+}
+
+.nav-left img:hover {
+  animation-name: logoshake;
+  animation-iteration-count: infinite;
+  animation-duration: 0.75s;
+}
+
+@keyframes logoshake {
+  0% { margin: 0; }
+  25% { margin: 2px 0 0 0; }
+  75% { margin: -2px 0 0 0; }
+  100% { margin: 0; }
+}
+
+.nav-right{
+  float: right;
+  text-align: center;
+  padding-right: 40px;
+}
+
+ul>li {
+  list-style: none;
+  display: inline;
+  padding: 0 25px;
+}
+
+ul>li>a {
+  text-decoration: none;
+  color: #1A1A1A;
+  font-weight: 100;
+}
+
+/* --------------header------------------ */
+
+.header-container { /* something wrong here :( */
+  background: url("../images/landing.jpg") 0 0/cover;
+  height: 950px;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+
+.header-text{
+  text-align: center;
+}
+
+.header-text p{
+  font-size: 23px;
+}
+
+/* --------------middle------------------ */
+
+.middle-container{
+  text-align: center;
+  margin-bottom: 8%;
+}
+
+.title-middle-container {
+  border-bottom: 2px #00B172 solid;
+  display: inline-block;  /* for the green border*/
+  padding-bottom: 0.8%;
+  margin-top: 5%;
+  margin-bottom: 8%;
+}
+
+.middle-container p{
+  font-size: 20px;
+}
+
+.middle-container h3{
+  color: #00B172;
+  margin-top: 8%;
+  margin-bottom: 12%;
+}
+
+.middle-container img{
+  width: 35%;
+  display: block;
+  margin: auto; 
+}
+
+.middle-container .col {
+  display: flex;
+  flex-direction: row;
+  align-items: baseline;
+  justify-content: space-evenly; 
+}
+
+.middle-container .col3 {
+  width: 20%;
+}
+
+/* ---------------green aside----------------- */
+
+.bottom-container {
+  background: url('../images/spotify-icon-white.png') 0 0 no-repeat;
+  background-size: 10%;
+  background-color: #00B172; 
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: 8%;
+  margin: 0 2% 2% 2%;
+  height: 100%;
+  padding: 6%;
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+}
+
+.bottom-container .col{
+  margin-top: 8%;
+}
+.bottom-container .col3, h3{
+  margin-bottom: 8%;
+}
+
+.left-bottom + h2 {
+  display: flex;
+  flex-direction: column;
+  justify-content: space-evenly;
+  text-align: left;
+}
+
+.title-bottom-container {
+  border-bottom: 2px #FFF solid;
+  display: inline-block;  /* for the white border*/
+  padding-bottom: 0.8%;
+}
+
+.right-bottom {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+
+.right-bottom img{
+  height: 490px;
+ 
+}
