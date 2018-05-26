@@ -6,3 +6,153 @@ Green: #00B172
 White: #FFF
 
 */
+
+* {
+  margin: 0;
+  box-sizing: border-box;
+  font-family: Circular, Helvetica, Arial, sans-serif;
+  color: #1A1A1A;
+}
+
+h3 {
+  font-size: 2rem;
+  font-weight: 600;
+  text-align: center;
+  margin: 0 auto 4rem;
+}
+
+nav {
+  width: 100vw;
+  height: 95px;
+  background: #fff;
+  position: fixed;
+  top: 0;
+  padding: 1rem 2rem;
+}
+nav > h1 {
+  float: left;
+  width: 18vw;
+}
+nav > h1 > img {
+  width: 100%;
+}
+nav > ul {
+  float: right;
+  list-style: none;
+  padding-top: 1rem;
+}
+nav > ul > a > li {
+  display: inline-block;
+  color: #000;
+  font-size: 1.2rem;
+  margin-right: 1rem;
+}
+
+.main-img {
+  clear: both;
+  display: table;
+  width: 100vw;
+  height: 100vh;
+  background: url(../images/landing.jpg) no-repeat;
+  background-size: cover;
+  text-align: center;
+  margin-top: 95px;
+}
+.main-img > .txt-center {
+  display: table-cell;
+  vertical-align: middle;
+}
+.main-img > .txt-center > h2 {
+  color: #fff;
+  font-size: 4rem;
+  margin-bottom: 2rem;
+  font-weight: 600;
+}
+.main-img > .txt-center > p {
+  color: #fff;
+  font-size: 1.5rem;
+  font-weight: 100;
+}
+
+.whats-box {
+  width: 80vw;
+  margin: 0 auto 3rem;
+  padding: 3rem 0;
+  overflow: auto;
+}
+.whats-box > h3 {
+  width: 19rem;
+  border-bottom: 3px solid #00B172;
+  padding-bottom: .2rem;
+  margin-bottom: 5.5rem;
+}
+.whats-box > div {
+  float: left;
+  width: 28%;
+  text-align: center;
+  margin-right: 6%;
+}
+.whats-box > div:last-of-type {
+  float: right;
+  margin-right: 0;
+}
+.whats-box > div > .img-box {
+  height: 20vh;
+}
+.whats-box > div > .img-box > img {
+  width: 45%;
+}
+.whats-box > div > h4 {
+  color: #00B172;
+  font-size: 1.45rem;
+  margin-bottom: 1.5rem;
+}
+.whats-box > div > p {
+  font-size: 1.3rem;
+  font-weight: 100;
+  line-height: 1.8rem;
+}
+
+.green {
+  clear: both;
+  background: #00B172 url(../images/spotify-icon-white.png) no-repeat center;
+  background-size: 10%;
+  width: 80vw;
+  margin: 3rem auto;
+  overflow: auto;
+  padding: 3rem;
+}
+.green > .left {
+  float: left;
+}
+.green > .right {
+  float: right;
+  width: 35%;
+}
+.green > .left > h3 {
+  width: 27rem;
+  color: #fff;
+  border-bottom: 3px solid #fff;
+  padding-bottom: .2rem;
+}
+.green > .left > p {
+  color: #fff;
+  font-weight: 100;
+  line-height: 1.5rem;
+}
+.green > .left > p > span {
+  display: block;
+  color: #fff;
+  font-size: 1.5rem;
+  font-weight: 600;
+  margin: 2.5rem auto 1.5rem;
+}
+  .green > .right > img {
+  width: 100%;
+}
+.green::after {
+  clear: both;
+  content: "";
+}
+
+
