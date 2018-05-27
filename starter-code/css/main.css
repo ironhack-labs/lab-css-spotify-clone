@@ -4,5 +4,147 @@ Colors:
 Text: 1A1A1A
 Green: #00B172
 White: #FFF
-
 */
+
+
+body{
+  margin: 0;
+  border:0;
+  font-family: 'Montserrat', sans-serif;
+}
+nav{
+  width: 100%;
+  height: auto;
+  position: fixed;
+  background-color: white;
+
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  justify-content: space-between;
+  flex-wrap: wrap;
+}
+nav img{
+  width: 10%;
+  float: left;
+  margin: 0 20px;
+}
+nav ul{
+    float: right;
+    display: flex;
+    margin: 10px;
+  }
+nav ul li{
+  margin:3px;
+  list-style: none; 
+  font-size:small;
+}
+header{
+  display: flex;
+  justify-content: center;  
+  align-items: center;
+  flex-direction: column;
+  
+  color:#fff;
+  height:  480px;
+  background-image: url("../images/landing.jpg");
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+header h1{
+  font-weight: bold;
+  font-size: 35px;
+}
+header h3{
+  font-size: small;
+  font-weight: lighter;
+  margin: 0;
+}
+.whats {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-wrap: wrap ;
+
+}
+.whats h2{
+  border-bottom: #00B172 solid  4px;
+}
+.songs{
+  display: flex;
+  align-items: stretch;
+  flex-direction: row;
+  justify-content: space-around;
+}
+.songs div {
+  width: 30%;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  margin :20px;
+}
+.songs h3{
+  font-size: small;
+  font-weight: bold;
+  margin: 0;
+  color: #00B172;
+}
+.songs p {
+  font-size: small;
+  align-content: center;
+  margin: 15px;
+}
+.songs div img{
+  width: 70px;
+}
+.green{
+  background-color: #00B172;
+  color:#FFF;
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  justify-content: center;
+  margin:25px;
+  }
+.sideLeft {
+  display: flex;
+  flex-direction: row;
+  flex-flow: flex-end;
+  align-items: center;
+  justify-content: center;
+  margin:25px;
+}
+.inSideLeft{
+  display: flex;
+  flex-direction: column;
+  align-items: left;
+  justify-content: space-around;
+  
+}
+.green div h2{
+  text-decoration:  underline;
+  margin : 10px ;
+  border-bottom: #FFF 1px;
+  width: 90%;
+}
+.green aside {
+  background-image: url("../images/spotify-app.jpg");
+  background-size: cover;
+  width:45%;
+  min-width: 80px;
+  margin: 50px;
+}
+.green img{
+   width: 50px;
+   margin: 0 20px;
+}
+
+.green p {
+  font-size: small;
+  align-content: center;
+}
+
+
+
