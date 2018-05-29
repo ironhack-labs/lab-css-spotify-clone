@@ -1,8 +1,115 @@
 /*
 Colors:
-
 Text: 1A1A1A
 Green: #00B172
 White: #FFF
-
 */
+/* header */
+*{
+  font-family: 'Open Sans', sans-serif;
+}
+.fix{
+  position: fixed
+}
+.header{
+  height: 100px; 
+  width: 100%;
+  margin: 8px 0px 0px 0px;
+}
+.logo{
+  height: 70px;
+  padding: 3% 0px 0px 15%;
+}
+#header-list > li {
+  display: inline-block;
+  font-size: 20px;
+  margin: 10px 5% 0px 0px;
+}
+#header-list{
+  text-align: right;
+  padding: 0px 2% 0px 0px;
+}
+.left-bar {
+  float: left;
+  height: 100px;
+  width: 20%;
+}
+.right-bar {
+  float: right;
+  height: 100px;
+  width: 50%;
+}
+.clear{
+  clear: both;
+}
+/* concert picture section */
+.main{
+  width: 100%;
+}
+.concert-pic {
+  position: relative;
+  background-image: url("../images/landing.jpg");
+  background-size: 100%;
+  height: 500px;
+  background-repeat: no-repeat; 
+}
+.white{
+  text-align: center;
+  color :#FFF;
+  font-weight: 100;
+}
+.transparent{
+  line-height: 180%; 
+  margin: -20px 0px 0px 0px; 
+  opacity: 0.5; 
+}
+.box-white-text{
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+}
+h1{
+  font-size: 60px;
+}
+/* second half of page */
+.icon{
+  width: 30%;
+}
+h2{
+  font-size: 30px;
+  text-decoration: underline;
+}
+.h2-black-green{
+   text-decoration: underline #00B172; 
+   text-align: center;
+}
+h3{
+  font-size: 20px;
+}
+.h3-green{  
+  color: #00B172;
+}
+.middle{
+  float: left;
+  width: 29%;
+  padding: 2% 2% 2% 2%;
+  text-align: center;
+}
+.green-box{
+  background-color: #00B172;  
+  height: 600px;
+}
+.white2{
+  color: white;
+}
+.green-float{
+  float: left;
+  width: 40%;
+  padding: 2% 2% 2% 8%;
+}
+#app-pic{
+  width: 50%;
+  padding: 10% 10% 5% 10%;
+}
+
