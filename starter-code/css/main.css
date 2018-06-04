@@ -6,3 +6,180 @@ Green: #00B172
 White: #FFF
 
 */
+
+
+body {
+    font-family: 'Roboto', sans-serif;
+    font-size: 18px;
+    margin: 0;
+}
+
+
+/* ---- Flex parents ---- */
+.main-container {
+    display: flex;
+    flex-direction: column;
+}
+
+.flex1-container {
+    display: flex;
+    flex-direction: column;
+}
+
+.flex2-container {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+    padding-top: 5vh;
+    padding-bottom: 7vh;
+}
+
+.whiteBack{
+    background-color: white;
+}
+.flex3-container {
+    margin: 5vh;
+    padding: 5vh;
+    display: flex;
+    flex-direction: row;
+    background-color:#00B172;
+    color: white;
+    background-image: url("../images/spotify-icon-white.png");
+    background-repeat: no-repeat;
+    background-size: 12%;
+    background-position: center center;
+}
+
+/* ----- Flex children PART1 ----- */
+.navbar {
+    display: flex;
+    flex-direction: row;
+}
+
+#brandLogo {
+    width: 220px;
+    height: 59px;
+    background-image: url("../images/spotify-logo.png");
+    background-repeat: no-repeat;
+    background-size: contain;
+    background-position: center center;
+    margin: 10px;
+}
+
+.navButtons{
+    flex: 1;
+    display: flex;
+    justify-content: flex-end;
+}
+
+a {
+    font-size: 25px;
+    margin: 15px;
+    padding: 10px;
+    color: black;
+    text-decoration: none;
+    text-align: center;
+  }
+
+
+.backPic{
+    height: 700px;
+    background-image: url("../images/landing.jpg");
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center center;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+}
+
+.backPic-h1 {
+    text-align: center;
+    color: white;
+    font-size: 4.5em;
+}
+
+.backPic-h3 {
+    text-align: center;
+    color: white;
+    font-weight: 100;
+    font-size: 1.8em;
+    line-height: 1.3;
+}
+
+.h2-center {
+    text-align: center;
+    font-size: 2.5em;
+    font-weight: bolder;
+}
+
+
+/* ----- Flex children PART2 ----- */
+
+.flex-col {
+    display:flex;
+    flex-direction: column;
+    align-content: center;
+    text-align: center;
+    width: 30%;
+}
+
+.flex-col-pic {
+    margin: 2vh 1vh;
+    height: 100px;
+    width: 100px;
+}
+
+#flex-col-pic1 {background-image: url("../images/music-icon.png");background-size: cover;background-position: center center; align-self: center;}
+#flex-col-pic2 {background-image: url("../images/high-quality-icon.png");background-size: cover;background-position: center center; align-self: center;}
+#flex-col-pic3 {background-image: url("../images/devices-icon.png");background-size: cover;background-position: center center; align-self: center;}
+
+h3 {
+    color: #00B172;
+    font-size: 1.7em;
+}
+
+.content-description{
+    color:grey;
+    font-size: 1.5em;
+}
+
+/* ----- Flex children PART3 ----- */
+.flex-row {
+    flex:1;
+}
+
+.flex-row-text {
+    display: flex;
+    flex-direction: column;
+    padding-top:3vh;
+    padding-left: 5vw;
+}
+
+
+.flex-row-h3 {
+    font-size: 1.7em;
+    color: white;
+    border-bottom: 4px solid white;
+}
+
+.description {
+    font-size: 1em;
+}
+
+.flex-row-pic {
+    flex:1;
+    padding-top:10vh;
+}
+
+.flex-row-pic > div {
+    height: 90vh;
+    background-image: url(../images/spotify-app.jpg);
+    background-repeat: no-repeat;
+    background-size: 55%;
+    background-position: center center;
+}
+
+h5 {
+    font-size: 1.5em;
+}
