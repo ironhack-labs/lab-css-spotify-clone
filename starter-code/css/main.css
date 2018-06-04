@@ -6,3 +6,159 @@ Green: #00B172
 White: #FFF
 
 */
+
+
+@import url('https://fonts.googleapis.com/css?family=Roboto');
+
+*{
+    margin: 0 auto;
+    padding: 0 auto;
+}
+body {
+    font-family: Roboto;
+    color: #1A1A1A;
+    font-size: 20px;
+    margin: 0 auto;
+    padding: 0px;
+}
+
+.navbar {
+    position: fixed;
+    height: 80px;
+    width: 100vw;
+    background-color: white;
+    margin-top: 0;
+}
+
+.spotify-logo {
+    margin-left: 50px;
+    height: 50px;
+    padding-top: 15px;
+}
+
+.links {
+    display: inline-block;
+    float: right;
+    margin-right: 50px;
+    padding-top: 25px;
+  }
+
+.links li {
+    display: inline-block;
+    margin: 0 10px;
+}
+
+.links a {
+    text-decoration: none;
+    color: #1A1A1A;
+}
+
+.music {
+    background-image: url(../images/landing.jpg);
+    background-size: cover;
+    height: 1000px;
+    text-align: center;
+    color: #FFF;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+}
+
+.music h1 {
+    font-size: 4em;
+    margin-bottom: 40px;
+}
+
+.music p {
+    font-size: 1.5em;
+}
+
+.whats-on-spotify {
+    height: 60vh;
+}
+
+.whats-on-spotify h1 {
+    text-align: center;
+    border-bottom: #00B172 4px solid;
+    padding-bottom: 5px;
+    padding-top: 50px;
+    width: 25%;
+}
+
+.blocks h2 {
+    color: #00B172;
+}
+
+.blocks {
+    display: flex;
+    justify-content: space-around;
+    text-align: center;
+    padding-top: 70px;
+}
+
+@media (max-width: 650px) {
+    .blocks {
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        height: 100vh;
+    }
+    .yeezy {
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        height: 200vh;
+    }
+}
+
+.block {
+    width: 25%;
+    display: flex;
+    height: 25vh;
+    justify-content: space-around;
+    flex-direction: column;
+}
+
+
+
+.yeezy {
+    width: 90%;
+    height: 800px;
+    background-image: url(../images/spotify-icon-white.png);
+    background-repeat: no-repeat;
+    background-size: 150px;
+    background-position: center;
+    background-color: #00B172;
+    margin: 50px;
+    color: white;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+}
+
+
+.yeezy h2 {
+    padding-top: 0px;
+    padding-bottom: 20px;
+    font-size: 2em;
+}
+
+.yeezy .text{
+    height: 500px;
+    display: flex;
+    flex-direction: column;
+    width: 40vw;
+    justify-content: flex-start
+}
+
+.content {
+    width: 20vw;
+    padding-right: 196px;
+}
+
+.content h3 {
+    font-size: 1.5em;
+    margin-bottom: 30px;
+    margin-top: 30px;
+}
+
