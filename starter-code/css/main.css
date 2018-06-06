@@ -6,3 +6,83 @@ Green: #00B172
 White: #FFF
 
 */
+
+body {
+  font-family: "Segoe UI", Tahoma, Geneva, Verdana, sans-serif;
+}
+
+.images {
+  background-image: url("../images/landing.jpg");
+  background-size: cover;
+  background-position: bottom;
+  padding: 300px;
+  color: white;
+  text-align: center;
+}
+
+.what {
+  text-align: center;
+  font-size: 35px;
+  text-decoration: underline #00b172;
+}
+
+.titre {
+  font-size: 80px;
+}
+
+h3 {
+  font-size: 20px;
+}
+
+h2 {
+  font-size: 30px;
+}
+
+h1 {
+  font-size: 70px;
+  font-weight: lighter;
+}
+
+.icone {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+}
+
+.article {
+    text-align: center;
+}
+
+.green {
+display: flex;
+flex-direction: row;
+align-items: center;
+justify-content: center;
+padding: 4em;
+background-color: #00b172;
+background-image: url("../images/spotify-icon-white.png");
+background-size: 10%;
+background-position: center;
+background-repeat: no-repeat;
+width: 80vw;
+margin: auto;
+}
+
+.green .content {
+  flex: 1;
+  color: white;
+  font-size: 1.4em;
+}
+
+.green .content h3 {
+  margin-top: 0;
+  text-decoration: underline;
+}
+
+.green .content p {
+  width: 24vw;
+}
+
+.green .img{
+  width: 20vw;
+}
