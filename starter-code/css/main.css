@@ -6,3 +6,174 @@ Green: #00B172
 White: #FFF
 
 */
+
+body {
+  background-color: #fff;
+  font-family: "Segoe UI","Open Sans", sans-serif;
+  color: #1A1A1A;
+  margin: 0 auto;
+  padding: 0 auto;
+  font-size: 14px;
+}
+
+h1 {
+  color: #fff;
+  font-size: 4.2em;
+  text-align: center;
+  padding-bottom: .4em;
+  margin: 0;
+}
+
+h2 {
+  font-size: 1.8em;
+  text-decoration: underline;
+}
+
+h3 {
+  text-align: center;
+  font-size: 1.59em;
+  font-weight: lighter;
+  padding-bottom: 2em;
+  margin: 0;
+}
+
+.container {
+  display: flex;
+  flex-direction: column;
+}
+
+.nav-bar {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  position: fixed;
+}
+
+.logo {
+  float: left;
+  width: 200px;
+  align-self: center;
+
+}
+
+.logo:hover {
+  padding-left: 3em;
+  transition-duration: 2s;
+  transition-timing-function: ease-in;
+  transform: translate(20px, 0)
+}
+
+.nav-bar ul {
+  float: right;
+  display: flex;
+  flex-direction: row;
+  list-style-type: none;
+  margin: auto 0;
+  margin-right: 2.8em;
+}
+
+.nav-bar + li {
+  align-items: center;
+}
+
+.nav-bar a {
+  text-decoration: none;
+  font-size: 1.23em;
+  margin: 0 0.7em;
+  color: #1A1A1A;
+}
+
+.landing {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  background-image: url(../images/landing.jpg);
+  background-repeat: no-repeat;
+  background-position: center;
+  background-size: cover;
+  color: #fff;
+};
+
+.about-height {
+  display: flex;
+  flex-direction: column;
+  justify-content: space-around;
+}
+
+.height {
+  height: 45vh;
+}
+
+.about-height h2 {
+  text-align: center;
+  text-decoration: underline #00B172;
+}
+
+.articles {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-around;
+}
+
+.about-height article {
+  text-align: center;
+  width: 30%;
+}
+
+.about-height img {
+  height: 50px;
+}
+
+.how-to {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-around;
+  align-items: center;
+  background-color: #00B172;
+  background-image: url('../images/spotify-icon-white.png');
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: 7em;
+  color: #fff;
+  margin: 50px;
+}
+
+.how-to img {
+  height: 50px;
+  margin: auto 0;
+}
+
+.how-to h3 {
+  text-align: left;
+  padding: 0;
+  font-weight: bold;
+}
+
+#kanye {
+  height: 400px;
+}
+
+.text {
+  width: 40%;
+  height: 65vh;
+}
+
+.text p {
+  font-size: 1.1em;
+}
+
+.view {
+  height: 98vh;
+  width: 100vw;
+}
+
+.other-view {
+  width: 94vw;
+  height: 72vh;
+}
+
+.nav-view {
+  height: 10vh;
+  width: 100vw;
+  background-color: #fff;
+}
