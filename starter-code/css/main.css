@@ -55,9 +55,18 @@ p {
   text-align: center;
 }
 
+.screenshot {
+  color: white;
+}
+
+.whats-on h2, h3 {
+  color: #00B172
+}
+
 
 
 /* ---- layout ---- */
+
 
 .container-padded {
   padding: 0 150px;
@@ -71,7 +80,6 @@ p {
 
 .container-half {
   width: 50%;
-  background-color: green;
   float: left;
   overflow: hidden;
   position: relative;
@@ -81,32 +89,24 @@ p {
 .container-one-third {
   width: 33.33%;
   width: calc(100% / 3);
-  background-color: red;
   float: left;
   overflow: hidden;
 }
 
-.container-one-third {
-  width: 33.33%;
-  width: calc(100% / 3);
-  background-color: red;
-  float: left;
-  overflow: hidden;
-}
+
 
 .container-two-thirds {
   width: 66.66%;
   width: calc((100% / 3)*2);
-  background-color: red;
   float: left;
   overflow: hidden;
 }
 
 .nav-logo {
-  width: 200px;
+  width: 150px;
   display: inline;
   float: left;
-  padding: 10px 0 0 50px;
+  padding: 10px 0 0 0;
   margin: 0 0 10px 0;
 }
 
@@ -122,8 +122,11 @@ p {
   background-size: 100%;
   background-position:center; 
   background-repeat: no-repeat;
-  position: relative;
   height: 50vh;
+}
+
+.vertically-centered-parent {
+  position: relative;
 }
 
 
@@ -133,6 +136,19 @@ p {
   left: 50%;
   transform: translate(-50%, -50%);
 }
+
+.whats-on {
+  padding-top: 30px;
+  margin-bottom: 30px;
+}
+
+
+.screenshot {
+  padding-left: 50px;
+  padding-right: 50px;
+  background-color: #00B172;
+}
+
 
 
 
@@ -154,7 +170,7 @@ img {
 }
 
 .nav-menu li:last-of-type {
-  margin-right: 50px;
+  margin-right: 0;
 }
 
 .whats-on img {
