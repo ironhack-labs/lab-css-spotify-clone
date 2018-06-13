@@ -150,6 +150,7 @@ h2 {
     width: 90%;
     max-width: 1200px;
     margin: 30px auto;
+    position: relative;
 }
 
 .colum-wrapper {
@@ -227,4 +228,14 @@ h2 {
     100% {
       margin-top: 10px;
     }
+  }
+
+  .logo-absolute {
+      position: absolute;
+      top: calc(50% - 50px);
+      left: calc(50% - 50px);
+  }
+
+  .logo-absolute img {
+      height: 100px;
   }
