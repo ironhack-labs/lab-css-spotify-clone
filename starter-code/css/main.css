@@ -19,7 +19,7 @@ nav {
   width: 1250px;
   height: 100px;
   position: fixed;
-  background-color: white;
+  background-color: rgba(255, 255, 255, 0.9);
   top: 0;
 }
 
@@ -39,8 +39,14 @@ ul > li {
   display: inline-block;
 }
 
-section {
+section > h2 {
+  text-align: center;
+}
 
+span {
+  display: inline-block;
+  padding: 0 35%;
+  height: 90px;
 }
 
 h1 {
@@ -51,10 +57,11 @@ h1 {
 }
 
 h2 {
-  border-bottom: 3px solid;
+  padding-bottom: 5px;
+  border-bottom: 4px solid;
 }
 
-p {
+header p {
   font-size: 28px;
   font-weight: lighter;
   margin: 15px 0;
@@ -74,7 +81,6 @@ p {
 }
 
 .spotifyLogo:hover {
-  /*animacion*/
   animation-name: logo;
   animation-duration: 0.5s;
   animation-direction: normal;
@@ -107,15 +113,42 @@ p {
 
 .col3 {
   display: block;
-  width: 30%;
+  width: 31%;
   margin: 0 10px;
   float: left;
   text-align: center;
 }
 
-.col3 > img {
+section > h2 {
+  font-size: 43px;
+  font-weight: bold;
+  border-color: #00B172;
+  margin: 45px 38% 90px auto;
+  width: 312px;
+}
+
+.col3 h3 {
+  color: #00B172;
+  font-weight: bold;
+  font-size: 30px;
+}
+
+.col3 p {
+  font-size: 25px;
+  font-weight: lighter;
+  margin-bottom: 80px;
+}
+
+span > img {
   display: block;
   width: 120px;
+  margin: 0;
+}
+
+span > img[alt="HD Music"] {
+  width: 130px;
+  margin-top: 5px;
+  margin-left: -5px;
 }
 
 .upperBox, .col3 {
@@ -130,10 +163,11 @@ p {
   background-image: url('../images/spotify-icon-white.png');
   background-position: center;
   background-repeat: no-repeat;
-  background-size: 150px;
+  background-size: 120px;
   background-color: #00B172;
   margin: 30px;
-  padding: 80px 90px;
+  padding: 60px 90px;
+  color: white;
 }
 
 .col2 {
@@ -142,7 +176,31 @@ p {
 }
 
 .col2 > img {
-  width: 60%;
-  margin-left: 40%;
-  margin-top: 20px;
+  width: 65%;
+  margin-left: 35%;
+  margin-top: 50px;
+}
+
+.col2 h2 {
+  font-size: 42px;
+  margin-top: 15px;
+  margin-bottom: 45px;
+  font-weight: bold;
+  width: 461px;
+}
+
+.col2 h3 {
+  margin: 38px 0 26px 0;
+  font-size: 30px;
+  font-weight: bold;
+}
+
+.col2 p {
+  line-height: 33px;
+  font-size: 23px;
+  font-weight: lighter;
+}
+
+.col2 p:last-child {
+  margin-bottom: 0;
 }
