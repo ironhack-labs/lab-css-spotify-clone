@@ -22,6 +22,10 @@ body {
   padding: 0;
 }
 
+div {
+  border: 1px solid red;
+}
+
 
 /* ---- typography ---- */
 
@@ -42,43 +46,97 @@ p {
   margin: 0;
 }
 
+.hero-image {
+  color: white;
+  text-align: center;
+}
+
+.whats-on {
+  text-align: center;
+}
+
 
 
 /* ---- layout ---- */
 
-#site-header {
-  padding: 30px 0;
-  color: white;
-  background: #111;
+.container-fullwidth {
+  width: 100%;
+  display: inline-block;
+  overflow: hidden;
 }
 
-#site-footer {
-  color: white;
-  padding: 60px 0;
-  background: #111;
+.container-half {
+  width: 50%;
+  background-color: green;
+  float: left;
+  overflow: hidden;
 }
 
-#site-main {
-  margin-bottom: 60px;
+.container-one-third {
+  width: 33.33%;
+  width: calc(100% / 3);
+  background-color: red;
+  float: left;
+  overflow: hidden;
 }
 
-.container {
-  margin: 0 20px;
+.container-two-thirds {
+  width: 66.66%;
+  width: calc((100% / 3)*2);
+  background-color: red;
+  float: left;
+  overflow: hidden;
 }
 
-.section {
-  margin-bottom: 20px;
-  padding-top: 20px;
+.nav-logo {
+  width: 20%;
+  display: inline;
+  float: left;
+  padding: 10px 0 0 50px;
+  margin: 0 0 10px 0;
 }
 
-@media (min-width: 768px) {
-  .container {
-    max-width: 728px;
-    margin: 0 auto;
-  }
+.nav-menu {
+  width: 80%;
+  display: inline;
+  float: right;
+  text-align: right;
+
 }
+
+.hero-image {
+  background-image: url('../images/landing.jpg');
+  background-size: 100%;
+  position: relative;
+  height: 50vh;
+}
+
+.hero-image-child {
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+}
+
 
 
 
 
 /* ---- components ---- */
+
+img {
+  max-width: 100%;
+}
+
+.nav-menu ul {
+  list-style: none;
+}
+
+.nav-menu li {
+  display: inline;
+  margin-right: 20px;
+}
+
+.nav-menu li:last-of-type {
+  margin-right: 50px;
+}
