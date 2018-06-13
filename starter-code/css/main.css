@@ -76,7 +76,7 @@ img{
 }
 
 #main{
-
+    padding: 20px 20px;
 }
 
 #maim-menu{
@@ -121,6 +121,7 @@ body{
 }
  #news{
     text-align: center;
+    padding: 20px;
  }
 
  #news h2{
@@ -135,8 +136,6 @@ body{
     margin: 0 auto;
 
  }
-
- 
  .column-wrapper{
     display: flex;
  }
@@ -157,63 +156,75 @@ body{
  span{
      border-bottom: 4px solid  #00B172;
  }
- #app{
+ 
+ #app {
     background: #00B172;
-    color:white;
- }
- .icon-spotify{
-    width: 120px;
-    display: flex;
-    align-items: center;
-    margin: 0 auto;
- }
-
- .container-app {
+    margin: 0 40px;
+    box-sizing: border-box;
+    padding: 10px 40px;
+  }
+  #app .app-container{
     width: 1200px;
-    max-width:  100%;
+    max-width: 100%;
     margin: 0 auto;
-
- }
- .column-wrapper-2{
-    display: flex;
- }
- .spotify-app {
-    width: 100%;
-    display: flex;
-    max-height: 700px;
-   
- }
- .spotify-app img{
-    width: 100%;
-    display: flex;
-   
- }
-
- .column-app-3{
-    width: 33.33%;
- }
-
- /* #app h2 { 
-    font-weight: 400;
-    color:white;
-    margin: 80px 0 75px;
- 
- }
-
- #app h3 { 
-    font-weight: 400;
+    height: 800px;
+  }
+  #app .app-container h2 {
     color: white;
-    
-    padding: 20px 20px;
- }
- #app p{ 
-    font-size: 1em;
-    color:white;
-    margin: 20px 0 20px;
- 
- } */
- #app span{
+    font-weight: 700;
+    padding-top: 60px;
+  }
+  #app .app-container h2 span{
     border-bottom: 4px solid white;
- }
- 
-  
+  }
+  #app .app-container h3 {
+    color: white;
+    font-size: 1.6em;
+    margin-bottom: 30px;
+    font-weight: 700;
+  }
+  #app .app-container p {
+    margin-top: 30px;
+    font-weight: 200;
+    color: white;
+    line-height: 35px;
+    margin-bottom: 30px;
+    font-size: 1em;
+  }
+  .col-spotify {
+    margin: auto 0;
+    max-width: 100%;
+  }
+  #white-spotify img {
+    width: 100px;
+  }
+
+  #white-spotify img:hover {
+    animation-name: shake;
+    animation-duration: .1s;
+    animation-iteration-count: infinite;
+    animation-direction: alternate;
+  }
+  @keyframes shake {
+    0% {
+      margin-left: 0px;
+      margin-top: 0px;
+    }
+    50% {
+      margin-left: 10px;
+      margin-top: 10px;
+    }
+  }
+  .col-app {
+    max-width: 100%;
+  }
+  .col-app img{
+    width: 350px;
+  }
+  .column-3 {
+    width: 1200px;
+    max-width: 100%;
+    display: flex;
+    justify-content: space-between;
+    align-items: flex-end;
+  }
