@@ -7,13 +7,15 @@ White: #FFF
 
 */
 body {
-    font-family: sans-serif;
-
+    /*font-family: sans-serif;*/
+    font-family: Arial, sans-serif;
 }
 
 .tabs ul li {
     display: inline-block;
     list-style-type: none;
+    padding: 5px;
+    font-size: larger;
 }
 
 .tabs {
@@ -25,6 +27,10 @@ body {
     position: relative;
 }
 
+.navbar{
+    padding-bottom: 75px;
+}
+
 .spotify {
     float: left;
 }
@@ -32,8 +38,9 @@ body {
 .background {
     background-image: url("../images/landing.jpg");
     clear: both;
-    height: 1200px;
+    height: 900px;
     background-size: contain;
+
 }
 
 .background-text {
@@ -42,11 +49,24 @@ body {
     left: 50%;
     transform: translate(-50%, -50%);
     color: #FFF;
+    text-align: center;
+}
+.background-text h1{
+    font-size: 85px;
+}
+
+.background-text h6{
+    font-size: 25px;
+    margin: 10px;
 }
 
 .whats-on {
     margin: 0 auto;
     text-align: center;
+    /*display:inline-block;*/
+    border-bottom:5px solid #00B172;
+    padding-bottom:1px;
+    width: 300px;
 }
 
 .three-block {
@@ -72,6 +92,7 @@ body {
     color: white;
     padding: 100px;
     margin: 50px;
+    position: relative;
 }
 
 .search,.browse,.discover{
@@ -80,12 +101,48 @@ body {
     padding-bottom: 5px;
 }
 
-.white-logo{
+.white-logo img{
     width: 150px;
 }
 
-.kanye{
+.kanye img{
     width: 400px;
+}
+
+.green-section>.white-logo{
+    position: relative;
+    float: left;
+    /*padding: 20px;*/
+    top: 50%;
+    left: 50%;
+    margin: -380px 0 0 -120px;
+}
+
+.green-section>.kanye{
+    position: relative;
+    float: left;
+    padding: 20px;
+    left: 60%;
+    margin: -700px 0 0 100px;
+
+}
+
+.green-section>.yeezy .search .browse .discover{
+    float: left;
+    position: relative;
+}
+
+.yeezy{
+    font-size: 25px;
+}
+.search{
+    font-size: 20px;
+}
+.browse{
+    font-size: 20px;
+}
+.discover{
+    font-size: 20px;
 }
 
 
