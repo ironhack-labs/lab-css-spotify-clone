@@ -6,3 +6,198 @@ Green: #00B172
 White: #FFF
 
 */
+  
+
+body {
+  margin:0 auto;
+  color:#1A1A1A;
+  font-family: "Roboto","Sans-serif";
+  
+}
+nav{
+  width: 100%;
+  height:40px;
+}
+nav img {
+  width:15%;
+  position:absolute;
+  left:20px;
+  top:20px; 
+  animation:bounce 1s infinite;
+}
+nav ul,li {
+  list-style: none;
+  font-size:1.2em;
+  float:right;
+  display:inline;
+  margin-right:25px;
+  margin-top:15px;
+  
+}
+
+header {
+  width:100%;
+  height:700px;
+  background-image: url("../images/landing.jpg");
+  background-size: 100%;
+}
+h1{
+  color:white;
+  text-align: center;
+  font-size:5em;
+  padding-top:200px;
+}
+
+header h3 {
+  color:white;
+  width:60%;
+  text-align: center;
+  font-size:1.8em;
+  padding-left:230px;
+}
+
+.article-section {
+  width:100%;
+  height:500px;
+}
+.article-papa {
+  position:relative;
+  width:100%;
+  height:120px;
+
+}
+.article-section h3 {
+  text-align:center;
+  font-size:2.3em;
+
+}
+.article-section hr {
+  width:300px;
+  position:absolute;
+  left:475px;
+  bottom:60px;
+  height:3px;  
+  background-color:#00B172;
+  border:none;
+
+}
+article {
+  align-content: center;
+  padding-top:30px;
+  text-align:center;
+ 
+}
+.article1 {
+  width:28%;
+  height:230px;
+  float:left;
+  margin-left:40px;
+  margin-right:20px;
+  
+}
+.article2 {
+  width:28%;
+  height:230px;
+  float:left;
+  margin-left:30px;
+  margin-right:20px;
+}
+.article3{
+  width:28%;
+  height:230px;
+  float:left;
+  margin-left:40px;
+  margin-right:20px;
+}
+.music-icon {
+  width:60%;
+}
+.high-quality {
+  width:60%; 
+}
+.devices-icon {
+  width:60%;
+}
+article p {
+  text-align:center;
+  font-size:1.3em;
+ 
+}
+article > img {
+  padding-left:0px;
+  height:150px;
+}
+article h2 {
+  color:#00B172;
+  text-align:center;
+  font-size:1.8em;
+}
+.section3{
+  width:93%;
+  height:700px;
+  margin:0 40px 40px 40px;
+  background-color:#00B172;
+}
+.section3-papa {
+  width:50%;
+  height:600px;
+  color:white;
+  margin-left:90px;
+  padding-top:30px;
+  
+  
+}
+.relative {
+  position:relative;
+}
+.section3-papa > h2 {
+  font-size:2.2em;
+  
+}
+.section3-papa h3 {
+  font-size:2em;
+}
+.section3-papa p {
+  font-size:1.2em;
+  width:50%;
+}
+.section3-papa hr {
+  width:75%;
+  height:3px;
+  background-color:white;
+  margin-left:-4px;
+  margin-top:-25px;
+}
+.icon-white {
+  position:absolute;
+  left:500px;
+  bottom:250px;
+ 
+
+}
+.icon-white-img{
+  width:100px;
+  
+}
+.spotify-app {
+position:absolute;
+left:700px;
+bottom:0px;
+}
+.spotify-app-img {
+  width:300px;
+}
+@keyframes bounce {
+  0% {
+    transform:translateY(0px);
+  }
+  25%{
+    transform:translateY(20px);
+  }
+  50%{
+    transform:translateY(0px);
+  }
+  100%{
+    transform:translateY(10px);
+  }
+}
