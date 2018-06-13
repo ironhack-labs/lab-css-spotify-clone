@@ -6,3 +6,174 @@ Green: #00B172
 White: #FFF
 
 */
+body{
+    font-family: "montserrat",sans-serif;
+     margin:0;
+     padding:0;
+}
+.nav-bar{
+     position:fixed;
+     height:60px;
+     margin:0;
+     width:100%;
+     background-color:white;
+     padding-top:7px;
+}
+
+.lista{
+    float: right;
+    padding-top: 10px;
+    margin: 0 20px 0 0;
+    position: static;
+}
+
+.lista > li{
+     display:inline-block;
+     padding-top:10px;
+     margin:0 10px;
+}
+.logo{
+     float:left;
+     padding-top:7px;
+     width:150px;
+     margin-left:5%;
+}
+
+.overlay {
+    position: absolute;
+    bottom: 0;
+    left: 0;
+    right: 0;
+    background-color: #008CBA;
+    overflow: hidden;
+    width: 100%;
+    height: 100%;
+    -webkit-transform:scale(0);
+    transition: .3s ease;
+  }
+
+  .text {
+  color: white;
+  font-size: 20px;
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  -ms-transform: translate(-50%, -50%);
+  text-align: center;
+}
+
+.animacion:hover .overlay{
+    transform: scale(1)
+}
+.texto1{
+     background-image:url("../images/landing.jpg");
+     width:100%;
+     padding-top:60px;
+     height:800px;
+     background-size: 100%;
+     background-repeat:no-repeat;
+     color:white;
+}
+
+.texto1 > p , h1{
+     text-align:center;
+     top:40%;
+}
+
+.h1Texto1{
+     font-size:50px;
+}
+
+.pTexto1{
+     font-size:30px;
+}
+.texto2{
+    height:400px;
+}
+.tituloTexto2{
+     text-align:center;
+     font-weight: bolder;
+     border-bottom:solid 5px #00B172;
+     width: 25%;
+     margin:0 auto;
+     font-size:20px;
+}
+
+.texto2 h1{
+    color:#00B172;
+}
+
+.texto2 p{
+    font-size:20px;
+    font-weight:100px;
+    width:75%;
+    margin:0 auto;
+}
+
+hr{
+width:20%;
+background-color:#00B172;
+height:5px;
+border:none;
+border-radius: 5px;
+}
+
+.col-3{
+    width:30%;
+    
+}
+
+.col{
+float:left;
+text-align:center;
+padding-top:50px;
+}
+
+.col-middle{
+     margin:0 5%;
+}
+
+.texto3{
+    padding-left:80px;
+    padding-top:90px;
+    float:left;
+}
+
+.bloque-final{
+    margin:0 2% 2%;
+    height:800px;
+    background-color:#00B172;
+    padding-left:40px;
+    background-image:url("../images/spotify-icon-white.png");
+    background-repeat:no-repeat;
+    background-position:center;
+    background-size:100px;
+
+}
+
+.texto3 h3{
+margin-top:60px;
+font-size:25px;
+color:white;
+}
+
+.texto3 p{
+    width:300px;
+    color:white;
+    font-size:20px;
+    font-weight: 100;}
+
+.texto3 h2{
+    color:white;
+    text-decoration:underline;
+    font-size:40px;
+}
+
+.imagen-telefono{
+    float:left;
+    width:30%;
+    height:70%;
+    margin-top:150px;
+    margin-left:70px;
+}
