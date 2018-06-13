@@ -6,3 +6,161 @@ Green: #00B172
 White: #FFF
 
 */
+
+*{
+    margin: 0;
+    padding: 0;
+    border: 0;
+    box-sizing: border-box;
+    text-decoration: none;
+    font-family: 'Roboto';
+}
+
+img{
+    width: 100%;
+}
+
+header{
+    width: 100%;
+    background: white;
+    padding: 1em;
+    
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+
+    position: fixed;
+    top: 0;
+    left: 0;
+    z-index: 999;
+}
+
+ .logo-container{
+     width: 150px;
+ }
+
+ .navbar>a{
+     color: grey;
+     padding: 10px;
+ }
+
+ .section1{
+     margin-top: 80px;
+
+     height: 90vh;
+     background-image: url("../images/landing.jpg");
+     background-size: cover;
+     background-position: center;
+     background-repeat: no-repeat;
+
+     color: white;
+
+     display: flex;
+     flex-direction: column;
+     justify-content: center;
+     align-items: center;
+ }
+
+.section1>h2{
+    font-size: 3em;
+    margin-bottom: 0.5em;
+}
+
+.section1 .description{
+    text-align: center;
+    color: #eee;
+}
+
+.description{
+    color: #757575;
+}
+
+.section2{
+    padding: 2em;
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+    padding-bottom: 5em;
+}
+
+.section2 h3{
+    font-size: 2em;
+    border-bottom: 3px solid #00B172;
+    font-weight: normal;
+    display: inline;
+    margin-bottom: 1em;
+}
+
+.item-container{
+    width: 80%;
+    display: flex;
+    justify-content: space-around;
+}
+
+.item-container .icon{
+    width: 150px;
+}
+
+.item-container>article{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+}
+
+.item-container h4{
+    color: #00B172;
+    margin: 1em 0;
+}
+
+.item-container .description{
+    text-align: center;
+}
+
+.section3{
+    background-color: #00B172;;
+    width: 95%;
+    margin: 2em auto;
+    padding: 3em;
+
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    position: relative;
+}
+
+.col-1{
+    width: 75%;
+}
+
+.col-1>h3{
+    font-size: 2em;
+    color: white;
+    border-bottom: 3px solid white;
+    display: inline-block;
+    margin-bottom: 0.7em;
+}
+
+.col-1 h4{
+    color: white;
+    font-size: 1.5em;
+    margin: 0.5em 0;
+}
+
+.col-1 .description{
+    color: #e5e5e5;
+}
+
+.col-2{
+    width: 30%;
+}
+
+.spotify-logo{
+    position: absolute;
+    height: 100%;
+    top: 0;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 150px;
+}
