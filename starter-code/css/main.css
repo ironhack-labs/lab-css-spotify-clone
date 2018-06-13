@@ -3,6 +3,131 @@ Colors:
 
 Text: 1A1A1A
 Green: #00B172
-White: #FFF
-
 */
+body{
+  margin: 0;
+  padding: 0;
+  font-family: "Montserrat", sans-serif;
+  font-size: 16px;
+  font-weight: 300;
+  color: #FFF;
+}
+h1, p{
+  text-align: center;
+  letter-spacing: .03em;
+  line-height: 1.5em;
+}
+h1, h2{font-weight: 600;}
+
+.border{
+  display: inline-block;
+  padding-bottom: 5px;
+  border-bottom: 3px solid #00B172;
+}
+.border-white{  
+  border-bottom: 3px solid #FFF;
+}
+.green{ 
+  color: #00B172;
+}
+
+header{
+  position: fixed;
+  top: 0;
+  background-color: #FFF;
+  height: 43px;
+  width: 100%;
+  padding: 19px 20px 20px 20px;
+}
+.logo{
+  width: 150px;
+  animation-name: logoAnimation;
+  animation-duration: 2s;
+}
+@keyframes logoAnimation{
+  0%{
+    opacity: 0;
+    margin-left: -100px;
+  }
+  100%{
+    opacity: 100%;
+    margin-left: 0;
+  }
+}
+nav{
+  float: right;
+  margin-top: 13px;
+}
+nav a{
+  margin-left: 20px;
+  text-decoration: none;
+  color: gray;
+}
+nav a:last-child{
+  margin-right: 40px;
+}
+.herounit{
+  background: url("../images/landing.jpg") no-repeat;
+  background-size: cover;
+  height: 600px;
+}
+.herounit_text{
+  padding-top: 200px;
+}
+
+.content{
+  padding: 20px;
+}
+/** WHATS ON **/
+.whats-on{
+  text-align: center;
+  color: #1A1A1A;
+}
+.whats-on_list{
+  clear: both;
+  width: 80%;
+  margin: 50px auto;
+  min-height: 260px;
+}
+.col{
+  float: left;
+  width: 30%;
+}
+.col-middle{
+  margin: 0 5%;
+}
+.col img{
+  max-height: 90px;
+}
+
+/** section green **/
+.section_green{
+  position: relative;
+  padding: 30px 6%;
+  background-color: #00B172;
+  min-height: 470px;
+}
+.section_green > img{
+  width: 80px;
+  position: absolute;
+  top: 45%;
+  left: 50%;
+  margin-right: 40px;
+}
+.section_green p{
+  text-align: left;
+  margin-bottom: 35px;
+}
+.green-col{
+  width: 50%;
+  float: left;
+}
+.col_left{
+  max-width: 400px;
+}
+.col_img img{
+  position: absolute;
+  top: 15%;
+  right: 5%;
+  width: 220px;
+}
