@@ -6,3 +6,225 @@ Green: #00B172
 White: #FFF
 
 */
+/*Reset*/
+/* http://meyerweb.com/eric/tools/css/reset/ 
+   v2.0 | 20110126
+   License: none (public domain)
+*/
+
+html, body, div, span, applet, object, iframe,
+h1, h2, h3, h4, h5, h6, p, blockquote, pre,
+a, abbr, acronym, address, big, cite, code,
+del, dfn, em, img, ins, kbd, q, s, samp,
+small, strike, strong, sub, sup, tt, var,
+b, u, i, center,
+dl, dt, dd, ol, ul, li,
+fieldset, form, label, legend,
+table, caption, tbody, tfoot, thead, tr, th, td,
+article, aside, canvas, details, embed, 
+figure, figcaption, footer, header, hgroup, 
+menu, nav, output, ruby, section, summary,
+time, mark, audio, video {
+	margin: 0;
+	padding: 0;
+	border: 0;
+	font-size: 100%;
+	font: inherit;
+    vertical-align: baseline;
+    box-sizing: border-box;
+    font-family: 'Roboto', sans-serif;
+}
+/* HTML5 display-role reset for older browsers */
+article, aside, details, figcaption, figure, 
+footer, header, hgroup, menu, nav, section {
+	display: block;
+}
+body {
+	line-height: 1;
+}
+ol, ul {
+	list-style: none;
+}
+blockquote, q {
+	quotes: none;
+}
+blockquote:before, blockquote:after,
+q:before, q:after {
+	content: '';
+	content: none;
+}
+table {
+	border-collapse: collapse;
+	border-spacing: 0;
+}
+img{
+    max-width: 100%;
+}
+#header{
+    background: white;
+    height: 110px;
+    display:flex;
+    align-items: center; 
+    justify-content: space-between;
+    padding: 0 20px;
+}
+#logo{
+    max-width: 200px;
+}
+#logo img{
+    width: 100%;
+}
+
+#main{
+    padding: 20px 20px;
+}
+
+#maim-menu{
+
+}
+
+.list-inline li{
+  display: inline-block;
+  margin: 0 5px;  
+}
+
+body{
+    font-family: 'Roboto', sans-serif;
+    font-size: 18px;
+}
+
+ h1{
+    font-size: 3em; 
+    margin-bottom: 30px;
+    width: 100%;
+    color: white;
+ }
+ h2{
+     font-size: 2.2em;
+     color: white;
+     font-weight: lighter;
+     width: 100%;
+ }
+ #hero{
+    text-align: center;
+    background: black url("../images/landing.jpg");
+    min-height: calc(100vh - 110px);
+    background-size: cover;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+ }
+
+ a {
+    text-decoration: none;
+    color: grey;
+}
+ #news{
+    text-align: center;
+    padding: 20px;
+ }
+
+ #news h2{
+    font-weight: 700;
+    color: black;
+    margin: 80px 0 75px;
+ 
+ }
+ .container{
+    width: 1200px;
+    max-width:  100%;
+    margin: 0 auto;
+
+ }
+ .column-wrapper{
+    display: flex;
+ }
+.column-4 {
+    width: 33.33%;
+ }
+
+ #news .img-wrapper {
+    
+     height: 140px;
+     display: flex;
+     justify-content: center;
+     align-items: center;
+ }
+ #news .img-wrapper img{
+     width: 160px;
+ }
+ span{
+     border-bottom: 4px solid  #00B172;
+ }
+ 
+ #app {
+    background: #00B172;
+    margin: 0 40px;
+    box-sizing: border-box;
+    padding: 10px 40px;
+  }
+  #app .app-container{
+    width: 1200px;
+    max-width: 100%;
+    margin: 0 auto;
+    height: 800px;
+  }
+  #app .app-container h2 {
+    color: white;
+    font-weight: 700;
+    padding-top: 60px;
+  }
+  #app .app-container h2 span{
+    border-bottom: 4px solid white;
+  }
+  #app .app-container h3 {
+    color: white;
+    font-size: 1.6em;
+    margin-bottom: 30px;
+    font-weight: 700;
+  }
+  #app .app-container p {
+    margin-top: 30px;
+    font-weight: 200;
+    color: white;
+    line-height: 35px;
+    margin-bottom: 30px;
+    font-size: 1em;
+  }
+  .col-spotify {
+    margin: auto 0;
+    max-width: 100%;
+  }
+  #white-spotify img {
+    width: 100px;
+  }
+
+  #white-spotify img:hover {
+    animation-name: shake;
+    animation-duration: .1s;
+    animation-iteration-count: infinite;
+    animation-direction: alternate;
+  }
+  @keyframes shake {
+    0% {
+      margin-left: 0px;
+      margin-top: 0px;
+    }
+    50% {
+      margin-left: 10px;
+      margin-top: 10px;
+    }
+  }
+  .col-app {
+    max-width: 100%;
+  }
+  .col-app img{
+    width: 350px;
+  }
+  .column-3 {
+    width: 1200px;
+    max-width: 100%;
+    display: flex;
+    justify-content: space-between;
+    align-items: flex-end;
+  }
