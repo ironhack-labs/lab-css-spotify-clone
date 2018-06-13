@@ -59,6 +59,10 @@ p {
 
 /* ---- layout ---- */
 
+.container-padded {
+  padding: 0 150px;
+}
+
 .container-fullwidth {
   width: 100%;
   display: inline-block;
@@ -68,6 +72,16 @@ p {
 .container-half {
   width: 50%;
   background-color: green;
+  float: left;
+  overflow: hidden;
+  position: relative;
+
+}
+
+.container-one-third {
+  width: 33.33%;
+  width: calc(100% / 3);
+  background-color: red;
   float: left;
   overflow: hidden;
 }
@@ -89,7 +103,7 @@ p {
 }
 
 .nav-logo {
-  width: 20%;
+  width: 200px;
   display: inline;
   float: left;
   padding: 10px 0 0 50px;
@@ -97,7 +111,6 @@ p {
 }
 
 .nav-menu {
-  width: 80%;
   display: inline;
   float: right;
   text-align: right;
@@ -107,11 +120,14 @@ p {
 .hero-image {
   background-image: url('../images/landing.jpg');
   background-size: 100%;
+  background-position:center; 
+  background-repeat: no-repeat;
   position: relative;
   height: 50vh;
 }
 
-.hero-image-child {
+
+.vertically-centered {
   position: absolute;
   top: 50%;
   left: 50%;
@@ -139,4 +155,8 @@ img {
 
 .nav-menu li:last-of-type {
   margin-right: 50px;
+}
+
+.whats-on img {
+  max-width: 200px;
 }
