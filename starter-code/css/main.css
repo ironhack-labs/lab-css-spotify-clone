@@ -6,3 +6,178 @@ Green: #00B172
 White: #FFF
 
 */
+*{
+    margin: 0;
+    padding: 0;
+    font-family: 'Montserrat', sans-serif;
+    color: #1A1A1A
+}
+
+.clearfix{
+    clear: both;
+}
+nav{
+    position: fixed;
+    top:0;
+    left:0;
+    height: 100px;
+    width: 1200px;
+    background-color: white;
+}
+nav > ul > li > a{
+    display: block;
+    text-align: center;
+    padding: 16px;
+    text-decoration: none;
+    color: #1A1A1A;
+    transition: 0.8s;
+}
+nav > ul > li > a:hover{
+    color: white;
+}
+.nav-item{
+    float:left;
+    transition: 0.8s;
+}
+.nav-item:hover{
+    background-color: #00B172;
+}
+nav > ul {
+    float: right;
+    overflow: hidden;
+    list-style-type: none;
+    margin-top: 15px;
+}
+.nav-logo-container{
+    height: 40px;
+    float:left;
+    vertical-align: middle;
+    margin-left: 60px;
+    margin-top: 15px;
+    animation-name: fly;
+    animation-duration: 0.8s;
+    animation-timing-function: ease-in-out;
+}
+nav::after{
+    clear: both;
+}
+
+.nav-image{
+    width:220px;
+    height: 70px;
+}
+
+@keyframes fly {
+    0% {
+      left: 0;
+    }
+    
+    100% {
+      left: 400px;
+    }
+  }
+
+
+.landing-section{
+    margin-top: 100px;
+    height: 800px;
+    width: 1200px;
+    background: url('../images/landing.jpg') no-repeat;
+    background-size: cover;
+    background-position: center center;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.landing-text{
+    color: white;
+    text-align: center;
+}
+
+.whats-title{
+    margin-top:40px;
+    text-align: center;
+    text-decoration: underline;
+    text-decoration-color: #00B172
+}
+.whats-section{
+    height: 300px;
+    width:1200px;
+}
+.whats-container{
+    width: 25%;
+    float:left;
+    margin: 60px 4%;
+}
+
+
+.whats-image{
+    width: 40%;
+    height: 40%;
+    max-width: 100%;
+    max-height: 100%;
+}
+
+.whats-subtitle{
+    color: #00B172;
+}
+
+.mobile-section{
+    width: 1200px;
+    height: 800px;
+    background-color: #00B172;
+}
+
+.mobile-column-1{
+    width: 40%;
+    margin-top: 40px;
+    margin-left: 20px;
+    box-sizing: content-box;
+    float:left;
+}
+.mobile-column-2{
+    width:135px;
+    margin-left: 35px;
+    margin-top: 30%;
+    float:left;
+}
+.mobile-column-3{
+    width:25%;
+    float:left;
+    margin: 100px 0 0 15%;
+    box-sizing: border-box;
+}
+
+.mobile-section-logo{
+    height: auto; 
+    width: auto; 
+    max-width: 135px; 
+    max-height: 135px;
+}
+.mobile-image{
+    height: auto; 
+    width: auto; 
+    max-width: 340px; 
+    max-height: 600px;
+}
+
+.mobile-title{
+    font-size: 30px;
+    text-decoration: underline;
+    color: white;
+}
+.mobile-text{
+    margin: 100px 5%;
+}
+.mobile-subtitle{
+    color:white;
+    font-size: 24px;
+}
+.mobile-paragraphs-column{
+    width: 350px;
+}
+.mobile-paragraph{
+    color:white;
+    font-size: 20px;
+}
