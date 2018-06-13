@@ -6,3 +6,162 @@ Green: #00B172
 White: #FFF
 
 */
+
+/* ---- reset ---- */
+
+html {
+  box-sizing: border-box;
+}
+*, *:before, *:after {
+  box-sizing: inherit;
+}
+
+body {
+  margin: 0;
+  padding: 0;
+}
+
+header {
+  background-color: white;
+  overflow: hidden;
+  position: fixed;
+  width: 100vw;
+  top: 0;
+}
+
+.logo {
+  float: left;
+  margin: 10px 0 10px 30px;
+}
+
+.bounce:hover {
+  position: relative;
+  animation: bounce 0.5s;
+  animation-iteration-count: infinite;
+}
+
+@keyframes bounce {
+  0% {
+    top: 10px
+  }
+  100% {
+    top: 0px
+  }
+}
+
+nav {
+  float: right;
+  padding-top: 24px;
+  margin-right: 30px;
+}
+
+nav a {
+  padding: 0 12px;
+  color: black;
+  text-decoration: none;
+  font-size: 20px;
+}
+
+.main {
+  clear: both;
+}
+
+.background {
+  background-image: url("../images/landing.jpg");
+  background-size: cover;
+  background-position: center;
+  padding-top: 300px;
+  padding-bottom: 300px;
+}
+
+.flying-text {
+  color: white;
+  width: 70%;
+  text-align: center;
+  margin: 0 auto;
+}
+
+h1 {
+  font-size: 5em;
+  text-decoration: bold;
+}
+
+p {
+  font-size: 2em;
+}
+
+h2 {
+  font-size: 2.5em;
+  text-decoration: bold;
+}
+
+.first > h2 {
+  text-align: center;
+  margin-bottom: 80px;
+  padding-top: 20px;
+}
+
+.first hr {
+  width: 250px;
+  border: 2px solid #00B172;
+}
+
+h3, .first p, .second p {
+  font-size: 1.5em;
+}
+
+h3 {
+  color: #00B172;
+}
+
+ .first article {
+   max-width: 33%;
+   float: left;
+   padding: 0 60px;
+ }
+
+ .second {
+   clear: both;
+ }
+
+ .three-boxes {
+   text-align: center;
+   margin: 0 auto;
+   width: 80%;
+ }
+
+ .second {
+   width: 95%;
+   margin: 0 auto 30px;
+   background-color: #00B172;
+   overflow: hidden;
+   background-image: url("../images/spotify-icon-white.png");
+   background-repeat: no-repeat;
+   background-size: 120px;
+   background-position: center;
+ }
+
+ .text, .second h3 {
+   color: #FFF;
+   float: left;
+   width: 500px;
+ }
+
+ .text {
+   margin: 90px;
+ }
+
+ .second img {
+   float: right;
+   margin: 120px 150px 120px 0;
+ }
+
+ .second hr {
+  width: 470px;
+  border: 2px solid #FFF;
+  margin-left: 0;
+}
+
+.second p {
+  padding-right: 80px;
+}
