@@ -30,9 +30,17 @@ nav > ul > li > a{
     padding: 16px;
     text-decoration: none;
     color: #1A1A1A;
+    transition: 0.8s;
+}
+nav > ul > li > a:hover{
+    color: white;
 }
 .nav-item{
     float:left;
+    transition: 0.8s;
+}
+.nav-item:hover{
+    background-color: #00B172;
 }
 nav > ul {
     float: right;
@@ -46,6 +54,9 @@ nav > ul {
     vertical-align: middle;
     margin-left: 60px;
     margin-top: 15px;
+    animation-name: fly;
+    animation-duration: 0.8s;
+    animation-timing-function: ease-in-out;
 }
 nav::after{
     clear: both;
@@ -55,6 +66,18 @@ nav::after{
     width:220px;
     height: 70px;
 }
+
+@keyframes fly {
+    0% {
+      left: 0;
+    }
+    
+    100% {
+      left: 400px;
+    }
+  }
+
+
 .landing-section{
     margin-top: 100px;
     height: 800px;
