@@ -31,7 +31,6 @@ img {
 }
 
 
-
 .logo img {
   width: 100%;
 }
@@ -78,7 +77,6 @@ h2 {
 }
 
 
-
 .container {
   width: 1200px;
   max-width: 100%;
@@ -108,8 +106,6 @@ a {
 }
 
 
-
-
 #news h2 {
   font-weight: 700;
   color: black;
@@ -135,13 +131,13 @@ span {
 #final {
   background-color: #00B172;
   margin: 20px 40px;
+  color: white;
 }
+
 
 #final img {
   width: 160px;
 }
-
-
 
 .last {
   width: 1200px;
@@ -149,12 +145,9 @@ span {
   margin: 0 auto;
   padding: 30px 80px;
   display:flex;
-  
+  height: 600px;
 }
 
-#final {
-  color: white;
-}
 
 #final span {
   border-bottom: 4px solid #ffffff;
@@ -168,6 +161,24 @@ span {
   width: 100%;
 }
 
+.iconwhite img:hover {
+  animation-name: move;
+  animation-duration: .1s;
+  animation-iteration-count: infinite;
+  animation-direction: alternate;
+}
+@keyframes move {
+  0% {
+    margin-left: 0px;
+    margin-top: 0px;
+  }
+  50% {
+    margin-left: 15px;
+    margin-top: 15px;
+  }
+}
+
+
 .kanye {
   max-width: 300px;
 
@@ -179,4 +190,7 @@ span {
 
 .column-last {
   width: 33.33%;
+  margin: auto 0;
 }
+
+
