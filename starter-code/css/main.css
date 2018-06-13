@@ -6,7 +6,69 @@ Green: #00B172
 White: #FFF
 
 */
+body {
+    font-family: sans-serif;
 
-.background{
-    background-image: url("../images/landing.jpg");
 }
+
+.tabs ul li {
+    display: inline-block;
+    list-style-type: none;
+}
+
+.tabs {
+    float: right;
+}
+
+.navbar > .spotify img {
+    width: 200px;
+    position: relative;
+}
+
+.spotify {
+    float: left;
+}
+
+.background {
+    background-image: url("../images/landing.jpg");
+    clear: both;
+    height: 1200px;
+    background-size: contain;
+}
+
+.background-text {
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    color: #FFF;
+}
+
+.whats-on {
+    margin: 0 auto;
+    text-align: center;
+}
+
+.three-block {
+    padding: 100px 100px;
+}
+
+.three-block img {
+    width: 175px;
+}
+
+.million, .hd, .stream {
+    display: inline-block;
+    margin: 0 9%;
+    text-align: center;
+}
+
+.million>h2,.hd>h2,.stream>h2{
+    color: #00B172;
+}
+
+.green-section{
+    background-color: #00B172;
+}
+
+
