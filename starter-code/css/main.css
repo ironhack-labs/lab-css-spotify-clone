@@ -1,8 +1,241 @@
-/*
-Colors:
-
-Text: 1A1A1A
-Green: #00B172
-White: #FFF
-
+/* http://meyerweb.com/eric/tools/css/reset/ 
+   v2.0 | 20110126
+   License: none (public domain)
 */
+
+html, body, div, span, applet, object, iframe,
+h1, h2, h3, h4, h5, h6, p, blockquote, pre,
+a, abbr, acronym, address, big, cite, code,
+del, dfn, em, img, ins, kbd, q, s, samp,
+small, strike, strong, sub, sup, tt, var,
+b, u, i, center,
+dl, dt, dd, ol, ul, li,
+fieldset, form, label, legend,
+table, caption, tbody, tfoot, thead, tr, th, td,
+article, aside, canvas, details, embed, 
+figure, figcaption, footer, header, hgroup, 
+menu, nav, output, ruby, section, summary,
+time, mark, audio, video {
+	margin: 0;
+	padding: 0;
+	border: 0;
+	font-size: 100%;
+	font: inherit;
+    vertical-align: baseline;
+    box-sizing: border-box;
+}
+/* HTML5 display-role reset for older browsers */
+article, aside, details, figcaption, figure, 
+footer, header, hgroup, menu, nav, section {
+	display: block;
+}
+body {
+	line-height: 1;
+}
+ol, ul {
+	list-style: none;
+}
+blockquote, q {
+	quotes: none;
+}
+blockquote:before, blockquote:after,
+q:before, q:after {
+	content: '';
+	content: none;
+}
+table {
+	border-collapse: collapse;
+	border-spacing: 0;
+}
+
+
+
+img {
+    max-width: 100%;
+}
+
+
+#header {
+    background: white;
+    height: 110px;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding: 0 20px;
+    position: fixed;
+    width: 100%;
+}
+
+#logo {
+    width: 200px;
+}
+
+#logo img {
+    width: 100%;
+}
+
+
+.list-inline > li{
+    display: inline-block;
+    margin: 0 5px;
+}
+
+body {
+    font-family: "Roboto";
+    font-size: 18px;
+}
+
+#hero {
+    text-align: center;
+    background: black url(../images/landing.jpg);
+    min-height: calc(100vh - 110px);
+    background-size: cover;
+    display: flex;
+    color: white;
+    flex-direction: column;
+    justify-content: center;
+}
+
+h1 {
+    font-size: 3em;
+    margin-bottom: 40px;
+    width: 100%;
+}
+
+h2 {
+    font-size: 2.2em;
+    width: 100%;
+}
+
+.container {
+    width: 1200px;
+    max-width: 100%;
+    margin: 0 auto;
+}
+
+.colum-wrapper {
+    display: flex;
+}
+
+.colum-4 {
+    width: 33.33%;
+}
+
+#news h2 {
+    font-weight: 700;
+    text-align: center;
+    margin: 50px 0 75px;
+}
+
+#news h2 span{
+    border-bottom: 4px solid #00B172;
+}
+
+#news, .screen  {
+    text-align: center;
+}
+
+#news .img-wrapper img {
+    width: 160px;
+}
+
+#news .img-wrapper {
+    height: 140px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.green {
+    background-color: #00B172;
+    width: 90%;
+    max-width: 1200px;
+    margin: 30px auto;
+    position: relative;
+}
+
+.colum-wrapper {
+    color: #1A1A1A;
+    padding-top: 20px;
+    font-weight: 100;
+}
+
+.colum-wrapper h3 {
+    color: #00B172;
+    font-weight: 700;
+    padding-bottom: 10px;
+}
+
+.colum-4 h4 {
+    margin-top: 10px;
+}
+
+.screen img {
+    width: 45%;
+    margin: 20px 0;
+}
+
+.screen {
+    width: 49%;
+    display: inline-block;
+    margin-top: 4%;
+}
+
+.text {
+    width: 50%;
+    color: white;
+    display: inline-block;
+    vertical-align: top;
+    padding: 10px 0 0 85px;
+}
+
+.text h2 {
+    padding-top: 7%;
+    padding-bottom: 40px;
+}
+
+.text h2 span {
+    border-bottom: 4px solid white;
+}
+
+.text h3 {
+    padding: 20px 0;
+    font-weight: 700;
+    font-size: 1.2em;
+}
+
+.text p {
+    padding: 6px 0px;
+    font-weight: 100;
+    line-height: 30px;
+}
+
+#last-p {
+    margin-bottom: 20px;
+}
+
+.bounce:hover {
+    animation-name: bounce;
+    animation-duration: 0.15s;
+    animation-iteration-count: infinite;
+    animation-direction: alternate;
+}
+
+@keyframes bounce {
+    0% {
+      margin-top: 0;
+    }
+    
+    100% {
+      margin-top: 10px;
+    }
+  }
+
+  .logo-absolute {
+      position: absolute;
+      top: calc(50% - 50px);
+      left: calc(50% - 50px);
+  }
+
+  .logo-absolute img {
+      height: 100px;
+  }
