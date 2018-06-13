@@ -22,7 +22,25 @@ h1 {
   font-size: 4.5rem;
   font-weight: 500;
   margin-bottom: 30px;
-} 
+}
+
+h2 {
+  display: inline-block;
+  font-size: 2rem;
+  font-weight: 500;
+  border-bottom: 3px solid #00B172;
+  margin-bottom: 80px;
+}
+
+h2.white {
+  border-bottom-color: #fff;
+}
+
+h4 {
+  font-size: 1.8rem;
+  color: #00B172;
+  margin-bottom: 30px;
+}
 
 .clearfix {
   clear: both;
@@ -33,6 +51,10 @@ h1 {
   max-width: 1024px;
   margin-left: auto;
   margin-right: auto;
+}
+
+.white {
+  color: #fff;
 }
 
 /* Navbar */
@@ -82,11 +104,38 @@ h1 {
   flex-direction: column;
   align-items: center;
   justify-content: center;
-  color: #fff;
   font-size: 1.7rem;
   font-weight: 300;
 }
 
 .header-content p {
   margin-bottom: 5px;
-} 
+}
+
+/* What's on section */
+
+#whats-on {
+  padding: 40px 0 80px;
+  text-align: center;
+}
+
+#whats-on .features {
+  display: flex;
+  font-size: 1.4rem;
+  font-weight: 300;
+}
+
+#whats-on .features > div {
+  width: 33.33%;
+  padding: 0 20px;
+}
+
+#whats-on img {
+  height: 80px;
+  margin-bottom: 10px;
+}
+
+#whats-on p {
+  padding: 0 30px;
+  line-height: 1.8rem;
+}
