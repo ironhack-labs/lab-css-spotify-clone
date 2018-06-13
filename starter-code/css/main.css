@@ -6,3 +6,186 @@ Green: #00B172
 White: #FFF
 
 */
+/* ---- reset ---- */
+
+html {
+    box-sizing: border-box;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif
+  }
+  *, *:before, *:after {
+    box-sizing: inherit;
+  }
+  
+body {
+    margin: 0;
+    padding: 0;
+  }
+
+nav {
+    background-color: #FFF;
+    color: rgba(255,255,255,0.8);
+    padding-top: 15px;
+    height: 70px;
+    position: fixed;
+  }
+  
+nav a {
+    color: black;
+    text-decoration: none;
+  }
+  
+.top-links {
+    float: right;
+    display: inline-block; 
+    text-align: center;
+    margin-right: 60px;
+  }
+
+nav li{
+    display: inline-block;
+    margin: 0 10px;
+  }
+
+.logo {
+    width: 15%;
+    padding-left: 60px;
+    margin-bottom: 20px;
+}
+
+.bounce:hover {
+    position: relative;
+    animation: bounce 0.5s;
+    animation-iteration-count: infinite;
+   }
+   
+   @keyframes bounce {
+    0% {
+      top: 10px
+    }
+    100% {
+      top: 0px
+    }
+   }
+
+header {
+    background-image: url(../images/landing.jpg);
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+    width: 100%;
+    padding-top: 400px;
+    padding-bottom: 400px;
+}
+
+header h1 {
+    font-size: 80px;   
+}
+
+header h3 {
+    text-align: center;
+    font-size: 30px;
+}
+h1, h3 {
+    color: #FFF;
+    text-align: center;
+}
+
+.boxes {
+    text-align: center;
+    padding: 40px;
+}
+
+.boxes h1 {
+    color: black;
+    font-size: 35px;
+    text-align: center;
+}
+
+.boxes h3 {
+    font-size: 30px;
+    text-align: center;
+}
+
+.boxes p {
+    font-size: 25px;
+    text-align: center;
+}
+
+.boxes hr {
+    background-color: #00B172;
+    width: 200px;
+    height: 5px;
+    margin-bottom: 50px;
+}
+
+.box-one {
+    float: left;
+    width: 33%;
+    margin-bottom: 40px;
+    text-align: center;
+}
+
+.box-two {
+    float: left;
+    width: 33%;
+}
+
+.box-three {
+    float: left;
+    width: 33%;
+}
+
+.boxes h3 {
+    color: lightgreen;
+}
+
+.boxes p {
+    color: black;
+}
+
+.yeezy {
+    text-align: left;
+    background-color: #00B172;
+    background-size: 100%;
+    clear: both;
+    margin: 0 auto;
+    max-width: 1200px;
+    padding: 40px;
+    overflow: hidden;
+}
+
+
+.list-yeezy {
+    float: left;
+    width: 50%;
+}
+
+.yeezy h2, h3, p {
+    color: #FFF;
+    text-align: left;
+    font-size: 30px;
+    clear: both;
+}
+
+.yeezy h2 {
+    font-size: 40px;
+}
+
+.yeezy-img {
+    float: right;
+    width: 50%;
+    padding-left: 160px;
+
+}
+
+.yeezy hr {
+    width: 200px;
+    height: 5px;
+    background-color: #FFF; 
+    float: left;
+    clear: both;
+    margin-bottom: 40px;
+}
+
+
+
