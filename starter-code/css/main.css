@@ -1,8 +1,151 @@
-/*
-Colors:
-
-Text: 1A1A1A
-Green: #00B172
-White: #FFF
-
-*/
+body{
+    font-family: geneva; 
+  }
+  .nav-bar{
+    margin-top: 60px;
+    padding-top: 30px;
+    padding-left: 100px;
+  }
+  .nav-bar li{
+    margin-left: 60px; 
+    padding-left: 100px;
+    height: 70px;
+    float: left;
+    list-style: none;
+    text-tranform: bold;  
+  }
+  #li{
+    padding-right: -100px;
+  }
+  .nav-bar img{
+    border: 0px;
+    display: block;
+    position: static;
+    transition:all .1s ease .1s;
+    overflow: hidden;
+  }
+  .nav-bar img:hover{
+    width: 10px;
+  }
+  .container{
+    background-image: url("https://github.com/mon0225/lab-css-spotify-clone/blob/master/starter-code/images/landing.jpg?raw=true");
+    width: 1010px;
+    height: 900px;
+    margin-top:60px;
+  }
+  .texto-encima{
+      color: white;
+      padding-top: 280px;
+      left: 10px;
+    text-align: center;
+    font-size: 1.5em;
+  }
+  .texto-encima h1{
+      color: white;
+    text-align: center;
+    font-size: 3em;
+  }
+  .secondcontainer h2{
+    text-align: center;
+    text-transform: bold;
+    font-size: 2em;
+    text-decoration: #00B172 solid underline;
+  }
+  #leftcontainer{
+   position: relative;
+    bottom: 5em;
+    left: -40em;
+     float: right;
+    height: 100px;
+    margin right: 80px;
+    padding-top: 150px;
+    font-size: 1em;
+    list-style: none;
+    text-align: center;
+    background-color: #FFF;
+  }
+  #leftcontainer h2{
+    font-size:1.5em;
+    color:#00B172;
+    text-decoration: none;
+  }
+  #maincontainer{
+   position: relative;
+    bottom: 5em;
+    left: 2em;
+     float: right;
+    height: 100px;
+    margin-right: 200px;
+    padding-top: 150px;
+    font-size: 1em;
+    list-style: none;
+    text-align: center;
+    background-color: #FFF;
+  }
+  #maincontainer h2{
+    font-size:1.5em;
+    color:#00B172;
+    text-decoration: none;
+    background-color: #FFF;
+  }
+  #rightcontainer{
+   position: relative;
+    bottom: -4.5em;
+    left: 30em;
+     float: right;
+    height: 100px;
+    margin right: 80px;
+    padding-top: -800px;
+    font-size: 1em;
+    list-style: none;
+    text-align: center;
+    background-color: #FFF;
+  }
+  #rightcontainer h2{
+    font-size:1.5em;
+    color:#00B172;
+    text-decoration: none;
+    background-color: #FFF;
+  }
+  #othercontainer {
+    background-color: #00B172;
+    padding-top:60px;
+    margin-top:380px;
+    padding-bottom: 6em;
+    margin-bottom: 50em;
+    color: #FFF;
+  }
+  #othercontainer h2{
+    font-size: 1.7em;
+    list-style: none;
+    margin-left: 10px;
+  }
+  #othercontainer h3{
+    font-size: 1.5em;
+    list-style: none;
+  }
+  #firstimage{
+    float: right;
+    margin-top: -125px;
+    margin-bottom: 150px;
+    margin-right: 40px;
+  }
+  #secondimage{
+    float: right;
+    margin-top: 100px;
+    margin-bottom: 150px;
+    margin-right: 70px;
+    image-align: center;
+  }
+  
+  @keyframes girar{
+    10%{
+      transform:scale(1) rotate(0deg);
+    }
+    50%{
+      transform:scale(2) rotate(140deg);
+    }
+    100%{
+      transform:scale(1) rotate(200deg);
+    }
+  }
