@@ -1,3 +1,80 @@
+/* ---- reset ---- */
+
+html {
+    box-sizing: border-box;
+}
+*, *:before, *:after {
+    box-sizing: inherit;
+}
+  
+body {
+    margin: 0;
+    padding: 0;
+}
+
+/* ---- typography ---- */
+
+
+/* ---- layout ---- */
+
+
+/* ---- components ---- */
+
+header {
+    overflow: hidden;
+    position: fixed;
+    width: 100vw;
+    top: 0;
+    /* margin: 0 auto; */
+    background-color: white;
+}
+
+.logonav {
+    float: left;
+}
+
+.bounce:hover {
+    position: relative;
+    animation: bounce 0.5s;
+    animation-iteration-count: infinite;
+}
+
+@keyframes bounce {
+    0% {
+        top: 10px;
+    }
+    100% {
+        top: 0%;
+    }
+}
+
+.logonav img {
+    width: 150px;
+}
+
+nav {
+    float: right;
+    /* line-height: 130px; */
+}
+
+main {
+    /* clear: both; */
+}
+
+.content-top {
+    background-image: url('../images/landing.jpg');
+    background-size: cover;
+    color: white;
+    clear: both;
+    overflow: hidden;
+}
+
+
+/* .img-container{
+    content:url()
+} */
+
+
 /*
 Colors:
 
