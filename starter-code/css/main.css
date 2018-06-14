@@ -6,3 +6,197 @@ Green: #00B172
 White: #FFF
 
 */
+
+*{
+    margin: 0; 
+    padding:0;
+    box-sizing: border-box;
+    -webkit-margin-before: 0;
+    -webkit-margin-after: 0;
+    -webkit-margin-start: 0;
+    -webkit-margin-end: 0;
+    font-family: sans-serif;
+}
+
+ /* NAV */
+ nav{
+    height: 55px;
+    width: 100%;
+}
+nav img{
+    float: left;
+    vertical-align: baseline;
+    width: 145px; 
+    margin: 5px 0 0 30px;
+}
+nav img:hover{
+    animation: crecelo 3s;
+}
+@keyframes crecelo{
+    0%{
+        transform: scale(1);
+      }
+      25%{
+        transform: scale(2);
+      }
+      50%{
+        transform: scale(4);
+      }
+      100%{
+        transform: scale(1);
+    }
+}
+
+nav ul{
+    width: 400px;
+    float: right;
+    height: 60px;
+    padding-top: 20px;
+    box-sizing: border-box;
+}
+nav ul li{
+    list-style: none;
+    float: left;
+    margin-right: 30px;
+}
+/* Header DIV*/
+
+/*HEADER*/
+
+header{
+    height: 450px;
+    width: 100%;
+    background-image: url("../images/landing.jpg");
+    background-repeat: no-repeat;
+    background-size: 100% 100%;
+}
+
+header div{
+    height: auto;
+    width: 100%;
+    text-align: center;
+    position: relative;
+    top: 140px;
+    clear: both;
+}
+
+header h1{
+    margin: 0 auto;
+    padding: 0;
+    color: white;
+    margin-bottom: 20px;
+    font-size: 50px;  
+}
+
+header div h2{
+    margin: 0;
+    padding: 0;
+    text-align: center;
+    color: white;
+    font-size: 20px;
+    font-weight: 100;
+    
+}
+/* SECTION */
+ 
+
+    /* First Article*/
+    section article:nth-child(1){
+        width: 100%;
+        height: 280px;
+        box-sizing: border-box;
+    }
+
+    section article:nth-child(1) h3{
+        width: 100%;
+        text-align: center;
+        margin-top: 20px;
+        font-size: 25px;
+    }
+    #underLine {
+        width: 100%;
+        text-align: center;
+        margin-bottom: 20px;
+    }
+
+    section article:nth-child(1) .whats {
+        width: 200px;
+        float: left;
+        margin-left: 10%;
+        text-align: center;
+    }
+    .whats img, .whats h4, .whats p {
+        margin: 8px;
+        box-sizing: border-box;
+    }
+    .whats h4{
+        color: rgb(39,177,109);
+    }
+
+    section article:nth-child(1) #what1 {
+        margin-top: 20px;
+    }
+    section article:nth-child(1) #what2 {
+        margin-top: 20px;
+    }
+    section article:nth-child(1) #what3 {
+        margin-top: 20px;
+    }
+
+    /* Second Article*/
+    section article:nth-child(2){
+        width: 90%;
+        margin: auto;
+        height: 450px;
+        background-color: rgb(39,177,109);
+        margin-bottom: 20px;
+        box-sizing: border-box;
+        color: white;
+    }
+
+    #leftSide{
+        position: relative;
+        width: 320px;
+        float: left;
+        left: 7%; 
+        top: 50px;
+    }
+
+    #leftSide>h3{
+        padding-left: 0;
+        margin-bottom: 10px;
+        text-align: left;
+        
+    }
+    #leftSide h4{
+        text-align: left;
+        margin-bottom: 10px;
+        font-weight: 900;
+    }
+    hr{
+        background-color:white;
+        border: none;
+        width: 250px;
+        height: 3px;
+        margin-bottom: 30px;
+    }
+
+    #leftSide>div{
+        padding-right: 90px;
+        margin-bottom: 20px;
+        font-weight: 100;
+    }
+
+    #device{
+        float: right;
+        margin-right: 10%;
+        margin-top: 50px;
+        width: 210px;
+        height: auto;
+    }
+    #whiteLogo{
+        position: relative;
+        top: 200px;
+        z-index: 1;
+        left: 30px;
+    }
