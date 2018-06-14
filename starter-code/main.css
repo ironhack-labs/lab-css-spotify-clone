@@ -1,0 +1,200 @@
+/*
+Colors:
+
+Text: 1A1A1A
+Green: #00B172
+White: #FFF
+
+*/
+body {
+  font-family: "Roboto", sans-serif;
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+#header {
+  height: 110px;
+  background: white;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  padding: 0 20px;
+}
+
+img {
+  max-width: 100%;
+}
+
+.logo {
+  max-width: 200px;
+}
+
+
+.logo img {
+  width: 100%;
+}
+
+.list-inline li {
+  display: inline-block;
+  margin: 0 5px;
+}
+
+#main {
+  margin-bottom: 90px;
+  
+}
+
+#hero {
+  max-width: 100%;
+  text-align: center;
+  background-image: url("images/landing.jpg");
+  background-size: cover;
+  min-height: calc(100vh - 110px);
+  display: flex;
+  flex-direction: column; 
+  justify-content: center;
+
+}
+
+nav {
+  padding: 20px 50px 0 10px;
+  font-size: 1em;
+}
+
+h1 {
+  color: white;
+  width: 100%;
+  font-size: 3em;
+  margin-bottom: 30px;
+}
+
+h2 {
+  width: 100%;
+  font-size: 2em;
+  color: white;
+  font-weight: lighter;
+}
+
+
+.container {
+  width: 1200px;
+  max-width: 100%;
+  margin: 0 auto;
+}
+
+a {
+  text-decoration: none;
+  color: grey;
+}
+
+.column-wrapper {
+  display: flex;
+
+}
+
+.column-4 {
+  width: 33.33%;
+}
+
+#news {
+  text-align: center;
+}
+
+#news .column-wrapper h3 {
+  color:#00B172;
+}
+
+
+#news h2 {
+  font-weight: 700;
+  color: black;
+  margin: 80px 0 75px;
+}
+
+#news .img-wrapper {
+  height: 140px;
+  align-items: center;
+  justify-content: center;
+  display:flex;
+}
+
+#news .img-wrapper img {
+  width: 160px;
+}
+
+span {
+  border-bottom: 4px solid #00B172;
+}
+
+#green {
+  background: #00B172;
+  margin: 0 40px;
+}
+#green .lastgreen {
+  width: 1200px;
+  max-width: 100%;
+  margin: 0 auto;
+  height: 800px;
+}
+#green .lastgreen h2 {
+  color: white;
+  font-weight: 700;
+  padding-top: 60px;
+}
+#green .lastgreen h2 span{
+  border-bottom: 4px solid white;
+}
+#green .lastgreen h3 {
+  color: white;
+  font-size: 1.6em;
+  margin-bottom: 30px;
+  font-weight: 700;
+}
+#green .lastgreen p {
+  margin-top: 30px;
+  font-weight: 200;
+  color: white;
+  line-height: 35px;
+  margin-bottom: 30px;
+  font-size: 1.3em;
+}
+.column-iconwhite {
+  margin: auto 0;
+  max-width: 100%;
+}
+.iconwhite img {
+  width: 130px;
+}
+.iconwhite img:hover {
+  animation-name: move;
+  animation-duration: .1s;
+  animation-iteration-count: infinite;
+  animation-direction: alternate;
+}
+@keyframes move {
+  0% {
+    margin-left: 0px;
+    margin-top: 0px;
+  }
+  50% {
+    margin-left: 15px;
+    margin-top: 15px;
+  }
+}
+.column-big-img {
+  max-width: 100%;
+}
+.column-big-img img{
+  width: 350px;
+}
+.column-3 {
+  width: 1200px;
+  max-width: 100%;
+  display: flex;
+  justify-content: space-between;
+  align-items: flex-end;
+}
+
+
+
