@@ -1,3 +1,19 @@
+/* ---- reset ---- */
+
+html {
+  box-sizing: border-box;
+}
+*, *:before, *:after {
+  box-sizing: inherit;
+}
+
+body {
+  margin: 0;
+  padding: 0;
+}
+
+
+
 /*
 Colors:
 
@@ -6,3 +22,162 @@ Green: #00B172
 White: #FFF
 
 */
+
+/* --- typography --- */
+
+body {
+  font-family: Arial, Helvetica, sans-serif;
+}
+
+
+
+/* --- layout --- */
+
+div {
+  border: 1px solid red;
+}
+
+header {
+  background-color: white;
+  position: fixed;
+  width: 100vw;
+  top: 0;
+  overflow: hidden;
+}
+
+.bounce:hover {
+  position: relative;
+  animation: bounce 0.5s;
+  animation-iteration-count: infinite;
+ }
+ 
+ @keyframes bounce {
+  0% {
+    top: 10px
+  }
+  100% {
+    top: 0px
+  }
+ }
+
+h2{
+  font-size: 36px;
+}
+
+h3{
+  font-size: 30px;
+}
+
+p{
+  font-size: 30px;
+}
+
+header{
+  height:  100px;
+  padding:  20px 40px;
+}
+
+nav {
+  float: right;
+}
+
+header li {
+  display: inline;
+  margin-right: 20px;
+  padding-top: 20px;
+}
+
+header a {
+  text-decoration: none;
+  color: black;
+  font-size: 18px;
+  font-weight: lighter;
+}
+
+header img {
+  float: left;
+}
+
+.main {
+  clear: both;
+}
+
+.underline-green{
+  border-bottom: #00B172 2px solid;
+  display: inline;
+  padding: 10px;
+}
+/* --- components --- */
+
+.container {
+  max-width: 90%;
+  margin: 0 auto;
+  padding: 40px;
+
+}
+
+.landing {
+  background-image: url(../images/landing.jpg);
+  background-position: center;
+	background-size: 100% 100%;
+  background-repeat: no-repeat;
+  height: 700px;
+
+}
+
+.landing h1 {
+  color: white;
+  font-size: 80px;
+  padding-top: 200px;
+}
+
+.landing p {
+  color: white;
+  padding: 0px 230px;
+}
+
+.text {
+  text-align: center;
+}
+
+.cards {
+  width: 33%;
+  float: left;
+  margin-bottom: 60px;
+  text-align: center;
+}
+
+.cards h3 {
+  color: #00B172;
+}
+
+.cards p {
+  color: #1A1A1A;
+}
+
+.search {
+  clear: both;
+  background-color: #00B172;
+  overflow: hidden;
+  margin: 20px;
+  background-image: url("../images/spotify-icon-white.png");
+  background-repeat: no-repeat;
+  background-position: center;
+  background-size: 150px;
+}
+
+.list {
+  float: left;
+}
+
+.list li {
+  list-style: none;
+  color: white;
+}
+
+.imagen-app {
+  float: right;
+}
+
+/* --- footer --- */
+
