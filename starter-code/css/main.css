@@ -1,3 +1,4 @@
+@import url("https://fonts.google.com/specimen/Monserrat");
 /*
 Colors:
 
@@ -6,3 +7,105 @@ Green: #00B172
 White: #FFF
 
 */
+
+body {
+    font-family: Monserrat, Helvetica, Arial, sans-serif;
+    font-size: 16px;
+    color: #1A1A1A;
+    line-height: 1.5;
+    background-color: #fff;
+    margin: 0;
+    padding: 0;
+}
+
+.logo {
+    display: block;
+    float: left;
+    max-width: 25%;
+    padding: 1% 2%;
+}
+
+.logo > img {
+    max-width: 75%;
+    padding: 1% 2%;
+}
+
+nav {
+    position: fixed;
+    display: block;
+    width: 100%;
+    background-color: rgb(255,255,255);
+    height: 80px;
+    overflow: hidden;
+    top: 0;
+}
+
+li {
+    position: inline;
+    float: right;
+    text-decoration: none;
+    list-style-type: none;
+    padding: 1% 2%;
+}
+
+.header-text {
+    background-image: url('../images/landing.jpg');
+    background-repeat: no-repeat;
+    background-size: cover;
+    position: relative;
+    padding-top:50px;
+    color: #fff;
+    width:1200px;
+    height: 500px;
+    text-align: center;
+    font-weight: 400;
+    margin-top: 80px;
+}
+div > h1 {
+    justify-content: center;
+    color: #fff;
+    padding-top: 100px;
+    font-size: 3.5em;
+}
+
+section {
+    text-align: center;
+    width: 1200px;
+}
+
+section img {
+    justify-content: center;
+    max-width: 165px;
+    height: auto;
+    padding: 18px 130px;
+}
+
+section h2 {
+    font-size: 2.5em;
+    font-weight:400;
+}
+
+span {
+    border-bottom: 4px solid #00B172;
+}
+
+.icons {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+     
+}
+
+.col { 
+    float: left; 
+  }
+.col-3 {
+    width: 30%;
+  }
+.col-middle {
+    float:left;
+    margin: 0 5% 0 5%;
+  }
+.clearfix {
+    clear: both;
+  }
