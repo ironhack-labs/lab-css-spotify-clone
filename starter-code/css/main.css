@@ -6,3 +6,181 @@ Green: #00B172
 White: #FFF
 
 */
+
+/*Ask the TA's: 
+
+-How to stop nav from being transparent*
+
+
+
+
+
+
+
+
+
+*/
+
+body {
+  margin: 0;
+  font-family: 'Helvetics', 'Arial', 'sans-serif';
+}
+
+.clearfix {
+  clear: both;
+}
+
+
+
+
+nav a, .section1 {
+  color: #1A1A1A;;
+} 
+
+header, .section2 {
+  color: #FFF;
+}
+
+
+img {
+  width: 200px;
+}
+
+nav {
+  height: 70px;
+  width: 100%;
+  position: fixed;
+  background-color: #fff;
+  opacity: 1;
+}
+
+  nav > img {
+    position: relative;
+    left: 10px;
+    top: 5px;
+    width: 180px;
+    background-color: #fff;
+  }
+
+  nav > span {
+    padding: 7px;
+    float: right;
+    position: relative;
+    top: 18px;
+    right: 15px;
+  }
+
+  nav > span a {
+    text-decoration: none;
+  }
+
+
+header {
+  padding-top: 70px;
+  height: 640px;
+  background-image: url(../images/landing.jpg);
+  background-size: cover;
+}
+
+
+header h1, h2 {
+  text-align: center;
+}
+
+header h1 {
+  font-size: 4em;
+  font-weight: bolder;
+  padding-top: 150px;
+}
+
+#tunnel {
+  font-size: 0.35em;
+  padding-top: 10px;
+}
+
+.section1 {
+  text-align: center;
+  margin-right: 0;
+}
+  
+.section1 h3 {
+  text-align: center;
+  font-weight: bolder;
+  font-size: 2em;
+  text-decoration: #00B172 underline;
+}
+
+
+.section1 h4 {
+  color:#00B172;
+}
+
+.container {
+  width: 18%;
+  float: left;
+  padding: 90px;
+  margin-left: 1px;
+}
+
+#millions{
+  margin-left: 1.5%;
+}
+
+.section2 {
+  background-color: #00B172;
+  height: 670px;
+  padding-bottom: 300px;
+  display: flex;
+}
+
+.section2 h3 {
+  text-decoration: underline #fff;
+  font-size: 2.3em;
+  position: relative; 
+  top: 70px;
+  left: 90px;
+}
+
+.bigcontainer {
+  width: 23%;
+  float: left;
+  height: 500px;
+  position: relative;
+  right: 32.5%;
+  top: 25%;
+}
+
+.bigcontainer h4 {
+  font-size: 1.6em;
+}
+
+.bigcontainer p {
+  font-size: 1.2em;
+  font-weight: lighter;
+}
+
+.spotifylogo {
+  position: relative;
+  right: 270px;
+  top: 310px;
+ 
+  height: 90px;
+}
+.spotifylogo img {
+  width: 120px;
+}
+
+.appphoto {
+  float: right;
+
+  position: relative;
+  top: 160px;
+  right: 50px;
+
+}
+
+.appphoto img {
+ width: 300px;
+
+}
+
