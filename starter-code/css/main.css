@@ -4,5 +4,97 @@ Colors:
 Text: 1A1A1A
 Green: #00B172
 White: #FFF
-
 */
+
+@import url("reset.css"); /* CSS RESET --> ADD LATER!!!!*/
+@import url("https://fonts.googleapis.com/css?family=Roboto:300,400,700");
+
+* {
+  border:1px solid black;
+  box-sizing:border-box;
+  font-family: 'Roboto',sans-serif;
+  font-weight:300;
+  color: #1A1A1A;
+}
+
+img{
+  max-width: 100%;
+}
+
+#header{
+  background:white;
+  height: 50px;
+  display:flex;
+  align-items:center;
+  justify-content: space-between;
+}
+
+#logo{
+  width: 130px;
+}
+
+#logo img{
+  width: 100%;
+}
+
+.list-inline li{
+  display:inline-block;
+  margin:0 5px;
+  font-size: 12px;
+}
+
+#hero{
+  text-align:center;
+  background:black url("../images/landing.jpg");
+  background-size:cover; 
+  min-height: 345px; /*THIS IS NEW!*/
+  display:flex; /*THIS IS NEW!*/
+  flex-direction:column;
+  justify-content:center;
+}
+
+h1{
+  font-size: 2.2em;
+  width: 100%;
+  color: white;
+  font-weight: 500;
+}
+
+h2{
+  text-align: center;
+  font-size: 0.8em;
+  width: 100%;
+  margin-top: 20px;
+}
+
+#hero h2{
+  color:white;
+}
+#feature-section{
+
+}
+
+.container{
+  width:1200px;
+  max-width:100%;
+  margin: 0 auto;
+}
+
+#news h2{
+  font-weight:700;
+  text-align:center;
+}
+.column-wrapper{
+  display:flex;
+}
+
+.column-4{
+  width:33.33%;
+}
+
+#news img-wrapper img{
+  width: 250px;
+  font-weight:700;
+  text-align:center;
+}
+
