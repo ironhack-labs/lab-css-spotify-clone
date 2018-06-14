@@ -6,3 +6,128 @@ Green: #00B172
 White: #FFF
 
 */
+body{
+  margin:0;
+  padding:0;
+  font-family: 'Varela Round', sans-serif;
+}
+nav{
+  position:fixed;
+  top: 0;
+  background-color: #FFF;
+  width:100vw;
+  height:12vh;
+  padding:10px 30px;
+  box-sizing: border-box;
+  color: #1A1A1A;
+}
+nav img{
+  width:15vw;
+  float:left;
+}
+nav ul{
+  list-style: none;
+  float:right;
+  margin:0;
+  padding:20px 0px;
+}
+nav li{
+  display: inline;
+  margin: 0 20px;
+  font-size: 1.2em;
+}
+header{
+  width:98vw;
+  height: 130vh;
+  background-image: url(../images/landing.jpg);
+  background-size: cover;
+  color: #FFF;
+  text-align: center;
+}
+h1{
+  padding-top: 45vh;
+  font-weight: bold;
+  font-size: 5em;
+}
+header p{
+  padding-left:20vw;
+  padding-right:20vw;
+  font-size: 1.8em;
+}
+#services{
+  padding-top:6vh;
+  padding-left:5vw;
+  padding-right:5vw;
+  padding-bottom:15vh;
+}
+#services h2{
+  text-align: center;
+  text-decoration: underline;
+  text-decoration-color: #00B172;
+  font-size: 2em;
+  color:  #1A1A1A;
+}
+.col{
+  width: 28vw;
+  text-align: center;
+  box-sizing: border-box;
+  margin:10px;
+  float: left;
+  padding-right: 3vw;
+}
+.col img{
+  width:15vw;
+}
+.col:nth-child(3){
+  margin-top:5vh;
+}
+#services h3{
+  color: #00B172;
+  font-size: 1.5em;
+}
+#services p{
+  font-size: 1.3em;
+}
+.clearfix{
+  clear: both;
+}
+#features{
+  width:98vw;
+  height: 105vh;
+  background-color: #00B172;
+  color: #FFF;
+  position: relative;
+}
+.featuresText{
+  width: 48vw;
+  padding:3% 8%;
+  display:inline-block;
+  box-sizing: border-box;
+}
+.featuresImg{
+  width:48vw;
+  box-sizing: border-box;
+  padding:5% 15%;
+  float: right;
+}
+.featuresImg img{
+  width: 25vw;
+}
+.featuresText h2{
+  text-decoration: underline;
+  font-size: 2em;
+}
+.featuresText h3{
+  font-size:1.5em;
+  font-weight: bold;
+}
+.featuresText p{
+  font-size: 1.2em;
+  margin-bottom: 8vh;
+}
+#features > img{
+  width:15vw;
+  position: absolute;
+  top: 35%;
+  left: 40%;
+}
