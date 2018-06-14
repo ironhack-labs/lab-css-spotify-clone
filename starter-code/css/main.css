@@ -6,3 +6,192 @@ Green: #00B172
 White: #FFF
 
 */
+
+body {
+    margin: 0;
+    padding: 0;
+    font-family: 'Montserrat', sans-serif;
+}
+
+h1 {
+    color: white;
+    font-size: 80px;
+    font-weight: lighter;
+    margin: 0;
+    padding-top: 255px; 
+    font-weight: 600; 
+    animation-name: text;
+    animation-duration: 3s;
+}
+
+@keyframes text {
+    0% {
+        font-size: 10px;
+    } 100% {
+        font-size: 80px;
+    }
+}
+
+.text-center {
+    text-align: center;
+}
+
+.clear {
+    clear: both;
+}
+
+.container {
+    height: 100px;
+}
+
+#fixed {
+    position: fixed;
+    width: 100%;
+    background-color: white;
+}
+
+.logo {
+    height: 70px;
+    margin: 10px 0 0 35px;
+}
+
+.nav {
+    float: right;
+}
+
+.nav ul {
+    margin: 0;
+}
+.nav ul li {
+    display: inline-block;
+    line-height: 100px;
+    margin-right: 40px;
+    font-size: 20px;
+}
+
+.link {
+    list-style-type: none;
+    text-decoration: none;
+    color: #1A1A1A;
+}
+
+.green-hover:hover {
+    background-color: #00B172;
+    font-size: 25px;
+}
+
+.container2 {
+    background-image: url("../images/landing.jpg");
+    background-size: contain;
+    height: 800px;
+}
+
+.container2 p {
+    color: white;
+    font-size: 29px;
+}
+
+.container3 {
+    margin-bottom: 140px;
+}
+
+.text-h2 {
+    font-size: 38px;
+    text-align: center;
+    margin-top: 60px;
+    font-weight: 600;
+    border-bottom: 3px solid #00B172;
+    padding-bottom: 5px;
+    display: inline-block;
+}
+
+.column {
+    width: 28%;
+    display: inline-block;
+    margin-top: 50px;
+}
+
+section img {
+    width: 100px;
+}
+
+.text-h3 {
+    color: #00B172;
+    font-size: 30px;
+    margin-top: 15px;;
+}
+
+section p {
+    font-size: 25px;
+    font-weight: 100;
+    line-height: 30px;
+}
+
+.text-300 {
+    font-size: 25px;
+    font-weight: 300;
+    line-height: 30px;
+}
+
+.container4 {
+    background-color: #00B172;
+    height: 800px;
+    margin: 80px 55px 0 55px;
+}
+
+.text {
+    font-size: 40px;
+    color: #FFF;
+    margin: 0;
+    font-weight: 600;
+    margin-bottom: 30px;
+    display: inline-block;
+    border-bottom: 3px solid white;
+    padding-bottom: 5px;
+}
+
+.section {
+    width: 37%;
+    float: left;
+    margin: 100px 0 0 180px;;
+}
+
+.icon_img {
+    height: 150px;
+    width: 150px;   
+    background-repeat: no-repeat;
+    position: absolute;
+    margin-top: 350px;
+    margin-left: -20px;
+}
+
+.kanye_img{
+    float: right;
+    height: 600px;
+    width: 400px;
+    margin: 100px 180px 0 0;
+    animation-name: img;
+    animation-duration: .8s;
+    animation-iteration-count: infinite; 
+}
+
+@keyframes img {
+    0% {
+        width: 400px;
+        height: 600px;
+    } 100% {
+        width: 430px;
+        height: 630px;
+    }
+}
+
+.text-h3-2 {
+    font-size: 30px;
+    color: #FFF;
+}
+
+section div p {
+    color: #FFF;
+    font-size: 25px;
+}
+
