@@ -6,3 +6,78 @@ Green: #00B172
 White: #FFF
 
 */
+.body{
+    font-family: 'Roboto', sans-serif;
+    font-size: 15px;
+    margin: 0;
+}
+.navBar{
+    position:fixed;
+    margin: 0;
+    width: 100%;
+    background-color: white;
+}
+.navBar img{
+    float: left;
+    max-width: 200px;
+    position: absolute;
+    top: 50%;
+    transform: translateY(-50%);
+    margin-left: 20px;
+}
+.navBar ul{
+    float: right;
+    margin-right: 20px;
+}
+.navBar li{
+  display: inline-block;
+  padding: 10px;
+}
+
+h1{
+    font-size: 3em;
+    margin-bottom: 40px;
+}
+h2{
+    font: 2em;
+}
+
+#hero{
+    text-align: center;
+    background: black url(../images/landing.jpg);
+    min-height: 100vh;
+    background-size: cover;
+    color: white;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+}
+
+#features{
+    margin: 0 auto;
+    text-align: center;
+}
+
+#container{
+    display:flex;
+}
+
+.column-wrapper{
+    display: flex;
+    flex-direction:column;
+}
+
+.flex-icon{
+    width: 100px;
+}
+
+#news h2{
+    text-align: center;
+}
+#news h2 span{
+    border-bottom: 4px solid #00B127;
+} 
+
+.green{
+    color: #00b127;
+}
