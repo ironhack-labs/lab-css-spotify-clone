@@ -33,8 +33,16 @@ nav {
 }
 .nav-left {
   padding:10px;
+  width: 125px;
   float: left;
   font-size: 1rem;
+}
+
+.nav-left:hover {
+  width: 175px;
+  transition-property: width;
+  transition-duration: 1s;
+  padding-bottom: 10px;
 }
 
 li {
