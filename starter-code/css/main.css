@@ -6,3 +6,262 @@ Green: #00B172
 White: #FFF
 
 */
+/*
+copiar y pegar css reset
+*/
+
+
+html, body, div, span, applet, object, iframe,
+h1, h2, h3, h4, h5, h6, p, blockquote, pre,
+a, abbr, acronym, address, big, cite, code,
+del, dfn, em, img, ins, kbd, q, s, samp,
+small, strike, strong, sub, sup, tt, var,
+b, u, i, center,
+dl, dt, dd, ol, ul, li,
+fieldset, form, label, legend,
+table, caption, tbody, tfoot, thead, tr, th, td,
+article, aside, canvas, details, embed, 
+figure, figcaption, footer, header, hgroup, 
+menu, nav, output, ruby, section, summary,
+time, mark, audio, video {
+	margin: 0;
+	padding: 0;
+	border: 0;
+	font-size: 100%;
+	font: inherit;
+    vertical-align: baseline;
+    box-sizing: border-box;
+}
+/* HTML5 display-role reset for older browsers */
+article, aside, details, figcaption, figure, 
+footer, header, hgroup, menu, nav, section {
+	display: block;
+}
+body {
+	line-height: 1;
+}
+ol, ul {
+	list-style: none;
+}
+blockquote, q {
+	quotes: none;
+}
+blockquote:before, blockquote:after,
+q:before, q:after {
+	content: '';
+	content: none;
+}
+table {
+	border-collapse: collapse;
+	border-spacing: 0;
+}
+
+
+
+/*
+fin del css reset
+*/
+img{
+    max-width: 100%;
+}
+
+body {
+    font-family: 'Roboto', sans-serif;
+    font-size: 18px;
+}
+
+#header {
+    background: white;
+    height: 110px;
+    display: flex;
+    position: fixed;
+    left: 0;
+    right: 0;
+    align-items: center;
+    justify-content: space-between;
+    padding: 0 20px;
+}
+
+#logo {
+    width: 200px;
+    animation-name: move;
+    animation-play-state: paused;
+    animation-duration: 1s;
+    animation-iteration-count: infinite;
+}
+
+#logo:hover{
+    animation-play-state: running;
+}
+@keyframes move{
+    0% {
+        margin-top:0px;
+    }
+
+    50%{
+        margin-top: 40px;
+    }
+}
+
+#logo img {
+    width: 100%;
+}
+
+.list-inline > li{
+    display: inline-block;
+    margin-left: 20px;
+}
+ 
+.list-inline li:hover{
+    transition-property: background-color;
+    transition-duration: 0.5s;
+    background-color:  #00B172;
+}
+
+.list-inline > li a{
+    text-decoration: none;
+    color: black;
+    font-weight: 200;
+}
+
+.container{
+    width: 1200px;
+    max-width: 100%;
+    margin: 0 auto;
+}
+h1{
+    font-size: 5em;
+    margin-bottom: 40px;
+}
+
+h2{
+    margin-bottom: 2em;
+    font-size: 2em;
+}
+
+.hero{
+    text-align: center;
+    background: black url(../images/landing.jpg);
+    background-size: cover;
+    min-height: 100vh;  /*va a cubrir el 100% de la pantalla*/
+    color: white;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+}
+
+.hero h1{
+    animation-name:zoomIn;
+    animation-duration: 3s;
+}
+
+@keyframes zoomIn{
+    0% {
+        font-size: 3em;
+    }
+
+    100% {
+        font-size: 5em;
+    }
+}
+.hero h2 {
+    animation-name: move;
+    animation: duration 3s;
+}
+.column-4{width: 33.33%;}
+.column-8{width: 66.66%;}
+
+.column-wrapper{
+    display: flex;
+}
+
+#news{
+    text-align: center;
+    margin-bottom: 50px;
+}
+
+#news h2{
+    font-weight: 700;
+    font-size: 2em;
+    display: block;
+    margin: 50px 0 75px;
+}
+
+#news h2 span{
+    border-bottom: 4px solid #00B172;
+}
+
+#news .img-wrapper img{
+    width: 160px;
+}
+
+#news .img-wrapper{
+    height: 170px;
+}
+
+#news .column-4 h3{
+    color: #00B172;
+    font-size: 2em;
+    font-weight: 700;
+    margin-bottom: 30px;
+}
+
+.column-4 p{
+font-weight: 300;
+}
+
+.artist {
+    margin-top: 50px;
+    background: #00B172;
+    width: 1200px;
+    max-width: 100%;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    color: white;
+    padding: 0 50px;
+    max-height: 100%;
+    margin: 0 auto;
+    min-height: calc(100vh - 110px);
+}
+.info .item{
+    margin-bottom: 1.5em;
+    line-height: 1.8em;
+}
+
+.info h2 span{
+    border-bottom: 2px solid white;
+}
+
+.info .title{
+    width: 100%;
+}
+
+.info h3{
+    font-size: 1.5em;
+    font-weight: 600;
+    margin-bottom: 0.5em;
+}
+
+.content {
+    display: flex;
+}
+.info p{
+    font-weight: 200;
+    font-size: 1.3em;
+}
+.img-spoty{
+    width:160px;
+    margin: auto;
+}
+
+.img-artist{
+    width: 340px;
+    margin: auto 20px;
+    float: right;
+}
+
+.img-artist img{
+    max-width: 100%;
+}
+
