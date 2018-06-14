@@ -1,8 +1,137 @@
 /*
 Colors:
 
-Text: 1A1A1A
+Text: 
 Green: #00B172
 White: #FFF
 
 */
+body {
+  font-size: 16px;
+  margin: 0 auto;
+  font-family: "Montserrat", sans-serif;
+}
+.header {
+  height: 100px;
+  position: fixed;
+  width: 100%;
+  background: #fff;
+  top: 0;
+  z-index: 2;
+}
+.header-icon {
+  float: left;
+  width: 200px;
+  margin: 10px;
+}
+.header-text {
+  float: right;
+  display: inline-block;
+}
+li,
+a {
+  text-decoration: none;
+  display: inline-block;
+  list-style-type: none;
+  color: #1a1a1a;
+  margin: 10px;
+  font-size: 1.1em;
+}
+.top-menu {
+  height: 20px;
+}
+.primera {
+  background-image: url(..//images/landing.jpg);
+  background-size: cover;
+  background-position: center;
+  height: 1000px;
+  margin-top: 100px;
+
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+
+  color: white;
+  font-size: 1.5em;
+  text-align: center;
+}
+.segunda {
+  height: 800px;
+  font-size: 1.2em;
+}
+.segunda h3 {
+  color: #00b172;
+}
+.segunda h2 {
+  text-align: center;
+  font-size: 1.8em;
+  margin-top: 50px;
+}
+.hr1 {
+  background-color: #00b172;
+  height: 3px;
+  width: 300px;
+  text-align: center;
+}
+.col {
+  float: left;
+  position: relative;
+  left: 15%;
+  margin-top: 5%;
+  text-align: center;
+}
+.col-3 {
+  width: 20%;
+}
+.col-middle {
+  margin-left: 5%;
+  margin-right: 5%;
+}
+.image {
+  width: 90px;
+}
+.bottom {
+  background-color: #00b172;
+  color: #fff;
+  height: 800px;
+  margin-left: 80px;
+  margin-right: 80px;
+  margin-top: -300px;
+  margin-bottom: 100px;
+}
+.kanye-image {
+  float: left;
+  position: relative;
+  left: 15%;
+  margin-top: 5%;
+  margin-left: 5%;
+  width:380px;
+}
+.spoty-image {
+  float: left;
+  position: relative;
+  left: 15%;
+  width: 150px;
+  margin-top: 300px;
+  margin-right: 10%;
+}
+.bottom-text {
+  float: left;
+  position: relative;
+  margin-top: 5%;
+  width: 30%;
+  margin-left:5%;
+  font-size: 1.3em;
+  line-height: 1.8em;
+}
+.hr2{
+  display: inline-block;
+  align-content: left;
+  background-color: #fff;
+  height: 3px;
+  width: 400px;
+}
+.clearfix {
+  clear: both;
+}
