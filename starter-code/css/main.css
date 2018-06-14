@@ -22,9 +22,7 @@ body {
   padding: 0;
 }
 
-div {
-  border: 1px solid red;
-}
+
 
 
 /* ---- typography ---- */
@@ -59,7 +57,7 @@ p {
   color: white;
 }
 
-.whats-on h2, h3 {
+.whats-on h2, .whats-on h3 {
   color: #00B172
 }
 
@@ -146,7 +144,18 @@ p {
 .screenshot {
   padding-left: 50px;
   padding-right: 50px;
+  padding-top: 50px;
   background-color: #00B172;
+}
+
+
+
+.screenshot img[alt*="screenshot"] {
+  margin: 50px 0;
+}
+
+.screenshot img[alt*="logo"] {
+  margin-top: 100px;
 }
 
 
@@ -175,4 +184,27 @@ img {
 
 .whats-on img {
   max-width: 200px;
+}
+
+#white-logo {
+  max-width: 200px;
+}
+
+
+/* ---- Animation ---- */
+
+@keyframes bounce {
+  0% {
+    transform:translateY(-100%);
+    
+  }
+  100% {
+      transform:translateY(-100%);
+    
+  }
+}
+
+#spotify-logo:hover {
+  animation-name: bounce;
+  animation-duration: 0.2s;
 }
