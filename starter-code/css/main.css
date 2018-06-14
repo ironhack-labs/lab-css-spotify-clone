@@ -23,6 +23,9 @@ body {
     width: 15em;
     float:left;
 }
+.spotify-logo:hover{
+    animation: bounce 1s;
+}
 .nav-bar {
     float: right;
     margin-top: .5em;
@@ -175,4 +178,15 @@ footer p {
 .iphone {
     float: right;
     width: 30%;
+}
+@keyframes bounce{
+    0%, 50%, 70%, 100%{
+    transform: translateY(0);
+  }
+    40% {
+    transform: translateY(-50px);
+  }
+    60%, 80% {
+    transform: translateY(-10px);
+  }
 }
