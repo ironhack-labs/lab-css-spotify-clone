@@ -24,6 +24,8 @@ nav.navbar{
 nav.navbar img{
     width: 215px;
     margin: 15px 30px;
+    animation-duration: 3s;
+    animation-name: slidein;
 }
 nav.navbar ul{
     font-family: 'Montserrat', sans-serif;
@@ -145,3 +147,12 @@ section.kayne{
     font-size: 30px;
     margin: 35px 0;
 }
+@keyframes slidein {
+    from {
+      margin-left: 100%;
+    }
+  
+    to {
+      margin-left: 3%;
+    }
+  }
