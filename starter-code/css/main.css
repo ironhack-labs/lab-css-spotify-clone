@@ -6,3 +6,187 @@ Green: #00B172
 White: #FFF
 
 */
+body {
+    font-family: 'Raleway',sans-serif, Helvetica;
+    font-size: 16px;
+    color: #1A1A1A;
+}
+.nav-bar-wrap {
+    position: fixed;
+    top:0;
+    background-color: #fff;
+    width: 100%;
+    padding: .5%;
+    z-index: 999;
+}
+.spotify-logo {
+    width: 15em;
+    float:left;
+}
+.spotify-logo:hover{
+    animation: bounce 1s;
+}
+.nav-bar {
+    float: right;
+    margin-top: .5em;
+    margin-right: 3em;
+}
+.ul-nav{
+    float: right;
+}
+.li-nav {
+    display: inline;
+    list-style-type: none;
+    margin: 1em;
+    padding: 0;
+    color: #ccc;
+    font-size: 1.2em; 
+}
+.link-nav{
+    text-decoration: none;
+    color: #000;
+    font-size: 1.1em;
+}
+.music-for-everyone {
+    float: left;
+    color: #fff;
+}
+.music-for-everyone h1 {
+    position: absolute;
+    margin-top: 22%;
+    margin-left: 1%;
+    width: 100%;
+    text-align: center;
+    font-weight: 1200;
+    font-size: 5em;
+    font-style: bold;
+}
+.music-for-everyone p {
+    position: absolute;
+    margin-top: 32%;
+    margin-left: 2%;
+    width: 100%;
+    text-align: center;
+    line-height: 1.5em;
+    letter-spacing: .5px;
+    font-size: 2em;
+}
+.landing{
+    float: left;
+    width: 100%;
+}
+.on-spotify {
+    float: left;
+    margin-left:38%;
+    margin-top: 2em;
+}
+.on-spotify h2 {
+    font-size: 2.2em;
+    border-bottom: .1em solid #00B172;
+    display: inline-block;
+    line-height: 1.5em;
+}
+.three-icons {
+    float: left;
+    margin-left: 3%;
+    height: 400px;
+    width: 100%;
+    text-align: center;
+}
+.three-icons img{
+    width: 50%;
+}
+.three-icons h2{
+    color: #00B172;
+    font-size: 1.8em;
+}
+.three-icons p {
+    font-size: 1.5em;
+    color: #000;
+    font-weight: 100;
+}
+.millions{
+    float: left;
+    width: 20%;
+    border-color: 1px solid green;
+    padding: 5%;
+}
+.high{
+    float: left;
+    width: 20%;
+    border-color: 1px solid green;
+    padding: 5%;
+}
+.devices{
+    float: left;
+    width: 20%;
+    border-color: 1px solid green;
+    padding: 5%;
+}
+footer {
+    float: left;
+    background-color: #00B172;
+    margin: 2%;
+    color: #fff;
+    padding: 3% 7%;
+    padding-bottom: 6%;
+}
+footer h2 {
+    float: left;
+    font-size: 2.2em;
+    width: 100%;
+    margin-bottom: 10px;
+}
+.line {
+    float: left;
+    border-top: 3px solid #fff;
+    width: 40%;
+}
+.clear{
+    float: right;
+    width: 60%;
+    border-top: 3px solid #00B172;
+}
+footer h3 {
+    font-size: 2em;
+    padding-bottom: 8px;
+}
+footer p {
+    font-size: 1.3em;
+    line-height: .8em;
+}
+.yeezy {
+    float: left;
+    width: 400px;
+    margin-top: 20px;
+}
+.search{
+    padding-bottom: .2px;
+}
+.browse{
+    padding-bottom: .2px;
+}
+.discover{
+    padding-bottom: .2px;
+}
+.spotify-icon-white {
+    float: left;
+    width: 12%;
+    margin-top: 17%;
+    margin-left: 6%;
+}
+.iphone {
+    float: right;
+    width: 30%;
+}
+@keyframes bounce{
+    0%, 50%, 70%, 100%{
+    transform: translateY(0);
+  }
+    40% {
+    transform: translateY(-50px);
+  }
+    60%, 80% {
+    transform: translateY(-10px);
+  }
+}
