@@ -84,18 +84,41 @@ body {
 
 #logo {
     width: 200px;
+    animation-name: move;
+    animation-play-state: paused;
+    animation-duration: 1s;
+    animation-iteration-count: infinite;
+}
+
+#logo:hover{
+    animation-play-state: running;
+}
+@keyframes move{
+    0% {
+        margin-top:0px;
+    }
+
+    50%{
+        margin-top: 40px;
+    }
 }
 
 #logo img {
     width: 100%;
 }
 
-.list-inline li{
+.list-inline > li{
     display: inline-block;
     margin-left: 20px;
 }
+ 
+.list-inline li:hover{
+    transition-property: background-color;
+    transition-duration: 0.5s;
+    background-color:  #00B172;
+}
 
-.list-inline li a{
+.list-inline > li a{
     text-decoration: none;
     color: black;
     font-weight: 200;
@@ -107,7 +130,7 @@ body {
     margin: 0 auto;
 }
 h1{
-    font-size: 3em;
+    font-size: 5em;
     margin-bottom: 40px;
 }
 
@@ -127,6 +150,24 @@ h2{
     justify-content: center;
 }
 
+.hero h1{
+    animation-name:zoomIn;
+    animation-duration: 3s;
+}
+
+@keyframes zoomIn{
+    0% {
+        font-size: 3em;
+    }
+
+    100% {
+        font-size: 5em;
+    }
+}
+.hero h2 {
+    animation-name: move;
+    animation: duration 3s;
+}
 .column-4{width: 33.33%;}
 .column-8{width: 66.66%;}
 
