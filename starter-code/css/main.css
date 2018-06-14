@@ -73,6 +73,15 @@ h4 {
 .navbar img {
   float: left;
   width: 200px;
+  position: relative;
+  animation-name: bounce;
+  animation-duration: .5s;
+  animation-play-state: paused;
+  animation-iteration-count: infinite;
+}
+
+.navbar img:hover {
+  animation-play-state: running;
 }
 
 .navbar .menu {
@@ -89,6 +98,20 @@ h4 {
 .navbar .menu li a {
   color: #1a1a1a;
   text-decoration: none;
+}
+
+@keyframes bounce {
+  0% {
+    top: 0;
+  }
+
+  50% {
+    top: -15px;
+  }
+
+  100% {
+    top: 0;
+  }
 }
 
 /* Header */
