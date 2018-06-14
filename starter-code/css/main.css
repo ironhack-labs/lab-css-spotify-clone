@@ -6,3 +6,175 @@ Green: #00B172
 White: #FFF
 
 */
+
+/*First section*/
+.navBar {
+  
+  
+}
+nav {
+  position: fixed;
+  z-index: 9999;
+  background-color: #FFF;
+  margin: 0;
+  height: 80px;
+}
+
+nav img {
+  float: left;
+  width: 15%;
+  height: auto;
+  margin: 10px 0 0 30px;
+animation: dale 1s infinite ease-in-out;
+}
+
+ul {
+  list-style-type: none;
+  float: right;
+  padding: 0;
+  font-size: 22px;
+  position: absolute;
+  right: 30px;
+  top: -18px;
+}
+
+ul li {
+  float: left;
+  margin: 18px;
+  padding: 0;
+}
+
+/*Second section*/
+.imageBackground {
+  background-image: url(../images/landing.jpg);
+  background-size: cover;
+  background-repeat: no-repeat;
+  height: 700px;
+  width: auto;
+  color: #FFF;
+  position: relative;
+}
+
+.imageBackground div {
+  position: absolute;
+  top:35%;
+  left: 23%;
+  text-align: center;
+  font-size: 170%;
+  font-family: sans-serif;
+  font-weight: lighter;
+}
+
+h1 {
+  font-size: 75px;
+  margin-bottom: 0;
+}
+
+/*Third section*/
+
+.description{
+  height: 500px;
+}
+
+.mainDivDes h2{
+  font-size: 30px;
+  margin: 50px;
+  text-align: center;
+  text-decoration: underline;
+  text-decoration-color: #00B172;
+}
+
+.descriptionDiv {
+  float: left;
+  text-align: center;
+  font-weight: lighter;
+  width: 25%;
+  margin: 50px 50px;
+  padding: 0 ;
+  font-size: 150%;
+  font-weight: lighter;
+}
+
+.descriptionDiv img {
+  width: 40%;
+  height: auto;
+}
+
+.descriptionDiv h3 {
+  color: #00B172;
+  font-weight: bold;
+}
+
+.clearfix {clear: both;}
+
+/*Last part*/
+
+.kayneWest {
+  background-color: #00B172;
+  color: #FFF;
+  height: 700px;
+  border: 25px #FFF solid;
+}
+
+.lefty{
+  display: inline;
+  float: left;
+  padding: 40px 0 0 50px;
+}
+
+.lefty h3 {
+  font-size: 38px;
+  text-decoration: underline;
+  
+}
+
+.lefty p {
+  padding: 15px;
+  width: 45%
+  
+}
+
+.lefty h2{
+  padding: 15px;
+  width: 45%;
+  
+}
+.righty img{
+  width: 28%;
+  height: auto;
+  padding: 80px 50px 0 80px;
+}
+
+.middleImge img{
+  width: 9%;
+  height: auto;
+  position: absolute;
+  top: 1550px;
+  right: 650px;
+  
+}
+
+@keyframes dale {
+  0%{
+    transform: translateY(1px);
+  }10% {
+    transform: translateY(2px);
+  }20% {
+    transform: translateY(3px);
+  }30% {
+    transform: translateY(4px);
+  }40% {
+    transform: translateY(4.5px);
+  }50% {
+    transform: translateY(.430px);
+  }60% {
+    transform: translateY(.500px);
+  }70% {
+    transform: translateY(.360px);
+  }80% {
+    transform: translateY(.500px);
+  }90% {
+    transform: translateY(.400px);
+  }100% {
+    transform: translateY(.500px);
+}
