@@ -13,7 +13,7 @@ White: #FFF
 }
 
 header {
-    background-color: white;
+    background: white;
     position: fixed;
     top: 0;
     left: 0;
@@ -80,10 +80,14 @@ header li a {
 
 }
 
+.boxIt {
+    display: flex;
+    justify-content: space-around;
+
+}
 
 .options {
 	width: 27%;
-	float: left;
 	margin: 1.66%;
 }
 
@@ -94,8 +98,7 @@ header li a {
 .siteContent {
     padding: 40px;
     margin-top: 50px;
-    margin-bottom: 400px;
-    position: relative;
+    margin-bottom: 100px;
     text-align: center;
 }
 
@@ -120,6 +123,7 @@ header li a {
 
 .siteContent h2 {
     padding-bottom: 25  px;
+    font-size: 2em;
 }
 
 .siteContent h4 {
@@ -130,7 +134,7 @@ header li a {
 
 .siteOverview h2 {
    font-weight: 900;
-   font-size: 5em;
+   font-size: 1.8em;
 }
 
 .siteOverview h4 {
