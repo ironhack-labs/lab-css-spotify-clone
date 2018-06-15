@@ -6,3 +6,154 @@ Green: #00B172
 White: #FFF
 
 */
+
+/*        GLOBAL DECLARATIONS       */
+
+* {
+  font-family: 'Roboto', sans-serif;
+
+}
+
+body {
+  margin: 0;
+  padding: 0;
+}
+
+/*              NAV BAR             */
+
+.navbar {
+  width: 100%;
+  overflow: hidden;
+  position: fixed;
+  backgroun-color:white;
+  top:0;
+  text-decoration: none;
+  background-color: #FFF;
+  height:13%;
+  
+
+}
+
+.spotify-head {
+  margin:0;
+  padding:0;
+}
+
+.spotify-logo {
+  float:left;
+  margin: 8px 0 8px 30px;
+  width: 205px;
+  height: 60px;
+  
+}
+
+nav a {
+  text-decoration: none;
+  color: #1A1A1A;
+  padding: 3px 8px;
+  float: right;
+  margin: 26px 28px 26px 0;
+}
+
+/*        BG IMAGE       */
+
+.concert {
+  background-image: url(../images/landing.jpg);
+  height: 850px;
+  background-repeat: no-repeat;
+  background-size: contain;
+  z-index: -1;
+}
+
+.concert-content {
+  position: relative;
+  top:33%;
+  margin:0;
+  padding:0;
+  color:white;
+  text-align:center;
+}
+
+.for-everyone {
+  font-size: 80px;
+  font-weight: 400;
+  margin:0;
+}
+
+.spotify-endorsement {
+  font-size: 30px;
+  font-weight: 200;
+}
+
+/*        What's on the Specify?          */
+
+.about-spotify {
+  margin-top: 50px;
+  text-align: center;
+  
+}
+
+.as-hr { 
+  width:300px;
+  height:0; 
+  border: 2px solid rgb(0 178 114);
+  position: relative;
+  bottom: 8px;
+  margin-bottom: 100px;
+}
+
+
+article {
+  width: 27%;
+  height: 300px;
+  float: left;
+  margin-left:3%;
+  margin-right:3%;
+  text-align: center;
+}
+
+article img {
+  position: relative;
+  top: 5px;
+  height: 100px;
+  width: 120px;
+  margin: 0 15% 0 15%;
+}
+
+article > h2 {
+  position: relative;
+  color: rgb(0 178 114);
+  top: 1px;
+}
+
+article > p {
+  position: relative;
+  font-size: 20px;
+  bottom: 1px;
+  font-weight: 100;
+}
+
+.forkanyelovers {
+  clear: both;
+  background-color: rgb(0 178 114);
+  color: #FFF;
+  width: 95%;
+  margin: 0 2% 2% 2%;
+}
+
+.forkanyelovers > hr {
+  width:300px;
+  height:0; 
+  border: 2px solid #FFF;
+  position: relative;
+  bottom: 8px;
+  margin-bottom: 100px;
+}
+
+.whitespotify {
+  
+}
+
+img .kanye {
+  border: 2px solid black;
+}
