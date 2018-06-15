@@ -92,7 +92,7 @@ header li a {
 }
 
 .options img {
-    max-width: 140px;
+    max-width: 120px;
 }
 
 .siteContent {
@@ -103,6 +103,9 @@ header li a {
 }
 
 .siteOverview {
+    display: flex;
+    justify-content: space-between;
+    flex-direction: row-reverse;
     background-color: #1ab26b;
     background-image: url('../images/spotify-icon-white.png');
     background-size: 150px;
@@ -114,35 +117,39 @@ header li a {
 }
 
 .siteOverview img {
-    width: 27%;
-	float: right;
-    max-width: 220px;
+    width: auto;
+    max-height: 65vh;
+    
 }
 
 
 
 .siteContent h2 {
-    padding-bottom: 25  px;
+    
     font-size: 2em;
 }
 
 .siteContent h4 {
    color: #1ab26b;
    font-size: 1.7em;
-   font-weight: bolder;
+   font-weight: 900;
 }
 
 .siteOverview h2 {
    font-weight: 900;
    font-size: 1.8em;
+   padding-bottom: 5px;
+   text-decoration: underline;
+   text-underline-position: under;
 }
 
 .siteOverview h4 {
     font-weight: 900;
+    font-size: 1.4em;
 }
 
 hr {
-    margin-top: 5px;
+    margin-top: -15px;
     margin-bottom: 15px;
     margin-left: auto;
     margin-right: auto;
@@ -154,4 +161,5 @@ hr {
     border: 0 none;
     
 }
+
 
