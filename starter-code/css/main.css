@@ -11,7 +11,6 @@ White: #FFF
 
 * {
   font-family: 'Roboto', sans-serif;
-
 }
 
 body {
@@ -23,15 +22,18 @@ body {
 
 .navbar {
   width: 100%;
-  overflow: hidden;
+  overflow:hidden;
   position: fixed;
-  backgroun-color:white;
+  background-color:white;
   top:0;
   text-decoration: none;
-  background-color: #FFF;
+  background-color:white;
   height:13%;
-  
+}
 
+.nav-links {
+  color:black;
+  opacity: 1;
 }
 
 .spotify-head {
@@ -99,17 +101,18 @@ nav a {
   border: 2px solid rgb(0 178 114);
   position: relative;
   bottom: 8px;
+  left:.1%;
   margin-bottom: 100px;
 }
 
-
-article {
+.whatsOnSpotify {
   width: 27%;
   height: 300px;
   float: left;
   margin-left:3%;
   margin-right:3%;
   text-align: center;
+  
 }
 
 article img {
@@ -137,23 +140,72 @@ article > p {
   clear: both;
   background-color: rgb(0 178 114);
   color: #FFF;
-  width: 95%;
-  margin: 0 2% 2% 2%;
+  width: 93%;
+  height: 770px;  
+  margin: 2%;
 }
 
-.forkanyelovers > hr {
-  width:300px;
+
+hr {
+  width: 43%;
   height:0; 
   border: 2px solid #FFF;
   position: relative;
-  bottom: 8px;
-  margin-bottom: 100px;
+  bottom: 10px;
+  right: 45px;  
+  margin-bottom:2%;
 }
 
 .whitespotify {
   
+  position: relative;
+  top: 300px;
+  left: 40%;
+  right: 40%;
+  width: 120px;
+  height: 120px;
 }
 
-img .kanye {
-  border: 2px solid black;
+.kanye {
+  float:right;
+  margin: 120px 8%;
+  width: 325px;
+  height:550px;
+}
+
+h5 {
+  font-size: 30px;
+  margin:0;
+  padding:5px 0;
+}
+
+
+.advert {
+
+ font-size: 20px;
+ font-weight: 100;
+}
+
+.clear {
+  clear:both;
+}
+
+.advert-bottom {
+  position: relative;
+  margin-left:30px;
+  bottom: 13%;
+  left:2%;
+}
+
+div >.advert {
+  margin-left: 30px;
+}
+
+#yeezy {
+  font-size: 40px;
+  font-weight: 300;
+}
+
+.forkanyelovers p {
+  line-height: 29px;
 }
