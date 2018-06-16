@@ -7,6 +7,11 @@ White: #FFF
 
 */
 
+body{
+  width: 100%;
+  margin: 0 auto;
+}
+
 nav{
   height: 60px;
   width: 1432px;
@@ -16,7 +21,6 @@ nav{
   width: 113px;
   padding-top: 15px;
   padding-left: 21px;
-  /* display: inline-block; */
 
 }
 
@@ -30,12 +34,12 @@ li{
 
 .helpLi{
   padding-right: 7px;
-    width: 73px;
+  width: 73px;
 }
 
 ul{
-  width: 500px;
-  padding-left: 700px;
+  width: 446px;
+  padding-left: 731px;
   display: inline-block;  
   margin-top: 0px;
   margin-bottom: 0px;
@@ -56,17 +60,18 @@ ul{
 .topDivH1{
   margin: 0;
   padding-top: 350px;
-  font-size: 70px;
+  font-size: 88px;
   color: white;
   text-align: center;
 }
 .topDivText{
   color: white;
   text-align: center;
+  padding-top: 23px;
+  font-size: 24px;
 }
 .middleDiv{
-  height: 700px;
-  background-color: bisque;
+  height: 600px;
 }
 
 .middleDivH2{
@@ -88,38 +93,65 @@ hr{
   color:#00B172;
 }
 
-.column{
-width: 30%;
-display: inline-block;
-height: 500px;
-background-color: aqua;
+.threeColumns{
+  display: flex;
+  justify-content: space-evenly;
 }
 
-.musicIcon{
-  width: 33px;
+
+.column{
+
+width: 262px;
+height: 358px;
+display: flex;
+align-items: center;
+justify-content: center;
+flex-direction: column;
+padding-top: 11px;
 }
+
+.icons{
+  width: 113px;
+}
+
+h5{
+  font-size: 26px;
+  margin-top: 16px;
+  margin-bottom: 7px; 
+  color:#00B172;
+  text-align: center;
+}
+
+.column>p{
+  text-align: center;
+}
+
 
 
 .bottomDiv{
 height: 800px;
 background-color: #00B172;
+display: flex;
+align-items: center;
+justify-content: space-evenly;
 
 }
 
 .rightDiv{
-  height: 555px;
-  width: 700px;
-  /* display: inline-block; */
+  width: 550px;
+  height: 665px;
   float:left;
   color: white;
+  padding-left: 31px;
 }
 
 .leftDiv{
-  height: 555px;
-  width: 700px;
-  /* display: inline-block; */
   float: right;
-
+  width: 500px;
+  height: 695px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
 }
 
 h3{
@@ -127,28 +159,23 @@ h3{
   margin: 0 auto;
   margin-top: 48px;
   font-size: 25px;
-  padding-left: 170px;
+  
 
 }
 
 .rightDiv hr{
   color: white;
-  margin-right: 70px;
-  margin-left: 170px;
   width: 348px;
+  margin: 0;
+  margin-top: 21px;
 }
 
 .allTextRightDiv{
-  padding-top: 15px;
-  margin-left: 171px;
   width: 320px;
 }
 
 .whiteLogo{
-  float: right;
-  padding-top: 15px;
-  margin-left: 171px;
-  width: 320px;
+      width: 125px;
 }
 
 .rightDiv h4{
@@ -157,7 +184,11 @@ h3{
 }
 
 .appImage{
-  width: 293px;
-  margin-top: 155px;
-  margin-left: 191px;
+  width: 350px;
+}
+
+.middleBottomDiv{
+  display: flex;
+align-items: center;
+justify-content: center;
 }
