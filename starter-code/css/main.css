@@ -1,8 +1,166 @@
 /*
 Colors:
-
 Text: 1A1A1A
 Green: #00B172
 White: #FFF
-
 */
+
+body{
+  background-color: white;
+  font-family: arial;
+}
+
+h1{
+  color: white;
+  font-size: 100px;
+  font-weight: bolder;
+  width: auto;
+  height: 100px;
+  padding: 35px;
+  position: absolute;
+  top: 30%;
+  left: 48%;
+  margin: -110px 0 0 -410px;
+}
+
+h2{
+  text-align: center;
+  font-weight: bolder;
+  font-size: 45px;
+}
+
+#grid h3{
+  color: rgba(11, 187, 125, 1);
+  font-size: 35px;
+}
+
+#grid p{
+  font-size: 25px;
+
+}
+
+.nav-bar{
+padding-bottom: 50px;
+}
+
+.nav-bar > a{
+  float: right;
+  padding: 10px;
+  marging: 10px;
+  text-decoration: none;
+  color: black;
+  margin: 10px;
+}
+
+.spotify-logo{
+  width: 225px;
+  margin: -5px 45px;
+  float: left;
+  background-repeat: no-repeat;
+}
+
+.main-text{
+  color: white;
+  text-align: center;
+  position: absolute;
+  top: 40%;
+  left: 24%;
+  font-size: 25px;
+  width: auto;
+}
+
+.div-top{
+  position: relative;
+  background-image: url("../images/landing.jpg");
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-position: center;
+  height: 750px;
+}
+
+#grid-dividers{
+  background-color: #00B172;
+  height: 5px;
+  position: relative;
+  border-radius: 15px;
+  bottom: 35px;
+  width: 380px;
+}
+/*Thanks to David M. for help with this*/
+#grid{
+  display: grid;
+  height: 300px;
+  grid-template-columns: repeat(3, 1fr);
+  text-align: center;
+
+}
+
+#grid img{
+  width: 125px;
+}
+
+#col1{
+
+}
+
+#col2{
+
+}
+
+#col3{
+
+}
+/*read up more on display:grid; */
+
+.div-bottom{
+  background-color: #00B172;
+  background-image: url("../images/spotify-icon-white.png");
+  background-repeat: no-repeat;
+  background-position: center;
+  background-size: 150px 150px ;
+  position: relative;
+  color: white;
+  height: 600px;
+  font-size: 25px;
+  margin: 25px 48px;
+  }
+
+.div-bottom h2{
+  font-size: 50px;
+  position: relative;
+  right: 500px;
+  margin-top: 10px;
+
+}
+
+.bottom-content{
+  margin-bottom: 20px;
+  margin-left: 80px;
+  width: 600px;
+}
+
+/*Yo Taylor, I'm really happy for you, Imma let you finish but
+Beyonce had one of the best videos of all time…one of the
+best videos of all time! (never forget that time kanye was booed
+off stage)*/
+
+#underline-kanye{
+  background-color: white;
+  height: 5px;
+  position: relative;
+  bottom: 35px;
+  right: 500px;
+  border-radius: 15px;
+  width: 680px;
+}
+
+.bottom-right-kanye{;
+  position: relative;
+  bottom: 550px;
+  left: 450px;
+  height: 550px;
+  background-image: url("../images/spotify-app.jpg");
+  background-repeat: no-repeat;
+  background-position: center;
+  background-size: contain;
+}
