@@ -9,7 +9,7 @@ White: #FFF
 body{
     width:100%;
     height:100%;
-    border:dotted;
+    margin: 0;
 }
 
 nav {
@@ -17,42 +17,72 @@ nav {
    width:100%;
    margin:0px;
    padding: 0px;
-   border: dotted;
    position: fixed;
+   top: 0;
    background: white
 }
 
 nav img {
-    width: 10%;
+    width: 15%;
     float: left;
+    padding-left: 1cm;
+    padding-top: 15px;
 }
-nav ul, nav li{
-    float: right;
+nav ul{
+    float:right;
     list-style: none;
+    padding-right: 2cm;
+}
+
+li{
+    display: inline-block;
+    font-family: sans-serif;
+    font-size: 25px;
+    font-weight: 100;
+    padding: 20px;
 }
 
 .intro{
-    
-    margin-top:106px;
-    padding-top:500px;
    background-image: url("../images/landing.jpg");
+   margin-top:100px;
    background-size:cover;
    height:800px;
    width:100%;
    color:white;
 }
 
-    .intro h1{
+.intro h1{
+    font-size: 85px;
+    font-family: Arial, Helvetica, sans-serif;
     text-align: center;
-    top: 300px;
+    padding-top:250px;
 }
 
-    .intro h4{
+.intro h5{
     text-align: center;
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 35px;
+    font-weight: 100;
+    margin:0;
+    
+}
+
+.queHay{
+    height:580px;
+    
 }
 
 .queHay h3{
     color:#00B172;
+    font-size: 30px;
+    font-family: Arial, Helvetica, sans-serif;
+    font-weight: 600
+}
+
+.queHay p{
+    font-size: 30px;
+    font-family: Arial, Helvetica, sans-serif;
+    font-weight: 100;
 }
 
     .mucho{
@@ -60,19 +90,28 @@ nav ul, nav li{
 }
 
 
-    .music{
-    width: 100%;
-    height: 100%;
+.music{
     text-align: center;
     text-decoration: underline;
+    text-underline-position: under;
     text-decoration-color: #00B172;
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 40px;
+    font-weight: 600;
+}
+
+.columna{
+    width:33%;
+    text-align: center;
+    float: left;
+    padding-top:100px;
 }
 
 .kanye {
     background:#00B172;
     border:20px;
-    width: 80%;
-    height: 100%;
+    width: 90%;
+    height: 760px;
     margin: 20px;
     padding: 40px;
     position:relative;
@@ -82,40 +121,45 @@ nav ul, nav li{
 .kanye > h2{
 color:white;
 position:relative;
-left:5%;
+left:7%;
 text-decoration: underline;
+text-underline-position: under;
 font-family: Arial, Helvetica, sans-serif;
+font-size: 40px;
+font-weight: 600;
 
 }
 
 .kanye > h3{
     color:white;
     position:relative;
-    left:5%;
+    left:7%;
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 32px;
+    padding-bottom: 10px;
+
     }
 
 .kanye > p{
     color:white;
+    font-family: Arial, Helvetica, sans-serif;
+    font-weight: 100;
+    font-size: 25px;
     position:relative;
-    width: 20%;
-    left:5%;
+    width: 30%;
+    left:7%;
 }
 
 .app {
     position:absolute;
     right:100px;
-    width:15%;
-    top:80px;    
+    width:25%;
+    top:120px;    
 }
 
 .icon{
     position:absolute;
-    right:550px;
-    width:7%;
-    top:200px;  
-}
-.columna{
-    width:33%;
-    text-align: center;
-    float: left;
+    left:665px;
+    width:10%;
+    top:400px;  
 }
