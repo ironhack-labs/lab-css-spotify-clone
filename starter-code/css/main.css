@@ -6,3 +6,213 @@ Green: #00B172
 White: #FFF
 
 */
+
+@import url('https://fonts.googleapis.com/css?family=Lato:200,300,400,700');
+@import url('https://fonts.googleapis.com/css?family=Montserrat:200,300,400,500,700,800');
+
+/* ---- reset ---- */
+
+html {
+    box-sizing: border-box;
+}
+*, *:before, *:after {
+    box-sizing: inherit;
+}
+  
+body {
+    margin: 0;
+    padding: 0;
+}
+
+/* ---- typography ---- */
+
+body {
+    color: #111;
+    font-family: /*'Lato'*/ 'Montserrat', Helvetica, Arial, sans-serif;
+    font-size: 16px;
+    line-height: 147%;
+}
+
+.clear{
+    clear: both;
+}
+
+.col3{
+    width: 33.33%;
+    float: left;
+}
+
+.col2{
+    width: 50%;
+    float: left;
+}
+
+.container{
+    max-width: 1400px;
+    margin: 0 auto;
+}
+
+.nav-bar{
+    overflow: hidden;
+    position: fixed;
+    background-color: #FFF;
+    margin-top: -103px;
+    z-index: 1;
+    font-family: 'Lato', Helvetica, Arial, sans-serif;
+}
+
+.nav-bar img{
+    width: 15%;
+    float: left;
+    margin: 1% 0 1% 3%;
+}
+
+.nav-bar ul{
+    float: right;
+    margin-top: 2.3%;
+    font-weight: 300;
+}
+
+.nav-bar ul, ul > li{
+    display: inline;
+}
+
+.nav-bar-item{
+    font-size: 1.6em;
+    margin-right: 30px;
+}
+
+.main-header{
+    background-image: url("../images/landing.jpg");
+    background-repeat: no-repeat;
+    background-size: 100%;
+    background-position: center center;
+    font-family: 'Lato', Helvetica, Arial, sans-serif;
+    color: white;
+    text-align: center;
+    margin-top: 103px;
+    height: 750px;
+    position: relative;
+}
+
+.header-container{
+    margin: 0;
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+}
+
+.header-container h1{
+    font-size: 5.5em;
+    line-height: 10px;
+}
+
+.header-container h2{
+    font-size: 2em;
+    font-weight: 300;
+}
+
+.whats-on-spotify{
+    text-align: center;
+    overflow: hidden;
+    margin-bottom: 5%;
+}
+
+.whats-on-spotify h3{
+    font-size: 2.5em;
+    margin: 8%;
+    text-decoration: underline #00B172;
+    text-underline-position: under;
+    font-weight: 500;
+    
+}
+
+.whats-on-spotify h4{
+    font-size: 2em;
+    color: #00B172;
+    font-weight: 800;
+    margin-top: 20px;
+}
+
+.whats-on-spotify p{
+    font-size: 1.8em;
+    font-weight: 200;
+    margin: 0 auto;
+    max-width: 70%;
+    line-height: 40px;
+}
+
+.whats-on-spotify img{
+    width: 30%;
+}
+
+#high-quality{
+    margin: 8px;
+}
+
+.kayne-west{
+    background-color: #00B172;
+    overflow: hidden;
+    color: white;
+    margin-bottom: 100px;
+    position: relative;
+}
+
+.kayne-west h3{
+    font-size: 2.5em;
+    margin: 4% 6%;
+    text-decoration: underline white;
+    text-underline-position: under;
+    font-weight: 700;
+}
+
+.content{
+    padding-left: 6%;
+}
+
+.info h4{
+    font-size: 1.8em;
+    font-weight: 700;
+}
+
+.info p{
+    font-size: 1.3em;
+    font-weight: 200;
+    width: 70%;
+}
+
+.app-container{
+    position: relative;
+}
+
+.kayne-west [src*="white"]{
+    width: 9%;
+    position: absolute;
+    top: 45%;
+    left: 45%;
+}
+
+.hvr-bounce-in {
+    display: inline-block;
+    vertical-align: middle;
+    -webkit-transform: perspective(1px) translateZ(0);
+    transform: perspective(1px) translateZ(0);
+    box-shadow: 0 0 1px rgba(0, 0, 0, 0);
+    -webkit-transition-duration: 0.5s;
+    transition-duration: 0.5s;
+}
+
+.hvr-bounce-in:hover, .hvr-bounce-in:focus, .hvr-bounce-in:active {
+    -webkit-transform: scale(1.2);
+    transform: scale(1.2);
+    -webkit-transition-timing-function: cubic-bezier(0.47, 2.02, 0.31, -0.36);
+    transition-timing-function: cubic-bezier(0.47, 2.02, 0.31, -0.36);
+}
+
+.kayne-west [src*="app"]{
+    width: 40%;
+    position: absolute;
+    margin-top: -90px;
+    margin-left: 35%;
+}
