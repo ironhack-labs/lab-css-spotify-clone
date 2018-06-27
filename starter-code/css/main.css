@@ -6,3 +6,128 @@ Green: #00B172
 White: #FFF
 
 */
+
+/* div,section,header,nav,ul{
+  border:1px solid red;
+}  */
+
+/* ---- reset ---- */
+html {
+  box-sizing: border-box;
+}
+
+*, *:before, *:after {
+  box-sizing: inherit;
+}
+
+body {
+  margin: 0;
+  padding: 0;
+  font-family: Arial, Helvetica, sans-serif;
+}
+
+.logo {
+  width: 200px;
+  float: left;
+  margin: 1% 0 0 3%;
+}
+
+.logo img {
+  width: 100%;
+}
+
+.navbar-links {
+  float: right;
+  width: 500px;
+  font-size: 1.2em;
+  margin: 2.7% 3% 0 0;
+}
+
+.navbar-links li {
+  list-style-type: none;
+  float: right;
+  margin: 0 12px;
+}
+
+.navbar {
+  overflow: hidden;
+  position: fixed;
+  top: 0;
+  width: 100%;
+  height: 90px;
+  background-color: #FFF;
+}
+
+header {
+  background-image:  url("../images/landing.jpg");
+  background-size: cover;
+  margin: 90px auto 0 auto;
+  height: 1000px;
+  width: 100%;
+}
+
+.title {
+  margin: 0 auto;
+  text-align: center;
+  padding: 25% 0;
+}
+
+h1 {
+  color: #FFF;
+  /* line-height: 800px; */
+  font-size: 4em;
+}
+
+.title > h2 {
+  color: #FFF;
+  font-size: 2em;
+}
+
+.container {
+  width: 100%;
+  overflow: hidden;
+}
+
+.container-title {
+  margin: 0 auto;
+  text-align: center;
+}
+
+.container-title > h2 {
+  font-size: 2em;
+  height: 15px;
+}
+
+.container-title-line {
+  display: block;
+  width: 285px;
+  margin: 0 auto;
+  height: 5px;
+  background-color: #00B172;
+  border: 0;
+}
+
+.container-items {
+  margin: 100px auto;
+  width: 100%;
+  overflow: hidden;
+}
+
+.container-item {
+  width: 30%;
+  float: left;
+}
+
+.container-item img {
+  width: 100px;
+  height: 80px;
+}
+
+.clear {
+  clear: both;
+}
+
+.middle-col {
+  margin: 0 20px;
+}
+
