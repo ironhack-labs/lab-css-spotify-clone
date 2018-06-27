@@ -1,8 +1,166 @@
-/*
-Colors:
 
-Text: 1A1A1A
-Green: #00B172
-White: #FFF
+/* ---- reset ---- */
 
-*/
+html {
+  box-sizing: border-box;
+}
+*, *:before, *:after {
+  box-sizing: inherit;
+}
+
+body {
+  font: 200 18px/1.5 "Helvetica Neue", Helvetica, Arial, sans-serif;
+  margin: 0;
+  background:url('../images/bgtile.png');
+  background-repeat: repeat-x;
+  color: #1A1A1A;
+}
+h1{
+  font-size: 4rem;
+  font-weight: 600;
+}
+h2{
+  font-size: 2rem;
+  font-weight: 500;
+}
+h3{
+  font-size: 1.7rem;
+}
+.green{
+  color: #00B172
+}
+.white{
+  color: #fff;
+}
+.container{
+  width: 90%;
+  margin:0 auto;
+  position: relative;
+}
+.info-container{
+  background:#00B172;
+}
+.header{
+  position: relative;
+  overflow: hidden;
+  position: fixed;
+  top: 0;
+  left: 0;
+  width: 100%;
+  background: #fff;
+  z-index: 1;
+  padding:15px 0 10px;
+}
+.logo{
+  float: left;
+  width: 200px;
+}
+.nav{
+  float: right;
+}
+.nav > ul{
+  list-style: none;
+}
+.nav ul > li{
+  display: inline-block;
+}
+.nav > ul > li > a {
+  font-size: 1.3rem;
+  padding-right: 10px;
+  text-decoration: none;
+  color: #000;
+}
+.nav > ul > li:last-child a{
+  padding-right: 0;
+}
+a:hover{
+  opacity: 0.7;
+}
+.banner{
+  height: 100vh;
+  background: url(../images/landing.jpg) bottom;
+  background-size: cover;
+  -webkit-background-size: cover;
+  -moz-background-size:cover;
+  line-height: 100%;
+  color: #fff;
+  text-align: center;
+  margin-top: 86px;
+}
+.headline-wrapper{
+  padding-top: 120px;
+}
+.headline-wrapper h2{
+  line-height: 1.5em;
+  font-weight: 300;
+}
+.icon-section{
+  text-align: center;
+  padding:50px;
+}
+.box-wrapper{
+  overflow: hidden;
+}
+.icon-box{
+  float: left;
+  width:33.33333%;
+}
+.icon-box>img{
+  height: 100px;
+}
+.icon-box > h3{
+  color: #00b172;
+  font-weight: 600;
+  margin-top: 10px;
+}
+.icon-section > h2{
+  border-color:#00B172;
+  margin-bottom: 50px;
+}
+.icon-box h3 + p{
+  font-size: 1.5rem;
+  padding: 0 45px;
+}
+.info-section{
+  overflow: hidden;
+  background: #00b172;
+  color: #fff;
+  padding:50px;
+  margin-bottom: 50px;
+  position: relative;
+}
+.spotify-icon{
+  position: absolute;
+  left: 50%;
+  width:100px;
+  margin-left: -50px;
+  top: 50%;
+  margin-top: -50px;
+}
+.info-text{
+  float:left;
+  width: 60%;
+}
+.info-text h3{
+  font-weight: 600;
+}
+.info-text h3+p{
+  font-size: 1.3rem;
+}
+.player{
+  float:left;
+  width:40%;
+  text-align: center;
+  padding-top: 75px;
+}
+.player>img{
+  width:70%;
+}
+
+.section-title{
+  font-weight: 500;
+  border-bottom: 4px solid;
+  display: inline-block;
+}
+
+
