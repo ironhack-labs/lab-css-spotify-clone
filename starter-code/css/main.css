@@ -6,3 +6,188 @@ Green: #00B172
 White: #FFF
 
 */
+
+/*div, section, header, nav, img,aside, article {
+  border: 1px solid red; 
+}*/
+
+/* ---- reset ---- */
+
+html {
+  box-sizing: border-box;
+}
+
+*,* :before, *:after {
+  box-sizing: inherit;
+} 
+ 
+body {
+  font: 200 16px/1.5 "Helvetica Neue", Helvetica, Arial, sans-serif;  
+  margin: 0;
+  padding: 0;  
+}
+
+h1 {
+  color: #fff;
+}
+
+h2 {
+  color: #000;
+  font-size: 35px;  
+}
+
+h3 {
+  color: #00B172;
+}
+
+p {
+  font-weight: 100;
+}
+
+.container {
+  width: 1200px;
+  margin: 0 auto;
+}
+
+.clearfix {
+  clear: both;
+}
+
+.col { 
+  float: left; 
+}
+
+.col-3 {  
+  width: 33%;
+  padding: 0 7% 0 7%;
+}
+
+.txt-center {
+  text-align: center;
+}
+
+.main-nav {
+  overflow: hidden;
+  padding: 10px 40px;
+  background-color: #fff;
+  position: fixed;
+}
+
+.main-nav ul,li {
+  float: left;
+}
+
+.main-nav li {
+  list-style-type: none;
+  margin-left: 20px;
+}
+
+.main-nav .main-logo {
+  width: 12%;
+  float: left;
+}
+
+.main-nav .menu-box {
+  float: right;
+}
+
+.main-header {
+  background: url(../images/landing.jpg);
+  background-size: cover;
+  width: 100vw;
+  height: 100vh;  
+}
+
+.main-header .main-titles {
+  padding-top: 300px;
+}
+
+.main-header h1 {
+  font-size: 50px;
+  color: white;
+  text-align: center;
+}
+
+.main-header p {
+  font-size: 20px;
+  color: white;
+  text-align: center;
+}
+
+.main-content h2 {
+  text-align: center;
+}
+
+.main-content hr {
+  border-bottom: 3px solid #00B172;   
+  width: 300px;
+  margin-top: -20px;    
+}
+
+.main-content img {
+  height: 100px;
+  display: block;
+  margin: 0 auto;
+}
+
+.whatis-content {
+  margin: 75px 0 75px 0;
+  overflow: hidden;
+}
+
+.whatis-content h3,p {
+  text-align: center;
+}
+
+.footer {
+  background-color: #00B172;
+  margin: 0 30px 0 30px;
+  padding: 50px;
+  overflow: hidden;
+}
+
+.footer h1, .footer h2, .footer h3, .footer p {
+  color: #fff;
+  margin-top: 0;
+}
+
+.footer p {
+  text-align: left;
+  font-size: 20px;
+}
+
+.footer hr {
+  border-bottom: 3px solid #fff;   
+  width: 470px;
+  margin-top: -20px;
+  float: left;   
+}
+
+.footer .footer-info {
+  float: left;
+  width: 40%;
+  position: relative;  
+}
+
+.footer .footer-banner {  
+  width: 30%;
+  margin: 0 50px 0 50px;
+  float: right;
+}
+
+.footer .spotify-logo {
+  width: 20%;
+  position: absolute;
+  float: right;
+  display: block;
+  right: -30px;
+  top: 250px;
+}
+
+.footer h3 {
+  font-size: 25px;
+}
+
+.footer-info > hr {
+  margin-bottom: 40px;
+}
