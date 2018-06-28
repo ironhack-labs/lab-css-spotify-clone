@@ -6,3 +6,181 @@ Green: #00B172
 White: #FFF
 
 */
+
+/* ---- reset ---- */
+
+html {
+    box-sizing: border-box;
+  }
+  *, *:before, *:after {
+    box-sizing: inherit;
+  }
+  
+  body {
+    margin: 0;
+    padding: 0;
+    color: #1A1A1A;
+    font-family: 'Open Sans', sans-serif;
+    font-size: 3.5vh;
+    font-weight: 200;
+}
+
+.navbar {
+    position: fixed;
+    top: 0;
+    left: 0;
+    height: 10vh;
+    width: 100%;
+    background-color: #FFF;
+    padding: 2vh 4vh;
+    line-height: 10vh;
+    overflow: hidden;
+}
+
+.logo {
+    display: block;
+    float: left;
+    height: 100%;
+}
+
+.navbar-links {
+    float: right;
+    margin-top: -2vh;
+}
+
+.navbar-links li {
+    display: block;
+    float: left;
+    margin: 0 2vh;
+}
+
+.navbar-links a {
+    list-style-type: none;
+    text-decoration: none;
+    color: #1A1A1A;
+}
+
+.main-header {
+    margin-top: 10vh;
+    background-image: url("../images/landing.jpg");
+    background-size: contain;
+    height: 100vh;
+}
+
+.title-container {
+    color: #FFF;
+    width: 55%;
+    position: absolute;
+    top: 50%;
+    left: 22.5%;
+    transform: translateY(-50%);
+    text-align: center;
+    line-height: 6vh;
+}
+
+.title-container > p {
+    font-size: 4.5vh;
+    font-weight: 300;
+}
+
+.main-title{
+    letter-spacing: 5%;
+    font-weight: 600;
+    font-size: 11vh;
+}
+
+.container {
+    width: 100%;
+    margin: 0 auto;
+}
+
+.section-info {
+    text-align: center;
+    height: 85vh;
+    padding: 2.5% 0 5% 0;
+}
+
+.section-info > h2 {
+    padding-bottom: 4%;
+}
+
+.col-3 {
+    width: 33%;
+    float: left;
+    box-sizing: border-box;
+    padding: 0 5%;
+}
+
+.col-3-img {
+    height: 15vh;
+}
+
+.section-green {
+    padding: 0 8% 8% 8%;
+    margin: 2vw;
+    color: #FFF;
+    background-color: #00B172;
+    height: 122vh;
+    position: relative;
+}
+
+.col-2 {
+    width: 50%;
+    float: left;
+}
+
+.image-artist {
+    display: block;
+    float:right;
+    width: 65%;
+    margin-top: 15vh;
+}
+
+h2 {
+    font-size: 5.2vh;
+    font-weight: 600;
+    display: inline-block;
+    padding-bottom: 1.8vh;
+}
+
+.col-3 > h3 {
+    color: #00B172;
+    font-size: 4.5vh;
+}
+
+.spotify-icon {
+    display:block;
+    position: absolute;
+    top: 50%;
+    left: 45%;
+    transform: translateY(-50%);
+    width: 10%;   
+}
+
+.extra-info {
+    width: 60%;
+    font-size: 3.2vh;
+}
+
+.sentence-artist{
+    margin-top: 6vh;
+}
+
+.sentence-artist h2 {
+    border-bottom: 4px solid #FFF;
+}
+
+.question-spotify h2 {
+    border-bottom: 4px solid #00B172;
+}
+
+.question-spotify {
+    padding-bottom: 6vh;
+    margin-bottom: 6vh;
+}
+
+.extra-info h3, .extra-info p {
+    padding: 1vh 0;
+}
+
+
