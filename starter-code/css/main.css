@@ -6,3 +6,41 @@ Green: #00B172
 White: #FFF
 
 */
+body{
+    width:670px;
+}
+
+nav {
+    position:fixed;
+    top:0;
+    height: 50px;
+    background:lightyellow;
+    width:670px;
+}
+nav img{
+float:left;
+width:100px;
+overflow:auto;
+}
+nav ul{
+    float:right;
+}
+clear-fix{
+clear:both;
+}
+.music-div{
+    margin:50px auto auto auto;
+    background-image: url("../images/landing.jpg");
+    height:410px;
+    background-size:cover;
+    background-position:center;
+    color:white;
+    
+}
+.music-div div:first-child{
+    position: absolute;
+    width:670px;
+    top:50%;
+    left:50%;
+    transform: translate(-50%, -50%);
+}
