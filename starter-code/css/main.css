@@ -6,3 +6,154 @@ Green: #00B172
 White: #FFF
 
 */
+body{
+    font-family: Helvetica, Arial, sans-serif;
+    font-weight: lighter;
+}
+
+nav {
+    position:fixed;
+    top:0;
+    height: 70px;
+    width: 100%;
+    background-color: white;
+
+}
+nav img{
+float:left;
+width:170px;
+overflow:auto;
+padding: 10px 30px 0px 30px
+}
+nav a{
+    text-decoration: none;
+    color: black;
+}
+nav ul{
+    display: flex;
+    float:right;
+    justify-content: space-between;
+    list-style-type: none;
+    padding-right: 40px;
+    align-content: center;
+    padding-top: 12px;
+    font-size: 17px;
+}
+nav ul li{
+    padding-left: 10px;
+    padding-right: 10px;
+}
+clear-fix{
+clear:both;
+}
+.music-div{
+    background-image: url(../images/landing.jpg);
+    height: 600px;
+    background-size: cover;
+    color: white;
+    font-weight: lighter;
+}
+.music-text {
+    padding-top: 200px;
+    height: 400px;
+    font-size: 24px;
+    text-align: center;
+}
+.music-text h2{
+font-size: 70px;
+margin: 0;
+padding: 70px 0 24px 0;
+}
+.music-text p{
+    margin: 0;
+    padding: 0;
+}
+.whats {
+    display: flex;
+    align-items:  center;
+    flex-direction: column;
+}
+.whats h3{
+    font-size: 30px;
+    margin-bottom: 80px;
+    padding-top: 5px;
+    border-bottom: solid;
+    padding-bottom: 3px;
+    border-bottom-color: #00bf77;
+}
+.whats h4{
+    font-size: 24px;
+    color: #00bf77;
+
+}
+.boxes3{
+    display: flex;
+    direction: row;
+   align-items: top;
+   padding-left: 10px;
+   padding-right: 10px;
+
+}
+.boxes3 div{
+    display: flex;
+    font-size: 20px;
+    padding-left: 45px;
+    padding-right: 45px;
+    flex-direction: column;
+    justify-content: top;
+    align-items: center;
+    text-align: center;
+    
+}
+.boxes3 img{
+    width: 100px;
+    font-weight: lighter;
+}
+
+.kanye {
+    display: flex;
+    flex-direction: row;
+    background-color: #00bf77;
+    color: white;
+    justify-content: space-between
+}
+
+.kanye h3{
+    color: white;
+    font-size: 30px;
+    border-bottom: solid;
+    width: max-content;
+    padding-bottom: 4px;
+}
+
+#kanye-left{
+    margin-left: 80px;
+width: 40vw;
+font-size: 20px;
+padding-top: 50px;
+}
+.kanye h4{
+    font-size: 24px;
+}
+.kanye-left-text{
+width: 30vw;
+font-size: 22px;
+line-height: 1.5}
+.kanye-right{
+    color: orange;
+    margin-right: 80px;
+    margin-left: 100px;
+}
+.kanye-right img{
+    padding-top: 100px;
+    width: 280px;
+    padding-bottom: 100px;
+}
+.whiteimg{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.whiteimg img{
+    width: 110px;
+}
