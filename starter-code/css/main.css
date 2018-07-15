@@ -7,40 +7,62 @@ White: #FFF
 
 */
 body{
-    width:670px;
+    font-family: Circular, Helvetica, Arial, sans-serif;
 }
 
 nav {
     position:fixed;
     top:0;
-    height: 50px;
-    background:lightyellow;
-    width:670px;
+    height: 70px;
+    width: 100%;
+    background-color: white;
+
 }
 nav img{
 float:left;
-width:100px;
+width:170px;
 overflow:auto;
+padding: 10px 30px 0px 30px
+}
+nav a{
+    text-decoration: none;
+    color: black;
 }
 nav ul{
+    display: flex;
     float:right;
+    justify-content: space-between;
+    list-style-type: none;
+    padding-right: 40px;
+    align-content: center;
+    padding-top: 12px;
+    font-size: 17px;
+}
+nav ul li{
+    padding-left: 10px;
+    padding-right: 10px;
 }
 clear-fix{
 clear:both;
 }
 .music-div{
-    margin:50px auto auto auto;
-    background-image: url("../images/landing.jpg");
-    height:410px;
-    background-size:cover;
-    background-position:center;
-    color:white;
-    
+    background-image: url(../images/landing.jpg);
+    height: 600px;
+    background-size: cover;
+    color: white;
 }
-.music-div div:first-child{
-    position: absolute;
-    width:670px;
-    top:50%;
-    left:50%;
-    transform: translate(-50%, -50%);
+.music-text {
+    padding-top: 200px;
+    height: 400px;
+    font-size: 24px;
+    text-align: center;
+}
+.music-text h2{
+font-size: 70px;
+margin: 0;
+padding: 70px 0 24px 0;
+}
+.music-text p{
+    margin: 0;
+    padding: 0;
 }
