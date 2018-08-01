@@ -1,5 +1,6 @@
 /*
 Colors:
+What text line is that color?  Picture shows most things black but I am not good with colors.
 
 Text: 1A1A1A
 Green: #00B172
@@ -8,82 +9,187 @@ White: #FFF
 */
 /*- The navbar should be `position: fixed`.
 - Float the image left, and float a `ul` with the links right.*/
-body{
-    background-color: grey;
-    margin: 0;
-    padding: 0;
+* {
+  margin: 0 Auto;
+  font-family: "Courier New", Courier, monospace;
 }
-.nav{
-    position: fixed;
-    top: 0;
-    left: 0;
-    width: 100%;
-    height: 12vh;
-    line-height: 100px;
-    background-color: white;
-    padding-left: 20px;
-    padding-right: 20px;
 
-    vertical-align: middle;
+body {
+  background-color: #FFF;
+  margin: 0;
+  padding: 0;
+}
+.nav {
+  position: fixed;
+  width: 100%;
+  height: 12vh;
+  line-height: 100px;
+  background-color: #FFF;
+
+  vertical-align: middle;
 }
 /* Logo Float left*/
-.nav img{
-    position: absolute;
-    float: left;
-    margin-left: 1vh;
-    top: 1vh;
-    height: 10vh;
-    border: 1px solid red;
-    align-content: center;
-
+.nav img {
+  position: absolute;
+  float: left;
+  padding-left: 2vh;
+  top: 1vh;
+  height: 10vh;
+  align-content: center;
 }
 /* ul float right*/
-.nav ul{
-    height: 10vh;
-    line-height: 10vh;
-    position: absolute;
-    top:1vh; 
-    margin-top:0px;
-    right: 50px;
-    margin-right:10px;
-    float: right;
-    list-style-type: none;
-    border: 1px solid red;
-    
+.nav ul {
+  float: right;
+  height: 10vh;
+  line-height: 10vh;
+  padding-right: 2vh;
 }
-.nav a{
-    text-decoration: none;
-    color:black;
-    padding-left: 40px;
-    font-size: 5vh;
-    clear:both
+.nav a {
+  text-decoration: none;
+  color: black;
+  padding-left: 40px;
+  font-size: 5vh;
+  clear: both;
 }
-.clear{
-    clear:both;
+.clear {
+  clear: both;
 }
 /*#### Large image background with text
 
 - Check out [this guide](https://css-tricks.com/centering-css-complete-guide/)
  on centering things.
 */
-.landing{
-    height: 88vh;
-    background-color: blue;
-    background-image: url("/starter-code/images/landing.jpg");
-    background-size: contain;
+.landing {
+  background-image: url("../images/landing.jpg");
+  background-repeat: no-repeat;
+  background-size: cover;
+  height: 88vh;
+  width: 100vw;
 }
+
+h1 {
+  color: #FFF;
+  font-size: 100px;
+  text-align: center;
+  padding: 300px 0px 50px 0px;
+}
+h2 {
+  color: #FFF;
+  font-size: 37px;
+  left: 35%;
+  top: 50%;
+  text-align: center;
+}
+
 /* #### What's on Spotify section
 
 - It looks like the `div`s take up about a third of the container each. How can you represent this in code?
 */
-.what{
-    background-color: darkgrey;
+.what {
+     width: 90%;
+  margin: 0 auto;
+}
+.icon-box {
+    width: 100%;
+    margin: 0 auto;
+  }
+h3{
+    color: black;
+    font-weight: bold;
+    text-align: center;
+    font-size: 40px;
+    display: inline-block;
+    text-decoration: none;
+    border-bottom: 5px solid #00B172;
+    margin-bottom: -1px;
+    margin-left: 35%;
+    margin-top: 40px;
+}
+.what img{
+    height: 15vh;
+    width: 10vw;
+    margin: 0 auto;
+}
+.what el{
+    font-size: 25px;
+}
+.left{
+    margin-left: 2%;
+}
+.right{
+    margin-right: 2%;
+}
+.middle {
+    margin-left: 1vw;
+    margin-right: 1vw;
+}
+
+.left, .middle, .right{
+    float: left;
+    width: 31%;
+    margin-top: 10vh;
+    margin-bottom: 5vh;
+    text-align:middle;
+    text-align:center;
+}
+
+h4{
+    color: #00B172;
+    font-size:32px;
+    font-weight: bold;
+    padding: 1vh 0;
+}
+.clearfix {
+	clear: both;
 }
 /*
 #### Green Section
 - It looks like we have 2 main pieces, a `div` with the text content, and the image of the Spotify player. Position these according to the surrounding green `div`.
 - Position the Spotify logo absolutely according to the Green `div`.
 */
-.green{
-    background-color: red;
+.green {
+    position: relative;
+  background-color: #00B172;
+  height: 70vh;
+  width: 90%;
+}
+.content {
+    float:left;
+    width:35%;
+    color: #FFF;
+}
+h5{
+    padding-top: 5vh;
+    padding-left: 5vh;
+    font-size:35px;
+    text-decoration: underline;
+    padding-bottom:4vh;
+    width:120%;
+}
+ol{
+    list-style-type: none;
+}
+.titles {
+    font-weight: bold;
+    font-size: 32px;
+    padding-bottom:3vh;
+}
+.text {
+    padding-bottom:3vh;
+    font-size: 23px;
+}
+.phone img{
+    float:right;
+    width: 20vw;
+    margin-right: 10vh;
+    margin-top: 5vh;
+}
+.green .logo{
+    height:200px;
+    position:absolute;
+    top: 0;
+    left: 0;
+    bottom: 0;
+    right: 0;
+    margin: auto;
 }
