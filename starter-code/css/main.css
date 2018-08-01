@@ -6,3 +6,91 @@ Green: #00B172
 White: #FFF
 
 */
+@keyframes textanimation {
+    from {opacity: 0}
+    to {opacity: 1.0}
+}
+*{
+    font-family: "Open Sans", sans-serif;
+    margin: 0;
+}
+.header-nav{
+    height: 100px;
+
+}
+.logo {
+    padding-left: 50px;
+    padding-top: 20px;
+    float: left;
+}
+.logo img{
+    width: 200px;
+}
+.nav{
+    float:right;
+    margin-top: 30px;
+    margin-right: 20px;
+
+}
+.nav a{
+    margin-right: 20px;
+    text-transform: uppercase;
+    text-decoration: none;
+    color: #1A1A1A;
+}
+.nav a:hover{
+    color: #00B172;
+}
+.header{
+    background-image: url("..//images/landing.jpg");
+    height: 80vh;
+    background-size: cover;
+    background-repeat: no-repeat;
+    color: white;
+    text-align: center;
+
+
+}
+.header-text{
+    position: relative;
+    top: 350px;
+    animation-name: textanimation;
+    animation-duration: 5s;
+    animation-timing-function: ease-in;
+    font-size: 30px;
+    
+}
+.header-text h1{
+    font-size: 80px;
+}
+.heading {
+    text-align:center;
+    margin-top: 20px;
+}
+
+.heading hr{
+    background-color: #00B172;
+    width: 100px;
+    height: 2px;
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    width: 17%;
+}
+.features{
+    margin-top: 20px;
+    margin-left: 300px;
+}
+.features img{
+    height: 100px;
+}
+.features h1{
+    color: #00B172;
+}
+.left{
+    float: left;
+    margin-right: 120px;
+}
+.clearfix{
+    clear: both;
+}
