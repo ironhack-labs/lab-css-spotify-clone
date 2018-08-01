@@ -6,3 +6,204 @@ Green: #00B172
 White: #FFF
 
 */
+@import url('https://fonts.googleapis.com/css?family=Open+Sans');
+
+@keyframes bounce {
+    0%, 50%, 100% {
+        -webkit-transform: translateY(0);
+        transform: translateY(0);
+    }
+
+    20% {
+        -webkit-transform: translateY(-5px);
+        transform: translateY(-5px);
+    }
+
+    40% {
+        -webkit-transform: translateY(-2px);
+        transform: translateY(-2px);
+    }
+
+    60% {
+        -webkit-transform: translateY(+5px);
+        transform: translateY(+5px);
+    }
+
+    80% {
+        -webkit-transform: translateY(+2px);
+        transform: translateY(+2px);
+    }
+}
+
+* {
+    margin: 0;
+    padding: 0;
+  }
+
+body {
+    font-family: 'Open Sans', sans-serif;
+}
+
+nav {
+    background-color: #fff;
+    padding-top: 25px;
+    height: 45px;
+}
+  
+nav a {
+    color: #000;
+    text-decoration: none;
+}
+
+.top-links {
+    display: inline-block;
+    float: right;
+    padding: 0;
+    margin: 0 20px 0 0;
+}
+  
+.top-links > li {
+    display: inline-block;
+    margin: 0 10px;
+    text-align: center;
+}
+
+.top-left {
+    display: inline-block;
+    margin-left: 20px;
+    position: absolute;
+    top: 15px;
+}
+
+.top-left img {
+    width: 132px;
+    height: 40px;
+}
+
+header {
+    background-image: url("../images/landing.jpg");
+    height: 800px;
+    background-repeat: no-repeat;
+    background-position: 0 0;
+    background-size: cover;
+}
+
+h1, h2 {
+    color: #fff;
+    text-align: center;
+}
+
+.header-center {
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+}
+
+h1 {
+    font-size: 65px;
+}
+
+h2 {
+    font-weight: 100;
+}
+
+nav li a:hover {
+    color: #00B172;
+}
+
+.text-center{
+    text-align: center;
+    font-size: 35px;
+    margin: 40px 0;
+    font-weight: 600;
+}
+
+.text-center span {
+    border-bottom: 5px solid #00B172;
+}
+
+.container {
+    width: 80%;
+    margin: 0 auto;
+}
+
+.container div {
+    display: inline-block;
+    margin: 10px 10px 50px 10px;
+    width: 30%;
+    text-align: center;
+}
+
+.green-text {
+    font-size: 25px;
+    color: #00B172;
+    font-weight: bolder;
+}
+
+.smaller-text {
+    font-size: 20px;
+    font-weight: lighter;
+}
+
+.container img {
+    margin-bottom: 15px;
+}
+
+.bottom {
+    background-color: #00B172;
+    width: 95%;
+    margin: 0 auto 30px auto;
+}
+
+.slogan{
+    font-size: 35px;
+    font-weight: 600;
+    color: #fff;
+    padding-bottom: 50px;
+    width: 600px;
+}
+
+.slogan span {
+    border-bottom: 5px solid #fff;
+}
+
+.bottom-left {
+    margin: 0 0 80px 80px;
+}
+
+.bottom-right {
+    display: inline-block;
+}
+
+.bottom > div {
+    width: 28%;
+}
+
+.white {
+    color: #fff;
+}
+
+.white-text {
+    font-size: 25px;
+    color: #fff;
+    font-weight: bolder;
+}
+
+.logo-center {
+    position: relative;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, 320%);
+}
+
+.app-image {
+    position: absolute;
+    right: 115px;
+    top: 1400px;
+}
+
+.logo:hover {
+    animation: bounce 0.3s;
+}
+
