@@ -7,99 +7,111 @@ White: #FFF
 
 */
 body {
-margin: 0;
-
+  margin: 0;
 }
 .navBar {
   display: flex;
   flex-direction: row;
   justify-content: space-between;
-  
+  justify-content: center;
 }
 
-.spotifyLogo img{
-    width: 30%;
+.spotifyLogo img {
+  width: 30%;
 }
-.navBarLi{
-    list-style: none;
-    display: flex;
-    flex-direction: row;
-    justify-content: space-between;
+.navBarLi {
+  list-style: none;
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
 }
 
-.navBarLi li{
-   
-    padding:5px;
-} 
+.navBarLi li {
+  padding: 5px;
+}
 
-.clear{
-    clear: both;
+.clear {
+  clear: both;
 }
 .bigPic {
-    display: flex;
-    flex-direction: column;
-    background: url(../images/landing.jpg);
-    background-size: cover;
-    height: 500px;
-    justify-content: center;
-    align-items: center;
-    color: white;
+  display: flex;
+  flex-direction: column;
+  background: url(../images/landing.jpg);
+  background-size: cover;
+  height: 900px;
+  justify-content: center;
+  align-items: center;
+  color: white;
 }
 
-.bigPic p{
-text-align: center;
+.bigPic p {
+  text-align: center;
+  font-size: 25px;
 }
+.bigPic h1 {
+  font-size: 55px;
+}
+
 .what {
-    text-align: center;
+  text-align: center;
 }
 .whatText hr {
-   width: 30%;
-   border: 1px solid #00B172; 
+  width: 15%;
+  border: 1px solid #00b172;
 }
 .whatIcon {
-    display: flex;
-    flex-direction: column;
-    justify-content: center;
-    align-items: center;
-    padding: 20px;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  padding: 20px;
+  font-size: 20px;
+  /* border: 1px solid black;  */
+  width: 100%;
+  height: 300px;
 }
 
-.whatIcon img{
-    width: 70%;
+.whatIcon img {
+  height: 20%;
+  /* border: 1px solid red; */
 }
 
 .whatIcon h3 {
- color: #00B172; 
+  color: #00b172;
+  font-size: 25px;
 }
-.whatPics{
-    display: flex;
-    flex-direction: row;
-    justify-content: space-between;
+.whatPics {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
 }
 .green {
   display: flex;
   flex-direction: row;
   justify-content: space-between;
-  background-color: #00B172;
+  background-color: #00b172;
   color: white;
   background-image: url(../images/spotify-icon-white.png);
   background-size: 10%;
   background-repeat: no-repeat;
   background-position: center;
-  
+  height: fit-content;
 }
-.greenPic img{
-    width: 70%;
-    margin-left:20%;
-    margin: 20%;
+.greenPic img {
+  width: 60%;
+  margin-left: 30%;
+  margin: 20% 20% 0 20%;
+  /* border: 1px solid red;  */
 }
 .greenText {
-    text-align: left;
-    margin: 5%;
-
+  text-align: left;
+  margin: 5%;
+  font-size: 20px;
+  /* border: 1px solid black;  */
+  height: 100%;
 }
 
 .greenText hr {
-    width:40%
-
+  width: 100%;
+  /* border: 1px solid white;  */
 }
