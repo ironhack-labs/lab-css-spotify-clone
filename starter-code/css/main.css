@@ -6,3 +6,100 @@ Green: #00B172
 White: #FFF
 
 */
+body {
+margin: 0;
+
+}
+.navBar {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  
+}
+
+.spotifyLogo img{
+    width: 30%;
+}
+.navBarLi{
+    list-style: none;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+}
+
+.navBarLi li{
+   
+    padding:5px;
+} 
+
+.clear{
+    clear: both;
+}
+.bigPic {
+    display: flex;
+    flex-direction: column;
+    background: url(../images/landing.jpg);
+    background-size: cover;
+    height: 500px;
+    justify-content: center;
+    align-items: center;
+    color: white;
+}
+
+.bigPic p{
+text-align: center;
+}
+.what {
+    text-align: center;
+}
+.whatText hr {
+   width: 30%;
+   border: 1px solid #00B172; 
+}
+.whatIcon {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    padding: 20px;
+}
+
+.whatIcon img{
+    width: 70%;
+}
+
+.whatIcon h3 {
+ color: #00B172; 
+}
+.whatPics{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+}
+.green {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  background-color: #00B172;
+  color: white;
+  background-image: url(../images/spotify-icon-white.png);
+  background-size: 10%;
+  background-repeat: no-repeat;
+  background-position: center;
+  
+}
+.greenPic img{
+    width: 70%;
+    margin-left:20%;
+    margin: 20%;
+}
+.greenText {
+    text-align: left;
+    margin: 5%;
+
+}
+
+.greenText hr {
+    width:40%
+
+}
