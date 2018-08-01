@@ -6,3 +6,155 @@ Green: #00B172
 White: #FFF
 
 */
+
+@keyframes appear {
+  0%   { opacity: 0; }
+  100% { opacity: 1; }
+}
+
+body {
+  font-family: 'Open Sans', sans-serif;
+  font-weight: lighter;
+  margin: 0;
+}
+
+h2 {
+  font-size: 35px;
+  text-decoration: underline;
+  text-underline-position: under;
+}
+
+h3 {
+  font-size: 25px;
+  font-weight: bold;
+}
+
+ul {
+  padding: 0;
+  list-style: none;
+}
+
+header {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  height: 100px;
+  padding-left: 3%;
+  padding-right: 3%;
+  font-size: 25px;
+}
+
+header img {
+  height: 75%;
+}
+
+header a {
+  margin-left: 25px;
+  color: black;
+  text-decoration: none;
+}
+
+header a:hover {
+  text-decoration: none;
+  color: #00B172;
+}
+
+
+
+
+.big-section {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  text-align: center;
+  background-image: url('/images/landing.jpg');
+  background-size: cover;
+  background-position: bottom;
+  height: 768px;
+  color: white;
+}
+
+.big-section h1 {
+  font-size: 80px;
+  margin-top: 0;
+  margin-bottom: 40px;
+  animation: appear 3s 1;
+}
+
+.big-section p {
+  font-size: 30px;
+  animation: appear 5s 1;
+  /* animation-delay: 3s; */
+}
+
+
+
+.features {
+  text-align: center;
+}
+
+.features h2 {
+  text-decoration-color: #00c76f;
+}
+
+
+.features h3 {
+  margin-top: 0;
+  color: #00c76f;
+}
+
+.features ul {
+  display: flex;
+  justify-content: space-around;
+  margin-top: 7%;
+  margin-bottom: 7%;
+}
+
+.features li {
+  width: 20%;
+}
+
+.features p {
+  font-size: 25px;
+}
+
+.features img {
+  width: 50%;
+}
+
+.whitelogo{
+  position: absolute;
+  top: 225%;
+  right: 46%;
+  max-width: 134px;
+}
+
+.kanye {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  margin: 3%;
+  padding: 6%;
+  background-color: #00c76f;
+  color: white;
+}
+
+.kanye h2 {
+  margin-top: 0;
+}
+
+.kanye ul {
+  width: 50%;
+}
+
+.kanye li {
+  margin-bottom: 10%;
+}
+
+.kanye p {
+  font-size: 23px;
+}
+
+.kanye img {
+  width: 30%;
+}
