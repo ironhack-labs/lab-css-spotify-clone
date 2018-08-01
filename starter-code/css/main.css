@@ -6,3 +6,169 @@ Green: #00B172
 White: #FFF
 
 */
+
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: inherit;
+}
+
+html {
+  /*font size is in percents to not overwrite user browser settings. It is 62,5% because we want it to be calculated to 10px (100% / default font size 16px) */
+  font-size: 62.5%;
+}
+
+body {
+  box-sizing: border-box;
+  line-height: 1.5;
+  font-weight: 300;
+}
+
+.container {
+  font-family: "Roboto", sans-serif;
+  font-size: 1.6rem;
+  display: grid;
+
+  grid-template-columns: repeat(6, 1fr);
+}
+
+/* NAVIGATION */
+
+.nav {
+  font-weight: 300;
+  font-size: 2rem;
+
+  grid-column: 1/-1;
+
+  display: flex;
+  justify-content: space-between;
+
+  padding: 1rem 2rem;
+  align-items: center;
+}
+
+.nav li {
+  list-style: none;
+  padding: 0 2rem;
+}
+
+.nav ul {
+  display: flex;
+}
+
+.logo {
+  width: 22rem;
+}
+
+/* HERO */
+
+.hero {
+  grid-column: 1/-1;
+  height: 105vh;
+
+  background-image: url(../images/landing.jpg);
+  background-size: cover;
+
+  color: white;
+
+  position: relative;
+}
+
+.hero__title--box {
+  position: absolute;
+
+  top: 45%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+
+  text-align: center;
+}
+
+.hero__title {
+  font-size: 7rem;
+  font-weight: 400;
+
+  margin-bottom: 4rem;
+}
+
+.hero__subtitle {
+  font-size: 2.8rem;
+  font-weight: 300;
+}
+
+/* CONTAINER PADDING */
+
+.section__benefits,
+.section__features {
+  padding: 5rem;
+}
+
+/* BENEFITS */
+
+.section__benefits {
+  grid-column: 1/-1;
+  height: 70vh;
+}
+
+.section__heading {
+  font-size: 3.5rem;
+  font-weight: 400;
+
+  line-height: 1.2;
+
+  border-bottom: 4px solid #00b172;
+  display: inline-block;
+}
+
+.section__heading--box {
+  display: flex;
+  justify-content: center;
+}
+
+.section__benefits--container {
+  display: flex;
+}
+
+.section__benefits--box {
+  margin: 5rem;
+
+  width: 30%;
+  text-align: center;
+
+  font-size: 2.5rem;
+}
+
+.section__benefits--heading {
+  color: #00b172;
+  margin-bottom: 2rem;
+}
+
+.section__benefits--text {
+  font-weight: 300;
+  font-size: 2.3rem;
+}
+
+.icon {
+  width: 12rem;
+}
+
+/* FEATURES */
+
+.section__features {
+  grid-column: 1/-1;
+  height: 100vh;
+
+  background-color: #00b172;
+
+  margin: 5rem;
+
+  color: white;
+}
+
+.section__features--heading {
+  margin-bottom: 2rem;
+
+  display: inline-block;
+    font-size: 3rem;
+  border-bottom: 4px solid white;
+}
