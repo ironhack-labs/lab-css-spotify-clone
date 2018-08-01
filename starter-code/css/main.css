@@ -1,114 +1,191 @@
-/*
-Colors:
+@keyframes beat {
+    25%   {transform: scale(1.0);}
+    50%  {transform: scale(1.05);}
+    75% {transform: scale(1.0);}
+}
 
-Text: 1A1A1A
-Green: #00B172
-White: #FFF
-*/
 * {
-    margin: 0;
-    padding: 0;
+  margin: 0;
+  padding: 0;
 }
 
 body {
-    font-family: "Noto Sans";
+  font-family: "Noto Sans";
 }
 
 .top-bar {
-    margin: 12px 0;
+  margin: 12px 0;
 }
 
 .logo {
-    width: 200px;
-    display: inline-block;
-    margin-left: 28px;
+  width: 200px;
+  display: inline-block;
+  margin-left: 28px;
 }
 
 .top-bar-links {
-    float: right;
-    height: 70px;
-    margin-right: 14px;
+  float: right;
+  height: 70px;
+  margin-right: 14px;
 }
 
-.top-bar-links a {
-    text-align: center;
-    text-decoration: none;
-    font-weight: 100;
-    font-size: 1.2em;
-    line-height: 70px;
-    margin: 0 20px;
-    color: #1A1A1A;
+a {
+  text-align: center;
+  text-decoration: none;
+  font-weight: 100;
+  font-size: 1.2em;
+  line-height: 70px;
+  margin: 0 20px;
+  color: #1a1a1a;
+  transition: .3s cubic-bezier(.36,.91,.83,.67);
+}
+
+a:hover {
+    color:#00b172;
+    cursor: pointer;
 }
 
 .landing-image {
-    background-image: url("../images/landing.jpg");
-    background-repeat: no-repeat;
-    background-size: cover;
-    height: 600px;
-    position: relative;
+  background-image: url("../images/landing.jpg");
+  background-repeat: no-repeat;
+  background-size: cover;
+  height: 600px;
+  position: relative;
 }
 
-.landing-image h1, .landing-image p {
-    color: white;
-    position: absolute;
+.landing-image h1,
+.landing-image p {
+  color: white;
+  position: absolute;
 }
 
 .landing-image h1 {
-    font-size: 4em;
-    font-weight: 200;
-    left: 50%;
-    top: 45%;
-    transform: translate(-50%, -50%);
+  font-size: 4em;
+  font-weight: 200;
+  left: 50%;
+  top: 45%;
+  transform: translate(-50%, -50%);
 }
 
 .landing-image p {
-    font-size: 1.2em;
-    font-weight: 100;
-    left: 50%;
-    top: 60%;
-    transform: translate(-50%, -50%);
-    text-align: center;
+  font-size: 1.2em;
+  font-weight: 100;
+  left: 50%;
+  top: 60%;
+  transform: translate(-50%, -50%);
+  text-align: center;
 }
 
 #features-title {
-    text-align: center;    
-    width: 100%;
-    display: inline-block;
+  text-align: center;
+  width: 100%;
+  display: inline-block;
+  margin: 34px 0 105px 0;
+}
+
+.features {
+  padding: 0 0 60px 0;
 }
 
 .features h2 {
-    border-bottom: 3px solid #00B172;
-        display: inline;
+  font-size: 2em;
+  border-bottom: 3px solid #00b172;
+  display: inline;
 }
 
 .side-padding {
-    width: 95%;
-    margin: 0 auto;
+  width: 95%;
+  margin: 0 auto;
 }
 
 .column-3 {
-    width: 33%;
-    margin: 0 auto;
-    display: inline-block;
-    vertical-align: top;
+  width: 33%;
+  margin: 0 auto;
+  display: inline-block;
+  vertical-align: top;
 }
 
 .column-3 img {
-    width: 80px;
+  width: 100%;
 }
 
+.features-icon {
+  width: 130px;
+  height: 110px;
+  margin: 0 auto;
+}
 
-.column-3 h3{
-    font-size: 1.4em;
-    color: #00B172;
+.column-3 h3 {
+  font-size: 1.5em;
+  font-weight: 600;
+  color: #00b172;
+  margin: 20px 0 20px 0;
 }
 
 .column-3 p {
-    font-size: 1em;
+  font-size: 1.2em;
+  color: #505050;
 }
 
-.column-3 p, .column-3 h3 {
-    text-align: center;    
-    width: 100%;
-    display: inline-block;
+.column-3 p,
+.column-3 h3 {
+  text-align: center;
+  width: 100%;
+  display: inline-block;
+}
+
+.yeezy {
+  margin: 35px;
+  height: 600px;
+  padding: 82px;
+  background-color: #00b172;
+  position: relative;
+}
+
+.white-logo {
+  width: 110px;
+  position: absolute;
+  left: 50%;
+  top: 50%;
+  animation-name: beat;
+  animation-duration: 2s;
+  animation-play-state: running;
+  animation-iteration-count: infinite;
+
+}
+
+.app-image {
+  float: right;
+}
+
+.app-image img {
+  margin-top: 40px;
+  width: 320px;
+}
+
+.yeezy-content {
+  display: inline-block;
+}
+
+#app-title h2 {
+  color: white;
+  padding-bottom: 8px;
+  border-bottom: 3px solid white;
+  font-size: 2em;
+}
+
+#app-title {
+  display: inline-block;
+}
+
+.app-content h3 {
+  color: white;
+  margin: 40px 0;
+  font-size: 1.8em;
+}
+
+.app-content p {
+  color: white;
+  font-size: 1.2em;
+  width: 300px;
 }
