@@ -6,3 +6,84 @@ Green: #00B172
 White: #FFF
 
 */
+/*- The navbar should be `position: fixed`.
+- Float the image left, and float a `ul` with the links right.*/
+body{
+    background-color: grey;
+    margin: 0;
+    padding: 0;
+}
+.nav{
+    position: fixed;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 12vh;
+    line-height: 100px;
+    background-color: white;
+    padding-left: 20px;
+    padding-right: 20px;
+
+    vertical-align: middle;
+}
+/* Logo Float left*/
+.nav img{
+    position: absolute;
+    float: left;
+    margin-left: 1vh;
+    top: 1vh;
+    height: 10vh;
+    border: 1px solid red;
+    align-content: center;
+
+}
+/* ul float right*/
+.nav ul{
+    height: 10vh;
+    line-height: 10vh;
+    position: absolute;
+    top:1vh; 
+    margin-top:0px;
+    right: 50px;
+    margin-right:10px;
+    float: right;
+    list-style-type: none;
+    border: 1px solid red;
+    
+}
+.nav a{
+    text-decoration: none;
+    color:black;
+    padding-left: 40px;
+    font-size: 5vh;
+    clear:both
+}
+.clear{
+    clear:both;
+}
+/*#### Large image background with text
+
+- Check out [this guide](https://css-tricks.com/centering-css-complete-guide/)
+ on centering things.
+*/
+.landing{
+    height: 88vh;
+    background-color: blue;
+    background-image: url("/starter-code/images/landing.jpg");
+    background-size: contain;
+}
+/* #### What's on Spotify section
+
+- It looks like the `div`s take up about a third of the container each. How can you represent this in code?
+*/
+.what{
+    background-color: darkgrey;
+}
+/*
+#### Green Section
+- It looks like we have 2 main pieces, a `div` with the text content, and the image of the Spotify player. Position these according to the surrounding green `div`.
+- Position the Spotify logo absolutely according to the Green `div`.
+*/
+.green{
+    background-color: red;
+}
