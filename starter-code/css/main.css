@@ -6,3 +6,205 @@ Green: #00B172
 White: #FFF
 
 */
+
+@import url('https://fonts.googleapis.com/css?family=Open+Sans:300,400,500,700');
+
+* {
+  margin: 0;
+  padding: 0;
+  font-family: "Open Sans";
+}
+
+
+nav {
+  height: 14vh;
+  position: fixed;
+  width: 100%;
+  background-color: white;
+  top: 0;
+}
+
+nav img {
+  height: 70%;
+  margin-top: 15px;
+  margin-left: 30px;
+}
+
+header {
+  background-image: url(/starter-code/images/landing.jpg);
+  margin-top: 14vh;
+  height: 106vh;
+  background-size: cover;
+  object-fit: contain;
+  color: white;
+}
+
+header h1 {
+  font-size: 5em;
+  margin-bottom: 30px;
+  font-weight: 500;
+}
+
+header p {
+  font-size: 2em;
+  font-weight: 300;
+  line-height: 1.3em;
+}
+
+
+.headercontent {
+  text-align: center;
+  width: 70%;
+  margin: auto;
+  padding-top: 35vh;
+}
+
+.fade-in {
+	-webkit-animation: fade-in 2s cubic-bezier(0.390, 0.575, 0.565, 1.000) both;
+	        animation: fade-in 2s cubic-bezier(0.390, 0.575, 0.565, 1.000) both;
+}
+
+.nav img {
+  float: left;
+}
+.links li {
+  display: inline;
+  margin: 15px;
+  font-size: 1.5em;
+  font-weight: 300;
+}
+.links {
+  float: right;
+  margin: 0 20px;
+  line-height: 14vh;
+}
+
+.clearfix {
+  clear: both;
+}
+
+.whatIs img {
+  width: 150px;
+  height: 150px;
+  object-fit: contain;
+}
+
+.collumn {
+  float: left;
+}
+
+.whatIs h2 {
+  text-align: center;
+  padding: 40px 0 100px 0;
+  font-size: 2.2em;
+}
+
+.kayne h2 {
+  padding: 40px 0 100px 0;
+  font-size: 2.2em;
+}
+
+.collumn {
+  width: 20%;
+  float: left;
+  text-align: center;
+}
+
+.left {
+  margin-left: 10%;
+  margin-right: 10%;
+}
+
+.right {
+  margin-right: 10%;
+  margin-left: 10%;
+}
+
+
+.whatIs h3 {
+  font-size: 1.7em;
+  font-weight: 900;
+  color: #00B172;
+  margin-bottom: 30px;
+}
+
+.kayne h3 {
+  font-size: 1.7em;
+  font-weight: 900;
+  color: white;
+  margin-bottom: 30px;
+}
+
+.kayne p {
+  margin-bottom: 40px;
+  font-size: 1.5em;
+  font-weight: lighter;
+}
+
+.whatIs hr {
+  width: 24%;
+  margin: 0 auto;
+  height: 1px;
+  border: 0;
+  border-top: 4px solid #00B172;
+  margin-top: 5px;
+}
+
+.kayne hr {
+  width: 95%;
+  margin: 0 auto;
+  height: 1px;
+  border: 0;
+  border-top: 4px solid rgb(255, 255, 255);
+  margin-top: 5px;
+  margin-left: -0px;
+}
+
+.collumn p {
+  font-size: 1.5em;
+  font-weight: 300;
+}
+
+.whatIs  {
+  margin-bottom: 100px;
+}
+
+.kayne {
+  background-color: #00B172;
+  margin: 30px;
+  color: white;
+  height: 850px;
+  background-image: url("/starter-code/images/spotify-icon-white.png");
+  background-repeat: no-repeat;
+  background-size: 10%;
+  background-position: center;
+}
+
+.kayne img {
+  width: 340px;
+}
+
+.kayne fig {
+  float: right;
+  width: 30%;
+  margin-right: 5%;
+  margin-top: 14%;
+}
+
+.content {
+  float: left;
+  width: 40%;
+  margin-left: 8%;
+  margin-top: 4%
+}
+
+@-webkit-keyframes fade-in {
+  0% {
+    opacity: 0;
+  }
+  100% {
+    opacity: 1;
+  }
+}
+
+
