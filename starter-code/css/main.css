@@ -37,6 +37,19 @@ body {
   height: 10vh;
   align-content: center;
 }
+/* animation to logo */
+.animate:hover{
+    animation: shake 5s cubic-bezier(0.23, 1, 0.320, 1) both;
+    transform: translateY(0);
+    backface-visibility: hidden;
+    perspective: 1000px
+} 
+@keyframes shake{
+    10%, 90%{transform: translateY(-10px)    }
+    20%, 80%{ transform: translateY(20px)   }
+    30%, 50%, 70%{ transform: translateY(-40px)   }
+    40%, 60%{transform: translateY(40px)    }
+}
 /* ul float right*/
 .nav ul {
   float: right;
