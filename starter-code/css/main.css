@@ -6,3 +6,180 @@ Green: #00B172
 White: #FFF
 
 */
+* {
+  margin: 0;
+  padding: 0;
+}
+.empty-top {
+  min-height: 12vh;
+}
+.navbar {
+  height: 12vh;
+  position: fixed;
+  background-color: white;
+  width: 100%;
+}
+
+nav img {
+  float: left;
+  width: 12%;
+  padding: 20px 0px 0px 50px;
+}
+
+nav li {
+  list-style-type: none;
+  display: inline;
+  font-size: 25px;
+  color: rgb(37, 37, 37);
+  margin: 20px;
+}
+
+nav ul {
+  float: right;
+  display: block;
+  padding: 40px 0px 0px 40px;
+  margin-right: 40px;
+}
+h1 {
+  color: white;
+  font-size: 100px;
+  text-align: center;
+  padding-top: 300px;
+  margin-bottom: 30px;
+}
+
+.front-page {
+  height: 88vh;
+  background-image: url("../images/landing.jpg");
+  /*background-attachment: fixed;*/
+  background-position: center;
+  background-size: cover;
+}
+
+.front-page p {
+  color: white;
+  text-align: center;
+  font-size: 40px;
+}
+
+h2 {
+  text-align: center;
+  font-size: 40px;
+  margin: 40px 0px 0px 0px;
+}
+
+.first-hr {
+  margin: 0px 77vh;
+  height: 3px;
+  background-color: #00b172;
+}
+
+.second-hr {
+  height: 4px;
+  background-color: rgb(255, 255, 255);
+  border: 0px;
+  margin-bottom: 40px;
+}
+
+h3 {
+  color: #00b172;
+  font-size: 33px;
+  margin: 20px 0px;
+  text-align: center;
+}
+
+.mid-section img {
+    margin-left: 160px;
+}
+
+.mid-section {
+    margin: 100px 20px 0px 20px;
+    display: flex;
+    justify-content: center;
+    flex-direction: row;
+    flex-basis: 200px;
+    flex: 1;
+}
+
+.mid-section-boks{
+    width: 25%;
+    margin: 0px 30px;
+}
+
+.mid-section p {
+  font-size: 25px;
+  text-align: center;
+}
+
+.HD-music {
+    margin-top: 34px;
+}
+
+.stream-everywhere {
+    margin-top: 24px;
+}
+
+.clear-float {
+  clear: both;
+}
+
+.footer {
+  background-color: #00b172;
+  margin: 150px 55px;
+  padding: 60px 130px;
+}
+
+h5 {
+  font-size: 50px;
+  color: white;
+}
+
+.footer p {
+  color: white;
+  font-size: 28px;
+  width: 70%;
+}
+
+h4 {
+  font-size: 32px;
+  color: white;
+  margin: 30px 0px;
+}
+
+.footer-text {
+    width: 39%;
+
+}
+
+.footer-icon {
+    display: block;
+    float: right;
+    position: relative;
+    margin: 240px 350px 0px 0px;
+}
+
+
+@keyframes mySlideIn {
+    0% {
+      margin-left: 100%;
+      width: 300%;
+    }
+  
+    100% {
+      margin-left: 0%;
+      width: 100%;
+    }
+  }
+
+.footer-icon:hover {
+    margin: 210px 350px 0px 0px;
+    transition: mySlideIn;
+}
+
+
+.footer-phone {
+    display: block;
+    float: right;
+    position: relative;
+    margin: 13px 50px 0px 0px; 
+}  <img src="images/spotify-app.jpg" alt="" width="40%" class="footer-phone">
