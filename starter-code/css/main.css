@@ -50,6 +50,17 @@ body {
 .nav li {
   list-style: none;
   padding: 0 2rem;
+  transition: all 0.2s;
+  
+}
+
+.nav li:hover {
+  /* transform: translateY(-5px);
+  box-shadow: 0 1rem 2rem rgba(0, 0, 0, 0.2); */
+  background-color: #00b172;
+  color: #fff;
+  cursor: pointer;
+  animation: moveFromBottom 1s;
 }
 
 .nav ul {
@@ -161,14 +172,56 @@ body {
   background-color: #00b172;
 
   margin: 5rem;
+  padding: 10rem;
 
   color: white;
+
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
 }
 
 .section__features--heading {
   margin-bottom: 2rem;
 
   display: inline-block;
-    font-size: 3rem;
+  font-size: 3.4rem;
   border-bottom: 4px solid white;
+
+  font-weight: 300;
+  margin-bottom: 3rem;
+}
+
+.section__features--box {
+  width: 35rem;
+
+  margin-bottom: 3rem;
+}
+
+.section__features--subheading {
+  font-size: 2.5rem;
+
+  margin-bottom: 2rem;
+}
+
+.section__features--text {
+  font-size: 2.2rem;
+  font-weight: inherit;
+}
+
+.section__features div img {
+  width: 30rem;
+}
+
+/* ANIMATIONS */
+
+@keyframes moveFromBottom {
+  0% {
+    opacity: 0;
+    transform: translateY(10rem);
+  }
+  100% {
+    opacity: 100;
+    transform: translate(0);
+  }
 }
