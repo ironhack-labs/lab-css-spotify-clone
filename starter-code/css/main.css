@@ -6,8 +6,10 @@ Green: #00B172
 White: #FFF
 
 */
+@import url('https://fonts.googleapis.com/css?family=Montserrat:200,300,400');
 body {
   margin: 0;
+  font-family: 'Montserrat', sans-serif;
 }
 .navBar {
   display: flex;
@@ -24,10 +26,12 @@ body {
   display: flex;
   flex-direction: row;
   justify-content: space-between;
+  margin-right: 20px;
 }
 
 .navBarLi li {
-  padding: 5px;
+  padding: 10px;
+  font-size:20px;
 }
 
 .clear {
@@ -47,6 +51,7 @@ body {
 .bigPic p {
   text-align: center;
   font-size: 25px;
+  font-weight: lighter;
 }
 .bigPic h1 {
   font-size: 55px;
@@ -79,6 +84,10 @@ body {
 .whatIcon h3 {
   color: #00b172;
   font-size: 25px;
+}
+
+.whatIcon p {
+  font-weight: lighter;
 }
 .whatPics {
   display: flex;
@@ -114,4 +123,34 @@ body {
 .greenText hr {
   width: 100%;
   /* border: 1px solid white;  */
+}
+
+.text-focus-in {
+	-webkit-animation: text-focus-in 1s cubic-bezier(0.550, 0.085, 0.680, 0.530) both;
+	        animation: text-focus-in 1s cubic-bezier(0.550, 0.085, 0.680, 0.530) both;
+}
+
+@-webkit-keyframes text-focus-in {
+  0% {
+    -webkit-filter: blur(12px);
+            filter: blur(12px);
+    opacity: 0;
+  }
+  100% {
+    -webkit-filter: blur(0px);
+            filter: blur(0px);
+    opacity: 1;
+  }
+}
+@keyframes text-focus-in {
+  0% {
+    -webkit-filter: blur(12px);
+            filter: blur(12px);
+    opacity: 0;
+  }
+  100% {
+    -webkit-filter: blur(0px);
+            filter: blur(0px);
+    opacity: 1;
+  }
 }
