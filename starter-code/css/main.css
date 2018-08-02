@@ -6,3 +6,176 @@ Green: #00B172
 White: #FFF
 
 */
+@import url('https://fonts.googleapis.com/css?family=Montserrat');
+body{
+  margin:0;
+  padding:0;
+  color: #1A1A1A;
+  font-family:Montserrat;
+}
+/* Navbar
+The navbar should be position: fixed.
+Float the image left, and float a ul with the links right. */
+
+#navbar{
+ position:fixed; 
+  text-align:right;
+  text-decoration: none;
+  background-color: #FFF;
+  padding:1% 5%;
+  /* height:12vh; */
+}
+#navbar img{
+  float:left;
+  width:20%;
+}
+@-webkit-keyframes hvr-wobble-vertical {
+  16.65% {
+    -webkit-transform: translateY(8px);
+    transform: translateY(8px);
+  }
+  33.3% {
+    -webkit-transform: translateY(-6px);
+    transform: translateY(-6px);
+  }
+  49.95% {
+    -webkit-transform: translateY(4px);
+    transform: translateY(4px);
+  }
+  66.6% {
+    -webkit-transform: translateY(-2px);
+    transform: translateY(-2px);
+  }
+  83.25% {
+    -webkit-transform: translateY(1px);
+    transform: translateY(1px);
+  }
+  100% {
+    -webkit-transform: translateY(0);
+    transform: translateY(0);
+  }
+}
+@keyframes hvr-wobble-vertical {
+  16.65% {
+    -webkit-transform: translateY(8px);
+    transform: translateY(8px);
+  }
+  33.3% {
+    -webkit-transform: translateY(-6px);
+    transform: translateY(-6px);
+  }
+  49.95% {
+    -webkit-transform: translateY(4px);
+    transform: translateY(4px);
+  }
+  66.6% {
+    -webkit-transform: translateY(-2px);
+    transform: translateY(-2px);
+  }
+  83.25% {
+    -webkit-transform: translateY(1px);
+    transform: translateY(1px);
+  }
+  100% {
+    -webkit-transform: translateY(0);
+    transform: translateY(0);
+  }
+}
+.hvr-wobble-vertical {
+  display: inline-block;
+  vertical-align: middle;
+  -webkit-transform: perspective(1px) translateZ(0);
+  transform: perspective(1px) translateZ(0);
+  box-shadow: 0 0 1px rgba(0, 0, 0, 0);
+}
+.hvr-wobble-vertical:hover, .hvr-wobble-vertical:focus, .hvr-wobble-vertical:active {
+  -webkit-animation-name: hvr-wobble-vertical;
+  animation-name: hvr-wobble-vertical;
+  -webkit-animation-duration: 1s;
+  animation-duration: 1s;
+  -webkit-animation-timing-function: ease-in-out;
+  animation-timing-function: ease-in-out;
+  -webkit-animation-iteration-count: 1;
+  animation-iteration-count: 1;
+}
+/* courtesy hover.css */
+#navbar li{
+  float:right;
+  list-style-type:none;
+  padding:0 1%;
+  /* font-size:12vh; */
+}
+#cover{
+  background-image: url("/starter-code/images/landing.jpg");
+  background-size: cover;
+height: 88vh;
+  text-align:center;
+  line-height: 88vh;
+  color:#fff;
+
+}
+/* #cover .span{ */
+  /* font-size: 5vh; */
+  /* font-style: bold; */
+/* } */
+
+#info{
+
+}
+.whatson{
+  text-align: center;
+  font-size: 5vh;
+
+}
+.col{
+  width: 33%;
+  float:left;
+  text-align: center;
+  box-sizing: border-box;
+}
+.col img{
+  width: 30%;
+  float:left;
+}
+.clear{
+  clear: both;
+}
+.greenzone{
+  background-color: #00B172;
+  background-size: 10%;
+  background-repeat: no-repeat;
+  background-position: center;
+  /* position: absolute; */
+  background-image:url(/starter-code/images/spotify-icon-white.png);
+color:#FFF;
+  margin: 0 auto;
+  padding: 2% 5%;
+}
+.greenzone >img{
+  /* position: absolute; */
+
+  width:20%;
+}
+.green1{
+  /* float: left; */
+  text-align: left;
+width:30%
+}
+/* .green2 img{
+  position: absolute;
+ 
+  width:20%;
+  
+} */
+.green3{
+  float: right;
+ padding:5% 4%;
+  
+  
+}
+.green3 img{
+  
+ 
+  height:400px;
+  
+}
