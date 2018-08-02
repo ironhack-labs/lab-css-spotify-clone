@@ -6,3 +6,142 @@ Green: #00B172
 White: #FFF
 
 */
+* {
+	font-family: 'Montserrat', sans-serif;
+	font-size: 18px;
+}
+.clearfix {
+	clear: both;
+}
+h1,
+h2,
+h3 {
+	font-weight: 500;
+}
+h1 {
+	font-size: 4em;
+	letter-spacing: 2px;
+}
+h2 {
+	font-size: 2em;
+}
+.navbar {
+	top: 0;
+	left: 0;
+	position: fixed;
+	height: 64px;
+	padding: 10px;
+	background-color: #fff;
+	width: 100%;
+	z-index: 10;
+}
+#spotify-logo {
+	content: url('../images/spotify-logo.png');
+	height: 80%;
+	position: relative;
+	float: left;
+	transition: scale 0.2s ease-out;
+	margin-left: 10px;
+}
+#spotify-logo:hover {
+	transform: scale(1.1);
+}
+.menu {
+	position: relative;
+	float: right;
+	width: 40%;
+	margin-right: 10px;
+}
+.menu li {
+	float: right;
+	margin: 0 12px;
+	list-style-type: none;
+}
+.menu li a {
+	text-decoration: none;
+	color: #1a1a1a;
+}
+
+.presentation {
+	top: 64px;
+	background-image: url('../images/landing.jpg');
+	position: relative;
+	background-size: cover;
+	background-position: center center;
+	background-repeat: no-repeat;
+	height: 100vh;
+	width: 100%;
+	color: white;
+	text-align: center;
+}
+.presentation .container {
+	position: absolute;
+	top: 50%;
+	left: 50%;
+	transform: translate(-50%, -50%);
+}
+.advantages {
+	margin-top: 75px;
+	position: relative;
+	text-align: center;
+}
+.advantages h2 {
+	text-decoration: underline solid #00b172;
+}
+.advantages h3 {
+	color: #00b172;
+	font-size: 1.6em;
+}
+.container {
+	margin: 0 0;
+	padding: 30px 30px;
+}
+.col p {
+	font-weight: 100;
+	font-size: 1.2em;
+}
+.col {
+	width: 30%;
+	float: left;
+}
+.col-center {
+	margin: auto 5%;
+}
+.advantages .img {
+	width: 125px;
+}
+
+.featuring {
+	background-color: #00b172;
+	height: 640px;
+	/* background-image: url('../images/spotify-icon-white.png');*/
+	background-repeat: no-repeat;
+	margin: 10px;
+}
+
+.featuring .text {
+	float: left;
+	color: #fff;
+	padding: 36px;
+}
+.featuring h2 {
+	text-decoration: underline solid #fff;
+}
+.featuring h3 {
+	font-weight: 500;
+}
+.logo {
+	position: relative;
+
+	background-image: url('../images/spotify-icon-white.png');
+	width: 10%;
+	height: 10%;
+	background-size: cover;
+}
+.kanye {
+	float: right;
+}
+.kanye img {
+	height: 480px;
+	float: right;
+}
