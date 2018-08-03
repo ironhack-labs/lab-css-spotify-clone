@@ -6,3 +6,185 @@ Green: #00B172
 White: #FFF
 
 */
+
+*{
+    margin: 0;
+    padding: 0;
+}
+
+body {
+    font-family: 'Open Sans', sans-serif;
+}
+header {
+    height: 100px;
+    width: 100%;
+    background-color: #FFF;
+    position: fixed;
+
+    
+}
+
+header img{
+    height: 70px;
+    padding-left: 1%;
+    padding-top: 15px;
+}
+
+
+header ul{
+    float: right;
+    list-style: none;
+    width: 42%;
+}
+
+header li{
+    float: left;
+    padding: 6%;
+    font-size: 1.18em;
+    font-weight: 100;    
+}
+
+.section1 {
+   
+    /*min-height: calc(100vh - 100px);*/
+    background-position: center;
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-image: url(../images/landing.jpg);
+    height: 900px;
+    color: white;
+}
+
+.section1 h1{
+    width: 50%;
+    font-size: 4.4em;
+    margin: 0 auto;
+    padding-top: 23%;
+}
+
+.section1 p{
+    font-size: 1.6em;
+    margin: 0 auto;
+    width: 48%;
+    padding-top: 3%;
+}
+
+.section2 {
+    background-color: white;
+    display: inline-block;
+}
+
+.section2 h2{
+    width: 23%;
+    margin: 0 auto;
+    font-size: 2.2em;
+    padding-top: 50px;
+}
+
+.section2 hr{
+    width: 22%;
+    margin-left: auto;
+    margin-right: auto;
+    color: #00B172;
+    border-width: 2px;
+    border-style: solid;
+    border-radius: 4px;
+}
+
+
+
+.feature {
+    width: 33%;
+    float: left;
+}
+
+.feature img {
+    width: 28%;
+    margin-left: 37%;
+    padding-top: 25%;
+        
+}
+
+.icon{
+    min-height: 221px;
+}
+
+.feature h3{
+    color: #00B172;
+    font-weight: bold;    
+    font-size: 1.8em;    
+    text-align: center;    
+    padding: 5%;
+}
+
+.feature p{
+    text-align: center;
+    margin-left: 25%;
+    font-size: 1.3em;
+    font-weight: 100;
+    width: 50%;
+}
+
+.section3 {
+    background-color: #00B172;
+    margin: 3%;
+    position: relative;
+    height: 700px;
+    z-index: -1;
+}
+
+.section3 h2{
+    color: #FFF;
+    font-weight: bold;    
+    font-size: 1.8em;    
+    padding: 5% 5% 0;
+}
+
+.section3 hr{
+    border-width: 2px;
+    border-style: solid;
+    border-radius: 4px;
+    color: #FFF;
+    width: 28.5%;
+    margin-left: 62px;
+    margin-top: 5px;
+}
+
+
+.text-end {
+    color: #FFF;
+    position: absolute;
+    top: 20%;
+    left: 5%;
+    width: 25%;
+
+}
+
+.text-end h3{
+    font-weight: bold;    
+    font-size: 1.8em;    
+    text-align: left;    
+    padding: 5%;
+}
+
+.text-end p{
+    text-align: left;
+    margin-left: 5%;
+    font-size: 1.3em;
+    font-weight: 100;
+}    
+
+
+#kanye {
+    width: 25%;
+    position: absolute;
+    top: 12%;
+    right: 5%;
+}
+
+#icon {
+    width: 10%;
+    position: absolute;
+    top: 40%;
+    right: 43%;
+}
