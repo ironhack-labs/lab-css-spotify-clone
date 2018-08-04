@@ -24,6 +24,8 @@ White: #FFF
 header {
   height: 75px;
   width: 100%;
+  position: fixed;
+  background-color: white;
 }
 
 header nav {
@@ -46,8 +48,9 @@ header ul > li {
 }
 
 .spotify-logo {
+  margin: -7px;
   float: left;
-  height: 65px;
+  height: 55px;
   margin-left: 10%;
 }
 
@@ -131,9 +134,9 @@ hr {
 
 main .background-color {
   background-color: #20b46c;
-  height: 400px;
+  height: auto;
   width: 90%;
-  margin: 0 5%;
+  margin: 3% 5%;
 }
 
 .center {
@@ -143,5 +146,73 @@ main .background-color {
 }
 
 .spotify-white {
+  width: 20%;
+}
+
+.title-aux {
+  color: white;
+  text-align: left;
+  letter-spacing: 2px;
+  font-size: 35px;
+  font-weight: bold;
+}
+
+.footer-container {
   width: 50%;
+  display: inline-block;
+  text-align: left;
+  margin: 3% 7%;
+}
+
+.icon-container {
+  float: left;
+  position: absolute;
+  top: 230%;
+  left: 45%;
+}
+
+.img-container {
+  max-width: 350px;
+  display: inline-block;
+}
+
+.hr-footer {
+  margin-top: 3px;
+  border: 0;
+  width: 70%;
+  color: white;
+  background-color: white;
+  height: 4px;
+}
+
+.footer-h3 {
+  color: white;
+  font-weight: bold;
+  font-size: 32px;
+  text-align: left;
+  max-width: none;
+  margin: 3% 0;
+}
+
+.footer-p {
+  color: white;
+  font-weight: 500;
+  font-size: 28px;
+  width: 52%;
+}
+
+.spotify-app {
+  width: 100%;
+  margin-left: -10%;
+}
+
+@media screen and (max-width: 1530px) {
+  .spotify-app {
+    width: 80%;
+    margin-left: -10%;
+  }
+
+  .footer-container {
+    width: 50%;
+  }
 }
