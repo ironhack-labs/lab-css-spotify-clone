@@ -126,3 +126,50 @@ p{
 
 padding: 0 120px;
 }
+
+
+.anima-logo{
+  animation: vanish 2s ease 0s infinite;
+}
+
+.anima-rotate{
+
+  animation: rotate 2s ease 0s infinite;
+
+}
+
+@keyframes vanish{
+  0%{
+    opacity: 100%;
+    transform: scale(1);
+  }
+
+  50%{
+
+    opacity: 0;
+    /* background-color: blueviolet; */
+  }
+   
+  100%{
+    opacity: 100%;
+    transform: scale(1);
+  }
+}
+
+@keyframes rotate{
+  0%{
+    
+   transform: rotate(0deg); 
+  }
+
+  50%{
+
+    transform:  rotate(80deg); 
+    /* background-color: blueviolet; */
+  }
+   
+  100%{
+    opacity: 100%;
+    transform: rotate(0deg); 
+  }
+}
