@@ -6,3 +6,170 @@ Green: #00B172
 White: #FFF
 
 */
+@import url("https://fonts.googleapis.com/css?family=Roboto+Condensed:700|Roboto:100,300,700");
+
+* {
+  /* background-color: gray; */
+  padding: 0;
+  margin: 0;
+  font-family: "Roboto";
+}
+
+.pad-med {
+  padding: 20px 20px;
+}
+header {
+  /* background-color: #82B4B3; */
+  color: black;
+  height: 120px;
+  width: 100%;
+}
+nav {
+  display: inline;
+}
+
+header ul {
+  list-style: none;
+  float: right;
+  width: 45%;
+}
+header ul > li {
+  color: black;
+  font-size: 1.3rem;
+  float: left;
+  padding: 8% 5%;
+}
+
+div.img-spotify img {
+  margin: 20px 90px;
+  display: inline;
+}
+
+main {
+  min-height: calc(100vh - 84px);
+}
+
+main section.background {
+  background-position: center;
+  background-size: cover;
+  background-repeat: no-repeat;
+}
+main .img-view {
+  background-image: url("../images/landing.jpg");
+  height: 600px;
+}
+
+main section .text-head {
+  position: absolute;
+  left: 350px;
+  top: 250px;
+  text-align: center;
+  color: white;
+  font-size: 4.5rem;
+  font-weight: 600;
+}
+
+main section .text-norm {
+  padding: 0 200px;
+  position: absolute;
+  top: 350px;
+  text-align: center;
+  color: white;
+  font-size: 2.5rem;
+  font-weight: 300;
+}
+
+h1 {
+  padding: 20px 0;
+  font-size: 3rem;
+  color: black;
+  text-align: center;
+}
+
+h2 {
+  text-align: center;
+  color: #00b172;
+  font-size: 2rem;
+}
+hr {
+  margin: -20px 400px 20px;
+  border: 2px solid #00b172;
+}
+
+main .container {
+  position: absolute;
+  width: 100%;
+  height: 100%;
+  padding: 10px 150px;
+}
+
+p{
+  padding-top: 20px;
+ text-align: center;
+ font-size: 2rem;
+}
+
+.container-img {
+  padding: 0 20px;
+  width: 25%;
+  height: 100%;  
+  display: inline-block;
+}
+
+
+.container-img .icon-img {
+  position: relative;
+  height: 390px;
+}
+
+.container-img .icon-img img{
+
+padding: 0 120px;
+}
+
+
+.anima-logo{
+  animation: vanish 2s ease 0s infinite;
+}
+
+.anima-rotate{
+
+  animation: rotate 2s ease 0s infinite;
+
+}
+
+@keyframes vanish{
+  0%{
+    opacity: 100%;
+    transform: scale(1);
+  }
+
+  50%{
+
+    opacity: 0;
+    /* background-color: blueviolet; */
+  }
+   
+  100%{
+    opacity: 100%;
+    transform: scale(1);
+  }
+}
+
+@keyframes rotate{
+  0%{
+    
+   transform: rotate(0deg); 
+  }
+
+  50%{
+
+    transform:  rotate(80deg); 
+    /* background-color: blueviolet; */
+  }
+   
+  100%{
+    opacity: 100%;
+    transform: rotate(0deg); 
+  }
+}
