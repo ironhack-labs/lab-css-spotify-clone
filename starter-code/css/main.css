@@ -6,3 +6,178 @@ Green: #00B172
 White: #FFF
 
 */
+
+
+* {
+    margin: 0;
+    padding: 0;
+    font-family: 'Open Sans', sans-serif;
+}
+
+/* help clases*/
+
+.clearfix {
+    clear: both;
+}
+
+.column {
+    float: left;
+}
+
+.column-3 {
+    width: 33%;
+}
+
+.column-2 {
+    width: 50%;
+}
+
+
+/* header  */
+
+/* nav  */
+
+header nav {
+    height: 100px;
+    background-color: white;
+}
+
+header nav > img{
+    height: 70px;
+    float: left;
+    position: absolute;
+    left: 30px;
+    padding: 15px;
+}
+
+header nav > ul{
+    list-style: none;
+    float: right;
+    right: 20px;
+    position: absolute;
+}
+
+header nav > ul > li {
+    float: left;
+    font-size: 2em;
+    margin: 23px;
+    padding: 10px 0;    
+}
+
+header .background-image{
+    position: relative;
+    background-image: url("../images/landing.jpg");
+    color: white;
+    height: 800px;    
+    background-size: contain;
+}
+
+/* image */
+
+header .background-image > div{
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+}
+
+header .background-image h1, p{
+    text-align: center;
+}
+
+header h1{
+    font-size: 6em;
+}
+
+header p {
+    font-size: 2em;
+}
+
+/* main */
+
+main p {
+    font-size: 1.8em;
+    margin: 30px 0;
+    font-weight: 100; 
+}
+
+main .white-box {
+    margin: 80px 6%;
+}
+
+main .white-box h2 {
+    text-align: center;
+    
+}
+
+main .white-box p{
+    text-align: center;
+}
+
+main .white-box h2 > span{
+    border-bottom: 5px solid #00B172;
+    padding-bottom: 3px;
+}
+
+main .green-box p{
+    text-align: left;
+}
+
+main .green-box h2{
+    margin-bottom: 50px;
+}
+
+main .green-box h2 > span{
+    border-bottom: 5px solid #ffffff;
+    padding-bottom: 3px;
+}
+main .info-box {
+    text-align: center;
+    margin: 100px 0 50px 0;
+}
+
+main .info-box div {
+    height: 200px;
+}
+
+main .info-box h3{
+    color: #00B172;
+}
+
+
+
+main article img {
+    width: 40%;
+}
+
+main .green-box {
+    background-color: #00B172;
+    margin: 2.5%;
+    color: white;
+    display: inline-flex;
+    width: 95%;
+    position: relative;
+}
+
+main h2, h3{
+    font-size: 2.5em;
+}
+
+main .green-box article, aside{
+    padding: 7%;
+}
+
+main .green-box aside > img{
+    width: 65%;
+    padding: 0 10% 0 25%;
+
+}
+
+main .green-box > img {
+    width: 180px;
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    
+}
