@@ -35,20 +35,38 @@
   display: none;
 }
 body {
+  padding-top: calc(300 * var(--global-width));;
   width: 100%;
 }
 header {
   background: var(--white);
   height: calc(300 * var(--global-width));
   padding: calc(49.5 * var(--global-width)) 0;
+  position: fixed;
+  top: 0;
   width: 100%;
+  z-index: 1;
 }
 h1 {
   font-size: 0;
 }
-img {
+header img {
   height: auto;
   width: calc(670 * var(--global-width));
+}
+header img:hover {
+  animation: spotify 800ms cubic-bezier(.19,1.52,0,-0.01) 0s infinite;
+}
+@keyframes spotify {
+  0% {
+    transform: translate(0,0);
+  }
+  50% {
+    transform: translate(0,-10%);
+  }
+  100% {
+    transform: translate(0,0);
+  }
 }
 .navbar {
   height: calc(201 * var(--global-width));
@@ -168,4 +186,5 @@ img {
 }
 .app img {
   width: calc(1037 * var(--global-width));
+  height: auto;
 }
