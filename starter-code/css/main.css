@@ -6,3 +6,151 @@ Green: #00B172
 White: #FFF
 
 */
+
+body {
+  font-family: 'Open Sans', sans-serif;
+  margin: 0;
+}
+
+.navbar {
+  position: fixed;
+  width: 100%;
+  z-index: 10;
+  background-color: rgba(255, 255, 255, 0.8);
+}
+
+.toplogo {
+  width: 250px;
+  float: left;
+  padding: 10px;
+}
+
+.toplinks {
+  float: right;
+  padding: 30px;
+}
+
+.toplinks a {
+  text-decoration: none;
+  font-size: 30px;
+  padding: 10px;
+  color: rgb(120, 120, 120);
+}
+
+.image-wrapper {
+  clear: both;
+  height: 120vh;
+  background-image: url('../images/landing.jpg');
+  background-size: cover;
+  background-position: center bottom;
+  position: relative;
+}
+
+.heading-wrapper {
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  color: #fff;
+  text-align: center;
+}
+
+h1 {
+  font-size: 60px;
+}
+
+h2 {
+  font-size: 40px;
+  text-align: center;
+  text-decoration: underline;
+  text-decoration-color: #1AB26A;
+}
+h3 {
+  font-size: 20px;
+  font-weight: 200;
+  color: white;
+}
+h4 {
+  font-size: 20px;
+  color: #1AB26A;
+}
+
+h5{
+  font-size: 30px;
+  text-decoration: underline;
+  color: white;
+  text-align: left;
+  
+}
+
+.box {
+  padding: 40px;
+  background: white;
+  float: left;
+  width: 30%;
+  height: 350px;
+  box-sizing: border-box;
+  margin-right: 3%;
+  text-align: center;
+}
+
+.resize {
+  width: 80px;
+  height: auto;
+}
+
+.boxtext {
+  font-size: 20px;
+  font-weight: 200;
+}
+.searchbrowsediscover {
+  color: white;
+  margin-left: 5vh;
+}
+
+.kanyebox {
+  background-color: #1AB26A;
+  background-image: url("/starter-code/images/spotify-icon-white.png");
+  background-repeat: no-repeat;
+  background-size: 10%;
+  background-position: center;
+  clear: both;
+  height: 630px;
+  margin: 45px;
+  
+}
+.kanyebox > h3 {
+  font-weight: bolder;
+}
+.searchbrowsediscover {
+  float: left;
+  padding: 30px;
+  width:45%;
+}
+.searchbrowsediscover > p {
+  font-weight: lighter;
+}
+.searchbrowsediscover > h3 {
+  font-weight: bold;
+}
+
+.yeezus {
+  width:45%;
+  float: left;
+
+}
+
+.yeezus img {
+  width:60%;
+  padding-top: 60px;
+  float: right;
+
+}
+
+p {
+  padding: 10px 0;
+}
+
+.whitelogo {
+  align-self: auto;
+}
