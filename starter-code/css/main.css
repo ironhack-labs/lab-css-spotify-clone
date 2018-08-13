@@ -6,3 +6,106 @@ Green: #00B172
 White: #FFF
 
 */
+*{
+  margin: 0;
+  padding: 0;
+}
+
+header{
+  display:flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+#logo{
+  display:inline;
+  width: 15%;
+  height: 15%;
+}
+
+img{
+  display: inline;
+  width: 15%;
+  height:15%;
+}
+
+ul {
+  display: flex;  
+}
+
+li{
+  margin:20px;
+  list-style: none;
+}
+
+.bg{
+  background-image: url(/starter-code/images/landing.jpg);
+  background-size: cover;
+  height: 100vh;
+  margin: 0;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  }
+
+.wrapper{
+  margin-left: 30%;
+}
+
+  h1{
+    color:white;
+    font-size: 5em;
+}
+
+h1 + p{
+  color:white;
+  font-size: 2EM;
+  width: 68%;
+  text-align: center;
+}
+.sec2 h2{
+font-size: 2.3em;
+text-align: center;
+text-decoration: underline #00B172;
+}
+
+.col-3{
+  display: flex;
+  height: 20vh;
+  border: black solid 4px;
+}
+.col-3 h3{
+  font-size: 1.8em;
+}
+
+
+.west{
+  background-color: #00B172;
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+  margin: 0 3%;
+  height: 80vh;
+}
+
+.vertical-left{
+  height: 70%;
+  color:white;
+}
+
+.vertical-left h2{
+  font-size: 2.3em;
+}
+
+.vertical-left  h3{
+  font-size: 1.8em;
+}
+
+.vertical-left p{
+  font-size: 1em;
+  width:33%;
+}
+
+ .right{
+   height:80%;
+ }
