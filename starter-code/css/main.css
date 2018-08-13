@@ -11,22 +11,33 @@ White: #FFF
   padding: 0;
 }
 
+body{
+  position:absolute;
+}
+
 header{
   display:flex;
   justify-content: space-between;
   align-items: center;
+  background-color: whitesmoke;
+  border-bottom: #1A1A1A 0.5px;
+  position: fixed;
 }
 
 #logo{
   display:inline;
   width: 15%;
   height: 15%;
+  padding: 1vh 0;
 }
 
-img{
+ .col-3 img{
   display: inline;
-  width: 15%;
-  height:15%;
+  width: 60%;
+}
+
+.col-3{
+  margin:10% 0;
 }
 
 ul {
@@ -37,6 +48,13 @@ li{
   margin:20px;
   list-style: none;
 }
+
+li a{
+  text-decoration: none;
+  color: #1A1A1A;
+}
+
+
 
 .bg{
   background-image: url(/starter-code/images/landing.jpg);
@@ -56,6 +74,9 @@ li{
     color:white;
     font-size: 5em;
 }
+.sec2{
+  height: 85vh;
+}
 
 h1 + p{
   color:white;
@@ -72,10 +93,10 @@ text-decoration: underline #00B172;
 .col-3{
   display: flex;
   height: 20vh;
-  border: black solid 4px;
 }
 .col-3 h3{
   font-size: 1.8em;
+  color:#00B172;
 }
 
 
@@ -84,7 +105,7 @@ text-decoration: underline #00B172;
   display: flex;
   justify-content: space-around;
   align-items: center;
-  margin: 0 3%;
+  margin: 2% 3%;
   height: 80vh;
 }
 
@@ -109,3 +130,8 @@ text-decoration: underline #00B172;
  .right{
    height:80%;
  }
+
+#west-logo{
+  width: 10%;
+  align-content: center;
+}
