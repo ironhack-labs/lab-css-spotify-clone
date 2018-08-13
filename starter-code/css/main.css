@@ -61,6 +61,7 @@ li a{
   background-size: cover;
   height: 100vh;
   margin: 0;
+  margin-bottom: 5vh;
   display: flex;
   justify-content: center;
   align-items: center;
@@ -76,6 +77,11 @@ li a{
 }
 .sec2{
   height: 85vh;
+  text-align: center;
+}
+
+#hd{
+  margin-top: 5.2vh;
 }
 
 h1 + p{
@@ -86,8 +92,9 @@ h1 + p{
 }
 .sec2 h2{
 font-size: 2.3em;
-text-align: center;
-text-decoration: underline #00B172;
+display: inline;
+border-bottom: #00B172 4px solid;
+padding: 2vh;
 }
 
 .col-3{
@@ -101,12 +108,17 @@ text-decoration: underline #00B172;
 
 
 .west{
+  background-image: url(../images/spotify-icon-white.png);
+  background-repeat: no-repeat;
+  background-size: 10em;
   background-color: #00B172;
+  background-position-x: center;
+  background-position-y: center;
   display: flex;
-  justify-content: space-around;
-  align-items: center;
-  margin: 2% 3%;
-  height: 80vh;
+  justify-content: space-between;
+  margin: 2% 3%; 
+  height: 100vh;
+  padding: 5vh 8vh;
 }
 
 .vertical-left{
@@ -115,23 +127,27 @@ text-decoration: underline #00B172;
 }
 
 .vertical-left h2{
-  font-size: 2.3em;
+  font-size: 2.2em;
+  border-bottom: white 4px solid;
+  display: inline;
+  padding-bottom: 5px;
 }
 
 .vertical-left  h3{
   font-size: 1.8em;
+  margin: 50px 0;
 }
 
 .vertical-left p{
-  font-size: 1em;
+  font-size: 1.5em;
   width:33%;
 }
 
  .right{
-   height:80%;
+   width:22%;
+   align-self: center;
  }
 
 #west-logo{
-  width: 10%;
-  align-content: center;
-}
+  width: 40%;
+  }
