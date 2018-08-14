@@ -6,3 +6,136 @@ Green: #00B172
 White: #FFF
 
 */
+
+
+body, h1{
+margin: 0;
+
+}
+
+body{
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
+
+header{
+    position: fixed;
+    padding: 10px 30px;
+    background-color: white;
+    width: 100%;
+}
+
+.logo{
+float: left;
+}
+nav{
+    float: right;
+    padding: 10px 60px;
+}
+
+nav ul{
+display: flex;
+}
+
+nav ul li{
+    padding: 0 30px; 
+    list-style: none;
+    font-size: 1.5em;
+    font-weight: 200;
+    line-height: 1.4em;
+}
+
+#hero {
+    height: 800px;
+    background: url(../images/landing.jpg) no-repeat;
+    background-size: cover;
+    background-position: 50% 50%;
+   
+}
+
+#hero h1{
+    font-size: 70px;
+    padding-top: 330px;
+    color: white;
+    text-align: center;
+}
+
+#hero p{
+    font-size: 25px;
+    color: white;
+    text-align: center;
+}
+
+#description {
+    height: 600px;
+    
+}
+
+#description .container{
+    
+    display: flex;
+    justify-content: space-around;
+    text-align: center;
+    margin: 100px 200px;
+}
+
+#description h2{
+    margin: 50px auto;
+    font-size: 2.5em;
+    padding: 15px;
+    width: 361px;
+    text-align: center;
+    border-bottom: 4px solid #00B172;
+}
+
+.description-element h3 {
+    color: #00B172;
+    font-size: 2em;
+}
+
+.description-element p{
+    font-size: 1.5em;
+    font-weight: 200;
+    line-height: 1.4em;
+}
+
+.description-element{
+    width: 300px;
+}
+
+
+/* ----------------------GREEN PART-------------------- */
+
+.green {
+        display: flex;
+        justify-content: space-around;
+        align-items: center;
+        background-color: #00B172;
+        margin: 2%;
+        padding: 3%;
+        color: white;
+}
+
+.left-part h2{
+    text-align: left;
+    font-size: 2.5em;
+    padding: 15px 0;
+    width: 539px;
+    border-bottom: 4px solid white;
+}
+
+.left-part h3{
+    font-size: 2em;
+}
+.left-part p{
+    font-size: 1.5em;
+    font-weight: 200;
+    line-height: 1.4em;
+}
+
+.left-element {
+    width: 360px;
+}
+
+.img-green{
+padding-top: 80px;
+}
