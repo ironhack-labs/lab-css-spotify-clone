@@ -26,6 +26,10 @@ nav {
   text-align: center;
 }
 
+nav div {
+  display: flex;
+}
+
 nav img {
   width: 15%;
   height: 12%;
@@ -36,13 +40,13 @@ nav a {
   color: black;
   text-align: center;
   padding: 25px;
+  font-size: 1em;
 }
 
 .main-section {
   padding-top: 150px;
   background-image: url(../images/landing.jpg);
   background-size: cover;
-  background-size: contain;
   height: 900px;
   color: white;
 }
@@ -71,6 +75,7 @@ nav a {
   text-align: center;
   font-size: 3em;
   margin: 30px 0;
+  text-decoration: underline #00b172;
 }
 
 .content div {
@@ -79,8 +84,7 @@ nav a {
 
 .box {
   width: 30%;
-  padding: 2%;
-  margin: 1.5%;
+  padding: 3.5%;
   flex-direction: column;
 }
 
@@ -88,10 +92,7 @@ nav a {
   height: 120px;
   width: 120px;
   display: block;
-  margin-left: auto;
-  margin-right: auto;
-  padding-bottom: 20px;
-  margin-bottom: 10px;
+  margin: 0 auto 30px;
 }
 
 .box h3 {
@@ -109,7 +110,7 @@ nav a {
 
 .green-box {
   background-color: #00b172;
-  margin: 1%;
+  margin: 2%;
   color: white;
   display: flex;
   padding: 50px;
@@ -122,8 +123,9 @@ nav a {
 .green-box h2 {
   font-size: 3em;
   padding-bottom: 30px;
-  font-weight: bold;
   padding-left: 50px;
+  font-weight: bold;
+  text-decoration: underline white;
 }
 
 .green-box h3 {
@@ -134,23 +136,20 @@ nav a {
 
 .green-box p {
   padding-bottom: 20px;
-  font-size: 1.3em;
-  width: 50%;
   padding-left: 50px;
+  font-size: 1.3em;
 }
 
 .white-logo {
   height: 30%;
-  width: 30%;
+  width: auto;
   display: block;
-  margin-left: auto;
-  margin-right: auto;
+  margin: 10%;
 }
 
 .green-box img {
   display: block;
   height: 90%;
-  width: 60%;
-  margin-left: 40%;
+  width: auto;
   padding: 30px 0;
 }
