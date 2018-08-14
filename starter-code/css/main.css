@@ -6,3 +6,160 @@ Green: #00B172
 White: #FFF
 
 */
+
+* {
+    margin: 0;
+    padding: 0;
+    font-family: Avenir;
+}
+
+body {
+    width: 100vw;
+    height: 100vh;
+}
+
+header {
+    height: 100px;
+    position: fixed;
+    width: 100%;
+    top: 0;
+    background-color: #fff;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    box-shadow: 0px 7px 17px 1px rgba(0,0,0,0.15);
+}
+
+header > img {
+    width: 200px;
+    height: auto;
+    float: left;
+}
+
+.spotify-logo {
+    margin-left: 40px;
+}
+
+.menu {
+    float: right;
+    margin-right: 40px;
+}
+
+.menu a {
+    text-decoration: none;
+    color: #1A1A1A;
+}
+
+.menu a:hover {
+    color: #00B172;
+    border-bottom: 3px solid #00B172;
+}
+
+.menu li {
+    display: inline-block;
+    padding: 15px;
+    font-size: 20px;
+}
+
+.title-img {
+    background-image: url(../images/landing.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+    height: 800px ;
+    padding-top: 100px ; 
+    color: white;
+    margin-bottom: 50px;
+}
+
+.title-img h1 {
+    text-align: center;
+    font-size: 65px; 
+    letter-spacing: 3px;
+    margin-top: 300px;
+}
+
+.title-img p {
+    text-align: center;
+    font-size: 28px;
+    padding-top: 15px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.features-title h2 {
+    font-size: 40px;
+    border-bottom: 5px solid #00B172;
+    display: inline;
+    padding-bottom: 3px;
+    margin-left: 38%;
+    margin-top: 150px;
+}
+
+.features {
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+}
+
+.features-desc {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.features h3 {
+    text-align: center;
+    color: #00B172;
+    font-size: 35px;
+}
+
+.features img {
+    width: 120px;
+    height: auto;
+    padding-top: 30px;
+
+}
+
+.features p {
+    text-align: center;
+    padding: 20px;
+    font-size: 28px;
+}
+
+.kanye-west {
+    background-image: url(../images/spotify-icon-white.png);
+    background-size: 10%;
+    background-repeat: no-repeat;
+    background-position: center;
+   background-color: #00B172;
+   margin: 60px 50px 20px 50px;
+   border-radius: 3px;
+   color: #fff;
+   padding: 60px;
+}
+
+.kanye-west h3 {
+    font-size: 35px;
+    border-bottom: 5px solid #fff;
+    display: inline;
+    padding-bottom: 3px;
+}
+
+.kanye-west h4 {
+    font-size: 25px;
+    padding-top: 50px;
+}
+
+.kanye-west p {
+    font-size: 25px;
+    padding-top: 40px;
+    line-height: 30px;
+}
+
+.app-screen {
+    width: auto;
+    height: 600px;
+   float: right;
+
+}
