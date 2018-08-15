@@ -6,3 +6,144 @@ Green: #00B172
 White: #FFF
 
 */
+
+body {
+    font-family: Circular, Helvetica, Arial, sans-serif;
+    margin:0;
+}
+
+header {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    background-color: #fff;
+    padding: 1% 2%;
+    position: fixed;
+    width: 100%;
+}
+
+header > img {
+    width: 200px;
+}
+
+nav {
+    width: 32%;
+    display: flex;
+    justify-content: space-around;
+    margin-right: 5%;
+
+}
+
+nav > a {
+    text-decoration: none;
+    font-size: 20px;
+    color: #1A1A1A;
+}
+
+.first-section {
+    height: 750px;
+    background-image: url(../images/landing.jpg);
+    background-size: cover;
+    background-position: bottom;
+    display:flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+h1 {
+    font-size: 70px;
+    color: #fff;
+    margin-bottom: 10px;
+}
+
+.first-section > p {
+    color: #fff;
+    font-size: 30px;
+    text-align: center;
+}
+
+.second-section > h2 {
+    text-align: center;
+    font-size: 35px;
+    text-decoration: underline;
+    text-decoration-color: #00B172;
+    text-underline-position: under;
+}
+
+.icon-section {
+    display: flex;
+    justify-content: space-around;
+
+}
+
+.icon-section > div {
+    width: 30%;
+    margin: 6% 6% 2%;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+
+}
+
+.icon-section img {
+    width: 150px;
+
+}
+
+.icon-section h3 {
+    font-weight: bold;
+    color: #00B172;
+    font-size: 25px;
+    margin-bottom: 0;
+
+}
+
+.icon-section p {
+  text-align: center;
+  font-size: 22px;
+
+}
+
+.third-section {
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    background-color: #00B172;
+    padding-top: 60px;
+    padding-bottom: 60px;
+    margin: 40px;
+    background-image: url("../images/spotify-icon-white.png");
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: 100px;
+}
+
+.text {
+    color: #fff;
+}
+
+.text > h2 {
+    font-size: 35px;
+    font-weight: bold;
+    text-decoration: underline;
+    text-underline-position: under;
+    margin-bottom: 60px;
+}
+
+.text > h3 {
+    font-size: 25px;
+    font-weight: bold;
+    margin: 25px 0;
+}
+
+.text > p {
+    line-height: 1.5;
+    font-size: 20px;
+}
+.image {
+    width: 280px;
+    margin-top:30px;
+}
+
