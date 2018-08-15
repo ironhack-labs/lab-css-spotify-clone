@@ -3,40 +3,69 @@
 <head>
   <meta charset="UTF-8">
   <title>Spotify</title>
+  <link rel="stylesheet" href="./css/main.css">
 </head>
 <body>
-Premium Discover Help Download
-
-Music for everyone.
-Spotify is now free on mobile, tablet and computer.
-Listen to the right music, wherever you are.
-
-What’s on Spotify?
-
-Millions of Songs
-There are millions of
-songs on Spotify
-
-HD Music
-Listen to music as if you
-were listening live
-
-Stream Everywhere
-Stream music on your
-smartphone, tablet or
-computer
-
-It’s as yeezy as Kanye West.
-Search
-Know what you want to listen to?
-Just search and hit play.
-Browse
-Check out the latest charts,
-brand new releases and great
-playlists for right now.
-Discover
-Enjoy new music every Monday
-with your own personal playlist.
-Or sit back and enjoy Radio.
+  <!-- NAVBAR -->
+  <div class="navbar clearfix">
+    <a class="navbar__logo" href="#">
+      <img src="./images/spotify-logo.png" alt="Spotify logo">
+    </a>
+    <nav class="main-nav">
+      <ul class="main-nav__list clearfix">
+        <li>Download</li>
+        <li>Help</li>
+        <li>Discover</li>
+        <li>Premium</li>
+      </ul>
+    </nav>
+  </div>
+  <!-- HEADER -->
+  <header class="main-header">
+    <h1 class="main-header__heading">Music for everyone.</h1>
+    <p class="main-header__text">Spotify is now free on mobile, tablet and computer.Listen to the right music, wherever
+      you are.</p>
+  </header>
+  <!-- POSSIBILITIES -->
+    <section class="possibilities container clearfix">
+      <h3 class="possibilities__header">What’s on Spotify?</h3>
+      <div class="possibility">
+        <img src="./images/devices-icon.png" alt="Device-icon" class="possibility__image">
+        <h4 class="possibility__heading">Stream Everywhere</h4>
+        <p class="possibility__text">Stream music on your smartphone, tablet or computer</p>
+      </div>
+      <div class="possibility">
+        <img src="./images/music-icon.png" alt="Music-icon" class="possibility__image">
+        <h4 class="possibility__heading">HD Music</h4>
+        <p class="possibility__text">Listen to music as if you were listening live</p>
+      </div>
+      <div class="possibility">
+        <img src="./images/music-icon.png" alt="Music-icon" class="possibility__image">
+        <h4 class="possibility__heading">Millions of Songs</h4>
+        <p class="possibility__text">There are millions of songs on Spotify</p>
+      </div>
+    </section>
+  <!-- ADVANTAGES -->
+    <section class="advantages">
+      <div class="advantages__wrapper clearfix container">
+        <article class="advantages__text">
+          <h3 class="advantages__heading">It’s as yeezy as Kanye West.</h3>
+          <div class="advantages__tab">
+            <h4 class="tab-heading">Search</h4>
+            <p class="tab-text">Know what you want to listen to? Just search and hit play.</p>
+          </div>
+          <div class="advantages__tab">
+            <h4 class="tab-heading">Browse</h4>
+            <p class="tab-text">Check out the latest charts, brand new releases and great playlists for right now.</p>
+          </div>
+          <div class="advantages__tab">
+            <h4 class="tab-heading">Discover</h4>
+            <p class="tab-text">Enjoy new music every Monday with your own personal playlist. Or sit back and enjoy Radio.</p>
+          </div>
+        </article>
+        <img src="./images/spotify-app.jpg" alt="SpotifyApp-image" class="advantages__image">
+        <img class="advantages__logo" src="./images/spotify-icon-white.png" alt="Spotify-icon">
+      </div>
+    </section>
 </body>
 </html>
