@@ -6,3 +6,150 @@ Green: #00B172
 White: #FFF
 
 */
+
+* {
+  margin: 0;
+  padding: 0;
+  font-family: "Montserrat", sans-serif;
+  line-height: 1.6;
+}
+
+nav {
+  overflow: hidden;
+  background-color: white;
+  position: fixed;
+  top: 0;
+  width: 100%;
+  padding: 8px;
+  display: flex;
+  justify-content: space-between;
+  text-align: center;
+}
+
+nav div {
+  display: flex;
+}
+
+nav img {
+  width: 15%;
+  height: 12%;
+}
+
+nav a {
+  text-decoration: none;
+  color: black;
+  text-align: center;
+  padding: 25px;
+  font-size: 1em;
+}
+
+.main-section {
+  padding-top: 150px;
+  background-image: url(../images/landing.jpg);
+  background-size: cover;
+  height: 900px;
+  color: white;
+}
+
+.main-section div {
+  text-align: center;
+  width: 50%;
+  margin: 0 25%;
+  padding-top: 280px;
+}
+
+.main-section p {
+  padding-top: 30px;
+}
+
+.main-section h1 {
+  font-size: 5em;
+}
+
+.main-section p {
+  font-size: 2em;
+}
+
+.content h2 {
+  padding: 20px 0;
+  text-align: center;
+  font-size: 3em;
+  margin: 30px 0;
+  text-decoration: underline #00b172;
+}
+
+.content div {
+  display: flex;
+}
+
+.box {
+  width: 30%;
+  padding: 3.5%;
+  flex-direction: column;
+}
+
+.box img {
+  height: 120px;
+  width: 120px;
+  display: block;
+  margin: 0 auto 30px;
+}
+
+.box h3 {
+  text-align: center;
+  font-size: 2em;
+  color: #00b172;
+  font-weight: bold;
+}
+
+.box p {
+  text-align: center;
+  font-size: 1.3em;
+  padding-top: 20px;
+}
+
+.green-box {
+  background-color: #00b172;
+  margin: 2%;
+  color: white;
+  display: flex;
+  padding: 50px;
+  height: 700px;
+}
+
+.green-box .left {
+  flex-direction: column;
+}
+.green-box h2 {
+  font-size: 3em;
+  padding-bottom: 30px;
+  padding-left: 50px;
+  font-weight: bold;
+  text-decoration: underline white;
+}
+
+.green-box h3 {
+  font-size: 2em;
+  font-weight: bold;
+  padding-left: 50px;
+}
+
+.green-box p {
+  padding-bottom: 20px;
+  padding-left: 50px;
+  font-size: 1.3em;
+}
+
+.white-logo {
+  height: 30%;
+  width: auto;
+  display: block;
+  margin: 10%;
+}
+
+.green-box img {
+  display: block;
+  height: 90%;
+  width: auto;
+  padding: 30px 0;
+}
