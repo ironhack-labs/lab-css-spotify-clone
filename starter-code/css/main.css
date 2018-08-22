@@ -6,3 +6,142 @@ Green: #00B172
 White: #FFF
 
 */
+
+*{
+    font-family:"Open Sans", Helvetica, Arial, sans-serif;
+}
+header{
+    height:100px;
+}
+header img{ 
+    width:250px;
+    margin-top:10px;
+    margin-left:10px;
+    position:relative;
+    float:left;
+    
+    
+}
+header img:hover{
+    animation-name:jump;
+    animation-duration:3s;
+    animation-direction:alternate;
+}
+
+@keyframes jump{
+    0%{ margin-top:10px;
+        ;
+    }
+   
+    100%{
+        margin-top:-100px;
+    }
+
+}
+header li{
+    list-style-type: none;
+    position:relative;
+    float:left;
+    margin-right:15px;
+    font-size:1.5em;
+}
+header ul{
+    margin-top:15px;
+    padding-top:30px;
+    margin-left:65%;
+}
+.section-1{
+    clear:both;
+    border:0.1px solid black;
+    height:800px;
+    background-image:url("../images/landing.jpg");
+    background-size:cover;
+    background-repeat:no-repeat;
+    color:#FFF;
+}
+
+.section-1 h1,.section-1 p{
+    text-align:center;
+}
+.section-1 h1{
+    margin-top:20%;
+    font-size:4.5em;
+}
+.section-1 p{
+    width:55%;
+    margin:auto;
+    font-size:2em;
+}
+.section-2{
+    text-align:center;
+}
+.section-2 img{
+width:150px;
+display:block;
+}
+.section-2 h2{
+    font-size:2.3em;
+    border-bottom:3px solid #00B172;
+    padding-bottom:5px;
+    width:350px;
+    margin:50px auto;
+}
+.section-2 h4{
+    margin-top:50px;
+   margin-right:50%;
+   color:#00B172;
+   font-size:1.5em;
+}
+.section-2 p{
+    margin-right:50%;
+}
+
+.block-1, .block-2, .block-3{
+    position:relative;
+    float:left;
+    padding:20px;
+    margin-left:5px;
+    width:325px;
+    
+}
+.block-1{
+    margin-left:17%;
+}
+.section-3{
+    position:relative;
+    clear:both;
+    background-color:#00B172;
+    width:90%;
+    margin:auto;
+   
+}
+.text{
+    color:#FFF;
+    padding:50px;
+    text-align:left;
+}
+.text h3,.text h4{
+    font-size:2em;
+}
+.text p{
+    font-size:1.3em;
+    width:30%;
+}
+.text h3{
+    border-bottom:3.5px solid #FFF;
+    display:inline;
+    padding-bottom:7.5px;
+}
+
+#spotify-icon{
+    width:130px;
+    position:absolute;
+    left:45%;
+    top:40%;
+}
+#spotify-app{
+    width:350px;
+    position:absolute;
+    top:50px;
+    right:100px;
+}
