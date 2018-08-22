@@ -109,10 +109,6 @@ nav a:link {
 	padding-bottom: 5px;
 }
 
-.detail {
-	background-color: #00B172;
-}
-
 .info-item {
 	float: left;
 	width: calc(33.33333333% - 160px);
@@ -148,17 +144,23 @@ nav a:link {
 }
 
 .detail {
-	padding: 40px 100px 60px 100px;
+	background-color: #00B172;
+	overflow: hidden;
+}
+
+.detail-content {
 	color: #FFF;
-	position: relative;
+    position: relative;
+    margin: 40px 100px 60px 100px;
 }
 
 .detail h3 {
-	font-size: 36px;
+    font-size: 36px;
     font-weight: 400;
     border-bottom: 4px solid #FFF;
     display: inline-block;
     padding-bottom: 5px;
+    padding-top: 0;
 }
 
 .detail-item h4 {
@@ -185,6 +187,19 @@ nav a:link {
 }
 
 .detail-logo img {
+	max-width: 100%;
+	height: auto;
+	right: 0;
+}
+
+.detail-screenshot {
+    width: 345px;
+    position: absolute;
+    top: 80px;
+    right: 0;
+}
+
+.detail-screenshot img {
 	max-width: 100%;
 	height: auto;
 }
