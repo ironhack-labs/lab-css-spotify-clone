@@ -12,6 +12,9 @@ body{
   color:#1A1A1A;
   font-family:Avenir;
 }
+.clearfix{
+  clear:both;
+}
 /*Header*/
 .header{
   padding:20px;
@@ -36,7 +39,7 @@ body{
   height: 100vh;
   background-size:cover;
 }
-.main h1,p{
+.main h1,.main p{
   color:#fff;
   text-align:center;
 }
@@ -48,6 +51,39 @@ body{
 .main p{
   font-size:2em;
 }
+/*whatson*/
+.whatson{
+  padding:50px;
+  text-align:center;
+}
+.whatson h2{
+  font-size: 3em;
+  border-bottom : 4px solid #00B172;
+  display: inline;
+}
+.col{
+  margin-top:5px;
+  width:30%;
+  float:left;
+  text-align:center;
 
+}
+.col img{
+width:30%;
+}
+.whatson p {
+  font-size:1.5em;
+  margin: 0;
+}
+.whatson h3{
+  color:#00B172;
+  font-weight: 900;
+  font-size: 2em;
+  margin: 10px 0;
+}
+.cards{
+  width:100%;
+  margin:0 auto;
+}
 
 
