@@ -6,3 +6,200 @@ Green: #00B172
 White: #FFF
 
 */
+
+@import url('https://fonts.googleapis.com/css?family=Open+Sans');
+
+
+body {
+    margin: 0;
+    padding: 0;
+    font-family: 'open sans';
+    font-size: 18px;
+    color: #1A1A1A;
+}
+
+.clearfix {
+    clear: both;
+  }
+
+
+
+/* Nav */
+nav {
+    background-color: #FFF;
+    height: 80px;
+    width: 100%;
+    padding: 15px 18px 0 18px;
+    word-spacing: 12px;
+    position: fixed;
+
+}
+
+.spotify-logo { 
+    height: 60px;
+    float: left;
+}
+
+nav ul {
+    float: right;
+    padding-right: 20px;
+    font-size: 20px;
+    
+  }
+  
+nav li {
+    display: inline-block;
+    margin: 0 0px;
+    text-decoration: none;
+  }
+nav a {
+    color: black;
+    text-decoration: none;
+    padding-right: 18px;
+
+}
+
+/* Header */
+
+.header {
+    color: white;
+    height: 650px;
+}
+
+.header-background {
+    background: url("../images/landing.jpg") no-repeat;
+    background-size: cover;
+}
+
+.header div {
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+}
+
+.header h1 {
+    font-size: 56px;
+    text-align: center;
+    margin-top: -10px;
+}
+
+.header p {
+    font-size: 22px;
+    text-align: center;
+    margin-top: -20px;
+}
+
+/* Spotify section */
+
+.container{
+	width: 1200px;
+	height: 100%;
+    margin: 25px 30px;
+}
+
+#spotify{
+margin-left: 60px;
+margin-right: 60px;
+padding-bottom: 40px;
+}
+
+#spotify img {
+  height: 100px;
+  display: block;
+  margin: 30px auto;
+    
+}
+
+#spotify article {
+    float: left;
+	width: 25%;
+	text-align: center;
+    margin: 30px 50px;
+      
+}
+
+#spotify span {
+    color: #00B172;
+    font-weight: bold;
+    font-size: 20px;
+    position: relative;
+}
+
+#spotify h2 {
+    text-align: center;
+    font-weight: bold;
+    margin-bottom: 12px;
+    font-size: 24px;
+}
+
+#spotify hr {
+    margin-top: -12px;
+    border: 2px solid #00B172;
+    width: 18%;
+ }
+
+/* Green section */
+
+.greenBox {
+color: white;
+background-color: #00B172;
+height: 550px;
+padding: 50px;
+margin: 30px 30px 30px 30px;
+}
+
+.greenBox-text {
+    float: left;
+    width: 35%;
+    margin-left: 50px;   
+}
+
+.greenBox-text p {
+    font-weight: lighter;
+}
+
+.greenBox-app {
+    margin-top: 60px;
+    margin-right: 50px;
+    float:right;
+}
+
+.greenBox-app img {
+    height: 500px;
+}
+
+
+.greenBox h2 {
+    font-weight: bold;
+    font-size: 30px;
+}
+
+.greenBox hr {
+   margin-top: -20px;
+   border: 2px solid white;
+}
+
+.greenBox-logo {
+    position: absolute;
+        left: 45%;
+        top: 1300px;
+}
+
+/* Logo Hover*/
+
+.spotify-logo:hover {
+    animation: topleft .6s infinite;
+  }
+
+@keyframes topleft {
+    0% {
+        margin-left: 0px;
+        margin-top: 0px
+      }
+    
+    100% {
+        margin-left: -18px;
+        margin-top: -15px
+      }
+    }
