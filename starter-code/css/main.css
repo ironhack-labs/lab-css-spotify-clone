@@ -83,9 +83,15 @@ nav a:link {
 }
 
 .container {
-	width: 1500px;
-	border: 1px solid black;
-	margin: 0 auto;
+	width: calc(100% - 80px);
+    margin: 0 auto;
+    overflow: hidden;
+    margin-left: 40px;
+	margin-right: 40px;
+}
+
+.info {
+	margin-bottom: 60px;
 	overflow: hidden;
 }
 
@@ -101,6 +107,10 @@ nav a:link {
 	color: #1A1A1A;
 	display: inline-block;
 	padding-bottom: 5px;
+}
+
+.detail {
+	background-color: #00B172;
 }
 
 .info-item {
