@@ -1,0 +1,158 @@
+/*
+Colors:
+
+Text: 1A1A1A
+Green: #00B172
+White: #FFF
+
+*/
+.nav-bar-all {
+  position: fixed;
+  top : 0;
+  word-spacing: 15px;
+  background-color: white; 
+}
+
+
+.nav-bar li {
+  display: inline-block;
+  font-family: Helvetica, sans-serif;
+}
+
+.nav-bar ul {
+  list-style: none;
+  color: black;
+  padding-left: 1050px;
+  padding-right: 50px;
+}
+
+.logo img {
+  height: 45px;
+  width: 150px;
+  margin-left: 40px;
+  margin-top: -40px;
+  float: left;
+}
+
+.first-block img {
+  height: 700px;
+  width: 1400px;
+  margin-top: 45px;
+}
+
+.first-text {
+  font-family: Helvetica, sans-serif;
+  color: white;
+  font-size: 26px;
+  text-align: center;
+  margin-top: -450px;
+}
+
+.second-block {
+  font-family: Helvetica, sans-serif;
+  text-align: center;
+}
+
+
+.second-block h2{
+  margin-top: 300px;
+  text-align: center;
+}
+
+.second-block hr {
+  width: 210px;
+  margin-top: -10px;
+  background-color: #00B172;
+  height: 3px;
+}
+.second-block h3 {
+  color: #00B172;
+}
+
+.size {
+  width: 130px;
+}
+
+.col {
+  float:left;
+} 
+.col-3 {
+  width:30%;
+  padding-bottom: 50px;
+}
+
+.col-middle {
+  margin:0 5% 0 5%;
+}
+
+.third-block {
+  background-color: #00B172;
+  margin-top: 300px;
+  height: 700px;
+}
+
+.block-three-text {
+  color: white;
+  font-family: Helvetica, sans-serif;
+  text-align: left;
+  padding-top: 60px;
+  padding-left: 100px;
+  line-height: 1.6;
+  font-size: 18px;
+}
+
+.block-three-text img {
+  position: absolute;
+  height: 150px;
+  width: 150px;
+  padding-left: 150px;
+  margin-top: -300px;
+}
+
+.block-three-text hr{
+  width: 350px;
+  float: left;
+  margin-top: -18px;
+  height: 3px;
+  background-color: white;
+}
+
+.block-three-img img {
+  height: 650px;
+  width: 350px;
+}
+
+.block-three-img {
+  float: right;
+  margin-top: -550px;
+  margin-right: 100px;
+}
+
+@keyframes bounce {
+	0%, 100%, 20%, 50%, 80% {
+		transform:         translateY(0)
+	}
+	40% {
+		transform:         translateY(-30px)
+	}
+	60% {
+		transform:         translateY(-15px)
+	}
+}
+.logo-img, .spot-log {  
+  animation-duration: 1s;
+  animation-fill-mode: both;
+  animation-timing-function: ease-in-out;
+  animation-iteration-count: infinite;
+  color: white;
+}
+.logo-img:hover {
+  cursor: pointer;
+  animation-name: bounce;
+}
+.spot-log:hover {
+  cursor: pointer;
+  animation-name: bounce;
+}
+
+ 
