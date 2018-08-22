@@ -6,3 +6,201 @@ Green: #00B172
 White: #FFF
 
 */
+
+
+* {
+  margin: 0;
+  padding: 0;
+  font-family: sans-serif;
+  font-size: 1.05em;
+}
+
+
+
+p {
+  font-size: 1.3em;
+  font-weight: 200;
+}
+
+h1 {
+  font-size: 3.8em;
+  font-weight: 600;
+  margin-bottom: 5%;
+}
+
+h2 {
+  font-size: 2em;
+  font-weight: 500;
+}
+
+h3 {
+  font-size: 1.2em;
+  margin-bottom: 5%;
+}
+
+
+.spotify-navbar {
+  position: fixed;
+  line-height: 82px;
+  width: 100%;
+  height: 80px;
+  display: block;
+  color: grey;
+  background: white;
+  
+}
+
+.spotify-navbar img {
+  margin-left: 2%;
+  margin-top: 5px;
+  height: 65px;
+  float: left;
+  vertical-align: center;
+}
+
+.spotify-navbar ul {
+  float: right;
+  margin: 0 3% 0 0;
+  width: 50%;
+}
+
+.spotify-navbar li {
+  margin: 0 0 0 20px;
+  padding: 0 2%;
+  list-style-type: none;
+  float: right;
+}
+
+header {
+  height: 750px;
+  color: white;
+  padding-top: 75px;
+  background: url(../images/landing.jpg);
+  background-repeat: no-repeat;
+  background-size: 100% 800px;
+  
+}
+
+
+.spotify-slogan {
+  width: 55%;
+  margin: 13% auto 0 auto;
+  text-align: center;
+}
+
+.spotify-what-is {
+  height: 500px;
+  width: 80%;
+  margin: 0 auto;
+  text-align: center;
+}
+
+.spotify-what-is h2 {
+  text-align: center;
+  margin: 0 auto;
+}
+
+.spotify-what-is hr {
+  margin: 2% auto 8% auto;
+  height: 3px;
+  width: 350px;
+  background-color:#00B172;
+}
+
+.spotify-what-is img {
+  width: 40%;
+  margin: 5% auto;
+  display: block;
+  height: 100px;
+}
+
+.spotify-what-is h3 {
+  color: #00B172;
+}
+
+.col {
+  float: left;
+}
+
+.col-3 {
+  width: 30%;
+}
+
+.col-middle {
+  margin: 0 5%;
+}
+.devices-app {
+  width: 85%;
+  background-color: #00B172;
+  margin: 0 auto;
+  padding: 5%;
+  height: 600px;
+  color: white;
+}
+
+.phone-app {
+  float: right;
+  width: 40%;
+}
+
+.phone-app img {
+  width: 70%;
+  margin: 0 auto;
+  margin-right: 5%;
+}
+
+.slogan-2-desc {
+  width: 50%;
+  float: left;
+}
+
+.slogan2 p {
+  margin-bottom: 5%;
+  font-weight: 300;
+  font-size: 1.1em;
+}
+
+.slogan2 hr {
+  margin: 1% 1% 7% 0;
+  height: 3px;
+  width: 540px;
+  background-color:white;
+}
+
+.icon {
+  width: 40%;
+  float: right;
+  margin: 20% auto;
+}
+
+.icon img {
+  width: 60%;
+  float: right;
+}
+
+@keyframes shake {
+  from,
+  to {transform: translate3d(0, 0, 0);}
+
+  10%,
+  30%,
+  50%,
+  70%,
+  90% {
+    transform: translate3d(-10px, 0, 0);
+  }
+
+  20%,
+  40%,
+  60%,
+  80% {
+    transform: translate3d(10px, 0, 0);
+  }
+}
+
+.spotify-logo:hover {
+  animation-duration: 2s;
+  animation-name: shake;
+}
+
+
