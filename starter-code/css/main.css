@@ -4,5 +4,54 @@ Colors:
 Text: 1A1A1A
 Green: #00B172
 White: #FFF
-
 */
+
+body {
+	font-family: 'Open Sans', sans-serif;
+	margin: 0;
+}
+
+header {
+	position: relative;
+	padding-top: 10px;
+	padding-bottom: 10px;
+} 
+.logo {
+	width: 20%;
+	margin-left: 30px;
+}
+
+nav {
+	display: inline-block;
+    position: absolute;
+	top: 50%;
+	transform: translateY(-50%);
+	right: 0;
+	margin-right: 30px;
+}
+
+.logo {
+	width: 250px;
+}
+
+.logo img {
+	max-width: 100%;
+	height: auto;
+}
+
+nav ul {
+	list-style-type: none;
+	padding-left: 0;
+}
+
+nav li {
+	display: inline-block;
+}
+
+nav a:link {
+	text-decoration: none;
+	color: #1A1A1A;
+	font-size: 24px;
+	display: block;
+    padding: 10px 15px;
+}
