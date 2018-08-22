@@ -11,19 +11,49 @@ body {
   color: #1A1A1A;
   margin: 0;
 }
+
 .clear {
   clear: both;
 }
+
+.nav-bar {
+  position: fixed;  
+  height: 100px;
+  display: block;
+  background-color: white;
+  width:100%;
+  z-index: 90;
+}
+
 .nav-bar img {
   float: left;
-  height: 50px;
-  margin-bottom: 20px;
+  height: 60px;
+  margin: 20px;
+
+}
+
+.nav-bar img:hover{
+  transform: translate( 0%, -10% );
+  animation-name: jump;
+  animation-duration: 0.5s;
+  animation-iteration-count: infinite;
+  animation-direction: alternate;
+  animation-timing-function: cubic-bezier(.14,.56,.02,.96)
+}
+
+@keyframes jump {
+  from {transform: translate(0, 0)}
+  to {transform: translate(0, -15%)}
+}
+
+.nav-bar ul {
+  float: right;
+  margin: 40px 40px 0 40px;
 }
 
 .nav-bar li {
-  float: right;
-  display: inline-block;
-  padding: 20px 10px 20px 10px;
+  display: inline;
+  padding: 10px;
   box-sizing: border-box;
 }
 
@@ -35,6 +65,7 @@ body {
   background-size: cover;
   background-repeat: no-repeat;
   position: relative;
+  top: 100px;
 }
 
 .centered {
@@ -69,7 +100,7 @@ body {
   text-align: center;
   font-weight: 600;
   font-size: 3em;
-  margin-top: 100px;
+  margin-top: 200px;
 }
 
 .discover h3 {
