@@ -94,7 +94,7 @@ nav img{
 }
 
 .second-section{
-    height: 60vh;
+    height: 80vh;
 }
 
 .second-section h2{
@@ -190,7 +190,7 @@ nav img{
     justify-content: space-evenly;
     align-items: flex-start;
     align-content: center;
-    width: 60%;
+    width: 50%;
 }
 
 .things-to-do h3{
@@ -201,5 +201,14 @@ nav img{
     font-size: 26px;
     line-height: 34px;
     font-weight: 100;
+}
+
+@keyframes jump{
+    0% {transform: translateY(0);}
+    100% {transform: translateY(-18px);}
+}
+
+nav img:hover{
+    animation: jump 0.4s cubic-bezier(.07,.72,.39,.91) alternate infinite;
 }
 
