@@ -6,3 +6,161 @@ Green: #00B172
 White: #FFF
 
 */
+body {
+  font-family: sans-serif, 'Courier New', Courier;
+  color: #1A1A1A;
+  margin: 0;
+}
+
+.clear {
+  clear: both;
+}
+
+.nav-bar {
+  position: fixed;  
+  height: 100px;
+  display: block;
+  background-color: white;
+  width:100%;
+  z-index: 90;
+}
+
+.nav-bar img {
+  float: left;
+  height: 60px;
+  margin: 20px;
+
+}
+
+.nav-bar img:hover{
+  transform: translate( 0%, -10% );
+  animation-name: jump;
+  animation-duration: 0.5s;
+  animation-iteration-count: infinite;
+  animation-direction: alternate;
+  animation-timing-function: cubic-bezier(.14,.56,.02,.96)
+}
+
+@keyframes jump {
+  from {transform: translate(0, 0)}
+  to {transform: translate(0, -15%)}
+}
+
+.nav-bar ul {
+  float: right;
+  margin: 40px 40px 0 40px;
+}
+
+.nav-bar li {
+  display: inline;
+  padding: 10px;
+  box-sizing: border-box;
+}
+
+.big-pic {
+  color: white;
+  height: 800px;
+  background-image: url(../images/landing.jpg);
+  position: 0 0;
+  background-size: cover;
+  background-repeat: no-repeat;
+  position: relative;
+  top: 100px;
+}
+
+.centered {
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+}
+
+.centered h1 {
+  font-size: 4.5em;
+  font-weight: 700;
+}
+
+.centered p, .discover div, .discover h2 {
+  text-align: center;
+}
+
+.centered p {
+  font-size: 1.5em;
+}
+
+.discover img {
+  height: 100px;
+}
+
+.discover div {
+  width: 33%;
+  float: left;
+  margin-top: 100px;
+}
+
+.discover h2 {
+  font-weight: 600;
+  font-size: 3em;
+  margin-top: 200px;
+}
+
+.discover h3 {
+  color: #00B172;
+  font-weight: 600;
+  font-size: 1.8em;
+}
+
+.discover hr {
+  width: 30%;
+  border: 2px solid #00B172; 
+  border-radius: 5px;
+  margin-top: -25px;
+}
+
+.container-features {
+  background-color: #00B172;
+  position: relative;
+  height: 900px;
+}
+
+.container-features h2 {
+  text-align: center;
+  font-size: 2.5em;
+  color: white;
+  padding-top: 5%;
+  padding-left: 5%;
+  text-align: left;
+}
+
+.container-features hr {
+  width: 35%; 
+  border: 2px solid white;
+  border-radius: 5px;
+  margin-left: 5%;
+  margin-top: -20px;
+}
+
+.features {
+  padding: 5%;
+  width: 30%;
+  color: white;
+  margin-top: -10px;
+}
+
+.features p {
+  font-size: 1.6em;
+  font-weight: 200;
+}
+
+.features h3 {
+  font-size: 2em;
+  padding-bottom: 20px;
+}
+
+.rigth-centered {
+  position: absolute;
+  top: 10%;
+  right: 10%;
+}
+
+
