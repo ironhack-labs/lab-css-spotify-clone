@@ -1,8 +1,175 @@
 /*
 Colors:
-
 Text: 1A1A1A
 Green: #00B172
 White: #FFF
-
 */
+
+/*NAVBAR*/
+
+* {
+  margin: 0;
+  padding: 0;
+}
+
+navbar {
+  position: fixed; 
+  height: 75px;
+  width: 100%;
+  top: 0;
+  background-color: white;
+}
+
+.imgNavbar {
+  width: 200px;
+  float: left; 
+  margin: 5px 20px;
+}
+
+.imgNavbar:hover {
+  margin: 50px 20px;
+  transition-property: margin;
+  transition-duration: 0.25s;
+  transition-timing-function: linear; 
+  transition-delay: 0;
+}
+
+.textNavbar {
+  display: inline-block;
+  color: #1A1A1A;
+  font-size: 20px;
+  width: 500px;
+  padding: 30px 0px;
+}
+
+div.textNavbar {
+  float: right;
+}
+
+li {
+  list-style-type: none;
+  display: inline;
+  margin: 0 20px;
+}
+
+/*HEADER*/
+header {
+  margin: 75px 0px 0px 0px;
+  width: 100%;
+  height: 1000px;
+  background-image: url("../images/landing.jpg");
+  background-size: cover;
+  background-repeat: no-repeat; 
+}
+
+.textHeader h1 {
+  width: 100%;
+  height: 200px;
+  line-height: 850px;
+  font-size: 75px;
+  color: white;
+  text-align: center;
+}
+
+.textHeader p {
+  width: 680px;
+  height: 100px;
+  font-size: 30px;
+  color: white;
+  text-align: center;
+  margin: 300px 0px 200px 450px; 
+}
+
+/*SECTION1 - WHAT'S ON SPOTI*/
+.sectionWhat div {
+  padding: 50px 0 10px 0;
+  text-align: center;
+  height: 480px;
+}
+
+.sectionWhat img {
+  width: 25%;
+}
+
+.sectionWhat h2 {
+  font-size:  30px;
+  text-decoration: underline #00B172;
+}
+
+.sectionWhat article {
+  float: left;
+  width: 33%;
+  margin-top: 50px;
+}
+
+.sectionWhat article h3 {
+  color: #00B172;
+  margin: 10px;
+  font-size: 25px;
+}
+
+.sectionWhat article p {
+  font-size: 25px;
+  color: #1A1A1A;
+  width: 250px;
+  margin: 0 120px; 
+}
+
+/*SECTION KANYE*/
+.greenDiv {
+  background: #00B172;
+  margin: 50px;
+  position: relative;
+}
+
+.greenDiv article {
+  font-size: 25px;
+  color: white;
+  text-align: center;
+}
+
+.greenDiv h2 {
+  font-size: 30px;
+  width: 400px;
+  color: white;
+  text-decoration: underline white;
+  text-align: left;
+  margin: 20px 0px 30px 50px;
+}
+
+.whitelogo {
+  width: 100px;
+  height: 100px;
+  position: absolute;
+  margin: -350px -700px 0 0;
+  padding-left: 650px;
+}
+
+.Kanyelogo {
+  width: 300px;
+  margin: 50px;
+}
+
+.leftGreenDiv {
+  margin: 50px;
+  width: 800px;
+  height: 500px;
+  float: left;
+}
+
+.leftGreenDiv h3 {
+  margin: 20px 0px 30px 50px; 
+  text-align: left;
+}
+
+.leftGreenDiv p {
+  color: white;
+  text-align: left;
+  width: 340px;
+  margin: 20px 0px 30px 50px;
+}
+
+.rightGreenDiv {
+  padding-left: 1000px;
+}
+
