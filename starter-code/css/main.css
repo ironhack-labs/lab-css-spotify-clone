@@ -103,13 +103,16 @@ nav img{
     border-bottom: 3px solid #00B172;
 }
 
-.content{
+.content, .third-section, .inner-box{
     display: flex;
     align-content: center;
-    justify-content: space-evenly;
     align-items: center;
     flex-direction: row;
+}
+
+.content{
     width: 100%;
+    justify-content: space-evenly;
 }
 
 .content img{
@@ -134,4 +137,69 @@ nav img{
     font-weight: 100;
 }
 
+.third-section{
+    margin: 20px;
+    background-color: #00B172;
+}
+
+.outer-box img{
+    width: 140px;
+    height: auto;
+}
+
+.kanye{
+    height: auto;
+    width: 30%;
+}
+
+.third-section{
+    padding: 60px;
+    color: white;
+    width: calc(100% -20px -100px);
+    justify-content: space-around;
+}
+
+.outer-box h2{
+    border-bottom: 3px solid white;
+    font-size: 36px;
+
+}
+
+.outer-box{
+    width: 50%;
+    height: 80%;
+    min-height: 70%;
+    display: flex;
+    flex-direction: column;
+    align-content: center;
+    justify-content: space-evenly;
+    align-items: flex-start;
+}
+
+.things-to-do{
+    width: 40%;
+}
+
+.inner-box{
+    justify-content: space-between;
+}
+
+.things-to-do{
+    display: flex;
+    flex-direction: column;
+    justify-content: space-evenly;
+    align-items: flex-start;
+    align-content: center;
+    width: 60%;
+}
+
+.things-to-do h3{
+    font-size: 28px;
+}
+
+.things-to-do p{
+    font-size: 26px;
+    line-height: 34px;
+    font-weight: 100;
+}
 
