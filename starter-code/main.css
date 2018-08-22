@@ -1,0 +1,175 @@
+/*
+Colors:
+
+Text: 1A1A1A
+Green: #00B172
+White: #FFF
+
+*/
+* {
+  margin: 0;
+  padding: 0;
+  font-family: "Franklin Gothic Medium", "Arial Narrow", Arial, sans-serif;
+}
+.nav-top {
+  position: fixed;
+  top: 0;
+  width: 100%;
+  display: flex;
+  justify-content: space-between;
+  height: 120px;
+  align-items: center;
+  background-color: #fff;
+}
+
+.spotify-logo {
+  width: auto;
+  height: 60%;
+  margin-left: 35px;
+}
+
+.spotify-logo:hover {
+  animation-name: spotify;
+  animation-duration: 0.2s;
+  animation-direction: alternate;
+  animation-iteration-count: infinite;
+}
+@keyframes spotify {
+  100% {
+    margin-bottom: 20px;
+  }
+}
+
+.top-links {
+  word-spacing: 20px;
+  font-size: 25px;
+  margin-right: 70px;
+  font-family: "Gill Sans", "Gill Sans MT", Calibri, "Trebuchet MS", sans-serif;
+  color: rgb(66, 64, 64);
+}
+
+.pic1 {
+  height: 100vh;
+  width: 100%;
+  background-image: url("images/landing.jpg");
+  background-repeat: no-repeat;
+  background-size: 100% auto;
+}
+
+.text-pic {
+  padding-top: 440px;
+  color: white;
+  text-align: center;
+}
+
+.text-pic h1 {
+  font-size: 100px;
+  padding-bottom: 20px;
+}
+
+.text-pic p {
+  font-size: 40px;
+  font-family: serif;
+}
+
+.what h4 {
+  margin: 0 auto;
+  padding-top: 30px;
+  width: 368px;
+  font-size: 40px;
+  text-align: center;
+  border-bottom: 4px solid #00b172;
+}
+
+.icons {
+  display: flex;
+  justify-content: space-between;
+  padding-top: 80px;
+}
+
+.millions {
+  margin-left: 200px;
+}
+
+.icons img {
+  height: 100px;
+  width: 125px;
+  margin-left: 25px;
+}
+
+.icons h5 {
+  font-size: 30px;
+  text-align: center;
+  margin-left: -50px;
+  color: #00b172;
+  padding-top: 20px;
+  padding-bottom: 40px;
+}
+
+.icons p {
+  font-size: 25px;
+  margin-left: -40px;
+  padding: 4px;
+}
+
+.icons .p1 {
+  text-align: center;
+}
+
+.stream {
+  margin-right: 150px;
+}
+
+.app-pic {
+  width: 95%;
+  height: 800px;
+  background-color: #00b172;
+  margin-left: 30px;
+  margin-top: 120px;
+  margin-bottom: 40px;
+}
+
+.white-icon {
+  width: auto;
+  height: 150px;
+  position: absolute;
+  margin-left: 800px;
+  margin-top: -350px;
+}
+
+.smartphone {
+  width: auto;
+  height: 620px;
+  margin-top: -600px;
+  margin-right: 200px;
+  float: right;
+}
+
+.left-block {
+  width: 300px;
+  display: flex;
+  flex-direction: column;
+  padding-left: 100px;
+  color: #fff;
+}
+
+.app-pic h4 {
+  font-size: 40px;
+  color: #fff;
+  width: 548px;
+  text-align: center;
+  border-bottom: 4px solid #fff;
+  margin-left: 100px;
+  padding-top: 100px;
+}
+
+.left-block h5 {
+  font-size: 30px;
+  padding-top: 40px;
+  padding-bottom: 40px;
+}
+
+.left-block p {
+  font-size: 20px;
+  padding-bottom: 10px;
+}
