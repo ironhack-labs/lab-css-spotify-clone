@@ -22,10 +22,29 @@ White: #FFF
     width: auto;
     height: auto;
 }
+.spotify-logo:hover {
+    animation-name: jumps;
+    animation-duration: 0.5s;
+    animation-iteration-count: infinite;
+}
+
+@keyframes jumps{
+    0% {
+        margin-bottom: 25px;
+}
+    50% {
+        margin-top: 25px;
+    }    
+      100% {
+        margin-bottom: 25px;
+      }
+}
+
 .nav-left {
     float:left;
     padding: 10px 0px 10px 10px;
 }
+
 .nav-right {
     list-style-type: none;
     float: right;
