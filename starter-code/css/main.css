@@ -71,26 +71,68 @@ nav a:link {
 	color: #FFF;
 }
 
-.hero-title {
+.hero h1 {
     font-size: 92px;
 	font-weight: 400;
 	margin-bottom: 30px;
 }
 
-.hero-text {
+.hero h2 {
 	font-size: 28px;
 	font-weight: 300;
 }
 
-.adventages-title {
-	text-align: center;
+.container {
+	width: 1500px;
+	border: 1px solid black;
+	margin: 0 auto;
+	overflow: hidden;
 }
 
-.adventages-title h3 {
+.info-title {
+	text-align: center;
+	margin-bottom: 65px;
+}
+
+.info-title h3 {
 	font-size: 36px;
 	font-weight: 600;
 	border-bottom: 4px solid #00B172;
 	color: #1A1A1A;
 	display: inline-block;
 	padding-bottom: 5px;
+}
+
+.info-item {
+	float: left;
+	width: calc(33.33333333% - 160px);
+    margin-left: 80px;
+    margin-right: 80px;
+    padding-left: 15px;
+    padding-right: 15px;
+	box-sizing: border-box;
+	text-align: center;
+}
+
+.info-item h4 {
+	color: #00B172;
+	font-size: 32px;
+	margin-top: 10px;
+	margin-bottom: 10px;
+}
+
+.info-item p {
+    font-size: 24px;
+    font-weight: 300;
+}
+
+.info-item-pic {
+	width: 130px;
+    margin: 0 auto;
+}
+
+.info-item-pic img {
+	max-width: 100%;
+    height: auto;
+    display: block;
 }
