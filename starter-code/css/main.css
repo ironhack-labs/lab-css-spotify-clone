@@ -11,6 +11,7 @@ body{
     margin: 0;
     padding: 0;
     font-family: Arial, Helvetica, sans-serif;
+    color: #1a1a1a;
 }
 
 .container{
@@ -22,10 +23,11 @@ body{
 nav{
     display:flex;
     height: 100px;
-    /*position: fixed;*/
+    position: fixed;
     justify-content: space-between;
     width: 100%;
     align-items: center;
+    background-color: white;
 }
 
 nav a{
@@ -51,8 +53,85 @@ nav img{
 
 .first-section{
     background-image: url("../images/landing.jpg");
-    background-size: contain;
+    background-size: cover;
     background-repeat: no-repeat;
+    color: white;
+    margin-top: 100px;
+    height: calc(100vh - 100px); 
     width: 100%;
+    display: flex;
+    align-items: center;
+    align-content: center;
+    justify-content: center;
+    flex-direction: column;
+}
+
+.first-section h2 {
+    font-size: 70px;
+    margin-bottom: 40px;
+}
+
+.first-section p {
+    font-size: 24px;
+    margin-top: 0;
+    margin-bottom: 15px;
+    font-weight: normal;
+}
+
+/*
+.first-section img{
+    visibility: hidden;
+    max-width: 100%;
+}
+*/
+
+.second-section, .descriptions{
+    display: flex;
+    flex-direction: column;
+    align-content: center;
+    justify-content: space-evenly;
+    align-items: center;
+}
+
+.second-section{
+    height: 60vh;
+}
+
+.second-section h2{
+    font-weight: normal;
+    font-size: 34px;
+    border-bottom: 3px solid #00B172;
+}
+
+.content{
+    display: flex;
+    align-content: center;
+    justify-content: space-evenly;
+    align-items: center;
+    flex-direction: row;
+    width: 100%;
+}
+
+.content img{
+    width: 8vw;
     height: auto;
 }
+
+
+.descriptions{
+    width: 20%;
+    text-align: center;
+}
+
+.descriptions h3{
+    color: #00B172;
+    font-weight: bold;
+    font-size: 28px;
+}
+
+.descriptions p{
+    font-size: 24px;
+    font-weight: 100;
+}
+
+
