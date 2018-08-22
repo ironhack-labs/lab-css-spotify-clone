@@ -6,3 +6,199 @@ Green: #00B172
 White: #FFF
 
 */
+
+body {
+    font-family: Arial, Helvetica, sans-serif;
+    margin: 0;
+}
+.nav-bar {
+    border: 1px solid black;
+}
+.nav-bar img {
+    
+    display: inline-block;
+    width: 16.5%;
+    height: 16.5%;
+    padding-top: 25px;
+    padding-bottom: 20px;
+    position: relative;
+    left: 25px;
+}
+.nav-bar img:hover {
+    animation-name: logoJump;
+    animation-duration: 1s;
+}
+
+@keyframes logoJump {  
+    100% {
+      top: 5px;
+    }
+  }
+
+.nav-bar ul {
+    display: inline-block;
+    position: relative;
+    float: right;
+    font-size: 2em;
+    right: 50px;
+    padding-top: 20px;
+
+}
+.nav-bar li {
+    
+    display: inline-block;
+    padding: 0 15px;
+}
+
+.section-1 {
+    
+    background-image: url("../images/landing.jpg");
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+    height: 1100px;
+    
+}
+.section-1 h1 {
+    
+    color: white;
+    font-size: 6.8em;
+    position: relative;
+    display: inline-block;
+    left: 23%;
+    margin-top: 325px;
+    margin-bottom: 0;
+
+}
+.section-1 p {
+    
+    color: white;
+    position: relative;
+    width: 55%;
+    left: 23%;
+    font-size: 2.6em;
+    margin-top: 40px;
+    text-align: center
+
+}
+.section-2 {
+    
+    height: 810px;
+
+}
+.section-2 h2 {
+    
+    text-align: center;
+    font-size: 3.2em;
+    padding-top: 18px;
+    padding-bottom: 12px;
+    text-decoration: underline #00B172;
+}
+
+.section-2 .content {  
+    
+    width: 90%;
+    margin: 0 auto;
+    position: relative;
+    top: 100px;
+
+}
+.section-2 .col {
+    
+    text-align: center;
+    display:  inline-block;
+    width: 548px;
+    height: 400px;;
+    float: left;
+
+}
+.col img {
+    
+    width: 35%;
+    height: 35%;
+
+}
+.col h3 {
+    
+    font-size: 2.5em;
+    color: #00B172;
+    margin-top: 20px;
+
+}
+.col p {
+    
+    color: rgb(99, 102, 101);
+    font-size: 2.2em;
+    width: 70%;
+    text-align: center;
+    position: relative;
+    margin: 20px auto;
+    padding-bottom: 10px;
+
+}
+.section-3 {
+    
+    background-color: #00B172;
+    margin-left: 40px;
+    margin-right: 40px;
+    margin-bottom: 40px;
+    position: relative;
+    height: 1100px;
+
+}
+.section-3 .left-txt {
+    
+    display: inline-block;
+    float: left;
+    width: 50%;
+    color: white;
+    
+
+}
+
+.left-txt h2 {
+    
+    font-size: 3.2em;
+    text-decoration: underline;
+    margin-top: 95px;
+    margin-bottom: 120px;
+    margin-right: 20px;
+    padding-left: 120px;
+    padding-bottom: 12px;
+}
+.left-txt h3 {
+    font-size: 2.5em;
+    
+    padding-left: 120px;
+    
+
+}
+.left-txt p {
+    
+    font-size: 2.2em;
+    width: 60%;
+    padding-left: 120px;
+
+}
+.section-3 .app {
+    
+    display: inline-block;
+    float: right;
+    width: 45%;
+
+}
+.app img {
+    margin: auto;
+    height: 840px;
+    position: relative;
+    left: 26%;
+    top: 142px;
+}
+
+.section-3 .white-logo {
+    width: 10%;
+    position: relative;
+    top: -400px;
+    left: -100px;
+
+}
