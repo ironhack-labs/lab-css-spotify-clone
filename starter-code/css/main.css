@@ -71,11 +71,9 @@ h1 + p{
 
 /*SECTIONS*/
 section{
-    padding: 30px 60px;
+    padding: 70px;
 }
 .s1{
-    display: flex;
-    justify-content: space-between;
 }
 .s2{
     background-color: #00B172;
@@ -83,50 +81,57 @@ section{
     justify-content: space-between;
 }
 h2{
-    position: relative;
-    left: 50%;
-    transform: translate(0, 50%);
+    display: block;
+    font-size: 33px;
     text-decoration: underline;
     align-content: center;
-    border: 3px solid red;
+    margin-bottom: 70px;
+    margin-top: 0;
 }
 h3{
     margin: 0 auto;
-    
+    font-size: 25px;
+    font-weight: bold;
+}
+p{
+    font-size: 22px;
 }
 .s-title{
-    width: 100%;
+    display: block;
 }
 .main-content{
-    display: block;
-    width: 100%;
+    display: flex;
+    justify-content: space-between;
 }
 .benefits{
-    display: inline-block;
     width: 30%;
-    border: 2px solid #00B172;
+    height: 250px;
 }
 .benefits-icon{
-    width: 150px;
+    height: 100px;
+    display: block;
+    margin: 0 auto 20px;
 }
 .content{
-    display: inline-block;
+    /*display: inline-block;*/
     width: 35%;
-    border: 2px solid pink;
 }
 .phone{
-    width: 350px;
+    height: 500px;
+}
+.logo-white{
+    height: 100px;
+}
+.content-logo{
+    
 }
 .content-phone{
-    display: inline-block;
-    justify-content: flex-end;
     width: 35%;
     margin: 0;
     padding: 0;
-    border: 2px solid pink;
 }
 .s1 h2{
-    
+    text-align: center;
 }
 .s1 h3{
     text-align: center;
