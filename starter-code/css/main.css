@@ -6,3 +6,168 @@ Green: #00B172
 White: #FFF
 
 */
+
+* {
+  margin:0;
+  font-family: 'Roboto', sans-serif;
+}
+nav {
+  background: white;
+  position: fixed;
+  z-index: +1;
+}
+nav img {
+  float: left;
+  display: block;
+  width:15%;
+  margin-top: 20px;
+  margin-left: 20px;
+  margin-bottom: 20px;
+}
+nav ul {
+  margin: 20px;
+ 
+}
+nav li {
+  display: block;
+  float:right;
+  list-style-type:none;
+  color:#1A1A1A;
+    text-align: center;
+    padding: 16px;
+    font-size: 24px;
+}
+
+.main-picture {
+  background-image: url(../images/landing.jpg);
+    background-repeat: no-repeat;
+    background-size: 100%;
+    height: 800px;
+}
+
+.main-picture h1 {
+  color:#FFF;
+  text-align: center;
+  position: relative;
+  top:350px;
+  font-size: 6em;
+}
+.main-picture p {
+  color:#FFF;
+  text-align: center;
+  position: relative;
+  top:390px;
+  font-size: 30px;
+  line-height: 40px;
+}
+
+.section-two {
+  height: 500px;
+  margin: 0 50px;
+}
+.section-two h1 {
+  text-align: center;
+  font-size: 40px;
+  margin-top: 50px;
+  margin-bottom: 100px;
+  text-decoration: underline #00B172;
+  text-underline-position: under;
+}
+.section-two img {
+  width: 35%;
+  position: relative;
+  left:100px;
+}
+.section-two h2 {
+  color:#00B172;
+  font-size: 30px;
+  text-align: center;
+  margin-bottom: 30px;
+  margin-top: 20px;
+}
+.music, .quality, .devices{
+  float: left;
+  width: 24%;
+  height: 400px;
+  margin: auto 60px;
+}
+.section-two p {
+  font-size: 24px;
+  text-align: center;
+}
+
+.green-div h2 {
+  margin-top: 30px;
+  margin-bottom: 20px;
+  font-size: 28px;
+}
+.green-div h1 {
+  font-size: 36px;
+  margin-top: 100px;
+  margin-left: 100px;
+  text-decoration: underline #FFF;
+  text-underline-position: under;
+}
+.green-div p {
+  font-size: 20px;
+}
+.quality {
+  margin-top: 10px;
+}
+.green-div {
+  background-color: #00B172;
+  line-height: 40px;
+  border: 35px solid white;
+  color: #FFF;
+  height: 800px;
+  position: relative;
+}
+
+.green-text {
+  position:relative;
+  width: 300px;
+  margin-left: 100px;
+  margin-top: 50px;
+}
+.spot-icon {
+  width : 10%;
+  position: absolute;
+  top:400px;
+  left:600px;
+ 
+} 
+.spot-app {
+  width : 25%;
+  position: absolute;
+  bottom: 50px;
+  right: 100px;
+  
+}
+
+@keyframes bounce {
+	0%, 100%, 20%, 50%, 80% {
+		transform:         translateY(0)
+	}
+	40% {
+		transform:         translateY(-30px)
+	}
+	60% {
+		transform:         translateY(-15px)
+	}
+}
+.spot-icon, .bouncer {  
+  animation-duration: 1s;
+  animation-fill-mode: both;
+  animation-timing-function: ease-in-out;
+  animation-iteration-count: infinite;
+  color: white;
+}
+.spot-icon:hover {
+  cursor: pointer;
+  animation-name: bounce;
+}
+.bouncer:hover {
+  cursor: pointer;
+  animation-name: bounce;
+}
+
