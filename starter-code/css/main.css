@@ -1,8 +1,145 @@
 /*
 Colors:
-
 Text: 1A1A1A
 Green: #00B172
 White: #FFF
-
 */
+/*GENERAL*/
+body{
+    margin: 0;
+    padding: 0;
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+    max-width: 100%;
+    overflow-x: hidden;
+}
+.green{
+    color: #00B172;
+}
+
+/*NAVBAR*/
+.navbar{
+position: fixed;
+background-color: white;
+width: 100%;
+padding: 20px;
+display: flex;
+justify-content: space-between;
+box-sizing: border-box;
+z-index: 50;
+}
+.logo{
+    height: 60px;
+}
+.menu{   
+    display: inline-block;
+}
+ul{
+    display: inline-block;
+    justify-content: flex-end;
+}
+li{
+    display: inline-block;
+    margin: 0 15px;
+    font-size: 22px;
+}
+/*LANDING*/
+.cover{
+    display: block;
+    position: relative;
+    background: url("../images/landing.jpg") no-repeat;
+    background-size: 100%;
+    background: cover;
+    color: #FFF;
+    height: 650px; /*Revisar*/
+}
+.titles{
+    text-align: center;
+    vertical-align: middle;
+    margin-top: 225px;
+}
+h1{
+    font-size: 60px;
+    display: inline-block;
+    margin-bottom: 30px;
+    
+}
+h1 + p{
+    font-size: 25px;
+    display: inline-block;
+    margin-top: 0;
+}
+
+/*SECTIONS*/
+section{
+    padding: 30px 60px;
+}
+.s1{
+    display: flex;
+    justify-content: space-between;
+}
+.s2{
+    background-color: #00B172;
+    color: #FFF;
+    justify-content: space-between;
+}
+h2{
+    position: relative;
+    left: 50%;
+    transform: translate(0, 50%);
+    text-decoration: underline;
+    align-content: center;
+    border: 3px solid red;
+}
+h3{
+    margin: 0 auto;
+    
+}
+.s-title{
+    width: 100%;
+}
+.main-content{
+    display: block;
+    width: 100%;
+}
+.benefits{
+    display: inline-block;
+    width: 30%;
+    border: 2px solid #00B172;
+}
+.benefits-icon{
+    width: 150px;
+}
+.content{
+    display: inline-block;
+    width: 35%;
+    border: 2px solid pink;
+}
+.phone{
+    width: 350px;
+}
+.content-phone{
+    display: inline-block;
+    justify-content: flex-end;
+    width: 35%;
+    margin: 0;
+    padding: 0;
+    border: 2px solid pink;
+}
+.s1 h2{
+    
+}
+.s1 h3{
+    text-align: center;
+}
+.s1 p{
+    text-align: center;
+}
+.s2 h2{
+    
+}
+.s2 h3{
+
+}
+.s2 p{
+
+}
