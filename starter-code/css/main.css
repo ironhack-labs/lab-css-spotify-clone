@@ -4,5 +4,165 @@ Colors:
 Text: 1A1A1A
 Green: #00B172
 White: #FFF
-
 */
+
+body {
+  margin: 0;
+  font-family: Helvetica, arial, sans-serif;
+}
+
+h2 {
+  font-size: 2.4em;
+}
+
+nav {
+  position: fixed;
+  top: 0;
+  left: 0;
+  right: 0;
+  height: 90px;
+  background-color: white;
+}
+
+.top-right li {
+  margin: 15px 40px 0 0;
+  float: right;
+  list-style: none;
+  font-size: 1.5em;
+  letter-spacing: 1.5px;
+  
+}
+.top-right a{
+  color: black;
+  text-decoration: none;
+}
+
+.top-left {
+  margin: 15px 40px;;
+  float: left;
+}
+
+@keyframes logoAnimation {
+  to {
+    margin: 5px 35px 25px 35px;
+  }
+}
+
+.top-left:hover {
+  animation-name: logoAnimation;
+  animation-duration: 500ms;
+  animation-direction: alternate;
+  animation-iteration-count: infinite;
+}
+.clearfix {
+  clear: both;
+}
+
+
+.background {
+  background-image: url("../images/landing.jpg");
+  background-size: cover;
+  background-repeat: no-repeat;
+  height: 950px;
+  border: 1px solid black;
+}
+
+.background-text h1, .background-text p {
+  text-align: center;
+  color: white;
+}
+
+.background-text {
+padding: 300px 0;
+}
+
+.background-text h1 {
+  font-size: 5em;
+  margin-bottom: 25px;
+}
+
+.background-text p {
+  font-size: 2em;
+  margin: 5px 0;
+}
+
+.spotify-content {
+  height: 600px;
+  margin: 0 auto;
+  padding: 25px 0 100px;
+  text-align: center;
+}
+
+.spotify-content h2  {
+  border-bottom: 4px solid #00B172;
+  display: inline-block;
+  padding-bottom: 18px;
+  text-align: center;
+  }
+
+.content-box {
+  font-size: 1.7em;
+  font-weight: lighter;
+  text-align: center;
+  box-sizing: border-box;
+  margin: 35px 0.5% 0 0.5%;
+  padding: 40px 70px;
+  width: 32%;
+  float: left;
+}
+
+.content-box img {
+  width: 130px;
+}
+
+.content-box h3 {
+  color: #00B172;
+}
+
+.green-section {
+  background-color: #00B172;
+  margin: 40px;
+  height: 950px; 
+  position: relative;
+  z-index: -1;
+}
+
+.kanye {
+  width: 45%;
+  margin: 0 20px 0 100px;
+  padding: 50px 0;
+  float: left;
+  color: white;
+}
+
+.screenshot {
+  width: 30%;
+  margin: 135px 0 40px 100px;
+}
+
+.kanye h2 {
+  color: white;
+  border-bottom: 4px solid white;
+  padding-bottom: 18px;
+  display: inline-block;
+}
+
+.kanye h3, .kanye p {
+  font-size: 1.7em;
+  margin: 45px 0;
+  letter-spacing: .02rem;
+}
+
+.kanye p {
+font-weight: lighter;
+width: 67%;
+line-height: 1.5em;
+}
+
+.spotify-logo {
+position: absolute;
+width: 140px;
+display: block;
+bottom: 405px;
+left: 602px;
+}
