@@ -3,6 +3,132 @@ Colors:
 
 Text: 1A1A1A
 Green: #00B172
-White: #FFF
+White: 
 
-*/
+*/ 
+
+/* * {
+    border: 1px;
+    border-style: solid;
+} */
+
+body {
+    font: 200 16px/1.5 "Helvetica Neue", Helvetica, Arial, sans-serif;
+    margin: 0;
+    border: 0;
+}
+
+.topnav {
+    background-color: #FFF;
+    padding: 5px 0;
+    overflow: hidden;
+    position: fixed;
+}
+.topnav a {
+    float: right;
+    color: Black;
+    text-align: center;
+    vertical-align: middle;
+    margin: 5px 10px;
+    padding: 14px 16px;
+    text-decoration: none;
+    font-size: 17px;
+}
+
+.spotify-logo {
+    width: 12%;
+    margin-left: 25px;
+    vertical-align: middle;
+    transition: transform .2s;
+}
+
+.spotify-logo:hover {
+    transform: scale(1.10);
+}
+
+.icon {
+    width: 45%;
+    height: 100px;
+}
+
+.main-box {
+    background-image: url('../images/landing.jpg');
+    background-size: cover;
+    background-position: center;
+    background-repeat:   no-repeat;
+    background-position: center center; 
+    height: 700px;
+    text-align: center;
+}
+.main-box-content {
+    margin: 0 auto;
+    display: inline-block;
+    vertical-align: middle;
+    margin-top: 200px;
+    color: white;
+}
+
+.main-box-content h1{
+    font-size: 5em;
+    margin-bottom: 20px;
+}
+.main-box-content p{
+    font-size: 1.25em;
+    margin: 0;
+}
+
+.play-box {
+    padding: 20px 0 0 0;
+    text-align: center;
+    margin: 0 auto;
+}
+.play-container {
+    color: Black;
+    display: inline-block;
+    text-align: center;
+    padding: 14px 16px;
+    text-decoration: none;
+    font-size: 17px;
+    width: 270px;
+    vertical-align: top;
+    margin-bottom: 30px;
+}
+.spotify-app {
+    height: 500px;
+}
+.jeezy-box-content {
+    float: left;
+    width: 325px;
+    margin: 30px 0 0 30px;
+}
+.jeezy-box-image {
+    float: right;
+    margin: 50px 50px 30px 0;
+}
+.jeezy-box-container {
+    background-image: url('../images/spotify-icon-white.png');
+    background-size: 15%;
+    background-position: center;
+    background-color: #00B172;
+    background-repeat: no-repeat;
+    width: 920px;
+    height: auto;
+    margin: 20px auto;
+    color: white;
+}
+.clearfix:after{
+	display:block;
+	clear:both;
+	content:'';
+}
+
+.jeezy-box-content h1 {
+    border-bottom: 5px solid white;
+}
+
+.play-box h1 {
+    border-bottom: 5px solid #00B172;
+    width: 225px;
+    margin: 40px auto;
+
+}
