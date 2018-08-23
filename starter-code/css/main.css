@@ -1,8 +1,158 @@
-/*
+  /*
 Colors:
-
 Text: 1A1A1A
 Green: #00B172
 White: #FFF
-
 */
+
+body {
+    margin: 0;
+    font-family: Helvetica, arial, sans-serif;
+  }
+  
+  h2 {
+    font-size: 2.4em;
+  }
+  
+  nav {
+    position: fixed;
+    top: 0;
+    left: 0;
+    right: 0;
+    height: 15%;
+    background-color: white;
+  }
+  
+  .superior{
+    float: left;
+  }
+  
+  .lista li {
+    margin: 1% 5% 0 0;
+    float: right;
+    list-style: none;
+    font-size: 1.5em;
+    letter-spacing: 1.5px;
+    
+  }
+  .lista a{
+    color: black;
+    text-decoration: none;
+  }
+  
+  .superior {
+    margin: 15px 40px;;
+    float: left;
+  }
+  
+  .clearfix {
+    clear: both;
+  }
+  
+  .portada {
+    background-image: url("../images/landing.jpg");
+    background-size: cover;
+    background-repeat: no-repeat;
+    height: 100%;
+    border: 1px solid black;
+  }
+  
+  .textoportada {
+  padding: 30% 0;
+  }
+  
+  .textoportada h1, .textoportada p {
+    text-align: center;
+    color: white;
+  }
+  
+  .textoportada h1 {
+    font-size: 5em;
+    margin-bottom: 2.5%;
+  }
+  
+  .textoportada p {
+    font-size: 2em;
+    margin: .5% 0;
+  }
+  
+  .iconitos {
+    font-size: 1.7em;
+    font-weight: lighter;
+    text-align: center;
+    box-sizing: border-box;
+    margin: 3.5% 0 0 0;
+    padding: 4% 7%;
+    width: 32%;
+    float: left;
+  }
+  
+  .iconitos img {
+    width: 130px;
+  }
+  
+  .iconitos h3 {
+    color: #00B172;
+  }
+  
+  .iconos {
+    height: 60%;
+    margin: 0 auto;
+    padding: 2.5% 0 10%;
+    text-align: center;
+  }
+  
+  .iconos h2  {
+    border-bottom: 4px solid #00B172;
+    display: inline-block;
+    padding-bottom: 5px;
+    text-align: center;
+    }
+  
+  
+  .green {
+    background-color: #00B172;
+    margin: 2%;
+    height: 95%;
+    position: relative;
+  }
+  
+  .kanye {
+    width: 45%;
+    margin: 0 2% 0 10%;
+    padding: 5% 0;
+    float: left;
+    color: white;
+  }
+  
+  .app {
+    width: 30%;
+    margin: 13% 0 4% 10%;
+  }
+  
+  .kanye h2 {
+    color: white;
+    border-bottom: 4px solid white;
+    padding-bottom: 1%;
+    display: inline-block;
+  }
+  
+  .kanye h3, .kanye p {
+    font-size: 1.7em;
+    margin: 4% 0;
+    letter-spacing: .02rem;
+  }
+  
+  .kanye p {
+  font-weight: lighter;
+  width: 60%;
+  line-height: 1.2em;
+  }
+  
+  .spoti {
+  position: absolute;
+  width: 15%;
+  display: block;
+  bottom: 40%;
+  left: 45%;
+  }
