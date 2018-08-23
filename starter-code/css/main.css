@@ -6,3 +6,164 @@ Green: #00B172
 White: #FFF
 
 */
+* {
+    margin: 0;
+    padding: 0;
+}
+
+
+/*-----nav----*/
+nav {
+    padding: 15px 25px;
+    height: 100px;
+    width: 100%;
+    position: fixed;
+    background-color: white;
+    box-sizing: border-box;
+    z-index: 2;
+
+}
+.logo {
+    width: 200px;
+    vertical-align: middle;
+}
+
+.nav-items {
+    margin-left: 55%;
+    display: inline-block;
+}
+
+.nav-items a:not(:last-child) {
+    padding-right: 25px;
+}
+
+.nav-items a {
+    text-decoration: none;
+    color: #1a1a1a;
+    font-size: 20px;
+}
+/*----image----*/
+
+.image {
+    height: 850px;
+    width: 100%;
+    background-image: url(../images/landing.jpg);
+    background-size: cover;
+} 
+
+.image-text {
+    color: white;
+    position: relative;
+    top:50%;
+    left:50%;
+    width: 60%;
+    text-align: center;
+    transform: translate(-50%, -50%);
+}
+
+.image-text h1{
+    font-size: 80px;
+}
+
+.image-text p {
+    font-size: 30px;
+    margin-top: 15px;
+}
+
+.whats-on {
+width: 90%;
+margin: 50px auto;
+}
+
+.wos {
+    max-width: 27%;
+    margin: 0 auto 70px auto;
+    text-align: center;
+    font-size: 42px;
+    border-bottom: 3px #00B172 solid;
+    padding-bottom: 10px;
+}
+
+.whats-on article {
+    width: 32.8%;
+    
+    display: inline-block;
+    box-sizing: border-box;
+    padding: 40px;
+    vertical-align: middle;
+    text-align: center;
+}
+
+.image-container {
+    width:100%;
+    height: 250px;
+}
+
+.whats-on-image {
+    width: 100%;  
+}
+
+.whats-on-para {
+    font-size: 30px;
+    color: #1a1a1a;
+    height: 103px;
+}
+
+.whats-on-head {
+    font-size: 40px;
+    margin-bottom: 20px;
+    color: #00B172;
+    height: 95px;
+}
+
+.kanye {
+    width: 90%;
+    margin: 50px auto 0 50px;
+    background-color: #00B172;
+    position: relative;
+    }
+
+.kanye article {
+    width: 49.8%;
+    display: inline-block;
+    padding: 60px;
+    box-sizing: border-box;
+}
+
+.kanye-text h2 {
+    color: white;
+    font-size: 39px;
+    border-bottom: 3px white solid;
+    margin-bottom: 50px;
+}
+
+.kanye-text h3 {
+    color: white;
+    font-size: 35px;
+    margin-bottom: 25px;
+
+}
+
+.kanye-text p {
+    margin-bottom: 25px;
+    color: white;
+    font-size: 20px;
+    width: 60%;
+}
+
+.spo-app {
+    height: 500px;
+    
+}
+
+.kanye-pic {
+    text-align: center;
+}
+
+.icon {
+    width: 150px;
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+}
