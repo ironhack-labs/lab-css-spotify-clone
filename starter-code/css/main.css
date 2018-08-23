@@ -6,3 +6,183 @@ Green: #00B172
 White: #FFF
 
 */
+
+
+@import url('https://fonts.googleapis.com/css?family=Montserrat');
+
+*{
+  margin: 0;
+  padding: 0;
+  font-family: 'Montserrat', sans-serif;
+}
+.clearfix{
+  clear: both;
+}
+nav{
+  position: fixed;
+  z-index: 200;
+  width: 100vw;
+  height: 10vh;
+  background:#FFF;
+  
+}
+nav img{
+  width: 200px;
+  float: left;
+  margin-top: 20px;
+  margin-left: 50px;
+}
+nav ul{
+  padding: 20px;
+  float: right;
+}
+ul li{
+  font-size: 2em;
+  float: left;
+  margin-right: 40px;
+  display: inline-block;
+}
+.absolute{
+  position: absolute;
+}
+.section-landing{
+  position: relative;
+  width: 100%;
+  height: 100vh;
+  background-image: url(../images/landing.jpg);
+  background-repeat: no-repeat; 
+  background-position: center;
+  background-size: cover;
+}
+.section-landing h1{
+  text-align: center;
+  font-weight: 200;
+  font-size: 8em;
+  color: white;
+  position: absolute;
+  left: 50%;
+  top: 50%;
+  transform: translate(-50%,-50%);
+}
+
+.section-landing p{
+  display: inline-block;
+  font-size: 2em !important;
+  margin: 0;
+  padding: 0;
+  text-align: center;
+  font-size: 1em;
+  color: white;
+  position: absolute;
+  left: 50%;
+  bottom: 20%;
+  transform: translate(-50%,-50%);
+}
+.whats-on{
+  text-align: center;
+  width: 100%;
+  height: 100%;
+}
+.container{
+  padding: 60px;
+  margin: 0 auto;
+  height: 100%;
+  width: 50%;
+}
+.product-container{
+  padding: 20px;
+  margin: 35px;
+  float: left;
+  width: 26%;
+  height: 40vh;
+ 
+}
+.product-container h2{
+  margin-top: 20px;
+  margin-bottom: 20px;
+  font-size: 2.3em;
+  font-weight: bolder;
+  color:#00B172;
+}
+.product-container p{
+  color:black;
+  font-size: 30px;
+  font-weight: 200;
+}
+.container-products{
+  padding: 20px;
+  margin: 0 auto;
+  height: 100%;
+  width: 85%;
+  display: inline-block;
+}
+.container-kanye{
+  padding: 30px;
+  margin-top: 80px !important;
+  margin-bottom: 60px !important;
+  width: 90%;
+  background: #1ab26b;
+  margin: 0 auto;
+}
+.container-kanye h3{
+  margin: 30px;
+  width: 30%;
+  color: white;
+  border-bottom: 5px solid white;
+}
+.section-kanye{
+  width: 100%;
+  height: 100%;
+}
+.container-kanye-logo{
+  width: 10% !important;
+  display: inline-block;
+  margin-right: 8px;
+  text-align: center;
+  position: relative;
+  bottom: 200px;
+  right: 80px;
+}
+
+.article-kanye{
+  display: inline-block;
+  padding: 30px;
+  width: 50%;
+  text-align: start;
+  margin-left: 60px;
+
+
+}
+.article-kanye-img{
+  display: inline-block;
+  width: 100px;
+  text-align: right;
+  padding: 40px;
+  margin-right: 30px;
+}
+.kanie-image{
+  float: right;
+  width: 342px;
+margin-left: 110px;
+position: relative;
+margin-top: -640px;
+margin-right: 151px;
+}
+.container-kanie article, h4{
+  margin: 30px;
+  color: white;
+  font-size:2em;
+}
+article p{
+  font-size: 1.7em;
+  color: white;
+}
+h3{
+  font-size: 2.5em;
+  font-weight: bold;
+  padding: 10px;
+  color: black;
+  margin: 0 auto;
+  width: 50%;
+  border-bottom: 5px solid green;
+}
