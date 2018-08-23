@@ -1,239 +1,172 @@
-html, body{
+/*
+Colors:
+
+Text: 1A1A1A
+Green: #00B172
+White: #FFF
+
+*/
+
+html, body {
   margin:0;
   padding:0;
 }
 
-nav {
-  background-color: #C12127;
-  color: rgba(255,255,255,0.8);
-  padding-top: 15px;
-  height: 60px;
+  nav {
+    height: 7px;
+    
+  
 }
 
-nav a {
-  color: rgba(255,255,255,0.8);
-  text-decoration: none;
+nav .pdhd{
+float: right
+
+
 }
 
-.top-links {
-  display: inline-block;
-  float: right;
-  padding: 0;
-  margin: 0 20px 0 0;
+nav a{
+  text-align: right;
 }
 
-.top-links li {
-  display: inline-block;
-  margin: 0 10px;
-}
-.top-left{
-  height:30px;
+nav img{
+  width: 245px;
+  height: 60px;;
   float: left;
 }
 
-.build{
-  margin: auto;
-    width: 40%;
-}
-.city{
-  float:right;
-}
-.build{
-  background-color: rgb(32, 101, 136);
-  color: white;
-}
 
-.buildw{
-  color: rgba(255,255,255,0.8);
-}
-
-.upm-desc{
-  color: rgba(255,255,255,0.8);
-}
-
-.link-sign-up {
-  color:rgb(240,146,51);
-}
-
-header {
-  background:url("images/city-scape.svg");
-  height: 400px;
-}
-
-
-
-header .busqueda img {
-  width: 50px;
-  margin: 15px;
-}
-
-.compartido{
-  float: left;
-}
-
-.clearfix{
-  clear: both;
-}
-
-header .compartido .npm-bar {
-  width: 45px;
-  padding: 40px;
+.landing{
+  background: url(../images/landing.jpg);
+  height: 160vh;
+  width: 100%;
+  background-position: center; 
+  background-size:cover; 
 
 }
 
-header .busqueda p{
-  color: white;
-}
 
-header .busqueda p a {
+
+.music h1   {
   color:white;
-  text-decoration: none;
+  font-family: 'Times New Roman', Times, serif;
+  text-align: center;
+  height: 100px;
+  font-size: 69px;
+  padding-top: 100px;
+  
+
+
+
 }
-header .banner{
-  width: 50%;
-  margin: 0 auto;
-}
-header .banner a{
+
+.landing .music p{
   color: white;
-  background-color:orange; 
-  text-decoration: none;
-  padding: 10px 30px;
-  border-radius: 20px; 
-}
-
-header .banner h1{
-  color:white;
-}
-
-header .banner p{
-  color:white;
+  text-align: center;
 }
 
 
-.col{ 
-  float: left; 
+
+.sp {
+  background-color: white;
+  height: 390px;
+  width: 100%;
+  margin-top: -19px;
 }
-.collaboration img {
+
+.sp h3{
+  text-align: center;
+  padding-top: 40px;
+}
+
+hd{
+margin-right: 100px;
+
+}
+.sp .millions{
+  height: 100px;
+  color: green;
+}
+
+.millions p{
+  width: 100%;
+  margin-top: 50px;
+  color: green;
+}
+
+.hd p{
   width: 100px;
+  float: none;
 }
-.col-6 {
+
+.sp img{
+  float: right;
+  height: 232px;
+  width: 232px;
+  padding: 109px;
+}
+
+.sp .hd img{
+  float: left;
+  height: 232px;
+  width: 232px;
+  padding: 108px;
+
+}
+
+.sp .Stream img {
+  float: center;
+  height: 232px;
+  width: 232px;
+  padding: 50px;
+
+}
+
+.yezz {
+  background-color: green;
+  height: 390px;
+  width: 100%;
+  margin-top: -19px;
+  float: left;
+  padding: 100px;
+  color:white;
+}
+
+ .sbd{
+  border-left: 20px;
+  width: 17%;
+}
+
+.yezz img{
+  float: left;
+  height: 448px;
+  width: 382px;
+  padding: 50px;
+  position: relative;
+  margin-top: -528px;
+}
+
+.yezz .ip img{
+  float: right;
+  margin-right: -483px;
+  padding: 59px;
+
+}
+
+.ip{
+  height: 1%;
   width: 50%;
 }
 
-.col-3 {
- width: 33%;
+img{
+ width: 50px;
 }
 
-.clearfix { 
-  clear: both; 
-}
+#ic img{
+width:200px;
 
-/* ESTA ES LA SECCION DE COLABORACIÓN */
-
-#colaboracion {
-  background-color: blue;
-  padding: 100px 70px;
-  height: 400px;
-}
-
-#colaboracion .pizq img {
-  width: 370px;
-  margin: 10;
-}
-
-section .pder h2 {
-  color:white;
-  font-size: 37px;
-}
-
-section .pder ul li {
-  color:white; 
-  margin-bottom: 15px;
-  font-weight: lighter;
-  font-size: 28px;
-}
-
-#colaboracion .pder .signup {
-  background: rgb(203, 56, 55);
-  padding: 9px 60px;
-  border-radius: 136px;
-  color:white;
-  text-decoration: none;
-  text-align: center;
-  display:block;
-  margin-top: 25px;
-}
-
-#colaboracion .pder p {
-  color:white;
-  text-align: center;
-}
-
-#colaboracion .pder p a {
-  color:white;
-  text-decoration: none; 
-}
-
-/*ESTA ES LA SECCION ABOUT */
-
-#about {
-  background-image:url("images/forklift.svg");
-  margin-bottom: 40px;
-  height: 450px;
-  background-size: cover;
-  color:white;
-}
-
-.acerca  {
-  
-  padding: 124px 20px;
-  margin-top: 0px;
-  margin-left: 93px;
-  width: 350px;
-  text-decoration: none;
-  font-size: 20px;
-}
-
-.acerca h3 {
-  font-size: 20px;
-}
-
-#about .acerca a {
-  
-  padding: 10px 60px;
-  border-radius: 21px;
-  color:white;
-  text-decoration: none;
-  text-align: center;
-  background-color: rgb(49, 68, 88);
-}
-
-#about .acerca p{
-  margin-top: 38px;
-  margin-bottom: 50px;
-  font-size: 16px;
 }
 
 
-/* toca la seccion de los tres bloques */
-
-#hacer h3 {
-  text-align: center;
-  font-size: 28px;
-}
-
-#hacer p {
-  text-align: center;
-  font-size: 15px;
-}
-
-.fdb {
-  width:33%;
-  height:345px;
-  padding: 30px 0;
-  text-align: center;
-  float: left;
-}
 
 
 
