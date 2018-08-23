@@ -25,6 +25,16 @@ nav img{
   height: 60px;
   margin: 20px 40px;
 }
+nav img:hover{
+  animation-name: salto;
+  animation-duration: .5s; 
+  animation-timing-function: ease-in
+}
+@keyframes salto{
+  0%  {transform:translateY(0)}
+  50% {transform: translateY(-10px)}
+  100% {transform: translateY(0)}
+}
 nav ul{
   float: right;
   margin: 14px;
