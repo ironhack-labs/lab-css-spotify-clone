@@ -10,7 +10,7 @@ White: #FFF
 * {
     margin: 0;
     padding: 0;
-    font-family: sans-serif;
+    font-family: montserrat;
 }   
 
 header {
@@ -33,6 +33,11 @@ header {
     margin: 20px 35px;
     width: 15%;
 }
+
+#spotifyLogo:hover {
+    width: 16%;
+}
+
 
 .musicFor {
     width: 100%;
@@ -64,11 +69,16 @@ header {
     text-align: center;
 }
 
+/*
+*/
+
 .whatsOnSpotify {
     font-size: 40px;
-    text-decoration: underline; 
+    text-decoration: underline;
+    text-underline-position: under;
     text-decoration-color: #00B172;
-    margin: 50px 0px 80px;
+    margin: 50px 0px 80px 0px;
+
 }
 
 .elem img {
@@ -127,13 +137,19 @@ header {
     width: 30%;
     float: right;   
 }
-
-#spoti {
-    margin-top: 40px; 
-    width: 10%;
+/*margin-top: 40px; 
+    ;
     float: left;
-    padding: 233px 0;
+    padding: 233px 0;*/
+#spoti {
+    
+    margin-left: auto;
+    width: 12%;
+    margin-right: auto;
+    vertical-align: middle;
+    margin-top: 25%;
 }
+
 
 .text-left {
     margin: 50px 20px;
@@ -143,9 +159,13 @@ header {
 
 .greenBack h2 {
     color: white;
-    font-size: 34px;
+    font-size: 33px;
     margin-bottom: 40px; 
-    text-decoration: underline;
+    padding-bottom: 14px;
+    /*text-decoration: underline;
+    text-underline-position: under;*/
+    border-bottom: 3px solid white;
+
 }
 
 .greenBack h3 {
@@ -157,10 +177,11 @@ header {
 
 .greenBack p {
     color: white;
-    font-size: 25px;
+    font-size: 20px;
     font-weight: lighter;
     margin-bottom: 40px; 
     padding-right: 90px;
-    opacity: 0.8;
+    opacity: 0.85;
+    line-height: 28px;
 }
 
