@@ -1,8 +1,150 @@
 /*
 Colors:
-
 Text: 1A1A1A
 Green: #00B172
 White: #FFF
-
 */
+/*GENERAL*/
+body{
+    margin: 0;
+    padding: 0;
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+    max-width: 100%;
+    overflow-x: hidden;
+}
+.green{
+    color: #00B172;
+}
+
+/*NAVBAR*/
+.navbar{
+position: fixed;
+background-color: white;
+width: 100%;
+padding: 20px;
+display: flex;
+justify-content: space-between;
+box-sizing: border-box;
+z-index: 50;
+}
+.logo{
+    height: 60px;
+}
+.menu{   
+    display: inline-block;
+}
+ul{
+    display: inline-block;
+    justify-content: flex-end;
+}
+li{
+    display: inline-block;
+    margin: 0 15px;
+    font-size: 22px;
+}
+/*LANDING*/
+.cover{
+    display: block;
+    position: relative;
+    background: url("../images/landing.jpg") no-repeat;
+    background-size: 100%;
+    background: cover;
+    color: #FFF;
+    height: 650px; /*Revisar*/
+}
+.titles{
+    text-align: center;
+    vertical-align: middle;
+    margin-top: 225px;
+}
+h1{
+    font-size: 60px;
+    display: inline-block;
+    margin-bottom: 30px;
+    
+}
+h1 + p{
+    font-size: 25px;
+    display: inline-block;
+    margin-top: 0;
+}
+
+/*SECTIONS*/
+section{
+    padding: 70px;
+}
+.s1{
+}
+.s2{
+    background-color: #00B172;
+    color: #FFF;
+    justify-content: space-between;
+}
+h2{
+    display: block;
+    font-size: 33px;
+    text-decoration: underline;
+    align-content: center;
+    margin-bottom: 70px;
+    margin-top: 0;
+}
+h3{
+    margin: 0 auto;
+    font-size: 25px;
+    font-weight: bold;
+}
+p{
+    font-size: 22px;
+}
+.s-title{
+    display: block;
+}
+.main-content{
+    display: flex;
+    justify-content: space-between;
+}
+.benefits{
+    width: 30%;
+    height: 250px;
+}
+.benefits-icon{
+    height: 100px;
+    display: block;
+    margin: 0 auto 20px;
+}
+.content{
+    /*display: inline-block;*/
+    width: 35%;
+}
+.phone{
+    height: 500px;
+}
+.logo-white{
+    height: 100px;
+}
+.content-logo{
+    
+}
+.content-phone{
+    width: 35%;
+    margin: 0;
+    padding: 0;
+}
+.s1 h2{
+    text-align: center;
+}
+.s1 h3{
+    text-align: center;
+}
+.s1 p{
+    text-align: center;
+}
+.s2 h2{
+    
+}
+.s2 h3{
+
+}
+.s2 p{
+
+}
