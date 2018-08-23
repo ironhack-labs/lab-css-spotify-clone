@@ -6,3 +6,130 @@ Green: #00B172
 White: #FFF
 
 */
+body{
+    height: 100%;
+    font-family: Gotham;
+}
+nav{
+    position: fixed;
+    height:10%;
+    background-color: white;
+    width: 100%;
+    top: 0;
+}
+nav a{
+    font-weight: 200;
+    color:#1A1A1A;
+    top: 10px;
+    margin-right: 40px;
+    margin-top: 10px;
+    text-decoration: none;
+    float: right;
+}
+nav img{
+    height:80%;
+    left:40px;
+    margin-top: 10px;
+    margin-left: 5px;
+}
+
+@keyframes spotify{
+    from{
+        transform:rotate(180deg);
+    }
+    to{
+        transform:rotate(0deg);
+    }
+}
+
+nav img:hover {
+ animation: spotify 1s;
+}
+
+
+.imagen {
+    background-image: url(file:///Users/prueba/Ironhack/semana-1/dia-3/lab-css-spotify-clone/starter-code/images/landing.jpg);
+    background-size: cover;  
+    width: 100%;
+    height:110vh;
+    color: white;
+    text-align: center;
+
+}
+.imagen h2{
+    font-size: 60px;
+    padding:250px 0 0 0;
+}
+.imagen h3{
+    font-weight: lighter;
+    font-size: 25px;
+}
+.col{
+    position: relative;
+    height: 60vh;
+    text-align: center; 
+    font-size: 20px;
+    font-weight: lighter;
+
+}
+.col h3{
+    font-size: 40px;
+    text-decoration: underline;
+    text-decoration-color: #00B172;
+}
+.col div{
+    width: 30%;
+    height:100px;
+    padding:20px;
+    float: left;
+    
+}
+.col img{
+    width:30%;
+    padding:0;
+}
+
+.col h4{
+    color:#00B172;
+    font-size: 30px;
+}
+.kanye{
+    background-color: #00B172;
+    margin: 10px;
+    color: white;
+    position: relative;
+    padding: 25px;
+    height: 80vh;
+}
+.kanye h2{
+    font-size: 30px;
+    text-decoration: underline;
+    font-weight: 50;
+}
+.kanye div{
+    margin: 10px;
+    float: left;
+}
+
+.lista {
+    width:40%;
+
+}
+.logo{
+    width:20%;
+}
+.ss{
+    width:30%;
+    right: 30px;
+}
+.lista li{
+    list-style: none;
+}
+.logo img{
+    width:50%;
+    padding:70px;
+}
+.ss img{
+    width:90%;
+}
+
