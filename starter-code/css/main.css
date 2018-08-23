@@ -4,5 +4,127 @@ Colors:
 Text: 1A1A1A
 Green: #00B172
 White: #FFF
-
 */
+
+
+body {
+  margin: 0 auto;
+  font-family: Arial, Helvetica, sans-serif;
+}
+
+.nav-bar {
+  position: fixed;
+  height: 65px;
+  background-color: white;
+  top:0;
+
+}
+
+.logo {
+  width: 15%;
+  float:left;
+}
+
+.nav-bar ul {  
+  padding-left: 40px; 
+  width:30%;
+  right:0;
+  position:fixed;
+}
+
+nav li {
+  float:left;
+  margin: 0 2%;
+  list-style-type: none;
+  font-size: 1.5em;
+}
+
+.background {
+  background-image: url("../images/landing.jpg");
+  height:100vh;
+  background-size: 100%;
+  clear:both;
+}
+.background h1, .background h3{
+  position: relative;
+  color: #fff;
+  text-align: center;
+  top: 45%;
+  vertical-align: middle; 
+  font-size: 2em; 
+}
+.background h1 {
+  font-size: 4em;
+}
+
+.WhatIsOnSpotify {
+  margin:1%;
+  text-align: center;
+}
+/*esta parte no funsiona bien*/
+.WhatIsOnSpotify h2 {
+  text-decoration: underline solid #00B172;
+  font-weight: bold;
+    display: block;
+  margin-bottom:30px;
+}
+.columns {
+  margin: 0 auto;
+}
+.col {
+  text-align: center;
+  float:left;
+  width:30%;
+  margin:1%;
+  }
+
+.illustration {
+  object-fit:scale-down;
+  width:33%;
+}
+.col h3 {
+  font-weight: bold;
+  color : #00B172;
+}
+.col p {
+  color: #1A1A1A;
+}
+
+.half {
+  float:left;
+  width:40%;
+  padding:4%;
+  }
+  .half img {
+    margin:0%;
+    overflow:hidden;
+    padding-left:10%;
+  }
+
+#yeezy-section {
+  position:relative;
+  margin:1%;
+}
+#yeezy-div {
+  clear:both;
+  overflow:auto;
+  position: relative;
+  background-color: #00B172;
+}
+ .white-icon {
+   position: absolute;
+   top:45%;
+   left: 40%;
+   width: 15%;
+
+ }
+
+ .half p, .half h3, .half h2{
+   color: white;
+   font-size: 2em;
+ }
+ .half h2{
+   font-size:3em;
+   text-decoration: underline solid white;
+   
+ }
