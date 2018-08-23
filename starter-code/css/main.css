@@ -20,6 +20,17 @@ header img{
   height: 100%;
   float: left;
 }
+
+.spotify-logo:hover {
+  position: relative;
+  animation: jumpy 1s infinite;
+}
+
+@keyframes jumpy {
+  from {top: 10px;}
+  to {bottom: 300px;}
+}
+
 header nav{
   float: right;
   width: 400px;
@@ -43,6 +54,21 @@ header nav{
   text-decoration: none;
   padding-top: 30px;
   line-height: 70px;
+}
+
+.section-2 h1{
+  margin: 0 auto;
+  width: 300px;
+  padding-top: 30%;
+  
+  
+}
+.section-2 p {
+  margin: 0 auto;
+  width: 400px;
+  padding: 20px;
+  text-align: center;
+
 }
 
 .section-2 {
