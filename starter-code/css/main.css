@@ -6,3 +6,175 @@ Green: #00B172
 White: #FFF
 
 */
+
+body{
+  margin: 0;
+  padding: 0;
+}
+
+/*---NAV---*/
+
+nav{
+position: fixed;
+background-color: #FFF;
+height: 13%;
+width: 100%;
+box-sizing: border-box;
+}
+
+nav > img{
+  position: absolute;
+  top: 15%;
+  left: 3%;
+}
+
+nav a{
+  text-decoration: none;
+}
+
+nav > ul{
+  position: absolute;
+  right: 5%;
+  top: 10%;
+  font-size: 30px;
+  font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+  font-weight: 100;
+}
+
+nav ul li{
+  display: inline;
+  padding-left: 35px;
+  color: black;
+}
+
+.clearFix {
+  clear: both;
+}
+
+/*---PART 1---*/
+
+.part1{
+  position: absolute;
+  width: 100%;
+  height: 140%;
+  background-image: url(../images/landing.jpg);
+  background-size: 100%;
+  box-sizing: border-box;
+  top: 13%;
+  color: #FFF;
+  font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+}
+
+
+.part1 h1{
+  text-align: center;
+  padding-top: 21%;
+  font-size: 120px;
+}
+
+.part1 p{
+  text-align: center;
+  font-size: 35px;
+  padding-top: 0px;
+}
+
+/*---PART 2---*/
+
+.part2{
+  position: absolute;
+  width: 100%;
+  height: 80%;
+  background-color: #FFF;
+  top: 153%;
+}
+
+.part2 h2{
+  position: relative;
+  text-align: center;
+  font-family: Arial, Helvetica, sans-serif;
+  font-size: 40px;
+  top: 5%;
+  border-bottom: 5px solid #00B172;
+  width: 20%;
+  margin-left: 40%;
+  margin-right: 40%;
+}
+
+.part2  .sectionArticle {
+  font-family: Arial, Helvetica, sans-serif;
+  font-size: 30px;
+  color: #00B172;
+}
+
+.part2 .articleP{
+  font-family: Arial, Helvetica, sans-serif;
+  font-size: 25px;
+}
+
+.part2 .part2Sections{
+  float: left;
+  width: 500px;
+  height: 400px;
+  margin-left: 5%;
+  margin-top: 7%;
+  text-align: center;
+}
+
+/*---PART 3---*/
+
+.part3 {
+  box-sizing: border-box;
+  position: absolute;
+  width: 98%;
+  height: 125%;
+  top: 100%;
+  background-color: #00B172;
+  border-left: 40px solid #FFF;
+  border-bottom: 40px solid #FFF;
+  border-right-width: 40px solid #FFF;
+}
+
+.part3 h3{
+  position: absolute;
+  font-family: Arial, Helvetica, sans-serif;
+  font-size: 45px;
+  left: 15%;
+  top: 6%;
+  color: #FFF;
+  border-bottom: 3px solid #FFF;
+}
+
+.part3 h4{
+  position: absolute;
+  font-family: Arial, Helvetica, sans-serif;
+  font-size: 35px;
+  font-weight: bold;
+}
+
+.part3 .part3Section {
+  position: relative;
+  width: 500px;
+  height: 200px;
+  margin-left: 15%;
+  top: 20%;
+  color: #FFF;
+}
+
+.part3 p{
+  font-family: Arial, Helvetica, sans-serif;
+  font-size: 22px;
+  position: absolute;
+  top: 50%;
+}
+
+.part3 .spotifyWhite{
+  position: absolute;
+  top: 48%;
+  left: 47%;
+}
+
+.part3 .app{
+  position: absolute;
+  top: 16%;
+  right: 20%; 
+}
