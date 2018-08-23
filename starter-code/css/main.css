@@ -6,3 +6,167 @@ Green: #00B172
 White: #FFF
 
 */
+body{
+  margin:0;
+  padding: 0;
+}
+
+nav {
+  position: fixed;
+  width: 96%;
+  padding: 0 2%;
+  background: #FFF;
+  padding-top: 20px;
+  height: 80px;
+  font-family: 'Courier New', Courier, monospace;
+}
+
+nav ul{
+  float: right;
+  margin-top: 20px;
+}
+nav li{
+  display: inline-block;
+  font-size: 1.3em;
+}
+nav a{
+  text-decoration: none;
+  margin: 0 10px;
+  color: #1a1a1a;
+}
+nav img{
+  height: 60px;
+  float: left;
+}
+nav img:hover{
+  animation:bounce 2s infinite ease-in;  
+}
+
+.header-class{
+  background-image: url(../images/landing.jpg);
+  background-size: cover;
+  background-repeat: no-repeat;
+  height: 900px;
+  color: #FFF;
+  text-align: center;
+  display: flex;
+  justify-content: center;
+  flex-direction: column;
+}
+
+.header-class h2 {
+  font-size: 5em;
+  margin: 0;
+}
+
+.header-class p{
+  font-size: 2em;
+}
+
+.whats-on{
+  height: 400px;
+  margin-left: 5%;
+}
+
+.whats-on img{
+  height: 100px;
+  margin-bottom: 0;
+}
+.whats-on div{
+  width: 30%;
+  float: left;
+  margin: 0 1%;
+  text-align: center;
+}
+.whats-on h2{
+  text-align: center;
+  margin-top: 45px;
+  margin-right: 100px;
+  margin-bottom: 0;
+  font-size: 2.3em;
+  font-weight: 600;
+}
+
+hr{
+  margin-left: 30%;
+  width: 30%;
+  height: 3px;
+  background: #00B172;
+  margin-top: 0;
+  margin-bottom: 80px;
+}
+.whats-on h3{
+  margin-top: 15px;
+  color: #00B172;
+  font-size: 2.0em;
+}
+.whats-on span{
+  color: #1a1a1a  ;
+  font-size: 1.7em;
+  font-weight: lighter;
+}
+
+.yeezy {
+  background: #00B172;
+  margin: 3%;
+  color: #FFF;
+  height: 740px;
+}
+.content{
+  width: 35%;
+  padding: 4% 0 0 8%;
+  float: left;
+  }
+
+.content h2{
+  font-size: 2.2em;
+  border-bottom: 3px solid #FFF 
+}
+
+.content h3{
+  font-size: 2em;
+  margin-top: 12%;
+}
+.content p{
+  font-size: 1.5em;
+  font-weight: lighter;
+}
+
+ .in-app{
+   width: 27%;
+   height: 80%;
+   float: left;
+ }
+.in-app img{
+  width: 100%;
+  height: 100%;
+  margin-left: 33%;
+  margin-top: 25%;
+}
+
+.logo{
+   width: 10%;
+   float: left;
+   margin-left: 2%;
+   margin-top: 28%;
+}
+
+.logo img{
+  width: 100%;
+}
+
+
+@keyframes bounce{
+  0%{
+    transform: translateY(0);
+  }
+  25%{
+    transform: translateY(-5px);
+  }
+  75%{
+    transform: translateY(5px);
+  }
+  100%{
+    transform: translate(0);
+  }
+}
