@@ -6,3 +6,148 @@ Green: #00B172
 White: #FFF
 
 */
+
+body{
+    margin:0px;
+    padding:0px;
+    font-family: 'Roboto', sans-serif;
+    font-size:25px;
+}
+
+header {
+    background: white;
+    border-bottom: 1px solid #c5c5c56e;
+    padding: 25px 0;
+    position: fixed;
+    width: 100%;
+}
+
+h1 {
+    font-size:65px;
+}
+ h2 {
+    font-size:50px;
+ }
+
+ h3{
+    font-size:40px;
+    font-weight:300;
+ }
+ h4{
+    font-size:30px;
+    font-weight:700;
+}
+
+.container {
+    width:1200px;
+    margin: 0 auto;
+}
+
+/* Header  */
+
+header img {
+    width:200px;
+    float: left;
+    margin-left:35px;
+}
+
+header img:hover {
+    animation:logo 0.8s ;
+}
+
+nav li {
+    display:inline-block;
+    list-style: none;
+    margin-right:15px;
+    float: right;
+    margin-right:35px;
+    font-size:18px;
+}
+
+/* Hero Image  */
+
+.hero-image {
+    background-image: url(../images/landing.jpg);
+    padding:350px 0;
+    text-align:center;
+    color:white;
+    background-size:cover;
+}
+
+/* Buttons Section  */
+
+.description {
+    padding:40px 0;
+}
+
+
+.description h2 {
+    text-align:center;
+    text-decoration:underline;
+    text-decoration-color:#00B172;
+}
+
+.description h4 {
+    color:#00B172;
+}
+
+.button-1,.button-2,.button-3{
+    width: 300px;
+    display: inline-block;
+    margin: 45px;
+    text-align:center;
+}
+
+.home-buttons img {
+    width:220px;
+}
+
+/* Music Section  */
+
+section.music {
+    background: #64b36c;
+    margin: 50px;
+    padding: 40px;
+    height:730px;
+}
+.music-container{
+    width: 1200px;
+    margin: 50px auto;
+    position: relative;
+}
+.music-content{
+    color:white;
+}
+.music-content h2{
+   text-decoration:underline;
+   text-decoration-color:white;
+}
+.music-image{
+    position:absolute;
+    right:5px;
+    top:0px;
+}
+.music-image img {
+    width: 350px;
+}
+
+.spotify-logo img {
+    width:100px;
+    position:absolute;
+    left:50%;
+    right:50%;
+    top:50%;
+    bottom:50%;
+}
+
+/* Animation  */
+
+@keyframes logo{
+    from {
+      transform:rotate(180deg);
+    }
+
+    to {
+        transform:rotate(360deg);
+    }
+  }
