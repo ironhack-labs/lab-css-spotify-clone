@@ -6,3 +6,146 @@ Green: #00B172
 White: #FFF
 
 */
+/*solo para visualizar los diferentes elementos*/
+#itsAs{
+  box-shadow: inset 0 0 0 1px;
+}
+body{
+  margin:0;
+  padding:0;
+  font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+}
+nav{
+  position:fixed; 
+  background-color: white;
+  width: 100%;
+}
+nav img{
+  float:left;
+  height: 60px;
+  margin: 20px 40px;
+}
+nav img:hover{
+  animation-name: salto;
+  animation-duration: .5s; 
+  animation-timing-function: ease-in
+}
+@keyframes salto{
+  0%  {transform:translateY(0)}
+  50% {transform: translateY(-10px)}
+  100% {transform: translateY(0)}
+}
+nav ul{
+  float: right;
+  margin: 14px;
+  padding: 0;
+  height: 70px;
+}
+nav ul li{
+  font-size: 20px;
+  float:left;
+  list-style: none;
+  margin:25px 20px;
+  vertical-align: bottom;
+  letter-spacing: 1px;
+  font-weight: 200;
+}
+header{
+  color:white;
+  text-align: center;
+  padding:22% 20% 25% 20%;
+  background-image: url("../images/landing.jpg");
+  clear:both;
+  background-size: cover;
+  background-repeat: no-repeat;
+}
+header h1{
+  font-size: 75px;
+}
+header p{
+  font-size: 28px;
+  padding:0 50px ;
+}
+#whatsOn{
+  margin: 40px;
+  text-align: center;
+  clear:both;
+}
+#whatsOn h2{
+  border-bottom: 3px #00B172 solid;
+  padding:5px;
+  display:inline;
+  font-size: 32px;
+}
+#whatsOn .wrap{
+  clear: both;
+  margin: 0 auto;
+  padding:20px;
+  vertical-align: top;
+}
+#whatsOn .wrap div{
+  display:inline-table;
+  width: 25%;
+  margin: 3%;
+}
+.clear{
+  float: none;
+  clear:both;
+  width: 100%;
+}
+#whatsOn img,#itsAs img{
+  width:128px;
+}
+#whatsOn h3{
+  color:#00B172;
+  font-size: 28px;
+}
+#whatsOn p{
+  color:gray;
+  font-size:24px;
+}
+#itsAs{
+  background-color:#00B172;
+  background-image: url("../images/spotify-icon-white.png");
+  background-repeat: no-repeat;
+  background-position: 50% 50%;
+  background-size:130px;
+  position:relative;
+  margin:0 30px;
+  vertical-align:top;
+  color: white;
+  padding: 40px 70px;
+}
+#itsAs h2{
+  border-color: white;
+  border-bottom: 3px white solid;
+  padding:0 0 5px 0;
+  font-size:36px;
+}
+#itsAs .wrap{
+  position:relative;
+  display:block;
+  width: 42%;
+  margin-bottom: 20px;
+}
+#itsAs .wrap div{
+  padding:20px 0 0 0;
+  width: 75%;
+  line-height: 1.5em;;
+}
+#itsAs h3{
+  font-size: 28px;
+}
+#itsAs p{
+  margin:0;padding:0;
+  font-size: 22px;
+  letter-spacing: 1px;
+  line-height: 1.5em;
+}
+#itsAs img{
+  position:absolute;
+  top:0;
+  right: 0;
+  margin:90px;
+  width: 350px;
+}
