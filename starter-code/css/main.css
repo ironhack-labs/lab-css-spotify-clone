@@ -6,3 +6,218 @@ Green: #00B172
 White: #FFF
 
 */
+*{
+  margin: 0;
+  padding: 0;
+  font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
+
+.navbar {
+  background-color: #FFF;
+  background-image: url("../images/spotify-logo.png");
+  background-size: 120px;
+  background-repeat: no-repeat;
+  background-position: left;
+  position: fixed;
+  width: 100%;
+  height: 50px;
+  color: 1A1A1A;
+  padding: 15px;
+}
+
+.navbar:hover {
+  background-color: #FFF;
+  background-image: url("../images/spotify-logo.png");
+  background-size: 120px;
+  background-repeat: no-repeat;
+  background-position: top left;
+  position: fixed;
+  width: 100%;
+  height: 50px;
+  color: 1A1A1A;
+  padding: 15px;
+  animation: jumpLogo;
+  animation-timing-function: all 6000ms cubic-bezier(0.645, 0.045, 0.355, 1);
+  animation-direction: alternate-reverse;
+  animation-iteration-count: infinite;
+  animation-duration: 3000ms;
+}
+
+@keyframes jumpLogo {
+  0% {
+  background-color: #FFF;
+  background-image: url("../images/spotify-logo.png");
+  background-size: 120px;
+  background-repeat: no-repeat;
+  background-position: top left;
+  width: 100%;
+  height: 50px;
+  color: 1A1A1A;
+  padding-top:0;
+  padding-bottom: 30px;
+  }
+
+  50% {
+  background-color: #FFF;
+  background-image: url("../images/spotify-logo.png");
+  background-size: 120px;
+  background-repeat: no-repeat;
+  background-position: top left;
+  width: 100%;
+  height: 50px;
+  color: 1A1A1A;
+  padding: 15px;
+  }
+
+  100% {
+  background-color: #FFF;
+  background-image: url("../images/spotify-logo.png");
+  background-size: 120px;
+  background-repeat: no-repeat;
+  background-position: top left;
+  width: 100%;
+  height: 50px;
+  color: 1A1A1A;
+  padding-top:0;
+  padding-bottom: 30px;
+  }
+}
+
+.nav-links {
+  list-style: none;
+  display: table;
+  width: 100%;
+  vertical-align: middle;
+  float: right;
+  padding-right: 20px;
+}
+
+ul > li {
+  z-index: 10;
+  text-align: center;
+  display: table-cell;
+  float: right;
+  padding: 10px;
+}
+
+a {
+  text-decoration: none;
+  color: inherit;
+}
+
+
+.music-everyone {
+  background-image: url("../images/landing.jpg");
+  color: #FFF;
+  background-size: cover;
+  background-repeat: no-repeat;
+
+}
+
+.title {
+  padding-top: 300px;
+  padding-bottom: 300px;
+  padding-left: 300px;
+  padding-right: 300px;
+  text-align: center;
+}
+
+h1 {
+  font-size: 40pt;
+  padding-top: 50px;
+}
+
+.paragraph-title {
+  font-size: 22pt;
+  font-weight: 100;
+}
+
+.whats-on {
+  width:33%;
+  text-align: center;
+  margin-left: 33%;
+  margin-right: 33%;
+  padding-top: 50px;
+  padding-bottom: 10px;
+  border-bottom-color: #00B172;
+  border-bottom-style: solid;
+  border-bottom-width: thick;
+  font-size: 30pt;
+}
+
+.mid-section {
+  background-color: #FFF;
+}
+
+.hd {
+  padding-top: 70px;
+  float: left;
+  width: 33.33%;
+  text-align: center;
+}
+
+.devices {
+  padding-top: 70px;
+  float: left;
+  width: 33.33%;
+  text-align: center;
+}
+
+.million-songs {
+  padding-top: 70px;
+  float: left;
+  width: 33.33%;
+  text-align: center;
+}
+
+.music-icon, .hd-icon, .devices-icon {
+  width: 100px;
+}
+
+.green-bold {
+  color: #00B172;
+}
+
+.green-section {
+  position: absolute;
+  background-color: #00B172;
+  margin-top: 300px;
+  margin-left: 35px;
+  margin-right: 35px;
+  margin-bottom: 35px;
+}
+
+.green-section-text {
+  color: #FFF;
+  font-size: 16pt;
+  width: 30%;
+  padding-top: 50px;
+  padding-bottom: 50px;
+  padding-left: 50px;
+  float: left;
+}
+
+.yeezy {
+  border-bottom-color: #FFF;
+  border-bottom-width: thick;
+  border-bottom-style: solid;
+  text-align: left;
+  width: 455px;
+}
+
+.kanye-west {
+  height: 550px;
+  padding-left: 400px;
+  padding-top: 50px;
+  padding-bottom: 110px;
+  padding-right: 20px;
+  padding-top: 100px;
+}
+
+.white-spotify-icon {
+  position: relative;
+  height: 140px;
+  margin-left: 45%;
+  margin-right: 45%;
+  margin-top: 400px;
+}
