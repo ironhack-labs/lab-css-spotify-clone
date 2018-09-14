@@ -20,6 +20,7 @@ nav {
     transition-property: height,background-color;
     transition-duration: 1s, 1s;
     transition-timing-function: linear, linear;
+    
 }
 nav:hover{
     height: auto;
@@ -31,6 +32,22 @@ nav:hover{
     height: 60px;
     margin-left: 2%;
     float: left;
+}
+.logo:hover{
+    animation-name:logo-bounce;
+    animation-duration: 0.5s;
+    animation-direction: alternate;
+    animation-iteration-count: infinite;
+    animation-timing-function: linear;
+}
+@keyframes logo-bounce{
+    0% {
+        padding-top: 10px;
+        
+    }
+    100% {
+        padding-top:20px;
+    }
 }
 .header-links{
     float: right;
