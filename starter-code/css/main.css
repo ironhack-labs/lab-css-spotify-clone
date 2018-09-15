@@ -1,8 +1,158 @@
-/*
-Colors:
+body {
+  margin: 0;
+}
+h2 {
+  font-size: 50px;
+  margin-bottom: 0px;
+}
+span,
+p {
+  font-size: 25px;
+}
 
-Text: 1A1A1A
-Green: #00B172
-White: #FFF
+.links > a {
+  text-decoration: none;
+  padding-right: 100px;
+  padding-top: 40px;
+  display: inline-block;
+  font-size: 30px;
+  color: black;
+}
 
-*/
+.floatLeft {
+  float: left;
+}
+.floatRight {
+  float: right;
+}
+.imagen1 {
+  width: 200px;
+  height: 60px;
+  margin: 20px;
+}
+.imagen1:hover {
+  animation-name: bounce;
+  animation-duration: 0.6s;
+  animation-direction: normal;
+  animation-iteration-count: infinite;
+  animation-timing-function: linear;
+}
+@keyframes bounce {
+  0% {
+    margin: 20px;
+  }
+  25% {
+    margin-top: 40px;
+    margin-bottom: 0px;
+  }
+  50% {
+    margin: 20px;
+  }
+  75% {
+    margin-top: 0px;
+    margin-bottom: 40px;
+  }
+  100% {
+    margin: 20px;
+  }
+}
+.centerText {
+  text-align: center;
+}
+.mainBackground {
+  background-image: url(../images/landing.jpg);
+  background-repeat: no-repeat;
+  display: block;
+  background-size: 100% 100%;
+  color: white;
+  height: 1000px;
+}
+.navBar {
+  position: fixed;
+  background-color: white;
+  width: 100%;
+  display: block;
+  z-index: 1;
+}
+.text1 {
+  margin-top: 0;
+  padding-top: 20%;
+  font-size: 120px;
+}
+.text2 {
+  font-size: 40px;
+}
+.clearfix {
+  clear: both;
+}
+h3 {
+  color: #00b172;
+  font-size: 30px;
+}
+.barheight {
+  height: 5px;
+}
+.bar1 {
+  margin-top: 0px;
+  background-color: #00b172;
+  width: 400px;
+}
+.bar2 {
+  background-color: white;
+  width: 600px;
+}
+
+.imagen2 {
+  width: 130px;
+  height: 100px;
+  margin-top: 100px;
+}
+
+.imagen3 {
+  width: 150px;
+  height: 150px;
+  margin: 0 auto;
+}
+.imageBox {
+  text-align: center;
+  width: 33%;
+  margin-bottom: 150px;
+}
+.greenBox {
+  background-color: #00b172;
+  margin-left: 3%;
+  margin-right: 3%;
+  position: relative;
+  height: 800px;
+}
+.centerObject {
+  position: absolute;
+  top: 337px;
+  left: 45%;
+}
+.imagen4 {
+  width: 340px;
+  height: 600px;
+  margin-right: 100px;
+  margin-top: 100px;
+}
+
+.text3 {
+  width: 50%;
+  padding-top: 50px;
+  margin-left: 50px;
+  text-align: center;
+  color: white;
+}
+
+.text4 {
+  width: 30%;
+  margin-right: 100px;
+  margin-left: 100px;
+
+  color: white;
+}
+
+.text4 > h4 {
+  font-size: 28px;
+}
