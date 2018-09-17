@@ -6,3 +6,209 @@ Green: #00B172
 White: #FFF
 
 */
+@import url('https://fonts.googleapis.com/css?family=Montserrat');
+*{
+	margin:0;
+	padding:0;
+	text-decoration:none;
+  list-style:none;
+  font-family: Montserrat;
+	}
+	
+ body{
+	width:auto;
+
+ }
+  
+  /* NAV-BAR */
+
+  .logo {
+    float: left;
+    width: 207px;
+    height: 65px;
+    padding:11px 10px 11px 10px;
+  }
+
+  @keyframes bounce {
+    0%, 20%, 60%, 100% {
+      
+      transform: translateY(0);
+    }
+  
+    40% {
+      
+      transform: translateY(-20px);
+    }
+  
+    80% {
+     
+      transform: translateY(-10px);
+    }
+  }
+
+
+  .logo:hover {
+    animation: bounce 1s;
+
+  }
+
+  nav {
+    position: relative;
+    width: 100%;
+    height: 87px;
+    
+  }
+
+ 
+  nav ul{
+    position:relative;
+    float:right;
+    width:500px;
+    height:45px;
+    padding: 20px 10px 20px 10px;
+    
+    }
+    
+  nav ul li{
+    float:left;
+    width:124px;
+    line-height:45px;
+    text-align:center;
+    font-size:21px;
+    color: #1A1A1A;
+   
+    }
+
+
+  /* END NAV-BAR */
+
+  /* HERO */
+
+  .hero {
+    position: relative;
+    width: 100%;
+    height: 713px;
+    background-image: url("../images/landing.jpg");
+    background-size: cover;
+  }
+
+  .hero h1{
+    position: relative;
+    top:300px;
+    text-align: center;
+    font-size: 68px;
+    vertical-align: middle;
+    color:#FFF;
+  }
+
+  .hero h2{
+    position:relative;
+    top:300px;
+    font-size: 30px;
+    text-align: center;
+    vertical-align: middle;
+    color:#FFF;
+  }
+
+   /* END OF HERO */
+
+/* WHAT IS ON SPOTify */
+
+.whatsOnSpotify {
+  position: relative;
+    width: 100%;
+    height: 523px;
+    /* background: rgba(0,150,6,0.5); */
+}
+
+.whatsOnSpotifyTitle {
+  display: block;
+  position: relative;
+  /* background:cyan; */
+  margin: 0 auto;
+  width: 310px;
+  border-bottom: solid 3px #00B172;
+  padding-top: 20px;
+}
+  
+.whatsOnSpotifyTitle h1 {
+  color:#1A1A1A;
+  text-align: center;
+  }
+
+.whatsOnSpotify h2 {
+color: #00B172;
+padding: 20px;
+}
+
+.icon {
+  width: 100px;
+  height: auto;
+  padding: 30px;
+}
+
+
+.row {
+position:relative;
+width: 100%;
+padding: 40px 30px 40px 30px;
+
+}
+.col-4 {
+  width: 33.33%;
+  float: left;
+  text-align: center;  
+}
+
+
+/* END WHAT IS ON SPOTify */
+
+/* BOTTOM */
+
+.bottom {
+  position: relative;
+    width: 100%;
+    height: auto;
+  
+}
+
+.greenSection {
+  margin-left:35px;
+  margin-right: 35px;
+  background:#00B172;
+  padding: 50px;
+  height: 600px;;
+}
+
+.greenSectionText h1 {
+  color: #FFF;
+  border-bottom: solid 3px #FFF;
+  width: 450px;
+}
+
+.row2{
+  position:relative;
+  width: 100%;
+  padding-top: 20px;
+  height: auto;
+}
+
+.celda {
+  text-align: left;
+  padding-bottom: 40px;
+  color: #FFF;
+}
+
+.roundLogo img {
+  width: 80%;
+  height: auto;
+  
+}
+
+.player img {
+  width: 100%;
+  height: auto;
+}
+
+
+/* END BOTTOM */
