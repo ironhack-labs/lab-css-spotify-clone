@@ -1,8 +1,133 @@
-/*
-Colors:
+body {
+  font-family: Circular, Helvetica, Arial, sans-serif;
+}
 
-Text: 1A1A1A
-Green: #00B172
-White: #FFF
+h1 {
+  font-size: 51px;
+}
 
-*/
+.menu {
+  position: fixed;
+  width: 100%;
+  background-color:#fff;
+  overflow: hidden;
+  top: 0;
+  z-index: 99;
+  height: 60px;
+}
+
+.menu .logo {
+  width: 150px;
+  float: left;
+}
+
+.menu ul {
+  float: right;
+  margin: 0;
+}
+.menu .item {
+  list-style-type: none;
+  display: inline-block;
+  text-align: right;
+  margin: 20px;
+  font-size: 15px; 
+}
+
+.first-section {
+  position: relative;
+  height: 600px;
+  background:url("../images/landing.jpg") 0 0 no-repeat;
+  background-size: cover;
+  color: #fff;
+}
+
+.first-section .content {
+  color: white;
+  text-align: center;
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  margin: 0;
+}
+
+.first-section .content .text {
+  font-size: 20px;
+}
+
+.second-section {
+  text-align: center;
+  margin: 50px;
+}
+
+.second-section h2 {
+  margin: 25px 0 70px 0;
+}
+
+.second-section p {
+  font-size: 17px;
+  color: #1A1A1A;
+}
+
+.second-section h3 {
+  color: #00B172;
+  font-weight: 600;
+  font-size: 20px;
+}
+
+.second-section .title {
+  font-size: 25px;
+  border-bottom: 3px solid #00B172 ;
+  padding-bottom: 5px;
+}
+
+.second-section img {
+  width: 80px;
+}
+.second-section .col { float: left; }
+.second-section .col-3 { width:30% } /* 30% | 30% | 30% */
+.second-section .col-middle {margin:0 5% }
+.clearfix { clear: both; }
+
+.third-section {
+  background-color: #00B172;
+  padding: 50px;
+  margin: 30px;
+  position: relative;
+  height: 450px;
+}
+
+.third-section .title {
+  font-size: 25px;
+  border-bottom: 3px solid #fff ;
+  padding-bottom: 5px;
+  color: #fff;
+}
+.third-section h3 {
+  font-size: 20px;
+}
+
+.third-section .content {
+  font-size: 15px;
+  color: #fff;
+  width: 33%;
+  margin-top: 35px;
+}
+
+.third-section img {
+  float: left;
+}
+
+.third-section .icon {
+  width: 90px;
+  position: absolute;
+  top: 35%;
+  left: 45%;
+}
+
+.third-section .app {
+  width: 220px;
+  position: absolute;
+  top: 20%;
+  left: 70%;
+}
