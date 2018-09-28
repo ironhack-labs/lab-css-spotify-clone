@@ -5,48 +5,174 @@ Text: 1A1A1A
 Green: #00B172
 White: #FFF
 
-*/
+ */
+ @import url('https://fonts.googleapis.com/css?family=Roboto:100,300,400,500,700');
 
 body {
     margin: 0 auto;
+    font-family: "roboto";
 }
 
 .header {
-    height: 100px;
+    height: 60px;
     width: 100%;
 }
 
 .green-logo {
    height: 50px;
    float: left;
+   margin: 20px 0 0 20px;
 }
 
 .menu-nav {
     list-style-type: none;
     text-align: center;
-    margin: 0 auto;
+    margin: 0 20px;
+    padding-top : 30px;
+    padding-left:1000px;
 }
   
 .menu-nav a {
     text-decoration: none;
-    float:right;
-    padding: 0 10px;
+    padding: 10px;
     color:black;
+    float: left;
+}
+
+.menu-nav li {
+    font-size: 22px;
+    font-weight: 200;
 }
 
 .cover {
     clear: both;
     background-image: url("../images/landing.jpg");
-    background-position: 0 0;
+    background-position: 50% 50%;
     background-repeat: no-repeat;
     background-size: cover;
-    height: 800px ;
+    height: 700px ;
+    width:100%;
 }
 
 .cover-text {
     color: white;
-    font-weight:32px;
     text-align: center;
     position : relative;
-    top: 200px;
+    top: 220px;
+    vertical-align: middle;
 }
+
+.cover-text h1 {
+    font-size: 82px;
+}
+
+.cover-text p {
+    font-size: 36px;
+    font-weight:300;
+}
+
+.spotify-section {
+    width:100%;
+    margin:0 auto;
+    text-align: center;
+}
+
+.container {
+    padding-top: 80px;
+    padding-left: 30px;
+}
+
+.songs {
+    float:left;
+    width: 30%;
+}
+
+.music {
+    float:left;
+    width: 30%;
+}
+
+.stream {
+    float:left;
+    width: 30%;
+}
+
+.spotify-section-title span {
+    border-bottom: 4px solid #00B172;
+}
+
+.spotify-section-title {
+    padding-top: 40px;
+    font-size: 38px;
+    font-weight:400;
+    letter-spacing: 1px;
+    text-align: center;
+}
+
+.spotify-section-h3 {
+    color:#00B172;
+    font-size: 34px;
+    font-weight: bold;
+}
+
+.spotify-section-p {
+    font-size: 26px;
+    font-weight: 200;
+}
+
+.image-size {
+    height: 120px;
+}
+
+.clearfix {
+    clear: both;
+}
+
+.green-section {
+    background-color: #00B172;
+    border: 30px solid white;
+    height:750px;
+}
+
+.spotify-icon-white {
+    height: 120px;
+    position: absolute;
+    left: 600px;
+    padding-top:20%;
+}
+
+.green-section-title {
+    color: #FFF;
+    font-size: 38px;
+    font-weight:400;
+    letter-spacing: 1px;
+    padding-left:50px;
+}
+
+.green-section-title span {
+    border-bottom: 4px solid #FFF;
+}
+
+.green-section-h3 {
+    color:#FFF;
+    font-size: 34px;
+    font-weight: bold;
+    padding-left:50px;
+}
+
+.green-section-p {
+    font-size: 26px;
+    font-weight: 200;
+    color:#FFF;
+    padding-left:50px;
+}
+
+.spotify-app {
+    height: 600px;
+    float: right;
+    position: relative;
+    top: 100px;
+    right : 80px;
+}
+
+
