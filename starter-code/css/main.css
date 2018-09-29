@@ -19,7 +19,7 @@ header {
 }
 
 header img {
-  position: absolute
+  position: absolute;
   float: left;
   max-height: 75px;
 }
@@ -38,4 +38,26 @@ header li {
 
 .nav-menu {
   height: 80px;
+}
+
+.background-title {
+  position: relative;
+  text-align: center;
+}
+
+.text-overlay {
+  position: absolute;
+  text-align: center;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  color: white;
+}
+
+.text-overlay h1 {
+  display: block;
+  font-weight: 900;
+}
+#background-title {
+  max-width: 100%;
 }
