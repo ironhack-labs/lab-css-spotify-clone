@@ -4,7 +4,7 @@
 <head>
   <meta charset="UTF-8">
   <title>Spotify</title>
-  <link rel="font" href="https://lineto.com/The+Fonts/Font+Categories/Text+Fonts/Circular/Book/About+this+Font">
+  <link href="https://fonts.googleapis.com/css?family=Montserrat" rel="stylesheet">
   <link rel="stylesheet" href="./css/main.css">
 </head>
 
@@ -23,32 +23,36 @@
       </ul>
     </div>
   </header>
-  <div class="background-title">
-    <img src="../starter-code/images/landing.jpg" id="background-title" />
+  <div class="background-title-container">
+    <img src="../starter-code/images/landing.jpg" id="background-title-img" />
     <div class="text-overlay">
       <h1>Music for everyone.</h1>
       <p>Spotify is now free on mobile, tablet and computer.<br>
         Listen to the right music, wherever you are.</p>
     </div>
   </div>
-  <section>
-    <h2>What’s on Spotify?</h2>
-    <div>
-      <h3>Millions of Songs</h3>
-      <p>There are millions of
-        songs on Spotify</p>
+  <section id="middle-section">
+    <h2 id="middle-section-title">What’s on Spotify?</h2>
+    <hr id="middle-section-hr">
+    <br>
+    <div class="col-3" id="first-col">
+      <img src=".//images/music-icon.png" />  
+        <h3>Millions of Songs</h3>
+          <p>There are millions of songs on Spotify</p>
+    </div>
+    </div>
+    <div class="col-3 col-middle">
+      <img src=".//images/high-quality-icon.png" />
+        <h3>HD Music</h3>
+          <p>Listen to music as if you were listening live</p>
     </div>
     <div>
-      <h3>HD Music</h3>
-      <p></p>Listen to music as if you
-      were listening live</p>
-    </div>
-    <div>
-      <h3>Stream Everywhere</h3>
-      <p>Stream music on your
-        smartphone, tablet or
-        computer</p>
-    </div>
+      <div class="col-3" id="third-col">
+        <img src=".//images/devices-icon.png" />
+          <h3>Stream Everywhere</h3>     
+            <p>Stream music on your smartphone, tablet or computer</p>
+      </div>
+      <div class="clearfix"></div>
   </section>
   <section>
     <h2>It’s as yeezy as Kanye West.</h2>
