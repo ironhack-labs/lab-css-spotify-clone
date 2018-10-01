@@ -6,3 +6,128 @@ Green: #00B172
 White: #FFF
 
 */
+
+body {
+  font-family: Montserrat, helvetica, sans-serif;
+  background-color: white;
+}
+
+header {
+  max-width: 100%;
+  height: 80px;
+  background-color: white;
+}
+
+header img {
+  position: absolute;
+  float: left;
+  max-height: 75px;
+  margin-bottom: 12px;
+  max-width: 25%;
+}
+
+header ul {
+  float: right;
+  max-width: 35%;
+}
+header li {
+  list-style: none;
+  display: inline-block;
+  padding-left: 30px;
+  margin-top: 12px;
+}
+
+.background-title-container {
+  position: relative;
+  text-align: center;
+}
+
+.text-overlay {
+  position: absolute;
+  text-align: center;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  color: white;
+}
+
+.text-overlay h1 {
+  white-space: nowrap;
+  font-size: 6vw;
+}
+
+.text-overlay p {
+  font-size: 2vw;
+}
+#background-title-img {
+  max-width: 100%;
+}
+
+#middle-section {
+  background-color: white;
+}
+
+#middle-section-title {
+  text-align: center;
+  max-width: 30%;
+  margin-left: 35%;
+  margin-right: 35%;
+  font-size: 3vw;
+  line-height: 0.2vh;
+}
+
+#middle-section-hr {
+  border: solid;
+  color: #1db954;
+  max-width: 30%;
+  align: center;
+}
+
+#middle-section img{
+  max-width: 30%;
+}
+
+#middle-section h3{
+  color: #1DB954;
+  font-size: 1.8vw;
+  text-decoration: bold;
+}
+
+#middle-section p{
+ 
+}
+
+.col-3 {
+  float: left;
+  width: 30%;
+  text-align: center;
+}
+
+#first-col{
+  margin-left: 2.5%;
+}
+
+#third-col{
+margin-right:2.5%;
+}
+
+.col-middle {
+  margin: 0 2.5% 0 2.5%;
+}
+
+.clearfix {
+  clear: both;
+}
+
+@media screen and (max-width: 600px) {
+  .col-3 {
+      width: 100%;
+  }
+}
+
+@media screen and (max-width: 600px) {
+  .col-middle {
+      width: 100%;
+      margin: auto;
+  }
+}
