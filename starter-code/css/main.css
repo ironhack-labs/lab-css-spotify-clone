@@ -6,3 +6,198 @@ Green: #00B172
 White: #FFF
 
 */
+
+@import url('https://fonts.googleapis.com/css?family=Montserrat');
+body {
+    margin: 0;
+    font-family: 'Montserrat', sans-serif;
+}
+
+ul {
+    list-style: none;
+}
+
+h2 {
+    font-size: 32px;
+    margin: 0;
+}
+
+
+/* Header */
+
+.spotify-header {
+    position: fixed;
+    width: 100%;
+    height: 80px;
+    z-index: 1;
+    background-color: #fff;
+}
+
+.spotify-header nav {
+    padding: 0 40px;
+    overflow: hidden;
+}
+
+.spotify-header nav h1 {
+    background-image: url('../images/spotify-logo.png');
+    background-repeat: no-repeat;
+    background-size: 100%;
+    height: 55px;
+    width: 200px;
+    float: left;
+    margin: 10px 0 0;
+    height: 65px;
+}
+
+.spotify-header-nav h1 span {
+    display: none;
+}
+
+.spotify-header-nav h1 {
+    width: 180px;
+    background-image: url('../images/spotify-logo.png');
+    background-repeat: no-repeat;
+    float: left;
+    margin: 10px 0;
+}
+
+.spotify-header-nav ul {
+    list-style: none;
+    float: right;
+    margin: 31px 0;
+}
+
+.spotify-header-nav ul li {
+    display: inline-block;
+    margin: 0 10px;
+}
+
+.spotify-header-nav ul li a {
+    border: none;
+    text-decoration: none;
+    color: inherit;
+}
+
+.spotify-header-nav ul li:last-child {
+    margin-right: 0;
+}
+
+
+/* Section 1 */
+
+.spotify-content-music {
+    background-image: url('../images/landing.jpg');
+    background-repeat: no-repeat;
+    height: 530px;
+    background-size: cover;
+    position: relative;
+}
+
+.spotify-content-music .headline {
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    color: #fff;
+    text-align: center;
+}
+
+.spotify-content-music .headline h2 {
+    font-size: 50px;
+}
+
+
+/* Section 2 */
+
+.spotify-content-what .description {
+    margin: 40px;
+}
+
+.spotify-content-what .description h2 {
+    text-align: center;
+}
+
+.spotify-content-what .description h2 span {
+    border-bottom: 2px solid #00B172;
+    padding-bottom: 5px;
+}
+
+.spotify-content-what .description ul {
+    text-align: center;
+    margin: 70px 0;
+}
+
+.spotify-content-what .description ul li {
+    display: inline-block;
+    width: 33%;
+}
+
+.spotify-content-what .description ul li h3 {
+    color: #00B172;
+    font-size: 25px;
+}
+
+.spotify-content-what .description .icon img {
+    width: 100px;
+}
+
+
+/* Section 3 */
+
+.spotify-content-kanye {
+    margin: 40px;
+}
+
+.spotify-content-kanye .description {
+    color: #fff;
+    background-color: #00B172;
+    padding: 60px;
+    overflow: hidden;
+}
+
+.spotify-content-kanye .description h2 span {
+    border-bottom: 2px solid #fff;
+    padding-bottom: 5px;
+}
+
+.spotify-content-kanye .description .block {
+    float: left;
+    height: 100%;
+    width: 33%;
+}
+
+.spotify-content-kanye .description-container {
+    padding-top: 20px;
+}
+
+.spotify-content-kanye .description .description-container ul {
+    padding-left: 0;
+}
+
+.spotify-content-kanye .description .description-container ul li {
+    padding: 10px 0;
+}
+
+.spotify-content-kanye .description .description-container .block:nth-child(1) {
+    width: 40%;
+}
+
+.spotify-content-kanye .description .description-container .block:nth-child(2) {
+    width: 20%;
+    text-align: center;
+}
+
+.spotify-content-kanye .description .description-container .block:nth-child(2) img {
+    width: 100px;
+    padding-top: 200px;
+}
+
+.spotify-content-kanye .description .block:nth-child(3) {
+    text-align: right;
+    width: 40%;
+}
+
+.spotify-content-kanye .description .description-container .block:nth-child(3) img {
+    width: 330px;
+    height: auto;
+}
