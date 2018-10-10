@@ -6,3 +6,170 @@ Green: #00B172
 White: #FFF
 
 */
+
+* {
+    margin: 0;
+    padding: 0;
+}
+
+body { 
+    font-family: Arial, Helvetica, sans-serif;
+    
+}
+
+h1 {
+    font-size: 5em;
+}
+
+
+h2 {
+    font-weight: lighter;
+    font-size: 2em;
+}
+
+h3 {
+    font-weight: lighter;
+    font-size: 2em; 
+}
+nav { 
+    display: flex;
+    justify-content: space-between;
+    /* background-color: red; */
+}
+
+.navbar1 {
+    /* background-color: rgba(0, 255, 0, 0.5); */
+    align-self: center;
+}
+
+.navbar2 {
+    /* background-color: rgba(0, 0, 255, 0.5); */
+    padding-top: 25px;
+    padding-bottom: 25px;
+}
+
+.navbar2 a {
+    margin: 0 25px;
+    color: black;
+    text-decoration: none;    
+}
+
+nav img {
+    height: 50px;
+    margin-left: 20px;
+}
+
+.main {
+    /* background-color: rgba(0, 0, 255, 0.5); */
+    display: flex;
+    height: 700px;
+    text-align: center;
+    justify-content: center;
+    background-image: url("/lab-css-spotify-clone/starter-code/images/landing.jpg");
+    background-size: cover;
+    color: #FFF;
+}
+
+.main1 {
+    /* background: green; */
+    align-self: center;
+}
+
+.main1 h3 {
+    position: relative;
+    top: 40px;
+}
+
+.what {
+
+    height: 400px;
+}
+
+.what1 > h2 {
+    font-weight: bold;
+}
+
+.what1 {
+    justify-content: center;
+    text-align: center;
+    border-bottom: 3px solid #00B172;
+    margin: 50px auto 100px;
+    width: 300px;
+}
+
+.what2 {
+    display: flex;
+
+}
+
+.what-col {
+    width: 33%;
+    text-align: center;
+    margin: 0 125px;
+
+}
+
+.what img {
+    height: 100px;
+}
+
+.what-col > h4 {
+    color: #00B172;
+    margin-bottom: 20px;
+    font-size: 1.5em;
+}
+
+.yeezy {
+    height: 600px;
+    padding: 20px;
+    color: white;
+}
+
+.background {
+    display: flex;
+    /* align-content: space-around; */
+    background-color: #00B172;
+    background-image: url("/lab-css-spotify-clone/starter-code/images/spotify-icon-white.png");
+    background-size: 100px;
+    background-repeat: no-repeat;
+    background-position: center;
+    height: 550px;
+    width: 100%; 
+    padding: 50px 0;
+    margin-bottom: 20px;
+}
+
+.yeezy-left {
+    align-self: flex-start;
+    width: 30%;
+    margin: 0 auto;
+    padding: 0 30px;
+    /* background-color: green; */
+}
+
+.yeezy-left h2, p {
+    margin-bottom: 30px; 
+}
+ 
+.easy {
+    border-bottom: 3px solid white;
+    width: 410px;
+    margin-bottom: 75px;
+    font-weight: bold;
+}
+
+.yeezy-right {
+    display: flex;
+    /* background-color: red; */
+    align-self: center;
+    /* align-self: flex-end; */
+    /* justify-content: center; */
+    width: 50%;
+    margin: 0 auto;
+}
+
+.yeezy-right img {
+
+    height: 500px;
+    margin: 0 auto;
+}
