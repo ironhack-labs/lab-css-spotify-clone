@@ -6,3 +6,157 @@ Green: #00B172
 White: #FFF
 
 */
+
+body {
+  font-family: Circular, Helvetica, Arial, sans-serif;
+}
+
+.nav {
+  display: flex;
+  height: 60px;
+  justify-content: space-between;
+  align-items: center;
+  font-weight: 1000;
+}
+
+.nav ul {
+  display: flex;
+  justify-content: space-between;
+  margin: 0;
+}
+
+.nav li {
+  list-style: none;
+  font-size: 0.9em;
+  padding: 0 10px;
+}
+.nav a {
+  text-decoration: none;
+  color: #1A1A1A;
+}
+
+.nav img {
+  height: 70%;
+  margin-left: 20px;
+}
+
+.front-page {
+  background-image: url("../images/landing.jpg");
+  background-size: contain;
+  height: calc(100vh - 80px);
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  color: white;
+}
+
+.front-page h1 {
+  font-size: 4em;
+  text-align: center;
+}
+.front-page p {
+  margin: 10px;
+  text-align: center;
+}
+
+.middle-page-header {
+  text-align: center;
+  margin: 35px auto;
+  border-bottom: 3px solid #00B172;
+  width: 17%;
+}
+
+.middle-page-header h2 {
+  margin-bottom: 7px;
+  font-size: 1.5em;
+}
+
+.middle-page {
+  display: flex;
+  justify-content: center;
+  align-items: flex-start;
+  width: 80%;
+  margin: 5% auto;
+
+}
+
+.middle-page-box img {
+  width: 50%;
+  margin: 0 auto;
+
+}
+
+.middle-page-box {
+  display: flex;
+  flex-direction: column;
+  margin: 40px 50px;
+}
+
+.middle-page-box p {
+  text-align: center;
+  line-height: 20px;
+}
+
+.middle-page-box h3 {
+  color: #00B172;
+  font-size: 1em;
+  text-align: center;
+}
+
+.lower-page {
+  display: flex;
+  justify-content: space-between;
+  align-items: flex-start;
+  background: #00B172;
+  height: 100vh;
+  overflow: auto;
+  width: 94vw;
+  margin: 0 auto;
+  color: white;
+  padding-top: 10vh;
+
+}
+
+.left-page {
+  padding: 0 6%;
+  font-size: 1em;
+}
+
+.left-page .lower-page-header {
+  font-size: 1.4em;
+  margin-right: 0;
+  border-bottom: 3px solid white;
+  width: 70%;
+  margin-bottom: 8%;
+
+}
+
+.lower-page-header h2 {
+  margin-bottom: 10px;
+}
+
+.left-page p {
+  margin-right: 55%;
+  font-weight: 1000;
+}
+
+.left-page h2 {
+  margin-right: 0;
+
+}
+
+.left-page h3 {
+  font-size: 1.2 em;
+  margin: 5% 0;
+}
+
+
+.right-page img {
+  height: 85vh;
+}
+
+.right-page {
+  padding-right: 12%;
+
+}
