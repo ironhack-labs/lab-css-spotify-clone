@@ -6,3 +6,151 @@ Green: #00B172
 White: #FFF
 
 */
+
+body {
+  font-family: Arial;
+  font-size: 1em;
+  color:  1A1A1A;
+  background-color: #FFF;
+}
+
+.flex-container {
+  display: flex;
+}
+
+.nav-bar {
+  height: 80px;
+  align-items: center;
+  font-size: 1em;
+}
+
+.nav-bar li {
+  display: inline;
+  text-decoration: none;
+  padding: 20px;
+  justify-content: flex-end;
+}
+
+.nav-bar img {
+  height: 60px;
+  margin-left: 20px;
+}
+
+.spotify-logo {
+  width: 70%; 
+}
+
+.spotify-logo:hover {
+  animation-name: spotify-logo-hover;
+  animation-duration: 1s;
+  animation-iteration-count: infinite;
+}
+
+@keyframes spotify-logo-hover {
+ 0% {
+   align-self: flex-end;
+ }
+ 50% {
+   align-self: flex-start;
+ }
+ 100% {
+   align-self: flex-end;
+ }
+}
+
+.header-text {
+  background-image: url("../images/landing.jpg");
+  background-size: cover;
+  height: calc(100vh - 80px);
+  color: white;
+  justify-content: center;
+  align-items: center;
+  text-align: center;
+}
+
+.header-text h1 {
+  margin: 0 auto;
+  font-size: 4em;
+}
+
+.header-text p {
+  margin: 40px auto; 
+  font-size: 1.5em; 
+  line-height: 1.5em;
+  font-weight: lighter;
+}
+
+.whats-on h2 {
+  margin: 20px auto;
+  text-align: center;
+  font-size: 2em;
+  font-weight: bold;
+  line-height: 2em;
+  border-bottom: 4px solid #00B172;
+}
+
+.whats-on-box {
+  justify-content: space-evenly;
+  align-items: center;
+  height: 400px;
+}
+
+.whats-on-items img {
+  display: block;
+  margin: 0 auto;
+  height: 100px;
+}
+
+.whats-on h3 {
+  color: #00B172;
+  text-align: center;
+  font-size: 1.5em;
+  font-weight: bold;
+}
+
+.whats-on p {
+  margin: 0 auto;
+  text-align: center;
+  font-size: 1.2em;
+  font-weight: lighter;
+  line-height: 1.2em;
+}
+
+.kanye {
+  background-color: #00B172;
+  background-image: url("../images/spotify-icon-white.png");
+  background-size: 100px;
+  background-repeat: no-repeat;
+  background-position: center;
+  margin: 20px; 
+  justify-content: space-around;
+  align-items: center;
+  height: 600px;
+}
+
+.kanye-text h2 {
+  color: white;
+  font-size: 2em;
+  line-height: 2em;
+  margin: 0;
+  border-bottom: 3px solid white;
+}
+
+.kanye-text h3 {
+  color: white;
+  font-size: 1.5em;
+  font-weight: bold;
+}
+
+.kanye-text p {
+  color: white;
+  font-size: 1.2em;
+  font-weight: lighter;
+  line-height: 1.2em;
+}
+
+.kanye img {
+  height: 430px;
+}
+
+
