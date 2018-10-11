@@ -6,3 +6,166 @@ Green: #00B172
 White: #FFF
 
 */
+body {
+  margin: 0;
+  font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
+.container {
+  width: 100%;
+  height: 100%;
+  background-color: white;
+  display: flex;
+  flex-direction: column; 
+}
+.box1 {
+  background-color: white;
+  display: flex;
+  width: 100%;
+  height: 50px;
+  float: right;
+  justify-content: space-between;
+}
+
+.box1-left {
+  background-color: white;
+  width: 200px;
+  height: 50px;
+  display: flex;
+  justify-content: flex-start;
+
+}
+
+.box1 .logo img{
+  width: 125px;
+  margin-top: 5px;
+  margin-left: 10px;
+}
+
+.box1-right {
+  position: relative;
+  background-color: white;
+  width: 300px;
+  height: 50px;
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+}
+
+.box1-right div {
+  color: #1A1A1A;
+}
+
+.box2 {
+  width: 100%;
+  height: calc(100vh - 50px);
+  background-image: url("../images/landing.jpg");
+  background-size: cover;
+  background-position: center;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+  text-align: center;
+  font-family: Circular, Helvetica, Arial, sans-serif;
+  font-weight: 100;
+}
+
+.title1 {
+  color: white;
+  font-size: 45px;
+}
+
+.title2 {
+  color: white;
+  font-size: 15px;
+}
+
+.box3 {
+  background-color:white;
+  height: 300px;
+  display: flex;
+  justify-content: center;
+  flex-direction: column;
+  align-items: center;
+}
+
+.box3-title {
+  background-color: white;
+  border-bottom: 2px solid #00B172;
+  text-align: center;
+  margin-top: 20px;
+}
+
+.box3-title h2 {
+  margin: 0;
+}
+
+
+.articles {
+  display: flex;
+  flex-direction: row;
+  margin-top: 75px;
+}
+
+.article {
+  background-color: white;
+  margin: 20px;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  text-align: center;
+}
+
+.music-icon {
+  width: 75px;
+}
+
+.green-text {
+  color: #00B172;
+  font-size: 20px;
+}
+
+.box4 {
+  margin:50px 10px;
+  background-color: #00B172;
+  background-image: url("../images/spotify-icon-white.png");
+  background-size: 80px;
+  background-repeat: no-repeat;
+  background-position: center;
+  display: flex;
+  justify-content: space-around;
+  padding: 30px;
+  color: white;
+  font-family: Arial, Helvetica, sans-serif;
+}
+
+.box4-title {
+  border-bottom: 2px solid white;
+  font-size: 20px;
+}
+.yeezy {
+  width: 200px;
+  margin-left: 40px;
+
+}
+
+.box4-article {
+  margin: 40px 0px;;
+}
+
+.box4 h3 {
+  font-size: 18px;
+}
+
+.box4 h4 {
+  font-size:13px;
+  font-weight: 50;
+}
+
+.box4-right {
+  display: flex;
+  align-items: center;
+}
+
+
