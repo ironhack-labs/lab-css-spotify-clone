@@ -6,3 +6,161 @@ Green: #00B172
 White: #FFF
 
 */
+body {
+    /* font-family: Circular, Helvetica, Arial, sans-serif; */
+    font-family: 'Roboto', sans-serif;
+}
+
+/* Navbar */
+
+.container {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: center;
+    margin: 0 50px;
+}
+
+.navbar ul {
+    list-style: none;
+    height: 120px;
+}
+
+.logo {
+    flex-grow: 1;
+}
+
+
+li {
+    padding: 0 10px;
+    font-size: 1.5em;
+}
+
+ul li img {
+    max-width: 200px;
+    padding: 10px;
+}
+
+@keyframes mover {
+    0% { transform: translateY(0); }
+    50% { transform: translateY(-10px); }
+    100% { transform: translateY(0); }
+  }
+ 
+ul li img:hover{
+    animation: mover 0.5s  alternate;
+  }
+
+/* Landing section */
+#landing {
+    background-image: url("../images/landing.jpg");
+    background-size: cover;
+    height: 100vh;
+    display: flex;
+}
+.landing-text{
+    color: white;
+    margin: auto;
+    font-size: 2em;
+    text-align: center;
+}
+
+.landing-text h1 {
+    font-size: 3em;
+    margin: 0;
+}
+
+/* What's on spotify section */
+#whats-on-spotify {
+    display: flex;
+    flex-direction: column;
+    height: 80vh;
+}
+
+.what-section-head {
+    margin: 50px auto;
+    height: 15vh;
+}
+
+.what-section-head h1 {
+    border-bottom: 3px #00B172 solid;
+    font-size: 2.5em;
+}
+
+.what-section-body {
+    display: flex;
+    justify-content: space-around;
+    height: 65vh;
+    align-items: baseline;
+}
+
+.what-section-item {
+    flex-basis: 27%;
+    text-align: center;
+}
+
+.what-section-icon {
+    width: 30%;
+}
+
+.what-section-h2 {
+    color: #00B172;
+    font-size: 2em;
+}
+
+.what-section-p {
+    font-size: 2em;
+    font-weight: 100;
+    text-align: center;
+}
+
+/* Green box section */
+
+#green-box {
+    display: flex;
+    background-color: #00B172;
+    background-image: url("../images/spotify-icon-white.png");
+    background-repeat: no-repeat;
+    background-size: 10%;
+    background-position: center;
+    padding: 100px;
+    color: white;
+    justify-content: space-between;
+    margin: 0 30px;
+}
+
+.green-box-column1 {
+    flex-basis: 40%;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+}
+
+.green-box-column2 {
+    flex-basis: 40%;
+    padding: 30px 0;
+}
+
+.green-box-column2 img {
+    width: 100%;
+}
+
+.green-box-h1 {
+    font-size: 2.5em;
+    border-bottom: 3px white solid;
+    padding-bottom: 10px;
+    margin: 0;
+}
+
+.green-box-h2 {
+    font-weight: bold;
+    font-size: 2em;
+    padding-bottom: 10px;
+}
+
+.green-box-p {
+    font-weight: thin;
+    font-size: 1.5em;
+    width: 70%;
+    line-height: 1.5em;
+}
