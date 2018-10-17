@@ -6,3 +6,189 @@ Green: #00B172
 White: #FFF
 
 */
+@import url('https://fonts.googleapis.com/css?family=Roboto');
+
+*{
+  margin:0;
+  padding: 0;
+  font-family: 'Roboto', sans-serif;
+}
+.navbar{
+  position: fixed;
+  height: 100px;
+  width: 100%;
+  top:0;
+  background-color: white;
+}
+.navbar img{
+  height: 50px;
+  padding-left: 30px;
+  padding-top: 25px;
+  float: left;
+}
+
+.navbar img:hover{
+  animation-name: sizer;
+  animation-duration: 3s;
+  animation-iteration-count: infinite; 
+  transition-timing-function: ease;
+  transition-duration: 3s;
+  
+}
+@keyframes sizer{
+  0%{
+    height: 50px;
+    padding-left: 30px;
+    padding-top: 25px;
+  }
+  50%{
+    height: 92px;
+    padding-left: 3px;
+    padding-top: 4px;
+  }
+  100%{
+    height: 50px;
+    padding-left: 30px;
+    padding-top: 25px;
+  }
+}
+
+.navbar ul{
+  list-style: none;
+  float: right;
+  padding-right: 30px;
+  padding-top: 40px;
+}
+.navbar ul li{
+  display: inline;
+  padding: 0 10px;
+  font-size: 1.2em;
+}
+
+.navbar ul li:hover{
+  color: #00B172;
+  text-decoration: underline;
+  text-decoration-color: #00B172 ;
+}
+
+#emphasy{
+  animation-name: emphasy;
+  animation-duration: 2s;
+  animation-iteration-count: infinite;
+  transition-timing-function: ease;
+
+}
+@keyframes emphasy{
+  0%{
+    margin-top: 0;
+  }
+  50%{
+    margin-top: -10px;
+    color: #00B172;
+  }
+  100%{
+    margin-top:0;
+    color:black;
+  }
+}
+
+.first{
+  background-image: url("../images/landing.jpg");
+  background-size: 100%;
+  height: 800px;
+  width: 100%;
+  margin-top:100px;
+  color: white;
+}
+.first-content{
+  display: flex;
+  justify-content: center;
+  flex-direction: column;
+  height: 600px;
+  text-align: center;
+  font-size: 1.4em;
+  width: 36%;
+  margin-left: auto;
+  margin-right: auto;
+}
+.first-content p{
+  padding-top:20px;
+}
+
+.second{
+  display: inline-block;
+  height: 400px;
+  width: 100%;
+  text-align: center;
+}
+.second h3{
+  margin: 0 0 20px 0;
+  color: #00B172;
+}
+.second h2{
+  margin: 40px 0 0;
+  font-size: 2.2em;
+  text-align: center;
+  text-decoration: underline;
+  text-decoration-color: #00B172;
+}
+.links{
+  text-align: center;
+  margin-right: auto;
+  margin-left: auto;
+}
+.links img{
+  height: 80px;
+}
+
+.links div{
+  display: inline-block;
+  width: 30%;
+  margin-right: auto;
+  padding-top: 100px;
+  margin-left: auto;
+}
+.third{
+  background-color: #00B172;
+  color: white;
+  border: 40px solid white;
+  padding: 50px;
+  overflow: hidden;
+}
+.third figure{
+  float: right;
+  width: 10%;
+}
+.logo{
+  height: 140px;
+  float: left;
+  padding-left: 10%;
+  padding-top: 25%;}
+
+.kanye{
+  width: 30%;
+  float: right;
+}
+
+.third-content{
+  float: left;
+  width: 40%;
+
+}
+
+.third h2{
+  font-size: 2.2em;
+  border-bottom: solid;
+  margin-bottom: 58px;
+  padding-bottom: 6px;
+}
+.third h3{
+  font-size: 1.6em;
+  margin-bottom: 40px;
+}
+
+.third p{
+  font-size: 1em;
+  margin-bottom: 40px;
+}
+
