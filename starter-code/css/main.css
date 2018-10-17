@@ -127,3 +127,19 @@ hr {
   width: 350px;
   padding: 40px 80px;
 }
+
+.spotifyApp:hover {
+  animation-name: justAppear;
+  animation-duration: 3s;
+  animation-timing-function: ease-in-out()
+}
+
+@keyframes justAppear {
+  0% {
+      transform: translateY(0px);
+    }
+  100% {
+      transform: translateY(-15px);
+    }
+  }
+}
