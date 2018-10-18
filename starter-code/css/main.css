@@ -6,3 +6,239 @@ Green: #00B172
 White: #FFF
 
 */
+@font-face {
+    font-family: 'Material Icons';
+    font-style: normal;
+    font-weight: 400;
+    src: url(https://example.com/MaterialIcons-Regular.eot); /* For IE6-8 */
+    src: local('Material Icons'),
+      local('MaterialIcons-Regular'),
+      url(https://example.com/MaterialIcons-Regular.woff2) format('woff2'),
+      url(https://example.com/MaterialIcons-Regular.woff) format('woff'),
+      url(https://example.com/MaterialIcons-Regular.ttf) format('truetype');
+  }
+
+  .material-icons {
+    font-family: 'Material Icons';
+    font-weight: normal;
+    font-style: normal;
+    font-size: 100px;  /* Preferred icon size */
+    display: inline-block;
+    line-height: 1;
+    text-transform: none;
+    letter-spacing: normal;
+    word-wrap: normal;
+    white-space: nowrap;
+    direction: ltr;
+  
+    /* Support for all WebKit browsers. */
+    -webkit-font-smoothing: antialiased;
+    /* Support for Safari and Chrome. */
+    text-rendering: optimizeLegibility;
+  
+    /* Support for Firefox. */
+    -moz-osx-font-smoothing: grayscale;
+  
+    /* Support for IE. */
+    font-feature-settings: 'liga';
+  }
+
+
+body {
+    font-family: 'Nunito', sans-serif;
+    background-color: black;
+    --spotify-color: rgb(30,207,93);
+    --spotify-color-light: rgba(30,207,93,0.5);
+}
+
+h1,h2,h3,h4 {
+    font-weight: bold;
+}
+
+
+#spotify path{
+    fill:white;
+}
+
+#spotify:hover path{
+    fill: rgba(0,0,0,0.5);
+}
+
+.myMenu > ul > li > a:hover{
+    color:var(--spotify-color);
+}
+.mynav {
+    background-color: rgba(253, 253, 253, 0.6);
+    color:black;
+    padding:10px;
+    display:flex;
+    /* flex-direction: row; */
+    justify-content:space-between;
+    /* flex-wrap: wrap;     */
+    align-items: center;
+}
+
+.myMenu {
+    display: inline-block;
+}
+.myMenu > ul {
+    display: flex;
+    list-style-type: none;
+    margin:0;
+}
+
+.divider  {
+    background-color: black;
+    height: 18px;
+    width: 1px;
+    margin-left: 17px;
+    margin-right: 17px;
+}
+
+.myMenu > ul > li > a{
+    text-decoration: none;
+    color:black;
+    font-weight: bold;
+    display: inline-block;
+    padding: 0 5px; 
+}
+
+
+section {
+    /* background-color: black; */
+    color:white;
+    /* padding: 0 10px; */
+    text-align: center;
+}
+
+.carousel {
+    margin: 50px 0;
+    width: 80vw;
+}
+
+.mybod {
+    background-image: url(../images/landing.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+    height: 80vh;
+
+}
+
+.cont{
+    display: flex;
+    justify-content: center;
+    margin-top: 10vh;
+}
+
+.text {
+    margin: 0  auto;
+    text-align: center;
+    width:500px;
+    min-height: 250px;
+}
+
+
+.btn {
+    border-radius: 25px;
+    text-transform: uppercase;
+    font-weight: bold;
+    background-color: var(--spotify-color);
+    color:white;
+    margin: 0 15px;
+
+    padding:10px 30px;
+}
+
+.btn:hover{
+    background-color: var(--spotify-color-light);
+    color: beige;
+}
+
+
+
+.features {
+    padding:50px 50px;
+    /* display: grid;
+    grid-template-columns: 1fr 2fr;
+    grid-column-gap: 4em; */
+    display:flex;
+    flex-wrap: wrap;
+
+    height: auto;
+    background-color: white;
+    color:black;
+    /* overflow: hidden; */
+}
+
+.features > .text {
+    margin: 0;
+    text-align: left;
+    flex:1 0px;
+    padding:20px;
+    width:30vw;
+}
+
+.albums {
+    width: 50%;
+    display:flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    align-content: center;
+}
+
+
+
+.clear {
+    background-color:transparent;
+    border: 2px white solid;
+}
+
+
+.box {
+    background-color:rgba(0,0,0,1);
+    width:200px;
+    height: 200px;
+    display:flex;
+    justify-content: center;
+    align-items: center;
+
+}
+
+.box > img {
+    width:200px;
+    height: 200px;
+}
+
+/* .box:hover img{
+    opacity:0.6;
+} */
+
+
+/* .box:hover .box {
+    display:block;
+} */
+
+i {
+    position: absolute;
+    color:rgba(255,255,255,0.8);
+
+}
+
+.hide {
+    display: none;
+}
+
+.box:hover i{
+    display:block;
+}
+
+.box:hover img {
+    opacity:0.5;
+}
+
+
+@media (max-width:897px){
+    .yellow{
+        display: none;
+    }
+}
