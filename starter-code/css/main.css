@@ -10,19 +10,21 @@ White: #FFF
     font-family: 'Material Icons';
     font-style: normal;
     font-weight: 400;
-    src: url(https://example.com/MaterialIcons-Regular.eot); /* For IE6-8 */
+    src: url(https://example.com/MaterialIcons-Regular.eot);
+    /* For IE6-8 */
     src: local('Material Icons'),
-      local('MaterialIcons-Regular'),
-      url(https://example.com/MaterialIcons-Regular.woff2) format('woff2'),
-      url(https://example.com/MaterialIcons-Regular.woff) format('woff'),
-      url(https://example.com/MaterialIcons-Regular.ttf) format('truetype');
-  }
+        local('MaterialIcons-Regular'),
+        url(https://example.com/MaterialIcons-Regular.woff2) format('woff2'),
+        url(https://example.com/MaterialIcons-Regular.woff) format('woff'),
+        url(https://example.com/MaterialIcons-Regular.ttf) format('truetype');
+}
 
-  .material-icons {
+.material-icons {
     font-family: 'Material Icons';
     font-weight: normal;
     font-style: normal;
-    font-size: 100px;  /* Preferred icon size */
+    font-size: 100px;
+    /* Preferred icon size */
     display: inline-block;
     line-height: 1;
     text-transform: none;
@@ -30,64 +32,89 @@ White: #FFF
     word-wrap: normal;
     white-space: nowrap;
     direction: ltr;
-  
+
     /* Support for all WebKit browsers. */
     -webkit-font-smoothing: antialiased;
     /* Support for Safari and Chrome. */
     text-rendering: optimizeLegibility;
-  
+
     /* Support for Firefox. */
     -moz-osx-font-smoothing: grayscale;
-  
+
     /* Support for IE. */
     font-feature-settings: 'liga';
-  }
+}
 
 
 body {
     font-family: 'Nunito', sans-serif;
-    background-color: black;
-    --spotify-color: rgb(30,207,93);
-    --spotify-color-light: rgba(30,207,93,0.5);
+    background-color: white;
+    --spotify-color: rgb(30, 207, 93);
+    --spotify-color-light: rgba(30, 207, 93, 0.5);
 }
 
-h1,h2,h3,h4 {
+body p{
+    font-size: 1.5em;
+}
+
+h1,
+h2,
+h3,
+h4 {
     font-weight: bold;
 }
-
-
-#spotify path{
-    fill:white;
+h1{
+    font-size: 3em;
+}
+h2{
+    font-size: 2.8em;
+}
+h3 {
+    font-size:  2.5em;
 }
 
-#spotify:hover path{
-    fill: rgba(0,0,0,0.5);
+
+
+.content{
+    height: 85vh;
+    width: 100%;
+    padding: 80px;
+    display: flex;
+    justify-content: center;
 }
 
-.myMenu > ul > li > a:hover{
-    color:var(--spotify-color);
+#spotify path {
+    fill: var(--spotify-color);
 }
+
+#spotify:hover path {
+    fill: rgba(0, 0, 0, 0.5);
+}
+
+.myMenu>ul>li>a:hover {
+    color: var(--spotify-color);
+}
+
 .mynav {
     background-color: rgba(253, 253, 253, 0.6);
-    color:black;
-    padding:10px;
-    display:flex;
-    /* flex-direction: row; */
-    justify-content:space-between;
-    /* flex-wrap: wrap;     */
+    color: black;
+    padding: 10px;
+    display: flex;
+    justify-content: space-between;
     align-items: center;
 }
 
 .myMenu {
     display: inline-block;
 }
-.myMenu > ul {
+
+.myMenu>ul {
     display: flex;
     list-style-type: none;
-    margin:0;
+    margin: 0;
 }
 
-.divider  {
+.divider {
     background-color: black;
     height: 18px;
     width: 1px;
@@ -95,19 +122,20 @@ h1,h2,h3,h4 {
     margin-right: 17px;
 }
 
-.myMenu > ul > li > a{
+.myMenu>ul>li>a {
     text-decoration: none;
-    color:black;
+    color: black;
     font-weight: bold;
     display: inline-block;
-    padding: 0 5px; 
+    padding: 0 5px;
 }
 
-
-section {
-    /* background-color: black; */
-    color:white;
-    /* padding: 0 10px; */
+.mybod {
+    background-image: url(../images/landing.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+    margin-top: 62px;
+    color: white;
     text-align: center;
 }
 
@@ -116,24 +144,10 @@ section {
     width: 80vw;
 }
 
-.mybod {
-    background-image: url(../images/landing.jpg);
-    background-repeat: no-repeat;
-    background-size: cover;
-    height: 80vh;
-
-}
-
-.cont{
-    display: flex;
-    justify-content: center;
-    margin-top: 10vh;
-}
-
 .text {
-    margin: 0  auto;
+    margin: 0 auto;
     text-align: center;
-    width:500px;
+    width: 500px;
     min-height: 250px;
 }
 
@@ -143,102 +157,104 @@ section {
     text-transform: uppercase;
     font-weight: bold;
     background-color: var(--spotify-color);
-    color:white;
+    color: white;
     margin: 0 15px;
 
-    padding:10px 30px;
+    padding: 10px 30px;
 }
 
-.btn:hover{
+.btn:hover {
     background-color: var(--spotify-color-light);
     color: beige;
 }
 
-
-
 .features {
-    padding:50px 50px;
-    /* display: grid;
-    grid-template-columns: 1fr 2fr;
-    grid-column-gap: 4em; */
-    display:flex;
-    flex-wrap: wrap;
-
-    height: auto;
     background-color: white;
-    color:black;
-    /* overflow: hidden; */
-}
-
-.features > .text {
-    margin: 0;
-    text-align: left;
-    flex:1 0px;
-    padding:20px;
-    width:30vw;
-}
-
-.albums {
-    width: 50%;
-    display:flex;
-    flex-wrap: wrap;
-    justify-content: center;
-    align-content: center;
-}
-
-
-
-.clear {
-    background-color:transparent;
-    border: 2px white solid;
-}
-
-
-.box {
-    background-color:rgba(0,0,0,1);
-    width:200px;
-    height: 200px;
-    display:flex;
-    justify-content: center;
     align-items: center;
-
+    text-align: center;
+    padding-bottom: 20px;
 }
 
-.box > img {
-    width:200px;
-    height: 200px;
+.features .content{
+    flex-direction: column;
+    align-items: center;
 }
 
-/* .box:hover img{
-    opacity:0.6;
-} */
-
-
-/* .box:hover .box {
-    display:block;
-} */
-
-i {
-    position: absolute;
-    color:rgba(255,255,255,0.8);
-
+.contHead{
+    display: inline-block;
+    margin-bottom: 50px;
 }
 
-.hide {
-    display: none;
+.features .contHead{
+    display: inline-block;
+    margin-bottom: 50px;
+    width:450px;
 }
 
-.box:hover i{
-    display:block;
+.underline{
+    width: 100%;
+    height: 2px;
+}
+.features .underline{
+    background-color: var(--spotify-color);
+}
+.specs{
+    display: flex;
+    justify-content: space-evenly;
 }
 
-.box:hover img {
-    opacity:0.5;
+.specTitle{
+    color:var(--spotify-color);
 }
 
+.icons {
+    height: 130px;
+}
+.icon{
+    height:auto;
+    width: 150px;
+    margin-bottom: 20px;
+}
 
-@media (max-width:897px){
-    .yellow{
-        display: none;
-    }
+.spec{
+    margin: 0 50px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    width:250px;
+    font-weight: lighter;
+}
+
+.kanye{
+    background-color: rgb(26,178,107);
+    color:white;
+    height: 850px;
+    margin: 0 80px;
+}
+
+.kanye .underline{
+    background-color: white;
+}
+
+.phone {
+    width: 400px;
+    height: auto;
+}
+
+.spotLogo{
+    width: 150px;
+    height: auto;
+    margin: 50px;
+}
+
+.left{
+    display: flex;
+    align-items: center;
+}
+.txt{
+    margin-right: 50px;
+}
+
+.kanye .content{
+    justify-content: space-between !important;
 }
