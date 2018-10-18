@@ -138,6 +138,47 @@ a img:hover {
   box-sizing: border-box;
 }
 
+@media (max-width: 960px) {
+  .content-third-dv:nth-child(3){
+    padding: 20px 0;
+    margin: 0;
+  }
+  .nav-bar li {
+    margin-left: 10px;
+  }
+  .nav-links {
+    margin-left: -300px;
+  }
+}
+
+@media (max-width: 600px) {
+  .content-third-dv:nth-child(4){
+    padding: 20px 0;
+    margin: 0;
+  }
+  .nav-links {
+    top: 60px;
+    padding:0 10px 0 20;
+    float: left;
+    border-top: 2px solid #00b172;
+  }
+  .nav-bar div {
+    height: 130px;
+  }
+  .nav-bar .nav-logo-img {
+    clear: both;
+    margin: 0 auto;
+  }
+  .nav-bar li {
+    margin: 5px 10px 0 0;
+    font-size: 1.25rem;
+  }
+  .tutorial-screencap-img {
+    position: absolute;
+    top: 150px;
+  }
+}
+
 .content-info-sct {
   position: relative;
   width: 100%;
