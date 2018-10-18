@@ -6,3 +6,241 @@ Green: #00B172
 White: #FFF
 
 */
+@import url('https://fonts.googleapis.com/css?family=Montserrat:100,200,400,600,800');
+
+*{
+  margin: 0;
+  padding: 0;
+  font-family: 'Montserrat';
+}
+
+img{
+  width: 200px;
+}
+
+.clearfix {
+  clear: both;
+}
+
+.navbar {
+  height: 80px;
+
+}
+
+.navbar li {
+  display: inline;
+  list-style: none;
+  margin-left: 20px;
+  font-size: 1.2em;
+}
+
+.navbar ul{
+  height: 40px;
+  width: 420px;
+  float: right;
+  text-align: right;
+  margin-top: 30px;
+  margin-right: 20px;
+}
+
+.navbar img{
+  animation: myLogoIn ease-in;
+  animation-delay: 1s;
+  animation-duration: 3s;
+  margin-top: 10px;
+  margin-left: 20px;
+}
+
+.music {
+  background-image: url("../images/landing.jpg");
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-position: center center;
+  height: 850px;
+  display: flex;
+}
+
+.music-text{
+  color: #FFF;
+  margin: auto;
+  font-size: 2.3em;
+  text-align: center;
+  width: 800px;
+}
+
+.music-text p{
+  font-size: 0.8em;
+  font-weight: 400;
+  margin-top: 20px;
+  line-height: 40px;
+}
+
+.music-text h1{
+  font-weight: 600;
+}
+
+.what-title{
+  padding-top: 30px;
+  text-align: center;
+  font-size: 1.8em;
+  font-weight: 200;
+  width: 350px;
+  margin: 0 auto;
+}
+
+#what-title-ln{
+  border: 2px solid #00B172;
+  margin-top: 2px;
+}
+
+.what-info{
+  width: 1200px;
+  margin: 30px auto;
+  
+}
+
+.what-info-blk{
+  float: left;
+  width: 250px;
+  text-align: center;
+  font-size: 1.2em;
+}
+
+.what-info-middle{
+  margin: 10px 225px auto 225px;
+}
+
+.what-info-blk img{
+  width: 140px;
+  margin-bottom: 10px;
+}
+
+.what-info-blk p {
+  line-height: 30px;
+  font-weight: 200;
+}
+
+.what-info-blk h4{
+  color: #00B172;
+  font-weight: bold;
+  font-size: 1.2em;
+  margin-bottom: 10px;
+}
+
+.info{
+  zborder: 1px solid grey;
+  background: #00B172;
+  height: 600px;
+  width: 1200px;
+  margin: 30px auto;
+  position: relative;
+}
+
+.info-text{
+  margin-top: 60px;
+  float: left;
+  height: 500px;
+  width: 480px;
+  margin-left: 60px;
+  margin-right: 60px;
+
+}
+
+.info-text h3{
+  color: #FFF;
+  font-weight: 600;
+  font-size: 2em;
+  margin-bottom: 10px;
+}
+
+.info-text h4{
+  color: #FFF;
+  font-weight: 600;
+  font-size: 1.4em;
+  margin-bottom: 20px;
+}
+
+.info-text p{
+  color: #FFF;
+  font-weight: 200;
+  font-size: 1.2em;
+  margin-bottom: 20px;
+  width: 310px;
+}
+
+.info-text hr{
+ width: 450px;
+ border: 2px solid #FFF;
+ margin-bottom: 30px;
+}
+
+
+
+#info-logo{
+  position: absolute;
+  top: 40%;
+  left: 47%;
+}
+
+#info-logo img{
+  position: absolute;
+  width: 120px;
+}
+
+#info-app{
+  float: left;
+  margin-left: 20%;
+  margin-top: 6%;
+  width: 260px;
+  
+}
+
+#info-app img{
+  width: 260px;
+}
+
+@keyframes myLogoIn {
+  0% {
+    margin-left: 5%;
+  }
+
+  10%{
+    margin-left: 10%;
+  }
+
+  20%{
+    margin-left: 5%;
+  }
+
+  30%{
+    margin-left: 10%;
+  }
+
+  40%{
+    margin-left: 5%;
+  }
+
+  50%{
+    margin-left: 10%;
+  }
+
+  60%{
+    margin-left: 5%;
+  }
+
+  70%{
+    margin-left: 10%;
+  }
+
+  80%{
+    margin-left: 5%;
+  }
+
+  90%{
+    margin-left: 10%;
+  }
+
+  100% {
+    margin-left: 5%;
+  }
+}
