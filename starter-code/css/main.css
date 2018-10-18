@@ -6,3 +6,99 @@ Green: #00B172
 White: #FFF
 
 */
+
+body {
+  margin: 0;
+}
+
+nav {
+  position:fixed;
+  top:0px;
+  height:100px;
+  width:100%;
+  margin-bottom: 20px;
+  background-color:white;
+}
+
+.spotify-logo{
+  width:240px;
+  position:absolute;
+  left:10px;
+  margin:10px 0;
+  /* margin-right:600px; */
+}
+
+nav > ul {
+  list-style-type:none;
+  margin-top:20px;
+  margin-right:10px; 
+  display:inline-block;
+  position:absolute;
+  right:10%;
+}
+
+nav > ul > li {
+  margin-left:50px;
+  float:left;
+}
+
+#landingImage{
+  background-image:url("../images/landing.jpg");
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+  width:100%;
+  height:800px;
+  margin-top: 100px;
+  color:white;
+}
+
+#landingImage > h1{
+  font-size:80pt;
+  display:block;
+  padding-top:300px;
+  text-align:center;
+}
+
+#landingImage > p{
+  font-size:22pt;
+  display:block;
+  margin-top:50px;
+  text-align:center;
+}
+
+#whatsOnSpotify {
+  width:100%;
+  text-align:center;
+}
+
+#whatsOnSpotify > h1 {
+  display:inline-block;
+  border-bottom: 3px solid  #00B172;
+  font-size:30pt;
+}
+
+#whatsOnSpotify > .tile {
+  float:left;
+  margin:10px 0;
+  width:30%;
+  height: 200px;
+};
+
+#whatsOnSpotify > .tile.middle {
+  margin-left:5%;
+  margin-right:5%;
+}
+
+#whatsOnSpotify img {
+  width: 80px;
+  margin:auto;
+  display:block;
+}
+
+#yeezy {
+  clear:both;
+  background-color:#00B172;
+  margin-top: 20px;
+}
+
