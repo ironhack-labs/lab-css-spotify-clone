@@ -6,3 +6,151 @@ Green: #00B172
 White: #FFF
 
 */
+
+@keyframes bounce {
+  0% {
+    margin-top: 10px;
+  }
+  50% {
+    margin-top: 0px;
+  }
+  100% {
+    margin-top: 10px;
+  }
+}
+
+body {
+  font-family: Circular, Helvetica, Arial, sans-serif;
+}
+
+h1 {
+  font-size: 55px;
+}
+
+h2 {
+  text-align: center;
+}
+
+h3,
+p {
+  font-size: 23px;
+}
+
+.nav-bar {
+  position: fixed;
+  top: 0;
+  width: 100%;
+  z-index: 1;
+  background: white;
+}
+
+.nav-bar img {
+  float: left;
+  height: 45px;
+  margin-top: 10px;
+  margin-left: 20px;
+}
+
+.nav-bar img:hover {
+  animation-name: bounce;
+  animation-duration: 0.5s;
+  animation-iteration-count: infinite;
+}
+
+.nav-bar ul {
+  margin-right: 40px;
+  margin-top: 25px;
+  float: right;
+  font-size: 20px;
+}
+
+.nav-bar li {
+  float: left;
+  list-style-type: none;
+  text-align: center;
+  margin: 0 20px;
+}
+
+.clearfix {
+  clear: both;
+}
+
+.header {
+  background-image: url("../images/landing.jpg");
+  background-size: cover;
+  background-position: bottom;
+  text-align: center;
+  height: 600px;
+  color: #fff;
+  position: relative;
+  margin-top: 65px;
+}
+
+.headerContent {
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+}
+
+.whatsOn {
+  margin: 40px auto;
+}
+
+.whatsOn .underline {
+  margin-bottom: 50px;
+  border-bottom: 4px solid #00b172;
+  padding-bottom: 4px;
+  font-size: 35px;
+}
+
+.col img {
+  width: 100px;
+  height: 80px;
+}
+
+.col h3 {
+  color: #00b172;
+}
+
+.col {
+  float: left;
+  text-align: center;
+  width: 33%;
+  margin: 60px auto;
+}
+
+.kanye {
+  background: #00b172;
+  color: white;
+  position: relative;
+  height: 700px;
+  margin: auto 20px 20px 20px;
+}
+
+.kanyeContent {
+  position: absolute;
+  left: 70px;
+  top: 60px;
+}
+
+.kanye .underline {
+  border-bottom: 4px solid white;
+  padding-bottom: 4px;
+  font-size: 35px;
+}
+
+.app {
+  position: absolute;
+  right: 70px;
+  top: 100px;
+  height: 480px;
+}
+
+.icon {
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  height: 120px;
+}
