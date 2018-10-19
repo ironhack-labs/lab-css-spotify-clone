@@ -7,8 +7,22 @@ White: #FFF
 
 */
 
-body {
+@import url('https://fonts.googleapis.com/css?family=Montserrat:100,200,300,400,500,700,100b,300b,500b,700b,100i,300i,500i,700i');
+
+* {
   margin: 0;
+  padding:0;
+  color:#1A1A1A;
+}
+
+body {
+
+  /* font-family: Circular, Helvetica, Arial, sans-serif; */
+  font-family:"Montserrat", "Circular", Helvetica, Arial, sans-serif;
+}
+
+h1 {
+  font-weight:500;
 }
 
 nav {
@@ -16,29 +30,28 @@ nav {
   top:0px;
   height:100px;
   width:100%;
-  margin-bottom: 20px;
-  background-color:white;
+  background-color:#FFF;
 }
 
 .spotify-logo{
   width:240px;
   position:absolute;
-  left:10px;
-  margin:10px 0;
-  /* margin-right:600px; */
+  left:30px;
+  margin:10px;
 }
 
 nav > ul {
   list-style-type:none;
-  margin-top:20px;
-  margin-right:10px; 
+  font-size:18pt;
+  font-weight:400;
+  margin-top:35px;
   display:inline-block;
   position:absolute;
-  right:10%;
+  right:5%;
 }
 
 nav > ul > li {
-  margin-left:50px;
+  margin-left:25px;
   float:left;
 }
 
@@ -50,21 +63,23 @@ nav > ul > li {
   width:100%;
   height:800px;
   margin-top: 100px;
-  color:white;
+  color:FFF;
 }
 
 #landingImage > h1{
-  font-size:80pt;
-  display:block;
-  padding-top:300px;
+  font-size:64pt;
+  padding:250px 0 0 0;
   text-align:center;
+  font-weight:500;
+  color:#FFF;
 }
 
 #landingImage > p{
   font-size:22pt;
-  display:block;
-  margin-top:50px;
+  padding-top:30px;
   text-align:center;
+  font-weight:300;
+  color:#FFF;
 }
 
 #whatsOnSpotify {
@@ -72,33 +87,127 @@ nav > ul > li {
   text-align:center;
 }
 
-#whatsOnSpotify > h1 {
+#whatsOnSpotify h1 {
   display:inline-block;
-  border-bottom: 3px solid  #00B172;
-  font-size:30pt;
+  border-bottom: 4px solid  #00B172;
+  font-size:28pt;
+  font-weight:500;
+  margin:40px auto 120px auto;
+  padding-bottom:5px;
 }
 
 #whatsOnSpotify > .tile {
   float:left;
-  margin:10px 0;
-  width:30%;
-  height: 200px;
+  width:25%;
+  margin:0 4%;
+  height: 400px;
 };
 
 #whatsOnSpotify > .tile.middle {
-  margin-left:5%;
-  margin-right:5%;
+  margin-left:0;
+  margin-right:0;
 }
 
 #whatsOnSpotify img {
-  width: 80px;
+  width: 150px;
   margin:auto;
   display:block;
 }
 
-#yeezy {
-  clear:both;
-  background-color:#00B172;
-  margin-top: 20px;
+.image-container {
+  height:150px;
+  width:100%;
+  margin:auto;
 }
 
+.tile h2 {
+  color: #00B172;
+  font-size:22pt;
+  font-weight:700;
+  padding-bottom:20px;
+}
+
+.tile p {
+  font-size:18pt;
+  font-weight: 300;
+  display:inline-block;
+  width:270px;
+}
+
+#yeezy {
+  float:left;
+  background-color:#00B172;
+  border-width: 0px 40px 0 40px;
+  border-color: #FFF;
+  border-style:solid;
+  padding:50px 80px;
+  width:100%;
+  box-sizing:border-box;
+}
+
+#yeezy h1 {
+  font-size:22pt;
+  font-weight:300;
+  display:inline-block;
+  border-bottom: 4px solid  #FFF;
+  font-size:28pt;
+  font-weight:500;
+  margin:40px auto 30px auto;
+  padding-bottom:5px;
+  color:#FFF;
+}
+
+#yeezy h2 {
+  font-size:22pt;
+  font-weight: 700;
+  padding: 25px 0;
+  color:#FFF;
+}
+
+#yeezy p {
+  font-size:18pt;
+  font-weight: 300;
+  padding: 15px 0;
+  color:#FFF;
+}
+
+#yeezy > #left {
+  float:left;
+  width: 60%;
+  /* background-color:red; */
+}
+
+#yeezy > #left > #left-text {
+  float:left;
+  width: 65%;
+  /* background-color:blue; */
+}
+
+#white-icon img {
+  display:inline-block;
+  float:left;
+  width: 160px;
+  margin: 200px auto 0 auto;
+  /* background-color:gray; */
+}
+
+#yeezy > #left > #white-icon {
+  float:left;
+  width:30%;
+  /* margin:0 0 0 50px; */
+}
+
+#yeezy > #right {
+  float:left;
+  width: 20%; 
+}
+
+#yeezy > #right  img {
+  height: 610px;
+  display:block;
+  margin:80px auto 40px auto;
+}
+ 
+#clearfix {
+  clear:both;
+}
