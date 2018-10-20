@@ -1,3 +1,6 @@
+@import url('https://fonts.googleapis.com/css?family=Montserrat:100,200,300,400,500,600,700,800,900');
+
+
 /*
 Colors:
 
@@ -6,3 +9,279 @@ Green: #00B172
 White: #FFF
 
 */
+
+body {
+	font-family: "Montserrat";
+	padding: 0;
+	margin: 0;
+}
+
+h1 {
+	font-size: 55px;
+	font-weight: 600;
+	line-height: 0;
+	color: #FFF;
+	transform: scaleY(1.15);
+}
+
+h2 {
+	font-weight: 600;
+	font-size: 25px;
+	text-align: center;
+	transform: scaleY(1.15);
+	color: #1A1A1A;
+}
+
+h3 {
+	color: #FFF;
+	font-weight: 300;
+	font-size: 20px;
+	text-align: center;
+	line-height: 28px;
+	transform: scaleY(1.15);
+}
+
+h4 {
+	font-size: 21px;
+	transform: scaleY(1.15);
+	font-weight: 700;
+	line-height: 15px;
+}
+
+p {
+	transform: scaleY(1.15);
+	color: #1A1A1A;
+	font-weight: 300;
+	font-size: 1em;
+}
+
+a {
+	text-decoration: none;
+	color: #1A1A1A;
+}
+
+/*------------HEADER-----------*/
+
+header {
+	height: 70px;
+	display: flex;
+	justify-content: space-between;
+	align-items: center;
+	border: 1px solid black;
+	background-color: #FFFFFF;
+}
+
+#header-logo {
+	height: 45px;
+	margin: auto 0 auto 3%;
+}
+
+nav {
+	width: 360px;
+	margin-right: 3%
+}
+
+ul {
+	display: flex;
+	justify-content: space-between;
+	padding: 0;
+}
+
+li {
+	list-style-type: none;
+}
+
+li p {
+	font-size: 16px;
+	
+
+}
+
+div {
+	border: 1px solid black;
+}
+
+img {
+		border: 1px solid red;
+}
+
+header p {
+	color: #1A1A1A;
+}
+
+/*------------SECTION 1-----------*/
+
+.s1 {
+	height: 700px;
+/*	border: 1px solid green;*/
+	display: flex;
+	justify-content: flex-start;
+	align-items: center;
+	flex-direction: column;
+	background-image: url(../images/landing.jpg);
+	background-size: contain;
+	
+	position: relative;
+}
+
+.heading-container {
+	height: 600px;
+	display: flex;
+	align-items: center;
+	justify-content: center;
+	flex-direction: column;
+}
+
+.title-container {
+	display: flex;
+	height: 90px;
+	align-items: flex-end;
+	position: relative;
+	top: -100px;
+}
+
+.description-container {
+	display: flex;
+	align-items: flex-start;
+	position: relative;
+	top: -10px;
+}
+
+/*---------SECTION 2----------*/
+
+.s2 {
+	height: 500px;
+	/*border: 1px solid lightblue;*/
+}
+
+.underline {
+	display: flex;
+	justify-content: center;
+	margin-top: 10px;
+}
+
+.green div {
+	border-bottom: 3px solid #00B172;
+	height: 60px;
+}
+
+/*----------INFO------------*/
+
+.info-container{
+	display: flex;
+	justify-content: space-evenly;
+	margin-top: 60px;
+	height: 320px;
+
+}
+
+.info-column {
+	width: 25%;
+	display: flex;
+	justify-content: flex-start;
+	align-items: center;
+	flex-direction: column;
+	text-align: center;
+	height: 300px;
+	position: relative;
+}
+
+.info-image-container {
+	height: 115px;
+	display: flex;
+	align-items: flex-end;
+}
+
+.info-image {
+	width: 115px;
+}
+
+.info-text {
+	position: relative;
+	top: -10px;
+}
+
+.s2 h4 {
+	color: #00B172;
+}
+
+.info-text p {
+	color: #1A1A1A;
+}
+
+/*---------SECTION 3-----------*/
+
+.s3 {
+	height: 550px;
+/*	border: 1px solid grey;*/
+	display: flex;
+	justify-content: center;
+}
+
+.green-background {
+	background-color: #1AB26B;
+	background-image: url(../images/spotify-icon-white.png);
+	background-position: center;
+	background-size: 100px;
+	background-repeat: no-repeat;
+	width: 95%;
+	height: 95%;
+	display: flex;
+	justify-content: center;
+	align-items: center;
+
+}
+
+.content-container {
+	display: flex;
+	justify-content: space-between;
+	align-items: center;
+	width: 100%;
+	height: 100%;
+	margin: 5%;
+}
+.text-container {
+	width: 50%;
+	display: flex;
+	align-items: flex-start;
+	flex-direction: column;
+	justify-content: flex-start;
+	/*margin: 5% 5% 0 5%;*/
+}
+
+.app-container {
+	height: 460px;
+	width: 30%;
+	display: flex;
+	justify-content: flex-end;
+	align-items: flex-end;
+	/*margin: 5% 5% 5% 0;*/
+
+}
+
+#app-image {
+	height: 400px;
+	width: 225px;
+	padding: 0;
+	margin-bottom: 10%;
+
+}
+
+.white div {
+	border-bottom: 3px solid white;
+	height: 45px;
+}
+
+
+.text-container h2, h4, p {
+	color: white; 
+}
+
+.text-container p {
+	font-size: 0.9em;
+	line-height: 0.7em;
+}
+
+.text-container h2 {
+	line-height: 0;	
+}
