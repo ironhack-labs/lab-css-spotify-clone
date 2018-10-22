@@ -67,8 +67,17 @@ header {
 	display: flex;
 	justify-content: space-between;
 	align-items: center;
-	border: 1px solid black;
+	/*border: 1px solid black;*/
 	background-color: #FFFFFF;
+	position: fixed;
+	width: 100%
+}
+
+#background {
+	background-color: white;
+	height: 70px;
+	width: 100%;
+	z-index: 100;
 }
 
 #header-logo {
@@ -78,7 +87,8 @@ header {
 
 nav {
 	width: 360px;
-	margin-right: 3%
+	margin-right: 3%;
+
 }
 
 ul {
@@ -112,14 +122,14 @@ header p {
 /*------------SECTION 1-----------*/
 
 .s1 {
-	height: 700px;
+	height: 80vh;
 /*	border: 1px solid green;*/
 	display: flex;
 	justify-content: flex-start;
 	align-items: center;
 	flex-direction: column;
 	background-image: url(../images/landing.jpg);
-	background-size: contain;
+	background-size: cover;
 	
 	position: relative;
 }
