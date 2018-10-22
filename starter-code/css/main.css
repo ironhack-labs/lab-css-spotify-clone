@@ -1,8 +1,150 @@
-/*
-Colors:
+body {
+  font-family: 'Montserrat', sans-serif;
+  color: #1A1A1A;
+  font-size: 22px;
+  display: flex;
+  flex-direction: column;
+  margin: 0;
+}
 
-Text: 1A1A1A
-Green: #00B172
-White: #FFF
+nav {
+  height: 80px; 
+  position: fixed;
+  background-color: white;
+  width: 100%;
+  margin: 0;
+  padding: 0 20px;
+}
 
-*/
+nav img {
+  height: 70px;
+  width: 230px;
+  float: left;
+}
+
+nav img:hover {
+  position: absolute;
+  animation: 1s wider;
+}
+@keyframes wider {
+  0% {
+    width: 230px;
+  }
+  50%{
+    width: 300px;
+  }
+  100%{
+    width: 230px;
+  }
+}
+
+/* nav img:hover {
+  transition: 1s;
+  width: 300px;
+} */
+
+nav ul {
+  float: right;
+  list-style: none;
+  display: flex;
+  align-content: center;
+}
+
+nav ul a {
+  text-decoration: none;
+  color: #1A1A1A;
+  margin: 0 10px;
+}
+
+.music-for-everyone {
+  background-image: url("file:///home/adele/code/labs/lab-css-spotify-clone/starter-code/images/landing.jpg");
+  background-repeat: no-repeat;
+  background-size: cover;
+  height: 900px;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  color: white;
+}
+
+h1 {
+  font-size: 80px;
+  margin: 0 0 30px 0;
+}
+
+h2, h3 {
+  font-weight: 700;
+}
+
+.music-for-everyone p {
+  font-size:28px;
+  margin: 0 0 5px 0;
+}
+
+.whats-on-spotify div {
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  justify-content: space-evenly;
+}
+
+.whats-on-spotify article {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  width: 33%;
+  height: 360px;
+  font-size: 25px;
+  text-align: center;
+  margin: 50px 20px;
+  padding: 20px 50px;
+}
+
+.whats-on-spotify img {
+  width: 90px;
+  height: 90px; 
+}
+
+.whats-on-spotify h2 {
+  display: flex;
+  justify-content: center;
+  font-size: 40px;
+  text-decoration: underline #00B172;
+  text-underline-position: under;
+}
+
+.whats-on-spotify h3 {
+  color: #00B172;
+}
+
+.kanye-west {
+  background-color: #00B172;
+  background-image: url("file:///home/adele/code/labs/lab-css-spotify-clone-master/starter-code/images/spotify-icon-white.png");
+  background-repeat: no-repeat;
+  background-position: center;
+  background-size: 10%;
+  margin: 30px;
+  padding: 100px 100px 40px 100px;
+  color: white;
+  display: flex;
+  justify-content: space-between;
+}
+
+.kanye-west h2 {
+  text-decoration: underline;
+  text-underline-position: under;
+  font-size: 40px;
+}
+
+.kanye-west article {
+  display: flex;
+  flex-direction: column;
+  width: 300px;
+}
+
+.kanye-west img {
+  height: 600px;
+  width: 350px;
+}
