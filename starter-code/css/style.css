@@ -1,0 +1,193 @@
+body {
+  margin: 0;
+  font-family: Circular, Helvetica, Arial, sans-serif;
+  color: #1A1A1A;
+}
+
+nav {
+  height: 70px;
+  width: 100%;
+  position: fixed;
+  top: 0;
+  left: 0;
+  background-color: white;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+nav #spotify-logo {
+  padding: 10px 20px;
+  height: 70%;
+}
+nav ul {
+  height: 100%;
+  margin: 0;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 0 40px;
+  list-style-type: none;
+}
+nav ul li {
+  height: 100%;
+  padding: 0 15px;
+  cursor: pointer;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  transition: background-color 500ms;
+}
+nav ul li a {
+  text-decoration: none;
+  color: #1A1A1A;
+  transition: color 500ms;
+}
+nav ul li:hover {
+  background-color: #53ae70;
+}
+nav ul li:hover a {
+  color: white;
+  font-weight: 500;
+}
+
+header {
+  margin-top: 70px;
+  background-image: url("../images/landing.jpg");
+  background-repeat: no-repeat;
+  background-size: cover;
+  height: 940px;
+  width: 100%;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  color: white;
+}
+header h1 {
+  font-size: 55px;
+  letter-spacing: 1px;
+}
+header .paragraphs {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  font-size: 20px;
+}
+header .paragraphs p {
+  margin: 5px;
+  font-weight: 300;
+}
+
+main {
+  padding-left: 3%;
+  padding-right: 3%;
+}
+
+#features-presentation {
+  margin-top: 30px;
+  margin-bottom: 80px;
+}
+#features-presentation .container-section-title {
+  display: flex;
+  justify-content: center;
+}
+#features-presentation .container-section-title h2 {
+  font-size: 27px;
+  font-weight: 900;
+  padding-bottom: 3px;
+  letter-spacing: 1px;
+  border-bottom: 4px solid #00B172;
+}
+#features-presentation ul.features {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding-left: 0;
+  list-style-type: none;
+}
+#features-presentation ul.features li {
+  margin: 0 10px;
+  width: 30%;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+  align-items: center;
+  letter-spacing: 1px;
+}
+#features-presentation ul.features li .container-img {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 75px;
+  width: 70px;
+}
+#features-presentation ul.features li .container-img img {
+  height: 100%;
+  margin: 0 auto;
+}
+#features-presentation ul.features li h3 {
+  padding: 10px 0;
+  color: #00B172;
+  margin: 8px;
+}
+#features-presentation ul.features li p {
+  text-align: center;
+  font-weight: 300;
+  margin: 8px;
+}
+
+#green-demo {
+  margin-bottom: 30px;
+  background-color: #53ae70;
+  background-image: url("../images/spotify-icon-white.png");
+  background-repeat: no-repeat;
+  background-size: 90px;
+  background-position: center;
+  color: #fff;
+  padding: 8%;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+#green-demo .desc {
+  width: 500px;
+  height: 100%;
+  margin-right: 30px;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+}
+#green-demo .desc h2 {
+  letter-spacing: 1.5px;
+  padding-bottom: 5px;
+  border-bottom: 3px solid #fff;
+  width: 74%;
+}
+#green-demo .desc ul {
+  padding-left: 0;
+  list-style-type: none;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+}
+#green-demo .desc ul li {
+  margin: 10px 0;
+  padding-right: 120px;
+}
+#green-demo .desc ul li .text-content p {
+  margin: 0 0;
+  font-weight: 200;
+  line-height: 24px;
+  font-size: 17px;
+}
+#green-demo .img-container {
+  width: 400px;
+  margin-left: 30px;
+  padding-left: 60px;
+}
+#green-demo .img-container img {
+  width: 100%;
+}
+
+/*# sourceMappingURL=style.css.map */
