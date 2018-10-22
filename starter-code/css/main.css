@@ -6,3 +6,171 @@ Green: #00B172
 White: #FFF
 
 */
+
+body {
+  margin: 0;
+  font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+  font-weight: 300;
+}
+
+/* HEADER */
+
+header {
+  margin: 20px auto;
+  background-color: white;
+  height: 30px; 
+  width: 95%;
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  align-items: center;
+}
+
+header img {
+  width: 170px;
+  height: 50px;
+}
+
+header ul {
+  display: flex;
+  flex-direction: row;
+  justify-content: flex-end;
+  list-style: none;
+  font-size: 20px;
+  font-weight: 300;
+  margin: 0 10px; 
+}
+
+header li {
+  padding: 10px 20px;
+}
+
+header a {
+  color: black;
+  text-decoration: none;
+}
+
+@keyframes jump {
+  0% {transform: translateY(0);}
+  50% {transform: translateY(-10px);}
+  100% {transform: translateY(0);}
+}
+
+.jump-spot:hover {
+  animation: 1s jump; 
+  animation-iteration-count: infinite;
+}
+/* 
+@keyframes green {
+  0% { color: black; }
+  100% { color: #00B172; }
+} */
+
+.greenG:hover {
+  color: green;
+  transition: 0.5s;
+}
+
+
+
+/* FIRST DIV (Music for everyone) */
+
+.subheader {
+  background-image: url(../images/landing.jpg);
+  background-size: cover;
+  width: 100%;
+  height: 750px;
+  color: white;
+  text-align: center;
+  display: flex;
+  align-items: center;
+  flex-direction: column;
+  justify-content: center;
+  font-size: 30px;
+  padding: 10px auto;
+}
+
+.subheader p {
+  font-size: 25px; 
+}
+
+/* SECOND DIV */
+
+.what-is {
+  width: 80%;
+  height: 400px;
+  background-color: white;
+  margin: 10px auto;
+  display: flex;
+  justify-content: center;
+  flex-direction: column;
+  align-items: center;
+}
+
+.what-is h2 {
+  margin-bottom: 80px;
+  border-bottom: 3px solid #00B172;
+}
+
+.orga {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  width: 100%;
+}
+
+.orga h3 {
+  color: #00B172;
+}
+
+.orga img {
+  width: 100px;
+  height: 80px;
+}
+
+.col {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  width: 200px;
+  text-align: center;
+}
+
+/* The last one */
+
+.kanye {
+  margin: 0 auto;
+  background-color: #00B172;
+  margin: 20px 20px;
+  padding: 40px 90px; 
+  height: 500px;
+  color: white;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.kanye h2 {
+  margin-bottom: 50px;
+  border-bottom: 2px solid white;
+  width: 370px;
+  font-size: 28px;
+}
+
+.text-kan {
+  width: 300px;
+}
+
+.text-kan p {
+  margin-bottom: 40px;
+}
+
+.logo {
+  width: 100px;
+}
+
+.k-west {
+  width: 250px;
+  display: flex;
+  
+}
