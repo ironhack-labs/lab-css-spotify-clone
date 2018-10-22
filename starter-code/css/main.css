@@ -6,3 +6,199 @@ Green: #00B172
 White: #FFF
 
 */
+
+body {
+    font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+}
+
+* {
+    margin: 0;
+    padding: 0;
+}
+
+/* HEADER */
+
+header {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    height: 110px;
+}
+
+.logo-header img {
+    height: 70px;
+    width: 230px;
+    padding-left: 45px;
+}
+
+
+ul {
+    display: flex;
+    justify-content: space-around;
+    width: 30%;
+    list-style: none;
+    font-size: 24px;
+    font-weight: 200;
+    letter-spacing: 0.75px;
+    padding-right: 45px;
+}
+
+a {
+    color: black;
+}
+
+a:hover {
+    color: grey;
+    transition-duration: 300ms;
+    transition-property: color;
+}
+ul a {
+    text-decoration: none;
+    color: black;
+}
+
+/* SECTION 1 */
+.landing {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+    background-image: url("../images/landing.jpg");
+    height: 880px;
+    background-size: cover;
+    text-align: center;
+}
+
+h1 {
+    font-size: 90px;
+    letter-spacing: 0.5px;
+    font-weight: 500;
+}
+
+.landing p {
+    font-size: 35px;
+    font-weight: 200;
+    padding-top: 40px;
+}
+
+.landing-item {
+    color: white;
+    margin-bottom: 280px;
+}
+
+/* SECTION 2 */
+.on-spotify {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+}
+
+.on-spotify-bloc {
+    display: flex;
+    justify-content: space-around;
+    align-items: baseline;
+}
+
+
+.on-spotify-bloc p {
+    font-size: 30px;
+    font-weight: 200;
+}
+.on-spotify-text {
+    border-bottom: 4px solid #00B172;
+    width: fit-content;
+    margin: 40px 0 100px;
+}
+
+.on-spotify-text h2 {
+    padding-top: 5px;
+    font-size: 40px;
+    font-weight: 600;
+    padding-bottom: 10px;
+}
+
+.million, .hdmusic, .stream {
+    width: 30%;
+    text-align: center;
+}
+
+.million img, .hdmusic img, .stream img {
+    width: 30%;
+}
+
+h3 {
+    font-size: 30px;
+    color: #00B172;
+    margin: 30px 0;
+}
+
+/* SECTION 3 */
+
+.yeezy {
+    margin: 150px 50px;
+    background-color: #00B172;
+    display: flex;
+    justify-content: space-between;
+    padding: 30px 100px 90px;
+    background-image: url("../images/spotify-icon-white.png");
+    background-size: 135px 135px;
+    background-repeat: no-repeat;
+    background-position: center;
+    align-items: flex-end;
+}
+
+.yeezy h3, .yeezy p {
+    color: white;
+} 
+
+.yeezy h2 {
+    font-size: 40px;
+    font-weight: 600;
+    padding-bottom: 10px;
+    color: white;
+    border-bottom: 4px solid white;
+    margin: 40px 0;
+}
+
+.yeezy p {
+    font-size: 24px;
+    font-weight: 200;
+    padding: 20px 0;
+    line-height: 37px;
+}
+
+.spotify-app {
+    width: 350px;
+    height: 620px;
+}
+
+.spotify-img {
+    margin-top: 10px;
+}
+
+  .logo-header:hover {
+    animation-name: bounce;
+    animation-duration: 1s;
+    animation-iteration-count: 1;
+    cursor: pointer;
+}
+
+.logo-header {
+    animation-duration: 1s;
+    animation-fill-mode: both;
+    animation-timing-function: ease-in-out;
+    animation-iteration-count: 1;
+}
+
+@keyframes bounce {
+	0%, 100%, 20%, 50%, 80% {
+		transform:         translateY(0)
+	}
+	40% {
+		transform:         translateY(-30px)
+	}
+	60% {
+		transform:         translateY(-15px)
+	}
+}
