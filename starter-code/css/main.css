@@ -17,7 +17,7 @@ body {
 }
 
 h1 {
-	font-size: 5vw;
+	font-size: 55px;
 	font-weight: 600;
 	line-height: 0;
 	color: #FFF;
@@ -35,7 +35,7 @@ h2 {
 h3 {
 	color: #FFF;
 	font-weight: 300;
-	font-size: 1.8vw;
+	font-size: 22px;
 	text-align: center;
 	line-height: 28px;
 	transform: scaleY(1.15);
@@ -83,6 +83,10 @@ header {
 #header-logo {
 	height: 45px;
 	margin: auto 0 auto 3%;
+}
+
+#header-logo:hover {
+	animation: 1s bounce;
 }
 
 nav {
@@ -297,4 +301,36 @@ header p {
 
 .text-container h2 {
 	line-height: 0;	
+}
+
+@media screen and (max-width: 600px) {
+	h1 {
+		font-size: 35px;
+	}
+
+	h3 {
+		font-size: 15px;
+	}
+}
+
+@keyframes bounce {
+	0% {
+		position: relative;
+		top: 0;
+	}
+
+	25% {
+		position: relative;
+		top: -5%;
+	}
+
+	50% {
+		position: relative;
+		top: 5%;
+	}
+
+	100% {
+		position: relative;
+		top: 0;
+	}
 }
