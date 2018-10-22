@@ -6,3 +6,193 @@ Green: #00B172
 White: #FFF
 
 */
+@import url("https://fonts.googleapis.com/css?family=Open+Sans");
+
+body{
+    font-family: "Open Sans";
+    margin: 0 auto;
+}
+
+.clearfix{ 
+    clear: both; 
+  }
+
+nav {
+  position: fixed;
+  display: flex;
+  justify-content: space-between;
+  color: #1a1a1a;
+  background-color: #ffffff;
+  height: 20%;
+  padding: 1%;
+}
+
+nav img {
+  width: 20%;
+}
+
+nav ul {
+  display: flex;
+  justify-content: space-evenly;
+  align-items: center;
+  padding: 0;
+  width: 20%;
+}
+
+nav li {
+  list-style: none;
+}
+
+nav a {
+  text-decoration: none;
+  color: #1a1a1a;
+}
+
+.main {
+  background-image: url("./../images/landing.jpg");
+  background-size: cover;
+  background-repeat: no-repeat;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+  padding: 20%;
+}
+
+.main h1 {
+  font-size: 60px;
+  font-weight: bold;
+  color:#ffffff;
+}
+
+.main p {
+  color: #ffffff;
+  font-size: 30px;
+}
+
+.background{
+    background-color: #ffffff;
+    background-size: cover;
+    background-repeat: no-repeat;
+}
+
+h2{
+    font-size: 40px;
+    font-weight: bold;
+    color: #1a1a1a;
+    text-align: center
+}
+
+.container{
+    width: 100%;
+    margin: 0 auto;
+    padding: 4% 0;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+}
+
+.section-1{
+    display:flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+}
+
+.section-2{
+    display:flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+}
+
+.section-3{
+    display:flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+}
+
+#content img{
+    width: 45%;
+    height: 45%;
+}
+
+#content hr{
+    width: 23%;
+    height: 4px;
+    margin-top: 0;
+    background-color: #00B172;
+}
+
+.container h3{
+    font-weight: bold;
+    color :#00B172;
+    font-size: 45px;
+}
+
+.container p{
+    color: #1a1a1a;
+    font-size: 30px;
+    text-align: center;
+}
+
+.discover{
+    background-color: #00B172;
+    background-size: cover;
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    width: 100%;
+}
+
+.about{
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-start;
+    align-items: flex-start;
+    width: 40%;
+    height: 90%;
+    margin: 0 auto;
+    padding-left: 4%;
+}
+
+.about h2{
+    color: #ffffff;
+    font-weight: bold;
+    font-size: 35px;
+}
+
+.about h3{
+    color: #ffffff;
+    font-size: 30px;
+}
+
+.about p{
+    color: #ffffff;
+    font-size: 20px;
+}
+
+.about hr{
+    color: #ffffff;
+    height: 4px;
+    width: 80%;
+    margin: 0;
+}
+
+.logo{
+    width:20%;
+    padding:2%;
+}
+
+.logo img{
+    width: 60%;
+}
+
+.kanye{
+    width: 30%;
+}
+
+.kanye img{
+    width: 85%;
+}
