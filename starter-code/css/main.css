@@ -21,7 +21,7 @@ header{
 nav{
   position: fixed;
   display: flex;
-  justify-content: space-between;    
+  justify-content: space-between;
   width: 96%;
   padding: 10px 2%;
   background-color: white;
@@ -50,7 +50,7 @@ h1{
   text-align:center;
 }
 
-h2{  
+h2{
   font-size: 45px;
   text-align:center;
   margin-bottom: 5px;
@@ -73,7 +73,7 @@ h4{
 
 p{
   font-size: 23px;
-  font-weight: lighter; 
+  font-weight: lighter;
   margin: 5px;
   text-align:center;
 }
@@ -83,7 +83,7 @@ p{
   background-position: center;
   background-size: cover;
   background-repeat: no-repeat;
-  height: 800px;
+  height: 850px;
   display: flex;
   justify-content: center;
   align-items: center;
@@ -98,7 +98,7 @@ p{
   margin-bottom: 5%;
 }
 
-#kanye{  
+#kanye{
   display: flex;
   flex-direction: row;
   background-color: #00B172;
@@ -244,14 +244,14 @@ p{
     font-size: 50px;
   }
 
-  h2{  
+  h2{
     font-size: 40px;
   }
 
   h3{
     font-size: 20px;
   }
-  
+
   h4{
     font-size: 19px;
   }
@@ -316,7 +316,7 @@ p{
   h1{
     font-size: 35px;
   }
-  
+
   h4{
     font-size: 16px;
   }
@@ -333,4 +333,22 @@ p{
     width: 350px;
   }
 
+}
+
+#logo:hover{
+  animation: 1s crazyflip;
+  animation-iteration-count: infinite;
+  transition-timing-function: ease-in-out;
+}
+
+@keyframes crazyflip{
+  0% {
+    transform: translateY(0);
+  }
+  50% {
+      transform: translateY(-10px);
+  }
+  100% {
+    transform: translateY(0);
+  }
 }
