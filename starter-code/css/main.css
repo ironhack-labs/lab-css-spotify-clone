@@ -23,6 +23,10 @@ header {
     justify-content: space-between;
     align-items: center;
     height: 110px;
+    position: fixed;    
+    background-color: white;
+    width: 100%;
+    z-index: 100;
 }
 
 .logo-header img {
@@ -64,7 +68,7 @@ ul a {
     justify-content: center;
     flex-direction: column;
     background-image: url("../images/landing.jpg");
-    height: 880px;
+    height: 820px;
     background-size: cover;
     text-align: center;
 }
@@ -83,7 +87,8 @@ h1 {
 
 .landing-item {
     color: white;
-    margin-bottom: 280px;
+    margin-bottom: 280px;   
+    margin-top: 300px;
 }
 
 /* SECTION 2 */
@@ -136,7 +141,7 @@ h3 {
 /* SECTION 3 */
 
 .yeezy {
-    margin: 150px 50px;
+    margin: 150px 50px 50px;
     background-color: #00B172;
     display: flex;
     justify-content: space-between;
@@ -176,6 +181,9 @@ h3 {
 .spotify-img {
     margin-top: 10px;
 }
+
+
+/* Animation */
 
   .logo-header:hover {
     animation-name: bounce;
