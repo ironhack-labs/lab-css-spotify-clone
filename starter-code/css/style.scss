@@ -1,0 +1,54 @@
+body{
+  margin: 0;
+  font-family: Circular, Helvetica, Arial, sans-serif;
+}
+
+nav{
+
+  //padding-top: 10px;
+  height: 70px;
+  width: 100%;
+  display: flex;
+  justify-content: space-between;
+
+  #spotify-logo{
+    padding: 10px 20px;
+    height: 70%;
+  }
+
+  ul{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 0 40px;
+
+    li{
+      list-style-type: none;
+      padding: 10px 15px;
+    }
+  }
+
+}
+
+header{
+  background-image: url("../images/landing.jpg");
+  background-repeat: no-repeat;
+  background-size: cover;
+
+  height: 940px;
+  width: 100%;
+
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  color: white;
+
+  .paragraphs{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+  }
+
+}
