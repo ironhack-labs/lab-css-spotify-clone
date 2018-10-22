@@ -8,14 +8,14 @@ White: #FFF
 */
 @import url("https://fonts.googleapis.com/css?family=Open+Sans");
 
-body{
-    font-family: "Open Sans";
-    margin: 0 auto;
+body {
+  font-family: "Open Sans";
+  margin: 0 auto;
 }
 
-.clearfix{ 
-    clear: both; 
-  }
+.clearfix {
+  clear: both;
+}
 
 nav {
   position: fixed;
@@ -29,6 +29,27 @@ nav {
 
 nav img {
   width: 20%;
+}
+
+nav img:hover {
+    animation: jump;
+}
+
+.jump {
+    transform-origin: 50% 50%;
+    animation: jump .5s linear alternate infinite;
+  }
+
+@keyframes jump {
+  0% {
+    transform: translate3d(0, 0, 0) scale3d(1, 1, 1);
+  }
+  40% {
+    transform: translate3d(0, 30%, 0) scale3d(0.7, 1.5, 1);
+  }
+  100% {
+    transform: translate3d(0, 100%, 0) scale3d(1.5, 0.7, 1);
+  }
 }
 
 nav ul {
@@ -62,7 +83,7 @@ nav a {
 .main h1 {
   font-size: 60px;
   font-weight: bold;
-  color:#ffffff;
+  color: #ffffff;
 }
 
 .main p {
@@ -70,129 +91,129 @@ nav a {
   font-size: 30px;
 }
 
-.background{
-    background-color: #ffffff;
-    background-size: cover;
-    background-repeat: no-repeat;
+.background {
+  background-color: #ffffff;
+  background-size: cover;
+  background-repeat: no-repeat;
 }
 
-h2{
-    font-size: 40px;
-    font-weight: bold;
-    color: #1a1a1a;
-    text-align: center
+h2 {
+  font-size: 40px;
+  font-weight: bold;
+  color: #1a1a1a;
+  text-align: center;
 }
 
-.container{
-    width: 100%;
-    margin: 0 auto;
-    padding: 4% 0;
-    display: flex;
-    flex-direction: row;
-    justify-content: space-around;
+.container {
+  width: 100%;
+  margin: 0 auto;
+  padding: 4% 0;
+  display: flex;
+  flex-direction: row;
+  justify-content: space-around;
 }
 
-.section-1{
-    display:flex;
-    justify-content: center;
-    align-items: center;
-    flex-direction: column;
+.section-1 {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
 }
 
-.section-2{
-    display:flex;
-    justify-content: center;
-    align-items: center;
-    flex-direction: column;
+.section-2 {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
 }
 
-.section-3{
-    display:flex;
-    justify-content: center;
-    align-items: center;
-    flex-direction: column;
+.section-3 {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
 }
 
-#content img{
-    width: 45%;
-    height: 45%;
+#content img {
+  width: 45%;
+  height: 45%;
 }
 
-#content hr{
-    width: 23%;
-    height: 4px;
-    margin-top: 0;
-    background-color: #00B172;
+#content hr {
+  width: 23%;
+  height: 4px;
+  margin-top: 0;
+  background-color: #00b172;
 }
 
-.container h3{
-    font-weight: bold;
-    color :#00B172;
-    font-size: 45px;
+.container h3 {
+  font-weight: bold;
+  color: #00b172;
+  font-size: 45px;
 }
 
-.container p{
-    color: #1a1a1a;
-    font-size: 30px;
-    text-align: center;
+.container p {
+  color: #1a1a1a;
+  font-size: 30px;
+  text-align: center;
 }
 
-.discover{
-    background-color: #00B172;
-    background-size: cover;
-    display: flex;
-    flex-direction: row;
-    align-items: center;
-    width: 100%;
+.discover {
+  background-color: #00b172;
+  background-size: cover;
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  width: 100%;
 }
 
-.about{
-    display: flex;
-    flex-direction: column;
-    justify-content: flex-start;
-    align-items: flex-start;
-    width: 40%;
-    height: 90%;
-    margin: 0 auto;
-    padding-left: 4%;
+.about {
+  display: flex;
+  flex-direction: column;
+  justify-content: flex-start;
+  align-items: flex-start;
+  width: 40%;
+  height: 90%;
+  margin: 0 auto;
+  padding-left: 4%;
 }
 
-.about h2{
-    color: #ffffff;
-    font-weight: bold;
-    font-size: 35px;
+.about h2 {
+  color: #ffffff;
+  font-weight: bold;
+  font-size: 35px;
 }
 
-.about h3{
-    color: #ffffff;
-    font-size: 30px;
+.about h3 {
+  color: #ffffff;
+  font-size: 30px;
 }
 
-.about p{
-    color: #ffffff;
-    font-size: 20px;
+.about p {
+  color: #ffffff;
+  font-size: 20px;
 }
 
-.about hr{
-    background-color: #ffffff;
-    height: 4px;
-    width: 80%;
-    margin: 0;
+.about hr {
+  background-color: #ffffff;
+  height: 4px;
+  width: 80%;
+  margin: 0;
 }
 
-.logo{
-    width:20%;
-    padding:2%;
+.logo {
+  width: 20%;
+  padding: 2%;
 }
 
-.logo img{
-    width: 60%;
+.logo img {
+  width: 60%;
 }
 
-.kanye{
-    width: 30%;
+.kanye {
+  width: 30%;
 }
 
-.kanye img{
-    width: 85%;
+.kanye img {
+  width: 85%;
 }
