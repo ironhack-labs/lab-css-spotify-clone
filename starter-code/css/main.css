@@ -1,8 +1,158 @@
-/*
-Colors:
 
-Text: 1A1A1A
-Green: #00B172
-White: #FFF
+/*GLOBAL*/
+* {
+    margin: 0, auto; 
+}
 
-*/
+/*NAVBAR*/
+.navbar {
+    display: flex; 
+    justify-content: space-between;
+    height: 80px; 
+    background-color: #FFF;
+}
+/*logo*/
+.navbar img{
+    width: 200px;
+    height: auto;
+    padding: 5px 10px 20px 10px;
+    flex-wrap: wrap;
+    transition: 0.8s;
+}
+
+.navbar img:hover {
+    transform: scale(1.1);
+}
+
+/*links*/
+.navbar ul {
+    display: flex;
+    justify-content: space-between; 
+    align-items: center;
+    list-style: none; 
+}
+
+.navbar li {
+    padding: 10px 10px;
+    flex-wrap: wrap; 
+    color: grey;
+    font-family: "Arial";
+    font-size: 20px;
+    transition: 0.7s; 
+}
+
+.navbar li:hover{
+    background-color:#00B172;
+}
+
+
+/*JUMBOTRON*/
+.jumbotron {
+    background-image: url("/Users/antoine/Desktop/codeIH/labs/lab-css-spotify-clone/starter-code/images/landing.jpg");
+    background-size: cover;
+background-repeat: no-repeat;
+    height: 700px;
+    display: flex;
+    justify-content: center;
+   align-items: center;
+}
+
+/*jumbotron titles*/
+.titlesjumbo {
+    padding-bottom: 100px; 
+    flex-wrap: wrap;
+}
+.titlesjumbo {
+    color: white; 
+    display: flex;
+    align-items: center; 
+    justify-items: center;  
+    flex-direction: column; 
+}
+
+.titlesjumbo h1 {
+    font-size: 80px;
+    font-family: "Arial Black";
+}
+
+.titlesjumbo h3 {
+    font-size: 20px;
+    font-family: "Arial";
+}
+
+/*DESCRIBE*/
+.describe h1 {
+    display: flex;
+    justify-content: center;
+    align-items: center; 
+    text-decoration: underline;
+    text-decoration-color:#00B172;
+}
+
+/*cards*/
+.cards {
+    display: flex; 
+    justify-content: space-around;
+    align-items: center; 
+}
+
+.cards div.dropdown * {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+}
+
+.cards div {
+    text-align: center; 
+    transition: 0.8s;
+}
+
+.cards img {
+    width: 30%;
+    height: auto;
+}
+
+.cards h2 {
+    color: #00B172;
+}
+
+.cards div:hover{
+    transform: scale(1.1);
+}
+/*EXEMPLE*/
+.exemple {
+    margin-top: 50px; 
+    margin: 0px 20px;
+}
+
+.greensquare {
+    background-color:#00B172;
+    display: flex;
+    justify-content: space-around;
+    height: 500px;  
+    background-image: url("../starter-code/images/spotify-icon-white.png");
+    padding: 50px;
+}
+
+.greesquare h2 {
+    margin: 0px ; 
+}
+
+.greensquare div:nth-child(1) {
+    flex-direction: column;
+    color: white;
+    flex-grow: 2;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    text-align: left; 
+}
+
+.greensquare img {
+    height: 100%;
+}
+
+.greensquare div:nth-child(2) {  
+    flex-grow: 2;
+    text-align: center;
+}
