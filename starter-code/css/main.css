@@ -9,9 +9,10 @@ White: #FFF
 
 body {
     margin: 0 auto;
+    padding: 0;
 }
 
-navbar {
+nav {
     display: flex;
     justify-content: space-between;
     align-items: center;
@@ -21,7 +22,7 @@ navbar {
     width: 100%;
 }
 
-navbar img {
+nav img {
     height: 60%;
     width: 200px;
     margin-left: 40px;
@@ -32,6 +33,23 @@ navbar img {
     justify-content: space-evenly;
     width: 40%;
     margin-right: 10px;
+}
+
+#logo:hover {
+    animation: 2s jump;
+    animation-iteration-count: infinite;
+}
+
+@keyframes jump{
+    0% {
+
+    }
+    50% {
+        margin-bottom: 30px;
+    }
+    100% {
+
+    }
 }
 
 li a {
@@ -76,6 +94,7 @@ h2 {
 .bar-green {
     width: 300px;
     border: 2px solid #00B172;
+    background-color: #00B172;
     margin-top: 4px;
 }
 
@@ -133,6 +152,7 @@ h5 {
 .bar-white {
     width: 450px;
     border: 2px solid #FFF;
+    background-color: #fff;
     margin-top: 4px;
 }
 
