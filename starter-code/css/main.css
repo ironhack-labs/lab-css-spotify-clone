@@ -6,3 +6,142 @@ Green: #00B172
 White: #FFF
 
 */
+
+
+body { 
+  font-family: avenir, sans-serif;
+  margin: 0;
+  padding: 0;
+}
+
+nav {
+margin: 10px;
+}
+
+ul {
+  float: right;
+}
+
+li {
+  display: inline-block;
+  list-style: none;
+  margin: 20px;
+  color: rgba(128, 128,128, 1);
+ 
+}
+
+
+.logo {
+width: 20%;
+height: 20%;
+float: left;
+
+}
+
+.logo:hover{
+  animation: jump 0.5s ;
+  position: relative;
+}
+
+.clear{
+  clear: both;
+}
+
+.letterWhite{
+  color: white;
+  
+}
+
+header{
+  border: 0.5px solid black; /* ¿POR QUÉ ME FUNCIONA SÓLO CON ESTE BORDER? */
+  background-image: url("../images/landing.jpg");
+  background-size: cover;
+  background-repeat: no-repeat;
+  height: 55rem;
+}
+
+.container{
+  width: 1200px;
+  margin: 0 auto;
+  padding: 75px 0;
+} 
+
+footer{
+  background-color: #1DB954;
+  margin: 50px;
+  height: 35rem;
+  background-image: url("../images/spotify-icon-white.png") ;
+  background-size: 95px 95px;
+  background-repeat: no-repeat;
+  background-position: center;
+}
+
+header h1, header p{
+text-align: center;
+}
+
+header h1{
+  padding: 310px 0px 0px;
+  font-size: 100px;
+}
+
+header p{
+  font-size: 29px;
+  font-weight: 9;
+  
+}
+
+section h1{
+  text-align: center;
+  text-decoration: underline;
+  text-decoration-color: #1DB954;
+  
+}
+
+@keyframes jump {
+  
+  0% { bottom: 0; }
+  50% { bottom: -10px; }
+  100% { bottom: 0; }
+  
+}
+
+section h2{
+  color: green;
+
+}
+
+.artImage{
+  width: 20%;
+  height: 20%;
+
+}
+
+.artDiv{
+  text-align: center;
+  width: 30%;
+  float: left;
+}
+
+footer h1{
+  text-decoration: underline;
+}
+
+.divPic{
+ 
+  margin: 50px 180px 50px;
+} /*¿Cómo puedo poner desde css el tamaño de la imagen? sólo lo consigo con html... */
+
+.floatL{
+  float: left;
+}
+
+.floatR{
+  float: right;
+}
+
+.divText{
+  margin: 50px;
+  font-weight: 4;
+
+}
