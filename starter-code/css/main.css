@@ -1,8 +1,196 @@
-/*
-Colors:
 
-Text: 1A1A1A
-Green: #00B172
-White: #FFF
+@import url('https://fonts.googleapis.com/css?family=Noto+Sans');
+html, body, div, span, applet, object, iframe,
+h1, h2, h3, h4, h5, h6, p, blockquote, pre,
+a, abbr, acronym, address, big, cite, code,
+del, dfn, em, img, ins, kbd, q, s, samp,
+small, strike, strong, sub, sup, tt, var,
+b, u, i, center,
+dl, dt, dd, ol, ul, li,
+fieldset, form, label, legend,
+table, caption, tbody, tfoot, thead, tr, th, td,
+article, aside, canvas, details, embed, 
+figure, figcaption, footer, header, hgroup, 
+menu, nav, output, ruby, section, summary,
+time, mark, audio, video {
+	margin: 0;
+	padding: 0;
+	border: 0;
+	font-size: 100%;
+	font: inherit;
+	vertical-align: baseline;
+}
+/* HTML5 display-role reset for older browsers */
+article, aside, details, figcaption, figure, 
+footer, header, hgroup, menu, nav, section {
+	display: block;
+}
+body {
+  line-height: 1;
+  font-family: Noto Sans;
+}
+ol, ul {
+	list-style: none;
+}
+blockquote, q {
+	quotes: none;
+}
+blockquote:before, blockquote:after,
+q:before, q:after {
+	content: '';
+	content: none;
+}
+table {
+	border-collapse: collapse;
+	border-spacing: 0;
+}
 
-*/
+nav{
+  position: fixed;
+  background: white;
+  width: 100%;
+}
+nav img{
+  width: 200px;
+  height: auto;
+  padding: 20px; 
+}
+nav a {
+  text-decoration: none;
+}
+
+nav ul{
+  float: right;
+  margin: 0 40px 0 0;
+}
+
+nav ul li{
+  display: inline-block;
+  margin: 40px 10px;
+}
+
+nav img:hover{
+  animation: move 1s;
+  animation-iteration-count: infinite;
+  position: relative;
+}
+@keyframes move{
+  50% {
+    transform: translateY(-10px);
+  }
+}
+
+header{
+  padding: 102px;
+  padding-bottom: 0px;
+  height: 35em;
+  background-image: url(landing.jpg);
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-position: center;
+  color:white;
+}
+
+header h1{
+  position: relative;
+  top:50%;
+  text-align: center;
+  font-size: 4em;
+  font-weight: bold;
+}
+header p{
+  position: relative;
+  top:55%;
+  text-align: center;
+  font-size: 1.5em;
+}
+hr{
+  display: block;
+    height: 1px;
+    border: 0;
+    width: 200px;
+    border-top: 4px solid #00B172; 
+}
+.whatson{
+
+  width: 90%;
+  padding-left: 5%;
+  padding-right: 5%;
+  height: 30em;
+  text-align: center;
+}
+
+.whatson h1{
+  font-size: 2.5em;
+  padding-top: 40px;
+  font-weight: bold;
+}
+.whatson h2{
+  font-weight: bold;
+  color:#00B172;
+}
+.whatson img{
+  width: 140px;
+  height: 140px;
+}
+
+.col {
+  padding-top:40 px;
+  float: left;
+  font-size: 2em
+}
+.col-3{
+  width: 30%;
+}
+.col-middle{
+  margin-left:2.5%;
+  margin-right:2.5%;
+}
+
+.whatson p{
+  padding-top: 30px;
+}
+
+.ultimo{
+  position: relative;
+  height: 40em;
+  width: 95%;
+  margin-left: 2.5%;
+  background: #00B172;
+  color: white;
+}
+.ultimo .logo{
+  position:absolute;
+  bottom:40%;
+  left:45%;
+  height: 100px;
+  width: 100px;
+}
+
+.ultimo .app{
+  position: absolute;
+  height: 500px;
+  right: 10px;
+  bottom: 10%;
+  padding-right: 70px;
+}
+
+.ultimo div{
+  padding-left: 80px;
+  padding-top: 80px;
+}
+.ultimo h2{
+  font-size: 2.5em;
+  font-weight: bold;
+}
+
+.ultimo article{
+  font-size: 1.5em;
+}
+
+.ultimo h3{
+  padding-bottom: 25px;
+   padding-top: 30px;
+  font-size: 2em;
+  font-weight: bold;
+}
