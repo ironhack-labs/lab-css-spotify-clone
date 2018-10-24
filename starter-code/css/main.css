@@ -6,3 +6,159 @@ Green: #00B172
 White: #FFF
 
 */
+@import url('https://fonts.googleapis.com/css?family=Roboto');
+
+* {
+  box-sizing: border-box;
+}
+
+html, body, h1 {
+  margin: 0;
+  padding: 0;
+  font-size: 16px;
+  width: 100%;
+  max-width: 100%;
+  font-family: "Roboto";
+}
+
+nav {
+  position: fixed;
+  width: 100%;
+  padding: 15px;
+  background-color: white;
+  height: 90px;
+}
+
+h1 {
+  font-size: 100px;
+  color: white;
+  font-weight: 500;
+  font-family: roboto;
+  font-weight: bold;
+}
+
+hr {
+  max-width: 20%;
+}
+
+
+nav img {
+  height: 50px;
+  float: left;
+}
+
+.nav__list__li {
+  float: right;
+  padding: 5px 20px;
+  font-size: 18px;
+  list-style: none;
+  
+}
+
+.nav__list__li a{ 
+  text-decoration: none;
+  list-style: none;
+  color: #1A1A1A;
+}
+
+.inline {
+  display: inline-block;
+}
+
+.nav__listcontainer {
+  float: right;
+  vertical-align: middle;
+}
+
+.nav__listcontainer__list {
+  text-decoration: none;
+  margin: 0;
+  padding: 0;
+}
+
+.header {
+  background-image: url(https://github.com/YaredMyers/lab-css-spotify-clone/blob/master/starter-code/images/landing.jpg?raw=true);
+  background-size: cover;
+  height: 950px;
+  display: flex;
+  justify-content: center;
+  flex-direction: column;
+  align-items: center;
+  max-height: 950px;
+}
+
+.header__text {
+  font-size: 18px;
+  font-family: Roboto;
+  font-size: 28px;
+  color: white;
+  margin: 0 auto;
+  max-width: 640px;
+  text-align: center;
+}
+
+.section {
+  padding: 80px 0;
+}
+
+.section-three {
+
+}
+
+.section-three__titlecontainer {
+  text-align: center;
+  padding-bottom: 30px;
+}
+
+.section-three__titlecontainer__title h2 {
+  color: black;
+  font-size: 36px;
+  font-weight: 300;
+}
+
+.section-three__features {
+  text-align: center;
+}
+
+.section-three__features__item img {
+  width: 200px;
+}
+
+.section-three__features__item {
+  width: 33%;
+  vertical-align: top;
+  display: inline-block;
+}
+
+.section-three__features__item h4 {
+  color: #00B172;
+  font-family: "Roboto";
+  font-size: 30px;
+}
+
+.section-three__features__item__description {
+  max-width: 240px;
+  width: 61%;
+  margin: 0 auto;
+  color: rgb(109, 121, 134);
+  font-family: Open Sans;
+  font-size: 22px;
+}
+
+.specialItem {
+  padding-top: 27px;
+}
+
+.specialItem2 {
+  padding-top: 4px;
+}
+
+.sectionfinal__background {
+  background-color: #00B172;
+    margin-left: 3%;
+    margin-right: 3%;
+}
+
+.hrGreen {
+  border: 2px solid #00B172;
+}
