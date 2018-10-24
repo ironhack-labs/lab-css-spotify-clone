@@ -12,11 +12,12 @@ White: #FFF
     padding: 0;
 }
 body, html{
-    font-family: 'Open Sans', sans-serif;
+    font-family: 'Open Sans', sans-serif;   
 }
 
 nav{
-    height: 12vh;
+    /* height: 12vh; */
+    height: 5.5em;
     width: 100%;    
     background: white;
     display: flex;
@@ -27,14 +28,28 @@ nav{
     position: fixed;
 }
 
-nav a{
+.navlink{
+    height: 100%;
     font-size: 1.3em;
-    margin: 0 20px;
+    padding-top: 1.5em;
+    /* padding-left: 30px;
+    padding-right: 30px; */
+    /* padding: 1.5em 20px auto 20px; */
+    width: 10%;
+    text-align: center;
+    /* margin: auto 20px; */
+    box-sizing: border-box;
     text-decoration: none;
     color: black;
 }
 
+.navlink:hover{
+    background: #00B172;
+    color: white;
+}
+
 nav #logo{
+    padding: 0;
     height: 70%;
     margin-right: auto;
     margin-left: 30px;
@@ -165,8 +180,8 @@ nav #logo img{
 
 #backgroundLogo{
     position: absolute;
-    margin-top: 21%;
-    left: 50%;
+    margin-top: 19%;
+    left: 46%;
     width: 8%;
     /* border: 2px solid red; */
 }
@@ -180,4 +195,5 @@ nav #logo img{
 #right img{
     /* height: 80%; */
     width: 50%;
+    margin: 0 0 0 auto;
 }
