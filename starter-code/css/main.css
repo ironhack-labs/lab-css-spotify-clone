@@ -6,3 +6,154 @@ Green: #00B172
 White: #FFF
 
 */
+
+body{
+    font-family: 'Roboto', sans-serif;
+
+}
+nav ul li{
+    list-style-type: none;
+    display: inline-block;
+    margin-right:40px;
+    font-size:25px;
+    padding: 15px;
+   
+}
+
+ul{
+    float: right;
+    padding: 18px;
+}
+
+nav{
+    background: white;
+    position:fixed;
+}
+
+nav > img{
+margin-left:15px;
+padding: 15px;
+}
+
+.logo:hover{
+    animation: bounce 1s;
+    
+}
+@keyframes bounce{
+   
+    0%   {transform:translateY(0%);}
+    50%  {transform:translateY(-80%);}
+    100% {transform:translateY(0);}
+}
+
+.header{
+    background-image: url("../images/landing.jpg");
+    height:1000px;
+    repeat: no-repeat;
+    background-size:cover;
+    color:white;
+    font-size: 40px;
+    text-align: center;
+    padding-top: 250px;
+    line-height: 50px;
+    }
+
+h1{
+        font-size:  90px;
+    }
+
+#whatsOn{
+    height: 600px;
+    background-color:white;
+    text-align: center;
+}
+
+
+#whatsOn h2{
+    font-size: 50px;
+    text-decoration: underline; 
+    text-decoration-color: #00B172;
+    padding:40px 0 70px;
+}
+
+#whatsOn article h3{
+    color:#00B172;
+    font-size: 30px;
+    font-weight: 800;
+    padding-top: 20px;
+}
+
+.advantages{
+    width: 30%;
+    margin: 20px;
+
+}
+.float {
+    float:left;
+}
+.clear{
+    clear:both;
+}
+#whatsOn article p{
+    font-size: 30px;
+    display:inline-block;
+    padding: 10px 60px;
+}
+
+.footer{
+
+    background-color:#00B172;
+    height: 650px;
+    margin: 20px;
+}
+
+.footer h3{
+    font-size: 30px;
+    text-decoration-color: white;
+
+    font-weight: 800;
+}
+
+.content{
+    float:left;
+    color:white;
+    height: 600px;
+    margin-left: 150px;
+}
+.relative{
+    position:relative;
+}
+
+.imagen{
+    float:right;
+    position:absolute;
+    left: 900px;
+    top: 80px;
+}
+.content h2{
+    font-size: 50px;
+    text-decoration: underline; 
+    text-decoration-color: white;
+    padding:40px 0 70px;
+
+}
+
+.ads{
+
+    height: 80px;
+    width: 300px;
+    font-size: 20px;
+    padding-bottom: 90px;
+    line-height: 30px;
+    
+}
+
+.ads h3, .ads p{
+    padding-bottom: 20px;
+}
+
+#imagen-spotify{
+    position: absolute;
+    left: 600px;
+    bottom: 200px;
+}
