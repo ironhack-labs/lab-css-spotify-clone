@@ -5,14 +5,16 @@
   <title>Spotify</title>
   <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/css/bootstrap.min.css" integrity="sha384-Gn5384xqQ1aoWXA+058RXPxPg6fy4IWvTNh0E263XmFcJlSAwiGgFAW/dAiS6JXm"
   crossorigin="anonymous">
+  <link href="https://fonts.googleapis.com/css?family=Roboto" rel="stylesheet">
   <link rel="stylesheet" href="css/main.css">
 </head>
 <body>
-    <nav class="navbar navbar-expand-lg fixed-top  bg-light">
+  <section class ="nav-jumbotron">
+    <nav class="navbar fixed-top navbar-expand-lg bg-light">
         <a class="navbar-brand"><img id ="brand" src="./images/spotify-logo.png"></a>
         <ul id ="navList" class="navbar-nav ml-auto">
             <li class="nav-item ">
-              <a class="nav-link list-color" href="#">Premium</a>
+              <a class="nav-link " href="#">Premium</a>
             </li>
             <li class="nav-item">
               <a class="nav-link" href="#">Discover</a>
@@ -25,28 +27,50 @@
                 </li>
         </ul>
       </nav>
-Premium Discover Help Download
+      <div class="jumbotron">
+          <div class="container">
+            <h1>Music for everyone.</h1>
+            <p>Spotify is now free on mobile, tablet and computer.<br>
+                Listen to the right music, wherever you are.</p>
+          </div>
+        </div>
+      </section>
 
-Music for everyone.
-Spotify is now free on mobile, tablet and computer.
-Listen to the right music, wherever you are.
+<section class = "rows_columns">
 
-What’s on Spotify?
+  <h2><strong>What’s on Spotify?</strong></h2>
+  <hr>
 
-Millions of Songs
-There are millions of
-songs on Spotify
 
-HD Music
-Listen to music as if you
-were listening live
 
-Stream Everywhere
-Stream music on your
-smartphone, tablet or
-computer
 
-It’s as yeezy as Kanye West.
+
+  <div id ="rowpadding" class = "row">
+    <div class ="col-md-4">
+      <img class ="thumbnail"src="./images/music-icon.png"/>
+      <h3><strong>Millions of Songs</strong></h3>
+      <p>There are millions of songs on Spotify</p>
+    </div>
+
+
+    <div class="col-md-4">
+      <img class ="thumbnail" src="./images/high-quality-icon.png"/>
+      <h3><strong>Hd Music</strong></h3>
+      <p>Listen to music as if you were listening live</p>
+    </div>
+
+    <div class="col-md-4">
+      <img class ="thumbnail" src="./images/devices-icon.png"/>
+       <h3><strong>Stream Everywhere</strong></h3>
+      <p>Stream music on your smartphone, tablet or computer</p>
+    </div>
+</div>
+
+
+
+</section>
+<div >
+<h2>It’s as yeezy as Kanye West.</h2>
 Search
 Know what you want to listen to?
 Just search and hit play.
@@ -58,5 +82,7 @@ Discover
 Enjoy new music every Monday
 with your own personal playlist.
 Or sit back and enjoy Radio.
+
+</div>
 </body>
 </html>
