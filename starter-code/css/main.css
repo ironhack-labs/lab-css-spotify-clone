@@ -4,5 +4,150 @@ Colors:
 Text: 1A1A1A
 Green: #00B172
 White: #FFF
-
 */
+html,body{
+    font-family: 'Roboto', sans-serif;
+    color:#1A1A1A;
+}
+nav{
+    position: fixed;
+    height: 110px;
+    width: 100%;
+    background: white;
+    z-index: 99;
+}
+nav img{
+    width: 13%;
+    left: 2%;
+    position: absolute;
+    top: 50%;
+    transform: translateY(-50%);
+}
+nav img:hover{
+    animation: jump 0.5s;
+    cursor: pointer;
+}
+ul{
+    width: 100%;
+    left: 64%;
+    position: absolute;
+    top: 50%;
+    transform: translateY(-50%);
+}
+ul > li{
+    list-style: none;
+    float: left;
+    margin-right: 3%;
+    font-size: 1.5em;
+}
+#container{
+    position: relative;
+    top:115px;
+}
+#container header{
+    background-image: url(../images/landing.jpg);
+    background-size: cover;
+    min-height: 91vh;
+    color: white;
+    text-align: center;
+    position: relative;
+    background-position: center;
+}
+header .center-content{
+    width: 100%;
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    font-size: 2em;
+}
+header h1{
+    font-size: 3em;
+    margin-bottom: 2%;
+    font-weight: bold;
+}
+#first-section{
+    text-align: center;
+    margin-top: 3%;
+    margin-bottom: 5%;
+}
+h2{
+    margin-bottom: 9%;
+    font-size:2.3em;
+    font-weight: bold;
+    text-align: center;
+    text-underline-position: under;
+    text-decoration-line: underline;
+}
+.green{
+    text-decoration-color: #00B172;
+}
+.white{
+    text-decoration-color:white;
+    text-align: left!important;
+}
+.col-3{
+    width: 30%;
+    float: left;
+    margin-left: 3%;
+}
+.col-3 img{
+    height: 6rem;
+}
+.clear{
+    clear: both;
+}
+.green-text{
+    color:#00B172;
+    font-weight: bold;
+    font-size: 2em;
+    margin-top: 6%;
+    margin-bottom: 4%;
+}
+.whatsOnText{
+    font-size: 1.8em;
+    padding: 0 14%;
+    line-height: 1.3;
+}
+#second-section{
+    background-color: #00B172;
+    margin: 0 2%;
+    color:white;
+}
+#second-section .inside-second{
+    float: left;
+    width: 38%;
+    padding: 5% 6%;
+}
+.inside-second img{
+    float: right;
+    width: 85%;
+}
+.subTitle{
+    margin-bottom: 7%;
+    font-weight: bold;
+    font-size: 2.1em;
+}
+.secondSectionText{
+    margin-bottom: 9%;
+    font-size: 1.6em;
+    padding-right: 24%;
+    line-height: 1.4;
+}
+.spoty-icon{
+    position: absolute;
+    left: 43%;
+    top: 74%;
+    width: 12%;
+}
+@keyframes jump{
+    0%{
+        top:50%;
+    }
+    50%{
+        top:40%;
+    }
+    100%{
+        top:50%;
+    }
+}
