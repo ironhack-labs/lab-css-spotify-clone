@@ -6,3 +6,193 @@ Green: #00B172
 White: #FFF
 
 */
+
+body{
+    font-family: 'Roboto', sans-serif;
+    margin: 0px;
+}
+
+.navigation{
+    z-index: 1;
+    position: fixed;
+    top: 0px;
+    background-color: white;
+    width: 100%;
+}
+
+.navigation > img{
+    float: left;
+    width: 350px;
+    margin: 20px 50px;
+}
+
+.navigation img:hover {
+    position: relative;
+    animation: logoBouncing 1s;
+    animation-iteration-count: infinite;
+}
+
+.menu{
+    z-index: -1;
+    float: right;
+    position: relative;
+    padding-top: 2.5%;
+    padding-right: 7%;
+    font-size: 25px;
+}
+
+.menu li{
+    display: inline;
+    margin-right: 20px;
+}
+
+.menu li a {
+    text-decoration: none;
+    color: #1A1A1A;
+}
+
+@keyframes logoBouncing {
+    50% {
+        transform: translateY(-10px);
+    }
+}
+
+header{
+    background-image: url(../images/landing.jpg);
+    background-size: cover;
+    height: 55rem;
+    color: white;
+}
+
+header h1{
+    font-size: 80px;
+    position: absolute;
+    top: 40%;
+    left: 27%;
+}
+
+header h4 {
+    text-align: center;
+    width:60%;
+    font-size: 23px;
+    font-weight: lighter;
+    position: absolute;
+    top: 60%;
+    left: 20%;
+    letter-spacing: 2px;
+}
+
+.whatsonspotify{
+    text-align: center;
+    font-size: 30px;
+    background-color: white;
+}
+
+.whatsonspotify hr {
+    position: relative;
+    bottom: 30px;
+    width: 25%;
+    height: 5px;
+    background-color: #00B172;
+    margin-bottom: 60px;
+}
+
+.whatsonspotify .left h2, .mid h2, .right h2{
+    font-weight: bold;
+    font-size: 30px;
+    color: #00B172
+}
+
+.whatsonspotify .left {
+    text-align: center;
+    width: 25%;
+    float: left;
+    margin-left: 6%;
+    color: #1A1A1A;
+}
+
+.whatsonspotify .left img {
+    width: 30%;
+    height: 100px;
+}
+
+.whatsonspotify .mid{
+    text-align: center;
+    width: 25%;
+    float: left;
+    margin-left: 6%;
+    margin-right: 6%;
+    color: #1A1A1A;
+}
+
+.whatsonspotify .mid img {
+    width: 40%;
+    height: 100px;
+}
+
+.whatsonspotify .right{
+    text-align: center;
+    width: 25%;
+    float: left;
+    margin-right: 6%;
+    color: #1A1A1A;
+}
+
+.whatsonspotify .right img {
+    width: 30%;
+    height: 100px;
+}
+
+.footer {
+    color: white;
+    clear: both;
+    height: 600px;
+    background-color: #00B172;
+    padding: 7%;
+    margin: 35% 3% 3% 3%;
+}
+
+.footer .left{
+    float: left;
+    width: 45%;
+    margin-right: 50px;
+}
+
+.footer .left hr{
+    background-color: white;
+    height: 3px;
+    width: 93%;
+    position: relative;
+    right: 3%;
+    bottom: 17px;
+}
+
+.footer .left h2{
+    font-size: 40px;
+}
+
+.footer .left h3{
+    font-size: 35px;
+}
+
+.footer .left p{
+    width: 57%;
+    font-size: 20px;
+}
+
+.footer > img{
+    position: relative;
+    width: 13%;
+    bottom: 60%;
+    right: 5%;
+}
+
+.footer .right{
+    float: left;
+    width: 50%;
+}
+
+.footer .right img{
+    float: right;
+    width: 60%;
+}
