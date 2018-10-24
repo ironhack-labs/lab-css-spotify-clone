@@ -6,3 +6,184 @@ Green: #00B172
 White: #FFF
 
 */
+body {
+  font-family: "Roboto", sans-serif;
+  font-size: 25px;
+  line-height: 40px;
+}
+.top-menu {
+  height: 100px;
+  width: 100%;
+  display: flex;
+  flex-direction: row;
+  flex-wrap: nowrap;
+  justify-content: space-between;
+  align-items: center;
+  position: fixed;
+  top: 0;
+  background-color: white;
+}
+
+ul {
+  width: 30%;
+  display: flex;
+  flex-wrap: nowrap;
+  justify-content: space-between;
+  padding: 0px 30px;
+  font-size: 23px;
+}
+ul li a {
+  text-decoration: none;
+  width: 25%;
+  color: black;
+}
+ul li a:hover {
+  color: #1cb954;
+}
+.logo1 {
+  width: 15%;
+  margin-left: 20px;
+
+}
+.logo1:hover{
+    animation: jump 1s;
+    animation-iteration-count: infinite;
+    cursor: pointer;
+}
+@keyframes jump{
+    
+    50%{transform: translateY(-15px)}
+    
+}
+header {
+  background-image: url("../images/landing.jpg");
+  background-repeat: no-repeat;
+  width: 100%;
+  height: 900px;
+  background-size: 100%;
+  text-align: center;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  
+  
+}
+.text h1{
+    color:white;
+    font-weight: bolder;
+    font-size: 80px;
+    
+}
+.text h3{
+    color: white;
+    font-size: 30px;
+    font-weight: 10;
+    margin-top: 40px;
+}
+.text{
+    text-align: center;
+    width: 1000px;
+
+}
+main{
+    width: 95%;
+    margin: auto;
+}
+.blocks{
+    width: 33.33%;
+    height: auto;
+    text-align: center;
+    padding: 70px;
+    box-sizing: border-box;
+    margin-bottom: 30px;
+}
+.blocks h3{
+    font-size: 30px;
+    font-weight: bolder;
+    color:#00B172;
+    margin-top: 20px;
+}
+.blocks p{
+    font-size: 23px;
+    margin-top: 30px;
+}
+.icons1{
+    width: 110px;
+    height: 100px;
+    
+}
+.icons2{
+    width: 135px;
+    height: 100px;
+    
+}
+.icons3{
+    width: 120px;
+    height: 100px;
+    
+}
+.description{
+    display: flex;
+
+}
+.whatsUp{
+    font-size: 40px;
+    font-weight: bold;
+    text-decoration: #00B172;
+    text-align: center;
+    margin-top: 40px;
+
+}
+.title hr{
+    background-color: #00B172;
+    height: 3px;
+    width: 320px;
+}
+.kanye-west{
+    width: 100%;
+    margin: auto;
+    background-color: #00B172;
+    color:white;
+    padding: 120px;
+    box-sizing: border-box;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+
+}
+.kanye-info{
+    width: 40%;
+   margin: -20px;
+}
+.kanye-info h1{
+    font-size: 35px;
+    font-weight: bold;
+    
+}
+.kanye-info hr{
+    background-color: white;
+    height: 3px;
+    width: 430px;
+    float: left;
+    margin-bottom: 10px;
+    
+}
+.kanye-west h2{
+font-size: 30px;
+font-weight: bold;
+margin-top: 50px;
+margin-bottom: 50px;
+}
+
+.clear{
+    clear: both;
+}
+.logo2{
+    width: 150px;
+    height: 150px;
+}
+.kanye-img{
+    width: 365px;
+    height: 650px;
+    margin-right: -120px;
+}
