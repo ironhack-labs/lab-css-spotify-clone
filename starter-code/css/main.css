@@ -6,3 +6,185 @@ Green: #00B172
 White: #FFF
 
 */
+@import url('https://fonts.googleapis.com/css?family=Proxima+Nova');  
+
+body {
+  font-family: 'proxima-nova', Arial, Helvetica, sans-serif;
+}
+
+#header, #functions{
+  color:white;
+}
+#nav-bar>ul>li>a , #features h2{
+  color:#1A1A1A;
+}
+#features h3{
+  color: #00B172;
+}
+
+h1{
+  font-size: 2.5em;
+  font-weight: 550;
+}
+h2{
+  font-size: 2.2em;
+  font-weight: 550;
+}
+
+h3{
+  font-weight: bold;
+  font-size:1.5em;
+}
+
+#nav-bar{
+  z-index: 1;
+  position: fixed;
+  height: 100px;
+  background: white;
+  width: 100%;
+  font-weight:lighter;
+}
+
+#nav-bar>img{
+  float:left;
+  height: 70%;
+  width: auto;
+  margin: 15px 30px;
+
+}
+#nav-bar>img:hover{
+  animation: bounce 1s;
+  animation-iteration-count: infinite;
+}
+#nav-bar>ul{
+  float:right;
+  margin: 40px 20px;
+}
+
+#nav-bar>ul>li{
+  display:inline-block;
+  margin-right: 20px;
+  font-size: 1.5em;
+}
+
+#nav-bar>ul>li>a{
+  text-decoration:none;
+}
+
+#header{
+  background-image:url("../images/landing.jpg");
+  height: 800px;
+  background-size: cover;
+  position:relative;
+}
+
+#header text{
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  text-align:center;
+  font-size: 2em;
+  line-height: 1.25em;
+}
+
+#header h1{
+  width: 800px;
+  margin-bottom: 75px;
+}
+#features{
+  width: 100%;
+}
+#features h2{
+  margin: 20px auto;
+  text-align:center;
+}
+
+.underline{
+  padding-bottom: 7px;
+  border-bottom: 4px solid #00B172;
+}
+
+.col{
+  float:left;
+  width: 20%;
+  margin-top: 75px;
+  margin-left: 10%;
+  text-align:center;
+  font-size:1.5em;
+}
+.col h3{
+  margin: 20px auto;
+}
+.final-col{
+  margin-right: 10%;
+}
+
+.icon{
+  width: 40%;
+}
+
+.clearfix{
+   clear:both;
+ }
+
+#functions{
+  width: 85%;
+  margin:30px auto;
+  height: 475px;
+  background-color:#00B172;
+  padding: 5%;
+ }
+
+ .functions-left{
+   width: 67%;
+   float:left;
+ }
+
+ .app-img{
+   width: 23%;
+   height: auto;
+   float:left;
+ }
+
+ #functions .underline{
+    border-bottom-color:white;
+  }
+
+  .functions-left-left{
+    width: 50%;
+    float:left;
+    font-size: 1.2em;
+    line-height: 1.5em;
+  }
+
+  #functions h3{
+    margin: 35px 0;
+  }
+
+  .functions-left-right{
+    width: 50%;
+    float:left;
+    position: relative;
+    height: 475px;
+  }
+
+  .spotify-icon{
+    width: 150px;
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+  }
+
+  @keyframes bounce{
+    0%{
+      margin-top:15px;
+    }
+    25%{
+      margin-top:0;
+    }
+    75%{
+      margin-top:30px;
+    }
+  }
