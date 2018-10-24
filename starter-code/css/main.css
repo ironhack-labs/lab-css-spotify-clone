@@ -1,3 +1,47 @@
+html, body, div, span, applet, object, iframe,
+h1, h2, h3, h4, h5, h6, p, blockquote, pre,
+a, abbr, acronym, address, big, cite, code,
+del, dfn, em, img, ins, kbd, q, s, samp,
+small, strike, strong, sub, sup, tt, var,
+b, u, i, center,
+dl, dt, dd, ol, ul, li,
+fieldset, form, label, legend,
+table, caption, tbody, tfoot, thead, tr, th, td,
+article, aside, canvas, details, embed, 
+figure, figcaption, footer, header, hgroup, 
+menu, nav, output, ruby, section, summary,
+time, mark, audio, video {
+	margin: 0;
+	padding: 0;
+	border: 0;
+	font-size: 100%;
+	
+	vertical-align: baseline;
+}
+/* HTML5 display-role reset for older browsers */
+article, aside, details, figcaption, figure, 
+footer, header, hgroup, menu, nav, section {
+	display: block;
+}
+body {
+	line-height: 1;
+}
+ol, ul {
+	list-style: none;
+}
+blockquote, q {
+	quotes: none;
+}
+blockquote:before, blockquote:after,
+q:before, q:after {
+	content: '';
+	content: none;
+}
+table {
+	border-collapse: collapse;
+	border-spacing: 0;
+}
+
 /*
 Colors:
 
@@ -6,3 +50,144 @@ Green: #00B172
 White: #FFF
 
 */
+
+* {
+  box-sizing: border-box;
+  font-family: avenir;
+  font-size: 2em;
+}
+nav{
+  height: 100px;
+  
+}
+
+nav img{
+  float: left;
+  height: 70%;
+  margin: 15px 0 15px 35px;
+}
+
+ul{
+  float: right;
+  margin-top: 40px;
+  }
+
+ul li{ 
+  display: inline;
+  list-style: none;
+  font-size: 1.5em;
+  margin-right: 30px;
+}
+
+.section1cont{
+  background-image: url("./../images/landing.jpg");
+  background-size: cover;
+  height: 55rem;
+  text-align: center;
+  color: white;
+}
+
+.section1cont h1{
+  font-size: 5em;
+  font-weight: 800;
+  padding-top: 20%;
+}
+.section1cont p{
+  font-size: 2em;
+  font-weight: 300;
+  margin: auto 20% auto 20%;
+  line-height: 0.6;
+  padding-top: 3%;
+}
+
+.section2cont{
+  height: 600px;
+  text-align: center;
+}
+.sec2top{
+  height: 20%;
+  font-size: 2.5em;
+  font-weight: 600;
+  text-decoration: underline #00B172;
+  padding-top: 2%;
+}
+.sec2down{
+  height: 80%;
+  
+}
+
+.sec2box{
+  float: left;
+  width: 23%;
+  font-size: 2em;
+  text-align: center;
+  margin-left: 5%;
+  margin-right: 5%;
+}
+.sec2boxcenter{
+  padding-top: 15px;
+}
+.sec2box img{
+  width: 30%;
+  padding-top: 20%;
+}
+.sec2box h2{
+  font-weight: 800;
+  color: #00B172;
+  padding-top: 15px;
+
+}
+.sec2box p{
+  color: #1A1A1A;
+  text-align: center;
+  padding: 20px 20px 0 20px;
+  
+}
+
+.section3{
+  background-color: #00B172;
+  height: 900px;
+  text-align: left;
+  margin: 0 3% 0 3%;
+  color: white;
+}
+.section3 h3{
+  font-size: 2.5em;
+  font-weight: 600;
+  text-decoration: underline;
+  padding: 12% 0 0 10%;
+}
+.section3 h4{
+  font-weight: bold;
+  font-size: 2em;
+  padding: 10% 0 0 10%;
+}
+.section3 p{
+  font-size: 1.5em;
+  padding: 7% 30% 0 10%;
+  line-height: 1.5;
+}
+.sec3text{
+  width: 50%;
+  float: left;
+}
+.sec3logo{
+  width: 10%;
+  float: left;
+}
+.sec3logo img{
+  height: 160px;
+  width: 160px;
+}
+.sec3img{
+  background-image: url("./../images/spotify-app.jpg");
+  background-size: contain;
+  background-repeat: no-repeat;
+  width: 32%;
+  height: 100%;
+  float: left;
+  margin: 5% 0 0 0;
+}
+
+
+
