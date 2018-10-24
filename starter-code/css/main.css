@@ -1,8 +1,192 @@
-/*
-Colors:
+* {
+    box-sizing: content-box;
+}
 
-Text: 1A1A1A
-Green: #00B172
-White: #FFF
+body {
+    font-family: Roboto;
+    font-weight: 200;
+    margin: 0;
+}
 
-*/
+a {
+    text-decoration: none;
+    color: black;
+}
+
+.nav-bar {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    margin: 0.5rem;
+    font-size: 1.15rem;
+}
+
+.logo {
+    width: 200px;
+    height: 20%;
+    display: flex;
+}
+
+.logo:hover {
+    animation: bounce ease-in 0.25s;
+    cursor: pointer;
+}
+
+.nav-bar ul {
+    margin-right: 1rem;
+    display: flex;
+    justify-content: flex-end;
+}
+
+.nav-bar li {
+    padding: 0 1rem;
+    list-style: none;
+}
+
+/* Desde aquí no uso más flex */
+
+.intro {
+    background-image: url(../images/landing.jpg);
+    background-size: cover; 
+    color: white;
+    height: 55rem;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+/* Soy incapaz de no usar flex */
+
+.intro h1 {
+    font-size: 5rem;
+    font-weight: 500;
+}
+
+.intro span {
+    font-size: 2rem;
+    margin-top: -2rem;
+    font-weight: 100;
+}
+
+.intro p {
+    font-size: 2rem;
+    font-weight: 100;
+    margin: 0;
+}
+
+.description {
+    margin-top: 3rem;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+}
+
+.description > h2 {
+    display: flex;
+    justify-content: center;
+    font-size: 2.25rem;
+    font-weight: 600;
+    letter-spacing: 0.1rem;
+    text-decoration: underline rgb(77, 180, 111);
+}
+
+/*Desalineado por alguna razón, agradecería feedback*/
+
+.info {
+    display: flex;
+    justify-content: space-around;
+    margin-top: 2rem;
+}
+
+.info h3 {
+    font-size: 2rem;
+    color: rgb(77, 211, 133);
+}
+
+.info p {
+    font-size: 2rem;
+    font-weight: 100;
+    text-align: center;
+}
+
+.info img {
+    width: 9rem;
+    height: 8rem;
+}
+
+.speaker {
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+    align-items: center;
+}
+
+.hqmusic {
+    justify-content: center;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.devices {
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+    align-items: center;
+}
+
+.player {
+    margin: 2.5rem;
+    background: #1AB26B;
+    color: white;
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: space-around;
+}
+
+.player h1 {
+    text-decoration: underline white;
+    font-size: 2rem;
+    margin-bottom: 10rem;
+}
+
+.player-text {
+    margin-left: 5rem;
+    margin-top: -2.25rem;
+}
+
+.player-text h2 {
+    font-size: 2rem;
+}
+
+.player-text p {
+    font-size: 1.25rem;
+    font-weight: 300;
+    margin-top: -1rem;
+}
+
+.white-logo {
+    height: 10rem;
+}
+
+.demo-app {
+    margin: 5rem;
+    height: 35rem;
+}
+
+@keyframes bounce {
+    0% {
+        transform: translate3D(0, 0, 0);
+    }
+    
+    50% {
+        transform: translate3D(0, -15px, 0);
+    }
+
+    100% {
+        transform: translate3D(0, 0, 0);
+    }
+
+}
