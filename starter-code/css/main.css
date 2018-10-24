@@ -24,7 +24,23 @@ nav{
 .nav-links{
     float: right;
     padding: 20px 20px;
-    font-size: 18px;
+    font-size: 20px;
+    font-family: 'Roboto';
+    animation-name: pulse_nav-links;
+    animation-duration: 5000ms;
+    transform-origin:70% 70%;
+    animation-iteration-count: infinite;
+    animation-timing-function: linear;
+}
+@keyframes pulse_nav-links {
+    0% { transform: scale(1); }
+    30% { transform: scale(1); }
+    40% { transform: scale(1.08); }
+    50% { transform: scale(1); }
+    60% { transform: scale(1); }
+    70% { transform: scale(1.05); }
+    80% { transform: scale(1); }
+    100% { transform: scale(1); }
 }
 header{
     height: 900px;
@@ -38,6 +54,21 @@ header{
     text-align:center;
     position: absolute;
     margin: 250px;
+    animation-name: cool;
+    animation-duration: 5s;
+    animation-timing-function: ease;
+}
+@keyframes cool {
+    10% {color: white;}
+    20%{color: #4424D6;}
+    30%{color: #F7D4E3;}
+    40%{color: #B2D732;}
+    50%{color: #347B98;}
+    60%{color: #F7E9D4;}
+    70%{color: #FB9902;}
+    80%{color: #FCCB1A;}
+    90%{color: #FE2712;}
+    100%{color: white;}
 }
 h1{
     font-size: 80px;
@@ -70,6 +101,7 @@ h4{
 .second-title hr{
     border-color: #00B172;
     width: 300px;
+    margin: 10px auto;
 }
 .container-divs p{
     color: #1A1A1A;
