@@ -56,6 +56,25 @@ h2{
     margin:3vh 0 3vh 6vh;
 }
 
+#spotify-logo:hover{
+    animation: jump 0.5s;
+}
+
+@keyframes jump {
+    0%{
+        position:relative;
+        top:0
+    }
+    50%{
+        position:relative;
+        top:-50px;
+    }
+    100%{
+        position:relative;
+        top:0px;
+    }
+}
+
 .head{
     background: url("../images/landing.jpg");
     background-size: cover;
@@ -143,8 +162,15 @@ h2{
     margin:10% 8%;
 }
 
-.bottom-part #kanye {
+.bottom-part > #kanye {
     margin-left:8%;
+}
+
+.bottom-part #background-img{
+    position:absolute;
+    top:260vh;
+    left:45vw;
+    transform: scale(1.2)
 }
 
 .bottom-part h2{
