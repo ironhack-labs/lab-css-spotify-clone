@@ -6,14 +6,13 @@ Green: #00B172
 White: #FFF
 
 */
-*
-
 
 body{
  font-family: avenir, sans-serif;
  font-size: 24px;
  margin: 0;
  padding: 0;
+ color: #1A1A1A;
 
 }
 
@@ -28,7 +27,7 @@ h2{
 }
 
 h3{
-  font-size: 28px;
+  font-size: 30px;
   font-weight: 700;
 }
 
@@ -38,11 +37,9 @@ h3{
 }
 
 .nav-bar{
+  background: #fff;
   border: 1px solid purple;
-}
-
-.nav-bar ul{
-  float: right;
+  position: fixed;
 }
 
 .nav-bar li{
@@ -76,16 +73,17 @@ h3{
 
 .container-section{
   margin: 0 auto;
+  margin-top: 2%;
   border: 1px solid purple; 
   text-align: center;
 }
 
 .float-left{
   float: left;
-  border: 1px solid yellow; 
-
 }
-
+.float-right{
+  float: right;
+}
 
 
 .container-section img {
@@ -105,4 +103,39 @@ h3{
 .article p{
   font-size:36;
   font-weight: lighter;
+}
+
+.green{
+  padding: 0 auto;
+  margin-top: 5%;
+  width: 80rem;
+  height: 45rem;
+  background-color: #00B172;
+  color: #fff;
+}
+
+.green h3{
+  text-decoration: underline #fff;
+}
+
+.green .img1{
+  position: absolute;
+  width: 10%;
+  height: 10%;
+}
+
+.green .img2{
+  width: 30%;
+  padding-top: 7%;
+  border: 1px solid purple; 
+}
+
+.container-green{
+  margin: 0 auto;
+  width: 80%;
+  border: 5px solid yellow;
+}
+
+.text-green-part{
+  margin-left
 }
