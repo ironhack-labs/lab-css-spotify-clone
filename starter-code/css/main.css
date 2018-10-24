@@ -23,6 +23,22 @@ nav{
     background-color: #FFF;
 }
 
+.green-logo:hover{
+    animation: bounce 1s infinite;
+}
+
+@keyframes bounce{
+    0%{
+        transform:translateY(0%);
+    }
+    50%{
+        transform:translateY(15%);
+    }
+    100%{
+        transform:translateY(0%);
+    }
+}
+
 .clearfix{
     clear: both;
 }
