@@ -6,3 +6,168 @@ Green: #00B172
 White: #FFF
 
 */
+@import url("https://fonts.googleapis.com/css?family=Roboto+Condensed:700|Roboto:100,300,700");
+body {
+  margin: 0;
+  font-family: "roboto";
+}
+nav {
+  height: 106px;
+  background-color: white;
+  position: fixed;
+  width: 100%;
+}
+
+.logo img,
+.nav-menu li {
+  float: left;
+}
+
+.logo img {
+  width: 235px;
+  margin: 18px 45px;
+}
+
+.logo img:hover {
+  animation-name: logo;
+  animation-duration: 0.4s;
+}
+@keyframes logo {
+  0% {
+    margin-top: 18px;
+  }
+  50% {
+    margin-top: 10px;
+  }
+  100% {
+    margin-top: 18px;
+  }
+}
+
+.nav-menu {
+  float: right;
+  margin: 42px 47px 0 0;
+}
+
+.nav-menu li {
+  font-size: 23px;
+  list-style-type: none;
+  font-weight: 300;
+  margin-left: 36px;
+}
+
+.nav-menu a {
+  text-decoration: none;
+  color: black;
+}
+
+header {
+  background-image: url("../images/landing.jpg");
+  width: auto;
+  height: 856px;
+  background-size: 100%;
+  background-repeat: no-repeat;
+}
+.motto-spotify {
+  color: white;
+  display: block;
+  text-align: center;
+  padding-top: 260px;
+}
+.motto-spotify > h1 {
+  font-size: 80px;
+  margin: 40px;
+}
+.motto-spotify p {
+  font-size: 30px;
+  margin: 0;
+}
+
+.img-containers {
+  width: 128px;
+}
+.whats-on{
+    margin:0 150px; 
+    height: 550px; 
+
+}
+.title-whats-on{
+    display: block;
+    margin: 0 auto;
+    width:380px;
+    font-size: 30px;
+    margin-top: 60px;
+}
+
+.title-whats-on hr{
+    border: 2px solid #00B172;
+    margin-top:-30px;
+    width:96%
+}
+.whats-on-container{
+    width:33%;
+    float:left;
+    display:block;
+    text-align: center;
+    margin-top: 30px;
+}
+.whats-on-container > img{
+    width: 135px;
+}
+.whats-on h3{
+color: #00B172;
+font-size: 35px;
+}
+.whats-on-container  p{
+font-size: 28px;
+padding: 0 24px; 
+}
+
+.corrector{
+margin-top:18px; 
+}
+
+.green-theme{
+    padding: 50px 90px; ; 
+    background-color: #00B172;
+    margin:0 45px;
+    color: white; 
+    height: 750px; 
+}
+.green-theme h3{
+    font-size: 30px;
+}
+.green-theme h2{
+    font-size: 30px;
+}
+.green-div{
+    float: left; 
+}
+
+.icon-white{
+    width: 140px;
+    position: relative; 
+    bottom: 480px;
+    left: 650px; 
+
+
+}
+.screen-shot{
+    width:360px; 
+    float: right; 
+    padding-top: 70px; 
+    padding-right: 30px; 
+
+}
+
+.tittle-green h2{
+    font-size:40px; 
+}
+.green-div p{
+    font-size: 25px;
+    width: 360px; 
+}
+.green-div hr{
+    margin-top: -25px; 
+    border: 2px solid white; 
+}
