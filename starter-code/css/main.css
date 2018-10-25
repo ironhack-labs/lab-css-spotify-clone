@@ -6,3 +6,165 @@ Green: #00B172
 White: #FFF
 
 */
+body {
+    font-family: avenir;
+    color: #1A1A1A;
+}
+nav {
+    position: fixed;
+    height: 50px;
+    width: 100%;
+    background-color: white;
+    padding: 10px 0;
+}
+nav a {
+    text-decoration: none;
+    color: #1A1A1A;
+ 
+  }
+nav img {
+    
+    float: left;
+    height: 40px;
+    margin: auto 20px;
+}
+nav img:hover{
+    animation: move 1s;
+    animation-iteration-count: infinite;
+    position: relative;
+  }
+  @keyframes move{
+    50% {
+      transform: translateY(-10px);
+    }
+  }
+
+.menu-top-rigth {
+    display: block;
+    float: right;
+    padding: 10px 15px 0 500px;
+  }
+  .menu-top-rigth li {
+    display: inline-block;
+    margin: 0 10px;
+  }
+  header {
+      background-image: url(../images/landing.jpg);
+      background-size: cover;
+      height: 800px;
+
+       
+  }
+  h1 {
+      color: white;
+      font-size: 5rem;
+      font-weight: 800;
+      text-align: center;
+      position: relative;
+      margin: 0 auto;
+      top: 35%;
+  }
+  header p {
+        color: white;
+        font-size: 30px;
+        font-weight: 150;
+        text-align: center;
+        position: relative;
+        top: 40%;
+
+  }
+  article{
+    float: left;
+    width: 27%;
+    margin: 0 3%;
+    /* padding: 0 20%; */
+  }
+  article img{
+    height: 50px;
+  }
+  .clearfix{
+    clear: both;
+  }
+  #first {
+      height: 400px;
+      width: 70%;
+      background-size: cover;
+      text-align: center;
+      margin-top: 60px;
+      padding-left: 220px;
+  }
+  #first h1 {
+    font-size: 40px;
+    font-weight: 800;
+    text-align: center;
+    position: relative;
+    margin: 0 auto;
+    margin-top: 50px;
+    color: #1A1A1A;
+  }
+  #first h2 {
+    font-size: 30px;
+    font-weight: 900;
+    text-align: center;
+    position: relative;
+    margin: 0 auto;
+    margin-top: 20px;
+    color: #00B172;
+  }
+article img {
+  margin: 10 auto;
+  height: 100px;
+  width: 140px;
+}
+#second {
+    height: 650px;
+  width: 95%;
+  background-color: #00B172;
+  margin: 0 auto;
+
+}
+.left {
+  position: absolute;
+  float: left;
+}
+.left img{
+  position: absolute;
+  height: 150px;
+  top: 235px; 
+  margin-left: 380px;
+}
+#second h2{
+    font-size: 30px;
+    font-weight: 900;
+    position: relative;
+    margin-top: 70px;
+    margin-left: 50px;
+    margin-bottom: 50px;
+    color: white;
+    text-decoration: underline;
+  }
+  #second h3{
+    font-size: 25px;
+    font-weight: 900;
+    position: relative;
+    margin-top: 30px;
+    margin-left: 50px;
+    color: white;
+  }
+  #second p{
+    font-size: 20px;
+    font-weight: 100;
+    position: relative;
+    margin-top: 30px;
+    margin-left: 50px;
+    color: white;
+    width: 270px;
+  }
+  .right {
+    display: block;
+    float: right;
+  }
+  .right img{
+    height: 500px;
+    margin: 75px 75px;
+  }
