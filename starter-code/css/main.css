@@ -6,9 +6,11 @@ Green: #00B172
 White: #FFF
 
 */
+@import url('https://fonts.googleapis.com/css?family=Roboto+Condensed:700|Roboto:100,300,700');
+
 
 body{
-    font-family: Arial, Helvetica, sans-serif;
+    font-family: "Roboto";
 }
 
 
@@ -88,13 +90,15 @@ li{
     height: 500px;
 }
 
+
 .title-articles{
-    font-size:30px;
+    font-size:35px;
     font-weight: bold; 
     width: 40%;
     padding-top: 5%;
     margin: auto;
     margin-bottom: 7%;
+    padding-left: 10%;
 
 }
 
@@ -108,30 +112,41 @@ li{
     margin-bottom: 10px;
 }
 
-.container-article{
-    width: 25%;
+.article-left, .article-center, .container-right{
+    width: 30%;
     height: 60%;
-    padding: 40px 30px;
+    padding-top: 40px;
     float: left;
     text-align: center;
 }
+
+.article-left{
+    margin-right: 50px;
+}
+
+.article-center{
+    margin-right: 50px;
+}
+
 
 .clear-flex{
     clear: both;
 }
 
 .subtitle-articles{
-    font-size: 25px;
+    font-size: 30px;
     font-weight: bold;
     color: #00B172; 
     margin-left: -10%;
     margin-bottom: 10%;
+    padding: 5px 0px 0 20px;  
 }
 
-.container-article p {
-    width: 70%;
-    font-size: 17px;
-    margin: auto;     
+.section-articles p {
+    width: 80%;
+    font-size: 20px;
+    margin: auto;
+        
 }
 
 .section-footer{
@@ -139,6 +154,8 @@ li{
     width: 95%;
     height: 700px;
     margin: auto;
+    margin-bottom: 37px;
+    margin-top: 50px;
 }
 
 .div-left-footer{
@@ -182,7 +199,7 @@ li{
     font-size: 27px;
     color: white;
     font-weight: bold;
-    margin-bottom: 30px;
+    margin-bottom: 32px;
 }
 
 .p-footer{
@@ -191,4 +208,11 @@ li{
     font-size: 20px;
     color: white;
 }
+
+
+.header-top-left:hover{
+    margin-top: -5px;
+}
+
+
 
