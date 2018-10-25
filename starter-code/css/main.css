@@ -1,8 +1,158 @@
 /*
 Colors:
-
 Text: 1A1A1A
 Green: #00B172
 White: #FFF
-
 */
+
+body {
+  font-family: sans-serif;
+  margin: 0;
+}
+
+nav {
+  position: fixed;
+  display: flex;
+  justify-content: space-between;
+  background-color: white;
+  padding: 20px 50px 0 50px;
+  height: 80px;
+  width: 100%;
+}
+
+header {
+  background: url("../images/landing.jpg") no-repeat center;
+  background-size: 100%;
+  height: 850px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+header > h1,
+header > .text-explain {
+  color: white;
+}
+
+
+ul {
+  list-style: none;
+  display: flex;
+  justify-content: flex-end;
+  margin-right: 80px;
+}
+
+a {
+  text-decoration: none;
+  padding: 20px;
+  color: #1A1A1A;
+}
+
+h1 {
+  font-size: 64px;
+  font-weight: 500;
+}
+
+
+h2 {
+  font-size: 30px;
+  font-weight: 500;
+  text-align: center;
+  color: #1A1A1A;
+}
+
+h3 {
+  font-size: 24px;
+  font-weight: 500;
+}
+
+
+span {
+  border-bottom: 3px solid white;
+  padding-bottom: 6px;
+}
+
+.green-underline {
+  border-color: #00B172;
+}
+
+.on-spotify {
+  display: flex;
+  justify-content: space-around;
+  margin-top: 100px;
+  margin-bottom: 50px;
+  padding: 0 200px 0 200px;
+}
+
+.on-spotify p {
+  font-size: 20px;
+}
+
+.spotify-offers {
+  padding: 60px;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+.spotify-offers > h3 {
+  text-align: center;
+  color: #00B172;
+}
+
+p {
+  font-size: 24px;
+  font-weight: 300 ;
+  text-align: center;
+}
+
+.logo {
+  width: auto;
+  height: 60px;
+}
+
+.logos-offers {
+  width: 100px;
+  height: 86px;
+  display: flex;
+  align-content: center;
+}
+
+
+.img-app {
+  width: auto;
+  height: 500px;
+}
+
+
+.green {
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+  background-color: #00B172;
+  background-position: center;
+  margin-left: 50px;
+  height: 700px;
+  width: 1340px;
+  background-image: url("../images/spotify-icon-white.png");
+  background-repeat: no-repeat;
+  background-position: center;
+  background-size: 140px 140px;
+}
+
+.green-right {
+  display: flex;
+  flex-direction: column;
+}
+
+.green-right > h2, 
+.green-right > h3,
+.green-right > p {
+  color: white;
+  text-align: left;
+  padding-left: 30px;
+}
+
+.green-right > p {
+  font-size: 18px;
+}
