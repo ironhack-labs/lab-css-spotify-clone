@@ -5,4 +5,246 @@ Text: 1A1A1A
 Green: #00B172
 White: #FFF
 
-*/
+
+/* Roboto Font*/
+
+body,html{
+  height: 100%;
+  overflow: auto;
+  margin: 0;
+  font-family: 'Roboto', sans-serif;
+}
+
+
+.textWhite{
+  color: #FFF;
+}
+
+.textGreen{
+  color: #00B172;
+}
+
+.textBlack{
+  color: #1A1A1A;
+}
+
+#header{
+  height: 10%;
+  border-bottom: 1px solid black;
+  position: fixed;
+  z-index: 1;
+  background-color: white;
+  display: block; 
+}
+
+.spotifyLogo{
+width: 11%;
+height: 100%;
+margin: 15px 0 0 40px;
+}
+
+.navbar{
+  float:right;
+  margin-right: 3%;
+  list-style-type: none;
+}
+
+.navbar > li {
+padding-left: 30px;
+display: inline-block;
+font-size: 1.5em;
+margin-top: 4%;
+font-weight: 300;
+}
+
+.navbar > li > a{
+  text-decoration: none;
+}
+
+#banner{
+  background-image: url(../images/landing.jpg);
+  background-size: 100% 100%;
+  background-repeat: no-repeat;
+  background-position: cover;
+  height: 100%;
+  position: relative;
+  top: 10%;
+  width: 100%;
+  display: flex;
+  justify-content: center;
+  }
+
+.bannercontainer{
+ margin: 15% auto 0 auto;
+ width: 45%;
+height: 30%;
+text-align: center;
+}
+
+.bannerText1{
+  font-size: 5.4em;
+  font-weight: 600;
+  margin: 0 auto 25px auto;
+  width: 100%;
+  letter-spacing: 2.5px;
+  word-spacing: 1.5px;
+}
+
+.bannerText2{
+  margin: 0 auto 0 auto;
+  font-weight: 300;
+  font-size:2em;
+  width: 100%;
+  word-spacing: 1.5px;
+  line-height: 40px;
+}
+
+#articleSection{
+  position: relative;
+  height: 85%;
+  top: 10%;
+}
+
+.articleContainer{
+  width: 90%;
+  margin: 0 auto 0 auto;
+  height: 100%;
+  overflow: auto;
+}
+
+.onSpotify{
+  padding-bottom: 8px;
+  border-bottom: 3px solid #00B172;
+  width: 24.3%;
+  margin: 70px auto 130px auto;
+  font-size: 3em;
+  font-weight: 400;
+}
+
+.column{
+  width: 30%;
+  float: left;
+}
+
+.columnMargin{
+  margin: 0 5% 0 5%;
+}
+
+.articleImage{
+  width: 40%;
+  margin: 0 auto 25px auto;
+  display: block;
+  height: 147px;
+}
+
+.marginGreenTitle{
+margin:0 auto 30px auto;
+}
+.greenTitle1{
+ width: 60%;
+ font-size: 2.4em;
+ word-spacing: 1.5px;
+ font-weight: 500;
+
+}
+.greenTitle2{
+ width: 35%;
+ font-size: 2.5em;
+ word-spacing: 1.5px;
+ font-weight: 500;
+}
+.greenTitle3{
+ width: 65%;
+ font-size: 2.4em;
+ word-spacing: 1.5px;
+ font-weight: 500;
+}
+
+.subtext{
+  font-weight: 100;
+  text-align:center;
+  font-size: 1.9em;
+  margin: 0 auto;
+}
+
+.subtext1{
+  width: 65%;
+}
+
+.subtext2{
+  width: 67%;
+}
+
+.subtext3{
+  width: 70%;
+}
+
+.clearfix{
+  clear: both;}
+  
+#kanye{
+height: 100%;
+position: relative;
+top: 10%;
+}
+
+.kanyeContainer{
+  height: 100%;
+  width: 95%;
+  margin: 0 auto;
+  background-color: #00B172;
+}
+
+.kanyeSubcontainer{
+  width: 92%;
+  margin: 0 auto;
+  height: 100%;
+  overflow-y: auto;
+
+}
+.kanyeText{
+width: 39%;
+margin: 70px 0 0 70px;
+float: left;
+}
+
+.kanyeTitle{
+  padding-bottom: 8px;
+  border-bottom: 3px solid white;
+  letter-spacing: 1.5px;
+  font-size: 3em;
+  font-weight: 500;
+  width:100%;
+  margin-bottom: 70px; 
+}
+
+.subheader{
+font-weight: 600;
+font-size: 2em;
+letter-spacing: 1.5px;
+margin-bottom: 30px;
+}
+
+.subtextKanye{
+  font-size: 1.8em;
+  text-align: left;
+  width: 65%;
+  font-weight: 300;
+  margin-bottom: 50px;
+}
+
+.spotifyWhite{
+  width: 9%;
+  position: absolute;
+  top: 48%;
+}
+
+.spotifyApp{
+width: 23%;
+float: right;
+margin: 155px 100px 0 0;
+}
+
+.spacer{
+  height: 5%;
+}
