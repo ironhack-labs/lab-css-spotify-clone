@@ -6,3 +6,120 @@ Green: #00B172
 White: #FFF
 
 */
+body {
+  font-family: 'Raleway', sans-serif;
+  margin: 0;
+}
+.header {
+  position: fixed;
+  width: 100%;
+  background-color: #fff;
+  height: 70px;
+  z-index: 1;
+  padding: 10px;
+}
+.header img {
+  height: 60px;
+  width: 190px;
+}
+.header ul {
+  float: right;
+  padding: 0;
+}
+.header ul li {
+  float: left;
+  list-style-type: none;
+  margin-right: 40px;
+  font-size: 20px;
+  color: #1A1A1A;
+}
+.container {
+  padding-top: 80px;
+}
+.container .claim {
+  background-image: url("../images/landing.jpg");
+  background-repeat: no-repeat;
+  background-size: cover;
+  height: 500px;
+  position: relative;
+}
+.container .claim .info {
+  margin: 0 auto;
+  text-align: center;
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  color: #fff;
+}
+.container .claim .info h1 {
+  font-size: 60px;
+}
+.container .claim .info p {
+  font-size: 20px;
+}
+.container .section-text h2 {
+  margin: 0 auto;
+  border-bottom: 3px solid #00B172;
+  width: 260px;
+  font-size: 30px;
+  padding: 30px 0 4px 0;
+}
+.container .section-text .block {
+  width: 33%;
+  float: left;
+  margin-top: 40px;
+  text-align: center;
+  padding-bottom: 40px;
+}
+.container .section-text .block img {
+  width: 130px;
+  height: 100px;
+}
+.container .section-text .block h3 {
+  color: #00B172;
+  font-weight: 700;
+  font-size: 24px;
+}
+.container .section-text .block p {
+  line-height: 0;
+}
+.container .section-artist {
+  background-color: #00B172;
+  clear: both;
+  display: flex;
+  justify-content: space-between;
+  padding: 60px 60px;
+  position: relative;
+  margin: 40px;
+}
+.container .section-artist .content-artist h2 {
+  border-bottom: 3px solid #fff;
+  color: #fff;
+  font-size: 30px;
+  margin-bottom: 40px;
+}
+.container .section-artist .content-artist .info-artist {
+  color: #fff;
+  margin-bottom: 40px;
+}
+.container .section-artist .content-artist .info-artist h3 {
+  font-size: 24px;
+}
+.container .section-artist .logo {
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+}
+.container .section-artist .logo img {
+  width: 100px;
+  height: 100px;
+}
+.container .section-artist .image-artist {
+  padding-top: 40px;
+}
+.container .section-artist .image-artist img{
+  width: 300px;
+  height: 530px;
+}
