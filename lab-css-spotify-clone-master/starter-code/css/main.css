@@ -1,0 +1,180 @@
+/*
+Colors:
+
+Text: 1A1A1A
+Green: #00B172
+White: #FFF
+
+*/
+
+*{
+    padding: 0px;
+    margin: 0px;
+  
+}
+body{
+    width: 100%;
+    height: 2563px;
+}
+nav{
+    width: 100%;
+    height: 67px;
+    display: flex;
+    flex-direction: row;
+    position: fixed;
+    z-index: 1;
+    background-color: white; 
+
+}
+
+ul{
+    margin-top: 25px;
+    width: 25%;
+    display: inline-flex;
+    list-style-type: none;
+    position: fixed;
+    left: 68%;
+   
+}
+ul li{
+    text-align: center;
+    height: 20px;
+    width: 100px;
+    margin: 5px;
+    font-family: "Raleway", sans-serif;
+
+}
+nav > img{
+    width: 12%;
+    
+}
+#divBackground{
+    background-image: url("../images/landing.jpg");
+    background-size: cover;
+    background-repeat: no-repeat;
+    height: 1000px;
+    width: 100%;
+    display: block;
+    position: relative;
+    top: 75px;
+
+}
+#divBackground > h3, #divBackground > p{
+    position: relative;
+    left: 29.5%;
+    margin: 20px;
+    top: 45%;
+    width: 45%;
+    font-family: "Raleway", sans-serif;
+    color: white;
+}
+#divBackground h3{
+    left: 30%;
+    font-size: 70px;
+    font-family:"Raleway", sans-serif;
+    width: 40%;
+}
+section{
+    position: relative;
+    top: 150px;
+    text-align: center;
+    font-family: "Raleway", sans-serif;
+}
+section > h2{
+    font-size: 50px;
+    color: black;
+    
+}
+section > div{
+    display: inline-block;
+    width: 20%;
+    height: auto;
+    font-size: 16px;
+    margin: 20px;
+    color: black;
+    font-family: "Raleway", sans-serif;
+    margin-top: 50px;
+    
+}
+section > div > img{
+    width: 100px;
+    height: 86px;
+}
+hr{
+    width: 400px;
+    color: green;
+    position: relative;
+    left: 39%;
+    
+}
+.fig{
+    font-size: 30px;
+    margin: 5px;
+    color: lightgreen;
+}
+#change{
+    position: relative;
+    top: 5%;    
+}
+#special{
+    background-color: #00B172;
+    color: white;
+    font-size: 22px;
+    display: block;
+    width: 96%;
+    height: 859px;
+    position: relative;
+    left: 2%;
+    top: 12%;
+    text-align: justify;
+
+}
+#special > div{
+    color: white;
+    font-family: "Raleway", sans-serif;
+    width: 40%;
+    height: 80%;
+    margin: 10px;
+    position: relative;
+    top: 10%;
+    left: 7.5%
+
+}
+#special2 > div{
+    font-weight: lighter;
+    font-size: 22px;
+}
+#special > h2{
+    color: white; 
+    font-size: 40px;
+    text-decoration: underline;
+    position: relative;
+    left: 7%;
+    top: 8%;
+    font-weight: bold;
+    margin-bottom: 50px;
+}
+#special > div > h2{
+    margin-bottom: 25px;
+    font-size: 30px;
+    margin-top: 25px;
+}
+#special > div > p{
+    font-size: 20px;
+    width: 45%;
+    text-align: left;
+    line-height: 32px;
+}
+#whitelogo{
+    max-height: 119px;
+    position: absolute;
+    left: 43%;
+    top: 50%;
+}
+#kanyeimg{
+    max-width: 500px;
+    max-height: 700px;
+    position: absolute;
+    left: 70%;
+    top: 14%;
+}
