@@ -34,6 +34,7 @@ body {
   height: 70px;
   z-index: 1;
   padding: 10px;
+  box-shadow: 0 2px 4px 0 rgba(0,0,0,0.1);
 }
 #header img {
   height: 60px;
@@ -53,9 +54,13 @@ body {
   font-size: 20px;
   color: #1A1A1A;
   text-decoration: none;
+  opacity: 0.8;
+  transition: 1s;
+  font-weight: 700;
 }
 #header ul a:hover {
   color: #00B172;
+  opacity: 1;
 }
 .container {
   padding-top: 80px;
