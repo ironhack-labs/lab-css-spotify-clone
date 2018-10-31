@@ -6,11 +6,28 @@ Green: #00B172
 White: #FFF
 
 */
+
+@keyframes bounce {
+	0%, 20%, 60%, 100% {
+		-webkit-transform: translateY(0);
+		transform: translateY(0);
+	}
+	40% {
+		-webkit-transform: translateY(-20px);
+		transform: translateY(-20px);
+	}
+	80% {
+		-webkit-transform: translateY(-10px);
+		transform: translateY(-10px);
+	}
+}
+
+
 body {
   font-family: 'Raleway', sans-serif;
   margin: 0;
 }
-.header {
+#header {
   position: fixed;
   width: 100%;
   background-color: #fff;
@@ -18,21 +35,27 @@ body {
   z-index: 1;
   padding: 10px;
 }
-.header img {
+#header img {
   height: 60px;
   width: 190px;
 }
-.header ul {
+#header img:hover {
+  animation: bounce 1s;
+}
+#header > ul {
   float: right;
   padding: 0;
 }
-.header ul a {
+#header ul a {
   float: left;
   list-style-type: none;
   margin-right: 40px;
   font-size: 20px;
   color: #1A1A1A;
   text-decoration: none;
+}
+#header ul a:hover {
+  color: #00B172;
 }
 .container {
   padding-top: 80px;
