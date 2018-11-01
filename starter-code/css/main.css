@@ -6,3 +6,233 @@ Green: #00B172
 White: #FFF
 
 */
+
+@import url('https://fonts.googleapis.com/css?family=Montserrat:300,400,500,600,700,800');
+
+* {
+  box-sizing: border-box;
+}
+
+body {
+  margin: 0;
+  font-family: 'Montserrat', sans-serif;
+}
+
+.section-2-relative {
+  width: 1170px;
+  margin: 0 auto;
+}
+
+section h2 {
+  font-size: 36px;
+  font-weight: 400;
+}
+
+section h4 {
+  font-size: 28px;
+}
+
+section p {
+  font-size: 22px;
+  font-weight: 300;
+  line-height: 1.5;
+}
+
+/* HEADER - NAVBAR - NAV-LINKS */
+
+header {
+  height: 70px;
+  padding: 0 15px;
+  position: fixed;
+  background-color: #fff;
+  width: 100%;
+  z-index: 1000;
+}
+
+nav {
+  height: 50px;
+  margin-top: 10px;
+  position: relative;
+}
+
+nav > div, nav li {
+  display: inline-block;
+}
+
+nav li a {
+  padding: 0 10px;
+  text-decoration: none;
+  font-weight: 300;
+  color: #000;
+}
+
+.logo{
+  float: left;
+  position: absolute;
+}
+
+.logo > a > img {
+  height: 50px;
+}
+
+.nav-links {
+  float: right;
+}
+
+.logo:hover {
+  animation-name: levitate;
+  animation-duration: 1s;
+  animation-iteration-count: infinite;
+}
+
+
+/* Animations */
+
+@keyframes levitate {
+  0% {top: 0;}
+  50% {top: -10px;}
+  100% {top: 0;}
+}
+
+
+/* SECTION - 2 - CAPTION & IMAGE */
+
+.section-2 {
+  background-image: url(../images/landing.jpg);
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-position: center;
+  color: #fff;
+  text-align: center;
+}
+
+.section-2 .section-2-relative {
+  position: relative;
+  height: 100vh;
+}
+
+.caption-text {
+  position: absolute;
+  top: 50%;
+  width: 100%;
+  transform: translateY(-50%);
+}
+
+.section-2 h1 {
+  font-size: 80px;
+  margin: 30px;
+  font-weight: 600;
+}
+
+.section-2 h3 {
+  font-size: 28px;
+  font-weight: 300;
+  margin: 0;
+}
+
+
+/* SECTION - 3 - ICONS  */
+
+.section-3 {
+  color: black;
+  text-align: center;
+  width: 1170px;
+  margin: 0 auto;
+}
+
+.section-3 h2 {
+  width: 360px;
+  border-bottom: 4px solid #00B172;
+  padding-bottom: 5px;
+  margin: 15px auto 20px;
+  font-weight: 700;
+}
+
+.section-3 h4 {
+  color: #00B172;
+}
+
+.section-3 .section-content {
+  padding: 40px 0;
+}
+
+.section-3 .section-content > div {
+  width: 33%;
+  display: inline-block;
+  padding: 49px;
+  padding-bottom: 20px;
+  vertical-align: top;
+}
+
+.section-3 .section-content > div > img {
+  height: 110px;
+}
+
+
+/* SECTION - 4 - */
+
+.section-4 {
+  width: 1200px;
+  margin: 0 auto;
+  margin-bottom: 50px;
+}
+
+.section-4 > .section-4-content > div {
+  width: 33%;
+  display: inline-block;
+  vertical-align: middle;
+}
+
+.section-4-content{
+  padding: 85px;
+  padding-top: 25px;
+  padding-bottom: 0px;
+  width:100%;
+  background-color: #00B172;
+  position: relative;
+  color: white;
+  padding-bottom: 100px;
+}
+
+.section-4 h4{
+  font-size: 33px;
+  text-align: left;
+  font-weight:600;
+  width: 480px;
+  border-bottom: white solid 4px; 
+  padding-bottom: 15px; 
+  margin-bottom: 30px;
+}
+
+.steps {
+  width: 285px;
+}
+.steps h3 {
+  padding-top: 5px;
+  width: 400px;
+  font-size: 23px;
+  margin-bottom:0px;
+}
+
+.steps p {
+  font-size: 19px;
+  font-weight: 400;
+}
+
+.image-app{
+  float: right;
+  margin-top: -25px;
+}
+
+.image-app  img{
+  width: 300px;
+  float:right;
+}
+
+.spotify-icon{
+  text-align: center;
+}
+
+.spotify-icon img{
+  width: 120px;
+}
