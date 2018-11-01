@@ -6,3 +6,144 @@ Green: #00B172
 White: #FFF
 
 */
+body{
+    margin: 0;
+    position: relative;
+    font-family: Circular, Helvetica, Arial, sans-serif;
+}
+
+header{
+    width: 100%;
+    height: 100px;
+    position: fixed;
+    top: 0;
+    background-color: white;
+    z-index: 10;
+}
+header img {
+    position: absolute;
+    padding: 15px 15px 15px 30px;
+    height: 70%;
+    z-index: -5;
+}
+header li{
+    display: inline;
+    padding: 10px;
+    font-size: x-large;
+}
+header ul {
+    position: absolute;
+    right: 0px;
+    padding: 20px;
+}
+
+#MusicForEveryone{
+    margin: 100px 0 0 0;
+    height: 500px;
+    background-image: url("../images/landing.jpg");
+    background-position: center; /* Center the image */
+    background-repeat: no-repeat; /* Do not repeat the image */
+    background-size: cover;
+}
+#MusicForEveryone img{
+    position: relative;
+    width: 100%;
+    box-sizing: border-box;
+}
+#MusicForEveryone div{
+    padding-top: 15%;
+    padding-left: 25%;
+    text-align: center;
+    color: white;
+    width: 50%;
+}
+#MusicForEveryone h2{
+    font-size: 50px;
+}
+#MusicForEveryone h4{
+    font-size: 20px;
+}
+
+#WhatsOnSpotify{
+    text-align: center;
+}
+#WhatsOnSpotify{
+    text-decoration: underline green;
+    text-align: center;
+}
+#boxes div{
+    box-sizing: border-box;
+    margin: 0;
+    padding: 20px;
+    width: 33%;
+    text-align: center;
+    display: inline-block;
+}
+#boxes img{
+    width: 40%;
+}
+#boxes h2{
+    color: #00B172;
+}
+#boxes p{
+    width: 60%;
+    display: inline-block;
+    color: #666666;
+    font-size: 20px;
+}
+#topTitle{
+    width: 20%;
+    display: inline-block;
+    margin-top: 10px;
+}
+#topTitle hr{
+    border-top: 5px solid #00B172;
+    padding-top: 0;
+    margin-top: 0;
+}
+
+#KayneSection{
+    background-color: #00B172;
+    padding: 1rem;
+    margin: 2rem;
+    text-align: center;
+    color: white;
+}
+#KayneSection h2{
+    color: white;
+    padding-left: 2rem;
+    font-size: 30px;
+}
+#KayneSection hr{
+    background-color: white;
+    width: 85%;
+}
+#KayneImg{
+    position: absolute;
+    bottom: 5%;
+    right: 8%;
+    float: right;
+    width: 250px;
+    padding: 1rem;
+}
+#KayneSection div{
+    width: 50%;
+    text-align: left;
+    padding-left: 1rem;
+}
+#KayneSection h4{
+    margin: 2rem;
+    font-size: 25px;
+}
+#KayneSection p{
+    margin: 2rem;
+    font-size: 20px;
+    width: 60%;
+}
+#whiteLogo{
+    position: absolute;
+    bottom: 15%;
+    width: 10%;
+    padding: 1rem;
+    z-index: 10;
+}
