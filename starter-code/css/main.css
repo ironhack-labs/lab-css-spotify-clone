@@ -7,8 +7,15 @@ White: #FFF
 
 */
 
+body {
+  font-family: 'Montserrat', sans-serif;
+  color: #1A1A1A;
+  margin: 0;
+}
+
 nav {
-  height: 70px;
+  height: 50px;
+  color: #FFF;
 }
 
 .logo {
@@ -25,6 +32,7 @@ nav {
 
 .nav-links a {
   text-decoration: none;
+  color: #1A1A1A;
 }
 
 .nav-links a + a {
@@ -33,4 +41,28 @@ nav {
 
 .clearfix {
   clear: both;
+}
+
+.cover-img {
+  height: 550px;
+  color: #FFF;
+  background: url("../images/landing.jpg") no-repeat;
+  background-color: black;
+  background-size: cover;
+  text-align: center;
+  margin: 0 auto;
+  
+}
+
+.header-text {
+  padding: auto 0;
+}
+
+.cover-img h1 {
+  font-size: 3em;
+}
+
+.cover-img h3 {
+  font-weight: lighter;
+  line-height: 0.4em;
 }
