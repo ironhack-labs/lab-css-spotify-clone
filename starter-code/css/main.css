@@ -6,3 +6,190 @@ Green: #00B172
 White: #FFF
 
 */
+
+*{
+    margin: 0;
+    padding: 0;
+}
+
+body{
+    font-family: 'Raleway', sans-serif;
+}
+
+
+/*ANIMATION*/
+
+nav img:hover{
+animation: pulse 1.5s ease-in-out infinite;
+}
+
+@keyframes pulse {
+    0%{
+      transform:translateY(-10px);
+    }
+
+    50%{
+      transform:translateY(10px);
+    }
+    
+    100%{
+      transform:translateY(-10px);
+    }
+  }
+  
+
+/*A ver si jala*/
+
+
+h1, h2, h3, h4, p{
+    text-align: center;
+}
+
+h1{
+    padding-top: 200px;
+    font-size: 5em;
+}
+
+h1 + p{
+    font-size: 2.0em;
+    padding: 50px;
+}
+
+h2{
+    font-size: 2.3em;
+    padding-top: 20px;
+}
+
+nav{
+    width: 100%;
+    height: 100px;
+    position: fixed;
+    top: 0px;
+    background-color: white;
+}
+
+nav > img {
+    float: left;
+    width: 250px;
+    padding: 10px 50px;
+}
+
+nav > ul{
+    float: right;
+    margin: 40px 10px;
+}
+
+ul > li{
+    display: inline;
+    list-style: none;
+    padding: 0px 20px;
+    font-size: 1e.3m;
+}
+
+header{
+    background-position-y: 100px;
+    padding-top: 100px;
+    background-image: url("../images/landing.jpg");
+    background-size: 100% 700px;
+    background-repeat: no-repeat;
+    width: 100%;
+    height: 700px;
+    color: white;
+}
+
+.whatis h2{
+    margin-top: 50px;
+}
+
+.whatis h3{
+    color: #1AB26B;
+    font-weight: 90000;
+}
+
+.whatis hr{
+    width: 20%;
+    margin: 10px 40%;
+    border: 2px solid #1AB26B;
+}
+
+.whatis{
+    width: 100%;
+    text-align: center;
+    margin-bottom: 300px;
+}
+
+.whatis div{
+    width: 33%;
+    float: left;
+}
+
+.whatis img{
+    width: 33%;
+    margin: 30px 33%;
+}
+
+.whatis p{
+    margin: auto 20px;
+    margin-top: 5%;
+    height: auto;
+}
+
+.green{
+    background-color: rgb(26,178,107); 
+    margin-top: 400px;
+    width: 100%;
+    color: white;
+    height: 600px;
+    margin-bottom: 0px;
+}
+
+.kanye{
+    float: left;
+    width: 50%;
+}
+
+.application{
+    float: left;
+    width: 30%;
+    padding-left: 15%;
+    padding-top: 40px;
+    max-width: 250px;
+}
+
+.kanye h3{
+    font-size: 2em;
+    padding: 7%;
+    padding-bottom: 0px;
+    text-align: left;
+}
+
+.kanye h4{
+    font-size: 1.5em;
+    padding-left: 4%;
+    text-align: left;
+}
+
+.kanye p{
+    font-size: 1em;
+    padding-left: 4%;
+    padding-bottom: 3%;
+    padding-top: 3%;
+    padding-right: 10%;
+    text-align: left;
+}
+
+.white-logo{
+    position: relative;
+}
+
+.kanye hr{
+    width: 90%;
+    margin: 5% 5%;
+    border: 1px solid white;
+}
+
+.white-logo{
+    position: absolute;
+    bottom: -73%;
+    left: 49%;
+}
