@@ -6,3 +6,153 @@ Green: #00B172
 White: #FFF
 
 */
+
+@import url('https://fonts.googleapis.com/css?family=Montserrat');
+
+* {
+  margin: 0;
+  padding: 0;
+}
+
+h3, h2{
+  font-family: 'Montserrat', sans-serif;
+}
+
+#nav{
+  position: fixed;
+  height: 100px;
+  width: 100%;
+  display: flex;
+  flex-direction: row;
+  background: white;
+}
+
+.spotify-nav-logo{
+  height: 50px;
+  float: right;
+  padding: 20px 0px 0px 100px;
+}
+
+
+ul{
+  padding: 20PX 0px 0px 550px;
+}
+
+li{
+  float: left;
+  list-style-type: none;
+  
+}
+
+li a {
+  display: block;
+  color: #1A1A1A;
+  text-align: center;
+  padding: 16px;
+  text-decoration: none;
+}
+
+#music-for-everyone{
+  background-image: url("../images/landing.jpg");
+  background-size: 100%;
+  width: 100%;
+  height: 800px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+}
+
+#music-for-everyone p{
+  font-size: 65px;
+  font-family: "Montserrat", sans-serif;
+  color: #fff;
+}
+
+#music-for-everyone h2{
+  color: #fff;
+  width: 850px;
+  font-family: "Montserrat", sans-serif;
+  padding-top: 70px;
+}
+
+
+
+#whats-on-spotify h1{
+  font-family: "Montserrat", sans-serif;
+  color: #1A1A1A;
+  border-bottom: 4px #00B172 solid;
+  width: 320px;
+  margin-left: 35%;
+  padding: 50px 0px 0px 25px;
+}
+
+
+#whats-on-spotify h2{
+  color: #00B172;
+  padding-bottom: 10px;
+}
+
+.multiple-choices{
+  display: flex;
+  flex-direction: row;
+  justify-content: space-around;
+  margin-top: 40px;
+}
+
+.individual-choice{
+  width: 300px;
+  height: 300px;
+}
+
+.image{
+  width: 200px;
+  padding-left: 60px;
+}
+
+#green-section{
+  background: #00B172;
+  display: flex;
+  justify-content: space-around;
+  margin: 30px;
+  padding: 10px;
+}
+
+#green-section h1{
+  color: #fff;
+  font-family: "Montserrat", sans-serif;
+  padding: 30px 0px 0px 0px;
+  border-bottom: 3px #fff solid;
+  margin-left: 50px;
+}
+
+#green-section h2{
+  color: #fff;
+  font-family: "Montserrat", sans-serif;
+  margin-left: 50px;
+  padding-top: 40px;
+}
+
+#green-section h3{
+  color: #fff;
+  font-family: "Montserrat", sans-serif;
+  margin-left: 50px;
+  padding-top: 40px;
+  width: 300px;
+  margin-bottom: 40px;
+}
+
+#last-logo{
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.last-logo-style{
+  height: 180px;
+}
+
+.spotify-app{
+  height: 600px;
+  padding-top: 50px;
+}
