@@ -17,15 +17,16 @@ h1, h2, h3{
 }
 
 h1 {
-  font-size: 9em;
+  font-size: 6.5em;
   text-align: center;
   color: #fff;
+  line-height: 2em;
+  font-weight: 500;
 }
 
 h2 {
   color:#fff;
   font-size: 5em;
-  line-height: 4em;
   text-align: center
 }
 
@@ -33,30 +34,12 @@ h3 {
   color: #fff;
   font-size: 2.2em;
   font-weight: 200;
+  line-height: 1.5em;
   text-align: center;
 }
 
-.container {
-  margin: 0 auto;
-  padding: 75px 0;
-  width: 1200px;
-}
+/* Nav Bar */
 
-.clearfix {
-  clear: both;
-}
-
-.col {
-  float: left;
-}
-
-.col-3 {
-  width: 30%;
-}
-
-.col-middle {
-  margin: 0 5%;
-}
 .nav-bar {
   background-color:#fff;
   height: 60px;
@@ -91,12 +74,52 @@ h3 {
   padding-top: 4px;
 }
 
+/* Header */
+
 .header{
-  background: url(../images/landing.jpg) 0 0 no-repeat;
+  background: url(../images/landing.jpg) no-repeat;
   background-size: cover;
-  padding-top: 200px;
-  padding-bottom: 650px;
+  padding-top: 250px;
+  padding-bottom: 50px;
+  height: 600px;
 }
+
+.header-text{
+  width: 60%;
+  transform: translate(-50%, -50%);
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  padding-top: 90px;
+  overflow: auto;
+  text-align: center;
+
+}
+
+.container {
+  margin: 0 auto;
+  padding: 75px 0;
+  width: 1200px;
+}
+
+.clearfix {
+  clear: both;
+}
+
+.col {
+  float: left;
+}
+
+.col-3 {
+  width: 30%;
+}
+
+.col-middle {
+  margin: 0 5%;
+}
+
+
+
 
 .sectionGreen{
   display: block;
