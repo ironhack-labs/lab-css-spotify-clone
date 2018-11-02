@@ -6,3 +6,179 @@ Green: #00B172
 White: #FFF
 
 */
+
+body {
+    margin: 0;
+    padding: 0;
+    font-family: sans-serif;
+    font-size: 16px;
+}
+
+.logo {
+    width: 150px;
+    height: 50px;
+    float: left;
+    padding: 20px;
+    animation: salto 2s;
+}
+
+nav {
+    /*float: right;*/
+    width: 100%;
+}
+
+header {
+    display: flex;
+    width: 100%
+}
+
+ul {
+float: right;
+  list-style:none;
+  display: inline-flex;
+  color: #1A1A1A;
+  font-size: medium;
+}
+
+ul li {
+  margin: 16px;
+}
+
+ul li a {
+    text-decoration: none;
+    color: #1A1A1A;
+}
+
+
+
+.container {
+    background: url("../images/landing.jpg") 0 0 no-repeat;
+    background-size: cover;
+    height: 750px;
+    padding: 0;
+    margin: 0;
+    color: #FFF;
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+    padding-top: 200px;
+}
+
+h1 {
+    margin: 0;
+    color: #FFF;
+    font-weight: 400;
+    font-size: 5em;
+}
+
+.container > p {
+    font-size: 2.5em;
+    font-weight: 300;
+    text-align: center;
+
+}
+
+.h2-green {
+    text-align: center;
+    padding-bottom: 10px;
+    border-bottom: 4px solid #00B172;
+    display: inline;
+    line-height: 0.85;
+    font-size: 2.5em;
+    font-weight: 500;
+}
+.description {
+    width: 100%;
+}
+
+.column-3 {
+    width: 32%;
+    float: left;
+    text-align: center;
+}
+
+.icons {
+    width: 100px;
+}
+
+.tope {
+    clear: both;
+}
+
+.sub-title {
+    text-align: center;
+    padding: 50px 0 100px 0;
+}
+
+.green {
+    color: #00B172;
+}
+
+.footer {
+    padding: 50px 0 100px 0;
+    margin: 40px;
+    background: #00B172;
+    height: 500px;
+    padding: 50px;
+    color: #FFF;
+    position: relative;
+}
+
+.music-description {
+    width: 50%;
+    float: left;
+    background: #00B172;
+}
+
+.pvto-kanye {
+    width: 40%;
+    float: left;
+    background: #00B172;
+    text-align: right;
+}
+.kanye {
+    height: 500px;
+}
+
+.h2-white {
+    text-align: center;
+    padding-bottom: 10px;
+    border-bottom: 4px solid #FFF;
+    display: inline;
+    line-height: 0.85;
+    font-size: 2.5em;
+    font-weight: 500;
+}
+
+.sub-title2 {
+    text-align: center;
+    padding: 0 0 50px 0;
+}
+
+
+.footer p {
+    font-size: 1.2em;
+    font-weight: 100;
+}
+
+.icon-spotify {
+    position: absolute;
+    width: 100px;
+    height: 100px;
+    float: left;
+    top: 250px;
+}
+
+@keyframes salto {
+  0% {
+    transform: scale(0.1);
+    opacity: 0;
+  }
+  60% {
+    transform: scale(1.2);
+    opacity: 1;
+  }
+  100% {
+    transform: scale(1);
+  }
+}
