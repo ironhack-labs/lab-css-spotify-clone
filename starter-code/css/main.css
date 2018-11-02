@@ -16,9 +16,13 @@ White: #FFF
 
 */
 
+*{
+    margin: 0;
+}
+
+
 
 /* header elements */
-
 .nav-bar{
     float: right;
     margin-right: 90px;
@@ -33,10 +37,22 @@ White: #FFF
     width: 10%;
 }
 
+.nav-bar-list{
+    float: right;
+}
 
+.nav-bar-li{
+    display: inline;
+    margin-right: 30px;
+}
+
+.nav-bar-li a{
+    text-decoration: none;
+    color: black;
+    font-size: 25px;
+}
 
 /* First Section */
-
 .concert-background{
 
     height:700px;
@@ -50,16 +66,25 @@ White: #FFF
     background-size: cover; 
 }
 
-.inner-text{
-
+.inner-title{
     text-align: center;
-    font-size: 35px;
+    font-size: 50px;
     position: relative;
     top: 100px;
     color: #FFF;
     font-weight: 900;
     letter-spacing: -0.04em;
     line-height: 1.15;
-   
+}
+
+
+.inner-Paragraph{
+
+    text-align: center;
+    font-size: 35px;
+    color: #FFF;
+    top: 120px;
+    position: relative;
 
 }
+ 
