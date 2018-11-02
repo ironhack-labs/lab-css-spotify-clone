@@ -1,9 +1,15 @@
 @import url('https://fonts.google.com/selection?selection.family=Montserrat:100,400,500');
 
+*{
+  margin:0;
+  padding: 0;
+}
 
 body{
   font-family: 'Montserrat';
   font-size: 10px;
+  line-height: 3.5em;
+  font-weight: 300;
 }
 
 h1, h2, h3{
@@ -19,7 +25,8 @@ h1 {
 h2 {
   color:#fff;
   font-size: 5em;
-  text-align: center;
+  line-height: 4em;
+  text-align: center
 }
 
 h3 {
@@ -29,23 +36,44 @@ h3 {
   text-align: center;
 }
 
+.container {
+  margin: 0 auto;
+  padding: 75px 0;
+  width: 1200px;
+}
+
+.clearfix {
+  clear: both;
+}
+
+.col {
+  float: left;
+}
+
+.col-3 {
+  width: 30%;
+}
+
+.col-middle {
+  margin: 0 5%;
+}
 .nav-bar {
   background: white;
   color: #fff;
   height: 40px;
   padding-bottom: 14px;
   padding-top: 14px;
-  position: relative;
 }
 .nav-bar-ul {
   margin: 0 auto;
-  width: 120px;
+  width: 800px;
 }
 
 .nav-bar-li {
+  float: right;
   list-style-type: none;
   text-align: center;
-  width: 33%;
+  width: 20%;
 }
 
 .nav-bar-item {
