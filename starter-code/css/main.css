@@ -6,3 +6,173 @@ Green: #00B172
 White: #FFF
 
 */
+@import url('https://fonts.googleapis.com/css?family=Montserrat');
+
+/* Tags */
+body {
+  margin: 0;
+  font-family: 'Montserrat';
+}
+
+header {
+  height: 5em;
+  width: 100%;
+}
+
+nav {
+  position: fixed;
+  width: 100%;
+  background-color: #FFFFFF;
+  z-index: 100; 
+}
+
+nav ul {
+  margin: 0 2em 0 0; /* elimina espacio sobrante*/
+  list-style-type: none;
+  float: right;
+}
+
+nav li {
+  display: inline-flex;
+  margin: auto 1.5em;
+  line-height: 5em;
+}
+
+h1 {
+  color: #FFFFFF;
+  text-align: center;
+  font-size: 4em;
+  padding-top: 3.5em;
+  margin: 0;
+}
+
+h2 {
+  font-size: 2em;
+}
+
+/* Secciones/Layout */
+#cover {
+  height: 40em;
+  background-image: url("../images/landing.jpg");
+  background-size: cover;
+  color: #FFFFFF;
+}
+
+#whatson {
+  height: 30em;
+  background-color: #FFFFFF;
+}
+
+.col--third {
+  width: 20%;
+  height: 10em;
+  padding: 6.66%;
+  margin: 0;
+  text-align: center;
+}
+
+.col--left {
+  float: left;
+}
+
+#kanye {
+  margin: 2em; /* Poner el color blanco; si no funciona usar border */
+  height: 46em;
+  color: #FFFFFF;
+  background-color: #00B172;
+}
+
+/* Estilos particulares*/
+.takeaway {
+  text-align: center;
+  font-size: 1.5em;
+  line-height: 0.3em;
+}
+
+.logo--header {
+  height: 4em;
+  margin: 0.5em 1em;
+}
+
+.nav-link {
+  text-decoration: none;
+  text-decoration-style: none;
+  text-transform: uppercase;
+  color: #1A1A1A;
+}
+
+.underline--green {
+  margin: 1em auto 0;
+  text-align: center;
+  width: 25%;
+  border-bottom: 4px solid #00B172;
+}
+
+.underline--white {
+  margin: 1em 2em 0 2em;
+  padding-top: 2em;
+  text-align: justify;
+  width: 38%;
+  border-bottom: 4px solid #FFFFFF;
+}
+
+.header--green {
+  font-size: 1.8em;
+  color: #00B172;
+}
+
+.col-icon {
+  height: 6em;
+}
+
+.col-text {
+  font-weight: 100;
+  font-size: 1.5em;
+  color: #1A1A1A;
+}
+
+.icon--white {
+  height: 6em;
+  position: relative;
+  top: 10em;
+  left: 45%;
+}
+
+.stack {
+  position: relative;
+  top: -4em;
+  height: 34em;
+  width: 30%;
+  margin: 2em 0 0;
+}
+
+.stacked--third {
+  height: 6em;
+  width: 100%;
+  margin: 0 2.8em;
+  text-align: left;
+  font-size: 1.4em;
+  font-weight: lighter;
+}
+
+.header--white {
+  margin: 1em 0 0;
+}
+
+.img--kanye {
+  height: 32em;
+  float: right;
+  position: relative;
+  right: 10%;
+}
+
+/* Compone el alto del bloque de en medio
+porque el primer bloque sólo tiene 2 líneas de texto */
+.mgfix {
+  position: relative;
+  top: -0.6em;
+}
+
+.clearfix {
+  clear: both;
+}
