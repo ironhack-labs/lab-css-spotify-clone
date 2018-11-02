@@ -6,3 +6,156 @@ Green: #00B172
 White: #FFF
 
 */
+
+body{
+    margin: 0px !important;
+    padding: 0px !important;
+    font-family: 'Roboto', sans-serif;
+
+}
+
+.section1{
+     width: 100%;
+     height: 100vh;
+    background: url(../images/landing.jpg) no-repeat center center fixed;
+    -webkit-background-size: cover;
+    -moz-background-size: cover;
+    -o-background-size: cover;
+    background-size: cover;
+}
+
+nav{
+    position: fixed;
+    width: 100%;
+    height: 90px;
+    background: #ffffff;
+    z-index: 100;
+    top:0px;
+}
+
+ul{
+   position: absolute;
+    right: 10px;
+}
+
+ul >li{
+    display: inline;
+    padding-left: 20px;
+    line-height: 60px;
+    color: #333333;
+
+}
+
+.logo-nav{
+    width: 200px;
+    height: auto;
+    position: absolute;
+    padding-top: 10px;
+    padding-left: 10px;
+    -webkit-animation:linear once alternate;
+    -webkit-animation-name: run;
+    -webkit-animation-duration: 5s;
+
+}
+@-webkit-keyframes run {
+    0% { left: -200px;}
+    50%{ left : 10%;}
+    100%{ left: 0;}
+}
+
+
+.img-responsive{
+    width: 100%;
+}
+
+
+.container{
+    margin: 0 auto;
+    max-width: 970px;
+}
+
+.center{
+    text-align: center;
+}
+
+.header-txt {
+
+    padding-top: 20%;
+    font-size: 5rem;
+    color: #fff;
+    font-weight: 500;
+}
+
+.subtext-section1{
+    font-weight: 100;
+    color: #ffffff;
+}
+
+.col-33{
+    width: 32%;
+    padding-left: 1%;
+    float: left;
+}
+
+
+.section-2{
+    width: 100%;
+    height: 100vh;
+}
+
+.icon-section2{
+    width: 100px;
+    height: auto;
+    display: block;
+    margin: 0 auto;
+}
+
+.section-3{
+    background: #66b06e;
+    width: 100%;
+    height:800px;
+    color: #fff;
+    font-weight: 100;
+    line-height: 30px;
+}
+
+.pad-top-10{
+    padding-top: 10%;
+}
+
+.col-60{
+    width: 58%;
+    padding-left: 1%;
+    float: left;
+    position: relative;
+}
+
+.col-40{
+    width: 38%;
+    padding-left: 1%;
+    float: left;
+}
+
+.img-app{
+    width: 300px;
+    height: auto;
+}
+
+.line{
+    width: 70%;
+    height:3px;
+    background: #fff;
+}
+
+.logo-float{
+
+    position: absolute;
+    right: 0px;
+    width: 120px;
+    height: 120px;
+    top: 250px;
+}
+
+.img-container{
+    height: 90px;
+}
