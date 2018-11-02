@@ -1,52 +1,72 @@
-@import url('https://fonts.googleapis.com/css?family=Roboto+Condensed:700|Roboto:100,300,700');
+@import url('https://fonts.google.com/selection?selection.family=Montserrat:100,400,500');
 
-* {
-  margin: 0;
-  padding: 0;
+
+body{
+  font-family: 'Montserrat';
+  font-size: 10px;
 }
 
-#premium{
-
+h1, h2, h3{
+  font-family: 'Montserrat';
 }
 
-#discover{
-
+h1 {
+  font-size: 9em;
+  text-align: center;
+  color: #fff;
 }
 
-#help{
-
+h2 {
+  color:#fff;
+  font-size: 5em;
+  text-align: center;
 }
 
-#download{
-
+h3 {
+  color: #fff;
+  font-size: 2.2em;
+  font-weight: 200;
+  text-align: center;
 }
 
+.nav-bar {
+  background: white;
+  color: #fff;
+  height: 40px;
+  padding-bottom: 14px;
+  padding-top: 14px;
+  position: relative;
+}
 .nav-bar-ul {
   margin: 0 auto;
-  width: 1200px;
+  width: 120px;
 }
 
 .nav-bar-li {
-  float: left;
   list-style-type: none;
   text-align: center;
   width: 33%;
 }
 
 .nav-bar-item {
-  color: #fff;
+  color: black;
   font-size: 2em;
   text-decoration: none;
 }
 
-.header {
-  background: url(/images/landing.jpg) 0 0 no-repeat;
-  background-size: 200px;
-  height: 350px;
+.header{
+  background: url(../images/landing.jpg) 0 0 no-repeat;
+  background-size: cover;
   position: relative;
-  top: 50%;
-  left: 50%;
+  padding-top: 200px;
+  padding-bottom: 650px;
 }
+
+.sectionGreen{
+  display: block;
+  background-color: #00B172;
+}
+
 
 
 /*
