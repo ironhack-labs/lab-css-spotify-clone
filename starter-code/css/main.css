@@ -1,6 +1,6 @@
 
 body {
-  font: bolder 16px/1.5 "Helvetica Neue", Helvetica, Arial, sans-serif;
+  font: 200 16px/1.5 "Helvetica Neue", Helvetica, Arial, sans-serif;
   margin: 0;
   font-size: 10px;
   position: relative;
@@ -16,45 +16,51 @@ body {
   position: relative;
 }
 
-.fuente-spotify h1{
-  font-size: 5rem;
+.fuente-spotify > h1{
+  font-size: 4.6rem;
   position: absolute;
   color: white;
-  bottom: 45%;
-  font-weight: bolder;
-  left:22%;
+  bottom: 50%;
+  font-weight: bold;
+  left:23%;
 }
 
-.fuente-spotify-text p{
-  font-size: 1.7rem;
+.fuente-spotify-text > p{
+  font-size: 1.8rem;
   position: absolute;
   color: white;
-  left: 26%;
-  bottom: 39%;
-  width: 50%;
+  left: 22%;
+  bottom: 41%;
+  width: 56%;
   font-weight: lighter;
   text-align: center;
 }
 
-nav ul li{
+nav  > div > ul > li{
   list-style: none;
   display: inline;
-  color: #0f4777d9;
   font-weight: lighter;
-  padding-right: 20px;
+  padding-right: 30px;
+}
+
+nav > div > ul > li > a{
+  text-decoration: none;
   color: #1A1A1A;
 }
 
 .contenedor-barra-nav{
   float: right;
-  font-size: 1rem;
+  font-size: 1.3rem;
+  padding-top: 6px;
+  font-weight: lighter;
 }
 
-.contenedor-imagen-nav img{
+.contenedor-imagen-nav > img{
   float: left;
-  width: 10%;
-  padding-top: 10px;
-  padding-left: 20px;
+  width: 16%;
+  padding-top: 12px;
+  padding-left: 22px;
+  padding-bottom: 12px;
 }
 
 .corrigeDist{
@@ -62,15 +68,126 @@ nav ul li{
 }
 
 .secundary-container{
-  width: 28%;
+  width: 24%;
   margin: 0 auto;
   text-align: center;
-  font-size: 1rem;
+  font-size: 2.12rem;
   color: #1A1A1A;
   border-style: solid;
   border-bottom-color: #00B172;
-  border-width: 0px 0px 3px 0px;
+  border-width: 0px 0px 4px 0px;
+  line-height: 0rem;
+  padding-top: 20px;
+  font-weight: bold;
 }
+
+section > article{
+  width: 31%;
+  float: left;
+  text-align: center;
+  margin-top: 100px;
+  padding: 0px 10px 0px 10px;
+}
+
+.imagen-whatson > img{
+  width: 30%;
+}
+
+.imagen-whatson-hd > img{
+  width: 30%;
+  padding-top: 5px;
+  padding-bottom: 12px;
+}
+
+.imagen-whatson-device > img{
+  width: 30%;
+  padding-bottom: 2px;
+}
+
+
+section > article > h2{
+  font-size: 1.8rem;
+  color: #00B172;
+  font-weight: bold;
+  margin-top: 5px;
+  margin-bottom: 20px;
+}
+
+section > article > p{
+  font-size: 1.5rem;
+  font-weight: lighter;
+  margin-top: 5px;
+  color: #1A1A1A;
+  width: 60%;
+  text-align: center;
+  margin: 0 auto;
+}
+
+.container-section-artist{
+  width: 95%;
+  height: 780px;
+  background-color: #00B172;
+  position: relative;
+  margin: 80px auto 0px auto;
+  text-align: center;
+}
+
+.container-section-artist-text{
+  width: 30%;
+  float: left;
+  padding-left: 95px;
+  margin-top: 140px;
+}
+
+.container-section-artist-text > h2{
+  font-size: 1.8rem;
+  color: #FFF;
+  font-weight: bold;
+  margin-top: 30px;
+  margin-bottom: 20px;
+  text-align: left;
+}
+
+.container-section-artist-text > p{
+  font-size: 1.38rem;
+  font-weight: lighter;
+  width: 90%;
+  text-align: left;
+  color: #FFF;
+}
+
+.titulo-artista > p{
+  font-size: 2.2rem;
+  position: absolute;
+  color: white;
+  top: 4%;
+  font-weight: bold;
+  left: 7.8%;
+  border-bottom: 3px solid #FFF;
+}
+
+.container-section-artist-logo{
+  width: 20%;
+  float: left;
+  padding-top: 345px;
+}
+
+.container-section-artist-img{
+  width: 40%;
+  float: left;
+}
+
+.container-section-artist-logo > img{
+  width: 52%
+}
+
+.container-section-artist-img > img{
+  width: 67%;
+  padding-top: 120px;
+}
+
+
+
 
 /*
 Colors:
