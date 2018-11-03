@@ -7,40 +7,153 @@ White: #FFF
 
 */
 
-
-
-.spotifylogo {
-  float: left;
-  height: 100px;
-  width: 190px;
+body {
+  margin: 0;
+  padding: 0;
 }
 
-.topnav {
-  background-color: #FFF;
-  width: 77%;
-}
-
-.topnav {
-  float: left;
-  color: 1A1A1A;
-  text-align: right;
-  padding: 14px 16px;
-  text-decoration: none;
-  font-size: 17px;
-  height: 100px;
-}
-
-.music {
+#header {
+  margin-left: 0px;
+  margin-top: 0px;
+  overflow: hidden;
+  position: fixed;
   width: 100%;
-  height: 100%;
+  top: 0;
+  background-color: #FFF;
+}
+
+#header img {
+  height: 60px;
+  margin: 10px 0px;
+  width: 200px;
+}
+
+nav {
+  float: right;
+  font-size: 20px;
+  font-weight: lighter;
+  padding-right: 20px;
+}
+
+ul li {
+  list-style: none;
+  display: inline-block;
+  padding-right: 20px;
+}
+
+#main {
+  margin-top: 100px;
+}
+
+#presentation {
+  background: url(../images/landing.jpg);
+  height: 1100px;
+  background-size: cover;
+  background-position: center;
+  color: #FFF;
+  text-align: center;
+}
+
+#presentation h1 {
+  margin: 0px 0px 20px 0px;
+  font-weight: bold;
+  font-size: 90px;
+  padding-top: 400px;
+  text-align: center;
+}
+
+#presentation p{
+  font-size: 35px;
+  margin: 0px;
+}
+
+#news h1 {
+  font-size: 40px;
+  margin-top: 50px;
+  text-align: center;
+  text-transform: capitalize;
+  text-decoration: underline #00B172;
 }
 
 .attributes {
-  width: 100%;
-  height: 100%;
+  display: flex;
+  justify-content: space-around;
 }
 
-.green {
-  width: 100%;
-  height: 100%;
+.attributes div {
+  width: 250px;
+}
+
+.att-img {
+  margin: 30px 0 0 30px;
+  width: 130px;
+}
+
+.attributes h2 {
+  text-align: center;
+  color: #00b172;
+}
+
+.attributes p {
+  text-align: center;
+  font-size: 20px;
+  font-weight: lighter;
+}
+
+.attributes div img {
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+}
+
+#adv {
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+  background-color: #00B172;
+  color: #FFF;
+  margin: 25px;
+}
+
+#adv h1 {
+  font-size: 35px;
+  margin-bottom: 0px;
+}
+
+#adv h2 {
+  padding: 40px 0 25px 0px;
+}
+
+#adv h1 h2 {
+  margin: 20px 0 20px 0;
+  font-weight: bold;
+}
+
+#adv p {
+  margin: 0;
+  font-size: 22px;
+  font-weight: lighter;
+}
+
+#spotify-icon-white {
+  width: 135px;
+  height: 135px;
+  position: absolute;
+
+}
+
+#spotify-app {
+  width: 350px;
+  height: 580px;
+}
+
+.container-title {
+  padding-bottom: 4px;
+  border-bottom: 3px solid;
+  width: 502px;
+}
+
+.container {
+  width: 450px;
+  padding-bottom: 0px;
 }
