@@ -6,3 +6,167 @@ Green: #00B172
 White: #FFF
 
 */
+
+*{
+  margin: 0;
+  padding: 0;
+  font-size: 
+ }
+
+body {
+  color: #1A1A1A;
+  font-family: 'Palanquin', sans-serif;
+}
+
+nav {
+  background-color: #FFF;
+  height: 100px;
+  color: #1A1A1A;
+  position: fixed;
+  width: 100%;
+  z-index: 100;
+}
+
+nav img {
+  width: 230px;
+  position: absolute;
+  top:0;
+  bottom:0;
+  margin: auto;
+  float: left;
+  padding-left: 20px;
+}
+
+nav ul {
+  width: 60%; 
+  padding-right: 20px;
+  float: right;
+}
+
+nav li {
+  list-style-type: none;
+  text-align: center;
+  display: inline;
+  margin: 0 10px 0 0;
+  font-size: 1.5em;
+}
+
+.sct-heading {
+  background-image: url(file:../images/landing.jpg);
+  position: relative;
+  background-repeat: no-repeat;
+  background-size: cover;
+  height: 1000px;
+  color: #FFF;
+}
+
+.sct-heading div {
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  text-align: center;
+  width: 70%;
+}
+
+.sct-heading h1 {
+  font-size: 6em;
+}
+
+.sct-heading h4 {
+  font-size: 2.25em;
+}
+
+.sct-whats-on {
+  height: 650px;
+  text-align: center
+}
+
+.sct-whats-on h3 {
+  height: 200px;
+  padding-top: 50px;
+  font-size: 2.75em;
+  text-decoration-line: underline;
+  text-underline-position: under;
+  text-decoration-color: #00B172;
+}
+
+.sct-whats-on img {
+  height: 125px;
+}
+
+.sct-whats-on div > div {
+  position: relative;
+  width: 26%;
+  display: inline-block;
+  margin: 0 3%;
+  vertical-align: top;
+}
+
+.sct-whats-on div > div h5 {
+  color: #00B172;
+  font-size: 2.25em;
+  font-weight: bolder;
+}
+
+.sct-whats-on div > div p {
+  font-size: 1.5em;
+  padding: 10px 70px 0 70px;
+}
+
+.sct-green {
+  background-color: #00B172;
+  color: #FFF;
+  margin: 40px;
+  position: relative;
+  padding: 100px;
+  vertical-align: bottom;
+}
+
+.sct-green div{
+  position: relative;
+  display: inline-block;
+}
+
+.sct-green-text {
+  width: 50%;
+  position: relative;
+  vertical-align: bottom;
+}
+
+.sct-green-text > h4 {
+  font-size: 2.5em;
+  text-decoration-line: underline;
+  text-underline-position: under;
+}
+
+.sct-green-text > h5 {
+  font-size: 2em;
+  margin-top: 25px;
+  font-weight: bold;
+}
+
+.sct-green-text > p {
+  font-size: 1.5em;
+  padding: 15px 200px 0 0;
+}
+
+
+.sct-green-image {
+  float: right;
+  position: relative;
+  vertical-align: bottom;
+}
+
+.sct-green-image > img{
+  height: 700px;
+}
+
+.sct-green .logo {
+  position: absolute;
+  width: 150px;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+}
+
