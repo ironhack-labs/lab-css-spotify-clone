@@ -10,7 +10,6 @@ White: #FFF
 *{
   margin: 0;
   padding: 0;
-  font-size: 
  }
 
 body {
@@ -18,7 +17,7 @@ body {
   font-family: 'Palanquin', sans-serif;
 }
 
-nav {
+.menubar {
   background-color: #FFF;
   height: 100px;
   color: #1A1A1A;
@@ -27,28 +26,64 @@ nav {
   z-index: 100;
 }
 
-nav img {
-  width: 230px;
-  position: absolute;
-  top:0;
-  bottom:0;
-  margin: auto;
+.spotify-logo {
   float: left;
+  position: relative;
   padding-left: 20px;
 }
 
-nav ul {
-  width: 60%; 
+.spotify-logo img {
+  position: absolute;
+  width: 230px;
+  top: 50px;
+  transform: translateY(-50%);
+}
+
+.spotify-logo img:hover {
+  animation-name: up-down;
+  animation-duration: 1.5s;
+  animation-timing-function: ease;
+}
+
+@keyframes up-down {
+  0% {
+    top: 40px;
+  }
+
+  50% {
+    top: 60px;
+  }
+
+  100% {
+    top: 50px;
+  }
+}
+
+.menubar div+div {
+  float: right;
+  position: relative;
+  top: 50%;
+  transform: translateY(-50%);
+  width: 70%;
+  text-align: right;
+}
+
+.menubar div ul {
   padding-right: 20px;
   float: right;
 }
 
-nav li {
+.menubar div li {
   list-style-type: none;
   text-align: center;
   display: inline;
-  margin: 0 10px 0 0;
+  margin: 0 40px 0 0;
   font-size: 1.5em;
+}
+.menubar div li a {
+  text-decoration: none;
+  color: #1A1A1A;
+
 }
 
 .sct-heading {
