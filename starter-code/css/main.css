@@ -6,3 +6,183 @@ Green: #00B172
 White: #FFF
 
 */
+
+body {
+  box-sizing: border-box;
+  margin: 0;
+  font-family: sans-serif;
+  font-size: 14px;
+  padding: 0;
+}
+
+h2 {
+  font-size: 2.0rem;
+  padding-bottom: 5px;
+  display:inline-block;
+  margin: 40px auto;
+}
+
+h3 {
+  font-size: 1.3rem;
+}
+
+/* NAV */
+
+.nav-bar {
+  position: fixed;
+  height: 80px;
+  width: 100%;
+  top: 0;
+  background-color: white;
+  z-index: +1;
+}
+
+#nav-bar-logo {
+  float: left;
+  height: 60px;
+  position: absolute;
+  top: 50%;
+  transform: translateY(-50%);
+  padding: 0 25px;
+}
+
+#nav-bar-ul {
+  float: right;
+  text-align: center;
+  padding: auto 40px;
+  top: 50%;
+  position: absolute;
+  right: 0;
+  transform: translateY(-50%);
+  margin: 0;
+}
+
+#nav-bar-ul li {
+  display: inline-block;
+  font-size: 1.1rem;
+  padding: 0 30px;
+} 
+
+#nav-bar-ul a {
+  text-decoration: none;
+  color: black;
+}
+
+#nav-bar-ul a:hover {
+  color: grey;
+}
+
+/* HEADER */
+
+header {
+  background-image: url("../images/landing.jpg");
+  background-repeat: no-repeat;
+  background-size: cover;
+  height: 1000px;
+  text-align: center;
+  color: white;
+}
+
+header .content-header {
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%);
+}
+
+header .content-header h1 {
+  font-size: 6rem;
+  font-weight: lighter;
+  margin: 0 auto 50px auto;
+}
+
+header .content-header p {
+  font-size: 1.7rem;
+  margin: 5px;
+}
+
+.section1 {
+  padding: 0 100px;
+  text-align: center;
+}
+.section1 h2 {
+  border-bottom: 4px solid #00B172;
+}
+
+/* SECTION 1 */
+
+.section1 article {
+  float: left; 
+  width: 30%;
+  text-align: center;
+  margin: 50px auto;
+}
+
+.section1 article p{
+  padding: 0 160px;
+  font-size: 1.1rem;
+}
+
+.section1 .art-middle {
+  width: 40%;
+}
+
+.icons {
+  height: 150px;
+  width: 150px;
+  margin: auto;
+}
+
+.icons img {
+  max-width: 100%;
+}
+
+.section1 h3 {
+  color: #00B172;
+}
+
+/* SECTION 2 */
+
+.section2 {
+  clear: both;
+  margin: 100px;
+  background-color: #00B172;
+  position: relative;
+  height: 600px;
+  color: white;
+  padding: 0 150px;
+}
+
+.section2 .info {
+  float: left;
+  width: 50%;
+  padding: 50px 0;
+  box-sizing: border-box;
+}
+
+.section2 .img-app {
+  float: right;
+  padding: 100px 0;
+  height: 430px;
+}
+
+.section2 .img-app img {
+  width: 300px;
+  max-height: 100%;
+}
+
+.section2 .img-center {
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+}
+
+.section2 h2 {
+  border-bottom: 4px solid white;
+}
+
+.section2 p {
+  width: 30%;
+  margin: 25px 0;
+}
