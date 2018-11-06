@@ -46,6 +46,32 @@ h3 {
   padding: 0 25px;
 }
 
+#nav-bar-logo:hover {
+  animation-name: jump;
+  animation-duration: 0.5s;
+  animation-iteration-count: infinite;
+}
+
+/* logo animation */
+
+@keyframes jump {
+  0% {
+    top: 50%;
+  }
+  25% {
+    top: 45%;
+  }
+  50% {
+    top: 50%;
+  }
+  75% {
+    top: 55%
+  }
+  100% {
+    top: 50%;
+  }
+}
+
 #nav-bar-ul {
   float: right;
   text-align: center;
@@ -65,7 +91,7 @@ h3 {
 
 #nav-bar-ul a {
   text-decoration: none;
-  color: black;
+  color: #1A1A1A;
 }
 
 #nav-bar-ul a:hover {
@@ -101,6 +127,8 @@ header .content-header p {
   margin: 5px;
 }
 
+/* SECTION 1 */
+
 .section1 {
   padding: 0 100px;
   text-align: center;
@@ -108,8 +136,6 @@ header .content-header p {
 .section1 h2 {
   border-bottom: 4px solid #00B172;
 }
-
-/* SECTION 1 */
 
 .section1 article {
   float: left; 
@@ -121,6 +147,7 @@ header .content-header p {
 .section1 article p{
   padding: 0 160px;
   font-size: 1.1rem;
+  color: #1A1A1A;
 }
 
 .section1 .art-middle {
