@@ -6,3 +6,142 @@ Green: #00B172
 White: #FFF
 
 */
+ body {
+   font-family: sans-serif;
+   margin: 0px;
+ }
+
+.nav-bar {
+  position: fixed;
+  height: 90px;
+  width: 100%;
+  background: #FFF;
+}
+
+.nav-bar img {
+  float: left;
+  height: 70px;
+  width: 240px;
+  padding-top: 10px;
+  padding-left: 10px;
+}
+
+.nav-bar img::hover{
+  padding-top: 0px;
+  transition-property: padding-top;
+  transition-duration: 2s;
+  transition-timing-function:linear;
+  transition-delay: 1s;
+  
+}
+
+.nav-bar a {
+  float: right;
+  padding-left: 20px;
+  padding-right: 20px;
+  text-decoration: none;
+  color: black;
+  font-size: 23px;
+  padding-top: 30px;
+}
+
+.header {
+  background: url("../images/landing.jpg");
+  background-size: cover;
+  color: #FFF;
+  text-align: center;
+  width: 100%;
+  height: 800px;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+}
+
+.header h1{
+  font-size: 82px;
+ }
+
+.header h3 {
+  font-size: 31px;
+}
+
+h2 {
+  text-align: center;
+  font-size: 31px;
+  padding-top: 80px;
+  text-decoration: underline;
+  text-decoration-color: #00B172;
+}
+
+.features {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-around;
+  height: 450px;
+  align-items: center;
+  font-size: 25px;
+  text-align: center;
+}
+
+.features h3{
+  
+  color: #00B172;
+}
+
+.features p {
+  width: 300px;
+}
+
+.features img {
+
+  height: 80px;
+  width: 80px;
+}
+
+.features div{
+  display: flex;
+  flex-direction: column;
+  justify-content: space-around;
+  align-items: center;
+}
+
+
+.green-zone {
+  background: #00B172;
+  display: flex;
+  flex-direction: row;
+  justify-content: space-around;
+  align-items: center;
+  text-align: left;
+  color: #FFF;
+  margin: 20px;
+}
+
+.green-zone h3 {
+  font-size: 38px;
+  text-decoration: underline;
+  text-decoration-color: #FFF;
+}
+
+.green-zone h4{
+  font-size: 31px;
+}
+
+.green-zone p {
+  font-size: 23px;
+}
+
+.green-zone-text {
+  width: 40%;
+}
+
+
+#logo {
+  height: 100px;
+  width: 100px;
+}
+
+#screenshot {
+  height: 600px;
+  width: 300px;
+}
