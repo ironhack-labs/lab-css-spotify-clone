@@ -6,15 +6,29 @@ Green: #00B172
 White: #FFF
 
 */
-@import url('https://fonts.googleapis.com/css?family=Open+Sans');
+@import url('https://fonts.googleapis.com/css?family=Open+Sans:300,400,600,700');
+
 body{
     margin:0;
     padding:0;
     font-family: 'Open Sans', sans-serif;
+    font-weight: 300;
+}
+li{
+    list-style:none;
+}
+ul{
+    padding:0;
+}
+.content{
+ margin-top:98px;
 }
 .fx{
     display:flex;
 
+}
+.fx--col{
+    flex-direction: column;
 }
 .alg--ctr{
     align-items: center;
@@ -22,19 +36,129 @@ body{
 .jst--btw{
     justify-content: space-between;
 }
+.jst--ctr{
+    justify-content: center;
+}
+
 
 .navbar{
     width:100%;
     position:fixed;
+    top:0;
+    background-color: #fff;
+    z-index: 1;
 }
 .navbar__items{
-    width: 300px;
-    list-style:none;
+    max-width: 400px;
+    width: 100%;
+    margin-right: 20px;
+}
+.navbar__item{
+    margin-left: 20px;
+}
+.navbar__link{
+    text-decoration: none;
+    color: #000;
+    font-size:1.2rem;
 }
 .logo img{
-    width: 100px;
+    width: 200px;
 }
 .header{
-    position: relative;
-    top:200px;
+    background-image: url('../images/landing.jpg');
+    background-size:100% 840px;
+    background-repeat: no-repeat;
 }
+.header__box{
+    max-width: 840px;
+    width: 100%;
+    margin: 0 auto;
+    min-height: 840px;
+    color:#fff;
+}
+.header__box h1{
+font-size: 4.5rem;
+margin: 0 0 18px 0;
+font-weight: 600;
+text-align: center;
+}
+.header__box p{
+    font-size: 1.7rem;
+    font-weight: 300;
+    margin:0;
+    text-align: center;
+}
+.about{
+    margin-top: 40px;
+    margin-bottom: 40px;
+}
+.container{
+    max-width: 1080px;
+    width: 100%;
+    margin: 0 auto;
+}
+.subtitle{
+    font-size: 2rem;
+    border-bottom: 4px solid #00B172;
+    width: fit-content; 
+}
+.txt--algn{
+    text-align: center;
+    margin:0 auto;
+}
+.whte{
+    color:#fff;
+    border-color: #fff;
+    margin: 0;
+}
+.benefits{
+   padding: 0;
+}
+.benefits__item{
+    width: 30%;
+    margin-top:50px;
+}
+.benefits img{
+    width: 130px;
+    height: 100px;
+}
+ h4{
+    font-size:1.7rem;
+    font-weight: 800;
+    color: #00B172;
+    margin: 10px auto 30px auto;
+}
+.benefits p{
+    font-size:1.3rem;
+    width: 230px;
+    margin:0;
+    text-align: center;
+}
+.resources{
+    background-image: url('../images/spotify-icon-white.png');
+    background-repeat: no-repeat;
+    background-size: 120px 120px;
+    background-position: 50% 50%;
+    background-color: #00B172;
+    margin-bottom: 30px;
+}
+.resource__box{
+    padding: 60px 0 20px 70px;
+}
+.resource__items h4{
+   margin: 35px 0;
+}
+.resource__items p{
+    width: 290px;
+    color:#fff;
+    font-size:1.2rem;
+    margin: 0;
+}
+.resources figure{
+ margin: 0;
+}
+.resources img{
+    width: 300px;
+    margin:100px 70px 0 0;
+}
+
