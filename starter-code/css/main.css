@@ -7,14 +7,16 @@ White: #FFF
 
 */
 body {
+    width: 1240px;
+    height: 100%;
     margin: 0;
     border: 0;
     padding: 0;
-    background-color: grey;
+    background-color: rgb(255, 255, 255);
     font-family: 'Open Sans', sans-serif;
 }
 
-#one nav{
+#one nav {
     position: fixed;
     width: 100%;
     height: 100px;
@@ -24,26 +26,24 @@ body {
     color: black;
 }
 
-#one img{
+#one img {
     float: left;
     margin: 15px 0px 0px 30px;
     text-align: left;
     max-width: 200px;
     max-height: 150px;
-    width: auto;
-    height: auto;
 }
 
-#one ul{
+#one ul {
     float: right;
     width: 500px;
     position: absolute;
-    padding:0px;
+    padding: 0px;
     margin: 25px 10px 0px 980px;
-    list-style:none;
+    list-style: none;
 }
 
-#one ul li{
+#one ul li {
     display: inline;
     text-decoration: none;
 }
@@ -58,8 +58,188 @@ body {
 
 #two header {
     clear: left;
-    margin: 30px;
+    padding: 100px 100px 0px 100px;
+    margin: 0;
+    background-image: url("../images/landing.jpg");
+    background-repeat: no-repeat;
+    background-size: 100%;
+    position: static;
     width: 100%;
+    height: 800px;
+}
+
+#maintext {
+    float: left;
+    width: 100%;
+    margin: 170px 300px 0px 0px;
+    text-align: center;
+}
+
+#maintext h1 {
+    font-size: 70px;
+    color: white;
+}
+
+#maintext p {
+    padding: 0px 250px 0px 250px;
+    font-size: 30px;
+    color: white;
+}
+
+#three {
+    clear: both;
+    margin: 0px;
+    width: 1430px;
     height: 600px;
-    background-color: rgb(0, 15, 99);
+    background-color: white;
+}
+
+#title {
+    float: left;
+    width: 100%;
+    margin: 0px 0px 80px 0px;
+    color: black;
+    font-size: 35px;
+    text-align: center;
+    font-weight: bold;
+}
+
+#title hr {
+    width: 340px;
+    display: block;
+    margin-top: 0.1em;
+    margin-bottom: 0.5em;
+    border-style: solid;
+    border-width: 2px;
+    color: #4da55a;
+}
+
+#songs {
+    width: 360px;
+    float: left;
+    padding: 0px 60px 0px 60px;
+    text-align: center;
+}
+
+#songs img {
+    max-width: 150px;
+    max-height: 100px;
+}
+
+#songs h1 {
+    font-size: 30px;
+    color: #4da55a;
+}
+
+#songs p {
+    font-size: 25px;
+    padding: 0px 40px 0px 40px;
+    font-weight: lighter;
+}
+
+#music {
+    width: 360px;
+    float: left;
+    padding: 0px 60px 0px 60px;
+    text-align: center;
+}
+
+#music img {
+    max-width: 150px;
+    max-height: 100px;
+}
+
+#music h1 {
+    font-size: 30px;
+    color: #4da55a;
+    font-weight: 900;
+}
+
+#music p {
+    font-size: 25px;
+    padding: 0px 40px 0px 40px;
+    
+}
+
+#stream {
+    width: 360px;
+    float: left;
+    padding: 0px 50px 0px 60px;
+    text-align: center;
+}
+
+#stream img {
+    max-width: 150px;
+    max-height: 100px;
+}
+
+#stream h1 {
+    font-size: 30px;
+    color: #4da55a;
+    font-weight: 900;
+}
+
+#stream p {
+    font-size: 25px;
+    padding: 0px 40px 0px 40px;
+}
+
+#four {
+    clear: both;
+    width: 1360px;
+    height: 900px;
+    margin: 0px 20px 0px 40px;
+    background-color: #4da55a; 
+}
+
+#bottomblock h1 {
+    float: left;
+    width: 600px;
+    margin: 0px;
+    padding: 80px 30px 20px 50px;
+    color: white;
+    font-size: 40px;
+    text-align: center;
+    font-weight: bold;
+}
+
+#bottomblock hr {
+    width: 500px;
+    display: block;
+    margin-top: 0.2em;
+    margin-bottom: 0.5em;
+    border-style: solid;
+    border-width: 2px;
+    color: #ffffff;
+}
+
+#features {
+    clear: left;
+    float: left;
+    width: 400px;
+    height: 700px;
+    margin: 0px 20px 0px 100px;
+    color: #ffffff
+    
+}
+
+#features h2 {
+    font-size: 32px;
+}
+
+#features p {
+    font-size: 25px;
+}
+
+#logowhite img {
+    float: left;
+    margin: 180px 120px 0px 80px;
+    max-width: 200px;
+    max-height: 150px;
+}
+
+#west img {
+    float: left;
+    max-width: 350px;
+    max-height: 650px;
 }
