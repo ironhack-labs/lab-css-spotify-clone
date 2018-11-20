@@ -6,3 +6,182 @@ Green: #00B172
 White: #FFF
 
 */
+
+html {
+    font-family: 'Open Sans', sans-serif;
+  }
+
+body{
+    margin: 0;
+}
+
+
+@keyframes myslidein {
+    0% {
+      margin: 5px 0 5px 0;
+     
+    }
+  
+    100% {
+      margin: 3px 0 7px 0;
+     
+    }
+}
+
+.jump{
+    margin: 5px 0 5px 0;
+    
+}
+
+.navbar {
+    overflow: hidden;
+    background-color:  #FFF;
+    position: fixed; 
+    top: 0; 
+    width: 100%; 
+    height: 60px;
+}
+
+
+.jump:hover {
+    margin: 5px 0 5px 0;
+    animation-name: myslidein;
+    animation-duration: 1.5s; 
+    animation-timing-function: ease-out; 
+    animation-delay: 0;
+    animation-direction: alternate;
+    animation-iteration-count: infinite;
+    animation-fill-mode: none;
+    animation-play-state: running;
+}
+
+.capture {
+    background: url("../images/landing.jpg") 0 0 no-repeat;
+    background-size: cover;
+    height: 880px;
+    width: auto;
+    margin: 57px 0 50px 0;
+    padding: 10px 30px 0 30px;
+}
+
+h1{
+    color: white;
+    font-size: 50px;
+    text-align: center;
+    margin-top: 300px;
+    font-weight: 500;
+}
+
+h2{
+    text-align: center;
+    color: #1A1A1A;
+}
+
+.underline{
+    padding-bottom: 5px;
+    border-bottom: 4px solid;
+}
+
+.underlinex {
+    border-bottom-color: #00B172;
+  }
+
+
+
+p{
+    color: white;
+    font-size: 20px;
+    text-align: center;
+    font-weight: 500;
+    margin: 0;
+    line-height: 30px;
+}
+
+ul{
+    display: inline-block;
+    list-style-type: none;
+    margin: 5px 0 10px 60%;
+    
+}
+
+a {
+    text-decoration: none;
+    font-weight: bold;
+    color: #1A1A1A;
+}
+
+.clear{
+    clear: both;
+}
+
+li{
+    float: right;
+    font-size: 15px;
+    text-align: center;
+    margin: 0 10px;
+}
+
+.third{
+    float: left;
+    width: 25%;
+    margin: 0 4%;
+    text-align: center;
+}
+
+h3{
+    color: #00B172;
+}
+
+
+
+.picture{
+    float: right;
+    background-color: #00B172;
+    margin: 0 0 0 0;
+}
+
+.kanye{
+    float: left;
+    width: 30%;
+    background-color: #00B172;
+    color: #FFF;
+    margin: 0 0 0 0; 
+   
+}
+
+.container{
+    margin: 0 auto;
+    padding: 75px 0;
+}
+
+.kanye h2{
+    color:  #FFF;
+    text-align: left;
+    margin: 0;
+}
+
+.kanye h3{
+    color:  #FFF;
+    text-align: left;
+}
+
+
+.third p{
+    color: #1A1A1A;
+}
+
+.last{
+    background-color: #00B172;
+    width: auto;
+    height: 400px;
+    padding: 80px;
+    margin: 80px 40px 40px 40px;
+}
+
+.picinside{
+    float: left;
+    margin: 160px 80px 0 180px;
+}
+
+
+
