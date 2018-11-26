@@ -1,3 +1,39 @@
+@import url("https://fonts.googleapis.com/css?family=Source+Sans+Pro:300,400,600,700");
+
+/* From https://github.com/daneden/animate.css/ */
+@keyframes bounce {
+  from,
+  20%,
+  53%,
+  80%,
+  to {
+    -webkit-animation-timing-function: cubic-bezier(0.215, 0.61, 0.355, 1);
+    animation-timing-function: cubic-bezier(0.215, 0.61, 0.355, 1);
+    -webkit-transform: translate3d(0, 0, 0);
+    transform: translate3d(0, 0, 0);
+  }
+
+  40%,
+  43% {
+    -webkit-animation-timing-function: cubic-bezier(0.755, 0.05, 0.855, 0.06);
+    animation-timing-function: cubic-bezier(0.755, 0.05, 0.855, 0.06);
+    -webkit-transform: translate3d(0, -30px, 0);
+    transform: translate3d(0, -30px, 0);
+  }
+
+  70% {
+    -webkit-animation-timing-function: cubic-bezier(0.755, 0.05, 0.855, 0.06);
+    animation-timing-function: cubic-bezier(0.755, 0.05, 0.855, 0.06);
+    -webkit-transform: translate3d(0, -15px, 0);
+    transform: translate3d(0, -15px, 0);
+  }
+
+  90% {
+    -webkit-transform: translate3d(0, -4px, 0);
+    transform: translate3d(0, -4px, 0);
+  }
+}
+
 /*
 Colors:
 
@@ -6,3 +42,183 @@ Green: #00B172
 White: #FFF
 
 */
+
+* {
+  font-family: "Source Sans Pro", sans-serif;
+  font-weight: 400;
+  color: #1a1a1a;
+  margin: 0;
+  padding: 0;
+}
+
+nav {
+  background-color: #fff;
+  width: 100%;
+  position: fixed;
+  z-index: 100;
+}
+
+nav > img {
+  margin: 25px 65px;
+  float: left;
+  width: 325px;
+}
+
+nav > img:hover {
+  -webkit-animation-name: bounce;
+  animation-name: bounce;
+  -webkit-transform-origin: center bottom;
+  transform-origin: center bottom;
+  animation-duration: 4s;
+}
+
+nav ul {
+  margin-top: 60px;
+  text-align: right;
+  list-style-type: none;
+}
+
+nav li {
+  display: inline;
+}
+
+nav a {
+  margin-right: 45px;
+  font-size: 35px;
+  color: #1a1a1a;
+  text-decoration: none;
+}
+
+h2 {
+  margin-top: 80px;
+  margin-left: 38%;
+  font-size: 60px;
+  font-weight: 600;
+}
+
+h2 hr {
+  margin-bottom: 70px;
+  width: 40%;
+  border: 0;
+  color: rgb(156, 221, 191);
+  background-color: rgb(26, 178, 107);
+  height: 9px;
+}
+
+.header {
+  width: 100%;
+  height: 1450px;
+  position: relative;
+  background-image: url("../images/landing.jpg");
+  background-position: center;
+  background-size: cover;
+}
+
+.header h1 {
+  position: absolute;
+  top: 525px;
+  left: 25%;
+
+  font-weight: 600;
+  font-size: 125px;
+  color: white;
+}
+.header p {
+  position: absolute;
+  top: 725px;
+  left: 25%;
+  font-weight: 300;
+  font-size: 50px;
+  color: white;
+  text-align: center;
+}
+
+.whatsOn {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+  align-items: stretch;
+}
+
+.whatsOnItem {
+  padding: 50px;
+  margin: 50px;
+  text-align: center;
+  width: 350px;
+}
+
+.whatsOnItem div {
+  height: 200px;
+}
+
+.whatsOnItem img {
+  width: 48%;
+  height: auto;
+}
+
+.whatsOnItem h3 {
+  margin-bottom: 40px;
+  font-weight: 700;
+  font-size: 40px;
+  color: rgb(11, 187, 125);
+}
+
+.whatsOnItem p {
+  font-weight: 300;
+  font-size: 36px;
+}
+
+.player {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+  margin: 0 3% 3%;
+  padding: 115px 140px 50px;
+  background-color: rgb(26, 178, 107);
+  background-image: url("../images/spotify-icon-white.png");
+  background-position: center;
+  background-size: 200px;
+  background-repeat: no-repeat;
+  align-items: center; 
+}
+
+
+.player div {
+  width: 50%;
+}
+
+.player h2 {
+  margin-top: 0px;
+  margin-left: 0px;
+  font-size: 58px;
+  font-weight: 600;
+  text-align: left;
+  color: white;
+}
+
+.player h2 hr {
+  margin-bottom: 70px;
+  width: 89%;
+  border: 0;
+  color: white;
+  background-color: white;
+  height: 4px;
+}
+
+.player h3 {
+  font-size: 48px;
+  font-weight: bold;
+  margin-bottom: 40px;
+  color: white;
+}
+
+.player p {
+  font-size: 35px;
+  font-weight: 300;
+  margin-bottom: 40px;
+  color: white;
+}
+.player img {
+  width: 64%;
+  float: right;
+}
