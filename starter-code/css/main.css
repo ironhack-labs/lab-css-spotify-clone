@@ -7,71 +7,69 @@ White: #FFF
 
 */
 
-* {
-    margin: 0;
-    padding: 0;
-    border: 0;
-}
-
-body {
-    background-color: #fff;
-}
+body {}
 
 .menu {
-    background-color: #fff;
-    position: fixed;
-    width: 100%;
-    padding: 5px;
+    /* border: 2px solid red; */
+    display: flex;
+    /* flex-wrap: wrap; */
+    align-items: center;
 }
 
-.menu ul {
-    list-style-type: none;
-    float: right;
-    margin-right: 20px;
+.menu .img-logo-menu {
+    width: 150px;
+    height: 50px;
+}
+
+.menu li:first-child {
+    margin-right: 50%;
 }
 
 .menu li {
-    display: inline-block;
-    padding-top: 30px;
-    padding-bottom: 30px;
-    margin: 0 10px;
+    /* border: 2px solid green; */
+    margin-right: auto;
+    list-style: none;
 }
 
 .menu a {
-    text-decoration: none;
+    background: #fff;
     color: #1A1A1A;
+    display: block;
+    text-decoration: none;
+    padding: 15px;
 }
 
-.logo {
-    width: 210px;
-    height: 60px;
-    float: left;
-    padding: 10px 10px 10px 20px;
+.second-content {
+    display: flex;
 }
 
-.logo-background {
-    background-image: url(../images/spotify-logo.png);
-    background-repeat: no-repeat;
-    background-size: 200px;
-    height: 100%;
-    /* position: relative; */
+.second-content .img-landing {
+    flex: auto;
 }
 
-.section-one {
-    background-image: url("../images/landing.jpg");
+.second-content .img-landing img {
     width: 100%;
-    height: 900px;
-    color: #ffffff;
-    background-size: 100%;
-    background-repeat: no-repeat;
+    position: absolute;
 }
 
-.section-one h1 {
-    background-color: red;
+.text-landing {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    position: relative;
+    text-align: center;
+    color: #fff;
+    background: rgba(0, 0, 0, 0.1);
 }
 
-.section-two img {
-    width: 100%;
-    /* margin: 0 auto; */
-    /* text-align: center; */
+.text-landing h1 {
+    font-size: 5em;
+    font-family: 'Noto Sans SC', sans-serif;
+    font-weight: 900;
+}
+
+.text-landing h2 {
+    font-size: 2em;
+    font-family: 'Noto Sans SC', sans-serif;
+    font-weight: 200;
 }
