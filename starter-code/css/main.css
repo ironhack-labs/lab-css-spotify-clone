@@ -9,10 +9,15 @@ White: #FFF
 
 body {}
 
+.first-content {
+    position: fixed;
+    width: 100%;
+    z-index: 100;
+    background-color: #fff;
+}
+
 .menu {
-    /* border: 2px solid red; */
     display: flex;
-    /* flex-wrap: wrap; */
     align-items: center;
 }
 
@@ -26,7 +31,6 @@ body {}
 }
 
 .menu li {
-    /* border: 2px solid green; */
     margin-right: auto;
     list-style: none;
 }
@@ -41,35 +45,49 @@ body {}
 
 .second-content {
     display: flex;
+    justify-content: center;
+    align-items: center;
 }
 
 .second-content .img-landing {
     flex: auto;
+    /* padding: 10px; */
 }
 
-.second-content .img-landing img {
+.img-landing img {
+    position: relative;
     width: 100%;
-    position: absolute;
 }
 
 .text-landing {
-    display: flex;
     flex-direction: column;
-    justify-content: center;
-    position: relative;
-    text-align: center;
+    align-items: center;
+    position: absolute;
+    width: 100%;
     color: #fff;
-    background: rgba(0, 0, 0, 0.1);
+    display: flex;
+    font-family: 'Noto Sans SC', sans-serif;
 }
 
 .text-landing h1 {
     font-size: 5em;
-    font-family: 'Noto Sans SC', sans-serif;
-    font-weight: 900;
 }
 
 .text-landing h2 {
     font-size: 2em;
-    font-family: 'Noto Sans SC', sans-serif;
-    font-weight: 200;
+    text-align: center;
+}
+
+.third-content {
+    
+}
+
+#title-under {
+    padding-bottom: 4px;
+    border-bottom: 4px solid green;
+}
+
+.third-content .icons {
+    display: flex;
+    /* justify-content: space-around; */
 }
