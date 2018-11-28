@@ -51,7 +51,6 @@ body {}
 
 .second-content .img-landing {
     flex: auto;
-    /* padding: 10px; */
 }
 
 .img-landing img {
@@ -78,16 +77,31 @@ body {}
     text-align: center;
 }
 
-.third-content {
-    
-}
+.third-content {}
 
 #title-under {
     padding-bottom: 4px;
     border-bottom: 4px solid green;
 }
 
-.third-content .icons {
+.icons {
+    border: 2px solid red;
     display: flex;
+    align-items: center;
+    /* justify-content: center; */
+    /* width: 100%; */
+    /* overflow: auto; */
     /* justify-content: space-around; */
+}
+
+.icons div {
+    text-align: center;
+    /* display: flex; */
+    /* justify-content: center; */
+    border: 2px solid green;
+    /* width: 30%; */
+}
+
+.icons div img {
+    width: 30%;
 }
