@@ -7,7 +7,9 @@ White: #FFF
 
 */
 
-body {}
+body {
+    font-family: 'Noto Sans SC', sans-serif;
+}
 
 .first-content {
     position: fixed;
@@ -65,7 +67,6 @@ body {}
     width: 100%;
     color: #fff;
     display: flex;
-    font-family: 'Noto Sans SC', sans-serif;
 }
 
 .text-landing h1 {
@@ -74,34 +75,68 @@ body {}
 
 .text-landing h2 {
     font-size: 2em;
+    font-weight: 100;
     text-align: center;
 }
 
 .third-content {}
 
-#title-under {
+.third-content h1 {
+    width: 275px;
+    margin: 0 auto;
     padding-bottom: 4px;
-    border-bottom: 4px solid green;
+    border-bottom: 4px solid #00C16B;
+    margin-top: 100px;
+    margin-bottom: 100px;
 }
 
 .icons {
-    border: 2px solid red;
     display: flex;
     align-items: center;
-    /* justify-content: center; */
-    /* width: 100%; */
-    /* overflow: auto; */
-    /* justify-content: space-around; */
 }
 
 .icons div {
     text-align: center;
-    /* display: flex; */
-    /* justify-content: center; */
-    border: 2px solid green;
-    /* width: 30%; */
 }
 
 .icons div img {
     width: 30%;
+}
+
+.icons h2 {
+    color: #00C16B;
+}
+
+.icons h3 {
+    font-weight: 100;
+}
+
+.green-background {
+    color: #fff;
+    background-color: #00C16B;
+    width: 96%;
+    margin: 0 2% 2% 2%;
+    align-content: center;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+}
+
+.features h1 {
+    width: 405px;
+    padding-bottom: 4px;
+    border-bottom: 4px solid #fff;
+}
+
+.features h3 {
+    font-weight: 100;
+}
+
+.print {
+    text-align: center;
+    margin: 5% 0;
+}
+
+.print img {
+    width: 300px;
 }
