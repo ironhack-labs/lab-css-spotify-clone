@@ -6,3 +6,126 @@ Green: #00B172
 White: #FFF
 
 */
+
+html, body {
+    margin: 0;
+}
+
+h1, h2, h3 {
+    font-family: 'Poppins', sans-serif;
+    font-weight: bold;
+}
+
+h1 {
+    font-size: 5em;
+    padding: 20% 0 0 0;
+}
+
+h2 {
+    font-size: 1.6em;
+}
+
+.whats-on h3 {
+    color: #00B172;
+}
+
+p {
+    font-family: 'Poppins', sans-serif; 
+}
+
+nav {
+    width: 100%;
+    height: 3.5em;
+    display: flex;
+    justify-content: space-between;
+}
+
+.logo-img {
+    height: 75px;
+    padding: 17px 40px 0 40px;
+}
+
+.logo:hover {
+    animation: bounce 1s;
+}
+
+@keyframes bounce {
+	0%, 20%, 60%, 100% {
+		-webkit-transform: translateY(0);
+		transform: translateY(0);
+	}
+
+	40% {
+		-webkit-transform: translateY(-20px);
+		transform: translateY(-20px);
+	}
+
+	80% {
+		-webkit-transform: translateY(-10px);
+		transform: translateY(-10px);
+	}
+}
+
+ul {
+    padding: 15px 50px 5px 0;
+}
+
+li {
+    display: inline-block;
+    text-decoration: none;
+    padding: 0.7em;
+}
+
+.main-text {
+    background-image: url("../images/landing.jpg");
+    background-size: cover;
+    background-repeat: no-repeat;
+    color: white;
+    text-align: center;
+    height: 700px;
+    width: 100%;
+}
+
+.whats-container{
+    display:flex;
+    align-items:center;
+    justify-content: space-evenly;
+}
+
+.whats-on h2 {
+    padding: 0 40% 3px 40%;
+    border-bottom: 2px solid #00B172;
+    width: 240px;
+}
+
+div > div > img {
+    max-width: 150px;
+}
+
+.box {
+    padding: 15% 10%;
+}
+
+.kanye {
+    background-color: #00B172;
+    margin: 5%;
+    color: #FFF;
+    display: flex;
+}
+
+.kanye-text {
+    padding: 5% 0 5% 10%;
+}
+
+.kanye-text h2 {
+    padding: 0 0 3px 0;
+    border-bottom: 2px solid #FFF;
+    width: 350px;
+}
+
+.kanye-img {
+    padding: 5% 10%;
+    height: 500px;
+    max-width: 50%;
+}
+
