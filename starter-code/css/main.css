@@ -6,3 +6,120 @@ Green: #00B172
 White: #FFF
 
 */
+
+* {
+  font-family: 'Montserrat', sans-serif;
+  margin: 0;
+}
+
+.logo {
+  max-height: 3rem;
+  height: 100%;
+  float: left;
+  margin: 1rem 1rem 1rem 1rem;
+}
+
+@keyframes bounce {
+  from { transform: translate3d(0, 0, 0);     }
+  to   { transform: translate3d(0, 0.5rem, 0); }
+}
+
+.logo:hover {
+  animation: bounce 1s;
+  animation-direction: alternate;
+  animation-iteration-count: infinite;
+}
+
+nav {
+  position: fixed;
+  width: 100%;
+  background-color: white;
+  top: 0;
+  z-index: 1;
+}
+
+nav ul {
+  float: right;
+  margin-top: 2rem;
+}
+
+nav ul li {
+  display: inline;
+  list-style: none;
+  margin-right: 2rem;
+}
+
+nav ul li a {
+  text-decoration: none;
+  color: black;
+}
+
+.first-section {
+  margin-top: 5rem;
+  height: 35rem;
+  position: relative;
+  background-image: url(../images/landing.jpg);
+  background-size: cover;
+  width: 100%;
+}
+
+.first-section .bg-image-div {
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  color: #FFF;
+  text-align: center;
+}
+
+h1 {
+  font-size: 3rem;
+  margin-bottom: 1rem;
+}
+
+.second-section {
+  height: 30rem;
+  padding-top: 3rem;
+}
+
+.second-section h2 {
+  position: absolute;
+  left: 50%;
+  transform: translate(-50%);
+  border-bottom: 0.2rem solid #00B172;
+  font-size: 2rem;
+}
+
+.second-section div {
+  position: relative;
+  float: left;
+  top: 30%;
+}
+
+.second-section div img {
+  width: 10rem;
+}
+
+.second-section-div1, .second-section-div2, .second-section-div3 {
+  width: 30%;
+  margin-right: 3%;
+  text-align: center;
+}
+
+.second-section-div1 img, .second-section-div2 img, .second-section-div3 img {
+  margin-bottom: 1rem;
+}
+
+.second-section-div1 h3, .second-section-div2 h3, .second-section-div3 h3 {
+  color: #00B172;
+  margin-bottom: 1rem;
+}
+
+.second-section-div1 {
+  left: 5%;
+  top:
+}
+
+.third-section {
+  background-color: #00B172;
+}
