@@ -6,3 +6,155 @@ Green: #00B172
 White: #FFF
 
 */
+* {
+    padding: 0;
+    margin: 0;
+}
+
+.spotify-logo {
+    width: 132px;
+}
+.spotify-logo > img {
+    width:100%;
+}
+
+header {
+    padding: 20px;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+}
+nav {
+    width: 30%;
+}
+
+nav ul {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: baseline;
+}
+
+nav ul li {
+    list-style-type: none;
+}
+
+.banner {
+    background-image: url('../images/landing.jpg');
+    width: 100%;
+    height: 884px;
+    background-size: cover;
+    background-repeat: no-repeat;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+.banner > h1 {
+    color: white;
+    font-size: 4rem;
+    margin-bottom: 20px;
+}
+
+.banner > h3 {
+    color: white;
+    font-size: 3rem;
+}
+
+article {
+    padding: 30px 20px;
+}
+article .tit {
+    margin-bottom: 30px;
+    font-size: 3.2rem;
+    font-weight: bold;
+    text-align: center;
+}
+article .h2 {
+    
+    border-bottom: 3px solid #00bc45;
+}
+.box-container {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+}
+
+.box {
+    max-width: 300px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+.box > img {
+    width: 50%;
+    margin-bottom: 30px;
+}
+.box .green {
+    color: #00bc45;
+    font-size: 2.5rem;
+    text-align: center;
+    margin: 15px 0;
+}
+
+.box p {
+    font-size: 2rem;
+    text-align: center;
+}
+
+.green-box {
+    padding: 100px 30px;
+    background-color: #00bc45;
+    display:flex;
+    flex-direction: row;
+    justify-content: space-around;
+}
+.column-left p {
+    font-size: 2rem;
+    max-width: 50%;
+}
+
+.column-left {
+    display:flex;
+    flex-direction: row;
+    justify-content: space-around;
+    padding: 0 100px;
+}
+
+
+
+.column-left .tit-white {
+    font-size: 3.5rem;
+    font-weight: bold;
+    border-bottom: 3px solid white;
+}
+.column-left h3 {
+    margin: 50px 0;
+}
+
+.column-left .bold {
+    font-size: 3rem;
+    font-weight: bold;
+    margin: 30px 0;
+}
+
+.green-box > * {
+    color: white;
+}
+
+.green-box .spoti-box {
+    width: 120px;
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    margin-right: 50px;
+}
+.green-box .spoti-box img {
+    width: 100%;
+}
+
+.column-right img {
+    max-height: 700px;
+}
+
