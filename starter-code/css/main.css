@@ -35,7 +35,19 @@ nav {
 nav img {
     height: 80px; 
     padding: 10px 30px;
-    vertical-align: middle;
+}
+
+@keyframes MoveUpDown {
+    0%, 100% {
+        padding: 10px 30px;
+    }
+    50% {
+        padding: 0px 30px 20px 30px;
+    }
+}
+
+nav img:hover {
+    animation: MoveUpDown 0.5s linear;
 }
 
 #menu {
