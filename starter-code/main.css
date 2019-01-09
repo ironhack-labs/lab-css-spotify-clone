@@ -1,0 +1,166 @@
+/*
+Colors:
+
+Text: 1A1A1A
+Green: #00B172
+White: #FFF
+
+*/
+
+@import url('https://fonts.googleapis.com/css?family=Roboto+Condensed:700|Roboto:100,300,700');
+
+body {
+  margin: 0;
+  padding: 0;
+  border: 8px solid rgba(0, 0, 0, 0.8);
+  font-family: Roboto;
+}
+
+h1 {
+  font-size: 60px;
+}
+
+h2 {
+  font-size: 30px;
+}
+
+h3 {
+  font-size: 22px;
+}
+
+nav{
+  padding: 20px 2% 20px 2%;
+  display: flex;
+  justify-content: space-between;
+}
+
+nav div {
+  margin-top: 2%;
+  width: 35%;
+  flex-wrap: wrap;
+}
+
+nav a{
+  padding-left: 10%;
+  text-decoration: none;
+  color: rgba(128, 128, 128, 0.8);
+}
+
+.spot-logo-trans {
+  width: 18%;
+  height: 18%;
+}
+
+.spot-logo-trans:hover {
+  animation-name: logo-animation;
+  animation-duration: 0.2s;
+  animation-iteration-count: infinite;
+}
+
+@keyframes logo-animation {
+  0% {
+  
+  }
+  50% {
+    position: relative;
+    bottom: 20px;
+  }
+  100% {
+    position: relative;
+    bottom: 15px;
+  }
+}
+
+header {
+  height: 900px;
+}
+
+header img {
+  width: 100%;
+}
+
+.header-align {
+  text-align: center;
+  position: relative;
+  bottom: 550px;
+  color: white;
+}
+
+.p-font {
+  font-size: 24px;
+  padding: 0 30% 0 30%;
+  color: rgba(245, 245, 245, 0.8); 
+}
+
+main>h2 {
+  text-align: center;
+  text-decoration: underline;
+  text-decoration-color: #00B172;
+  text-underline-position: under;
+}
+
+main img {
+  width: 28%;
+}
+
+main>div {
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+}
+
+.main-flex {
+  flex-direction: column;
+  justify-content: space-evenly;
+  text-align: center;
+  margin: 5% auto 2% auto;
+}
+
+.main-h3-format {
+  color: #00B172;
+}
+
+.main-p-format {
+  color: rgba(128, 128, 128, 0.6);
+  font-size: 18px;
+  padding-left: 30%;
+  padding-right: 30%;
+}
+
+section {
+  background-color: #00B172;
+  border: 40px solid white;
+  color: white;
+  height: 500px;
+}
+
+section h2 {
+  text-decoration: underline;
+  text-underline-position: under;
+}
+
+section>div {
+  display: flex;
+}
+
+.section-flex1 {
+  width: 800px;
+  padding-left: 5%;
+  padding-top: 2%;
+}
+
+.section-img1 {
+  width: 30%;
+  padding-top: 50%;
+  padding-left: 15%;
+}
+
+.section-img2 {
+  width: 70%;
+  padding-top: 10%;
+}
+
+.section-p {
+  padding-right: 35%; 
+  color: rgba(245, 245, 245, 0.8);
+}
