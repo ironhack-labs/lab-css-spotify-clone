@@ -27,7 +27,7 @@ body, html {
 
 nav {
     background-color: #FFF;
-    position: fixed;
+    /* position: fixed; */
     top: 0;
     height: 120px;
     margin-top: 20px;
@@ -71,10 +71,74 @@ header {
     margin-top: 120px;
     color: #FFF;
     background-image: url("../images/landing.jpg");
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: 0 0;
+    padding-top:50px;
+    position:relative;
+    text-align: center;
+}
+
+header h1 {
+    font-size: 5rem;
+}
+
+header p {
+    font-size: 1.6rem;
+    
+}
+.text-box {
+    padding: 170px;
 }
 
 /***SECTION 1***/
-.box-container img{
-    width: 10%;
+
+.box-container {
+    width: 100%;
+    margin: 0 auto;
+    padding: 0 5%;
 }
-    
+
+.box-container img {
+    height: 100px;
+    display: inline-block;
+    vertical-align: middle;
+
+}
+
+.box-container h3 {
+    font-size: 2.5rem;
+    text-align: center;
+    border-bottom: 4px solid #00B172;
+    padding-bottom: 8px;  
+}
+
+.box-container h4{
+     color: #00B172;
+     font-size: 2rem;
+     font-weight: bold;
+ }
+
+ .box-container p {
+     font-size: 1.6rem;
+ }
+ 
+.col {
+    float: left;  
+    text-align: center;
+}
+
+.col-middle {
+    margin: 0 5%;
+}
+
+.col-3 {
+    width: 30%;
+}
+
+/***SECTION 2***/
+
+.icon img {
+    width: 10%;
+    background-color: red;
+}
