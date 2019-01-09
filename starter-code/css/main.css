@@ -6,3 +6,152 @@ Green: #00B172
 White: #FFF
 
 */
+
+@import url('https://fonts.googleapis.com/css?family=Montserrat:200,300,400,500,700,900');
+
+*{
+  box-sizing: border-box;
+}
+
+body{
+  font-family: 'Montserrat', sans-serif;
+  color: #1A1A1A;
+  margin: 0;
+}
+
+h2{
+  font-size: 2em;
+}
+
+h3{
+  font-size: 1.5em;
+}
+
+nav{
+  padding: 30px 50px;
+  position: relative;
+}
+
+nav img{
+  width: 200px;
+  float: left;
+  position: absolute;
+  transition: all 0.6s ease-out;
+  bottom: 30px;
+}
+
+nav img:hover{
+  bottom: 40px;
+  transition: all 0.6s ease-out;
+}
+nav ul{
+  float: right;
+}
+
+nav li{
+  list-style: none;
+  display: inline;
+  margin-left: 10px;
+  font-size: 1.3em;
+}
+
+.clearfix{
+  clear: both;
+}
+
+.hero-image{
+  background-image: url('../images/landing.jpg');
+  background-size: cover;
+  color: #fff;
+  font-weight: 300;
+  padding: 175px 0;
+}
+
+.hero-text{
+  width: 60%;
+  margin: auto;
+  text-align: center;
+}
+
+.hero-image h1{
+  font-size: 5em;
+}
+
+.hero-image p{
+  font-size: 1.5em;
+  text-align: center;
+}
+
+.blurbs{
+  padding: 50px 7%;
+  text-align: center;
+}
+
+.blurbs h2{
+  border-bottom: 4px solid #00B172;
+  display: inline-block;
+  margin-bottom: 50px;
+}
+
+.blurb{
+  width: 33%;
+  float: left;
+}
+
+.blurb-img{
+  height: 150px;
+}
+
+.blurb img{
+  width: 150px;
+}
+
+.blurb h3{
+  color: #00B172;
+}
+
+.blurb p{
+  font-size: 1.2em;
+}
+
+.green-section{
+  background-color: #00B172;
+  margin: 2%;
+  padding: 70px 5%;
+  color: white;
+  text-orientation: center;
+  position: relative;
+}
+
+.green-section .text-section{
+  width: 40%;
+  float: left;
+}
+
+.green-section h2{
+  border-bottom: 2px solid #fff;
+  display: inline-block;
+}
+
+.green-section h3{
+  margin: 50px 0;
+}
+
+.green-section p{
+  font-size: 1.4em;
+  width: 70%;
+  font-weight: 200;
+}
+
+.spotify-icon{
+  position: absolute;
+  left: 45%;
+  bottom: 45%;
+  width: 10%;
+}
+
+.spotify-app{
+  width: 40%;
+  float: right;
+  margin-top: 50px;
+}
