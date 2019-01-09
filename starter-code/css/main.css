@@ -6,3 +6,75 @@ Green: #00B172
 White: #FFF
 
 */
+
+@import url('https://fonts.googleapis.com/css?family=Open+Sans|Source+Sans+Pro');
+
+* {
+    box-sizing: border-box;
+}
+
+body, html {
+    padding: 0px;
+    margin: 0px;
+
+    font-family: 'Source Sans Pro', sans-serif;
+    font-family: 'Open Sans', sans-serif;
+    color: 1A1A1A;
+    
+}
+
+/***NAV***/
+
+nav {
+    background-color: #FFF;
+    position: fixed;
+    top: 0;
+    height: 120px;
+    margin-top: 20px;
+}
+
+nav img {
+    width: 20%;
+    float: left; 
+    vertical-align: middle;
+    margin-left: 30px;
+}
+
+#menu {
+    float: right;
+    width: 25%;
+}
+
+#menu > li {
+    display: inline-block;
+    padding:  0 5px;
+}
+
+#menu > li > a {
+    text-decoration: none;
+    color: #1A1A1A;
+    vertical-align: middle;
+}
+
+#menu > li > a:hover {
+    color:#00B172;
+}
+
+.clearfix {
+    clear: both;
+
+}
+
+/***HEADER***/
+
+header {
+    margin-top: 120px;
+    color: #FFF;
+    background-image: url("../images/landing.jpg");
+}
+
+/***SECTION 1***/
+.box-container img{
+    width: 10%;
+}
+    
