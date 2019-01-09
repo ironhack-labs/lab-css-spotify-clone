@@ -1,8 +1,190 @@
-/*
-Colors:
 
-Text: 1A1A1A
-Green: #00B172
-White: #FFF
+body{
+    line-height: 1.5;
+    font-family: sans-serif;
+    font-weight: 400;
+}
 
-*/
+/* Navbar */
+
+.navbar{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    height: 4rem;
+}
+
+.navbar-logo{
+    width: 8rem;
+    margin: 0.5rem 1rem;
+}
+
+.navbar-list{
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+}
+
+.list-item{
+    list-style: none;
+    padding-right: 0.5rem;
+    padding-left: 0.5rem;
+}
+
+.navbar-anchor{
+    text-decoration: none;
+    color: black;
+    font-size: 1.2rem;
+}
+
+/* 1st section */
+
+.main-section{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    color: #FFF;
+    background-image: url("../images/landing.jpg");
+    background-size: cover;
+    height: 40rem;
+}
+
+.main-title{
+    font-size: 4rem;
+    text-align: center;
+    margin-bottom: 1rem;
+}
+
+.title-exp{
+    font-size: 1.5rem;
+    text-align: center;
+    margin: 0 auto; 
+    width: 60%;
+}
+
+
+/* 2nd section */
+
+.second-section{
+    margin: 1rem auto 3rem auto;
+}
+
+.second-section h2{
+    text-align: center;
+    font-size: 2rem;
+    height: 5rem;
+}
+
+.second-section-title{
+    text-align: center;
+    border-bottom: 3px solid #00B172;
+
+}
+
+.main-container{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+}
+
+.icon-container{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    width: 20%;
+}
+
+.icon-container p{
+    font-size: 1.2rem;
+    text-align: center;
+}
+
+.icons{
+    width: 5rem;
+    height: 5rem;
+}
+
+.icon-title{
+    font-size: 1.3rem;
+    font-weight: bold;
+    color: #00B172;
+}
+
+/* 3rd section */
+
+.third-section{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    color: white;
+    height: 40rem;
+}
+
+.third-section h2{
+    font-size: 2rem;
+    margin-left: 2rem;
+}
+
+.third-section-title{
+    border-bottom: 3px solid #FFF;
+}
+
+.third-section .main-container{
+    flex-direction: column;
+    background-color: #00B172;
+    height: 95%;
+    width: 95%;
+}
+
+.content-area{
+    display: flex;
+    flex-direction: row;
+    margin: auto 2rem 3rem 2rem;
+}
+
+.container{
+    display: flex;
+    flex-direction: column;
+    font-size: 1.3rem;
+}
+
+.container h3{
+    margin-top: 0.5rem;
+    margin-bottom: 0;
+}
+
+.container p{
+    font-size: 1.2rem;
+}
+
+.left-section{
+    width: 40%;
+    margin-right: 2.5%;
+}
+
+.middle-section{
+    display: flex;
+    width: 15%;
+    justify-content: center;
+    align-items: center;
+    margin: auto 2.5%;
+}
+
+.right-section{
+    width: 35%;
+    margin-left: 2.5%;
+    margin-right: 0;
+}
+
+.spotify-icon{
+    height:7rem;
+    width: 7rem;
+}
+
+.spotify-app{
+    height:100%;
+    width: 100%;
+}
