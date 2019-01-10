@@ -6,3 +6,129 @@ Green: #00B172
 White: #FFF
 
 */
+body {
+    font-family: sans-serif;
+    margin: 0;
+}
+
+nav {
+    height: 40px;
+    color: #1A1A1A;
+    display: flex;
+    flex-flow: row wrap;
+    justify-content: space-between;
+    align-items: center;
+    padding: 5px;
+    font-size: 14px;
+    position: fixed;
+    background-color: white;
+    width: 100%;
+}
+nav > img {
+    height: 90%;
+    padding-left: 10px
+}
+
+nav > ul {
+    list-style: none;
+    margin: 0;
+    display: flex;
+    align-items: center
+}
+
+ul > li > a {
+    text-decoration: none;
+    display: block;
+    padding: 15px;
+    color: #1A1A1A;
+}
+
+main {
+    display: flex;
+    flex-direction: column;
+}
+.top {
+    background-image: url("../images/landing.jpg");
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+    color: white;
+    text-align: center;
+    width: 100%;
+    height: calc(100vh - 40px);
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+}
+h1 {
+    font-weight: 400;
+    font-size: 40px;
+}
+h2 {
+    font-weight: 600;
+    font-size: 20px;
+    border-bottom: 2px solid;
+    border-color: #00B172;
+}
+h3 {
+    font-size: 16px;
+}
+p {
+    font-weight: 100;
+    font-size: 14px;
+}
+
+.whatsOnSpotify {
+    width: 100%;
+    margin: 0;
+    padding: 0;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+.whatsParts {
+    display: flex;
+    justify-content: space-between;
+    width: 100%;
+}
+.whatsParts img {
+    height: 50px;
+}
+
+.parts {
+    display:flex;
+    flex-direction: column;
+    align-items: center;
+    width: 30%;
+}
+.parts h3 {
+    color: #00B172;
+}
+.parts p {
+    text-align: center;
+}
+
+.kanyeWest {
+    background-color: #00B172;
+    background-image: url("../images/spotify-icon-white.png");
+    background-size: 75px;
+    background-repeat: no-repeat;
+    background-position: center;
+    margin: 10px;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.aboutKanye {
+    color: white;
+    padding: 20px 50px;
+}
+
+.kanyeWest img {
+    height: 300px;
+    padding: 20px 50px;
+}
