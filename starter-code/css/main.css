@@ -6,3 +6,116 @@ Green: #00B172
 White: #FFF
 
 */
+body {
+  margin: 0;
+  font-family: "Thasadith", sans-serif;
+}
+
+nav {
+  display: flex;
+  justify-content: space-between;
+  padding: 10px;
+}
+
+nav > img {
+  height: 50px;
+}
+
+nav > ul {
+  text-decoration: none;
+  display: flex;
+}
+
+nav > ul > li {
+  display: block;
+  padding-left: 20px;
+}
+
+main {
+  background-image: url("../images/landing.jpg");
+  background-size: cover;
+  background-repeat: no-repeat;
+  width: 100%;
+  height: calc(100vh - 60px);
+  color: white;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+
+main > h1 {
+  font-size: 50px;
+}
+
+main > span {
+  width: 400px;
+  text-align: center;
+  font-size: 120%;
+}
+
+.info {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  /* height: 250px; */
+}
+
+.info-header > h2 {
+  border-bottom: 3px solid #00b172;
+}
+
+.info-main {
+  display: flex;
+  text-align: center;
+  width: 80%;
+  /* height: 100%; */
+  justify-content: space-around;
+}
+
+.info-box {
+  padding: 20px 0;
+  width: 200px;
+}
+
+.info-box > img {
+  height: 50px;
+}
+
+.info-box > h3 {
+  color: #00b172;
+  font-weight: bold;
+}
+
+.kanye-west {
+  background-color: #00b172;
+  background-image: url("../images/spotify-icon-white.png");
+  background-repeat: no-repeat;
+  background-size: 10%;
+  background-position: center;
+  margin: 20px;
+  padding: 40px;
+  color: white;
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+}
+
+.kanye-left > h2 {
+  border-bottom: 3px solid white;
+}
+
+.kanye-main {
+  display: flex;
+  flex-direction: column;
+  justify-content: flex-start;
+}
+
+.kanye-box {
+  width: 200px;
+}
+
+.kanye-right > img {
+  width: 200px;
+}
