@@ -1,3 +1,48 @@
+
+html, body, div, span, applet, object, iframe,
+h1, h2, h3, h4, h5, h6, p, blockquote, pre,
+a, abbr, acronym, address, big, cite, code,
+del, dfn, em, img, ins, kbd, q, s, samp,
+small, strike, strong, sub, sup, tt, var,
+b, u, i, center,
+dl, dt, dd, ol, ul, li,
+fieldset, form, label, legend,
+table, caption, tbody, tfoot, thead, tr, th, td,
+article, aside, canvas, details, embed, 
+figure, figcaption, footer, header, hgroup, 
+menu, nav, output, ruby, section, summary,
+time, mark, audio, video {
+	margin: 0;
+	padding: 0;
+	border: 0;
+	font-size: 100%;
+	font: inherit;
+	vertical-align: baseline;
+}
+/* HTML5 display-role reset for older browsers */
+article, aside, details, figcaption, figure, 
+footer, header, hgroup, menu, nav, section {
+	display: block;
+}
+body {
+	line-height: 1;
+}
+ol, ul {
+	list-style: none;
+}
+blockquote, q {
+	quotes: none;
+}
+blockquote:before, blockquote:after,
+q:before, q:after {
+	content: '';
+	content: none;
+}
+table {
+	border-collapse: collapse;
+	border-spacing: 0;
+}
+
 /*
 Colors:
 
@@ -6,3 +51,85 @@ Green: #00B172
 White: #FFF
 
 */
+html {
+  color: #1A1A1A;
+}
+
+header {
+  position: fixed;
+  top: 0;
+  background: white;
+  width: 100%;
+  height: 100px;
+}
+
+header > img , ul {
+  height: inherit;
+  position: 15px;
+}
+
+header img {
+  float: left;
+  margin-left: 30px;
+  
+}
+
+#jump {
+  transition-duration: all 10s;
+  /* NO SE PORQUE NO ME HACE CASO CON LA DURACIÓN DE LA TRANSICIÓN*/
+}
+
+#jump:hover {
+  display: block;
+  cursor: pointer;
+  transform: rotate(20deg);
+  transition-duration: all 10s;
+}
+
+header ul{
+  font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+  font-size: 26px;
+  height: auto;
+  float: right;
+  position: relative;
+  margin-top: 30px;
+  margin-right: 40px;
+}
+
+header > ul > li{
+  display: inline-block;
+  margin: 10px;
+}
+
+.section1 {
+  color: white;
+  width: 100%;
+  height: auto;
+  background-image: url(../images/landing.jpg);
+  background-size: cover;
+  margin-top: 100px;
+
+}
+
+.section1 h1 {
+  font-family: Verdana, Geneva, Tahoma, sans-serif;
+  font-size: 50px;
+  font-weight: bold;
+  padding-top: 350px;
+  text-align: center;
+}
+
+.section1 > p {
+  padding-top: 5px;
+  font-size: 25px;
+  font-weight: 100;
+  text-align: center;
+}
+
+#firstChild {
+  padding-top: 100px;
+}
+
+.section1 > p:nth-last-child(1){
+  padding-bottom: 350px;
+}
