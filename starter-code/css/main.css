@@ -6,3 +6,155 @@ Green: #00B172
 White: #FFF
 
 */
+
+body {
+  display: flex;
+  flex-direction: column;
+  background: darkgray;
+  margin: 50px;
+}
+
+body > * {
+  background: white;
+}
+
+.nav {
+ display: flex;
+ flex-flow: row nowrap;
+ align-items: center;
+ justify-content: space-between;
+ height: 100px;
+}
+
+.header-logo > img {
+  height: 60px;
+  margin: 0 0 0 30px;
+}
+
+.header-links {
+  margin: 0 20px 0 0;
+}
+
+.header-links > a {
+  color: black;
+  text-decoration: none;
+  margin: 10px;
+  font-family: sans-serif;
+  font-size: 20px;
+}
+
+.main {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  background-image: url(/starter-code/images/landing.jpg);
+  background-repeat: no-repeat;
+  background-size: 100%;
+  height: 700px;
+  color: white;
+  font-family: helvetica;
+}
+
+.main > h1 {
+  letter-spacing: 1px;
+  font-size: 80px;
+  font-weight: 600;
+  margin: 0;
+  padding: 0;
+}
+
+.main > p {
+  font-size: 30px;
+  text-align: center;
+  font-weight: 300;
+}
+
+.about-section {
+  display: flex;
+  height: auto;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  font-family: helvetica;
+}
+
+.whats-on > h2 {
+  font-weight: 600;
+  font-size: 35px;
+  border-bottom: 3px solid #00B172;
+  padding: 0 0 4px 0;
+  margin: 50px;
+}
+
+.main-features {
+  display: flex;
+  flex-direction: row;
+  height: 400px;
+  justify-content: center;
+  align-items: flex-start;
+}
+
+.main-features span {
+  width: 25%;
+  margin: 0 40px;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+.main-features h3 {
+  color: #00B172;
+  text-align: center;
+  font-size: 30px;
+}
+
+.main-features p {
+  font-size: 20px;
+  text-align: center;
+  font-weight: 300;
+}
+
+.main-features > span > img {
+  height: 120px;
+}
+
+.features-div {
+  display: flex;
+  height: 650px;
+  color: white;
+  background-color: #00B172;
+  margin: 0 40px 40px;
+  padding: 70px;
+  background-image: url(/starter-code/images/spotify-icon-white.png);
+  background-size: 150px;
+  background-repeat: no-repeat;
+  background-position: center;
+  justify-content: space-between;
+}
+
+.features-content {
+  
+}
+.features-content > h2 {
+  display: inline;
+  border-bottom: 4px solid white;
+  padding: 0 0 5px 0;
+  margin: 50px 0;
+  font-size: 40px;
+  font-weight: 500;
+}
+
+.features-content > p {
+  width: 60%;
+  font-size: 20px;
+  font-weight: 400;
+  margin: 30px 0;
+}
+
+.features-image {
+  width: 40%;
+}
+.features-image > img {
+  height: 100%;
+}
