@@ -6,3 +6,193 @@ Green: #00B172
 White: #FFF
 
 */
+
+@import url('https://fonts.googleapis.com/css?family=Roboto:300,400,500');
+
+* {
+    box-sizing: border-box;
+  }
+
+body {
+    font-family: 'Roboto', sans-serif;
+    color: #1a1a1a;
+}
+
+a {
+    text-decoration: none;
+    color: #1a1a1a;
+}
+
+
+nav {
+    position: fixed;
+    background: #ffffff;
+    height: 5.5rem;
+    width: 100%;
+    top: 0;
+    z-index: 2;
+}
+
+.nav-bar {
+    float: right;
+    padding: 2rem 0 2rem 0;
+}
+
+.logo {
+    height: 4em;
+    margin-top: 0.6rem;
+    margin-left: 3rem;
+    float: left;
+}
+
+nav li {
+    display: inline;
+    margin-right: 2rem;
+    font-size: 1.5rem;
+    font-weight: 200;
+}
+
+header {
+    position: relative;
+    background-image: url(../images/landing.jpg);
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: cover;
+    height: 150vh;
+    text-align: center;
+}
+
+.heading {
+    position: absolute;
+    text-align: center;
+    top: 40%;
+    left: 25%;
+    margin: 0 auto;
+}
+
+.sub-heading {
+    position: absolute;
+    text-align: center;
+    top: 55%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    color: #fff;
+    font-size: 1.8rem;
+    line-height: 2rem;
+    font-weight: 100;
+}
+
+h1 {
+    color: #fff;
+    margin-bottom: 2rem;
+    font-size: 4.5rem;
+    font-weight: 500;
+}
+
+h2 {
+    display: inline-block;
+    font-size: 2.1rem;
+    font-weight: bold;
+    padding-bottom: 0.3rem;
+    border-bottom: 0.2rem solid #00B172;
+}
+
+h3 {
+    font-size: 1.8rem;
+    font-weight: bold;
+    color: #00B172;
+}
+
+p {
+    font-size: 1.5rem;
+    font-weight: lighter;
+  }
+
+.col {
+    float: left;
+}
+
+.col-33 {
+    width: 33%;
+}
+
+.col-60 {
+    width: 60%;
+}
+
+.col-40 {
+    width: 40%;
+}
+
+#introduction {
+    text-align: center;
+}
+
+.title {
+    margin: 3rem 0 5rem 0;
+}
+
+.col-33 > img {
+    height: 7em;
+}
+
+.col-33 > h3 {
+    margin: 1rem 0 2rem 0;
+}
+
+.col-33 > p {
+    padding-left: 5rem;
+    padding-right: 5rem;
+}
+
+.col-40 > img {
+    float: right;
+    height: 40em;
+    margin-top: 7rem;
+    margin-right: 5rem;
+}
+
+.col-60 > h3 {
+    color: white;
+    margin-bottom: 2.5rem;
+    margin-top: 2.5rem;
+}
+
+.col-60 > p {
+    color:white;
+    font-size: 1.3rem;
+    line-height: 2rem;
+    width: 50%;
+}
+
+.col-60 > h2 {
+    color: white;
+    font-size: 2.2rem;
+    padding-bottom: 0.3rem;
+    border-bottom: 0.2rem solid #fff;
+    margin-bottom: 2.5rem;
+}
+
+#final {
+    position: relative;
+    background-color: #00B172;
+    height: 50rem;
+    margin: 22rem 2rem 2rem 2rem;
+}
+
+.clearfix {
+    overflow: auto;
+  }
+
+  .adjust {
+      margin-top: 5rem;
+      margin-left: 5rem;
+      max-width: 50%;
+  }
+
+#final > img {
+    position: absolute;
+    height: 8em;
+    top: 45%;
+    left: 40%;
+}
