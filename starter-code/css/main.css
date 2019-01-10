@@ -6,3 +6,145 @@ Green: #00B172
 White: #FFF
 
 */
+
+html,body {
+  margin: 0;
+  padding: 0;
+  font-family: "Montserrat",'Open Sans', 'Helvetica Neue', sans-serif;
+}
+
+nav {
+  background: #FFF;
+  top: 0;
+  position: fixed;
+  height: 80px;
+  width:100%;
+}
+
+ul {
+  float:right;
+  margin: 30px 30px 0 0;
+}
+
+ li {
+   display: inline;
+   font-size: 20px;
+   margin-right: 15px;
+   font-weight: 300;
+ }
+
+.logo-spotify{
+  height: 60px;
+  float: left;
+  margin: 10px 0 0 30px;
+  transition: height 1s;
+}
+
+.logo-spotify:hover{
+  height: 63px;
+  padding-bottom: 2px;
+  /*box-sizing: border-box;*/
+}
+
+header{
+  clear: both;
+  background: url(../images/landing.jpg) 0 0 no-repeat;
+  background-size: cover;
+  height: 1000px;
+  color: white;
+  padding: 350px 0;
+  box-sizing: border-box;
+}
+
+h1{
+  font-size: 80px;
+  font-weight: normal;
+  text-align: center;
+}
+
+
+h2{
+  font-size: 40px;
+  text-decoration: underline #00B172;
+}
+
+p{
+  text-align: center;
+  font-size: 25px;
+  font-weight: 200;
+}
+
+#information{
+  height: 400px;
+  display: inline-block;
+  width: 33%;
+  text-align: center;
+}
+
+#information > img {
+  height: 120px;
+  width:auto;
+}
+
+.center{
+  text-align: center;
+  margin-bottom: 130px;
+  margin-top: 70px;
+}
+
+h3 {
+  font-size: 30px;
+  color: #00B172;
+}
+#green-section {
+  clear: both;
+  background:  #00B172;
+  width: 100%;
+  height:800px;
+  /*border: 15px solid white; el borde no me funciona bien, me deforma toda la sección*/
+}
+
+.green-section-image{
+  float: right; 
+  width: 200px;
+  margin-top: 25px;
+  margin-right: 350px;
+}
+.green-section-text{
+  font-size: 20px;
+  float: left;
+  height: 600px;
+  width: 700px;
+  margin-left: 60px;
+  padding: 0 0 0 60px;
+  box-sizing: border-box;
+}
+.green-section-text p, .green-section-text h3{
+text-align: left;
+color: white;
+}
+
+.spotify{
+  position: absolute;
+  width: 150px;
+  height: 150px;
+  padding-top: 12.5em;
+  padding-left: 30em;
+}
+
+.kanye-image{
+  height: 550px;
+}
+
+#kanye{
+  text-align: left;
+  font-size: 40px;
+  color: #FFF;
+  text-decoration-color: #FFF;
+  margin-left: 120px;
+  padding-top: 70px;
+  box-sizing: border-box;
+}
+
+
+
