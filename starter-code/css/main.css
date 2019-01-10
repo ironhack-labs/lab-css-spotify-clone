@@ -6,3 +6,136 @@ Green: #00B172
 White: #FFF
 
 */
+html {
+    height: 100%;
+    margin: 0;
+    padding: 0;
+}
+body {
+    color: #1A1A1A;
+    font-family: sans-serif;
+    height: 100%;
+    margin: 0;
+    padding: 0;
+    overflow-x: hidden;
+}
+header {
+    background: #fff;
+    height: 50px;
+    padding: 15px;
+    position: fixed;
+    width: 100%;
+}
+.spotify-logo {
+    float: left;
+    height: 50px;
+    max-width: 100%;
+    object-fit: cover;
+}
+nav {
+    float: right;
+}
+nav ul {
+    display: flex;
+    list-style: none;
+    padding-left: 0;
+}
+nav ul li {
+    cursor: pointer;
+    font-size: 18px;
+    padding: 0 20px;
+}
+nav ul li:nth-child(4) {
+    padding-right: 30px;
+}
+.main {
+    background: url(../images/landing.jpg);
+    background-size: cover;
+    background-position: center;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    height: 100%;
+}
+.main h2, .main p {
+    color: #fff;
+    display: flex;
+    margin: 0 auto;
+}
+.main h2 {
+    font-size: 64px;
+    font-weight: lighter;
+    max-width: 600px;
+    padding: 20px;
+}
+.main p {
+    font-size: 24px;
+    max-width: 600px;
+    text-align: center;
+}
+.what h2 {
+    border-bottom: 3px solid #00B172;
+    font-size: 36px;
+    margin: 40px auto;
+    padding-bottom: 10px;
+    width: 330px;
+}
+.icons-container {
+    display: flex;
+    justify-content: space-around;
+    width: 100%;
+}
+.icon {
+    margin: 40px 0;
+    text-align: center;
+    width: 245px;
+}
+.icon img {
+    width: 120px;
+}
+.icon h3 {
+    color: #00B172;
+    font-size: 26px;
+}
+.icon p {
+    font-size: 20px;
+    width: 245px;
+}
+.bottom-container {
+    background-color: #00B172;
+    background-image: url(../images/spotify-icon-white.png);
+    background-repeat: no-repeat;
+    background-size: 130px;
+    background-position: center;
+    color: #fff;
+    display: flex;
+    justify-content: space-between;
+    margin: 40px;
+}
+.bottom-left {
+    margin: 0 80px;
+    padding: 50px 00 0;
+}
+.bottom-left h2 {
+    border-bottom: 3px solid #fff;
+    font-size: 30px;
+    font-weight: 300;
+    padding-bottom: 10px;
+    width: 385px;
+}
+.bottom-left h3 {
+    font-size: 26px;
+    padding: 20px 0 0 0;
+}
+.bottom-left p {
+    font-size: 22px;
+    padding: 18px 0;
+    width: 340px;
+}
+.bottom-right {
+    margin: 80px;
+    padding: 50px 0 0 0;
+}
+.bottom-right img{
+    max-width: 350px;
+}
