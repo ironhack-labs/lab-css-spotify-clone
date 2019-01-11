@@ -6,3 +6,148 @@ Green: #00B172
 White: #FFF
 
 */
+* {
+  font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+  margin: 0;
+  padding: 0;
+  font-size: 18px;
+}
+
+.flex {
+  display: flex
+}
+.nav-bar {
+  margin: .5rem 1rem;
+  height: 3.5rem; 
+  justify-content: space-between
+}
+.brand {
+  height: 80%;
+  width: 14rem;
+  margin-top: .2rem;
+  background-image: url(../images/spotify-logo.png);
+  background-size: contain;
+  background-position: center;
+  background-repeat: no-repeat
+}
+.menu {
+  align-items: center
+}
+.menu a {
+  margin-left: 1rem;
+  text-decoration: none;
+  font-size: 1.2em
+}
+header {
+  height: calc(100vh - 4.5rem);
+  background-image: url(../images/landing.jpg);
+  background-size: cover;
+  background-position: center;
+  background-repeat: no-repeat;
+  justify-content: center;
+  align-items: center
+}
+.header-text {
+  color: white;
+  flex-flow: column wrap;
+  align-items: center;
+}
+.header-text h1 {
+  font-size: 5em;
+  margin-bottom: 1rem
+}
+.header-text p {
+  font-size: 2em;
+  text-align: center
+}
+section {
+  margin: 2rem;
+  text-align: center
+}
+.section-1 {
+  height:50vh;
+  align-items: center;
+  justify-content: space-around
+}
+section h1 {
+  text-decoration: underline;
+  text-decoration-color: #00B172;
+  font-size: 3em;
+  margin-top: 4rem
+}
+.box {
+  flex-flow: column wrap;
+  align-items: center;
+  justify-content: space-around
+}
+.box h3 {
+  color: #00B172;
+  margin-top: .5rem;
+  font-size: 1.8em
+}
+.box p {
+  margin-top: .5rem;
+  font-size: 1.2em
+}
+.music-icon {
+  height: 6rem;
+  width: 6rem;
+  background-image: url(../images/music-icon.png);
+  background-size: cover;
+  background-position: center;
+  background-repeat: no-repeat
+}
+.hq-icon {
+  height: 100px;
+  width: 100px;
+  background-image: url(../images/high-quality-icon.png);
+  background-size: cover;
+  background-position: center;
+  background-repeat: no-repeat
+}
+.devices-icon {
+  height: 100px;
+  width: 100px;
+  background-image: url(../images/devices-icon.png);
+  background-size: cover;
+  background-position: center;
+  background-repeat: no-repeat
+}
+.section-2 {
+  color: white;
+  height: 100vh;
+  background-color: #00B172;
+  background-image: url(../images/spotify-icon-white.png);
+  background-size: 100px 100px;
+  background-position: center;
+  background-repeat: no-repeat;
+  justify-content: space-around;
+  align-items: center
+}
+.card {
+  color: white;
+  text-align: left;
+  flex-flow: column wrap
+}
+.app-img {
+  border-radius: 2rem;
+  height: 600px;
+  width: 400px;
+  background-image: url(../images/spotify-app.jpg);
+  background-size: contain;
+  background-position: center;
+  background-repeat: no-repeat
+}
+.card h1 {
+  font-size: 3em;
+  text-decoration: underline;
+  margin-bottom: 2rem;
+  margin-top: -5rem
+}
+.card h3 {
+  font-size: 1.8em;
+  margin: 2rem 0
+}
+.card p {
+  font-size: 1.4em
+}
