@@ -6,3 +6,142 @@ Green: #00B172
 White: #FFF
 
 */
+
+body {
+  margin: 0;
+  font-family: Arial, Helvetica, sans-serif
+}
+
+nav {
+  display: flex;
+  background-color: #FFF;
+  justify-content: space-between;
+  align-items: center;
+  padding: 15px 20px 10px 42px;
+  font-size: 24px;
+  line-height: 1.5;
+}
+
+.left > img {
+  height: 75px;
+}
+
+nav > .right > a {
+  color: #1A1A1A;
+  text-decoration: none;
+  margin: 15px;
+}
+
+main {
+  display: flex;
+  height: 750px;
+  background: url("../../starter-code/images/landing.jpg") no-repeat center center;
+  background-size: cover;
+  justify-content: center;
+  align-items: center;
+}
+
+.content > h1 {
+  font-size: 66px;
+}
+
+.content p {
+  font-size: 26px;
+  line-height: 1.5;
+}
+
+main > .content {
+  text-align: center;
+  color: #FFF;
+ }
+
+.smallHeader {
+  display: flex;
+  justify-content: center;
+}
+
+.smallHeader > h2 {
+    border-bottom: 4px solid #00B172;
+    padding: 8px;
+    font-size: 36px;
+}
+
+.features > div > img {
+  height: 120px;
+}
+
+.features {
+  display: flex;
+  justify-content: space-evenly;
+  /* border: 1px solid black; */
+}
+
+.features > .feature {
+  text-align: center;
+  width: 300px;
+  /* border: 1px solid black; */
+  padding: 10px 50px;
+  margin: 70px 5px;
+}
+
+.features h3 {
+  color: #00B172;
+  font-size: 30px;
+}
+
+.features p {
+  font-size: 24px;
+  line-height: 1.4;
+}
+
+.green {
+  background-color: #00B172;
+  display: flex;
+  flex-flow: row wrap;
+  justify-content: space-around;
+  margin: 0 40px 40px;
+  color: #FFF;
+  padding: 20px 0 40px;
+}
+
+.box h3 {
+  font-size: 30px;
+  padding: 25px 0 0 0;
+}
+
+.box h2 {
+  font-size: 38px;
+  border-bottom: 4px solid #FFF;
+  padding: 8px;
+}
+
+.box p {
+  font-size: 24px;
+  line-height: 1.4;
+}
+
+.greenLeft {
+  margin: 20px;
+}
+
+.greenRight.box > img {
+  height: 650px;
+  padding-top: 125px; 
+}
+
+.smallWhiteLogo > img {
+  height: 140px;
+  
+}
+.smallWhiteLogo {
+  align-self: center;
+  justify-self: center;
+}
+
+/* .greenSection {
+  background-color: #00B172;
+  margin: 0 40px;
+  display: flex;
+  justify-content: space-between;
+} */
+
