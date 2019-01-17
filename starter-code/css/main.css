@@ -8,11 +8,12 @@ White: #FFF
 */
 
 nav{
-    border:1px solid black;
     position: fixed;
     width: 100%;
-    margin-top:0px;
+    margin-top:-20px;
     padding-top:10px;
+    background-color: white;
+    z-index: 1;
 }
 
 .spotify-logo-img{
@@ -63,6 +64,86 @@ float:left;
     font-family: Arial, Helvetica, sans-serif;
     margin:20px 20% 0 25%;
     width:800px;
-    border:1px solid white;
     text-align: center;
+}
+
+.whatspotify{
+    position: absolute;
+    top: 135%;
+    background-color: white;
+    border:1px solid;
+    width: 100%;
+}
+
+.whats{
+    color:black;
+    font-weight: 700;
+    text-decoration-line: green;
+}
+
+.bocina{
+    width: 200px;
+    height: 170px;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+.hd{
+    width: 200px;
+    height: 170px
+}
+
+.cellphones{
+    width: 200px;
+    height: 170px;
+}
+
+.verde{
+    color:green;
+    font-weight: 700;
+    font-size: 30px;
+    text-align: center;
+}
+
+.whatspotify-title{
+    text-align: center;
+}
+
+.whatspotify-container-songs{
+    display: inline-block;
+    border:1px solid;
+    margin-left:100px;
+    width: 350px;
+    height: 500px;
+}
+
+.whatspotify-container-hd{
+    display: inline-block;
+    border:1px solid;
+    margin-left: 50px;
+    width: 350px;
+    height: 500px;
+}
+
+.whatspotify-container-stream{
+    display: inline-block;
+    border:1px solid;
+    margin-left: 50px;
+    width: 350px;
+    height: 500px;
+}
+
+.whatspotify-p{
+    font-weight: 100;
+    font-size: 35px;
+    text-align: center;
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+.kanye-west{
+    position: absolute;
+    top:211%;
+    width: 100%;
+    background-color: green;
+    color: white;
 }
