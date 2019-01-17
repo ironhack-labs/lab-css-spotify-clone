@@ -1,8 +1,151 @@
 /*
 Colors:
 
-Text: 1A1A1A
+Text: #1A1A1A
 Green: #00B172
 White: #FFF
 
 */
+body {
+  margin:0px;
+  font-family: "Avenir",sans-serif;
+}
+
+#logo {
+  height:5vh;
+  float:left;
+  padding-top:1.5vh;
+  padding-left:2.5vh;
+}
+#logo:hover{
+  animation:bounce 1.25s linear infinite;
+}
+@keyframes bounce{
+  0%{transform:translateY(0vh) translateX(0vh)}
+  12.5%{transform:translateY(0.5vh) translateX(0.25vh)}
+  25%{transform:translateY(0vh) translateX(0.5vh)}
+  35%{transform:translateY(-0.5vh) translateX(0.75vh)}
+  50%{transform:translateY(0vh) translateX(1vh)}  
+  62.5%{transform:translateY(0.5vh) translateX(0.75vh)}
+  75%{transform:translateY(0vh) translateX(0.5vh)}
+  85%{transform:translateY(-0.5vh) translateX(0.25vh)}
+  100%{transform:translateY(0vh) translateX(0vh)}
+}
+.whatsonimg, #icon {
+  height:8vh;
+  text-align:center;
+
+}
+#appimg{
+  height:450px;
+}
+section {
+  margin:0px;
+  border:0px;
+  display:flex;
+  background: #FFF;
+}
+nav{
+  position:fix;
+  width:auto;
+  height:8vh;
+  background-color:#FFF;
+}
+header{
+  background-image: url("../images/landing.jpg");
+  background-size:cover;
+  height:92vh;
+  width:99vw;
+}
+header h1, h2{
+  width:100%;
+  float:left;
+  color:white;
+  text-align:center;
+}
+h1{
+  position: relative;
+  top:40%;
+  margin: auto 0px;
+  font-size: 4em;
+}
+h2{
+  position: relative;
+  top:40%;
+  font-size: 1.5em;
+}
+ul{
+  height:100%;
+  padding:0px;
+  margin:0px;
+  float:right;
+}
+li{
+  float:right;
+  padding:3vh 1vh;
+  list-style-type: none;
+  text-align: center;
+}
+.yeezy div {
+  background:#00B172;
+  width:100%;
+  height:100%;
+  margin:2vw 2vw;
+}
+.whatson{  
+  display:block;
+  height:60vh;
+  width:99vw;
+}
+.whatson h2{
+  position: relative;
+  top:5vh;
+  float:left;
+  margin: 0px auto;
+  color:#1A1A1A;
+  text-decoration: underline;
+  text-decoration-color: #00B172;
+  padding-bottom: 10vh;
+}
+.whatsondiv{
+  position: relative;
+  top:10vh;
+  width:99vw;
+  height:auto;
+  text-align:center;
+}
+.whatsondiv article{
+  float:left;
+  width:33%;
+  height:40vh;
+  position: relative;
+  top:5%;
+}
+
+
+.whatsondiv h3, .whatsondiv p,{
+  text-align:center;
+}
+.whatsonimg, #icon {
+  height:8vh;
+  text-align:center;
+}
+ #icon {
+  position:absolute;
+  top:195vh;
+  left:calc(50% - 4vh);
+  height:8vh;
+}
+.yeezy{
+  height:76vh;
+}
+ #leftyeezy{
+   float:left;
+   color:white;
+   padding:20vh 0vh 15vh 15vh;
+ }
+ #rightyeezy{
+float:right;
+padding:15vh 20vh 15vh 0vh;
+ }
+
