@@ -6,3 +6,126 @@ Green: #00B172
 White: #FFF
 
 */
+body{
+    font-family: sans-serif;
+}
+nav{
+height: 100px;
+background-color: white;
+box-sizing: border-box;
+position: fixed;
+width: 100%;
+top: 0;
+opacity: 0.98;
+letter-spacing: 1.5px;
+
+}
+nav > p{
+    
+    padding-right: 50px;
+    padding-top: 20px;
+    float: right;
+    
+}
+nav img{
+    height: 45px;
+    width: auto;
+    padding-left: 30px;
+    padding-top: 20px;
+    float:left;
+    animation: bounceUp 3s ease infinite;
+}
+
+    
+.music-head{
+    text-align: center;
+    color: white;
+    background-image: url("../images/landing.jpg");
+    height: 100vh;
+    background-size: 100vh;
+    
+}
+.music-head > h4, h2{
+    color: white;
+    padding-top: 100px;
+    font-size: 280%;   
+}
+div > h4{
+    text-decoration: underline;
+    text-decoration-color: #00B172;
+    text-align: center;
+    padding-top: 30px;
+    font-size: 200%;
+    color: black;
+    line-height: 1.5;
+}
+div > img {
+    height: 140px;
+    flex-wrap: nowrap;
+}
+.logos{
+    
+    height: 50vh;
+    display: flex;
+    justify-content: space-evenly;
+    font-size: 150%;
+    line-height: 130%;
+    margin-bottom: 100px;
+
+}
+.logos h5{
+    text-align: center;
+    color: #00B172;
+}
+.box{
+    background-color: #00B172;
+    height: 90vh;
+    width: 90vw;
+    margin-left: 50px;
+    margin-right: 50px;
+    padding-left: 30px;
+    padding-top: 30px;
+    color: white;
+    font-size: 130%;
+    display: flex;
+}
+.box h3{
+    text-decoration: underline;
+
+}
+.last{
+    width: 30vw;
+    font-size: 103%;
+}
+#kanye {
+    padding-top: 50px;
+    padding-left: 300px;
+    height: 550px;
+    width: 0 auto;
+}
+#spotify{
+    position: absolute;
+    height: 80px;
+    width: 0 auto;
+    top: 1620px;
+    left: calc(50% - 40px);
+
+}
+.logos img{
+    padding-left:15%;
+}
+
+@keyframes bounceUp{
+    0%{
+      transform: translateY(0px);
+    }
+    50%{
+      transform: translateY(-30px);
+    }
+    51%{
+      transform: translateY(-30px);
+    }
+    100%{
+      transform: translateY(0px);
+    }
+  }
