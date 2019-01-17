@@ -3,40 +3,78 @@
 <head>
   <meta charset="UTF-8">
   <title>Spotify</title>
+  <link rel="stylesheet" href="./css/main.css">
+  <link href="https://fonts.googleapis.com/css?family=Cabin:400,600,700" rel="stylesheet">
 </head>
 <body>
-Premium Discover Help Download
-
-Music for everyone.
-Spotify is now free on mobile, tablet and computer.
-Listen to the right music, wherever you are.
-
-What’s on Spotify?
-
-Millions of Songs
-There are millions of
-songs on Spotify
-
-HD Music
-Listen to music as if you
-were listening live
-
-Stream Everywhere
-Stream music on your
-smartphone, tablet or
-computer
-
-It’s as yeezy as Kanye West.
-Search
+<nav>
+  <img src="./images/spotify-logo.png" alt="Spotify">
+  <p id="easteregg">Click on "Shuffle play" below</p>
+  <ul>
+    <li>Premium</li>
+    <li>Discover</li>
+    <li>Help</li>
+    <li>Download</li>
+  </ul>
+</nav>
+<header>
+<h2>Music for everyone.</h2>
+<p>Spotify is now free on mobile, tablet and computer.<br/>
+Listen to the right music, wherever you are.</p>
+</header>
+<section>
+<h3>What’s on Spotify?</h3>
+<article class="intro">
+<div class="introsmall">
+  <img src="./images/music-icon.png" alt="Millions of songs">
+  <h4>Millions of Songs</h4>
+  There are millions of
+  songs on Spotify
+</div>
+<div class="introsmall">
+  <img src="./images/high-quality-icon.png" alt="HD Music">
+  <h4>HD Music</h4>
+  Listen to music as if you
+  were listening live
+</div>
+<div class="introsmall">
+  <img src="./images/devices-icon.png" alt="HD Music">  
+  <h4>Stream Everywhere</h4>
+  Stream music on your
+  smartphone, tablet or
+  computer
+</div>
+</article>
+</section>
+<section class="green">
+<article>
+    <h3>It’s as yeezy as Kanye West.</h3>
+<h4>Search</h4>
 Know what you want to listen to?
 Just search and hit play.
-Browse
+<h4>Browse</h4>
 Check out the latest charts,
 brand new releases and great
 playlists for right now.
-Discover
+<h4>Discover</h4>
 Enjoy new music every Monday
 with your own personal playlist.
 Or sit back and enjoy Radio.
+</article>
+<aside>
+  <img src="./images/spotify-app.jpg" alt="Spotify app" onclick="javascript:toggleSound();">
+</aside>
+<img class="whitelogo" src="./images/spotify-icon-white.png" alt="Spotify">
+</section>
+<audio id="audio" src="https://upload.wikimedia.org/wikipedia/en/2/22/I_Wonder_%28Kanye_West_song_-_sample%29.ogg" ></audio>
+<script type="text/javascript">
+  function toggleSound() {
+    var audioElem = document.getElementById('audio');
+    if (audioElem.paused)
+      audioElem.play();
+    else
+      audioElem.pause();
+  }
+  </script>
 </body>
 </html>
