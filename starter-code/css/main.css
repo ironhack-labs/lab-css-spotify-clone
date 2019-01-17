@@ -6,3 +6,191 @@ Green: #00B172
 White: #FFF
 
 */
+
+html, body{
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif; 
+}
+
+.navbar{
+    overflow: hidden;
+    background-color:white;
+    position: fixed;
+    top: 0;
+    width: 100%;
+    height:60px;
+}
+
+.image-logo{
+    padding-top: 10px;
+    padding-left:15px;
+    float:left;
+}
+
+.image-logo:hover{
+    animation: up-and-down 1s  ease-in infinite;
+
+}
+
+
+@keyframes up-and-down {
+
+
+    25%{
+        transform:translatey(-8px);
+    }
+
+
+    75%{
+        transform:translatey(8px);
+    }
+
+  }
+
+ul{
+   padding-top: 20px;
+   padding-right:25px;
+   float: right;
+}
+
+ul li {
+    display: inline;
+    list-style-type: none;
+    text-decoration: none;
+    color: #1A1A1A;
+    padding: 0 5px;
+}
+
+li a{
+    text-decoration: none;
+    color: #1A1A1A;
+}
+
+.main{
+
+    margin-top: 50px;
+    height: 1500px;
+    /* background-color:orange; */
+}
+
+.image-landing{
+    height:650px;
+    width:100%;
+}
+
+h1{
+    font-size:300%;
+}
+
+.text-header{
+    font-weight: 300;
+}
+
+
+h2{
+    text-align: center;
+    font-size:180%;
+    font-weight:bold;
+}
+
+.container{
+    background-color: orange;
+    height:1800px;
+}
+
+.header-container{
+    position:relative;
+}
+
+.whats-on-spotify{
+    padding: 60px 0;
+}
+
+.green-line{
+    height:4px;
+    width:200px;
+    background-color:#00B172;
+    margin: 5px auto;
+}
+
+.white-line{
+    height:2px;
+    width:300px;
+    background-color:#FFF;
+    margin: 5px 0 ;
+}
+
+.center{
+  color:white;
+  position: absolute;
+  left: 0;
+  top: 40%;
+  width: 100%;
+  text-align: center;
+  font-size: 18px;
+}
+
+.container-article{
+
+  padding: 75px 0px;
+  width: 100%;
+  text-align: center;
+}
+
+.col{
+    float:left;
+    width:33.33%; 
+  }
+
+h3{
+    color:#00B172;
+    padding-top:10px;
+
+
+}
+
+.green-box{
+    position:relative;
+    background-color: #00B172;
+    color: white;
+    height:600px;
+    margin: 5% 3% 0% 3%;
+
+}
+
+.green-text-container{
+    width:40%;
+    padding: 80px 0px 50px 50px;
+    /* background-color:orange; */
+    float:left;
+}
+
+.green-image-container{
+    float:right;
+    padding: 90px 60px 50px 0px;
+}
+  
+
+.clearfix{
+    clear:both;
+  }
+
+
+h4{
+    font-size:150%
+}
+
+h5{
+    font-size:125%
+}
+*{
+    padding: 0;
+    margin: 0;
+}
+
+.white-spotify-logo{
+    position:absolute;
+    width:125px;
+    left:45%;
+    bottom:35%;
+
+}
