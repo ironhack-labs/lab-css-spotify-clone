@@ -6,3 +6,104 @@ Green: #00B172
 White: #FFF
 
 */
+body {
+  margin: 0;
+  padding: 0;
+}
+
+.logo {
+  float: left;
+  width: 250px;
+  height: 80px;
+  margin-top: 20px;
+  margin-bottom: 20px;
+  margin-left: 50px;
+}
+/* ~~ Top Navigation Bar ~~ */
+
+#navigation-container {
+  width: 100%;
+  margin: 0 auto;
+  height: 120px;
+}
+
+.navigation-bar {
+  background-color: white;
+  height: 120px;
+  width: 100%;
+}
+
+#navigation-container img {
+  float: left;
+}
+
+#navigation-container ul {
+  padding: 0px;
+  margin-top: 30px;
+  text-align: center;
+  display:inline-block;
+  float: right;
+}
+
+#navigation-container li {
+  list-style-type: none;
+  padding: 0px;
+  height: 24px;
+  margin-top: 4px;
+  margin-bottom: 4px;
+  display: inline;
+}
+
+#navigation-container li a {
+  color: black;
+  font-size: 24px;
+  font-family: "Trebuchet MS", Arial, Helvetica, sans-serif;
+  text-decoration: none;
+  line-height: 70px;
+  padding: 50px 50px 50px 30px;
+  opacity: 0.7;
+}
+
+#menu {
+  float: right;
+}
+
+.landing-image {
+  background-image: url("../images/landing.jpg");
+  background-size: cover;
+  background-position: center;
+  height: 1000px;
+  width: 100%;
+  margin: auto;
+}
+
+.image-title {
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  color: white;
+  transform: translate(-50%, -50%);
+  font-size: 35px;
+  font-family: 'Arial Narrow';
+  text-align: center;
+}
+
+.image-title h1 {
+  font-size: 120px;
+}
+
+.box {
+  margin: 10px auto;
+  padding: 0;
+  position: relative;
+  float: left;
+  width: 33.33333%;
+  height: 100%;
+  text-align: center;
+  box-sizing: border-box;
+}
+
+.box img {
+  height: 250px;
+  width: 250px;
+}
