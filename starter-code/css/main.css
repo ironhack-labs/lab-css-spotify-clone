@@ -36,7 +36,8 @@ footer, header, hgroup, menu, nav, section {
 }
 
 body {
-	line-height: 1;
+    line-height: 1;
+    color: #1A1A1A;
 }
 
 ol, ul {
@@ -64,6 +65,8 @@ header {
     width: 100%;
     padding-right: 2rem;
     padding-left: 2rem;
+    background-color: #fff;
+    z-index: 3;
 }
 
 nav {
@@ -89,4 +92,72 @@ header .spacer {
 
 main {
     margin-top: 5rem;
+}
+
+
+.hero {
+    position: relative;
+}
+
+.hero > img {
+    width: 100%;
+    margin-bottom: -3px;
+}
+
+.hero div {
+    position: absolute;
+    left: 50%;
+    top: 50%;
+    transform: translate(-50%, -50%);
+    color: #fff;
+    text-align: center;
+    padding: 4rem;
+}
+
+.hero span {
+    display: block;
+    font-size: 5rem;
+    white-space: nowrap;
+    padding-bottom: 2rem;
+}
+
+.hero p {
+    color: #fff;
+    text-align: center;
+    padding-bottom: 2rem;
+    font-size: 2rem;
+    font-weight: 200;
+    line-height: 2.4rem;
+}
+
+.whats-on {
+    display: block;
+    margin: 0;
+    padding: 2.5rem;
+}
+
+.title {
+    width: 100%;
+    text-align: center;
+}
+
+.title > h2 {
+    display: inline-block;
+    margin-left: auto;
+    margin-right: auto;
+    border-bottom: 3px solid #00B172;
+}
+
+.features {
+    width: 100%;
+}
+
+.feature {
+    display: inline-block;
+    width: 33%;
+}
+
+.search-browse-discover {
+    padding: 5rem;
+    background-color: #00B172;
 }
