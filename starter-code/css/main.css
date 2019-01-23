@@ -38,6 +38,7 @@ footer, header, hgroup, menu, nav, section {
 body {
     line-height: 1;
     color: #1A1A1A;
+    font-family: 'Montserrat', sans-serif;
 }
 
 ol, ul {
@@ -145,19 +146,84 @@ main {
     display: inline-block;
     margin-left: auto;
     margin-right: auto;
+    padding-bottom: .5rem;
     border-bottom: 3px solid #00B172;
+    font-size: 1.8rem;
+    font-weight: 900;
 }
 
 .features {
+    display: flex;
     width: 100%;
+    padding: 4rem; 
 }
 
 .feature {
     display: inline-block;
     width: 33%;
+    text-align: center;
+    padding: 2.1rem;
 }
 
-.search-browse-discover {
+.feature > .container {
+    margin-left: auto;
+    margin-right: auto;
+    width: 140px;
+    height: 118px;
+}
+
+.feature img {
+    width: 100%;
+}
+
+.feature > span {
+    display: block;
+    color: #00B172;
+    font-size: 1.7rem;
+    font-weight: 900;
+    padding-top: 1rem;
+    padding-bottom: 1rem;
+}
+
+.feature > p {
+ font-size: 1.4rem;
+ font-weight: 100;
+ line-height: 2rem;
+}
+
+.yeezy {
     padding: 5rem;
     background-color: #00B172;
+    color: #fff;
+}
+
+.yeezy h1 {
+    display: inline-block;
+    border-bottom: 3px solid #fff;
+    font-size: 2.1rem;
+    font-weight: 900;
+    padding-bottom: 1rem;
+    margin-bottom: 1rem;
+}
+
+.yeezy > img {
+    width: 35%;
+    float: right;
+}
+
+.actions {
+    display: inline-block;
+    width: 35%;
+}
+
+.action h2 {
+    display: block;
+    font-size: 1.8rem;
+    font-weight: 900;
+    margin-top: 2.5rem;
+    margin-bottom: 2.5rem;
+}
+
+.action p {
+    
 }
