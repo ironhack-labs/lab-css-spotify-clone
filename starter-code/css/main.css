@@ -1,44 +1,181 @@
-/*
-Colors:
-
-Text: 1A1A1A
-Green: #00B172
-White: #FFF
-
-*/
 
 body{
   margin: 0;
-
+  font-family: 'Roboto', sans-serif;
 }
 
 
 nav{
   position: fixed;
   height: auto;
-  padding-bottom: 70px;
+  padding-bottom: 80px;
   position: static;
 }
 
 nav > img {
   float: left;
-  height: 50px;
-  padding: 10px 20px;
+  height: 60px;
+  padding: 10px 30px;
 }
 
 nav > ul {
   float: right;
-  
+  margin-top: 26px;
 }
 
 nav > ul > li{
   display: inline-block;
+  padding-right: 25px;
+  font-size: 1.5rem;
+  font-weight: 100;  
 }
 
-#heroImage div{
+nav a {
+  text-decoration: none;
+  color: #1A1A1A;
+}
+
+#about > div > div{
+  width: 33%;
+
+  box-sizing: border-box;
+  float: left;
+  text-align: center;
+  margin-bottom: 100px;
+}
+#about > div > h1{
+  text-align: center;
+  font-size: 2rem;
+  letter-spacing: 0.1rem;
+  margin-bottom: 0;
+  margin-top: 50px;
+  
+}
+
+#about > div > div > h2{
+  color: #00B172;
+}
+
+#about > div > hr{
+  width: 280px;  
+  background-color: #00B172;
+  border: 2px solid #00B172;
+  margin-bottom: 100px;
+}
+
+#about > div > div > p{
+  color:#1A1A1A;
+  font-weight: 100;
+  font-size: 1.5rem;
+}
+
+#about > div > div > img{
+  width: 30%;
+  margin: 0 auto;
+  display: block;
+  height: 110px;
+}
+
+#app{
+  margin: 30px;
+}
+
+#app  hr{
+  width: 435px;  
+  background-color: #ffffff;
+  border: 2px solid #ffffff;
+  margin-bottom: 100px;
+  float: left;
+  position: absolute;
+}
+
+#app > div{
+  
+  width: 100%;
+  display: flex;
+  background-color: #00B172;
+  color: white;
+  position: relative;
+  
+}
+#app > div > img{
+  position: absolute;
+  width: 10%;
+  padding-left: 45%;
+  padding-top: 25%;
+}
+#app > div > div{
+  width: 50%;
+  box-sizing: border-box;
+  float: left;
+  margin-bottom: 50px;
+}
+
+#app > div > div > img{
+  width: 45%;
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+  margin-top: 100px;
+  
+}
+
+#appText{
+  padding-top: 50px;
+  padding-left: 100px;
+  
+}
+
+#appText h1{
+  font-size: 2rem;
+  margin-bottom: 0;
+  letter-spacing: 0.1rem;
+}
+
+#appText h2{
+  margin-top: 50px;
+  position: static;
+}
+
+#appText p{
+  font-weight: 300;
+  font-size: 1.25rem;
+}
+
+#heroImage > div{
   height: auto;
-padding-bottom: 600px;
+  padding-bottom: 325px;
   background-image: url(../images/landing.jpg);
   background-size: cover;
-  background-position: center;
+  background-position: bottom;
+  text-align: center;
+  color: white;
+}
+
+#heroImage h1{
+  padding-top: 200px;
+  font-size: 5rem;
+  margin: 0;
+}
+
+#heroImage h2{
+  font-weight: 300;
+  font-size: 1.85rem;
+  
+}
+/* The transformation */
+nav .logo:hover{
+  animation: bounce .5s 0s infinite;
+}
+
+@keyframes bounce{
+  from{
+    transform: translate(0,0);
+  }
+  50%{
+    transform: translate(0, -50%);
+  }
+  to{
+    transform: translate(0,0);
+  }
 }
