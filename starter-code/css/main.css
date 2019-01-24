@@ -191,13 +191,28 @@ main {
  line-height: 2rem;
 }
 
+
+
 .yeezy {
-    padding: 5rem;
+    padding-top: 3rem;
+    padding-left: 3rem;
+    padding-right: 3rem;
+    padding-bottom: 1rem;
     background-color: #00B172;
     color: #fff;
+    display: flex;
+    background-image: url('../images/spotify-icon-white.png');
+    background-position: center;
+    background-size: 140px 140px;
+    background-repeat: no-repeat;
 }
 
-.yeezy h1 {
+.actions {
+    display: inline-block;
+    padding: 2rem;
+}
+
+.actions h1 {
     display: inline-block;
     border-bottom: 3px solid #fff;
     font-size: 2.1rem;
@@ -206,14 +221,8 @@ main {
     margin-bottom: 1rem;
 }
 
-.yeezy > img {
-    width: 35%;
-    float: right;
-}
-
-.actions {
-    display: inline-block;
-    width: 35%;
+.action {
+    width: 60%;
 }
 
 .action h2 {
@@ -225,5 +234,12 @@ main {
 }
 
 .action p {
-    
+    font-size: 1.3rem;
+    font-weight: 100;
+    line-height: 2.1rem;
+}
+
+.overview > img {
+    padding: 4rem;
+    width: 100%;
 }
