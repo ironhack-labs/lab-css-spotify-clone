@@ -1,6 +1,6 @@
 ![Ironhack Logo](https://i.imgur.com/1QgrNNw.png)
 
-# JS | Spotify Clone
+# CSS | Spotify Clone
 
 ## Introduction
 
@@ -8,30 +8,27 @@ Everyone likes music, right? Odds are if you do, you've heard of Spotify. Today 
 
 ![Spotify image](https://i.imgur.com/xVD0bm6.jpg)
 
-All of the necessary assets and images are included in the starter code. If you'd like a full length PDF version of the webite as reference, [check out this link](https://s3-eu-west-1.amazonaws.com/ih-materials/uploads/spotify-prototype.pdf).
+All of the necessary assets and images are included in the starter code. If you'd like a full length PDF version of the website as reference, [check out this link](https://s3-eu-west-1.amazonaws.com/ih-materials/uploads/spotify-prototype.pdf).
 
 ## Exercise
 
 ## Requirements
 
-- [Fork this repo](https://guides.github.com/activities/forking/)
-- Clone this repo into your `~/code/labs`
-- You must use 1 descendant selector, and 1 multi selector. You can use more.
-- Animate the green Spotify logo in the upper left-hand corner to jump up and down when a user hovers over it.
+- Fork this repo
+- Clone this repo
 
-## Submission Instructions
+## Submission
 
-Upon completion, run the following commands
+Upon completion, run the following commands:
 ```
 $ git add .
 $ git commit -m "done"
 $ git push origin master
 ```
-Navigate to your repo and create a Pull Request -from your master branch to the original repository master branch.
+Create Pull Request so your TAs can check up your work.
 
-In the Pull request name, add your name and last names separated by a dash "-"
 
-## Deliverables
+## Instructions
 
 You will receive the images and resources in the starter code. Write your CSS and HTML in the provided files. Remember to follow good practices.
 
@@ -60,3 +57,6 @@ The page is split into 4 sections.
 ### Starter code
 
 The starter-code contains all the files, images, and text content needed to create the page. The text is in the `index.html`, and a css file is created in `main.css` with colors.
+
+
+Happy coding! ❤️
