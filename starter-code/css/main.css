@@ -12,7 +12,7 @@ White: #FFF
   padding: 0;
   margin: 0;
   font-size: 15px;
-  font-family: 'Roboto', sans-serif;
+  font-family: Circular, Helvetica, Arial, sans-serif;
 }
 
 /* Class selectors */
@@ -30,6 +30,7 @@ header{
   padding: 10px;
   position: fixed;
   background-color: #FFF;
+  border-bottom: 1px rgba(0, 0, 0, 0.2) solid;
 }
 
 header nav{
@@ -45,26 +46,41 @@ header nav div{
   margin-left: 2%;
 }
 
-header nav div > img:first-child{
+header nav div.spotify-logo > img{
   height: 100%;
   width: 100%;
 }
 
+/* transition for logo */
+header nav div.spotify-logo:hover > img{
+  opacity: 0.5;
+  transition: all .8s;
+}
+
 header nav ul.navbar-container{
   float: right;
-  height: 100%;
-  width: 20%;
+  /* same height as container to get vertical align */
+  line-height: 100px;
 }
 
 header nav ul > a{
   text-decoration: none;
   color: #1A1A1A;
-  font-size: 1.2em;
+  font-size: 1.8em;
+  padding-right: 30px;
 }
+
+/* transition for links */
+header nav ul > a:hover{
+  color: #00B172;
+  transition: all .3s;
+ }   
 
 /* Main section */
 
 /* Music for everyone section */
+
+/* style for div to create space of nav bar */
 main > div:first-child{
   height: 120px;
 }
@@ -75,20 +91,20 @@ main section.back-main{
   margin: auto;
 }
 
-/* main section div:first-child{
-  height: 100%;
-} */
-
-main section h1{
+main section.back-main h1{
   font-size: 4em;
   text-align: center;
   color: #FFF;
+  padding-top: 20vh;
+  line-height: 3em;
 }
 
-main section h2{
-  font-size: 3em;
+main section.back-main h2{
+  font-size: 2em;
   text-align: center;
   color: #FFF;
+  font-family: 'Montserrat', sans-serif;
+  font-weight: lighter;
 }
 
 /* Whats on spotify section */
@@ -119,30 +135,107 @@ main section div article > img{
   height: 60%;
 }
 
-main section h3{
+main section.spot-sect h3{
   color: black;
   font-size: 2.5em;
-  text-align: center;
+  /* horizontal align */
+  margin: 0 auto;
+  /* to add border */
+  width: 19%;
+  border-bottom: 4px #00B172 solid;
 }
 
-main section h4{
+main section.spot-sect h4{
   color: #00B172;
   font-weight: bold;
   font-size: 2em;
 }
 
-main section p{
+main section.spot-sect p{
   font-size: 1.5em;
   line-height: 1.2em;
-  font-weight: 300;
+  font-family: 'Montserrat', sans-serif;
+  font-weight: lighter;
 }
 
 /* Last Section */
 
 main section.last-sect{
-  height: 40vh;
-  width: cald(100%-80px);
+  position: relative;
+  height: 60vh;
   margin: 40px;
   padding: 40px;
   background-color: #00B172;
+  color: #FFF;
+}
+
+main section.last-sect div.spot-circle{
+  height: 100px;
+  width: 100px;
+  left: 45%;
+  top: 43%;
+  position: absolute;
+  display: block;
+  animation: beat 2s infinite;
+}
+
+main section.last-sect div.spot-circle > img{
+  width: 100%;
+  height: 100%;
+}
+
+/* Animation */
+@keyframes beat{
+  0%{
+      transform: scale(1);
+  }
+
+  50%{
+      transform: scale(1.5);
+  }
+
+  100%{
+      transform: scale(1);
+  }
+}
+
+
+
+main section.last-sect > article.container-app{
+  height: 100%;
+  width: 55%;
+  float: left;
+}
+
+main section.last-sect h3{
+  color: #FFF;
+  font-size: 2.5em;
+  margin: 40px 0;
+  /* to add border */
+  width: 55%;
+  border-bottom: 4px #FFF solid;
+}
+
+main section.last-sect h4{
+  color: #FFF;
+  font-size: 2em;
+  margin: 20px 0;
+}
+
+main section.last-sect p{
+  font-size: 1.5em;
+  line-height: 1.2em;
+}
+
+main section div.app-img{
+  width: 20%;
+  height: 90%; 
+  float: right;
+  margin-top: 40px;
+  margin-right: 10%;
+}
+
+main section.last-sect div.app-img > img{
+  width: 100%;
+  height: 100%;
 }
