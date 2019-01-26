@@ -1,8 +1,150 @@
-/*
-Colors:
+*{
+  margin: 0;
+  padding: 0;
+}
 
-Text: 1A1A1A
-Green: #00B172
-White: #FFF
+body {
+  font-family: 'Montserrat', sans-serif;
+}
 
-*/
+header{
+  background-color: #FFF;
+  height: 90px;
+}
+
+header nav{
+  height: 100%;
+}
+
+header nav ul.menu-container {
+  font-size: 18px;
+  float: right;
+  list-style-type: none;
+  height: 100%;
+  width: 35%
+}
+
+header nav ul.menu-container > li{
+  text-decoration: none;
+  float: left;
+  padding: 7.5% 3%;
+  color: black;
+}
+
+header nav ul.menu-container > li:hover{
+  color: white;
+  background-color: rgba(0, 0, 0, .6);
+  transition: all .3s;
+}
+
+header  > nav > img {
+  margin: 1.5% 3%;
+  width: 200px;
+  float: left;
+  animation: spotify 5s infinite;
+}
+
+@keyframes spotify{
+  0%{
+      transform: scale(0.8)
+  }
+
+  50%{
+      transform: scale(1.2)
+  }
+
+  100%{
+      transform: scale(0.8)
+  }
+}
+
+header  > nav > img:hover{
+  animation: 2s infinite;
+}
+
+section.landing{
+  background-image: url("C:/Users/SAMSUNG/Documents/Mariana/IH/lab-css-spotify-clone/starter-code/images/landing.jpg");
+  height: 100vh;
+  background-position: center;
+  background-size: cover;
+  background-repeat: no-repeat;
+}
+
+section.landing > h1 {
+  padding-top: 160px;
+  color: #FFF;
+  text-align: center;
+  font-size: 70px;
+}
+
+section.landing > p {
+  color: #FFF;
+  text-align: center;
+  font-size: 25px;
+}
+section > h2.whats {
+  position: absolute;
+  padding-top: 30px;
+  padding-bottom: 5px;
+  margin-left: 465px;
+  text-align: center;
+  font-size: 30px;
+  border-bottom: 4px solid #00B172;
+}
+
+section > article {
+  float: left;
+  padding-top: 12%;
+  padding-left: 11%;
+  text-align: center;
+}
+
+section > article > h3 > img {
+  width: 125px;
+}
+
+section > article > h3.items {
+  color: #00B172;
+  font-size: 25px;
+}
+
+section > article > p {
+  font-size: 20px;
+}
+
+section.green {
+background-color: #00B172;
+color:#FFF;
+margin: 35px;
+}
+
+section > h2.kanye {
+  color: #FFF;
+  position: absolute;
+  padding-top: 50px;
+  padding-bottom: 5px;
+  margin-left: 75px;
+  font-size: 30px;
+  border-bottom: 3px solid #FFF;
+}
+
+section > div.letras {
+  font-size: 22px;
+  margin-top: 450px;
+  margin-left: 50px;
+  padding-top: 150px;
+  padding-left: 25px;
+  padding-bottom: 80px;
+}
+  
+section > img.icon {
+  position: absolute;
+  width: 125px;
+  padding: 275px 20px 150px 550px
+}
+
+section > img.app {
+  position: absolute;
+  width: 300px;
+  padding: 75px 20px 50px 780px
+}
