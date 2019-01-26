@@ -6,3 +6,143 @@ Green: #00B172
 White: #FFF
 
 */
+
+/* delete all margins and padgins */
+*{
+  padding: 0;
+  margin: 0;
+  font-size: 15px;
+  font-family: 'Roboto', sans-serif;
+}
+
+/* Class selectors */
+
+.back-center{
+  background-position: center;
+  background-size: cover;
+  background-repeat: no-repeat;
+}
+
+/* styles for navigation bar */
+header{
+  height: 100px;
+  /* to help positioning of logo */
+  padding: 10px;
+  position: fixed;
+  background-color: #FFF;
+}
+
+header nav{
+  /* to give it an actual height corresponding to parent */
+  height: 100%;
+}
+
+header nav div{
+  float: left;
+  width: 18%;
+  /* to give it an actual height corresponding to parent */
+  height: 100%;
+  margin-left: 2%;
+}
+
+header nav div > img:first-child{
+  height: 100%;
+  width: 100%;
+}
+
+header nav ul.navbar-container{
+  float: right;
+  height: 100%;
+  width: 20%;
+}
+
+header nav ul > a{
+  text-decoration: none;
+  color: #1A1A1A;
+  font-size: 1.2em;
+}
+
+/* Main section */
+
+/* Music for everyone section */
+main > div:first-child{
+  height: 120px;
+}
+
+main section.back-main{
+  background-image: url("../images/landing.jpg");
+  height: calc(100vh - 200px);
+  margin: auto;
+}
+
+/* main section div:first-child{
+  height: 100%;
+} */
+
+main section h1{
+  font-size: 4em;
+  text-align: center;
+  color: #FFF;
+}
+
+main section h2{
+  font-size: 3em;
+  text-align: center;
+  color: #FFF;
+}
+
+/* Whats on spotify section */
+main section.spot-sect{
+  height: 40vh;
+  width: 100%;
+  margin-top: 80px;
+  margin-bottom: 160px;
+}
+
+main section div.container{
+  text-align: center;
+  height: 100%;
+}
+
+main section div.columns{
+  margin-top: 80px;
+  height: 240px;
+}
+
+main section div > article{
+  width: 33%;
+  float: left;
+  height: 100%;
+}
+
+main section div article > img{
+  height: 60%;
+}
+
+main section h3{
+  color: black;
+  font-size: 2.5em;
+  text-align: center;
+}
+
+main section h4{
+  color: #00B172;
+  font-weight: bold;
+  font-size: 2em;
+}
+
+main section p{
+  font-size: 1.5em;
+  line-height: 1.2em;
+  font-weight: 300;
+}
+
+/* Last Section */
+
+main section.last-sect{
+  height: 40vh;
+  width: cald(100%-80px);
+  margin: 40px;
+  padding: 40px;
+  background-color: #00B172;
+}
