@@ -6,3 +6,162 @@ Green: #00B172
 White: #FFF
 
 */
+@import url('https://fonts.googleapis.com/css?family=Montserrat');
+*{
+    margin: 0;
+    padding: 0;
+}
+body{
+font-family: 'Montserrat', sans-serif;
+}
+.nav {
+    height: 80px;
+    width: 100%;
+    background-color: white;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    position: fixed;
+}
+.menu{
+    width: 30%;
+    margin-right: 20px;
+}
+.list{
+    display: flex;
+    flex-direction: row;
+    list-style: none;
+    justify-content: space-between;
+}
+.spacemenu{
+    height: 80px;
+}
+.logo{
+    width: 20%;
+    height: auto;
+}
+.logo_nav{
+    width: 70%;
+}
+.landing{
+    display: flex;
+    width: 100%;
+    height: 650px;
+    background-image: url(../images/landing.jpg);
+    background-size: cover;
+    background-position: center;
+    align-items: center;
+    flex-direction: column;
+    justify-content: center;
+}
+.landing > h1 {
+    color: white;
+    font-size: 5em;
+}
+.landing > p {
+    color: white;
+    font-size: 1.5em;
+    text-align: center;
+    padding:20px 250px 0 250px;
+}
+.features{
+    font-size: 1.5em;
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    width: 100%;
+    margin-top: 20px;
+    margin-bottom: 20px;
+    
+}
+.features > h2{
+    padding-bottom: 10px;
+    border-bottom: 4px solid #1DB954;
+}
+.icons{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    width: 100%;
+    height: 280px;
+    padding: 40px;
+    justify-items: center;
+    
+}
+.icon{
+    display: flex;
+    flex-flow: column;
+    align-items: center;
+}
+.ico{
+    width: 100px;
+    height: 100px;
+}
+.icons > div > h3{
+    font-size: 1.5em;
+    font-size: bold;
+    color: #1db954;
+    padding-top: 30px;
+}
+.icons > div > p{
+    display: flex;
+    font-size: 1.2em;
+    padding: 20px 90px 20px 90px;
+    text-align: center;
+}
+.last{
+    background-color: #1DB954;
+    background-image: url(../images/spotify-icon-white.png);
+    background-size: 150px;
+    background-repeat: no-repeat;
+    background-position: center;
+    height: 100vh;
+    display: flex;
+    flex-direction: row;
+    margin-left: 40px;
+    margin-bottom: 40px;
+    margin-right: 40px;
+}
+.last_texts_container{
+    width: 50%;
+}
+.last_header{
+    padding-top: 40px;
+    width:86%;
+    height: 50px;
+    color: white;
+    font-size: 1.5em;
+    border-bottom: white solid 4px;
+    margin-left: 80px;
+    text-align: start;
+}
+.last_texts{
+    width: 50%;
+    height: 100%;
+    display: flex;
+    flex-direction: column;
+    padding-left: 40px;
+}
+.app_container{
+   display: flex;
+   flex-direction: row;
+   align-items: center;
+   justify-content: center;
+   width: 50%;
+   height: 100%;
+}
+.mockup{
+    width: 290px;
+    height: 500px;
+}
+.eazzy{
+    padding: 15px 10px 15px 40px;
+    color: white;
+}
+.eazzy > p{
+    padding: 15px 10px 0px 0px;
+    font-size: 1.1em;
+}
+.eazzy > h2{
+    font-size: 1.8em;
+}
