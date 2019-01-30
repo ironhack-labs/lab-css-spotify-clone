@@ -10,7 +10,7 @@ White: #FFF
 } 
 body {
   font-family: 'Open Sans', sans-serif;
-  color: rgba(0, 0, 0, 1);
+  color: #1A1A1A;
   font-size: 16px;
 }
 div{
@@ -18,6 +18,11 @@ div{
 }
 a{
   text-decoration: none;
+}
+h2 {
+  font-size: 35px;
+  font-weight: bold;
+  text-align: center;
 }
 .clearfix{
   clear: both;
@@ -41,9 +46,6 @@ a{
   box-sizing: border-box;
   z-index: 99;
 }
-.HeaderContent{
-
-}
 .HeaderLogo{
   width: 225px;
   height: 57px;
@@ -65,7 +67,7 @@ a{
   margin: 0 12px;
 }
 .HeaderNav__item a {
-  color: rgba(0, 0, 0, 1);
+  color: #1A1A1A;
   font-size: 25px;
 }
 /* MainBanner styles */
@@ -87,12 +89,49 @@ a{
   text-align: center;
 }
 .MainBanner__title{
-  color: rgba(255, 255, 255, 1);
+  color: #fff;
   font-size: 70px;
   font-weight: bold;
   margin-bottom: 25px;
 }
 .MainBanner__description{
-  color: rgba(255, 255, 255, 1);
+  color: #fff;
   font-size: 32px;
+}
+/* WhatsOn styles */
+.WhatsOn{
+  padding: 55px 0 115px 0;
+}
+.WhatsOn__title{
+  text-align: center;
+}
+.WhatsOn__title h2{
+  padding-bottom: 7px;
+  border-bottom: 5px solid #00B172;
+  margin-bottom: 115px;
+  display: inline-block;
+}
+.WhatsOn__list-item{
+  display: inline-block;
+  vertical-align: top;
+  width: 33%;
+}
+.WhatsOn__item-icon{
+  height: 110px;
+  width: auto;
+  margin: 0 auto 20px auto;
+  display: block;
+}
+.WhatsOn__item-title{
+  color: #00B172;
+  font-size: 30px;
+  margin-bottom: 15px;
+  text-align: center;
+  font-weight: bold;
+}
+.WhatsOn__item-description{
+  text-align: center;
+  font-size: 25px;
+  max-width: 70%;
+  margin: 0 auto;
 }
