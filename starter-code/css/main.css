@@ -1,8 +1,98 @@
 /*
 Colors:
-
 Text: 1A1A1A
 Green: #00B172
 White: #FFF
-
 */
+*{
+  margin: 0;
+  padding: 0;
+} 
+body {
+  font-family: 'Open Sans', sans-serif;
+  color: rgba(0, 0, 0, 1);
+  font-size: 16px;
+}
+div{
+  box-sizing: border-box;
+}
+a{
+  text-decoration: none;
+}
+.clearfix{
+  clear: both;
+}
+.Content{
+  padding-top: 100px;
+}
+.MainContainer{
+  width: 1290px;
+  margin: 0 auto;
+  border: 1px solid red;
+}
+/* header styles */
+.Header{
+  width: 100%;
+  background-color: white;
+  padding: 20px;
+  border: 1px solid blue;
+  height: 100px;
+  position: fixed;
+  box-sizing: border-box;
+  z-index: 99;
+}
+.HeaderContent{
+
+}
+.HeaderLogo{
+  width: 225px;
+  height: 57px;
+  display: block;
+  float: left;
+}
+.HeaderLogo img{ 
+  width: auto;
+  height: 100%;
+}
+.HeaderNav{
+  float: right;
+  list-style-type: none;
+  width: 475px;
+  margin-top: 10px;
+}
+.HeaderNav__item{
+  display: inline-block;
+  margin: 0 12px;
+}
+.HeaderNav__item a {
+  color: rgba(0, 0, 0, 1);
+  font-size: 25px;
+}
+/* MainBanner styles */
+.MainBanner{
+  width: 100%;
+  height: 650px;
+  background: url('../images/landing.jpg');
+  background-repeat: no-repeat;
+  background-position: center;
+  background-size: cover;
+  position: relative;
+}
+.MainBanner__content{
+  width: 765px;
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  text-align: center;
+}
+.MainBanner__title{
+  color: rgba(255, 255, 255, 1);
+  font-size: 70px;
+  font-weight: bold;
+  margin-bottom: 25px;
+}
+.MainBanner__description{
+  color: rgba(255, 255, 255, 1);
+  font-size: 32px;
+}
