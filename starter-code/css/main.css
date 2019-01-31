@@ -31,8 +31,11 @@ h1 {
   font-size: 6rem;
 }
 
-h3, p {
+.contentWhiteDiv p, h3 {
   font-size: 1.75rem;
+}
+.contentGreenDiv p {
+  font-size: 1.5rem;
 }
 
 h3 {
@@ -80,7 +83,7 @@ nav img {
 
 /* ---- HEADER ---- */
 
-header animation {
+header {
   background-image: url('../images/landing.jpg');
   background-repeat: no-repeat;
   background-position: center;
@@ -88,11 +91,6 @@ header animation {
   animation-name: myslidein;
   animation-duration: 3s;
   animation-fill-mode: both;
-}
-
-header {
-
-  border-bottom: 1px solid black;
 }
 
 @keyframes myslidein {
@@ -123,7 +121,6 @@ header p {
 article {
   position: relative;
 }
-
 
 section[class$="Div"] h2 {
   font-size: 2.5rem;
@@ -160,15 +157,32 @@ div[class^="col"] p{
 }
 
 .colx3 {
-  width: 30%;
+  width: 29%;
   float: left;
+  border: 2px solid white;
+  border-radius: 10px;
+  padding: 20px 0 30px 0;
+  transition: background-color 500ms linear;
+}
+
+.colx3:hover {
+  border: 2px solid #00B172;
+  border-radius: 10px;
+  padding: 20px 0 30px 0;
+  background-color: rgba(200, 200, 200, 0.5)
+}
+
+.colx3 p{
+  color: gray;
+  width: 75%;
+  margin: 0 auto;
 }
 
 .colx3 img {
   width: 30%;
 }
 .colx3:nth-child(2) img {
-  padding: 7px 0 8px 0;
+  padding: 7px 0 9px 0;
 }
 
 .colx3 h3 {
@@ -187,30 +201,38 @@ div[class^="col"] p{
   background-repeat: no-repeat;
   background-size: 100px;
   background-position: center;
-  position: relative;
-  top: 200px;
+  margin-top: 200px;
 }
 .contentGreenDiv {
   width: 90%;
   margin: 0 auto;
-  position: relative;
-  top: 100px;
+  padding-top: 100px;
 }
 
 .greenDiv h2 {
   border-bottom: 5px solid #fff;
   color: white;
-  background-color: red;
+}
+
+
+.greenTitle {
+  width: 100%;
+  margin: 20px 0;
 }
 
 .colx2 {
-  width: 100%;
+  width: 30%;
+  color: white;
+  letter-spacing: 0.1rem;
+  float: left;
 }
 
-.colx2 img {
-  float: left;
-  width: 20%;
+.colx2 h3{
+  padding: 20px 0;
+
 }
-.aa img {
-  width: 100%;
+
+.contentGreenDiv img {
+  width: 25%;
+  padding-left: 40%;
 }
