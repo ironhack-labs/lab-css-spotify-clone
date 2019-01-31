@@ -6,3 +6,187 @@ Green: #00B172
 White: #FFF
 
 */
+
+*{
+    margin: 0 auto;
+}
+
+.navbar {
+    overflow: hidden;
+    background-color: white;
+    position: fixed;
+    top: 0px; 
+    width: 100%; 
+    padding-top: 30px;
+    z-index: 1;
+  }
+
+  .navbar img {
+      float: left;
+      margin-left: 75px;
+      margin-bottom: 25px;
+  }
+  
+  .navbar a {
+    display: inline-block;
+    float: right;
+    color: black;
+    text-align: center;
+    padding: 14px 16px;
+    text-decoration: none;
+  }
+  
+section {
+    margin-top: 50px;
+}
+
+p{
+    font-size: 20px;
+}
+
+.first-content{
+    height: 800px;
+    background-image: url('../images/landing.jpg');
+    background-repeat: no-repeat;
+    background-size: 100% 100%;
+}
+
+.text-content h3{
+    font-size: 20px;
+    margin-bottom: 35px;
+}
+
+.content-titles h3 {
+    font-size: 35px;
+    margin-bottom: 5px;
+}
+
+
+.titles-intro h1{
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    color: white;
+    font-size: 70px;
+}
+.titles-intro2 h2{
+    position: absolute;
+    top: 70%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    color: white;
+    text-align: center;
+    font-size: 25px;
+}
+
+.title{
+    text-align: center;
+    display: inline-block;
+    position: relative;
+
+    width: 100%;
+}
+
+.hr_title{
+    text-align: center;
+    width: 200px;
+    height: 3px;
+    background-color: #00B172;
+    border: 1px solid #00B172;
+}
+
+
+hr{
+    margin-top: 10px;
+    background-color: #fff;
+    height: 3px;
+    width: 500px;
+    border: 1px solid #fff;
+}
+
+.title-container{
+    position: absolute;
+    top: 50px;
+    left: 100px;
+    width: 500px;
+}
+
+.title-container h3{
+    font-size: 40px;
+}
+
+.title h2::after{
+    content: '';
+    position: absolute;
+    top: 35px;
+    left: 580px;
+    width: 200px;
+    height: 3px;
+    background-color: #00B172;
+}
+
+.second-content-thumbnails{
+    text-align: center;
+    margin-bottom: 50px;
+}
+
+.thumbnail{
+    display: inline-block;
+    width: 15%;
+    margin: 100px;
+}
+
+.thumbnail img{
+    width: 100%;
+}
+
+.thumbnail h3{
+    color: #00B172;
+    font-size: 25px;
+}
+
+.third-content{
+    float: left;
+    position: relative;
+    margin: 0 50px 0 50px;
+    background-color: #00B172;
+    width: 93%;
+    color: white;
+    height: 800px;
+}
+
+.content-img{
+    float: left;
+    position: relative;
+    top: 50px;
+    left: 650px;
+    max-width: 420px;
+}
+
+.content-img img {
+    width: 400px;
+}
+
+.text-content{
+    margin: 20px;
+}
+
+.icon{
+    float: left;
+    position: relative;
+    top: 350px;
+    left: 500px;
+}
+.icon img{
+    width: 100px;
+}
+
+.content-titles{
+    position: absolute;
+    width: 350px;
+    top: 150px;
+    left: 50px;
+}
+
+
