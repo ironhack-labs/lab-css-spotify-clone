@@ -6,3 +6,193 @@ Green: #00B172
 White: #FFF
 
 */
+
+*{
+ font-family: Circular, Helvetica, Arial; 
+ margin:0;
+ padding:0;
+}
+/* BARRA NAVEGACION -------------------------------*/
+.superiorFixed{
+    border:1px solid rgb(224, 214, 122);
+    position: fixed;
+    width: 100%;
+    height: 70px;
+    background: white;
+}       
+    
+        [class^=sfixed] {
+            border:2px solid rgb(0, 0, 0);
+        }
+
+        .sfixedLogo{
+            float: left;
+            background-image: url("../images/spotify-logo.png");
+            background-repeat: no-repeat; /* Do not repeat the image */
+            background-position: center; /*centras imagen*/
+            width: 200px;
+            height: 60px;
+            background-size: 100% ;  /*altura imagen */
+            margin-left:10px;
+        }
+
+        .sfixedList{
+            float: right;    
+        }
+
+        ul>li{
+            border:2px solid rgb(231, 90, 90);
+            float: right;
+            list-style-type: none;
+            padding-top: 20px;
+            font-size:18px;
+            margin-right: 20px; 
+        }
+
+/* PRIMERA SECCION -------------------------------*/
+.primerBloque{
+    border:3px solid rgb(187, 223, 130); 
+}
+
+        .pbFondo{
+        height: 800px;   /*altura caja */
+        width: 100%;    /*anchura de la caja*/
+        margin-top:70px;
+        background-image: url("../images/landing.jpg"); 
+        background-size: 1200px ;  /*altura imagen */
+        background-repeat: no-repeat; /* Do not repeat the image */
+        background-position: center; /*centras imagen*/
+        text-align: center;
+        margin-left:auto; /*centras la caja*/
+        margin-right:auto;/*centras la caja*/
+        }
+
+        [class^=pbBox] {
+            border:2px solid rgb(116, 139, 101);
+            text-align: center;
+            color:white;
+            padding-top:17px;
+        }
+
+        .pbBox1{
+            padding-top:350px;
+        }
+
+
+/* SEGUNDO SECCION -------------------------------*/
+.segundoBloque{
+    border:3px solid rgb(122, 183, 224);
+    height: 500px;   /*altura caja */
+    width: 100%; 
+}
+
+            .BoxT{
+            width: 100%; 
+            text-align: center;
+            font-size: 25px;
+            padding-top:30px;
+            padding-bottom: 80px;
+            }
+
+            div[class^=sbBox] {
+                height: 200px;
+                width: 32.9%; 
+                border:2px solid rgb(115, 145, 173);
+                text-align: center;
+                padding-top:17px;
+                float: left;
+                margin:auto;
+            }
+
+            .sbimage1{
+                height:80px;
+                border:1px solid rgb(160, 236, 109);
+                background-image: url("../images/music-icon.png"); 
+                background-size: 30%;
+                background-repeat: no-repeat; /* Do not repeat the image */
+                background-position: center; /*centras imagen*/
+            }
+
+            .sbimage2{
+                height:80px;
+                border:1px solid rgb(160, 236, 109);
+                background-image: url("../images/high-quality-icon.png"); 
+                background-size: 30%;
+                background-repeat: no-repeat; /* Do not repeat the image */
+                background-position: center; /*centras imagen*/
+            }
+
+            .sbimage3{
+                height:80px;
+                border:1px solid rgb(160, 236, 109);
+                background-image: url("../images/devices-icon.png"); 
+                background-size: 25%;
+                background-repeat: no-repeat; /* Do not repeat the image */
+                background-position: center; /*centras imagen*/
+            }
+
+            .segundoBloque > h4{
+                color:green;
+            }
+
+
+
+/* TERCER SECCION -------------------------------*/
+.tercerBloque{
+    border:3px solid rgb(122, 183, 224);
+    width: 95%; 
+    background-color: rgb(62, 161, 107);
+    margin:auto;
+    height: 500px; 
+    color: rgb(206, 218, 211);
+}
+
+ .tbCentral{
+    border:5px solid rgb(224, 122, 219);
+    width: 90%;
+    height:480px;
+    margin:auto;
+ }
+
+ [class^=tbB] {
+    border:2px solid rgb(196, 11, 11);
+    float:left;
+    height: 470px; 
+}   
+
+.tbBox1 h3{ 
+   font-size: 20px;
+}
+
+.tbBox1 h5{ 
+   font-size: 18px;
+}
+
+
+.tbBox1{
+    width: 45%; 
+}
+
+.tbBox2{
+    width: 15%; 
+    background-image: url("../images/spotify-icon-white.png"); 
+    background-size: 70%;
+    background-repeat: no-repeat; /* Do not repeat the image */
+    background-position: center; /*centras image*/
+}
+
+.tbBox3{
+    width: 22%; 
+    background-image: url("../images/spotify-app.jpg"); 
+    background-size: 100%;
+    background-repeat: no-repeat; /* Do not repeat the image */
+    background-position: center; /*centras image*/
+    margin-left:
+}
+
+[class^=box1] {
+    border:2px solid rgb(196, 11, 11);
+    width: 65%;
+    height: 100px; 
+    margin-top:35px;
+}  
