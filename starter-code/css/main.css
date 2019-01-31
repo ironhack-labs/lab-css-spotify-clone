@@ -6,6 +6,7 @@ Green: #00B172
 White: #FFF
 
 */
+/* ---- GENERAL ---- */
 
 *{
   font-family: Arial, Helvetica, sans-serif;
@@ -15,20 +16,52 @@ body {
   box-sizing: border-box;
   margin: 0;
   padding: 0;
+  color: #1A1A1A;
 }
 
-.navbar {
-  padding: 15px 35px 15px ;
+.marginBottom50px {
+  margin-bottom: 50px;
+}
+
+.clearfix {
+  clear: both;
+}
+
+h1 {
+  font-size: 6rem;
+}
+
+h3, p {
+  font-size: 1.75rem;
+}
+
+h3 {
+  font-weight: bold;
+}
+
+/* ---- NAVBAR ---- */
+
+nav {
+  top: 0;
+  left: 0;
   position: fixed;
-  width: 100%;
   background-color: white;
+  width: 100%;
+  z-index: 5;
 }
 
-.navbar img {
+nav img {
   height: 75px;
+  margin: 20px 20px 10px 20px;
 }
+
 .nav-links {
   float: right;
+  margin: 20px 20px 10px 20px;
+}
+
+.nav-links ul>li~li {
+  margin-left: 10px;
 }
 
 .nav-links li {
@@ -39,26 +72,145 @@ body {
   border-radius: 5px;
   transition: background-color 1s linear, color 1s cubic-bezier(0.19, 1, 0.22, 1);  
 }
+
 .nav-links li:hover {
   background-color: #00B172;
   color: white;
 }
-.clearfix {
-  clear: both;
-}
 
-.header {
+/* ---- HEADER ---- */
+
+header animation {
   background-image: url('../images/landing.jpg');
-  background-size: 100%;
-  color: white;
+  background-repeat: no-repeat;
+  background-position: center;
   text-align: center;
-  padding: 400px 0 450px;
+  animation-name: myslidein;
+  animation-duration: 3s;
+  animation-fill-mode: both;
 }
 
-h1 {
-  font-size: 6rem;
+header {
+
+  border-bottom: 1px solid black;
 }
 
-.header p {
+@keyframes myslidein {
+  0% {
+    background-size: 0%;
+    color: rgba(255, 255, 255, 0);
+    margin-top: -200px;
+  }
+
+  50% {
+    color: rgba(255, 255, 255, 0);
+  }
+
+  100% {
+    padding: 400px 0 420px;
+    background-size: 100%;
+    margin-top: -100px;
+    color: rgba(255, 255, 255, 1);
+  }
+}
+
+header p {
   font-size: 2.2rem;
+}
+
+/* ---- COMMON  ---- */
+
+article {
+  position: relative;
+}
+
+
+section[class$="Div"] h2 {
+  font-size: 2.5rem;
+  letter-spacing: 0.1rem;
+  display: inline;
+  padding-bottom: 5px;
+}
+  
+div[class*="content"] {
+  position: relative;
+  margin: 0 auto;
+}
+
+div[class^="col"] p{
+  font-weight: lighter;
+  letter-spacing: 0em;
+}
+
+/* ---- WHITEDIV ---- */
+
+.whiteDiv {
+  padding:50px 0;
+  width: 90%;
+  margin: 0 auto;
+  text-align: center;
+}
+
+.whiteDiv h2 {
+  border-bottom: 5px solid #00B172;
+}
+
+.contentWhiteDiv {
+  top: 125px;
+}
+
+.colx3 {
+  width: 30%;
+  float: left;
+}
+
+.colx3 img {
+  width: 30%;
+}
+.colx3:nth-child(2) img {
+  padding: 7px 0 8px 0;
+}
+
+.colx3 h3 {
+  color: #00B172;
+}
+
+.contentWhiteDiv .colx3 ~ div{
+  margin-left: 5%;
+}
+
+/* ---- GREENDIV ---- */
+
+.greenDiv {
+  background-color: #00B172;
+  background-image: url('../images/spotify-icon-white.png'); 
+  background-repeat: no-repeat;
+  background-size: 100px;
+  background-position: center;
+  position: relative;
+  top: 200px;
+}
+.contentGreenDiv {
+  width: 90%;
+  margin: 0 auto;
+  position: relative;
+  top: 100px;
+}
+
+.greenDiv h2 {
+  border-bottom: 5px solid #fff;
+  color: white;
+  background-color: red;
+}
+
+.colx2 {
+  width: 100%;
+}
+
+.colx2 img {
+  float: left;
+  width: 20%;
+}
+.aa img {
+  width: 100%;
 }
