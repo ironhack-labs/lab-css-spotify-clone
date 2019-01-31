@@ -6,3 +6,59 @@ Green: #00B172
 White: #FFF
 
 */
+
+*{
+  font-family: Arial, Helvetica, sans-serif;
+}
+
+body {
+  box-sizing: border-box;
+  margin: 0;
+  padding: 0;
+}
+
+.navbar {
+  padding: 15px 35px 15px ;
+  position: fixed;
+  width: 100%;
+  background-color: white;
+}
+
+.navbar img {
+  height: 75px;
+}
+.nav-links {
+  float: right;
+}
+
+.nav-links li {
+  list-style: none;
+  display: inline-block;
+  padding: 12px;
+  font-size: 1.5em;
+  border-radius: 5px;
+  transition: background-color 1s linear, color 1s cubic-bezier(0.19, 1, 0.22, 1);  
+}
+.nav-links li:hover {
+  background-color: #00B172;
+  color: white;
+}
+.clearfix {
+  clear: both;
+}
+
+.header {
+  background-image: url('../images/landing.jpg');
+  background-size: 100%;
+  color: white;
+  text-align: center;
+  padding: 400px 0 450px;
+}
+
+h1 {
+  font-size: 6rem;
+}
+
+.header p {
+  font-size: 2.2rem;
+}
