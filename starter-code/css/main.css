@@ -6,3 +6,107 @@ Green: #00B172
 White: #FFF
 
 */
+
+* {
+  box-sizing: border-box;
+  margin: 0 0;
+}
+
+body {
+  font-size: 1.2em;
+}
+
+h1{
+  font-size: 6em;
+}
+
+h4 {
+  color: #00B172;
+}
+
+p {
+  width: 70%;
+  margin: 0 auto;
+}
+
+.clearfix {
+  clear: both;
+}
+
+.text-align {
+  text-align: center;
+}
+
+.columns {
+  width: 33%;
+  float: left;
+}
+
+.define {
+  height: 500px;
+  padding-top: 50px;
+}
+
+.define article {
+  padding: 100px;
+}
+
+.define h2 {
+  content: ""; /* This is necessary for the pseudo element to work. */ 
+  display: block; /* This will put the pseudo element on its own line. */
+  margin: 0 auto; /* This will center the border. */
+  width: 20%; /* Change this to whatever width you want. */
+  padding-top: 20px; 
+  border-bottom: solid #00B172;
+}
+
+.content-box {
+  margin: 0 auto;
+  width: 75%;
+}
+
+#heading {
+  background-image: url("../images/landing.jpg");
+  background-size: cover;
+  background-position: center;
+  width: 100%;
+  height: 600px;
+  text-align: center;
+  color: #FFF;
+  padding: 250px 0;
+}
+
+#spot-white-icon {
+  height: 150px;
+}
+
+#spot-app {
+  height: 600px;
+}
+
+#top-links {
+  float: right;
+  padding-right: 30px;
+  height: 100px;
+}
+
+#top-links li {
+  display: inline-block;
+  margin: 0 10px;
+  padding-top: 40px;
+}
+
+#yeezy {
+  background-color: #00B172;
+  margin: 20px;
+  padding: 60px;
+  color: #FFF;
+}
+
+img {
+  height: 80px;
+}
+
+image:hover {
+  transform: rotate(45deg);
+}
