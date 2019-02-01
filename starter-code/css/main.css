@@ -1,8 +1,185 @@
-/*
-Colors:
 
-Text: 1A1A1A
-Green: #00B172
-White: #FFF
 
-*/
+body {
+    font-family: "roboto", 'Open Sans';
+    width: 100%;
+}
+
+
+/* Header */
+
+.header {
+    position: fixed;
+    margin: auto 20px;
+    height: 60px;
+    width: 100%;
+}
+
+.logo {
+    width: 200px;
+    height: 60px;
+    float: left;
+}
+
+.header ul {
+    display: inline-block;
+    margin-right: 50px;
+    float: right;
+    right: 20px;
+    line-height: 60px;
+}
+
+.header li {
+    display: inline-block;
+    text-decoration: none;
+    color: #1A1A1A;
+    margin: 0 10px ;
+    list-style-type: none;
+    font-size: 18px;
+}
+
+
+/* Main box */
+
+
+.mainbox {
+    height: 1000px;
+    width: 100%;
+    background-image: url("../images/landing.jpg");
+    background-size: cover;
+    color: #FFF;
+    position: relative;
+    float: top;
+    top: 100px;
+}
+
+.text {
+    position: relative;
+    width: 50%;
+    height: 30%;
+    left: 25%;
+    top: 30%;
+}
+
+
+.mainbox h1 {
+    font-size: 70px;
+    display: flex;
+    justify-content: center;
+}
+
+.mainbox p {
+    font-size: 30px;
+    display: flex;
+    justify-content: center;
+    font-weight: lighter;
+}
+
+/* Whats */
+
+.whats {
+    position: relative;
+    margin-top: 10em;
+    margin-bottom: 5em;
+    text-align: center;
+}
+
+.blocks {
+    position: relative;
+    display: inline-block;
+    width: 25%;
+    text-align: center;
+    vertical-align: middle;
+    padding: 5px 5px;
+    font-size: 22px;
+    font-weight: lighter;
+}
+
+.whats h2 {
+    margin: 0 auto 40px auto;
+    width: 20%;
+    font-size: 36px;
+    font-weight: bold;
+    border-bottom: 2px solid #00B172 ;
+    text-align: center;
+    padding: 5px;
+
+}
+
+.whats h3 {
+    color: #00B172;
+    font-size: 30px;
+    font-weight: bold;
+}
+
+.icons {
+    height: 60px;
+    width: 60px;
+}
+
+
+
+/* Kanye */
+
+.kanye {
+    position: relative;
+    background-color: #00B172;
+    height: 600px;
+    right: 2%;
+    bottom: 2%;
+    left: 2%;
+}
+
+.text2 {
+    position: relative;
+    display: inline-block;
+    width: 30%;
+    left: 10%;
+    float: left;
+    background-color: #00B172;
+    color: white;
+}
+
+.text2 h2 {
+    border-bottom: 2px solid white ;
+    margin: 40px auto 40px auto;
+    font-size: 32px;
+    padding: 5px;
+    width: 100%;
+    text-align: center;
+}
+
+.text2 h3 {
+    font-size: 30px;
+    font-weight: bold;
+    text-align: center;
+}
+
+.text2 p {
+    font-size: 20px;
+    text-align: center;
+
+}
+
+.icon-spotify {
+    position: absolute;
+    display: inline-block;
+    margin: 0 auto;
+    left: 55%;
+    top: 45%;
+    line-height: 1em;
+    vertical-align: middle;
+}
+
+.iphone {
+    position: absolute;
+    display: inline-block;
+    right: 10%;
+    left: 70%;
+    top: 10%;
+    float: right;
+
+    
+}
+
+
