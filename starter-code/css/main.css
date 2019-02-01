@@ -6,3 +6,178 @@ Green: #00B172
 White: #FFF
 
 */
+/*
+Cabecera Blanca con Logo y menú
+Imagen background con título y texto
+Titulo + 3 destacados con icono, título subrallado y texto
+fondo blanco + fondo verde + 50%left text 50% right image e imagen en el centro
+*/
+
+body {
+  font-family: Arial, Helvetica, sans-serif;
+  margin: 0;
+  padding: 0;
+}
+.clearfix {
+  clear: both;
+}
+.header {
+  height: 80px;
+}
+
+.header {
+  margin-top: 20px;
+  width: 100%;
+}
+.header .logo {
+  float: left;
+  width: 50%;
+}
+.header .logo img {
+  margin-left: 50px;
+  height: 80px;
+}
+.menu {
+  width: 50%;
+  float: right;
+  height: 80px;
+  padding-top: 20px;
+  text-align: right;
+}
+
+.header .menu a {
+  text-decoration: none;
+  color: #1A1A1A;
+  margin-right: 50px;
+  font-size: 32px; 
+}
+
+.backimage {
+  height: 1200px;
+  background-image: url("../images/landing.jpg");
+  background-repeat: no-repeat;
+  background-size: 100%;
+}
+.back-text {
+  padding-top: 400px;
+  text-align: center;  
+  font-size: 3em;
+  color: white;
+  vertical-align: center;
+}
+
+.features {
+  text-align: center;
+}
+
+.features h2 {
+  color: #1A1A1A;
+  font-size: 4em;
+  text-decoration-line: underline;
+  text-decoration-line: 2px;
+  text-decoration-color: #00B172;
+  text-decoration-style: solid;
+  text-underline-position: below;  
+}
+.features-boxes {
+
+}
+
+.features-box {
+  width: 33%;
+  float: left;
+}
+
+.features-box img {
+  width: 180px;
+  height: 150px;
+
+}
+
+.features-box h3 {
+  font-size: 2em;
+  color: #00B172;
+}
+
+.features-box p {
+  margin: 0 auto;
+  font-size: 1.5em;
+  color: #1A1A1A;
+  font-weight: 200;
+  max-width: 300px;
+  text-align: center;
+}
+
+.green-box {
+  width: 94%;
+  margin: 0 auto;
+  background-color: #00B172;
+  color: white;
+  margin-top: 90px;
+  margin-bottom: 90px;
+}
+
+.green-text {
+  display: inline-block;
+  width:  40%;
+  padding-left:  130px;
+
+}
+
+.green-box h3 {
+  font-size: 3.2em;
+  text-decoration-line: underline;
+  text-decoration-style: solid;
+  padding-top: 60px;
+  padding-bottom: 50px;
+}
+
+.green-box h4 {
+  font-size: 2.7em;
+  padding-bottom:  10px;
+}
+
+.green-box p {
+  font-size: 1.8em;
+  padding-bottom:  0px;
+  font-weight: 300;
+}
+
+.green-image {
+width: 40%;
+float: right;
+padding-top: 170px;
+text-align: right;
+
+}
+
+.green-image img {
+  max-height: 900px;
+  padding-right: 145px;
+}
+.green-image-logo {
+  width: 10%;
+  float: left;
+  text-align: center;
+
+}
+.green-image-logo img{
+position: absolute;
+max-height: 190px;
+padding-left: 710px;
+padding-top: 500px;
+}
+p:last-of-type {
+  padding-bottom: 80px;
+}
+#l:before, #r:before { 
+  content: ""; 
+  width: 125px; 
+  height: 250px; 
+}
+#l:before { 
+  float: right; 
+}
+#r:before { 
+  float: left; 
+}
