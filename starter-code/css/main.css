@@ -1,8 +1,243 @@
-/*
-Colors:
 
-Text: 1A1A1A
-Green: #00B172
-White: #FFF
 
-*/
+
+  html {
+    font-size:18px;
+    box-sizing:border-box;
+    font-family: 'Open Sans', sans-serif;
+ 
+}
+
+  body{
+    margin:0;
+}
+
+  #nav-bar {
+    width:100%;
+    height:100px;
+    line-height: 100px;
+}
+
+  nav{
+    padding: 0 0 0 50px;
+}
+
+  #logo {
+    width:200px;
+    height:100px;
+    display: inline-block;
+    position: relative;
+}
+
+  #logo img{
+    width:100%;
+    height:auto;
+    position: absolute;
+    top:20px;
+}
+
+  ul {
+    margin:0;
+}
+
+  #menu {
+    display: inline-block;
+    float:right;
+}
+
+  li {
+    display: inline;
+    margin:10px;
+    font-size: 1.5em;
+}
+
+
+  a {
+    text-decoration: none;
+    color:rgba(0,0,0,.5);
+}
+
+  a:hover {
+    text-decoration: underline;
+}
+
+  #header{
+    width:100%;
+    height:1000px;
+    background-image: url("../images/landing.jpg");
+    background-size: cover;
+    background-position: bottom;
+    height:768px;
+    position: relative; 
+    text-align: center;
+}
+
+  
+
+  #header div{
+    color:white;
+    position: absolute;
+    width:1000px;
+    height:200px;
+    text-align:center;
+    top:50%;
+    left:50%;
+    margin:  -100px 0 0 -500px;
+    animation-name: fadeInDown;
+    animation-duration: 2s;
+   }
+
+  @keyframes fadeInDown {
+    from {
+      opacity: 0;
+      -webkit-transform: translate3d(0, -100%, 0);
+      transform: translate3d(0, -100%, 0);
+    }
+  
+    to {
+      opacity: 1;
+      -webkit-transform: translate3d(0, 0, 0);
+      transform: translate3d(0, 0, 0);
+    }
+  }
+
+  h1{
+    font-size: 5em;
+    margin: 0;
+   }
+
+  p {
+    text-align: center;
+    
+    font-weight: 100;
+    font-size: 1.25em;
+  }
+
+  #spotify {
+    width:100%;
+  }
+
+  #spotify h2 {
+
+    text-align: center;
+    font-size:2em;
+    font-weight: 500;
+    text-decoration: underline;
+    text-underline-position: under;
+    text-decoration-color: #00B172;
+  }
+
+
+
+  .green {
+    color: #00B172;
+    font-size:2em;
+  }
+
+
+  #boxes {
+    width:100%;
+    height:400px;
+  }
+
+  .box {
+    /* padding:10%; */
+    width:23.3%;
+    margin:5%;
+    height:100%;;
+    /* background-color:red;  */
+    /* border:1px solid black; */
+    float:left;
+    text-align: center;
+  }
+
+  .image-div{
+    width:100%;
+    height:50%;
+  }
+
+  .image-div img {
+    height:100%;
+    width:auto;
+  }
+  
+  
+
+  .clear {
+    clear: both;
+  }
+
+  #kanye-west{
+    background-color: green;
+    margin: 2%;
+    height:780px;
+    max-width:100%;
+    position:relative;
+  }
+
+  
+
+  #icon{
+    width:100%;
+    height:200px;
+    text-align: center;
+    position: absolute;
+    top:30%;
+    left:-10%;
+  }
+
+  #icon img{
+    height:100%;
+    width:auto;
+  }
+
+  .music {
+    width:100%;
+    height:100%;
+  }
+
+  .part {
+    width:45%;
+    height:730px;
+    float: left;
+    color:white;
+    padding-top:50px;
+  }
+
+  .album { 
+    float:right;
+  }
+
+  .app  {
+    width:100%;
+    height:85%;
+    text-align:right;
+  }
+
+  .app img {
+    width:auto;
+    height:100%;
+    padding-right: 115px;
+  }
+  
+  .part p {
+    text-align: left;
+  }
+
+  .text{
+    padding-left: 115px;
+  }
+
+  .part h2{
+    margin-top:50px;
+    font-size: 1.8em;
+    font-weight: 600;
+  }
+
+  .part h3{
+    font-size: 2em;
+    margin-top:0;
+    text-decoration: underline;
+    text-underline-position: under;
+    text-decoration-color: #FFF;
+  }
