@@ -1,8 +1,295 @@
-/*
-Colors:
 
-Text: 1A1A1A
-Green: #00B172
-White: #FFF
+body {
+  background-color: white;
+  font-family: 'Sarabun', sans-serif;
+  margin: 0;
+  padding: 0;
+}
 
-*/
+nav {
+  margin: 0;
+  width: 100%;
+  position: fixed;
+  height: 100px;
+  background-color: white;
+  top: 0;
+}
+
+nav ul {
+  float: right;
+  margin: 20px 40px 0px;
+}
+
+nav a {
+  text-decoration: none;
+  color: #1A1A1A;
+}
+
+.logo-image {
+  margin: 10px 40px;
+  width: 250px;
+  height: auto;
+  float: left;
+}
+
+.nav-bar-li {
+  float: left;
+  list-style: none;
+  margin: 15px;
+  font-size: 1px;
+  color: #1A1A1A;
+  border: rgba(0, 177, 114, 0) solid 4px;
+}
+
+.logo-image:hover {
+  transform: rotate(720deg);
+  transition-duration: 2s;
+  transition-timing-function: linear;
+  transition-delay: 0.5s;
+
+}
+
+.nav-bar-li:hover {
+  border:  rgba(0, 177, 114, 1) solid 4px;
+  transition: border;
+  transition-duration: 1s;
+  transition-timing-function: linear;
+  transition-delay: 0s;
+}
+
+.li1 {
+  animation-name: appearance;
+  animation-duration: 3s;
+  animation-fill-mode: forwards;
+  animation-timing-function: cubic-bezier(0.075, 0.82, 0.165, 1); 
+}
+
+.li1:before {
+  font-size: 1px;
+}
+.li1:after {
+  font-size: 26px;
+}
+
+.li2 {
+  animation-name: appearance;
+  animation-duration: 6s; 
+  animation-fill-mode: forwards;
+  animation-timing-function: cubic-bezier(0.075, 0.82, 0.165, 1);
+}
+
+.li2:before {
+  font-size: 1px;
+}
+.li2:after {
+  font-size: 26px;
+}
+
+.li3 {
+  animation-name: appearance;
+  animation-duration: 9s;
+  animation-fill-mode: forwards;
+  animation-timing-function: cubic-bezier(0.075, 0.82, 0.165, 1); 
+}
+
+.li3:before {
+  font-size: 1px;
+}
+.li3:after {
+  font-size: 26px;
+}
+
+.li4 {
+  animation-name: appearance;
+  animation-duration: 12s; 
+  animation-fill-mode: forwards;
+  animation-timing-function: cubic-bezier(0.075, 0.82, 0.165, 1);
+}
+
+.li4:before {
+  font-size: 1px;
+}
+.li4:after {
+  font-size: 26px;
+}
+
+@keyframes appearance {
+  0% {
+    font-size: 1px;
+  }
+
+  100% {
+    font-size: 26px;
+  }
+}
+
+.main-section {
+  position: static;
+  background-image: url(../images/landing.jpg);
+  background-size: cover;
+  width: 100%;
+  height: 1200px;
+  color: #FFF;
+  top: 100px;
+}
+
+.main-section-text h1 {
+  font-size: 86px;
+  padding: 0 0 25px 0;
+  font-weight: 700;
+  letter-spacing: 3px;
+}
+
+.main-section-text h1 {
+animation: beat .25s infinite alternate;
+}
+@keyframes beat{
+	to { transform: scale(1.2); }
+}
+
+.main-section-text p {
+  font-size: 32px;
+  font-weight: 100;
+  line-height: 0.5;
+}
+
+.main-section-text {
+  padding: 400px 0 0 0;
+  width: 100%;
+  height: auto;
+  text-align: center;
+
+}
+
+#whats-on {
+  height: 700px;
+}
+
+#whats-on h2 {
+  margin: 40px auto;
+  width: 80px;
+  border-bottom: #00B172 solid 5px;
+  padding: 10px 0;
+  text-align: center;
+  font-size: 1px;
+  letter-spacing: 2px;
+}
+
+#whats-on h2:before {
+  font-size: 1px;
+  width: 80px;
+}
+#whats-on h2:after {
+  font-size: 38px;
+  width: 345px;
+}
+
+#whats-on h2 {
+  animation-name: grow;
+  animation-duration: 5s; 
+  animation-fill-mode: forwards;
+  animation-timing-function: linear;
+}
+
+@keyframes grow {
+  0% {
+    font-size: 1px;
+    width: 80px;
+  }
+
+  100% {
+    font-size: 38px;
+    width: 345px;
+  }
+}
+
+.column-wrapper {
+  width: 100%;
+  margin: 0 auto;
+  padding: 100px 0;
+}
+
+.column {
+  float: left;
+  width: 33%;
+  text-align: center;
+}
+
+.column-image {
+  height: 150px;
+  width: auto;
+}
+
+.column-image:hover {
+  transform: scale(1.2);
+  transition-duration: 0.25s;
+}
+
+#whats-on h3 {
+  color: #00B172;
+  font-size: 36px;
+  font-weight: 700;
+  letter-spacing: 2px;
+}
+
+#whats-on p {
+  font-size: 26px;
+  font-weight: 100;
+  margin: 0 auto;
+  width: 300px;
+} 
+
+.variety-section {
+  position: relative;
+  margin: 40px;
+  background-color: #00B172;
+  height: 800px;
+}
+
+.variety-section .phone-image {
+  position: absolute;
+  top: 120px;
+  right: 150px;
+  width: 330px;
+  height: auto;
+}
+
+.variety-section .icon-image {
+  width: 200px;
+  height: auto;
+  position: absolute;
+  top: 40%;
+  left: 45%;
+}
+
+.icon-image:hover {
+  transform: rotate(720deg);
+  transition-duration: 2s;
+  transition-timing-function: linear;
+  transition-delay: 0.5s;
+}
+
+.variety-section-text {
+  position: absolute;
+  color: #FFF;
+  top: 80px;
+  left: 150px;
+}
+
+.variety-section-text h2 {
+  width: 510px;
+  font-size: 38px;
+  border-bottom: #FFF solid 5px;
+  letter-spacing: 2px;
+}
+
+.variety-section-text h3 {
+  font-size: 30px;
+  font-weight: 700;
+  letter-spacing: 2px;
+}
+
+.variety-section-text p {
+  font-size: 22px;
+  width: 350px;
+}
