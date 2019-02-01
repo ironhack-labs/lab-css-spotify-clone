@@ -6,3 +6,217 @@ Green: #00B172
 White: #FFF
 
 */
+body{
+    padding: 0;
+    margin: 0;
+    font-family: 'Roboto', sans-serif;
+}
+.navHeader{
+    padding: 10px 50px 10px;
+    position: fixed;
+    background-color: white;
+    z-index: 1;
+    width: calc(100% - 100px);
+}
+.navHeader img{
+    width: 200px;
+}
+.infoNav{
+    float: right;
+}
+.infoNav li{
+    float: left;
+    list-style-type: none;
+    margin-left: 40px;
+}
+.imgFondo{
+    background: url('../images/landing.jpg') no-repeat center;
+    background-size: cover;
+    display: block;
+    /*height: 800px;*/
+    padding:300px 0;
+    text-align: center;
+    color: #fff;
+}
+.imgFondo .infoFondo{
+    width: 400px;
+    margin: 0 auto;
+}
+.whatSpotify{
+    width: 900px;
+    margin: 30px auto 60px;
+
+}
+.whatSpotify h2{
+    text-align: center;
+    width: 200px;
+    margin: 0 auto;
+}
+.greenLine{
+    width: 190px;
+    height: 2px; 
+    background-color: #00B172;
+    margin: 0 auto;
+}
+.infoWhat{
+    margin: 60px 0;
+}
+.infoWhatSect{
+    width: 300px;
+    float: left;
+    text-align: center;
+}
+.infoWhatSect img{
+    width: 60px;
+}
+.infoWhatSect p{
+    padding: 0 60px;
+}
+.infoWhatSect h3{
+    color: #00B172;
+}
+.greenSection{
+    background-color: #00B172;
+    color: #fff;
+    position: relative;
+    padding: 60px 100px;
+    margin: 0 50px 50px;
+}
+.infoGreen{
+    width: 300px;
+    float: left;
+}
+.infoGreen h2{
+    width: 100%;
+    margin-bottom: 5px;
+}
+.infoGreen p{
+    padding-bottom: 20px;
+}
+.whiteLine{
+    width: 300px;
+    height: 2px; 
+    background-color: #fff;
+    margin-bottom: 40px;
+}
+.imgAppSpotify{
+    background: url('../images/spotify-app.jpg') no-repeat center;
+    background-size: cover;
+    display: block;
+    width: 414px;
+    height: 754px;
+    float: right;
+}
+.spotifyLogo img{
+    position: absolute;
+    width: 120px;
+    background: #00B172;
+    top: 375px;
+    left: 45%;
+}
+.strongP{
+    font-weight: bold;
+    font-size: 1.1em;
+}
+
+.contenedor {
+    width: 300px;
+    height: 28px;
+    position: absolute;
+    top: 84%;
+    left: 40%;
+    margin: 0 auto;
+    background: rgb(54 35 9);
+    
+}
+.barra {
+    height: 100%;
+    background: rgb(83 175 113);
+}
+
+.texto {
+    font-weight: bold;
+    text-align: center;
+    color: rgb(54 35 9);
+    padding: 5px;
+}
+
+.texto:after {
+    content: 'Join us';
+}
+@keyframes progreso {
+    0% {
+        width: 0;
+    }
+    100% {
+        width: 100%;
+    }
+}
+
+@keyframes porcentaje {
+    0% {
+        content: '0%';
+        color: transparent;
+    }
+    25% {
+        content: '25%';
+    }
+    50% {
+        content: '50%';
+    }
+    75% {
+        content: '75%';
+    }
+    100% {
+        content: '100%';
+    }
+}
+.barra {
+    animation: progreso 8s linear infinite;
+    animation-iteration-count: 1;
+}
+.texto:after {
+    animation: porcentaje 8s linear infinite;
+    animation-iteration-count: 1;
+}
+
+.preloader_1{
+    position: absolute;
+    right: 52%;
+    top: 60%;
+}
+.preloader_1 span{
+    display:block;
+    bottom:0px;
+    width: 9px;
+    height: 5px;
+    position:absolute;
+    animation: preloader_1 1s  infinite ease-in-out;
+}
+ 
+.preloader_1 span:nth-child(2){
+left:11px;
+animation-delay: .8s;
+ 
+}
+.preloader_1 span:nth-child(3){
+left:22px;
+animation-delay: .4s;
+}
+.preloader_1 span:nth-child(4){
+left:33px;
+animation-delay: .3s;
+}
+.preloader_1 span:nth-child(5){
+left:44px;
+animation-delay: .6s;
+}
+@keyframes preloader_1 {
+    0% {height:5px;transform:translateY(0px);background:rgb(18 15 11);}
+    25% {height:30px;transform:translateY(15px);background:rgb(219 79 51);}
+    50% {height:5px;transform:translateY(0px);background:rgb(18 15 11);}
+    100% {height:5px;transform:translateY(0px);background:rgb(18 15 11);}
+}
+.clearfix{
+    clear: both;
+}
