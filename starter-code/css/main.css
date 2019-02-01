@@ -38,10 +38,7 @@
 .navbar li:hover {
   border-bottom: 3px solid #00B172;
   font-size: 1.25rem;
-  transition-property: font-size;
-  transition-duration: 0.25s;
-  transition-timing-function:linear;
-  transition-delay: 0s;
+  transition: font-size 0.25s linear 0s;
 }
 
 .large-image {
@@ -52,6 +49,11 @@
   position: relative;
   height: 1000px;
   color: white;
+  animation-name: appearing-animation;
+  animation-duration: 400ms;
+  animation-delay: 1s;
+  animation-timing-function: cubic-bezier(0.175, 0.885, 0.32, 1.275);
+  animation-fill-mode: backwards;
 }
 
 .large-image h1 {
@@ -61,6 +63,10 @@
   font-size: 4rem;
   font-weight: 500;
   letter-spacing: 2px;
+  animation-name: h1-animation;
+  animation-duration: 400ms;
+  animation-delay: 1s;
+  animation-timing-function: cubic-bezier(0.68, -0.55, 0.265, 1.55);
 }
 
 .large-image h3 {
@@ -71,7 +77,21 @@
   text-align: center;
   font-size: 1.4rem;
   font-weight: 100;
-  letter-spacing: 1px;  
+  letter-spacing: 1px;
+}
+
+@keyframes appearing-animation {
+  0% { color: rgba(255, 255, 255, 0); }
+  20% { color: rgba(255, 255, 255, 0); }
+  40% { color: rgba(255, 255, 255, 0.3); }
+  60% { color: rgba(255, 255, 255, 0.5); }
+  80% { color: rgba(255, 255, 255, 0.9); }
+  100% { color: rgba(255, 255, 255, 1); }
+}
+
+@keyframes h1-animation {
+  0% { font-size: 1rem; }
+  100% { font-size: 4rem; }
 }
 
 .what-section {
