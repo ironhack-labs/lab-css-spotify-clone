@@ -28,19 +28,17 @@ h2 {
   clear: both;
 }
 .Content{
-  padding-top: 100px;
+  padding: 100px 50px 50px 50px;
 }
 .MainContainer{
   width: 1290px;
   margin: 0 auto;
-  border: 1px solid red;
 }
 /* header styles */
 .Header{
   width: 100%;
   background-color: white;
-  padding: 20px;
-  border: 1px solid blue;
+  padding: 20px 80px;
   height: 100px;
   position: fixed;
   box-sizing: border-box;
@@ -53,16 +51,44 @@ h2 {
   height: 57px;
   display: block;
   float: left;
+  
 }
+
 .HeaderLogo img{ 
   width: auto;
   height: 100%;
+  -webkit-animation-name: logoAnimation;
+  -webkit-animation-duration: 1s;
+  animation-name: logoAnimation;
+  animation-duration: 0.5s;
+  animation-delay: 0.5s;
+  animation-fill-mode: backwards;
+  animation-iteration-count: 1;
+}
+@-webkit-keyframes logoAnimation {
+  0% {
+    opacity: 1;
+    margin-left: -310px;
+  }
+  100% {
+    opacity: 1;
+    margin-left: 0px;
+  }
+}
+@keyframes logoAnimation {
+  0% {
+    opacity: 1;
+    margin-left: -310px;
+  }
+  100% {
+    opacity: 1;
+    margin-left: 0px;
+  }
 }
 .HeaderNav{
   float: right;
   list-style-type: none;
-  width: 475px;
-  margin-top: 10px;
+  margin-top: 15px;
 }
 .HeaderNav__item{
   display: inline-block;
@@ -70,7 +96,11 @@ h2 {
 }
 .HeaderNav__item a {
   color: #1A1A1A;
-  font-size: 25px;
+  font-size: 20px;
+}
+.HeaderNav__item a:hover {
+  color: #00B172;
+  transition: color 0.2s ease-in-out 0.2s;
 }
 /* MainBanner styles */
 .MainBanner{
@@ -89,6 +119,32 @@ h2 {
   left: 50%;
   transform: translate(-50%, -50%);
   text-align: center;
+  -webkit-animation-name: titleAnimation;
+  -webkit-animation-duration: 0.5s;
+  animation-name: titleAnimation;
+  animation-duration: 0.5s;
+  animation-delay: 1.5s;
+  animation-fill-mode: backwards;
+}
+@-webkit-keyframes titleAnimation {
+  0% {
+    opacity: 0;
+    margin-top: -310px;
+  }
+  100% {
+    opacity: 1;
+    margin-top: 0;
+  }
+}
+@keyframes titleAnimation {
+  0% {
+    opacity: 0;
+    margin-top: -310px;
+  }
+  100% {
+    opacity: 1;
+    margin-top: 0;
+  }
 }
 .MainBanner__title{
   color: #fff;
@@ -153,6 +209,14 @@ h2 {
   width: 135px;
   height: 135px;
   height: auto;
+  -webkit-transition: -webkit-transform .8s ease-in-out;
+    -ms-transition: -ms-transform .8s ease-in-out;
+    transition: transform .8s ease-in-out;
+}
+.GreenSpoty img:hover {
+  transform:rotate(360deg);
+  -ms-transform:rotate(300deg);
+  -webkit-transform:rotate(360deg);
 }
 .GreenSectionLeft{
   width: 500px;
