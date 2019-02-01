@@ -10,6 +10,10 @@ White: #FFF
 * {
   margin: 0;
   padding: 0;
+
+}
+
+body{
   font-family:  Arial, Helvetica, sans-serif;
   color: #1A1A1A;
 }
@@ -20,18 +24,18 @@ header {
 }
 
 .container {
-  margin: 0 50px;
+  margin: 0 100px;
 }
 
 .container2 {
-  margin: 0 200px;
+  margin: 0 200px 120px 200px;
 }
 
 .header-logo {
   display: inline-block;
   height: 70px;
   width: auto;
-  float: left
+  float: left;
 }
 
 .navbar {
@@ -39,7 +43,7 @@ header {
   position: fixed;
   top: 0;
   background-color: #FFF;
-  padding: 20px 60px;
+  padding: 20px 120px;
   font-size: 1.5em;
   font-weight: lighter;
   width: 100%;
@@ -48,9 +52,10 @@ header {
 .ul {
   display: inline-block;
   text-decoration: none;
-  padding-right: 60px;
+  padding-right: 200px;
   float: right;
-  vertical-align: middle
+  vertical-align: middle;
+  margin-top: 20px;
 }
 
 .ul li {
@@ -77,7 +82,7 @@ h1 {
   color: #FFF;
   padding-top: 500px;
   text-align: center;
-  font-size: 7rem;
+  font-size: 6rem;
   font-weight: 200;
 }
 
@@ -86,34 +91,36 @@ h1 {
   width: 50%;
   color: #FFF;
   text-align: center;
-  font-size: 2.5rem;
+  font-size: 2rem;
   font-weight: lighter;
   margin: 30px 25%;
 }
 .tittle2 {
+  text-align: center;
 }
 
 .tittle2 h2{
+  display: inline-block;
   width: auto;
   font-size: 2.5rem;
   font-weight: bolder;
   text-align: center;
   padding-top: 50px;
-  text-decoration-line: underline;
-  text-decoration-color: #00B172;
-  text-decoration-style: inherit;
-  padding-bottom: 70px;
+  margin-bottom: 70px;
+  margin-top: 30px;
+  border-bottom: 3px solid #00B172;
+  padding-bottom: 5px;
 }
 
 .icons {
   width: 33%; 
   display: inline-block;
-  vertical-align: middle;
+  vertical-align: top;
 }
 
 .icons img {
   display: block;
-  width: 25%;
+  height: 110px;
   margin: 0 auto;
   padding-bottom: 20px;
 }
@@ -135,4 +142,67 @@ h1 {
   margin: 0 auto;
   padding-top: 20px;
   font-weight: lighter;
+}
+
+.green {
+  background-color: #00B172;
+  height: auto;
+  margin-bottom: 50px;
+}
+
+.left-green {
+  width: 50%; 
+  padding: 70px 100px;
+  display: inline-block;
+  box-sizing: border-box;
+}
+
+.left-green h2{
+  display: inline-block;
+  color: white;
+  font-size: 2.5rem;
+  border-bottom:  5px solid white;
+  padding-bottom: 20px;
+  margin-bottom: 70px;
+}
+
+.left-green h3 {
+  color: white;
+  font-size: 2rem;  
+  margin-bottom: 50px
+}
+
+.left-green p {
+  width: 50%;
+  color: white;
+  font-size: 1.5rem;  
+  font-weight: lighter;
+  margin-bottom: 50px;
+}
+
+.right-green {
+  width: 40%;
+  float: right;
+}
+
+.right-green img {
+  width: 60%;
+  float: right;
+  padding: 100px 100px 0 0;
+}
+
+.white-icon {
+  position: absolute;
+  top: 2100px;
+  left: 850px;
+}
+
+.white-icon img{
+  width: 200px;
+}
+
+.textmenu:hover {
+  text-shadow: -.25px -.25px 0 black, 
+  .25px .25px black;
+  font-size: 2rem;
 }
