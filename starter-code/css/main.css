@@ -6,3 +6,158 @@ Green: #00B172
 White: #FFF
 
 */
+html, body {
+  height: 100%;
+}
+* {
+  font-family: "Roboto", 'Courier New', Courier, monospace;
+  font-size: 20px;
+  margin: 0;
+}
+
+.nav-bar {
+  position: fixed;
+  height: 90px;
+  width: 100%;
+  background: white;
+}
+
+.nav-bar > img {
+  position: absolute;
+  width: 17%;
+  float: left;
+  top: 50%;
+  transform: translateY(-50%);
+  left: 3%;
+}
+
+.nav-bar > ul {
+  float: right;
+  list-style-type: none;
+  padding-top: 30px;
+  padding-bottom: 30px;
+  margin-right: 40px;
+}
+
+.nav-bar > ul > li {
+  display: inline;
+  margin-left: 12px;
+  margin-right: 12px;
+  font-weight: bold;
+}
+
+.main-img {
+  width: 100%;
+}
+
+.main-img > img {
+  width: 100%;
+}
+
+.main-img > div {
+  color: white;
+  position: absolute;
+  top: 65%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  text-align: center;
+
+}
+
+.main-img > div > h1 {
+  font-size: 3.5em;
+  width: 100%
+}
+
+.main-img > div > p {
+  font-size: 1.3em;
+  position: relative;
+  top: 30px;
+}
+
+.container {
+  width: 100%;
+  padding: 3%;
+  box-sizing: border-box;
+  text-align: center;
+}
+
+.container > h2 {
+  width: 23%;
+  margin: 0 auto;
+  border-bottom: 3px solid #00B172;
+  padding-bottom: 3px;
+  font-size: 1.6em;
+  font-weight: 600;
+}
+
+.container > div > img {
+  width: 50%;
+}
+
+.container > div > h3 {
+  color: #00B172;
+  font-weight: bold;
+  font-size: 1.3em;
+  padding: 30px 0;
+}
+
+.container > div {
+  display: inline-block;
+  width: 20%;
+  margin: 70px 6% 30px 6%;
+  box-sizing: border-box;
+  text-align: center;
+}
+
+.kanye {
+  clear: both;
+}
+
+.kanye > div {
+  background: #00B172;
+  color: #FFF;
+  padding: 5% 7%;
+  margin: 40px;
+  position: relative;
+}
+
+.kanye > div > div {
+  width: 50%;
+}
+
+.kanye > div > div > * {
+  margin-bottom: 30px;
+}
+
+.kanye > div > div > h3 {
+  font-size: 1.3em;
+  font-weight: bold;
+}
+
+.kanye > div > div > h2 {
+  width: 80%;
+  font-size: 1.6em;
+  border-bottom: 3px solid #fff;
+  padding-bottom: 3px;
+  font-size: 1.6em;
+  font-weight: 600;
+  margin-bottom: 50px;
+}
+
+img[src*="spotify-app"] {
+  position: relative;
+  float: right;
+  top: 0;
+  height: 10em;
+}
+
+img[src*="icon-white"] {
+  position: absolute;
+  width: 100px;
+  height: auto;  
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+}
+
