@@ -1,7 +1,7 @@
 /*
 Colors:
 
-Text: 1A1A1A
+Text: #1A1A1A
 Green: #00B172
 White: #FFF
 
@@ -17,14 +17,41 @@ nav {
     position: fixed;
     background-color: #FFF;
     width: 100%;
+    height: 94px;
 }
 
 nav img {
     float: left;
+    position: absolute;
+    top: 50%;
+    transform: translateY(-50%);
+    left: 39px;
+
 }
 
 nav ul {
     float: right;
+    position: absolute;
+    right: 41px;
+    top: 50%;
+    transform: translateY(-50%);
+    font-size: 20px;
+    font-weight: 100;
+   }
+
+ul li {
+    margin-left: 31px;
+    display: inline;    
+}
+
+a:link {
+    text-decoration: none;
+    color: black;
+}
+
+a:visited {
+    text-decoration: none;
+    color: #1A1A1A;
 }
 
 header {
@@ -53,6 +80,16 @@ header p {
 .col-3 {
     width: 30%;
     float: left;
+    text-align: center;
+    
+}
+
+.col-3 h3 {
+    color: #00B172;
+}
+
+.col-center {
+    margin: 0 12%;
 }
 
 .section-1 {
@@ -63,18 +100,15 @@ header p {
 }
 
 h2 {
-    
     margin: 0 auto;
     width: 300px;
     position: absolute;
     bottom: -260px;
     color: 1A1A1A;
     font-size: 33px;
-   
 }
 
-hr {
-    background-color: red;
+.section-1 hr {
     position: absolute;
     width: 285px;
     bottom: -274px;
@@ -83,10 +117,71 @@ hr {
     display: block;
 }
 
-.col-3 {
-    text-align: center;
+h3 {
+font-size: 27px;
 }
 
-nav li {
-    display: inline;
+.section-1 p {
+    font-size: 23px;
+    color: #1A1A1A;
+    font-weight: lighter;
+    margin: 30px auto 0 auto;
+    width: 250px;
+    text-align: center;
+    line-height: 32px;
+}
+
+.green-pa {
+    background-color: #00B172;
+    position: relative;
+    width: 100%;
+    height: 785px;
+}
+
+.green-pa div {
+    float: left;
+    left: 95px;
+    position: absolute;    
+    margin-top: 182px;
+    color: #FFF;
+}
+
+.app {
+    float: right;
+    top: 109px;
+    right: 100px;
+    position: absolute;
+}
+
+.green-pa h2 {
+    top: -114px;
+    width: 464px;
+    color: #FFF;
+}
+
+.green-pa hr {
+    border: 2px solid;
+    top: -68px;
+    display: block;
+    position: absolute;
+    width: 436px;
+    color: #FFF;
+}
+
+.green-pa h3 {
+    margin-bottom: 30px;
+}
+
+.green-pa p {
+    font-size: 20px;
+    font-weight: lighter;
+    width: 295px;
+    line-height: 30px;
+    margin-bottom: 44px;
+}
+
+.white {
+    position: absolute;
+    right: 575px;
+    top: 327px;
 }
