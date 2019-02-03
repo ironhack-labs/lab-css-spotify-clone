@@ -1,41 +1,163 @@
+
 /*
 Colors:
-
 Text: 1A1A1A
 Green: #00B172
 White: #FFF
-
 */
-
-*{
+html, body {
+    height: 100%;
+  }
+  * {
     font-family: "Roboto", 'Courier New', Courier, monospace;
-}
-
-
-.nav>img{
-    width:25%;
-    height:;
-    display:block;
+    font-size: 20px;
+    margin: 0;
+  }
+  
+  .nav {
     position: absolute;
-}
-.nav>ul{
+    height: 90px;
+    width: 100%;
+    background: white;
+  }
+  
+  .nav > img {
+    position: absolute;
+    width: 17%;
+    float: left;
+    top: 50%;
+    transform: translateY(-50%);
+    left: 3%;
+  }
+  
+  .nav > ul {
+    float: right;
+    padding-top: 30px;
+    padding-bottom: 30px;
+    margin-right: 40px;
+  }
+  
+  .nav> ul > li {
+    display: inline;
+    margin: 0px 12px;
+    font-weight: bold;
+  }
+  
+  .first-img {
+    width: 100%;
+  }
+  
+  .first-img > img {
+    width: 100%;
+  }
+  
+  .first-img > div {
+    color: white;
+    position: absolute;
+    top: 65%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    text-align: center;
+  
+  }
+  
+  .first-img > div > h1 {
+    font-size: 3.5em;
+    width: 100%
+  }
+  
+  .first-img > div > p {
+    font-size: 1.3em;
+    position: relative;
+    top: 30px;
+  }
+  
+  .second-div {
+    width: 100%;
+    padding: 3%;
+    box-sizing: border-box;
+    text-align: center;
+    font-weight: bold;
+  }
+  
+  .second-div > h2 {
+    width: 23%;
+    margin: 0 auto;
+    border-bottom: 3px solid #00B172;
+    padding-bottom: 3px;
+    font-size: 2em;
+    font-weight: bold;
+
+  }
+  
+  .second-div > div > img {
+    width: 50%;
+  }
+  
+  .second-div > div > h3 {
+    color: #00B172;
+    font-weight: bold;
+    font-size: 1.5em;
+    padding: 30px 0;
+  }
+  
+  .second-div > div {
+    display: inline-block;
+    width: 20%;
+    margin: 70px 6% 30px 6%;
+    box-sizing: border-box;
+    text-align: center;
+  }
+  
+  .west-div {
+    clear: both;
+  }
+  
+  .west-div > div {
+    background: #00B172;
+    color: #FFF;
+    padding: 5% 7%;
+    margin: 45px;
+    position: relative;
+  }
+  
+  .west-div > div > div {
+    width: 50%;
+  }
+  
+  .west-div > div > div > * {
+    margin-bottom: 25px;
+  }
+  
+  .west-div > div > div > h3 {
+    font-size: 1.5em;
+    font-weight: bold;
+  }
+  
+  .west-div > div > div > h2 {
+    width: 80%;
+    font-size: 1.5em;
+    border-bottom: 3px solid #fff;
+    padding-bottom: 3px;
+    font-size: 1.6em;
+    font-weight: 600;
+    margin-bottom: 50px;
+  }
+  
+  img[src*="spotify-app"] {
     position: relative;
     float: right;
-}
-.nav>ul>li{
-    position: relative;
-    display:inline;
-    padding: 10px;
-    
-}
-
-.head{
-    display: block;
-    position: relative;
-    float:center;
-}
-
-head>img{
-    width: 100%;
-    height: 100%;
-}
+    top: 0;
+    height:;
+    width:30%;
+  }
+  
+  img[src*="icon-white"] {
+    position: absolute;
+    width: 100px;
+    height: auto;  
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+  }
+  
