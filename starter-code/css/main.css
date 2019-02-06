@@ -7,10 +7,18 @@ White: #FFF
 
 */
 
+@import url('https://fonts.googleapis.com/css?family=Montserrat');
+
+
 body {
     margin: 10px 0px;
-    font-family: sans-serif;
+    font-family: 'Montserrat', sans-serif;
     font-size: 18px;
+    letter-spacing: 1px;
+}
+
+h3 {
+    font-size: 24px;
 }
 
 .header-top {
@@ -32,7 +40,6 @@ body {
     float:left;
     padding: 20px;
     list-style-type: none;
-    letter-spacing: 1px;
 }
 
 .hero {
@@ -46,12 +53,10 @@ body {
 
 .hero h1 {
     font-size: 68px;
-    letter-spacing: 1px;
 }
 
 .hero p {
     font-size: 26px;
-    letter-spacing: 1px;
     line-height: 5px;
 }
 
@@ -63,9 +68,9 @@ body {
 }
 
 .whats_on h2 {
-    padding-bottom: 50px;
-    text-decoration: underline;
-    text-decoration-color: #00B172;
+    width: 30%;
+    margin: 20px auto 50px auto;
+    border-bottom: 3px solid #00B172;
 }
 
 .feature {
@@ -82,6 +87,44 @@ body {
     color: #00B172;
 }
 
+.spotify-app {
+    position: relative;
+    margin: 0 20px;
+    padding: 50px;
+    color: white;
+    background-color: #00B172;
+}
+
+.spotify-app .info {
+    width: 50%;
+    float: left;
+}
+
+.spotify-app .screenshot {
+    width: 50%;
+    float: left;
+    text-align: center;
+}
+
+.info h2 {
+    width: 70%;
+    border-bottom: 3px solid #FFF;
+}
+
+.info p {
+    width: 70%;
+}
+
+.minilogo {
+    width: 100px;
+    position: absolute;
+    left: calc(50% - 50px);
+    top: calc(50% - 50px);
+}
+
+.screenshot img {
+    width: 50%;
+}
 
 
 .clearfix {
