@@ -1,8 +1,147 @@
-/*
-Colors:
+@import url('https://fonts.googleapis.com/css?family=Montserrat');
 
-Text: 1A1A1A
-Green: #00B172
-White: #FFF
+body{
+    font-family: montserrat;
+    margin: 0px;
+}
 
-*/
+.nav-bar{
+    height: 80px;
+    padding-bottom: 30px;
+    position: fixed;
+    width:100%;
+    top: 0px;
+    background: white;
+    z-index: 10;
+}
+
+.nav-items li{
+    float: right;
+    color: #1A1A1A;
+    list-style: none;
+    padding: 30px 30px 0px 0px;
+    font-size: 22px;
+    cursor: pointer;
+}
+
+.nav-bar img{
+    float: left;
+    height: 70px;
+    padding: 20px 10px 10px 40px;
+    cursor: pointer;
+}
+
+.main-banner{
+    background: url("../images/landing.jpg");
+    text-align: center;
+    color: white;
+    background-size: 100%;
+    padding: 150px;
+    margin: auto;
+    height: 650px;
+}
+
+.main-banner > h2 {
+    font-size: 4.5em;
+    font-weight: 900;
+
+}
+
+.main-banner > p {
+    font-size: 2em;
+}
+
+.whats-on{
+
+}
+
+.whats-on > p{
+    text-decoration: underline #00B172;
+    color: black;
+    font-size: 2.5em;
+    font-weight: bold;
+    text-align: center;
+
+}
+
+.features{
+    box-sizing: border-box;
+    text-align: center;
+    padding: 30px;
+    width: 33.3%;
+    float:left;
+
+}
+
+.features > h3{
+    color: #00B172;
+    font-size: 1.6em;
+    font-weight: bold;
+}
+
+.features > img{
+    width: 150px;
+}
+
+.features > p{
+    font-size: 1.3em;
+
+}
+
+.green-section{
+    position: relative;
+    margin: 30px;
+}
+
+.white-on-green{
+    color: white;
+    padding: 70px 70px 70px 100px;
+    float: left;
+    width: 50%;
+    box-sizing: border-box;
+    background-color: #00B172;
+}
+
+.white-on-green > h2{
+    font-size: 2.4em;
+    text-decoration: underline;
+}
+
+.white-on-green > h3{
+    font-size: 2.0em;
+    font-weight: 1000;
+}
+
+.white-on-green > p{
+    font-size: 1.4em;
+}
+
+.app-image{
+    float: left;
+    background-color: #00B172;
+    width: 50%;
+
+}
+
+.app-image > img{
+    padding: 100px 100px 100px 200px;
+    width: 384.5px;
+    text-align: center;
+}
+
+.spotify-icon{
+    
+    width: 40px;
+}
+
+.spotify-icon > img{
+    position: absolute;
+    width: 140px;
+    top: 360px;
+    left:640px;
+
+}
+
+.clearfix {
+    clear: both;
+  }
