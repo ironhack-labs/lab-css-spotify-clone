@@ -70,6 +70,7 @@ h3 {
 .whats_on h2 {
     width: 30%;
     margin: 20px auto 50px auto;
+    font-weight: 900;
     border-bottom: 3px solid #00B172;
 }
 
@@ -77,6 +78,10 @@ h3 {
     width: 33.3%;
     float: left;
     line-height: 5px;
+}
+
+.fix {
+    padding-top: 18px;
 }
 
 .feature img {
@@ -89,30 +94,29 @@ h3 {
 
 .spotify-app {
     position: relative;
-    margin: 0 20px;
+    margin: 0 20px 20px 20px;
     padding: 50px;
     color: white;
     background-color: #00B172;
 }
 
 .spotify-app .info {
-    width: 50%;
+    box-sizing: border-box;
+    padding-left: 20px;
+    width: 60%;
     float: left;
-}
-
-.spotify-app .screenshot {
-    width: 50%;
-    float: left;
-    text-align: center;
 }
 
 .info h2 {
+    font-size: 30px;
     width: 70%;
     border-bottom: 3px solid #FFF;
+    padding-bottom: 10px;
 }
 
 .info p {
-    width: 70%;
+    padding: 10px 0;
+    width: 50%;
 }
 
 .minilogo {
@@ -122,10 +126,15 @@ h3 {
     top: calc(50% - 50px);
 }
 
-.screenshot img {
-    width: 50%;
+.spotify-app .screenshot {
+    width: 40%;
+    float: left;
+    text-align: center;
 }
 
+.screenshot img {
+    width: 70%;
+}
 
 .clearfix {
     clear: both;
