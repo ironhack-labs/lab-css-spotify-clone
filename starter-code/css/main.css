@@ -6,3 +6,106 @@ Green: #00B172
 White: #FFF
 
 */
+
+
+html, body, div, span, applet, object, iframe,
+h1, h2, h3, h4, h5, h6, p, blockquote, pre,
+a, abbr, acronym, address, big, cite, code,
+del, dfn, em, img, ins, kbd, q, s, samp,
+small, strike, strong, sub, sup, tt, var,
+b, u, i, center,
+dl, dt, dd, ol, ul, li,
+fieldset, form, label, legend,
+table, caption, tbody, tfoot, thead, tr, th, td,
+article, aside, canvas, details, embed, 
+figure, figcaption, footer, header, hgroup, 
+menu, nav, output, ruby, section, summary,
+time, mark, audio, video {
+	margin: 0;
+	padding: 0;
+	border: 0;
+	font-size: 100%;
+	font: inherit;
+	vertical-align: baseline;
+}
+
+
+body {
+  display: grid;
+  grid-template-rows: 3% 28% 25% 35%;
+  font-family: 'Monserrat', sans-serif;
+}
+
+/* ----------------------------- HEADER SECTION -------------------------- */
+
+.header-main-div {
+  grid-row-start: 1;
+  grid-row-end: 2;
+  display: flex;
+  justify-content: space-between;
+  
+}
+
+.header-logo-img img {
+  height: 80px;
+  width: 250px;
+  margin-left: 10%;
+  margin-top: 5%;
+}
+
+.header-ul ul {
+  display: flex;
+  justify-content: space-around;
+  padding: 10px 10px;
+  width: 500px;
+  list-style-type: none;
+  font-size: 25px;
+  color:  #1A1A1A;
+  font-weight: 100;
+  margin-right: 13%;
+  margin-top: 5%;
+}
+
+
+/* ---------------------------- MAIN SECTION --------------------------- */
+
+/* ---------------------------- MAIN SECTION ONE --------------------------- */
+
+.main-section-one {
+  grid-row-start: 2;
+  grid-row-end: 3;
+  background-image: url("../images/landing.jpg");
+  height: 100%;
+  background-size: 100%;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  color: #FFFFFF;
+}
+
+.main-section-one h1{
+  font-size: 90px;
+  text-align: center;
+}
+
+.main-section-one h3{
+  font-size: 30px;
+  text-align: center;
+  font-weight: 200;
+  width: 750px;
+  margin-left: 450px;
+  margin-top: 20px;
+}
+
+/* ---------------------------- MAIN SECTION TWO --------------------------- */
+
+.section-two-title {
+    text-align: center;
+    margin: auto;
+    width: 335px;
+    border-bottom: solid 4px #00B172;
+    padding-bottom: 4px;
+    font-size: 40px;
+    padding-top: 40px;
+    
+}
