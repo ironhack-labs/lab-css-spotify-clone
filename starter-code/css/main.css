@@ -28,6 +28,16 @@ nav {
 
 nav img {
     float: left;
+    animation: rotate 2s ease-out infinite;
+}
+
+@keyframes rotate {
+    0% {
+        transform: rotate(0deg)
+    }
+    100% {
+        transform: rotate(360deg)
+    }
 }
 
 nav ul {
