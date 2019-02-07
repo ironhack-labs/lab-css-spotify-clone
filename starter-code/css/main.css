@@ -6,3 +6,220 @@ Green: #00B172
 White: #FFF
 
 */
+
+html {
+  box-sizing: border-box;
+}
+
+*, *:before, *:after {
+  box-sizing: inherit;
+}
+
+body {  
+  margin: 0;
+  padding: 0;
+  color: #000;
+  font-family: 'Montserrat', sans-serif;  
+  font-size: 20px;
+}
+
+a {
+  text-decoration: none;
+}
+
+ul {
+  list-style-type: none;
+}
+
+.nav-bar {
+  top: 0;
+  display: flex;
+  position: fixed;
+  z-index: 10;
+  background-color: white;
+  width: 100%;  
+  height: 150px;
+  justify-content: space-between;
+  align-items: center;
+  padding: 10px 30px;
+}
+
+.nav-bar img {
+  width: 20%;
+  height: 50%;
+  align-items: center;
+}
+
+.menu-items {
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+  margin-right: 20px;
+}
+
+.menu-items a {
+  margin-right: 20px;
+  color: black;
+
+}
+
+.container {
+  width: 100%;   
+}
+
+.banner {  
+  display: grid; 
+  grid-column: 100%;
+  grid-row: 100%;
+  margin-top: 150px;
+  height: 700px;  
+  background-image: url("../images/landing.jpg");
+  background-size: cover;     
+  justify-content: center;
+}
+
+.banner h1 {    
+  z-index: 2;
+  font-size: 2em;
+  color: white;
+  align-self: end;
+  text-align: center;      
+}
+
+.banner p {
+  font-size: 1.5em;
+  color: white;   
+  text-align: center;
+}
+
+.information {      
+  display: grid;  
+  grid-template-columns: 33.33% 33.33% 33.33%;
+  grid-template-rows: 10% auto;
+  grid-template-areas: 
+  "header header header"
+  "first second tirdth";   
+  justify-items: center;
+  align-items: center;  
+  padding-top: 50px;
+}
+
+.information h2 {    
+  grid-area:  header;
+  width: 100%;
+  text-align: center;  
+  color:black;  
+  text-decoration: underline #00B172;    
+}
+
+
+.articles img {  
+  width: 40%;  
+}
+
+.articles {        
+  text-align: center;
+  padding: 20px;
+  margin-top: 40px;
+
+}
+
+.first {    
+  grid-area: first;  
+}
+
+.second {  
+  grid-area: second;
+  
+}
+
+.tirdth {
+  grid-area: tirdth;
+}
+
+.articles h3 {
+  color: #00B172;
+  font-size: 1.5em;  
+}
+
+.articles p {  
+  color: grey;
+  text-align: center;
+  width: 80%;
+  margin: 0 auto;
+  font-size: 1.1em;
+  font-weight: 200;
+}
+
+
+.icon {
+  grid-area: text;
+  width: 100px;    
+  align-self: center;
+  margin-right: 100px;
+}
+
+.example {  
+  display: grid;  
+  grid-template-columns: 70% 30%; 
+  grid-template-rows: auto;
+  grid-template-areas:   
+  "text image";    
+  background-color: #00B172;
+  justify-items: end;
+  margin: 40px;
+  padding: 40px;
+}
+
+.text {
+  grid-area: text;  
+  padding-left: 50px;
+}
+
+.example h3, .example p, .example p, .example h2 {
+  color: white;
+  
+}
+
+.example p {
+  font-size: 1em;
+  font-weight: 100;
+  width: 60%;
+}
+
+.example h3, .example h2 {  
+  line-height: 2em;
+  font-weight: bolder;
+
+}
+
+.example h2 {    
+  text-decoration: underline;  
+  font-size: 1.8em;
+}
+
+.image {
+  grid-area: image;
+  align-self: center;
+}
+
+.image img {  
+  width: 300px;   
+}
+
+.example h3, .example p, .example p {
+  color: white;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
