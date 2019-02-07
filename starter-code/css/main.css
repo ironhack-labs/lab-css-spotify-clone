@@ -6,3 +6,140 @@ Green: #00B172
 White: #FFF
 
 */
+
+html, body, div, span, applet, object, iframe,
+h1, h2, h3, h4, h5, h6, p, blockquote, pre,
+a, abbr, acronym, address, big, cite, code,
+del, dfn, em, img, ins, kbd, q, s, samp,
+small, strike, strong, sub, sup, tt, var,
+b, u, i, center,
+dl, dt, dd, ol, ul, li,
+fieldset, form, label, legend,
+table, caption, tbody, tfoot, thead, tr, th, td,
+article, aside, canvas, details, embed, 
+figure, figcaption, footer, header, hgroup, 
+menu, nav, output, ruby, section, summary,
+time, mark, audio, video {
+	margin: 0;
+	padding: 0;
+	border: 0;
+	font-size: 100%;
+	font: inherit;
+	vertical-align: baseline;
+}
+/* HTML5 display-role reset for older browsers */
+article, aside, details, figcaption, figure, 
+footer, header, hgroup, menu, nav, section {
+	display: block;
+}
+body {
+   line-height: 1;
+   font-family: Arial, Helvetica, sans-serif;
+}
+ol, ul {
+	list-style: none;
+}
+blockquote, q {
+	quotes: none;
+}
+blockquote:before, blockquote:after,
+q:before, q:after {
+	content: '';
+	content: none;
+}
+table {
+	border-collapse: collapse;
+	border-spacing: 0;
+}
+
+/* ------- Spotify ------- */
+
+.container{
+   width: 1170px;
+   margin: 0 auto;
+}
+
+/*Header*/
+
+.header{
+
+}
+
+.main-nav{
+   padding: 15px 0;
+   display: flex;
+   justify-content: space-between;
+}
+ 
+.logo{
+   width: 132px;
+   height: 40px;
+}
+
+.menu{
+   float: right;
+}
+
+.menu li {
+   display: inline-block;
+}
+
+/*Hero*/
+
+.hero{
+   background: url('../images/landing.jpg') no-repeat;
+   background-size: cover;
+   background-position: center center;
+   height: 100vh;
+   display: grid;
+   justify-items: center;
+}
+
+.hero-content{
+   align-self: center;
+   text-align: center;
+   width: 800px;
+}
+
+.hero-content h1{
+   margin-bottom: 30px;
+   font-size: 5em;
+   font-weight: 600;
+   color: #ffffff;
+}
+
+.hero-content p{
+   color: #ffffff;
+   font-size: 1.6em; 
+   font-weight: normal;
+   line-height: 1.6em;
+   width: 80%;
+   margin: 0 auto;
+}
+
+/*What section*/
+
+.what-section{
+   display: grid;
+   grid-template-columns: 33% 33% 33%;
+   justify-items: center;
+}
+
+.what-section h2{
+   grid-column: 2;
+   grid-row: 1;
+}
+
+.what-section-info{
+   width: 300px;
+   grid-row: 2;
+}
+
+/*green-section*/
+
+.green-section{
+   background-color: #00B172; 
+}
+
+
+
