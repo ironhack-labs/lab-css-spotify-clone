@@ -6,3 +6,181 @@ Green: #00B172
 White: #FFF
 
 */
+
+li {
+  display: inline;
+  padding: 5px 1rem;
+  font-size: 1.5rem;
+}
+
+a{
+  text-decoration: none;
+}
+
+header {
+  display: grid;
+  grid-template-columns: 50% 50%;
+  padding: 10px 2rem;
+  align-self: center;
+  justify-content: center;
+  align-self: center;
+}
+
+body{
+  font-family: 'Open Sans', sans-serif;
+  margin: 0;
+  padding: 0;
+} 
+
+h1 {
+  font-size: 5rem;
+  margin: 0;
+}
+
+.landing p {
+  font-size: 1.7rem;
+}
+
+.grid-end {
+  justify-self: end;
+}
+
+.grid-start {
+  justify-self: start;  
+  align-self: center;
+}
+
+.align-end {
+  align-self: end;
+}
+
+.align-start {
+  align-self: start;
+}
+
+.landing {
+  text-align: center;
+  background-image: url("../images/landing.jpg");
+  background-size: 100% 100%;
+  height: 700px;
+  color: white;
+  display: grid;
+  justify-content: center;
+  align-self: center;
+
+}
+
+.info {
+  padding-top: 2rem;
+  display: grid;
+  grid-column-gap: 0px;
+  grid-template-columns: 1fr 1fr 1fr;
+  grid-template-rows: 25% 75%;
+  grid-template-areas:
+    "title title title"
+    "info music stream"
+}
+
+.info img{
+  width: 100px;
+  height: 90px;
+}
+
+.info h3 {
+  color: green;
+  font-weight: bolder;
+}
+
+.textTitle {
+  grid-area: title;
+  justify-self: center;
+  text-decoration: underline green; 
+  /* No sabemos que propiedad usar para separar el subrayado */
+}
+
+.songs{
+  grid-area: info;
+  justify-content: center;
+  align-self: center;
+  display: block;
+  text-align: center;
+}
+
+.music{
+  grid-area: music;
+  justify-content: center;
+  align-self: center;
+  display: block;
+  text-align: center;
+}
+
+.stream{
+  grid-area: stream;
+  justify-content: center;
+  align-self: center;
+  display: block;
+  text-align: center;
+}
+
+.containerGreen {
+  background-color: #00B172;
+  margin: 5rem;
+  padding: 3rem;
+  padding-left: 5rem;
+  padding-right: 5rem;
+  display: grid;
+  grid-column-gap: 0px;
+  grid-template-columns: 1fr 1fr 1fr;
+  grid-template-rows: 50px 1fr 1fr 1fr;
+  grid-template-areas:
+    "title2 title2 phone"
+    "search logo phone"
+    "browse logo phone"
+    "discover logo phone"
+}
+
+.containerGreen p {
+  font-size: 1.3rem;
+}
+
+.title2 {
+  grid-area: title2;
+  color: white;
+  text-decoration: underline white;
+  align-self: center;
+  font-size: 2.5rem;
+}
+
+.search {
+  grid-area: search;
+  color: white;
+  display: block;
+  /*justify-self: end;*/
+}
+
+.browse {
+  grid-area: browse;
+  color: white;
+  display: block;
+}
+
+.discover {
+  grid-area: discover;
+  color: white;
+  display: block;
+}
+
+.spotifyIcon {
+  grid-area: logo;
+  width: 120px;
+  height: 120px;
+  align-self: center;
+  justify-self: center;
+}
+
+.spotifyApp {
+  grid-area: phone;
+  height: 500px;
+  align-self: center;
+  justify-self: center;
+}
