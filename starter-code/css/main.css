@@ -6,3 +6,166 @@ Green: #00B172
 White: #FFF
 
 */
+
+@import url('https://fonts.googleapis.com/css?family=Raleway:300');
+nav img {
+    width: 200px;
+    height: auto;
+}
+
+#secondSection img {
+    width: 150px;
+    height: auto;
+}
+
+body {
+    margin: 0;
+    padding: 0;
+    font-family: Raleway, Helvetica, sans-serif;
+}
+
+a {
+    text-decoration: none;
+    color: #1A1A1A;
+}
+
+nav {
+    display: flex;
+    flex-direction: row;
+    margin: 10px;
+    justify-content: space-between;
+    align-content: center;
+}
+
+.navLinks {
+    display: flex;
+    flex-direction: row;
+    margin: 0 10px;
+    font-size: 1.2em;
+}
+
+nav ul {
+    list-style-type: none;
+}
+
+.navLinks li {
+    padding: 10px;
+}
+
+#firstSection {
+    display: flex;
+    background-image: url("../images/landing.jpg");
+    background-size: cover;
+    height: 700px;
+    color: white;
+    justify-content: center;
+    text-align: center;
+}
+
+#sectionFirstText h1 {
+    font-size: 4em;
+    font-family: Arial, Helvetica, sans-serif;
+    font-weight: 500;
+}
+
+#sectionFirstText h2 {
+    font-size: 2em;
+    font-weight: 100;
+    font-family: Arial, Helvetica, sans-serif;
+    font-weight: 500;
+}
+
+#sectionFirstText {
+    align-self: center;
+}
+
+#secondSection {
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr;
+}
+
+#secondSection h2 {
+    grid-column: 1/4;
+    text-align: center;
+    font-size: 2.7em;
+    text-decoration: underline #00B172;
+    margin-bottom: 50px;
+    font-family: Arial, Helvetica, sans-serif;
+    font-weight: 500;
+}
+
+#secondSection h3 {
+    font-size: 1.5em;
+    color: #00B172;
+    font-weight: 700;
+    font-family: Arial, Helvetica, sans-serif;
+    font-weight: 600;
+}
+
+#musicSection {
+    text-align: center;
+    grid-column: 1/2;
+    padding: 10%;
+}
+
+#hdSection {
+    text-align: center;
+    grid-column: 2/3;
+    padding: 10%;
+}
+
+#devicesSection {
+    text-align: center;
+    grid-column: 3/4;
+    padding: 10%;
+}
+
+#thirdSection {
+    background-color: #00B172;
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr;
+    color: white;
+    padding: 20px 50px;
+    font-size: 1.2em;
+    justify-items: center;
+    align-items: center;
+    margin: 20px;
+}
+
+#thirdSection h2 {
+    grid-column: 1/4;
+    text-decoration: underline;
+    justify-self: start;
+    font-family: Arial, Helvetica, sans-serif;
+    font-weight: 600;
+}
+
+#thirdSection h3 {
+    font-family: Arial, Helvetica, sans-serif;
+    font-weight: 600;
+}
+
+#thirdSectionText {
+    grid-column: 1/2;
+    line-height: 2em;
+}
+
+#iconImage {
+    grid-column: 2/3;
+}
+
+#imageSrcIcon {
+    width: 100px;
+    height: auto;
+}
+
+#appImage {
+    grid-column: 3/4;
+    align-self: start;
+}
+
+#imageSrcApp {
+    width: 300px;
+    height: auto;
+    margin-top: 100px;
+}
