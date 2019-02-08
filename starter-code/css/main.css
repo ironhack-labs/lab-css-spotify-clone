@@ -6,3 +6,197 @@ Green: #00B172
 White: #FFF
 
 */
+@import url('https://fonts.googleapis.com/css?family=Roboto:300,400,700');
+
+body {
+    margin: 0;
+    font-family: "Roboto", sans-serif;
+}
+
+.container {
+    display: grid;
+    grid-template-columns: auto auto auto;
+    grid-template-rows: 100px 700px auto auto;
+}
+
+nav {
+    border: 1px solid black;
+    grid-column-start: 1;
+    grid-column-end: 4;
+}
+
+#navbar-logo {
+    padding: 20px;
+}
+
+#navbar-logo img {
+    height: 60px;
+}
+
+#id-navbar-list {
+    display: inline-block;
+}
+
+#navbar-list ul {
+    text-align: right;
+    padding: 25px 40px;
+}
+
+#navbar-list ul li {
+    display: inline-block;
+    padding-left: 30px;
+}
+
+#navbar-list ul li a {
+    text-decoration: none;
+    color: #1A1A1A;
+    font-size: 24px;
+}
+
+#navbar-list ul li a:hover {
+    color: #00B172;
+}
+
+#navbar-container {
+    display: grid;
+    grid-template-columns: auto auto;
+}
+
+#navbar-list-container {
+    /* border: 1px solid red; */
+    height: 90px;
+}
+
+header {
+    grid-column-start: 1;
+    grid-column-end: 4;
+    /* border: 1px solid green; */
+    background-image: url("../images/landing.jpg");
+    background-size: 100% 100%;
+    color: white;
+}
+
+header h1 {
+    text-align: center;
+    font-size: 75px;
+    font-weight: bolder;
+    letter-spacing: 3px;
+    margin-top: 200px;
+}
+
+header h4 {
+    text-align: center;
+    font-size: 30px;
+    font-weight: lighter;
+}
+
+#whats-on-spotify {
+    /* border: 1px solid red; */
+    grid-column-start: 1;
+    grid-column-end: 4;
+}
+
+#whats-on-spotify-header h2 {
+    text-align: center;
+    font-size: 52px;
+    font-weight: 600;
+    text-decoration: underline #00B172;
+}
+
+#whats-on-spotify-cards-container {
+    display: grid;
+    grid-template-columns: auto auto auto;   
+}
+
+.whats-on-spotify-cards {
+    text-align: center;
+}
+
+.whats-on-spotify-cards h3 {
+    color: #00B172;
+    font-size: 32px;
+}
+
+.whats-on-spotify-cards p {
+    font-size: 24px;
+    padding: 0 120px;
+    font-weight: lighter;
+}
+
+.whats-on-spotify-cards img {
+    height: 100px;
+}
+
+#yeeze {
+    background-color: #00B172;
+    grid-column-start: 1;
+    grid-column-end: 4;
+    padding: 80px 80px 40px;
+    margin: 40px 30px 30px;
+}
+
+#yeezy-title-container {
+    display: grid;
+    grid-template-columns: auto auto;
+    /* border: 1px dashed blue; */
+
+}
+
+#yeezy-title {
+    /* border: 1px dashed black; */
+    grid-column-start: 1;
+    grid-column-end: 2;
+    color: white;
+    text-decoration: underline;
+    font-size: 36px;
+}
+
+#yeezy-title h3 {
+    margin: 0;
+}
+
+#yeezy-info {
+    /* border: 1px solid crimson; */
+    /* grid-column-start: 1; */
+    /* grid-column-end: 2; */
+}
+
+#focazzia {
+    /* border: 1px solid yellow; */
+    display: grid;
+    grid-template-columns: auto auto auto;
+}
+
+#yeezy-logo {
+    place-self: center;
+}
+
+#yeezy-logo img {
+    height: 150px;
+}
+
+#yeezy-screenshot img {
+    height: 680px;
+    padding-left: 100px;
+}
+
+#yeezy-info {
+    color: white;
+}
+
+#yeezy-info h3 {
+    font-size: 32px;
+}
+
+#yeezy-info h3:first-child {
+    margin-top: 60px;
+}
+
+#yeezy-info p {
+    font-size: 22px;
+    width: 420px;
+    margin-bottom: 60px;
+    letter-spacing: 2px;
+    line-height: 35px;
+    /* border: 1px solid pink; */
+}
