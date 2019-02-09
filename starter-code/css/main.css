@@ -61,19 +61,26 @@ table {
 
 /*Header*/
 
-.header{
+header{
+   position: fixed;
+   width: 100%;
+   background: #FFFFFF;
+   box-shadow: 0 4px 2px -2px rgba(128, 128, 128, 0.19);
+}
 
+.header{
+   display: grid;
+   padding: 20px;
+}
+
+.logo{
+   width: 170px;
+   grid-column: 1;
 }
 
 .main-nav{
-   padding: 15px 0;
-   display: flex;
-   justify-content: space-between;
-}
- 
-.logo{
-   width: 132px;
-   height: 40px;
+   grid-column: 2;
+   align-self: center;
 }
 
 .menu{
@@ -82,6 +89,7 @@ table {
 
 .menu li {
    display: inline-block;
+   padding: 0 15px;
 }
 
 /*Hero*/
@@ -117,29 +125,112 @@ table {
    margin: 0 auto;
 }
 
-/*What section*/
+/*Features section*/
 
-.what-section{
+.wrap-features{
    display: grid;
    grid-template-columns: 33% 33% 33%;
    justify-items: center;
+   padding: 40px;
 }
 
-.what-section h2{
+.features-title{
    grid-column: 2;
    grid-row: 1;
+   font-size: 2.4em;
+   margin-bottom: 40px; 
 }
 
-.what-section-info{
+.features-title h2{
+   border-bottom: 3px solid #00B172;
+   line-height: 1.6em;
+   display: inline-block;
+}
+
+.features-info{
    width: 300px;
    grid-row: 2;
+   text-align: center;
+   padding: 60px 0;
 }
 
-/*green-section*/
+.features-info h3{
+   margin-bottom: 20px;
+   color: #00B172;
+   font-size: 1.5em;
+   font-weight: 600;
+}
+
+.features-info p{
+   font-size: 1.4em;
+   line-height: 1.4em;
+}
+
+.features-info img{
+   margin: 0 auto 20px auto;
+   display: block;
+   width: 130px; 
+}
+
+
+/*Green-section*/
 
 .green-section{
-   background-color: #00B172; 
+   display: grid;
+   grid-template-columns: 60% 40%;
+   background-color: #00B172;
+   padding: 60px;
 }
 
+.info-wrapper{
+   color: #ffffff;
+   display: grid;
+}
+
+.info-wrapper .info-title{
+   grid-column: 1 / span 2;
+   margin-bottom: 50px;
+}
+
+
+.info-title h2{
+   font-size: 2.5em;
+   line-height: 1.6em;
+   border-bottom: 3px solid #FFFFFF;
+   display: inline-block;
+}
+
+.info{
+   width: 65%;
+   margin-bottom: 40px;
+   grid-column: 1;
+}
+
+.info:nth-child(4){
+   margin-bottom: 0;
+}
+
+.info h3{
+   margin-bottom: 25px;
+   font-size: 1.6em;
+   font-weight: bold;
+}
+
+.info p{
+   font-size: 1.2em;
+   line-height: 1.6em;
+}
+
+.isotype{
+   grid-column: 2;
+   grid-row: 3;
+   width: 130px;
+}
+
+.app-img{
+   grid-column: 2;
+   justify-self: right;
+   margin-top: 40px; 
+}
 
 
