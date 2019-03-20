@@ -10,15 +10,65 @@ White: #FFF
 body {
   padding: 0;
   margin: 0;
-  font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif 
+  font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, Oxygen,
+    Ubuntu, Cantarell, "Open Sans", "Helvetica Neue", sans-serif;
 }
 
-img[src="images/spotify-logo.png"]{
+img[src="images/spotify-logo.png"] {
   float: left;
   width: 200px;
   padding-top: 20px;
   padding-left: 40px;
-  padding-bottom: 20px
+  padding-bottom: 20px;
+}
+
+img[src="images/spotify-logo.png"]:hover {
+  animation-name: bouncyLogo;
+  animation-duration: 2s;
+  animation-iteration-count: 1;
+}
+
+@keyframes bouncyLogo {
+  10% {
+    transform: translateY(0);
+    padding-bottom: 5px;
+  }
+  25% {
+    transform: translateY(-50%);
+  }
+  40% {
+    transform: translateY(0%);
+    padding-bottom: 6px;
+  }
+  50% {
+    transform: translateY(-30%);
+  }
+  70% {
+    transform: translateY(0%);
+    padding-bottom: 7px;
+  }
+  80% {
+    transform: translateY(-15%);
+  }
+  90% {
+    transform: translateY(0%);
+    padding-bottom: 8px;
+  }
+  95% {
+    transform: translateY(-7%);
+  }
+  97% {
+    transform: translateY(0%);
+    padding-bottom: 9px;
+  }
+  99% {
+    transform: translateY(-3%);
+  }
+  100% {
+    transform: translateY(0);
+    padding-bottom: 9px;
+    opacity: 1;
+  }
 }
 
 header {
@@ -30,86 +80,86 @@ header {
   z-index: 2;
 }
 
-#sdssdsddsd {
-  padding-top: 20px
+#menuItems {
+  padding-top: 20px;
 }
 
-nav>div>ul {
+nav > div > ul {
   float: right;
   padding-right: 40px;
 }
 
-nav>div>ul li {
+nav > div > ul li {
   display: inline;
   padding-left: 50px;
   padding-top: 50px;
   font-size: 20px;
-  font-weight: lighter
+  font-weight: lighter;
 }
 
 .main {
-  margin-top: 100px
+  margin-top: 100px;
 }
 
 #imageBackground {
   background-image: url("../images/landing.jpg");
   background-size: contain;
-  text-align: center
+  text-align: center;
 }
 
 h1 {
   color: white;
   font-size: 85px;
-  padding-top: 220px
+  padding-top: 220px;
 }
 h4 {
   color: white;
   font-size: 30px;
   padding-bottom: 300px;
-  font-weight: lighter
+  font-weight: lighter;
 }
 #whatsOn {
-  border-bottom: 3px solid #00B172;
+  border-bottom: 3px solid #00b172;
   display: inline;
   margin-left: 37%;
   font-size: 40px;
-  padding-bottom: 10px
+  padding-bottom: 10px;
 }
 
 #left-item {
   float: left;
   width: 33%;
   text-align: center;
-  color: #1A1A1A;
+  color: #1a1a1a;
 }
 
 #medium-item {
   float: left;
   width: 33%;
   text-align: center;
-  color: #1A1A1A;
+  color: #1a1a1a;
 }
 
 #rigth-item {
   float: left;
   width: 33%;
   text-align: center;
-  color: #1A1A1A;
-  margin-bottom: 50px
+  color: #1a1a1a;
+  margin-bottom: 50px;
 }
 
 .item-subtitle {
   font-size: 25px;
-  color: #00B172;
-  font-weight: bold
+  color: #00b172;
+  font-weight: bold;
 }
 
-img[src*="icon.png"]{
+img[src*="icon.png"] {
   width: 180px;
 }
 
 #items {
-  margin-top: 50px
+  margin-top: 50px;
 }
 
 #medium-item:nth-child(2) {
@@ -117,19 +167,19 @@ img[src*="icon.png"]{
 }
 
 .content {
-  color: #1A1A1A;
+  color: #1a1a1a;
   font-size: 20px;
-  font-weight: lighter
+  font-weight: lighter;
 }
 
 #greenContent {
   clear: both;
   height: 640px;
   width: 92%;
-  background: #00B172;
+  background: #00b172;
   bottom: 0;
   margin-left: 4%;
-  margin-bottom: 30px
+  margin-bottom: 30px;
 }
 
 h2 {
@@ -138,14 +188,14 @@ h2 {
   font-size: 35px;
   margin-left: 80px;
   margin-top: 50px;
-  padding-bottom: 10px
+  padding-bottom: 10px;
 }
 
-#greenContent>div:nth-child(1) {
+#greenContent > div:nth-child(1) {
   float: left;
 }
 
-img[src="images/spotify-app.jpg"]{
+img[src="images/spotify-app.jpg"] {
   width: 280px;
   position: relative;
   float: right;
@@ -154,7 +204,7 @@ img[src="images/spotify-app.jpg"]{
   z-index: 1;
 }
 
-img[src="images/spotify-icon-white.png"]{
+img[src="images/spotify-icon-white.png"] {
   width: 150px;
   margin-top: 250px;
 }
@@ -162,12 +212,12 @@ img[src="images/spotify-icon-white.png"]{
 #greenContent h3 {
   color: white;
   font-size: 30px;
-  margin-left: 80px
+  margin-left: 80px;
 }
 
 #greenContent h4 {
   font-size: 20px;
   padding-bottom: 0;
   font-weight: lighter;
-  margin-left: 80px
+  margin-left: 80px;
 }
