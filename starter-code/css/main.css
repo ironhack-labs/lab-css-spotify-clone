@@ -6,3 +6,191 @@ Green: #00B172
 White: #FFF
 
 */
+* {
+  box-sizing: content-box;
+}
+
+html,
+body {
+  font-size: 16px;
+}
+
+body {
+  font-family: 'Roboto', sans-serif;
+}
+
+@media screen and (max-width:1024px) {
+  /* reglas CSS */
+}
+
+@media screen and (min-width:1024px) {
+
+  /* HEADER & Nav-bar */
+  .header {
+    position: relative;
+    display: flex;
+  }
+
+  .navImg img {
+    width: 15%;
+    margin-left: 3%;
+    float: left;
+    padding: 1%;
+  }
+
+  .nav {
+    padding-top: 1.5%;
+    width: 100%;
+    float: right;
+    text-align: center;
+  }
+
+  .nav ul li {
+    display: inline;
+    color: #1A1A1A;
+    font-weight: bold;
+    margin-left: 10%;
+  }
+
+  /* SECTION 1 */
+
+  .slide {
+    background-image: url(./../images/landing.jpg);
+    background-size: cover;
+    background-repeat: no-repeat;
+    width: 100%;
+    height: 800px;
+    background-position: center;
+    position: relative;
+    z-index: 1;
+  }
+
+  .slideText {
+    z-index: 2;
+    color: whitesmoke;
+    text-align: center;
+    padding-top: 20%;
+  }
+
+  .slideText h1 {
+    font-size: 3.5rem;
+    font-weight: bold;
+    letter-spacing: 0.1rem;
+    padding-bottom: 5%;
+  }
+
+  .slideText h3 {
+    font-size: 1.4rem;
+    padding: 0 30%;
+    line-height: 1.8rem;
+  }
+
+  /* SECTION 2 */
+  .spotify {
+    width: 20%;
+    margin: 0 auto;
+    padding: 3%;
+    text-align: center;
+  }
+
+  .spotify h2 {
+    font-size: 1.6rem;
+    padding: 2%;
+    border-bottom: 3px solid #00B172;
+    letter-spacing: .1rem;
+    font-weight: 800;
+  }
+
+  .features {
+    display: flex;
+    text-align: center;
+  }
+
+  .featureItem {
+    padding: 5%;
+    width: 33%;
+  }
+
+  .featureItem img {
+    width: 80px;
+    height: 70px;
+    padding-bottom: 5%;
+  }
+
+  .featureItem h4 {
+    font-size: 1.4rem;
+    color: #00B172;
+    font-weight: 800;
+    padding-bottom: 10%;
+  }
+
+  .featureItem p {
+    padding: 0 20%;
+    color: rgb(117, 109, 109);
+    line-height: 1.5rem;
+  }
+
+  /* SECTION 3 */
+  .text {
+    background-color: #00B172;
+    margin: 3%;
+    display: flex;
+    padding: 0%;
+  }
+
+  .textSection {
+    width: 80%;
+  }
+
+  .textHeading {
+    font-size: 2em;
+    margin-left: 10%;
+    margin-top: 7%;
+    padding-bottom: 2%;
+    color: whitesmoke;
+    border-bottom: 3px solid whitesmoke;
+    width: 54%;
+  }
+
+  .textList {
+    float: left;
+    width: 35%;
+    margin-left: 10%;
+    margin-top: 10%;
+  }
+
+  .listItem {
+    color: whitesmoke;
+    line-height: 1.8rem;
+  }
+
+  .listItem h3 {
+    font-size: 1.4rem;
+    font-weight: 800;
+    padding-bottom: 15%;
+  }
+
+  .listItem p {
+    padding-bottom: 10%;
+    color: rgb(236, 230, 230);
+  }
+
+  .textIcon {
+    text-align: center;
+  }
+
+  .icon {
+    margin-top: 25%;
+  }
+
+  .app {
+    width: 40%;
+    padding-top: 7%;
+    padding-right: 2%;
+  }
+
+  .app img {
+    width: 90%;
+    height: 90%;
+  }
+}
