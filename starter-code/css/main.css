@@ -27,22 +27,28 @@ header {
   margin: 0;
   top: 0;
   background-color: white;
+  z-index: 2;
 }
 
-nav>ul {
+#sdssdsddsd {
+  padding-top: 20px
+}
+
+nav>div>ul {
   float: right;
   padding-right: 40px;
 }
 
-nav>ul li {
+nav>div>ul li {
   display: inline;
   padding-left: 50px;
   padding-top: 50px;
   font-size: 20px;
+  font-weight: lighter
 }
 
 .main {
-  margin-top: 102px
+  margin-top: 100px
 }
 
 #imageBackground {
@@ -59,9 +65,10 @@ h1 {
 h4 {
   color: white;
   font-size: 30px;
-  padding-bottom: 300px
+  padding-bottom: 300px;
+  font-weight: lighter
 }
-h3 {
+#whatsOn {
   border-bottom: 3px solid #00B172;
   display: inline;
   margin-left: 37%;
@@ -88,18 +95,79 @@ h3 {
   width: 33%;
   text-align: center;
   color: #1A1A1A;
+  margin-bottom: 50px
 }
 
 .item-subtitle {
-  font-size: 18px;
-  color: #1A1A1A;
-  text-decoration: blanchedalmond;
+  font-size: 25px;
+  color: #00B172;
+  font-weight: bold
 }
 
 img[src*="icon.png"]{
-  width: 200px;
+  width: 180px;
 }
 
 #items {
   margin-top: 50px
+}
+
+#medium-item:nth-child(2) {
+  padding-top: 22px;
+}
+
+.content {
+  color: #1A1A1A;
+  font-size: 20px;
+  font-weight: lighter
+}
+
+#greenContent {
+  clear: both;
+  height: 640px;
+  width: 92%;
+  background: #00B172;
+  bottom: 0;
+  margin-left: 4%;
+  margin-bottom: 30px
+}
+
+h2 {
+  color: white;
+  border-bottom: 3px solid white;
+  font-size: 35px;
+  margin-left: 80px;
+  margin-top: 50px;
+  padding-bottom: 10px
+}
+
+#greenContent>div:nth-child(1) {
+  float: left;
+}
+
+img[src="images/spotify-app.jpg"]{
+  width: 280px;
+  position: relative;
+  float: right;
+  bottom: 315px;
+  right: 120px;
+  z-index: 1;
+}
+
+img[src="images/spotify-icon-white.png"]{
+  width: 150px;
+  margin-top: 250px;
+}
+
+#greenContent h3 {
+  color: white;
+  font-size: 30px;
+  margin-left: 80px
+}
+
+#greenContent h4 {
+  font-size: 20px;
+  padding-bottom: 0;
+  font-weight: lighter;
+  margin-left: 80px
 }
