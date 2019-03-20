@@ -17,7 +17,7 @@ html{
 
 body{
   font-size: 1.6rem;
-  font-family: sans-serif;
+  font-family: 'Raleway', sans-serif;
   font-weight: 400;
 }
 
@@ -36,6 +36,10 @@ h2{
 
 h3{
   font-size: 2rem;
+}
+
+p{
+  font-weight: 300;
 }
 
 .clearfix{
@@ -67,6 +71,17 @@ header{
   height: 100%;
   width: 100%;
   padding: 1rem;
+  transition-property: height, width;
+  transition-duration: 400ms;
+  transition-timing-function: cubic-bezier(0,1.98,.52,.53);
+}
+
+.logo img:hover{
+  transition-property: height, width;
+  transition-duration: 400ms;
+  transition-timing-function: cubic-bezier(0,1.98,.52,.53);
+  height: 110%;
+  width: 105%;
 }
 
 .menu{
@@ -91,6 +106,11 @@ header{
   color: var(--text);
   padding-top: 1rem;
   line-height: 3rem;
+}
+
+.menu-link:hover{
+  color: #333;
+  text-decoration: underline;
 }
 
 .presentation{
@@ -135,10 +155,19 @@ header{
   padding-top: 0rem;
   padding-bottom: 3rem;
   line-height: 5rem;
+  position: relative;
 }
 
-.features-section{
-
+.features-section h2::after{
+  content: '';
+  height: .3rem;
+  width: 23rem;
+  background-color: var(--green);
+  position: absolute;
+  bottom: 40%;
+  left: 50%;
+  border-radius: 1rem;
+  transform: translate(-50%, -50%);
 }
 
 
@@ -147,17 +176,22 @@ header{
   margin: 0 auto;
 }
 
-.feature{
-  display: inline-block;
-  width: 33%;
-  text-align: center;
-  margin: 0 auto;
-  padding: 0 1.5rem;
-  color: var(--text);
+.feature:not(:first-child){
+  margin-left: .5rem;
 }
 
+.feature{
+  display: inline-block;
+  width: 30%;
+  text-align: center;
+  margin: 0 auto;
+  padding-right: 3rem;
+  padding-left: 3rem;
+}
+
+
 .feature > img{
-  height: 7.5rem;
+  height: 7rem;
 }
 
 .feature > h3{
@@ -165,18 +199,19 @@ header{
   margin-top: 1rem;
   margin-bottom: 2rem;
   color: var(--green);
-  width: 80%;
+  width: 100%;
+  font-size: 1.9rem;
 
 }
 
 .feature > p{
-  width: 60%;
+  width: 80%;
   margin: 0 auto;
   line-height: 2.5rem;
+  color: var(--text);
 }
 
 .what-to-do-section{
-  position: relative;
   background-color: var(--green);
   padding-top: 6rem;
   padding-bottom: 2rem;
@@ -184,24 +219,44 @@ header{
   padding-left: 7rem;
 }
 
-
-.what-to-do-section > h2{
-  margin-bottom: 3rem;
+.what-to-do-section .what-to-do{
+  position: relative;
+  max-width: var(--max-content-width);
+  margin: 0 auto;
 }
 
-.what-to-do-section > .one-thing-to-do{
+
+.what-to-do-section .what-to-do > h2{
+  margin-bottom: 3rem;
+  position: relative;
+}
+
+.what-to-do-section .what-to-do > h2::after{
+  content: '';
+  height: .3rem;
+  width: 34.5rem;
+  background-color: var(--white);
+  position: absolute;
+  bottom: -40%;
+  left: 0%;
+  border-radius: 1rem;
+}
+
+.what-to-do-section .what-to-do > .one-thing-to-do{
   margin-bottom: 3rem;
   width: 35%;
 }
 
-.what-to-do-section > .one-thing-to-do > h3{
+.what-to-do-section .what-to-do > .one-thing-to-do > h3{
+  padding-top: 3rem;
   margin-bottom: 2.5rem;
 }
-.what-to-do-section > .one-thing-to-do > p{
+.what-to-do-section .what-to-do > .one-thing-to-do > p{
   line-height: 2.5rem;
+  color: #eee;
 }
 
-.what-to-do-section .middle-image{
+.what-to-do-section .what-to-do .middle-image{
   width: 10rem;
   height: 10rem;
   position: absolute;
@@ -210,8 +265,8 @@ header{
   transform: translate(-50%, -50%);
 }
 
-.what-to-do-section .mobile-demo-image{
-  height: 45rem;
+.what-to-do-section .what-to-do .mobile-demo-image{
+  height: 50rem;
   position: absolute;
   top: 50%;
   right: 0;
