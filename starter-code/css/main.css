@@ -6,3 +6,137 @@ Green: #00B172
 White: #FFF
 
 */
+
+div{
+    border: 1px solid transparent;
+  }
+
+.logo{
+    vertical-align: top;
+    width: 150px;
+    height: auto;
+    margin-left: 30px;
+    margin-top: 20px;
+    float:left;
+}  
+
+.nav-section{
+    width: 100%;
+    height: 80px;
+    position: fixed;
+    background-color: white;
+    top: 0;
+}
+
+.nav-menu{
+    float: right;
+    vertical-align: middle;
+    list-style-type: none;
+    margin-right: 30px;
+    margin-top: 20px;
+}
+
+.nav-menu>li{
+    display:inline;
+}
+
+.nav-menu>li>a{
+    font-size: 20px;
+    font-weight: 700;
+    text-decoration: none;
+    color: #000;
+    text-align: center;
+    padding-left: 15px;
+}
+
+.image-container {
+    clear: both;
+    background-position: center;
+    background-size: cover;
+    height: 650px;
+    width: 100%;
+    background-image: url("../images/landing.jpg")
+}
+
+.image-container h1 {
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    text-align: center;
+    align-items: center;
+    padding-top: 250px; 
+    font-size: 50px;
+    color: #FFF;
+    font-weight: bold;
+ }
+ 
+ .image-container>h2 {
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    text-align: center;
+    align-items: center;
+    padding-top: 25px; 
+    font-size: 20px;
+    color: #FFF;  
+    width: 55%;
+    line-height: 30px;
+    font-weight: lighter;
+ }
+
+ .features-section{
+    text-align: center;
+    margin-top: 10px;
+ }
+
+ .features-title>h2{
+    display: inline;
+    border-bottom: 3px solid #00B172;
+    width: 100%;
+    padding-bottom: 7px;
+    font-size: 40px;
+    font-weight: bold;
+ }
+
+ .features-grid{
+    margin-top: 10px;
+ }
+
+ .feature-icon{
+    text-align: center;
+    margin: auto;
+    width: 30%;
+    height: auto;
+    align-items: center;
+    padding-bottom:10px;
+    padding-top: 30px;
+ }
+
+
+
+ .col-3-icon{
+    width: 33%;     
+    height: 150px;
+    float: left;
+    text-align: center;
+ }
+
+ .col-3-text{
+    width: 33%;   
+    float: left;
+    text-align: center;
+    margin-top: 25px;
+    margin-bottom: 100px;
+ }
+
+
+
+ .col-3-text>h3{
+    color:#00B172;
+    font-weight: 5px;
+ }
+
+ .col-3-text>p{
+    font-weight: 5px;
+    font-size: 20px;
+ }
