@@ -1,8 +1,220 @@
-/*
-Colors:
+:root{
+  --text: #1a1a1a;
+  --green: #00b172;
+  --white: #fff;
 
-Text: 1A1A1A
-Green: #00B172
-White: #FFF
+  --navbar-height: 7.5rem;
+  --max-content-width: 120rem;
+}
 
-*/
+*{
+  box-sizing: border-box;
+}
+
+html{
+  font-size: 62.5%;
+}
+
+body{
+  font-size: 1.6rem;
+  font-family: sans-serif;
+  font-weight: 400;
+}
+
+h1, h2, h3{
+  font-weight: 700;
+  font-size: 2.4rem;
+}
+
+h1{
+  font-size: 5rem;
+}
+
+h2{
+  font-size: 2.6rem;
+}
+
+h3{
+  font-size: 2rem;
+}
+
+.clearfix{
+  clear:both;
+}
+
+.navbar{
+  position: fixed;
+  top: 0;
+  height: var(--navbar-height);
+  width: 100%;
+  background-color: var(--white);
+  z-index: 1000;
+}
+/* Because the navbar is out of the flow */
+header{
+  margin-top: var(--navbar-height);
+  width: 100%;
+}
+
+.logo{
+  height: 100%;
+  max-width: 20rem;
+  margin-left: 2rem;
+  float: left;
+}
+
+.logo img{
+  height: 100%;
+  width: 100%;
+  padding: 1rem;
+}
+
+.menu{
+  float: right;
+  max-width: 60%;
+  height: 100%;
+  line-height: 1rem;
+  padding-right: 1.5rem;
+}
+
+.menu-item{
+  display: inline-block;
+  list-style: none;
+  height: 100%;
+  text-align: center;
+  padding: 1.5rem .75rem;
+}
+
+.menu-link{
+  display: inline-block;
+  text-decoration: none;
+  color: var(--text);
+  padding-top: 1rem;
+  line-height: 3rem;
+}
+
+.presentation{
+  position: relative;
+  height: 65vh;
+  background-image: url(../images/landing.jpg), linear-gradient(to bottom, #111 0%, #222 100%);
+  background-size: cover;
+  background-position: center;
+  color: var(--white);
+  text-align: center;
+}
+
+.presentation > .content{
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+}
+
+.presentation > .content > h1{
+  margin-bottom: 3rem;
+}
+
+.presentation > .content > p{
+  line-height: 2.5rem;
+  letter-spacing: 1px;
+}
+
+.main-section > section{
+  width: 95%;
+  margin: 0 auto;
+}
+
+.features-section{
+  max-width: var(--max-content-width);
+  padding-top: 3rem;
+  text-align: center;
+  min-height: 40rem;
+}
+
+.features-section h2{
+  padding-top: 0rem;
+  padding-bottom: 3rem;
+  line-height: 5rem;
+}
+
+.features-section{
+
+}
+
+
+.features{
+  width: 100%;
+  margin: 0 auto;
+}
+
+.feature{
+  display: inline-block;
+  width: 33%;
+  text-align: center;
+  margin: 0 auto;
+  padding: 0 1.5rem;
+  color: var(--text);
+}
+
+.feature > img{
+  height: 7.5rem;
+}
+
+.feature > h3{
+  margin: 0 auto;
+  margin-top: 1rem;
+  margin-bottom: 2rem;
+  color: var(--green);
+  width: 80%;
+
+}
+
+.feature > p{
+  width: 60%;
+  margin: 0 auto;
+  line-height: 2.5rem;
+}
+
+.what-to-do-section{
+  position: relative;
+  background-color: var(--green);
+  padding-top: 6rem;
+  padding-bottom: 2rem;
+  color: var(--white);
+  padding-left: 7rem;
+}
+
+
+.what-to-do-section > h2{
+  margin-bottom: 3rem;
+}
+
+.what-to-do-section > .one-thing-to-do{
+  margin-bottom: 3rem;
+  width: 35%;
+}
+
+.what-to-do-section > .one-thing-to-do > h3{
+  margin-bottom: 2.5rem;
+}
+.what-to-do-section > .one-thing-to-do > p{
+  line-height: 2.5rem;
+}
+
+.what-to-do-section .middle-image{
+  width: 10rem;
+  height: 10rem;
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+}
+
+.what-to-do-section .mobile-demo-image{
+  height: 45rem;
+  position: absolute;
+  top: 50%;
+  right: 0;
+  transform: translateY(-50%);
+  padding: 6rem 7rem 3rem;
+}
