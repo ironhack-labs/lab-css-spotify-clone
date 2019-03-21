@@ -19,7 +19,9 @@ White: #FFF
      
       height: 50px;
       width: 100%;
-      
+      position: fixed;
+      z-index: 10;
+      background-color: white;
   }
   #nav_bar img{
       width: 100px;
@@ -51,6 +53,7 @@ White: #FFF
       background-size: contain;
       color:#FFF;
       position: relative;
+      /*margin-top: 50px;*/
      
     
       
@@ -102,4 +105,21 @@ White: #FFF
   }
   .margenes{
       margin:0 4%;
+  }
+  /*chicle*/
+  #logo{
+      animation-name: chicle;
+  }
+@keyframes chicle {
+    30% {
+      transform: scaleX(1.25) scaleY(0.75);
+    }
+  
+    40% {
+      transform: scaleX(0.75) scaleY(1.25);
+    }
+  
+    60% {
+      transform: scaleX(1.15) scaleY(0.85);
+    }
   }
