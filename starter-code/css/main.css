@@ -7,11 +7,124 @@ White: #FFF
 
 */
 
-.center {
-    font-size: 12px;
-    width: 80%;
-    margin: 0 auto;
-    background-color: red;
-    text-align: center;
-    padding: 30px 0;
+@import url("https://fonts.googleapis.com/css?family=Roboto");
+@import url("https://fonts.googleapis.com/css?family=Open+Sans");
+
+@import url("https://fonts.googleapis.com/css?family=Montserrat");
+
+* {
+  margin: 0;
+  padding: 0;
+  font-family: "Montserrat";
+}
+
+.nav-bar {
+  position: fixed;
+  width: 100%;
+}
+
+.nav-bar ul {
+  list-style-type: none;
+  margin: 0;
+  padding: 0;
+  overflow: hidden;
+  background-color: white;
+}
+
+.nav-bar li {
+  float: right;
+  display: inline-block;
+  color: #1a1a1a;
+  text-align: center;
+  padding: 1em;
+  margin: 20px 20px 0 0;
+}
+
+.nav-bar li:first-child {
+  float: left;
+  margin: 0;
+}
+
+.nav-bar li img {
+  height: 100%;
+  width: 200px;
+  object-fit: contain;
+}
+
+.firstSection {
+  background-image: url("../images/landing.jpg");
+  background-position: center center;
+  background-repeat: no-repeat;
+  background-attachment: fixed;
+  background-size: cover;
+  background-color: #464646;
+  padding: 200px 0 0 0;
+  height: 400px;
+  text-align: center;
+}
+
+.firstSection div {
+  width: 60%;
+  margin: 0 auto;
+}
+
+.firstSection h1 {
+  text-transform: uppercase;
+  font-size: 40px;
+  line-height: 50px;
+  font-weight: 400;
+  color: white;
+  margin-bottom: 50px;
+}
+
+.firstSection p {
+  color: white;
+  font-size: 1em;
+}
+
+.secondSection {
+  text-align: center;
+}
+
+.icons {
+  width: auto%;
+  height: 80px;
+}
+
+.secondSection > div {
+  width: 80%;
+  margin: 0 auto 50px auto;
+}
+
+.secondSection h2 {
+  margin: 20px 0;
+  font-size: 24px;
+  font-weight: bold;
+  text-decoration: underline;
+  text-decoration-color: #00b172;
+}
+
+.blocks {
+  float: left;
+  width: 33.3%;
+}
+
+.blocks h3 {
+  color: #00b172;
+  font-size: 18px;
+  font-weight: bold;
+}
+
+.blocks p {
+  color: #1a1a1a;
+  font-size: 18px;
+}
+
+.clearfix {
+  clear: both;
+}
+
+.thirdSection {
+    background-color: #00b172;
+    color: white;
 }
