@@ -6,3 +6,200 @@ Green: #00B172
 White: #FFF
 
 */
+
+@import url('https://fonts.googleapis.com/css?family=Raleway:400,600,800');
+
+*{
+    margin: 0;
+    padding: 0;
+    font-family: 'Raleway', sans-serif;
+}
+
+h1 {
+    font-size:3.5em;
+    letter-spacing: 0.1em; 
+    font-weight: 600;
+}
+
+h2 {
+    font-size:2em;
+    font-weight: 600;
+    color: #1A1A1A;
+}
+
+h3 {
+    font-size: 1.7em; 
+}
+
+p {
+    color: #1A1A1A;
+}
+
+.float-left {
+    float: left;
+}
+
+.float-right {
+    float: right;
+}
+
+.clear-float {
+    clear: both;
+}
+
+.main-nav {
+    position: fixed;
+    padding: 30px 30px 30px 0;
+    background-color: #ffffff;
+    width: 100%; 
+    box-shadow:0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+    z-index: 9999;
+}
+
+.main-nav img {
+    width: 16%;
+    transition-property: width;
+    transition-duration: 0.1s;
+    transition-timing-function:ease-out;
+    float: left;
+    position: absolute;
+    transform: translateY(-50%);
+    top:50%;
+    left: 30px;
+    cursor: pointer;
+}
+
+.main-nav img:hover {
+    width: 17%;
+    transition-property: width;
+    transition-duration: 0.1s;
+    transition-timing-function:ease-in;
+}
+
+.main-nav ul li{
+    list-style: none;
+    display: inline;
+    padding: 0;
+    margin-right:30px;
+    font-size:1.3em;  
+}
+
+.main-nav a {
+    text-decoration: none;
+    color: #1A1A1A;
+}
+
+.header {
+    background-image: url(../images/landing.jpg);
+    background-repeat:no-repeat;
+    background-size: cover;
+    height: 100vh;
+    position: relative;   
+}
+
+.header .header-text {
+    color: #ffffff;
+    text-align: center;
+}
+
+.header h1 { 
+    position: absolute;
+    top:50%;
+    left: 50%;
+    transform: translate(-50%,-50%);
+}
+
+.header p {
+    font-size: 1.5em;
+    position: absolute;
+    top:67%;
+    left: 50%;
+    transform: translate(-50%,-67%);
+    line-height:1.5em;
+    color: #ffffff;
+}
+
+.section-1 {
+ width: 80%;
+ margin: 0 auto;
+ padding: 3% 0 8% 0;
+ text-align: center;
+}
+
+.section-1 h2 {
+    margin-bottom:8%; 
+}
+
+.section-1 .green-border {
+    border-bottom: 4px solid #00B172;
+    padding-bottom: 6px;
+}
+
+.section-1 h3 {
+    color:  #00B172;
+    margin: 5% 0 10% 0;
+}
+
+.section-1 p {
+    font-size: 1.5em;
+}
+
+.section-1 img {
+    height: 100px;
+}
+
+.col {
+    width: 30%;
+}
+
+.col-m {
+    width: 30%;
+    margin: 0 5%;
+}
+
+.section-2 {
+    background-color: #00B172;
+    margin: 0 30px 30px 30px;
+    background-image: url(../images/spotify-icon-white.png);
+    background-repeat:no-repeat;
+    background-position: center;
+    background-size:10%;
+    padding: 5% 0;   
+}
+
+.left-kanye {
+    width: 50%;
+    padding: 0 6%;
+    box-sizing: border-box;
+}
+
+.left-kanye h2 {
+    color: #ffffff;
+}
+
+.left-kanye .white-border {
+    border-bottom: 4px solid #ffffff;
+    padding-bottom: 6px;   
+}
+
+.left-kanye h3 {
+    color: #ffffff;
+    margin: 7% 0;
+}
+
+    
+
+.left-kanye p {
+    color: #ffffff;
+    font-size: 1.3em;
+    padding-right:30%;  
+}
+
+.right-kanye {
+    width: 50%;
+    text-align: center;
+}
+
+.right-kanye img {
+    width: 50%;
+}
