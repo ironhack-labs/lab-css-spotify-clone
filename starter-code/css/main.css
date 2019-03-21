@@ -12,12 +12,13 @@ div{
   }
 
 .logo{
-    vertical-align: top;
-    width: 150px;
-    height: auto;
-    margin-left: 30px;
-    margin-top: 20px;
-    float:left;
+   animation: wiggle 2s  infinite;
+   vertical-align: top;
+   width: 150px;
+   height: auto;
+   margin-left: 30px;
+   margin-top: 20px;
+   float:left;
 }  
 
 .nav-section{
@@ -58,7 +59,7 @@ div{
     background-image: url("../images/landing.jpg")
 }
 
-.image-container h1 {
+.image-container>h1 {
     display: block;
     margin-left: auto;
     margin-right: auto;
@@ -139,4 +140,29 @@ div{
  .col-3-text>p{
     font-weight: 5px;
     font-size: 20px;
+ }
+
+
+ @keyframes wiggle {
+   0%, 7% {
+     transform: rotateZ(0);
+   }
+   15% {
+     transform: rotateZ(-25deg);
+   }
+   20% {
+     transform: rotateZ(15deg);
+   }
+   25% {
+     transform: rotateZ(-15deg);
+   }
+   30% {
+     transform: rotateZ(10deg);
+   }
+   35% {
+     transform: rotateZ(-5deg);
+   }
+   75%, 100% {
+     transform: rotateZ(0);
+   }
  }
