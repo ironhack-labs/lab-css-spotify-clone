@@ -6,3 +6,164 @@ Green: #00B172
 White: #FFF
 
 */
+
+html,
+body {
+  --nav-height: 4rem;
+  --text-color: #1a1a1a;
+  --green-color: #00b172;
+  --white-color: #fff;
+  font-family: Arial, Helvetica, sans-serif;
+  font-size: 18px;
+  color: var(--text-color);
+  text-align: left;
+}
+
+nav {
+  height: var(--nav-height);
+  background-color: #ffffff;
+  overflow: hidden;
+  position: fixed;
+  top: 0;
+  width: -webkit-fill-available;
+  padding: 0.4rem 2rem;
+}
+
+.logo {
+  height: var(--nav-height);
+  float: left;
+}
+
+.menu {
+  float: right;
+  padding: 1.4rem;
+}
+
+.menu li {
+  font-weight: 300;
+  display: inline;
+  cursor: pointer;
+  padding: 0 1rem;
+}
+
+header {
+  height: 100vh;
+  background: url("../images/landing.jpg");
+  background-size: cover;
+  text-align: center;
+  color: var(--white-color);
+}
+
+.header-content {
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+}
+
+.header-content h2 {
+  font-size: 4rem;
+  font-weight: 300;
+  padding: 1.2rem;
+}
+
+.header-content p {
+  font-size: 1.6rem;
+  line-height: 2rem;
+}
+
+.features {
+  text-align: center;
+  padding: 4rem 2rem 6rem 2rem;
+}
+
+.features h2 {
+  display: inline-block;
+  font-size: 2rem;
+  font-weight: 600;
+  padding-bottom: 1rem;
+  border-bottom: 0.3rem solid #00b172;
+  text-decoration-color: #00b172;
+  margin-bottom: 2rem;
+  clear: both;
+}
+
+.features ul {
+  list-style-type: none;
+}
+
+.features-card {
+  display: inline-block;
+  padding: 1rem;
+  width: 30%;
+}
+
+.features-card h3 {
+  color: var(--green-color);
+  font-size: 1.6rem;
+  padding: 1rem;
+}
+
+.features-card img {
+  height: 6rem;
+}
+
+.yeezy {
+  background-color: var(--green-color);
+  color: var(--white-color);
+  padding: 3rem;
+  margin: 0 1rem;
+  float: left;
+}
+
+.yeezy-left {
+  width: 60%;
+  float: left;
+}
+
+.yeezy-left h2 {
+  display: block;
+  width: fit-content;
+  font-size: 2rem;
+  padding-bottom: 0.5rem;
+  border-bottom: 0.3rem solid #fff;
+  margin-bottom: 1.6rem;
+}
+
+.yeezy-text {
+  float: left;
+  width: 30%;
+}
+
+.yeezy-text h3 {
+  font-size: 2rem;
+  padding: 1rem 0;
+}
+
+.yeezy-spotify-logo {
+  height: 100%;
+}
+
+.yeezy-spotify-logo img {
+  float: right;
+  width: 15%;
+}
+
+@keyframes rotateLoop {
+  from {
+    transform: rotate(0deg);
+  }
+
+  to {
+    transform: rotate(360deg);
+  }
+}
+
+.yeezy-spotify-logo img:hover {
+  animation: rotateLoop 1.5s infinite;
+}
+
+.yeezy-app {
+  float: right;
+  width: 30%;
+}
