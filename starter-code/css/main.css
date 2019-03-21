@@ -6,3 +6,85 @@ Green: #00B172
 White: #FFF
 
 */
+body {
+  margin: 0 auto;
+  padding: 0;
+}
+header {
+  height: 70px;
+  padding: 0;
+  width: 80%;
+}
+nav {
+  float: right;
+  width: 80%;
+}
+
+nav ul li {
+  display: inline-block;
+  float: right;
+  padding-left: 10px;
+}
+
+img {
+  float: left;
+  width: 20%;
+  heigth: 30%
+}
+section {
+  background-color: pink;
+  margin: 0;
+}
+
+.col {
+  width: 33%;
+  float: left;
+}
+.image {
+  background-image: url(../images/landing.jpg);
+  background-size: cover;
+  background-repeat: no-repeat;
+  height: 40vw;
+  position: relative;
+  background-position: center;
+}
+h1 {
+  color: white;
+  font-size: 4rem;
+}
+p {
+  font-size: 1rem;
+}
+.section-1 {
+  position: absolute;
+  left: 50%;
+  top: 50%;
+  -webkit-transform: translate(-50%, -50%);
+  transform: translate(-50%, -50%); /*  use for some browser */
+  margin: 0;
+  padding: 0;
+  text-align: center;
+}
+
+h2 {
+  text-align: center;
+}
+.last-section {
+    width: 80%;
+    margin: 0 auto;
+    text-align: center;
+    padding: 5% 0 10% 0;
+}
+.line {
+  border-bottom: 2px solid green;
+  width: 30%;
+  margin: auto;
+  margin-bottom: 10px;
+}
+.clearfix {
+  clear: both;
+}
+.photo {
+  width: 80%;
+
+}
