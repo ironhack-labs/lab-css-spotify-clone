@@ -1,21 +1,13 @@
-/*
-Colors:
-
-Text: 1A1A1A
-Green: #00B172
-White: #FFF
-
-*/
-
 * {
     box-sizing: border-box;
+    margin: 0;
+    padding: 0;
 }
 
 html,
 body {
-    font-family: 'source sans pro', sans- serif;
+    font-family: 'Source Sans Pro', sans-serif;
     margin: 0;
-    background-color: #ccc;
 }
 
 .navigation {
@@ -24,6 +16,9 @@ body {
     display: flex;
     justify-content: space-between;
     align-items: center;
+    position: fixed;
+    width: 100vw;
+    z-index: 99;
 }
 
 .navigation-logo {
@@ -37,12 +32,22 @@ body {
     font-weight: 300;
 }
 
+.navigation-link-wrapper {
+    /* padding-top: 15px; */
+}
+
 .intro {
-    background-image: url('../images/landing.jpg');
-    height: 100vh;
+    background-image: url('https://raw.githubusercontent.com/ironhack-labs/lab-css-spotify-clone/master/starter-code/images/landing.jpg');
     background-size: cover;
     background-position: center;
+    height: 100vh;
     display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.intro-content {
+    max-width: 500px;
 }
 
 .intro-heading {
@@ -50,10 +55,98 @@ body {
     text-align: center;
     font-size: 48px;
     font-weight: 700;
+    margin-bottom: 15px;
 }
 
 .intro-copy {
     color: #fff;
     text-align: center;
     font-size: 18px;
+}
+
+.features {
+    padding: 20px;
+}
+
+.highlight {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    margin-bottom: 75px;
+}
+
+.highlight h2 {
+    text-align: center;
+    margin-bottom: 50px;
+    border-bottom: 3px solid #19a960;
+}
+
+.column-wrapper {
+    width: 100%;
+    display: flex;
+    justify-content: space-evenly;
+}
+
+.column {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    width: 25vw;
+}
+
+.column-image {
+    height: 100px;
+    margin-bottom: 15px;
+}
+
+.column-heading {
+    text-align: center;
+    color: #19a960;
+    margin-bottom: 10px;
+}
+
+.column-copy {
+    text-align: center;
+}
+
+.artist {
+    background-color: #19a960;
+    color: #fff;
+    padding: 35px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    position: relative;
+}
+
+.artist-description {
+    padding-right: 15px;
+}
+
+.artist-heading {
+    margin-bottom: 25px;
+    border-bottom: 2px solid #fff;
+    padding-bottom: 5px;
+}
+
+.artist-subheading {
+    margin-bottom: 15px;
+}
+
+.artist-copy {
+    margin-bottom: 35px;
+    font-weight: 300;
+    max-width: 200px;
+}
+
+.artist-mockup {
+    width: 25vw;
+}
+
+.spotify-logo-white {
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    width: 75px;
 }

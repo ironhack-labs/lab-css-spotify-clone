@@ -1,32 +1,102 @@
 <!DOCTYPE html>
 <html lang="en">
     <head>
-        <link rel="stylesheet" href="css/main.css" />
         <meta charset="UTF-8" />
-        <title>Spotify</title>
+        <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+        <meta http-equiv="X-UA-Compatible" content="ie=edge" />
+        <link
+            href="https://fonts.googleapis.com/css?family=Source+Sans+Pro:300,400,600,700"
+            rel="stylesheet"
+        />
+        <link rel="stylesheet" href="css/main.css" />
+        <title>Document</title>
     </head>
     <body>
         <div class="navigation">
-            <img class="navigation-logo" src="./images/spotify-logo.png" />
-            <div class="navigation-link wrapper">
+            <img
+                class="navigation-logo"
+                src="https://raw.githubusercontent.com/ironhack-labs/lab-css-spotify-clone/master/starter-code/images/spotify-logo.png"
+                alt=""
+            />
+            <div class="navigation-link-wrapper">
                 <a class="navigation-link" href="">Premium</a>
                 <a class="navigation-link" href="">Discover</a>
                 <a class="navigation-link" href="">Help</a>
                 <a class="navigation-link" href="">Download</a>
             </div>
         </div>
-
         <div class="intro">
-            <h1 class="intro-heading">Music for Eeveryone</h1>
-            <p class="intro-copy">if you like Music then you can stay tune</p>
+            <div class="intro-content">
+                <h1 class="intro-heading">Music for everyone.</h1>
+                <p class="intro-copy">
+                    Nulla vitae elit libero, a pharetra augue. Duis mollis, est non commodo luctus, nisi
+                    erat porttitor ligula, eget lacinia odio sem nec elit.
+                </p>
+            </div>
         </div>
-
-        Premium Discover Help Download Music for everyone. Spotify is now free on mobile, tablet and
-        computer. Listen to the right music, wherever you are. What’s on Spotify? Millions of Songs There
-        are millions of songs on Spotify HD Music Listen to music as if you were listening live Stream
-        Everywhere Stream music on your smartphone, tablet or computer It’s as yeezy as Kanye West.
-        Search Know what you want to listen to? Just search and hit play. Browse Check out the latest
-        charts, brand new releases and great playlists for right now. Discover Enjoy new music every
-        Monday with your own personal playlist. Or sit back and enjoy Radio.
+        <div class="features">
+            <div class="highlight">
+                <h2>What's on Spotify</h2>
+                <div class="column-wrapper">
+                    <div class="column">
+                        <img
+                            class="column-image"
+                            src="https://raw.githubusercontent.com/ironhack-labs/lab-css-spotify-clone/master/starter-code/images/music-icon.png"
+                            alt=""
+                        />
+                        <h3 class="column-heading">Millions of Songs</h3>
+                        <p class="column-copy">There are millions of songs on Spotify</p>
+                    </div>
+                    <div class="column">
+                        <img
+                            class="column-image"
+                            src="https://raw.githubusercontent.com/ironhack-labs/lab-css-spotify-clone/master/starter-code/images/high-quality-icon.png"
+                            alt=""
+                        />
+                        <h3 class="column-heading">HD Music</h3>
+                        <p class="column-copy">Listen to music as if you were listening live</p>
+                    </div>
+                    <div class="column">
+                        <img
+                            class="column-image"
+                            src="https://raw.githubusercontent.com/ironhack-labs/lab-css-spotify-clone/master/starter-code/images/devices-icon.png"
+                            alt=""
+                        />
+                        <h3 class="column-heading">Stream everywhere</h3>
+                        <p class="column-copy">
+                            Stream music on your smartphone, tablet or computer
+                        </p>
+                    </div>
+                </div>
+            </div>
+            <div class="artist">
+                <div class="artist-description">
+                    <h2 class="artist-heading">It’s as yeezy as Kanye West.</h2>
+                    <h3 class="artist-subheading">Search</h3>
+                    <p class="artist-copy">Know what you want to listen to? Just search and hit play.</p>
+                    <h3 class="artist-subheading">Browse</h3>
+                    <p class="artist-copy">
+                        Check out the latest charts, brand new releases and great playlists for right
+                        now.
+                    </p>
+                    <h3 class="artist-subheading">Discover</h3>
+                    <p class="artist-copy">
+                        Enjoy new music every Monday with your own personal playlist. Or sit back and
+                        enjoy Radio.
+                    </p>
+                </div>
+                <img
+                    class="artist-mockup"
+                    src="https://raw.githubusercontent.com/ironhack-labs/lab-css-spotify-clone/master/starter-code/images/spotify-app.jpg"
+                    alt=""
+                />
+                <img
+                    class="spotify-logo-white"
+                    src="https://raw.githubusercontent.com/ironhack-labs/lab-css-spotify-clone/master/starter-code/images/spotify-icon-white.png"
+                    alt=""
+                />
+            </div>
+        </div>
+        <script src="./kata.js"></script>
     </body>
 </html>
