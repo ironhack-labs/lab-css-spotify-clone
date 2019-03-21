@@ -6,3 +6,49 @@ Green: #00B172
 White: #FFF
 
 */
+* {
+    box-sizing: content-box;
+}
+.cabecera {
+    height: 90px; 
+
+}
+.logoSpoty {
+    float   : left;
+    padding: 10px 10px;
+}
+.listaCabecera {
+    float: right;
+    padding: 20px 20px;
+}
+.listaCabecera>li {
+    display: inline;
+    font-size: 21px;
+    padding: 20px;
+    color: #1A1A1A;
+}
+.mainImage{
+    background-image: url(../images/landing.jpg);
+    background-size: cover;
+    position: relative;
+    height: 55vw;
+    background-position: center;
+}
+.centralImage{
+    position: absolute;
+    left: 50%;
+    top: 50%;
+    -webkit-transform: translate(-50%, -50%);
+    margin: 0;
+    padding: 0;
+    text-align: center;
+}
+.tittle{
+    color: #FFF;
+    font-size: 4rem;
+}
+.subtittle{
+    color: #FFF;
+    margin-top: -30px;
+    font-size: 2rem;
+}
