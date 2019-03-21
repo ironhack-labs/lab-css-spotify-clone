@@ -1,8 +1,169 @@
 /*
 Colors:
-
 Text: 1A1A1A
 Green: #00B172
 White: #FFF
-
 */
+
+@import url('https://fonts.googleapis.com/css?family=Montserrat');
+
+nav {
+    position: fixed;
+    border-color: white;
+    overflow: visible; 
+}
+
+header .spotify-logo {
+    float: left;
+    height: 15%;
+    width: 15%;
+    margin-right: 65em;
+  }
+  
+  .spotify-logo:hover {
+    transform: rotate(10deg) scale(1.1);
+  }
+
+header ul li {
+    display: inline-block;
+    list-style-type: none;
+    margin: 20px -100px 20px -180px;
+    padding-right: 2em;
+    font-size: 20px;
+    text-align: center;
+}
+
+body {
+    font-family: 'Montserrat', 'sans-serif';
+}
+
+.welcome {
+    text-align: center;
+    color: white;
+    position: relative;
+    background-image: url(../images/landing.jpg);
+    background-position: center;
+    background-size: cover;
+    background-repeat: no-repeat;
+    height: 500px;
+    padding-top: 250px;
+}
+
+.welcome>h1{
+    font-size: 80px;
+}
+
+.welcome>p{
+    font-size: 20px;
+}
+
+.main>h2 {
+    border-bottom: 4px solid #1db954;
+    width: fit-content;
+    text-align: center;
+    margin: 40px auto 90px auto;
+    font-size: 35px;
+    font-weight: 1200;
+}
+
+.music-icon {
+    float: left;
+    width: 33.33%;
+    text-align: center;
+}
+
+.speaker-icon {
+    width: 120px;
+    height: 120px;
+}
+.speaker-icon:hover {
+    transform: rotate(10deg) scale(1.1);
+  }
+.hd-music {
+    float: left;
+    width: 33.33%;
+    text-align: center;
+}
+
+.hdimg-icon {
+    width: 120px;
+    height: 120px;
+}
+.hdimg-icon:hover {
+    transform: rotate(10deg) scale(1.1);
+  }
+
+.stream {
+    float: left;
+    width: 33.33%;
+    text-align: center;
+}
+
+.dispo-icon {
+    width: 120px;
+    height: 120px;
+}
+.dispo-icon:hover {
+    transform: rotate(10deg) scale(1.1);
+  }
+
+.column {
+    margin-bottom: 120px;
+    font-size: 22px;
+}
+
+h3 {
+    color: #1db954;
+    font-weight: bolder;
+}
+
+.column:after {
+    content: "";
+    display: table;
+    clear: both;
+}
+
+#green-section {
+    color: white;
+    background-color: #1db954;
+    margin-right: 5em ;
+    margin-left: 5em ;
+    height: 700px;
+}
+
+#green-section>.kanye-txt {
+    position: relative;
+    display: inline-block;
+    width: 40%;
+    text-align: left;
+    font-size: 20px;
+    margin-left: 65px;
+}
+
+#kaney {
+    border-bottom: 4px solid white;
+    width: fit-content;
+    margin-bottom: 50px;
+}
+
+.text-kanye.h2 {
+    font-weight: bolder;
+}
+
+#green-section>.spotify-app {
+    position: relative;
+    float: right;
+    margin-top: 100px;
+    margin-right: 65px;
+    width: 25%;
+    height: 80%;
+}
+
+#green-section>.spotify-icon-logo {
+    position: absolute;
+    margin-top: 20%;
+    height: 17%;
+    width:10%;
+}
+
+
