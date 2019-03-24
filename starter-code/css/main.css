@@ -1,3 +1,5 @@
+@import url('https://fonts.googleapis.com/css?family=PT+Sans');
+
 /*
 Colors:
 
@@ -14,21 +16,24 @@ body {
   margin: 0;
   width: 100%;
   height: 100vh;
+  font-family: 'PT Sans', sans-serif;
 }
 .nav-cont {
   display: flex;
-  height: 3rem;
+  font-size: 1.5rem;
+  height: 5rem;
   align-items: center;
   justify-content: flex-end;
-  margin: 0.3rem;
+  margin: 0.3rem 3rem;
 }
 .nav-img {
   display: flex;
-  height: 2rem;
+  height: 4rem;
   justify-self: flex-start;
   margin-right: auto;
 }
 .navbar-content li {
+  font-weight: 100;
   display: inline-flex;
   justify-self: flex-end;
   list-style: none;
@@ -36,12 +41,16 @@ body {
 }
 .main {
   display: flex;
-  height: 80vh;
+  height: 100vh;
   background: url(../images/landing.jpg) no-repeat;
   background-size: cover;
   color: #fff;
   align-items: center;
   justify-content: center;
+}
+.main-head {
+  margin: 0;
+  font-size: 5.5rem;
 }
 .main-cont {
   display: flex;
@@ -54,11 +63,64 @@ body {
 .modal {
   display: none;
 }
-.footer h1 {
+.info h1 {
+  font-size: 3rem;
   display: flex;
   justify-content: center;
   border-bottom: 4px solid #00b172;
-  margin: 0 auto;
+  margin: 3rem auto 9rem;
   padding: 0.8rem;
   width: max-content;
+}
+.info-container {
+  font-size: 1.5rem;
+  margin-top: 1rem;
+  display: grid;
+  grid-template-columns: repeat(3, 1fr);
+  grid-column-gap: 5rem;
+  text-align: center;
+  margin: 3rem 9rem;
+}
+.info-head-text {
+  color: #00b172;
+}
+
+.info-img {
+  height: 7rem;
+}
+.kanye {
+  display: inline-grid;
+  grid-template-columns: 1fr 7vw 1fr;
+  align-items: center;
+  height: 100vh;
+  background: #00b172;
+  margin: 2rem;
+  font-weight: 100;
+}
+.kanye-header {
+  border-bottom: 5px solid #fff;
+  width: max-content;
+  font-size: 3rem;
+  padding-bottom: 0.5rem;
+}
+.kanye-container-1 {
+  margin-left: 8rem;
+  font-size: 1.5rem;
+  color: #fff;
+}
+.kanye-content {
+  margin-right: 12rem;
+}
+.kanye-container-2,
+.kanye-container-3 {
+  display: flex;
+  justify-content: center;
+}
+
+.spotify-w-logo {
+  height: 9rem;
+}
+.app-img {
+  margin-top: 5rem;
+  height: 80vh;
 }
