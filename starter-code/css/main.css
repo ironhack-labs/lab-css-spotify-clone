@@ -1,8 +1,134 @@
-/*
-Colors:
+* {
+  margin: 0;
+  padding: 0;
+  font-family: 'Arial';
+ }
 
-Text: 1A1A1A
-Green: #00B172
-White: #FFF
+ .container {
+  width: 1000px;
+  margin: 0 auto;
+  padding: 75px 0;
+ }
 
-*/
+ nav{
+  position: fixed;
+  background: white;
+  padding: 15px 15px;
+  width: 100vw;
+ }
+
+ #logo {
+  float: left;
+ }
+
+ #nav-bar {
+  float: right;
+ }
+
+ .nav-bar-ul {
+  padding: 0;
+  margin: 10px 50px 0 0;
+ }
+
+ .nav-bar-li {
+  display: inline-block;
+  margin: 10px;
+ }
+
+ .header{
+  background-image: url('https://github.com/FrankIsmael/lab-css-spotify-clone/blob/master/starter-code/images/landing.jpg?raw=true');
+  background-position: 0;
+  background-repeat: no-repeat;
+  background-size: cover;
+  color: white;
+  text-align: center;
+  height: 700px;
+  padding-top:300px;
+  box-sizing: border-box;
+}
+ 
+ header h1 {
+  font-size: 4em;
+  margin: 10px 0;
+ }
+
+ .col{
+  float:left; 
+}
+
+.col-3{
+  width:30%;
+}
+
+.col-middle{
+  width:5%;
+}
+
+.clearfix{
+  clear: both;
+}
+
+ .green-background{
+  background-color: #00B172;
+  color: white;
+  padding: 50px;
+  margin: 25px;
+ }
+
+ .figure {
+  text-align: center;
+ }
+ 
+ #what-spotify hr{
+  margin: 5px auto 70px auto;
+  width:210px;
+  height: 3px;
+  color: #00B172;
+  background-color: #00B172;
+  border: none;
+}
+
+.green-background hr{
+  margin: 5px auto 20px 0px;
+  width:320px;
+  height: 3px;
+  color: white;
+  background-color: white;
+  border: none;
+}
+
+
+.h2-text{
+  text-align: center;
+}
+
+#what-spotify h3{
+  color: #00B172;
+} 
+
+
+ .img {
+  margin-top: 50%;
+  transition: all .5s ease;
+ }
+ 
+ .img:hover {
+  filter: brightness(1);
+  animation: logo 1s 1;
+  transition: all .7s .2s ease-out;
+ }
+ 
+ @keyframes logo {
+ 0% {
+  filter: blur(1px);
+ }
+
+ 50% {
+  filter:blur(2px);
+ }
+
+ 100% {
+  filter:blur(5px);
+ }
+}
+
