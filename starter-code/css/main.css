@@ -6,3 +6,192 @@ Green: #00B172
 White: #FFF
 
 */
+
+/* ----------------- GENERAL CONFIG --------------------- */
+
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  font-family: Arial, Helvetica, sans-serif;
+  font-size: 12px;
+  color: #1A1A1A;
+}
+
+.font-white {
+  color: white;
+}
+
+.container {
+  width: 95%;
+  margin: 30px auto;
+  padding: 60px 0;
+}
+
+.col {
+  float: left;
+}
+
+.col-2 {
+  width: 45%;
+}
+
+.col-3 {
+  width: 30%;
+}
+
+.col-middle {
+  margin: 0 5%;
+}
+
+.clearfix {
+  clear: both;
+}
+
+/* ----------------- NAV BAR --------------------- */
+
+nav {
+  position: fixed;
+  width: 100vw;
+  height: 100px;
+  z-index: 999999;
+  background-color: white;
+}
+
+.nav-bar-left {
+  height: 100%;
+  float: left;
+}
+
+.nav-bar-left img {
+  width: 250px;
+  height: auto;
+}
+
+.nav-bar-right {
+  float: right;
+}
+
+.nav-bar-right ul {
+  list-style: none;
+  padding: 34px 0;
+}
+
+.nav-bar-right li {
+  display: inline;
+  padding: 0px 30px;
+  font-size: 2.3em;
+}
+
+
+
+/* ----------------- HEADER --------------------- */
+
+header {
+  height: 800px;
+  width: 100%;
+  background-image: url(../images/landing.jpg);
+  background-size: cover;
+  background-repeat: no-repeat;
+  background-position: 0; 
+  padding-top: 1200px;
+  position: relative;
+}
+
+
+#landing {
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  text-align: center;
+  width: 70%;
+}
+
+#landing h1 {
+  font-size: 9em;
+}
+
+#landing h2 {
+  font-size: 3.4em;
+  font-weight: 300;
+}
+
+/* ----------------- SECTION WHATS ON --------------------- */
+
+#whats-on {
+  height: 550px;
+}
+
+#whats-on h3 {
+  text-align: center;
+  font-size: 4em;
+  border-bottom: 3px solid #00B172;
+  padding-bottom: 50px;
+}
+
+.card {
+  width: 33%;
+  float: left;
+  text-align: center;
+  padding: 30px;
+}
+
+.card img {
+  width: 180px;
+}
+
+.card h4 {
+  color: #00B172;
+  font-size: 3em;
+  padding-bottom: 20px;
+}
+
+.card p {
+  font-size: 2.5em;
+  font-weight: 100;
+  line-height: 1.5em;
+}
+
+/* ----------------- SECTION WHATS ON --------------------- */
+
+#yeezy {
+  background: #00B172;
+  color: #fff;
+  padding: 50px;
+}
+
+#yeezy h2 {
+  font-size: 4em;
+  margin: 20px 0;
+  color: #fff;
+}
+
+#yeezy h3 {
+  font-size: 3em;
+  margin: 40px 0;
+  color: #fff;
+}
+
+#yeezy p {
+  font-size: 2em;
+  line-height: 1.5em; 
+  margin: 20px 0;
+  color: #fff;
+}
+
+.figure {
+  text-align: center;
+}
+
+.img {
+  margin-top: 50%;
+  width: 150px;
+}
+
+.img:hover {
+  animation-name: logo;
+  animation-duration: 4s;
+  transition: all .5s ease;
+  filter: brightness(1);
+}
