@@ -6,3 +6,149 @@ Green: #00B172
 White: #FFF
 
 */
+* {
+  margin: 0;
+  padding: 0;
+  font-family: 'Arial';
+}
+
+.container {
+  width: 1000px;
+  margin: 0 auto;
+  padding: 75px 0;
+}
+
+.col {
+  float: left;
+}
+
+.col-2 {
+  width: 45%;
+}
+
+.col-3 {
+  width: 30%;
+}
+
+.col-middle {
+  margin: 0 5%;
+}
+
+.clearfix {
+  clear: both;
+}
+
+nav {
+  position: fixed;
+  background: white;
+  padding: 15px 15px;
+  width: 100vw;
+  
+  /*height: 30px;*/
+}
+
+.top-left {
+  float: left;
+}
+
+.top-links {
+  float: right;
+}
+
+nav ul {
+  padding: 0;
+  margin: 10px 50px 0 0;
+}
+
+nav ul li {
+  display: inline-block;
+  margin: 10px;
+}
+
+header {
+  background-color: rgb(32, 101, 136);
+  color: white;
+  background-image: url(../images/landing.jpg);
+  background-position: 0;
+  background-repeat: no-repeat;
+  background-size: cover;
+  height: 800px;
+  text-align: center;
+  padding-top: 350px;
+  box-sizing: border-box
+}
+
+header h1 {
+  font-size: 5em;
+  margin: 10px 0;
+}
+
+#whatsOn {
+  text-align: center;
+}
+
+#whatsOn article {
+  height: 250px;
+}
+
+#whatsOn h2 {
+  font-size: 2.5em;
+  margin: 20px 0 50px 0;
+}
+
+#whatsOn h3 {
+  font-size: 2em;
+  color: #00B172;
+  margin: 20px 0;
+}
+
+#yeezy {
+  background: #00B172;
+  color: #fff;
+  padding: 50px;
+}
+
+#yeezy h2 {
+  font-size: 2.5em;
+  margin: 20px 0;
+}
+
+#yeezy h3 {
+  font-size: 2em;
+  margin: 20px 0;
+}
+
+#yeezy p {
+  font-size: 1em; 
+  margin: 20px 0;
+}
+
+.figure {
+  text-align: center;
+}
+
+.img {
+  margin-top: 50%;
+  filter: brightness(1);
+}
+
+.img:hover {
+  animation-name: logo;
+  animation-duration: 4s;
+  transition: all .5s ease;
+  filter: brightness(1);
+}
+
+@keyframes logo {
+  0% {
+    filter: brightness(1);
+  }
+
+  50% {
+    filter: brightness(0);
+  }
+
+  100% {
+    filter: brightness(0);
+  }
+}
