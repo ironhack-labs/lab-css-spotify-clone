@@ -8,55 +8,75 @@ White: #FFF
 *{
   margin: 0 auto;
   height: 0 auto;
-  box-sizing: border-box;
 }
 body{
   font-family: Arial, Helvetica, sans-serif;
   width: 100vw;
 }
 navbar{
-  box-sizing: border-box;
+  position: fixed;
+  background: whitesmoke;
+  width: 100%;
 }
 navbar ul{
- 
-  position: relative;
-  top: 0%;
-  right: 0;
-  left: 55%;
+  display: flex;
+  justify-content: flex-end;
+  align-items: flex-end;
+  padding: 60px;
 }
 navbar ul li{
-  display: inline-block;
   list-style: none;
 }
 navbar ul a{
+  display: flex;
+  justify-content: space-between;
   color: black;
   font-weight: bold;
   text-decoration: none;
   font-size: 1.5em;
 }
 section navbar img{
+  float: left;
   margin: 2%;
   height: 80px;
 }
 
 section.landing__image{
   background: url("../images/landing.jpg") no-repeat;
+  background-size: 100% 600px;
   width: 100%;
-  height: 90vh;
 
 }
+
 .landing__image{
   color: white;
   text-align: center;
+  padding-bottom: 35%;
 }
 .landing__image h1{
-  padding-top: 10%;
+  padding-top: 20%;
   font-weight: bold;
   font-size: 3em;
+  padding-bottom: 2%;
 }
-.middle section{
-  display: flexbox;
-  justify-content: space-between;
+.landing__image > p{
+  font-size: 1.2em;
+  font-weight: lighter;
+}
+.middle h3{
+  font-size: 2em;
+  padding-top: 5%;
+  display: flex;
+  justify-content: center;
+}
+.middle__info{
+  display: flex;
+  justify-content: space-around;
+  padding: 5%;
+}
+.middle__info article > p {
+  padding-top: 4%;
+  font-weight: lighter;
 }
 figure img{
   max-height: 60px;
@@ -66,8 +86,39 @@ figcaption{
   font-weight: bold;
   font-size: 1.5em;
 } 
-section.bottom{
-  background:#1ab26b url("../images/spotify-icon-white.png") no-repeat;
+.bottom section{
+  display: flex;
+  justify-content: flex-start;
+  align-items: center;
+  background:#1ab26b url("../images/spotify-icon-white.png") no-repeat center;
+  background-size: 10%;
   color: white;
   width: 100%;
+}
+.bottom h3{
+
+}
+.bottom article{
+  display: flex;
+  justify-content: flex-start;
+  align-items: center;
+}
+aside  > img{
+  display: flex;
+  justify-content: flex-end;
+  align-items: center;
+  width: 250px;
+}
+
+img[src*="logo"]:hover{
+  animation: moving 0.6s ease;
+}
+
+@keyframes moving{
+  0%{
+    transform: rotate(0)
+  }
+  100%{
+    transform: rotate(360deg)
+  }
 }
