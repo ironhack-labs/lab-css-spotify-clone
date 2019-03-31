@@ -6,3 +6,168 @@ Green: #00B172
 White: #FFF
 
 */
+* {
+  margin: 0;
+  padding: 0;
+  font-family: sans-serif;
+}
+header{
+  position: fixed;
+  background-color: white;
+  display: block;
+  width: 100%;
+  height: 5em;
+  top: 0;
+}
+.logo {
+  margin-left: 2em;
+}
+.logo img {
+  width: 8.75em;
+  height: 2.675em;
+}
+nav {
+  min-width: 25em;
+  display: flex;
+  justify-content: space-between;
+  height: 100%;
+  align-items: center;
+}
+nav ul {
+  list-style-type: none;
+  display: flex;
+  justify-content: space-between;
+  width: 30%;
+  margin-right: 2em;
+
+}
+nav ul li {
+
+}
+.hero {
+  background-image: url(../images/landing.jpg);
+  height: 50em;
+  background-size: cover;
+  margin-top: 5em;
+}
+.hero h1 , .hero p  {
+  color: white;
+  text-align: center;
+}
+.hero h1 {
+  font-size: 6em;
+
+}
+.hero p {
+  font-size: 2.5em;
+  text-align: center;
+  width: 64%;
+  margin: 1em auto 0 auto;
+}
+.mission {
+  padding-top: 20em;
+}
+.features{
+  text-align: center;
+  margin-top: 1em;
+
+
+
+}
+.features h2 {
+  padding-top: 2.5em;
+  display:inline-block;
+  border-bottom: 3px solid #00B172;
+  font-size: 2.9em;
+  margin-top: -1em;
+}
+.features ul {
+  display: flex;
+  justify-content: space-around;
+  list-style-type: none;
+
+}
+.features ul li{
+  text-align: center;
+  padding-top: 5em;
+  flex: 0 0 33%;
+}
+.features ul li h3 {
+  font-size: 2em;
+  color:#00B172;
+  margin-top: 1em;
+}
+.features ul li p {
+  font-size: 2em;
+  margin-top: 1em;
+  width: 74%;
+  margin-left: 2em;
+  font-style: italic
+
+}
+.features ul li img {
+  height: 9.675em;
+}
+.functionalities {
+  margin-top: 10em;
+  margin-right: 2em;
+  padding: 3em 0em 3em 1em;
+  background-color: #00B172;
+  display:flex;
+  color: white;
+  margin-left: 2em;
+}
+.functionalities .list {
+  width: 35%;
+}
+.functionalities ul {
+  display: flex;
+  flex-direction: column;
+  list-style-type: none;
+  justify-content: space-around;
+  margin-top: 6.25em;
+  height: calc(100% - 6.25em);
+}
+.functionalities h3 {
+  display: inline-block;
+  border-bottom: 4px solid #FFF;
+  position: absolute;
+  font-size: 3em;
+  font-weight: bold;
+  margin-left: 4.5rem;
+  margin-top: 0.5em;
+  margin-bottom: 1.5em;
+
+}
+.functionalities h4 {
+  font-size: 2em;
+  font-weight: bold;
+  margin-left: 4.5rem;
+  margin-top: 1em;
+}
+.functionalities ul p {
+  margin-left: 4.5rem;
+  width: 81%;
+  font-size: 1.5em;
+  font-weight: 100;
+  margin-top: 1em;
+  margin-bottom: 0em;
+}
+.functionalities .spotify-icon {
+  align-self: center;
+  text-align: center;
+  width: 30%;
+}
+
+.functionalities .spotify-icon img {
+  width: 40%;
+  margin-left: 3em;
+}
+.functionalities .spotify-screen {
+  align-self: flex-end;
+  width: 35%;
+}
+.functionalities .spotify-screen img {
+  width: 65%;
+  margin-left: 4em;
+}
