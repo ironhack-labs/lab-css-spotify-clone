@@ -1,8 +1,166 @@
-/*
-Colors:
+body {
+  margin: 0;
+  font-family: "Roboto", sans-serif;
+  font-weight: 400;
+  color: #1a1a1a;
+}
 
-Text: 1A1A1A
-Green: #00B172
-White: #FFF
+body > div {
+  position: relative;
+}
 
-*/
+/* Navbar & Header  */
+
+nav {
+  height: 80px;
+  width: 100%;
+  position: fixed;
+  background-color: white;
+  z-index: 999;
+}
+
+#logo {
+  height: 60px;
+  margin: 10px 30px;
+}
+
+ul {
+  display: inline-block;
+  float: right;
+  margin: 30px;
+}
+
+li {
+  display: inline;
+  margin: 0 0 0 12px;
+  cursor: pointer;
+  padding-bottom: 10px;
+  font-weight: 300;
+  font-size: 17px;
+}
+
+li:hover {
+  border-bottom: 3px solid #00b172;
+}
+
+header {
+  top: 80px;
+  background: url("../images/landing.jpg") no-repeat;
+  height: 650px;
+  background-size: cover;
+  background-position-y: 50%;
+  color: white;
+  text-align: center;
+}
+
+header * {
+  position: relative;
+  top: 45%;
+  margin: 0;
+}
+
+header h1 {
+  font-size: 80px;
+}
+
+header p {
+  font-weight: 100;
+  font-size: 30px;
+  width: 55%;
+  margin: 30px 22% 0;
+}
+
+/* Section One  */
+
+#about {
+  /* background-color: aqua; */
+  text-align: center;
+}
+#about * {
+  margin: 0;
+}
+#about .container {
+  display: flex;
+  margin-top: 80px;
+}
+
+#about .container div {
+  flex: 1;
+}
+
+#about h1 {
+  font-size: 40px;
+  width: 340px;
+  display: block;
+  margin: 30px auto 0;
+  border-bottom: 5px solid #00b172;
+  padding: 0 0 10px;
+}
+
+#about img {
+  height: 80px;
+}
+
+#about h2 {
+  color: #00b172;
+  font-size: 30px;
+}
+
+#about p {
+  width: 260px;
+  font-size: 24px;
+  display: block;
+  margin: 30px auto 0;
+  font-weight: 300;
+}
+
+/* Section Two  */
+
+#section-two {
+  background-color: #00b172;
+  margin: 100px 40px;
+  color: white;
+}
+
+#section-two .container {
+  display: flex;
+}
+
+#section-two .container > div {
+  flex: 1;
+  height: auto;
+}
+
+#section-two div .album {
+  height: 600px;
+  display: block;
+  margin: 15% 15% 15% auto;
+}
+
+.info {
+  margin: 5%;
+}
+
+.info h1 {
+  border-bottom: 3px solid white;
+  padding: 10px 0;
+  font-size: 40px;
+  width: 510px;
+}
+
+.info h2 {
+  margin: 35px 0;
+  font-size: 26px;
+}
+
+.info p {
+  font-size: 20px;
+  width: 55%;
+  font-weight: 300;
+}
+#logo-white {
+  position: absolute;
+  height: 130px;
+  top: 78%;
+  left: 45%;
+}
