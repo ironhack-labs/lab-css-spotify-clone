@@ -1,8 +1,154 @@
-/*
-Colors:
+/* * {
+  border: 1px solid red;
+} */
 
-Text: 1A1A1A
-Green: #00B172
-White: #FFF
+body {
+  font-family: sans-serif;
+  background: white;
+  margin: auto;
+  align-content: center;
+}
 
-*/
+nav {
+  background: white;
+  position: fixed;
+  z-index: 1;
+  width: 100%;
+  padding: 10px;
+  height: 75px;
+}
+
+nav img {
+  float: left;
+  width: 150px;
+  margin: 10px;
+}
+
+nav ul {
+  float: right;
+  display: inline;
+  margin-right: 40px;
+  margin-top: 25px;
+  font-size: 20px;
+}
+
+nav ul li {
+  display: inline;
+  margin: 10px;
+}
+#page {
+  position: relative;
+  top: 75px;
+}
+#landing {
+  /* margin-top: 100px; */
+  width: 100%;
+  background-image: url("../images/landing.jpg");
+  background-position: center;
+  background-size: cover;
+  height: 700px;
+  color: white;
+  text-align: center;
+  padding: 20px;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+#landing h2 {
+  font-size: 75px;
+  margin-top: 200px;
+}
+
+#landing p {
+  font-size: 25px;
+  width: 50%;
+}
+
+.icon {
+  width: 100px;
+}
+
+#heading {
+  font-size: 30px;
+  text-align: center;
+  margin: auto;
+  margin-top: 30px;
+  border-bottom: 1px solid #00b172; /* Or whatever color you want */
+  text-decoration: none;
+  border-width: 2px;
+  width: fit-content;
+}
+#list {
+  text-align: center;
+}
+
+#trilist {
+  display: inline-flex;
+  list-style-type: none;
+  height: 333px;
+  margin-top: 100px;
+}
+
+#trilist li {
+  margin: 30px;
+  width: 300px;
+}
+
+#trilist h4 {
+  color: #00b172;
+  font-size: 25px;
+}
+
+#trilist p {
+  font-weight: lighter;
+  font-size: 22px;
+}
+
+#kanye {
+  color: white;
+  background: #00b172;
+  padding: 30px;
+  background-image: url("../images/spotify-icon-white.png");
+  background-repeat: no-repeat;
+  background-size: 150px;
+  background-position: center;
+  margin: 20px;
+  display: flex;
+  flex-direction: row;
+  height: 600px;
+}
+
+#text {
+  width: 50%;
+  margin-left: 30px;
+}
+
+#text h3 {
+  border-bottom: 10px solid currentColor; /* Or whatever color you want */
+  text-decoration: none;
+  border-width: 5px;
+  width: fit-content;
+  font-size: 40px;
+}
+
+#text h4 {
+  font-size: 30px;
+}
+
+#text p {
+  width: 50%;
+  font-size: 20px;
+}
+
+#app img {
+  float: right;
+  height: 500px;
+  margin-top: 50px;
+  margin-right: 30px;
+}
+
+#text,
+#text {
+  flex: 1;
+}
