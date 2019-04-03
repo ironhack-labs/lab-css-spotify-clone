@@ -6,3 +6,152 @@ Green: #00B172
 White: #FFF
 
 */
+
+html {
+  font-family: Arial;
+  color: #1A1A1A;
+}
+
+h1,
+h2,
+h3,
+p {
+  margin: 0;
+}
+
+nav {
+  align-items: center;
+  display: flex;
+  justify-content: space-between;
+  margin: 16px;
+}
+
+nav ul {
+  display: flex;
+  list-style: none;
+}
+
+nav a {
+  display: block;
+  font-size: 24px;
+  padding: 0 18px;
+}
+
+
+.hero {
+  background-image: url(../images/landing.jpg);
+  background-size: cover 
+  background-position: center center;
+  height: 700px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  flex-direction: column;
+}
+
+
+.hero h1 {
+  color: white;
+  font-size: 80px;
+}
+
+.hero p {
+  color: white;
+  font-size: 32px;
+  line-height: 40px; 
+  margin-top: 32px;
+  text-align: center;
+}
+
+
+
+.features {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  padding: 48px;
+}
+
+.features .container {
+  display: flex;
+  justify-content: space-between;
+  width: 1024px;
+  margin: 0 auto;
+  align-items: flex-start;
+}
+
+.features h2 {
+  text-decoration: underline;
+  text-decoration-color: #00B172;
+  font-size: 48px;
+  margin-bottom: 48px;
+}
+
+.feature {
+  align-items: center;
+  display: flex;
+  flex-direction: column;
+  max-width: 250px;
+  text-align: center;
+}
+
+.feature img {
+  width: auto;
+  height: 100px;
+}
+
+.feature h3 {
+  color: #00B172;
+  font-size: 24px;
+  margin-top: 16px;
+}
+
+.feature p {
+  font-size: 20px;
+  margin-top: 16px;
+}
+
+
+.kanye {
+  background-color: #00B172;
+  padding: 48px;
+}
+
+.kanye h2 {
+  color: white;
+  font-size: 48px;
+  text-decoration: underline;
+  text-decoration-color: white;
+}
+
+.kanye .inner-container {
+  max-width: 1200px;
+  margin: 0 auto;
+}
+
+.kanye .container {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+}
+
+.kanyer .items {
+  display: flex;
+  flex-direction: column;
+}
+
+.kanye .item {
+  margin: 48px 0;
+}
+
+.kanye .item h3 {
+  color: white;
+  font-size: 32px;
+  margin-bottom: 24px;
+}
+
+.kanye .item p {
+  color: white;
+  font-size: 24px;
+}
