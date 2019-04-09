@@ -1,8 +1,129 @@
-/*
-Colors:
+@import url("https://fonts.googleapis.com/css?family=Nanum+Gothic");
 
-Text: 1A1A1A
-Green: #00B172
-White: #FFF
+nav {
+  font-family: "Nanum Gothic";
+  font-size: 23px;
+  font-weight: 100;
+}
 
-*/
+nav a {
+  text-decoration: none;
+  color: black;
+  margin-right: 20px;
+}
+
+nav li {
+  list-style-type: none;
+  display: inline-block;
+  justify-self: end;
+  padding: 10px;
+  float: right;
+}
+
+.nav-bar {
+  height: 70px;
+  padding-bottom: 10px;
+}
+
+.logo {
+  float: left;
+  margin-left: 30px;
+  margin-bottom: 20px;
+}
+
+body {
+  font-family: "Nanum Gothic";
+  font-weight: 100;
+}
+
+h2 {
+  font-size: 40px;
+  text-decoration: underline;
+  text-underline-position: under;
+}
+
+h3 {
+  font-size: 30px;
+}
+
+.heading {
+  color: white;
+  font-size: 38px;
+  text-align: center;
+  padding: 500px 0;
+  background-image: url(../images/landing.jpg);
+  background-repeat: no-repeat;
+  background-size: 100%;
+  vertical-align: baseline;
+}
+
+.heading > h1 {
+  margin-top: -200px;
+}
+
+.heading > h3 {
+  font-size: 25px;
+  line-height: 1.5;
+  font-weight: 100;
+}
+
+.spotify {
+  text-align: center;
+  margin: 5% 0;
+}
+
+.spotify > h2 {
+  text-decoration-color: #00b172;
+  margin-bottom: 80px;
+}
+
+.spotify h3 {
+  color: #00b172;
+}
+
+.spotify p {
+  font-size: 30px;
+  color: 1a1a1a;
+  font-weight: 100;
+  margin-bottom: 150px;
+}
+
+.col {
+  float: left;
+}
+
+.col-3 {
+  width: 33%;
+}
+
+.col-middle {
+  margin: 0.3%;
+  padding-top: 18px;
+}
+
+.kanye {
+  display: flex;
+  color: white;
+  background-color: #00b172;
+  justify-content: space-around;
+  align-items: center;
+  width: 94%;
+  height: 800px;
+  margin: 0 3%;
+}
+
+.spotify-icon {
+  background-image: url(../images/spotify-icon-white.png);
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: 10%;
+}
+
+.kanye h2 {
+  padding-bottom: 50px;
+}
+
+.kanye p {
+  line-height: 150%;
+  font-size: 25px;
+}
