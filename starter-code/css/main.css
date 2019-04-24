@@ -6,3 +6,133 @@ Green: #00B172
 White: #FFF
 
 */
+
+body {
+  font-family: sans-serif;
+  color: white;
+}
+
+img {
+  width: 100%;
+}
+
+h1 {
+  font-size: 5em;
+}
+
+h3 {
+  font-size: 1.5em;
+}
+
+section {
+  padding: 30px;
+  text-align: center;
+}
+
+/* Navigation */
+
+.navigation {
+  display: flex;
+  justify-content: space-between;
+  padding: 20px 40px;
+  background-color: white;
+}
+
+.navigation a {
+  display: inline-block;
+  width: 200px;
+  color: black;
+}
+
+.navigation ul li {
+  display: inline-block;
+}
+
+.navigation li a {
+  padding: 10px;
+  width: auto;
+}
+
+.logo {
+  animation: bounce 2s 2 ease-in alternate;
+}
+
+@keyframes bounce {
+  from {
+    transform: translateX(0);
+  }
+
+  to {
+    transform: translateX(200px);
+  }
+
+}
+
+/* Hero section */
+
+.hero {
+  background: url('../images/landing.jpg') no-repeat center/cover;
+  height: 100vh;
+  text-align: center;
+}
+
+.hero .row {
+  height: 100vh;
+}
+
+.hero p {
+  font-size: 1.5em;
+  font-weight: 100;
+}
+
+/* Section Info */
+
+
+.info h2 {
+  color: black;
+}
+
+.info h3 {
+  color: #00B172;
+  font-weight: 600;
+}
+
+.info hr {
+  width: 24%;
+  border: 2px solid #00B172;
+}
+
+.info p {
+  color: black;
+}
+
+.info img {
+  width: 40%;
+}
+
+.info .row {
+  padding: 40px;
+}
+
+
+/* Section how-to */
+
+.how-to .container {
+  background-color: #00B172;
+  text-align: left;
+  padding: 50px;
+}
+
+.how-to hr {
+  width: 35%;
+  border: 2px solid #fff;
+  margin-left: 0;
+}
+
+.padding-30 {
+  padding: 15px;
+}
+
+.spotify-white-logo {
+  width: 100%;
+}
