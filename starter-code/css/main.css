@@ -6,3 +6,68 @@ Green: #00B172
 White: #FFF
 
 */
+
+/* GENERAL STYLING */
+
+body{
+  font-family: sans-serif;
+  font-weight: 200;
+
+}
+h1 {
+  font-weight: 500;
+  font-size: 5em;
+  letter-spacing: 8px;
+  padding: 20px;
+
+}
+
+.center{
+
+  color: black;
+  border-bottom: 1px solid green;
+}
+
+
+img {
+ border-top: black;
+}
+
+.navigation{
+  display: flex;
+  justify-content: space-between;
+  position: fixed;
+  width: 100vw;
+  background: white;
+  padding: 20px 5px;
+
+}
+.navigation img {
+  width: 300px;
+  margin-top: 4px;
+}
+
+.navigation li {
+  list-style: none;
+  display: inline-block;
+  margin: 5px 10px 0;
+  text-transform: uppercase;
+  letter-spacing: 2px
+}
+
+.navigation li a {
+  color: black;
+  font-size: .8em;
+  display: block;
+  padding: 10px 3px;
+}
+
+.hero{
+  background: white url(../images/landing.jpg) no-repeat center / cover;
+  color: white;
+
+}
+
+.hero, .hero .row {
+  height: 100vh;
+}
