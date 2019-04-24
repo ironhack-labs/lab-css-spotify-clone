@@ -6,3 +6,103 @@ Green: #00B172
 White: #FFF
 
 */
+img {
+  width: 100%;
+}
+body{
+  font-family: helvetica, sans-serif;
+  color:1A1A1A;
+}
+.hero{
+  background: black url(../images/landing.jpg) no-repeat center / cover;
+  color:white;
+  height: 100vh;
+  text-align: center;
+  font-size: 2.5em;
+  font-weight: 100;
+
+}
+.hero .row{
+  height: 100vh;  
+}
+.Spoti-first-section h2{
+  border-bottom: 2px solid #00B172;
+  display: inline-block;
+  font-size: 2.5em;
+  font-weight: 300;
+}
+.center{
+  text-align: center;
+}
+.Spoti-first-section img{
+  width: 10em;
+}
+.Spoti-first-section h3{
+  color:#00B172;
+  font-size: 2em;
+  font-weight: 500;
+}
+.Spoti-first-section p{
+  font-size: 1.5em;
+  font-weight: 100;
+}
+.Spoti-first-section{
+  text-align: center;
+}
+.last-section{
+  background-color: #00B172;
+  color: white;
+}
+.last-section h2{
+  border-bottom: 2px solid white;
+  display: inline-block;
+  font-size: 2.5em;
+  font-weight: 500;
+  margin:1.5em 3.3em 0em 3.3em;
+
+}
+.last-section h3 {
+  font-size: 2em;
+  font-weight:400; 
+}
+.last-section p{
+  font-size: 1.5em;
+  font-weight: 100;
+}
+.icon-white{
+ width: 9em;
+ margin: auto;
+}
+.app{
+width: 20em;
+margin: auto;
+
+}
+.espacio{
+  margin-top: 3.3em;
+}
+.navigation img{
+  width: 12em;
+  animation: mueve 4s;
+  animation-iteration-count: 3;
+  position: relative;
+
+} 
+@keyframes mueve{
+  from{
+    left: 0px; top:0px;  
+  }to{
+    left: 200px; top:0px;
+  }
+}
+.navigation li{
+  display:inline-block;
+  list-style: none;
+}
+.navigation {
+  display: flex;
+  justify-content: space-between;
+}
+.navigation a{
+  color: black;
+}
