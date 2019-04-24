@@ -6,9 +6,7 @@ Green: #00B172
 White: #FFF
 
 */
-img {
-  width: 50%;
-}
+
 /* GENERAL STYLING */
 
 body{
@@ -22,17 +20,22 @@ h1{
   font-size: 3em;
 }
 
+.iconos img{
+  width: 100px;
+}
+
 /*BARRA NAVEGADOR*/
 
 .navigation {
   display: flex;
   justify-content: space-between;
-  padding: 10px 5px;
+  padding: 40px 5px;
 }
 
 .navigation img {
   width: 180px;
-  margin: 5px 15px;
+  margin: 0px 15px;
+  animation: flotar .8s ease-in alternate infinite;
 }
 
 .navigation ul {
@@ -66,7 +69,10 @@ h1{
   height: 100vh;
 }
 
-/*SECCION 2*/
+/*SECCION 1*/
+.section1 {
+  text-align: center;
+}
 
 .section1 h2 {
   text-align: center;
@@ -77,4 +83,21 @@ h1{
 }
 .section1 header {
   text-align: center;
+}
+
+@keyframes flotar {
+  from {
+    margin-left: 15px;
+  }
+
+  to {
+    margin-left: 30px;
+  }
+
+  from {
+    filter: brightness(1)
+  }
+  to {
+    filter: brightness(1.1);
+  }
 }
