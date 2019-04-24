@@ -6,3 +6,65 @@ Green: #00B172
 White: #FFF
 
 */
+
+body {
+  font-family: 'Raleway', sans-serif;
+  color: rgb(10,10,10);
+  font-weight: 200;
+}
+
+h1 {
+  color: white;
+  font-size: 4em;
+}
+a {
+  text-decoration: none;
+
+}
+
+
+
+/* NAVIGATION */
+
+.navigation {
+  display: flex;
+  justify-content: space-between;
+  padding: 15px 20px;
+  position: fixed;
+  width: 100vw;
+  z-index: 999;
+  background-color: white;
+
+}
+
+
+.navigation li {
+  display: inline-block;
+}
+
+.navigation li a {
+  color: black;
+  font-size: 1.5em;
+  display: block;
+  padding: 10px 3px;
+}
+
+.navigation img {
+  width: 250px;
+}
+
+/* HERO */
+
+.hero, .hero .row {
+  height: 100vh;
+}
+.hero { 
+  background: black url(../images/landing.jpg) no-repeat center / cover;
+  text-align: center;
+}
+.hero p {
+  color: white;
+  font-size: 2em;
+  font-weight: 400;
+  line-height: 35px;
+}
