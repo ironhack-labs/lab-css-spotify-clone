@@ -50,8 +50,8 @@ section {
 }
 
 .navigation img {
-  height: 110px;
-  padding: 10px 0;
+  height: 90px;
+  padding: 10px 10px;
 }
 
 ul li {
@@ -155,4 +155,35 @@ ul li a:hover {
   margin-top: -60px;
   right: 50%;
   margin-right: -60px;
+}
+
+.animation {
+  animation: heartbeat 1.5s ease-in-out infinite both;
+}
+
+
+@keyframes heartbeat {
+from {
+ transform: scale(1);
+ transform-origin: center center;
+ animation-timing-function: ease-out;
+}
+
+10% {
+ transform: scale(0.91);
+ animation-timing-function: ease-in;
+}
+
+17% {
+ transform: scale(0.98);
+ animation-timing-function: ease-out;
+}
+33% {
+ transform: scale(0.87);
+ animation-timing-function: ease-in;
+}
+45% {
+ transform: scale(1);
+ animation-timing-function: ease-out;
+}
 }
