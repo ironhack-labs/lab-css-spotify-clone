@@ -6,3 +6,282 @@ Green: #00B172
 White: #FFF
 
 */
+
+*{
+  margin: 0;
+}
+
+body{
+  margin: 0;
+  font-family: Helvetica;
+  font-size: 16px;
+  color: #1A1A1A;
+}
+
+.clearfix{
+  clear: both;
+}
+
+/*--------------------------------*\
+
+#COMMON PROPERTIES
+
+/*--------------------------------*/
+
+.navbar__logo,
+.navbar__menu, .navbar__item,
+.section-title,
+.artist__wrapper {
+  display: inline-block;
+}
+
+.navbar,
+.navbar__logo, .navbar__container,
+.navbar__menu, .navbar__item,
+.container {
+  box-sizing: border-box;
+}
+
+.masthead__heading, .masthead__paragraph,
+.card__heading, .card__paragraph{
+  letter-spacing: 0.05em;
+}
+
+.navbar__menu,
+.artist__pic{
+  float: right;
+}
+
+.navbar__logo,
+.col-3{
+  float: left;
+}
+
+.masthead__heading, .masthead__paragraph,
+.section-title--artist,
+.h2,
+.paragraph--white{
+  color: white;
+}
+
+.navbar, 
+.masthead, .masthead__container,
+.h2{
+  display: flex;
+  justify-content: center;
+  flex-direction: column;
+}
+
+.masthead__container, 
+.container,
+.card{
+  text-align: center;
+}
+
+.masthead, .artist__wrapper{
+  position: relative;
+}
+
+.masthead__container, .artist__spotify-logo{
+  position: absolute;
+}
+
+.masthead__heading,
+.h2,
+.paragraph,{
+  margin: 0 0 0.5em 0;
+}
+
+
+
+/*--------------------------------*\
+
+#NAVBAR SECTION
+
+/*--------------------------------*/
+
+.navbar{
+  position: fixed;
+  z-index: 2;
+  width: 100%;
+  height: 95px;
+  background-color: white;
+}
+
+.navbar__logo{
+  width: 20%;
+}
+
+.navbar__menu{
+  padding: 0;
+}
+
+.navbar__item{
+  margin: 1em;
+}
+
+.navbar__link{
+  color: #1A1A1A;
+  font-size: 1.3em;
+  font-weight: 300;
+  letter-spacing: 0.04em;
+  text-decoration: none;
+}
+
+
+
+
+
+/*--------------------------------*\
+
+#NAVBAR SPACER SECTION
+
+/*--------------------------------*/
+
+.spacer{
+  width: 100%;
+  height: 95px;
+}
+
+
+
+
+/*--------------------------------*\
+
+#MASTHEAD SECTION
+
+/*--------------------------------*/
+
+.masthead{
+  background-image: url('../images/landing.jpg');
+  background-size: cover;
+  background-repeat: no-repeat;
+}
+
+.masthead__container{
+  width: 100%;
+}
+
+.masthead__img{
+  width: 100%;
+}
+
+.masthead__heading{
+  font-size: 5em;
+  font-weight: 600;
+}
+
+.masthead__paragraph{
+  font-size: 1.6em;
+  font-weight: 200;
+}
+
+
+
+
+/*--------------------------------*\
+
+#SERVICE
+
+/*--------------------------------*/
+
+.service__wrapper{
+  margin-bottom: 2.5em;
+}
+
+.service__img{
+  max-height: 100px;
+}
+
+
+
+
+
+/*--------------------------------*\
+
+#ARTIST
+
+/*--------------------------------*/
+
+.artist__pic{
+  width: 30%;
+}
+
+.artist__spotify-logo{
+  width: 25%;
+  top: 50%;
+  right: -100px;
+}
+
+
+
+
+/*--------------------------------*\
+
+#GENERAL
+
+/*--------------------------------*/
+
+.container{
+  width: 90%;
+  margin: auto;
+  padding: 1em 0;
+}
+
+.container--green{
+  width: 95%;
+  padding: 5%;
+  margin: 1.5em;
+  background-color: #00B172;
+  text-align: left;
+}
+
+.col-3{
+  width: 30%;
+}
+
+.col-middle{
+  margin-right: 5%;
+  margin-left: 5%;
+}
+
+.invisible{
+  visibility: hidden;
+}
+
+.section-title{
+  font-size: 2.2em;
+  font-weight: 600;
+  letter-spacing: 0.03em;
+  line-height: 1.5em;
+  margin: 1em 0 2.5em 0;
+  border-bottom: 5px solid;
+}
+
+.section-title--service{
+  border-color: #00B172;
+}
+
+.section-title--artist{
+  margin: 0 0 1em;
+}
+
+.h2{
+  font-size: 2em;
+  text-align: left;
+  min-height: 2.5em;
+}
+
+.h2--green{
+  color: #00B172;
+  text-align: center;
+}
+
+.paragraph{
+  font-size: 1.5em;
+  min-height: 5em;
+}
+
+.paragraph--white{
+  text-align: left;
+}
