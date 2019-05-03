@@ -20,26 +20,31 @@ body{
     border: none;
 }
 
+
+
 article{ padding-top: 30px}
 
+article.panTextoConFondo.primer-articulo{
+    padding-top: 300px;
+}
 
 
-nav .menu-horizontal{
+nav.menu-horizontal{
     display: flex;
     align-items: center;
     background-color: #fff;
 }
 
-nav .menu-horizontal a {
+nav.menu-horizontal a {
     text-decoration: none;
     padding: 10px 15px;
     color: #000;
     font-size: 19px
 }
-nav .menu-horizontal :first-child{
+nav.menu-horizontal :first-child{
     flex-grow: 1;
 }
-nav .menu-horizontal a+img{
+nav.menu-horizontal a+img{
     margin-top: -40px;
 }
 
