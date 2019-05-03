@@ -10,6 +10,7 @@ White: #FFF
 body{
     background-color:  #fff;
     font-family:  Helvetica Neue,Helvetica,Arial,sans-serif;
+
 }
 
 .contenedor{
@@ -36,7 +37,6 @@ nav .menu-horizontal a {
 }
 nav .menu-horizontal :first-child{
     flex-grow: 1;
-    border:1px solid pink
 }
 nav .menu-horizontal a+img{
     margin-top: -40px;
@@ -69,25 +69,58 @@ nav .menu-horizontal a+img{
 
 }
 
-.tituloSeccion{text-align: center; font-size: 40px; padding-bottom: 3px; margin-top: 30px}
+.tituloSeccion{text-align: center; font-size: 40px; padding-bottom: 3px;
+    margin-top: 30px; margin-bottom: 50px}
 .tituloSeccion span { border-bottom: 4px solid #1AB26B; padding-bottom: 5px}
 
 .contenedorFlex{
     display: flex;
 }
 
-.panTextoCentrado{ text-align: center;}
-
-.contenedorFlex > div {
-    padding: 30px ;
-}
+.panTextoCentrado{ }
 
 
-.contenedorFlex > div img{ width: 90px; margin:20px 5px}
-.contenedorFlex > div h4{ color: #1AB26B}
 
-
-.panColoresInvertidos{
+.panIconos img{
+    width: 120px; margin:20px 5px
 
 }
 
+
+.panIconos>div{
+    padding: 30px 30px;
+    text-align: center;
+    width: 33%;
+}
+
+
+
+
+.panColoresInvertidos {
+
+    background-color: #00B172;
+    color: #fff;
+    padding: 100px;
+    text-align: left;
+}
+.panColoresInvertidos h3{text-align: left}
+.panColoresInvertidos h3.tituloSeccion span { border-color: #fff}
+
+.panColoresInvertidos  .contenedorFlex { align-items: center}
+
+.panColoresInvertidos  .contenedorFlex div {
+    padding: 10px;
+}
+
+.panColoresInvertidos  .contenedorFlex:first-child {
+    vertical-align: top;
+}
+.panColoresInvertidos h4{
+    font-size: 32px; font-weight: bold;
+    padding-top: 25px ; padding-bottom: 25px;
+
+}
+
+.panColoresInvertidos p{
+    font-size: 20px; line-height: 29px;
+}
