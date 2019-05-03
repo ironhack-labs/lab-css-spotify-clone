@@ -9,24 +9,50 @@ White: #FFF
 
 body{
     background-color:  #fff;
+    font-family:  Helvetica Neue,Helvetica,Arial,sans-serif;
 }
 
-#contenedor{
+.contenedor{
     width: 100%;
     max-width: 1200px;
     margin:0 auto;
-    border:1px solid red
+    border: none;
+}
+
+article{ padding-top: 30px}
+
+
+
+nav .menu-horizontal{
+    display: flex;
+    align-items: center;
+}
+
+nav .menu-horizontal a {
+    text-decoration: none;
+    padding: 10px 15px;
+    color: #000;
+    font-size: 19px
+}
+nav .menu-horizontal :first-child{
+    flex-grow: 1;
+    border:1px solid pink
+}
+nav .menu-horizontal a+img{
+    margin-top: -40px;
+}
+
+    /*  stycky mnu y que el priemr articulo se */
+
+.mnu-fix{
+    background-color: #fff;
+    position: fixed;
+   display: block;
+
 }
 
 
-nav.menu-horizontal ul {
-    list-style: none;
-    text-align: right;
-}
 
-nav.menu-horizontal ul > li {display: inline-block; padding: 5px 15px}
-nav.menu-horizontal ul li:first-child { width: auto}
-nav.menu-horizontal ul li a { text-decoration: none; }
 
 .panTextoConFondo{
     background-image: url("../images/landing.jpg");
@@ -38,11 +64,12 @@ nav.menu-horizontal ul li a { text-decoration: none; }
 
 }
 
-.panTextoConFondo h3{
+.panTextoConFondo h2 {font-size: 55px; font-weight: bold; margin-bottom: 20px}
+.panTextoConFondo h3{ font-size: 28px;   padding: 30px 130px; font-weight: normal;
 
 }
 
-.tituloSeccion{text-align: center; font-size: 20px; padding-bottom: 3px}
+.tituloSeccion{text-align: center; font-size: 40px; padding-bottom: 3px; margin-top: 30px}
 .tituloSeccion span { border-bottom: 4px solid #1AB26B; padding-bottom: 5px}
 
 .contenedorFlex{
@@ -63,3 +90,4 @@ nav.menu-horizontal ul li a { text-decoration: none; }
 .panColoresInvertidos{
 
 }
+

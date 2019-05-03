@@ -7,11 +7,11 @@ function reload(){
     $.livereload.listen();
 
     return gulp
-        .src("./starter-code/*.*")
+        .src(["./starter-code/*.*","./starter-code/css/*.*"])
         .pipe($.livereload())
     ;
 }
 
 gulp.task("watch",()=>{
-    gulp.watch("./starter-code/**.*",reload);
+    gulp.watch(["./starter-code/*.*","./starter-code/css/*.*"],reload);
 });

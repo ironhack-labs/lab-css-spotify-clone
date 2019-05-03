@@ -3,34 +3,38 @@
 <head>
     <meta charset="UTF-8">
     <title>Spotify</title>
-    <link rel="stylesheet" href="css/main.css">
+    <link rel="stylesheet"
+          href="https://cdnjs.cloudflare.com/ajax/libs/meyer-reset/2.0/reset.css">
+    <link rel="stylesheet"
+          href="css/main.css">
 </head>
 <body>
 
+<nav class="contenedor menu-fix">
 
-<div id="contenedor">
-    <nav class="menu-horizontal">
-        <ul>
+    <div class="menu-horizontal">
+        <a href="#" style="text-align: left">
+            <img src="images/spotify-logo.png"
+                 style="height: 60px" alt=""/>
+        </a>
+        <a href="#">Premiun</a>
+        <a href="#">Discover</a>
+        <a href="#">Help</a>
+        <a href="#">Download</a>
+    </div>
 
-            <li>
-                <a href="#" style="text-align: left">
-                    <img src="images/spotify-logo.png" style="height: 50px"  alt=""/>
-                </a>
-            </li>
-            <li><a href="#">Premiun</a></li>
-            <li><a href="#">Discover</a></li>
-            <li><a href="#">Help</a></li>
-            <li><a href="#">Download</a></li>
-        </ul>
-    </nav>
-    <article class="panTextoConFondo panTextoCentrado">
+</nav>
 
+
+<main class="contenedor">
+
+    <article
+            class="panTextoConFondo panTextoCentrado">
         <h2>Music for everyone.</h2>
         <h3>Spotify is now free on mobile, tablet and computer.
             Listen to the right music, wherever you are.</h3>
-
-
     </article>
+
     <article>
         <h3 class="tituloSeccion">
             <span>What’s on Spotify?</span>
@@ -75,7 +79,7 @@
             </div>
         </div>
     </article>
-</div>
+</main>
 
 
 </body>

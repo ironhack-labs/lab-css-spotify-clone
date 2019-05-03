@@ -7,7 +7,7 @@ const configServer={
     cache:false
 };
 
-http.createServer( st(configServer)).listen(3000, ()=>{
-   console.log("iniciando 3000");
+http.createServer( st(configServer)).listen(3001, ()=>{
+   console.log("iniciando 3001");
 });
 
