@@ -10,26 +10,35 @@
 </head>
 <body>
 
-<nav class="contenedor menu-fix">
+<div style="position: fixed; width: 100%">
 
-    <div class="menu-horizontal">
-        <a href="#" style="text-align: left">
-            <img src="images/spotify-logo.png"
-                 style="height: 60px" alt=""/>
-        </a>
-        <a href="#">Premiun</a>
-        <a href="#">Discover</a>
-        <a href="#">Help</a>
-        <a href="#">Download</a>
+
+    <div class="contenedor">
+        <nav class=" ">
+
+            <div style="max-width: 1200px; width: 100%">
+                <div class="menu-horizontal">
+                    <a href="#" style="text-align: left">
+                        <img src="images/spotify-logo.png"
+                             style="height: 60px" alt=""/>
+                    </a>
+                    <a href="#">Premiun</a>
+                    <a href="#">Discover</a>
+                    <a href="#">Help</a>
+                    <a href="#">Download</a>
+                </div>
+
+            </div>
+
+        </nav>
     </div>
+</div>
 
-</nav>
+<main class="contenedor" style="">
 
-
-<main class="contenedor">
-
-    <article
-            class="panTextoConFondo panTextoCentrado">
+    <article class="panTextoConFondo panTextoCentrado"
+             style="background-color: #fff; padding-top: 300px"
+    >
         <h2>Music for everyone.</h2>
         <h3>Spotify is now free on mobile, tablet and computer.
             Listen to the right music, wherever you are.</h3>
@@ -79,10 +88,13 @@
                     Or sit back and enjoy Radio.</p>
             </div>
             <div>
-                <img src="images/spotify-icon-white.png" style="width: 90px"  />
+                <img src="images/spotify-icon-white.png" style="width: 120px"/>
             </div>
             <div>
-                <img src="images/spotify-app.jpg" style="max-width: 100%"  />
+                <div class="panImagenApp" style="padding-left: 60px">
+                    <img src="images/spotify-app.jpg" style="max-width: 100%"/>
+                </div>
+
             </div>
         </div>
     </article>

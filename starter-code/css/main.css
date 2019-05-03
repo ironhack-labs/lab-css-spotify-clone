@@ -27,6 +27,7 @@ article{ padding-top: 30px}
 nav .menu-horizontal{
     display: flex;
     align-items: center;
+    background-color: #fff;
 }
 
 nav .menu-horizontal a {
@@ -44,10 +45,10 @@ nav .menu-horizontal a+img{
 
     /*  stycky mnu y que el priemr articulo se */
 
-.mnu-fix{
+.menu-fix{
     background-color: #fff;
-    position: fixed;
-   display: block;
+    position: relative;
+    overflow: hidden;
 
 }
 
@@ -103,7 +104,8 @@ nav .menu-horizontal a+img{
     padding: 100px;
     text-align: left;
 }
-.panColoresInvertidos h3{text-align: left}
+.panColoresInvertidos h3.tituloSeccion{
+    text-align: left; line-height: 60px}
 .panColoresInvertidos h3.tituloSeccion span { border-color: #fff}
 
 .panColoresInvertidos  .contenedorFlex { align-items: center}
@@ -123,4 +125,5 @@ nav .menu-horizontal a+img{
 
 .panColoresInvertidos p{
     font-size: 20px; line-height: 29px;
+    padding-right: 40px;
 }
