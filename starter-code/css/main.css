@@ -6,3 +6,104 @@ Green: #00B172
 White: #FFF
 
 */
+body {
+  font: 200 16px/1.5 "Helvetica Neue", Helvetica, Arial, sans-serif;
+  margin: 70px;
+  background-color: #1B252E;
+}
+.center-children {
+  /* Para centrar horizontalmente */
+  text-align: center;
+}
+.navbar{
+  height: 95px;
+  background-color: white;
+}
+
+#logo{
+  margin-top: 9px;
+  margin-left: 50px;
+}
+#menu-option{
+  text-decoration: none;
+  font-size: 1.5em;
+  margin-right: 20px;
+}
+#menu-option:hover {
+  color: #00B172;
+  border-bottom: #00B172;
+}
+
+.navbar > ul, li, img{
+  display: inline-block;
+}
+
+#menu-list{
+  position: relative;
+  top: -30%;
+  left: 35%;
+}
+.texto-landing{
+  color: white;
+  position: relative;
+  top: 50%;
+  left: 50%;
+  /* bring your own prefixes */
+  transform: translate(-50%, -50%);
+}
+.large-image{
+  height: 950px;
+  top: -54px;
+  /* background-color: green; */
+  /* Posición relativa para poder centrar el texto sobre la imagen (usando la clase texto-imagen) */
+  font-size: 2.5em;
+  position: relative;
+  background-image: url("/starter-code/images/landing.jpg");
+  background-position:center;
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+.whats-on{
+  position: relative;
+  top:-76px; 
+  height: 600px;
+  background-color: white;
+}
+.green-section{
+  background-color: #00B172;
+  height: 600px;
+  top:-76px; 
+  position: relative;
+}
+
+.section-title-clear{
+  border-bottom: 2px #00B172 solid;
+  width: 220px;
+  position: relative;
+  left: 50%;
+  top: 55px;
+  /* bring your own prefixes */
+  transform: translate(-50%, -50%);
+}
+.whats-on-children{
+  width: 440px;
+  position: relative;
+  left: 4%;
+  top: 18px;
+  display: inline-block;
+  /* padding-right: 150px; */
+  /* background-color: red; */
+}
+.whats-on-children img, h2, p {
+  position: relative;
+  height: 100px;
+  left: 50%;
+  top: 130px;
+  /* bring your own prefixes */
+  transform: translate(-50%, -50%);
+  text-align:center;
+}
+
+.green-title{
+  color: #00B172;
+}
