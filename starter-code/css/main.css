@@ -6,3 +6,163 @@ Green: #00B172
 White: #FFF
 
 */
+/*-----------Estilos navbar-------------*/
+body{
+  margin: 0;
+  padding: 0;
+}
+
+.navbar{  
+  box-sizing: border-box;
+  padding: 15px;
+  background: #FFF;
+  width: 100%;
+  position: fixed;
+  top: 0;  
+  z-index: 2000;
+}
+
+.navbar__logo{
+  height: 60px;
+}
+
+.navbar__links{
+  list-style-type: none;
+  float: right;
+  margin: 0;  
+  padding: 20px;  
+}
+.navbar__links__item{  
+  display: inline;  
+  margin-top: 40px;  
+  font-size: 1.5em;
+}
+
+.navbar__links__item a{
+  text-decoration: none;
+  color: black;
+  padding: 20px 15px;
+  } 
+
+/*-------------Estilos banner-----------*/  
+
+.banner{  
+  position: relative;
+  background: url("../images/landing.jpg") no-repeat;
+  background-position: center; 
+  background-size: cover; 
+  height: 800px;  
+}
+
+.banner__title{
+  color: #FFF;
+  font-size: 3.5em;  
+}
+
+.banner__text{
+  color: #FFF;  
+  font-size: 1.5em;
+}
+
+
+.banner__content--center{
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  text-align: center;
+}
+
+/*******Middle section columns*********/
+
+.middle-section{
+  display: inline-grid;
+  width: 100%;
+  grid-template-rows: repeat(3, auto);
+  grid-template-columns: repeat(3, 33%);  
+  box-sizing: border-box;
+  padding: 0 40px;
+}
+
+
+.column__image{
+  height: 100px;;
+}
+
+.column__text{ 
+  font-size: 1.5em;
+  color: lightgrey;
+}
+
+.column__title{
+  font-size: 1.7em;
+  color: #00B172;
+}
+
+.section-title{
+  text-align: center;
+  margin: 70px 0;
+  font-size: 2.2em;      
+}
+
+.section-title span{
+  border-bottom: 4px solid #00B172;
+}
+
+.middle-section__column{
+  box-sizing: border-box;
+  text-align: center;
+  padding: 50px;
+}
+
+
+/*********Green Section*************/
+.green-section{
+  background: #00B172;
+  margin: 20px;  
+  display: flex;
+  padding: 100px; 
+  position: relative; 
+  box-sizing: border-box;
+}
+
+.col-right__image{
+  height: 650px;
+  padding-left: 150px;
+  padding-top: 50px;
+  justify-content: flex-end;
+}
+
+.green-section__column{
+  display: inline;  
+}
+
+.col-left{
+  color: white;
+}
+
+.col-left__title{
+  font-size: 2.2em;
+}
+
+.col-left__title span{
+  border-bottom: 4px solid #FFF;
+}
+
+.col-left__heading{
+  font-size: 2em;
+}
+
+.col-left__text{
+  width: 65%;
+  font-size: 1.5em;
+}
+
+.green-section__icon{
+  position: absolute; 
+  top: 50%;
+  left: 50%;
+  height: 120px;  
+  text-align: center;  
+  transform: translate(-50%, -50%);
+}
