@@ -32,14 +32,34 @@ p{
     font-size: 1.2em;
 }
 
+/* nav bar  */
 nav{
     background-color: white;
     padding:30px;
 }
 
+.navbar {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+  }
+
+/* logo in nav bar */
+.logo {
+    display: inline-block;
+}
+
 nav img{
     width:20%;
     margin-left:20px;
+}
+
+
+/* items in nav bar  */
+.nav-links{
+    list-style: none;
+    display: flex;
+
 }
 
 nav ul{
@@ -58,6 +78,7 @@ nav a {
     font-size:1.7em;
 }
 
+/* background image and title  */
 .background {
     position:relative; 
     text-align:center;
@@ -86,6 +107,7 @@ nav a {
     width:100%;
 }
 
+/* Definition section : what's spotify */
 #what{
     margin: 2%;
 }
@@ -117,6 +139,8 @@ nav a {
 }
 
 
+/* Container properties */
+
 .container{
     display:flex;
     flex-direction:row;
@@ -139,6 +163,7 @@ nav a {
 }
 
 
+/*  Kanye West section*/
 #kanyewest { 
     background-color: #00B172;
     margin : 2%; 
