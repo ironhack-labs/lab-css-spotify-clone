@@ -6,3 +6,159 @@ Green: #00B172
 White: #FFF
 
 */
+
+* {
+  box-sizing: border-box;
+}
+body {
+  margin: 0;
+  font-family: "Montserrat", sans-serif;
+}
+.container {
+  background-color: white;
+  margin: auto;
+}
+
+.navbar {
+  padding: 10px 10px;
+  width: 100%;
+  position: fixed;
+  display: flex;
+  justify-content: space-between;
+  z-index: 2;
+  background-color: white;
+}
+
+.logo {
+  height: 50px;
+  float: left;
+}
+
+.summary {
+  list-style: none;
+  float: right;
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+}
+
+.summary li {
+  margin: 0px 5px;
+}
+
+.fancy-container {
+  background-image: url("../images/landing.jpg");
+  background-size: cover;
+  width: 100%;
+  padding-top: 56%;
+  position: relative;
+}
+
+.nice-talk {
+  color: white;
+  position: absolute;
+  top: 0;
+  bottom: 0;
+  right: 0;
+  left: 0;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+
+.nice-talk h1 {
+  font-size: 2.3em;
+  margin: 0;
+}
+.nice-talk p {
+  max-width: 400px;
+  text-align: center;
+}
+
+.whatson {
+  max-width: 1000px;
+  margin: 20px auto;
+}
+
+.centered-title {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+
+.centered-title h3 {
+  padding-bottom: 5px;
+  border-bottom: solid 3px #00b172;
+}
+
+.container-infos {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-evenly;
+  padding: 10px;
+}
+
+.infos {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+
+.infos img {
+  max-width: 20%;
+  height: auto;
+  width: auto;
+}
+
+.infos p {
+  text-align: center;
+  padding: 0 20px;
+}
+
+.infos h4 {
+  color: #00b172;
+}
+
+.footer {
+  background-color: #00b172;
+  margin: 20px auto;
+  max-width: 1000px;
+  position: relative;
+  padding: 60px;
+  color: white;
+}
+
+#super-artist {
+  position: absolute;
+  top: 40px;
+  display: flex;
+  justify-content: flex-start;
+  border-bottom: solid 3px white;
+}
+
+.footer-container {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  align-items: center;
+}
+
+#spotify-icon {
+  width: 50px;
+  margin: 0px 50px;
+}
+
+#screen {
+  width: 40%;
+}
+
+.articles {
+  margin-top: 60px;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+  max-width: 300px;
+}
