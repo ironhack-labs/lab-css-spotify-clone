@@ -1,8 +1,140 @@
-/*
-Colors:
+/* GENERAL */
 
-Text: 1A1A1A
-Green: #00B172
-White: #FFF
+body {
+    font-family: sans-serif;
+    width: 70%;
+    margin: auto;
+}
 
-*/
+.text {
+    color: #1A1A1A;
+}
+
+.green-text {
+    color: #00B172;
+}
+
+h4 {
+    font-size: 1.5em;
+}
+
+/* SECTION 1 */
+
+nav {
+    height: 100px;
+    display: flex;
+    flex-wrap: nowrap;
+    align-items: center;
+    justify-content: space-between;
+    width: 70%;
+    position: fixed;
+    background-color: white;
+}
+
+nav li {
+    display: inline;
+    list-style: none;
+    padding: 0 10px;
+}
+
+nav li a {
+    text-decoration: none;
+}
+
+nav img {
+    height: 50px;
+    width: 170px;
+    padding-left: 20px;
+}
+
+.landing {
+    background-image: url(/images/landing.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+    height: 800px;
+}
+
+#landing-text {
+    color: white;
+    font-size: 25px;
+    text-align: center;
+    padding: 30% 0;
+}
+
+.landing p {
+    line-height: 50%;
+}
+
+/* SECTION 2 */
+
+.question {
+    text-align: center;
+    font-size: 1.8em;
+    text-decoration: underline;
+    text-decoration-color: #00B172;
+}
+
+.blabla {
+    display: flex;
+    justify-content: space-around;
+    margin: auto;
+    width: 100%;
+    text-align: center;
+    font-weight: lighter;
+    padding: 3% 5%;
+}
+
+.blabla p {
+    font-size: 1.3em;
+}
+
+
+.blabla img {
+    height: 80px;
+}
+
+
+/* SECTION 3 */
+
+.lastsection {
+    background-color: #00B172;
+    height: 100%;
+    margin: 3%;
+    color: white;
+}
+
+.lastsection h3 {
+    font-size: 2.4em;
+    text-decoration: underline;
+}
+
+.spotify-icon {
+    width: 200px;
+    height: 200px;
+}
+
+.contents {
+    padding: 0 7% 5% ;
+    display: flex;
+    align-items: center;
+}
+
+.kanye {
+    padding: 5% 7% 0;
+    font-size: 0.8em;
+}
+
+.left {
+    width: 60%;
+}
+
+.spotify-icon {
+    width: 13%;
+    height: auto;
+    padding: 15%;
+}
+
+.spotify-app {
+    width: 250px;
+    height: 420px;
+}
