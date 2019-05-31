@@ -6,3 +6,174 @@ Green: #00B172
 White: #FFF
 
 */
+body {
+ font-family: proxima-nova, sans-serif;
+}
+
+a {
+  color: inherit;
+  text-decoration: none;
+}
+
+#navbar {
+  background-color: white;
+  color: black;
+  display: flex;
+  text-align: right;
+  font-size: 20px;
+  height: 65px;
+  line-height: 65px;
+  justify-content: space-between;
+  margin: 10px 20px;
+  font-weight: 50;
+}
+
+#navbar img {
+  width: 210px;
+  height: 65px;
+}
+
+#navbar span {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-around;
+}
+
+#navbar a {
+  display: flex;
+  margin: 0 20px;
+  justify-content: space-between;
+}
+
+#section1 {
+  background-image: url(/images/landing.jpg);
+  background-position: 0% 0%;
+  background-size: cover;
+  height: 600px;
+  width: auto;
+  position: relative;
+  text-align: center;
+  display: flex;
+  align-items: center;
+  flex-direction: column;
+  padding-top: 200px;
+}
+
+#section1 h1 {
+  color: white;
+  font-size: 80px;
+  font-weight: 500;
+  border-bottom: 0;
+}
+
+#section1 h2 {
+  color: #FFF;
+  font-size: 30px;
+  font-weight: 70;
+  border-top: 0;
+}
+
+#section2 .section-title {
+  text-align: center;
+  font-size: 40px;
+}
+
+#section2 .section-title:after {
+  content:"";
+  display: block;
+  margin: 0 auto;
+  width: 350px;
+  border-bottom: 3.3px solid #00B172;
+}
+
+#section2 div {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-evenly;
+}
+
+#section2 .feature {
+  font-weight: 200;
+  text-align: center;
+  width: 30%;
+  margin-bottom: 50px;
+}
+
+#section2 .feature-name {
+  font-size: 30px;
+  font-weight: 700;
+  color: #00B172;
+}
+
+#section2 .feature-content {
+  font-size: 25px;
+  font-weight: lighter;
+}
+
+#section2 img {
+  width: 150px;
+  height: 110px;
+}
+
+#section3 {
+  background-color: #00B172;
+  margin: 25px;
+  padding: 30px 80px 10px 80px;
+  color: white;
+  display: flex;
+  flex-direction: row;
+}
+
+#section3 #main-text {
+  width: 60%;
+}
+
+#section3 .section-title {
+  font-weight: 600;
+  font-size: 40px;
+  margin-bottom: 60px;
+}
+
+#section3 .section-title:after {
+  content:"";
+  display: flex;
+  margin: 0 auto;
+  width: 500px;
+  border-bottom: 4px solid;
+  position: absolute;
+}
+
+#section3 .subtitle {
+  font-weight: 600;
+  font-size: 35px;
+}
+
+#section3 .description {
+  font-weight: lighter;
+  font-size: 23px;
+  text-align: left;
+}
+
+#section3 #box-icon {
+  display: flex;
+  align-self: center;
+  justify-self: flex-end;
+}
+
+#section3 #icon {
+  height: 130px;
+  width: 130px;
+  margin-right: 120px;
+}
+
+/* Don't touch below this line!!! it works */
+#section3 #box-app {
+  display: flex;
+  justify-self: flex-end;
+  align-self: center;
+} 
+ 
+#section3 #app-image {
+  height: 550px;
+  width: 350px;
+}
