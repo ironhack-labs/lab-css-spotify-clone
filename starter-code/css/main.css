@@ -6,3 +6,170 @@ Green: #00B172
 White: #FFF
 
 */
+
+* {
+  box-sizing: border-box;
+  margin: 0;
+}
+body {
+  font-family: "Montserrat", sans-serif;
+  font-weight: 100;
+}
+
+/* -------------------------------------------------------
+HEADER
+---------------------------------------------------------*/
+
+.fixed {
+  position: fixed;
+}
+.navbar {
+  background: #fff;
+  width: 100%;
+  max-width: 100%;
+  height: 100px;
+  padding-right: 38px;
+  z-index: 10;
+}
+.navbar ul {
+  list-style: none;
+  line-height: 100px;
+  float: right;
+  display: inline-flex;
+}
+.navbar a {
+  margin: 15px;
+  color: inherit;
+  text-decoration: none;
+  font-size: 1.5em;
+  font-weight: 300;
+}
+.logo {
+  width: 22%;
+  min-width: 22%;
+  padding: 16px 38px;
+  float: left;
+}
+
+/* -------------------------------------------------------
+TOP SECTION
+---------------------------------------------------------*/
+
+.top-section {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 900px;
+  max-width: 100%;
+  background-image: url("../images/landing.jpg");
+  background-size: cover;
+  overflow: hidden;
+}
+.sloggan {
+  text-align: center;
+  width: 50%;
+  color: #fff;
+}
+.sloggan h1 {
+  font-size: 4.5em;
+  margin-bottom: 50px;
+  font-weight: 600;
+}
+.sloggan p {
+  font-size: 1.5em;
+}
+
+/* -------------------------------------------------------
+MIDDLE SECTION
+---------------------------------------------------------*/
+
+.middle-section {
+  padding: 3em 0;
+  text-align: center;
+}
+.middle-section h2 {
+  text-align: center;
+  font-size: 2.3em;
+}
+.middle-section h3 {
+  color: #00b172;
+  font-size: 2em;
+  margin-bottom: 28px;
+}
+.middle-section hr {
+  margin: 9px auto;
+  height: 4px;
+  border: 0;
+  background-color: rgb(25, 178, 106);
+  width: 24%;
+}
+.middle-section p {
+  font-size: 1.5em;
+}
+.flex-container {
+  display: flex;
+  margin: 1em;
+  padding: 5em;
+}
+.img-container {
+  height: 60%;
+}
+.resize-img {
+  width: 34%;
+}
+
+/* -------------------------------------------------------
+BOTTOM SECTION
+---------------------------------------------------------*/
+
+.bottom-section {
+  width: 94%;
+  position: relative;
+  background-color: #00b172;
+  margin: 0 auto 3% auto;
+  color: #fff;
+  display: flex;
+  z-index: -1;
+}
+
+.text-content {
+  padding: 70px 80px 25px;
+}
+.text-content h2 {
+  font-size: 2.3em;
+}
+.text-content hr {
+  width: 100%;
+  margin: 9px auto;
+  border: 0;
+  height: 3px;
+  background-color: #fff;
+}
+.text-container {
+  margin: 50px auto;
+}
+.text-content h3 {
+  font-size: 2em;
+  margin-bottom: 25px;
+}
+.text-content p {
+  font-size: 1.5em;
+  font-weight: 300;
+}
+.shuffle-container {
+  position: relative;
+  top: 115px;
+  left: 230px;
+  overflow: hidden;
+}
+.shuffle {
+  height: 568px;
+  width: 320px;
+}
+.icon {
+  position: absolute;
+  width: 10%;
+  left: 50%;
+  top: 50%;
+  transform: translate(-50%, -50%);
+}
