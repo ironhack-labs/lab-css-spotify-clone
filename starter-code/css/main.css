@@ -1,8 +1,231 @@
 /*
-Colors:
 
-Text: 1A1A1A
-Green: #00B172
-White: #FFF
+A lot of nesting and for that I'm sorry! - 
 
 */
+@import url("https://fonts.googleapis.com/css?family=Montserrat:800&display=swap");
+
+body {
+  background-color: #fff;
+  color: #1a1a1a;
+  font-family: "Montserrat", sans-serif;
+  text-align: center;
+  margin: 0 auto;
+}
+
+.container {
+  display: flex;
+  flex-direction: column;
+}
+
+a {
+  text-decoration: none;
+  color: black;
+}
+
+h1 {
+  font-size: 73px;
+  font-weight: bold;
+  color: white;
+}
+
+h2 {
+  font-size: 35px;
+}
+
+h3 {
+  font-weight: bold;
+  font-size: 30px;
+}
+
+.navbar {
+  display: flex;
+  width: 100%;
+  height: 105px;
+}
+
+.navbarLinks {
+  width: 100%;
+  display: flex;
+  line-height: 80px;
+  flex-direction: row;
+  justify-content: flex-end;
+  margin-right: 20px;
+}
+
+.navbarLinks a {
+  padding: 10px;
+  font-size: 20px;
+}
+
+.navbarLinks a:hover {
+  color: #00b172;
+}
+
+.logo {
+  display: inline-block;
+  width: 235px;
+  height: 69px;
+  padding: 16px 16px 16px 35px;
+  left: 0;
+}
+
+.section1 {
+  order: 1;
+}
+
+.section2 {
+  order: 2;
+  height: 800px;
+  position: relative;
+}
+
+.section2 img {
+  width: 100%;
+}
+
+.section2 p {
+  font-size: 27px;
+  font-weight: light;
+}
+
+.section2 h1 {
+  padding: 0;
+  margin: 0 auto;
+}
+
+.section3 {
+  order: 3;
+  height: 500px;
+  width: 100%;
+}
+
+.section3 h2 {
+  border-bottom: 4px solid #00b172;
+  display: inline-block;
+  padding-top: 2px;
+  padding-bottom: 10px;
+  margin-bottom: 100px;
+  font-weight: bold;
+}
+
+.section3 h3 {
+  color: #00b172;
+}
+
+.section3 p {
+  font-size: 20px;
+  color: black;
+}
+
+.whatsOn {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  margin: 0 100px;
+}
+
+.whatsOn h3 {
+  color: #00b872;
+  font-weight: bolder;
+}
+
+.whatsOn2 {
+  padding-top: 15px;
+}
+
+.section4 {
+  order: 4;
+  background-color: #00b172;
+  height: 700px;
+  margin: 30px;
+}
+
+.section4 h2 {
+  border-bottom: 4px solid white;
+  display: inline-block;
+  padding-top: 2px;
+  padding-bottom: 10px;
+  margin-bottom: 100px;
+  font-weight: bold;
+  text-align: left;
+  color: white;
+}
+
+.section4 p {
+  color: #fff;
+  font-size: 20px;
+}
+
+.section4 h3,
+p {
+  color: #fff;
+}
+
+.musicFor {
+  position: absolute;
+  right: -100px;
+  top: 40%;
+  transform: translate(-50%, -50%);
+}
+
+.articleHead {
+  font-size: 30px;
+}
+
+.containerGreen {
+  display: flex;
+  flex-direction: row;
+  align-content: space-between;
+  margin: 10px;
+  text-align: left;
+  padding: 0 10px 10px 0;
+}
+
+.containerGreenLeft {
+  display: flex;
+  width: 800px;
+  align-content: space-around;
+  flex-direction: column;
+}
+
+.containerGreenLeftTitle {
+  display: flex;
+  flex-direction: column;
+  width: 520px;
+  height: 100px;
+  padding: 15px 0 0 50px;
+}
+
+.containerGreenLeftUnder {
+  display: flex;
+  flex-direction: row;
+  height: 450px;
+}
+
+.containerGreenLeftUnder1 {
+  display: flex;
+  flex-direction: column;
+  text-align: left;
+  padding-left: 50px;
+  width: 1000px;
+}
+
+.containerGreenLeftUnder2 {
+  width: 250px;
+  padding: 150px 140px 150px 0;
+}
+
+.containerGreenLeftUnder2 img {
+  width: 100%;
+}
+
+.containerGreenRight {
+  right: 0;
+  width: 300px;
+  padding: 100px 50px 50px 50px;
+}
+
+.containerGreenRight img {
+  width: 100%;
+}
