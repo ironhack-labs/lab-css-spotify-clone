@@ -112,6 +112,12 @@ h3
   
   }
 
+.logo {background-image:url('../images/spotify-logo.png');}
+.songs { background-image:url("../images/music-icon.png"); }
+.hd { background-image:url("../images/high-quality-icon.png"); width: 150px;}
+.phone { background-image:url("../images/devices-icon.png");}
+
+
 /* Styling of main containers */
 
 /* Overall container class */
@@ -128,25 +134,30 @@ margin: auto;
 
 /* Classes to style the navigation bar */
 
-
-
 .main_navigator
 
 {
 
   display: flex;
-  height: 10vh;
-  width: 100%;
+  height: 100px;
   flex-direction: row;
   justify-content: space-between;
   align-items:center;
+  width: 100%;
   padding-right: 150px;
-
 }
 
-.logo_wrapper { padding: 0px 15px }
-.logo_wrapper img { width: 20vh;}
+.logo_wrapper 
 
+{
+
+
+background-repeat: no-repeat;
+background-size: 50%;
+height: 50px;
+width: 300px;
+
+}
 
 .navigation_list {
 
@@ -199,7 +210,7 @@ flex-direction: column;
 .vertical_text_container {
     
   color: white;
-  width: 45%;
+  width: 35%;
   display: flex;
   flex-direction: column;
   padding: 30px 50px;
@@ -217,6 +228,8 @@ flex-direction: column;
   
     color: white;
     font-size: 23px;
+  /*  border-bottom-style: solid;
+    padding-bottom: 10px; */
     
 }
   
@@ -239,7 +252,6 @@ flex-direction: column;
     justify-content: space-between;
 }
 
-#side_container { width : 35%; text-align:center; display: flex; align-items: center; justify-content: center;  } 
-
+#side_container { width : 35%;}
 
 #bottom_title { width: 100%; border-bottom-style: solid; border-color: white;  }
