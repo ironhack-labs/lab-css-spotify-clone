@@ -6,3 +6,153 @@ Green: #00B172
 White: #FFF
 
 */
+.flex-container {
+  display: flex;
+  padding: 15px;
+}
+
+.flex-image {
+  flex-shrink: 0;
+}
+
+.flex-image:hover{
+  transition: all 1s;
+  transform: rotate(180deg);
+}
+
+.logo{
+  width: 220px;
+  height: 70px;
+}
+.navbar{
+  display: flex;
+  justify-content: flex-end;
+  align-items: center;
+  flex-grow: 1;
+  color: grey;
+  font-size: 20px;
+}
+.nav-item{
+  display: inline-block;
+  list-style: none;
+  padding: 0 10px 0 0;
+}
+.section2{
+  background-image: url("../images/landing.jpg");
+  background-size: cover;
+  background-repeat: no-repeat;
+  width: 100vw;
+  height: 100vh;
+  background-color: green;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  color: white;
+  flex-direction: column;
+}
+
+
+
+.question {
+margin-top: 25px;
+display: flex;
+justify-content: space-evenly;
+}
+
+ h1 {
+font-size: 80px;
+}
+
+h2 {
+  font-size: 25px;
+  font-weight: normal;
+  width: 550px;
+  margin-top: 50px;
+  text-align: center;
+}
+#flex-border{
+  font-size: 25px;
+  border-bottom: 3px solid;
+  border-bottom-color: #00B172;
+}
+
+
+.cells{
+  display: flex;
+  justify-content: space-around;
+  margin-top: 25px;
+}
+.cells-items{
+  display: flex;
+  /* width: 250px; */
+  align-content: center;
+  justify-content: center;
+  width: auto;
+  height: auto;
+}
+.iconos {
+  width: 90px;
+  height: 100px;
+  padding: 0% 0 0 25px;
+  
+}
+h5{
+  color: #00B172;
+  text-align: center;
+  margin-top: 25px;
+  font-weight: bolder;
+}
+h6{
+  font-size: 15px;
+  width: 140px;
+  text-align: center;
+  margin-top: 25px;
+}
+.greenbox{
+  display: flex;  
+  background-color: #00B172;
+  margin: 30px;
+  padding: 50px 50px 50px 80px;
+  justify-content: space-between;
+}
+.subrayado{
+  border-bottom: 3px solid white;
+  font-size: 30px;
+  color: white;
+  padding: 0 0 10px 0;
+}
+
+.kanye {
+  align-content: space-between;
+  width: 320px;
+  height: 600px;
+}
+
+.kwlist, .kwlistT {
+  display: flex;
+  flex-direction: column;
+  list-style: none;
+  margin-top: 40px;
+  align-content: center;
+  justify-content: center;
+  width: 350px;
+  height: auto;
+}
+.kwlistT{
+  font-size: 25px;
+  font-weight: bold;
+  color: white;
+}
+.kwlist{
+  font-weight: lighter;
+  font-size: 20px;
+  color: white;
+  width: 250px;
+}
+.absoluta{
+  width: 130px;
+  height: 130px;
+position: absolute;
+top: 1450px;
+right: 570px;
+}
