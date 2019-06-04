@@ -1,0 +1,169 @@
+@import url('https://fonts.googleapis.com/css?family=Sawarabi+Gothic&display=swap');
+body{
+    font-family: 'Sawarabi Gothic';
+    margin: 0;
+    padding: 0;
+}
+
+nav{
+    background-color: white;
+    height: 4em;
+    display: flex;
+    align-content:center;
+    justify-content: space-between;
+    color: black;
+    padding: 14px;
+    font-size: 1em;
+}
+    
+img.mini-logo{
+	height: inherit;
+}
+
+.links{
+    list-style: none;
+    display: flex;
+}
+
+.links li{
+    text-align: center;
+    width: 5em;
+    list-style: none;
+}
+
+header{
+    background-image:url("../images/landing.jpg");
+    background-size: cover;
+    background-repeat:no-repeat;
+    background-attachment: inherit;
+    height: 100vh;
+    background-position: 0px -100px;
+    position: relative;
+    }
+
+.text{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    position: relative;
+    text-align: center;
+    top: 50%;
+    right: -30%;
+    transform: translateY(-60%);
+    width:700px;
+    color: white
+}
+
+header h1{
+    font-size: 80px;
+    padding: 0;
+    margin: 0;
+}
+
+header p{
+    font-size: 30px;
+}
+
+#music h2{
+    text-align: center;
+    font-weight: bolder;
+    font-size: -webkit-xxx-large;
+    border-bottom: 5px solid #00B172;
+    padding-bottom: 5px;
+    margin: 50px 600px;
+}
+
+#music{
+margin: 0 auto;
+padding: 75px 0;
+}
+.petit-Logo{
+    width: 100px;
+    height: auto;
+}
+.description{
+    display:flex;
+    box-sizing:border-box;
+    margin: auto 90px;
+}
+.music-box{
+    display: flex;
+    text-align: center;
+   box-sizing: border-box;
+    flex-wrap: wrap;
+    justify-content: center;
+    width: 22%;
+    margin: 5px 90px 5px 100px;
+    align-items: center;
+    flex-direction: column;
+}
+.music-box h3{
+    font-size: 30px;
+    margin-block-end: auto;
+    color: #00B172;
+
+}
+.music-box p{
+    font-size:30px;
+}
+
+#kanye{
+background: #00B172;
+padding: 0;
+width: 1500px;
+height: 1000px;
+margin: 0px 100px;
+margin-bottom: 100px;
+position: relative;
+display: flex;
+color: white;
+background-image: url("../images//spotify-icon-white.png");
+background-repeat: no-repeat;
+background-size: 150px;
+background-position: center;
+font-size: 30px;
+}
+
+#kanye article{
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-start;
+    width: 85%;
+    height: 60%;
+    padding-left: 100px;
+    padding-top: 50px;
+}
+
+.info{
+    display: flex;
+    flex-direction: column;
+    width: 75%;
+}
+
+#kanye h2{
+    font-weight:bolder;
+    border-bottom: 5px solid white;
+    padding-bottom: 5px;
+    margin: 50px 0px;
+    
+}
+
+#kanye h3{
+    font-weight: bolder;
+    margin: 40px 0;
+}
+#kanye article img{
+    display: flex;
+    justify-content: flex-end;
+    width:500px;
+margin-left: 60px;
+}
+/*
+Colors:
+
+gray: 1A1A1A
+Green: #00B172
+White: #FFF
+
+*/
