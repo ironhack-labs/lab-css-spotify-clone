@@ -6,3 +6,144 @@ Green: #00B172
 White: #FFF
 
 */
+html {
+  font-size: 10px;
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  font-family: 'Roboto', sans-serif;
+
+}
+header {
+
+}
+.nav-bar,img{
+  width: 20rem;
+  font-size: 2rem;
+  display: inline;
+}
+
+
+
+
+#spoty {
+  
+  animation: move 5s;
+
+}
+
+
+@keyframes move {
+   0% {margin-left:0;
+  }
+
+  50% { margin-left:500px;
+  }
+
+  100% {margin-left:0; }
+}
+
+ul{
+  display: inline;
+  float: right;
+}
+li{
+  list-style: none;
+  display: inline;
+  padding: 0 1.5rem 0 0;
+  
+}
+.landing  {
+  
+  background: url(../images/landing.jpg);
+  background-size: 100% 100%;
+  height: 700px;
+  color:white;
+  text-align: center;
+  overflow: hidden;
+  position: relative;
+  padding-top: ;
+  font-size: 6rem;
+
+}
+
+.landtext {
+text-align: center;
+padding: 3.5rem;  
+}
+
+.landing p {
+  font-size: 2rem;
+}
+.flex-container{
+  display: flex;
+  text-align: center;
+  justify-content: space-evenly;
+
+  color: #00B172;
+  
+}
+
+.flex-container p {
+  color: grey;
+}
+
+.flex-item2, .flex-item3, .flex-item4{
+  flex-direction: column;
+}
+
+
+
+h2 {
+  text-align: center;
+  font-size: 3rem;
+  text-decoration: underline;
+  text-decoration-color: green;
+
+}
+
+.footer {
+   height: 45rem;
+   margin: 20px 80px;
+}
+
+.green-footer {
+  background: #00B172;
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+  height: 50rem;
+  width: auto;
+  color: white;
+  font-size: 1.5rem;
+}
+
+.underscore {
+flex-direction: column;
+color: white;
+text-decoration: underline;
+
+
+}
+
+.green-footer h3 {
+  font-weight: bold;
+  font-size: 2.5rem;
+  }
+
+.green-footer h4 {
+font-weight: bold;
+font-size: 2rem;
+}
+  
+
+.spotify-white {
+  width: 8rem;
+  height: 8rem;
+}
+
+
+.spotify-app {
+    width: 25rem;
+    height: auto;
+}
