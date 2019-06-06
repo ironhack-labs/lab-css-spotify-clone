@@ -6,3 +6,122 @@ Green: #00B172
 White: #FFF
 
 */
+* {
+  font-family: Arial, Helvetica, sans-serif;
+}
+
+body,h1,h2,h3,h4,h5,h6 {
+  margin:0;
+  padding: 0,
+}
+
+.nav-bar{
+  display: flex;
+  align-items: center;
+  height: 60px;
+  background-color: white;
+  padding: 15px;
+  color: black;
+}
+
+.left {
+  flex-grow: 1;
+}
+
+.img-pos{
+  height: 50px;
+}
+
+li{
+  display: inline;
+}
+
+a { 
+  text-decoration: none; 
+  color: inherit;
+  padding: 5px;
+}
+
+#section-1{
+  background-image: url("../images/landing.jpg");
+  background-size: cover;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  color: white;
+  height: 700px;
+}
+
+#section-2{
+  background-color: white;
+}
+
+#section-1 > h1 {
+  font-size: 60px;
+  padding: 20px;
+}
+
+h4 {
+  padding: 5px;
+}
+
+#section-2>div>div>img {
+  height: 90px;
+}
+
+#section-2>div{
+  display: flex;
+  justify-content: space-evenly;
+}
+
+.box {
+  display: flex;
+  /* justify-content: space-around;
+  align-content: center; */
+  color: white;
+  height: 700px;
+  width: 94vw;  /* this is not the corect width */
+  background-color: #00B172;
+  margin: 20px; /* Review what would be the corect relation with the box */
+  background-image: url("../images/spotify-icon-white.png");
+  background-size: 100px;
+  background-repeat: no-repeat;
+  background-position: center;
+}
+
+#section-2 > h1 {
+  display: flex;
+  justify-content: center;
+  border-bottom: #00B172;
+  margin: 50px;
+}
+
+.box > img {
+  height: 600px;
+  margin: 30px;
+}
+
+.box > .text {
+  display: flex;
+  flex-direction: column;
+  /* justify-content: space-evenly; */
+  padding: 30px 30px;
+}
+ /* Is it incorrect to create syle like this in stead of creating classes? */
+#section-2>div>div>h4 {
+  color: #00B172;
+  font-size: 20px
+}
+
+.text > div {
+  padding: 45px 0px;
+}
+
+.text h1 {
+  border-bottom: 3px solid white;
+}
+
+.text h1 {
+  border-bottom: 3px solid white;
+}
