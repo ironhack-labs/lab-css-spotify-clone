@@ -1,7 +1,181 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  font-family: 'Open Sans', sans-serif;
+}
+
+.nav{
+  display: flex;
+  padding: 15px 40px;
+  justify-content: space-between;
+  height: 80px;
+  overflow: hidden;
+  position: fixed;
+  top: 0;
+  width: 100%;
+  background-color: #FFF;
+}
+
+.logo img{
+  width: 170px;
+}
+.nav-container {
+  display: flex;
+  list-style-type: none;
+  font-size: 20px;
+  font-weight: 300;
+  align-content: center;
+  margin-top: 15px;
+
+}
+
+[href] {
+  text-decoration: none;
+  color: #1A1A1A;
+}
+
+.nav-container li {
+  padding-left: 50px;
+}
+
+.header {
+  
+  height: 80vh;
+  background-image: url("../images/landing.jpg");
+  background-size: cover;
+  background-position: center;
+  margin-top: 80px;
+  
+  
+
+}
+
+.header-text {
+  height: 80vh;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  color: #FFF;
+}
+
+h1 {
+  font-size: 70px;
+  font-weight: 600;
+  margin-bottom: 25px;
+}
+
+.header p {
+  font-size: 25px;
+  font-weight: 300;
+  margin: 0 320px;
+  text-align: center;
+}
+
+.intro-container h2 {
+  text-decoration: underline;
+  text-align: center;
+  text-decoration-color: #00B172;
+  color: #1A1A1A;
+  font-size: 35px;
+  font-weight: 600;
+  letter-spacing: 0.5px;
+  text-underline-position: under;
+  margin-top: 40px;
+}
+
+.intro-flex-container{
+  display: flex;
+  height: 60vh;
+  justify-content: space-around;
+  align-items: center;
+  margin: auto 50px;
+}
+
+.intro-box {
+  text-align: center;
+  width: 25%;
+}
+.intro-box img {
+  width: 40%;
+  height: auto;
+}
+
+.intro-box h3 {
+  color: #00B172;
+  font-weight: 700;
+  font-size: 25px;
+  margin: 20px auto;
+}
+
+.intro-box p {
+  color: #1A1A1A;
+  font-weight: 300;
+  font-size: 20px;
+}
+
+.green-container {
+  background-color: #00B172;
+  height: 100%;
+  margin: 20px;
+}
+
+.green-container h3 {
+  color: #FFF;
+  text-decoration: underline;
+  font-size: 30px;
+  font-weight: 600;
+  letter-spacing: 0.5px;
+  text-underline-position: under;
+  margin-top: 40px;
+  padding: 50px 70px;
+}
+
+.green-flex-container {
+  display: flex;
+  justify-content: center;
+  padding: 50px 70px;
+  color: #FFF;
+}
+
+.green-box {
+  width: 33.3%;
+}
+
+.logo-white {
+  width: 40%;
+  height: auto;
+}
+
+.app {
+  width: 90%;
+  height: auto;
+
+}
+
+.center {
+  text-align: center;
+}
+
+.middle {
+margin: 100px;
+}
+
+.green-box h4 {
+  font-weight: 700;
+  font-size: 25px;
+  margin: 20px auto;
+}
+
+.green-box p {
+  font-weight: 300;
+  font-size: 20px;
+}
 /*
 Colors:
 
-Text: 1A1A1A
+Text: #1A1A1A
 Green: #00B172
 White: #FFF
 
