@@ -1,8 +1,194 @@
 /*
-Colors:
 
-Text: 1A1A1A
-Green: #00B172
-White: #FFF
-
+Green: 
 */
+ /*
+  -------------------------------------
+  DEFAULT STYLES
+  -------------------------------------
+*/
+
+body {
+    overflow-x: hidden;
+    font-family: 'arial';
+    color: #1A1A1A;
+    
+}
+
+
+  .flex {
+    display: flex;
+    align-items: center;
+
+  }
+
+/*
+  -------------------------------------
+  NAV STYLES
+  -------------------------------------
+*/
+
+.nav-bar {
+    width: 10px;
+    height: 75px;
+    margin-left: 10px;
+    display: flex;
+    }
+
+ .nav-bar-ul {
+    margin: 0 auto;
+    width: 1200px;
+    }
+
+.nav-bar-li {
+    float: right;
+    list-style-type: none;
+    text-align:center;
+    width: 10%;
+    justify-content: space-between;
+    }
+
+.nav-bar-item {
+    color:black;
+    font-size: 1em;
+    text-decoration: none;
+    
+    }
+
+.header {
+     position: relative;
+     background: url(../images/landing.jpg) 0 0 no-repeat;
+     background-size: cover;
+     height: 150vh;
+     color: white;
+}
+
+.center_content {
+    width: 100%;
+    position: absolute;
+    text-align: center;
+    top: 50%; /* Y = haut et le bas*/
+    left: 50%; /* X = gauche et droite*/ 
+    transform: translate(-50%,-50%);
+}
+
+.quote {
+    font-size: 1.5em;
+    color:white;
+    }
+
+    .logo {
+    width: 15%;
+    }
+
+
+ /*
+  -------------------------------------
+  HEADER STYLES
+  -------------------------------------
+*/
+
+h1 {
+    color: white;
+    text-align: center;
+    font-size: 5em;
+}
+section h2{
+  text-align: center;
+  text-decoration: underline #00B172;
+}
+
+section .music {
+    width: 5px;
+}
+
+h3{
+  color:#00B172;
+}
+
+
+/*----------------------------------------
+SECTION 1
+-----------------------------------------*/
+.columns{
+margin: 10px;
+
+}
+
+#center{
+display: flex;
+justify-content: space-between;
+flex-direction: row;
+padding: 20px;
+}
+
+#center article{
+display: flex;
+justify-content: space-between;
+flex-direction: column;
+}
+
+#center img{
+  width: 30%;
+}
+
+#center h3{
+  padding: 10px;
+}
+   
+/*-------------------------------------
+FOOTER
+-------------------------------------
+*/
+.end{
+  margin: 10px;
+}
+
+footer{
+  background-color: #00B172;
+  color: #fff; 
+  margin: 0;
+  padding: 0;
+
+}
+#wrapper_footer{
+  display:flex;
+}
+#wrapper_footer article{
+  flex: 1;
+  display:flex;
+  justify-content: center;
+  align-items: center;
+}
+
+#footer article {
+  display: flex;
+  justify-content: space-between;
+  flex-direction: column;
+  width: 50%;
+}
+#footer h2{
+color: white;
+text-align: center;
+text-decoration: #fff;  
+}
+
+#end img {
+width: 10%;
+}
+
+footer .icon {
+width: 25%; 
+}
+
+footer .poster {
+width: 70%;  
+}
+
+h4{
+width: 15%;
+font-family: 'Arial Narrow Bold', sans-serif;
+font-size: 25px;
+text-align: left;
+}
+
