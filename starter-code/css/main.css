@@ -6,3 +6,179 @@ Green: #00B172
 White: #FFF
 
 */
+
+* {
+  box-sizing: border-box;
+  margin: 0;
+  padding: 0;
+}
+
+body {
+  font-family: "Source Sans Pro", sans-serif;
+  font-size: 16px;
+}
+
+/* navbar */
+
+.navbar {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 10px 20px;
+}
+
+.navbar .img-wrapper {
+  height: 40px;
+}
+
+.navbar a {
+  margin-left: 15px;
+
+  text-decoration: none;
+  color: #1a1a1a;
+  font-weight: 200;
+}
+
+.navbar img {
+  height: 100%;
+}
+
+/* container */
+
+/* header */
+.header {
+  background-image: url("../images/landing.jpg");
+  background-size: cover;
+  background-position: center;
+  color: #fff;
+  height: 100vh;
+  display: flex;
+  flex-direction: column;
+  /* flex-wrap: wrap; */
+  justify-content: center;
+  align-items: center;
+  margin-bottom: 20px;
+}
+
+.header h1 {
+  margin-bottom: 20px;
+  /* font-size: 2.5em; */
+  font-size: 48px;
+  font-weight: 600;
+}
+
+.header p {
+  font-weight: 300;
+}
+
+/* features */
+
+.features {
+  text-align: center;
+  margin-bottom: 50px;
+}
+
+.features .column-wrapper {
+  display: flex;
+  justify-content: space-around;
+}
+
+.features .column-wrapper .column {
+  text-align: center;
+  flex-basis: 20%;
+}
+
+.features h2 {
+  text-decoration: #00b172 underline;
+  text-underline-position: under;
+  font-weight: 600;
+  margin-bottom: 50px;
+}
+
+.features h3 {
+  color: #00b172;
+  margin: 10px;
+  font-weight: 600;
+  white-space: nowrap;
+}
+
+.features p {
+  font-weight: 100;
+}
+
+.features img {
+  height: 60px;
+}
+
+/* artist */
+.artist {
+  background-color: #00b172;
+  background-image: url("../images/spotify-icon-white.png");
+  background-size: 70px auto;
+  background-repeat: no-repeat;
+  background-position: center;
+  margin: 0 20px;
+  color: #fff;
+  padding: 40px;
+  display: flex;
+  justify-content: space-between;
+}
+
+.artist h3 {
+  text-decoration: underline;
+  text-underline-position: under;
+  font-weight: 600;
+  margin-bottom: 30px;
+}
+
+.artist h4 {
+  margin: 15px 0px;
+}
+
+.artist .column {
+  margin-right: 20px;
+}
+
+.artist .text-column {
+  order: -1;
+  font-weight: 100;
+  flex-basis: 30%;
+}
+.artist .text-column p {
+  font-size: 14px;
+}
+.artist .img-column {
+  margin-top: 20px;
+}
+.artist .column img {
+  width: 180px;
+}
+
+@media (max-width: 768px) {
+  .features .column-wrapper {
+    display: flex;
+    flex-direction: column;
+  }
+
+  .features .column-wrapper .column {
+    margin-bottom: 40px;
+  }
+
+  .artist {
+    display: flex;
+    flex-direction: column;
+    background-image: none;
+  }
+
+  .artist .img-column {
+    align-self: center;
+  }
+
+  .header h1 {
+    font-size: 2.5em;
+  }
+
+  html {
+    font-size: 16px;
+  }
+}
