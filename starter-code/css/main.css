@@ -1,8 +1,150 @@
-/*
-Colors:
 
-Text: 1A1A1A
-Green: #00B172
-White: #FFF
 
-*/
+@import url('https://fonts.googleapis.com/css?family=Montserrat&display=swap');
+
+/* Header */
+
+body {
+  margin: 0 0 0 0;
+  color: #1A1A1A;
+  font-family: 'Montserrat', sans-serif;
+}
+
+#header {
+  background-color: white;
+  padding: 20px 0;
+  height: 100px;
+  width: 100%;
+  display: flex;
+  align-items: center;
+}
+
+.logo {
+  margin: 0 0 0 20px;
+  width: 320px;
+  height: 80px;;
+  
+}
+
+.flex-grow {
+  flex-grow: 1;
+}
+
+#header>ul {
+  list-style-type: none;
+  display: flex;
+}
+
+#header>ul>li {
+  font-size: 1.5em;
+  padding: 0 3vh;
+}
+
+/* Image Section */
+
+#image {
+  height:900px;
+  background-image: url(/starter-code/images/landing.jpg);
+  background-size: cover;
+  color: #FFF;
+
+}
+
+#heading {
+  color: inherit;
+  margin: 0;
+  padding: 0;
+  font-size: 4.5em;
+  text-align:center;
+
+}
+
+#punchline {
+  color: inherit;
+  text-align: center;
+  margin: 0;
+  padding: 20px 0;
+  font-size: 2em;
+
+}
+
+#text-on-pic {
+  position: absolute;
+  top: 450px;
+  margin-left: auto;
+  margin-right: auto;
+  left: 0;
+  right: 0;
+}
+
+
+/* Boxes with Heading */
+
+#three-boxes {
+  margin-bottom: 80px;
+}
+
+#whats-on {
+  margin-left: auto;
+  margin-right: auto;
+  width: 650px;
+  display: block;
+  border-bottom: 3.5px solid #00B172;
+  margin-top: 50px;
+  font-size: 4em;
+  text-align: center;
+  border-radius: 2%
+}
+
+#three-boxes h3 {
+  font-weight: 1000;
+  font-size: 1.5em;
+  color:#00B172;
+
+}
+
+#three-boxes>ul {
+  margin-top: 50px;
+  text-align: center;
+  list-style-type: none;
+  display: flex;
+  justify-content: space-around;
+}
+
+.icon {
+  width: 90px;
+  height: 90px;
+}
+
+#green-box {
+  display: flex;
+  justify-content: center
+}
+
+.green-box {
+
+  background-color:  #00B172;
+  width: 97%;
+  height: 600px;
+}
+
+.spotify-icon-white {
+  height: 150px;
+  width: 150px;
+}
+
+.the-app {
+  height: 500px;
+  width: 300px;
+}
+
+.container {
+  display: flex;
+  justify-content: space-around;
+  align-items:center;
+  height: 100%;
+}
+
+.list {
+  width: 300px;
+}
