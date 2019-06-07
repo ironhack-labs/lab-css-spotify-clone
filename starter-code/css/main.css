@@ -8,6 +8,7 @@ White: #FFF
 */
 body{
     font-family: Arial, Helvetica, sans-serif;
+    color: #1A1A1A;
 }
 #nav-logo{
     position: absolute;
@@ -55,42 +56,39 @@ nav span{
     margin-top: 320px;
     margin-left: 335px;
 }
-
+#sect-2-title{
+    font-size: 50px;
+    text-align: center;
+    text-decoration: #00B172 underline;
+    margin: 75px 0px 100px 0px;
+}
 span > img{
     width: 100px;
 }
 
-#music-icon{
-    float: left;
-position: relative;
-margin-left: 50px;
-}
-#high-quality-icon{
-    position: relative;
-    float: center;
-    margin-left: 50px; 
-    margin-top: 100px;
-}
-#devices-icon{
-    margin-top: 0px;
-    margin-left: 100px;
-    position: absolute;
-}
-.container {
-    width: 80%;
-    height: 200px;
-    background: aqua;
-    margin: auto;
+.grid-container {
+    display: grid;
+    grid-template-columns: auto auto auto;
     padding: 10px;
-}
-.one {
-    width: 15%;
-    height: 200px;
-    background: red;
-    float: left;
-}
-.two {
-    margin-left: 15%;
-    height: 200px;
-    background: black;
-}
+  }
+  .grid-item {
+    background-color: rgba(255, 255, 255, 0.8);
+    padding: 40px;
+    font-size: 30px;
+    text-align: center;
+  }
+
+  .grid-item > h3{
+      color: #00B172;
+      font-size: 40px;
+  }
+
+  #green{
+      background: #00B172;
+      height: 1000px;
+      width: 1150px;
+      margin: 40px;
+  }
+  #high-quality-icon{
+      margin-bottom: 50px;
+  }
