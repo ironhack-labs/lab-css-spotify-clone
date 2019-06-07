@@ -1,8 +1,220 @@
 /*
 Colors:
-
 Text: 1A1A1A
 Green: #00B172
 White: #FFF
-
 */
+* {
+  margin: 0;
+  padding: 0;
+
+  font-family: Circular, Helvetica, Arial, sans-serif;
+}
+
+.fixclear {
+  clear: both;
+}
+
+header {
+  width: 92%;
+  height: 8vh;
+
+  padding: 1% 4%;
+
+  background-color: #fff;
+
+  font-size: 20px;
+  font-family: Circular, Helvetica, Arial, sans-serif;
+}
+
+header * {
+  height: 100%;
+}
+
+header img {
+  animation: nomms 4s ease-in-out infinite;
+}
+
+@keyframes nomms {
+  0% {
+    transform: rotatex(1deg)
+  }
+  50% {
+    margin-top: 15px;
+    transform: rotatex(180deg)
+  }
+  100% {
+    transform: rotatex(360deg)
+  }
+}
+
+
+header ul {
+  float: right;
+
+  margin-top: 25px;
+}
+
+header li {
+  display: inline-block;
+
+  padding-left: 15px;
+}
+
+#everyone {
+  position: relative;
+
+  width: 100%;
+  height: 90vh;
+  
+
+  background-image: url("../images/landing.jpg");
+  background-position: 0 0;
+  background-size: 100% 90vh;
+  background-repeat: no-repeat;
+
+  color: white;
+}
+
+#everyone h1 {
+  position: absolute;
+  top: 30vh;
+  left: 30vw;
+  width: 50vw;
+  font-size: 80px;
+}
+
+#everyone p {
+  position: absolute;
+  top: 50%;
+  left: 26%;
+
+  text-align: center;
+  font-size: 40px;
+}
+
+header a {
+  text-decoration: none;
+
+  color: #000;
+}
+
+
+
+#what {
+  position: relative;
+  width: 100%;
+  height: 350px;
+}
+
+#what h2 {
+  position: absolute;
+  top: 20px;
+  left: 42.5%;
+
+  margin-top: 20px;
+  padding-bottom: 3px;
+  border-bottom: #00b172 solid 3px;
+
+  font-size: 30px;
+}
+
+#what div {
+  position: absolute;
+  top: 100px;
+  width: 100%;
+
+  padding: 0;
+  margin: 0;
+}
+
+#what article {
+  float: left;
+
+  width: 23%;
+  height: 30vh;
+
+  box-sizing: border-box;
+  margin: 0 5%;
+}
+
+#what article img {
+  height: 100px;
+
+  margin: 0 35%;
+  padding: 10px 0;
+}
+
+#what article a {
+    text-decoration: none;
+}
+
+#what article h3 {
+  padding: 10px 0;
+
+  text-align: center;
+  color: #00b172;
+  font-size: 22px; 
+}
+
+#what article p {
+  padding: 0 5vw;
+
+  text-align: center;
+}
+
+#kanye .icon {
+  position: absolute;
+  top: 250px;
+  left: 47%;
+
+  height: 100px;
+}
+
+#kanye .image {
+  position: absolute;
+  top: 90px;
+  left: 70%;
+  width: 20vw;
+
+  height: 450px;
+}
+#kanye article {
+  width: 225px;
+}
+#kanye article a {
+    text-decoration: none;
+}
+
+#kanye article h3 {
+  font-weight: bold;
+  font-size: 23px;
+  padding: 30px 0;
+  color: #fff;
+}
+
+#kanye {
+  position: relative;
+  width: 96%;
+  height: 600px;
+  background: #00b172;
+  color: #fff;
+  margin: 2% 2%;
+}
+
+#kanye h2 {
+  position: absolute;
+  top: 70px;
+  left: 8%;
+  padding-bottom: 3px;
+  border-bottom: #fff solid 3px;
+  font-size: 30px;
+}
+
+#kanye div {
+  position: absolute;
+  top: 120px;
+  left: 8%;
+}
+
+
