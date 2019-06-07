@@ -6,3 +6,176 @@ Green: #00B172
 White: #FFF
 
 */
+
+body {
+  margin: 0;
+  font-family: sans-serif;
+}
+
+h1 {
+  font-size: 80px;
+  margin: 0;
+}
+
+.nav-bar {
+  background: #FFF;
+  position: fixed;
+  height: 100px;
+  padding: 0 40px;
+  width: calc(100vw - 80px);
+  top: 0;
+  z-index: 1;
+}
+
+.nav-bar img {
+  height: 65%;
+  float: left;
+  padding-top: 17px;
+}
+
+.nav-bar ul {
+  float: right;
+  padding: 37px 0 0 0;
+  margin: 0;
+}
+
+.nav-bar ul li {
+  display: inline;
+  padding-left: 20px;
+  font-size: 22px;
+  font-weight: 100;
+}
+
+.hero {
+  background-image: url('../images/landing.jpg');
+  background-size: cover;
+  height: 100vh;
+  position: relative;
+}
+
+.hero-text {
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  color:#FFF;
+  text-align: center;
+  width: 100%;
+}
+
+.hero-text p {
+  font-size: 24px;
+  font-weight: 100;
+}
+
+.whats-on {
+  height: 50vh;
+  padding: 0 100px;
+}
+
+.whats-on span {
+  border-bottom: 5px solid #56b273;
+  padding-bottom: 5px;
+}
+
+.whats-on h2 {
+  text-align: center;
+  margin: 0;
+  padding-top: 40px;
+  padding-bottom: 80px;
+  font-size: 40px;
+}
+
+.whats-on-box {
+  width: 33%;
+  float: left;
+}
+
+.whats-on-box h3, .whats-on-box p {
+  text-align: center;
+}
+
+.whats-on-box img {
+  width: 40%;
+  display: block;
+  margin: 0 auto;
+}
+
+.green-section {
+  position: relative;
+  height: 70vh;
+  padding: 80px;
+  background-color: #00B172;
+  margin: 20px;
+}
+
+#white-icon {
+  position: absolute;
+  left: 50%;
+  top: 50%;
+  transform: translate(-50%, -50%);
+  width: 100px;
+}
+
+.green-section-one, .green-section-two {
+  float: left;
+  height: 100%;
+}
+
+.green-section-one {
+  width: 60%;
+  position: relative;
+}
+
+.green-section-one div:nth-child(4) {
+  position: absolute;
+  bottom: 0;
+}
+
+.green-section-one div:nth-child(2) {
+  position: absolute;
+  top: 10%;
+}
+
+.green-section-one div:nth-child(3) {
+  position: absolute;
+  top: 38%;
+}
+.green-section-two {
+  width: 40%;
+}
+
+.green-section-two img {
+  width: 75%;
+  height: 95%;
+  float: right;
+  position: absolute;
+  right: 0;
+  bottom: 0;
+  object-fit: contain;
+}
+
+.green-section-two {
+  position: relative;
+}
+
+.green-section-one div, .green-section-one h2 {
+  color: #FFF;
+}
+.green-section-one h2 { 
+  font-size: 40px;
+  margin: 0;
+}
+
+.green-section-one span {
+  border-bottom: 5px solid #FFF;
+  padding-bottom: 5px;
+}
+
+.green-section-one h3 {
+  font-size: 30px;
+}
+
+.green-section-one div p {
+  line-height: 1.5;
+}
