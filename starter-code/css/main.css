@@ -6,3 +6,158 @@ Green: #00B172
 White: #FFF
 
 */
+@import url('https://fonts.googleapis.com/css?family=Raleway:300,400,800&display=swap');
+
+html, body {
+    margin: 0;
+    padding: 0;
+    font-family: 'Raleway', sans-serif;
+  }
+
+.nav-bar {
+    height: 60px;
+    background-color: white;
+    display: flex;
+    justify-content: flex-end;
+    align-items: center;
+    margin: 0 auto;
+    padding-right: 20px
+}
+
+.nav-bar > *:first-child {
+    flex-grow: 1;
+}
+
+.nav-bar .view {
+    margin: 10px;
+    text-decoration: none;
+    color: black;
+}
+
+.spotify-logo {
+    height: 45px;
+    padding-left: 30px;
+}
+
+.part-1 {
+    background-image: url("../images/landing.jpg");
+    height: 850px;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    position: relative;
+    margin-top: 0;
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+    justify-content: center;
+    text-align: center;
+    color: white;
+}
+
+
+.part-1 h1 {
+    font-size: 80px;
+}
+
+.part-1 h2 {
+    font-weight: 300;
+    font-size: 30px;
+    margin-top: -35px;
+    text-align: center;
+}
+
+.part-2 h2 {
+    text-align: center;
+    font-size: 35px;
+}
+
+hr { 
+    width: 22%;
+    border: 2px solid #00B172;
+    margin-top: -25px
+}
+
+h3 {
+    color: #00B172;
+    font-weight: 800;
+    font-size: 35px;
+}
+
+.part-2-cards img {
+    width: 150px;
+    padding-top: 50px;
+}
+
+.part-2-cards {
+        display: flex;
+        flex-direction: row; 
+        justify-content: center;
+        align-items: baseline;
+        padding-bottom: 50px;
+      }
+      
+.col-3 { 
+        width: calc(33.33% - 40px);
+        margin-left: 20px;
+        margin-right: 20px;
+        text-align: center;
+        max-width: 350px;
+}
+
+.col-3 p {
+    font-size: 30px;
+    font-weight: 100;
+}
+
+.part-3 {
+    background-color: #00B172;
+    color: white;
+    margin-left: 40px;
+    margin-right: 40px;
+    margin-bottom: 40px;
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+
+}
+
+.part-3 h2 {
+    align-self: flex-start;
+}
+
+.part-3 p {
+    font-size: 24px;
+    font-weight: 200;
+    display: inline-block;
+    max-width: 350px;
+}
+
+.left-side {
+    display: flex;
+    flex-direction: column; 
+    justify-content: center;
+    text-align: left;
+    margin: 50px;
+    max-width: 480px;
+}
+
+.hr-part-3 {
+    width: 100%;
+    border: 2px solid white;
+}
+
+.part-3 .spotify-logo2 {
+    height: 150px;
+    align-self: center;
+}
+
+.part-3 .spotify-app {
+    height: 600px;
+    align-self: center;
+    margin-left: 160px;
+}
+
+
+
+
