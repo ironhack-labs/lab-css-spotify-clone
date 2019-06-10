@@ -6,3 +6,182 @@ Green: #00B172
 White: #FFF
 
 */
+
+* {
+  margin: 0;
+  padding: 0;
+  font-family: 'Helvetica Neue', Helvetica, sans-serif;
+}
+
+nav {
+  height: 50px;
+  padding: 20px 50px 20px 50px;
+  position: fixed;
+  background-color: #FFF;
+  width: 100%;
+}
+
+nav img {
+  float: left;
+  height: 100%;
+}
+
+nav ul {
+  height: 100%;
+  width: 40%;
+  float: right;
+  margin-right: 50px;
+  list-style: none;
+  display: flex;
+  justify-content: space-evenly;
+  align-items: center;
+}
+
+nav li {
+  font-weight: 200;
+  font-size: 1.5rem;
+}
+
+nav a {
+  text-decoration: none;
+  color: #1A1A1A;
+}
+
+nav li a:hover {
+  text-decoration: underline #1A1A1A;
+}
+
+#hero {
+  background-image: url("../images/landing.jpg");
+  background-size: cover;
+  height: 100vh;
+  color: #FFF;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  text-align: center;
+}
+
+#hero-text {
+  color: #FFF;
+  width: 70%;
+}
+
+#hero-text p {
+  color: #FFF;
+}
+
+#hero h1 {
+  font-size: 5rem;
+  font-weight: 500;
+  margin-bottom: 2rem;
+}
+
+#hero p {
+  font-size: 2rem;
+  font-weight: 200;
+}
+
+#features {
+  margin-top: 3rem;
+  margin-bottom: 10rem;
+}
+
+#features > h3 {
+  text-align: center;
+  font-size: 2.5rem;
+  font-weight: 400;
+  color: #1A1A1A;
+}
+
+#features > hr {
+  margin: 0 auto;
+  width: 21rem;
+  height: 5px;
+  background-color: #00B172;
+  border: none;
+}
+
+.feature-cards-container {
+  margin-top: 8rem;
+  display: flex;
+  justify-content: space-evenly;
+  align-content: center;
+}
+
+.feature-cards {
+  width: 20%;
+  text-align: center;
+  display: inline-block;
+}
+
+.feature-cards img {
+  height: 7rem;
+  margin-bottom: 0.7rem;
+}
+
+.feature-cards h3 {
+  margin-bottom: 1rem;
+  font-size: 1.7rem;
+  color: #00B172;
+}
+
+.feature-cards p {
+  color: #1A1A1A;
+  font-size: 1.5rem;
+  font-weight: 200;
+}
+
+#feature-artists {
+  height: 100vh;
+}
+
+.feature-artists-container {
+  height: 100%;
+  background-color: #00B172;
+  margin: 0 3rem 2rem 3rem;
+  padding-top: 5%;
+  display: flex;
+  justify-content: space-around;
+  background-image: url("../images/spotify-icon-white.png");
+  background-repeat: no-repeat;
+  background-size: 10%;
+  background-position: center;
+}
+
+.feature-artists-text {
+  color: #FFF;
+  width: 40%;
+  height: 100%;
+}
+
+.feature-artists-text-title {
+  font-size: 2rem;
+  font-weight: 500;
+}
+
+.feature-artists-text hr {
+  margin: 0.5rem 0;
+  width: 26.5rem;
+  height: 3px;
+  background-color: #FFF;
+  border: none;
+}
+
+.feature-artists-container img {
+  height: 80%;
+  margin-top: 3%;
+}
+
+.feature-artists-text-items {
+  font-size: 1.7rem;
+  font-weight: 500;
+  margin: 3.2rem 0 2rem 0;
+}
+
+.feature-artists-text p {
+  font-size: 1.5rem;
+  width: 70%;
+  font-weight: 300;
+}
