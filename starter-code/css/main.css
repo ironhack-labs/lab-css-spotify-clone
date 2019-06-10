@@ -1,8 +1,187 @@
-/*
-Colors:
+* {
+  color: #1a1a1a;
+  background-color: #fff;
+  font-family: "Montserrat", sans-serif;
+}
 
-Text: 1A1A1A
-Green: #00B172
-White: #FFF
+h1 {
+  margin: 0;
+  color: #fff;
+  text-align: center;
+  font-size: 4.5em;
+  padding-top: 370px;
+  font-weight: bold;
+}
 
-*/
+h2 {
+  color: #fff;
+  text-align: center;
+  font-size: 2em;
+  padding-top: 30px;
+}
+
+h3 {
+  color: #1a1a1a;
+  text-align: center;
+  font-size: 2em;
+  font-weight: bold;
+  border-bottom: solid;
+  border-color: #00b172;
+}
+
+h4 {
+  font-weight: bold;
+  font-size: 2em;
+}
+
+p {
+  font-size: 1.3em;
+}
+
+#about h4 {
+  color: #00b172;
+}
+
+#about p {
+  margin-top: 40px;
+  font-size: 1.3em;
+}
+
+.white p {
+  color: #fff;
+  line-height: 30px;
+}
+
+.white h4 {
+  line-height: 100px;
+}
+
+.info-article1 h3 {
+  text-align: left;
+}
+
+/*nav*/
+
+.logo {
+  margin: 10px 40px;
+  width: 200px;
+}
+
+.nav-bar {
+  line-height: 80px;
+  margin-right: 20px;
+}
+
+.nav-bar-li {
+  float: left;
+  list-style-type: none;
+  margin-left: 25px;
+}
+
+/* that is ok, maybe changing the font-size */
+.nav-bar-item {
+  font-size: 1.5em;
+  text-decoration: none;
+}
+
+/*header*/
+
+#welcome {
+  background: url(../images/landing.jpg) 0 0 no-repeat;
+  background-size: 100%;
+  height: 950px;
+  /* question: div has to have/adjust to the height of the background image, without giving a specific nr in px */
+}
+
+.position {
+  margin: auto;
+  width: 900px;
+}
+
+/*about*/
+
+#about {
+  margin-top: 50px;
+}
+
+.title-about {
+  margin: auto;
+  width: 320px;
+}
+
+.icon {
+  margin: auto;
+  width: 150px;
+}
+
+.list-one {
+  margin: auto;
+  margin-top: 100px;
+  width: 90%;
+}
+
+.list-two {
+  margin: auto;
+  margin-top: 10px;
+  width: 90%;
+}
+
+.one-third {
+  width: 33%;
+  text-align: center;
+}
+
+/*more-information*/
+
+#more-information {
+  margin-top: 130px;
+  background-color: #00b172;
+  margin-bottom: 35px;
+  margin-left: 35px;
+  margin-right: 35px;
+}
+
+.white {
+  color: #fff;
+}
+
+.border-color {
+  border-color: #fff;
+  width: 465px;
+}
+
+.info-article1 {
+  margin-top: 90px;
+  margin-left: 90px;
+  margin-bottom: 90px;
+  width: 50%;
+}
+
+.info-article2 {
+  margin-top: 90px;
+  margin-right: 90px;
+  width: 25%;
+}
+
+.part1 {
+  width: 65%;
+}
+
+.part2 {
+  width: 25%;
+  margin-top: 20%;
+}
+
+/*float*/
+
+.clearfix {
+  clear: both;
+}
+
+.float-left {
+  float: left;
+}
+
+.float-right {
+  float: right;
+}

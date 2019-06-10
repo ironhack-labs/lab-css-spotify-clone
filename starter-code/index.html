@@ -1,42 +1,145 @@
 <!DOCTYPE html>
 <html lang="en">
-<head>
-  <meta charset="UTF-8">
-  <title>Spotify</title>
-</head>
-<body>
-Premium Discover Help Download
-
-Music for everyone.
-Spotify is now free on mobile, tablet and computer.
-Listen to the right music, wherever you are.
-
-What’s on Spotify?
-
-Millions of Songs
-There are millions of
-songs on Spotify
-
-HD Music
-Listen to music as if you
-were listening live
-
-Stream Everywhere
-Stream music on your
-smartphone, tablet or
-computer
-
-It’s as yeezy as Kanye West.
-Search
-Know what you want to listen to?
-Just search and hit play.
-Browse
-Check out the latest charts,
-brand new releases and great
-playlists for right now.
-Discover
-Enjoy new music every Monday
-with your own personal playlist.
-Or sit back and enjoy Radio.
-</body>
+  <head>
+    <meta charset="UTF-8" />
+    <title>Spotify</title>
+    <link
+      href="https://fonts.googleapis.com/css?family=Montserrat:400,700&display=swap"
+      rel="stylesheet"
+    />
+    <link rel="stylesheet" type="text/css" href="./css/reset.css" />
+    <link rel="stylesheet" type="text/css" href="./css/normalize.css" />
+    <link rel="stylesheet" type="text/css" href="./css/main.css" />
+  </head>
+  <body>
+    <nav>
+      <div class="float-left logo">
+        <img src="./images/spotify-logo.png" alt="logo" />
+      </div>
+      <div class="float-right nav-bar">
+        <ul class="float-right">
+          <li class="nav-bar-li">
+            <a class="nav-bar-item" href="#premium">Premium</a>
+          </li>
+          <li class="nav-bar-li">
+            <a class="nav-bar-item" href="#discover">Discover</a>
+          </li>
+          <li class="nav-bar-li">
+            <a class="nav-bar-item" href="#help">Help</a>
+          </li>
+          <li class="nav-bar-li">
+            <a class="nav-bar-item" href="#download">Download</a>
+          </li>
+        </ul>
+      </div>
+      <div class="clearfix"></div>
+    </nav>
+    <header id="welcome">
+      <div class="position">
+        <h1>
+          Music for everyone.
+        </h1>
+      </div>
+      <div class="position">
+        <h2>
+          Spotify is now free on mobile, tablet and computer. <br />
+          Listen to the right music, wherever you are.
+        </h2>
+      </div>
+    </header>
+    <section id="about">
+      <div class="title-about">
+        <h3>What’s on Spotify?</h3>
+      </div>
+      <div class="list-one">
+        <div class="clearfix">
+          <article class="float-left one-third">
+            <div class="icon">
+              <img src="./images/music-icon.png" alt="music-icon" />
+            </div>
+          </article>
+          <article class="float-left one-third">
+            <div class="icon">
+              <img
+                src="./images/high-quality-icon.png"
+                alt="high-quality-icon"
+              />
+            </div>
+          </article>
+          <article class="float-left one-third">
+            <div class="icon">
+              <img src="./images/devices-icon.png" alt="devices-icon" />
+            </div>
+          </article>
+        </div>
+      </div>
+      <div class="list-two">
+        <div class="clearfix">
+          <article class="float-left one-third">
+            <h4>Millions of Songs</h4>
+            <p>
+              There are millions of <br />
+              songs on Spotify
+            </p>
+          </article>
+          <article class="float-left one-third">
+            <h4>HD Music</h4>
+            <p>
+              Listen to music as if you <br />
+              were listening live
+            </p>
+          </article>
+          <article class="float-left one-third">
+            <h4>Stream Everywhere</h4>
+            <p>
+              Stream music on your <br />
+              smartphone, tablet or <br />
+              computer
+            </p>
+          </article>
+        </div>
+      </div>
+      <!-- <div class="clearfix"></div> este no hace falta, como parece-->
+    </section>
+    <section id="more-information">
+      <div class="white">
+        <article class="info-article1 float-left">
+          <div>
+            <h3 class="white border-color">It’s as yeezy as Kanye West.</h3>
+          </div>
+          <div>
+            <div class="part1 float-left">
+              <h4 class="white h4">Search</h4>
+              <p>
+                Know what you want to listen to? <br />
+                Just search and hit play.
+              </p>
+              <h4 class="white h4">Browse</h4>
+              <p>
+                Check out the latest charts, <br />
+                brand new releases and great <br />
+                playlists for right now.
+              </p>
+              <h4 class="white">Discover</h4>
+              <p>
+                Enjoy new music every Monday <br />
+                with your own personal playlist. <br />
+                Or sit back and enjoy Radio.
+              </p>
+            </div>
+            <div class="part2 float-right">
+              <img
+                src="./images/spotify-icon-white.png"
+                alt="spotify-icon-white"
+              />
+            </div>
+          </div>
+        </article>
+        <article class="info-article2 float-right">
+          <img src="./images/spotify-app.jpg" alt="spotify-app" />
+        </article>
+      </div>
+      <div class="clearfix"></div>
+    </section>
+  </body>
 </html>
