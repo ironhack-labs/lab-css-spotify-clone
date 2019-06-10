@@ -6,3 +6,192 @@ Green: #00B172
 White: #FFF
 
 */
+* {
+  margin: 0;
+  padding: 0;
+}
+
+body {
+
+}
+
+.border {
+  border: 1px solid red;
+}
+
+/* ----- NAV BAR ----- */
+nav {
+  font-family: 'Montserrat';
+  position: fixed;
+  display: flex;
+  justify-content: space-between;
+  background-color: #fff;
+  padding: 12.5px 25px;
+  height: 70px;
+  width: 100vw;
+  max-width: 100%;
+}
+
+#logo-nav {
+  height: auto;
+  width: 220px;
+}
+
+nav ul {
+  list-style: none;  
+  align-self: center;
+  padding-right: 55px;
+  font-size: 1.3rem;
+  font-weight: 100;
+
+}
+
+nav ul>li {
+  display: inline;
+  margin: 8px;
+}
+
+nav li>a {
+  text-decoration: none;
+  color: #000;
+}
+
+/* ---------------------- */
+/* ----- HEADER ----- */
+
+#header {
+  background-image: url("../images/landing.jpg");
+  background-size: cover;
+  color: #fff;
+  text-align: center;
+  font-family: 'Montserrat';
+}
+
+#header h1 {
+  padding: 325px 0 15px;
+  align-self: center;
+  font-size: 4.8rem;
+  font-weight: 600;
+}
+
+#header p {
+  font-size: 1.65rem;
+  padding: 15px 0 300px;
+  line-height: 1.4em;
+  font-weight: 100;
+}
+
+/* ---------------------- */
+/* ----- WHATS ON ----- */
+
+#whatson {
+text-align: center;
+align-content: center;
+}
+
+#whatson h2 {
+  font-family: 'Montserrat';
+  padding: 25px 0 5px;
+  font-size: 2.4em;
+  font-weight: 700;
+}
+
+#whatson hr {
+  width: 350px;
+  border: 2px solid #41a56b;
+  margin: 0 auto;
+}
+
+#whatson-article-container {
+ display: flex;
+ flex-wrap: wrap;
+ justify-content: space-around;
+ width: 90%;
+ margin: 0 auto;
+}
+
+.whatson-article {
+  width: 30%;
+  margin: 100px 10px;
+}
+
+.whatson-article h3 {
+  font-family: 'Roboto';
+  font-size: 2em;
+  color: #00B172;
+  padding: 20px;
+}
+
+.whatson-article p {
+  font-family: 'Work Sans';
+  font-size: 1.6em;
+  color: #1A1A1A;
+  font-weight: 10;
+  width: 80%;
+  margin: 0 auto;
+}
+
+.whatson-img {
+  height: auto;
+  width: 130px;
+}
+
+/* ---------------------- */
+/* ----- ITSYEEZY ----- */
+
+#itsyeezy {
+  display: flex;
+  background-image: url("../images/spotify-icon-white.png");
+  background-size: 130px;
+  background-position: center;
+  background-repeat: no-repeat;
+  background-color: #00B172;
+  margin: 0 37px; 
+  color: #fff;
+  padding: 75px 100px;
+}
+
+#itsyeezy-left-panel {
+  display: flex;
+  flex-direction: column;
+  width: 50%;
+}
+
+#itsyeezy h2 {
+  font-size: 2.2rem;
+  font-family: 'Montserrat';
+}
+
+#itsyeezy hr {
+  border: 2px solid #fff; 
+  width: 470px;
+}
+
+#itsyeezy h3 {
+  font-family: 'Montserrat';
+  font-size: 1.7em;
+  padding: 55px 0 35px;
+  font-weight: 900;
+}
+
+#itsyeezy article {
+  width: 320px;
+}
+
+#itsyeezy p {
+  font-family: 'Work Sans';
+  font-size: 1.3rem;
+  font-weight: 700;
+  line-height: 1.5em;
+}
+
+#itsyeezy figure {
+  width: 50%;
+}
+
+#itsyeezy-phonescreen {
+  padding-top: 50px;
+  float: right;
+  height: auto;
+  width: 350px;
+}
