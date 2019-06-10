@@ -1,8 +1,188 @@
-/*
-Colors:
+/* Our main patterns! */
+
+/* Colors:
 
 Text: 1A1A1A
 Green: #00B172
-White: #FFF
+White: #FFF */
 
-*/
+* {
+  margin: 0;
+  padding: 0;
+  font-family: 'Montserrat', sans-serif;
+}
+
+.clearfix{
+  clear: both;
+}
+
+/* Our main font*/
+
+@import url('https://fonts.googleapis.com/css?family=Montserrat:400,700&display=swap');
+
+/* <!-- This is the nav! --> */
+.nav {
+  position: fixed;
+  width: 100vw;
+  max-width: 100%;
+  background-color: #f6f6f6;
+  opacity: 0.9;
+  font-weight: 500;
+  color: #1A1A1A;
+  text-decoration: none;
+}
+
+.menu li a {
+  text-decoration: none;
+  color: #1A1A1A;
+}
+
+.logo img {
+  height: 48px;
+  float: left;
+  padding: 1.1%;
+  margin-left: 20px;
+}
+
+.menu li {
+  float: right;
+  color: #1A1A1A;
+  display: inline-block;
+  padding: 2%;
+  margin-right: 20px;
+  font-size: 18px;
+  text-decoration: none;
+}
+
+/* <!-- main-banner --> */
+
+.main-container {
+  color: #f6f6f6;
+  background-image: url("../images/landing.jpg");
+  background-position: 0 0;
+  background-size: 100% 130%;
+  height: 780px;
+  text-align: center;
+}
+
+.main-title {
+  font-size: 50px;
+  color: #f6f6f6;
+  position: relative;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -80%);
+  font-weight: 500;
+}
+
+.main-description {
+  position: relative;
+  color: white;
+  font-size: 25px;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -80%);
+  font-weight: 300;
+}
+
+/* <!-- what is container --> */
+
+.whatis-container {
+  padding: 1.2%;
+  text-align: center;
+}
+
+.whatis-description {
+  font-size: 40px;
+  margin-top: 2%;
+  padding: 0.2%;
+  text-align: center;
+}
+
+.div-green {
+  border: 2px solid green;
+  width:350px;
+  margin: 0 auto;
+}
+
+.whatis-elements {
+  display: inline-block;
+  padding: 5%;
+}
+
+.whatis-elements h3{
+  font-size: 25px;
+  padding: 2%;
+  margin-bottom: 30px;
+}
+
+.whatis-elements p{
+  font-size: 25px;
+}
+/* image */
+.w-icon{
+  height: 130px;
+  width: 130px;
+  padding: 3%;
+  margin-bottom: 4%;
+}
+
+.w-element1 {
+  display: inline-block;
+  float: left;
+}
+
+.w-element2 {
+  display: inline-block;
+  margin-left: 150px;
+}
+
+.w-element3 {
+  display: inline-block;
+  float: right;
+  margin-left: 150px;
+}
+
+/* <!-- Demo part --> */
+.demo-container{
+  margin: 40px 40px;
+  padding: 70px;
+  background-image: url("../images/spotify-icon-white.png");
+  background-repeat: no-repeat;
+  background-position-x: 50%;
+  background-position-y: 50%;
+  background-size: 10%;
+  background-color: #00B172;
+  color: white;
+
+}
+
+.demo-description {
+  display: inline-block;
+  font-size: 40px;
+  margin-top: 2%;
+  text-align: left;
+}
+
+.div-white {
+  border: 2px solid white;
+  width: 530px;
+}
+
+.demo-features h3{
+  font-size: 25px;
+  margin-bottom: 40px;
+  margin-top: 40px;
+}
+
+.demo-features p{
+  font-size: 25px;
+}
+
+.image-app img{
+  display: inline-block;
+  float: right;
+  height: 565px;
+  width: auto;
+  margin-right: 40px;
+}
