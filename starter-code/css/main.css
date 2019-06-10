@@ -1,8 +1,173 @@
 /*
 Colors:
-
 Text: 1A1A1A
 Green: #00B172
 White: #FFF
-
 */
+
+* {
+  margin: 0;
+  padding: 0;
+  font-family: Helvetica, Arial, sans-serif;
+}
+
+nav {
+  background-color: #fff;
+  height: 60px;
+  position: fixed;
+  width: 100%;
+  -webkit-box-shadow: 0px 5px 5px 0px rgba(0, 0, 0, 0.75);
+  -moz-box-shadow: 0px 5px 5px 0px rgba(0, 0, 0, 0.75);
+  box-shadow: 0px 5px 5px 0px rgba(0, 0, 0, 0.75);
+  border-bottom: 1px solid black;
+}
+ul {
+  list-style-type: none;
+  margin: 0;
+  padding: 0;
+  float: right;
+  padding-top: 21px;
+  padding-right: 40px;
+  padding-right: 20px;
+}
+ul a {
+  text-decoration: none;
+  color: black;
+  letter-spacing: 0.1em;
+  line-height: 24px;
+  size: 24px;
+}
+li {
+  display: inline;
+  margin: 0 15px;
+}
+
+.normal-logo {
+  height: 36px;
+  float: left;
+  margin: 12px 22px;
+}
+
+/* header stuff */
+header {
+  background-image: url(../images/landing.jpg);
+  background-size: cover;
+  height: 60vw;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  flex-direction: column;
+  color: #fff;
+}
+header > h1 {
+  font-size: 5em;
+}
+header > p {
+  font-size: 1.6em;
+  text-align: center;
+  padding: 15px 0;
+  font-weight: 100;
+}
+/* main */
+#features h4 {
+  color: #00b172;
+  font-size: 1.7em;
+  margin: 10px 0;
+}
+#features p {
+  font-size: 22px;
+}
+#features {
+  display: flex;
+  width: 100%;
+  flex-direction: column;
+  height: 350px;
+  margin: 40px 0;
+  text-align: center;
+  align-content: center;
+}
+
+.key-elements {
+  display: flex;
+  width: 100%;
+  flex-wrap: nowrap;
+  margin: 60px 0;
+}
+.block {
+  width: calc((100%) / 3);
+  flex-direction: row;
+  text-align: center;
+  justify-content: center;
+  padding: 0 10px;
+  margin: 0px 70px;
+}
+.block > img {
+  height: 60px;
+}
+#features > hr {
+  display: block;
+  margin: 10px auto;
+  width: 22%;
+  border: 1px solid #00b172;
+}
+#features h2 {
+  font-size: 1.8em;
+}
+/* usability */
+.usability {
+  background-color: #00b172;
+  height: 100%;
+  margin: 0 40px;
+  padding: 50px 70px;
+  color: #fff;
+}
+.text {
+  float: left;
+  height: 100%;
+  width: 52%;
+  padding-left: 36px;
+}
+.img-usability {
+  margin: 0 auto;
+  float: left;
+  height: 100%;
+  text-align: center;
+  width: 30%;
+}
+.logo-usability {
+  float: left;
+  height: 100%;
+  text-align: center;
+  width: 10%;
+}
+.stuff {
+  clear: both;
+}
+#white-log {
+  width: 100%;
+  margin: 14em 0 0 -142px;
+}
+#app-img {
+  width: 90%;
+  padding-top: 24px;
+}
+.text > hr {
+  display: block;
+  width: 96%;
+  border: 2px solid #fff;
+  margin-bottom: 40px;
+}
+.text div {
+  margin: 20px 0;
+  color: #fff;
+}
+.text div h4 {
+  margin: 20px 0;
+  font-size: 30px;
+}
+.text h3 {
+  font-size: 2.5em;
+}
+.text p {
+  font-size: 24px;
+}
