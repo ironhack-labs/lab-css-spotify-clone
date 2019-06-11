@@ -6,3 +6,55 @@ Green: #00B172
 White: #FFF
 
 */
+@import url('https://fonts.googleapis.com/css?family=Montserrat&display=swap');
+
+html, body {height: 100%;width: 100%;}
+body {color: black;font-family: 'Montserrat', sans-serif; font-size: 22px; margin:0;} /*font-family: Circular, Helvetica, Arial, sans-serif;*/
+
+a {color: black;text-decoration: none;}
+a:link {text-decoration: none;}
+a:hover {text-decoration: none;}
+a:visited {text-decoration: none;}
+
+h1, h2, h3, h4, h5, h6 {margin:0;}
+
+.col-3 {float:left;width:33%;}
+.col-middle {margin: 0 10px}
+
+.clearfix {clear: both;}
+
+/* navbar */
+.navbar {background-color: white; position: fixed; padding: 15px; width: 100%;}
+.navbar span#logo {display: block;float: left;margin-left: 25px;width: 250px;}
+.navbar span#logo h1 {display: none;}
+.navbar span#logo img {height: 75px; width: auto;}
+.navbar ul {float: right;height: 25px;margin: 0; padding-top: 25px;}
+.navbar ul li {display: inline;padding:28px 17px;}
+.navbar ul li:last-child {margin-right: 25px;}
+.navbar ul li a {color: black;}
+
+/* header */
+.header {background-image: url(../images/landing.jpg); background-size: cover;color: white;padding: 30% 0;}
+.header article {margin-top:111px;text-align: center;}
+.header h2 {font-size: 72px;}
+.header p {font-size:27px;}
+
+/* container */
+.container {padding: 50px;}
+
+/* what's on */
+.whats-on {margin: 0 auto;text-align: center;width: 90%;padding-top:20px;}
+.whats-on h3 {border-bottom: 3px solid #00B172; display: inline; font-size:36px; padding-bottom: 5px;}
+.whats-on article {margin: 100px 0;}
+.whats-on figure {min-height: 120px}
+.whats-on img {width: 45%;}
+.whats-on h4 {color: #00B172;font-size: 30px;}
+.whats-on h4, .whats-on  p {width: 90%;margin: 0 auto;}
+.whats-on p {padding: 50px 20px;}
+
+/* functions */
+.functions {background-color: #00B172; background-image: url(../images/spotify-icon-white.png); background-size: 10%; background-position: center; background-repeat: no-repeat; color: white;float: left;padding: 100px;}
+.functions img#spotify-app {float: right;width: 33%;}
+.functions h3 {border-bottom: 3px solid;font-size:36px; margin-bottom: 20px;padding-bottom: 5px; width: 50%;}
+.functions h4 {font-size:24px; margin: 25px 0 25px;}
+.functions p {font-size:24px; line-height: 30px;}
