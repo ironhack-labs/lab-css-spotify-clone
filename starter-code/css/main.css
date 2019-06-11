@@ -1,8 +1,209 @@
-/*
+/* *
 Colors:
 
-Text: 1A1A1A
-Green: #00B172
-White: #FFF
+Text: 1A1A1A;
+Green: #00B172;
+White: #FFF;
 
+ */
+body { 
+  margin: 0;
+  font-family: 'Montserrat', sans-serif;
+  font-size: 10px;
+}
+.nav {
+  display: flex;
+  flex-flow: row wrap;
+  justify-content: space-between;
+  align-items: center;
+  padding: 10px;
+ 
+}
+
+.logo {
+  margin-left: 10px ;
+  
+}
+.nav-list {
+  margin-right: 10px;
+  padding: 0;
+}
+ul li {
+  display: inline-block;
+  padding: 10px;
+  font-size: 1.5rem;
+    
+    
+}
+
+ul {
+  padding: 0;
+}
+
+.header {  
+  height: 700px;
+  background-image: url("../images/landing.jpg");
+  background-repeat: no-repeat;
+  background-size: cover;
+  display: flex;
+  flex-flow: row wrap;
+  align-items: center;
+  width: 100%;
+  text-align: center;
+  justify-content: center;
+  color: white;
+  font-size: 2rem;
+
+}
+
+.header-text p {
+  font-weight: 100;
+  font-size: 1.5rem;
+}
+
+.header-text {
+  margin-top: 0;
+  padding-bottom: 200px;
+}
+
+.middle {
+  height: 500px;
+ display: flex;
+ align-content: space-around;
+ justify-content: flex-start;
+ flex-flow: column nowrap;
+ align-items: center;
+}
+.advantages {
+display: flex;
+justify-content: space-around;
+align-items: flex-start;
+align-content: stretch;
+flex-flow: row nowrap;
+font-size: 1.5rem;
+color: #00B172;
+font-weight: 900;
+height: auto;
+width: 100%;
+}
+
+.advantages p {
+  font-weight: 100;
+  font-size: 1.2rem;
+  color: grey;
+  
+}
+.mid-title {
+  font-size: 1.7rem;
+  margin: 50px 0 0 0;
+}
+
+.advantages div {
+  text-align: center;
+  width: 30%;
+  margin: 60px 50px 0px 50px;
+  
+}
+ 
+.mid-title h3 {
+  border-bottom: solid 5px #00B172;
+  padding-bottom: 5px;
+
+}
+
+.lower {
+  width: 100%;
+  background-color: #00B172;
+  border: solid white 20px;
+  margin: 0;
+  color: white;
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  align-items: center;
+  align-content: center;
+  position: relative;
+}
+
+.lower h3 {
+  font-size: 2rem;
+  border-bottom: solid 5px white;
+  padding-bottom: 5px;
+}
+
+.left-column {
+ width: 37%;
+ align-self: flex-start;
+ padding: 50px 90px 90px 90px;
+ font-size: 1.2rem;
+}
+
+.right-column {
+ width: 33%;
+ height: auto;
+ padding-top: 30px;
+}
+
+.right-column img {
+  height: auto;
+  width: 80%;
+}
+
+.left1, .left2, .left3 {
+  width: 80%;
+  font-weight: lighter;
+  
+}
+
+.advantages img {
+  width: 40%;
+  height: auto;
+}
+
+h4 {
+  font-weight: 900;
+  font-size: 1.4rem;
+}
+
+.white-logo {
+  position: absolute;
+  height: 16%;
+  width: auto;
+  left: 45%;
+}
+/* so i tried to do some responsive stuff, largely unsuccessfully... i wanted the
+middle part (advantages) to switch into column from a row but i could not manage it.
+If you can tell me what I could do for that, that would be useful!! 
+I did some bits though to the bottom and the top to make it at least a bit more readable.
 */
+@media only screen and (max-width: 800px) {
+  .right-column { 
+    display: none;
+  }
+  .advantages {
+    flex-direction: space-between;
+    flex-flow: wrap row;
+    width: 100%;
+    height: auto;
+  }
+  .lower {
+    height: auto;
+    justify-content: space-evenly;
+    text-align: stretch;
+    padding: 0px;
+  }
+  .white-logo {
+    display: none;
+  }
+  body {
+    font-size: 4px;
+  }
+
+ .lower h3 {
+   border: none;
+ }
+ .header {
+   height: auto;
+   width: 100%;
+ }
+}
