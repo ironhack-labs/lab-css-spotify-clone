@@ -6,3 +6,139 @@ Green: #00B172
 White: #FFF
 
 */
+
+* {
+	margin: 0;
+	padding: 0;
+}
+
+body {
+	font-family: Arial, Helvetica, sans-serif;
+}
+
+.navbar {
+	height: 60px;
+	width: 100%;
+	position: fixed;
+	background-color: #fff;
+	top: 0;
+	z-index: 2;
+}
+
+.navbar--logo {
+	height: 40px;
+	padding: 10px 15px;
+}
+
+.navbar__list {
+	float: right;
+}
+
+.navbar__list__item {
+	line-height: 60px;
+	display: inline;
+	list-style: none;
+	margin: 0 15px;
+}
+
+.mainSection {
+	height: 100vh;
+	background-image: url('./../images/landing.jpg');
+	background-repeat: no-repeat;
+	background-position: center;
+	background-size: cover;
+	text-align: center;
+}
+
+.mainSection__container {
+	width: 500px;
+	position: relative;
+	top: 300px;
+	margin: 0 auto;
+}
+
+.mainSection__header {
+	color: #fff;
+	font-size: 50px;
+	margin-bottom: 20px;
+}
+
+.mainSection__text {
+	color: #fff;
+	font-size: 20px;
+	margin: 0 auto;
+}
+
+.about {
+	text-align: center;
+	padding-top: 50px;
+	padding-bottom: 70px;
+}
+
+.about__header {
+	margin: 0 auto;
+	font-size: 30px;
+	border-bottom: 2px solid #00b172;
+	width: 275px;
+	margin-top: 35px;
+	margin-bottom: 70px;
+}
+
+.about__details {
+	width: 30%;
+	display: inline-block;
+}
+
+.about__details__header {
+	color: #00b172;
+	font-size: 25px;
+	margin-bottom: 25px;
+}
+
+.about__details--image {
+	width: 30%;
+	margin-bottom: 15px;
+}
+
+.about__details__text {
+	font-size: 16px;
+	width: 200px;
+	margin: 0 auto;
+}
+
+.info {
+	background-color: #00b172;
+	background-image: url(./../images/spotify-icon-white.png);
+	background-position: center;
+	background-repeat: no-repeat;
+	background-size: 100px;
+	margin: 20px;
+	padding: 50px 70px;
+	color: #fff;
+}
+
+.info__content {
+	width: 45vw;
+}
+
+.info__content__column--title {
+	margin: 30px 0;
+}
+
+.info__content__column--text {
+	font-size: 16px;
+	width: 20vw;
+	font-weight: 100;
+}
+
+.info__image {
+	float: right;
+	height: 420px;
+}
+
+.info__title {
+	border-bottom: 4px solid white;
+	width: 405px;
+	font-size: 30px;
+	margin-bottom: 30px;
+}
