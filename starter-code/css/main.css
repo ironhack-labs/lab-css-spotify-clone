@@ -6,3 +6,116 @@ Green: #00B172
 White: #FFF
 
 */
+
+.nav-bar .totheright {
+  float: right;
+}
+.totheleft li {
+  float: left;
+  margin-right: 3em;
+  color: #1a1a1a;
+}
+
+.totheleft a {
+
+  color: #1a1a1a;
+}
+.totheleft {
+  /* padding-top: 30px; */
+  line-height: 70px
+}
+.containImage img {
+  height: 70px;
+}
+
+.nav-bar li {
+  list-style-type: none;
+}
+.nav-bar a {
+  text-decoration: none;
+}
+
+/* section music for */
+.musicFor {
+  height: 600px;
+  background-image: url("../images/landing.jpg");
+  /* background-repeat: no-repeat; */
+  background-size: cover;
+  color: white;
+  text-align: center;
+  padding-top: 300px;
+  font-size: 3em;
+}
+
+.paragraphMusic p {
+  font-size: 0.5em;
+  /* background-color: beige; */
+}
+
+/* what's on spotify section */
+.whatSpotify {
+  text-align: center;
+  border-bottom: green solid 1px;
+  display: inline-block;
+  margin-left: 40%;
+
+}
+.mycard img {
+  height: 50px;
+}
+
+.someCards .mycard{
+  float: left;
+  width: 30%;
+  margin-left: 15px;
+  margin-top: 40px;
+}
+
+.someCards {
+  /* padding-left: 40px; */
+  text-align: center;
+}
+
+/* kanye west section */
+.greenBackground {
+  background-color: #00B172;
+  height: 600px;
+  color: #FFF;
+  width: 90%;
+  text-align: left;
+  padding-left: 10%
+}
+
+.yeezy {
+  
+  border-bottom: #FFF solid 1px;
+  display: inline-block;
+  
+
+}
+.spotfifyWhiteIcon img {
+  width: 100px;
+  position: relative;
+  left: 50%;
+  top: -300px;
+}
+.appImage img {
+  width: 25%;
+  position: relative;
+  left: 70%;
+  top: -560px;
+  
+}
+
+/* clearfix hack */
+.group::before,
+.group::after {
+  content: "";
+  display: table;
+}
+.group::after {
+  clear: both;
+}
+.group {
+  *zoom: 1;
+}
