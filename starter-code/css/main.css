@@ -8,31 +8,36 @@ White: #FFF
 */
 
 @font-face {
-  font-family: 'Spotity Font';
+  font-family: 'Spotify Font';
   src: url(../metropolis/metropolis-light.otf);
   font-weight: normal;
 }
 
 @font-face {
-  font-family: 'Spotity Font';
+  font-family: 'Spotify Font';
+  src: url(../metropolis/metropolis-thin.otf);
+  font-weight: light;
+}
+
+@font-face {
+  font-family: 'Spotify Font';
   src: url(../metropolis/metropolis-semibold.otf);
   font-weight: bold;
 }
 
 @font-face {
-  font-family: 'Spotity Font';
+  font-family: 'Spotify Font bolder';
   src: url(../metropolis/metropolis-bold.otf);
-  font-weight: bolder;
 }
 
 body {
   margin: 0;
   padding: 0;
-  font-family: 'Spotity Font', sans-serif;
+  font-family: 'Spotify Font', sans-serif;
 }
 
 .container {
-  padding: 0 10%;
+  padding: 0 7%;
 }
 
 .music-for-everyone {
@@ -45,7 +50,7 @@ body {
 }
 
 .music-for-everyone div {
-  padding-top: 200px;
+  padding-top: 250px;
 }
 
 .music-for-everyone h1 {
@@ -55,7 +60,6 @@ body {
 }
 
 .music-for-everyone p {
-  /* font-weight: lighter; */
   font-size: 2rem;
   line-height: 2.5rem;
 }
@@ -103,52 +107,57 @@ nav ul {
 
 .underline {
   display: inline-block;
-  border-bottom: 4px solid #00B172;
+  border-bottom: 4.4px solid #00B172;
   line-height: 1.3em;
 }
 
 .whats-on-spotify ul {
+  margin-top: 50px;
+  display: flexbox;
+  flex-wrap: wrap;
   align-items: center;
-  display: inline-flex;
+  justify-content: space-between;
 }
 
 .whats-on-spotify h3 {
   color: #00B172;
   font-size: 2rem;
-  font-weight: normal;
+  font-family: 'Spotify Font bolder'
 }
 
-.whats-on-spotify p {
-  font-size: 1.5rem;
+.whats-on-spotify > ul > li p {
+  font-size: 1.65rem;
   margin-bottom: 100px;
+  font-weight: light;
+  line-height: 1.3em;
 }
 
 .kanye {
   background-color: #00B172;
   color: white;
   width: 95%;
-  height: 900px;
-  margin: 0 auto;
+  height: 850px;
+  margin: 0 auto 40px;
   padding: 0;
 }
 
 
 .big-icon {
-  margin: 350px calc(50% - 50px);
+  margin: 330px calc(50% - 50px);
   width: 140px;
 }
 
 .phone-screen {
   position: absolute;
-  top: 1750px;
+  top: 1700px;
   right: 10%;
-  width: 350px;
+  width: 360px;
 }
 
 .kanye-text {
   position: absolute;
-  top: 1670px;
-  right: 50%;
+  top: 1620px;
+  right: 52%;
 }
 
 .kanye-text h2 {
