@@ -24,7 +24,8 @@ body{
 
 nav {
   position: fixed;
-  height: 50px;
+  top: 0;
+  height: 60px;
   width: 100%;
   margin: 0;
   padding: 0;
@@ -33,12 +34,18 @@ nav {
 }
 
 nav img {
+  position: relative;
   float: left;
   height: 50px;
+  left: 35px;
+  top: 5px;
 }
 
 nav ul {
   float: right;
+  position: relative;
+  top: 5px;
+  right: 35px;
 }
 
 nav ul li {
@@ -46,10 +53,12 @@ nav ul li {
   list-style-type: none;
   margin: 0 5px;
 
+
 }
 
 nav ul li a{
   text-decoration: none;
+  color: black;
 }
 
 /* END of Navigation CSS */
@@ -63,11 +72,14 @@ header {
   height: 800px;
   margin: 0;
   padding: 0;
+}
 
+header h1 {
+  font-size: 3em;
 }
 
 header h1,.paragraph-container {
-  color: white;
+  color: #FFF;
   text-align: center;
   position: relative;
   top: 45%;
@@ -113,16 +125,27 @@ header h1,.paragraph-container {
 /* Yeezy CSS */
 
 .yeezy {
-  color: white;
+  color: #FFF;
   background-color: #00B172;
   background-image: url("../images/spotify-icon-white.png");
   background-size: 100px;
   background-repeat: no-repeat;
   background-position: 50%;
+  padding: 2%;
 }
 
 .yeezy-img {
   float: right;
-  height: 200px;
+  height: 400px;
+  margin-right: 150px;
+}
 
+.yeezy-content {
+  position: relative;
+  top: 5%;
+  left: 5%;
+}
+
+.yeezy-container{
+  width: 200px;
 }
