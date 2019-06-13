@@ -9,8 +9,18 @@ White: #FFF
 
 body{
 min-width: 1110px;
-font-family: Arial, Helvetica, sans-serif;
+font-family: sans-serif;
 color: #1A1A1A;
+
+}
+h1, h2, p {
+  font-weight: 300;
+}
+
+h1{
+  font-size: 60px;
+  /* font-weight: 400; */
+  margin: 34px 0;
 }
 
 #left-nav{
@@ -18,18 +28,22 @@ color: #1A1A1A;
 }
 
 #left-nav img{
-  width: 110px;
+  width: 150px;
   height: auto;
+  margin: 5px;
 }
+
 
 #right-nav{
   float: right;
+  padding: 20px;
 }
 
 a{
   color: #1A1A1A;
   text-decoration: none;
   padding: 0 10px;
+  font-weight: 300;
 }
 
 .main-section{
@@ -42,17 +56,24 @@ a{
   height: 620px;
 }
 
+.main-section p{
+  font-size: 21px;
+    font-weight: 300;
+    margin: 0px 287px;
+}
+
 .content{
-  padding: 259px 0;
+  padding: 135px 0;
 }
 
 .whats-on-spotify{
   text-align: center;
 }
 .whats-on-spotify h2{
-  width: 197px;
+  width: 217px;
   border-bottom: 4px solid #00B172;
-  margin: 0px auto;
+  margin: 30px auto;
+  font-weight: 500;
 }
 
 .whats-on-spotify p{
@@ -85,6 +106,7 @@ a{
 }
 .footer h2{
   border-bottom: 4px solid white;
+  font-weight: 300;
 }
 .footer > div:nth-child(1){
   padding-left: 20px;
