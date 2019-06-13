@@ -6,3 +6,127 @@ Green: #00B172
 White: #FFF
 
 */
+
+/* NAV */
+
+body {
+  font-family: Arial, Helvetica, sans-serif;
+  margin: 0%;
+}
+
+nav {
+  display: flex;
+  justify-content: space-between;
+  width: 100%;
+  box-sizing: border-box;
+  height: 48px;
+  padding: 6px 20px;
+}
+
+.toolbar {
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+  width: 41%;
+}
+
+.toolbar a {
+  text-decoration: none;
+  color: black;
+}
+
+.resize {
+  width: 125px;
+}
+
+/* SECTION 1 */
+
+.section1-background {
+  background: url(/starter-code/images/landing.jpg);
+  width: 100%;
+  background-size: cover;
+  background-position: center;
+  height: 630px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.section1 {
+  height: 133px;
+  width: 400px;
+  text-align: center;
+  color: white;
+}
+
+/* SECTION 2 */
+
+.section2 h2 {
+  text-align: center;
+  margin: 25px auto 79px;
+  border-bottom: 2.5px solid #00b172;
+  width: 218px;
+  padding-bottom: 3px;
+}
+
+.general-info {
+  display: flex;
+  justify-content: space-around;
+  text-align: center;
+  margin-bottom: 56px;
+}
+
+.general-info div {
+  width: 184px;
+}
+
+.general-info img {
+  height: 56px;
+  margin-bottom: -8px;
+}
+
+.general-info h3 {
+  color: #00b172;
+}
+
+/* SECTION 3 */
+
+.kanye-box {
+  background: #00b172;
+  margin: 14px 0px 19px 0px;
+  height: 467px;
+  color: white;
+  padding: 23px 53px;
+  /* box-sizing: border-box; */
+}
+
+.kanye-title {
+  width: 325px;
+  height: 35px;
+  margin-bottom: 37px;
+  border-bottom: 2.5px solid white;
+}
+
+.kanye-inside {
+  width: 238px;
+  margin: 0;
+
+  z-index: -1;
+}
+
+.imgs-in-green {
+  display: flex;
+  justify-content: right;
+  width: 312px;
+  height: 400px;
+}
+
+.white-logo {
+  height: 97px;
+  margin: 0 10px 100px 346px;
+}
+
+.app {
+  height: 349px;
+  margin: 0 5px 10px;
+}
