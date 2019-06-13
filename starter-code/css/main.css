@@ -6,3 +6,169 @@ Green: #00B172
 White: #FFF
 
 */
+
+@import url('https://fonts.googleapis.com/css?family=Montserrat|Roboto+Mono&display=swap');
+
+body{
+    margin: 0px;
+    padding: 0px;
+    font-family: Roboto;
+}
+
+.navbar{
+    position: fixed;
+    top: 0px;
+    left: 0px;
+    height: 100px;
+    width: 100%;
+    background-color: white;
+    padding: 25px;
+}
+
+.logo{
+    height: 100px;
+    display: inline-block;
+}
+
+
+a{
+    color: #000;
+    float: right;
+    margin: 0 20px;
+    font-size: 30px;
+    text-decoration: none;
+    padding-top: 30px;
+
+}
+
+a:first-of-type{
+    padding-right: 50px;
+}
+
+.secondSection{
+    background-image: url("../images/landing.jpg");
+    height: 850px;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    margin-top: 100px;
+}
+
+.musicForEveryone{
+    color: white;
+    text-align: center;
+
+    position: relative;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+}
+
+.musicForEveryone h1{
+    font-size: 80px;
+}
+
+.musicForEveryone h3{
+    font-size: 40px;
+}
+
+.thirdSection{
+    /*background-color: whitesmoke;*/
+    height: 500px;
+    width: 95%;
+    margin: 0 auto;
+}
+
+.thirdSection > h1:first-of-type{
+    width: auto;
+    text-align: center;
+    font-size: 50px;
+    /*border-bottom: 6px solid #00B172;*/
+}
+
+.thirdSection > h1:first-of-type:after {
+    content: ""; /* This is necessary for the pseudo element to work. */
+    display: block; /* This will put the pseudo element on its own line. */
+    margin: 0 auto; /* This will center the border. */
+    width: 21%; /* Change this to whatever width you want. */
+    padding-top: 20px; /* This creates some space between the element and the border. */
+    border-bottom: 6px solid #00B172; /* This creates the border. Replace black with whatever color you want. */
+}
+
+.media{
+
+
+}
+
+.threeColPosition{
+    /*background-color: navajowhite;*/
+    width: 25%;
+    height: 400px;
+    padding: 5px;
+    margin-left: 100px;
+    display: inline-block;
+    float: left;
+    /*border: 1px solid hotpink;*/
+    text-align: center;
+}
+
+.iconSize{
+
+    height: 150px;
+    width: 150px;
+
+}
+
+.fourthSection{
+    width: 95%;
+    height: 800px;
+    background-color: #00B172;
+    margin: 0 auto;
+    color: white;
+}
+
+.textContentFourth{
+    width: 95%;
+
+    height: 500px;
+    /*background-color: #00B172;*/
+    margin: 0 auto;
+    color: white;
+    margin-left: 100px;
+    /*padding: 50px;*/
+
+}
+
+.appPic{
+    position: relative;
+    top: -440px;
+    left: 1150px;
+    height: 675px;
+}
+
+.iconPic {
+
+    position: relative;
+    top: -740px;
+    left: 800px;
+    height: 200px;
+}
+
+.fourthSection div h2:first-of-type{
+    font-size: 40px;
+}
+
+.fourthSection div p{
+    font-size: 30px;
+}
+
+.threeRowPosition{
+    width: 450px;
+}
+
+.fourthSection h1{
+    padding-top: 30px;
+    width: 33%;
+    font-size: 50px;
+    border-bottom: 5px solid white;
+}
