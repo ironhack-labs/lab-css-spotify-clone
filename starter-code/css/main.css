@@ -6,3 +6,111 @@ Green: #00B172
 White: #FFF
 
 */
+
+@font-face {
+  font-family: 'Spotity Font';
+  src: url(../metropolis/metropolis-light.otf);
+  font-weight: normal;
+}
+
+@font-face {
+  font-family: 'Spotity Font';
+  src: url(../metropolis/metropolis-semibold.otf);
+  font-weight: bold;
+}
+
+@font-face {
+  font-family: 'Spotity Font';
+  src: url(../metropolis/metropolis-bold.otf);
+  font-weight: bolder;
+}
+
+body {
+  margin: 0;
+  padding: 0;
+  font-family: 'Spotity Font', sans-serif;
+}
+
+.container {
+  padding: 0 10%;
+}
+
+.music-for-everyone {
+  background-image: url(../images/landing.jpg);
+  height: 850px;
+  background-size: cover;
+  background-position: center bottom;
+  text-align: center;
+  color: white;
+}
+
+.music-for-everyone div {
+  padding-top: 200px;
+}
+
+.music-for-everyone h1 {
+  font-weight: bold;
+  font-size: 5.4rem;
+  margin: 0;
+}
+
+.music-for-everyone p {
+  /* font-weight: lighter; */
+  font-size: 2rem;
+  line-height: 2.5rem;
+}
+
+header {
+  display: flex;
+  justify-content: space-between;
+}
+
+header img {
+  height: 4.5rem;
+  margin: 1rem 2rem;
+}
+
+ul {
+  list-style-type: none;
+  margin: 0;
+  padding: 0;
+  display: flex;
+}
+
+nav li {
+  line-height: 6.5rem;
+  margin-right: 2rem;
+  font-size: 1.5rem;
+}
+
+nav ul {
+  margin-right: 1rem;
+}
+
+.icon {
+  width: 150px;
+}
+
+.whats-on-spotify {
+  text-align: center;
+  padding-top: 10px;
+}
+
+.whats-on-spotify h2 {
+  display: inline-block;
+  border-bottom: 4px solid #00B172;
+  font-size: 2.5rem;
+  letter-spacing: -.1rem;
+  line-height: 1.3em;
+}
+
+.whats-on-spotify ul {
+  align-items: center;
+  display: inline-flex;
+}
+
+.whats-on-spotify h3 {
+  color: #00B172;
+  font-size: 2rem;
+  font-weight: lighter;
+}
