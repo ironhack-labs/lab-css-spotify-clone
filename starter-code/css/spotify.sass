@@ -1,0 +1,130 @@
+
+// Colors:
+//
+// Text: 1A1A1A
+// Green: #00B172
+// White: #FFF
+@import url('https://fonts.googleapis.com/css?family=Montserrat:400,700&display=swap')
+
+*
+  margin: 0
+  padding: 0
+  font-family: 'Montserrat', sans-serif
+  // color: #1a1a1a
+
+nav
+  position: fixed
+  display: flex
+  justify-content: space-between
+  align-items: center
+  background: white
+
+  .left, .right
+    display: inline-block
+
+  .left
+    width: 15%
+    padding: 1.5% 2.5%
+    img.logo
+      width: 100%
+
+  .right
+    width: 33%
+    a
+      text-decoration: none
+      color: black
+      padding: 0 1%
+      font-size: 1.5vw
+.hero
+  background-image: url("../images/landing.jpg")
+  background-size: cover
+  height: 100vh
+  color: white
+  display: flex
+  align-items: center
+  justify-content: center
+  text-align: center
+
+  h1
+    font-size: 5vw
+    padding-bottom: 1vw
+
+  p
+    font-size: 2vw
+
+main
+  padding: 2.5%
+.second
+  h2
+    border-bottom: .25vw solid #00B172
+    text-align: center
+    width: 27%
+    margin: 0 auto
+    font-size: 2.5vw
+
+  .tiles
+    display: flex
+    justify-content: center
+    text-align: center
+    padding: 7.5% 0
+    .music, .high, .devices
+      background-repeat: no-repeat
+      background-position: center
+      background-size: contain
+      width: 33%
+      height: 10vw
+      margin: 0 auto
+    .high
+      background-image: url(../images/high-quality-icon.png)
+    .music
+      background-image: url(../images/music-icon.png)
+    .devices
+      background-image: url(../images/devices-icon.png)
+    & > div
+      width: 33%
+      h3
+        color: #00B172
+        font-size: 2vw
+        padding: 2% 0
+      p
+        font-size: 1.75vw
+        width: 75%
+        margin: 0 auto
+        padding-top: 5%
+
+.third
+  position: relative
+  padding: 7.5%
+  color: white
+  background-color: #00B172
+  display: flex
+  justify-content: space-between
+
+  .white-logo
+    position: absolute
+    top: 50%
+    left: 50%
+    transform: translate(-50%, -50%)
+    height: 10vw
+    width: 10vw
+
+  .left
+    width: 50%
+    h2
+      border-bottom: .25vw solid white
+      width: 92.5%
+      font-size: 2.5vw
+      padding: .5vw 0
+
+    .content
+      h3
+        font-size: 2vw
+      p
+        font-size: 1.75vw
+        padding: 5% 0
+
+  .right
+    width: 30%
+
+    img
+      width: 100%
