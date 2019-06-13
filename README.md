@@ -10,6 +10,7 @@ Everyone likes music, right? Odds are if you do, you've heard of Spotify. Today 
 
 All of the necessary assets and images are included in the starter code. If you'd like a full length PDF version of the website as reference, [check out this link](https://s3-eu-west-1.amazonaws.com/ih-materials/uploads/spotify-prototype.pdf).
 
+
 ## Exercise
 
 ## Requirements
