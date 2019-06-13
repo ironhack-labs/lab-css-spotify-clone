@@ -17,6 +17,9 @@ nav {
   background-color:white;
   margin: 0 0;
   height: 90px;
+  position: fixed;
+  top: 0;
+  width: 100%;
 }
 nav a {
   text-decoration: none;
@@ -87,6 +90,7 @@ nav a:visted {
   position: relative;
   margin-left: 577px;
   margin-bottom: 94px;
+  border-bottom: 3px solid #00B172;
 }
 
 .sometitle::after {
@@ -96,7 +100,7 @@ nav a:visted {
   display: inline-block;
 /*   height: 1em; */
   width: 100%;
-  border-bottom: 3px solid #00B172;
+  /* border-bottom: 3px solid #00B172; */
   margin-top: 3px;
 }
 
@@ -143,6 +147,7 @@ nav a:visted {
 .finaltitle {
   display: inline-block;
   position: relative;
+  border-bottom: 3px solid;
 }
 .finaltitle::after {
   content: '';
@@ -151,7 +156,7 @@ nav a:visted {
   display: inline-block;
 /*   height: 1em; */
   width: 100%;
-  border-bottom: 3px solid;
+  /* border-bottom: 3px solid; */
   margin-top: 3px;
   
 }
