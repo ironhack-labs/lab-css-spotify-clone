@@ -6,3 +6,143 @@ Green: #00B172
 White: #FFF
 
 */
+
+@import url("https://fonts.googleapis.com/css?family=Noto+Sans&display=swap");
+
+body {
+  margin: 0;
+  padding: 0;
+  font-family: "Noto Sans", sans-serif;
+}
+
+.logo {
+  width: 200px;
+}
+
+.icon {
+  width: 100px;
+}
+nav {
+  padding: 9px 20px;
+  font-size: 20px;
+  position: fixed;
+  width: 100%;
+  background-color: #fff;
+  box-sizing: border-box;
+  z-index: 4;
+}
+nav a {
+  color: #1a1a1a;
+  text-decoration: none;
+  padding: 20px;
+  float: right;
+}
+
+.landing {
+  width: 100%;
+  height: 800px;
+  background: url("../images/landing.jpg");
+  background-size: cover;
+  background-repeat: no-repeat;
+}
+
+.landing-content {
+  text-align: center;
+  color: #fff;
+  font-size: 40px;
+  padding-top: 250px;
+}
+
+.landing-content p {
+  padding-right: 300px;
+  padding-left: 300px;
+  font-size: 30px;
+}
+
+.middle-container {
+  text-align: center;
+  height: 500px;
+}
+
+.middle-heading {
+  width: 25%;
+  margin-left: 38%;
+  font-size: 25px;
+  padding-top: 30px;
+  border-top-style: none;
+  border-right-style: none;
+  border-bottom: #00b172 solid 4px;
+}
+
+.middle-heading h2 {
+  margin-bottom: 10px;
+}
+
+.content {
+  /* padding: 0 10px 0 34px; */
+  margin: 0 20px;
+}
+
+.services {
+  margin-top: 30px;
+  padding: 25px 20px;
+  color: #1a1a1a;
+  font-size: 20px;
+  display: inline-block;
+  font-weight: 100;
+  width: 20%;
+}
+
+.services:nth-child(3) {
+  position: relative;
+  top: 30px;
+}
+
+.services h3 {
+  color: #00b172;
+  font-size: 30px;
+}
+
+.footer-container {
+  background-color: #00b172;
+  padding: 50px 100px 0 100px;
+  margin: 100px 40px 40px 50px;
+  color: #fff;
+  font-size: 20px;
+}
+
+.footer-container h2 {
+  font-size: 30px;
+}
+
+.footer-container h3 {
+  font-weight: bold;
+  font-size: 30px;
+}
+
+hr {
+  width: 30%;
+  margin-left: 0px;
+  height: 3px;
+  background-color: #fff;
+}
+
+.footer-content {
+  padding-bottom: 30px;
+  padding-right: 60%;
+}
+
+.icon-white {
+  width: 10%;
+  position: absolute;
+  left: 50%;
+  top: 1660px;
+}
+
+.phone {
+  width: 22%;
+  position: absolute;
+  left: 70%;
+  top: 1460px;
+  z-index: 1;
+}
