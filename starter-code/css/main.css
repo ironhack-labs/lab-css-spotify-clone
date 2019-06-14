@@ -6,3 +6,104 @@ Green: #00B172
 White: #FFF
 
 */
+body{
+    font-family: Arial, Helvetica, sans-serif;
+    margin: 0;
+    font-size: 16px;
+
+}
+.navbar{
+    height: 4rem;
+    top: 0;
+    position: fixed;
+    background-color: white;
+    width: 100%;
+    z-index: 2;
+
+}
+.logo{
+    height: 3rem;
+    margin-left: 15px;
+    float: left;
+    margin-top: .5rem;
+}
+.links{
+    float: right;
+    margin: 0;
+}
+.links li{
+    list-style-type: none;
+    display: inline;
+    margin: 0 .6rem;
+    line-height: 4rem;
+}
+.links li a{
+    font-weight: bold;
+    text-decoration: none;
+    color: black;
+}
+.main-pic{
+    background-image: url("../images/landing.jpg");
+    background-size: cover;
+    height: 95vh;
+    position: relative;
+}
+.main-pic-info{
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    text-align: center;
+}
+.main-pic h1{
+    font-weight: bold;
+    color: white;
+    font-size: 4rem;
+}
+.main-pic p{
+    color: white;
+    font-size: 1.5rem;
+}
+
+.whats-on{
+    height: 50%;
+    background-color: white;
+    text-align: center;
+    width: 100%;
+    display: inline-block;
+}
+.whats-on h2{
+    font-size: 2rem;
+    background-color: white;
+    border-bottom: 6px solid #00B172;
+    margin: 5rem auto;
+    width: 290px;
+}
+
+.tiles-container{
+    margin: 0 auto;
+    display: block;
+    width: 80%;
+}
+.tiles{
+    float: left;
+    width: 33%;
+    text-align: center;
+}
+.tiles strong{
+    color:#00B172;
+    font-size: 1.5rem;
+}
+.tiles img{
+    width: 40%;
+    display: block;
+    margin: 0 auto;
+}
+
+.green-section h2{
+    font-size: 2rem;
+    /* background-color: white; */
+    border-bottom: 6px solid white;
+    /* margin: 5rem auto; */
+    width: 290px;
+} 
