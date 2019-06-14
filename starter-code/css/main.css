@@ -6,3 +6,172 @@ Green: #00B172
 White: #FFF
 
 */
+
+/* Nav Bar */
+
+.top-nav {
+  position: fixed;
+  top: 0;
+  background-color: #FFF;
+  width: 100%; 
+  overflow: hidden;
+  z-index:1;
+
+}
+
+#spot_logo {
+  height: 1%;
+  width: 15%;
+  float: left;
+  padding-bottom: 10px;
+  padding-left: 20px;
+ 
+}
+
+.nav-bar > a {
+  float: right;
+  text-decoration: none;
+  color: black;
+  padding: 25px 10px 0px 0px;
+  text-align: center;
+  margin-right: 30px;
+  
+}
+
+/* Intro to Spotify */
+
+.intro {
+  margin-left: 0px;
+  margin-right: 0px;
+  background-image: url("../images/landing.jpg");
+  position: relative;
+  background-repeat: no-repeat;
+  background-size: 100% 100%;
+  height: 700px;
+  width: 100%;
+  color: #FFF;
+}
+
+.intro-text{
+  position: absolute;
+  top: 35%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+}
+
+.intro-text > p {
+  /* width: 50%; */
+  text-align: center;
+  font-size: 23px;
+  width: 83%;
+  padding-left: 7%;
+ 
+}
+
+.intro-text > h1 {
+  margin-top: 30%;
+  text-align: center;
+  font-size: 60px;
+ 
+}
+
+/* About Spotify */
+
+.about img {
+  height: 70px;
+  width: 90px;
+  margin-left: 40%;
+}
+
+.about > h1 {
+  text-align: center;
+  border-bottom: 4px #00B172 solid;
+  color: 1A1A1A;
+  width: 20%;
+  margin-left: 40%;
+  margin-bottom: 5%;
+  font-size: 30px;
+}
+
+.about h3 {
+  color: #00B172;
+  text-align: center;
+}
+
+.about p {
+  color: 1A1A1A;
+  width: 38%;
+  margin-left: 35%;
+  margin-bottom: 20%;
+}
+
+.column-left {
+  float: left;
+  width: 33.333%;
+}
+
+.column-right {
+  float: right;
+  width: 33.333%;
+}
+
+.column-center {
+  display: inline-block;
+  width: 33.333%;
+}
+
+/* Features */
+
+.feature {
+  background-color: #00B172;
+  margin: 40px;
+  color: #FFF;
+  height: 600px;
+
+}
+
+
+.feature > .column-center img {
+  width: 100px;
+  height: 100px;
+  margin-top: 60%;
+  margin-left: 30%;
+}
+
+.feature > .column-center{
+  width: 25%;
+  margin-top: 5%;
+}
+
+.feature > .column-right img {
+  width: 250px;
+  height: 450px;
+  margin-top: 100px;
+}
+
+.feature > .column-left {
+  margin-top: 25px;
+  margin-left: 5%;;
+}
+
+.feature > .column-left h2 {
+  border-bottom: 4px white solid;
+  font-size: 30px;
+  width:90%;
+  margin-bottom: 10%;
+}
+
+.feature > .column-left h3 {
+  
+  font-size: 20px;
+  width:25%;
+  margin-bottom: 6%;
+}
+
+.feature > .column-left p {
+  
+  font-size: 14px;
+  width: 45%;
+  margin-bottom: 7%;
+  line-height: 1.6;
+}
