@@ -9,7 +9,6 @@ White: #FFF
 
 body{
   margin: 0;
-
 }
 
 ul {
@@ -25,34 +24,41 @@ ul {
 
 .logo-img{
   float:left;
-  width:130px;
-  margin-left:20px;
+  width:170px;
+  margin-left:30px;
 }
 
 .top-links{
   float:right;
-  margin:0 10px 0;
 }
 
 .top-links li{
   float:right;
-  padding:12px 10px;
+  padding:10px 10px;
+  margin-right:20px;
+  font-weight: lighter;
 }
 
 ul a{
   text-decoration: none;
+  color:black;
+  font-size: 1.3em;
 }
 
 header{
-height:50px;
+position :fixed;
+width:100%;
+height:60px;
 padding:12px 0 0 0;
+background-color:white;
 }
 
 .clearfix{
   clear: both;
 }
  .big-img{
-   height:650px;
+   padding:60px;
+   height:550px;
    background:url(../images/landing.jpg);
    background-size: cover;
    background-repeat: no-repeat;
@@ -60,9 +66,14 @@ padding:12px 0 0 0;
  .promo h1{
    font-size: 4em;
    margin:0;
+   line-height:1.6em;
  }
  .promo p{
-  font-size: 1.3em;
+  font-size: 1.5em;
+  width:550px;
+  text-align: center;
+  margin: 0 auto;
+  font-weight:lighter;
  }
  .promo{
    color:white;
@@ -73,54 +84,108 @@ padding:12px 0 0 0;
  }
 
  .icon{
-   width:30%;
+   width:120px;
  }
  .col{float:left;}
  
  .col-3{
-   width:32%;
-   margin:0;
+   width:25%;
+   margin:3%;
  }
- .col-middle {
-   margin-left:10%;
-   margin-right:10%;
+
+ .features > div:nth-child(3){
+   padding-top:25px;
  }
 
  .col-content{
   text-align:center;
+  font-size:1.5em;
+  color:#777;
+  padding-top:10px;
+  font-weight: 400;
+  padding-left:15px;
 }
-.col-container{
-  margin:0 auto;
-  width:100%;
+.features div > p{
+  text-align: center;
+}
+.col-content h3{
+  color:#59B36C;
 }
 
 .info{
-  height:600px;
+  position: relative;
+  height:630px;
   margin:0 auto;
   width:94%;
   background-color: #59B36C;
+  margin-bottom:25px;
+  line-height:25px;
 }
 .white-logo{
-  width:8%;
-  float:right;
+  position:absolute;
+  top:270px;
+  right:420px;
+  width:100px;
 }
 
 .spotify-img{
-  width:18%;
-  float:right;
+  width:260px;
+  position:absolute;
+  top:90px;
+  right:80px;
 }
 .options{
   display:inline-block;
-  margin: 0 5%;
-  width:30%;
+  width:40%;
   color:white;
+  font-size: 1.2em; 
 }
 
 .info h2{
   font-size: 2.5em;
   color:white;
-  margin: 0 5%;
+  margin: 0 ;
+}
+.features{
+  margin: 0 auto;
+  width:100%;
+  height:480px;
+}
+.center{
+  margin:0 auto;
+  width:270px;
 }
 
+.features > div h2{
+  text-align: center;
+  margin:40px 0;
+  border-bottom: solid 2px #59B36C;
+  font-size: 2em;   
+}
 
  
+.info > div{
+  margin:0;
+  position:absolute;
+  left:70px;
+  top:30px;
+}
+.info > div > div{
+  width:35%;
+  margin:0;
+}
+
+.info > div h2{
+  font-size: 1.9em;
+  text-decoration:underline;
+  text-underline-position: under;
+  border-bottom:90px;
+  width:405px;
+  line-height:2.7em; 
+}
+
+.info h3{
+  font-size: 1.3em;
+  font-weight:bolder;
+}
+
