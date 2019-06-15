@@ -1,4 +1,11 @@
 /**********************************************************
+Issues
+1) Position fixed not working for Navbar
+2) Hero caption, why does margin on div also push header down 
+3) color hr 
+ ***********************************************************/
+
+/**********************************************************
 Colors:
 
 Text: 1A1A1A
@@ -8,17 +15,16 @@ White: #FFF
  ***********************************************************/
 
 * {
-  padding: 0;
-  margin: 0;
+    padding: 0;
+    margin: 0;
 
-  /* SUPER Important for all box models  */
-  box-sizing: border-box;
+    /* SUPER Important for all box models  */
+    box-sizing: border-box;
 }
 
 body {
-  background-color: #00b172;
+    background-color: #00b172;
 }
-
 
 /**********************************************************
 
@@ -27,70 +33,71 @@ body {
  ***********************************************************/
 
 .navbar {
-  /* size */
-  height: 100px;
-  width: 100%;
+    /* size */
+    height: 100px;
+    width: 100%;
 
-  /* font */
-  font-size: 25px;
+    /* font */
+    font-size: 25px;
 
-  /* positioning */
-  position: fixed; /* To keep locked in place while scrolling */
-  top: 0; /* Position 0 pixels away from top (at the top basically) */
-  left: 0;
+    /* positioning */
+    position: relative;
+    /* To keep locked in place while scrolling */
+    top: 0;
+    /* Position 0 pixels away from top (at the top basically) */
 
-  background-color: #fff;
+    background-color: #fff;
 
-  /* to check where it is  */
-  /* border: 1px solid blue; */
+    /* to check where it is  */
+    /* border: 1px solid blue; */
 }
 
 .navbar img {
-  /* position */
-  float: left;
+    /* position */
+    float: left;
 
-  /* size */
-  width: 260px;
-  height: 100px;
+    /* size */
+    width: 280px;
+    height: 100px;
 
-  /* center image in navbar */
-  padding: 20px;
+    /* center image in navbar */
+    padding: 20px;
 
-  /* border: 1px solid blue; */
+    /* border: 1px solid blue; */
 }
 
 .navbar ul {
-  /* remove bullets and position right of navbar */
-  list-style-type: none;
-  float: right;
+    /* remove bullets and position right of navbar */
+    list-style-type: none;
+    float: right;
 
-  height: 100px;
-  padding: 12px;
+    height: 100px;
+    padding: 12px;
 
-  /* border: 1px solid blue; */
+    /* border: 1px solid blue; */
 }
 
 .navbar ul li {
-  /* make links horizontal */
-  display: inline-block;
+    /* make links horizontal */
+    display: inline-block;
 
-  margin-top: 20px;
-  padding: 0 18px;
+    margin-top: 20px;
+    padding: 0 18px;
 
-  /* border: 1px solid red; */
+    /* border: 1px solid red; */
 }
 
 .navbar ul li a {
-  /* make links have space in box model to emulate a button */
-  display: block;
-  padding: 10px 0;
+    /* make links have space in box model to emulate a button */
+    display: block;
+    padding: 10px 0;
 
-  /* remove link underline */
-  text-decoration: none;
+    /* remove link underline */
+    text-decoration: none;
 
-  color: #1a1a1a;
+    color: #1a1a1a;
 
-  /* border: 1px solid blue; */
+    /* border: 1px solid blue; */
 }
 
 /**********************************************************
@@ -99,52 +106,190 @@ body {
         
  ***********************************************************/
 
-
 header {
-  /* size of header container */
-  height: 800px;
-  width: 100%;
+    /* size of header container */
+    height: 800px;
+    width: 100%;
 
-  /* position it relative to the DOM */
-  position: absolute;
-  top: 100px;
+    /* position it relative to the DOM */
+    position: relative;
 
-  /* set background image  */
-  background-image: url("../images/landing.jpg");
+    /* position: absolute;
+  top: 100px; */
 
-  /* first center image, then use cover to make it fit in container */
-  background-position: center;
-  background-size: cover;
+    /* set background image  */
+    background-image: url("../images/landing.jpg");
 
-  /* border: 5px solid blue; */
+    /* first center image, then use cover to make it fit in container */
+    background-position: center;
+    background-size: cover;
+
+    /* border: 5px solid blue; */
 }
 
-.hero-caption{
+.hero-caption {
     /* set width of div */
     max-width: 50%;
 
+    /*  */
+    /* margin: 10px auto 0 auto; */
+
     /* center the div and also move it down inside of header */
-    margin: 200px auto;
+    position: absolute;
+    top: 30%;
+    left: 28%;
 
     /* font color */
-    color: #FFF;
+    color: #fff;
     text-align: center;
     font-size: 45px;
-
-
 
     /* border: 5px solid yellow; */
 }
 
-.hero-caption p{ 
-
+.hero-caption p {
     /* font color */
-    color: #FFF;
+    color: #fff;
     text-align: center;
     font-size: 35px;
-
 }
 
-[firstP]{
+[firstp] {
     margin-top: 15px;
+}
+
+/**********************************************************
+
+        Final Section
+        
+ ***********************************************************/
+.about-spotify {
+    background-color: #fff;
+
+    height: 1500px;
+
+    position: relative;
+}
+
+.whats-on-spotify {
+    max-width: 50%;
+
+    /* why aren't margins working */
+
+    position: absolute;
+    left: 650px;
+    top: 40px;
+
+    color: #1a1a1a;
+    font-size: 32px;
+    text-align: center;
+
+    /* border: 5px solid yellow; */
+}
+
+hr {
+    color: green;
+}
+
+.cards {
+    width: 250px;
+    text-align: center;
+    top: 200px;
+}
+
+.cards h3 {
+    margin: 15px 0 20px 0;
+
+    /* border: 5px solid purple; */
+}
+
+.card1 {
+    position: absolute;
+    left: 160px;
+}
+
+.card2 {
+    position: absolute;
+    left: 700px;
+}
+
+.card3 {
+    position: absolute;
+    left: 1240px;
+}
+
+.card-images {
+    width: 150px;
+    height: 130px;
+}
+
+[hd] {
+    margin-top: 3px;
+}
+
+/**********************************************************
+
+        Green Box Area
+        
+ ***********************************************************/
+.green-box {
+    background-color: #00b172;
+
+    width: 90%;
+    height: 900px;
+
+    position: absolute;
+    top: 580px;
+    left: 88px;
+}
+
+.green-box h1 {
+    margin: 120px 0 50px 130px;
+
+    color: #fff;
+    font-size: 50px;
+}
+
+[kanye] {
+
+    width: 400px;
+    height: 650px;
+
+    /* what is it relative too , why is it the h3 if it is*/
+    position: absolute;
+    left:1000px;
+    bottom: 80px;
+}
+
+[logo] {
+
+    width: 200px;
+    height: 250px;
+
+    /* what is it relative too , why is it the h3 if it is*/
+    position: absolute;
+    left:650px;
+    bottom: 280px;
+}
+
+.mini-sections {
+    color: #fff;
+    /* Will only apply to h3 since we will be more specific for p later */
+    font-size: 40px;
+
+    margin: 45px 0 0 130px;
+
+    /* border: 1px solid blue; */
+}
+
+.mini-sections p {
+    color: #fff;
+
+    font-size: 30px;
+
+    margin: 30px 0 0 0px;
+
+    width: 550px;
+
+    /* border: 1px solid yellow; */
 }
