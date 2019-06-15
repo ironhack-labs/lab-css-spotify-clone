@@ -1,8 +1,150 @@
-/*
+/**********************************************************
 Colors:
 
 Text: 1A1A1A
-Green: #00B172
+Green: 00B172
 White: #FFF
 
-*/
+ ***********************************************************/
+
+* {
+  padding: 0;
+  margin: 0;
+
+  /* SUPER Important for all box models  */
+  box-sizing: border-box;
+}
+
+body {
+  background-color: #00b172;
+}
+
+
+/**********************************************************
+
+            NAVBAR
+
+ ***********************************************************/
+
+.navbar {
+  /* size */
+  height: 100px;
+  width: 100%;
+
+  /* font */
+  font-size: 25px;
+
+  /* positioning */
+  position: fixed; /* To keep locked in place while scrolling */
+  top: 0; /* Position 0 pixels away from top (at the top basically) */
+  left: 0;
+
+  background-color: #fff;
+
+  /* to check where it is  */
+  /* border: 1px solid blue; */
+}
+
+.navbar img {
+  /* position */
+  float: left;
+
+  /* size */
+  width: 260px;
+  height: 100px;
+
+  /* center image in navbar */
+  padding: 20px;
+
+  /* border: 1px solid blue; */
+}
+
+.navbar ul {
+  /* remove bullets and position right of navbar */
+  list-style-type: none;
+  float: right;
+
+  height: 100px;
+  padding: 12px;
+
+  /* border: 1px solid blue; */
+}
+
+.navbar ul li {
+  /* make links horizontal */
+  display: inline-block;
+
+  margin-top: 20px;
+  padding: 0 18px;
+
+  /* border: 1px solid red; */
+}
+
+.navbar ul li a {
+  /* make links have space in box model to emulate a button */
+  display: block;
+  padding: 10px 0;
+
+  /* remove link underline */
+  text-decoration: none;
+
+  color: #1a1a1a;
+
+  /* border: 1px solid blue; */
+}
+
+/**********************************************************
+
+        HERO HEADER
+        
+ ***********************************************************/
+
+
+header {
+  /* size of header container */
+  height: 800px;
+  width: 100%;
+
+  /* position it relative to the DOM */
+  position: absolute;
+  top: 100px;
+
+  /* set background image  */
+  background-image: url("../images/landing.jpg");
+
+  /* first center image, then use cover to make it fit in container */
+  background-position: center;
+  background-size: cover;
+
+  /* border: 5px solid blue; */
+}
+
+.hero-caption{
+    /* set width of div */
+    max-width: 50%;
+
+    /* center the div and also move it down inside of header */
+    margin: 200px auto;
+
+    /* font color */
+    color: #FFF;
+    text-align: center;
+    font-size: 45px;
+
+
+
+    /* border: 5px solid yellow; */
+}
+
+.hero-caption p{ 
+
+    /* font color */
+    color: #FFF;
+    text-align: center;
+    font-size: 35px;
+
+}
+
+[firstP]{
+    margin-top: 15px;
+}
