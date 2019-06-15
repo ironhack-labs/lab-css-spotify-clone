@@ -4,5 +4,89 @@ Colors:
 Text: 1A1A1A
 Green: #00B172
 White: #FFF
-
 */
+*{
+    margin: 0;
+    padding: 0;
+}
+body{
+    background-color: lightgrey;
+    font-family: sans-serif;
+}
+
+/* section 1 */
+.navigationSec{
+    background-color: lightblue;
+    position: fixed;
+    top: 0;
+    right: 0;
+    /* bottom: 0; */
+    left: 0;
+}
+.navigationNav{
+    width: 100%;
+    position: fixed;
+}
+.navigationUl{
+    background-color: white;
+    opacity: 1;
+    text-decoration: none;
+}
+.navigationUl li{
+    float: right;
+    display: inline-block;
+    text-align: center;
+    text-decoration: none;
+    margin: 20px 10px;
+    padding: 10px;
+}
+
+.navigationUl li a{
+    text-decoration: none;
+    color: black;
+}
+.navigationUl li a:hover{
+    color: lightgreen;
+    text-decoration: none;
+}
+#spotify-logo{
+    width: 250px;
+    height: 75px;
+    padding-left: 20px;
+}
+
+/* section 2 */
+.musicForEveryoneSec{
+    color: white;
+    margin-top: 80px;
+}
+.musicForEveryoneDiv{
+    background-image: url("../images/landing.jpg");
+    width: auto;
+    height: 675px;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    /* margin: 20px;
+    padding: 20px; */
+}
+.musicContent{
+    /* background-color: lightpink; */
+    color: white;
+    text-align: center;
+    /* font-size: 20px; */
+    /* margin: 20px; */
+    padding-top: 230px;
+}
+.musicContent h1{
+    font-size: 80px;
+}
+.musicContent p{
+    font-size: 35px;
+    padding-top: 20px;
+}
+
+/* section3 */
+.whatsOnSpotifySec{
+    background-color: lightpink;
+}
