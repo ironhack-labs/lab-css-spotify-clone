@@ -6,3 +6,191 @@ Green: #00B172
 White: #FFF
 
 */
+
+.navbar {
+    z-index: 3;
+    background-color: white;
+  top: 0;
+  overflow: hidden;
+  height: 120px;
+  position:fixed;
+  width: 100%;
+  }
+  
+  .navbar li{
+    z-index: 3;
+    float: right;
+    list-style-type: none;
+    padding-bottom: 40px;
+  }
+  
+  .navbar a{
+    margin-right: 40px;
+    padding-top: 20px;
+    font-family: 'Arial';
+    font-size: 25px;
+    color: black;
+    text-align: left;
+    display: block;
+    text-decoration: none;
+  }
+  
+  .navbar-logo{
+    padding-top: 30px;
+    padding-left: 40px;
+    height: 70px;
+    width: 245px;
+    float: left;
+    position: fixed;
+  }
+  
+  .background-img {
+  z-index: -1;
+  margin-top: 120px;
+  padding-top: 100px;
+  position: relative;
+  height: 100vh;
+  width: 100vw;
+  background-image: url('../images/landing.jpg');
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-position: center bottom;
+  }
+  
+  .firstSection {
+    padding-top: 300px;
+    text-align: center;
+    color: #FFF;
+    font-family: 'Arial';
+  }
+  
+  .firstSection h1{
+    font-size: 95px;
+    margin-bottom: 50px;
+  }
+  
+  .firstSection p{
+    line-height: 40px;
+    margin: 0 305px 0 305px;
+    font-size: 37px;
+  }
+  
+  .spotify-title {
+    line-height: 1.5;
+    border-bottom: 4px solid #00B172;
+    display: inline-block;
+    padding-bottom: 3px;
+    font-weight: lighter;
+    font-size: 50px;
+    font-family: 'Arial';
+    margin-top: 80px;
+   
+  }
+  
+  .spotify-section {
+    align-content: center;
+    text-align: center;
+    width: 100%;
+    height: 400px;
+    margin-bottom: 340px;
+  }
+  
+  .spotify-section h3{
+    font-size: 30px;
+    font-family: 'Arial';
+  color: #00B172;
+  }
+  
+  .spotify-section p{
+    color: #1A1A1A;
+    line-height: 1.4;
+    font-family: 'Arial';
+    font-weight: lighter;
+    text-align: center;
+    width: 280px;
+    font-size: 26px;
+  }
+  
+  .spotify-section img{
+    width: 130px;
+    height: 100px;
+  }
+  
+  .songs {
+    align-content: center;
+    width: 280px;
+    float: left;
+    margin: 110px;
+  }
+  
+  .music {
+    width: 280px;
+    float: left;
+    margin: 110px;
+  }
+  
+  .stream {
+    width: 280px;
+    float: left;
+    margin: 110px;
+  }
+  
+  .lastSection{
+    max-height: 1000px;
+    z-index: -2;
+    font-family: sans-serif;
+    padding-left: 100px;
+    background-color: #00B172;
+    width: 100%;
+    height: 1000px;
+    margin-top: 50px;
+    text-align: left;
+  }
+  .lastSection-text{
+    float: left;
+  }
+  .lastSection-text h2{
+    color: #FFF;
+    font-size: 48px;
+    font-weight: lighter;
+    line-height: 1.5;
+    border-bottom: 4px solid #FFF;
+    display: inline-block;
+    padding-bottom: 3px;
+  }
+  
+  .lastSection-text h3{
+  color: #FFF;
+  font-size: 37px;
+  
+  
+  }
+  
+  .lastSection-text p{
+    width: 410px;
+    line-height: 1.6;
+    color:#FFF;
+    font-size: 28px;
+  }
+  
+  .lastSeciont-img{
+    position: absolute;
+    padding-top: 980px;
+    padding-left: 300px;
+    width: 380px;
+    height: 760px;
+  
+    left: 70%;
+    transform: translate(-50%, -50%);
+  }
+  
+  
+  .lastSection-logo{
+   padding-top: 960px;
+    position: absolute;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    width: 150px;
+    height: 150px;
+  }
+  
