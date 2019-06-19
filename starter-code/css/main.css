@@ -1,8 +1,154 @@
-/*
-Colors:
+
+/*Colors:
 
 Text: 1A1A1A
 Green: #00B172
 White: #FFF
-
 */
+
+* {
+  font-family: Poppins;
+}
+
+
+body {
+  width: 80%;
+  margin: 0 auto;
+}
+
+h1 {
+  color: #FFF;
+  font-weight: bold;
+  font-size: 4.5em;
+}
+
+nav {
+  align-items: center;
+  background-color: #FFF;
+  color: black;
+  height: 100px;
+  display: flex;
+  justify-content: space-between;
+}
+
+nav img {
+  height: 60px;
+  width: 200px;
+  margin-left: 30px;
+}
+
+.top-links li {
+  display: inline-block;
+  list-style-type: none;
+  margin: 0 20px;
+}
+
+.top-links a {
+  text-decoration: none;
+  color: black;
+}
+
+.spotify-header {
+ 
+  background-image: url("../images/landing.jpg");
+  background-size: cover;
+  background-repeat: no-repeat;
+  height: 800px;
+}
+
+.header-text {
+  padding: 200px 0;
+  color: #FFF;
+  text-align: center;
+}
+
+.header-text p {
+  font-size: 1.5em;
+}
+
+
+
+#whats-on-spotify h2 {
+  width: 25%;
+  color: black;
+  border-bottom: 4px solid #00B172;
+  margin: 0 auto;
+  text-align: center;
+  font-size: 2.5em;
+  font-weight: bold;
+  margin-bottom: 80px;
+  margin-top: 40px;
+}   
+
+#whats-on-spotify h3 {
+  color: #00B172;
+  font-weight: 900;
+  font-size: 1.8em;
+}
+
+#whats-on-spotify img {
+  width: 130px;
+  height: 100px;
+}
+
+#app-description {
+  background-color: #00B172;
+  padding-bottom: 40px;
+  background-image: url("../images/spotify-icon-white.png");
+  background-size: 150px 150px;
+  background-repeat: no-repeat;
+  background-position: 50% 50%;  
+}
+
+#app-description h2 {
+  display: inline-block;
+  padding-top: 60px;
+  margin-left: 100px;
+  width: 35%;
+  color: #FFF;
+  font-weight: 900;
+  font-size: 2.4em;
+  border-bottom: 4px solid #FFF;
+}
+
+#app-description p {
+  color: #FFF;
+  margin-left: 100px;
+  font-size: 15pt;
+}
+
+#app-description h3 {
+  margin-top: 45px;
+  color: #FFF;
+  font-weight: 900;
+  font-size: 22pt;
+  margin-left: 100px;
+}
+
+#whats-on-spotify {
+  text-align: center;
+}
+
+.app-img {
+  float: right;
+  margin-right: 100px;
+  margin-top: 150px;
+}
+
+.clearfix {
+  clear: both;
+}
+
+.column3 {
+  width: 25%;
+  margin:  0 50px 0 20px;
+  flex: 0 0 auto;
+}
+
+.container {
+  width: 70%;
+  margin: 40px auto;
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-between;
+}
