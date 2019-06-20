@@ -1,8 +1,141 @@
 /*
 Colors:
 
-Text: 1A1A1A
+Text: #1A1A1A
 Green: #00B172
 White: #FFF
 
 */
+
+* {
+  color: #1A1A1A;
+  margin: 0;
+  padding: 0;
+  font-family: Arial, Helvetica, sans-serif;
+  font-size: 16px;
+  line-height: 1.5em;
+}
+
+nav {
+  position: fixed;
+  background-color: #fff;
+  width: 100%;
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  align-items: center;
+}
+
+#nav-logo > img {
+  height: 65px;
+  margin: 10px 30px;
+}
+
+#nav-bar > ul > li {
+  display: inline;
+  list-style: none;
+  margin: auto 30px;
+  font-size: 1.2em;
+}
+
+header {
+  background-image: url(/Users/juliaramos/code/labs/week2/lab-css-spotify-clone/starter-code/images/landing.jpg);
+  background-size: cover;
+  height: 850px;
+}
+
+header > div {
+  width: 100%;
+  position: absolute;
+  margin: 400px auto 0;
+  text-align: center;
+}
+
+header > div > h1 {
+  color: #FFF;
+  font-size: 4.5em;
+  margin-bottom: 10px;
+}
+
+header > div > aside {
+  color: #FFF;
+  font-size: 1.5em;
+}
+
+#whats-on > h1 {
+  margin: 30px auto 10px;
+  text-align: center;
+}
+
+h1 > span {
+  font-size: 1.8em;
+  padding-bottom: 5px;
+}
+
+#whats-on > h1 > span {
+  border-bottom: 3px solid #00B172;
+}
+
+.item > img {
+  height: 85px;
+  display: block;
+  margin: 20px auto;
+}
+
+h2 {
+  font-size: 1.5em;
+}
+
+.item > h2 {
+  text-align: center;
+  color: #00B172;
+  margin-bottom: 20px;
+}
+
+.container {
+  display: flex;
+  flex-flow: row wrap;
+  justify-content: space-around;
+  align-items: center;
+  align-content: space-around;
+  margin: 80px;
+}
+
+.item > p {
+  text-align: center;
+}
+
+#yeezy {
+  background-color: #00B172;
+  background-image: url(/Users/juliaramos/code/labs/week2/lab-css-spotify-clone/starter-code/images/spotify-icon-white.png);
+  background-size: 100px;
+  background-repeat: no-repeat;
+  background-position: center;
+  margin: 30px;
+  padding: 100px;
+}
+
+.container-2 {
+  display: flex;
+  flex-flow: row;
+  justify-content: space-between;
+  align-items: center;
+}
+
+#yeezy > div > img {
+  width: 270px;
+}
+
+#yeezy > div > h1 > span {
+  border-bottom: 3px solid #FFF;
+  color: #FFF;
+}
+
+#yeezy > div > h2 {
+  color: #FFF;
+  margin: 30px 0;
+}
+
+#yeezy > div > p {
+  color: #FFF;
+}
