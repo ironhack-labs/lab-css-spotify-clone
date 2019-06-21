@@ -1,8 +1,173 @@
 /*
 Colors:
-
-Text: 1A1A1A
+Text: #1A1A1A
 Green: #00B172
 White: #FFF
-
 */
+
+html,
+body {
+  font-size: 10px;
+  font-family: "Montserrat", sans-serif;
+  margin: 0;
+  padding: 0;
+  background: #777;
+}
+
+* {
+  box-sizing: border-box;
+}
+
+#container {
+  max-width: 120rem;
+  margin: 2rem auto;
+  border: 0.5px solid #eee;
+  box-shadow: 5px 10px 18px #888888;
+  background: white;
+  padding-bottom: 3rem;
+}
+
+/* ==========
+/* NAV 
+/* ==========*/
+nav {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 2.5rem;
+}
+
+nav ul li {
+  display: inline-flex;
+  font-size: 1.8rem;
+  font-weight: 300;
+}
+
+nav ul li:not(:last-child) {
+  margin-right: 1.8rem;
+}
+
+#logo {
+  width: 20rem;
+  height: 100%;
+}
+
+/* ==========
+/* HERO 
+/* ==========*/
+header {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  background: url("../images/landing.jpg") no-repeat center center;
+  background-size: cover;
+  width: 100%;
+  height: 80vh;
+  color: white;
+  text-align: center;
+}
+
+header #hero-text {
+  max-width: 70rem;
+}
+
+header h1 {
+  font-size: 7rem;
+  font-weight: 500;
+  margin-bottom: -0.5rem;
+}
+
+header h2 {
+  font-size: 2.5rem;
+  font-weight: 300;
+}
+
+/* ==================
+/* WHAT'S ON SPOTIFY? 
+/* ================*/
+#whats-on-spotify {
+  text-align: center;
+}
+
+#whats-on-spotify-headline {
+  display: inline-flex;
+  text-align: center;
+  max-width: 50rem;
+}
+
+#whats-on-spotify h2 {
+  font-size: 3.5rem;
+  font-weight: 400;
+  border-bottom: 5px solid #00b172;
+}
+
+#whats-on-spotify p {
+  font-size: 2.2rem;
+  font-weight: 200;
+}
+
+#boxes {
+  display: flex;
+  justify-content: space-around;
+  text-align: center;
+  padding: 2rem;
+}
+
+.box {
+  max-width: 30rem;
+  padding: 2rem;
+}
+
+.box h3 {
+  font-size: 2.5rem;
+  font-weight: 600;
+  color: #00b172;
+}
+
+#boxes img {
+  max-height: 10rem;
+}
+
+/* ==================
+/* YEEZY
+/* ================*/
+footer {
+  display: flex;
+  flex-wrap: wrap;
+  background: #00b172;
+  margin: 0 3rem;
+  color: white;
+  justify-content: space-around;
+  padding: 3rem;
+  align-items: center;
+}
+
+.text-left-heading {
+  max-width: 70rem;
+}
+
+.text-left-body {
+  max-width: 31rem;
+}
+
+footer h3 {
+  font-size: 3.3rem;
+  font-weight: 400;
+  border-bottom: 3px solid white;
+}
+
+footer h4 {
+  font-size: 3rem;
+  font-weight: 400;
+}
+
+footer p {
+  font-size: 2rem;
+  font-weight: 200;
+  line-height: 1.5;
+}
+
+footer img {
+  width: 30rem;
+  height: 100%;
+}
