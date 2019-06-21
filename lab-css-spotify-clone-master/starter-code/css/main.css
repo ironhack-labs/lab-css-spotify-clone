@@ -1,0 +1,123 @@
+/*
+Colors:
+
+Text: 1A1A1A
+Green: #00B172
+White: #FFF
+
+*/
+
+body {
+    padding: 0;
+    margin:0;
+}
+
+*{
+    box-sizing: border-box;
+
+}
+
+/* NAV BAR */
+nav{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding: 0 20px;
+    width: 100%;
+    height: 75px;
+    
+
+}
+
+nav img{
+    width: 150px;
+}
+
+nav > ul {
+    list-style: none;
+    display: flex;
+    align-items: center;
+}
+
+nav > ul > li {
+    padding: 5px 10px;
+
+}
+
+header {
+    background-image: url("images/landing.jpg");
+    background: cover;
+    margin: auto;
+    text-align: center;
+}
+
+header h2 {
+    line-height: 10px;
+}
+
+
+
+main h2 {
+    border-bottom: 2px solid #00B172;
+    text-align: center;
+}
+.imageContainer {
+    display:flex;
+    /* 
+    align-items: stretch;*/
+    border: 2px solid black;
+    /* flex-wrap: wrap; */
+    justify-content: center;
+    align-items: center;
+
+}
+
+.imageContainer > .img-contain > img {
+    width: 100px;
+    border: 2px solid blue;
+
+}
+
+.img-contain {
+    width: 20%;
+    text-align: center;
+    height: auto;
+    border: 2px solid red;
+    padding: 0px 20px;
+    box-sizing: content-box;
+}
+
+footer {
+    background-color: #00B172;
+    margin: 20px;
+    color: white;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    padding: 30px 50px;
+    
+}
+
+footer .yeezy {
+
+}
+
+footer > div {
+    width: 50%;
+}
+
+footer img {
+    width: 175px;
+}
+
+
+.app {
+    height: 10em;
+    display: flex;
+    align-items: center;
+    justify-content: center; 
+}
+
+.spotLogo {
+    width: 25px;
+}
