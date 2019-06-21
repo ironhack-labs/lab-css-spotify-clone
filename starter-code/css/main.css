@@ -6,3 +6,131 @@ Green: #00B172
 White: #FFF
 
 */
+* {
+  box-sizing: border-box;
+  font-family: 'Montserrat', sans-serif;
+  font-weight: normal;
+}
+
+
+.navBar {
+  height: 2em;
+  margin: 1em;
+}
+
+.navBar img {
+  float: left;
+  height: 44px;
+  width: 143px;
+}
+
+#navLinks {
+  float: right;
+}
+
+#navLinks a {
+  text-decoration: none;
+  margin: 8px;
+  color: rgb(43, 39, 39);
+}
+
+.intro {
+  height: 426px;
+  text-align: center;
+  background-image: url(../images/landing.jpg);
+  background-size: cover;
+  background-position: center center;
+}
+
+#introText {
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  color:  #FFF;
+}
+
+.middle {
+  height: 298px;
+  text-align: center;
+  margin: 4px;
+}
+
+#trouble {
+  height: 11%;
+  margin: 10px auto;
+  width: 30%;
+  border-bottom: 2px solid;
+  border-bottom-color: #00B172;  
+}
+
+#middleIcons > div > h3 {
+  color:  #00B172;
+}
+
+#middleIcons {
+  display: flex;
+  align-items: center;
+  margin-top: 7%;
+}
+
+#middleIcons div:first-child {
+  padding-bottom: 22px;
+}
+
+#middleIcons div:nth-child(2) {
+  padding-bottom: 22px;
+}
+
+#middleIcons > div {
+  width: 33%;
+}
+
+#middleIcons > div > img {
+  height: 45px;
+}
+
+#middleIcons div p {
+  padding: 0 10%;
+}
+
+.bottom {
+  background-color: #00B172;
+  color:  #FFF;
+  height: 390px;
+  display: flex;
+  align-items: center;
+  margin: 0 2%;
+}
+
+#bottomText {
+  display: inline-block;
+  width: 45%;
+  margin: 8px 33px;
+}
+
+#bottomText h3:first-child {
+  width: 80%;
+  border-bottom: 2px solid;
+  padding-bottom: 4px;
+}
+
+#kanyeDiv {
+  display: inline-block;
+  margin: 16px 53px;
+}
+
+#kanye {
+  float: right;
+  height: 288px;
+  width: 159px;
+  margin-left: 35px;
+}
+
+#logo {
+  position: absolute;
+  height: 63px;
+  width: 63px;
+  top: 200%;
+  right: 43%;
+}
