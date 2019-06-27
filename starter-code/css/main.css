@@ -1,8 +1,45 @@
-/*
-Colors:
+.navigation-bar {
+    width: 100%;
+    /* i'm assuming full width */
+    height: 120px;
+    /* change it to desired width */
+    background-color: transparent;
+    /* change to desired color */
+    float: right;
+    overflow: hidden;
+    background-color: #fff;
+    height: 80px;
+}
 
-Text: 1A1A1A
-Green: #00B172
-White: #FFF
+.logo {
+    display: inline-block;
+    vertical-align: top;
+    height: 50%;
+    float: left;
+    padding-left: 20px;
+    margin-right: 20px;
+    margin-top: 15px;
+}
 
-*/
+.bg {
+    background-image: url("../images/landing.jpg");
+    -webkit-background-size: cover;
+    -moz-background-size: cover;
+    -o-background-size: cover;
+    background-repeat: no-repeat;
+    height: 800px;
+    width: 800px;
+}
+
+.navigation-bar>a {
+    color: #000;
+    font-size: 24px;
+    float: right;
+    display: inline-block;
+    vertical-align: top;
+    margin-right: 10px;
+    height: 80px;
+    /* if you want it to take the full height of the bar */
+    line-height: 80px;
+    /* if you want it vertically middle of the navbar */
+}
