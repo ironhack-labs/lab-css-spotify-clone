@@ -6,10 +6,13 @@ Green: #00B172
 White: #FFF
 
 */
+@import url('https://fonts.googleapis.com/css?family=Encode+Sans+Semi+Expanded:400,700&display=swap');
 
-* {
+body {
   padding: 0px;
   margin: 0px;
+  
+  font-family: 'Encode Sans Semi Expanded', sans-serif;
 }
 .nav-ul li  {
   float: right;
@@ -27,6 +30,7 @@ White: #FFF
   width: 160px;
   padding: 10px;
 
+
 }
 
 .header {
@@ -37,30 +41,80 @@ White: #FFF
   color: white;
   text-align: center;
   padding-top: 150px;
+  padding-left: 0px;
+  padding-right: 0px;
 }
 
 .header h1 {
-  font-size: 80px;
+  font-size: 70px;
 }
 
 .header h2 {
-  font-size: 30px;
+  font-size: 25px;
 }
 
-.info-section {
-  display: inline;
+.info {
+  text-align: center;
+  padding-top: 50px;
+
+}
+
+.info .section-headline {
+  font-size: 30px
+}
+
+.info .line {
+  border: 1px solid rgb(30,215,96);
+  width: 320px;
+  margin: 0px auto 20px auto;
+  font-weight: bold;
+ 
+}
+
+.container {
+  padding-top: 80px;
+  text-align: center;
+  margin-left: 20px;
+  margin-right: 20px;
+  margin-bottom: 50px;
 }
 
 .col {
   float: left;
-}
-.col-1 .col-2 .col-3{
   width: 33%;
-  float: left;
 }
 
-.info-section img {
+.col h1 {
+  color: rgb(30,215,96);
+  font-weight: bold;
+  font-size: 23px;
+}
+
+.description {
+  float: right;
+}
+
+.info img {
   width: 100px;
   height: 100px;
+}
+
+.description {
+  padding-top: 80px;
+  width: 90%;
+  height: 600px;
+  margin-right: 50px;
+  margin-bottom: 50px;
+  margin-top: 50px;
+  background-color:  rgb(30,215,96);
+
+}
+
+.description img {
+  height: 500px;
+  width: 270px; 
+  float: right;
+  padding-bottom: 50px;
+
 }
 
