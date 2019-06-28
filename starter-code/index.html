@@ -8,15 +8,18 @@
 </head>
 
 <body>
+  <!-- NAVIGATIONS BAR -->
   <nav class="nav-bar">
     <ul class="nav-ul">
-      <li>Premium</li>
-      <li>Discover</li>
-      <li>Help</li>
       <li>Download</li>
+      <li>Help</li>
+      <li><a href="#discover">Discover</a></li>
+      <li><a href="#premium">Premium</a></li>
     </ul>
-    <img src="images/spotify-logo.png">
+    <img src="images/spotify-logo.png" alt="spotify logo">
   </nav>
+
+  <!-- HEADER -->
   <header class="header">
     <h1>Music for everyone.</h1>
     <h2>Spotify is now free on mobile, tablet and computer.<br>
@@ -24,42 +27,71 @@
     </h2>
   </header>
 
-  <section class="info">
+  <!-- FIRST SECTION: WHAT'S ON SPOTIFY - PREMIUM-->
+  <section id="premium" class="premium">
+    <!-- headline -->
     <h1 class="section-headline">What’s on Spotify?</h1>
     <div class="line"></div>
-    <div class="container">
-      <article class="col col-1">
-        <img src="images/music-icon.png" class="music-icon">
-        <h1>Million of Songs</h1>
+
+    <!-- columns: "millions of songs", hd music, stream everywhere -->
+    <div class="container-info">
+
+      <!-- column 1 -->
+      <article class="col">
+        <img src="images/music-icon.png" alt="music icon">
+        <h1>Millions of Songs</h1>
         <p>There are millions of <br>songs on Spotify</p>
       </article>
-      <article class="col col-2">
-        <img src="images/high-quality-icon.png" class="high-quality">
+
+      <!-- column 2 -->
+      <article class="col">
+        <img src="images/high-quality-icon.png" alt="high quality icon">
         <h1>HD Music</h1>
         <p>Listen to music as if you<br> were listening live</p>
       </article>
-      <article class="col col-3">
-        <img src="images/devices-icon.png" class="devices-icon">
+
+      <!-- column 3 -->
+      <article class="col">
+        <img src="images/devices-icon.png" alt="devive icon">
         <h1>Stream Everywhere</h1>
         <p>Stream music on your<br> smartphone, tablet or computer</p>
       </article>
     </div>
   </section>
 
-  <section class="description">
-    <div class="container">
-      <img src= "images/spotify-app.jpg" alt= "app">
-      <article class= "text">
-    
-      </article>
+  <!-- SECOND SECTION: DISVOVER-->
+  <section class="discover">
+    <div id="discover" class="container-discover">
 
-      
+      <!-- images -->
+      <img src="images/spotify-app.jpg" alt="app">
+      <img src="images/spotify-icon-white.png" alt="spotify icon">
+
+      <!-- text -->
+      <div class="discover-text">
+        <h1>It’s as yeezy as Kanye West.</h1>
+        <div class="discover-line"></div>
+        <article class="subsection">
+          <h2>Search</h2>
+          <p>Know what you want to listen to?<br>
+            Just search and hit play.</p>
+        </article>
+
+        <article class="subsection">
+          <h2>Browse</h2>
+          <p>Check out the latest charts,<br>
+            brand new releases and great<br>
+            playlists for right now.</p>
+        </article>
+
+        <article class="subsection">
+          <h2>Discover</h2>
+          <p>Enjoy new music every Monday<br>
+            with your own personal playlist.<br>
+            Or sit back and enjoy Radio.</p>
+        </article>
+      </div>
     </div>
-
-
-
-
-
   </section>
 </body>
 
