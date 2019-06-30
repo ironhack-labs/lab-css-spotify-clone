@@ -1,44 +1,130 @@
-/*
-Colors:
-
-Text: 1A1A1A
-Green: #00B172
-White: #FFF
-  color: #1A1A1A;
-    font-family: 'Montserrat', sans-serif;
-    
-
-*/
-
 body {
-  font-family: "Montserrat", arial;
+  color: #1a1a1a;
+  font-family: circle, sans-serif;
   line-height: 2em;
 }
-
-.navbar {
+.nav {
+  height: 50px;
   margin-top: 13px;
-  margin-bottom: 13px;
+  background-color: white;
+  width: 100%;
 }
 
-.navbar-logo {
+.nav > img {
   width: 89px;
   height: 27px;
   float: left;
+  padding-top: 15px;
+  padding-left: 10px;
 }
-
-.navbar > ul {
-  float: right;
+.nav > ul {
+  height: 27px;
   list-style-type: none;
+  float: right;
+  padding-right: 10px;
+  padding-top: 5px;
+  font-size: 10px;
+  font-weight: lighter;
 }
 
-.navbar a {
-  text-decoration: none;
-  color: black;
+.nav > ul > li {
+  display: inline;
+  margin: 20px auto;
+  padding-left: 30px;
+  font-size: 1.3em;
 }
 
 .header {
+  height: 400px;
+  background-image: url("../images/landing.jpg");
+  background-size: cover;
+  background-position: center;
+  max-width: 1920px;
+  text-align: center;
+  vertical-align: middle;
 }
 
-#headerText {
-  padding-top: 300px;
+h1 {
+  font-size: 2.4em;
+  font-weight: 549;
+}
+
+h2 {
+  font-size: 1.2em;
+  font-weight: 600;
+}
+
+h3 {
+  font-size: 0.8em;
+}
+
+p {
+  font-size: 14px;
+  font-weight: lighter;
+  line-height: 1em;
+}
+
+#slogan {
+  color: white;
+  padding-top: 100px;
+}
+
+#whatsonspotify {
+  text-align: center;
+  height: 65vh;
+  padding-top: 50px;
+  line-height: 0.5em;
+}
+
+h2 > span {
+  color: #00b172;
+  font-weight: bold;
+}
+
+#whatsonspotify h3 {
+  color: #00b172;
+}
+#whatsonspotify > div {
+  width: 33%;
+  display: inline;
+  margin: 40px 0;
+  position: static;
+  float: left;
+}
+
+#whatsonspotify img {
+  width: 30%;
+}
+#kanyewest {
+  padding-left: 7%;
+  background-color: #00b172;
+  color: #fff;
+  height: 90vh;
+  margin-bottom: 13 px;
+  vertical-align: middle;
+}
+
+.functions h2 {
+  border-bottom: 2px solid white;
+  font-weight: normal;
+  margin-bottom: 5px;
+  width: 246px;
+}
+
+.functions p {
+  font-size: 10px;
+}
+
+.functions {
+  width: 60%;
+  float: left;
+  margin: 0 auto;
+}
+
+.phone img {
+  float: right;
+  height: 70vh;
+  max-width: 240px;
+  margin-top: 40px;
+  margin-right: 40px;
 }
