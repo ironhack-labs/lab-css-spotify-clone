@@ -6,3 +6,102 @@ Green: #00B172
 White: #FFF
 
 */
+
+/* GENERAL DESIGN*/
+
+body {
+  font-family: 'Roboto', sans-serif;
+  color: #222;
+}
+.margin {
+  margin: 20px 40px;
+}
+
+/* ------- BARRA NAVEGACIÓN ------ */
+.image {
+  width: 20%;
+  animation: animation-logo 1s infinite;
+}
+.menu {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.nav {
+  list-style: none;
+  display: flex;
+  justify-content: space-between;
+  width: 500px;
+  font-size: 1.4em;
+}
+.nav a {
+  text-decoration: none;
+  color: #222;
+}
+
+/* ---- HERO DESIGN ----*/
+
+.hero {
+  background: #222 url(../images/landing.jpg) no-repeat center / cover;
+  color: white;
+  text-align: center;
+}
+
+h1 {
+  font-size: 5em;
+  padding-top: 150px;
+}
+
+.hero p {
+  font-size: 1.6em;
+  padding-bottom: 400px;
+}
+
+/* ----- SECTION ONE DESIGN -----*/
+
+
+.section-one h2 {
+  text-align: center;
+  font-size: 2.5em;
+  font-weight: bold;
+  letter-spacing: 1.2px;
+  width: 22%;
+  margin: 30px auto;
+  border-bottom: 5px #00B172 solid;
+}
+
+.section-one .article-box img {
+  width: 50%;
+}
+.article-box {
+  display: flex; 
+  margin: 100px auto;
+}
+.article-box article {
+  text-align: center;
+  justify-content: space-around;
+  padding: 0 171px;
+ 
+}
+.article-box h3 {
+  color: #00B172;
+  font-size: 2em;
+  font-weight: bold;
+}
+.article-box p {
+  font-size: 1.5em;
+  font-weight: lighter;
+}
+@keyframes animation-logo {
+  0% {
+    width: 20%;
+  }
+  50% {
+    width: 40%;
+  }
+  100% {
+    width: 30;
+  }
+
+}
