@@ -1,42 +1,123 @@
 <!DOCTYPE html>
 <html lang="en">
-<head>
-  <meta charset="UTF-8">
-  <title>Spotify</title>
-</head>
-<body>
-Premium Discover Help Download
+  <head>
+    <title>Spotify</title>
+    <meta charset="UTF-8" />
 
-Music for everyone.
-Spotify is now free on mobile, tablet and computer.
-Listen to the right music, wherever you are.
+    <!-- BOOTSTRAP-->
 
-What’s on Spotify?
+    <link
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/twitter-bootstrap/4.3.1/css/bootstrap-grid.min.css"
+    />
+    <link
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/twitter-bootstrap/4.3.1/css/bootstrap-reboot.min.css"
+    />
+    <link rel="stylesheet" href="css/main.css" />
+  </head>
+  <body>
+    <header class="flexbox">
+      <img
+        class="logo-spotify"
+        src="images/spotify-logo.png"
+        alt="spotify-logo"
+      />
+      <nav>
+        <a href="#">Premium</a>
+        <a href="#">Discover</a>
+        <a href="#">Help</a>
+        <a href="#">Download</a>
+      </nav>
+    </header>
+    <main>
+      <header class="hero">
+        <h1>Music for Everyone.</h1>
+        <p>
+          Spotify is now free on mobile, tablet and computer. Listen to the
+          right music, wherever you are.
+        </p>
+      </header>
 
-Millions of Songs
-There are millions of
-songs on Spotify
+      <section class="white-section ">
+        <header>
+          <h2>What’s on Spotify?</h2>
+          <div class="container white">
+            <div class="row">
+              <div class="col-md-4">
+                <article>
+                  <header>
+                    <img src="images/music-icon.png" alt="music icon" />
+                    <h3>Millions of Songs</h3>
+                    <p>There are millions of songs on Spotify</p>
+                  </header>
+                </article>
+              </div>
+              <div class="col-md-4">
+                <article>
+                  <header>
+                    <img
+                      src="images/high-quality-icon.png"
+                      alt="high quality"
+                    />
+                    <h3>HD Music</h3>
+                    <p>
+                      HD Music Listen to music as if you were listening live
+                    </p>
+                  </header>
+                </article>
+              </div>
+              <div class="col-md-4">
+                <article>
+                  <header>
+                    <img src="images/devices-icon.png" alt="devices icon" />
+                    <h3>Stream Everywhere</h3>
+                    <p>
+                      Stream Everywhere Stream music on your smartphone, tablet
+                      or computer
+                    </p>
+                  </header>
+                </article>
+              </div>
+            </div>
+          </div>
+        </header>
+      </section>
 
-HD Music
-Listen to music as if you
-were listening live
-
-Stream Everywhere
-Stream music on your
-smartphone, tablet or
-computer
-
-It’s as yeezy as Kanye West.
-Search
-Know what you want to listen to?
-Just search and hit play.
-Browse
-Check out the latest charts,
-brand new releases and great
-playlists for right now.
-Discover
-Enjoy new music every Monday
-with your own personal playlist.
-Or sit back and enjoy Radio.
-</body>
+      <section>
+        <div class="container green-section">
+          <div class="row">
+            <div class="col">
+              <header>
+                <h2>It’s as yeezy as Kanye West.</h2>
+              </header>
+              <article>
+                <h3>Search</h3>
+                <p>
+                  Know what you want to listen to? Just search and hit play.
+                </p>
+              </article>
+              <article>
+                <h3>Browse</h3>
+                <p>
+                  Browse Check out the latest charts, brand new releases and
+                  great playlists for right now.
+                </p>
+              </article>
+              <article>
+                <h3>Discover</h3>
+                <p>
+                  Enjoy new music every Monday with your own personal playlist.
+                  Or sit back and enjoy Radio.
+                </p>
+              </article>
+            </div>
+            <div class="col">
+              <img src="./images/spotify-app.jpg" alt="kanye west" />
+            </div>
+          </div>
+        </div>
+      </section>
+    </main>
+  </body>
 </html>

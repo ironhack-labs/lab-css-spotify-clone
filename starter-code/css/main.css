@@ -6,3 +6,101 @@ Green: #00B172
 White: #FFF
 
 */
+
+/* GENERAL STYLES */
+
+body {
+  font-family: sans-serif;
+  font-weight: 200;
+  line-height: 1.2em;
+}
+
+h1,
+h2 {
+  text-align: center;
+}
+h1 {
+  font-size: 4em;
+  font-weight: 400;
+}
+
+img {
+  width: 100%;
+}
+
+a {
+  text-decoration: none;
+  color: inherit;
+}
+nav {
+  text-align: center;
+  text-decoration: none;
+  color: #1a1a1a;
+  display: flex;
+  font-size: 1.2em;
+}
+/* HEADER STYLES */
+
+.flexbox {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 20px;
+}
+
+.logo-spotify {
+  width: 15%;
+}
+
+nav a {
+  padding: 0 10px;
+}
+/* HERO STYLES */
+
+.hero {
+  background-image: url("../images/landing.jpg");
+  background-size: cover;
+  padding: 350px;
+  color: white;
+}
+.hero p {
+  line-height: 1.2em;
+  font-size: 1.8em;
+  text-align: center;
+}
+/* WHITE SECTION*/
+
+.white-section img {
+  width: 50%;
+}
+.white-section p {
+  font-size: 1.2em;
+}
+.white-section article {
+  padding: 30px;
+}
+.white {
+  padding: 50px;
+}
+.white-section h2 {
+  border-bottom: solid 4px #00b172;
+  padding-bottom: 5px;
+  padding-top: 50px;
+}
+.white-section h3 {
+  color: #00b172;
+  margin: 10px auto;
+}
+
+/* GREEN SECTION */
+
+.green-section {
+  background-color: #00b172;
+  background-image: url("../images/spotify-icon-white.png");
+  background-repeat: no-repeat;
+  background-size: 50px;
+}
+
+.green-section img {
+  width: 60%;
+}
