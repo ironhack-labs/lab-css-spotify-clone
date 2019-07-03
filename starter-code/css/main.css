@@ -172,3 +172,36 @@ h3{
     width: 140px;
     margin-top: 250px;       
 }
+
+/*   ANIMACION   */
+
+
+.movimiento {
+    animation: flotar 2s 1s infinite ease-in alternate;
+}
+
+/*
+    Es lo mismo que:
+
+        .movimiento {
+          animation-name: flotar;
+          animation-duration: 2s;
+          animation-delay: 1s;
+          animation-iteration-count: infinite;
+          animation-timing-function: ease-in;
+          animation-direction: alternate;
+        }
+        
+    */
+
+@keyframes flotar {
+
+    from {
+        transform: translateY(0);
+    }
+
+    to {
+        transform: translateY(18px);
+        opacity: 0.1;
+    }
+}
