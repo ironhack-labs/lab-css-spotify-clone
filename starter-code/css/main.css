@@ -6,3 +6,127 @@ Green: #00B172
 White: #FFF
 
 */
+
+body{
+  font-family: sans-serif;
+  color:#1A1A1A;
+}
+
+section{
+  padding: 50px 0;
+}
+
+h1 {
+  font-size: 5em
+}
+
+.flexbox {
+  display: flex;
+  justify-content: space-around;
+}
+
+.flexbox .space-around {
+  
+}
+
+.navbar img{
+  height: 50px;
+  animation-name: animation;
+ animation-duration: 2s;
+ animation-direction: alternate;
+ animation-iteration-count: infinite; 
+}
+
+.navbar{
+  display: flex;
+  background: white;
+  justify-content: space-between;
+  align-items: center;
+  padding: 20px;
+  position: fixed;
+  z-index: 5000;
+  width:100%;
+}
+
+
+.navbar a{
+  color:black;
+  margin:0 10px;
+  font-size: 1.2em;
+  font-weight: 100;
+}
+
+.hero {
+  background: url(../images/landing.jpg);
+  background-size: cover;
+  padding: 250px 0;
+  color: white;
+  text-align: center;
+  
+}
+
+.hero p {
+  font-size: 1.5em;
+  font-weight: 100;
+}
+
+.first-section{
+  text-align: center;
+}
+
+.first-section img {
+  height: 90px;
+}
+
+.first-section h2 {
+  font-size: 1.4em;
+  border-bottom: 3px solid #00B172;
+  width: 230px;
+  margin: 30px auto;
+}
+
+.first-section h3 {
+  color: #00B172;
+  font-size: 1.2em;
+  margin:10px 0;
+}
+
+.second-section {
+  background: #00B172;
+  margin: 20px;
+  padding: 50px;
+  display: flex;
+  justify-content: space-between;
+  color:white;
+  font-size: 1.5em;
+  position: relative;
+}
+.second-section .spoti {
+  height: 600px;
+}
+
+.second-section h2, .second-section h3 {
+  margin: 20px 0;
+}
+
+.second-section div{
+  width: 40%;
+
+}
+
+.icon{
+width: 150px;
+position: absolute;
+top: 50%;
+left:50%;
+}
+
+@keyframes animation{
+  from{
+    transform: rotate(0deg);
+  }
+
+  to{
+    transform: rotate(360deg);
+  }
+}
