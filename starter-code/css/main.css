@@ -6,3 +6,115 @@ Green: #00B172
 White: #FFF
 
 */
+* {
+  margin: 0;
+  padding: 0;
+}
+nav img {
+  width: 15%;
+}
+nav {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+nav li {
+  list-style-type: none;
+  margin-right: 25px;
+  text-decoration: none;
+  letter-spacing: 1px;
+}
+nav ul {
+  display: flex;
+}
+nav a {
+  text-decoration: none;
+  color: black;
+}
+
+.music {
+  background: url("../images/landing.jpg") no-repeat center / cover;
+  padding: 200px;
+  text-align: center;
+  color: white;
+}
+
+h1 {
+  font-size: 3em;
+  letter-spacing: 1px;
+}
+
+.music p {
+  margin: 0 20px;
+  font-size: 1.2em;
+}
+
+footer {
+  background: green;
+  margin: 50px;
+  display: flex;
+  color: white;
+}
+
+.info {
+  text-align: center;
+}
+
+.info img {
+  width: 50%;
+}
+
+.info h2 {
+  display: inline-block;
+  letter-spacing: 1px;
+  border-bottom: 4px solid green;
+}
+
+.info ul {
+  display: flex;
+  list-style-type: none;
+}
+
+.info li p {
+  justify-content: center;
+  color: grey;
+}
+
+.img-pos-s {
+  margin-bottom: -5px;
+}
+
+.img-pos-qs {
+  margin-top: 16px;
+}
+
+.img-pos-d {
+  margin-right: 10px;
+}
+
+.info h3 {
+  color: #00b172;
+}
+
+.move_loge {
+  animation: move 2s 1s infinite ease-in alternate;
+}
+@keyframes move {
+  from {
+    transform: translateX(0);
+  }
+  to {
+    transform: translateX(100px);
+  }
+}
+.order-img-row {
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  justify-content: center;
+}
+
+footer img {
+  width: 30%;
+  margin: 40px;
+}
