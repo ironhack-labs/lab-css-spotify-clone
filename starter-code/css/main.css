@@ -6,3 +6,168 @@ Green: #00B172
 White: #FFF
 
 */
+
+body {
+  font-family: "Roboto", sans-serif;
+  font-size: 1em;
+  color: #fff;
+}
+
+section {
+  padding: 100px;
+}
+
+h1,
+h2,
+h3 {
+  font-weight: 700;
+  padding: 20px 0;
+}
+
+h1 {
+  font-size: 2.5em;
+  font-weight: 900;
+}
+
+h2 {
+  font-size: 2em;
+  line-height: 1.1;
+  margin-bottom: 20px;
+  font-weight: 700;
+}
+
+h3 {
+  font-size: 1.5em;
+  font-weight: 500;
+}
+
+a {
+  color: inherit;
+  font-weight: 500;
+}
+
+ul {
+  padding: 0;
+  margin: 0;
+}
+
+li {
+  list-style: none;
+  display: inline-block;
+  padding: 0 20px;
+  align-items: center;
+}
+
+.flexbox {
+  display: flex;
+}
+
+.text-centered {
+  text-align: center;
+}
+
+.space-between {
+  justify-content: space-between;
+}
+
+.text-black {
+  color: #1a1a1a;
+}
+
+.text-green {
+  color: #00b172;
+}
+
+.text-white {
+  color: #fff;
+}
+
+.menu {
+  background: #fff;
+  padding: 20px;
+  width: 100%;
+  color: #1a1a1a;
+  align-items: center;
+}
+
+.hero {
+  padding: 200px 0;
+  text-align: center;
+  color: #fff;
+  background: #00b172 url("../images/landing.jpg") no-repeat center / cover;
+}
+
+.horizontal-line-1 {
+  background-color: #00b172;
+  width: 370px;
+  margin-bottom: 70px;
+}
+
+.menu img {
+  width: 130px;
+}
+
+.flexbox.text-centered.space-between {
+  text-align: center;
+  align-items: center;
+}
+
+.flexbox.text-centered.space-between img {
+  width: 200px;
+}
+
+.flexbox.text-centered.space-between li {
+  width: 100%;
+}
+
+.bottom-section {
+  background: #00b172;
+  position: relative;
+  align-items: center;
+}
+
+.kanye {
+  width: 25%;
+}
+
+.bottom-left {
+  width: 35%;
+}
+
+.horizontal-line-2 {
+  background-color: #fff;
+  width: 400px;
+  margin-bottom: 70px;
+  border-color: #fff;
+}
+
+.icons {
+  padding: 0px;
+}
+
+.icons article {
+  width: 50%;
+}
+
+.kanye-face {
+  position: absolute;
+  width: 200px;
+  left: 0;
+  right: 0;
+  top: 0;
+  bottom: 0;
+  margin: auto;
+  animation: kanyeAnim 1s infinite alternate-reverse;
+}
+
+@keyframes kanyeAnim {
+  from {
+    transform: scale(0.5);
+    opacity: 0.5;
+  }
+
+  to {
+    transform: scale(1);
+    opacity: 1;
+  }
+}
