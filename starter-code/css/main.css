@@ -6,3 +6,149 @@ Green: #00B172
 White: #FFF
 
 */
+@import url(http://fonts.googleapis.com/css?family=Open+Sans);
+
+
+body {
+  font-family: 'Open Sans';
+  color: #1A1A1A;
+  margin: 0 auto;
+  height: 100%;
+  font-size: 1.25vw;
+}
+
+/*body > div {
+  border: navy;
+  border-style: solid;
+  box-sizing: border-box;
+  
+}*/
+h1 {
+  font-size: 5vw;
+}
+
+h2 {
+  font-size: 2.5vw;
+  margin: 2.5%;
+}
+h3 {
+  font-size: 1.9vw;
+}
+
+nav {
+  background-color: #FFF;
+  height: 10vh;
+  vertical-align: middle;
+}
+
+nav .logo {
+  display: inline-block;
+  float: left;
+  margin: 0.7% 0 0.5% 2.5%;
+  height: 70%;
+  vertical-align: middle;
+}
+
+nav .logo img {
+  height: 100%;
+}
+
+nav a {
+  color: #1A1A1A;
+  text-decoration: none;
+}
+
+nav .top-links {  
+  width: 30%;
+  float: right;
+  display: inline-block;
+  text-decoration: none;
+  vertical-align: middle;
+}
+
+.top-links li {
+  text-decoration: none;
+  display: inline-block;
+  margin: auto 2.5%;
+}
+
+.image-container {
+  color: #FFF;
+  text-align: center;
+  padding-top: 12.5%;
+  background-image: url('../images/landing.jpg');
+  background-size: contain;
+  width: 100%;
+  height: 75vh;
+}
+
+.image-container p {
+  font-size: 1.75vw;
+}
+
+.features {
+  position: relative;
+  width: 100%;
+  height: 80vh;
+  text-align: center;
+  margin: 5% auto;
+  border: navy solid;
+  box-sizing: border-box;
+}
+
+.features h3 {
+  color: #00B172;
+}
+
+.features .container {
+  width: 23%;
+  height: 70%;
+  display: inline-block;
+  margin: 0 auto;
+  padding: 2.5%;
+  border: navy solid;
+  box-sizing: border-box;
+}
+
+.features p {
+  font-size: 1.5vw;
+}
+
+.features .container img {
+  border: navy solid;
+  box-sizing: border-box;
+  width: 60%;
+  vertical-align: middle;
+}
+
+.how-it-works {
+  height: 100vh;
+  padding: 2.5%;
+}
+
+.how-it-works .wrapper {
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+  grid-auto-rows: max-content;
+  height: 100%;
+  background-color: #00B172;
+  padding: 2.5% 6%;
+}
+
+.how-it-works .wrapper .text {
+  color: #FFF;
+}
+
+.how-it-works .wrapper .text .section {
+  border: navy solid;
+  box-sizing: border-box;
+  width: 70%;
+  height: 33%;
+}
+
+.how-it-works .wrapper .app {
+}
+
+.how-it-works .wrapper .app img {
+  width: 55%;
+}
