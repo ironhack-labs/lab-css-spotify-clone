@@ -8,10 +8,9 @@ White: #FFF
 */
 @import url(http://fonts.googleapis.com/css?family=Open+Sans);
 
-
 body {
-  font-family: 'Open Sans';
-  color: #1A1A1A;
+  font-family: "Open Sans";
+  color: #1a1a1a;
   margin: 0 auto;
   height: 100%;
   font-size: 1.25vw;
@@ -36,7 +35,7 @@ h3 {
 }
 
 nav {
-  background-color: #FFF;
+  background-color: #fff;
   height: 10vh;
   vertical-align: middle;
 }
@@ -54,11 +53,11 @@ nav .logo img {
 }
 
 nav a {
-  color: #1A1A1A;
+  color: #1a1a1a;
   text-decoration: none;
 }
 
-nav .top-links {  
+nav .top-links {
   width: 30%;
   float: right;
   display: inline-block;
@@ -73,10 +72,10 @@ nav .top-links {
 }
 
 .image-container {
-  color: #FFF;
+  color: #fff;
   text-align: center;
   padding-top: 12.5%;
-  background-image: url('../images/landing.jpg');
+  background-image: url("../images/landing.jpg");
   background-size: contain;
   width: 100%;
   height: 75vh;
@@ -97,15 +96,21 @@ nav .top-links {
 }
 
 .features h3 {
-  color: #00B172;
+  color: #00b172;
 }
 
-.features .container {
+.features .wrapper {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 80%;
+}
+
+.features .wrapper .container {
   width: 23%;
-  height: 70%;
+  height: 90%;
   display: inline-block;
-  margin: 0 auto;
-  padding: 2.5%;
+  vertical-align: middle;
   border: navy solid;
   box-sizing: border-box;
 }
@@ -118,6 +123,7 @@ nav .top-links {
   border: navy solid;
   box-sizing: border-box;
   width: 60%;
+  height: 40%;
   vertical-align: middle;
 }
 
@@ -131,12 +137,12 @@ nav .top-links {
   grid-template-columns: 1fr 1fr;
   grid-auto-rows: max-content;
   height: 100%;
-  background-color: #00B172;
+  background-color: #00b172;
   padding: 2.5% 6%;
 }
 
 .how-it-works .wrapper .text {
-  color: #FFF;
+  color: #fff;
 }
 
 .how-it-works .wrapper .text .section {
