@@ -16,7 +16,6 @@ body {
   font-size: 1.25vw;
 }
 
-
 h1 {
   font-size: 5vw;
 }
@@ -30,7 +29,9 @@ h3 {
 }
 
 nav {
-  max-width: 100%;
+  position: fixed;
+  overflow: hidden;
+  width: 100%;
   background-color: #fff;
   height: 10vh;
   vertical-align: middle;
@@ -94,14 +95,14 @@ nav .top-links {
 
 .features hr {
   width: 20%;
-  border-top: .10em solid #00b172;
+  border-top: 0.1em solid #00b172;
 }
 
 .features .wrapper {
   display: flex;
   justify-content: center;
   align-items: center;
-  height: 72.5%;  
+  height: 72.5%;
 }
 
 .features .wrapper .container {
@@ -124,31 +125,30 @@ nav .top-links {
 }
 
 .how-it-works {
-  height: 90vh;
-  padding: 0 2.5%;
-  position: relative;
+  height: 105vh;
+  padding: 2.5%;
 }
 
 .how-it-works .wrapper {
   display: grid;
+  position: relative;
   grid-template-columns: 1fr 1fr;
-  grid-auto-rows: max-content;
   height: 90%;
   background-color: #00b172;
-  padding: 6%;
+  padding: 2.5% 6%;
 }
 
 .how-it-works .wrapper .text {
-  margin-left: 2.5%;
+  float: left;
   color: #fff;
   width: 100%;
-  height: 100%;
+  height: 95vh;
 }
 
 .how-it-works hr {
   float: left;
-  width: 85%;
-  border-top: .10em solid white;
+  width: 90%;
+  border-top: 0.1em solid white;
 }
 
 .how-it-works .wrapper .text .section {
@@ -158,19 +158,20 @@ nav .top-links {
 
 .how-it-works .wrapper .app {
   display: flex;
-  height: 68%;
+  height: 95vh;
   justify-content: center;
 }
 
 .how-it-works .wrapper .app img {
   align-self: flex-end;
-  height: 90%;
+  height: 85vh;
+  margin-bottom: 3.5vh;
 }
 
 .how-it-works .white-logo {
   position: absolute;
-  width: 10%;
-  margin: 17.5% 32.5%;
+  width: 12%;
+  margin: 20% 42%;
 }
 
 /*body > div {
