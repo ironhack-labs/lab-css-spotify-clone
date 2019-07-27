@@ -6,3 +6,67 @@ Green: #00B172
 White: #FFF
 
 */
+
+/* General Styles */
+
+body {
+  margin: 0;
+  padding: 0;
+  font-family: "Ubuntu", sans-serif;
+}
+.container {
+  max-width: 1080px;
+  margin: 0 auto;
+  border: 2px solid purple;
+}
+h1 {
+  text-align: center;
+  padding: 1em;
+  border: 2px solid yellow;
+  color: #ffffff;
+  font-weight: bolder;
+  background: aqua;
+  font-size: 3.4em;
+}
+
+/* Menu */
+
+nav {
+  background-color: #fafafa;
+  height: 90px;
+  justify-content: space-between;
+  align-items: center;
+  display: inherit;
+}
+.logo {
+  width: 30%;
+  align-items: center;
+}
+.logo img {
+  padding: 12px;
+}
+.menu {
+  width: 70%;
+  display: flex;
+  align-items: center;
+  justify-content: flex-end;
+}
+.menu ul {
+  display: flex;
+}
+.menu ul li {
+  padding: 10px 20px;
+  margin-right: 10px;
+  background-color: antiquewhite;
+  list-style: none;
+  font-size: 1.4em;
+  color: #414141;
+}
+
+/* Hero section */
+
+#hero {
+  margin: 0;
+  padding: 100px 0;
+  background-image: url("../images/landing.jpg") no-repeat center;
+}
