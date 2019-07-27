@@ -1,6 +1,5 @@
 /*
 Colors:
-
 Text: 1A1A1A
 Green: #00B172
 White: #FFF
@@ -172,6 +171,21 @@ nav .top-links {
   position: absolute;
   width: 12%;
   margin: 20% 42%;
+  animation: beats 3s infinite;
+}
+
+@keyframes beats {
+  0% {
+    width: 12%;
+  }
+
+  50% {
+    width: 8%;
+  }
+
+  100% {
+    width: 12%;
+  }
 }
 
 /*body > div {
