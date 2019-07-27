@@ -17,16 +17,34 @@ body {
 .container {
   max-width: 1080px;
   margin: 0 auto;
-  border: 2px solid purple;
+  display: flex;
+}
+h1,
+h2,
+h3,
+h4,
+h5,
+h6 {
+  font-weight: 700;
+  margin-bottom: 0;
+  padding-bottom: 0;
 }
 h1 {
   text-align: center;
-  padding: 1em;
-  border: 2px solid yellow;
+  width: 100%;
+  display: inline-block;
   color: #ffffff;
-  font-weight: bolder;
-  background: aqua;
+  font-weight: 700;
   font-size: 3.4em;
+  margin-bottom: 0;
+}
+a {
+  text-decoration: none;
+  color: inherit;
+}
+a:hover {
+  border-bottom: 2px solid #414141;
+  transition: 1s;
 }
 
 /* Menu */
@@ -57,7 +75,6 @@ nav {
 .menu ul li {
   padding: 10px 20px;
   margin-right: 10px;
-  background-color: antiquewhite;
   list-style: none;
   font-size: 1.4em;
   color: #414141;
@@ -67,6 +84,55 @@ nav {
 
 #hero {
   margin: 0;
-  padding: 100px 0;
-  background-image: url("../images/landing.jpg") no-repeat center;
+  padding: 100px auto;
+  width: 100%;
+  min-height: 30rem;
+  height: 100%;
+  background: url("../images/landing.jpg") no-repeat center center fixed;
+  -webkit-background-size: cover;
+  -moz-background-size: cover;
+  -o-background-size: cover;
+  background-size: cover;
+  align-items: center;
+  display: flex;
+}
+.heroContent {
+  display: initial;
+  width: 100%;
+  align-items: center;
+  justify-content: center;
+}
+.heroText {
+  font-weight: 300;
+  font-size: 1.5em;
+  color: #ffffff;
+  text-align: center;
+  padding: 40px;
+}
+
+/* Discover section */
+
+#discover {
+  display: block;
+  max-width: 1080px;
+  margin: 60px auto;
+}
+.discover h3 {
+  border-bottom: 3px solid #4da669;
+  width: 30%;
+  margin: 10px auto;
+  text-align: center;
+  font-size: 2em;
+  padding-bottom: 10px;
+}
+.quality {
+  width: 33.1%;
+  display: inline-block;
+  text-align: center;
+  padding: 20px 30px;
+  box-sizing: border-box;
+}
+.quality h4 {
+  color: #4da669;
+  font-size: 1.7em;
 }
