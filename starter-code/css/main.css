@@ -1,8 +1,84 @@
+@import url('https://fonts.googleapis.com/css?family=Roboto+Condensed:700|Roboto:100,300,700');
 /*
 Colors:
-
 Text: 1A1A1A
 Green: #00B172
 White: #FFF
-
 */
+
+* {
+    margin: 0;
+    padding: 0;
+  }
+
+body {
+    font-family: Roboto;
+}
+
+/*Nav*/
+.nav-bar {
+      display: flex;
+      justify-content: space-between;
+      align-items: center;
+      padding: 1rem;
+}
+
+.nav-bar img {    
+    width: 10%;    
+}
+
+.nav-bar-ul {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    list-style: none;
+}
+
+.nav-bar-ul li:not(:last-child) {
+    margin-right: 1em;
+}
+
+/*Header*/
+.header {
+    background: url("../images/landing.jpg") no-repeat center center fixed;
+    /**/
+    height: 80vh;
+    /**/    
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    color: white;
+}
+
+/*Description*/
+#description {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-content: center;
+}
+
+#description div:nth-child(2){
+    display: flex;
+    justify-content: center;
+    align-content: center;
+}
+
+.service-box {
+    font-size: 1.2em;
+    text-align: center;
+    border: 1px solid black;
+}
+
+.service-box .img {
+    width: 125px;
+}
+
+/*Functioning*/
+#functioning {
+    display: flex;
+    justify-content: center;
+    align-content: center;
+    background: #00B172;
+}
