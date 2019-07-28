@@ -40,15 +40,26 @@ body {
 
 /*Header*/
 .header {
-    background: url("../images/landing.jpg") no-repeat center center fixed;
-    /**/
-    height: 80vh;
-    /**/    
+    background-image: url("../images/landing.jpg");
+    background-position: 0 0;
+    background-repeat: no-repeat;
+    background-size: cover;
+    height: 90vh;
     display: flex;
     flex-direction: column;
     justify-content: center;
     align-items: center;
     color: white;
+}
+
+.header h1 {
+    font-size: 5em;
+    font-weight: 500;
+    margin-bottom: .5em;
+}
+
+.header h2 {
+    font-weight: 300;
 }
 
 /*Description*/
@@ -59,20 +70,40 @@ body {
     align-content: center;
 }
 
-#description div:nth-child(2){
+#description div {
     display: flex;
     justify-content: center;
     align-content: center;
 }
 
+#description div:first-child {    
+    margin: 2em 2em 4em 2em;
+}
+
+#description div:first-child h2 {
+    border-bottom: 3px solid #00B172;
+}
+
 .service-box {
     font-size: 1.2em;
     text-align: center;
-    border: 1px solid black;
+    width: 30%;
+    color: #00B172;
 }
 
 .service-box .img {
-    width: 125px;
+    /*width: 35%;*/
+    width: 150px;
+    margin-bottom: 1em;
+}
+
+.service-box h4 {
+    margin-bottom: 2em;
+}
+
+.service-box p {
+    padding: 0 5em;
+    color: #1A1A1A;
 }
 
 /*Functioning*/
@@ -81,4 +112,62 @@ body {
     justify-content: center;
     align-content: center;
     background: #00B172;
+    padding-top: 3%;
+    position: relative;
+}  
+
+#functioning .functioning__description {
+    color: white;
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-start;
+    align-content: center;
+    margin-left: 6em;
+    width: 60%;
+}
+
+#functioning .functioning__description h3{
+    position: absolute;
+    border-bottom: 3px solid white;
+    font-size: 2.5em;
+}
+
+#functioning .functioning__description .first-element {
+    margin-top: 6em;
+}
+
+#functioning .functioning__description h4 {
+    font-size: 2em;
+    margin-bottom: 1em;
+}
+
+#functioning .functioning__description article p {
+    margin-bottom: .5em;
+}
+
+#functioning .functioning__description article p:last-child {
+    margin-bottom: 2.5em
+}
+
+
+#functioning .icon {
+    /*display: flex;
+    justify-content: center;
+    align-content: center;*/
+    position:absolute; 
+    width:100%; 
+    height:100%
+}
+
+#functioning .icon img {
+    /*width: 20%;
+    height: 20%;*/    
+    width: 10%;
+    margin: 15em auto;
+    display: block;
+}
+
+#functioning .cellphone img {
+    margin-top: 3em;
+    width: 19em;
 }
