@@ -6,3 +6,139 @@ Green: #00B172
 White: #FFF
 
 */
+
+*{
+  box-sizing: border-box;
+  margin:0;
+  padding:0;
+  font-family: sans-serif;
+}
+
+nav{
+  background-color: #FFF;
+  display: flex;
+  justify-content: space-between;
+  padding: 14px 0px;
+  text-align: center;
+  position: fixed;
+  width: 100%;
+  height: 70px;
+  z-index: 999;
+}
+
+nav a{
+  text-decoration:none;
+  color: black; 
+  padding: 20px 10px;
+  font-size: 15px;
+}
+
+nav img{
+  justify-content: flex-start;
+  width: 8vw;
+  align-content: center;
+}
+
+#header{
+  background-image: url("../images/landing.jpg");
+  background-size: cover;
+  height:100vh;
+  width:100%;
+  color:#FFF;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+ 
+}
+.container{
+  top:80px;
+  position: relative;
+}
+
+#header h1{
+  font-size: 60px;
+}
+
+#header p{
+  font-size: 20px;
+  text-align: center;
+  margin-top:30px;
+}
+
+#whats_spotify {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+#whats_spotify h2{
+  font-size: 30px;
+  margin-top:30px;
+  border-bottom: solid 4px #00B172;
+}
+
+article img{
+  width: 10vw;
+}
+
+.articles{
+  display: flex;
+  align-content: space-between;
+}
+
+.articles article{
+  text-align:center;
+  padding:100px;
+}
+
+.articles h3{
+  color: #00B172;
+  font-size:27px;
+}
+
+.articles p{
+  text-align: center;
+  padding-top: 20px;
+  font-size: 20px;
+  color:#1A1A1A;
+}
+
+#mid_article{
+  padding-top:120px;
+}
+
+#mid_article p{
+  padding-top: 20px;
+}
+
+#kanye{
+  background-color:  #00B172;
+  color: #FFF;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  width: 80%;
+  padding: 0 100px;
+}
+
+.spotify_logo{
+  width:8vw;
+}
+
+.kayne_photo{
+  width: 17vw;
+  padding: 50px 0;
+}
+
+#kanye h3{
+  border-bottom: solid 2px white;
+}
+
+#spotify_features{
+  margin: 20px 50px;
+}
+
+#kanye h4{
+  margin: 30px 0;
+}
