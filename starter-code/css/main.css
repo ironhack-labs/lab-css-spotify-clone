@@ -1,8 +1,148 @@
-/*
-Colors:
+*{
+--green:#00B172;
+--white:#FFF;
+--text:#1A1A1A;
+}
 
-Text: 1A1A1A
-Green: #00B172
-White: #FFF
+p{
+    font-weight:100;
+    font-size:2vw;
 
-*/
+}
+
+body{
+    margin:0;
+    font-family:helvetica;
+}
+
+nav{
+    margin:0 4%;
+    height:80px;
+    display:flex;
+    justify-content:space-between;
+    align-content:center;
+}
+
+nav div{
+    align-self:center;
+}
+
+nav a{
+    text-decoration:none;
+    color:black;
+}
+
+nav a:hover{
+    background-color:grey;
+}
+
+nav img{
+    align-self:center;
+    height:80%;
+}
+
+h1{
+    font-size:5vw;
+    text-align:center;
+    width:auto;
+}
+
+#section-1{
+    background:url("../images/landing.jpg");
+    background-size: cover;
+    padding:20%;
+    background-repeat: no-repeat;
+    color:white;
+    font-weight:300;
+    
+}
+
+#section-1 p{
+    font-weight:100;
+    font-size:1.8vw;
+    text-align:center;
+    margin:0 12%;
+}
+
+#section-2{
+    text-align:center;
+    margin :3%;
+    padding-bottom:5%;
+}
+
+#section-2 h2{
+    display:inline-block;
+    border-bottom:var(--green) solid;
+}
+
+
+
+#section-3 h2{
+    display:inline-block;
+    border-bottom:white solid;
+}
+
+.container-2 img{
+    
+    width:30%;
+    height:27%;
+    margin:10% auto;
+}
+
+
+
+.container{
+    display:flex;
+    flex-direction:row;
+}
+
+.container2{
+    display:flex;
+    align-content: space-between;
+    justify-content: center;
+
+}
+
+#section-2 h3{
+    color:var(--green);
+}
+
+.container-2{
+    text-align:center;
+    display:flex;
+    flex-direction:column;
+}
+
+#section-3{
+    padding-top:5%;
+    margin:0 1% 1% 1%;
+    background-color:var(--green);
+    color:white;
+    box-sizing: border-box;
+    padding:5%;
+}
+
+
+
+.container-3{
+    display:flex;
+    flex-direction:row;
+    height:100%;
+    justify-content: stretch;
+}
+
+.center{
+    align-self:center;
+    text-align:center;
+
+}
+
+.center img{
+    width:35%;
+}
+
+
+.image{
+    max-width:100%;
+}
+
