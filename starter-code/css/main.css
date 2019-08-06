@@ -6,3 +6,180 @@ Green: #00B172
 White: #FFF
 
 */
+
+* {
+  box-sizing: border-box;
+  margin: 0;
+  padding: 0;
+  font-family: sans-serif;
+}
+
+a {
+  color: inherit;
+  text-decoration: none;
+}
+
+h1 {
+  font-size: 5rem;
+  margin-bottom: 3%;
+}
+
+h2 {
+  font-size: 2rem;
+}
+
+h3 {
+  font-size: 1.8rem;
+}
+
+p {
+  font-size: 1.8rem;
+}
+
+/*---------*/
+
+nav {
+  width: 100%;
+  display: flex;
+  height: 75px;
+  justify-content: space-between;
+  align-items: center;
+  padding-right: 10px;
+}
+
+nav img {
+  width: 200px;
+  padding-left: 3%;
+}
+
+.links {
+  margin-right: 10px;
+  display: flex;
+  width: 30%;
+  justify-content: space-evenly;
+}
+
+nav a {
+  font-size: 1.3rem;
+}
+
+.main-content {
+  position: relative;
+  display: flex;
+  flex-direction: column;
+  width: 100%;
+  align-items: center;
+}
+
+.music-for-everyone {
+  background-image: url("/images/landing.jpg");
+  background-size: cover;
+  background-repeat: no-repeat;
+  min-height: 100vh;
+  color: white;
+}
+
+.music-for-everyone div {
+  text-align: center;
+}
+
+.flex-container {
+  align-items: center;
+  justify-content: center;
+  display: flex;
+  width: 100%;
+}
+
+.flex-container.whats-on,
+.flex-container.kanye {
+  flex-direction: column;
+  padding: 20px 0px;
+}
+
+.whats-on {
+  justify-content: flex-start;
+}
+
+.whats-on h2 {
+  margin-bottom: 6%;
+  border-bottom: 3px solid #1db954;
+}
+
+.whats-on h3 {
+  color: #1db954;
+  margin: 5% 0;
+}
+
+.flex-container.whats-on {
+  height: 60vh;
+}
+
+.green {
+  background-color: #1db954;
+  width: 95%;
+  color: white;
+  margin-bottom: 20px;
+  justify-content: space-evenly;
+  min-height: 100vh;
+}
+
+.app {
+  width: 100%;
+}
+
+.icon {
+  width: 100%;
+}
+
+.flex-container.kanye {
+  align-items: flex-start;
+}
+
+.on-items img {
+  width: 120px;
+}
+
+.on-items {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  text-align: center;
+  width: 33%;
+}
+.white {
+  width: auto;
+  width: 80%;
+  justify-content: space-around;
+  align-items: flex-start;
+}
+
+.element-img {
+  width: 23%;
+  text-align: center;
+}
+
+.kanye {
+  width: 34%;
+}
+
+.element {
+  margin: 5% 0;
+  width: 80%;
+}
+
+.kanye h3 {
+  margin-bottom: 6%;
+}
+
+.kanye h2 {
+  border-bottom: 3px solid white;
+  font-size: 2.2rem;
+}
+
+.spotify {
+  width: 10%;
+}
+
+.icon-container {
+  height: 102px;
+}
