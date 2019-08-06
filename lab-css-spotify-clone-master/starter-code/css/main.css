@@ -1,0 +1,205 @@
+/*
+Colors:
+
+Text: 1A1A1A
+Green: #00B172
+White: #FFF
+
+*/
+
+* {
+  margin: 0;
+  font-family: 'Monserrat', sans-serif;
+}
+
+header{
+  background-color : white;
+  height: 70px;
+  width : 100%;
+  display: flex;
+  flex-flow : row wrap;
+  justify-content: space-between;
+  align-items: center;
+  align-content: center;
+  padding : auto 10%;
+}
+
+header ul{
+  list-style: none;
+  display: inline-flex;
+  justify-content: flex-end;
+  /*flex-direction: flex-end;
+  align-items: center*/
+}
+
+#nav_main{
+  display : flex;
+  flex-flow:row wrap;
+  justify-content: space-between;
+  align-items: center;
+}
+
+#nav-right {
+  display : flex;
+  flex-flow:row wrap;
+  justify-content: flex-end;
+  align-items: flex-end;
+}
+
+.nav_link {
+  text-decoration: none;
+  color: #1A1A1A; 
+  padding : 15px;
+}
+
+.spotify_logo {
+  width: 150px;
+  height: auto;
+  padding-left: 5%;
+}
+
+h1{
+  text-align : center;
+  font-size : 2.7em;
+ }
+
+ .landing{
+  text-align : center;
+  font-size : 1em;
+ }
+
+ #everyone {
+  height : 500px;
+  display: flex;
+  flex-flow: column nowrap;
+  align-content: center;
+  justify-content: center;
+  align-items: center;
+  color: white;
+  background-image: url("../images/landing.jpg");
+  background-repeat: no-repeat;
+  background-size: 100%;
+ }
+
+ /*.content {
+  display: flex;
+  margin-bottom : 20px;
+  align-content: flex-start;
+  flex-direction : row;
+  padding : 2em 5%;
+  text-align : left;
+  justify-content : center;
+  flex-flow : row wrap;
+ }*/
+
+ .title {
+   width: auto;
+   margin-bottom: 2em;
+   grid-row-start:1;
+   text-align: center;
+   margin: auto;
+ }
+
+ .title hr {
+   border: 1px solid #00B172;
+ }
+
+ #argument {
+  display: grid;
+  grid-template-rows: 30% 30% 30%;
+  grid-template-columns: 30% 30% 30%;
+  align-items: center;
+  align-content: center;
+  justify-content: center;
+  margin: 4em 10% 4em 0;
+  grid-row-start:2;
+  width: 100%;
+ }
+
+ .vente {
+  width: 100px;
+  height: auto;
+  grid-row-start: 1;
+ }
+
+ .square {
+   padding: 10px;
+ }
+
+ #first {
+   grid-column-start: 1;
+   align-self: center;
+   justify-self: center;
+   text-align: center;
+ }
+
+ #second {
+  grid-column-start: 2;
+  align-self: center;
+  justify-self: center;
+  text-align: center;
+}
+
+#third{
+  grid-column-start: 3;
+  align-self: center;
+  justify-self: center;
+  text-align: center;
+}
+
+.grid-title {
+  color: #00B172;
+  grid-row-start: 2;
+  text-align: center;
+  align-self: center;
+  justify-self: center;
+}
+
+.grid_text {
+  grid-row-start: 3;
+  text-align: center;
+  font-size: 0.9em;
+  align-self: center;
+  justify-self: center;
+}
+
+h3 {
+  color: #00B172;
+  text-align: center;
+}
+
+#what_spotify {
+  display: grid;
+  grid-template-rows: 50% 50%;
+  grid-template-columns: auto;
+  justify-content: stretch;
+  padding-bottom: 3em;
+}
+
+#yeezy{
+  background-color:#00B172;
+  background-image: url("../images/spotify-icon-white.png");
+  background-repeat: no-repeat;
+  background-size: 7%;
+  background-position: center;
+  color : #FFF;
+  display:flex;
+  flex-flow : row nowrap;
+  justify-content: space-around;
+  align-items: center;
+  align-content: flex-start;
+  height:20%;
+  width: auto;
+  padding: 10%;
+  margin: 0 5%;
+}
+
+#app {
+  width: 200px;
+  height: auto;
+}
+
+
+.kanye hr {
+  border: 1px solid #FFF;
+}
