@@ -6,3 +6,72 @@ Green: #00B172
 White: #FFF
 
 */
+
+* {
+  margin: 0;
+  font-family: 'Monserrat', sans-serif;
+}
+
+header{
+  background-color : white;
+  height: 70px;
+  width : 100%;
+  display: flex;
+  flex-flow : row wrap;
+  justify-content: space-between;
+  align-items: center;
+  align-content: center;
+}
+
+header ul{
+  list-style: none;
+  display: inline-flex;
+  justify-content: flex-end;
+  /*flex-direction: flex-end;
+  align-items: center*/
+}
+
+#nav_main{
+  display : flex;
+  flex-flow:row wrap;
+  justify-content: space-between;
+  align-items: center;
+}
+
+#nav-right {
+  display : flex;
+  flex-flow:row wrap;
+  justify-content: flex-end;
+  align-items: flex-end;
+}
+
+.nav_link {
+  text-decoration: none;
+  color: #1A1A1A; 
+  padding : 15px;
+}
+
+.spotify_logo {
+  width: 150px;
+  height: auto;
+}
+
+.intro > h1{
+  color: white;
+  text-align : center;
+  grid-column-start: 2;
+  grid-row-start:2;
+  font-size : 4em;
+}
+.intro {
+  height : 500px;
+  display: grid;
+  grid-template-rows: 33% 33% 33%;
+  grid-template-columns: 100px auto 100px;
+  align-items: center;
+}
+#background{
+  background-image: url("../images/apple-pie.jpg");
+  background-repeat: no-repeat;
+  background-size: 100%;
+}
