@@ -6,3 +6,174 @@ Green: #00B172
 White: #FFF
 
 */
+
+
+*  {
+    box-sizing: border-box;
+    margin: 0;
+    font-family: sans-serif;
+}
+
+#nav {
+display: flex;
+flex-direction: row;
+padding: 15px;
+align-items: center;
+background-color: white;
+justify-content: space-between;
+position: fixed;
+}
+
+.logo {
+    width: 20%;
+    display: inline;
+}
+
+.nav-bar-ul {
+    list-style-type: none;
+    display: flex;
+flex-direction: row;
+
+}
+
+.nav-bar-ul a {
+    text-decoration: none;
+    color: #1A1A1A;
+}
+
+.nav-bar-ul li {
+    width: 33%;
+    padding: 10px;
+    font-size: 20px;
+}
+
+#header{
+    background-image:url("/images/landing.jpg");
+    background-size: cover;
+    height: 800px;
+    display: flex;
+    flex-direction: column;
+    color: white;
+    justify-content: center;
+    align-items: center;
+
+
+}
+
+#header h1 {
+    margin:20px;
+    font-size: 70px;
+}
+
+#header p {
+    text-align: center;
+    font-size: 20px;
+}
+
+#whatson {
+    padding: 30px;
+    margin-bottom: 30px;
+    display: flex;
+    flex-direction: column;
+}
+#whatson h2 {
+    text-align: center;
+}
+#whatson .container {
+    display: flex;
+    flex-direction: row;
+    margin-top: 60px;
+    justify-content: space-around;
+}
+
+#whatson h2 {
+    border-color: #00B172;
+    display: flex;
+    flex-direction: center;
+    justify-content: center;
+    align-self: center;
+
+
+}
+
+
+
+
+#whatson article {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    width: 30%;
+    text-align: center;
+    
+}
+
+#whatson h3 {
+    color: #00B172;
+    font-size: 30px;
+}
+
+#whatson article p {
+    padding: 0 70px;
+    font-size: 20px;
+    font-weight:lighter;
+}
+
+#whatson article * {
+    margin: 5px 0;
+}
+
+.icon {
+    width: 30%;
+}
+
+#Kanye {
+    background: center no-repeat #00B172 url("/images/spotify-icon-white.png");
+    background-size: 10%;
+    display: flex; 
+    justify-content: space-around;
+    margin: 30px;
+}
+
+#Kanye .container {
+display: flex;
+flex-direction: column;
+width: 60%;
+color: white;
+padding: 40px;
+}
+
+#Kanye article * {
+    margin: 20px 0;
+}
+
+#Kanye article {
+    padding-right: 50%;
+}
+
+#Kanye h3 {
+    font-size: 30px;
+}
+
+
+
+#Kanye p {
+    font-size: 20px;
+}
+.app {
+    width: auto;
+    height: 460px;
+    display: flex;
+    align-self: center;
+}
+
+h2 {
+    font-size: 40px;
+    border-bottom: 4px solid white;
+
+}
+
+#Kanye h2 {
+    align-self: flex-start;
+}
