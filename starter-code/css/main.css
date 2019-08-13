@@ -6,3 +6,155 @@ Green: #00B172
 White: #FFF
 
 */
+*{
+  margin: 0;
+  padding: 0;
+}
+
+body{
+  font-family: sans-serif;
+}
+
+nav{
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  align-content: center;
+}
+
+nav img{
+  height: 70px;
+  margin: 1% 2%;
+}
+
+nav ul{
+  display: flex;
+  margin: 1% 2%;
+}
+ul li{
+  list-style: none;
+  margin-right: 21px;
+  margin-top: 16px;
+  font-size: 1.5em;
+  font-weight: lighter;
+}
+section img{
+  width: 100%;
+  position: relative;
+}
+h1{
+  color: white;
+  font-size: 5em;
+  font-weight: bolder;
+  margin-bottom: 30px;
+}
+
+h2{
+  font-size: 2.1em;
+  display: flex;
+  justify-content: center;
+  margin-top: 100px;
+  margin-right: 100px;
+
+}
+
+
+h3{
+  margin-top: 30px;
+  color: #00B172;
+  font-size: 1.5em;
+  margin-bottom: 30px;
+}
+h4,h5{
+  color: white;
+  font-size: 2em; 
+}
+
+.landing{
+  position: absolute;
+    top: 98%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    text-align: center;
+}
+.landing p{
+  font-size: 2.3em;
+  color: white;
+  font-family: sans-serif;
+  font-weight: lighter;
+}
+
+.onspotify{
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  margin-top: 100px;
+}
+.icons{
+    margin: 3% 4%;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+  
+}
+
+.icons img{
+  width: 150px;
+}
+
+.icons p{
+  font-weight: lighter;
+  font-size: 1.3em;
+}
+.main_on{
+  width: 20%;
+  margin: auto;
+  margin-top: 10px;
+  margin-right: 721px;
+  height: 3px;
+  border: 1px solid #00B172;
+  background-color: #00B172;
+  border-radius: 20px 20px 20px 20px; 
+}
+.sec_kanye{
+  background-color: #00B172;
+  display: flex;
+  flex-direction: row;
+  margin: 50px;
+  padding: 130px;
+  justify-content: space-around;
+  align-items: center;
+}
+
+.sec_kanye hr{
+  width: 95%;
+  margin-top: 10px;
+  margin-bottom: 80px;
+  height: 3px;
+  border: 1px solid white;
+  background-color: rgb(255, 255, 255);
+  border-radius: 20px 20px 20px 20px; 
+}
+
+.sec_kanye_text{
+  width: 35%;
+}
+
+.sec_kanye_text p{
+  color: white;
+  font-weight: lighter;
+  font-size: 1.2em;
+  margin-bottom: 40px;
+  margin-top: 40px;
+  width: 70%;
+}
+.white_logo{
+  width: 9%;
+}
+
+.app{
+  width: 30%;
+}
+
+
