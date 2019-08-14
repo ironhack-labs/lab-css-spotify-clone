@@ -1,3 +1,9 @@
+@import url('https://fonts.googleapis.com/css?family=Open+Sans&display=swap');
+
+* {
+  box-sizing: border-box;
+}
+
 /*
 Colors:
 
@@ -6,3 +12,76 @@ Green: #00B172
 White: #FFF
 
 */
+
+body {
+  font-family: "Open Sans";
+  margin: 0;
+}
+
+nav {
+  display: flex;
+  margin: 0 35px 0 0;
+  height: 85px;
+  align-items: center;
+}
+
+nav .logo {
+  width: 15%;
+}
+
+nav li {
+  margin-left: 20px;
+  font-size: 1.2em;
+}
+
+.logo:first-child {
+  margin-right: auto;
+}
+
+img {
+  max-width: 100%;
+  margin-left: 35px;
+}
+
+nav ul {
+  display: flex;
+  list-style: none;
+}
+
+header {
+  background-image: url("./../images/landing.jpg");
+  background-size: cover;
+  color: white;
+  height: 900px;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  text-align: center;
+}
+
+header h2 {
+  font-size: 4.4em;
+}
+
+header p {
+  font-size: 2em;
+}
+
+.middle h4 {
+  text-align: center;
+  border-bottom: 3px solid #00B172;
+}
+
+#boxes {
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+}
+
+#footer {
+  display: flex;
+  flex-direction: row;
+  background-color: #00B172;
+  color: white;
+  margin: 36px 36px;
+}
