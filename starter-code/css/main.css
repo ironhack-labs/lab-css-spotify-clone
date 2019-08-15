@@ -6,3 +6,120 @@ Green: #00B172
 White: #FFF
 
 */
+body{
+    font-family: 'Open Sans', sans-serif;
+
+}
+*{box-sizing: border-box;
+margin: 0;
+padding: 0;}
+
+nav{
+    display:flex;
+    justify-content: space-between;
+    /* position: fixed; */
+}
+#logo{
+    float: left;
+    width: 100px;
+    height: auto;
+    
+}
+#navOpts{
+    display: flex;
+    justify-content: flex-end;
+float: right;
+flex-grow: 4;
+list-style: none;
+}
+#navOpts a{
+    text-decoration: none;
+    color: gray;
+    margin: 7px 0 0;
+
+}
+.imgBackground {
+    display:flex;
+    align-items: center;
+    flex-direction: column;
+    justify-content: center;
+    background-image: url("/lab-css-spotify-clone/starter-code/images/landing.jpg");
+    background-position: center;
+   background-size: cover;
+   width: 100%;  
+   height: 600px;
+}
+.imgBackground h1{
+    color:White;
+    font-size: 50px;
+}
+.imgBackground h3{
+    
+    color:white;
+    font-size:15px;
+}
+.container{
+  display: flex;
+  justify-content: space-between; 
+}
+.box img{
+width:30%;
+}
+.box h3{
+    color:#00B172;
+    font-style: bold;
+}
+.box h4{
+    color: #1A1A1A;
+    text-align: center;
+    padding: 15px;
+}
+.box{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    flex-wrap: wrap;
+    justify-content: space-around;
+    padding: 50px;
+}
+h2{
+    text-align: center;
+    
+    padding: 14px 14px;
+}
+hr{
+    border: 2px solid #00B172;
+    width: 16%;
+    margin-left: 42%;
+}
+.greenBox{
+    display: flex;
+    justify-content: space-between;
+    background-color: #00B172;
+    color: #FFF;
+}
+.greenS{
+    display: flex;
+    align-items: flex-start;
+    justify-content: center;
+    flex-direction: column;
+    align-content: space-around;
+    padding-left: 50px;
+    padding-bottom: 30px;
+}
+.greenS h2{
+text-decoration: underline;
+}
+.greenS h3{
+    text-align: left;
+    padding-top: 30px;
+    padding-bottom: 30px;
+}
+greenS h4{
+    font-style: bold;
+    text-align: left;
+
+}
+.greenBox img{
+    scale: 50%;
+}
