@@ -6,3 +6,141 @@ Green: #00B172
 White: #FFF
 
 */
+
+@import url(https://fonts.googleapis.com/css?family=Montserrat&display=swap);
+
+* {
+  padding: 0;
+  margin: 0;
+}
+
+body {
+  font-family: "Montserrat";
+  font-size: 10px;
+}
+
+.nav-bar {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+a {
+  color: black;
+  font-size: 15px;
+  padding: 0 10px;
+  text-decoration: none;
+}
+
+#nav-bar-log {
+  width: 200px;
+  padding: 10px 10px 10px 35px;
+}
+
+.intro {
+  height: 600px;
+  background-image: url(/images/landing.jpg);
+  background-size: cover;
+  background-position: center;
+  color: white;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+
+h1 {
+  font-size: 50px;
+  padding: 20px;
+}
+
+.intro p {
+  font-size: 20px;
+  width: 60%;
+  text-align: center;
+}
+
+h2 {
+  width: auto;
+  font-size: 30px;
+  border-bottom: #00b172 solid;
+  margin-top: 20px;
+}
+
+.on-spotify img {
+  width: 80px;
+}
+
+h3 {
+  color: #00b172;
+  font-size: 15px;
+  padding: 20px 0;
+}
+
+.on-spotify {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  text-align: center;
+}
+
+.on-spotify p {
+  font-size: 13px;
+}
+
+.on-spotify > div {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-evenly;
+}
+
+.box {
+  width: 200px;
+  height: 300px;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  text-align: center;
+}
+
+.green-space {
+  background-image: url(/images/spotify-icon-white.png);
+  background-size: 100px;
+  background-repeat: no-repeat;
+  background-position: center;
+  background-color: #00b172;
+  color: white;
+  font-size: 13px;
+  border: 20px solid white;
+  display: flex;
+  flex-direction: row;
+  justify-content: space-evenly;
+}
+.green-space-text {
+  width: 450px;
+  padding: 25px;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-evenly;
+}
+
+.green-space-text > div {
+  width: 200px;
+}
+
+#img-app {
+  width: 250px;
+  padding: 25px;
+}
+
+.green-space h3 {
+  color: white;
+  font-size: 16px;
+  font-weight: bolder;
+}
+
+.green-space h2 {
+  border-color: white;
+}
