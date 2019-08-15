@@ -38,7 +38,7 @@ h2 {
 
 h3 {
   color: #00B172;
-  font-size: 45px;
+  font-size: 40px;
   font-weight: bold;
 }
 
@@ -105,7 +105,6 @@ a {
 
 .second-Box {
   display: flex;
-  justify-content: center;
   text-align: center;
   flex-direction: column;
 }
@@ -114,34 +113,36 @@ a {
   display: flex;
   align-items: baseline;
   justify-content: space-evenly;
-  max-width: 80%;
-  margin: 0 auto;
-  padding: 0 50px;
+  max-width: 100%;
+  margin: 0 50px;
   font-size: 25px;
 }
 
 .col-one {
   flex-basis: 50%;
+  max-width: 400px;
 }
 
 .col-one>img {
-  padding: 20% 20% 0 20%;
+  max-width: 200px;
 }
 
 .col-two {
   flex-basis: 50%;
+  max-width: 400px;
 }
 
 .col-two>img {
-  padding: 20% 20% 0 20%;
+  max-width: 200px;
 }
 
 .col-three {
   flex-basis: 50%;
+  max-width: 400px;
 }
 
 .col-three>img {
-  padding: 20% 20% 0 20%;
+  max-width: 200px;
 }
 
 .third-Box {
@@ -159,13 +160,12 @@ a {
 }
 
 .howto-box {
-  width: 50%;
   padding: 30px;
 }
 
 .howto-pic  {
   padding: 50px;
-  width: 40%;
+  max-width: 500px;
   align-self: flex-end;
 }
 
@@ -177,4 +177,5 @@ a {
   margin: 20px;
   color: #ffffff;
   font-size: 20px;
+  max-width: 600px;
 }
