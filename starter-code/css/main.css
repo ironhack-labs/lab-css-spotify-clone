@@ -6,3 +6,168 @@ Green: #00B172
 White: #FFF
 
 */
+
+@import url('https://fonts.googleapis.com/css?family=Roboto+Condensed:700|Roboto:100,300,700');
+
+* {
+  outline: 0px solid red;
+  box-sizing: border-box;
+  margin: 0;
+  padding: 0;
+}
+
+nav {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  align-items: center;
+  height: 80px;
+  background-color: #fff;
+  padding: 2em 2em;
+}
+
+nav img {
+  width: 200px;
+}
+
+nav a {
+  margin-right: 1.5em;
+  text-decoration:none;
+  color: #333;
+  font-size:1.3em;
+}
+
+
+header {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  max-width: 100%;
+  background-image: url("./../images/landing.jpg");
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-position: center;
+  height: 500px;
+}
+
+body {
+  font-family: Roboto;
+}
+
+p {
+  font-size: 1.5em;
+  line-height: 1.5;
+  font-weight: lighter;
+}
+
+h1 {
+  font-size: 4.5em;
+  font-weight: 800;
+  color: white;
+}
+
+header p {
+color: #fff;
+}
+
+h2 {
+  font-size: 2em;
+  font-weight: 800;
+}
+
+.h2-whatson {
+  margin-top: 2.5em;
+  margin-bottom: 3em;
+  display: flex;
+  justify-content: center;
+}
+
+.h2-whatson span {
+  padding: 8px 0; 
+  border-bottom: 4px solid #00B172;
+}
+
+.articles-whatson h3 { 
+  color:#00B172;
+}
+
+.articles-whatson {
+  width: 100%;
+  display: flex;
+  flex-direction: row;
+  justify-content: space-around;
+  text-align: center;
+}
+
+.articles-whatson article {
+  width: 20%;
+}
+
+.articles-whatson img {
+  width: 50%;
+  margin-bottom: 2em;
+  height: 100px;
+}
+
+
+h3 {
+  font-size: 1.5em;
+  font-weight: 800;
+  margin-bottom: 1.5em;
+}
+
+.section-Kanye {
+  background-color: #00B172;
+  margin: 2.5em;
+  padding: 3.5em;
+}
+
+.h2-Kanye {
+text-align:left;
+color: #fff;
+margin-bottom: 1.5em;
+width: 100%;
+}
+
+.h2-Kanye span {
+  padding: 8px 0; 
+  border-bottom: 4px solid currentColor;
+}
+
+.articles-Kanye {
+  width: 30%;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  text-align: flex-start;
+}
+
+.articles-Kanye h3 {
+  font-size: 1.5em;
+  font-weight: 800;
+  color: #fff;
+  margin-top: 2em;
+}
+
+.articles-Kanye p {
+  color: #fff;
+  font-size: 1.4em;
+}
+
+.cols-3 {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+}
+
+.icon-white {
+  width: 15%;
+  height: 100%;
+  align-self: center;
+}
+
+.spotify-app {
+  width: 30%;
+  height: 100%;
+}
