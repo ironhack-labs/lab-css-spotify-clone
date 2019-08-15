@@ -6,14 +6,14 @@ Green: #00B172
 White: #FFF
 
 */
-*{
-    outline: 3px solid red;
-}
+
+
 @import url('https://fonts.googleapis.com/css?family=Roboto:100,300,400&display=swap');
+
 body {
     margin: 0 auto;
     font-family: 'Roboto', sans-serif;
-   
+
 }
 
 nav {
@@ -21,9 +21,10 @@ nav {
     flex-direction: row;
     justify-content: space-between;
     align-items: center;
-    padding: 1em;;
-    height: 10vh;
-    background-color: rgb(236, 234, 219);
+    padding: 1em;
+    ;
+    height: 7vh;
+    background-color: whitesmoke;
 }
 
 .navlinks a {
@@ -32,6 +33,7 @@ nav {
     font-size: 21px;
     padding: 0 1em;
 }
+
 nav img {
     width: 180px;
 }
@@ -39,8 +41,9 @@ nav img {
 figure {
     display: flex;
     background-image: url('./../images/landing.jpg');
+    background-position: center;
     background-size: cover;
-    height: 100vh;
+    height: 105vh;
     margin: 0;
     justify-content: center;
     color: whitesmoke;
@@ -58,22 +61,114 @@ figure {
 }
 
 .free {
-    padding: inherit;
     font-size: 1.7em;
     font-weight: 100;
+    text-align: center;
+    margin: 0;
 }
 
-.whats-on {
-    display: ;
+.logo-title {
+    display: flex;
     justify-content: center;
-    border-bottom: 3px solid green;
-    margin-top: 60px;
+    margin-top: 1em;
+    margin-bottom: 4.5em;
+
 }
+
+#underlined {
+    border-bottom: 3px solid #00B172;
+    padding-bottom: 5px;
+    font-size: 35px;
+}
+
 .logo-row {
     display: flex;
     flex-direction: row;
+    justify-content: center;
+    align-items: baseline;
+    font-weight: 100;
+    font-size: 25px;
+    margin-bottom: 4em;
+
+}
+
+.logo-row h3 {
+    color: #00B172;
+    font-size: 30px;
+    height: 20px;
+}
+
+.millions,
+.music,
+.stream {
+    display: flex;
+    justify-content: space-evenly;
+    flex-direction: column;
+    margin: 0 70px;
+    align-items: center;
+    text-align: center;
 }
 
 .whats-on img {
-    width: 30%;
+    width: 42%;
+}
+
+.millions>img {
+    display: flex;
+    align-items: center;
+}
+
+.yeezy {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    background-color: #00B172;
+    color: white;
+    padding: 6%;
+    margin: 3%;
+}
+
+h2 underlined {
+    font-size: 30px;
+    letter-spacing: 0.05em;
+    border-bottom: 3px solid white;
+    padding-bottom: 0.3em;
+}
+
+.search-browse-discover {
+    display: flex;
+    flex-direction: column;
+    width: 440px;
+}
+
+.search-browse-discover p {
+    font-size: 1.5em;
+    font-weight: 100;
+    margin: 0;
+}
+
+.search-browse-discover h3 {
+    font-size: 1.5em;
+    letter-spacing: 0.05em;
+}
+
+#icon {
+    width:12%;
+    height:12%;
+    align-self: center;
+}
+
+#screenshot-app {
+    width: 70%;
+}
+
+.right-panel {
+    display: flex;
+    justify-content: flex-end;
+}
+
+.bottom-section {
+    display: flex;
+    flex-direction: row;
+
 }
