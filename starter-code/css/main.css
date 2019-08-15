@@ -6,11 +6,13 @@ Green: #00B172
 White: #FFF
 
 */
-* {
-    outline: 5px solid red;
+*{
+    outline: 3px solid red;
 }
+@import url('https://fonts.googleapis.com/css?family=Roboto:100,300,400&display=swap');
 body {
     margin: 0 auto;
+    font-family: 'Roboto', sans-serif;
    
 }
 
@@ -28,6 +30,7 @@ nav {
     text-decoration: none;
     color: grey;
     font-size: 21px;
+    padding: 0 1em;
 }
 nav img {
     width: 180px;
@@ -48,4 +51,29 @@ figure {
     flex-direction: column;
     justify-content: center;
     align-items: center;
+}
+
+.centertext h1 {
+    font-size: 4em;
+}
+
+.free {
+    padding: inherit;
+    font-size: 1.7em;
+    font-weight: 100;
+}
+
+.whats-on {
+    display: ;
+    justify-content: center;
+    border-bottom: 3px solid green;
+    margin-top: 60px;
+}
+.logo-row {
+    display: flex;
+    flex-direction: row;
+}
+
+.whats-on img {
+    width: 30%;
 }
