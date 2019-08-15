@@ -6,3 +6,177 @@ Green: #00B172
 White: #FFF
 
 */
+
+@import url('https://fonts.googleapis.com/css?family=Roboto:400,700&display=swap');
+
+* {
+    margin: 0;
+    padding: 0;
+}
+
+body {
+    font-family: 'Roboto', sans-serif;
+}
+
+.container {
+    padding: 0 2rem;
+}
+
+.center {
+    text-align: center;
+}
+
+.lead {
+    color: #fff;
+    font-size: 1.75rem;
+    text-align: center;
+    line-height: 2.1rem;
+}
+
+.l-heading {
+    font-size: 5rem;
+}
+
+.m-heading {
+    font-size: 3rem;
+}
+
+.s-heading {
+    font-size: 1.7rem;
+}
+
+.py-1 {
+    padding: 1rem 0;
+}
+
+.py-2 {
+    padding: 2rem 0;
+}
+
+.py-3 {
+    padding: 3rem 0;
+}
+
+.my-1 {
+    margin: 1rem 0;
+}
+
+.my-2 {
+    margin: 2rem 0;
+}
+
+.my-3 {
+    margin: 3rem 0;
+}
+
+.green {
+    color: #00B172;
+}
+
+.text {
+    font-size: 1.2rem;
+}
+
+/* ====== Navbar ======= */
+#navbar {
+    display: flex;
+    justify-content: space-between;
+    padding: 1rem 2rem;
+    background: #fff;
+}
+
+#navbar img {
+    height: 50px;
+}
+
+#navbar ul {
+    /* align-self: center; */
+    align-items: center;
+    display: flex;
+}
+
+#navbar ul li {
+    padding-left: 2rem;
+    list-style: none;
+}
+
+/* ====== Header ======= */
+#header {
+    background: url(../images/landing.jpg);
+    background-position: center;
+    background-size: cover;
+    height: 100vh;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+}
+
+#header h1 {
+    color: #fff;
+    padding-bottom: 2rem;
+}
+
+/* ====== Header ======= */
+
+#service {
+    display: flex;
+    flex-direction: column;
+    padding-bottom: 4rem;
+}
+
+#service h2 {
+    border-bottom: 3px solid #00B172;
+    align-self: center;
+}
+
+#service .cards {
+    display: flex;
+    justify-content: space-between;
+}
+
+#service .cards .card {
+    padding: 0 1rem;
+    display: flex;
+    flex: 1;
+    flex-direction: column;
+    text-align: center;
+}
+
+#service .cards .card img {
+    height: 120px;
+    align-self: center;
+}
+
+/* ====== App ======= */
+
+#app {
+    margin: 0 2rem;
+}
+
+#app .total {
+    padding: 5rem 0;
+    background: #00B172;
+    background-image: url(../images/spotify-icon-white.png);
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: 150px;
+    display: flex;
+    justify-content: space-between;
+    color: #fff;
+}
+
+#app .total h2 {
+    border-bottom: #fff 2px solid;
+    align-self: flex-start;
+}
+
+#app .total .content {
+    display: flex;
+    flex-direction: column;
+    max-width: 30%;
+}
+
+#app .total .screen-shot img {
+    height: 500px;
+}
