@@ -4,5 +4,100 @@ Colors:
 Text: 1A1A1A
 Green: #00B172
 White: #FFF
-
 */
+*{
+  box-sizing:border-box;
+  margin:0;
+}
+
+body{
+  font-size: 1.25em;
+  font-family: sans-serif;
+  color: #1A1A1A;
+}
+
+nav{
+  display: flex;
+  align-items: center;
+}
+
+nav a{
+  text-decoration: none;
+  color: dimgrey;
+  padding: 1em;
+}
+
+a:first-child{
+  margin-right: auto;
+  width: 10em;
+}
+
+img{
+  max-width: 100%;
+}
+
+.landing{
+  background-image: url("./../images/landing.jpg");
+  color: white;
+  background-size: cover;
+  height: 800px;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  background-position: center;
+}
+
+h1{
+  font-size: 4em;
+}
+
+.landing p{
+  font-size: 1.5em;
+  text-align: center;
+}
+
+.on{
+  display: flex;
+  justify-content: center;
+  text-align: center;
+  align-items: baseline;
+}
+
+.on h3{
+  color: #00B172;
+}
+
+.on img{
+width: 8em;
+padding: 1em;
+}
+
+section h2{
+  text-decoration:underline #00B172; 
+  font-size: 2em;
+  text-align: center;
+  padding: 1.5em;
+}
+
+.on div{
+  width: 25%;
+}
+
+.green{
+  background:#00B172;
+  padding: 4em;  
+  color:#FFF;
+  display: flex;
+  flex-direction: column;
+  margin: 2em; 
+}
+
+.green h3{
+  font-size: 1.5em;
+}
+
+.green h2{
+  text-decoration: underline #FFF;
+  text-align: inherit;
+}
