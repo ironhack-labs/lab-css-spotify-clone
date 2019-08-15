@@ -6,3 +6,137 @@ Green: #00B172
 White: #FFF
 
 */
+body {
+    font-family: 'Montserrat', sans-serif;
+}
+
+nav {
+    display: flex;
+    flex-direction: row;
+    flex-wrap: nowrap;
+    justify-content: flex-end;
+    align-items: center;
+}
+
+nav a img {
+    height: 60px;
+}
+
+a:first-child {
+    margin-right: auto;
+}
+
+a {
+    text-decoration: none;
+    margin: .5em 1em;
+    font-size: 1.15em;
+    color: black;
+}
+
+header {
+    background-image: url('./../images/landing.jpg');
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: cover;
+    height: 800px;
+    color: white;
+    display: flex;
+    flex-direction: column;
+    flex-wrap: nowrap;
+    justify-content: center;
+    align-items: center;
+}
+
+header h1 {
+    font-size: 5em;
+    margin-bottom: .15em;
+}
+
+header p {
+    max-width: 60%;
+    text-align: center;
+    font-size: 1.7em;
+}
+
+.info {
+    margin: 4em auto 4em auto;
+}
+
+.info-flex {
+    display: flex;
+    flex-wrap: wrap;
+    flex-direction: row;
+    justify-content: center;
+    text-align: center;   
+}
+
+.info-flex img {
+    height: 80px;
+}
+
+.info-flex article {
+    flex: 0 0 33%;
+}
+
+.info h2 {
+    flex: 100%;
+    border-bottom: 4px solid#00B172;
+    font-size: 2.25em;
+    text-align: center;
+    width: fit-content;
+    margin: 0 auto 2.5em auto;
+    padding-bottom: .5em;
+}
+
+.info-flex h3 {
+    color:#00B172;
+    font-weight: 700;
+    font-size: 1.5em;
+}
+
+.info-flex p { 
+    max-width: 60%;
+    margin: 0 auto;
+    font-size: 1.15em;
+}
+
+.features {
+    color: white;
+    display: flex;
+    flex-direction: column;
+    flex-wrap: wrap;
+    height: 700px;
+    background-image: url('./../images/spotify-icon-white.png');
+    background-color: #00B172;
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: 150px;
+    padding: 4em 5em;
+}
+
+.features h2 {
+    font-size: 2em;
+    width: fit-content;
+    border-bottom: 4px solid white;
+    padding-bottom: .5em;
+}
+
+.features h3 {
+    font-size: 2em;
+}
+
+.features article {
+    width: 30%;
+}
+
+.features p {
+    font-size: 1.25em;
+}
+
+.screenshot {
+    width: 350px;
+    align-self: flex-end;
+    padding-top: 5em;
+}
+
+
