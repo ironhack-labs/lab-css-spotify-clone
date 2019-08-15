@@ -6,3 +6,144 @@ Green: #00B172
 White: #FFF
 
 */
+
+* {
+    margin: 0;
+    padding: 0;
+}
+
+body {
+    font-family: 'Lexend Exa', sans-serif;
+}
+
+#navbar {
+    position: fixed;
+    display: flex;
+    justify-content: space-between;
+    background-color: white;
+    width: 100%;
+
+}
+
+#navbarLinks {
+    display: flex;
+
+
+}
+
+.nav-link {
+    list-style-type: none;
+
+    padding: 30px 15px;
+}
+
+.nav-link a {
+    font-family: 'Lexend Exa', sans-serif;
+    text-decoration: none;
+    color: #1A1A1A;
+}
+
+.logo {
+    width: 250px;
+}
+
+#hero {
+    flex-direction: column;
+    background-image: url("../images/landing.jpg");
+    background-size: cover;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+    color: white;
+
+}
+
+h1 {
+    font-size: 3.5em;
+    margin: 30px 0;
+}
+
+p {
+    font-size: 1.2em;
+}
+
+#slogan {
+    width: 50%;
+    text-align: center;
+}
+
+h2 {
+    margin: 30px 0;
+    padding: 10px;
+    text-decoration: underline;
+    font-size: 2em;
+    text-align: center;
+    align-content: space-around;
+}
+
+#features {
+    display: flex;
+
+}
+
+.feature {
+    width: 33%;
+    text-align: center;
+    padding: 20px;
+}
+
+.feature>h3 {
+    color: #00B172;
+    font-size: 1.6em;
+    padding: 20px;
+}
+
+.feature>img {
+    height: 100px;
+}
+
+#green {
+    display: flex;
+    background-image: url(../images/spotify-icon-white.png);
+    background-size: 100px 100px;
+    background-repeat: no-repeat;
+    background-position: center;
+
+    background-color: #00B172;
+    color: white;
+
+    margin: 20px;
+}
+
+.sectionGreen>img {
+    width: 350px;
+    height: auto;
+}
+
+.sectionGreen {
+    width: 50%;
+    padding: 100px 50px;
+}
+
+.sectionGreen>h2 {
+    margin: 0;
+    padding: 0 0 40px 0;
+
+}
+
+#bottomText {
+    width: 300px;
+    display: flex;
+    align-content: space-between;
+    justify-content: space-between;
+    flex-direction: column;
+
+    height: 600px;
+}
+
+#sc2 {
+    display: flex;
+    justify-content: center;
+
+}
