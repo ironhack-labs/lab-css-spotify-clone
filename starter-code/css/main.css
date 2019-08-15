@@ -6,9 +6,12 @@ Green: #00B172
 White: #FFF
 
 */
-
+* {
+    outline: 5px solid red;
+}
 body {
     margin: 0 auto;
+   
 }
 
 nav {
@@ -18,7 +21,7 @@ nav {
     align-items: center;
     padding: 1em;;
     height: 10vh;
-    background-color: blue;
+    background-color: rgb(236, 234, 219);
 }
 
 .navlinks a {
@@ -31,5 +34,18 @@ nav img {
 }
 
 figure {
-    background-image: url('./../images/landing.jpg')
+    display: flex;
+    background-image: url('./../images/landing.jpg');
+    background-size: cover;
+    height: 100vh;
+    margin: 0;
+    justify-content: center;
+    color: whitesmoke;
+}
+
+.centertext {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
 }
