@@ -6,3 +6,175 @@ Green: #00B172
 White: #FFF
 
 */
+
+@import url('https://fonts.googleapis.com/css?family=Open+Sans&display=swap');
+
+* {
+  box-sizing: border-box;
+  /* outline: 0.5px dashed red; */
+}
+
+img {
+  max-width: 100%;
+}
+
+body {
+  margin: 0;
+  font-family: 'Open Sans', sans-serif;
+  color: #1A1A1A;
+}
+
+h1 {
+  margin: 0 auto;
+  font-size: 70px;
+}
+
+h2 {
+  font-size: 50px;
+  text-align: center;
+  border-bottom: 4px solid #00B172;
+  padding-bottom: 10px;
+}
+
+h3 {
+  color: #00B172;
+  font-size: 45px;
+  font-weight: bold;
+}
+
+h4 {
+  color: #ffffff;
+  font-size: 45px;
+  text-align: center;
+  border-bottom: 3px solid #ffffff;
+  padding-bottom: 8px;
+}
+
+h5 {
+  color: #ffffff;
+  font-size: 35px;
+}
+
+nav {
+  height: 70px;
+  display: flex;
+  justify-content: space-between;
+  margin: 20px;
+}
+
+.logo>img {
+  height: 100%;
+  width: 230px;
+}
+
+a {
+  text-decoration: none;
+  margin-right: 1em;
+  color: inherit;
+}
+
+.menu {
+  text-decoration: none;
+  font-size: 20px;
+  display: flex;
+  align-items: center;
+}
+
+
+.first-Box {
+  background-image: url("./../images/landing.jpg");
+  background-position: center;
+  background-size: cover;
+  text-align: center;
+  height: 900px;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  color: #ffffff;
+}
+
+.first-Box>p {
+  font-size: 30px;
+}
+
+.title-box {
+  display: flex;
+  justify-content: center;
+  margin: 30px;
+}
+
+.second-Box {
+  display: flex;
+  justify-content: center;
+  text-align: center;
+  flex-direction: column;
+}
+
+.inner-box {
+  display: flex;
+  align-items: baseline;
+  justify-content: space-evenly;
+  max-width: 80%;
+  margin: 0 auto;
+  padding: 0 50px;
+  font-size: 25px;
+}
+
+.col-one {
+  flex-basis: 50%;
+}
+
+.col-one>img {
+  padding: 20% 20% 0 20%;
+}
+
+.col-two {
+  flex-basis: 50%;
+}
+
+.col-two>img {
+  padding: 20% 20% 0 20%;
+}
+
+.col-three {
+  flex-basis: 50%;
+}
+
+.col-three>img {
+  padding: 20% 20% 0 20%;
+}
+
+.third-Box {
+  background-color: #00B172;
+  background-image: url("./../images/spotify-icon-white.png"); 
+  background-position: center;
+  background-size: 150px; 
+  background-repeat: no-repeat; 
+  background-clip: content-box;
+  display: flex;
+  justify-content: space-evenly;
+  flex-direction: row;
+  border: #ffffff solid 35px;
+  padding: 40px;
+}
+
+.howto-box {
+  width: 50%;
+  padding: 30px;
+}
+
+.howto-pic  {
+  padding: 50px;
+  width: 40%;
+  align-self: flex-end;
+}
+
+.howto-title {
+  justify-content: center;
+}
+.howto-text {
+  justify-content: center;
+  margin: 20px;
+  color: #ffffff;
+  font-size: 20px;
+}
