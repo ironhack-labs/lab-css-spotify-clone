@@ -6,3 +6,178 @@ Green: #00B172
 White: #FFF
 
 */
+/* @import url("sp://import/css/core-dark.css"); */
+
+html {
+    font-size: 16px;
+}
+
+* {
+    padding: 0;
+    margin: 0;
+    border: 0;
+    font-family: "Helvetica", "Arial", sans-serif;
+}
+
+/* Header */
+header {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+
+    padding: 10px 30px;
+}
+
+.header-image-logo {
+    width: 10%;
+}
+
+.header-nav>* {
+    padding-left: 30px;
+    font-size: 1.2rem;
+    text-decoration: none;
+    color: #7b7b7b;
+}
+
+/* Section1 */
+
+#section-1 {
+    background-image: url("../images/landing.jpg");
+    background-position: center;
+    background-size: cover;
+    height: 80vH;
+
+    color: #FFF;
+
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+
+    padding-bottom: 10vH;
+}
+
+#section-1 h1 {
+    font-size: 6rem;
+    font-weight: 500;
+    text-align: center;
+
+    padding-bottom: 3vH;
+}
+
+#section-1 h2 {
+    font-size: 2rem;
+    font-weight: 200;
+    text-align: center;
+}
+
+
+/*Section2*/
+
+#section-2 {
+    padding: 1.5%;
+}
+
+/*Article 1*/
+#section-2-article-1 {
+    text-align: center;
+}
+
+#section-2-article-1 h3 {
+    display: inline-block;
+    font-size: 2rem;
+    font-weight: 550;
+    text-align: center;
+
+    height: 5.4vH;
+
+    border-bottom: 5px solid #00B172;
+
+    padding-top: 3vH;
+}
+
+/*Article 2*/
+
+#section-2-article-2 {
+    display: flex;
+    justify-content: space-around;
+    padding: 10vH 0;
+}
+
+#section-2-article-2 div {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    width: 20%;
+}
+
+#section-2-article-2 img {
+    height: 10vH;
+}
+
+#section-2-article-2 h4 {
+    font-size: 1.6rem;
+    font-weight: 600;
+    color: #00B172
+}
+
+
+#section-2-article-2 p {
+    font-size: 1.4rem;
+    font-weight: 100;
+    text-align: center;
+    width: 90%;
+}
+
+#section-2-article-2 h4,
+#section-2-article-2 p {
+    padding: 2vH 0;
+}
+
+/*Article 3*/
+
+#section-2-article-3 {
+    background-color: #00B172;
+    display: flex;
+    justify-content: space-around;
+    padding: 5vH;
+    align-items: center;
+}
+
+.icon-white {
+    width: 10%;
+    height: 10%;
+    align-self: center;
+}
+
+.spotify-app {
+    width: 20%;
+}
+
+.kanye-div {
+    width: 27%;
+}
+
+#section-2-article-3 h5 {
+    font-size: 1.6rem;
+    font-weight: 600;
+    color: #FFF;
+    display: inline-block;
+    border-bottom: 5px solid #FFF;
+}
+
+#section-2-article-3 h6 {
+    font-size: 1.4rem;
+    font-weight: 600;
+    color: #FFF;
+
+    padding-top: 4vH;
+    padding-bottom: 2vH;
+}
+
+#section-2-article-3 p {
+    font-size: 1.2rem;
+    font-weight: 100;
+    color: #FFF;
+    width: 40%;
+}
