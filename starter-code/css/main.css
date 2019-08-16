@@ -6,3 +6,133 @@ Green: #00B172
 White: #FFF
 
 */
+
+body {
+  font-family: Arial, Helvetica Neue, Helvetica, sans-serif;
+  background-color: white;
+  margin: 0;
+}
+body .container {
+  max-width: 1360px;
+  margin: 0 auto;
+}
+body header {
+  height: 100px;
+  margin: 0 auto;
+}
+body header nav {
+  height: 100px;
+  padding: 10px 0px 0px 15px;
+}
+body header nav ul {
+  list-style: none;
+  display: inline;
+  margin: 10px;
+  padding-top: 10px;
+  float: right;
+  font-size: 20px;
+}
+body header nav ul li {
+  display: inline;
+  padding: 10px;
+  color: grey;
+}
+body main section#top {
+  height: 800px;
+  width: 100%;
+  background-image: url("../images/landing.jpg");
+  background-repeat: no-repeat;
+  background-position: center;
+  background-size: cover;
+  color: white;
+  text-align: center;
+  display: table;
+}
+body main section#top > div {
+  display: table-cell;
+  vertical-align: middle;
+}
+body main section#top > div > div {
+  margin-left: auto;
+  margin-right: auto;
+}
+body main section#top > div > div h1 {
+  font-size: 4em;
+  font-weight: bold;
+}
+body main section#top > div > div p {
+  font-size: 2em;
+  margin-top: 0.5em;
+  margin-bottom: 0.5em;
+}
+body main section#bottom {
+  text-align: center;
+}
+body main section#bottom > div {
+  margin-left: 3em;
+  margin-right: 3em;
+  margin-bottom: 3em;
+}
+body main section#bottom div.cards {
+  padding-top: 1em;
+}
+body main section#bottom div.cards h1 {
+  display: inline-block;
+  font-size: 2em;
+  text-align: center;
+  border-bottom: 4px solid #00b172;
+  padding-bottom: 4px;
+  margin-bottom: 1em;
+}
+body main section#bottom div.cards div.box {
+  width: 33%;
+  float: left;
+  display: table;
+  padding-bottom: 4em;
+}
+body main section#bottom div.cards div.box > div {
+  display: table-cell;
+  vertical-align: middle;
+}
+body main section#bottom div.cards div.box > div > div {
+  text-align: center;
+}
+body main section#bottom div.cards div.box > div > div h2 {
+  color: #1ab26b;
+}
+body main section#bottom div.player {
+  height: 800px;
+  clear: both;
+  background-color: #00b172;
+  background-image: url("../images/spotify-icon-white.png");
+  background-repeat: no-repeat;
+  background-position: center;
+  background-size: 10%;
+  color: white;
+  text-align: left;
+}
+body main section#bottom div.player div.half {
+  width: 50%;
+  float: left;
+  height: 800px;
+  position: relative;
+}
+body main section#bottom div.player div.half div.player-text {
+  padding: 5em;
+}
+body main section#bottom div.player div.half div.player-text h1 {
+  display: inline-block;
+  font-size: 2em;
+  text-align: center;
+  border-bottom: 4px solid white;
+  padding-bottom: 4px;
+  margin-bottom: 1em;
+}
+body main section#bottom div.player div.half img.player-img {
+  position: absolute;
+  left: 50%;
+  top: 50%;
+  transform: translate(-50%, -50%);
+}
+
+/*# sourceMappingURL=main.css.map */
