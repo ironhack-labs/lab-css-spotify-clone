@@ -1,3 +1,4 @@
+@import url('https://fonts.googleapis.com/css?family=Raleway:300,400&display=swap');
 /*
 Colors:
 
@@ -6,3 +7,142 @@ Green: #00B172
 White: #FFF
 
 */
+* {
+  box-sizing: inherit;
+}
+
+html {
+  font: 26px 'Raleway', Arial, sans-serif;
+  box-sizing: border-box;
+}
+
+body {
+  padding: 0;
+  margin: 0;
+}
+
+nav {
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  justify-content: space-between;
+  padding: 10px 30px;
+}
+
+nav > ul {
+  display: flex;
+  flex-direction: row;
+  list-style: none;
+}
+
+nav > ul > li {
+  margin: 0 10px;
+}
+
+.logo {
+  width: 200px;
+}
+
+.logo > img {
+  width: 100%;
+  height: auto;
+}
+
+/*Section 1*/
+.landing {
+  display: flex;
+  align-items: center;
+  flex-direction: column;
+  justify-content: center;
+  color: #fff;
+  background-image: url('./../images/landing.jpg');
+  background-size: cover;
+  height: 120vh;
+  text-align: center;
+}
+
+.landing > h1 {
+  font-size: 78px;
+  margin-bottom: 10px;
+}
+
+/*Section 2*/
+.features {
+  width: 100%;
+  height: 70vh;
+  display: flex;
+  flex-direction: column;
+  text-align: center;
+  justify-content: center;
+}
+
+.features > div {
+  display: flex;
+  align-items: center;
+  justify-content: space-around;
+}
+
+.features > div > h2 {
+  display: block;
+  margin-bottom: 70px;
+  padding: 10px 0;
+  border-bottom: 5px solid #00b172;
+  font-size: 42px;
+}
+
+.features > div h3 {
+  color: #00b172;
+}
+
+.features > div > div {
+  width: 18%;
+}
+
+.features > div > div > img {
+  width: 45%;
+  height: auto;
+}
+
+/*Section 3*/
+.Kanye {
+  display: flex;
+  align-items: center;
+  justify-content: space-around;
+  width: 100%;
+  height: 125vh;
+  background-image: url('./../images/spotify-icon-white.png');
+  background-color: #00b172;
+  background-repeat: no-repeat;
+  background-position: center;
+  background-size: 200px;
+  border: 50px solid #fff;
+}
+
+.text-Kayne {
+  width: 45%;
+  color: #fff;
+}
+
+.text-Kayne > span > h2 {
+  display: block;
+  padding: 10px 0;
+  margin-right: 130px;
+  border-bottom: 5px solid #fff;
+}
+
+.text-Kayne * {
+  margin-bottom: 50px;
+}
+
+.text-Kayne > div {
+  padding-right: 300px;
+}
+
+.app-image {
+  width: 30%;
+}
+
+.app-image > img {
+  width: 85%;
+  height: auto;
+}
