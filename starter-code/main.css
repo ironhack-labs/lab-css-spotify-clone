@@ -1,0 +1,139 @@
+
+body {
+    width: 100%;
+    height: auto;
+    box-sizing: border-box; 
+}
+
+nav {
+    width: 100%;
+    height: 100px; 
+    box-sizing: border-box;
+}
+nav span img {
+    float: left;
+    height: 100px;
+    margin: 0 15px;
+}
+nav ul {
+    margin: 0 auto; 
+    
+    display: flex;    
+    flex-direction:row;
+    justify-content:flex-end;
+    }
+nav ul li {
+    display:inline-flex;
+    text-align: center;
+    margin: 34px 20px;
+    padding: 0 20px;
+    
+}
+nav a {
+  color: #1A1A1A;
+  text-decoration: none;
+  font-size: 1.5em
+}
+
+header {
+    
+    height: 600px;
+    background-image: url(images/landing.jpg);
+    background-position: center;
+    background-size: contain;
+    
+    color: white;
+    text-align: center; 
+    box-sizing: border-box;
+    margin-right: 15px
+}
+header h1 {
+    padding-top: 100px;
+    font-size: 4.5em;
+}
+header > p {
+    font-size: 1.5em;
+    color:lightgray;
+    
+    
+}
+
+main {
+    background-color: white;
+    width:   100%;
+    height: 500px;
+    text-align: center; 
+    margin: 25px 0;
+    box-sizing: border-box; 
+}
+main .h2-txt {
+    color: black;
+    font-size: 4em;
+    text-decoration: underline;
+    text-decoration-color: #00B172;
+    margin-bottom: 50px;
+}
+main section {
+    display: flex;
+    text-align: center;
+    align-items: center;
+}
+main section article {
+    width: 33.33%;
+    height: auto;
+    margin: 15px    
+}
+main section article img {
+    width: 150px;
+    height: auto;
+}
+main article p {
+    margin: 5px 5px;
+    font-size: 1.54em;
+    color: rgb(135, 145, 156);}
+main article b {
+    font-size: 1.7em; 
+    color: #00B172;
+    margin-top: 30px;
+
+}
+
+
+footer {
+    box-sizing: border-box;
+    background-color: #00B172;
+    color: white;
+    
+    height: 800px;
+    padding: 50px 25px;
+    margin: 80px;
+}
+footer h2 {
+    text-decoration:underline;
+    font-size: 3.5em;
+    color:white;}
+footer article strong { 
+    font-size: 2.5em;
+    margin-left: 50px
+    
+}
+footer p{
+    font-size: 1.2em;
+    color:lightgray;
+    margin-left: 50px;}
+
+
+.icon {
+    width: 100px;
+    position: relative;
+    left: 40%;
+    bottom: 900px;
+
+}
+.app {
+    width: 350px;
+    left: 55%;
+    position: relative;
+    bottom: 550px;
+}
+
