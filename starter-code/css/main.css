@@ -6,3 +6,51 @@ Green: #00B172
 White: #FFF
 
 */
+body {
+  padding: 0;
+  margin: 0;
+}
+nav > img {
+  width: 150px;
+  margin: 15px;
+}
+nav {
+  display: flex;
+  justify-content: space-between;
+  padding: 15px;
+  align-items: center;
+}
+
+nav > p {
+  padding: 10px;
+  font-size: 18px;
+  font-family: monospace;
+}
+
+.centeredText {
+  position: absolute;
+  top: 45%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+}
+.centeredText > h1 {
+  font-size: 54px;
+  font-family: sans-serif;
+}
+.centeredText > p {
+  font-size: 21px;
+  font-family: sans-serif;
+}
+
+h2 {
+  font-size: 35px;
+  font-family: sans-serif;
+  border-bottom: 5px solid #00b172;
+  text-align: center;
+  display: block;
+  margin: 20px 380px;
+}
+.recuadrito {
+  display: flex;
+  flex-direction: column;
+}
