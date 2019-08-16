@@ -6,3 +6,256 @@ Green: #00B172
 White: #FFF
 
 */
+
+* {
+	box-sizing: border-box;
+	font-size: 16px;
+	font-family: sans-serif;
+}
+
+body {
+	background-color: #fff;
+	display: flex;
+	padding-top: 110px;
+	flex-direction: column;
+	justify-content: center;
+	align-items: center;
+	color: #1a1a1a;
+	width: 100%;
+	height: auto;
+	position: relative;
+}
+
+nav {
+	background-color: #fff;
+	display: flex;
+	padding: 18px 40px;
+	justify-content: space-between;
+	align-items: center;
+	height: 100px;
+	width: 100%;
+	position: fixed;
+	top: 0;
+	left: 0;
+}
+
+ul {
+	display: flex;
+	padding: 0;
+	justify-content: space-between;
+	align-items: center;
+	list-style-type: none;
+	width: 40%;
+}
+
+nav>ul>li {
+	font-size: 20px;
+}
+
+nav>ul>li>a {
+	font-size: 20px;
+}
+
+nav>img {
+	margin: 0;
+	height: auto;
+	width: 10%;
+}
+
+main {
+	display: flex;
+	flex-direction: column;
+	align-items: center;
+	justify-content: center;
+	height: auto;
+	width: 100%;
+	position: relative;
+}
+
+section {
+	display: flex;
+	padding: 20px 0;
+	height: calc(100vh - 100px);
+	width: 100%;
+}
+
+
+#sec1 {
+	background-image: url('../images/landing.jpg');
+	background-position: center;
+	background-repeat: no-repeat;
+	background-size: cover;
+	display: flex;
+	flex-direction: column;
+	justify-content: center;
+	align-items: center;
+}
+
+#sec1>* {
+	text-align: center;
+	color: #fff;
+}
+
+#sec1>h1 {
+	margin: 40px auto;
+	font-size: 4.25em;
+}
+
+#sec1>h3 {
+	font-size: 2em;
+	font-weight: lighter;
+	width: 35%;
+}
+
+#sec2 {
+	display: flex;
+	flex-direction: column;
+	justify-content: space-around;
+	align-items: center;
+}
+
+#sec2>h2 {
+	border-bottom: 4px solid #00b172;
+	padding-bottom: 5px;
+	font-size: 2.3em;
+	color: #1a1a1a;
+}
+
+#sec2>ul {
+	display: flex;
+	justify-content: space-around;
+	height: 80%;
+	width: 80%;
+}
+
+#sec2>ul>li {
+	display: flex;
+	flex-direction: column;
+	flex-direction: column;
+	align-items: center;
+	justify-content: space-between;
+	font-size: 1.2em;
+	font-weight: 100;
+	text-align: center;
+	width: 25%;
+}
+
+#sec2>ul>li>strong {
+	margin: 2% auto 12% auto;
+	font-size: 1.4em;
+	color: #00b172;
+	text-align: center;
+}
+
+#sec2>ul>li:nth-child(1)>i {
+	background-image: url('../images/music-icon.png');
+}
+
+#sec2>ul>li:nth-child(2)>i {
+	background-image: url('../images/high-quality-icon.png');
+}
+
+#sec2>ul>li:nth-child(3)>i {
+	background-image: url('../images/devices-icon.png');
+}
+
+#sec2>ul>li>i {
+	background-position: center;
+	background-repeat: no-repeat;
+	background-size: contain;
+	height: 25vh;
+	width: 60%;
+	display: block;
+}
+
+#sec3 {
+	background-color: #fff;
+	display: flex;
+	justify-content: space-around;
+	align-items: center;
+	padding: 0 40px;
+}
+
+#sec3>#wrap {
+	background-color: #00b172;
+	display: flex;
+	padding: 0 4%;
+	justify-content: space-between;
+	height: 100%;
+	width: 100%;
+	position: relative;
+}
+
+#sec3>#wrap>* {
+	color: #fff;
+}
+
+#sec3>#wrap>article {
+	display: flex;
+	flex-direction: column;
+	justify-content: center;
+	align-items: flex-start;
+	width: 50%;
+	position: relative;
+}
+
+#sec3>#wrap>article>h3 {
+	border-bottom: 4px solid #fff;
+	margin: 3% 0;
+	padding-bottom: 5px;
+	font-size: 2.2em;
+	width: auto;
+}
+
+#sec3>#wrap>article>ul {
+	display: flex;
+	padding: 0;
+	flex-direction: column;
+	justify-content: space-around;
+	align-items: flex-start;
+	height: 70%;
+	width: 100%;
+}
+
+#sec3>#wrap>article>ul>li {
+	display: flex;
+	flex-direction: column;
+	justify-content: center;
+	align-items: flex-start;
+	height: 32%;
+}
+
+#sec3>#wrap>article>ul>li>strong {
+	font-size: 1.8em;
+	margin-bottom: 4%;
+}
+
+#sec3>#wrap>article>ul>li>span {
+	font-size: 1.5em;
+	font-weight: 100;
+}
+
+#sec3>#wrap>aside {
+	background-image: url('../images/spotify-app.jpg');
+	background-position: center;
+	background-repeat: no-repeat;
+	background-size: contain;
+	margin: auto 0;
+	display: block;
+	height: 80%;
+	width: 30%;
+}
+
+#sec3>#wrap>article>i {
+	background-image: url('../images/spotify-icon-white.png');
+	background-position: center;
+	background-repeat: no-repeat;
+	background-size: contain;
+	display: block;
+	margin-top: -65px;
+	height: 130px;
+	width: 130px;
+	position: absolute;
+	right: -28%;
+	top: 50%;
+}
