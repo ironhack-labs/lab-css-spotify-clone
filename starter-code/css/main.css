@@ -4,5 +4,204 @@ Colors:
 Text: 1A1A1A
 Green: #00B172
 White: #FFF
-
 */
+
+ 
+html, body {
+    margin:0;
+    padding:0;
+    font-family: 'Roboto', sans-serif; 
+}
+
+h3{
+    font-weight: bold;
+}
+ .flexbox{
+    display: flex;
+    justify-content:center;
+    align-items: center;
+    align-content: center;
+}
+
+.nav-bar{
+    width:100vw;
+    background-color: #FFF;
+    position:fixed;
+    justify-content:space-between;
+    height:5vw;
+}
+
+.menu ul{
+
+    margin-right:25px;
+}
+
+.menu ul li {
+    list-style: none;
+    margin-left:10px;
+    margin-right:10px;
+}
+
+.spotify-logo img{
+    width:200px;
+    margin-left:25px;
+}
+
+.main{
+    height:70vh;
+    background-image: url(../images/landing.jpg);
+    background-size:100% 100%;
+    color: #FFF;
+    flex-direction:column;
+    justify-content:center;
+    align-items: center;
+    align-content: center;
+}
+
+.main h1{
+    font-size:50px;
+    padding: 0.2vw 0;
+    text-align: center;
+}
+
+.main p{
+    font-size:1.6vw;
+    padding: 0 0;
+    margin:0 0;
+    text-align: center;
+}
+
+
+
+.main-text{
+    align-items: center;
+}
+
+.whats-icon{
+    width:8vw;
+}
+
+.columns{
+    flex-direction:column;
+    justify-content:space-evenly;
+    align-items: space-evenly;
+    align-content: center;
+    text-align: center;
+    padding:5px;
+}
+
+.columns-item p{
+    color:#1A1A1A;
+    font-weight: 300;
+    line-height: 130%;
+    font-size: 1.4vw;
+}
+
+.info {
+    height:60vh;
+
+    flex-direction:column;
+
+}
+
+.info h2{
+ display:inline;
+ border-bottom: 3px solid #00B172;
+
+  font-size:1.6vw;
+}
+
+.info h3{
+    color:#00B172;
+     font-size:1.4vw;
+   }
+
+.green-container{
+
+    flex-direction:row;
+    justify-content:center;
+    align-items: center;
+    align-content: center;
+}
+
+.info-text{
+
+    flex-direction:row;
+    justify-content:space-evenly;
+    align-items: center;
+    align-content: center;
+    width:90vw;
+}
+
+.green-square{
+    height:35vw;
+    background-color: #00B172;
+    background-image: url("../images/spotify-icon-white.png");
+    background-repeat: no-repeat;
+    background-size: 10vw;
+    background-position: center; 
+    color:#FFF;
+    flex-direction:row;
+    display: flex;
+    flex-wrap: nowrap;
+    padding:5vw;
+    margin:30px;
+
+}
+
+.green-square #white-icon{
+    position:absolute;
+    width:13vw;
+    height: 20vh;
+}
+
+.right img{
+    width:25vw;
+    max-width:350px;
+}
+
+.left, .right{
+
+    width:50vw;
+}
+
+.line{
+    display:flex;
+}
+
+h2{
+    padding-bottom:6px;
+    border-bottom: 3px solid white;
+    font-size:2vw;
+}
+
+.left{
+    display:flex;
+    flex-direction:column;
+}
+
+
+.green-square h3 {
+    font-size:1.6vw;
+}
+
+.green-square p {
+    font-weight: 400;
+    padding:0;
+    margin:0;
+    line-height: 140%; 
+    font-size:1.3vw;
+}
+
+.green-container{
+    display:flex;
+}
+
+.right{
+    display:flex;
+    flex-direction:row;
+    flex-wrap: nowrap;
+    justify-content:center;
+    align-items: center;
+    align-content: center;
+}
