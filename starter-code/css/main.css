@@ -12,14 +12,16 @@ White: #FFF
 
 }
 
-body {
+html {
     font-family: "lato";
     color: #1A1A1A;
+    font-size: 16xp;
+
 
 }
 
+
 .navBar {
-    font-size: 20px;
     display: flex;
     align-items: center;
     justify-content: space-between;
@@ -37,29 +39,40 @@ body {
 .navBar a {
     color: #1A1A1A;
     list-style-type: none;
+    text-decoration: none;
 
 
 
 }
 
+.imgFrame {
+    width: 18vw;
+    height: 10vh;
+    justify-content: center;
 
-.navBar Img {
-    width: 70%;
-    height: 100%;
-    object-fit: cover;
     display: flex;
-    justify-content: flex-start;
+    align-content: flex-end;
+    align-items: center;
+
 }
 
 .navImg {
-    width: 20vw;
+    width: 15vw;
+    height: 10vh;
+
+    display: flex;
+    align-content: flex-end;
+    align-items: center;
 }
+
+.navImg img {
+    object-fit: cover;
+}
+
 
 h1 {
     color: white;
-    font-size: 100px;
-
-
+    font-size: 4.5rem;
 
 }
 
@@ -67,7 +80,7 @@ h1 {
     background-image: url("../images/landing.jpg");
     background-size: cover;
     background-position: center;
-    height: 800px;
+    height: 95vh;
     color: white;
 
     display: flex;
@@ -78,7 +91,7 @@ h1 {
 }
 
 .imageContainer p {
-    font-size: 40px;
+    font-size: 1.5rem;
     display: flex;
     align-items: center;
     justify-content: center;
@@ -86,60 +99,126 @@ h1 {
 }
 
 h2 {
-    font-size: 45px;
+    font-size: 1.8rem;
+
 
 }
 
-/*hr {
-     display: flex;
-     justify-content: center;
-     flex-direction: row;
-    
-    color: #00B172;
-
+h3 {
+    font-size: 1.2rem;
+    font-weight: 100;
 }
-*/
 
-.sec03 .title {
+.title hr {
+    border: 2px solid #00B172;
+}
+
+.sec03frame {
+    height: 20vh;
     display: flex;
+    align-items: center;
     justify-content: center;
-    flex-direction: row;
+
+
+}
+
+.sec03 {
+    height: 45vh;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+
 }
 
 .sec03 .container h2 {
     color: #00B172;
+    margin-bottom: 30px;
+
+
 
 }
 
 .sec03Con {
+    width: 95vw;
+    height: 35vh;
     display: flex;
     justify-content: space-around;
-}
+    align-content: center;
 
-.sec03 article {
-    font-size: 30px;
 
 }
+
 
 .sec03 img {
-    width: 60%;
-    height: 100%;
+    width: 10vw;
     object-fit: cover;
     display: flex;
-    justify-content: flex-start;
 }
 
 
 .sec03 .container {
     display: flex;
-    justify-content: space-evenly;
+    justify-content: center;
     align-items: center;
     flex-direction: column;
     text-align: center;
 
-    box-sizing: border-box;
-    margin: 50px 5% 0 5%;
-    padding: 30px;
+}
+
+.sec04frame {
+    position: relative;
+    display: flex;
+    justify-content: center;
+    height: 100vh;
+    color: white;
+}
+
+.sec04 {
+    background-color: #00B172;
+    width: 95vw;
+    height: 95vh;
+    display: flex;
+    justify-content: space-evenly;
+    align-content: center;
+    align-items: center;
+
+}
+
+.sec04Text {
+    height: 80vh;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-evenly;
+
+
+}
+
+.sec04Text>hr {
+    border: 2px solid white;
+}
+
+
+.sec04 .container {
+    display: flex;
+    justify-content: space-evenly;
+    align-items: flex-start;
+    flex-direction: column;
+    text-align: left;
     flex: 1;
 
+
+}
+
+
+.green img {
+    width: 10vw;
+    position: absolute;
+    text-align: center;
+    top: 40%;
+    left: 45%;
+
+}
+
+.img04 img {
+    width: 20vw;
 }
