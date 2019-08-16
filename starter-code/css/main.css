@@ -13,28 +13,72 @@ White: #FFF
 */
 body{
     background-color: white;
+    margin: 0;
 }
 
 .menu {
     width: 100%;
-    float: left;
-    height: 20px;
+    float: right;
+    height: 40px;
     text-align:right;
-  }
-  
-  .menu ul li {
-    display:inline-block;
-    list-style-type: none;
-    text-align: left;
-  }
-  
-  .menu ul li a {
-    padding: 10px;
+    margin: 0 auto;
+
   }
 
-  #logo{
-    float:left;
-    width: 510%;
+  #logo {
+    float: left;
+    width: 150px;
+    height: 50%;
+    margin-top: 15px;
+
+  }
+
+  #intro {
+
+  background-size: cover;
+  position: relative;
+  left: 25%;
+  display: flex;
+  flex-flow: row;
+  }
+
+  #encabezado{
+    /*este es un hijo*/
+    color: white;
+    position: absolute;
+    left:40%;
+    top: 45%;
+    display: inline;
+  }
+
+  #barraNavegacion{
+      background-color: aqua;
+    width: 100%;
+  }
+  
+  .barraNavegacion ul {
+    padding: 0px;
+    margin: 0px;
+    
+  }
+  
+  .barraNavegacion li {
+    list-style-type: none;
+    padding: 0px;
+    height: 24px;
+    margin-top: 4px;
+    margin-bottom: 4px;
+    display: inline;
+  }
+  
+  .barraNavegacion li a {
+    color: black;
+    font-size: 16px;
+    font-family: "Trebuchet MS", Arial, Helvetica, sans-serif;
+    text-decoration: none;
+    line-height: 70px;
+    padding: 5px 15px;
+    opacity: 0.7;
   }
   
 
