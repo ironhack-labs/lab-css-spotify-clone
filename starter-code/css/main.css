@@ -6,3 +6,106 @@ Green: #00B172
 White: #FFF
 
 */
+
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body{
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif
+}
+nav{
+    padding: 10px 20px 
+}
+
+/* Nav */
+nav img {
+    width: 210px;
+
+}
+
+nav ul li {
+    list-style: none;
+    display: inline;
+    padding: 0 0 0 20px;
+    font-size:  20px;
+    font-weight: 200;
+}
+
+nav div{
+    float: left
+}
+
+nav ul{
+    float: right;
+    margin-top: 20px
+}
+
+nav ul li a{
+    text-decoration-line: none;
+    color: #1A1A1A;
+
+}
+
+header{
+    background-image: url('../images/landing.jpg');
+    text-align: center;
+    background-size: cover;
+    color: white;
+    padding: 300px 0;
+    margin-top: 70px;
+    background-repeat: no-repeat;
+    background-position: center;
+}
+h1{
+    font-size: 75px;
+    font-weight: 500;
+    padding-bottom: 15px;
+}
+
+p{
+    font-size: 30px;
+    font-weight: 100;
+}
+
+.Whats-on{
+    padding: 70px
+}
+
+.Whats-on h2{
+    font-size: 32px;
+    text-align: center;
+    border-bottom: 2px;
+    text-decoration: underline;
+    text-decoration-color: #00B172;
+    margin-bottom: 70px;
+}
+
+.Whats-on .grid{
+    display: grid;
+    grid-template-columns: 33.33% 33.33% 33.33%;
+    text-align: center;
+}
+
+.Whats-on .grid img{
+    width: 100px;
+}
+
+.Whats-on .grid h3{
+    color: #00B172;
+    padding-top: 20px;
+    font-size: 25px; 
+
+}
+
+.Whats-on .grid p{
+    font-size: 20px;
+}
+
+.Whats-on .grid div{
+    padding: 0 20px;
+
+
+}
