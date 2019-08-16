@@ -6,3 +6,113 @@ Green: #00B172
 White: #FFF
 
 */
+body{
+    font-family: 'Roboto';
+    margin: 0;
+    padding: 0;
+}
+nav{
+    padding: 10px 20px;
+}
+nav img{
+    width: 200px;
+}
+nav ul{
+    float: right
+}
+nav li{
+    display: inline;
+    margin:0 10px;
+    font-size: 18px;
+    font-weight: 300;
+}
+#header{
+    height:90vh;
+    position: relative;
+    color: #fff;
+    background-image: url("../images/landing.jpg");
+    background-size: cover;
+    background-position: center;
+}
+.copy{
+    text-align: center;
+    position: absolute;
+    top:35%;
+    left: 22%;
+}
+.copy p{
+    margin: 0;
+}
+.copy p:first-child{
+    font-size: 4em;
+    font-weight: 700;
+    margin-bottom: .5em;
+}
+.copy p:last-child{
+    font-size: 2em;
+    font-weight: 300;
+}
+#features{
+    text-align: center;
+    padding: 2em;
+}
+.box{
+    display: flex;
+    justify-content: space-around;
+    text-align: center;
+}
+.box div{
+    width: 33%;
+    padding: 4%;
+}
+#features img{
+    height: 100px;
+}
+#features .title{
+    font-size: 2em;
+    font-weight: 400;
+    border-bottom: 3px solid #00B172;
+    display: inline;
+    margin-bottom:.5em; 
+}
+.feature{
+    color:#00B172;
+    font-weight: 700;
+    font-size: 1.5em;
+}
+.desc{
+    font-weight: 300;
+    font-size: 1.5em;
+}
+#green{
+    background-color: #00B172;
+    color: #fff;
+    display: flex;
+    justify-content: space-around;
+    padding: 2em;
+    margin: 30px;
+    position: relative;
+}
+.txt{
+    width: 400px;
+}
+.txt .title{
+    border-bottom: 3px solid #fff;
+    display: inline;
+    font-weight: 700;
+    font-size: 2em;
+}
+.txt .subtitle{
+    font-weight: 700;
+    font-size: 1.5em;
+}
+.mobile{
+    width: 300px;
+}
+.logo{
+    position: absolute;
+    top: 40%;
+}
+.logo img{
+    width: 90px;
+}
