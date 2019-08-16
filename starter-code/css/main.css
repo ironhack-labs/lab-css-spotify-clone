@@ -28,6 +28,10 @@ body {
 #main-title {
   height: 500px;
 }
+
+#text-subtitle {
+  color: white;
+}
 #header-image {
   background-image: url('https://i.ibb.co/vZc75M9/landing.jpg');
   background-repeat: no-repeat;
@@ -43,16 +47,20 @@ body {
   width: 150px;
   height: auto;
   padding: 15px;
+  margin-right: 30px;
 }
 ul {
   list-style-type: none;
-  margin: 0 70px 0 0;
-  padding: 20px;
-  overflow: hidden;
+  float: right;
+  position: relative;
+  display: inline-flex;
+  margin-top: 25px;
 }
 
 li {
-  float: right;
+  width: 100px;
+  padding-right: 30px;
+  display: inline-flex;
 }
 
 #about {
@@ -80,6 +88,7 @@ li {
   display: inline-flex;
   padding: 15px;
   margin-right: 60px;
+  width: 100%;
 }
 
 #adventage-one {
@@ -142,18 +151,19 @@ li {
   background-position: center;
   background-size: 15%;
   color: white;
-  display: inline-flex;
+  position: relative;
+  display: block;
 }
 #playlist-text {
-  float: left;
   width: 250px;
   padding: 40px;
-  margin-right: 150px;
   line-height: 30px;
+  margin-right: 40px;
   font-size: 15px;
   font-weight: 100;
   text-align: justify;
   text-justify: inter-word;
+  display: inline-block;
 }
 .playlist-headline {
   text-decoration: underline;
@@ -161,6 +171,11 @@ li {
 #artist-image {
   width: 300px;
   height: auto;
-  float: right;
+
   margin: 20px;
+}
+#playlist-image {
+  float: right;
+  position: absolute;
+  display: inline-flex;
 }
