@@ -6,3 +6,203 @@ Green: #00B172
 White: #FFF
 
 */
+
+:root {
+  --text: #1a1a1a;
+  --green: #00b172;
+  --white: #fff;
+}
+
+/* Reset */
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+/* General */
+html {
+  font-size: 18px;
+}
+
+body {
+  -webkit-font-smoothing: antialiased;
+  font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans',
+    'Helvetica Neue', sans-serif;
+}
+
+/* Nav */
+nav {
+  padding: 0.75rem 2rem;
+  background: var(--white);
+  width: 100%;
+  position: fixed;
+  top: 0;
+  left: 0;
+  z-index: 2;
+}
+
+nav img {
+  height: 45px;
+  float: left;
+}
+
+nav ul {
+  float: right;
+  margin-top: 0.75rem;
+}
+
+nav ul li {
+  display: inline-block;
+  margin: 0 0.75rem;
+}
+
+nav ul li a {
+  color: var(--text);
+  text-decoration: none;
+}
+
+nav ul li:first-child {
+  margin-left: 0;
+}
+
+nav ul li:last-child {
+  margin-right: 0;
+}
+
+/* Hero */
+header {
+  background: url('../images/landing.jpg');
+  background-size: cover;
+  background-repeat: no-repeat;
+  background-position: center;
+  margin-top: 72px;
+}
+
+header div {
+  color: var(--white);
+  text-align: center;
+  padding: 12rem 0;
+}
+
+header div h1 {
+  font-size: 4rem;
+  font-weight: 500;
+  margin-bottom: 1.5rem;
+}
+
+header div p {
+  font-size: 1.5rem;
+  font-weight: 300;
+}
+
+/* What's on Spotify */
+.whats-on {
+  padding: 3rem 0;
+  text-align: center;
+}
+
+.whats-on h2 {
+  position: relative;
+  display: inline-block;
+  margin-bottom: 5rem;
+  font-size: 2rem;
+  font-weight: 600;
+}
+
+.whats-on h2::after,
+.kanye h2::after {
+  position: absolute;
+  bottom: -8px;
+  left: 0;
+  content: '';
+  width: 100%;
+  height: 4px;
+  background: var(--green);
+}
+
+.grid3 {
+  display: grid;
+  grid-template-columns: 1fr 1fr 1fr;
+  max-width: 992px;
+  margin: 0 auto;
+}
+
+.grid3 article img {
+  width: 40%;
+}
+
+.grid3 article h3 {
+  color: var(--green);
+  font-size: 1.5rem;
+  margin: 1rem 0;
+}
+
+.grid3 article p {
+  font-weight: 200;
+  font-size: 1.25rem;
+}
+
+/* Kanye */
+.kanye {
+  margin: 2rem 0;
+  padding: 0 2rem;
+  color: var(--white);
+  position: relative;
+}
+
+.kanye .white-logo {
+  width: 140px;
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+}
+
+.grid2 {
+  background: var(--green);
+  margin: 0 auto;
+  padding: 4rem;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.grid2 div:first-child {
+  padding-right: 10rem;
+}
+
+.grid2 div:last-child {
+  padding: 1rem 0;
+  width: 30%;
+}
+
+.grid2 img {
+  width: 100%;
+}
+
+.kanye h2 {
+  color: var(--white);
+  font-size: 2rem;
+  font-weight: 600;
+  position: relative;
+  display: inline-block;
+  margin-bottom: 3rem;
+}
+
+.kanye h2::after {
+  background: var(--white);
+}
+
+.kanye .grid2 article {
+  margin-bottom: 2rem;
+}
+
+.kanye .grid2 article h3 {
+  font-size: 1.5rem;
+  margin-bottom: 1rem;
+}
+
+.kanye .grid2 article p {
+  font-size: 1.125rem;
+}
