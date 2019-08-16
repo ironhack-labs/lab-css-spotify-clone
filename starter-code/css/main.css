@@ -1,8 +1,136 @@
 /*
+
 Colors:
+
+
 
 Text: 1A1A1A
 Green: #00B172
 White: #FFF
 
 */
+@import url('https://fonts.googleapis.com/css?family=Montserrat&display=swap');
+*{
+    font-family: 'Montserrat', sans-serif;
+    margin:0;
+    padding: 0;
+}
+#bar {
+    display: flex;
+}
+
+
+#logo img{
+    width:20%;
+    /* border: 1px solid; */
+
+}
+
+.lables {
+    display:flex;
+    /* justify-content: space-around; */
+    /* flex-direction: row; */
+    /* justify-content: right; */
+    /* align-content: space-between; */
+
+}
+
+.lables li {
+    list-style-type: none;
+    margin: 0.5em;
+}
+
+.section1 img{
+    width:100vw;
+    height: 600px;
+    position: relative;
+    text-align: center;
+
+}
+
+.center {
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  color: white;
+  text-align: center;
+  
+}
+
+.center h1{
+    font-size: 4em;
+    margin-bottom: 20px;
+}
+
+.center p{
+    font-size: 1.5em;
+
+} 
+
+.section2 h2 {
+    margin-top: 80px;
+    /* display: inline-block; */
+    text-align: center;
+    text-decoration: underline;
+    text-decoration-color: #00B172;
+    font-size: 40px;
+}
+
+.container {
+    display: flex;
+    justify-content: space-evenly;
+    flex-direction: row;
+}
+.box {
+    margin-top: 40px;
+
+     width: 20%;
+    /* display: flex; */
+    color:#00B172;
+    font-style: initial;
+    text-align: center;
+}
+.box img {
+    width: 50%;
+    
+}
+.section3 {
+    background-color: #00B172;
+    margin-top: 50px;
+    margin-left: 20px;
+    margin-right: 20px;
+    color:white;
+    display: flex;
+    align-items: center;
+    justify-content:space-around;
+    height:60vh;
+    font-size: 25px;
+    
+}
+.container2, .container3, .container4 {
+    display: flex;
+    justify-content: center;
+    width:25vw;
+    /* border: 1px solid black; */
+}
+.container2 {
+    flex-direction: column;
+}
+.section3 h4 p {
+    margin-top: 50px;
+}
+.container3 {
+
+    align-items: center;
+}
+.container2 h3 {
+
+    text-decoration: underline;
+    font: 16px;
+}
+
+.container2 h4{
+    margin-top: 20px;
+
+}
