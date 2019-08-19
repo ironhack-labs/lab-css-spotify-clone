@@ -22,12 +22,14 @@ body {
 
 
 .nav-bar {
+  position: fixed;
   display: flex;
   justify-content: space-between;
   align-content: center;
   width: 100%;
-  margin: 15px auto;
-
+  padding: 15px 0;
+  background-color: white;
+  z-index: 1;
 }
 
 .logo {
@@ -45,7 +47,7 @@ body {
 .menu a {
   text-decoration: none;
   color: #1A1A1A;
-  font-size: 1.3em;
+  font-size: 1.1em;
 }
 
 .menu a:hover {
