@@ -6,3 +6,167 @@ Green: #00B172
 White: #FFF
 
 */
+
+@import url('https://fonts.googleapis.com/css?family=Montserrat&display=swap');
+
+body {
+  margin: 0;
+  padding: 0;
+  font-family: 'Montserrat';
+}
+
+#green-box {
+  background-color: #00B172;
+  color: white;
+}
+
+
+.nav-bar {
+  display: flex;
+  justify-content: space-between;
+  align-content: center;
+  width: 100%;
+  margin: 15px auto;
+
+}
+
+.logo {
+  width: 200px;
+  margin: 0 25px;
+}
+
+.menu {
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+  width: 500px;
+}
+
+.menu a {
+  text-decoration: none;
+  color: #1A1A1A;
+  font-size: 1.3em;
+}
+
+.menu a:hover {
+  color: #00B172;
+}
+
+#hero {
+  background-image: url(../images/landing.jpg);
+  height: 700px;
+  background-position: center;
+  background-size: cover;
+  background-repeat: no-repeat;
+  color: white;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  text-align: center;
+}
+
+h1 {
+  font-size: 5em;
+  padding: 0;
+}
+
+p {
+  font-size: 2em;
+}
+
+#whatson {
+  padding-top: 50px;
+  padding-bottom: 70px;
+}
+#whatson > h1 {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  font-size: 2em;
+  border-bottom: 5px solid #00B172;
+  width: 22%;
+  margin: 0 auto;
+  margin-bottom: 50px;
+}
+
+.box h1 {
+  border-bottom: none;
+  color: #00B172;
+  font-size: 2em;
+}
+
+.boxes p {
+  font-size: 1.5em;
+  max-width: 60%;
+}
+
+.boxes {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-around;
+  align-items: center;
+}
+
+.box {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  text-align: center;
+  max-width: 30%;
+}
+
+
+.box img {
+  width: 130px;
+}
+
+#options > h1 {
+  padding-top: 50px;
+  font-size: 2.5em;
+  border-bottom: 5px solid white;
+  margin: 0 auto;
+  margin-bottom: 50px;
+}
+
+#green-box {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-around;
+  align-items: center;
+  background: #00B172 url(../images/spotify-icon-white.png) center no-repeat;
+  background-size: 150px;
+  margin: 50px;
+  padding: 30px 15px;
+}
+
+
+#options {
+  display: flex;
+  flex-direction: column;
+  justify-content: space-evenly;
+  align-content: center;
+}
+
+.section h1 {
+  font-size: 2.5em;
+  margin: 0;
+  padding: 0;
+}
+
+.section p {
+  font-size: 1.5em;
+}
+
+
+.section {
+  width: 350px;
+  height: 80%;
+}
+
+
+.app {
+  height: 700px;
+  width: auto;
+}
