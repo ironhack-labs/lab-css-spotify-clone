@@ -72,7 +72,7 @@ h4,h5{
 
 .landing{
   position: absolute;
-    top: 98%;
+    top: 70%;
     left: 50%;
     transform: translate(-50%, -50%);
     text-align: center;
@@ -155,6 +155,18 @@ h4,h5{
 
 .app{
   width: 30%;
+}
+
+.scale-up-center {
+	animation: scale-up-center 0.4s cubic-bezier(0.390, 0.575, 0.565, 1.000) both;
+}
+@keyframes scale-up-center {
+  0% {
+    transform: scale(0.5);
+  }
+  100% {
+    transform: scale(1);
+  }
 }
 
 
