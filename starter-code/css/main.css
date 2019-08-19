@@ -72,17 +72,19 @@ ul {
     text-decoration: underline #1ab26b;
 
     text-underline-position: under;
-    margin: 0px 0px 50px 0px
+    margin: 0px 0px 50px ;
+
     
     
 
 }
 
 .card{
-   display: inline-block;
+   display: inline-table;
    height: 30%;
    width: 30%;
-   
+   justify-content: space-between;
+   flex-wrap: wrap
 }
 .card h2{
     color: #1ab26b;
@@ -93,7 +95,11 @@ ul {
     font-weight: 100;
     font-size: 25px;
     margin: 0 80px;
-    line-height: 30px
+    line-height: 30px;
+    
+}
+.test{
+    padding: 
 }
 
 .bottom{
@@ -115,7 +121,12 @@ ul {
 }
 .green-container h2 {
     padding: 40px 0 0 50px;
-    font-size: 30px
+    font-size: 30px;
+    white-space: nowrap;
+}
+
+.test-class{
+
 }
 .green-container p{
     padding: 40px 0 0 50px;
