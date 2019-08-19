@@ -3,40 +3,127 @@
 <head>
   <meta charset="UTF-8">
   <title>Spotify</title>
+  <link rel="stylesheet" href="css/main.css">
 </head>
 <body>
-Premium Discover Help Download
+  <header>
+    <div>
+      <img src="images/spotify-logo.png" alt="Spotify">
+    </div>
+    <nav class="navbar">
+        <ul>
+          <li><a>Premium</a></li>
+          <li><a>Discover</a></li>   
+          <li><a>Help</a></li>
+          <li><a>Download</a></li>
+        </ul>
+    </nav>
+  </header>
+  <section class="hero">
+    <img src="images/landing.jpg" alt="a crowd at a music concert">
+    <div>
+      <h1>Music for everyone.</h1>
+        <p>
+          Spotify is now free on mobile, tablet and computer.
+        </p>
+        <p>
+          Listen to the right music, wherever you are.
+        </p>
+    </div>
+  </section>
 
-Music for everyone.
-Spotify is now free on mobile, tablet and computer.
-Listen to the right music, wherever you are.
+  <section class="features">
+      <h2>What’s on Spotify?</h2>
+    <div>
+        <div class="feature-box">
+          <img src="images/music-icon.png" alt="clip art of a speaker">
+            <div class="sub-box" id="millions">
+                <h3>Millions of Songs</h3>
+                <p>
+                  There are millions of
+                  songs on Spotify
+                </p>
+            </div>
+        </div>
+        <div class="feature-box">
+          <img src="images/high-quality-icon.png" alt="clip art of a high-quality music waveform">
+            <div class="sub-box" id="hd">
+                <h3>HD Music</h3>
+                <p>
+                  Listen to music as if you
+                  were listening live
+                </p>
+            </div>
+        </div>
+        <div class="feature-box">
+          <img src="images/devices-icon.png" alt="clip art of a pair of smart devices">
+            <div class="sub-box" id="stream">
+                <h3>Stream Everywhere</h3>
+                <p>
+                  Stream music on your
+                  smartphone, tablet or
+                  computer
+                </p>
+            </div>
+        </div>
+    </div>
+  </section>
 
-What’s on Spotify?
-
-Millions of Songs
-There are millions of
-songs on Spotify
-
-HD Music
-Listen to music as if you
-were listening live
-
-Stream Everywhere
-Stream music on your
-smartphone, tablet or
-computer
-
-It’s as yeezy as Kanye West.
-Search
-Know what you want to listen to?
-Just search and hit play.
-Browse
-Check out the latest charts,
-brand new releases and great
-playlists for right now.
-Discover
-Enjoy new music every Monday
-with your own personal playlist.
-Or sit back and enjoy Radio.
+  <section class="yeezy">
+    <div>
+        <h2>It’s as yeezy as Kanye West.</h2>
+        <img id="logo" src="images/spotify-icon-white.png" alt="Spotify icon in white">
+        <img id="kanye" src="images/spotify-app.jpg" alt="a screenshot of the Spotify app showing Kanye West's artist page">
+        <h3>Search</h3>
+          <p>
+            Know what you want to listen to?
+            Just search and hit play.
+          </p>
+        <h3>Browse</h3>
+          <p>
+            Check out the latest charts,
+            brand new releases and great
+            playlists for right now.
+          </p>
+        <h3>Discover</h3>
+          <p>
+          Enjoy new music every Monday
+            with your own personal playlist.
+            Or sit back and enjoy Radio.
+          </p>
+    </div>
+  </section>
 </body>
+<footer>
+  <div></div>
+</footer>
 </html>
+
+
+<!--
+## Steps
+
+The page is split into 4 sections. 
+
+#### Navbar
+
+- The navbar should be `position: fixed`.
+- Float the image left, and float a `ul` with the links right.
+
+#### Large image background with text
+
+- Check out [this guide](https://css-tricks.com/centering-css-complete-guide/) on centering things.
+
+#### What's on Spotify section
+
+- It looks like the `div`s take up about a third of the container each. How can you represent this in code?
+
+#### Green Section
+
+- It looks like we have 2 main pieces, a `div` with the text content, and the image of the Spotify player. Position these according to the surrounding green `div`.
+- Position the Spotify logo absolutely according to the Green `div`.
+
+### Starter code
+
+The starter-code contains all the files, images, and text content needed to create the page. The text is in the `index.html`, and a css file is created in `main.css` with colors.
+-->
