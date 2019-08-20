@@ -26,15 +26,22 @@ img {
 
 p,
 a {
-  font-size: 1.6rem;
+  font-size: 1.8rem;
 }
 
+/* Main logo of Spotify (on top navbar) */
 .logo {
   display: block;
   max-width: 10rem;
   margin: 0 auto 2rem;
 }
 
+/* When hover, the logo trembles */
+.logo:hover {
+  animation: logoAnimation 1s;
+}
+
+/* Nav. Always fixed on top */
 nav {
   padding: 2rem;
   position: fixed;
@@ -44,12 +51,14 @@ nav {
   box-shadow: 0 3px 6px rgba(0, 0, 0, .35);
 }
 
+/* Menu list */
 nav ul {
   list-style: none;
   display: flex;
   justify-content: center;
 }
 
+/* Menu list items */
 nav li {
   margin-right: 1rem;
 }
@@ -58,11 +67,13 @@ nav li:last-child {
   margin-right: 0;
 }
 
+/* Menu links */
 nav a {
   text-decoration: none;
   color: #232323;
 }
 
+/* Main header. Full page width and height */
 header {
   background-image: url('./../images/landing.jpg');
   background-repeat: no-repeat;
@@ -76,63 +87,163 @@ header {
   flex-direction: column;
 }
 
+/* Main title of the site */
 h1 {
-  font-size: 3rem;
+  font-size: 3.5rem;
   margin-bottom: 2rem;
-}
-
-header p {
-  margin-bottom: 1rem;
-}
-
-.section {
-  padding: 2rem 2rem 3rem;
   text-align: center;
 }
 
+/* Titles inside articles */
+h3 {
+  font-size: 2.5rem;
+  letter-spacing: 1px;
+}
+
+/* Paragraphs contained in the main header */
+header p {
+  margin-bottom: 1rem;
+  text-align: center;
+}
+
+/* Section tags */
+.section {
+  padding: 6rem 2rem;
+  text-align: center;
+}
+
+/* h2 Titles inside sections */
 .section h2 {
-  font-size: 2rem;
+  font-size: 3rem;
   font-weight: bold;
   border-bottom: 2px solid #00B172;
   display: inline-block;
   margin-bottom: 3rem;
 }
 
+/* Second section */
 .section-green {
   background-color: #00B172;
   color: #FFFFFF;
 }
 
+/* The border bottom color must be white */
 .section-green h2 {
   border-bottom-color: #FFFFFF;
 }
 
+/* Articles inside sections */
 .section article {
   margin-bottom: 2rem;
 }
 
+/* Referes the "icons" inside the first section articles */
 .section article img {
   max-width: 7rem;
   margin-bottom: 1rem;
 }
 
+/* h3 titles inside articles */
 .section article h3 {
-  font-size: 1.6rem;
   font-weight: bold;
   color: #00B172;
   margin-bottom: 1rem;
 }
 
+/* h3 titles inside .section-green section */
 .section-green article h3 {
   color: #FFFFFF;
   margin-bottom: 2rem;
 }
 
+/* Paragraphs inside articles contained in the .section-green section */
 .section-green article p {
   margin-bottom: 2rem;
 }
 
+/* Kayne West image */
 .section-green img {
   border-radius: 3px;
   box-shadow: 0 3px 6px rgba(0, 0, 0, .15), 0 3px 6px rgba(0, 0, 0, .35);
+  max-width: 300px;
+}
+
+/* Styles from standard tablet resolution */
+@media screen and (min-width: 768px) {
+  nav {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+  }
+
+  /* Logo no longer has margin-bottom */
+  .logo {
+    margin-bottom: 0;
+  }
+
+  /* Referes the div that contains the three articles of the first section */
+  .section:first-child > div > div {
+    display: flex;
+    justify-content: space-between;
+  }
+
+  /* Articles of the first section */
+  .section:first-child article {
+    width: 30%;
+  }
+
+  .container {
+    max-width: 900px;
+    margin: auto;
+  }
+
+  .flex-container {
+    display: flex;
+  }
+  .flex-container div {
+    width: 50%;
+  }
+
+  .section-green {
+    text-align: left;
+    background-image: url('./../images/spotify-icon-white.png');
+    background-repeat: no-repeat;
+    background-size: 12rem;
+    background-position: center;
+  }
+
+  /* Referes to the div that contains the Kayne West image */
+  .flex-container div:last-child {
+    text-align: right;
+  }
+
+  /* Kayne West image again. */
+  .section-green img {
+    margin-top: -6rem;
+  }
+}
+
+/* Animation for the logo */
+@keyframes logoAnimation {
+
+  0% {
+    transform: rotate(0);
+  }
+
+  25% {
+    transform: rotate(10deg);
+  }
+
+  50% {
+    transform: rotate(-10deg);
+  }
+
+  75% {
+    transform: rotate(10deg);
+  }
+
+  100% {
+    transform: rotate(0);
+  }
+  
 }
