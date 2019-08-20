@@ -6,3 +6,139 @@ Green: #00B172
 White: #FFF
 
 */
+
+* {
+  box-sizing: border-box;
+ }
+ html {
+  font-size: 10px;
+ }
+ body {
+  font-family: Circular, Arial, Helvetica, sans-serif;
+  font-size: 1.7rem;
+ }
+ header {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 1.5rem 4rem;
+  position: fixed;
+  background-color: #fff;
+  width: 100%;
+  top: 0;
+ }
+  header .logo .isotipo {
+    display: inline-block;
+    width: 6.2rem;
+    height: 7rem;
+    background: url('../images/spotify-logo.png') no-repeat 0px;
+    background-size: 20rem;
+    transition: all 1s;
+  }
+    header:hover .logo .isotipo {
+      transform: rotate(180deg);
+    }
+  header .logo .logotipo {
+    display: inline-block;
+    width: 20rem;
+    height: 7rem;
+    background: url('../images/spotify-logo.png') no-repeat -65px;
+    background-size: 18.5rem;
+    margin-left: 0px;
+  }
+  h1 span {
+    display: none;
+  }
+ h2 {
+  color: #fff;
+  font-size: 11rem;
+  text-align: center;
+  align-items: center;
+  margin-bottom: 20px;
+ }
+ h3 {
+  font-size: 5.5rem;
+  border-bottom: 3px solid;
+  display: inline-block;
+  padding: 1rem 0;
+  font-weight: bold;
+ }
+ h4 {
+  font-size: 3.7rem;
+  margin: 2rem 0 3rem;
+  font-weight: bold;
+ }
+ p {
+  line-height: 4.5rem;
+  font-size: 2rem;
+ }
+ nav ul {
+  display: flex;
+ }
+  header a {
+    text-decoration: none;
+    color: #1a1a1a;
+    font-size: 2.5rem;
+    margin-left: 1em;
+  }
+ .section-background {
+  background: url('../images/landing.jpg') no-repeat 0 -15rem;
+  background-size: cover;
+  height: 70rem;
+  margin-top: 104px;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+ }
+  .section-background p {
+    color: #fff;
+    text-align: center;
+    font-size: 4rem;
+  }
+ .features {
+  text-align: center;
+ }
+ .features div {
+  display: flex;
+  justify-content: center;
+  margin: 8rem 0;
+ }
+ .features article {
+  width: 33%;
+  align-items: center;
+ }
+ .features img {
+  height: 8rem;
+ }
+ .features h3 {
+  border-bottom-color: #00b172;
+ }
+ .features h4 {
+  color: #00b172;
+ }
+ .features p {
+  padding: 0rem 170px;
+  line-height: 2.5rem;
+ }
+ .description {
+  color: #fff;
+  background: #00b172 url('../images/spotify-icon-white.png') no-repeat center center;
+  background-size: 15rem 15rem;
+  margin: 0 4rem;
+  padding: 8rem 10rem;
+  display: flex;
+  justify-content: space-between;
+ }
+ .description article {
+  margin-top: 7rem;
+ }
+ .description img {
+ width: 40rem;
+ }
+ .description h3 {
+  border-bottom-color: #fff;
+ }
+ .description p {
+  line-height: 2.5rem;
+  width: 30rem;
+ }
