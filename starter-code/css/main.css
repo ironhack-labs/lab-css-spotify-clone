@@ -43,7 +43,7 @@ nav ul {
 nav ul li a {
   text-decoration: none;
   color: #1a1a1a;
-  padding-left: 20px;
+  padding-left: 10px;
 }
 
 header {
@@ -103,31 +103,43 @@ p {
 
 .footer {
   background-color: #00b172;
-  padding: 20 10 20 10;
+  padding: 50px 50px 50px 50px;
   display: grid;
-  grid-template: 40% 60%;
-  width: 1280px;
+  grid-template-columns: 40% 60%;
+  width: 90%;
   height: 800px;
+  margin: 0 auto;
+  margin-top: 20px;
 }
 
 .footer img {
-  height: 500px;
+  height: 600px;
+  margin-left: 350px;
+  margin-top: 30px;
+  width: 300px;
 }
 
 .footer a {
   padding: 40px;
 }
 
-footer h2 {
-  padding: 3 30 0 30;
-  text-decoration: underline;
-  display: inline-block;
+.footer h3 {
+  padding: 25px;
+  font-size: 30px;
+  color: white;
+}
+.footer p {
+  color: white;
+  font-size: 20px;
+  padding: 10px 10px;
+  margin-left: 20px;
 }
 
-.footer img {
-  float: right;
+.footer h2 {
+  color: white;
+  text-decoration-line: underline;
+  text-decoration-color: white;
 }
-
 /*.bg {
   background-image: url(../images/landing.jpg);
   background-size: cover;
