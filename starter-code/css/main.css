@@ -6,3 +6,210 @@ Green: #00B172
 White: #FFF
 
 */
+
+*{
+    box-sizing: border-box;
+}
+
+a{
+    text-decoration: none;
+    color: black;
+}
+
+html{
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 10px;
+    color: #1A1A1A;
+}
+body{
+    position: relative;
+}
+
+header{
+    width: 100%;
+    height:10vh;
+    background: white;
+    position: fixed;
+    top: 0;
+    display: flex;
+    padding: 1rem 2rem;
+    justify-content: space-between;
+}
+h1{
+    width: 20rem;
+}
+header nav {
+    display: flex;
+    justify-content: flex-end;
+    align-items: center;
+
+}
+
+header nav ul{
+    display: flex;
+
+}
+
+nav ul li{
+    padding-right:2.5rem; 
+    font-size: 2rem;
+    font-weight: light;
+    
+}
+
+header h1 img{
+    height: 100%;
+}
+section{
+    height: 90vh;
+}
+.music{
+    margin-top: 10vh;
+ 
+    background-image: url("../images/landing.jpg");
+    background-size: cover;
+    background-position:center center;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-content: center;
+    color:#FFF;
+
+}
+h2{
+    
+    font-size: 10rem;
+    text-align: center;
+    padding-bottom: 5rem;
+}
+.music p{
+    text-align: center;
+    font-size: 3rem;
+    line-height: 4rem;
+}
+
+.spotify{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+h3{
+    display: inline;
+    font-size: 4em;
+    font-weight: bold;
+    text-align: center;
+    border-bottom: 0.4rem solid #00B172;
+    margin-top:4rem;
+    padding-bottom: 1rem;
+}
+div.items{
+    height: 80vh;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-evenly;
+    align-items: center;
+
+
+}
+div.items div{
+    width: 20%;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+div.items div h4{
+    color: #00B172;
+    font-weight: bold;
+    font-size: 3.5rem;
+    text-align: center;
+    padding: 2rem 0 3rem;
+}
+
+div.items div p{
+    font-weight: lighter;
+    text-align: center;
+    font-size: 3rem;
+    
+}
+
+div.items div img{
+    width:50%;
+
+    
+}
+.example{
+    margin: 2rem;
+    background: #00B172;
+    color:#FFF;
+     display: flex;
+    flex-wrap: wrap;
+    align-items: center;
+    justify-content: space-evenly;
+    
+    
+}
+h5{
+    display: inline;
+    font-size: 4rem;
+    font-weight: bold;
+    text-align: center;
+    border-bottom: 0.4rem solid #FFF;
+    margin-bottom:2rem; 
+    padding-bottom: 1rem;
+}
+
+h6{
+
+    font-weight: bold;
+    font-size: 3rem;
+    padding: 3.2rem 0;
+    
+    
+}
+div.textos p{
+    font-weight: lighter;
+    line-height: 3.5rem;
+    font-size: 2.5rem;
+}
+
+div.big{
+    width: 55%;
+    height: 95%;
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+    justify-content: center;
+    
+}
+.small{
+    display: flex;
+    justify-content: space-between;
+    
+
+}
+.descripciones{
+    width: 60%;
+}
+
+.logo{
+    width: 30%;
+}
+.logo{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.logo img{
+    width: 70%;
+}
+
+ .reproduccion{
+    width:28%;
+}
+.reproduccion img{
+    padding-top: 2rem;
+    width: 100%;
+}
