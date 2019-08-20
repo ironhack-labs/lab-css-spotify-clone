@@ -17,6 +17,7 @@ html {
 body {
   font-family: helvetica;
   font-size: 2.5rem;
+  color: #1a1a1a;
 }
 
 h1 {
@@ -24,8 +25,9 @@ h1 {
 }
 
 h2 {
-font-size: 4rem;
-border-bottom: 4px solid;
+  font-size: 4rem;
+  border-bottom: 4px solid;
+  padding-bottom: 0.5rem;
 }
 
 h3 {
@@ -43,6 +45,12 @@ nav {
 
 nav img {
   height: 7rem;
+  cursor: pointer;
+  transition: background 0.5s linear 0.2s, box-shadow 0.25s;
+}
+
+nav img:hover {
+  opacity: 0.75;
 }
 
 nav ul {
@@ -55,7 +63,7 @@ nav ul li {
 }
 
 header {
-  color: white;
+  color: #fff;
   background-image: url(../images/landing.jpg);
   background-repeat: no-repeat;
   background-size: 100%;
@@ -73,19 +81,70 @@ header p {
 }
 
 .about-us {
-margin: 0 auto;
-height: 60rem;
-
+  margin: 0 auto;
+  height: 60rem;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+.about-us h2 {
+  border-color: #00b172;
+}
+.about-us h3 {
+  color: #00b172;
+}
+.about-us p {
+  text-align: center;
+  line-height: 4rem;
 }
 
-.container{
-display: flex;
-justify-content: space-evenly;
-} 
+.container {
+  display: flex;
+  align-items: space-evenly;
+}
+
 .box {
   height: 30rem;
-
+  width: 30rem;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  margin: 1.5rem 5rem;
 }
 .box img {
   height: 11rem;
+}
+
+.kanye {
+  background-color: #00b172;
+  color: #fff;
+  display: flex;
+  padding: 10rem;
+  position: relative;
+  margin: 3rem;
+}
+
+.green-container {
+  display: flex;
+  flex-direction: column;
+  width: 50%;
+}
+.icon-white {
+  height: 15rem;
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+}
+.app-photo {
+  height: 61rem;
+  margin-top: 7rem;
+}
+.app {
+  width: 50%;
+  display: flex;
+  justify-content: flex-end;
+}
+.column {
+  width: 60%;
 }
