@@ -6,3 +6,197 @@ Green: #00B172
 White: #FFF
 
 */
+
+* {
+  box-sizing: border-box; 
+}
+
+html {
+  width: 100%;
+}
+
+body {
+  width: 100vw;
+  font-family: 'Montserrat', sans-serif;
+}
+
+header {
+  display: flex;
+}
+.navbar {
+  position: fixed;
+  background: white;
+  width: 100vh;
+  justify-content: space-between;
+  display: flex;
+  width: 1440px;
+}
+
+.navbar img {
+  height: 100px;
+  margin: 10px 0 10px 40px;
+  transition: height 1s;
+}
+
+.navbar img:hover {
+  height: 130px;
+}
+
+.navbar ul {
+  display: flex;
+  align-content: flex-end;
+  padding-top: 15px;
+  text-decoration: none;
+  margin-right: 40px;
+}
+
+.navbar ul li {
+  padding-top: 20px;
+  text-decoration: none;
+  margin:10px;
+}
+
+.navbar a {
+  text-decoration: none;
+  color: #1A1A1A;
+  font-size: 25px;
+
+}
+
+.section1 {
+  background-image: url(../images/landing.jpg);
+  background-size: cover;
+  height: 900px;
+  display:flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+}
+
+.section1 h1 {
+  font-size: 90px;
+  color:white;
+  text-align: center;
+  font-weight: bolder;
+  padding-bottom: 50px;
+}
+
+.section1 p {
+  font-size: 30px;
+  color: white;
+  text-align: center;
+  width: 800px;
+  line-height: 40px;
+}
+
+.section2 {
+  background: white;
+  /* display: flex; */
+}
+
+.section2 h2 {
+  text-align: center;
+  margin: 50px 30px 0 30px;
+  font-size: 40px;
+  font-weight: bolder;
+}
+
+.section2 hr {
+  width: 400px;
+  background-color: #00B172;
+  height: 5px;
+  border: none;
+  margin-bottom: 30px;
+}
+
+.section2 img {
+  width: 150px;
+}
+
+.column-father {
+  display: flex;
+  justify-content: space-around;
+}
+
+.column-item {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  width: 350px;
+}
+
+.column-item h3 {
+  font-size: 30px;
+  color: #00B172;
+  font-weight: bolder;
+  margin-top: 20px;
+}
+
+.column-item p {
+  font-size: 30px;
+  line-height: 35px;
+  text-align: center;
+  margin-top: 30px;
+  margin-bottom: 50px;
+}
+
+.greenbox {
+  background-color: #00B172;
+  display: flex;
+  align-items: center;
+  justify-content: space-around;
+}
+
+.greenbox .icon {
+  width: 180px;
+  padding-right: 50px;
+}
+
+.text-column {
+  /* max-width: 400px; */
+  color: white;
+  padding-left: 100px;
+}
+
+.kanye h2 {
+  text-align: center;
+  font-size: 40px;
+  font-weight: bolder;
+  width: 550px;
+  margin-bottom: 10px;
+}
+
+.kanye hr {
+  width: 550px;
+  background-color: white;
+  height: 5px;
+  border: none;
+  margin-bottom: 40px;
+}
+
+.text {
+  max-width: 400px;
+  color: white;
+}
+
+.img-column img {
+  width: 500px;
+  margin-top: 100px;
+  padding-bottom: 100px;
+  padding-right: 100px;
+}
+
+.text h3 {
+  font-size: 30px;
+  font-weight: bolder;
+  margin-top: 20px;
+}
+
+.text p {
+  font-size: 25px;
+  line-height: 35px;
+  text-align: left;
+  margin-top: 30px;
+  margin-bottom: 50px;
+}
