@@ -7,22 +7,27 @@ body {
 
 nav {
     background-color: #FFF;
+    position: fixed;
+    width: 100%;
+    height: 90px;
+    padding-top: 15px;
 }
 
 nav a {
     color: #1A1A1A;
     text-decoration: none;
-    padding: 15px 30px;
+    padding: 20px 20px;
     font-size: 20px;
 }
 
 .navbar-right {
-    float: right;
-    
+    float: right;  
 }
 
 .logo {
+    float: left;
     height: 50px;
+    margin: 15px 30px;
 }
 
 .pngs {
@@ -92,15 +97,16 @@ nav a {
     color: #FFF;
 }
 
-.kanye {
+.kanye h2 {
+    padding: 50px 0 0 0;
     margin: 0 70px;
-    margin-bottom: 0;
+    margin-top: 20px;
 }
 
-.section2 hr {
+.kanye hr {
     border: solid #FFF;
-    width: 30%;
-    margin-top: 1;
+    margin-left: 70px;
+    width: 27%;
     border-width: 1.5px;
 }
 
@@ -120,5 +126,19 @@ nav a {
 
 .section2 article {
     width: 28%;
+}
+
+.screen {
+    height: 500px;
+    float: right;
+    display: inline-block;
+    margin: -450px 70px;
+}
+
+.white-logo {
+    height: 100px;
+    display: inline-block;
+    margin-left: 450px;
+    margin-bottom: 450px;
 }
 
