@@ -6,3 +6,133 @@ Green: #00B172
 White: #FFF
 
 */
+
+@import url('https://fonts.googleapis.com/css?family=Roboto:400,500&display=swap');
+
+* {
+  box-sizing: border-box;
+  margin: 0;
+  padding: 0;
+  font-family: 'Roboto', sans-serif;
+}
+
+html {
+  font-size: 10px;
+}
+
+img {
+  max-width: 100%;
+}
+
+p,
+a {
+  font-size: 1.6rem;
+}
+
+.logo {
+  display: block;
+  max-width: 10rem;
+  margin: 0 auto 2rem;
+}
+
+nav {
+  padding: 2rem;
+  position: fixed;
+  width: 100%;
+  top: 0;
+  background-color: #FFFFFF;
+  box-shadow: 0 3px 6px rgba(0, 0, 0, .35);
+}
+
+nav ul {
+  list-style: none;
+  display: flex;
+  justify-content: center;
+}
+
+nav li {
+  margin-right: 1rem;
+}
+
+nav li:last-child {
+  margin-right: 0;
+}
+
+nav a {
+  text-decoration: none;
+  color: #232323;
+}
+
+header {
+  background-image: url('./../images/landing.jpg');
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-attachment: fixed;
+  height: 100vh;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  color: #FFFFFF;
+  flex-direction: column;
+}
+
+h1 {
+  font-size: 3rem;
+  margin-bottom: 2rem;
+}
+
+header p {
+  margin-bottom: 1rem;
+}
+
+.section {
+  padding: 2rem 2rem 3rem;
+  text-align: center;
+}
+
+.section h2 {
+  font-size: 2rem;
+  font-weight: bold;
+  border-bottom: 2px solid #00B172;
+  display: inline-block;
+  margin-bottom: 3rem;
+}
+
+.section-green {
+  background-color: #00B172;
+  color: #FFFFFF;
+}
+
+.section-green h2 {
+  border-bottom-color: #FFFFFF;
+}
+
+.section article {
+  margin-bottom: 2rem;
+}
+
+.section article img {
+  max-width: 7rem;
+  margin-bottom: 1rem;
+}
+
+.section article h3 {
+  font-size: 1.6rem;
+  font-weight: bold;
+  color: #00B172;
+  margin-bottom: 1rem;
+}
+
+.section-green article h3 {
+  color: #FFFFFF;
+  margin-bottom: 2rem;
+}
+
+.section-green article p {
+  margin-bottom: 2rem;
+}
+
+.section-green img {
+  border-radius: 3px;
+  box-shadow: 0 3px 6px rgba(0, 0, 0, .15), 0 3px 6px rgba(0, 0, 0, .35);
+}
