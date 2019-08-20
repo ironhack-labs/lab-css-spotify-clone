@@ -1,8 +1,152 @@
 /*
 Colors:
-
 Text: 1A1A1A
 Green: #00B172
 White: #FFF
-
 */
+
+@import url('https://fonts.googleapis.com/css?family=Arvo&display=swap');
+
+html {
+  font-size: 10px;
+  
+}
+body {
+  font-family: "Arvo";
+  font-size: 2rem;
+}
+
+* {
+  box-sizing: border-box;
+}
+
+.nav-bar {
+  height: 4rem;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 0.7rem 1.3rem;
+  color: #1A1A1A;
+
+}
+.nav-bar .spoty-logo {
+  width: 9rem;
+  transition: width 0.5s cubic-bezier(0.215, 0.61, 0.355, 1) ;
+}
+.nav-bar .spoty-logo:hover {
+  width: 12rem;
+  
+
+}
+.nav-bar .spoty-logo img{
+  width: 100%;
+}
+
+.nav-bar .links {
+  display: flex;
+}
+.nav-bar .links li{
+  margin-left: 2rem;
+}
+
+#music {
+  background-image: url("../images/landing.jpg");
+  background-position: center;
+  background-size: cover;
+  background-repeat: no-repeat; 
+  color: white;
+  height: 70vh;
+  text-align: center;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+#music p{
+  margin-bottom: 0.5rem;  
+}
+
+#music h2{
+  font-size: 3rem;
+  margin-bottom: 1rem; 
+}
+
+#on-spotify {
+ display: flex;
+ flex-direction: column;
+ justify-content: center;
+ align-items: center;
+ padding: 2rem;
+ height: 50vh;
+}
+#on-spotify .card {
+  display: flex;
+  justify-content: space-between;
+  width: 70vw;
+  height: 10rem;
+  margin: 3rem;
+}
+#on-spotify .cards {
+  width: 15vw;
+  text-align: center;
+}
+#on-spotify h2 {
+  font-size: 2rem;
+  border-bottom: 2px solid #00B172;
+}
+#on-spotify img {
+ height: 30%;
+ margin: 1rem;
+}
+#on-spotify h3 {
+  font-size: 1.2rem;
+  margin-bottom: 0.7rem;
+  font-weight: bold;
+  color:  #00B172;
+}
+#kanye {
+  background-color: #00B172;
+  color: #FFF;
+  width: 95vw;
+  height: 80vh;
+  margin: 0 auto;
+  margin-bottom: 2rem;
+  background-image: url("../images/spotify-icon-white.png");
+  background-position: center;
+  background-size: 10%;
+  background-repeat: no-repeat;
+  display: flex; 
+  justify-content: space-between;
+  align-items: center;
+  padding: 5rem;
+}
+
+
+#kanye .box-r {
+  width: 20rem;
+  flex-shrink: 2;
+}
+#kanye img {
+  width: 100%;
+}
+#kanye .box-l {
+  width: 30vw;
+  height: 70vh;
+  font-weight: bold;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-evenly;
+  align-items: flex-start;
+  flex-shrink: 1;
+}
+#kanye h2 {
+
+  font-size: 2rem;
+
+  border-bottom: 0.2rem solid white;
+} 
+#kanye h3 {
+  
+  font-size: 1.5rem;
+} 
+
+
