@@ -6,3 +6,272 @@ Green: #00B172
 White: #FFF
 
 */
+
+*{
+  box-sizing: border-box;
+}
+
+html{
+  font-size: 10px;
+}
+
+body{
+  font-family: "Circular", Helvetica, sans-serif;
+  background-color:#FFF;
+}
+
+/* Header */
+
+header{
+  display: flex;
+  padding: 2rem;
+  justify-content: space-between;
+  align-items: center;
+  max-width: 1200px;
+  margin: auto;
+}
+
+.header-image{
+  max-width:230px;
+  transition: transform 0.5s;
+}
+
+.header-image:hover {
+  transform: rotate(360deg)
+}
+
+.menu-list{
+  display: flex;
+}
+
+.menu-list__item a{
+  font-size: 2rem;
+  color: #1A1A1A;
+  text-decoration: none;
+  margin: 0 1rem;
+}
+
+/* End Header */
+
+/* Hero */
+
+.hero{
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  text-align: center;
+  background: url(../images/landing.jpg);
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-position: 50%;
+  height:78rem;
+}
+
+.hero-title{
+  font-size: 9rem;
+  font-weight: bold;
+  color:#FFF;
+}
+
+.hero-subtitle{
+  font-size: 3.5rem;
+  margin-top: 3rem;
+  color:#FFF;
+  line-height: 4.5rem;
+}
+
+.hero-subtitle--block{
+  display:block;
+  width: 100%;
+}
+
+/*End Hero */
+
+/* features */
+
+.features{
+  text-align: center;
+  margin:3rem 0;
+  max-width: 1200px;
+  margin: 3rem auto;
+}
+
+.features-title{
+  font-size: 3.6rem;
+  color:#1A1A1A;
+  margin-bottom: 10rem;
+}
+
+.features-title:after{
+  content: "";
+  width: 29.5rem;
+  height: 0.3rem;
+  display: block;
+  background:#00B172;
+  margin: 1rem auto 0;
+}
+
+.features-list{
+  display: flex;
+  justify-content: center;
+}
+
+
+.features-item{
+  text-align: center;
+  width: 45rem;
+}
+
+.features-item:before{
+  content: "";
+  width: 100px;
+  height: 100px;
+  display:block;
+  margin:0 auto 1rem;
+  background-image:url(../images/music-icon.png);
+  background-size: contain;
+  background-repeat:no-repeat;
+}
+
+.features-item.features-item--2:before{
+  background-image:url(../images/high-quality-icon.png);
+}
+
+
+.features-item.features-item--3:before{
+  background-image:url(../images/devices-icon.png);
+}
+
+.features-item-title{
+  font-size: 2.8rem;
+  font-weight: bold;
+  color:#00B172;
+}
+
+.features-item-text{
+  font-size: 2.2rem;
+  color: #1A1A1A;
+  max-width: 57%;
+  line-height: 2.5rem;
+  margin: 2rem auto 0;
+}
+
+/* End features */
+
+/* description */
+
+.description{
+  background-color: #00B172;
+  margin: 9rem auto 5rem;
+  display: flex;
+  justify-content: space-between;
+  padding: 7rem;
+  max-width: 1200px;
+}
+
+.instruction-title{
+  font-size: 3.6rem;
+  color:#FFF;
+  margin-bottom: 6rem;
+  text-align: left;
+}
+
+.instruction-title:after{
+  content: "";
+  width: 45.5rem;
+  height: 0.3rem;
+  display: block;
+  background: #FFF;
+  margin: 1rem 0 0;
+}
+
+.instruction-wrapper{
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.instruction-list {
+  max-width: 42%;
+  line-height: 1.2rem
+}
+
+.instruction-list-item__title{
+  font-size: 2.8rem;
+    font-weight: bold;
+    color: #FFF;
+    margin-bottom: 2.5rem;
+}
+
+.instruction-list-item__text{
+  font-size: 2.2rem;
+  color: #FFF;
+  line-height: 3rem;
+}
+
+.instruction-list-item:nth-child(2) {
+  margin: 4rem 0;
+}
+
+.instruction-logo {
+  max-width: 120px;
+  height: 120px;
+  margin-right: 21rem;
+}
+
+.description-image {
+  width: 28%;
+  height: auto;
+  margin-top: 3rem;
+}
+
+/* End description */
+
+
+@media screen and (max-width: 750px) {
+
+  .header-image {
+    width: 25%;
+  }
+
+  .menu-list__item a {
+    font-size: 1.8rem;
+  }
+
+  .hero-title {
+    font-size: 6rem;
+  }
+
+  .hero-subtitle {
+    font-size: 2.5rem;
+    line-height: 3.5rem;
+}
+
+  .features-list{
+    flex-direction: column;
+    align-items: center;
+  }
+
+  .features-title{
+    margin-bottom: 3rem;
+  }
+
+  .features-item{
+    margin:2rem 0;
+  }
+
+  .description{
+    flex-direction: column;
+    align-items: center;
+  }
+
+  .description-image{
+    width: 100%;
+    margin-top: 7rem;
+  }
+
+  .instruction-logo{
+    margin-right: 0;
+  }
+} 
