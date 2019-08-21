@@ -24,30 +24,40 @@ header{
     font-size: 2em;
 }
 
-header nav {
-    display:flex;
-    display: row;
+#navigation {
+    height: 70px;
+    background-color:#fff;
     justify-content: space-between;
 }
-header ul {
+#navigation ul, img {
     display:flex;
     flex-direction:row;
     justify-content: flex-end;
     list-style:none;
     margin:0 1em;
     text-decoration: none;
+}
 
-    
+#navigation li {
+    list-style-type:none;
+    display:inline-block;
+    margin:5px 3%;
+}
+
+#navigation a {
+    text-decoration:none;
+    color:black;
+    padding: 0 0 20% 0;
 }
 
 .container {
-    height: 300px;
-    width: 400px;
-    ;
+    height: 50%;
+    width: 100%;
 }
 
-.container p {
-    position:relative;
+.text p {
+    padding: 0 0 30% 0;
+    position:static;
     margin-bottom: 500px;
 }
 
@@ -74,17 +84,19 @@ header img {
     background-size: cover;
     height: 28em;
     color:white;
-
-}
-
-#header {
-    align-content: center;
-    margin: 150px 140px;
     text-align: center;
+    margin-top:  1%;
+    text-align: center;
+    border:1px solid red;
 }
 
-#header h1{
-    margin: 0 0 1em 1em;
+#header h1 {
+    position:relative;
+    width:100%;
+    margin-top: 200px;
+    padding: 3px 0 0 0;    
+    font-size:75px;
+    text-align:center;
     size: 200px;
 }
 
@@ -138,11 +150,16 @@ header img {
     color:white;
     background-color: #00B172;
     margin:0 3% 2% 3%;
+    flex-direction:row;
 }
 
 #Kanye h1 {
  margin:0 0 0% 7%;
+}
 
+#kanye img{
+    height: 10px;
+    border:1px solid red;
 }
 
 .benefits {
@@ -154,6 +171,12 @@ header img {
 .benefits p {
     margin: 0 67% 0 0;
     font-size: 0.9em;
+}
+
+#sample {
+    justify-content:row;
+    border:2px solid red;
+    height: 10px;
 }
 
 .paddin {
