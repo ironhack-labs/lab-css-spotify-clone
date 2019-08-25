@@ -1,86 +1,138 @@
-/*
-Colors:
-
-Text: 1A1A1A
-Green: #00B172
-White: #FFF
-
-
-
-//float a la izquierda, 4 secciones, 
-
-//la cuarta seccion son dos div y el logo centrarlo con posicion absoluta
-*/
 body{
-    background-color: white;
-    margin: 0;
+  margin: 0;
+  padding: 0;
+  font-family: 'Roboto';
 }
 
-.menu {
-    width: 100%;
-    float: right;
-    height: 40px;
-    text-align:right;
-    margin: 0 auto;
+nav{
+  padding: 10px 20px;
+}
 
-  }
+nav img{
+  width: 200px;
+}
 
-  #logo {
-    float: left;
-    width: 150px;
-    height: 50%;
-    margin-top: 15px;
+nav ul{
+  float: right;
+}
 
-  }
+nav li{
+  display: inline;
+  margin:0 10px;
+  font-size: 18px;
+  font-weight: 300;
+}
 
-  #intro {
-
-  background-size: cover;
+.intro{
+  height:90vh;
   position: relative;
-  left: 25%;
+  color: #fff;
+  background-image: url("../images/landing.jpg");
+  background-size: cover;
+  background-position: center;
+}
+
+.encabezado{
+  text-align: center;
+  position: absolute;
+  top:35%;
+  left: 10%;
+  right: 10%;
+}
+
+#titulo1{
+  margin: 0;
+  font-size: 4em;
+  font-weight: 700;
+  margin-bottom: .5em;
+}
+
+#titulo2{
+  margin: 0;
+  font-size: 2em;
+  font-weight: 300;
+}
+
+.bloque2{
+  text-align: center;
+  padding: 2em;
+}
+
+.contenedor{
   display: flex;
-  flex-flow: row;
-  }
+  justify-content: space-around;
+  text-align: center;
+}
 
-  #encabezado{
-    /*este es un hijo*/
-    color: white;
-    position: absolute;
-    left:40%;
-    top: 45%;
+.contenedor div{
+  width: 33%;
+  padding: 4%;
+  padding-top: 90px;
+}
+
+.contenedor img{
+  height: 100px;
+}
+
+#t2{
+    color:#00B172;
+    font-weight: 700;
+    font-size: 1.5em;
+}
+
+#p2{
+  font-weight: 300;
+    font-size: 1.5em;
+}
+
+h1{
+  font-size: 2.5em;
+    font-weight: 500;
+    border-bottom: 3px solid #00B172;
     display: inline;
-  }
+    margin-bottom:5px; 
+}
 
-  #barraNavegacion{
-      background-color: aqua;
-    width: 100%;
-  }
-  
-  .barraNavegacion ul {
-    padding: 0px;
-    margin: 0px;
-    
-  }
-  
-  .barraNavegacion li {
-    list-style-type: none;
-    padding: 0px;
-    height: 24px;
-    margin-top: 4px;
-    margin-bottom: 4px;
-    display: inline;
-  }
-  
-  .barraNavegacion li a {
-    color: black;
-    font-size: 16px;
-    font-family: "Trebuchet MS", Arial, Helvetica, sans-serif;
-    text-decoration: none;
-    line-height: 70px;
-    padding: 5px 15px;
-    opacity: 0.7;
-  }
-  
+.bloque3{
+  background-color: #00B172;
+  color: #fff;
+  display: flex;
+  justify-content: space-around;
+  padding: 2em;
+  margin: 20px;
+  position: relative;
+}
 
+#izquierdo{
+  width: 500px;
+  
+}
 
-    
+#izquierdo .bTitulo{
+  border-bottom: 3px solid #fff;
+  display: inline;
+  font-weight: 700;
+  font-size: 2em;
+}
+
+#izquierdo .bsubTitulo1{
+  font-weight: 700;
+  font-size: 1.5em;
+}
+
+#izquierdo .bsubTitulo2{
+  font-weight: 300;
+    font-size: 1.2em;
+    width: 250px;
+}
+
+.spoti{
+  width: 300px;
+}
+.logoSpoti{
+  position: absolute;
+  top: 40%;
+}
+.logoSpoti img{
+  width: 90px;
+}
