@@ -1,8 +1,139 @@
-/*
-Colors:
+.nav-bar {
+  width: 140px;
+  height: 45px;
+}
 
-Text: 1A1A1A
-Green: #00B172
-White: #FFF
+.banner {
+  background-image: url("../images/landing.jpg");
+  background-size: cover;
+  height: 100vh;
+  width: 100vw;
+  color: white;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
 
-*/
+.banner h1 {
+  font-size: 4rem;
+  margin-bottom: 0;
+}
+
+.banner p {
+  width: 50%;
+  text-align: center;
+  font-size: 18px;
+  margin-bottom: 45px;
+}
+
+.main-content {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+.main-content h2 {
+  margin-top: 30px;
+}
+
+.whats-on {
+  border-bottom: solid 3px #00b172;
+}
+
+.card-container {
+  display: flex;
+  margin: 50px 0;
+}
+
+.card h3 {
+  margin-bottom: 0;
+  color: #00b172;
+}
+
+.card-container img {
+  width: 70px;
+}
+
+.card {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  flex: 1;
+}
+
+.card p {
+  text-align: center;
+  width: 70%;
+}
+
+.green-box {
+  background-color: #00b172;
+  color: white;
+  height: 500px;
+  padding: 0 50px;
+  margin-bottom: 30px;
+  position: relative;
+}
+
+.green-box h2 {
+  padding-top: 10px;
+  margin-bottom: 50px;
+  margin-left: 10px;
+  margin-right: 10px;
+  border-bottom: solid 3px white;
+  text-align: left;
+}
+
+.sbd-card p {
+  width: 35%;
+}
+
+.search-browse-discover {
+  width: 368px;
+  align-self: left;
+  font-size: 13pt;
+}
+
+.icon {
+  width: 80px;
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+}
+
+.kanye-img {
+  height: 375px;
+  position: absolute;
+  top: 50%;
+  left: 80%;
+  transform: translate(-50%, -50%);
+}
+
+.inner-wrapper {
+  max-width: 750px;
+}
+
+body {
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+    font-family: "Raleway", sans-serif;
+
+}
+
+header {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 0 30px;
+}
+ul {
+    list-style-type: none;
+    display: flex;
+}
+
+li {
+    padding: 10px 15px;
+}
