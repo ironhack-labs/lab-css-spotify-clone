@@ -1,121 +1,140 @@
-/*
-Colors:
-
-Text: 1A1A1A
-Green: #00B172
-White: #FFF
-
-*/
-
 * {
   box-sizing: inherit;
 }
 
 html {
+  font: 26px 'Raleway', Arial, sans-serif;
   box-sizing: border-box;
 }
 
+body {
+  padding: 0;
+  margin: 0;
+}
+
 nav {
-  background-color: #FFF;
-  width: 100%;
-  height: 70px;
   display: flex;
-  justify-content: space-around;
+  flex-direction: row;
+  align-items: center;
+  justify-content: space-between;
+  padding: 10px 30px;
 }
 
-ul {
+nav>ul {
   display: flex;
+  flex-direction: row;
   list-style: none;
-  font-size: 30px;
 }
 
-li {
-  padding: 15px;
+nav>ul>li {
+  margin: 0 10px;
 }
 
 #logo {
   width: 200px;
+}
+
+#logo>img {
+  width: 100%;
   height: auto;
-
 }
 
-h1 {
-  color: #FFF;
-  font-size: 90px;
-  text-align: center;
-  vertical-align: 50%;
-}
-
-
-
-#cover {
+/*Section 1*/
+#landing {
+  display: flex;
+  align-items: center;
+  flex-direction: column;
+  justify-content: center;
+  color: #fff;
   background-image: url('./../images/landing.jpg');
   background-size: cover;
-  width: 100%;
   height: 120vh;
-}
-
-#ch2 {
-  color: #FFF;
-  font-size: 30px;
   text-align: center;
 }
 
-#ch2b {
-  color: #FFF;
-  font-size: 30px;
-  text-align: center;
+#landing>h1 {
+  font-size: 78px;
+  margin-bottom: 10px;
 }
 
-#mid {
-  background-color: #FFF;
-  width: 100vw;
+/*Section 2*/
+#features {
+  width: 100%;
   height: 70vh;
-  justify-content: space-around;
-
-}
-
-#whats {
-  color: #FFF;
-  font-size: 30px;
+  display: flex;
+  flex-direction: column;
   text-align: center;
+  justify-content: center;
 }
 
-#m1 {
-  width: 300px;
+#features>div {
+  display: flex;
+  align-items: center;
+  justify-content: space-around;
+}
+
+#features>div>h2 {
+  display: block;
+  margin-bottom: 70px;
+  padding: 10px 0;
+  border-bottom: 5px solid #00b172;
+  font-size: 42px;
+}
+
+#features>div h3 {
+  color: #00b172;
+}
+
+#features>div>div {
+  width: 18%;
+}
+
+#features>div>div>img {
+  width: 45%;
   height: auto;
-  display: inline;
 }
 
-#sound {
-  width: 50px;
-  height: auto;
-}
-
-#waves {
-  width: 50px;
-  height: auto;
-}
-
-#devices {
-  width: 50px;
-  height: auto;
-}
-
-#m2 {
-  width: 300px;
-  height: auto;
-  display: inline;
-}
-
-#m3 {
-  width: 300px;
-  height: auto;
-  display: inline;
-}
-
-#last {
-  background-color: #00B172;
-  width: 100vw;
+/*Section 3*/
+#Kanye {
+  display: flex;
+  align-items: center;
+  justify-content: space-around;
+  width: 100%;
   height: 100vh;
+  background-image: url('./../images/spotify-icon-white.png');
+  background-color: #00b172;
+  background-repeat: no-repeat;
+  background-position: center;
+  background-size: 200px;
+  border: 50px solid #fff;
+}
+
+#text-Kayne {
+  width: 45%;
+  color: #fff;
+  padding-bottom: 40px;
+}
+
+#text-Kayne>span>h2 {
+  display: block;
+  padding: 10px 0;
+  margin-right: 130px;
+  border-bottom: 5px solid #fff;
+}
+
+#text-Kayne * {
+  margin-bottom: 50px;
+}
+
+#text-Kayne>div {
+  padding-right: 300px;
+}
+
+#app-image {
+  width: 30%;
+}
+
+#app-image>img {
+  width: 85%;
+  height: auto;
 }
