@@ -6,3 +6,157 @@ Green: #00B172
 White: #FFF
 
 */
+* {
+  margin: 0;
+  padding: 0;
+}
+body {
+  font-family: sans-serif;
+  font-weight: 500;
+  color: #1a1a1a;
+}
+header {
+  position: fixed;
+  height: 80px;
+  width: 100%;
+  background-color: white;
+}
+nav {
+  float: right;
+  padding: 15px 20px;
+  height: 100%;
+  display: table;
+}
+header img {
+  height: 62.5%;
+  padding: 15px 20px;
+  float: left;
+}
+ul {
+  width: 100%;
+  display: table-cell;
+  vertical-align: middle;
+}
+nav li {
+  display: inline;
+}
+nav a {
+  text-decoration: none;
+  margin: 0 15px;
+  height: 50px;
+  line-height: 50px;
+  white-space: nowrap;
+  color: inherit;
+}
+body {
+  padding-top: 1px;
+}
+#slogan {
+  background: url(../images/landing.jpg) no-repeat center center;
+  background-size: cover;
+  height: 700px;
+  width: 100%;
+  margin-top: 80px;
+  text-align: center;
+  display: table;
+}
+#slogan div {
+  display: table-cell;
+  vertical-align: middle;
+}
+#slogan h1 {
+  font-size: 5em;
+  padding: 30px;
+  font-weight: 500;
+  color: white;
+}
+#slogan p {
+  font-size: 1.8em;
+  font-weight: 200;
+  color: white;
+}
+
+#features {
+  padding: 40px;
+  text-align: center;
+}
+#features h1 {
+  display: inline;
+  font-size: 2.5em;
+  border-bottom: 3px solid #00b172;
+}
+#features h2 {
+  font-size: 1.5em;
+  color: #00b172;
+  font-weight: 600;
+  padding: 10px;
+}
+#features > div {
+  padding-top: 100px;
+  width: 100%;
+}
+#features section {
+  display: inline-block;
+  height: 250px;
+  vertical-align: middle;
+  margin: 0 5% 0 0;
+  width: 25%;
+}
+#features section img {
+  height: 100px;
+}
+#features section p {
+  font-size: 1.5em;
+  font-weight: 100;
+}
+
+#footer {
+  background-image: url(../images/spotify-icon-white.png);
+  background-repeat: no-repeat;
+  background-size: 120px;
+  background-position: center;
+  background-origin: inherit;
+  background-color: #00b172;
+  margin: 30px;
+  color: white;
+  padding: 30px 100px;
+  text-align: center;
+}
+#footer div {
+  padding: 20px 0;
+}
+#footer section {
+  display: inline-block;
+  vertical-align: middle;
+  width: 48%;
+
+  text-align: left;
+}
+#footer p,
+#footer h1,
+#footer h2 {
+  color: white;
+}
+#footer h2 {
+  padding-top: 25px;
+}
+#footer p {
+  width: 50%;
+  font-size: 1.3em;
+  padding-top: 25px;
+  font-weight: 100;
+}
+
+#footer h1 {
+  border-bottom: 3px solid #fff;
+  display: inline;
+  font-size: 2em;
+  /* margin-bottom: 30%; */
+  padding-bottom: 10px;
+}
+
+#footer img {
+  width: 300px;
+  /* height: 100%; */
+  float: right;
+}
