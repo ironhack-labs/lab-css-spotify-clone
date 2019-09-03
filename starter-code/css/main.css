@@ -6,3 +6,159 @@ Green: #00B172
 White: #FFF
 
 */
+*{
+    margin: 0px;
+    font-family: 'Montserrat', sans-serif;
+    font-weight: 400;
+}
+
+nav {
+    z-index: 100;
+    width: 100%;
+    height: 12vh;
+    position: fixed;
+    background-color: #fff;
+}
+
+nav img {
+    height: 8vh;
+    padding: 2vh 0 2vh 5vh;
+    float: left;
+}
+
+nav ul li { 
+    float: right;
+    list-style-type: none;
+    font-size: 20px;
+    padding-right: 5vh;
+    padding-top: 5vh;
+}
+
+#landing {
+    height: 100vh;
+    width: 100vw;
+    background-image: url("../images/landing.jpg");
+    background-size: cover;
+    background-position: center;
+    color: #fff;
+    position: relative;
+}
+
+#landing div{
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    text-align: center;
+    transform: translate(-50%, -50%);
+}
+
+#landing h2{
+    font-size: 75px;
+    padding-bottom: 50px;
+}
+
+#landing h3{
+    font-size: 33px;
+    font-weight: 300;
+}
+
+.info {
+    height: 700px;
+}
+
+#titlegreenborder {
+    border-bottom-color: #00B172;
+    border-bottom-style: solid;
+    border-bottom-width: 5px;
+    padding-bottom: 5px;
+    text-align: center;
+    font-size: 42px;
+    font-weight: 700;
+    padding-top: 50px;
+    width: 450px;
+    margin: auto;
+}
+
+.cardholder {
+    width: 80%;
+    margin: 0 auto;
+}
+
+.card {
+    float: left;
+    width: 30%;
+    padding-top: 150px;
+    text-align: center;
+    font-size: 25px;
+}
+
+.card:nth-of-type(2) {
+    margin: 0 5%;
+}
+
+.card img {
+    height: 100px;
+    margin-bottom: 20px;
+}
+
+.card h3 {
+    color: #00B172;
+    font-weight: 700;
+    margin-bottom: 40px;
+}
+
+.greencard {
+    background-color: #00B172;
+    margin: 50px;
+    position: relative;
+    height: 1000px;
+    font-weight: 700;
+    color: white;
+}
+
+.infotext {
+    padding-top: 50px;
+    margin-left: 150px;
+    width: 575px;
+}
+
+#line { 
+    display: block;
+    width: 575px;
+    height: 5px;
+    background-color: #fff;
+    z-index: 1000;
+    position: relative;
+}
+
+.greencard div h3 {
+    font-size: 42px;
+    margin: 10px 0;
+}
+
+.greencard div h4 {
+    font-size: 33px;
+    margin: 42px 0;
+}
+
+.greencard div p {
+    font-size: 20px;
+    font-weight: 400;
+    margin: 42px 0;
+}
+
+.centerlogo {
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    width: 150px;
+}
+
+.rightapp {
+    position: absolute;
+    top: 50%;
+    left: 80%;
+    transform: translate(-50%, -50%);
+    height: 750px;
+}
