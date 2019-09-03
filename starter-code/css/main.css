@@ -28,7 +28,7 @@ body {
 }
 
 .major-picture {
-    width: 240px;
+    width: 300px;
 }
 
 .header {
@@ -139,17 +139,20 @@ h4 {
 
 .final-section {
     margin: 1rem 1rem;
+    padding: 1rem;
     width: 100%;
     height: 600px;
     position: relative;
     background-color:#00B172;
-    background-size: cover; 
+    background-image: url(../images/spotify-icon-white.png);
+    background-repeat: no-repeat; 
+    background-position: center;
+    background-size: 10%;
 }
 
 .final-section > div {
     display: inline-block;
-    margin: 3rem 1rem 3rem 1rem;
-    height: 400px;
+    margin: 2.5rem 1rem 1rem 1rem;
 }
 
 .final-section > p {
@@ -161,14 +164,15 @@ h4 {
     text-decoration-color: white;
     text-underline-position: under;
     position: absolute;
-    top: 1rem;
-    left: 5rem;
+    top: 2rem;
+    left: 7rem;
 }
 
 .final-section > div > article {
     text-align: left;
     color: white;
-    margin-top: 3rem;
+    width: 50%;
+
 }
 
 .final-section > div > article > p {
