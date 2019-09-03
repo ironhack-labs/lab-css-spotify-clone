@@ -6,3 +6,193 @@ Green: #00B172
 White: #FFF
 
 */
+
+* {
+  padding: 0;
+  margin: 0;
+}
+
+html {
+  font-size: 10px;
+}
+
+body {
+  font-family: 'Montserrat', sans-serif;
+}
+
+nav {
+  width: 100%;
+  position: fixed;
+  height: 5rem;
+  padding: 1rem;
+  background-color: white;
+  z-index: 1;
+}
+
+nav div {
+  width: 96%;
+  height: 100%;
+  margin: 0 auto;
+}
+
+nav div > img {
+  float: left;
+  height: 5rem;
+}
+
+nav li {
+  float: right;
+  margin: auto 1.8rem;
+  font-size: 2rem;
+  list-style: none;
+  font-weight: 300;
+  cursor: pointer;
+  line-height: 5rem;
+}
+
+nav li:nth-last-child() {
+  margin-right: 2rem;
+}
+
+.header {
+  background-image: url('../images/landing.jpg');
+  background-size: cover;
+  background-position: center;
+  width: 100vw;
+  height: 85rem;
+  color: white;
+  position: relative;
+}
+
+header div {
+  position: absolute;
+  top: 38rem;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  width: 80rem;
+}
+
+.header h1 {
+  font-size: 7.5rem;
+  font-weight: 900;
+  text-align: center;
+  margin-bottom: 3rem;
+}
+
+header p {
+  font-size: 2.8rem;
+  text-align: center;
+  font-weight: 300; /* TODO: Arrumar font-weight dps */
+}
+
+.section-info {
+  position: relative;
+  height: 50rem;
+}
+
+.section-info h3 {
+  margin: 3.5rem 0 8rem 0;
+  width: 100%;
+  font-size: 3.6rem;
+  text-align: center;
+}
+
+.section-info h3 > div {
+  width: 35rem;
+  margin: 0 auto;
+  height: .4rem;
+  background-image: linear-gradient(to right, #3b9e5b, #369861);
+  border-radius: 1px;
+}
+
+.cards-container {
+  width: 80%;
+  background-color: blue;
+  margin: 0 auto;
+}
+
+.card {
+  float: left;
+  width: 30%;
+  height: 30rem;
+}
+
+.card img {
+  height: 10rem;
+  margin: 0 auto 2rem auto;
+  display: block;
+}
+
+.card h4 {
+  width: 100%;
+  font-size: 2.8rem;
+  color: #3eac79;
+  text-align: center;
+  margin-bottom: 4rem;
+}
+
+.card p {
+  width: 100%;
+  font-size: 2.4rem;
+  font-weight: 300;
+  text-align: center;
+  color: #333;
+}
+
+.card:nth-of-type(2) {
+  margin: 0 5%;
+}
+
+.section-features {
+  width: 95%;
+  margin: 0 auto 2.5rem auto;
+  background-color: #00B172;
+  height: 78rem;
+  color: white;
+  position: relative;
+}
+
+.section-features img:nth-of-type(1) {
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  width: 13rem;
+  transform: translate(-50%, -50%);
+}
+
+.section-features img:nth-of-type(2) {
+  position: absolute;
+  top: 52%;
+  left: 80%;
+  transform: translate(-50%, -50%);
+  width: 35rem;
+}
+
+.section-features > h3 {
+  padding: 6rem 0 .6rem 8rem;
+  font-size: 3.4rem;
+}
+
+.section-features > h3 + div {
+  width: 48rem;
+  height: .4rem;
+  background-color: white;
+  margin-left: 8rem;
+}
+
+.section-features .container {
+  width: 35rem;
+  padding: 4.5rem 0 0 8rem;
+}
+
+.section-features h4 {
+  font-size: 2.8rem;
+  margin-bottom: 3rem;
+}
+
+.section-features p {
+  font-size: 2.1rem;
+  font-weight: 300;
+  margin-bottom: 3.8rem;
+  line-height: 3.6rem;
+}
