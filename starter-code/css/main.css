@@ -4,5 +4,117 @@ Colors:
 Text: 1A1A1A
 Green: #00B172
 White: #FFF
-
 */
+*{
+    padding: 0;
+    margin: 0;
+}
+a{
+    color: inherit;
+    text-decoration: none;
+}
+.clearfix {
+    clear: both;
+}
+body {
+    font-family: sans-serif;
+    color: #1a1a1a;
+    padding-top: 1px;
+}
+header {
+    position: fixed;
+    width: 100%;
+    background-color: white;
+    overflow: hidden;
+    margin: -1;
+}
+header img {
+    height: 50px;
+    float: left;
+}
+nav {
+    padding: 20px;
+}
+nav ul {
+    float: right;
+    padding-top: 20px;
+}
+nav ul li {
+    display: inline;
+    text-decoration: none;
+}
+#sec1 {
+    background-image: url("/lab-css-spotify-clone/starter-code/images/landing.jpg");
+    width: 100%;
+    height: 600px;
+    background-size: cover;
+    margin-top: 50px;
+    color:white
+}
+#sec1 h1 {
+    color:white;
+    font-size: 50px;
+}
+#sec1 div {
+    text-align: center;
+    padding-top: 30%;
+    color: white;
+}
+#sec2 {
+    text-align: center;
+    margin-top: 25px;
+    height: 300px;
+    padding-top: 20%;
+    vertical-align: middle;
+}
+#sec2 h2 {
+    border-bottom: 2px solid #00B172;
+    text-align: center;
+    color: black;
+    display:inline; 
+    margin-bottom: 
+}
+#sec2 h3 {
+        color: #00B172;
+        text-align: center;
+        margin-top: 15px;
+        margin-bottom: 40px;
+}
+#sec2 img {
+    height: 100px;
+    margin-bottom: 20px;
+}
+#sec2 article {
+    display: inline-block;
+    padding-left: 30px;
+    vertical-align: middle;
+    padding-top: 30px;
+
+}
+#sec3 {
+    background-color: #00B172;
+    display: inline-block;
+    color:white;
+    padding: 15px;
+    height: 1000px;
+}
+#sec3 h2{
+    border-bottom: 2px solid white;
+    text-align: left;
+    margin-top: 15px;
+    display: inline;
+}
+#sec3 div{
+    position: relative;
+    float: left;
+}
+#sec3 article{
+    padding-top: 15px;
+ }
+#sec3 > div > img{
+    position: absolute;
+    top: 50%;
+    left: 80%;
+    transform: translater(-50%, -50%);
+    height: 750px;
+}
