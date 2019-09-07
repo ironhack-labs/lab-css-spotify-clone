@@ -6,3 +6,153 @@ Green: #00B172
 White: #FFF
 
 */
+
+
+*,
+*::after,
+*::before {
+  box-sizing: border-box;
+}
+body {
+  margin: 0;
+  padding: 0;
+  padding-top: 75px;
+  font-family: 'Roboto', sans-serif;
+  color: #1A1A1A;
+}
+header {
+  position: fixed;
+  background: #fff;
+  z-index: 99;
+  top: 0;
+  left: 0;
+  width: 100%;
+  padding: 10px 30px;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+}
+.header__right ul {
+  display: flex;
+  margin: 0;
+  padding: 0;
+  list-style: none;
+}
+.header__right ul li {
+  padding: 0 10px;
+}
+
+.hero {
+  position: relative;
+  width: 100%;
+  background-image: url(../images/landing.jpg);
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+  height: calc(100vh - 75px);
+}
+
+.hero__content {
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  text-align: center;
+  color: #fff;
+}
+.hero__content h1 {
+  font-size: 80px;
+  font-weight: 500;
+  margin-bottom: 25px;
+  margin-top: 0;
+}
+.hero__content p {
+  font-size: 28px;
+  max-width: 800px;
+  margin: 0 auto;
+  font-weight: 300;
+}
+
+.selling-points {
+  text-align: center;
+  padding: 40px 0;
+}
+.selling-points h2 {
+  display: inline-block;
+  font-weight: 500;
+  font-size: 38px;
+  letter-spacing: 0.03em;
+  border-bottom: 4px solid #00B172;
+  padding-bottom: 5px;
+}
+
+.selling-points .selling-points__columns {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-between;
+  padding: 40px 5%;
+}
+.selling-points .selling-points__columns .selling-points__columns__element {
+  width: 33.33%;
+  padding: 0 25px;
+}
+.selling-points .selling-points__columns .selling-points__columns__element img {
+  height: 100px;
+  margin: 0 auto;
+}
+.selling-points .selling-points__columns .selling-points__columns__element h3 {
+  font-size: 30px;
+  letter-spacing: 0.03em;
+  color:#00B172;
+}
+
+.selling-points .selling-points__columns .selling-points__columns__element p {
+  font-weight: 300;
+  font-size: 24px;
+}
+.discover {
+  background-color: #00B172;
+  background-image: url(../images/spotify-icon-white.png);
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: 130px;
+  margin: 0 30px;
+  margin-bottom: 30px;
+  display: flex;
+  align-items: center;
+  padding: 80px;
+  color: #fff;
+  justify-content: space-between;
+}
+.discover__left {
+  width: 50%
+}
+.discover__left h2 {
+  display: inline-block;
+  font-size: 35px;
+  border-bottom: 3px solid #fff;
+  letter-spacing: 0.03em; 
+}
+.discover__left h3 {
+  font-size: 25px;
+  letter-spacing: 0.03em; 
+  margin-bottom: 20px;
+}
+.discover__left p {
+  font-size: 23px;
+  line-height: 150%;
+  letter-spacing: 0.03em; 
+  margin-bottom: 50px;
+  font-weight: 300;
+  max-width: 350px;
+}
+.discover__right {
+  width: 30%;
+  justify-content: center;
+}
+.discover__right {
+  align-self: flex-end;
+}
+.discover__right img {
+  width: 350px;
+}
