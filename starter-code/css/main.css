@@ -1,8 +1,213 @@
-/*
-Colors:
+/*----------------------- Menu----------------------*/
 
-Text: 1A1A1A
-Green: #00B172
-White: #FFF
+body{
+	background-color: #fff;
+}
 
-*/
+.wrapper{
+	position: relative;
+	width: 100%;
+	max-width: 1400px;
+	margin: 0 auto;
+	border: 2px solid #000;
+}
+
+.menu{
+    width: 95%;
+    height: 65px;
+    display: block;
+    padding: 20px 0.5%;
+    margin: 0 auto;
+}
+
+.logo img{
+	width: 200px;
+	float: left;
+}
+
+.menu-items{
+	float: right;
+}
+
+.menu-items li{
+	list-style: none;
+    float: left;
+    font-family: sans-serif;
+    text-transform: uppercase;
+    color: grey;
+    padding-left: 20px;
+    font-size: 24px;
+}
+
+
+
+/*---------------------- Section 01 ---------------------*/
+
+
+
+.section01{
+	background-image: url('../images/landing.jpg');
+	background-repeat: no-repeat;
+	background-size: cover;
+	position: relative;
+	width: 100%;
+	height: 100vh;
+	color: #fff;
+}
+
+.section01-text-container{
+	position: absolute;
+	text-align: center;
+    top: 50%;
+    left: 50%;
+	transform: translate(-50%, -50%);
+}
+
+.section01-title{
+	font-family: sans-serif;
+    font-weight: 500;
+    font-size: 80px;
+}
+
+.section01-text{
+	font-family: sans-serif;
+    font-weight: 500;
+    font-size: 28px;
+    margin-top: 5%;
+    line-height: 1.5; 
+}
+
+
+
+/*---------------------- Section 02 ---------------------*/
+
+.section02-title-container{
+	width: 100%;
+	height: 70px;
+	position: relative;
+	text-align: center;
+	padding: 2.5% 0%;
+}
+
+.section02-title{
+    font-weight: bold;
+    font-size: 40px;
+    font-family: sans-serif;
+    display: inline-block;
+    border-bottom: 5px solid #1ab26b;
+    padding: 20px 0px 5px 0px;
+}
+
+
+/*-------- Column -------*/
+
+
+.column3-container{
+	width: 100%;
+    position: relative;
+    text-align: center;
+    padding: 5% 0%;
+    display: table;
+}
+
+.column3{
+	width: 33.3%;
+	float: left;
+}
+
+.column3-img{
+	height: 150px;
+}
+
+.column3 img{
+	width: 150px;
+}
+
+.column3-title{
+	font-family: sans-serif;
+	color: #1ab26b;
+	font-size: 28px;
+	font-weight: bold;
+}
+
+.column3-text{
+    font-family: sans-serif;
+    font-weight: 500;
+    font-size: 24px;
+    margin-top: 5%;
+    line-height: 1.5;
+    color: grey;
+}
+
+
+
+/*---------------------- Section 03 ---------------------*/
+
+
+.section03{
+	position: relative;
+	margin: 0 auto;
+	width: 95%;
+	background-color: #1ab26b;
+	display: table;
+	color: #fff;
+	margin-bottom: 2.5%;
+	font-family: sans-serif;
+}
+
+
+.section03-container{
+    display: table;
+    padding: 5% 0%;
+    width: 100%;
+}
+
+
+.section03 img{
+	position: absolute;
+	width: 150px;
+	top: 50%;
+	left: 50%;
+	transform: translate(-50%, -50%);
+}
+
+.column-half{
+	position: relative;
+    width: 40%;
+    float: left;
+    margin: 0 auto;
+    padding: 0 5%;
+    min-height: 780px;
+}
+
+.column-half img{
+	position: absolute;
+	width: 60%;
+	top: 50%;
+	left: 50%;
+	transform: translate(-50%, -50%);
+}
+
+
+
+/*------- Section 03 1st Block-------*/
+
+.section03-title{
+    font-size: 40px;
+    border-bottom: 4px solid #fff;
+    display: inline-block;
+    padding-bottom: 5px;
+}
+
+.section03-sub-title{
+	font-size: 35px;
+    font-weight: 700;
+    display: inline-block;
+    padding: 10% 0%;
+}
+
+.section03-text{
+	font-size: 25px;
+    font-weight: lighter;
+    line-height: 1.5;
+}
