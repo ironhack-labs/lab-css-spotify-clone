@@ -6,3 +6,209 @@ Green: #00B172
 White: #FFF
 
 */
+body{
+	margin: 0px;
+	font-family: sans-serif;
+}
+
+/*Div header*/
+
+header {
+	position: fixed;
+	background-color: white;
+	width: 100vw;
+	display: flex;
+	justify-content: space-between;
+	padding-top: 15px;
+	padding-bottom: 15px;
+	align-items: center;
+}
+
+header #logo {
+	align-items: center;
+	width: 200px;
+	margin-left: 30px;
+}
+
+header img {
+	max-width: 100%;
+}
+
+/*Div menu de navegação */
+
+#navbar ul {
+	width: 40vw;
+	display: flex;
+	justify-content: space-around;
+
+}
+
+#navbar ul li {
+	list-style: none;
+	padding-right: 2vw;
+	padding-left: 2vw;
+}
+
+/*Banner imagem e texto centralizado*/
+
+#banner {
+	display: flex;
+	background-image: url("../images/landing.jpg");
+	background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+	align-items: center;
+	justify-content: center;
+	width: 100vw;
+	height: 750px;
+}
+
+#banner > img {
+	max-width: 100%;
+}
+
+#div-text-banner {
+	width: 60vw;
+
+}
+
+#div-text-banner > h1 {
+	text-align: center;
+	font-size: 80px;
+	color: white;
+	margin: 10px;
+}
+
+#div-text-banner > p {
+	text-align: center;
+	font-size: 25px;
+	padding-left: 40px;
+	padding-right: 40px;
+	color: white;
+	font-weight: lighter;
+}
+
+/*Section icon*/
+
+#title-section-2 {
+	display: flex;
+	justify-content: center;
+	align-items: center;
+	margin-top: 30px;
+	margin-bottom: 0px;
+}
+
+#title-section-2 span {
+	font-size: 40px;
+	border-bottom: solid 4px #1ab26b;
+	font-weight: 600;
+	padding-bottom: 5px;
+}
+
+#section-icons {
+	display: flex;
+	width: 100vw;
+	height: 400px;
+	justify-content: space-around;
+	align-items: center;
+}
+
+#section-icons span {
+	margin-top: 20px;
+	font-size: 25px;
+	font-weight: 900;
+	color: #1ab26b;
+}
+
+#section-icons p {
+	margin-top: 15px;
+	font-size: 20px;
+	font-weight: 100;
+	color: #505050;
+	text-align: center;
+}
+
+#section-icons img {
+	max-width: 60%;
+}
+
+#section-icons div {
+	display: flex;
+	flex-direction: column;
+	align-items: center;
+	width: 20vw;
+	height: 20vw;
+}
+
+/*sextion 3*/
+
+
+#full-section-3 {
+	display: flex;
+	justify-content: center;
+	justify-content: space-around;
+	margin-bottom: 30px;
+}
+
+#section-3 {
+	display: flex;
+	justify-content: space-around;
+	background-color: #1ab26b;
+	display: flex;
+	width: 95vw;
+	height: 800px;
+}
+
+#full-section-3 #section-3 #info-text-3 h2 {
+	margin-left: 70px;
+	margin-right: 43px;
+	margin-bottom: 60px;
+	margin-top: 0px;
+	border-bottom: solid white;
+	font-size: 2.9vw;
+	color: white;
+}
+
+#full-section-3 #section-3 #info-text-3{
+	display: flex;
+	flex-direction: column;
+	justify-content: center;
+}
+
+#full-section-3 #section-3 #info-text-3 p{
+	padding-left: 70px;
+	padding-top: 10px;
+	padding-bottom: 10px;
+	color: white;
+	font-size: 25px;
+}
+
+
+#full-section-3 #section-3 #info-text-3 span {
+	padding-left: 70px;
+	padding-top: 10px;
+	padding-bottom: 10px;
+	font-size: 30px;
+	font-weight: 600;
+	color: white;
+}
+
+#full-section-3 #section-3 #white-logo  {
+	display: flex;
+	justify-content: center;
+	align-items: center;
+}
+
+#full-section-3 #section-3 #spotify-app{
+	display: flex;
+	justify-content: center;
+	align-items: center;
+}
+#full-section-3 #section-3 div {
+	width: 824px;
+}
+
+
+#full-section-3 #section-3 #spotify-app img {
+	max-width: 60%;
+}
