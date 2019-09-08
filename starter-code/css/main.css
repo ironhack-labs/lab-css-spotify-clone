@@ -6,3 +6,147 @@ Green: #00B172
 White: #FFF
 
 */
+body{
+    margin:0 auto;
+}
+
+header{
+    z-index: 5;
+    width: 100%;
+    position: fixed;
+    height: 100px;
+    background-color: white;
+}
+
+#spotify-logo{
+    padding:15px 40px;
+    height: 70px;
+    width: auto;
+}
+
+nav{
+    top: 40px;
+    position: fixed;
+    right: 0;
+}
+nav ul{
+    position: relative;
+    list-style: none;
+    margin: 0;
+    padding: 0;
+    width: auto;
+}
+
+nav ul li{
+    font-size: 1.5em;
+    display: inline;
+    padding-right: 30px;
+}
+
+section.background-image{
+    padding-top: 100px;
+    background: url(../images/landing.jpg) no-repeat center center fixed;
+    background-size: cover;
+    height: 800px;
+    color:white;
+    text-align: center
+}
+section.background-image > div{
+    position: absolute;
+    left:50%;
+    top:50%;
+    transform: translate(-50%, -50%);
+    font-size: 2em;
+}
+section.background-image .title{
+    font-size: 2em;
+}
+
+section.background-image p{
+    padding: 0 45px;
+}
+
+.multiplecolumns{
+    height: 570px;
+    margin:50px;
+}
+.multiplecolumns > .title{
+    text-align: center;
+    font-size: 3em;
+}
+.multiplecolumns > .title > div{
+    font-weight: bold;
+    margin: auto;
+    width: 400px;
+    border-bottom: 5px solid #1DB954;
+}
+.third{
+    position:relative;
+    width:33%;
+    float: left; 
+}
+.multiplecolumns .third{
+
+    text-align: center;
+    margin: 100px 0;
+    font-size: 2em;
+}
+.multiplecolumns .third img{
+    max-height: 140px;
+}
+.multiplecolumns .third h4{
+    margin-top: 20px;
+    color:#1DB954;
+    font-weight: bold;
+}
+.multiplecolumns .third div{
+    font-weight: lighter;
+    width: 65%;
+    margin: auto;
+}
+
+section.green{
+    position: relative;
+    height: 1185px;
+    margin: 25px;
+    color:white;
+    background-color: #1DB954;
+}
+
+section.green .spotify-logo{
+    position: absolute;
+    left:50%;
+    top:50%;
+    transform: translate(-50%, -50%);
+    width: 150px;
+}
+.half{
+    position: relative;
+    float: left;
+    width: 50%;
+}
+.half .text{
+    padding:10%;
+    font-size: 1.5em;
+}
+.half .text .section-title{
+    margin: auto;
+    border-bottom: 5px solid white;
+    font-size: 2.37em;
+}
+.half .text .title{
+    margin: 10% 0;;
+    font-weight: bold;
+    font-size: 1.5em;
+}
+.half .text p{
+    width: 56%;
+}
+.half .text p.middle-text{
+    width: 45%;
+} 
+.half .img-app{
+    padding: 20% 0 0 10%;
+    margin-left: 10%;
+    width: 60%;
+}
