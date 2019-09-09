@@ -1,4 +1,4 @@
-
+@import url('https://fonts.googleapis.com/css?family=Poppins');
 /*
 Colors:
 
@@ -7,12 +7,161 @@ Green: #00B172
 White: #FFF
 
 */
+body {
+  font-family: 'Poppins';
+}
+h1{
+	font-size: 72px;
+}
+
+h3{
+	font-size: 30px;
+	/* color: #00B172; */
+}
+
+header > div{
+	/* border: 1px solid black; */
+	padding: 10px 25px;
+	display: flex;
+	flex-direction: row;
+	justify-content: space-between;
+	align-items: center;
+}
+
+nav{
+	width: 450px;
+}
+
+nav ul{
+	list-style: none;
+	display: flex;
+	justify-content: space-between;
+	align-items: center;
+}
+
+nav a {
+  text-decoration: none;
+  font-size: 20px;
+  font-weight: 100;
+  color: black;
+}
 
 header > div + div{
-    border: 1px dotted #f4552f;
+	font-family: Arial, Helvetica, sans-serif;
+    /* border: 1px dotted #f4552f; */
     color: #FFF;
     background-image: url('../images/landing.jpg');
     background-size: 100%;
-    height : 800px;
+    height : 700px;
+	display: flex;
+	flex-direction: column;
+	align-items: center; 
+	justify-content: center;
 }
 
+header > div + div > section{
+	display: flex;
+	flex-direction: column;
+	align-items: center; 
+	justify-content: center;
+	font: 28px Helvetica, cursive;
+	
+	font-weight: 100;
+	
+}
+
+#principal{
+	/* border: 1px solid #f1551f; */
+	padding: 25px;
+}
+
+#primeiro{
+	display: flex;
+	flex-direction: column;
+	align-items: center;	
+	padding-bottom: 100px;
+	/* border: 1px solid #f1f51f; */
+}
+
+#primeiro > div > h2{
+	/* border-bottom: 3px solid #00B172; */
+	font-size: 35px;
+}
+
+#primeiro > div + div{
+	display:flex;
+	flex-direction: row;
+	align-items: center;
+	justify-content: space-around;
+	/* border: 1px solid blue; */
+	width: 100%;
+}
+
+#primeiro > div + div > section{
+	display:flex;
+	flex-direction: column;
+	align-items: center;
+	/*border: 1px solid green;*/
+	
+}
+
+#principal > div + div{
+	display:flex;
+	justify-content: space-between;
+	flex-direction: row;
+	background-color: #00B172;
+	/* border: 2px solid magenta; */
+}
+
+#quadro{
+	color: #FFF;
+	padding-left: 80px;
+	padding-top: 50px;
+	padding-bottom: 50px;
+	/* border: 1px solid magenta; */
+	width: 50%;
+}
+
+#quadro > section{
+	display:flex;
+	flex-direction: column;
+	/* border: 1px solid magenta; */
+}
+
+#app{
+	padding-right: 80px;
+	padding-top: 100px;
+}
+
+#icon-p{
+	display: flex;
+	flex-direction: column;
+	/* border: 1px solid magenta; */
+	width: 280px;
+}
+#icon{
+	display:flex;
+	flex-direction: column;
+	/* border: 1px solid blue; */
+}
+
+#primeiro > div > h2{
+	margin-bottom: 100px;
+}
+
+#primeiro > div + div > section > h3{
+	/* border: 1px solid green; */
+	color: #00B172;
+}
+
+#quadro > h2{
+	width: 330px;
+	border-bottom: 3px solid #FFF;
+	padding-bottom: 0px;
+	
+}
+
+#icon-img{
+	border: 1px solid red;
+	width: 200px;
+}
