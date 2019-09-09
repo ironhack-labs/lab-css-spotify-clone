@@ -6,3 +6,192 @@ Green: #00B172
 White: #FFF
 
 */
+@import url('https://fonts.googleapis.com/css?family=Roboto+Condensed:700|Roboto:100,300,700');
+body{
+    margin: 0;
+    font-family: roboto;
+	color: #1A1A1A
+}
+h1{
+    font-size: 2.5em;
+    font-weight: 500;
+}
+h2{
+    font-size: 2.3em;
+    font-weight: 500;
+}
+h3{
+    font-size: 2.1em;
+    font-weight: 500;
+}
+h4{
+    font-size: 1.3em;
+    font-weight: 700;
+}
+/*nav-bar*/
+.nav-bar {
+	height: 75px;
+	padding: 25px;
+	position: fixed;
+	width: 100%;
+	background: #FFF;
+	margin: 0;
+	top: 0;
+	z-index: 99999;
+}
+.nav-bar a {
+    color: #1A1A1A;
+    text-decoration: none;
+}
+.logo{
+	height: 100%;
+	width: auto;
+	float: left;
+}
+.right{
+	float: right;
+}
+.menu{
+	display: inline-block;
+}
+.top-menu{
+    display: inline-block;
+    float: right;
+    padding: 0;
+    margin: 0 75px 0 0;
+    justify-content: right;
+}
+.top-menu ul{
+    margin-top: 25px;
+}
+.top-menu li{
+    list-style: none;
+    display: inline-block;
+    margin: 0 10px;
+	font-size: 1.5em;
+	font-weight: 400;
+}
+/*head*/
+.head {
+	position: absolute;
+	top: 100px;
+	background: url("../images/landing.jpg") center center;
+	background-size: cover;
+	width: 100%;
+	height: 90vh;
+	margin: 0 auto;
+	text-align: center;
+	color: #fff;
+}
+.text-head{
+	margin-top: 30vh;
+}
+.text-head h1{
+	font-size: 4.5em;
+	font-weight: 500;
+}
+.text-head p{
+	font-size: 2em;
+	font-weight: 400;
+}
+/*features*/
+.features{
+	position: absolute;
+	text-align: center;
+	top: 100vh;
+	width: 100%;
+	margin-top: 25px;
+	height: 60vh;
+}
+.title-features{	
+	margin: 25px auto;
+}
+.title-features h3{
+	color: #000;
+	line-height: 0.1em;
+	font-size: 2.6vw;
+	font-weight: 500;
+}
+.title-features hr{	
+	width: 20vw;
+	border: none;
+	background-color: #00B172;
+	height: 4px;
+	margin-top: -15px;
+}
+.col{
+	float: left;
+	margin-top: 25px;
+}
+.col-3{
+width: 30%;
+}
+.col-middle{
+margin-right: 5%;
+margin-left: 5%;
+}
+.clearfix{
+clear: both;
+}
+.features img{
+	width: 10vw;
+}
+.features h4{
+	font-size: 2.5em;
+	color: #00B172;
+	margin: 5px 0px;
+}
+.features p{
+	font-size: 2em;
+	font-weight: 200;
+}
+/*green*/
+.section-green{
+	position: absolute;
+	top: 160vh;
+	background-color: #00B172;
+	margin: 2%;
+	width: 96%;
+	color: #fff;
+}
+.section-green .center{
+	padding: 5%;
+	margin: 0 auto;
+
+}
+.section-green h3{
+	line-height: 0.1em;
+	font-size: 2.6vw;
+	font-weight: 600;
+}
+.section-green hr{
+	position: absolute;
+	width: 32vw;
+	border: none;
+	background-color: #fff;
+	height: 4px;
+	margin-top: -15px;
+	left: 5vw;
+}
+.section-green .white-logo{
+	position: absolute;
+	width:  10vw;
+	left: 45vw;
+	top: 45vh;
+}
+.section-green .spotify-app{
+	width:  30vw;
+	margin-top: -3vh;
+	margin-left: -5vw;
+}
+.section-green h4{
+	font-size: 2.3em;
+}
+.section-green p{
+	font-size: 1.8em;
+	margin-right: -5vw;
+	margin-top: -2vh;
+}
+.col-right{
+	float: right;
+}
