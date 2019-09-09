@@ -6,3 +6,144 @@ Green: #00B172
 White: #FFF
 
 */
+*{
+    margin: 0px;
+    padding: 0px;
+    font-family: 'Roboto', sans-serif;
+}
+header{
+    display: flex;
+    justify-content: space-evenly; 
+    flex-direction: row;
+    height: 60px;
+    padding-top: 5px;
+    padding-bottom: 5px;
+}
+
+.logo-Left{
+    background: url('../images/spotify-logo.png');
+    background-size: contain;
+    background-repeat: no-repeat;
+    align-content: center;
+    max-width: 50%;
+    width: 50%;
+    height: 50px;
+    margin-left: 5%;
+    padding: 5px 50px;
+}
+nav ul li {
+    padding: 8px;
+    display: inline;
+    flex-direction: row;
+    list-style: none;
+
+}
+.link{
+    padding: 15px 0%;
+    align-items: center;
+}
+.link li, a{
+    font-size: 20px;
+    text-decoration: none; 
+    color: #1A1A1A;
+}
+.initial { 
+    padding-top: 0px;
+    margin-left: 0px;
+    height: 1000px;
+    display: flex;
+    background: url('../images/landing.jpg');
+    background-repeat: no-repeat;
+    background-size: cover;
+    max-width: 100%;
+    width: 100%;
+    align-items: center;
+    justify-content: center;
+}
+.img_center h1{
+    color: #FFF;
+    text-align: center;
+    font-size: 85px;
+}
+.img_center p {
+    color: #FFF;
+    text-align: center;
+    font-size: 30px;
+    margin: 0% 20%;
+}
+.title h1{ 
+    display: flex;
+    justify-content: center; 
+    padding-top: 25px;
+    font-size: 35px;
+    text-decoration: underline;
+    text-decoration-color: #00B172;
+}
+
+.descriptions  div{
+    display: inline-block;
+    text-align: center;
+    width: 33.1%;
+    padding-top: 50px;
+}
+.descriptions img{
+    height: 80px;
+}
+.descriptions h2 {
+    color: #00B172;
+}
+.descriptions p{
+    margin:0% 10%;
+    font-size: 20px;
+}
+
+.footer{
+    margin: 25px 50px;
+    display: flex;
+    flex-direction: row;
+    padding: 25px 100px;
+    align-items: center;
+    text-align: center;
+    justify-content: space-evenly;
+    background-color: #00B172;
+    color: white; 
+       
+}
+.informationsLeft{
+    display: inline-block;
+    height: 500px;
+}
+.informationsLeft div{
+    margin-left: 10%;
+    padding: 25px;
+    text-align: left; 
+    align-items: center;
+    width: 105%;
+    font-size: 15px;
+}
+.informationsLeft h2{
+    padding: 25px;
+    font-size: 20px;
+    text-align: left;
+    text-decoration: underline;
+    text-decoration-color: #FFF;
+}
+.informationsLeft img{
+    display: flex;
+    flex-direction: column;
+    width: 30%;
+}
+.spotifyWhite img{
+    margin: 0%;
+    width: 15%;
+    height: 30%;
+}
+.kanye{
+    padding: 15px 20px;
+    text-align: right;
+    
+}
+.kanye img{
+    width: 80%;
+    height: 30%;
+}
