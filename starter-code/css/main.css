@@ -1,10 +1,8 @@
 /*
 Colors:
-
 Text: 1A1A1A
 Green: #00B172
 White: #FFF
-
 */
 *{
     margin: 0;
@@ -13,7 +11,8 @@ White: #FFF
 }
 
 body{
-    position: absolute
+    position: absolute;
+    width: 100%;
 }
 
 a {
@@ -64,7 +63,7 @@ header {
     background-size: cover;
     background-position: center;
     height: 800px;
-    color: #fff;
+    color: #FFF;
     text-align: center;
     margin-top: 70px;
 }
@@ -79,7 +78,53 @@ header div {
     margin: -50px 0 0 -250px;
 }
 
+#whats h2{
+    padding-bottom: 5px;
+    text-align: center;
+    text-underline-position: under;
+    text-decoration: underline #00B172;
+}
+
 section {
     height: 200px;
     width: 100%
+}
+
+.container{
+    margin: 0 auto;
+    width: 80%;
+}
+
+.col-mid {
+    margin: 0 5%;
+}
+
+.col-3 {
+    width: 30%;
+    float: left;
+}
+
+.grn-background {
+    background-color: #00B172;
+    color: #FFF;
+}
+
+.col-2 {
+    width: 50%;
+}
+
+.app-image-box{
+    float: right;
+}
+.app-text-box{
+    float: left;
+}
+.app-text-box h2 {
+    text-underline-position: under;
+    text-decoration: underline #FFF;
+}
+
+.app-image-box img{
+    width: 20%;
+    height: auto;
 }
