@@ -6,3 +6,162 @@ Green: #00B172
 White: #FFF
 
 */
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+/* SECTION NAV-BAR */
+.nav-bar-container {
+    height: 70px;
+    background-color: #FFF
+}
+
+.nav-bar-container ul {
+    display: flex;
+    align-items: center;
+    float: right;
+    list-style-type: none;
+    height: 100%;
+    width: auto;
+}
+
+.nav-bar-container a {
+    color: #1A1A1A;
+    text-decoration: none;
+    margin: 0 20px;
+}
+
+.nav-bar-container img {
+    height: 100%;
+    width: auto;
+    margin-left: 5%
+}
+
+/* SECTION IMAGE */
+.image-background-container {
+    background-image: url('../images/landing.jpg');
+    height: 500px;
+    background-repeat: no-repeat;
+    background-size: 100% 100%;
+    display: flex;
+    flex-direction: column;
+    color: #FFF;
+    align-items: center;
+    justify-content: center;
+}
+
+.image-background-container h1 {
+    font-size: 4em;
+}
+
+.image-background-container p {
+    font-size: 1.5em;
+}
+
+/* SECTION WHATS ON */
+#whats-on {
+    background-color: #FFF;
+    margin: 0 auto;
+    text-align: center;
+}
+
+.whats-on-title {
+    margin: 30px auto;
+    display: inline-block;
+}
+
+.whats-on-title p {
+    color: #1A1A1A;
+    font-size: 2.5em;
+}
+
+.whats-on-title hr {
+    border: 2px solid #00B172;
+}
+
+.whats-on-items {
+    display: flex;
+    margin-top: 30px;
+}
+
+.whats-on-items-container {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    font-size: 1.5em;
+}
+
+.whats-on-items-container img {
+    margin-bottom: 10px;
+    width: 33.3%;
+    height: auto;
+}
+
+.whats-on-items-container h2 {
+    color: #00B172;
+    font-weight: bold;
+}
+
+.whats-on-items-container p {
+    color: #1A1A1A;
+    font-size: 1.1em;
+    white-space: pre-line;
+    margin-top: 10px;
+}
+
+/* SECTION GREEN  */
+#green-section {
+    background-color: #00B172;
+    margin-top: 100px;
+    position: relative;
+}
+
+.green-section-text {
+    color: #FFF;
+    background-color: #00B172;
+    margin-top: 75px;
+    padding-left: 100px;
+    display: inline-block;
+}
+
+.green-section-text h1 {
+    font-size: 3em;
+    margin-bottom: 10px;
+}
+
+.green-section-text hr {
+    border: 2px solid #FFF;
+    margin-bottom: 50px;
+}
+
+.green-section-text h2 {
+    padding-bottom: 30px;
+    font-size: 2.3em;
+}
+
+.green-section-text p {
+    padding-bottom: 40px;
+    white-space: pre-line;
+    font-size: 1.8em;
+}
+
+#green-section .spotify-icon {
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    height: 20%;
+    width: auto;
+}
+
+#green-section .music-icon {
+    position: absolute;
+    top: 50%;
+    left: 90%;
+    transform: translate(-90%, -50%);
+    height: 80%;
+    width: auto;
+}
