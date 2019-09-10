@@ -6,3 +6,132 @@ Green: #00B172
 White: #FFF
 
 */
+
+body {
+  font-family: 'Raleway', sans-serif;
+  font-size: 22px;
+  color: 1A1A1A;
+}
+
+h1 {
+  font-weight: 600;
+  color: white;
+  font-size: 72px;
+  margin-bottom: 0px;
+}
+
+h2 {
+  font-weight: 600;
+  font-size: 40px;
+  text-decoration: underline #00B172;
+}
+
+h3 {
+  color: #00B172; 
+}
+
+h4 {
+  font-weight: 400;
+  color: white;
+  font-size: 32px;
+}
+
+.navbar {
+  position: fixed;
+  top: 0;
+  background: white;
+  width: 100%;
+  display: flex;
+  justify-content: space-between;
+  padding-top: 8px;
+}
+
+.navbar img {
+  /* float: left; */
+  height: 56px;
+  margin-left: 40px;
+}
+
+.navbar ul {
+  /* float: right; */
+  display: flex;
+  list-style-type: none;
+  margin-right: 40px
+}
+
+.navbar ul li {
+  margin-left: 24px;
+}
+
+.main-info {
+  height: 100vh;
+  width: 100%;
+  background-image: url(../images/landing.jpg);
+  background-size: cover;
+  text-align: center;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center; 
+}
+
+.first-section {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  margin-bottom: 104px;
+}
+
+.column-info {
+  display: flex;
+  justify-content: space-around;
+}
+
+.column-info div {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+.column-info img {
+  width: 20%;
+}
+
+.column-info p {
+  padding: 0 64px;
+}
+
+.second-section {
+  background-color: #00B172; 
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+  margin: 24px;
+}
+
+.white-logo {
+  width: 136px;
+  padding: 0 48px;
+}
+
+.screenshot {
+  width: 304px;
+  padding: 48px;
+}
+
+.second-section>div {
+  padding: 48px;
+}
+
+.second-section h2{
+  color: white;
+}
+
+.second-section h3 {
+  padding-top: 24px;
+  color: white;
+}
+
+.second-section p {
+  color: white;
+}
