@@ -6,10 +6,20 @@ Green: #00B172
 White: #FFF
 
 */
+
+/*  HACER UN ZINDEX = 99999 Y POSITION FIXED */
 * {
     margin: 0;
     padding: 0;
     box-sizing: border-box;
+}
+
+#nav-bar {
+    position: fixed;
+    z-index: 9999;
+    width: 100%;
+    top: 0;
+    margin: 0;
 }
 
 /* SECTION NAV-BAR */
@@ -36,7 +46,8 @@ White: #FFF
 .nav-bar-container img {
     height: 100%;
     width: auto;
-    margin-left: 5%
+    float: left;
+    margin-left: 4%;
 }
 
 /* SECTION IMAGE */
