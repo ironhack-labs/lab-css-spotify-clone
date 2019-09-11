@@ -1,3 +1,4 @@
+@import url("https://fonts.googleapis.com/css?family=Open+Sans:300,300i,400,600&display=swap");
 /*
 Colors:
 Text: 1A1A1A
@@ -7,7 +8,7 @@ White: #FFF
 *{
     margin: 0;
     padding:0;
-    font-family: Arial, Helvetica, sans-serif;
+    font-family: "Open Sans", sans-serif;;
 }
 
 body{
@@ -19,6 +20,10 @@ a {
     text-decoration: none;
 }
 
+p{
+    font-weight: 100;
+}
+
 nav {
     display: inline-block;
     height: 60px;
@@ -27,6 +32,9 @@ nav {
     padding: 0.5% 0;
     background: #fff;
     position: fixed;
+    border-bottom: 1px solid;
+    border-color: rgba(0, 0, 0, 0.1);
+    z-index: 1;
 }
 
 nav .img-box {
@@ -62,7 +70,7 @@ header {
     background: URL(../images/landing.jpg) no-repeat;
     background-size: cover;
     background-position: center;
-    height: 800px;
+    height: 500px;
     color: #FFF;
     text-align: center;
     margin-top: 70px;
@@ -70,24 +78,32 @@ header {
 
 header div {
     width: 500px;
-    height: 100px;
+    height: 250px;
     padding: 20px;
     position: absolute;
     top: 50%;
     left: 50%;
-    margin: -50px 0 0 -250px;
+    margin: -620px 0 0 -250px;
+}
+
+#whats {
+    height: 400px;
 }
 
 #whats h2{
+    margin: 5% 0;
     padding-bottom: 5px;
     text-align: center;
     text-underline-position: under;
     text-decoration: underline #00B172;
 }
 
+#whats p{
+    margin: 15px 0;
+}
+
 section {
-    height: 200px;
-    width: 100%
+    position: relative;
 }
 
 .container{
@@ -102,6 +118,17 @@ section {
 .col-3 {
     width: 30%;
     float: left;
+    text-align: center;
+}
+
+.col-3 img{
+    width:100px;
+    height: 100px;
+}
+
+.col-3 h3 {
+    color:#00B172;
+    line-height: 2em;
 }
 
 .grn-background {
@@ -109,22 +136,56 @@ section {
     color: #FFF;
 }
 
-.col-2 {
-    width: 50%;
+.grn-background h3 {
+    line-height: 2em;
 }
 
-.app-image-box{
-    float: right;
+.text {
+    padding: 6%;
+    line-height: 1.5em;
 }
-.app-text-box{
+
+.col-2 {
+    width: 46%;
     float: left;
+    margin: 2%;
 }
-.app-text-box h2 {
+.clearfix {
+    clear: both;
+}
+
+#kanye{
+    height: 500px;
+    padding: 40px;
+}
+
+#kanye h3{
+    margin: 10px 50px;
+    font-weight: 100;
+}
+
+.grn-background h2 {
     text-underline-position: under;
     text-decoration: underline #FFF;
+    font-size: 1.8em;
+    margin-bottom: 25px;
 }
 
-.app-image-box img{
-    width: 20%;
-    height: auto;
+#application-img{
+    width: auto;
+    height: 450px;
+}
+
+.img-container{
+    text-align: center;
+}
+
+#white-icon {
+    width: 100px;
+    height: 100px;
+    padding: 10px;
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    margin: -50px 0 0 -50px;
 }
