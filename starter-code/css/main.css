@@ -1,8 +1,191 @@
-/*
-Colors:
+@import url('https://fonts.googleapis.com/css?family=Montserrat:400,500,700&display=swap');
 
-Text: 1A1A1A
-Green: #00B172
-White: #FFF
+*{
+    margin: 0;
+    padding:0;
+    font-family: 'Montserrat', sans-serif;
+}
 
-*/
+body{
+    position: absolute;
+    width: 100%;
+}
+
+a {
+    text-decoration: none;
+}
+
+p{
+    font-weight: 100;
+}
+
+nav {
+    display: inline-block;
+    height: 70px;
+    width: 100%;
+    font-size: 1em;
+    padding: 0.5% 0;
+    background: white;
+    position: fixed;
+    border-bottom: 1px solid;
+    border-color: rgba(0, 0, 0, 0.1);
+    z-index: 1;
+}
+
+nav .img-box {
+  height: inherit;
+  padding-left: 30px;
+  float: left;
+  
+}
+
+.img-box img {
+    height: inherit;
+}
+
+nav .links-box {
+    float: right;
+    width: 40%;
+    height: 100%;
+}
+.links-box ul {
+    margin: 1.3em;
+  font-size: 1.1em
+}
+
+.links-box li {
+    display: inline-block;
+    width: 24%;
+    text-align: center;
+}
+
+.links-box a {
+    color: black;
+}
+
+header {
+    background: URL(https://i.ibb.co/RvGv1w5/landing.jpg) no-repeat;
+    background-size: cover;
+    background-position: center;
+    height: 700px;
+    color: white;
+    text-align: center;
+    margin-top: 80px;
+}
+
+header div {
+    width: 500px;
+    height: 250px;
+    padding: 50px;
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    margin: -620px 0 0 -250px;
+}
+
+h1 {
+  font-size: 3em;
+  font-family: "Montserrat medium"
+}
+
+header div h1 {
+  padding: 10px;
+}
+
+#whats-on {
+    height: 400px;
+}
+
+#whats-on h2{
+    margin: 5% 0;
+    padding-bottom: 5px;
+    text-align: center;
+    text-underline-position: under;
+    text-decoration: underline #00B172;
+}
+
+#whats-on p{
+    margin: 15px 0;
+}
+
+section {
+    position: relative;
+}
+
+.container{
+    margin: 0 auto;
+    width: 87%;
+}
+
+.cool-inside {
+    margin: 0 5%;
+}
+
+.cool {
+    width: 30%;
+    float: left;
+    text-align: center;
+}
+
+.cool img{
+    width:100px;
+    height: 100px;
+}
+
+.cool h3 {
+    color:#00B172;
+    line-height: 2em;
+}
+
+.green-background {
+    background-color: #00B172;
+    color: #FFF;
+}
+
+.green-background h3 {
+    line-height: 2em;
+}
+
+.text {
+    padding: 6%;
+    line-height: 1.5em;
+}
+
+.cool-2 {
+    width: 46%;
+    float: left;
+    margin: 2%;
+}
+
+#music{
+    height: 500px;
+    padding: 40px;
+}
+
+#music h3{
+    margin: 10px 50px;
+    font-weight: 100;
+}
+
+.green-background h2 {
+    text-underline-position: under;
+    text-decoration: underline #FFF;
+    font-size: 1.8em;
+    margin-bottom: 25px;
+}
+
+#app-img{
+    width: auto;
+    height: 450px;
+}
+
+.img-container{
+    text-align: center;
+}
+
+#white-icon {
+    width: 100px;
+    position: absolute;
+    top: 50%;
+    margin: -50px 0 0 -50px;
+} 
