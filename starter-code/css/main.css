@@ -1,8 +1,151 @@
 /*
-Colors:
+Colors: 
 
 Text: 1A1A1A
 Green: #00B172
 White: #FFF
 
 */
+body{/**/ 
+    margin:0;
+}
+
+header{/**/
+    width: 100%;
+    height: 90px;
+    position: fixed;
+    background-color: white;
+}
+
+#logo{/**/
+    padding:20px 20px;
+    height: 50px;
+}
+
+nav{/**/
+    position: fixed;
+    top: 30px;
+    right: 0;
+}
+nav ul{/**/
+    position: relative;
+    list-style: none;
+    width: auto;
+}
+
+nav ul li{/**/
+    font-size: 20px;
+    list-style: none;
+    display: inline;
+    padding-right: 30px;
+}
+
+div.background-image{/**/
+    padding-top: 80px;
+    background: url(../images/landing.jpg) no-repeat center center fixed;
+    background-size: cover;
+    height: 720px;
+    color:white;
+    text-align: center
+    
+}
+div.background-image > div{
+    position: absolute;
+    left:25%;
+    right:25%;
+    top:50%;    
+    font-size: 30px;
+}
+div.title{
+    font-size: 56px;
+}
+
+.center{
+    height: 570px;
+    margin:50px;
+}
+.center > .title{/**/
+    text-align: center;
+    font-size: 48px;
+}
+
+.center hr{
+    border-color: #00B172;
+    
+}
+.center > .title > div{
+    font-weight: bold;
+    margin: auto;
+    width: 400px;
+    
+}
+.colum{
+    position:relative;
+    width:33%;
+    float: left; 
+}
+.center .colum{/**/
+
+    text-align: center;
+    margin: 100px 0;
+    font-size: 30px;
+}
+.center .colum img{
+    max-height: 140px;
+}
+.center .third h4{
+    margin-top: 20px;
+    color:#00B172;
+    font-weight: bold;
+}
+.center .third div{
+    font-weight: lighter;
+    width: 65%;
+    margin: auto;
+}
+
+div.green{
+    position: relative;
+    height: 1185px;
+    margin: 25px;
+    color:white;
+    background-color: #00B172;
+}
+
+div.green .spotify-logo{
+    position: absolute;
+    width: 120px;
+    left:45%;
+    top:50%;
+    right:55%;    
+}
+.half{
+    position: relative;
+    float: left;
+    width: 50%;
+}
+.half .text{
+    padding:10%;
+    font-size: 25px;
+}
+.half .text .section-title{
+    margin: auto;
+    border-bottom: 5px solid white;
+    font-size: 50px;
+}
+.half .text .title{
+    margin: 10% 0;;
+    font-weight: bold;
+    font-size: 40px;
+}
+.half .text p{
+    width: 56%;
+}
+.half .text p.middle-text{
+    width: 45%;
+} 
+.half .img-app{
+    padding: 20% 0 0 10%;
+    margin-left: 10%;
+    width: 60%;
+}
