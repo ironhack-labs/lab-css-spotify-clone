@@ -6,3 +6,198 @@ Green: #00B172
 White: #FFF
 
 */
+
+@import url('https://fonts.googleapis.com/css?family=Red+Hat+Text');
+
+* {
+  font-family: 'Red Hat Text';
+}
+
+body {
+  margin: 0;
+}
+
+h1 {
+  font-size: 6rem;
+}
+
+h2 {
+  font-size: 2.5rem;
+}
+
+.container {
+  width: 60%;
+  min-width: 1200px;
+  margin-left: auto;
+  margin-right: auto
+}
+
+/*NAV*/
+
+nav {
+  position: fixed;
+  height: 6rem;
+  width: 100%;
+  min-width: 1200px;
+  margin: 0;
+  background-color: #FFF;
+}
+
+.nav-bar {
+  min-width: 1200px
+}
+
+.nav-bar img {
+  height: 4.5rem;
+  float: left;
+  margin: 0.75rem;
+}
+
+.nav-bar ul {
+  float: right;
+  margin: 2.1rem 0;
+}
+
+.nav-bar li {
+  margin: 0 1rem;
+  display: inline-block;
+  font-size: 1.6rem;
+  padding: auto 1rem;
+}
+
+.nav-bar a {
+  color: #1A1A1A;
+  text-decoration: none;
+}
+
+/*HEADER*/
+
+.header {
+  background-image: url("../images/landing.jpg");
+  background-size: cover;
+  background-position: center;
+  margin: 0;
+  width: 100%;
+  min-width: 1200px;
+  height: 35rem;
+  color: #FFF;
+  text-align: center;
+  padding: 10rem 0;
+}
+
+.header h1, .header h3 {
+  position: relative;
+  top: 20%;
+}
+
+.header h1 {
+  padding: 50rem, 0;
+}
+
+.header h3 {
+  font-size: 2.1rem;
+  margin: 0;
+  font-weight: lighter;
+}
+
+/*WHITE-SECTION*/
+
+.white-section h2 {
+  text-align: center;
+  width: 21rem;
+  border-bottom: 0.4rem solid #00B172;
+  margin: 3rem auto;
+}
+
+.white-bottom {
+  margin: 8rem 0;
+  height: 20rem;
+}
+
+.white-bottom-col {
+  display: inline-block;
+  text-align: center;
+  vertical-align: top;
+  height: 20rem;
+  width: 33%;
+  margin: 0;
+  padding: 0
+}
+
+.white-section img {
+  height: 8rem;
+  margin: 0;
+  padding: 0;
+}
+
+.white-section h3 {
+  font-size: 2.1rem;
+  color: #00B172;
+  margin: 0;
+  padding: 0.2rem 0 1.7rem 0;
+}
+
+.white-section p {
+  font-size: 1.7rem;
+  color: #1A1A1A;
+  font-weight: lighter;
+  margin: 0;
+  padding: 0;
+}
+
+/*GREEN-SECTION*/
+
+.green-section {
+  background-color: #00B172;
+  background-image: url("../images/spotify-icon-white.png");
+  background-repeat: no-repeat;
+  background-size: 9rem;
+  background-position: center;
+  color: #FFF;
+  margin-bottom: 3rem
+}
+
+.green-col {
+  display: inline-block;
+  margin-top: 3rem;
+  margin-bottom: 3rem;
+}
+
+.green-text {
+  width: 60%;
+}
+
+.green-text h2 {
+  margin: 1rem 9.5rem 4rem 5rem;
+  padding: 0.4rem 0;
+  border-bottom: 0.25rem solid #FFF;
+}
+
+.green-text h3 {
+  font-size: 2rem;
+  margin: 0;
+  padding: inherit;
+  padding: 0 5rem;
+}
+
+.green-text p {
+  font-size: 1.5rem;
+  font-weight: lighter;
+  margin: 0;
+  padding: inherit;
+  padding: 2rem 5rem;
+}
+
+.green-img {
+  height: 47.4rem;
+  float: right;
+  padding-right: 5rem;
+  }
+
+.green-section img {
+  height: 40rem;
+  display: block;
+  margin: inherit;
+  /*margin-top: 4rem*/
+  margin-bottom: 4rem
+}
