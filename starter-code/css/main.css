@@ -6,3 +6,152 @@ Green: #00B172
 White: #FFF
 
 */
+* {
+    margin:0;
+}
+
+body {
+    font-family: "Open Sans";
+    color: #1A1A1A;
+}
+
+#logo {
+    display:inline-block;
+    width: 15%;
+    margin-left: 2em;
+}
+
+#menu {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    height: 15vh;
+}
+
+#menu a {
+    text-decoration: none;
+    color: #1A1A1A;
+    font-size: 120%;
+}
+
+ul {
+    list-style-type: none;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+li {
+    margin-right: 2em;
+}
+
+header {
+    background-image: url("../images/landing.jpg");
+    background-size: cover;
+    vertical-align: middle;
+    height: 85vh;
+
+    color: #fff;
+    text-align: center;
+}
+
+#description {
+    padding-top: 5vh;
+    font-size: 150%;
+}
+
+h1 {
+    padding-top: 3em;
+    font-size: 450%;
+}
+
+h2 {
+    font-size: 250%;
+    font-weight: 500;
+}
+
+#heading-introduction {
+    text-align: center;
+}
+
+#heading-introduction h2 {
+    margin: 1em 0;
+    display: inline-block;
+    border-bottom: 4px solid #00B172;
+    padding-bottom: .2em;
+}
+
+#body-introduction {
+    display: flex;
+	flex-direction: row;
+	flex-wrap: nowrap;
+	justify-content: space-around;
+	align-items: stretch;
+    align-content: center;
+    text-align: center;
+    padding-bottom: 5em;
+}
+
+#body-introduction article {
+    width: 30%;
+    font-size: 120%;
+    padding: 2em 0;
+}
+
+article > img {
+    width: 15vh;
+}
+
+#body-introduction h3 {
+    font-size: 150%;
+    color: #00B172;
+}
+
+#features {
+    margin: 0 2em;
+    background-color: #00B172;
+    background-image: url("../images/spotify-icon-white.png");
+    background-repeat: no-repeat;
+    background-size: 8em auto;
+    background-position: center;
+
+    color: white;
+    padding: 3em 4em;
+
+	display: flex;
+	flex-direction: row;
+	flex-wrap: nowrap;
+	justify-content: space-between;
+	align-items: stretch;
+	align-content: center;
+}
+
+#features h2 {
+    display: inline-block;
+    border-bottom: 4px solid #ffffff;
+    padding-bottom: .2em;
+} 
+
+#wordings-features article {
+    padding-top: 2em;
+    padding-bottom: 1em;
+    width: 30vw;
+    font-size: 150%;
+}
+
+#wordings-features h3 {
+    font-size: 120%;
+}
+
+#wordings-features h3 {
+    padding-bottom: 1em;
+}
+
+#image-features {
+    width: 28vw;
+    margin: auto 2em;
+}
+
+#image-features img {
+    width: 25vw;
+}
