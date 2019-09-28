@@ -6,3 +6,161 @@ Green: #00B172
 White: #FFF
 
 */
+@import url('https://fonts.googleapis.com/css?family=Montserrat:100,100i,200,200i,300,300i,400,400i,500,500i,600,600i,700,700i,800,800i,900,900i&display=swap');
+
+body {
+  font-family: Montserrat, sans-serif;
+  background:white;
+  margin: 0 0;
+}
+
+nav{
+  background:white;
+  position: fixed;
+  display: flex;
+  width: 100%;
+  align-items: center;
+  padding: 20px;
+  
+}
+
+
+.flex-item{
+  flex-direction: row;
+}
+.flex-item1{
+  width:200px;
+}
+
+.flex-item2{
+  margin-left: auto;
+}
+
+.flex-item2 >a {
+  font-size:1.5em;
+  font-weight: 200;
+  text-decoration: none;
+  color: black;
+  padding: 20px;
+  margin: 10px;
+}
+
+#centralpic{
+  background: black url("../images/landing.jpg");
+  background-size: cover;
+  height: 800px;
+  color: white;
+  text-align: center;
+  justify-content: center;
+  display: flex;
+  align-items:center;
+  flex-direction: column;
+}
+
+h1{
+  font-size:4.5em;
+  font-weight: 600;
+}
+
+h4{
+  font-size:1.8em;
+  font-weight: 400;
+  width: 60%;
+}
+
+/******* WHATSON **********/
+h2{
+  font-size: 2em;
+  font-weight: 600;
+  margin-bottom: 0;
+}
+
+#whatson > h2{
+  text-align:center;
+  margin-bottom:1%;
+}
+
+#whatson > hr{
+  text-align: center;
+  width: 25%;
+  border: 2px solid #00B172;
+  margin-top:0;
+  margin-bottom:7%;
+}
+
+/******** SECTION 2 **********/
+
+#section2{
+  display: flex;
+  flex-direction: row;
+}
+
+.col > img {
+  width: 120px;
+}
+
+.col{
+  width: 30%;
+  margin-left:5%;
+  margin-right:5%;
+  display: inline;
+  text-align: center;
+
+}
+h5{
+  font-size:1.5em;
+  font-weight: 200;
+}
+
+h3{
+  font-size: 1.6em;
+  color: #00B172;
+  font-weight: 700;
+  margin-bottom:2%;
+
+}
+
+#section3{
+  background-color:#00B172;
+  background-image: url("../images/spotify-icon-white.png");
+  background-repeat: no-repeat;
+  background-size: 10%;
+  background-position: center;
+  color:white;
+  margin: 3% 3% 3% 3%;
+  height: 700px;
+  padding: 3% 3% 5% 3%;
+}
+
+#section3 h3{
+  color: white;
+}
+
+.img2{
+  width: 30%;
+  float: right;
+  margin-right: 3%;
+}
+
+.sect3hr {
+  border: 2px solid white;
+}
+
+.colgauche > ul {
+  list-style-type: none;
+}
+
+.colgauche{
+  width: 38%;
+  float: left;
+}
+
+.titleend{
+  width: 42%;
+  margin-left:3%;
+}
+
+p{
+  font-size:1.3em;
+  font-weight: 200;
+}
