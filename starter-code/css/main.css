@@ -6,3 +6,121 @@ Green: #00B172
 White: #FFF
 
 */
+body{
+  margin:0;
+  box-sizing: border-box;
+  padding-bottom:3em;
+}
+
+nav {
+  width:100%;
+  border: solid 2px black;
+  position:fixed;
+  height:80px;
+  background-color:white;
+}
+
+nav img {
+  width:15%;
+  float:left;
+  padding: 8px 0;
+}
+
+nav ul {
+  width:30%;
+  list-style-type: none;
+  float:right;
+  display: flex;
+  flex-direction: row; 
+  justify-content: space-around;
+  font-size: 150%;
+  margin-right:10px;
+ 
+}
+
+#title {
+width:100%;
+background: url("../images/landing.jpg") center no-repeat;
+background-size:cover;
+color :#FFF;
+height:880px;
+border: solid 0px blue;
+}
+
+#title h1 {
+  width: 50%;
+  font-size:500%;
+  padding-top:400px;
+  padding-bottom:350px;
+  margin: 0 auto; 
+  text-align:center;
+}
+
+#title p {
+  width: 50%;
+  margin: -330px auto;
+  text-align: center;
+  font-size: 195%;
+}
+
+#presentation {
+  width:100%;
+  heigth:530px;
+
+}
+
+#presentation h2 {
+  width: 24%;
+  margin: 40px auto 0;
+  text-align: center;
+  font-size: 250%;
+  border-bottom: solid 4px #00B172;
+}
+
+.presentation-box {
+  width:100%;
+  display:flex;
+  justify-content: center;
+
+}
+
+.container {
+  display:flex; 
+  flex-direction:column;
+  justify-content:center;
+  align-items: center;
+  margin-top:80px;
+}
+
+#presentation h3 {
+  color:#00B172;
+  font-size:32px;
+  text-align:center;
+}
+
+#presentation p{
+  width: 50%;
+  text-align: center;
+  margin-top: -7px;
+  font-size: 25px;
+}
+
+.logo {
+  width: 30%;
+}
+
+#Kanye {
+  width: 94%;
+  height: 800px;
+  margin : 0 auto;
+  background-color:#00B172;
+  background-image:url("../images/spotify-icon-white.png)");
+  display: flex; 
+
+}
+
+#Kanye img {
+  width:24%;
+  height:80%
+}
+
