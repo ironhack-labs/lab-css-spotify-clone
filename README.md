@@ -59,4 +59,4 @@ The page is split into 4 sections.
 The starter-code contains all the files, images, and text content needed to create the page. The text is in the `index.html`, and a css file is created in `main.css` with colors.
 
 
-Happy coding! ❤️
+Happy coding! ❤️# CSS-Spotify-Clone
