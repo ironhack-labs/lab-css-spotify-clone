@@ -1,8 +1,159 @@
-/*
-Colors:
+* {
+    margin: 0;
+    box-sizing: border-box;
+    font-family: 'Gotham Book';
+}
 
-Text: 1A1A1A
-Green: #00B172
-White: #FFF
+/* NAV */
+.navbar {
+    margin: 2vh 3.5vh;
+    height: 7vh;
+    display: flex;
+	flex-direction: row;
+	flex-wrap: nowrap;
+	justify-content: space-between;
+	align-items: center;
+    align-content: stretch;
+    color: #1A1A1A;
+}
 
-*/
+.navbar ul {
+    list-style: none;
+    float: right;
+}
+
+.navbar ul li {
+    float: left;
+    font-size: 135%;
+    font-weight: 100;
+    padding-right: 2.2vw;
+}
+
+/* HEADER */
+header {
+    background-image: url(../images/landing.jpg);
+    background-size: cover;
+    background-position-y: center;
+    height: 100vh;
+    color: white;
+    text-align: center;
+    padding: 35vh 0;
+}
+
+.head-title {
+    font-size: 10vh;
+    margin-bottom: 3.5vh;
+}
+
+.head-txt {
+    font-weight: 100;
+    font-size: 3.5vh;
+    margin-bottom: 0.1em;
+}
+
+/* SPOTIFY DESCRIPTION */
+#spotify-desc-section {
+    color: #1A1A1A;
+    margin: 6vh;
+    height: 65vh;
+}
+
+#spotify-desc-section > .section-title {
+    text-align: center;
+}
+#spotify-desc-section > .section-title > h2 {
+    font-size: 4.5vh;
+    margin-bottom: 12vh;
+    display: inline-block;
+    border-bottom: 4px solid #00B172;
+}
+
+#spotify-desc-section .articles {
+    text-align: center;
+    display: flex;
+	flex-direction: row;
+	flex-wrap: nowrap;
+	justify-content: space-around;
+	align-items: stretch;
+	align-content: flex-start;
+}
+
+#spotify-desc-section .col1-3 {
+    width: 25vw;
+}
+
+#spotify-desc-section .art-title {
+    font-size: 3.5vh;
+    color: #00B172;
+    margin-bottom: 3vh;
+}
+
+#spotify-desc-section .art-txt {
+    font-size: 3vh;
+    font-weight: 100;
+    color: #1A1A1A;
+}
+
+/* CAPACITIES */
+#capacities-section {
+    background-color: #00B172;
+    background-image: url(../images/spotify-icon-white.png);
+    background-size: 10%;
+    background-position: center;
+    background-repeat: no-repeat;
+    height: 96vh;
+    margin: 0 4vh 4vh;
+    padding: 2vh;
+    display: flex;
+	flex-direction: row;
+	flex-wrap: nowrap;
+	justify-content: space-around;
+	align-items: center;
+    align-content: flex-start;
+    color: white;
+}
+
+#capacities-section .col1-2 {
+    width: 40vw;
+}
+
+#capacities-section .col1-2 img {
+    height: 75vh;
+}
+
+#capacities-section .section-title {
+    font-size: 4.5vh;
+    margin-bottom: 8vh;
+    display: inline-block;
+    border-bottom: 4px solid white;
+}
+
+#spotify-app-col {
+    text-align: center;
+}
+
+#capacities-section article {
+    margin-bottom: 5vh;
+}
+
+#capacities-section .art-title {
+    font-size: 3.5vh;
+    margin-bottom: 4vh;
+}
+
+#capacities-section .art-txt {
+    font-size: 2.5vh;
+    font-weight: 100;
+    margin-bottom: 1vh;
+}
+
+/* IMAGES */
+#spotify-logo {
+    height: 7vh;
+}
+
+#spotify-desc-section article img {
+    height: 13vh;
+    margin-bottom: 2vh;
+}
+
