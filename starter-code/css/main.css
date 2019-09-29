@@ -1,8 +1,130 @@
-/*
-Colors:
+* {
+    box-sizing: border-box;
+}
 
-Text: 1A1A1A
-Green: #00B172
-White: #FFF
+body {
+    font-family: 'Open Sans', sans-serif;
+    margin: 0;
+}
 
-*/
+p {
+    font-weight: 300;
+}
+#Spotify1{
+    width: 250px;
+  
+  }
+  nav {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: center;
+    width:100%;
+    height:90px;
+    background-color: white;
+    margin-bottom: 20px;
+    margin-top: 10px;
+    margin-left: 25px;
+  }
+
+  nav ul {
+      margin-right: 50px;
+  }
+  nav ul li{
+  display: inline;
+  padding-right:10px;
+  font-size: 1.7em;
+  }
+  #titre{
+    color: white;
+    text-align: center;
+    padding-top:200px;
+    padding-bottom: 200px;
+    font-size: 2.5em;
+    width: 50%;
+  }
+
+  h1 {
+      font-size: 2.5em;
+      font-weight: bold;
+      margin-bottom: 0;
+  }
+   header{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-image: url("../images/landing.jpg");
+    background-position: center;
+    background-size: cover;
+    height: 900px;
+   }
+#firstsection {
+    margin-top: 50px;
+    height: 530px;
+}
+
+#firstsection h2 {
+    text-align: center;
+    font-size: 2.5em;
+    width: 18%;
+    margin: auto;
+    border-bottom: #3CB371;
+    border-bottom-width: 5px;
+    border-bottom-style: solid;
+    padding-bottom: 10px;
+}
+
+  .icon{
+    width: 160px;
+    height: 120px;
+    margin-bottom: 10px;
+  }
+  #conteneur1{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+    align-items: center;
+    margin-top: 100px;
+  }
+
+  #conteneur1 h3 {
+      color: #3CB371;
+      font-size: 35px;
+      margin-top: 0px;
+      font-weight: bold;
+  }
+
+  .contenu1 {
+      height: 100px;
+      text-align: center;
+      font-size: 1.5em;
+  }
+
+  #conteneur2 {
+      width: 490px;
+      margin: 90px;
+  }
+
+  #conteneur2 h2 {
+      padding-bottom: 10px;
+      border-bottom: white solid;
+  }
+
+  #lastsection{
+      color: white;
+      background-color: #3CB371;
+      background-image: url("../images/spotify-icon-white.png");
+      background-repeat: no-repeat;
+      background-size: 150px;
+      background-position: center;
+      display: flex;
+      justify-content: space-between;
+      margin: 40px;
+      height: 750px;
+      font-size: 1.5em;
+  }
+
+  #Kanye{
+    height:600px;
+    margin: 90px;
+  }
