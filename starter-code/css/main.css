@@ -1,18 +1,25 @@
+@import url('https://fonts.googleapis.com/css?family=Open+Sans:300,400,600,700&display=swap');
+
 * {
   box-sizing: border-box;
 }
 
 body {
-  font-family: Arial, Helvetica, sans-serif;
+  font-family: 'Open Sans', sans-serif;
   margin: 0px;
+  color: #1A1A1A;
 }
 
 nav {
   height: 100px;
+  width: 100%;
   align-items: center;
   display: flex;
   justify-content: space-between;
-  font-size: 1.2em;
+  font-size: 1.4em;
+  font-weight: 300;
+  position: fixed;
+  background-color: white;
 }
 
 nav img {
@@ -26,12 +33,17 @@ nav ul li {
   padding-right: 1.5em;
 }
 
+nav a {
+  text-decoration: none;
+  color: #1A1A1A;
+}
+
 header {
   background-image: url(../images/landing.jpg);
-  background-position: 0 -120px;
+  background-position: 0 -10px;
   background-repeat: no-repeat;
   background-size: cover;
-  height: 700px;
+  height: 800px;
   color: white;
 }
 
@@ -39,7 +51,7 @@ header div {
   text-align: center;
   margin-left: auto;
   margin-right: auto;
-  padding-top: 15%;
+  padding-top: 17%;
   width: 55%;
 }
 
@@ -49,21 +61,45 @@ h1 {
 
 header p {
   font-size: 2em;
+  font-weight: 300;
+}
+
+.description {
+  margin-top: 40px;
+  margin-bottom: 80px;
+}
+
+.description div {
+  text-align: center;
+}
+
+.description img {
+  height: 100px;
 }
 
 .description h2 {
   text-align: center;
-  font-size: 2em;
+  font-size: 2.3em;
   text-decoration: underline #00B172;
   text-underline-position: under;
 }
 
-.description img {
-  height: 80px;
+.description h3 {
+  font-size: 1.9em;
+  font-weight: 700;
+  color: #00B172;
+  margin-top: 15px;
+  margin-bottom: 0px;
+}
+
+.description p {
+  font-size: 1.6em;
+  font-weight: 300;
+  margin-top: 25px;
 }
 
 .container {
-  margin: 0 auto;
+  margin: 0 100px;
   padding: 75px 0;
 }
 
@@ -79,11 +115,49 @@ header p {
   margin: 0 5% 0 5%;
 }
 
-/*
-Colors:
+.clearfix {
+  clear: both;
+}
 
-Text: 1A1A1A
-Green: #00B172
-White: #FFF
+.encadre-vert {
+  background-color: #00B172;
+  background-image: url('../images/spotify-icon-white.png');
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: 10%;
+  margin: 40px;
+  padding: 80px 110px;
+  color: white;
+}
 
-*/
+.text-container {
+  width: 50%;
+  margin-right: 0px;
+  display: inline-block;
+}
+
+.encadre-vert h2 {
+  font-size: 2.3em;
+  text-decoration: underline white;
+  text-underline-position: under;
+  margin: 0px;
+}
+
+.encadre-vert h3 {
+  font-size: 1.8em;
+  font-weight: 700;
+  margin-top: 60px;
+  margin-bottom: 0px;
+}
+
+.encadre-vert p {
+  font-size: 1.4em;
+  font-weight: 300;
+  margin-top: 25px;
+}
+
+.encadre-vert img {
+  width: 32%;
+  float: right;
+  padding-top: 2%;
+}
