@@ -1,3 +1,4 @@
+@import url('https://fonts.googleapis.com/css?family=Montserrat&display=swap');
 /*
 Colors:
 
@@ -8,20 +9,67 @@ White: #FFF
 */
 
 * {
+    font-family: Montserrat, Helvetica, Arial, sans-serif;
     margin-top:0;
     padding: 0; 
+    box-sizing: border-box;
+    color: 1A1A1A;
+}
+
+h1 {
+    padding-top: 200px;
+    font-weight: 600;
+    font-size: 4em;
+    text-align: center;
+    margin-bottom: 30px;
+}
+
+h2 {
+    text-align: center;
+}
+
+h2 span{
+    font-size: 45px;
+    font-family: Helvetica, sans-serif;
+    color: black;
+    margin-top: 130px;
+    border-bottom: 5px solid #00B172;
+    line-height: 1.5;
+    display: inline-block;
+}
+
+h3 {
+    font-size: 42px;
+}
+
+h4 {
+    font-size: 30px;
+    color: #00B172;
+}
+
+.image p{
+    text-align: center;
+    font-size: 1.5em;
+    margin:0;
+    font-family: Montserrat;
+
 }
 
 .navbar {
-position: fixed;
-display: flex;
-margin-top: 0px;
-align-items: center;
+    z-index: 10;
+    background-color: white;
+    position: fixed;
+    display: flex;
+    margin-top: 0px;
+    align-items: center;
+    height: 100px;
 }
 
 li {
-    margin-right: 20px;
+    margin-right: 30px;
     text-decoration: none;
+    font-size: 25px;
+    font-weight: lighter;;
 }
 
 .navbar a{
@@ -30,19 +78,18 @@ li {
 }
 
 .navbar ul{
-    margin-top: 10px;
     width: 100vw;
     display: flex;
     justify-content: flex-end;
     list-style: none;
+    margin: auto 20px;
 
-    margin-right: 20px;
+
 }
 
 .logospotify {
     width: 150px;
     margin-left : 30px;
-
 }
 
 #navbar{
@@ -50,4 +97,79 @@ li {
 }
 #background{}
 #what{}
-#Kanye{}
+
+
+.startunderbar{
+    position: relative;
+    top: 100px;
+    color: white;
+}
+div.image{
+    height:800px;
+}
+
+.image{
+    background-image: url("/images/landing.jpg");
+    background-size: cover;
+    background-position: center;
+    width: 100vw;
+}
+
+.icon{
+    height: 110px;
+    margin-bottom: 20px;
+}
+
+.whatp{
+    font-size: 25px;
+    font-weight: 10;
+    font-family: Montserrat;
+}
+
+.flexwhat {
+    display: flex;
+    justify-content: space-around;
+    text-align: center;
+    margin: 100px 120px;
+}
+
+.flexwhat div{
+    width: 300px;
+}
+
+#Kanye{
+    background-color: #00B172;
+    background-image: url(/images/spotify-icon-white.png);
+    background-size: cover;
+    background-position: center;
+    background-size: 10%;
+    background-repeat: no-repeat;
+    margin: 30px;
+    padding: 100px;
+    display: flex;
+    color: #FFF;
+    display: flex;
+    justify-content: space-between;
+}
+
+
+.split h4{
+    color: #FFF;
+    margin: 45px 0
+}
+
+.split p{
+    font-size: 25px;
+    font-family:Montserrat, Helvetica, Arial, sans-serif;
+}
+
+#Kanye img{
+    width: 370px;
+    margin-top: 20px;
+}
+
+h3 span{
+    border-bottom: 5px solid #FFF;
+    line-height: 1.5;
+    display: inline-block;
+}
