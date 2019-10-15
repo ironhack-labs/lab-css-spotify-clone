@@ -6,3 +6,151 @@ Green: #00B172
 White: #FFF
 
 */
+
+* {
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+    font-family: montserrat;
+}
+
+header img {
+    width: 180px;
+}
+
+header {
+    display: flex;
+    justify-content: space-between;
+    padding: 20px;
+}
+
+nav a {
+    text-decoration: none;
+    color: #1A1A1A;
+    font-size: 16px;
+}
+
+nav {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    width: 25%;
+    margin-right: 50px;
+}
+
+#hero {
+    background-image: url(/images/landing.jpg);
+    background-size: contain;
+    background-repeat: no-repeat;
+    height: 150vh;
+    color: #FFF;
+    display: flex;
+    flex-direction: column;
+    text-align: center;
+}
+
+#hero h1 {
+    font-size: 70px;
+    margin-bottom: 30px;
+    margin-top: 20%;
+}
+
+#hero p {
+    font-size: 30px;
+}
+
+#whats-on {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    height: 400px;
+}
+
+#whats-on hr {
+    width: 230px;
+    margin-bottom: 30px;
+    border: 1.5px solid #00B172;
+}
+
+h2 {
+    margin-bottom: 5px;
+}
+
+#features-wraper {
+    display: flex;
+    justify-content: space-between;
+}
+
+.features {
+    text-align: center;
+    width: 30%;
+    padding: 20px;
+    font-weight: 300;
+}
+
+.features h3 {
+    margin-top: 10px;
+    margin-bottom: 20px;
+    color: #00B172;
+    font-weight: 700;
+}
+
+.features img {
+    width: 80px;
+}
+
+#kanye {
+    height: 600px;
+    background-color: #00B172;
+    margin: 25px;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    color: white;
+    position: relative;
+}
+
+#kanye h4 {
+    font-size: 24px;
+}
+
+#kanye h5 {
+    font-size: 20px;
+}
+
+#kanye hr {
+    border: 1.5px solid white;
+}
+
+.kanye-text {
+    display: flex;
+    flex-direction: column;
+    justify-content: space-evenly;
+}
+
+.kanye-text p {
+    padding-right: 150px;
+}
+
+#white-logo {
+    width: 100px;
+    height: 100px;
+    position: absolute;
+}
+
+.kanye-props {
+    width: 30%;
+    height: 80%;
+}
+
+.kanye-img {
+    align-items: center;
+    justify-content: center;
+    display: flex;
+}
+
+#spotify-app {
+    width: auto;
+    height: 90%;
+}
