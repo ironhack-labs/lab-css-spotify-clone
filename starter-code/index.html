@@ -6,13 +6,13 @@
     <link rel="stylesheet" href="/starter-code/css/main.css" type="text/css" />
   </head>
   <body>
-    <section class="navbar">
+    <nav class="navbar">
       <img src="images/spotify-logo.png" />
-      <span>Premium</span>
-      <span>Discover</span>
-      <span>Help</span>
-      <span>Download</span>
-    </section>
+      <a href="#">Premium</a>
+      <a href="#">Discover</a>
+      <a href="#">Help</a>
+      <a href="#">Download</a>
+    </nav>
 
     <section class="section1">
       <h1>Music for everyone.</h1>
@@ -22,9 +22,9 @@
       </p>
     </section>
 
-    <section class="section2">
-      <h2>What’s on Spotify?</h2>
+    <h2>What’s on Spotify?</h2>
 
+    <section class="section2">
       <div class="section2block">
         <img src="/starter-code/images/music-icon.png" />
         <h3>Millions of Songs</h3>
@@ -45,32 +45,46 @@
     </section>
 
     <section class="section3">
-      <h2>
-        It’s as yeezy as Kanye West. Search
-      </h2>
 
       <div class="section3part1">
-        <h3>Search</h3>
-        <p>
-          Know what you want to listen to? Just search and hit play.
-        </p>
-        <h3>Browse</h3>
-        <p>
-          Check out the latest charts, brand new releases and great playlists
-          for right now.
-        </p>
-        <h3>Discover</h3>
-        <p>
-          Enjoy new music every Monday with your own personal playlist. Or sit
-          back and enjoy Radio.
-        </p>
-      </div>
+        
+        <header class="part1header">
+              <h2>
+                It’s as yeezy as Kanye West. Search
+              </h2>
+        </header>
+
+        <div class="blockOf3AndWhiteLogo">
+          <div class="blockOf3">
+              <div id="search">
+                <h3>Search</h3>
+                <p>
+                  Know what you want to listen to? Just search and hit play.
+                </p>
+              </div>
+              
+              <div id="browse">
+                <h3>Browse</h3>
+                <p>
+                  Check out the latest charts, brand new releases and great playlists
+                  for right now.
+                </p>
+              </div>
+
+              <div id="discover">
+                <h3>Discover</h3>
+                <p>
+                  Enjoy new music every Monday with your own personal playlist. Or sit
+                  back and enjoy Radio.
+                </p>
+              </div>
+            </div>
+            <div class="whiteLogo">
+              <img src="images/spotify-icon-white.png" />
+            </div>
+          </div>
 
       <div class="section3part2">
-        <img src="images/spotify-icon-white.png" />
-      </div>
-
-      <div class="section3part3">
         <img src="images/spotify-app.jpg" />
       </div>
     </section>
