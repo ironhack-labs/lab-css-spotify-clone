@@ -6,6 +6,10 @@ Green: #00B172
 White: #FFF
 
 */
+img {
+  width: 100%;
+  display: block;
+}
 
 body {
   margin: 0;
@@ -17,6 +21,14 @@ body {
 /* ********************** */
 .navbar {
   display: flex;
+  margin: 10px 20px;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.spotifyLogo > img {
+  width: auto;
+  height: 2em;
 }
 
 a {
@@ -28,13 +40,63 @@ a {
 /* Section 1 */
 /* ********************** */
 .section1 {
-  background: url(/starter-code/images/landing.jpg);
+  background: url(/starter-code/images/landing.jpg) no-repeat;
+  background-position: center;
+  background-size: cover;
+  margin: 0;
+  padding: auto;
+  height: 80vh;
+}
+
+h1 {
+  color: white;
+  font-size: 4em;
+  font-weight: normal;
+  margin: 0;
+}
+
+p {
+  color: white;
+  margin: 0;
+  padding: auto;
 }
 
 /* NSection 2 */
 /* ********************** */
 .section2 {
   display: flex;
+  flex-direction: column;
+  align-items: space-evenly;
+  background: pink;
+  margin: 0;
+  padding: 0;
+}
+
+.section2 h2 {
+    display: flex;
+    justify-content: center;
+}
+
+.image {
+  width: 100px;
+  height: 100px;
+}
+
+.cards {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  margin: 1em;
+}
+
+.card {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  text-align: center;
+  margin: 2em;
+  width: 30%;
 }
 
 /* NSection 3 */
