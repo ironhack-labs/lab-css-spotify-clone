@@ -21,72 +21,105 @@ body {
 /* ********************** */
 .navbar {
   display: flex;
-  margin: 10px 20px;
+  margin: 15px 50px;
   justify-content: space-between;
   align-items: center;
 }
 
 .spotifyLogo > img {
   width: auto;
-  height: 2em;
+  height: 4em;
 }
 
 a {
+  font-size: 1.4em;
   text-decoration: none;
   color: black;
   font-weight: normal;
+  padding: 0.5em;
 }
 
 /* Section 1 */
 /* ********************** */
 .section1 {
+  display: flex;
+  justify-content: center;
+  align-items: center;
   background: url(/starter-code/images/landing.jpg) no-repeat;
-  background-position: center;
   background-size: cover;
-  margin: 0;
-  padding: auto;
-  height: 80vh;
+  height: 50em;
+  padding-bottom: 4em;
+  border-bottom: 3px transparent 0.5;
 }
 
-h1 {
+.section1 h1 {
+  display: flex;
+  justify-content: center;
+  text-align: center;
   color: white;
-  font-size: 4em;
-  font-weight: normal;
-  margin: 0;
+  font-size: 6em;
+  font-weight: 500;
 }
 
-p {
+.section1 p {
+  display: flex;
+  justify-content: center;
+  font-size: 2em;
+  font-weight: 300;
+  text-align: center;
   color: white;
-  margin: 0;
-  padding: auto;
+  padding: 0 20% 2em 20%;
+  font-family: "Open Sans", sans-serif;
 }
 
-/* NSection 2 */
+.section1Text {
+}
+
+/* Section 2 */
 /* ********************** */
 .section2 {
   display: flex;
   flex-direction: column;
   align-items: space-evenly;
-  background: pink;
-  margin: 0;
+  background: white;
+  margin-bottom: 5em;
   padding: 0;
 }
 
 .section2 h2 {
-    display: flex;
-    justify-content: center;
+  display: flex;
+  justify-content: center;
+  font-size: 2.5em;
+  text-align: center;
+  margin: 1.5em 0 5px 0;
+}
+
+.section2title {
+  border-bottom: solid 4px #00b172;
+  margin: 0 30em 5em 30em;
+}
+
+.section2 h3 {
+  font-size: 2em;
+  color: #00b172;
+  padding: 0;
+  margin: 0;
+}
+
+.section2 p {
+  color: black;
+  font-size: 1.5em;
 }
 
 .image {
-  width: 100px;
-  height: 100px;
+  width: 150px;
+  height: 150px;
 }
 
 .cards {
   display: flex;
   justify-content: center;
   align-items: center;
-  margin: 1em;
 }
 
 .card {
@@ -95,8 +128,15 @@ p {
   justify-content: center;
   align-items: center;
   text-align: center;
-  margin: 2em;
   width: 30%;
+}
+
+.card h3 {
+  height: 1em;
+}
+
+.card p {
+  height: 1em;
 }
 
 /* NSection 3 */
@@ -105,17 +145,57 @@ p {
   display: flex;
   flex-direction: row;
   background: #00b172;
+  margin: 3em;
 }
 
-.section3part1 {
+.whiteLogo {
+  display: flex;
+  width: 400px;
+  justify-content: flex-end;
+  align-items: center;
+  margin: 0;
+}
+
+.section3Left {
   display: flex;
   flex-direction: column;
+  padding: 2em 0 0 6em;
+  width: 50%;
 }
 
-.blockOf3AndWhiteLogo {
+.section3Right {
+  padding: 8%;
+  width: 35%;
+}
+
+.leftheader {
+  color: white;
+  font-weight: normal;
+  font-size: 1.5em;
+  border-bottom: solid 3px white;
+  margin-right: 5em;
+}
+
+.leftBody {
   display: flex;
 }
 
-.blockof3 {
-  display: flex;
+.blockOf3 {
+  margin-top: 2em;
+  padding-right: 30%;
+}
+
+.section3 h3 {
+  font-size: 2em;
+  color: white;
+}
+
+.section3 h2 {
+  margin: 0.2em;
+}
+
+.section3 p {
+  font-size: 1.4em;
+  color: white;
+  font-family: "Open Sans", sans-serif;
 }
