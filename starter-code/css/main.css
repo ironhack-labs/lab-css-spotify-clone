@@ -7,33 +7,135 @@ White: #FFF
 
 */
 
-*{
+* {
     padding: 0;
     margin: 0;
 }
 
-body{
-    font-size: 15px;
+body {
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+    font-size: 20px;
+    color: #1A1A1A;
+
 }
 
 h1 {
-    font-size: 5em;
+    font-size: 4em;
 }
 
 h2 {
-    font-size: 3em;
+    font-size: 1.5em;
+
 }
 
-h3  {
-    font-size: 1.5em;
+h3 {
+    font-size: 1.1em;
+    font-weight: bolder;
 }
 
 
 header {
     display: flex;
+    justify-content: space-between;
+    align-items: center;
 
 }
 
 .logo {
-    height: 15px;
+    width: 15%;
+}
+
+a {
+    margin: 15px;
+    text-decoration: none;
+    color: #1A1A1A;
+    opacity: 0.8;
+}
+
+#enter-page {
+    background-image: url(../images/landing.jpg);
+    background-repeat: no-repeat;
+    background-size: contain;
+    height: 800px;
+    color: white;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    text-align: center;
+}
+
+#offer {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    margin-top: 40px;
+}
+
+.title {
+    width: 25%;
+    text-align: center;
+}
+
+.title h2 {
+    border-bottom: 3px solid #00B172;
+}
+
+.lateral {
+    display: flex;
+    flex-direction: row;
+    flex: 1;
+    justify-content: space-around;
+    align-items: flex-start;
+    margin: 50px auto;
+}
+
+.small-icon {
+    height: 60px;
+}
+
+.cool-thing {
+    display: flex;
+    flex-direction: column;
+    text-align: center;
+    width: 20%;
+    align-items: center;
+}
+
+.cool-thing h3 {
+    color: #00B172;
+    margin: 0 0 20px;
+}
+
+.cool-thing p {
+    font-weight: lighter;
+    opacity: 0.8;
+}
+
+.Kanye {
+    background: #00B172;
+    color: #FFF;
+    margin: 30px;
+    padding: 50px;
+}
+
+#temp {
+    display: flex;
+    flex-direction: row;
+}
+
+#temp-temp {
+    display: flex;
+    flex-direction: column;
+
+}
+
+.feature p {
+    font-size: 18px;
+    width: 50%;
+    opacity: 0.8;
+}
+
+.spoty-icon {
+    width: 100px;
 }
