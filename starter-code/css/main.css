@@ -1,4 +1,5 @@
 @import url('https://fonts.googleapis.com/css?family=Montserrat&display=swap');
+
 /*
 Colors:
 
@@ -8,6 +9,8 @@ White: #FFF
 
 */
 
+/* ---------------- General ---------------------------*/
+
 * {
     font-family: Montserrat, Helvetica, Arial, sans-serif;
     margin-top:0;
@@ -16,44 +19,12 @@ White: #FFF
     color: 1A1A1A;
 }
 
-h1 {
-    padding-top: 200px;
-    font-weight: 600;
-    font-size: 4em;
-    text-align: center;
-    margin-bottom: 30px;
-}
-
-h2 {
-    text-align: center;
-}
-
-h2 span{
-    font-size: 45px;
-    font-family: Helvetica, sans-serif;
-    color: black;
-    margin-top: 130px;
-    border-bottom: 5px solid #00B172;
-    line-height: 1.5;
-    display: inline-block;
-}
-
-h3 {
-    font-size: 42px;
-}
-
 h4 {
     font-size: 30px;
     color: #00B172;
 }
 
-.image p{
-    text-align: center;
-    font-size: 1.5em;
-    margin:0;
-    font-family: Montserrat, Helvetica, Arial, sans-serif;
-
-}
+/* ---------------- Navbar ----------------------------*/
 
 .navbar {
     z-index: 10;
@@ -62,13 +33,7 @@ h4 {
     display: flex;
     align-items: center;
     height: 100px;
-}
-
-li {
-    margin-right: 50px;
-    text-decoration: none;
-    font-size: 25px;
-    font-weight: lighter;
+    width: 100vw
 }
 
 .navbar a{
@@ -82,8 +47,13 @@ li {
     justify-content: flex-end;
     list-style: none;
     margin: auto 20px;
+}
 
-
+li {
+    margin-right: 50px;
+    text-decoration: none;
+    font-size: 25px;
+    font-weight: lighter;
 }
 
 .logospotify {
@@ -91,18 +61,28 @@ li {
     margin-left : 30px;
 }
 
-#navbar{
-    width: 100vw;
-}
-#background{}
-#what{}
-
-
-.startunderbar{
+/* ---------------- Top Background Image ------------------------*/
+.top-background{
     position: relative;
     top: 100px;
     color: white;
 }
+
+h1 {
+    padding-top: 200px;
+    font-weight: 600;
+    font-size: 4em;
+    text-align: center;
+    margin-bottom: 30px;
+}
+
+.image p{
+    text-align: center;
+    font-size: 1.5em;
+    margin:0;
+    font-family: Montserrat, Helvetica, Arial, sans-serif;
+}
+
 div.image{
     height:800px;
 }
@@ -112,6 +92,22 @@ div.image{
     background-size: cover;
     background-position: center;
     width: 100vw;
+}
+
+/* ---------------- What's on Spotify -----------------*/
+
+h2 {
+    text-align: center;
+}
+
+h2 span{
+    font-size: 45px;
+    font-family: Helvetica, sans-serif;
+    color: black;
+    margin-top: 130px;
+    border-bottom: 5px solid #00B172;
+    line-height: 1.5;
+    display: inline-block;
 }
 
 .icon{
@@ -136,6 +132,20 @@ div.image{
     width: 300px;
 }
 
+
+/* ---------------- Kanye West ------------------------*/
+
+h3 {
+    font-size: 42px;
+}
+
+h3 span{
+    border-bottom: 5px solid #FFF;
+    line-height: 1.5;
+    display: inline-block;
+    margin-bottom: 30px;
+}
+
 #Kanye{
     background-color: #00B172;
     background-image: url(/images/spotify-icon-white.png);
@@ -150,6 +160,7 @@ div.image{
     display: flex;
     justify-content: space-between;
 }
+
 .split {
     width: 40vw;
 }
@@ -170,9 +181,4 @@ div.image{
     margin-top: 20px;
 }
 
-h3 span{
-    border-bottom: 5px solid #FFF;
-    line-height: 1.5;
-    display: inline-block;
-    margin-bottom: 30px;
-}
+#what{}
