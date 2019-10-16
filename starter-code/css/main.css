@@ -2,7 +2,53 @@
 Colors:
 
 Text: 1A1A1A
-Green: #00B172
+Green: #00B172d
 White: #FFF
 
 */
+
+/* The must comon reset rules for each page */
+* {
+    padding: 0%;
+    margin: 0;
+    box-sizing: border-box;
+    font-family: 'Open Sans', sans-serif;
+}
+
+/* Header */
+
+header {
+    width: 100vw;
+    height: 100px;
+    background: white;
+    position: fixed;
+    padding: 10px 10px;
+    display: flex;
+    align-items: center;
+    align-content: space-between;
+}
+
+nav {
+    float: right;
+    align-items: center;
+}
+
+nav ul {
+    display: flex;
+    list-style-type: none;
+    align-content: space-between;
+}
+
+nav ul li {
+    margin: 0 6px;
+    font-size: 25px;
+
+}
+
+#brand {
+    float: left;
+}
+
+img {
+    width: 10%;
+}
