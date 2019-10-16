@@ -1,8 +1,176 @@
+@import url("https://fonts.googleapis.com/css?family=Roboto:300,400&display=swap");
+
+* {
+  margin: 0;
+  padding: 0;
+}
+
+body {
+  color: #1a1a1a;
+  font-family: "Roboto", sans-serif;
+}
 /*
 Colors:
 
 Text: 1A1A1A
-Green: #00B172
+Green: 
 White: #FFF
 
 */
+
+.header {
+  background-image: url("./../images/landing.jpg");
+  background-size: cover;
+  background-repeat: no-repeat;
+  background-position: 0px 0px;
+  height: 100vh;
+  position: relative;
+}
+
+.nav-bar {
+  background: #fff;
+  padding: 10px 20px;
+}
+
+.spotify-logo {
+  width: 10rem;
+}
+
+.nav-list {
+  width: 30%;
+  float: right;
+  margin: 16px 0;
+}
+
+.nav-list ul {
+  display: flex;
+  flex-direction: row;
+  justify-content: flex-end;
+}
+
+.nav-list ul li {
+  list-style-type: none;
+  padding: 0 1rem;
+}
+
+.nav-list a {
+  text-decoration: none;
+  color: #1a1a1a;
+}
+
+h1 {
+  position: absolute;
+  top: 40%;
+  transform: translateY(-40%);
+  left: 50%;
+  transform: translateX(-50%);
+  color: #fff;
+  font-size: 5rem;
+  font-weight: 500;
+  padding-bottom: 1rem;
+}
+
+header > h3 {
+  position: absolute;
+  top: 58%;
+  transform: translateY(-50%);
+  left: 50%;
+  transform: translateX(-50%);
+  color: #fff;
+  text-align: center;
+  font-weight: 50;
+  font-size: 1.5rem;
+}
+
+#section1 h2 {
+  text-align: center;
+  margin: 1.9rem 0 0.5rem;
+  font-size: 2rem;
+}
+
+#section1 > hr {
+  border: 2px solid #00b172;
+  width: 250px;
+  margin: 0 auto;
+}
+
+.what-spotify {
+  display: flex;
+  justify-content: space-evenly;
+  align-items: baseline;
+  flex-direction: row;
+  padding: 2rem;
+}
+
+.container {
+  text-align: center;
+  box-sizing: border-box;
+  width: 20%;
+  flex-wrap: wrap;
+}
+
+.container h3 {
+  color: #00b172;
+  font-size: 1.5rem;
+  padding-top: 1rem;
+}
+
+.container p {
+  font-size: 1.3rem;
+  padding: 1rem 0;
+}
+
+.img-div {
+  width: 9rem;
+}
+
+#section2 {
+  background: #00b172;
+  position: relative;
+  margin: 0 2rem;
+  height: 31rem;
+  padding: 7rem;
+}
+
+.spotify-icon {
+  width: 8rem;
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+}
+
+#section2 h2,
+#section2 hr,
+#section2 p,
+#section2 h3 {
+  color: #fff;
+}
+
+#section2 h2 {
+    font-size: 2rem;
+}
+
+#section2 hr {
+  border: 2px solid;
+  width: 390px;
+  margin: 0.5rem 0 3rem;
+}
+
+.img-app {
+  width: 18rem;
+  float: right;
+  position: absolute;
+  top: 140px;
+  left: 1050px;
+}
+
+#section2 p {
+  padding: 2rem 0;
+  width: 30%;
+  font-size: 1.3rem;
+}
+
+#section2 h3 {
+  font-size: 1.5rem;
+}
