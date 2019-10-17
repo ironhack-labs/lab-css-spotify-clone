@@ -6,3 +6,121 @@ Green: #00B172
 White: #FFF
 
 */
+@import url('https://fonts.googleapis.com/css?family=Roboto+Condensed:700%7CRoboto:100,300,700');
+
+body {
+    font-family: Roboto;
+    margin: 0;
+}
+
+.container {
+    width: 100%;
+    max-width: 900px;
+    margin: 0 auto;
+}
+
+.header {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 10px 30px 10px 20px;
+}
+
+.header img {
+    width: 150px;
+}
+
+.nav a {
+    text-decoration: none;
+    color: #1A1A1A;
+    font-size: 22px;
+    padding: 10px;
+}
+
+.intro {
+    background-image: url('../images/landing.jpg');
+    height: 500px;
+    background-size: cover;
+    color: #FFF;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+.intro h1 {
+    font-size: 60px;
+    margin: 0;
+}
+
+.intro p {
+    font-size: 20px;
+    max-width: 70%;
+    line-height: 1.4em;
+    text-align: center;
+}
+
+.presentation {
+    text-align: center;
+}
+
+.items {
+    display: flex;
+    justify-content: space-around;
+    margin-top: 40px;
+}
+
+.items div {
+    max-width: 20%;
+}
+
+.presentation h2 {
+    padding-bottom: 5px;
+    border-bottom: 2px solid #00B172;
+    display: inline-block;
+}
+
+.items h3 {
+    color: #00B172;
+}
+
+.items p {
+    line-height: 1.4em;
+}
+
+.presentation img {
+    width: 60px;
+}
+
+.tools {
+    background-color: #00B172;
+    background-image: url('../images/spotify-icon-white.png');
+    background-repeat: no-repeat;
+    background-size: 70px;
+    background-position: 50% 50%;
+    color: #FFF;
+    padding: 40px 60px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.spotify-white-logo {
+    width: 40px;
+}
+
+.spotify-app {
+    display: block;
+    max-width: 200px;
+}
+
+.toolsList p {
+    max-width: 200px;
+}
+
+.toolsList h2 {
+    border-bottom: 2px solid white;
+    padding-bottom: 5px;
+    margin: 0;
+    margin-bottom: 30px;
+}
