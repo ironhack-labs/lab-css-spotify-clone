@@ -6,3 +6,193 @@ Green: #00B172
 White: #FFF
 
 */
+
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+:root {
+  font-size: 10px;
+}
+
+body {
+  font-size: 2em;
+  font-family: sans-serif;
+  background: #FFF;
+  color: #1A1A1A;
+}
+
+
+
+/* navbar */
+
+nav {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  height: 80px;
+}
+
+.nav {
+  display: flex;
+  justify-content: flex-end;
+  list-style: none;
+}
+
+.nav li {
+  padding: 2rem;
+}
+
+.nav a {
+  text-decoration: none;
+  color: black;
+}
+
+.nav a:hover {
+  color: #888;
+}
+
+.logo {
+  height: 50px;
+  margin-left: 2.5em;
+}
+
+/* banner */
+
+.banner {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-image: url("../images/landing.jpg");
+  color: #FFF;
+  height: 90vh;
+}
+
+.title-text {
+  width: 60%;
+  text-align: center;
+}
+
+h1 {
+  padding-top: 1.5em;
+  font-size: 8rem;
+  letter-spacing: 0.1rem;
+  font-weight: 400;
+  margin: 0.5em 0;
+}
+
+h2 {
+  font-weight: 200;
+  padding: 0 2.5em;
+}
+
+/* features */
+
+.features {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  margin: 3em;
+}
+
+.section-title {
+  font-size: 4rem;
+  font-weight: 500;
+  border-bottom: 4px solid #00B172;
+  margin-bottom: 1em;
+}
+
+.feature-list {
+  display: flex;
+  justify-content: center;
+  text-align: center;
+}
+
+.feature {
+  width: 25%;
+  margin: 2em;
+  list-style: none;
+}
+
+.feature img {
+  height: 110px;
+}
+
+.feature-title {
+  color: #00B172;
+  font-size: 3rem;
+  font-weight: 500;
+  margin: 1em 0;
+}
+
+.feature-description {
+  font-size: 2.5rem;
+  font-weight: 200;
+  padding: 0 1em;
+}
+
+/* website functions */
+
+.website-functions {
+  background: #00B172;
+  color: #FFF;
+  margin: 2em;
+  padding-top: 2em;
+}
+
+.functions-title {
+  position: absolute;
+  margin: 1em 2.5em;
+  padding-bottom: 0.1em;
+  font-size: 4rem;
+  font-weight: 400;
+  border-bottom: 3px solid #FFF;
+}
+
+.selling-points {
+  display: flex;
+  justify-content: space-evenly;
+  align-items: center;
+}
+
+.selling-points ul {
+  padding: 3em 5em 3em 2em;
+  margin-top: 2em;
+}
+
+.selling-points li {
+  list-style: none;
+  padding: 1.25em 0;
+}
+
+.selling-point-item {
+  width: 34.5%;
+
+}
+
+
+.selling-point-title {
+  font-size: 3rem;
+  font-weight: 500;
+}
+
+.selling-point-description {
+  font-size: 2.25rem;
+  font-weight: 200;
+  padding: 1em 0;
+}
+
+.icon-white {
+  width: 150px;
+  height: 150px;
+}
+
+.webapp-img {
+  width: 350px;
+  margin: 3.5em;
+}
