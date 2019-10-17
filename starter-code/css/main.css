@@ -4,5 +4,152 @@ Colors:
 Text: 1A1A1A
 Green: #00B172
 White: #FFF
-
 */
+html {
+  font-family: Circular, Helvetica, Arial, sans-serif;
+  font-size: 10px;
+  /*margin: 0;
+  padding: 0;
+  box-sizing: border-box;*/
+}
+
+.nav-bar img {
+  width: 20em;
+}
+
+.nav-option a {
+  text-decoration: none;
+  color: black;
+  font-size: 1.8em;
+}
+.nav-bar {
+  display: flex;
+  justify-content: space-between;
+  margin: 2em;
+}
+
+.nav-option {
+  display: flex;
+  justify-content: space-around;
+  width: 35em;
+  align-items: center;
+}
+
+#intro {
+  background-image: url("/images/landing.jpg");
+  height: 80em;
+  background-size: cover;
+  background-repeat: no-repeat;
+  background-position: 0 0;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+
+  margin: 0;
+  padding: 0;
+}
+
+#intro p {
+  color: white;
+  font-size: 3em;
+  font-weight: 100;
+  width: 55%;
+  text-align: center;
+}
+
+#intro h1 {
+  color: white;
+  text-align: center;
+  font-size: 7em;
+}
+
+/* SPOTIFY SECTION */
+
+#spotify h2 {
+  text-align: center;
+  font-size: 4em;
+  border-bottom: solid #00b172;
+}
+/* ^^the above effect applies on the h2 & feature elements, children of >div */
+
+#spotify > div {
+  display: flex;
+  justify-content: space-around;
+}
+
+.feature {
+  display: flex;
+  flex-direction: column;
+  justify-content: flex-start;
+  align-items: center;
+  width: 30%;
+}
+
+.feature img {
+  width: 12em;
+  height: 10rem;
+}
+
+.feature h3 {
+  color: #00b172;
+  font-size: 3em;
+  text-align: center;
+}
+
+.feature p {
+  text-align: center;
+  font-size: 2.3em;
+  width: 70%;
+}
+
+#spotify br {
+  font-size: 2px;
+  color: #00b172;
+}
+
+#app {
+  background-color: #00b172;
+  color: white;
+  position: relative;
+}
+
+.green {
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+  height: 70em;
+  margin-left: 2em;
+  margin-right: 2em;
+}
+
+.green > div {
+  width: 40em;
+}
+
+.green img {
+  width: 80%;
+}
+
+#icon {
+  width: 12em;
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+}
+
+.green-content h4 {
+  font-size: 3em;
+}
+
+.green-content p {
+  font-size: 2.3em;
+}
+
+.green-content h3 {
+  font-size: 3.9em;
+  width: 13.5em;
+  border-bottom: solid white;
+  padding-bottom: 0.2em;
+}
