@@ -6,3 +6,172 @@ Green: #00B172
 White: #FFF
 
 */
+
+* {
+    margin: 0;
+    padding: 0;
+    font-family: sans-serif;
+}
+
+.nav-bar {
+    box-sizing: content-box;
+    display: flex;
+    justify-content: space-between;
+    background: #FFF;
+    position: fixed;
+    width: 100%;
+    align-items: center;
+    height: 60px;
+}
+
+.spotify-logo {
+    height: 50px;
+    width: auto;
+    float: left;
+    margin: 30px;
+}
+
+.searching-bar {
+    float: right;
+    padding: 20px;
+    margin: 5px;
+}
+
+.s-link {
+    text-decoration: none;
+    color: grey;
+    font-size: 17px;
+    padding: 5px;
+}
+
+
+.background-text {
+    background-image: url(/images/landing.jpg);
+    height: 100vh;
+    background-position: center;
+    background-size: cover;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+.main-title {
+    color: #FFF;
+    font-size: 70px;
+    text-align: center;
+    padding: 0 50px 30px;
+}
+
+.main-presentation {
+    color: #FFF;
+    text-align: center;
+    font-size: 25px;
+    padding: 0 220px 20px;
+}
+
+.section-1 {
+    padding: 30px 0;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+.subtitle-1 {
+    color: #1A1A1A;
+    text-align: center;
+    border-bottom: 3px solid #00B172;
+    font-size: 30px;
+    padding: 0 0 10px 0;
+    width: 300px;
+}
+
+.wrap-box {
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    justify-content: space-evenly;
+    padding: 20px 0;
+    width: 100%;
+    margin: 20px;
+}
+
+.subsection {
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+    flex: 1;
+}
+
+.icon {
+    height: 70px;
+    padding: 15px 0;
+}
+
+.description-name {
+    color: #00B172;
+    text-align: center;
+    font-size: 22px;
+    padding: 10px 0;
+}
+
+.description {
+    color: grey;
+    text-align: center;
+    font-size: 16px;
+    padding: 15px;
+    width: 60%;
+    ;
+}
+
+.section-2 {
+    background: #00B172;
+    padding: 60px 80px;
+}
+
+.container-box {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    flex-wrap: wrap;
+    align-items: center;
+}
+
+.singer-ad {
+    font-size: 30px;
+    color: #FFF;
+    width: 43%;
+    border-bottom: 3px solid #FFF;
+    padding: 0 0 10px;
+    margin-bottom: 10px;
+}
+
+.text-content {
+    width: 40%;
+    display: flex;
+    flex-direction: column;
+}
+
+.possible-action {
+    font-size: 22px;
+    color: #FFF;
+    padding: 20px 0 10px;
+}
+
+.action-description {
+    font-size: 16px;
+    color: #FFF;
+    float: left;
+    width: 70%;
+    padding: 10px 0;
+}
+
+.spotify-white-icon {
+    height: 90px;
+}
+
+.spotify-app {
+    height: 420px;
+    float: right;
+}
