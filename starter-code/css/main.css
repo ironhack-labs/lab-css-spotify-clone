@@ -1,8 +1,174 @@
-/*
-Colors:
-
+/* Colors:
 Text: 1A1A1A
 Green: #00B172
-White: #FFF
+White: #FFF */
 
-*/
+@import url('https://fonts.googleapis.com/css?family=Open+Sans:300,400,700,800&display=swap');
+
+body {
+    font-family: 'Open Sans', sans-serif;
+    margin: 0;
+    padding: 0;
+
+}
+
+.logo img {
+    width: 200px;
+}
+
+nav {
+    display: flex;
+    justify-content: space-between;
+    padding: 15px;
+    align-items: center;
+    color: #1A1A1A;
+    flex-wrap: wrap;
+    position: fixed;
+    /* transform: translate(); */
+    background-color: white;
+    width: 100%;
+}
+
+ul {
+    /* width: auto; */
+    list-style: none;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 0;
+    font-size: 1.4em;
+    margin: 0 20px;
+    font-weight: lighter;
+}
+
+nav li {
+    margin: 0 20px;
+}
+
+.headerImg {
+    background-image: url(/starter-code/images/landing.jpg);
+    background-size: cover;
+    height: 90vh;
+    color: white;
+    text-align: center;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    padding: 0 150px;
+    /*   white-space: nowrap; */
+}
+
+.headerImg>h1 {
+    font-size: 4.5em;
+    font-weight: 600;
+    /* white-space: nowrap; */
+}
+
+.headerImg>h2 {
+    font-size: 1.8em;
+    font-weight: lighter;
+    text-align: center;
+
+}
+
+section {
+    margin: 30px;
+}
+
+.description {
+    text-align: center;
+    /* justify-content: center;
+    flex-direction: column; */
+    color: #1A1A1A;
+}
+
+.description h2 {
+    font-size: 2.5em;
+    /* text-decoration: underline; */
+    border-bottom: 5px solid #00B172;
+    display: inline;
+    padding-bottom: 5px;
+}
+
+.description img {
+    height: 150px;
+
+}
+
+.description div {
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    margin: 80px 40px 40px 40px;
+
+}
+
+.description article {
+    flex: 1;
+    display: flex;
+    ;
+    height: 350px;
+    flex-direction: column;
+    justify-content: flex-start;
+    align-items: center;
+    margin: 0 20px;
+}
+
+.description h3 {
+    color: #00B172;
+    font-size: 1.6em;
+}
+
+.description p {
+    font-size: 1.3em;
+    font-weight: lighter;
+}
+
+.cta {
+    background-color: #00B172;
+    display: flex;
+    height: 90vh;
+    padding: 60px 90px;
+    justify-content: space-between;
+    align-items: center;
+    font-size: 1.5em;
+    color: #FFF;
+}
+
+.cta .text {
+    height: 100%;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    width: 60%;
+    margin-right: 0%;
+
+}
+
+.text h2 {
+    /* border-bottom: 5px solid #FFF; */
+    display: inline;
+    /* white-space: nowrap; */
+    text-decoration: underline;
+}
+
+.cta article {
+    width: 70%;
+}
+
+.cta p {
+    font-weight: lighter;
+}
+
+.cta img[alt="spotifyicon"] {
+    width: 130px;
+    height: 130px;
+    position: absolute;
+    left: 50%;
+    transform: translate(-50%, 0%);
+}
+
+.cta img[alt="appimage"] {
+    width: 26vw;
+    margin-left: 20%;
+}
