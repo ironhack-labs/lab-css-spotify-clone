@@ -6,3 +6,164 @@ Green: #00B172
 White: #FFF
 
 */
+
+* {
+  margin: 0px;
+}
+
+body {
+  font-family: "Montserrat", sans-serif;
+  background-color: white;
+}
+
+.flex {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+}
+
+header {
+  position: fixed;
+  background-color: white;
+  width: 100vw;
+  height: 14vh;
+  align-items: center;
+}
+
+header img {
+  justify-content: flex-start;
+  margin-left: 2vw;
+}
+
+.navbar ul,
+a {
+  display: flex;
+  flex-direction: row;
+  justify-content: flex-end;
+  list-style: none;
+  text-decoration: none;
+  margin: 0 20px;
+  color: black;
+}
+
+.intro-img {
+  background-image: url("../images/landing.jpg");
+  background-size: cover;
+  height: 100vh;
+  width: 100vw;
+  display: flex;
+  align-items: center;
+  flex-direction: column;
+  justify-content: center;
+  color: white;
+  font-size: 30px;
+}
+
+.intro-img h1 {
+  font-size: 2.5em;
+}
+
+.intro-img p {
+  text-align: center;
+  padding-top: 1em;
+}
+.background {
+  background-color: rgb(83, 175, 113);
+  background-repeat: no-repeat;
+  width: auto;
+  height: 100vh;
+  color: white;
+  /* padding: 50px 50px; */
+  margin: 50px 50px;
+}
+
+.background-img {
+  background-image: url("../images/spotify-icon-white.png");
+  background-size: 150px 150px;
+  background-position: center;
+}
+
+.box {
+  padding: 50px 100px;
+}
+
+.green img {
+  width: 3vw;
+}
+
+.description h3 {
+  color: rgb(83, 175, 113);
+  font-size: 25px;
+  margin: 20px 0;
+}
+
+.description div img {
+  align-items: center;
+  width: 10vw;
+  justify-content: space-between;
+}
+.description div {
+  align-items: center;
+  text-align: center;
+  width: 100vw;
+  justify-content: space-between;
+  margin: 50px 0;
+}
+
+.description div p {
+  margin: 30px 100px;
+}
+
+.description h2 {
+  text-align: center;
+  margin: 50px 0;
+  font-size: 30px;
+}
+
+.underline {
+  border-bottom: 3px solid rgb(83, 175, 113);
+}
+
+.background .underline {
+  border-bottom: 3px solid white;
+}
+
+.background div {
+  align-items: center;
+  width: 100vw;
+  justify-content: space-evenly;
+  margin: 50px 0;
+}
+
+#icon {
+  width: 9vw;
+}
+
+#app {
+  height: 70vh;
+}
+
+.background :nth-child(2) {
+  flex: 0.5;
+  align-self: center;
+}
+
+.background h2 {
+  font-size: 40px;
+  margin-bottom: 60px;
+}
+
+.background h3 {
+  font-size: 25px;
+  margin: 20px 0;
+}
+
+.background p {
+  font-size: 18px;
+}
+
+/* .flex-col {
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+} */
