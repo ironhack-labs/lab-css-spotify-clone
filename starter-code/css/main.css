@@ -7,74 +7,214 @@ White: #FFF
 
 */
 * {
-    margin: 0;
-    padding: 0;
-    box-sizing: border-box;
-    font-family: Tahoma, sans-serif
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  font-family: "Montserrat", sans-serif;
+}
+
+.full-page {
+  height: 100vh;
+  width: 100%;
+  background-image: url("../images/landing.jpg");
+  background-position: center;
+  background-repeat: no-repeat;
+  display: flex;
+  justify-content: center;
+  align-items: center;
 }
 
 nav {
-    background-color: white;
-    display: flex;
-    align-items: center;
-    justify-content: space-between;
-    padding: 20px 30px;
-    height: 10vh;
+  background-color: white;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  padding: 4% 8%;
+  height: 10vh;
+  font-weight: 300;
+  position: fixed;
+  z-index: 10;
+  width: 100%;
 }
 
 a {
-    color: black;
-    text-decoration: none;
-    margin: 15px;
+  color: black;
+  text-decoration: none;
+  font-size: 3.5em;
+  margin: 40px;
 }
 
 .logo {
-    width: 200px;
-    height: auto;
+  width: 600px;
+  height: auto;
 }
 
 #first-block {
-    background-image: url("./../images/landing.jpg");
-    background-repeat: no-repeat;
-    background-size: cover;
-    height: 90vh;
+  background-image: url("./../images/landing.jpg");
+  background-repeat: no-repeat;
+  background-size: cover;
+  height: 90vh;
+}
+
+h1 {
+  color: white;
+  font-size: 12em;
+  text-align: center;
+  margin-bottom: 100px;
+}
+
+.title p {
+  color: white;
+  font-size: 5em;
+  font-weight: 300;
+  text-align: center;
+}
+
+#second-block {
+  height: 80vh;
+}
+
+#second-title {
+  margin-top: 2%;
+  padding: 0.5%;
+  font-size: 6em;
+  font-weight: 600;
+}
+
+#subtitle {
+  font-size: 6em;
+  font-weight: lighter;
+  color: white;
+  width: 100%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
 }
 
 .pv-3 {
-    display: flex;
-    align-items: center;
-    justify-content: space-evenly;
+  margin-top: 7%;
+  display: flex;
+  align-items: center;
+  justify-content: space-evenly;
 }
-.pv-3 #music {
-    width: 400px;
+
+.pv-3 h3 {
+  text-align: center;
+  margin-bottom: 7%;
+  font-weight: 600;
+  font-size: 5em;
+  color: #00b172;
 }
-#music img{
-    width: 200px;
-    height: auto;
+
+#music {
+  width: 25%;
 }
-#quality img{
-    width: 200px;
-    height: auto;
+
+#device {
+  width: 25%;
 }
-#device img{
-    width: 200px;
-    height: auto;
+
+#quality {
+  width: 25%;
 }
-#second-title{
-    text-align: center;
+
+#music img {
+  height: auto;
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+  margin-bottom: 10%;
+  width: 500px;
 }
-.green {
-    background-color: #00B172;
-    display: flex;
-    align-items: center;
-    justify-content: space-evenly;
+
+#quality img {
+  height: auto;
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+  margin-bottom: 10%;
+  width: 600px;
 }
-#all-together {
-    display: flex;
-    align-items: center;
-    justify-content: space-evenly;
+
+#device img {
+  height: auto;
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+  margin-bottom: 10%;
+  width: 500px;
 }
-#white-logo img{
-    width: 130px;
-    height: auto;
+
+.pv-3 p {
+  text-align: center;
+  font-size: 4em;
+  font-weight: 300;
+}
+
+#second-title {
+  text-align: center;
+}
+
+.underline {
+  border-bottom: 15px solid #00b172;
+  margin: 0 auto;
+  width: 900px;
+  height: 0px;
+}
+
+.third-block-green {
+  background-color: #00B172;
+  padding: 5% 10%;
+  color: white;
+}
+
+.block-inside {
+  display: flex;
+  justify-content: space-between;
+  width: 70%;
+  align-items: center;
+}
+
+#title-yeezy {
+  font-size: 4.7em;
+  font-weight: 500;
+}
+
+#underline-2 {
+  border-bottom: 15px solid #fff;
+  width: 1600px;
+  height: 3px;
+  padding-bottom: 20px;
+  margin-bottom: 200px;
+}
+
+.entire-inside-block {
+  display: flex;
+  justify-content: space-between;
+}
+
+.block-inside h3 {
+  font-weight: 600;
+  font-size: 5em;
+  color: white;
+  padding-bottom: 50px;
+}
+
+.block-inside p {
+  padding-bottom: 100px;
+  font-size: 4em;
+  font-weight: 300;
+}
+
+#white-logo img {
+  width: 60%;
+  height: auto;
+  position: relative;
+  top: 50%;
+  bottom: 50%;
+}
+
+#app img {
+  width: 150%;
+  height: auto;
 }
