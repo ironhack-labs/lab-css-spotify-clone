@@ -6,3 +6,200 @@ Green: #00B172
 White: #FFF
 
 */
+
+@import url("https://fonts.googleapis.com/css?family=Roboto&display=swap");
+@import url("https://fonts.googleapis.com/css?family=Poppins:300&display=swap");
+
+body {
+  font-family: Poppins;
+  color: #1a1a1a;
+}
+
+* {
+  margin: 0;
+  padding: 0;
+}
+
+/* Navigation Bar */
+
+nav {
+  position: fixed;
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  background-color: white;
+  padding-right: 50%;
+  height: 100px;
+}
+
+.nav-bar ul {
+  font-size: 1.4rem;
+  display: flex;
+  list-style: none;
+  align-items: center;
+  justify-content: space-around;
+  padding-left: 51rem;
+  margin: auto;
+}
+
+.nav-bar > ul > li {
+  display: flex;
+  justify-content: space-evenly;
+  padding-left: 1.5em;
+  align-items: right;
+}
+
+.logo-img {
+  height: 3.5em;
+  padding: 14.5px 20px;
+}
+
+/* Header Section */
+
+.header {
+  height: 120vh;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  background-image: url("../images/landing.jpg");
+  background-position: auto;
+  background-size: cover;
+  background-repeat: no-repeat;
+  justify-content: center;
+}
+
+.headings-container {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+h1 {
+  font-size: 5.1rem;
+  color: white;
+  padding-bottom: 20px;
+  font-weight: bolder;
+}
+
+h3 {
+  color: white;
+  font-size: 1.75rem;
+}
+
+/* Section 2 */
+
+.section-2 {
+  height: 650px;
+  margin: 0 50px;
+}
+
+.section-2 h3 {
+  color: #00b172;
+}
+
+.section-2 h2 {
+  text-align: center;
+  font-weight: 300;
+  font-size: 2.2em;
+  padding-top: 45px;
+  padding-bottom: px;
+  margin-left: 580px;
+  margin-right: 580px;
+  border-bottom: 4.5px solid #00b172;;
+}
+
+.section-2 img {
+  height: 100px;
+  width: 130px;
+  padding-bottom: 20px;
+}
+
+.overall-functions {
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  /* padding-left: 250px; */
+  padding-top: 100px;
+}
+
+.features-container {
+  margin: 10 100px;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+  align-items: center;
+  text-align: center;
+  align-content: center;
+  padding-left: 100px;
+  padding-right: 80px;
+}
+
+.features-container h3 {
+  font-size: 1.8em;
+}
+
+.features-container p {
+  font-size: 1.5em;
+  
+}
+
+.overall-functions p {
+  /* padding-right: 120px; */
+  padding-top: 30px;
+}
+
+/* Section 3 */
+
+.section-3 {
+  background-image: url("../images/spotify-icon-white.png");
+  background-position: center;
+  background-size: 140px;
+  background-repeat: no-repeat;
+  background-color: #00b172;
+  color: #fff;
+  margin: 30px;
+  display: flex;
+  align-items: flex-start;
+  justify-content: flex-start;
+  flex-direction: column;
+  height: 850px;
+}
+
+.app-img {
+  height: 630px;
+  width: 360px;
+  padding-left: 55%;
+  margin-top: -310px;
+}
+
+.discover {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: flex-start;
+  margin-right: 0;
+  margin-left: 80px;
+  padding-top: 30px;
+}
+
+.section-3 h2 {
+  font-size: 2.2em;
+  padding-top: 70px;
+  padding-bottom: 9px;
+  margin-left: 82px;
+  border-bottom: 4px solid white;
+}
+
+.discover h3 {
+  font-size: 1.8em;
+  padding-top: 20px;
+}
+
+.discover p {
+  font-size: 1.3em;
+  padding-top: 30px;
+  padding-bottom: 20px;
+  padding-right: 1100px;
+  line-height: 1.5em;
+  font-weight: lighter;
+}
