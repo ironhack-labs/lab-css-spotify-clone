@@ -6,3 +6,180 @@ Green: #00B172
 White: #FFF
 
 */
+
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  font-family: Arial, Helvetica, sans-serif;
+}
+
+img {
+  max-width: 100%;
+  max-height: 100%;
+}
+
+nav {
+  position: fixed;
+  height: 90px;
+  width: 100%;
+  background-color: white;
+  display: flex;
+  justify-content: space-between;
+  align-content: center;
+
+  z-index: 1;
+}
+
+nav > div {
+  width: 240px;
+  margin: 10px;
+  padding: 5px 20px;
+}
+
+nav > ul {
+  height: 80%;
+  display: flex;
+  align-items: center;
+  margin: 10px;
+  width: 40%;
+}
+
+nav > ul > li {
+  float: left;
+  width: 25%;
+  list-style-type: none;
+  text-align: center;
+}
+
+header {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+
+  background-image: url("../images/landing.jpg");
+  height: 1000px;
+  background-size: cover;
+}
+
+header > h1 {
+  color: white;
+  text-align: center;
+
+  font-size: 5em;
+
+  transform: translateY(-50%);
+}
+
+header > p {
+  color: white;
+  text-align: center;
+  font-size: 2em;
+  line-height: 1.3em;
+
+  padding: 0 25%;
+}
+
+.section1 {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+
+  height: 500px;
+  margin-top: 50px;
+}
+
+.section1 > h2 {
+  font-size: 2.5em;
+  padding-bottom: 5px;
+  border-bottom: 5px solid #00b172;
+}
+
+.img-div {
+  display: flex;
+  justify-content: center;
+  height: 30%;
+}
+
+.img-div img {
+  height: 100%;
+}
+
+.row-container {
+  display: flex;
+  height: 70%;
+  width: 90%;
+  margin-top: 70px;
+  justify-content: space-between;
+}
+
+.row-container > div {
+  width: 33.3%;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  align-content: baseline;
+}
+
+.row-container h3 {
+  color: #00b172;
+  font-size: 1.8em;
+  margin-top: 20px;
+  margin-bottom: 30px;
+}
+
+.row-container p {
+  font-size: 1.5em;
+  color: #333;
+  text-align: center;
+  padding: 0 50px;
+}
+
+.section2 {
+  margin: 0 30px 30px;
+  background: url("../images/spotify-icon-white.png") no-repeat;
+  background-position: center;
+  background-color: #00b172;
+  background-size: 130px;
+
+  padding: 0 3%;
+  display: flex;
+  justify-content: space-around;
+}
+
+.section2 > div {
+  color: white;
+  width: 40%;
+  height: 90%;
+  margin: 5%;
+}
+
+.section2 div > div {
+  width: 65%;
+}
+
+.section2 h2 {
+  font-size: 2.4em;
+  border-bottom: 5px solid white;
+}
+
+.section2 h3 {
+  font-size: 2em;
+  margin: 40px auto;
+}
+
+.section2 p {
+  font-size: 1.5em;
+  font-weight: lighter;
+}
+
+.spotify-app-img {
+  padding: 3%;
+  text-align: right;
+}
+
+.spotify-app-img img {
+  width: 77%;
+  height: 77%;
+}
