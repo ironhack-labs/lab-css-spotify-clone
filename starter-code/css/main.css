@@ -6,37 +6,57 @@ Green: #00B172
 White: #FFF
 
 */
+
+* {
+  margin: 0;
+  padding: 0;
+  font-family: sans-serif;
+  box-sizing: border-box;
+}
+
 img {
   width: 100%;
   display: block;
 }
 
-body {
-  margin: 0;
-  padding: 0;
-  font-family: sans-serif;
-}
-
 /* NAVBAR */
 /* ********************** */
 .navbar {
+  position: fixed;
   display: flex;
-  margin: 15px 50px;
+  padding: 15px;
+  width: 100%;
   justify-content: space-between;
   align-items: center;
+  background: white;
 }
 
-.spotifyLogo > img {
+.spotifyLogo>img {
   width: auto;
   height: 4em;
+}
+
+.navbuttons {
+  padding: 0.5em;
 }
 
 a {
   font-size: 1.4em;
   text-decoration: none;
   color: black;
-  font-weight: normal;
-  padding: 0.5em;
+  font-weight: lightest;
+  padding: 0.1em;
+  font-family: "Open Sans", sans-serif;
+}
+
+@media only screen and (max-width: 680px) {
+  .spotifyLogo>img {
+    height: 2em;
+  }
+
+  a {
+    font-size: 1.2em;
+  }
 }
 
 /* Section 1 */
@@ -45,7 +65,7 @@ a {
   display: flex;
   justify-content: center;
   align-items: center;
-  background: url(/starter-code/images/landing.jpg) no-repeat;
+  background: url(../images/landing.jpg) no-repeat;
   background-size: cover;
   height: 50em;
   padding-bottom: 4em;
@@ -59,6 +79,7 @@ a {
   color: white;
   font-size: 6em;
   font-weight: 500;
+  padding: 1em;
 }
 
 .section1 p {
@@ -70,9 +91,6 @@ a {
   color: white;
   padding: 0 20% 2em 20%;
   font-family: "Open Sans", sans-serif;
-}
-
-.section1Text {
 }
 
 /* Section 2 */
@@ -91,12 +109,13 @@ a {
   justify-content: center;
   font-size: 2.5em;
   text-align: center;
-  margin: 1.5em 0 5px 0;
+  margin: 1em;
 }
 
-.section2title {
+.section2 span {
   border-bottom: solid 4px #00b172;
-  margin: 0 30em 5em 30em;
+  padding: 0.2em 0;
+  margin-bottom: 1em;
 }
 
 .section2 h3 {
@@ -108,7 +127,9 @@ a {
 
 .section2 p {
   color: black;
+  font-family: "Open Sans", sans-serif;
   font-size: 1.5em;
+  margin: 1.5em 2.5em;
 }
 
 .image {
@@ -139,7 +160,25 @@ a {
   height: 1em;
 }
 
-/* NSection 3 */
+@media only screen and (max-width: 1058px) {
+  .section2 p {
+    margin: 2em 0.5em;
+  }
+}
+
+@media only screen and (max-width: 738px) {
+  .section2 p {
+    margin: 2em 0.5em;
+    font-size: 1em;
+  }
+
+  .section2 h3 {
+    margin: 0;
+    font-size: 1.3em;
+  }
+}
+
+/* Section 3 */
 /* ********************** */
 .section3 {
   display: flex;
@@ -150,7 +189,7 @@ a {
 
 .whiteLogo {
   display: flex;
-  width: 400px;
+  width: 80%;
   justify-content: flex-end;
   align-items: center;
   margin: 0;
@@ -159,20 +198,27 @@ a {
 .section3Left {
   display: flex;
   flex-direction: column;
-  padding: 2em 0 0 6em;
+  padding: 5% 0 5% 5%;
   width: 50%;
 }
 
 .section3Right {
-  padding: 8%;
-  width: 35%;
+  display: flex;
+  align-items: center;
+  padding: 8% 8%;
+  width: 50%;
 }
 
-.leftheader {
+h2 span {
+  border-bottom: solid 3px white;
+  padding-bottom: 0.2em;
+}
+
+.leftheader h2 {
   color: white;
   font-weight: normal;
-  font-size: 1.5em;
-  border-bottom: solid 3px white;
+  font-family: "Open Sans", sans-serif;
+  font-size: 2.5em;
   margin-right: 5em;
 }
 
@@ -180,22 +226,48 @@ a {
   display: flex;
 }
 
-.blockOf3 {
-  margin-top: 2em;
-  padding-right: 30%;
+.leftBodyIn3parts {
+  margin-top: 5%;
+  padding-right: 10%;
 }
 
 .section3 h3 {
   font-size: 2em;
   color: white;
+  margin: 10% 0;
 }
 
 .section3 h2 {
-  margin: 0.2em;
+  margin: 0;
 }
 
 .section3 p {
   font-size: 1.4em;
   color: white;
   font-family: "Open Sans", sans-serif;
+  margin-bottom: 15%;
+}
+
+@media only screen and (max-width: 738px) {
+  .section3 h3 {
+    font-size: 1em;
+  }
+
+  .section3 h2 {
+    font-size: 1.2em;
+    margin-bottom: 1em;
+  }
+
+  .section3 p {
+    font-size: .6em;
+  }
+
+  h2 span {
+    border-bottom: solid 2px white;
+  }
+
+  .sectionLeft {
+    width: 50%;
+  }
+
 }
