@@ -6,3 +6,175 @@ Green: #00B172
 White: #FFF
 
 */
+
+* {
+  font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+  box-sizing: border-box;
+  padding: 0;
+  margin:0;
+}
+
+.links {
+ position: fixed;
+ background-color: white;
+ box-sizing: content-box;
+ width: 100%;
+ height: 70px;
+ background-image: url(./../images/spotify-logo.png);
+ background-size: auto 50px;
+ background-repeat: no-repeat;
+ display: flex;
+flex-direction: row;
+justify-content: flex-end;
+z-index: 100;
+align-items: center;
+}
+
+.links ul{
+  display: flex;
+  list-style-type: none;
+  margin-right: 30px;
+  font-size: 22px;
+}
+
+.links li {
+  margin: 0 10px;
+}
+    
+
+section {
+padding-top: 200px;
+width: 100%;
+height: 100%;
+}
+
+.section1 {
+  position: relative;
+top: 70px;
+    color: #FFF;
+    background-image: url(./../images/landing.jpg);
+    width: 100%;
+    height: 1000px;
+background-size: cover;
+}
+
+.music {
+  display: flex;
+  justify-content: center;
+  align-content: center;
+  font-size: 60px;
+}
+
+.spotify {
+  display: flex;
+  justify-content: center;
+  align-content: center;
+  font-size: 20px;
+}
+
+.listen {
+  display: flex;
+  justify-content: center;
+  align-content: center;
+  font-size: 20px;
+}
+
+.section2 {
+  padding: 10px;
+  height: 600px;
+  display: flex;
+  justify-content: center;
+  flex-wrap: wrap;
+}
+
+img {
+width: 100px;
+height: 80px;
+}
+
+h2 {
+  display: flex;
+  justify-content: center;
+  width: 1200px;
+  margin-right: 110px;
+  font-size: 30px;
+  border-bottom: 3px solid #00B172;
+  margin-top: 150px;
+  border-right-width: 500px;
+}
+
+.cases {
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  flex-wrap: nowrap;
+  text-align: center;
+  margin-top: 50px;
+}
+
+.section3 {
+  width: auto;
+  background: #00B172;
+  color: #FFF;
+  margin-right: 10px;
+  padding: 20px;
+  height: 700px;
+  display: flex;
+  justify-content: flex-start;
+  flex-wrap: wrap;
+}
+
+.image {
+position: relative;
+left: 950px;
+top: 300px;
+}
+
+h3 {
+  margin-top: 50px;
+  margin-left: 20px;
+  padding-top: 50px;
+  border-bottom: 10px;
+  font-size: 30px;
+  border-bottom: 3px solid #FFF;
+}
+
+h5 {
+  font-size: 25px;
+}
+
+p {
+  display: flex;
+  flex-wrap: wrap;
+  border: 10px transparent;
+}
+
+.underline {
+  border: 5px transparent;
+  border-bottom: 2px #00B172 solid;
+}
+
+.songs {
+display: flex;
+justify-content: space-between;
+flex-wrap: wrap;
+justify-content: center;
+padding: 50px;
+}
+
+.search {
+  display: flex;
+justify-content: space-between;
+flex-wrap: wrap;
+margin-bottom: auto;
+flex-direction: column;
+padding-bottom: 30px;
+padding-top: 30px;
+}
+
+.subSection3 {
+padding-left: 20px;
+padding-right:  400px;
+display: flex;
+flex-direction: column;
+}
