@@ -1,42 +1,72 @@
 <!DOCTYPE html>
 <html lang="en">
-<head>
-  <meta charset="UTF-8">
-  <title>Spotify</title>
-</head>
-<body>
-Premium Discover Help Download
-
-Music for everyone.
-Spotify is now free on mobile, tablet and computer.
-Listen to the right music, wherever you are.
-
-What’s on Spotify?
-
-Millions of Songs
-There are millions of
-songs on Spotify
-
-HD Music
-Listen to music as if you
-were listening live
-
-Stream Everywhere
-Stream music on your
-smartphone, tablet or
-computer
-
-It’s as yeezy as Kanye West.
-Search
-Know what you want to listen to?
-Just search and hit play.
-Browse
-Check out the latest charts,
-brand new releases and great
-playlists for right now.
-Discover
-Enjoy new music every Monday
-with your own personal playlist.
-Or sit back and enjoy Radio.
-</body>
+  <head>
+    <meta charset="UTF-8" />
+    <title>Spotify</title>
+    <link rel="stylesheet" href="./css/main.css" />
+  </head>
+  <body>
+    <navbar>
+      <img
+        class="spotifyLogo"
+        src="./images/spotify-logo.png"
+        alt="spotify logo"
+      />
+      <div class="fourPages">
+        <ul>
+          <li>Premium</li>
+          <li>Discover</li>
+          <li>Help</li>
+          <li>Download</li>
+        </ul>
+      </div>
+    </navbar>
+    <div class="music-for-everyone">
+      <h1>Music for everyone</h1>
+      <article>
+        Spotify is now free on mobile, tablet and computer. Listen to the right
+        music, wherever you are.
+      </article>
+    </div>
+    <h3 class="whats-on-spotify"><span class="border-green">What’s on Spotify?</span></h3>
+      <div class="container">
+        <div class="subcontainer">
+          <img class="threeIcons" src="./images/music-icon.png" alt="logo-songs" />
+          <h4>Millions of Songs</h4>
+          <p class="parapraphs-middle">There are millions of songs on Spotify</p>
+        </div>
+        <div class="subcontainer">
+            <img class="threeIcons" src="./images/high-quality-icon.png" alt="logo-hdmusic" />
+          <h4>HD Music</h4>
+          <p class="parapraphs-middle">Listen to music as if you were listening live</p>
+        </div>
+        <div class="subcontainer">
+          <img class="threeIcons" src="./images/devices-icon.png" alt="logo-stream" />
+          <h4>Stream Everywhere</h4> 
+          <!-- How to align h4 on one line so that the text in <p> does not lift 
+            Stream Everywhere up when groups in 3 lines?-->
+          <p class="parapraphs-middle">Stream music on your smartphone, tablet or computer</p>
+        </div>
+      </div>
+    </div>
+    
+    <div class="green-section">
+      
+      <div class=first-box-green-section>
+        <div class="header-underline"><h2 ><span class="border-white">It’s as yeezy as Kanye West</span>.</h2></div>
+        <h3 class="header-text">Search</h3>
+        <p class="p-green-section">Know what you want to listen to? Just search and hit play.</p> 
+        <h3 class="header-text">Browse</h3>
+        <p class="p-green-section">Check out the latest charts, brand new releases and great playlists for right now.</p>
+        <h3 class="header-text">Discover</h3>
+        <p class="p-green-section">Enjoy new music every Monday with your own personal playlist. Or sit back and enjoy Radio.</p>
+      </div>
+      <div>
+        <img class="spotify-white-logo" src="./images/spotify-icon-white.png" alt="spotify logo white">
+      </div>
+      <div class="second-box-green-section">
+          <img class="spotify-app" src="/starter-code/images/spotify-app.jpg" alt="spotify app picture">
+      </div>
+    </div>
+  </body>
 </html>
