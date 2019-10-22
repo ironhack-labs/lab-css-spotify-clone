@@ -6,3 +6,168 @@ Green: #00B172
 White: #FFF
 
 */
+@import url("https://use.typekit.net/gky6tpu.css");
+
+html{
+    font-size:10px;
+    background: grey;
+}
+body{
+    max-width: 125rem;
+    margin:auto;
+    font-family: proxima-nova;
+    font-size: 2rem;
+}
+.header{
+    display:flex;
+    justify-content: space-between;
+    align-items: center;
+    background: white;
+    padding: 1rem 4rem;
+}
+img.animated:hover{
+    animation-name: rotation;
+    animation-duration: 1s;
+    animation-iteration-count: 1;
+}
+@keyframes rotation{
+    0%{
+        transform: rotate(0deg);
+    }
+    100%{
+        transform: rotate(360deg);
+    }
+}
+
+
+.header div img{
+    width: 25rem;
+}
+.navbar{
+    display: flex;
+    justify-content: space-around;
+    width: 45rem;
+    font-size: 2.5rem;
+}
+.section1{
+    height: 74rem;
+    background: url("../images/landing.jpg");
+    background-size: cover;
+    color:white;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+.section1 h1{
+    font-size: 8rem;
+    font-weight: bold;
+    padding-bottom: 6rem;    
+}
+.section1 p{
+    font-size: 3rem;
+    line-height: 4rem;
+}
+.section2{
+    background: white;
+    height: 55rem;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: flex-start;
+}
+.section2 h2{
+    font-size: 4rem;
+    border-bottom: 0.4rem solid #00B172;
+    padding-bottom: 0.5rem;
+    margin:4rem 0 0 0;
+    font-weight: bold;
+}
+#container{
+    display: flex;
+    justify-content: space-around; 
+    align-items: center;  
+    width: 100%;
+    height: 100%; 
+
+}
+#container div{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center; 
+    width: 30rem;   
+}
+.section2 img{
+    height: 15rem;
+}
+.section2 h3{
+    font-size: 3rem;
+    color: #00B172;
+    font-weight: bold;
+    margin: 3rem 0 3rem 0;
+}
+.section2 p{
+    text-align: center;
+    font-size: 2.5rem;
+}
+.section3{
+    color:white;
+    display: flex;
+    justify-content: center;
+    background: white;
+    height: 77rem;
+}
+.greenbox {
+    display: flex;
+    justify-content: space-evenly;
+    align-items: flex-end;
+    background: #00B172;
+    height: 74rem;
+    width: 118rem;
+    box-sizing: border-box;
+    padding-bottom: 5rem;
+}
+.section3 h2{
+    font-size: 4rem;
+    border-bottom: 0.4rem solid;
+    padding-bottom: 0.5rem;
+    margin:0 0 6rem 0;
+    font-weight: bold;
+    box-sizing: border-box;
+    letter-spacing: 2px;
+}
+.content{
+    display: flex;
+
+}
+.right{
+    display: flex;
+    align-items: center;
+}
+.right img{
+    height: 13rem;
+    width: 13rem;
+}
+.left{
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    height: 50rem;
+    width: 33rem;
+    padding-right: 7rem;
+    
+}
+.column2 img{
+    width: 32rem;
+}
+article h3{
+    font-size: 3rem;
+    font-weight: bold;
+    padding-bottom:2.5rem ;
+}
+article p{
+    font-size:2.3rem;
+    line-height: 3rem;
+
+}
