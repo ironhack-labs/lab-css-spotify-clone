@@ -74,10 +74,12 @@ header img{
 
 .hero-container{
     display:flex;
+    flex-direction: column;
     flex-wrap: wrap;
     justify-content: center;
+    align-items: center;
     align-self: center;
-    width:50%;
+    width:60%;
 }
 
 .hero-container h1, p{
@@ -123,7 +125,8 @@ header img{
     font-size:1.8rem;
     text-align: center;
     color:#00B172;
-    padding:1.3rem;
+    padding:1.3rem 0;
+    align-self: center;
 }
 
 .feature p{
@@ -131,6 +134,7 @@ header img{
     padding: 1rem;
     text-align: center;
     color:#000000;
+    align-self: center;
 }
 
 .features-title h2{
@@ -186,7 +190,7 @@ header img{
     height:120px;
 }
 
-.description h2, h3, p{
+.description h2, .description h3, .description p{
     color:#ffffff;
     text-align: left;
     padding: 1rem;
