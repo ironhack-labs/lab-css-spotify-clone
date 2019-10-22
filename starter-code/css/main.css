@@ -14,7 +14,10 @@ header{
 
 img.logo{
     width: 250px;
+    animation-name: special;
+    animation-duration: 1s;
 }
+
 
 header>nav>ul{
     display: flex;
@@ -107,13 +110,84 @@ div.service>img{
 section.spotlight{
     background: #00B172;
     margin: 30px;
+    display: flex;
 }
 
-/*
-Colors:
+div.app-spot{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
 
-Text: 1A1A1A
-Green: 
-White: #FFF
+div.app-spot>img{
+    width: 60%;
+    margin: 50px 50px 40px 50px;
 
-*/
+}
+
+div.info-logo{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 50%;   
+}
+
+
+div.info-logo>img{
+    width: 150px;
+    
+
+}
+
+div.info-spot>h2{
+    font-size: 30px;
+    color: white;
+    border-bottom: white solid 3px;
+    display: inline-block;
+    padding-bottom: 15px;
+    margin-left: 30px;
+    margin-top: 20px;
+    
+}
+
+div.info-spot article{
+    width: 60%;
+}
+
+div.info-spot article>h3{
+    font-size: 30px;
+    color:white;
+    font-weight: bold;
+    padding: 40px 0;
+}
+
+div.info-spot article>p{
+    font-size: 22px;
+    color:white;
+    
+
+
+}
+
+div.info-spot{
+    padding: 15px;
+    margin-left: 30px;
+    }
+
+
+div.info-body{
+    display: flex;
+    justify-content: center;
+    margin-left: 30px;
+    margin-top: 20px;
+}
+
+@keyframes special{
+    0% {
+transform: rotate(0);
+    }
+
+    100%{
+    transform: rotate(360deg);
+    }
+}
