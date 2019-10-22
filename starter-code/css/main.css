@@ -20,8 +20,25 @@ nav {
 
 #logo {
     height: 60px;
+    animation: fadein ease-in-out 0.7s;
+    animation-delay: 0.5s;
+    opacity: 0;
+    animation-fill-mode: forwards;
+
     
 }
+@keyframes fadein {
+    0% {
+        opacity: 0;
+    }
+
+    100% {
+        opacity: 1;
+    }
+}
+
+
+
 
 nav ul {
     display: flex;
