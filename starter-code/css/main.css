@@ -14,6 +14,22 @@ header {
 
 header>img {
     width: 200px;
+   
+}
+
+.disappear {
+    animation: disappear 3s 1s infinite ease-in alternate;
+}
+
+@keyframes disappear {
+
+    from {
+        opacity:0;
+    }
+
+    to {
+        opacity:1;
+    }
 }
 
 .flex-container {
