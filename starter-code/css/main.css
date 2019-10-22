@@ -4,5 +4,159 @@ Colors:
 Text: 1A1A1A
 Green: #00B172
 White: #FFF
+Navbar
 
+- The navbar should be `position: fixed`.
+- Float the image left, and float a `ul` with the links right.
+
+#### What's on Spotify section
+
+- It looks like the `div`s take up about a third of the container each. How can you represent this in code?
+
+#### Green Section
+
+- It looks like we have 2 main pieces, a `div` with the text content, and the image of the Spotify player. Position these according to the surrounding green `div`.
+- Position the Spotify logo absolutely according to the Green `div`.
 */
+
+* {
+  margin: 0px;
+  padding: 0px;
+}
+
+header {
+  display: flex;
+  width: 1000px;
+  height: 54px;
+}
+
+nav {
+  background-color: #fff;
+  width: 1200px;
+  height: 54px;
+  position: fixed;
+}
+
+#spotifyLogo {
+  float: left;
+  height: 26px;
+  width: 88px;
+}
+
+.headerLi {
+  float: right;
+  align-content: space-between;
+}
+
+#headerUl {
+  display : flex;
+  align-items : center; 
+  width: 1000px;
+  height: 54px;
+}
+
+//* big Image *//
+
+.landing {
+  background-image: url("images/spotify-app.jpg"
+  alt="spotify app image with kanye west");
+  background-repeat : no-repeat;
+  height: 100vh;
+  display: flex;
+  color : white; 
+  justify-content: center ;
+  background-size: 99,9%;
+  align-items: center;
+  flex-direction: column;
+  flex-wrap: wrap;
+}
+
+#landingImg {
+  height: 1000px;
+  width: 1200px;
+  background-size: cover;
+}
+
+h1 {
+  text-align: center;
+  align-items: center;
+}
+
+#landingSpan {
+  padding: 50px;
+  text-align: center;
+  align-items: center;
+}
+
+/*What's on spotify*/
+
+#servicesHeader {
+  text-align: center;
+  font-size: 30px;
+  padding: 100px 0x, 100px, 0px;
+  color: #00b172;
+}
+
+.services {
+  display: flex;
+  flex-direction: row;
+}
+
+.oneService {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-content: space-between;
+  margin: 0px 120px 0px 120px;
+  padding: 50px, 70px, 50px, 70px;
+}
+
+.serviceImg {
+  width: 50px;
+  height: 50px;
+}
+
+/*GreenBackGround*/
+.greenBackground{
+  display: flex;
+  flex-direction: row;
+  align-content: space-between;
+  margin: 10px;
+  text-align: left;
+  padding: 0 10px 10px 0;
+  background-color: #00b172;
+}
+
+.bigContainerLeft {
+  display: flex;
+  height: 800px;
+  width: 100px;
+  flex-direction: column;
+}
+
+.imageBottom {
+  width: 380px;
+  border-bottom: 5px solid white;
+  width: 750px;
+}
+
+.title {
+  margin: 10 px;
+  border-bottom: 5px solid white;
+  width: 750px;
+  height 100px;
+}
+
+.explore {
+  height : 600px;
+  display : flex;
+  flex-direction : row; 
+}
+
+.logo {
+  background-image: url("images/spotify-logo.png");
+  width : 100px;
+  position : absolute;
+  left : 600px;
+  background-size: cover ;
+}
