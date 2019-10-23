@@ -8,146 +8,135 @@ White: #FFF
 */
 
 * {
-    margin: 0;
-    font-family: 'Cabin', sans-serif;
-    line-height: 2em;
+  margin: 0;
+  font-family: "Cabin", sans-serif;
+  line-height: 2em;
+}
+
+h1 {
+  font-size: 2em;
 }
 
 .logo-style {
-    height: 40px;
-    padding: 10px;
+  height: 40px;
+  padding: 10px;
 }
 
-#log-div{
-    display: flex;
-    align-content: center;
+#log-div {
+  display: flex;
+  align-content: center;
 }
-
 
 .nav-bar {
-    display: flex;
-    justify-content: space-between;
-    align-items: center;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
 }
 
 a {
-    height: 40px;
-    text-decoration: none;
-    font-size: 0.8em;
-    color: black;
-    padding: 10px;
-    font-family: 'Open Sans',sans-serif;
-    font-weight: lighter;
-    
+  height: 40px;
+  text-decoration: none;
+  font-size: 0.8em;
+  color: black;
+  padding: 10px;
+  font-family: "Open Sans", sans-serif;
+  font-weight: lighter;
 }
 
-
 header {
-    display: flex;
-    background-image: url(/starter-code/images/landing.jpg);
-    background-size: cover;
-    height: 550px;
-    justify-content: center;
-    align-items: center;
-    text-align: center;
-    color: white;
-
+  display: flex;
+  background-image: url(/starter-code/images/landing.jpg);
+  background-size: contain;
+  height: 600px;
+  justify-content: center;
+  align-items: center;
+  text-align: center;
+  color: white;
 }
 
 #header h1 {
-    font-size: 3em;
-    padding: 30px;
+  font-size: 4em;
+  padding: 20px;
 }
 
 #header p {
-    font-size: 1.1em;
-}
-
-#what-is-spotify h2 {
-    
-    
+  font-size: 1.3em;
+  font-family: Arial, Helvetica, sans-serif;
 }
 
 .icon-style {
-    height: 80px;
-    padding:20px
+  height: 80px;
+  padding: 20px;
 }
 
-#info-box-div{
-    display: flex;
-    justify-content: space-between;
+#info-box-div {
+  display: flex;
+  justify-content: space-between;
 }
 
 .info-box {
-    text-align: center;
-    width:33%;
-    padding: 40px;
+  text-align: center;
+  width: 33%;
+  padding: 40px;
 }
 
 .info-box p {
-    font-family: 'Open Sans',sans-serif;
-    font-weight: lighter;
+  font-family: "Open Sans", sans-serif;
+  font-weight: lighter;
 }
 
 .info-box h3 {
-    color: #00B172;
+  color: #00b172;
 }
 
 #what-is-div {
-    display: flex;
-    justify-content: center;
+  display: flex;
+  justify-content: center;
 }
 
-#what-is-div {
-    display: flex;
-    justify-content: center;
+#what-is-div h2 {
+  font-size: 2em;
+  font-weight: lighter;
+  padding: 30px;
 }
 
-#what-is-div h2{
-    font-size: 2em; 
-    font-weight: lighter;
-    padding: 30px;
-    }
-
-
-
-#underline {
-    display: block;
-    border-bottom: 3px solid #00B172;
+.underline {
+  display: block;
+  border-bottom: 3px solid #00b172;
 }
 
-#green-box {
-    background-color: #00B172;
-    background-position: center;
-    color: white;
-    margin: 20px;
+#green-section {
+  background-color: #00b172;
+  color: white;
+}
+#green-section h2 {
+  padding: 30px 0 0 70px;
+  font-size: 2.1em;
 }
 
-
-.flex{
-    display: flex;
-    align-items: center;
-    justify-content: space-between;
-    margin: 20 auto;
-
-}
-.box{
-    padding: 10px;
+.flex {
+  display: flex;
+  align-items: center;
+  justify-content: space-around;
 }
 
-
-.item{
-    flex-grow: 2 ;
-    align-items: baseline;
-    flex-flow: column;
+.col {
+  max-width: 30%;
+  padding: 20px;
 }
 
-.inside-green-box{
-    padding: 30px
+.search-browse-discover {
+  align-self: flex-start;
+  font-size: 1.2em;
 }
 
-.inside-green-box h2 {
-    text-decoration: underline;
-    flex-grow: 3;
-    font-size: 2.4em;
+#green-section .underline {
+  display: block;
+  border-bottom: 3px solid white;
+  width: 36%;
+}
+
+h3 {
+  margin: 20px 0;
+  font-size: 1.5em;
 }

@@ -1,132 +1,127 @@
 <!DOCTYPE html>
 <html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <title>Spotify</title>
+    <link href="/starter-code/css/main.css" rel="stylesheet" />
+    <link
+      href="https://fonts.googleapis.com/css?family=Cabin:400,700&display=swap"
+      rel="stylesheet"
+    />
+  </head>
 
-<head>
-  <meta charset="UTF-8">
-  <title>Spotify</title>
-  <link href="/starter-code/css/main.css" rel="stylesheet">
-  <link href="https://fonts.googleapis.com/css?family=Cabin:400,700&display=swap" rel="stylesheet" />
-</head>
+  <body>
+    <!--NAVIGATION-->
 
-
-<body>
-
-  <!--NAVIGATION-->
-
-  <nav>
-    <div class="nav-bar">
-
-      <div id="log-div">
-        <img class="logo-style" src="images/spotify-logo.png" alt="green spotify logo" />
-      </div>
-
-      <div>
-        <a class="anchor-link" href="#">Premium</a>
-        <a class="anchor-link" href="#">Discover</a>
-        <a class="anchor-link" href="#">Help</a>
-        <a class="anchor-link" href="#">Download</a>
-      </div>
-    </div>
-  </nav>
-
-  <!--HEADER-->
-
-  <header id="header">
-    <div>
-      <h1>Music for everyone.</h1>
-      <p>Spotify is now free on mobile, tablet and computer. <br>
-        Listen to the right music, wherever you are.</p>
-    </div>
-  </header>
-
-
-  <!--SECTION WHAT IS SPOTIFY-->
-
-
-  <section id="what-is-spotify">
-
-    <div id="what-is-div">
-      <h2><span id="underline">What’s on Spotify?</span></h2>
-    </div>
-
-
-    <div id="info-box-div">
-
-      <div class="info-box">
-        <img class="icon-style" src="images/music-icon.png" alt="speaker icon" />
-        <h3>Millions of Songs</h3>
-        <p>There are millions of
-          songs on Spotify</p>
-      </div>
-
-      <div class="info-box">
-        <img class="icon-style" src="images/high-quality-icon.png" alt="hd icon" />
-        <h3>HD Music</h3>
-        <p>Listen to music as if you
-          were listening live</p>
-      </div>
-
-      <div class="info-box">
-        <img class="icon-style" src="images/devices-icon.png" alt="devices icon" />
-        <h3>Stream Everywhere</h3>
-        <p>Stream music on your
-          smartphone, tablet or
-          computer</p>
-      </div>
-
-    </div>
-
-  </section>
-
-
-  <!--SECTION WHAT IS SPOTIFY-->
-
-  <section>
-    <div>
-
-      <div id="green-box" class="flex">
-
-
-
-        <div class="inside-green-box">
-          
-          <h2>It’s as yeezy as Kanye West.</h2>
-
-
-          <div class="flex item">
-
-            <div class="box">
-              <h3>Search</h3>
-              <p>Know what you want to listen to?
-                Just search and hit play.</p>
-            </div>
-
-            <div class="box ">
-              <h3>Browse</h3>
-              <p>Check out the latest charts,
-                brand new releases and great
-                playlists for right now.</p>
-            </div>
-
-            <div class="box">
-              <h3>Discover</h3>
-              <p>Enjoy new music every Monday
-                with your own personal playlist.
-                Or sit back and enjoy Radio.</p>
-            </div>
-          </div>
+    <nav>
+      <div class="nav-bar">
+        <div id="log-div">
+          <img
+            class="logo-style"
+            src="images/spotify-logo.png"
+            alt="green spotify logo"
+          />
         </div>
 
-        <div class="inside-green-box"> <img src="images/spotify-icon-white.png" alt="spotify icon" width="100px"> </div>
+        <div>
+          <a class="anchor-link" href="#">Premium</a>
+          <a class="anchor-link" href="#">Discover</a>
+          <a class="anchor-link" href="#">Help</a>
+          <a class="anchor-link" href="#">Download</a>
+        </div>
+      </div>
+    </nav>
 
-        <div class="inside-green-box"> <img src="images/spotify-app.jpg" alt="interface example kanye west"
-            width="300px"> </div>
+    <!--HEADER-->
 
+    <header id="header">
+      <div>
+        <h1>Music for everyone.</h1>
+        <p>
+          Spotify is now free on mobile, tablet and computer. <br />
+          Listen to the right music, wherever you are.
+        </p>
+      </div>
+    </header>
+
+    <!--SECTION WHAT IS SPOTIFY-->
+
+    <section id="what-is-spotify">
+      <div id="what-is-div">
+        <h2><span class="underline">What’s on Spotify?</span></h2>
+      </div>
+
+      <div id="info-box-div">
+        <div class="info-box">
+          <img
+            class="icon-style"
+            src="images/music-icon.png"
+            alt="speaker icon"
+          />
+          <h3>Millions of Songs</h3>
+          <p>There are millions of songs on Spotify</p>
+        </div>
+
+        <div class="info-box">
+          <img
+            class="icon-style"
+            src="images/high-quality-icon.png"
+            alt="hd music icon"
+          />
+          <h3>HD Music</h3>
+          <p>Listen to music as if you were listening live</p>
+        </div>
+
+        <div class="info-box">
+          <img
+            class="icon-style"
+            src="images/devices-icon.png"
+            alt="devices icon"
+          />
+          <h3>Stream Everywhere</h3>
+          <p>Stream music on your smartphone, tablet or computer</p>
+        </div>
+      </div>
+    </section>
+
+    <!--SECTION WHAT IS SPOTIFY-->
+
+    <div id="green-section">
+      <h2><span class="underline">It’s as yeezy as Kanye West.</span></h2>
+      <div class="flex">
+        <div class="col search-browse-discover">
+          <h3>Search</h3>
+          <p>
+            Know what you want to listen to? Just search and hit play.
+          </p>
+
+          <h3>Browse</h3>
+          <p>
+            Check out the latest charts, brand new releases and great playlists
+            for right now.
+          </p>
+
+          <h3>Discover</h3>
+          <p>
+            Enjoy new music every Monday with your own personal playlist. Or sit
+            back and enjoy Radio.
+          </p>
+        </div>
+        <div class="col">
+          <img
+            src="images/spotify-icon-white.png"
+            alt="spotify icon"
+            width="100px"
+          />
+        </div>
+        <div class="col">
+          <img
+            src="images/spotify-app.jpg"
+            alt="interface example kanye west"
+            width="300px"
+          />
+        </div>
       </div>
     </div>
-
-  </section>
-
-</body>
-
+  </body>
 </html>
