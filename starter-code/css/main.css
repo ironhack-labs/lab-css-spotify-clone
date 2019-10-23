@@ -1,13 +1,17 @@
 /*
 Colors:
 
-Text: 1A1A1A
-Green: #00B172
-White: #FFF
+Text: 1A1A1A
+Green: #00B172
+White: #FFF
 
 */
 .display-flex {
     display: flex;
+}
+
+.justify {
+    justify-content: center;
 }
 
 .between {
@@ -24,6 +28,115 @@ header {
     align-items: center;
     margin: 0 auto;
     height: 80px;
+}
+
+.box {
+    width: 2px;
+    height: 5px;
+    background: #00B172;
+    margin: auto;
+    margin-left: 10px;
+    animation: box-to-rectangle 3s ease-out .2s infinite alternate backwards;
+}
+
+.box2 {
+    width: 2px;
+    height: 5px;
+    background: #00B172;
+    margin: auto 0;
+    margin-left: 1px;
+    animation: box-to-rectangle 4s ease-out .2s infinite alternate backwards;
+}
+
+.box3 {
+    width: 2px;
+    height: 5px;
+    background: #00B172;
+    margin: auto 0;
+    margin-left: 1px;
+    animation: box-to-rectangle 2s ease-out .2s infinite alternate backwards;
+}
+
+.box4 {
+    width: 2px;
+    height: 5px;
+    background: #00B172;
+    margin: auto 0;
+    margin-left: 1px;
+    animation: box-to-rectangle 3s ease-out .2s infinite alternate backwards;
+}
+
+.box5 {
+    width: 2px;
+    height: 5px;
+    background: #00B172;
+    margin: auto 0;
+    margin-left: 1px;
+    animation: box-to-rectangle 2.5s ease-out .2s infinite alternate backwards;
+}
+
+.box6 {
+    width: 2px;
+    height: 5px;
+    background: #00B172;
+    margin: auto 0;
+    margin-left: 1px;
+    animation: box-to-rectangle 3s ease-out .2s infinite alternate backwards;
+}
+
+.box7 {
+    width: 2px;
+    height: 5px;
+    background: #00B172;
+    margin: auto 0;
+    margin-left: 1px;
+    animation: box-to-rectangle 4s ease-out .2s infinite alternate backwards;
+}
+
+.box8 {
+    width: 2px;
+    height: 5px;
+    background: #00B172;
+    margin: auto 0;
+    margin-left: 1px;
+    animation: box-to-rectangle 1.5s ease-out .2s infinite alternate backwards;
+}
+
+.box9 {
+    width: 2px;
+    height: 5px;
+    background: #00B172;
+    margin: auto 0;
+    margin-left: 1px;
+    animation: box-to-rectangle 3.5s ease-out .2s infinite alternate backwards;
+}
+
+.box10 {
+    width: 2px;
+    height: 5px;
+    background: #00B172;
+    margin: auto 0;
+    margin-left: 1px;
+    animation: box-to-rectangle 4s ease-out .2s infinite alternate backwards;
+}
+
+.box11 {
+    width: 2px;
+    height: 5px;
+    background: #00B172;
+    margin: auto 0;
+    margin-left: 1px;
+    animation: box-to-rectangle 2s ease-out .2s infinite alternate backwards;
+}
+
+@keyframes box-to-rectangle {
+    from {
+        height: 5px;
+    }
+
+    to {
+        height: 30px;
+    }
 }
 
 nav {
@@ -49,30 +162,36 @@ nav ul {
     background-position: center;
     background-size: 100%;
 }
-.center{
+
+.center {
     margin: 250px auto;
     text-align: center;
 }
-.center h1{
+
+.center h1 {
     font-size: 4em;
     color: white;
     font-weight: 600;
     padding-bottom: 10px;
     letter-spacing: 5px;
 }
-.center h2{
+
+.center h2 {
     font-size: 2em;
     color: white;
     font-weight: 300;
 }
-.icon{
+
+.icon {
     height: 100px;
     width: 100px;
 }
-.article-icon{
+
+.article-icon {
     text-align: center;
 }
-.section-2-h2{
+
+.section-2-h2 {
     font-size: 3em;
     color: #1A1A1A;
     font-weight: 700;
@@ -83,19 +202,22 @@ nav ul {
     border-bottom-color: #00B172;
     margin-top: 30px;
 }
-.section-2-h3{
+
+.section-2-h3 {
     font-size: 1.7em;
     font-weight: 500;
     color: #00B172;
     padding-bottom: 50px;
 }
-.section-2-p{
+
+.section-2-p {
     font-size: 1.5em;
     font-weight: 200;
     color: 1A1A1A;
 }
-.section-3{
-    max-width:95%;
+
+.section-3 {
+    max-width: 95%;
     padding-top: 50px;
     padding-bottom: 50px;
     background-color: #00B172;
@@ -104,31 +226,38 @@ nav ul {
     background-repeat: no-repeat;
     background-size: 10%;
 }
-.app-img{
+
+.app-img {
     width: 300px;
     height: 532.5px;
 }
-.app-img-r{
+
+.app-img-r {
     text-align: center;
 }
-.list{
+
+.list {
     padding-left: 60px;
 }
-.list h2{
+
+.list h2 {
     color: white;
     font-size: 2.5em;
     font-weight: 500;
     padding-bottom: 5px;
     border-bottom: 5px solid;
 }
-.space{
+
+.space {
     padding: 80px;
 }
+
 .section-3-p {
     font-size: 1.5em;
     font-weight: 200;
     color: white;
 }
+
 .section-3-h3 {
     font-size: 1.7em;
     font-weight: 500;
