@@ -7,7 +7,14 @@ White: #FFF
 
 */
 
-/* .hero {background="./images/landing.jpg"} */
+.hero {
+    background-image: url("../images/landing.jpg");
+    background-position: center center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    margin: 20vh auto;
+    height: 40vh;
+}
 
 * {
     /* Reset Defaults */
@@ -27,6 +34,7 @@ White: #FFF
     padding-bottom: 1vh;
 }
 .what-img {
+    max-width: 10vw;
     max-height: 8vh;
     padding: 2vh 0;
 
