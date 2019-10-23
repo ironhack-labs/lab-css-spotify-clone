@@ -42,23 +42,29 @@ White: #FFF
 }
 
 #whats-on{
-    position: absolute;
+    position: relative;
     height: 60vh;
     width: 100%;
     background-color: white;
 }
 
 #whats-on h2{
-    position: relative;
-    top: 10%;
+    display: inline;
+    position: absolute;
+    top: 8%;
+    left: 37%;
     font-size: 3em;
     text-align: center;
     vertical-align: center;
-}
+    border-bottom: 5px solid #00b663;
+    text-decoration: none;
+    padding: 0 0 10px 0;
+} 
 
-.icons{
-    height: 10%;
-    width: 10%;
+img {
+    height: 40%;
+    width: 40%;
+    padding: 0 0 0 90px;
 }
 
 h3{
@@ -67,26 +73,45 @@ h3{
 }
 
 #music-section {
-    position: relative;
-    top: 50%;
-    left: 20%;
+    top: 40%;
+    left: 10%; 
+    width: 300px;
+    height: 300px;
+}
+
+#music-section p, #music-section h3 {
+    text-align: center;
+    padding: 10px 0px;
 }
 
 #hq-section {
-    position: relative;
-    top: 50%;
-    left: 50%;
+    top: 40%;
+    left: 40%; 
+    width: 300px;
+    height: 300px;
+}
+
+.sections{
+    position: absolute;
+}
+
+#hq-section p, #hq-section h3 {
+    text-align: center;
+    padding: 10px 0px;
 }
 
 #device-section {
-    position: relative;
-    top: 50%;
-    left: 80%;
+    top: 40%;
+    left: 70%;
+    width: 300px;
+    height: 300px;
+    
 }
 
-
-
-
+#device-section p, #device-section h3 {
+    text-align: center;
+    padding: 10px 0px;
+}
 
 
 
