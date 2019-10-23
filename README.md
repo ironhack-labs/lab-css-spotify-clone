@@ -4,7 +4,7 @@
 
 ## Introduction
 
-Everybody likes music, right? Odds are, if you do, you've heard of Spotify.
+Everybody likes music, right? Odds are, if you do, you've heard of **Spotify**.
 
 In this lab we'll be building a simplified version of the Spotify landing page:
 
@@ -41,7 +41,7 @@ The page is split into 4 sections.
 #### Navbar
 
 - The navbar should be `position: fixed`.
-- `float` the logo to the left, and float a `ul` with the links to the right.
+- Align the logo to the left and the `ul` with the links to the right, either using `float` or `flex`.
 
 #### Large image background with text
 
@@ -56,4 +56,5 @@ The page is split into 4 sections.
 - It looks like we have 2 main sections, a containing element with the text flowing from top to bottom, and the image of the Spotify player on the right.
 - Position the Spotify logo absolutely according to the Green `div`.
 
-Happy coding! ❤️
+Happy coding! 💙
+
