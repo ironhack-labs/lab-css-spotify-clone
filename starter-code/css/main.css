@@ -6,3 +6,152 @@ Green: #00B172
 White: #FFF
 
 */
+/*Some necessary adjustments*/
+h1, body, html, main {
+    margin: 0;
+  }
+  /*Import the font and set the default size*/
+html {
+   font-family: 'Montserrat', sans-serif;
+    font-size: 18px;
+}
+.player {
+    background: #00B172;
+    margin-bottom: 90px;
+}
+
+
+.banner {
+    background: url(../images/landing.jpg) center no-repeat;
+    height: 450px;
+    
+    background-size:     cover;
+    background-repeat:   no-repeat;
+    background-position: center; 
+    height: 900px;
+    text-align: center;
+    display:flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+}
+
+.banner p {
+    color: white;
+}
+
+.banner h1 {
+    color: #FFF;
+    font-size: 80px;
+}
+.banner p {
+    color:#FFF;
+    text-align: center;
+    font-size: 30px;
+}
+
+#characteristics h3 {
+    color: #00B172;
+}
+nav img {
+    width: 200px;
+    height: auto;
+    padding-left: 80px;
+}
+
+nav ul {
+    text-decoration: none;
+    list-style: none;
+    padding-right: 80px;
+    align-content: space-between;
+    
+}
+
+nav li {
+    padding: 10px;
+    display:inline;
+}
+
+nav {
+    position: fixed;
+    background: #FFF;
+    display: flex;
+    justify-content: space-between;
+    width: 99%;
+    padding: 30px;
+}
+#characteristics h2 {
+    font-size:35px;
+    text-decoration: underline;
+    text-decoration-color: #00B172;
+    padding: 10px;
+}
+#characteristics {
+    text-align: center;
+}
+#characteristics > div {
+    display:flex;
+    justify-content: space-between;
+}
+
+#characteristics > div > div {
+    width: 30%;
+}
+
+#characteristics img {
+    width: 90px;
+}
+
+.player {
+    margin-right:2%;
+    margin-left: 2%;
+}
+
+.textContainer {
+    display: flex;
+    flex-direction: column;
+    justify-content: space-around;
+}
+
+.player > div {
+    display:flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+#spotify-white {
+    width: 160px;
+    height: auto;
+}
+#spotify-player {
+    height: 700px;
+    width: auto;
+    padding-top: 40px;
+}
+
+.player h3, h4 {
+    color: #FFF;
+    font-size: 30px;
+    padding-left: 80px;
+}
+
+.player h3 {
+    padding-top: 50px;
+    font-size: 45px;
+    text-decoration: underline;
+}
+
+.player p {
+    color: #FFF;
+    padding-left: 80px;
+    
+}
+.player > div > div {
+    width: 31%;
+}
+.imgContainer {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    padding-bottom: 50px;
+}
