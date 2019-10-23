@@ -6,3 +6,159 @@ Green: #00B172
 White: #FFF
 
 */
+
+* {
+    margin: 0px;
+    padding: 0px;
+    font-family: sans-serif;
+}
+
+.spoty-logo {
+    width: 30%;
+}
+
+header > div {
+  padding: 0 25px;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  font-size: 1.5em;
+}
+
+nav ul {
+    list-style-type: none;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+nav ul a {
+    text-decoration: none;
+    color: black;
+    margin-left: 30px;
+}
+
+li {
+    list-style-type: none;
+    margin-right: 10px;
+    list-style: none;
+}
+
+.first-section {
+    background-image: url(../images/landing.jpg);
+    background-size: 100%;
+    background-repeat: no-repeat;
+    padding: 300px;
+    color: white;
+    text-align: center;    
+}
+
+.musich1 {
+    font-size: 4em;
+    
+    text-align: center;
+}
+
+.first-p {
+    margin-top: 20px; 
+    font-size: 1.6em;
+    font-weight: 100;
+}
+
+.second-p {
+    font-size: 1.6em;
+    font-weight: 100;
+}
+
+.under-title {
+    margin:50px auto;
+    text-align: center;
+    font-size: 2em;
+}
+
+section img {
+    display: flex;
+    width: 35%;
+    margin-left: 100px;
+    
+}
+
+.second-section {
+    padding: 30px;
+}
+
+h2 {
+    text-decoration: underline;
+    text-decoration-color: #28b274;
+}
+
+.articles {
+    display: flex;
+    padding: 50px;
+    margin-left: 20px;
+}
+
+.second-section h3 {
+    color: #28b274;
+    margin: 20px 0;
+    font-size: 2em;
+    text-align: center;
+}
+
+.second-section p {
+    font-size: 1.2em;
+    font-weight: 100;
+    text-align: center;
+}
+
+.last-section {
+    background-color: #28b274;
+    background-image: url(../images/spotify-icon-white.png);
+    background-size: 10%;
+    background-repeat: no-repeat;
+    background-position: center;
+    margin: 20px;
+    padding: 10%;
+    display: flex;
+    color: white;
+}
+
+.kanye-logo {
+    width: 100%;
+}
+
+.last-section h2 {
+    font-size: 3em;
+    text-decoration: underline;
+    display: flex;
+    margin-bottom: 40px;
+    
+}
+
+.last-section h3 {
+    margin-bottom: 40px;
+    font-size: 2em;
+}
+
+.last-section p {
+    margin-bottom: 40px;
+}
+
+.kanye-logo {
+    width: 70%;
+}
+
+.movimiento{
+	animation: float 2s infinite ease-in alternate backwards;
+}
+        
+@keyframes float {
+
+			from {
+				transform: translateX(0);
+			}
+
+			to {
+				transform: translateX(50px);
+			}
+		}
