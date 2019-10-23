@@ -11,6 +11,7 @@ White: #FFF
 .flex-container {
     display: flex;
     justify-content: space-evenly;
+
 }
 
 nav a {
@@ -24,7 +25,14 @@ nav a {
 }
 
 .logo {
-    width: 25%
+    width: 25%;
+    transform: scale(1);
+    transition: .3s ease-in-out;
+}
+
+.logo:hover {
+    transform: scale(.5);
+
 }
 
 nav a {
@@ -61,7 +69,8 @@ h2 {
     margin-bottom: 30px;
     text-align: center;
     font-size: 50px;
-    border-bottom: 1px solid #00B172;
+    text-decoration: underline #00B172;
+
 
 }
 
