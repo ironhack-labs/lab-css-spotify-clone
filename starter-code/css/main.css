@@ -6,3 +6,133 @@ Green: #00B172
 White: #FFF
 
 */
+
+nav {
+    background-color: red,
+}
+.logo {
+    width: 15%;
+    margin: 10px 0;
+}
+.hero {
+    background-image: url(../images/landing.jpg);
+    background-size: cover;
+    padding: 300px;
+    text-align: center;
+    color: white
+}
+
+h1 {
+    font-size: 4.5em;
+}
+
+.hero p {
+    font-size: 1.5em;
+    font-weight: 150;
+}
+.nav1 {
+    display: flex;
+    justify-content: space-around;
+
+}
+.nav-btns {
+    display:flex;
+}
+.nav-btns li {
+    list-style-type: none;
+    margin-top: 25px;
+    padding: 0 30px;
+    font-size: 1.5em;
+}
+
+.what {
+    height: 500px;
+    text-align: center;
+    padding-top: 15px;
+    margin-bottom: 30px;
+    letter-spacing: 1px;
+}
+
+
+.bg-img {
+    width: 30%;
+    padding-top: 60px
+}
+
+
+h2 {
+    font-size: 3em;
+    text-decoration: underline #00B172;
+}
+
+h3{
+    color:#00B172;
+    margin-bottom: 50px;
+}
+
+.section3 {
+    margin: 20px;
+    background-color: #00B172;
+    color:white;
+    background-image: url(../images/spotify-icon-white.png);
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: 150px;
+}
+
+.section3 h3 {
+    color: white;
+    font-size: 2.6em;
+    font-weight: 400;
+    margin-top: 40px;
+    
+    
+
+}
+
+.sec3 {
+    margin-right: 2em;
+}
+
+.sec3 li{
+    list-style-type: none;
+}
+
+.bigger {
+    font-size: 2em;
+    font-weight: bold;
+    padding: 0.5em 0;
+}
+
+.kanye {
+    width: 80%;
+    height: 80%;
+    padding:4em;
+    margin-left: 5em;
+}
+
+.movement{
+    animation: rotate .5s infinite;
+}
+
+@keyframes rotate{
+    from {
+        transform: rotate(0deg)
+    }
+    to {
+        transform: rotate(360deg)
+    }
+}
+
+.movement-backwards {
+    animation: rotate .5s infinite alternate;
+}
+
+@keyframes rotate-backwards{
+    from {
+        transform: rotate(360deg)
+    }
+    to {
+        transform: rotate(0deg)
+    }
+}
