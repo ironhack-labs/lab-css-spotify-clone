@@ -83,8 +83,22 @@ h1{
 }
 .article ,p{
     font-size: 1.5em;
-}
-.logo-img{
+}@keyframes move{
+
+    from{
         
+        transform: translateX(0);
+    }
+    to{
+        transform: translateX(50px);
+    }
+        
+}
+.anima{
+      
+    animation: move 2s 1s infinite ease-in alternate ;
+}
+.flex-container li{
+    font-size: 1.2em;
 }
 
