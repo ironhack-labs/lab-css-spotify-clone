@@ -1,8 +1,144 @@
 /*
 Colors:
-
 Text: 1A1A1A
 Green: #00B172
 White: #FFF
-
 */
+@import url('https://fonts.googleapis.com/css?family=Montserrat:300,500,700&display=swap');
+*{
+    font-family: 'Montserrat', sans-serif;
+    margin:0;
+}
+nav{
+    height: 90px;
+    padding-right: 3%;
+    position:fixed;
+    background-color:white;
+    width: 100vw;
+    padding-left: 3%;
+}
+.nav-elements{
+    padding-top: 2.5%;
+    display:flex;
+    justify-content: space-between;
+    width: 40%;
+    padding-left: 50%;
+}
+.nav-elements a{
+    text-decoration: None;
+    color: #1A1A1A;
+    font-size: 1.2em;
+}
+.logo {
+    width: 65px;
+    height: 45px;
+    float : left;
+    margin-top: 1%;
+}
+.grand-image{
+    display:flex;  
+}
+.grandious-text{
+    background-image: url('../images/landing.jpg');
+    background-size: cover;
+    display:flex;
+    text-align:center;
+    flex-direction: column;
+    align-content:center;
+    background-position: -15%;
+    width: 100vw;
+    height:600px;
+    color:white;
+    font-size: 1.8em;
+    padding-top: 20%;
+    font-weight: 300;
+}
+.grandious-text p{
+    margin-top: 5%;
+}
+.grandious-text h2{
+    font-size: 3em;
+}
+.wassup-title{
+    margin-top: 3%;
+    text-align:center;
+    align-self:center;
+    font-size: 1.6em;
+}
+.wassup-title hr{
+    color:#00B172;
+    size: 3px;
+    width: 27%;
+    text-align:center;
+    margin-left:36.5%;
+    margin-top: 1%;
+    border: 4px solid #00B172;
+}
+.logos-and-things{
+    margin-top: 8%;
+    margin-bottom: 8%;
+    display:flex;
+    justify-content: space-between;
+    text-align:center;
+    margin-left: 10%;
+    margin-right:10%;
+    color: #00B172;
+    font-weight: 300;
+    font-size: 1.5em;
+}
+.logos-and-things h4{
+    font-size: 1.2em;
+    font-weight: 700;
+}
+.logos-and-things img{
+    height:150px;
+    width:150px;
+}
+.logosp{
+    width:150px;
+    height:150px;
+    position:absolute;
+    padding-top: 25%;
+}
+.green-box {
+    background-color:#00B172;
+    color:white;
+    height: 850px;
+    display:flex;
+    justify-content: space-around;
+    margin-left: 2%;
+    margin-right: 2%;
+    margin-bottom: 2%;
+}
+.Kanye-screenshot img{
+    height:650px;
+    padding-top: 35%;
+}
+.squarebob{
+    justify-content: center;
+    align-content:center;
+}
+.left-greenbox-text{
+    font-size: 1.4em;
+    padding-top: 7%;
+}
+.left-greenbox-text-title h3{
+    font-size: 1.5em;
+}
+.left-greenbox-text-title hr{
+    border: 4px solid white;
+    margin-top: 2%;
+}
+.texteses{
+    margin-top: 10%;
+    display:flex;
+    flex-direction:column;
+    justify-content: space-evenly;
+}
+.texteses h4{
+    font-weight: 500;
+    font-size: 1.5em;
+}
+.texteses p{
+    font-weight: 300;
+}
