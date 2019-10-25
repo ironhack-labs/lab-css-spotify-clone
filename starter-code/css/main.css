@@ -6,3 +6,160 @@ Green: #00B172
 White: #FFF
 
 */
+* {
+    margin: 0;
+    padding: 0;
+}
+body {
+    font-size: 16px;
+    font-family: 'Roboto', sans-serif;
+}
+.container {
+    width: 100vw;
+}
+header{
+    width: 100%;
+    position: relative;
+}
+h1 {
+    display: block;
+    text-indent: -9999px;
+    background: url(../images/spotify-logo.png);
+    background-size: contain;
+    width: 10%;
+    margin: 2% 2% 2% 3%;
+    padding: 2%;
+    background-repeat: no-repeat;
+}
+
+h3{
+    font-size: 2.5em;
+    font-weight: 700;
+    text-align: center;
+}
+
+h4 {
+    font-size: 2em;
+    color: #00B172;
+}
+
+p {
+    font-size: 1.5em;
+}
+
+img {
+    width: 100%;
+}
+
+nav ul {
+    position: absolute;
+    right: 3%;
+    top: 40%;
+}
+nav ul li {
+    display: inline-block;
+    margin-right: 50px;
+    font-size: 1.3em;
+    font-weight: 300 ;
+}
+
+section:nth-child(2) {
+    width: 100%;
+    height: 50vw;
+    background: url(../images/landing.jpg);
+    background-size: cover ;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+}
+
+section:nth-child(2) h2{
+    font-size: 4em;
+    color: white;
+    margin-bottom: 2% ;
+}
+
+section:nth-child(2) p{
+    font-size: 1.5em;
+    font-weight: 100;
+    color: white;
+    margin-bottom: 1%;
+}
+
+section:nth-child(3) {
+    width: 100%;
+}
+
+section:nth-child(3) h3{
+    width: fit-content;
+    border-bottom: thick solid #00B172 ;
+    margin: 5% auto;
+}
+section:nth-child(3) article {
+    display: flex;
+    justify-content:space-around;
+}
+section:nth-child(3)  div {
+    width: 30%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+}
+
+section:nth-child(3) figure{
+    width: 30%;
+    padding: 0% 0% 5%;
+}
+
+section:nth-child(3) p {
+    width: 70%;
+    padding: 5% 0%;
+    text-align: center;
+    font-weight: 100;
+}
+
+section:nth-child(4) {
+    width: 95%;
+    color: #ffffff;
+    background-color: #00B172 ;
+    background-image: url('../images/spotify-icon-white.png');
+    background-repeat: no-repeat;
+    background-size: 10%;
+    background-position: 50% 50%;
+    margin: 0 auto;
+    position: relative;
+}
+
+section:nth-child(4) article {
+    width: 40%;
+    margin-top:5%;
+    padding-left:5%;
+    padding-top:5%;
+    padding-bottom:10%;
+}
+
+section:nth-child(4) div {
+    width: 100%;
+}
+
+section:nth-child(4) h3 {
+    color:white;
+    border-bottom: thick solid #ffffff;
+    margin-bottom: 15% ;
+}
+
+section:nth-child(4) h4 {
+    color:white;
+    margin: 5% 0%;
+}
+section:nth-child(4) p {
+    font-weight: 100;
+}
+section:nth-child(4) figure {
+    width: 25%;
+    position: absolute;
+    top: 10%;
+    right: 10%;
+}
