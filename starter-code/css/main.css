@@ -6,3 +6,132 @@ Green: #00B172
 White: #FFF
 
 */
+
+body {
+    margin: 0;
+    padding: 0;
+    font-size: 16;
+    color: #1A1A1A;
+}
+
+nav {
+    display: flex;
+    justify-content: space-between;
+}
+
+h1 {
+    font-size: 5em;
+}
+
+h2 {
+
+    font-size: 3em;
+    text-decoration: underline;
+    border-bottom-width: 1px
+}
+
+h3 {
+    font-size: 2.5em;
+}
+
+p {
+    font-size: 1.5em;
+}
+
+
+nav div:nth-child(2){
+    /* background-color: blue; */
+    display: flex;
+    align-items: center;
+    padding: 0 50px;
+    
+}   
+
+nav div:nth-child(2) *{
+    display: inline;
+    list-style: none;
+    text-decoration: none;
+    padding: 10px;
+    font-size: 1.5rem;
+    color: #1A1A1A;
+} 
+
+img[alt="spotify-logo"] {
+    width: 250px;
+    padding: 20px 50px;
+}
+
+#header {
+    background-image: url("../images/landing.jpg");
+    background-size: cover;
+    background-position: center;
+    height: 750px;
+    color:white;
+    text-align: center;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+#header > div {
+    
+}
+
+#header > div h1 {
+    padding: 30px;
+} 
+
+#what-is{
+    /* display: flex;
+    justify-content: center; */
+    align-items: center;
+    text-align: center;
+    /* flex-wrap: wrap; */
+}
+
+#what-is > div{
+    display: flex;
+    justify-content: space-evenly;
+}
+#what-is img {
+    width: 200px;
+}
+
+#green-box{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    color: white;
+}
+
+div.three-boxes{
+
+    padding: 100px 0;
+}
+
+#green-box > div { 
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-wrap: wrap;
+    background-color: #00B172;
+}
+
+#green-box div:nth-child(3) { 
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+
+.greenContainer{
+    padding: 70px;
+}
+img[alt="spotify icon"] {
+    width: 150px;
+    padding: 75px 150px 75px 0;
+}
+
+img[alt="spotify-app"] {
+    height: 650px;
+}
