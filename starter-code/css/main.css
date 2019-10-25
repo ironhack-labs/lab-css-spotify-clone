@@ -6,3 +6,163 @@ Green: #00B172
 White: #FFF
 
 */
+* {
+  margin: 0;
+}
+
+header {
+  background-color: white;
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-between;
+  margin: 0;
+  height: 10%;
+  position: fixed;
+}
+
+.nav-img {
+  margin: .7% 5%;
+  width: 50%;
+}
+
+.nav-img img {
+  width: 25%;
+}
+
+header nav {
+  margin: 2% 0;
+  width: 35%;
+}
+
+header nav ul li {
+  color: #1A1A1A;
+  font-family: "Circular", Helvetica, Arial;
+  font-size: 20px;
+  font-weight: 200;
+  display: inline;
+  margin: 0 2%;
+}
+
+main {
+  background-image: url(../images/landing.jpg);
+  background-size: 100%;
+  background-repeat: no-repeat;
+  height: 100vh;
+  padding-top: 15%;
+}
+
+main h2, main p {
+  color: #FFF;
+  font-family: "Circular", Helvetica, Arial;
+  text-align: center;
+}
+
+main h2 {
+  font-size: 80px;
+  font-weight: 700;
+  margin: 10% 0 4% 0;
+}
+
+main p {
+  font-size: 30px;
+  font-weight: 100;
+}
+
+section > h3 {
+  border-bottom: 3px solid #00B172;
+  display: inline;
+  font-family: "Circular", Helvetica, Arial;
+  font-size: 32px;
+  margin-left: 40%;
+  padding: 5px 0;
+  text-align: center;
+}
+
+.benefits-section {
+  display: flex;
+  flex-wrap: wrap;
+  height: 70vh;
+  justify-content: space-around;
+}
+
+.benefits-boxes {
+  height: 30vh;
+  margin: 10% 0 0 0;
+  width: 30%;
+}
+
+.benefits-boxes img {
+  margin: 0 0 5% 30%;
+  height: 140px;
+}
+
+.green-text {
+  color: #00B172;
+  font-family: "Circular", Helvetica, Arial;
+  font-size: 32px;
+  font-weight: 600;
+  margin-bottom: 5%;
+  text-align: center;
+}
+
+.light-p {
+  font-family: "Circular", Helvetica, Arial;
+  font-size: 24px;
+  font-weight: 100;
+  text-align: center;
+  padding: 0 20%;
+}
+
+.green-example {
+  background-color: #00B172;
+  color: #fff;
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-between;
+  height: 100vh;
+  margin: 0 5% 5% 5%;
+  width: 90vw;
+}
+
+.steps-white {
+  width: 40%
+}
+
+.green-example h3 {
+  border-bottom: 3px solid #fff;
+  display: inline-block;
+  font-size: 32px;
+  margin: 10% 0 10% 15%;
+  padding-bottom: 1%;
+}
+
+.green-example h4 {
+  font-family: "Circular", Helvetica, Arial;
+  font-size: 32px;
+  padding: 0 0 5% 15%;
+}
+
+.green-example p {
+  font-family: "Circular", Helvetica, Arial;
+  font-size: 24px;
+  font-weight: 100;
+  padding: 0 0 10% 15%;
+  width: 70%;
+}
+
+.icon-white {
+  background-image: url(../images/spotify-icon-white.png);
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: contain;
+  width: 10%;
+}
+
+.spotify-ss {
+  width: 40%;
+}
+
+.spotify-ss img {
+  padding: 10%;
+  width: 75%;
+}
