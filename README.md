@@ -38,23 +38,22 @@ The starting files are included in the `starter-code` directory. Write your HTML
 
 The page is split into 4 sections. 
 
-#### Navbar
+#### Iteration 1: Navbar
 
 - The navbar should be `position: fixed`.
 - Align the logo to the left and the `ul` with the links to the right, either using `float` or `flex`.
 
-#### Large image background with text
+#### Iteration 2: Large image background with text
 
 - Check out [this guide](https://css-tricks.com/centering-css-complete-guide/) on centering things.
 
-#### What's on Spotify section
+#### Iteration 3: What's on Spotify section
 
 - It looks like the `div`s take up about a third of the container each. How can you represent this in code?
 
-#### Green Section
+#### Iteration 4: The green section
 
 - It looks like we have 2 main sections, a containing element with the text flowing from top to bottom, and the image of the Spotify player on the right.
 - Position the Spotify logo absolutely according to the _green_ `div`.
 
 Happy coding! 💙
-
