@@ -43,6 +43,10 @@ img[alt="main-logo"]{
   width: 200px;
   height: 60px;
 }
+a{
+  color: black;
+  text-decoration: none;
+}
 
 /*Section 2*/
 section:first-of-type{
@@ -65,7 +69,6 @@ section:first-of-type > div > p{
   font-size: 1.3rem;
   font-weight: 300;
 }
-
 
 h2{
   font-size: 1.7rem;
@@ -112,15 +115,20 @@ section:nth-child(4){
   padding: 110px;
   color: white;
 }
-section >div {
+section:nth-child(4)> div{
   display: flex;
   justify-content: space-between;
+  align-items: center;
 }
+
 
 section:nth-child(4) h2{
   font-weight: 400;
   padding-bottom: 30px;
+  margin: 0 auto;
+  border-bottom: 2px white;
 }
+
 section:nth-child(4) > div > div {
   width: 500px;
 }
@@ -136,7 +144,7 @@ section:nth-child(4) > div > div >div> p{
 
 img[alt="icon-white"]{
   width: 8%;
-  margin: 0 auto;
+  height: 8%;
 }
 img[alt="app"]{
   width: 30%;
