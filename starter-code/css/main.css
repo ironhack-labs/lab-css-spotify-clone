@@ -1,8 +1,183 @@
 /*
 Colors:
-
 Text: 1A1A1A
 Green: #00B172
 White: #FFF
-
 */
+* {
+  margin: 0;
+  font-family: Arial, Helvetica, sans-serif;
+}
+body {
+  /* background-color: blue; */
+  margin: 0;
+}
+.navBar {
+  background-color: white;
+  font-size: 22px;
+  position: fixed;
+  width: 100%;
+}
+.navBar img {
+  height: 70px;
+  padding: 10px 0 0 20px;
+}
+.navBar ul {
+  list-style: none;
+  display: inline-flex;
+  float: right;
+  margin-right: 2%;
+  margin-top: 20px;
+  padding-top: 10px;
+}
+.navBar li {
+  padding-left: 40px;
+}
+.hero {
+  margin: 0;
+  height: 100vh;
+  background-image: url(../images/landing.jpg);
+  background-position: initial;
+  background-size: 200vh 100%;
+  color: white;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+h1 {
+  font-size: 70px;
+  padding-bottom: 15px;
+}
+.hero p {
+  font-size: 27px;
+  text-align: center;
+}
+
+.description-div-1 {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  padding-top: 4%;
+}
+
+.description-div-1 h2 {
+  font-size: 40px;
+}
+
+.description-div-1 hr {
+  width: 30%;
+  border: 2px solid #00b172;
+  margin: 5px 0;
+}
+
+.description-div-2 {
+  display: flex;
+  flex-direction: row;
+  flex-wrap: wrap;
+  justify-content: space-around;
+  /* align-items: center; */
+}
+.description-divs {
+  width: 30%;
+  text-align: center;
+  padding: 8% 0;
+}
+
+.description-divs img {
+  width: 35%;
+  height: 40%;
+  padding-bottom: 5%;
+}
+
+.description-divs h3 {
+  color: #00b172;
+  font-size: 35px;
+  padding-bottom: 5%;
+}
+
+.description-divs p {
+  font-size: 30px;
+}
+
+.kanye {
+  background-color: #00b172;
+  display: flex;
+  flex-direction: row;
+  flex-wrap: wrap;
+  justify-content: space-around;
+  padding: 5%;
+  color: white;
+}
+
+.kanye-div1 {
+  display: flex;
+  flex-direction: column;
+  justify-content: flex-start;
+  width: 50%;
+}
+
+.kanye-div1 h4 {
+  font-size: 40px;
+}
+
+.kanye-div1 hr {
+  width: 530px;
+  border: 2px solid white;
+  margin: 5px 0;
+}
+
+.kanye-div2 {
+  display: flex;
+  flex-direction: row;
+  justify-content: flex-start;
+  /* width: 60%; */
+}
+
+.kanye-div2 h5 {
+  font-size: 20px;
+}
+
+.kanye-div2 figure {
+  width: 22%;
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  align-items: center;
+}
+.kanye-div2 img {
+  width: 100%;
+}
+
+.kanye-div3 {
+  display: flex;
+  flex-direction: column;
+  justify-content: space-around;
+  padding-right: 30%;
+}
+
+.kanye-div3 div {
+  padding-top: 20%;
+}
+
+.kanye-div3 h5 {
+  padding-bottom: 10%;
+  font-size: 30px;
+}
+
+.kanye-div3 p {
+  font-size: 20px;
+}
+
+.img-kanye {
+  width: 25%;
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  align-items: center;
+}
+
+.img-kanye img {
+  width: 100%;
+}
