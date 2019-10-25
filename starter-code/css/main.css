@@ -6,3 +6,138 @@ Green: #00B172
 White: #FFF
 
 */
+
+@import url('https://fonts.googleapis.com/css?family=Open+Sans:300,400,700&display=swap');
+/*@font-face {
+  font-family: 'Proxima Nova';
+  src:  url('/proxima_ssv/ProximaNova-Regular.otf') format('otf'),
+  /*src:  url('/proxima_ssv/ProximaNova-Thin.otf') format('otf')}*/
+
+
+*{
+  margin: 0;
+  padding: 0;
+  font-family: 'Open Sans', sans-serif;
+  font-size: 28px;
+}
+/*Nav bar*/
+header{
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  height: 100px;
+  padding: 0 40px;
+}
+nav > ul{
+  list-style: none;
+  width: 40%;
+  display: flex;
+  justify-content: space-between;
+}
+nav > ul > li{
+  padding-left:24px;
+  font-weight: 300;
+
+}
+img[alt="main-logo"]{
+  width: 200px;
+  height: 60px;
+}
+
+/*Section 2*/
+section:first-of-type{
+  height: 100vh;
+  width: 100vw;
+  background-image: url('/images/landing.jpg');
+  background-size: cover;
+  color: white;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  text-align: center;
+}
+section:first-of-type > div > h1{
+  font-size: 3.6rem;
+  padding-bottom: 30px;
+}
+
+section:first-of-type > div > p{
+  font-size: 1.3rem;
+  font-weight: 300;
+}
+
+
+h2{
+  font-size: 1.7rem;
+}
+
+img[alt*="icon"]{
+  width: 170px;
+  height: auto;
+}
+
+/*Section 3*/
+section:nth-child(3){
+  padding: 4% 10%;
+  text-align: center;
+}
+
+section:nth-child(3) > div{
+  display: flex;
+  justify-content: space-between;
+  align-items: baseline;
+}
+
+section:nth-child(3) > div > div{
+  padding: 4rem 26px;
+  width: 95%;
+}
+section:nth-child(3) > div > div > h3{
+  color: #00B172;
+  font-weight: 700;
+  font-size: 1.2rem;
+  padding: 26px 0;
+}
+section:nth-child(3) > h2{
+  border-bottom: 3px #00B172;
+}
+
+section:nth-child(3) > div > div > p{
+  padding: 0 30px;
+  font-weight: 300;
+}
+section:nth-child(4){
+  background-color: #00B172;
+  margin: 40px;
+  padding: 110px;
+  color: white;
+}
+section >div {
+  display: flex;
+  justify-content: space-between;
+}
+
+section:nth-child(4) h2{
+  font-weight: 400;
+  padding-bottom: 30px;
+}
+section:nth-child(4) > div > div {
+  width: 500px;
+}
+section:nth-child(4) > div > div > div{
+  font-weight: 300;
+  font-size: -.8rem;
+}
+section:nth-child(4) > div > div >div> p{
+  font-weight: 300;
+  font-size: 26px;
+  padding: 20px 0;
+}
+
+img[alt="icon-white"]{
+  width: 8%;
+  margin: 0 auto;
+}
+img[alt="app"]{
+  width: 30%;
+}
