@@ -3,7 +3,7 @@ Colors:
 
 Text: 1A1A1A
 Green: #00B172
-White: #FFF
+White: 
 
 */
 /*Some necessary adjustments*/
@@ -12,7 +12,7 @@ h1, body, html, main {
   }
 html {
   box-sizing: border-box;
-  font-family: 'Poppins', sans-serif;
+  font-family: 'Montserrat', sans-serif;
 
 }
   
@@ -44,7 +44,7 @@ nav >  img{
     width: 100%;
     height: 100vh;
     margin-top: 7em;
-    color:white;
+    color: #FFF;
     text-align: center;
     position: relative;
 }
@@ -63,4 +63,42 @@ nav >  img{
     left: 50%;
     transform: translate(-50%, -50%);
 
+}
+.whatIs{
+    width: 100%;
+    height: 80vh;
+    margin-top: 7em;
+    display: flex;
+    flex-direction: column;
+    text-align: center;
+     
+}
+.column{
+    display: flex;
+    flex-direction: row;
+    margin-top: 6em;
+}
+hr{
+    width: 20%;
+    border: 2px solid #00B172;
+    
+}
+.col-3{
+    width: 33.3%;
+    height: 100%;
+    text-align: center;
+}
+.col-3 img{
+    width: 10em;
+    height: 10em;
+}
+.title-green{
+    color: #00B172;
+}
+.col-3 h2{
+    font-size: 2em;
+}
+
+.col-3 p{
+    font-size: 1.5em;
 }
