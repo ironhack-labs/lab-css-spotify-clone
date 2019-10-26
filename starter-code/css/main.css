@@ -1,8 +1,177 @@
-/*
-Colors:
+* {
+	margin: 0 auto;
+}
 
-Text: 1A1A1A
-Green: #00B172
-White: #FFF
+body {
+	color: 1A1A1A;
+	font-family: sans-serif;
+}
 
-*/
+nav {
+	background-color: white;
+	display: flex;
+	position: fixed;
+	width: 1400px;
+	height: 100px;
+	margin: 0 auto;
+
+}
+
+h1 {
+	font-size: 3em;
+}
+
+h2 {
+	font-size: 2em;
+}
+
+h3{
+	font-size: 1.5em;
+}
+
+p{
+	font-size: 1.2em;
+	line-height: 1.3;
+}
+
+.img-logo img {
+	width: 200px;
+	padding-top: 10%;
+	float: left;
+
+}
+
+.top-links {
+	display: inline-block;
+	float: right;
+	padding-top: 1.75%;
+  	text-decoration: none;
+
+
+}
+
+.top-links li {
+	color: 1A1A1A;
+	display: inline-block;
+  	margin: 0px 7px;
+  	padding: 0px 7px;
+  	padding-top: 10px;
+  	float: right;
+  	font-size: 1.4em;
+  	text-decoration: none;
+}
+
+.header {
+	background-image: url("file:///Users/macbook/Documents/Ironhack/Web Development/Module 1/Week_2/lab-css-spotify-clone/starter-code/images/landing.jpg");
+	background-size: cover;
+	background-position: center;
+  	width:1280px;
+  	height:1000px;
+  	margin: 0 auto;
+}
+
+.header h1 {
+	font-size: 5em;
+	height: 80px;
+	color: white;
+	text-align: center;
+	margin: 0 auto;
+	padding: 250px 100px 75px 100px;
+}
+
+.header h2 {
+	height: 50px;
+	color: white;
+	text-align: center;
+	width: 800px;
+}
+
+.whats-spotify h2 {
+	text-align: center;
+}
+
+.whats-spotify article {
+	width: 250px;
+	text-align: center;
+}
+
+.whats-spotify > div {
+  display: flex;
+  justify-content: center;
+  width: 1250px;
+
+}
+
+.whats-spotify img {
+	width: 100px;
+}
+
+.whats-spotify hr {
+	text-decoration: underline;
+	color: #00B172;
+	background-color: #00B172;
+	height: 3px;
+	width: 280px;
+
+}
+
+.spotify-icon h3 {
+	color: #00B172;
+}
+
+.player-spotify {
+	background-color: #00B172;
+	background-size: 800px;
+	background-position: center;
+	width: 1200px;
+	height: 750px;
+	margin: 1.5%;
+	padding: 50px 20px;
+
+
+}
+
+#player-artist {
+	color: white;
+	justify-content: left;
+	float: left;
+	width: 300px;
+	padding-left: 100px;
+	padding-right: 100px;
+	padding-top: 50px;
+	margin: 0 auto;
+}
+
+#player-artist > hr {
+	text-decoration: underline;
+	color: white;
+	background-color: white;
+	height: 3px;
+	width: 430px;
+
+}
+
+#mini-logo img{
+	width: 150px;
+	margin: 0 auto;
+	background-position: center;
+	padding: 250px 100px 250px 100px;
+
+}
+
+#kanye-foto img {
+	display: inline-block;
+	margin: 0 auto;
+	width: 250px;
+	float: right;
+
+}
+
+#player-artist p {
+	position: left;
+}
+
+#player-artist > h2 {
+	width: 500px;
+
+}
