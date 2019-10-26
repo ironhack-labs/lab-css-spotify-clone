@@ -1,8 +1,162 @@
-/*
-Colors:
+* {
+    margin:0;
+    border:0;
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+}
 
-Text: 1A1A1A
-Green: #00B172
-White: #FFF
+body {
+    padding: 20px;
+}
 
-*/
+.secondSection {
+    background-image: url("/Users/andres.cravioto/Documents/Ironhack/Exercices/lab-css-spotify-clone/starter-code/images/landing.jpg");
+    background-size: cover;
+    color: white;
+    height: 1100px;
+    margin-top: 100px;
+    position: relative;
+}
+
+.secondSectionHeader {
+    font-size: 96px;
+    height: 100px;
+    width: 900px;
+    position: absolute;
+    top: 40%;
+    left: 50%;
+    margin: -50px 0 0 -400px;
+}
+
+.secondSectionParagraph {  
+    text-align: center; 
+    font-size: 32px;
+    height: 100px;
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    margin: 50px 0px 0 -350px;
+}
+
+.firstSection {
+    height: 100px;
+    width: 100%;
+    background-color: white;
+    position: fixed;
+}
+
+#spotifyLogoSection {
+    float: left;
+    height: 100%;
+    margin-left: 50px;
+    width: 15%;
+}
+
+#spotifyLogo {
+    width: 200px;
+    height: 65%;
+    padding: 30px;
+    padding-top: 15px;
+}
+
+.navbar {
+    float: right;
+    padding: 30px;
+    width: 45%;
+}
+.headerList {
+    margin-right: 50px;
+}
+.headerList li{
+    display: inline;
+    font-size: 32px;
+    margin: 20px;
+}
+
+.thirdSection {
+    margin-top: 40px;
+}
+
+.thirdSection h1 {
+    text-align: center;
+    text-decoration: #1db954 underline;
+    text-underline-position: under;
+    font-size: 36px;
+}
+
+.thirdSection img {
+    height: 110px;
+}
+
+.thirdSectionContainer {
+    display: flex;
+    margin-top: 100px;
+    flex-direction: row;
+    justify-content: space-around;
+}
+
+.thirdSectionColumn {
+    align-content: center;
+    text-align: center;
+    width: 350px;
+}
+
+.thirdSectionColumn  h2 {
+    color: #1db954;
+    font-size: 32px;
+    margin-top: 20px;
+}
+
+.thirdSectionColumn  p {
+    margin-top: 20px;
+    font-size: 32px;
+    font-weight: 100;
+}
+
+.fourthSection {
+    color: white;
+    margin-top: 120px;
+    background-color: #1db954;
+    background-image: url('/images/spotify-icon-white.png');
+    background-size: 10%;
+    padding: 100px;
+}
+
+.fourthSectionContainer {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+}
+
+.fourthSectionDescriptions {
+    width: 300px;
+}
+
+.yeezyKanye {
+    width: 800px;
+}
+
+.fourthSection h2 {
+    text-decoration: white underline;
+    text-underline-position: under;
+    font-size: 48px;
+    font-weight: 500;
+}
+
+.fourthSectionSubtitle {
+    font-size: 32px;
+    margin-top: 50px;
+    margin-bottom: 32px;
+}
+
+.fourthSectionParagraph {
+    font-size: 24px;
+}
+
+.spotifyWhiteIcon {
+    height: 150px;
+    margin-top: 250px;
+}
+
+.kanyeImage {
+    height: 600px;
+}
