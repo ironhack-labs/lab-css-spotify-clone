@@ -6,3 +6,29 @@ Green: #00B172
 White: #FFF
 
 */
+nav{
+    background: white;
+    padding: 5px;
+    position: fixed;
+    top:0;
+    left: 0;
+    width: 100%;
+    font-size: 1.5em;
+}
+nav li{
+    list-style: none;
+    margin: 0 10px 10px;
+    color: #1A1A1A;
+    float: right;
+
+}
+nav ul::after{
+    content: "";
+    display: block;
+    clear: both;
+}
+nav > div> img{
+    width: 9em;
+    float: left;
+    margin: 10px 0px 0 35px;
+}
