@@ -16,6 +16,7 @@ html {
 
 }
   
+/* ****Nav*** */
 
 nav{
     background: white;
@@ -64,6 +65,7 @@ nav >  img{
     transform: translate(-50%, -50%);
 
 }
+/* ****what Is section*** */
 .whatIs{
     width: 100%;
     height: 80vh;
@@ -78,7 +80,7 @@ nav >  img{
     flex-direction: row;
     margin-top: 6em;
 }
-hr{
+.whatIsTitlte hr{
     width: 20%;
     border: 2px solid #00B172;
     
@@ -101,4 +103,59 @@ hr{
 
 .col-3 p{
     font-size: 1.5em;
+}
+/* **** Features *** */
+.features{
+    width: 90%;
+    height: 100vh;
+    background-color:  #00B172;
+    margin-left: 5%;
+    margin-bottom: 5%;
+    color: #FFF;
+    position: relative;
+
+}
+.feature{
+    margin-left: 5em;
+    width: 50%;
+}
+.feature h3{
+    font-size: 2em;
+}
+.feature p{
+    font-size: 1.5em;
+}
+.center-image{
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    width: 10em;
+    height: 10em;
+    left: 50%;
+    transform: translate(-50%, -50%);
+}
+
+.row{
+    display: flex;
+    flex-direction: row;
+    margin-top: 6em;
+}
+.col-2 img{
+    width: 70%;
+    height: 40em;
+    margin-left: 5%;
+    margin-top: 20%;
+
+}
+.col-2 h2{
+    font-size: 2.5em;
+    margin-left: 9%;
+    margin-bottom: .2em;
+}
+.col-2 hr{
+    width: 63%;
+    border: 2px solid #FFF;
+    margin-left: 76px;
+
+    
 }
