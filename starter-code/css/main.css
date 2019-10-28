@@ -6,87 +6,202 @@ Green: #00B172
 White: #FFF
 
 */
-body {
-    background-color:#FFF;
-    width: 100vw;
-    height: 100vh;
-    display: grid;
-    color: #1A1A1A;
-    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
-}
-
-nav{
-    
-    width: 100vw;
-    height: 100px;
-    position: fixed;
-    left: 0;
+body{
+    margin: 0;
     top: 0;
-        
-}
-div{
-    position: fixed;
-    width: 100vw;
-    height: 100vh;
-    left: 0;
-    top: 100px;
-    bottom: 0;
-    box-sizing: border-box;
-    
-    
-}
-ul{
-    list-style: none;
-    display: inline;  
-   float: right;
-    right: 40px;
+    font-family: 'Roboto', sans-serif;
+
 }
 
-#logo-top{
-    width: 200px;
-    height: 50px;
-    left: 80px;
-    top: 40px;
+
+nav {
+        position: absolute;
+        top: 0;
+        left: 0;
+        margin: 0;
+        width: 100vw;
+        height: 80px;
+        display: inline;
+
+
 }
 
-.image-section{
-    position: absolute;
+
+.banner{
     background-image: url("../images/landing.jpg");
+    background-repeat: no-repeat;
+    background-position: center;
     background-size: cover;
-    
-    width: 100vw;
-    height: 33vh;
-    top: 0px;    
-    
-
-}
-
-.whats-section{
     position: absolute;
-    
-    width: 100vw;
-    height:33vh;
-    top: 33vh;
-    display: inline;
+    margin:0;
+    right: 0px;
+    left: 0px;
+    top: 80px;
+    width: 100%;
+    height: 600px;
 }
 
-.green-section{
+
+ul{
     position: absolute;
-    background-color: #00B172;
-    width: 100vw;
-    top: 66vh;
-    height: 33vh;
-    
-    
+    top: -10px;
+    right: 20px;
+    list-style: none;
+    padding: 5px 10px;
     
 }
-.center-content{
-    color:#FFF;
-    text-align-last: center;
+li{
+    display: inline-block;
+    padding: 20px 10px;
+    
+
+}
+.imglogo{
+    
+        
+        position: relative;
+        top: 15px;
+        left: 20px;
+        width: 150px;
+        height: 50px;      
 
 }
 
-.icons{
+a{
+    text-decoration: none;
+    color: #1A1A1A;
+
+}
+h1{
+    position: absolute;
+    padding-left: 100px;
+    left: 30%;
+    top: 25%;
+    font-size: 4em;
+    color: white;
+    text-align: center;
+}
+
+#p-landing{
+    position: absolute;
+    bottom: 200px;
+    left: 33%;
+    font-size: 30px;
+    color: white;
+    text-align: center;
+}
+.whats{
+    position: absolute;
+    top: 680px;
+    width: 100%;
+    justify-content: center;
+    text-align: center;
+
+
+}
+
+#hr1{  border: 2px solid #00B172;
+    width: 15%;
+    border-radius: 5px;
+
+}
+
+h2{
+    text-align: center;
+    font-size: 2em;
+    color:white;
+}
+
+h3{
+    color: #00B172;
+    font-size: 1em;
+}
+
+
+div {
+
+width: 300px;
+height: 400px;
+float: left;
+align-content: center;
+left: 280px;
+text-align: center;
+color: #1A1A1A;
+
+}
+
+#a1{
+    position: relative;
+    left: 15%;
+    margin: 20px 50px;
+
+}
+#a2{
+    position: relative;
+    margin: 20px 50px;
+    left: 20%;
+
+
+}
+#a3{
+    position: relative;
+left: 25%; 
+   margin: 20px 50px;
+    
+
+
+}
+#icon{
     width: 50px;
     height: 50px;
+
+}
+/*
+.kanye{
+    position: absolute;
+    bottom: 0;
+    width: 100%;
+    height: 400px;
+    justify-content: center;
+    text-align: center;
+    color: plum;
+
+
+}
+#img-app{
+    width: 200px;
+    height: 380px;
+    float: left;
+}
+#box-app{
+    position: absolute;
+    top: 0px;
+    height: 400;
+    width: 400px;
+}
+
+#divs-kanye{
+    float: left;
+
+}
+
+
+#hr2{
+     border: 2px solid #00B172;
+        width: 15%;
+        border-radius: 5px;
+    
+}
+#h-whats{
+    color: #00B172;
+}*/
+footer{
+    position: absolute;
+    top: 1080px;
+    background-color: #00B172;
+    width: 100%;
+    height: 400px;
+    
+
+    
 }
