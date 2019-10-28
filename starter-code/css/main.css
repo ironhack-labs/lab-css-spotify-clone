@@ -7,53 +7,142 @@ White: #FFF
 
 */
 
-.hero {
-    background-image: url("../images/landing.jpg");
-    background-position: center center;
-    background-repeat: no-repeat;
-    background-size: cover;
-    margin: 20vh auto;
-    height: 40vh;
-}
-.hero-title {color:red ; text-align: center;}
-.hero-text {color:red ; text-align: center;}
-
+/* Defaults */
 * {
-    /* Reset Defaults */
     margin: 0;
+    padding: 0;
+    font-size: 12pt;
     font-family: Arial, Helvetica, sans-serif;
     font-weight: 100;
     letter-spacing: .5px;
 }
 
-/* Section 2 */
-.what {
-    margin: 20px 10vw;
-    text-align: center;
-    height: 30vh;
-}
-.what-container {
-    margin: 4vh 10px;
-    float: left;
-    width: 30%;
-    padding-bottom: 1vh;
-}
-.what-img {
-    max-width: 10vw;
-    max-height: 8vh;
-    padding: 2vh 0;
+/* Navbar */
+.navbar {
+    /* Fix the nav to the top */
+    position: fixed;
+    top: 0;
 
+    /* Control the placement */
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+
+    /* Style */
+    background-color: #ffffff;
+    /* background-color: aqua; */
+    height: 4.5rem;
+    width: 100vw;
+}
+.nav-logo {
+    margin: 0 1.5rem;
+    height: 4.5vh;
+    align-self: center;
+}
+.nav-links-container {
+    display: flex;
+    list-style: none;
+    justify-content: space-between;
+    align-items: center;
+    margin: 0 1.5rem;
+}
+.nav-links {
+    justify-self: center;
+    align-self: center;
+    margin: 0 .8rem;
+    text-align: center;
+    font-weight: 100;
+    color: #00B172;
+}
+
+/* Hero */
+.hero {
+    background-image: url("../images/landing.jpg");
+    background-position: center center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    margin-top: 4.5rem;
+    padding: 5.5rem;
+    height: 40vh;
+}
+.hero-content {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-content: center;
+    color: white;
+    text-align: center;
+    padding-top: 3rem;
+}
+.hero-title {
+    font-size: 3rem;
+    font-weight: 700;
+    margin: 2rem 0;
+}
+.hero-text {
+    font-size: 1.4rem;
+    font-weight: 100;
+    line-height: 1.8rem;
+}
+
+/* What Section */
+.what {
+    text-align: center;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    margin: 2rem 0;
 }
 .what-title {
     display: inline;
     border-bottom: 3px solid #00B172;
-    margin: 50vh 0px;
-    padding-bottom: .25vh;
+    padding-bottom: .20rem;
+    font-size: 1.5rem;
+    font-weight: 600;
+
+    text-align: center;
+    justify-self: center;
+    margin-bottom: 4rem;
+
 }
+.what-container {
+    display: flex;
+    flex-wrap: wrap;
+    flex-direction: row;
+    justify-content: space-between;
+    align-self: center;
+    align-items: baseline;
+    width: 80vw;
+    padding: 0 5rem;
+}
+.what-card {
+    display: flex;
+    flex-direction: column;
+    justify-content: space-evenly;
+    align-items: center;
+    width: 25vw;
+    max-height: 250px;
+    font-size: 1.5rem;
+    /* padding: 0 1rem; */
+}
+.what-img {
+    max-height: 8vw;
+    max-width: 10vw;
+    justify-self: baseline;
+}
+
 .what-subtitle {
     color: #00B172;
     padding: 1vh 0;
+    font-size: 1.2rem;
+    font-weight: 600;
 }
+.what-text {
+    width: 80%;
+    padding: .8rem 0;
+}
+
+/* How Section */
 .how {
 background-color: #00B172;
 width: 75vw;
