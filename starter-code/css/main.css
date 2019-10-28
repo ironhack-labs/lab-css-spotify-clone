@@ -7,6 +7,9 @@ White: #FFF
 
 */
 /* feature */
+body{
+    margin:0;
+}
 #feature {
     padding-bottom: 3em;
 }
@@ -33,8 +36,9 @@ White: #FFF
 }
 /* /feature */
 .headerContainer {
-    position: relative;
+    position: fixed;
     text-align: center;
+    height:60px;
   }
 
   h1{
@@ -56,7 +60,7 @@ White: #FFF
 header{
     padding-top: 25px;
     background-color: white;
-    height:20px;
+    height:75px;
 
 }
 nav ul {
@@ -69,13 +73,23 @@ nav ul {
     color: black;
   }
 
- nav{
-     position:fixed;
-    }
+ nav ul{
+     display:flex;
+     justify-content:center;
+     margin-right:10%;
+ }
+ ul li{
+     font-size:20px;
+     margin-right:20%;
+     margin-left:0;
+ }
+  
+    
 .spotifyLogo{
-    width: 250px;
+    width: 180px;
     height:auto;
     float: left;
+    margin-left:10%;
 }
 
 .landingImage{
