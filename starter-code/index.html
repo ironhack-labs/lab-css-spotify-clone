@@ -3,40 +3,285 @@
 <head>
   <meta charset="UTF-8">
   <title>Spotify</title>
+  <link rel="stylesheet" href="./css/main.css">
 </head>
+
 <body>
-Premium Discover Help Download
+    <section class="hero">
 
-Music for everyone.
-Spotify is now free on mobile, tablet and computer.
-Listen to the right music, wherever you are.
+        <nav class="nav">
+          <img class="spot_logo" src="./images/spotify-logo.png" alt="logo">
+          <ul class="nav-list">
+            <li class="list-item">Premium</li>
+            <li class="list-item">Discover</li>
+            <li class="list-item">Help</li>
+            <li class="list-item">Download</li>
+          </ul>
+        </nav>
 
-What’s on Spotify?
+        <div class="hero-text-wrapper">
+          <h1 class="hero-title">Music for everyone</h1>
+          <p class="hero-subtitle">Spotify is now free on mobile, tablet and computer<br>
+              Listen to the right music, wherever you are.
+          </p>
+        </div>
+        
+      </section>
+      <section class="section-2">
+          <div class="section-2-text full-width">
+            <div class="section-2-title-wrapper">
+              <p class="section-2-title">What´s on Spotify?</p>
+            </div>
+          </div>
 
-Millions of Songs
-There are millions of
-songs on Spotify
+          <div class="row-wrapper">
+            <div class="row-item">
+              <img class="row-img" src="./images/music-icon.png" alt="">
+              <h1 class="row-text" >Millions of Songs</h1>
+              <p>There are millions of songs on Spotify </p>
+            </div>
 
-HD Music
-Listen to music as if you
-were listening live
+            <div class="row-item">
+                <img class="row-img" src="./images/high-quality-icon.png" alt="">
+                <h1 class="row-text">HD Music </h1>
+                <p>Listen to music as if you were listening live</p>
+            </div>
 
-Stream Everywhere
-Stream music on your
-smartphone, tablet or
-computer
+            <div class="row-item">
+              <img class="row-img" src="./images/devices-icon.png" alt="">
+              <h1 class="row-text">Stream Everywhere</h1>
+              <p>Stream music on your smartphone, tablet or computer</p>
+            </div>
+          </div>
+      </section>
 
-It’s as yeezy as Kanye West.
-Search
-Know what you want to listen to?
-Just search and hit play.
-Browse
-Check out the latest charts,
-brand new releases and great
-playlists for right now.
-Discover
-Enjoy new music every Monday
-with your own personal playlist.
-Or sit back and enjoy Radio.
+      <section class="section-3">
+      <div class="music-container">
+      <div class="left">
+        <div class="underline">
+          <h1 class="music-container-title">It’s as yeezy as Kanye West.</h1>
+        </div>
+
+      <div class="music-list-wrapper">
+        <ul class="music-list">
+          <li>Search</li>
+          <li>Know what you want to listen to?
+              Just search and hit play.</li>
+          <li>Browse</li>
+          <li>Check out the latest charts,
+              brand new releases and great
+              playlists for right now.</li>
+          <li>Discover</li>
+          <li>Enjoy new music every Monday
+              with your own personal playlist.
+              Or sit back and enjoy Radio.</li>
+        </ul>
+      </div>
+      </div>
+      <div class="right">
+      <img class="right-img" src="./images/spotify-app.jpg" alt="">
+      </div>
+    </div>
+</section>
+
 </body>
 </html>
+
+
+<!--
+
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>Document</title>
+
+    <!--En html siempre tienes una estructura de caja. Allí tienes el modelo de caja cuyo interior es el width y height
+        background, luego viene el padding,
+    luego el border y luego el padding.
+
+    EN CSS
+    border: 1px (cierto ancho) solid (de cierto estilo) rgb (cierto color, como quieras, hexadecimal tambien);
+
+    para ahorrarte
+    border-color: red;
+    border-style: solid;
+    border-width: 1px;
+
+    Cuando llevamos un diseno a web, y ponemos un borde de dos pixeles. El modelo de caja afecta el tamano.
+    
+    border-width: 2px 0 2px 0; Va como las manecillas del reloj. asigna anchos empezando por la parte superior yendo
+    como las manos del reloj arriba derecha abajo izquierda.
+    Pero tambien se puede hacer agrupaciones de lo horizontal pasandole solo dos valores. le digo, pon dos pixeles solo al lado
+    abajo. Mas de dos valores si quieres afectar a uno solo o dos o tres, 
+    Tambien podemos agregar bordes solo a cierta parte de la caja. Podemos poner border, bottom y solamente tenerlo 
+    en cierta parte de la caja.
+        Si lo tienes asi, solo afectas a los mas especificos, por eso pones border bottom, porque puedes poner border-width y 
+        ya esta.
+    border-bottom
+    
+    IMPORTANTE Muchas propiedades que afecten arriba abajo izquierda derecha teienen la misma estructura. Les puedo decir 
+    quiero que tenga de borde en la parte superior, en la inferior, en la izquierda,.
+
+    Se puede hacer con border-style
+
+    border-radius con cuatro valores empieza como las manecillas del reloj en borde superior izquierdo y termina en la esquina
+    inferior izquierda. Si le ponemos 50% queda un circulo.
+    border-radius: 50%;
+    border-width; 
+
+    para hacer figuras con css usar clip-path polygon bennetfreely. 
+
+    PADDING es el primer elemento que esta despues del ancho y alto de la caja.
+    Es darle un acolchadito pegado a los bordes de la caja que tiene un ancho y alto.
+    Es un espacio interno del elemento dentro del borde. Es el acolchado dentro
+    de la caja.
+    EL MARGIN ya seria el de el div de html, no de css. No siempre aparece con algo, simplemente es el
+    espacio entre tu objeto y el limite de la pagina.
+
+    box-sizing cuando la cambias a border box. Para que el elemento no se vea afectado y no afecte a elementos a su alrededor.
+    no PASA Mas alla del tamano que asignaste al elemento.
+
+    MARGEN la medida del elemento hacia afuera, es decir, respecto de otros objetos a su alrededor.
+    COn el margen puedes espaciar las diferentes orillas. No se evita con el box sizing porque es como el elemento se separa
+    del resto. Hay que sumarlo dependiendo de como lo estas utilizando.
+
+    ESPACIADO al final tenemos una lista que muestra todas las caracteristicas del objeto que tiene 10 pixeles tanto a la derecha
+    como a la izquierda y gracias al box sizing incrementa 0 en tamano, es decir, que no incrementa.
+
+    170px <div> width
++ 10px padding-left, that increases 0px with box-sizing.
++ 10px padding-right, that increases 0px with box-sizing.
++ 1px border-left, that increases 0px with box-sizing.
++ 1px border-right, that increases 0px with box-sizing.
++ 10px margin-right
++ 10px margin-left
+= 190 pixels
+
+        Donde teniamos 170 sumamos 10 y 10.
+        Le tienes que sumar eso mas el elemento para que logres los pixeles que te pide.
+
+    RESPONSIVE WEB DESIGN
+
+    Se ajusta a la pantalla del dispositivo en que tu pantalla será vista.
+    Buenas practicas para manejar fuentes.
+
+    Para hacer un buen diseno responsivo, hay que preocuparse por el viewpoint.
+    Cuando haces ! + Tab, te aparece viewport como una de las etiquetas. 
+
+    De hecho se hace todo pensado primero para celular. MOBILE FIRST
+
+    PRIMERO se hace el diseno en movil. Que se vea identico en un celular.
+    a lo que me paso el disenador. Luego eso lo voy adecuando a una version web
+
+    Si lo que quieres es crear una aplicacion web, primero version celular, despues
+    escritorio.
+
+    Los celulares solo tienen conectividad 3G. Las empresas se basan para contratar
+    a un programador el que una pagina cargue rapido.
+
+    CSS media query lleva ciertos elementos solo al dispositivo con la estructura
+    que yo especifique. Cuando la pantalla sea pequena, comportate de
+    esta manera.
+
+    Los media queries te ayudan a que el recibo no salga diferente de como se ve en
+    la pantalla de CFE. Sirven para impresion tambien, no solo para movilidad.
+
+    Hay sitios que cuando los haces pequenos se empiezan a reorganizar, hay otros que
+    se cambian drasticamente. El primero es diseno fluido, tienen un tamano estructural
+    el segundo es diseno responsive que se ajusta rapidamente. Las medidas responden al 
+    viewport en el primero, en el segundo, todo cambia, todo es nuevo, por eso es tan
+    rapido.
+
+    En las herramientas de desarrollador hay un botoncito para ver cuantos pixeles,
+    como se ve en diferentes pantallas, celular, tableta, telefono pequeno, mediano
+    ancho. Asi te das cuenta que llegados a los 1000 cambio de color por tu
+    css.
+
+    //Cuando tengas al menos 1000 de ancho, entran estos estilos, sustituyendo 
+    a los anteriores. Como tiene un inline block, se buscan poner en un renglon.
+    Te preocupas por cambiar no necesariamente el media query, sino la parte externa,
+    el div. 
+
+    Lo que hizo que se reesctructuren fue el ancho del 100%.
+
+
+    @media (min-width: 1000px){
+        div {
+            background-color
+    }
+    
+    (Si en arrobamedia no te recibiera algo, asegurate de haber referenciado el
+    div o section donde este, como en las rutas de javascript)
+
+
+
+    Tamanos de fuente en el CSS
+    Hay que establecer uno fijo, pero se nos recomiendan 16 pixeles. 
+
+    Si le ponemos medidas relativas al viewport, no se adapta al tamno del dispositivo.
+    Asi que usamos una mezcla entre pixeles (la medida absoluta), em (unidad relativa
+    al elemento padre un div con 10 pixeles y subrodinado un parrafo 2em su fuente sera de 20
+    pixeles. el de al lado se fue abajo porque esta relativo a la caja en las cajitas rojas) y (rem
+    que es relativo al tamano de fuente del html)
+
+    CUANDO NO ESPECIFICAMOS EL TAMANO DE FUENTE DE UN ELEMENTO LO TOMA DEL HTML
+
+    
+    
+    
+    . {
+
+    }
+
+
+-->
+
+    <!--En icon monster aparecen muchas imagenes para tu codigo, solo das click derecho y copias la direccion de la imagen.-->
+    <!-- No es SVG es un archivo que mantiene una imagen en vectores
+que permite escalar sin que se vea afectada la imagen, porque es codigo,
+pues pesa mucho y viaja con le mismo codigo.
+header>nav>h1+ul>+(li*3)>+img 
+Si se pueden poner imagenes en el h1, depende de que necesites.
+Si tiene que ser un elemento del html para poder editarlo con CSS para que lo puedan respetar el resto de
+los elementos. No es bueno para el SEO.
+
+puedes hacer margenes negativos. Sirve para bajar elementos en lugar de espaciarlos respecto de otros elementos.
+
+
+body{
+    margin: 0;
+}
+
+nav {
+
+    background-color: #31daFB
+    position: relative;
+    height: 100px;
+}
+
+#brand-logo {
+    margin: 0;
+    position: absolute;
+
+}
+
+#amborguesa {
+    width: 40px;
+
+}
+
+li {
+    list-style: none;
+    display: inline-block;
+    margin-left: 8px;
+
+}
+
+li:hover{
+    border-bottm: 2px solid slategray;
+    box-sizingS
+}
+-->
