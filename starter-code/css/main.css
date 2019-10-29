@@ -11,6 +11,22 @@ White: #FFF
     margin: 0;
 }
 
+#navbar p {
+    display: inline;
+    left: 50%;
+}
+
+  
+#button-one, #button-two, #button-three, #button-four {
+    float: right;
+}
+
+#navbar{
+    position: relative;
+    height: 100px;
+    width: 100%;
+}
+
 #music-fe{
     background-image: url("../images/landing.jpg");
     background-size: cover;
@@ -41,97 +57,65 @@ White: #FFF
     margin: 0 350px;
 }
 
+#whats-on-header{
+    display: flex;
+    justify-content: center;
+    align-items: flex-start;
+}
+
+#whats-on-header h2{
+    padding: 20px 0 0 0;
+    border-bottom: 5px solid green;
+    font-size: 3em;
+}
+
 #whats-on{
-    position: absolute;
-    height: 60vh;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    height: 500px;
     width: 100%;
     background-color: white;
 }
 
 #whats-on h2{
-    position: relative;
-    top: 10%;
     font-size: 3em;
     text-align: center;
     vertical-align: center;
 }
 
-.icons{
-    height: 10%;
-    width: 10%;
+#whats-on img{
+    height: 30%;
+    width: 30%;
 }
 
-h3{
-    font-size: 2em;
-    color: #00b663;
-}
-
-#music-section {
-    position: relative;
-    top: 50%;
-    left: 20%;
-}
-
-#hq-section {
-    position: relative;
-    top: 50%;
-    left: 50%;
-}
-
-#device-section {
-    position: relative;
-    top: 50%;
-    left: 80%;
-}
-
-
-#kanye{
-    background-color: #00b663;
-    margin: 40px;
-    color: white;
-    height: 500px;
-    width: 100%;
-    padding: 70px;
-    column-count: 3;
-    position: relative;
-}
-
-#kanye > div {
-    
-}
-
-#kanye > div:first-child {
-    text-decoration: underline;
-    font-weight: bolder;
-    font-size: 2em !important;
-}
-
-#kanye > div > h2 {
-    font-weight: bolder;
-    font-size: 2em;
-}
-
-#kanye > div > p {
-    font-size: 1.5em;
-}
-
-.icon-white {
-    height: 150px;
-    margin-top: 300px;
-    position: relative;
-
-}
-
-.devices-icon {
-    height: 480px;
-    margin-left: 50px;
-
-}
-
-#kanye-pictures {
-    position: relative;
+#music-section, #device-section, #hq-section{
     display: flex;
+    flex-direction: column;
+    align-items: center;
     justify-content: center;
-    padding: 40px 0px 0px 0px;
-    margin-right: 100px;
+}
+
+#music-section h3, #device-section h3, #hq-section h3{
+    font-size: 2em;
+    color: green;
+}
+
+#kanye-left-container{
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    padding-left: 50px;
+    align-items: flex-start;
+}
+
+#kanye-pics{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+#big-pic{
+    height: 20%;
+    width: 20%;
 }
