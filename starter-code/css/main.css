@@ -6,7 +6,7 @@ Green: #00B172
 White: #FFF
 
 */
-body{
+body {
     margin: 0;
     top: 0;
     font-family: 'Roboto', sans-serif;
@@ -15,25 +15,25 @@ body{
 
 
 nav {
-        position: absolute;
-        top: 0;
-        left: 0;
-        margin: 0;
-        width: 100vw;
-        height: 80px;
-        display: inline;
+    position: absolute;
+    top: 0;
+    left: 0;
+    margin: 0;
+    width: 100%;
+    height: 80px;
+    display: inline;
 
 
 }
 
 
-.banner{
+.banner {
     background-image: url("../images/landing.jpg");
     background-repeat: no-repeat;
     background-position: center;
     background-size: cover;
     position: absolute;
-    margin:0;
+    margin: 0;
     right: 0px;
     left: 0px;
     top: 80px;
@@ -42,37 +42,40 @@ nav {
 }
 
 
-ul{
+ul {
     position: absolute;
     top: -10px;
     right: 20px;
     list-style: none;
     padding: 5px 10px;
-    
+
 }
-li{
+
+li {
     display: inline-block;
     padding: 20px 10px;
-    
 
-}
-.imglogo{
-    
-        
-        position: relative;
-        top: 15px;
-        left: 20px;
-        width: 150px;
-        height: 50px;      
 
 }
 
-a{
+.imglogo {
+
+
+    position: relative;
+    top: 15px;
+    left: 20px;
+    width: 150px;
+    height: 50px;
+
+}
+
+a {
     text-decoration: none;
     color: #1A1A1A;
 
 }
-h1{
+
+h1 {
     position: absolute;
     padding-left: 100px;
     left: 30%;
@@ -82,7 +85,7 @@ h1{
     text-align: center;
 }
 
-#p-landing{
+#p-landing {
     position: absolute;
     bottom: 200px;
     left: 33%;
@@ -90,7 +93,8 @@ h1{
     color: white;
     text-align: center;
 }
-.whats{
+
+.whats {
     position: absolute;
     top: 680px;
     width: 100%;
@@ -100,108 +104,144 @@ h1{
 
 }
 
-#hr1{  border: 2px solid #00B172;
+#hr1 {
+    border: 2px solid #00B172;
     width: 15%;
     border-radius: 5px;
 
 }
 
-h2{
+h2 {
     text-align: center;
     font-size: 2em;
-    color:white;
+    color: white;
 }
 
-h3{
+h3 {
     color: #00B172;
     font-size: 1em;
+}
+
+#h-whats {
+    color: #00B172;
 }
 
 
 div {
 
-width: 300px;
-height: 400px;
-float: left;
-align-content: center;
-left: 280px;
-text-align: center;
-color: #1A1A1A;
+    width: 300px;
+    height: 400px;
+    float: left;
+    align-content: center;
+    left: 280px;
+    text-align: center;
+    color: #1A1A1A;
 
 }
 
-#a1{
+#a1 {
     position: relative;
     left: 15%;
     margin: 20px 50px;
 
 }
-#a2{
+
+#a2 {
     position: relative;
     margin: 20px 50px;
     left: 20%;
 
 
 }
-#a3{
+
+#a3 {
     position: relative;
-left: 25%; 
-   margin: 20px 50px;
-    
+    left: 25%;
+    margin: 20px 50px;
+
 
 
 }
-#icon{
+
+#icon {
     width: 50px;
     height: 50px;
 
 }
-/*
-.kanye{
-    position: absolute;
-    bottom: 0;
-    width: 100%;
-    height: 400px;
-    justify-content: center;
+
+footer {
     text-align: center;
-    color: plum;
-
-
-}
-#img-app{
-    width: 200px;
-    height: 380px;
-    float: left;
-}
-#box-app{
+    align-content: center;
     position: absolute;
-    top: 0px;
-    height: 400;
-    width: 400px;
-}
-
-#divs-kanye{
-    float: left;
-
-}
-
-
-#hr2{
-     border: 2px solid #00B172;
-        width: 15%;
-        border-radius: 5px;
-    
-}
-#h-whats{
-    color: #00B172;
-}*/
-footer{
-    position: absolute;
-    top: 1080px;
+    top: 120vh;
     background-color: #00B172;
-    width: 100%;
-    height: 400px;
-    
+    width: 90%;
+    height: 600px;
+    margin-left: 5%;
+    background-image: url(../images/spotify-icon-white.png);
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: 150px;
+    color: white;
 
-    
+
+}
+
+.kanye {
+    position: absolute;
+    max-width: 400px;
+    height: 300px;
+    color: white;
+
+
+
+}
+
+
+.kanye h1 {
+    position: relative;
+    top: 15px;
+    width: 600px;
+    font-size: 40px;
+    left: 10px;
+    text-align: left;
+    text-decoration: underline;
+    padding-bottom: 10px;
+}
+
+
+.kanye h2 {
+    position: relative;
+    top: 10px;
+    left: 110px;
+    align-content: center;
+    text-align: left;
+
+
+}
+
+
+.kanye p {
+    position: relative;
+    top: 5px;
+    left: 30px;
+    left: 110px;
+
+    font-size: 1em;
+    text-align: left;
+}
+
+
+#img-app {
+    position: absolute;
+    right: 180px;
+    top: 90px;
+    width: 300px;
+    height: 480px;
+}
+
+
+
+.app-img-box {
+    width: 240px;
 }
