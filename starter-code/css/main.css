@@ -1,8 +1,106 @@
-/*
-Colors:
+@import url("https://fonts.googleapis.com/css?family=Roboto:100,100i,300,300i,400,400i,500,500i,700,700i,900,900i&display=swap");
+@import url("https://fonts.googleapis.com/css?family=Open+Sans:300,300i,400,400i,600,600i,700,700i,800,800i&display=swap");
 
-Text: 1A1A1A
-Green: #00B172
-White: #FFF
+body {
+  font-family: "Open Sans", "Roboto", sans-serif;
+  background-color: #fff;
+}
 
-*/
+.clear-both {
+  clear: both;
+}
+
+.nav-bar {
+  padding: 15px 30px;
+  display: flex;
+  justify-content: space-between;
+}
+
+.img-logo {
+  width: 15%;
+}
+
+.item-container {
+  width: 33%;
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+}
+
+.nav-items {
+  text-decoration: none;
+  color: #1a1a1a;
+  font-weight: 300;
+  font-size: 1.2em;
+}
+
+.header-container {
+  height: 800px;
+  color: #fff;
+  text-align: center;
+  background-image: url("../images/landing.jpg");
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+
+.main-title {
+  font-size: 4.9em;
+  font-weight: 600;
+  padding: 270px 0 40px 0;
+}
+
+.header-container p {
+  font-size: 1.8em;
+  font-weight: 300;
+  line-height: 40px;
+}
+
+.info-section {
+  padding: 30px;
+}
+
+.secondary-title {
+  font-size: 2.3em;
+  font-weight: 600;
+  text-align: center;
+  padding: 15px 0 10px 0;
+}
+
+.divisior {
+  width: 27%;
+  margin: 0 auto;
+  border: 2.5px solid #00b172;
+}
+
+.info-container {
+  display: flex;
+  justify-content: space-between;
+  padding: 100px 0 150px 0;
+}
+
+.info-box {
+  width: 33%;
+  box-sizing: border-box;
+  text-align: center;
+  margin: 0 50px;
+}
+
+.img-info {
+  width: 140px;
+  height: 100px;
+}
+
+.tag-title {
+  font-size: 1.8em;
+  font-weight: 700;
+  color: #00b172;
+  margin-top: 30px;
+}
+
+.info-box p {
+  font-size: 1.6em;
+  font-weight: 100;
+  line-height: 35px;
+  margin: 30px;
+}
