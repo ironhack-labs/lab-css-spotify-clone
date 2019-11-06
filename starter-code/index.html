@@ -1,44 +1,130 @@
 <!DOCTYPE html>
 <html lang="en">
   <head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <meta http-equiv="X-UA-Compatible" content="ie=edge" />
+    <link rel="stylesheet" href="css/reset.css" />
+    <link rel="stylesheet" href="css/main.css" />
     <title>Spotify</title>
   </head>
   <body>
-    Premium Discover Help Download
+    <header>
+      <nav class="nav-bar">
+        <img
+          id="main-img-logo"
+          src="images/spotify-logo.png"
+          alt="Spotify Logo"
+        />
+        <ul class="list-nav-items">
+          <li><a href="" class="nav-items">Premium</a></li>
+          <li><a href="" class="nav-items">Discover</a></li>
+          <li><a href="" class="nav-items">Hekp</a></li>
+          <li><a href="" class="nav-items">Download</a></li>
+        </ul>
+      </nav>
 
-    Music for everyone.
-    Spotify is now free on mobile, tablet and computer.
-    Listen to the right music, wherever you are.
+      <div class="header-wrapper">
+        <h1 id="main-title">Music for everyone.</h1>
+        <p>
+          Spotify is now free on mobile, tablet and computer. <br />Listen to
+          the right music, wherever you are.
+        </p>
+      </div>
+    </header>
 
-    What’s on Spotify?
+    <main>
+      <section class="general-feature-section">
+        <div class="title-wrapper">
+          <h2 class="secondary-title">What’s on Spotify?</h2>
+          <hr class="break-line break-line-border-green" />
+        </div>
 
-    Millions of Songs
-    There are millions of
-    songs on Spotify
+        <div class="features-container">
+          <div class="feature-box">
+            <img
+              class="feature-img"
+              src="images/music-icon.png"
+              alt="Music Icon"
+            />
+            <h3 class="feature-title green">Millions of Songs</h3>
+            <p class="feature-text">There are millions of songs on Spotify</p>
+          </div>
 
-    HD Music
-    Listen to music as if you
-    were listening live
+          <div class="feature-box">
+            <img
+              class="feature-img"
+              src="images/high-quality-icon.png"
+              alt="High Quality Icon"
+            />
+            <h3 class="feature-title green">HD Music</h3>
+            <p class="feature-text">
+              Listen to music as if you were listening live
+            </p>
+          </div>
 
-    Stream Everywhere
-    Stream music on your
-    smartphone, tablet or
-    computer
+          <div class="feature-box">
+            <img
+              class="feature-img"
+              src="images/devices-icon.png"
+              alt="Devices Icon"
+            />
+            <h3 class="feature-title green">Stream Everywhere</h3>
+            <p class="feature-text">
+              Stream music on your smartphone, tablet or computer
+            </p>
+          </div>
+        </div>
+      </section>
 
-    It’s as yeezy as Kanye West.
-    Search
-    Know what you want to listen to?
-    Just search and hit play.
-    Browse
-    Check out the latest charts,
-    brand new releases and great
-    playlists for right now.
-    Discover
-    Enjoy new music every Monday
-    with your own personal playlist.
-    Or sit back and enjoy Radio.
+      <section class="music-feature-section">
+        <div class="title-wrapper">
+          <h2 class="secondary-title white">It’s as yeezy as Kanye West.</h2>
+          <hr class="break-line break-line-border-white" />
+        </div>
+
+        <div class="music-info-wrapper">
+          <div class="col-3">
+            <div class="feature-music-box white">
+              <h3 class="feature-title">Search</h3>
+              <p class="feature-music-text">
+                Know what you want to listen to? Just search and hit play.
+              </p>
+            </div>
+
+            <div class="feature-music-box white">
+              <h3 class="feature-title">Browse</h3>
+              <p class="feature-music-text">
+                Check out the latest charts, brand new releases and great
+                playlists for right now.
+              </p>
+            </div>
+
+            <div class="feature-music-box white">
+              <h3 class="feature-title">Discover</h3>
+              <p class="feature-music-text">
+                Enjoy new music every Monday with your own personal playlist. Or
+                sit back and enjoy Radio.
+              </p>
+            </div>
+          </div>
+          <div class="col-3 icon-white-wrapper">
+            <img
+              id="white-logo"
+              src="images/spotify-icon-white.png"
+              alt="Spotify Icon White"
+            />
+          </div>
+
+          <div class="col-3">
+            <img
+              id="img-app-spotify"
+              src="images/spotify-app.jpg"
+              alt="Screenshot to Spotify App"
+            />
+          </div>
+        </div>
+      </section>
+    </main>
   </body>
 </html>

@@ -1,8 +1,160 @@
-/*
-Colors:
+@import url("https://fonts.googleapis.com/css?family=Roboto:100,100i,300,300i,400,400i,500,500i,700,700i,900,900i&display=swap");
+@import url("https://fonts.googleapis.com/css?family=Open+Sans:300,300i,400,400i,600,600i,700,700i,800,800i&display=swap");
 
-Text: 1A1A1A
-Green: #00B172
-White: #FFF
+body {
+  font-family: "Open Sans", "Roboto", sans-serif;
+  font-size: 16px;
+  font-weight: 100;
+  background-color: #fff;
+}
 
-*/
+.green {
+  color: #00b172;
+}
+
+.white {
+  color: #fff;
+}
+
+.nav-bar {
+  padding: 15px 30px;
+  display: flex;
+  justify-content: space-between;
+}
+
+#main-img-logo {
+  width: 15%;
+}
+
+.list-nav-items {
+  width: 33%;
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+}
+
+.nav-items {
+  text-decoration: none;
+  color: #1a1a1a;
+  font-weight: 300;
+  font-size: 1.2em;
+}
+
+.header-wrapper {
+  height: 800px;
+  color: #fff;
+  text-align: center;
+  background-image: url("../images/landing.jpg");
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+
+#main-title {
+  font-size: 4.9em;
+  font-weight: 600;
+  padding: 270px 0 40px 0;
+}
+
+.header-wrapper p {
+  font-size: 1.8em;
+  font-weight: 300;
+  line-height: 40px;
+}
+
+.general-feature-section {
+  padding: 30px;
+  text-align: center;
+}
+
+.title-wrapper {
+  display: inline-block;
+}
+
+.secondary-title {
+  font-size: 2.3em;
+  font-weight: 600;
+}
+
+.break-line {
+  border-style: solid;
+  border-width: 2px;
+}
+
+.break-line-border-green {
+  border-color: #00b172;
+}
+
+.break-line-border-white {
+  border-color: #fff;
+}
+
+.features-container {
+  display: flex;
+  justify-content: space-between;
+  padding-top: 100px;
+}
+
+.feature-box {
+  width: 33%;
+  box-sizing: border-box;
+  text-align: center;
+  margin: 0 50px;
+}
+
+.feature-img {
+  width: 140px;
+  height: 100px;
+}
+
+.feature-title {
+  font-size: 1.8em;
+  font-weight: 700;
+  margin-top: 30px;
+}
+
+.feature-text {
+  font-size: 1.6em;
+  line-height: 35px;
+  margin-top: 30px;
+}
+
+.music-feature-section {
+  width: 95%;
+  margin: 30px auto;
+  background-color: #00b172;
+  padding: 70px 100px;
+  box-sizing: border-box;
+}
+
+.music-info-wrapper {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.col-3 {
+  width: 33%;
+}
+
+.feature-music-box {
+  margin-bottom: 70px;
+}
+
+.feature-music-text {
+  font-size: 1.4em;
+  line-height: 35px;
+  margin-top: 30px;
+}
+
+.icon-white-wrapper {
+  text-align: center;
+}
+
+#white-logo {
+  width: 35%;
+}
+
+#img-app-spotify {
+  width: 100%;
+}
