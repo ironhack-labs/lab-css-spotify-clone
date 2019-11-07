@@ -6,3 +6,325 @@ Green: #00B172
 White: #FFF
 
 */
+
+body {
+    font-family:Arial, Helvetica, sans-serif;
+    font-size:15px;
+    line-height:1.2;
+    /* font: 15px/1.2 Arial, Helvetica, sans-serif;   shortcut */
+    margin: 0 auto;
+}
+#spotify-icon {
+    position: absolute;
+    top: 50%;
+    width: 100px;
+    background: #00B172;
+    border-radius: 50%;
+    border: 1px solid #00B172;
+
+    transition-property: transform;
+    transition-duration: 2s;
+    transition-timing-function: ease-in-out;
+
+    animation-name: spotify-icon;
+    animation-duration: 2s;
+    animation-timing-function: ease-in;
+    animation-delay: 3s;
+}
+#spotify-icon:hover {
+    transform: rotateY(360deg);
+}
+
+@keyframes spotify-icon {
+    0%{transform: rotateY(0deg)}
+    100%{transform: rotateY(360deg);}
+}
+/* global */
+html {
+    margin: 0 10px;
+    
+}
+
+/* header */
+header {
+    position: fixed;
+    top:0px;
+    left: 10px;
+    right: 10px;
+    padding: 5px;
+    /* width: relative ; */
+    margin: 0 auto;
+    z-index: 1;
+    color: #FFF;
+    background: rgb(0, 0, 0, 0.7);
+    border-top: 3px #00B172 solid;
+    min-height: 35px;
+    animation-name: header;
+    animation-duration: 3s;
+    animation-fill-mode: forwards;
+}
+@keyframes header {
+    0%{top: -30px}
+    100%{top: 0px}
+
+}
+ul {
+    margin: 0;
+    padding: 0;
+}
+header a {
+    color: #FFF;
+    text-decoration: none;
+}
+header a:hover {
+    color: #00B172;
+    font-weight: bold;
+}
+
+header li {
+    display: inline;
+    padding: 0 20px;
+}
+#spotify {
+    width: 100px;
+}
+#navbar {
+    float: right;
+    padding-top: 5px;
+}
+header #branding {
+    float: left;
+}
+
+/* showcase */
+#showcase {
+    margin: 0 auto;
+    overflow: auto;
+    /* margin-top: 42px; */
+    overflow: hidden;
+    min-height: 600px;
+    background: url('../images/landing.jpg') no-repeat 0px -70px;
+    background-size: cover;
+    text-align: center;
+    color: #FFF;
+    animation-name: showcase;
+    animation-duration: 3s;
+    animation-fill-mode: forwards;
+    
+}
+@keyframes showcase {
+    0% {left:-1100px;}
+    100%{left: 0;}
+}
+#showcase h1 {
+    position: relative;
+    top: 200px;
+    font-size: 55px;
+    animation-name: showcase-h1;
+    animation-delay: 3s;
+    animation-fill-mode: forwards;
+    animation-duration: 3s;
+    opacity: 0;
+    animation-timing-function: ease-in-out;
+}
+#showcase p {
+    position: relative;
+    top: 200px;
+    font-size: 20px;
+    animation-name: showcase-p;
+    animation-delay: 3s;
+    animation-fill-mode: forwards;
+    animation-duration: 3s;
+    opacity: 0;
+    animation-timing-function: ease-in-out;
+}
+@keyframes showcase-h1 {
+    0%{opacity: 0;}
+    100%{opacity: 1;}
+}
+@keyframes showcase-p {
+    0%{opacity: 0;}
+    100%{opacity: 1;}
+}
+
+/* NewsLetter */
+
+#newsletter{
+    padding: 5px 0px;
+    color: rgb(44, 42, 42);
+}
+#newsletter img {
+    width: 50px;
+}
+#newsletter h2{
+    text-align: center;
+    margin-top: 20px;
+    margin-bottom: 10px;
+}
+#newsletter hr {
+    margin: 0 100px;
+    padding: 2px;
+    border: 0;
+    border-radius: 50%;
+    background: #00B172;
+}
+/* NewsLetter-boxes */
+#newsletter .box{
+    display: table-cell;
+    width: 30%;
+    padding: 30px;
+    color: #00B172;
+    text-align: center;
+}
+#newsletter .box:hover {
+    background: cornflowerblue;
+    color: #FFF;
+}
+
+/* NewsBar */
+#news-bar  {
+    height: 680px;
+    display: inline-flex;
+    justify-content: space-around;
+    background: #00B172;
+    margin-top: 15px;
+    position: relative;
+    height: 800px;
+}
+img#kanye-west {
+    width: 100%;
+    min-width: 300px;
+}
+#news-bar #albom{
+    width: 30%;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+
+}
+#news-bar h2{
+    font-size: 30px;
+    color: #FFF;
+    text-align: left;
+    position: relative;
+}
+#sidebar hr {
+    background-color: #FFF;
+    padding: 2px;
+    width: 400px;
+    border: 0;
+    position: absolute;
+
+}
+#sidebar {
+    padding-top: 50px;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-around;
+    background: #00B172;
+
+}
+#sidebar div{
+    display: flex;
+    flex-flow: column;
+    align-items: center;
+    color: #FFF;
+    width: 70%;
+   text-align: center;
+   transition-property: background, border-radius;
+   transition-duration: 1s, 1s;
+}
+#sidebar div:hover {
+    background: #00B172;
+    color: rgba(0, 0, 0, 0.897);
+    border-radius: 15px;
+    text-align: center;
+    
+}
+#sidebar h4{
+    font-size: 25px;
+    /* margin: 0; */
+}
+.box p {
+    opacity: 0;
+    width: 70%;
+    margin: 5px auto;
+}
+.box:hover p{
+    animation-name: box;
+    animation-duration: 3s;
+    animation-timing-function: ease-in-out;
+    animation-fill-mode: forwards;
+}
+@keyframes box {
+    0%{opacity: 0;}
+    100%{opacity: 1;}
+}
+
+@media(max-width: 768px){
+    header, header #navbar, #newsletter, #news-bar{
+        float: none;
+        text-align: center;
+        /* width: auto; */
+    }
+    header {
+        display: flex;
+        flex-wrap: wrap;
+        justify-content: center;
+        padding: 10px;
+    }
+    #spotify {
+        float: none;
+        text-align: center;
+        margin: 0 auto;
+    }
+    header #navbar{
+        min-width: 480px;
+    }
+    #showcase {
+        margin-top: 0px;
+    }
+    #showcase h1{
+        font-size: 30px;
+    }
+    #showcase p{
+        margin: 0 50px;
+    }
+    #newsletter {
+        display: flex;
+        flex-direction: column;
+        height: 1000px;
+    }
+    #newsletter .box {
+        margin: 0 auto;
+        /* background: 100%; */
+        width: 80%;
+        padding: auto 0px;
+    }
+    #news-bar {
+        display: flex;
+        flex-direction: column;
+    }
+    #news-bar #albom{
+        width: 100%;
+    }
+    #news-bar h2, #news-bar h4{
+        font-size: 25px;
+        text-align: center;
+    }
+    #sidebar hr {
+        position: relative;
+    }
+    #spotify-icon {
+        position: absolute;
+        top: 60px;
+        right: 20px;
+        width: 50px;
+        background: #00B172;
+        border-radius: 50%;
+        border: 1px solid #00B172;
+    }
+    #sidebar div {
+        margin: 10px auto;
+    }
+}
