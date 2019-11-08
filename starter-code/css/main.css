@@ -18,9 +18,7 @@ body {
     position: absolute;
     top: 50%;
     width: 100px;
-    background: #00B172;
-    border-radius: 50%;
-    border: 1px solid #00B172;
+    /* border-radius: 50%; */
 
     transition-property: transform;
     transition-duration: 2s;
@@ -52,7 +50,6 @@ header {
     left: 10px;
     right: 10px;
     padding: 5px;
-    /* width: relative ; */
     margin: 0 auto;
     z-index: 1;
     color: #FFF;
@@ -100,21 +97,19 @@ header #branding {
 #showcase {
     margin: 0 auto;
     overflow: auto;
-    /* margin-top: 42px; */
-    overflow: hidden;
     min-height: 600px;
     background: url('../images/landing.jpg') no-repeat 0px -70px;
     background-size: cover;
     text-align: center;
     color: #FFF;
     animation-name: showcase;
-    animation-duration: 3s;
+    animation-duration: 10s;
     animation-fill-mode: forwards;
     
 }
 @keyframes showcase {
-    0% {left:-1100px;}
-    100%{left: 0;}
+    0% {opacity: 0;}
+    100%{opacity: 1;}
 }
 #showcase h1 {
     position: relative;
@@ -222,7 +217,7 @@ img#kanye-west {
     flex-direction: column;
     justify-content: space-around;
     background: #00B172;
-
+    
 }
 #sidebar div{
     display: flex;
@@ -262,16 +257,18 @@ img#kanye-west {
 }
 
 @media(max-width: 768px){
+    html {
+        margin: 10px;
+        padding: 0;
+    }
     header, header #navbar, #newsletter, #news-bar{
         float: none;
         text-align: center;
-        /* width: auto; */
     }
     header {
         display: flex;
         flex-wrap: wrap;
         justify-content: center;
-        padding: 10px;
     }
     #spotify {
         float: none;
@@ -297,7 +294,6 @@ img#kanye-west {
     }
     #newsletter .box {
         margin: 0 auto;
-        /* background: 100%; */
         width: 80%;
         padding: auto 0px;
     }
@@ -317,14 +313,14 @@ img#kanye-west {
     }
     #spotify-icon {
         position: absolute;
-        top: 60px;
-        right: 20px;
-        width: 50px;
+        top: 0px;
+        right: 50px;
+        width: 100px;
         background: #00B172;
         border-radius: 50%;
         border: 1px solid #00B172;
     }
-    #sidebar div {
+    /* #sidebar div {
         margin: 10px auto;
-    }
+    } */
 }
