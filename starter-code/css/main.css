@@ -1,50 +1,119 @@
+
+body{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+}
 nav{
     position: fixed;
     top: 0;
-    background-color: white;
-    width: 100%;
     height: 100px;
+    width: 100%;
+    background-color: white;
     display: flex;
-    flex-direction: row;
-    flex-wrap: nowrap;
+    flex-direction: row;    
     justify-content: space-between;
     align-items: center;
+
 }
-picture>img {
+nav>img {
     width: 160px;
     height: 50px;
+    padding-left: 10px;
 }
 
 nav>ul{
-    margin: 0 35px;
+    
     list-style: none;
     display: flex;
     flex-direction: row;
+    justify-content: flex-end;
+    padding-right: 10px;
 }
 li>a {
     font-size: 24px;
-    padding: 0 5px;
     text-decoration: none;
     color: #333;
+    padding: 0 10px;
 }
 header {
     background: url(../images/landing.jpg);
     background-size: cover;
+    background-position: center bottom;
     background-repeat: no-repeat;
     margin-top: 100px;
-    height: 1000px;
+    height: 650px;
     color: white;
     display: flex;
     flex-direction: column;
     align-items: center;
-    justify-content: center;
+    padding-top: 300px;   
 }
-header h1 {
+header>h1 {
     font-size: 95px;
-    letter-spacing: 3px;
+    margin: 30px;
 }
 header p {
-    font-family: 'Gotham Thin Regular';
     font-size: 32px;
-    line-height: 36px;
+    margin: 0;
+}
+
+section#whats {
+    text-align: center;
+    font-size: 24px;
+    padding-top: 15px;
+    text-decoration: underline;
+    text-decoration-color: #00BB7A;
+    text-underline-position: under;
+}
+
+section.features {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+    
+    font-size: 24px;
+    text-align: center;
+}
+.features div img {
+    width: 150px;
+    height: 150px;
+}
+.features div h3 {
+    color: #00BB7A;
+}
+
+footer{
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: space-around;
+    background-color: #00BB7A;
+    color: white;
+    font-size: 24px;
+}
+
+footer div.left-column h2{
+    font-size: 36px;
+    text-decoration: underline;
+    text-decoration-color: white;
+    text-underline-position: under;
+
+}
+.box-1>h3, .box-2>h3, .box-3>h3{
+    font-size: 28px;
+}
+
+
+.center-column>img{
+    width: 150px;
+    height: 150px;
+}
+.right-column {
+    width: 30%;
+    height: 750px;
+    background: url(../images/spotify-app.jpg);
+    background-size: contain;
+    background-position: center bottom;
+    background-repeat: no-repeat;
 }
