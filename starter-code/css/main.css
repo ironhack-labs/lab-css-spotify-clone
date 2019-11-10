@@ -6,7 +6,7 @@ Green: #00B172
 White: #FFF
 
 */
-@import url('https://fonts.googleapis.com/css?family=Roboto:300,400&display=swap');
+@import url('https://fonts.googleapis.com/css?family=Roboto:300,400,500&display=swap');
 * {
   font-family: "Roboto";
 }
@@ -15,6 +15,15 @@ White: #FFF
 }
 .middle > * {
   vertical-align: middle;
+}
+h1 {
+  font-size: 5.5em;
+  font-weight: 500;
+}
+h2 {
+  font-size: 2em;
+  font-weight: 300;
+  line-height: 1.3em;
 }
 nav {
   background: white;
@@ -39,5 +48,12 @@ nav ul li {
 header {
   background-image: url(../images/landing.jpg);
   background-size: cover;
-  height: 700px;
+  height: 900px;
+}
+.title > * {
+  color: white;
+  position: relative;
+  top: 350px;
+  text-align: center;
+  padding: 20px 50px;
 }
