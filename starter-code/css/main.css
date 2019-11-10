@@ -6,12 +6,24 @@ Green: #00B172
 White: #FFF
 
 */
-@import url("https://fonts.googleapis.com/css?family=Sintony:400,700&display=swap");
+@import url('https://fonts.googleapis.com/css?family=Roboto:300,400,500&display=swap');
+* {
+  font-family: "Roboto";
+}
 .inline > * {
   display: inline-block;
 }
 .middle > * {
   vertical-align: middle;
+}
+h1 {
+  font-size: 5.5em;
+  font-weight: 500;
+}
+h2 {
+  font-size: 2em;
+  font-weight: 300;
+  line-height: 1.3em;
 }
 nav {
   background: white;
@@ -25,7 +37,6 @@ nav img {
 }
 nav ul {
   float: right;
-  font-family: "Sintony";
   font-weight: 200;
   font-size: 1.5em;
   line-height: 100px;
@@ -38,4 +49,11 @@ header {
   background-image: url(../images/landing.jpg);
   background-size: cover;
   height: 900px;
+}
+.title > * {
+  color: white;
+  position: relative;
+  top: 350px;
+  text-align: center;
+  padding: 20px 50px;
 }
