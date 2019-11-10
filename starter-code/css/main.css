@@ -6,3 +6,38 @@ Green: #00B172
 White: #FFF
 
 */
+@import url('https://fonts.googleapis.com/css?family=Roboto:300,400&display=swap');
+* {
+  font-family: "Roboto";
+}
+.inline > * {
+  display: inline-block;
+}
+.middle > * {
+  vertical-align: middle;
+}
+nav {
+  background: white;
+  height: 100px;
+  width: 100%;
+  position: fixed;
+}
+nav img {
+  height: 70px;
+  padding: 16px 35px;
+}
+nav ul {
+  float: right;
+  font-weight: 200;
+  font-size: 1.5em;
+  line-height: 100px;
+  padding-right: 20px;
+}
+nav ul li {
+  padding-right: 20px;
+}
+header {
+  background-image: url(../images/landing.jpg);
+  background-size: cover;
+  height: 700px;
+}
