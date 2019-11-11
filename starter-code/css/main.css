@@ -6,3 +6,126 @@ Green: #00B172
 White: #FFF
 
 */
+
+html {
+    font-family: Roboto, system-ui, sans-serif;
+}
+
+body {
+    margin: 0px;
+}
+
+nav {
+    color: 1a1a1a;
+    padding-top: 10px;
+    padding-bottom: 10px;
+    margin: 0;
+}
+
+#nav-logo {
+    width: 150px;
+}
+
+.navbar {
+    position: fixed;
+
+}
+
+.nav-menu {
+    padding-left: 0px;
+    float: right;
+}
+
+.nav-menu li {
+    list-style-type: none;
+    display: inline;
+    /* text-align: right; */
+}
+
+.nav-menu a {
+    text-decoration: none;
+    color: 1A1A1A;
+    padding: 5px;
+}
+
+#concert-pic {
+    width: 100%;
+}
+
+.concert {
+    text-align: center;
+}
+
+.concert h1 {
+    font-size: 50px;
+    font-weight: bold;
+}
+
+.concert h1,
+.concert p {
+    position: relative;
+    bottom: 650px;
+    z-index: 10px;
+    color: white;
+}
+
+.concert p {
+    line-height: 1.6;
+}
+
+.info {
+    text-align: center;
+}
+
+.info img {
+    width: 30%;
+}
+
+.info h1 {
+    text-decoration: underline;
+    text-decoration-color: #00B172;
+}
+
+.info h3 {
+    color: #00B172;
+    /* align-items: baseline; */
+}
+
+.container {
+    display: flex;
+}
+
+.container div {
+    padding: 20px;
+}
+
+.kanye {
+    display: flex;
+    background-color: #00B172;
+    color: #fff;
+    background-repeat: no-repeat;
+    background-size: 50px;
+    background-position: center;
+    background-image: url(../images/spotify-icon-white.png);
+}
+
+.kanye div {
+    padding: 40px;
+    position: relative;
+    flex: 1;
+    /* flex-flow: wrap; */
+}
+
+.kanye h2 {
+    text-decoration: underline;
+}
+
+.kanye img {
+    width: 50%;
+    position: relative;
+    left: 500px;
+}
+
+.kanye .logo {
+    position: relative;
+}
