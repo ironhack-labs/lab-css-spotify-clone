@@ -1,8 +1,79 @@
 /*
 Colors:
-
-Text: 1A1A1A
 Green: #00B172
-White: #FFF
-
 */
+html {
+    background-color: #fff;
+    font-size: 16px;
+    font-family: 'Roboto', sans-serif;
+    color: #1A1A1A;
+}
+
+nav {
+    position: fixed;
+    z-index: 1;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: center;
+    height: 7vw;
+    width: 100vw;
+    background-color: #fff;
+    margin-top: -8px;
+    margin-left: -8px;
+}
+
+nav > img {
+    width: 16vw;
+    padding-left: 40px;
+}
+
+nav > ul {
+    list-style: none;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+    width: 30vw;
+    padding-right: 40px;
+    font-size: 1.5em;
+    font-family: Roboto, sans-serif;
+    font-weight: 300;
+}
+
+.centered-container {
+   display: flex;
+   justify-content: center;
+   align-items: center;
+}
+
+#banner-overlay-text-container {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-wrap: wrap;
+    position: absolute;
+    width: 60vw;   
+}
+    
+div > h1 {
+    font-size: 5.5em;
+    margin-bottom: 20px;
+    color: #fff;
+}
+
+div > p {
+    font-size: 2em;
+    margin: 0px;
+    color: #fff;
+    font-weight: 300;
+}
+
+main > div > img {
+    width: 100vw;
+}
+
+.centered-container > h2 {
+    font-size: 2.25em;
+    padding-bottom: 8px;
+    border-bottom: 4px solid #00B172;
+ }
