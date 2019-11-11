@@ -1,7 +1,3 @@
-/*
-Colors:
-Green: #00B172
-*/
 html {
     background-color: #fff;
     font-size: 16px;
@@ -76,4 +72,72 @@ main > div > img {
     font-size: 2.25em;
     padding-bottom: 8px;
     border-bottom: 4px solid #00B172;
+ }
+
+#middle-section {
+    margin-left: -8px;
+ }
+
+#middle-section > div:nth-child(2) {
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    width: 100vw;
+ }
+
+#middle-section > div:nth-child(2) > div {
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    width: 20vw;
+ }
+
+.centered-container-mid {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-wrap: wrap;
+    text-align: center;
+ }
+
+.centered-container-mid > img {
+    width: 15vw;
+ }
+
+ #quality-image {
+    padding-bottom: 22px;   
+ }
+
+ #device-image {
+    padding-bottom: 22px;   
+ }
+
+.centered-container-mid > h3 {
+    font-size: 1.75em;
+    font-style: Roboto;
+    font-weight: 700;
+    color: #00B172;
+ }
+
+.centered-container-mid > p {
+    font-size: 1.5em;
+    font-style: Roboto;
+    font-weight: 300;
+    color: #1A1A1A;
+ }
+
+ #bottom-section-container {
+    display: flex;
+    align-items: center;
+    width: 100vw;
+ }
+
+ #bottom-section {
+    display: flex;
+    justify-content: left;
+    align-items: center;
+    background-color: #00B172;
+    width: 80vw;
+    margin-left: 20px;
+    margin-right: 20px;
  }
