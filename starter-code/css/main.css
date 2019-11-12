@@ -55,12 +55,12 @@ header>div {
     padding-top: 17vw;
 }
 header>div>h1 {
-    font-size: 95px;
-    margin: 30px;
+    font-size: 6vw;
+    margin: 2vw 0;
 }
 header>div>p {
-    font-size: 32px;
-    margin: 0;
+    font-size: 2.2vw;
+    margin: 0.3vw;
 }
 
 section#whats {
@@ -101,37 +101,44 @@ section#whats {
     margin: 0 0 5vw 0;
 }
 
-footer{
+footer {
     display: flex;
     flex-direction: row;
-    align-items: center;
-    justify-content: space-around;
+    align-items: flex-end;
+    justify-content: space-evenly;
     background-color: #00BB7A;
     color: white;
-    font-size: 24px;
+    padding: 4vw 3vw;
 }
-
-footer div.left-column h2{
-    font-size: 36px;
+.column-left {
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+}
+.column-left h2 {
     text-decoration: underline;
-    text-decoration-color: white;
     text-underline-position: under;
-
+    font-size: 3vw;
 }
-.box-1>h3, .box-2>h3, .box-3>h3{
-    font-size: 28px;
+.column-left h3 {
+    margin: 2vw 0;
+    font-size: 2.5vw;
+}
+.column-left p {
+    margin: 0;
+    font-size: 1.7vw;
 }
 
-
-.center-column>img{
-    width: 150px;
-    height: 150px;
+.column-center {
+    width: 10vw;
+    height: 10vw;
+    margin: 0 7vw 13vw 0;
 }
-.right-column {
-    width: 30%;
-    height: 750px;
-    background: url(../images/spotify-app.jpg);
-    background-size: contain;
-    background-position: center bottom;
-    background-repeat: no-repeat;
+footer img {
+    width: 100%;
+    height: 100%;
+}
+.column-rigth {
+    width: 26vw;
+    height: 40vw;
 }
