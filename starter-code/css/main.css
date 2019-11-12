@@ -57,7 +57,7 @@ div > h1 {
     color: #fff;
 }
 
-div > p {
+#banner-overlay-text-container > p {
     font-size: 2em;
     margin: 0px;
     color: #fff;
@@ -126,18 +126,49 @@ main > div > img {
     color: #1A1A1A;
  }
 
- #bottom-section-container {
+#bottom-section {
     display: flex;
+    justify-content: center;
+}
+
+#bottom-section-container {
+    display: flex;
+    justify-content: space-around;
     align-items: center;
-    width: 100vw;
+    width: 95vw;
+    background-color: #00B172;
+    padding: 80px 0 80px 0;
  }
 
- #bottom-section {
+#bottom-section-text {
     display: flex;
     justify-content: left;
     align-items: center;
-    background-color: #00B172;
-    width: 80vw;
-    margin-left: 20px;
-    margin-right: 20px;
+    flex-wrap: wrap;
+    color: white;
+    width: 30vw;
+ }
+
+#bottom-section-text > h3 {
+    font-size: 2em;
+    padding-bottom: 8px;
+    border-bottom: 4px solid white;
+}
+
+#bottom-section-text > h4 {
+    font-size: 1.5em;
+}
+
+#bottom-section-text > p {
+    font-size: 1.25em;
+    font-weight: 300;
+}
+
+#spotify-icon-white {
+     width: 10vw;
+     position: absolute;
+ }
+
+ #spotify-app {
+     width: 22.5vw;
  }
