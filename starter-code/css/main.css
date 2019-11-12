@@ -6,3 +6,174 @@ Green: #00B172
 White: #FFF
 
 */
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+.container {
+    width: 100%;
+}
+
+/**** Navbar ****/
+header {
+    position: fixed;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    background: #FFF;
+    width: 100%;
+    height: 80px;
+    z-index: 1;
+}
+
+header img {
+    width: 16vw;
+    height: 50px;
+}
+
+header nav {
+    width: 100%;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 0 40px;
+}
+
+header ul {
+    display: flex;
+    list-style: none;
+    font-size: 1.8vw;
+}
+
+header li {
+    padding: 10px 15px;
+    cursor: pointer;
+}
+/**** End of Navbar ****/
+
+/**** Showcase ****/
+#showcase {
+    background: url(../images/landing.jpg);
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    height: 800px;
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    color: #FFF;
+    text-align: center;
+}
+
+#showcase h1 {
+    font-size: 6.5vw;
+    margin-bottom: 30px;
+}
+
+#showcase p {
+    font-size: 2.5vw;
+}
+/**** End of Showcase ****/
+
+/**** Spotify Section *****/
+#spotify {
+    height: 550px;
+    width: 100%;
+    text-align: center;
+}
+
+.heading {
+    position: relative;
+}
+
+.heading::after {
+    content: "";
+    height: 4px;
+    width: 100%;
+    background-color: #00B172;
+    position: absolute;
+    bottom: -.8em;
+    left: 50%;
+    transform: translate(-50%);
+}
+
+.heading > h1 {
+    display: inline-block;
+    text-align: center;
+    padding-top: 40px;
+    font-size: 3.2vw;
+}
+
+#spotify img {
+    width: 10vw;
+    height: 100px;
+}
+
+#boxes {
+    display: flex;
+    justify-content: space-evenly;
+    align-items: center;
+    padding-top: 100px;
+}
+
+.box {
+    width: 250px;
+    text-align: center;
+}
+
+.box span {
+    font-size: 1.8vw;
+    color: #1A1A1A;
+}
+
+.box h3 {
+    color: #00B172;
+    text-transform: capitalize;
+    margin: 30px 0;
+    font-size: 2.3vw;
+}
+/**** End of Spotify Section ****/
+
+/**** Green Section ****/
+#green {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 700px;
+    padding-top: 50px;
+    background-color: #00B172;
+    color: #FFF;
+}
+
+.spotify-icon {
+    width: 10vw;
+    position: absolute;
+    top: 50;
+    left: 50;
+}
+
+#green > div:nth-child(1) {
+    width: 32vw;
+}
+
+#green > div > h1 {
+    font-size: 3vw;
+}
+
+#green > div > h2 {
+    margin: 40px 0;
+    font-size: 2.4vw;
+}
+
+#green > div > p {
+    font-size: 1.7vw;
+}
+
+#green > div > img {
+    width: 24vw;
+    padding-top: 10px;
+}
+
