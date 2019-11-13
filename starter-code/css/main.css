@@ -72,28 +72,26 @@ header {
 .whatis {
   padding: 40px 20px 60px 20px;
 }
-.line {
-  height: 4px;
-  background: #00B172;
-  position: relative;
-  width: 340px;
-  margin: 10px auto;
-}
-.col3 {
+.whatis-title, .whatis-boxes {
   display: flex;
-  padding: 20px 20px;
-  vertical-align: top;
   justify-content: space-around;
+
 }
-.col3 > * {
+.whatis div div{
   width: 300px;
+}
+.whatis > * {
+  text-align: center;
+}
+.whatis h3 {
+  display: inline;
+  border-bottom: 4px solid #00B172;
+  padding-bottom: 5px;
+  margin-bottom: 80px;
 }
 .whatis div img {
   height: 100px;
   padding: 20px;
-}
-.whatis > * {
-  text-align: center;
 }
 .whatis div p {
   padding: 0 20px;
