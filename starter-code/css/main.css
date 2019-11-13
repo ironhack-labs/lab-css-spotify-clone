@@ -16,12 +16,6 @@ White: #FFF
 .middle > * {
   vertical-align: middle;
 }
-.col3 > * {
-  box-sizing: border-box;
-  width: 33%;
-  padding: 20px 20px;
-  vertical-align: top;
-}
 h1 {
   font-size: 5.5em;
   font-weight: 500;
@@ -84,6 +78,15 @@ header {
   position: relative;
   width: 340px;
   margin: 10px auto;
+}
+.col3 {
+  display: flex;
+  padding: 20px 20px;
+  vertical-align: top;
+  justify-content: space-around;
+}
+.col3 > * {
+  width: 300px;
 }
 .whatis div img {
   height: 100px;
