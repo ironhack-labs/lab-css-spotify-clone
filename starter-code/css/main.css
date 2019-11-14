@@ -26,8 +26,12 @@ h2 {
 }
 
 h3 {
-  font-size: 2em;
+  font-size: 3em;
   font-weight: 600;
+}
+
+p {
+  font-weight: 300;
 }
 
 nav {
@@ -79,24 +83,34 @@ nav li{
 
 #whats-on {
   display: flex;
-  justify-content: space-evenly;
+  justify-content: center;
   align-content: baseline;
   flex-flow: wrap;
 }
 
 #whats-on h2{
   margin: 0 35% 40px;
-  padding: 40px 0 5px 0;
+  padding: 50px 0 5px 0;
   border-bottom: 3px solid #00B172;
 }
 
 #whats-on  h3{
   color: #00B172;
-  padding: 10px 0;
+  padding: 20px 0;
 }
 
 .box3x3 {
   display: flex;
-  align-items: center;
+  width: 30%;
   flex-direction: column;
+  align-items: center;
+  margin: 40px 0 100px;
+  align-self: baseline;
 }
+
+.box3x3 p {
+  font-size: 2.5em;
+  text-align: center;
+  padding: 0 15%;
+}
+
