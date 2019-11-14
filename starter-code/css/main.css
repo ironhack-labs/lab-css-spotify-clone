@@ -128,20 +128,33 @@ footer {
   position: relative;
   display: flex;
   justify-content: space-between;
-  align-items: center;
+  align-items: flex-end;
 }
 
 footer h2 {
+  padding-bottom: 5px;
+  margin-bottom: 5px;
   border-bottom: 3px solid #FFF;
 }
 
 footer #text {
-  width: 40%;
-  padding: 5%;
+  width: 50%;
+  height: 550px;
+  padding: 0 0 5% 10%;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+  align-items: flex-start;
+}
+
+#text p {
+  width: 330px;
+  font-size: 2em;
+  padding: 5px 0;
 }
 
 #spotify-app {
-  padding: 10% 10%;
+  padding: 10% 8% 5%;
 }
 
 #spotify-icon {
