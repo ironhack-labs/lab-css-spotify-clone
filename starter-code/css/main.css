@@ -12,6 +12,7 @@ White: #FFF
 body {
     background-color: white;
     font-family: 'Montserrat', sans-serif;
+    
 }
 
 
@@ -41,4 +42,168 @@ nav ul{
 nav ul li{
     margin: 0 0.8em;
     font-size: 1.8em;
+}
+
+/* SLIDER */
+
+#slider{
+    display: flex;
+    justify-content: center;
+    height: 100vh;
+    background-image: url(../images/landing.jpg);;
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: bottom;
+}
+
+.claim{
+    display: flex;
+    align-self: center;
+    flex-flow: column;
+    color: white;
+
+}
+
+.claim h1{
+    font-size: 5em;
+    font-weight: 800;
+    text-align: center;
+    margin-bottom: 0.5em;
+}
+
+.claim p{
+    font-size: 2em;
+    text-align: center;
+    line-height: 122%;
+}
+
+/* FEATURED */
+
+#featured{
+    margin-bottom: 6em;
+}
+
+.featured-title{
+    display: flex;
+}
+
+.featured-title{
+    display: flex;
+    justify-content: center;
+    flex-flow: column;
+    font-size: 2.5em;
+    margin: 1.5em 0 3em 0;
+    font-weight: 600;
+}
+
+#featured-title h2{
+    display: flex;
+    align-self: center;
+    margin-bottom: -8px;
+    
+}
+
+h2{
+    text-align: center;
+}
+
+hr{
+    width: 19%;
+    border: 3px solid #1ab26b;
+    border-radius: 5px;
+}
+
+.featured-items{
+    display: flex;
+    justify-content: space-evenly;
+    align-items: baseline;
+    margin-top: 1em;
+   
+}
+
+.feature{
+    display: flex;
+    flex-flow: column;
+    width: 23%;
+  
+}
+
+.feature img{
+    display: flex;
+    align-self: center;
+    width: 10em;
+}
+
+.feature p {
+    text-align: center;
+    font-size: 1.9em;
+    line-height: 131%; 
+}
+
+p.title-feature-explication {
+    font-weight: 800 !important;
+    color: #00B172;
+    margin: 1em 0 2em 0;
+}
+
+
+/* Resume */
+
+#resume{
+    padding: 3em;
+}
+
+.green-container{
+    background-color: #1ab26b;
+}
+
+.icon-white-spotify{
+    background-image: url(/starter-code/images/spotify-icon-white.png);
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: 10em;
+}
+
+.sections-green{
+    padding: 7em;
+    display: flex;
+    justify-content: space-between;
+    color: white;
+}
+
+.section-text{
+    width: 30%;
+}
+
+
+.top-resume{
+    font-size: 2.2em;
+    font-weight: bold;
+    text-align: left;
+}
+
+.white-line{
+    width:100%;
+    border: 2px solid white;
+    text-align: start;
+    margin-bottom: 4em;
+}
+
+.title-resume{
+    font-size: 2.2em;
+    font-weight: bold;
+    margin: 1em 0;
+}
+
+.resume-text{
+    font-size: 1.8em;
+    line-height: 130%;
+}
+
+.section-mobile{
+    width: 30%;
+}
+
+.section-mobile img{
+    height: 48em;
 }
