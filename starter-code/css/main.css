@@ -22,7 +22,12 @@ h1 {
 
 h2 {
   font-size: 3em;
-  font-weight: 500;
+  font-weight: 600;
+}
+
+h3 {
+  font-size: 2em;
+  font-weight: 600;
 }
 
 nav {
@@ -75,17 +80,23 @@ nav li{
 #whats-on {
   display: flex;
   justify-content: space-evenly;
+  align-content: baseline;
   flex-flow: wrap;
 }
 
 #whats-on h2{
-  align-self: flex-start;
-  justify-content: center;
-  margin: 0 40% 40px;
+  margin: 0 35% 40px;
   padding: 40px 0 5px 0;
   border-bottom: 3px solid #00B172;
 }
 
-.3box {
-  align-self: flex-end;
+#whats-on  h3{
+  color: #00B172;
+  padding: 10px 0;
+}
+
+.box3x3 {
+  display: flex;
+  align-items: center;
+  flex-direction: column;
 }
