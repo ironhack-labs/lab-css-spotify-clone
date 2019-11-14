@@ -6,3 +6,160 @@ Green: #00B172
 White: #FFF
 
 */
+
+body {
+  color: #1A1A1A;
+  font-family: 'Montserrat', sans-serif;
+}
+
+h1 {
+  font-size: 4.2em;
+  font-weight: 500;
+}
+
+h2 {
+  font-size: 2.4em;
+  font-weight: 500;
+}
+
+h3 {
+  font-size: 1.7em;
+  font-weight: 300;
+}
+
+p {
+  font-size: 1.5em;
+  font-weight: 300;
+}
+
+header {
+  padding: 30px;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  background-color: #FFF;
+  position: fixed;
+}
+
+img#logo{
+  width: 15%;
+  height: 15%;
+}
+
+nav#menu ul{
+  display: flex;
+  font-size: 1.3em;
+}
+
+nav#menu ul li{
+  margin-right: 30px;
+}
+
+nav#menu a {
+  color: #1A1A1A;
+  text-decoration: none;
+}
+
+section#jumbotron {
+  height: 800px;
+  background-image: url("../images/landing.jpg");
+  background-repeat: no-repeat;
+  background-position: center;
+  background-size: cover;
+  color: #FFF;
+  text-align: center;
+}
+
+section#jumbotron h1 {
+  padding-top: 300px;
+  padding-bottom: 25px;
+  
+}
+
+section#jumbotron h3 {
+  margin-top: 10px;
+}
+
+section#spotify {
+  text-align: center;
+}
+
+section#spotify h2{
+  padding-top: 40px;
+  padding-bottom: 10px;
+  margin-bottom: 100px;
+  border-bottom: 4px solid #00B172;
+  display: inline-block;
+}
+
+section#spotify img {
+  width: 30%;
+}
+
+section#spotify #spotify-info-container {
+  display: flex;
+  align-items: baseline;
+}
+
+section#spotify #spotify-info-container h3{
+  font-size: 2em;
+  font-weight: 500;
+  color: #00B172;
+  margin: 20px 0;
+}
+
+section#spotify #spotify-info-container p {
+  width: 70%;
+  line-height: 1.6;
+}
+
+section#spotify .spotify-info-item {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+section#app {
+  margin-top: 40px;
+  color: #FFF;
+  background-color: #00B172;
+  margin: 100px 40px 40px 40px;
+  padding: 80px;
+  display: flex;
+  background-image: url('../images/spotify-icon-white.png');
+  background-repeat: no-repeat;
+  background-position: center;
+  background-size: 10%;
+}
+
+
+
+section#app #app-info-container h2{
+  padding-bottom: 10px;
+  border-bottom: 4px solid #FFF;
+  display: inline-block;
+}
+
+section#app #app-info-container .app-info-item {
+  margin-top: 50px;
+}
+
+section#app #app-info-container .app-info-item p{
+  margin-top: 40px;
+  width: 50%;
+  line-height: 1.6;
+  font-size: 1.4em;
+}
+
+section#app #app-info-container .app-info-item h3{
+  font-weight: 700;
+}
+
+section#app #app-screen {
+  align-self: center;
+  text-align: right;
+}
+
+section#app #app-screen img {
+  width: 80%;
+}
