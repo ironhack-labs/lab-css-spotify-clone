@@ -16,26 +16,24 @@ body {
 }
 
 h1 {
-  font-size: 50px
-}
-
-header {
-  padding: 0;
-  margin: 0;
+  font-size: 50px;
+  font-weight: 600;
 }
 
 nav {
   width: 100vw;
   display: flex;
   justify-content: space-between;
+  align-items: center;
+  font-size: 2em
 }
 
 nav img {
-  padding: 25px
+  padding: 10px 25px; 
 }
 
 nav ul {
-  padding: 25px;
+  padding: 10px 25px;
 }
 
 nav li{
@@ -45,9 +43,18 @@ nav li{
 }
 
 #title {
-  
+  height: 900px;
   background-image: url('../images/landing.jpg');
+  background-size: cover;
+  background-position: bottom;
   color: #FFF;
-  
+  display: flex;
+  flex-flow: column;
+  justify-content: center;
+  align-items: center;
+}
+
+#title h1 {
+  justify-content: center;
 }
 
