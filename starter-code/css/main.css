@@ -6,7 +6,7 @@ Green: #00B172
 White: #FFF
 
 */
-@import url('https://fonts.googleapis.com/css?family=Montserrat:300,600&display=swap');
+@import url('https://fonts.googleapis.com/css?family=Montserrat:300,500,600&display=swap');
 
 body {
   margin: 0;
@@ -18,6 +18,11 @@ body {
 h1 {
   font-size: 8em;
   font-weight: 600;
+}
+
+h2 {
+  font-size: 3em;
+  font-weight: 500;
 }
 
 nav {
@@ -65,4 +70,22 @@ nav li{
 #title h1 {
   padding: 40px;
   text-align: center;
+}
+
+#whats-on {
+  display: flex;
+  justify-content: space-evenly;
+  flex-flow: wrap;
+}
+
+#whats-on h2{
+  align-self: flex-start;
+  justify-content: center;
+  margin: 0 40% 40px;
+  padding: 40px 0 5px 0;
+  border-bottom: 3px solid #00B172;
+}
+
+.3box {
+  align-self: flex-end;
 }
