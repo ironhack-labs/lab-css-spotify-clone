@@ -7,11 +7,30 @@ White: #FFF
 
 */
 
-/* header */
+/* commun */
 
 body{
   font-family: Helvetica, Arial, sans-serif;
 }
+.title{
+  color: #1e1e1e;
+  font-size: 35px;
+  line-height: 1;
+  font-weight: 600;
+}
+.title:after{
+  background: #00B172;
+  content: '';
+  display: block;
+  height: 4px;
+  margin-top: 5px;
+  width: 100%;
+}
+
+/* end commmun */
+
+/* header */
+
 header{
   display:block;
   width: 100%;
@@ -74,3 +93,49 @@ header{
   font-size: 26px;
   padding-bottom: 12px;
 }
+
+/* end header */
+
+/* section definition */
+section.definition{
+  display: block;
+  margin: 50px auto;
+  text-align: center;
+}
+section.definition .title{
+  display: inline-block;
+}
+section.definition .definition-col{
+  align-items: baseline;
+  display: flex;
+  justify-content: space-evenly;
+  margin: 80px auto;
+  max-width: 1200px;
+}
+section.definition .denition-box{
+  align-items: center;
+  display: flex;
+  flex-direction: column;
+  max-width: 290px;
+}
+section.definition .denition-box .title-box{
+  color: #00B172;
+  font-size: 30px;
+  font-weight: 700;
+  margin:20px 0 30px;
+}
+section.definition .denition-box .text-box{
+  font-size: 25px;
+  font-weight: 100;
+  line-height: 1.2;
+}
+section.definition .denition-box .img-box{
+  max-width: 130px;
+  order:-1;
+}
+section.definition .denition-box .img-box img{
+  display: block;
+  max-width: 100%;
+  width: 100%;
+}
+/* end section definition */
