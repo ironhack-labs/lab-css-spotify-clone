@@ -6,3 +6,125 @@ Green: #00B172
 White: #FFF
 
 */
+@import url('https://fonts.googleapis.com/css?family=Montserrat:300,600&display=swap');
+html {
+  font-size: 62.5%;
+}
+body {
+  font: 300 1.6rem/1.5 'Montserrat', Helvetica, Arial, sans-serif;
+  color: #1A1A1A;
+  margin: 0;
+}
+.title{
+  color: #ffffff;
+  font-size:5em;
+  font-weight: bold;
+  margin: 0px;
+  text-align: center;
+}
+.sub-title{
+  color: #ffffff;
+  font-size: 1.9em;
+  text-align: center;
+  margin: 15px 0;
+}
+.wrapper{
+  display: flex;
+  background-color: cadetblue;
+}
+.nav{
+  background: #ffffff;
+  height: 70px;
+  padding: 1em;
+  flex-flow: row nowrap;
+  justify-content: space-between;
+  align-items: center;
+  position: fixed;
+  width: 100%;
+}
+.logo{
+  background: chocolate;
+}
+.logo > a{
+  background: yellow;
+  display: block;
+  display: flex;
+}
+.logo img{
+  width: 230px;
+  margin: 0px;
+}
+.menu{
+  background: cornflowerblue;
+}
+.menu ul{
+  background: brown;
+}
+.menu ul li{
+  list-style-type: none;
+}
+.menu ul li a{
+  background-color:white;
+  font-size: 1.3em;
+  padding: 1em;
+  text-decoration: none;
+  color: #1A1A1A;
+}
+.slider{
+  padding-top: 100px;
+  height: 815px;
+  background: url(../images/landing.jpg) center center/cover no-repeat;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+}
+.module{
+  background: cornflowerblue;
+  
+}
+.col{
+  flex-flow: column nowrap;
+  justify-content: center;
+  align-items: center;
+
+}
+.row{
+  flex-flow: row nowrap;
+  justify-content: center;
+  align-items: center;
+}
+
+
+.module-items{
+  flex-flow: row nowrap;
+  justify-content: space-between;
+  align-items: flex-start;
+  background: crimson;
+}
+.module-items > div{
+  flex-grow: 1;
+  width: 400px;
+  border: solid 1px white;
+}
+.module-title-ligth{
+  font-size: 2.3em;
+  font-weight: bold;
+  color: #ffffff;
+  border-bottom: solid 4px #00B172;
+  
+}
+.module-title-dark{
+  font-size: 2.3em;
+  font-weight: bold;
+  color: #ffffff;
+  border-bottom: solid 4px #ffffff;
+}
+.light{
+  background: #fffff;
+}
+.dark{
+  background: #00B172;
+}
+.icon{
+  height: 100px;
+}
