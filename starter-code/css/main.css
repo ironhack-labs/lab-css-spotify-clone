@@ -1,16 +1,53 @@
-@import url('https://fonts.googleapis.com/css?family=Montserrat:400,600,700&display=swap');
+@import url("https://fonts.googleapis.com/css?family=Montserrat:400,600,700&display=swap");
 
 body {
   margin: 0;
 }
 
-p, h1, h2, ul, span {
-  font-family: 'Montserrat', sans-serif;
-  color: #1A1A1A;
+p,
+h1,
+h2,
+h3,
+ul,
+span {
+  font-family: "Montserrat", sans-serif;
+  color: #1a1a1a;
 }
+
+.text-green {
+  color: #00b172;
+}
+
+.text-white {
+  color: #fff;
+}
+
+.title-box {
+  text-align: center;
+  margin-bottom: 3.5em;
+}
+
+.title {
+  display: inline-block;
+  font-size: 2.5rem;
+  font-weight: 600;
+  padding: 0.1em 0;
+  border-bottom: 4px solid;
+}
+
+.green-line {
+  border-bottom-color: #00b172;
+}
+
+.white-line {
+  border-bottom-color: #fff;
+}
+
+/*** Header ***/
 
 #header {
   position: fixed;
+  z-index: 1;
   box-sizing: border-box;
   width: 100%;
   height: 100px;
@@ -37,19 +74,21 @@ p, h1, h2, ul, span {
   margin-left: 2em;
 }
 
-#menu ul li a{
-  color: #1A1A1A;
+#menu ul li a {
+  color: #1a1a1a;
   text-decoration: none;
 }
 
-#menu ul li a:hover{
-  color: #00B172;
+#menu ul li a:hover {
+  color: #00b172;
   transition: 1s color;
 }
 
+/*** Slide ***/
+
 #slide {
   height: 100vh;
-  background: url('../images/landing.jpg') center;
+  background: url("../images/landing.jpg") center;
   background-size: cover;
   display: flex;
   flex-flow: column;
@@ -57,7 +96,8 @@ p, h1, h2, ul, span {
   align-items: center;
 }
 
-#slide h1, #slide span {
+#slide h1,
+#slide span {
   color: #fff;
 }
 
@@ -70,4 +110,85 @@ p, h1, h2, ul, span {
 #slide span {
   font-size: 1.7rem;
   line-height: 2.4rem;
+}
+
+/*** What's on Spotify ***/
+
+.box-3-elements {
+  display: flex;
+  justify-content: space-evenly;
+}
+
+.box {
+  max-width: 300px;
+  text-align: center;
+}
+
+.box img {
+  height: 120px;
+}
+
+.box h3 {
+  font-size: 1.8rem;
+}
+
+.box p {
+  font-size: 1.5rem;
+}
+
+/*** Green section ***/
+
+.green-section {
+  position: relative;
+  margin: 100px 50px 50px 50px;
+  padding: 4.5em 6em;
+  background: #00b172;
+}
+
+#spotify-logo-white {
+  position: absolute;
+  width: 130px;
+  top: 50%;
+  left: 50%;
+  margin: -65px 0 0 -65px;
+}
+
+.box-2-elements {
+  display: flex;
+  justify-content: space-between;
+}
+
+.box-2-elements:first-child {
+  flex-grow: 3;
+}
+
+.box-2-elements:last-child {
+  align-items: flex-end;
+}
+
+.green-section span,
+.green-section h3 {
+  color: #fff;
+}
+
+.green-section .title-box {
+  text-align: left;
+}
+
+.green-section .title-box h2{
+  margin: 0;
+}
+
+.green-section h3 {
+  font-size: 1.8rem;
+}
+
+.green-section span {
+  font-size: 1.4rem;
+  display: block;
+  line-height: 1.6em;
+}
+
+#spotify-app {
+  max-width: 350px;
 }
