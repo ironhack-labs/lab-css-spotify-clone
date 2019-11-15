@@ -1,8 +1,63 @@
 /*
-Colors:
+// Base Styles
+// -------------------------------------------------- */
 
-Text: 1A1A1A
-Green: #00B172
-White: #FFF
+html {
+    -webkit-font-smootshing: antialiased;
+    -moz-osx-font-smoothing: grayscale;
+}
 
-*/
+body {
+    font-family: 'Proxima Nova', sans-serif;
+}
+
+
+/*
+// General Classes
+// -------------------------------------------------- */
+
+.content-wrapper {
+    max-width: 1200px;
+    margin: 0 auto;
+}
+
+.d-flex {
+    display: flex;
+}
+
+
+/*
+// Main Header
+// -------------------------------------------------- */
+
+.main-header {
+    background: #fff;
+    padding: 8px 30px;
+}
+
+.main-header__logo {
+    flex: 1 0 50%;
+    align-items: center;
+}
+
+.main-header__nav {
+    flex: 1 0 50%;
+    align-items: center;
+    justify-content: flex-end;
+}
+
+.main-header__nav a {
+    font-weight: 300;
+    font-size: 18px;
+    color: #000;
+    text-decoration: none;
+    transition: color .3s;
+}
+
+.main-header__nav a:hover {
+    color: #1EA759;
+}
+
+.main-header__nav a:not(:last-child) {
+    margin-right: 25px;
+}
