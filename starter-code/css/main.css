@@ -104,26 +104,33 @@ header {
 }
 .expo {
   display: flex;
+  flex-flow: row;
+  justify-content: space-between;
+  align-items: center;
   margin: 40px;
   background: #00b172;
   height: 800px;
   padding: 80px 100px;
   color: white;
 }
+.text {
+  display: flex;
+  flex-flow: row;
+  justify-content: space-between;
+  align-items: center;
+  height: 700px;
+}
+.text > div {
+  width: 340px;
+}
 .app-image {
   width: 345px;
-  float: right;
   margin-top: 40px;
 }
 .white-logo {
-  width: 132px;
   float: right;
-}
-.expo > div {
-  width: 500px;
-}
-.expo div div {
-  width: 340px;
+  width: 132px;
+  margin: 350px 50px;
 }
 .expo h3 {
   margin-bottom: 70px;
