@@ -6,3 +6,70 @@ Green: #00B172
 White: #FFF
 
 */
+body {
+    margin: 0;
+}
+/*BARRA DEL MENU*/
+.header {
+    display: flex;
+    justify-content: space-between;
+    padding: 20px;
+}
+.menu {
+    display: flex;
+    justify-content: flex-end;
+    
+}
+.menu ul{
+    display: flex;
+    align-content: center;
+    align-items: center;
+    list-style-type:none;
+}
+.menu ul li{
+    padding: 0px 10px;
+}
+/*SECCIÓN 1*/
+.first-section {
+    background-image: url(../images/landing.jpg);
+    background-size: contain;
+    background-repeat: repeat;
+    height: 600px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-flow: column wrap;
+}
+h1 {
+    color:#fff;
+    font-size: 50px;
+    margin-bottom: 0px;
+    text-align: center;
+}
+.first-section p{
+    color:#fff;
+    font-size: 20px;
+    text-align: center;
+}
+/*Sección 2*/
+.second-section {
+    height: 600px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-flow: column wrap;
+}
+.icons-section{
+    height: 500px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-flow: row wrap;
+}
+.icons{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-flow: column wrap;
+    padding: 20px;
+}
