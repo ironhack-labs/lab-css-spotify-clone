@@ -81,26 +81,24 @@ h3{
   background-color: #00B172;
   color:#00B172
 }
-.box-img{
-  display:flex;
-  flex-flow: row nowrap;
-  justify-content: space-around;
-  align-items: center;
-  margin-top: 50px;
-}
-.box-h3{
+.box-container{
+  margin: 0 auto;
   display: flex;
-  flex-flow: row nowrap;
-  justify-content: space-around;
-  align-items: center;
-  height: 70px;
+  width: 1400px;
+  height: 500px;
+  justify-content: center;
+  align-items: baseline;
 }
-.box-p{
-  display:flex;
-  flex-flow: row nowrap;
-  justify-content: space-around;
+.service-box{
+  display: flex;
+  flex-flow: column nowrap;
+  justify-content: space-evenly;
   align-items: center;
-  height: 150px;
+  width: 33%;
+  height: 300px;
+}
+.service-box p{
+  line-height: 30px;
   font-size: 1.2em;
   letter-spacing: 0.5px;
   font-weight: lighter;
