@@ -4,60 +4,94 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <link rel="stylesheet" href="css/reset.css">
     <link rel="stylesheet" href="css/main.css">
     <title>Spotify</title>
   </head>
   <body>
+
     <header>
-      <img src="images/spotify-logo.png">
-      <ul>
-        <li>Premium</li>
-        <li>Discover</li>
-        <li>Help</li>
-        <li>Download</li>
-      </ul>
+
+      <nav>
+        <img src="images/spotify-logo.png" width="200px">
+        <ul>
+          <li>Premium</li>
+          <li>Discover</li>
+          <li>Help</li>
+          <li>Download</li>
+        </ul>
+      </nav>
+
     </header>
        
     <main>
-      <section>
-        <h1>Music for everyone.</h1>
-        <p>Spotify is now free on mobile, tablet and computer.</p>
-        <p>Listen to the right music, wherever you are.</p>
-      </section>
 
-      <section>
+      <section id="title">
+        <div class="text">
+          <h1>Music for everyone.</h1>
+          <p>Spotify is now free on mobile, tablet and computer.</p>
+          <p>Listen to the right music, wherever you are.</p>
+        </div>
+      </section>
+          
+
+      <section id="whats-on">
         <h2>What’s on Spotify?</h2>
 
-        <div>
+        <div id="songs" class="box3x3">
+          <img src="images/music-icon.png" width="150px">
           <h3>Millions of Songs</h3>
           <p>There are millions of songs on Spotify</p>
         </div>
 
-        <div>
+        <div id="hd" class="box3x3">
+          <img src="images/high-quality-icon.png" width="150px">
           <h3>HD Music</h3>
           <p>Listen to music as if you were listening live</p>
         </div>
 
-        <div>
+        <div id="stream" class="box3x3">
+          <img src="images/devices-icon.png" width="150px">
           <h3>Stream Everywhere</h3>
           <p>Stream music on your smartphone, tablet or computer</p>
         </div>
 
       </section>
-
-      <section>
-        <div>
-          <h2>It’s as yeezy as Kanye West.</h2>
-          <h3>Search</h3>
-          <p>Know what you want to listen to? Just search and hit play.</p>
-          <h3>Browse</h3>
-          <p>Check out the latest charts, brand new releases and great playlists for right now.</p>
-          <h3>Discover</h3>
-          <p>Enjoy new music every Monday with your own personal playlist. Or sit back and enjoy Radio.</p>
-        </div>
-      </section>
       
     </main>
+
+    <footer>
+
+      <section id="green">
+        <div id="text">
+
+          <h2>It’s as yeezy as Kanye West.</h2>
+
+
+          <h3>Search</h3>
+          <p>Know what you want to listen to? Just search and hit play.</p>
+
+
+
+          <h3>Browse</h3>
+          <p>Check out the latest charts, brand new releases and great playlists for right now.</p>
+
+
+
+          <h3>Discover</h3>
+          <p>Enjoy new music every Monday with your own personal playlist. Or sit back and enjoy Radio.</p>
+
+          
+        </div>
+        
+        <figure id="spotify-app">
+          <img src="images/spotify-app.jpg" width="350px">
+        </figure>
+        <figure id="spotify-icon">
+          <img src="images/spotify-icon-white.png" width="150px">
+        </figure>
+      </section>
+    </footer>
 
   </body>
 </html>

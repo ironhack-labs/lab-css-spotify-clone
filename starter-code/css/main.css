@@ -6,3 +6,160 @@ Green: #00B172
 White: #FFF
 
 */
+@import url('https://fonts.googleapis.com/css?family=Montserrat:300,500,600&display=swap');
+
+body {
+  margin: 0;
+  padding: 0;
+  font-family: "Montserrat";
+  font-size: 10px;
+}
+
+h1 {
+  font-size: 8em;
+  font-weight: 600;
+}
+
+h2 {
+  font-size: 3.5em;
+  font-weight: 600;
+}
+
+h3 {
+  font-size: 3em;
+  font-weight: 600;
+}
+
+p {
+  font-weight: 300;
+}
+
+nav {
+  width: 100vw;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  font-size: 2em
+}
+
+nav img {
+  padding: 15px 25px; 
+}
+
+nav ul {
+  padding: 15px 25px;
+}
+
+nav li{
+  list-style-type: none;
+  padding: .5em;
+  float: left;
+}
+
+#title {
+  height: 900px;
+  background-image: url('../images/landing.jpg');
+  background-size: cover;
+  background-position: bottom;
+  color: #FFF;
+  display: flex;
+  justify-content: center;
+}
+
+#title .text {
+  padding-top: 250px;
+}
+
+#title p {
+  font-size: 3em;
+  padding: 5px;
+  text-align: center;
+}
+
+#title h1 {
+  padding: 40px;
+  text-align: center;
+}
+
+#whats-on {
+  display: flex;
+  justify-content: center;
+  align-content: baseline;
+  flex-flow: wrap;
+}
+
+#whats-on h2{
+  margin: 0 35% 40px;
+  padding: 50px 0 5px 0;
+  border-bottom: 3px solid #00B172;
+}
+
+#whats-on  h3{
+  color: #00B172;
+  padding: 20px 0;
+}
+
+.box3x3 {
+  display: flex;
+  width: 30%;
+  flex-direction: column;
+  align-items: center;
+  margin: 40px 0 100px;
+  align-self: baseline;
+}
+
+.box3x3 p {
+  font-size: 2.5em;
+  text-align: center;
+  padding: 0 15%;
+}
+
+footer {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+#green {
+  background-color: #00B172;
+  color: #FFF;
+  width: 95%;
+  margin-bottom: 2.5%;
+  position: relative;
+  display: flex;
+  justify-content: space-between;
+  align-items: flex-end;
+}
+
+footer h2 {
+  padding-bottom: 5px;
+  margin-bottom: 5px;
+  border-bottom: 3px solid #FFF;
+}
+
+footer #text {
+  width: 50%;
+  height: 650px;
+  padding: 7% 0 7% 7%;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+  align-items: flex-start;
+}
+
+#text p {
+  width: 415px;
+  font-size: 2.5em;
+  padding: 5px 0;
+}
+
+#spotify-app {
+  padding: 7%;
+}
+
+#spotify-icon {
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%,-50%); 
+}
