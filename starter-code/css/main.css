@@ -14,6 +14,16 @@ h1{
   font-size: 3.5em;
   font-weight: bolder;
 }
+h2{
+  font-size: 1.8em;
+  font-weight: bolder;
+}
+h3{
+  font-size:1.4em;
+  font-weight: bolder;
+  color: #00B172;
+}
+
 .bar{
   margin: 0 40px;
   padding: 14px 0;
@@ -33,7 +43,7 @@ h1{
   width: 600px;
 }
 .header{
-  background-image: url("/home/dgb_01/Documentos/Ironhack/exercises/htmlcss/lab-css-spotify-clone/starter-code/images/landing.jpg");
+  background-image: url(../images/landing.jpg);
   background-size: cover;
   background-position: center;
   height: 650px;
@@ -47,7 +57,6 @@ h1{
   display: flex;
   align-items: center;
   justify-content: center;
-  background-color:red;
   width: 950px;
   padding-bottom: 40px;
 }
@@ -55,8 +64,44 @@ h1{
   display: flex;
   align-items: center;
   justify-content: center;
-  background-color:red;
   width: 950px;
+  padding-top: 5px;
+  font-size: 1.2em;
+}
+.container{
+  width: 1400px;
+  height: 500px;
+  padding: 50px;
+  text-align: center;
+}
+.box-up hr{
+  width: 300px;
+  height: 3px;
+  border: 0px;
+  background-color: #00B172;
+  color:#00B172
+}
+.box-container{
+  margin: 0 auto;
+  display: flex;
+  width: 1400px;
+  height: 500px;
+  justify-content: center;
+  align-items: baseline;
+}
+.service-box{
+  display: flex;
+  flex-flow: column nowrap;
+  justify-content: space-evenly;
+  align-items: center;
+  width: 33%;
+  height: 300px;
+}
+.service-box p{
+  line-height: 30px;
+  font-size: 1.2em;
+  letter-spacing: 0.5px;
+  font-weight: lighter;
 }
 
 
