@@ -2,6 +2,10 @@
 // Base Styles
 // -------------------------------------------------- */
 
+* {
+    box-sizing: border-box;
+}
+
 html {
     -webkit-font-smootshing: antialiased;
     -moz-osx-font-smoothing: grayscale;
@@ -18,6 +22,8 @@ body {
 
 .content-wrapper {
     max-width: 1200px;
+    padding-left: 15px;
+    padding-right: 15px;
     margin: 0 auto;
 }
 
@@ -68,10 +74,11 @@ body {
 // -------------------------------------------------- */
 
 .main-hero {
-    background: url(../images/landing.jpg) no-repeat center;
+    background: url(../images/landing.jpg) no-repeat center bottom;
     background-size: cover;
     color: #fff;
-    height: 610px;
+    height: 700px;
+    margin-bottom: 30px;
     flex-direction: column;
     align-items: center;
     justify-content: center;
@@ -79,12 +86,57 @@ body {
 }
 
 .main-hero__title {
-    font-size: 64px;
+    font-size: 80px;
     font-weight: 600;
     margin-bottom: 0;
 }
 
 .main-hero__leading {
-    font-size: 24px;
+    font-size: 30px;
     font-weight: 300;
+}
+
+
+/*
+// Spotify features
+// -------------------------------------------------- */
+
+.spotify-features {
+    flex-wrap: wrap;
+    text-align: center;
+    margin-bottom: 80px;
+}
+
+.spotify-features__title {
+    flex: 1 0 100%;
+    font-size: 30px;
+    font-weight: 600;
+    padding-bottom: 10px;
+    margin-bottom: 70px;
+}
+
+.spotify-features__feature {
+    flex: 1 0 33.33%;
+}
+
+.spotify-features__title {
+    font-size: 34px;
+    color: #000;
+}
+
+.spotify-features__feature img {
+    margin-bottom: 10px;
+}
+
+.spotify-features__feature h3 {
+    margin: 0;
+    font-weight: 700;
+    font-size: 24px;
+    color: #0ABC7E;
+}
+
+.spotify-features__feature p {
+    font-size: 20px;
+    font-weight: 100;
+    color: #2E2F33;
 }
