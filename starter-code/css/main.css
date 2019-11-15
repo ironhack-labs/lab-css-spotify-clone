@@ -1,8 +1,200 @@
 /*
-Colors:
+// Base Styles
+// -------------------------------------------------- */
 
-Text: 1A1A1A
-Green: #00B172
-White: #FFF
+* {
+    box-sizing: border-box;
+}
 
-*/
+html {
+    -webkit-font-smootshing: antialiased;
+    -moz-osx-font-smoothing: grayscale;
+}
+
+body {
+    font-family: 'Proxima Nova', sans-serif;
+}
+
+
+/*
+// General Classes
+// -------------------------------------------------- */
+
+.content-wrapper {
+    max-width: 990px;
+    padding-left: 15px;
+    padding-right: 15px;
+    margin: 0 auto;
+}
+
+.d-flex {
+    display: flex;
+}
+
+.flex-wrap {
+    flex-wrap: wrap;
+}
+
+.underlined-title {
+    display: inline-block;
+    padding-bottom: 8px;
+    border-bottom: 3px solid #1AB26B;
+}
+
+.underlined-title--white {
+    border-bottom-color: #fff;
+}
+
+/*
+// Main Header
+// -------------------------------------------------- */
+
+.main-header {
+    background: #fff;
+    padding: 15px 30px;
+}
+
+.main-header__logo {
+    flex: 1 0 50%;
+    align-items: center;
+}
+
+.main-header__nav {
+    flex: 1 0 50%;
+    align-items: center;
+    justify-content: flex-end;
+}
+
+.main-header__nav a {
+    font-weight: 300;
+    font-size: 18px;
+    color: #000;
+    text-decoration: none;
+    transition: color .3s;
+}
+
+.main-header__nav a:hover {
+    color: #1EA759;
+}
+
+.main-header__nav a:not(:last-child) {
+    margin-right: 25px;
+}
+
+
+/*
+// Main Hero
+// -------------------------------------------------- */
+
+.main-hero {
+    background: url(../images/landing.jpg) no-repeat center bottom;
+    background-size: cover;
+    color: #fff;
+    height: 700px;
+    margin-bottom: 30px;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    text-align: center;
+}
+
+.main-hero__title {
+    font-size: 80px;
+    font-weight: 600;
+    margin-bottom: 0;
+}
+
+.main-hero__leading {
+    font-size: 30px;
+    font-weight: 300;
+}
+
+
+/*
+// Spotify about
+// -------------------------------------------------- */
+
+.spotify-about {
+    text-align: center;
+    margin-bottom: 80px;
+}
+
+.spotify-about__title {
+    flex: 1 0 100%;
+    font-size: 40px;
+    font-weight: 600;
+    color: #000;
+    padding-bottom: 10px;
+    margin-bottom: 70px;
+}
+
+.spotify-about__feature {
+    flex: 1 0 33.33%;
+}
+
+.spotify-about__feature img {
+    margin-bottom: 10px;
+}
+
+.spotify-about__feature h3 {
+    margin: 0;
+    font-weight: 700;
+    font-size: 30px;
+    color: #0ABC7E;
+}
+
+.spotify-about__feature p {
+    font-size: 22px;
+    font-weight: 100;
+    color: #2E2F33;
+}
+
+
+/*
+// Spotify features
+// -------------------------------------------------- */
+
+.spotify-features {
+    background-color: #1EA758;
+    color: #fff;
+    line-height: 1.4;
+    padding: 65px;
+    margin: 0 30px 30px;
+}
+
+.spotify-features__title {
+    flex: 1 0 100%;
+    font-size: 40px;
+    font-weight: 500;
+    margin-top: 0;
+    margin-bottom: 20px;
+}
+
+.spotify-features__wrapper {
+    flex: 1 0 55%;
+    background: url(../images/spotify-icon-white.png) no-repeat center right;
+    background-size: 110px;
+}
+
+.spotify-feature:not(:last-child) {
+    margin-bottom: 35px;
+}
+
+.spotify-feature:last-child p {
+    margin-bottom: 0;
+}
+
+.spotify-feature h3 {
+    font-size: 30px;
+    margin-bottom: 25px;
+}
+
+.spotify-feature p {
+    font-size: 22px;
+    font-weight: 300;
+}
+
+.spotify-app-img {
+    flex: 1 0 45%;
+    justify-content: flex-end;
+}

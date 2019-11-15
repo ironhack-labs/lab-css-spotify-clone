@@ -1,44 +1,84 @@
 <!DOCTYPE html>
 <html lang="en">
-  <head>
+
+<head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <meta http-equiv="X-UA-Compatible" content="ie=edge">
+
+    <link rel="stylesheet" href="css/normalize.css">
+    <link rel="stylesheet" href="css/main.css">
+
     <title>Spotify</title>
-  </head>
-  <body>
-    Premium Discover Help Download
+</head>
 
-    Music for everyone.
-    Spotify is now free on mobile, tablet and computer.
-    Listen to the right music, wherever you are.
+<body>
+    <div class="main-wrapper">
+        <header class="main-header">
+            <div class="content-wrapper d-flex">
+                <div class="main-header__logo d-flex">
+                    <img src="images/spotify-logo.png" width="165" alt="Spotify logo">
+                </div>
+                <nav class="main-header__nav d-flex">
+                    <a href="#">Premium</a>
+                    <a href="#">Discovery</a>
+                    <a href="#">Help</a>
+                    <a href="#">Download</a>
+                </nav>
+            </div>
+        </header>
 
-    What’s on Spotify?
+        <main>
+            <div class="main-hero d-flex">
+                <h1 class="main-hero__title">Music for everyone.</h1>
+                <p class="main-hero__leading">Spotify is now free on mobile, tablet and computer.<br>Listen to the right music, wherever you are.</p>
+            </div>
+            <section class="spotify-about content-wrapper d-flex flex-wrap">
+                <h2 class="spotify-about__title">
+                    <span class="underlined-title">What's on Spotify?</span>
+                </h2>
+                <div class="spotify-about__feature">
+                    <img src="images/music-icon.png" width="100" alt="Speaker's icon">
+                    <h3>Millions of Songs</h3>
+                    <p>There are millions of <br>songs on Spotify</p>
+                </div>
+                <div class="spotify-about__feature">
+                    <img src="images/high-quality-icon.png" width="100" alt="High quality representation's icon">
+                    <h3>HD Music</h3>
+                    <p>Listen to music as if you <br>were listening live</p>
+                </div>
+                <div class="spotify-about__feature">
+                    <img src="images/devices-icon.png" width="100" alt="A pair of smartphone's icon">
+                    <h3>Stream Everywhere</h3>
+                    <p>Stream music on your <br>smartphone, tablet or <br>computer</p>
+                </div>
+            </section>
+            <section class="spotify-features">
+                <div class="content-wrapper d-flex flex-wrap">
+                    <h2 class="spotify-features__title">
+                        <span class="underlined-title underlined-title--white">It’s as yeezy as Kanye West.</span>
+                    </h2>
+                    <div class="spotify-features__wrapper">
+                        <div class="spotify-feature">
+                            <h3>Search</h3>
+                            <p>Know what you want to listen to? <br>Just search and hit play.</p>
+                        </div>
+                        <div class="spotify-feature">
+                            <h3>Browse</h3>
+                            <p>Check out the latest charts, <br>brand new releases and great <br>playlists for right now.</p>
+                        </div>
+                        <div class="spotify-feature">
+                            <h3>Discover</h3>
+                            <p>Enjoy new music every Monday <br>with your own personal playlist. <br>Or sit back and enjoy Radio.</p>
+                        </div>
+                    </div>
+                    <div class="spotify-app-img d-flex">
+                        <img src="images/spotify-app.jpg" width="320" alt="Spotify app image">
+                    </div>
+                </div>
+            </section>
+        </main>
+    </div>
+</body>
 
-    Millions of Songs
-    There are millions of
-    songs on Spotify
-
-    HD Music
-    Listen to music as if you
-    were listening live
-
-    Stream Everywhere
-    Stream music on your
-    smartphone, tablet or
-    computer
-
-    It’s as yeezy as Kanye West.
-    Search
-    Know what you want to listen to?
-    Just search and hit play.
-    Browse
-    Check out the latest charts,
-    brand new releases and great
-    playlists for right now.
-    Discover
-    Enjoy new music every Monday
-    with your own personal playlist.
-    Or sit back and enjoy Radio.
-  </body>
 </html>
