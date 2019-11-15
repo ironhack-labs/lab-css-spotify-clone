@@ -17,6 +17,7 @@ body {
     display: flex;
     justify-content: space-between;
     padding: 20px;
+    height: 50px;
 }
 .menu {
     display: flex;
@@ -31,27 +32,33 @@ body {
 }
 .menu ul li{
     padding: 0px 10px;
+    font-size: 20px;
+    font-weight: 400;
 }
 /*SECCIÓN 1*/
 .first-section {
     background-image: url(../images/landing.jpg);
-    background-size: contain;
-    background-repeat: repeat;
-    height: 600px;
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: bottom;
+    height: 565px;
     display: flex;
-    justify-content: center;
+    justify-content: flex-start;
     align-items: center;
     flex-flow: column wrap;
+    padding-top: 100px;
 }
 h1 {
-    color:#fff;
-    font-size: 50px;
+    color: #fff;
+    font-size: 60px;
     margin-bottom: 0px;
     text-align: center;
+    letter-spacing: 1px;
+    font-weight: 600;
 }
 .first-section p{
-    color:#fff;
-    font-size: 20px;
+    color: #fff;
+    font-size: 26px;
     text-align: center;
 }
 /*Sección 2*/
@@ -76,8 +83,23 @@ h1 {
     flex-flow: column wrap;
     padding: 20px;
     width: 300px;
-    height: 260px;
+    height: 300px;
 }
+h2 {
+    font-size: 30px;
+    letter-spacing: 1px;
+    font-weight: 600;
+    line-height: 1.5em;
+}
+.second-section h2{
+    border-bottom: 4px solid #00B172;
+}
+
+h3 {
+    font-size: 24px;
+    margin-bottom: 0px;
+}
+
 /*SECCIÓN 3*/
 .third-section {
     display: flex;
@@ -87,9 +109,13 @@ h1 {
     padding: 30px;
 }
 .green-section{
-    height: 700px;
+    height: 100%;
     width: 100%;
     background-color: #00B172;
+    background-image: url(../images/spotify-icon-white.png);
+    background-repeat: no-repeat;
+    background-size: 10%;
+    background-position: center;
     display: flex;
     justify-content: space-around;
     align-items: flex-start;
@@ -100,8 +126,28 @@ h1 {
     justify-content: flex-start;
     align-items: flex-start;
     flex-flow: column wrap;
-    padding-top: 40px;
+    padding: 40px;
 }
-.capture {
-    padding-top: 100px;
+
+.third-section h2{
+    color:#fff;
+    border-bottom: 4px solid #fff;
+}
+.icons h3{
+    color: #00B172;
+}
+.icons p{
+    font-size: 20px;
+    text-align: center;
+}
+.column h3{
+    color:#fff;
+}
+.column p{
+    font-size: 20px;
+    text-align: left;
+    color: #fff;
+}
+.column-article{
+    width: 350px;
 }
