@@ -38,3 +38,39 @@ body{
      list-style: none;
      width: 90px;
  }
+
+ /*  MAIN */
+
+ main {
+     background-image: url("../images/landing.jpg");
+     background-size: cover;
+     background-repeat: no-repeat;
+     background-attachment: inherit;
+     height: 100vh;
+     position: relative;
+     background-position: 0px -100px;
+ }
+
+ .text{
+     display: flex;
+     flex-direction: column;
+     align-items: center;
+     justify-content: center;
+     position: relative;
+     text-align: center;
+     top: 50%;
+     width: 700px;
+     color: white;
+     right: -25%;
+     transform: translateY(-60%);
+ }
+
+ main h1{
+     font-size: 80px;
+     margin: 0;
+     padding: 0;
+ }
+
+ main p{
+     font-size: 30px;
+ }
