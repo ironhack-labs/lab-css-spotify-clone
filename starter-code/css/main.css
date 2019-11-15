@@ -6,7 +6,7 @@ Green: #00B172
 White: #FFF
 
 */
-@import url('https://fonts.googleapis.com/css?family=Roboto:100,300,400,500&display=swap');
+@import url("https://fonts.googleapis.com/css?family=Roboto:100,300,400,500&display=swap");
 * {
   font-family: "Roboto";
 }
@@ -28,6 +28,10 @@ h2 {
 h3 {
   font-size: 2.5em;
   font-weight: 500;
+  border-bottom: 4px solid;
+  padding-bottom: 5px;
+  display: inline;
+  line-height: 2em;
 }
 h4 {
   font-size: 2em;
@@ -72,21 +76,19 @@ header {
 .whatis {
   padding: 40px 20px 60px 20px;
 }
-.whatis-title, .whatis-boxes {
+.whatis-title,
+.whatis-boxes {
   display: flex;
   justify-content: space-around;
-
 }
-.whatis div div{
+.whatis div div {
   width: 300px;
 }
 .whatis > * {
   text-align: center;
 }
 .whatis h3 {
-  display: inline;
-  border-bottom: 4px solid #00B172;
-  padding-bottom: 5px;
+  border-color: #00b172;
   margin-bottom: 80px;
 }
 .whatis div img {
@@ -97,12 +99,12 @@ header {
   padding: 0 20px;
 }
 .whatis div h4 {
-  color: #00B172;
+  color: #00b172;
   padding: 20px 0;
 }
 .expo {
   margin: 40px;
-  background: #00B172;
+  background: #00b172;
   height: 800px;
   padding: 80px 100px;
   color: white;
@@ -113,12 +115,15 @@ header {
   margin-top: 40px;
 }
 .white-logo {
-  float: right;
-  width: 130px;
-  margin-top: 270px;
-  margin-right: 130px;
+  width: 132px;
 }
-.expo div {
+.expo > div {
+  display: flex;
+  flex-flow: column wrap;
+  height: 700px;
+  justify-content: center;
+}
+.expo div div {
   width: 340px;
 }
 .expo h3 {
