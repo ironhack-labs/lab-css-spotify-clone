@@ -21,7 +21,7 @@ body {
 // -------------------------------------------------- */
 
 .content-wrapper {
-    max-width: 1200px;
+    max-width: 990px;
     padding-left: 15px;
     padding-right: 15px;
     margin: 0 auto;
@@ -31,6 +31,19 @@ body {
     display: flex;
 }
 
+.flex-wrap {
+    flex-wrap: wrap;
+}
+
+.underlined-title {
+    display: inline-block;
+    padding-bottom: 8px;
+    border-bottom: 3px solid #1AB26B;
+}
+
+.underlined-title--white {
+    border-bottom-color: #fff;
+}
 
 /*
 // Main Header
@@ -98,45 +111,90 @@ body {
 
 
 /*
-// Spotify features
+// Spotify about
 // -------------------------------------------------- */
 
-.spotify-features {
-    flex-wrap: wrap;
+.spotify-about {
     text-align: center;
     margin-bottom: 80px;
 }
 
-.spotify-features__title {
+.spotify-about__title {
     flex: 1 0 100%;
-    font-size: 30px;
+    font-size: 40px;
     font-weight: 600;
+    color: #000;
     padding-bottom: 10px;
     margin-bottom: 70px;
 }
 
-.spotify-features__feature {
+.spotify-about__feature {
     flex: 1 0 33.33%;
 }
 
-.spotify-features__title {
-    font-size: 34px;
-    color: #000;
-}
-
-.spotify-features__feature img {
+.spotify-about__feature img {
     margin-bottom: 10px;
 }
 
-.spotify-features__feature h3 {
+.spotify-about__feature h3 {
     margin: 0;
     font-weight: 700;
-    font-size: 24px;
+    font-size: 30px;
     color: #0ABC7E;
 }
 
-.spotify-features__feature p {
-    font-size: 20px;
+.spotify-about__feature p {
+    font-size: 22px;
     font-weight: 100;
     color: #2E2F33;
+}
+
+
+/*
+// Spotify features
+// -------------------------------------------------- */
+
+.spotify-features {
+    background-color: #1EA758;
+    color: #fff;
+    line-height: 1.4;
+    padding: 65px;
+    margin: 0 30px 30px;
+}
+
+.spotify-features__title {
+    flex: 1 0 100%;
+    font-size: 40px;
+    font-weight: 500;
+    margin-top: 0;
+    margin-bottom: 20px;
+}
+
+.spotify-features__wrapper {
+    flex: 1 0 55%;
+    background: url(../images/spotify-icon-white.png) no-repeat center right;
+    background-size: 110px;
+}
+
+.spotify-feature:not(:last-child) {
+    margin-bottom: 35px;
+}
+
+.spotify-feature:last-child p {
+    margin-bottom: 0;
+}
+
+.spotify-feature h3 {
+    font-size: 30px;
+    margin-bottom: 25px;
+}
+
+.spotify-feature p {
+    font-size: 22px;
+    font-weight: 300;
+}
+
+.spotify-app-img {
+    flex: 1 0 45%;
+    justify-content: flex-end;
 }
