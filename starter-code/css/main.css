@@ -32,7 +32,7 @@ body {
 
 .main-header {
     background: #fff;
-    padding: 8px 30px;
+    padding: 15px 30px;
 }
 
 .main-header__logo {
@@ -60,4 +60,31 @@ body {
 
 .main-header__nav a:not(:last-child) {
     margin-right: 25px;
+}
+
+
+/*
+// Main Hero
+// -------------------------------------------------- */
+
+.main-hero {
+    background: url(../images/landing.jpg) no-repeat center;
+    background-size: cover;
+    color: #fff;
+    height: 610px;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    text-align: center;
+}
+
+.main-hero__title {
+    font-size: 64px;
+    font-weight: 600;
+    margin-bottom: 0;
+}
+
+.main-hero__leading {
+    font-size: 24px;
+    font-weight: 300;
 }
