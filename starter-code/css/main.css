@@ -34,8 +34,7 @@ nav li {
   margin: 15px;
 }
 header {
-  background: url("/home/mario/Documents/ironhack/Exercises/Excercise5/lab-css-spotify-clone/starter-code/images/landing.jpg")
-    no-repeat center center;
+  background: url("../images/landing.jpg") no-repeat center center;
   background-size: cover;
   height: 700px;
   width: 100%;
@@ -43,6 +42,7 @@ header {
   justify-content: center;
   align-items: center;
   display: flex;
+  margin-top: 40px;
 }
 .text_header {
   font-size: 24px;
@@ -58,10 +58,11 @@ h2,
 h3 {
   font-size: 30px;
 }
-h3 {
+.line h3 {
   margin-bottom: 10px;
+  color: #1a1a1a;
 }
-hr {
+#blocks hr {
   border: 3px solid #00b172;
   border-radius: 4px;
   width: 25%;
@@ -113,17 +114,65 @@ hr {
 }
 
 footer {
-  display: flex;
-  align-items: center;
-  align-content: center;
   justify-content: center;
-  
+  align-items: center;
+  display: flex;
 }
-
-footer .foot{
+#background {
   background-color: #00b172;
+  background-image: url("../images/spotify-icon-white.png");
+  background-repeat: no-repeat;
+  background-position: center, right;
   height: 800px;
   width: 95%;
-  
+  background-size: 8%;
+  display: flex;
+  justify-content: flex-start;
 }
 
+.left hr {
+  border: 3px solid white;
+  border-radius: 4px;
+  width: 62%;
+  margin-bottom: 20px;
+}
+
+.left h2,
+h3,
+p {
+  color: white;
+  }
+
+  .left h3{
+    margin-top:40px;
+  }
+
+  .left h2{
+    font-size: 40px;
+    margin-bottom: 20px;
+  }
+.left p {
+  font-size: 30px;}
+
+
+.kanye {
+  width: 45%;
+  margin-top: 50px;
+}
+
+.left {
+  flex: 50%;
+  order: 1;
+  justify-content: center;
+  text-align: left;
+  margin-left: 100px;
+  margin-top: 50px;
+}
+
+.right {
+  flex: 50%;
+  order: 2;
+  justify-content: center;
+  align-items: center;
+  display: flex;
+}
