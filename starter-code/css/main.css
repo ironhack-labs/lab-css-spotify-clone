@@ -7,32 +7,128 @@ White: #FFF
 
 */
 
-.container_nav {
+* {
+  margin: 0;
+  padding: 0;
+  font-family: "Roboto", sans-serif;
+}
+
+/* CONTAINER NAV_BAR */
+#container_nav {
   display: flex;
   justify-content: space-between;
+  height: fit-content;
 }
 
 .nav_bar,
 ul,
 li {
+  letter-spacing: 0.9px;
+  font-weight: 300;
+  font-size: 22px;
+  margin-left: 15px;
+  margin-top: 5px;
   display: flex;
   flex-direction: row;
+  align-items: center;
   margin-right: 40px;
   margin-right: 10px;
 }
 
 .logo {
   height: 60px;
+  margin: 5px;
+  padding: 5px;
+}
+
+/* CONTAINER MAIN */
+#container_main {
+  display: flex;
+  margin-top: 20px;
+  justify-content: center;
+  background: url("../images/landing.jpg");
+  background-size: cover;
+  background-repeat: no-repeat;
+  height: 1000px;
+  color: #fff;
+}
+
+h1 {
+  justify-content: center;
+  letter-spacing: 1.5px;
+  margin-top: 370px;
+  font-size: 80px;
+  font-weight: 500;
+}
+
+.spoty_description {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  margin-top: 50px;
+  letter-spacing: 2px;
+  font-weight: 300;
+  font-size: 27px;
 }
 
 .music_spoty {
-  display: flex;
   flex-direction: column;
   justify-content: center;
   align-items: center;
 }
 
-.spotify_free {
-  justify-content: center;
+/* CONTAINER MIDDLE */
+#container_middle {
+  display: flex;
+  flex-direction: column;
   align-items: center;
+}
+
+.music_icon {
+  height: 60px;
+}
+
+.hd_icon {
+  height: 60px;
+}
+
+.devices_icon {
+  height: 60px;
+}
+
+.icons {
+  display: flex;
+  flex-direction: row;
+}
+
+h2 {
+  float: center;
+  flex-direction: column;
+  justify-content: center;
+}
+
+/* CONTAINER BOTTOM */
+
+#container_bottom {
+  display: flex;
+  background-color: #00b172;
+  color: #fff;
+}
+
+.left_side {
+  flex-direction: column;
+  justify-content: left;
+}
+
+.right_side {
+  flex-direction: row;
+  justify-content: right;
+}
+
+.spoty_app {
+  height: 600px;
+}
+
+.white_logo {
+  height: 100px;
 }
