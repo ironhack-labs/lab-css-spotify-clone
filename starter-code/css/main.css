@@ -8,6 +8,9 @@ White: #FFF
 */
 body {
     margin: 0;
+    font-family: 'Lato', sans-serif;
+    color:#1A1A1A;
+    font-weight: 300;
 }
 /*BARRA DEL MENU*/
 .header {
@@ -53,14 +56,14 @@ h1 {
 }
 /*Sección 2*/
 .second-section {
-    height: 600px;
+    height: 450px;
     display: flex;
     justify-content: center;
     align-items: center;
     flex-flow: column wrap;
 }
 .icons-section{
-    height: 500px;
+    height: 300px;
     display: flex;
     justify-content: center;
     align-items: center;
@@ -68,8 +71,37 @@ h1 {
 }
 .icons{
     display: flex;
-    justify-content: center;
+    justify-content: start;
     align-items: center;
     flex-flow: column wrap;
     padding: 20px;
+    width: 300px;
+    height: 260px;
+}
+/*SECCIÓN 3*/
+.third-section {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-flow: column wrap;
+    padding: 30px;
+}
+.green-section{
+    height: 700px;
+    width: 100%;
+    background-color: #00B172;
+    display: flex;
+    justify-content: space-around;
+    align-items: flex-start;
+    flex-flow: row wrap;
+}
+.column{
+    display: flex;
+    justify-content: flex-start;
+    align-items: flex-start;
+    flex-flow: column wrap;
+    padding-top: 40px;
+}
+.capture {
+    padding-top: 100px;
 }
