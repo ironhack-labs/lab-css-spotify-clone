@@ -1,11 +1,3 @@
-/*
-Colors:
-
-Text: 1A1A1A
-Green: #00B172
-White: #FFF
-
-*/
 @import url("https://fonts.googleapis.com/css?family=Montserrat:300,600&display=swap");
 html {
   font-size: 62.5%;
@@ -36,8 +28,9 @@ body {
 }
 .nav {
   background: #ffffff;
-  height: 70px;
-  padding: 1em;
+  height: 100px;
+  padding: 1em 2em;
+  box-sizing: border-box;
   flex-flow: row nowrap;
   justify-content: space-between;
   align-items: center;
@@ -65,41 +58,30 @@ body {
 .slider {
   padding-top: 100px;
   height: 815px;
-  background: url(../images/landing.jpg) center center/cover no-repeat;
+  background: url(../images/landing.jpg) no-repeat center center fixed;
+  background-size: cover;
   flex-direction: column;
   align-items: center;
   justify-content: center;
 }
 .col {
   flex-flow: column nowrap;
-  /*justify-content: center;
-  align-items: center;*/
 }
 .row {
   flex-flow: row nowrap;
-  /*justify-content: center;
-  align-items: center;*/
 }
 
-.module {
-  background: cornflowerblue;
-  border: solid 4px darkmagenta;
-}
+/* BLOCKS */
 .module-items {
-  background: greenyellow;
-  border: solid 1px green;
   height: 450px;
   box-sizing: border-box;
   justify-content: space-around;
 }
 .items {
-  background: chocolate;
-  border: solid 1px coral;
   width: 20%;
   justify-content: center;
   align-items: center;
 }
-
 .module-title {
   font-size: 2.3em;
   font-weight: bold;
@@ -122,8 +104,7 @@ body {
   width: 390px;
 }
 
-/* SECTIONS */
-
+/* MODIFIERS*/
 .light-theme,
 .dark-theme {
   box-sizing: border-box;
@@ -138,42 +119,33 @@ body {
   background: #00b172;
   justify-content: space-evenly;
   align-items: center;
-  padding: 100px 0;
+  padding: 5em 0;
   box-sizing: border-box;
 }
-.light-theme .module{
+.light-theme .module {
   justify-content: center;
   align-items: center;
 }
-.dark-theme .module{
+.dark-theme .module {
   justify-content: space-between;
   align-items: center;
 }
-.dark-theme .module-items{
-  background: red;
+.dark-theme .module-items {
   height: auto;
   width: 800px;
   justify-content: flex-start;
   align-items: flex-start;
 }
-.dark-theme .items{
-  background: orange;
+.dark-theme .items {
   width: 100%;
   justify-content: space-between;
 }
-.dark-theme .items div{
-  background: pink;
+.dark-theme .items div {
   justify-content: flex-start;
 }
-.dark-theme .items .sub-items{
-  background: chartreuse;
-
+.dark-theme .items .sub-items:first-child {
+  width: 345px;
 }
-.dark-theme .items .sub-items:first-child{
-background: cyan;
-width: 345px;
-}
-
 .light-theme .module-title {
   color: #1a1a1a;
   border-bottom: solid 4px #00b172;
