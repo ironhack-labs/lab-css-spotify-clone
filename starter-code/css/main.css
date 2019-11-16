@@ -6,33 +6,35 @@ Green: #00B172
 White: #FFF
 
 */
-@import url('https://fonts.googleapis.com/css?family=Montserrat:300,600&display=swap');
+@import url("https://fonts.googleapis.com/css?family=Montserrat:300,600&display=swap");
 html {
   font-size: 62.5%;
 }
 body {
-  font: 300 1.6rem/1.5 'Montserrat', Helvetica, Arial, sans-serif;
-  color: #1A1A1A;
+  font: 300 1.6rem/1.5 "Montserrat", Helvetica, Arial, sans-serif;
+  color: #1a1a1a;
   margin: 0;
 }
-.title{
+.text-center {
+  text-align: center;
+}
+.title {
   color: #ffffff;
-  font-size:5em;
+  font-size: 5em;
   font-weight: bold;
   margin: 0px;
   text-align: center;
 }
-.sub-title{
+.sub-title {
   color: #ffffff;
   font-size: 1.9em;
   text-align: center;
   margin: 15px 0;
 }
-.wrapper{
+.wrapper {
   display: flex;
-  background-color: cadetblue;
 }
-.nav{
+.nav {
   background: #ffffff;
   height: 70px;
   padding: 1em;
@@ -42,35 +44,25 @@ body {
   position: fixed;
   width: 100%;
 }
-.logo{
-  background: chocolate;
-}
-.logo > a{
-  background: yellow;
+.logo > a {
   display: block;
   display: flex;
 }
-.logo img{
+.logo img {
   width: 230px;
   margin: 0px;
 }
-.menu{
-  background: cornflowerblue;
-}
-.menu ul{
-  background: brown;
-}
-.menu ul li{
+.menu ul li {
   list-style-type: none;
 }
-.menu ul li a{
-  background-color:white;
+.menu ul li a {
+  background-color: white;
   font-size: 1.3em;
   padding: 1em;
   text-decoration: none;
-  color: #1A1A1A;
+  color: #1a1a1a;
 }
-.slider{
+.slider {
   padding-top: 100px;
   height: 815px;
   background: url(../images/landing.jpg) center center/cover no-repeat;
@@ -78,53 +70,128 @@ body {
   align-items: center;
   justify-content: center;
 }
-.module{
-  background: cornflowerblue;
-  
-}
-.col{
+.col {
   flex-flow: column nowrap;
+  /*justify-content: center;
+  align-items: center;*/
+}
+.row {
+  flex-flow: row nowrap;
+  /*justify-content: center;
+  align-items: center;*/
+}
+
+.module {
+  background: cornflowerblue;
+  border: solid 4px darkmagenta;
+}
+.module-items {
+  background: greenyellow;
+  border: solid 1px green;
+  height: 450px;
+  box-sizing: border-box;
+  justify-content: space-around;
+}
+.items {
+  background: chocolate;
+  border: solid 1px coral;
+  width: 20%;
   justify-content: center;
   align-items: center;
-
 }
-.row{
-  flex-flow: row nowrap;
+
+.module-title {
+  font-size: 2.3em;
+  font-weight: bold;
+}
+.module-sub-title {
+  font-size: 1.8em;
+  font-weight: bold;
+  margin-bottom: 0;
+}
+.module-text {
+  font-size: 1.5em;
+}
+.icon {
+  height: 120px;
+}
+.symbol {
+  height: 150px;
+}
+.screen {
+  width: 390px;
+}
+
+/* SECTIONS */
+
+.light-theme,
+.dark-theme {
+  box-sizing: border-box;
+  margin: 40px;
+}
+.light-theme {
+  background: #ffffff;
   justify-content: center;
   align-items: center;
 }
-
-
-.module-items{
-  flex-flow: row nowrap;
+.dark-theme {
+  background: #00b172;
+  justify-content: space-evenly;
+  align-items: center;
+  padding: 100px 0;
+  box-sizing: border-box;
+}
+.light-theme .module{
+  justify-content: center;
+  align-items: center;
+}
+.dark-theme .module{
   justify-content: space-between;
+  align-items: center;
+}
+.dark-theme .module-items{
+  background: red;
+  height: auto;
+  width: 800px;
+  justify-content: flex-start;
   align-items: flex-start;
-  background: crimson;
 }
-.module-items > div{
-  flex-grow: 1;
-  width: 400px;
-  border: solid 1px white;
+.dark-theme .items{
+  background: orange;
+  width: 100%;
+  justify-content: space-between;
 }
-.module-title-ligth{
-  font-size: 2.3em;
-  font-weight: bold;
-  color: #ffffff;
-  border-bottom: solid 4px #00B172;
-  
+.dark-theme .items div{
+  background: pink;
+  justify-content: flex-start;
 }
-.module-title-dark{
-  font-size: 2.3em;
-  font-weight: bold;
+.dark-theme .items .sub-items{
+  background: chartreuse;
+
+}
+.dark-theme .items .sub-items:first-child{
+background: cyan;
+width: 345px;
+}
+
+.light-theme .module-title {
+  color: #1a1a1a;
+  border-bottom: solid 4px #00b172;
+}
+.dark-theme .module-title {
   color: #ffffff;
   border-bottom: solid 4px #ffffff;
 }
-.light{
-  background: #fffff;
+.light-theme .module-sub-title {
+  color: #00b172;
 }
-.dark{
-  background: #00B172;
+.dark-theme .module-sub-title {
+  color: #ffffff;
 }
-.icon{
-  height: 100px;
+.light-theme .module-text {
+  color: #1a1a1a;
+}
+.dark-theme .module-text {
+  color: #ffffff;
+  font-size: 1.3em;
 }
