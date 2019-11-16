@@ -6,7 +6,7 @@ Green: #00B172
 White: #FFF
 
 */
-@import url('https://fonts.googleapis.com/css?family=Roboto:100,300,400,500&display=swap');
+@import url("https://fonts.googleapis.com/css?family=Roboto:100,300,400,500&display=swap");
 * {
   font-family: "Roboto";
 }
@@ -15,12 +15,6 @@ White: #FFF
 }
 .middle > * {
   vertical-align: middle;
-}
-.col3 > * {
-  box-sizing: border-box;
-  width: 33%;
-  padding: 20px 20px;
-  vertical-align: top;
 }
 h1 {
   font-size: 5.5em;
@@ -34,6 +28,10 @@ h2 {
 h3 {
   font-size: 2.5em;
   font-weight: 500;
+  border-bottom: 4px solid;
+  padding-bottom: 5px;
+  display: inline;
+  line-height: 2em;
 }
 h4 {
   font-size: 2em;
@@ -78,51 +76,66 @@ header {
 .whatis {
   padding: 40px 20px 60px 20px;
 }
-.line {
-  height: 4px;
-  background: #00B172;
-  position: relative;
-  width: 340px;
-  margin: 10px auto;
+.whatis-title,
+.whatis-boxes {
+  display: flex;
+  justify-content: space-around;
+}
+.whatis div div {
+  width: 300px;
+}
+.whatis > * {
+  text-align: center;
+}
+.whatis h3 {
+  border-color: #00b172;
+  margin-bottom: 80px;
 }
 .whatis div img {
   height: 100px;
   padding: 20px;
 }
-.whatis > * {
-  text-align: center;
-}
 .whatis div p {
   padding: 0 20px;
 }
 .whatis div h4 {
-  color: #00B172;
+  color: #00b172;
   padding: 20px 0;
 }
 .expo {
+  display: flex;
+  flex-flow: row;
+  justify-content: space-between;
+  align-items: flex-start;
   margin: 40px;
-  background: #00B172;
-  height: 800px;
+  background: #00b172;
+  height: 700px;
   padding: 80px 100px;
   color: white;
 }
+.text {
+  display: flex;
+  flex-flow: row;
+  justify-content: space-between;
+  align-items: center;
+  height: 600px;
+  width: 700px;
+}
+.text > div {
+  width: 340px;
+}
 .app-image {
   width: 345px;
-  float: right;
   margin-top: 40px;
 }
 .white-logo {
   float: right;
-  width: 130px;
-  margin-top: 270px;
-  margin-right: 130px;
-}
-.expo div {
-  width: 340px;
+  width: 132px;
+  margin: 350px 50px;
 }
 .expo h3 {
-  margin-bottom: 70px;
+  margin-bottom: 60px;
 }
 .expo div h4 {
-  margin: 60px 0 50px 0;
+  margin: 40px 0 30px 0;
 }
