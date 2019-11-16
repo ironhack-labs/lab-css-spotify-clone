@@ -6,7 +6,142 @@ Green: #00B172
 White: #FFF
 
 */
+ * {
+     font-family: Helvetica, sans-serif;
+ }
+
+ body {
+     padding:0;
+     margin:0;
+ }
 
 nav {
+    margin-top:10px;
     display:flex;
+    justify-content: space-between;
+
+}
+
+nav img {
+    height: 10vh;
+    margin-left:30px;
+}
+
+nav ul {
+    display:flex;
+    justify-content: space-around;   
+}
+
+nav li{
+    padding:10px;
+    list-style-type:none;
+}
+
+header {
+    padding:0;
+    margin:0;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items:center;
+    background-image: url(../images/landing.jpg);
+    background-size: 100%;
+    height:100vh;
+    position : 0 0;
+    background-repeat: no-repeat;
+    color:white;
+    font-weight:100;
+}
+
+header h1{
+    font-size: 50pt;
+}
+
+
+.white-container {
+    display: flex;
+    flex-direction: column;
+    padding: 30px;
+}
+
+.white-container img {
+    width: 10vw;
+}
+
+.white-container h2 {
+    display:flex;
+    justify-content: center;
+    order:0;
+}
+.white-container .wrap-elements {
+    display:flex;
+    justify-content: space-evenly;
+    padding:30px;
+
+
+}
+.white-container .element{
+    display:flex;
+    flex-direction: column;
+    align-content: center;
+    text-align:center;
+    order:1;
+    width:20vw;
+}
+
+
+.white-container h3 {
+    color: #00B172;
+    font-size: 18pt;
+}
+
+.white-container hr {
+    width:20vw;
+    height:8px;
+    background:#00B172;
+    color:#00B172;
+}
+
+
+.element img,h3,p{
+    align-self: center;
+}
+
+.green-container {
+    margin:30px;
+    background-color:#00B172;
+    display:flex;
+    justify-content:space-around;
+    color:white
+}
+
+.green-container h2 {
+    font-size: 22pt;
+    font-weight: 400;
+    width: 30vw;
+}
+
+.green-container .col{
+    padding:30px;
+    flex-direction: column;
+    display:flex;
+    align-self:center;
+}
+.green-container hr {
+    width: 30vw;
+    height:8px;
+    background:white;
+    color:white;
+}
+
+.green-container .text-green {
+    width:20vw;
+
+}
+.spotify-white-icon {
+  
+    width: 8vw;
+}
+.spotify-app-img {
+    width: 20vw;
 }
