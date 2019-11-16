@@ -7,31 +7,37 @@ White: #FFF
 
 */
 body{
-    display: flex;
     flex-direction: column;
 }
+nav{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
 ul{
     list-style: none;
-    text-align: right;
-    align-content: center;
+
 
 }
 li{
-    align-self: center;
     display: inline;
-    margin: 0 10px 0 0;
+    margin: 10px 10px 0 0;
   }
-h1{
-    position: relative;
-    align-content: center;
-}
 
 
+  #image{
+      background-image: url(../images/landing.jpg);
+      background-repeat:no-repeat;  
+      background-size:cover;
+      position:center;
+      height: 800px;
 
+  }
 
+  .section1{
 
-
-
+  }
 /*
 body{
     display: flex;
