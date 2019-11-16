@@ -21,9 +21,7 @@ h2{
 h3{
   font-size:1.4em;
   font-weight: bolder;
-  color: #00B172;
 }
-
 .bar{
   margin: 0 40px;
   padding: 14px 0;
@@ -70,7 +68,7 @@ h3{
 }
 .container{
   width: 1400px;
-  height: 500px;
+  height: 400px;
   padding: 50px;
   text-align: center;
 }
@@ -81,11 +79,14 @@ h3{
   background-color: #00B172;
   color:#00B172
 }
+.color-green{
+  color: #00B172
+}
 .box-container{
   margin: 0 auto;
   display: flex;
   width: 1400px;
-  height: 500px;
+  height: 300px;
   justify-content: center;
   align-items: baseline;
 }
@@ -97,11 +98,56 @@ h3{
   width: 33%;
   height: 300px;
 }
-.service-box p{
+.service-box p, #green p{
   line-height: 30px;
   font-size: 1.2em;
   letter-spacing: 0.5px;
   font-weight: lighter;
+}
+.green-container{
+  margin: 40px auto;
+  padding: 0 75px;
+  width: 1200px;
+  height: 800px;
+  background-color:#00B172;
+}
+ #green .img{
+  position: relative;
+  top: 300px;
+  left:525px;
+  height:125px;
+} 
+.green-title{
+  width: 40%;
+  color: #FFF;
+}
+#green hr{
+  width: 97%;
+  height: 3px;
+  border: 0px;
+  background-color:#FFF;
+  color:#FFF;
+} 
+.green-box{
+  display: flex;
+  justify-content: space-evenly;
+  width: 1200px;
+  height: 550px;
+}
+.left-box{
+  display: flex;
+  flex-flow: column nowrap;
+  justify-content:space-evenly;
+  align-items: flex-start;
+  width: 40%;
+  color: #FFF;
+  height: 550px;
+}
+.right-box{
+  display: flex;
+  position: relative;
+  left: 300px;
+  height:550px;
 }
 
 
