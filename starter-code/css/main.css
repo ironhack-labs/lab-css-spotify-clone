@@ -7,7 +7,62 @@ White: #FFF
 
 */
 
-body{
-  font-family: 'Roboto', sans-serif;
+body {
+  font-family: "Roboto", sans-serif;
+}
+
+header {
+  display: flex;
+  background: white;
+  height: auto;
+  justify-content: space-between;
+  align-items: center;
+  padding: 1em 2em;
+
+}
+
+.imgtop img {
+  width: 25vh;
+
+}
+
+.navbar ul {
+  display: flex;
+  justify-content: space-around;
+  list-style: none;
+  height: 100px;
+  align-items: center;
+}
+
+.navbar li a {
+  text-decoration: none;
+  color: #000;
+  font-size: 1.5em;
+  padding: 0 1em;
+}
+
+.photo{
+  background: url(../images/landing.jpg);
+  background-size: cover;
+  height: 100vh;
+  background-repeat: no-repeat;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  background-position: center;
+}
+
+
+.section1 h1{
+  font-size: 10vh;
+  color: white;
+  text-align: center;
+  padding-bottom: 0.4em;
+}
+
+.section1 p{
+  font-size: 3vh;
+  color: white;
+  text-align: center;
 }
 
