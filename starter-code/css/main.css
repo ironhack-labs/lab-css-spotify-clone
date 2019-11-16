@@ -18,7 +18,8 @@ header {
   justify-content: space-between;
   align-items: center;
   padding: 1em 2em;
-
+  position: fixed;
+  width: -webkit-fill-available;
 }
 
 .imgtop img {
@@ -86,7 +87,7 @@ header {
 
 .columns{
   display: flex;
-  justify-content: space-around;
+  justify-content: space-evenly;
   align-items: baseline;
 }
 
@@ -98,7 +99,7 @@ header {
 }
 
 .columnsitems img{
-  width: 20vh;
+  width: 10vh;
 }
 
 .columnsitems h2{
@@ -109,6 +110,7 @@ header {
 
 .columnsitems p{
   color: black;
-  font-weight: bold;
   font-size: 2em;
+  text-align: center;
+  width: 40%;
 }
