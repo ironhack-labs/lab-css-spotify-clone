@@ -4,5 +4,224 @@ Colors:
 Text: 1A1A1A
 Green: #00B172
 White: #FFF
-
 */
+
+/* In Comun*/
+body {
+    font-family: Helvetica, Arial, sans-serif;
+  }
+  
+  .title{
+    color: #1A1A1A;
+    font-size: 38px;
+    line-height: 1;
+    font-weight: 400;
+    position: relative;
+  }
+  
+  .title:after{
+    background: #00B172;
+    position: absolute;
+    bottom:-9px;
+    content: '';
+    display: block;
+    height: 3px;
+    width: 100%;
+  }
+  
+  /* Header */
+  header {
+    display: block;
+    width: 100%;
+  }
+  
+  .header-up {
+    align-items: center;
+    display: flex;
+    justify-content: space-between;
+    margin: 0 auto;
+    max-width: 1200px;
+  }
+  
+  .header-up h1 {
+    align-self: flex-start;
+    max-width: 220px;
+  }
+  
+  .header-up h1 img {
+    display: block;
+    max-width: 100%;
+    width: 100%;
+  }
+  
+  /* Nav */
+  
+  .header-up nav ul {
+    display: flex;
+    justify-content: space-between;
+    width: 400px;
+    list-style: none;
+  }
+  
+  .header-up nav ul li a {
+    color: #1A1A1A;
+    font-size: 22px;
+    font-weight: 500;
+    line-height: 1;
+    text-decoration: none;
+  }
+  
+  .header-up nav ul li a:hover {
+    color: #00B172;
+  }
+  
+  /* Background & Text */
+  .header-bottom {
+    background: url("../images/landing.jpg") no-repeat center;
+    background-size: cover;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    height: 85vh;
+    width: 100%;
+  }
+  
+  .header-bottom h2 {
+    color: #FFF;
+    margin-bottom: 25px;
+    font-size: 90px; 
+  }
+  
+  .header-bottom {
+    color: #FFF;
+    font-size: 25px;
+    padding-bottom: 10px;
+  }
+  
+  .header-bottom p {
+    line-height: 2px;
+    font-weight: 2;
+  }
+  
+  /* Section1: What's Spotify */
+  section.qualities {
+    display: block;
+    margin: 50px auto 50px;
+    text-align: center;
+  }
+  
+  /* Short Green Line */
+  section.qualities .title {
+    display: inline-block;
+  }
+  
+  section.qualities .col {
+    display: flex;
+    align-items: baseline;
+    justify-content: space-evenly;
+    margin: 100px auto 120px;
+    max-width: 1200px;
+  }
+  
+  section.qualities .box {
+    align-items: center;
+    display: flex;
+    flex-direction: column;
+    max-width: 280px;
+  }
+  
+  section.qualities .box .title-box {
+    color: #00B172;
+    font-size: 28px;
+    font-weight: 700;
+    margin: 20px 0 30px;
+  }
+  
+  section.qualities .box .text-box {
+    font-size: 25px;
+    font-weight: 100;
+    line-height: 1.2;
+  }
+  
+  section.qualities .box .img-box {
+    max-width: 130px;
+    order: -1;
+  }
+  
+  section.qualities .box .img-box img {
+    display: block;
+    max-width: 100%;
+    width: 100%;
+  }
+  
+  /* Section2: Artist */
+  section.artist {
+    background: #00B172;
+    box-sizing: border-box;
+    max-width: 1200px;
+    margin: 0 auto 30px;
+    padding: 80px;
+  }
+  
+  section.artist .title {
+    color: #FFF;
+    display: inline-block;
+  }
+  
+  /* Change Line: white */
+  section.artist .title:after {
+    background-color: #FFF;
+  }
+  
+  section.artist .artist-box {
+    align-items: center;
+    display: flex;
+    justify-content: space-between;
+  }
+  
+  section.artist .artist-box .characteristic {
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-end;
+    max-width: 320px;
+  }
+  
+  section.artist .artist-box .characteristic .item {
+    color: #FFF;
+  }
+  
+  section.artist .artist-box .characteristic .item .title-box {
+    font-size: 30px;
+    font-weight: 700px;
+    margin-bottom: 30px;
+    margin: 50px 0 30px;
+  }
+  
+  section.artist .artist-box .characteristic .item p {
+    font-size: 20px;
+    font-weight: 100;
+    line-height: 1.3;
+  }
+  
+  section.artist .artist-box .feature-img {
+    max-width: 130px;
+  }
+  
+  section.artist .artist-box .feature-img img {
+    display: block;
+    max-width: 100%;
+    width: 100%;
+  }
+  
+  section.artist .artist-box .artist-img {
+    max-width: 350px;
+  }
+  
+  section.artist .artist-box .artist-img img {
+    display: block;
+    max-width: 100%;
+    width: 100%;
+  }
+  
+  
