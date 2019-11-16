@@ -103,29 +103,35 @@ header {
   padding: 20px 0;
 }
 .expo {
+  display: flex;
+  flex-flow: row;
+  justify-content: space-between;
+  align-items: flex-start;
   margin: 40px;
   background: #00b172;
   height: 700px;
   padding: 80px 100px;
   color: white;
 }
+.text {
+  display: flex;
+  flex-flow: row;
+  justify-content: space-between;
+  align-items: center;
+  height: 600px;
+  width: 700px;
+}
+.text > div {
+  width: 340px;
+}
 .app-image {
   width: 345px;
-  float: right;
   margin-top: 40px;
 }
 .white-logo {
+  float: right;
   width: 132px;
-  padding: 200px;
-}
-.expo > div {
-  display: flex;
-  flex-flow: column wrap;
-  height: 700px;
-  justify-content: center;
-}
-.expo div div {
-  width: 340px;
+  margin: 350px 50px;
 }
 .expo h3 {
   margin-bottom: 60px;
