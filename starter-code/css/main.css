@@ -6,3 +6,136 @@ Green: #00B172
 White: #FFF
 
 */
+@import url("https://fonts.googleapis.com/css?family=Roboto:100,300,400,500&display=swap");
+* {
+  font-family: "Roboto";
+}
+.inline > * {
+  display: inline-block;
+}
+.middle > * {
+  vertical-align: middle;
+}
+h1 {
+  font-size: 5.5em;
+  font-weight: 500;
+}
+h2 {
+  font-size: 2em;
+  font-weight: 300;
+  line-height: 1.3em;
+}
+h3 {
+  font-size: 2.5em;
+  font-weight: 500;
+  border-bottom: 4px solid;
+  padding-bottom: 5px;
+  display: inline;
+  line-height: 2em;
+}
+h4 {
+  font-size: 2em;
+}
+p {
+  font-size: 1.5em;
+  font-weight: 100;
+  line-height: 1.3em;
+}
+nav {
+  background: white;
+  height: 100px;
+  width: 100%;
+  position: fixed;
+}
+nav img {
+  height: 70px;
+  padding: 16px 35px;
+}
+nav ul {
+  float: right;
+  font-weight: 300;
+  font-size: 1.5em;
+  line-height: 100px;
+  padding-right: 20px;
+}
+nav ul li {
+  padding-right: 20px;
+}
+header {
+  background-image: url(../images/landing.jpg);
+  background-size: cover;
+  height: 900px;
+}
+.title > * {
+  color: white;
+  position: relative;
+  top: 350px;
+  text-align: center;
+  padding: 20px 50px;
+}
+.whatis {
+  padding: 40px 20px 60px 20px;
+}
+.whatis-title,
+.whatis-boxes {
+  display: flex;
+  justify-content: space-around;
+}
+.whatis div div {
+  width: 300px;
+}
+.whatis > * {
+  text-align: center;
+}
+.whatis h3 {
+  border-color: #00b172;
+  margin-bottom: 80px;
+}
+.whatis div img {
+  height: 100px;
+  padding: 20px;
+}
+.whatis div p {
+  padding: 0 20px;
+}
+.whatis div h4 {
+  color: #00b172;
+  padding: 20px 0;
+}
+.expo {
+  display: flex;
+  flex-flow: row;
+  justify-content: space-between;
+  align-items: flex-start;
+  margin: 40px;
+  background: #00b172;
+  height: 700px;
+  padding: 80px 100px;
+  color: white;
+}
+.text {
+  display: flex;
+  flex-flow: row;
+  justify-content: space-between;
+  align-items: center;
+  height: 600px;
+  width: 700px;
+}
+.text > div {
+  width: 340px;
+}
+.app-image {
+  width: 345px;
+  margin-top: 40px;
+}
+.white-logo {
+  float: right;
+  width: 132px;
+  margin: 350px 50px;
+}
+.expo h3 {
+  margin-bottom: 60px;
+}
+.expo div h4 {
+  margin: 40px 0 30px 0;
+}
