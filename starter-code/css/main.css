@@ -7,9 +7,15 @@ White: #FFF
 
 */
 
+/* RESET */
 * {
   margin: 0;
   padding: 0;
+}
+
+/* Typography */
+
+body {
   font-family: "Roboto", sans-serif;
 }
 
@@ -56,7 +62,7 @@ li {
 h1 {
   justify-content: center;
   letter-spacing: 1.5px;
-  margin-top: 370px;
+  margin-top: 410px;
   font-size: 80px;
   font-weight: 500;
 }
@@ -73,38 +79,81 @@ h1 {
 
 .music_spoty {
   flex-direction: column;
+  margin-top: 25px;
   justify-content: center;
   align-items: center;
+  line-height: 37px;
 }
 
 /* CONTAINER MIDDLE */
 #container_middle {
+  height: 580px;
   display: flex;
   flex-direction: column;
   align-items: center;
 }
 
-.music_icon {
-  height: 60px;
-}
-
-.hd_icon {
-  height: 60px;
-}
-
-.devices_icon {
-  height: 60px;
-}
-
 .icons {
+  margin-top: 100px;
   display: flex;
   flex-direction: row;
+  height: 300px;
+  justify-content: space-between;
+  width: 1200px;
 }
 
 h2 {
-  float: center;
-  flex-direction: column;
+  margin-top: 40px;
+  font-size: 30px;
+  letter-spacing: 1px;
+  font-weight: 500;
+  flex-direction: row;
   justify-content: center;
+}
+
+.hr_green {
+  background-color: #00b172;
+  height: 3px;
+  width: 350px;
+  margin-top: 5px;
+}
+
+#card {
+  margin: 20px;
+  width: 300px;
+  overflow: hidden;
+  display: flex;
+  align-items: center;
+  flex-direction: column;
+}
+
+#icon {
+  justify-content: center;
+  align-items: center;
+}
+
+#main_section {
+  margin-top: 20px;
+  text-align: center;
+}
+
+#header {
+  font-size: 30px;
+  color: #00b172;
+  font-weight: 700;
+  letter-spacing: 1px;
+}
+
+#description {
+  margin-top: 40px;
+  font-size: 28px;
+  font-weight: 200;
+}
+
+.music_icon,
+.hd_icon,
+.devices_icon {
+  height: 100px;
 }
 
 /* CONTAINER BOTTOM */
