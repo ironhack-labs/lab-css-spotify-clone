@@ -6,56 +6,56 @@ Green: #00B172
 White: #FFF
 
 */
-body{
-    flex-direction: column;
-}
+
 nav{
     display: flex;
     justify-content: space-between;
     align-items: center;
 }
 
+h1 {
+    font-size: 120px;
+    font-weight: 600;
+}
+
 ul{
     list-style: none;
 
 
 }
-li{
+li {
     display: inline;
     margin: 10px 10px 0 0;
-  }
+}
 
 
-  #image{
-      background-image: url(../images/landing.jpg);
-      background-repeat:no-repeat;  
-      background-size:cover;
-      position:center;
-      height: 800px;
-
-  }
-
-  .section1{
-
-  }
-/*
-body{
+#image {
     display: flex;
-    flex-direction:column;
+    align-items: center;
+    width: 100%;
+    height: 150vh;
+    background-image: url(../images/landing.jpg);
+    background-repeat:no-repeat;  
+    background-size:cover;
+    position:center;
 }
-.logo{
-    justify-content: flex-end;
+
+.section1 {
+    height: 50%;
+    color:white;
+    font-size: 250%;
+    display: flex;
+    width: 100%;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
 }
 
-ul{
-    list-style: none;
-    text-align: right;
-  }
-  
-li{
-
-    display: inline;
-    margin: 0 10px 0 0;
-  }
-
-  */
+.h2{
+    font-size: 48px;
+    font-weight: 600;
+    display: inline-block;
+    padding-bottom: 8px;
+    border-bottom: 5px solid green;
+    
+}
