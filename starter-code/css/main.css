@@ -24,7 +24,6 @@ header {
 
 .imgtop img {
   width: 25vh;
-
 }
 
 .navbar ul {
@@ -42,7 +41,7 @@ header {
   padding: 0 1em;
 }
 
-.photo{
+.photo {
   background: url(../images/landing.jpg);
   background-size: cover;
   height: 100vh;
@@ -53,21 +52,20 @@ header {
   background-position: center;
 }
 
-
-.section1 h1{
+.section1 h1 {
   font-size: 10vh;
   color: white;
   text-align: center;
   padding-bottom: 0.4em;
 }
 
-.section1 p{
+.section1 p {
   font-size: 3vh;
   color: white;
   text-align: center;
 }
 
-.title{
+.title {
   display: flex;
   flex-flow: column;
   justify-content: center;
@@ -75,42 +73,101 @@ header {
   align-items: center;
 }
 
-.title h2{
+.title h2 {
   font-size: 2.2em;
 }
 
-.title hr{
+.title hr {
   width: 30vh;
-  border: 3px solid #1ab26b;
+  border: 3px solid #00b172;
   border-radius: 5px;
 }
 
-.columns{
+.columns {
   display: flex;
   justify-content: space-evenly;
   align-items: baseline;
 }
 
-.columnsitems{
+.columnsitems {
   display: flex;
   flex-flow: column;
   justify-content: center;
   align-items: center;
+  width: 33.3%;
 }
 
-.columnsitems img{
-  width: 10vh;
+.columnsitems img {
+  width: 15vh;
 }
 
-.columnsitems h2{
-  color: #00B172;
+.columnsitems h2 {
+  color: #00b172;
   font-weight: bold;
   font-size: 2em;
+  padding-top: 30px;
 }
 
-.columnsitems p{
+.columnsitems p {
   color: black;
-  font-size: 2em;
+  font-size: 1.8em;
   text-align: center;
   width: 40%;
+  padding-top: 30px;
+}
+
+.greenPart {
+  background: #00b172;
+  margin: 3em;
+  display: flex;
+  height: 80vh;
+  flex-flow: column;
+}
+
+.greenPartLogo {
+  background: url(../images/spotify-icon-white.png);
+  background-size: 7em;
+  background-repeat: no-repeat;
+  background-position: center;
+}
+
+.greenContent {
+  display: flex;
+  justify-content: space-between;
+  padding-top: 3em;
+  margin: 0 4em;
+}
+
+.greenContent img {
+  height: 70vh;
+}
+
+.greenText {
+  display: flex;
+  flex-flow: column;
+  color: #ffffff;
+  align-content: center;
+  justify-content: space-around;
+  width: 40%
+}
+
+.greenText hr {
+  width: 30vh;
+  border: 3px solid #ffffff;
+  border-radius: 5px;
+  width: -webkit-fill-available;
+}
+
+
+.greenText h2 {
+  font-size: 2.4em;
+}
+
+.greenText h3 {
+  font-size: 2em;
+  font-weight: bold;
+}
+
+.greenText p {
+  font-size: 1.5em;
 }
