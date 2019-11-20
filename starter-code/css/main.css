@@ -6,3 +6,94 @@ Green: #00B172
 White: #FFF
 
 */
+body {
+    background:black;
+}
+
+.main {
+    display:flex;
+    flex-direction: column;
+}
+
+.navbar {
+    position:fixed;
+    width:100%;
+    display:flex;
+    flex-direction: row;
+    align-items:center;
+    height:100px;
+    margin:0;
+    background-color: white;
+}
+#logo {
+    max-height:70px; /* need this to make it fit apparently */
+}
+.logo {
+    margin-left:20px;
+}
+.menu {
+    position:absolute;
+    right:0;
+    margin-right:20;
+    font-family: Arial, sans-serif;
+    font-size:2em;
+}
+.menu ol {
+    display:flex;
+    flex-direction:row;
+}
+.menu ol li{
+    list-style-type: none;
+}
+.menu a {
+    color:#1A1A1A;
+    text-decoration: none;
+    margin-right:20px;
+}
+
+.image{
+    display:flex;
+    flex-direction: column;
+    justify-content:center;
+    align-items:center;
+    background-image:url("../images/landing.jpg");
+    background-size:cover;
+    height:800px;
+}
+.texts{
+    color:white;
+    max-width:48%;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    height:0px;
+}
+.largetext{
+    font-size:4.5em;
+}
+.smalltext{
+    font-size:1.5em;
+    width:85%;
+    margin:auto;
+}
+.text{ color:#1A1A1A;}
+
+.whatson{
+    display:flex;
+    flex-direction:column;
+    background-color:white;
+    height:180px;
+}
+.whatsoncontents{
+    width:33%;
+    margin:auto;
+}
+.whatsontext{
+    font-size:3.1em;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    font-style: bold;
+    height:1.4em;
+}
+.greenline{
+    background-color:#00B172;
+    height:10px;
+    width:100%;
+}
