@@ -1,8 +1,140 @@
-/*
-Colors:
+/* Branding */
 
-Text: 1A1A1A
-Green: #00B172
-White: #FFF
 
-*/
+/* primary color : #00c76f; */
+
+
+/* Generic HTML Elements CSS */
+
+body {
+    font-family: 'Open Sans', sans-serif;
+    font-weight: lighter;
+    margin: 0;
+}
+
+h2 {
+    font-size: 35px;
+    text-decoration: underline;
+    text-underline-position: under;
+}
+
+.flex-container {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.center-elements {
+    padding: 0 5%;
+}
+
+
+/* Nav */
+
+nav {
+    height: 100px;
+}
+
+nav img {
+    height: 60%;
+}
+
+nav a {
+    margin-right: 10px;
+    color: black;
+    text-decoration: none;
+}
+
+nav a:hover {
+    text-decoration: underline;
+}
+
+.section-1 {
+    color: white;
+    background-image: url(../images/landing.jpg);
+    height: 768px;
+    background-position: center;
+    background-size: cover;
+    justify-content: center;
+}
+
+.section-1 div {
+    text-align: center;
+}
+
+.section-1 h1 {
+    font-size: 80px;
+}
+
+.section-1 p {
+    font-size: 28px;
+}
+
+
+/* section-2 */
+
+.flex-container-card {
+    display: flex;
+    justify-content: space-between;
+    padding: 0 4%
+}
+
+.section-2 {
+    text-align: center;
+}
+
+.card {
+    width: 25%;
+    margin: 4% 0;
+}
+
+.card img {
+    width: 50%;
+}
+
+.wave {
+    padding-bottom: 6%;
+}
+
+.section-2 h2 {
+    text-decoration-color: #00c76f;
+    margin-bottom: 70px;
+}
+
+.card h3 {
+    font-size: 25px;
+    color: #00c76f;
+}
+
+.card p {
+    font-size: 20px;
+    padding: 0 10%;
+}
+
+
+/* Section-3 */
+
+.section-3 {
+    background-color: #00c76f;
+    margin: 0 5%;
+    padding: 6%;
+    color: white;
+}
+
+.section-3 img {
+    width: 30%;
+}
+
+#logo {
+    width: 10%;
+    padding: 0 6% 0 10%;
+}
+
+.text h3 {
+    font-size: 35px;
+}
+
+.text p {
+    padding-right: 15%;
+    font-size: 20px;
+}
