@@ -6,3 +6,134 @@ Green: #00B172
 White: #FFF
 
 */
+
+:root {
+    background-color: grey;
+    font-size: 10px;
+    color: #1a1a1a;
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+h1, h2, h3, h4, h5, h6, p { margin: 0; }
+
+body { margin: 8px 200px; }
+
+.bkg-green {
+    background-color: #00B172;
+}
+
+#logo {
+    width: 250px;
+}
+
+#header {
+    padding: 10px 30px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    background-color: white;
+}
+
+#pic-sec {
+    background-image: url(../images/landing.jpg);
+    background-size: cover;
+    background-position-y: bottom;
+    color: white;
+    height: 900px;
+}
+#pic-sec h1, #pic-sec p {
+    border: 1px solid red;
+    text-align: center;
+}
+#pic-sec h1 {
+    font-size: 8.0rem;
+}
+#pic-sec p {
+    font-size: 3.5rem;
+}
+
+.flex { display: flex; }
+.flex-row {
+    flex-direction: row;
+    justify-content: flex-start;
+    align-items: flex-start;
+}
+.flex-column {
+    flex-direction: column;
+    justify-items: flex-start;
+    align-content: flex-start;
+}
+.flex-center {
+    justify-content: center;
+    align-items: center;
+}
+.flex-column-center {
+    align-content: center;
+}
+.flex-top-center {
+    justify-content: flex-start;
+}
+.flex-item {
+    width: 33%;
+    margin: 5px 10px;
+}
+
+#cont-sec {
+    background-color: white;
+    padding: 25px;
+}
+#cont-sec h3 {
+    font-size: 3rem;
+    color: #00B172;
+}
+#cont-sec span {
+    font-size: 3rem;
+}
+
+#cont-sec .flex-item {
+    width: 30%;
+    text-align: center;
+}
+
+#cont-sec h2 {
+    font-size: 4rem;
+    font-weight: 300;
+    text-align: center;
+    padding-bottom: 5px;
+    margin-bottom: 20px;
+    border-bottom: 4px solid #00B172;
+}
+
+#info-sec {
+    background-color: white;
+    padding: 25px;
+}
+
+#info-sec-cont {
+    background-image: url(../images/spotify-icon-white.png);
+    background-size: 100px;
+    background-repeat: no-repeat;
+    background-position: center;
+    color: white;
+    padding: 80px;
+}
+
+#info-sec-cont h2 {
+  text-align: center;
+  font-size: 3.5rem;
+  border-bottom: 4px solid white;
+}
+
+#info-sec-cont h3 {
+  text-align: left;
+  font-size: 2.5rem;
+}
+
+#info-sec-cont p {
+    text-align: left;
+    font-size: 2.0rem;
+    font-style: normal;
+}
+
+.sf-icon { height: 100px; }
+.sf-app { height:600px; }
