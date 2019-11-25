@@ -1,8 +1,198 @@
-/*
-Colors:
+@import url('https://fonts.googleapis.com/css?family=Roboto+Condensed:700|Roboto:100,300,700');
 
-Text: 1A1A1A
-Green: #00B172
-White: #FFF
+* {
+    margin: 0;
+    padding: 0;
+}
 
-*/
+body {
+    font-family: Roboto, system-ui, sans-serif;;
+}
+
+h1 {
+    font-size: 75px;
+    font-weight: 600;
+}
+
+h3 {
+    font-size: 30px;
+    font-weight: 200;
+    text-align: center;
+
+}
+
+.navbar {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: center;
+    position: fixed;
+    background-color: white;
+    width: 100%;
+    padding: 10px 20px 10px 20px;
+}
+
+.navbar img {
+    width: 220px;
+}
+
+.navbar ul {
+    display: flex;
+    flex-direction: row;
+	justify-content: space-around;
+    align-items: center;
+    margin-right: 30px;
+}
+
+.navbar li {
+    list-style: none;
+    margin: 15px;
+}
+
+.navbar a {
+    color: #1a1a1a;
+    font-size: 22px;
+    text-decoration: none;
+}
+
+.header {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    position: 00;
+    height: 800px;
+    background-size: cover;
+    background-image: url(../images/landing.jpg);
+    color: white;
+}
+
+.header div {
+    display: flex;
+	flex-direction: column;
+	justify-content: center;
+    align-items: center;
+    margin: 200px;
+}
+
+.section1 {
+    display: flex;
+    flex-direction: column;
+    justify-content: space-around;
+    align-items: center;
+    height: 500px;
+}
+
+.section1 h2 {
+    margin: 20px;
+    border-bottom: 3px solid #00B172;
+    padding-bottom: 3px;
+    font-size: 36px;
+    font-weight: 600;
+}
+
+.container {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin: 20px;
+    width: 80%;
+}
+
+.container div {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.container img{
+    width: 130px;
+}
+
+.marginbottom {
+    margin-bottom: 20px;
+}
+
+.container h5 {
+    font-size: 25px;
+    font-weight: 600;
+    color: #00B172;
+    margin-bottom: 30px;
+}
+
+.container p {
+    font-size: 25px;
+    font-weight: 200;
+}
+
+.section2 {
+    margin: 30px;
+    
+}
+
+.container2 {
+    display: flex;
+    justify-content: space-around;
+    background-color: #00B172;
+    height: 720px;
+    padding-left: 30px;
+    padding-top: 30px;
+}
+
+.container2 img {
+    width: 240px;
+}
+
+.greendiv {
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    align-items: baseline;
+    color: white;
+    height: 400px;
+}
+
+.greendiv h2 {
+    font-size: 35px;
+    font-weight: 600;
+    padding-top: 50px;
+    border-bottom: 3px solid white;
+    padding-bottom: 3px;
+    margin-bottom: 40px;
+}
+
+.container3 {
+    display: flex;
+    flex-direction: column;
+    justify-content: space-around;
+    
+}
+
+.container3 div {
+    margin: 30px 30px 30px 0;
+}
+
+.container3 h4 {
+    font-size: 28px;
+    font-weight: 600;
+    padding-bottom: 22px;
+}
+
+.container3 p {
+    font-size: 22px;
+}
+
+.images {
+    display: flex;
+	justify-content: space-around;
+	align-items: center;
+}
+
+#kanye {
+    width: 320px;
+    padding-right: 40px;
+}
+
+#icon {
+    width: 130px;
+    padding-right: 120px;
+}
