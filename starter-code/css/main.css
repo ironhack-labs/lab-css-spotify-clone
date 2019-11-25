@@ -140,10 +140,11 @@ header li {
 /**** Green Section ****/
 #green {
     display: flex;
-    justify-content: center;
+    justify-content: space-around;
     align-items: center;
+    margin: 40px;
     height: 700px;
-    padding-top: 50px;
+    padding: 100px;
     background-color: #00B172;
     color: #FFF;
 }
@@ -155,25 +156,75 @@ header li {
     left: 50;
 }
 
-#green > div:nth-child(1) {
+.heading-two {
     width: 32vw;
+    position: relative;
 }
 
-#green > div > h1 {
+.heading-two::after {
+    content: "";
+    height: 4px;
+    width: 100%;
+    background-color: #FFF;
+    position: absolute;
+    bottom: -.8em;
+    left: 50%;
+    transform: translate(-50%);
+}
+
+.heading-two > h1 {
+    display: inline-block;
+    text-align: center;
+    padding-top: 40px;
     font-size: 3vw;
 }
 
+
 #green > div > h2 {
-    margin: 40px 0;
+    margin: 30px 0;
     font-size: 2.4vw;
 }
 
 #green > div > p {
-    font-size: 1.7vw;
+    font-size: 1.8vw;
+    line-height: 1.4;
+    width: 45%;
 }
 
 #green > div > img {
     width: 24vw;
-    padding-top: 10px;
+    padding-top: 60px;
+}
+
+@media only screen and (max-width: 768px){
+    #green {
+        display: block;
+        height: auto;
+    }
+    #green > div > h2 {
+        font-size: 1.6rem;
+    }
+    #green > div > p {
+        width: 100%;
+        font-size: 1rem;
+    }
+    #green > div:last-child {
+        text-align: center;
+    }
+    #green > div > img {
+        width: 200px;
+        height: 500px;
+    }
+    .spotify-icon {
+        display: none;
+    }    
+    #spotify {
+        height: auto;
+    }
+    #boxes {
+        display: block;
+        margin: 0 auto;
+        width: 50%;
+    }
 }
 
