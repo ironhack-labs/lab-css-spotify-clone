@@ -1,8 +1,155 @@
 /*
 Colors:
-
 Text: 1A1A1A
 Green: #00B172
 White: #FFF
-
 */
+
+* {
+    font-family: 'Open Sans', sans-serif;
+    margin: 0px;
+    padding: 0px;
+}
+
+.header {
+    display: flex;
+    justify-content: space-between;
+    margin: 10px;
+}
+
+.header img {
+    width: 15%;
+    margin-left: 2%;
+}
+
+.header ul {
+    list-style: none;
+    width: 30%;
+    display: flex;
+    align-items: center;
+    justify-content: space-evenly;
+}
+
+.header a {
+    text-decoration: none;
+    color: #1A1A1A;
+    font-weight: bolder;
+}
+
+.content {
+    width: 100%;
+    height: 80;
+    background-image: url(../images/landing.jpg);
+    background-size: cover;
+    background-repeat: no-repeat;
+    color: white;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    height: 1100px;
+}
+
+.content h1 {
+    font-size: 100px;
+}
+
+.content p {
+    white-space: pre-line;
+    text-align: center;
+    font-size: 30px;
+}
+
+.spotifyContent {
+    display: flex;
+    justify-content: space-evenly;
+    height: 550px;
+    align-items: center;
+    flex-direction: column;
+}
+
+.spotifyContent img {
+    width: 35%;
+}
+
+.spotifyContent div {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    height: 100%;
+    justify-content: center;
+}
+
+.spotifyContent div > p {
+    white-space: pre-line;
+    text-align: center;
+}
+
+.spotifyContent .imgContent {
+    width: 100%;
+    display: flex;
+    justify-content: space-evenly;
+    flex-direction: row;
+    height: 80%;
+}
+
+.spotifyContent h2 {
+    border-bottom: solid 5px #00B172;
+    font-size: 40px;
+}
+
+.spotifyContent div h3 {
+    color: #00B172;
+    font-size: x-large;
+    font-weight: bolder;
+}
+
+.bottom {
+    background: #00B172;
+    color: white;
+    display: flex;
+    justify-content: space-around;
+    height: 900px;
+    align-items: center;
+    margin: 50px;
+    margin-right: 50px;
+    margin-top: 0;
+    background-image: url(../images/spotify-icon-white.png);
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: 200px;
+}
+
+.bottom .contentTxt {
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    height: 90%;
+    width: 45%;
+}
+
+.bottom img {
+    width: 30%;
+    height: 80%;
+}
+
+.bottom h2 {
+    border-bottom: solid;
+    font-size: 48px;
+    width: 88%;
+    margin-bottom: 45px;
+}
+
+.contentTxt div {
+    width: 60%;
+    height: 24%;
+    font-size: 25px;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-around;
+}
+
+.contentTxt h3 {
+    font-size: 40px;
+    font-weight: bold;
+}
