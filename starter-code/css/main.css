@@ -6,3 +6,175 @@ Green: #00B172
 White: #FFF
 
 */
+
+html, body {
+    margin: 0;
+    padding: 0;
+    font-family: 'Open Sans', sans-serif;
+}
+
+a {
+    text-decoration: none;
+    color: black;
+}
+
+#navbar {
+    height: 100px;
+    width: 100%;
+    position: fixed;
+    background-color: #FFF;
+    display: flex;
+    justify-content: space-between;
+    align-content: center;
+    z-index: 1;
+}
+
+#navbar img {
+    height: 70%;
+    padding: 10px;
+}
+
+#links {
+    display: flex;
+    align-content: center;
+}
+
+#links a {
+    font-size: 27px;
+    margin: 20px;
+    padding: 10px;
+}
+
+#navbar img {
+    object-fit: contain;
+}
+
+#section-1 {
+    background-image: url(../images/landing.jpg);
+    height: 1200px;
+    background-size: cover;
+    display: flex;
+    flex-direction: column;
+    align-content: center;
+}
+
+#section-1 h1 {
+    color: #FFF;
+    font-size: 6em;
+    text-align: center;
+    margin-top: 450px;
+}
+
+#section-1 h4 {
+    color: #FFF;
+    font-size: 2em;
+    text-align: center;
+    margin-top: 40px;
+}
+
+#section-2 {
+    display: flex;
+    flex-direction: column;
+    flex-wrap: wrap;
+    align-items: center;
+    margin-top: 20px;
+    margin-bottom: 60px;
+}
+
+.s2-header {
+    font-size: 2.5em;
+    margin: 40px auto;
+    padding: 20px;
+    text-align: center;
+}
+
+.features {
+    display: flex;
+    justify-content: space-evenly;
+    
+}
+
+.features img {
+    height: 100px;
+}
+
+.features > div {
+    display: flex;
+    flex-direction: column;
+    flex-wrap: wrap;
+    align-items: center;
+    box-sizing: border-box;
+    margin: 30px 20px;
+    width: 33.3%;
+}
+
+.features h3 {
+    font-size: 2em;
+    color: #00B172;
+    margin: 20px 10px;
+}
+
+.features p {
+    text-align: center;
+    font-size: 1.8em;
+    padding: 0 50px;
+    font-weight: lighter;
+}
+
+#section-3 {
+    margin: 0 20px 20px 20px;
+    background-color: #00B172;
+    display: flex;
+    justify-content: space-between;
+    color: #FFF;
+    position: relative;
+    height: 900px;
+}
+
+#section-3-left {
+    margin: 80px;
+}
+
+#section-3-header h2 {
+    font-size: 3em;    
+}
+
+hr {
+    margin-top: 10px;
+    border-top: 3px solid #FFF;
+}
+
+#section-3-text {
+    width: 400px;
+}
+
+#section-3-text h3 {
+    font-size: 2.5em;
+    margin-top: 30px;
+}
+
+#section-3-text p {
+    font-size: 1.5em;
+    margin-top: 15px;
+    line-height: 1.5em;
+    font-weight: lighter;
+}
+
+#white-logo {
+    position: absolute;
+    height: 150px;
+    width: 150px;
+    top: 50%;
+    left: 50%;
+}
+
+#screenshot {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+#screenshot img {
+    padding: 30px;
+    height: 80%;
+}
