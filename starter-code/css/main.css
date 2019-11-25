@@ -6,3 +6,152 @@ Green: #00B172
 White: #FFF
 
 */
+
+
+* {
+    padding: 0;
+    margin: 0;
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+}
+
+h1{
+    font-size: 60px;
+}
+
+h2{
+    font-size: 20px;
+}
+
+h3{
+    text-shadow: .5px .5px 1px black;
+}
+
+h4{
+    color: #00B172;
+    text-shadow: .5px .5px 1px black;
+}
+h5{
+    font-size: 18px;
+    color: white;
+}
+h6{
+    font-size: 15px;
+    color: white;
+}
+
+.section-one hr{
+    width: 180px;
+    color: #00B172;
+    border-top: 2px solid #00B172;
+    margin: auto;
+    text-shadow: .2px .2px 2px black;
+}
+.nav{
+    width: 100%;
+    height: 50px;
+    padding: 5px 0;
+}
+
+
+.nav-logo img{
+    float: left;
+    width: 150px;
+    padding-left: 10px;
+}
+
+.nav-bar{
+    float: right;
+    height: auto;
+    margin: auto;
+    width: 400px;
+}
+
+.nav-bar-ul{
+    display: flex;
+    justify-content: space-evenly;
+    align-content: center;
+    padding: 15px;
+}
+
+.nav-bar-ul li{
+    list-style-type: none;
+    text-align: center;
+    margin: auto;
+}
+
+.header{
+    background-image: url(../images/landing.jpg);
+    background-position: 0 0;
+    background-repeat: no-repeat;
+    background-size: cover;
+    height: 750px;
+    position: relative;
+    color: white;
+    text-align: center;
+}
+
+.header-text{
+    display: flex;
+	flex-direction: column;
+	flex-wrap: nowrap;
+	justify-content: flex-start;
+	align-items: center;
+    align-content: center;
+    padding-top: 200px;
+}
+
+.body-content{
+    margin: 25px;
+}
+.section-one{
+    text-align: center;
+}
+.whats-on{
+    display: flex;
+	flex-direction: row;
+	flex-wrap: nowrap;
+	justify-content: space-around;
+	align-items: flex-start;
+    align-content: center;
+}
+
+.whats-on > div{
+    width:30%;
+}
+
+.whats-on img{
+    max-width: 100px;
+    height: 60px;
+}
+
+.green-section{
+    margin: 25px;
+    padding: 40px;
+    background-color: #00B172;
+    color: white;
+    font-size: 10px;
+    height: 300px;
+}
+
+.green-section-text{
+    width: 251px;
+    float: left;
+}
+
+.green-section-img{
+    width: 200px;
+    float: right;
+}
+
+.green-section-img img{
+    max-width: 180px;
+    max-height: 300px;
+    float: right;
+}
+
+.white-icon img{
+    position: relative;
+    max-width: 60px;
+    margin: 0 auto;
+    margin-top: 120px;
+}
