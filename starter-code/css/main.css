@@ -1,8 +1,170 @@
 /*
 Colors:
-
 Text: 1A1A1A
 Green: #00B172
 White: #FFF
 
 */
+
+@import url('https://fonts.googleapis.com/css?family=Open+Sans');
+
+body {
+    font-family: "Open Sans",Helvetica, Arial, sans-serif;
+}
+
+header {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin-top: 10px;
+    margin-bottom: 10px;
+}
+
+.header-image {
+    width: 18%;
+    margin-left: 2rem;
+}
+
+nav ul {
+    width: 300px;
+    list-style: none;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin-right: 2rem;
+}
+
+nav ul a {
+    color: rgb(98,98,98);
+    text-decoration: none;
+}
+
+#concert-image-block div{
+    height: 600px;
+    display:flex;
+    flex-direction: column;
+    align-items: stretch;
+    justify-content: center;  
+    background-image: url("/Users/Alex/Desktop/Ironhack/Homework/01_2_Spotify/lab-css-spotify-clone/starter-code/images/landing.jpg");
+    background-size: cover;
+    background-repeat: no-repeat;
+    text-align: center;
+    line-height: 0;
+    color: white;
+}
+
+h1 {
+    font-size: 4rem;
+}
+
+h2 {
+    text-decoration: underline;
+    text-decoration-color: #00B172;
+}
+
+h3 {
+    font-size: 1.2rem;
+    color: #00B172;
+}
+
+.whats-on-main {
+    display: flex;
+    flex-direction: column;
+	justify-content: space-around;
+    align-items: center;
+    margin: 20px 0px 60px;  
+}
+.whats-on-sub {
+    display: flex;
+	justify-content: center;
+    align-items: center;  
+}
+
+.whats-on-sub div {
+    display: flex;
+    flex-direction: column;
+	justify-content: center;
+    align-items: center;  
+    width: 33%;
+    margin: 30px 50px 0px;
+
+}
+
+.whats-on-sub img {
+    height: 60px;
+}
+
+#whats-on p{
+    text-align: center;
+    width: 70%;
+}
+
+#kanye .all-green{
+    background-color: #00B172;
+    color:#FFF;
+    display: flex;
+	justify-content: space-between;
+    align-items: center; 
+    padding: 20px 80px;
+}
+
+h4 {
+    font-weight: none;
+    font-size: 1.4rem;   
+}
+
+h5 {
+    font-weight: bold;
+    font-size: 1.1rem;   
+}
+
+#kanye p{
+    font-size: 0.8rem;
+}
+
+.left-side {
+    width: 55%;
+}
+
+.right-side {
+    width: 45%;
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: flex-end;
+    padding: 40px 0;
+}
+
+.upper-left{
+    width: 290px;
+    border-bottom: 2px solid #FFF;
+    height: 30px;
+}
+
+.lower-left{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;    
+    align-items: center; 
+    width: 100%;    
+    
+}
+
+#kanye ul {
+    list-style: none;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    margin: 0;
+    padding: 0;
+    width: 40%;
+    font-size: 1rem;
+}
+
+.spotify-white {
+    width: 90px;
+}
+
+.spotify-screenshot {
+    width: 220px;
+}
