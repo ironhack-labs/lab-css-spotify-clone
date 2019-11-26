@@ -100,7 +100,7 @@ body {
 
 #whats-title {
   border-bottom: 3px solid #00B172;
-  margin: 0px 439px;
+  margin: 0px 441.5px 100px;
 }
 
 #whats-spotify h3 {
@@ -119,6 +119,7 @@ body {
   text-align: center;
   width: 250px;
   padding: 0px 70px;
+  vertical-align: top;
 }
 
 .whats-format > h3 {
@@ -138,6 +139,7 @@ body {
   color: #FFF;
   height: 760px;
   z-index: 2;
+  position: relative;
 }
 
 #kanye-west > div {
@@ -158,20 +160,27 @@ body {
 
 #text-format-kanye > div h3 {
   font-size: 27px;
-  font-weight: 500;
+  font-weight: 600;
   padding: 35px 0px;
 }
 
 #spotify-white {
-  width: 100px;
-  vertical-align: middle;
+  width: 125px;
+  position: absolute;
+  top: 42.9%;
+  left: 44.8%;
+  /* vertical-align: -50px; */
 }
+
+/* #div-white-logo {
+  display: block;
+} */
 
 #spotify-kanye {
   width: 320px;
-  position: relative;
-  left: 80%;
-  top: 50%;
+  position: absolute;
+  left: 65%;
+  top: 15%;
   z-index: 3;
 }
 
@@ -180,9 +189,9 @@ body {
 }
 
 #title-kanye {
-  width: 431.9px;
+  width: 435px;
   font-size: 35px;
-  font-weight: 400;
+  font-weight: 500;
   padding: 80px 0px 15px 0px;
   border-bottom: 4px solid #fff;
   margin-bottom: 20px;
