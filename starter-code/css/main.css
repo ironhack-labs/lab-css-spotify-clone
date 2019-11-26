@@ -1,8 +1,196 @@
-/*
-Colors:
+/* soft-reset */
+* {
+  padding: 0;
+  margin: 0;
+  list-style: none;
+  box-sizing: border-box;
+}
 
-Text: 1A1A1A
-Green: #00B172
-White: #FFF
+/* global cfg */
+body {
+  color: #1A1A1A;
+  font-family: 'Roboto', sans-serif;
+  font-weight: 300;
+  font-size: 16px;
+  line-height: 1.5;
+}
 
+h1 {
+  text-align: center;
+  font-size: 4em;
+  margin-bottom: 1rem;
+  font-weight: 200;
+  white-space: nowrap;
+}
+
+h2 {
+  display: inline-block;
+  text-align: center;
+  padding: 0.1em 0;
+  font-size: 1.6em;
+  font-weight: 500;
+  white-space: nowrap;
+}
+h3 {
+  font-size: 1.4em;
+  font-weight: 700;
+  text-align: center;
+  padding-bottom: 1em;
+  white-space: nowrap;
+}
+
+/* header and nav-bar */
+
+.std-padding {
+  padding: 1.2em 1.5em;
+}
+
+.std-padding-heading {
+  padding: .5em 1em;
+}
+
+header {
+  height: 60px;
+  background-color: white;
+  position: fixed;
+  width: 100%;
+}
+
+/* comments: tentativa de alinhar sem flexbox */
+.logo {
+  height: 100%;
+  width: auto;
+  /* float: left; */
+  /* position: relative; */
+}
+
+/* header nav { */
+  /* text-align: center; */
+  /* float: right; */
+  /* margin: 0 */
+/* } */
+
+.flex {
+  height: 100%;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+}
+
+nav ul li {
+  display: inline-block;
+  margin: 0 .8em;
+}
+
+.shift-content-down-after-header {
+  height: 60px;
+  padding: 1em;
+}
+
+.hero-img-container {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  height: 600px;
+  background-image: url("../images/landing.jpg");
+  background-position: center center;
+  background-size: cover;
+}
+.hero-img-container .hero-text {
+  text-align: center;
+  color: white;
+}
+
+.card-container {
+  margin: 3rem 0 5rem 0;
+  display: flex;
+  width: 0 auto;
+  justify-content: space-around;
+  align-items: baseline;
+}
+
+.card {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  width: 25%;
+}
+
+.card img {
+  padding: 1em;
+  width: auto;
+  height: 6rem;
+}
+
+.card p {
+  text-align: center;
+}
+
+.white-bg-highlight {
+  border-bottom: .12em solid #00B172;
+}
+
+.green-bg-highlight {
+  border-bottom: .12em solid white;
+  margin-bottom: 1.5em;
+}
+
+.inline-block-container-center {
+  display: flex;
+  justify-content: flex-start;
+}
+
+.green-bg-font-color {
+  color: white;
+}
+
+.white-bg-font-color {
+  color: #00B172;
+}
+
+.green-bg-logo-container {
+  height: 600px;
+  background-color:#00B172;
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: 10%;
+  background-image: url("../images/spotify-icon-white.png");
+}
+
+.green-bg {
+  padding: 5% 8%;
+}
+
+.green-bg-card {
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+  color: white;
+}
+
+.green-bg-card p {
+  padding-bottom: 1em;
+}
+
+.columns-container {
+  display: flex;
+  justify-content: space-between;
+}
+
+.green-bg-card-container {
+/* background-color: blue; */
+}
+
+.mock-up-container {
+  width: 30%;
+  position: relative;
+  bottom: 3em;
+  right: .8em;
+}
+
+.mock-up-container img {
+  width: 100%;
+}
+/* fonts:
+font-family: 'Roboto', sans-serif;
 */
