@@ -5,13 +5,15 @@
   list-style: none;
   box-sizing: border-box;
 }
+html {
+  font-size: 16px;
+}
 
 /* global cfg */
 body {
   color: #1A1A1A;
-  font-family: 'Roboto', sans-serif;
-  font-weight: 300;
-  font-size: 16px;
+  font-family: 'Open Sans', 'Roboto', sans-serif;
+  font-weight: 400;
   line-height: 1.5;
 }
 
@@ -19,7 +21,7 @@ h1 {
   text-align: center;
   font-size: 4em;
   margin-bottom: 1rem;
-  font-weight: 200;
+  font-weight: 400;
   white-space: nowrap;
 }
 
@@ -28,7 +30,7 @@ h2 {
   text-align: center;
   padding: 0.1em 0;
   font-size: 1.6em;
-  font-weight: 500;
+  font-weight: 600;
   white-space: nowrap;
 }
 h3 {
@@ -53,6 +55,7 @@ header {
   height: 60px;
   background-color: white;
   position: fixed;
+  z-index: 2;
   width: 100%;
 }
 
@@ -175,6 +178,7 @@ nav ul li {
 .columns-container {
   display: flex;
   justify-content: space-between;
+  height: 100%;
 }
 
 .green-bg-card-container {
@@ -184,12 +188,15 @@ nav ul li {
 .mock-up-container {
   width: 30%;
   position: relative;
-  bottom: 3em;
+  bottom: 2.5em;
   right: .8em;
 }
 
 .mock-up-container img {
   width: 100%;
+  max-width: 250px;
+  min-width: 150px;
+  z-index: 1;
 }
 /* fonts:
 font-family: 'Roboto', sans-serif;
