@@ -1,8 +1,104 @@
 /*
 Colors:
-
 Text: 1A1A1A
 Green: #00B172
 White: #FFF
-
 */
+.text-color {
+  color: #1A1A1A;
+}
+.color-green {
+  color: #00B172;
+}
+.color-white {
+  color: #FFF;
+}
+/* NAV BAR */
+header img {
+  height: 50px;
+}
+header nav {
+  display: flex;
+	justify-content: space-between;
+	align-items: center;
+  align-content: space-between;
+  padding: 0 20px;
+}
+header ul li { 
+  display: inline;
+  padding: 2px 10px;
+  display: inline-block;
+  font-size: 20px;
+  font-weight: bold;
+}
+header a {
+  text-decoration: none;
+  color: #1A1A1A;
+  /* Color não fuincionou atraves de class */
+}
+body {
+
+  font-size: 16px;
+}
+/* Section 01 */
+#section01 {
+  background-image: url("/lab-css-spotify-clone/starter-code/images/landing.jpg");
+  background-size: 100% 100%;
+}
+#section01 div {
+  text-align: center;
+  align-content: center;
+  padding: 200px 0 250px 0;
+  border: 1px solid black;
+}
+h1 {
+  font-size: 50px;
+}
+
+/* Section 02 */
+#section02 img {
+  height: 50px;
+}
+#section02 {
+  display: flex;
+  flex-direction: column;
+  justify-content: space-around;
+  align-items: center;
+}
+#section02 .iconsAndText {
+  display: flex;
+  justify-content: space-around;
+	align-items: center;
+	align-content: center;
+}
+.whatOS {
+  display: flex;
+  flex-direction: column;
+  justify-content: space-around;
+  align-items: center;
+  align-content: space-around;
+  padding: 20px 40px;
+  text-align: center;
+}
+/* Section 03 */
+h4 {
+  font-size: 30px;
+}
+#section03 p {
+  font-size: 20px;
+}
+#section03 {
+  background-color: #00B172;
+  margin: 20px auto;
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  align-items: center;
+}
+#section03 img {
+  width: 100%;
+}
+.whiteLogo {
+  height: 100px;
+  width: 100px;
+}
