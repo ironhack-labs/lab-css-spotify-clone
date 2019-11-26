@@ -4,5 +4,181 @@ Colors:
 Text: 1A1A1A
 Green: #00B172
 White: #FFF
-
 */
+
+
+
+body{
+  margin:0;
+  box-sizing: border-box;
+  padding-bottom:3em;
+  font-family: Roboto, sans-serif;
+}
+
+nav {
+  width:100%;
+  position: fixed;
+  height:90px;
+  background-color:white;
+  box-shadow:0px 1px 2px white; 
+}
+
+nav img {
+  width: 15%;
+  float: left;
+  padding: 14px 10px;
+  margin-left: 20px;
+}
+
+nav ul {
+  width:40%;
+  min-width:450px;
+  list-style-type: none;
+  float:right;
+  display: flex;
+  flex-direction: row; 
+  justify-content: space-around;
+  font-size: 150%;
+  margin-right:10px;
+  margin-top:33px;
+
+}
+
+#title {
+width:100%;
+background: url("../images/landing.jpg") center no-repeat;
+background-size: cover;
+color :#FFF;
+height:880px;
+border: solid 0px;
+}
+
+#title h1 {
+  width: 55%;
+  min-width:770px;
+  font-size:500%;
+  padding-top:400px;
+  padding-bottom:350px;
+  margin: 0 auto; 
+  text-align:center;
+}
+
+#title p {
+  width: 50%;
+  margin: -330px auto;
+  text-align: center;
+  font-size: 195%;
+}
+
+#section {
+  width:100%;
+  height:530px;
+
+}
+
+#section h2 {
+  width: 26%;
+  min-width: 370px;
+  margin: 40px auto 0;
+  text-align: center;
+  font-size: 250%;
+  border-bottom: solid 4px #00B172;
+}
+
+.section-box {
+  width:98%;
+  margin-right: auto;
+  margin-left: auto;
+  display: flex;
+  justify-content: center;
+
+}
+
+
+#section h3 {
+  color:#00B172;
+  font-size:32px;
+  text-align: center;
+}
+
+#section p{
+  width: 59%;
+  height:90px;
+  text-align: center;
+  margin-top: -7px;
+  font-size: 25px;
+}
+
+.container {
+  display:flex; 
+  flex-direction:column;
+  justify-content:center;
+  align-items: center;
+  margin-top:80px;
+  width:33%;
+}
+
+
+.logo {
+  width: 140px;
+  height: 120px;
+}
+
+
+#image {
+  width:26%;
+  height:80%;
+  padding-top:50px;
+}
+
+#logoWhite{
+  position: absolute;
+  margin: 200px auto;
+  width:10%
+} 
+
+
+#End {
+  width: 94%;
+  height: 800px;
+  margin : 0 auto;
+  background-color:#00B172;
+  display: flex; 
+  justify-content: space-around;
+  align-items: center;
+
+}
+
+#End .container-right{
+  height: 85%;
+  width: 47%;
+  color:white;
+  display:flex;
+  flex-direction: column;
+  justify-content: space-between;
+}
+
+#End .container-right h2 {
+  font-size: 240%;
+  border-bottom: solid;
+  width: 83%;
+  margin-top:0;
+  line-height: 1.3em;
+
+}
+
+#End .container-right h3 {
+  font-size:200%;
+}
+
+#End .container-right p {
+  width: 60%;
+  font-size:25px;
+  margin:0;
+  font-weight:90;
+  line-height: 1.2em;
+
+} 
+
+
+
