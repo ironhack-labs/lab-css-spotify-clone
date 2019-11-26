@@ -14,13 +14,24 @@ White: #FFF
 
 body {
   color: #1a1a1a;
-  font-family: 'Open Sans', Arial, Helvetica, sans-serif;
+  font-family: 'Roboto', Arial, Helvetica, sans-serif;
 }
 
 /* NAV BAR */
 
 #nav-bar {
   list-style: none;
+  margin-right: 10px;
+  padding-right: 70px;
+  margin-top: -45px;
+  float: right;
+}
+
+#nav-bar > li {
+  display: inline-block;
+  font-size: 21px;
+  font-weight: 300;
+  padding: 0px 20px;
 }
 
 #nav-bar a {
@@ -34,12 +45,13 @@ body {
   width: 1300px;
   background-color: white;
   padding: 15px 30px;
+  z-index: 4;
 }
 
 /* INTRO */
 
 .spotify-icon {
-  width: 100px;
+  width: 130px;
 }
 
 #intro {
@@ -51,6 +63,7 @@ body {
 }
 
 #intro > h1 {
+  font-family: 'Open Sans', Arial, Helvetica, sans-serif;
   font-size: 72px;
   position: absolute;
   top: 45%;
@@ -59,7 +72,6 @@ body {
 }
 
 #intro-p {
-  font-family: 'Roboto', Arial, Helvetica, sans-serif;
   font-size: 29px;
   font-weight: 300;
   position: absolute;
@@ -70,4 +82,108 @@ body {
 
 #spotify-logo {
   width: 190px;
+}
+
+/* WHATS ON SPOTIFY*/
+
+#whats-spotify {
+  padding: 20px 0px;
+  text-align: center;
+}
+
+#whats-title > h2 {
+  text-align: center;
+  font-size: 37px;
+  font-weight: 500;
+  padding-bottom: 5px;
+}
+
+#whats-title {
+  border-bottom: 3px solid #00B172;
+  margin: 0px 439px;
+}
+
+#whats-spotify h3 {
+  color: #00B172;
+}
+
+#grid-format > div {
+  display: inline-block;
+}
+
+#grid-format {
+  margin: 60px 0px;
+}
+
+.whats-format {
+  text-align: center;
+  width: 250px;
+  padding: 0px 70px;
+}
+
+.whats-format > h3 {
+  font-size: 28px;
+  padding: 25px 0px;
+}
+
+.whats-format > p {
+  font-size: 23px;
+  font-weight: 200;
+}
+
+/* Kanye West */
+
+#kanye-west {
+  background-color: #00B172;
+  color: #FFF;
+  height: 760px;
+  z-index: 2;
+}
+
+#kanye-west > div {
+  display: inline-block;
+}
+
+#text-format-kanye {
+  padding: 0px 0px 0px 90px;
+  width: 318px;
+  line-height: 30px;
+}
+
+#text-format-kanye p {
+  font-size: 21px;
+  font-weight: 300;
+  letter-spacing: 0.5px;
+}
+
+#text-format-kanye > div h3 {
+  font-size: 27px;
+  font-weight: 500;
+  padding: 35px 0px;
+}
+
+#spotify-white {
+  width: 100px;
+  vertical-align: middle;
+}
+
+#spotify-kanye {
+  width: 320px;
+  position: relative;
+  left: 80%;
+  top: 50%;
+  z-index: 3;
+}
+
+.page-format {
+  margin: 20px 40px;
+}
+
+#title-kanye {
+  width: 431.9px;
+  font-size: 35px;
+  font-weight: 400;
+  padding: 80px 0px 15px 0px;
+  border-bottom: 4px solid #fff;
+  margin-bottom: 20px;
 }
