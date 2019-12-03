@@ -6,3 +6,250 @@ Green: #00B172
 White: #FFF
 
 */
+
+@import url("https://fonts.googleapis.com/css?family=Roboto:300,400,500");
+
+/*------------------------------------*\
+  #GENERAL
+\*------------------------------------*/
+
+* {
+  box-sizing: border-box;
+}
+
+/*------------------------------------*\
+  #IMAGES
+\*------------------------------------*/
+
+img {
+  max-width: 100%;
+  max-height: 100%;
+}
+
+/*------------------------------------*\
+  TIPOGRAPHY
+\*------------------------------------*/
+
+body {
+  font-family: "Roboto", sans-serif;
+  color: #1a1a1a;
+}
+
+p {
+  font-size: 1.1rem;
+  line-height: 1.4rem;
+  font-weight: 100;
+}
+
+h1 {
+  margin-bottom: 2rem;
+  font-size: 4.5rem;
+}
+
+h2 {
+  display: block;
+  width: fit-content;
+  margin: 0 auto;
+  margin-bottom: 2.5rem;
+  padding-bottom: 0.5rem;
+
+  border-bottom: 3px solid #00b172;
+
+  font-size: 2rem;
+}
+
+h3 {
+  margin-bottom: 1rem;
+
+  color: #00b172;
+  font-size: 1.5rem;
+  font-weight: 500;
+}
+
+/*------------------------------------*\
+  #LAYOUT
+\*------------------------------------*/
+
+section {
+  padding: 2.5rem 2rem;
+}
+
+section .section-content {
+  max-width: 800px;
+  margin: 0 auto;
+}
+
+.cols > .col {
+  float: left;
+  margin-bottom: 3rem;
+  padding: 1.5rem;
+}
+
+.cols.col3 > .col {
+  width: 33%;
+}
+
+.cols > .col70 {
+  width: 70%;
+}
+
+.cols > .col30 {
+  width: 30%;
+}
+
+.clearfix {
+  clear: both;
+}
+
+
+/*------------------------------------*\
+  #THEME-DARK
+\*------------------------------------*/
+.theme-dark {
+    background: #00B172;
+    border: 2rem solid #fff;
+  }
+  
+  .theme-dark, .theme-dark h3 {
+    color: #fff;
+  }
+  
+  .theme-dark h2 {
+    border-bottom-color: #fff;
+  }
+
+/*------------------------------------*\
+  #NAV
+\*------------------------------------*/
+
+.nav-bar {
+  position: fixed;
+  width: 100%;
+  height: 5rem;
+  padding: 1rem 3rem;
+
+  background: #fff;
+
+  z-index: 999;
+}
+
+.nav-bar nav {
+  float: right;
+  position: relative;
+  top: calc(50% - 0.6rem);
+}
+
+.nav-bar nav ul li {
+  display: inline-block;
+  padding: 0 1rem;
+}
+
+.nav-bar nav ul li a {
+  color: inherit;
+  font-size: 1.1rem;
+  font-weight: 100;
+  text-decoration: none;
+}
+
+/*------------------------------------*\
+  #HEADER
+\*------------------------------------*/
+
+header {
+  position: relative;
+  height: 100vh;
+
+  background: url(../images/landing.jpg);
+  background-size: cover;
+  background-position: center;
+  background-repeat: no-repeat;
+}
+
+header .header-content {
+  position: absolute;
+  display: inline-block;
+  height: fit-content;
+  width: fit-content;
+  top: 0;
+  left: 0;
+  bottom: 0;
+  right: 0;
+  margin: auto;
+  padding-top: 5rem;
+
+  color: #fff;
+  text-align: center;
+}
+
+header .header-content p {
+  margin-bottom: 0.5rem;
+
+  font-size: 1.4rem;
+  font-weight: 100;
+}
+
+/*------------------------------------*\
+  #WHATS ON
+\*------------------------------------*/
+
+.whats-on .features {
+  text-align: center;
+}
+
+.whats-on .features img {
+  height: 7rem;
+  margin-bottom: 1.5rem;
+}
+
+/*------------------------------------*\
+  #KANYE WEST SECTION
+\*------------------------------------*/
+
+.kanye-west {
+  position: relative;
+  background: #00b172;
+  border: 2rem solid #fff;
+  height:100vh;
+}
+
+.kanye-west h2 {
+  margin-left: 0;
+}
+
+.kanye-west p {
+  margin-bottom: 4rem;
+}
+
+.kanye-west .kanye-west-cols {
+  max-width: 800px;
+  margin: 0 auto;
+}
+
+
+.kanye-west .kanye-west-cols .col-reduced p {
+  max-width: 20rem;
+}
+
+.kanye-west .kanye-west-cols .col70 {
+  text-align: center;
+}
+
+.kanye-west .kanye-west-cols .col30 img {
+  max-height: 35rem;
+}
+
+.kanye-west .element-center {
+  position: relative;
+  height: fit-content;
+  width: fit-content;
+  top: 0;
+  left: 0;
+  bottom: 0;
+  right: 0;
+  margin: auto;
+}
+
+.kanye-west .element-center img {
+  height: 6rem;
+  width: 6rem;
+}
