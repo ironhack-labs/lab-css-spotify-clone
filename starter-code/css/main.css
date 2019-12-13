@@ -5,4 +5,158 @@ Text: 1A1A1A
 Green: #00B172
 White: #FFF
 
+Comentarios personales:
+- Estrategia de classes muy mala, falto tiempo.
+- Puede que algunas classes sin usar, falta limpiar.
+- Responsive no controlado, solo mi monitor al 100%
+- Prohibido usar flexbox.
 */
+* {
+    margin: 0;
+    padding: 0;
+    color: #1A1A1A;
+  }
+nav {
+    position: fixed;
+    background-color: white;
+    width: 100%;
+    font-size: 30px;
+    padding: 30px;
+}
+nav a {
+  text-decoration: none;
+}
+nav img{
+    float: left;
+}
+nav ul {
+    float: right;
+    margin-right: 80px;
+    padding: 10px;
+}
+nav li{
+    display: inline;
+    margin: auto 20px;
+
+}
+.container{
+    margin: 0 auto;
+    max-width: 90%;
+    text-align: center;
+}
+
+
+h1 {
+    margin-top: 150px;
+    margin-bottom: 20px;
+    color: white;
+    font-size: 85px;
+    text-align: center;
+    font-family: 'Arial';
+  }
+
+h2 {
+    margin: 10px auto;
+    color: white;
+    font-size: 30px;
+    text-align: center;
+  }
+
+h3{
+      padding: 15px;
+      margin-bottom: 50px;
+      margin-top: 40px;
+      font-size: 35px;
+      border-bottom: 4px solid;
+      border-color: #00B172;
+      display: inline-block;
+}
+
+h4{
+    font-size: 30px;
+    color: #00B172;
+    margin-top: 5px;
+}
+
+#first{
+    height: 750px;
+    background-image:  url("../images/landing.jpg");
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: bottom;
+    padding-top: 50px;
+  }
+  
+
+#second .cont{
+  display: inline-block;
+  width: 33%;
+}
+
+#second p{
+  font-size: 20px;
+  max-width: 250px;
+  margin: 20px auto;
+}
+
+#third {
+  background-color: #00B172;
+  color: white;
+  padding: 50px;
+  margin-left: 10px;
+  margin-right: 10px;
+  margin-top: 40px;
+  margin-bottom: 40px;
+  position: relative;
+  z-index: -1;
+  }
+
+#third > img{
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  z-index: -1;
+}
+
+#third .cont{
+  display: inline-block;
+}
+
+#third .cont img{
+  display: inline-block;
+}
+
+
+#third h3{
+  padding: 0px;
+  font-size: 37px;
+  border-color: #00B172;
+  border-bottom: 4px solid white;
+  color: white;
+
+}
+
+#third h4{
+  font-size: 30px;
+  color: white;
+  margin-top: 5px;
+}
+
+
+#third .text {
+  text-align: left;
+  font-size: 25px;
+  width: 50%;
+}
+
+#third p{
+  max-width: 250px;
+  margin-top: 15px;
+  color: white;
+}
+
+#third .subcont {
+  margin: 40px 0px 0px 0px;
+}
+
