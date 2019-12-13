@@ -1,8 +1,150 @@
-/*
-Colors:
 
-Text: 1A1A1A
-Green: #00B172
-White: #FFF
+@import url('https://fonts.googleapis.com/css?family=Montserrat:400,700&display=swap');
 
-*/
+body {
+    margin: 0;
+    font-family: 'Montserrat', sans-serif;
+}
+
+.container {
+    width: 100%;
+}
+
+header {
+    position: fixed;
+    background-color: white;
+    width: 100%;
+}
+
+header > div {
+    padding: 15px 25px 15px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+header img {
+    width: 236px;
+    height: 70px;
+}
+
+nav ul {
+    float: left;
+}
+
+nav ul li {
+    display: inline;
+    margin: 10px;
+    font-size: 1.25em;
+}
+
+nav ul li a {
+    text-decoration: none;
+    color: #1A1A1A;
+}
+
+.primera-seccion {
+    background: url(../images/landing.jpg);
+    color: white;
+    height: 700px;
+    background-position: center; 
+    background-repeat: no-repeat; 
+    background-size: cover;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+h1 {
+    font-size: 4.5em;
+    margin-bottom: 2%;
+    margin-top: 0;
+}
+
+.primera-seccion > p {
+    font-size: 1.75em;
+    text-align: center;
+}
+
+.segunda-seccion h2 {
+    text-align: center;
+    text-decoration: underline;
+    text-decoration-color: #00B172;
+    font-size: 2em;
+    margin: 4% 0 6% 0;
+}
+
+.features {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-evenly;
+    align-items: center;
+    margin-bottom: 6%;
+}
+
+.features div {
+    text-align: center;
+}
+
+.features img {
+    width: 130px;
+    height: 100px;
+}
+
+.features h3 {
+    color: #00B172;
+    font-weight: 700;
+    font-size: 1.5em;
+}
+
+.features p {
+    color: #1A1A1A;
+    font-size: 1.25em;
+}
+
+.tercera-seccion {
+    color:white;
+    background-color: #00B172;
+    margin: 2.5%;
+    display: flex;
+    flex-wrap: wrap;
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.tercera-seccion article {
+    padding: 4% 8%;
+}
+
+.tercera-seccion article div {
+    margin-top: 10%;
+}
+
+.tercera-seccion h2 {
+    text-decoration: underline;
+    text-decoration-color: white;
+    font-size: 2em; 
+}
+
+.tercera-seccion h3 {
+    font-size: 1.5em;
+}
+
+.tercera-seccion p {
+    font-size: 1.25em;
+}
+
+.white-logo {
+    width: 120px;
+    height: 120px;
+    margin-left: -15%;
+}
+
+.screenshot {
+    width: 310px;
+    height: 540px;
+    margin-right: 7%;
+    margin-top: 4%;
+}
