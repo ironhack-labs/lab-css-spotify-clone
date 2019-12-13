@@ -6,3 +6,123 @@ Green: #00B172
 White: #FFF
 
 */
+@import url('https://fonts.googleapis.com/css?family=Poppins');
+        
+body {
+    font-family: 'Poppins';
+    margin: 0px;
+}
+ 
+.spotify-logo{
+    width: 160px;
+    padding: 10px 0px 10px 0px;
+}
+
+.landing {
+    width: 100%;
+}
+
+header{
+    font-size: 15px;
+}
+
+header > div {
+    padding: 0 25px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    border-bottom: 1px solid lightgray;
+}
+
+nav {
+    width: 350px;
+}
+
+nav ul {
+    list-style: none;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+nav a {
+    text-decoration: none;
+    color: black;
+}
+
+.container{
+    width: 80%;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+#section0 {
+    position: relative;
+}
+
+#section0 > h1 {
+    width: 100%;
+    text-align: center;
+    position: absolute;
+    margin-left: auto;
+    margin-right: auto;
+    font-size: 80px;
+    color:white;
+    top: 43%;
+    height: 100px;
+    margin-top: -50px;
+}
+
+#section0 > h2{
+    width: 50%;
+    text-align: center;
+    position: absolute;
+    margin-left: 25%;
+    font-size: 20px;
+    color:#FFF;
+    top: 60%;
+    height: 100px;
+    margin-top: -50px; 
+}
+
+#section1 > article {
+    margin: 20px;
+    text-align: center;
+    width: 30%;
+    margin-left: auto;
+    margin-right: auto;
+    font-weight: bold;
+    font-size: 30px;
+    border-bottom: #00B172 5px solid;
+}
+
+#section1 > div {
+    padding-top: 40px;
+    width: 100%;
+    display: inline-flex;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+#box1 > img, #box2 > img, #box3 > img {
+    width: 120px;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+#box2 > article {
+    padding-top: 20px;
+}
+
+#box1, #box2, #box3  {
+    text-align: center;
+    display: grid;
+    font-size: 22px;
+    width: 100%;
+}
+
+#box1 > article, #box2 > article, #box3  > article {
+    color: #00B172;
+    font-size: 30px;
+    font-weight: bold;
+}
