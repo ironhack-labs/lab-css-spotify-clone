@@ -6,3 +6,133 @@ Green: #00B172
 White: #FFF
 
 */
+body {
+    color:#1A1A1A;
+    margin:0;
+    padding:0;
+}
+header {
+    position: fixed;
+    display: flex;
+    flex-flow: row nowrap;
+    align-content: center;
+    justify-content: space-between;
+    background: white;
+    width:100vw;
+    top:0;
+    left:0;
+    padding:10px;
+    box-sizing: border-box;
+    height:80px
+}
+h1 {
+    font-size: 56px;
+    font-weight: bold;
+}
+h2 {
+    font-weight: normal;
+    font-size: 35px;
+}
+h3 {
+    margin: 0 auto;
+    font-size: 32px;
+    display: inline;
+    border-bottom: 4px solid #00B172;
+}
+h4 {
+    font-size: 27px;
+    color:#00B172;
+    font-weight: bold;
+}
+section {
+    margin-top:40px;
+    text-align: center;
+}
+.articles {
+    display: flex;
+    flex-flow: row nowrap;
+    justify-content: space-around;
+    margin:80px 0;
+}
+.articles article {
+    width:33%;
+}
+.articles article img {
+    height:140px;
+}
+.articles article p {
+    font-size: 22px;
+    font-weight: normal;
+}
+nav ul {
+    list-style-type: none;
+}
+nav ul li {
+    display:inline;
+    padding:15px;
+}
+nav ul li a {
+    text-decoration: none;
+    font-size: 18px;
+}
+nav ul li a:active {
+    color: inherit;
+}
+#banner {
+    background: url("../images/landing.jpg");
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: center;
+    height: calc(100vh - 80px);
+    margin-top:80px;
+    color:white;
+    display: flex;
+    flex-flow: column;
+    align-content: center;
+    justify-content: center;
+}
+#banner h1, #banner h2 {
+    text-align: center;
+    margin:15px;
+}
+.container {
+    max-width: 1200px;
+    margin:0 auto;
+}
+@media screen and (max-width:  1200px) {
+    .container {
+        padding:0 15px;
+    }
+}
+
+.background-green {
+    background: #00B172;
+    color:white;
+    padding:40px;
+}
+.background-green h3 {
+    text-align: left;
+    margin-left:0;
+    display: block;
+}
+.background-green h4 {
+    color:white;
+    text-align: left;
+}
+.background-green p {
+    text-align: left;
+}
+.background-green .articles {
+    display: flex;
+    flex-flow: column;
+    margin-top:40px;
+    width:50%;
+}
+.background-green .articles article {
+    width:100%;
+}
+.background-green .wrap {
+    display: flex;
+    flex-flow: row nowrap;
+    justify-content: space-between;
+}
