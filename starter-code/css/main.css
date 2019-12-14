@@ -1,16 +1,7 @@
-/*
-Colors:
-
-Text: 1A1A1A
-Green: #00B172
-White: #FFF
-
-*/
 @import url('https://fonts.googleapis.com/css?family=Poppins');
         
 body {
     font-family: 'Poppins';
-    margin: 0px;
 }
  
 .spotify-logo{
@@ -51,16 +42,16 @@ nav a {
 }
 
 .container{
-    width: 80%;
+    width: 90%;
     margin-left: auto;
     margin-right: auto;
 }
 
-#section0 {
+.section0 {
     position: relative;
 }
 
-#section0 > h1 {
+.section0 > h1 {
     width: 100%;
     text-align: center;
     position: absolute;
@@ -73,7 +64,7 @@ nav a {
     margin-top: -50px;
 }
 
-#section0 > h2{
+.section0 > h2{
     width: 50%;
     text-align: center;
     position: absolute;
@@ -85,10 +76,11 @@ nav a {
     margin-top: -50px; 
 }
 
-#section1 > article {
+.section1 > article {
     margin: 20px;
     text-align: center;
     width: 30%;
+    padding-top: 30px;
     margin-left: auto;
     margin-right: auto;
     font-weight: bold;
@@ -96,7 +88,7 @@ nav a {
     border-bottom: #00B172 5px solid;
 }
 
-#section1 > div {
+.section1 > div {
     padding-top: 40px;
     width: 100%;
     display: inline-flex;
@@ -104,25 +96,80 @@ nav a {
     margin-right: auto;
 }
 
-#box1 > img, #box2 > img, #box3 > img {
+.box1 > img, .box2 > img, .box3 > img {
     width: 120px;
     margin-left: auto;
     margin-right: auto;
 }
 
-#box2 > article {
+.box2 > article {
     padding-top: 20px;
 }
 
-#box1, #box2, #box3  {
+.box1, .box2, .box3  {
     text-align: center;
     display: grid;
     font-size: 22px;
     width: 100%;
 }
 
-#box1 > article, #box2 > article, #box3  > article {
+.box1 > article, .box2 > article, .box3  > article {
     color: #00B172;
     font-size: 30px;
+    padding: 50px 0px 50px 0px;
     font-weight: bold;
+}
+
+.sectionGeneral  {
+    width: 100%;
+    height: auto;
+    display: flex;
+    background-color: #00B172;
+    margin: 100px 0px 50px 0px;
+    position: relative;
+} 
+
+.sectionGeneral section {
+    flex: 1;
+    padding: 50px 0px 50px 0px;
+}
+
+.sectionLeft {
+    padding: 50px;
+    color: white;
+    font-size: 20px;
+} 
+
+.sectionLeft > article {
+    margin: 20px;
+    text-align: center;
+    width: 90%;
+    font-weight: bold;
+    font-size: 30px;
+    border-bottom: #FFF 5px solid;
+}
+
+.spottify-app {
+    width: 65%;
+    margin-left: 20%;
+} 
+
+.spotify-icon-white {
+    width: 100px;
+    height:  100px;
+    position: absolute;
+    top: 50%;
+    margin-left: 50%;
+    transform: translate(-50%,-50%);
+}
+
+.sectionLeft > div {
+    width: 70%;
+    margin-left: 10%;
+    margin-right: 20%;
+}
+
+.textUnderArticle > h5{ 
+    font-weight: bold;
+    padding: 40px 0px 40px 0px;
 }
