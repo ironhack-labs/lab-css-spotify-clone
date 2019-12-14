@@ -1,44 +1,104 @@
 <!DOCTYPE html>
 <html lang="en">
-  <head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <meta http-equiv="X-UA-Compatible" content="ie=edge">
-    <title>Spotify</title>
-  </head>
-  <body>
-    Premium Discover Help Download
 
-    Music for everyone.
-    Spotify is now free on mobile, tablet and computer.
-    Listen to the right music, wherever you are.
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <meta http-equiv="X-UA-Compatible" content="ie=edge">
+  <link rel="stylesheet" type="text/css" href="./css/main.css" />
 
-    What’s on Spotify?
+  <title>Spotify</title>
+  <div class="header">
+    <div>
+      <img class="spotifyLogo" src="./images/spotify-logo.png" alt="spotify logo">
+    </div>
+    <nav>
+      <ul>
+        <li>Discover</li>
+        <li>Help</li>
+        <li>Download</li>
+      </ul>
+    </nav>
+  </div>
+</head>
 
-    Millions of Songs
-    There are millions of
-    songs on Spotify
+<body>
+  <section class="spotifyLanding">
+    <img src="./images/landing.jpg" alt="landing">
+    <div>
+      <h1>Music for everyone.</h1>
+      <p>
+        Spotify is now free on mobile, tablet and computer.
+        Listen to the right music, wherever you are.
+      </p>
+    </div>
+  </section>
 
-    HD Music
-    Listen to music as if you
-    were listening live
+  <section id="spotifyInfo">
 
-    Stream Everywhere
-    Stream music on your
-    smartphone, tablet or
-    computer
+    <h2>What’s on Spotify?</h2>
+    <article class="container">
+      <div>
+        <img src="./images/music-icon.png" alt="music icon">
+        <h3>Millions of Songs</h3>
+        <p>
+          There are millions of
+          songs on Spotify
+        </p>
+      </div>
+      <div>
+        <img src="./images/high-quality-icon.png" alt="high quality icon">
+        <h3>HD Music</h3>
+        <p>
+          Listen to music as if you
+          were listening live
+        </p>
+      </div>
+      <div>
+        <img src="./images/devices-icon.png" alt="devices icon">
+        <h3>Stream Everywhere</h3>
+        <p>
+          Stream music on your
+          smartphone, tablet or
+          computer
+        </p>
+      </div>
+    </article>
+  </section>
 
-    It’s as yeezy as Kanye West.
-    Search
-    Know what you want to listen to?
-    Just search and hit play.
-    Browse
-    Check out the latest charts,
-    brand new releases and great
-    playlists for right now.
-    Discover
-    Enjoy new music every Monday
-    with your own personal playlist.
-    Or sit back and enjoy Radio.
-  </body>
+  <section id="spotifyApp">
+    <article class="container">
+      <h2>It’s as yeezy as Kanye West.</h2>
+
+      <div>
+        <h3>Search</h3>
+        <p>
+          Know what you want to listen to?
+          Just search and hit play.
+        </p>
+      </div>
+      <div>
+        <h3>Browse</h3>
+        <p>
+          Check out the latest charts,
+          brand new releases and great
+          playlists for right now.
+        </p>
+      </div>
+      <div>
+        <h3>Discover</h3>
+        <p>
+          Enjoy new music every Monday
+          with your own personal playlist.
+          Or sit back and enjoy Radio.
+        </p>
+      </div>
+    </article>
+    <article class="containerImg">
+      <img id="iconWhite" src="./images/spotify-icon-white.png" alt="spotify icon white">
+      <img id="spotifyApp" src="./images/spotify-app.jpg" alt="spotify spotify-app">
+    </article>
+  </section>
+</body>
+
 </html>
