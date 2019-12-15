@@ -27,7 +27,6 @@ nav a {
     text-decoration: none;
     color: black;
     font-size:1.4em;
-
 }
 
 header {
@@ -103,48 +102,58 @@ header {
 
 .colored-square {
     background-color: #00B172;
-    margin: 0 40px 0 40px;
-    height: 1000px;
-}
-
-.spotify-symbol {
-    width: 150px;
-    position: relative;
-    top: 500px;
-    left: 620px;
+    margin: 0 40px 50px 40px;
+    height: 800px;
 }
 
 .artist-introduction {
     font-size: 2.5em;
     font-weight: bold;
     color:white;
-    padding: 0 0 50px 100px;
-    border:solid;
+    padding: 80px 0px 0px 100px;
+ 
 }
 
 .separator-artist-introduction {
-    height:5px;
-    width:39%;
+    height:3px;
+    width:35%;
     background-color: white;
-    margin: 10px 0 0 0;
+    margin: 10px 0 0 100px;
 }
 
-.functions-container {
+.container-functions {
+    color:rgb(53, 49, 49);
+    height:800px;
+    margin: 20px 100px 0 100px;;
     display:flex;
-    justify-content: flex-start;
-    flex-wrap: wrap;
-    padding: 0 0 0 100px;
+    flex-direction: row;
+    justify-content: space-between;
+}
+
+.functions {
+    width:28%;
     color:white;
     font-size: 1.5em;
-    width: 25%;
-    border:solid;
+}
+
+.app-screenshot {
+    width:30%;
 }
 
 .spotify-app {
+    width: 90%;
+}
+
+.spotify-symbol-container {
+    display:flex;
+    align-items:center;
+    justify-content: center;
+    height: 60%;
+
+}
+
+.spotify-symbol {
     width: 20%;
-    border:solid;
-    align-self: flex-end ;
-    
 }
 
 /*
