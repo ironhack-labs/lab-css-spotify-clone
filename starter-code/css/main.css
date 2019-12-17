@@ -1,8 +1,154 @@
-/*
-Colors:
+@import url('https://fonts.googleapis.com/css?family=Montserrat:400,100,700');
 
-Text: 1A1A1A
-Green: #00B172
-White: #FFF
+body {
+    color: #1A1A1A;
+    font-family: "Montserrat", sans-serif;
+    margin: 0;
+}
 
-*/
+header {
+    display: flex;
+    justify-content: center;
+}
+
+nav {
+    position: fixed;
+    width: 100%;
+    height: 80px;
+    background-color: #FFF;
+}
+
+#spotify-logo {
+    width: 180px;
+    padding-left: 30px;
+    float: left;
+    margin-top: 13px;
+}
+
+nav ul {
+    width: 400px;
+    float: right;
+    list-style: none;
+    display: flex;
+    justify-content: space-around;
+    align-items: flex-end;
+    font-size: 18px;
+    padding-right: 30px;
+    margin-top: 30px;
+}
+
+#banner {
+    height: 600px;
+    background-image: url("../images/landing.jpg");
+    background-size: cover;
+    background-position: center;
+    color: #FFF;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    margin-top: 80px;
+}
+
+#banner h1 {
+    font-size: 60px;
+    font-weight: bold;
+    text-align: center;
+    margin: 0 0 15px 0;
+}
+
+#banner p {
+    font-size: 20px;
+    text-align: center;
+    margin: 2px 0;
+}
+
+#whats-on-header {
+    width: 285px;
+    border-bottom: 4px solid #00B172;
+    padding-bottom: 5px;
+    margin-left: auto;
+    margin-right: auto;
+    margin-bottom: 80px;
+}
+
+#whats-on-header h2 {
+    font-size: 30px;
+    font-weight: 400;
+    text-align: center;
+    margin: 30px 0 0 0;
+}
+
+#whats-on-content {
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    margin: 50px 100px;
+}
+
+#whats-on-content div {
+    width: 33%;
+    height: 250px;
+    text-align: center;
+    margin: 0 30px;
+}
+
+#whats-on-content img {
+    height: 80px;
+}
+
+#whats-on-content h3 {
+    font-size: 19px;
+    font-weight: bold;
+    color: #00B172;
+}
+
+#whats-on-content p {
+    font-size: 17px;
+    font-weight: lighter;
+}
+
+#kanye {
+    position: relative;
+    margin: 0 20px;
+    padding: 40px 60px;
+    background-color: #00B172;
+    color: #FFF;
+}
+
+#kanye-header {
+    width: 380px;
+    border-bottom: 3px solid #FFF;
+    padding-bottom: 6px;
+    margin-bottom: 40px;
+}
+
+#kanye-header h2 {
+    font-size: 26px;
+    font-weight: 700;
+    margin: 25px 0 0 0;
+}
+
+#kanye-content {
+    width: 285px;
+    line-height: 1.5;
+    font-size: 17px;
+}
+
+#kanye-content h3 {
+    margin: 30px 0 10px 0;
+}
+
+#spotify-icon {
+    position: absolute;
+    width: 100px;
+    top: 45%;
+    left: 45%;
+}
+
+#spotify-app {
+    position: absolute;
+    height: 450px;
+    top: 90px;
+    right: 60px;
+}
