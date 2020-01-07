@@ -41,7 +41,6 @@ h4 {
 
 nav img.logo {
     width: 150px;
-    /* padding: 5px; */
 }
 
 .navbar a:hover {
@@ -50,8 +49,6 @@ nav img.logo {
 
 .nav-links {
     width: 40%;
-    /* margin: 0; */
-    /* padding: 0; */
     list-style-type: none;
     display: flex;
     justify-content: space-between;
@@ -59,11 +56,7 @@ nav img.logo {
 }
 
 .navbar a {
-    /* float: right; */
-    /* display: block; */
     color: black;
-    /* text-align: left; */
-    /* padding: 14px 16px; */
     text-decoration: none;
 }
 
@@ -101,6 +94,7 @@ nav img.logo {
 }
 
 .features div {
+    padding: 10px;
     display: flex;
     flex-direction: row;
     justify-content: space-around;
@@ -108,34 +102,38 @@ nav img.logo {
 
 .features img {
     width: 100px;
+    height: 80px;
 }
 
 .features article {
     text-align: center;
     width: 200px;
+    margin: 20px;
 }
 
-.third-section {
+.green-section {
     color: white;
     background: #00B172;
     padding: 20px;
+    position: relative;
     display: flex;
-    flex-direction: row;
     justify-content: space-around;
     align-items: center;
 }
 
-.third-section h3 {
+.green-section h3 {
     font-size: 1.5em;
     text-decoration-line: underline;
     text-decoration-color: #fff;
     text-underline-position: under;
 }
 
-.third-section img.logo {
-    width: 100px;
+.green-section img.app {
+    width: 200px;
+    /* margin: 50%; */
 }
 
-.third-section img.app {
-    width: 200px;
+.green-section img.logo {
+    width: 100px;
+    position: absolute;
 }
