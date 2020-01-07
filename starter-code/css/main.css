@@ -1,3 +1,147 @@
+* {
+  margin:0;
+  padding:0;
+}
+
+body {
+  font-family: Circular, Helvetica, Arial, sans-serif;
+}
+
+.section {
+  position: relative;
+  margin:20px 0;
+}
+
+#navbar {
+  position:fixed;
+  display: flex;
+  box-sizing: border-box;
+  background: white;
+  width: 100%;
+  height:60px;
+  padding:10px;
+  justify-content: space-between;
+  align-items: center;
+  z-index: 2;
+}
+
+#logo img {
+  height:40px;
+}
+
+#navigation ul {
+  display: flex;
+  list-style-type: none;
+  color:black;
+}
+
+#navigation li {
+  padding:0 20px;
+}
+
+#splash-image {
+  display: flex;
+  padding-top:60px;
+  background: url("./../images/landing.jpg") no-repeat center center;
+  background-size: cover;
+  height:400px;
+  justify-content: center;
+  align-items: center;
+}
+
+#splash-text {
+  text-align: center;
+  color:white;
+}
+
+#splash-text h1 {
+  font-size: 4em;
+  margin-bottom: 30px;
+}
+
+#splash-text p {
+  font-size:1.5em;
+}
+
+.flex-space-evenly {
+  display: flex;
+  justify-content: space-evenly;
+}
+
+#section-info h2 {
+  text-align: center;
+  text-decoration: underline #1DB954;
+  padding:30px 0;
+}
+
+.logo-info {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  padding:0 20px;
+  flex-grow: 1;
+}
+
+.logo-info .logo-icon {
+  height:125px;
+  width:125px;
+}
+.logo-info img {
+  width:100%;
+}
+
+.logo-info h3 {
+  color:#1DB954;
+}
+
+.logo-info p {
+  margin-top:20px;
+  text-align: center;
+  max-width: 170px;
+}
+
+
+#section-appeal {
+  display: flex;
+  background-color:#1DB954;
+  margin:0 20px;
+  padding:50px 100px;
+  justify-content: space-between;
+  color:white;
+}
+
+#appeal-image {
+  height:500px;
+}
+
+#appeal-image img {
+  height:100%;
+}
+
+#appeal-text h2 {
+  font-size:2em;
+  text-decoration: underline;
+  margin-bottom: 60px;
+}
+
+#appeal-text h3 {
+  font-size:1.5em;
+  margin-bottom:30px;
+}
+
+#appeal-text h3 + p {
+  font-size: 1.2em;
+  margin-bottom: 30px;
+}
+
+#appeal-bckg-img {
+  position: absolute;
+  width: 150px;
+  top:48%;
+  left:45%;
+}
+
+
 /*
 Colors:
 
