@@ -6,3 +6,135 @@ Green: #00B172
 White: #FFF
 
 */
+
+* {
+    margin: 0;
+    padding: 0;
+}
+
+body {
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 14px;
+    color: #1A1A1A;
+}
+
+#main-header {
+    background-color: white;
+    position: fixed;
+    z-index: 1;
+    width: 100%;
+}
+
+#wrapper-header {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    box-sizing: border-box;
+    padding: 10px;
+    width: inherit;
+    width: 860px;
+    margin: auto;
+}
+
+#logo  img {
+    width: 150px;
+}
+
+#main-nav ul {
+    display: flex;
+    list-style: none;
+}
+
+#main-nav li {
+    padding-left: 20px;
+}
+
+#hero-section {
+    background: url('../images/landing.jpg') no-repeat center center;
+    background-size: cover;
+    color: white;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    padding: 20%;
+    position: relative;
+    top: 70px;
+}
+
+#hero-section h1 {
+    font-size: 2rem;
+}
+
+#hero-section h2 {
+    font-size: 1rem;
+    text-align: center;
+}
+
+#whats-on-spotify {
+    padding-top: 70px;
+    width: 860px;
+    margin: 50px auto;
+}
+
+#whats-on-spotify h2 {
+    border-bottom: 3px solid #00B172;
+    font-size: 1.4rem;
+    font-weight: bold;
+    width: fit-content;
+    margin: 20px auto;
+    margin-bottom: 60px;
+}
+
+#whats-on-spotify .container {
+    display: flex;
+    justify-content: center;
+}
+
+#whats-on-spotify .item {
+    flex: 1;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+}
+
+#whats-on-spotify .icon {
+    width: 70px;
+}
+
+.title.green {
+    color: #00B172;
+}
+
+.title.white {
+    color: white;
+}
+
+#easy {
+    background-color: #00B172;
+    color: white;
+    padding: 50px;
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+    width: 860px;
+    margin: auto;
+    box-sizing: border-box;
+}
+
+#easy .col {
+    padding: 20px;
+}
+
+#easy h2 {
+    font-weight: bold;
+    width: fit-content;
+    font-size: 1.4rem;
+    border-bottom: 3px solid white;
+}
+
+#easy .title {
+    margin: 20px 0;
+}
