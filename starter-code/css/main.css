@@ -77,10 +77,15 @@ h1{
 
 /* SECTION 1 */
 .blackh2{
-    text-decoration: underline #00B172;
-    text-align: center;
-    padding: 30px 0;
+    /*text-decoration: underline #00B172;*/
+    display: inline-block;
+    padding: 30px 0 10px;
     font-size: 2.5em;
+    border-bottom: #00B172 4px solid;
+}
+
+.whitesection{
+    text-align: center;
 }
 
 .whitesection div{
@@ -88,6 +93,7 @@ h1{
     justify-content: space-evenly;
     align-items: baseline;
     height: 450px;
+    margin: 30px 0 0;
 }
 
 article{
@@ -144,8 +150,10 @@ article p{
 }
 
 .whiteh2{
-    text-decoration: underline;
+    display: inline-block;
     font-size: 2.5em;
+    padding: 0 0 10px;
+    border-bottom: white 4px solid;
 }
 
 .whiteh3{
