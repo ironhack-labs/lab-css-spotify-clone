@@ -6,3 +6,164 @@ Green: #00B172
 White: #FFF
 
 */
+
+/* GENERAL */
+html, body{
+    margin: 0;
+    padding: 0;
+    background: white;
+    font-family: Arial, Helvetica, sans-serif;
+    font-weight: 100;
+}
+
+/* HEADER */
+.header{
+    display: flex;
+    flex-direction: column;
+}
+
+/* NAV BAR */
+.navbar{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 15px 25px;
+}
+
+.logo{
+    width: 200px;
+}
+
+.navlist{
+    list-style: none;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.navlist li{
+    padding: 0 15px;
+    font-size: 1.5em;
+}
+
+.navlist a{
+    text-decoration: none;
+    color: #1A1A1A;
+}
+
+/* MAIN PHOTO */
+.photo{
+    background-image: url(/images/landing.jpg);
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: center bottom;
+    height: 900px;
+    color: white;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+h1{
+    font-size: 5em;
+}
+
+.photo p{
+    width: 50%;
+    font-size: 2em;
+    text-align: center;
+}
+
+/* SECTION 1 */
+.blackh2{
+    text-decoration: underline #00B172;
+    text-align: center;
+    padding: 30px 0;
+    font-size: 2.5em;
+}
+
+.whitesection div{
+    display: flex;
+    justify-content: space-evenly;
+    align-items: baseline;
+    height: 450px;
+}
+
+article{
+    display : flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    width: 16%;
+}
+
+article p{
+    font-size: 1.2em;
+    text-align: center;
+}
+
+.icon{
+    width: 120px;
+}
+
+.greenh3{
+    color: #00B172;
+    font-size: 1.5em;
+}
+
+/* SECTION 2 */
+.greensection{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.greensection>div{
+    background-color: #00B172;
+    background-image: url(/images/spotify-icon-white.png);
+    background-size: 120px;
+    background-repeat: no-repeat;
+    background-position: center;
+    padding: 3% 7%;;
+    width: 95%;
+    box-sizing: border-box;
+    height: 1000px;
+    display: flex;
+}
+
+.greenblock{
+    display: flex;
+    flex-direction: column;
+    justify-content: space-evenly;
+    align-items: flex-start;
+}
+
+.whiteh2, .whiteh3, .whitep{
+    color: white;
+}
+
+.whiteh2{
+    text-decoration: underline;
+    font-size: 2.5em;
+}
+
+.whiteh3{
+    font-size: 1.5em;
+}
+
+.whitep{
+    width: 26%;
+    font-size: 1.2em;
+    line-height: 1.5em;
+}
+
+aside{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+aside>img{
+    width: 400px;
+}
