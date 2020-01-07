@@ -6,3 +6,167 @@ Green: #00B172
 White: #FFF
 
 */
+
+
+* {
+    margin: 0;
+    padding: 0;
+}
+
+body {
+    background-color: white;
+    height: 100vh;
+    font-family: 'Montserrat', sans-serif;
+    color:#00B172        
+}
+
+
+header {
+    position: fixed;
+    top:0 ;
+    display: flex;
+    width:100%;
+    justify-content: space-between;
+    padding:15px;
+    background-color: white;
+}
+header div {
+    width: 100px;    
+    flex: 1;    
+}
+header div img {
+    width: 100px;
+}
+header nav {
+    flex: 1;
+}
+header nav ul {
+    display: flex;
+    flex-direction: row;
+    margin-right: 30px;
+    margin-top: 10px;
+}
+header nav ul li {
+    flex: 1;
+    list-style: none;
+    text-align: right;
+}
+header nav ul li a {
+    color:#00B172;
+    text-decoration: none;
+}
+
+section.one {
+    background-image: url(../images/landing.jpg);
+    height: 100vh;
+    background-repeat: no-repeat;
+    background-size: cover;
+    color: white;
+    
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+section.one div h1 {
+   font-size: 70px;
+   font-family: arial;
+   margin-top: 0;
+   text-align: center
+}
+section.one div div {
+   font-size: 25px;
+   width:100%;
+   font-family: arial;
+   text-align: center;
+}
+.first {
+   margin-top: 30px;    
+}
+
+section.whatson {
+    width:90%;
+    margin: auto;
+    background-color: white;
+}
+section.whatson h2 {
+  color:black;
+  width: 100%;
+  text-align: center;
+  font-size:40px;
+  margin: 30px;
+  
+}  
+section.whatson div ul{
+    display: flex;
+    justify-content: center;
+    
+}
+section.whatson div ul li{
+    flex: 1;
+    list-style: none;
+    padding: 20px;
+    text-align: center;
+}
+section.whatson div ul li div {
+    text-align: center;
+}
+section.whatson div ul li img  {
+    width: 40px;
+    height: 40px;
+}
+section.whatson div ul li h3 {
+    margin: 20px;
+    font-size:30px;
+}
+section.whatson div ul li p {
+    margin: 20px;
+    font-size:18px;    
+}
+
+section.kanye {
+    background-color: #00B172;
+    width:90%;
+    margin: auto;
+    height:90vh;
+    background-image: url(../images/spotify-icon-white.png);
+    background-repeat: no-repeat;
+    background-size: 150px 150px;
+    background-position: center ;    
+    display: flex;
+    padding:30px;
+    color: white;
+}
+section.kanye div.two-columns {
+    width:60%;
+    height: 80vh;
+    flex: 1;
+    margin: 30px;
+}    
+section.kanye div.two-columns h3 {
+    font-size: 30px;
+    margin-bottom: 40px;
+}
+section.kanye div.two-columns h3 span {
+    border-bottom: white solid 2px;
+    padding-bottom: 10px;
+}    
+section.kanye div.two-columns h4 {
+    font-size: 18px;
+    margin-bottom: 40px;
+}    
+section.kanye div.two-columns p {
+    font-size: 14px;
+    margin-bottom: 40px;
+}    
+section.kanye div.two-columns.small-column {
+    width:40%;
+    height: 80vh;
+    flex: 1;
+    background-image: url(../images/spotify-app.jpg);
+    background-repeat: no-repeat;
+    background-size:contain;
+    background-position: center;
+    background-position-x: 80%;
+ 
+}    
+
