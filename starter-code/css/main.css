@@ -118,14 +118,15 @@ body {
     padding: 50px;
     display: flex;
     align-items: center;
-    justify-content: space-around;
+    justify-content: space-between;
     width: 860px;
     margin: auto;
     box-sizing: border-box;
+    position: relative;
 }
 
-#easy .col {
-    padding: 20px;
+#easy .col:nth-child(1) {
+    width: 320px;
 }
 
 #easy h2 {
@@ -137,4 +138,10 @@ body {
 
 #easy .title {
     margin: 20px 0;
+}
+
+#spotify-icon-white {
+    position: absolute;
+    top: 50%;
+    left: 50%;
 }
