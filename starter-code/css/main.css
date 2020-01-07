@@ -6,3 +6,146 @@ Green: #00B172
 White: #FFF
 
 */
+
+@import url(https://fonts.googleapis.com/css?family=Montserrat:800&display=swap);
+
+body {
+    margin: 0;
+    padding: 0;
+    width: 100vw;
+    height: 100vh;
+    font-family: "Montserrat", sans-serif;
+}
+
+nav {
+    position: fixed;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    height: 50px;
+    padding: 10px 20px;
+    background-color: white;
+    width: 100%;
+}
+
+#logo {
+    height: 100%;
+}
+
+ul {
+    list-style: none;
+    height: 100%;
+    display: flex;
+    width: 400px;
+    align-items: center;
+justify-content: space-evenly;
+    margin-right: 50px;
+    margin-bottom: 0;
+    margin-top: 0;
+    font-size: 20px;}
+
+#largeImage {
+    padding-top: 70px;
+    background-image: url(./../images/landing.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+    color: white;
+    height: 1000px;
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+    text-align: center;
+    width: 100%;
+}
+
+h1, #largeImage p {
+    margin: 10px;
+    border: 0;
+    padding: 0;
+    font-size: 30px;
+}
+
+h1 {
+    font-size: 80px;
+}
+
+#whats {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    margin-bottom: 80px;
+}
+
+h2 {
+    text-align: center;
+    font-size: 35px;
+    margin-bottom: 0;
+}
+
+#greenLine {
+    height: 3px;
+    border-bottom: 3px solid #00B172;
+    width: 280px;
+}
+
+#boxes {
+    display: flex;
+    margin-top: 50px;
+    justify-content: space-evenly;
+    width: 100%;
+}
+
+.icons {
+    height: 70px;
+}
+
+article {
+    align-items: center;
+    text-align: center;
+}
+
+article h3 {
+    color: #00B172;
+    font-size: 30px;
+}
+
+article p {
+    font-size: 25px;
+}
+
+
+
+
+#kanyeWest {
+    background-color: #00B172;
+    background-image: url(./../images/spotify-icon-white.png);
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: 110px;
+    color: white;
+    font-size: 20px;
+    padding: 50px 50px;
+    width: 80%;
+    margin: 0 auto;
+}
+
+#kanyeWest h2 {
+    text-align: left;
+}
+
+#kanyeWest h3 {
+    font-size: 30px;
+}
+
+#whiteLine {
+    height: 3px;
+    border-bottom: 3px solid white;
+    width: 415px;
+}
+
+
+#app {
+    width: 270px;
+    float: right;
+    margin-top: 70px;
+}
