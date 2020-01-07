@@ -8,18 +8,21 @@ body {
 }
 
 .section {
-  position: relative;
-  margin:20px 0;
+  position:relative;
+  margin: 20px 0;
 }
 
+/*
+ * Navigation bar
+ */
 #navbar {
-  position:fixed;
+  position: fixed;
   display: flex;
   box-sizing: border-box;
   background: white;
   width: 100%;
-  height:60px;
-  padding:10px;
+  height: 60px;
+  padding: 10px;
   justify-content: space-between;
   align-items: center;
   z-index: 2;
@@ -39,6 +42,14 @@ body {
   padding:0 20px;
 }
 
+#navigation li a {
+  color:#1A1A1A;
+  text-decoration: none;
+}
+
+/**
+ * Landing image
+ */
 #splash-image {
   display: flex;
   padding-top:60px;
@@ -49,6 +60,9 @@ body {
   align-items: center;
 }
 
+/**
+ * Landing text
+ */
 #splash-text {
   text-align: center;
   color:white;
@@ -63,15 +77,22 @@ body {
   font-size:1.5em;
 }
 
-.flex-space-evenly {
-  display: flex;
-  justify-content: space-evenly;
+/* Green underlined text */
+#underline-container { text-align: center; margin-bottom:30px; }
+#underline-container span {
+  display:inline-block;
+  font-weight: bold;
+  border-bottom: 3px solid #1DB954;
+  padding: 0 0 5px 0;
+  font-size: 25px;
 }
 
-#section-info h2 {
-  text-align: center;
-  text-decoration: underline #1DB954;
-  padding:30px 0;
+/**
+ * Logo info section
+ */
+#logo-info-container {
+  display: flex;
+  justify-content: space-evenly;
 }
 
 .logo-info {
@@ -86,6 +107,7 @@ body {
   height:125px;
   width:125px;
 }
+
 .logo-info img {
   width:100%;
 }
@@ -98,35 +120,32 @@ body {
   margin-top:20px;
   text-align: center;
   max-width: 170px;
+  color:#1A1A1A;
 }
 
-
+/**
+ * Bottom green section
+ */
 #section-appeal {
   display: flex;
   background-color:#1DB954;
-  margin:0 20px;
+  margin:20px;
   padding:50px 100px;
   justify-content: space-between;
   color:white;
 }
 
-#appeal-image {
-  height:500px;
-}
-
-#appeal-image img {
-  height:100%;
-}
-
-#appeal-text h2 {
-  font-size:2em;
-  text-decoration: underline;
-  margin-bottom: 60px;
+#appeal-text-underlined {
+  display: inline-block;
+  font-size: 2em;
+  margin-bottom: 30px;
+  padding-bottom: 8px;
+  border-bottom: 4px solid white;
 }
 
 #appeal-text h3 {
-  font-size:1.5em;
-  margin-bottom:30px;
+  font-size: 1.5em;
+  margin-bottom: 30px;
 }
 
 #appeal-text h3 + p {
@@ -134,19 +153,14 @@ body {
   margin-bottom: 30px;
 }
 
+/* App image (z-index to slide over background img if small screen )*/
+#appeal-image { height:500px; z-index:1; }
+#appeal-image img { height:100%; }
+
+/* Background transparent spotify icon */
 #appeal-bckg-img {
   position: absolute;
   width: 150px;
-  top:48%;
+  top:45%;
   left:45%;
 }
-
-
-/*
-Colors:
-
-Text: 1A1A1A
-Green: #00B172
-White: #FFF
-
-*/
