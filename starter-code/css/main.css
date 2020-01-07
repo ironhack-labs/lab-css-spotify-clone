@@ -6,3 +6,210 @@ Green: #00B172
 White: #FFF
 
 */
+
+
+* {
+    margin: 0;
+    padding: 0;
+}
+
+a {
+    text-decoration: none;
+    color: #1A1A1A
+}
+
+body {
+    font-family: 'Open Sans', sans-serif;
+    margin: 0;
+    color: #1A1A1A
+}
+
+.container {
+    width: 1600px;
+    margin: auto;
+    display: flex;
+    justify-content: space-between;
+}
+
+/** header **/
+
+header {
+    width:100%;
+    z-index: 10;
+    height: 70px;
+    background-color: white;
+    position: fixed;
+    display: flex;   
+    justify-content: space-between; 
+}
+
+nav {
+    display: flex;  
+    width: 30%;
+}
+
+nav ul {
+    width: 100%;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    list-style: none;
+    font-size: 20px;
+}
+
+#logo {
+    display: flex;
+    width: 20%;
+}
+
+#logo img {
+    height: 40px;
+    align-items: center;
+}
+
+/** section 1 - image + h1 + h2 **/
+#main-pic {
+    top:70px;
+    position: relative;
+    display: flex;
+    flex-direction: column;
+    background-image: url("../images/landing.jpg");
+    height: 650px;
+    background-size: cover;
+    align-items: center;
+    justify-content: center;
+    background-position: center;
+}
+
+#main-pic h1 {
+    color: white;
+    font-size: 50px;
+    margin-bottom: 40px;
+    font-weight: bold;
+}
+
+#main-pic h2 {
+    color: white;
+    font-size: 25px;
+    font-weight: normal;
+    max-width: 600px;
+    text-align: center;
+}
+
+
+/** section 2 - three boxes **/
+
+#sub-title h2 {
+    font-size: 25px;
+    margin-top: 90px;
+    display: flex;
+    justify-content: center;   
+    position: relative;
+    margin-bottom: 60px;
+}
+
+#sub-title h2::after {
+   content:'';
+   height: 3px;
+   width:12%;
+   position: absolute;
+   background: #00B172;
+   bottom: 0;   
+}
+
+#threeboxes{
+    display: flex;
+    justify-content: space-around;
+}
+
+.box {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.box-icon img {
+    height: 80px;
+}
+
+.box-title{
+    margin : 10px 0 20px 0;
+    font-weight: bold;
+    font-size: 20px;
+    color: #00B172;
+}
+
+.box-desc p{
+    font-size: 18px;
+    justify-content: center;
+    max-width: 200px;
+}
+
+/** section 3 - marketing mess **/
+
+#bottom-box {
+    display: flex;
+    background-color: #00B172;
+    margin: auto;
+    height: 550px;
+    width: 1600px;
+    margin-top: 70px;
+    margin-bottom: 40px;
+    justify-content: space-around;
+}
+
+#left-side {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+}
+
+#mark-mess {
+    margin-bottom: 30px;
+    font-size: 20px;
+    color: white;
+    position: relative;
+}
+
+#mark-mess::after {
+    content:'';
+    height: 2px;
+    width:100%;
+    position: absolute;
+    background: white;
+    bottom: 0; 
+}
+
+.keyword h4 {
+    font-weight: bold;
+    margin-bottom: 24px;
+    color: white;
+    font-size: 20px;
+}
+
+.keyword p {
+    max-width: 250px;
+    margin-bottom: 24px;
+    color: white;
+    font-size: 16px;
+}
+
+#logo-spotify {
+    display: flex;
+    align-items: center;
+
+}
+#logo-spotify img {
+    height: 80px;
+}
+
+#right-side {
+    display: flex;
+    align-items: center;
+}
+
+#right-side img {
+    height: 450px;
+}
+
+
