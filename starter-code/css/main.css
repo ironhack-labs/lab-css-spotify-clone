@@ -1,8 +1,163 @@
-/*
-Colors:
+* {
+    margin: 0;
+    padding: 0;
+}
 
-Text: 1A1A1A
-Green: #00B172
-White: #FFF
+body {
+    font-family: Arial, Helvetica, sans-serif;
+}
 
-*/
+nav {
+    position: fixed;
+    top: 0;
+    width: 100%;
+    height: 90px;
+    background-color: white;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+}
+
+#logo {
+    width: 200px;
+    height: 60px;
+    margin-top: 15px;
+    margin-left: 20px;
+}
+
+#menu {
+    width: 500px;
+    margin-top:35px;
+}
+
+#menu a {
+    margin: 20px;
+    font-size: 20px;
+    color: black;
+    text-decoration: unset;
+}
+
+#section1 {
+    margin-top: 90px;
+    height: 1000px;
+    background: url(../images/landing.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+    color: white;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+h1 {
+    font-size: 100px;
+    font-weight: 200;
+    margin-top: 300px;
+}
+
+#section1-p {
+    font-size: 30px;
+    font-weight: 100;
+    text-align: center;
+    margin-top: 30px;
+}
+
+#section2 {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+#features {
+    display: flex;
+    flex-direction: row;
+    justify-content: flex-start;
+    align-items: center;
+}
+
+.feature-blocks {
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-start;
+    align-items: center;
+    width: 300px;
+    height: 400px;
+    margin: 100px;
+    text-align: center;
+}
+
+.feature-blocks img {
+    height: 100px;
+    margin-bottom: 30px;
+}
+
+h2 {
+    font-size: 40px;
+    margin-top: 50px;
+    border-bottom: 4px solid #00B172;
+}
+
+h3 {
+    color: #00B172;
+    font-size: 30px;
+    margin: 30px 0 30px 0;
+}
+
+.feature-text {
+    font-size: 30px;
+    font-weight: 100;
+}
+
+#section3 {
+    width: 90%;
+    height: 850px;
+    background: #00B172;
+    background-image: url(../images/spotify-icon-white.png);
+    background-size: 100px;
+    background-position: center;
+    background-repeat: no-repeat;
+    color: white;
+    margin: 50px 50px 50px 100px;
+}
+
+#section3-row {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+}
+
+#section3-text {
+    margin-left: 60px;
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-start;
+    align-items: flex-start;
+    width: 350px;
+}
+
+#section3 h3 {
+    margin-left: 100px;
+    font-size: 40px;
+    border-bottom: 4px solid white;
+    line-height: 100px;
+    color: white;
+    display: inline-block;
+}
+
+h4 {
+    font-size: 35px;
+    margin: 40px;
+    font-weight: 600;
+}
+
+#section3 p {
+    font-size: 35;
+    margin: 40px;
+    font-weight: 100;
+}
+
+#app {
+    width: 350px;
+    margin-left: 70vh;
+}
