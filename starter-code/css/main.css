@@ -1,3 +1,5 @@
+@import url('https://fonts.googleapis.com/css?family=Poppins');
+
 /*
 Colors:
 
@@ -6,3 +8,197 @@ Green: #00B172
 White: #FFF
 
 */
+
+* {
+    margin: 0;
+    padding: 0;
+    font-family: "Poppins", Helvetica, sans-serif;
+}
+
+header {
+    width: 100%;
+    height: 50px;
+    display: flex;
+    align-items: center;
+    position: fixed;
+    background-color: white;
+    z-index: 1;
+}
+
+nav {
+    width: 90%;
+    display: flex;
+    justify-content: flex-end;
+    margin-right: 20px;
+}
+
+nav ul {
+    list-style-type: none;
+    display: flex;
+    width: 300px;
+    justify-content: space-between;
+}
+
+a {
+    text-decoration: none;
+    color: #1A1A1A;
+}
+
+header img {
+    height: 35px;
+    margin-left: 20px;
+    margin-top: 5px;
+}
+
+#cover {
+    width: 100%;
+    height: 600px;
+    background-image: url(/images/landing.jpg);
+    background-size: cover;
+    background-position: center;
+    color: white;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    position: relative;
+    top: 50px;
+    margin-bottom: 50px;
+}
+
+#cover p {
+    text-align: center;
+}
+
+h1 {
+    color: white;
+    font-size: 4em;
+}
+
+/*
+UNDER THE HEADER
+*/
+
+#description {
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+}
+
+#description h2 {
+    text-decoration: underline;
+    text-decoration-color: #00b172;
+    text-underline-position: under;
+    text-align: center;
+    margin: 25px auto;
+}
+
+#description img {
+    width: 60px;
+    height: 60px;
+}
+
+#description h3 {
+    margin: 5px 0 10px 0;
+    color: #00b172;
+    font-weight: 1000;
+}
+
+#functions {
+    width: 75%;
+    margin: auto;
+    display: flex;
+    justify-content: space-between;
+}
+
+.tips {
+    width: 30%;
+    height: 200px;
+    text-align: center;
+}
+
+/*
+YEEZY SECTION
+*/
+
+#yeezy {
+    background-color: #00b172;
+    width: 90%;
+    height: 500px;
+    margin: auto;
+    padding: 10px 100px;
+    color: white;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: center;
+    box-sizing: border-box;
+}
+
+.leftside {
+    display: flex;
+    flex-direction: column;
+    justify-content: space-around;
+    height: 430px;
+}
+
+.slogan {
+    display: flex;
+    margin-bottom: 30px;
+}
+
+.slogan h2 {
+    border-bottom: 3px solid white;
+}
+
+.action-list {
+    height: 100%;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+}
+
+.action {
+    width: 270px;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-around;
+}
+
+.action-title {
+    margin-bottom: 10px;
+}
+
+.applogo {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    position: absolute;
+    left: 46%;
+}
+
+.applogo img {
+    width: 100px;
+    height: auto;
+}
+
+.rightside {
+    height: 430px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+}
+
+.rightside img {
+    height: 380px;
+    width: auto;
+}
+
+/*
+FOOTER
+*/
+
+footer {
+    height: 50px;
+    background-color: white;
+}
