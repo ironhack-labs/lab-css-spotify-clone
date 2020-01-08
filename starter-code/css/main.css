@@ -6,3 +6,163 @@ Green: #00B172
 White: #FFF
 
 */
+
+body * {
+    font-family: Helvetica, Arial;
+    margin: 0;
+    padding: 0;
+}
+
+h1 {
+    font-size: 5em;
+    
+}
+
+h2{
+    font-size: 2.25em;
+    border-bottom: 3px solid;
+    padding-bottom: 5px;
+}
+
+h3 {
+    font-size: 1.90em;
+}
+
+nav  {
+    height: 2.5em;
+    background-color: white;
+    padding: 20px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    position: fixed;
+    top:0;
+    left:0;
+    width: 100%;
+    z-index: 1;
+    font-size: 1.5em;
+    color: #1A1A1A;
+    font-weight: lighter;
+
+}
+nav  img {
+    width: 10em;
+}
+
+.nav-bar-ul {
+    display: flex;
+    justify-content: space-evenly;
+    width: 40%;
+    list-style: none;
+}
+
+#header {
+    position: relative;
+    background-image : url("../images/landing.jpg");
+    background-size: cover;
+    background-position: 0 0;
+    height: 900px;
+    color: white;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+#header > div {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+#header p {
+    font-size: 2em;
+    font-weight: lighter;
+    width: 60%;
+    text-align: center;
+    margin-top: 20px;
+ 
+}
+
+#spotify h2 {
+    width: 325px;
+    text-align: center;
+    border-color:#00B172 ;
+}
+
+#spotify {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    margin: 50px 0 100px;
+    padding-left: 10px; padding-right: 10px;
+}
+
+#spotify > div {
+    display: flex;
+    justify-content: space-evenly;
+    margin: 50px;
+}
+
+#spotify img {
+    width: 10em;
+}
+
+.article-spotify {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    margin: 50px;
+}
+
+.article-spotify * {
+    margin: 15px;
+}
+
+.article-spotify p {
+    font-size: 1.75em;
+    font-weight: lighter;
+    text-align: center;
+}
+.article-spotify h3 {
+    font-weight: bold;
+    color: #00B172;
+}
+
+#kanye {
+    margin :20px;
+    background-color: #00B172;
+    height: 900px;
+    color :white;
+    padding: 80px 80px 50px;
+    position: relative;
+    box-sizing: border-box;
+}
+
+#kanye h2 {
+        width: 490px;
+}
+
+.article-kanye * {
+    margin: 40px;
+}
+
+.article-kanye > p {
+    font-size: 1.5em;
+    width: 300px;
+    font-weight: lighter;
+}
+
+.spotify-app {
+    position : absolute;
+    height: 700px;
+    top : 120px;
+    right: 80px;
+}
+
+.spotify-white {
+    width: 130px;
+    position: absolute;
+    left: calc(50% - 75px);
+    top:calc(50% - 75px);
+}
+
