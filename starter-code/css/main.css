@@ -29,6 +29,7 @@ nav > ul {
 nav > ul li{
     display: inline;
     margin-left: 5px;
+    font-size: 1.3rem;
 }
 
 header+section {
@@ -59,9 +60,10 @@ section:nth-child(3){
     padding-top: 50px;
 }
 
-section:nth-child(3) h2{
-    display: block;
+section:nth-child(3) h2{    
+    display: inline-block;
     font-size: 2.5rem;
+    border-bottom: 4px solid #00B172;
 }
 section:nth-child(3) article{
     position: relative;
@@ -83,4 +85,53 @@ article > h3{
 article > p{
     font-size: 1.2rem;
     color: #1A1A1A;
+}
+
+section:nth-child(4){
+    background-color: #00B172;
+    background-image: url('./../images/spotify-icon-white.png');
+    background-repeat: no-repeat;
+    background-size: 120px;
+    background-position: 50%;
+    height: 700px;
+    text-align: center;
+    padding-top: 50px;
+}
+
+section:nth-child(4) > div{
+    width: 35%;
+    display: inline-block;
+    margin: 0 7% 0 7%;
+    vertical-align: top;
+}
+
+section:nth-child(4) > img {
+    display: inline-block;
+    vertical-align: top;
+    height: 80%;
+    margin: 50px 7% 0 7% ;
+    box-sizing: border-box;
+}
+
+section:nth-child(4) > div {
+    text-align: left;
+    color: white
+}
+
+section:nth-child(4) > div h2{
+    display: inline-block;
+    font-size: 1.9rem;
+    margin-bottom: 0;
+    border-bottom: 4px solid white;
+}
+
+
+section:nth-child(4) h3{
+    font-size: 1.5rem;
+    margin: 50px o;
+}
+
+section:nth-child(4) h3+p{
+    width: 400px;
+    font-size: 1.2rem;
 }
