@@ -6,3 +6,163 @@ Green: #00B172
 White: #FFF
 
 */
+
+* {
+  margin: 0;
+  padding: 0;
+}
+
+body {
+  font-family: Arial, Helvetica, sans-serif;
+}
+
+.navbar {
+  display: flex;
+  width: 100vw;
+  height: 60px;
+  margin: 20px 0;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.navbar ul {
+  display: flex;
+
+  list-style-type: none;
+  padding: 0 20px;
+  font-size: 20px;
+  font-family: Arial, Helvetica, sans-serif;
+}
+
+.navbar a {
+  text-decoration: none;
+  color: rgb(85, 85, 85);
+  padding: 0 20px;
+}
+
+.navbar img {
+  width: 200px;
+}
+
+.main {
+  background-image: url(../images/landing.jpg);
+  background-size: cover;
+  background-position: center;
+  height: 80vh;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+}
+
+.main h1,
+h3 {
+  color: white;
+  text-align: center;
+}
+
+.main h1 {
+  padding: 30px;
+  font-size: 60px;
+}
+
+.main h3 {
+  font-size: 25px;
+}
+
+.features h2 {
+  text-align: center;
+  font-size: 40px;
+  padding-top: 40px;
+  color: black;
+  border-bottom: 5px solid rgb(92, 202, 116);
+
+  padding-bottom: 10px;
+}
+
+.h2-container {
+  display: flex;
+  justify-content: center;
+  padding-bottom: 100px;
+}
+
+.color-line {
+  color: rgb(92, 202, 116);
+}
+
+.features {
+  padding-bottom: 50px;
+}
+
+.features h3 {
+  color: rgb(92, 202, 116);
+  font-size: 30px;
+  padding: 20px 0;
+}
+
+.feature-items {
+  display: flex;
+  justify-content: space-evenly;
+}
+
+.feature-item {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  width: 300px;
+}
+
+.feature-item img {
+  width: 150px;
+  height: 130px;
+}
+
+.feature-item p {
+  font-size: 30px;
+  text-align: center;
+  color: black;
+  font-weight: 100;
+}
+
+.footer {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  background-color: rgb(92, 202, 116);
+  background-repeat: no-repeat;
+  color: black;
+  margin: 50px;
+  font-size: 1.3em;
+
+  height: 90vh;
+  padding: 100px;
+}
+
+#footer-content {
+  width: 450px;
+}
+
+.footer-img img {
+  width: 350px;
+}
+
+#footer-content h4 {
+  font-weight: 800;
+  font-size: 1.5em;
+}
+
+#footer-content h2,
+h4,
+p {
+  padding-top: 50px;
+  color: white;
+}
+
+#footer-content h2 {
+  font-size: 1.6em;
+  border-bottom: 4px solid white;
+}
+
+.white-img {
+  width: 130px;
+}
