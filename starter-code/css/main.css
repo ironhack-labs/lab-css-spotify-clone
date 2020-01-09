@@ -6,3 +6,150 @@ Green: #00B172
 White: #FFF
 
 */
+
+body {
+  font-family: "Circular", "system-ui", sans-serif;
+  font-size: 1.1em;
+  font-weight: 300;
+  margin: 0px;
+}
+
+.navbar img {
+  width: 200px;
+  float: left;
+}
+
+.navbar {
+  position: fixed;
+  padding: 10px;
+  width: 100%;
+  background-color: white;
+}
+.navbar ul {
+  /* border: 1px solid red; */
+  list-style-type: none;
+  display: flex;
+  justify-content: flex-end;
+  align-items: center;
+  padding: 0 10px;
+}
+
+.content {
+  padding: 5vh;
+}
+
+li {
+  padding: 0 10px;
+}
+
+.heading-container {
+  background-image: url("../images/landing.jpg");
+  background-size: cover;
+  background-repeat: no-repeat;
+  height: 100vh;
+  color: white;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  text-align: center;
+}
+.heading {
+  font-size: 350%;
+  font-weight: bold;
+  padding-bottom: 4vh;
+}
+.heading-text {
+  width: 60vh;
+  font-size: 120%;
+}
+
+.what-on-title {
+  text-align: center;
+  font-size: 160%;
+  font-weight: bold;
+}
+
+.what-on hr {
+  width: 33vh;
+  border: solid 2px #00b172;
+  margin-top: 8;
+}
+
+.what-on-links {
+  display: flex;
+  justify-content: space-around;
+  padding: 10vh 0;
+}
+.what-on-links img {
+  /* width: 125px; */
+  width: auto;
+  max-width: 150px;
+  height: auto;
+  max-height: 100px;
+  /* height: 12vh; */
+}
+.articles {
+  flex: 1;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+.articles p {
+  text-align: center;
+}
+.articles > div {
+  color: #00b172;
+  font-size: 125%;
+  font-weight: bold;
+}
+
+.green-section {
+  position: relative;
+  background-color: #00b172;
+  padding: 10vh;
+  display: flex;
+  justify-content: space-between;
+  z-index: -1;
+}
+.green-section > img {
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  width: 13vh;
+  width: 13vh;
+}
+.green-title-container {
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+}
+.green-title {
+  text-align: start;
+  font-size: 160%;
+  font-weight: 400;
+  color: white;
+}
+.green-section hr {
+  width: 50vh;
+  border: solid 2px white;
+  margin-top: 8;
+  margin-bottom: 5vh;
+}
+.green-left {
+  width: 50vh;
+}
+.green-articles div {
+  color: white;
+  font-size: 125%;
+  font-weight: bold;
+  padding: 2vh 0;
+}
+.green-articles p {
+  color: white;
+}
+.app-section img {
+  height: 70vh;
+  width: auto;
+}
