@@ -1,8 +1,181 @@
-/*
-Colors:
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
 
-Text: 1A1A1A
-Green: #00B172
-White: #FFF
+body {
+  font-family: "Montserrat", sans-serif;
+}
 
-*/
+.navbar {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 8px;
+  font-size: 1.4em;
+  position: fixed;
+  background-color: white;
+  width: 100vw;
+}
+
+.logo img {
+  width: 200px;
+}
+
+.navbar a {
+  padding: 20px;
+  text-decoration: none;
+  color: black;
+}
+
+header {
+  background-image: url(/lab-css-spotify-clone/starter-code/images/landing.jpg);
+  height: 100vh;
+  background-size: contain;
+  color: white;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+
+header div {
+  width: 60%;
+  text-align: center;
+}
+
+h1 {
+  font-size: 5em;
+  font-family: "open+sans", sans-serif;
+  font-weight: 800;
+  padding-bottom: 20px;
+}
+
+header p {
+  font-size: 1.8em;
+}
+
+.usp {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  padding: 40px 0 0;
+}
+
+.general-info {
+  display: flex;
+  justify-content: space-evenly;
+  padding: 100px;
+}
+
+.general-info img {
+  width: 60%;
+}
+
+.usp h2 {
+  font-size: 2em;
+  font-family: "open+sans", sans-serif;
+  padding: 5px;
+  text-align: center;
+  /* border-bottom: 3px solid #00b172; */
+  width: 25%;
+  font-weight: 800;
+}
+
+.usp h2:after {
+  content: "";
+  display: block;
+  margin: 0 auto;
+  width: 86%;
+  padding-top: 5px;
+  border-bottom: 4px solid #00b172;
+}
+
+.usp h3 {
+  font-family: "open+sans", sans-serif;
+  color: #00b172;
+  font-size: 1.6em;
+  padding: 20px;
+}
+
+#hd-music {
+  padding-top: 25px;
+}
+
+.general-info article {
+  text-align: center;
+  width: 25%;
+}
+
+.general-info p {
+  font-size: 1.5em;
+}
+
+.features {
+  background-color: #00b172;
+  color: white;
+  height: 700px;
+  margin: 3%;
+  padding: 5%;
+  display: flex;
+}
+
+.features > div {
+  display: flex;
+  flex-direction: column;
+}
+
+.features > div > div {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  width: 80%;
+}
+
+.features > div > div > div {
+  display: flex;
+  flex-direction: column;
+  width: 50%;
+  justify-content: space-around;
+}
+
+.features h2 {
+  font-size: 2em;
+  font-family: "open+sans", sans-serif;
+  padding: 5px;
+  text-align: center;
+  /* border-bottom: 3px solid white; */
+  width: 60%;
+  font-weight: 800;
+  margin-bottom: 5%;
+}
+
+.features h2:after {
+  content: "";
+  display: block;
+  margin: 0 auto;
+  width: 89%;
+  padding-top: 5px;
+  border-bottom: 3px solid white;
+}
+
+.features h3 {
+  font-family: "open+sans", sans-serif;
+  color: white;
+  font-size: 1.5em;
+  padding-bottom: 5%;
+}
+
+.features article {
+  padding: 6%;
+}
+
+.features p {
+  font-size: 1.2em;
+}
+
+#spotify-app {
+  padding-top: 20px;
+}
