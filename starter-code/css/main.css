@@ -1,3 +1,176 @@
+@import url("https://fonts.googleapis.com/css?family=Montserrat&display=swap");
+
+* {
+    padding: 0;
+    margin: 0;
+}
+
+body {
+        font-family: "Monserrat";
+    /* height: 100vh; */
+    /* display: flex; */
+    /* flex-direction: column; */
+}
+
+.navbar {
+    display: flex;
+    justify-content: space-between;
+    padding: 10px;
+}
+
+.logo > img {
+    max-width: 250px;;
+    height:auto;
+    margin-left: 20px;
+}
+
+.links {
+    display: flex;
+    justify-self: center;
+    margin: 10px;
+}
+
+.links > div {
+    margin: 20px;
+    align-self: center;
+}
+
+a {
+    text-decoration: none;
+    color: #000000;
+    font-size: 1.3rem;
+    font-weight: lighter;
+}
+
+.intro {
+    background-image: url("/starter-code/images/landing.jpg");
+    background-size: contain;
+    height: 100vh;
+    max-width: 100%;
+    color: #ffffff;
+    /* background-repeat: no-repeat; */
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+    /* background-repeat: round; */
+}
+
+h1 {
+    font-size: 6rem;
+    margin-bottom: 20px;
+    font-weight: normal;
+}
+
+.intro h2 {
+    font-weight: lighter;
+    font-size: 2rem;
+}
+
+#info {
+    display: flex;
+    flex-direction: column;
+}
+
+.info-heading {
+    margin-top: 1.5rem;
+    text-align: center;
+    align-self: center;
+    justify-content: flex-start;
+    font-size: 2rem;
+}
+
+#info hr {
+    background-color: #00B172;
+    height: 5px;
+    border-style: none;
+}
+
+.info-body {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-evenly;
+    margin-top: 5rem;
+    width: auto;
+}
+
+.infobox {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.infobox img {
+    width: auto;
+    height: 100px;
+}
+
+.infobox h3 {
+    color: #00b372;
+    font-size: 1.5rem;
+    margin: 10px 0;
+}
+
+.infobox p {
+    width: 300px;
+    font-size: 1.3rem;
+    font-weight: lighter;
+    text-align: center;
+}
+
+#guide {
+    margin: 30px;
+    padding: 50px;
+    background-color: #00B172;
+    color: #ffffff;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-evenly;
+}
+
+.guide-body {
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+    justify-content: space-evenly;
+    padding: 10px;
+}
+
+#guide h2 {
+    font-weight: lighter;
+    font-size: 2rem;
+    border-bottom: 3px solid white;
+    
+}
+
+
+#white-logo {
+    width: auto;
+    height: 8em;
+    align-self: center;
+}
+
+#UI-image {
+    height: 650px;
+    width: auto;
+    padding: 30px 0;
+}
+
+.guide-text {
+    font-size: 1.4em;
+}
+
+.guide-text p {
+    width: 300px;
+    flex: 1;
+    font-weight: lighter;
+}
+
+.guide-text h3 {
+    margin-bottom: 30px;
+}
+/* the a tags of the links */
+
 /*
 Colors:
 
