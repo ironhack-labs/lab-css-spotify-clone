@@ -52,7 +52,6 @@ body {
     background-size: cover;
     background-color: transparent;
     height: 100vh;
-    padding-top: 50px;
     display: flex;
     justify-content: center;
     flex-direction: column;
@@ -127,13 +126,29 @@ h2 {
     align-content: center;
 }
 
+.green-box > h3 {
+    border-bottom: 2px solid white;
+    display: inline-block;
+    font-size: 1.5rem;
+}
+
+.wrapper {
+    display: flex;
+    justify-content: space-between;
+}
+
 .text-box {
     display: flex;
     flex-direction: column;
     justify-content: space-between;
     align-content: center;
-    width: 50%;
+    width: 30%;
     text-align: left;
+}
+
+.text-box article > h4 {
+    font-size: 1.3rem;
+    font-weight: bolder;
 }
 
 .text-box article p {
@@ -145,17 +160,9 @@ h2 {
     font-weight: bold;
 }
 
-.text-box h3 {
-    font-size: 130%;
-    font-weight: bold;
-    border-bottom: 3px solid #FFF;
-    display: inline-block;
-}
-
 .img-box {
-width: 50%;
-text-align: center;
-float: right;
+width: 30%;
+height: auto;
 }
 
 /*.img-box img {
