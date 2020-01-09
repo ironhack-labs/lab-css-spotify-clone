@@ -6,3 +6,172 @@ Green: #00B172
 White: #FFF
 
 */
+* {
+  font-family: "Montserrat", sans-serif;
+  margin: 0;
+  padding: 0;
+}
+
+body {
+  width: 100vh;
+}
+
+nav {
+  position: fixed;
+  height: 110px;
+  width: 100%;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  background-color: #fff;
+  z-index: 100;
+}
+
+.logo {
+  width: 230px;
+  margin-left: 30px;
+}
+
+ul {
+  list-style: none;
+  display: flex;
+  flex-direction: flex-end;
+}
+
+li {
+  margin-right: 40px;
+  font-size: 20px;
+}
+
+main {
+  position: absolute;
+}
+
+header {
+  width: 100vw;
+  height: 1000px;
+  background-image: url("../images/landing.jpg");
+  background-size: cover;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+
+h1 {
+  color: white;
+  font-size: 80px;
+  font-weight: 600;
+}
+
+article {
+  color: white;
+  font-size: 30px;
+  width: 60%;
+  text-align: center;
+  font-weight: 300;
+}
+
+.usp-section {
+  height: 500px;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-around;
+  margin: 40px auto;
+}
+
+.section-2-heading {
+  width: 100%;
+  display: flex;
+  justify-content: center;
+  margin-bottom: 30px;
+}
+
+span {
+  text-align: center;
+  font-size: 40px;
+  font-weight: 600;
+  padding-bottom: 4px;
+  border-bottom: 5px solid #00b172;
+}
+
+.usp-text {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-evenly;
+  align-items: flex-start;
+}
+
+.usp-text > div {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  width: 350px;
+}
+
+.icon {
+  width: 150px;
+}
+
+h3 {
+  font-size: 30px;
+  color: #00b172;
+}
+
+p {
+  font-size: 26px;
+  color: #1a1a1a;
+  text-align: center;
+  font-weight: 200;
+}
+
+.green {
+  background: #00b172;
+  margin: 40px;
+  height: 700px;
+  background-image: url("../images/spotify-icon-white.png");
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: 150px;
+  display: flex;
+  flex-direction: row;
+  justify-content: space-around;
+  padding: 100px;
+}
+
+.yeezy p {
+  color: white;
+  text-align: left;
+}
+
+.section-3-heading {
+  width: 600px;
+}
+
+.yeezy h2 {
+  font-size: 40px;
+  font-weight: 600;
+  color: white;
+  padding-bottom: 4px;
+  border-bottom: 5px solid white;
+}
+
+h4 {
+  font-size: 30px;
+  color: white;
+  margin: 40px auto;
+}
+
+.app-screen {
+  width: 400px;
+}
+
+.app {
+  display: flex;
+  align-items: center;
+}
+
+.green-paragraphs {
+  width: 50%;
+}
