@@ -8,7 +8,6 @@ White: #FFF
 */
 
 * {
-    border: 1px dashed green;
     margin: 0;
     padding: 0;
 }
@@ -23,6 +22,7 @@ nav {
     height: 90px;
     position: fixed;
     background-color: #fff;
+    z-index: 10000;
 }
 
 nav > img {
@@ -123,4 +123,54 @@ header {
 
 #green {
     background-color: #00B172;
+    background-image: url('../images/spotify-icon-white.png');
+    background-repeat: no-repeat;
+    background-size: 12rem;
+    background-position: center;
+    width: 1150px;
+    margin-top: 90px;
+    margin-left: 20px;
+    height: 700px;
+    margin-bottom: 20px;
+}
+
+#text {
+    width: 500px;
+    color: #fff;
+    position: absolute;
+    padding-left: 75px;
+}
+
+#text h2 {
+    font-size: 3.25rem;
+    text-align: left;
+    padding-top: 60px;
+    padding-bottom: 5px;
+}
+
+#text hr {
+    border: 1.5px solid #fff;
+    width: 430px;
+    margin-bottom: 20px;
+}
+
+#text h3 {
+    font-size: 2.5rem;
+    text-align: left;
+    padding-top: 40px;
+}
+
+#text p {
+    font-size: 2rem;
+    text-align: left;
+    width: 300px;
+    padding-top: 20px;
+    line-height: 3rem;
+}
+
+#green img {
+    height: 550px;
+    position: absolute;
+    margin-left: 750px;
+    margin-top: 100px;
 }
