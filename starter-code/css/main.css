@@ -6,3 +6,189 @@ Green: #00B172
 White: #FFF
 
 */
+
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+body {
+  display: flex;
+  flex-direction: column;
+  /* height: 100vh; */
+  font-family: Verdana, Geneva, Tahoma, sans-serif;
+}
+
+.navbar {
+  display: flex;
+  height: 60px;
+  width: 100%;
+  padding: 10px;
+  justify-content: space-between;
+  align-items: center;
+  position: fixed;
+  font-size: small;
+  background-color: white;
+  z-index: 99;
+  color: 1a1a1a;
+}
+
+.links {
+  display: flex;
+  align-items: flex-end;
+}
+
+li {
+  list-style-type: none;
+  display: flex;
+  padding: 0 5px;
+}
+
+li a {
+  text-decoration: none;
+  color: black;
+}
+
+ul {
+  display: flex;
+}
+
+.main-section {
+  margin-top: 70px;
+}
+
+.spotify-logo {
+  height: 100%;
+}
+
+h1 {
+  font-size: 34px;
+  font-weight: 100;
+}
+
+h4 {
+  font-size: 14px;
+  font-weight: lighter;
+}
+
+.concert-image {
+  height: 650px;
+  width: 100%;
+  background-repeat: no-repeat;
+  background-size: 100%;
+  text-align: center;
+  background-position: center;
+  background-image: url("./../images/landing.jpg");
+}
+
+.text-container {
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  width: 500px;
+  height: 200px;
+  margin-left: -200px;
+  margin-top: -29px;
+  color: #fff;
+  text-align: center;
+  /* transform: translate(); */
+}
+
+/* 
+h2 {
+  color: #fff;
+  text-align: center;
+}
+
+h4 {
+  color: #fff;
+  text-align: center;
+} */
+
+.whats-spotify {
+  margin: 0 auto;
+  height: 400px;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-around;
+  align-items: center;
+  padding: 10px;
+}
+
+.green-underline {
+  border-bottom: 2px solid;
+  border-color: #00b172;
+  color: 1a1a1a;
+}
+
+h3 > p {
+  color: 1a1a1a;
+}
+
+.sec-3-big-container {
+  display: flex;
+  justify-content: space-evenly;
+}
+
+.sec-3-container {
+  display: flex;
+  flex-direction: column;
+  flex: 1 1 0px;
+  justify-content: space-between;
+  align-items: center;
+  margin: 5%;
+}
+
+.green-text {
+  color: #00b172;
+}
+
+.center-text {
+  text-align: center;
+  font-size: 12px;
+  font-weight: lighter;
+}
+
+.usp-icons {
+  height: auto%;
+  width: 50%;
+  display: flex;
+}
+
+.green-section {
+  height: 650px;
+  background-color: #00b172;
+  margin: 15px;
+  padding: 50px;
+  color: #fff;
+  display: flex;
+  justify-content: space-between;
+  background-image: url("./../images/spotify-icon-white.png");
+  background-size: 10%;
+  background-repeat: no-repeat;
+  background-position: center;
+}
+
+.app-image {
+  height: 100%;
+}
+
+.kanye-west {
+  display: flex;
+  flex-direction: column;
+  justify-content: space-evenly;
+  margin: 5% 10% 5% 5%;
+  text-align: left;
+  max-width: 30%;
+}
+
+.kanye-west p {
+  font-size: 12px;
+  font-weight: lighter;
+}
+
+.white-underline {
+  border-bottom: 2px solid;
+  border-color: #fff;
+}
