@@ -16,6 +16,7 @@ nav{
     width: 100vw;
     background-color: #FFF;
     padding: 20px 40px;
+    z-index: 99;
 }
 nav > img {
     height: 50px;
@@ -50,4 +51,36 @@ header+section > h1 {
 header+section > p{
     font-size: 1.5rem;
     margin: 0;
+}
+
+section:nth-child(3){
+    text-align: center;
+    height: 500px;
+    padding-top: 50px;
+}
+
+section:nth-child(3) h2{
+    display: block;
+    font-size: 2.5rem;
+}
+section:nth-child(3) article{
+    position: relative;
+    
+    display: inline-block;
+    width: 20%;
+    margin: 25px;
+}
+
+article > img {
+    height: 100px;
+}
+
+article > h3{
+    font-size: 1.2rem;
+    color: #00B172;
+}
+
+article > p{
+    font-size: 1.2rem;
+    color: #1A1A1A;
 }
