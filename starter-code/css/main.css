@@ -48,9 +48,10 @@ body {
 .conteiner {
     background-image:url("./../images/landing.jpg");
     background-repeat: no-repeat;
+    background-position: center;
     background-size: cover;
     background-color: transparent;
-    height: 650px;
+    height: 100vh;
     padding-top: 50px;
     display: flex;
     justify-content: center;
@@ -71,7 +72,6 @@ h2 {
     font-size: 1.25em;
     text-align: center;
     color:#FFF;
-    line-height: 1%;
     letter-spacing: 0.6px;
 }
 
@@ -95,7 +95,6 @@ h2 {
     height: 200px;
     text-align: center;
     box-sizing: border-box;
-    line-height: 1px;
 }
 
 #section1 > h4 {
@@ -115,36 +114,31 @@ h2 {
 }
 
 .green-box {
-    width: 100%;
-    height: 650px;
     background-image:url("../images/spotify-icon-white.png");
     background-position: center;
     background-size: 100px;
     background-repeat: no-repeat;
     background-color: #00B172;
-    position: relative;
     box-sizing: border-box;
     margin: 0 25px 0;
     padding: 50px;
     color: white;
-    display: flex;
     justify-content: space-between;
     align-content: center;
 }
 
 .text-box {
+    display: flex;
     flex-direction: column;
     justify-content: space-between;
     align-content: center;
     width: 50%;
     text-align: left;
-    margin-bottom: 50%;
 }
 
 .text-box article p {
-    line-height: 0.6em;
     font-weight: lighter;
-    font-size: 70%;
+    font-size: 1em;
 }
 
 .text-box article h4 {
@@ -161,8 +155,9 @@ h2 {
 .img-box {
 width: 50%;
 text-align: center;
+float: right;
 }
 
-.img-box img {
+/*.img-box img {
     height: 90%;
-}
+}*/
