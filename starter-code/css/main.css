@@ -6,3 +6,148 @@ Green: #00B172
 White: #FFF
 
 */
+body {
+  padding: 0;
+  margin: 0;
+  box-sizing: border-box;
+  font-family: Helvetica, sans-serif;
+  display: flex;
+  flex-direction: column;
+}
+
+.navigation {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  align-items: center;
+  padding: 20px;
+  font-size: 1.5em;
+  font-weight: lighter;
+  align-content: space-around;
+}
+.navitem {
+  display: flex;
+}
+.navitem div {
+  padding-left: 30px;
+}
+.logo {
+  height: 50px;
+}
+
+.headbanner {
+  background-image: url("/W1D4/lab/lab-css-spotify-clone/starter-code/images/landing.jpg");
+  background-position: center;
+  background-repeat: no-repeat;
+  background-clip: content-box;
+  display: flex;
+  align-items: center;
+  width: 100%;
+  height: 800px;
+  background-size: cover;
+
+  color: white;
+  flex-direction: column;
+  justify-content: center;
+  font-size: 2em;
+  text-align: center;
+  font-weight: lighter;
+}
+h1 {
+  font-size: 3em;
+  font-weight: lighter;
+}
+.headbanner p {
+  font-weight: lighter;
+  width: 60%;
+}
+
+.info {
+  display: flex;
+  flex-direction: column;
+  justify-content: flex-center;
+  align-items: center;
+}
+
+.info h2 {
+  text-align: center;
+  border-bottom: 4px solid #00b172;
+  padding-bottom: 7px;
+  font-size: 2.5em;
+  margin-top: 100px;
+  width: 370px;
+}
+.infoitems {
+  display: flex;
+  align-items: center;
+  width: 100%;
+  height: 800px;
+  background-size: cover;
+  flex-direction: row;
+  justify-content: flex-start;
+  font-size: 1.5em;
+  text-align: center;
+  line-height: 1.5;
+}
+.infoitems img {
+  height: 70px;
+}
+
+.infoitems h3 {
+  color: #00b172;
+  align-items: flex-start;
+  justify-content: center;
+}
+.infoitems p {
+  align-items: flex-start;
+  text-align: center;
+  padding: 20px 70px;
+  margin: 10px;
+  line-height: 1.5;
+  font-size: 0.05;
+  font-weight: lighter;
+}
+
+.greenbox {
+  display: flex;
+  flex-direction: row-reverse;
+  justify-content: space-between;
+  background-color: #00b172;
+  color: white;
+  background-image: url(/W1D4/lab/lab-css-spotify-clone/starter-code/images/spotify-icon-white.png);
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: 8.5em;
+  padding: 30px 50px;
+  margin: 10px;
+}
+
+.greenbox img {
+  width: 25em;
+  padding: 100px 0px;
+}
+
+.greenbox h3 {
+  font-size: 1.5em;
+  font-weight: lighter;
+  border-bottom: 4px solid white;
+  width: 460px;
+}
+
+.lastSection {
+  display: flex;
+  flex-direction: column;
+  justify-content: space-evenly;
+  padding: 30px 50px;
+  margin: 10px;
+  line-height: 1.5;
+  font-size: 1.5em;
+}
+
+.lastSection div {
+  width: 45%;
+}
+
+.lastSection h4 {
+  font-size: 1em;
+}
