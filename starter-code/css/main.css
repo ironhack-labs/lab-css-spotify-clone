@@ -8,33 +8,33 @@ White: #FFF
 */
 body{
     margin: 0;
-    width: 100%;
-    height: 100%;
     font-family: sans-serif;
 }
-/* NAVBAR */
-header {
-    position: absolute;
+#content {
+    position: relative;
 }
-nav {
-    width: 100%;
-    height: 12%;
+/* NAVBAR */
+#header {
     position: fixed;
-    float: right;
+    height: 110px;
+    width: 100%;
 }
 #img-logo {
-    float: left;
+    position: absolute;
     width: 250px;
-    margin: 10%;
+    top: 14%;
+    left: 1%;
 }
 nav {
-    top: 38px;
+    position: absolute;
+    width: 100%;
+    top: 25%;
+    float: right;
 }
 nav ul {
     list-style-type: none;
     margin: 0;
     padding: 0;
-    overflow: hidden;
 }
 nav ul li {
     float: right;
@@ -50,10 +50,7 @@ nav li a {
 }
 
 /* Iteration 2*/
-#content {
-    position: relative;
-}
-#it-1 {
+#it-2 {
     color: white;
     position: absolute;
     top: 110px;
@@ -80,4 +77,172 @@ nav li a {
     left: 22%;
     right: 24%;
     text-align: center;
+}
+
+/* Iteration 3 */
+#it-3 {
+    position: absolute;
+    top: 1025px;
+    text-align: center;
+    align-items: center;
+    width: 100%;
+    height: 750px;
+}
+#it-title-2  {
+    position: absolute;
+    font-weight: 900;
+    font-size: 2.5rem;
+    left: 39%;
+    right: 40%;
+    border-bottom-style: solid;
+    border-bottom-width: 5px;
+    border-bottom-color: #00B172;
+}
+#content-1 {
+    position: absolute;
+    top: 24%;
+    left: 2%;
+    right: 68%;
+    
+}
+#content-1 img {
+    width: 140px;
+}
+#content-1 p {
+    color: grey;
+    font-size: 1.5rem;
+}
+#content-2 {
+    position: absolute;
+    top: 24%;
+    left: 32%;
+    right: 33%;
+}
+#content-2 img {
+    width: 170px;
+}
+#content-2 p {
+    color: grey;
+    font-size: 1.5rem;
+}
+#content-3 {
+    position: absolute;
+    top: 24%;
+    left: 68%;
+    right: 2%;
+}
+#content-3 img {
+    width: 140px;
+}
+#content-3 p {
+    color: grey;
+    font-size: 1.5rem;
+}
+/* Iteration 4 */
+#it-4 {
+    position: absolute;
+    top: 1625px;
+    align-items: center;
+    width: 100%;
+    height: 750px;
+}
+#it-4_background {
+    position: absolute;
+    left: 2%;
+    right: 2%;
+    background-color: #00B172;
+    height: 735px;
+}
+#card {
+    color: white;
+    position: absolute;
+    height: 735px;
+    width: 700px;
+}
+#card-title {
+    position: absolute;
+    top: 6%;
+    left: 15%;
+    right: 5%;
+    font-weight: 900;
+    height: 90px;
+    font-size: 1.3rem;
+    border-bottom-style: solid;
+    border-bottom-color: white;
+}
+#card-content-1 {
+    height: 180px;
+    position: absolute;
+    top: 22%;
+    left: 15%;
+    right: 17%;
+}
+#card-content-1 h3 {
+    height: 20px;
+    width: 100%;
+    position: absolute;
+    font-size: 1.9rem;
+}
+#card-content-1 p {
+    height: 70px;
+    width: 90%;
+    position: absolute;
+    font-size: 1.6rem;
+    top: 34%;
+}
+#card-content-2 {
+    height: 180px;
+    position: absolute;
+    top: 45%;
+    left: 15%;
+    right: 17%;
+}
+#card-content-2 h3 {
+    height: 20px;
+    width: 100%;
+    position: absolute;
+    font-size: 1.9rem;
+}
+#card-content-2 p {
+    height: 70px;
+    width: 90%;
+    position: absolute;
+    font-size: 1.6rem;
+    top: 34%;
+}
+#card-content-3 {
+    height: 180px;
+    position: absolute;
+    top: 70%;
+    left: 15%;
+    right: 17%;
+}
+#card-content-3 h3 {
+    height: 20px;
+    width: 100%;
+    position: absolute;
+    font-size: 1.9rem;
+}
+#card-content-3 p {
+    height: 70px;
+    width: 90%;
+    position: absolute;
+    font-size: 1.6rem;
+    top: 34%;
+}
+#spoty-logo {
+    position: absolute;
+    top: 50%;
+    left: 50%;
+}
+#spoty-logo img{
+    height: 125px;
+}
+#app-logo {
+    position: absolute;
+    top: 15%;
+    left: 70%;
+}
+#app-logo img{
+    height: 600px;
 }
