@@ -37,6 +37,7 @@ header {
     background-size: cover;
     color: white;
     padding-top: 2px;
+    
 }
 
 .header-text {
@@ -60,36 +61,57 @@ h1 {
     text-align: center;
 }
 
+.section-1 h2 {
+    width: fit-content;
+    margin: 0 auto;
+    padding-top: 15px;
+    border-bottom: 4px solid #00B172;
+}
+
 .section-1 div {
     display: inline-block;
+    padding-top: 15px;
 }
 
 .section-1 p {
     width: 200px;
+    padding: 30px;
 }
 
 .section-2 {
     background-color: #00B172;
+    background-image: url(../images/spotify-icon-white.png);
+    background-repeat: no-repeat;
+    background-size: 150px;
+    background-position: center;
     color: white;
     height: 800px;
+    margin: 15px;
+}
+
+.section-2 div {
+    width: 500px;
+    margin: 0px;
+    padding-left: 30px;
+    position: relative;
+    top: 100px;
+    left: 50px;
 }
 
 .section-2 p {
  display: block;
+ width: 300px;
 }
 
 .section-2 h3 {
     border-bottom: 2px solid;
+    width: fit-content;
+    font-size: xx-large;
 }
 
-#spotify-icon {
-    height: 150px;
-    width: 100;
-    margin: 0 auto;
-}
  #spotify-app {
      height: 600px;
      float: right;
      position: relative;
-     top: 40%;
+     bottom: 60%;
  }
