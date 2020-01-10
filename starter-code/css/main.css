@@ -1,8 +1,185 @@
-/*
+/* 
+
 Colors:
 
 Text: 1A1A1A
 Green: #00B172
-White: #FFF
+White:
 
 */
+
+@import url('https://fonts.googleapis.com/css?family=Varela+Round');
+
+body {
+  margin: 0;
+  padding: 0;
+  font-family: "Varela Round";
+
+}
+
+header {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+}
+
+nav ul {
+  list-style: none;
+  padding-right: 1em;
+  padding-top: 1.5em;
+  display: flex;
+}
+
+nav a {
+  text-decoration: none;
+  color: black;
+  font-size: 1.5em;
+  padding-right: 1em;
+}
+
+#spotifyLogo {
+  width: 250px;
+  padding-left: 2em;
+  padding-top: 1em;
+  padding-bottom: 1em;
+}
+
+.container {
+  text-align: center;
+  color: white;
+  background-image: url('../images/landing.jpg');
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-position: center;
+  height: 100vh;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+}
+
+h1 {
+  font-size: 4em;
+  font-weight: bolder;
+}
+
+article {
+  font-size: 2em;
+  font-weight: lighter;
+  margin-bottom: 2em;
+}
+
+#about {
+  height: 75vh;
+  display: flex;
+  flex-direction: column;
+}
+
+.whats-on-spotify {
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  align-items: center;
+  text-align: center;
+}
+
+.whats-on-spotify > div {
+  width: 600px;
+}
+
+#about img {
+  width: auto;
+  height: 125px;
+}
+
+#about h4 {
+  font-size: 1.5em;
+  color: #00B172;
+  font-weight: bolder;
+  margin-top: 10px;
+}
+
+#about p {
+  font-size: 1.5em;
+}
+
+#about h2 {
+  text-align: center;
+  font-size: 2em;
+  margin-top: 2em;
+}
+
+hr {
+  width: 18em;
+  height: 3px;
+  background-color: #00B172;
+  margin-top: -1.5em;
+}
+
+#devices-icon {
+  margin-top: 2em;
+}
+
+.kanye-west {
+  height: 100vh;
+  background-color: white;
+  display: flex;
+  justify-content: space-evenly;
+}
+
+#kanye-west {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-evenly;
+  align-items: center;
+  text-align: center;
+  background-color: #00B172;
+  height: 96vh;
+  width: 185vh;
+}
+
+#kanye-west div {
+  width: fit-content;
+  height: auto;
+  background-color: #00B172;
+}
+
+#kanye-west h2 {
+  text-align: left;
+  font-size: 2em;
+  color:  #FFF;
+  font-weight: bolder;
+}
+
+#kanye-west h4 {
+  text-align: left;
+  font-size: 1.5em;
+  color:  #FFF;
+  font-weight: bolder;
+}
+
+#kanye-west p {
+  text-align: left;
+  font-size: 1.5em;
+  color:  #FFF;
+  font-weight: lighter;
+}
+
+#kanye-west hr {
+  width: 26em;
+  height: 3px;
+  background-color: #FFF;
+  margin-top: -1em;
+}
+
+#spotify-icon {
+  width: auto;
+  height: 125px;
+  margin-right: 3em;
+}
+
+#spotify-app {
+  width: auto;
+  height: 550px;
+  margin-top: 2em;
+}
