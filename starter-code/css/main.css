@@ -6,3 +6,124 @@ Green: #00B172
 White: #FFF
 
 */
+
+
+/* globals */
+* {
+margin: 0;
+}
+body {
+    background-color: white;
+    position: relative;
+    margin: 0;
+    padding: 0%;
+}
+
+/*nav bar*/
+nav {
+    position: fixed;
+    background-color: white;
+    display: inline;
+    width: 100%;
+    height: 13%;
+}
+nav>img{
+    height: 50%;
+    width: auto;
+    float: left;
+    padding: 2%;
+   
+}
+nav>ul {
+    float: right;
+    list-style: none;
+    width: 26%;
+    padding: 3% 0 3% 3%;
+    margin: 1%;
+}
+nav>ul>li {
+    display: inline;
+    margin: 3%;
+
+}
+nav>ul>li>a {
+    color: #1A1A1A;
+    text-decoration: none;
+    width: 3%;
+    height: auto;
+}
+
+
+
+/* first block */
+section:first-of-type{
+    background-image: url("../images/landing.jpg");
+    background-size: 100% 100%;
+    background-repeat: no-repeat;
+    width:100%;
+    height: 100vh;
+}
+section:first-of-type>div{
+    width: 100%;
+    position: absolute;
+    top: 20%;
+    text-align: center;
+    margin-top: -300px;
+}
+section:first-of-type h1{
+    color: white;
+    font-size: 350%;
+}
+
+section:first-of-type article {
+    color: white;
+    font-size: 120%;
+    font-weight: lighter;
+}
+
+
+/* second block */
+
+section:nth-child(2){
+    background-color: white;
+}
+section:nth-child(3)>div:first-of-type{
+    margin: auto;
+    width: 25%;
+    text-align: center;
+    font-size: 200%;
+    padding: 50px 0 0 0;
+    border-bottom: 4px #00B172 solid;
+}
+section:nth-child(3)>#three-display{
+    margin-bottom: 15%;
+    margin-top: 10%;
+   
+}
+section:nth-child(3)>#three-display>div{
+    width: 30%;
+    height: 40px;
+    display: inline-block;
+    text-align: center;
+    margin-left: 30px;
+}
+section:nth-child(3)>#three-display img {
+    width: 30%;
+    height: auto;
+}
+section:nth-child(3)>#three-display h3 {
+    color: #00B172;
+    font-size: x-large;
+    font-weight: bolder;
+    margin-top: 5%;
+}
+section:nth-child(3)>#three-display article {
+    margin-top: 8%;
+    font-size: x-large;
+}
+
+
+
+/* third block */
+
+/* weird thing in the background */
