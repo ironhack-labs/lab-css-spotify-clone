@@ -4,5 +4,99 @@ Colors:
 Text: 1A1A1A
 Green: #00B172
 White: #FFF
-
 */
+*{
+    margin: 0;
+    padding: 0;
+}
+
+/* ----- */
+nav{
+    background-color: white;
+    position: fixed;
+    width: 100%;
+    height: 50px;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: center;
+}
+    nav > ul > li{
+        list-style: none;
+        display: inline-block;
+        padding: 10px;
+    }
+
+/* ----- */
+.dos{
+    background-image: url(../images/landing.jpg);
+    vertical-align: middle;
+    width: 100%;
+    height: 75vh;
+    background-size: cover;
+    padding-top: 150px;
+    color: whitesmoke;
+    text-align: center;
+}
+    .dos > h1{
+        font-size: 3em;
+    }
+
+    .dos > p{
+        font-size: 2em;
+    }
+
+/* ---- */
+.subtitulo{
+    display: flex;
+    justify-content: center;
+    padding-bottom: 20px;
+}
+
+.que{
+    width: 30%;
+    text-align: center;
+    padding-top: 20px;
+    border-bottom: #00B172 3px solid;
+}
+
+.tres{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding-bottom: 20px;
+}
+
+.tres > div{
+    width: 100%;
+    justify-content: center;
+    padding: 20px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+h3{
+    color: #00B172;
+}
+
+/* ---- */
+.cuatro > div{
+    background-color: #00B172;
+    margin: 0px 20px 20px 20px;
+    display: flex;
+    height: 75vh;
+    align-items: center;
+    justify-content: space-between;
+    color: white;
+}
+
+.contenido > .info{
+    flex-direction: column;
+    justify-content: flex-start;
+}
+
+.kanye{
+    flex-direction: row;
+    margin-right: 30px;
+}
