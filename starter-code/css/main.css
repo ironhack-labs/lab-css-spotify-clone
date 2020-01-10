@@ -11,12 +11,15 @@ nav {
     height: 115px;
     width: 100vw;
     position: absolute;
+    top: 0;
+    left: 0;
+    display: block;
 }
 nav img {
     height: 75px;
     margin: 20px 40px;
     position: relative;
-    display: inline;
+    display: inline-block;
 }
 nav ul {
     position: absolute;
@@ -36,5 +39,38 @@ nav a {
 }
 header {
     background-image: url(../images/landing.jpg);
-    
+    background-size: cover;
+    background-repeat: no-repeat;
+    width: 100vw;
+    height: 1200px;
+    position: absolute;
+    left: 0;
+    top: 115px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
 }
+header div {
+    color:whitesmoke;
+    text-align: center;
+    font-size: 3em;
+}
+#spotify {
+    display: block;
+    background-color: teal;
+    width: 100vw;
+    height: 1000px;
+    position: absolute;
+    top: 1315px;
+    left: 0;
+}
+section h1{
+    text-align: center;
+}
+article {
+    display: inline-block;
+    width: 30%;
+    
+
+}
+
