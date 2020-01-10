@@ -6,3 +6,131 @@ Green: #00B172
 White: #FFF
 
 */
+
+* {
+    font-family: Arial, Helvetica, sans-serif;
+    margin: 0px;
+    padding: 0px;
+}
+
+nav {
+    z-index: +1;
+    width: 100vw;
+    height: 70px;
+    position: fixed;
+    background-color: white;
+}
+
+nav>img {
+    width: 200px;
+    position: absolute;
+    text-align: left;
+}
+
+nav>ul{
+    position: absolute;
+    list-style-type: none;
+    float: right;
+    padding-bottom: 0px;
+    margin-top: 30px;
+    margin-left: 60%;
+}
+
+nav>ul>li{
+    display: inline;
+    margin: 0px 50px 100px 10px;
+}
+
+.section1>h1 {
+    font-size: 50px;
+    color:white;
+    padding: 17% 0% 5% 0%;
+    text-align: center;
+}
+
+.section1>p {
+    padding-left: 0%;
+    color: white;
+    font-size: 30px;
+    text-align: center;
+}
+
+.section1 {
+    z-index: -1;
+    background-image: url(../images/landing.jpg);
+    background-size: 100% 100%;
+    background-repeat: no-repeat;
+    height: 700px;
+    width: 100vw;
+}
+
+h2 {
+    font-size: 50px;
+    text-decoration: underline;
+    text-decoration-color: #00B172;
+    text-underline-position: under;
+    text-align: center;
+}
+
+.multimedia {
+    width: 10%;
+    margin: 50px 50px 100px 200px;
+    display: inline-block;
+    text-align: center;
+}
+
+.multimedia>img {
+    width: 100px;
+}
+
+h3 {
+    text-align: center;
+    font-size: 25px;
+    color: #00B172;
+}
+
+.lastsectionbox{
+    width: 90%;
+    background-color: #00B172;
+    margin:auto;
+    background-image: url(../images/spotify-icon-white.png);
+    background-repeat: no-repeat;
+    background-size: 150px;
+    background-position: center;
+}
+
+.lastimage {
+    display: inline-block;
+    width: 20%;
+    margin-left: 15%;
+    margin-top: 10%;
+}
+
+.lastimage img {
+    width:100%;
+    text-align: right;
+}
+
+h4 {
+    text-decoration: underline;
+    text-decoration-color: white;
+    text-underline-position: under;
+    font-size: 35px;
+    color: white;
+}
+
+h5 {
+    font-size: 25px;
+    color: white
+}
+
+.lasttext {
+    width: 40%;
+    display: inline-block;
+    margin: 5% 100px 20% 10%
+}
+
+.lasttext p{
+    font-size: 20px;
+    color: white;
+}
