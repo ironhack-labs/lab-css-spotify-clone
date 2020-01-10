@@ -8,9 +8,15 @@ White: #FFF
 */
 body {
     font-family: 'Muli', sans-serif;
+    margin: 0;
 }
 
-
+nav {
+    position: fixed;
+    width: 100%;
+    background-color: white;
+    padding-top: 10px;
+}
 
 nav > img {
     height: 65px;
@@ -22,7 +28,7 @@ nav > img {
 ul {
     list-style-type: none;
     float: right;
-    padding-right: 5px;
+    padding-right: 12px;
     margin-bottom: 14px;
     
     
@@ -39,6 +45,8 @@ header {
     background-size: cover;
     color: white;
     padding-top: 2px;
+    margin-bottom: 20px;
+    
 }
 
 .header-text {
@@ -67,12 +75,18 @@ h1 {
     margin: 0 auto;
     padding-top: 15px;
     border-bottom: 4px solid #00B172;
+    font-size: 32px;
+}
+
+.section-1 h3 {
+    color: #00B172;
 }
 
 .section-1 div {
     display: inline-block;
-    padding-top: 15px;
+    padding-top: 40px;
 }
+
 
 .section-1 p {
     width: 200px;
@@ -87,7 +101,7 @@ h1 {
     background-position: center;
     color: white;
     height: 800px;
-    margin: 15px;
+    margin: 15px 30px;
     padding-top: 50px;
     text-align: center;
     
@@ -123,7 +137,5 @@ h1 {
  #spotify-app {
      height: 500px;
      margin-top: 100px;
-     position: relative;
-     bottom: 20px;
      padding-right: 15px;
  }
