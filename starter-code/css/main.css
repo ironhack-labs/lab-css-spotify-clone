@@ -1,8 +1,165 @@
 /*
-Colors:
-
-Text: 1A1A1A
-Green: #00B172
-White: #FFF
-
+Colores:
+Texto: 1A1A1A
+Verde: # 00B172
+Blanco: #FFF
 */
+
+html, body {
+    margin: 0;
+    padding: 0;
+  }
+  
+  .container{
+    margin: 0 auto;
+    padding: 75px 0;
+    width: 1200px;
+  }
+  
+  h2{
+    color: white;
+    font-size: 50px;
+    line-height: 100px;
+    text-align: center;
+  }
+  
+  h3{
+    font-size:1.5em;
+    text-align:center;
+    line-height: 1em;
+  }
+  
+.nav-bar div{
+    background-color: white;
+    position: relative;
+    
+    
+
+  }
+  .nav-bar{
+    padding: 5px 0;
+    position: fixed;
+    background-color: white;
+    justify-content: center;
+    align-content: space-between;
+  }
+  .nav-bar img{
+    width: 170px;
+    padding-left: 30px;
+    align-items: flex-start;
+
+  }
+  .nav-bar a{
+    text-decoration: none;
+    color: black;
+    font-size: 1em;
+  }
+  
+  .nav-bar-ul{
+    margin: 0  ;
+    width: 1280px;
+    display: flex;
+    justify-content: space-evenly;
+    list-style: none;
+    
+  }
+  
+  .header{
+    background-image: url(/starter-code/images/landing.jpg);
+    background-position: 0;
+    background-repeat: no-repeat;
+    background-size: cover;
+    height: 650px;
+    padding-top: 50px;
+    position: static;
+  
+  }
+  
+  .header p{
+    color: white;
+    font-size: 20px;
+    line-height: 5px;
+    text-align: center;
+  }
+  
+  .header h2{
+    color: white;
+    font-size: 50px;
+    line-height: 100px;
+    text-align: center;
+    padding-top: 150px;
+  }
+  
+  
+  .service-box{
+    text-align: center;
+    background-origin: 2px solid #eee;
+    box-sizing: border-box;
+    width: 40%;
+  }
+  
+  .service-box p{
+    font-size: 0.8em;
+    line-height: 5px;
+    text-align: center;
+  
+  }
+  .service-box img{
+    width: 60px;
+  }
+  
+  #whats div{
+    display: flex;
+    justify-content: space-between;
+    flex-direction: row;
+    flex-wrap: nowrap;
+  }
+  
+  #whats >h3{
+    text-decoration: underline #00b172 ;
+    
+  }
+  #buscar{
+    background-color: #00b172;
+    color: white;
+    
+  }
+  #buscar >div{
+    display: flex;
+    
+    flex-direction: row;
+    flex-wrap: nowrap;
+  
+  }
+  #buscar> h3{
+    text-decoration: underline white ;
+    text-align: left;
+    padding-left: 15px;
+  }
+  #buscar h3{
+    
+    text-align: left;
+    padding-top: 10px;
+    padding-left: 100px;
+    
+  }
+  #buscar p{
+    
+    text-align: left;
+    padding-top: 10px;
+    padding-left: 100px;
+    
+  }
+  
+  #buscar img{
+    text-align: left;
+    padding-left: 200px;
+    height: 450px;
+  
+  }
+  
+  #logito img{
+    height: 100px;
+    padding-left: 200px;
+    padding-top: 150px;
+  }
