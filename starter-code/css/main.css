@@ -5,4 +5,97 @@ Text: 1A1A1A
 Green: #00B172
 White: #FFF
 
-*/
+*/  
+body {
+ 
+    font: 200 16px/1.5 "Helvetica Neue", Helvetica, Arial, sans-serif;
+    margin: 0;
+  }
+  header{
+    position: fixed;
+    background-color:#fff;
+    width: 100vw;
+  }
+  ul{
+    float: right;
+    padding-right: 50px ;
+    margin-top: 25px;
+  }
+  li {
+    list-style: none;
+    display: inline;
+    text-align: center;
+    padding-left: 15px;
+    }
+header img {
+    width: 150px;
+    box-sizing: border-box;
+    padding: 20px;
+    float: left;
+  }
+  section{
+ background-image: url(https://github.com/isra-03/lab-css-spotify-clone/blob/master/starter-code/images/landing.jpg?raw=true);
+ background-size: contain;
+ padding-top: 300px;
+ background-repeat: no-repeat;
+ background-size: cover;
+ height: 600px;
+ color: #fff;
+ text-align: center;
+ font-size: 2rem;
+}
+.contenedor{
+  text-align: center;
+  width: 25vw;
+  display: inline-block;
+  vertical-align: top;
+  margin: 0 3vw;
+}
+.contenedor img{
+  width: 50px;
+  height: 100px;
+}
+#titulo{
+  border-bottom: solid;
+  border-color: #00b172;
+  width: fit-content;
+  text-align: center;
+  margin: 10px auto
+  ;
+}
+.fondo{
+  background-image: url(../images/spotify-icon-white.png);
+  background-repeat: no-repeat;
+  background-position: center;
+  background-size: 200px;
+  background-color: #00b172;
+  color: #fff;
+  height: 500px;
+  margin: 50px;
+  padding: 80px;
+}
+.fondo img{
+  width: 250px;
+   float: right;
+}
+#subtit{
+  border-bottom: solid;
+  border-color #fff;
+  width: fit-content;
+  text-align: left;
+  margin: 10px;
+  font-size: 1.5rem;
+}
+.border{
+  border-color #fff;
+  width: fit-content;
+  text-align: left;
+  margin: 10px;
+  font-size: 1.5rem;
+}
+.fondo p{
+  font-size: 1rem;
+  text-align: left;
+  margin: 5px;
+
+}
