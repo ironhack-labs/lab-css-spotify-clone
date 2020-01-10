@@ -6,3 +6,168 @@ Green: #00B172
 White: #FFF
 
 */
+
+@import url('https://fonts.googleapis.com/css?family=Roboto+Condensed:700|Roboto:100,300,700');
+* {
+    padding: 0;
+    margin: 0;
+}
+
+body {
+    font-family: Roboto;
+}
+
+header {
+    height: 180px;
+    width: 100%;
+    background-color: white;
+    position: fixed;
+}
+
+header>img {
+    padding-top: 25px;
+    padding-left: 20px;
+    width: 450px;
+    position: fixed;
+}
+
+#background-img {
+    background-image: url('../images/landing.jpg');
+    position: no-repeat;
+    background-repeat: no-repeat;
+    background-size: cover;
+    height: 1900px;
+}
+
+#music-for-everyone {
+    color: white;
+    font-size: 180px;
+    position: absolute;
+    margin: 500px 0 0 550px;
+    width: 2000px;
+}
+
+#whats-on-spotify {
+    font-size: 80px;
+    margin: 80px 0 0 980px;
+}
+
+#text-img {
+    color: white;
+    font-size: 70px;
+    position: absolute;
+    margin: 800px 0 0 350px;
+    width: 2000px;
+    text-align: center;
+}
+
+hr {
+    margin: 20px auto 25px 900px;
+    width: 30%;
+    border: 1px solid #00B172;
+}
+
+#speaker-icon {
+    position: absolute;
+    /*border: 1px solid darkred;*/
+    width: 700px;
+    height: 700px;
+    margin: 150px 0 0 250px;
+    align-items: center;
+}
+
+.speaker-icon-size {
+    width: 50%;
+    margin: 75px 0 0 180px;
+}
+
+#music-icon {
+    position: absolute;
+    /*border: 1px solid blue;*/
+    width: 700px;
+    height: 700px;
+    margin: 150px 0 0 1030px;
+}
+
+.music-icon-size {
+    width: 50%;
+    margin: 75px 0 0 180px;
+}
+
+#devices-icon {
+    position: absolute;
+    /*border: 1px solid blue;*/
+    width: 700px;
+    height: 700px;
+    margin: 150px 0 0 1800px;
+}
+
+.devices-icon-size {
+    width: 50%;
+    margin: 75px 0 0 180px;
+}
+
+#container {
+    position: relative;
+}
+
+h3 {
+    text-align: center;
+    font-size: 75px;
+    color: #00B172;
+}
+
+#music-icon>h3 {
+    margin-top: 45px;
+}
+
+#speaker-icon>p,
+#music-icon>p,
+#devices-icon>p {
+    text-align: center;
+    font-size: 50px;
+    margin-top: 25px;
+}
+
+#green-card {
+    background-color: #00B172;
+    width: 95%;
+    height: 1500px;
+    margin-top: 950px;
+    margin-left: 70px;
+    margin-bottom: 70px;
+    position: relative;
+}
+
+#spotify-app>img {
+    position: absolute;
+    margin-top: 250px;
+    margin-left: 1700px;
+}
+
+#spotify-icon>img {
+    position: relative;
+    margin-top: 700px;
+    margin-left: 1200px;
+    width: 300px;
+}
+
+#green-card-text {
+    position: absolute;
+    /*border: 1px solid darkred;*/
+    width: 1100px;
+    font-size: 50px;
+    margin-left: 200px;
+    color: white;
+    margin-top: -750px;
+}
+
+#green-card-text>p {
+    padding: 50px 0;
+}
+
+#green-card-text>hr {
+    border: 3px solid white;
+    margin-left: 10px;
+    width: 920px;
+}
