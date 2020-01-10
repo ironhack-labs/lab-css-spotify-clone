@@ -46,7 +46,6 @@ body{
     padding-right: 0;
     padding: 0;
     overflow-x: hidden;
-    color: #FFF;
 }
 
 section:first-of-type{
@@ -69,17 +68,48 @@ section:first-of-type>h1{
     font-size: 5rem;
     margin-bottom: 40px;
 }
-section:nth-child(3)>img{
+section:nth-child(3) img{
     height: 120px;
     width: 140px;
 
 }
+section:nth-child(3) p{
+        width: inherit;
+    }
 section:nth-child(3){
     color: #1a1a1a;
+    font-size: 1.5rem;
 }
-section:nth-child(3)>h2{
+section:nth-child(3) h2{
     border-bottom: solid;
     border-color:#00B172 ;
-    
+    width: fit-content;
+    margin: 50px auto;    
 
+}
+section:nth-child(3) h3{
+    color:#00B172 ;   
+    font-weight: 800;
+}
+
+#musica{
+    display: inline-block;
+    width: 25vw;
+    text-align: center;
+    vertical-align: top;
+    margin:0 4vw;
+}
+#aparatos{
+    text-align: center;
+    width: 25vw;
+    display: inline-block;
+    vertical-align: top;
+    margin:0 3vw;    
+}
+#calidad{
+    text-align: center;
+display: inline-block;
+width: 25vw;
+vertical-align: top;
+margin:0 3vw;
 }
