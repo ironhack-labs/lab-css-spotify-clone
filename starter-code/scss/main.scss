@@ -1,0 +1,195 @@
+/*
+Colors:
+
+Text: 1A1A1A
+Green: #00B172
+White: #FFF
+
+*/
+
+body{
+	overflow-x: hidden;
+	text-align: center;
+	margin: 0 auto;
+	color: #1A1A1A;
+}
+
+header{
+	margin: 0;
+	padding:0;
+	height: 12vh;
+	width: 100vw;
+	position:fixed;
+	background-color: #fff;
+	z-index: 10000;
+top:0;
+left: 0; 
+
+
+	nav{
+		margin:0 auto;
+		padding: .5% 0;
+		height: 100%;
+		width: 100%;
+		box-sizing: border-box;
+
+		position: relative;
+		left: 0;
+		top: 0;
+		img{
+			height: 10vh;
+			width: auto;
+			position: absolute;
+			left: 0;
+		}
+		ul{
+			display:inline-block;
+			width: 40%;
+			height: 10vh;
+			margin: 0 auto;
+			padding: 0 auto;
+			text-align: rigth;
+			position:absolute;
+			right: 0;
+			text-align: right;
+			padding-right: 2%;
+			li{
+				padding: 0;
+				margin: 2% auto;
+				list-style: none;
+				display: inline-block;
+				padding: 2% ;
+				font-size: 1.3rem;
+				color: #1A1A1A;
+			}
+		}
+	}
+}
+
+	section{
+	height: 100vh;
+	width: 100vw;
+	padding: 5% 0;
+	box-sizing: border-box;
+	position: relative;
+	right: .6%;
+	top:10vh;
+	color: white;
+
+
+	}
+
+ body section:nth-child(2){
+		height: 90vh;
+
+	background-image: url(../images/landing.jpg) ;
+	background-size: 100% 100%;
+
+			h1{
+			font-size: 8rem;
+			text-align: center;
+			margin:0 auto;
+		}
+		p{
+			text-align: center;
+			font-size: 2rem;
+			width: 45%;
+			margin: 10vh auto;
+		}
+}
+
+
+
+
+
+body section:nth-child(3){
+	color: black;
+	text-align: center;
+
+		h2{
+			font-size: 5rem;
+		}
+
+	.gifts{
+
+
+		display:inline-block;
+		width:33%;
+		height: 60%; 
+		margin:0 ;
+ 	img{
+		height: 20vh;
+		width: auto;
+		margin: 0 auto;
+		display: block;
+
+
+	}
+	h3{
+	font-size: 2.5rem;
+	}
+	p{
+		font-size: 1.5rem;
+		width: 70%;
+		height: auto;
+		margin: 0 auto;
+	}
+
+
+
+	}
+
+}
+
+body section:nth-child(4){
+
+
+	display: block;
+	width:96vw;
+	margin:0 auto;
+	background: #00B172 url('../images/spotify-icon-white.png') no-repeat ;
+	background-size: 10%;
+	background-position: center;
+	right: 0;
+
+	.textContainer,.imgContainer {
+		float: left;
+		height: 100%;
+		width: 50%;
+		display: inline-block;
+		margin:0 ;
+		box-sizing: border-box;
+
+	}
+
+	.textContainer{
+		text-align: left;
+		padding: 0 5%;
+
+		h2{
+			font-size: 3rem;
+			border-bottom: 5px solid white;
+			margin-top: 0;
+
+		}
+		h3{
+			font-size: 2rem;
+			margin-top: 0;
+		}
+		p{
+			font-size: 1.5rem;
+			width: 70%;
+			height: auto;
+		}
+	}
+
+
+
+	.imgContainer img{
+		height: 100%;
+		width: auto;
+		display: block;
+		margin: 0 auto;
+		padding: 0;
+	}
+}
