@@ -13,6 +13,7 @@ nav{
     height: 100px;
     position: fixed;
     width: 100vw;
+    padding-right: 20px;
 }
 
 nav>img{
@@ -27,6 +28,7 @@ nav>ul{
     list-style: none;
     font-size: 20px;
     margin-top: 40px;
+    padding-right: 30px;
 }
 
 nav>ul>li{
@@ -39,14 +41,45 @@ nav>ul>li{
 
 body{
     margin:0;
-    background-color: red;
+    background-color:#FFF;
     font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif ;
-}
-section:first-of-type{
-    margin-top: 100px;
+    padding-right: 0;
+    padding: 0;
+    overflow-x: hidden;
+    color: #FFF;
 }
 
-section:first-of-type>img{
+section:first-of-type{
+    margin: 0px;
+    padding-top: 250px;
+    background-image: url("../images/landing.jpg");
+    background-size: cover;
+    background-repeat: no-repeat;
+    width: 100vw;
+    height: 550px;
+    color:#FFF; 
+    text-align: center;
+    padding: auto 0;
+    font-size: 1.8rem;
+}
+section:first-of-type>p{
+    margin:0;
+}
+section:first-of-type>h1{
+    font-size: 5rem;
+    margin-bottom: 40px;
+}
+section:nth-child(3)>img{
     height: 120px;
     width: 140px;
+
+}
+section:nth-child(3){
+    color: #1a1a1a;
+}
+section:nth-child(3)>h2{
+    border-bottom: solid;
+    border-color:#00B172 ;
+    
+
 }
