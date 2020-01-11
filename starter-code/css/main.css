@@ -1,10 +1,13 @@
 * {
     margin: 0;
     padding: 0;
-    font-family: varela;
+    font-family: Varela Round;
+    box-sizing: border-box;
 }
 
-.navbar {
+/* navbar styles*/
+
+#navbar {
     width: 100%;
     height: 80px;
     position: fixed;
@@ -16,21 +19,11 @@
     padding: 15px;
 }
 
-.navbar img {
-    width:  180px;
+#navbar img {
+    width: 180px;
 }
 
-.navbar a {
-    text-decoration: none;
-    color: #1A1A1A;
-    font-size: 1.5em;
-}
-
-.navbar li {
-    margin: auto 15px;
-}
-
-.navbar ul {
+#navbar ul {
     padding: 15px;
     list-style-type: none;
     text-align: center;
@@ -38,53 +31,172 @@
     justify-content: space-around;    
 }
 
+#navbar a {
+    text-decoration: none;
+    color: #1A1A1A;
+    font-size: 1.5em;
+    margin: auto 15px;
+}
+
+/* header and its background img ARE THE WORST*/
+
 header {
     background-image: url(/images/landing.jpg);
     background-repeat: no-repeat;
     background-size: 100%;
-    color: #FFF;   
-    padding-top: 110px;
-    padding-bottom: 500px;
-    text-align: center;    
+    width: 100%;
+    min-height: 1000px;
+    color: #FFF;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+}
+ 
+.headercontainer {
+    margin: 40px;
+ }
+
+header h1, header p {
+    text-align: center;
+    margin: 50px auto;
 }
 
 header h1 {
     font-size: 7.25em;
-    padding-top: 175px;
-
 }
+
 
 header p {
     font-size: 1.75em;
     font-weight: 200;
-    padding: 100px 0 500px 0;
-
 }
-.what, 
-.flex-container {
+
+/* what's on spotify section */
+
+#what {
     display: flex;
+    justify-content: center;
+    align-items: center;
     justify-content: space-evenly;
+    flex-direction: row;
+  }
+
+.flex-container {
+  display: flex;
+  width: 100%;
+  margin-top: 50px;
+  
 }
 
-.what {
+.flex-container p {
+    font-weight: 100;
+    font-size: 1.75em;
+    text-align: center;
+}
+
+.flex-container h3 {
+    font-size: 2.25em;
+    margin: 25px auto 50px;
+}
+
+#what {
     flex-wrap: wrap;
 }
 
-.what img {
+#what img {
     width: 200px;
 }
 
-.what h2 {
-    font-size: 4em;
-    display: inline-block;
-    border-bottom: 5px solid #00B172;
-    margin-bottom: 50px;
+#what p {
+    font-family: Muli;
+    font : Muli Extra-Light;
 }
 
-.what h3 {
+#whatcontainer {
+    width: 100%;
+    display: flex;
+    width: 100vw;
+    margin: auto 100px;
+}
+
+#what h2 {
+    font-size: 3em;
+    display: inline-block;
+    border-bottom: 5px solid #00B172;
+    margin: 100px auto 50px;
+}
+
+#what h3 {
     color: #00B172;
     text-align: center;
 }
+
+.flex-container div {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    width: 33%;
+    margin-bottom: 150px;
+}
+
+/* green section */
+
+#s3 {
+    margin: 25px;
+    background-color: #00B172;
+    width: calc( 100% - 50px);
+    position: relative;
+    box-sizing: border-box;
+    padding: 75px;
+    color: #FFF;
+}
+
+#s3 img {
+    position: absolute;
+    z-index: 1;
+}
+
+#whitelogo {
+    top: 45%;
+    left: 45%;
+    width: 200px;
+}
+
+#smartphone {
+    right: 75px;
+    top: 75px;
+    height: calc(100% - 150px);
+}
+
+#s3 h3 {
+    padding-top: 0;
+    font-size: 3em;
+    display: inline-block;
+    border-bottom: 5px solid #FFF;
+    margin: 0 0 75px;
+}
+
+.green-container {
+    width: 25%;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-around;
+    align-items: flex-start;
+    justify-content: space-around;
+}
+
+h4.green {
+    font-size: 3em;
+    margin: 25px 0;
+}
+
+.green-container p {
+    font-size: 1.75em;
+    margin: 25px auto;
+}
+
 /*
 Colors:
 
