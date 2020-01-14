@@ -6,3 +6,140 @@ Green: #00B172
 White: #FFF
 
 */
+
+header {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    position: fixed;
+    background-color: #FFF;
+    padding: 1em;
+/* no he encontrado como evitar que la penultima seccion se posicione por encima del header */
+  }
+  
+img {
+    width: 15%;
+}
+  
+  ul {
+    display: flex;
+    list-style: none;
+    font-weight: 100;
+    margin: 0;
+  }
+  
+  li {
+    display: inline-block;
+    margin: 0.6em;
+
+  }
+  
+  a {
+    text-decoration: none;
+    color: rgb(36, 35, 35);
+    font-size: 1.5em;
+    font-weight: 100;
+  }
+
+  a:hover{
+    text-decoration: none;
+    color: rgb(36, 35, 35);
+
+  }
+/* 1era parte */
+  .background{
+    background-image: url(../images/landing.jpg);
+    background-size: 100%;
+    background-repeat: no-repeat;
+    padding: 25%;
+}
+.center{
+text-align: center;
+}
+
+.center h1{
+  color:#FFF;
+  font-size: 4.2em;
+}
+
+.move{
+  animation: beat 1s ease-out 1s infinite alternate;
+
+}
+
+@keyframes beat {
+
+  from {
+      font-size: 4em;
+  }
+
+  to {
+      font-size: 4.2em;
+  }
+}
+
+.center p{
+  font-size: 1.5em;
+}
+
+.background p{
+    color: #FFF;
+}
+/* 2ª parte */
+
+.features{
+  padding: 3em;
+}
+
+.size{
+  font-size: 2em;
+}
+
+.hr{
+  width: 300px;
+  border: 2px solid #00B172;
+}
+.green{
+    color: #00B172;
+    font-size: 1.5em;
+}
+
+.feature {
+  margin-top: 1em;
+  align-items: center;
+  padding: 30px;
+}
+
+.feature img{
+width: 100px;
+margin: 1.5em 0;
+}
+
+.feature p{
+  font-size: 1.3em;
+}
+
+/* 3ª parte */
+
+.greenSection{
+    display: flex;
+    background-color: #00B172;
+    border: 1.5em solid white;
+    padding: 1em;
+    color: white;
+    background-image: url("../images/spotify-icon-white.png");
+    background-repeat: no-repeat;
+    background-size: 100px;
+    background-position: center center;  
+}
+
+.line{
+border-bottom: 2px solid white;
+display: inline-block;
+margin-bottom: 1.5em;
+}
+
+.app {
+  width: 250px;
+  margin-left: 300px;
+}
