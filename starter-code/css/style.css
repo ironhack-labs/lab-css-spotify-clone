@@ -1,0 +1,124 @@
+body{
+    font-family: sans-serif;
+    
+
+}
+
+nav {
+    height: 60px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+#logo {
+    height: 40px;
+    padding-left: 20px;
+    transition: 2s;
+
+}
+
+#logo:hover {
+    transform: rotate(90deg);
+}
+
+nav ul {
+    display: flex;
+    justify-content: space-around;
+}
+
+nav .menu {
+    width: 35%;
+}    
+
+#one{
+    height: 600px;
+    background:url(../images/landing.jpg)  no-repeat;
+    background-size: cover;
+    background-position: center;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    
+}
+
+#one h1, #one p{
+    color: white;
+}
+
+#one p{
+    width: 30% ;
+    text-align: center;
+    font-size: px;
+    line-height: 1.5em;
+}
+
+#one h1{
+    font-size: 50px;
+    font-weight: bold;
+    margin-bottom: 25px;
+    
+}
+
+#whats{
+    display: flex;
+    justify-content: center;
+    margin-top: 30px;
+    
+}
+
+#two {
+    display: flex;
+    flex-direction: column;
+}
+
+#whats h2 {
+    border-bottom: solid 2px rgb(81, 121, 2);
+    font-size: 40px;
+}
+
+#stream {
+    display: flex;
+    padding: 50px 0;
+    justify-content: space-around;
+  
+}
+
+#stream div{
+    width: 20%;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+#stream h3{
+    font-size: 25px;
+    color: rgb(81, 121, 2);
+    font-weight: bold;
+    margin-bottom: 10px;
+
+}
+
+#stream div img{
+    width: 130px;
+}
+
+#three{
+    background-color: rgb(81, 121, 2);
+    width: 90%;
+    margin:0 auto;
+    display: flex;
+}
+
+#three div {
+   margin: 20px;
+   color: white;
+
+}
+
+#three h2 {
+    color: white;
+    font-size: 40px;
+    text-decoration: underline;
+}
