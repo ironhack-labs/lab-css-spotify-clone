@@ -6,3 +6,216 @@ Green: #00B172
 White: #FFF
 
 */
+
+/* http://meyerweb.com/eric/tools/css/reset/ 
+   v2.0 | 20110126
+   License: none (public domain)
+*/
+html, body, div, span, applet, object, iframe,
+h1, h2, h3, h4, h5, h6, p, blockquote, pre,
+a, abbr, acronym, address, big, cite, code,
+del, dfn, em, img, ins, kbd, q, s, samp,
+small, strike, strong, sub, sup, tt, var,
+b, u, i, center,
+dl, dt, dd, ol, ul, li,
+fieldset, form, label, legend,
+table, caption, tbody, tfoot, thead, tr, th, td,
+article, aside, canvas, details, embed, 
+figure, figcaption, footer, header, hgroup, 
+menu, nav, output, ruby, section, summary,
+time, mark, audio, video {
+	margin: 0;
+	padding: 0;
+	border: 0;
+	font-size: 100%;
+	font: inherit;
+	vertical-align: baseline;
+}
+/* HTML5 display-role reset for older browsers */
+article, aside, details, figcaption, figure, 
+footer, header, hgroup, menu, nav, section {
+	display: block;
+}
+body {
+	line-height: 1;
+}
+ol, ul {
+	list-style: none;
+}
+blockquote, q {
+	quotes: none;
+}
+blockquote:before, blockquote:after,
+q:before, q:after {
+	content: '';
+	content: none;
+}
+table {
+	border-collapse: collapse;
+	border-spacing: 0;
+}
+
+/* Our code starts here!*/
+
+body {
+    font-family: 'proxima-nova', sans-serif;
+    width: 100vw;
+    height: 100vh;
+}
+nav {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    width: 100vw;
+    height: 100px;
+    position: fixed;
+    background-color: white;
+    padding: auto 30px;
+}
+nav img {
+    height: 68px;
+    margin-left: 30px;
+    
+}
+
+nav img:hover {
+    animation: ourAnimation 5s infinite;
+}
+@keyframes ourAnimation {
+    0%{
+        transform: rotate3d(1,0,0,0deg);
+    } 
+    50% {
+        transform: rotate3d(1,0,0,360deg);
+
+    }
+    100% {
+        transform: rotate3d(1,0,0,0deg);
+    }
+}
+nav ul {
+    display: flex;
+    font-size: 20px;
+    font-weight: 200;
+}
+nav li {
+    margin-right: 30px;
+}
+
+.slider {
+    background-image: url(../images/landing.jpg);
+    width: 100%;
+    height: 700px;
+    background-position: center;
+    background-size: cover;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    color: white;
+}
+
+.slider h1 {
+    font-size: 50px;
+    font-weight: 400;
+    margin-bottom: 30px;
+}
+
+.slider h3 {
+    font-size: 20px;
+    font-weight: 75;
+    margin-bottom: 10px;
+}
+
+.whats-on {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    margin: 50px auto;
+}
+.features {
+    display: flex;
+    justify-content: space-around;
+    margin: 30px auto;
+}
+
+.features img {
+    height: 100px;
+}
+
+.whats-on h2 {
+    font-size: 30px;
+    font-weight: 500;
+    border-bottom: 3px solid #00AA65;
+    margin-bottom: 30px;
+    padding-bottom: 3px;
+}
+
+.features div {
+    display: flex;
+    flex-direction: column;
+    padding: 0px 30px;
+    align-items: center;
+    justify-items: center;
+    justify-content: center;
+}
+.features h4 {
+    color: #00AA65;
+    font-weight: bold;
+    font-size: 20px;
+    margin: 30px;
+}
+.features p {
+    font-size: 20px;
+    font-weight: 20;
+    width: 55%;
+    text-align: center;
+}
+.footer {
+    background-color: #00AA65;
+    color: white;
+    display: flex;
+    margin: 30px 30px 0 30px;
+    justify-content: space-between;
+    align-items: center;
+    padding: 100px;
+}
+
+.device {
+    width: 300px;
+}
+
+.logo-white {
+    width: 100px;
+    position: absolute center;
+    margin-left: -130px;
+}
+.footer h2 {
+    font-size: 30px;
+    font-weight: bold;
+    margin-bottom: 30px;
+    border-bottom: 3px solid white;
+    padding-bottom: 8px;
+}
+.info {
+    display: flex;
+    flex-direction: column;
+    height: 500px;
+    justify-content: space-between;
+    width: 35%;
+}
+
+.footer h4 {
+    font-size: 25px;
+    font-weight: bold;
+    margin-bottom: 30px;
+}
+
+.footer p {
+    font-size: 18px;
+    font-weight: lighter;
+    margin-bottom: 30px;
+    line-height: 30px;
+    width: 70%;
+
+}
