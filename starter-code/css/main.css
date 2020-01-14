@@ -6,3 +6,152 @@ Green: #00B172
 White: #FFF
 
 */
+
+
+
+body {
+    background-color: white;
+
+}
+
+/* nav */
+
+nav {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+nav img {
+    width: 200px;
+    margin: 10px;
+    transition:2s;
+}
+
+nav img:hover {
+    transform: rotate(20deg);
+}
+
+nav ul {
+    list-style: none;
+    display: flex;
+
+}
+nav ul li {
+    padding: 0 15px;
+    font-size: 1.4em;
+}
+
+/*  header */
+
+.section-one {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    background-image: url(../images/landing.jpg);
+    background-size: cover;
+    height: 100vh;
+    color: #FFF;
+}
+
+.section-one h1 {
+    font-size: 5em;
+}
+
+.section-one p {
+    font-size: 2em;
+    width: 50%;
+    text-align: center;
+    
+}
+
+.section-two {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    text-align: center;
+
+}
+
+.section-two header {
+    color:black;
+    border-bottom: solid 4px #00B172;
+    width: 25%;
+
+}
+
+.section-two article {
+    display: flex;
+    justify-content: space-around;
+    max-width: 90%;
+    margin-top: 100px;
+}
+.section-two h3 {
+    color: #00B172;
+    font-size: 2em;
+}
+
+.section-two p {
+    font-size: 1.8em;
+    
+}
+
+.section-two img {
+    width: 40%;
+}
+
+.section-two div {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+
+   
+}
+
+/* Section-three */
+
+.section-three {
+    background-color: #00B172;
+    display: flex;
+    justify-content: space-between;
+    margin: auto 20px;
+    color: #FFF;
+}
+
+.section-three div {
+    margin: 5%;
+}
+
+.section-three div h2 {
+    font-size: 2em;
+    border-bottom: 2px solid #FFF;
+    width: 400pxpx;
+}
+
+.section-three div h3 {
+    font-size: 1.5em;
+    font-weight: bold;
+}
+
+.section-three div p {
+    font-size: 1.5em;
+}
+
+#logo-spotify {
+    position: absolute;
+    left: 470px;
+    top: 1800px;
+    margin: 0;
+    padding:0;
+
+   
+}
+
+#logo-spotify img {
+    width: 70px;
+}
+
+.spotify-app img {
+    height: 600px;
+}
+
