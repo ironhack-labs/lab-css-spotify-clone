@@ -6,3 +6,104 @@ Green: #00B172
 White: #FFF
 
 */
+
+img {
+    width: 100%;
+}
+
+.barra {
+    display: flex;
+    position: fixed;
+    justify-content: space-between;
+    align-items: center;
+    padding: 15px 0px 15px 60px;
+    background-color: white;
+    z-index: 2;
+}
+
+.logo {
+    width: 20%;
+}
+
+.barra nav {
+    display: flex;
+    justify-content: space-around;
+    width: 35%;
+    margin-right: 100px;
+    font-size: 1.3em;
+    font-weight: 250;
+}
+
+.barra nav a {
+    text-decoration: none;
+    color: black;
+    letter-spacing: .1em;
+}
+
+main {
+    background-image: url("../images/landing.jpg");
+    background-repeat: no-repeat;
+    padding: 300px;
+    color: white;
+    text-align: center;
+    background-size: 100%;
+}
+
+.titulo2 {
+    margin: 0 auto;
+    text-align: center;
+    letter-spacing: .2em;
+    border-bottom: #00B172 4px solid;
+    width: 30%;
+    padding-top: 30px;
+    margin-bottom: 70px;
+}
+
+
+.articles img {
+    width: 50%;
+
+}
+
+.centrar {
+    text-align: center;
+}
+
+.pie {
+    background-color: #00B172;
+    margin: 30px;
+
+}
+
+.estirar {
+    padding: 100px
+}
+
+.imagenlogo {
+    width: 60%;
+    margin: 0 auto;
+    animation: rotateme 2s 1 cubic-bezier(.04, -0.64, .75, 1.79);
+}
+
+@keyframes rotateme {
+
+    from {
+        transform: rotate(0deg)
+    }
+
+    to {
+        transform: rotate(360deg)
+    }
+
+}
+
+.textoverde {
+    color: white;
+    font-size: 1.3em;
+}
+
+.titulopie {
+    color: white;
+    font-size: 2em;
+    border-bottom: white 3px solid;
+}
