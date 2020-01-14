@@ -6,3 +6,165 @@ Green: #00B172
 White: #FFF
 
 */
+
+body {
+    color: #1A1A1A;
+}
+
+/* HEADER */
+header {
+    width: 100%;
+    position: fixed;
+    background-color: #fff;
+    z-index: 9999;
+}
+
+.header-content {
+    width: 89%;
+    margin: 0 auto;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+header figure {
+    width: 15%;
+    padding: 15px 0;
+    margin: 0
+}
+
+header nav ul {
+    display: flex;
+    margin: 0;
+    list-style: none;
+    font-size: 1.5em;
+    font-weight: 300;
+}
+
+header nav ul li {
+    margin-left: 30px
+}
+
+/* HERO */
+.hero {
+    height: 100vh;
+    text-align: center;
+    color: #fff;
+    background: url('../images/landing.jpg');
+    background-size: cover;
+}
+
+.hero-title {
+    font-size: 6em;
+    font-weight: 400;
+}
+
+.hero-text {
+    font-size: 2em;
+    font-weight: 300;
+}
+
+.animated-icon {
+    animation: scroll 3s ease-out infinite;
+}
+
+@keyframes scroll {
+    from {
+        transform: translateY(0);
+        opacity: 0;
+    }
+
+    to {
+        transform: translateY(50px);
+        opacity: 1;
+    }
+}
+
+/* WHATS ON SPOTIFY */
+.whats {
+    margin: 50px 0;
+    text-align: center;
+}
+
+.whats-title {
+    border-bottom: 4px solid #00B172;
+    padding-bottom: 5px;
+    font-size: 2.5em;
+    font-weight: 700;
+    display: inline;
+}
+
+.feature {
+    margin-top: 100px
+}
+
+.feature img {
+    width: 40%;
+}
+
+.feature h3 {
+    color: #00B172;
+    font-size: 2em;
+}
+
+.feature p {
+    font-size: 1.6em;
+    font-weight: 200;
+}
+
+/* GREEN */
+.green {
+    margin: 40px;
+    padding: 80px 0;
+    background-color: #00B172;
+    color: #fff;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.green-title {
+    border-bottom: 4px solid #fff;
+    padding-bottom: 10px;
+    font-size: 2.5em;
+    font-weight: 600;
+    display: inline;
+}
+
+.function {
+    font-size: 1.5em;
+    margin-top: 50px;
+}
+
+.function p {
+    font-weight: 300;
+}
+
+.spotify-app {
+    padding-top: 50px;
+}
+
+.spotify-icon {
+    position: absolute;
+    width: 150px;
+}
+
+
+
+
+
+a {
+    text-decoration: none;
+    color: #1a1a1a;
+    transition: all .5s;
+}
+
+a:hover {
+    color: #1a1a1a;
+    text-decoration: none;
+    border-bottom: 2px solid #1a1a1a;
+}
+
+img {
+    width: 100%;
+}
