@@ -6,3 +6,126 @@ Green: #00B172
 White: #FFF
 
 */
+
+a {
+    text-decoration: none;
+    color: inherit;
+    font-weight: inherit;
+}
+
+/* navbar=====================================================*/
+
+.navbar {
+    position: fixed;
+    background-color: white;
+    z-index: 1;
+}
+
+.navbar img {
+    width: 15%;
+
+}
+
+.navbar ul {
+    list-style: none;
+
+    width: 40%;
+
+    display: flex;
+    justify-content: space-evenly;
+    padding-top: 10px;
+}
+
+/*header================================================================*/
+
+.header {
+
+    color: white;
+
+    background-image: url(../images/landing.jpg);
+    background-position: center;
+    background-size: 100%;
+    background-repeat: no-repeat;
+    padding: 30%;
+}
+
+.section1 {
+    display: flex;
+    flex-direction: column;
+}
+
+.section1 img {
+    width: 40%;
+}
+
+/*section1========================================================*/
+
+.section1 article {
+    text-align: center;
+
+}
+
+.section1 h2 {
+
+    text-align: center;
+    text-decoration: underline;
+    text-decoration-color: #00B172;
+    font-weight: 900;
+}
+
+.section1 p {
+    font-weight: 100;
+}
+
+.section1 article h3 {
+    color: #00B172;
+}
+
+/*section3=====================================================*/
+
+.section3 {
+    background-color: #00B172;
+    color: white;
+
+    margin: 3%;
+    padding: 5%;
+}
+
+.kanye {
+    margin-left: 5.8%;
+    text-decoration: underline;
+}
+
+#icon {
+    width: 90px;
+    margin-left: 20%;
+
+    animation: icon 2s infinite;
+
+}
+
+#image {
+    width: 100%;
+}
+
+@keyframes icon{
+    0%{
+       transform:  rotate(-90deg) ;
+    }
+
+    25%{
+       transform:  rotate(180deg);
+    }
+
+    50%{
+        transform: rotate(-90deg);
+    }
+
+    75%{
+        transform: rotate(180deg) ;
+    }
+
+    100%{
+        transform: rotate(odeg);
+    }
+}
