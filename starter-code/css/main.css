@@ -2,7 +2,179 @@
 Colors:
 
 Text: 1A1A1A
-Green: #00B172
+Green: 
 White: #FFF
 
+}
 */
+@keyframes crecer {
+
+	/* from{background:#93b3c2;} /*From{} y to{} establecen solo 2 procesos; principio y fin.
+	to{background:#21295c ;} */
+	0% {
+		transform: scale(1, 1)
+	}
+
+	25% {
+		
+		transform: scale(1.1, 1.1);
+	}
+
+	50% {
+		
+		transform: scale(1.2, 1.2)
+	}
+
+	75% {
+		
+		transform: scale(1.1, 1.1)
+	}
+
+	100% {
+		
+		transform: scale(1, 1)
+	}
+}
+
+li a {
+    color: black;
+    font-size: 1.2em;
+}
+h3{
+font-size: 2em;
+color: rgb(12, 182, 159);
+animation-name: crecer;
+    animation-duration: 2s;
+    animation-iteration-count: infinite ;
+   
+
+}
+
+h1{
+    animation-name: crecer;
+    animation-duration: 2s;
+    animation-iteration-count: infinite ;
+   
+}
+
+nav {
+    display: flex;
+    justify-content: space-between;
+    padding: 25px;
+    position: fixed;
+    background-color: white;
+    width: 100%;
+    z-index: 1;
+}
+.icon-pic{
+    width: 150px;
+}
+
+.section1 {
+    background-image: url(../images/landing.jpg);
+    background-size: cover;
+    padding: 25%;
+    
+}
+.section1 h1{
+    color: white;
+    text-align: center;
+    font-size: 3.5em;
+    letter-spacing: 2px;
+}
+.section1 p{
+    font-size: 2em;
+    font-weight: 100;
+    color: white;
+    text-align: center;
+}
+
+.spotify-pic {
+    width: 150px;
+    margin-left: 40px;
+}
+
+.list {
+    display: flex;
+    list-style: none;
+    justify-content: space-evenly;
+
+}
+
+.list li {
+    margin-right: 40px;
+    text-decoration: none;
+
+}
+.title1{
+    text-align: center;
+    font-size: 3em;
+    padding: 20px 20px 0 20px;
+    /* border-bottom: 2px solid rgb(19, 207, 198); */
+
+    
+}
+.hr{
+    width: 450px;
+    border: 3px solid rgb(15, 156, 126);
+    margin-bottom: 50px;
+}
+.fix{
+    margin-bottom: 15px;
+}
+.p-size{
+    font-size: 1.5em;
+}
+.section3{
+    display: flex;
+    justify-content: space-between;
+    margin-top: 70px;
+    background: url(../images/spotify-icon-white.png);
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: 10%;
+    background-color: #00B172;
+}
+.content-pic{
+   
+    width: 500px;
+}
+.phone-pic{
+    width: 60%;
+    height: 60;
+}
+article{
+    width: 450px;
+    margin-top: 60px;
+    margin-left: 80px;
+}
+figure{
+    margin-top:90px ;
+}
+article h2{
+    color: white;
+    text-decoration: underline;
+    font-size: 2em;
+}
+article h4{
+    color: white;
+    font-size:1.5em ;
+    margin: 15px 0;
+}
+article p{
+    color: white;
+    font-size: 1.3em;
+}
+
+a:hover {
+    text-decoration: none;
+    color: black;
+}
+
+a:visited {
+    text-decoration: none;
+    color: black;
+}
+
+
+
