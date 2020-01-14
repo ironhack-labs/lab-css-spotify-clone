@@ -6,3 +6,126 @@ Green: #00B172
 White: #FFF
 
 */
+
+img {
+    width: 100%;
+}
+
+header {
+    display: flex;
+    justify-content: space-around;
+    align-items: baseline;
+    position: fixed;
+    background-color: white;
+    width: 100%;
+    z-index: 2;
+}
+
+header img {
+    width: 15em;
+    padding: 15px 0px
+}
+
+header ul {
+    display: flex;
+    list-style: none;
+}
+
+header ul li {
+    padding: 5px 10px;
+    letter-spacing: 3px;
+}
+
+header ul li a {
+    color: black;
+}
+
+.hero {
+    background-image: url("../images/landing.jpg");
+    background-size: cover;
+    background-repeat: no-repeat;
+    color: white;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-flow: column;
+}
+
+.hero h1 {
+    font-size: 5em;
+    padding: 200px 200px 30px;
+}
+
+.hero p {
+    font-size: 2em;
+    font-weight: 100;
+    padding: 0px 300px 400px;
+    text-align: center;
+}
+
+.centermargin {
+    text-align: center;
+}
+
+.char h2 {
+    margin: 40px auto;
+    width: 25%;
+    font-size: 1.8em;
+    border-bottom: 3px solid #00B172;
+}
+
+.char h3 {
+    color: #00B172;
+    font-size: 1.7em;
+}
+
+.char p {
+    padding: 0px 20px;
+    font-size: 1.3em;
+    font-weight: 100;
+    color: dimgrey;
+}
+
+.char article {
+    margin-top: 30px;
+    display: flex;
+    flex-direction: column;
+    text-align: center;
+}
+
+.char img {
+    height: 100px;
+    width: 120px;
+}
+
+.hulk {
+    margin: 30px 50px;
+    background-color: #00B172;
+    color: white;
+    background-image: url("../images/spotify-icon-white.png");
+    background-repeat: no-repeat;
+    background-size: 10%;
+    background-position: center;
+}
+
+.hulk h2 {
+    padding: 40px 0px 0px;
+    font-size: 2.2em;
+    font-weight: 100;
+    border-bottom: 3px solid white;
+}
+
+.hulk h3 {
+    padding: 20px 0px;
+    font-size: 2em;
+}
+
+.hulk p {
+    padding: 20px 0px;
+    font-size: 1.5em;
+    font-weight: 100;
+}
+
+.hulk figure {
+    display: block;
+}
