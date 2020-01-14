@@ -6,3 +6,143 @@ Green: #00B172
 White: #FFF
 
 */
+
+img {
+    width: 100%;
+}
+
+header {
+    width: 100%;
+    max-width: 1140px;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    text-align: center;
+    padding-top: 15px;
+    margin-right: auto;
+    margin-left: auto;
+}
+
+/*header nav {
+    display: flex;
+}*/
+
+header nav ul {
+    display: flex;
+    list-style: none;
+}
+
+.header-nav {
+    margin-right: 70px;
+}
+
+header nav ul li {
+    font-size: 1.2em;
+    padding: 10px 10px 10px 10px;
+}
+
+.hero{
+    background-image: url(../images/landing.jpg);
+    background-size: cover;
+    background-repeat:no-repeat;
+    background-position: center center;
+    color: white;
+    align-content: center;
+    text-align: center;
+    padding: 300px 0px 400px;
+}
+
+.hero h1 {
+    font-size: 5em;
+    font-weight: 600;
+    animation-name: color-change;
+    animation-iteration-count: infinite;
+    animation-duration: 2s;
+    animation-direction: alternate;
+}
+
+.hero p {
+    font-size: 2em;
+    font-weight: 100;
+    line-height: 0.7em;
+}
+
+.navigate {
+    background-color: #00B172;
+    color: white;
+    margin: 50px;
+    padding: 60px;
+}
+
+.navigate h2{
+    border-bottom: 4px solid #ffffff;
+    font-size: 2.2em;
+    font-weight: 500;
+    width: 443  px;
+    margin-bottom: 40px;
+    margin-left: 12px;
+}
+
+.navigate h3 {
+    font-size: 1.7em;
+    font-weight: 700;
+}
+
+.navigate p{
+    font-size: 1.6em;
+    font-weight: 100;
+}
+
+.navigate img {
+    vertical-align: middle;
+}
+
+.services h2{
+    border-bottom: 4px solid #00B172;
+    font-size: 2em;
+    font-weight: 500;
+    margin-top:20px;
+    margin-bottom: 70px;
+}
+
+.services h3{
+    color: #00B172;
+    font-size: 1.5em;
+    font-weight: 800;
+}
+
+/*.services-h2-col{
+    margin:0px;
+    padding:0px;
+}*/
+
+section {
+    padding-top: 20px;
+}
+
+.services{
+    text-align: center;
+    padding-top: 20px;
+}
+
+.services img{
+    width: 120px;
+    margin: 20px;
+}
+
+.logo-white{
+    width: 130px;
+    vertical-align: middle;
+}
+
+.logo-white-container{
+    align-content: center;
+    text-align: left;
+    justify-content: center;
+    vertical-align: middle;
+}
+
+@keyframes color-change {
+  from {color: white;}
+  to {color: #e6b703;}
+}
