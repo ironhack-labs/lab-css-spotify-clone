@@ -1,3 +1,53 @@
+/* http://meyerweb.com/eric/tools/css/reset/ 
+   v2.0 | 20110126
+   License: none (public domain)
+*/
+
+html, body, div, span, applet, object, iframe,
+h1, h2, h3, h4, h5, h6, p, blockquote, pre,
+a, abbr, acronym, address, big, cite, code,
+del, dfn, em, img, ins, kbd, q, s, samp,
+small, strike, strong, sub, sup, tt, var,
+b, u, i, center,
+dl, dt, dd, ol, ul, li,
+fieldset, form, label, legend,
+table, caption, tbody, tfoot, thead, tr, th, td,
+article, aside, canvas, details, embed, 
+figure, figcaption, footer, header, hgroup, 
+menu, nav, output, ruby, section, summary,
+time, mark, audio, video {
+	margin: 0;
+	padding: 0;
+	border: 0;
+	font-size: 100%;
+	font: inherit;
+	vertical-align: baseline;
+}
+/* HTML5 display-role reset for older browsers */
+article, aside, details, figcaption, figure, 
+footer, header, hgroup, menu, nav, section {
+	display: block;
+}
+body {
+	line-height: 1;
+}
+ol, ul {
+	list-style: none;
+}
+blockquote, q {
+	quotes: none;
+}
+blockquote:before, blockquote:after,
+q:before, q:after {
+	content: '';
+	content: none;
+}
+table {
+	border-collapse: collapse;
+	border-spacing: 0;
+}
+
+
 /*
 Colors:
 
@@ -6,3 +56,167 @@ Green: #00B172
 White: #FFF
 
 */
+
+/* starting below*/
+
+body {
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+nav {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+
+    margin: 20px 20px;
+}
+
+nav img{
+    width: 200px;
+    
+}
+
+nav img:hover {
+    transition: 1.3s;
+    transform: rotate(360deg);
+}
+
+
+
+nav ul {
+    display: flex;
+    
+}
+
+nav ul li a{
+    text-decoration: none;
+    color: black;
+    font-size: 18px;
+
+    padding-left: 10px;
+    padding-right: 10px;
+}
+
+#main-image {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    
+    
+    background-image: url("../images/landing.jpg");
+    height: 1000px;
+    background-repeat: no-repeat;
+    background-size: cover;
+
+    color: white;
+}
+
+#main-image h1{
+    font-size: 75px;
+    font-weight: bold;
+    margin-bottom: 40px;
+}
+
+#main-image p {
+   text-align: center;
+   font-size: 25px;
+   line-height: 1.4;
+}
+
+#container {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+
+    margin: 30px 30px;
+}
+
+.whats-on {
+    font-size: 30px;
+    font-weight: bold;
+
+    padding-bottom: 5px;
+    
+
+    border-radius: 2px;
+    border-bottom: 3px solid #00B172;
+
+}
+
+.container-s {
+    display: flex;
+    justify-content: space-between;
+    width: 1000px;
+
+    margin-top: 60px;
+
+}
+
+.container-s div {
+    max-width: 200px;
+    text-align: center;
+}
+
+.container-s h3 {
+    font-size: 20px;
+    font-weight: bold;
+    color: #00B172; 
+
+    margin: 15px 0px;
+}
+
+.container-s p {
+    color: #1A1A1A;
+    line-height: 1.4;
+}
+
+.minim-img {
+    height: 80px;
+}
+
+.kanye {
+    display: flex;
+    justify-content: space-between;
+
+    background: #00B172 url(../images/spotify-icon-white.png);
+    background-repeat: no-repeat;
+    background-size: 140px;
+    background-position-x: center;
+    background-position-y: center;
+    color: white;
+
+    width: 1000px;
+
+    margin-top: 60px;
+}
+
+.kanye img {
+    height: 450px;
+    margin: 60px;
+}
+
+.white {
+    border-bottom: 3px solid white;
+    max-width: 425px;
+}
+
+.kanye div {
+    width: 500px;
+    margin: 40px 40px;
+
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+}
+
+.kanye h3 {
+    font-size: 20px;
+    font-weight: bold;
+
+}
+
+.kanye p {
+    max-width: 250px;
+    line-height: 1.4;
+}
