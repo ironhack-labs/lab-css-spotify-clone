@@ -6,3 +6,219 @@ Green: #00B172
 White: #FFF
 
 */
+
+body{
+    width: 100vw;
+    height: 100vh;
+}
+
+*{
+    box-sizing: border-box;
+}
+
+nav{
+    background-color: white;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 20px;
+    
+
+}
+
+nav img{
+    width: 200px;
+    
+   
+}
+
+nav img:hover{
+
+    
+        animation: shake 0.95s cubic-bezier(.36,.07,.19,.97) both;
+        transform: translate3d(0, 0, 0);
+        backface-visibility: hidden;
+        perspective: 1000px;
+        cursor: pointer;
+      
+
+
+}
+
+@keyframes shake {
+    10%, 90% {
+      transform: translate3d(-1px, 0, 0);
+    }
+    
+    20%, 80% {
+      transform: translate3d(5px, 0, 0);
+    }
+  
+    30%, 50%, 70% {
+      transform: translate3d(-4px, 0, 0);
+    }
+  
+    40%, 60% {
+      transform: translate3d(5px, 0, 0);
+    }
+  }
+
+nav ul{
+    display: flex;
+}
+
+nav ul li{
+
+    margin-right: 30px;
+    font-size: 22px;
+    
+}
+
+@supports(object-fit: cover){
+    .box img{
+      height: 100%;
+      object-fit: cover;
+      object-position: center center;
+    }
+}
+
+#section1{
+    background-image: url(../images/landing.jpg);
+    background-size: cover;
+    height: 1000px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    
+
+}
+
+h1{
+    color: white;
+    font-size: 80px;
+    margin-bottom: 30px;
+}
+
+#section1 p{
+ color: white;
+ font-size: 30px;
+ width: 50%;
+ text-align: center;
+}
+
+/* Empieza la seccion 2 */
+
+#section2 h2{
+    text-align: center;
+    font-size: 40px;
+    margin-top: 50px;
+    border-bottom: 4px solid green;
+    padding: 10px;
+    font-weight: bold;
+
+
+
+}
+
+#seccion2-h2{
+    
+    width: 28%;
+    margin: 0 auto;
+}
+
+#div-iconos{
+    display: flex;
+    justify-content:center; 
+    align-items: center;
+    
+    
+    
+}
+
+#div-iconos img{
+    width: 150px;
+    height: 150px;
+    margin-bottom: 30px;
+}
+
+.caja{
+    margin: 50px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    width: 33%;
+}
+
+.caja h3{
+    font-size: 22px;
+    color: green;
+    font-weight: bold;
+    margin-bottom: 10px;
+}
+.caja p {
+    font-size: 20px;
+    color: gray;
+    text-align: center;
+}
+
+/* Empieza la sección 3 */
+
+#section3 {
+    width: 90%;
+    background-color:#4dc168;
+    margin: 0 auto;
+    height: 680px;
+    display: flex;
+    flex-direction: row;
+    padding: 80px;
+    justify-content: space-between;
+
+}
+
+#section3 h2{
+    color: white;
+    font-size: 32px;
+    font-weight: bold;
+    margin-bottom: 50px;
+    border-bottom: 3px solid white;
+    padding-bottom: 10px;
+  
+    
+}
+
+#section3 h3{
+    color: white;
+    font-size: 26px;
+    font-weight: bold;
+    margin-bottom: 30px;
+}
+
+#section3 p{
+    color: white;
+    font-size: 20px;
+    margin-bottom: 30px;
+    width: 300px;
+}
+
+#section3 #kanye{
+    width: 300px;
+}
+
+#spotify{
+    width: 130px;
+    position: absolute;
+    margin-top: 200px;
+    margin-left: 500px;
+    
+
+}
+
+
+
+
+
+
+
+
+
