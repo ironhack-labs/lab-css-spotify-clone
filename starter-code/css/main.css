@@ -6,3 +6,178 @@ Green: #00B172
 White: #FFF
 
 */
+@import url('https://fonts.googleapis.com/css?family=Montserrat|Raleway&display=swap');
+
+* {
+    margin: 0;
+    padding: 0;
+    font-family: 'Montserrat','Raleway', sans-serif;
+}
+
+h1 {
+    font-size: 4.5rem;
+    font-weight: bolder;
+    margin: 30px;
+}
+
+h2 {
+    font-size: 2.5rem;
+    font-weight: bolder;
+
+}
+
+h3 {
+    font-size: 1.5rem;
+    font-weight: 900;
+    color:#00B172 ;
+}
+
+.navbar {
+    width: 100%;
+    height: 60px;
+    background-color: white;
+    position: fixed;
+    padding: 15px;
+    padding-left: 30px;
+    padding-right: 30px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+.navbar>img {
+    height: 100%;
+}
+.navbar .index-map {
+    margin: 30px;
+    display: flex;
+    justify-content: flex-end;
+    list-style: none;
+} 
+.index-map a {
+    font-size: 1.5rem;
+    margin: 20px;
+    text-decoration: none;
+    color: black;
+}
+
+.spacer {
+    width: 100%;
+    height: 90px;
+}
+
+.back-img {
+    width: 100%;
+    height: 120vh;
+    background-image: url(/lab-css-spotify-clone/starter-code/images/landing.jpg);
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: bottom;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.back-img article {
+    color: white;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.back-img p {
+    font-size: 1.5rem;
+    margin: 1px;
+}
+
+.spotify-intro {
+    width: 100%;
+}
+
+.spotify-intro .upper-part {
+    width: 100%;
+    text-align: center;
+    margin-top: 50px;
+    margin-bottom: 50px;
+    text-decoration: underline #00B172 ;
+    text-underline-position: under;
+}
+
+.lower-part {
+    width: 100%;
+    margin-top: 100px;
+    margin-bottom: 100px;
+    display: flex;
+    justify-content: space-around;
+}
+
+.lower-part>section {
+    width: 250px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.lower-part .icon-image {
+    height: 120px;
+}
+
+.icon-image img {
+    width: 120px
+}
+
+
+.lower-part p {
+    margin-top: 30px;
+    font-size: 1.2rem;
+    font-weight: 100;
+    text-align: center;
+}
+
+.green-backgound {
+    background-color: #00B172;
+    background-image: url(/lab-css-spotify-clone/starter-code/images/spotify-icon-white.png);
+    background-repeat: no-repeat;
+    background-size: 150px;
+    background-position: center;
+    margin: 40px;
+    display: flex;
+    justify-content: space-between;
+    padding: 100px;
+} 
+
+.green-backgound h2 {
+    color: white;
+    text-decoration: underline;
+    text-underline-position: under;
+}
+
+.green-backgound h3 {
+    color: white;
+    font-size: 1.75rem;
+    margin-top: 40px;
+    margin-bottom: 40px;
+}
+
+.green-backgound p {
+    font-size: 1.2rem;
+    width: 350px;
+    color: white;
+    line-height: 2rem;
+}
+
+.green-backgound .left {
+    height: 750px;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+}
+.green-backgound .right {
+    height: 750px;
+    display: flex;
+    align-items: flex-end;
+}
+.green-backgound img {
+    width: 400px;
+}
+
+
