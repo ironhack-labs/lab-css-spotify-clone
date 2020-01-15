@@ -13,7 +13,7 @@ img {
 
 header {
     display: flex;
-    justify-content: space-around;
+    justify-content: space-between;
     align-items: baseline;
     position: fixed;
     background-color: white;
@@ -23,12 +23,13 @@ header {
 
 header img {
     width: 15em;
-    padding: 15px 0px
+    padding: 15px 20px
 }
 
 header ul {
     display: flex;
     list-style: none;
+    padding: 0px 20px;
 }
 
 header ul li {
@@ -128,4 +129,20 @@ header ul li a {
 
 .hulk figure {
     display: block;
+}
+
+.breath {
+    /* animation: breath 3s infinite ease-out;
+    animation-delay: 2s; */
+    animation: breath 2s infinite 1s cubic-bezier(1, .03, .87, .64) alternate;
+}
+
+@keyframes breath {
+    from {
+        filter: grayscale(0%);
+    }
+
+    to {
+        filter: grayscale(100%);
+    }
 }
