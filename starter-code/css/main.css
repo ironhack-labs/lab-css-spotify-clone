@@ -6,3 +6,135 @@ Green: #00B172
 White: #FFF
 
 */
+
+.nav {
+    display: flex;
+    justify-content: space-between;
+}
+
+.nav>img {
+    float: left;
+    height: 60px;
+    margin: 10px 0px 30px 30px;
+}
+
+.nav ol {
+    display: flex;
+    justify-content: space-between;
+    list-style: none;
+}
+
+.nav li {
+    font-size: 1.2em;
+    padding: 10px;
+}
+
+.header-image {
+    color: white;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    background-image: url("../images/landing.jpg");
+    height: 60vh;
+    background-size: cover;
+}
+
+.header-image h1{
+    text-align: center;
+    font-size: 4em;
+}
+
+.header-image p {
+    text-align: center;
+    width:60%;
+    font-size: 2em;
+}
+
+
+.whats {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.whats hr{
+    background-color: #00B172;
+    height: 5px;
+    width: 30%;
+    border-radius: 8px;
+}
+
+
+.choises {
+    display: flex;
+    justify-content: space-around;
+    height: 400px;
+
+}
+
+.choises .section{
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-start;
+    align-items: center;
+}
+
+.choises h4{
+    color: #00B172;
+    font-weight: 700;
+    font-size: 1.8em;
+}
+
+
+.choises img {
+    height: 120px;
+}
+
+
+
+.green-box {
+    margin: 40px;
+    color: white;
+    padding: 50px;
+    display:flex;
+    justify-content: space-between;
+    background-color: #00B172;
+    background-image: url("../images/spotify-icon-white.png");
+    background-repeat: no-repeat;
+    background-size: 100px;
+    background-position: center;
+}
+
+.green-box .artist-information {
+    width: 120px;
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-start;
+}
+
+.green-box .artis-information>h2{
+    font-size: 3em;
+}
+
+.green-box hr{
+    margin-bottom: 20px;
+    float: left;
+    background-color: white;
+    height: 5px;
+    width: 90%;
+    border-radius: 8px;
+}
+
+.green-box h4{
+    font-weight: bold;
+    font-size: 2em;
+}
+
+.green-box p{
+    font-size: 1.3em;
+}
+
+.green-box .spotify-app {
+    width: 350px;
+}
