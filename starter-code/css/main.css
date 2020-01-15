@@ -6,3 +6,198 @@ Green: #00B172
 White: #FFF
 
 */
+
+.spotify-logo {
+
+    height: 50px;
+}
+
+header {
+
+    display: flex;
+    justify-content: space-between;
+    align-items: baseline;
+    background-color: white;
+    padding: 20px 25px;
+    position: fixed;
+    background-color: #FFF;
+    width: 100%;
+    z-index: 1;
+
+}
+
+ul {
+
+    display: flex;
+    align-items: center;
+    list-style-type: none;
+    padding: 0px 20px;
+    font-size: 1.2em;
+    font-weight: 300;
+
+
+}
+
+li {
+
+    text-decoration: none;
+    padding-right: 10px;
+
+
+}
+
+li a {
+
+    color: #1A1A1A;
+    letter-spacing: 1px;
+}
+
+a:hover {
+    color: #1a1a1a;
+    text-decoration: none;
+    border-bottom: 2px solid #1a1a1a;
+}
+
+
+
+.hero {
+    background-image: url("/daily/lab-css-spotify-clone/starter-code/images/landing.jpg");
+    background-repeat: no-repeat;
+    background-size: cover;
+    padding: 300px;
+    color: #FFF;
+    text-align: center;
+    letter-spacing: 1px;
+
+}
+
+.hero h1 {
+
+    font-size: 5em;
+    font-weight: 400;
+
+}
+
+.hero p {
+
+    font-size: 2em;
+    font-weight: 200;
+    animation: bounceIn 2s;
+}
+
+h1 {
+
+    text-align: center;
+}
+
+.central-part {
+
+    padding-top: 20px;
+    padding-bottom: 80px;
+    text-align: center;
+}
+
+.central-part img {
+
+    width: 100px;
+    height: 100px;
+
+}
+
+.central-part h2 {
+
+    color: #00B172;
+
+
+}
+
+.central-part h1 {
+    border-bottom: 4px solid #00B172;
+    width: 25%;
+    margin: auto;
+
+}
+
+.spacebottom {
+
+    padding-top: 80px;
+
+}
+
+.central-part p {
+
+    color: #1A1A1A;
+    padding: 0px 75px;
+    text-align: center;
+}
+
+.bottom-part {
+
+    background-color: #1ab26b;
+    background-image: url("../images/spotify-icon-white.png");
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: 10%;
+    height: 700px;
+    color: #FFF;
+    padding-top: 50px;
+    margin: 25px 50px;
+
+}
+
+
+
+.bottom-part img {
+
+    width: 360px;
+    height: 614px;
+    padding: 50px 50px;
+}
+
+.bottom-part h2 {
+
+    border-bottom: 4px solid #FFF;
+    padding-top: 50px;
+    font-size: 2em;
+}
+
+.bottom-part h3 {
+
+    padding: 15px 0px;
+    font-weight: bold;
+    font-size: 1.5em;
+
+}
+
+.bottom-part p {
+
+    font-size: 1.2em;
+    width: 350px;
+}
+
+.columnfix {
+
+
+    display: flex;
+    flex-direction: column;
+    padding-bottom: 300px;
+    padding-top: 20px;
+
+
+}
+
+@keyframes bounceIn {
+    0% {
+        transform: scale(0.1);
+        opacity: 0;
+    }
+
+    60% {
+        transform: scale(1.2);
+        opacity: 1;
+    }
+
+    100% {
+        transform: scale(1);
+    }
+}
