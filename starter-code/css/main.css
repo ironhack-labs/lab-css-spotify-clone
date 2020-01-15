@@ -1,3 +1,4 @@
+
 /*
 Colors:
 
@@ -6,3 +7,152 @@ Green: #00B172
 White: #FFF
 
 */
+body{
+    font-family: 'Rubik', sans-serif;
+    margin: 0px;
+}
+
+a {
+    text-decoration: none;
+    color: black;
+}
+
+a:hover {
+    color:#00B172;
+}
+
+.navbar {
+    height: 100px;
+    position: fixed;
+    top: 0;
+    width: 100%;
+    background-color: white;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: center;
+
+}
+
+.navbar li {
+        display: inline;
+        padding: 30px;
+        color: black;
+}
+
+.navbar ul {
+    float: right;
+}
+
+.nav-items {
+    margin-right: 50px;
+}
+
+#logo {
+    height: 75px;
+    margin-left: 20px;
+}
+
+.hero {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    width: 100%;
+    height: 100vh;
+    background-image: url(../images/landing.jpg);
+    background-size: cover;
+    background-repeat: no-repeat;
+    color: white;
+    font-size: 3em;
+    text-align: center;
+}
+
+.features {
+    height: 650px;
+    padding-top: 40px;
+}
+
+.features-wrapper {
+    display: flex;
+    justify-content: center;
+    width: 100%;
+    height: 400px;
+    font-size: 1.5em;
+    justify-content: space-evenly;
+}
+
+.feature {
+    width: 345px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    text-align: center;
+}
+
+.feature-icon {
+    height:125px;
+}
+
+.features h2 {
+    font-size: 40px;
+    text-align: center;
+    text-decoration: underline 4px #00B172;
+    text-underline-offset: 20px;
+    margin-bottom: 70px;
+}
+
+.features h3 {
+    font-size: 1.5em;
+    color: #00B172;
+}
+
+.highlight {
+    background-color: #00B172;
+    color: white;
+    background-image: url(../images/spotify-icon-white.png);
+    background-repeat: no-repeat;
+    display: flex;
+    flex-direction: row;
+    background-size: 160px 160px;
+    background-position: center;
+    height: 850px;
+    margin-left: 50px;
+    margin-right: 50px;
+    margin-bottom: 50px;
+    justify-content: space-around;
+    align-items: center;
+    font-size: 1.5em;
+}
+
+.highlight h2 {
+    font-size: 40px;
+    text-decoration: underline 4px white;
+    text-underline-offset: 20px;
+    margin-bottom: 70px;
+}
+
+.highlight h3 {
+    margin-top: 50px;
+    font-size: 1.5em;
+}
+
+.description-wrapper {
+
+}
+
+.description{
+    width: 400px;
+}
+
+.KanyeTheWrapper {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+}
+
+.KanyeTheRapper {
+    width: 320px;
+    height: 568px;
+}
