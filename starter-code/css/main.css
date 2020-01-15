@@ -6,3 +6,167 @@ Green: #00B172
 White: #FFF
 
 */
+header {
+    /*margin: 20px 50px;*/
+}
+
+.fixed {
+
+    justify-content: space-between;
+    align-items: center;
+    position: fixed;
+    padding: 15px 60px;
+    background-color: white;
+    z-index: 2;
+    width: 100vw;
+}
+
+.flex {
+    display: flex;
+    justify-content: space-between;
+}
+
+.flex-center {
+    display: flex;
+    align-items: center;
+}
+
+.logo {
+    height: 50px;
+
+}
+
+.logo:hover {
+    transform: rotate(360deg);
+    transition: all 1s ease-in-out;
+}
+
+nav ul {
+    margin-bottom: 0;
+}
+
+nav li {
+    margin-right: 15px;
+    list-style-type: none;
+}
+
+nav li a {
+    text-decoration: none;
+    color: black;
+    font-size: 1.3em;
+    padding-right: 10px;
+    font-weight: 300;
+    letter-spacing: 0.1em;
+}
+
+h1 {
+    font-size: 70px;
+    color: white;
+}
+
+.section1 {
+    background-image: url(../images/landing.jpg);
+    background-size: cover;
+}
+
+.section1-container {
+    padding: 200px 0;
+    text-align: center;
+}
+
+.section1 p {
+    margin: auto;
+    width: 670px;
+    font-size: 25px;
+    letter-spacing: .1em;
+    color: white;
+    font-weight: 200;
+}
+
+.section2 {
+    margin: 50px 0;
+    text-align: center;
+}
+
+h2 {
+    font-weight: bold;
+    font-size: 35px;
+}
+
+.line {
+    border-bottom: 5px solid #00B172;
+    padding-bottom: 6px;
+
+}
+
+.section2-container {
+    margin: 100px 0;
+}
+
+.icon {
+    padding: 30px 0;
+    width: 150px;
+}
+
+.section2 h3 {
+    font-size: 30px;
+    color: #00B172;
+}
+
+.section2 p {
+    font-weight: 200;
+    font-size: 25px;
+    padding: 0 10%;
+}
+
+.section3 {
+    background: #00B172 url(../images/spotify-icon-white.png);
+    background-size: 150px;
+    background-repeat: no-repeat;
+    background-position: center;
+    margin: 30px;
+    background-color: #00B172;
+    display: flex;
+    padding: 100px;
+}
+
+.section3 h3 {
+
+    font-size: 30px;
+    color: white;
+}
+
+.section3 h4 {
+    font-weight: 700;
+    font-size: 30px;
+    color: white;
+    padding-top: 20px;
+}
+
+.section3 p {
+    padding-top: 20px;
+    font-size: 24px;
+    font-weight: 200;
+    padding-right: 250px;
+    color: white;
+}
+
+.column1 {
+    width: 60%;
+
+}
+
+.column2 img {
+    width: 100%;
+}
+
+.column2 {
+    width: 40%;
+    padding: 30px 30px;
+}
+
+.line-white {
+    border-bottom: 5px solid white;
+    padding-bottom: 6px;
+
+}
