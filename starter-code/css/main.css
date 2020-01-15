@@ -17,7 +17,7 @@ img {
     justify-content: space-between;
     align-items: center;
     padding: 15px 0px 15px 60px;
-    background-color: white;
+    background-color: #FFF;
     z-index: 2;
 }
 
@@ -44,19 +44,33 @@ main {
     background-image: url("../images/landing.jpg");
     background-repeat: no-repeat;
     padding: 300px;
-    color: white;
+    color: #FFF;
     text-align: center;
     background-size: 100%;
+    text-align: center;
+}
+
+main h1 {
+    font-size: 5em;
+
+}
+
+main p {
+    font-size: 2em;
+    font-weight: 200;
+    line-height: 0.8em;
 }
 
 .titulo2 {
     margin: 0 auto;
     text-align: center;
-    letter-spacing: .2em;
+    letter-spacing: .1em;
     border-bottom: #00B172 4px solid;
-    width: 30%;
+    width: 33%;
     padding-top: 30px;
     margin-bottom: 70px;
+    font-size: 1.4em;
+    font-weight: 400;
 }
 
 
@@ -67,6 +81,27 @@ main {
 
 .centrar {
     text-align: center;
+    padding-bottom: 150px;
+}
+
+.centrar h3 {
+    color: #00B172;
+    font-size: 1.8em;
+    ;
+}
+
+.centrar img {
+    height: 127px;
+    width: 130px;
+}
+
+.anchura img {
+    width: 160px;
+}
+
+.centrar p {
+    font-size: 1.4em;
+    font-weight: 200;
 }
 
 .pie {
@@ -86,7 +121,6 @@ main {
 }
 
 @keyframes rotateme {
-
     from {
         transform: rotate(0deg)
     }
@@ -94,19 +128,29 @@ main {
     to {
         transform: rotate(360deg)
     }
-
 }
 
 .textoverde {
-    color: white;
+    color: #FFF;
     font-size: 1.5em;
+    line-height: 2.2em;
+}
+
+.textoverde p {
+    font-weight: 300;
+}
+
+.textoverde h4 {
+    font-size: 1.2em;
 }
 
 .titulopie {
-    color: white;
-    font-size: 2em;
-    border-bottom: white 3px solid;
+    color: #FFF;
+    font-size: 2.1em;
+    border-bottom: #FFF 3px solid;
     text-align: center;
-    width: 36%;
-  margin-left: 90px;
+    width: 42%;
+    margin-bottom: 50px;
+    letter-spacing: .06em;
+    font-weight: 600;
 }
