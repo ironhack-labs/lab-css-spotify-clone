@@ -181,11 +181,15 @@ nav ul li {
 nav ul li a {
     text-decoration: none;
     color: black;
-    transition: 0.3ms;
+    transition: all 0.3ms;
 }
 
 nav ul li a:hover {
     color: grey;
+    transition-property: color;
+    transition-duration: 0,5ms;
+    transition-timing-function: linear;
+
 }
 
 #spotify-logo {
