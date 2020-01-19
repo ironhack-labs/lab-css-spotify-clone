@@ -1,0 +1,72 @@
+/*
+Colors:
+Text: 1A1A1A
+Green: #00B172
+White: #FFF
+*/
+@import url('https://fonts.googleapis.com/css?family=Roboto+Condensed:700|Roboto:100,300,700');
+ 
+html, body {
+ margin: 0;
+ padding: 0;
+ font-family: "Roboto";
+ background-color: white;
+}
+
+header > div {
+  padding: 0 25px;
+  display: flex;
+  justify-content: space-between;
+  
+  border-bottom: 1px solid lightgray;
+}
+
+nav {
+  width: 600px;
+}
+
+nav ul {
+  list-style: none;
+  display: flex;
+  justify-content: space-evenly;
+}
+
+nav a {
+  text-decoration: none;
+  color: black
+}
+
+.spotify {
+width: 115px;
+margin-right: 2.5rem;
+}
+
+#music-for-everyone {
+width: 100%;
+height: 1000px;
+color: white;
+display: flex;
+justify-content: center;
+flex-direction: column;
+align-items: center;
+}
+
+#music-for-everyone h1 {
+  font-size: 4em;
+  color: white;
+ }
+
+ #music-for-everyone p {
+  font-size: 1.8em;
+  color: white;
+ }
+
+.background-image {
+  background-image: url("../images/landing.jpg");
+  background-position: 0 0;
+  background-repeat: no-repeat;
+  background-size: cover;
+  padding-top: 10px;
+  position: relative;
+  box-sizing: border-box;
+}

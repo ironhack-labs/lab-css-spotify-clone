@@ -1,0 +1,91 @@
+/*
+Colors:
+Text: 1A1A1A
+Green: #00B172
+White: #FFF
+*/
+@import url('https://fonts.googleapis.com/css?family=Roboto+Condensed:700|Roboto:100,300,700');
+ 
+html, body {
+ margin: 0;
+ padding: 0;
+ font-family: "Roboto";
+ background-color: white;
+}
+
+.spotify {
+width: 115px;
+margin-right: 2.5rem;
+}
+
+
+.header-two {
+  box-sizing: border-box;
+  display: block;
+  font-size: 16px;
+  border-bottom: 1px solid #201c29;
+  padding: auto;
+}
+
+.nav-bar {
+box-sizing: border-box;
+}
+
+.nav-bar ul {
+  list-style: none;
+  display: flex;
+  justify-content: flex-end;
+  flex-flow: row wrap;
+}
+
+.nav-bar li {
+  flex: auto ;
+  display: list-item;
+   
+} 
+
+
+.navigation {
+  list-style: none;
+  display: flex;
+  margin: 0; 
+  background: #8e24aa;
+  
+  f
+  justify-content: flex-end;
+}
+
+.navigation a {
+  text-decoration: none;
+  display: block;
+  padding: 1em;
+  color: white;
+}
+
+.navigation a:hover {
+  background: darken(#8e24aa, 12%);
+}
+
+@media (max-width: 800px) {
+  .navigation {
+    justify-content: space-around;
+  }
+}
+
+@media (max-width: 600px) {
+  .navigation {
+    flex-flow: column wrap;
+    padding: 0;
+  }
+  
+  .navigation a { 
+    text-align: center; 
+    padding: 10px;
+    border-top: 1px solid rgba(255,255,255,0.3); 
+    border-bottom: 1px solid rgba(0,0,0,0.1); 
+  }
+
+  .navigation:last-child {
+    border-bottom: none;
+  }
+}
