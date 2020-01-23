@@ -5,4 +5,136 @@ Text: 1A1A1A
 Green: #00B172
 White: #FFF
 
+* {
+  outline: 1px solid red;
+}
+
 */
+
+body {
+  box-sizing: border-box;
+  color: #1a1a1a;
+  font-family: sans-serif;
+  margin: 0;
+  font-weight: lighter;
+}
+
+header {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  background-color: #fff;
+  position: fixed;
+  width: 100%;
+  padding: 5px 20px;
+}
+
+header img {
+  height: 50px;
+}
+
+nav {
+  padding-right: 1em;
+}
+
+nav ul {
+  list-style: none;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+nav ul li {
+  margin: 10px;
+}
+
+nav a {
+  text-decoration: none;
+  color: #1a1a1a;
+}
+
+.intro {
+  background-image: url(../images/landing.jpg);
+  background-size: cover;
+  background-position: center;
+  height: 600px;
+  color: #fff;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+
+h1 {
+  font-size: 3em;
+}
+
+.intro p {
+  width: 50%;
+  text-align: center;
+  font-size: 20px;
+}
+
+.whats-on h2 {
+  text-align: center;
+}
+
+.benefits {
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  align-items: center;
+}
+
+.single-benefit {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  width: 33%;
+  padding: 15px;
+}
+
+.single-benefit img {
+  width: 100px;
+}
+
+.whats-on h3 {
+  color: #00b172;
+}
+
+.whats-on p {
+  width: 60%;
+  text-align: center;
+}
+
+footer {
+  background-color: #00b172;
+  margin: 20px;
+  color: #fff;
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  align-items: center;
+  padding: 20px;
+}
+
+.text {
+  display: flex;
+  flex-direction: column;
+  width: 40%;
+}
+
+.inside-text {
+  display: flex;
+  flex-direction: column;
+  width: 85%;
+}
+
+#icon {
+  width: 100px;
+}
+
+#app {
+  width: 250px;
+}
