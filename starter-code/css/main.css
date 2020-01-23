@@ -6,3 +6,169 @@ Green: #00B172
 White: #FFF
 
 */
+
+* {
+  box-sizing: border-box;
+}
+
+body {
+  font-family: Helvetica, sans-serif;
+  font-size: 25px;
+  margin: 0;
+  line-height: 1.5;
+  color: #1a1a1a;
+}
+
+header {
+  background-color: white;
+  position: fixed;
+  top: 0;
+  left: 0;
+  z-index: 9999;
+  padding: 5px 30px;
+}
+
+header img {
+  width: 18%;
+  display: flex;
+  float: left;
+  align-content: center;
+  padding: 10px;
+}
+
+header ul {
+  display: flex;
+  float: right;
+  margin-right: 30px;
+}
+
+header ul li {
+  list-style: none;
+  font-size: 0.8em;
+  padding: 0 15px;
+  font-weight: 100;
+}
+
+header a {
+  text-decoration: none;
+  color: black;
+}
+
+#banner {
+  background-image: url(/lab-css-spotify-clone/starter-code/images/landing.jpg);
+  width: 100%;
+  background-size: cover;
+  background-position: center;
+  margin: 0 auto;
+  /* position: absolute;
+  top: 3000px; */
+}
+
+#banner div {
+  padding: 300px 0;
+}
+
+h1 {
+  font-size: 2.7em;
+  text-align: center;
+  font-weight: 600;
+  color: white;
+  margin: 0 auto;
+}
+
+#banner p {
+  color: white;
+  font-size: 1em;
+  font-weight: 100;
+  text-align: center;
+  width: 75%;
+  margin: 0 auto;
+}
+
+#about {
+  margin-top: 40px;
+  width: 100%;
+}
+
+#about h2 {
+  /* text-decoration: underline;
+  text-decoration-color: #00B172;
+  text-underline-position: under; */
+  border-bottom: #00b172 3px solid;
+  width: 300px;
+  text-align: center;
+  font-size: 1.3em;
+  margin: 0 auto;
+  font-weight: 600;
+}
+
+#about div {
+  padding: 40px 65px;
+}
+
+#about .rows {
+  display: flex;
+  flex-direction: rows;
+  margin: 0 auto;
+  text-align: center;
+  align-items: baseline;
+}
+
+#about img {
+  width: 50%;
+}
+
+#about h3 {
+  color: #00b172;
+  font-size: 1em;
+  text-align: center;
+  font-weight: 900;
+}
+
+#about p {
+  font-size: 1em;
+  font-weight: 100;
+  text-align: center;
+}
+
+#green-box {
+  background-color: #00b172;
+  color: white;
+  display: flex;
+  flex-direction: rows;
+  align-items: center;
+  margin: 0 40px 40px;
+  padding-top: 30px;
+}
+
+#green-box img {
+  width: 120px;
+}
+
+#left-div {
+  width: 55%;
+  margin-left: 100px;
+}
+
+#green-box h1 {
+  font-size: 1.3em;
+  text-decoration: underline;
+  text-align: justify;
+  /* border-bottom: white 3px solid; */
+  text-underline-position: under;
+}
+
+#green-box h2 {
+  font-size: 1.1em;
+}
+
+#green-box p {
+  font-size: 0.8em;
+  font-weight: 100;
+  width: 300px;
+}
+
+#right-div img {
+  width: 320px;
+  margin: 60px 100px;
+}
