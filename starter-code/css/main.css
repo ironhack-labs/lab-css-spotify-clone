@@ -41,6 +41,7 @@ nav ul li {
 .mainText {
   background-image: url(/starter-code/images/landing.jpg);
   background-size: cover;
+  background-position: bottom center;
   background-repeat: no-repeat;
   height: 600px;
   color: white;
@@ -67,7 +68,7 @@ nav ul li {
 .whatsOn h4 {
   font-size: 2em;
   text-decoration: underline;
-  text-decoration-color: #00B172;
+  text-decoration-color: #00b172;
 }
 
 .whatBlock {
@@ -79,13 +80,13 @@ nav ul li {
 }
 
 .whatBlock h3 {
-  color: #00B172;
+  color: #00b172;
   padding: 5% auto;
   line-height: 2em;
 }
-.whatBlock P {
+.whatBlock p {
   font-size: 1em;
-  color: #1A1A1A;
+  color: #1a1a1a;
 }
 
 .whatImg {
@@ -93,26 +94,46 @@ nav ul li {
 }
 
 section:last-of-type {
-  background-color: #00B172;
+  background-color: #00b172;
   margin: 10px;
+  height: 700px;
+  padding-left: 10%;
   position: relative;
   display: flex;
-  justify-content: space-between;
-}
-section:last-of-type img{
-  padding: 10%;
-  width: 45%;
-}
-.easeFinal {
+  flex-direction: column;
+  justify-content: space-evenly;
   color: white;
-  padding: 7.5%;
 }
+section:last-of-type h3 {
+  font-size: 2em;
+  text-decoration-line: underline;
+  color: white;
+}
+
 .easeFinal h4 {
+  font-size: 2em; 
+  padding: 1% 0% ;
+  font-weight: 300;
+}
+.easeFinal p {
+  font-size: 1.2em;
+  padding: 1% 0%;
+  font-weight: 300;
   
 }
+
 #whiteIcon {
   position: absolute;
   width: 100px;
   left: 50%;
   top: 50%;
+  font-size: 2em;
+  line-height: em;
+}
+
+#spotifySnapshot {
+  position: absolute;
+  height: 600px;
+  right: 100px;
+  top: 50px;
 }
