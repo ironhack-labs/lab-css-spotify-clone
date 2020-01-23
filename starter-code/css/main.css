@@ -6,3 +6,99 @@ Green: #00B172
 White: #FFF
 
 */
+
+* {
+  box-sizing: border-box;
+}
+body{
+margin: 0;
+color : 1A1A1A;
+font-family: 'Open Sans', sans-serif;
+
+}
+.hidenContent{
+  width:1300px;
+  height: 100px;
+}
+nav{
+  height: 100px;
+  width:1300px;
+  background-color:#FFF;
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  position: fixed;
+}
+nav img{
+  margin: 0.5em 0; 
+  align-items: left;
+  height: 5em;
+}
+nav ul{
+  display: flex;
+  flex-direction: row;
+  list-style-type: none;
+  
+}
+nav ul li {
+  display: flex;
+  margin: 1em 1em;
+  font-size: 1.5em;
+  
+ }
+ section{
+   display: flex;
+   justify-content: center;
+   align-items: center;
+  height: 600px;
+ }
+
+ .withBackground{
+   background-image: url(/starter-code/images/landing.jpg);
+   background-size: cover;
+   background-repeat: no-repeat;
+   background-position: center;
+   display: flex;
+   justify-content: start;
+   flex-direction: column;
+   text-align: center;
+   color: #FFF;
+  }
+h1{
+  margin-top: 2em;
+  font-size: 4.5em;
+  
+
+}
+.withBackground p{
+  font-size: 1.75em;
+  margin: 0 10em;
+  
+}
+.content{
+  display: flex;
+   justify-content: start;
+   flex-direction: column;
+}
+h2{
+  display: flex;
+  font-size: 2em;
+  text-align: center;
+  
+  }
+.content img{
+  height: 150px;
+}
+.content article{
+  display: flex;
+  border-bottom:3px solid #00B172;
+  width: 300px;
+  height: 5em;
+  align-items: center;
+  justify-content: center;
+}
+
+.content div{
+  display: flex;
+  flex-direction: row;
+}
