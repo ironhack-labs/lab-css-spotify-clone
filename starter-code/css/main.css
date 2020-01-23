@@ -6,3 +6,88 @@ Green: #00B172
 White: #FFF
 
 */
+
+body {
+    margin : 0;
+    line-height: 32px;
+    font-family : Verdana, sans-serif;
+    font-weight: 100;
+}
+
+header {
+    background-image : url("../images/landing.jpg");
+    background-size : cover;
+    background-position : center;
+    color: white;
+    height: 700px;
+}
+
+.horizontal {
+    display : inline;
+}
+
+.mine {
+    width: 200px;
+    background-color: red;
+    margin: 0 auto;
+}
+
+#container {
+    display: flex;                  /* establish flex container */
+    flex-direction: row;            /* default value; can be omitted */
+    flex-wrap: nowrap;              /* default value; can be omitted */
+    justify-content: space-between; /* switched from default (flex-start, see below) */  }
+
+#container1 {
+    display: flex;                  /* establish flex container */
+    flex-direction: column;            /* default value; can be omitted */
+    flex-wrap: nowrap;              /* default value; can be omitted */
+    justify-content: center;
+}
+
+    #container > div {
+    width: 400px;
+    height: 400px;
+  }
+
+#container1 > div {
+    width: 200px;
+    height: 200px;
+  }
+
+h1 {
+    text-align : center;
+    padding : 300px;
+    font-weight: 100;
+}
+
+img {
+    width: 200px;
+    height: auto;
+    
+}
+
+p{
+    font-weight: 20;
+    text-align: center;
+}
+
+.last {
+    background-color: #00B172;
+    color: #FFF;
+    margin: 0 50px 0 50px;
+}
+
+h3 {
+    text-align: center;
+    text-decoration: underline #00B172;
+}
+
+ul{
+    margin : 0 0 0 1200px;
+}
+
+img:first-of-type {
+    margin-left: 20px;
+    margin-top: 10px;
+}
