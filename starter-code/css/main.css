@@ -77,28 +77,55 @@ h1{
 }
 .content{
   display: flex;
-   justify-content: start;
-   flex-direction: column;
+  justify-content: space-around;
+  flex-direction: row;
+  margin: 0;
+  padding: 23em;
 }
+
 h2{
   display: flex;
   font-size: 2em;
   text-align: center;
+  text-decoration: underline;
+  text-decoration-style: solid;
+  text-decoration-color: #00B172;
   
   }
-.content img{
-  height: 150px;
-}
-.content article{
-  display: flex;
-  border-bottom:3px solid #00B172;
-  width: 300px;
-  height: 5em;
-  align-items: center;
+.littleImg{
+  height: 120px;
+  width:120px;
   justify-content: center;
+  align-items: center;
 }
-
 .content div{
   display: flex;
   flex-direction: row;
+  padding: 3em;
+  text-align: center;
+  
+}
+content div p{
+  font-size: 1.5em;
+}
+h3 {
+  justify-content: center;
+  color: #00B172;
+  font-size: 2em;
+}
+.end{
+  background-color: #00B172;
+  display: flex;
+  }
+.allLittleBoxes{
+  display: flex;
+  flex-direction: row;
+  justify-content:space-between
+
+}
+.littleBox{
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
 }
