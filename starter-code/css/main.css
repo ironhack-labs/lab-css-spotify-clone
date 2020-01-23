@@ -16,7 +16,7 @@ White: #FFF */
   height: auto;
   margin-left: 30px;
   margin-top: 20px;
-  float:left;
+  float: left;
 }
 
 
@@ -24,20 +24,37 @@ body {
   font-family: 'Raleway', sans-serif;
 }
 
+.navigation-bar {
+  width: 100%;
+  height: 80px;
+  position: fixed;
+  background-color: white;
+  top: 0;
+}
 
 nav ul {
+  float: right;
+  vertical-align: middle;
   list-style-type: none;
-  padding: 30px;
-  text-align: center;
-  float: :right;
+  margin-right: 30px;
+  margin-top: 20px;
+  text-decoration:none;
+  color: gray;
+}
+
+li {
+    float: left;
+    padding: 1em;
 
 }
-.second-main{
+
+
+.second-main {
   list-style-type: none;
   padding: 30px;
   text-align: center;
-  float: :center;
-}
+  float: center;
+ }
 
 
 .main-container {
@@ -63,23 +80,53 @@ nav ul {
 
 }
 
+.third-main {
+  background-color: #00B172;
+  color: white;
+  text-align: center;
+  margin-top: 30px;
+
+}
+
 
 .whatson{
   text-align: center;
   display: inline;
-  border-bottom: 4px solid #00B172;
   padding-bottom: 7px;
   font-size: 2.5em;
   font-weight: bold;
-  
+
   }
 
+.whatson h1 {
+  border-bottom: 3px solid #00B172;
+  }
 
-  nav li a {
-    float: right;
-    padding: 5px;
-    color: gray;
-    font-weight: bold;
-    text-decoration:none;
+.columns{
+margin-top: 30px;
     }
-   
+.columns-left{
+  float:left;width: 33%; height: 300px
+}
+
+.columns-center{
+  display: inline-block;width: 33%; height: 300px
+}
+
+.columns-right{
+  float:right;width: 33%; height: 300px
+
+}
+
+.iconimage{
+width: 100px;
+
+}
+
+.app {
+  float: right;
+  height: auto;
+  width: 250px;
+  margin-right: 60px;
+  margin-top: 130px;
+}
