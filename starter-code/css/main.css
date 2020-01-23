@@ -6,3 +6,100 @@ Green: #00B172
 White: #FFF
 
 */
+
+* {
+  box-sizing: border-box;
+}
+
+body {
+  font-family: Helvetica, Arial, sans-serif;
+}
+
+nav {
+  position: fixed;
+  display: flex;
+  flex-direction: row;
+  flex-wrap: wrap;
+  justify-content: flex-end;
+  align-items: stretch;
+  align-content: stretch;
+  background-color: #fff;
+}
+
+nav .box {
+  display: flex;
+  flex-direction: row;
+  flex-wrap: nowrap;
+  justify-content: space-between;
+  align-items: baseline;
+  align-content: center;
+}
+
+nav ul {
+  list-style: none;
+}
+
+h2 {
+  text-decoration: underline;
+}
+
+#spotify-logo {
+  height: 90px;
+}
+
+.background h1 {
+  font-size: 6.5em;
+}
+
+.background {
+  background-image: url(/lab-css-spotify-clone/starter-code/images/landing.jpg);
+  background-position: center;
+  background-size: cover;
+  height: 1000px;
+  color: #fff;
+  text-align: center;
+  vertical-align: middle;
+  padding: 300px 0;
+}
+
+.background p {
+  font-size: 2.5em;
+  padding: 0px 400px;
+  font-weight: 100px;
+  line-height: 1.5;
+}
+
+#middle div {
+  display: flex;
+  flex-direction: row;
+  flex-wrap: nowrap;
+  justify-content: center;
+  align-items: stretch;
+  align-content: center;
+}
+
+#middle h2 {
+  text-decoration-color: #00b172;
+}
+
+#middle h3 {
+  color: #00b172;
+}
+
+.smaller-images {
+  height: 170px;
+}
+
+#last-section {
+  background-color: #00b172;
+  margin: 50px;
+  color: #fff;
+}
+
+#kanye-image {
+  height: 830px;
+}
+
+#last-section h2 {
+  text-decoration-color: #fff;
+}
