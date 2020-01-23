@@ -9,29 +9,40 @@ White: #FFF
 
 * {
   box-sizing: border-box;
+  line-height: 1.5;
 }
 
 body {
-  font-family: Arial, Helvetica, sans-serif;
+  font-family: 'Open Sans', sans-serif;
   color: #1a1a1a;
+  margin: 0;
 }
 
 /* --- Navbar section ---- */
 
 nav {
+  position: fixed;
+  right: 0;
+  top: 0;
+  left: 0;
+  z-index: 10;
+  height: 90px;
+  background-color: #fff;
   display: flex;
   justify-content: space-between;
-  padding: 10px;
+  align-items: center;
+  padding: 0 40px;
 }
 
 nav img {
-  max-height: 100px;
+  max-height: 70px;
   width: auto;
 }
 
 nav ul {
   list-style: none;
   display: flex;
+  font-size: 1.5em;
 }
 
 nav ul li {
@@ -70,15 +81,15 @@ nav ul li {
 }
 
 .features h2 {
-  width: 500px;
   text-align: center;
-  font-size: 3em;
+  font-size: 2.5em;
   padding-bottom: 7px;
   border-bottom: 4px solid #00b172;
   align-self: center;
 }
 
 .cardrow {
+  margin-top: 50px;
   display: flex;
   flex-flow: nowrap;
   justify-content: space-around;
@@ -94,7 +105,7 @@ nav ul li {
 }
 
 .card h3 {
-  font-size: 2em;
+  font-size: 1.8em;
   color: #00b172;
 }
 
@@ -104,7 +115,7 @@ nav ul li {
 }
 
 .card p {
-  font-weight: lighter;
+  font-weight: 300;
   font-size: 1.5em;
 }
 
@@ -112,8 +123,8 @@ nav ul li {
 
 .details {
   width: 95%;
-  height: 800px;
-  padding: 0 100px;
+  height: 900px;
+  padding: 0px 100px;
   background-color: #00b172;
   margin: 0 auto;
   position: relative;
@@ -151,7 +162,8 @@ nav ul li {
 }
 
 .details div p {
-  font-size: 1.2em;
+  font-size: 1.4em;
+  font-weight: 300;
 }
 
 .details img:last-of-type {
