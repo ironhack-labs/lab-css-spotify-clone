@@ -6,3 +6,115 @@ Green: #00B172
 White: #FFF
 
 */
+/*Geral*/
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+html {
+  font-size: 62.5%;
+}
+
+h1 {
+  font-size: 5rem;
+}
+h2 {
+  font-size: 3rem;
+}
+h3 {
+  font-size: 2rem;
+}
+h4 {
+  font-size: 2.5rem;
+  font-weight: normal;
+}
+p {
+  font-size: 1.5rem;
+}
+/*Naviagtion*/
+#header-nav {
+  background: #fff;
+  position: fixed;
+}
+
+.navigation {
+  display: flex;
+  min-height: 8vh;
+  width: 90%;
+  margin: auto;
+  align-items: center;
+}
+
+.spotify-logo-nav {
+  width: 10%;
+}
+
+.navigation a {
+  font-size: 1.5rem;
+  color: black;
+  text-decoration: none;
+}
+
+.navigation ul {
+  display: flex;
+  list-style: none;
+  align-items: center;
+  justify-content: flex-end;
+  margin-right: 3rem;
+  flex: 1 1 1rem;
+}
+.navigation li {
+  margin-left: 3rem;
+}
+
+/*First Section Main*/
+#main {
+  display: flex;
+  min-height: 100vh;
+  background-image: url(/starter-code/images/landing.jpg);
+  background-position: center;
+  background-size: cover;
+  flex-direction: column;
+  justify-content: center;
+}
+
+.heading-main,
+.message-main {
+  color: white;
+  text-align: center;
+}
+
+/*Second Sections What's on Spotify*/
+#whatsOn {
+  display: flex;
+  min-height: 70vh;
+  text-align: center;
+}
+
+.heading-whatsOn {
+  width: 90%;
+  margin: 0 auto;
+}
+
+.lineWhatsOn {
+  border: 1px solid #00b172;
+  width: 70%;
+  margin: auto;
+}
+
+.div-whatsOn {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+
+.img-whatsOn {
+  width: 35%;
+}
+
+.description-whatsOn {
+  color: #00b172;
+}
