@@ -146,6 +146,9 @@ p {
   justify-content: flex-end;
   width: 90%;
   margin: 0 auto;
+}
+
+.anitwo {
   animation: bounce 1s infinite alternate;
 }
 
@@ -155,6 +158,21 @@ p {
   }
   to {
     transform: translateY(-15px);
+  }
+}
+
+.ani {
+  animation: bounceAlone 1s infinite alternate;
+}
+
+@keyframes bounceAlone {
+  from {
+    transform: translateY(20px);
+    transform: translateX(-5px);
+  }
+  to {
+    transform: translateY(-25px);
+    transform: translateX(25px);
   }
 }
 
