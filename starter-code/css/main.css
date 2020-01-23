@@ -1,8 +1,89 @@
 /*
 Colors:
-
+bo
 Text: 1A1A1A
 Green: #00B172
 White: #FFF
 
 */
+* {
+  box-sizing: border-box;
+}
+
+html,
+body {
+  margin: 0;
+  padding: 0;
+  font-family: sans-serif;
+}
+
+.header {
+  background-image: url('https://raw.githubusercontent.com/ironhack-labs/lab-css-spotify-clone/master/starter-code/images/landing.jpg');
+  background-position: 0 0;
+  background-size: cover;
+  background-repeat: no-repeat;
+  height: 650px;
+  padding-top: 50px;
+  position: relative;
+  flex-direction: column;
+  color: #fff;
+}
+
+.spotify-logo {
+  width: 200px;
+  background-color: #fff;
+}
+
+nav {
+  background-color: #fff;
+  color: black;
+  width: 100%;
+  display: flex;
+  justify-content: space-between;
+}
+
+nav ul {
+  color: black;
+  background-color: #fff;
+  display: flex;
+  text-decoration: none;
+}
+
+nav li {
+  list-style-type: none;
+  padding-right: 15px;
+}
+
+.header {
+  color: #fff;
+  text-align: center;
+  font-weight: bold;
+}
+
+.header h1 {
+  font-size: 200%;
+  padding: 10px;
+  margin-top: 100px;
+}
+
+.header p {
+  font-weight: lighter;
+}
+
+#section-one h2 {
+  text-decoration: underline;
+  text-underline-position: under;
+  text-decoration-color: green;
+  text-decoration-thickness: 0.2em;
+  text-align: center;
+}
+
+.icon {
+  display: flex;
+  justify-content: space-around;
+  padding: 10px;
+  max-width: 150px;
+  max-height: 100px;
+  flex-direction: column;
+  align-items: center;
+}
