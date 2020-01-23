@@ -14,7 +14,7 @@ White: #FFF
 body {
   box-sizing: border-box;
   color: #1a1a1a;
-  font-family: sans-serif;
+  font-family: 'Lato', sans-serif;
   margin: 0;
   font-weight: lighter;
 }
@@ -34,7 +34,7 @@ header img {
 }
 
 nav {
-  padding-right: 1em;
+  padding-right: 2em;
 }
 
 nav ul {
@@ -42,6 +42,7 @@ nav ul {
   display: flex;
   justify-content: space-between;
   align-items: center;
+  padding: 0;
 }
 
 nav ul li {
@@ -75,8 +76,17 @@ h1 {
   font-size: 20px;
 }
 
+.whats-on {
+  margin-top: 20px;
+}
+
 .whats-on h2 {
   text-align: center;
+  border-bottom: 4px solid #00b172;
+  max-width: 280px;
+  padding-bottom: 5px;
+  margin: auto;
+  font-size: 2em;
 }
 
 .benefits {
@@ -117,6 +127,12 @@ footer {
   justify-content: space-between;
   align-items: center;
   padding: 20px;
+}
+
+footer h2 {
+  border-bottom: 4px solid #fff;
+  max-width: 300px;
+  padding-bottom: 5px;
 }
 
 .text {
