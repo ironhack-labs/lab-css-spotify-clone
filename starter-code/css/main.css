@@ -6,3 +6,70 @@ Green: #00B172
 White: #FFF
 
 */
+
+* {
+  box-sizing: border-box;
+}
+body {
+  font-family: sans-serif;
+  margin: 0;
+  padding: 0;
+}
+.spotifyLogo {
+  width: 15%;
+  align-items: flex-start;
+  float: left;
+  margin-left: 10px;
+}
+
+nav {
+  position: fixed;
+  justify-content: space-between;
+}
+nav ul {
+  list-style: none;
+  display: flex;
+  justify-content: space-between;
+  float: right;
+  flex-direction: row;
+  align-self: flex-end;
+}
+nav a {
+  text-decoration: none;
+  color: black;
+  justify-content: space-between;
+  margin: auto 20px;
+  font-size: 1.5em;
+}
+
+header {
+  display: flex;
+  margin: 10px;
+}
+
+.backgroundImage {
+  background-image: url('../images/landing.jpg');
+  background-size: cover;
+  background-position: center;
+  color: white;
+  position: relative;
+  margin-top: 80px;
+  width: 100%;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  height: 1000px;
+}
+
+h1 {
+  text-align: center;
+  font-size: 5em;
+}
+
+.backgroundImage article {
+  text-align: center;
+  font-size: 2em;
+  width: 60%;
+  margin-left: 20%;
+}
