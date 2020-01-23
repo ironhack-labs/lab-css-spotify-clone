@@ -6,3 +6,155 @@ Green: #00B172
 White: #FFF
 
 */
+
+* {
+  box-sizing: border-box;
+}
+
+body {
+  font-family: Arial, Helvetica, sans-serif;
+  color: #1a1a1a;
+}
+
+/* --- Navbar section ---- */
+
+nav {
+  display: flex;
+  justify-content: space-between;
+  padding: 10px;
+}
+
+nav img {
+  max-height: 100px;
+  width: auto;
+}
+
+nav ul {
+  list-style: none;
+  display: flex;
+}
+
+nav ul li {
+  padding: 20px;
+}
+
+/* --- jumbotron --- */
+
+.jumbotron {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  background-image: url(../images/landing.jpg);
+  background-size: cover;
+  background-repeat: no-repeat;
+  height: 800px;
+  color: #fff;
+}
+
+.jumbotron h1 {
+  font-size: 5em;
+}
+
+.jumbotron p {
+  font-size: 2em;
+  text-align: center;
+}
+
+/* --- Features --- */
+
+.features {
+  display: flex;
+  flex-direction: column;
+  margin-bottom: 50px;
+}
+
+.features h2 {
+  width: 500px;
+  text-align: center;
+  font-size: 3em;
+  padding-bottom: 7px;
+  border-bottom: 4px solid #00b172;
+  align-self: center;
+}
+
+.cardrow {
+  display: flex;
+  flex-flow: nowrap;
+  justify-content: space-around;
+}
+
+.card {
+  text-align: center;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  max-width: 300px;
+}
+
+.card h3 {
+  font-size: 2em;
+  color: #00b172;
+}
+
+.card img {
+  width: 150px;
+  height: auto;
+}
+
+.card p {
+  font-weight: lighter;
+  font-size: 1.5em;
+}
+
+/* --- Details --- */
+
+.details {
+  width: 95%;
+  height: 800px;
+  padding: 0 100px;
+  background-color: #00b172;
+  margin: 0 auto;
+  position: relative;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.details .logo {
+  width: 150px;
+  height: auto;
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+}
+
+.details div {
+  color: #fff;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  max-width: 40%;
+}
+
+.details h2 {
+  width: 450px;
+  font-size: 2em;
+  padding-bottom: 4px;
+  border-bottom: 4px solid #fff;
+}
+
+.details div h3 {
+  font-size: 2em;
+}
+
+.details div p {
+  font-size: 1.2em;
+}
+
+.details img:last-of-type {
+  height: 600px;
+  width: auto;
+}
