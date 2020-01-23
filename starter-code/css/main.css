@@ -6,3 +6,119 @@ Green: #00B172
 White: #FFF
 
 */
+
+* {
+}
+
+body {
+  font-size: 24px;
+  margin: 0;
+  font-family: sans-serif;
+}
+
+section:first-child {
+  height: 80px;
+  text-decoration: none;
+  display: flex;
+  justify-content: space-between;
+}
+
+section:first-child nav {
+  display: flex;
+  justify-content: space-evenly;
+  width: 40%;
+  margin-top: 10px;
+}
+
+section:first-child nav ul {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-evenly;
+  width: 100%;
+  list-style: none;
+  margin-right: 25px;
+}
+
+section:first-child img {
+  width: 180px;
+  margin-left: 15px;
+  margin-top: 15px;
+}
+
+section:nth-child(2) {
+  background-image: url('../images/landing.jpg');
+  background-size: cover;
+  height: 800px;
+  color: #fff;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+
+section:nth-child(2) div {
+  display: block;
+  width: 60%;
+  text-align: center;
+}
+
+section:nth-child(2) p {
+  margin-top: 0.5em;
+  font-size: 1.4em;
+}
+
+h1 {
+  font-size: 3em;
+}
+
+section:nth-child(3) {
+  text-align: center;
+}
+
+section:nth-child(3) h2 {
+  text-decoration: underline;
+  text-decoration-color: #00b172;
+  display: block;
+  text-align: center;
+  margin-top: 1.5em;
+  text-underline-position: under;
+}
+
+section:nth-child(3) h3 {
+  text-decoration: underline;
+  text-decoration-color: #00b172;
+}
+
+section:nth-child(3) img {
+  height: 100px;
+  width: 100px;
+}
+
+section:nth-child(3) div {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  margin: 40px 20px;
+  /*border: solid black;*/
+}
+
+section:nth-child(3) div div {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  width: 30%;
+}
+
+section:nth-child(4) {
+  background-color: #00b172;
+  margin: 30px;
+  color: #fff;
+  height: 800px;
+  padding: 80px;
+}
+
+section:nth-child(4) h2 {
+  text-decoration: underline;
+  font-weight: 100;
+  font-size: 1.5em;
+}
