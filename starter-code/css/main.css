@@ -21,6 +21,9 @@ section:first-child {
   text-decoration: none;
   display: flex;
   justify-content: space-between;
+  position: fixed;
+  background-color: #fff;
+  width: 100%;
 }
 
 section:first-child nav {
@@ -111,14 +114,46 @@ section:nth-child(3) div div {
 
 section:nth-child(4) {
   background-color: #00b172;
-  margin: 30px;
+  margin: 40px;
   color: #fff;
-  height: 800px;
-  padding: 80px;
+  padding: 100px;
+  display: flex;
+  justify-content: space-evenly;
+  flex-direction: row;
 }
 
 section:nth-child(4) h2 {
   text-decoration: underline;
+  text-underline-position: under;
   font-weight: 100;
   font-size: 1.5em;
+}
+
+section:nth-child(4) div {
+  /*border: solid black;*/
+}
+
+section:nth-child(4) img {
+  width: 50%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  padding-top: 80px;
+  padding-left: 180px;
+}
+
+section:nth-child(4) h2 {
+  padding-bottom: 50px;
+}
+
+section:nth-child(4) p {
+  width: 60%;
+}
+
+section:nth-child(4) span {
+  position: absolute;
+}
+
+section:nth-child(4) span img {
+  width: 20%;
 }
