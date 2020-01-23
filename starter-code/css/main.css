@@ -4,5 +4,180 @@ Colors:
 Text: 1A1A1A
 Green: #00B172
 White: #FFF
-
 */
+* {
+  box-sizing: border-box;
+}
+
+body {
+  color: #1a1a1a;
+  font-family: 'Open Sans', sans-serif;
+  margin: 0;
+  font-size: 24px;
+}
+
+h3 {
+  margin: 0;
+  font-size: 28px;
+}
+
+p,
+li {
+  font-weight: 300;
+}
+
+/*nav bar*/
+
+nav {
+  display: flex;
+  justify-content: space-between;
+  padding: 0.5% 2%;
+}
+
+nav img {
+  width: 200px;
+  margin: auto 0;
+}
+
+nav li {
+  list-style-type: none;
+  display: inline;
+  padding-right: 15px;
+}
+
+nav a {
+  text-decoration: none;
+  color: #1a1a1a;
+}
+
+nav a:hover {
+  color: #00b172;
+}
+
+/* banner */
+
+.header {
+  background-image: url('../images/landing.jpg');
+  height: 700px;
+  background-size: cover;
+  background-position: center;
+  color: white;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+
+.header h1 {
+  font-size: 70px;
+  margin: 40px auto;
+}
+
+.header p {
+  width: 45%;
+  text-align: center;
+  margin-bottom: 50px;
+  margin-top: 0;
+  font-size: 28px;
+}
+
+/* about spotify */
+
+#about {
+  padding: 40px 0 70px 0;
+}
+
+#about h2 {
+  border-bottom: 4px solid #00b172;
+  text-align: center;
+  width: fit-content;
+  margin: 0 auto;
+  font-size: 38px;
+  letter-spacing: 1px;
+}
+
+#about > div {
+  display: flex;
+  padding: 30px;
+  margin-top: 55px;
+  justify-content: space-evenly;
+  align-items: baseline;
+}
+
+#about img {
+  width: 130px;
+  padding-bottom: 10px;
+}
+
+.about-cards {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  margin: 0 20px;
+  padding: 5%;
+  width: 30%;
+}
+
+.about-cards:hover {
+  background-color: lightgray;
+  box-shadow: rgba(200, 200, 200, 0.5) 3px 3px;
+}
+
+.about-cards p {
+  text-align: center;
+}
+
+.about-cards h3 {
+  color: #00b172;
+}
+
+/* app */
+
+#app {
+  background-color: #00b172;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  color: white;
+  padding: 40px;
+  background-image: url('../images/spotify-icon-white.png');
+  background-size: 130px;
+  background-repeat: no-repeat;
+  background-position: center;
+}
+
+#app h2 {
+  border-bottom: 4px solid white;
+  width: fit-content;
+  font-size: 40px;
+  margin-bottom: 40px;
+  font-weight: normal;
+  letter-spacing: 2px;
+}
+
+#app > div {
+  display: flex;
+  flex-direction: column;
+  width: 60%;
+  padding-left: 60px;
+}
+
+#app img {
+  width: 350px;
+  margin-right: 130px;
+  padding-top: 25px;
+}
+
+#app img:not(.app-img) {
+  width: 130px;
+  height: 130px;
+}
+
+.app-card {
+  width: 45%;
+}
+
+.app-card p {
+  margin: 35px 0;
+}
