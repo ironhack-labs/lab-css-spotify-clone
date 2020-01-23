@@ -13,6 +13,10 @@ White: #FFF
   box-sizing: border-box;
 }
 
+body {
+  font-family: 'Poppins', sans-serif;
+}
+
 html {
   font-size: 62.5%;
 }
@@ -37,6 +41,7 @@ p {
 #header-nav {
   background: #fff;
   position: fixed;
+  z-index: 1;
 }
 
 .navigation {
@@ -91,6 +96,7 @@ p {
   display: flex;
   min-height: 70vh;
   text-align: center;
+  flex-direction: column;
 }
 
 .heading-whatsOn {
@@ -99,16 +105,18 @@ p {
 }
 
 .lineWhatsOn {
-  border: 1px solid #00b172;
-  width: 70%;
-  margin: auto;
+  border-bottom: 4px solid #00b172;
+  width: 20%;
+  margin: 4rem auto 10rem;
+}
+
+.whatsOn-main {
+  display: flex;
+  justify-content: flex-end;
 }
 
 .div-whatsOn {
-  display: flex;
-  flex-direction: column;
-  justify-content: center;
-  align-items: center;
+  display: block;
 }
 
 .img-whatsOn {
@@ -117,4 +125,59 @@ p {
 
 .description-whatsOn {
   color: #00b172;
+}
+
+.message-whatsOn {
+  text-align: center;
+}
+
+/*Third Section Kanye*/
+#kanye {
+  position: relative;
+  min-height: 100vh;
+  width: 95%;
+  margin: 0 auto;
+  background-color: #00b172;
+}
+
+.container-kanye {
+  display: flex;
+  width: 100%;
+  flex-direction: column;
+  justify-content: center;
+  margin: 5%;
+}
+
+.heading-kanye {
+  position: relative;
+  color: #fff;
+  border-bottom: 4px solid #fff;
+  width: 29%;
+  margin-top: 7rem;
+}
+
+.description-kanye {
+  color: #fff;
+  margin-top: 7rem;
+}
+
+.message-kanye {
+  color: #fff;
+}
+
+.img-icon-kanye {
+  position: absolute;
+  width: 5%;
+  top: 50%;
+  left: 50%;
+}
+.img-app-kanye {
+  margin: 0 auto;
+  width: 10%;
+}
+
+/*Footer White Spaced*/
+.white {
+  background-color: white;
+  min-height: 5vh;
 }
