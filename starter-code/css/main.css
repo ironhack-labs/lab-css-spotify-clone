@@ -6,3 +6,133 @@ Green: #00B172
 White: #FFF
 
 */
+
+* {
+  box-sizing: border-box;
+  line-height: 2em;
+}
+
+body {
+  font-family: sans-serif;
+}
+
+/*---HEADER---*/
+
+header {
+  padding: 10px 0;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+header img {
+  width: 20%;
+  float: left;
+  margin: 0 20px;
+}
+
+nav {
+  width: 500px;
+  margin: 0 20px;
+  font-size: 18px;
+}
+
+nav ul {
+  list-style: none;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+nav a {
+  text-decoration: none;
+  color: black;
+}
+
+/* Section - Heading */
+
+#main-section {
+  background-image: url(/starter-code/images/landing.jpg);
+  background-repeat: no-repeat;
+  background-size: cover;
+  height: 70vh;
+  display: flex;
+  justify-content: center;
+}
+
+.heading {
+  text-align: center;
+  color: white;
+  top: 20%;
+  position: relative;
+  font-size: 1em;
+  width: 80%;
+}
+
+.heading h1 {
+  font-size: 5em;
+}
+
+.heading p {
+  font-size: 1.5em;
+}
+
+/* Section 1 */
+
+.sect1 {
+  margin-top: 25px;
+  display: flex;
+  flex-direction: row;
+  flex-wrap: nowrap;
+  justify-content: space-around;
+  align-items: center;
+  align-content: stretch;
+  padding: 40px;
+}
+
+.sect1 img {
+  width: 40%;
+}
+
+.box1 {
+  display: flex;
+  flex-direction: column;
+  flex-wrap: nowrap;
+  justify-content: flex-start;
+  align-items: center;
+  width: 200px;
+  text-align: center;
+}
+
+section h3 {
+  text-align: center;
+  text-decoration: underline;
+  padding-top: 40px;
+}
+
+/* Section 2 */
+
+.greenbox {
+  background-color: #4da46a;
+  margin-top: 25px;
+  padding: 15px;
+  color: white;
+}
+
+.greenbox h3 {
+  text-transform: underline;
+}
+
+.sect2 {
+  display: flex;
+  flex-direction: row;
+  flex-wrap: nowrap;
+  justify-content: space-around;
+  align-items: center;
+  align-content: stretch;
+  color: white;
+}
+
+.sect2 img {
+  width: 50%;
+}
