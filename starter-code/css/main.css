@@ -6,3 +6,113 @@ Green: #00B172
 White: #FFF
 
 */
+
+* {
+  box-sizing: border-box;
+  font-family: sans-serif;
+  margin: 0%;
+}
+
+nav {
+  display: flex;
+  justify-content: space-between;
+  padding: 1%;
+}
+
+nav img {
+  width: 250px;
+  size: cover;
+}
+
+nav ul {
+  list-style-type: none;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  width: 30%;
+  padding-right: 1%;
+}
+nav ul li {
+  /* not working why? I want to take out the decoration of anchor */
+  text-decoration: inherit;
+  color: inherit;
+}
+
+.mainText {
+  background-image: url(/starter-code/images/landing.jpg);
+  background-size: cover;
+  background-repeat: no-repeat;
+  height: 600px;
+  color: white;
+  text-align: center;
+  font-size: 2em;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+}
+
+.mainText h1 {
+  size: 3em;
+  font-weight: 400;
+  padding: 1%;
+  font-size: 2.5em;
+}
+
+.whatsOn {
+  display: flex;
+  flex-direction: column;
+  text-align: center;
+  padding: 5% 0%;
+}
+.whatsOn h4 {
+  font-size: 2em;
+  text-decoration: underline;
+  text-decoration-color: #00B172;
+}
+
+.whatBlock {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-evenly;
+  padding: 3%;
+  line-height: 2em;
+}
+
+.whatBlock h3 {
+  color: #00B172;
+  padding: 5% auto;
+  line-height: 2em;
+}
+.whatBlock P {
+  font-size: 1em;
+  color: #1A1A1A;
+}
+
+.whatImg {
+  height: 60px;
+}
+
+section:last-of-type {
+  background-color: #00B172;
+  margin: 10px;
+  position: relative;
+  display: flex;
+  justify-content: space-between;
+}
+section:last-of-type img{
+  padding: 10%;
+  width: 45%;
+}
+.easeFinal {
+  color: white;
+  padding: 7.5%;
+}
+.easeFinal h4 {
+  
+}
+#whiteIcon {
+  position: absolute;
+  width: 100px;
+  left: 50%;
+  top: 50%;
+}
