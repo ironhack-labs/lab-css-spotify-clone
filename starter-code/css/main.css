@@ -9,131 +9,167 @@ White: #FFF
 
 * {
   box-sizing: border-box;
-  font-family: sans-serif;
   margin: 0%;
 }
 
-nav {
-  display: flex;
-  justify-content: space-between;
-  padding: 1%;
+body {
+  font-family: 'Open Sans', sans-serif;
 }
 
-nav img {
-  width: 250px;
+nav {
+  position: fixed;
+  background-color: white;
+  width: 100%;
+  padding: 1%;
+  display: flex;
+  justify-content: space-between;
+}
+nav :first-child {
+  max-width: 200px;
   size: cover;
 }
-
 nav ul {
-  list-style-type: none;
   display: flex;
-  justify-content: space-between;
+  justify-content: space-evenly;
   align-items: center;
-  width: 30%;
-  padding-right: 1%;
-}
-nav ul li {
-  /* not working why? I want to take out the decoration of anchor */
-  text-decoration: inherit;
-  color: inherit;
+  list-style-type: none;
+  width: 50%;
 }
 
+}
+nav ul li a {
+  color: grey;
+  text-decoration: none;
+}
+@media (min-width: 1000px) {
+  nav ul li a {
+    color: grey;
+    text-decoration: none;
+    font-size: 1.5em;
+  }
+}
 .mainText {
+  padding-top: 5%;
   background-image: url(/starter-code/images/landing.jpg);
   background-size: cover;
   background-position: bottom center;
   background-repeat: no-repeat;
-  height: 600px;
-  color: white;
+  min-width: 750px;
   text-align: center;
-  font-size: 2em;
   display: flex;
   flex-direction: column;
   justify-content: center;
+  color: white;
 }
-
 .mainText h1 {
-  size: 3em;
-  font-weight: 400;
-  padding: 1%;
-  font-size: 2.5em;
+  font-size: 3em;
+  font-weight: 300;
+  padding: 20% 0% 2% 0%;
+}
+.mainText p {
+  font-size: 2em;
+  font-weight: 50;
+  padding-bottom: 30%;
+  line-height: 1.5em;
 }
 
 .whatsOn {
   display: flex;
   flex-direction: column;
-  text-align: center;
-  padding: 5% 0%;
+  align-items: center;
 }
-.whatsOn h4 {
-  font-size: 2em;
-  text-decoration: underline;
-  text-decoration-color: #00b172;
+.whatsOn > h4 {
+  padding: 5% 0 0% 0;
+  font-size: 2.5em;
+  border-bottom: 2px solid #00B172;
+  width: fit-content;
 }
-
 .whatBlock {
   display: flex;
-  flex-direction: row;
+  width: 100%;
   justify-content: space-evenly;
-  padding: 3%;
-  line-height: 2em;
+  align-items: baseline;
 }
-
-.whatBlock h3 {
-  color: #00b172;
-  padding: 5% auto;
-  line-height: 2em;
+.whatBlock div {
+  text-align: center;
+  align-content: space-between;
+  padding: 5% 0;
 }
-.whatBlock p {
-  font-size: 1em;
-  color: #1a1a1a;
+.whatsOn h3 {
+  color: #00B172;
+  line-height: 4em;
+  font-size: 2em;
 }
-
-.whatImg {
-  height: 60px;
+.whatsOn p {
+  color: gray;
+  font-size: 1.5em;
+  font-weight: 100;
 }
-
+.whatsOn img {
+  width: 130px;
+}
+@media (max-width: 1050px) {
+  .whatBlock {
+    display: flex;
+    flex-direction: column;
+    width: 100%;
+    justify-content: space-evenly;
+    align-items: center;
+  } 
+}
 section:last-of-type {
   background-color: #00b172;
-  margin: 10px;
-  height: 700px;
-  padding-left: 10%;
-  position: relative;
+  margin: 2% 2% 2% 2%;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 5% 10% 5% 5%;
+}
+section:last-of-type aside img{
+  max-height: 500px;
+}
+article {
+  color: white;
   display: flex;
   flex-direction: column;
-  justify-content: space-evenly;
-  color: white;
+  padding-left: 5%;
 }
-section:last-of-type h3 {
+article h3 {
   font-size: 2em;
-  text-decoration-line: underline;
-  color: white;
+  line-height: 2em;
+  border-bottom: 2px solid white;
+  width: fit-content;
 }
-
-.easeFinal h4 {
-  font-size: 2em; 
-  padding: 1% 0% ;
-  font-weight: 300;
+article h4 {
+  font-size: 1.7em;
+  line-height: 3em;
+  font-weight: bold;
 }
-.easeFinal p {
-  font-size: 1.2em;
-  padding: 1% 0%;
-  font-weight: 300;
-  
+article p {
+  font-size: 1.5em;
+  line-height: 1.2em;
+  font-weight: 100;
 }
-
 #whiteIcon {
-  position: absolute;
   width: 100px;
-  left: 50%;
-  top: 50%;
-  font-size: 2em;
-  line-height: em;
 }
 
-#spotifySnapshot {
-  position: absolute;
-  height: 600px;
-  right: 100px;
-  top: 50px;
+@media (max-width: 1100px) {
+  section:last-of-type {
+    background-color: #00b172;
+    flex-flow: row wrap ;
+    justify-content: space-evenly;
+    align-items: center;
+    padding: 5% 10% 5% 5%;
+    width: 100%;
+  }
+  section:last-of-type img{
+    display: none;
+  }
+  article {
+    color: white;
+    display: flex;
+    flex-direction: column;
+    padding: 0 auto;
+  }
 }
