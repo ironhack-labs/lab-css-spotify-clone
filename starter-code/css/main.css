@@ -6,3 +6,137 @@ Green: #00B172
 White: #FFF
 
 */
+
+body {
+  background-color: #FFF;
+  margin: 0% 5%;
+  display: flex;
+  flex-direction: column;
+}
+.header {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  align-items: center;
+}
+.spotify-header-logo {
+  height: 50px;
+}
+.nav-bar {
+
+}
+.nav-bar ul {
+ list-style: none;
+ display: flex;
+ flex-direction: row;
+ justify-content: space-around;
+ align-items: center;
+ margin-right: 20%;
+ font-size: 1.5em;
+}
+.main-image {
+  background-image: url("../images/landing.jpg");
+  background-repeat: no-repeat;
+  background-size: cover;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  color: #FFF;
+  height: 100vh;
+  font-size: 2em;
+}
+ h1 {
+   font-size: 3em;
+ }
+ h2 {
+   font-size: 2.5em;
+ }
+.main-image p {
+  margin: 0%;
+}
+.nav-bar li {
+ margin-left: 10px;
+ margin-right: 10px;
+}
+.items {
+ text-align: center;
+ height: 40%;
+ margin-bottom: 5%;
+ padding: 0% 0%;
+} 
+.items h2{
+  margin-bottom: 0;
+}
+.items hr{
+  margin-top: 0;
+  width: 27%;
+  text-align: center;
+  border: solid 2px #00B172;
+}
+.items h3{
+ font-size: 2em;
+ color: #00B172;
+}
+.list-items {
+    margin: 5% 0% 5% 0%;
+    display: flex;
+    flex-direction: center;
+    justify-content: space-evenly;
+}
+.list-items p{
+  font-size: 2em;
+}
+.list-items div{
+  display: block;
+  margin: 0% 5%;
+}
+.list-items img {
+  width: 50%;
+  height: 40%;   
+}
+.spotify-app {
+  display: flex;
+  background-image: url("../images/spotify-icon-white.png");
+  background-repeat: no-repeat; 
+  background-color: #00B172;
+  background-size: 150px;
+  background-position: center; 
+  justify-content: space-between;
+  align-items: center;
+  height:100%;
+  padding: 5% 5% ;
+  margin: 0% ;
+}
+.spotify-app p{
+  font-size: 1.5em ;
+}
+.options {
+    width: 50%;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-around;
+    color: #FFF;
+}
+.options > div{
+  width: 80%;
+}
+.options > h2 {
+  margin: 0;
+}
+.options hr{
+  margin: 0;
+  width: 80%;
+  text-align: left;
+  border: solid 2px #FFF;
+}
+.kanye-image {
+  background-image: url("../images/spotify-app.jpg");
+  background-repeat: no-repeat;
+  background-size: contain;
+  background-blend-mode: lighten;
+  background-position: center;
+  height: 100vh;
+  width: 30%;
+  margin: 10px 30px 10px 10px;
+}
