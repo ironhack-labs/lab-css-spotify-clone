@@ -1,3 +1,4 @@
+@import url("https://fonts.googleapis.com/css?family=Roboto&display=swap");
 /*
 Colors:
 
@@ -6,6 +7,193 @@ Green: #00B172
 White: #FFF
 
 */
-*{
-    background-size: cover;
+* {
+  padding: 0;
+  margin: 0;
+  box-sizing: border-box;
+  font-family: Roboto;
+  color: #1a1a1a;
+}
+
+nav {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 0 50px;
+  position: fixed;
+  max-width: 100vw;
+  width: 100%;
+  background-color: white;
+  height: 100px;
+  z-index: 1;
+}
+
+nav > img {
+  width: 200px;
+  height: 60px;
+}
+
+nav > ul {
+  display: flex;
+  justify-content: space-evenly;
+  list-style: none;
+  width: 40%;
+}
+
+nav > ul > li {
+  cursor: pointer;
+  font-size: 1.2em;
+}
+
+#general-information,
+#description,
+#features {
+  max-width: 100vw;
+  width: 100%;
+}
+
+#general-information {
+  background-image: url("../images/landing.jpg");
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+  height: 1280px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+}
+
+#general-information > h1,
+h2 {
+  color: white;
+  text-align: center;
+}
+
+#general-information > h1 {
+  width: 60%;
+  font-size: 5em;
+  font-weight: bold;
+}
+
+#general-information > h2 {
+  width: 55%;
+  font-size: 1.8em;
+  margin-top: 20px;
+  font-weight: lighter;
+  line-height: 35px;
+}
+
+#description {
+  text-align: center;
+  margin-bottom: 100px;
+}
+
+#description > h1 {
+  margin: 50px auto;
+  border-bottom: 4px solid #00b172;
+  width: 22%;
+  font-size: 2em;
+  line-height: 50px;
+}
+
+#description > div {
+  display: flex;
+  justify-content: space-evenly;
+  align-items: center;
+  width: 90%;
+  text-align: center;
+  margin: 100px auto;
+}
+
+#description > div > article {
+  text-align: center;
+  width: 50%;
+}
+
+#description > div > article > img {
+  width: 120px;
+}
+
+#description > div > article > h2 {
+  width: 120px;
+  color: #00b172;
+  width: 100%;
+  margin: 20px auto;
+  font-weight: bolder;
+}
+
+#description > div > article > h3 {
+  width: 120px;
+  width: 60%;
+  margin: 0 auto;
+  font-weight: lighter;
+}
+
+#features {
+  background-color: #00b172;
+  width: 95%;
+  height: 800px;
+  margin: 0 auto 50px auto;
+  padding: 0 60px;
+}
+
+#features > h1 {
+  margin: 50px 0;
+  border-bottom: 4px solid white;
+  width: 50%;
+  font-size: 2.5em;
+  line-height: 60px;
+  color: white;
+  font-weight: bold;
+  text-align: left;
+  padding-top: 60px;
+}
+
+#features > div {
+  display: flex;
+  justify-content: space-evenly;
+  width: 100%;
+  position: relative;
+}
+
+#spotfy_logo {
+  width: 120px;
+  height: 120px;
+  position: absolute;
+  top: 30%;
+}
+
+#spotfy_screen {
+  position: absolute;
+  bottom: 0;
+  height: 600px;
+  right: 0;
+  top: -12%;
+}
+
+#features > div > div {
+  width: 100%;
+}
+
+#features > div > div > article {
+  width: 40%;
+  margin-bottom: 50px;
+}
+
+#features > div > div > article > h2 {
+  text-align: left;
+  color: white;
+  width: 100%;
+  margin-top: 20px;
+  font-weight: bold;
+  font-size: 2em;
+}
+
+#features > div > div > article > h3 {
+  width: 80%;
+  font-weight: lighter;
+  color: white;
+  margin-top: 20px;
+  font-size: 1.5em;
 }
