@@ -6,3 +6,146 @@ Green: #00B172
 White: #FFF
 
 */
+
+html, body {
+    margin: 0;
+    padding: 0;
+    font-weight: 300;
+    font-size: 18px;
+    font-family: Helvetica;
+}
+
+nav {
+    display: flex;
+    background-color: #FFF;
+    position: fixed;
+    top: 0;
+    left: 0;
+    right: 0;
+    padding-top: 15px;
+    /* padding-bottom: 15px; */
+}
+
+nav ul {
+    list-style: none;
+    display: flex;
+    justify-content: space-evenly;
+    width: 1000px;
+    padding-left: 100px;
+    color: black;
+    font-size: 1.5em;
+    font-weight: lighter;
+}
+
+nav ul li {
+    list-style: none;
+    text-align: center;
+}
+
+nav div img {
+    width: 30vh;
+    float: left;
+    margin-left: 30px;
+    padding-right: 400px;
+
+}
+
+header {
+    background-image: url(../images/landing.jpg);
+    background-size: cover;
+    width: 100%;
+    height: 115vh;
+    color: #FFF;
+    text-align: center;
+}
+
+header h1 {
+    margin-left: auto;
+    margin-right: auto;
+    padding-top: 330px;
+    align-items: center;
+    font-size: 4.1em;
+}
+
+header p {
+    margin-left: auto;
+    margin-right: auto;
+    margin-top: 15px;
+    align-items: center;
+    font-size: 1.8em;
+    width: 800px;
+}
+
+.itens {
+    font-size: 1.5em;
+    padding: 20px 0;
+    margin-bottom: 100px;
+}
+
+.itens h2 {
+    margin-left: auto;
+    margin-right: auto;
+    border-bottom: solid #00B172;
+    padding-bottom: 7px; 
+    width: fit-content; 
+    font-size: 2rem;
+    margin-bottom: 110px;
+}
+
+
+.itens h3 {
+    color: #00B172;
+    font: bold;
+}
+
+.itens div {
+    display: flex;
+    justify-content: space-evenly;
+}
+
+.itens div article {
+    width: 300px;
+    text-align: center;
+}
+
+.itens div article img {
+    width: 130px;
+    height: 100px;
+    margin-bottom: -20px;
+}
+
+.green {
+    background-color: #00B172;
+    color: #FFF;
+    margin: 0 40px 40px 40px;
+    font-size: 1.5em;
+    display: flex;
+    justify-content: space-evenly;
+    background-image: url(../images/spotify-icon-white.png);
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: 130px;
+    
+}
+
+.green div {
+    padding: 70px 100px 100px 100px;
+
+}
+
+.green div h2 {
+    padding-bottom: 7px;
+    width: fit-content;
+    border-bottom: solid #FFF;
+    font-size: 2rem;
+}
+
+.green div article {
+    width: 400px;
+    text-align: left;
+}
+
+#spotify-app img {
+    width: 330px;
+    margin-top: 70px;
+}
