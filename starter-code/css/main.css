@@ -1,132 +1,144 @@
-
-
-
-
 /*
 Colors:
 
 Text: 1A1A1A
 Green: #00B172
-White: #FFF */
+White: #FFF
 
-
-.logo {
-  vertical-align: top;
-  width: 150px;
-  height: auto;
-  margin-left: 30px;
-  margin-top: 20px;
-  float: left;
-}
-
+*/
+/* geral */
+*{
+  box.sizing: border-box;
+  }
 
 body {
-  font-family: 'Raleway', sans-serif;
+margin: 0;
+padding: 0;
+font-family: 'Lato', sans-serif;
+letter-spacing: 1px;
+}
+/* fim do geral */
+
+/* isso é do nav */
+nav{
+width: 100%;
+display: flex;
+flex-flow: row wrap;
+background-color:white;
+margin: 0em;
+position: fixed;
+
+}
+.container{
+display: flex;
+width: 100%;
+margin: 0;
 }
 
-.navigation-bar {
+nav a {
+  text-decoration: none;
+  color: #1a1a1a;
+  padding: 0 20px;
+  font-size: 1.4em;
+}
+
+nav img {
+width: 200px;
+padding: 10px;
+}
+
+.navItems {
+margin-left: auto;
+margin-right: 0px;
+align-self: center;
+}
+
+/* fim do nav */
+
+
+.primeira-pagina{
+color: azure;
+text-align: center;
+background-image: url(/starter-code/images/landing.jpg);
+background-size: contain;
+padding: 300px;
+
+}
+
+.segunda-pagina {
+display: flex;
+text-align: center;
+align-self: center;
+}
+
+.segunda-pagina h1 {
   width: 100%;
-  height: 80px;
-  position: fixed;
-  background-color: white;
-  top: 0;
-}
-
-nav ul {
-  float: right;
-  vertical-align: middle;
-  list-style-type: none;
-  margin-right: 30px;
-  margin-top: 20px;
-  text-decoration:none;
-  color: gray;
-}
-
-li {
-    float: left;
-    padding: 1em;
-
-}
-
-
-.second-main {
-  list-style-type: none;
-  padding: 30px;
+  justify-content: center;
   text-align: center;
-  float: center;
- }
-
-
-.main-container {
-  background-image: url(/starter-code/images/landing.jpg);
-  width: 100%;
-  height: 600px;
-  background-position: center;
-  background-size: cover;
-  display: block;
-  margin-left: auto;
-  margin-right: auto;
-  text-align: center;
-  align-items: center;
-  padding-top: 250px; 
-  font-size: 2em;
-  color: white;
-  font-weight: bold; 
-  }
-
-.second-main {
-  text-align: center;
-  margin-top: 30px;
 
 }
 
-.third-main {
-  background-color: #00B172;
-  color: white;
-  text-align: center;
-  margin-top: 30px;
-
+.topico2 {
+width: 31.3%;
+padding: 1em;
 }
 
+.topico2 img {
+  width: 33%;
+}
 
 .whatson{
-  text-align: center;
-  display: inline;
-  padding-bottom: 7px;
+  margin: 0 321px ;
+}
+h4{
+  border-bottom: 5px solid green;
   font-size: 2.5em;
-  font-weight: bold;
+  max-width: 380px;
+  text-align: cente;
+}
 
+.terceira-pagina{
+display: flex;
+flex-direction: row wrap;
+background-color: #00B172;
+width: 95%;
+margin: auto;
+color: white;
+justify-content: space-between;
+text-align: justify;
+font-size: larger;
+margin-bottom: 50px;
+}
+
+h3{
+font-size: 1.8em;
+color: white;
+text-decoration: none;
+border-bottom: 5px solid white;
+max-width: 520px;
+text-align: justify;
+}
+ 
+
+.topico3 {
+width: auto;
+margin: 100px;
+padding: auto;
   }
 
-.whatson h1 {
-  border-bottom: 3px solid #00B172;
-  }
-
-.columns{
-margin-top: 30px;
-    }
-.columns-left{
-  float:left;width: 33%; height: 300px
+.logo3{
+align-self: center;
 }
 
-.columns-center{
-  display: inline-block;width: 33%; height: 300px
+.spotifyLogo{
+max-width: 150px;
 }
 
-.columns-right{
-  float:right;width: 33%; height: 300px
+.spotifyScreenshot{
+max-width: 330px;
+width: auto;
+align-self: center;
+margin: 100px;
 
 }
 
-.iconimage{
-width: 100px;
-
-}
-
-.app {
-  float: right;
-  height: auto;
-  width: 250px;
-  margin-right: 60px;
-  margin-top: 130px;
-}
