@@ -6,3 +6,118 @@ Green: #00B172
 White: #FFF
 
 */
+
+@import url('https://fonts.googleapis.com/css?family=Barlow:200,200i,300,300i,400,400i,500,500i,600,600i,700,700i,800,800i&display=swap');
+
+*{
+    margin: 0;
+    padding: 0;
+    font-family: 'Barlow', sans-serif;
+    font-size: 16px;
+    font-weight: 300;
+    box-sizing: border-box;
+}
+
+body{
+    color: #1A1A1A;
+}
+
+header{
+    max-width: 1280px;
+    margin: 0 auto;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+header > img{ 
+    padding: 36px 0;
+    width: 240px;
+}
+
+nav ul{
+    display: flex;
+    justify-content: flex-end;
+}
+
+nav ul li{
+    list-style: none;
+    padding-left: 32px;
+}
+
+h1{
+    font-size: 5.5em;
+    font-weight: 600;
+    margin-bottom: 48px;
+}
+
+h2{
+    font-size: 2.5em;
+    font-weight: 600;
+}
+
+h3{
+    font-size: 1.8em;
+    font-weight: 600;
+    margin-bottom: 40px;
+}
+
+hr{
+    width: 320px;
+    margin: 12px auto;
+    border: 2px solid #00B172;
+}
+
+a{
+    text-decoration: none;
+    font-size: 1.4em;
+    color: black;
+}
+
+a:hover{
+    color:#00B172;
+    transition: all linear 0.3s;
+}
+
+.landing{
+    color: white;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    background-image: url(../images/landing.jpg);
+    background-size: 100%;
+    background-position: center;
+    height: 640px;
+}
+
+.landing p{
+    text-align: center;
+    width: 50%;
+    font-size: 2em;
+    line-height: 1.5em;
+}
+
+.wOn{
+    margin: 80px auto;
+    text-align: center;
+}
+
+.wOn div{
+    display: flex;
+    justify-content: space-around;
+    margin: 80px auto;
+    width: 80%;
+    background-color: chartreuse;
+}
+
+.wOn article{
+    width: 33.3%;
+}
+
+.wOn hr{
+    width: 320px;
+    margin: 12px auto;
+    border: 2px solid #00B172;
+}
+
