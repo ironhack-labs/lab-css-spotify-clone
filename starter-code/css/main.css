@@ -70,20 +70,107 @@ nav li {
   font-weight: lighter;
 }
 
-#section-one h2 {
-  text-decoration: underline;
-  text-underline-position: under;
-  text-decoration-color: green;
-  text-decoration-thickness: 0.2em;
+.section-one {
+  margin-left: 70px;
+  margin-right: 70px;
+}
+
+.title-text {
+  text-align: center;
+  margin-top: 8;
+  text-decoration: underline #00b172;
+  text-decoration-style: solid;
+  font-size: 160%;
+  font-weight: bold;
+}
+
+.text {
+  display: flex;
+  justify-content: space-around;
+  padding: 10px 0;
   text-align: center;
 }
 
-.icon {
+.text img {
+  width: auto;
+  max-width: 150px;
+  height: auto;
+  max-height: 100px;
+  justify-content: space-around;
+  text-align: center;
+}
+
+.icon > div {
+  color: #00b172;
+  font-size: 125%;
+  font-weight: bold;
+}
+
+.text p {
+  text-align: center;
+}
+
+.what-on-links {
   display: flex;
   justify-content: space-around;
-  padding: 10px;
+  padding: 10vh 0;
+}
+.what-on-links img {
+  width: auto;
   max-width: 150px;
+  height: auto;
   max-height: 100px;
+}
+.articles {
+  flex: 1;
+  display: flex;
   flex-direction: column;
   align-items: center;
+}
+.articles p {
+  text-align: center;
+}
+.articles > div {
+  color: #00b172;
+  font-size: 125%;
+  font-weight: bold;
+}
+
+#cover {
+  display: flex;
+  flex-direction: row;
+  height: 500px;
+  background-image: url('../images/spotify-icon-white.png');
+  background-size: 10%;
+  background-repeat: no-repeat;
+  background-position: center;
+  justify-content: space-between;
+  background-color: #00b172;
+  color: #fff;
+  margin-left: 15px;
+  margin-right: 15px;
+  margin-bottom: 15px;
+  margin-top: 30px;
+}
+.cover-item {
+  display: flex;
+  flex-direction: column;
+  width: 35%;
+  justify-content: space-evenly;
+  align-items: flex-start;
+  padding-left: 30px;
+  padding-bottom: 50px;
+  padding-top: 50px;
+}
+
+.cover-item img {
+  width: auto;
+  height: 90%;
+}
+
+.bottom-border-white {
+  padding: 5px;
+  text-align: left;
+  max-width: 600px;
+  border-bottom: 3px solid white;
 }
