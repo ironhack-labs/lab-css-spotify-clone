@@ -1,19 +1,12 @@
-/*
-Colors:
-
-Text: 1A1A1A
-Green: #00B172
-White: #FFF
-
-*/
-
 @import url('https://fonts.googleapis.com/css?family=Barlow:200,200i,300,300i,400,400i,500,500i,600,600i,700,700i,800,800i&display=swap');
+
+/* SELETORES */
 
 *{
     margin: 0;
     padding: 0;
     font-family: 'Barlow', sans-serif;
-    font-size: 16px;
+    font-size: 20px;
     font-weight: 300;
     box-sizing: border-box;
 }
@@ -24,10 +17,12 @@ body{
 
 header{
     max-width: 1280px;
+    width: 100%;
     margin: 0 auto;
     display: flex;
     justify-content: space-between;
     align-items: center;
+    background-color: white;
 }
 
 header > img{ 
@@ -46,31 +41,28 @@ nav ul li{
 }
 
 h1{
-    font-size: 5.5em;
+    font-size: 4.5em;
     font-weight: 600;
     margin-bottom: 48px;
 }
 
 h2{
-    font-size: 2.5em;
+    font-size: 2em;
     font-weight: 600;
 }
 
 h3{
-    font-size: 1.8em;
+    font-size: 1.4em;
     font-weight: 600;
-    margin-bottom: 40px;
+    margin: 24px 0;
 }
 
-hr{
-    width: 320px;
-    margin: 12px auto;
-    border: 2px solid #00B172;
+p{
+    line-height: 1.6em;
 }
 
 a{
     text-decoration: none;
-    font-size: 1.4em;
     color: black;
 }
 
@@ -78,6 +70,21 @@ a:hover{
     color:#00B172;
     transition: all linear 0.3s;
 }
+
+article > div{
+    height: 120px;
+}
+
+
+
+
+
+
+/* CLASSES */
+
+
+
+/* PRIMEIRA DOBRA */
 
 .landing{
     color: white;
@@ -94,25 +101,28 @@ a:hover{
 .landing p{
     text-align: center;
     width: 50%;
-    font-size: 2em;
-    line-height: 1.5em;
+    font-size: 1.6em;
 }
 
+
+
+/* SEGUNDA DOBRA */
+
 .wOn{
-    margin: 80px auto;
+    margin: 80px auto 136px auto;
     text-align: center;
+    padding: 0 10%;
 }
 
 .wOn div{
     display: flex;
     justify-content: space-around;
-    margin: 80px auto;
-    width: 80%;
-    background-color: chartreuse;
+    margin: 24px auto;
 }
 
 .wOn article{
     width: 33.3%;
+    margin: 0 4%;
 }
 
 .wOn hr{
@@ -121,3 +131,46 @@ a:hover{
     border: 2px solid #00B172;
 }
 
+.wOn img{
+    object-fit: contain;
+    width: 40%;
+}
+
+.wOn h3{
+    color: #00B172;
+}
+
+
+
+/* TERCEIRA DOBRA */
+
+.yeezy{
+    color: white;
+    background-image: url(../images/spotify-icon-white.png);
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: 6em;
+    background-color: #00B172;
+    display: flex;
+    justify-content: center;
+    padding: 8% 10%;
+}
+
+.yeezy img{
+    object-fit: contain;
+    width: 30%;
+}
+
+.yeezy > div > div{
+    width: 40%;
+}
+
+.yeezy hr{
+    width: 478px;
+    margin: 12px 0 56px 0;
+    border: 2px solid white;
+}
+
+.yeezy article{
+    margin-bottom: 48px;
+}
