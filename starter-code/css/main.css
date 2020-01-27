@@ -16,13 +16,13 @@ body{
 }
 
 header{
-    max-width: 1280px;
     width: 100%;
-    margin: 0 auto;
     display: flex;
     justify-content: space-between;
     align-items: center;
     background-color: white;
+    position: fixed;
+    padding: 0 10%;
 }
 
 header > img{ 
@@ -95,7 +95,8 @@ article > div{
     background-image: url(../images/landing.jpg);
     background-size: 100%;
     background-position: center;
-    height: 640px;
+    height: 100vh;
+    padding-top: 7%;
 }
 
 .landing p{
