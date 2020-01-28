@@ -1,8 +1,151 @@
-/*
-Colors:
+/* {
+Text: 1A1A1A;
+Green: #00B172;
+White: #FFF;
 
-Text: 1A1A1A
-Green: #00B172
-White: #FFF
+}*/
 
-*/
+.top-div li {
+    list-style: none;
+    display: inline;
+}
+.top-div a {
+    text-decoration: none;
+    color: black;
+    padding: 5px 10px;
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 22px;
+    font-weight: lighter;
+}
+.top-div {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin: 10px 30px;
+}
+.top-div img {
+    width: 15%;
+    height: 10%;
+    
+}
+
+.intro {
+    background-image: url("../images/landing.jpg");
+    height: 800px;
+    background-size: cover;
+    background-position: bottom;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    color: #FFF;
+    font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+}
+h1 {
+    font-size: 5em;
+    font-weight: 600;
+}
+h2 {
+    font-size: 2em;
+    font-weight: lighter;
+    padding: 0;
+    margin: 0;
+}
+h3 {
+    display: flex;
+    justify-content: center;
+    margin: 0 auto;
+    border-bottom: 4px solid #00B172;
+    width: fit-content;
+    font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+    font-size: 2.3em;
+    font-weight: 600;
+    padding: 30px 0 5px 0;
+}
+.features {
+    display: flex;
+    justify-content: space-evenly;
+    align-items: center;
+    margin: 80px 0;
+
+}
+.features ul{
+    display: flex;
+    flex-direction: row;
+}
+.features li {
+    list-style: none;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    width: 400px
+   
+}
+
+.features li p {
+    margin: auto;
+    width: 60%;
+    text-align: center;
+    font-size: 1.5em;
+    font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+    font-weight: lighter;
+}
+
+.features img{
+    width: 30%;
+    height: 35%;
+
+}
+
+h4 {
+    font-size: 1.75em;
+    font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+    font-weight: 700;
+}
+.features h4 {
+    color: #00B172;
+}
+.App-Use {
+    background-color: #00B172;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin: 30px 25px;
+}
+.App-Use ul {
+    display: flex;
+    list-style: none;
+    flex-direction: column;
+    align-items: flex-start;
+    color: #FFF;
+    margin: 30px 60px;
+}
+.App-Use h3 {
+    border-bottom: 4px solid #FFF;
+    width: fit-content;
+    font-size: 2.5em;
+}
+
+.App-Use p {
+    font-size: 1.5em;
+    font-weight: lighter;
+    width: 60%;
+    font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+     
+}
+.Bottom-Images {
+    display: flex;
+    justify-content: center;
+    flex-direction: row;
+    align-items: center;
+    margin: auto;
+}
+.phone-app img {
+    width: 80%;
+    height: 90%;
+}
+.spotify-white-logo img{
+    width: 30%;
+    height: 30%;
+}
