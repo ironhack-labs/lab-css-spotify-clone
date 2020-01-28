@@ -6,3 +6,187 @@ Green: #00B172
 White: #FFF
 
 */
+*{
+    margin:0;
+    padding: 0;
+}
+nav{
+    display:flex;
+    justify-content: space-between;
+    padding: 0 20px;
+    align-items: center;
+    height: 100px;
+    position: fixed;
+    border: 1px solid black;
+    top: 0;
+    background-color: #FFF;
+    width: 98%;
+
+}
+nav >div{
+    width: 400px;
+}
+nav > div> ul{
+    display:flex;
+    justify-content: space-between;
+
+}
+
+ul > li{
+    list-style: none;
+}
+
+li >a{
+    text-decoration: none;
+}
+
+.logo-spotify{
+    width: 200px;
+}
+
+.section1{
+    height: 800px;
+    background-image: url('../images/landing.jpg');
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    background-size: cover;
+    background-position: center;
+}
+
+.section1 >h2{
+    font-size: 75px;
+    color: white;
+    justify-content: flex-end;
+    width: 750px;
+    text-align: center;
+
+}
+
+.section1 > p{
+    margin-top: 50px;
+    font-size: 30px;
+    word-wrap: break-word;
+    color: white;
+    justify-content: flex-end;
+    width: 650px;
+    text-align: center;
+
+}
+.section2 {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: space-around;
+    height: 650px;
+
+}
+
+.section2 > div {
+    display: flex;
+    flex-direction: row;
+    width: 1480px;
+    align-content: center;
+}
+
+.section2 > div > h1 {
+    font-size: 35px;
+    text-align: center;
+    width: 100%;
+    border-bottom: 3px solid #00B172;
+    padding-bottom: 5px;
+    margin-left:  590px;
+    margin-right:  590px;
+
+}
+
+.section2 > div > div {
+    width: 33%;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    height: 250px;
+    justify-content: space-around;
+
+}
+.section2 > div > div  > h2{
+    font-size: 30px;
+    color: #00B172;
+    font-weight: bold;
+}
+
+.section2 > div > div  > p{
+    font-size: 25px;
+    word-wrap: break-word;
+    width: 50%;
+    text-align: center;
+}
+.section2 > div > div > img{
+    width: 120px;
+}
+
+.section3{
+    display: flex;
+    justify-content: center;
+    height: 1100px;
+    background-color: #00B172;
+    background-image: url('../images/spotify-icon-white.png');
+    background-size: 10%;
+    background-repeat: no-repeat;
+    background-position: center;
+    margin: 50px;
+}
+
+
+
+.div1Section3 {
+    margin-top: 100px;
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+    width: 50%;
+}
+
+
+.div1Section3> h3 {
+    font-size: 45px;
+    color: white;
+    font-weight: bold;
+    margin-left: 120px;
+    margin-bottom: 50px;
+}
+
+.section3 > div > h2 {
+    font-size: 60px;
+    color: white;
+    font-weight: bold;
+    margin-left: 120px;
+    border-bottom: 5px solid white;
+    padding-bottom: 5px;
+    margin-bottom: 80px;
+}
+
+.section3 > div > p {
+    font-size: 35px;
+    color: white;
+    word-wrap: break-word;
+    width: 52%;
+    margin-left: 120px;
+    margin-bottom: 50px;
+}
+
+
+.div2Section3{
+
+    display: flex;
+    flex-direction: column;
+    align-items: flex-end;
+    justify-content: center;
+    width: 50%;
+    margin-top: 50px;
+}
+.div2Section3 > img{
+    width : 480px;
+    margin-right: 120px;
+}
