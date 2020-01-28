@@ -6,3 +6,142 @@ Green: #00B172
 White: #FFF
 
 */
+
+@import url("http://fonts.googleapis.com/css?family=Open+Sans:400,400italic,600,600italic,800,800italic");
+
+body {
+    color: white;
+    margin: 0;
+    font-family: OpenSans;
+
+}
+
+nav {
+    background-size: cover;
+    background-color: #FFF;
+    color: #1A1A1A;
+    display: flex;
+    position: fixed;
+    width: 100%;
+    padding-bottom: 20px;
+    padding-top: 15px;
+    justify-content: space-between;
+    z-index: 100;
+
+}
+
+nav li {
+        display: flex;
+        justify-content: flex-end;
+        padding-right: 30px;
+        padding-top: 10px;
+}
+
+nav ul {
+    display: flex;
+    column-width: 30px;
+    padding-top: 15px;
+}
+
+nav img {
+    height: 70px;
+    align-content: left;
+    padding-left: 10px;
+}
+
+header {
+    background-image: url('/starter-code/images/landing.jpg');
+    background-size: 100% 100%;
+    height: 630px;
+    background-size: cover;
+    background-position: center;
+    text-align: center;
+    background-attachment: fixed;
+}
+
+header h1 {
+    padding-top: 20%;
+    font-size: 72px;
+}
+
+h2 {
+    color: #1A1A1A;
+    text-align: center;
+    text-decoration: underline;
+    text-decoration-color: #00B172;
+    font-size: 36px;
+    padding-top: 60px;
+    padding-bottom: 60px;
+
+}
+
+.bottom h2 {
+    color: #FFF;
+    text-align: center;
+    text-decoration: underline;
+    padding-left: 10px;
+    font-size: 52px;
+    font-weight: 300;
+}
+
+header h3 {
+    font-weight: 100;
+    font-size: 30px;
+}
+
+h4 {
+    color: #00B172;
+    font-weight: 200;
+    font-size: 30px;
+}
+
+p {
+    color: #1A1A1A;
+    font-weight: 100;
+
+}
+
+.thirds {
+    width: 33%;
+    display: inline-table;
+    text-align: center;
+}
+
+.thirds img {
+    height: 100px;
+}
+
+.bottom {
+    background-color: #00B172;
+    background-image: url('/starter-code/images/spotify-icon-white.png');
+    background-position-x: center;
+    background-position-y: center;
+    background-repeat: no-repeat;
+    background-size: 150px;
+    display: flex;
+    justify-content: space-evenly;
+    height: 100%;
+    margin: 20px;
+    padding-left: 30px;
+    padding-bottom: 35px;
+}
+
+.bottom p {
+    width: 75%;
+    color: #FFF;
+    padding-left: 10px;
+    font-size: 22px;
+    font-weight: 100;
+}
+
+.bottom img {
+    padding-top: 100px;
+    padding-left: 75px;
+    width: 75%;
+    margin: auto;
+    margin-left: 60px;
+} 
+
+.fifty div {
+    width: 50%;
+}
