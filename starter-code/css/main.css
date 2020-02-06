@@ -1,8 +1,99 @@
-/*
-Colors:
+body{
+    background-color: white;
+   
+}
 
-Text: 1A1A1A
-Green: #00B172
-White: #FFF
+nav{
+    position: fixed;
+    display: flex;
+    justify-content: space-between;
+    align-content: center;
+    align-items: center;
+    background-color: white;
+    padding-bottom: 10px;
+    padding-top: 10px;
+    z-index: 2;
+    top: 0;
+    
+}
 
-*/
+nav img{
+    width: 10%;
+    
+}
+
+
+nav ul{
+    list-style-type: none;
+    display: flex;
+    justify-content: space-between;
+    align-content: center;
+    align-items: center;
+}
+
+nav a{
+  text-align: center;
+  padding: 14px 16px;
+  text-decoration: none;
+}
+
+
+.hero-section{
+    padding-top: 40px;
+    background-image: url("../images/landing.jpg");
+    height: 600px; 
+    background-position: center; 
+    background-repeat: no-repeat; 
+    background-size: cover; 
+    color: white;
+    position: relative;
+}
+
+.hero-text {
+    position: absolute;
+    top:50%;
+    left:50%;
+    transform: translate(-50%, -50%);
+    text-align: center;
+}
+
+.whats-on h2{
+    font-size: 1em;
+    border-bottom: 2px solid green;
+    text-align:center;
+    width: 20%;
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+
+.whats-on h3{
+    font-size: 1em;
+    color: green;
+    text-align:center;
+
+}
+
+.whats-on p{
+    font-size: 0.8em;
+    text-align:center;
+
+}
+
+
+.whats-on img{
+    width: 20px;
+    height: 40px;
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    width: 10%;
+
+}
+
+.threeElements{
+    display: flex;
+    justify-content: space-evenly;
+    align-items: center;
+}
