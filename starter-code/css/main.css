@@ -1,3 +1,54 @@
+body {
+    margin: 0px;
+    padding: 0px;
+    background-color: red;
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+header {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    height: 80px;
+    width: 100vw;
+    background-color: white;
+    padding: 10px;
+}
+
+header > img {
+    height: 60px;
+}
+
+header > ul {
+    display: flex;
+    list-style-type: none;
+}
+
+header li {
+    margin-right: 5vw;
+}
+
+#main-section {
+    display: flex;
+    background-image: url("../images/landing.jpg");
+    background-size: cover;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    height: 600px;
+    color: white;
+}
+
+#main-section > article {
+    text-align: center;
+    width: 80%;
+}
+
+
+h1 {
+    font-size: 5vw;
+}
+
 /*
 Colors:
 
