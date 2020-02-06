@@ -6,3 +6,135 @@ Green: #00B172
 White: #FFF
 
 */
+@import url('https://fonts.googleapis.com/css?family=Roboto+Condensed:700|Roboto:100,300,700');
+
+html{
+    font-family: Roboto;
+}
+
+nav > div{
+    padding: 0 25px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+   
+}
+nav img{
+    width: 180px;
+}
+nav ul{
+    list-style: none;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    width: 400px;
+    padding-right: 20px;
+}
+
+header{
+    background-image: url("../images/landing.jpg");
+    background-position: 0 0;
+    background-repeat: no-repeat;
+    background-size: cover;
+    height: 650px;
+    padding-top: 50px;
+    position: relative;
+}
+header h1{
+    position: absolute;
+    top: 40%;
+    left: 50%;
+    transform: translate(-50%,-50%);
+    color: #FFF;
+    font-size: 3.5em;
+}
+header p{
+    position: absolute;
+    top: 55%;
+    left: 50%;
+    transform: translate(-50%,-50%);
+    color: #FFF;
+    text-align: center;
+    font-size: 1.5em;
+}
+
+.mid > div{
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+    align-content: center;
+    align-items: center;
+} 
+.mid > div > div{
+    display: flex;
+    justify-content: space-between;
+    align-content: center;
+    align-items: center;
+    width: 1200px;
+}
+.mid article{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-content:center;
+    align-items: center;
+    width: 300px;
+    height: 300px;
+}
+.mid h2{
+    font-size: 3em;
+    border-bottom: 5px solid #00B172;
+}
+.mid img{
+    width: 80px;
+    height: 80px;
+    padding: 20px 0;
+}
+.box h3{
+    color: #00B172;
+    font-size: 2em;
+    margin: 0;
+}
+.box p{
+    width: 300px;
+    height: 80px;
+    text-align: center;
+    font-size: 1.2em;
+    padding-top: 2px;
+}
+.bottom{
+    background-color:#00B172;
+    margin: 80px 80px;
+    height: 800px;
+    position: relative;
+}
+.bottom div{
+    position: absolute;
+    top: 50%;
+    left: 25%;
+    transform: translate(-50%,-50%);
+    color: #FFF;
+    font-size: 1.8em;
+
+}
+.bottom h2{
+    border-bottom: 5px solid #FFF;
+}
+.logo{
+    width: 150px;
+    height: 150px;
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%,-50%);
+
+}
+.app{
+    width: 350px;
+    height: 600px;
+    position: absolute;
+    top: 50%;
+    left: 80%;
+    transform: translate(-50%,-50%);
+}
+
