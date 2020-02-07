@@ -1,31 +1,37 @@
-body {
-    margin: 0px;
-    padding: 0px;
-    background-color: red;
+* {
+    margin: 0;
+    padding: 0;
     font-family: Arial, Helvetica, sans-serif;
+}
+
+body {
+    color: black;
 }
 
 header {
     display: flex;
     justify-content: space-between;
     align-items: center;
-    height: 80px;
+    height: 90px;
     width: 100vw;
     background-color: white;
-    padding: 10px;
+    position: fixed;
 }
 
 header > img {
-    height: 60px;
+    height: 60%;
+    margin-left: 50px;
 }
 
 header > ul {
     display: flex;
     list-style-type: none;
+    margin-right: 50px;
 }
 
 header li {
-    margin-right: 5vw;
+    font-size: 1.2em;
+    margin-left: 50px;
 }
 
 #main-section {
@@ -35,18 +41,125 @@ header li {
     justify-content: center;
     align-items: center;
     flex-direction: column;
-    height: 600px;
+    height: 800px;
     color: white;
 }
 
 #main-section > article {
     text-align: center;
+    font-size: 25px;
+    font-weight: 100;
     width: 80%;
+    padding: 30px;
 }
 
 
 h1 {
-    font-size: 5vw;
+    font-size: 80px;
+    text-align: center;
+}
+
+h2 {
+    font-size: 40px;
+    text-align: center;
+    align-self: center;
+    padding-bottom: 5px;
+    border-bottom: 4px solid #00B172;
+}
+
+h3 {
+    color: #00B172;
+    font-size: 30px;
+    margin: 10px;
+}
+
+h4 {
+    font-size: 35px;
+    font-weight: 400;
+    padding-bottom: 5px;
+    border-bottom: 3px solid white;
+    display: inline-block;
+}
+
+h5 {
+    font-size: 25px;
+    padding: 50px 0px 30px 0px;
+}
+
+#middle-section {
+    width: 100vw;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-evenly;
+    background-color: white;
+    height: 600px;
+    flex-wrap: wrap;
+}
+
+.features-container {
+    display: flex;
+    justify-content: space-evenly;
+    align-items: baseline;
+    background-color:white;
+    height: auto;
+    flex-wrap: wrap;
+}
+
+
+.features-container > div {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    width: 400px;
+}
+
+.features-container p {
+    text-align: center;
+    margin: 10px;
+    font-size: 20px;
+    line-height: 120%;
+    width: 250px;
+}
+
+.icons {
+    width: 140px;
+}
+
+#lower-section {
+    justify-content: space-between;
+    padding: 75px;
+    margin: 0px 30px 30px 30px;
+    color: white;
+    background-color: #00B172;
+    height: 600px;
+    display: flex;
+}
+
+.lower-section-bg {
+    display: flex;
+    background-image: url("../images/spotify-icon-white.png");
+    background-size: 10% auto;
+    background-repeat: no-repeat;
+    background-position: center;
+    align-self: center;
+    align-items: flex-start;
+}
+
+#lower-section p {
+    width: 350px;
+    line-height: 30px;
+    font-size: 20px;
+    font-weight: 100;
+}
+
+.lower-section-img img {
+    max-width: 350px;
+}
+
+.sbd {
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
 }
 
 /*
