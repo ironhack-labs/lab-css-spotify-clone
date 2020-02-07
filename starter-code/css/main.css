@@ -9,19 +9,18 @@ White: #FFF
 body {
     font-family: "Circular", Arial, Helvetica, sans-serif;
     color: black;
+    background-color: white;
 }
 
-.spotify-logo {
+.spotify-logo img {
     float: left;
+    height: 50px;
 }
+
 #nav {
     background-color: white;
-    height: 50px;
+    height: 70px;
     width: auto;
-}
-
-img {
-    height: 50px;
 }
 
 .nav-bar  {
@@ -42,23 +41,133 @@ img {
     color: black;
 }
 
+.nav-bar li a:hover {
+    text-decoration: none;
+    color: #00B172;
+}
+
 h1 {
-    font-size: 3em;
+    font-size: 3.5em;
     color: white;
+}
+
+main {
+    margin: 0 auto;
+    display: flex;
+    flex-direction: column;
 }
 
 #musicforeveryone {
     background-image: url("../images/landing.jpg");
     background-repeat: no-repeat;
     background-size: cover;
-    height: 600px;
-    width: auto;
-    display: flex;
-    flex-direction: column;
+    height: 100vh;
+    width: 100vw;
+    margin: 0 auto;
     justify-content: center;
-    align-content: center;
+    align-items: center;
+    text-align: center;
+    resize: both;
+    overflow: auto;
+}
+.textinmusicforeveryone {
+    margin-top: 30vh;
+    padding: 5%;
 }
 
 .spotify-now-free {
     color: white;
+    font-size: 1.5em;
+}
+
+
+
+.whatsonspotify-box {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+
+}
+
+.icon-columns {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-evenly;
+    align-items: baseline;
+}
+
+.icon-column {
+    margin: 15px;
+    width: 20%;
+}
+
+h2 {
+    font-size: 1.9em;
+    text-decoration-line: underline;
+    text-decoration-style: solid;
+    text-decoration-color: #00B172;
+    /*border-bottom: 2px solid #00B172;*/
+}
+
+h3 {
+    color: #00B172;
+    font-size: 1.5em;
+    font-weight: 700;
+}
+
+.whatsonspotify-par {
+font-size: 1.2em;
+font-weight: normal;
+}
+
+.icon-columns img {
+    height: 60px;
+    width: auto;
+}
+
+#kanyewest {
+    margin: 20px;
+    padding: 45px;
+    background-color: #00B172;
+    background-image: url("../images/spotify-icon-white.png");
+    background-position: center;
+    background-size: 10%;
+    background-repeat: no-repeat;
+    color: white;
+    display: flex;
+    flex-direction: row;
+    align-items: flex-end;
+    justify-content: space-between;
+}
+
+.kanye-textbox {
+
+}
+
+h4 {
+    color: white;
+    font-size: 1.8em;
+    text-decoration-line: underline;
+    text-decoration-style: solid;
+    text-decoration-color: white;
+}
+
+h5 {
+    font-size: 1.5em;
+    font-weight: 700; 
+}
+
+.kanyewest-par {
+    font-size: 1.1em;
+    line-height: 1.5em;
+    max-width: 30vw;
+    min-width: 20vw;
+}
+
+.kanye-imgbox img {
+    height: auto;
+    width: 250px;
+    padding: 20px;
 }
