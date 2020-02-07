@@ -8,13 +8,16 @@ White: #FFF
 */
 
 body {
+    font-family: Circular, Helvetica, Arial, sans-serif;
     margin: 0 auto;
+    font-size: 1em;
+    color: #1a1a1a;
 }
 
  header {
      display: flex;
      justify-content: space-between;
-    /*padding: 10px 5% 10px 5%;*/
+    padding: 10px 0;
     position: fixed;
     height: 75px;
     width: 100%;
@@ -29,6 +32,7 @@ header div {
 
 #logo img {
     max-width: 200px;
+    padding-left: 30px;
 } 
 
 
@@ -37,11 +41,17 @@ nav ul {
     display: flex;
     justify-content: space-between;
     align-items: center;
+    font-size: 1.5em;
+    font-weight: lighter;
 }
 
 nav ul a {
     text-decoration: none;
     color: black;
+}
+
+nav ul li a:last-of-type {
+    padding-right: 30px;
 }
 
 #headerimage {
@@ -51,9 +61,110 @@ nav ul a {
     min-height: 600px;
     display: flex;
     justify-content: center;
+    align-items: center;
+    flex-direction: column;
 }
 
 h1 {
     color: white;
-    font-size: 4em;
+    font-size: 5em;
+    margin: -0.125em 0 -0.125em 0;
+}
+
+#headerimage p {
+    color: white;
+    font-size: 2em;
+    font-weight: lighter;
+    text-align: center;
+    line-height: 1.5;
+}
+
+#whatson {
+    margin: 50px 10% 50px 10%;
+}
+
+.intro-features {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+h2 {
+    text-decoration: underline;
+    text-decoration-color: #00B172;
+    font-size: 2.5em;
+    /*padding-bottom: 1.5em;*/
+}
+
+.container-row {
+    display: flex;
+    justify-content: space-between;
+    align-items: baseline;
+    flex-direction: row;
+}
+.features {
+    width: 27%;
+    text-align: center;
+}
+
+.features img {
+    width: 150px;
+}
+
+h3 {
+    color: #00B172;
+    font-size: 1.825em;
+}
+
+.features p {
+    font-size: 1.5em;
+    font-weight: lighter;
+    line-height: 1.5;
+}
+
+#yeezy {
+    background-color: #00B172;
+    margin: 50px 5% 50px 5%;
+    padding: 5%;
+    color: white;
+    background-image: url(../images/spotify-icon-white.png);
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: 8em;
+    display: flex;
+    flex-direction: row;
+    flex-wrap: nowrap;
+    justify-content: space-between;
+}
+
+#yeezy h2 {
+    margin-top: -0.125em;
+    font-weight: lighter;
+    text-decoration-line: underline;
+    text-decoration-color: white;
+    text-underline-position: below;
+}
+
+#yeezy h3 {
+    color: white;
+    font-size: 1.825em;
+    margin-bottom: -0.125em;
+}
+
+.container-col {
+    display: flex;
+    flex-direction: column;
+}
+
+.container-col p {
+    font-size: 1.5em;
+    line-height: 1.5;
+    font-weight: lighter;
+    width: 66%;
+    align-self: flex-start;
+}
+
+#yeezy img {
+    width: 80%;
+    align-self: flex-end;
 }
