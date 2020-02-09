@@ -7,34 +7,35 @@ White: #FFF
 
 */
 .logo {
-    width:200px;
+    width: 200px;
 
 }
 
 
-nav ul{
-    list-style:none;
-    display:flex;
-    justify-content:space-between
+nav ul {
+    list-style: none;
+    display: flex;
+    justify-content: space-between
 }
 
 nav a {
-    text-decoration:none;
-    color:black;
-    margin-right:25px;
+    text-decoration: none;
+    color: black;
+    margin-right: 25px;
+    font-size: 20Px;
 }
 
 
-nav{
-    display:flex;
-    justify-content:space-between;
+nav {
+    display: flex;
+    justify-content: space-between;
     margin: 22px;
 }
 
-section {
+.hero {
     background-image: url("../images/landing.jpg");
-height: 500px;
-background-size:cover;
+    background-position: center;
+    background-size: cover;
 
 }
 
@@ -44,26 +45,110 @@ h1 {
     letter-spacing: -0.04em;
     line-height: 1.15;
     margin-top: 0;
-    text-align:center;
+    text-align: center;
+
 
 }
 
-h4{
+h4 {
     color: white;
-    text-align:center
+    text-align: center;
+    margin-right: 50px;
+    margin-left: 50px;
 }
 
 body {
-    font-family:Verdana, Geneva, Tahoma, sans-serif
+    font-family: Verdana, Geneva, Tahoma, sans-serif
 }
 
-.hero div {
+.hero>div {
     margin-block-end: 12px;
-    margin-block-start:0px;
+    margin-block-start: 0px;
     margin-bottom: 12px;
-    margin: 25px;
-    margin-top: 50px;
-    padding: 50px;
+    margin: 50px;
+    margin-top: 25px;
+    padding: 175px;
+
+}
+
+h3 {
+    font-color: black;
+    text-align: center;
+    font-size: 30px;
+    text-decoration: underline;
+    text-decoration-color: green;
+
+
+
+}
+
+article {
+    display: block;
+}
+
+.box {
+    align-items: flex-start;
+    justify-content: space-between;
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr;
+    grid-gap: 10px 2em;
+
+}
+
+.box > div {
+    align-self: center;
+    text-align: center;
+}
+
+h5 {
+    color:green;
+    font-size: 25px;
+
+}
+
+.box > div > p {
+    font-size:15px;
+    color: black;
+}
+
+.why {
+    margin: 30px;
+}
+
+.example {
+    background-color: green;
+height: 800px;
+margin: 50px;
+padding-top: 20px;
+padding-left: 60px;
+}
+
+.example > h3 {
+    color: white;
+    text-decoration-color: white;
+    text-align: left;
+}
+
+.example h5, p {
+    color:white;
+}
+
+.container{
+    align-items: flex-start;
+    justify-content: space-between;
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr;
+    grid-gap: 10px 2em;
+    padding-right: 60px;
+}
+
+.why p {
+    color:black
+}
+
+.example img {
+    max-width: 100%;
+    height: 600px;
 
 }
 
