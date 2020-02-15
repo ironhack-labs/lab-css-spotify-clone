@@ -1,3 +1,130 @@
+* {
+    margin: 0px;
+    padding: 0px;
+}
+
+body {
+    background-color: #ffffff;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+}
+
+nav ul {
+    list-style: none;
+    /* Probando con o sin esta línea... */
+    /* display: flex; */
+}
+
+nav ul li {
+    padding: 0 2%;
+    line-height: 6vh;
+    vertical-align: middle;
+}
+
+#logo {
+    height: 40px;
+    display: flex;
+    margin: 7px;
+}
+
+.col {
+    /* float: left; */
+    /* width: 50%; */
+    display: flex;
+}
+
+#HeroImage {
+    background-image: url(../images/landing.jpg);
+    height: 60vh;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    justify-content: center;
+    color: white;
+    text-align: center;
+    
+}
+
+#Title {
+    font-size: 6vh;
+    line-height: 25vh;
+    vertical-align: bottom;
+}
+
+#ValueProposal {
+    font-size: 2vh;
+    font-weight: 100;
+    line-height: 3vh;
+}
+
+.WhatsOn {
+    text-align: center;
+    line-height: 4vh;
+    font-size: 2vh;
+    font-weight: 600;
+    border-bottom: 3px solid #00b172;
+
+}
+
+.OneCol {
+    float: left;
+    width: 33%;
+    text-align: center;
+    margin: 15px 0px;
+}
+
+.ThreeCols::after {
+    content: "";
+    display: table;
+    clear: both;
+}
+
+.OneCol > img {
+    height: 60px;
+}
+
+.GreenH3 {
+    color: #00b172;
+    font-weight: bold;
+    margin: 15px 0px;
+}
+
+.TwoCol {
+    float: left;
+    width: 40%;
+}
+
+.TwoColsRow {
+    background-color: #00b172;
+    color: #fff;
+    margin: 20px;
+    font-size: small;
+}
+
+.TwoColsRow:after{
+    content: "";
+    display: table;
+    clear: both;
+}
+
+#LeftCol div:first-of-type {
+    font-size: x-large;
+    text-decoration: underline;
+}
+
+#LeftCol div:nth-of-type(2n+2) {
+    font-weight: bold;
+    font-size: large;
+    line-height: 8vh;
+}
+
+#LeftCol {
+    margin-left: 30px;
+}
+
+#SpotifyApp {
+    width: 250px;
+    margin: 70px 50px 40px 50px;
+}
 /*
 Colors:
 
