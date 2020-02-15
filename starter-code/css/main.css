@@ -123,6 +123,7 @@ nav ul li a:hover {
 .hero {
     background: var(--color-text, black) url(../images/landing.jpg) no-repeat center;
     background-size: cover;
+    background-attachment: fixed;
     height: calc(100vh - var(--nav-height));
     display: flex;
     flex-direction: column;
@@ -170,5 +171,22 @@ nav ul li a:hover {
 
 .player img,
 .icon img {
-    width: 100%;
+    width: 90%;
+}
+
+/* Animation */
+@keyframes bounce {
+    from {
+        filter: drop-shadow(0px 0px 4px rgba(5, 87, 58, 0.65));
+        transform: scale3d(1, 1, 1);
+    }
+
+    to {
+        filter: drop-shadow(0px 40px 24px rgba(0, 73, 24, 0.35));
+        transform: scale3d(1.15, 1.15, 1.15);
+    }
+}
+
+.icon {
+    animation: bounce 1s cubic-bezier(.92, .01, .34, 1) infinite alternate;
 }
