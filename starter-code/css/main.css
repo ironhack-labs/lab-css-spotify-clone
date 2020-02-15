@@ -6,3 +6,200 @@ Green: #00B172
 White: #FFF
 
 */
+
+* {
+    margin: 0;
+}
+
+body {
+    padding: 20px;
+    width: 100%;
+    margin: 0 auto;
+}
+
+a, h1, h4, h5, h3, p {
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+
+.logo {
+    width: 150px;
+}
+
+header {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 10px 20px;
+    overflow: hidden;
+    position: fixed;
+    top: 0;
+    width: 100%;
+    background-color: #FFF;
+    margin-left: 0;
+}
+
+.links {
+    list-style: none;
+}
+
+.links li {
+    display: inline-block;
+    padding: 0 50px 0 10px;
+}
+
+.links li a {
+    text-decoration: none;
+    color: #1A1A1A;
+    float: right;
+}
+
+.img_background {
+    background-image: url(/starter-code/images/landing.jpg);
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    height: 900px;
+    width: auto;
+    color: #FFF;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+    margin-top: 50px;
+}
+
+.img_background div h1 {
+    font-size: 70px;
+    font-weight: 500;
+    padding-bottom: 20px;
+}
+
+.img_background div p {
+    font-size: 20px;
+    padding: 2px 0;
+    color: #FFF;
+}
+
+.section2 {
+    text-align: center;
+    color: #1A1A1A;
+    font-size: 30px;
+    padding: 30px 0;
+}
+
+.section2 hr {
+    margin: 10px auto 30px auto;
+    width: 20%;
+    border: 2px solid #00B172;
+}
+
+.section_image {
+    width: 100px;
+}
+
+.container {
+    display: flex;
+    justify-content: space-between;
+    flex-direction: row;
+    padding: 30px 120px;
+
+}
+
+.container_column {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    width: 180px;
+    text-align: center;
+}
+
+.container_column h5 {
+    color: #00B172;
+    font-size: 16px;
+    padding: 15px 0;
+    font-weight: 600;
+}
+
+.container2 {
+    background-color: #00B172;
+    margin: 20px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    height: 600px;
+}
+
+.icon {
+    width: 100px;
+}
+
+.app {
+    width: 300px;
+    padding: 80px 60px;
+}
+
+.container2_left {
+    text-align: left;
+    width: 500px;
+    color: #FFF;
+    display: flex;
+    flex-flow: column;
+    margin-left: 10px;
+}
+
+.container2_left div {
+    width: 200px;
+    padding: 10px 10px 10px 60px;
+}
+
+.container2_section h3 {
+    width: 400px;
+    font-size: 25px;
+}
+
+.container2_section hr {
+    margin: 10px auto 30px auto;
+    width: 160%;
+    border: 2px solid #FFF;
+}
+
+.container2_section h4, .container2_section p {
+    padding-top: 20px;
+}
+
+@keyframes increase {
+    0% {
+        transform: scale(1);
+    }
+
+    50% {
+        transform: scale(2);
+    }
+
+    100% {
+        transform: scale(1);
+  {  }
+}
+
+.icon {
+    width: 200px;
+    height: 200px;
+    animation: increase 1s infinite;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
