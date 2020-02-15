@@ -1,0 +1,166 @@
+body {
+    height: auto;
+    width: 80%;
+    margin: 0 auto;
+
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+
+    text-align: center;
+    position: relative;
+    top: 11%;
+
+    border: solid 2px black;
+    margin-bottom: 5%;}
+
+nav {
+    display: block; 
+    width: 80%;
+    background-color: white;
+    
+    position: fixed;
+    top: 0%;
+    z-index: 1;
+
+    border: solid 2px black;}
+
+nav img {
+    width: 150px;
+    height: auto;
+    
+    position: inherit;
+    float: left;}
+
+ul {
+    display:flex;
+    flex-direction: row;
+    justify-content: flex-end;}
+ul li {
+    margin: auto 10px;
+    list-style: none;}
+
+
+header {
+    width: 100%;
+    height: 100%;
+    background-image: url(../starter-code/images/landing.jpg);
+    
+    background-size: cover;
+    background-repeat: no-repeat;
+   
+
+    color: white;
+    padding: 150px 0;
+    font-size: 1.5rem;} 
+
+main {
+    background-color: lightgray;
+    width: 100%;}
+
+main h3 {
+    color: #00B172;}
+
+main p {
+    color: lightslategray;
+}
+    section {
+        display: flex;
+        flex-direction: row;
+        justify-content: space-around;
+
+        width: 100%;}
+    .img {
+        height: 80px;
+        width: auto;}
+
+
+footer {
+    background-color: #00B172;
+    width: 100%;
+    display: flex;}
+footer section {
+
+ display: flex;
+ width: 50%;
+ height: auto;
+ flex-direction: column;
+ justify-content: space-evenly;}
+footer h3, p {
+    margin: 0 15px;
+    text-align: center;}
+
+.spotifyIcon {
+    width: 50px;
+    height: 50px;
+    z-index: 0;  
+
+  
+   ;}
+
+/* //////////////////////////////////// codigo animacion */
+
+.move{
+    animation: spotifyAn ease-in-out 3s;
+    animation-iteration-count: infinite;
+    transform-origin: 50% 50%;
+  }
+  
+  @keyframes spotifyAn{
+
+    0% {transform:  translate(-50px, 10px)  rotate(0deg) ;}
+
+    25% {transform:  translate(-50px, 450px)  rotate(90deg) ;}
+
+    50% {transform:  translate(-500px, 450px)  rotate(180deg) ;}
+
+    75% {transform:  translate(-500px, 10px)  rotate(270deg) ;}
+
+    100% {transform:  translate(-50px, 10px)  rotate(360deg)}
+  }
+  
+  
+
+
+
+
+.app { 
+    height:450px;
+    width: auto;
+    margin: 30px auto;}
+
+
+
+h2 {color: black}
+footer h3 {
+    color: white;
+    font-size: 1.5em;}
+p  {color: aliceblue; }
+h4 {
+    text-decoration:underline;
+    font-size: 1.5em;
+    color: white;}
+
+/* agregar animacion sencilla a una imagen 
+
+@keyframe:  con esto declaras una animacion
+seguido se pone el nombre de la animacion 
+
+@keyframe myAnimación{
+ 0% {propiedades}
+ 50% {prop: transform - cambia la escala de las cosas}
+ 100% {}
+
+ transform: rotate(#degrees)
+ transform: scale(1) (2) es el doble de tamaño
+
+
+ se debe poner animation: myAnimacion  
+ en la prop o letra o img que quieres mover
+
+ propiedad traslate
+ propiedad transform x(#px)
+}
+jugar con valores de tiempo
+*/
