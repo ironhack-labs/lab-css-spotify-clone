@@ -1,8 +1,219 @@
 /*
 Colors:
-
 Text: 1A1A1A
 Green: #00B172
 White: #FFF
-
 */
+
+* {
+  margin: 0;
+  padding: 0;
+  font-family: sans-serif;
+}
+
+/* */
+h1 {
+  font-size: 70px;
+  color: #fff;
+  text-align: center;
+  font-weight: bold;
+  margin-top: 40px;
+}
+h4 {
+  color: #ffffff;
+  letter-spacing: 0.4px;
+  justify-content: center;
+  text-align: center;
+  font-weight: lighter;
+}
+
+h2 {
+  color: black;
+  text-align: center;
+  font-weight: bold;
+  text-decoration: underline, #00b172;
+  padding-bottom: 10px;
+}
+
+/* Nav bar */
+.nav-bar {
+  display: flex;
+  position: fixed;
+  background-color: #fff;
+  padding: 12px 0px;
+  justify-content: space-between;
+  width: 100%;
+  z-index: 90;
+}
+
+.nav-bar-ul {
+  width: 500px;
+  padding: 15px;
+  display: flex;
+  justify-content: space-evenly;
+  font-weight: lighter;
+}
+
+.nav-bar-item {
+  font-size: 25px;
+}
+
+.spotify-logo {
+  float: left;
+  width: 200px;
+}
+
+ul {
+  list-style: none;
+}
+
+/* Section 1 */
+
+.background-image {
+  background-image: url(../images/landing.jpg);
+  background-repeat: no-repeat;
+  background-position: center;
+  background-size: cover;
+  height: 120vh;
+}
+.landing-text {
+  margin: auto;
+  padding: 200px;
+  font-size: 30px;
+}
+
+/* Section 2 */
+
+.cont-underline {
+  margin: 30px;
+}
+
+.container {
+  padding: 30px 30px;
+  display: flex;
+  position: relative;
+  justify-content: space-between;
+}
+
+.first-image {
+  width: 150px;
+  margin-left: 50px;
+}
+
+.second-image {
+  width: 150px;
+  margin-left: 50px;
+}
+
+.third-image {
+  width: 150px;
+  margin-left: 50px;
+}
+
+span {
+  font-size: 30px;
+  font-weight: bold;
+  text-align: center;
+  justify-content: center;
+  padding: 5px;
+}
+
+.underline {
+  border-bottom: 4px solid #00b172;
+  margin-left: 450px;
+}
+
+h3 {
+  color: #00b172;
+  letter-spacing: 0.6px;
+  padding: 30px;
+  text-align: center;
+  font-size: 25px;
+}
+
+#songs {
+  text-align: center;
+  font-size: x-large;
+  font-weight: lighter;
+}
+
+#songs-dos {
+  text-align: center;
+  font-size: x-large;
+  font-weight: lighter;
+}
+
+#songs-tres {
+  text-align: center;
+  font-size: x-large;
+  font-weight: lighter;
+}
+
+.music {
+  font-size: 1.2em;
+  padding: 10px;
+}
+
+.music img {
+  width: 125px;
+}
+
+/* Bottom Section */
+
+.bottom-container {
+  background-color: #00b172;
+  margin: 40px;
+  padding: 55px;
+  display: flex;
+  position: relative;
+  justify-content: space-between;
+}
+
+.logo {
+  position: absolute;
+  top: 250px;
+  right: 580px;
+}
+
+#bottom-span {
+  color: #fff;
+  border-bottom: 4px solid #fff;
+  font-size: 30px;
+}
+
+.modified-letter {
+  color: #fff;
+  font-size: 30px;
+}
+
+.white-text {
+  color: #fff;
+}
+
+.bottom-p {
+  width: 350px;
+  font-weight: 220;
+  font-size: 22px;
+  margin: 18px;
+}
+
+.title-space {
+  margin-bottom: 40px;
+}
+/* Kany west image */
+
+.artist-image {
+  width: 320px;
+  padding: 30px;
+}
+
+/* Logo */
+
+.bottom-logo {
+  width: 120px;
+}
+
+.bottom-logo:hover {
+  transform: rotate(360deg);
+  transition: 1.6s ease all;
+}
