@@ -6,3 +6,154 @@ Green: #00B172
 White: #FFF
 
 */
+
+@import url('https://fonts.googleapis.com/css?family=Roboto+Condensed:700|Roboto:100,300,700');
+
+body {
+    font-family: 'Roboto';
+}
+
+header {
+    position: fixed;
+    top: 0;
+    height: 4em;
+    background-color: white;
+    width: 100%;
+    display: flex;
+    justify-content: space-between;
+}
+
+header img {
+    width: 10em;
+    margin: 0.5em;
+}
+
+header ul {
+    margin: 1em;
+    list-style: none;
+    display: flex;
+}
+
+header ul li{
+    margin: 0.5em 1em;
+}
+
+header ul li a{
+    text-decoration: none;
+    color: black;
+    font-weight: bold;
+}
+
+#filler {
+    height: 7em;
+}
+
+#content {
+    margin-top: 4em;
+}
+
+#cover {
+    background-image: url("../images/landing.jpg");
+    color: white;
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: 0 0;
+    height: 650px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+#cover h1{
+    font-size: 4.5em;
+}
+
+#cover p{
+    font-size: 2em;
+    text-align: center;
+    width: 55%;
+}
+
+#description {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+#description > h2{
+    font-size: 2em;
+    border-bottom-style: solid;
+    border-bottom-width: 4px;
+    border-bottom-color: #00B172;
+}
+
+#description > div{
+    width: 85%;
+    display: flex;
+    justify-content: space-between;
+}
+
+.box{
+    width: 25%;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-evenly;
+    align-items: center;
+    text-align: center;
+}
+
+.box img{
+    height: 10em;
+}
+
+.box h2{
+    color: #00B172;
+    font-size: 2em;
+}
+
+.box div{
+    height: 10em;
+    font-size: 1.5em;
+}
+
+footer{
+    background-color: #00B172;
+    padding: 50px;
+    color: white;
+    display: flex;
+    align-items: center;
+}
+
+footer > div{
+    display: flex;
+    flex-direction: column;
+}
+
+footer > img{
+    width: 40em;
+    margin-top: 4.5em;
+}
+
+footer > div > h2 {
+    text-decoration: underline;
+    font-size: 2.8em;
+}
+
+#left{
+    display: flex;
+    align-items: center;
+}
+
+#left div{
+    display: flex;
+    flex-direction: column;
+    width: 50%;
+    font-size: 1.8em;
+}
+
+#spotify-icon{
+    width: 10em;
+    height: 10em;
+    padding-left: 100px;
+}
