@@ -1,44 +1,137 @@
 <!DOCTYPE html>
 <html lang="en">
-  <head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <meta http-equiv="X-UA-Compatible" content="ie=edge">
-    <title>Spotify</title>
-  </head>
-  <body>
-    Premium Discover Help Download
 
-    Music for everyone.
-    Spotify is now free on mobile, tablet and computer.
-    Listen to the right music, wherever you are.
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <meta http-equiv="X-UA-Compatible" content="ie=edge">
+  <title>Spotify</title>
+  <link rel="stylesheet" href="./css/main.css">
+  <link href="https://fonts.googleapis.com/css?family=Roboto&display=swap" rel="stylesheet">
 
-    What’s on Spotify?
+</head>
 
-    Millions of Songs
-    There are millions of
-    songs on Spotify
+<body>
 
-    HD Music
-    Listen to music as if you
-    were listening live
+  <!--   start of header -->
+  <header>
+    <nav>
+      <div class="nav-bar">
+        <img class="logo-img" src="./images/spotify-logo.png" alt="Spotify Logo">
+        <div class="flex-ul">
+          <ul>
+            <a href="#">Premium</a>
+            <a href="#">Discover</a>
+            <a href="#">Help</a>
+            <a href="#">Download</a>
+        </div>
+        </ul>
+      </div>
 
-    Stream Everywhere
-    Stream music on your
-    smartphone, tablet or
-    computer
+    </nav>
+  </header>
+  <!--   end of header-->
 
-    It’s as yeezy as Kanye West.
-    Search
-    Know what you want to listen to?
-    Just search and hit play.
-    Browse
-    Check out the latest charts,
-    brand new releases and great
-    playlists for right now.
-    Discover
-    Enjoy new music every Monday
-    with your own personal playlist.
-    Or sit back and enjoy Radio.
-  </body>
+  <main>
+    <!-- start of section music-for-everyone -->
+    <section class="music-for-everyone bg">
+      <div class="center-text">
+      <h1 class="white-text">Music for everyone.</h1>
+      <p class="white-text">
+        Spotify is now free on mobile, tablet and computer.<br>
+        Listen to the right music, wherever you are.
+      </p>
+    </div>
+    </section>
+    <!--     end of section music-for-everyone -->
+
+    <!-- start of section whats-on-spotity -->
+    <section class="whats-on-spotify">
+      <div class="linha">
+      <h2 class="black-text">What’s on Spotify?</h2>
+    </div>
+
+      <!-- start of div millions of songs -->
+      <div class="create-flex-row">
+        <div class="container">
+          <img class="icon-size" src="./images/music-icon.png" alt="Music Icon">
+          <span class="green-text">
+            <h3>Millions of Songs</h3>
+          </span>
+          <p>
+            There are millions of
+            songs on Spotify
+          </p>
+        </div>
+        <!-- end of div millions of songs -->
+
+        <!-- start of div hd music -->
+        <div class="container">
+          <img class="icon-size" src="./images/high-quality-icon.png" alt="High Quality Icon">
+          <span class="green-text">
+            <h3>HD Music</h3>
+          </span>
+          <p>
+            Listen to music as if you
+            were listening live
+          </p>
+        </div>
+        <!-- end of div hd music -->
+
+        <!-- start of div stream everywhere -->
+        <div class="container">
+          <img class="icon-size" src="./images/devices-icon.png" alt="Devices Icon">
+          <span class="green-text">
+            <h3>Stream Everywhere</h3>
+          </span>
+          <p>
+            Stream music on your
+            smartphone, tablet or
+            computer
+          </p>
+        </div>
+        <!-- end of div stream everywhere -->
+      </div>
+    </section>
+    <!-- end of section whats-on-spotity -->
+
+    <!-- start of section kanye-west -->
+    <section class="kanye-west kanye-west-bg">
+      <div class="create-flex-row2">
+        <div>
+          <h2 class="white-text">It’s as yeezy as Kanye West.</h2>
+          <span class="white-text">
+            <h3>Search</h3>
+          </span>
+          <p class="white-text">
+            Know what you want to listen to?<br>
+            Just search and hit play.
+          </p>
+          <span class="white-text">
+            <h3>Browse</h3>
+          </span>
+          <p class="white-text">
+            Check out the latest charts,<br>
+            brand new releases and great<br>
+            playlists for right now.
+          </p>
+          <span class="white-text">
+            <h3>Discover</h3>
+          </span>
+          <p class="white-text">
+            Enjoy new music every Monday<br>
+            with your own personal playlist.<br>
+            Or sit back and enjoy Radio.
+          </p>
+        </div>
+
+        <img class="kanye-img" src="./images/spotify-app.jpg" alt="Spotify App">
+      
+      </div>
+    </section>
+    <!-- end of section kanye-west -->
+  </main>
+
+</body>
+
 </html>
