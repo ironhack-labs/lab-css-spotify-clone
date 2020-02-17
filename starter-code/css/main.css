@@ -1,8 +1,196 @@
-/*
-Colors:
+@import url('https://fonts.googleapis.com/css?family=Montserrat&display=swap');
 
-Text: 1A1A1A
-Green: #00B172
-White: #FFF
+* {
+    font-family: 'Montserrat', sans-serif;
+}
 
-*/
+/*HEADER STYLE*/
+
+.header {
+    display: flex;
+	flex-direction: row;
+	justify-content: space-between;
+    align-items: center;
+    background-color: white;
+    height: 90px;
+    padding-left: 30px;
+}
+
+.header img {
+    width: 180px;
+}
+
+.header ul {
+    display: flex;
+	flex-direction: row;
+	flex-wrap: nowrap;
+	justify-content: space-around;
+	align-items: center;
+    align-content: flex-end;
+    padding-right: 30px;
+    width: 400px;
+    font-size: 20px;
+}
+
+.header ul li {
+    list-style-type: none;
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+.header ul li a {
+    text-decoration: none;
+    color: black;
+    padding-left: 10px;
+    padding-right: 10px;
+}
+
+
+/*SECTION 1 STYLE*/
+.section1 {
+    background-image: url("../images/landing.jpg");
+    height: 900px;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    position: relative;
+}
+
+.section1text {
+    display: flex;
+	flex-direction: column;
+	justify-content: center;
+	align-items: center;
+    align-content: center;
+    color: white;
+}
+
+h1 {
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 70px;
+    margin-bottom: 20px;
+    margin-top: 0px;
+}
+
+h2 {
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 28px;
+    margin-bottom: 10px;
+    margin-top: 0px;
+    font-weight: lighter;
+}
+
+.section1, .section1text {
+    display: flex;
+	flex-direction: column;
+	justify-content: center;
+	align-items: center;
+    align-content: center;
+}
+
+
+/*SECTION 2 STYLE*/
+h3 {
+    color: black;
+    font-size: 30px;
+}
+
+.greenh3 {
+    color: #00B172;
+}
+
+.section2 {
+    display: flex;
+	flex-direction: column;
+	flex-wrap: nowrap;
+	justify-content: center;
+	align-items: center;
+    align-content: center;
+    padding-bottom: 100px;
+    padding-top: 40px;
+}
+
+.middlesection {
+    display: flex;
+	flex-direction: row;
+	flex-wrap: nowrap;
+	justify-content: space-around;
+	align-items: center;
+    align-content: space-around;
+    width: 100vw;
+}
+
+.middlesection p {
+    text-align: center;
+}
+
+.midsec1 {
+    display: flex;
+	flex-direction: column;
+	flex-wrap: nowrap;
+	justify-content: center;
+	align-items: center;
+	align-content: center;
+}
+
+.midsec2 {
+    display: flex;
+	flex-direction: column;
+	flex-wrap: nowrap;
+	justify-content: center;
+	align-items: center;
+	align-content: center;
+}
+
+.midsec3 {
+    display: flex;
+	flex-direction: column;
+	flex-wrap: nowrap;
+	justify-content: center;
+	align-items: center;
+	align-content: center;
+}
+
+.imgmidsec {
+    height: 100px;
+}
+
+#redborder {
+    border-bottom: 4px solid #00B172;
+}
+
+
+/*SECTION 3 STYLE*/
+.section3 {
+    background-color: #00B172;
+    color: white;
+    display: flex;
+	flex-direction: row;
+	flex-wrap: nowrap;
+	justify-content: space-around;
+	align-items: center;
+    align-content: space-around;
+    height: 700px;  
+}
+
+.section3header {
+    color: white;
+    border-bottom: 2px solid white;
+    width: 410px;
+}
+
+#spotifylogosec4 {
+    width: 120px;
+}
+
+#kanyewest {
+    width: 350px;
+}
+
+.sec3text {
+    display: flex;
+	flex-direction: column;
+	flex-wrap: nowrap;
+	justify-content: center;
+	align-items: flex-start;
+	align-content: space-around;
+}
