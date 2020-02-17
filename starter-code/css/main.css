@@ -1,8 +1,173 @@
 /*
 Colors:
 
-Text: 1A1A1A
+Text: #1A1A1A
 Green: #00B172
 White: #FFF
 
 */
+
+
+@import url('https://fonts.googleapis.com/css?family=Montserrat&display=swap');
+
+
+* {
+    margin: 0;
+    padding: 0;
+    font-family: 'Montserrat', sans-serif;
+}
+
+/* HEADER */
+
+header {
+    position: fixed;
+    display: flex;
+    justify-content: space-between;
+    background-color:#FFF;
+    width: auto;
+    align-items: center;
+    width: 100%;
+    z-index: 1;
+    padding: 15px;
+}
+
+.spotify-logo {
+    width: 130px;
+}
+
+ul {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+    width: 400px;
+    list-style-type: none;
+    margin-right: 20px;
+    font-weight: bolder;
+}
+
+/* SECTION 1 */
+
+.music-for-everyone {
+    background-image: url("../images/landing.jpg");
+    background-position: 0, 0;
+    background-repeat: no-repeat;
+    padding-top: 50px;
+    background-size: cover;
+    position: relative;
+    height: 650px;
+    z-index: 0;
+    color: #FFF;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+    padding: 20px;
+}
+
+h1 {
+    font-size: 4em;
+    padding: 40px
+;}
+
+
+/* SECTION 2 */
+
+h2 {
+    margin-bottom: 50px;
+    text-align: center;
+    text-decoration: underline #00B172;
+    font-size: 2em;
+}
+
+.whats-on-spotify {
+    padding: 40px;
+    margin: 30px 0;
+    color: #1A1A1A;
+}
+
+.features img {
+    width: 100px;
+}
+
+.features h3 {
+    padding: 20px;
+    text-align: center;
+    color: #00B172;
+    font-weight: bolder;
+}
+
+.features {
+    display: flex;
+    justify-content: space-around;
+    text-align: center;
+    align-items: baseline;
+}
+
+.features > div {
+    width: 350px;
+}
+
+/* SECTION 3 */
+.green-section {
+    background-color: #00B172;
+    background-image: url("../images/spotify-icon-white.png");
+    background-position: 0, 0;
+    background-repeat: no-repeat;
+    background-size: 10%;
+    background-position: center;
+    color: #FFF;
+    display: flex;
+    padding: 40px;
+    font-size: 1.5em;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 100px;
+    margin: 0 40px 40px 40px;
+}
+
+.left-side {
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    text-align: left;
+    padding: 40px;
+}
+
+.left-side h2, h3 {
+    padding: 20px 0;
+    text-align: left;
+}
+
+.left-side h2 {
+    border-bottom: 2px solid #FFF;
+}
+
+.text {
+    text-align: left;
+}
+
+
+.green-section img {
+    width: 350px;
+    padding: -10px;
+}
+
+.green-section p {
+    font-size: 1em;
+}
+
+.rows {
+    display: flex;
+}
+
+.rows img {
+    width: 200px;
+    padding: 10px;
+    justify-content: center;
+}
+
+.text {
+    padding-right: 100px;
+    width: 400px;
+}
