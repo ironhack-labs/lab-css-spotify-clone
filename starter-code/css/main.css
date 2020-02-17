@@ -1,8 +1,145 @@
-/*
-Colors:
 
-Text: 1A1A1A
-Green: #00B172
-White: #FFF
+@import url('https://fonts.googleapis.com/css?family=Roboto:100,300,400,500,700,900&display=swap');
 
-*/
+
+body {
+ font-family: 'Roboto', sans-serif;
+ margin: 0px;
+ 
+}
+
+header > div {
+    padding: 0 40px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+nav {
+    width: 500px;
+    padding: 10px 0;
+}
+
+nav ul {
+    list-style: none;
+    display: flex;
+    justify-content: space-between;
+    align-content: flex-end;
+    font-weight:bold;
+    font-size: 23px;
+    font-weight: 300;
+}
+
+.head img {
+width: 200px;;
+}
+
+.banner {
+height: 800px;
+background-image: url(../images/landing.jpg);
+background-size: cover;
+display: flex;
+align-items: center;
+justify-content: center;
+text-align: center;
+
+}
+
+.banner h1 {
+    font-size: 80px;
+    color: #FFF;
+    font-weight: 500;
+    line-height: 30px;
+
+}
+
+.banner p {
+    font-size: 30px;
+    color: #FFF;
+    width: 700px;
+    font-weight: 300;
+}
+
+h2 {
+font-size: 40px;
+font-weight: 500;
+padding-top: 12px;
+border-bottom: 4px solid #00B172;
+padding-bottom: 8px;
+
+}
+
+.h2 {
+display: flex;
+justify-content: center;
+}
+
+.on-spotify img {
+    width: 130px;
+}
+#img-align {
+    padding-bottom: 20px;
+}
+
+.on-spotify-divs {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-evenly;
+    text-align: center;
+    padding-top: 60px;
+    
+
+}
+.on-spotify-divs h3 {
+    font-size: 30px;
+    color: #00B172;
+}
+
+.on-spotify-divs p {
+    width: 300px;
+    font-size: 25px;
+    font-weight: 200;
+    padding-bottom: 80px;
+
+}
+
+.kanye {
+    background-color: #00B172;
+    margin: 0 30px 40px;
+    padding: 30px 100px;
+    color: white;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    background-image: url("../images/spotify-icon-white.png");
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: 140px;
+
+}
+
+.kanye h2 {
+text-align: left;
+padding-bottom: 7px;
+border-bottom: 4px solid #ffffff;
+
+
+}
+
+.kanye h3 {
+    font-size: 30px;
+    padding-top: 30px;
+
+}
+
+.kanye p {
+    font-size: 23px;
+    width: 400px;
+    font-weight: 300;
+    padding-bottom: 25px;
+}
+
+.kanye img {
+    width: 350px;
+    padding-top: 100px;
+}
