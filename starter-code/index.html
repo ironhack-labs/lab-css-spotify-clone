@@ -4,25 +4,27 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <link rel="stylesheet" href="./css/main.css">
     <title>Spotify</title>
   </head>
   <body>
+    <nav class="nav_bar">
+      <img class="spotify_logo" src="./images/spotify-logo.png" alt="spotify logo">
+      <a href="#">Premium</a>
+      <a href="#">Discover</a>
+      <a href="#">Help</a>
+      <a href="#">Download</a>
+    </nav>
     <header class="main_header">
-      <nav class="nav_bar">
-        <img src="./images/spotify-logo.png.png" alt="spotify logo">
-        <a href="#">Premium</a>
-        <a href="#">Discover</a>
-        <a href="#">Help</a>
-        <a href="#">Download</a>
-      </nav>
-      
-      <h1>Music for everyone.</h1>
-      <p>Spotify is now free on mobile, tablet and computer.
-        Listen to the right music, wherever you are.</p>
+      <div class="banner_content_container">
+        <h1>Music for everyone.</h1>
+        <p>Spotify is now free on mobile, tablet and computer.</p>
+      <p>Listen to the right music, wherever you are.</p>
+      </div>
     </header>
     <section class="whats_on_section">
       <h2 class="whats_on_title">What’s on Spotify?</h2>
-      <div class="whats_on_icon_containers">
+      <div class="whats_on_icons_container">
         <div class="whats_on_item">
           <img src="./images/music-icon.png" alt="speaker icon">
           <h3 class="whats_on_item_title">Millions of Songs</h3>
@@ -44,13 +46,18 @@
         </div>
       </div>
     </section>
+
+    <!-- Kanye West section -->
     <section class="kanye_west_section">
+      
       <h2 class="kanye_west_title">It’s as yeezy as Kanye West.</h2>
-      <div class="kanye_west_section_items_container">
-        <div class="kanye_west_section_item">
-          <h3>Search</h3>
-          <p>Know what you want to listen to?
-            Just search and hit play.</p>
+      
+      <div class="all_items_container">
+        <div class="kanye_west_section_items_container">
+          <div class="kanye_west_section_item">
+            <h3>Search</h3>
+            <p>Know what you want to listen to?
+              Just search and hit play.</p>
         </div>
         <div class="kanye_west_section_item">
           <h3>Browse</h3>
@@ -64,8 +71,10 @@
             with your own personal playlist.
             Or sit back and enjoy Radio.</p>
         </div>
+        </div>
+        <img src="./images/spotify-icon-white.png" alt="spotify white icon">
+        <img src="./images/spotify-app.jpg" alt="spotify app on Kanye West page">
       </div>
-      <img src="./images/spotify-app.jpg" alt="spotify app on Kanye West page">
     </section>
   </body>
 </html>
