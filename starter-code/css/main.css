@@ -6,3 +6,37 @@ Green: #00B172
 White: #FFF
 
 */
+
+body {
+    margin: 0;
+    padding: 0;
+    font-family: Arial, Helvetica, sans-serif;
+    position: relative;
+}
+
+nav {
+    position: fixed;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    border: 1px solid black;
+    width: 100vw;
+    height: 14vh;
+}
+nav img {
+    height: 90px;
+    position: relative;
+    left: 4%;
+}
+
+nav ul {
+    display: flex;
+    justify-content: space-evenly;
+    width: 40%;
+    list-style-type: none;
+}
+
+nav ul li {
+    font-size: 32px;
+    font-weight: 10;
+}
