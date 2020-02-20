@@ -6,3 +6,139 @@ Green: #00B172
 White: #FFF
 
 */
+
+
+
+nav {
+    display: flex;
+    position: fixed;  
+    justify-content: space-between;
+    align-items: center;
+}
+
+nav img {
+    width: 15%;
+}
+
+li {
+    display: inline;
+    font-size: 30px;
+    padding: 8px 12px;
+}
+
+li a {
+    text-decoration: none;
+    color: black;
+}
+
+.background-image {
+    background-image: url("../images/landing.jpg") ;
+    background-size: cover;
+    height: 4000px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+.background-image h1 {
+    text-align: center;
+    color: white;
+    font-size: 50px;
+}
+
+.background-image p {
+    text-align: center;
+    color: white
+}
+
+
+
+.what-spotify {
+    text-align: center;
+    text-decoration: underline;
+    text-decoration-color: #00B172;
+    font-size: 30px;
+}
+
+.three-icons {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+    color: black;
+}
+
+.green-paragraph {
+    color: #00B172;
+    font-weight: bolder;
+}
+
+.three-icons-each img { 
+    height: auto; 
+    width: auto; 
+    max-width: 100px; 
+    max-height: 100px;
+}
+
+.three-icons-each {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    color: black;
+    font-size: 50px;
+    text-align: center;
+}
+
+.bottom {
+    background-color: #00B172;
+    color: white;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+    align-items: center;
+}
+
+.bottom-left {
+    height: 1200px;   
+    width: 50%;
+}
+
+.bottom-left-up {
+    height: 10%;
+    font-size: 25px;
+    text-decoration: underline;
+    text-decoration-color: white;
+    margin-left: 200px;
+}
+    
+.bottom-left-down {
+    height: 85%;
+    width:70%;
+    font-size: 30px;
+    margin-left: 200px;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-around;
+}
+
+
+.bottom-left-down h3 {
+    font-size: 40px;
+}
+
+.bottom-left-down p{
+    color: #FFF;
+    font-weight: 100;
+}
+
+.bottom-center {
+    position: absolute;
+    
+}
+
+.bottom-center img {
+    height: auto; 
+    width: auto; 
+    max-width: 300px; 
+    max-height: 300px;
+}
