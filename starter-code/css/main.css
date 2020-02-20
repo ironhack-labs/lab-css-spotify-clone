@@ -6,3 +6,57 @@ Green: #00B172
 White: #FFF
 
 */
+
+body,
+html {
+  margin: 0;
+  padding: 0;
+}
+body {
+  font-family: Verdana, Geneva, Tahoma, sans-serif;
+  box-sizing: border-box;
+}
+
+header {
+  display: flex;
+  justify-content: space-evenly;
+  align-items: center;
+  border: 1px solid red;
+  background-color: #ffffff;
+  padding: 15px 0;
+}
+
+.logo-container {
+  /* border: 1px solid red; */
+  width: 35%;
+}
+
+header img.logo-img {
+  /* border: 1px solid red; */
+  margin-top: 15px;
+  width: 35%;
+}
+
+.nav-bar {
+  /* border: 1px solid red; */
+  display: flex;
+  /* margin-bottom: 15px; */
+  justify-content: flex-end;
+  width: 55%;
+}
+
+ul {
+  /* border: 1px solid red; */
+  display: flex;
+  flex-direction: row;
+  list-style: none;
+  margin-top: 15px;
+  justify-content: space-between;
+  align-items: center;
+  width: 55%;
+}
+
+ul li a {
+  font-size: 1.25rem;
+  text-decoration: none;
+}
