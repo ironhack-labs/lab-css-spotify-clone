@@ -14,34 +14,66 @@ body {
 
 header {
     position: fixed;
+    top: 0;
+    left: 0;
 }
 
 .nav-bar {
     display: flex;
+    align-items: center;
     justify-content: space-between;
-    padding: 0 2%;
+    padding: 0 2px;
     height: 45px;
+    width: 100%;
+    background-color: #FFF;
+    
 }
 
-.nav-bar img {
-    width:
- border-box;
-    padding: 0;
+.nav-bar .spotify-logo {
+    width: 10%;
 }
 
+.nav-bar .spotify-logo img {
+    width: 100%;
+}
 
 .nav-bar ul {
     display: flex;
     justify-items: space-between;
     list-style-type: none;
-    width: 50%;
+    width: 100%;
 }
 
+.nav-bar ul a {
+    text-decoration: none;
+    font-size: 0.8rem;
+}
 
 .spacer {
-
+    height: 45px;
 }
 
 .title-background-img{
-
+    display: flex;
+    background-image: url(../images/landing.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    height: 90vh;
+    width: 100%;
+    margin: 0;
 }
+
+.features {
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+}
+
+.features h
+.features .features-container img {
+    width: 10%;
+}
+
