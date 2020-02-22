@@ -24,7 +24,7 @@ img {
 
 
 header {
-    padding: 0 25px;
+    padding: 10px 25px;
     display: flex;
     justify-content: space-between;
     align-items: center;
@@ -34,28 +34,25 @@ header {
     box-sizing: border-box;
 }
 
-/* header img {
-    width: 126px;
-} */
-
 .logo {
-    width: 126px;
+    width: 160px;
 }
 
 nav {
     width: 40%;
 }
 
-.nav {
+.navbar {
     list-style: none;
     display: flex;
     justify-content: space-between;
     align-items: center;
 }
 
-.nav__link a {
+.navbar__link a {
     text-decoration: none;
     color: black;
+    font-size: 1.1em;
 }
 
 /* ---- */
@@ -73,26 +70,14 @@ nav {
 
 .mainContainer h1 {
     color: white;
-    font-size: 3em;
+    font-size: 4em;
+    margin-bottom: 20px;
 }
 
 .mainContainer p {
     margin: 0;
     font-size: 1.5em;
 }
-
-/* main{
-    width: 50%;
-    display: flex;
-} */
-
-/* .center-container{
-    display: flex;
-    margin-left: auto;
-    margin-right: auto;
-    flex-direction: column;
-    align-items: center;
-}  */
 
 /* ---- */
 
@@ -110,6 +95,7 @@ nav {
     border-bottom: 4px solid #01b171;
     display: inline-block;
     line-height: 2;
+    margin-bottom: 12vh;
 }
 
 .whatsOn h4 {
@@ -139,12 +125,26 @@ nav {
     justify-content: space-between;
     padding: 80px;
     position: relative;
-
+    align-items: center;
 }
-
 
 .newMusic__info {
     color: white;
+}
+
+.newMusic h2{
+    font-size: 2em;
+    border-bottom: 4px solid white;
+    line-height: 2;
+    display: inline-block;
+}
+
+.newMusic h4{
+    font-size: 1.5em;
+}
+
+.newMusic p {
+    font-size: 1.1em;
 }
 
 .newMusic__info-list{
@@ -157,7 +157,7 @@ nav {
 
 .newMusic__logo{
     position: absolute;
-    max-width: 110px;
+    max-width: 130px;
     top: 50%;
     left: 0;
     right: 0;
