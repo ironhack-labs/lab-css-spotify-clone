@@ -1,8 +1,171 @@
 /*
 Colors:
-
 Text: 1A1A1A
 Green: #00B172
 White: #FFF
-
 */
+
+@import url(https://fonts.googleapis.com/css?family=Open+Sans:300,600);
+
+
+body {
+    color: #1A1A1A;
+    margin: 0;
+}
+
+html {
+    font-family: 'Open Sans', sans-serif;
+}
+img {
+    width: 100%;
+}
+
+/* ---- */
+
+
+header {
+    padding: 0 25px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    position: fixed;
+    background-color: white;
+    width: 100%;
+    box-sizing: border-box;
+}
+
+/* header img {
+    width: 126px;
+} */
+
+.logo {
+    width: 126px;
+}
+
+nav {
+    width: 40%;
+}
+
+.nav {
+    list-style: none;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.nav__link a {
+    text-decoration: none;
+    color: black;
+}
+
+/* ---- */
+.mainContainer {
+    background-image: url(../images/landing.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+    display: flex;
+    height: 100vh;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    color: white;
+}
+
+.mainContainer h1 {
+    color: white;
+    font-size: 3em;
+}
+
+.mainContainer p {
+    margin: 0;
+    font-size: 1.5em;
+}
+
+/* main{
+    width: 50%;
+    display: flex;
+} */
+
+/* .center-container{
+    display: flex;
+    margin-left: auto;
+    margin-right: auto;
+    flex-direction: column;
+    align-items: center;
+}  */
+
+/* ---- */
+
+.whatsOn{
+    text-align: center;
+}
+.whatsOn img {
+    width: auto;
+    height: 80px;
+    align-self: center;
+}
+
+.whatsOn h2 {
+    font-size: 2em;
+    border-bottom: 4px solid #01b171;
+    display: inline-block;
+    line-height: 2;
+}
+
+.whatsOn h4 {
+    color: #00B172; 
+    font-size: 1.3em;
+}
+
+.whatsOn p{
+    font-size: 1.1em;
+}
+.whatsOn article {
+    text-align: center;
+    width: 30%;
+}
+
+.whatsOn__articles {
+    display: flex;
+    justify-content: space-around;
+}
+
+/* ---- */
+
+.newMusic {
+    background-color: #00B172;
+    margin: 22px;
+    display: flex;
+    justify-content: space-between;
+    padding: 80px;
+    position: relative;
+
+}
+
+
+.newMusic__info {
+    color: white;
+}
+
+.newMusic__info-list{
+    width: 50%;
+}
+
+.newMusic__img {
+    flex-basis: 322px;
+}
+
+.newMusic__logo{
+    position: absolute;
+    max-width: 110px;
+    top: 50%;
+    left: 0;
+    right: 0;
+    margin: 0 auto;
+    margin-top: -55px;
+}
+
+
+/* * {
+    border: 1px solid #ddd;
+} */
