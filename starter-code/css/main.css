@@ -5,4 +5,988 @@ Text: 1A1A1A
 Green: #00B172
 White: #FFF
 
+
+@import url(//db.onlinewebfonts.com/c/02d8f1743ede250c7c9865f1574d7cc6?family=Circular+Book);
+@font-face {font-family: "Circular Book"; src: url("//db.onlinewebfonts.com/t/02d8f1743ede250c7c9865f1574d7cc6.eot"); src: url("//db.onlinewebfonts.com/t/02d8f1743ede250c7c9865f1574d7cc6.eot?#iefix") format("embedded-opentype"), url("//db.onlinewebfonts.com/t/02d8f1743ede250c7c9865f1574d7cc6.woff2") format("woff2"), url("//db.onlinewebfonts.com/t/02d8f1743ede250c7c9865f1574d7cc6.woff") format("woff"), url("//db.onlinewebfonts.com/t/02d8f1743ede250c7c9865f1574d7cc6.ttf") format("truetype"), url("//db.onlinewebfonts.com/t/02d8f1743ede250c7c9865f1574d7cc6.svg#Circular Book") format("svg"); }
+<link href="//db.onlinewebfonts.com/c/02d8f1743ede250c7c9865f1574d7cc6?family=Circular+Book" rel="stylesheet" type="text/css"/>
 */
+
+@import url(//db.onlinewebfonts.com/c/3a47f5f06b5484abfeee9eac90348a9c?family=Gotham);
+@font-face {font-family: "Gotham"; src: url("//db.onlinewebfonts.com/t/3a47f5f06b5484abfeee9eac90348a9c.eot"); src: url("//db.onlinewebfonts.com/t/3a47f5f06b5484abfeee9eac90348a9c.eot?#iefix") format("embedded-opentype"), url("//db.onlinewebfonts.com/t/3a47f5f06b5484abfeee9eac90348a9c.woff2") format("woff2"), url("//db.onlinewebfonts.com/t/3a47f5f06b5484abfeee9eac90348a9c.woff") format("woff"), url("//db.onlinewebfonts.com/t/3a47f5f06b5484abfeee9eac90348a9c.ttf") format("truetype"), url("//db.onlinewebfonts.com/t/3a47f5f06b5484abfeee9eac90348a9c.svg#Gotham") format("svg"); }
+
+@import url(//db.onlinewebfonts.com/c/148e86df40fa7388623e43992fc5abb9?family=URW+Geometric+W15);
+@font-face {font-family: "URW Geometric W15"; src: url("//db.onlinewebfonts.com/t/148e86df40fa7388623e43992fc5abb9.eot"); src: url("//db.onlinewebfonts.com/t/148e86df40fa7388623e43992fc5abb9.eot?#iefix") format("embedded-opentype"), url("//db.onlinewebfonts.com/t/148e86df40fa7388623e43992fc5abb9.woff2") format("woff2"), url("//db.onlinewebfonts.com/t/148e86df40fa7388623e43992fc5abb9.woff") format("woff"), url("//db.onlinewebfonts.com/t/148e86df40fa7388623e43992fc5abb9.ttf") format("truetype"), url("//db.onlinewebfonts.com/t/148e86df40fa7388623e43992fc5abb9.svg#URW Geometric W15") format("svg"); }
+
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: Gotham, 'Arial Narrow', Arial, sans-serif
+    
+}
+
+
+
+.navbar {
+    position: fixed;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    flex-wrap: wrap;
+    width: 100%;
+    z-index: 5;
+    margin-top: -100px;
+    height: 100px;
+    background-color: white;
+    
+    
+}
+
+.navbar img {
+    align-items: flex-start;
+    width: 200px;
+    position: relative;
+    vertical-align: top;
+    margin: 10px 20px 0px 30px;
+    background-position: top;
+    
+}
+
+nav ul {
+    display: flex;
+    justify-content: space-between;
+    list-style: none;
+    flex-wrap: wrap;
+    font-size: 20px;
+    font-style: normal;
+    margin-left: 350px;
+    margin-right: 30px;
+    position: relative;
+    background-position: top;
+    
+}
+
+li {
+    align-items: flex-end;
+    padding: 0px 15px;
+    font-family: URW Geometric W15,Arial, Helvetica, sans-serif;
+    font-size: 25px;
+
+}
+
+.large-image {
+    background-image: url("../images/landing.jpg");
+    background-size: cover;
+    width: 100%;
+    background-position: center;
+    height: 768px;
+    position: relative;
+    margin-top: 90px;
+    z-index: 4;
+}
+
+.large-image h1 {
+    color: #fff;
+    font-size: 69px;
+    position: relative;
+    left: 50%;
+    top:41%;
+    width: 100%;
+    text-align: center;
+    transform: translate(-50%, -50%);
+    padding-left: 25px;
+}
+
+.large-image p {
+    color: #fff;
+    font-size: 24px;
+    position: relative;
+    left: 50%;
+    top:46%;
+    width: 45%;
+    text-align: center;
+    transform: translate(-50%, -50%);
+    line-height: 1.5em;
+    font-family: URW Geometric W15,Arial, Helvetica, sans-serif;
+    font-size: 25px;
+    font-weight: bold;
+    letter-spacing: 1px;
+}
+
+.whats-on {
+    
+    position: relative;
+    height: 350px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    flex-wrap: wrap;
+    width: 100%;
+    margin-bottom: 14%;
+}
+
+.whats-on > h2{
+    
+    position: absolute;
+    height: 40px;
+    align-items: center;
+    justify-content: center;
+    top: 14%;
+    border-bottom: 4px solid #3FAC65;
+    width: 325px;
+    font-size: 34px;
+    
+
+    
+}
+
+
+.images-and-letters {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-evenly;
+    align-content: right;
+    align-items: right;
+    width: 100%;
+    
+   
+    
+
+}
+
+.articulos {
+    position: relative;
+    top:185px;
+    height: 400px;
+    width: 20%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    
+
+    
+}
+
+.articulos img{
+    width: 119px;
+    height: 101px;
+    align-items: center;
+    align-self: center;
+    text-align: center; 
+    vertical-align: top;
+    background-color: white;
+
+}
+
+
+
+.articulos h2{
+    position: relative;
+    height: 60px;
+    color: #3FAC65;
+    font-size: 28px;
+    padding-top: 15px;
+    align-items: center;
+    align-self: center;
+    text-align: center;
+    margin-right: 35px;
+    letter-spacing: -0.5px;
+    width: 300px;
+   
+}
+
+.articulos p{
+    position: relative;
+    height: 120px;
+    font-size: 25px;
+    align-items: center;
+    align-self: center;
+    text-align: center;
+    width: 280px;
+    letter-spacing: -1px;
+    padding-top: 7px;
+    font-family: URW Geometric W15,Arial, Helvetica, sans-serif;
+    letter-spacing: 0.7px;
+}
+
+
+.green-section {
+    height: 100%;
+    position: relative;
+    background-color: #3FAC65;
+    width: 100%;
+    border: 35px solid white;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+}
+
+
+
+
+.green-left {
+    height: 600px;
+    width: 25%;
+    margin: 80px 80px;
+    position: relative;
+    
+}
+
+.green-left h2{
+    height: 20px;
+    width: 483px;
+    color: white;
+    font-size: 34px;
+    font-weight: lighter;
+    border-bottom: 4px solid white;
+    padding-bottom: 40px;
+    position: relative;
+    
+}
+
+.green-left h3{
+    height: 50px;
+    width: 320px;
+    color: white;
+    margin-top: 60px;
+    font-size: 28px;
+}
+
+.green-left p{
+    height: 50px;
+    width: 320px;
+    color: white;
+    font-family: URW Geometric W15,Arial, Helvetica, sans-serif;
+    font-size: 24px;
+    position: relative;
+}
+
+.img-central {
+    position: absolute;
+    text-align: center;
+    justify-content: center;
+    justify-self: center;
+    justify-items: center;
+    vertical-align: middle;
+    transform: translate(0%,85%);
+    
+    width: 100%;
+    height: 50%;
+ }
+
+ .img-central > img {
+    justify-content: center;
+    text-align: center;
+    width: 130px;
+    height: 130px;
+    position: relative;
+    align-content: center;
+    flex-direction: column;
+    justify-content: center;
+    justify-self: center;
+    justify-items: center;
+ }
+
+
+
+
+
+.green-right {
+    
+    height: 700px;
+    width: 360px;
+    align-items: flex-end;
+    justify-self: left;
+    margin-right: 70px;
+    
+
+
+}
+
+.green-right img{
+    
+    height: 604px;
+    width: 340px;
+    margin-right: 0px;
+    margin-top: 95px;
+    
+    
+}
+
+.search {
+    position: relative;
+    height:20%;
+}
+
+.browse {
+    position: relative;
+    height:20%;
+
+
+}
+.discover {
+    height:20%;
+    position: relative;
+    margin-top: 70px;
+}
+
+
+
+
+/*RESOLUCIÓN LAPTOP NORMAL*/
+
+
+@media (max-width: 1068px) {
+    li {
+        align-items: flex-end;
+        padding: 25px 15px;
+        font-family: URW Geometric W15,Arial, Helvetica, sans-serif;
+        font-size: 20px;
+        text-align: center;
+    
+    } 
+    
+
+    .whats-on > h2{
+    
+        position: absolute;
+        height: 40px;
+        align-items: center;
+        justify-content: center;
+        top: 14%;
+        border-bottom: 4px solid #3FAC65;
+        width: 325px;
+        font-size: 32px;
+        
+    
+        
+    }
+
+
+    .articulos {
+        position: relative;
+        top:185px;
+        height: 400px;
+        width: 18%;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        flex-direction: column;
+        
+    
+        
+    }
+
+    .articulos img{
+        width: 106px;
+        height: 90px;
+        align-items: center;
+        align-self: center;
+        text-align: center; 
+        vertical-align: top;
+        background-color: white;
+    
+    }
+    
+    
+    
+    .articulos h2{
+        position: relative;
+        height: 60px;
+        color: #3FAC65;
+        font-size: 26px;
+        padding-top: 15px;
+        align-items: center;
+        align-self: center;
+        text-align: center;
+        margin-right: 35px;
+        letter-spacing: -0.5px;
+        width: 300px;
+       
+    }
+    
+    .articulos p{
+        position: relative;
+        height: 120px;
+        font-size: 23px;
+        align-items: center;
+        align-self: center;
+        text-align: center;
+        width: 280px;
+        letter-spacing: -1px;
+        padding-top: 7px;
+        font-family: URW Geometric W15,Arial, Helvetica, sans-serif;
+        letter-spacing: 0.7px;
+    }
+    
+    .green-left {
+        height: 600px;
+        width: 20%;
+        margin: 80px 80px;
+        position: relative;
+        
+    }
+    
+    .green-left h2{
+        height: 20px;
+        width: 458px;
+        color: white;
+        font-size: 32px;
+        font-weight: lighter;
+        border-bottom: 4px solid white;
+        padding-bottom: 40px;
+        position: relative;
+        
+    }
+    
+    .green-left h3{
+        height: 50px;
+        width: 320px;
+        color: white;
+        margin-top: 60px;
+        font-size: 26px;
+    }
+    
+    .green-left p{
+        height: 50px;
+        width: 320px;
+        color: white;
+        font-family: URW Geometric W15,Arial, Helvetica, sans-serif;
+        font-size: 22px;
+        position: relative;
+    }
+
+
+    .img-central > img {
+        justify-content: center;
+        text-align: center;
+        width: 120px;
+        height: 120px;
+        position: relative;
+        align-content: center;
+        flex-direction: column;
+        justify-content: center;
+        justify-self: center;
+        justify-items: center;
+     }
+
+     .green-right img{
+    
+        height: 550px;
+        width: 310px;
+        margin-right: 0px;
+        margin-top: 130px;
+        margin-left: 60px;
+        
+        
+    }
+
+
+
+
+}
+
+
+
+/*RESOLUCIÓN TABLET*/
+
+
+@media (max-width: 768px) {
+
+
+
+
+    .navbar {
+        position: fixed;
+        display: flex;
+        justify-content: space-between;
+        align-items: center;
+        flex-wrap: wrap;
+        width: 100%;
+        z-index: 5;
+        margin-top: -140px;
+        
+        background-color: white;
+        
+        
+    }
+    
+    .navbar img {
+        align-items: center;
+        width: 180px;
+        position: relative;
+        vertical-align: top;
+        margin: 68px 20px 0px 30px;
+        background-position: top;
+        
+    }
+    
+    nav ul {
+        display: flex;
+        justify-content: space-between;
+        list-style: none;
+        flex-wrap: wrap;
+        font-style: normal;
+        margin-left: 400px;
+        margin-right: 0px;
+        margin-bottom: 3000px;
+        position: relative;
+        background-position: top;
+        height: 150px;
+        align-items: flex-start;
+        
+    }
+
+
+    li {
+        align-items: flex-start;
+        padding: 0px 20px 60px 0px ;
+        font-family: URW Geometric W15,Arial, Helvetica, sans-serif;
+        font-size: 22px;
+        text-align: center;
+        transform: translate(0px,-44px);
+        
+    
+    } 
+    
+    .large-image {
+        background-image: url("../images/landing.jpg");
+        background-size: cover;
+        width: 100%;
+        background-position: center;
+        height: 680px;
+        position: relative;
+        margin-top: 90px;
+        z-index: 4;
+    }
+    
+    .large-image h1 {
+        color: #fff;
+        font-size: 55px;
+        position: relative;
+        left: 50%;
+        top:41%;
+        width: 100%;
+        text-align: center;
+        transform: translate(-50%, -50%);
+        padding-left: 25px;
+    }
+    
+    .large-image p {
+        color: #fff;
+        font-size: 18px;
+        position: relative;
+        left: 50%;
+        top:51%;
+        width: 45%;
+        text-align: center;
+        transform: translate(-50%, -50%);
+        line-height: 1.5em;
+        font-family: URW Geometric W15,Arial, Helvetica, sans-serif;
+        font-size: 25px;
+        font-weight: bold;
+        letter-spacing: 1px;
+    }
+
+    .whats-on > h2{
+    
+        position: absolute;
+        height: 40px;
+        align-items: center;
+        justify-content: center;
+        top: 14%;
+        border-bottom: 4px solid #3FAC65;
+        width: 325px;
+        font-size: 30px;
+        
+    
+        
+    }
+
+
+    .articulos {
+        position: relative;
+        top:140px;
+        height: 400px;
+        width: 18%;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        flex-direction: column;
+        
+    
+        
+    }
+
+    .articulos img{
+        width: 94px;
+        height: 80px;
+        align-items: center;
+        align-self: center;
+        text-align: center; 
+        vertical-align: top;
+        background-color: white;
+    
+    }
+    
+    
+    
+    .articulos h2{
+        position: relative;
+        height: 60px;
+        color: #3FAC65;
+        font-size: 24px;
+        padding-top: 15px;
+        align-items: center;
+        align-self: center;
+        text-align: center;
+        margin-right: 35px;
+        letter-spacing: -0.5px;
+        width: 300px;
+       
+    }
+    
+    .articulos p{
+        position: relative;
+        height: 120px;
+        font-size: 21px;
+        align-items: center;
+        align-self: center;
+        text-align: center;
+        width: 280px;
+        letter-spacing: -1px;
+        padding-top: 7px;
+        font-family: URW Geometric W15,Arial, Helvetica, sans-serif;
+        letter-spacing: 0.7px;
+    }
+    
+    .green-left {
+        height: 600px;
+        width: 10%;
+        margin: 80px 80px;
+        position: relative;
+        
+    }
+    
+    .green-left h2{
+        height: 20px;
+        width: 355px;
+        color: white;
+        font-size: 25px;
+        font-weight: lighter;
+        border-bottom: 4px solid white;
+        padding-bottom: 40px;
+        position: relative;
+        
+    }
+    
+    .green-left h3{
+        height: 50px;
+        width: 320px;
+        color: white;
+        margin-top: 60px;
+        font-size: 23px;
+    }
+    
+    .green-left p{
+        height: 50px;
+        width: 180px;
+        color: white;
+        font-family: URW Geometric W15,Arial, Helvetica, sans-serif;
+        font-size: 20px;
+        position: relative;
+    }
+
+
+    .img-central > img {
+        justify-content: center;
+        text-align: center;
+        width: 75px;
+        height: 75px;
+        position: relative;
+        align-content: center;
+        flex-direction: column;
+        justify-content: center;
+        justify-self: center;
+        justify-items: center;
+     }
+
+     .green-right img{
+    
+        height: 373px;
+        width: 210px;
+        margin-right: 0px;
+        margin-top: 205px;
+        margin-left: 175px;
+        
+        
+    }
+
+
+
+
+}
+
+
+
+
+
+
+/*RESOLUCIÓN MOVIL GRANDE*/
+
+
+@media (max-width: 425px) {
+
+
+
+
+    .navbar {
+        position: fixed;
+        display: flex;
+        justify-content: space-between;
+        align-items: center;
+        flex-wrap: wrap;
+        width: 100%;
+        z-index: 5;
+        margin-top: -120px;
+        height: 120px;
+        background-color: white;
+        
+        
+    }
+    
+    .navbar img {
+        align-items: center;
+        width: 140px;
+        position: relative;
+        vertical-align: top;
+        margin: 65px 20px 0px 30px;
+        background-position: top;
+        
+    }
+    
+    nav ul {
+        display: flex;
+        justify-content: space-between;
+        list-style: none;
+        flex-wrap: wrap;
+        font-style: normal;
+        margin-left: 240px;
+        margin-right: 0px;
+        margin-bottom: 3000px;
+        position: relative;
+        background-position: top;
+        height: 150px;
+        align-items: flex-start;
+        
+    }
+
+
+    li {
+        align-items: flex-start;
+        padding: 0px 20px 60px 0px ;
+        font-family: URW Geometric W15,Arial, Helvetica, sans-serif;
+        font-size: 20px;
+        text-align: center;
+        transform: translate(0px,-35px);
+        
+    
+    } 
+    
+    .large-image {
+        background-image: url("../images/landing.jpg");
+        background-size: cover;
+        width: 620px;
+        background-position: center;
+        height: 500px;
+        position: relative;
+        margin-top: 70px;
+        z-index: 4;
+        transform: translate(0%, -0%);
+    }
+    
+    .large-image h1 {
+        color: #fff;
+        font-size: 35px;
+        position: relative;
+        left: 50%;
+        top:38%;
+        width: 100%;
+        text-align: center;
+        transform: translate(-50%, -50%);
+        padding-left: 25px;
+    }
+    
+    .large-image p {
+        color: #fff;
+        font-size: 18px;
+        position: relative;
+        left: 50%;
+        top:51%;
+        width: 45%;
+        text-align: center;
+        transform: translate(-50%, -50%);
+        line-height: 1.5em;
+        font-family: URW Geometric W15,Arial, Helvetica, sans-serif;
+        font-size: 20px;
+        font-weight: bold;
+        
+    }
+
+    .whats-on > h2{
+    
+        position: absolute;
+        height: 40px;
+        align-items: center;
+        justify-content: center;
+        top: 14%;
+        border-bottom: 4px solid #3FAC65;
+        width: 235px;
+        font-size: 24px;
+        margin-left: 90px;
+        
+    
+        
+    }
+
+
+    .articulos {
+        position: relative;
+        top:100px;
+        height: 400px;
+        width: 38%;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        flex-direction: column;
+        transform: translate(100px,0);
+        
+    
+        
+    }
+
+    .articulos img{
+        width: 76px;
+        height: 65px;
+        align-items: center;
+        align-self: center;
+        text-align: center; 
+        vertical-align: top;
+        background-color: white;
+    
+    }
+    
+    
+    
+    .articulos h2{
+        position: relative;
+        height: 60px;
+        color: #3FAC65;
+        font-size: 16px;
+        padding-top: 15px;
+        align-items: center;
+        align-self: center;
+        text-align: center;
+        margin-right: 35px;
+        letter-spacing: -0.5px;
+        width: 300px;
+       
+    }
+    
+    .articulos p{
+        position: relative;
+        height: 120px;
+        font-size: 15px;
+        align-items: center;
+        align-self: center;
+        text-align: center;
+        width: 140px;
+        letter-spacing: -1px;
+        padding-top: 7px;
+        font-family: URW Geometric W15,Arial, Helvetica, sans-serif;
+        letter-spacing: 0.7px;
+    }
+    
+    .green-section {
+        height: 100%;
+        position: relative;
+        background-color: #3FAC65;
+        width: 620px;
+        border: 35px solid white;
+        display: flex;
+        flex-direction: row;
+        justify-content: space-between;
+        
+    }
+
+    .green-left {
+        height: 600px;
+        width: 10%;
+        margin: 80px 80px;
+        position: relative;
+        
+    }
+    
+    .green-left h2{
+        height: 20px;
+        width: 300px;
+        color: white;
+        font-size: 21px;
+        font-weight: lighter;
+        border-bottom: 4px solid white;
+        padding-bottom: 30px;
+        position: relative;
+        
+    }
+    
+    .green-left h3{
+        height: 50px;
+        width: 320px;
+        color: white;
+        margin-top: 40px;
+        font-size: 21px;
+        
+    }
+    
+    .green-left p{
+        height: 50px;
+        width: 150px;
+        color: white;
+        font-family: URW Geometric W15,Arial, Helvetica, sans-serif;
+        font-size: 20px;
+        position: relative;
+        transform: translate(0px,-25px);
+    }
+
+
+    .img-central > img {
+        justify-content: center;
+        text-align: center;
+        width: 60px;
+        height: 60px;
+        position: relative;
+        align-content: center;
+        flex-direction: column;
+        justify-content: center;
+        justify-self: center;
+        justify-items: center;
+     }
+
+     .green-right img{
+    
+        height: 355px;
+        width: 200px;
+        margin-right: 0px;
+        margin-top: 205px;
+        margin-left: 100px;
+        
+        
+    }
+
+
+
+
+}
