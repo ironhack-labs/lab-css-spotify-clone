@@ -146,30 +146,29 @@ header {
     background-color: #00B172;
     color: #FFF;
     display: flex;
-    align-items: center;
-    padding: 7%;
+    justify-content: space-between;
+    padding: 5%;
 }
 
-.info > div{
-    width: 33.3%;
-}
 
 .info article{
-    width: 33.3%
+    width: 50%;
 }
 
 .info .text{
-
+    width: 70%;
 }
 
-.info .text h2{
+.info .info-title h2{
+    width: 75%;
     border-bottom: 3px solid #FFF;
     padding-bottom: 2px;
 }
 
 .info .info-img-logo {
-    display: flex;
-    justify-content: center;
+    position: absolute;
+    left: 50%;
+    padding-top: 15%; 
 }
 .info .info-img-logo img{
     width: 10vw;
@@ -177,4 +176,10 @@ header {
 
 .info .info-img-app img{
     width: 25vw;
+}
+
+.info .info-img-app{
+    width: 50%;
+    display: flex;
+    justify-content: flex-end;
 }
