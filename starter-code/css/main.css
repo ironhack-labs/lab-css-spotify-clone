@@ -13,6 +13,7 @@ White: #FFF
     padding: 0;
     font-size: 18px;
     color: #1A1A1A;
+    z-index:1;
 }
 
 h1 {
@@ -40,6 +41,9 @@ header {
     background-color: #FFF;
     position: fixed;
     top: 0;
+    left:0;
+    right:0;
+    z-index:3;
     width: 100%;
     font-weight: lighter;
 }
@@ -120,6 +124,9 @@ header > div {
 
 .app-presentation{
     position: relative;
+    left:0;
+    right:0;
+    z-index:2;
     background-color: #00b172;
     margin: 5%;
     padding: 5%;
@@ -169,4 +176,5 @@ header > div {
     left: 45%;
     top: 45%;
     height: 140px;
+    z-index:0;
 }
