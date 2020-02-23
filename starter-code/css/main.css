@@ -6,3 +6,155 @@ Green: #00B172
 White: #FFF
 
 */
+
+/* RESET */
+
+* {
+	margin: 0;
+	padding: 0;
+	border: 0;
+    font-size: 100%;
+}
+
+ol, ul {
+	list-style: none;
+}
+
+a {
+    text-decoration: none;
+}
+
+/* BASE */
+* {
+    color: #1A1A1A;
+    font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+    font-size: 15px;
+    font-weight: 100;
+    letter-spacing: 0.02em;
+    word-spacing: 0.05em;
+    line-height: 1.4em;
+}
+
+section {
+    padding: 60px 0;
+}
+
+h1 {
+    font-weight: 500;
+    font-size: 3em;
+    line-height: 2em;
+}
+
+h2 {
+    font-weight: 500;
+    border-bottom: 3px solid #00B172;
+    font-size: 2em;
+    margin-bottom: 5%;
+}
+
+h3 {
+    font-weight: 800;
+    line-height: 3.5em;
+    color: #00B172;
+}
+
+/* Navbar */
+
+.navbar {
+    position: fixed;
+    background-color: white;
+    padding: 0 20px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    height: 60px;
+
+}
+
+.logo {
+    width: 13%;
+}
+
+nav {
+    width: 700px;
+}
+  
+nav ul {
+    list-style: none;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+/* Section1: Cover */
+
+.cover {
+    background-image: url(/lab-css-spotify-clone/starter-code/images/landing.jpg);
+    background-size: cover;
+    height: 600px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+}
+
+.cover p, h1 {
+    color: white;
+}
+
+/* flex para apartados */
+.element-column {
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.element-row {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-evenly;
+}
+
+/* Section2 */
+/* tamaño de los iconos section 2 */
+.section2 article img {
+    height: 60px;
+}
+/* ancho de las columnas de section 2 */
+.section2 article {
+    align-items: center;
+    width: 20%;
+    text-align: center;
+}
+
+/* Section 3 */
+.background-green {
+    background-color: #00B172;
+    padding: 40px;
+}
+
+ /* tamaño img section 3 */
+.logo-white img {
+    width: 60px;
+}
+
+#app-photo img {
+    width: 40%;
+}
+
+.element1 * {
+    color: white;
+    border-color: white;
+}
+
+.element1 article {
+    width: 40%;
+}
+
+.element-row.background-green {
+    align-items: center;
+    justify-content: center;
+}
+
+/* Falta centrar la ultima sección */
