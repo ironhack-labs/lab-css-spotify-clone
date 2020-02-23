@@ -8,8 +8,9 @@ White: #FFF
 */
 
 body {
-    font-family: sans-serif;
+    font-family: Helvetica, sans-serif;
     font-size: 20px;
+    margin: 0;
 }
 
 header {
@@ -22,15 +23,15 @@ header {
     display: flex;
     align-items: center;
     justify-content: space-between;
-    padding: 0 2px;
+    padding: 2vh;
     height: 45px;
     width: 100%;
     background-color: #FFF;
-    
 }
 
 .nav-bar .spotify-logo {
     width: 10%;
+    padding-left: 2vh;
 }
 
 .nav-bar .spotify-logo img {
@@ -42,15 +43,26 @@ header {
     justify-items: space-between;
     list-style-type: none;
     width: 100%;
+    padding: 0 5vh;
+}
+
+.nav-bar ul > li {
+    padding: 2px 1.7vw;
 }
 
 .nav-bar ul a {
     text-decoration: none;
     font-size: 0.8rem;
+    color: black;
 }
 
 .spacer {
-    height: 45px;
+    height: 43px;
+    width: 100%;
+    position: absolute;
+    top: 0;
+    left: 0;
+
 }
 
 .title-background-img{
@@ -61,19 +73,108 @@ header {
     justify-content: center;
     align-items: center;
     flex-direction: column;
-    height: 90vh;
+    height: 100vh;
     width: 100%;
     margin: 0;
+    color: #FFF;
+    text-align: center;
+}
+
+.title-background-img h1{
+    font-size: 3.5rem;
+    margin: 1.5vh 0;
 }
 
 .features {
     display: flex;
-    align-items: center;
     flex-direction: column;
+    align-items: center;
 }
 
-.features h
-.features .features-container img {
-    width: 10%;
+.features h2 {
+    border-bottom: 3px solid #00B172;
+    padding-bottom: 2px;
 }
 
+.features .ftr-container {
+    display: flex;
+    align-items: center;
+    justify-content: space-evenly;
+    margin: 1%;
+    padding: 1vh 3vh;
+}
+
+.features .ftr-container .ftr {
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    align-content: center;
+    justify-content: center;
+    align-items: center;
+    width: 33.3%;
+    height: 10%;
+    text-align: center;
+}
+
+.features .ftr-container .ftr-img {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    width: 40%;
+    padding: 2% 5%;
+}
+
+.features .ftr-container .ftr-img img {
+    width: 70%;
+}
+
+.features .ftr-container .ftr-img img[src*="high"] {
+    padding: 5px 0;
+}
+
+.features .ftr-container .ftr p {
+    padding: 2vw 3vw;
+    font-weight: lighter;
+}
+
+.features .ftr-container .ftr h3 {
+    color: #00B172;
+}
+
+.info {
+    margin: 5vh;
+    background-color: #00B172;
+    color: #FFF;
+    display: flex;
+    align-items: center;
+    padding: 7%;
+}
+
+.info > div{
+    width: 33.3%;
+}
+
+.info article{
+    width: 33.3%
+}
+
+.info .text{
+
+}
+
+.info .text h2{
+    border-bottom: 3px solid #FFF;
+    padding-bottom: 2px;
+}
+
+.info .info-img-logo {
+    display: flex;
+    justify-content: center;
+}
+.info .info-img-logo img{
+    width: 10vw;
+}
+
+.info .info-img-app img{
+    width: 25vw;
+}
