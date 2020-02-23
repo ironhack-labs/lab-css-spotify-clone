@@ -1,0 +1,227 @@
+@import url('https://fonts.googleapis.com/css?family=Poppins');
+
+body {
+  font-family: 'Poppins';
+  margin: 0;
+  padding: 0;
+  font-size: 20x;
+}
+
+h1{
+    font-size: 5em;
+    font-weight: bolder;
+    margin: 0 auto;
+    text-align: center;
+}
+
+h2{
+    font-size: 2.5em;
+    font-style: italic;
+    font-weight: bold;
+    text-align: center;
+    background-color: rgba(255,204,53,.4);
+    transform: skew(9deg,0deg);
+}
+
+h3{
+    font-size: 1.1em;
+    font-weight: bold;
+    color:  #ED1C24;
+}
+
+header > div {
+    padding: 0 25px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    border-bottom: 1px solid lightgray;
+}
+
+header img {
+    width: 50px;
+    margin: auto 0;
+}
+
+nav {
+    width: 600px;
+}
+
+nav  ul {
+    list-style: none;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: center;
+}
+
+
+nav a {
+    text-decoration: none;
+    color: black;
+}
+
+.blackHeart {
+    width: 20px;
+    margin-right: 1rem;
+}
+
+header input{
+    width: 95%;
+    height: 50px;
+    margin: 0;
+    background-color: rgba(0,0,0,0);
+    border: 0 solid;
+}
+
+input:focus {
+    outline:none;
+}
+
+.search{
+    width: 80%;
+    background-color: rgba(0,0,0,.05);
+    display: flex;
+    justify-content: space-between
+}
+
+button {
+    border: 0px solid;
+    color: white;
+    background-color:#fb3e44;
+    padding: 18px;
+    margin: 0, auto;
+  }
+
+.search img {
+    width: 20px;
+    margin-left: 1rem;
+    margin-right: 1rem;
+}
+
+.joinButton {
+    border: 1px solid black;
+    color: black;
+    background-color: white;
+    padding: 5px 20px;
+    text-decoration: none;
+}
+
+.loginButton {
+    border: 0px;
+    color: black;
+    background-color: white;
+    padding: 5px 20px;
+    text-decoration: none;
+}
+
+.JoinOrLogIn{
+    display:flex;
+    justify-content: space-between;
+}
+
+.buildThings{
+    height: 600px;
+    background-color: rgba(232,217,217,.3);
+    display: flex;
+    flex-direction: column;
+    justify-content: space-evenly;
+    align-items: center;
+}
+
+
+.text{
+    font-size: 1.2em;
+    Position: relative;
+    bottom: 20px;
+    width: 500px;
+    text-align: center;
+    margin: 0 auto;
+}
+
+.seePlans {
+    Position: relative;
+    bottom: 20px;
+    font-size: 1.2em;
+    font-weight: bold;
+    color: white;
+    background-color: #FB3B49;
+    padding: 10px 50px;
+    text-decoration: none;
+    box-shadow: 8px 8px 0 rgba(251,59,73,.2);
+    margin: auto 20px;
+}
+
+.joinForFree {
+    Position: relative;
+    bottom: 20px;
+    font-size: 1.2em;
+    font-weight: bold;
+    color: black;
+    background-color: white;
+    padding: 10px 50px;
+    text-decoration: none;
+    margin: auto 20px;
+}
+
+
+.bringTheBest{
+    height: 600px;
+    display: flex;
+    justify-content: space-evenly;
+    flex-direction: column;
+    align-items: center;
+}
+
+.bringTheBest h2{
+    width: 54%;
+    text-align: center;
+    margin-bottom: 0;
+}
+
+.bringTheBest article{
+    font-size: 1em;
+    text-align: center;
+    width: 44%;
+    margin-top: 0;
+}
+.bringTheBest img{
+    height: 250px;
+}
+
+.whyNpm {
+    margin: 0 15% 50px;
+    display:flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.sections {
+    display:flex;
+    justify-content: space-evenly;
+    align-items: flex-start;
+    flex-wrap: wrap
+}
+
+.sections article{
+    width: 270px;
+    margin: 30px;
+
+}
+
+.sections img {
+    width: 70px;
+}
+
+.createAnOrg{
+    font-size: 1.2em;
+    font-weight: bold;
+    width: 150px;
+    height: 30px;
+    color: white;
+    text-align: center;
+    background-color: black;
+    margin-top: 30px;
+    padding: 10px 100px;
+    text-decoration: none;
+    box-shadow: 8px 8px 0 rgba(128,83,35,.2);
+}
