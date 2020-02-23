@@ -6,3 +6,179 @@ Green: #00B172
 White: #FFF
 
 */
+
+body {
+    margin: 0;
+    display: flex;
+    font-size: 16px;
+    font-family: verdana, helvetica, arial, sans-serif;
+    font-weight: 0;
+    color: #1A1A1A;
+    margin-bottom: 30px;
+}
+
+#logo {
+    width: 190px;
+    margin: 0 30px;
+}
+
+nav {
+    display: flex;
+    position: fixed;
+    background-color: white;
+    bottom: 80;
+    top: 0;
+    height: 80px;
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: center;
+    width: 100%;
+}
+
+nav>ul {
+    display: flex;
+    flex-direction: row;
+
+    list-style: none;
+}
+
+nav ul>li {
+    margin: 0 15px;
+}
+
+nav>ul>li>a {
+    text-decoration: none;
+    color: #1A1A1A;
+}
+
+main {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    width: 100%;
+}
+
+.main-box {
+    height: 65vh;
+    display: flex;
+    flex-direction: column;
+    color: white;
+    text-align: center;
+    align-items: center;
+    justify-content: center;
+    background-image: url(../images/landing.jpg);
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: cover;
+    width: 100%;
+}
+
+.main-box div h1 {
+    font-size: 52px;
+    font-weight: 600;
+}
+
+.main-box div p {
+    font-size: 24px;
+}
+
+.main-box div {
+    width: 70vh;
+}
+
+.info-box {
+    height: 42vh;
+    display: flex;
+    flex-direction: column;
+    text-align: center;
+    align-items: center;
+    justify-content: space-evenly;
+    width: 100%;
+}
+
+.info-box img {
+    width: 90px;
+}
+
+.container {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+}
+
+.container div {
+    width: 33vh;
+    margin: 30px;
+}
+
+.container>div {
+    width: 240px;
+    font-size: 18px;
+}
+
+.info-box h2 {
+    font-size: 26px;
+    font-weight: 600;
+    padding-bottom: 5px;
+    border-bottom: 3px solid #00B172;
+}
+
+#green-text {
+    color: #00B172;
+    font-size: 20px;
+}
+
+.green-container {
+    background-color: #00B172;
+    background-image: url(../images/spotify-icon-white.png);
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: 100px;
+    width: 95%;
+    height: 57vh;
+
+}
+
+.main-green-container {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-evenly;
+    align-items: center;
+    color: white;
+    padding-top: 30px;
+    width: 100%;
+}
+
+
+.first-green-box h2 {
+    padding-bottom: 10px;
+    width: 400px;
+    border-bottom: 3px solid white;
+}
+
+.first-green-box {
+    display: flex;
+    flex-direction: column;
+    justify-content: space-evenly;
+    width: 450px;
+    padding: 0 80px
+}
+
+.first-green-box p {
+    width: 270px;
+    display: flex;
+    line-height: 25px;
+}
+
+.second-green-box img {
+    padding-top: 40px;
+    display: flex;
+    align-self: center;
+    width: 250px;
+    margin-right: 120px;
+}
+
+/* It looks like we have 2 main sections,
+a containing element with the text flowing from top to bottom,
+and the image of the Spotify player on the right. Position the Spotify logo absolutely according to the green div. */
