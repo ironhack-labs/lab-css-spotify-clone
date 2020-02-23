@@ -6,3 +6,143 @@ Green: #00B172
 White: #FFF
 
 */
+* {
+    box-sizing: border-box;
+    padding: 0;
+    margin: 0;
+    font-family: 'Montserrat', Helvetica, sans-serif;
+}
+header {
+    margin:0 auto;
+}
+
+header nav {
+    display: flex;
+    position: fixed;
+    top:0;
+    padding: 0 35px;
+    background-color: white;
+    width: 100%;
+    justify-content: space-between;
+}
+header img {
+    height: 50px;
+    margin: 10px 0;
+}
+header ul{
+    display: flex;
+    top:0;
+    right: 0;
+    list-style: none;
+    align-items: center;
+}
+header li{
+    margin-left: 20px;
+}
+.main {
+    display: flex;
+    margin-top: 71px;
+    background: url(../images/landing.jpg);
+    background-position: top;
+    background-repeat: no-repeat;
+    background-size: contain;
+    height: 860px;
+    color: white;
+    justify-content: center;
+    flex-direction: column;
+    align-self: center;
+    text-align: center;
+}
+.main h1 {
+    font-size: 75px;
+    margin-bottom: 50px;
+    
+}
+.main p {
+    font-size: 27px;
+}
+.whats {
+    display: flex;
+    justify-content: center;
+    margin: 3% 0;
+}
+.whats h3{
+    font-weight: 500;
+    font-size: 25px;
+}
+.info {
+    display: flex;
+    justify-content: center;
+    text-align: center;
+    margin: 7% 20%;
+    align-items: baseline;
+    
+}
+.info div{
+    width:375px;
+}
+.info img{
+    width: 95px;
+    margin-bottom: 30px;
+}
+.info h4{
+    color: #1db954;
+    font-weight: 800;
+}
+.info p{
+    text-align: center;
+    font-weight: 200;
+    margin: 10px 20%;
+}
+.last {
+    margin: 3%;
+    background-color: #28B16D;
+    display: flex;
+    height: 600px;
+    text-align: left;
+    color: white;
+    background-image: url(./images/spotify-app.jpg);
+    background-size: cover;
+    background-position: center;
+}
+.last > div {
+    margin: 5% 5%;
+}
+.last h3{
+    text-align: justify;
+    font-weight: 500;
+    margin: 0 60.6% 1px 0;
+    box-shadow: inset 0 0 white, inset 0 -2px 0 white;
+    padding: 10px 0;
+}
+.last h4{
+    margin: 8% 0;
+}
+.last img{
+    width: 30%;
+}
+.white-logo {
+    display: flex;
+}
+
+.logo-blanco{
+    align-self: center;
+    text-align-last: center;
+}
+.kanye-west{
+    display: flex;
+}
+.kanye-west img{
+    width: 100%;
+    height: auto;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+}
+/*p.main {
+    align-self: center;
+    text-align: center;
+}
+.music{
+    align-self: center;
+}*/
