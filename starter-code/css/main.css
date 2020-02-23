@@ -1,8 +1,188 @@
-/*
-Colors:
+html {
+  font-family: 'Raleway', sans-serif;
+  -webkit-font-smoothing: antialiased;
+}
 
-Text: 1A1A1A
-Green: #00B172
-White: #FFF
+body {
+  margin:0;
+  padding: 0;
+}
 
-*/
+header {
+  height: 80px;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  padding: 0 2vw;
+  position: fixed;
+  background: white;
+  width: 100%;
+  box-sizing: border-box;
+  top:0;
+}
+
+ul.menu {
+  display: flex;
+  align-items: center;
+  flex-direction: row;
+  list-style: none;
+}
+
+.menu li {
+  margin: 0 20px;
+  cursor: pointer;
+  transition: color .5s ease;
+}
+
+.menu li:hover {
+  color: darkgreens;
+}
+
+.logo {
+  background: url(../images/spotify-logo.png) no-repeat center;
+  height: 100%;
+  display: block;
+  width: 150px;
+  background-size: contain;
+}
+
+.banner {
+  background: url(../images/landing.jpg) no-repeat center;
+  height: calc(150vh - 50px);
+  background-size: cover;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  flex-direction: column;
+  color: white;
+  margin-top: 85px;
+  text-align: center;
+}
+
+h1.title {
+  font-size: 5rem;
+  margin-bottom: 0;
+}
+
+h3 {
+  font-weight: lighter;
+  font-size: 1.3rem;
+  width: 60%;
+  text-align: center;
+}
+
+.content-white > h2 {
+  text-align: center;
+  font-size: 1.8rem;
+  font-weight: lighter;
+}
+
+section.content-white {
+  padding: 3vw 2vw;
+}
+
+.content-white article {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  padding: 7vw;
+  text-align: center;
+}
+
+.content-white article h2 {
+  color: #00B172;
+}
+
+.content-white article .card {
+  width: 33%;
+}
+
+.content-white article .card {
+  background: url(../images/music-icon.png) no-repeat top;
+  background-size: 70px;
+  padding: 60px 20px 0;
+}
+
+.content-white article .card:nth-of-type(2) {
+  background: url(../images/high-quality-icon.png) no-repeat top;
+  background-size: 70px;
+}
+
+.content-white article .card:nth-of-type(3) {
+  background: url(../images/devices-icon.png) no-repeat top;
+  background-size: 70px;
+}
+
+section.content-green {
+  display: flex;
+  align-items: center;
+  background: #00B172;
+  margin: 0 3vw;
+  padding: 5vw 5vw;
+  color: white;
+  margin-bottom: 3vw;
+  text-align: justify;
+}
+section.content-green {
+  display: flex;
+  align-items: center;
+  background: #00B172;
+  margin: 0 3vw;
+  padding: 5vw 5vw;
+  color: white;
+  margin-bottom: 3vw;
+  justify-content: space-around;
+}
+section.content-green img.icon-spoti {
+  width: 80px;
+  left: -50px;
+  position: relative;
+}
+section.content-green img {
+  width: 180px;
+}
+
+.vertical>h2.title {
+  text-decoration: underline;
+  font-weight: bold;
+  font-size: 1.8rem;
+  white-space: nowrap;
+}
+
+.vertical p.content {
+  width: 75%;
+  font-size: 1em;
+  line-height: 1.3em;
+  font-display: center;
+}
+
+@media (max-width: 800px) {
+  section.content-green {
+      flex-direction: column;
+  }
+
+  article.vertical {
+      flex-direction: column;
+      text-align: left;
+      font-size: medium;
+  }
+
+  section.content-green img.icon-spoti {
+      left: auto;
+      margin: 30px;
+  }
+
+  .vertical p.content {
+      margin: auto;
+  }
+}
+
+@media (max-width: 640px) {
+  .content-white article, section.content-green {
+      flex-direction: column;
+  }
+  .content-white article .card {
+      width: 100%;
+      margin-bottom: 8vh;
+  }
+} 
