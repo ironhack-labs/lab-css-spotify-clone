@@ -6,3 +6,171 @@ Green: #00B172
 White: #FFF
 
 */
+
+body {
+    margin: 0;
+    font-size: 22px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    font-family: sans-serif;
+}
+
+header {
+    position: fixed;
+    background-color:white;
+    z-index: 12;
+    left: 0;
+}
+
+header img {
+    width: 15%;
+    display: inline-block;
+    margin: 15px 30px;
+}
+
+.navbar {
+    position: absolute;
+    right: 20px;
+    top: 35%;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-evenly;
+    align-items: center;
+    width: 540px;
+}
+
+.navbar a {
+    text-decoration: none;
+    color: black;
+}
+
+
+#big-image-top {
+    background-image: url(../images/landing.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+    color: white;
+    height: 1000px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    width: 100%;
+    margin-top: 95px;
+}
+
+h1 {
+    font-size: 4em;
+    margin-bottom: 20px;
+    text-align: center;
+}
+
+h3 {
+    text-align: center;
+    font-size: 1.3em;
+}
+
+h4 {
+    font-size: 1.6em;
+    border-bottom:  4px solid #00B172;
+    padding-bottom: 3px;
+}
+
+#whats-on-middle {
+    width: 90%;
+    margin-bottom: 20px;
+    height: 600px;
+}
+
+#whats-on-middle {
+    display: flex;
+    flex-direction: column;
+    justify-content: space-evenly;
+    align-items: center;
+}
+
+#whats-on-middle >div{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-evenly;
+    align-items: center;
+}
+
+#whats-on-middle p{
+    font-size: 1.2em;
+}
+
+#whats-on-middle h5{
+    font-size: 1.3em;
+    color: #00B172;
+}
+
+.feature {
+    width: 23%;
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-start;
+    align-items: center;
+    height:300px;
+}
+.feature p {
+    text-align: center;
+}
+
+.feature h5{
+    padding: 2px 0;
+    margin: 5px 0;
+}
+
+.feature img {
+    margin-bottom: 10px;
+}
+
+.middle-icon {
+    height: 110px;
+}
+
+#footer-icon {
+    width: 130px;
+}
+
+#Jay-z-bottom {
+    background-color: #00B172;
+    position: relative;
+    width: 90%;
+    height: 800px;
+    margin-bottom: 30px;
+    color: white;
+}
+
+#app-icon {
+    position: absolute;
+    right: 8%;
+    top: 14%;
+    width: 27%;
+}
+
+#Jay-z-bottom article {
+    position: absolute;
+    left: 7%;
+    top: 5%;
+    width: 35vw;
+}
+
+#Jay-z-bottom h4{
+    border-bottom: 4px solid white;
+    padding-bottom: 10px;
+}
+
+#Jay-z-bottom h5{
+    font-size: 1.3em;
+}
+
+#footer-icon {
+    position: absolute;
+    left: 45%;
+    top: 43%;
+    width: 10%;
+}
+
