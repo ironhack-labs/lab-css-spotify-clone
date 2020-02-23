@@ -1,8 +1,187 @@
-/*
-Colors:
+html, body, div, span, applet, object, iframe,
+h1, h2, h3, h4, h5, h6, p, blockquote, pre,
+a, abbr, acronym, address, big, cite, code,
+del, dfn, em, img, ins, kbd, q, s, samp,
+small, strike, strong, sub, sup, tt, var,
+b, u, i, center,
+dl, dt, dd, ol, ul, li,
+fieldset, form, label, legend,
+table, caption, tbody, tfoot, thead, tr, th, td,
+article, aside, canvas, details, embed, 
+figure, figcaption, footer, header, hgroup, 
+menu, nav, output, ruby, section, summary,
+time, mark, audio, video {
+	margin: 0;
+	padding: 0;
+	border: 0;
+	font-size: 100%;
+	font-family: Circular, Helvetica, Arial, sans-serif;
+    vertical-align: baseline;
+    box-sizing: border-box;
+}
+article, aside, details, figcaption, figure, 
+footer, header, hgroup, menu, nav, section {
+	display: block;
+}
+body {
+    line-height: 1;
+}
+ol, ul {
+	list-style: none;
+}
+blockquote, q {
+	quotes: none;
+}
+blockquote:before, blockquote:after,
+q:before, q:after {
+	content: '';
+	content: none;
+}
+table {
+	border-collapse: collapse;
+	border-spacing: 0;
+}
 
-Text: 1A1A1A
-Green: #00B172
-White: #FFF
+/*Reset*/
 
-*/
+nav {
+    position: fixed;
+    z-index: 100; /*Para que salte ontop siempre*/
+    height: 60px;
+    padding: 0.5em;
+    width: 100%;
+    background-color: white;
+}
+nav img {
+    max-height: 100%;
+    float:left;
+    padding-left: 1em;
+}
+nav ul {
+    float: right;
+    transform: translateY(50%);
+}
+nav ul li {
+    display:inline;
+    font-size: 1.2em;
+    margin-right: 1.8em;
+}
+.white {
+    color: white;
+}
+.black {
+    color: black;
+}
+.green {
+    color: #1ab26b;
+}
+.title-container { 
+    position: relative;
+    background:url('../images/landing.jpg') no-repeat center center ;
+    background-size:cover;
+    width:100%;
+    padding-top:20%;
+    text-align: center;
+    padding-bottom:20%;
+}
+.title {
+    position: absolute;  
+    text-align: center;
+    left: 50%;                         
+    top: 50%;                         
+    transform: translate(-50%, -50%);
+}
+
+.title h1 {
+    font-size: 65px;
+    font-weight: bold;
+    margin-bottom: 0.4em;
+}
+.title h3 {
+    font-size: 25px;   
+    font-weight: lighter;
+    margin-bottom: 0.5em; 
+}
+
+.features {
+    display: flex;
+}
+.features p {
+    font-weight: 100;
+    line-height: 1.2em;
+    font-size: 20px;
+}
+.width-33 {
+    margin: 1em;
+    width: 30%;
+    font-weight: bold;
+}
+.width-33 img {
+    width: 25%;
+    height: 80px;
+    margin: 1.5em;
+}
+
+h2 {
+    margin: 1.0em;
+    font-size: 30px;
+    text-align: center;
+    font-weight: bold;
+}
+.green-underline {
+    padding-bottom: 0.2em;
+    border-bottom: #1ab26b solid 3px;
+}
+.white-underline {
+    border-bottom: white solid 3px;
+    font-size: 40px;
+    font-weight: bold;
+    padding-bottom: 0.2em;
+}
+.flex-column {
+    display: flex;
+    flex-direction: column;
+    margin: 1em;
+    align-content: center;
+    align-items: center;
+}
+
+.background-green {
+    background-color: #1ab26b; 
+    margin: 2em;
+    position: relative;
+}
+
+#logo {
+    width:10%;
+}
+.flex-wrap {
+    display: flex;
+    justify-content: space-between;
+    align-content: center;
+    align-items: center;
+    padding: 4em;
+}
+.app {
+    width: 30%;
+    padding-top: 4em;
+}
+h4 {
+    font-size: 30px;
+    font-weight: bold;
+    margin: 1.1em 0;
+}
+.left-align {
+    text-align: left;
+}
+.flex-start {
+    display: flex;
+    flex-direction: column;
+    margin: 2em;
+    justify-content: flex-start;
+    align-content: flex-start;
+    align-items: flex-start;
+    margin: 2em;
+    line-height: 1.5;
+    font-size: 20px;
+}
