@@ -6,3 +6,129 @@ Green: #00B172
 White: #FFF
 
 */
+body {
+    font-family: Circular, spotify-circular, Helvetica, Arial, sans-serif;
+    font-size: 20px;
+    color: #1A1A1A;
+    line-height: 150%;
+}
+
+/* nav */
+nav {
+    position: fixed;
+    height: 10vh;
+    background-color: white;
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    justify-content: space-between;
+}
+
+nav img {
+    width: 30%;
+    align-self: flex-start;
+    width: 10%;
+    margin-left: 40px;
+    padding: 10px;
+}
+
+nav ul {
+    align-self: flex-end;
+    list-style: none;
+    display: flex;
+    align-items: center;
+}
+
+nav ul li {
+    margin: 10px;
+    padding: 10px;
+    align-items: baseline;
+}
+
+.spacer {
+    width: 100%;
+    height: 10vh;
+}
+
+/* header */
+header {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    height: 97vh;
+    background-image: url("../images/landing.jpg");
+    background-repeat: no-repeat;
+    background-size: cover;
+    color: white;
+}
+
+h1 {
+    font-size: 4em;
+}
+
+header p {
+    font-size: 1.8em;
+}
+
+/* Section white */
+.white {
+    display: flex;
+    flex-direction: column;
+}
+
+.white img {
+    width: 30%;
+    padding-top: 40px;
+}
+
+.white h2 {
+    text-decoration: underline;
+    text-decoration-color: #00B172;
+    text-underline-offset: 1em;
+    /*border-bottom: solid 4px #00B172;*/
+    text-align: center;
+    font-size: 1.8em;
+}
+
+.white-articles {
+    display: flex;
+    flex-direction: row;
+    align-items: baseline;
+}
+
+.white-articles h3 {
+    color: #00B172;
+    font-size: 1.6em;
+}
+
+.white article {
+    text-align: center;
+}
+
+/* Section green */
+.green {
+    margin: 50px;
+    padding: 100px;
+    background-color: #00B172;
+    color: white;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: flex-end;
+}
+.green h2 {
+    text-decoration: underline;
+    text-underline-position: under;
+}
+
+#logo {
+    width: 10%;
+    position: absolute;
+    left: 50%;
+    transform: translate(-50%, -90%);
+}
+
+#app {
+    width: 24%;
+}
