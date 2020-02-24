@@ -1,8 +1,244 @@
-/*
-Colors:
+* {
+    font-family: 'Montserrat';
+    font-weight: 300;
+}
 
-Text: 1A1A1A
-Green: #00B172
-White: #FFF
+body {
+    margin: 0;
+}
 
-*/
+header {
+    display: flex;
+    justify-content: space-between;
+    margin-top: 10px;
+    max-height: 80px;
+}
+
+.hidden-menu {
+    display: none;
+}
+
+.nav-links {
+    display: flex;
+    flex-direction: row;
+    margin-right: 30px;
+}
+
+.nav-links li,
+a {
+    list-style: none;
+    justify-content: space-between;
+    align-items: center;
+    margin: 5px;
+    color: #1A1A1A;
+    text-decoration: none;
+    font-size: 17px;
+}
+
+@media only screen and (max-width: 662px) {
+    .nav-links {
+        display: none;
+    }
+
+}
+
+@media only screen and (max-width: 662px) {
+    .hidden-menu {
+        display: inline-block;
+        margin: 20px 40px;
+    }
+
+}
+
+
+.spotify-logo1 {
+    width: 190px;
+    margin: 8px;
+    margin-left: 45px;
+}
+
+section {
+    height: 100vh;
+}
+
+@media only screen and (max-width: 600px) {
+    header {
+        height: 50vh;
+    }
+}
+
+.music-for-everyone {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    background-image: url("../images/landing.jpg");
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+h1 {
+
+    font-size: 6vw;
+    font-weight: 500;
+    justify-content: center;
+    margin: 0 auto;
+    justify-self: center;
+    text-align: center;
+    color: white;
+}
+
+.music-for-everyone p {
+    font-size: 2.5vh;
+    justify-content: center;
+    margin: 10px auto;
+    justify-self: center;
+    text-align: center;
+    color: white;
+}
+
+.whats-on {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    height: 600px;
+
+}
+
+
+.whats-on h2 {
+    font-size: 3.5vw;
+    text-decoration: none;
+    font-weight: 500;
+    padding-bottom: 15px;
+    border-bottom: 3px solid #00B172;
+}
+
+.whats-on-main-row {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: space-between;
+    text-align: center;
+}
+
+
+.whats-on-main-row div {
+    justify-content: center;
+    align-items: center;
+    width: 50%;
+    margin: 3.5vw 2vw;
+
+}
+
+@media only screen and (max-width: 700px) {
+    .whats-on-main-row div {
+        width: 100%;
+    }
+}
+
+.whats-on-main-row h3 {
+    font-size: 2.5vw;
+    font-weight: 600;
+    color: #00B172;
+}
+
+.whats-on img {
+    width: 8.5vw;
+
+}
+
+@media only screen and (max-width: 762px) {
+    .whats-on-main-row {
+        flex-direction: column;
+        height: 1400px;
+    }
+}
+
+@media only screen and (max-width: 762px) {
+    .whats-on img {
+        width: 80px;
+        margin-bottom: 15px;
+    }
+}
+
+.browse-discover {
+    background-color: #00B172;
+    display: flex;
+    flex-direction: row;
+    color: white;
+    justify-content: space-between;
+    align-items: center;
+    max-height: 650px;
+    margin: 20px;
+    padding: 40px 40px;
+}
+
+@media only screen and (max-width: 762px) {
+    .browse-discover {
+        margin-top: 200px;
+        height: 1400px;
+        max-height: 1400px;
+        flex-direction: column;
+
+    }
+
+}
+
+.img-app {
+    max-width: 300px;
+}
+
+.img-app-div {
+    width: 40%;
+}
+
+.header-search-browse-discover {
+    width: 33%;
+    align-self: baseline;
+    padding-left: 30px;
+}
+
+@media only screen and (max-width: 762px) {
+    .header-search-browse-discover {
+        width: 90%;
+    }
+
+}
+
+.header-search-browse-discover h4 {
+    font-size: 1.3em;
+    font-weight: 600;
+    margin-bottom: 10%;
+}
+
+.header-search-browse-discover p {
+    font-size: 1.3em;
+
+}
+
+.spotify-logo {
+    width: 11vw;
+    margin-right: 40px;
+}
+
+@media only screen and (max-width: 762px) {
+    .spotify-logo {
+        width: 110px;
+        margin: 60px auto;
+    }
+
+}
+
+.header-search-browse-discover h2 {
+    font-size: 24px;
+    padding-bottom: 5px;
+    border-bottom: 3px solid #FFF;
+    max-width: 350px;
+    font-weight: 700;
+}
+
+.img-app-div {
+    display: flex;
+    justify-content: center;
+}
