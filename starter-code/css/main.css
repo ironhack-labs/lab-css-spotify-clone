@@ -1,3 +1,173 @@
+body {
+    font-style: normal;
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+
+.container-header {
+    display:flex;
+    flex-direction: row; 
+    display: flex;
+    justify-content: space-between; 
+}
+
+.container-header img {
+    height: 40px;
+    padding: 10px;
+}
+
+.container-header nav {
+    color: black;
+    display: flex;
+    justify-content: flex-end; 
+}
+
+.container-header ul {
+    list-style-type: none;
+    color: black; 
+    display: flex;
+    flex-direction: row; 
+    justify-content: flex-end; 
+}
+
+.container-header li {
+    padding: 10px; 
+}
+
+.container-header li a {
+    color: black;
+    text-decoration: none;
+}
+
+.middle {
+    position: relative;
+    display: inline-block;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.middle img {
+    background-repeat: no-repeat;
+    background-size: cover;
+    width: 100vw;
+}
+
+.text-middle {
+    position: absolute;
+    z-index: 999;
+    margin: 0 auto;
+     left: 0;
+    right: 0;        
+    text-align: center;
+    top: 40%; /* Adjust this value to move the positioned div up and down */
+    color: #fff;
+    width: 40%; 
+}
+
+.text-middle {
+    font-size: 2em;
+}
+
+.text-middle div {
+    font-size: 0.7em;
+}
+
+h2 {
+    display: flex;
+    justify-content: center;
+    font-size: 2em; 
+}
+
+hr {
+    border-color:  #00B172;
+    width: 15vw;
+}
+
+.service-container {
+    display: flex;
+    flex-direction: row;
+    justify-content: center; 
+}
+
+.service-box {
+    font-size: 1em;
+    text-align: center;
+    box-sizing: border-box;
+    margin: 40px; 
+    padding: 40px;
+    width: 30%;
+  }
+  
+  .service-box img {
+    width: 70%;
+  }
+
+
+
+
+
+.green-box {
+    background-color: #00B172;
+    margin: 20px; 
+    display: flex;
+    flex-direction: row; 
+    align-items: center; 
+    justify-content: space-around;
+}
+
+.container-bottom-box {
+    display:flex;
+    flex-direction: column;
+    align-items: flex-start;
+    padding: 60px;
+}
+
+.bottom-box {
+    color: white; 
+    text-align: left;
+    box-sizing: border-box;
+    padding: 40px;
+    width: 80%;
+}
+
+.h3-green {
+    color: #00B172;
+    font-size: 2em;
+    font-weight: bold;
+} 
+
+.h3-white {
+    color: #FFF;
+    font-size: 2em;
+    font-weight: bold;
+    text-align: left; 
+    padding: 20px; 
+}
+
+p {
+    padding: 20px;
+}
+
+.h3-bottom-box {
+    color: white;
+    font-size: 2em;
+    font-weight: bold;
+    text-align: left; 
+    padding: 60px;
+    width: 100%;
+}
+
+.icon img {
+    width: 10vw; 
+    padding: 50px;
+}
+
+.app img {
+    width: 30vw;
+    padding: 100px;
+}
+
 /*
 Colors:
 
