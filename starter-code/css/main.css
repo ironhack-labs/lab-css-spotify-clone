@@ -1,8 +1,207 @@
-/*
-Colors:
+@import url('https://fonts.googleapis.com/css?family=Open+Sans:300,400&display=swap');
 
-Text: 1A1A1A
-Green: #00B172
-White: #FFF
+body, html {
+    margin: 0;
+    padding: 0;
+    font-family: 'Open Sans', sans-serif;
+}
 
-*/
+.navbar {
+    background-color: #fff;
+    display: flex;
+    justify-content: center;
+    position: fixed;
+    top: 0;
+    width: 100%;
+}
+
+nav {
+    width: 90%;
+    height: 90px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding-left: 40px;
+    padding-right: 40px;
+}
+
+.logo {
+    width: 200px;
+    left: 500px;
+}
+
+
+.menu {
+    display: flex;
+    align-items: center;
+}
+
+ul {
+    display: flex;
+    list-style: none;
+}
+
+li {
+    margin-right: 25px;
+    font-size: 20px;
+    color: rgb(90, 90, 90);
+}
+
+.image {
+    background-image: url('../images/landing.jpg');
+    background-size: cover;
+    background-repeat: no-repeat;
+    height: 800px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+h1, h2 {
+    color: white;
+}
+
+h1 {
+    font-size: 70px;
+    margin-bottom: 0;
+    padding-bottom: 30px;
+}
+
+h2 {
+    font-size: 35px;
+    margin: 0;
+    font-weight: 300;
+}
+
+.question-container {
+    display: flex;
+    justify-content: center;
+} 
+
+.question {
+    border-bottom: 4px solid #19B26A;
+    padding-bottom: 0;
+    width: 340px;
+}
+
+.question > p {
+    margin-bottom: 5px;
+    font-size: 40px;
+    font-weight: bold;
+}
+
+.icons {
+    display: flex;
+    justify-content: space-around;
+    margin: 60px 0;
+}
+
+.icons-img {
+    width: 150px;
+}
+
+.imagenes {
+    width: 25%;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+h3 {
+    color: #19B26A;
+    font-weight: bold;
+    font-size: 30px;
+}
+
+h4 {
+    margin: 0;
+    font-size: 28px;
+    color: rgb(90, 90, 90);
+    font-weight: 300;
+}
+
+.green-container {
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    margin-bottom: 60px;
+}
+
+.background-green {
+    background: #19B26A;
+    width: 95%;
+    flex-direction: column;
+    padding-bottom: 60px;
+}
+
+.primero {
+    width: 600px;
+    height: 100px;
+    padding-top: 50px;
+    padding-left: 80px;
+}
+
+.title-green {
+    font-size: 40px;
+    font-weight: 400;
+}
+
+.lineaVerde{
+    width: 507px;
+    padding-bottom: 5px;
+    border-bottom: 3px solid white;
+}
+
+.segundo {
+    width: 45%;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-around;
+    z-index: 2;
+}
+
+.logoBlanco {
+    width: 25%;
+    display: flex;
+    justify-content: flex-start;
+    align-items: center;
+}
+
+.contenedor-abajo {
+    display: flex;
+    justify-content: center;
+}
+
+.content-green {
+    padding-left: 80px;
+}
+
+.content-green > h4 {
+    color: white;
+    font-weight: bold;
+    font-size: 30px;
+    margin-bottom: 20px;
+}
+
+.content-green > h5 {
+    color: white;
+    margin: 0;
+    font-size: 20px;
+    font-weight: 300;
+}
+
+.spotify-icon {
+    width: 150px;
+}
+
+.spotify-app {
+    width: 350px;
+}
+
+.cuatro {
+    width: 30%;
+    height: 100%;
+    margin-top: -50px;
+}
