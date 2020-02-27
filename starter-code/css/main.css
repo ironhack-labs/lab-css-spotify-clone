@@ -5,7 +5,6 @@
 }
 
 /*HEADER STYLE*/
-
 .header {
     display: flex;
 	flex-direction: row;
@@ -14,22 +13,28 @@
     background-color: white;
     height: 90px;
     padding-left: 30px;
+    overflow: hidden;
+    width: 100%;
+    overflow: hidden;
+    position: fixed;
+    top: 0;
 }
 
 .header img {
-    width: 180px;
+    width: 10%;
 }
 
 .header ul {
     display: flex;
 	flex-direction: row;
 	flex-wrap: nowrap;
-	justify-content: space-around;
+	justify-content: flex-end;
 	align-items: center;
     align-content: flex-end;
     padding-right: 30px;
-    width: 400px;
+    width: 100%;
     font-size: 20px;
+    margin-right: 20px;
 }
 
 .header ul li {
@@ -52,7 +57,7 @@
     background-position: center;
     background-repeat: no-repeat;
     background-size: cover;
-    position: relative;
+    margin-top: 90px;
 }
 
 .section1text {
