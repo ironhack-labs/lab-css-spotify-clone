@@ -6,58 +6,44 @@ Green: #00B172
 White: #FFF
 
 */
-.nav {
-	top: 0em;
+nav {
 	position: fixed;
 	width: 100%;
+	display: flex;
+	flex-direction: row;
+	justify-content: space-between;
+	background-color: white;
 }
 .logo {
-	width: 15%;
-	height: auto;
-	display: flex;
-	flex-direction: row;
-	float: left;
-}
-.buttons-nav li {
-	width: 15%;
-	flex-direction: row;
-	float: right;
-	text-decoration: none;
-	display: block;
-}
-.main {
-}
-#image-title {
-	background-image: url(/starter-code/images/landing.jpg);
-	height: 60vh;
-	max-width: 100%;
-	background-size: cover;
-	background-repeat: no-repeat;
-}
-#image-title h1 {
-	color: white;
-	display: flex;
-}
-#image-title div {
-	color: white;
-	width: 55%;
-	text-align: center;
-	display: flex;
-	justify-content: center;
-	padding: 10 15;
-}
-#spotify-who div {
-	display: flex;
-	flex-direction: column;
-	justify-content: center;
+	height: 3em;
+	padding: 1em;
 }
 
-#spotify-who img {
-	width: 20vh;
+.buttons-nav li {
+	display: inline;
+	padding: 1em;
+	list-style-type: none;
+	margin-left: 1em;
 }
-#spotify-who .container {
+.buttons-nav li a {
+	color: black;
+	text-decoration: none;
+}
+header {
 	display: flex;
+	background-image: url("/starter-code/images/landing.jpg");
+	background-size: contain;
+	height: 90vh;
 	flex-direction: column;
+	justify-content: center;
+	color: white;
 	align-items: center;
-	width: 370px;
+	text-align: center;
+}
+header h1 {
+	font-size: 4em;
+	padding: 20px;
+}
+header p {
+	font-size: 1.5em;
 }
