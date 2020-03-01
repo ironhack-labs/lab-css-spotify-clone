@@ -7,17 +7,27 @@ White: #FFF
 
 */
 
+ /* * { 
+    margin: 0;
+    padding: 0;
+    font-family: roboto;
+    box-sizing: border-box;
+}
+
+seta configurações pra pagina inteira
+*/
+
 body {
     font-family: roboto;
 }
 
 header {
     width: 100%;
-    height: 80px;
 }
 #nav-bar {
     display: flex;
     position: fixed;
+    top: 0;
     background-color: white;
     height: 80px;
     width: 100%;
@@ -49,11 +59,13 @@ header {
     margin: 0px 10px; 
 }
 
+/* SECTION IMAGE */
+
 #section-2 {
     display: flex;
     margin-top: 50px;
     height: 800px;
-    background-image: url(/Users/juliaforesti/Desktop/ironhack/aula1/lab/lab-css-spotify-clone/starter-code/images/landing.jpg);
+    background-image: url(../images/landing.jpg);
     background-position-y: initial;
     background-size: cover;
     background-repeat: no-repeat;
@@ -72,6 +84,8 @@ header {
     font-size: 30px;
     text-align: center;
 }
+
+/* SECTION INFORMATION */
 
 #section-3 {
     width: 100%;
@@ -110,6 +124,8 @@ header {
 #whats-on img {
     width: 150px;
 }
+
+/* SECTION MUSIC */
 
 #section-4 {
     width: 100%;
