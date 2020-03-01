@@ -1,8 +1,154 @@
-/*
-Colors:
+@import  url(https://fonts.googleapis.com/css?family=Open+Sans:300,600);
 
-Text: 1A1A1A
-Green: #00B172
-White: #FFF
+body {
+    margin: 0;
+    font-family: 'Open Sans';
+}
 
-*/
+header {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    position: fixed;
+    background-color: white;
+    padding: 10px 25px;
+    width: 100%;
+    box-sizing: border-box;
+}
+
+header img {
+    width: 15%;
+}
+
+.nav-bar {
+    width: 40%;
+}
+
+.nav-bar-ul {
+    list-style: none;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    font-size: 2em;
+}
+
+nav a {
+text-decoration: none;
+color: black;
+}
+
+.landingpage {
+    background-image: 
+    url(../images/landing.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position:center ;
+    height: 100vh;
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    color: white;
+    flex-direction: column;  
+}
+
+.landingpage p {
+    font-size: 2.5em;
+    text-align: center;
+}
+
+h1 {
+    font-size: 7em;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+h2 {
+    border-bottom: solid 5px #00B172;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin: 2% 37%;
+    font-size: 3em;
+    padding-bottom: 1%;
+}
+
+.features {
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    margin: 100px 0 70px 0;
+    height: 30vh;
+}
+
+.features-box {
+    width: 30%;
+    height: auto;
+    box-sizing: center;
+    text-align: center;
+    font-size: 1.5em;
+    margin: 0 40px;
+}
+
+.features img {
+    width: 30%;
+}
+
+.features h3 {  
+    color: #00B172;
+    font-size: 1.5em;
+    font-weight: bold;
+}
+
+.convince {
+    background-color: #00B172;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    position: relative;
+    padding: 80px;
+    color: white;
+    margin: 0 40px 40px 40px;
+    height: 80vh;
+}
+
+.convince h2 {
+    display: inline-block;
+    border-bottom: 4px solid white;
+    margin: 0 0 30px 0;
+    font-size: 4.5em;
+}
+
+.convince h3 {
+    font-size: 3em;
+}
+
+.info {
+    width: 50%;
+}
+
+.info p{
+    font-size: 2em;
+}
+
+.spotify-logo-white{
+    width: 10%;
+    position: absolute;
+    top: 50%;
+    left: 0;
+    right: 0;
+    margin: 0 auto;
+   
+}
+
+.app {
+    flex-basis: 322px;
+    height: 60%;
+    margin-bottom: 200px;
+    margin-right: 50px;
+}
+
+.app img {
+    width: 500px;
+}
