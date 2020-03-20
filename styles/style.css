@@ -1,7 +1,131 @@
+body{
+    color: 1A1A1A;
+    font-family: 'Source Sans Pro', sans-serif;
+    padding-left: 5%;
+    padding-right: 5%;
+}
+header{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+.logo{
+    width: 150px;
+}
+nav ul{
+    padding: 10px;
+    width: 300px;
+    list-style: none;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    font-size: large;
+}
+.home{
+    height: 800px;
+    background-image: url('../images/landing.jpg');
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    color: white;
+}
+h1 {
+    font-size: 100px;
+    font-weight: normal;
+    margin: 0;
+}
+h2 {
+    margin: 0;
+    font-size: 2rem;
+    font-weight: normal;
+}
+.services{
+    height: 500px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: space-around;
+    padding: 3%;
+}
+.services h2{
+    padding-bottom: 4px;
+    font-size: 3rem;
+    font-weight: bolder;
+    border-bottom: 3px solid #00B172;
+}
+
+.boxes{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+}
+.box-content{
+    margin: 10px;
+    display: flex;
+    flex-direction: column;
+    justify-content: stretch;
+    align-items: center;
+    font-size: 2rem;
+    text-align: center;
+    color: gray;
+    width: 300px;
+}
+.box-content h3{
+    margin: 0;
+    color: #00B172;
+    font-size: 2rem;
+    font-weight: bolder;
+}
+.box-content figure{
+    margin: 0;
+    width: 4em;
+    height: 4em;
+}
+img{
+    width: auto;
+    height : auto;
+    max-height: 100%;
+    max-width: 100%;
+}
+.features{
+    background-color: #00B172;
+    background-image: url('../images/spotify-icon-white.png');
+    background-repeat: no-repeat;
+    background-size: 10%;
+    background-position: center;
+    height: 600px;
+    padding: 5%;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    font-size: x-large;
+    color: white;
+}
+.features div{
+    width: 400px;
+}
+.features h2{
+    padding-bottom: 4px;
+    font-size: xx-large;
+    font-weight: bolder;
+    border-bottom: 3px solid white;
+}
+.features h3{
+    font-weight: bolder;
+}
+.features figure{
+    margin: 0;
+    max-height: 100%;
+    max-width: 100%;
+}
 /*
 Colors:
 
-Text: 1A1A1A
+Text: 
 Green: #00B172
 White: #FFF
 
