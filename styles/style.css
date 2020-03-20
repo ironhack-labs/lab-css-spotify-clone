@@ -1,8 +1,157 @@
 /*
 Colors:
-
-Text: 1A1A1A
+Text: #1A1A1A
 Green: #00B172
 White: #FFF
-
 */
+body{
+    font-family: 'Montserrat', sans-serif;
+    color: #1A1A1A;
+    margin: 0;
+}
+
+#top-bar {
+    margin: 20px 0 20px 0;
+    padding: 0px 25px 0 0;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+header img{
+    height: 60px;
+    margin-left: 15px;
+}
+#nav-bar {
+    width: 430px;
+    margin-right: 30px;
+    font-size: 18px;
+}
+
+header ul{
+    list-style: none;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+#nav-bar a{
+    text-decoration: none;
+    color: #1A1A1A;
+}
+
+#introduction{
+    height: 650px;
+    background-image: url(../images/landing.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+    color: #FFF;
+    padding-top: 120px;
+}
+
+#introduction > h1{
+    font-size: 80px;
+    font-weight: 700;
+    text-align: center;
+}
+
+#introduction > h3{
+    font-size: 30px;
+    font-weight: 300;
+    text-align: center;
+}
+
+.title{
+    margin-left: auto;
+    margin-right: auto;
+    margin-bottom: 100px;
+}
+
+#spotify-title{
+    width: 280px;
+}
+
+#features h2{
+    padding-top: 50px;
+    font-weight: 700;
+    font-size: 28px;
+    text-align: center;
+    border-bottom: solid 3px #00B172;
+}
+
+#features-container{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+}
+
+.square{
+    text-align: center;
+    width: 250px;
+}
+
+.square > h4{
+    font-size: 24px;
+    color: #00B172;
+}
+
+.square > p{
+    padding: 0 5px 0 5px;
+    font-size: 18px;
+}
+
+.square > img{
+    height: 100px;
+}
+
+#mobile-app{
+    display: flex;
+    flex-direction: row;
+    background-color: #00B172;
+    background-image: url(../images/spotify-icon-white.png);
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: 120px;
+    margin: 10px 30px 30px 30px;
+    padding-bottom: 50px;
+    color: white;
+}
+
+#text-part{
+    margin-left: 80px;
+}
+
+#kanye-title{
+    margin: 0 0 60px 0;
+    width: 415px;
+}
+
+#kanye-title h2{
+    margin: 0;
+    padding-top: 80px;
+    font-weight: 700;
+    font-size:28px;
+    text-align: center;
+    border-bottom: solid 3px #FFF;
+}
+
+#text-app-features{
+    width: 300px;
+}
+
+#text-app-features > h4{
+    font-size: 22px;
+    font-weight: 700;
+    margin-bottom: 30px;
+}
+
+#text-app-features > p{
+    font-size: 18px;
+    font-weight: 400;
+    margin-bottom: 50px;
+}
+
+#app-image img{
+    margin: 100px 60px 0px 280px;
+    width: 315px;
+}
