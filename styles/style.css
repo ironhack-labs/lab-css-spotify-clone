@@ -1,8 +1,148 @@
-/*
-Colors:
+body {
+  margin: 0;
+  font-family: 'Roboto', 'sans-serif';
+  color: #1A1A1A;
+}
 
-Text: 1A1A1A
-Green: #00B172
-White: #FFF
+h2 {
+  font-size: 26px;
+  text-decoration: underline;
+  text-underline-position: under;
+}
 
-*/
+h3 {
+  font-size: 22px;
+}
+
+#navbar {
+  display: flex;
+  position: fixed;
+  width:100%;
+  background-color: #FFF;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.logo {
+  width: 150px;
+  padding: 15px;
+}
+
+.navbar-menu ul {
+  display: flex;
+  justify-content: space-between;
+}
+
+.navbar-menu ul li {
+  list-style: none;
+  padding: 0 10px;
+  font-weight:400;
+}
+
+#landing {
+  background-image: url('../images/landing.jpg');
+  background-repeat: no-repeat;
+  background-size: cover;
+  height: 600px;
+}
+
+.landing-text {
+  position: relative;
+  top: 200px;
+}
+
+#landing h1 {
+  color: #FFF;
+  text-align: center;
+  font-size:56px;
+  font-weight: 400;
+  margin-top: 0;
+  letter-spacing: 1px;
+}
+
+#landing p {
+  color: #FFF;
+  font-weight: 200;
+  font-size:20px;
+  text-align: center;
+  letter-spacing: 1px;
+}
+
+main {
+  margin : 0 20px;
+}
+
+#content h2 {
+  text-align: center;
+  text-decoration-color: #00B172;
+}
+
+#cards {
+  display:flex;
+  flex-wrap: wrap;
+  justify-content: space-evenly;
+  margin-top: 50px;
+}
+
+.card {
+  width: 200px;
+  display:flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+.card-img {
+  height: 80px;
+}
+
+.card-h3 {
+  color: #00B172;
+  margin-bottom: 0;
+}
+
+.card-p {
+  font-size: 18px;
+  text-align: center;
+  line-height: 1.4em;
+}
+
+#sample {
+  background-color: #00B172;
+  padding: 60px;
+  margin-top: 40px;
+  color:#FFF;
+}
+
+#flex-sample {
+  display:flex;
+  justify-content: space-between;
+  align-items: center;
+  flex-wrap: wrap;
+}
+
+#sample h2 {
+  font-weight: 500;
+  margin-top: 0;
+}
+
+.sample-h3 {
+  font-weight: 400;
+}
+
+.sample-p {
+  font-weight: 200;
+  width: 300px;
+}
+
+#spotify-icon {
+  width:100px;
+  margin: 70px;
+}
+
+.last {
+  margin-bottom: 0;
+}
+
+#screen-app {
+  width: 200px;
+}
