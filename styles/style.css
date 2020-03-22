@@ -1,8 +1,159 @@
-/*
-Colors:
+@import url('https://fonts.googleapis.com/css?family=Inter:100,200,300,400,500,600,700&display=swap');
 
-Text: 1A1A1A
-Green: #00B172
-White: #FFF
+ body{
+    font-family: 'Inter', sans-serif;
+ }
 
-*/
+ .vspacing60{
+    height: 60px;
+}
+.vspacing40{
+    height: 40px;
+}
+
+
+header{
+    min-height: 80px;
+    font-weight: 400;
+    color: #1a1a1a;
+    font-size: 17px;
+}
+header img{
+    width: 13%;
+    margin: 10px 30px;
+    float: left;
+}
+
+header nav{
+    float: right;
+}
+
+header ul{
+    list-style: none;
+}
+
+.menu{
+    margin: 0px 12px;
+    display:block;
+    float:left;
+    padding:0 10px;
+}
+
+.imagen-principal{
+    background-image: url(../images/landing.jpg);
+    height: 700px;
+    background-size: cover;
+    background-position: center;
+}
+
+main {
+    color: #FFF;
+}
+
+main h1{
+    font-weight: 500;
+    font-size: 60px;
+    text-align: center;
+    margin: auto;
+    padding-top: 20%;
+    padding-bottom: 29px;
+}
+
+main p{
+    font-size: 20px;
+    font-weight: 100;
+    text-align: center;
+    margin: 7px;
+}
+article{
+    width: 30%;
+}
+
+.tarjetas h2{
+    text-align: center;
+    font-size: 32px;
+    font-weight: 500;
+    margin: 40px;
+}
+
+.tarjetas div{
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    width: 80%;
+    margin: 0 auto;
+}
+
+.tarjetas img{
+    height: 85px;
+    position: relative;
+    left: 32%;
+}
+
+.tarjetas h3{
+    text-align: center;
+    color: #00B172;
+    margin-bottom: 30px;
+}
+
+.tarjetas p{
+    font-size: 20px;
+    text-align: center;
+    font-weight: 100;
+    width:240px;
+    margin: 0 auto;
+}
+
+.section2{
+    background-color: #00B172;
+    color: #FFF;
+    margin-right: 35px;
+    margin-left: 35px;
+}
+
+.section2 h2{
+    font-weight: 500;
+    text-decoration-line: underline;
+    text-underline-position: under;
+    margin-left:100px;
+}
+.parte-tres{
+    display: flex;
+    flex-direction: row;
+}
+
+.parte-tres > .flex-item{
+    padding: 50px;    
+}
+.parte-tres > .flex-item.logo{
+    align-self: center;
+}
+.info{
+    margin-left: 100px;
+    width: 140%;
+}
+
+.info h3{
+    margin-top: 45px;
+    margin-bottom: 45px;
+    font-weight: 500;
+}
+
+.info p{
+    font-weight: 200;
+    color: #E9E9E8;
+}
+.logo1{
+    align-self: center;
+    flex-grow: 1;
+}
+
+.logo1 img{
+    width: 90px;
+    
+}
+
+.imagen-app img{
+  width: 50%;
+  padding-left: 112px;
+}
