@@ -1,5 +1,144 @@
-/*
-Colors:
+body {
+    margin: 0;
+    box-sizing: border-box;
+}
+
+.header {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    font-family: 'Roboto Condensed', sans-serif;
+}
+
+.top {
+    display: flex;
+    justify-content: space-between;
+    width: 100%;
+    align-items: center;
+    padding: 10px 20px;
+    box-sizing: border-box;
+
+}
+
+.navigator a{
+    text-decoration: none;
+    margin-left: 1em;
+    font-size: 1.5em;
+    color: #1A1A1A;
+    font-weight: 100;
+}
+
+header img {
+    width: 200px;
+}
+
+main {
+    font-family: 'Roboto Condensed', sans-serif;
+}
+
+.banner {
+    background-image: url(../images/landing.jpg);
+    background-size: cover;
+    background-repeat: no-repeat;
+    width: 100%;
+    height: 1000px;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-around;
+}
+
+.text_on_banner {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    text-align: center;
+}
+.text_on_banner h1 {
+    color: white;
+    font-size: 5em;
+    font-weight: 300;
+
+}
+
+.text_on_banner h3 {
+    color: white;
+    margin-top: -2em;
+    font-size: 1.5em;
+    font-weight: 100;
+   
+  }
+
+.section1 {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+.section1 h2 {
+    border-bottom: 3px solid #00b172;
+    font-size: 3em;
+}
+.section1 img {
+    height: 6vw;
+
+}
+.section1-content {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+    width: 100%;
+}
+.section1-content h3 {
+    color: #00b172;
+}
+
+.section1-content p {
+    font-weight: 500;
+    font-family: 'Roboto', sans-serif;
+}
+
+.section1-content div {
+    width: 12vw;
+    text-align: center;
+}
+/* Second part */
+.section2 {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    background-image: url(../images/spotify-icon-white.png);
+    background-repeat: no-repeat;
+    background-size: 7vw;
+    background-position: center;
+    background-color: #00b172;
+    color: white;
+    margin: 5em;
+}
+
+.section2-content {
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-start;
+    align-items: flex-start;
+    padding: 3em;
+}
+
+.section2 img {
+    width: 80%;
+    padding: 3em;
+}
+
+.section2-content p {
+    font-size: 1em;
+
+}
+
+.section2-content h2 {
+    border-bottom: 3px solid #fff;
+    margin-bottom: 4em;
+}
+
+/*Colors:
 
 Text: 1A1A1A
 Green: #00B172
