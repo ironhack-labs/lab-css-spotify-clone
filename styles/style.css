@@ -44,64 +44,71 @@ header > div {
     align-items: center;
 }
 
+.spotify-logo {
+    width: 250px;
+}
+
 .spotify-links {
-    list-style: none;
     display: flex;
+    justify-content: space-between;
+}
+
+.spotify-links ul {
     flex-direction: row;
-    justify-content: space-around;
-    align-items: center;
-}
-
-#resources-links > li {
     list-style-type: none;
-    margin: 10px;
     display: flex;
-	flex-direction: row;
-	flex-wrap: nowrap;
-	justify-content: flex-end;
-	align-items: baseline;
-	align-content: stretch;
 }
 
-#resources-links a {
+.spotify-links li {
+    margin: 10px;
+}
+
+.spotify-links a {
     text-decoration: none;
 }
 
-.whatson {
-    margin: 0 auto;
-    height: 500px;
-}
-
-.whatson > h2 {
-    text-align: center;
-    padding: 20px 50px;
+.whatson h2 {
     font-size: 2em;
-}
-
-.whatson > div {
+    justify-content: center;
     display: flex;
-    justify-content: space-evenly;
+    padding-top: 20px;
+    border-bottom-style: solid;
+    border-bottom-color: #00B172;
+    border-bottom-width: medium;
 }
 
-.whatson > article {
+.whatson div {
+    display: flex;
+    justify-content: center;
+    padding: 50px 0px;
+}
+
+.whatson article {
+    width: 200px;
+    margin: 0px 80px;
     text-align: center;
 }
 
-.whatson h3 {
+.whatson article h3 {
     color: #00B172;
-    font-weight: bolder;
+    font-weight: 900;
 }
 
 .whatson img {
     width: 100px;
 }
 
-.spotifylogo {
-    width: 200px;
+.green-background {
+    background-color: #00B172;
+}
+
+.whitelogo {
+    width: 100px;
+    float: inline-end;
+    padding:
 }
 
 .kanyewest {
-    background-color: #00B172;
     color: #FFF;
     display: flex;
     height: 500px;
@@ -120,19 +127,9 @@ header > div {
 }
 
 .kanyewest article {
-    width: 300px;
-}
-
-.whitelogo {
-    width: 50px;
-    display: flex;
-	flex-direction: row;
-	flex-wrap: nowrap;
-	justify-content: center;
-	align-items: center;
-	align-content: stretch;
+    width: 200px;
 }
 
 .screenshot {
-    align-items: flex-end;
+    width: 200px;
 }
