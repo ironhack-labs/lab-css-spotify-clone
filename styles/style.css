@@ -6,3 +6,199 @@ Green: #00B172
 White: #FFF
 
 */
+
+/*GLOBAL STYLES*/
+
+body {
+    margin: 0;
+    padding: 0;
+    font-family: 'Montserrat', sans-serif;
+    font-size: 16px;
+}
+
+main {
+    width: 100%;
+}
+
+section {
+    max-width: 1200px;
+    margin: 0 auto;
+}
+
+section h2 {
+    font-size: 2em;
+    display: inline-block;
+}
+
+section h2:after {
+    content: '';
+    border-bottom: 4px solid;
+    width: 100%;
+    display: block;
+    margin-top: 5px;
+}
+
+section h3 {
+    font-size: 1.8em;
+}
+
+section p.sub-h3 {
+    font-size: 1.5em;
+}
+
+a {
+    text-decoration: none !important;
+}
+
+/*END GLOBAL STYLES*/
+/*NAVBAR*/
+
+main #navbar {
+    position: fixed;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: center;
+    padding: 10px 0;
+    background-color: white;
+    width: 100%;
+}
+
+main #navbar .nav-left img {
+    width: 200px;
+    margin-left: 40px;
+}
+
+main #navbar .nav-right ul {
+    list-style: none;
+    margin: 0;
+    padding: 0;
+    display: flex;
+    flex-direction: row;
+    margin-right: 40px;
+    color: #000000;
+    justify-content: space-between;
+    font-size: 1.2em;
+}
+
+main #navbar .nav-right ul li a {
+    margin-left: 20px;
+    color: #1A1A1A;
+}
+
+/*END NAVBAR*/
+/*HERO*/
+
+main .hero {
+    background-image: url('../images/landing.jpg');
+    background-size: cover;
+    background-repeat: no-repeat;
+    height: 100vh;
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    background-position: 0 60%;
+}
+
+main .hero .hero-text {
+    color: white;
+    text-align: center;
+    margin: 0 auto;
+}
+
+main .hero .hero-text h1 {
+    font-size: 5em;
+    margin: 0;
+}
+
+main .hero .hero-text p.sub-h1 {
+    font-size: 1.9em;
+}
+
+/*END HERO*/
+/*SECTION ABOUT*/
+
+main #about {
+    display: flex;
+    flex-direction: column;
+    padding: 60px 0 40px
+}
+
+main #about h2 {
+    margin: 0 auto;
+}
+
+main #about h2:after {
+    border-color: #00B172;
+}
+
+main #about .boxs {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+    text-align: center;
+    padding: 60px 0;
+}
+
+main #about .boxs .item-box {
+    width: 33.33%;
+    margin: 0 30px;
+}
+
+main #about .boxs .item-box img {
+    width: 25%;
+}
+
+main #about .boxs .item-box h3 {
+    color: #00B172;
+    margin-top: 15px;
+}
+
+main #about .boxs .item-box p.sub-h3 {
+    color: #1A1A1A;
+}
+
+/*END SECTION ABOUT*/
+/*SECTION FEATURES*/
+
+main #features {
+    background-color: #00B172;
+    color: #ffffff;
+    padding: 80px 180px;
+    margin-bottom: 40px;
+    display: flex;
+    justify-content: space-between;
+}
+
+main #features h2 {
+    margin-top: 0;
+}
+
+main #features .box-left {
+    width: 100%;
+}
+
+main #features .box-left .box-left-wrapper {
+    display: flex;
+    align-items: center;
+}
+
+main #features .box-left .box-left-wrapper .icon {
+    margin: 0 auto;
+}
+
+main #features .box-left .box-left-wrapper .icon img {
+    width: 150px;
+}
+
+main #features .box-right img {
+    width: 340px;
+}
+
+/*END SECTION FEATURES*/
+
+@media screen and (max-width: 1440px) {
+    main #features {
+        max-width: 1000px;
+    }
+}
