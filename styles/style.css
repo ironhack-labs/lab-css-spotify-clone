@@ -6,3 +6,166 @@ Green: #00B172
 White: #FFF
 
 */
+
+/* General properties */
+
+* {
+    font-family: 'Roboto', sans-serif;
+}
+
+body {
+    max-width: 1080px;
+    margin: 0 auto;
+}
+
+/* Navbar */
+
+.navbar {
+    display: flex;
+    justify-content: space-between;
+    height: 60px;
+    position: fixed;
+    top: 0;
+    background-color: #FFF;
+    opacity: 0.8;
+    padding-top: 5px;
+    width: 100%;
+}
+
+.logo {
+    padding-left: 30px;
+}
+
+.logo img {
+    height: 50px;
+
+}
+
+nav ul {
+    display: flex;
+    list-style: none;
+    padding-right: 30px;
+}
+
+nav ul li {
+    padding: 0 10px;
+}
+
+main {
+    margin-top: 65px;
+}
+
+/* Header */
+
+.head {
+    background-image: url("/images/landing.jpg");
+    background-size: cover;
+    background-repeat: no-repeat;
+    height: 720px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+.head h1,
+.head p {
+    color: #FFF;
+}
+
+.head h1 {
+    font-size: 65px;
+    margin: 0 auto;
+}
+
+.head p {
+    text-align: center;
+    font-size: 22px;
+}
+
+/* What's on */
+
+#whatson {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+#whatson h2 {
+    margin: 30px auto;
+    text-decoration: underline;
+    text-decoration-color: #00B172;
+}
+
+.container {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-evenly;
+    margin: 20px 0;
+    width: 100%;
+}
+
+.feature {
+    width: 30%;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.feature img {
+    height: 80px;
+}
+
+.feature h3 {
+    color: #00B172;
+}
+
+.feature p {
+    max-width: 60%;
+    text-align: center;
+}
+
+/* Yeezy */
+
+#yeezy {
+    background-color: #00B172;
+    margin: 0 20px;
+    color: #FFF;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    position: relative;
+}
+
+.functions {
+    width: 50%;
+    margin: 30px 80px;
+}
+
+.functions h2 {
+    text-decoration: underline;
+    letter-spacing: 0.15em;
+    margin: 40px 0;
+}
+
+.functions p {
+    width: 60%;
+    margin: 10px 0;
+    line-height: 1.5em;
+}
+
+#yeezy .logo {
+    height: 100px;
+    position: absolute;
+    top: 45%;
+    left: 45%;
+}
+
+.app {
+    width: 40%;
+}
+
+.app img {
+    width: 250px;
+    padding: 80px 0 40px 70px;
+}
