@@ -1,8 +1,176 @@
-/*
-Colors:
 
-Text: 1A1A1A
-Green: #00B172
-White: #FFF
+/* GLOBALS*/
 
-*/
+@import url("https://fonts.googleapis.com/css2?family=Sen:wght@400;700&display=swap" rel="stylesheet");
+main { 
+    padding: 0;
+    margin: 0;
+    font-family:'Sen', sans-serif;
+    ;
+}
+
+/*NAVEGATION*/
+
+.nav-bar {
+    height: 60px;
+    margin: 5px 30px;
+}
+
+.link {
+    float: right;
+    word-spacing: 30px;
+    font-size: 20px;
+    margin: auto;
+    padding-top: 22px;
+}
+
+.link a {
+    color: #1A1A1A;
+    text-decoration: none;
+}
+.nav-bar img{
+    padding: 0 5px;
+    width: 18%;
+    height: auto;    
+}
+
+.banner {
+    background-image: url(/images/landing.jpg);
+    background-size: cover;
+    height: 700px;
+    background-repeat: no-repeat;
+    color: white;
+    text-align: center;
+    display: table;
+    width: 100%;
+    margin-top: 20px;
+}
+
+.banner h3{
+    font-weight: 200;
+    width: 800px;
+    margin: auto;
+}
+
+#banner-text {
+    display: table-cell;
+    vertical-align: middle;
+    font-size: 30px;
+    padding: 70px;
+}
+
+/*SECTION ICONS*/
+
+.whatis {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.whatis hr {
+    width: 290px;
+    height: 3px;
+    background-color: #00B172;
+    border: 0;
+    margin-top: 0;
+    
+}
+
+.whatis h3{
+    font-size: 30px;
+    font-weight: 700;
+    letter-spacing: 0.5px;
+    margin-top: 30;
+    margin-bottom: 4px;
+}
+
+.icons {
+    display: flex;
+    justify-content: space-between;
+
+}
+
+.box {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    margin: 50px;
+    width: 400px;
+    height: 200px;
+}
+
+.box h4 {
+    margin: 5px;
+    color: #00B172;
+    font-size: 30px;
+}
+.box img {
+    width: 130px;
+    height: auto;
+}
+
+.box p {
+    font-size: 18px;
+    font-weight: 200;
+    text-align: center;
+    padding: 10px 90px;
+}
+
+/* SECTION GREEN*/
+
+.green {
+    display: flex;
+    background-color: #00B172;
+    color: white;
+    justify-content: space-around;
+    margin-top: 25px;
+}
+
+.kanye {
+    display: flex;
+    flex-direction: column;
+    width: 33%;
+}
+
+.kanye h3 {
+    font-size: 30px;
+    font-weight: 700;
+    margin-bottom: 2px;
+}
+
+.kanye hr {
+    width: 400px;
+    height: 3px;
+    background-color: white;
+    border: 0;
+    margin-top: 1px;
+    margin-left: 0;
+}
+
+.items {
+    width: 100%;
+}
+
+.items h4 {
+    font-weight: 700;
+    font-size: 30px;
+    margin-bottom: 5px;
+}
+
+.items p {
+    font-weight: 400;
+    font-size: 18px;
+}
+
+#icon {
+    width: 120px;
+    height: 120px;
+    align-self: center;
+}
+
+#west {
+    width: 25%;
+    margin: 40px;    
+}
+
+
