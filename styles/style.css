@@ -1,8 +1,147 @@
 /*
-Colors:
-
-Text: 1A1A1A
-Green: #00B172
-White: #FFF
-
+Text: #1A1A1A;
+Green: #00B172;
+White: #FFF;
 */
+
+html {
+  box-sizing: border-box;
+  font-family: "Roboto Condensed", sans-serif;
+}
+*,
+*:before,
+*:after {
+  box-sizing: inherit;
+  margin: 0;
+}
+
+/* ---------------------------------- TOOLS --------------------------------- */
+
+.container {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+.container2 {
+  display: flex;
+  flex-direction: column;
+  justify-content: space-around;
+  align-items: flex-start;
+}
+/* ---------------------------------- TOOLS --------------------------------- */
+
+/* --------------------------------- HEADER --------------------------------- */
+nav {
+  display: flex;
+  justify-content: space-between;
+  width: 100%;
+  padding: 0.5em 0.5em 0.5em 1.8em;
+  position: fixed;
+  background-color: #fff;
+}
+#header-logo {
+  height: 48px;
+}
+nav ul {
+  display: flex;
+  align-items: center;
+}
+nav li {
+  list-style: none;
+  padding-right: 2em;
+}
+a {
+  text-decoration: none;
+  color: #1a1a1a;
+}
+
+#header-content {
+  height: 990px;
+  background-image: url("/images/landing.jpg");
+  background-repeat: no-repeat;
+  background-size: 100% 100%;
+  padding-bottom: 5em;
+  color: #fff;
+}
+#header-content h1 {
+  font-size: 6em;
+  font-weight: 400;
+  letter-spacing: 2px;
+  padding-bottom: 0.9vw;
+}
+#header-p {
+  font-size: 1.7em;
+  font-weight: 300;
+  padding-top: 0.8em;
+}
+/* --------------------------------- HEADER --------------------------------- */
+
+/* ---------------------------------- MAIN ---------------------------------- */
+
+/* ------------------------------- SECTION-ONE ------------------------------ */
+#section-one h2 {
+  letter-spacing: 1px;
+  padding: 2em 0 0.1em 0;
+  border-bottom: 3px solid #00b172;
+}
+#sone-content {
+  flex-direction: row;
+  justify-content: space-around;
+  width: 100%;
+  padding: 2em 0em;
+}
+#sone-content div {
+  width: calc(33% / 4);
+  padding-bottom: 1em;
+}
+#section-one img {
+  height: 3vw;
+}
+#sone-content h3 {
+  color: #00b172;
+  padding: 1em 0;
+}
+#sone-content p {
+  text-align: center;
+  font-weight: 300;
+}
+
+/* ------------------------------- SECTION-ONE ------------------------------ */
+
+/* ------------------------------- SECTION-TWO ------------------------------ */
+#section-two {
+  background-color: #00b172;
+  background-image: url(/images/spotify-icon-white.png);
+  background-repeat: no-repeat;
+  background-position: center;
+  background-size: 7em;
+  color: white;
+  display: flex;
+  justify-content: space-between;
+}
+
+#section-two article {
+  margin: 0 3em;
+  padding: 2em 14em;
+}
+#section-two h2 {
+  letter-spacing: 1px;
+  border-bottom: 3px solid #fff;
+  padding: 1em 0 0.2em;
+}
+#section-two h3 {
+  padding-top: 3em;
+}
+#section-two img {
+  padding: 2em 0 1em 0;
+  height: 40em;
+}
+
+#section-two p {
+  font-size: 1.1em;
+  padding: 0 14em 1em 0;
+}
+/* ------------------------------- SECTION-TWO ------------------------------ */
+
+/* ---------------------------------- MAIN ---------------------------------- */
