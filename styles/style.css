@@ -6,3 +6,169 @@ Green: #00B172
 White: #FFF
 
 */
+
+body {
+    font-family: 'Inter', sans-serif;
+    margin: 0;
+}
+
+/* Header */
+
+header {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 15px 40px;
+    background-color: white;
+    position: sticky;
+    top: 0;
+}
+
+header img {
+    width: 200px;
+}
+
+nav ul {
+    list-style: none;
+    display: flex;
+}
+
+nav ul li a {
+    text-decoration: none;
+    padding-left: 30px;
+    color: #1A1A1A;
+    font-size: 20px;
+}
+
+/* Hero */
+
+#hero {
+    height: 700px;
+    background-image: url('../images/landing.jpg');
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position-y: center;
+    display: flex;
+    flex-flow: column wrap;
+    justify-content: center;
+    align-content: center;
+    text-align: center;
+    color: white;
+}
+
+#hero h1 {
+    font-size: 80px;
+    margin: 0;
+    font-weight: 500;
+}
+
+#hero h3 {
+    font-size: 28px;
+    font-weight: 200;
+}
+
+/* What's on Spotify */
+
+#container {
+    width: 1100px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    margin: auto;
+}
+
+/* What's on Spotify */
+
+.underline {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    margin: 30px 0px;
+}
+
+#on-spotify h2 {
+    text-align: center;
+    font-size: 40px;
+    color: #1A1A1A;
+    border-bottom: 4px solid #00B172;
+    padding-bottom: 10px;
+    font-weight: 500;
+}
+
+.div-features {
+    display: flex;
+    flex-wrap: nowrap;
+    justify-content: space-around;
+    align-items: baseline;
+    padding-bottom: 50px;
+}
+
+.feature {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    text-align: center;
+    width: 25%;
+}
+
+.feature img {
+    width: 120px;
+}
+
+.feature h3 {
+    color: #00B172;
+    font-size: 28px;
+    margin-bottom: 0;
+}
+
+.feature p {
+    font-size: 22px;
+    font-weight: 300;
+}
+
+/* Spotify App */
+
+#green {
+    background-color: #00B172;
+    width: 90%;
+    padding: 100px;
+    display: flex;
+    justify-content: space-between;
+    align-items: flex-end;
+    background-image: url('../images/spotify-icon-white.png');
+    background-repeat: no-repeat;
+    background-size: 120px;
+    background-position-x: center;
+    background-position-y: center;
+}
+
+#green div {
+    color: white;
+    width: 50%;
+}
+
+#green .features-green {
+    width: 60%;
+}
+
+#green img {
+    width: 33%;
+}
+
+#green h2 {
+    display: inline-block;
+    font-size: 34px;
+    padding-bottom: 10px;
+    border-bottom: 4px solid white;
+    margin-top: 0;
+}
+
+#green h3 {
+    font-size: 28px;
+    font-weight: 600;
+}
+
+#green p {
+    font-size: 22px;
+    font-weight: 200;
+}
