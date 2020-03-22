@@ -20,7 +20,7 @@ body{
 }
 
 .navegador{
-    position: sticky;
+    position: static;
     top: 0;
     height: 45;
     padding: 10px;
@@ -30,7 +30,6 @@ body{
     top: 0;
 }
 .enlaces a {
-    padding-top: 20%;
     display: flex;
     color: #1A1A1A;
     text-decoration: none;
@@ -71,4 +70,82 @@ body{
 hr{
     width: 15%;
     height: 3px;
+}
+
+li{
+    margin: 0 10px;
+}
+
+.iconos{
+    width: 125px;
+}
+
+.qualities{
+    display: flex;
+    justify-content: space-evenly;
+    flex-wrap: wrap;
+}
+
+.qualititesOrder{
+    display: flex;
+    flex-direction: column;
+    text-align: center;
+}
+
+.iconos-box{
+    font-size: 20px;
+    text-align: center;
+    /*RETO DE CLASES AGREGADAS*/
+    box-sizing: border-box;
+    padding: 10px;
+    width: 25%;
+}
+
+.iconos-box h3{
+    font-weight: bolder;
+    color: #00B172;
+}
+
+.iconos-box p{
+    font-weight:normal ;
+    color: #1A1A1A;
+}
+
+.footer{
+    flex-wrap: wrap;
+    padding: 2%;
+    display: flex;
+    flex-direction: row;
+    background-color: #00B172;
+    justify-content:space-around;
+    align-items: center;
+}
+
+#logoBlanco{
+    width: 30%;
+}
+
+.footer div{
+    width: 20%;
+    margin: 0 10px;
+}
+
+#app{
+    width: 60%;
+}
+
+#copyBlanco{
+    color: white;
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-end;
+}
+
+.lineaFinal{
+    border-bottom: white 3px;
+}
+
+#hrfinal{
+border-bottom: 3px solid white;
+padding-bottom: 5px;
 }
