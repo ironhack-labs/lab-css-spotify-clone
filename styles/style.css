@@ -1,8 +1,227 @@
-/*
-Colors:
+/* reset code */
 
-Text: 1A1A1A
-Green: #00B172
-White: #FFF
+*,
+*::before,
+*::after {
+  box-sizing: border-box;
+}
 
-*/
+/* Remove default padding */
+ul[class],
+ol[class] {
+  padding: 0;
+}
+
+/* Remove default margin */
+body,
+h1,
+h2,
+h3,
+h4,
+p,
+ul[class],
+ol[class],
+li,
+figure,
+figcaption,
+blockquote,
+dl,
+dd {
+  margin: 0;
+}
+
+/* Set core body defaults */
+body {
+  min-height: 100vh;
+  scroll-behavior: smooth;
+  text-rendering: optimizeSpeed;
+  line-height: 1.5;
+}
+
+/* Remove list styles on ul, ol elements with a class attribute */
+ul[class],
+ol[class] {
+  list-style: none;
+}
+
+/* A elements that don't have a class get default styles */
+a:not([class]) {
+  text-decoration-skip-ink: auto;
+}
+
+/* Make images easier to work with */
+img {
+  max-width: 100%;
+  display: block;
+}
+
+/* Natural flow and rhythm in articles by default */
+article > * + * {
+  margin-top: 1em;
+}
+
+/* Inherit fonts for inputs and buttons */
+input,
+button,
+textarea,
+select {
+  font: inherit;
+
+}
+
+/* end reset */
+
+
+
+body {
+    font-family: 'Open Sans', sans-serif;
+}
+
+h1 {
+    font-size: 3em;
+    padding: 3% 0;
+}
+
+header {
+    height: 60px;
+    display: flex;
+    justify-content: space-between;
+    margin: 0 2%;
+}
+
+header img {
+    padding: 3% 0 0 2%;
+} 
+
+.menu {
+    background-color: none;
+    width: 40%;
+    
+}
+
+.menu ul {
+    list-style: none;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+}
+
+#landing {
+    position: relative;
+    text-align: center;
+    color: white;
+    height: 600px;
+    overflow: hidden;
+}
+
+#landing img {
+    width: 100%;
+}
+
+.center-text {
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%)
+}
+
+#highlights {
+    margin: 5% 0;
+}
+.highlights-title {
+    text-align: center;
+}
+
+.divider-green {
+    background-color: #1AB26B;
+    height: 3px;
+    width: 20%;
+    text-align: center;
+    margin: 5px auto 3%;
+    padding: 0;
+}
+
+.highlights-list {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-evenly;
+    margin: 5% 0 
+}
+
+.highlights-subsections {
+    margin: 0 3%;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    width: 30%;
+}
+
+.highlights-subsections img {
+    width: 8vw;
+}
+
+.highlights-subsections h4 {
+    font-size: 1.5em;
+    font-weight: bolder;
+    color: #1AB26B;
+}
+
+.highlights-subsections p {
+    text-align: center;
+}
+
+#features {
+    position: relative;
+}
+.features-flexbox {
+    background-color: #1AB16A;
+    height: 500px;
+    color: white;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-evenly;
+    align-items: center;
+}
+
+.features-list {
+    width: 50%;
+    display: flex;
+    flex-direction: column;
+}
+
+.features-list div {
+    padding: 3% 30% 0 5%;
+}
+
+.features-list h4 {
+    font-size: 1.2em;
+    padding-bottom: 4%;
+}
+
+.features-list p {
+    font-size: 0.9em;
+}
+
+.features-center-logo {
+    width: 100%;
+}
+
+.features-center-logo > img {
+    width: 100px;
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+}
+
+.features-mockup {
+    width: 40%;
+    display: flex;
+    justify-content: center;
+}
+
+.features-mockup img {
+    width: 250px;
+    
+}
