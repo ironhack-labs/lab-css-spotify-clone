@@ -6,3 +6,69 @@ Green: #00B172
 White: #FFF
 
 */
+body{
+    font-family: 'Raleway', sans-serif;
+}
+
+.enlaces{
+    color: #1A1A1A;
+    display: flex;
+    flex-direction: row;
+    text-decoration: none;
+    list-style: none;
+    justify-content: flex-end;
+}
+
+.navegador{
+    position: sticky;
+    top: 0;
+    height: 45;
+    padding: 10px;
+    display: flex;
+    flex-direction: row;
+    background-color: white;
+    top: 0;
+}
+.enlaces a {
+    padding-top: 20%;
+    display: flex;
+    color: #1A1A1A;
+    text-decoration: none;
+    align-items: center;
+    letter-spacing: 2px;
+}
+
+.background{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    position:relative;
+    background-image: url(../images/landing.jpg);
+    background-position: 0 0;
+    background-repeat: no-repeat;
+    background-size:cover;
+    height: 800px;
+    padding-top:50px;
+  }
+.logo-spoty{
+    width: 10%;
+    padding-right: 2%;
+}
+
+.titulo{
+    text-align: center;
+    color: white;
+}
+
+.titulo h4{
+    font-weight: lighter;
+}
+
+.whatOn{
+    text-align: center;
+}
+hr{
+    width: 15%;
+    height: 3px;
+}
