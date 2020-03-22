@@ -1,8 +1,85 @@
 /*
 Colors:
-
 Text: 1A1A1A
 Green: #00B172
 White: #FFF
-
 */
+/*--------------------1st section and nav bar---------------------*/
+#navbar {
+    display: flex;
+    justify-content: space-between;
+    align-items: flex-end;
+    list-style: none;
+    
+}
+#navbar ul {
+    display: flex;
+    flex-direction: row;
+    list-style: none;
+    justify-content: space-between;
+    align-items: center;
+}
+#spotylogo {
+    height: 60px;
+    width: 200px;
+}
+.hero {
+    background-image: url('../images/landing.jpg');
+    height: 950px;
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+.hero h1 {
+    color: white;
+    text-align: center;
+    padding-top: 400px;
+    font-size: 6vw;
+}
+.hero h3 {
+    color: white;
+    text-align: center;
+    font-size: 2vw;
+}
+/*--------------------2nd section---------------------*/
+#section2 h2 {
+    text-align: center;
+    text-decoration: underline #00B172;
+    font-size: 3vw;
+  }
+  .sec2img {
+      height: 50px;
+      width: 50px;
+  }
+  .row {
+    display: flex;
+    flex-direction:row;
+    text-align: left;
+    justify-content: space-around;
+    padding: 2vw;
+    color:#1A1A1A ;
+  }
+  .row h3 {
+      color:#00B172;
+      font-weight: bolder;
+  }
+
+  /*--------------------3rd section---------------------*/
+
+#section3 {
+    background-color: #00B172;
+    color: white;
+}
+.position{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+}
+#logo {
+    height: 100px;
+    width: 100px;
+}
+#Kanye {
+    height:700px;
+    width: 450px;
+
+}
