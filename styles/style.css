@@ -6,3 +6,138 @@ Green: #00B172
 White: #FFF
 
 */
+@import url('https://fonts.googleapis.com/css?family=Poppins');
+
+body {
+    font-family: 'Poppins';
+    margin: 0em;
+}
+
+.head {
+    padding: 0 25px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.spotify-name {
+    width: 200px;
+    margin-right: 1rem;
+}
+
+nav {
+    width: 400px;
+}
+    
+nav ul {
+    list-style: none;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+    
+nav a {
+    text-decoration: none;
+    color: #1A1A1A;
+}
+
+.hero-image {
+    background-image: url("/home/claudi/Ironhack/labs/lab-css-spotify-clone/images/landing.jpg");
+    background-repeat: no-repeat;
+    background-size: cover;
+    height: 1220px;
+}
+
+.hero-image h1 {
+    text-align: center;
+    padding-top: 320px;
+    font-size: 6em;
+    color: #FFF;
+    margin-bottom: 50px;
+}
+
+.hero-image h3 {
+    text-align: center;
+    font-size: 2em;
+    color: #FFF;
+}
+
+.offer h2 {
+    margin: 50px 700px 50px 700px;
+    font-size: 3em;
+    text-align: center;
+    color: #1A1A1A;
+    border-bottom: solid #00B172 ;
+}
+
+.offers {
+    display: flex;
+    justify-content: space-evenly;
+    text-align: center;
+}
+
+.offers div {
+    flex-direction: column;
+    width: 800px;
+    margin: 50px 15px;
+}
+
+.offers h3{
+    font-size: 1.5em;
+    color:#00B172;
+}
+
+.offers p {
+    font-size: 1.2em;
+}
+  
+.offers img {
+    height: 100px;
+    position: relative;
+}
+
+.artist {
+    background-color: #00B172;
+    margin: 0 50px;
+}
+
+.artist h2 {
+    margin: 50px 1400px 50px 150px;
+    font-size: 3em;
+    text-align: justify;
+    color: #FFF;
+    border-bottom: solid #FFF ;
+}
+
+.triptic{
+    display: flex;
+    justify-content: space-between;
+}
+
+.functions {
+    padding-left: 150px;
+    text-align: justify;
+    color: #FFF;
+}
+
+.functions h3 {
+    font-size: 1.5em;
+}
+
+.functions p {
+    font-size: 1.2em;
+}
+
+
+#icon {
+    height: 150px;
+    margin-top: 200px;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+#app {
+    height: 900px;
+    margin-right: 200px;
+    margin-bottom: 300px;
+}
