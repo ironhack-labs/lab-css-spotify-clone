@@ -6,3 +6,147 @@ Green: #00B172
 White: #FFF
 
 */
+*{
+    font-family: 'Poppins', sans-serif;
+    margin: 0;
+    padding: 0;
+}
+
+nav {
+    display: flex;
+    justify-content: space-between;
+    width: 100%;
+    padding: 5px 5px 5px 10px;
+}
+
+nav ul {
+    display: flex;
+    align-items: center;
+    margin-right: 5%;
+}
+
+nav li {
+    list-style: none;
+    padding-right: 5%;
+}
+
+nav a{
+    color: #1A1A1A;
+    text-decoration: none;
+    margin-left: 10px;
+    align-items: center;  
+    font-size: larger;  
+}
+
+nav img {
+height: 60px;
+align-self: right;
+margin: 10px;
+}
+
+
+.hero {
+    width: 100vw;
+    height: 100vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-image: url(../images/landing.jpg);    
+    background-repeat: no-repeat;
+    background-size: cover;
+    color: white;
+    font-size: 20px;
+    text-align: center;
+}
+
+
+.hero h1{
+    font-size: 6rem;
+}
+
+.hero p{
+    font-size: 2rem;
+    font-weight: 100;
+    margin: 2% 20% 0 20%;
+}
+
+h2{
+    text-decoration: underline;
+}
+
+#what-is-spotify{
+    text-align: center;
+    margin: 2% 0 2% 0;
+}
+
+#what-is-spotify h2{
+text-decoration: non;
+}
+
+.on-spotify{
+    display: flex;
+    flex-direction: row;
+    padding: 2%;
+    
+}
+
+.on-spotify img{
+    width: 20%;
+    height: auto;
+}
+.on-spotify h3{
+    color: #00B172;
+}
+
+
+#features{
+    
+    width: 96%;
+    background-color: #00B172;
+    color: white;
+    margin: auto;
+    /*background-image: url(../images/spotify-icon-white.png);*/
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: 100px;
+    display: flex;
+    flex-direction: row;
+}
+
+
+#features img{
+    height: 400px;
+   justify-content: right;
+
+}
+.features{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    padding: 5%;
+}
+
+
+.features > div{
+    margin-left: 10%;
+    margin-top: 5%;
+}
+
+.features h3{
+    margin: 20px 0 20px 0;
+}
+
+.features p{
+    font-weight: lighter;
+}
+
+.features img{
+ margin: 5%;
+ margin-top:5% ;
+ margin-bottom: 5%;
+ }
+
+
+
+
+
