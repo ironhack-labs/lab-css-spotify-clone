@@ -6,3 +6,143 @@ Green: #00B172
 White: #FFF
 
 */
+
+@import url('https://fonts.googleapis.com/css?family=Roboto:300,400,700&display=swap');
+
+* {
+  box-sizing: border-box;
+  margin: 0;
+  padding: 0;
+}
+
+body {
+  font-family: 'Roboto', Arial, Helvetica, sans-serif;
+  color: #1A1A1A;
+  font-weight: 300;
+}
+
+ul,
+a {
+  list-style: none;
+  text-decoration: none;
+  color: #1A1A1A;
+  margin: 0;
+  padding: 0;
+}
+
+.is-flex {
+  display: flex;
+}
+
+#nav {
+  padding: 10px 25px;
+  background-color: white;
+  justify-content: space-between;
+  position: fixed;
+  width: 100%;
+}
+
+#nav img {
+  height: 40px;
+}
+
+.nav-bar {
+  width: 300px;
+  justify-content: space-between;
+  align-items: center;
+}
+
+#hero {
+  background-image: url("../images/landing.jpg");
+  background-size: cover;
+  background-position: center;
+  color: white;
+  height: 90vh;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  text-align: center;
+}
+
+#hero span {
+  font-size: 1.1em;
+}
+
+#hero h1 {
+  font-size: 3.2em;
+  font-weight: 400;
+  margin: 20px 0;
+}
+
+h2 {
+  font-weight: 400;
+  display: inline-block;
+  border-bottom: 2px solid #00B172;
+  padding-bottom: 2px;
+  margin: 40px auto 20px;
+}
+
+#showcase {
+  text-align: center;
+}
+
+
+.container {
+  justify-content: space-around;
+  align-items: flex-start;
+  margin: 50px auto;
+}
+
+h3 {
+  color: #00B172;
+  font-weight: 400;
+  margin: 25px 0;
+}
+
+.box {
+  width: 175px;
+  margin: 0 auto;
+  text-align: center;
+}
+
+.box img {
+  height: 50px;
+  margin-bottom: 15px;
+}
+
+#kanye {
+  margin: 0 25px 0;
+  background-color: #00B172;
+  color: white;
+  padding: 0 50px;
+  justify-content: space-between;
+  align-items: center;
+  background-image: url("../images/spotify-icon-white.png");
+  background-size: 70px;
+  background-repeat: no-repeat;
+  background-position: center;
+}
+
+.left h2 {
+  border-bottom: solid 2px white;
+}
+
+.left h3 {
+  color: white;
+}
+
+.left {
+  width: 50%;
+}
+
+.kanye-text p {}
+
+.kanye-text {
+  width: 220px;
+  margin-bottom: 50px;
+  line-height: 1.5em;
+}
+
+.right img {
+  width: 250px;
+}
