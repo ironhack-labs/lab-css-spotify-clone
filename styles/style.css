@@ -6,3 +6,191 @@ Green: #00B172
 White: #FFF
 
 */
+
+@import url('https://fonts.googleapis.com/css?family=Roboto:100,400&display=swap');
+@import url('https://fonts.googleapis.com/css?family=Montserrat:100,200,400,500,700&display=swap');
+
+html,
+body {
+    margin: 0;
+    padding: 0;
+}
+
+* {
+    box-sizing: border-box;
+}
+
+.full-size {
+    width: 60%;
+}
+
+body {
+    color: #1A1A1A;
+    font-family: Montserrat, sans-serif;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    padding-bottom: 50px;
+}
+
+header {
+    background: #fff;
+    position: fixed;
+    top: 0;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    line-height: 100px;
+    padding: 0 50px;
+    width: 100%;
+}
+
+header img {
+    height: 50px;
+}
+
+header nav ul,
+header nav li {
+    margin: 0;
+    padding: 0;
+}
+
+header nav ul {
+    display: flex;
+}
+
+header nav li {
+    list-style: none;
+}
+
+header nav a {
+    color: #1A1A1A;
+    text-decoration: none;
+    margin: 0 20px;
+}
+
+#heading {
+    background-image: url("../images/landing.jpg");
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+    color: #FFF;
+    display: flex;
+    height: 600px;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+    width: 100%;
+}
+
+#heading p,
+#heading h1 {
+    margin: 0;
+}
+
+#heading h1 {
+    font-size: 4em;
+}
+
+#heading p {
+    margin-top: 20px;
+    font-size: 1.5em;
+    font-weight: 100;
+}
+
+h2 {
+    margin-top: 30px;
+    margin-bottom: 80px;
+    line-height: 50px;
+    text-align: center;
+    font-size: 2em;
+}
+
+h2.underline {
+    border-bottom: 3px solid #00B172;
+    display: inline-block;
+    text-align: center;
+}
+
+#description {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    padding-bottom: 50px;
+}
+
+.flex-triple {
+    display: flex;
+    justify-content: space-around;
+    align-content: flex-start;
+
+}
+
+#description article {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    text-align: center;
+    width: 33%;
+    flex: 1;
+}
+
+#description article img {
+    height: 100px;
+}
+
+#description article h3 {
+    color: #00B172;
+    font-size: 1.7em;
+    font-weight: 700;
+}
+
+#app {
+    background-color: #00B172;
+    padding: 75px;
+    color: #fff;
+    position: relative;
+}
+
+.wrapper {
+    display: flex;
+    justify-content: space-between;
+    align-items: flex-start;
+}
+
+#app h2,
+#app p {
+    margin: 0;
+    padding: 0;
+}
+
+#app h2 {
+    display: inline-block;
+    text-align: left;
+    border-bottom: 3px solid;
+    font-size: 2em;
+    font-weight: 500;
+}
+
+#app h3 {
+    font-size: 1.6em;
+    font-weight: 700;
+}
+
+#app article {
+    margin-top: 15px;
+    width: 30%;
+}
+
+#app .app {
+    width: 250px;
+}
+
+#app .icon {
+    flex: initial;
+    width: 100px;
+    position: absolute;
+    top: calc(50% - 50px);
+    left: calc(50% - 50px);
+}
