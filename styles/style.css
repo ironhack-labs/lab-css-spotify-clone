@@ -1,12 +1,135 @@
-/*
-Colors:
-
-Text: 1A1A1A
-Green: #00B172
-White: #FFF
-
-*/
-@import url("https://fonts.googleapis.com/css?family=Roboto&display=swap");
+@import url("https://fonts.googleapis.com/css?family=Roboto:300,400&display=swap");
 * {
   font-family: "Roboto", sans-serif;
+  margin: 0;
+  padding: 0;
+}
+a {
+  text-decoration: none;
+}
+/* header */
+header {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 12px;
+  position: sticky;
+  top: 0;
+  background-color: #fff;
+  z-index: 1;
+}
+header a {
+  color: #1a1a1a;
+}
+.logo {
+  height: 50px;
+}
+
+header ul {
+  display: flex;
+}
+header li {
+  list-style-type: none;
+  margin-right: 20px;
+}
+/* hero */
+.hero {
+  color: #fff;
+  background: center / cover no-repeat url("../images/landing.jpg");
+  padding-top: 180px;
+  padding-bottom: 280px;
+  text-align: center;
+}
+.hero h2 {
+  font-size: 64px;
+}
+.hero h3 {
+  margin-top: 12px;
+  font-weight: 300;
+  font-size: 24px;
+}
+/* content */
+.desc-icon img {
+  width: 85px;
+}
+.content h3 {
+  margin-left: auto;
+  margin-right: auto;
+  margin-bottom: 50px;
+  width: 290px;
+  text-align: center;
+  font-size: 35px;
+  padding-bottom: 5px;
+  border-bottom: 3px solid #00b172;
+}
+.content {
+  padding-bottom: 70px;
+  padding-top: 70px;
+}
+.desc-container {
+  display: flex;
+  padding-left: 20px;
+  padding-right: 20px;
+}
+.desc-box {
+  display: flex;
+  flex: 1;
+  flex-direction: column;
+
+  text-align: center;
+}
+.desc-box h4 {
+  color: #00b172;
+  font-size: 24px;
+}
+.desc-box p {
+  font-size: 18px;
+  font-weight: 300;
+}
+/* footer */
+footer {
+  background-color: #00b172;
+  color: #fff;
+  padding: 70px;
+}
+.footer-logo {
+  width: 110px;
+  height: 110px;
+  margin-left: -55px;
+  margin-top: -55px;
+  position: absolute;
+  top: 50%;
+  left: 50%;
+}
+.yeezy h3 {
+  font-size: 24px;
+  border-bottom: 3px solid #fff;
+  display: inline-block;
+}
+
+footer {
+  position: relative;
+  display: flex;
+  justify-content: space-between;
+}
+.phone img {
+  width: 272px;
+}
+.footer-boxes {
+  display: flex;
+  height: 100%;
+  flex-direction: column;
+  width: 270px;
+}
+.footer-box {
+  display: flex;
+  height: 100%;
+  flex-direction: column;
+  justify-content: space-evenly;
+}
+.footer-box h4 {
+  font-size: 24px;
+}
+.footer-box p {
+  font-size: 18px;
 }
