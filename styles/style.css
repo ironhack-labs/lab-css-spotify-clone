@@ -5,10 +5,13 @@ Green: #00B172
 White: #FFF
 */
 /*--------------------1st section and nav bar---------------------*/
+body {
+    font-family: 'Roboto', sans-serif;
+}
 #navbar {
+    position: fixed; top:0;
     display: flex;
-    justify-content: space-between;
-    align-items: flex-end;
+    text-align: flex-end;
     list-style: none;
     
 }
@@ -16,9 +19,14 @@ White: #FFF
     display: flex;
     flex-direction: row;
     list-style: none;
-    justify-content: space-between;
-    align-items: center;
+    align-items: flex-end;
+    float: inline-end;
 }
+/* no consigo poner la Ul del nav a la derecha*/
+
+#navbar li {
+    padding: 10px;
+   }
 #spotylogo {
     height: 60px;
     width: 200px;
@@ -46,6 +54,9 @@ White: #FFF
     text-decoration: underline #00B172;
     font-size: 3vw;
   }
+  #section2 p {
+      color: lightgray;
+  }
   .sec2img {
       height: 50px;
       width: 50px;
@@ -54,7 +65,7 @@ White: #FFF
     display: flex;
     flex-direction:row;
     text-align: left;
-    justify-content: space-around;
+    justify-content: space-evenly;
     padding: 2vw;
     color:#1A1A1A ;
   }
@@ -68,18 +79,29 @@ White: #FFF
 #section3 {
     background-color: #00B172;
     color: white;
+    height: 450px;
+}
+#section3 h2 {
+    text-decoration: underline;
 }
 .position{
     display: flex;
     flex-direction: row;
-    justify-content: space-between;
+    justify-content: space-evenly;
+    align-items: center;
 }
 #logo {
+    display: flex;
+    justify-content: center;
+    align-items: center;
     height: 100px;
     width: 100px;
 }
-#Kanye {
-    height:700px;
-    width: 450px;
+
+#kanye {
+    height: 400px;
+    width: 250px;
+    padding-top: 20px;
+  
 
 }
