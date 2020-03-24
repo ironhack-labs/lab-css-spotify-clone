@@ -7,18 +7,20 @@
     <title>Spotify Clone</title>
     <link rel="stylesheet" href="styles/style.css"/>
     <link href="https://fonts.googleapis.com/css?family=Roboto:100,300,400,500,700,900&display=swap" rel="stylesheet">
+    <link href="https://use.fontawesome.com/releases/v5.0.1/css/all.css" rel="stylesheet"/>
   </head>
 
   <body>
     <header>
       <div id="navbar">
-        <img class="logo" src="images/spotify-logo.png" alt="Spotify logo">
-        <div class="navbar-menu">
+        <img id="navbar-logo" src="images/spotify-logo.png" alt="Spotify logo">
+        <i id="compact-menu" class="fas fa-bars"></i>
+        <div id="navbar-menu">
           <ul>
-            <li> Premium </li>
-            <li> Discover </li>
-            <li> Help </li>
-            <li> Download </li>
+            <li><a href="/premium"> Premium </a></li>
+            <li><a href="/discover"> Discover </a></li>
+            <li><a href="/help"> Help </a></li>
+            <li><a href="/download"> Download </a></li>
           </ul>
         </div><!-- navbar-menu -->
       </div><!-- navbar -->
@@ -66,29 +68,24 @@
       </section><!-- section content -->
 
       <section id="sample">
-          <h2> It's as yeezy as Kanye West. </h2>
-          <div id="flex-sample">
-            <div id="sample-left">
-              <h3 class="sample-h3"> Search </h3>
-              <p class="sample-p"> Search Know what you want to listen to? Just search and hit play. </p>
+        <img id="spotify-icon" src="images/spotify-icon-white.png" alt="Floating Spotify Icon">
+        <h2> It's as yeezy as Kanye West. </h2>
+        <div id="flex-sample">
+          <div id="sample-left">
+            <h3> Search </h3>
+            <p class="sample-p"> Search Know what you want to listen to? Just search and hit play. </p>
 
-              <h3 class="sample-h3"> Browse </h3>
-              <p class="sample-p"> Check out the latest charts, brand new releases and great playlists for right now. </p>
+            <h3 class="sample-h3"> Browse </h3>
+            <p class="sample-p"> Check out the latest charts, brand new releases and great playlists for right now. </p>
 
-              <h3 class="sample-h3"> Discover </h3>
-              <p class="sample-p last"> Enjoy new music every Monday with your own personal playlist. Or sit back and enjoy Radio. </p>
+            <h3 class="sample-h3"> Discover </h3>
+            <p class="sample-p last"> Enjoy new music every Monday with your own personal playlist. Or sit back and enjoy Radio. </p>
 
-            </div><!-- sample-left -->
-            <img id="spotify-icon" src="images/spotify-icon-white.png" alt="Floating Spotify Icon">
-            <img id="screen-app" src="images/spotify-app.jpg" alt="Spotify app">
-          </div><!-- flex-sample -->
+          </div><!-- sample-left -->
+          <img id="screen-app" src="images/spotify-app.jpg" alt="Spotify app">
+        </div><!-- flex-sample -->
       </section><!-- section sample -->
+      <div> HELLO </div>
     </main>
   </body>
 </html>
-
-
-<!--
-Enjoy new music every Monday with your
-own personal playlist. Or sit back and enjoy Radio.
--->

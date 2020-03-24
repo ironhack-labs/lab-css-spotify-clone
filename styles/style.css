@@ -1,18 +1,41 @@
+/*          GENERAL           */
+
 body {
   margin: 0;
   font-family: 'Roboto', 'sans-serif';
   color: #1A1A1A;
 }
 
+h1 {
+  text-align: center;
+  font-size: 3.5rem;
+  font-weight: 400;
+  margin-top: 0;
+  letter-spacing: 1px;
+}
+
 h2 {
-  font-size: 26px;
+  font-size: 1.8rem;
   text-decoration: underline;
   text-underline-position: under;
 }
 
 h3 {
-  font-size: 22px;
+  font-size: 1.4rem;
 }
+
+a {
+  text-decoration: none;
+  color: #1A1A1A;
+}
+
+a:hover {
+  color: lightgrey;
+}
+
+/*          HEADER           */
+/*          NAVBAR           */
+
 
 #navbar {
   display: flex;
@@ -23,21 +46,40 @@ h3 {
   align-items: center;
 }
 
-.logo {
+#navbar-logo {
   width: 150px;
   padding: 15px;
 }
 
-.navbar-menu ul {
+@media screen and (max-width: 549px) {
+  #navbar-menu {
+    display: none;
+  }
+}
+
+@media screen and (min-width: 550px) {
+  #compact-menu {
+    display: none;
+  }
+}
+
+#compact-menu {
+  padding-right: 15px;
+}
+
+#navbar-menu ul {
   display: flex;
   justify-content: space-between;
 }
 
-.navbar-menu ul li {
+#navbar-menu ul li {
   list-style: none;
   padding: 0 10px;
   font-weight:400;
 }
+
+/*             HEADER           */
+/*          LANDING IMAGE           */
 
 #landing {
   background-image: url('../images/landing.jpg');
@@ -47,26 +89,19 @@ h3 {
 }
 
 .landing-text {
-  position: relative;
-  top: 200px;
-}
-
-#landing h1 {
+  padding-top: 200px;
   color: #FFF;
-  text-align: center;
-  font-size:56px;
-  font-weight: 400;
-  margin-top: 0;
-  letter-spacing: 1px;
 }
 
 #landing p {
-  color: #FFF;
   font-weight: 200;
   font-size:20px;
   text-align: center;
   letter-spacing: 1px;
 }
+
+/*          MAIN           */
+/*         CONTENT         */
 
 main {
   margin : 0 20px;
@@ -101,12 +136,16 @@ main {
 }
 
 .card-p {
-  font-size: 18px;
+  font-size: 1.2rem;
   text-align: center;
   line-height: 1.4em;
 }
 
+/*          MAIN           */
+/*         SAMPLE         */
+
 #sample {
+  position:relative;
   background-color: #00B172;
   padding: 60px;
   margin-top: 40px;
@@ -117,7 +156,7 @@ main {
   display:flex;
   justify-content: space-between;
   align-items: center;
-  flex-wrap: wrap;
+  flex-wrap: nowrap;
 }
 
 #sample h2 {
@@ -125,18 +164,25 @@ main {
   margin-top: 0;
 }
 
-.sample-h3 {
+#sample-left {
+  margin-right:20px;
+  }
+
+#sample-left h3 {
   font-weight: 400;
 }
 
-.sample-p {
+#sample-left p {
   font-weight: 200;
+  line-height: 1.4em;
   width: 300px;
 }
 
 #spotify-icon {
+  position:absolute;
+  left:45%;
+  top:45%;
   width:100px;
-  margin: 70px;
 }
 
 .last {
@@ -145,4 +191,5 @@ main {
 
 #screen-app {
   width: 200px;
+  margin-left:20px;
 }
