@@ -6,3 +6,166 @@ Green: #00B172
 White: #FFF
 
 */
+
+@import url('https://fonts.googleapis.com/css?family=Montserrat:300,400,500&display=swap');
+
+body {
+	margin: 0;
+	padding: 0;
+	font-family: 'Montserrat';
+}
+
+header {
+	display: flex;
+	justify-content: space-between;
+	align-items: center;
+}
+
+/* nav {
+	/* position: fixed; */
+/* float: right; */
+/* } */
+
+ul {
+	display: flex;
+	counter-reset: list;
+	margin: 1rem 1rem 1rem 0;
+}
+
+li {
+	justify-content: space-between;
+	padding-left: 1.5rem;
+	padding-right: 1.5rem;
+	list-style: none;
+}
+
+a {
+	color: inherit;
+	text-decoration: none;
+}
+
+#spotify-logo {
+	height: 5rem;
+	width: auto;
+	margin: 1rem 0 1rem 2.5rem;
+}
+
+.container {
+	background-image: url("../images/landing.jpg");
+	background-size: cover;
+	background-repeat: no-repeat;
+	background-position: center;
+	width: auto;
+	height: 100vmin;
+	color: white;
+	text-align: center;
+	display: flex;
+	flex-direction: column;
+	align-items: center;
+	justify-content: center;
+}
+
+h1 {
+	font-size: 6rem;
+	font-weight: bold;
+}
+
+.container p {
+	white-space: pre-line;
+	font-size: 2rem;
+	font-weight: lighter;
+	margin-top: 0;
+	margin-bottom: 7.5rem;
+}
+
+.what-is-spotify {
+	text-align: center;
+	margin-top: 4rem;
+	margin-bottom: 8rem;
+}
+
+.what-is-spotify h2 {
+	color: #1a1a1a;
+	font-size: 2rem;
+	margin-bottom: 8rem;
+}
+
+.underline-green {
+	border-bottom: 3.5px solid #00b172;
+	display: inline-block;
+	line-height: 3rem;
+}
+
+.middle-element {
+	display: flex;
+	justify-content: space-evenly;
+}
+
+.middle-element img {
+	height: 7.5rem;
+	width: auto;
+}
+
+.middle-element h3 {
+	color: #00b172;
+	font-size: 1.5rem;
+}
+
+.middle-element p {
+	white-space: pre-line;
+	font-size: 1.5rem;
+}
+
+.white-frame {
+	background-color: white;
+	padding: 0 4rem 0 4rem;
+}
+
+.bottom-element {
+	background-color: #00b172;
+	color: white;
+	width: auto;
+	height: 100vh;
+	display: flex;
+	justify-content: space-around;
+	align-items: center;
+}
+
+.feature-text div {
+	width: fit-content;
+	height: auto;
+	margin-bottom: 2rem;
+}
+
+.feature-text h2 {
+	font-size: 2.5rem;
+	margin-bottom: 3rem;
+}
+
+.underline-white {
+	border-bottom: 3.5px solid white;
+	display: inline-block;
+	line-height: 4rem;
+}
+
+.feature-text h3 {
+	font-size: 1.5rem;
+	margin-bottom: 2.5rem;
+}
+
+.feature-text p {
+	white-space: pre-line;
+	font-size: 1.5rem;
+	line-height: 2rem;
+}
+
+#spotify-icon-white {
+	width: auto;
+	height: 20%;
+	position: absolute;
+}
+
+#spotify-app {
+	width: auto;
+	height: 75%;
+}
