@@ -1,8 +1,163 @@
-/*
-Colors:
+* {
+    box-sizing: border-box;
+}
 
-Text: 1A1A1A
-Green: #00B172
-White: #FFF
+@import url("https://fonts.googleapis.com/css?family=Roboto:100,400,500&display=swap");
 
-*/
+html {
+  font-family: "Roboto", sans-serif;
+  font-size: 18px;
+}
+
+h1, body, html, main {
+    margin: 0;
+}
+
+/*Iteration 1*/
+
+.navbar {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    position: fixed;
+    height: 80px;
+    width: 100%;
+    background-color: white;
+    padding: 10px 30px;
+}
+
+.navbar img {
+    height: 100%;
+}
+
+.navbar-ul {
+    display: flex;
+}
+
+.navbar-ul li {
+    list-style-type: none;
+    text-align: center;
+    margin: 20px;
+}
+
+.navbar a {
+    text-decoration: none;
+    color: black;
+}
+
+/*Iteration 2*/
+
+.header {
+    height: 800px;
+    background-image: url("../images/landing.jpg");
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+}
+
+.header h1, .header p {
+    color: white;
+}
+
+.header h1 {
+    font-size: 4em;
+    font-weight: 400;
+}
+
+.header p {
+    font-size: 1.5em;
+    font-weight: 100;
+    width: 50%;
+    text-align: center;
+    line-height: 1.5em;
+}
+
+/*Iteration 3*/
+
+.features {
+    padding: 20px;
+}
+
+.features h2 {
+    text-align: center;
+    font-size: 2em;
+    font-weight: 600;
+}
+
+.articles {
+    display: flex;
+}
+
+.articles img {
+    height: 60px;
+}
+
+.articles article {
+    flex: 1;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    text-align: center;
+    padding: 40px;
+}
+
+.articles h3 {
+    color: #00B172;
+    font-weight: bold;
+    font-size: 1.5em;
+}
+
+.articles p {
+    font-size: 1.2em;
+    line-height: 1.5em;
+}
+
+/*Iteration 4*/
+
+.green-section {
+    background-color: #00B172;
+    height: 800px;
+    background-image: url("../images/spotify-icon-white.png");
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: 10%;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 100px;
+}
+
+.app-screenshot img {
+    height: 500px;
+}
+
+.green-text {
+    color: white;
+    line-height: 1.7em;
+}
+
+.green-text h2 {
+    text-decoration: underline;
+    text-underline-position: under;
+    font-size: 2em;
+    font-weight: 300;
+}
+
+.green-text p {
+    width: 400px;
+    font-size: 1.2em;
+    line-height: 1.5em;
+    font-weight: 100;
+}
+
+.green-text h3 {
+    font-size: 1.5em;
+}
+
+.green-text > :nth-child(2) {
+    margin-top: 50px;
+}
