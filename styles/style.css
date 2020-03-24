@@ -6,3 +6,156 @@ Green: #00B172
 White: #FFF
 
 */
+* {
+    margin: 0;
+    padding: 0;
+    font-family: sans-serif;
+}
+
+.menu {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    background-color: white;
+    position: fixed;
+    top: 0;
+    right: 0;
+    left: 0;
+    padding: 15px;
+    border-bottom: #00B172 1px solid;
+}
+
+.menu figure {
+    width: 200px;
+}
+
+.menu img {
+    width: 100%;
+}
+
+.menu nav ul {
+    display: flex;
+    list-style-type: none;
+}
+
+.menu nav ul li {
+    margin: 0 15px;
+}
+
+.menu nav ul a {
+    text-decoration: none;
+    color: #1a1a1a;
+    font-size: 1.1em;
+    font-weight: 200;
+}
+
+#hero {
+    background-image: url(../images/landing.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: 0 0;
+    height: 100vh;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    color: white;
+}
+
+#hero h1 {
+    font-size: 4.5em;
+    font-weight: 400;
+    margin-bottom: 30px;
+}
+
+#hero p {
+    font-size: 1.65em;
+    font-weight: 100;
+    margin-top: 5px;
+}
+
+#info {
+    padding: 40px 0;
+}
+
+#info h2 {
+    display: block;
+    margin: 20px auto;
+    width: 307px;
+    font-size: 2.3em;
+    text-align: center;
+    color: #1a1a1a;
+    font-weight: 500;
+    border-bottom: solid 4px #00B172;
+    padding-bottom: 5px;
+}
+
+#article-info {
+    display: flex;
+    justify-content: space-evenly;
+    padding: 20px 15px;
+}
+
+#article-info img {
+    display: block;
+    margin: 0 auto;
+    height: 80px;
+}
+
+#article-info h3 {
+    font-size: 1.5em;
+    color: #00B172;
+    text-align: center;
+    margin: 15px 0;
+}
+
+#article-info p {
+    width: 250px;
+    font-size: 1.3em;
+    text-align: center;
+    font-weight: 100;
+}
+
+#example {
+    background-color: #00B172;
+    padding: 80px;
+    color: white;
+    display: flex;
+    justify-content: space-between;
+    background-image: url(../images/spotify-icon-white.png);
+    background-repeat: no-repeat;
+    background-size: 7em;
+    background-position: 50% 50%;
+}
+
+#example h2 {
+    display: block;
+    margin: 20px 0;
+    width: 470px;
+    font-size: 2.3em;
+    font-weight: 500;
+    border-bottom: solid 4px #fff;
+    padding-bottom: 5px;
+}
+
+#example figure {
+    width: 300px;
+    padding-top: 60px;
+}
+
+#example img {
+    width: 100%;
+}
+
+#example h3 {
+    margin: 40px 0;
+    font-size: 1.6em;
+    font-weight: 500;
+}
+
+#example p {
+    width: 250px;
+    font-size: 1.2em;
+    font-weight: 100;
+    line-height: 23px;
+}
