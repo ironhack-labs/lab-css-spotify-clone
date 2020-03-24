@@ -12,18 +12,22 @@ White: #FFF
     
 }
 nav {
-    
+    position: fixed;
+    background-color: white;
     border: solid;
-    height:60px;
+    height:80px;
     display: flex;
     justify-content :space-between;
+    
 
 }
 nav img {
     height:90%;
     width:20%;
+    margin: 5px;
 }
 .list {
+    font-size:150%;
     display: flex;
     list-style-type: none;
     width:40%;
@@ -38,7 +42,7 @@ body {
 
 header{
     background-image: url("../images/landing.jpg");
-    height: 80vh;
+    height: 100vh;
     background-size:cover;
     background-position: center;
     width: 100%;
@@ -49,58 +53,105 @@ header{
     flex-direction: column;
     justify-content: center;
 }
+
+h1{
+    font-family:serif;
+    font-size: 500%;
+    margin-bottom: 20px;
+}
+aside{
+    font-family:serif;
+    font-size: 200%;
+    text-align: center;
+}
+
 section {
     height: 500px;
     width: 100%vh;
 }
 h2 {
+    font-size: 200%;
     text-align: center;
     margin: 50px 0px;
     
 }
 .teal-title {
-    border-bottom:solid;
-    border-bottom-color: teal;
+    border-bottom:solid teal;
 }
 
 .all-functionalities {
+    margin-top:100px;
     display: flex; 
     justify-content: space-evenly;  
 }
 .functionalities{
+    height:300px;
     display: flex;
     flex-direction: column; 
     align-items: center;
+    justify-content: space-between;
     margin: 0 auto;
 }
 .functionalities img{
-    height:90%;
-    width:20%;
+    height:40%;
+    width:40%;
+}
+.functionalities h3 {
+    color:teal;
+    font-size: 200%;  
+}
+.functionalities p{
+    font-size: 180%;
+    margin-top: 20px;
+    text-align: center;
 }
 
 footer {
     height: 500px;
-    width: 100%;
+    width: 100%vh;
     color:white;
 }    
 .footer-div {
     display: flex;
     flex-direction: column; 
     align-items: center;
-    background-color: green;
+    background-color: #00B172;
     height: 100%;
     width: 100%;
 
 }
     
-}
 .white-title {
     border-bottom:solid;
     border-bottom-color:white;
 }
-h3 {
-    
-}
 .footer-text {
+    background-color: #00B172;
+    display: flex;
+    justify-content: space-evenly;
+    align-items: center;
+    text-align:center;
+}
+.footer-text h3 {
+    color: #FFF;
+    font-size: 200%; 
+    text-align: justify;
+    margin-top: 10px;
+}
+.footer-paragraph{
+    text-align: justify;
+}
+
+.bottom-logo{
+    height: 25vh;
+    width: 25vh;
+    margin-top: 20px;
+    margin-right: 150px;
+}
+
+.player{
+    height: 500px;
+    width: 300px;
+    
     
 }
