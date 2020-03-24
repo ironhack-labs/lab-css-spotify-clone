@@ -6,3 +6,169 @@ Green: #00B172
 White: #FFF
 
 */
+
+/* UNIVERSAL */
+
+body, html {
+    font-family: Roboto,sans-serif;
+    margin: 0;
+
+}
+
+/* CONTAINER */
+
+.container {
+    max-width: 1000px;
+    margin: 0 auto;
+}
+
+/* NAV */
+
+nav {
+    position: sticky;
+    top: 0;
+    background: white;
+    box-shadow: black ;
+    -webkit-box-shadow: 0px 0px 10px 3px rgba(0,0,0,0.4);
+    -moz-box-shadow: 0px 0px 10px 3px rgba(0,0,0,0.4);
+    box-shadow: 0px 0px 10px 3px rgba(0,0,0,0.4);
+    padding: 10px 10px 10px 10px;
+}
+
+nav .nav {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.logo img {
+    width: 120px;
+}
+
+nav ul {
+    align-content: flex-end;
+    list-style: none;
+    display: flex;
+    width: 300px;
+    justify-content: space-between;
+    font-weight: 200;
+}
+
+nav li {
+}
+
+/* HERO */
+
+.hero {
+    height: 420px;
+    background-image: url("/images/landing.jpg");
+    background-size: cover;
+    background-position: center center;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    color: white;
+}
+
+.hero h1 {
+    font-weight: 400;
+    font-size: 3em;
+    margin: 0px;
+}
+
+.hero p {
+    font-weight: 200;
+    width: 450px;
+    text-align: center;
+    font-size: 1.2em;
+}
+
+/* INFO */
+
+.info {
+    margin: 40px;
+}
+
+#infotitle {
+    display: flex;
+    justify-content: center;
+}
+
+#infotitle h2 {
+    border-bottom: 3px solid #00B172;
+    font-weight: 500;
+    font-size: 1.5em; 
+}
+
+.info-container {
+    display: flex;
+    justify-content: space-around;
+}
+
+.infobox {
+    margin: 5px;
+    width: 30%;
+    text-align: center;
+}
+
+.infobox img {
+    width: 30%;
+}
+
+.infobox h3 {
+    color: #00B172
+}
+
+.infobox p {
+    font-weight: 200;
+}
+
+/* YEEZY */
+
+.yeezy {
+    background: #00B172;
+    background-image: url("/images/spotify-icon-white.png");
+    background-size: 60px;
+    background-position: center center;
+    background-repeat: no-repeat;
+    margin: 40px;
+    color: white;
+    display: flex;
+}
+
+.yeezy .text {
+    flex: 1;
+    padding: 20px 40px;
+}
+
+.yeezy .text h2 {
+    font-weight: 500;
+    font-size: 1.2em;
+    padding-bottom: 10px;
+    border-bottom: 2px solid white;
+    display: inline-block;
+}
+
+.yeezy .text h3 {
+    font-weight: 700;
+    font-size: 1em;
+}
+
+.yeezy .text p {
+    width: 70%;
+    font-weight: 200;
+    font-size: .8em;
+}
+
+.yeezy .screenshot {
+    flex: 1;
+}
+
+.yeezy img {
+    display: block;
+    width: 200px;
+    margin: 40px auto;
+    justify-content: center;
+    align-items: center;
+}
