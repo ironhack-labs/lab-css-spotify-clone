@@ -3,6 +3,178 @@ Colors:
 
 Text: 1A1A1A
 Green: #00B172
-White: #FFF
+White: #FFF*/
 
-*/
+* {
+    margin: 0;
+    padding: 0;
+}
+
+body {
+    position: relative;
+    width: 100%;
+    font-family: sans-serif;
+    background-color: #FFF;
+    font-size: 2.5em;
+}
+
+.logo {
+    padding: 20px 40px;
+    display: flex;
+    justify-content: space-between;
+
+}
+
+.logo img {
+    width: 300px;
+}
+
+.logo nav {
+    position: fixed;
+    right: 0;
+    margin-right: 40px;
+    padding: 0 20px;
+    background-color: #FFF;
+    border-radius: 20px;
+}
+
+.logo nav ul {
+    list-style: none;
+    display: flex;
+    justify-content: space-evenly;
+
+}
+
+.logo nav ul li {
+    margin: 20px 10px;
+}
+
+.logo nav ul li a {
+    font-size: 1.1em;
+    color: black;
+    text-decoration: none;
+}
+
+
+.hero {
+    display: block;
+    height: 2000px;
+    background-image: url("../images/landing.jpg");
+    background-size: cover;
+    background-repeat: no-repeat;
+    color: #FFF;
+    max-width: 100%;
+
+}
+
+.about_us {
+    /*width: 800px;*/
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    margin: 0 auto;
+}
+
+.about_us h2 hr {
+    background-color: #00B172;
+    height: 5px;
+    width: 100%;
+}
+
+.about_us section {
+    display: flex;
+    align-items: center;
+}
+
+.about_us section article h3 {
+    color: #00B172;
+}
+
+
+.brouser_download {
+    background-color: #00B172;
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    margin: 0 50px;
+    padding: 0 700px;
+
+}
+
+.brouser_download article,
+.brouser_download h2,
+.brouser_download figure {
+    padding: 50px 50px;
+    color: #FFF
+}
+
+.brouser_download article,
+.brouser_download figure {
+    /*display: flex;
+    flex-direction: row;
+    justify-content: center;
+    width: 50%;*/
+}
+
+.brouser_download article {
+    display: flex;
+    flex-direction: column;
+}
+
+.brouser_download hr {
+    background-color: #FFF;
+    height: 5px;
+    width: 100%;
+}
+
+.brouser_download p {
+    padding-top: 20px;
+
+
+}
+
+.brouser_download figure {
+    padding-top: 40px;
+}
+
+.brouser_download figure img {
+    width: 600px;
+}
+
+.logo_animacion {
+    position: absolute;
+    top: 80%;
+    left: 50%;
+    animation-name: rotation;
+    animation-duration: 3s;
+    animation-iteration-count: infinite;
+
+
+}
+
+.logo_animacion:hover {
+    animation-play-state: paused;
+
+}
+
+.logo_animacion img {
+    width: 300px;
+}
+
+@keyframes rotation {
+    0% {
+        transform: rotate(0deg);
+    }
+
+    25% {
+        transform: rotate(90deg);
+    }
+
+    50% {
+        transform: rotate(180deg);
+    }
+
+    100% {
+        transform: rotate(360deg);
+    }
+}
