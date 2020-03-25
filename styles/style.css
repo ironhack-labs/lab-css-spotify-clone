@@ -47,14 +47,14 @@ margin-right: 20px;
 }
 
 #spotify-logo {
-    width: 180px;
-    height:45px;
+    width: 190px;
+    height:55px;
     padding-left: 20px;
      margin: 10px;
 }
 
 header {
- background-image: url("/lab-css-spotify-clone/images/landing.jpg");
+ background-image: url("../images/landing.jpg");
   background-position: 0 0;
   background-repeat: no-repeat;
   background-size: cover;
@@ -79,7 +79,7 @@ text-align: center;
 
 #div-header>p {
     color:white;
-    font-size: 20px;
+    font-size: 25px;
     top: 50%;
     left: 50%;
     padding: 20px;
@@ -90,21 +90,25 @@ text-align: center;
     justify-content: center;
 }
 
-#section-2>h2 {
-    text-align: center;
+#section-2 h2 {
     font-size: 30px;
     margin-top: 30px;
-    margin-bottom: 35px;
-}
-
-h3 {
-   color:#00B172;
+    margin-bottom: 10px;
+    display: inline-block;
+    border-bottom: 3px solid #00B172;
+    width:max-content;
+    padding-bottom: 5px;
+    text-align: center;
 }
 
 #spotify-info {
    height: 300px;
    text-align: center;
    margin-bottom: 10px;
+}
+
+#section-2 h3 {
+    color: #00B172;
 }
 
 .container {
@@ -118,10 +122,11 @@ h3 {
 }
 
 .container  p{
-      margin: 10px 30px;
+      margin: 10px 50px;
       position: absolute;
       bottom: 80px;
       left: 20px;
+      font-size: 20px;
 }
 
 .info-imgs {
@@ -147,16 +152,15 @@ justify-content: space-evenly;
 margin-top: 40px;
 }
 
-.text-green-box>h3{
+#section-3 h3{
     font-size: 30px;
     color: white;
+    display: inline-block;
+    border-bottom: 3px solid white;
+    width: max-content;
+    padding-bottom: 5px;
 }
 
-hr{
-    width: 372px;
-    margin-top: 10px;
-    color: white;
-}
     
 .service-box {
     text-align: left;
