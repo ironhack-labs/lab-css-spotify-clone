@@ -9,7 +9,7 @@ White: #FFF
 
 * {
     font-family: Helvetica;
-    background-color: white;
+    box-sizing: border-box;
     margin: 0;
     padding: 0;
 }
@@ -34,7 +34,6 @@ White: #FFF
     width: 150px;
     height: auto;
     margin-left: 10px;
-    background-color: white;
     /*border: 1px dashed red;*/
 }
 
@@ -42,7 +41,6 @@ White: #FFF
     width: 300px;
     color: #1A1A1A;
     font-weight: 150;
-    background-color: white;
     margin-right: 10px;
     list-style-type: none;
     display: flex;
@@ -72,6 +70,7 @@ h1 {
 h3 {
     font-size: 25px;
     font-weight: 400;
+
 }
 
 .header  p {
@@ -86,21 +85,14 @@ h3 {
     display: flex;
     flex-direction: column;
     align-items: center;
-    
 }
 
-.whatIs h3, hr {
-    width: 185px;
-    display: flex;
-    justify-content: center;  
+.whatIs h3 {
+    border-bottom: 2px solid #00B172;
 }
 
-.whatIs hr {
-    height: 2px;
-    margin: 4px;
-    background-color: #00B172;
-    border-style: none;
-}
+
+
 
 .whatIsSub {
     display: flex;
@@ -138,6 +130,7 @@ h3 {
     width: 95vw;
     height: 60vh;
     margin: 20px auto; 
+    padding: 2em;
     position: relative;
     display: flex;
     justify-content: space-between;
@@ -146,6 +139,7 @@ h3 {
 
 .greenSec > .whiteLogo {
     position: absolute;
+    z-index: 0;
     width: 150px;
     background: none;
     margin: auto;
@@ -158,26 +152,25 @@ h3 {
 .greenSec article {
     width: 40vw;
     height: 60vh;
-    background-color: #00B172;
 }
 
 .greenSec > .landing {
     height: 50vh;
+    z-index: 1;
 }
 
 .features  {
-    background-color: #00B172;
     color: white;;
 }
 
-.features p, h3, h4 {
+.features p, .features h3, .features h4 {
     text-align: left;
     margin: 10px 0 40px 0;
-    background-color: #00B172;
     color: white;
 }
 
 .features h3 {
-    width: 95vw;
+    
+    border-bottom: 2px solid white;
     
 }
