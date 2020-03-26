@@ -6,3 +6,157 @@ Green: #00B172
 White: #FFF
 
 */
+
+:root {
+    --custoTxtCol: 1a1a1a;
+    --custoGreen: #00b172;
+    --custoWhite: #fff;
+    width: 60%;
+    margin: 0 auto;
+    font-family: Circular, Helvetica, Arial, sans-serif;
+    font-size: 15px;
+}
+
+h1 {
+    font-size: 4rem;
+}
+
+h2 {
+    font-size: 2rem;
+}
+
+h3 {
+    font-size: 1.5rem;
+}
+
+#section1 {
+    padding: 10px;
+}
+
+a {
+    text-decoration: none;
+    color: var(--custoTxtCol);
+}
+
+.nav-bar-top {
+    position: fixed;
+}
+nav {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+nav ul {
+    list-style: none;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+    font-size: 1.2rem;
+}
+
+li {
+    padding: 10px;
+}
+
+nav img {
+    width: 15%;
+}
+
+#header-image {
+    width: 100%;
+}
+
+#section2 {
+    background-image: url(../images/landing.jpg);
+    background-size: cover;
+    background-position: center;
+    height: 90vh;
+    margin: 0;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    text-align: center;
+}
+
+#section2 h1,
+#section2 p {
+    color: var(--custoWhite);
+}
+
+#section2 p {
+    font-size: 1.5rem;
+    width: 45%;
+}
+
+#section3 {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: space-between;
+    height: 50vh;
+    margin: 3% auto;
+}
+
+#section3 h2 {
+    text-decoration: underline var(--custoGreen);
+    text-underline-position: under;
+    text-decoration-thickness: 10%;
+}
+
+#section3 img {
+    width: 25%;
+}
+
+.section3-articles {
+    display: flex;
+    justify-content: space-between;
+}
+
+.section3-articles div {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.section3-articles div h3 {
+    color: var(--custoGreen);
+}
+
+.section3-articles p {
+    width: 55%;
+    text-align: center;
+    font-size: 1.3rem;
+    color: grey;
+}
+
+#section4 {
+    background-color: var(--custoGreen);
+    color: var(--custoWhite);
+    display: flex;
+    justify-content: space-around;
+    position: relative;
+    height: 530px;
+    padding-top: 3%;
+    align-items: center;
+    margin: auto 3%;
+}
+
+#section4 h2 {
+    text-decoration: underline;
+    text-underline-position: under;
+}
+
+#section4 p {
+    width: 35%;
+    font-size: 1.1rem;
+}
+
+#spotify-logo-white {
+    width: 8%;
+    position: absolute;
+}
+
+#spotify-app-screenshot {
+    width: 20%;
+}
