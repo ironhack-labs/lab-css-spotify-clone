@@ -6,3 +6,153 @@ Green: #00B172
 White: #FFF
 
 */
+
+
+html {
+    font-family: Circular, Helvetica, Arial, sans-serif;
+}
+
+body {
+    margin: 0;
+    padding: 0;
+    color: #1A1A1A;
+    background-color: #FFF;
+    font-size: 16px;
+
+}
+
+
+nav {
+    padding: 20px 0px 20px 0px;
+    position: fixed;
+    display: flex;
+    width: 100%;
+    background-color: white;
+}
+
+.logo {
+    height: 80px;
+    margin-left: 20px;
+}
+
+
+
+nav ul {
+    display: flex;
+    flex-direction: row;
+    justify-content: flex-end;
+    width: 100%;
+    align-items: center;
+    list-style-type: none;
+
+
+}
+
+nav li {
+    padding: 20px;
+    font-size: large;
+
+}
+
+
+
+.cover {
+
+    background-size: cover;
+    background-image: url("../images/landing.jpg");
+    height: 800px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    color: white;
+    font-size: large;
+    padding: 0 12em;
+    text-align: center;
+
+
+}
+
+header {
+    display: flex;
+    flex-direction: column;
+}
+
+.features {
+    height: 25em;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.features img {
+
+    width: 50%;
+
+}
+
+.features div {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: center;
+
+}
+
+.features div div {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    width: 30%;
+
+}
+
+.features div div p {
+    margin: 0 30px;
+    text-align: center;
+    font-size: 1.2rem;
+
+}
+
+.features h3 {
+    color: #00B172;
+}
+
+.actions {
+    background-color: #00B172;
+    display: flex;
+    justify-content: space-around;
+    flex-direction: column;
+    color: white;
+    padding: 20px 20px;
+}
+
+#icon {
+    height: 80px;
+}
+
+#app {
+    height: 400px;
+}
+
+.list-actions {
+    display: flex;
+    flex-direction: column;
+    width: 30%;
+    justify-content: space-between;
+    padding: 0;
+}
+
+.general-actions {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+    align-items: center;
+
+}
+
+.actions h2 {
+    text-decoration: underline;
+    margin-left: 60px;
+}
