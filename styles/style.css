@@ -1,3 +1,4 @@
+
 /*
 Colors:
 
@@ -6,3 +7,180 @@ Green: #00B172
 White: #FFF
 
 */
+
+body {
+  
+    font-family: Arial, Helvetica, sans-serif;
+    /* Is there a reason why the font circular doesnt populate?*/
+    color: #1A1A1A;
+    font-size: 16px;
+    
+}
+
+img {
+    width: 300px;
+}
+
+
+
+nav {
+    height: ;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    margin: 0 1rem;
+    height: 75px;
+}
+
+
+.navlist {
+    list-style-type: none;
+    display: flex;
+}
+
+.navlogo {
+    width: 10rem;
+}
+
+.navlist > li {
+    padding: 0 1rem;
+    font-size: 1.1rem;
+
+}
+
+
+header {
+    background-image: url("../images/landing.jpg");
+    background-repeat: no-repeat;
+    background-size: cover;
+    height: 500px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+	align-items: center;
+}
+
+h1 {
+    margin-top: -75px;
+    margin-bottom: 10px;
+    /*is there a better way to do this? */
+    font-size: 3em;
+    color: white;
+    font-weight: 500;
+    text-align: center;
+}
+
+p {
+    font-weight: 100;
+        /*why isnt this getting lighter? */
+
+}
+
+header > p {
+    color: white;
+    font-size: 1.2em;
+    width: 50%;
+    text-align: center;
+}
+
+h2 {
+    text-align: center;
+    text-decoration: underline;
+    text-decoration-color: #00B172;
+}
+
+.second_class {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: space-around;
+    position: center;
+}
+
+.image_second_class {
+    width: 70px;
+}
+
+.second_class div {
+    display: flex;
+    flex-direction: column;
+    text-align: center;
+    justify-content: center;
+    align-items: center;
+    margin: 50px;
+    
+}
+
+.second_class h4 {
+    color: #00B172;
+}
+
+.second_class p {
+    color: 1A1A1A;
+}
+
+
+
+.kanye {
+    background-color: #00B172;
+    background-image: url("../images/spotify-icon-white.png");
+    background-size: 10%;
+    background-repeat: no-repeat;
+    background-position: center;
+    color: white;
+    padding: 10px;
+}
+
+.kanye h2 {
+    border-bottom: 2px solid white;
+    text-align: left;
+    font-weight: lighter;
+    padding-bottom: 6px;
+
+}
+
+
+
+.kanyekontent {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding-left: 30px;
+}
+
+
+
+.subtext {
+    max-width: 250px;
+}
+
+.iconimage {
+    position: absolute;
+    margin-left: auto;
+    margin-right: auto;
+    width: 10%;
+    /*why isnt the auto working?*/
+}
+
+.kanyeimage {
+    width: 180px;
+    margin-right: 50px;
+    margin-top: 20px;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
