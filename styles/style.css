@@ -6,3 +6,115 @@ Green: #00B172
 White: #FFF
 
 */
+
+*{
+    margin: 0;
+    padding: 0;
+}
+
+p {
+    color: #1A1A1A;
+}
+
+header > div {
+    display: flex;
+    position: fixed;
+    width: 100%;
+    background: white;
+    margin-top: 0%;
+    height: 6vh;
+    flex-direction: row;
+    justify-content: space-between;
+    padding-top: 2.5vh;
+    padding-bottom: 2.5vh;
+    padding-left: 5vh;
+}
+
+header > div > #logo {
+    width: 30vh;
+    height: auto;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+header > div > nav {
+    width: 75vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+nav > p {
+margin-right: 30px;
+font-size: 1.6em;
+}
+
+#jumbo {
+    background-image: url("../images/landing.jpg");
+    background-position: center;
+    background-repeat: no-repeat;
+    height: 100vh;
+    background-size: cover;
+    display: flex;
+    color: white;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+}
+
+#jumbo > h1 {
+    z-index: 1;
+    font-size: 5rem;
+    padding-bottom: 1.5rem;
+}
+
+#jumbo > h2 {
+    z-index: 1;
+    font-size: 1.5rem;
+    padding-bottom: 1rem;
+    font-weight: lighter;
+}
+
+#content {
+    text-align: center;
+    padding-top: 12vh;
+}
+
+#content > h1 {
+    text-decoration: underline #00B172;
+    font-size: 3rem;
+}
+
+#cards {
+    display: flex;
+    justify-content: space-around;
+    margin-top: 10vh;
+    margin-bottom: 15vh;
+}
+
+.contentCard > img {
+    width: 20vh;
+    height: 15vh;
+}
+
+.contentCard > h3 {
+    padding-top: 5vh;
+    color:  #00B172;
+    font-size: 4vh;
+}
+
+.contentCard > h4 {
+    padding-top: 3vh;
+    font-weight: lighter;
+    font-size: 3vh;
+}
+
+#kanye {
+    background-color: #00B172;
+    color: #FFF;
+}
+
+#kanyeHeading{
+    text-decoration: underline #FFF;
+}
