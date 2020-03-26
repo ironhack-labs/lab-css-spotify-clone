@@ -1,8 +1,82 @@
-/*
-Colors:
+* {
+    font-family: "Verdana";
+    
+}
 
-Text: 1A1A1A
-Green: #00B172
-White: #FFF
+.spotify-logo{
+    width: 100px;
+    margin-right: 1rem;
+    display: flex;
+    align-items: flex-start;
+}
 
-*/
+header{
+    display: flex;
+    justify-content: space-between;
+    margin: 2%;
+    align-items: center;
+}
+header >div {
+    display: flex;
+    justify-content: flex-end;
+    align-items: flex-end;
+}
+
+ul { 
+    list-style: none;
+    display: flex;
+    flex-direction: row;
+  }
+li{
+    margin-right: 20px;
+}
+
+.container1{
+    display: flex;
+    justify-content:center;
+    align-items:center;
+    flex-direction: column;
+    position: relative;
+    height: 800px;
+    background-size: cover;
+    background-image: url(https://raw.githubusercontent.com/ironhack-labs/lab-css-spotify-clone/master/images/landing.jpg);
+}
+p{
+    color: white;
+    font-size: 1em;
+    text-align: center;
+ 
+}
+ h1{
+    color: white;
+    font-size: 4em;
+ }
+
+h2 {
+    font-size: 28px;
+    text-align: center;
+}
+   
+
+h3 {
+    color: green;
+    font-weight: bold;
+    text-align: center;
+    font-size: 24px;
+}
+
+.explain {
+    font-size: 20px;
+    text-align: center
+}
+.outer-box {
+    margin: 5%;
+    display: flex;
+    justify-content: space-between;
+    
+}
+
+div > img {
+    height: auto;
+    width: 75%;
+}
