@@ -1,9 +1,3 @@
-/*
-Text: #1A1A1A;
-Green: #00B172;
-White: #FFF;
-*/
-
 html {
   box-sizing: border-box;
   font-family: "Roboto Condensed", sans-serif;
@@ -14,23 +8,14 @@ html {
   box-sizing: inherit;
   margin: 0;
 }
-
 /* ---------------------------------- TOOLS --------------------------------- */
-
 .container {
   display: flex;
   flex-direction: column;
   justify-content: center;
   align-items: center;
 }
-.container2 {
-  display: flex;
-  flex-direction: column;
-  justify-content: space-around;
-  align-items: flex-start;
-}
 /* ---------------------------------- TOOLS --------------------------------- */
-
 /* --------------------------------- HEADER --------------------------------- */
 nav {
   display: flex;
@@ -55,7 +40,6 @@ a {
   text-decoration: none;
   color: #1a1a1a;
 }
-
 #header-content {
   height: 990px;
   background-image: url("/images/landing.jpg");
@@ -76,9 +60,7 @@ a {
   padding-top: 0.8em;
 }
 /* --------------------------------- HEADER --------------------------------- */
-
 /* ---------------------------------- MAIN ---------------------------------- */
-
 /* ------------------------------- SECTION-ONE ------------------------------ */
 #section-one h2 {
   letter-spacing: 1px;
@@ -92,7 +74,7 @@ a {
   padding: 2em 0em;
 }
 #sone-content div {
-  width: calc(33% / 4);
+  width: 33%;
   padding-bottom: 1em;
 }
 #section-one img {
@@ -106,9 +88,7 @@ a {
   text-align: center;
   font-weight: 300;
 }
-
 /* ------------------------------- SECTION-ONE ------------------------------ */
-
 /* ------------------------------- SECTION-TWO ------------------------------ */
 #section-two {
   background-color: #00b172;
@@ -118,30 +98,27 @@ a {
   background-size: 7em;
   color: white;
   display: flex;
-  justify-content: space-between;
+  justify-content: space-around;
+  align-items: center;
 }
-
 #section-two article {
-  margin: 0 3em;
-  padding: 2em 14em;
+  width: 19.5%;
+  padding: 2em 0;
 }
 #section-two h2 {
+  width: 100%;
   letter-spacing: 1px;
   border-bottom: 3px solid #fff;
-  padding: 1em 0 0.2em;
 }
 #section-two h3 {
   padding-top: 3em;
 }
 #section-two img {
   padding: 2em 0 1em 0;
-  height: 40em;
+  width: 14em;
 }
-
 #section-two p {
   font-size: 1.1em;
-  padding: 0 14em 1em 0;
 }
 /* ------------------------------- SECTION-TWO ------------------------------ */
-
 /* ---------------------------------- MAIN ---------------------------------- */
