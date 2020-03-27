@@ -1,70 +1,166 @@
+@import url('https://fonts.googleapis.com/css?family=Montserrat&display=swap');
+
 * {
-    margin: 0;
-    padding: 0;
-    font-family:  Helvetica;
-  }
-  body {
 
-    margin: 0;
-  }
-  .navBar {
-    background-color: white;
-    font-size: 16px;
+  margin: 0;
+  padding: 0;
+  font-family: 'Montserrat', sans-serif;
+}
 
-  }
-  .navBar img {
-    height: 50px;
+#main {
+  width: 1500px;
+  height: auto;
+  /* border: 1px solid black; */
+  margin: auto;
+}
 
-  }
-  .navBar ul {
-    list-style: none;
-    display: inline-flex;
+header {
+  width: 1500px;
+  height: 100px;
+  /* border: 1px solid black; */
+}
 
-  }
-  .navBar li {
-    padding-left: 40px;
-  }
-  .Music {
-    background-image: url("../images/landing.jpg");
-    height: 1200px;
-    background-size: cover;
-    color: white;
-    display: flex;
-    flex-direction: column;
-    justify-content: center;
-    align-items: center;
+.logo {
+  width: 300px;
+  float: left;
+}
 
-  }
-  h1 {
-    font-size: 70px;
-    padding-bottom: 15px;
-  }
-  
-  
-  .Spotify {
-    align-items: center;
-    padding-top: 5%;
-  }
-  
+.navBar {
+  width: 400px;
+  position: fixed;
+  left: 70%;
+  margin-top: 20px;
 
-  
-  .Spotify{
-    width: 30%;
-    margin: 5px 0;
-  }
-  
-  
-  .ndSection {
-    width: 30%;
-    text-align: center;
-    padding: 8% 0;
-  }
-  
-  .description-divs img {
-    width: 35%;
-    height: 40%;
-    padding-bottom: 5%;
-  }
-  
-  
- 
+
+}
+
+.navBar ul li {
+  font-size: 22px;
+  list-style: none;
+  float: left;
+  padding-left: 8px;
+  /* border: 1px solid black;  hecho para hacer caja contenedora*/
+}
+
+#bg-section {
+  background-image: url("../images/landing.jpg");
+  background-size: contain;
+  width: 1500px;
+  height: 800px;
+  border: 1px solid black;
+  position: relative;
+}
+
+.first-section {
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -80%);
+}
+
+.first-section h1 {
+  text-align: center;
+  font-size: 4.5em;
+  color: white;
+  padding-bottom: 50px;
+
+}
+
+.first-section p {
+  color: white;
+  font-size: 1.5em;
+  text-align: center;
+}
+
+#middle-section {
+  width: 1500px;
+  height: 500px;
+  /* border: 1px solid black; */
+
+
+}
+
+#middle-section>h2 {
+  text-align: center;
+  font-size: 1.9em;
+}
+
+
+.box {
+  width: 450px;
+  height: 250px;
+  /* border: 1px solid black; */
+  float: left;
+  text-align: center;
+}
+
+.ms-container {
+  box-sizing: border-box;
+  margin-left: 70px;
+  margin-top: 90px
+}
+
+.box2 {
+
+  margin-left: 12px;
+  margin-right: 20px;
+}
+
+.img {
+  width: 150px;
+  height: 150px;
+  margin-bottom: 12px
+}
+
+.box h3 {
+  color: mediumseagreen;
+  margin-bottom: 12px;
+  font-size: 1.6em;
+}
+
+.box p {
+  font-size: 1.3em;
+}
+
+#last-section {
+  width: 1300px;
+  height: 700px;
+  background-color: mediumseagreen;
+  font-size: 18px;
+  margin: 0 auto;
+  padding-top: 30px;
+  padding-left: 100px;
+  position: relative;
+  color: white;
+
+}
+
+.left-container {
+  padding: 10px;
+}
+
+.left-container>h2 {
+  font-size: 2.0em;
+  text-decoration: underline;
+  padding-bottom: 100px;
+}
+
+.left-container h3 {
+  padding: 15px;
+}
+
+.left-container p {
+  padding: 30px;
+}
+
+
+
+
+.Kanye {
+  width: 350px;
+  float: left;
+  position: absolute;
+  left: 70%;
+  bottom: 5%;
+
+}
