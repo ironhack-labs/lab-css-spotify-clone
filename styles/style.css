@@ -1,6 +1,13 @@
+/*
+Colors:
+
+Text: 1A1A1A
+Green: #00B172
+White: #FFF
+
+*/
 * {
     font-family: "Verdana";
-    
 }
 
 .spotify-logo{
@@ -43,40 +50,57 @@ li{
 }
 p{
     color: white;
-    font-size: 1em;
+    font-size: 1.5em;
     text-align: center;
  
 }
- h1{
+h1{
     color: white;
     font-size: 4em;
  }
 
 h2 {
-    font-size: 28px;
+    font-size: 30px;
     text-align: center;
+    padding: 5px;
 }
    
 
 h3 {
-    color: green;
+    color:#00B172;
     font-weight: bold;
-    text-align: center;
+    //text-align: center;
     font-size: 24px;
 }
 
-.explain {
-    font-size: 20px;
-    text-align: center
+h4 {
+    font-size: 25px;
+    font-weight: lighter;
+    text-align: center;
 }
-.outer-box {
+.underline {
+    padding: 10px;
+    border-bottom: 4px solid #00B172;
+}
+
+.all-services-box {
     margin: 5%;
     display: flex;
     justify-content: space-between;
-    
+}
+
+.individual-services-box {
+    display: flex;
+    flex-direction: column;
+    justify-content: space-around;
+    align-items: center;
+    margin: 2.5%;
+    font-size: 20px;
 }
 
 div > img {
+    display: flex;
+    justify-content: center;
     height: auto;
-    width: 75%;
+    width: 35%;
 }
