@@ -6,3 +6,163 @@ Green: #00B172
 White: #FFF
 
 */
+@import url("https://fonts.googleapis.com/css?family=Roboto");
+
+body{
+    font-family:'Roboto'
+}
+
+* { margin: 0; padding: 0; box-sizing: border-box} 
+
+header > div {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    }
+  
+  header {
+    position: fixed;
+    background-color: white;
+    top: 0;
+    z-index: 99;
+    width: 100%;
+    height: 60px;
+    line-height: 50px;
+  }
+  
+  nav ul {
+    list-style: none;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 0 10px 0 10px;  
+  }
+
+  nav ul li{
+      margin: 0 5px 0 5px;
+  }
+  
+  nav a {
+    text-decoration: none;
+    color: black;
+  }
+
+  .navlogo{
+      height: 50px;
+      padding-top: 10px;
+      margin-left: 10px;
+  }
+
+  #musicPower{
+    background-image: url("../images/landing.jpg");
+    background-position: relative;
+    background-size: cover;
+    background-repeat: no-repeat;
+    height: 100vh;
+    position: center;
+    display: flex;
+      flex-direction: column;
+      flex-wrap: nowrap;
+      justify-content: center;
+      align-items: center;
+      align-content: stretch;
+    color: white;
+  }
+
+#musicPower h1{
+    font-size: 5em;
+    font-weight: 400;
+    margin-bottom: 30px;
+    text-align: center;
+}
+#musicPower p{
+    font-size: 2em;
+    width: 50%;
+    text-align: center;
+}
+
+#presentation h2{
+    /* text-decoration: underline;
+    text-decoration-color: #00B172;
+    text-underline-position: under; */
+    border-bottom: 4px solid #00B172;
+    padding-bottom: 2px;
+    width: max-content;
+    margin:0 auto;
+    font-size: 2em;
+}
+
+
+  .good_points{
+      display: flex;
+      justify-content: space-evenly;
+      margin-top: 20px; 
+      width: 100%;
+  }
+
+  .good_point{
+    display: flex;
+    flex-direction: column;
+	  justify-content: flex-start;
+	  align-items: center;
+    width: 33%;  
+  }
+  .good_point h4{
+    color:#00B172 ;
+    font-size: 1.5em;
+    text-align: center;
+    height: 50px;
+}
+
+
+  .good_point p, .good_point img, .good_point h4{
+    margin: 15px;
+  }
+
+  .good_points img{
+      height: 100px;
+  }
+
+  .good_point p{
+  text-align: center;
+  font-size: 1.2em;
+  }
+
+  #how_does_it_work{
+      background-color:#00B172 ;
+      background-image: url(../images/spotify-icon-white.png);
+      background-position: 50% 50%;
+      background-size: 15%;
+      background-repeat: no-repeat;
+      color:#FFF ;
+      padding: 40px;
+  }
+
+#how_does_it_work h1{
+  font-size: 2.5em;
+  border-bottom: 4px solid white;
+  padding-bottom: 2px;
+  width: max-content;
+}
+.margin40{
+  margin: 40px;
+}
+
+.how_does_it_work_corpus{
+  display: flex;
+  justify-content: space-between;
+  
+}
+
+.benefits{
+  display: flex;
+  justify-content: space-evenly;
+  flex-direction: column;
+  font-size: 1.5em;
+  max-width: 40%;
+}
+
+
+.singerApp{
+ height:75vh;
+}
