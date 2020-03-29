@@ -6,3 +6,176 @@ Green: #00B172
 White: #FFF
 
 */
+
+html, body {
+    font-family: 'Roboto';
+    margin:0;
+    padding:0;
+    font-size:15px;
+}
+
+/* NAVBAR */
+
+.nav-bar {
+    position:fixed;
+    top:0;
+    display:flex;
+    flex-direction: row;
+    justify-content: space-between;
+    background-color:white;
+    padding:5px;
+    z-index:1;
+}
+
+.nav-bar img {
+    width:10%;
+    height:auto;
+    margin-left:2.5%;
+}
+
+.nav-bar ul {
+    width:25%;
+    display:flex;
+    flex-direction: row;
+    justify-content: space-evenly;
+}
+
+.nav-bar ul li {
+    list-style-type: none;
+    text-decoration:none;
+}
+
+.color {
+    color: #1A1A1A;
+}
+a {
+    text-decoration: none;
+    color:#1A1A1A;
+}
+
+/* IMAGE PRINCIPALE */
+#img-main {
+    background-image:url("../images/landing.jpg");
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: center center;
+    height:100vh;
+    width:auto;
+    text-align:center;
+    display:flex;
+    flex-direction:column;
+    justify-content:center;
+}
+
+h1 {
+    color:white;
+    font-size:4em;
+}
+h2 {
+    color:white;
+    font-size:2em;
+}
+h3 {
+    color:#1A1A1A;
+    font-size:1.9em;
+    padding-top:1%;
+    padding-bottom:0.5%;
+    border-bottom:3px solid #00B172;
+    display:inline-block;
+}
+
+#last-section > h3 {
+    color:white;
+    border-color: white;
+}
+
+.main-article > h4 {
+    color:#0BBA7D;
+    font-size:1.5em;
+}
+#last-section h4 {
+    color:white;
+    font-size:1.5em;
+    margin-bottom:0;
+}
+
+p {
+    font-size:1em;
+    line-height:1.8em;
+    padding-bottom:0;
+    margin-bottom:0;
+}
+
+section > article :nth-child(2) {
+    color:white;
+}
+
+#main-section {
+    text-align:center;
+    margin:0 auto;
+    width:80%;
+    box-sizing:border-box;
+    padding-left:10%;
+    padding-right:10%;
+    padding-bottom:3.5%;
+}
+
+#main-div {
+    display:flex;
+    justify-content:center;
+}
+
+.main-article {
+    display:flex;
+    flex-direction:column;
+    align-items:center;
+    justify-content: center;
+}
+
+.icon {
+    width:20%;
+    height:auto;
+}
+
+#last-section {
+    margin:0 auto;
+    width:80%;
+    background-color:#1AC56A;
+    margin-bottom:3.5%;
+    position:relative;
+    box-sizing:border-box;
+    padding-left:15%;
+    padding-right:15%;
+    padding-bottom:2.5%;
+}
+
+.flex {
+    display:flex;
+}
+
+.row {
+    flex-direction: row;
+    justify-content:space-between;
+}
+
+.column {
+    flex-direction:column;
+}
+
+.center {
+    justify-content:space-evenly;
+}
+
+#icon2 {
+    width:8%;
+    height:auto;
+    position:absolute;
+    z-index:1;
+    top:50%;
+    left:45%;
+}
+
+#img-kanye {
+    width: 13vw;
+    height:auto;
+}
