@@ -6,3 +6,97 @@ Green: #00B172
 White: #FFF
 
 */
+
+@import url('https://fonts.googleapis.com/css?family=Roboto&display=swap');
+
+* {
+    font-family: Roboto;
+}
+
+
+
+.navbar {
+    display: flex;
+    position: fixed;
+    top: 0;
+    align-items: center;
+    margin-top: 10px;
+    
+}
+
+.navbar img {
+    width: 200px;
+}
+
+.buttons {
+    
+    margin-left: 400px;
+    width: 100%;
+    
+}
+
+a {
+    text-decoration: none;
+    color: black;
+    margin: 0px 10px ;
+  }
+
+
+.backimg {
+    background-image:  url("../images/landing.jpg");
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    position: relative;
+    height: 600px;
+    margin-top: 100px;
+}
+
+.fronttext {
+    color: white;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    padding-top: 150px;
+}
+
+.fronttext h1 {
+    font-size: 60px;
+}
+
+.fronttext p {
+    width: 50%;
+    text-align: center;
+}
+
+.div2 h2 {
+    text-align: center;
+    margin-top: 25px;
+    border-bottom: solid rgb(161, 243, 161);
+    width: 200px;
+    
+    
+}
+
+.articles {
+   display: flex;
+   justify-content: center;
+}
+
+.articles article {
+    width: 200px;
+    display: flex;
+    flex-direction: column;
+    margin: 10px;
+    text-align: center;
+}
+
+.articles h3 {
+    text-align: center;
+    color: teal;
+}
+
+.articles p {
+    width: 150px;
+    
+}
