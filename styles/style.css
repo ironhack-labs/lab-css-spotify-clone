@@ -6,3 +6,93 @@ Green: #00B172
 White: #FFF
 
 */
+header{
+    position:fixed;
+    width:100%;
+    background:white;
+}
+#logo{
+    float:left;
+}
+#headerList{
+    list-style-type: none;
+    float:right;
+}
+#headerList>li{
+    float: left;
+}
+#headerList>li a{
+    display:block;
+    padding: 16px;
+    text-decoration: none;
+    text-align: center;
+    color: black;
+}
+#imgSection{
+    position:relative;
+}
+#imgText{
+    position:absolute;
+    text-align: center;
+    top:50%;
+    left:50%;
+    color:white;
+    width:30%;
+    height:30%;
+    transform: translate(-50%, -50%);
+}
+#section2Main{
+    position:static;
+    width:100%;
+}
+#section2{
+    position: relative;
+    float: left;
+    width:100%;
+}
+.center{
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+}
+#section2>div{
+    float: right;
+}
+#section2>h2{
+    text-align: center;
+    text-decoration: underline;
+    text-decoration-color: green;
+}
+.infoSection{
+    width:33%;
+    text-align: center;
+}
+.infoSection>h2{
+    color:green;
+}
+#section3{
+    position: relative;
+    background:green;
+    clear:both;
+    color:white;
+}
+#section3Inner{
+    padding:50px;
+    margin:50px;
+}
+#section3>h2{
+    text-decoration: underline;
+}
+#section3Inner>h2 {
+    width:45%;
+    left:0;
+}
+#section3Inner>h3 , #section3Inner>p{
+    width:30%;
+}
+#whiteLogo{
+    position: absolute;
+    top:50%;
+    left:50%;
+    transform: translate(-50%, -50%);
+}
