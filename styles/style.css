@@ -6,3 +6,167 @@ Green: #00B172
 White: #FFF
 
 */
+
+* {
+    margin: 0 auto;
+    color: #1A1A1A;
+    font-family: Helvetica, sans-serif;
+}
+
+h1 {
+    font-size: 3em;
+}
+
+h2 {
+    font-size: 1.25em;
+    font-weight: 100;
+    width: 60%;
+}
+
+h3 {
+    font-size: 1.5em;
+    text-decoration: underline;
+}
+
+h4 {
+    font-size: 1.2em;
+    font-weight: bold;
+}
+
+/* Nav bar */
+
+nav {
+    padding: 5px 0px;
+    position: fixed;
+    background-color: white;
+    width: 100%;
+    height: 50px;
+}
+
+#spotify-logo {
+    height: 40px; /* TODO adjust */
+    width: auto;
+    position: absolute;
+    left: 20px;
+    top: 10px;
+    /* Is there a way to use a formula? (nav.height + 2 * nav.padding.top - #spotify-logo.height) / 2; */  
+}
+
+nav ul {
+    float: right;
+    height: 100%;
+
+    margin: 0;
+    padding: 0;
+    
+    display: flex;
+    list-style-type: none; 
+}
+
+nav ul > * {
+    padding: 0px 10px;
+    align-self: center;
+}
+
+#main-title {
+    background-image: url(/images/landing.jpg);
+    background-size: cover;
+    height: 600px; /*TODO  Adjust height */
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    text-align: center;
+}
+
+#main-title h1, h2 {
+    padding: 15px 0px;
+    color: white;
+}
+
+/* What's on */
+
+#whats-on {
+    display: flex;
+    flex-direction: column;
+}
+
+#whats-on h3 {
+    text-decoration-color: #00B172;
+    padding: 20px 0px;
+}
+
+#whats-on h4 {
+    color: #00B172;
+}
+
+#components {
+    padding: 40px 0px;
+    display: flex;
+}
+
+#components div {
+    padding: 0 40px;
+    display: flex;
+    flex-direction: column;
+}
+
+#components div > * {
+    padding: 10px 0px;
+}
+
+.whatsOnIcons {
+    height: 50px;
+    width: auto;
+}
+
+/* Actions */
+
+#actions {
+    padding: 40px 25px;
+    margin: 0 20px;
+    display: flex;
+    background-color: #00B172;
+    justify-content: space-around;
+}
+
+#actions * {
+    color:#FFF;
+}
+
+#kanye-west-text {
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+}
+
+#kanye-west-text > * {
+    margin: 0;
+    padding: 0px 0px;
+}
+
+.halfWidthSections {
+    width: 50%;
+}
+
+.descriptions {
+    padding: 15px 0px;;
+}
+
+#actions h3 {
+    text-decoration-color: white;
+}
+
+#spotify-app-img {
+    height: auto;
+    width: 250px;
+    margin: 30px 0px;
+}
+
+#spotify-white-icon {
+    margin: 0;
+    padding: 0;
+    height: 100px; /* TODO adjust */
+    width: auto;
+    position: absolute;
+    align-self: center;
+}
