@@ -23,24 +23,33 @@ section {
 
 
 .headerBar {
-    padding: 15px;
+    padding: 0px 15px;
     display: flex;
-    justify-content: space-between;
+    justify-content: space-around;
     align-items: center;
 }
 
-.spotifyLogo {
+.ironGoatLogo {
     width: 200px;
+    height: 100%;
+    
 }
 
 a {
     text-decoration: none;
     color: black;
     padding: 10px;
+    font-size: 20px;
+    text-shadow: 1px 1px rgb(45, 197, 250);
+}
+
+a:hover {
+    color: rgb(45, 197, 250);
+    font-size:25px;
 }
 
 .partyPhoto {
-    background-image: url(/images/landing.jpg);
+    background-image: url(/images/goatbg.png);
     background-position: 0 0;
     background-repeat: no-repeat;
     background-size: cover;
@@ -49,12 +58,15 @@ a {
 }
 
 h1 {
-    color: white;
+    color: rgb(45, 197, 250);
     text-align: center;
     padding-top: 200px;
     font-size: 75px;
     margin-top: 0;
+    text-shadow: 3px 3px rgba(0, 0, 0, 0.502);
+    transition: 3s;
 }
+
 
 .partyPhoto p {
     text-align: center;
@@ -62,6 +74,7 @@ h1 {
     font-size: 25px;
     margin-left: 250px;
     margin-right: 250px;
+    text-shadow: 1px 1px rgba(0, 0, 0, 0.502);
 }
 
 .midSection h2 {
@@ -72,23 +85,40 @@ h1 {
 }
 
 hr {
-    border-bottom: 4px solid #00B172;
+    border-bottom: 4px solid rgb(45, 197, 250);
     margin-left: 450px;
     margin-right: 450px;
 }
 
 .insideMidSection img {
-    width: 100px;
+    width: 320px;
+    height: 320px;
+    border-radius: 50%;
+}
+
+.juan:hover {
+    content: url(/images/juangoat.jpg);
+    height: 320px;
+}
+
+.niko:hover {
+    content: url(/images/nikogoat.png);
+    height: 320px
+}
+
+.stefan:hover {
+    content: url(/images/stefangoat.jpg);
 }
 
 .insideMidSection {
     padding-top: 50px;
+    padding-bottom: 150px;
     margin-left: 50px;
     margin-right: 50px;
     border: 2px solid black;
     border-style: none;
     display: flex;
-    justify-content: space-between;
+    justify-content: space-around;
 }
 
 .millionSongs {
@@ -125,8 +155,9 @@ hr {
 }
 
 h3 {
-    color: #00B172;
+    color: rgb(45, 197, 250);
     padding-bottom: 20px;
+    font-size: 25px;
 }
 
 .insideMidSection p {
@@ -143,7 +174,7 @@ h3 {
 
 .bottomSection {
     color: white;
-    background-color: #00B172;
+    background-color: rgb(45, 197, 250);
     display: flex;
     justify-content: space-evenly;
 }
@@ -159,18 +190,13 @@ h3 {
     font-size: 30px;
 }
 
-.spotifyIcon {
-    width: 100px;
-    height: 100%;
-    align-items: center;
-    padding-top: 250px;
-    padding-right: 50px;
-}
 
-.spotifyApp {
-    width: 350px;
-    height: 100%;
+.gifimage {
+    border-radius: 40%;
+    width: 600px;
+    height: 700px;
     padding: 60px;
+    align-self: center;
 }
 
 .infoToLeft {
