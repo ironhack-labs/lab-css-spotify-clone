@@ -6,3 +6,147 @@ Green: #00B172
 White: #FFF
 
 */
+
+* {
+    transition: all 2s;
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+header {
+    height: 40px;
+    padding: auto;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    flex-direction: row;
+}
+
+header .logo-img {
+    width: 90px;
+    display: flex;
+    align-self: center;
+    justify-self: flex-start;
+}
+
+.nav-bar ul {
+    list-style: none;
+    display: flex;
+}
+
+.nav-bar a{
+    text-decoration: none;
+    color: black;
+    margin: 10px;
+}
+
+#landing {
+    background-image: url(../images/landing.jpg);
+    background-size: cover;
+    height: 600px;
+    color: white;
+    display: flex;
+    flex-direction: column;
+    flex-wrap: nowrap;
+    justify-content: center;
+    align-items: center;
+    align-content: flex-start;
+}
+
+#landing h1{
+    text-align: center;
+    font-size: 3em;
+}
+
+.text {
+    font-size: 1.1em;
+}
+
+#landing .text {
+    width: 40%;
+    text-align: center;
+}
+
+#info h2{
+    text-align: center;
+}
+
+#info hr {
+    background: #00B172;
+    width: 30%;
+    height: 2px;
+    border: none;
+}
+
+#info .info-box {
+    text-align: center;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: center;
+    height: 600px;
+}
+#info .info-item .info-title {
+    font-size: 1.5em;
+    color: #00B172;
+    text-align: center;
+}
+
+#info .icon {
+    width: 50px;
+}
+
+#info .info-item {
+    width: 25%;
+    margin: auto;
+}
+
+#how-to {
+    background-color:  #00B172;
+    color: white;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+    align-items: center;
+    height: 600px;
+}
+
+#how-to hr {
+    background: white;
+    width: 50%;
+    height: 2px;
+    border: none;
+    margin-left: 20px;
+}
+
+#how-to .how-to-text h2 {
+    margin-left: 20px;
+    margin-right: 20px;
+    width: 80%;
+}
+ #how-to .white-logo {
+     width: 80px;
+     display: flex;
+    justify-self: center;
+ }
+
+ #how-to .screenshot {
+     height: 80%;
+     margin-left: 20px;
+ }
+
+ .how-to-text .how-to-article{
+     margin-left: 20px;
+     width: 80%;
+ }
+
+ #how-to .how-to-text .how-to-article h3 {
+     font-weight: bold;
+ }
+
+ #how-to .how-to-text .text {
+     font-weight: lighter;
+ }
+
+ #how-to .how-to-text {
+     width: 25%;
+ }
