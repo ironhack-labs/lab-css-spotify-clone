@@ -8,19 +8,20 @@ White: #FFF
 */
 
 html {
-    font-family: sans-serif;
+    font-family: 'Inconsolata';
     ms-text-size-adjust: 100%;
     webkit-text-size-adjust: 100%;
+    letter-spacing: .10em;
 }
 
 body {
     margin: 0;
+    padding: 0;
 }
 
 section {
     display: block;
 }
-
 
 .headerBar {
     padding: 0px 15px;
@@ -32,8 +33,17 @@ section {
 .ironGoatLogo {
     width: 200px;
     height: 100%;
-    
+    animation: rotation 10s infinite linear;
 }
+
+@keyframes rotation {
+    from {
+      transform: rotate(0deg);
+    }
+    to {
+      transform: rotate(359deg);
+    }
+  }
 
 a {
     text-decoration: none;
@@ -55,18 +65,39 @@ a:hover {
     background-size: cover;
     position: relative;
     height: 700px;
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
 }
+
 
 h1 {
     color: rgb(45, 197, 250);
     text-align: center;
-    padding-top: 200px;
     font-size: 75px;
     margin-top: 0;
     text-shadow: 3px 3px rgba(0, 0, 0, 0.502);
-    transition: 3s;
+    overflow: hidden;    
+    white-space: nowrap;
+    border-right: .15em solid rgb(45, 197, 250);
+    margin: 0 auto;
+    letter-spacing: .15em;
+    animation: 
+        typing 3.5s steps(30, end),
+        blink-caret .5s step-end infinite;
 }
 
+@keyframes typing {
+    from { width: 0 }
+    to { width: 100% }
+  }
+  
+
+  @keyframes blink-caret {
+    from, to { border-color: transparent }
+    50% { border-color: rgb(45, 197, 250) }
+  } 
 
 .partyPhoto p {
     text-align: center;
@@ -74,7 +105,11 @@ h1 {
     font-size: 25px;
     margin-left: 250px;
     margin-right: 250px;
-    text-shadow: 1px 1px rgba(0, 0, 0, 0.502);
+    text-shadow: 1px 1px rgba(0, 0, 0, 0.842);
+}
+
+.midSection {
+    width: 100%;
 }
 
 .midSection h2 {
@@ -96,9 +131,22 @@ hr {
     border-radius: 50%;
 }
 
+
 .juan:hover {
     content: url(/images/juangoat.jpg);
     height: 320px;
+}
+
+.juan:hover + #juan {
+    color: rgb(45, 197, 250);
+    margin: 25px 0px;
+    padding-bottom: 20px;
+    font-size: 0px;
+}
+
+.juan:hover + #juan:after {
+    content: attr(juan-hover);
+    font-size: 25px;
 }
 
 .niko:hover {
@@ -106,8 +154,32 @@ hr {
     height: 320px
 }
 
+.niko:hover + #niko {
+    color: rgb(45, 197, 250);
+    margin: 25px 0px;
+    padding-bottom: 20px;
+    font-size: 0px;
+}
+
+.niko:hover + #niko:after {
+    content: attr(niko-hover);
+    font-size: 25px;
+}
+
 .stefan:hover {
     content: url(/images/stefangoat.jpg);
+}
+
+.stefan:hover + #stefan {
+    color: rgb(45, 197, 250);
+    margin: 25px 0px;
+    padding-bottom: 20px;
+    font-size: 0px;
+}
+
+.stefan:hover + #stefan:after {
+    content: attr(stefan-hover);
+    font-size: 25px;
 }
 
 .insideMidSection {
@@ -209,3 +281,6 @@ h3 {
     font-size: 20px;
     font-weight: 100;
 }
+
+/* TEXT ATTEMPT */
+
