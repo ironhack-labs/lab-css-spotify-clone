@@ -6,3 +6,327 @@ Green: #00B172
 White: #FFF
 
 */
+
+@import url("https://fonts.googleapis.com/css2?family=Sen:wght@400;800&display=swap");
+
+/* RESET CSS */
+
+html,
+body,
+div,
+span,
+applet,
+object,
+iframe,
+h1,
+h2,
+h3,
+h4,
+h5,
+h6,
+p,
+blockquote,
+pre,
+a,
+abbr,
+acronym,
+address,
+big,
+cite,
+code,
+del,
+dfn,
+em,
+img,
+ins,
+kbd,
+q,
+s,
+samp,
+small,
+strike,
+strong,
+sub,
+sup,
+tt,
+var,
+b,
+u,
+i,
+center,
+dl,
+dt,
+dd,
+ol,
+ul,
+li,
+fieldset,
+form,
+label,
+legend,
+table,
+caption,
+tbody,
+tfoot,
+thead,
+tr,
+th,
+td,
+article,
+aside,
+canvas,
+details,
+embed,
+figure,
+figcaption,
+footer,
+header,
+hgroup,
+menu,
+nav,
+output,
+ruby,
+section,
+summary,
+time,
+mark,
+audio,
+video {
+  margin: 0;
+  padding: 0;
+  border: 0;
+  font-size: 100%;
+  font: inherit;
+  vertical-align: baseline;
+}
+/* HTML5 display-role reset for older browsers */
+article,
+aside,
+details,
+figcaption,
+figure,
+footer,
+header,
+hgroup,
+menu,
+nav,
+section {
+  display: block;
+}
+body {
+  line-height: 1;
+}
+ol,
+ul {
+  list-style: none;
+}
+blockquote,
+q {
+  quotes: none;
+}
+blockquote:before,
+blockquote:after,
+q:before,
+q:after {
+  content: "";
+  content: none;
+}
+table {
+  border-collapse: collapse;
+  border-spacing: 0;
+}
+
+/* CSS STYLES */
+
+/* NAV */
+
+nav {
+  display: flex;
+  justify-content: space-between;
+  width: 100%;
+}
+
+nav img {
+  padding: 5px;
+  width: 150px;
+}
+
+ul {
+  width: 300px;
+  margin-top: 20px;
+  display: flex;
+  flex-direction: row;
+  justify-content: space-around;
+  font-family: Sen;
+}
+
+a {
+  color: #1a1a1a;
+  text-decoration: none;
+}
+
+header {
+  width: 100%;
+  height: 500px;
+  margin-top: 10px;
+  color: white;
+  background-image: url(/images/landing.jpg);
+  background-repeat: no-repeat;
+  background-size: 100%;
+  text-align: center;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+}
+
+h1 {
+  padding-bottom: 50px;
+  font-size: 50px;
+  font-family: Sen;
+  font-weight: bold;
+}
+
+header p {
+  font-size: 20px;
+  font-family: Sen;
+  padding-bottom: 5px;
+  letter-spacing: 0.5px;
+}
+
+/* SECTION 1 */
+
+#what-on-spoty {
+  margin-top: 35px;
+  font-family: Sen;
+}
+
+h2 {
+  text-align: center;
+  font-size: 25px;
+  margin: 0 auto;
+  width: fit-content;
+  padding-bottom: 2px;
+  border-bottom: 3px solid #1db954;
+}
+
+.container-spoty-things {
+  display: flex;
+  flex-direction: column;
+}
+
+.devices {
+  padding: 6px;
+  width: 90px;
+  align-self: center;
+  margin: 0 auto;
+}
+
+.music {
+  padding: 5px;
+  width: 90px;
+  align-self: center;
+  margin: 0 auto;
+}
+
+.high-quality {
+  padding: 11px;
+  width: 90px;
+  align-self: center;
+  margin: 0 auto;
+}
+
+.container-spoty-things {
+  margin: 1px;
+  width: 30%;
+}
+
+.container-spoty-things h3 {
+  font-family: Sen;
+  font-size: 20px;
+  color: #1db954;
+  font-weight: bold;
+  text-align: center;
+  padding-bottom: 30px;
+}
+
+.container-spoty-things p {
+  font-size: 15px;
+  color: lightslategray;
+  text-align: center;
+}
+
+.spoty-things {
+  padding-top: 70px;
+  padding-bottom: 50px;
+  display: flex;
+  flex-direction: row;
+  justify-content: space-around;
+}
+
+/* SECTION 2 */
+
+#spoty-app {
+  margin: 20px;
+  font-family: Sen;
+  background-color: #1db954;
+  background-size: 100%;
+  color: white;
+}
+
+.title {
+  padding-bottom: 15px;
+  width: fit-content;
+  font-size: 25px;
+  border-bottom: 3px solid;
+  font-weight: bold;
+}
+
+.spoty-app-green {
+  padding: 50px 60px;
+}
+
+.image-container {
+  padding: auto;
+  max-width: 30%;
+  display: flex;
+  justify-content: center;
+  align-self: center;
+}
+
+.spoty-icon {
+  max-width: 50%;
+}
+
+.app-container {
+  padding: auto;
+  max-width: 30%;
+  align-self: center;
+}
+
+.app {
+  padding: 11px;
+  max-width: 90%;
+}
+
+.spoty-app-flex {
+  padding-top: 40px;
+  display: flex;
+  justify-content: space-between;
+}
+
+.things-you-can-do {
+  width: 30%;
+  align-self: center;
+}
+
+.things-you-can-do h4 {
+  padding-bottom: 22px;
+  font-size: 20px;
+  font-weight: bold;
+}
+
+.things-you-can-do p {
+  padding-bottom: 30px;
+  line-height: 20px;
+  letter-spacing: 0.5px;
+}
