@@ -6,3 +6,120 @@ Green: #00B172
 White: #FFF
 
 */
+@import url('https://fonts.googleapis.com/css?family=Roboto+Condensed:700|Roboto:100,300,700');
+html, body {
+  margin: 0;
+  padding: 0;
+  font-family: Roboto;
+  font-size: 20px;
+  line-height: 1.8em;
+  font-weight: 300
+}
+nav {
+    width: 100%;
+    background: #FFF;
+    overflow: auto;
+}
+ul {
+    padding: 0;
+    margin: 0 0 0 150px;
+    list-style: none;
+}
+li {
+    float: right;
+}
+.logo {
+    position: fixed;
+    margin-top: 15px;
+    margin-left: 10px;
+}
+
+nav a {
+    width: 100px;
+    display: block;
+    padding-top: 20px;
+    margin-bottom: 20px;
+    text-decoration: none;
+    font-family: Arial;
+    color: black;
+    text-align: center;
+}
+.spotify-logo {
+    width: 150px;
+}
+.titlePage {
+    position: relative;
+    text-align: center;
+    color: white;
+}
+.titlePage img {
+    width: 100%;
+    height: auto;
+}
+.centered {
+    font-size: xx-large;
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    
+
+}
+.centered h1 {
+    line-height: 50px;
+}
+.features h3 {
+    text-align: center;
+    word-spacing: 1px;
+    margin-bottom: 1px;
+} 
+.features hr {
+    width: 28%;
+    border-color: lightgreen;
+}
+.features {
+    margin: 0 auto;
+}
+.feature-options {
+    display: flex;
+    justify-content: space-evenly;
+}
+.feature-option {
+    display: flex;
+  justify-content: center;
+  flex-direction: column;
+  align-items: center;
+}
+.feature-option img {
+    width: 90px;
+}
+.feature-option h4, p {
+    text-align: center;
+}
+.footer {
+    background-color: #00B172;
+    color: #FFF;
+    text-align: left;
+    font-size: 1.9em;
+    padding: 40px 100px 40px 100px;
+    margin: 25px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+.footer p {
+    padding: 0
+    text-decoration: none;
+}
+.footer h5 {
+    margin: 0 0
+}
+.app {
+    height: 375px;
+    width: 60%;
+}
+.spotify-white {
+    width: 80px;
+    align-self: center;
+    justify-content: center;
+}
