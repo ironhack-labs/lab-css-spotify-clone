@@ -9,11 +9,6 @@ White: #FFF
 
 @import url('https://fonts.googleapis.com/css?family=Proxima+Nova');
 
-* {
-    border: 1px solid red
-}
-
-
 body {
     font-family: 'Proxima nova';
 }
@@ -45,15 +40,21 @@ nav {
     color: #1A1A1A;
 }
 
-header {
-    background-image: url("../images/landing.jpg");
+#parallax-window {
+    min-height: 700px;
+    background: transparent;
+}
+
+header p {
     background-repeat: no-repeat;
     background-size: cover;
-    height: 700px;
     display: flex;
     flex-direction: column;
     justify-content: center;
     align-items: center;
+    z-index: 2;
+    color: white;
+    padding-top: 100px;
 }
 
 h1 {
@@ -67,6 +68,7 @@ h1 {
     padding-left: 25px;
     padding-right: 25px;
     opacity: 80%;
+    padding-top: 200px;
 }
 
 header > p {
