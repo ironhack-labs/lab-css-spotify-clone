@@ -6,3 +6,160 @@ Green: #00B172
 White: #FFF
 
 */
+
+body {
+    font-family: Georgia, 'Times New Roman', Times, serif;
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    background-color: #FFF;
+    color: #1A1A1A;
+}
+
+nav {
+    background-color: #FFF;
+    width: 100%;
+    padding: 10px 0;
+    display: flex;
+    justify-content: space-between;
+    align-content: flex-end;
+    position: fixed;
+}
+
+nav ul {
+    list-style: none;
+    display: flex;
+    align-content: flex-end;
+    margin-right: 2em;
+}
+
+nav a {
+    text-decoration: none;
+    color: black;
+    display: flex;
+    padding-left: 1.5rem;
+    font-size: 1.35em;
+}
+
+.logo {
+    width: 10%;
+    padding: 0.5em 0;
+    margin-left: 2em;
+}
+
+.topBackground {
+    padding: 300px 0;
+    width: 100%;
+    background-image: url('/images/landing.jpg');
+    background-size: cover;
+    background-position: center;
+}
+
+.topBackground h1 {
+    color: #FFF;
+    margin: 10px auto;
+    text-align: center;
+    font-size: 6em;
+    font-weight: normal;
+}
+
+.topBackground p {
+    margin: 0 auto;
+    color: #FFF;
+    text-align: center;
+    font-size: 2em;
+    font-weight: 100;
+}
+
+.description h2 {
+    padding-top: 40px;
+    text-align: center;
+    font-size: 2.5em;
+    margin: 0 auto;
+    font-weight: 600;
+}
+
+.description hr {
+    border: 2px solid #00B172;
+    width: 27%;
+    text-align: center;
+}
+
+.container img {
+    max-width: 130px;
+}
+
+.container h3 {
+    font-size: 2em;
+    color: #00B172;
+}
+
+.container p {
+    margin-top: 0;
+    text-align: center;
+    font-size: 1.5em;
+    padding: 0px 120px;
+}
+
+.descriptionCointainer {
+    margin-top: 100px;
+    display: flex;
+    justify-content: space-between;
+}
+
+.container {
+    display: flex;
+    justify-content: space-between;
+    flex-direction: column;
+    align-items: center
+}
+
+.green {
+    background-color: #00B172;
+    margin: 30px 30px;
+    margin-top: 60px;
+    padding: 50px 50px;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+}
+
+.bottomImages {
+    margin: 50px 100px;
+}
+
+.bottomImageslogo {
+    margin: 0 auto;
+    display: flex;
+    align-items: center;
+}
+
+.bottomcontainer {
+    margin: 30px 30px;
+}
+
+.bottomcontainer h2 {
+    color: #FFF;
+    text-align: left;
+    font-size: 2em;
+    margin: 0 auto;
+    font-weight: 600;
+}
+
+.bottomcontainer hr {
+    border: 2px solid #FFF;
+    width: 100%;
+}
+
+.bottomcontainer h3 {
+    color: #FFF;
+    text-align: left;
+    font-size: 1.7em;
+    margin: 0 auto;
+}
+
+.bottomcontainer p {
+    color: #FFF;
+    text-align: left;
+    font-size: 1.2em;
+}
