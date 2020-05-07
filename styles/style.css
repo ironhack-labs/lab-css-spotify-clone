@@ -1,8 +1,161 @@
-/*
-Colors:
+body {
+    font-family: 'Open Sans', sans-serif;
+    margin: 0;
+    background-color: white;
+}
 
-Text: 1A1A1A
-Green: #00B172
-White: #FFF
+h1 {
+    font-size: 70px;
+    font-weight: 700;
+    color: white;
+}
 
-*/
+h2 {
+    font-size: 40px;
+    font-weight: 700;
+}
+
+h3 {
+    font-size: 30px;
+}
+
+p {
+    font-size: 25px;
+}
+
+/* NAV */
+
+nav {
+    position: fixed;
+    top: 0;
+    left: 0;
+    right: 0;
+    width: 100vw;
+    box-sizing: border-box;
+    padding: 35px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    background-color: white;
+}
+
+nav img {
+    height: 60px;
+}
+
+nav ul {
+    display: flex;
+    align-items: center;
+    list-style-type: none;
+}
+
+nav a {
+    color: black;
+    font-size: 24px;
+    font-weight: 300;
+    margin-left: 34px;
+    text-decoration: none;
+}
+
+/* HEADER */
+header {
+    background-image: url("../images/landing.jpg");
+    height: 100vh;
+    text-align: center;
+    background-size: cover;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+}
+
+
+header h3 {
+    color: white;
+    font-weight: 300;
+    margin: 0;
+}
+
+.container {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    margin: 25px 15px; 
+}
+
+.container h2 {
+    border-bottom: 4px solid #00B172;
+    padding: 10px;
+}
+
+.container > div {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-evenly;
+    align-items: flex-start;
+    text-align: center;
+}
+
+.features {
+    padding: 50px;
+}
+
+.features img {
+    height: 20vh;
+}
+
+.features h3 {
+    color: #00B172;
+    font-weight: 700;
+    margin: 20px;
+}
+
+.features p {
+    font-weight: 300;
+}
+
+
+.bottom-container {
+    background-color: #00B172;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-evenly;
+    align-items: center;
+    color: white;
+    border: 25px solid white;
+}
+
+.bottom-container div {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    width: 50%;
+    padding: 45px;
+    
+}
+
+.app-specs {
+    width: 75%;
+}
+
+.bottom-container h2 {
+    border-bottom: 4px solid white;
+    padding: 10px 0;
+    max-width: 561px;
+}
+
+
+.bottom-container p {
+    font-weight: 300
+}
+
+#icon {
+    position: absolute;
+    width: 10%;
+
+}
+
+#app-preview img {
+    width: 60%;
+    align-self: center;
+}
