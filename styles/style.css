@@ -6,3 +6,222 @@ Green: #00B172
 White: #FFF
 
 */
+/* ====================================================RESET CODE ==========================*/
+html, body, div, span, applet, object, iframe,
+h1, h2, h3, h4, h5, h6, p, blockquote, pre,
+a, abbr, acronym, address, big, cite, code,
+del, dfn, em, img, ins, kbd, q, s, samp,
+small, strike, strong, sub, sup, tt, var,
+b, u, i, center,
+dl, dt, dd, ol, ul, li,
+fieldset, form, label, legend,
+table, caption, tbody, tfoot, thead, tr, th, td,
+article, aside, canvas, details, embed,
+figure, figcaption, footer, header, hgroup,
+menu, nav, output, ruby, section, summary,
+time, mark, audio, video {
+  margin: 0;
+	padding: 0;
+	border: 0;
+	font-size: 100%;
+	font: inherit;
+	vertical-align: baseline;
+}
+/* =====================================================MY CODE====================================================== */
+
+/* =====================================================NAV BAR====================================================== */
+body{
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+}
+#navigation-bar{
+    background-color: #FFF;
+    display: flex;
+    flex-direction: row;
+    border: orangered solid 1px;
+    justify-content: space-between;
+    padding:1% 0 1% 0;
+}
+#navigation-bar #spotify-icon{
+    width: 40%;
+}
+#navigation-bar #spotify-icon img{
+    width: inherit;
+    margin-left: 5%;
+}
+#navigation-bar #links {
+    display: flex;
+    /* justify-content: flex-end; */
+    align-content: center;
+    align-items: center;
+    width: 34%;
+}
+#navigation-bar #links ul{
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-content: center;
+    list-style: none;
+}
+#navigation-bar #links ul li{
+    display: flex;
+    justify-content: space-evenly;
+    padding: 3%;
+    margin-right: 20%;
+}
+#navigation-bar #links ul li{
+    font-size: 1.5rem;
+}
+#navigation-bar #links ul li a{
+    text-decoration: none;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    color: #1A1A1A;
+    font-weight: -20;
+}
+/* =====================================================SECTION 1====================================================== */
+
+#section1{
+    height: 100vh;
+    display: flex;
+}
+#section1 .landing-text{
+    color: #FFF ;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+    
+}
+#section1 .landing-text h1{
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    font-size: 6rem;
+    line-height: 130%;
+}
+#section1 .landing-text p{
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    font-size: 1.9rem;
+    width: 50%;
+
+}
+
+#section1 > div{
+    background-image: url(../images/landing.jpg);
+    background-position: center;
+    background-size: cover;
+    background-repeat: none;
+    height: inherit;
+    width: 100vw;
+}
+
+/* =====================================================SECTION 2====================================================== */
+#section2{
+    background-color: #FFF ;
+}
+
+#section2 .title{
+    text-align: center;
+    margin: 5% auto 5% auto ;
+}
+#section2 .title h2{
+    font-size: 2.5rem ;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    font-weight: 500;
+    color: #1A1A1A;
+}
+#section2 .title hr{
+    width: 21%;
+    border:#00B172 solid 3px ;
+    margin-top: 0;
+}
+#section2 #wrapper{
+    display: flex;
+    align-content: center;
+    flex-direction: row;
+}
+#section2 #wrapper div{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    text-align: center;
+    line-height: 340%;
+    margin-bottom: 5%;
+}
+#section2 #wrapper div img{
+    width: 30%;
+}
+#section2 #wrapper div h3{
+    font-size: 2.5rem ;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    font-weight: 800;
+    color: #00B172;
+    margin-top: 2%;
+}
+#section2 #wrapper div p{
+    font-size: 2rem ;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    font-weight: 0;
+    color: #1A1A1A
+}
+/* =====================================================SECTION 3====================================================== */
+
+#section3{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+}
+#section3 #article{
+    margin: 3% auto auto 3% ;
+    background-color: #00B172;
+    padding: 3% auto 15% auto;
+    width: 40%;
+}
+#section3 #article h2{
+    font-size: 2.5rem ;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    font-weight: 800;
+    color:#FFF;
+    margin-left: 4%;
+}
+#section3 #article hr{
+    width: 90%;
+    border:#FFF solid 2px ;
+    margin-top: 1%;
+}
+#section3 #article h3{
+    font-size: 2.5rem ;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    font-weight: 800;
+    color:#FFF;
+    margin-top: 2%;
+    margin-left: 4%;
+}
+#section3 #article p{
+    font-size: 1.9rem ;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    font-weight: 100;
+    color:#FFF;
+    margin: 2% auto 10% 4% ;
+}
+#section3{
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+    align-content: space-around;
+    background-color: #00B172;
+    margin: 3% 3% 3% 3% ;
+    padding: 3% auto 15% auto;
+}
+#section3 .kanye{
+    width: 30%;
+    margin: 3% 3% 3% 3% ;
+
+}
+#section3 .spotify-logo{
+    width: 10%;
+    height: 10%;
+    margin: 3% 4% 3% 3% ;
+}
