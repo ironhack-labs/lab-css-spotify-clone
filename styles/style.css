@@ -1,8 +1,188 @@
+@import url('https://fonts.googleapis.com/css?family=Roboto+Condensed:700|Roboto:100,300,700');
+
 /*
 Colors:
-
 Text: 1A1A1A
 Green: #00B172
 White: #FFF
-
 */
+
+html{
+    width: 100%;
+    margin: 0px;
+    color: #1A1A1A;
+    font-size: 20px;
+    font-family: "Roboto";
+}
+
+body{
+    width: 100%;
+    margin: 0px;
+}
+
+img{
+    max-width: 100%;
+}
+
+nav{
+    display: flex;
+    height: 80px;
+    align-items: center;
+    justify-content: space-between;
+}
+
+.logo{
+    width: auto;
+    margin-left: 25px;
+    max-height: 65%;
+    padding: 1px;
+}
+
+.navigation{
+    /* flex-grow: 6; */
+}
+.navigation-links {
+    display: flex;
+    margin-right: 30px;
+}
+
+.navigation-links li{
+    list-style-type: none;
+    margin: 10px;
+}
+
+.section2{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+}
+
+.top-banner {
+    max-width: 100%;
+    max-height: auto;
+}
+
+.banner-text{
+   position: absolute;
+   margin: auto;
+   width: 50%;
+   display: flex;
+   flex-direction: column;
+}
+
+h1{
+    font-size: 3rem;
+    color: white;
+    text-align: center;
+}
+
+h2{
+    font-size: 1.5rem;
+    text-decoration: underline;
+    text-decoration-color: #00B172;
+}
+
+h3{
+    color: #00B172;
+    border-bottom: 1px;
+    padding-bottom: 3px;
+}
+
+h3, p{
+    margin: 0.5em;
+}
+
+.banner-span{
+    color: white;
+    text-align: center;
+}
+
+.section3{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    padding: 20px;
+}
+
+.usps{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-evenly;
+}
+
+.usp-statements{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    text-align: center;
+    justify-content: space-evenly;
+    margin: 10px;
+    padding: 30px;
+    flex-grow: 1;
+}
+
+.usp-statements p{
+    width: 60%;
+    color: black;
+}
+
+.usp-image, .spotify-logo{
+    width: 75px;
+    height: auto;
+}
+
+.section4{
+    display: flex;
+    flex-direction: row;
+    justify-content: flex-start;
+    padding: 50px;
+    background-color: #00B172;
+    margin: 30px;
+}
+
+.section4 .left-split{
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-start;
+}
+
+.left-split h2{
+    text-decoration: underline;
+    color: white;
+}
+
+.left-split p {
+    color: white;
+    width: 70%;
+}
+
+.left-split article{
+    margin-bottom: 50px;
+}
+
+.left-split .right-split{
+    margin: 0 20px 20px 20px;
+}
+
+.middle-split{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.spotify-logo{
+    width: 200px;
+    height: auto;
+}
+
+.section4 .right-split {
+    display: flex;
+    justify-content: space-around;
+    padding: 70px;
+}
+
+.left-split h3 {
+    color: white;
+}
