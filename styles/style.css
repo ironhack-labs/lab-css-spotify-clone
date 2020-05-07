@@ -6,3 +6,171 @@ Green: #00B172
 White: #FFF
 
 */
+
+html{
+    font-family:  Calibri, 'Trebuchet MS', sans-serif;
+}
+
+body{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+header{
+    position: fixed;
+    top: 0; 
+    left: 0;
+    right: 0;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    height: 90px;
+    background-color: white;
+    padding: 0 2vw;
+}
+
+.logo > img{
+    height: 60px;
+}
+
+.nav-bar {
+    list-style: none;
+    display: flex;
+    justify-content: flex-end;
+    font-size: 25px;
+}
+
+.nav-bar > li > a{
+    padding: 0 1vw;
+    color: #1A1A1A;
+    text-decoration: none;
+}
+
+.presentation{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    background-image: url(/images/landing.jpg);
+    background-size: cover;
+    width: 100%;
+    height: 65vw;
+    color: white;
+}
+
+.presentation > h1{
+    text-align: center;
+    font-size: 80px;
+    font-weight: 400;
+    margin: 0 0 2vw 0;
+}
+
+.presentation > article{
+    font-size: 30px;
+    font-weight: 100;
+    width: 50vw;
+    text-align: center;
+}
+
+.detail{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+.detail > h2{
+    font-size: 40px;
+    border-bottom: 4px solid #00B172;
+}
+
+.fonctions{
+    width: 100%;
+    display: flex;
+    justify-content: space-evenly;
+    flex-wrap: wrap;
+    align-items: baseline;
+    text-align: center;
+    margin-bottom: 5vw;
+}
+
+.fonctions > div{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    width: 300px;
+}
+
+.fonctions > div > img{
+    width: 130px;
+}
+
+.fonctions > div > h3{
+    font-size: 30px;
+    color: #00B172;
+    margin: 0;
+}
+
+.fonctions > div > p{
+    width: 250px;
+    font-size: 25px;
+    color: #1A1A1A;
+    font-weight: lighter;
+}
+
+.app{
+    background-color: #00B172;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+    align-items: center;
+    width: 78%;
+    margin: 0 0 5vw;
+    padding: 50px 100px;
+}
+
+.app > article{
+    width: 50%;
+    color: white;
+}
+
+.app > article > h2 > span{
+    font-size: 40px;
+    padding-bottom: 5px;
+    font-weight: 400;
+    border-bottom: 4px solid white;
+}
+
+.app-fonctions{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    width: 60%;
+}
+
+
+.app-fonctions > div > h3{
+    font-size: 30px;
+}
+
+.app-fonctions > div > p{
+    font-size: 23px;
+    font-weight: lighter;
+}
+
+.icon{
+    position: absolute;
+    left: 50%;
+    transform: translateX(-50%);
+}
+
+.icon > img{
+    width: 130px;
+}
+
+.screenshot > img{
+    width: 320px;
+}
