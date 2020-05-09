@@ -1,8 +1,132 @@
-/*
-Colors:
+@import url('https://fonts.googleapis.com/css2?family=Montserrat:wght@300&display=swap');
 
-Text: 1A1A1A
-Green: #00B172
-White: #FFF
+body {
+    margin: 0px;
+    font-size: 16px;
+    font-family: 'Montserrat', sans-serif;
+    line-height: 1.6;
+}
 
-*/
+nav {
+    position: fixed;
+    padding: 10px 0px 0px 20px;
+    width: 100%;
+    display: inline;
+    background-color: whitesmoke;
+}
+
+nav img {
+    width: 150px;
+}
+
+nav ul{
+    margin-top: 5px;
+    list-style: none; 
+    display: flex; 
+    float: right;
+    margin-right: 50px; 
+}
+
+nav li {
+    margin: 0 10px;
+}
+
+.general-image {
+    height: 800px;
+    background-image: url(../images/landing.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+    color: white;
+    text-align: center;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+#title {
+    font-size: 70px;
+    margin: 0;
+}
+
+#title-text {
+    font-size: 25px;
+}
+
+.options {
+    margin: 50px 0;
+    text-align: center;
+}
+
+.options h2{
+    border-bottom: solid 3px rgb(26,177,106);
+    box-sizing: border-box;
+    margin: auto 520px;
+    font-size: 32px;
+    font-weight: bolder;
+}
+
+#three-content {
+    margin-top: 50px;
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+}
+
+#three-content h3{
+    color: rgb(26,177,106);
+    font-weight: 600;
+    font-size: 30px;
+}
+
+.options img {
+    height: 100px;
+}
+
+#three-content article {
+    width: 300px;
+    padding: 0 10px;
+    margin: 0 20px;
+}
+
+#three-content p {
+    font-size: 24px;
+}
+
+.green-section {
+    color: white;
+    margin: 0 20px 0;
+    padding: 40px 100px;
+    background-color:rgb(26,177,106);
+    background-image: url(../images/spotify-icon-white.png);
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: 120px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.green-section h1 {
+    border-bottom: solid 2px white;
+    font-size: 34px;
+}
+
+.green-section p {
+    font-size: 20px;
+}
+
+#left-article-options {
+    width: 320px;
+}
+
+#left-article-options h2 {
+    margin-top: 40px;
+}
+
+
+#rigth-article img {
+    width: 350px;
+    margin-top: 100px;
+    
+}
