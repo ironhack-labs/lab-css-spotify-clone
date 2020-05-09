@@ -6,3 +6,157 @@ Green: #00B172
 White: #FFF
 
 */
+@import url("https://fonts.googleapis.com/css2?family=Open+Sans:wght@300,400;600;800&display=swap");
+
+* {
+  margin: 0;
+  padding: 0;
+}
+
+body {
+  color: #1a1a1a;
+  font-family: "Open Sans", sans-serif;
+  font-size: 16px;
+  line-height: 1.5;
+  font-weight: 400;
+}
+
+h1 {
+  font-size: 4rem;
+  font-weight: 600;
+}
+
+h2 {
+  border-bottom: 2px solid #00b172;
+  display: inline;
+  font-size: 2rem;
+  padding-bottom: 5px;
+}
+
+nav {
+  position: fixed;
+  top: 0;
+  display: flex;
+  justify-content: space-between;
+  width: 100%;
+  padding: 10px 20px;
+  background-color: #fff;
+}
+
+nav img {
+  height: 40px;
+}
+
+nav ul {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  margin-right: 30px;
+}
+
+nav li {
+  list-style: none;
+  margin-right: 10px;
+}
+
+nav a {
+  color: #1a1a1a;
+  text-decoration: none;
+}
+
+.banner {
+  background: url(../images/landing.jpg) no-repeat center center / cover;
+  width: 100%;
+  height: 600px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+  color: #fff;
+}
+
+.banner p {
+  font-size: 1.5rem;
+  font-weight: 300;
+  text-align: center;
+  margin-top: 30px;
+}
+
+.info {
+  text-align: center;
+  width: 60%;
+  margin: 40px auto;
+}
+
+.card-container img {
+  width: 100px;
+}
+
+.card-container {
+  display: flex;
+  justify-content: center;
+  margin-top: 80px;
+}
+
+.card {
+  width: 33.33%;
+}
+
+.card > h3 {
+  color: #00b172;
+  margin-bottom: 30px;
+  font-size: 1.3rem;
+  margin-top: 15px;
+}
+
+.card > p {
+  padding: 0 30px;
+  font-size: 1.2rem;
+  font-weight: 300;
+}
+
+#description {
+  padding: 30px;
+  color: #fff;
+  position: relative;
+  background-color: #00b172;
+  width: 55%;
+  display: flex;
+  justify-content: center;
+  margin: 40px auto;
+}
+
+.white-logo {
+  position: absolute;
+  background: url(../images/spotify-icon-white.png) no-repeat center center /
+    cover;
+  width: 100px;
+  height: 100px;
+  left: 50%;
+  margin-left: -50px;
+  top: 50%;
+  margin-top: -50px;
+}
+
+.right-block {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.right-block img {
+  margin-top: 50px;
+  height: 450px;
+}
+
+.left-block h2 {
+  border-color: #fff;
+}
+
+.left-block h3 {
+  margin: 30px 0 20px 0;
+}
+
+.left-block p {
+  padding-right: 50%;
+}
