@@ -1,3 +1,4 @@
+@import url('https://fonts.googleapis.com/css?family=Jost&display=swap');
 /*
 Colors:
 
@@ -6,3 +7,85 @@ Green: #00B172
 White: #FFF
 
 */
+
+body {
+    font-family: 'Jost', sans-serif;
+    margin: 0 auto;
+}
+
+.nav-bar {
+    position: fixed;
+    padding: 20px 40px;
+    top: 0;
+    background-color: white;
+    z-index: 10;
+}
+
+nav ul {
+    float: right;
+    list-style: none;
+}
+
+nav ul li {
+    display: inline-block;
+    margin: 0px 10px 20px 10px;
+    font-size: 1.9em;
+}
+
+.nav-bar img {
+    width: 15%;
+}
+
+#music-section {
+    position: relative;
+    text-align: center;
+    color: white;
+}
+
+#music-section img {
+    margin-top: 7.7em;
+}
+
+.music-text {
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+}
+
+.music-text h1 {
+    font-size: 600%;
+    font-weight: bold;
+    margin-bottom: 30px;
+}
+
+.music-text p {
+    font-size: 2.1em;
+    font-weight: 50;
+}
+
+.icon-section {
+    text-align: center;
+    font-size: 1.6em;
+}
+
+.icon-container {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-evenly;
+    align-items: baseline;
+    padding: 50px 100px;
+}
+
+.icon-card img {
+    width: 20%;
+}
+
+.icon-card h3 {
+    color: #00B172;
+    margin-top: 15px;
+}
+.icon-card p {
+    color: #1A1A1A;
+    padding: 0px 100px;
+}
