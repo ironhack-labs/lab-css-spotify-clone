@@ -1,4 +1,4 @@
-@import url('https://fonts.googleapis.com/css2?family=Montserrat&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Montserrat:wght@300;400;600&display=swap');
 /*
 Colors:
 
@@ -8,6 +8,7 @@ White: #FFF
 
 */
 
+/* --- HEADER --- */
 * {
     margin: 0;
     padding: 0;
@@ -18,59 +19,167 @@ White: #FFF
 header {
     position: fixed;
 }
-.header {
-    padding: 5px;
+.header-nav {
     display: flex;
-    width: 95vw;
+    padding: 15px;
+    width: 100vw;
     justify-content: space-between;
+    background-color: white;
+    color: #1A1A1A;
+}
+
+#logo {
+    height: 50px;
 }
 
 nav ul {
     display: flex;
     list-style: none;
+    margin: 10px;
+    padding: 5px;
 }
 
 nav li {
     display: inline-block;
-    margin-left: 10px;
-}
-
-#logo {
-    height: 30px;
+    margin: 0 10px;
+    font-size: 1.2em;
 }
 
 .hero {
+    display: flex;
     background-image: url('../images/landing.jpg');
     background-size: cover;
     background-repeat: no-repeat;
-    height: 60vh;
-    display: flex;
-    align-items: center;
+    width: 100vw;
+    height: 100vh;
+    align-self: center;
+    text-align: center;
+    color: white;
+}
+
+.hero > div {
+    width: 100vw;
     text-align: center;
 }
 
+.hero h1 {
+    display: flex;
+    height: 50vh;
+    justify-content: center;
+    align-items: flex-end;
+    padding: 0 0 10px 0;
+    font-size: 4em;
+}
+
+.hero p {
+    margin: 10px auto;
+    font-size: 1.5em;
+    font-weight: 300;
+}
+
+
+/* --- WHAT'S ON SPOTIFY--- */
+
 .section-whats-on-spotify {
-    padding: 20px;
+    padding: 25px;
     text-align: center;
+    color: #1A1A1A;
+    
 }
 
 .section-whats-on-spotify > h3 {
     display: inline-block;
-    border-bottom: 2px solid #1DB954;
+    padding: 5px;
+    border-bottom: 3px solid #1DB954;
+    font-size: 1.5em;
 }
 
 .cards-container {
-    display: flex;
+    display: flex;  
+    justify-content: space-around;
+    margin: 10px 0;
+    padding: 20px;
+}
+
+.card {
+    margin: 10px;
+    width: 25vw;
+}
+
+.card > img {
+    height: 70px;
+    margin: 5px;
+}
+
+.card h4 {
     margin: 20px;
-}
-
-.cards > img {
-    height: 40px;
-}
-
-.cards h4 {
+    font-size: 1.5em;
+    font-weight: 700;
     color: #1DB954;
 }
-.cards p {
-    text-align: left;
+
+.card p {
+    width: 70%; 
+    margin: 5px auto;
+    text-align: center; 
+    font-size: 1.2em; 
+    font-weight: 300;
 }
+
+/* --- GREEN SECTION -- */
+
+.green-section {
+    display: flex;
+    height: 600px;
+    width: 90vw;
+    margin: 0 auto;
+    padding: 10px;
+    background-color: #1DB954;
+    color: white;
+}
+
+.green-section-left {
+    position: relative;
+    margin: 50px 0vw 50px auto;
+    width: 45vw;
+}
+
+.green-section-left > h3 {
+    display: inline-block;
+    padding: 0 0 5px 0;
+    font-size: 1.5em;
+    font-weight: 400;
+    border-bottom: 3px solid white;
+}
+
+.green-section-left > h4 {
+    margin: 50px 0 20px;
+    font-size: 1.5em;
+}
+
+.green-section-left > p {
+    margin: 5px 0;
+    width: 60%;
+    font-weight: 300;
+}
+
+.img-spotify-white {
+    position: absolute;
+    top: 40%;
+    left: 75%;
+    float: right;
+    height: 120px;
+}
+
+.img-spotify-app {
+    height: 500px;
+    margin: 20px auto 0 7vw;
+}
+
+aside {
+    display: flex;
+    justify-content: left;
+    align-self: center;
+    width: 40%;
+}
+
