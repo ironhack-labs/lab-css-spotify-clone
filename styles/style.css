@@ -1,4 +1,4 @@
-@import url('https://fonts.googleapis.com/css?family=Jost&display=swap');
+@import url('https://fonts.googleapis.com/css?family=Roboto:400,700&display=swap');
 /*
 Colors:
 
@@ -9,13 +9,13 @@ White: #FFF
 */
 
 body {
-    font-family: 'Jost', sans-serif;
+    font-family: 'Roboto', sans-serif;
     margin: 0 auto;
 }
 
 .nav-bar {
     position: fixed;
-    padding: 20px 40px;
+    padding: 18px 40px;
     top: 0;
     background-color: white;
     z-index: 10;
@@ -29,7 +29,7 @@ nav ul {
 nav ul li {
     display: inline-block;
     margin: 0px 10px 20px 10px;
-    font-size: 1.9em;
+    font-size: 1.6em;
 }
 
 .nav-bar img {
@@ -54,14 +54,14 @@ nav ul li {
 }
 
 .music-text h1 {
-    font-size: 600%;
+    font-size: 92px;
     font-weight: bold;
     margin-bottom: 30px;
 }
 
 .music-text p {
     font-size: 2.1em;
-    font-weight: 50;
+    font-weight: 400;
 }
 
 .icon-section {
@@ -69,13 +69,23 @@ nav ul li {
     font-size: 1.6em;
 }
 
+.icon-section h2 {
+    display: inline-block;
+    border-bottom: 5px solid #00B172;
+    padding: 15px 0px;
+}
+
 .icon-container {
     display: flex;
     flex-direction: row;
     justify-content: center;
     align-items: baseline;
-    padding: 50px 100px;
-    flex: 1 1 0;
+    padding: 20px 0px;
+}
+
+.icon-card {
+    flex: 1 1 0; 
+    padding: 20px 0px;
 }
 
 .icon-card img {
@@ -89,4 +99,49 @@ nav ul li {
 .icon-card p {
     color: #1A1A1A;
     padding: 0px 100px;
+}
+
+.green-section {
+    background-color: #00B172;
+    margin: 0 50px;
+    position: relative;
+}
+
+.green-container {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: space-between;
+}
+
+.green-section .logo {
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    width: 8%;
+}
+
+.green-text {
+    text-align: left;
+    color: white;
+    padding: 40px 120px;
+    width: 50%;
+}
+
+.green-text-p {
+    width: 40%;
+    font-weight: 400;
+    font-size: 18px;
+}
+
+.green-text h2 {
+    display: inline-block;
+    border-bottom: 5px solid white;
+    font-size: 2.3em;
+}
+
+.screen img {
+   width: 60%;
+   padding: 150x 40px;
 }
