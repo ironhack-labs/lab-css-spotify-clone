@@ -1,8 +1,112 @@
 /*
 Colors:
-
-Text: 1A1A1A
+Text: #1A1A1A
 Green: #00B172
 White: #FFF
-
 */
+/* General */
+* {
+  margin: 0;
+  padding: 0;
+  font-family: "Helvetica Neue";
+  color: #1a1a1a;
+}
+
+h1 {
+  color: #fff;
+}
+
+/* Section 1 */
+
+#section1 {
+  display: flex;
+  justify-content: space-between;
+}
+
+.nav-bar {
+  margin: 26px;
+}
+
+.nav-bar > ul {
+  list-style: none;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.nav-bar a {
+  text-decoration: none;
+}
+
+li {
+  padding: 10px;
+}
+
+#section1 > div > img {
+  width: 20%;
+  height: auto;
+  padding: 10px;
+  margin-left: 20px;
+}
+
+/* Section 2 */
+
+.header {
+  background-image: url("../images/landing.jpg");
+  background-position: 0;
+  background-size: cover;
+  height: 800px;
+  display: block;
+  justify-content: center;
+}
+
+.header > p {
+  color: #fff;
+  line-height: 800px;
+}
+
+/* Section 3 */
+
+#section3 > h2 {
+  font-size: 1.9em;
+  padding: 20px;
+  text-align: center;
+}
+
+.text-section3 {
+  font-size: 20px;
+  display: flex;
+  justify-content: center;
+  padding-bottom: 20px;
+}
+
+.services {
+  text-align: center;
+  margin: 25px 5% 0 5%;
+  padding: 20px;
+  width: 40%;
+}
+
+.services img {
+  width: 125px;
+}
+
+.services h3 {
+  padding: 10px;
+  color: #00b172;
+}
+
+.services p {
+  padding: 5px;
+  color: grey;
+}
+
+.text-service {
+  margin: 12px;
+}
+
+/* Section 4 */
+
+#section4 {
+  background-color: #00b172;
+}
