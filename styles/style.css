@@ -6,3 +6,175 @@ Green: #00B172
 White: #FFF
 
 */
+*{
+  margin: 0;
+  padding: 0;
+  font-family: Arial, Helvetica, sans-serif;
+  font-family: sans-serif;
+  box-sizing: border-box;
+
+}
+
+
+
+main{
+  width:915px;
+  margin: 0 auto;
+}
+
+#section1 header{
+  height: 70px;
+  background-color: white;
+  
+}
+
+#section1 header img{
+  width: 170px;
+  float: left;
+  padding: 10px;
+
+}
+#section1 header nav{
+  width: 40%;
+  float: right;
+  height: 100%;
+  
+  
+}
+#section1 header nav ul{
+  display: flex;
+  list-style: none;
+  justify-content: space-evenly;
+  align-items: center;
+  height: 100%;
+  font-size: 14px;
+  
+}
+
+
+
+
+
+#section1 .hero{
+  clear: both;
+  background-image: url(../images/landing.jpg);
+  background-size: cover;
+  height: 550px;
+  background-position: center;
+  color: white;
+  display: flex;
+  flex-direction: column;
+  text-align: center;
+  justify-content: center;
+  
+}
+
+
+#section1 .hero h1{
+   
+  font-size: 50px;
+  top: 100px;
+  margin-bottom: 20px;
+}
+
+#section1 .hero span{
+  font-size: 20px;
+  width: 50%;
+  margin: 0 auto;  
+  line-height: 140%;
+}
+
+#section2 .box{
+  display: flex;
+  margin: 0 auto;
+}
+
+
+#section2 h2{
+  display: inline-block;
+  margin: 0 auto;
+  text-align: center;
+  border-bottom: 3px #00B172 solid;
+  padding: 20px 0px 10px 0px;
+}
+
+
+#section2 #options{
+  display: flex;
+  padding: 40px 0;
+  justify-content: space-evenly;
+  
+
+}
+
+#section2 #options .option{
+  box-sizing: border-box;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  width: 30%;
+  height: 250px;
+  flex-wrap: wrap;
+  padding: 20px;
+  text-align: center;
+}
+#section2 #options .option > div{
+  height: 65px;
+  
+}
+#section2 #options .option img{
+  width: 80px;
+}
+
+#section2 #options .option h4{
+  color: #00B172;
+  padding: 15px 0px 20px 0px;
+  font-size: 20px;
+  
+}
+#section2 #options .option p{
+  color: #1A1A1A;
+}
+
+
+#section3 {
+  background: url("../images/spotify-icon-white.png") #00B172 no-repeat center center;
+  background-size: 80px;
+  display: flex;
+  padding: 60px 60px 45px;
+  color: white;
+}
+
+#section3 > div{
+  width: 50%;
+}
+
+#section3 div.text{
+  display: flex;
+  flex-direction: column;
+  align-items: stretch;
+  justify-content: space-between;
+}
+
+
+#section3 h2{
+  display: inline-block;
+  margin: 0 auto 0 0;
+  text-align: left;
+  border-bottom: 3px white solid;
+  margin-bottom: 20px;
+  padding-bottom: 8px;
+}
+
+#section3 h4{
+  font-size: 20px;
+
+}
+#section3 p{
+  line-height: 25px;
+}
+
+#section3 .image img{
+  float: right;
+  width: 65%;
+}
