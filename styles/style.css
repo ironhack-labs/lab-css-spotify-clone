@@ -6,3 +6,164 @@ Green: #00B172
 White: #FFF
 
 */
+body {
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    color: #1a1a1a;
+    font-size: 17px;
+    
+}
+
+nav {
+    position: fixed;
+    top: 0;
+    left: 0;
+    right: 0;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;  
+    padding: 5px;
+    background-color:rgba(211, 211, 211, 0.5);
+    z-index: 1;
+}
+
+nav ul {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    list-style-type: none;
+    margin-right: 30px;  
+}
+
+nav ul li {
+    text-align: right;
+    margin: 0px 20px 15px auto ;
+}
+
+nav img {
+    float: center;
+    width: 170px;
+    margin: 0px auto 15px 20px;
+}
+
+nav a {
+    text-decoration: none;
+    color: #1A1A1A;
+}
+
+.header {
+    background-image: url("../images/landing.jpg");
+    background-size: cover;
+    position: relative;
+    background-repeat: no-repeat;
+    justify-content: center;
+    align-items: center;
+    height: 600px;
+    margin-top: 70px;
+    color: white;
+    vertical-align: middle;
+}
+
+h1 {
+    font-size: 7em;
+    text-align: center;
+    padding-top: 1.5em;
+}
+
+h2{
+    text-align: center;
+}
+
+h3 {
+    text-align: center;
+    font-size: 24px;
+}
+
+#general-information {
+    display: flex;
+    justify-content: space-evenly;
+    margin-top: 80px;
+    flex-direction: row;
+}
+
+.service-box {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    width: 330px;
+    text-align: center;
+}
+
+.service-box h4 {
+    color: #00b172;
+    margin-bottom: 20px;
+    font-size: 18px;
+    margin-top: 20px;
+}
+.service-box img {
+    width: 125px;
+  }
+
+.high-quality {
+    margin-top: 16px;
+}
+
+#last-section {
+    background-color: #00B172;
+    display: flex;
+    position: relative;
+    flex-direction: row;
+    justify-content: center;
+    color: #FFF;
+    padding: 30px;
+    margin: 30px auto;
+    width: 80%;
+}
+
+.text {
+    width: 50%;
+}
+
+.text h3 {
+    border-bottom: 3px solid #FFF;
+    padding-bottom: 4px;
+    margin-bottom: 50px;
+    font-size: 28px;
+    font-weight: 400;
+}
+
+.text h4 {
+    margin: 15px;
+    font-size: 24px;
+    font-weight: 400;
+    padding-top: 20px;
+}
+
+.text p {
+    padding-right: 20%;
+    font-size: 20px;
+    font-weight: lighter;
+}
+
+.logo {
+    position: absolute;
+    width: 100px;
+    height: 100px;
+    left: 45%;
+    top: 50%;
+}
+
+.app {
+    display: flex;
+    padding: 40px 0px 80px 80px;
+    margin: 0px;
+    align-items: center;
+    justify-content: center;
+}
+
+.app img {
+    margin-left: auto;
+    margin-top: 50px;
+    width: 315px;
+
+}
+
