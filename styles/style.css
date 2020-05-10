@@ -14,9 +14,16 @@ body {
     font-family: 'Work Sans', sans-serif;
 }
 
+h1 {
+    font-size: 3.5em;
+}
+
+
 header {
-    padding: 15px 10px 15px 30px;
-    
+    padding: 15px 30px;
+    position: fixed;
+    background-color: rgba(255, 255, 255, 0.5);
+    width: 100%;
 }
 
 .logo-header {
@@ -30,12 +37,16 @@ header {
 
 .nav-bar {
     float: right;
+    padding-top: 4.4px;
+    padding-bottom: 4.4px;
+    margin-right: 50px;
 }
 
 .nav-bar ul {
     display: flex;
     list-style: none;
     padding-left: 0;
+    font-size: 1.1em;
 }
 
 .nav-bar ul li a {
@@ -48,6 +59,92 @@ header {
 .title-section {
     background-image: url('../images/landing.jpg');
     background-size: cover;
+    color: white;
+    height: 760px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+}
 
-    
+.title-section p {
+    font-size: 1.4em;
+    width: 45%;
+}
+
+.content-info img {
+    height: 100px;
+}
+
+.content-section {
+    text-align: center;
+}
+
+.content-info {
+    display: flex;
+    justify-content: space-around;
+}
+
+.content-info article{
+    width: 15%;
+    margin: auto 30px;
+}
+
+.content-section h2 {
+    font-style: 2em;
+    border-bottom: solid #5fc394 ;
+    display: inline-block;
+}
+.content-section h3 {
+    font-size: 1.3em;
+    color: #54b26d;
+}
+
+.promo-content {
+    color: white;
+    background-color: #54b26b;
+    display: flex;
+    justify-content: space-between;
+    margin: auto 30px;
+    padding: 40px 0;
+}
+
+.promo-text {
+    margin:  auto 90px;
+}
+
+.promo-text h3 {
+    border-bottom: solid white 3px;
+    padding-bottom: 7px;
+    display: inline-block;
+    margin-bottom: 30px;
+    letter-spacing: 1.3px;
+    font-size: 1.9em
+}
+
+.promo-text h4 {
+    font-size: 1.7em;
+    margin-bottom: 28px;
+}
+
+.promo-text p {
+    font-size: 1.2em;
+    line-height: 1.5em;
+    width: 50%;
+}
+
+.promo-img {
+    margin: auto 100px;    
+}
+
+.promo-img img {
+    height: 590px;
+}
+
+#spotify-icon {
+    position: absolute;
+    height: 80px;
+    top: 50%;
+    left: 50%;
 }
