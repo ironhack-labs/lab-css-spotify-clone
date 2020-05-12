@@ -1,5 +1,7 @@
+@import url('href="https://fonts.googleapis.com/css2?family=Raleway:wght@500&display=swap');
 /*
 Colors:
+Text: 1A1A1A
 Text: #1A1A1A
 Green: #00B172
 White: #FFF
@@ -8,12 +10,8 @@ White: #FFF
 * {
   margin: 0;
   padding: 0;
-  font-family: "Helvetica Neue";
-  color: #1a1a1a;
-}
-
-h1 {
-  color: #fff;
+  box-sizing: border-box;
+  font-family: 'Raleway', sans-serif;
 }
 
 /* Section 1 */
@@ -21,6 +19,7 @@ h1 {
 #section1 {
   display: flex;
   justify-content: space-between;
+  color: #1a1a1a;
 }
 
 .nav-bar {
@@ -36,6 +35,7 @@ h1 {
 
 .nav-bar a {
   text-decoration: none;
+  color: #1a1a1a;
 }
 
 li {
@@ -53,17 +53,27 @@ li {
 
 .header {
   background-image: url("../images/landing.jpg");
-  background-position: 0;
+  background-position: center;
   background-size: cover;
   height: 800px;
-  display: block;
   justify-content: center;
+  text-align: center;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+}
+.header > h1 {
+  color:#fff;
+  font-size: 4em;
+  padding-bottom: 30px;
 }
 
 .header > p {
-  color: #fff;
-  line-height: 800px;
+  color:#fff;
+  font-size: 1.5em;
+  line-height: 30px;
 }
+
 
 /* Section 3 */
 
@@ -109,4 +119,45 @@ li {
 
 #section4 {
   background-color: #00b172;
+  margin: 0px 40px;
+  padding:80px 100px;
+  height: 1000px;
+  color:#fff;
+
+}
+.description{
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+
+}
+#options{
+  width: 375px;
+}
+#title h3 {
+  width: 550px;
+  font-size: 2.5em;
+  line-height: 80px;
+  border-bottom: 4px solid #fff;
+}
+
+#options h4 {
+  font-size: 2em;
+  line-height: 150px;
+}
+
+#options p{
+  font-size: 1.5em;
+  line-height: 35px;
+}
+
+#logo{
+  position:absolute;
+  width: 150px;
+  left: 50%;
+  margin-left: -75px;
+  margin-top: 300px;
+}
+#capture img {
+  width: 330px;
 }
