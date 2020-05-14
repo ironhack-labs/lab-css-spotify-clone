@@ -6,40 +6,87 @@ Green: #00B172
 White: #FFF
 
 */
-@import url('https://fonts.googleapis.com/css?family=Work+Sans&display=swap');
+
+
+/* GENERICS CSS */
+
+@import url('https://fonts.googleapis.com/css2?family=Work+Sans:wght@300;400;500;600;800&display=swap');
+
+/*  AJDC: Incluyo en todos los elementos la propiedad para que el contendo se ajuste al borde y los paddings no se expandan */
+
+* {
+    box-sizing: border-box;
+}
 
 body {
     margin: 0;
     padding: 0;
     font-family: 'Work Sans', sans-serif;
+    /*  AJDC: Incluyo el color para todos los textos de la web*/
+    font-weight: 400;
+    color: #1A1A1A;
 }
 
 h1 {
     font-size: 3.5em;
 }
 
+h2 {
+    font-weight: 600;
+}
+
+h3 {
+    font-weight: 500;
+}
+
+h2:after,
+h3:after {
+    content: "";
+    display: block;
+    width: calc(100% - 3px);
+    height: 3px;
+    background-color: #00B172;
+    margin-top: 4px;
+}
+
+img {
+    display: block;
+    width: 100%;
+    height: auto;
+}
+
+.container {
+    width: 100%;
+    margin: 0 auto;
+    max-width: 1070px;
+    padding: 15px;
+}
+
+
+/* START HEADER CONTENT */
 
 header {
     padding: 15px 30px;
-    position: fixed;
+    position: relative;
+    /* position: absolute; */
     background-color: rgba(255, 255, 255, 0.5);
+    /* AJDC:  para alinear los elementos uso display:flex - Uso  este artículo como guia: https://css-tricks.com/snippets/css/a-guide-to-flexbox/ */
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
     width: 100%;
 }
 
-.logo-header {
-    display:inline-block;
-}
+
+/* AJDC:  Cambio la forma de limitar el tamaño de la imagen ya que es mejor limitarla en ancho que en alto a mi parecer */
 
 .logo-header img {
-    height: 60px;
-
+    width: 100%;
+    max-width: 160px;
 }
 
 .nav-bar {
-    float: right;
-    padding-top: 4.4px;
-    padding-bottom: 4.4px;
-    margin-right: 50px;
+    margin-right: 20px;
 }
 
 .nav-bar ul {
@@ -53,14 +100,22 @@ header {
     text-decoration: none;
     color: #000;
     margin: 6px 15px;
-
 }
+
+
+/* END HEADER CONTENT */
+
+
+/* START TITLE SECTION */
 
 .title-section {
     background-image: url('../images/landing.jpg');
     background-size: cover;
     color: white;
-    height: 760px;
+    /* AJDC: Cambio la forma de hacerlo por esta que me gusta más, pongo un ancho o alto muy grande ya sea 100% o casi en este caso la medida es 70vh (70 porciento del la altura del dispositivo en el que se abre la web) y si es mayor que 820px no se haga más grande para que no quede excesivamente grande y me parece que la muestra esmás o menos ese encuadre de imagen */
+    height: 70vh;
+    max-height: 820px;
+    /* height: 760px; */
     display: flex;
     flex-direction: column;
     justify-content: center;
@@ -68,83 +123,140 @@ header {
     text-align: center;
 }
 
+.title-section h1 {
+    font-weight: 500;
+}
+
 .title-section p {
-    font-size: 1.4em;
-    width: 45%;
+    font-size: 1.4rem;
+    max-width: 45%;
+    margin: 0 auto;
 }
 
-.content-info img {
-    height: 100px;
-}
 
-.content-section {
+/* END TITLE SECTION */
+
+
+/* START WHATS SPOTIFY CONTENT */
+
+
+/* AJDC: Aquí cambio el nombre del css ya que creo que deben ser representativos con el contenido y dentro hago cambios los comentamos si tienes dudas */
+
+.whats-spotify-section {
     text-align: center;
 }
 
-.content-info {
-    display: flex;
-    justify-content: space-around;
-}
-
-.content-info article{
-    width: 15%;
-    margin: auto 30px;
-}
-
-.content-section h2 {
-    font-style: 2em;
-    border-bottom: solid #5fc394 ;
+.whats-spotify-section h2 {
+    /* AJDC: font-style: 2em; <- Error XD  */
+    font-size: 2rem;
+    /* AJDC: border-bottom: solid #00B172; <- Falta el tamaño pero lo cambio por otra cosilla mas chuli h2:after */
     display: inline-block;
-}
-.content-section h3 {
-    font-size: 1.3em;
-    color: #54b26d;
+    margin-bottom: 60px;
 }
 
-.promo-content {
-    color: white;
-    background-color: #54b26b;
+.whats-spotify-cards {
+    padding: 30px 0;
     display: flex;
     justify-content: space-between;
-    margin: auto 30px;
-    padding: 40px 0;
 }
 
-.promo-text {
-    margin:  auto 90px;
+.whats-spotify-cards .card {
+    width: 33.3%;
+    margin-left: 30px;
+    margin-right: 30px;
 }
 
-.promo-text h3 {
-    border-bottom: solid white 3px;
-    padding-bottom: 7px;
-    display: inline-block;
-    margin-bottom: 30px;
-    letter-spacing: 1.3px;
-    font-size: 1.9em
+.whats-spotify-cards .card img {
+    max-width: 120px;
+    margin: 0 auto;
 }
 
-.promo-text h4 {
-    font-size: 1.7em;
-    margin-bottom: 28px;
+.whats-spotify-cards .card h3 {
+    font-size: 1.3rem;
+    font-weight: 600;
+    color: #00B172;
 }
 
-.promo-text p {
-    font-size: 1.2em;
-    line-height: 1.5em;
-    width: 50%;
+.whats-spotify-cards .card h3::after {
+    display: none
 }
 
-.promo-img {
-    margin: auto 100px;    
+.whats-spotify-cards .card p {
+    font-weight: 200;
+    max-width: 70%;
+    margin: 0 auto;
 }
 
-.promo-img img {
-    height: 590px;
+
+/* END WHATS SPOTIFY CONTENT */
+
+
+/* START PROMO SECTION */
+
+
+/* AJDC: También cambio el nombre del css y dentro hago cambios los comentamos si tienes dudas */
+
+.promo-app-section {
+    /* AJDC: Aquí pongo el position relative para que el icono de spoti se centre  */
+    position: relative;
+    color: white;
+    background-color: #00B172;
+    padding: 40px;
 }
 
-#spotify-icon {
+
+/* AJDC: Aquí pongo el position absolute como estaba puesto pero lo pongo en el html como hijo directo cosa que no es 100% necesaria pero así evitamos el fallo si hubiese un padre con position relative  */
+
+.promo-app-section .icon-spotify {
+    max-width: 80px;
     position: absolute;
-    height: 80px;
+    /* AJDC: Lo centro en dos lados ya que es suficiente pero los centra ajustando el los lados superior izquierdo */
     top: 50%;
     left: 50%;
+    /* AJDC: Y para arreglar el fallo de top y left le quito al desplazamiento la mitad de su tamaño asi se queda centrado perfectamente */
+    transform: translateX(-50%) translateY(-50%);
+    /* AJDC: Esta propiedad situa los objetos organizados por capas por eso le digo que sea 2 */
+    z-index: 2;
+}
+
+.promo-app-content {
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+}
+
+.promo-app-content h2 {
+    font-size: 1.8rem;
+    font-weight: 400;
+    margin-bottom: 50px;
+}
+
+
+/* AJDC: Cambio el color a la barra inferior del título */
+
+.promo-app-content h2::after {
+    background-color: #FFF;
+}
+
+.promo-app-content h4,
+.promo-app-content p {
+    margin-bottom: 20px;
+    max-width: 300px;
+}
+
+.promo-app-content h4 {
+    font-weight: 500;
+    font-size: 1.5rem;
+}
+
+.promo-app-content p {
+    letter-spacing: .5px;
+    font-weight: 200;
+}
+
+
+/* AJDC: Limito el ancho máximo de la imágen prinicipal */
+
+.promo-app-content .icon-screen-shoot {
+    max-width: 300px;
 }
