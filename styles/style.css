@@ -1,18 +1,7 @@
-/*
-Colors:
-
-Text: 1A1A1A
-Green: #00B172
-White: #FFF
-
-*/
-
-
 /* GENERICS CSS */
 
 @import url('https://fonts.googleapis.com/css2?family=Work+Sans:wght@300;400;500;600;800&display=swap');
 
-/*  AJDC: Incluyo en todos los elementos la propiedad para que el contendo se ajuste al borde y los paddings no se expandan */
 
 * {
     box-sizing: border-box;
@@ -22,7 +11,6 @@ body {
     margin: 0;
     padding: 0;
     font-family: 'Work Sans', sans-serif;
-    /*  AJDC: Incluyo el color para todos los textos de la web*/
     font-weight: 400;
     color: #1A1A1A;
 }
@@ -67,10 +55,8 @@ img {
 
 header {
     padding: 15px 30px;
-    position: relative;
-    /* position: absolute; */
+    position: fixed;
     background-color: rgba(255, 255, 255, 0.5);
-    /* AJDC:  para alinear los elementos uso display:flex - Uso  este artículo como guia: https://css-tricks.com/snippets/css/a-guide-to-flexbox/ */
     display: flex;
     justify-content: space-between;
     align-items: center;
@@ -78,7 +64,6 @@ header {
 }
 
 
-/* AJDC:  Cambio la forma de limitar el tamaño de la imagen ya que es mejor limitarla en ancho que en alto a mi parecer */
 
 .logo-header img {
     width: 100%;
@@ -112,10 +97,8 @@ header {
     background-image: url('../images/landing.jpg');
     background-size: cover;
     color: white;
-    /* AJDC: Cambio la forma de hacerlo por esta que me gusta más, pongo un ancho o alto muy grande ya sea 100% o casi en este caso la medida es 70vh (70 porciento del la altura del dispositivo en el que se abre la web) y si es mayor que 820px no se haga más grande para que no quede excesivamente grande y me parece que la muestra esmás o menos ese encuadre de imagen */
     height: 70vh;
     max-height: 820px;
-    /* height: 760px; */
     display: flex;
     flex-direction: column;
     justify-content: center;
@@ -140,16 +123,13 @@ header {
 /* START WHATS SPOTIFY CONTENT */
 
 
-/* AJDC: Aquí cambio el nombre del css ya que creo que deben ser representativos con el contenido y dentro hago cambios los comentamos si tienes dudas */
 
 .whats-spotify-section {
     text-align: center;
 }
 
 .whats-spotify-section h2 {
-    /* AJDC: font-style: 2em; <- Error XD  */
     font-size: 2rem;
-    /* AJDC: border-bottom: solid #00B172; <- Falta el tamaño pero lo cambio por otra cosilla mas chuli h2:after */
     display: inline-block;
     margin-bottom: 60px;
 }
@@ -194,10 +174,8 @@ header {
 /* START PROMO SECTION */
 
 
-/* AJDC: También cambio el nombre del css y dentro hago cambios los comentamos si tienes dudas */
 
 .promo-app-section {
-    /* AJDC: Aquí pongo el position relative para que el icono de spoti se centre  */
     position: relative;
     color: white;
     background-color: #00B172;
@@ -205,17 +183,13 @@ header {
 }
 
 
-/* AJDC: Aquí pongo el position absolute como estaba puesto pero lo pongo en el html como hijo directo cosa que no es 100% necesaria pero así evitamos el fallo si hubiese un padre con position relative  */
 
 .promo-app-section .icon-spotify {
     max-width: 80px;
     position: absolute;
-    /* AJDC: Lo centro en dos lados ya que es suficiente pero los centra ajustando el los lados superior izquierdo */
     top: 50%;
     left: 50%;
-    /* AJDC: Y para arreglar el fallo de top y left le quito al desplazamiento la mitad de su tamaño asi se queda centrado perfectamente */
     transform: translateX(-50%) translateY(-50%);
-    /* AJDC: Esta propiedad situa los objetos organizados por capas por eso le digo que sea 2 */
     z-index: 2;
 }
 
@@ -232,7 +206,6 @@ header {
 }
 
 
-/* AJDC: Cambio el color a la barra inferior del título */
 
 .promo-app-content h2::after {
     background-color: #FFF;
@@ -255,7 +228,6 @@ header {
 }
 
 
-/* AJDC: Limito el ancho máximo de la imágen prinicipal */
 
 .promo-app-content .icon-screen-shoot {
     max-width: 300px;
