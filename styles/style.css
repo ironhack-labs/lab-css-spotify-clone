@@ -1,8 +1,183 @@
 /*
 Colors:
-
 Text: 1A1A1A
 Green: #00B172
 White: #FFF
-
 */
+
+* {
+    box-sizing: border-box;
+}
+
+body {
+    padding: 0 10vw;
+    font-family: 'Roboto', sans-serif;
+}
+
+.logo img {
+    max-width: 100px;
+}
+
+.logo {
+    position: absolute;
+}
+
+nav {
+    position: relative;
+    width: 100%;
+    padding-bottom: 10px;
+}
+
+ul {
+    text-align: end;
+    padding-top: 9px;
+}
+
+li {
+    list-style: none;
+    display: inline-block;
+    position: relative;
+    padding-left: 20px;
+}
+
+.container {
+    position: relative;
+}
+
+
+.banner {
+    background-image: url('../images/landing.jpg');
+    height: 700px;
+    background-size: cover;
+    background-position: center;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    color: white;
+    padding: 0 250px;
+    text-align: center;
+}
+
+h1 {
+    font-weight: 600;
+    font-size: 60px;
+}
+
+h2 {
+    font-weight: 300;
+}
+
+.what {
+    border-bottom: 3px solid #00B172;
+    margin-top: -5px;
+    display: inline-block;
+    text-align: center;
+}
+
+.title1 {
+    margin-top: 40px;
+    margin-bottom: 0px;
+}
+
+.container {
+    display: flex;
+    width: 100%;
+    justify-content: center;
+}
+
+.music p {
+    font-size: 20px;
+    font-weight: 100;
+}
+
+.icons {
+    padding-top: 30px;
+    display: flex;
+    flex-direction: row;
+}
+
+.cuadros {
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+    align-items: center;
+    text-align: center;
+    min-height: 90px;
+}
+
+.cuadros img {
+    width: 100px;
+}
+
+.cuadro-title>h3 {
+    color: #00B172
+}
+
+.text-cuadros {
+    font-size: 18px;
+    font-weight: 100;
+    text-align: center;
+}
+
+.title {
+    margin-top: 0px;
+    font-size: 30px;
+    font-weight: 300;
+    text-decoration: underline;
+}
+
+.options {
+    font-weight: 900;
+    font-size: 20px;
+}
+
+.text-option {
+    color: w;
+}
+
+.cuadro-title {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+.container-icons {
+    display: inline;
+    width: 33%;
+    padding: 20px;
+}
+
+.container-green {
+    background-color: #00B172;
+    width: 100%;
+    padding: 60px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin-bottom: 50px;
+}
+
+.options-container {
+    width: 40%;
+    display: inline-block;
+    color: white;
+}
+
+.app-container {
+    width: 60%;
+    display: inline-flex;
+    align-items: center;
+    justify-content: flex-end;
+    padding-right: 40px;
+}
+
+.app-container img {
+    max-height: 400px;
+}
+
+.spotify-brand {
+    position: absolute;
+    height: 100px;
+}
