@@ -1,8 +1,135 @@
 /*
 Colors:
 
-Text: 1A1A1A
+Text: 
 Green: #00B172
 White: #FFF
 
 */
+@import url('https://fonts.googleapis.com/css2?family=Montserrat:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800&display=swap');
+* {
+    margin: 0;
+    padding: 0;  
+}
+html {
+    font-family: 'montserrat', arial;
+}
+nav {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    position: fixed;
+    z-index: 1;
+    top:0;
+    background-color: #FFF;
+    width: 100%;
+}
+nav img {
+    width: 15%;
+    margin: 30px;
+}
+nav ul {
+    display: flex;
+    margin: 30px;
+}
+nav ul li {
+    list-style-type: none;
+    margin-right: 60px;
+
+}
+nav ul li a {
+    text-decoration: none;
+    color: #1A1A1A;
+    font-size: 2.5em;
+    font-weight: 200;
+
+}
+.hero {
+    background-image: url("../images/landing.jpg");
+    background-repeat: no-repeat;
+    background-size: cover;
+    height: 100vh;
+    color: white;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+.hero h1 {
+    font-size: 8em;
+    margin-bottom: 50px;
+}
+.hero p {
+    font-size: 3.5em;
+    width: 60%;
+    text-align: center;
+    font-weight: 100;
+}
+#article-container {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    margin: 100px;
+}
+#article-container div{
+    display: flex;
+    align-items: baseline;
+    justify-content: space-around;
+}
+#article-container article {
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+    justify-content: flex-end;
+    width: 30%;
+    padding: 0 40px;
+}
+#article-container article img {
+    width: 40%;
+}
+#article-container article p {
+    font-size: 2.2em;
+    text-align: center;
+}
+h2 {
+    font-size: 5em;
+    border-bottom: 5px solid #00B172;
+    padding-bottom: 20px;
+    margin-bottom: 100px;
+    font-weight: 800;
+}
+h3 {
+    font-size: 3em;
+    font-weight: 500;
+    margin: 50px;
+    color: #00B172;
+}
+#green-section {
+    background-color: #00B172;
+    display: flex;
+    position: relative;
+    justify-content: space-between;
+    padding: 100px 200px;
+}
+#green-section h3 {
+    color:white;
+    margin:15px 0;
+}
+#green-section p {
+    color: white;
+    font-size: 2.5em;
+    line-height: 1.5;
+    width: 40%;
+    margin: 30px 0;
+}
+#green-section h2 {
+    color: white;
+    border-bottom: 5px solid white;
+}
+#green-section .white-icon {
+    position: absolute;
+    width: 10%;
+    top: 40%;
+    left:46%;
+}
