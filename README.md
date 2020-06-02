@@ -12,7 +12,7 @@ In this lab, we will be building a simplified version of the Spotify landing pag
 
 <br>
 
-All of the necessary assets and images are already provided. You might also find it useful to resort to the **[full-length PDF version of the website](https://s3-eu-west-1.amazonaws.com/ih-materials/uploads/spotify-prototype.pdf)** as reference.
+All of the necessary assets and images are already provided. You might also find it useful to resort to the **[full-length PDF version of the website](https://s3-eu-west-1.amazonxaws.com/ih-materials/uploads/spotify-prototype.pdf)** as reference.
 
 ## Requirements
 
