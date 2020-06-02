@@ -6,3 +6,179 @@ Green: #00B172
 White: #FFF
 
 */
+
+* {
+    margin: 0;
+    padding: 0;
+}
+
+body {
+
+    font-family: Helvetica
+}
+
+nav div {
+    width: 50%;
+}
+
+nav {
+    display: flex;
+    justify-content: space-between;
+    position: fixed;
+    padding: 30px 50px;
+    height: 100px;
+    width: 100%;
+    background-color: white;
+
+}
+
+nav img {
+    width: 20%;
+}
+
+nav div ul {
+    display: inline;
+    margin-right: 105px;
+
+}
+
+nav div ul li {
+    list-style: none;
+    display: inline;
+    padding: 0 10px;
+}
+
+.div-derecha {
+    text-align: right;
+    margin-top: 25px;
+}
+
+.section-landing {
+    background-image: url("../images/landing.jpg");
+    height: 2000px;
+    background-size: cover;
+    text-align: center;
+    padding-top: 300px;
+
+}
+
+.section-landing h1,
+p {
+    color: white;
+    align-items: center;
+    display: block;
+    font-size: 4em;
+
+
+}
+
+h1 {
+    margin-top: 25%;
+    margin-bottom: 50px;
+
+}
+
+.section-features h2 {
+    display: block;
+    text-align: center;
+    text-decoration: underline;
+    text-decoration-color: #00B172;
+    margin-right: 100px;
+    margin-bottom: 50px;
+}
+
+.section-features article {
+    text-align: center;
+}
+
+.section-features img {
+    width: 100px;
+    height: 100px;
+
+}
+
+.articles-flex {
+    display: flex;
+    justify-content: space-evenly;
+}
+
+.flex-container {
+    display: flex;
+}
+
+.section-green {
+    background-color: #00B172;
+
+}
+
+.section-green,
+.section-features {
+    padding: 250px 50px;
+}
+
+.section-green h2 {
+    margin-left: 150px;
+}
+
+.lft-container {
+    display: flex;
+    width: 60%;
+    margin-left: 150px;
+}
+
+.rgt-container {
+    width: 40%;
+}
+
+.articles-column {
+    flex-direction: column;
+
+}
+
+.rgt-container img {
+    width: 50%;
+}
+
+.icon-spotify {
+    width: 20%;
+}
+
+.article-spotify {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+
+}
+
+.white-letter {
+    color: #FFF;
+}
+
+.articles-flex p {
+    color: black;
+    font-weight: lighter;
+}
+
+.section-features h3 {
+    color: #00B172;
+    font-weight: bold;
+    font-size: 1.5em;
+}
+
+.section-green h3,
+p {
+    margin-bottom: 20px;
+    font-size: 1.5em;
+}
+
+.section-green p {
+    font-weight: lighter;
+}
+
+.section-green h2 {
+    margin-bottom: 20px;
+    text-decoration: underline;
+    text-decoration-color: white;
+    font-size: 2em;
+    ;
+}
