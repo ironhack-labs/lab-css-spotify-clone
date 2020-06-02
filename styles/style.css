@@ -1,3 +1,7 @@
+* {
+    padding: 0;
+    margin: 0;
+}
 /*
 Colors:
 
@@ -6,3 +10,138 @@ Green: #00B172
 White: #FFF
 
 */
+
+/*header*/
+header {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin-top: 50px;
+
+}
+
+header a img {
+    width: 200px;
+}
+
+nav a {
+    font-family: sans-serif;
+    color: black;
+    text-decoration: none;
+    margin: 10px;
+    font-size: 1.2em;
+    font-weight: 0.7em;
+}
+
+/*section1*/
+
+#section1 {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    background-image: url(../images/landing.jpg) ;
+    background-size: cover;
+    color: white;	
+    height: 500px;
+    font-family: sans-serif;
+}
+
+h1 {
+    font-weight: 100;
+    font-size: 2em;
+}
+
+#section1 {
+    font-size: 1.5em;
+    font-weight: 100;
+    text-align: center;
+}
+
+/*section2*/
+
+#section2 {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    font-family: sans-serif;
+    margin: 50px 0;
+}
+
+#section2 h2 {
+    font-size: 2em;
+    border-bottom: 2px solid #00B172;
+}
+
+#row {
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    margin: 20px;
+
+}
+.app{
+    display: flex;
+	flex-direction: column;
+	justify-content: space-around;
+    align-items: center;
+    width: 300px;
+
+}
+.app h3 {
+   color: #00B172 ; 
+   font-size: 1.5em;
+   margin: 10px;
+}
+.app p {
+    font-size: 1.2em;
+    text-align: center;
+    margin: 10px;
+    color: #1A1A1A;
+}
+.app img{
+    width: 50px;
+    margin: 10px;
+}
+
+/*section3*/
+
+#section3 {
+    background-color: #00B172;
+    display: flex;
+    justify-content: space-around;
+    background-image: url(../images/spotify-icon-white.png);
+    background-repeat: no-repeat;
+    background-size: 100px;
+    background-position: center;
+    height: 500px;
+}
+
+#kike {
+    display: flex;
+	flex-direction: column;
+	justify-content: center;
+    align-items: baseline;
+    color: white;
+    font-family: sans-serif;
+}
+
+#kike h2 {
+    border-bottom: 2px solid white ;
+    font-size: 2em;
+    font-weight: 100;
+}
+
+#kike h3 {
+    font-size: 1.5em;
+    margin: 20px 0;
+}
+.how p {
+    width: 220px;
+    line-height: 1.2;
+}
+#kanye {
+    height: 400px;
+    margin-top: 70px; 
+}
