@@ -5,14 +5,13 @@ Green: #00B172
 White: #FFF
  */ 
  
- @media (min-width: 650px) and (max-width: 999px) {
+ /* @media (min-width: 650px) and (max-width: 999px) { }*/
     html {
     margin: 0px;
     padding 0px;
     font-family: 'Open Sans', sans-serif;
-    
 }
- }
+ 
 nav {
     position: fixed; 
     overflow: hidden; 
@@ -31,7 +30,9 @@ main {
     display: flex;
     justify-content: flex-start;
     align-items: flex-start;
-    width: 250px;
+    width: 200px;
+    height: 75px;
+
 } 
 nav ul {
     
@@ -46,6 +47,7 @@ nav ul li {
     display: flex;
     justify-content: center;
     align-items: center;
+    flex-direction: column;
     color: white;
     background-image: url("../images/landing.jpg");
     background-size: 100%;
@@ -59,38 +61,71 @@ h1 {
     display: flex;
     justify-content: center;
     align-items: center;
+    font-size: 70px;
+}
+
+.landing p {
+    font-size: 22px;
+    text-align: center;
 }
 #boxes2 { 
    
 }
-#third { 
+.third { 
     padding: 50px;
     background-color: #00B172;
     color: white; 
+    display: flex;
+    justify-content: space-between;
 }
-#third > h2 {
+.third > h2 {
     text-decoration: underline;
 }
+
+.third.logo{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+
+}
 .icon { 
-    width:50px;     
+    width: 30%;  
+    margin-left: auto;
+    margin-right: auto; 
+    /*display: block;
+    margin-left: auto;
+    margin-right: auto;
+    width: 30%;*/
 }
 
-#second {
-    height: 750px;
+.second {
+    height: 350px;
+    margin-top: 5px;
 }
 
-#second > h2 {
+.text > h2 {
+    text-decoration: underline;  
+    text-underline-position: under;
+} 
+
+h3 {
+    font-size: 20px;
+    font-weight: bold;
+}
+
+
+.second > h2 {
     text-decoration: underline;  
     text-decoration-color: #00B172;
     text-underline-position: under;
     text-align: center;
 }
-#boxes
-    {
+.boxes {
+        margin-top: 30px;
         display: flex;
         flex-direction: row;
         flex-wrap: nowrap;
-        justify-content: center;
+        justify-content: space-around;
         align-items: flex-start;
         align-content: center;
     }
@@ -98,14 +133,19 @@ h1 {
 #boxes > div {  
     align-content: center;
 }  
-.h3 {
+.boxes > div > h3 {
     color: #00B172;
+    text-align: center;
 }
+
 .kanye {
     width:200px;
     float:right;
 }
-.logo2 { 
+.logo { 
+    display: flex;
+    justify-content: center;
+    align-items: center;
     
         
     }
