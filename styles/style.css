@@ -1,8 +1,151 @@
-/*
-Colors:
+html,
+body {
+    margin: 0;
+    padding: 0;
+    word-spacing: 0.2em;
+    display: flex;
+    flex-flow: column wrap;
+    align-items: center;
+    font-family: Roboto, sans serif;
+}
 
-Text: 1A1A1A
-Green: #00B172
-White: #FFF
+img {
+    width: 16rem;
+    height: 5rem;
+}
 
-*/
+header {
+    width: 100vw;
+}
+
+#logoNavHolder {
+    padding: 1%;
+    display: flex;
+    justify-content: space-between;
+}
+
+nav {
+    width: 37%;
+    position: relative;
+    right: 1.5em;
+}
+
+nav ul {
+    display: flex;
+    justify-content: flex-end;
+    flex-wrap: wrap;
+}
+
+nav ul li {
+    list-style-type: none;
+    margin: 2%;
+}
+
+li a {
+    text-decoration: none;
+    color: #000;
+}
+
+#intro {
+    background: url(../images/landing.jpg);
+    background-size: cover;
+    background-position: bottom;
+    color: #fff;
+    height: 85vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+}
+
+h1 {
+    font-size: 5em;
+}
+
+h5 {
+    font-size: 1.5em;
+}
+
+section {
+    margin: 2% 0;
+    display: flex;
+    flex-flow: column wrap;
+    justify-content: center;
+    align-items: center;
+}
+
+section h2 {
+    border-bottom: 3px solid #00B172;
+    width: 30%;
+    text-align: center;
+    padding: 1%;
+    margin-bottom: 5%;
+}
+
+.f1stChild {
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+}
+
+.s2ndChildContainer {
+    display: flex;
+    flex-flow: column wrap;
+    justify-content: center;
+    align-items: center;
+}
+
+.s2ndChildContainer p {
+    width: 50%;
+    text-align: center;
+    color: #1A1A1A;
+}
+
+.s2ndChildContainer h4 {
+    color: #00B172;
+}
+
+.s2ndChildContainer img {
+    width: 7em;
+}
+
+section:nth-of-type(2) {
+    background: #00B172;
+    width: 94%;
+    padding: 3%;
+    color: #fff;
+    display: flex;
+    justify-content: space-around;
+    border: 1px solid red;
+}
+
+section:nth-of-type(2) h3 {
+    border-bottom: 3px solid #fff;
+    font-size: 2.1em;
+}
+
+.s2ndChildContainerAlignedStart {
+    align-items: flex-start;
+    padding-left: 2%;
+    flex-basis: 32em;
+    justify-content: flex-start;
+    position: relative;
+    left: -5em;
+}
+
+.s2ndChildContainerAlignedStart p {
+    text-align: start;
+}
+
+[alt='spotify white icon'] {
+    height: 11em;
+    width: 11em;
+    position: relative;
+    top: -1em;
+    left: -11em;
+}
+
+[alt='spotify app'] {
+    height: 36em;
+    width: initial;
+}
