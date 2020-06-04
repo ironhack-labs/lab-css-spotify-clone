@@ -1,8 +1,111 @@
 /*
 Colors:
-
 Text: 1A1A1A
 Green: #00B172
 White: #FFF
+ */ 
+ 
+ @media (min-width: 650px) and (max-width: 999px) {
+    html {
+    margin: 0px;
+    padding 0px;
+    font-family: 'Open Sans', sans-serif;
+    
+}
+ }
+nav {
+    position: fixed; 
+    overflow: hidden; 
+    width: 100%;
+    display: flex;
+    justify-content: space-between;
+    background-color: white;
+}
 
-*/
+main {
+    height: 100px;
+
+
+}
+ .logo { 
+    display: flex;
+    justify-content: flex-start;
+    align-items: flex-start;
+    width: 250px;
+} 
+nav ul {
+    
+    float: right; 
+    display: flex;
+}
+nav ul li {
+    list-style-type: none;
+    margin: 20px;   
+}
+.landing {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    color: white;
+    background-image: url("../images/landing.jpg");
+    background-size: 100%;
+    background-repeat: no-repeat;
+    height: 1000px;
+    
+}
+
+h1 {
+    color: white;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+#boxes2 { 
+   
+}
+#third { 
+    padding: 50px;
+    background-color: #00B172;
+    color: white; 
+}
+#third > h2 {
+    text-decoration: underline;
+}
+.icon { 
+    width:50px;     
+}
+
+#second {
+    height: 750px;
+}
+
+#second > h2 {
+    text-decoration: underline;  
+    text-decoration-color: #00B172;
+    text-underline-position: under;
+    text-align: center;
+}
+#boxes
+    {
+        display: flex;
+        flex-direction: row;
+        flex-wrap: nowrap;
+        justify-content: center;
+        align-items: flex-start;
+        align-content: center;
+    }
+  
+#boxes > div {  
+    align-content: center;
+}  
+.h3 {
+    color: #00B172;
+}
+.kanye {
+    width:200px;
+    float:right;
+}
+.logo2 { 
+    
+        
+    }
