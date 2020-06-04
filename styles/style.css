@@ -7,7 +7,134 @@ White: #FFF
 
 */
 
+@import url('https://fonts.googleapis.com/css2?family=Montserrat:wght@400;700&display=swap');
+
 body {
     margin: 0;
     padding: 0;
+    font-family: 'Montserrat', sans-serif;
+    font-size: 16px;
+}
+
+header {
+    display: flex;
+    flex-direction: column;
+}
+
+.topbar {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.topbar img {
+    height: 7vh;
+    margin: 1.3rem;
+}
+
+nav {
+    margin-right: 0.8rem;
+}
+
+nav ul {
+    display: flex;
+    justify-content: space-around;
+}
+
+nav ul li {
+    list-style-type: none;
+    font-size: 0.8rem;
+    margin: 0 0.3rem;
+
+}
+
+.banner {
+    color: white;
+    background-image: url(../images/landing.jpg);
+    background-size: cover;
+    background-position: center;
+}
+
+.bannertext {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    margin: 18rem auto;
+    
+}
+
+#whatson {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+#whatson h2 {
+    border-bottom: 3px solid #00B172;
+    padding-bottom: 5px;
+}
+
+.features {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+    align-items: center;
+    flex: 1;
+}
+
+article img {
+
+    height: 11vh;
+}
+
+#whatson article {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    flex: 1;
+    margin: 2rem;
+}
+
+#whatson h3 {
+    color: #00B172;
+    font-weight: 700;
+    font-size: 1.8rem;
+}
+
+#whatson p {
+    text-align: center;
+    font-size: 1.3rem;
+    padding: 0 7rem;
+}
+
+#yeezy {
+    background-color: #00B172;
+    margin: 0 2rem;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    color: white;
+}
+
+.yeezy-features {
+    display: flex;
+    flex-direction: column;
+}
+
+.floating-logo {
+    height: 13vh;
+}
+
+.spotify-app {
+    height: 70vh;
+    margin: 80px 40px;
+}
+
+#yeezy h2 {
+    border-bottom: 3px solid white;
+    padding-bottom: 5px;
+}
+
+.yeezy-articles {
+    width: 70%;
 }
