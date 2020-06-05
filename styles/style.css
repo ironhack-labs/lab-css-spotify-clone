@@ -67,22 +67,38 @@ html {
 
 .features {
     display: flex;
-    align-items: center;
-    justify-content: center;
+    align-items: stretch;
+    justify-content: space-between;
+    padding-bottom: 20px;
+    flex-direction: column;
 }
 .features > h1 {
-    transform: translate(0, -50%);
-    font-size: 18px;
+    font-size: 2rem;
+    text-align: center;
+    align-self: center;
 }
 
-.container img {
-    width: 150px;
+.container {
+    display: flex;
+    justify-content: space-between;
 }
 
 .container div {
-
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    text-align: center;
+    width: -webkit-fill-available;
+    align-items: center;
+    overflow-wrap: break-word;
 }
 
-.container h1 {
+.container img {
+    width: 7rem;
+}
 
+
+.container h2 {
+    color: #00B172;
+    font-weight: bolder;
 }
