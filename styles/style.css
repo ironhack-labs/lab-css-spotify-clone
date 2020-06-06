@@ -7,14 +7,21 @@ White: #FFF
 
 */
 
+
+/* General styling */
+
 @import url('https://fonts.googleapis.com/css2?family=Montserrat:wght@400;700&display=swap');
 
-body {
+html, body {
     margin: 0;
     padding: 0;
     font-family: 'Montserrat', sans-serif;
     font-size: 16px;
+    width: 100%;
 }
+
+
+/* Style the header including navigation and banner */
 
 header {
     display: flex;
@@ -28,12 +35,12 @@ header {
 }
 
 .topbar img {
-    height: 7vh;
+    height: 4.4rem;
     margin: 1.3rem;
 }
 
 nav {
-    margin-right: 0.8rem;
+    margin-right: 1.3rem;
 }
 
 nav ul {
@@ -43,13 +50,12 @@ nav ul {
 
 nav ul li {
     list-style-type: none;
-    font-size: 0.8rem;
-    margin: 0 0.3rem;
+    font-size: 1.2rem;
+    margin: 0 0.5rem;
 
 }
 
-.banner {
-    color: white;
+#banner {
     background-image: url(../images/landing.jpg);
     background-size: cover;
     background-position: center;
@@ -59,40 +65,58 @@ nav ul li {
     display: flex;
     flex-direction: column;
     align-items: center;
-    margin: 18rem auto;
-    
+    justify-content: center;
+    height: 70vh;
+    color: white;
+    text-align: center;
+    margin: 0 2rem;
 }
 
+.bannertext h1 {
+    font-size: 4rem;
+}
+
+.bannertext p {
+    font-size: 1.5rem;
+    max-width: 40rem;
+    text-align: center;
+}
+
+
+/* What's on Spotify section */
+
 #whatson {
+    margin: 0 2rem;
     display: flex;
     flex-direction: column;
     align-items: center;
 }
 
 #whatson h2 {
+    font-size: 2.3rem;
     border-bottom: 3px solid #00B172;
     padding-bottom: 5px;
 }
 
 .features {
     display: flex;
-    flex-direction: row;
+    flex-flow: row wrap;
     justify-content: space-around;
-    align-items: center;
-    flex: 1;
+    align-items: baseline;
 }
 
 article img {
 
-    height: 11vh;
+    width: 8.5rem;
 }
 
 #whatson article {
+    flex: 1;
     display: flex;
     flex-direction: column;
     align-items: center;
-    flex: 1;
-    margin: 2rem;
+    margin: 1rem;
+    padding: 2rem;
 }
 
 #whatson h3 {
@@ -104,8 +128,12 @@ article img {
 #whatson p {
     text-align: center;
     font-size: 1.3rem;
-    padding: 0 7rem;
+    padding: 0 1rem;
+    width: 20rem;
 }
+
+
+/* Kanye West features section */
 
 #yeezy {
     background-color: #00B172;
@@ -113,28 +141,53 @@ article img {
     display: flex;
     justify-content: space-around;
     align-items: center;
-    color: white;
 }
 
 .yeezy-features {
-    display: flex;
-    flex-direction: column;
+    color: white;
+    margin: 2rem;
 }
 
-.floating-logo {
-    height: 13vh;
-}
-
-.spotify-app {
-    height: 70vh;
-    margin: 80px 40px;
-}
-
-#yeezy h2 {
+.yeezy-features h2 {
+    font-size: 2rem;
     border-bottom: 3px solid white;
     padding-bottom: 5px;
 }
 
-.yeezy-articles {
-    width: 70%;
+.yeezy-items {
+    max-width: 22rem;
+}
+
+.yeezy-items h3 {
+    font-size: 1.5rem;
+}
+
+.yeezy-items p {
+    font-size: 1.2rem;
+}
+
+.floating-logo {
+    max-width: 9rem;
+    flex-shrink: 0;
+    margin: 1rem;
+}
+
+.spotify-app {
+    max-width: 20rem;
+    flex-shrink: 0;
+    margin: 4rem 4rem 4rem 1rem;
+}
+
+
+@media (max-width: 1200px) {
+    .floating-logo {
+        display: none;
+    }
+}
+
+@media (max-width: 800px) {
+    .floating-logo, .spotify-app {
+        display: none;
+    }
+
 }
