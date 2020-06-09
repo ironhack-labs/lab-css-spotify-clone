@@ -1,3 +1,5 @@
+@import url('https://fonts.googleapis.com/css?family=Proxima+Nova');
+
 /*
 Colors:
 
@@ -9,10 +11,65 @@ White: #FFF
 
 body {
   color: #1a1a1a;
+  font-family: proxima-nova;
+  padding: 0;
+  margin: 0;
 }
 
 .nav-bar {
-  
+  margin: 0;
+  padding: 0;
+}
+
+.nav-bar-ul {
+  display: flex;
+  flex-direction: horizontal;
+  justify-content: space-evenly;
+  width: 500px;
+  list-style-type: none;
+}
+
+.nav-bar-ul a {
+  text-decoration: none;
+  color: black;
+  font-size: 1.4em;
+}
+
+.main-bar {
+  background-color: white;
+  position: fixed;
+  display: flex;
+  justify-content: space-between;
+  width: 100%;
+  height: 60px;
+  padding: 10px 0;
+  margin: 0;
+}
+
+
+.beginning-background {
+  height: 770px;
+  color:white;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  background-image: url(../images/landing.jpg);
+  background-position: 0 0;
+  background-size: cover;
+  background-repeat: no-repeat;
+}
+
+.beginning-background h1 {
+  font-size: 4em;
+  margin-bottom: 0;
+}
+
+.beginning-background p { 
+  font-size: 1.5em;
+  width: 50%;
+  text-align: center;
+  font-weight: 100;
 }
 
 #beginning {
@@ -28,7 +85,8 @@ body {
 }
 
 .spotify-logo {
-  
+  padding-left: 20px;
+  width: 200px;
 }
 
 .music-icon {
