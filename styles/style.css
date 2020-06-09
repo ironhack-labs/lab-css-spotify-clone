@@ -1,8 +1,144 @@
-/*
-Colors:
+body {
+  font-family: Arial;
+}
 
-Text: 1A1A1A
-Green: #00B172
-White: #FFF
+header {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
 
-*/
+#logo {
+  width: 250px;
+  height: 80px;
+}
+
+nav {
+  min-width: 20%;
+}
+
+nav ul {
+  display: flex;
+  justify-content: space-between;
+  padding: 0;
+  margin: 0;
+}
+
+li {
+  list-style: none;
+  margin-right: 50px;
+}
+
+a {
+  color: inherit;
+  text-decoration: none;
+}
+
+#top-img-wrapper {
+  position: relative;
+}
+
+#landing-img {
+  width: 100%;
+  object-fit: contain;
+}
+
+h1 {
+  color: white;
+  position: absolute;
+  left: 50%;
+  top: 50%;
+  transform: translate(-50%, -50%);
+  text-align: center;
+}
+
+#top-heading {
+  font-size: 75px;
+}
+
+#bottom-heading {
+  font-size: 25px;
+}
+
+#section-two {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+h3 {
+  border-bottom: 5px solid green;
+  font-size: 40px;
+  margin-bottom: 70px;
+}
+
+#icons-main-wrapper {
+  width: 80%;
+  display: flex;
+  justify-content: space-between;
+}
+
+.icon-wrapper {
+  width: 250px;
+  text-align: center;
+}
+
+.icons {
+  width: 170px;
+  height: 140px;
+  margin: 0;
+  margin: 0 auto;
+  display: block;
+}
+
+h4 {
+  font-size: 25px;
+  color: green;
+}
+
+.icon-wrapper p {
+  font-size: 18px;
+  letter-spacing: 2px;
+}
+
+#section-three {
+  width: 100%;
+  height: 700px;
+  background-color: #4ea758;
+  display: flex;
+  justify-content: space-between;
+  color: white;
+}
+
+#l-side-content {
+  margin-left: 100px;
+}
+
+h5 {
+  font-size: 25px;
+  width: 330px;
+  border-bottom: 3px solid white;
+}
+
+h6 {
+  font-size: 20px;
+}
+
+#section-three p {
+  font-size: 19px;
+}
+
+#app {
+  width: 370px;
+  height: 600px;
+  margin-top: 50px;
+  margin-right: 100px;
+  border-radius: 5px;
+}
+
+#brand-icon {
+  width: 180px;
+  height: 180px;
+  position: relative;
+  top: 220px;
+}
