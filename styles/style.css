@@ -6,3 +6,162 @@ Green: #00B172
 White: #FFF
 
 */
+* {
+    margin: 0;
+    padding: 0;
+    border: 0;
+}
+
+.navbar {
+    width: 100%;
+    background-color: white;
+    position: fixed;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.navbar ul {
+    display: flex;
+    margin: 10px;
+    padding: 10px;
+}
+
+.navbar li {
+    list-style-type: none;
+    margin-right: 60px;
+}
+
+.navbar ul li a {
+    text-decoration: none;
+    color: gray;
+    font-size: medium;
+    font-weight: bold;
+}
+
+#spotifylogo {
+    width: 180px;
+    height: 55px;
+    padding: 10px;
+    margin-left: 20px;
+}
+
+/* header/nav done, mid part now */
+.mainpic {
+    background-image: url("../images/landing.jpg");
+    background-size: cover;
+    background-position: center;
+    justify-content: center;
+    flex-direction: column;
+    align-items: center;
+    display: flex;
+    height: 1000px;
+}
+
+.mainpic h1 {
+    text-align: center;
+    font-size: 100px;
+    color: white;
+    margin-bottom: 50px;
+}
+
+.mainpic p {
+    text-align: center;
+    color: white;
+    font-size: 35px;
+    font-weight: lighter;
+}
+
+.information {
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    display: flex;
+}
+
+.information h2 {
+    text-align: center;
+}
+
+#songs {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: space-between;
+}
+
+#songs img {
+    width: 110px;
+}
+
+#songs h3 {
+    color: #00B172;
+}
+
+#music h3 {
+    color: #00B172;
+}
+
+#music {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: space-between;
+}
+
+#music img {
+    width: 110px;
+}
+
+#stream img {
+    width: 110px;
+}
+
+#stream h3 {
+    color: #00B172;
+}
+
+#stream {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: space-between;
+}
+
+.bottomside {
+    background-color: #00B172;
+    display: flex;
+    position: relative;
+    justify-content: space-between;
+    padding: 100px 100px;
+}
+.bottomside h3 {
+    color:white;
+    margin:15px 0;
+}
+.bottomside p {
+    color: white;
+    font-size: small;
+    line-height: 1.5;
+    width: 40%;
+    margin: 30px 0;
+}
+.bottomside h2 {
+    color: white;
+    border-bottom: 5px solid white;
+}
+#white {
+    position: absolute;
+    width: 10%;
+    top: 40%;
+    left:46%;
+}
+
+#app {
+    width: 270px;
+    align-content: center;
+    position: absolute;
+    /* left: 100px; */
+    right: 100px;
+    top: 90px;
+}
