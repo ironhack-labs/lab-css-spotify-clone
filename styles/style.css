@@ -1,7 +1,146 @@
+@import url("https://fonts.googleapis.com/css2?family=Open+Sans:wght@300;400;600;700&display=swap");
+
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  font-family: "Open Sans", Arial, Helvetica, sans-serif;
+}
+
+.centered {
+  text-align: center;
+}
+
+.flex {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.column {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+}
+
+.logo {
+  height: 40px;
+}
+
+#spotify-logo {
+  height: 30px;
+}
+
+.text {
+  font-weight: 300;
+}
+
+/* ENLEVER LA MARGE SUR LA BANNIERE !!! */
+
+.navbar {
+  height: 60px;
+  padding: 0 20px;
+  color: #1a1a1a;
+  position: fixed;
+  z-index: 1;
+  width: 100%;
+  background-color: #fff;
+}
+
+.list-bar {
+  list-style: none;
+  flex-grow: 0.2;
+  font-size: 15px;
+}
+
+.content {
+  position: relative;
+  top: 60px;
+}
+
+.banner {
+  background-image: url("../images/landing.jpg");
+  background-repeat: no-repeat;
+  background-position: center;
+  background-size: cover;
+  height: 500px;
+  margin: 0px;
+}
+
+.banner-text {
+  color: #fff;
+  text-align: center;
+}
+
+.banner-text .title {
+  margin-bottom: 20px;
+  font-size: 40px;
+  font-weight: 400;
+}
+
+.banner ~ * {
+  margin: 0 20px;
+}
+
+.column:nth-of-type(2) {
+  height: 350px;
+}
+
+.flex article {
+  flex: 1;
+  padding: 20px 20px 80px;
+}
+
+h2.green-underlined {
+  border-bottom: solid 2px #00b172;
+  width: fit-content;
+  margin: auto;
+  padding-bottom: 6px;
+}
+
+article .title {
+  color: #00b172;
+}
+
+.green-background {
+  background-color: #00b172;
+  color: #fff;
+  padding: 50px;
+  position: absolute;
+  width: 100%;
+  justify-content: center;
+}
+
+h2.white-underlined {
+  border-bottom: solid 2px #fff;
+  width: fit-content;
+  padding-bottom: 6px;
+  margin-bottom: 40px;
+}
+
+.tight-container {
+  width: 350px;
+}
+
+.tight-container .text {
+    margin: 25px 0px;
+    width: 250px;
+}
+
+#app-img {
+    width: 250px;
+}
+
+#spotify-icon-white {
+    width: 80px;
+    margin: 0px 100px 0px 40px;
+}
+
 /*
+
 Colors:
 
-Text: 1A1A1A
+Text: #1A1A1A
 Green: #00B172
 White: #FFF
 
