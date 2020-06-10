@@ -1,8 +1,177 @@
-/*
-Colors:
+html,
+body {
+    margin: 0;
+    padding: auto 20px
+}
 
-Text: 1A1A1A
-Green: #00B172
-White: #FFF
+body {
+    font-family: Gill Sans, sans-serif;
+    font-size: 15px;
+    line-height: 2em;
+}
 
-*/
+nav a {
+    font-size: 1.7em;
+    text-decoration: none;
+    color: black;
+}
+
+ul {
+    width: 600px;
+    margin: 19px 0 19px 30px;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    padding: 10px;
+}
+
+li {
+    list-style-type: none;
+    text-align: right;
+    display: inline-flex;
+    padding: auto;
+}
+
+header img {
+    width: 250px;
+    height: 90px;
+}
+
+header {
+    display: flex;
+    justify-content: space-between;
+    padding: 10px 10px;
+}
+
+#section1 {
+    background-image: url("/Users/thatchampion/lab-css-spotify-clone/images/landing.jpg");
+    background-position: center;
+    background-size: cover;
+    background-repeat: no-repeat;
+    height: 650px;
+    position: relative;
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+}
+
+h1,
+#section1 p {
+    color: white;
+    text-align: center;
+}
+
+h1 {
+    font-size: 8em;
+    font-weight: 400;
+    text-align: center;
+
+}
+
+#section1 p {
+    font-size: 2em;
+    font-weight: 100;
+    line-height: 50px;
+    width: 50%;
+    text-align: center;
+    margin: 20px auto;
+}
+
+#section2 div {
+    display: flex;
+    justify-content: space-evenly;
+    text-align: center;
+
+}
+
+.box img {
+    width: 200px;
+}
+
+.box h3 {
+    color: rgbrgb(17, 145, 60);
+    font-size: 2em;
+    padding: 20px auto;
+    text-align: center;
+}
+
+.box p {
+    font-size: 1.2em;
+    width: 200px;
+    font-weight: 200;
+    text-align: center;
+}
+
+.box {
+    display: flex;
+    flex-direction: column;
+    justify-content: space-around;
+    justify-items: center;
+    text-align: center;
+}
+
+#section2 h2 {
+    text-decoration-line: underline;
+    text-decoration-style: solid;
+    text-decoration-color: rgb(17, 145, 60);
+    font-size: 3em;
+    text-align: center;
+}
+
+#section3 {
+    background-color: rgb(17, 145, 60);
+    color: white;
+}
+
+#section3 {
+    display: flex;
+    justify-content: space-around;
+    padding: 50px 0;
+    position: relative;
+
+}
+
+#section3 h3 {
+    font-size: 2em;
+    padding: 20px 10px;
+    text-align: left;
+
+}
+
+.text3 {
+    width: 270px;
+}
+
+#section3 h2 {
+    font-size: 2.5em;
+    text-align: left;
+    text-decoration: underline;
+    text-decoration-color: white;
+    width: 700px;
+}
+
+#section3 p {
+    font-size: 1.3em;
+}
+
+.west {
+    width: 450px;
+    margin: auto 0 auto 100px;
+}
+
+.spotify {
+    width: 200px;
+    height: 200px;
+    width: 200px;
+    position: absolute;
+    right: 15;
+    left: 20;
+    margin: auto;
+    bottom: 0;
+    top: 0;
+}
+
+#box h3,
+#box p {
+    margin: auto 0;
+}
