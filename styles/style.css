@@ -6,3 +6,172 @@ Green: #00B172
 White: #FFF
 
 */
+@import url("https://fonts.googleapis.com/css2?family=Montserrat:wght@200;300;400;500;600&display=swap")
+
+* {
+    margin: 0;
+    padding: 0;
+}
+
+body {
+    font-family: 'Montserrat', sans-serif;
+    color: #1A1A1A;
+    font-weight: 500;
+    font-size: 22px;
+}
+
+.nav-bar {
+    position: fixed;
+    height: 100px;
+    box-sizing: border-box;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    z-index: 10;
+    background-color: white;
+    width: 100%;
+}
+
+nav {
+    width: 400px;
+    padding: 0 50px;
+}
+
+nav ul {
+    list-style: none;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 0;
+}
+
+nav a {
+    text-decoration: none;
+    color: #1A1A1A;
+  }
+
+#logo {
+    height: 60px;
+    padding-left: 25px;
+}
+
+#big-image {
+    background-image: url("../images/landing.jpg");
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: 100% 25%;
+    overflow: hidden;
+    height: 900px;
+    position: relative;
+    top: 100px;
+    text-align: center;
+    align-content: center;
+    color: white;
+    font-weight: lighter;
+}
+
+h1 {
+    font-size: 3.8em;
+}
+
+h2 {
+    font-size: 1.8em;
+    font-weight: bold;
+}
+
+h3 {
+    font-size: 1.5em;
+}
+
+p {
+    font-weight: lighter;
+    font-size: 1.2em;
+}
+
+#big-image p {
+    font-size: 1.5em;
+}
+
+#big-image div {
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    width: 70%
+}
+
+#whats-on h3 {
+    color: #00B172;
+}
+
+#title h2 {
+    border-bottom: solid #00B172 3px;
+    padding: 0 0 1px;
+}
+
+#benefits {
+    display: flex;
+    align-item: flex-start;
+    flex-wrap: wrap;
+    text-align: center;
+    flex: 1;
+    padding-left: 7%;
+    padding-right: 7%;
+    padding-bottom: 7%;
+}
+
+#whats-on {
+    position: relative;
+    top: 100px;
+}
+#whats-on .benefit {
+    margin-top: 25px;
+    width: 25%;
+    padding: 4%;
+}
+
+#whats-on img {
+    height: 80px;
+}
+
+#easy {
+    background-color: #00B172;
+    color: white;
+    position: relative;
+    display: flex;
+    justify-content: space-around;
+    padding: 7%;
+    align-items: center;
+}
+
+#logo-white {
+    height: 150px;
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+}
+
+#screenshot img {
+    height: 600px;
+}
+
+#text-part h2 {
+    border-bottom: solid white 3px;
+    padding: 0 0 1px;
+}
+
+#text-part {
+    width: 35%;
+}
+
+#text-part div {
+    width: 80%;
+}
+
+#title {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
