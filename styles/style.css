@@ -7,7 +7,8 @@ White: #FFF
 
 */
 html, body {
-    font-family: 'Open Sans';
+    font-family: 'Source Sans Pro', sans-serif;
+    margin:0;
     }
 
 #landing {
@@ -19,16 +20,20 @@ html, body {
 nav {
     display: flex;
     align-items: center;
+    margin:5px 0px;
 }
 
 nav img {
-    width: 150px;
+    width: 180px;
     margin: 10px 30px;
 }
 ul {
     display: flex;
     list-style-type: none;
     margin-left: auto;
+    font-size:23px;
+    margin-right:10px;
+    font-weight: 300;
 }
 
 li {
@@ -39,14 +44,18 @@ h1 {
     color: white;
     font-size: 80px;
     text-align: center;
-    padding-top: 10%;
+    padding-top: 15%;
     margin: 0px;
+    font-weight: 600;
+    word-spacing:3px;
 }
 
-p {
+#landing p {
     color: white;
     font-size: 30px;
     text-align: center;
+    word-spacing:3px;
+    font-weight:300; 
 }
 
 #whats-on {
@@ -54,19 +63,46 @@ p {
 }
 
 h2 {
-    font-size: 18px; 
-    border-bottom:2px solid #1db954;
+    font-size: 40px; 
+    border-bottom:4px solid #53B36C;
     display:inline-block;
+    margin: 40px 0px;
+    font-weight:600;
+    ord-spacing:3px;
+    padding-bottom: 2px;;
 }
 
 #whats-on img {
-    width: 60px;
+    width: 130px;
 }
 
-#whats-on div {
-    display:flex;
-    align-items: flex-start;
-    justify-content: center;
-    align-content:space-around;
-    width:100%;
+#hd {
+    margin-top:10px;
+    margin-bottom:5px;
 }
+
+h3 {
+    font-size:30px;
+    font-weight: 600;
+    margin-top:15px;
+    color: #53B36C;
+    font-weight: 900;
+}
+#whats-on div {
+    margin: 50px 40px 40px 40px;
+    display:flex;
+    justify-content: space-around;
+    align-items:flex-start;
+    flex-wrap: wrap;
+}
+
+#whats-on article {
+    width:270px;
+}
+
+#whats-on p {
+    font-size:25px;
+    font-weight:200;
+    margin:0px 5px;
+}
+
