@@ -6,3 +6,152 @@ Green: #00B172
 White: #FFF
 
 */
+
+/*
+Colors:
+
+Text: 1A1A1A
+Green: #00B172
+White: #FFF
+
+*/
+body {
+    margin: 0;
+    padding: 0;
+    margin-top: 80px;
+  }
+h1 {
+  font-size: 5em;
+  text-align:center;
+  color: white;
+}
+h2 {
+    font-size: 2em;
+    text-align:center;
+    margin: 2rem;
+  }
+h3 {
+    color: #00B172 ;
+}
+.logo {
+    width: 150px;
+    padding-left: 2rem;
+    margin-right: auto;
+  }
+header{
+    background-color: white;
+    position: fixed;
+    top: 0;
+    left: 0;
+    right: 0;
+    height: 80px;
+    display: flex;
+    justify-content: flex-end;
+    align-items: center;
+    border-bottom: 1px solid lightgray;
+  }
+ul {
+    list-style: none;
+    display: inline-flex;
+    justify-content: space-between;
+    align-items: center;
+  }
+  ul a {
+    text-decoration: none;
+    color: black;
+    margin: 1rem ;
+  }
+#header{
+  height:600px;
+  background-image: url(../images/landing.jpg);
+  background-position:0 0;
+  background-repeat: no-repeat;
+  background-size: 100% 100%;
+  padding-top: 50px;
+  text-align: center;
+  margin: auto 30px;
+  border-top: 2px solid #ded9d9;
+}
+.text{
+    font-size:1.5em;
+    color: white;
+  }
+#features {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+#features img {
+   width: 80px;
+  }
+#features p {
+  width: 70%;
+}
+.container{
+  display: flex;
+  justify-content: space-between;
+  align-items: stretch;
+  flex-direction: row;
+}
+.container > div{
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+}
+#bottom{
+    position: relative;
+    height:600px;
+    background-position:0 0;
+    background-repeat: no-repeat;
+    background-size: cover;
+    padding-top: 50px;
+    background-color: #00B172;
+    margin: auto 20px;
+    border-top: 2px solid #ded9d9;
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+  }
+.content{
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+  margin: auto 80px;
+  width: 30%;
+}
+.content > h2, article {
+  color: white;
+}
+.content > h2{
+  border-bottom: 5px solid white;
+  padding-bottom: 3px;
+  }
+.images{
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  margin: auto 80px;
+}
+  #features {
+    display: flex;
+    padding: 20px;
+    margin: 0 20px;
+    flex-direction: column;
+    align-items: center;
+  }
+#features > h2{
+ border-bottom: 5px solid #00B172;
+ padding-bottom: 3px; 
+ }
+.content > h3 {
+   color: white ;
+}
+#spotify {
+   width: 150px;
+   margin: 0 40px;
+  }
+#spotify-app {
+   width: 300px;
+   margin: 0 40px;
+  }
