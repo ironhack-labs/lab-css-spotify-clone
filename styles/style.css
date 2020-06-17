@@ -1,8 +1,132 @@
-/*
-Colors:
+
+/* 
+Colors:{
 
 Text: 1A1A1A
 Green: #00B172
 White: #FFF
+} */
 
-*/
+
+body{
+    color: #1A1A1A;
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+#main{
+    background-image: url(../images/landing.jpg);
+    background-position: center;
+    background-repeat: none;
+    background-size: cover;
+    margin: 75px auto 0px auto;
+    color:#FFF;
+    width: 100%;
+    height:800px;
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+    align-items: center;
+}
+
+.header{
+    /* border:1px solid red; */
+}
+
+.header h1{
+    font-size: 80px;
+    padding:20px;
+    margin:0 auto;
+}
+
+.header h2{
+    font-size: 24px;
+    text-align: center;
+    padding:20px;
+    margin:0 auto;
+}
+
+nav img {
+    padding:25px 0px;
+    width:15%;
+    height: auto;
+    /* border: 3px solid yellow; */
+}
+
+nav {
+    position: fixed;
+    top: 0;
+    display: flex;
+    justify-content: space-between;
+    width:  100%;
+    /* border:3px solid red; */
+    background-color: #FFF;
+}
+
+a:link, a:visited {
+    /* border: 3px solid orange; */
+    color: black;
+    padding: 14px 25px;
+    text-align: center;
+    text-decoration: none;
+    font-size: 20px;
+  }
+
+#links-container {
+    /* border:3px solid green; */
+    margin-right: 20px;
+    list-style-type: none;
+    display: inline-flex;
+    justify-content: space-between;
+    width:40%;
+    align-items: center;
+}
+
+#main2{
+    border:1px solid green;
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+    justify-content: space-evenly;
+    height:600px;
+}
+
+#whats-on-container{
+    border:1px solid red;
+    margin:0 auto;
+    width:100%;
+    height:auto;
+    display: flex;
+    justify-content: space-evenly
+
+}
+
+.whats-on img {
+    width:150px;
+    height:auto;
+}
+
+.whats-on {
+    width: 30%;
+    border:1px solid orange;
+    display: flex;
+    justify-content: space-evenly;
+    align-items: center;
+    flex-direction: column;
+    word-wrap: normal;
+}
+
+.whats-on h3{
+    font-size:18px;
+    color: #00B172
+}
+
+.whats-on p{
+    font-size:24px;
+    text-align: center;
+}
+
+#main2 h2 {
+    font-size: 36px;
+    border-bottom: 4px solid #00B172;
+    padding: 3px;
+}
