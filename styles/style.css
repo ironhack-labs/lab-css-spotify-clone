@@ -1,8 +1,142 @@
-/*
-Colors:
+@import url('https://fonts.googleapis.com/css2?family=Roboto:ital,wght@0,100;0,300;0,400;0,500;0,700;0,900;1,100;1,300;1,400;1,500;1,700;1,900&display=swap');
 
-Text: 1A1A1A
-Green: #00B172
-White: #FFF
+body {
+    font-family:'Roboto', sans-serif;
+    color: #1A1A1A;
+}
 
-*/
+h1 {
+    font-size: 80px;
+    font-weight: bold;
+}
+
+h2 {
+    font-size: 40px;
+    border-bottom: 5px solid #00B172;
+    line-height: 50px;
+    display: inline-block;
+}
+
+h3 {
+    color: white;
+    font-size: 30px;
+    font-weight: 600;
+    border-bottom: 5px solid white;
+    line-height: 50px;
+    display: inline-block;
+}
+
+h4 {
+    color: #00B172;
+    font-size: 25px;
+    font-weight: 700;
+}
+
+h5 {
+    color: white;
+    font-size: 20px;
+    line-height: 20px;
+}
+
+header {
+    margin: 0 30px;
+    padding: 0.5px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin: 15px 20px;
+}
+
+nav {
+    width: 600px;
+}
+
+nav ul {
+    list-style: none;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+nav ul a {
+    text-decoration: none;
+    color: black
+}
+
+#Spotify-green-logo {
+    width: 150px;
+    margin-right: 1rem;
+}
+
+#top-div {
+    color: white;
+    text-align: center;
+    height: 700px;
+    background-image: url('/images/landing.jpg');
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: 0;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+}
+
+#top-div article {
+    font-size: 30px;
+    line-height: 50px;
+}
+
+#middle-div {
+    text-align: center;
+    margin: 30px;
+}
+
+#spotify-boxes {
+    margin: 50px;
+    font-size: 20px;
+    display: flex;
+    justify-content: space-between;
+}
+
+#spotify-boxes article {
+    width: 300px;
+    line-height: 30px;
+    font-weight: lighter;
+}
+
+.box-icons {
+    width: 100px;
+    height: 100px;
+}
+
+#bottom-div {
+    height: 600px;
+    background: #00B172;
+    padding: 20px;
+    display: flex;
+    align-items: center;
+    justify-content: space-evenly;
+}
+
+#bottom-div p{
+    color: white;
+    font-weight: lighter;
+    font-size: 20px;
+    line-height: 30px;
+}
+
+#white-logo {
+    width: 100px;
+    height: 100px;
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+#app-spotify {
+    height: 500px;
+}
+
+#bottom-div > div {
+    width: 30%;
+}
