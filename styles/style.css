@@ -1,8 +1,130 @@
-/*
-Colors:
+@import url('https://fonts.googleapis.com/css?family=Montserrat');
 
-Text: 1A1A1A
-Green: #00B172
-White: #FFF
+body {
+    margin: 0;
+    padding: 0;
+    color: #1A1A1A;
+    font-size: 20px;
+    font-family: Montserrat, Helvetica, Arial, sans-serif;
+}
 
-*/
+#logo-img {
+    width: 200px;
+    margin: 20px;
+}
+
+#concert-img {
+    width: 100%;
+}
+
+nav {
+    position: fixed;
+    background-color: #FFF;
+    width: 100%;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+nav>ul {
+    display: flex;
+    justify-content: space-between;
+}
+
+ul>li {
+    list-style: none;
+    padding: 5px 20px;
+}
+
+ul>li>a {
+    text-decoration: none;
+    color: black;
+}
+
+h1 {
+    font-size: 75px;
+    position: absolute;
+    top: 45%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    color: #FFF;
+}
+
+h2 {
+    color: #00B172;
+    text-align: center;
+}
+
+h3 {
+    position: absolute;
+    text-align: center;
+    top: 60%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    color: #FFF;
+    text-emphasis: none;
+}
+
+p {
+    text-align: center;
+}
+
+#about-spotify {
+    margin-top: 40px;
+    margin-bottom: 100px;
+}
+
+#about-spotify>div {
+    display: flex;
+    justify-content: space-evenly;
+    align-items: center;
+}
+
+#about-spotify span {
+    color: black;
+    border-bottom: 5px solid #00B172;
+    font-size: 38px;
+    margin-bottom: 60px;
+}
+
+#about-spotify img {
+    width: 160px;
+    padding: 20px 40px 0 40px;
+}
+
+#artist-spotlight {
+    background-color: #00B172;
+    display: flex;
+    justify-content: space-around;
+    color: white;
+    padding: 40px;
+    margin: 20px;
+}
+
+#artist-spotlight span {
+    color: #FFF;
+    border-bottom: 5px solid #FFF;
+    font-size: 38px;
+    padding-bottom: 8px;
+}
+
+#artist-spotlight h2 {
+    text-align: left;
+    font-weight: bold;
+    color: white;
+}
+
+#spotify-icon {
+    width: 150px;
+    position: absolute;
+    left: 0;
+    right: 0;
+    margin-left: auto;
+    margin-right: auto;
+    padding: 250px 0;
+}
+
+#spotify-screenshot {
+    width: 330px;
+    padding: 40px 0;
+}
