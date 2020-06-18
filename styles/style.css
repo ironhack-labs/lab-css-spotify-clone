@@ -1,8 +1,90 @@
 /*
 Colors:
-
 Text: 1A1A1A
 Green: #00B172
 White: #FFF
-
 */
+
+* {
+    box-sizing: border-box;
+}
+
+body {
+    margin: 0;
+    padding: 0;
+    font-family: "Proxima Nova", "Helvetica Neue", Helvetica, Arial, sans-serif;
+}
+
+.nav-logo {
+    overflow: hidden;
+}
+
+.green-logo {
+    height: 30px;
+}
+
+nav {
+    width: 100%;
+    height: 100px;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    position: fixed;
+    top: 0;
+    padding: 10px 20px;
+    background-color: white;
+    align-items: center;
+    z-index: 5;
+}
+
+ul {
+    list-style: none;
+    display: flex;
+    color: #1A1A1A;           
+}
+
+ul li {
+    margin-right: 8px;
+    font-size: 10px;
+}
+
+.landing {
+    margin-top: 75px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    height: 100%;
+    width: 100%;
+}
+
+.landing-img {
+    width: 100%;
+    object-fit: contain;
+}
+
+.landing-content {
+    position: absolute;
+    position: absolute;
+    color: white;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.landing-content-header {
+    font-size: 7vw;
+}
+
+.landing-content-description {
+    font-size: 3vw;
+    margin-bottom: 7.5px;
+}
+
+.features-section {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    width: 100%;
+}
