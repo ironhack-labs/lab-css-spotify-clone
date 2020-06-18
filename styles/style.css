@@ -19,19 +19,27 @@ body {
 #nav-bar {
     color: #FFF;
     display: flex;
-    /* justify-content: flex-end; */
+    flex-direction: row;
+     /* justify-content: stretch; */
+     /* width: 20%;      */
 }
 
 #nav-bar img{
-    width: 15%;
-    height: 20%;
-    padding-right: 30%;
+    width: 13%;
+     padding-right: 30%;
+    padding-left: 5%;
+}
+#nav-bar nav{
+    display: contents;
 }
 
 #nav-bar ul{
     display: flex;
+    flex-direction: row;
+    align-items: stretch;
     justify-content: space-between;
-}
+    
+ }
 
 #nav-bar ul li{
    padding: 0 8% 0 5%;
