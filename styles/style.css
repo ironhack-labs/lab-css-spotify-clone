@@ -6,3 +6,166 @@ Green: #00B172
 White: #FFF
 
 */
+
+
+/*
+Very messy, sorry. Would appreciate some tips on how to name classes
+and tags logically and consistently. I found myself having to go back
+and change tags and then get confused which is which.
+*/
+
+body {
+    font-family: Helvetica, sans-serif;
+    width: 100%;
+    margin: 0 auto;
+}
+section1 {
+    display: flex;
+
+}
+navbar {
+    position: fixed;
+    top: 0px;
+    height: 80px;
+    width: 100%;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    background-color: #FFF;
+}
+
+navbar img {
+    padding-top: 12px;
+    padding-left: 30px;
+    height: 55px;
+    width: relative;
+}
+
+navbar ul {
+    font-size: 18px;
+    font-weight: 100;
+    list-style: none;
+    padding-top: 9px;
+    padding-right: 70px;
+    width: 400px;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+}
+
+#main-header {
+    color: #FFF;
+    position: relative;
+    text-align: center;
+    bottom: 60%;
+}
+
+h1 {
+    font-size: 100px;
+}
+
+h2 {
+    font-size: 35px;
+    font-weight: 200;
+}
+
+landing img {
+    top: 80px;
+    width: 100%;
+}
+
+
+section2 {
+    margin-top: -260px;
+    display: flex;
+    flex-direction: column;
+}
+
+.container {
+    margin-top: 20px;
+    margin-bottom: 100px;
+    display: flex;
+    flex-direction: row;
+}
+
+#on-spotify {
+    margin-top: 0px;
+    font-size: 50px;
+    align-self: center;
+}
+
+#underline {
+    margin-top: 10px;
+    border: none;
+    height: 6px;
+    background-color:  #00B172
+}
+
+.container img {
+    width: 30%;
+    heigth: relative;
+}
+
+#feature {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: space-between;
+}
+
+h3 {
+    font-size: 1.5em;
+}
+
+#icon-header {
+    text-align: center;
+    color: #00B172;
+}
+
+p {
+    font-size: 1.3em;
+}
+
+#icon-text{
+    text-align: center;
+}
+
+section3 {
+    background-color: #00B172;
+    display:flex;
+    justify-content: space-between;
+}
+
+.search-browse-discover {
+    padding: 150px;
+    display:flex;
+    flex-direction: column;
+    max-width: 480px;
+}
+
+#white {
+    color: #FFF;
+}
+
+.yeezy {
+    font-size: 40px;
+}
+
+#underline-white {
+    margin-top: 10px;
+    border: none;
+    height: 6px;
+    background-color: #FFF
+}
+
+.kanye img{
+    padding: 150px;
+    max-height: 700px;
+}
+
+.white-icon {
+    position: absolute;
+    align-self: center;
+    left: 45%;
+    max-width: 100px;
+}
