@@ -7,9 +7,10 @@ White: #FFF
 
 */
 
-*{
+* {
     margin: 0;
     padding: 0;
+    color: #1A1A1A;
 }
 
 body {
@@ -17,19 +18,25 @@ body {
 }
 
 
-nav {
+.mainNav {
     display: flex;
     justify-content: space-between;
+    position: fixed;
+    top: 0;
+    left: 0;
+    right: 0;
+    background-color: #ffffff;
+    z-index: 1;
 }
 
-nav img {
+.mainNav img {
     width: 10vw;
     padding: 10px;
 }
 
 .navLinks {
     display: flex;
-    width: 276px;
+    width: 350px;
     justify-content: space-around;
     align-items: center;
     margin: 0 20px
@@ -40,6 +47,62 @@ nav img {
     color: #1A1A1A
 }
 
+.cardSection {
+    display: flex;
+    justify-content: space-around;
+    width: 80vw;
+    margin: 50px 0;
+    flex-wrap: wrap;
+}
+
+.card {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    width: 300px;
+    text-align: center;
+    margin: 10px;
+}
+
+.card h3 {
+    color: #00B172;
+    font-size: 20px;
+}
+
+.card p {
+    color: #1A1A1A;
+    width: 194px;
+}
+
+.card img {
+    width: 80px;
+}
+
+.card h3,
+p {
+    padding: 10px;
+}
+
+.infoTitle {
+    color: #00B172;
+    font-size: 30px;
+    text-decoration: underline;
+    padding: 20px;
+}
+
+.showcaseText {
+    width: 25vw;
+}
+
+.showcaseText h3,
+.showcaseText p,
+.showcaseText u {
+    color: #ffffff;
+    padding: 10px 0;
+    font-size: 1.1em;
+    line-height: 2em;
+}
+
 #banner {
     background-image: url(/images/landing.jpg);
     background-size: cover;
@@ -48,11 +111,12 @@ nav img {
     flex-direction: column;
     justify-content: center;
     align-items: center;
-    color: #ffffff;
+
 }
 
 #banner h1 {
     font-size: 7vw;
+    color: #ffffff;
 }
 
 #banner p {
@@ -60,4 +124,39 @@ nav img {
     width: 54vw;
     text-align: center;
     margin: 10px 0;
+    color: #ffffff;
+}
+
+#info {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+#showcase {
+    background-color: #00B172;
+    display: flex;
+    justify-content: space-between;
+    position: relative;
+    padding: 50px 12vw;
+    margin: 2vw;
+}
+
+.whiteIcon {
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+}
+
+.whiteIcon img {
+    width: 100px;
+}
+
+.appImg img {
+    height: 500px;
+}
+
+#showcaseTitle {
+    font-size: 20px;
 }
