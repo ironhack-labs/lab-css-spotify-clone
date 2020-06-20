@@ -88,3 +88,180 @@ ul li {
     align-items: center;
     width: 100%;
 }
+
+.features-heading{
+    color: #1A1A1A;
+    border-bottom: 3px solid #00B172;
+    padding-bottom: 5px;
+}
+
+.featured-list {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    margin-bottom: 20px;
+    width: 100%;
+    text-align: center;
+}
+
+.feature {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    width: 100%;
+}
+
+.feature-heading{
+    color: #00B172;
+    font-weight: 600;
+    font-size: 20px;
+}
+
+.feature-description {
+    color: #403d3d;
+    margin-top: 20px;
+}
+
+.feature-img {
+    width: 125px;
+    height: 100px;
+}
+
+.container {
+    height: 125px;
+}
+
+.spotify-app {
+    height: 500px;
+}
+
+.bottom-header {
+    font-size: 30px;
+    font-weight: 600;
+    border-bottom: 3px solid white;
+    width: fit-content;
+    margin-bottom: 50px;
+}
+
+.bottom-mini-header{
+    font-size: 30px;
+    font-weight: 600;
+}
+
+.mini-container {
+    margin-bottom: 40px;
+}
+
+.left-section {
+    width: 100%;
+}
+
+.last-section {
+    margin: 20px;
+    background-color: #00B172;
+    color: white;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding: 20px 30px;
+    flex-direction: column;
+}
+
+
+.white-logo{
+    display: none;
+}
+
+@media screen and (min-width: 480px) {
+    .green-logo {
+        height: 40px;
+    }
+    ul li {
+        margin-right: 20px;
+        font-size: 20px;
+    }
+    .features-heading{
+        font-size: 40px;
+    }
+    .feature-heading{
+        font-size: 30px;
+    }
+
+    .feature-description {
+        color: #403d3d;
+        margin-top: 30px;
+        font-size: 25px;
+    }
+
+    .featured-list {
+        width: 75%;
+    }
+
+    .container {
+        height: 175px;
+    }
+
+    .white-logo{
+        display: none;
+    }
+}
+
+@media screen and (min-width: 850px) {
+    .green-logo {
+        height: 60px;
+    }
+    ul li {
+        margin-right: 30px;
+        font-size: 25px;
+    }
+    .features-heading{
+        font-size: 60px;
+    }
+
+    .feature {
+        margin-top: 50px;
+        display: flex;
+        flex-direction: row;
+        justify-content: space-evenly;
+        align-items: flex-start;
+        width: 100%;
+    }
+
+    .feature-description {
+        color: #403d3d;
+        margin-top: 30px;
+        font-size: 25px;
+    }
+
+    .featured-list {
+        width: 30%;
+    }
+
+    .container {
+        height: 175px;
+    }
+
+    .left-section {
+        width: 50%;
+    }
+
+    .last-section {
+        margin: 20px;
+        background-color: #00B172;
+        color: white;
+        display: flex;
+        justify-content: space-between;
+        align-items: center;
+        padding: 50px 70px;
+        flex-direction: row;
+    }
+    .white-logo{
+        height: 100px;
+        display: block;
+        position: absolute;
+        left: 50%;
+    }
+
+}
