@@ -6,3 +6,224 @@ Green: #00B172
 White: #FFF
 
 */
+
+/*--------------------GENERAL SETTINGS-----------------------*/
+body,
+h2 {
+    margin: 0;
+    margin-block-start: 0;
+    margin-block-end: 0;
+}
+
+html {
+    font-size: 16px;
+    font-family: 'Roboto', sans-serif;
+    font-weight: 300;
+
+}
+
+.green {
+    color: #00B172;
+}
+
+.white {
+    color: #FFF;
+}
+
+/*-------------------SECTION MAIN IMAGE----------------------*/
+/*HEADER*/
+header {
+    position: fixed;
+    top: 0;
+    height: 10vh;
+    display: flex;
+    justify-content: space-between;
+    padding: 0.5em 2em;
+    align-items: center;
+    background-color: #FFF;
+    z-index: 200;
+}
+
+#logo {
+    width: 15%;
+    height: 65px;
+
+}
+
+nav ul {
+    display: flex;
+}
+
+nav ul li {
+    list-style-type: none;
+    margin: 0 1em;
+}
+
+nav ul li a {
+    text-decoration: none;
+    color: #1A1A1A;
+}
+
+/*MAIN IMAGE*/
+#imgAndTitle {
+    position: absolute;
+    width: 55%;
+    top: 366px;
+    left: 22%;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+#mainImage {
+    width: 100%;
+}
+
+#mainTitle {
+    font-size: 90px;
+    margin: 0;
+    margin-bottom: 0.5em;
+    font-weight: 500;
+}
+
+#imgAndTitle p {
+    margin: 0;
+    font-size: 30px;
+}
+
+/*----------------SECTION WHAT'S ON SPOTIFY------------------*/
+#whatsOnSpotify {
+    height: 75vh;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-around;
+}
+
+#titleLineWhatsOnSpotify {
+    align-items: center;
+}
+
+.titleAndLine {
+    display: flex;
+    flex-direction: column;
+    margin-top: 2em;
+}
+
+#titleWhatsOnSpotify {
+    font-size: 45px;
+    font-weight: 500;
+}
+
+#separateLine {
+    display: block;
+    border: 2px solid;
+    width: 23.5%;
+}
+
+#containerBlocs {
+    display: flex;
+    padding: 0 5em;
+}
+
+.blocsOnSpotify {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    flex: 1;
+}
+
+.iconsOnSpotify {
+    width: 25%;
+}
+
+#iconMusic {
+    height: 88px;
+    width: 23%;
+}
+
+#deviceIcon {
+    height: 88px;
+    width: 20%;
+}
+
+.sizeh3 {
+    font-size: 33px;
+}
+
+.sizePOnSpotify {
+    font-size: 26px;
+    font-weight: 100;
+    width: 50%;
+    text-align: center;
+}
+
+/*--------------SECTION SEARCH AND DISCOVER------------------*/
+#searchAndDiscoverAndImage {
+    height: 120vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+#containerDiscoverSection {
+    background-color: #00B172;
+    display: flex;
+    height: 90%;
+    width: 95%;
+}
+
+.paddingBloc {
+    padding: 0 0 0 8em;
+}
+
+#leftBloc {
+    display: flex;
+    flex-direction: column;
+    justify-content: space-evenly;
+    width: 42%;
+}
+
+#mainTitleLeftSection {
+    font-size: 40px;
+    font-weight: 500;
+    margin-bottom: 0.3em;
+}
+
+#underlineLeftSection {
+    display: block;
+    border: 2px solid;
+    width: 87%;
+}
+
+.widthBlocsDiscover {
+    width: 65%;
+}
+
+.titlesLeftSection {
+    font-size: 30px;
+    font-weight: 500;
+}
+
+.textLeftSection {
+    font-size: 25px;
+    font-weight: 100;
+}
+
+#whiteIcon {
+    position: relative;
+    width: 150px;
+    height: 150px;
+    top: 40%;
+}
+
+#rightBloc {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    width: 45%;
+}
+
+#rightBloc img {
+    width: 58%;
+}

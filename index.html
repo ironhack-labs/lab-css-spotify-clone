@@ -1,18 +1,116 @@
 <!DOCTYPE html>
 <html lang="en">
-  <head>
-    <meta charset="UTF-8" />
-    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-    <meta http-equiv="X-UA-Compatible" content="ie=edge" />
-    <title>Spotify Clone</title>
-    <!-- don't forget to link your styles -->
-  </head>
-  <body>
-    Premium Discover Help Download Music for everyone. Spotify is now free on mobile, tablet and computer. Listen to the
-    right music, wherever you are. What’s on Spotify? Millions of Songs There are millions of songs on Spotify HD Music
-    Listen to music as if you were listening live Stream Everywhere Stream music on your smartphone, tablet or computer
-    It’s as yeezy as Kanye West. Search Know what you want to listen to? Just search and hit play. Browse Check out the
-    latest charts, brand new releases and great playlists for right now. Discover Enjoy new music every Monday with your
-    own personal playlist. Or sit back and enjoy Radio.
-  </body>
+
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <meta http-equiv="X-UA-Compatible" content="ie=edge" />
+  <link rel="stylesheet" href="./styles/style.css">
+  <title>Spotify Clone</title>
+  <!-- Google Font -->
+  <link
+    href="https://fonts.googleapis.com/css2?family=Roboto:ital,wght@0,100;0,300;0,400;0,500;0,700;0,900;1,100;1,300;1,400;1,500;1,700;1,900&display=swap"
+    rel="stylesheet">
+</head>
+
+<body>
+  <!--HEADER-->
+  <header>
+    <img id="logo" src="./images/spotify-logo.png" alt="Spotify Logo">
+
+    <nav>
+      <ul>
+        <li><a class="sizePOnSpotify" href="#">Premier</a></li>
+        <li><a class="sizePOnSpotify" href="#">Discover</a></li>
+        <li><a class="sizePOnSpotify" href="#">Help</a></li>
+        <li><a class="sizePOnSpotify" href="#">Download</a></li>
+      </ul>
+    </nav>
+  </header>
+
+  <!--SECTION MAIN SECTION-->
+  <section id="mainSection">
+
+    <img id="mainImage" src="./images/landing.jpg" alt="Image Music For Everyone">
+
+    <div id="imgAndTitle">
+      <h1 id="mainTitle" class="white">Music for everyone.</h1>
+      <p class="white">Spotify is now free on mobile, tablet and computer.</p>
+      <p class="white">Listen to the right music, wherever you are.</p>
+    </div>
+  </section>
+
+  <!--SECTION WHAT'S ON SPOTIFY-->
+  <section id="whatsOnSpotify">
+    <div id="titleLineWhatsOnSpotify" class="titleAndLine">
+      <h2 id="titleWhatsOnSpotify" class="">What’s on Spotify?</h2>
+      <span id="separateLine" class="green"></span>
+    </div>
+
+
+    <div id="containerBlocs">
+
+      <div id="bloc1" class="blocsOnSpotify">
+        <img id="iconMusic" class="iconsOnSpotify" src="./images/music-icon.png" alt="Music Icon">
+        <h3 class="green sizeh3">Millions of Songs</h3>
+        <p class="sizePOnSpotify">There are millions of songs on Spotify</p>
+      </div>
+
+      <div id="bloc2" class="blocsOnSpotify">
+        <img class="iconsOnSpotify" src="./images/high-quality-icon.png" alt="High Quality Icon">
+        <h3 class="green sizeh3">HD Music</h3>
+        <p class="sizePOnSpotify">Listen to music as if you were listening live</p>
+      </div>
+
+      <div id="bloc3" class="blocsOnSpotify">
+        <img id="deviceIcon" class="iconsOnSpotify" src="./images/devices-icon.png" alt="Devices Icon">
+        <h3 class="green sizeh3">Stream Everywhere</h3>
+        <p class="sizePOnSpotify">Stream music on your smartphone, tablet or computer</p>
+      </div>
+
+    </div>
+  </section>
+
+  <!--SECTION SEARCH AND DISCOVER-->
+  <section id="searchAndDiscoverAndImage">
+    <div id="containerDiscoverSection" class="white">
+
+      <section id="leftBloc" class="paddingBloc">
+
+        <div class="titleAndLine">
+          <h2 id="mainTitleLeftSection" class="surline">It’s as yeezy as Kanye West.</h2>
+
+
+          <span id="underlineLeftSection"></span>
+        </div>
+
+        <div id="bloc1Discover" class="widthBlocsDiscover">
+          <h2 class="titlesLeftSection">Search</h2>
+          <p class="textLeftSection">Know what you want to listen to?
+            Just search and hit play.</p>
+        </div>
+
+        <div id="bloc2Discover" class="widthBlocsDiscover">
+          <h2 class="titlesLeftSection">Browse</h2>
+          <p class="textLeftSection">Check out the latest charts, brand new releases and great playlists for right now.
+          </p>
+        </div>
+
+        <div id="bloc3Discover" class="widthBlocsDiscover">
+          <h2 class="titlesLeftSection">Discover</h2>
+          <p class="textLeftSection">Enjoy new music every Monday with your own personal playlist. Or sit back and enjoy
+            Radio.</p>
+        </div>
+
+      </section>
+
+      <img id="whiteIcon" src="./images/spotify-icon-white.png" alt="Spotify Icon White">
+
+      <section id="rightBloc">
+        <img src="./images/spotify-app.jpg" alt="Spotify App Example">
+      </section>
+    </div>
+  </section>
+</body>
+
 </html>
