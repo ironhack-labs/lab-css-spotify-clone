@@ -1,8 +1,150 @@
-/*
-Colors:
+/* GENERAL SETTINGS */
+* {
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+  }
 
-Text: 1A1A1A
-Green: #00B172
-White: #FFF
+body {
+    font-size: 18px;
+    color: #1A1A1A;
+    font-family: 'Montserrat', sans-serif;
+}
 
-*/
+/* HEADER */
+header{
+    padding: 0 25px;
+    display: flex;
+    position: fixed;
+    justify-content: space-between;
+    align-items: center;
+    background-color:white;
+}
+
+.spotify-logo{
+    width: 150px;
+    justify-content: space-around;
+}
+
+.nav-bar{
+    list-style: none;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+nav a{
+    text-decoration: none;
+    color: black;
+}
+
+nav{
+    width: 1240px;
+}
+
+/* FIRST SECTION */
+.spotify-background{
+    background: url(../images/landing.jpg);
+    background-size: cover;
+    background-repeat: no-repeat;
+    height: 800px;
+    width: 100%;
+}
+
+h1{
+    position: absolute;
+    color: white;
+    text-align: center;
+    font-size: 75px;
+    top: 45%;
+    left: 30%;
+}
+
+.text{
+    position: absolute;
+    color: white;
+    text-align: center;
+    font-size: 20px;
+    width: 450px;
+    top: 60%;
+    left: 35%;
+}
+
+/* SECOND SECTION */
+.second-section{
+    height: 400px;
+    display: flex;
+    flex-direction: row;
+    flex-wrap: nowrap;
+    justify-content: space-around;
+    align-items: center;
+    align-content: flex-start;
+}
+
+.second-section > h2{
+    position: absolute;
+    position: flex;
+    color:black;
+    text-align: center;
+    padding-bottom: 250px;
+    font-size: 40px;
+}
+
+.sections > img{
+    width: 200px;
+    display: flex;
+	flex-direction: row;
+	flex-wrap: nowrap;
+	justify-content: space-around;
+	align-items: center;
+    align-content: flex-start;
+    padding-left: 100px;
+}
+
+h3{
+    color: #00B172;
+    font-size: 25px;
+}
+
+.sections{
+    text-align: center;
+}
+
+/* THIRDS SECTION */    
+.third-section{
+    position: relative;
+    background-color: #00B172;
+    color: #fff;
+    max-width: 1200px;
+    margin: 0 auto;
+}
+
+.kanye{
+    font-size: 35px;
+    margin-bottom: 40px;
+    border-bottom: 3px solid white;
+}
+
+.first-column{
+    flex: 2;
+    padding: 40px;
+}
+
+.box{
+    width: 300px;
+    margin-bottom: 40px;
+}
+
+.spotify-icon-white{
+    position: absolute;
+    width: 100px;
+    top: 45%;
+    left: 50%;
+}
+
+.spotify-app{
+    position: absolute;
+    width: 250px;
+    top: 7%;
+    left: 75%;
+}
