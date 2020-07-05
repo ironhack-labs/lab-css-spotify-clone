@@ -1,3 +1,6 @@
+@import url('https://fonts.googleapis.com/css2?family=Montserrat:ital,wght@0,400;1,200&display=swap');
+
+
 /*
 Colors:
 
@@ -6,3 +9,167 @@ Green: #00B172
 White: #FFF
 
 */
+
+body {
+    background-color: #FFF;
+    text-align: center;
+    font-family: 'Montserrat', sans-serif;
+    font-size: 10px;
+    margin: 0 auto;
+}
+
+
+
+header {
+    font-size: 1.5em;
+    position: fixed;
+    opacity: 1;
+    background-color: #fff;
+    color: #1A1A1A;
+    top: 0px;
+    left: 0px;
+    width: 100%;
+    
+}
+  
+.header-logo {
+    float: left;
+    height: 50px;
+   
+    
+}
+nav ul {
+    
+    float: right;
+    margin-top: 0px;
+    padding: 2px 0px 2px 0px;
+    margin-right: 2em;
+}
+nav li {
+    
+    margin-right: 0 3px;
+    display: inline-block;
+    padding: 1em; 
+}
+a {
+    text-decoration: none;
+    color: inherit;
+}
+
+.pt1-front-page {
+    background: no-repeat center center ;
+    background-size: cover;
+    background-image: url(./../images/landing.jpg);
+  
+    height: 60vh;
+    padding-top: 40vh;
+        
+}
+
+/*------section 1------*/
+
+.pt1-front-page {
+    text-align: center;
+    color: #FFF;
+}
+
+h1 {
+    font-size: 5em;
+}
+
+.pt1-front-page p {
+    font-size: 2em;
+    line-height: .6em;
+}
+
+
+/*------section 2------*/
+
+h2 {
+    font-size: 2.2em;
+}
+
+h3 {
+    color: #00B172;
+    font-weight: bolder;
+    font-size: 1.1em;
+}
+
+.pt2-pitch {
+    display: flex;
+    align-items: center; 
+    flex-direction: column;
+    color: #1A1A1A;
+    margin: 50px 0px 50px;
+}
+
+.pt2-pitch article {
+    font-size: 1.5em;
+    display: flex;
+    justify-content: space-between;
+    flex-direction: row;
+    margin: 50px 0px 30px;
+    max-width:700px;
+}
+
+.pt2-pitch div {
+    text-align: center;
+    width: 25%;
+}
+  
+ .pt2-pitch img {
+    height: 60px; /* cambiar esto */
+}
+  
+
+
+/*------section 3------*/
+
+
+.big-green {
+    background-color: #00B172;
+    line-height: 2.7em;
+    text-align: center;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    flex-direction: row;
+    max-width: 800px;
+    padding: 40px 40px;
+    margin: 0px auto 50px;
+}
+
+.text {
+    color: #FFF;
+    text-align: left;
+}
+
+
+.big-green h2 {
+    text-decoration: underline;
+    margin:15px 0px 0px;
+    
+}
+
+.big-green h3 {
+    padding-top: 1px;
+    font-weight: bolder;
+    font-size: 1.6em;
+    color: #FFF;
+}
+
+.big-green p {
+    font-size: 1.3em;
+}
+
+
+.pt3-icon {
+    height: 80px;
+    text-align: center;
+    align-items: center;
+}
+
+.pt3-album {
+    margin-top: 20px;
+    height: 420px;
+}
