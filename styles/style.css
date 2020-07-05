@@ -1,8 +1,165 @@
 /*
 Colors:
-
 Text: 1A1A1A
 Green: #00B172
 White: #FFF
-
 */
+
+ /* * { 
+    margin: 0;
+    padding: 0;
+    font-family: roboto;
+    box-sizing: border-box;
+}
+seta configurações pra pagina inteira
+*/
+
+body {
+    font-family: roboto;
+}
+
+header {
+    width: 100%;
+}
+#nav-bar {
+    display: flex;
+    position: fixed;
+    top: 0;
+    background-color: white;
+    height: 80px;
+    width: 100%;
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: baseline;
+}
+
+
+#nav-bar img {
+    width: 200px;
+    align-self: flex-start;
+    margin: 10px;
+}
+
+#nav-bar ul {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+    list-style: none;
+    align-items: flex-end;
+    font-size: 30px;
+    padding-right: 30px;
+}
+
+#nav-bar a {
+    text-decoration: none;
+    color: black;
+    margin: 0px 10px; 
+}
+
+/* SECTION IMAGE */
+
+#section-2 {
+    display: flex;
+    margin-top: 50px;
+    height: 800px;
+    background-image: url(../images/landing.jpg);
+    background-position-y: initial;
+    background-size: cover;
+    background-repeat: no-repeat;
+    color: white;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+#section-2 h1 {
+    font-size: 80px;
+    letter-spacing: 3px;
+}
+
+#section-2 p {
+    font-size: 30px;
+    text-align: center;
+}
+
+/* SECTION INFORMATION */
+
+#section-3 {
+    width: 100%;
+    height: 500px;
+    display: flex;
+    text-align: center;
+    flex-direction: column;
+}
+
+#section-3-title {
+    padding-left: 530px;
+}
+
+#section-3 h1 {
+    font-size: 40px;
+    border-bottom: solid 3px #00B172;
+    width: 350px;
+}
+
+#whats-on {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-evenly;
+    align-items: baseline;
+}
+
+#whats-on h3 {
+    color: #00B172;
+    font-size: 25px;
+}
+
+#whats-on p {
+    font-size: 20px;
+}
+
+#whats-on img {
+    width: 150px;
+}
+
+/* SECTION MUSIC */
+
+#section-4 {
+    width: 100%;
+    height: 700px;
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: space-around;
+    background-image: url(../images/spotify-icon-white.png);
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: 150px;
+    background-color: #00B172;
+}
+
+#section-4-text {
+    display: flex;
+    flex-direction: column;
+    font-size: 25px;
+    color: white;
+    letter-spacing: 3px;
+
+}
+#yeezy {
+    font-size: 25px;
+    border-bottom: solid 1px white;
+    margin-bottom: 0px;
+}
+
+#section-4-text h3 {
+    font-weight: bolder;
+}
+
+#spotify-icon {
+    width: 150px;
+}
+
+#kanye-page {
+    width: 350px;
+}
