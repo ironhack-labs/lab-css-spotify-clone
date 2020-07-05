@@ -7,11 +7,12 @@
     <title>Spotify Clone</title>
     <link rel="stylesheet" href="./styles/reset.css">
     <link rel="stylesheet" href="./styles/style.css">
+    <link rel="stylesheet" href="https://use.typekit.net/jgf7bjy.css">  
   </head>
   <body>
     <header>
       <section class="header-top">
-        <img src="./images/spotify-logo.png" alt="spotify logo">
+        <img class="header-top_logo" src="./images/spotify-logo.png" alt="spotify logo">
         <nav>
           <ul>
             <li><a href="#">Premium</a></li>
@@ -33,19 +34,49 @@
       </div>
     </header>
     <main>
-      <section class="features-block">
+      <section class="features">
         <h2>What’s on Spotify?</h2>
-        <ul>
-          <li class="features-block_card">
-            
+        <ul class="features_cards">
+          <li>
+            <h3 class="features_cards_title features_cards_title--songs">Millions of Songs</h3>
+            <p class="features_cards_description">There are millions of songs on Spotify</p>
+          </li>
+          <li>
+            <h3 class="features_cards_title features_cards_title--hdmusic">HD Music</h3>
+            <p class="features_cards_description">Listen to music as if you were listening live</p>
+          </li>
+          <li>
+            <h3 class="features_cards_title features_cards_title--stream">Stream Everywhere</h3>
+            <p class="features_cards_description">Stream music on your smartphone, tablet or computer</p>
           </li>
         </ul>
       </section>
-    </main>
-        Millions of Songs There are millions of songs on Spotify HD Music
-    Listen to music as if you were listening live Stream Everywhere Stream music on your smartphone, tablet or computer
-    It’s as yeezy as Kanye West. Search Know what you want to listen to? Just search and hit play. Browse Check out the
-    latest charts, brand new releases and great playlists for right now. Discover Enjoy new music every Monday with your
-    own personal playlist. Or sit back and enjoy Radio.
+      <section class="highLights">
+        <div class="highLights_content">
+          <div class="highLights_content_left">
+            <h3 class="highLights_title">It’s as yeezy as Kanye West.</h3>
+            <ul class="highLights_list">
+              <li>
+                <h4 class="highLights_list_title">Search</h4>
+                <p class="highLights_list_description">Know what you want to listen to? Just search and hit play.</p>
+              </li>
+              <li>
+                <h4 class="highLights_list_title">Browse</h4>
+                <p class="highLights_list_description">Check out the latest charts, brand new releases and great playlists for right now.</p>
+              </li>
+              <li>
+                <h4 class="highLights_list_title">Discover</h4>
+                <p class="highLights_list_description">Enjoy new music every Monday with your own personal playlist. Or sit back and enjoy Radio.</p>
+              </li>
+            </ul>
+          </div>
+          <div class="highLights_content_right">
+            <figure>
+              <img src="./images/spotify-app.jpg" alt="spotify app">
+            </figure>
+          </div>
+        </div>
+      </section>
+    </main>  
   </body>
 </html>

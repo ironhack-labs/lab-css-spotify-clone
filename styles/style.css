@@ -1,8 +1,235 @@
-/*
-Colors:
+html{
+    font-size: 10px;
+    font-family: proxima-nova, sans-serif;
+}
 
-Text: 1A1A1A
-Green: #00B172
-White: #FFF
+body{
+    font-size: 1.6rem;
+}
 
+/***********************************+
+    Header
 */
+
+header{
+    width: 100%;
+}
+
+header .header-top{
+    height: 105px;
+    display: flex;
+    justify-content: space-between;
+    padding: 0 42px;
+    align-items: center;
+}
+
+    header .header-top_logo{
+        width: auto;
+        height: 69px;
+        display: inline-block;
+    }
+    
+/* Nav */
+    
+header nav ul{
+    display: inline-flex;
+    list-style: none;
+}
+
+    header nav ul li{
+        padding: 0 14px;
+    }
+
+    header nav ul li:last-child{
+        padding-right: 0;
+    }
+
+    header nav ul li a{
+        text-decoration: none;
+        font-size: 1.8rem;
+        color: #666;
+        letter-spacing: 0.5px;
+    }
+
+/* header-hero */
+
+header .header-hero{
+    min-height: 843px;
+    background: url(../images/landing.jpg) no-repeat;
+    background-size: cover;
+    background-position: center;
+
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+header .header-hero .header-hero_content{
+    text-align: center;
+    color: #fff;
+}
+
+    header .header-hero .header-hero_content h1{
+        font-size: 6.1rem;
+    }
+
+    header .header-hero_lead p{
+        font-size: 2.7rem;
+        line-height: 1.3;
+    }
+
+/* END Header
+***********************************/
+
+
+
+/***********************************+
+    Main
+*/
+
+main{
+    padding: 40px;
+}   
+
+
+    /* Features */
+
+    .features{
+        padding-bottom: 60px;
+        text-align: center;
+    }
+
+        .features h2{
+            font-size: 3.8rem;
+            line-height: 1.3;
+            display: inline-block;
+            padding-bottom: 5px;
+            border-bottom: 4px solid #01AE65;
+            margin-bottom: 60px;
+        }
+
+        .features_cards{
+            display: flex;
+            justify-content: space-around;
+        }
+
+        .features_cards li{
+            padding: 0 60px;
+            width: 33.33%
+        }
+
+        .features_cards li .features_cards_title{
+            font-size: 3.2rem;
+            color: #01AE65;
+            padding: 105px 0 14px;
+            line-height: 1.3;
+        }
+
+        [class*="features_cards_title--"]{
+            position: relative;
+        }
+
+            [class*="features_cards_title--"]:before{
+                content: "";
+                position: absolute;
+                top: 0;
+                left: 50%;
+                transform: translateX(-50%);
+                width: 109px;
+                height: 103px;
+                background-size: 100%;
+                background-repeat: no-repeat;
+            }
+
+            .features_cards_title--songs:before{
+                background-image: url(../images/music-icon.png);
+            }
+
+            .features_cards_title--hdmusic:before{
+                background-image: url(../images/high-quality-icon.png);
+            }
+
+            .features_cards_title--stream:before{
+                background-image: url(../images/devices-icon.png);
+            }
+
+        .features_cards_description{
+            font-weight: 300;
+            font-size: 2.8rem;
+            line-height: 1.3;
+        }
+    
+    /* END Features */
+
+    /* Highlights */
+
+    .highLights{
+        padding: 80px 104px;
+        background-color: #06B169;
+    }
+
+        .highLights_content{
+            display: flex;
+            color: white
+        }
+
+            .highLights_content_left{
+                width: 70%;
+            }
+
+            .highLights_content_right{
+                width: 35%;
+            }
+
+                .highLights_content_right figure img{
+                    max-width: 358px;
+                    padding-top: 40px;
+                }
+
+            .highLights_title{
+                font-size: 3.2rem;
+                padding-bottom: 5px;
+                border-bottom: 3px solid white;
+                margin-bottom: 40px;
+                display: inline-block;
+                font-weight: 500;
+            }
+
+            ul.highLights_list{
+                display: flex;
+                flex-direction: column;
+                position: relative;
+                padding-right: 42%;
+            }
+
+            ul.highLights_list:before{
+                content:"";
+                width: 120px;
+                height: 120px;
+                position: absolute;
+                top: 50%;
+                right: 12%;
+                transform: translateY(-50%);
+                background: url(../images/spotify-icon-white.png) no-repeat;
+                background-size: 100%;
+            }
+
+                ul.highLights_list li{
+                    margin-bottom: 40px;
+                }
+
+                    .highLights_list_title{
+                        font-size: 2.4rem;
+                        font-weight: 600;
+                        margin-bottom: 20px;
+                    }
+
+                    .highLights_list_description{
+                        font-size: 2.4rem;
+                        font-weight: 100;
+                    }
+
+    /* END Highlights */
+
+/* END Main
+***********************************/
