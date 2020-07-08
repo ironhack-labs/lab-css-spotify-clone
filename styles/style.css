@@ -6,3 +6,162 @@ Green: #00B172
 White: #FFF
 
 */
+h1,
+body,
+html,
+main {
+  margin: 0;
+}
+body {
+  font-family: Roboto;
+  color: #1a1a1a;
+}
+
+h3 {
+  font-size: 22px;
+}
+
+/* Navigation */
+nav {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  position: fixed;
+  width: 100%;
+  background-color: white;
+  padding: 15px 20px;
+  box-sizing: border-box;
+}
+
+nav ul {
+  list-style: none;
+  display: flex;
+}
+
+nav li {
+  padding: 0px 10px;
+  font-weight: lighter;
+}
+
+nav a {
+  text-decoration: none;
+  color: #1a1a1a;
+}
+
+.logo img {
+  width: 150px;
+}
+
+/* Big Image background part */
+.bigImage {
+  background-image: url("../images/landing.jpg");
+  height: 600px;
+  background-size: cover;
+  background-position: center;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  color: white;
+}
+.bigImage h1 {
+  font-size: 54px;
+  font-weight: 500;
+}
+
+.intro {
+  text-align: center;
+  font-size: 20px;
+  line-height: 1.4em;
+}
+
+/* Spotify Part */
+.spotifySection {
+  margin: 0px 20px;
+}
+
+.spotifyTitle {
+  text-align: center;
+}
+.spotifySection h2 {
+  display: inline-block;
+  border-bottom: 3px solid #00b172;
+  padding: 5px 0px;
+}
+
+.threeBlocks {
+  display: flex;
+}
+
+.block {
+  margin: 30px;
+  width: 33%;
+  text-align: center;
+}
+
+.icon img {
+  height: 80px;
+}
+
+.block h3 {
+  color: #00b172;
+  font-size: 22px;
+}
+
+.block p {
+  font-weight: lighter;
+  padding: 0px 30px;
+  font-size: 18px;
+}
+
+/* Green background part */
+.greenSection {
+  background-color: #00b172;
+  /* background-image: url("../images/spotify-icon-white.png");
+    background-size: 100px;
+    background-repeat: no-repeat;
+    background-position: center; */
+  margin: 20px;
+  padding: 30px 50px;
+  color: white;
+  display: flex;
+  justify-content: space-between;
+  align-content: center;
+  position: relative;
+}
+
+.whiteIcon {
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+}
+.whiteIcon img {
+  width: 100px;
+}
+.appText h3 {
+  border-bottom: 3px solid white;
+  padding-bottom: 5px;
+  margin-bottom: 50px;
+  font-size: 24px;
+  font-weight: 500;
+  display: inline-block;
+}
+
+.smallText {
+  width: 40%;
+}
+
+.smallText h4 {
+  font-size: 20px;
+  margin: 0;
+}
+
+.smallText p {
+  font-weight: 300;
+  margin: 15px 0px 25px 0px;
+}
+.appImage img {
+  width: 220px;
+  padding-top: 40px;
+}
