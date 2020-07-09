@@ -6,3 +6,110 @@ Green: #00B172
 White: #FFF
 
 */
+@import url('https://fonts.googleapis.com/css?family=Proxima+Nova');
+
+/*we tried to add the font Proxima Nova but assumed it can't be referenced.
+*/
+
+body {
+    color: #1A1A1A;
+    font-family: 'Proxima Nova';
+}
+
+.img-header {
+    width: 200px;
+}
+
+header {
+    display: flex;
+    justify-content: space-between;
+    padding: 0 20px;
+}
+
+nav ul {
+    list-style: none;
+    display: flex;
+    justify-content: space-between;
+}
+
+nav ul li {
+    padding: 0 7px;
+}
+
+.intro {
+    background-position: center;
+    background-image: url('/images/landing.jpg');
+    background-size: cover;
+    height: 100vh;
+    color: #FFF;
+    text-align: center;
+}
+
+.intro h1 {
+    padding-top: 350px;
+}
+
+.services h3 {
+    text-align: center;
+    text-decoration: underline #00B172;
+}
+
+.services div {
+    display: flex;
+    justify-content: space-evenly;
+    align-items: center;
+    padding: 0 50px;
+}
+
+.services article {
+    justify-content: center;
+    text-align: center;
+    width: 30%;
+    line-height: normal;
+}
+
+.services img {
+    width: 150px;
+}
+
+.services h4 {
+    color: #00B172;
+}
+
+.kanye {
+    background-color: #00B172;
+    color: #FFF;
+    display: flex;
+}
+
+.kanye div {
+    justify-content: center;
+    width: 30%;
+    padding: 50px;
+}
+
+.kanye h3 {
+    text-decoration: underline;
+    font-size: 1.5em;
+}
+
+
+.logo img {
+    width: 200px;
+    padding: 200px 80px 0 80px;
+}
+
+.kanye h4 {
+    font-weight: bold;
+}
+
+.instructions {
+    flex-direction: column;
+    text-align: left;
+    align-items: stretch;
+}
+
+.app {
+    width: 350px;
+    padding-top: 70px;
+}
