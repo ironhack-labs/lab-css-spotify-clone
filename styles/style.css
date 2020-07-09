@@ -1,8 +1,123 @@
-/*
-Colors:
+@import url('https://fonts.googleapis.com/css2?family=Varela+Round&display=swap');
 
-Text: 1A1A1A
-Green: #00B172
-White: #FFF
 
-*/
+body{
+    
+    font-family: 'Varela Round', sans-serif;
+}
+
+
+
+h3{
+    color: #00B172;
+}
+
+.navigation-bar {
+    width:100%;
+    height: 60px;
+    position:fixed;
+    background-color: white;
+}
+
+
+.logo {
+    float:left;
+    width:100px;
+    height:auto;
+    margin-left:30px;
+    margin-top: 20px;
+    vertical-align: top;
+}
+
+.nav-list {
+    float: right;
+    margin: 20px 30px;
+    list-style-type: none;
+    display: flex;  
+}
+
+li {
+    margin: 0 10px;
+}
+
+.section-1 {
+    height:700px;
+    width:100%;
+    background-image: url(../images/landing.jpg);
+    background-size:cover;
+    background-position:center;
+}
+
+.section-1 h1 {
+ margin-left: auto;
+ margin-right: auto;
+ text-align: center;
+ align-items: center;
+ font-size: 4em;
+ color: #FFF;
+ padding-top: 250px;
+ font-weight: bold;
+
+
+}
+
+.section-1 h2 {
+    margin-left: auto;
+    margin-right: auto;
+    text-align: center;
+    align-items: center;
+    font-size: 2em;
+    color: #FFF;
+    padding-top: auto;
+    width:60%;
+    font-weight:lighter;
+
+}
+.section-2{
+    margin-top: 50px;
+}
+.section-2 h2 {
+    border-bottom: 2.5px solid #00B172;
+    text-align:center;
+    margin:0 450px;
+}
+
+#icons{
+    width:75px;
+    height:75px;
+}
+
+.container{
+    display:flex;
+    align-items:center;
+    margin:50px 50px;
+    justify-content: space-evenly;
+}
+
+.box {
+    text-align: center;
+    margin:auto 60px;
+}
+
+
+.section-3{
+    height: 600px;
+    background-color: #00B172;
+    color:#FFF;
+    margin: auto 50px;
+}
+
+.section-3 h3{
+    color:#FFF;
+}
+
+#white-logo{
+    width:90px;
+    height:90px;
+}
+
+#kanye{
+    width: 300px;
+    height: 500px;
+    margin-top:50px;
+}
