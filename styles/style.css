@@ -12,7 +12,11 @@ White: #FFF
 
 body{
     font-family: helvetica;
+    margin: 0;
+    padding: 0;
 }
+
+/*  header  */
 
 .header {
     background-image: url(/images/landing.jpg);
@@ -21,12 +25,11 @@ body{
     background-position: 50% 50%;
     background-size: cover;
     position: relative;
-   
- 
 }
 
 .nav {
     height: 55px;
+    margin: 10px 0;
     background-color: white;
     display: flex;
     justify-content: space-between;
@@ -35,13 +38,12 @@ body{
 .header-text {
     color: white;
     text-align: center;
- 
-    
 }
 
 .header-icon {
     height: 50px;
     padding-left: 15px;
+    padding-bottom: 15px;
 }
 
 ul {
@@ -50,17 +52,24 @@ ul {
 }
 
 li {
-    padding: 0 10px;
+    padding: 0 15px;
 }
-
-
-
 
 h1 {
     color: white;
+    font-style: ;
     font-size: 4rem;
+    padding-top: 200px;
 }
 
+.header p {
+    font-size: 1.2rem;
+    padding: 0 100px;
+    line-height: 2rem;
+}
+
+
+/* middle section */
 .spotify-offers {
     margin: 50px 0px;
 }
@@ -72,7 +81,8 @@ h1 {
 
 h2 {
     text-align: center;
-    font-size: 
+    font-size: 2rem;
+    text-decoration:
     
 }
 
@@ -95,3 +105,47 @@ h2 {
 
 
 
+/* footer */
+
+footer {
+    background-color: #00B172;
+    position: relative;
+    margin: 0 15px;
+}
+
+.footer-logo {
+    height: 70px;
+    position: absolute;
+    transform: translate(-50%, -50%);
+    top: 50%;
+    left: 50%;
+}
+
+
+
+.text {
+    color: white;
+    width: 230px;
+    padding: 0 20px;
+}
+
+.footer-last h2 {
+    text-align: left;
+    color: white;
+}
+
+
+
+.image {
+    
+
+}
+
+image img{
+    size: 25%;
+}
+
+.footer-last {
+   display: flex;
+   justify-content: space-between;
+}
