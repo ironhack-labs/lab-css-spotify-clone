@@ -6,9 +6,6 @@ Green: #00B172
 White: #FFF
 
 */
-/* * {
-    background-color: red;
-} */
 
 body{
     font-family: helvetica;
@@ -25,6 +22,8 @@ body{
     background-position: 50% 50%;
     background-size: cover;
     position: relative;
+    margin: 0 auto;
+    width: 80%;
 }
 
 .nav {
@@ -71,7 +70,9 @@ h1 {
 
 /* middle section */
 .spotify-offers {
-    margin: 50px 0px;
+    
+    width: 80%;
+    margin: 0 auto;
 }
 
 .container {
@@ -111,6 +112,8 @@ footer {
     background-color: #00B172;
     position: relative;
     margin: 0 15px;
+    width: 80%;
+    margin: 0 auto;
 }
 
 .footer-logo {
@@ -125,24 +128,39 @@ footer {
 
 .text {
     color: white;
-    width: 230px;
-    padding: 0 20px;
+    width: 30%;
+    padding-top: 5%;
+    padding-left: 10%;
+}
+
+
+.text > h2 {
+    padding-top: 5%;
+    
 }
 
 .footer-last h2 {
     text-align: left;
     color: white;
+    font-size: 2em;
+}
+
+hr {
+    border: 1px  solid white;
+ 
 }
 
 
+.image img{
+    width: 30%;
+    padding-left: 45%;
+  
+}
 
 .image {
-    
-
-}
-
-image img{
-    size: 25%;
+    padding-top: 5%;
+    padding-bottom: 5%;
+    align-content: center;
 }
 
 .footer-last {
