@@ -2,14 +2,15 @@
 
 
 body{
-    
     font-family: 'Varela Round', sans-serif;
 }
 
-
-
 h3{
     color: #00B172;
+}
+
+header {
+    height: 10px;
 }
 
 .navigation-bar {
@@ -19,13 +20,11 @@ h3{
     background-color: white;
 }
 
-
 .logo {
     float:left;
-    width:100px;
+    width:150px;
     height:auto;
-    margin-left:30px;
-    margin-top: 20px;
+    margin:5px 30px;
     vertical-align: top;
 }
 
@@ -37,7 +36,7 @@ h3{
 }
 
 li {
-    margin: 0 10px;
+    margin: 0 20px;
 }
 
 .section-1 {
@@ -57,29 +56,39 @@ li {
  color: #FFF;
  padding-top: 250px;
  font-weight: bold;
-
-
 }
 
 .section-1 h2 {
-    margin-left: auto;
-    margin-right: auto;
+    margin: 0 auto;
     text-align: center;
     align-items: center;
-    font-size: 2em;
     color: #FFF;
-    padding-top: auto;
     width:60%;
-    font-weight:lighter;
+    font-weight:thin; 
+}
 
-}
 .section-2{
-    margin-top: 50px;
+    margin: 50px 20px;
+    text-align:center;  
 }
+
 .section-2 h2 {
     border-bottom: 2.5px solid #00B172;
+    display:inline; 
     text-align:center;
-    margin:0 450px;
+}
+
+.container{
+    display:flex;
+    align-items:center;
+    justify-content: space-evenly;
+    padding: 0 50px;
+    margin: 50px auto;
+}
+
+.box {
+    padding: auto 10px;
+    width: 25%;
 }
 
 #icons{
@@ -87,37 +96,46 @@ li {
     height:75px;
 }
 
-.container{
-    display:flex;
-    align-items:center;
-    margin:50px 50px;
-    justify-content: space-evenly;
-}
-
-.box {
-    text-align: center;
-    margin:auto 60px;
-}
-
 
 .section-3{
-    height: 600px;
+    height: 550px;
     background-color: #00B172;
     color:#FFF;
-    margin: auto 50px;
+    margin: 50px 100px;
+    display:flex;
+    align-content: center;
+    justify-content: space-evenly;
+  
+}
+
+.section-3 h2{
+    border-bottom: 2.5px solid #FFF ;
+    display:inline;
 }
 
 .section-3 h3{
     color:#FFF;
+    margin-top: 35px;
 }
 
+.info{
+    padding-top:50px;
+}
+
+.spotify-logo{
+    display: flex;
+    align-self: center;
+    margin-right:50px;
+
+}
 #white-logo{
-    width:90px;
-    height:90px;
+    width:100px;
+    height:100px;
 }
 
 #kanye{
-    width: 300px;
-    height: 500px;
-    margin-top:50px;
+    height: 450px;
+    padding-top:70px;
 }
+
+
