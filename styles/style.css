@@ -6,3 +6,157 @@ Green: #00B172
 White: #FFF
 
 */
+
+body{
+    font-family: helvetica;
+    margin: 0;
+    padding: 0;
+}
+
+body p {
+    line-height: 1.5rem; /* added as default for all the p elements */
+}
+
+/*  header  */
+
+.header {
+    background-image: url(../images/landing.jpg);
+    height: 800px;
+    background-repeat: no-repeat;
+    background-position: 50% 50%;
+    background-size: cover;
+    /*position: relative;*/
+}
+
+.nav {
+    height: 55px;
+    padding: 5px 0; /* changed it from margin to padding */
+    background-color: white;
+    display: flex;
+    justify-content: space-between;
+}
+
+.header-icon {
+    height: 50px;
+    padding-left: 15px;
+    /* padding-bottom: 15px; not doing anything, so commented out */
+}
+
+ul {
+    list-style: none; 
+    display: flex;
+    justify-content: space-between;
+    width: 300px; 
+    padding: 0 15px; 
+}
+
+/* li {
+    padding: 0 15px;
+} commented out and added line 44 -46 to ul instead*/ 
+
+.header-text {
+    color: white;
+    text-align: center;
+    padding-top: 200px;
+}
+
+h1 {
+    color: white;
+    font-size: 4rem;
+    /* padding-top: 200px; moved it to .header-text*/
+}
+
+.header p {
+    font-size: 1.4rem;
+    line-height: 2.5rem; 
+}
+
+
+/* middle section */
+
+
+
+.spotify-offers {
+    margin: 25px 0px 100px 0; 
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+    /* added flex box in this parent container to position h2 and to be able to use inline-block on h2 so the line under the text is the same size as the text */
+}
+
+h2 {
+    display: inline-block;
+    font-size: 2rem;
+    border-bottom: 4px solid #00B172; /* created underline */
+    line-height: 50px;
+    margin-bottom: 75px;
+}
+
+.container {
+    width: 100%; /* added to use whole width of container */
+    display: flex;
+    justify-content: space-evenly;
+}
+
+.container-box{
+    width: 250px;
+    text-align: center;
+}
+
+.container img {
+    max-height: 100px; /* added so the text of every container-box aligns on the same height */
+    padding-bottom: 10px;
+}
+
+.container h3 {
+    color: #00B172;
+    font-size: 1.4rem; /* added size */ 
+}
+
+.container p {
+    padding: 5px 30px 0 30px; /* added for positioning p */
+} 
+
+/* footer */
+footer {
+    background-color: #00B172;
+    position: relative;
+    margin: 0 15px;
+}
+
+.footer-logo {
+    height: 70px;
+    position: absolute;
+    transform: translate(-50%, -50%);
+    top: 50%;
+    left: 50%;
+}
+
+
+
+.text {
+    color: white;
+    width: 230px;
+    padding: 0 20px;
+}
+
+.footer-last h2 {
+    text-align: left;
+    color: white;
+}
+
+
+
+.image {
+    
+
+}
+
+image img{
+    size: 25%;
+}
+
+.footer-last {
+   display: flex;
+   justify-content: space-between;
+}
