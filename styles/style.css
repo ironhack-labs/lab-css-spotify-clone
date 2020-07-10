@@ -6,164 +6,128 @@ Green: #00B172
 White: #FFF
 
 */
-
-body{
-    font-family: helvetica;
-    margin: 0;
-    padding: 0;
-}
-
-/*  header  */
-
-.header {
-    background-image: url(/images/landing.jpg);
-    height: 800px;
-    background-repeat: no-repeat;
-    background-position: 50% 50%;
-    background-size: cover;
-    position: relative;
-    margin: 0 auto;
+@import url('https://fonts.googleapis.com/css2?family=Montserrat:wght@200;300;400;500;600;700;800&display=swap');
+body {
+    font-family: 'Montserrat', sans-serif;
     width: 80%;
+    margin: auto 10%;
 }
 
-.nav {
-    height: 55px;
-    margin: 10px 0;
-    background-color: white;
+/* header + image */
+#header-logo {
+    height: 50px;
+}
+
+.header-list {
+    display: flex;
+    justify-content: flex-end;
+}
+
+.navbar {
+    position: fixed;
+    width: 80%;
     display: flex;
     justify-content: space-between;
+    background-color: white;
+    top: 0;
+    padding: 10px;
+    z-index: 1;
 }
 
-.header-text {
+.header-list > li {
+    padding: 0 10px;
+    list-style-type: none;
+}
+
+.header-background {
+    background-image: url(/images/landing.jpg);
+    background-size: 100%;
+    background-repeat: no-repeat; 
+    height: 700px;
+    background-position: 50% 50%;
+    position: relative;
     color: white;
+}
+
+.header-background > p {
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    font-size: 2em;
     text-align: center;
 }
 
-.header-icon {
-    height: 50px;
-    padding-left: 15px;
-    padding-bottom: 15px;
+.header-background > h1 {
+    position: absolute;
+    top: 30%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    font-size: 4em;
 }
 
-ul {
-    display: flex;
-    list-style: none;    
+/* main-content section */
+
+/* IDK how to make the green line smaller  */
+.second-name {
+    font-size: 2em;
+    border-bottom: 5px solid #00B172; 
+    margin-bottom: 5%;
+    text-align: center;
 }
 
-li {
-    padding: 0 15px;
-}
-
-h1 {
-    color: white;
-    font-style: ;
-    font-size: 4rem;
-    padding-top: 200px;
-}
-
-.header p {
-    font-size: 1.2rem;
-    padding: 0 100px;
-    line-height: 2rem;
-}
-
-
-/* middle section */
-.spotify-offers {
-    
-    width: 80%;
-    margin: 0 auto;
-}
-
-.container {
+.menu-conteiner {
     display: flex;
     justify-content: space-around;
 }
 
-h2 {
-    text-align: center;
-    font-size: 2rem;
-    text-decoration:
-    
-}
-
-.container-box{
+.small-conteiners {
     width: 200px;
     margin: 35px 0px;
     text-align: center;
-    justify-content: space-between;
+    
+} 
+
+.small-conteiners > img {
+    height: 80px;
 }
 
-.container img {
-    width: 100px;
-    padding-bottom: 15px;;
-}
-
-.container h3 {
-    color: #00B172;
-}
-
-
-
-
-/* footer */
-
+/* footer  */
 footer {
-    background-color: #00B172;
+    background-color: green;
     position: relative;
-    margin: 0 15px;
-    width: 80%;
-    margin: 0 auto;
+    color: white;
+    height: 600px;
 }
 
-.footer-logo {
-    height: 70px;
+#footer-logo {
+    height: 100px;
     position: absolute;
     transform: translate(-50%, -50%);
     top: 50%;
     left: 50%;
 }
 
+.footer-image-class {
+    position: absolute;
+    top: 20%;
+    right: 10%;
+} 
 
+#footer-image {
+    height: 450px;
+} 
 
 .text {
-    color: white;
-    width: 30%;
-    padding-top: 5%;
+    display: flex;
+    flex-direction: column;
     padding-left: 10%;
-}
-
-
-.text > h2 {
     padding-top: 5%;
-    
+    width: 35%;
 }
 
-.footer-last h2 {
-    text-align: left;
-    color: white;
-    font-size: 2em;
-}
-
-hr {
-    border: 1px  solid white;
- 
-}
-
-
-.image img{
-    width: 30%;
-    padding-left: 45%;
-  
-}
-
-.image {
-    padding-top: 5%;
-    padding-bottom: 5%;
-    align-content: center;
-}
-
-.footer-last {
-   display: flex;
-   justify-content: space-between;
+.text > h3 {
+    padding-bottom: 2%;
+    border-bottom: 3px solid;
+    width: 60%;
 }
