@@ -7,13 +7,16 @@ White: #FFF
 
 */
 
+@import url('https://fonts.googleapis.com/css2?family=Montserrat:wght@200;300;400;500;600;700;800&display=swap');
+
 body{
-    font-family: helvetica;
+    font-family: 'Montserrat', sans-serif;
     margin: 0;
     padding: 0;
 }
 
 body p {
+    font-weight: 200;
     line-height: 1.5rem; /* added as default for all the p elements */
 }
 
@@ -64,6 +67,7 @@ h1 {
     color: white;
     font-size: 4rem;
     /* padding-top: 200px; moved it to .header-text*/
+    font-weight: 500;
 }
 
 .header p {
@@ -90,9 +94,10 @@ h2 {
     border-bottom: 4px solid #00B172; /* created underline */
     line-height: 50px;
     margin-bottom: 75px;
+    font-weight: 400;                            
 }
 
-.container {
+.container {                                         
     width: 100%; /* added to use whole width of container */
     display: flex;
     justify-content: space-evenly;
@@ -100,7 +105,7 @@ h2 {
 
 .container-box{
     width: 250px;
-    text-align: center;
+    text-align: center;       
 }
 
 .container img {
@@ -117,9 +122,11 @@ h2 {
     padding: 5px 30px 0 30px; /* added for positioning p */
 } 
 
-/* footer */
+/* footer 
+basis together with Anna, checked it and adjusted it*/
 footer {
     background-color: #00B172;
+    height: 600px;
     position: relative;
     margin: 0 15px;
 }
@@ -132,31 +139,42 @@ footer {
     left: 50%;
 }
 
-
+.footer-last {
+    height: 100%;
+    display: flex;
+    justify-content: flex-start;
+    
+ }
 
 .text {
     color: white;
-    width: 230px;
-    padding: 0 20px;
+    width: 100%;
+    padding: 20px 0px 20px 50px;
 }
 
-.footer-last h2 {
+.text h2 {
     text-align: left;
     color: white;
+    display: inline-block;
+    border-bottom: 4px solid white; 
+    line-height: 50px;
+    margin-bottom: 30px;
 }
 
-
+.text h3 {
+  padding-top: 20px;
+}
 
 .image {
-    
-
-}
-
-image img{
-    size: 25%;
-}
-
-.footer-last {
+   width: 100%;
    display: flex;
-   justify-content: space-between;
+   align-items: center;
+   justify-content: center;
+   
 }
+.image img {
+   max-width: 270px;
+   padding-top: 25px;
+}
+
+
