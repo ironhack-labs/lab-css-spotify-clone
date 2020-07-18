@@ -59,6 +59,35 @@ header p {
     padding: 50px 250px;
 }
 
+#transition:hover {
+    font-size: 15px;
+    color: #00B172;
+    font-weight: bold;
+    transition-property: all;
+    transition-duration: 0.5s;
+    transition-timing-function: ease-in-out;
+    transition-delay: 0s;
+}
+
+@keyframes animation-spotify {
+    0% {
+        width: 16%;
+    }
+
+    50% {
+        width: 20%;
+    }
+
+    100% {
+        width: 16%;
+    }
+}
+
+#animation {
+    animation-name: animation-spotify;
+    animation-duration: 3s;
+}
+
 .first-section h2 {
     text-align: center;
     border-bottom: #00B172 solid 5px;
@@ -98,4 +127,47 @@ header p {
 
 .first-section p {
     padding: 15px 20px;
+}
+
+.second-section {
+    background-color: #00B172;
+    height: 65vh;
+    padding: 50px 70px;
+    color: #FFF;
+}
+
+section h2 {
+    padding-bottom: 10px;
+    border-bottom: 3px solid #FFF;
+    width: 33%;
+}
+
+.second-section div {
+    display: flex;
+}
+
+.second-section div div {
+    display: flex;
+    flex-direction: column;
+}
+
+.second-section div div div {
+    padding: 20px 50px 20px 0;
+}
+
+.second-section p {
+    padding: 20px 90px 0 0;
+}
+
+#logo {
+    width: 25%;
+    padding: 80px;
+}
+
+#app {
+    width: 75%;
+}
+
+#div-app {
+    padding-bottom: 50px;
 }
