@@ -1,0 +1,152 @@
+/*
+Colors:
+Text: 1A1A1A
+Green: #00B172
+White: #FFF
+*/
+
+* {
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+nav {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: center;
+    padding: 15px 30px 15px 30px;
+}
+
+li:hover {
+    color: #25D760;
+}
+
+nav > img:hover {
+    animation: bounce 3s;
+    animation-iteration-count: infinite;
+}
+
+@keyframes bounce {
+    0%, 20%, 50%, 80%, 100% {transform: translateY(0);}
+     40% {transform: translateY(-30px);} 
+     60% {transform: translateY(-15px);}
+}
+
+ul {
+    list-style-type: none;
+    display: flex;
+    justify-content: space-evenly;
+    width: 600px;  
+    font-size: 24px;  
+}
+
+.info {
+    background-image: url('../images/landing.jpg');
+    height: 1000px;
+    background-position: top;
+    background-repeat: no-repeat;
+    background-size: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+}
+
+.info > h1 {
+    color: white;
+    font-size: 90px;
+    font-weight: 500;
+    padding-bottom: 30px;
+}
+
+.info > h2 {
+    color: white;
+    font-size: 35px;
+    font-weight: lighter;
+    text-align: center;
+    padding: 0 350px 40px 350px;
+}
+
+.features {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    padding-bottom: 85px;
+}
+
+.features > h1 {
+    padding: 50px 0 5px 0;
+    font-size: 35px;
+    border-bottom: solid 5px #00B172;
+}
+
+.features > div {
+    padding: 90px;
+    display: flex;
+    flex-direction: row;
+}
+
+.features  article {
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    align-items: center;
+    padding: 0 30px 0 120px;
+}
+
+.features h2 {
+    font-size: 30px;
+    color: #00B172;
+    padding: 30px 0 30px 0;
+    text-align: center;
+}
+
+.features h3 {
+    font-size: 24px;
+    text-align: center;
+    font-weight: normal;
+}
+
+.bottom {
+    background-color: #00B172;
+    padding: 90px 110px 90px 110px;
+    color: white;
+}
+
+.bottom > h1 {
+    font-size: 35px;
+    display: inline-block;
+    border-bottom: solid 5px white;
+    font-weight: 600;
+    padding-bottom: 5px;
+}
+
+.bottom > div {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.bottom >div > div {
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    width: 295px;
+    padding-top: 100px;
+}
+
+.bottom h2 {
+    font-size: 26px;
+    padding-bottom: 30px;
+}
+
+.bottom h3 {
+    font-size: 20px;
+    font-weight: normal;
+    padding-bottom: 50px;
+}
+
