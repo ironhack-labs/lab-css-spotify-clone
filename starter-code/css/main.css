@@ -8,166 +8,186 @@ White: #FFF
 */
 
 * {
-    margin: 0;
+  margin: 0;
+  font-family: Arial, Helvetica, sans-serif;
 }
 
 header nav {
-    display: flex;
-    justify-content: space-between;
-    margin: 15px;
+  display: flex;
+  justify-content: space-between;
+  margin: 15px;
+  background-color: #fff;
 }
 
 header ul {
-    display: flex;
-    justify-content: space-around;
-    width: 30%;
-    list-style: none;
+  display: flex;
+  justify-content: space-around;
+  width: 30%;
+  list-style: none;
 }
 
 header li {
-    padding-top: 20px;
+  padding-top: 20px;
 }
 
 header a {
-    text-decoration: none;
-    color: #1A1A1A;
+  text-decoration: none;
+  color: #1a1a1a;
 }
 
 header img {
-    width: 200px;
-    padding-left: 20px;
+  width: 175px;
+  padding-left: 20px;
 }
 
 header div {
-    background-image: url(../images/landing.jpg);
-    background-repeat: no-repeat;
-    background-size: cover;
-    color: #FFF;
-    height: 120vh;
-    display: flex;
-    flex-direction: column;
-    text-align: center;
-    justify-content: center;
+  background-image: url(../images/landing.jpg);
+  background-repeat: no-repeat;
+  background-size: cover;
+  color: #fff;
+  height: 120vh;
+  display: flex;
+  flex-direction: column;
+  text-align: center;
+  justify-content: center;
 }
 
 h1 {
-    font-size: 75px;
+  font-size: 75px;
 }
 
 header p {
-    font-size: 30px;
-    padding: 50px 250px;
+  font-size: 25px;
+  padding: 50px 250px;
 }
 
 #transition:hover {
-    font-size: 15px;
-    color: #00B172;
-    font-weight: bold;
-    transition-property: all;
-    transition-duration: 0.5s;
-    transition-timing-function: ease-in-out;
-    transition-delay: 0s;
+  font-size: 20px;
+  color: #00b172;
+  /*  font-weight: bold;*/
+  transition-property: all;
+  transition-duration: 1s;
+  transition-timing-function: ease-in-out;
+  transition-delay: 0s;
 }
 
 @keyframes animation-spotify {
-    0% {
+  0% {
+  }
+  /*   25% {
         width: 16%;
     }
-
-    50% {
-        width: 20%;
-    }
-
-    100% {
+*/
+  50% {
+    width: 20%;
+  }
+  /*
+    75% {
         width: 16%;
     }
+*/
+  100% {
+  }
 }
 
 #animation {
-    animation-name: animation-spotify;
-    animation-duration: 3s;
+  animation-name: animation-spotify;
+  animation-duration: 3s;
 }
 
 .first-section h2 {
-    text-align: center;
-    border-bottom: #00B172 solid 5px;
-    width: 25%;
-    margin: 0 35%;
-    padding-top: 30px;
-    padding-bottom: 5px;
+  text-align: center;
+  border-bottom: #00b172 solid 4px;
+  width: 25%;
+  margin: 0 35%;
+  padding-top: 30px;
+  padding-bottom: 5px;
 }
 
 .first-section img {
-    width: 130px;
-    align-items: center;
+  /*    width: 130px;*/
+  height: 90px;
+  align-items: center;
 }
 
 .first-section div {
-    display: flex;
-    justify-content: space-around;
-    color: #1A1A1A;
-    text-align: center;
-} 
+  display: flex;
+  justify-content: space-around;
+  color: #1a1a1a;
+  text-align: center;
+}
 
 .first-section div div {
-    display: flex;
-    flex-direction: column;
-    justify-content: center;
-    align-items: center;
-    color: #1A1A1A;
-    width: 33%;
-    padding: 70px;
+  display: flex;
+  flex-direction: column;
+  justify-content: start;
+  align-items: center;
+  color: #1a1a1a;
+  width: 33%;
+  padding: 70px;
 }
 
 .first-section h3 {
-    color: #00B172;
-    font-weight: bold;
-    padding-top: 15px;
+  color: #00b172;
+  font-size: 25px;
+  font-weight: bold;
+  padding-top: 15px;
 }
 
 .first-section p {
-    padding: 15px 20px;
+  padding: 15px 20px;
 }
 
 .second-section {
-    background-color: #00B172;
-    height: 65vh;
-    padding: 50px 70px;
-    color: #FFF;
+  background-color: #00b172;
+  /*  height: 40%;*/
+  padding: 50px 30px 20px 70px;
+  color: #fff;
 }
 
 section h2 {
-    padding-bottom: 10px;
-    border-bottom: 3px solid #FFF;
-    width: 33%;
+  font-size: 35px;
+  padding-bottom: 10px;
+  /*  text-decoration: underline;
+  text-underline-offset: 10em;*/
+  border-bottom: 3px solid #fff;
+  width: 40%;
+}
+
+section h3 {
+  font-size: 27px;
 }
 
 .second-section div {
-    display: flex;
+  display: flex;
+  justify-content: space-between;
+  padding: 10px 0;
 }
 
 .second-section div div {
-    display: flex;
-    flex-direction: column;
+  display: flex;
+  flex-direction: column;
 }
 
 .second-section div div div {
-    padding: 20px 50px 20px 0;
+  padding: 20px 50px 20px 0;
 }
 
 .second-section p {
-    padding: 20px 90px 0 0;
+  padding: 20px 90px 0 0;
+  line-height: 1.5em;
 }
 
 #logo {
-    width: 25%;
-    padding: 80px;
+  width: 25%;
+  padding: 80px;
 }
 
-#app {
-    width: 75%;
+section #app {
+  width: 75%;
+  /*  height: 75%;*/
 }
 
 #div-app {
-    padding-bottom: 50px;
+  padding-bottom: 50px;
 }
