@@ -3,9 +3,9 @@ padding:0;
 margin:0;
 font-family: 'Roboto', sans-serif;
 }
-.box{
+header > div{
     border:1px solid green;
-    background-color:orange;
+    z-index: 9999;
     display:flex;
     width:100%;
     height:6em;
@@ -52,7 +52,7 @@ color:black;
     position: absolute;
     top: 50%;
     left: 50%;
-    /*transform: translate(-50%, -50%);*/
+    transform: translate(-50%, -50%);
     width: 90%;
 }
 .center-title {
@@ -61,7 +61,8 @@ color:black;
     font-weight: 600;
     opacity: 0;
     color:white;
-    /*animation: fadein 2s forwards;*/
+    animation: fadein 2s forwards;
+    animation-delay: 1s;
 }
 .center-subtitle {
     text-align: center;
@@ -69,27 +70,130 @@ color:black;
     font-weight: 300;
     opacity: 0;
     color:white;
-    /*animation: fadein 2s forwards;*/
+    animation: fadein 2s forwards;
+    animation-delay: 2s;
   }
 
-/*#row{
+/* Section 1 */
 
-border:1px solid black;    
+#section-container {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    align-content: center;
+    height: auto;
+    text-align: center;
 }
-.card-header{
-padding-top:14.9px;
-display:flex;
-border:1px solid red;
-justify-content: space-between;
+#section-container h1{
+border-bottom:green;
+} 
+#section-container h2{
+    color:green;
+} 
+#section-container p {
+    font-weight: 100;
+    font-size: 1.5em;
+    text-align: center;
+  }  
+.icons img{
+    width:100px;
+    margin-bottom: 1rem;
 }
-.col-sm-4{
-border:1px solid black;
-width:31%;  
+#section-container .external{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-evenly;
+    flex-wrap: nowrap;
+    align-items: baseline;
+    width: 90%;
 }
-.col-sm-4 img{
-    width:90px;
-    text-align:center;
+#section-container .icons{
+    border:1px solid black;
+    width:31%; 
+    display: flex;
+    flex-direction: column;
+    flex-wrap: wrap;
+    justify-content: center;
+    align-items: center;
+    align-content: center;
 }
-#id{
-background-color:green;
-}*/
+#section-green{
+    display:flex;
+    position:relative;
+    background-color:green;
+    color: white;
+    margin: 3%;
+    padding: 3%;
+    height: auto;
+    text-align: center;
+}
+#section-green h1 {
+    width: 90%;
+    font-weight: bolder;
+    font-size: 2em;
+    text-align: left;
+}
+#section-green h1 > span {
+    border-bottom:4px solid white;
+}
+
+#section-green h2 {
+    font-weight: bolder;
+}
+  
+#section-green p {
+    font-weight: 100;
+    font-size: 1.5em;
+    text-align: left;
+}
+#section-green .app-img {
+    width: 55%;
+}
+
+#section-green .white-spotify {
+    width: 9vw;
+}
+#section-green .external-side {
+    display: flex;
+    flex-direction: row;
+    flex-wrap: nowrap;
+    justify-content: space-evenly;
+    width: 100%;
+}
+ 
+#section-green .internal-side {
+    display:flex;
+    flex-direction:column;
+    flex-wrap:wrap;
+    justify-content:center;
+    align-items:flex-start;
+    align-content:center;
+    width:45%;
+}
+#section-green .internal-div2 {
+    width: 10%;
+}
+  
+#section-green .internal-div3 {
+    width: 45%;
+}
+  
+#green-section .centered-logo {
+    display: flex;
+    flex-wrap: wrap;
+    height: 50px;
+    width: 50px;
+}
+
+@keyframes fadein {
+from {
+      opacity: 0;
+}
+  
+to {
+      opacity: 1;
+}
+}
+
+
