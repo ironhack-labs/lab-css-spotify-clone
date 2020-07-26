@@ -1,7 +1,8 @@
 body{
-padding:0;
-margin:0;
-font-family: 'Roboto', sans-serif;
+    padding:0;
+    margin:0;
+    font-family: 'Roboto', sans-serif;
+    color: #1a1a1a;
 }
 header > div{
     border:1px solid green;
@@ -15,27 +16,31 @@ header > div{
     justify-content: space-between;
 }
 .logo-spotify{
-margin-left:15px;
-width:202px;
-padding:20px;
+    margin-left:15px;
+    width:202px;
+    padding:20px;
+}
+.navbar label,
+#hamburger{
+    display: none;
 }
 .navbar{
-width:400px;
+    width:400px;
 }
 .navbar ul{
-display:flex;
-list-style-type: none;
-color:black;
-justify-content: space-around;
+    display:flex;
+    list-style-type: none;
+    color:black;
+    justify-content: space-around;
 }
 .navbar li{
-margin-right:4.2px;
-font-size:20px; 
+    margin-right:4.2px;
+    font-size:20px; 
 
 }
 .navbar a{
-text-decoration:none;
-color:black;
+    text-decoration:none;
+    color:black;
 }
 .img-container{
     position: relative;
@@ -86,7 +91,7 @@ color:black;
     text-align: center;
 }
 #section-container h1{
-border-bottom:green;
+    border-bottom:green;
 } 
 #section-container h2{
     color:green;
@@ -118,6 +123,8 @@ border-bottom:green;
     align-items: center;
     align-content: center;
 }
+/* Section 2*/
+
 #section-green{
     display:flex;
     position:relative;
@@ -147,7 +154,7 @@ border-bottom:green;
     font-size: 1.5em;
     text-align: left;
 }
-#section-green .app-img {
+#section-green .app-img{
     width: 55%;
 }
 
@@ -162,7 +169,7 @@ border-bottom:green;
     width: 100%;
 }
  
-#section-green .internal-side {
+#section-green .internal-div {
     display:flex;
     flex-direction:column;
     flex-wrap:wrap;
@@ -186,7 +193,7 @@ border-bottom:green;
     width: 50px;
 }
 
-@keyframes fadein {
+@keyframes fadein{
 from {
       opacity: 0;
 }
@@ -196,4 +203,35 @@ to {
 }
 }
 
+@media (max-width: 750px) {
+
+/* Show Hamburger */ 
+
+.navbar label{
+    position: absolute;
+    display: inline-block;
+    padding: 10px;
+    position: absolute;
+    top: 15px;
+    right: 20px;
+    display:inline-block;
+}
+nav ul li {
+    font-size: 2em;
+    text-align: center;
+    border-top: 1px solid rgba(0, 0, 0, 0.1);
+    display: block;
+  }
+
+/* Toggle show/hide menu on checkbox click */
+
+#page-nav ul {
+    display: none;
+}
+
+#page-nav input[type='checkbox']:checked ~ ul {
+    animation: fadein 1s forwards;
+    display: block;
+}
+}
 
