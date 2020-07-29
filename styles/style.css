@@ -1,3 +1,4 @@
+@import url('https://fonts.googleapis.com/css2?family=Lato&display=swap');
 /*
 Colors:
 
@@ -6,3 +7,167 @@ Green: #00B172
 White: #FFF
 
 */
+body {
+    font-family: 'Lato', sans-serif;
+}
+
+
+
+
+h3{
+    color: #00B172;
+}
+
+.navigation{
+    width:100%;
+    height: 80px;
+    position:fixed;
+    background-color: white;
+    top:0;
+}
+
+
+.main-logo {
+    float:left;
+    width:100px;
+    height:auto;
+    margin-left:30px;
+    margin-top: 20px;
+    vertical-align: top;
+}
+
+.nav-list {
+    float: right;
+    margin: 20px 30px;
+    list-style-type: none;
+    display: flex;  
+}
+
+li {
+    margin: 0 10px;
+}
+
+.first-section {
+    height:700px;
+    width:100%;
+    background-image: url(../images/landing.jpg);
+    background-size:cover;
+    background-position:center;
+}
+
+.first-section h1 {
+ margin-left: auto;
+ margin-right: auto;
+ text-align: center;
+ align-items: center;
+ font-size: 4em;
+ color: #FFF;
+ padding-top: 250px;
+ font-weight: bold;
+
+
+}
+
+.first-section h2 {
+    margin-left: auto;
+    margin-right: auto;
+    text-align: center;
+    align-items: center;
+    font-size: 2em;
+    color: #FFF;
+    padding-top: auto;
+    width:60%;
+    font-weight:lighter;
+
+}
+.second-section{
+    margin: 40px;
+    text-align: center;
+    
+}
+.Spotify h2 {
+    border-bottom: 2.5px solid #00B172;
+    text-align:center;
+    display:inline;
+    font-size:2.5em;
+    font-weight:bold;
+    padding-bottom: 7px;
+    
+    
+    
+}
+.second-section{
+    margin-top: 50px;
+}
+.second-section h2 {
+    border-bottom: 2.5px solid #00B172;
+    text-align:center;
+    margin:0 450px;
+}
+
+#main-icons{
+    width:75px;
+    height:75px;
+}
+
+.hero{
+  padding-top: 80px;
+  display: flex;
+  justify-content: space-evenly;
+}
+
+.innerbox {
+    width:33%;
+    text-align: center;
+}
+
+
+.Kanye {
+
+    width:85%;
+    height:700px;
+    margin:120px;
+    padding:50px;
+    background-color:#00B172;
+    background-image: url("../images/spotify-icon-white.png");
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: 100px;
+}
+.Kanye h1 {
+    color: white;
+    border-bottom: 5px solid #FFF;
+    padding-bottom: 5px;
+    margin-left: 60px;
+    padding-top: 20px;
+    font-size: 2.1em;
+    font-weight: bold;
+    display: inline-block;
+    
+}
+.Kanye h2 {
+    width: 30%;
+    color: white;
+    margin-left: 60px;
+    padding-top: 15px;
+    font-size: 1.7em;
+    font-weight: bold;
+    display: inline-block;
+}
+.Kanye p {
+    display:block;
+    color: white;
+    margin-left: 60px;
+    font-size: 1.3em;
+    font-weight: lighter;
+    width: 30%;
+}
+
+#app {
+    width:17%;
+    float:right;
+    padding:20px;
+    margin:20px;
+}
+ 
+ 
