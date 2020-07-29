@@ -6,3 +6,105 @@ Green: #00B172
 White: #FFF
 
 */
+
+body {
+  font-family: Arial, Helvetica, sans-serif;
+border: 1px solid red;
+}
+
+h1 {
+  font-size: 4rem;
+  font-weight: 100;
+}
+
+h3 {
+  color: #1cb06a;
+}
+
+h4 {
+  border-bottom: 1px solid white;
+  padding-bottom: 1rem;
+  font-size: x-large;
+  font-weight: 400;
+}
+
+h5 {
+  font-size: large;
+  font-weight: 800;
+}
+
+p {
+  font-size: larger;
+  font-weight: 100;
+}
+
+nav {
+  display: flex;
+  justify-content: space-between;
+  padding: 2rem;
+  align-items: center;
+}
+
+nav ul {
+  display: flex;
+  list-style: none;
+}
+
+nav ul li:nth-child(n+1) {
+  margin-left: 1rem;
+}
+
+section.landing {
+  display: grid;
+  place-items: center;
+  min-height: 80vh;
+  text-align: center;
+  background: #000 url(/images/landing.jpg) no-repeat center center;
+  background-size: cover;
+  color: white;
+}
+
+section.onSpotify {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  padding-top: 4rem;
+  padding-bottom: 4rem;
+}
+
+.container {
+  margin-top: 2rem;
+  max-width: 960px;
+  display: grid;
+  grid-template-columns: 1fr 1fr 1fr;
+}
+
+.item {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  text-align: center;
+}
+
+section.kanye {
+  background: #1cb06a url(/images/spotify-icon-white.png) no-repeat center center;
+  background-size: 10rem 10rem;
+
+  display: grid;
+  grid-template-columns: 2fr 1fr;
+
+  padding: 4rem;
+  align-items: center;
+
+  color: white;
+
+  grid-gap: 4rem;
+}
+
+section.kanye .content {
+  max-width: 400px;
+}
+
+section.kanye img {
+  width: 100%;
+}
