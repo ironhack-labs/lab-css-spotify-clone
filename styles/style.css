@@ -6,3 +6,199 @@ Green: #00B172
 White: #FFF
 
 */
+
+
+body, html {
+    height: 100%;
+    width: 100%;
+    margin:0;
+    padding:0;
+    font-family: Arial, Helvetica, sans-serif;
+    color: #1A1A1A;
+}
+
+/* SECTION 1 */
+
+#navigation-bar {
+    
+    /* width: 100%; */
+    height: 100%;
+    width: 100%;
+    
+}
+
+#nav-content {
+    position: fixed;
+    /* display: flex;
+    flex-direction: row;
+    justify-content: space-between; */
+    padding-right: 10px;
+    padding-left: 10px;
+    width: 100%;
+}
+
+#nav-content img {
+    width: 170px;
+    height: 50px;
+    float: left;
+}
+
+nav ul li {
+    display: inline;
+    float: right;
+    list-style: none;
+    overflow: hidden;
+    padding: 5px;
+    margin: 10px;
+}
+
+
+#cover {
+    /* position: relative; */
+    /* display: block; */
+    background-image: url("../images/landing.jpg");
+    height: 100%;
+    width: 100%;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    
+
+}
+
+#cover h1 {
+    color: white;
+    text-align: center;
+    padding: 300px;
+    font-size: 80px;
+    margin-top: 0;
+    height: 0;
+    width:1100px;
+}
+
+#cover > p {
+    margin-top: 0;
+    color: white;
+    margin: 0 auto;
+    font-size: 40px;
+    width: 900px;
+
+   
+}
+
+
+/* SECTION 2 */
+
+#info-page h2 {
+    text-align: center;
+    color: black;
+    font-size: 40px;
+}
+
+#info-pages {
+    width: 200px;
+    margin: 0 auto;
+}
+
+
+#info-blocks {
+    display: flex;
+    flex: row;
+    justify-content: space-between;
+    width: 1400px;
+    margin: 0 auto;
+    margin-top: 100px;
+    margin-left: 120px;
+    
+}
+
+#info-block hr {
+    margin: 0 auto;
+    width: 50px;
+    color: #00B172;
+}
+
+#info-blocks img {
+    width: 90px;
+    height: 70px;
+    margin: 0px auto;
+}
+
+.block-content {
+    display: flex;
+    flex-direction: column;
+    justify-content: space-around;
+    width: 400px;
+    height: 200px;
+    
+}
+
+.block-content h3 {
+    color: #00B172;
+    font-size:30px ;
+    margin: 0px auto;
+}
+
+.block-content p {
+    color: black;
+    font-size: 20px;
+    margin: 0px auto;
+}
+
+
+/* SECTION 3 */
+
+#usage {
+    position: relative;
+    width: 100%;
+    background-color:#00B172 ;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    margin-top: 100px;
+    height: 800px;
+}
+
+#usage-info {
+    position: relative;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    height: 500px;
+    width: 500px;
+    margin-top: 50px;
+    margin-left: 150px;
+}
+
+#usage-info h3 {
+    color: white;
+    font-size: 35px;
+}
+
+
+#usage-info h4 {
+    color: white;
+    font-size: 30px;
+}
+
+
+#usage-info p {
+    color: white;
+    font-size: 20px;
+}
+
+
+#spotify-image  img{
+    width: 350px;
+    height: 650px;
+    margin-top: 100px;
+    margin-right:150px;
+}
+
+
+#small-logo  img{
+    width: 150px;
+    height: 150px;
+    margin-top: 350px;
+    margin-left: 0;
+}
