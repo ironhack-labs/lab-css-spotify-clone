@@ -11,24 +11,14 @@ body {
     margin: 0;
 }
 
-.nav {
-    overflow: hidden;    ;
-    position: fixed;
-    top: 0;
-    width: 100%;
-    z-index: 9;
-}
-
-.content {
-    padding: 16px;
-    margin-top: 150px;
-}
-
 nav {
     position: fixed;
-    height: 100px;
+    overflow: hidden;
+    height: 80px;
     width: 95%;
     padding: 2% 3% 0;
+    top: 0;
+    z-index: 9;
 }
 
 nav img {
@@ -53,8 +43,6 @@ main {
     height: 100px;
 }
 
-
-
 #description {
     background-image: url(../images/landing.jpg);
     background-repeat: no-repeat;
@@ -64,6 +52,8 @@ main {
     height: 600px;
     width: 100%;
     position: relative;
+    padding: 16px;
+    margin-top: 150px;
 }
 
 .content {
@@ -79,7 +69,7 @@ main {
     top: 25%;
     font-size: 60px;
     letter-spacing: 6px;
-    font-weight: normal; }
+    font-weight: bold; }
 
 
 #description > p
@@ -101,17 +91,19 @@ main img {
     ;
 }
 
-.title{    
+main h2{    
     text-align: center;
     font-size: 1.4em;
     }
 
-.features section{
+main section {
     display: flex;
     align-items: center;
     justify-content: space-around;
-}   
-.features section div{
+    height: 320px;
+}
+
+main section div{
     display: flex;
     align-items: center;
     flex-direction: column;
@@ -119,7 +111,7 @@ main img {
     text-align: center;
     
 }
-.features section div h3{
+main h3{
     color: #00B172;
     font-size: 1.3em;
     font-weight: bold;
@@ -132,7 +124,7 @@ main img {
     background-repeat: no-repeat;
     background-position: center;
     background-size: 150px;
-    display: flex;;
+    display: flex;
     color: #FFFFFF;
     justify-content: space-around;
     align-items: center;
@@ -143,25 +135,25 @@ main img {
     height: 500px;}
 }
 
-
-#moreaAndMore h2{
-    font-size: 2em;
-    ;
+#moreInfo hr{
+    border: 2px solid white;
 }
 
-hr {
-    border: 1px solid white;
-  }
-
-  #moreaAndMore{
+#moreInfo div{
       height: 500px;
       width: 30%;
       margin: 10px
   }
 
-  #moreaAndMore h3{
+#moreInfo h2{
+    font-size: 2em;
+    ;
+}
+
+#moreInfo h3{
       font-size: 1.3em;
   }
-  #moreaAndMore p{
+
+#moreInfo p{
       width: 60%;
   }
