@@ -6,3 +6,175 @@ Green: #00B172
 White: #FFF
 
 */
+
+:root {
+    --our-green: #00B172;
+    --white: #fff;
+    --text-color: #1a1a1a;
+}
+
+body,
+html {
+    margin: 0;
+    padding: 0;
+    color: var(--text-color);
+    font-size: 16px;
+}
+
+section {
+    width: 100vw;
+    box-sizing: border-box;
+}
+
+nav {
+    display: flex;
+    justify-content: space-between;
+    position: fixed;
+    width: 100%;
+    height: 90px;
+    padding: 15px 20px;
+    box-sizing: border-box;
+    z-index: 2;
+    background-color: var(--white);
+}
+
+nav img {
+    width: 200px;
+    object-fit: contain;
+}
+
+nav ul {
+    list-style: none;
+}
+
+nav ul li {
+    display: inline;
+    margin-right: 40px;
+    font-size: 1.4rem;
+}
+
+nav ul li a {
+    text-decoration: none;
+    color: var(--text-color);
+}
+
+section:first-child>img {
+    position: relative;
+    top: 90px;
+    width: 100%;
+    height: 800px;
+    object-fit: cover;
+}
+
+section:first-child>div {
+    position: absolute;
+    color: var(--white);
+    top: 350px;
+    width: 100%;
+}
+
+h1 {
+    text-align: center;
+    font-size: 5rem;
+}
+
+h1+p {
+    text-align: center;
+    font-size: 2rem;
+}
+
+h2 {
+    font-size: 2rem;
+}
+
+section:nth-child(2) {
+    position: relative;
+    top: 100px;
+}
+
+section:nth-child(2) h2 {
+    width: 100%;
+    text-align: center;
+    margin-bottom: 50px;
+}
+
+section:nth-child(2) h2+hr {
+    position: relative;
+    top: -45px;
+    width: 260px;
+    height: 2px;
+    background-color: var(--our-green);
+    border: none;
+}
+
+section:nth-child(2)>div {
+    display: flex;
+    justify-content: space-around;
+}
+
+section:nth-child(2)>div>div {
+    text-align: center;
+    width: 260px;
+}
+
+h3 {
+    font-size: 1.8rem;
+}
+
+section:nth-child(2) h3 {
+    color: var(--our-green);
+}
+
+section:nth-child(2) h3+p {
+    width: 60%;
+    margin: 0 auto;
+    font-size: 1.2rem;
+}
+
+section:nth-child(2) img {
+    width: 90px;
+    height: 90px;
+    object-fit: contain;
+}
+
+section:nth-child(3) {
+    background-color: var(--our-green);
+    position: relative;
+    width: 94%;
+    margin-left: 3%;
+    top: 200px;
+    height: 600px;
+    color: var(--white);
+    padding-left: 60px;
+    padding-top: 40px;
+}
+
+section:nth-child(3) hr {
+    width: 380px;
+    margin: 0;
+    height: 2px;
+    background-color: var(--white);
+    border: none;
+    position: relative;
+    top: -20px;
+}
+
+section:nth-child(3) img:first-child {
+    width: 90px;
+    height: 90px;
+    position: absolute;
+    left: calc(100% / 2 - 45px);
+    top: calc(100% / 2 - 45px);
+}
+
+section:nth-child(3) img:nth-child(2) {
+    height: 400px;
+    position: absolute;
+    right: 100px;
+    top: 100px;
+}
+
+section:nth-child(3) p {
+    width: 280px;
+    font-size: 1.1rem;
+}
