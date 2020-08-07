@@ -6,3 +6,167 @@ Green: #00B172
 White: #FFF
 
 */
+
+body {
+    font: 200 16px/1.5 "Helvetica Neue", Helvetica, Arial, sans-serif;
+    margin: 0;
+}
+
+h1 {
+    color: white;
+    font-size: 4rem;
+    margin: 0;
+}
+
+h2 {
+    color: white;
+    font-size: 1.9rem;
+    text-decoration: underline;
+    margin: 0;
+}
+
+h3 {
+    color: white;
+    font-weight: bold;
+    font-size: 1.6rem;
+    margin: 0;
+}
+
+p {
+    color: white;
+    font-size: 1.4rem;
+}
+
+#sectionOne {
+    margin: 0;
+    background-image: url(../images/landing.jpg);
+    background-size: 100%;
+    background-repeat: no-repeat;
+    height: 500px;
+    width: 100vw;
+}
+
+#sectionOne div h1 {
+    font-size: 45px;
+    padding-bottom: 15px;
+}
+
+#sectionOne div h3 {
+    font-size: 15px;
+    font-weight: lighter;
+    width: 340px;
+}
+
+#sectionOne div {
+    position: absolute;
+    top: 170px;
+    left: calc(100% / 3);
+    text-align: justify;
+}
+
+#sectionTwo {
+    margin: 0;
+    background-color: white;
+    height: 500px;
+    width: 100vw;
+}
+
+#sectionTwo h2 {
+    color: black;
+    text-decoration: none;
+    border-bottom: 2px solid #00B172;
+    width: 300px;
+    position: relative;
+    left: calc((100vw / 2) - 140px);
+    top: 20px;
+}
+
+#whatsOn {
+    padding: 30px;
+}
+
+#sectionTwo h3 {
+    color: #00B172;
+}
+
+#sectionTwo p {
+    color: black;
+}
+
+.icons {
+    height: 70px;
+}
+
+#sectionThree {
+    margin: 40px;
+    position: relative;
+    background-color: #00B172;
+    height: 710px;
+    width: 100vw;
+}
+
+#infoSecThree {
+    width: 450px;
+    flex-direction: column;
+    flex-wrap: wrap;
+    justify-content: center;
+    align-items: center;
+    align-content: center;
+    padding: 50px;
+}
+
+#infosecThree h2 {
+    margin: 200px;
+}
+
+#infoSecThree article {
+    width: 330px;
+}
+
+header {
+    width: 100%;
+    position: fixed;
+    display: flex;
+    box-sizing: border-box;
+    background-color: white;
+}
+
+header img {
+    width: 180px;
+}
+
+nav a {
+    text-decoration: none;
+    position: relative;
+    top: 15px;
+    left: calc(100% / .5);
+    color: black;
+    padding: 0 5px;
+}
+
+#spotifyIcon {
+    position: absolute;
+    width: 110px;
+    left: calc((100vw / 2) - 55px);
+    bottom: 300px;
+}
+
+#spotifyApp {
+    position: absolute;
+    right: 100px;
+    bottom: 100px;
+    height: 550px;
+}
+
+.divArticles {
+    width: 100%;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+    padding-top: 80px;
+    padding-left: 25px;
+}
+
+.divArticles article {
+    width: 250px;
+}
