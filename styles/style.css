@@ -6,3 +6,126 @@ Green: #00B172
 White: #FFF
 
 */
+
+/*
+Colors:
+
+Text: 1A1A1A
+Green: #00B172
+White: #FFF
+
+*/
+
+body{
+    margin: 0;
+}
+
+#navbar {
+    background-color: white;
+    position: fixed;
+    height: 15vh;
+    width: 100%;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: center;
+    margin: 0 !important;
+    z-index: 10;
+}
+
+#logo {
+    width: 15vw;
+}
+
+.links{
+    text-decoration: none;
+    color: black;
+    font-weight: bold;
+    padding: 0 15px;
+}
+
+#content{
+    position: absolute;
+    top: 15vh;
+    margin: 0;
+    width: 100%;
+}
+
+#section1 {
+    height: 400px;
+    width: 100%;
+    background-image: url(../images/landing.jpg);
+    background-size: cover;
+    background-repeat: no-repeat;
+    color: white;
+    text-align: center;
+    margin: 0;
+
+}
+
+.textSection1{
+    position: relative;
+    top: 160px;
+    margin: 0;
+}
+
+#section2{
+    height: 50vh;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-evenly;
+}
+
+#container1{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+}
+
+#container1 > div > img{
+    height: 40px;
+}
+
+#section2 > h2{
+    text-align: center;
+    padding: 0 35vw;
+}
+
+#section2 > h2 > hr{
+    height: 2px;
+    background-color: green;
+    border: none;
+}
+
+#container1 > div > h3{
+    color: green;
+}
+
+#container1 > div {
+    text-align: center;
+}
+
+#section3{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    background-color: green;
+    align-items: center;
+    color: white;
+    padding: 50px;
+    margin: 0 25px;
+    background-image: url(../images/spotify-icon-white.png);
+    background-repeat: no-repeat;
+    background-size: 100px;
+    background-position: center;
+}
+
+#spotAppImg{
+    height: 50vh;
+}
+
+#hr2{
+    height: 2px;
+    background-color: white;
+    border: none;
+}
