@@ -2,7 +2,167 @@
 Colors:
 
 Text: 1A1A1A
-Green: #00B172
+Green: 
 White: #FFF
 
 */
+
+* {
+    padding: 0;
+    margin: 0;
+    font-family: 'Roboto', sans-serif;
+}
+
+.container{
+    background-image: url("/images/landing.jpg");
+    width: 100%;
+    height: 900px;
+    position: relative;
+    display: inline-block;
+    background-position: center;
+    background-size: cover;
+}
+
+#main-head{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    /* align-self: center; */
+    color: white;
+    padding-top: 20%;
+}
+
+h1{
+    margin-bottom: 20px;
+    font-size: 100px;
+}
+
+#main-head p{
+    font-size: 30px;
+    text-align: center;
+}    
+
+
+    
+
+li{
+    display: inline-block;
+    list-style: none;
+}
+
+a:link {
+    text-decoration: none;
+    color: black;
+}
+
+header {
+    background-color: white;
+    display: flex;
+    justify-content: space-between;
+    align-items: flex-start;
+    padding: 10px 25px;
+   
+}
+
+header>img {
+    width: 150px;
+}
+
+nav {
+    word-spacing: 15px;
+    margin: 10px 10px;
+}
+
+#container2 h3{
+    text-align: center;
+    /* text-decoration: underline #00B172; */
+    margin-top: 20px;
+    margin-bottom: 20px;
+    font-size: 40px;
+    /* border-bottom: 5px solid #00B172; */
+    
+}
+
+hr {
+    width: 25%;
+    display: block;
+    margin: auto;
+    border: solid #00B172;
+
+}
+
+.card img{
+    width: 150px;
+}
+
+.card h5{
+    color: #00B172;
+    font-weight: bold;
+    font-size: 30px;
+    font-family: 'Roboto', sans-serif;
+    padding-top: 20px;
+    padding-bottom: 20px;
+}
+
+#cards-container{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: center;
+    margin: 30px;
+    padding: 30px;
+}
+
+.card{
+    text-align: center;
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+    align-items: center;
+    padding: 75px;
+    width: 80%;
+    color: grey;
+    font-size: 20px;
+}
+
+.card p {
+    display: block;
+}
+
+.container3{
+    height: 800px;
+    background-color: #00B172;
+    color: white;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: center;
+    padding: 50px;
+}
+
+
+#line-bottom{
+    border: solid white;
+    
+}
+
+#my-text{
+    text-align: left;
+}
+
+#logo-small img{
+    width: 200px;
+}
+
+#app img{
+    width: 350px;
+}
+
+.container3 h3 {
+    padding: 20px;
+}
+
+.container3 p {
+    padding: 20px;
+}
