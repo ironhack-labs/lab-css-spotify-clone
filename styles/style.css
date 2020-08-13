@@ -6,3 +6,139 @@ Green: #00B172
 White: #FFF
 
 */
+body {
+    font-family: Arial, Helvetica, sans-serif;
+  }
+  
+  header {
+  background-image: url(../images/landing.jpg) ;
+  background-repeat: no-repeat;
+    background-size: cover;
+    height: 95vh;
+    background-position: center;
+    justify-content: center;
+    align-items: center;
+    display: flex;
+    color: white;
+    text-align: center;
+}
+
+header p { font-size: 45px;
+font-weight: lighter;
+}
+
+section.onSpotify hr {
+    border:  solid #1cb06a;
+    width: 360px; 
+}
+
+  h1 {
+    font-size: 110px;
+
+  }
+
+  h2{
+      font-size: 40px;
+      padding: 0px;
+      margin-bottom: 0px;
+  }
+  
+  h3 {
+    color: #1cb06a;
+    font-size: 30px;
+  }
+  
+  h4 {
+    font-size: 50px;
+    margin-bottom: 0px;
+  }
+  
+  h5 {
+    font-size: 40px;
+  }
+
+  section.kanye hr {
+    border:  solid white;
+    width: 650px; 
+    margin-left: 5px;
+}
+  
+  p {
+    font-size: larger;
+    font-weight: 100;
+  }
+  
+  nav {
+    display: flex;
+    justify-content: space-between;
+    padding: 2rem;
+    align-items: center;
+  }
+  
+  nav ul {
+    display: flex;
+    list-style: none;
+  }
+  
+  nav ul li:nth-child(n+1) {
+    margin-left: 1rem;
+    font-size: 22px;
+    color: #1a1a1a;
+  }
+
+  
+  section.onSpotify {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    padding: 30px ;
+  }
+
+  .item {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    text-align: center;
+justify-content: space-between;
+font-size: 22px;
+color: darkslategrey;
+  }
+
+  
+  .container {
+    margin-top: 80px;
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr;
+  }
+  
+  
+.kanye
+{background-color: #1cb06a;
+    background-image: url(../images/spotify-icon-white.png);
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: 200px;
+  grid-gap: 4rem;
+  display: grid;
+  grid-template-columns: 1fr 0.2fr;
+  padding: 30px 150px;
+  color: white;
+  margin: 10px 10px;
+}
+
+.kanye p {
+    font-size: 25px;
+}
+
+  
+.kanye img {
+    width: 500px;
+    float: right;
+  
+  }
+
+  .kanye hr {
+  border:  solid white;
+  width: 650px;
+  margin-left: 0px;
+} 
