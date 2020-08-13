@@ -6,3 +6,164 @@ Green: #00B172
 White: #FFF
 
 */
+@import url("https://fonts.googleapis.com/css2?family=Roboto&display=swap");
+
+body,
+html {
+	margin: 0;
+	padding: 0;
+	height: 100%;
+	font-family: "Roboto", sans-serif;
+}
+
+.navbar {
+	width: 100vw;
+	background-color: white;
+	position: fixed;
+}
+
+.navbar > div > img {
+	width: 100px;
+	height: 40px;
+}
+
+.spotify-logo {
+	margin-top: 5px;
+	margin-left: 5px;
+	float: left;
+	position: absolute;
+}
+
+.menu {
+	float: right;
+}
+
+.menu-item {
+	display: inline;
+	list-style-type: none;
+	padding: 5px 15px;
+	float: left;
+	margin-right: 20px;
+}
+
+.menu-item a {
+	text-decoration: none;
+	color: #1a1a1a;
+	font-weight: 500;
+}
+
+.menu-item a:hover {
+	color: #00b172;
+	transition-duration: 0.2s;
+}
+
+#full-bg-header {
+	display: flex;
+	background: rgba(0, 0, 0, 0.2) url("/images/landing.jpg") no-repeat;
+	background-size: cover;
+	height: 100%;
+	width: 100%;
+
+	flex-direction: column;
+	flex-wrap: nowrap;
+	justify-content: center;
+	align-content: stretch;
+	align-items: center;
+}
+
+#full-bg-header h1,
+p {
+	color: white;
+}
+
+#full-bg-header h1 {
+	font-size: 75px;
+	font-weight: 600;
+}
+
+#full-bg-header p {
+	font-size: 32px;
+	font-weight: normal;
+	text-align: center;
+	width: 600px;
+}
+
+#features {
+	display: flex;
+	flex-direction: row;
+	flex-wrap: nowrap;
+	justify-content: space-around;
+	align-content: space-around;
+	align-items: center;
+	padding-bottom: 75px;
+}
+
+#features img {
+	width: 250px;
+	height: 250px;
+	margin-left: auto;
+	margin-right: auto;
+	display: block;
+}
+
+#features p {
+	color: #1a1a1a;
+	text-align: center;
+	width: 200px;
+	flex-shrink: 0;
+	margin-left: auto;
+	margin-right: auto;
+	display: block;
+}
+
+#features h3 {
+	text-align: center;
+	color: #00b172;
+}
+
+#features-heading {
+	text-align: center;
+}
+
+.functions {
+	background-color: #00b172;
+	display: flex;
+	flex-direction: row;
+	flex-wrap: nowrap;
+	justify-content: space-around;
+	align-content: stretch;
+	align-items: center;
+}
+
+.function-container {
+	width: 300px;
+}
+
+.function h3 {
+	color: white;
+}
+
+.function p {
+	font-weight: 200;
+}
+
+.function-title {
+	width: 22vw;
+	font-size: 28px;
+	border-bottom: 2px solid #fff;
+	padding-bottom: 3px;
+	color: white;
+}
+
+.logo-white img {
+	width: 100px;
+	margin-right: 20px;
+	flex-shrink: 0;
+}
+
+.spotify-app img {
+	padding-top: 40px;
+	width: 400px;
+	margin-right: 20px;
+	flex-shrink: 0;
+}
