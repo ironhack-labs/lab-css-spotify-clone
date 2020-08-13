@@ -6,3 +6,158 @@ Green: #00B172
 White: #FFF
 
 */
+
+*{
+
+    box-sizing: border-box;
+}
+
+body{
+
+    margin: 0;
+    padding: 0;
+    font-family: 'Lato', sans-serif;
+}
+
+h1 {
+
+    font-size: 4.5vw;
+}
+
+h2 {
+
+    font-weight: 600;
+    text-decoration: underline #1DB954;
+    text-align: center;
+}
+
+p {
+    font-weight: 300;
+}
+
+.logo {
+
+    height: 40px;
+}
+
+.nav-bar { 
+
+    background-color: white;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    position: fixed;
+    padding: 1% 2%;
+    width: 100vw;
+    
+
+}
+
+.nav-bar-ul {
+    width: 30vw;
+    display: flex;
+    justify-content: space-between;
+    list-style-type: none;
+    padding-right: 0;
+}
+
+header {
+
+    background-image: url(../images/landing.jpg);
+    background-position: center;
+    background-size: cover;
+    background-repeat: none;
+    height: 80vh;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    
+}
+
+
+
+.slogan {
+    color: white;
+    text-align: center;
+    
+    /* align-items: center; */
+    
+}
+
+#whats-on > div {
+
+    display: flex;
+    /* flex-direction: row;
+    justify-content: center;
+    
+    align-items: center; */
+    flex: 1;
+    padding: 0% 5%;
+
+}
+
+article {
+    text-align: center;
+    padding: 7%;
+    
+}
+
+article > img {
+
+    height: 10vh;
+}
+
+article > h3 {
+
+    color: #1DB954;
+}
+
+article > p {
+
+    text-align: center;
+}
+
+#container-green {
+
+    background-color: #1DB954;
+    color: white;
+    padding: 5%;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    background-image: url("/lab-css-spotify-clone/images/spotify-icon-white.png");
+    background-size: 10vh;
+    background-position: center;
+    background-repeat: no-repeat;
+
+
+}
+
+#container-green > div > h3 {
+
+    border-bottom: 2px solid white;
+    padding-bottom: 5px;
+    display: inline;
+}
+
+#container-green > div > aside {
+
+    width: 30vw;
+    padding: 15px;
+
+}
+.icon-white {
+
+    height: 10vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+
+    
+}
+
+.kanye-pic {
+    height: 50vh;
+    margin-top: 50px;
+    
+}
