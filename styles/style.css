@@ -1,8 +1,136 @@
-/*
+html body{
+    padding: none;
+    border: none;
+    font-family: sans-serif, Arial, Helvetica, sans-serif;
+}
+
+.nav {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.nav > img{
+    width: 220px;
+    height: 60px;
+    margin-left: 30px;
+}
+
+.nav-ul {
+    width: 440px;
+    display: flex;
+    align-items: center;
+    justify-content: space-evenly;
+    list-style: none;
+    margin-right: 30px;
+    font-size: 18px;
+    color: #1A1A1A;
+}
+
+.main {
+    height: 650px;
+    background-image: url('../images/landing.jpg');
+    background-position: center;
+    background-size: cover;
+    background-repeat: no-repeat;
+    color: #FFF;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    margin-top: 20px;
+}
+/* section 3 */
+.general-info {
+    height: 450px;
+    color: black;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+}
+
+.general-info > h2 {
+    font-weight: bold;
+}
+
+.general-info > hr {
+    color: #00B172;
+    
+}
+
+.features {
+    width: 100vw;
+    padding: 10px;
+    display: flex;
+    justify-content: space-evenly;
+}
+
+.features div {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    /* justify-content: space-evenly; */
+    padding: 10px;
+}
+
+.features div img {
+    width: 170px;
+    height: 100px;
+}
+
+.features div h3 {
+    color: #00B172;
+}
+
+.features div p {
+    color: grey
+}
+/* section 4 */
+.description {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+    align-items: center;
+    background-color: #00B172;
+    color: white;
+    position: relative;
+}
+.description .white-logo {
+    width: 90px;
+    height: 90px;
+    position: absolute;
+}
+
+.description img{
+    width: 280px;
+    height: 460px;
+    margin-top: 15px;
+}
+
+.description div{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    padding: 10px;
+    
+}
+
+.description h3 {
+    color: white;
+    text-decoration: underline;
+    font-size: 25px;
+}
+/* 
 Colors:
 
 Text: 1A1A1A
 Green: #00B172
 White: #FFF
 
-*/
+ */
+/* .general-info hr {
+    width: 30%;
+    color: green;
+    height: 2px;
+} */
