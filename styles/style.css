@@ -1,8 +1,90 @@
 /*
 Colors:
 
-Text: 1A1A1A
-Green: #00B172
-White: #FFF
+
 
 */
+
+html {
+    font-family: ;
+}
+
+:root {
+--Text: 1A1A1A;
+--Green: #00B172;
+--White: #FFF;
+}
+
+h1 {
+    font-size: 60px;
+    margin: 0px;
+}
+
+header p {
+    font-size: 35px;
+}
+
+h6 {
+    color: var(--Green);
+}
+
+body {
+    padding: 0;
+    margin: 0;
+}
+
+nav {
+    display: flex;
+    flex: 1;
+    top: 0;
+    height: 30px;
+    width: 100vw;
+    padding: 15px;
+    justify-content: space-between;
+    position: fixed;
+}
+
+nav>img {
+    height: 30px;
+
+}
+
+nav>div {
+    display: flex;
+    flex-direction: row;
+    
+}
+
+nav>div>a {
+    text-decoration: none;
+    color: var(--Text);
+    padding: 0 10px;
+}
+
+.container {
+    margin-top: 65px;
+}
+
+header {
+    background-image: url(/images/landing.jpg);
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    height: 500px;
+    background-position: center;
+    background-size: cover;
+   background-repeat: no-repeat;
+   color: var(--White);
+}
+
+#features {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+}
+
+.feature-icons {
+    height: 50px;
+    width: 50px;
+}
