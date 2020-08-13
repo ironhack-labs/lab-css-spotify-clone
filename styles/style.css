@@ -1,8 +1,122 @@
-/*
-Colors:
+* {
+  box-sizing: border-box;
+}
 
-Text: 1A1A1A
-Green: #00B172
-White: #FFF
+body {
+  margin: 0;
+  padding: 0;
+  font-family: "Lato", sans-serif;
+}
 
-*/
+h1 {
+  color: #fff;
+  font-size: 4.5vw;
+}
+
+h2 {
+  font-weight: 600;
+  text-align: center;
+  text-decoration: underline;
+  text-decoration-color: #1db954;
+}
+
+p {
+  font-weight: 300;
+}
+
+.logo {
+  height: 40px;
+}
+
+.nav-bar {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  position: fixed;
+  background-color: #fff;
+  padding: 1% 2%;
+  width: 100vw;
+}
+
+.nav-bar-ul {
+  width: 30vw;
+  display: flex;
+  justify-content: space-between;
+  list-style-type: none;
+  padding-left: 0;
+}
+
+.header {
+  background-image: url("../images/landing.jpg");
+  background-size: cover;
+  background-repeat: none;
+  background-position: center;
+  height: 80vh;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+}
+
+.slogan {
+  color: #fff;
+  text-align: center;
+}
+
+.tagline {
+  font-size: 1.3em;
+}
+
+#whats-on > div {
+  display: flex;
+  flex: 1;
+}
+
+article > img {
+  height: 10vh;
+}
+
+article > h3 {
+  color: #1db954;
+}
+
+.articles-center {
+  text-align: center;
+  padding: 7%;
+  width: 33%;
+}
+
+.whats-on-container {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-around;
+}
+
+#green {
+  background-color: #1db954;
+  background-image: url(../images/spotify-icon-white.png);
+  background-repeat: no-repeat;
+  background-position: center;
+  background-size: 10vh;
+  padding: 3% 7%;
+  display: flex;
+  justify-content: space-between;
+}
+
+.green-underline {
+  color: #fff;
+  text-decoration: underline;
+  text-decoration-color: #fff;
+  text-align: left;
+}
+
+.green-container {
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+  color: #fff;
+  width: 35vw;
+}
+
+.image-spotify-size {
+  width: 30%;
+}
