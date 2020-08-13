@@ -7,7 +7,7 @@ White: #FFF
 
 */
 
-@import url('https://fonts.googleapis.com/css2?family=Roboto:wght@300&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Roboto:wght@300;500;700;900&display=swap');
 
 body {
     margin: 0;
@@ -45,4 +45,73 @@ nav {
     margin-left: 50px;
     width: 200px;
     height: 60px;
+}
+
+.section1 {
+    background-image: url("../images/landing.jpg");
+    background-size: cover;
+    background-position: center;
+    width: 100vw;
+    height: 100vh;
+    display: flex;
+	flex-direction: column;
+	flex-wrap: nowrap;
+	justify-content: center;
+	align-items: center;
+	align-content: stretch;
+}
+
+h1 { 
+    color: white;
+    font-size: 3.5em;
+}
+
+.section1 > article {
+    color: white;
+    font-size: 1.3em;
+    text-align: center;
+}
+
+.h2hr {
+    display: flex;
+    justify-content: center;
+}
+
+h2 {
+    display: inline;
+    font-weight: bold;
+    text-align: center;
+    border-bottom: 5px solid #55ba55 ;
+}
+
+hr {
+    position: static;
+    margin: auto 287px auto 287px;
+    background-color: #55ba55;
+    height: 2px;
+}
+
+.infobox {
+    display: flex;
+	flex-direction: row;
+	flex-wrap: nowrap;
+	justify-content: center;
+	align-items: center;
+	align-content: stretch; 
+    margin: 50px 150px;
+  }
+
+  .infobox > div {
+      width: 250px;
+      height: 250px;
+      padding: 0 40px;
+  }
+
+.section2 img {
+    height: 60px;
+}
+
+h3 {
+    font-weight: 900;
+    color: #55ba55;
 }
