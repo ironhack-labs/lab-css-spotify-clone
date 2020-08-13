@@ -1,12 +1,7 @@
-/*
-Colors:
-
-
-
-*/
+@import url('https://fonts.googleapis.com/css2?family=Roboto:wght@300&display=swap');
 
 html {
-    font-family: ;
+    font-family: "Roboto", sans-serif;
 }
 
 :root {
@@ -42,6 +37,8 @@ nav {
     padding: 15px;
     justify-content: space-between;
     position: fixed;
+    background-color: var(--White);
+
 }
 
 nav>img {
@@ -50,8 +47,7 @@ nav>img {
 }
 
 nav>div {
-    display: flex;
-    flex-direction: row;
+    width: 350px;
     
 }
 
@@ -79,12 +75,60 @@ header {
 }
 
 #features {
-    display: flex;
-    flex-direction: row;
-    justify-content: space-around;
+    text-align: center;
 }
 
 .feature-icons {
     height: 50px;
     width: 50px;
+}
+
+#features>div {
+    display: flex;
+    justify-content: space-evenly;
+    flex-direction: row;
+}
+
+#features>div>article {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    flex: 1;
+}
+
+#appetizer {
+    background-color: var(--Green);
+    height: 500px;
+    background-image: url("/images/spotify-icon-white.png");
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: 120px;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    margin-right: 25px;
+    margin-left: 25px;
+    
+}
+
+#kanye {
+    height: 400px;
+    margin: 50px;
+}
+
+#appetizer>div {
+    color: var(--White);
+    margin: 50px;
+    width: 40%;
+}
+
+h2 {
+  border-bottom: var(--White) solid 2px;
+  display: initial;
+  padding: 5px;
+}
+
+#appetizer article {
+    margin-right: 200px;
 }
