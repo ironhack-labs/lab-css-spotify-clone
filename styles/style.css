@@ -6,6 +6,12 @@ Green: #00B172
 White: #FFF
 
 */
+
+*{
+    margin: 0;
+    padding:0;
+    box-sizing:
+}
 .landingPage {
     
     background-size: cover;
@@ -20,11 +26,17 @@ White: #FFF
 nav {
     display: flex;
     justify-content: space-between;
+    width: 100vw;
+    padding: 20px;
     
 }
 ul {
     display: flex;
-    text-decoration-style: none;
+    list-style-type: none;
+    justify-content: space-evenly;  
+}
+ul> li {
+    margin-left: 20px;
 }
 
 .Music {
@@ -46,18 +58,26 @@ ul {
     justify-content: center;
 }
 .options {
-    width: 200px;
     display: flex;
-    flex:1;
     flex-direction: row;
-    flex-wrap:nowrap;
-    justify-content: space-evenly;
+    justify-content: center;
+    align-items: center;
 }
 .boxes {
-    width: 50px;
-    height:100px;
+    width: 33%;
     display: flex;
-    flex-wrap: nowrap;
+    align-items: center;
+    justify-content: space-between;
+    flex-direction: column;
 
+}
 
+.boxes > img{
+    width:60px;
+    height: 50px;
+
+}
+
+#icon-text {
+    color: #1bb16a;
 }
