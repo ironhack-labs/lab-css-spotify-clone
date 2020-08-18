@@ -1,8 +1,157 @@
+* {
+  margin: 0;
+  padding: 0;
+}
+
+body {
+  color: #1a1a1a;
+  font-family: "Open Sans";
+}
+
+nav {
+  padding: 20px;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  background-color: white;
+  width: 100%;
+  position: fixed;
+}
+
+nav > img {
+  width: 200px;
+}
+
+nav > ul {
+  margin-right: 50px;
+}
+
+nav > ul > li {
+  padding: 10px;
+  display: inline;
+}
+
+nav > ul > li > a {
+  color: #1a1a1a;
+  font-size: 1.5rem;
+  text-decoration: none;
+}
+
+.hero-section {
+  background-image: url("../images/landing.jpg");
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: 100% auto;
+
+  height: 750px;
+  color: #fff;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  font-size: 1.5rem;
+}
+
+.hero-section p {
+  font-weight: 100;
+  width: 50%;
+  text-align: center;
+}
+
+h1 {
+  font-size: 4rem;
+  margin-bottom: 35px;
+}
+
+.section-icons {
+  margin: 75px 50px;
+  text-align: center;
+  font-size: 1.5rem;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+.section-icons h2 {
+  border-bottom: 3px solid #00b172;
+  text-align: center;
+  padding-bottom: 5px;
+  margin-bottom: 10px;
+}
+
+.section-icons p {
+  font-weight: 100;
+}
+
+.mid-icons {
+  padding-top: 35px;
+  display: flex;
+  align-items: baseline;
+  justify-content: space-around;
+}
+
+.mid-icons > div {
+  width: 33%;
+}
+
+.mid-icons h3 {
+  margin: 10px auto;
+  color: #00b172;
+}
+
+.mid-icons p {
+  color: #1a1a1a;
+  font-size: rem;
+}
+
+.mid-icons img {
+  width: 100px;
+}
+
+.bottom {
+  padding: 50px;
+  border: 0;
+  margin: 50px;
+  box-sizing: border-box;
+  color: #fff;
+  font-size: 1.25em;
+  display: flex;
+  justify-content: space-evenly;
+  align-items: center;
+  background-color: #00b172;
+}
+
+.bottom > div > img {
+  width: 400px;
+}
+
+.bottom > img {
+  position: absolute;
+  width: 150px;
+}
+
+.bottom-text {
+  margin-right: 50px;
+  font-size: 1.4em;
+  height: 1000px;
+  width: 540px;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-evenly;
+}
+
+.bottom p {
+  font-weight: 100;
+}
+
+.bottom h2 {
+  border-bottom: 5px solid #fff;
+  padding-bottom: 10px;
+}
+
 /*
 Colors:
-
-Text: 1A1A1A
+Text: #1A1A1A
 Green: #00B172
 White: #FFF
-
 */
