@@ -6,3 +6,110 @@ Green: #00B172
 White: #FFF
 
 */
+body {
+    font-family: sans-serif;
+}
+
+header {
+    display: flex;
+    justify-content: space-between;
+    margin: 0 2em;
+}
+
+header img {
+    width: 10%;
+}
+ul {
+    display: flex;
+    margin-top: 10px;
+}
+
+li {
+    list-style: none;
+    margin-left: 50px;
+}
+
+ul li a {
+    text-decoration: none;
+    color: black;
+    font-weight: 100;
+    font-size: 1.3em;
+}
+
+.music {
+    background-image: url("../images/landing.jpg");
+    /* height: 49em; */
+    background-size: 100%;
+    text-align: center;
+    background-repeat: no-repeat;
+}
+
+h1 {
+    color:white;
+    padding-top: 2em;
+    font-size: 5em;
+}
+
+.music p {
+    color: white;
+    font-size: 2em;
+    width: 55%;
+    margin: 0 auto;
+    padding-bottom: 10em;
+}
+
+.devices img {
+    width: 12em;
+    height: 10em;
+}
+
+.devices article {
+    text-align: center
+}
+
+.devices h3 {
+    text-align: center;
+    border-bottom: 2px solid #00B172;
+    font-weight: bold;
+    width: 18%;
+    margin: 1em auto;
+}
+
+.devices h4 {
+    margin-top: 1em;
+    color: #00B172;
+    font-weight: bold;
+}
+
+.devices p {
+   font-size: 1.3em;
+   color: #4b4949;
+   width: 60%;
+   margin: 1.5em auto;
+}
+
+.marginCenter {
+    margin-bottom: em;
+}
+
+
+
+@media(max-width: 992px){
+    .music p{
+        padding-bottom: 5em;
+    }
+}
+
+@media(max-width: 800px) {
+    h1 {
+        padding-top:1em;
+        font-size: 4em;
+    }
+    .music p {
+        font-size:1em;
+    }
+    ul li a {
+        font-size: 0.8em;
+    }
+}
+
