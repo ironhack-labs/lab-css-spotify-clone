@@ -6,3 +6,165 @@ Green: #00B172
 White: #FFF
 
 */
+
+* {
+    padding: 0;
+    margin: 0;
+}
+body{
+    font-family: Helvetica, sans-serif;
+    font-size: 1.2em;
+}
+
+.menu{
+    display: flex;
+    background-color: rgba(255, 255, 255, 0.9);
+    align-items: center;
+    justify-content: space-between;
+    width: 100%;
+    position: fixed;
+    top: 0px;
+    padding-top: 15px;
+    padding-bottom: 15px;
+
+}
+
+
+.menu img{
+    width: 210px ;
+}
+
+.menu ul{
+    display: flex;
+    list-style: none;
+    padding-right: 20px;
+}
+
+.menu a{
+    text-decoration: none;
+    padding-left: 20px;
+    color: black;
+    font-size: 1.2em;
+}
+
+.section-one{
+    background-image: url("../images/landing.jpg");
+    background-repeat: no-repeat;
+    background-position: 0 0;
+    background-size: cover;
+    height: 1000px;
+    display: flex;
+    flex-direction: column;
+    margin-top: 100px;
+    justify-content: center;
+    align-items: center;
+}
+
+.section-one h1{
+    color: white;
+    font-size: 5em;
+
+}
+
+.section-one p{
+    color: white;
+    font-size: 2em;
+    width: 60%;
+    text-align: center;
+    line-height: 1.5em;
+    padding-top: 30px;
+    font-weight: 200;
+
+}
+
+.section-two{
+    height: 400px;
+    text-align: center;
+    padding-top: 30px;
+    color: #1A1A1A;
+    margin-bottom: 100px;
+
+}
+
+.section-two h2{
+    border-bottom: 3px solid #00B172;
+    font-size: 2em;
+    padding-bottom: 10px;
+    margin: 0 auto;
+    display: block;
+    width: 25%;
+
+}
+
+
+.col{
+    display:flex;
+    justify-content: space-evenly;
+    margin-top: 50px;
+    text-align: center;
+    margin-left: 50px;
+    margin-right: 50px;
+    
+}
+
+.img-icon{
+    height: 130px;
+}
+
+.col h3{
+    color: #00b172;
+    font-size: 2em;
+}
+
+.col p{
+
+    font-size: 1.5em;
+    margin-left: 50px;
+    margin-right: 50px;
+    font-weight: 300;
+    line-height: 40px;
+    padding-top: 30px;
+
+}
+
+.section-three{
+    background-color: #00B172;
+    margin:20px;
+    display: flex;
+    justify-content: space-between;
+}
+
+.section-three img{
+    width: 60%;
+    padding-top: 100px;
+    padding-bottom: 100px;
+    padding-right: 50px;
+}
+
+.section-three h2{
+    border-bottom: 3px solid #ffffff;
+    font-size: 1.7em;
+    padding-bottom: 10px;
+    padding-top: 30px;
+    margin: 0 auto;
+    display: block;
+    width: 80%;
+    color: white;
+}
+
+.section-three h3{
+    color: white;
+    margin-left: 68px;
+    padding-top: 30px;
+}
+
+.section-three p{
+    color: white;
+    width: 270px;
+    margin-left: 68px;
+    line-height: 30px;
+    font-size: 1.1em;
+    font-weight: 300;
+    padding-top: 20px;
+    
+}
