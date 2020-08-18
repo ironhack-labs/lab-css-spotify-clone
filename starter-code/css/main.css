@@ -1,193 +1,118 @@
-/*
-Colors:
-
-Text: 1A1A1A
-Green: #00B172
-White: #FFF
-
-*/
-
-
-
-
-/*GENERAL SPECIFICATIONS*/
-body{
-    font-family: Arial, Helvetica, sans-serif;
+/* GENERAL STYLES */
+body {
+  font-family: Verdana, Geneva, Tahoma, sans-serif;
 }
 
-/*HEADER SPECIFICATIONS*/
+/* HEADER */
 
-.header{
-    display: flex;
-	flex-direction: row;
-	flex-wrap: nowrap;
-	justify-content: space-between;
-	align-items: stretch;
-    align-content: stretch;
-    
-    margin: 5px 0px 5px 0px;
+.header {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
 }
 
-.imgSpotfyLogo{
-    width: 10%
+.imgSpotfy {
+  width: 15vw;
+  padding-left: 2vw;
 }
-
-.navInHeader{
-    display: flex;
-	flex-direction: row;
-	flex-wrap: nowrap;
-	justify-content: space-between;
-	align-items: stretch;
-    align-content: center;
-}
-
 .navInHeader a {
-    padding: 5px 10px 0px 10px;
-    text-decoration: none;
-    color: black;
+  color: black;
+  text-decoration: none;
+  text-align: center;
+  padding: 0 1vw;
+}
+/* SECTION 1 */
+
+.section1 img {
+  width: 100vw;
 }
 
-/*SECTION 1 SPECIFICATIONS*/
-
-.section1{
-    background-image: url(../images/landing.jpg);
-    background-size: 1400px 728px;
-    background-repeat: no-repeat;
-    color:white;
-    padding: 300px;
-    margin: 0px -10px;
+.title {
+  color: white;
+  position: absolute;
+  top: 30vh;
+  left: 25vw;
+  text-align: center;
 }
 
-.section1 div h1{
-    text-align: center;
-    font-size: 60px;
+.title p {
+  width: 50vw;
+  font-size: 20px;
+  font-weight: ;
 }
 
-.section1 div p{
-    width: 500px;
-    font-size: 18px;
-    
+.title h1 {
+  font-size: 50px;
+}
+/* SECTION 2 */
+
+.section2 {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  padding: 5vh 0;
 }
 
-.section1 div{
-    display: flex;
-	flex-direction: column;
-	flex-wrap: nowrap;
-	justify-content: space-around;
-	align-items: center;
-	align-content: stretch;
-    
+.section2div2 {
+  display: flex;
 }
 
-/*SECTION 2 SPECIFICATIONS*/
+.blockInSec2 {
+  margin: 0 3vw;
+  width: 20vw;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
 
-.imgMusicIcon{
-    width: 20%;
+  text-align: center;
 }
 
-
-.imgHighQualityIcon{
-    width: 20%;
+.imgMusicIcon {
+  width: 10vw;
 }
 
-.imgDevicesIcon{
-    width: 20%;
+.imgHighQualityIcon {
+  width: 10vw;
 }
 
-.section2{
-    display: flex;
-    flex-direction: column;
-    justify-content: center;
-	align-items: center;
-    
-    
+.imgDevicesIcon {
+  width: 10vw;
+}
+/* SECTION 3 */
+
+.section3 {
+  background-color: #1ab16a;
+  background-image: url(/starter-code/images/spotify-icon-white.png);
+  background-repeat: no-repeat;
+  background-size: 100px;
+  background-position-y: 30vh;
+  background-position-x: 40vw;
+  color: white;
+  display: flex;
+  margin: 0 5vw;
+  justify-content: space-between;
 }
 
-.section2div1{
-    display: flex;
-    flex-direction: column;
-    justify-content: center;
-	align-items: center;
-    
-    text-align: center;
-    font-size: 20px;
-    border-bottom: 2px solid #00B172;
-    width: 300px;
+.section3 h4 {
+  font-size: 20px;
 }
 
-.section2 h3{
-    color: #00B172;
-
+.sec3h3 {
+  padding-bottom: 3px;
+  border-bottom: 3px solid;
+  margin-right: 75px;
 }
 
-.section2div2{
-    display: flex;
-	flex-direction: row;
-	flex-wrap: nowrap;
-	justify-content: space-around;
-	align-items: center;
-    align-content: stretch;
-    
-    margin-top: 70px;
+.section3texts {
+  display: flex;
+  flex-direction: column;
+  margin-left: 10vw;
+  width: 30vw;
+  font-family: ;
 }
 
-.section2div2 div{
-    text-align: center;
+.imgSpotfyApp {
+  width: 20vw;
+  padding: 5vw 15vw;
 }
-
-/*SECTION 3 SPECIFICATIONS*/
-
-.section3{
-    background-color: #00B172;
-    background-image: url(../images/spotify-icon-white.png);
-    background-repeat: no-repeat;
-    background-position: center;
-    background-size: 100px 100px;
-    height: 700px;
-    margin: 20px;
-    color: white;
-
-    display: flex;
-	flex-direction: row;
-	flex-wrap: nowrap;
-	justify-content: space-between;
-	align-items: center;
-	align-content: center;
-}
-
-.sec3h3{
-    border-bottom: 1px solid white;
-    width: 251px;
-    text-align: center;
-}
-
-.section3texts{
-    padding-left: 100px;
-}
-
-.section3texts div{
-    padding: 20px;
-}
-
-.section3texts div h4{
-    font-size: 20px;
-}
-
-.section3texts div p{
-    font-size: 15px;
-    width: 250px;
-    
-}
-
-.imgSpotfyApp{
-    width: 35%;
-    padding-left: 450px;
-}
-
-
-
-
-
-
-
-
