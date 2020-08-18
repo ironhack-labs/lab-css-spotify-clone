@@ -6,3 +6,114 @@ Green: #00B172
 White: #FFF
 
 */
+
+body {
+  margin: 0;
+  padding: 0;
+  font-family: Helvetica;
+  color: #fff;
+}
+
+header {
+  background-image: url("../images/landing.jpg");
+  background-repeat: no-repeat;
+  background-size: cover;
+  text-align: center;
+  height: 1000px;
+  justify-content: center;
+  display: flex;
+  flex-direction: column;
+}
+
+header p {
+  font-size: 2em;
+}
+
+.logo {
+  align-self: center;
+  height: 30px;
+}
+
+nav {
+  padding: 0 2em;
+  background-color: #fff;
+  display: flex;
+  position: fixed;
+  top: 0;
+  justify-content: space-between;
+  width: 100%;
+  box-sizing: border-box;
+}
+
+nav ul {
+  justify-content: space-around;
+  list-style: none;
+  display: flex;
+  flex-direction: row;
+}
+
+nav ul li {
+  padding: 0 5px;
+  color: #1a1a1a;
+}
+h1 {
+  font-size: 4em;
+}
+
+.meio {
+  width: 100%;
+  box-sizing: border-box;
+  display: flex;
+  justify-content: space-evenly;
+}
+
+.section {
+  display: flex;
+  color: #1a1a1a;
+  align-items: center;
+  flex-direction: column;
+}
+
+.meio img {
+  width: 100px;
+}
+
+.meio article {
+  text-align: center;
+  width: 33%;
+}
+
+.meio h3 {
+  color: #00b172;
+}
+
+h2 {
+  font-size: 2em;
+  border-bottom: 2px solid;
+}
+
+#kanye {
+  position: relative;
+  background-color: #00b172;
+  display: flex;
+  padding: 100px;
+  justify-content: space-between;
+}
+
+.logo-white {
+  width: 100px;
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  margin-top: -50px;
+  margin-left: -50px;
+}
+
+.west {
+  width: 450px;
+}
+
+.app {
+  width: 300px;
+  padding: 3em;
+}
