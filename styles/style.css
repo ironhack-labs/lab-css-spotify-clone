@@ -6,3 +6,123 @@ Green: #00B172
 White: #FFF
 
 */
+body {
+  margin: 0;
+  padding: 0;
+  font-family: Helvetica;
+  color: #fff;
+}
+
+header {
+  text-align: center;
+  background-image: url("../images/landing.jpg");
+  background-repeat: no-repeat;
+  background-size: cover;
+  height: 1000px;
+  display: flex;
+  justify-content: center;
+  flex-direction: column;
+}
+
+header p {
+  font-size: 2em;
+  font-weight: lighter;
+}
+
+.logo {
+  height: 30px;
+  width: 89;
+  align-self: center;
+}
+
+nav {
+  display: flex;
+  justify-content: space-between;
+  position: fixed;
+  width: 100%;
+  background-color: #fff;
+  top: 0;
+  padding: 0 2em;
+  box-sizing: border-box;
+}
+
+nav ul {
+  display: flex;
+  flex-direction: row;
+  list-style: none;
+  justify-content: space-around;
+}
+
+nav ul li {
+  padding: 0 5px;
+  color: #1a1a1a;
+}
+
+h1 {
+  font-size: 48px;
+  /*color: #fff;*/
+}
+
+.section2 {
+  /*essa é classe meio da equipe*/
+  /*color: #1a1a1a;*/
+  display: flex;
+  justify-content: space-evenly;
+  width: 100%;
+  box-sizing: border-box;
+}
+
+.section2 img {
+  width: 100px;
+}
+
+.section2 article {
+  width: 100px;
+  text-align: center;
+}
+
+.section2 h3 {
+  color: #00b172;
+}
+
+.meio {
+  color: #1a1a1a;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+h2 {
+  font-size: 2em;
+  border-bottom: 2px solid;
+}
+
+#kanye {
+  background-color: #00b172;
+  display: flex;
+  padding: 100px;
+  justify-content: space-between;
+  position: relative;
+}
+
+#kanye img {
+  width: 300px;
+  padding: 3em;
+}
+
+.logo-white {
+  width: 100px;
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  margin-top: -50px;
+  margin-left: -50px;
+}
+
+.west {
+  width: 500px;
+}
+.app {
+  width: 300px;
+  padding: 3em;
+}
