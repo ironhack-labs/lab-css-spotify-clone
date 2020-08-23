@@ -9,41 +9,25 @@ White: #FFF
 
 body {
   font-family: "Roboto", sans-serif;
+  margin: 0;
 }
 
 html {
   font-size: 1.5rem;
 }
 
-.background p {
-  font-size: 30px;
-  margin-top: -25px;
-}
-
 header {
   display: flex;
   justify-content: space-between;
+  align-items: center;
+  position: fixed;
+  background-color: white;
+  width: 100%;
+  padding: 1rem 0.25rem 0;
+  box-sizing: border-box;
 }
 
-header img {
-  height: 50px;
-}
-
-.navbar {
-  width: 25vw;
-  display: flex;
-  flex-direction: row;
-  justify-content: space-evenly;
-  list-style-type: none;
-}
-
-.navbar li a {
-  text-decoration: none;
-  padding: 0 5px;
-  color: black;
-}
-
-.background {
+.boxOne {
   display: flex;
   flex-direction: column;
   background-image: url("../images/landing.jpg");
@@ -60,22 +44,49 @@ header img {
   padding-bottom: 50px;
   height: 100vh;
   justify-content: center;
+  font-size: 1.4rem;
+  margin-top: -25px;
 }
 
-.diferenciaisTitulo {
+header img {
+  height: 50px;
+}
+
+.navbar {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-evenly;
+  list-style-type: none;
+}
+
+.navbar li a {
+  text-decoration: none;
+  padding: 0 5px;
+  color: black;
+}
+
+.boxes {
+  display: flex;
+  flex-direction: column;
+  width: 100%;
+  justify-content: center;
+}
+
+.boxTwoTitle {
   text-align: center;
   border-bottom: 5px solid #00b172;
-  margin: 50px 600px;
+  margin: 50px auto;
+  display: inline-block;
 }
 
-.diferenciais {
+.boxTwo {
   display: flex;
   justify-content: space-around;
   text-align: center;
   padding: 50px 50px;
 }
 
-.diferenciais h3 {
+.boxTwo h3 {
   color: #00b172;
 }
 
@@ -83,44 +94,45 @@ header img {
   flex-basis: 20%;
 }
 
-.diferenciais div img {
+.boxTwo div img {
   height: 100px;
 }
 
-.diferenciais2 {
+.boxThree {
   display: flex;
   justify-content: space-between;
   background-color: #00b172;
   height: 100vh;
   color: #fff;
   align-items: center;
-  margin: 0 4vh;
-  padding: 0 16vh;
+  padding: 10vh 16vh;
 }
 
-.diferenciais2 h2 {
+.boxThree h2 {
   margin: 0 0 60px;
   font-size: 1.6rem;
 }
 
-.diferenciais2 h3 {
+.boxThree h3 {
   font-size: 1.3rem;
 }
 
-.diferenciais2 p {
+.boxThree p {
   margin: 0 0 60px;
 }
 
-.diferenciais2 img {
-  height: 650px;
+.imageApp {
+  width: 300px;
+  padding: 3em;
 }
 
 .item2 {
   width: 50vh;
 }
 
-.logo {
-  background-image: url("../images/spotify-icon-white.png");
-  width: 50px;
-  height: 50px;
+.whiteLogo {
+  width: 100px;
+  position: relative;
+  margin-top: auto;
+  margin-bottom: auto;
 }
