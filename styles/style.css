@@ -6,3 +6,176 @@ Green: #00B172
 White: #FFF
 
 */
+
+* {
+    box-sizing: border-box;
+}
+
+body {
+    margin: 0;
+}
+
+ul {
+    display: flex;
+    justify-content: space-between;
+    width: 33%;
+    list-style: none;
+    color:rgba(0, 0, 0, 0.4);
+    font-size: 20px;
+}
+
+a {
+    text-decoration: none;
+    color: black;
+}
+
+nav {
+    display: flex;
+    justify-content: space-between;
+    padding: 20px 30px;
+    z-index: 1;
+    position: fixed;
+    background: white;
+}
+
+nav img {
+    width: 15%;
+    height: 15%;
+}
+
+header {
+    display: flex;
+    flex-direction: column;
+    height: 100vh;
+}
+
+header div {
+    background-image: url(../images/landing.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: 0.0;
+    height: 700px;
+    margin-top: 70px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    color: white;
+}
+
+header div h1 {
+    font-size: 90px;
+    margin-bottom: 0;
+}
+
+header div p {
+    color: rgba(255, 255, 255, 0.7);
+    font-size: 35px;
+    text-align: center;
+    width: 50%;
+}
+
+#whatson {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    margin: 40px 0px;
+}
+h2 {
+    color: black;
+    border-bottom: 3px solid #00B172;
+    text-align: center;
+    width: max-content;
+    font-weight: bolder;
+    font-size: 50px;
+    padding-bottom: 3px;
+}
+
+#whatson > div {
+    display: flex;
+    margin-top: 20px;
+}
+
+#whatson .container {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    text-align: center;
+    width: 33%;
+}
+
+#whatson img {
+    width: 30%;
+}
+
+h3 {
+    color: #00B172 ;
+    font-weight: bold;
+    font-size: 30px;
+    margin-bottom: 0px;
+}
+
+#whatson p {
+    font-size: 25px;
+    width: 50%;
+    color: rgba(0, 0, 0, 0.4);
+}
+
+#yeezy {
+    position: relative;
+    margin: 20px;
+    background-color: #00B172;
+    display: flex;
+    height: 90vh;
+    padding: 70px;
+    justify-content: space-between;
+    align-content: center;
+}
+
+#yeezy div {
+    width: 50%;
+}
+
+#yeezy img {
+    height: 100%;
+    margin-top: 20px;
+}
+
+h4 {
+    color: white;
+    font-size: 45px;
+    margin: 0px;
+    border-bottom: 4px solid white;
+    width: max-content;
+    padding-bottom: 7px;
+}
+
+h5 {
+    color: white;
+    font-size: 30px;
+    margin: 30px 0;
+}
+
+#yeezy p {
+    color: rgba(255, 255, 255, 0.7);
+    width: 85%;
+    margin: 0;
+    font-size: 20px;
+}
+
+#yeezy img {
+    object-position: right ;
+}
+
+#yeezy > img {
+    position: absolute;
+    top: 40%;
+    left: 50%;
+    height: 20%;
+}
+ #yeezy .right {
+     display: flex;
+     justify-content: flex-end;
+     align-items: center ;
+ }
