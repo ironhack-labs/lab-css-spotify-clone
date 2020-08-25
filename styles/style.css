@@ -1,8 +1,117 @@
-/*
-Colors:
+* {
+    box-sizing: border-box;
+}
 
-Text: 1A1A1A
-Green: #00B172
-White: #FFF
+body {
+    min-height: 100vh;
+    font-family: Montserrat;
+    margin: 0;
+}
 
-*/
+h1 {
+    font-weight: bold;
+    font-size: 3.5em;
+    margin-top: 0;
+}
+
+h2 {
+    margin-bottom: 40px;
+}
+
+h3 {
+    color: #1DB954;
+    font-weight: bold;
+}
+
+span {
+    font-size: 1.3em;
+    line-height: 1.5em;
+    font-weight: lighter;
+}
+
+.horizontal-flex-container {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.fixed-navbar {
+    position: fixed;
+    top: 0;
+    left: 0;
+    right: 0;
+    background-color: white;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    z-index: 10;
+}
+
+.header-img {
+    background-image: url("../images/landing.jpg");
+    background-size: 100% auto;
+    background-repeat: no-repeat;
+    height: 600px;
+    text-align: center;
+    color: white;
+    position: relative;
+    top: 65px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+}
+
+
+.navbar-logo img {
+    width: 15%;
+    margin-left: 10px;
+    padding: 10px 0px 10px 0px;
+}
+
+.navbar ul {
+    list-style: none;
+    display: flex;
+    justify-content: space-evenly;
+    align-items: center;
+}
+
+.navbar li {
+    margin-right: 20px;
+}
+
+#about {
+    margin-right: 20px;
+    margin-left: 20px;
+    position: relative;
+    top: 80px;
+}
+
+#about h2 {
+    text-align: center;
+}
+
+#about article {
+    text-align: center;
+    width: 33%;
+}
+
+#about img {
+    max-width: 25%;
+}
+
+.flex-row-item {
+    width: 33%;
+}
+
+#features {
+    position: relative;
+    top: 80px;
+    background-color: #1DB954;
+    margin-right: 10px;
+    margin-left: 10px;
+}
+
+#about .horizontal-flex-container {
+    align-items: baseline;
+}
