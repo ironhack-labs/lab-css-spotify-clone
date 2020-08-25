@@ -7,11 +7,282 @@ White: #FFF
 
 */
 
+/*IMPORT FONTS */
+@import url('https://fonts.googleapis.com/css2?family=Source+Sans+Pro:wght@300;400;600&display=swap');
+
 * {
     box-sizing: border-box;
     margin: 0;
     padding: 0;
 }
-body {
-    background: orangered;
+html {
+    font-size: 62.5%;
 }
+body {
+    font-family: 'Source Sans Pro', sans-serif;
+    color: #1A1A1A;
+    position:relative;
+}
+
+a,
+a:visited,
+a:link {
+    text-decoration: none;
+    color: #1A1A1A;
+}
+
+h1 {
+    font-size: 4.8rem;
+}
+
+h2 {
+    font-size: 3.2rem;
+}
+
+h3 {
+    font-size: 2.4rem;
+}
+
+p {
+    font-size: 1.6rem;
+}
+
+ul,ol {
+    list-style: none;
+}
+
+.flex-center {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.section-title {
+    border-bottom: .2rem solid;
+    display: inline-block;
+}
+
+/*MAIN NAVBAR*/
+#navbar {
+    height:6rem;
+    position: fixed;
+    top: 0;
+    left: 0;
+    width: 100%;
+    padding:1rem 2rem;
+
+    background-color:white;
+    z-index: 100;
+}
+
+#navbar #logo {
+    height: 4rem;
+    width: auto;
+    display: block;
+}
+
+#navbar #logo img {
+    height: 100%;
+}
+
+.navigation {
+    display: flex;
+    flex-direction: row;
+}
+
+.navigation .list-item {
+    padding: 0 2rem;
+}
+
+.navigation .links {
+    font-size: 2rem;
+    font-weight: 300;
+}
+
+.navigation .list-item:last-child {
+    padding: 0;
+}
+
+/*************/
+
+/**** HEADER ***/
+.header {
+    margin-top: 5rem;
+    min-height: 70rem;
+    position: relative;
+
+    background-image: url(../images/landing.jpg);
+    background-position: center center;
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+    background-size: cover;
+}
+
+.header-content {
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    color: white;
+    z-index: 5;
+    width: 45%;
+    text-align: center;
+    transform: translate(-50%, -50%);
+}
+
+.header-content h1 {
+    margin-bottom: 1.5rem;
+}
+
+.header-content p {
+    font-size:2em;
+}
+/***********/
+
+
+/******** MAIN CONTENT *****/
+#main_content {
+    padding: 0 2rem;
+}
+/**************************/
+
+/*********** GENERIC SECTION *********/
+section {
+    padding: 4rem 6rem; 
+}
+section:nth-of-type(even) {
+    background-color: #00B172;
+}
+section:nth-of-type(even) .section-title {
+    text-align: left;
+}
+
+section:nth-of-type(even) span {
+    display: inline-block;
+    color: white;
+    border-bottom: .2rem solid white;
+}
+
+.section-title {
+    display: block;
+    width: auto;
+    text-align: center;
+    border:0;
+}
+
+.section-title span {
+    display: inline-block;
+    border-bottom: .2rem solid #00B172;
+}
+/***************************/
+
+/************ SECTION WHAT **********/
+#what {
+    padding-top: 2rem;
+}
+#what .box {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    text-align: center;
+    margin: 8rem 0 2rem 0;
+}
+
+
+#what .box article{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    width: 24%;
+
+}
+
+#what .box article:first-child {
+    width: 23%;
+}
+
+#what .box article:last-child {
+    width: 27%;
+}
+
+
+#what .box img {
+    width: auto;
+    
+    height: 7rem;
+    margin-bottom: 1rem;
+}
+
+#what .box h1 {
+    font-size: 2.4rem;
+    font-weight:900;
+    color: #00B172;
+}
+
+#what .box p {
+    font-size: 2rem;
+    padding: 1rem 0;
+    font-weight: 300;
+}
+/************************/
+
+/*******SECTION PROMO APP ******/
+
+#app-promo  {
+    color: white;
+    position: relative;
+}
+
+#app-promo .box{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+}
+
+#app-promo .box * {
+    width:50%
+}
+
+#app-promo .box img {
+    width: 21rem;
+    height: auto;
+    position: absolute;
+    bottom: 4rem;
+    right: 6rem;
+}
+
+#app-promo .box aside {
+    margin-top: 4rem;
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-end;
+}
+
+#app-promo .box article {
+    width: 100%; 
+    margin-bottom: 2rem; 
+}
+#app-promo .box article:last-child {
+    margin-bottom: 0;
+}    
+
+#app-promo .box article h1 {
+    font-size: 2rem;
+    margin-bottom: 1rem;
+}
+
+#app-promo .box article p {
+    font-weight: 300;
+    width: 100%;
+    padding-right: 50%;
+}
+
+.icon-spotify {
+    width: 10rem;
+    height: auto;
+    position: absolute;
+    top: 50%;
+    left: 50%;
+
+    transform: translate(-50%, -50%);
+}
+/************************/

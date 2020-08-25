@@ -11,44 +11,44 @@
 </head>
 
 <body>
-  <nav>
+  <nav id="navbar" class="navbar flex-center">
     <a hraf="#" id="logo">
       <img src="images/spotify-logo.png" alt="logo spotify" />
     </a>
 
-    <ul id="main_navigation">
+    <ul id="main_navigation" class="navigation">
       <li class="list-item">
-        <a href="#" class="links">item 1</a>
+        <a href="#" class="links">Premium</a>
       </li>
       <li class="list-item">
-        <a href="#" class="links">item 2</a>
+        <a href="#" class="links">Discover</a>
       </li>
       <li class="list-item">
-        <a href="#" class="links">item 3</a>
+        <a href="#" class="links">Help</a>
       </li>
       <li class="list-item">
-        <a href="#" class="links">item 4</a>
+        <a href="#" class="links">Download</a>
       </li>
     </ul>
   </nav>
   <header class="header">
-    <div class="header">
+    <div class="header-content">
       <h1>Music for everyone.</h1>
       <p>
         Spotify is now free on mobile, tablet and computer.
         Listen to the right music, wherever you are.
       </p>
     </div>
-
-    <img src="images/landing.jpg" alt="landing iamge" width="100%" />
   </header>
 
-  <main>
+  <main id="main_content">
     <section id="what" class="section>">
-      <h2 class="section-title">What’s on Spotify?</h2>
+      <h2 class="section-title">
+        <span>What’s on Spotify?</span>
+      </h2>
       <div class="box">
         <article class="section__article">
-          <img src="" alt="">
+          <img src="images/music-icon.png" alt="" >
           <h1>Millions of Songs</h1>
           <p>
             There are millions of
@@ -56,7 +56,7 @@
           </p>
         </article>
         <article class="section__article">
-          <img src="" alt="">
+          <img src="images/high-quality-icon.png" alt="">
           <h1>HD Music</h1>
           <p>
             Listen to music as if you
@@ -64,7 +64,7 @@
           </p>
         </article>
         <article class="section__article">
-          <img src="" alt="">
+          <img src="images/devices-icon.png" alt="">
           <h1>Stream Everywhere</h1>
           <p>
             Stream music on your
@@ -77,27 +77,42 @@
 
     <section id="app-promo" class="section">
       <h2 class="section-title">
-        It’s as yeezy as Kanye West. 
+        <span>It’s as yeezy as Kanye West.</span> 
       </h2>
 
       <div class="box">
         <aside>
           <article>
-            <h1 class="article-title"></h1>
-            <p class="article-text"></p>
+            <h1 class="article-title">
+              Search 
+            </h1>
+            <p class="article-text">
+              Know what you want to listen to?
+Just search and hit play.
+            </p>
           </article>
           <article>
-            <h1 class="article-title"></h1>
-            <p class="article-text"></p>
+            <h1 class="article-title">
+              Browse
+            </h1>
+            <p class="article-text">
+              Check out the latest charts, brand new releases and great playlists for right now
+            </p>
           </article>
           <article>
-            <h1 class="article-title"></h1>
-            <p class="article-text"></p>
+            <h1 class="article-title">
+              Discover
+            </h1>
+            <p class="article-text">
+              Enjoy new music every Monday
+with your own personal playlist.
+Or sit back and enjoy Radio
+            </p>
           </article>
         </aside>
-        <img src="images/spotify-icon-white.png" alt="icon application spotify" class="icon-app" />
         <img src="images/spotify-app.jpg" alt="" class="visu-app" />
       </div>
+      <img class="icon-spotify" src="images/spotify-icon-white.png" alt="icon application spotify" class="icon-app" />
     </section>
 
   </main>
