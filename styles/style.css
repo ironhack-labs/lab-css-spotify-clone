@@ -1,8 +1,87 @@
-/*
-Colors:
+* {
+  box-sizing: border-box;
+  margin: 0;
+  padding: 0;
+}
 
-Text: 1A1A1A
-Green: #00B172
-White: #FFF
+ul {
+  padding-left: 20px;
+}
 
-*/
+a {
+  text-decoration: none;
+  color: inherit;
+}
+
+img {
+  display: block;
+  border: 0;
+  width: 100%;
+  height: auto;
+}
+
+.logo {
+  max-width: 200px;
+}
+
+.grid {
+  display: grid;
+  grid-template-columns: 1fr repeat(3, minmax(auto, 25em)) 1fr;
+  grid-template-rows: 35% 30% 35%;
+  justify-items: center;
+  align-items: center;
+  min-height: 180vh;
+}
+
+.largeImg-content,
+.whatsOn-content,
+.white-logo {
+  grid-column: 2/5;
+}
+
+.largeImg img {
+  grid-column: 1/6;
+}
+
+.greenSec-content {
+  grid-column: 1/3;
+}
+
+.white-logo {
+  max-width: 120px;
+  grid-column: 3/3;
+}
+
+.spotify-app {
+  grid-column: 4/6;
+  max-width: 300px;
+}
+
+.largeImg {
+  background:url("/images/landing.jpg")top center no-repeat;
+  background-size: contain;
+}
+
+.landing-img {
+}
+
+body {
+}
+
+header {
+}
+
+main {
+}
+
+.largeImg {
+  color: white;
+}
+
+.whatsOn {
+}
+
+.greenSec {
+  background: #1db954;
+  color: white;
+}
