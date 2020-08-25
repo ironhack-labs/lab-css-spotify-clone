@@ -1,8 +1,169 @@
-/*
-Colors:
+* {
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+}
 
-Text: 1A1A1A
-Green: #00B172
-White: #FFF
+#spotifyLogo {
+    height: auto; 
+    width: auto; 
+    max-width: 200px; 
+    max-height: 200px;
+    margin: 20px 0px 20px 30px;
+}
 
-*/
+header {
+  position:fixed;
+    z-index: 200;
+    background-color: white;
+    width: 100%;
+}
+
+header > div {
+    padding: 0 25px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+  }
+  
+  nav {
+    width: 600px;
+  }
+  
+  nav ul {
+    list-style: none;
+    display: flex;
+    justify-content: space-between;
+  }
+  
+  nav a {
+    text-decoration: none;
+    color: black;
+    font-size: 25px;
+  }
+
+  
+  .welcomeTxt{
+    background-image: url("../images/landing.jpg");
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    height: 1000px;
+    
+  }
+
+  .welcomeContainer div {
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+    justify-content: center;
+  }
+
+.welcomeContainer h1 {
+      color: white;
+      font-size: 142px;
+      margin: 30px;
+}
+
+.welcomeContainer h2 {
+    color: white;
+    font-size: 42px;
+}
+
+#onSpotify {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    margin: 40px 0px;
+    height: 700px;
+}
+
+#onSpotify h1 {
+    color: black;
+    border-bottom: 6px solid #00B172;
+    text-align: center;
+    width: max-content;
+    font-weight: bolder;
+    font-size: 50px;
+    padding-bottom: 13px;
+}
+
+#onSpotify > div {
+    display: flex;
+    margin-top: 20px;
+}
+
+#onSpotify .div-sectionSong {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    text-align: center;
+    width: 33%;
+}
+
+#onSpotify img {
+    width: 30%;
+}
+
+.div-sectionSong h3 {
+    color: lightgreen ;
+    font-weight: bold;
+    font-size: 42px;
+    margin-bottom: 0px;
+    padding: 15px;
+}
+
+.div-sectionSong h4 {
+    font-size: 25px;
+    width: 50%;
+    padding: 15px;
+}
+
+#sectionFeatures {
+    background: #00B172;
+    display: flex;
+    justify-content: space-between;
+    position: relative;
+    align-content: center;
+    margin: 20px;
+}
+
+#sectionFeatures div {
+    margin: 7%;
+    width: 50%;
+}
+
+#screenshot {
+    width: 250px;
+    margin-top: 50%;
+}
+
+#spotifyIcon {
+    width: 175px;
+    height: 175px;
+    position: absolute;
+    top: 700px;
+    left: 1000px;
+}
+
+#sectionFeatures p {
+    color: white;
+} 
+
+
+h5 {
+    color: white;
+    text-decoration: underline;
+    font-size: 37px;
+}
+
+h6 {
+    color: white;
+    font-size: 21px;
+    margin-top: 15px;
+}
+
+p {
+    margin-top: 20px;
+}
