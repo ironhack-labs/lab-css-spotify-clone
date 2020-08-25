@@ -1,8 +1,173 @@
-/*
-Colors:
+* {
+    box-sizing: border-box;
+    margin:0;
+    padding:0;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+}
 
-Text: 1A1A1A
-Green: #00B172
-White: #FFF
+a {
+    text-decoration: none;
+}
 
-*/
+ul {
+    list-style-type: none;
+}
+
+body {
+    display: flex;
+    flex-direction: column;
+}
+
+h1 {
+    font-size: 4.8em;
+    margin: 330px 0 28px 0;
+}
+
+#navbar {
+    background-color: white;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    height: 70px;
+    font-size: 18px;
+    position: fixed;
+}
+
+#navbar>img {
+    margin: 0 0 0 30px;
+}
+
+#list-navbar {
+    display: flex;
+    width: 420px;
+    justify-content: space-between;
+    align-items: center;
+    margin: 0 30px 0 0;
+}
+
+#music {
+    background-image: url("../images/landing.jpg");
+    background-repeat:no-repeat;
+    background-size:cover;
+    color:white;
+    width:auto;
+    height: 900px;
+    background-size: 100%;
+    display: flex;
+    flex-direction: column;
+    /*justify-content: center;*/
+    align-items: center;
+}
+
+#music p {
+    font-size: 1.9em;
+    text-align: center;
+    line-height: 1.3em;
+}
+
+#whatson {
+    background-color: white;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    height: auto;
+    align-items: center;
+    margin: 0 0 30px 0;
+}
+
+#h2greenborder {
+    border-bottom: 3px solid #1ab26b;
+    width: auto;
+    padding: 0 0 7px 0;
+    margin: 70px 0;
+}
+
+#boxsongs-container {
+    display: flex;
+    width: 1300px;
+    justify-content: center;
+}
+
+.boxsongs {
+    width: 280px;
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+    height: 240px;
+    text-align:center;
+    margin: 25px;
+}
+
+.boxsongs img {
+    margin: 0 0 17px 0;
+}
+
+.boxsongs p {
+    margin: 20px 0 0 0;
+    font-size: 1.2em;
+    line-height: 1.2em;
+}
+
+#h2greenborder h2 {
+    font-size: 28px;
+}
+
+.boxsongs h3 {
+    font-size: 1.5em;
+    color: #1ab26b;
+}
+
+#kanye {
+    background-color: #1ab26b;
+    color: white;
+    height: 700px;
+    display: flex;
+}
+
+#kanye1 {
+    width: 50%;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+
+}
+
+#kanye2 {
+    width: 50%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+#kanye-text {
+
+    height: 600px;
+}
+
+#h2kanye {
+    border-bottom: 3px solid white;
+    width: auto;
+    padding: 0 0 7px 0;
+    margin: 0 0 40px 0;
+}
+
+#h2kanye h2 {
+    font-size: 35px;
+}
+
+#kanye-text h3 {
+    font-size: 25px;
+    margin: 0 0 30px 0;
+}
+
+#kanye-text p {
+    margin: 0 0 40px 0;
+    font-size: 18px;
+    line-height: 25px;
+}
+
+#kanye1>img {
+    position: absolute;
+    left: 46%;
+}
