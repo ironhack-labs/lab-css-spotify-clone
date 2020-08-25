@@ -10,10 +10,12 @@ White: #FFF
     box-sizing: border-box;
     margin: 0;
     padding: 0;
+    font-family: Helvetica, sans-serif;
 }
 
 ul {
     padding-left: 20px;
+    list-style: none;
 }
 
 a {
@@ -21,16 +23,38 @@ a {
     color: inherit;
 }
 
-.main_header {
+.flexcontainer {
+    display: flex;
+}
 
+.main_header {
+    justify-content: space-between;
+    align-items: center;
+    width: 100%;
+    font-weight: 100;
+    padding: 10px 15px;
+    position: fixed;
+    z-index: 10;
+    background-color: #ffffff;
+}
+
+.main_header .logo {
+    height: 7vh;
+}
+
+.navebar {
+    justify-content: space-evenly;
+    width: 60vh;
+    font-size: 1.5em;
 }
 
 .introContent {
-
+    top: 100px;
+    position: relative;
 }
 
 .descriptionContent {
-
+    position: relative;
 }
 
 .featuresList {
