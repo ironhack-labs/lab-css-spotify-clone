@@ -1,0 +1,119 @@
+* {
+  box-sizing: border-box;
+  margin: 0;
+  padding: 0;
+}
+body {
+    font-family: Arial, Helvetica, sans-serif;
+    height: 250vh;
+}
+nav {
+  padding: 5px 0px;
+  background-color: white;
+  position: fixed;
+  width: 100%;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+#navbar {
+  width: 30%;
+  font-size: 20px;
+  color: rgb(77, 71, 71);
+}
+a:link {
+    text-decoration: none;
+    color: rgb(94, 91, 91);
+}
+ul {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  list-style: none;
+}
+#navbar > ul > li {
+    text-decoration: none;
+}
+
+.landing {
+    height: 130vh;
+    background-image: url('./images/landing.jpg');
+    background-repeat: no-repeat;
+    background-size: cover;
+    color: rgb(238, 244, 247);
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+.landing > h1 {
+    margin: 50px;
+}
+.landing > h1 {
+    font-size: 100px;
+}
+.landing > p {
+    font-size: 25px;
+    text-align: center;
+}
+section {
+    height: 60vh;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: space-around;
+    margin: 20px;
+    /* padding: 50px 10px; */
+}
+section > #what h2 {
+    font-size: 35px;
+    border-bottom: 2px solid rgb(56, 206, 148);
+}
+.imgsize {
+    width: 110px;
+}
+#logo {
+    height: 30vh;
+    width: 150vh;
+    margin: 50px;
+    display: flex;
+    justify-content: space-around;
+}
+#logo > div {
+    /* margin: 50px 70px; */
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: space-between;
+}
+#log > div img, #logo > div h2 {
+    margin: 15px 0px 0px 0px;
+}
+#logo > div h2 {
+    color: rgb(55, 202, 146);
+}
+.plogo {
+    color: grey;
+}
+
+footer {
+    height: 80vh;
+    background-color: rgb(55, 202, 146);
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+}
+footer > #txt {
+    color: white;
+    height: 68vh;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+}
+#txt > h1 {
+    margin: 10px 0px 40px 0px;
+    border-bottom: 2px solid white;
+}
+.ptxt {
+    color: rgb(227, 229, 230);
+}
