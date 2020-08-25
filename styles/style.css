@@ -55,6 +55,7 @@ align-content: stretch;
 .spotlogo {
     width: 145px;
     height: 47px;
+    padding-left: 5px;
 }
 
 nav ul a, nav ul li {
@@ -62,6 +63,7 @@ nav ul a, nav ul li {
     list-style: none;
     text-decoration: none;
     color: #1A1A1A;
+    padding-right: 15px;
     
 }
 
@@ -88,5 +90,57 @@ nav {
 }
 
 article {
-    width: 350px;
+    width: 600px;
+    font-size: 20px;
 }
+
+h1 {
+    font-size: 70px ;
+}
+
+#title {
+	display: flex;
+	flex-direction: row;
+	flex-wrap: nowrap;
+	justify-content: center;
+	align-items: center;
+    align-content: center;
+    text-decoration-line: underline;
+}
+
+#Description {
+    height: 400px;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+    align-items: center;
+    align-content: center;
+}
+
+.small-container {
+    text-align: center;
+        display: flex;
+        flex-direction: column;
+        flex-wrap: nowrap;
+        justify-content: space-around;
+        align-items: center;
+        align-content: center;
+}
+
+.small-container h4 {
+    width: 300px;
+    margin-top: 30px;
+    font-size: 17px;
+    font-weight: lighter;
+}
+
+.small-container h3 {
+    margin-top: 15px;
+    font-size: 25px;
+    color: #00B172;
+}
+
+.small-container img {
+    max-width: 150px;
+}
+
