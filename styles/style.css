@@ -25,6 +25,7 @@ header {
     font-size : 1em;
     padding : 15px;
     width : 100vw;
+    z-index : 1;
 
 }
 
@@ -76,7 +77,100 @@ ul a {
 
 /*mid-part*/
 
+
+span {
+   border-bottom : solid #00B172 3px;
+   padding : 5px 0;
+}
+
 #mid-part h2 {
-    border-bottom : #00B172 solid 2px;
-    margin : auto;
+    display : flex;
+    justify-content: center;
+    margin-top : 30px;
+    font-size : 1.8em;
+}
+
+.logo {
+    width : 110px;
+    height : auto;
+}
+
+.boxes h3 {
+    color : #00B172;
+    font-size : 1.4em;
+    margin : 10px 0 20px 0;
+}
+
+.boxes p {
+    font-size : 1.2em;
+}
+
+.boxes {
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    text-align : center;
+    margin-top : 100px;
+
+}
+
+.boxes article {
+    width : 22%;
+}
+
+/* bottom part */
+
+#bottom-part {
+    background-color : #00B172;
+    color : #FFF;
+    margin : 100px 40px 40px 40px;
+    padding : 60px;
+    display : flex;
+    position : relative;
+
+}
+
+#bottom-part span {
+    border-bottom : #FFF solid 3px;
+    padding : 10px 0;
+    font-size : 1.4em;
+}
+
+.whitelogo {
+    width : 110px;
+    height : auto;
+    position : absolute;
+    margin-top : 20%;
+    margin-left : 40%;
+}
+
+.kanye {
+    width : 290px;
+    height : auto;
+    margin-top : 50px;
+}
+
+.bottom {
+    display : flex;
+    flex-direction: column;
+}
+
+.parts {
+    display : flex; 
+    flex-direction: column;
+    margin-top : 50px;
+}
+
+.parts article {
+    width : 45%;
+    margin : 20px 0;
+}
+
+.parts h4 {
+    font-size : 1.4em;
+    margin-bottom : 30px;
+}
+
+.parts p {
+    font-size : 1.1em;
 }
