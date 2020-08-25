@@ -15,7 +15,10 @@ h1 {
 }
 
 h2 {
+    font-size: 1.8em;
     margin-bottom: 40px;
+    text-decoration: underline;
+    text-decoration-color: #1DB954;
 }
 
 h3 {
@@ -96,22 +99,60 @@ span {
     width: 33%;
 }
 
+#about p {
+    width: 
+}
+
 #about img {
     max-width: 25%;
 }
 
 .flex-row-item {
     width: 33%;
+    text-align: center;
 }
 
 #features {
     position: relative;
-    top: 80px;
+    top: 100px;
     background-color: #1DB954;
-    margin-right: 10px;
-    margin-left: 10px;
+    margin: 20px;
+    color: white;
+    padding: 50px;
+}
+
+.features-div {
+    display: flex;
+    justify-content: space-between;
 }
 
 #about .horizontal-flex-container {
     align-items: baseline;
 }
+
+.vertical-flex-container {
+    display: flex;
+    flex-direction: column;
+    justify-content: space-evenly;
+    width: 35%;
+}
+
+#features h2 {
+    text-decoration-color: underline;
+    text-decoration-color: white;
+}
+
+#features h3 {
+    color: white;
+}
+
+#img-item-logo img {
+    width: 60px;
+}
+
+#img-item-app img {
+    width: 250px;
+    margin-right: 10px;
+}
+
+
