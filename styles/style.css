@@ -6,3 +6,77 @@ Green: #00B172
 White: #FFF
 
 */
+
+* {
+    box-sizing: border-box;
+    margin : 0;
+    padding : 0;
+    font-family : Verdana, Geneva, Tahoma, sans-serif;
+}
+
+/* Header */
+
+header {
+    background-color : white;
+    position : fixed;
+    display : flex;
+    justify-content: space-between;
+    align-items: center;
+    font-size : 1em;
+    padding : 15px;
+    width : 100vw;
+
+}
+
+header img {
+    max-width: 220px;
+    height : auto;
+}
+
+
+nav ul {
+   list-style-type: none;
+   display : flex;
+
+}
+
+ul a {
+    text-decoration : none;
+    color : #1A1A1A;
+    margin-right : 20px;
+}
+
+/* Top-part image */
+
+#background {
+    background-image : url("../images/landing.jpg");
+    background-repeat : no-repeat;
+    background-size: cover;
+    height : 1000px;
+    display : flex;
+    justify-content: center;
+    align-items: center;
+}
+
+#title {
+    color : #FFF;
+    display: flex;
+    flex-direction: column;
+}
+
+#title h1 {
+    font-size : 4.4em;
+    margin-bottom: 40px;
+}
+
+#title p {
+    font-size : 1.6em;
+    text-align: center;
+}
+
+/*mid-part*/
+
+#mid-part h2 {
+    border-bottom : #00B172 solid 2px;
+    margin : auto;
+}
