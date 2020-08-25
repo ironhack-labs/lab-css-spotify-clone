@@ -14,7 +14,6 @@ White: #FFF
 }
 
 ul {
-    padding-left: 20px;
     list-style: none;
 }
 
@@ -40,25 +39,31 @@ body {
     position: fixed;
     z-index: 10;
     background-color: #ffffff;
+    flex-wrap: wrap;
 }
 
-.logo {
+.main_header .logo {
     height: 5vw;
 }
 
 .navebar {
     justify-content: space-between;
-    width: 35vw;
-    font-size: 1.5em;
+    font-size: 1.5rem;
+    min-width: 50vw;
+    flex-wrap: wrap;
+}
+
+.main {
+    flex-direction: column;
+    justify-content: center;    
+    top: 66px;
+    position: relative;
 }
 
 .introContent {
-    top: 70px;
-    position: relative;
     justify-content: center;
     align-items: center;
     flex-direction: column;
-    width: 100vw;
     height: 800px;
     background-image: url('../images/landing.jpg');
     background-position: 0 0;
@@ -69,29 +74,101 @@ body {
 }
 
 .introContent .slogan {
-    font-size: 5em;
+    font-size: 5rem;
     font-weight: 400;
     margin-bottom: 30px;
 }
 
 .introContent .introParaphe {
     font-weight: 100;
-    font-size: 1.6em;
-    width: 45vw;
+    font-size: 1.6rem;
+    max-width: 70vw;
 }
 
 .descriptionContent {
     position: relative;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    padding: 70px;
+}
+
+.descriptionContent h2 {
+    font-size: 2.5rem;
+    font-weight: 600;
+    margin-bottom: 50px;
+    padding-bottom: 5px;
+    border-bottom: 4px solid #00B172;
 }
 
 .featuresList {
+    flex-wrap: wrap;
+    padding: 50px 0;
+}
 
+.feature .logo {
+    width: 10vw;
+    margin-bottom: 20px;
 }
 
 .feature {
+    max-width: 300px;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+}
 
+.feature .featureTitle {
+    color: #00B172;
+    font-size: 1.5rem;
+    margin-bottom: 20px;
+}
+
+.feature .featureDescription {
+    font-weight: 100;
+    font-size: 1.2rem;
+    margin-bottom: 20px;
 }
 
 .kaneyPromo {
+    background-color: #00B172;
+    background-image: url(../images/spotify-icon-white.png);
+    background-size: 12%;
+    background-position: center;
+    background-repeat: no-repeat;
+    padding: 100px 50px;
+    color: white;
+    justify-content: space-between;
+    align-items: stretch;
+}
 
+.kaneyPromo .screenshot {
+    max-width: 350px;
+}
+
+.kaneyPromo .kanyeText {
+    max-width: 450px;
+    flex-direction: column;
+}
+
+.kanyeText .textElTitle {
+    font-size: 2.2rem;
+    font-weight: 400;
+    margin-bottom: 50px;
+    padding-bottom: 5px;
+    border-bottom: 4px solid #ffffff;
+
+}
+
+.kanyeText .textElKeyword {
+    font-size: 1.8rem;
+    font-weight: 500;
+    margin-bottom: 40px;
+}
+
+.kanyeText .textElCatch {
+    font-size: 1.4rem;
+    font-weight: 100;
+    margin-bottom: 50px;
 }
