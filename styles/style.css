@@ -23,34 +23,61 @@ a {
     color: inherit;
 }
 
+body {
+    width: 100vw;
+}
+
 .flexcontainer {
     display: flex;
 }
 
 .main_header {
     justify-content: space-between;
+    width: 100vw;
     align-items: center;
-    width: 100%;
     font-weight: 100;
-    padding: 10px 15px;
+    padding: 10px 30px;
     position: fixed;
     z-index: 10;
     background-color: #ffffff;
 }
 
-.main_header .logo {
-    height: 7vh;
+.logo {
+    height: 5vw;
 }
 
 .navebar {
-    justify-content: space-evenly;
-    width: 60vh;
+    justify-content: space-between;
+    width: 35vw;
     font-size: 1.5em;
 }
 
 .introContent {
-    top: 100px;
+    top: 70px;
     position: relative;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    width: 100vw;
+    height: 800px;
+    background-image: url('../images/landing.jpg');
+    background-position: 0 0;
+    background-repeat: no-repeat;
+    background-size: cover;
+    color: #ffffff;
+    text-align: center;
+}
+
+.introContent .slogan {
+    font-size: 5em;
+    font-weight: 400;
+    margin-bottom: 30px;
+}
+
+.introContent .introParaphe {
+    font-weight: 100;
+    font-size: 1.6em;
+    width: 45vw;
 }
 
 .descriptionContent {
