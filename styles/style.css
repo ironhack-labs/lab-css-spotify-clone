@@ -6,3 +6,170 @@ Green: #00B172
 White: #FFF
 
 */
+
+* {
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+}
+
+body {
+    font-family: "Circular", sans-serif;
+}
+
+/*Section 1*/
+
+#header-main {
+    display: flex;
+    justify-content: space-between;
+    padding-top: 20px;
+    padding-bottom: 20px;   
+}
+
+#logo {
+    width: 240px;
+    padding-left: 25px;
+}
+
+.nav-bar {
+    display: flex;
+    align-items: center;
+    width: 40%;
+}
+
+nav ul {
+  list-style: none;
+  display: flex;
+  justify-content: space-evenly;
+  width: 100%;
+}
+
+#header a {
+    font-size: 1.5rem;
+    font-weight: 100;
+    text-decoration: none;
+    color: #1A1A1A;
+}
+
+#landing {
+    background: url("/images/landing.jpg") bottom center/cover no-repeat;
+    min-height: 1200px;
+    position: relative;
+    z-index: -1;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+#landing h1 {
+    color: #FFF;
+    font-size: 6rem;
+    position: absolute;
+    top: 350px;
+    letter-spacing: 0.2rem;
+    font-weight: lighter;
+}
+
+.lead {
+    color: #FFF;
+    font-size: 1.5rem;
+    width: 50%;
+    text-align: center;
+    position: absolute;
+    top: 500px;
+    font-weight: lighter;
+    letter-spacing: 0.2rem;
+}
+
+
+/*Section 2*/
+
+#main-content {
+    display: flex;
+    flex-direction: column;
+    padding-top: 50px;
+    padding-bottom: 50px;
+    align-items: center;
+}
+
+#main-content > h2 {
+    text-align: center;
+    font-size: 2rem;
+    border-bottom: 5px solid #00B172;
+    padding: 3px;
+    margin-bottom: 30px;
+}
+
+.about {
+    display: flex;
+    justify-content: space-around;
+    width: 100%;
+}
+
+.feature {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    width: 25%;
+}
+
+.feature > h3 {
+    font-size: 1.75rem;
+    color: #00B172;
+    padding: 20px;
+}
+
+.feature > p {
+    font-size: 1.5rem;
+    text-align: center;
+    font-weight: 100;
+}
+
+.icon {
+    height: 100px;
+}
+
+
+/*Section 3*/
+
+#kanye {
+    background-color:#00B172;
+    color: #FFF;
+    padding-left: 100px;
+    padding-right: 100px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    height: 750px;
+}
+
+.discover {
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    height: 600px;
+    width: 40%;
+}
+
+.discover > h2 {
+    font-size: 2.25rem;
+    padding-bottom: 3px;
+    border-bottom: 5px solid #FFF;
+}
+
+.discover > h3 {
+    font-size: 2rem;
+}
+
+.discover > p {
+    font-size: 1.5rem;
+}
+
+#spotify-app {
+    height: 600px;
+    padding-top: 50px; 
+}
+
+#spotify-icon {
+    width: 140px;
+}
