@@ -23,7 +23,10 @@ body {
     display: flex;
     justify-content: space-between;
     padding-top: 20px;
-    padding-bottom: 20px;   
+    padding-bottom: 20px;
+    position: fixed; 
+    background-color: #FFF;
+    width: 100%;
 }
 
 #logo {
@@ -110,7 +113,8 @@ nav ul {
     display: flex;
     flex-direction: column;
     align-items: center;
-    width: 25%;
+    text-align: center;
+    width: 33%;
 }
 
 .feature > h3 {
@@ -141,6 +145,7 @@ nav ul {
     justify-content: space-between;
     align-items: center;
     height: 750px;
+    position: relative;
 }
 
 .discover {
@@ -172,4 +177,7 @@ nav ul {
 
 #spotify-icon {
     width: 140px;
+    position: absolute;
+    top: 320px;
+    left: 800px;
 }
