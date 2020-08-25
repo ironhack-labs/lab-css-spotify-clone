@@ -1,8 +1,161 @@
-/*
-Colors:
+body {
+	--spotify-green : #00B172;
+	--txt-color: 
+	#1A1A1A; 
+	margin: 0;
+}
 
-Text: 1A1A1A
-Green: #00B172
-White: #FFF
+body * {
+	box-sizing: border-box;
+	font-family: 'Montserrat', sans-serif;
+	color: var(--txt-color)
+}
 
-*/
+/* HEADER */
+
+.generalPadding {
+	padding: 0 30px;	
+}
+
+nav {
+	height: 80px;
+	display: flex;
+	align-items: center;
+	justify-content: space-between;
+	position: fixed;
+	top:0;
+	left:0;
+	right:0;
+	background-color: white;
+	z-index: 5000;
+}
+
+nav img {
+	width: 130px;
+}
+
+.flexContainer {
+	display: flex;
+	flex-direction: row;
+	align-items: center;
+	justify-content: space-between;
+}
+
+#navbarList {
+	list-style: none;
+	padding: 0px;
+	width: 350px;
+}
+
+ #navbarList li {
+	 display: block;
+ }
+
+ #hero {
+	display: flex;
+	flex-direction: column;
+	justify-content: center;
+	background-color: var(--spotify-green);
+	background-image: url('../images/landing.jpg');
+	background-repeat: no-repeat;
+	background-position: center;
+	background-size: cover;
+	height: calc(100vh - 80px);
+	margin-top: 80px;
+}
+
+#hero h1, #hero p {
+	text-align: center;
+	color: white;
+}
+
+#hero p {
+	font-size: 1.3rem;
+}
+
+#hero h1 {
+	font-size: 3.8rem;
+	margin-bottom: 0;
+}
+
+/* MAIN FIRST SECTION */
+
+#valueProposition {
+	margin-bottom: 50px;
+}
+
+#valueProposition h2 {
+	text-align: center;
+	margin-bottom: 50px;
+}
+
+.underlined {
+	padding:3px;
+	border-bottom: 3px solid var(--spotify-green);
+}
+
+#propositionsContainer {
+	display: flex;
+	flex-direction: row;
+	justify-content: space-evenly;
+}
+
+.propositionBox {
+	display: flex;
+	flex-direction: column;
+	align-items: center;
+	width: 200px;
+}
+
+.propositionBox p {
+	text-align:center;
+}
+
+.propositionBox img {
+	height: 50px;
+	display: block;
+}
+
+#greenSection {
+	margin-bottom: 30px;
+}
+
+#greenSectionInner {
+	background-color: var(--spotify-green);
+	background-image: url('../images/spotify-icon-white.png');
+	background-repeat: no-repeat;
+	background-position: center;
+	background-size: 100px;
+	padding: 50px;
+}
+
+#greenSectionInner * {
+	color: white;
+}
+
+#greenVerbsSection {
+	width: 270px;
+}
+
+#white-underline {
+	border-bottom: 3px solid white;
+}
+
+#greenWrap {
+	display: flex;
+	justify-content: space-between;
+}
+
+.greenVerbs {
+	margin-bottom : 5px;
+}
+
+.greenVerbs p {
+	line-height: 25px;
+}
+
+#greenSectionInner img {
+	width:300px;
+	transform: translateY(-20px);
+}
+
