@@ -8,175 +8,155 @@ White: #FFF
 */
 
 * {
-    margin: 0px;
-    box-sizing: border-box;
-    padding: 0px;
-    font-family: Verdana;
+  margin: 0px;
+  box-sizing: border-box;
+  padding: 0px;
+  font-family: Verdana;
 }
 
 #landingPage {
- height: 1000px;
- background-image: url("../images/landing.jpg");
- background-repeat: no-repeat;
- /* background-position: center; */
- background-size: contain;
+  height: 1000px;
+  background-image: url("../images/landing.jpg");
+  background-repeat: no-repeat;
+  /* background-position: center; */
+  background-size: contain;
 }
 
 header {
-padding: 0 15px 0 15px;
-position: fixed;
-height: 100px;
-width: 100vw;
-background-color: white;
-	display: flex;
-	flex-direction: row;
-	flex-wrap: nowrap;
-	justify-content: space-between;
-	align-items: center;
-	align-content: stretch;
-
+  padding: 0 15px 0 15px;
+  position: fixed;
+  height: 100px;
+  width: 100vw;
+  background-color: white;
+  display: flex;
+  flex-direction: row;
+  flex-wrap: nowrap;
+  justify-content: space-between;
+  align-items: center;
+  align-content: stretch;
 }
 
-
 nav {
-    width: 400px;
-	
+  width: 400px;
 }
 
 nav ul {
-display: flex;
-flex-direction: row;
-flex-wrap: nowrap;
-justify-content: space-around;
-align-items: center;
-align-content: stretch;
+  display: flex;
+  flex-direction: row;
+  flex-wrap: nowrap;
+  justify-content: space-around;
+  align-items: center;
+  align-content: stretch;
 }
 
 .spotlogo {
-    width: 145px;
-    height: 47px;
-    padding-left: 5px;
+  width: 145px;
+  height: 47px;
+  padding-left: 5px;
 }
 
-nav ul a, nav ul li {
-    list-style-type: none;
-    list-style: none;
-    text-decoration: none;
-    color: #1A1A1A;
-    padding-right: 15px;
-    
+nav ul a,
+nav ul li {
+  list-style-type: none;
+  list-style: none;
+  text-decoration: none;
+  color: #1a1a1a;
+  padding-right: 15px;
 }
 
 nav {
-    width: 400px ;
+  width: 400px;
 }
 
 .textOver {
-    
-    color: white;
-    text-align: center;
-    display: flex;
-	flex-direction: column;
-	flex-wrap: nowrap;
-	justify-content: center;
-	align-items: center;
-    align-content: center;
-    height: 1000px;
-} 
+  color: #fff;
+  text-align: center;
+  display: flex;
+  flex-direction: column;
+  flex-wrap: nowrap;
+  justify-content: center;
+  align-items: center;
+  align-content: center;
+  height: 1000px;
+}
 
 .textOver * {
-
-    padding-bottom:40px;
+  padding-bottom: 40px;
 }
 
 article {
-    width: 600px;
-    font-size: 20px;
+  width: 600px;
+  font-size: 20px;
+  color: #fff;
 }
 
 h1 {
-    font-size: 70px ;
+  font-size: 70px;
 }
 
 #title {
-	display: flex;
-	flex-direction: row;
-	flex-wrap: nowrap;
-	justify-content: center;
-	align-items: center;
-    align-content: center;
-    text-decoration-line: underline;
+  display: flex;
+  flex-direction: row;
+  flex-wrap: nowrap;
+  justify-content: center;
+  align-items: center;
+  align-content: center;
+  text-decoration-line: underline;
 }
 
 #Description {
-    height: 400px;
-    display: flex;
-    flex-direction: row;
-    justify-content: space-around;
-    align-items: center;
-    align-content: center;
+  height: 400px;
+  display: flex;
+  flex-direction: row;
+  justify-content: space-around;
+  align-items: center;
+  align-content: center;
 }
 
 .small-container {
-    text-align: center;
-        display: flex;
-        flex-direction: column;
-        flex-wrap: nowrap;
-        justify-content: space-around;
-        align-items: center;
-        align-content: center;
+  text-align: center;
+  display: flex;
+  flex-direction: column;
+  flex-wrap: nowrap;
+  justify-content: space-around;
+  align-items: center;
+  align-content: center;
 }
 
 .small-container h4 {
-    width: 300px;
-    margin-top: 30px;
-    font-size: 17px;
-    font-weight: lighter;
+  width: 300px;
+  margin-top: 30px;
+  font-size: 17px;
+  font-weight: lighter;
 }
 
 .small-container h3 {
-    margin-top: 15px;
-    font-size: 25px;
-    color: #00B172;
+  margin-top: 15px;
+  font-size: 25px;
+  color: #00b172;
 }
 
 .small-container img {
-    max-width: 150px;
+  max-width: 150px;
 }
 
 #kanyeWest {
-
-    background-color: #00B172 ;
-    height: 800px;
+  background-color: #00b172;
+  height: 800px;
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
 }
 
 #kanyeWest .logoCenter {
-    height: 100px;
-    display: flex;
-    flex-direction: row;
-    flex-wrap: nowrap;
-    justify-content: center;
-    align-items: center;
+  height: 100px;
 }
 
 .kanyePic {
-    max-height: 480px;
+  max-height: 480px;
 }
 
-div .kanyePic {
-    display: flex;
-	flex-direction: column;
-	flex-wrap: nowrap;
-	justify-content: center;
-	align-items: flex-end;
-    align-content: stretch;
-}
-
-.howTo {
-	display: flex;
-	flex-direction: column;
-	flex-wrap: nowrap;
-	justify-content: space-around;
-	align-items: flex-start;
-	align-content: stretch;
+.blocks {
+  height: 90vh;
+  color: white;
 }
