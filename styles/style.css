@@ -30,7 +30,7 @@ body {
     display: flex;
 }
 
-.main_header {
+#main-header {
     justify-content: space-between;
     width: 100vw;
     align-items: center;
@@ -42,7 +42,7 @@ body {
     flex-wrap: wrap;
 }
 
-.main_header .logo {
+#main-header .logo {
     height: 5vw;
 }
 
@@ -53,14 +53,14 @@ body {
     flex-wrap: wrap;
 }
 
-.main {
+#main {
     flex-direction: column;
     justify-content: center;    
     top: 66px;
     position: relative;
 }
 
-.introContent {
+.intro-content {
     justify-content: center;
     align-items: center;
     flex-direction: column;
@@ -73,19 +73,19 @@ body {
     text-align: center;
 }
 
-.introContent .slogan {
+.intro-content .slogan {
     font-size: 5rem;
     font-weight: 400;
     margin-bottom: 30px;
 }
 
-.introContent .introParaphe {
+.intro-content .intro-paraphe {
     font-weight: 100;
     font-size: 1.6rem;
-    max-width: 70vw;
+    max-width: 60vw;
 }
 
-.descriptionContent {
+#description-content {
     position: relative;
     flex-direction: column;
     justify-content: center;
@@ -93,7 +93,7 @@ body {
     padding: 70px;
 }
 
-.descriptionContent h2 {
+#description-content h2 {
     font-size: 2.5rem;
     font-weight: 600;
     margin-bottom: 50px;
@@ -101,7 +101,7 @@ body {
     border-bottom: 4px solid #00B172;
 }
 
-.featuresList {
+#features-list {
     flex-wrap: wrap;
     padding: 50px 0;
 }
@@ -119,19 +119,19 @@ body {
     text-align: center;
 }
 
-.feature .featureTitle {
+.feature .feature-title {
     color: #00B172;
     font-size: 1.5rem;
     margin-bottom: 20px;
 }
 
-.feature .featureDescription {
+.feature .feature-description {
     font-weight: 100;
     font-size: 1.2rem;
     margin-bottom: 20px;
 }
 
-.kaneyPromo {
+#kaney-promo {
     background-color: #00B172;
     background-image: url(../images/spotify-icon-white.png);
     background-size: 12%;
@@ -143,31 +143,30 @@ body {
     align-items: stretch;
 }
 
-.kaneyPromo .screenshot {
+#kaney-promo .screenshot {
     max-width: 350px;
 }
 
-.kaneyPromo .kanyeText {
+#kaney-promo .kanye-text {
     max-width: 450px;
     flex-direction: column;
 }
 
-.kanyeText .textElTitle {
+.kanye-text .text-title {
     font-size: 2.2rem;
     font-weight: 400;
     margin-bottom: 50px;
     padding-bottom: 5px;
     border-bottom: 4px solid #ffffff;
-
 }
 
-.kanyeText .textElKeyword {
+.kanye-text .text-keyword {
     font-size: 1.8rem;
     font-weight: 500;
     margin-bottom: 40px;
 }
 
-.kanyeText .textElCatch {
+.kanye-text .text-catchphrase {
     font-size: 1.4rem;
     font-weight: 100;
     margin-bottom: 50px;
