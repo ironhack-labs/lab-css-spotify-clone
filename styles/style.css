@@ -39,43 +39,49 @@ header > div {
   nav a {
     text-decoration: none;
     color: black;
-    font-size: 25px;
+    font-size: 20px;
+    padding-right:30px;
   }
 
   
-  .welcomeTxt{
+  .welcome-txt{
     background-image: url("../images/landing.jpg");
     background-position: center;
     background-repeat: no-repeat;
     background-size: cover;
     height: 1000px;
-    
+    display: flex;
+    justify-content: center;
+    align-items: center;
   }
 
-  .welcomeContainer div {
+  .welcome-container div {
     display: flex;
     align-items: center;
     flex-direction: column;
     justify-content: center;
   }
 
-.welcomeContainer h1 {
+.welcome-container h1 {
       color: white;
-      font-size: 142px;
-      margin: 30px;
+      font-size: 100px;
+      margin: 10px;
+      display: flex;
+      align-items: center;
+      justify-content: center;
 }
 
-.welcomeContainer h2 {
+.welcome-container h2 {
     color: white;
-    font-size: 42px;
+    font-size: 32px;
 }
 
 #onSpotify {
     display: flex;
     flex-direction: column;
     align-items: center;
-    margin: 40px 0px;
-    height: 700px;
+    margin-top: 30px;
+    height: 600px;
 }
 
 #onSpotify h1 {
@@ -107,7 +113,7 @@ header > div {
 }
 
 .div-sectionSong h3 {
-    color: lightgreen ;
+    color: #00B172;
     font-weight: bold;
     font-size: 42px;
     margin-bottom: 0px;
@@ -121,17 +127,38 @@ header > div {
 }
 
 #sectionFeatures {
+    margin-left: 40px;
     background: #00B172;
     display: flex;
     justify-content: space-between;
-    position: relative;
     align-content: center;
-    margin: 20px;
+    width: 95%;
+    background-image: url("../images/spotify-icon-white.png");
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: 10%;
+    padding: 120px;
+
 }
 
-#sectionFeatures div {
-    margin: 7%;
-    width: 50%;
+.aside {
+    display: flex;
+    justify-content: start;
+    flex-direction: column;
+    padding: 0px;
+    margin: 0px
+}
+
+.set-yeezi {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 500px;
+    margin: 0px;
+}
+
+#artist {
+    height: 130%;
 }
 
 #screenshot {
@@ -152,18 +179,22 @@ header > div {
 } 
 
 
-h5 {
+.title-yeezi {
     color: white;
     text-decoration: underline;
-    font-size: 37px;
+    font-size: 42px;
+    width: 500px;
 }
 
-h6 {
+.sub-title{
     color: white;
-    font-size: 21px;
+    font-size: 31px;
     margin-top: 15px;
+    font-weight: bold;
+    margin-top: 40px;
 }
 
-p {
+ p {
+	font-size: 25px;
     margin-top: 20px;
 }
