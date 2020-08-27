@@ -1,8 +1,136 @@
-/*
-Colors:
+* {
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+    font-family: 'Montserrat', sans-serif;
+}
 
-Text: 1A1A1A
-Green: #00B172
-White: #FFF
+nav {
+    position: fixed;
+    display: flex;
+    width: 100vw;
+    align-items: center;
+    justify-content: space-between;
+    color: #1A1A1A;
+    padding: 20px;
+    background-color: white;
+}
 
-*/
+img {
+    width: 180px;
+}
+
+.liste {
+    display: flex;
+    width: 30%;
+    justify-content: space-around;
+    list-style-type: none;
+}
+
+#concert {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    background-image: url("../images/landing.jpg");
+    background-size: cover;
+    background-repeat: no-repeat;
+    height: 650px;
+    color: white;
+}
+
+h1 {
+    font-size: 60px;
+    margin-bottom: 30px;
+    padding-top: 100px;
+    text-align: center;
+    font-weight: bold;
+}
+
+p {
+    font-size: 20px;
+    text-align: center;
+    font-weight: lighter;
+    width: 50%;
+}
+
+h2 {
+    text-align: center;
+    padding-top: 30px;
+    font-weight: bold;
+    font-size: 30px;
+    text-decoration: underline #00B172;
+    text-underline-position: under;
+}
+
+#element {
+    display: flex;
+    padding: 60px 0;
+}
+
+.a {
+    display: flex;
+    flex-direction: column;
+    text-align: center;
+    align-items: center;
+    width: 33%;
+}
+
+.bloc2 {
+    width: 80px;
+    padding-bottom: 30px;
+}
+
+h3 {
+    font-size: 30px;
+    color: #00B172;
+    font-weight: bold;
+    padding-bottom: 30px;
+}
+
+article {
+    width: 70%;
+    font-weight: 200;
+    font-size: 20px;
+}
+
+#bloc3 article {
+    font-weight: 200;
+}
+
+#bloc3 {
+    display: flex;
+    align-items: center;
+    background-color: #00B172;
+    padding: 60px;
+    color: white;
+}
+
+.fin {
+    display: flex;
+    flex-direction: column;
+    width: 50%;
+}
+
+h4 {
+    font-size: 30px;
+    text-decoration: underline white;
+    text-underline-position: under;
+}
+
+h5 {
+    font-size: 20px;
+    padding-bottom: 30px;
+    padding-top: 40px;
+    font-weight: bold;
+}
+
+#logo {
+    height: 100px;
+    width: 100px;
+    margin-right: 180px;
+}
+
+#icon {
+    width: 200px;
+}
