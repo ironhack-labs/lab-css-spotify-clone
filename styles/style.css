@@ -1,8 +1,86 @@
-/*
+@import url("https://fonts.googleapis.com/css2?family=Roboto:wght@300&display=swap");
+
+/* 
 Colors:
 
 Text: 1A1A1A
 Green: #00B172
 White: #FFF
+ */
 
-*/
+* {
+  box-sizing: border-box;
+  margin: 0;
+  font-family: roboto;
+}
+
+/* IMAGES */
+
+#spotify-logo {
+  height: 40px;
+  width: auto;
+}
+
+.pictogram {
+  height: 50px;
+  width: 50px;
+}
+
+#spotify-logo-white {
+  height: 75px;
+  width: 75px;
+}
+
+#spotify-app-img {
+  height: 350px;
+  width: 195px;
+}
+
+/* FIRST SECTION */
+
+#top-element {
+  display: flex;
+}
+
+#options {
+  display: flex;
+  flex-direction: row;
+  float: right;
+}
+
+.button {
+  padding: 10px;
+  list-style: none;
+}
+
+.header {
+  background: url("/images/landing.jpg");
+  background-size: cover;
+  width: 800px;
+  height: 500px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  color: white;
+}
+
+.header h1 {
+  font-size: 40px;
+  font-weight: 1500;
+}
+
+/* SECOND SECTION */
+
+#essentials {
+  display: flex;
+  text-align: center;
+}
+
+/* THIRD SECTION */
+
+/* FOURTH SECTION */
+
+.spotify-description {
+  background-color: #00b172;
+  color: white;
+}
