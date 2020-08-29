@@ -1,18 +1,10 @@
-@import url("https://fonts.googleapis.com/css2?family=Roboto:wght@300&display=swap");
-@import url("https://fonts.googleapis.com/css2?family=Roboto:wght@500&display=swap");
-/* 
-Colors:
-
-Text: 1A1A1A
-Green: #00B172
-White: #FFF
- */
+@import url('https://fonts.googleapis.com/css2?family=Roboto:wght@100;300;500&display=swap');
 
 * {
   box-sizing: border-box;
   margin: 0;
   font-family: "Roboto", "sans serif";
-  font-weight: lighter;
+  font-weight: 300;
 }
 
 /* IMAGES */
@@ -27,10 +19,6 @@ White: #FFF
   width: 70px;
 }
 
-#spotify-logo-white {
-  height: 75px;
-  width: 75px;
-}
 
 /* FIRST SECTION */
 
@@ -81,13 +69,14 @@ White: #FFF
 }
 
 .header h1 {
-  font-size: 40px;
+  font-size: 55px;
   font-weight: bold;
   padding: 25px;
 }
 
 .header h5 {
-  font-size: 17px;
+  font-size: 20px;
+  font-weight: 100;
 }
 
 /* THIRD SECTION */
@@ -99,13 +88,13 @@ White: #FFF
 
 #what-on-spotify {
   display: inline-block;
-  font-size: 25px;
+  font-size: 40px;
   font-weight: bolder;
   border-bottom: 3px solid #38be87;
   margin: 5vh;
 }
 
-#title-block {
+.title-block {
   display: flex;
   justify-content: center;
 }
@@ -116,6 +105,7 @@ White: #FFF
   flex-direction: column;
   align-items: center;
   padding: 5vw;
+  margin-bottom: 5%;
 }
 
 .spotify-bulletpoints {
@@ -139,12 +129,24 @@ White: #FFF
 
 #spotify-app-img {
   width: 50%;
-  margin: 15% 30%
+  margin: 15% 25%;
+}
+
+.title-block-section4 {
+  display: flex;
+  justify-content: flex-start;
+}
+
+#title-section4 {
+  display: inline-block;
+  font-size: 40px;
+  font-weight: bolder;
+  border-bottom: 3px solid white;
+  width: auto;
+  padding-bottom: 5px;
 }
 
 #content-section4 {
-  /* display: inline-flex; */
-  /* justify-content: space-evenly; */
   display: flex;
   flex: 1;
   width: 100%;
@@ -153,7 +155,6 @@ White: #FFF
 .about-spotify {
   display: flex;
   flex: 1;
-
 }
 
 .text-about-spotify {
@@ -162,17 +163,25 @@ White: #FFF
   margin: 5% 5%;
 }
 
-/* h3#title-section4,
-h4.what-you-can-do,
-p.what-you-can-do-p {
-  margin: 20px 40px;
-} */
+.text-content {
+  flex: 1;
+  margin-bottom: 7%;
+}
 
-/* h3#title-section4 {
-  font-size: 20px;
+.text-container {
+  display: flex;
+  flex-direction: column;
+  height: 100%;
+  padding: 5% 40% 10% 0;
+}
+
+.what-you-can-do {
+  margin: 6% 0;
+  font-size: 1.6em;
   font-weight: bolder;
-} */
+} 
 
-/* .what-you-can-do {
-  font-weight: bold;
-} */
+.what-you-can-do-p {
+  line-height: 1.7em
+}
+
