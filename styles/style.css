@@ -1,5 +1,5 @@
 @import url("https://fonts.googleapis.com/css2?family=Roboto:wght@300&display=swap");
-
+@import url("https://fonts.googleapis.com/css2?family=Roboto:wght@500&display=swap");
 /* 
 Colors:
 
@@ -11,7 +11,8 @@ White: #FFF
 * {
   box-sizing: border-box;
   margin: 0;
-  font-family: roboto;
+  font-family: "Roboto", "sans serif";
+  font-weight: lighter;
 }
 
 /* IMAGES */
@@ -22,8 +23,8 @@ White: #FFF
 }
 
 .pictogram {
-  height: 50px;
-  width: 50px;
+  height: 60px;
+  width: 70px;
 }
 
 #spotify-logo-white {
@@ -31,20 +32,24 @@ White: #FFF
   width: 75px;
 }
 
-#spotify-app-img {
-  height: 350px;
-  width: 195px;
-}
-
 /* FIRST SECTION */
+
+.navigation-bar {
+  position: fixed;
+  top: 0;
+  background-color: white;
+  width: 100%;
+  overflow: auto;
+}
 
 #top-element {
   display: flex;
+  padding: 10px;
 }
 
 #options {
+  margin-right: 20px;
   display: flex;
-  flex-direction: row;
   float: right;
 }
 
@@ -53,34 +58,107 @@ White: #FFF
   list-style: none;
 }
 
+#div-options {
+  width: 100%;
+}
+/* SECOND SECTION */
+
 .header {
-  background: url("/images/landing.jpg");
+  background-image: url("/images/landing.jpg");
   background-size: cover;
-  width: 800px;
-  height: 500px;
+  background-position: center;
+  height: 600px;
   display: flex;
   justify-content: center;
   align-items: center;
   color: white;
 }
 
-.header h1 {
-  font-size: 40px;
-  font-weight: 1500;
+#main-ad {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
 }
 
-/* SECOND SECTION */
+.header h1 {
+  font-size: 40px;
+  font-weight: bold;
+  padding: 25px;
+}
+
+.header h5 {
+  font-size: 17px;
+}
+
+/* THIRD SECTION */
 
 #essentials {
   display: flex;
   text-align: center;
 }
 
-/* THIRD SECTION */
+#what-on-spotify {
+  display: inline-block;
+  font-size: 25px;
+  font-weight: bolder;
+  border-bottom: 3px solid #38be87;
+  margin: 5vh;
+}
 
+#title-block {
+  display: flex;
+  justify-content: center;
+}
+
+.spotify-box {
+  display: flex;
+  flex: 1;
+  flex-direction: column;
+  align-items: center;
+  padding: 5vw;
+}
+
+.spotify-bulletpoints {
+  color: #38be87;
+  font-weight: bolder;
+  padding: 10px;
+}
 /* FOURTH SECTION */
 
 .spotify-description {
   background-color: #00b172;
   color: white;
 }
+
+#logo-in-the-bg {
+  background-image: url("../images/spotify-icon-white.png");
+  background-repeat: no-repeat;
+  background-size: 15vh auto;
+  background-position: center;
+  display: flex;
+}
+
+#spotify-app-img {
+  height: 350px;
+  width: 195px;
+}
+
+.text-about-spotify {
+  /* display: flex; */
+}
+
+/* h3#title-section4,
+h4.what-you-can-do,
+p.what-you-can-do-p {
+  margin: 20px 40px;
+} */
+
+/* h3#title-section4 {
+  font-size: 20px;
+  font-weight: bolder;
+} */
+
+/* .what-you-can-do {
+  font-weight: bold;
+} */
