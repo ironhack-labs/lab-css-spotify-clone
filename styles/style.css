@@ -6,3 +6,181 @@ Green: #00B172
 White: #FFF
 
 */
+html,
+body {
+  margin: 5px;
+  padding: 0;
+}
+
+body {
+  font-family: Helvetica;
+  min-height: 100vh;
+  font-weight: 400;
+  font-size: 16px;
+  line-height: 1.5;
+  color: #1a1a1a;
+}
+
+/*nav bar*/
+
+#main-nav img {
+  width: 16vw;
+}
+
+#main-nav {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  margin: 20px 40px;
+}
+
+#nav-bar {
+  display: flex;
+  flex: 2;
+  justify-content: right;
+  align-items: center;
+}
+
+.item-nav-bar {
+  display: inline-block;
+}
+
+.item-nav-bar a {
+  color: #1a1a1a;
+  text-decoration: none;
+  font-size: 25px;
+  margin: 0 10px;
+}
+/*header css img bg*/
+
+h1 {
+  font-size: 90px;
+  font-weight: lighter;
+}
+
+#header {
+  background-image: url("https://raw.githubusercontent.com/KiwiMantelli/lab-css-spotify-clone/d45293350a2f5a7b631587d3a0e92b773da71aee/images/landing.jpg");
+  background-repeat: no-repeat;
+  background-size: cover;
+  height: 150vh;
+  width: 100vw;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  text-align: center;
+  color: white;
+}
+#header p {
+  font-size: 30px;
+  margin-bottom: 160px;
+}
+
+/*section 1*/
+
+#general-info {
+  margin-bottom: 80px;
+}
+
+#general-info h3 {
+  font-size: 40px;
+  text-align: center;
+  border-bottom: 3px #00b172 solid;
+  margin: 60px 480px 50px 480px;
+}
+
+#whatson {
+  display: flex;
+  justify-content: space-evenly;
+  align-items: center;
+  text-align: center;
+}
+
+.whatson-item img {
+  width: 130px;
+}
+
+.whatson-item h4 {
+  font-size: 25px;
+  color: #00b172;
+}
+
+#whatson p {
+  font-size: 25px;
+}
+
+/* section 2*/
+
+/*title It's yeezy as Kanye West*/
+#kanye h3 {
+  text-align: right;
+  font-size: 40px;
+  border-bottom: white 3px solid;
+  margin: 0 270px 50px 0;
+  
+}
+
+/*big block with green bg*/
+#kanye {
+  background-color: #00b172;
+  color: white;
+  display: flex;
+  flex-direction: row;
+  justify-content: space-around;
+  align-items: center;
+  align-content: center;
+}
+
+/*container p, h3 and h4 with spotify white icon*/
+
+.container {
+  display: flex;
+  flex-direction: column;
+  flex: 2;
+  justify-content: center;
+  align-items: center;
+  align-content: center;
+  width: 30vw;
+  margin: 80px 0 80px 80px;
+}
+
+/*only text, h4 and white-icon*/
+
+.box {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-around;
+}
+
+/* text only p and h4 */
+.text {
+  display: flex;
+  flex-direction: column;
+}
+
+.box p {
+  font-size: 25px;
+  text-align: left;
+  padding-right: 130px;
+}
+
+.box h4 {
+  font-size: 30px;
+  margin: 0;
+}
+
+/* only white icon spotify */
+.white-icon img {
+  width: 10vw;
+  margin: 150px 150px auto 0;
+}
+
+/* only application img */
+.app-img {
+  display: flex;
+  flex: 1;
+  margin: 80px 40px 80px 0;
+}
+
+.app-img img {
+  width: 85%;
+}
