@@ -39,7 +39,6 @@ White: #FFF
   top: 0;
   background-color: white;
   width: 100%;
-  overflow: auto;
 }
 
 #top-element {
@@ -136,16 +135,31 @@ White: #FFF
   background-repeat: no-repeat;
   background-size: 15vh auto;
   background-position: center;
-  display: flex;
 }
 
 #spotify-app-img {
-  height: 350px;
-  width: 195px;
+  width: 50%;
+  margin: 15% 30%
+}
+
+#content-section4 {
+  /* display: inline-flex; */
+  /* justify-content: space-evenly; */
+  display: flex;
+  flex: 1;
+  width: 100%;
+}
+
+.about-spotify {
+  display: flex;
+  flex: 1;
+
 }
 
 .text-about-spotify {
-  /* display: flex; */
+  display: flex;
+  flex-direction: column;
+  margin: 5% 5%;
 }
 
 /* h3#title-section4,
