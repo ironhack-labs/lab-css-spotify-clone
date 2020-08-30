@@ -1,8 +1,141 @@
-/*
-Colors:
+* {
+    box-sizing: border-box;
+    margin: 0px;
+    padding: 0px;
+    
+}
 
-Text: 1A1A1A
-Green: #00B172
-White: #FFF
+body {
+    font-family: "Arial", sans-serif;
+}
 
-*/
+.iteration1 {
+    position: fixed;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: center;
+    background-color: #FFF;
+    width: 100%;
+    height: 80px;
+}
+
+.iteration1 img {
+    height: 40px;
+    width: auto;
+    margin-left: 20px;
+}
+
+.iteration1-links {
+    display: flex;
+    justify-content: space-between;
+    list-style-type: none;
+    width: 30vw;
+    margin-right: 20px;
+}
+
+.iteration2 {
+    background-image: url("/images/landing.jpg");
+    background-size: cover;
+    background-position: center;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    height: 800px;
+}
+
+.iteration2 div {
+    color: #fff;
+  text-align: center;
+}
+
+h1 {
+    font-size: 70px;
+    margin-bottom: 20px;
+}
+
+h2 {
+    font-size: 40px;
+}
+.whats-on {
+    text-align: center;
+    margin-top: 50px;
+}
+
+.whats-on-line {
+    width: 350px;
+    margin-left: auto;
+    margin-right: auto;
+    margin-top: 10px;
+    height: 5px;
+    background-color: #00B172;
+    border-style: none;
+}
+
+article > img {
+    height: 80px;
+}
+
+.spotify-atributes {
+    margin: 80px 50px;
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: space-evenly;
+}
+
+.atributes {
+    text-align: center;
+}
+
+h3 {
+    margin: 10px auto 30px;
+    color: #00B172;
+    font-size: 25px;
+}
+
+.atributes > p {
+    font-size: 20px;
+}
+
+.iteration4 {
+    background-color: #00B172;
+    color: #FFF;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin: auto 40px;
+}
+.logo-white {
+    height: 150px;
+}
+
+.kenye {
+    height: 600px;
+    margin: 80px;
+}
+
+.iteration4 div {
+    margin: 80px;
+}
+
+.iteration4 div > h2 {
+    margin-bottom: 15px;
+}
+
+.iteration4 div > h3 {
+    color: #FFF;
+    margin-top: 60px;
+}
+
+.iteration4 p {
+    font-size: 20px;
+}
+
+.iteration4 div hr {
+        width: 530px;
+        height: 5px;
+        background-color: #FFF;
+        border-style: none;
+
+}
