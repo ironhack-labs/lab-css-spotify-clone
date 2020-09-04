@@ -1,8 +1,134 @@
 /*
 Colors:
 
-Text: 1A1A1A
+Text: #1A1A1A
 Green: #00B172
 White: #FFF
 
 */
+
+html, body {
+    margin: 0;
+    padding: 0;
+    font-family: 'Montserrat', sans-serif;
+    font-size: 10px;
+    color: #1A1A1A;
+}
+
+nav {
+    width: 100%;
+    padding: 25px 0;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;    
+    position: fixed;
+    background-color: white;
+    box-shadow: 0px 0px 5px -3px black;
+}
+
+.spotify-logo {
+    width: 225px;
+}
+
+.nav-box-one {
+    padding-left: 45px;
+}
+
+.nav-box-two {
+    padding-right: 40px;
+}
+
+ul {
+    display: flex;
+    justify-content: space-evenly;
+    align-items: center;
+}
+
+ul > li {
+    list-style: none;
+    padding: 0 14px;
+}
+
+li > a {
+    text-decoration: none;
+    font-size: 2.2em;
+    color: #1A1A1A;
+}
+
+.header {
+    background-image: url(/images/landing.jpg);
+    background-position: 0 0;
+    background-repeat: no-repeat;
+    background-size: cover;
+    height: 900px;
+    padding-top: 200px;
+    
+  }
+
+  h1 {
+      color: white;
+      text-align: center;
+      font-size: 8em;
+      font-weight: bold;
+      padding-top: 130px;
+      margin-bottom: 35px;
+  }
+
+  h1 + p {
+      color: white;
+      text-align: center;
+      font-size: 2.8em;
+      line-height: 1.5em;
+  }
+
+  h2 {
+      font-size: 3.8em;
+      text-align: center;
+      margin-bottom: 0;
+      padding-top: 20px;
+      padding-bottom: 5px;
+      font-weight: bold;
+  }
+
+  hr {
+      width: 35em;
+      border: solid 2.5px #00B172;
+      margin-top: 0;
+  }
+
+  .middle-box {
+    display: flex;
+    justify-content: space-evenly;
+    align-items: center; 
+    padding-top: 70px;
+    margin-bottom: 100px;
+  }
+
+  .small-boxes {
+      width: 350px;
+      height: 350px;
+      padding-top: 30px;
+      display: flex;
+      flex-direction: column;
+      align-items: center;
+  }
+
+
+  .small-icons {
+      height: 105px;
+      display: block;
+  }
+
+  h3 {
+      font-size: 3em;
+      color: #00B172;
+      font-weight: bold;    
+  }
+
+  .small-boxes p {
+      font-size: 2.4em;
+      margin-top: 0;
+      text-align: center;
+      padding-left: 20px;
+      padding-right: 20px;
+  }
