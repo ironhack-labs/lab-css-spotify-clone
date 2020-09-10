@@ -1,8 +1,158 @@
-/*
-Colors:
+body {
+  margin: 50px;
+  font-family: Arial, Helvetica, sans-serif;
+}
 
-Text: 1A1A1A
-Green: #00B172
-White: #FFF
+header > div {
+  padding: 0 25px;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+nav {
+  width: 600px;
+}
 
-*/
+.logo {
+  width: 150px;
+  height: auto;
+  margin-right: 1rem;
+}
+nav ul {
+  list-style: none;
+  text-align: center;
+  display: flex;
+  justify-content: space-evenly;
+  align-items: center;
+}
+
+.introduction {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.mainImage {
+  width: 100%;
+  height: auto;
+  object-fit: cover;
+}
+
+.introText {
+  position: absolute;
+  color: white;
+  text-align: center;
+}
+
+h1 {
+  font-size: 50pt;
+  text-align: center;
+  color: white;
+}
+
+
+ h2 {
+  text-align: center;
+  margin-bottom: 5px;
+  /* text-decoration: underline;
+  text-decoration-color: rgb(26, 176, 126);
+line-height: 50px; */
+}
+
+hr {
+  margin: 10px auto 30px auto;
+  width: 16%;
+  border-top: 3px solid rgb(26, 176, 126);
+}
+
+
+#info {
+  margin-top: 40px;
+  margin-bottom: 10px;
+  margin-right: 70px;
+  margin-left: 70px;
+  display: flex;
+  justify-content: center;
+}
+
+#info > div {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+}
+
+#info > div > article {
+  display: flex;
+  justify-content: center;
+  flex-direction: column;
+  align-items: center;
+}
+
+.container {
+  display: block;
+  margin-right: 20px;
+  margin-left: 20px;
+  padding: 75px 0;
+  text-align: center;
+  box-sizing: border-box;
+  margin: 50px 5% 0 5%;
+  padding: 20px;
+  width: 40%;
+  height: 80%;
+}
+
+#info img {
+  width: 100px;
+  height: auto;
+  display: flex;
+  align-items: center;
+}
+
+#info h3 {
+  color: rgb(26, 176, 126);
+}
+
+.green-background {
+  background-color: rgb(26, 176, 126);
+  color: white;
+  padding: 60px;
+display: flex;
+justify-content: space-evenly;
+}
+
+h2.yeezy {
+  text-align: left;
+}
+
+hr.yeezy {
+  margin: 10px auto 30px 0px;
+  width: 90%;
+  border-top: 3px solid white;
+}
+
+.green-background-text {
+  font-size: 15pt;
+
+}
+
+
+img.yeezy {
+  width: 25%;
+  height: auto;
+  object-fit: contain;
+    
+  
+}
+
+img.spotify-app {
+width: 80%;
+height: auto;
+object-fit: cover;
+
+}
+
+.logoCenter {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
