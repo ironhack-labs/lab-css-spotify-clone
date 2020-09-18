@@ -6,3 +6,132 @@ Green: #00B172
 White: #FFF
 
 */
+
+@import url("https://fonts.googleapis.com/css2?family=Nunito+Sans:wght@200;400&display=swap");
+
+html,
+body {
+  font-family: "Nunito Sans", sans-serif;
+  margin: 0;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  flex-wrap: wrap;
+}
+
+h1 {
+  font-size: 3em;
+  margin: 0;
+}
+
+.nav-bar {
+  height: 60px;
+  width: 100%;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  margin: 10px 1em 4px;
+}
+
+.nav-bar img {
+  height: 50px;
+}
+
+.nav-bar span {
+  padding: 0 1em;
+}
+
+.nav-bar a {
+  color: #1a1a1a;
+  text-decoration: none;
+}
+
+.header {
+  display: flex;
+  height: 600px;
+  width: 100%;
+  background-image: url(/images/landing.jpg);
+  background-size: cover;
+  color: white;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  text-align: center;
+}
+
+.middle {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  margin: 30px 10px;
+  color: #1a1a1a;
+}
+
+.features {
+  display: flex;
+  justify-content: space-between;
+  margin-top: 20px;
+}
+
+.features img {
+  width: 80px;
+  padding-bottom: 10px;
+}
+
+.features div {
+  width: 250px;
+  margin: 0 40px;
+  text-align: center;
+  display: flex;
+  flex-direction: column;
+  justify-content: flex-end;
+}
+
+.middle h2 {
+  border-bottom: 3px solid #00b172;
+}
+
+.features h3 {
+  color: #00b172;
+  margin: 10px;
+}
+
+.bottom {
+  background-color: #00b172;
+  color: white;
+  width: 90%;
+  display: flex;
+  margin: 20px 0;
+  padding: 40px 0;
+  justify-content: space-around;
+  align-items: center;
+}
+
+.text {
+  width: 35%;
+}
+
+#logo-small {
+  position: absolute;
+  position: auto;
+}
+
+#logo-small img {
+  width: 100px;
+}
+
+#app img {
+  width: 200px;
+}
+
+.bottom span {
+  border-bottom: 3px solid white;
+}
+
+.text div {
+  width: 70%;
+}
+
+.text p {
+  font-weight: 200;
+}
