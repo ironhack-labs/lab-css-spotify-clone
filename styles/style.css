@@ -6,3 +6,61 @@ Green: #00B172
 White: #FFF
 
 */
+
+body {
+    color: #1a1a1a;
+    margin: 0 0;
+    padding: 0 0;
+}
+
+
+
+nav {
+    display: flex;
+    justify-content: space-between;
+    position: fixed;
+    width: 100%;
+    background-color: white;
+}
+
+nav img {
+    height: 60px;
+}
+
+nav ul {
+    list-style-type: none;
+    display: flex;
+}
+
+nav a {
+    text-decoration: none;
+    margin: auto 10px;
+}
+
+nav a:visited {
+    color: #1a1a1a;
+}
+
+.landing {
+    padding-top: 60px;
+    background-image: url(../images/landing.jpg);
+    background-size: cover;
+    height: 100vh;
+    color:#FFF;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+.landing h1 {
+    font-size: 4rem;
+    margin-bottom: 0;
+}
+
+.landing p {
+    font-size: 1.5rem;
+    font-weight: lighter;
+}
+
+
