@@ -6,3 +6,168 @@ Green: #00B172
 White: #FFF
 
 */
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@200;400;500;600;800&display=swap');
+
+body {
+    font-family: 'Poppins';
+    margin: 0;
+    color: #1A1A1A;
+}
+
+#header {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 15px 25px;
+    background-color: #fff;
+}
+
+#header img {
+    width: 180px;
+}
+
+#nav ul {
+    display: flex;
+}
+
+#nav ul li {
+    list-style: none;
+    padding-left: 15px;
+}
+
+#nav ul li a {
+    text-decoration: none;
+    color: #1A1A1A;
+}
+
+#banner {
+    height: 600px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    background-image: url('../images/landing.jpg');
+    background-size: cover;
+    background-repeat: no-repeat;
+}
+
+#banner h1 {
+    color: #fff;
+    font-size: 5em;
+    font-weight: 500;
+    margin: 0 0 30px;
+}
+
+#banner article {
+    color: #fff;
+    font-weight: 100;
+    font-size: 2em;
+    display: block;
+    margin: 0 auto;
+    text-align: center;
+    max-width: 850px;
+}
+
+#featuresSection {
+    text-align: center;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+#featuresSection h2 {
+    margin: 50px 0;
+    border-bottom: 3px solid #00B172;
+    font-size: 2em;
+}
+
+#featuresSection .featuresContainer {
+    display: flex;
+    width: 100%;
+    justify-content: space-around;
+}
+
+#featuresSection .featuresContainer div {
+    flex: 1;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    max-width: 300px;
+}
+
+#featuresSection .featuresContainer div img {
+    height: 80px;
+}
+
+#featuresSection .featuresContainer div h3 {
+    color: #00B172;
+    font-size: 1.7em;
+    margin-bottom: 0.4em;
+}
+
+#featuresSection .featuresContainer div p {
+    width: 90%;
+    font-size: 1.3em;
+    font-weight: 400;
+    margin-top: 0.4em;
+}
+
+#kanye {
+    margin: 40px;
+    background-color: #00B172;
+    color: #fff;
+    padding: 60px 70px;
+    display: flex;
+    position: relative;
+}
+
+#kanye > div {
+    flex: 1;
+}
+
+#kanye .kanyeText {
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+}
+
+#kanye .kanyeText h2 {
+    border-bottom: 3px solid #fff;
+    font-size: 2.4em;
+    font-weight: 600;
+    margin-top: 0;
+}
+
+#kanye .kanyeText > div {
+    max-width: 350px;
+}
+
+#kanye .kanyeText > div h3 {
+    font-weight: 600;
+    font-size: 1.8em;
+    margin-bottom: 0;
+}
+
+#kanye .kanyeText > div p {
+    font-size: 1.3em;
+    font-weight: 300;
+}
+
+#kanye .kanyeImg {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+#kanye .kanyeImg img {
+    width: 50%;
+}
+
+#kanye .logoFloat {
+    position: absolute;
+    width: 100px;
+    left: 50%;
+    margin-left: -50px;
+    top: 50%;
+    margin-top: -50px;
+}
