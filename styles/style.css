@@ -6,3 +6,151 @@ Green: #00B172
 White: #FFF
 
 */
+html{
+    position: relative;;
+    width: 100%;
+}
+header{
+    justify-content: space-between;
+    z-index: 9999;
+    display: flex;
+    align-items: center;
+    background-color: #fff;
+    padding: 15px 25px;
+    position: fixed; 
+    width: 100%;
+    box-sizing: border-box;
+}
+header img {
+    width: 180px;
+    float: left;
+    z-index: 9999;
+}
+
+nav a {
+    text-decoration: none;
+    color: #1A1A1A;
+    list-style: none;
+    padding-left: 15px;
+    display: flex;
+    float: right;
+}
+#title {
+    height: 600px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    background-image: url('/Users/acammarata/Desktop/IronHack/Git/Git-IronHack/lab-css-spotify-clone/images/landing.jpg');
+    background-size: cover;
+    background-repeat: no-repeat;
+}
+
+#title h1 {
+    color: #fff;
+    font-size: 5em;
+    font-weight: 500;
+    margin: 0 0 30px;
+}
+
+#title article {
+    color: #fff;
+    font-weight: 100;
+    font-size: 2em;
+    display: block;
+    margin: 0 auto;
+    text-align: center;
+    max-width: 850px;
+}
+#productFeatures {
+    text-align: center;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+#productFeatures h2 {
+    margin: 50px 0;
+    border-bottom: 3px solid #00B172;
+    font-size: 2em;
+}
+#productFeatures .features {
+    display: flex;
+    width: 100%;
+    justify-content: space-around;
+}
+#productFeatures .features div {
+    flex: 1;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    max-width: 300px;
+}
+
+#productFeatures .features img {
+    height: 80px;
+}
+
+#productFeatures .features div h3 {
+    color: #00B172;
+    font-size: 1.6em;
+    margin-bottom: 0.4em;
+}
+
+#productFeatures .features div p {
+    width: 90%;
+    font-size: 1.2em;
+    font-weight: 400;
+    margin-top: 0.4em;
+}
+#yeezy {
+    margin: 40px;
+    background-color: #00B172;
+    color: #fff;
+    padding: 60px 70px;
+    display: flex;
+    position: relative;
+}
+#yeezy > div {
+    flex: 1;
+}
+#yeezy .kanye {
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+}
+#yeezy .kanye h2 {
+    border-bottom: 3px solid #fff;
+    font-size: 2.4em;
+    font-weight: 600;
+    margin-top: 0;
+}
+#yeezy .kanye > div {
+    max-width: 350px;
+}
+#yeezy .kanye > div h3 {
+    font-weight: 600;
+    font-size: 1.8em;
+    margin-bottom: 0;
+}
+#yeezy .kanye > div p {
+    font-size: 1.3em;
+    font-weight: 300;
+}
+#yeezy .kanyeProfile {
+    display: flex;
+    justify-content: flex-end;
+    align-items: center;
+    
+}
+#yeezy .kanyeProfile img {
+    width: fit-content;
+}
+
+#yeezy .whiteLogo {
+    position: absolute;
+    width: 100px;
+    left: 50%;
+    margin-left: -50px;
+    top: 50%;
+    margin-top: -50px;
+} 
