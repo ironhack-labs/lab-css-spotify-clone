@@ -6,3 +6,131 @@ Green: #00B172
 White: #FFF
 
 */
+
+html, body{
+    margin: 0;
+}
+
+header{
+    background-color: white;
+    position: fixed;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: center;
+    height: 11%;
+    z-index: 1;
+}
+
+#logo{
+    width: 15%;
+    margin-left: 5%;
+    margin-bottom: 1%;
+    margin-top: 1%;
+}
+
+header > nav{
+    margin: 0;
+    margin-right: 7%;
+}
+
+header > nav > a{
+    font-size: larger;
+    color: black;
+    padding: 0 15px;
+    text-decoration: none;
+}
+
+#content{
+    position: absolute;
+    top: 12%;
+}
+
+#section1{
+    text-align: center;
+    color: white;
+}
+
+#section1 > img{
+    width: 100%;
+}
+
+#section1 > h1{
+    position: absolute;
+    top: 280px;
+    left: 29%;
+    font-size: 75px;
+}
+
+#section1 > p{
+    position: absolute;
+    top: 430px;
+    left: 26%;
+    font-size: 35px;
+}
+
+#section2{
+    text-align: center;
+    padding: 60px 0;
+}
+
+#section2 > h2{
+    padding-bottom: 10px;
+    border-bottom: 5px solid #00B172;
+    margin: 0 41%;
+    font-size: 30px;
+}
+
+#section2 > div > div > img{
+    height: 140px;
+}
+
+#section2 > div > div > h3{
+    color: #00B172;
+    font-size: 26px;
+}
+
+#section2 > div > div > p{
+    font-size: 20px;
+}
+
+#section2 > div {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+    align-items: center;
+    padding: 50px 0;
+}
+
+#section3{
+    margin-left: 40px;
+    margin-right: 30px;
+    padding: 90px 0;
+    background-color: #00B172;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+    color: white;
+    background-image: url("../images/spotify-icon-white.png");
+    background-repeat: no-repeat;
+    background-size: 100px;
+    background-position: center;
+}
+
+#section3 > img{
+    height: 550px;
+}
+
+#section3 > div > h2{
+    font-size: 40px;
+    padding-bottom: 5px;
+    border-bottom: 5px solid white;
+}
+
+#section3 h3{
+    font-size: 30px;
+}
+
+#section3 p{
+    font-size: 20px;
+}
