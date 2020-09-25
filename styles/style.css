@@ -6,3 +6,207 @@ Green: #00B172
 White: #FFF
 
 */
+
+* {
+  box-sizing: border-box;
+  margin: 0;
+  font-family: 'Geneva', sans-serif;
+}
+
+a {
+  color: #1a1a1a;
+  text-decoration: none;
+}
+
+.marginBottom1{
+    margin-bottom: 22px;
+}
+
+.marginBottom2{
+    margin-bottom: 55px;
+}
+
+.marginBottom3{
+    margin-bottom: 28px;
+}
+
+.wrapper {
+  max-width: 100%;
+  margin: 120px auto;
+  display: flex;
+  flex-flow: row wrap;
+}
+
+.wrapper > * {
+    flex: 1 100%;
+  }
+
+.parent {
+  position: fixed;
+  top: 0;
+  left: 0;
+  margin: auto;
+  width: 100%;
+  background-color: white;
+}
+
+.navbar {
+  display: flex;
+  justify-content: space-between;
+  margin: 20px;
+  background-color: white;
+}
+
+.logo {
+  width: 15%;
+}
+
+.menu {
+  display: flex;
+  align-items: center;
+}
+
+.menu ul {
+  display: flex;
+  justify-content: flex-end;
+  align-items: center;
+  list-style: none;
+}
+
+.menu li {
+  padding: 20px;
+  margin-left: 20px;
+  color: #1a1a1a;
+  font-size: 16px;
+  font-weight: bold;
+}
+
+section {
+  min-height: 88vh;
+  min-width: 100vw;
+}
+
+#jumboPic {
+  background-image: url('../images/landing.jpg');
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+
+#jumboPic h1 {
+  margin-top: 20%;
+  line-height: 100px;
+  font-size: 100px;
+  text-align: center;
+  vertical-align: auto;
+  color: #fff;
+}
+
+.whiteText{
+    color: #FFF;
+}
+
+.greenText{
+    color: #00b172;
+}
+
+.text{
+    color: #1A1A1A;
+}
+
+ p {
+  margin-top: 20px;
+  font-size: 25px;
+  text-align: center;
+  vertical-align: auto;
+  text-justify: auto;
+  color: #fff;
+}
+
+hr{
+    height: 5px;
+    background-color: #00b172;
+    color: #00b172;
+    border: none;
+}
+
+.row{
+    display: flex;
+    justify-content: space-evenly;
+}
+
+#info .row{
+    margin-top: 60px;
+}
+
+.card {
+    justify-self: right;
+    text-align: center;
+    margin: 30px;
+}
+
+.content{
+    justify-content: flex-start;
+}
+
+
+.card .content h2{
+    font-size: 35px;
+}
+
+.card h3 {
+  font-weight: 900;
+  font-size: 30px;
+  color: #00b172;
+}
+
+.card img{
+    width: 45%;
+}
+
+.backgound-green{
+    background-color:#00B172 ;
+    background-image: url('../images/spotify-icon-white.png');
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: 10%;
+} 
+
+.border-margin{
+    margin-left: 50px;
+    margin-right: 50px;
+}
+
+.backgound-green .row .card .content p,
+.backgound-green .row .card .content h2
+{
+    text-align: left;
+}
+
+.backgound-green .row .card .content p
+{
+    font-size: 20px;
+}
+
+.backgound-green .row .card .content
+{
+    max-width: 50%;
+    margin-bottom: 30px;
+}
+
+.backgound-green .row .card .content img
+{
+    width: 250% !important;
+}
+
+
+.backgound-green .row .card .content hr{
+    height: 5px;
+    background-color: #fff;
+    color: #fff;
+    border: none;
+}
+
+#spotifyApp{
+    margin-top: 60px;
+    margin-right: 90px;
+}
