@@ -1,8 +1,134 @@
-/*
-Colors:
+@import url(https://fonts.googleapis.com/css2?family=Epilogue&display=swap);
 
-Text: 1A1A1A
-Green: #00B172
-White: #FFF
+body{
+    font-family: Epilogue, Helvetica, sans-serif;
+    font-weight: 100;
+    margin: 0;
+}
 
-*/
+h1, h3, h4{
+    font-weight: 600;
+}
+
+h1{
+    font-size: 3.5em;
+}
+
+h1, h2{
+    color: white;
+}
+
+h3{
+    font-size: 2em;
+    text-decoration: underline solid white;
+    text-decoration-thickness: 50px; 
+}
+
+h4{
+    font-size: 1.5em;
+}
+
+header{
+    width: full;
+}
+
+.menu{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    flex-direction: row;
+    background-color:white;
+    position: fixed;
+}
+
+.spotify-logo{
+    width: 10%;
+    padding: 10px 40px;
+}
+
+nav{
+    width: 600px;
+    margin: 0;
+    padding:0;
+}
+nav ul{
+    list-style: none;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 0px 40px;
+}
+
+li a{
+    text-decoration: none;
+    color: black;
+}
+
+.cover{
+    background-image: url(../images/landing.jpg);
+    background-position: center;
+    background-size: cover;
+    height: 950px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+}
+.section1 >h3{
+    text-align:center;
+}
+
+.section1 > div{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+    text-align: center;
+}
+
+.box{
+    background-color: teal;
+    padding: 50px;
+    width: 30%;
+    margin:5%;
+}
+.box img{
+    width: 125px;
+}
+
+.box h4{
+    color: #1DB954 ;
+}
+
+.section2{
+    background-color:#1DB954 ;
+    color: white;
+    padding: 50px 100px;
+    display: flex;
+    justify-content: space-between;
+    align-content: center;
+}
+
+..section2 > .features, img{
+    width: 33%;
+}
+
+.section2 >h3{
+    text-align: left;
+    text-decoration-thickness;: # 1DB954;
+}
+
+.spotify-icon{
+    align-self: center;
+    width: 10%;
+}
+
+.spotify-app{
+    width: 20%;
+}
+
+
+
+
+
+
+
