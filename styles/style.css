@@ -6,3 +6,142 @@ Green: #00B172
 White: #FFF
 
 */
+html{
+    font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+}
+.main{
+    display: flex;
+    flex-direction: column;
+    background-image: url('../images/landing.jpg');
+    background-position: center center;
+    background-repeat: no-repeat;
+    /*background-attachment: fixed;*/
+    background-size: cover;
+    height: 1000px;
+
+    
+}
+nav{
+    background-color: #FFF;
+    width: 100%;
+    height: auto;: 80px;
+    height: auto;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    align-content: center;
+    /*padding: 40px, 80px, 40pborder-top: 3px solid #00B172;x, 80px;*/
+}
+.logoContainer{
+    margin: 10px, 0px, 10px, 20px;
+}
+.logo{
+    width: 200px;
+    height: auto;   
+    padding-left: 20px;
+}
+
+.menu{
+    width: 600px;
+
+}
+.menu > ul{
+    display: flex;
+    flex-direction: row;
+    list-style: none;
+    justify-content: space-around;
+    align-content: center;
+}
+.menu > li {
+    color: 1a1a1a;
+    list-style-type: none;
+    font-size: 60px;
+}
+.centerText {
+    position: absolute;
+    top: 25%;
+    left: 25%;
+    display: flex;
+    flex-direction: column;
+    align-content: center;
+    text-align: center;
+}
+h1 {
+    color:white;
+    font-size: 100px;
+}
+.centerText > p {
+    color: #FFF;
+    font-size: 32px;
+}
+.section2 {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-content: center;
+    height: 600px;
+}
+.features {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+    align-content: center;
+    margin-top: 40px;
+    
+}
+.section2 > h2 {
+    color: 1a1a1a;
+    text-align: center;
+    margin: 40px;
+    font-size: 40px;
+}
+.box {
+    align-content: center;
+    text-align: center;
+}
+.section2 > hr {
+    height: 3px;
+    width: 20%;
+    background-color: #00B172;
+}
+.box > img {
+    width: 250px;
+    height: 200px;
+}
+.box > h3 {
+    font-size: 32px;
+    color: #00B172;
+}
+.box > p {
+    font-size: 20px;
+}
+.greenSection {
+    background-color: #00B172;
+}
+.greenSection > img {
+    width: 150px;
+    height: auto;
+    position: absolute;
+    margin-top: 25%;
+    margin-left: 50%;
+}
+.greenSectionText {
+    margin: 40px;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+}
+.greenSubSection {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+    align-content: center;
+}
+.greenSubSection > img {
+    width: 450px;
+    height: auto;
+    margin: 80px;
+}
+.greenSection {
+    color: #FFF
+}
