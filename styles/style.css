@@ -6,3 +6,137 @@ Green: #00B172
 White: #FFF
 
 */
+
+@import url('https://fonts.googleapis.com/css2?family=Raleway');
+
+body {
+    font-family: "Raleway";
+    margin: auto;
+}
+
+.white-text {
+    color: #FFF;
+    border-color: #FFF;
+}
+
+h1 {
+    font-weight: bolder;
+    font-size: 65px;
+    margin-bottom: 1.5rem;
+}
+
+h2 {
+    box-sizing: border-box;
+    border-bottom: 2px solid #00B172;
+    padding: 0.3rem 0;
+    display: inline-block;
+    margin-bottom: 0;
+}
+
+h3 {
+    font-weight: bold;
+}
+
+#top-bar {
+    background-color: #FFF;
+    padding:0.5rem;
+    display: flex;
+    justify-content: space-between;
+    width: 100%;
+    position: fixed;
+    top: 0;
+    z-index: 100;
+}
+
+nav {
+    width: 400px;
+    padding-right: 2%;
+}
+
+nav ul{
+    list-style: none;
+    font-size: 18px;
+    display: flex;
+    justify-content: space-evenly;
+}
+img {
+    height: 55px;
+}
+
+header {
+    background-image: url('../images/landing.jpg');
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+    height: 700px;
+    margin: auto;
+    width: 100%;
+}
+
+#TitleSection {
+    height: 100%;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+#TitleSection > p {
+    width: 600px;
+    text-align: center;
+    font-size: 23PX;
+    margin-top: 0;
+}
+
+#Whats {
+    text-align: center;
+    padding: 1rem 2rem 3rem;
+}
+
+#available {
+    display: flex;
+    justify-content: space-around;
+    margin-top: 3rem;
+}
+
+article {
+    width: 30%;
+    align-items: center;
+}
+
+.article-image {
+    height: 80px;
+}
+
+.article-title {
+    color: #00B172;
+    font-weight: bolder;
+    font-size: 20px;
+    margin-top: 0.5rem;
+}
+
+article > p {
+    padding: 0 3rem;
+}
+
+.green-background{
+    margin:2rem;
+    background-color: #00B172;
+    padding: 2rem 4rem;
+}
+
+#Kanye-section {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin-top: -1rem;
+}
+
+img[alt*="Kan"] {
+    height: 400px;
+    padding-bottom: 2rem;
+}
+
+img[alt="Spotify-white"]{
+    height: 100px;
+}
