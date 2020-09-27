@@ -1,8 +1,184 @@
-/*
-Colors:
+@import url('https://fonts.googleapis.com/css2?family=Montserrat:wght@400;500;600&display=swap');
 
-Text: 1A1A1A
-Green: #00B172
-White: #FFF
+html, body {
+  margin: 0;
+  padding: 0;
+}
 
-*/
+body {
+    font-family: 'Montserrat', sans-serif;
+    color: #1A1A1A;
+}
+
+nav ul {
+    list-style: none;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding-right: 25px;
+}
+  
+nav a {
+    text-decoration: none;
+    padding-right: 25px;
+    color: #1A1A1A; 
+}
+
+nav a:hover {
+    color: #00B172;
+    font-weight: bold;
+}
+
+.navigation img {
+    width: 200px;
+    padding-left: 25px;
+}
+
+#navigation {
+    padding: 10px 10px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    position: fixed;
+    top: 0;
+    width: 100%;
+}
+
+
+header {
+    background-image: url("/Users/daina/Desktop/Ironhack/css-spotify-clone/lab-css-spotify-clone/images/landing.jpg");
+    background-size: cover;
+    background-repeat: no-repeat;
+    height: 900px;
+    position: relative;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-top: 80px;
+}
+
+div.header {
+    color: #FFF;
+    text-align: center;
+    position: relative;
+}
+
+h1 {
+    font-weight: bolder;
+    font-size: 64px;
+    text-align: center;
+}
+
+p.header {
+    font-size: 18px;
+    line-height: 0.5em;
+    text-align: center;
+}
+
+#benefits h3 {
+    text-align: center;
+    font-size: 28px;
+}
+
+#benefits h3:after {
+    content: ""; 
+    display: block; 
+    margin: 0 auto; 
+    width: 17%; 
+    padding-top: 8px; 
+    border-bottom: 4px solid #00B172; 
+}
+
+#benefits p {
+    text-align: center;
+    line-height: 1.5em;
+} 
+
+#benefits h4 {
+    font-size: 20px;
+    color: #00B172;
+    font-weight: bold;
+}
+
+#benefits img {
+    width: 100px;
+}
+
+#benefits .benefits-list {
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+    align-content: center;
+}
+
+.benefit {
+    width: 210px;
+    padding: 0 100px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+#benefits {
+    padding-top: 50px;
+    padding-bottom: 50px;
+}
+
+#green-section {
+    background-color: #00B172;
+    background-image:url("/Users/daina/Desktop/Ironhack/css-spotify-clone/lab-css-spotify-clone/images/spotify-icon-white.png");
+    background-position: center;
+    background-size: 100px;
+    background-repeat: no-repeat;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+    align-items: center;
+    align-content: center;
+    padding: 80px 0;
+    margin-right: 35px;
+    margin-left: 35px;
+}
+
+.app-visual {
+    width: 300px;
+    padding-top: 50px;
+}
+
+.features h3 {
+    color: #FFF;
+    font-weight: bold;
+    font-size: 28px;
+}
+
+.features h3:after {
+    content: "";  
+    display: block; 
+    width: 66%; 
+    padding-top: 8px; 
+    border-bottom: 4px solid #FFF; 
+}
+
+.features h4 {
+    color: #FFF;
+    font-weight: bold;
+    font-size: 20px;
+}
+
+.features p {
+    color: #FFF;
+    line-height: 1.5em;
+}
+
+article.features {
+    width: 270px;
+}
+
+#green-section h3 {
+    width: 600px;
+}
+
+.features div {
+    padding: 10px 0;
+}
