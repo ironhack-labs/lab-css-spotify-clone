@@ -41,7 +41,7 @@ header>nav>ul>li {
     justify-content: center;
     align-items: center;
     flex-direction: column;
-    height: 800px;
+    height: 900px;
     width: auto;
 }
 
@@ -59,6 +59,86 @@ header>nav>ul>li {
     text-align: center;
     font-size: 20px;
     line-height: 1.5em;
+}
+
+.whatsOn {
+    margin-bottom: 40px;
+    width: auto;
+    height: 350px;
+}
+
+.whatsOn>nav {
+    margin-top: 2em;
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    justify-content: space-around;
+    align-items: flex-start;
+    align-content: flex-start;
+}
+
+.whatsOn>nav>div>h4 {
+    color: #00B172;
+    font-size: 22px;
+}
+
+.underline {
+    border-bottom: 3px solid #00B172;
+    text-align: center;
+    font-size: 50px;
+    line-height: 30px;
+}
+
+.whatsOn>nav>div {
+    padding: 5px;
+    width: 200px;
+    height: 200px;
+    text-align: center;
+}
+
+.whatsOn>nav>div>img {
+    width: 80px;
+    height: 80px;
+}
+
+.appSpotify {
+    display: flex;
+    background-color: #00B172;
+    height: 700px;
+}
+
+.appSpotify>article {
+    color: #FFF;
+    font-size: 20px;
+    width: 330px;
+    height: 500px;
+    flex-direction: column;
+    flex-wrap: wrap;
+    justify-content: flex-start;
+    align-items: baseline;
+    align-content: space-between;
+    margin: 30px;
+    padding: 0 20px;
+}
+
+.imagenes {
+    display: flex;
+    flex-direction: row;
+    flex-wrap: nowrap;
+    justify-content: flex-end;
+    align-content: flex-end;
+    width: 700px;
+    margin-top: 60px;
+}
+
+.appSpotify .imagenes img[src="images/spotify-app.jpg"] {
+    height: 600px;
+    margin-left: 40px;
+}
+
+.appSpotify .imagenes img[src="images/spotify-icon-white.png"] {
+    margin: 250px 30px 0 30px;
+    height: 150px;
 }
 
 
