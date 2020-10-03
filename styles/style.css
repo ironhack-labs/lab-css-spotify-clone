@@ -17,13 +17,13 @@ White: #FFF
 html, body{
     font-size: 16px;
     font-family: 'Roboto', sans-serif;
-    position: relative;
 }
 
 
 
 .nav-bar{
     position: fixed;
+    z-index: 1;
     top: 0%;
     display: flex;
     justify-content: flex-start;
@@ -34,7 +34,6 @@ html, body{
 }
 
 .logo{
-    width: 10px;
     margin-right: auto;
     width: 210px;
     height: auto;
@@ -64,11 +63,14 @@ html, body{
     width: 100%;
     background: url(/images/landing.jpg) no-repeat 50% 0% ;
     background-size: 100%;
+    position: relative;
 }
+
+
 .text-box{
     position: absolute;
+    top: 50%;
     width: 100%;
-    top: 15%;
     color: #fff;
     text-align: center;
 }
@@ -102,7 +104,7 @@ margin-top: 50px;
 .info-section hr{
     border: 2px solid #00B172;
     margin: 6px auto 50px auto;
-    width: 25%;
+    width: 22%;
 }
 
 .general-info{
@@ -157,6 +159,7 @@ margin-top: 50px;
     background-color: #00B172;
     margin: 30px;
     padding: 90px;
+    position: relative;
 }
 
 .firts-container{
@@ -171,7 +174,7 @@ margin-top: 50px;
 .green-zone hr{
     border: 2px solid #fff;
     margin: 6px auto 70px 0px;
-    max-width: 100%;
+    max-width: 92%;
 }
 
 .green-zone h5{
@@ -202,7 +205,7 @@ margin-top: 50px;
     position: absolute;
     background: url(/images/spotify-icon-white.png) no-repeat 50% 50%;
     background-size: cover;
-    top: 80%;
+    top: 40%;
     left: 45%;
     width: 130px;
     height: 130px;
