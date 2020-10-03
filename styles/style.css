@@ -1,3 +1,67 @@
+@import url('https://fonts.googleapis.com/css?family=Poppins');
+body {
+    font-family: 'Poppins';
+}
+
+header {
+    background-color: white;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    border-bottom: 1px solid grey;
+}
+
+header>div>img {
+    width: 160px;
+    height: 50px;
+}
+
+header>nav>ul {
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    justify-content: flex-start;
+    align-items: flex-end;
+    align-content: stretch;
+    padding: 0 20px;
+    list-style: none;
+}
+
+header>nav>ul>li {
+    margin: 0 10px;
+    font-size: 16px;
+}
+
+.section1 {
+    background-image: url("../images/landing.jpg");
+    background-position: center;
+    background-size: cover;
+    display: flex;
+    color: white;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    height: 800px;
+    width: auto;
+}
+
+.section1>h2 {
+    color: white;
+    margin-top: 10px;
+    font-size: 80px;
+    margin: 10px;
+    margin: 0 100px;
+}
+
+.section1>article {
+    margin: 0 400px;
+    line-height: 1em;
+    text-align: center;
+    font-size: 20px;
+    line-height: 1.5em;
+}
+
+
 /*
 Colors:
 
