@@ -1,0 +1,161 @@
+@font-face {
+    font-family: 'Circular';
+    src: url("styles/fonts/Circular Std Book.ttf");
+    font-weight: normal;
+    font-style: normal;
+}
+
+header {
+    margin-bottom: 30px;
+    display: flex;
+    flex-direction: column;
+}
+
+h2 {
+    font-size: 2em;
+    border-bottom: solid 4px;
+    padding-bottom: 10px;
+}
+
+h3 {
+    font-size: 1.7em;
+}
+
+p {
+    font-size: 1.2em;
+}
+
+body{
+    font-family: Circular, Helvetica, Arial, sans-serif;
+    font-weight: 400;
+    line-height: normal;
+    color: 1A1A1A;
+}
+
+nav {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: center;
+    position: fixed;
+    height: 20px;
+    width: 100%;
+    background-color: white;
+    padding:20px;
+    margin-bottom: 10px;
+}
+
+.menu {
+    display: flex;
+    flex-direction: row;
+    list-style: none;
+    justify-content: space-around;
+
+}
+
+li {
+    padding: 2%;
+}
+
+#spotifylogo {
+    width: 140px
+}
+
+#background-image {
+    height:60vh;
+    display: block;
+    margin-top: 50px;
+    object-fit: cover;
+    height:60vh;
+    width: 100%;
+}
+.background h1 {
+    color: #fff;
+    font-size: 70px;
+    position: absolute;
+    left: 50%;
+    top:20%;
+    transform: translate(-50%, -50%);
+}
+
+.background p {
+    color: #fff;
+    position: absolute;
+    left: 50%;
+    top: 35%;
+    transform: translate(-50%, -50%);
+}
+
+.title {
+    width: 30%;
+}
+
+.last-section {
+    background-color: #00B172;
+    color: white;
+    padding: 45px;
+}
+
+.last-section-content{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: center;
+    margin-top: -30px;
+}
+
+.last-section-content div {
+    width: 32%;
+}
+
+.description {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: flex-end;
+}
+
+section {
+    margin: 30px 0;
+}
+
+.whatOnSpotify >div > h2 {
+    text-align: center;
+    margin: auto;
+    border-color:  #00B172;
+    width: 17%;
+    position: relative;
+}
+.whatOnSpotify p {
+    text-align: center;
+}
+
+#spotifyIcon {
+    width: 120px;
+    margin-left: 50%;
+}
+
+#spotifyApp {
+    width: 300px;
+    float: right
+    
+}
+
+.icon {
+    width: 120px
+}
+
+.description div {
+    display: flex;
+    flex-direction: column;
+    justify-content: baseline;
+    align-items: center;
+    width: 33%;
+    padding: 50px;
+}
+
+.description div h3 {
+    color: #1DB954;
+}
+
+
