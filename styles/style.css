@@ -28,7 +28,7 @@ html, body{
     display: flex;
     justify-content: flex-start;
     align-items: center;
-    padding: 16px 40px;
+    padding: 10px 40px;
     width: 100%;
     background-color: #fff;
 }
@@ -57,25 +57,23 @@ html, body{
 }
 
 
-
 .header{
     height: 100vh;
     width: 100%;
-    background: url(/images/landing.jpg) no-repeat 50% 0% ;
-    background-size: 100%;
+    background: url(/images/landing.jpg) no-repeat 50% 50% ;
+    background-size: cover;
     position: relative;
 }
 
-
-.text-box{
+.header .text-box{
     position: absolute;
-    top: 50%;
+    top: 42%;
     width: 100%;
     color: #fff;
     text-align: center;
 }
 
-.text-box h1{
+.header .text-box h1{
     font-size: 5rem;
     color: #fff;
     font-weight: 500;
@@ -83,7 +81,7 @@ html, body{
     margin-bottom: 30px;
 }
 
-.text-box p{
+.header .text-box p{
     font-size: 1.75rem;
     font-weight: 300;
     letter-spacing: 1.5px;
@@ -94,7 +92,6 @@ html, body{
 text-align: center;
 margin-top: 50px;
 }
-
 
 .info-section h2{
     font-size: 2.5rem;
@@ -114,12 +111,12 @@ margin-top: 50px;
     margin: 70px auto 50px auto;
 }
 
-.info-box{
+.general-info .info-box{
     width: 300px;
     padding: 10px;
 }
 
-.imagen1,.imagen2,.imagen3{
+.info-box>.imagen1,.imagen2,.imagen3{
     width: 140px;
     height: 110px;
     margin: auto;
@@ -127,17 +124,17 @@ margin-top: 50px;
     align-items: center;
 }
 
-.imagen1{
+.info-box .imagen1{
     background: url(/images/music-icon.png) no-repeat 50% 50%;
     background-size: cover;
 }
 
-.imagen2{
+.info-box .imagen2{
     background: url(/images/high-quality-icon.png) no-repeat 50% 50%;
     background-size: cover;
 }
 
-.imagen3{
+.info-box .imagen3{
     background: url(/images/devices-icon.png) no-repeat 50% 50%;
     background-size: cover;
 }
@@ -167,31 +164,31 @@ margin-top: 50px;
     justify-content: space-between;
 }
 
-.green-zone h4{
+.info-iz{
+    width: 45%;
+}
+
+.info-iz h4{
     font-size: 2.5rem;
 }
 
-.green-zone hr{
+.info-iz hr{
     border: 2px solid #fff;
     margin: 6px auto 70px 0px;
     max-width: 92%;
 }
 
-.green-zone h5{
+.small-text h5{
     font-size: 1.9rem;
     margin-bottom: 30px;
 }
 
-.green-zone p{
+.small-text p{
     font-size: 1.5rem;
     font-weight: 300;
     width: 350px;
     line-height: 1.8rem;
     margin-bottom: 60px;
-}
-
-.info-iz{
-    width: 45%;
 }
 
 .info-dr{
