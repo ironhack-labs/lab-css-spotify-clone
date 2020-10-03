@@ -19,8 +19,6 @@ html, body{
     font-family: 'Roboto', sans-serif;
 }
 
-
-
 .nav-bar{
     position: fixed;
     z-index: 1;
@@ -50,12 +48,10 @@ html, body{
     color: #00B172;
 }
 
-
 .nav-bar-ul li{
     display: inline-block;
     padding: 2px 11px;
 }
-
 
 .header{
     height: 100vh;
@@ -106,6 +102,7 @@ margin-top: 50px;
 
 .general-info{
     display: flex;
+    flex-direction: row;
     justify-content: space-evenly;
     flex-wrap: wrap;
     margin: 70px auto 50px auto;
@@ -155,17 +152,18 @@ margin-top: 50px;
     color: #fff;
     background-color: #00B172;
     margin: 30px;
-    padding: 90px;
+    padding: 80px 0px 30px 0px;
     position: relative;
 }
 
 .firts-container{
     display: flex;
-    justify-content: space-between;
+    justify-content: space-evenly;
+    align-items: center;
 }
 
 .info-iz{
-    width: 45%;
+    width: 540px;
 }
 
 .info-iz h4{
@@ -174,7 +172,7 @@ margin-top: 50px;
 
 .info-iz hr{
     border: 2px solid #fff;
-    margin: 6px auto 70px 0px;
+    margin: 6px 0px 70px 0px;
     max-width: 92%;
 }
 
@@ -191,18 +189,15 @@ margin-top: 50px;
     margin-bottom: 60px;
 }
 
-.info-dr{
-    background: url(/images/spotify-app.jpg) no-repeat 50% 50%;
-    background-size: 90%;
-    width: 400px;
-    height: 710px;
+.info-dr img{
+    width: 320px;
+    height: auto;
 }
 
 .spotify-logo-white{
     position: absolute;
     background: url(/images/spotify-icon-white.png) no-repeat 50% 50%;
     background-size: cover;
-    top: 40%;
     left: 45%;
     width: 130px;
     height: 130px;
