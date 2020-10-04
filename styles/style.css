@@ -9,58 +9,75 @@ White: #FFF
 
 * {
     box-sizing: border-box;
-    font-size: 20px;
-    font-family: Arial, Helvetica, sans-serif;
-    width: 100%;
     margin: 0;
     padding: 0
 }
 
-.top {
-    display: flex;
-    flex-direction: column;
-    margin: 20px 0;
+body{
+    font-size: 20px;
+    font-family: Arial, Helvetica, sans-serif;
 }
 
-.head{
+.top{
+    background: url(/images/landing.jpg) no-repeat 50% 50%;
+    background-size: cover;
+    width: 100%;
+    height: 100vh;
+    position: relative;
+}
+
+.navBar{
     display: flex;
     flex-direction: row;
-    justify-content: space-between;
+    align-items: center;
+    position: fixed;
+    z-index: 1;
+    justify-content: flex-start;
+    background-color: #FFF;
+    padding: 20px 40px;
     width: 100%;
-    margin: 30px
 }
 
 #logo{
-    display: flex;
-    width: 20%;
-    height: 20%;
+    width: 210px;
+    height: auto;
+    margin-right: auto;
 }
 
-.navBar {
-    display: flex;
-    align-items: center;
-    margin: 30px;
-    width: 500px;
-}
-
-h1, h2 {
-    display: flex;
-    justify-content: center;
-    font-weight: bolder;
+.navBar ul li{
+    display: inline-flex;
+    list-style: none;
+    padding: 20px;
 }
 
 .onTopOfImg{
-    display: flex;
-    position: relative;
+    position: absolute;
+    top: 40%;
+    text-align: center;
+    width: 100%;
+    color: #FFF;
+}
+
+.onTopOfImg h1{
+    font-size: 3em;
+    margin-bottom: 50px;
+}
+
+.onTopOfImg p{
+    font-size: 1.2em;
 }
 
 .whatsOn{
     display: flex;
     text-align: center;
-    justify-content: space-between;
     align-items: center;
     flex-direction: column;
-    
+    margin: 50px;
+}
+
+h2{
+    margin: 20px 0 10px 0;
+    font-size: 2em;
 }
 
 .whatsOn p{
@@ -74,7 +91,7 @@ h1, h2 {
     flex-direction: row;
     justify-content: space-around;
     width: 90%;
-    margin: 30px 30px;
+    margin: 50px 30px;
 }
 
 .icon{
@@ -87,39 +104,56 @@ h3 {
 }
 
 .bottom{
+    background-color: #00B172;
+    padding: 50px 0px;
+    margin: 50px;
+    position: relative;
+}
+
+.bottom-half{
     display: flex;
     flex-direction: row;
-    background-color: #00B172;
-    color: white;
-    justify-content: space-around;
+    justify-content: space-evenly;
+    color: #FFF;
+    align-items: center;
 }
+
 
 .left {
-    margin:100px;
-    display: flex;
-    flex-direction: column;
-    width: 500px;
-}
-
-h4, h5{
-    margin: 20px 0
+    width: 550px;
 }
 
 .left p{
-    margin: 20px 0
+    line-height: 1.6;
+    margin-bottom: 20px;
+    width: 300px;
 }
 
-.white-logo{
-    width: 100px;
-    display: flex;
-    align-items: center;
+h4{
+    font-size: 2em;
+    color: #FFF;
     
 }
 
-.app {
-    margin: 100px;
-    width: 500px;
-    display: flex;
-    align-items: center;
+h5{
+    font-size: 1.2em;
+    margin: 30px 0;
 }
+
+.white-logo img{
+    position: absolute;
+    width: 130px;
+    left: 45%;
+} 
+
+.app{
+    width: 320px;
+    height: auto;
+}
+
+#kanye{
+    width: 100%
+}
+
+
 
