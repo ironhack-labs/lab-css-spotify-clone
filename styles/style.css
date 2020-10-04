@@ -6,3 +6,133 @@ Green: #00B172
 White: #FFF
 
 */
+*{
+    margin:0;
+    padding:0;
+    box-sizing: border-box;
+    font-size: 1.6rem;
+}
+
+nav, .links{
+    display: flex;
+    justify-content: space-between;
+}
+
+nav{
+    position: fixed;
+    padding: 0 2rem;
+    background-color: #FFF;
+    z-index: 1;
+}
+
+img{
+    width: 22%;
+    object-fit: contain;
+    padding: 1rem;
+}
+
+.links{
+    align-self: center;
+    width: 35%;
+}
+
+nav p{
+    font-size: 0.9em;
+}
+
+header{
+    background-image: url(../images/landing.jpg);
+    background-position: bottom;
+    background-size:100%;
+    background-repeat: no-repeat;
+    height: 100vh;
+}
+
+.title-section{
+    height: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    color: #FFF;
+}
+
+h1{
+    font-size: 3em;
+}
+
+.what-is{
+    text-align: center;
+    padding: 6rem;
+    height: 85vh;
+}
+
+.card-wrapper{
+    display: flex;
+    align-items: baseline;
+    justify-content: space-around;
+}
+
+.card{
+    width: 25%
+}
+
+.what-is h2{
+    font-size: 1.4em;
+}
+
+.what-is h3{
+    color: #00B172;
+    margin-bottom: 1.2rem;
+}
+
+.what-is img{
+    width: 58%
+}
+
+.example{
+    display:flex;
+    justify-content: space-between;
+    background: #00B172;
+    margin: 0 2%; 
+    color: #FFF;   
+    display:flex;
+    height: 90vh;
+    position: relative;
+}
+
+.example h2{
+    padding-bottom: 0.5rem;
+    border-bottom: 4px solid #FFF;
+    font-size: 1.4em;
+    width: 26.7rem;
+}
+.explanation{
+    display:flex;
+    justify-content: space-between;
+    flex-direction: column;
+    margin: 0 4rem;
+    width: 22%;
+    padding:2rem 0;
+}
+
+.example p{
+    font-size: 0.7em;
+    line-height: 1.1em;
+}
+
+.example .icon{
+    max-width: 10%;
+    position: absolute;
+    left: 50%;
+    top:50%;
+}
+
+.kayne{
+    padding-top:0;
+    align-self: flex-start;
+    width: 24.5%;
+    margin: 4rem 4rem;
+}
+
+
