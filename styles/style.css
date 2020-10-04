@@ -1,8 +1,312 @@
+/* http://meyerweb.com/eric/tools/css/reset/ 
+   v2.0 | 20110126
+   License: none (public domain)
+*/
+
+html,
+body,
+div,
+span,
+applet,
+object,
+iframe,
+h1,
+h2,
+h3,
+h4,
+h5,
+h6,
+p,
+blockquote,
+pre,
+a,
+abbr,
+acronym,
+address,
+big,
+cite,
+code,
+del,
+dfn,
+em,
+img,
+ins,
+kbd,
+q,
+s,
+samp,
+small,
+strike,
+strong,
+sub,
+sup,
+tt,
+var,
+b,
+u,
+i,
+center,
+dl,
+dt,
+dd,
+ol,
+ul,
+li,
+fieldset,
+form,
+label,
+legend,
+table,
+caption,
+tbody,
+tfoot,
+thead,
+tr,
+th,
+td,
+article,
+aside,
+canvas,
+details,
+embed,
+figure,
+figcaption,
+footer,
+header,
+hgroup,
+menu,
+nav,
+output,
+ruby,
+section,
+summary,
+time,
+mark,
+audio,
+video {
+  margin: 0;
+  padding: 0;
+  border: 0;
+  font-size: 100%;
+  font: inherit;
+  vertical-align: baseline;
+}
+
+/* HTML5 display-role reset for older browsers */
+article,
+aside,
+details,
+figcaption,
+figure,
+footer,
+header,
+hgroup,
+menu,
+nav,
+section {
+  display: block;
+}
+
+body {
+  line-height: 1;
+}
+
+ol,
+ul {
+  list-style: none;
+}
+
+blockquote,
+q {
+  quotes: none;
+}
+
+blockquote:before,
+blockquote:after,
+q:before,
+q:after {
+  content: "";
+  content: none;
+}
+
+table {
+  border-collapse: collapse;
+  border-spacing: 0;
+}
+
 /*
 Colors:
 
-Text: 1A1A1A
+Text: #1A1A1A
 Green: #00B172
 White: #FFF
 
 */
+
+@import url("https://fonts.googleapis.com/css2?family=Open+Sans:ital,wght@0,300;0,400;0,600;0,700;0,800;1,300;1,400;1,600;1,700;1,800&display=swap");
+
+body {
+  font-family: "Open Sans", sans-serif;
+  font-weight: lighter;
+}
+
+.nav-bar {
+  /*position: fixed;*/
+  background-color: #fff;
+  height: 150px;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.nav-bar .logo {
+  height: 90px;
+  margin-left: 60px;
+}
+
+.nav-bar ul {
+  display: flex;
+  justify-content: space-between;
+  margin-right: 50px;
+}
+
+.nav-bar ul > li {
+  color: #1a1a1a;
+  font-size: 1.9em;
+  font-weight: 300;
+  padding: 0 20px;
+}
+
+.music-everyone {
+  background-image: url("../images/landing.jpg");
+  background-color: black;
+  height: 1200px;
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+
+.music-everyone h1 {
+  color: #fff;
+  font-size: 6.5rem;
+  font-weight: 600;
+}
+
+.music-everyone > div {
+  margin: 60px;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+
+.music-everyone p {
+  color: #fff;
+  font-size: 2.6rem;
+  padding: 8px;
+}
+
+.whats-on {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  margin: 50px;
+}
+
+.whats-on > h2 {
+  color: #1a1a1a;
+  font-size: 3rem;
+  font-weight: 600;
+  padding: 0 0 10px 0;
+  border-bottom: 5px solid #00b172;
+}
+
+.features {
+  display: flex;
+  justify-content: space-between;
+  align-items: flex-start;
+}
+
+.one-feature {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  width: 550px;
+  margin: 150px 0;
+}
+
+.features-logo {
+  height: 140px;
+}
+
+.one-feature > h3 {
+  color: #00b172;
+  font-size: 2.2rem;
+  font-weight: bold;
+  margin: 40px 0;
+}
+
+.one-feature > p {
+  color: #1a1a1a;
+  width: 400px;
+  font-size: 2rem;
+  font-weight: lighter;
+  text-align: center;
+  line-height: 40px;
+}
+
+.yeezy {
+  background-color: #00b172;
+  background-image: url("../images/spotify-icon-white.png");
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: 180px;
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  align-items: center;
+  padding: 100px 200px;
+}
+
+.yeezy-text {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: flex-start;
+}
+
+.yeezy-text > h2 {
+  color: #fff;
+  font-size: 3rem;
+  font-weight: 600;
+  padding: 0 0 15px 0;
+  border-bottom: solid 5px #fff;
+}
+
+.app-features {
+  width: 480px;
+  margin: 20px 0;
+}
+
+.app-features > h3 {
+  font-size: 2.5rem;
+  font-weight: 600;
+  color: #fff;
+  margin: 50px 0;
+}
+
+.app-features > p {
+  font-size: 1.8rem;
+  color: #fff;
+  line-height: 40px;
+}
+
+.kanye-west {
+  width: 470px;
+}
