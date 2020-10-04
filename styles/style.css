@@ -6,3 +6,183 @@ Green: #00B172
 White: #FFF
 
 */
+ *{
+     font-family: 'Montserrat', sans-serif;
+     margin:0px;
+     padding:0px;
+ }
+.headerWhiteBackground{
+    /*cambiar margin */
+    margin: 30px 20px;
+    display: flex;
+    justify-content: space-between;    
+
+}
+ #spotifylogogreen{
+     /*cambiar width */
+     width: 20em;
+ }
+ nav{
+     /*cambiar width,margin-rigth */
+     width: 35em;
+     margin-right: 20px;
+     align-self: center;
+     
+ }
+ nav ul {
+    /*cambiar font size, weigth*/
+    font-size: 1.5em; 
+    font-weight: 600;
+    list-style: none;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+ }
+
+ #headerImg{
+     background-image: url(../images/landing.jpg);
+     height: 60em;
+     background-repeat: no-repeat;
+     background-size: 100% 100%;
+     position: relative;
+     background-attachment: fixed;
+     background-position: center;
+}
+
+#headerImg > div{
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    width: 80em;
+    align-content: center;
+    color: white;
+    text-align: center;
+}
+
+#headerImg h1{
+    font-size: 6em;
+
+}
+
+#headerImg p{
+    font-size: 2em;
+    margin-top: 20px;
+
+}
+
+#section1{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+
+    
+}
+
+#section1 h2{
+    color: #1A1A1A;
+    font-size: 3em;
+    margin: 100px 10px 10px 10px;                                                                                                                                 ;
+}
+
+#section1 div{
+    display: flex;
+    align-content: space-around;
+    
+}
+
+.features{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    font-size: 2em;
+    text-align: center;
+    width: 13.8em;
+    padding: 2em;
+}
+
+.features img{
+    height: 5em;
+    width: 6em;
+    
+}
+.features>h3{
+
+    font-weight: 600;
+    font-size: 1.2em;
+    color:#00B172;
+    margin: 30px;
+}
+
+#section2{
+    position: relative;
+    display: flex;
+    z-index: 0;
+    height: 800px;
+}
+
+#characteristicsWithTitle{
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    
+}
+#section2>div>img{
+    position: relative;
+    height: 8em;
+    width: 8em;
+    align-self: center;
+    z-index: 2;
+    
+}
+#section2>div{
+    position: relative;
+    background-color: #00B172;
+    z-index: 1;
+    width: 95%;
+    height: 60em ;
+    margin: 2.5%
+
+}
+
+#characteristics{
+    margin: 0px;
+    z-index: 4;
+    font-size: 2em;
+    width: 23%;
+    color: white;
+
+
+}
+
+#characteristics> h3{
+    
+    position: absolute;
+    top:10%;
+    padding-bottom: px;
+    border-bottom: 3px solid  white ;
+    font-size: 1.7em;
+    
+
+}
+
+#characteristics div{
+    
+    position: absolute;
+    width: 30%;
+    top:20%;    
+    display: flex;
+    flex-direction: column;
+    align-content: space-around;
+    line-height: 1.4em;
+}
+
+#characteristics div h4{
+    margin: 30px 0px;
+    
+}
+
+
+#appSreenShot>img{
+    height:40em;
+}
