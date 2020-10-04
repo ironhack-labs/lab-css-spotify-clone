@@ -1,3 +1,230 @@
+@import url('https://fonts.googleapis.com/css?family=Poppins');
+
+* {
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+
+}
+
+/* header y primer section*/
+.navBar {
+    position: fixed;
+    display: flex;
+    width: 100%;
+    top: 0%;
+    background-color: white;
+    padding: 8px 40px;
+    justify-content: flex-start;
+    align-items: center;
+    z-index: 1;
+
+}
+
+.logo {
+    width: 300px;
+    height: auto;
+    margin-right: auto;
+
+}
+
+.navBar>ul {
+    list-style: none;
+    margin-bottom: 20px;
+    font-size: 1.5rem;
+}
+
+.navBar li{
+    display: inline-flex;
+    padding: 0px 10px;
+    
+ 
+   
+}
+
+
+.imagenSection {
+    width: 100%;
+    height: 100vh;
+    background: url(../images/landing.jpg) no-repeat 50% 50%;
+    background-size: 100%;
+    margin-top: -100px;
+}
+
+.imagenSection>h1 {
+    color: #fff;
+    font-size: 85px;
+    position: absolute;
+    left: 50%;
+    top:30%;
+    transform: translate(-50%, -50%);
+}
+.imagenSection>p{
+    color: #fff;
+    font-size: 30px;
+    position: absolute;
+    left: 50%;
+    right: 15%;
+    top:45%;
+    transform: translate(-50%, -50%);  
+}
+
+/* segundo section*/
+
+.whatsOn {
+    margin-top: 30px;
+    text-align: center;
+    font-size: 40px;
+}
+
+hr {
+    display: flex;
+    justify-content: center;
+    border: 0; border-top: 4px solid #00B172; height:0;
+    width: 18%;
+    margin-bottom: 50px;
+    margin-top: 15px;
+    margin-left: 41%;
+
+}
+
+.container-section2 {
+    display: flex;
+    justify-content: space-around;
+    width: 100%;
+    margin-bottom: 40px;
+    margin-top: 40pxS;
+    
+    
+    
+}
+
+
+.caja .iconos {
+    
+    width: 120px;
+    height: 120px;
+    display:block;
+    margin:auto;
+
+   
+    
+}
+
+.caja img{
+    
+     width: 100%;
+  
+   
+    
+}
+
+.caja h3{
+    font-size: 30px;
+    color: #00B172;
+    text-align: center;
+}
+
+.caja p {
+    width: 240px;
+    font-size: x-large;
+    margin-top: 20px;
+    text-align: center;
+}
+
+
+/* tercer section */
+
+.background-section3 {
+    height: 1000px;
+    background-color: #00B172;
+    display: flex;
+    justify-content: space-between;
+    position: relative;
+    margin: 2%;
+    /* flex-direction: row; */
+}
+
+.background-section3 h2 {
+    
+    color: white;
+    text-align: flex-start;
+    margin-left: 5%;
+    margin-top: 75px;
+    font-size: 40px;
+    
+}
+
+.hr3 {
+    display: flex;
+    justify-content: center;
+    border: 0; border-top: 4px solid white; height:0;
+    width: 26%;
+    /* margin-bottom: 50px; */
+    margin-top: 15px;
+    margin-left: 5%;
+   
+
+}
+.container-izquierda {
+    width: 40%;
+    margin-left: 5%;
+    padding-bottom: 20%;
+}
+/* .container-section3 {
+   display: flex;
+   flex-direction: column;
+
+} */
+
+.container-section3 h2 {
+    
+    color: white;
+    margin-left: 5%;
+    padding-bottom: 20px;
+    font-size: 40px;
+}
+
+.container-section3 p {
+    color: white;
+    /* margin-left: 5%; */
+    padding: 30px;
+    font-size: 1.5rem;
+    width: 400px;
+    font-size: x-large;
+}
+
+.container3-img {
+    display: flex;
+    width: 100%;
+    height: 100%;
+    justify-content: flex-end;
+    margin-right: 5%;
+    margin-top: 7%;
+    margin-bottom: 15%;
+  
+}
+
+.container3-iconWhite {
+
+    display: flex;
+    width: 200px;
+    /* width: 12px;
+    height: 12px; */
+    /* justify-content: center; */
+    /* position: absolute; */
+    align-items: center;
+}
+
+.container3-iconWhite>img {
+    margin-left: 250%;
+    width: 100%;
+}
+
+.container3-img>img {
+    width: 50%;
+    height: 80%;
+}
 /*
 Colors:
 
