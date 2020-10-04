@@ -17,6 +17,7 @@ White: #FFF
 html, body{
     font-size: 16px;
     font-family: 'Roboto', sans-serif;
+    color: #1A1A1A;
 }
 
 .nav-bar{
@@ -85,8 +86,13 @@ html, body{
 }
 
 .info-section{
+display: flex;
+align-items: center;
+flex-direction: column;
 text-align: center;
 margin-top: 50px;
+height: 500px;
+
 }
 
 .info-section h2{
@@ -96,8 +102,9 @@ margin-top: 50px;
 
 .info-section hr{
     border: 2px solid #00B172;
-    margin: 6px auto 50px auto;
+    margin: 6px auto 40px auto;
     width: 22%;
+
 }
 
 .general-info{
@@ -105,35 +112,24 @@ margin-top: 50px;
     flex-direction: row;
     justify-content: space-evenly;
     flex-wrap: wrap;
-    margin: 70px auto 50px auto;
-}
-
-.general-info .info-box{
-    width: 300px;
-    padding: 10px;
-}
-
-.info-box>.imagen1,.imagen2,.imagen3{
-    width: 140px;
-    height: 110px;
-    margin: auto;
-    margin-bottom: 35px;
     align-items: center;
+    margin: 40px 0px;
 }
 
-.info-box .imagen1{
-    background: url(/images/music-icon.png) no-repeat 50% 50%;
-    background-size: cover;
+.info-box{
+    padding: 10px;
+    width: 300px;
+    height: 110px;
+    margin: 35px 20px;
 }
 
-.info-box .imagen2{
-    background: url(/images/high-quality-icon.png) no-repeat 50% 50%;
-    background-size: cover;
+.info-box .icon-box{
+    width: auto;
+    height: 120px;
 }
 
-.info-box .imagen3{
-    background: url(/images/devices-icon.png) no-repeat 50% 50%;
-    background-size: cover;
+.box-text{
+    width: 300px;
 }
 
 .info-box h3{
@@ -196,9 +192,13 @@ margin-top: 50px;
 
 .spotify-logo-white{
     position: absolute;
-    background: url(/images/spotify-icon-white.png) no-repeat 50% 50%;
-    background-size: cover;
+    /* background: url(/images/spotify-icon-white.png) no-repeat 50% 50%;
+    background-size: cover; */
     left: 45%;
     width: 130px;
     height: 130px;
+}
+
+.spotify-logo-white img{
+    width: 100%;
 }
