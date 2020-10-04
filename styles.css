@@ -1,0 +1,137 @@
+@import url('https://fonts.googleapis.com/css2?family=Roboto&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Roboto:wght@300&display=swap');
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+body {
+    font-size: 16px;
+    font-family: 'Roboto', sans-serif;
+
+}
+nav {
+    position: fixed;
+    width: 100%;
+    background-color: #ffffff;
+    height: 125px;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: center;
+}
+nav img {
+    margin-left: 50px;
+    max-width: 300px;
+}
+nav div {
+    font-size: 30px;
+    margin-right: 50px;
+    width: 35%;
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+}
+header {
+  background-image: url("./images/landing.jpg");
+  background-repeat: no-repeat;
+  background-size: cover;
+  text-align: center;
+  height: 1200px;
+  display: flex;
+  justify-content: center;
+  flex-direction: column;
+}
+header h1 {
+    color: white;
+    font-size: 7rem;
+    margin-bottom: 50px;
+}
+header p {
+    color: white;
+    font-size: 2.5rem;
+    font-weight: 200;
+}
+
+#section1 {
+    padding-bottom: 50px;
+}
+#section1 > h1 {
+    margin-top: 40px;
+    text-align: center;
+    font-size: 48px;
+    text-decoration: #00B172 solid underline 5px;
+    text-underline-position: under;
+    padding-bottom: 5px;
+    margin-bottom: 70px;
+}
+
+#section1 > article {
+    display:flex;
+    justify-content: space-around;
+}
+#section1 > article > div {
+    width: 33%;
+    display:flex;
+    flex-direction: column;
+    align-items: center;
+}
+#section1 > article img {
+    max-height: 130px;
+    margin-bottom: 15px;
+}
+#section1 > article h1 {
+    font-size: 35px;
+    color: #00B172;
+    margin-bottom: 15px;
+}
+#section1 > article p {
+    text-align: center;
+    font-weight: 200;
+    font-size: 30px;
+    max-width: 60%;
+}
+
+#section2 {
+    background-color: #00B172;
+    display:flex;
+    background-image: url("./images/spotify-icon-white.png");
+    background-repeat: no-repeat;
+    background-position: 50%;
+    background-size: 8%;
+}
+
+#section2 > article{
+    color: white;
+    width: 50%;
+    margin-left: 100px;
+    margin-top: 100px;
+    height: 800px
+}
+#section2 > article > h1 {
+    font-size: 50px;
+    text-decoration: #ffffff solid underline 5px;
+    text-underline-position: under;
+    padding-bottom: 5px;
+    margin-bottom: 75px;
+}
+#section2 > article > h2 { 
+    font-size: 45px;
+    font-weight: 1000;
+    margin-bottom: 30px;
+}
+#section2 > article > p {
+    font-size: 30px;
+    font-weight: 500;
+    margin-bottom: 50px;
+}
+
+
+
+
+#section2 > article > img {
+    /* margin-top: 50px; */
+    margin-left: 40%;
+    width: 45%
+
+}
