@@ -4,15 +4,99 @@
     <meta charset="UTF-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <meta http-equiv="X-UA-Compatible" content="ie=edge" />
-    <title>Spotify Clone</title>
-    <!-- don't forget to link your styles -->
+    <title>Spotify Clone by Adrián Paniagua</title>
+    <link rel="stylesheet" href="styles/style.css" />
   </head>
   <body>
-    Premium Discover Help Download Music for everyone. Spotify is now free on mobile, tablet and computer. Listen to the
-    right music, wherever you are. What’s on Spotify? Millions of Songs There are millions of songs on Spotify HD Music
-    Listen to music as if you were listening live Stream Everywhere Stream music on your smartphone, tablet or computer
-    It’s as yeezy as Kanye West. Search Know what you want to listen to? Just search and hit play. Browse Check out the
-    latest charts, brand new releases and great playlists for right now. Discover Enjoy new music every Monday with your
-    own personal playlist. Or sit back and enjoy Radio.
+    <nav class="navbar_container">
+      <div class="navbar_logo">
+        <img src="images/spotify-logo.png" alt="" />
+      </div>
+      <div class="navbar_menu">
+        <ul>
+          <li>Premium</li>
+          <li>Discover</li>
+          <li>Help</li>
+          <li>Download</li>
+        </ul>
+      </div>
+    </nav>
+    <header>
+      <div class="header_container">
+        <div class="header_title">
+          <h1>Music for everyone.</h1>
+          <p>
+            Spotify is now free on mobile, tablet and computer.<br />
+            Listen to the right music, wherever you are.
+          </p>
+        </div>
+      </div>
+    </header>
+    <main>
+      <section class="whats_on_container">
+        <div class="properties_container">
+          <div class="properties_title">
+            <h1>What's on Spotify?</h1>
+            <hr class="main_hr" />
+          </div>
+          <div class="properties_el">
+            <div class="properties_card">
+              <img src="images/music-icon.png" alt="music icon image" />
+              <h4>Millions of Songs</h4>
+              <p>There are millions of songs on Spotify</p>
+            </div>
+            <div class="properties_card">
+              <img
+                class="music_icon"
+                src="images/high-quality-icon.png"
+                alt="sound quality image"
+              />
+              <h4>HD Music</h4>
+              <p>Listen to music as if you were listening live</p>
+            </div>
+            <div class="properties_card">
+              <img src="images/devices-icon.png" alt="devices icon image" />
+              <h4>Stream Everywhere</h4>
+              <p>Stream music on your smartphone, tablet or computer</p>
+            </div>
+          </div>
+        </div>
+      </section>
+
+      <section class="CTA">
+        <div class="whats_on_CTA">
+          <div class="whats_on_left">
+            <div class="left_title">
+              <h1>It’s as yeezy as Kanye West.</h1>
+              <hr class="second_hr" />
+            </div>
+            <div class="left_el">
+              <h4>Search</h4>
+              <p>Know what you want to listen to? Just search and hit play.</p>
+            </div>
+            <div class="left_el">
+              <h4>Browse</h4>
+              <p>
+                Check out the latest charts, brand new releases and great
+                playlists for right now.
+              </p>
+            </div>
+            <div class="left_el">
+              <h4>Discover</h4>
+              <p>
+                Enjoy new music every Monday with your own personal playlist. Or
+                sit back and enjoy Radio.
+              </p>
+            </div>
+          </div>
+          <div class="whats_on_center">
+            <img src="images/spotify-icon-white.png" alt="" />
+          </div>
+          <div class="whats_on_right">
+            <img src="images/spotify-app.jpg" alt="" />
+          </div>
+        </div>
+      </section>
+    </main>
   </body>
 </html>

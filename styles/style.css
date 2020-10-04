@@ -1,8 +1,234 @@
-/*
-Colors:
+/* * Colors ***************************/
 
+/* 
 Text: 1A1A1A
 Green: #00B172
-White: #FFF
-
+White: #FFF 
 */
+
+/* * Generals ***************************/
+*,
+*::before,
+*::after {
+  box-sizing: inherit;
+  font-family: Sans-Serif;
+  margin: 0;
+  padding: 0;
+}
+
+html,
+body {
+  font-size: 16px;
+  box-sizing: border-box;
+  background-color: #fff;
+  scroll-behavior: smooth;
+  line-height: 1;
+}
+h1,
+h2,
+h3,
+h4,
+h5,
+h6 {
+  margin: 0;
+  padding: 0;
+}
+
+a,
+a:visited,
+a:hover {
+  text-decoration: none;
+}
+
+ul ol li {
+  list-style-type: none;
+  margin: 0;
+  padding: 0;
+}
+
+/* * NavBar/Menu ***************************/
+
+.navbar_container {
+  margin: 1rem 1.5rem;
+  display: flex;
+  justify-content: space-between;
+  background-color: white;
+}
+
+.navbar_logo img {
+  width: 15rem;
+}
+
+.navbar_menu ul {
+  display: flex;
+  list-style-type: none;
+  flex-direction: row;
+  margin: 1.5rem;
+}
+
+.navbar_menu li {
+  margin-left: 1.5rem;
+  font-size: 1.4rem;
+  font-weight: 100;
+}
+
+/* * Header ***************************/
+
+.header_container {
+  position: relative;
+  width: 100%;
+  height: 50rem;
+  background-image: url(../images/landing.jpg);
+  background-size: cover;
+  background-position: center center;
+  background-repeat: no-repeat;
+}
+
+.header_title {
+  position: absolute;
+  width: 100%;
+  top: 40%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  text-align: center;
+}
+
+.header_title h1 {
+  color: white;
+  font-size: 5rem;
+  font-weight: 500;
+  margin-bottom: 1.5rem;
+}
+
+.header_title p {
+  color: white;
+  font-size: 2rem;
+  font-weight: lighter;
+  line-height: 2.5rem;
+}
+
+/* * What's on ***************************/
+/* * Properties Section  *****************/
+.whats_on_container {
+  background-color: white;
+  display: flex;
+  flex-direction: column;
+  margin-top: 4rem;
+}
+.properties_title {
+  font-size: 1.5rem;
+  font-weight: 500;
+  text-align: center;
+}
+
+.main_hr {
+  border: 2px solid #00b172;
+  display: block;
+  margin: 0.5rem auto;
+  width: 25%;
+}
+
+.properties_el {
+  display: flex;
+  flex-direction: row;
+  flex-wrap: wrap;
+}
+.properties_card {
+  display: flex;
+  flex: 1 0 21%;
+  flex-direction: column;
+  align-items: center;
+  text-align: center;
+  margin: 4rem;
+}
+
+.properties_card img {
+  width: 8rem;
+  margin-bottom: 2rem;
+}
+
+.music_icon {
+  margin-bottom: 2.8rem !important;
+}
+
+.properties_card h4 {
+  color: #00b172;
+  font-size: 1.7rem;
+  font-weight: 600;
+  margin-bottom: 1rem;
+}
+
+.properties_card p {
+  font-size: 1.5rem;
+  font-weight: lighter;
+  padding: 1rem;
+}
+
+/* * CTA Section  ***********************/
+
+.whats_on_CTA {
+  background-color: #00b172;
+  display: flex;
+  justify-content: space-evenly;
+  flex-direction: row;
+  flex-wrap: wrap;
+  margin: 1rem 5rem;
+}
+
+.whats_on_left {
+  display: flex;
+  flex-direction: column;
+  color: white;
+  padding: 2rem;
+  width: 50%;
+}
+
+.left_title {
+  color: white;
+  font-size: 1.5rem;
+  margin: 2rem;
+}
+
+.second_hr {
+  border: 2px solid white;
+  display: block;
+  margin: 0.5rem 0;
+  width: 82%;
+}
+
+.left_el {
+  margin-left: 2rem;
+}
+
+.left_el h4 {
+  font-size: 1.7rem;
+  margin: 2rem 0;
+}
+
+.left_el p {
+  font-size: 1.5rem;
+  font-weight: lighter;
+  margin-bottom: 1rem;
+  margin-right: 4rem;
+}
+
+.whats_on_center {
+  display: flex;
+  align-items: center;
+  text-align: center;
+}
+.whats_on_center img {
+  width: 8rem;
+}
+
+.whats_on_right {
+  display: flex;
+  align-items: center;
+  text-align: center;
+  margin: 0px 2rem 0px 5rem;
+}
+.whats_on_right img {
+  width: 20rem;
+  align-items: center;
+  text-align: center;
+}
