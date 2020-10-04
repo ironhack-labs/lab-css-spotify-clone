@@ -6,3 +6,147 @@ Green: #00B172
 White: #FFF
 
 */
+
+@import url('https://fonts.googleapis.com/css2?family=Roboto:wght@300&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Roboto:wght@700;900&display=swap');
+
+body {
+    color: #1A1A1A;
+    font-family: 'Roboto', sans-serif;
+    margin: 0;
+	padding: 0;
+    border: 0;
+    font-size: 17px;
+}
+
+nav {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 5px 20px;
+    width: 100%;
+    position: fixed;
+    background-color: #FFF;
+    background-size: 100%;
+}
+
+nav ul {
+    display:flex;
+    justify-content: space-between;
+    list-style: none;
+    align-items: center;
+    padding: 0px 20px;
+}
+
+nav ul li a {
+    display:flex;
+    justify-content: space-between;
+    padding: 5px 15px;
+    text-decoration: none;
+    color: #1A1A1A;
+}
+
+
+nav img {
+    width: 150px;
+}
+
+.topImage {
+    background-image: url(../images/landing.jpg);
+    background-size: cover;
+    text-align: center;
+    color: #FFF;
+    height: 100%;
+    width: 100%;
+    background-position: 0px;
+    background-repeat: no-repeat;
+    background-size: 100% 100%;
+    padding: 150px 0;
+}
+
+.topImage h1 {
+    color: #FFF;
+    font-size: 50px;
+    font-weight: bold;
+}
+.topImage p {
+    color: #FFF;
+    font-size: 19px;
+    margin: auto 250px;
+}
+
+header h2 {
+    box-sizing: border-box;
+    text-decoration: underline #00B172 ;
+    text-decoration-thickness: 3px;
+    text-underline-offset: 0.3em;
+    text-align: center;
+    font-weight: bolder;
+    margin: 25px auto;
+}
+
+.whatsOn {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin: auto;
+    align-content: center;
+    text-align: center;
+}
+
+.miniImage{
+    width: 100px;
+}
+
+.whatsOnDescription {
+    margin: 30px;
+    width: 33%;
+}
+
+.whatsOnDescription h3{
+    color: #00B172;
+    font-weight: 900;
+}
+
+.greenSection {
+    background-color: #00B172;
+    margin: 20px;
+    color: #FFF;
+    padding: 4em 3em;
+    position: relative;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+
+.greenDescription {
+    width: 33%;
+    margin: 10px;
+    align-items: center;
+    justify-content: space-between;
+}
+
+#miniImageSpotify{
+    width: 100px;
+    position: relative;
+    right: 50%;
+    top: auto;
+    left: 50%;
+    bottom: auto;
+    margin: 0px;
+}
+
+#kanyeImage {
+    max-width: 220px;
+    padding: auto;
+}
+
+.greenDescription h2 {
+    text-decoration: underline ;
+    text-decoration-thickness: 3px;
+    text-underline-offset: 0.5em;
+    margin: auto -100% 50px 0;
+    padding-right: -200px;
+    font-size: 25px;
+    letter-spacing: 1px;
+}
