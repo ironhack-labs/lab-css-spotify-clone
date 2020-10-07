@@ -1,8 +1,195 @@
-/*
-Colors:
+@import url('https://fonts.googleapis.com/css?family=Poppins');
 
-Text: 1A1A1A
-Green: #00B172
-White: #FFF
+body {
+  font-family: 'Poppins';
+}
 
-*/
+
+header {
+    background-color: #FFF;
+    padding: 0 2% 0 2%;
+    top: 0;
+    position: fixed;
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center; 
+    border-bottom: 1px solid lightgray;
+}
+
+nav {
+ width: 80%;
+}
+
+nav ul {
+  list-style: none;
+  display: flex;
+  justify-content: space-evenly;
+  align-items: center;
+  font-size: 1.2em;
+  }
+
+  nav a {
+    text-decoration: none;
+    color: black;
+  }
+
+  .spotifyLogo {
+    width: 20%;
+    padding: 0.5rem;
+    margin-right: 1rem;
+  }
+
+
+
+#sec1 {
+    background-image: url("/images/landing.jpg");
+    background-position: center;
+    background-size: cover;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    height: 70em;
+    background-color: rgba(232, 217, 217, .3);
+}
+
+#sec1 h1 {
+    font-size: 6.5em;
+    font-weight: 700;
+    color: #FFF;
+    margin-top: 0%;
+    margin-bottom: 2%;
+}
+
+#sec1 article {
+    width: 42%;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+    font-size: 1.9em;
+    color: #FFF;
+    font-weight: 100;
+}
+
+
+/* Sección 3. Utilizar containers con flexbox */
+
+#sec3 {
+    display: flex;
+    flex-direction: column;
+    height: 45em;
+    align-items: center;
+    justify-content: flex-start;
+    flex-wrap: nowrap; 
+}
+
+.articulos {
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-start;
+    align-items: center;
+}
+/* Cambiar tamaño de los iconos */
+
+.image {
+    width: 20%;
+    height: 50%;
+}
+
+
+.container {
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+    margin: 0 auto;
+    /* margin: 0 auto;
+    height: 300px; */
+    width: 90%;
+}
+
+.container div {
+    text-align: center;
+    width: 30%;
+    height: 50%;
+}
+#sec3 h2 {
+    color: black;
+    font-weight: bolder;
+    font-size: 2.5em;
+    margin-bottom: 0.1%;
+    text-decoration: underline solid #00B172;
+}
+#sec3 h3 {
+    color: #00B172;
+    font-weight: bolder;
+    font-size: 2.5em;
+}
+
+#sec3 p {
+    margin: auto;
+
+    font-size: 1.5em;
+    font-weight: inherit;
+}
+
+
+
+#sec4 {
+    display: flex;
+    flex-direction: column;
+    height: 70em;
+    align-items: flex-start;
+    justify-content: flex-start;
+    flex-wrap: nowrap; 
+    background-color: #00B172;
+    margin-left: 2%;
+    margin-right: 3%;
+}
+
+#sec4  h2 { 
+    display: flex;
+    flex-direction: row;
+    justify-content: left;
+    margin-left: 9%;
+    color: white;
+    margin-top: 6%;
+    font-size: 3.2em;
+    text-decoration: underline ;
+}
+
+.kanyeWest {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    height: auto;
+    font-size: 1.5em;
+    width: 100%;
+}
+
+.kanyeWest h3 {
+    font-weight: 900;
+    font-size: 1.6em;
+}
+
+#container4 {
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+    margin: 0 auto;
+    /* margin: 0 auto;
+    height: 300px; */
+    width: 90%;
+    color: white;
+}
+
+#logo-blanco {
+    width: 30%;
+}
+
+#imagen-kanye {
+    width: 80%;
+}
