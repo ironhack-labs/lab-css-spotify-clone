@@ -6,20 +6,61 @@ Green: #00B172
 White: #FFF
 
 */
-nav {
-    padding: 0 25px;
+/* @font-face {
+    font-family: "Proxima Nova"; 
+    src: url('https://fonts.googleapis.com/css?family=Proxima+Nova');
+} NOTA: Intente usar font-face e @import pero no consegui que funcionara*/
+
+*{
+    font-family: sans-serif;
+}
+
+.spotify-img {
+    height: 50px;
     display: flex;
-    justify-content: space-between;
-    align-items: center;
-    border-bottom: 1px solid lightgray;
+    float: left;
+    padding: 20px 20px
+    
+}
+nav {
+    width: 100%;
+    position: sticky;
+    /* background-color: #FFF; */
+    
 }
 nav ul {
-    list-style: none;
+    list-style: none; 
     display: flex;
-    justify-content: space-between;
-    align-items: center;
+    justify-content: space-around;
+    margin-left: 800px;
+    padding-top: 35px;  
+    color: rgb(27, 27, 27); 
 }
-nav a {
-    text-decoration: none;
-    color: black;
+.musicImages {
+    height: 100px;
+    display:block;
+    margin:auto;
 }
+.horizontalBox {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+    padding: 0px 100px 0 100px
+    
+}
+/* .titleThree{
+    text-align: center;
+    padding-top: 15px;
+    border-bottom: 5px solid #00B172;
+} */
+.titleThree:first-line{
+    
+    border-bottom: 5px solid #00B172;
+    padding-top: 68%;
+    text-align: center;
+/* p {
+    width: 200px;
+    text-align: center;
+} */
+
+/*********** Last section***********/
