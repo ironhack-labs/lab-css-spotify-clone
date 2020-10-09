@@ -45,6 +45,10 @@ html, body{
     font-weight: 500;
     
   }
+  .nav-bar a{
+    color: #1A1A1A;
+    text-decoration:none;
+  }
   .header{
     display: flex;  
     flex-direction: column;
@@ -78,6 +82,7 @@ h2{
     flex-direction: column;
     align-items: center;
     margin-block-start: 20px;
+    margin-block-end: 40px;
 }
 #characteristics>div{
     display: flex;
@@ -96,7 +101,7 @@ h2{
 .container img{
     height: 80px;     
 }
-.container>h3{
+#characteristics .container>h3{
     color: #00B172;
     font-weight: 800;
 }
@@ -106,5 +111,56 @@ h2{
     text-align: center;
     line-height: 1.8rem;
     margin-top: 0;
+}
+
+#playlist{
+    
+    background-color:  #00B172;
+    height: 800px;
+
+    
+}
+#logo-center{
+    position: relative;
+    width: 8%;
+    top: 320px;
+    left: 45%;
+}
+#flex-footer{
+    display: flex;
+    justify-content: space-between;
+    align-items: ;
+    color:#FFF;
+    flex-wrap:wrap;
+    align-items: center;
+    
+    
+}
+#flex-footer>div{
+   width: 26%;
+   margin-left: 5%;
+  
+
+}
+#flex-footer .container{
+align-items: flex-start;
+width: 80%;
+padding-bottom: 30px;
+
+
+}
+
+#flex-footer .info{
+    text-align: start;
+    
+}
+#flex-footer h2{
+    text-align: start;
+    border-bottom: 3px solid #FFF;
+    padding-bottom: 3px;
+}
+#play-img{
+    height: 500px;
+    margin-right: 5%;
 }
 
