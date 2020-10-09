@@ -6,3 +6,105 @@ Green: #00B172
 White: #FFF
 
 */
+
+html, body{
+    margin: 0;
+    padding: 0;
+    font-family: 'Montserrat', sans-serif;
+    font-size:12px;
+    color: #1A1A1A;
+    font-weight: 300;
+
+}
+
+#spotify-logo{
+    height: 40px;
+    padding-top: 5px;
+    padding-left: 20px;
+}
+.nav-bar {
+    position: fixed;
+    display: flex;
+    justify-content: space-between;
+    background-color: #FFF;
+
+    padding-top:6px;
+    padding-bottom:6px;
+    width: 100%;
+    
+  }
+  .nav-bar-ul{
+    width: 30%;
+    display: flex;
+    justify-content: space-evenly;
+  
+  }
+  .nav-bar-ul > li{
+    list-style-type: none;
+    font-size: 1.6rem;
+    font-weight: 500;
+    
+  }
+  .header{
+    display: flex;  
+    flex-direction: column;
+    justify-content: center;
+    height:1000px;
+    background-image: url("../images/landing.jpg");
+    background-position: 0 0;
+    background-repeat: no-repeat;
+    background-size: cover;
+  }
+
+.header h1{
+    color: white;
+    font-size: 7rem;
+    text-align: center;
+    margin-bottom: 0;
+}
+h2{
+    font-size: 2.2rem;
+    text-align: center;
+    font-weight: 00;  
+}
+.header h2{
+    color: white;
+    font-weight: 100;
+    line-height: 3.5rem; 
+
+}
+#characteristics{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    margin-block-start: 20px;
+}
+#characteristics>div{
+    display: flex;
+    width: 90%;
+    justify-content: space-evenly;
+    padding-top: 2%;
+    padding-bottom: 2%;
+}
+.container{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    width: 30%;
+    font-size: 1.2rem;
+}
+.container img{
+    height: 80px;     
+}
+.container>h3{
+    color: #00B172;
+    font-weight: 800;
+}
+
+
+.info{
+    text-align: center;
+    line-height: 1.8rem;
+    margin-top: 0;
+}
+
