@@ -1,8 +1,225 @@
-/*
-Colors:
+@font-face {
+  font-family: "Circular";
+  src: url("../fonts/CircularStd-BlackItalic.woff2") format("woff2"),
+    url("../fonts/CircularStd-BlackItalic.woff") format("woff");
+  font-weight: 900;
+  font-style: italic;
+  font-display: swap;
+}
 
-Text: 1A1A1A
-Green: #00B172
-White: #FFF
+@font-face {
+  font-family: "Circular";
+  src: url("../fonts/CircularStd-Bold.woff2") format("woff2"),
+    url("../fonts/CircularStd-Bold.woff") format("woff");
+  font-weight: bold;
+  font-style: normal;
+  font-display: swap;
+}
 
-*/
+@font-face {
+  font-family: "Circular";
+  src: url("../fonts/CircularStd-Book.woff2") format("woff2"),
+    url("../fonts/CircularStd-Book.woff") format("woff");
+  font-weight: normal;
+  font-style: normal;
+  font-display: swap;
+}
+
+@font-face {
+  font-family: "Circular";
+  src: url("../fonts/CircularStd-BoldItalic.woff2") format("woff2"),
+    url("../fonts/CircularStd-BoldItalic.woff") format("woff");
+  font-weight: bold;
+  font-style: italic;
+  font-display: swap;
+}
+
+@font-face {
+  font-family: "Circular";
+  src: url("../fonts/CircularStd-Black.woff2") format("woff2"),
+    url("../fonts/CircularStd-Black.woff") format("woff");
+  font-weight: 900;
+  font-style: normal;
+  font-display: swap;
+}
+
+@font-face {
+  font-family: "Circular";
+  src: url("../fonts/CircularStd-MediumItalic.woff2") format("woff2"),
+    url("../fonts/CircularStd-MediumItalic.woff") format("woff");
+  font-weight: 500;
+  font-style: italic;
+  font-display: swap;
+}
+
+@font-face {
+  font-family: "Circular";
+  src: url("CircularStd-Medium.woff2") format("woff2"),
+    url("CircularStd-Medium.woff") format("woff");
+  font-weight: 500;
+  font-style: normal;
+  font-display: swap;
+}
+
+@font-face {
+  font-family: "Circular";
+  src: url("../fonts/CircularStd-BookItalic.woff2") format("woff2"),
+    url("../fonts/CircularStd-BookItalic.woff") format("woff");
+  font-weight: normal;
+  font-style: italic;
+  font-display: swap;
+}
+
+html,
+body {
+  margin: 0;
+  padding: 0;
+  font-family: "Circular";
+  color: #1a1a1a;
+}
+
+section,
+div,
+article {
+  overflow: hidden;
+  box-sizing: border-box;
+}
+
+a,
+a:visited {
+  text-decoration: none;
+  color: #1a1a1a;
+}
+
+a:hover {
+  color: #00b172;
+}
+
+.wrapper {
+  max-width: 1200px;
+  margin: 0 auto;
+  padding: 2em 2em 0em 2em;
+}
+
+.tituloSeccion {
+  padding-bottom: 10px;
+  border-bottom: 4px solid;
+  width: fit-content;
+}
+
+h1 {
+  font-size: 3em;
+}
+
+header {
+  display: flex;
+  padding: 0.75em 2em;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.logo {
+  width: 11%;
+}
+
+nav li {
+  display: inline-block;
+  margin-right: 20px;
+}
+
+nav li:last-child {
+  margin-right: 0;
+}
+
+#image-sec {
+  text-align: center;
+  background-image: url("../images/landing.jpg");
+  background-size: cover;
+  background-position: center;
+  height: 75vh;
+  color: #ffffff;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+#image-sec div {
+  max-width: 500px;
+}
+
+#image-sec p {
+  font-size: 1.2em;
+}
+
+#whatsSpot {
+  text-align: center;
+}
+
+#whatsSpot h2 {
+  margin: 0 auto;
+  border-color: #00b172;
+}
+
+#whatsSpot h4 {
+  color: #00b172;
+  font-size: 1.25em;
+}
+
+.col-3 {
+  display: flex;
+  justify-content: space-between;
+  padding: 3em 2em;
+}
+
+.card {
+  flex-basis: 30%;
+  padding: 0 1em;
+}
+.card img {
+  width: 30%;
+}
+
+.card p {
+  font-size: 1.15em;
+}
+
+#kanye {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  background-color: #00b172;
+  color: #ffffff;
+  margin: 1em 2em;
+  padding: 2em 3em;
+}
+
+#kanye .tituloSeccion {
+  font-weight: 400;
+  font-size: 1.75em;
+}
+
+#kanye h4 {
+  font-size: 1.25em;
+}
+
+.left {
+  flex-basis: 100%;
+}
+
+.center {
+  align-self: center;
+}
+
+.center img {
+  width: 40%;
+  display: block;
+  margin: 0 auto;
+}
+
+.app-col {
+  padding: 2em;
+}
+
+.app {
+  width: 100%;
+}
