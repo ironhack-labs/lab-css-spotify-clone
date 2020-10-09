@@ -6,3 +6,188 @@ Green: #00B172
 White: #FFF
 
 */
+* {
+    margin: 0;
+    padding: 0;
+}
+
+html {
+    font-family: 'Rubik', sans-serif;
+    font-size: 20px;
+}
+
+/* HEADER */
+nav {
+    padding: 0.8em;
+    display: flex;
+    justify-content: space-between;
+}
+nav img {
+    width: 90px;
+    margin-left: 15px;
+}
+
+#menu {
+    display: flex;
+    align-items: center;
+    margin-right: 15px;
+}
+
+div ul {
+    font-weight: lighter;
+    width: 300px;
+    font-size: 12px;
+    display: flex;
+    justify-content: space-between;
+}
+
+ul {
+    list-style: none;
+}
+
+.background {
+    background-image: url(/lab-css-spotify-clone/images/landing.jpg);
+    background-size: cover;
+    background-repeat: no-repeat;
+    height: 600px;
+    display: flex;
+    flex-direction: column;
+    text-align: center;
+    justify-content: center;  
+}
+
+#title {
+    width: 60%;
+    font-size: 1.5em;
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+#subtitle {
+    font-size: smaller;
+    font-weight: 100;
+    width: 35%;
+    margin-top: 15px;
+}
+
+#title , #subtitle {
+    color: white;
+    display: flex;
+    justify-content: center;
+    padding: 5px;
+    align-self: center;
+    
+}
+
+/*SECTION WHAT'S ON SPOTIFY*/
+#mainTitle {
+    padding: 5px;
+    display: flex;
+    justify-content: center;
+}
+
+#mainTitle h3 {
+    border-bottom: 2px solid #00B172;
+    margin-top: 40px;
+}
+
+.mainContent {
+    padding: 10px 0;
+    display: flex;
+    justify-content: space-around;
+    margin: 30px 30px 50px 30px;
+}
+
+.mainContent article {
+    margin: 10px;
+    padding: 20px; 
+    width: 25%;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    text-align: center;
+}
+
+#main img {
+    width: 60px;
+}
+
+#main p{
+    color: #1A1A1A;
+    font-size: 15px;
+    width: 180px;
+}
+
+#main h4 {
+    color: #00B172;
+    padding: 25px 0 20px;
+}
+
+/*SECTION LAST SECTION*/
+#lastSection {
+    margin: 0 30px 30px;
+    background-color: #00B172;
+    padding: 30px;
+    display: flex;
+    justify-content: space-around;
+}
+
+#firstContainer {
+    display: flex;
+    flex-direction: column;
+    width: 60%;
+}
+
+.container1 {
+    display: flex;
+    padding-right: 40px;
+}
+
+#logowhite {
+    width:70%;
+    display:flex;
+    justify-content: center;
+    align-items: center;
+}
+
+#secondContainer {
+    width: 40%;
+    display: flex;
+    justify-content: center;
+    align-items: flex-end;
+}
+
+
+#lastSection h3{
+    color: white;
+    font-size: 30px;
+    font-weight: 450;
+    border-bottom: 2px solid white;
+    width: 400px;
+    padding-bottom: 3px;
+    margin-bottom: 15px;
+}
+.container1 h4 {
+    color: white;
+    padding: 15px 0 20px;
+    font-weight: 600;
+}
+.container1 p {
+    color: white;
+    font-size: 15px;
+    font-weight: lighter;
+    line-height: 200%;
+    width: 80%;
+}
+#logowhite img {
+    width: 100px;
+}
+#secondContainer img{
+    width: 250px;
+    align-self: center;
+}
+
+
+
+
+
