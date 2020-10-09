@@ -98,7 +98,7 @@ a:hover {
 .wrapper {
   max-width: 1200px;
   margin: 0 auto;
-  padding: 2em;
+  padding: 2em 2em 0em 2em;
 }
 
 .tituloSeccion {
@@ -186,17 +186,31 @@ nav li:last-child {
 #kanye {
   display: flex;
   align-items: center;
+  justify-content: space-between;
   background-color: #00b172;
   color: #ffffff;
   margin: 1em 2em;
   padding: 2em 3em;
 }
 
-.col-2 {
-  display: flex;
+#kanye .tituloSeccion {
+  font-weight: 400;
+  font-size: 1.75em;
 }
 
-.right img {
+#kanye h4 {
+  font-size: 1.25em;
+}
+
+.left {
+  flex-basis: 100%;
+}
+
+.center {
+  align-self: center;
+}
+
+.center img {
   width: 40%;
   display: block;
   margin: 0 auto;
