@@ -6,3 +6,165 @@ Green: #00B172
 White: #FFF
 
 */
+
+*{
+    margin: 0;
+    padding: 0;
+    font-family: 'Roboto', sans-serif;
+}
+p{
+    font-family: 'Roboto', sans-serif;
+    font-weight: 300;
+
+}
+
+ header{
+     width: 100%;
+     background-color: #ffffff;
+ }
+ 
+.logo {
+    width: 200px;
+   
+}
+.cabecera {
+    padding: 20px 40px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+  }
+  
+  nav {
+    width: 600px;
+  }
+  
+  nav ul {
+    list-style: none;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+  }
+ul li{
+    padding: 0 10px;
+    font-size: 25px;
+}
+ul li a{
+    color: #1A1A1A;
+    text-decoration: none;
+}
+.fondoMusic{
+    background-image: url(/images/landing.jpg);
+    background-repeat: no-repeat;
+    background-position: top;
+    background-size: 100%;
+    width: 100%;
+    padding-bottom: 20%;
+    color: #ffffff;
+
+}
+
+.fondoMusic h1{
+    text-align: center;
+    padding-top: 20%;
+    padding-bottom: 2%;
+    font-size: 10vh;
+}
+.fondoMusic p{
+    text-align: center;
+    font-size: 28px;
+}
+
+/* Aqui acaba el Header */
+
+.happen {
+    background-color: #ffffff;
+    text-align: center;
+}
+.happen span{
+    color: #000000;
+    text-align: center;
+    display: block;
+    font-size: 35pt;
+    font-weight: bolder;
+    padding-top: 40px;
+    padding-bottom: 8px;
+    text-decoration: underline #00B172;
+    text-underline-position: under;
+}
+/*    text-decoration: underline #00B172 ;*/
+.caracteristicas {
+        display: flex;
+        flex-direction: row;
+        flex-wrap: nowrap;
+        justify-content: space-around;
+        align-items: center;
+        align-content: center;
+        padding: 100px 0;
+    
+}
+
+.linea p{
+    text-align: center;
+    font-size: 22px;
+    padding: 20px 0;
+    color: #1A1A1A;
+}
+.linea img{
+    width: 150px;
+    padding: 20px;
+}
+.linea h2{
+    color: #00B172;
+    font-size: 35px;
+    
+}
+
+/* Kanye */
+
+.fondo{
+    background-color: #00B172 ;
+    background-image: url(/images/spotify-icon-white.png);
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: 150px;
+    color: #ffffff;
+    padding: 5%;
+    display: flex;
+    flex-direction: row;
+    flex-wrap: nowrap;
+        justify-content: center;
+        align-items: top;
+        align-content: top;
+}
+
+.izquierda {
+    text-align: left;
+    width: 50%;
+}
+.derecha{
+    width: 20%;
+
+}
+
+.titulo{
+    text-decoration: underline #ffffff;
+    text-underline-position: under;
+    font-size: 40px;
+    padding-bottom:20px
+}
+.izquierda div h2{
+    color: #ffffff;
+    font-size: 25px;
+    padding:30px 0;
+}
+
+.izquierda div p{
+    color: #ffffff;
+    font-size: 20px;
+}
+.spotylogo{
+    width: 150px;
+}
+.kanye{
+    width: 350px;
+}
