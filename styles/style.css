@@ -1,8 +1,177 @@
+@import url('https://fonts.googleapis.com/css2?family=Open+Sans&display=swap');
+
+
 /*
 Colors:
-
 Text: 1A1A1A
 Green: #00B172
 White: #FFF
-
 */
+
+html, body {
+    font-family: "Open Sans";
+    font-size: 20px;
+    line-height: 2em;
+    font-weight: 300;
+    color: #1A1A1A;
+    margin: 0px;
+    padding: 0px;
+  }
+
+h1, h2, h3 {
+    font-family: 'Open Sans Condensed', sans-serif;
+}
+
+h1 {
+    font-size: 50px;
+    color: #FFF;
+    text-align: center;
+    font-weight: 800;
+}
+
+h2 {
+  font-size: 28px;
+  font-weight: 800;
+}
+  
+ h3 {
+  font-size: 26px;
+  font-weight: 600px;
+}
+
+#whats-on {
+  display: flex;
+  align-items: center;
+  flex-direction: column;
+}
+
+.underline-h2 {
+  text-align: center;
+  padding-bottom: 10px;
+  border-bottom: 4px solid #00B172;
+  width: fit-content;
+}
+
+#whats-on h3  {
+  color:#00B172;
+  text-align: center;
+}
+
+.container > p {
+  text-align: center;
+  color: #1A1A1A
+}
+
+#whats-on .wraper-whatson  {
+  display: flex;
+  justify-content: space-between;
+	align-items: center;
+	align-content: center;
+}
+
+#whats-on .container{
+    margin: 0 auto;
+    padding: 70px 50px;
+    width: 40%;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+ .container > img {
+  width: 125px;
+}
+
+#featured-artist {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  background-color: #00b172;
+}
+
+#featured-artist > article {
+  margin: 0 auto;
+  padding: 2em 2em 0em 2em;
+}
+
+#kanye-featured > h2 {
+  color: #FFF;
+  text-align: left;
+  padding-bottom: 10px;
+  border-bottom: 4px solid  #FFF;
+  width: fit-content;
+  margin-left: 16px;
+}
+
+.left-column-sect3, p {
+  color:#FFF;
+}
+
+#featured-artist .left-column-sect3 {
+  align-items: baseline;
+  padding: 0em 1em;
+}
+
+#featured-artist .center-column-sect3 > img {
+  align-content: center;
+  width: 125px;
+  padding: 50px;
+}
+
+#featured-artist .right-column-sect3 > img {
+  align-content: center;
+  width: 100%;
+
+}
+
+.nav-bar {
+  position: fixed;
+  width: 100%;
+  height: 80px;
+  display: flex;
+  justify-content: space-between;
+  background-color: #FFF;
+}
+
+.logo {
+  max-width: 10%;
+  height: auto;
+  margin-left: 30px;
+  padding: 20px;
+  justify-content: left;
+}
+
+.nav-bar-ul {
+  display: flex;
+  justify-content: right;
+  margin: 15px;
+  align-items: center;
+}
+
+.nav-bar-ul li {
+  display: inline-block;
+  padding: 15px;
+  width: fit-content;
+  height: auto;
+  list-style-type: none;
+  text-align: center;
+}
+
+.header {
+  background-image: url("../images/landing.jpg");
+  background-position: center;
+  background-size: cover;
+  background-repeat: no-repeat;
+  height: 600px;
+  padding-top: 50px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  flex-direction: column;
+}
+
+.header > p {
+  color:#FFF;
+  font-size: 23px;
+  text-align: center;
+}
