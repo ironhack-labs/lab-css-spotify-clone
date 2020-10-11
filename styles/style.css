@@ -79,13 +79,41 @@ nav ul {
 .imgBox {
     height: 80px;
 }
-.verticalBox {
-    padding-bottom: 5%;
-    padding-left: 5%;
-    background-image: url('../images/spotify-icon-white.png');
+/* Final */
+.lastTitle:first-line{
+    border-bottom: 2px solid #FFF;
+    font-size: 30px;
+} 
+.LastSection{
     background-color: #00B172;
-    background-position: center;
-    background-size: 100px;
-    background-repeat: no-repeat;
+    padding: 50px 0px;
+    margin: 50px;
+    position: relative;
 }
+.verticalBox{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-evenly;
+    color: #FFF;
+    align-items: right;
+}
+.left {
+    width: 500px;
+} 
+.left p{
+    line-height: 1.5;
+    margin-bottom: 20px;
+    width: 300px;
+}
+h5{
+    font-size: 15px;
+    margin: 30px 0;
+}
+.white-logo img{
+    position: absolute;
+    width: 130px;
+    center: 45%;
+} 
 
+    /* El logo blanco se queda detras de Kanye, no esta funcionando bien  */
+    
