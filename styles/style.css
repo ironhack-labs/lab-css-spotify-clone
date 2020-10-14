@@ -6,3 +6,144 @@ Green: #00B172
 White: #FFF
 
 */
+body {
+    margin: 0;
+    padding: 0;
+    font-family: Helvetica, sans-serif;
+}
+
+h1 {
+    font-size: 3.7em;
+    margin: 0;
+}
+
+h2 {
+    font-size: 2.7em;
+    margin: 0;
+}
+
+h3 {
+    font-size: 1.7em;
+    margin: 0;
+}
+
+h4 {
+    font-size: 1.3em;
+    margin: 0;
+}
+
+p {
+    font-weight: 100;
+}
+
+.navbar {
+    width: 100%;
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    height: 65px;
+    position: fixed;
+    background-color: white;;
+    justify-content: space-between;
+}
+
+.navbar img {
+    height: 35px;
+}
+
+.menu {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+}
+
+.menu ul{
+    margin: auto;
+    width: 300px;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+    list-style-type: none;
+    align-self: center;
+}
+
+a {
+    text-decoration: none;
+    color: black;
+    font-weight: lighter;
+    font-size: 15px;
+}
+
+#main-section {
+    height: 600px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+    background-image: url("../images/landing.jpg");
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: bottom;
+    color: white;
+}
+
+#main-section article {
+    width: 400px
+}
+
+#features {
+    height: 400px;
+    text-align: center;
+    margin-top: 50px;
+}
+
+#features hr {
+    border: 2px solid #00B172;
+    width: 240px;
+}
+
+#features-container {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+    margin-top: 70px;
+}
+
+#features-container img {
+    height: 100px;
+}
+
+.feature {
+    width: 200px;
+}
+
+.feature h4 {
+    margin-top: 15px;
+    color: #00B172;
+}
+
+.feature p {
+    font-weight: lighter;
+}
+
+#green-section {
+    background-color: #00B172;
+    margin: 20px;
+    color: white;
+}
+
+#green-section-container {
+    padding: 40px;
+}
+
+#green-section-container hr {
+    border: 2px solid white;
+    width: 360px;
+    float: left;
+}
+
+.container {
+    display: flex;
+    flex-direction: row;
+}
