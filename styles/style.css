@@ -28,6 +28,17 @@ h1 {
     font-size: 2rem;
     font-weight: 600;
 }
+h2 {
+    padding-bottom: 0.12rem;
+    border-bottom: 2.8px solid #00B172;
+    font-size: 1rem;
+}
+h3 {
+    text-align: center;
+    padding-bottom: 0.5rem;
+    color: #00B172;
+    font-size: 0.75rem;
+}
 
 /* Navigation styles */
 .nav-wrapper {
@@ -51,7 +62,7 @@ h1 {
 }
 
 .logo-image img {
-    max-height: 1.7rem;
+    max-height: 1.65rem;
 }
 
 .nav-links {
@@ -67,14 +78,14 @@ h1 {
     flex: 0.2 1 auto;
     justify-content: flex-end;
     list-style: none;
-    font-size: 0.6rem;
+    font-size: 0.58rem;
 }
 
 /* Intro section styles */
 .intro-section {
-    height: 20.5rem;
+    height: 20.45rem;
     background-image: url('/images/landing.jpg');
-    background-position: center center;
+    background-position: bottom;
     background-size: cover;
     display: flex;
     flex-direction: column;
@@ -89,11 +100,10 @@ h1 {
 }
 .intro-text {
     color: #fff;
-    width: 55vw;
     text-align: center; 
     font-weight: 300;
     font-size: 0.75rem;
-    padding-bottom: 2.5rem;
+    padding-bottom: 3.8rem;
 }
 
 /* What's-On Styles */
@@ -104,11 +114,6 @@ h1 {
     flex: 1 1 auto;
     height: 15rem;
     justify-content: space-around;
-}
-.whats-on-wrapper h2 {
-    padding-bottom: 0.15rem;
-    border-bottom: 3.5px solid #00B172;
-    font-size: 1rem;
 }
 .features-wrapper {
     display: flex;
@@ -140,12 +145,6 @@ h1 {
     font-weight: 300;
     max-width: 22vw;
 }
-.description-wrapper h3 {
-    text-align: center;
-    padding-bottom: 0.5rem;
-    color: #00B172;
-    font-size: 0.75rem;
-}
 
 /* Green Section styles */
 .green-container {
@@ -154,14 +153,14 @@ h1 {
     background-color: #00B172;
     margin: 0rem 1rem;
     margin-bottom: 1rem;
-    padding: 1rem 2rem;
+    padding: 0rem 2rem;
     color: #fff;
     justify-content: space-around;
 }
 .green-container-left {
     display: flex;
     align-items: flex-start;
-    justify-content: space-evenly;
+    justify-content: space-around;
     flex-direction: column;
     flex: 0.5 1 auto;
 }
@@ -169,8 +168,13 @@ h1 {
     display: flex;
     justify-content: flex-start;
 }
-.green-container-left h4 {
-    font-size: 0.75rem;
+.green-header h3 {
+    color: #fff;
+    font-size: 0.9rem;
+    margin: 1rem 0rem 1.4rem 0rem;
+    padding-bottom: 0.13rem;
+    border-bottom: 2.5px solid #fff;
+    font-size: 0.9rem;
 }
 .green-text-logo-wrapper {
     display: flex;
@@ -181,17 +185,14 @@ h1 {
     flex-direction: column;
     width: 36vw;
 }
-.green-text-left div p {
-    font-size: 0.6rem;
-    font-weight: 300;
-    padding: 0.8rem 0rem;
-    width: 27vw;
+.green-container-left h4 {
+    font-size: 0.75rem;
 }
-.yeezy {
-    padding-bottom: 0.15rem;
-    border-bottom: 2.5px solid #fff;
-    font-size: 0.9rem;
-    margin: 1.3rem 0rem;
+.green-text-left div p {
+    font-size: 0.58rem;
+    font-weight: 300;
+    padding: 0.9rem 0rem;
+    width: 25vw;
 }
 .green-logo img {
     width: 3.2rem;
@@ -204,5 +205,5 @@ h1 {
 }
 .kanye-artist-page img {
     margin-top: 1.2rem;
-    height: 15.5rem;
+    height: 15.9rem;
 }
