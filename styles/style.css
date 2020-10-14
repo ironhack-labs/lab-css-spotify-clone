@@ -17,7 +17,7 @@ body {
     font-family: "Open Sans";
 }
 main {
-    margin-top: 3rem;
+    margin-top: 2.4rem;
     width: 100vw;
 }
 a {
@@ -25,13 +25,13 @@ a {
     color: #1A1A1A;
 }
 h1 {
-    font-size: 2.4rem;
-    font-weight: 400;
+    font-size: 2rem;
+    font-weight: 600;
 }
 
 /* Navigation styles */
 .nav-wrapper {
-    height: 3rem;
+    height: 2.4rem;
     display: flex;
     flex: 2 1 auto;
     padding: 0rem 1.5rem;
@@ -48,11 +48,11 @@ h1 {
     display: flex;
     justify-content: flex-start;
     flex: 1 1 auto;
-    align-items: center;
+    align-items: flex-end;
 }
 
 .logo-image img {
-    max-height: 2rem;
+    max-height: 1.7rem;
 }
 
 .nav-links {
@@ -68,12 +68,12 @@ h1 {
     flex: 0.2 1 auto;
     justify-content: flex-end;
     list-style: none;
-    font-size: 0.8rem;
+    font-size: 0.6rem;
 }
 
 /* Intro section styles */
 .intro-section {
-    height: 25rem;
+    height: 20.5rem;
     background-image: url('/images/landing.jpg');
     background-position: center center;
     background-size: cover;
@@ -93,7 +93,8 @@ h1 {
     width: 55vw;
     text-align: center; 
     font-weight: 300;
-    font-size: 0.8rem;
+    font-size: 0.75rem;
+    padding-bottom: 3rem;
 }
 
 /* What's-On Styles */
@@ -102,40 +103,49 @@ h1 {
     flex-direction: column;
     align-items: center;
     flex: 1 1 auto;
-    height: 20rem;
+    height: 15rem;
+    justify-content: space-around;
 }
 .whats-on-wrapper h2 {
-    padding-top: 2rem;
     padding-bottom: 0.15rem;
     border-bottom: 3.5px solid #00B172;
-}
-.whats-on-wrapper img {
-    max-height: 3.5rem;
-}
-.whats-on-wrapper h3 {
-    padding: 1rem 0rem;
-    color: #00B172;
-    font-size: 0.85rem;
-}
-.whats-on-wrapper p {
-    font-weight: 300;
+    font-size: 1rem;
 }
 .features-wrapper {
     display: flex;
-    flex-direction: row;
-    align-items: center;
-    flex: 1 1 auto;
-}
-.features-wrapper div {
-    display: flex;
     flex-direction: column;
-    align-items: center;
-    max-width: 33vw;
-    padding: 0rem 1rem;
+    justify-content: center;
 }
-.features-wrapper div p {
+
+.features-wrapper img {
+    max-height: 2.75rem;
+}
+.icons-wrapper {
+    display: flex;
+    justify-content: space-around;
+    align-items: flex-end;
+}
+
+.description-wrapper {
+    display: flex;
+    justify-content: space-around;
+    align-items: flex-start;
+}
+.description-wrapper div {
+    padding: 0rem 1.5rem;
+    padding-bottom: 1.5rem;
+}
+.description-wrapper div p {
     text-align: center;
-    font-size: 0.9rem;
+    font-size: 0.65rem;
+    font-weight: 300;
+    max-width: 22vw;
+}
+.description-wrapper h3 {
+    text-align: center;
+    padding-bottom: 0.5rem;
+    color: #00B172;
+    font-size: 0.75rem;
 }
 
 /* Green Section styles */
