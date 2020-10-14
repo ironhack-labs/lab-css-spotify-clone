@@ -6,14 +6,18 @@
     <meta http-equiv="X-UA-Compatible" content="ie=edge" />
     <title>Spotify Clone</title>
     <!-- don't forget to link your styles -->
+    <link rel="stylesheet" type="text/css" href="styles/style.css" />
   </head>
   <body>
+
+
 <!-- Navigatie bar met plaatje  -->    
 <section>
   <!-- Blauwe spotify bar  -->    
 <div>
-  <img src=images/spotify-logo.png alt="Spotify Logo"> 
-  <nav><ul>
+  <nav class="nav-bar">
+    <img class ="greenlogo" src=images/spotify-logo.png alt="Spotify Logo">
+    <ul class="nav-bar-ul">
     <li><a href="#premium">Premium</a></li>
     <li><a href="#discover">Discover</a></li>
     <li><a href="#help">Help</a></li>
@@ -21,35 +25,34 @@
     </ul></nav>
 </div>
 
-<header>
+<header class ="everyone">
 <h1>Music for everyone.</h1>
 <p>Spotify is now free on mobile, tablet and computer. Listen to the right music, wherever you are.</p>
-<img src = "images/landing.jpg" alt="Landing"/>
 </header>
 </section>
 
 
-<!-- what's on spotify  -->    
-<section>
+<section class="section2">
 <h2>What's on Spotify?</h2>
+
 <div>
-<article id=million>
+<article class="blok">
 <img src = "images/music-icon.png" alt="Music Icon"/> 
 <h3>Millions of Songs</h3>
-<p>There are millions of songs on Spotify</p>
+<p class="text">There are millions of songs on Spotify</p>
 </article>
 
-<article id=hdmusic>
+<article class="blok">
   <img src = "images/high-quality-icon.png" alt="High Quality"/> 
   <h3>HD Music</h3>
-  <p>Listen to music as if you were listening live</p>
+  <p class="text">Listen to music as if you were listening live</p>
 
 </article>
 
-<article id=stream>
+<article class="blok">
   <img src = "images/devices-icon.png" alt="Devices"/>
   <h3>Stream Everywhere</h3>
-  <p>Stream music on your smartphone, tablet or computer</p>
+  <p class="text">Stream music on your smartphone, tablet or computer</p>
 
 </article>
 </div>
@@ -57,32 +60,31 @@
 </section>
 
 <!-- it's as yeezy as Kanye West  --> 
-<section>
+<section id="green">
+<h2>It’s as yeezy as Kanye West.</h2>
 
-  <h4>It’s as yeezy as Kanye West.</h4>
-
-<article id=search>
+<div class= "drierij">
+  <div class="textrij">
+<article class="blokje">
   <h5>Search</h5>
   <p>Know what you want to listen to? Just search and hit play.</p>
 </article>
 
-<article id=browse>
+<article class="blokje">
   <h5>Browse</h5>
   <p>Check out the latest charts, brand new releases and great playlists for right now.</p>
 </article>
 
-<article id=discover>
+<article class="blokje">
   <h5>Discover</h5>
   <p>Enjoy new music every Monday with your own personal playlist. Or sit back and enjoy Radio.</p>
 </article>
+</div>
 
-<img src="images/spotify-icon-white.png" alt="Icon white" />
-<img src="images/spotify-app.jpg" alt="Spotify app" />
-
+<img id="whitelogo" src="images/spotify-icon-white.png" alt="Icon white" />
+<img id="kanye" src="images/spotify-app.jpg" alt="Spotify app" />
+</div>
 </section>
-
 
   </body>
 </html>
-
-
