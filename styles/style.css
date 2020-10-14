@@ -6,18 +6,52 @@ Green: #00B172
 White: #FFF
 
 */
+
+/* General styles */
 * {
     margin: 0;
     padding: 0;
     box-sizing: border-box;
 }
-    
+body {
+    font-family: "Open Sans";
+}
 
+a {
+    text-decoration: none;
+}
+
+/* Navigation styles */
 nav {
     height: 3rem;
     background: lightgray;
+    display: flex;
+    flex: 2 1 auto;
+    padding: 0rem 1rem;
+    justify-content: space-between;
+    font-weight: 300;
+    position: fixed;
 }
-
+.logo-image {
+    display: flex;
+    justify-content: flex-start;
+    flex: 1 1 auto;
+    align-items: center;
+}
 .logo-image img {
     max-height: 2rem;
 }
+.nav-links {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: flex-end;
+    flex: 1 1 auto;
+}
+.nav-link {
+    display: flex;
+    flex: 0.2 1 auto;
+    justify-content: flex-end;
+    list-style: none;
+}
+
