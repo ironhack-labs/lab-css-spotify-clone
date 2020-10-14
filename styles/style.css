@@ -15,9 +15,9 @@ White: #FFF
 }
 body {
     font-family: "Open Sans";
-    margin-top: 3rem;
 }
 main {
+    margin-top: 3rem;
     width: 100vw;
 }
 a {
@@ -30,16 +30,18 @@ h1 {
 }
 
 /* Navigation styles */
-nav {
+.nav-wrapper {
     height: 3rem;
     display: flex;
     flex: 2 1 auto;
-    padding: 0rem 1rem;
+    padding: 0rem 1.5rem;
     justify-content: space-between;
     font-weight: 300;
     position: fixed;
     top: 0;
     width: 100vw;
+    background-color: white;
+    z-index: 2;
 }
 
 .logo-image {
@@ -70,7 +72,7 @@ nav {
 
 /* Intro section styles */
 .intro-section {
-    height: 35rem;
+    height: 25rem;
     background-image: url('/images/landing.jpg');
     background-position: center center;
     background-size: cover;
@@ -78,6 +80,7 @@ nav {
     flex-direction: column;
     justify-content: center;
     align-items: center;
+    position: relative;
 }
 .intro-heading {
     color: #fff;
@@ -89,4 +92,35 @@ nav {
     width: 45vw;
     text-align: center; 
     font-weight: 300;
+}
+
+/* What's-On Styles */
+.whats-on-wrapper {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    flex: 1 1 auto;
+    height: 17rem;
+}
+.whats-on-wrapper h2 {
+    padding-top: 1rem;
+    padding-bottom: 0.15rem;
+    border-bottom: 3.5px solid #00B172;
+}
+.whats-on-wrapper img {
+    max-height: 4rem;
+}
+.features-wrapper {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    flex: 1 1 auto;
+}
+.features-wrapper div {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+.features-wrapper div p {
+    text-align: center;
 }
