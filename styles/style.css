@@ -1,3 +1,8 @@
+@import url('https://fonts.googleapis.com/css2?family=Montserrat:wght@100;300;400;500;600;700&display=swap');
+
+body {
+    font-family: 'Montserrat';
+}
 /*
 Colors:
 
@@ -6,3 +11,161 @@ Green: #00B172
 White: #FFF
 
 */
+
+/* NAVIGATION BAR */
+nav {
+    position: fixed;
+    object-position: 0 0;
+    background-color: white;
+    width: 100%;
+    display: flex;
+    justify-content: space-between;
+    padding: 20px 0px;
+}
+
+nav ul {
+    width: 40%;
+    list-style: none;
+    display: flex;
+    justify-content: space-even;
+    align-items: center;  
+    padding-right: 30px;  
+}
+
+nav ul li {
+    font-weight: 500;
+    padding-left: 10px;
+    padding-right: 10px;
+    font-size: 1.2em;
+}
+
+.green-logo {
+    padding-left: 40px;
+    height: 60px;
+}
+
+/* HEADER */
+
+header {
+    background-image: url(../images/landing.jpg);
+    background-size: contain;
+    background-repeat: no-repeat;
+    width: 100%;
+    height: auto;
+    text-align: center;
+}
+
+.intro{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    padding: 300px 0;
+}
+
+h1 {
+    font-size: 3.5em;
+    color: white;
+}
+
+header p {
+    font-size: 2em;
+    width: 60%;
+    color: white;
+}
+
+
+/* ARTICLE */
+
+.middle-section {
+    padding: 100px;
+}
+
+.middle-container > article > p {
+    font-weight: 300;
+    font-size: 1.3em;
+    line-height: 1.4em;
+}
+
+.middle-container > article  {
+    width: 30%;
+}
+
+h2 {
+    text-align: center;
+    font-size: 2em;
+    margin-bottom: 100px;
+}
+
+.h2-underline {
+    padding-bottom: 5px;
+    border-bottom-style: solid;
+    border-color:  #00B172;
+}
+
+h3 {
+    font-size: 1.5em;
+    font-weight: 800;
+    color:#00B172;
+}
+
+.art-icon {
+    height: 100px;
+}
+
+.middle-container {
+    padding-left: 100px;
+    padding-right: 100px;
+    display: flex;
+    text-align: center;
+    justify-content: space-between;
+
+}
+
+
+/* FOOTER */ 
+
+.green-footer {
+    background-color: #00B172;
+    display: flex;
+    justify-content: space-evenly;
+    align-content: center;
+    padding-bottom: 40px;
+    margin: 20px;
+}
+
+.footer-img img {
+    height: 600px;
+    display: flex;
+    align-content: center;
+    padding-top: 50px;
+}
+
+.info-footer{
+    width: 40%;
+
+}
+h4 {
+    color: white;
+    font-size: 2em;  
+}
+
+.h4-underline {
+    padding-bottom: 5px;
+    border-bottom-style: solid;
+}
+
+h5 {
+    font-weight: 600;
+    font-size: 1.5em;
+    color: white;
+    line-height: 1.3em;
+}
+
+.info-footer p {
+    color: white;
+    font-size: 1.2em;
+    line-height: 1.4em;
+    padding-right: 180px;
+    font-weight: 300;
+
+}
