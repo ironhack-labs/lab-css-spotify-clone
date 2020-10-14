@@ -15,32 +15,44 @@ White: #FFF
 }
 body {
     font-family: "Open Sans";
+    margin-top: 3rem;
 }
-
+main {
+    width: 100vw;
+}
 a {
     text-decoration: none;
+    color: #1A1A1A;
+}
+h1 {
+    font-size: 3rem;
+    font-weight: 400;
 }
 
 /* Navigation styles */
 nav {
     height: 3rem;
-    background: lightgray;
     display: flex;
     flex: 2 1 auto;
     padding: 0rem 1rem;
     justify-content: space-between;
     font-weight: 300;
     position: fixed;
+    top: 0;
+    width: 100vw;
 }
+
 .logo-image {
     display: flex;
     justify-content: flex-start;
     flex: 1 1 auto;
     align-items: center;
 }
+
 .logo-image img {
     max-height: 2rem;
 }
+
 .nav-links {
     display: flex;
     flex-direction: row;
@@ -48,6 +60,7 @@ nav {
     justify-content: flex-end;
     flex: 1 1 auto;
 }
+
 .nav-link {
     display: flex;
     flex: 0.2 1 auto;
@@ -55,3 +68,25 @@ nav {
     list-style: none;
 }
 
+/* Intro section styles */
+.intro-section {
+    height: 35rem;
+    background-image: url('/images/landing.jpg');
+    background-position: center center;
+    background-size: cover;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+.intro-heading {
+    color: #fff;
+    text-align: center;
+    padding-bottom: 0.8rem;
+}
+.intro-text {
+    color: #fff;
+    width: 45vw;
+    text-align: center; 
+    font-weight: 300;
+}
