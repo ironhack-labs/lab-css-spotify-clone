@@ -1,3 +1,5 @@
+@import url('https://fonts.googleapis.com/css2?family=Roboto:wght@100;300;400;500;700;900&display=swap');
+
 /*
 Colors:
 
@@ -6,3 +8,257 @@ Green: #00B172
 White: #FFF
 
 */
+
+body {
+    font-family: 'Roboto', sans-serif;
+    font-size: 16px;
+}
+
+html,
+body {
+  margin: 0;
+  padding: 0;
+}
+
+/* Header */
+
+header {
+    background-color: #FFF;
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: space-between;
+    position: fixed;
+    height: 80px;
+    width: 100%;
+    top: 0;
+    left: 0;   
+    margin: 0;
+    z-index: 4;
+}
+
+header > img {
+    /* background-color: red; */
+    height: 50px;
+    margin-left: 2%;   
+}
+
+  ul {
+    /* background-color: red; */
+    list-style-type: none;
+    margin-right: 2%;   
+}
+
+li {
+    float: left;
+  }
+
+  li a {
+    color: #515A5A;
+    text-align: center;
+    padding: 20px;
+    text-decoration: none;  
+    font-size: 1.3em;
+  }
+/* Section 1 */
+
+  #section1 {
+    height: 900px;
+    background-image: url("../images/landing.jpg");
+    position: relative;
+    top: 80px;
+    background-size: cover;
+    background-repeat: no-repeat;
+    z-index: 3;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    text-align: center;
+    margin: 0;
+  }
+
+  h1 {
+      font-size: 5em;
+      color: #FFF;
+      font-weight: 500;
+  }
+
+  h2 {
+    color: #FFF;
+    font-weight: 300;
+    font-size: 2em;
+    width: 50%;
+    margin: 0 auto;
+    line-height: 1.4em;
+  }
+
+/* Section 2 */
+
+#section2 {
+    /* background-color: red; */
+    display: flex;
+    flex-direction: column;
+    padding: 20px 20px ;
+    z-index: 2;
+    margin-bottom: 5px;
+  }
+
+.discover {
+    /* background-color: burlywood; */
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+    align-items: flex-end;
+    height: 200px;
+}
+
+#section2 > h3 {
+    margin: 110px auto 150px; 
+    font-size: 2.2em;
+    font-weight: 400;
+    line-height: 1.5em;
+    border-bottom: 3px solid #00B172;
+    
+}
+
+/* Article .song */
+.songs > img {
+      height: 80px;
+}
+
+.songs {
+    /* background-color: blue; */
+    width: 350px;
+    height: 250px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-items: center;
+    font-size: 1.4em;
+    font-weight: 300;
+    padding: 20px 10px 30px; 
+    text-align: center;     
+}
+
+.discover h4 {
+    /* background-color: cornsilk; */
+    font-weight: 400;
+    font-size: 1.3em;
+    color: #00B172;
+}
+
+.songs > p {
+    width: 75%;
+    margin-top: -10px;
+    color: #515A5A;
+}
+ 
+/* Article .music */
+.music  > img {
+    height: 80px;
+}
+
+.music {
+    /* background-color: blue; */
+    width: 350px;
+    height: 250px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-items: center;
+    font-size: 1.4em;
+    font-weight: 300;
+    padding: 20px 10px 30px; 
+    text-align: center;  
+}
+
+.music > p {
+    width: 75%;
+    margin-top: -10px;
+    color: #515A5A;
+}
+
+/* Article .device*/
+.device > img {
+    height: 80px;
+}
+
+.device {
+    /* background-color: blue; */
+    width: 350px;
+    height: 250px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-items: center;
+    font-size: 1.4em;
+    font-weight: 300;
+    padding: 20px 10px 30px; 
+    text-align: center;       
+}
+  
+.device > p {
+    width: 75%;
+    margin-top: -10px;
+    color: #515A5A;
+}
+
+/* Section 3 */
+
+#section3 {
+    background-color: #00B172;
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: space-around;
+    height: 800px;
+    
+    z-index: 3;
+    padding: 0 3% 3%;
+  }
+
+.app {
+    height: 75%;
+    margin-top: 150px;
+}
+
+.logo-white {
+    height: 15%;
+    padding-right: 5%;
+    margin-top: 150px;
+}
+
+.instructions {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    text-align: left;
+    width: 45%;
+    height: 60%;
+    margin: 0; 
+}
+
+.instructions > h3 {
+    font-weight: 500;
+    font-size: 3em;
+    color: #FFF;
+    border-bottom: 3px solid #FFF;
+    float: left;
+    line-height: 1.7em;
+}
+
+.instructions > p {
+    font-size: 1.5em;
+    font-weight: 200;
+    color: #FFF;
+    margin: 0;
+    width: 55%;
+}
+
+.instructions > h4 {
+    font-size: 1.7em;
+    font-weight: 400;
+    color: #FFF;
+    margin: 30px 0;
+
+}
