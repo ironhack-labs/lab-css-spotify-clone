@@ -25,7 +25,7 @@ a {
     color: #1A1A1A;
 }
 h1 {
-    font-size: 3rem;
+    font-size: 2.4rem;
     font-weight: 400;
 }
 
@@ -68,6 +68,7 @@ h1 {
     flex: 0.2 1 auto;
     justify-content: flex-end;
     list-style: none;
+    font-size: 0.8rem;
 }
 
 /* Intro section styles */
@@ -89,9 +90,10 @@ h1 {
 }
 .intro-text {
     color: #fff;
-    width: 45vw;
+    width: 55vw;
     text-align: center; 
     font-weight: 300;
+    font-size: 0.8rem;
 }
 
 /* What's-On Styles */
@@ -100,15 +102,23 @@ h1 {
     flex-direction: column;
     align-items: center;
     flex: 1 1 auto;
-    height: 17rem;
+    height: 20rem;
 }
 .whats-on-wrapper h2 {
-    padding-top: 1rem;
+    padding-top: 2rem;
     padding-bottom: 0.15rem;
     border-bottom: 3.5px solid #00B172;
 }
 .whats-on-wrapper img {
-    max-height: 4rem;
+    max-height: 3.5rem;
+}
+.whats-on-wrapper h3 {
+    padding: 1rem 0rem;
+    color: #00B172;
+    font-size: 0.85rem;
+}
+.whats-on-wrapper p {
+    font-weight: 300;
 }
 .features-wrapper {
     display: flex;
@@ -120,7 +130,74 @@ h1 {
     display: flex;
     flex-direction: column;
     align-items: center;
+    max-width: 33vw;
+    padding: 0rem 1rem;
 }
 .features-wrapper div p {
     text-align: center;
+    font-size: 0.9rem;
+}
+
+/* Green Section styles */
+.green-container {
+    display: flex;
+    height: 20rem;
+    background-color: #00B172;
+    margin: 0rem 1rem;
+    padding: 1rem 2rem;
+    color: #fff;
+    justify-content: space-around;
+}
+.green-container-left {
+    display: flex;
+    align-items: flex-start;
+    justify-content: space-evenly;
+    flex-direction: column;
+    flex: 0.5 1 auto;
+}
+.green-header {
+    display: flex;
+    justify-content: flex-start;
+}
+.green-container-left h3 {
+    display: flex;
+    justify-content: flex-start;
+}
+.green-container-left h4 {
+    font-size: 0.75rem;
+}
+.green-text-logo-wrapper {
+    display: flex;
+    align-items: center;
+}
+.green-text-left {
+    display: flex;
+    flex-direction: column;
+    width: 35vw;
+    /* background-color: lightcoral; */
+}
+.green-text-left div p {
+    font-size: 0.6rem;
+    font-weight: 300;
+    padding: 0.8rem 0rem;
+    width: 27vw;
+}
+.yeezy {
+    padding-bottom: 0.1rem;
+    border-bottom: 2.5px solid #fff;
+    font-size: 0.8rem;
+    margin-bottom: 0.8rem;
+    font-weight: regular;
+}
+.green-logo img {
+    width: 3.2rem;
+}
+.kanye-artist-page {
+    display: flex;
+    justify-content: flex-start;
+    align-items: center;
+    flex: 0.01 1 auto;
+}
+.kanye-artist-page img {
+    height: 15rem;
 }
