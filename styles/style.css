@@ -45,6 +45,8 @@ p {
     position: fixed;
     background-color: white;;
     justify-content: space-between;
+    padding: 0 20px 0 20px;
+    box-sizing: border-box;
 }
 
 .navbar img {
@@ -134,16 +136,46 @@ a {
 }
 
 #green-section-container {
-    padding: 40px;
+    padding: 80px;
+    display: flex;
+    flex-direction: column;
 }
 
-#green-section-container hr {
+#green-section-container h2 {
+    font-weight: 400;
+    font-size: 40px;
+}
+
+#green-section-container  #top hr {
     border: 2px solid white;
-    width: 360px;
+    width: 500px;
     float: left;
+    position: absolute;
 }
 
-.container {
+#green-section-container #bottom {
     display: flex;
     flex-direction: row;
+    justify-content: space-between;
+    align-items: center;
+}
+
+#green-section-container #features-list {
+    width: 300px;
+}
+
+#green-section-container .feature-container {
+    margin-top: 30px;
+}
+
+#green-section-container #features-list p {
+    font-size: 20px;
+}
+
+#green-section-container #white-icon {
+    width: 130px;
+}
+
+#green-section-container #app-screen {
+    width: 330px;
 }
