@@ -16,6 +16,11 @@ nav {
   align-items: center;
 }
 
+.container {
+  width: 1400px;
+  margin: 0 auto;
+}
+
 .boxes{
   display: flex;
   align-items: center;
@@ -32,9 +37,11 @@ nav {
   display: flex;
   align-items: center;
   justify-content: center;
-  background-image:url(../images/landing.jpg);
+  background-image: url(../images/landing.jpg);
   text-align: center;
   color: white;
+  height: 800px;
+  background-size: cover;
 }
 
 .bigpicture h1 {
@@ -68,8 +75,12 @@ nav {
 
 .tocenter {
   text-align: center;
-  margin: 80px;
+  padding: 80px;
+  width: 33.33%;
+  box-sizing: border-box;
 }
+
+
 
 .tocenter h3 {
   font-size: 30px;
@@ -105,4 +116,13 @@ footer {
 .footertext p {
   font-size: 25px;
   width: 450px;
+}
+
+footer {
+  margin: 50px;
+  padding: 100px;
+}
+
+.spotifylogo {
+  margin-right: 50px;
 }
