@@ -6,3 +6,216 @@ Green: #00B172
 White: #FFF
 
 */
+
+/* General styles */
+
+* {
+    margin: 0.rem;
+    padding: 0;
+    box-sizing: border-box;
+}
+body {
+    font-family: "Open Sans";
+    margin: auto
+    padding: 80px;
+    
+    
+}
+main {
+    margin-top: 3rem;
+    width: 100vw;
+}
+a {
+    text-decoration: none;
+    color: #1A1A1A;
+}
+h1 {
+    font-size: 3rem;
+    font-weight: 400;
+}
+
+
+
+/* Navigation styles */
+.nav-wrapper {
+    height: 3rem;
+    display: flex;
+    flex: 2 1 auto;
+    padding: 0rem 1em 0rem 1em;
+    justify-content: space-evenly;
+    font-weight: 300;
+    position: fixed;
+    top: 0;
+    width: 100vw;
+    background-color: white;
+    z-index: 2;
+    border-style: solid;
+    border-color: turquoise;
+    margin-top: 1em;
+    margin-bottom:1em;
+    margin-right:1em;
+    margin-left:.2em
+}
+
+.logo-image {
+    display: flex;
+    justify-content: flex-start;
+    flex: 1 1 auto;
+    align-items: center;
+
+}
+
+.logo-image img {
+    max-height: 2rem;
+}
+
+.nav-links {
+    display: flex;
+    flex-direction: row;
+    align-items: right;
+    
+    flex: 1 1 auto;
+    margin-right:1px
+}
+
+.nav-link {
+    display: flex;
+    flex: 0.2 1 auto;
+    justify-content: flex-end;
+    list-style: none;
+    margin-right:1px
+}
+
+.iteration1-top{
+  border-style: solid;
+    border-color:palevioletred
+}
+/* Intro section styles */
+.intro-section {
+    height: 25rem;
+    background-image: url('/images/landing.jpg');
+    background-position: center center;
+    background-size: cover;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    position: relative;
+  
+}
+
+
+.songs div {
+border-style: solid;
+border-color: yellow;
+text-align: center;
+margin-right: 1em;
+
+}
+.intro-heading {
+    color: #fff;
+    text-align: center;
+    padding-bottom: 0.8rem;
+}
+.intro-text {
+    color: #fff;
+    width: 45vw;
+    text-align: center; 
+    font-weight: 300;
+}
+
+/* What's-On Styles */
+.whats-on-wrapper {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    flex: 1 1 auto;
+    line-height: 75px;
+    text-decoration: underline;
+    text-decoration-color: green;
+    border-style: solid;
+    border-color: red;
+    
+    /*background-color: lightcoral;*/
+
+}
+
+.whats-on{
+  border-color:red
+}
+
+
+.millions-of-songs{
+  padding : 2px 2px 2px 2px;
+}
+.whats-on-wrapper img {
+    max-height: 4rem;
+}
+
+.features-wrapper {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    flex: 1 1 auto;
+    background-color: lightblue;
+    border-style: solid;
+    border-color:orange;
+    margin-top: 2em;
+    margin-bottom: 2em;
+    margin-left: 20em;
+    margin-right: 20em;
+    padding: 20px 20px 20px 20px;
+}
+.features-wrapper div {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+.features-wrapper div p {
+    text-align: center;
+}
+
+.KanyaWest h2{
+    margin-top: 2em;
+    text-decoration: underline;
+    margin-bottom: 1em;
+}
+
+.KanyaWest {
+    background-color: lawngreen;
+    display: flex;
+    flex-direction: column;
+}
+
+.KanyaWest div{
+    margin-top: 1em;
+    margin-bottom: 1em;
+    margin-left: 100px;
+}
+
+
+.KanyaWest-row .spotify-icon img{
+  height: 1px;
+  width: 1px;
+}
+
+.KanyaWest-row{
+  display: flex;
+    flex-direction: row;
+    background-color: lawngreen;
+    margin-right: 10px;
+    padding: 60px 10px 10px 10px;
+}
+
+.KanyaWest-row .icon{
+  
+  padding: 10px 10px 10px 10px;
+  
+  
+}
+
+.KanyaWest-row .icon-image{
+  
+  padding: 1px 1px 1px 1px;
+  
+}
