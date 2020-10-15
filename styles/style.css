@@ -5,11 +5,12 @@ Text: 1A1A1A
 Green: #00B172
 White: #FFF
 
-*/
+/* SELECTORS */
 
 html, body {
     margin: 0;
     padding: 0;
+    font-family: Arial, Helvetica, sans-serif;
 }
 
 h1 {
@@ -17,46 +18,76 @@ h1 {
     color: #FFF
 }
 
+h2 {
+    font-size: 2.2em;
+    color: #fff;
+    padding-bottom: 10px;    
+    border-bottom: 4px solid #fff;
+}
+
+h3 {
+    font-size: 2em;
+    color: #00B172
+}
+
+h4 {
+    font-size: 1.9em;
+    color: #fff;
+}
+
 header {
-    background-position: 0 0;
+    display: flex;
     background: url(../images/landing.jpg);
     background-repeat: no-repeat;
     background-size: cover;
-    padding-top: 70px;
     height: 900px;
+}
+
+header > div {
+    display: flex;
+    align-items: center;
     text-align: center;
 }
 
-header p {
+header > div > p {
     font-size: 20px;
     color: #FFF
 }
 
 nav {
-    position: fixed;
-    height: 100px;
-}
-
-nav img {
-    float: left;
-    width: 16%;
-}
-
-nav ul {
-    margin: 0 auto;
     display: flex;
-    justify-content: space-evenly;
+    align-items: center;
+    position: fixed;
+    background-color: white;
+    width: 100%;
 }
 
-nav ul li {
+nav > img {
+    float: left;
+    width: 15%;
+    padding: 15px 0 15px 50px;
+}
+
+nav > ul {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: space-between;
+}
+
+nav > ul > li {
     list-style-type: none;
     text-align: center;
 }
 
-.nav-bar {
-    background-color: white;
-    width: 100%;
-}
+nav > ul > li > a {
+    padding-right: 30px;
+    text-decoration: none;
+    color: #0F0F0F;
+    font-size: 1.4em;
+  }
+
+/* CLASS SELECTORS */
 
 .centered-spotify-icon {
     display: flex;
@@ -67,6 +98,9 @@ nav ul li {
 }
 
 .spotify-app-img {
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
     width: 75%;
 }
 
@@ -74,21 +108,7 @@ nav ul li {
     width: 50%;
 }
 
-.right-green-container {
-    text-align: center;
-}
-
-#introduction-section {
-    display: flex;
-    justify-content: space-evenly;
-    text-align: center;
-  }
-
-#introduction-section article {
-    padding: 100px;
-}
-
-#green-container {
+.green-container {
     background-color: #00B172;
     display: flex;
     justify-content: space-evenly;
@@ -96,7 +116,30 @@ nav ul li {
     margin-right: 3%;
 }
 
-#green-container article {
+.green-container > article {
+    width: 50%;
     padding: 100px;
-    
+}
+
+.green-container > img {
+    position: absolute;
+    margin-top: 25%;
+    width: 10%;
+}
+
+.green-container > article > p {
+    font-size: 25px;
+    color: #fff;
+}
+
+/* ID SELECTORS */
+
+#introduction-section {
+    display: flex;
+    justify-content: space-evenly;
+    text-align: center;
+  }
+
+#introduction-section > article {
+    padding: 100px;
 }
