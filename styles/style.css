@@ -6,3 +6,189 @@ Green: #00B172
 White: #FFF
 
 */
+
+html, body {
+    font: "Sans Serif";
+    margin: 0;
+    padding: 0;
+  }
+  
+
+  h1 {
+    font-size: 9em;
+    color: #FFF;
+    text-align: center;
+  }
+
+  body {
+    font-family: "Sans Serif";
+    font-size: 10px;
+    line-height: 3.5em;
+    font-weight: 300;
+  }
+
+/* |||||||| Navbar |||||||| */
+    .nav-bar {
+        margin: 0px 30px;
+        padding: 20px 15px;
+        display: flex;
+	    flex-direction: row;
+	    flex-wrap: nowrap;
+	    justify-content: space-between;
+	    align-items: center;
+    }
+
+    .nav-bar-ul {
+        font-size: 2.5em;
+        background-color: white;
+        width: 1200px;
+        margin: 0 auto;
+        display: flex;
+	    flex-direction: row;
+	    flex-wrap: wrap;
+	    justify-content: flex-end;
+	    align-items: center;
+	    align-content: space-around;
+    }
+
+    .nav-bar-img {
+        align-items: left;
+        height: 80px; 
+    }
+
+/* |||||||| Header |||||||| */
+
+    .header {
+        background-image: url(/images/landing.jpg);
+        background-position: 0 0;
+        background-size: cover;
+        background-repeat: no-repeat;
+        object-fit: cover;
+        height: 850px;
+        padding-top: 0px;
+        display: flex;
+	    flex-direction: column;
+	    justify-content: center;
+	    align-items: center;
+    }
+
+    .header-title {
+        font-size: 7.3em;
+        text-transform: capitalize;
+    }
+
+    .header-text {
+        font-size: 3em;
+        color: white;
+        width: 650px;
+        text-align: center;
+    }
+
+/* |||||||| Unique Selling Points |||||||| */
+
+
+    .usp {
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+        align-content: stretch;
+      }
+
+    .usp-img {
+        height: 90px;
+    }
+
+    .us-div-title {
+        font-size: 2.5em;
+        color: #00B172;
+    }
+
+    .usp-title {
+        font-size: 3em;
+        font-weight: 300;
+        text-align: center;
+        border-bottom: 0.35rem solid #00B172;
+    }
+
+    .usp-text {
+        font-size: 2.2em;
+        font-weight: 40;
+        width: 230px;
+
+    }
+
+    .usp-containers {
+        width: 1300px;
+        padding-top: 20px;
+        padding-bottom: 20px;
+        display: flex;
+        flex-direction: row;
+        flex-wrap: nowrap;
+        justify-content: space-around;
+        align-items: center;
+        align-content: stretch;
+    }
+
+    .usp-containers-text {
+        text-align: center;
+    }
+
+/* |||||||| App funtionalities  |||||||| */
+
+    .app-functionalities {
+        color: #FFF;
+        background-color: #00B172;
+        margin: 60px;
+        padding: 100px;
+        display: flex;
+	    flex-direction: row;
+	    flex-wrap: nowrap;
+	    justify-content: space-between;
+	    align-items: ;
+	    align-content: stretch;
+    }
+
+    .app-functionalities-logo {
+        background-image: url(/images/spotify-icon-white.png);
+        background-position: center;
+    }
+
+    .app-functionalities-title {
+        width: 370px;
+        font-size: 3.24em;
+        font-weight: 300;
+        text-align: left;
+        border-bottom: 0.3rem solid #FFF;
+    }
+
+    .app-functionalities-subtitles {
+        width: 250px;
+        font-size: 2.5em;
+        font-weight: solid;
+        text-align: left;
+        padding-top: 20px;
+    }
+
+    .app-functionalities-text {
+        width: 380px;
+        font-size: 2.3em;
+        text-align: left;
+    }
+
+
+    section:nth-of-type(2n) {
+        background-image: url(/images/spotify-icon-white.png);
+        background-repeat: no-repeat;
+        background-size: 130px;
+        background-position: center;
+    }
+
+    .app-functionalities-screen-div {
+        padding-top: 50px;
+    }
+
+    .app-functionalities-screen {
+        background-image: url(/images/spotify-app.jpg);
+        height: 550px;
+    }
