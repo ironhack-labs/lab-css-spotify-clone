@@ -1,8 +1,160 @@
-/*
-Colors:
+* {
+    font-family: 'Montserrat', sans-serif;
+}
 
-Text: 1A1A1A
-Green: #00B172
-White: #FFF
+#nav-bar-all {
+    display: flex;
+    padding-bottom: 10px;
+}
 
-*/
+#nav-bar-all > img {
+    max-height:60px;
+    max-width: 40%; 
+    overflow: visible;
+    padding-top: 0;
+    padding-bottom: 0; 
+    padding-left: 25px;
+    padding-right: 40%
+}
+
+.nav-bar-ul {
+    padding-left: 160px;
+    display: flex;
+    justify-content: flex-end;
+}
+
+.nav-bar-ul > li {
+    font-size: 18px;
+    list-style-type: none;
+    padding: 5px 10px;
+}
+
+.nav-bar-ul a {
+    text-decoration: none;
+    color: #1A1A1A;
+}
+
+header {
+    background-image: url(../images/landing.jpg);
+    background-size: cover;
+    height: 700px;
+    color: white;
+    text-align: center;
+    margin: auto;
+}
+
+.header-text {
+    padding-top: 210px;
+}
+
+.header-text > h1 {
+    font-size: 65px;
+}
+
+.header-text > p {
+    width: 45%;
+    margin-left: 360px;
+    text-align: center;
+    font-size: 22px;
+    font-weight: 100;
+}
+
+section {
+     padding-bottom: 30px;
+}
+
+section > h2 {
+    display: flex;
+    justify-content: center;
+    text-align: center;
+    font-size: 30px;
+    margin-top: 50px;
+}
+
+#section-div {
+    display: flex;
+    justify-content: space-evenly;
+}
+
+.container {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    width: 25%;
+    margin: 0 auto;
+    padding: 75px 0;
+}
+
+.container img {
+    width: 110px;
+}
+
+.container h3 {
+    font-size: 25px;
+    color: #00B172;
+}
+
+.container p {
+    text-align: center;
+    vertical-align: middle; 
+    color: #1A1A1A;
+    font-size: 18px;
+    width: 200px;
+}
+
+#middle-article {
+    padding-top: 85px;
+    padding-bottom: 65px;
+}
+
+#middle-article img {
+    padding-bottom: 5px;;
+}
+
+footer {
+    background-color: #00B172;
+    color: white;
+    display: flex;
+    flex-direction: row;
+}
+
+footer h2 {
+    border-bottom: 3px solid white;
+    padding-bottom: 5px;
+    font-size: 30px;
+    width: 425px;
+}
+
+.first-div {
+    /* margin-right: 50px; */
+    padding-left: 100px;
+    padding-top: 40px;
+    padding-bottom: 50px
+}
+
+.first-div img {
+    max-height:150px;
+    max-width: 125px; 
+    float: right;
+}
+
+.first-div .articles {
+    display: flex;
+    flex-direction: column;
+    width: 300px;
+    padding-right: 150px
+}
+
+.articles h3 {
+    font-size: 24px;
+}
+
+.second-div {
+    padding: 100px 40px 60px 200px;
+}
+
+.second-div img {
+    max-height:600px;
+    max-width: 300px; 
+}
+
