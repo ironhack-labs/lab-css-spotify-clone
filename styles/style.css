@@ -6,3 +6,164 @@ Green: #00B172
 White: #FFF
 
 */
+
+@import url("https://fonts.googleapis.com/css2?family=Roboto:wght@300;700&display=swap" rel="stylesheet");
+
+body {
+  margin: 0;
+  font-family: 'Roboto', sans-serif;
+  box-sizing: border-box;
+  color: #1A1A1A;
+}
+
+p {
+  line-height: 24px;
+  font-weight: 300;
+  font-size: 16px;
+  line-height: 22px;
+  letter-spacing: 1px;
+}
+
+h1 {
+  font-size: 42px;
+  font-weight: 400;
+  letter-spacing: 6px;
+}
+
+h2 {
+  font-size: 24px;
+  display: inline-block;
+  border-bottom: 4px solid #00B172;
+  padding-bottom: 5px;
+  margin: 0;
+}
+
+h3 {
+  margin: 0;
+  font-weight: 700;
+  font-size: 20px;
+}
+
+header {
+  height: 100vh;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  background-image: url(../images/landing.jpg);
+  background-size: contain;
+  color: white;
+  text-align: center;
+}
+
+nav {
+  display: flex;
+  justify-content: space-between;
+  position: fixed;
+  background-color: white;
+  align-items: center;
+  height: 80px;
+  padding: 0 32px;
+}
+
+.logo{
+  width: 15%;
+  height: fit-content;
+}
+
+.logo img{
+  width: 100%;
+}
+
+.navigation ul {
+  padding: 0;
+}
+
+.navigation li {
+  display: inline-block;
+  margin: 16px;
+}
+
+.whats-on {
+  margin: 92px 32px;
+}
+
+.title {
+  display: flex;
+  justify-content: center;
+}
+
+.whats-on .content {
+  display: flex;
+  justify-content: center;
+  margin: 64px 0;
+}
+
+.whats-on .card {
+  width: 19%;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  text-align: center;
+  padding: 32px;
+  margin: 0 24px;
+  height: 200px;
+}
+
+.whats-on .card h3 {
+  margin-top: 8px;
+  color: #00B172;
+}
+
+.card_img{
+  height: 30%;
+}
+
+.card_img img{
+  height: 100%;
+}
+
+.features {
+  margin: 0 32px 64px 32px;
+  background-color: #00B172;
+  background-image: url(../images/spotify-icon-white.png);
+  background-size: 100px;
+  background-repeat: no-repeat;
+  background-position: center;
+}
+
+.features h2 {
+  color: white;
+  border-color: white;
+  margin-bottom: 32px;
+}
+
+.features h3 {
+  color: white;
+  margin: 32px 0;
+}
+
+.features p {
+  color: white;
+  width: 60%;
+}
+
+.features_container {
+  display: flex;
+  padding: 64px;
+}
+
+.features_content {
+  width: 50%;
+}
+
+.features_img {
+  width: 50%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.features_img img{
+  width: 40%;
+  height: 100%;
+}
