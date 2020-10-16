@@ -7,24 +7,154 @@ White: #FFF
 
 */
 body {
+    font-family: Arial, Helvetica, sans-serif;
     margin: 0;
     padding: 0;
     font-size: 16px;
     height: auto;
-}
-#one {
-   background: url(images/landing.jpg);
-   height: 400px;
-   background-color: aquamarine;
+    width: auto;
 }
 
+header{
+    height: 80px;
+}
+
+#one{
+    background-image: url("../images/landing.jpg"), url("paper.gif");
+    background-size: cover;
+    background-repeat: no-repeat;
+    height: 650px;
+    position: relative;
+    
+}
+
+h1 {
+    display: flex;
+    justify-content: center;
+    color: white;
+    align-items: center;
+    padding: 200px 0;
+    font-size: 3.5em;
+    margin: 0;
+}
+
+#one p{
+    color: white;
+    display: flex;
+    justify-content: center;
+    margin-left: 200px;
+    width: 460px;
+    height: 200px;
+    font-size: 1.5em;
+    padding: 1px;
+    text-align: center;
+    margin-top: -19%;
+    
+    
+}
+
+    
+
+
 .logospoti {
-    height: 100px;
+    height: 50px;
+    margin: 10px 0 0 10px;
 }
 
 nav ul {
     list-style: none;
     display: flex;
-    justify-content: center;
-    padding: 1px 50px;
+    justify-content:flex-end;
+    padding: 1px 20px;
+    flex-direction: row;
+    margin-top: -15px;
+    
 }
+
+li {
+    padding: 0 10px;
+   
+    
+}
+
+/* section two */
+
+#inMiddle h2 {
+    text-align: center;
+    font-size: 2.5em;
+}
+
+#inMiddle h3{
+    font-size: 2em;
+    text-align: left;
+    color: teal;
+
+}
+
+#inMiddle {
+    padding: 0 ;
+    height: 500px;
+    margin: 10px;
+}
+
+
+#inMiddle div{
+    display: flex;
+    justify-content: space-evenly;
+    flex-direction: row;
+    align-items: center;
+
+}
+
+#inMiddle img {
+    padding: 10px 1px 1px 1px;
+    width: 90px;
+    height: 80px;
+    
+}
+
+.containerSize {
+    width: auto;
+    padding: 15px;
+}
+
+#inMiddle p{
+    font-size: 1.5em;
+}
+
+/* section three */
+
+#finalArea {
+    background-color: green;
+    background-repeat: no-repeat;
+    height: 650px;
+    position: relative;
+    display: flex;
+    justify-content: space-evenly;
+    flex-direction: row;
+    align-items: center;
+    margin-bottom: 10px;
+
+}
+
+.kanye {
+    height: 500px;
+    width: 300px;
+
+}
+
+.spotit {
+    height:100px;
+    width: 100px;
+    
+}
+
+#finalArea p {
+    width: 200px;
+    color: white;
+}
+
+h3 {
+    color: white;
+}
+
