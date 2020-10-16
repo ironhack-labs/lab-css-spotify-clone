@@ -1,3 +1,4 @@
+@import url("https://fonts.googleapis.com/css2?family=Montserrat:wght@100;200;300;400;500;600;700;800;900&display=swap");
 /*
 Colors:
 
@@ -6,3 +7,163 @@ Green: #00B172
 White: #FFF
 
 */
+html,
+body {
+  font-family: "Montserrat", sans-serif;
+  font-size: 16px;
+  margin: 0;
+  padding: 0;
+}
+
+.nav-hello {
+  width: 100%;
+}
+nav {
+  background-color: #fff;
+  position: fixed;
+  display: flex;
+  width: -webkit-fill-available;
+  justify-content: space-between;
+  padding: 1.6rem 3rem;
+}
+
+ul {
+  list-style: none;
+  display: inline-flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+a {
+  display: inline-block;
+  margin: 0 1.4rem;
+  font-size: 1.8rem;
+  text-decoration: none;
+  color: black;
+}
+
+.spotify-logo {
+  width: auto;
+  height: 5.8rem;
+  display: inline-block;
+}
+
+.music-everyone {
+  height: 70rem;
+  display: flex;
+  padding-top: 10rem;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  background-image: url("../images/landing.jpg");
+  background-size: cover;
+  background-position: center bottom;
+  background-repeat: no-repeat;
+}
+
+h1 {
+  color: #fff;
+  font-size: 6.5rem;
+  margin-top: 6rem;
+  margin-bottom: 0.2rem;
+  font-weight: 600;
+}
+h1 + p {
+  color: #fff;
+  font-size: 2.4rem;
+  margin-bottom: 20rem;
+  text-align: center;
+  font-weight: 400;
+}
+
+.whats-on-spotify {
+  text-align: center;
+}
+
+.items-on-spotify {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-evenly;
+  align-content: center;
+  margin-top: 4.5rem;
+}
+
+.icons {
+  height: 10rem;
+  margin: 1rem;
+}
+
+.items-description {
+  width: 28rem;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+}
+
+h2 {
+  display: inline-block;
+  font-size: 3.2rem;
+  font-weight: 600;
+  margin-top: 4rem;
+  border-bottom: 0.3rem solid #00b172;
+}
+
+h3 {
+  color: #0bbb7d;
+  font-size: 2.5rem;
+}
+
+h3 + p {
+  font-size: 2rem;
+  font-weight: 200;
+}
+
+.kanye-section {
+  margin: 3rem;
+  padding: 4rem 10rem 7rem 10rem;
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  align-items: center;
+  background-image: url("../images/spotify-icon-white.png");
+  background-repeat: no-repeat;
+  background-position: center;
+  background-size: 10rem;
+  background-color: #1ab26b;
+  color: #fff;
+}
+
+.spotify-app {
+  width: 30rem;
+}
+
+h4 {
+  display: inline-block;
+  font-size: 3.2rem;
+  border-bottom: 0.3rem solid #fff;
+  padding-bottom: 0.5rem;
+  font-weight: 600;
+  margin: 2.5rem 0;
+}
+
+h5 {
+  font-size: 2.4rem;
+  font-weight: 600;
+  margin: 2rem 0;
+}
+
+.kanye-description {
+  display: flex;
+
+  flex-direction: column;
+  justify-content: center;
+}
+
+.kanye-description > p {
+  width: 35rem;
+  font-size: 1.8rem;
+  line-height: 3rem;
+  font-weight: 300;
+  margin: 1rem 0;
+}
