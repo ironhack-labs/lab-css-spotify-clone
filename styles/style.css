@@ -6,3 +6,155 @@ Green: #00B172
 White: #FFF
 
 */
+
+html,
+body {
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 14px;
+    margin: 0;
+    height: 100%;
+}
+
+body {
+    background-size: cover;
+    height: 100%;
+    width: 1000px;
+    margin: 0 auto;
+}
+
+h1 {
+    align-self: center;
+    text-align: center;
+    justify-self: center;
+}
+
+h2 {
+    text-align: center;
+    font-size: 25px;
+}
+
+h3 {
+    text-align: center;
+}
+
+h4 {
+    font-size: 20px;
+}
+
+p.desc {
+    width: 400px;
+    margin: 0 auto;
+    font-size: 16px;
+}
+
+.topnav {
+    margin-top: 20px;
+    display: flex;
+    justify-content: space-between;
+    align-content: center;
+    height: 50px;
+}
+
+.logo {
+    float: left;
+}
+
+.logo img {
+    width: 100px;
+}
+
+.nav-right {
+    float: right;
+    display: flex;
+}
+
+.nav-right a {
+    text-decoration: none;
+    padding: 10px 0 0 20px;
+    color: #1A1A1A;
+}
+
+a:hover {
+    opacity: 0.8;
+}
+
+#firstimage {
+    background: url(/images/landing.jpg) no-repeat top center;
+    background-size: cover;
+    height: 50%;
+    width: 100%;
+    margin: 0 auto;
+    color: #FFF;
+    text-align: center;
+    position: relative;
+}
+
+.text {
+    padding: 150px 0 0;
+    display: block;
+    position: relative;
+}
+
+.firstSection {
+    display: flex;
+    width: 700px;
+    justify-content: space-around;
+    color: #1A1A1A;
+    margin: 60px auto;
+}
+
+.psecond {
+    color: #00B172;
+}
+
+.box {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    width: 25%;
+    text-align: center;
+}
+
+.smallIcons {
+    width: 40px;
+    text-align: center;
+    align-self: center;
+}
+
+h2.top-title {
+    border-bottom: 2px solid #00B172;
+    width: 230px;
+    margin: 0 auto;
+    margin-top: 50px;
+    padding-bottom: 5px;
+}
+
+h2.secondtitle {
+    border-bottom: 2px solid #fff;
+    padding-bottom: 5px;
+    text-align: left;
+}
+
+.content-bottom {
+    background-color: #00B172;
+    color: #fff;
+    padding: 50px;
+    height: 500px;
+}
+
+.content-left {
+    background: url(/images/spotify-icon-white.png) no-repeat right center;
+    background-size: 100px;
+    width: 60%;
+    padding-right: 200px;
+    box-sizing: border-box;
+    float: left;
+}
+
+.content-right {
+    float: right;
+}
+
+.content-right img {
+    width: 280px;
+}
