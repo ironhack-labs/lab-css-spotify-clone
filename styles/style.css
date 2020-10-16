@@ -11,8 +11,10 @@ html,
 body {
     margin: 0;
     padding: 0;
-    font-family: 'Roboto', sans-serif;
+    font-family: 'Montserrat', sans-serif;
 }
+
+/* HEADINGS  */
 
 h1 {
     font-size: 80px;
@@ -28,7 +30,7 @@ h2 {
 }
 
 h3 {
-    font-size: 2.3em;
+    font-size: 2.1em;
     color: #fff;
     padding-bottom: 10px;
     border-bottom: 4px solid #fff;
@@ -44,27 +46,7 @@ h5 {
     color: #fff;
 }
 
-header {
-    display: flex;
-    justify-content: center;
-    align-items: center;
-    background: url(../images/landing.jpg);
-    background-repeat: no-repeat;
-    background-size: cover;
-    height: 900px;
-}
-
-header>div {
-    width: 80%;
-    text-align: center;
-}
-
-header>div>p {
-    font-weight: 200;
-    font-size: 1.9em;
-    line-height: 40px;
-    color: #FFF
-}
+/* NAV */
 
 nav {
     display: flex;
@@ -74,7 +56,7 @@ nav {
     width: 100%;
 }
 
-nav>div{
+nav>div {
     margin-right: 15px;
 }
 
@@ -104,6 +86,30 @@ nav>div>ul>li>a {
     font-size: 1.5em;
 }
 
+/* HEADER */
+
+header {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background: url(../images/landing.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+    height: 900px;
+}
+
+header>div {
+
+    text-align: center;
+}
+
+header>div>div>p {
+    font-weight: 300;
+    font-size: 1.9em;
+    line-height: 40px;
+    color: #FFF
+}
+
 /* CLASS SELECTORS */
 
 .section-heading {
@@ -131,31 +137,7 @@ nav>div>ul>li>a {
     width: 50%;
 }
 
-.green-container {
-    background-color: #00B172;
-    display: flex;
-    justify-content: space-evenly;
-    margin-left: 3%;
-    margin-right: 3%;
-}
-
-.green-container>article {
-    width: 50%;
-    padding: 100px;
-}
-
-.green-container>img {
-    position: absolute;
-    margin-top: 25%;
-    width: 10%;
-}
-
-.green-container>article>p {
-    font-size: 25px;
-    color: #fff;
-}
-
-/* ID SELECTORS */
+/* INTRODUCTION SECTION */
 
 #introduction-section {
     padding: 50px 0 90px 0;
@@ -189,11 +171,41 @@ nav>div>ul>li>a {
 }
 
 #introduction-section>div>article>.paragraph-container {
-    width: 60%;
+    width: 80%;
     margin: 0 auto;
 }
 
 #introduction-section>div>article>div>p {
     font-weight: 100;
     font-size: 1.6em;
+}
+
+/* DISCOVER SECTION */
+
+#discover-section>div {
+    background-color: #00B172;
+    display: flex;
+    justify-content: space-evenly;
+    margin-left: 3%;
+    margin-right: 3%;
+}
+
+#discover-section>div>article {
+    width: 50%;
+    padding: 100px;
+}
+
+#discover-section>div>img {
+    position: absolute;
+    margin-top: 25%;
+    width: 10%;
+}
+
+#discover-section>div>article>div {
+    width: 78%;
+}
+
+#discover-section>div>article>div>p {
+    color: #FFF;
+    font-size: 1.4em;
 }
