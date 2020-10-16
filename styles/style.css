@@ -7,10 +7,11 @@ White: #FFF
 
 /* SELECTORS */
 
-html, body {
+html,
+body {
     margin: 0;
     padding: 0;
-    font-family: Arial, Helvetica, sans-serif;
+    font-family: 'Roboto', sans-serif;
 }
 
 h1 {
@@ -20,37 +21,48 @@ h1 {
 
 h2 {
     font-size: 2.2em;
-    color: #fff;
-    padding-bottom: 10px;    
-    border-bottom: 4px solid #fff;
+    color: #0F0F0F;
+    padding-bottom: 10px;
+    border-bottom: 4px solid #00B172;
+    text-align: center;
 }
 
 h3 {
+    font-size: 2.3em;
+    color: #fff;
+    padding-bottom: 10px;
+    border-bottom: 4px solid #fff;
+}
+
+h4 {
     font-size: 2em;
     color: #00B172
 }
 
-h4 {
+h5 {
     font-size: 1.9em;
     color: #fff;
 }
 
 header {
     display: flex;
+    justify-content: center;
+    align-items: center;
     background: url(../images/landing.jpg);
     background-repeat: no-repeat;
     background-size: cover;
     height: 900px;
 }
 
-header > div {
-    display: flex;
-    align-items: center;
+header>div {
+    width: 80%;
     text-align: center;
 }
 
-header > div > p {
-    font-size: 20px;
+header>div>p {
+    font-weight: 200;
+    font-size: 1.9em;
+    line-height: 40px;
     color: #FFF
 }
 
@@ -62,39 +74,50 @@ nav {
     width: 100%;
 }
 
-nav > img {
+nav>div{
+    margin-right: 15px;
+}
+
+nav>div>img {
     float: left;
-    width: 15%;
+    width: 25%;
     padding: 15px 0 15px 50px;
 }
 
-nav > ul {
+nav>div>ul {
     display: flex;
     flex-direction: row;
     align-items: center;
     justify-content: space-between;
 }
 
-nav > ul > li {
+nav>div>ul>li {
     list-style-type: none;
     text-align: center;
 }
 
-nav > ul > li > a {
+nav>div>ul>li>a {
+    font-weight: 300;
     padding-right: 30px;
     text-decoration: none;
     color: #0F0F0F;
-    font-size: 1.4em;
-  }
+    font-size: 1.5em;
+}
 
 /* CLASS SELECTORS */
+
+.section-heading {
+    margin: 25px 0 25px 0;
+    display: flex;
+    justify-content: center;
+}
 
 .centered-spotify-icon {
     display: flex;
     align-items: center;
     justify-content: center;
     text-align: center;
-    width: 10%; 
+    width: 10%;
 }
 
 .spotify-app-img {
@@ -116,18 +139,18 @@ nav > ul > li > a {
     margin-right: 3%;
 }
 
-.green-container > article {
+.green-container>article {
     width: 50%;
     padding: 100px;
 }
 
-.green-container > img {
+.green-container>img {
     position: absolute;
     margin-top: 25%;
     width: 10%;
 }
 
-.green-container > article > p {
+.green-container>article>p {
     font-size: 25px;
     color: #fff;
 }
@@ -135,11 +158,42 @@ nav > ul > li > a {
 /* ID SELECTORS */
 
 #introduction-section {
+    padding: 50px 0 90px 0;
     display: flex;
-    justify-content: space-evenly;
-    text-align: center;
-  }
+    justify-content: center;
+}
 
-#introduction-section > article {
-    padding: 100px;
+#introduction-section>div {
+    display: flex;
+    justify-content: center;
+    padding-left: 3%;
+    padding-right: 3%;
+
+}
+
+#introduction-section>div>article {
+    text-align: center;
+    padding: 5px 0 5px 0;
+}
+
+#introduction-section>div>article>.img-resize {
+    height: 100px;
+}
+
+#introduction-section>div>article>.img-resize>.high-quality-icon {
+    width: 33%;
+}
+
+#introduction-section>div>article>div>img {
+    width: 30%;
+}
+
+#introduction-section>div>article>.paragraph-container {
+    width: 60%;
+    margin: 0 auto;
+}
+
+#introduction-section>div>article>div>p {
+    font-weight: 100;
+    font-size: 1.6em;
 }
