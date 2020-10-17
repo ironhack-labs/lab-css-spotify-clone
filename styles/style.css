@@ -1,8 +1,248 @@
 /*
 Colors:
-
 Text: 1A1A1A
 Green: #00B172
 White: #FFF
-
 */
+
+* {
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+  }
+  
+  a {
+    color: black;
+    text-decoration: none;
+    transition: text-decoration 2000ms ease;
+    position: relative
+  }
+  
+  a:before {
+    content: "";
+    position: absolute;
+    width: 100%;
+    height: 2px;
+    bottom: 0;
+    left: 0;
+    background-color: #000;
+    visibility: hidden;
+    /* transform: scaleX(0); */
+    transition: all 0.3s ease-in-out 0s;
+  }
+  
+  /* a:hover:before {
+    visibility: visible;
+    transform: scaleX(1);
+  } */
+  
+  header {
+    padding: 15px 20px;
+  }
+  
+  .logo {
+    width: 250px;
+    display: inline-block;
+    vertical-align:middle;
+  }
+  
+  nav {
+    display: inline-block;
+    vertical-align: middle;
+    font-family: "montserrat", sans-serif;
+    font-weight: 300;
+    font-size: 1.2em;
+    position: absolute;
+      right: 20px;
+    top: 40px;
+  }
+  
+  ul li {
+    list-style: none;
+    display: inline-block;
+    padding: 0 20px;
+  }
+  
+  .splash {
+    background: url("//wsl$/Ubuntu/home/karen_roth/Desktop/lab-css-spotify-clone/images/landing.jpg");
+    background-size: cover;
+    background-position: center;
+    width: 100%;
+    height: 700px;
+    display: table;
+    text-align: center;
+  }
+  
+  .header-text {
+    display: flex;
+    position: relative;
+    bottom: 50px;
+  }
+  
+  .header-text h1 {
+    font-family: 'Montserrat', sans-serif;
+    font-size: 4em;
+    font-weight: 500;
+    color: white;
+    margin-bottom: 30px;
+  }
+  
+  .header-text h3 {
+    font-family: 'Montserrat', sans-serif;
+    font-size: 1.5em;
+    font-weight: 200;
+    color: white;
+  }
+  
+  
+  .whatson {
+    width: 350px;
+    margin: 40px auto 100px auto;
+  }
+  
+  .whatson h2 {
+    text-align: center;
+    padding: 8px;
+    font-family: 'Montserrat', sans-serif;
+    font-size: 2em;
+    font-weight: 500;
+  }
+  
+  .whatson .line {
+    border: 1.5px solid #00B172;
+    width: 80%;
+    margin: 0 auto;
+  }
+  
+  .flex-container {
+      display: flex;
+      flex-direction: row;
+      flex-wrap: wrap;
+      justify-content: space-around;
+      align-content: center;
+      align-items: flex-start;
+      }
+  
+  .flex-item:nth-child(1) {
+      order: 0;
+      flex: 0 1 auto;
+      align-self: auto;
+  
+   }
+  
+  .flex-item:nth-child(2) {
+      order: 0;
+      flex: 0 1 auto;
+      align-self: auto;
+    position: relative;
+      }
+  
+  .flex-item:nth-child(3) {
+      order: 0;
+      flex: 0 1 auto;
+      align-self: auto;
+      }
+  
+  .icon {
+    width: 170px;
+    margin: 0 auto;
+    display: block;
+  }
+  
+  .flex-item h3 {
+    text-align: center;
+    font-family: "Montserrat", sans-serif;
+    font-size: 1.8em;
+    color: #00B172;
+    margin: 25px 0 5px 0;
+  }
+  
+  #change {
+    height: 143px;
+  }
+  
+  
+  p {
+    font-family: "Montserrat", sans-serif;
+    font-weight: 200;
+    font-size: 1.45em;
+  }
+  
+  .flex-item p {
+    text-align: center;
+    display: inline-block;
+    margin: 0 auto;
+    width: 300px;
+    padding: 20px 0;
+  }
+  
+  .green-background {
+    background: #00B172 url(https://github.com/willjthorp/lab-css-spotify-clone/blob/master/starter-code/images/spotify-icon-white.png?raw=true) no-repeat center center;
+    background-size: 150px;
+    width: 95%;
+    margin: 70px auto 20px auto;
+  }
+  
+  .flex-container2 {
+      display: flex;
+      flex-direction: row;
+      flex-wrap: wrap;
+      justify-content: space-around;
+      align-content: center;
+      align-items: center;
+      padding: 50px 0;
+      }
+  
+  .flex-item2:nth-child(1) {
+      order: 0;
+      flex: 0 1 auto;
+      align-self: auto;
+      width: 40%;
+      }
+  
+  .flex-item2:nth-child(2) {
+      order: 0;
+      flex: 0 1 auto;
+      align-self: auto;
+      width: 30%;
+      }
+  
+  .flex-item2 h3 {
+    color: white;
+    font-family: "montserrat", sans-serif;
+    font-weight: 500;
+    font-size: 2em;
+    margin-bottom: 80px; 
+  }
+  
+  #underline {
+    padding: 10px 0;
+    border-bottom: 2px solid white;
+  }
+  
+  h4 {
+    font-family: "montserrat", sans-serif;
+    font-weight: 500;
+    font-size: 1.8em;
+    color: white;
+  }
+  
+  
+  
+  .space {
+    margin: 50px 0;
+  }
+  
+  .container2 {
+    width: 80%;
+  }
+  
+  .flex-item2 p {
+    font-size: 1.3em;
+    font-weight: 300;
+    color: white;
+  }
+  
+  #app {
+    width: 300px;
+  }
