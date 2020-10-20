@@ -7,27 +7,180 @@ White: #FFF
 
 */
 
-body,
-html {
-  height: 100%;
+@import url("https://fonts.googleapis.com/css2?family=Roboto:wght@400;700;900&display=swap");
+
+*,
+*::before,
+*::after {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  font-family: "Roboto", sans-serif;
+  scroll-behavior: smooth;
+}
+
+/* nav bar CSS */
+
+.nav-logo {
+  width: 200px;
+  padding-left: 30px;
+}
+
+.navbar {
+  width: 100%;
+  height: 80px;
+  background-color: white;
+  position: fixed;
+  top: 0;
+  display: flex;
+  flex-direction: row;
+  flex-wrap: nowrap;
+  justify-content: space-between;
+  align-items: center;
+  align-content: center;
+  z-index: 1;
+}
+
+ul {
+  list-style: none;
+}
+
+li {
+  float: left;
+}
+
+li a {
+  display: block;
+  text-align: center;
+  padding: 14px 30px;
+  text-decoration: none;
+  list-style: none;
+  color: black;
 }
 
 /* Hero image centering */
 
 .background-image-div {
-  background-image: url(./images/landing.jpg);
-  height: 50%;
+  background-image: url(../images/landing.jpg);
   background-position: center;
   background-repeat: no-repeat;
   background-size: cover;
-  position: relative;
+  height: 100vh;
+  display: flex;
+  justify-content: center;
+  align-items: center;
 }
 
 .background-image-text {
+  color: white;
   text-align: center;
-  position: absolute;
-  top: 50%;
-  left: 50%;
-  transform: translate(-50%, -50%);
-  color: #fff;
+  vertical-align: middle;
+  display: table-cell;
+}
+
+h1 {
+  font-size: 6em;
+  padding: 40px;
+}
+
+.background-image-text p {
+  opacity: 0.7;
+  font-size: 2em;
+}
+
+/* About spotify section */
+
+.section-title {
+  display: flex;
+  flex-direction: row;
+  flex-wrap: nowrap;
+  justify-content: center;
+  align-items: flex-start;
+  padding: 50px;
+}
+
+.section-title h2 {
+  border-bottom: 3px solid #00b172;
+  padding-bottom: 5px;
+  font-size: 2.2em;
+  letter-spacing: 1.7px;
+}
+
+.about-spotify {
+  display: flex;
+  flex-direction: row;
+  flex-wrap: nowrap;
+  justify-content: space-around;
+  align-items: center;
+  height: 500px;
+}
+
+.icon-div {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  width: 400px;
+  text-align: center;
+  vertical-align: middle;
+  display: table-cell;
+}
+
+.icons {
+  max-width: 100%;
+  height: 200px;
+}
+
+.about-spotify h3 {
+  padding: 20px;
+  color: #00b172;
+  font-weight: 900;
+}
+
+.icon-div p {
+  color: #1a1a1a;
+  opacity: 0.8;
+}
+
+/* Mockup section */
+
+.mockup-div {
+  background-color: #00b172;
+  padding: 30px;
+  margin: 50px;
+  position: relative;
+  display: flex;
+  flex-direction: row;
+  flex-wrap: nowrap;
+  justify-content: space-around;
+  align-items: center;
+  color: white;
+  height: 90vh;
+}
+
+.white-logo {
+  width: 100px;
+  height: 100px;
+}
+
+.app-image {
+  width: 300px;
+  height: 600px;
+}
+
+.mockup-div h3 {
+  padding: 30px 0;
+  font-weight: 900;
+  font-size: 1.2em;
+}
+
+.mockup-div h2 {
+  font-weight: 900;
+  font-size: 2.2em;
+  border-bottom: 3px solid white;
+  padding-bottom: 5px;
+}
+
+.mockup-div p {
+  opacity: 0.8;
 }
