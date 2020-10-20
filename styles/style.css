@@ -6,3 +6,164 @@ Green: #00B172
 White: #FFF
 
 */
+
+* {
+    margin:0;
+    padding:0;
+}
+
+body {
+    font-family: 'Commissioner', sans-serif;
+}
+
+header {
+    position: fixed;
+    top: 0;
+    left: 0;
+    z-index: 9999;
+    width: 100%;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    background-color: white;
+}
+
+header img {
+    width: 170px;
+    padding: 20px;
+}
+
+nav ul {
+    list-style: none;
+    display: flex;
+    flex-flow: row nowrap;
+    padding: 20px;
+}
+
+nav a{
+    text-decoration: none;
+    color: #1A1A1A;
+    margin: auto 10px;
+}
+
+.hero {
+    background-image: url(../images/landing.jpg);
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    position: relative;
+    padding: 30rem 0;
+    color: white;
+}
+
+.hero h1 {
+    font-size: 6em;
+    font-weight: 500;
+    text-align: center;
+}
+
+.hero p {
+    max-width: 55%;
+    margin: 0 auto;
+    font-weight: 100;
+    font-size: 2em;
+    text-align: center;  
+    font-weight: lighter;
+}
+
+.features h2 {
+    font-size: 2.1em;
+    margin-top: 25px;
+    margin-bottom: 5px;
+    text-align: center;
+}
+
+.features hr {
+    max-width: 20%;
+    background-color: #00B172;
+    margin: 0 auto 10px auto;
+    height: 2px;
+}
+
+.features h3 {
+    color: #00B172;
+    margin: 10px 0 20px;
+    font-size: 1.3em;
+    font-weight: bolder;
+}
+
+.features>div {
+    display: flex;
+    justify-content: space-evenly;
+    align-items: center;
+    padding: 20px 0 55px 0;
+}
+
+.features article {
+    max-width: 15%;
+    text-align: center;
+}
+
+.features p {
+    font-weight: lighter;
+}
+
+.features img {
+    width: 100px;
+    margin: 0 auto;
+    display: block;
+}
+ .hq {
+    padding-top:10px;
+ }
+
+ .phones {
+     padding-top: 15px;
+ }
+
+ .mobapp {
+     background-color: #00B172;
+     position: inherit;
+     margin: 40px;
+     display: flex;
+     justify-content: space-between;
+     align-items: flex-end;
+     color: white;
+     padding: 75px 120px;
+ }
+
+ .mobapp hr {
+    max-width: 59%;
+    background-color: white;
+    height: 2px;
+    margin-bottom: 20px;
+ }
+
+.whitelogo {
+    position: absolute;
+    top: 1860px;
+    left: 700px;
+    width: 100px;
+}
+
+ .mobapp h2 {
+     font-size: 2em;
+     margin-bottom: 5px;
+ }
+
+ .mobileimg {
+     width: 250px;
+     padding-right: 20px;
+ }
+
+ .mobapp h3 {
+     font-size: 1.5em;
+     margin: 40px 0 30px  0;
+ }
+
+ .mobapp p {
+     max-width: 36%;
+     font-weight: lighter;
+ }
+
+ 
