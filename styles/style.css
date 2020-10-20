@@ -6,3 +6,108 @@ Green: #00B172
 White: #FFF
 
 */
+*{
+    margin:0;
+    padding: 0;
+}
+header{
+
+
+}
+body{
+    font-family: sans-serif;
+    font-weight: 100;
+}
+nav{
+    display:flex;
+    justify-content: space-between;
+    padding: 20px 20px;
+    align-items: center;
+    width: 100%;
+    position: fixed;
+    background-color: white;
+}
+
+nav img{
+    width: 150px;
+}
+nav ul{
+    list-style: none;
+    display:flex;
+
+}
+nav ul li{
+    margin: 0 20px;
+}
+.hero{
+    background-image: url(../images/landing.jpg);
+    background-size: contain;
+    text-align: center;
+    height: 600px;
+    display:flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+h1, .hero p{
+    color:white;
+    text-align: center;
+    }
+h1{
+    font-size: 4em;
+    font-weight: 300;
+}
+.hero p{
+    font-size: 1.3em;
+    font-weight: 150;
+    width: 60%;
+}
+.about h2{
+    text-align: center;
+    border-bottom: 1px solid #00B172;
+}
+.container{
+    display:flex;
+    justify-content: space-evenly;
+    padding: 80px 0px;
+}
+.container img{
+    width: 80px;
+
+}
+.about{
+    padding: 30px 20px;;
+}
+.container div{
+    display:flex;
+    flex-direction: column;
+    justify-content:center;
+    align-items: center;
+}
+.container h3{
+    color:#00B172;
+    margin:20px 0;
+}
+.container p{
+    padding:10px 80px;
+    text-align: center;
+
+}
+footer{
+    background-color: #00B172;
+    color:white;
+    display: flex;
+       
+}
+.icon{ 
+    width: 80px;
+}
+.icon img{
+    width: 100%
+}
+.kanye{
+    width: 30%
+}
+.kanye img{
+    width:100%
+}
