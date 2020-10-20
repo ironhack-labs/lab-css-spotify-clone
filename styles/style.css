@@ -1,8 +1,157 @@
 /*
 Colors:
 
-Text: 1A1A1A
+Text: #1A1A1A
 Green: #00B172
 White: #FFF
 
 */
+body{
+    font-family:sans-serif;
+}
+
+.menu{
+    display: flex;
+    align-items: center;
+    margin:10px;
+}
+
+nav ul{
+    display: flex; 
+}
+li {
+    margin-left: 40px;
+    list-style: none;
+    font-size: 20px;
+}
+li a{
+    text-decoration: none;
+    
+}
+a img{
+    width: 100px;
+}
+}
+nav{
+    display: flex;
+    justify-content: flex-end;
+}
+.logoicon{
+    width: 30%;
+}
+
+.hero{
+    display:flex;
+    background-image: url("../images/landing.jpg");
+    color: white;
+    width: 100%;
+    justify-content:center;
+    height: 100vh;
+    background-size:contain;
+    align-content: center;
+    
+}
+ .hero div{
+     width:60%;
+     margin-top: 200px;;
+     
+ }
+
+h1{
+    font-size: 50px;
+    color:#ffffff;
+text-align: center;
+}
+.hero div p{
+    font-size: 24px;
+    text-align:center;
+}
+
+
+
+
+
+h2{
+    font-size: 32px;
+    text-decoration: underline #00B172;
+    text-align: center;
+    margin-top: 50px;
+    margin-bottom: 50px;
+}
+.cards{
+    display: flex;
+    justify-content: space-around;
+}
+article{
+    justify-content: space-around;
+    width: 15%;
+    align-content: center;
+
+}
+article img{
+    width: 80px;
+    padding-left: 50px;
+}
+h3{
+    color: #00B172;
+    font-size: 24px;
+    text-align: center;
+}
+article p{
+    color:#1A1A1A
+}
+
+
+.mobile{
+display: flex;
+color: #ffffff;
+background-color: #00B172;
+justify-content: start;
+}
+
+.content{
+    width: 35%;
+    justify-content: start;
+    color: #ffffff;
+    text-align: start;
+    padding-left: 30px;
+    padding-bottom: 60px;
+}
+.content h2 {
+    text-decoration: underline #ffffff;
+}
+.content h3{
+    justify-content: start;
+    color: #ffffff;
+    text-align: start;
+    padding-left: 30px;
+}
+.content p {
+    justify-content: start;
+    color: #ffffff;
+    text-align: start;
+    padding-left: 30px;
+    width: 250px;
+    line-height: 25px;
+    font-size: 18px;
+    letter-spacing: 2px;
+}
+
+
+.mobile img{
+    justify-content: start;
+    margin-left: 450px;
+    margin-top: 100px;
+    width: 300px;
+
+}
+
+.posabs{
+    position: absolute;
+    top: 1250px;
+    left: 60px;
+    right: 0;
+    bottom: 0;
+    margin: auto;
+    
+}
