@@ -6,3 +6,131 @@ Green: #00B172
 White: #FFF
 
 */
+body {
+    font-family: sans-serif;
+    margin: 0;
+    padding: 0;
+}
+a {
+    text-decoration: none;
+    color: black;
+}
+
+header {
+    display: flex;
+    justify-content: space-between;
+    width: 100%;
+    margin: 0 auto;
+    position: fixed;
+    top: 0;
+    background-color: white;
+    align-items: center;
+    z-index: 1;
+    border-bottom: 1px solid #cccccc;
+}
+
+header img{
+    width: 200px;
+    margin: 5px 20px;
+}
+
+header nav ul {
+    display: flex;
+    margin-right: 20px;
+}
+
+nav ul li{
+    margin-right: 15px;
+    list-style: none;
+}
+
+.intro{
+    background-image: url(/images/landing.jpg);
+    padding: 250px 0;
+    color: white;
+    text-align: center;
+    background-size: cover;
+}
+
+h1 {
+    font-size: 4.3em;
+    font-weight: 400;
+    margin-bottom: 30px;
+}
+
+.intro p{
+    font-size: 1.5em;
+    margin: 10px 0;
+    font-weight: 300;
+}
+
+.features{
+    margin: 80px 0;
+}
+
+.features div{
+    display: flex;
+    justify-content: space-evenly;
+    align-items: baseline;
+    width: 95%;
+    margin: 60px auto;
+}
+
+.features h2{
+    border-bottom: 2px solid #00B172;
+    width: 270px;
+    margin: 0 auto;
+    text-align: center;
+}
+
+.features img{
+    width: 120px;
+}
+
+.features article{
+    text-align: center;
+    width: 30%
+}
+
+.features h3{
+    color: #00B172;
+    font-size: 1.4em;
+}
+
+.features p {
+    font-size: 1.2em;
+}
+
+.play{
+    display: flex;
+    justify-content: space-evenly;
+    align-items: center;
+    background-color: #00B172;
+    color: #ffffff;
+    padding: 50px 0;
+    position: relative;
+}
+
+.play img {
+    width: 25%;
+}
+
+.west{
+    width: 30%;
+    display: flex;
+    flex-direction: column;
+}
+
+.west h2{
+    font-size: 1.7em;
+}
+
+.absolute {
+    position: absolute;
+    top: 50%;
+    left: 50%;
+}
+
+.absolute img{
+    width: 100px;
+}
