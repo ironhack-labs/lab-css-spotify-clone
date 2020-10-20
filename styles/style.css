@@ -6,3 +6,128 @@ Green: #00B172
 White: #FFF
 
 */
+
+
+* {
+  margin: 0;
+  padding: 0;
+}
+
+body {
+  font-family: 'Roboto',
+  sans-serif;
+}
+
+nav {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+nav img {
+  width: 17%;
+  margin: 20px 0 20px 40px;
+}
+
+nav ul {
+  display: flex;
+  list-style: none;
+  /* margin-right: 40px; */
+}
+
+nav ul li {
+  margin-right: 40px;
+  font-size: 20px;
+}
+
+nav ul li a {
+  text-decoration: none;
+  color: #000;
+  font-weight: 400;
+}
+
+.concert {
+  width: 100%;
+  height: 800px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  color: #fff;
+  background-image: url(/images/landing.jpg);
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+
+.concert h1 {
+  font-size: 100px;
+  font-weight: 400;
+}
+
+.concert p {
+  text-align: center;
+  font-size: 30px;
+  font-weight: 400;
+  margin-top: 30px;
+}
+
+h2 {
+  width: fit-content;
+  font-size: 80px;
+  font-weight: 400;
+  margin: 0 auto;
+  padding-top: 100px;
+  border-bottom: 5px solid #00B172;
+}
+
+.technologies {
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+  padding: 100px;
+}
+
+.technologies article {
+  text-align: center;
+  margin-top: 20px;
+}
+
+.technologies h3 {
+  color: #00B172;
+  font-size: 40px;
+}
+
+.technologies p {
+  margin-top: 40px;
+  font-size: 25px;
+  font-weight: 200;
+}
+
+article img {
+  width: 200px;
+}
+
+footer {
+  width: 100%;
+  height: 500px;
+  display: flex;
+  justify-content: center;
+}
+
+footer .green-section {
+  width: 95%;
+  height: 800px;
+  background-color: #00B172;
+  background-image: url(/images/spotify-icon-white.png);
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: 130px;
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+}
+
+footer img {
+  width: 300px;
+  margin: 40px;
+}
