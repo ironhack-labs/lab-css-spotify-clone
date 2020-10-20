@@ -6,3 +6,131 @@ Green: #00B172
 White: #FFF
 
 */
+
+*{
+    margin:0;
+    padding:0;
+}
+body{
+    font-family: sans-serif;
+}
+
+h1, h2, h3{
+    font-weight: 600;
+}
+
+/*header*/
+.icon {
+    width: 200px;
+    padding: 10px 20px;
+}
+
+header {
+    display:flex;
+    justify-content: space-between; 
+    align-items: center;
+}
+
+nav ul{
+    display:flex;
+    flex-direction: row;
+    justify-items: space-between;
+    list-style: none;
+}
+
+nav li{
+    text-decoration: none;
+    padding: 10px;
+    font-size: 16px;
+}
+
+
+/*section1*/
+
+.hero{
+    background-image: url("../images/landing.jpg");
+    height: 800px;
+    background-size: cover;
+    background-position: center;
+    justify-content: center;
+    text-align: center;
+    align-items: center;
+    color: #fff;
+}
+
+.hero h1{
+    font-size: 5em;
+    padding-top: 280px;
+    padding-bottom: 40px;
+}
+
+.hero p{
+    font-size: 1.75em;
+    font-weight: 200;
+    margin: 0px 400px;
+    
+}
+
+/*section2*/
+
+.services{
+    width: 500px;
+    margin-left: 530px;
+}
+
+.services h2{
+    width: 500px;
+    font-size: 2em;
+}
+
+.services hr{
+    width: 300px;
+    margin-top: 10px;
+}
+
+.articles{
+    display: flex;
+    justify-content: space-around;
+    padding: 100px 40px;
+    text-align: center;
+    align-items: center;
+}
+
+.articles img{
+    width: 150px;
+    margin: 10px;
+}
+
+.app {
+    background-color:#00B172;
+    display: flex;
+    flex-direction: row;
+    color:#FFF;
+    padding: 80px;
+    justify-content: space-around;
+}
+
+.mobile{
+    width: 300px;
+}
+
+.item {
+    display: flex;
+    flex-direction: column;
+    width: 500px;
+}
+
+.item h2{
+    width: 500px;
+    font-size: 2em;
+}
+
+.item hr{
+    width: 420px;
+    margin: 10px 0px 60px 0px;
+}
+
+.item p{
+    width: 300px;
+    margin: 50px 0px;
+}
