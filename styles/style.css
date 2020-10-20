@@ -6,3 +6,28 @@ Green: #00B172
 White: #FFF
 
 */
+
+body,
+html {
+  height: 100%;
+}
+
+/* Hero image centering */
+
+.background-image-div {
+  background-image: url(./images/landing.jpg);
+  height: 50%;
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+  position: relative;
+}
+
+.background-image-text {
+  text-align: center;
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  color: #fff;
+}
