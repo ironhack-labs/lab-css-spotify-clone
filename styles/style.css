@@ -6,3 +6,174 @@ Green: #00B172
 White: #FFF
 
 */
+
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+body,
+html {
+  width: 100vw;
+  font-family: "Open Sans", Arial, sans-serif;
+  font-size: 10px;
+  color: white;
+}
+
+h1 {
+  font-size: 8rem;
+  font-weight: 600;
+}
+
+h2 {
+  font-size: 3.1rem;
+  font-weight: 600;
+  letter-spacing: 0.07rem;
+  padding-bottom: 0.5rem;
+}
+
+h3 {
+  font-size: 2.1rem;
+  margin: 0.7rem auto 2rem;
+}
+
+a {
+  text-decoration: none;
+  color: #1a1a1a;
+}
+
+nav {
+  width: 100%;
+  background-color: white;
+  margin: 0 auto 0.5rem;
+  height: 8rem;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  position: fixed;
+  z-index: 20;
+}
+
+nav img {
+  width: 22rem;
+  margin-left: 4rem;
+}
+
+nav ul {
+  font-size: 2.3rem;
+  width: 40%;
+
+  display: flex;
+  align-items: center;
+  justify-content: space-evenly;
+}
+
+.hero-image {
+  width: 100%;
+  height: 85rem;
+  background: url(../images/landing.jpg) no-repeat center;
+  background-size: cover;
+
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+
+  position: relative;
+  top: 8rem;
+}
+
+.hero-image p {
+  width: 50%;
+  font-size: 3rem;
+  font-weight: 300;
+  text-align: center;
+  margin-top: 1rem;
+}
+
+.whatson {
+  color: #1a1a1a;
+  text-align: center;
+
+  margin: 6rem 4rem 15rem;
+
+  position: relative;
+  top: 8rem;
+}
+
+.whatson h2 {
+  width: 29rem;
+  margin: 2rem auto 4rem;
+  border-bottom: 4px solid #00b172;
+}
+
+.whatson-container {
+  display: flex;
+  align-items: baseline;
+  justify-content: center;
+}
+
+.container {
+  font-size: 2rem;
+
+  width: 30rem;
+  margin: 2rem 3rem;
+}
+
+.container img {
+  width: 14rem;
+}
+
+.container h3 {
+  color: #00b172;
+}
+
+.container p {
+  font-weight: 300;
+  padding: 0 2rem;
+}
+
+.yeezy-container {
+  width: 95vw;
+  margin: 0 auto;
+  padding: 7rem;
+
+  background: #00b172;
+
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  justify-content: center;
+}
+
+.yeezy-container > div {
+  margin-right: 20vw;
+}
+
+.yeezy-container h2 {
+  width: 43rem;
+
+  border-bottom: 4px solid white;
+}
+
+.yeezy-container .logo {
+  position: absolute;
+  width: 10rem;
+}
+
+.yeezy-container .yeezy {
+  height: 45rem;
+  /* width: 40rem; */
+}
+
+.yeezy-container .specs {
+  width: 25rem;
+  font-size: 1.7rem;
+  font-weight: 300;
+}
+
+.yeezy-container h3 {
+  margin-top: 3.2rem;
+  font-weight: 600;
+}
