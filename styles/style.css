@@ -8,6 +8,7 @@ White: #FFF
 */
 body,
 html {
+  border: solid;
   padding: 0;
   margin: 0;
   font-family: Arial, Helvetica, sans-serif;
@@ -57,7 +58,6 @@ header nav ul {
 }
 
 .features {
-  border: solid;
   text-align: center;
   display: flex;
   flex-direction: column;
@@ -66,24 +66,88 @@ header nav ul {
   height: 550px;
 }
 .features h2 {
-  font-size: 2.5rem;
+  padding-bottom: 6px;
+  border-bottom: 4px solid #00b172;
+  font-size: 2.6rem;
   font-weight: lighter;
-  text-decoration: underline #00b172;
 }
-.features hr {
-  width: 80%;
-  height: 5px;
-  background-color: #00b172;
-}
+
 .features > div {
   display: flex;
   justify-content: space-evenly;
   width: 100%;
 }
 .features > div > div {
-  border: solid;
   width: 270px;
 }
 .features img {
-  height: 100px;
+  height: 110px;
+}
+.features h3 {
+  color: #00b172;
+  font-size: 1.8rem;
+}
+.features h4 {
+  color: #1a1a1a;
+  font-weight: lighter;
+  font-size: 1.5rem;
+}
+.artistGreen {
+  background-color: #1ab26b;
+  color: #ffffff;
+  margin: 30px 35px;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 80px 100px;
+  position: relative;
+}
+.artistGreen > img {
+  width: auto;
+  height: 595px;
+  align-self: flex-end;
+}
+.advantagesGreen {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  width: auto;
+  height: 624px;
+}
+.advantagesGreen h2 {
+  font-size: 2.3rem;
+  font-weight: lighter;
+  border-bottom: 4px solid white;
+  align-self: baseline;
+  padding-bottom: 8px;
+  margin: 0 0 30 0;
+}
+.advantagesGreen h3 {
+  font-size: 1.7rem;
+}
+.advantagesGreen h4 {
+  font-size: 1.3rem;
+  font-weight: lighter;
+  line-height: 35px;
+}
+
+.advantagesGreen img {
+  width: 130px;
+  height: auto;
+  margin: 0 0 0 130px;
+}
+.advantagesLogo div {
+  width: 325px;
+}
+.advantagesLogo2 {
+  width: 50px;
+  height: auto;
+  margin: 0 0 0 130px;
+}
+.logo img {
+  width: 130px;
+  height: auto;
+  position: absolute;
+  bottom: 40%;
+  left: 45%;
 }
