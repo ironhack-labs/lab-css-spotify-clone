@@ -6,87 +6,111 @@ Green: #00B172
 White: #FFF
 
 */
-body{
-
-    margin:0px;
-    padding:0px;
+body {
+  margin: 0px;
+  padding: 0px;
 }
-head{
-    color: 1A1A1A;
+head {
 }
 
 ul {
- list-style: none;
-
-
+  list-style: none;
 }
 
 h1 {
-
-    font-size: 90px;
+  font-size: 90px;
 }
-hr {
-padding-left: 50px;
-border: 3px solid green;
-p
-
+.section-2 hr {
+  margin-left: 43%;
+  margin-right: 43%;
+  border: 3px solid green;
+  margin-bottom: 80px;
 }
 header {
-    display: flex;
-    flex-direction: row;
-    justify-content: space-between;
-    height: 100px;
-
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  height: 100px;
 }
 
 header nav {
-    display: flex;
-    font-weight: bold;
-    color: #1A1A1A;
-
+  display: flex;
+  font-weight: bold;
+  color: #1a1a1a;
 }
 
 header nav ul {
-   display:flex;
-   font-size: 20px;
-
+  display: flex;
+  font-size: 20px;
 }
 header nav li {
-
-    margin: 20px;
+  margin: 20px;
 }
 .imglogo {
   height: 70px;
   width: 250px;
   margin-top: 15px;
-  margin-left:15px;
-
+  margin-left: 15px;
 }
 
-
-.section-1{
-    background-image: url("../images/landing.jpg");
-    background-size: 1200px;
-    width: 100%;
-    height: 720px;
-    color: white;
-    display: flex;
-    flex-direction: column;
-    justify-content: center;
-    align-items: center;
+.section-1 {
+  background-image: url("../images/landing.jpg");
+  background-size: 1200px;
+  width: 100%;
+  height: 720px;
+  color: white;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
 }
 
 .section-1 p {
+  font-size: 25px;
+  line-height: 0px;
+  margin-top: 5px;
+}
 
-font-size: 25px;
-line-height: 0px;
-margin-top: 5px;
+.section-2 h2 {
+  justify-content: center;
+  align-items: center;
+  display: flex;
+  font-size: 35px;
+  margin-bottom: 5px;
+}
 
+.divsection-2 {
+  display: flex;
+  justify-content: center;
+  flex-direction: row;
+  align-items: center;
+  text-align: center;
+  padding-right: 10px;
+}
+
+.divsection-2 div {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  padding-left: 30px;
+}
+
+.divsection-2 div p {
+  line-height: 0px;
+  margin-top: 5px;
+  font-size: 18px;
+  color: rgb(97, 96, 96);
+}
+
+.divsection-2 h3 {
+  color: #00b172;
+  font-size: 25px;
+  margin-bottom: 5px;
 }
 
 .icons {
-  height: 75px;
-  width: ;
+  height: 70px;
+  width: 60px;
 }
 
 .cellphoneimg {
@@ -99,8 +123,38 @@ margin-top: 5px;
   width: ;
 }
 
-.section3 {
+.green-block {
   background-color: #00b172;
+  width: 100%;
+  background-image: url("../images/spotify-icon-white.png");
+  background-repeat: no-repeat;
+  background-position: center;
+  background-size: 150px;
+  height: 700px;
   color: white;
+  display: flex;
 }
 
+.section-3 {
+  display: flex;
+  justify-content: center;
+}
+
+.section-3 hr {
+  color: white;
+  margin-right: 83%;
+  margin-bottom: 60px;
+}
+
+.section-3 h2 {
+  font-size: 30px;
+  margin-bottom: 2px;
+}
+
+.section-3 h3 {
+  font-size: 32px;
+}
+
+.section-3 p {
+  font-size: 20px;
+}
