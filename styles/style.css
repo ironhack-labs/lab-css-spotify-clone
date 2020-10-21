@@ -1,8 +1,187 @@
-/*
-Colors:
+* {
+  padding: 0rem;
+  margin: 0rem;
+}
 
-Text: 1A1A1A
-Green: #00B172
-White: #FFF
+body {
+  font-family: Arial, Helvetica, sans-serif;
+}
 
-*/
+/* Logo & navbar */
+
+.navbar {
+  width: 100%;
+  height: 8rem;
+  background-color: white;
+  position: fixed;
+
+  /* Display Flex */
+
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.spotify-logo {
+  width: 20rem;
+  padding-left: 8rem;
+}
+
+ul {
+  list-style: none;
+  padding-right: 7rem;
+}
+
+li {
+  float: left;
+}
+
+li a {
+  text-decoration: none;
+  padding: 2rem 1.3rem;
+  font-size: 1.7rem;
+  color: rgb(26, 25, 25);
+  font-weight: 500;
+}
+
+/* Background */
+
+.background {
+  background-image: url(../images/landing.jpg);
+  background-repeat: no-repeat;
+  background-size: 100%;
+  height: 130vh;
+
+  /* Display Flex */
+
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+}
+
+.background h1 {
+  color: white;
+  font-size: 7.5rem;
+  font-weight: 100;
+  padding-bottom: 3.5rem;
+}
+
+.background h2,
+h3 {
+  color: rgb(207, 207, 207);
+  font-size: 2.6rem;
+  font-weight: 100;
+}
+
+/* Section-Middle */
+
+.h2-middle {
+  text-align: center;
+  padding-top: 5rem;
+  font-size: 3rem;
+  font-weight: 600;
+}
+
+.hr-middle {
+  width: 27rem;
+  margin: auto;
+  margin-top: 0.8rem;
+  background-color: #1ab16a;
+  height: 0.4rem;
+  border: none;
+  border-radius: 2px;
+}
+
+.div-middle {
+  display: flex;
+  justify-content: center;
+  align-items: baseline;
+}
+
+.div-middle img {
+  width: 10rem;
+  margin: auto;
+  padding: 2rem 7rem;
+}
+
+.div-middle h3 {
+  font-size: 2rem;
+  font-weight: 600;
+  color: #1ab16a;
+  text-align: center;
+}
+
+.div-middle p {
+  font-size: 1.6rem;
+  text-align: center;
+  padding-top: 2rem;
+  font-weight: 100;
+  color: #5e5e5e;
+}
+
+.div-middle div {
+  padding: 2rem 3rem;
+}
+
+/* Section-third */
+
+.bg-green {
+  background-color: #1ab16a;
+  margin: 7rem 12rem 0 12rem;
+  height: 58rem;
+}
+
+.section-third h3 {
+  color: white;
+  padding: 6rem 0 0rem 7rem;
+  font-size: 3rem;
+}
+
+.section-third hr {
+  width: 38rem;
+  margin: 0.8rem 22rem 2rem 7.1rem;
+  height: 0.4rem;
+  border: none;
+  border-radius: 2px;
+  background-color: white;
+}
+
+.section-third {
+  display: flex;
+  justify-content: flex-start;
+  flex-direction: column;
+  align-items: flex-start;
+}
+
+.section-third h4 {
+  font-size: 2rem;
+  color: white;
+  padding: 3rem 0 0 7rem;
+}
+
+.section-third p {
+  font-size: 1.5rem;
+  color: rgb(231, 231, 231);
+  line-height: 2.3rem;
+  padding-left: 7rem;
+  padding-top: 2.2rem;
+}
+
+.bg-green > img {
+  position: absolute;
+  left: 47%;
+  top: 245%;
+  width: 9rem;
+}
+
+.app-img img {
+  width: 25rem;
+}
+
+.app-img {
+  position: absolute;
+  left: 61%;
+  top: 218%;
+  width: 12rem;
+}
