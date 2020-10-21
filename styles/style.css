@@ -1,8 +1,156 @@
-/*
-Colors:
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  font: Times;
+  color: #1a1a1a;
+}
+nav {
+  display: flex;
+  justify-content: space-between;
+  padding: 20px 50px;
+  background-color: #fff;
+  position: fixed;
+  width: 100vw;
+}
 
-Text: 1A1A1A
-Green: #00B172
-White: #FFF
+nav > ul {
+  width: 30%;
+  display: flex;
+  justify-content: space-evenly;
+  align-items: center;
+}
 
-*/
+nav > ul > li {
+  list-style-type: none;
+}
+
+nav > ul > li > a {
+  color: #1a1a1a;
+  text-decoration: none;
+}
+
+#logo {
+  height: 50px;
+  width: 170px;
+}
+
+header {
+  background-image: url(../images/landing.jpg);
+  background-size: cover;
+  background-repeat: no-repeat;
+  margin: 0;
+  height: 950px;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+}
+
+h1,
+h3 {
+  color: white;
+  align-items: center;
+  justify-content: center;
+}
+
+h1 {
+  font-weight: bold;
+  font-size: 5rem;
+}
+
+h3 {
+  font-weight: lighter;
+  font-size: 2rem;
+}
+
+.whatIsOnSpotify {
+  padding-top: 50px;
+  padding-bottom: 100px;
+}
+
+.whatIsOnSpotify > h2 {
+  font-size: 2.5rem;
+  margin-right: 38%;
+  margin-left: 38%;
+  border-bottom: solid #00b172;
+  margin-bottom: 100px;
+}
+
+.parentBoxes {
+  display: flex;
+  align-items: center;
+  justify-content: space-evenly;
+  text-align: center;
+  padding-left: 50px;
+  padding-right: 50px;
+}
+
+.box {
+  width: 31%;
+  padding: 20px;
+}
+
+.box > img {
+  height: 100px;
+  width: 120px;
+}
+
+.box > h4 {
+  color: #00b172;
+  font-weight: bold;
+  font-size: 2rem;
+  margin-top: 20px;
+  margin-bottom: 20px;
+}
+
+.box > p {
+  font-size: 1.5rem;
+  padding: 10px 40px;
+}
+
+.green {
+  background-color: #00b172;
+  margin: 0 50px 50px;
+  position: relative;
+  display: flex;
+  justify-content: space-between;
+}
+
+#icon {
+  height: 100px;
+  width: 100px;
+  position: absolute;
+  left: 47%;
+  top: 45%;
+}
+
+.text {
+  padding: 70px;
+  width: 47%;
+  margin-left: 30px;
+}
+
+.text > h2 {
+  font-size: 2.5rem;
+  border-bottom: solid white;
+  color: white;
+  margin-bottom: 70px;
+}
+.text > h3 {
+  color: white;
+  font-weight: bold;
+  font-size: 2rem;
+  margin-top: 20px;
+  margin-bottom: 20px;
+}
+.text > p {
+  font-size: 1.5rem;
+  color: white;
+  width: 70%;
+  font-weight: lighter;
+}
+#mobilePic {
+  height: 550px;
+  margin: 100px;
+}
