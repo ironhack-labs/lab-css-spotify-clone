@@ -6,3 +6,140 @@ Green: #00B172
 White: #FFF
 
 */
+
+@import "reset.css";
+
+nav {
+  display: flex;
+  justify-content: space-between;
+}
+nav img {
+  width: 100px;
+  margin: 15px;
+}
+
+nav a {
+  align-items: center;
+  margin-right: 10px;
+  text-decoration: none;
+}
+
+nav div {
+  margin: 22px 15px 0 0;
+}
+
+#cover {
+  background: center url("../images/landing.jpg") no-repeat;
+  background-size: cover;
+  height: 700px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+#cover p {
+  color: #fff;
+  margin-top: 20px;
+  text-align: center;
+  width: 400px;
+  margin-left: 50px;
+}
+
+h1 {
+  color: white;
+  text-align: center;
+  font-size: 60px;
+}
+
+/* Info  */
+
+#info {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  margin: 20px 0 50px 0;
+}
+#info h3 {
+  font-size: 30px;
+  border-bottom: solid 0.3rem #00b172;
+  width: 260px;
+  margin: 0 auto;
+  font-weight: bold;
+}
+
+#info-card img {
+  width: 100px;
+  margin: 20px auto 10px auto;
+}
+#info h4 {
+  margin: 10px 0;
+  color: #00b172;
+  font-size: 20px;
+  font-weight: bold;
+}
+
+#info-card {
+  text-align: center;
+  display: flex;
+  justify-content: center;
+  margin-left: 100px;
+}
+#info-card div {
+  display: flex;
+  justify-content: center;
+  flex-direction: column;
+  margin: 50px 50px 50px 50px;
+}
+
+/* Footer  */
+
+#footer {
+  background-color: #00b172;
+  width: 98%;
+  margin: 20px auto;
+  height: 500px;
+}
+
+#container {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  align-items: center;
+  margin: 20px 130px;
+}
+
+#footer h3 {
+  color: white;
+  font-size: 30px;
+  border-bottom: solid 0.3rem white;
+  width: 400px;
+  margin-top: 20px;
+  font-weight: bold;
+}
+
+#kanye-sec h4 {
+  color: white;
+  font-size: 20px;
+  font-weight: bold;
+}
+#kanye-sec h4:first-child {
+  margin-top: 40px;
+}
+
+#kanye-sec p {
+  color: white;
+  margin-top: 15px;
+  width: 250px;
+  margin-bottom: 30px;
+  font-size: 16px;
+}
+
+#logo img {
+  width: 100px;
+  margin-right: 200px;
+}
+
+#phone img {
+  width: 230px;
+  margin-top: 40px;
+}
