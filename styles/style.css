@@ -6,3 +6,127 @@ Green: #00B172
 White: #FFF
 
 */
+body {
+    font-family: 'Open Sans', sans-serif;
+    margin: 0;
+    padding: 0;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.logoandnav {
+    position: fixed;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: center;
+    height: 40px;
+    padding: 4px;
+    background-color: white;
+}
+
+.logoandnav img{
+    width: 14%;
+}
+
+nav ul {
+    display: flex;
+    flex-direction: row;
+    list-style-type: none;
+    justify-content: space-around;
+    align-items: center;
+    margin-right: 10%;
+}
+
+nav ul li {
+    margin: auto 15px;
+}
+
+a {
+    text-decoration: none;
+    color: black;
+}
+
+.banner {
+    height: 900px;
+    background-image: url('../images/landing.jpg');
+    background-size: contain;
+    background-repeat: no-repeat;
+    color: white;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    position: static;
+}
+
+h1 {
+    font-size: 80px;
+    font-weight: 900;
+    margin-bottom: 0;
+}
+
+h3 {
+    font-size: 30px;
+    text-align: center;
+    width: 60%;
+}
+
+
+.features_h2 {
+    text-align: center;
+    font-size: 45px;
+    margin-bottom: 5%;
+}
+.features {
+    width: 90%;
+    display: flex;
+    justify-content: space-around;
+}
+
+.individual-feature {
+    width: 27%;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+}
+
+.individual-feature img {
+    width: 30%;
+}
+
+.features h4 {
+    color: #00B172;
+    font-size: 30px;
+    font-weight: bold;
+}
+
+.individual-feature p {
+    font-size: 30px;
+    text-align: center;
+}
+
+.green {
+    background-color: #00B172;
+    color: white;
+    width: 90%;
+    display: flex;
+    justify-content: space-between;
+    padding: 3%;
+}
+
+.green h2 {
+    border-bottom: 3px solid white;
+}
+
+.promo {
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+}
+
+#kanye {
+    width: 60%;
+}
