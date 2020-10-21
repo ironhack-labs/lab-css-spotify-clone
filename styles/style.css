@@ -1,8 +1,110 @@
-/*
-Colors:
+@import url('https://fonts.googleapis.com/css2?family=Commissioner:wght@300;700&display=swap');
 
-Text: 1A1A1A
-Green: #00B172
-White: #FFF
+body{
+font-family: 'Commissioner', sans-serif;}
 
-*/
+.logoimage{ 
+    height: 3rem}
+
+.nav-bar{ display: flex;
+    flex-direction: row;
+    justify-content: space-between;}
+
+.navlist {
+    display:flex;
+    list-style: none;}
+
+.navlist a {padding: 1em;
+color: #1A1A1A;
+font-size: larger;
+font-weight: bold;
+text-decoration: none;}
+
+.hero{ background-image: url("/images/landing.jpg");
+background-size: cover;
+background-position: 0;
+background-repeat: no-repeat;
+height: 100vh;
+color: white;
+display:flex;
+flex-direction: column;
+justify-content: center;
+align-items: center;}
+
+h1{
+    font-size: 6em;
+    font-weight: bolder;
+    padding-top: 3em;}
+
+.hero p{
+    font-size: 2em;
+padding: 10em;
+padding-top: 0;
+text-align: center;}
+
+.what{display: flex;
+flex-direction: column;
+justify-content: center;
+align-items: center;}
+
+.caixas {display: flex;
+justify-content: space-around;
+align-content: center;
+padding-left: 10rem;
+padding-right: 6rem;}
+
+.caixas h3{color:#00B172;
+font-weight: bold;
+font-size: 2rem;
+}
+
+div > img{height: 6rem;
+align-content: center;}
+
+.caixas > div{text-align: center;
+padding: 1rem;}
+
+.caixas > div > p {font-size: 1.5rem;
+}
+
+.what h2{text-align: center;
+font-weight: bolder;
+font-size: 3em;
+width: 40rem;
+border-bottom: 4px solid;
+padding: 1rem;
+}
+
+
+.yeezy{background-color: #00B172;
+color: white;
+line-height:2em;
+padding-top: 2rem;
+display: flex;
+align-items: flex-start;
+flex-direction: column;}
+
+.yeezy h2{text-align: center;
+    font-weight: bolder;
+    font-size: 3em;
+    width: 40rem;
+    border-bottom: 4px solid;
+    padding: 1rem;
+    }
+
+.yeezycontent{display: flex;
+justify-content: space-evenly;
+margin-top: 3em;}
+
+.yeezycontent h3{font-size: 2rem;}
+
+
+.yeezycontent > div > p {font-size: 1.5em;
+    word-wrap: break-word;
+}
+
+#white{height: 5rem;
+    object-position: center;
+}
+
+#cel{height: 30rem;}
