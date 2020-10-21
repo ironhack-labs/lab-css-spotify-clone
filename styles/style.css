@@ -1,8 +1,238 @@
-/*
-Colors:
+@import url("https://fonts.googleapis.com/css2?family=Noto+Sans+JP:wght@100;300;400;500;700;900&display=swap");
 
-Text: 1A1A1A
-Green: #00B172
-White: #FFF
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  font-family: "Noto Sans JP";
+  color: #171717;
+  overflow-x: hidden;
+}
 
-*/
+/* Nav bar */
+
+nav {
+  position: fixed;
+  z-index: 1;
+  background-color: #fff;
+  width: 100vw;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 20px 50px;
+}
+
+.logo {
+  height: 65px;
+}
+
+nav ul {
+  list-style: none;
+  display: flex;
+  font-size: 24px;
+}
+
+nav li {
+  margin-left: 40px;
+}
+
+nav a {
+  text-decoration: none;
+}
+
+/* Landing image and title */
+
+.landing {
+  margin-top: 110px;
+  position: relative;
+}
+
+.background-image {
+  width: 100vw;
+  height: 100vh;
+  object-fit: cover;
+}
+
+.title {
+  position: absolute;
+  top: 45%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  width: 1000px;
+}
+
+.title h1,
+.title h2 {
+  color: #fff;
+  text-align: center;
+}
+
+.title h1 {
+  font-size: 85px;
+  margin-bottom: 20px;
+}
+
+.title h2 {
+  font-size: 33px;
+  font-weight: 300;
+  opacity: 0.9;
+}
+
+/* Section - white background */
+
+.white-background {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  padding: 60px;
+}
+
+.white-background h3 {
+  font-size: 34px;
+  padding-bottom: 10px;
+  border-bottom: 4px solid #19b069;
+}
+
+.all-icons {
+  display: flex;
+  margin-top: 60px;
+  margin-left: -100px;
+}
+
+.icon {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  width: 260px;
+  margin-left: 100px;
+  text-align: center;
+}
+
+.icon img {
+  height: 80px;
+}
+
+.icon h4 {
+  margin-top: 20px;
+  font-size: 24px;
+  color: #19b069;
+}
+
+.icon p {
+  margin-top: 21px;
+  font-size: 20px;
+  opacity: 0.7;
+}
+
+/* Section - green background */
+
+.green-background {
+  background-color: #19b069;
+  display: flex;
+  justify-content: space-between;
+  position: relative;
+  padding: 60px 100px;
+  margin: 0 50px 50px;
+}
+
+.spotify-icon {
+  position: absolute;
+  height: 160px;
+  top: 45%;
+  left: 45%;
+}
+
+.left-column {
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+}
+
+.left-column h3,
+.left-column h4,
+.left-column p {
+  color: #fff;
+}
+
+.left-column h3 {
+  font-size: 38px;
+  height: 150px;
+  letter-spacing: 1.5px;
+}
+
+.white-border {
+  color: #fff;
+  padding-bottom: 10px;
+  border-bottom: 4px solid #fff;
+}
+
+.left-text {
+  width: 400px;
+  margin-bottom: -40px;
+}
+
+.left-text h4 {
+  font-size: 30px;
+  font-weight: 500;
+  margin-bottom: 20px;
+}
+
+.left-text p {
+  font-size: 26px;
+  margin-bottom: 40px;
+  font-weight: 300;
+  opacity: 0.8;
+}
+
+.right-column {
+  display: flex;
+  align-items: center;
+}
+
+.right-column img {
+  width: 25vw;
+  margin-top: 60px;
+}
+
+/* Mobile responsiveness */
+
+@media only screen and (max-width: 1220px) {
+  .spotify-icon {
+    height: 120px;
+    top: 5%;
+    left: 80%;
+  }
+
+  .right-column img {
+    margin-top: 80px;
+  }
+}
+
+@media only screen and (max-width: 1000px) {
+  .all-icons {
+    flex-wrap: wrap;
+    margin: 0 0 0 -60px;
+    justify-content: center;
+  }
+
+  .icon {
+    margin-left: 60px;
+    margin-top: 60px;
+  }
+}
+
+@media only screen and (max-width: 900px) {
+  .title h1 {
+    font-size: 55px;
+  }
+
+  .title h2 {
+    font-size: 24px;
+  }
+}
+
+@media only screen and (max-width: 640px) {
+  .title {
+    width: 300px;
+  }
+}
