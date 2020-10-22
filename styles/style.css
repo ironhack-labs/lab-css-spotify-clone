@@ -1,8 +1,136 @@
-/*
+/* 
 Colors:
 
 Text: 1A1A1A
 Green: #00B172
-White: #FFF
+White: #FFF */
 
-*/
+body{
+    margin: auto;
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+}
+ul{
+    list-style: none
+}
+.text-center{
+    margin: auto;
+    text-align: center;
+}
+.color-black{
+    color: #1a1a1a;
+}
+.color-green{
+    color: #00b172;
+}
+.color-white{
+    color:#fff;
+}
+.left{
+    float:left;
+}
+.right{
+    float:right;
+}
+.navbar{
+    position: fixed;
+    background-color: #FFF;
+    width: 100%;
+    height: 60px;
+}
+.navbar img{
+    height: 30px;
+    margin: 5px;
+    padding: 7px 0 0 10px;
+}
+.navbar ul{
+    position: relative;
+    padding: 0 3% 0 0;
+}
+li{
+    margin: 5px 10px 0 10px;
+}
+.music{
+    background-image: url('/images/landing.jpg');
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: 1500px;
+    height: 800px;
+}
+.music h1{
+    font-size: 70px;
+    padding-top: 200px;
+}
+.music p{
+    font-size: 24px;
+    width: 700px;
+    margin-top: 2px;
+}
+.land{
+    margin-top: 20px
+}
+#what {
+    padding: 30px 0 0 0;
+    margin: 0 0 40px 0;
+}
+#what hr{
+    border:2px solid #00B172;
+    width: 210px;
+}
+#cards{
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    padding: 20px 0 0 0;
+}
+.card{
+    margin:auto;
+    width: 30%;
+}
+.card img{
+    height: 70px;
+    margin-left: auto;
+    margin-right: auto;
+    display: block;
+}
+.card h3{
+    padding: 10px 0 0 0;
+}
+.card p{
+    padding: 15px 0 0 0;
+    width: 180px;
+}
+#artist{
+    background-color: #00B172;
+    display:flex;
+    flex-direction: row;
+    justify-content: center;
+    padding: 20px 0 0 0;
+}
+#west{
+    width: 100%;
+    padding: 0 0 0 8%;
+}
+#west hr{
+    border:2px solid #fff;
+    width: 320px;
+}
+#app{
+    padding: 50px 50px 20px 0;
+}
+#app img{
+    height: 430px;
+}
+#discover p{
+    width: 250px;
+    margin: 4% 0 4% 0;
+}
+#discover > div{
+    float: left;
+    padding: 2% 5% 0 2%;
+}
+#discover img{
+    margin:70% 50%;
+    height: 100px;
+    padding: 5%;
+}
+
