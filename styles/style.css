@@ -32,7 +32,6 @@ nav ul li a {
 header {
   display: flex;
   max-width: 100%;
-  height: 100%;
   background: url(/images/landing.jpg) no-repeat center;
   background-size: cover;
   color: white;
@@ -68,20 +67,65 @@ hr {
   border: 3px solid #00b172;
   margin-top: 5px;
 }
+h3 {
+  color: #00b172;
+}
+h4 {
+  font-size: 2.5rem;
+}
+
+h5 {
+  text-align: justify;
+  margin-left: 5%;
+  padding-top: 10%;
+  font-size: 2.5rem;
+  font-weight: bold;
+}
+.section-one p {
+  max-width: 150px;
+}
 .section-one {
   display: flex;
   justify-content: space-evenly;
-  margin-top: 150px;
+  margin-top: 100px;
 }
 .section-one img {
   width: 150px;
+  margin: 20px;
 }
 .section-one div {
   display: flex;
   flex-direction: column;
   align-items: center;
+  text-align: center;
+}
+.section-two {
+  background-color: #00b172;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  margin: 100px;
+  padding: 100px;
+  color: white;
+  text-align: center;
 }
 
+.section-two img {
+  width: 200px;
+}
+
+.section-two hr {
+  background-color: white;
+  border: 3px solid white;
+  max-width: 500px;
+}
+.section-two p {
+  width: 589px;
+  font-size: 1.5rem;
+  text-align: justify;
+  padding-left: 5%;
+  padding-top: 5%;
+}
 /*
 Colors:
 
