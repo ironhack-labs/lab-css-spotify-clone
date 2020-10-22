@@ -1,8 +1,177 @@
-/*
-Colors:
+@import url('https://fonts.googleapis.com/css2?family=Montserrat:ital,wght@0,100;0,400;0,700;1,500&display=swap');
 
-Text: 1A1A1A
-Green: #00B172
-White: #FFF
+* {
+    margin: 0;
+    padding: 0;
+    font-family: Montserrat;
+}
 
-*/
+
+li, p {
+    color: 1A1A1A;
+}
+
+nav {
+    background-color: #FFF;
+    position: fixed;
+    width: 100%;
+    height: 5rem;
+    font-size: 1.5rem;
+}
+
+nav img {
+    max-width: 15rem;
+    height: 4rem;
+    float: left;
+    margin: 0.5rem;
+}
+
+nav ul li {
+    float: right;
+    display: inline;
+    list-style-type: none;
+    margin: 20px;
+}
+
+
+header {
+    display: flex;
+    flex-direction: column;
+    align-items: stretch;
+}
+
+header div {
+    background-image: url("../images/landing.jpg");
+    min-height: 500px;
+    height: 650px;
+    background-position: center; /* Center the image */
+    background-repeat: no-repeat; /* Do not repeat the image */
+    background-size: cover;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    color: #FFF;
+}
+
+header div h1 {
+    font-size: 4.5rem;
+}
+
+header div p {
+    
+    width: 50%;
+    text-align: center;
+    margin: 5%;
+    font-size: 1.7rem;
+}
+
+h2 {
+    text-decoration: underline;
+    text-decoration-color: #FFF;
+    font-size: 2.4rem;
+}
+
+h3 {
+    font-size: 2rem;
+}
+
+#features h2 {
+    text-align: center;
+    text-decoration-color: #00B172;
+    margin-top: 2rem;
+    margin-bottom: 4rem;
+}
+
+#features div {
+    display: flex;
+    justify-content: space-between;
+    flex-direction: row;
+    margin-left: 8%;
+}
+
+#features article {
+    display: flex;
+    flex-direction: column;
+    justify-content: space-evenly;
+    align-items: center;
+}
+
+#features article h3 {
+    color: #00B172;
+    font-weight: 200;
+    margin: 1rem;
+}
+
+#features article p {
+    font-size: 1.5rem;
+    margin: 1rem;
+    width: 75%;
+    text-align: center;
+    font-weight:
+}
+
+#features img {
+    width: 7.5rem;
+    height: 6rem;
+}
+
+footer {
+    background-color: #00B172;
+    margin: 6% 3% 3%;
+    position: relative;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    position: relative;
+}
+
+
+footer .app-img {
+    box-sizing: border-box;
+    height: 40rem;
+    width: auto;
+    margin: 6%
+}
+
+footer .icon {
+    align-items: center;
+    justify-items: center;
+    width: 8rem;
+    height: 8rem;
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+footer div {
+    margin: 7% 3% 9% 7%;
+    color: #FFF;
+    height: 40rem;
+    line-height: 3rem;
+}
+
+footer div h2 {
+    margin-bottom: 3rem;
+}
+
+footer div article {
+    width: 70%;
+    font-size: 1.5rem;
+    line-height: 2rem;
+}
+
+footer div article p {
+    font-size: 1.2rem;
+    margin: 2rem;
+}
+
+footer .icon {
+    margin: 0;
+    padding: 0;
+    width: 8rem;
+    height: 8rem;
+    position: absolute;
+    bottom: 45%;
+    left: 45%;
+}
