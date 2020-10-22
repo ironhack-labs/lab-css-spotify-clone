@@ -6,3 +6,127 @@ Green: #00B172
 White: #FFF
 
 */
+body {
+    font-family: Arial, Helvetica, sans-serif;
+    margin-top:0;
+}
+.navbar {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    position: fixed;
+    background-color: white;
+    width: 100%;
+}
+
+.navbar > img {
+    width: 8rem;
+    padding: 1rem;
+}
+
+.navbar >ul {
+    list-style-type: none;
+    display: flex;
+
+}
+.navbar  li{
+    padding-right: 1.5rem;
+}
+
+.banner {
+    background-image: url("/images/landing.jpg");
+    background-size: cover;
+    background-position: center;
+    width: 100%;
+    height: 600px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    color: white;
+    text-align: center;
+}
+.banner *{
+    width: 40%;
+}
+
+.banner h1{
+    font-size: 3rem;
+    font font-weight: normal;
+}
+
+.banner p{
+    font-weight: light;
+}
+
+
+.whatsOnSpotify{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    margin:2rem;
+}
+
+.whatsOnSpotify h1{
+    padding-bottom: .3em;
+    border-bottom:2px solid #00B172;
+    
+}
+
+.whatsOnSpotify .container{
+    display: flex;
+    justify-content: space-evenly;
+    margin-top: 2rem;
+}
+
+.whatsOnSpotify .elements{
+    text-align: center;
+    width: 30%;
+}
+.whatsOnSpotify img{
+    width: 50%;
+}
+
+.whatsOnSpotify h3 {
+    color: #00B172;
+}
+
+.greenSection {
+    background-color: #00B172;
+    background-image: url(/images/spotify-icon-white.png);
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: 5rem;
+    color: white;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    width: 99vw;
+   
+}
+
+.greenSection h2{
+    padding-bottom: .3em;
+    border-bottom:2px solid white;
+    width: 55%;
+}
+
+.greenSection .textContainer{
+    margin:2rem 0;
+    width: 50%;
+    display: flex;
+    flex-direction: column;
+    margin-left:5rem;
+}
+
+.steps {
+    width: 50%;
+}
+
+.greenSection #appImage{
+    padding:3rem 0;
+    width: 20%;
+    margin-right: 5rem;
+
+}
