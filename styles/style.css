@@ -6,3 +6,179 @@ Green: #00B172
 White: #FFF
 
 */
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    font-family: sans-serif;
+    font-weight: 100;
+    line-height: 1.5;
+    letter-spacing: 2.5;
+}
+
+
+/* NAVIGATION */
+nav {
+    background-color: white;
+
+    width: 100vw;
+    height: 8vh;
+
+    position: fixed;
+    margin: 0 auto;
+    padding: 0 30px;
+
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+nav ul {
+    list-style: none;
+
+    width: 30vw;
+
+    display: flex;
+    justify-content: space-around;
+}
+
+nav a {
+    text-decoration: none;
+    color: black;
+    font-size: 20px;
+}
+
+.logo-header {
+    height: 75%;
+}
+
+
+/* HEADER */
+.header {
+    background-image: url("/images/landing.jpg");
+    background-size: cover;
+    width: 100vw;
+    height: 100vh;
+
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+h1 {
+    font-size: 80px;
+}
+
+.header-text{
+    font-size: 25px;
+    width: 40vw;
+    margin: 0 auto;
+    padding: 30px 0;
+}
+
+.text-container { /* Why does align-items  not work here?? because of background image?) */
+    color: white;
+    text-align: center;
+    margin: 20%;
+}
+
+
+/* INFORMATION */
+.information {
+    width: 100vw;
+    height: 60vh;
+}
+
+.information h2 {
+    font-size: 35px;
+    text-decoration: underline green;
+    text-align: center;
+    padding-top: 50px;
+}
+
+.flexy {
+    display: flex;
+    justify-content: space-evenly; 
+    align-items: flex-end;/* Why does align-items  not work here?? because of background image?) */
+}
+
+.information-box {  /* The alignment of box 3 is really strange...*/
+    height: 300px;
+    width: 300px;
+    margin: 30px;
+
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: space-evenly;
+}
+
+.information-box img{
+    height: 100px;
+    margin-bottom: 10px;
+}
+
+.information-box h3 {
+    color: green;
+    font-size: 30px;
+    text-align: center;
+}
+
+.information-box p{
+    font-size: 20px;
+    text-align: center;
+    margin-top: 20px;
+}
+
+
+/* FEATURES */
+.features {
+    background-color: green;
+    height: 750px;
+    width: 100vw;
+    color: white;
+
+    display: flex;
+    justify-content: space-evenly;
+    align-items: center;
+}
+
+.features h2 {
+    font-size: 35px;
+    text-decoration: underline;
+}
+
+.features h3 {
+    font-size: 25px;
+}
+
+.features p {
+    font-size: 20px;
+}
+
+.features div {
+    max-width: 50vw;
+    height: 80vh;
+
+    display: flex;
+    flex-direction: column;
+    justify-content: space-around;
+}
+
+.background-logo {
+    height: 15vh;
+}
+
+.app-picture {
+    height: 75vh;
+    margin:
+}
+
+
+
+
+
