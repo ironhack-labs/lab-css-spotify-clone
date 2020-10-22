@@ -6,3 +6,129 @@ Green: #00B172
 White: #FFF
 
 */
+html {
+    font-size: 16px;
+}
+
+body {
+    margin: 0;
+    font-family: 'Roboto', sans-serif;
+    letter-spacing: .5px;
+}
+
+.navbar {
+    padding: 1% 2%;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    font-size: 1.8vw;
+}
+
+nav img {
+    width: 17vw;
+}
+
+.navbar-links ul {
+    list-style: none;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.navbar-links ul li{
+    padding: 0 10px;
+}
+
+.background {
+    background-image: url('/images/landing.jpg');
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+    height: 85vh;
+    font-size: 2vw;
+    position: relative;
+    color: white;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+}
+
+section:first-of-type h2{
+    font-size: 3vw; 
+    text-align: center;
+    text-decoration: underline #00B172;
+    text-underline-position: under;
+    padding: 1% 0;
+}
+
+.whats-on-box img {
+    width: 10vw;
+}
+
+.whats-on-box h3 {
+    color: #00B172;
+}
+
+
+.whats-on-box {
+    width: 40vh;
+    text-align: center;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: flex-end;
+    margin: 1% 0;
+    padding: 3% 0;
+    font-size: 1.5vw;
+}
+
+.whats-on-all {
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+}
+
+section:last-of-type {
+    color: white;
+}
+
+section:last-of-type {
+    text-decoration: bold;
+    background-color: #00B172;
+    background-image: url('/images/spotify-icon-white.png');
+    background-repeat: no-repeat;
+    background-size: 6vw;
+    background-position: center;
+    padding-bottom: 5%
+}
+
+.info-section {
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+}
+
+section:last-of-type h2 {
+    font-size: 2;
+    color:white;
+    text-decoration: underline;
+    width: 40vw;
+}
+
+.info {
+    font-size: 1.2;
+    direction: flex;
+}
+
+.all-infos {
+    display: flex;
+    width: 25vw;
+    flex-direction: column;
+}
+
+.screenshot {
+    width: 20vw;
+}
+
