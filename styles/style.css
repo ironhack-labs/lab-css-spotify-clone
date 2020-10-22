@@ -6,3 +6,162 @@ Green: #00B172
 White: #FFF
 
 */
+
+body {
+    margin: 0;
+    padding: 0;
+    font-family: 'Circular', 'Helvetica', 'Ariel', 'sans-serif';
+    max-width: 1200px;
+}
+
+.titlebar {
+    display:flex;
+    justify-content: space-between;
+    height:50px;
+    margin: 5px;
+    padding: 5px 15px;
+}
+
+.logo{
+    padding-top: 5px;
+    height: 40px;
+}
+
+.navbar{
+    display: flex;
+    justify-content: space-between;
+    align-content: flex-start;
+    width: 300px;
+    border: 0;
+}
+
+.navbar li{
+    list-style-type: none;
+}
+
+.nav_button{
+    text-decoration: none;
+    color: #1A1A1A;
+}
+
+.landing {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    background-image: url("../images/landing.jpg");
+    background-position: 0 0;
+    background-size: cover;
+    height: 600px;
+    background-color: #00B172;
+    align-items: center;
+}
+
+h1 {
+    color: #FFF;
+    text-align: center;
+    margin-bottom: 12px;
+    font-size: 60px;
+    font-weight: 400;
+}
+
+.landing>p {
+    color: #FFF;
+    text-align: center;
+    font-weight: lighter;
+    width: 64%;
+    font-size: 21px;   
+}
+
+#features{
+    display:flex;
+    flex-direction: column;
+    align-items:center;
+}
+
+#features>h3 {
+    width: 225px;
+    text-align: center;
+
+    font-size: 26px;
+    font-weight: 400;
+    border-bottom: 2px solid #00B172;
+}
+
+h3 {
+    font-size: 26px;
+    font-weight: 400;
+}
+
+.featurebox_container {
+    display:flex;
+    flex-direction: row;
+    justify-content: space-evenly;
+    flex-wrap: nowrap;
+}
+
+.featurebox {
+    display:flex;
+    flex-direction: column;
+    width:23%;
+    align-items:center;
+}
+
+.featurebox>p {
+    text-align: center;
+}
+.feature_image{
+    height: 50px;
+}
+
+h4 {
+    color: #00B172;
+    font-weight: bold;
+    margin-block-end:0;
+}
+
+.green {
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    margin: px;
+    background-color: #00B172;
+    align-items: center;
+    padding:0px 5px;
+    background-image: url("../images/spotify-icon-white.png");
+    background-size: 100px;
+    background-repeat: no-repeat;
+    background-position: 50% 50%;
+
+}
+
+.green>* {
+    margin:75px;
+
+}
+.actions {
+    width: 350px;
+}
+.actions>p{
+    color: #FFF;
+    width: 250px;
+}
+
+.actions>h3 {
+    color: #FFF;
+    width: 332px;
+    border-bottom: 2px solid #fff;
+}
+
+h6 {
+    color: #FFF;
+    font-size: 20px;
+    margin: 50px 0px 20px;
+}
+
+.spotify_icon {
+    height: 100px;
+}
+
+.mobile_screen {
+    width: 260px;
+}
