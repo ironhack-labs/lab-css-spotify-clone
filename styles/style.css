@@ -1,8 +1,144 @@
-/*
-Colors:
+:root {
+  --text-color: #1a1a1a;
+  --green-color: #00b172;
+  --white-color: #FFF;
+}
 
-Text: 1A1A1A
-Green: #00B172
-White: #FFF
+html,
+body {
+  margin: 2.5 0vw;
+  padding: 0;
+  font-family: 'Roboto', sans-serif;
+}
 
-*/
+/* Header */
+.nav-header {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  padding: 2.5vh 2.5vw;
+  align-items: flex-start;
+
+}
+.spotify {
+  height: 5vh;
+}
+
+.nav-bar {
+  background-color: var(--white-color);
+  padding: 1.25vh 1.25vw 3.5vh 1.25vw;
+  position: fixed;
+  margin: 0 1.25vw 2.5vh 1.25vw;
+  right: 0;
+}
+.nav-bar > a {
+  text-decoration: none;
+  font-weight: 300;
+  color: var(--text-color);
+  margin: 0 1vw;
+}
+.main-header {
+  position: relative;
+  display: flex;
+  flex-direction:
+}
+.main-header > img {
+  height: 85vh;
+  width: 97.5vw;
+}
+.main-header > h1{
+  color: var(--white-color);
+  position: absolute;
+  height: 20vh;
+  top: 33%;
+  left:0;
+  right: 0;
+  margin: auto;
+  text-align: center;
+  font-weight: bold;
+  font-size: 4rem;
+}
+.main-header > p{
+  color: var(--white-color);
+  position: absolute;
+  width: 50vw;
+  bottom: 45%;
+  left: 0;
+  right: 0;
+  margin: auto;
+  text-align: center;
+  font-weight: 100;
+  font-size: 1.3rem;
+  text-align: center;
+}
+
+/* INTRO */
+
+.intro {
+  display: flex;
+  flex-direction: column;
+  justify-content: space-around;
+  align-items: center;
+  margin: 2.5vh 0;
+}
+.intro h2 {
+  font-weight: 500;
+  font-size: 1.7rem;
+  text-decoration: underline;
+  text-decoration-line: underline;
+  text-decoration-color: var(--green-color);
+}
+.articles {
+  display: flex;
+  flex-direction: row;
+  margin: 2.5vh 0;
+}
+.article {
+  text-align: center;
+  margin: 2.5vh 0;
+}
+.article > img {
+  height: 7.5vh;
+}
+.article > h3 {
+  color: var(--green-color);
+  font-size: 1.3rem;
+}
+.article > p {
+  margin: 0 7.5vw;
+}
+
+/* Example */
+
+.example {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 5vw;
+  background-color: var(--green-color);
+}
+.description {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: flex-start;
+}
+.description > div {
+  width: 30vw;
+}
+.description > h2,
+.description > div h3,
+.description > div p {
+  color: var(--white-color);
+}
+.logo img{
+  width: 10vw;
+  max-width: 30vh;
+}
+.mobile{
+  margin: 2.5vh 2.5vw;
+}
+.mobile img {
+  width: 30vw;
+  max-width: 30vh;
+}
