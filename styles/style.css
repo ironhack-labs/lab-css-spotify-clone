@@ -1,11 +1,3 @@
-/*
-Colors:
-
-Text: 1A1A1A
-Green: #00B172
-White: #FFF
-
-*/
 * {
   margin: 0;
   padding: 0;
@@ -13,6 +5,7 @@ White: #FFF
   font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, Oxygen,
     Ubuntu, Cantarell, "Open Sans", "Helvetica Neue", sans-serif;
 }
+
 .section1 {
   height: 100vh;
 }
@@ -20,25 +13,31 @@ White: #FFF
 .navbar {
   position: fixed;
   width: 100%;
-  display: flex;
-  flex-wrap: wrap;
-  justify-content: space-between;
   align-items: flex-start;
   align-content: center;
   height: 100px;
-  padding: 0px 50px;
-  margin: 0px auto;
-  background-color: white;
+  padding: 0 50px;
+  margin: 0 auto;
+  background-color: #fff;
 }
 
 .logo img {
   height: 50px;
 }
 
-.navbar ul {
+.navbar,
+.navbar ul,
+header {
   display: flex;
   flex-wrap: wrap;
+}
+
+.navbar,
+.navbar ul {
   justify-content: space-between;
+}
+
+.navbar ul {
   align-items: center;
   margin: auto 20px;
 }
@@ -52,7 +51,7 @@ White: #FFF
 
 .navbar a {
   text-decoration: none;
-  color: black;
+  color: #000;
 }
 
 header {
@@ -61,44 +60,51 @@ header {
   background-position: center;
   height: 100vh;
   width: 0 auto;
-  display: flex;
   flex-direction: row;
-  flex-wrap: wrap;
-  justify-content: center;
-  align-items: center;
   align-content: center;
 }
+
 .title {
   color: #fff;
-  /* position: relative; */
   text-align: center;
 }
+
 .title h1 {
   font-size: 80px;
   font-weight: 400;
   padding: 10px;
   letter-spacing: 1.5;
 }
+
+.hd-music p,
+.songs p,
+.stream p,
 .title h3 {
-  font-size: 28px;
   font-weight: 200;
-  padding: 10px;
   width: 60%;
   margin: auto;
   text-align: center;
 }
 
-.section2 {
-  height: 100vh;
-  width: 100vw;
-  display: inline-block;
+.title h3 {
+  font-size: 28px;
+  padding: 10px;
+}
+
+.section2,
+header {
   justify-content: center;
   align-items: center;
 }
 
+.section2 {
+  width: 100vw;
+  display: inline-block;
+  margin-bottom: 50px;
+}
+
 .whats-on h3 {
   display: inline-block;
-  text-align: center;
   font-size: 36px;
   font-weight: 500;
   border-bottom: 5px solid #00b172;
@@ -106,128 +112,112 @@ header {
   margin: 50px auto;
 }
 
-.h3-title {
+.h3-title,
+.whats-on h3 {
   text-align: center;
 }
+
 .whats-boxes {
-  display: flex;
   flex-direction: row;
-  flex-wrap: wrap;
   justify-content: space-between;
-  align-items: center;
   align-content: center;
 }
+
 .whats-boxes img {
   height: 100px;
 }
-.songs,
+
 .hd-music,
-.stream {
+.section3,
+.songs,
+.stream,
+.whats-boxes {
   display: flex;
   flex-wrap: wrap;
+  align-items: center;
+}
+
+.hd-music,
+.songs,
+.stream {
   flex-direction: column;
   justify-content: center;
-  align-items: center;
   align-content: center;
   margin: 0 auto;
   flex-grow: 1;
   width: 33%;
 }
 
-.songs h4 {
-  color: #00b172;
-  font-weight: bold;
-  font-size: 28px;
-  margin: 20px;
-}
-
-.songs p {
-  color: #1a1a1a;
-  font-size: 20px;
-  font-weight: 200;
-  width: 60%;
-  margin: auto;
-  text-align: center;
-  letter-spacing: 1px;
-}
-
-.hd-music h4 {
-  color: #00b172;
-  font-weight: bold;
-  font-size: 28px;
-  margin: 20px;
-}
-
-.hd-music p {
-  color: #1a1a1a;
-  font-size: 20px;
-  font-weight: 200;
-  width: 60%;
-  margin: auto;
-  text-align: center;
-  letter-spacing: 1px;
-}
-
+.hd-music h4,
+.songs h4,
 .stream h4 {
   color: #00b172;
-  font-weight: bold;
+  font-weight: 700;
   font-size: 28px;
   margin: 20px;
 }
+
+.hd-music p,
+.songs p,
 .stream p {
   color: #1a1a1a;
   font-size: 20px;
-  font-weight: 200;
-  width: 60%;
-  margin: auto;
-  text-align: center;
   letter-spacing: 1px;
 }
+
 .section3 {
-  /* /* height: 100vh;
-  width: 100vw; */
   background-color: #00b172;
+  flex-direction: row;
+  justify-content: space-around;
+  align-content: space-around;
+  margin: 30px 50px;
+}
+
+.kanye {
+  flex: 0 0 33%;
+}
+
+.kanye img {
+  height: 80vh;
+}
+
+.text {
+  padding: 20px 70px;
+  flex: 0 0 67%;
+}
+
+.green-icon,
+.text-content {
+  flex: 0 0 50%;
+}
+
+.green-icon {
+  text-align: center;
+}
+
+.text h3,
+h4,
+p {
+  color: #fff;
+}
+
+.text-head h3 {
+  font-weight: 400;
+  display: inline-block;
+  font-size: 36px;
+  border-bottom: 5px solid #fff;
+  padding-bottom: 10px;
+  margin: 50px 0;
+}
+
+.text-icon {
   display: flex;
   flex-direction: row;
   flex-wrap: wrap;
   justify-content: space-around;
   align-items: center;
-  align-content: space-around;
-  margin: 30px 50px;
-}
-.text,
-.green-icon,
-.kanye {
-  display: flex;
-  flex-wrap: wrap;
-  flex-direction: column;
-  justify-content: center;
-  align-items: center;
   align-content: center;
-  margin: 0 auto;
-  flex-grow: 1;
-  width: 33%;
-}
-.text {
-  padding: 20px 70px;
-}
-.text h3,
-h4,
-p {
-  color: white;
-  /* padding: 20px; */
-}
-.text-content {
-  margin: auto auto 20px;
-}
-.text-head h3 {
-  font-weight: 400;
-  display: inline-block;
-  text-align: justify;
-  font-size: 36px;
-  border-bottom: 5px solid white;
-  padding-bottom: 10px;
-  margin: 50px auto;
+  margin-bottom: 50px;
 }
 
 .text-content h4 {
@@ -244,11 +234,5 @@ p {
 }
 
 .green-icon img {
-  height: 100px;
-}
-
-.kanye img {
-  height: 90vh;
-  margin: 50px auto;
-  padding: 0 70px;
+  height: 150px;
 }
