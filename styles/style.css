@@ -40,10 +40,6 @@ nav ul {
   align-items: center;
 }
 
-.nav-link {
-  color: darkgrey;
-}
-
 .logo-img {
   width: 120px;
   margin-right: 1rem;
@@ -76,4 +72,51 @@ h1 {
 .background-img-txt p {
   font-weight: 100;
   line-height: 25px;
+}
+/* 
+.middle-section h2 {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  margin: 50px 0 7px;
+} */
+
+.h2-container {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  margin: 50px 400px 7px;
+}
+
+.middle-section {
+  height: 600px;
+}
+
+.article-container {
+  margin-top: 100px;
+  display: flex;
+  justify-content: space-evenly;
+}
+
+.article-container article {
+  text-align: center;
+  color: rgb(121, 115, 115);
+}
+
+.article-container img {
+  /* width: 80px; */
+  height: 80px;
+  margin-top: 0;
+}
+
+.article-container h3 {
+  color: #00b172;
+  padding-bottom: 15px;
+}
+
+.h2-container h2:after {
+  content: " ";
+  display: block;
+  border-bottom: solid 3px #00b172;
+  padding-bottom: 5px;
 }
