@@ -1,8 +1,146 @@
-/*
-Colors:
-
+/*  Colors
 Text: 1A1A1A
 Green: #00B172
-White: #FFF
+White: #FFF */
 
-*/
+* {
+    font-family: 'Nanum Gothic', sans-serif;
+}
+
+body{
+    margin: 0;
+    padding: 0;
+}
+.nav-bar img {
+    height: 40px;
+    float: left;
+    padding-left: 2%;
+}
+.nav-bar {
+    display: flex;
+    position: fixed;
+    background: white;
+    padding-top: 20px;
+    padding-bottom: 14px;
+    height: 9%;
+    align-items: center;
+    z-index: 1;
+    width: 100%;
+    font-size: 1.5em;
+  }
+  .nav-bar ul {
+    display: flex;
+    flex-direction: row;
+    justify-content: flex-end;
+    width: 1200px;
+    margin-right: 5%;
+    list-style-type: none;
+    text-align: center;
+  }
+  .nav-bar li {
+      padding: 10px;
+  }
+  .nav-bar a {
+    color: black;
+    text-decoration: none;
+    font-size: 2em;
+  }
+.cover {
+    background-image: url(/images/landing.jpg);
+    background-size: cover;
+    height: 650px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+
+h1 {
+    color: white;
+    font-size: 80px;
+    margin: 0;
+    padding: 0;
+}
+.cover p {
+    color: white;
+    text-align: center;
+    margin: 0;
+    padding-top: 2%;
+    height: fit-content;
+    font-size: 25px;
+}
+#whatson h2 {
+    text-align: center;
+    font-size: xx-large;
+    font-weight: 900;
+}
+#whatson{
+    height: 500px;
+    margin: 0;
+}
+#whatson .container{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+    height: 60%;
+}
+#whatson .box {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    max-width: 25%;
+    width: 25%;
+    text-align: center;
+}
+#whatson img{
+    height: 30%;
+}
+#section3{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+}
+#sub-container{
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: space-around;
+    background-color: #00B172;
+    width: 95%;
+    background-image: url(/images/spotify-icon-white.png);
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: 20vh;
+}
+.container p {
+    padding-left: 0%;
+    padding-right: 10%;
+}
+#whitelogo{
+    height: 100px;
+}
+#app {
+    height: 80vh;
+    margin: 10px;
+
+}
+#explanation{
+    color: white;
+    display: flex;
+    flex-direction: column;
+    text-align: left;
+    width: 70vh
+}
+
+#section3 h2 {
+    font-size: 5vh;
+    width: fit-content;
+    border-bottom: solid 3px white;
+}
+h3 {
+    color: white;
+    font-weight: 900;
+}
