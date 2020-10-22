@@ -1,3 +1,67 @@
+body {
+    margin: 0;
+    padding: 0;
+    font-family: Circular, Helvetica, Arial, sans-serif, IosFix;
+}
+
+
+html {
+    font-family: Poppins, sans-serif;
+    font-size: 16px;
+    font-color: #1A1A1A;
+ 
+  
+    /* Green: #00B172; White: #FFF */
+
+}
+/* h1, h2, h3, h4, h5 {
+    font-family: Poppins,sans-serif;;
+  } */
+
+.header1 {
+    display: flex;
+    justify-content: space-between;
+    padding: 15px;
+	flex-direction: row;
+	flex-wrap: nowrap;
+	align-items: flex-start;
+    align-content: space-between;
+    /* position: fixed; */
+
+  }
+
+  .nav-bar {
+    width: 600px;
+    position: right;
+    display: flex;
+    justify-content: space-between;
+    font-weight: 300;
+    font-size: 25px;
+    
+  }
+  
+  .nav-bar-ul {
+    display: flex;
+    flex-direction: row;
+    justify-content: flex-end;
+    width: 1200px;
+    margin-right: 15%;
+    list-style-type: none;
+    text-align: center;
+
+  }
+  
+  .nav-bar-ul a {
+    text-decoration: none;
+    color: black;
+    padding: 20px;
+
+  }
+
+img.spotify-logo {
+    height: 80px;   
+}
+
 /*
 Colors:
 
@@ -6,3 +70,194 @@ Green: #00B172
 White: #FFF
 
 */
+.section1 {
+    background-image: url(../images/landing.jpg);
+    background-position: 0 0;
+    background-size: cover;
+    background-repeat: no-repeat;
+    display: flex;
+    flex-wrap: wrap;
+    height: 90vh;
+    margin: auto;
+    color:white;
+    align-content: center;
+    display: flex;
+	flex-direction: column;
+	flex-wrap: nowrap;
+	justify-content: center;
+	align-items: center;
+}
+h1 {
+    font-size: 125px;
+    align-content: center;
+    display: flex;
+	flex-direction: row;
+	flex-wrap: nowrap;
+	justify-content: center;
+	align-items: center;
+	
+    
+
+}
+.quote {
+    color: white;
+    font-size: 3em;
+    font-weight: lighter;
+    position: center;
+    padding-bottom: 100px;
+    padding: 10px 10px;
+    display: flex;
+    flex-wrap: wrap;
+    text-align: center;
+    line-height: 1.5em;
+
+}
+
+.service-box {
+    padding: 5em 15em 0;
+    margin: 5px;
+    zoom: 1;
+    font-size: 0.5em;
+    text-align: center;
+    align-content: center;
+    align-items: center;
+    
+    }
+.service-box p {
+    font-size: 3em;
+}
+
+.service-box img {
+    width: 115px;
+    align-items: center;
+  }
+      
+h3 {
+    font-size: 3vw;
+    text-align: center;
+    line-height: 1em;
+    /* padding-top: 0cm;
+    padding-bottom: 0cm; */
+    margin: 0.2em 0;
+    padding: 1% 0;
+    
+  }
+
+  .container1 {
+    padding: 25px 0;
+    margin: 0 auto;
+    
+  }
+  .container1 div {
+    display: flex;
+	/* flex-direction: row; */
+	flex-wrap: nowrap;
+	/* justify-content: center; */
+	align-items: center;
+    /* align-content: center;  */
+    justify-content: space-around;
+    
+  }
+
+  .container1 hr {
+    
+    margin: 0 auto 50px auto;
+    width: 27%;
+    border: 1px solid #00B172;
+    border-radius: 3px;
+
+}
+
+h4  {
+    color: #00B172;
+    text-align: center;
+    font-size: 3rem;
+    font-weight: bold;
+}
+
+.service-box p {
+    color:#1A1A1A;
+    /* font-style: oblique; */
+    font-size: 2rem;
+    font-weight: lighter;
+
+}
+.green-background {
+    background-color: #00B172;
+    margin: 0 auto;
+    padding: 5em 6em;
+    margin-left: 6em;
+    margin-right: 4em;
+    color: white;
+}
+
+.green-background hr {
+    margin: 0 20em 50px auto;
+    width: 85%;
+    align: left;
+    border: 1px solid white;
+    border-radius: 3px;
+}
+.yeezy {
+    display: flex;
+	flex-direction: column;
+	flex-wrap: nowrap;
+	align-items: baseline;
+	align-content: stretch;
+    margin: 10px;
+    height: 100%;
+    width: 70%;
+}
+.kanye {
+    font-size: 60px;
+
+}
+
+.h3-green {
+    font-size: 3em;
+    display: flex;
+	/* flex-wrap: nowrap; */
+    text-align: left;
+    padding-top: 1em;	
+}
+.article-container {
+    overflow-wrap: break-word;
+    align-content: left;
+}
+.text {
+    
+    max-width: 100vw;
+    padding: 5px;
+    font-size: 1.2vw;
+    color: white;
+    font-weight: lighter;
+    text-align: left;
+    margin: 1rem 0 2rem 0;
+    line-height: 1.5em;
+    width: 25vh;
+    
+}
+.green-div {
+    display: flex;
+	flex-direction: row;
+	justify-content: center;
+	align-items: center;
+	align-content: space-between;
+}
+
+.white-logo-img {
+    max-width:50%;
+    height:auto;
+    object-fit: contain;
+    align-items: center;
+
+}
+.app {
+    max-width: 60%;
+    height:auto;
+    width:auto;
+    object-fit: contain;
+}
+.app-img {
+    width: 35vh;
+}
