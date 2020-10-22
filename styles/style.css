@@ -36,6 +36,10 @@ nav li {
   margin-left: 40px;
 }
 
+.small-menu {
+  display: none;
+}
+
 nav a {
   text-decoration: none;
 }
@@ -158,6 +162,7 @@ nav a {
   font-size: 38px;
   height: 150px;
   letter-spacing: 1.5px;
+  line-height: 70px;
 }
 
 .white-border {
@@ -198,9 +203,7 @@ nav a {
 
 @media only screen and (max-width: 1220px) {
   .spotify-icon {
-    height: 120px;
-    top: 5%;
-    left: 80%;
+    display: none;
   }
 
   .right-column img {
@@ -240,26 +243,47 @@ nav a {
 
   .left-column h3 {
     height: 150px;
-  }
-
-  .spotify-icon {
-    top: 15%;
-    left: 70%;
+    margin-bottom: 30px;
   }
 
   .right-column img {
-    width: 70%;
+    width: 100%;
+  }
+
+  .small-menu {
+    display: flex;
+  }
+
+  .nav-menu {
+    display: none;
   }
 }
 
-@media only screen and (max-width: 780px) {
-  .spotify-icon {
-    display: none;
+@media only screen and (max-width: 700px) {
+  .left-column h3 {
+    font-size: 28px;
+    height: auto;
+  }
+
+  .left-text h4 {
+    font-size: 24px;
+  }
+
+  .left-text p {
+    font-size: 20px;
+  }
+
+  .left-text {
+    width: 100%;
   }
 }
 
 @media only screen and (max-width: 640px) {
   .title {
     width: 300px;
+  }
+
+  .green-background {
+    padding: 30px 50px;
   }
 }
