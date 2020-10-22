@@ -1,15 +1,149 @@
-/*
-Colors:
-
-Text: 1A1A1A
-Green: #00B172
-White: #FFF
-
-*/
-@import url(//db.onlinewebfonts.com/c/112ec584bfc481ccde03444e67f8fc3f?family=Circular+Spotify+Tx+T+Bold);
-
-html, body {
-    body {
-        font-family: "Circular Spotify";
+@import url('https://fonts.googleapis.com/css?family=Poppins:100,300,500,600,700');
+html,
+body {
+	font-family: Poppins
 }
 
+nav-bar {
+	display: flex;
+	justify-content: space-between;
+	width: 100%;
+	background-color: white;
+	position: fixed;
+}
+
+nav-bar img {
+	width: 200px;
+}
+
+nav-bar ul {
+	list-style: none;
+	display: flex;
+	justify-content: space-between;
+	align-items: center;
+}
+
+nav-bar a {
+	text-decoration: none;
+	color: black;
+	padding: 0 15px;
+}
+
+.intro-cover {
+	background-image: url('/images/landing.jpg');
+	background-position: 0 0;
+	background-repeat: no-repeat;
+	background-size: cover;
+	height: 1000px;
+}
+
+.intro-cover h1 {
+	text-align: center;
+	color: #FFF;
+	margin: auto;
+	padding: 500px 0 0 0;
+	font-size: 60px;
+	font-weight: 500;
+}
+
+.intro-cover p {
+	text-align: center;
+	color: #FFF;
+	margin: auto;
+	padding: 25px;
+	font-weight: 100;
+	font-size: 20px;
+	;
+}
+
+.spotify-box {
+	background-color: white;
+	position: relative;
+	padding: 1%;
+	height: 450px;
+}
+
+.spotify-box h2 {
+	color: #1A1A1A font-size: 22px;
+	font-weight: 500;
+	text-align: center;
+	padding: 20px;
+	0
+}
+
+.spotify-box>div {
+	display: flex;
+	justify-content: space-evenly;
+	flex-direction: row;
+	align-items: flex-start;
+	align-content: center;
+}
+
+.spotify-box h3 {
+	color: #00B172;
+	text-align: center;
+	font-size: 19px;
+}
+
+.spotify-box p {
+	text-align: center;
+	font-size: 17px;
+	font-weight: 300;
+}
+
+.container {
+	font-size: 15px;
+	text-align: left;
+	margin-left: 5%;
+	margin-right: 5%;
+	padding: 20px 20px 20px 20px;
+	width: 40%;
+}
+
+.container img {
+	width: 150px;
+	display: block;
+	margin: auto
+}
+
+.teaser-box {
+	background-color: rgb(47 177 106);
+	height: 650px;
+	padding: 50px 130px;
+}
+
+.teaser-box h2 {
+	color: white;
+	font-weight: 400px;
+	font-size: 26px;
+	border-bottom: white solid 3px;
+}
+
+.teaser-box h4 {
+	color: white;
+	font-weight: 400px;
+	font-size: 22px;
+}
+
+.teaser-box p {
+	color: white;
+	font-weight: 200;
+	font-size: 19px;
+}
+
+.teaser-box>div {
+	display: flex;
+	justify-content: space-between;
+	flex-direction: row;
+	align-items: space-between;
+}
+
+#white-logo {
+	width: 120px;
+	padding: 250px 80px;
+}
+
+#spotify-app {
+	width: 310px;
+	padding: 50px 20px 50px 20px;
+}
