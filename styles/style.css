@@ -6,3 +6,191 @@ Green: #00B172
 White: #FFF
 
 */
+/*
+Open questions
+1. how to add more space to top of letters in the nav? 
+2. the headers for the flex boxes don't align. 
+    This is because there is differing amounts of text.
+    Do I need to specify the heights for each part of the box to align them?
+    Or is there an easier way?
+3.
+*/
+
+body {
+    margin: 0;
+    padding: 0;
+    font-family: Circular, Helvetica, Arial, sans-serif, IosFix;
+}
+
+.navbar {
+    background:white;
+    position: fixed;
+    width: 100%;
+    height: 5vh;
+    display: flex;
+    align-items: center; 
+    /* border: 2px solid blue; */
+}
+
+.navbar ul {
+    font-size: larger;
+    list-style: none;
+    display: flex;
+    margin: 2px;
+    padding: 2px;
+    position: absolute;
+    right: 2%;
+    /* border: 2px solid yellow; */
+}
+
+.navbar ul >li, img {
+    padding: 5px;
+    height: 4vh;
+    /* border: 2px solid black; */
+}
+
+.navbar a {
+    color:#1A1A1A;
+    text-decoration: none;
+}
+
+/* how to add more space to top of letters? */
+
+
+/* section {
+    display: flex;
+    align-items: center;
+    height: 100vh;
+    width: 100vh;
+} */
+
+.header {
+    color: white;
+    text-align: center;
+    background-image: url("/images/landing.jpg");
+    background-size: cover;
+    background-position: center;
+    height: 50vh;
+    width: 100vw;
+    display: flex; 
+    flex-flow: column;
+    align-items: center;
+    justify-content: center;
+    /* border: 2px solid blue; */
+}
+
+.header h1 {
+    font-size: 4em;
+}
+
+.header p {
+    font-size: 1.3em;
+    font-weight:lighter;
+}
+.header h1, p, {
+    display: flex;
+    width: 50vh;
+    align-content: center;
+    justify-content: center;
+    margin: auto, 25%;
+}
+
+.what h2 {
+    text-align: center;
+    padding-top: 5vh;
+    /* border: 2px solid blue; */
+}
+
+.box {
+    display: flex;
+    flex-direction: row;
+    flex-wrap: nowrap;
+    justify-content: center;
+    align-content: center;
+    flex: 1; 
+    flex-basis: 33%;
+    padding-bottom:10vh;
+    /* border: 2px solid blue; */
+}
+.container {
+    display:flex;
+    height: 25vh;
+    flex-direction: column;
+    align-items: center;
+    justify-content: space-between;
+    /* margin: 10px, 10px; */
+    flex-basis: 33%;
+    /* border: 2px solid green; */
+}
+
+.box h3 {
+    color: #00B172;
+}
+
+.box img {
+    height: 7vh;
+    padding-top: 2vh;
+}
+
+.box p {
+    margin-right: 3vw;
+    margin-left: 3vw;
+}
+
+.yeezy {
+    display: flex;
+    flex-direction: row;
+    background-color:#00B172 ;
+    color: white;
+    /* align-content: center; */
+    align-items: center;
+    justify-content: center;
+    flex: 1;
+    padding: 30px;
+    /* border: 2px solid red */
+}
+.text {
+    display: flex;
+    flex-direction: column;
+    background-color:#00B172 ;
+    color: white;
+    flex: 3;
+    
+    /* border: 2px solid purple; */
+}
+
+.icon {
+    height: 50vh;
+    background-size: 10vh;
+    background-image: url("/images/spotify-icon-white.png");
+    background-position: center;
+    background-repeat: no-repeat;
+    flex: 2;
+}
+
+.appimg {
+    height:50vh;
+    background-image: url("/images/spotify-app.jpg");
+    background-size: 25vh;
+    background-position: center;
+    background-repeat: no-repeat;
+    flex: 3;
+    padding-top: 10px;
+    padding-bottom: 10px;
+
+
+    /* border: 2px solid purple; */
+}
+
+
+.what hr {
+    width: 19.5vh;
+    margin: 0, auto;
+    background-color:#00B172 ; 
+    height: 3px;
+}
+
+.text hr {
+    background-color:white ; 
+    height: 3px;
+}
