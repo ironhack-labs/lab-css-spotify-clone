@@ -6,3 +6,155 @@ Green: #00B172
 White: #FFF
 
 */
+
+body{
+    font-family: 'Open Sans', sans-serif;
+    background-color: #fff;
+}
+
+/* =============  HEADER ============= */
+
+header{
+    text-align: center;
+}
+
+header nav{
+    position: fixed;
+    top: 0;
+    width: 100%;
+    background-color: #fff;
+    background-size: cover;
+    text-align: left;
+    margin-top: 0;
+}
+
+header nav img{
+    height: 50px;
+    padding-bottom: .2em;
+}
+
+header nav ul{
+    list-style: none;
+    float: right;
+    margin-right: 1.5em;
+}
+
+header nav ul li{
+    display: inline-block;
+    margin-left: 1em;
+}
+
+header > div{
+    padding: 250px 20%;
+    background-image: url('../images/landing.jpg');
+    background-size: cover;
+}
+
+header >div > p, h1{
+    color: #FFF;
+}
+
+header >div > p{
+    font-size: 1.4em;
+    font-weight: 200;
+}
+
+h1{
+    font-size: 3.2em;
+    font-weight: 700;
+}
+
+/* ========= MAIN ============ */
+
+main{
+    text-align: center;
+}
+
+main h2{
+    display: inline-block;
+    border-bottom: 3px solid #00B172;
+    padding-bottom: 3px;
+    padding-top: 40px;
+    font-size: 1.5em;
+
+}
+
+main article{
+    width: 90%;
+    position: relative;
+    left: 5%;
+    height: 370px;
+}
+
+main article div {
+    width: 30%;
+    margin: 1.6%;
+    float: left;
+}
+
+main article div img{
+    width: 50%;
+}
+
+main article div h3{
+    color: #00B172;
+    font-size: 1.4em;
+
+}
+
+main article > div:nth-child(2) h3,
+main article > div:nth-child(2) p{
+    position: relative;
+    top: 20px;
+}
+
+/* =========FOOTER========== */
+
+footer{
+    background-color: #00B172;
+    width: 90%;
+    position: relative;
+    left: 2%;
+    color: #fff;
+    padding: 3% 3%;
+    border-radius: .5%;
+    margin-bottom: 25px;
+}
+footer .white-logo{
+    height: 30%;
+    position: absolute;
+    left: 43%;
+    top: 38%;
+}
+footer img{
+    height: 100%;
+    border-radius: 4px;
+
+}
+
+footer .app-image{
+    height: 80%;
+    position: absolute;
+    top: 10%;
+    right: 6%;
+}
+
+footer article, 
+footer h2{
+    width: 45%;
+    margin-left: 10px;
+}
+
+footer h2{
+    display: inline;
+    border-bottom: 3px solid #fff;
+    font-size: 1.7em;
+    padding-bottom: 7px;
+}
+
+footer article p{
+    width: 80%;
+}
+
+
+
