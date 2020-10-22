@@ -206,6 +206,10 @@ nav a {
   .right-column img {
     margin-top: 80px;
   }
+
+  .left-column h3 {
+    height: 200px;
+  }
 }
 
 @media only screen and (max-width: 1000px) {
@@ -228,6 +232,29 @@ nav a {
 
   .title h2 {
     font-size: 24px;
+  }
+
+  .green-background {
+    flex-direction: column;
+  }
+
+  .left-column h3 {
+    height: 150px;
+  }
+
+  .spotify-icon {
+    top: 15%;
+    left: 70%;
+  }
+
+  .right-column img {
+    width: 70%;
+  }
+}
+
+@media only screen and (max-width: 780px) {
+  .spotify-icon {
+    display: none;
   }
 }
 
