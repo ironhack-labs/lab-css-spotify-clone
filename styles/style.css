@@ -6,3 +6,144 @@ Green: #00B172
 White: #FFF
 
 */
+
+html,
+body {
+    font-family: 'Open Sans', sans-serif;font-family: 'Commissioner', sans-serif;
+    font-size: 16px;
+    font-weight: 200;
+    margin: 0;
+    padding: 20px 50px;
+}
+
+.nav-bar {
+    display: flex;
+    justify-content: space-between;
+    padding-bottom: 20px;
+}
+
+.nav-bar ul {
+    display: flex;
+    /* padding: 0 20px 0 0 ; */
+    list-style: none;
+    width: 500px;
+    justify-content: space-between;
+}
+.nav-bar ul a {
+    text-decoration-line: none;
+    font-size: 1.2em;
+    color: black;
+}
+.nav-bar img {
+    padding: 0 20px 0 0 ;
+    width: 200px;
+    height: 60px;
+}
+
+.header {
+    height: 800px;
+    background-image: url("/images/landing.jpg");
+    background-repeat: no-repeat;
+    background-size: cover;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+h1 {
+    color: white;
+    font-size: 3em;
+}
+
+.header p {
+    color: white;
+    text-align: center;
+    font-size: 1.2em;
+}
+
+.sectionOne {
+    /* padding: 100px 0; */
+    height: 600px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+.sectionOne .container {
+    display: flex;
+    /* justify-content: space-between; */
+    align-items: center;
+    /* flex-direction: row; */
+}
+
+.sectionOne .container .box {
+    width: 250px;
+    height: 250px;
+    text-align: center;
+    padding: 0 60px 30px 60px;
+}
+
+.sectionOne .container .box h3 {
+    color: #00B172;
+    font-size: 1.4em;
+}
+
+.sectionOne .container .box p {
+    font-size: 1.2em;
+}
+
+.box img {
+    width: 90px;
+    height: 90px;
+}
+
+.sectionOne h2 {
+    font-size: 2.5em;
+    border-bottom: 4px solid #00B172 ;
+    padding-bottom: 20px;
+    width: 33%;
+}
+
+.sectionTwo {
+    background-color: #00B172;
+    height: 700px;
+    padding: 20px 50px;
+}
+
+.sectionTwo h2 {
+    font-size: 2.5em;
+    color:  #FFF;
+    border-bottom: 4px solid  #FFF;
+    padding-bottom: 5px;
+    width: 51%;
+    /* text-decoration: underline;; */
+    /* text-underline-position: below; */
+}
+   
+.sectionTwo .container {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+.sectionTwo .container .box {
+    display: flex;
+    flex-direction: column;
+    justify-content: space-around;
+    text-align: left;
+    font-size: 1.2em;
+    color: #FFF;
+    width: 300px;
+    height: 300px;
+    text-align: left;
+}
+#spotify-icon-white {
+    width: 100px;
+    height: 100px;
+}
+#spotify-app {
+    width: 250px;
+    height: 450px;
+    padding-top: 30px;
+}
