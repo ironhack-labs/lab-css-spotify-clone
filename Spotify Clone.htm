@@ -1,0 +1,110 @@
+<!DOCTYPE html>
+<!-- saved from url=(0054)http://127.0.0.1:5501/lab-css-spotify-clone/index.html -->
+<html lang="en"><head><meta http-equiv="Content-Type" content="text/html; charset=UTF-8">
+    
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>Spotify Clone</title>
+    
+  <link rel="stylesheet" href="./Spotify Clone_files/style.css"></head>
+  <body>
+    
+   <nav>
+     <img src="./Spotify Clone_files/spotify-logo.png" alt="Spotify logo">
+     <ul>
+        <li>Premium</li>
+        <li>Discover</li>
+        <li>Help</li>
+        <li>Download</li>
+     </ul>
+  </nav> 
+
+  <header class="headercontainer">
+    <h1>Music for everyone.</h1>
+    <h2>Spotify is now free on mobile, tablet and computer. Listen to the right music, wherever you are.</h2>
+  </header>
+
+
+<section id="">
+  <h3>What’s on Spotify?</h3>
+
+  <div class="threePartContainer">
+    <article>
+      <img src="./Spotify Clone_files/music-icon.png" alt="MusicIcon">
+      <h4> Millions of Songs</h4>
+        <div>There are millions of songs on Spotify</div>
+    </article>
+
+    <article>
+      <img src="./Spotify Clone_files/high-quality-icon.png" alt="HQicon">
+      <h4>HD Music</h4>
+        <div>Listen to music as if you were listening live</div>
+    </article>
+  
+    <article>
+      <img src="./Spotify Clone_files/devices-icon.png" alt="Devices">
+      <h4>Stream Everywhere</h4>
+      <div>Stream music on your smartphone, tablet or computer</div>
+    </article>
+  </div>
+</section>
+
+<section class="yeezyContainer">
+  <div>
+    <h5>It’s as yeezy as Kanye West</h5>
+      <h6>Search</h6>
+      <article>Know what you want to listen to? Just search and hit play.</article>
+
+      <h6>Browse</h6>
+      <article>Check out the
+        latest charts, brand new releases and great playlists for right now.</article>
+  
+      <h6>Discover</h6>
+      <article>Enjoy new music every Monday with your own personal playlist. Or sit back and enjoy Radio</article>
+    </div>
+
+    <img id="logo_white" src="./Spotify Clone_files/spotify-icon-white.png" alt="spotify-icon">
+    <img id="kanye" src="./Spotify Clone_files/spotify-app.jpg" alt="spotify-app">
+  </section>
+
+   
+  <!-- Code injected by live-server -->
+<script type="text/javascript">
+	// <![CDATA[  <-- For SVG support
+	if ('WebSocket' in window) {
+		(function () {
+			function refreshCSS() {
+				var sheets = [].slice.call(document.getElementsByTagName("link"));
+				var head = document.getElementsByTagName("head")[0];
+				for (var i = 0; i < sheets.length; ++i) {
+					var elem = sheets[i];
+					var parent = elem.parentElement || head;
+					parent.removeChild(elem);
+					var rel = elem.rel;
+					if (elem.href && typeof rel != "string" || rel.length == 0 || rel.toLowerCase() == "stylesheet") {
+						var url = elem.href.replace(/(&|\?)_cacheOverride=\d+/, '');
+						elem.href = url + (url.indexOf('?') >= 0 ? '&' : '?') + '_cacheOverride=' + (new Date().valueOf());
+					}
+					parent.appendChild(elem);
+				}
+			}
+			var protocol = window.location.protocol === 'http:' ? 'ws://' : 'wss://';
+			var address = protocol + window.location.host + window.location.pathname + '/ws';
+			var socket = new WebSocket(address);
+			socket.onmessage = function (msg) {
+				if (msg.data == 'reload') window.location.reload();
+				else if (msg.data == 'refreshcss') refreshCSS();
+			};
+			if (sessionStorage && !sessionStorage.getItem('IsThisFirstTime_Log_From_LiveServer')) {
+				console.log('Live reload enabled.');
+				sessionStorage.setItem('IsThisFirstTime_Log_From_LiveServer', true);
+			}
+		})();
+	}
+	else {
+		console.error('Upgrade your browser. This Browser is NOT supported WebSocket for Live-Reloading.');
+	}
+	// ]]>
+</script>
+
+</body></html>
