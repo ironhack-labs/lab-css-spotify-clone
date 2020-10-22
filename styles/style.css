@@ -30,6 +30,7 @@ body {
   position: fixed;
   margin: 0 1.25vw 2.5vh 1.25vw;
   right: 0;
+  z-index: 1;
 }
 .nav-bar > a {
   text-decoration: none;
@@ -70,6 +71,11 @@ body {
   font-weight: 100;
   font-size: 1.3rem;
   text-align: center;
+}
+@media screen and (max-width: 640px){
+  .main-header > p {
+    bottom: 25%;
+  }
 }
 
 /* INTRO */
