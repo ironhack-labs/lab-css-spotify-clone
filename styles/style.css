@@ -6,7 +6,7 @@ Green: #00B172
 White: #FFF
 
 */
-:root {
+body {
     font-family: sans-serif;
     margin:0;
     padding:0;
@@ -22,9 +22,8 @@ header {
     align-items: center;
     position: fixed;
     background-color:white;
-    padding: 1rem;
+    padding: 0 1rem;
     top:0;
-    /* top: 0; */
 }
 
 header img {
@@ -42,8 +41,13 @@ nav li {
     padding: 1rem 1.5rem;
 }
 
+a {
+    text-decoration: none;
+    color:inherit;
+}
+
 section {
-    padding: 2rem 4rem;
+    padding: 2rem 2rem;
 }
 
 .intro {
@@ -51,6 +55,8 @@ section {
     text-align: center;
     height:100vh;
     background-image: url(/images/landing.jpg);
+    background-position: center;
+    background-size: cover;
     margin-top: 100px;
     display:flex;
     flex-direction: column;
@@ -66,13 +72,17 @@ h1 {
     font-size: 4rem;
 }
 h2 {
-    text-decoration: underline;
-    text-decoration-color: #00B172;
-    font-size: 2.6rem;
+        font-size: 2.6rem;
 }
+.features h2 {
+    display:inline;
+    border-bottom: 4px solid #00B172; 
+}
+
 h3 {
     color: #00B172;
     font-size: 2rem;
+    color: inherit;
 }
 .features {
     text-align: center;
@@ -83,13 +93,49 @@ h3 {
     justify-content:space-between;
     align-items: center;
     align-content: center;
+    padding: 4rem 4rem 2rem 4rem;
 }
 article {
     width: 25%;
 }
 article p {
-    font-size:1.9rem;
+    font-size:1.7rem;
 }
 .icon{
   height:6rem;
+}
+.yeezy-container-first {
+
+}
+.yeezy-container-second {
+
+}
+.yeezy {
+   background-color: #00B172;
+   padding: 4rem 5rem;
+   color: white;  
+   background-image: url(/images/spotify-icon-white.png);
+   background-repeat: no-repeat;
+   background-position: center;
+   background-size: 7.5rem;
+   display:flex;
+   align-items: cen;
+}
+
+.yeezy article {
+    width:50%;
+}
+.yeezy h2 {
+    display: inline;
+    border-bottom: 4px solid white;
+}
+.yeezy img {
+    width: 100%;
+    padding: 2rem 0;
+}
+.yeezy-container-first {
+  width: 70%;
+}
+.yeezy-container-second {
+    width: 30%;
 }
