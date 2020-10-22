@@ -7,37 +7,35 @@
 nav {
   display: flex;
   justify-content: space-between;
+  align-items: center;
   margin: 20px 20px;
 }
-.logo {
+.logo,
+.white-icon {
   width: 150px;
 }
 nav ul {
   display: flex;
   justify-content: space-between;
-  align-items: center;
-  margin: 10px;
 }
-
 nav ul li {
   list-style-type: none;
   margin-left: 50px;
 }
-
 nav ul li a {
   text-decoration: none;
   color: #1a1a1a;
+  font-weight: 500;
 }
-
 header {
   display: flex;
+  flex-direction: column;
+  align-items: center;
   max-width: 100%;
   background: url(/images/landing.jpg) no-repeat center;
   background-size: cover;
   color: white;
   font-size: 4em;
-  flex-direction: column;
-  align-items: center;
   text-align: center;
   padding-top: 380px;
   padding-bottom: 420px;
@@ -50,7 +48,6 @@ h1 {
 .description {
   width: 50%;
   font-size: 2.2rem;
-  margin-bottom: 50px;
   margin-bottom: 50px;
 }
 h2 {
@@ -78,19 +75,20 @@ h5 {
   text-align: justify;
   margin-left: 5%;
   padding-top: 10%;
-  font-size: 2.5rem;
+  font-size: 2rem;
   font-weight: bold;
 }
 .section-one p {
-  max-width: 150px;
+  max-width: 200px;
 }
 .section-one {
   display: flex;
   justify-content: space-evenly;
   margin-top: 100px;
+  margin-bottom: 160px;
 }
 .section-one img {
-  width: 150px;
+  width: 200px;
   margin: 20px;
 }
 .section-one div {
@@ -110,27 +108,21 @@ h5 {
   text-align: center;
 }
 
-.section-two img {
-  width: 200px;
-}
-
 .section-two hr {
   background-color: white;
   border: 3px solid white;
   max-width: 500px;
 }
 .section-two p {
-  width: 589px;
+  width: 350px;
   font-size: 1.5rem;
   text-align: justify;
   padding-left: 5%;
   padding-top: 5%;
 }
-/*
-Colors:
-
-Text: 1A1A1A
-Green: #00B172
-White: #FFF
-
-*/
+.quality-icon {
+  padding-bottom: 25px;
+}
+.spotify-app {
+  width: 370px;
+}
