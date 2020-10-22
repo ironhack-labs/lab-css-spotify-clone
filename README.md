@@ -41,7 +41,7 @@ In general, website designs don't just come out the wild, so you will most likel
 
 _**The last section isn't as detailed as the others ones, good luck**_ :smile:
 
-:muscle: :muscle: :muscle:
+:muscle: :muscle: :muscle: 
 <br>
 ![](https://res.cloudinary.com/ihwebdeb/image/upload/v1571085836/Ironhack/spotify-prototype_1x_ahk8ep.jpg)
 
