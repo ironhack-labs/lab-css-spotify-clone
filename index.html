@@ -5,23 +5,23 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <meta http-equiv="X-UA-Compatible" content="ie=edge" />
     <title>Spotify Clone</title>
-    <link rel="stylesheet" href="/styles/style.css">
+    <link rel="stylesheet" href="/lab-css-spotify-clone/styles/style.css">
     <link href="https://fonts.googleapis.com/css2?family=Nanum+Gothic&display=swap" rel="stylesheet">
   </head>
   <body>
     <nav class="nav-bar">
-      <img src="/images/spotify-logo.png">
+      <img src="/lab-css-spotify-clone/images/spotify-logo.png">
       <ul>
-        <li>Premium</li>
-        <li>Discover</li>
-        <li>Help</li>
-        <li>Download</li>
+        <li><a href="#premium">Premium</a></li>
+        <li><a href="#extra">Discover</a></li>
+        <li><a href="#premium">Help</a></li>
+        <li><a href="#premium">Download</a></li>
       </ul>
     </nav>  
-    <div class="container" id="header" >
+    <div id="header" >
       <div class="cover">
       <h1>Music for everyone</h1>
-      <p>Spotify is now free on mobile, tablet and computer.<br>Listen to the right music, wherever you are.</p>
+      <p>Spotify is now free on mobile, tablet and computer.Listen to the right music, wherever you are.</p>
       </div>
     </div>
     <!-- what is on spotify section -->
@@ -29,17 +29,17 @@
       <span class="subheader"><h2>What’s on Spotify?</h2></span>
       <div class="container">
         <article class="box">
-          <img src="/images/music-icon.png">
+          <img src="/lab-css-spotify-clone/images/music-icon.png">
           <h3>Millions of Songs</h3>
           <p>There are millions of songs on Spotify</p>
         </article>
         <article class="box">
-          <img src="/images/high-quality-icon.png">
+          <img src="/lab-css-spotify-clone/images/high-quality-icon.png">
           <h3>HD Music</h3>
           <p>Listen to music as if you were listening live</p>
         </article>
         <article class="box">
-          <img src="/images/devices-icon.png">
+          <img src="/lab-css-spotify-clone/images/devices-icon.png">
           <h3>Stream Everywhere</h3>
           <p>Stream music on your smartphone, tablet or computer</p>
         </article>
@@ -66,8 +66,18 @@
           own personal playlist. Or sit back and enjoy Radio.</p>
       </article>
     </div>
-    <img id="app" src="images/spotify-app.jpg">
+    <img id="app" src="/lab-css-spotify-clone/images/spotify-app.jpg">
     </div>
   </div>
+  <div class="container" id="extra">
+    <div class="box"></div>
+    <div class="box"></div>
+    <div class="box"></div>
+    <div class="box"></div>
+    <div class="box"></div>
+</div> 
+<div id="music">
+  <iframe src="https://open.spotify.com/embed/playlist/37i9dQZEVXbMDoHDwVN2tF" width="95%" position="center" height="380" frameborder="50" allowtransparency="true" allow="encrypted-media"></iframe>
+</div>
   </body>
 </html>

@@ -28,6 +28,10 @@ body{
     width: 100%;
     font-size: 1.5em;
   }
+  .nav-bar a {
+    text-decoration: none;
+    color: black;
+  }
   .nav-bar ul {
     display: flex;
     flex-direction: row;
@@ -40,13 +44,12 @@ body{
   .nav-bar li {
       padding: 10px;
   }
-  .nav-bar a {
-    color: black;
-    text-decoration: none;
-    font-size: 2em;
+
+  .nav-bar a:hover {
+      color: gray;
   }
 .cover {
-    background-image: url(/images/landing.jpg);
+    background-image: url(/lab-css-spotify-clone/images/landing.jpg);
     background-size: cover;
     height: 650px;
     display: flex;
@@ -55,20 +58,20 @@ body{
     align-items: center;
 }
 
-
 h1 {
     color: white;
     font-size: 80px;
     margin: 0;
     padding: 0;
+    border: solid red 2px;
 }
 .cover p {
     color: white;
-    text-align: center;
-    margin: 0;
     padding-top: 2%;
-    height: fit-content;
     font-size: 25px;
+    text-align: center;
+    width: 100vh;
+    border: red solid 2px;
 }
 #whatson h2 {
     text-align: center;
@@ -110,7 +113,7 @@ h1 {
     justify-content: space-around;
     background-color: #00B172;
     width: 95%;
-    background-image: url(/images/spotify-icon-white.png);
+    background-image: url(/lab-css-spotify-clone/images/spotify-icon-white.png);
     background-position: center;
     background-repeat: no-repeat;
     background-size: 20vh;
@@ -143,4 +146,56 @@ h1 {
 h3 {
     color: white;
     font-weight: 900;
+}
+
+#extra .box {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex: 1;
+    height: 25vh;
+    background-color: red;
+    border: 2px solid black;
+    font-size: 50px;
+    color: white;
+    transition-duration: 1s;
+    background-position: center;
+    background-size: cover;
+}
+#extra .box:hover{
+    flex: 2;
+    height: 40vh;
+}
+#extra {
+    margin-left: 2.5%;
+    margin-right: 2.5%;
+    padding-right: 7%;
+    padding-left: 7%;
+    display: flex;
+    height: 50vh;
+    align-items: center;
+    flex-direction: row;
+    background-color: black;
+}
+#extra .box:nth-of-type(1){
+    background-image: url(https://static.billboard.com/files/media/Lady-Gaga-Fame-Monster-album-covers-billboard-1000x1000-compressed.jpg)
+}
+#extra .box:nth-of-type(2){
+    background-image: url(https://static.billboard.com/files/media/Johnny-Cash-American-IV-The-Man-Comes-Around-album-covers-billboard-1000x1000-compressed.jpg)
+}
+#extra .box:nth-of-type(3){
+    background-image: url(https://static.billboard.com/files/media/Madonna-True-Blue-album-covers-billboard-1000x1000-compressed.jpg)
+}
+#extra .box:nth-of-type(4){
+    background-image: url(https://static.billboard.com/files/media/Metallica-Master-of-Puppets-album-covers-billboard-1000x1000-compressed.jpg)
+}
+#extra .box:nth-of-type(5){
+    background-image: url(https://static.billboard.com/files/media/Sex-Pistols-Never-Mind-the-Bollocks-greatest-album-covers-billboard-1000x1000-compressed.jpg)
+}
+#extra h2{
+    color: white;
+}
+#music {
+    display: flex;
+    justify-content: center;
 }
