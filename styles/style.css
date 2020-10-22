@@ -6,3 +6,134 @@ Green: #00B172
 White: #FFF
 
 */
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  font-family: sans-serif;
+}
+.top {
+  background-image: url("https://raw.githubusercontent.com/ironhack-labs/lab-css-spotify-clone/master/images/landing.jpg");
+  background-repeat: no-repeat;
+  background-size: 100vw 100%;
+  background-position: center;
+  height: 50vh;
+  display: flex;
+  justify-content: center;
+}
+.nav-bar {
+  position: fixed;
+  width: 99vw;
+  border: 2px solid turquoise;
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  background-color: white;
+}
+.logo {
+  height: 20px;
+}
+ul {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-evenly;
+  width: 50vw;
+  list-style-type: none;
+}
+ul li a {
+  text-decoration: none;
+  color: black;
+}
+.header {
+  margin-bottom: 0px;
+  padding-bottom: 0;
+  text-align: center;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  width: 50vw;
+  height: 50vh;
+  color: white;
+}
+
+h1 {
+  margin-bottom: 10px;
+}
+p {
+  font-size: small;
+  margin-bottom: 30px;
+  padding: 10px 15px;
+}
+.icons {
+  height: 50px;
+  margin: 10px auto;
+}
+
+.whatsOn {
+  display: flex;
+  justify-content: center;
+  flex-direction: column;
+  text-align: center;
+}
+.whatsOnSpotify {
+  margin: 10px auto 30px;
+  border-bottom: 3px solid #00b172;
+}
+
+.whatIsOn {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-evenly;
+  text-align: center;
+  height: 20vh;
+}
+
+.songsHdStream {
+  width: 30vw;
+  margin: 20px 0;
+}
+.spotifyApp {
+  background-color: #00b172;
+  display: flex;
+  flex-direction: row;
+  justify-content: space-evenly;
+}
+.app {
+  height: auto;
+  width: 20vw;
+  margin-left: 100px;
+}
+
+.spotifyGreen {
+  color: #00b172;
+  margin-bottom: 10px;
+}
+.yeezy {
+  margin-top: 20px;
+  margin-left: 100px;
+  color: white;
+}
+.kanyeWest {
+  text-align: left;
+  margin: 0px auto 30px 0px;
+  border-bottom: 3px solid whi
+  width: fit-content;
+}
+h3 {
+  margin-bottom: 30px;
+}
+.icon {
+  position: absolute;
+  margin-top: 350px;
+  height: 70px;
+}
+.icon2 {
+  height: 70px;
+}
+
+.appScreenShot {
+  margin: auto;
+}
+.searchBrowseDiscover {
+  width: 30vw;
+}
