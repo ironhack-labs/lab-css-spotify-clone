@@ -1,8 +1,128 @@
+@import url('https://fonts.googleapis.com/css?family=Poppins');
 /*
 Colors:
-
 Text: 1A1A1A
 Green: #00B172
 White: #FFF
-
 */
+html, body {
+    margin: 0;
+    padding: 0;
+  }
+
+body {
+    font-family: "Poppins";
+    line-height: 3.5em;
+    font-weight: 300;  
+  }
+
+  header{
+      padding: 0 25px;
+  }
+
+  /* Header: nav-bar */
+
+  .nav-bar {
+    background-color: white;
+    position: fixed;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin: 0 auto;
+    padding: 0 15px;
+}
+
+.nav-bar img {
+    width: 13%;
+}
+
+nav{
+    width: 40%;
+}
+
+nav ul {
+    list-style-type: none;
+    display: flex;
+    justify-content: space-evenly;
+    align-items: center;
+}
+
+
+  /* Header landing */
+.landing {
+    background-image: url(/images/landing.jpg);
+    background-size: cover;
+    height: 600px;
+    padding: 10%0 0;
+    text-align: center;    
+}
+
+
+.landing h2, h1 {
+    color: white;
+}
+
+
+/* Section */
+
+section{
+    display: flex;
+    flex-direction: column;
+    margin: 20px;
+}
+
+section h2 {
+    text-align: center;
+    text-decoration: underline #00B172;
+}
+
+#services h3 {
+    color: #00B172;
+}
+
+article img {
+    width: 20%;
+}
+.articles-boxes {
+    display: flex;
+    justify-content: space-evenly;
+}
+
+#services article {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    width: 370px;
+}
+
+/* Footer */
+footer {
+    background-color: #00B172;
+    margin: 25px;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    color: white;
+    padding-bottom: 20px;
+}
+
+.footer-text h2 {
+    text-decoration: underline white;
+}
+
+.footer-text  article{
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: baseline;
+    width: 300px;
+    line-height: 1.5em;
+}
+
+#spotify-icon-white {
+    height: 100px;
+}
+
+#spotify-app {
+    height: 500px;
+}
+
