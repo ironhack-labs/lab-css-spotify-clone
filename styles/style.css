@@ -6,3 +6,159 @@ Green: #00B172
 White: #FFF
 
 */
+
+* {
+  margin: 0px;
+  padding: 0px;
+  box-sizing: border-box;
+}
+
+body {
+  font-family: "Roboto";
+}
+
+h1 {
+  color: white;
+}
+
+h2 {
+  margin-bottom: 30px;
+}
+
+h3 {
+  margin-bottom: 30px;
+  color: #00b172;
+  text-align: center;
+}
+
+nav {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  background-color: white;
+}
+
+.fixed {
+  position: fixed;
+  margin: auto;
+  width: 100%;
+}
+
+.logo img {
+  max-width: 100%;
+  max-height: 100%;
+}
+
+.logo {
+  width: 130px;
+  margin: 0px 10px;
+}
+
+.menu ul {
+  display: flex;
+  align-items: center;
+  list-style: none;
+}
+
+li {
+  margin: 0px 10px;
+}
+
+.hero {
+  width: 100%;
+  height: 400px;
+}
+
+.hero p {
+  color: white;
+}
+
+header {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+.hero {
+  width: 100vw;
+  height: 100vh;
+  background-image: url("/images/landing.jpg");
+  background-position: 0 0;
+  background-size: cover;
+  background-position: center;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+section {
+  padding: 30px;
+}
+
+.whatsOnSpotify {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+.whatsOnSpotify h2 {
+  border-bottom: 2px solid #00b172;
+}
+
+.boxes {
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+}
+
+.whatsOnSpotify .box {
+  width: 30%;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+.box img {
+  width: 150px;
+  padding: 0px 50px;
+}
+
+.box p {
+  text-align: center;
+}
+
+.image-container {
+  height: 70px;
+}
+
+.kanyeWest {
+  background-color: #00b172;
+  display: flex;
+  justify-content: space-between;
+}
+
+.kanyeWest p {
+  color: white;
+}
+
+.kanyeWest img {
+  width: 250px;
+  padding-top: 30px;
+}
+
+.kanyeWest h2 {
+  color: white;
+  border-bottom: 2px solid white;
+  display: inline-block;
+}
+
+.kanyeWest h3 {
+  color: white;
+  text-align: left;
+  font-weight: bold;
+}
+
+.kanyeWest .box2 {
+  margin-bottom: 30px;
+  padding-right: 40%;
+}
