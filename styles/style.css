@@ -6,3 +6,148 @@ Green: #00B172
 White: #FFF
 
 */
+*{
+    margin: 0;
+    padding: 0;
+}
+#heading {
+    width: 100%;
+    background-color: #FFF; 
+
+}
+  
+#spotify-logo { 
+    width: 13%;
+    padding-left: 10px;
+     
+}
+
+#nav-bar {
+      display:flex;
+      justify-content: space-between;
+      align-items: center;
+    
+}
+  
+nav ul{
+    list-style: none;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+  
+nav > ul > li{
+    padding-right: 12px;
+    padding-left: 12px;
+}
+
+#main-body {
+    background-image: url(../images/landing.jpg);
+    background-size: 100%;
+    width: 100%;
+    background-position: center;
+    padding-bottom: 30%;
+    background-repeat: no-repeat;
+    height: auto;
+}
+
+#main-body h2{
+    color: #FFF;
+    display: flex;
+    justify-content: center;
+    padding-top: 30%;
+    font-size: 100px;
+    padding-bottom: 5px;
+}
+
+#main-body p{
+    color: #FFF;
+    display: flex;
+    justify-content: center;
+    font-size: 25px;
+}
+#second-section {
+    background-color: #FFF;
+    display: flex;
+    justify-content: center;
+    flex-wrap: wrap;
+    width: 100%;
+    height: auto;
+    text-align: center;
+    flex-direction: row;
+    padding: 0 12px;
+
+}
+#second-section-div {
+    display:flex;
+    justify-content: space-around;
+    padding: 35px 0;
+}
+.containers {
+    width: 33%;
+    margin: 0 40px;
+
+}
+
+.containers img {
+    width: 100px;
+}
+
+.containers h3 {
+    font-size: 30px;
+    color: #00B172;
+}
+
+.containers p {
+    font-size: 20px;
+    text-align: center;
+}
+
+#second-section > h3 {
+    font-size: 35px;
+    text-decoration: underline #00b172;
+    text-underline-position: under;
+}
+
+#last-section {
+    display: flex;
+    justify-content: space-between;
+    background-color: #00B172;
+    background-image: url(../images/spotify-icon-white.png);
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: 120px;
+    width: 100%;
+}
+.last-container h2{
+    font-size: 34px;
+    color: white;
+    text-decoration: underline white;
+    text-underline-position: under;
+    
+}
+#last-section-div {
+    display: flex;
+    justify-content: space-around;
+    flex-direction: column;
+
+    
+}
+.last-container {
+    color: white;
+
+}
+#last-image {
+    width: 50%;
+}
+#yeimage {
+    width: 50%;
+    margin-left: 300px;
+    margin-top: 60px;
+    margin-bottom: 60px;
+}
+.last-container h3 {
+    font-size: 30px;
+    padding-bottom: 13px;
+    font-style: bold;
+}
