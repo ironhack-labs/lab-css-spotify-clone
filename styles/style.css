@@ -6,10 +6,18 @@ Green: #00B172
 White: #FFF
 
 */
+@import url('https://fonts.googleapis.com/css?family=Roboto+Condensed:700|Roboto:100,300,700');
+
+html,
+body {
+    margin: 0;
+    padding: 0;
+}
 
 .body {
     background-color: #FFF;
     color: #1a1a1a;
+    font-family: 'Roboto';
 }
 
 
@@ -31,20 +39,27 @@ nav {
     position: fixed;
     top: 0;
     width: 100%;
-    height: fit-content;
+    height: 7%;
     background-color: #FFF;
     
     
 }
 
+nav ul {
+    float: right;
+    margin-right: 1.5rem;
+    margin-top: 1.4rem;
+}
+
 nav ul li{
-    width: 7%;
-    margin-left: 65rem;
+    font-weight: 300;
+    font-size: 20px;
     list-style-type: none;
-    display: flex;
+    display: inline;
     flex-direction: row;
-    justify-content: center;
-    align-items: center;
+    justify-content: space-between;
+    text-align: center;
+    margin-left: 5rem;
 }
 
 .landing {
