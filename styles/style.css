@@ -37,7 +37,7 @@ a{
 
 p{
   font-size: 2.2em;
-  margin-top: 15px; 
+  margin: 15px; 
 }
 
 #section1 p{
@@ -74,13 +74,19 @@ h4{
   font-size: 1.5em;
 }
 
+hr{
+  
+  height: 5px;
+  border: none;
+  background-color:#00B172;
+}
 
 .container{
   margin: 2%;
 }
 
 
-
+/* navigator */
 .logo{
   height: auto;
   width: 20%;
@@ -96,6 +102,7 @@ nav{
   display: flex;
   justify-content: space-between;
   padding: 1em ;
+  width: 100%;
 }
 
 nav ul{
@@ -150,12 +157,7 @@ header p,h1{
   flex-direction: column; 
 }
 
-#section1 hr{
-  width: 17.5em;
-  height: 5px;
-  border: none;
-  background-color:#00B172;
-}
+
 
 #section1 h3{
   color: #00B172;
@@ -175,12 +177,9 @@ justify-content:space-around;
 
 
 .flex1item{
- 
-  
  flex-direction: column;
   align-self: center;
   justify-content: space-between; 
-
 }
 
 .image1{
@@ -197,30 +196,37 @@ justify-content:space-around;
   height: 600px;
   background-color:#00B172 ;
  padding: 5%;
-  display: flex;
-  flex-direction: row;
-  justify-content: space;
-} 
+ display: flex;
+ justify-content: center;
+}  
+
 
 #section2 h2, #section2 h4,#section2 p{
   color: white;
+  margin: 0;
 }
 
-
+#section2 hr{
+  border: none ;
+  size: 
+}
 
 
 .flex2{
-width: 47%;
+width: 100%;
 height: auto;
+display: flex;
+justify-content: space-between;
+} 
+ 
 
-}
-
-.sec2leftFlex{
+.sec2leftFlex{ 
+  width: 45%;
   display: flex;
   flex-direction: column;
   justify-content: space-between;
 text-align: left;
-}
+}  
 
 
 
@@ -228,14 +234,15 @@ text-align: left;
 position: absolute;
 height: auto;
 width:7em;
+/* margin-top: 250px;
+margin-left: 42%; */
+align-self: center;
 justify-content: center;
-align-self:center;
 }  
 
 .app{
-  height: 600px;
-  /* height:60%; */
+  margin-top: 75px;
+  height:550px;
   width: auto;
- 
   
 }
