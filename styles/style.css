@@ -3,13 +3,14 @@ Colors:
 
 Text: 1A1A1A
 Green: #00B172
-White: #FFF
+/* White: #FFF */
+@import url("https://fonts.googleapis.com/css2?family=Montserrat&display=swap");
 
-*/
-*´ {
+* {
   border: 0;
   margin: 0;
-  box-sizing: border-box;
+  font-family: "Montserrat", sans-serif;
+  /*box-sizing: border-box;*/
 }
 
 nav {
@@ -18,14 +19,16 @@ nav {
   display: flex;
   width: 100%;
   background-color: white;
-  height: 60px;
+  height: 90px;
   justify-content: space-between;
-  text-decoration: none;
+  align-content: center;
+  color: #1a1a1a;
   margin-top: 0;
 }
 
 img.logo {
   width: 200px;
+  margin: 10px;
 }
 
 img.icon {
@@ -33,14 +36,78 @@ img.icon {
 }
 header {
   margin-top: 0px;
+}
+
+.main {
+  display: flex;
+  flex-direction: column;
+  align-content: center;
+  justify-content: center;
+  color: white;
   background-image: url(/images/landing.jpg);
-  background-size: 100%;
-  height: 900px;
+
+  background-size: cover;
+  height: 700px;
+  text-align: center;
   background-repeat: no-repeat;
+}
+
+.main h1 {
+  margin: 15px auto;
+  font-size: 4rem;
+}
+.main h2 {
+  margin: 10px auto;
+  font-size: 2rem;
 }
 
 header ul {
   display: flex;
   justify-content: space-evenly;
   width: 400px;
+  margin: 10px;
+}
+ul {
+  list-style: none;
+  margin: 10px;
+}
+li {
+  text-decoration: none;
+  margin: auto;
+}
+
+a {
+  text-decoration: none;
+  color: #1a1a1a;
+}
+
+.whats-on-spotify h1 {
+  text-align: center;
+  margin: 30px;
+  font-size: 2.5rem;
+}
+
+div.container {
+  height: 500px;
+  width: 100%;
+  display: flex;
+  justify-content: space-around;
+}
+
+div.element {
+  height: 300px;
+  width: 300px;
+  margin: 20px auto;
+  text-align: center;
+}
+img.icon {
+  display: block;
+  width: 60px;
+  height: 60px;
+  margin: 5px auto;
+}
+
+.whats-on-spotify h2 {
+  color: #00b172;
+  margin: 20px;
 }
