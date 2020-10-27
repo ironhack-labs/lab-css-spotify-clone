@@ -1,3 +1,169 @@
+@import url('https://fonts.googleapis.com/css2?family=Roboto:wght@100;300;400;500;700&display=swap');
+
+html, body {
+    margin: 0;
+    padding: 0;
+    font-family: 'Roboto';
+    font-weight: 100;
+    font-size: 16px;
+}
+
+h1 {
+    font-size: 7rem;
+    font-weight: normal;
+    font-weight: 500;
+}
+
+h2 {
+    font-size: 3rem;
+    text-decoration: underline #00B172;
+    text-underline-position: under;
+    font-weight: normal;
+    font-weight: 500;
+}
+
+h3 {
+    font-size: 2rem;
+    color: #00B172;
+}
+
+h4 {
+    font-size: 2.5rem;
+    text-decoration: underline #FFF;
+    text-underline-position: under;
+    font-weight: normal;
+}
+
+h5 {
+    font-size: 2rem;
+    margin: 20px 0;
+    font-weight: normal;
+}
+
+.nav-fixed {
+    position: fixed;
+    top: 0;
+    left: 0;
+    right: 0;
+    background-color:white;
+}
+
+.nav-bar {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 10px 30px;
+    
+}
+
+.spotify-green-logo {
+    width: 160px;
+    margin-right: 1rem;
+}
+
+nav {
+    width: 400px;
+}
+
+nav ul {
+    list-style: none;
+    display: flex;
+    justify-content: space-between;
+}
+
+nav a {
+    text-decoration: none;
+    color: #1A1A1A;
+    font-weight: 300;
+}
+
+nav li:hover {
+    text-decoration: underline;
+    text-decoration-color: gray;
+}
+
+.background-image {
+    background-color: aqua;
+    display: flex;
+    justify-content: center;
+    align-items: center
+}
+
+.music-everyone {
+    text-align: center;
+    margin: auto;
+    position: absolute;
+    color: #FFF;
+    font-size: 2.5em;
+}
+
+.background-image img {
+    width: 100%;
+    margin: auto;
+}
+
+.description-section {
+    margin: 20px auto;
+    height: 500px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.boxes {
+    display: flex;
+    flex-direction: row;
+    text-align: center;
+}
+
+.boxes div {
+    height: 30%;
+    width: 20%;
+    margin: 80px auto;
+}
+
+.boxes p {
+    font-size: 2rem;
+}
+
+.boxes img {
+    height: 120px;
+}
+
+
+footer {
+    height: 800px;
+    margin: 150px 40px 40px;
+    background-color: #00B172;
+}
+
+.footer-box {
+    padding: 1px 100px;
+    display: flex;
+    justify-content: space-between;
+}
+
+.search-browse-discover {
+    width: 350px;
+    font-size: 1.5rem;
+    line-height: 150%;
+}
+
+.footer-box img {
+    padding: 80px 0;
+    height: 600px;
+}
+
+.footer-text{
+    color: #FFF;
+}
+
+.spotify-white-logo {
+    height: 150px;
+    position: absolute;
+    margin: -430px 650px;
+}
+
 /*
 Colors:
 
