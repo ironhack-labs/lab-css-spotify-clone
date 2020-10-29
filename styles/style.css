@@ -1,8 +1,156 @@
-/*
-Colors:
+body {
+    margin: 0px;
+    padding: 0px;
+    font-family: Helvetica, sans-serif;
+}
 
-Text: 1A1A1A
-Green: #00B172
-White: #FFF
+h1 {
+    font-size: 90px;
+    margin: 20px;
+}
 
-*/
+h2 {
+    font-size: 32px;
+    font-weight: lighter;
+    margin: 0;
+}
+
+h3 {
+    font-size: 32px;
+    margin: 0;
+}
+
+h4 {
+    font-size: 26px;
+    margin: 0;
+}
+
+p {
+    font-size: 22px;
+    font-weight: lighter;
+}
+
+.navbar {
+    width: 100%;
+    height: 75px;
+    display: flex;
+    justify-content: space-between;
+    flex-direction: row;
+    align-items: center;
+    position: fixed;
+    background-color: white;
+}
+
+.navbar img {
+    height: 50px;
+    padding: 0px 0px 0px 25px;
+}
+
+.menu {
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+}
+
+.menu ul {
+    width: 350px;
+    display: flex;
+    justify-content: space-around;
+    flex-direction: row;
+    align-self: center;
+    list-style-type: none;
+}
+
+a {
+    font-size: 17px;
+    font-weight: lighter;
+    color: black;
+    text-decoration: none;
+}
+
+#main-section {
+    height: 1100px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+    color: white;
+    background-image: url("../images/landing.jpg");
+    background-size: cover;
+    background-position: bottom;
+}
+
+#main-section article {
+    width: 800px
+}
+
+#features {
+    height: 400px;
+    text-align: center;
+    margin-top: 80px;
+}
+
+#features hr {
+    width: 280px;
+    border: 2px solid #01aa55c0;
+}
+
+#features-container {
+    display: flex;
+    justify-content: space-around;
+    flex-direction: row;
+    margin-top: 120px;
+}
+#features-container div {
+    width: 175px;
+}
+
+#features-container img {
+    width: 175px;
+}
+
+#features-container h4 {
+    color: #01aa55c0;
+    margin-top: 10px;
+}
+
+#features-container p {
+    font-weight: lighter;
+}
+
+#green-section {
+    background-color: #01aa55c0;
+    margin: 40px;
+    margin-top: 250px;
+    margin-bottom: 0;
+    color: white;
+}
+
+#green-section-container {
+    padding: 80px;
+    display: flex;
+    justify-content: space-around;
+    flex-direction: row;
+    align-items: center;
+}
+
+#spotify-icon {
+    width: 150px;
+}
+
+#spotify-app {
+    width: 500px;
+}
+
+#additional-features {
+    width: 500px;
+}
+
+#additional-features h3 {
+    font-size: 37px;
+}
+#additional-features hr {
+    width: 500px;
+    border: 2px solid #ffffff;
+}
