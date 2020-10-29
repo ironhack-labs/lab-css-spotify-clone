@@ -6,3 +6,121 @@ Green: #00B172
 White: #FFF
 
 */
+
+@import url('https://fonts.googleapis.com/css2?family=Montserrat:wght@300;600&display=swap');
+
+body {
+    margin: 0;
+    font-family: 'Montserrat', sans-serif;
+    font-size: 24px;
+}
+
+
+header {
+    position: fixed;
+    width: calc(100% - 80px);
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 0 40px;
+    background-color: #fff;
+    height: 80px;
+}
+
+header img {
+    max-height: 50px;
+}
+
+header nav ul {
+    display: flex;
+    list-style: none;
+    font-size: 16px;
+}
+
+header nav ul li {
+    padding: 0 10px;
+}
+
+.section1 {
+    min-height: 100vh;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    background-image: url("../images/landing.jpg");
+    background-size: cover;
+    color: #fff;
+    text-align: center;
+}
+
+.section1 h1 {
+    font-size: 4rem;
+}
+
+.section2 {
+    padding: 100px 40px;
+}
+
+.section2 h2 {
+    text-align: center;
+    text-decoration: underline;
+    text-decoration-color: #00B172;
+    text-decoration-thickness: 5px;
+    text-underline-position: under;
+    margin-bottom: 6rem;
+}
+
+.section2 .grid {
+    display: grid;
+    grid-template-columns: repeat(3,1fr);
+    grid-gap: 50px;
+}
+
+.section2 .grid > div {
+    text-align: center;
+}
+
+.section2 .grid > div img {
+    max-height: 80px;
+}
+
+.section2 .grid > div h3 {
+    color: #00B172;
+}
+
+.section3 {
+    background-color: #00B172;
+    color: #fff;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    min-height: 1000px;
+}
+
+.section3 h3 {
+    font-size: 2rem;
+    text-decoration: underline;
+    text-decoration: underline;
+    text-decoration-thickness: 5px;
+    text-underline-position: under;
+    margin-bottom: 5rem;
+}
+
+.section3 > div {
+    padding-right: 15%;
+}
+
+.section3 > div ul {
+    list-style: none;
+    padding: 0;
+    max-width: 400px;
+}
+
+img.floating-logo {
+    position: absolute;
+    max-height: 150px;
+}
+
+img.app-preview {
+    max-height: 700px;
+}
