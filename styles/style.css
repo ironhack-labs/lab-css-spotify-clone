@@ -6,80 +6,170 @@ Green: #00B172
 White: #FFF
 
 */
+
 body {
     background-color: white;
     font-family: "Montserrat";
-
 }
+
 .navbar {
     height: 50px;
     background-color: white;
     margin: 0%;
+    padding-bottom: 0px
 }
+
 .navbar img {
-    height: 50px;
-
+    height: 40px;
 }
 
-.landing-image{
-
-}
-ul > li {
+ul>li {
     display: inline-block;
     /* You can also add some margins here to make it look prettier */
-    zoom:1;
-    *display:inline;
+    zoom: 1;
+    *display: inline;
     /* this fix is needed for IE7- */
 }
-.landing-image {
-    max-width:100%;
-    max-height:100%;}
 
-    .container {
-        position: relative;
-        text-align: center;
-        color: white;
+.centered {
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+}
 
-      }
+.container {
+    text-align: center;
+    color: white;
+}
 
-      .centered {
-        font-size: 60px;
-        font-weight: bold;
-        position: absolute;
-        top: 50%;
-        left: 50%;
-        transform: translate(-50%, -50%);
-      }
+.container img {
+    background-position: center center;
+}
 
-      #subtitle {
-        font-size: 20px;
-        font-weight: normal;
-      }
+.container h1 {
+    font-size: 50px;
+    font-weight: bold;
+}
 
-      h3{
-          font-size: 24px;
-          font-weight: bold;
-          text-align:center;
-          color: black;
-          text-decoration: underline;
-          text-decoration-color:#1DB954;
-      }
-      h4 {
-          font-size: 22px;
-          font-weight: bold;
-          color:#1DB954;
-      }
-      .float {
-        width:33%;
-        height:400px;
-        float:left;
-        text-align: center;}
-     .float img {
-         width: 25%;
-         height: 60px;
-     }
-     .float p{
-         color: gray;
-         padding-left: 10px;
-         padding-right: 10px;
-     }
+#subtitle {
+    font-size: 20px;
+    font-weight: 100;
+}
+
+h3 {
+    font-size: 24px;
+    font-weight: bold;
+    text-align: center;
+    color: black;
+    text-decoration: underline;
+    text-decoration-color: #1DB954;
+}
+
+.float {
+    width: 33%;
+    height: 300px;
+    float: left;
+    text-align: center;
+    background-color: white;
+}
+
+.float h4 {
+    font-size: 20px;
+    font-weight: bold;
+    color: #1DB954;
+    margin-top: 20px;
+}
+
+.float div {
+    height: 100px;
+}
+
+.float img {
+    width: 30%;
+    min-width: 100px;
+    min-height: 100px;
+    height: auto;
+}
+
+.float p {
+    color: gray;
+    padding-left: 20px;
+    padding-right: 20px;
+    font-size: 16px;
+    font-weight: 400;
+    margin-top: 20px;
+}
+
+.separator {
+    background-color: white
+}
+
+.second-block {
+    margin: 0px 50px 0px 50px;
+    padding-left: 60px;
+    height: 1000px;
+    background-color: #1DB954
+}
+
+.left {
+    float: left;
+    width: 50%;
+    height: 100%;
+    color: white;
+}
+
+.right {
+    float: right;
+    width: 50%;
+    height: 100%;
+    text-align: center;
+}
+
+.left h2 {
+    font-size: 30px;
+    font-weight: 500;
+    text-decoration: underline;
+    padding-top: 60px;
+}
+
+.left h4 {
+    padding-top: 20px;
+    font-size: 22px;
+    font-weight: 500;
+}
+
+.left p {
+    font-size: 16px;
+    font-weight: 200;
+    margin-top: -10px;
+    width: 80%
+}
+
+.resize_fit_center {
+    max-width: 66%;
+    max-height: 600px;
+    vertical-align: middle;
+    align-content: center;
+    padding-top: 80px;
+}
+
+.centered-logo {
+    max-width: 100px;
+    max-height: 100px;
+    vertical-align: middle;
+    align-content: center;
+    padding-top: 80px;
+}
+
+.centered-logo img {
+    width: 50px;
+    height: 50px;
+}
+
+.segon {
+    background-image: url("images/music-icon.png")
+}
+
+
+}
