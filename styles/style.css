@@ -7,12 +7,25 @@ White: #FFF
 
 */
 
+@import url('https://fonts.googleapis.com/css?family=Roboto');
+body {
+    font-family: 'Roboto', sans-serif;
+    font-size: 20px;
+    color: black;
+}
+
 .head {
     background-image: url('../images/landing.jpg');
     background-size: cover;
     background-repeat: no-repeat;
     background-position: center;
     height: 1200px;
+}
+
+h1,
+h3,
+h4 {
+    font-weight: bold;
 }
 
 .head-title {
@@ -28,7 +41,6 @@ White: #FFF
 
 .head-title h1 {
     font-size: 100px;
-    font-weight: bold;
 }
 
 .head-title h2 {
@@ -41,6 +53,7 @@ nav {
     position: fixed;
     width: 100%;
     justify-content: space-between;
+    z-index: 1;
 }
 
 nav * {
@@ -65,12 +78,29 @@ nav * {
 }
 
 section {
-    padding: 20px;
+    padding: 40px;
 }
 
-.black-title {
+.section-icons {
+    padding: 15px;
+    display: flex;
+}
+
+.section-icons * {
+    padding: 15px;
+    display: flex;
+    flex-direction: column;
     text-align: center;
-    font-size: 3px;
+}
+
+.icon {
+    width: 60px;
+    padding-left: 40%;
+}
+
+.green-title {
+    color: #00B172;
+    font-size: 26px;
 }
 
 .first-section div {
@@ -80,4 +110,53 @@ section {
 
 .first-section img {
     height: 40px;
+}
+
+.black-title {
+    font-size: 40px;
+    text-decoration: underline;
+    text-decoration-color: #00B172;
+    text-align: center;
+}
+
+.second-section {
+    background-color: #00B172;
+    color: #FFF;
+}
+
+.div-second-section {
+    display: flex;
+}
+
+.div-second-section div {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+}
+
+.div-second-section img {
+    max-width: 30%;
+}
+
+.div-second-section div * {
+    padding: 20px;
+}
+
+.div-second-section img {
+    display: flex;
+    justify-content: center;
+}
+
+.logo-white {
+    align-self: center;
+}
+
+.white-title {
+    padding-left: 40px;
+    font-size: 36px;
+    text-decoration: underline;
+}
+
+.sub-white-title {
+    font-size: 30px;
 }
