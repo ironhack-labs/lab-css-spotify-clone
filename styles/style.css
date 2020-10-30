@@ -6,3 +6,139 @@ Green: #00B172
 White: #FFF
 
 */
+body {
+    font-family: Arial, Helvetica, sans-serif;
+    margin: 0;
+}
+
+nav {
+    width: 100%;
+    display: flex;
+    justify-content: space-between;
+    position: fixed;
+    background-color: #FFF;
+    z-index:1;
+}
+
+nav ul {
+    display: flex;
+    justify-content: space-around;
+    width: 20%;
+    list-style-type: none;
+    font-size: 1.2em;
+    margin-top: auto;
+}
+
+nav ul a {
+    text-decoration: none;
+    color: #1A1A1A;
+}
+
+
+nav img {
+    width: 180px;
+    height: 60px;
+    margin-left: 4%;
+    margin-top: 5px;
+    margin-bottom: 5px;
+}
+
+header div img {
+    max-width: 100%;
+    position: relative;
+}
+
+.tittle {
+   position: absolute;
+   text-align: center; 
+   width: 100%;
+   top: 60%;
+   left: 50%;
+   transform: translate(-50%, -50%);
+   color: #FFF;  
+}
+
+.tittle h1 {
+    font-size: 160px;
+    font-weight: 650;
+}
+
+.tittle p {
+    font-size: 55px;
+    width: 60%;
+    margin: auto;
+    font-weight: 100;
+}
+
+.whatsOn h2 {
+    font-size: 65px;
+    width: 100%;
+    margin: auto;
+    margin-top: 40px; 
+    text-align: center;
+}
+
+.onSpotify img {
+    width: 150px;
+}
+
+.onSpotify {
+    display: flex;
+    justify-content: space-around;
+    text-align: center;
+    margin-top: 90px;
+}
+.onSpotify div {
+    width: 30%;
+}
+
+.onSpotify h3 {
+    font-size: 30px;
+    color: #00B172;
+    font-weight: 700;
+}
+
+.onSpotify p {
+    font-size: 25px;
+    margin: auto;
+    width: 55%;
+}
+
+.greenSection {
+    background-color: #00B172;
+    margin: 50px 40px;
+    background-image: url("../images/spotify-icon-white.png");
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: 200px;
+    display: flex;
+    justify-content: space-around;
+    color: #FFF;
+}
+
+.greenSection h2 {
+    font-size: 50px;
+    border-bottom: 5px solid;
+    padding-bottom: 15px;
+    width: 66%;
+}
+
+.greenSection  h3 {
+    font-size: 40px;
+}
+
+.greenSection p {
+    font-size: 25px;
+    width: 40%;
+}
+
+.textGreenSection {
+    display: flex;
+    flex-direction: column;
+}
+
+.greenSection img {
+    margin: 150px 0;
+    height: 700px;
+}
+
