@@ -23,7 +23,6 @@ html,body {
     top:0;
     height: 8%;
     background-color: white;
-    justify-content: space-between;
 }
 
 .header:hover {
@@ -47,15 +46,17 @@ html,body {
 }
 
 .lista_navbar li {
-    margin-right: 20px;
+    margin-right: 7%;
 }
 
 .lista_navbar {
     display: flex;
     justify-content: space-between;
     flex-direction: row;
-    align-items: center;
+    align-items: flex-end;
     list-style: none;
+    margin-left: 60%;
+    
 }
 
 .lista_navbar > li > a{
@@ -115,12 +116,14 @@ html,body {
 }
 
 .second {
-    transition-delay: 0ms;
     margin-top:5%;
     height: 400px;
     width:100%
 }
 
+.cointainer-dois {
+    align-items: center;
+}
 
 
 #whatsOnSpotify{
@@ -144,6 +147,8 @@ html,body {
     border-style: none;
 
 }
+
+
 
 .second-list {
     list-style: none;
@@ -277,10 +282,168 @@ html,body {
     
 }
 
+#download {
+    width:30%;
+    height: 19%;
+
+}
+
+#download:hover {
+    transform: scale(1.3);
+}
 
 
 
 
+@media only screen and (max-device-width:480px){
+    .header {
+        width: 100%;
+        height: 6%;
+    }
+
+    #logo  {
+        width:20%;
+        height:60%;
+        margin-left: 2%;
+    }
+
+    .lista_navbar{
+        margin-left: 0%;
+    }
+    
+
+    #download{
+        margin-right: 20%;
+    }
+
+
+    .principal{
+        position: relative;
+
+        width: 100%;
+        height:80%;
+    }
+
+    .img-main {
+        width:400px;
+        height: 600px;
+
+    }
+
+    .main-text{
+        font-size: 2.5rem;
+        margin-left: -18%;
+
+    }
+
+    .second-main-text{
+        text-align: center;
+        margin-left: -20%;
+        font-size: 1.0rem;
+        line-height: 25px;
+    }
+
+    .centered-main{
+        height:80%;
+        width: 60%;
+    }
+
+    .second{
+        height:1000px;
+
+    }
+
+    .cointainer-dois{
+        display: flex;
+        flex-direction: column;
+    }
+
+    .second-list{
+        display: flex;
+        justify-content: space-between;
+        flex-direction: column;
+    }
+
+    .second-list li {
+        text-align: center;
+        margin-left: -20%;
+        margin-top: 15%;
+
+    }
+
+    #whatsOnSpotify{
+        text-align: center;
+        margin-left: 11%;
+    }
+
+    .second hr {
+        margin-left: 21%;
+    }
+
+    #stream-subtitle, #hd-subtitle, #millions-subtitle {
+        margin-left: 0%;
+    
+    }
+
+    .third{
+        margin-top: 15%;
+        height: 1500px;
+        width: 100%;
+        margin-bottom: 15%;
+    }
+
+    .yeezy-div{
+        width: 80%;
+
+    }
+
+    #yeezy {
+        text-align: center;
+
+    }
+
+    .third hr {
+        margin-left: 25%;
+        width: 40%;
+        margin-top: -3%;
+    }
+
+    .third-list{
+        display: flex;
+        flex-direction: column;
+    }
+
+    .third-list h3{
+
+    }
+
+    .third-list p {
+        font-size: 1.2rem;
+    }
+
+    .container{
+        flex-direction: column;
+    }
+
+    #logo-white{
+        height: 30%;
+        width: 30%;
+        margin-top: 5%;
+    }
+
+    #spotify-app{
+        align-self: center;
+        margin-top: 15%;
+        width: 80%;
+        margin-left: 3%;
+    }
+
+    
+
+
+
+
+}
 
 
 
