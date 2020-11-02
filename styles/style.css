@@ -6,3 +6,201 @@ Green: #00B172
 White: #FFF
 
 */
+@import url(https://cdn.rawgit.com/mfd/f3d96ec7f0e8f034cc22ea73b3797b59/raw/856f1dbb8d807aabceb80b6d4f94b464df461b3e/gotham.css);
+
+body{
+    font-family: "Gotham";
+    font-stretch: extra-condensed;    
+    background-color: rgb(61, 61, 61);
+}
+
+a:link{
+    font-style: none;
+    text-decoration: none;
+    color: 1a1a1a;
+}
+
+.main-container{
+    width: 1400px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    margin: 0 auto;
+    background-color: white;
+}
+
+header{
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    width: 1400px;
+    margin: 0 10px;
+}
+
+.hor-cont-header{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+}
+
+.spoty-icon-nav{
+    width: 200px;
+    margin-left: 30px;
+    padding: 10px 0;
+}
+
+nav{
+    display: flex;
+    flex-direction: row;
+    justify-content: flex-end;
+}
+
+ul{
+    display: flex;
+    flex-direction: row;
+    justify-content: right;
+    list-style: none;
+    align-content: space-between;
+    padding-right: 25px;
+}
+
+ul li {
+    margin:10px;
+    font-size: 20px;
+}
+
+.landing{
+    display: flex;
+    flex-direction: column;
+    width: 1400px;
+    height:800px;
+    align-items: center;
+    background-image: url("../images/landing.jpg");
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+.landing h1,p{
+    color: white;
+    text-align: center;
+    line-height: 40px;
+}
+
+.landing h1{
+    margin-top: 200px;
+    font-size: 80px;
+    font-weight: bold;
+}
+
+.landing p{
+    font-size: 30px;
+    font-weight: lighter;
+    font-stretch: ultra-condensed;
+}
+
+
+
+.container{
+    width: 1400px;
+    align-items: center;
+    
+}
+
+h2{
+    font-size: 40px;
+    font-weight: 600;
+    padding-bottom: 10px;
+    border-bottom: 4px solid #00B172;
+    font-stretch: ultra-condensed;
+}
+
+.small-icon{
+    width: auto;
+    height: 100px;
+}
+
+.hor-cont{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+}
+
+.vert-cont{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.capsule{
+    width: 300px;
+    text-align: center;
+    color: #00B172;
+    margin:25px 50px;
+}
+
+.capsule h3{
+    font-size: 25px;
+    font-weight: 900;
+}
+
+.capsule p{
+    color: #1A1A1A;
+    font-size: 25px;
+    font-weight: 100;
+    font-style: normal;
+    line-height: 40px;
+}
+
+.bg-green{
+    background-color:  #00B172;
+    width: 1300px;
+    margin-bottom: 25px;
+    background-image: url("../images/spotify-icon-white.png");
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: 150px;
+}
+
+.bg-green h2{
+    color: white;
+    margin:50px 100px;
+    border-bottom: 4px solid white;
+    width: fit-content;
+}
+
+.vert-cont-down{
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+    width: 400px;
+}
+
+.capsule-left p{
+    text-align: left;
+    font-size: 22px;
+    line-height: 40px;
+    font-weight: 100;
+}
+
+.capsule-left h3{
+    color: white;
+    font-size: 30px;
+}
+
+.spoty-icon{
+    margin:auto 0;
+    width: 125px;
+}
+
+.app-img{
+    width: 350px;
+    height: auto;
+    margin-bottom: 40px;
+}
+
+.hor-cont-down{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    margin:0 100px;
+}
