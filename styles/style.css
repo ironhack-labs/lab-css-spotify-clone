@@ -5,4 +5,179 @@ Text: 1A1A1A
 Green: #00B172
 White: #FFF
 
+* {
+    border-style: solid;
+    border-color: red; 
+DICA DE OURO ! 
 */
+
+@import url('https://fonts.googleapis.com/css2?family=Roboto:wght@300&display=swap');
+
+
+body {
+    font-family: 'Roboto', sans-serif;
+    color: #1A1A1A;
+    margin: 0;
+    padding: 0;
+}
+
+.navbar {
+    display: flex;
+    position: fixed;
+    justify-content: space-between;
+    z-index: 9999;
+    background-color: #FFF;
+    top: 0;
+    width: 100%;
+    align-items: center;
+}
+.logo {
+    width: 150px;
+    padding: 15px;
+}
+
+.menu {
+    display: flex;
+    font-size: 22px;
+    font-weight: lighter;
+    align-items: center;
+    list-style: none;
+    justify-content: space-around;
+}
+.menu a {
+    text-decoration: none;
+    color: #1A1A1A;
+    padding: 20px;
+}
+
+
+.main {
+    background-image: url("/lab-css-spotify-clone/images/landing.jpg");
+    height: 550px;
+    width: 100%;
+    background-size: cover;
+    background-position: center;
+    margin-top: 75px; 
+}
+.main-text {
+    color: #FFF;
+    text-align: center;
+    justify-content: center;
+    position: absolute;
+    height: 800px;
+    width: 100%;
+    top: 30%;
+  }
+
+.main-text > h1 {
+    font-size: 70px;
+    font-weight: 1200;
+    margin: 20px;
+}
+.main-text > h3 {
+    font-size: 25px;
+    font-weight: lighter;
+    padding: 0;
+    margin: 0;
+}
+
+.spotify {
+    padding: 5px;
+
+}
+.spotify > h2 {
+    text-align: center;
+    font-weight: 800;
+    font-size: 35px;
+    margin: 30px;
+    text-decoration: underline;
+    text-decoration-color: #00B172;
+    text-decoration-thickness: 5px;
+    
+}
+
+.links{
+    display: flex;
+    justify-content: space-around;  
+}
+.links div{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    text-align: center;
+}
+
+.links p {
+    width: 250px;
+    
+}
+.links img{
+    padding-bottom: 1%;
+}
+
+.links h3{
+    margin: 2% 0;
+    font-size: 30px;
+    color: #00B172;
+}
+.links p{
+    font-size: 22px;
+    text-align: center;
+}
+
+.search {
+    background-color: #00B172;
+    color: #FFF;
+    display: flex;
+    position: relative;
+    justify-content: center;
+    align-content: center;
+    align-items: center;
+    margin: 3%;
+    padding: 3%;
+    height: auto;
+    text-align: left;
+}
+.search h2 {
+    font-size: 2em;
+    width: 100%;
+    text-align: left;
+    font-weight: bold;
+}
+.search h2 > span {
+    border-bottom: 4px solid white;
+}
+.search h3 {
+    font-size: 2em;
+    width: 90%;
+    font-weight: bold;
+}
+.search p {
+    width: 90%; 
+    font-size: 20px;
+
+}
+.bottom {
+    display: flex;
+    flex-direction: row;
+    align-content: center;
+    align-items: center;
+    justify-content: space-around;
+    width: 100%;
+}
+#texts-bottom {
+    width: 55%;
+}
+.logo-bottom {
+    width: 10%;
+    text-align: center;
+    margin: 0;
+    padding: 0;
+}
+.artist-bottom {
+ width: 40%;
+text-align: center;
+
+}
+
+
