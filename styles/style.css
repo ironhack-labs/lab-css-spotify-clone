@@ -42,24 +42,10 @@ nav a {
 }
 
 h1 {
-    font-size: 4em;
+    font-size: 6em;
     padding: 0px 0px;
-}
-
-h4 {
-    font-size: 2em;
-    text-align: center;
-    margin: 70px;
-}
-
-h5 {
-    color: #00B172;
-    font-size: 1.5em;
-}
-
-p {
-    font-size: 1.5em;
-    text-align: center;
+    color: white;
+    margin-bottom: 5px;
 }
 
 #section1 {
@@ -69,7 +55,17 @@ p {
     background-size: cover;
     position: relative;
     text-align: center;
-    height: 400px;
+    height: 1000px;
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+    align-items: center;
+}
+
+#section1 p {
+    color: white;
+    font-size: 2em;
+    margin-top: 5px;
 }
 
 #section2 {
@@ -97,10 +93,89 @@ p {
     height: 200px;
 }
 
+#section2 h4 {
+    font-size: 2em;
+    text-align: center;
+    margin: 70px 0px 5px 0px;
+}
+
+#section2 h5 {
+    color: #00B172;
+    font-size: 1.5em;
+    margin-top: 5px;
+    margin-bottom: 5px;
+}
+
+#section2 p {
+    font-size: 1.5em;
+    text-align: center;
+}
+
 article img {
     width: 150px;
 }
 
+#section3 {
+    background-color: #00B172;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+    align-items: center;
+    padding: 25px 200px;
+}
+
+#section3 h4 {
+    font-size: 2.5em;
+    margin-bottom: 5px;
+}
+
+#section3 h5 {
+    font-size: 2em;
+    margin-bottom: 10px;
+}
+
+#section3 p {
+    font-size: 1.5em;
+    font-weight: lighter;
+    margin-top: 10px;
+}
+
+.whiteSp {
+    width: 150px;
+}
+
+.spotifyApp {
+    width: 300px;
+    padding-top: 100px;
+}
+
+.footer {
+    color: white;
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+    justify-content: left;
+    width: 32%;
+}
+
+.hr1 {
+    color: #ffffff;
+    background-color: white;
+    width: 100%;
+    height: 2px;
+    margin-top: 5px;
+}
+
+.hr2 {
+    color: #00B172;
+    background-color: #00B172;
+    width: 13%;
+    height: 3px;
+    margin-top: 5px;
+    border-radius: 15px;
+    border-color: #00B172;
+    margin-top: 5px;
+}
 
 
 
