@@ -1,25 +1,20 @@
-/*
-Colors:
+@import url('https://fonts.googleapis.com/css2? family = Roboto: wght @ 100; 300; 500; 900 & display = swap');
 
-Text: 1A1A1A
-Green: #00B172
-White: #FFF
-
-*/
-body {
+html, body {
     margin: 0;
     padding: 0;
-}
-
-.concert {
-    background-image: url(../images/landing.jpg);
+    font-family: 'Roboto', sans-serif;
 }
 
 .nav-bar {
     position: fixed;
+    top: 0;
+    background-color: white;
+    width: 100%;
+    padding: 10px 25px;
     display: flex;
+    flex-flow: wrap;
     justify-content: space-between;
-    padding-bottom: 10%;
 }
 
 .nav-bar img {
@@ -27,6 +22,112 @@ body {
 }
 
 .nav-bar-ul {
+    padding-right: 25px;
+    list-style-type: none;
     display: flex;
+    justify-content: space-evenly;
+}
+
+li {
+padding-right: 20px;
+}
+
+.concert {
+    background-image: url("../images/landing.jpg");
+    background-position: 0 0;
+    background-repeat: no-repeat;
+    background-size: cover;
+    height: 500px;
+    padding-top: 80px;
+    color: #FFF;
+    display: flex;
+    align-items: center;
+    justify-content: center; 
+    flex-direction: column;
+}
+ 
+h1 {
+     font-size: 3em;
+     margin: 0;
+}
+
+p {
+    line-height: 1.5em;
+    text-align: center;
+}
+
+h2 {
+    padding: 10px;
+    text-align: center;
+    font-size: 1.5em;
+    text-decoration-line: underline; 
+    text-decoration-color: #00B172;
+    text-underline-position: under;
+}
+
+.whats img {
+    width: 90px;
+}
+
+.whats {
+    padding: 20px 40px;
+    margin: 20px;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-evenly;
+    align-items: center;
+}
+.whats div {
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+    align-items: center;
+    text-align: center;
+}
+
+.whats h3 {
+    color: #00B172;
+    font-size: 1.2em;
+}
+
+footer {
+    background-color: #00B172;
+    background-position: 0 0;
+    background-repeat: no-repeat;
+    background-size: 100%;
+    padding: 50px;
+    display: flex;
+    flex-direction: row;
     justify-content: space-between;
+    align-items: center;
+}
+footer img {
+    height: 450px;
+    padding: 30px;
+}
+
+footer h2{
+    padding: none;
+    text-align: left;
+    font-size: 1.5em;
+    text-decoration-line: underline; 
+    text-decoration-color: white;
+    text-underline-position: under;
+}
+
+.app {
+    color: white;
+    display: flex;
+    flex-direction: column;
+    text-align: left;
+}
+
+.logo img {
+    height: 100px;
+    padding: 30px;
+}
+
+.app p {
+    text-align: left;
+    font-size: 1em;
 }
