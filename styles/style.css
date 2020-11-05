@@ -8,168 +8,221 @@ White: #FFF
 */
 
 body {
-    background-color: white;
+    background-color: FFF;
     font-family: "Montserrat";
+    color: 1A1A1A;
+    margin: 0px;
+    padding: 0px;
+display:flex;
+flex-direction: column;
+align-content: center;
+justify-content: center;
 }
 
-.navbar {
+nav {
     height: 50px;
-    background-color: white;
-    margin: 0%;
-    padding-bottom: 0px
+    width: 100%;
+    background-color: FFF;
 }
 
-.navbar img {
+nav img {
     height: 40px;
-}
-
-ul>li {
-    display: inline-block;
-    /* You can also add some margins here to make it look prettier */
-    zoom: 1;
-    *display: inline;
-    /* this fix is needed for IE7- */
-}
-
-.centered {
-    position: absolute;
-    top: 50%;
-    left: 50%;
-    transform: translate(-50%, -50%);
-}
-
-.container {
-    text-align: center;
-    color: white;
-}
-
-.container img {
-    background-position: center center;
-}
-
-.container h1 {
-    font-size: 50px;
-    font-weight: bold;
-}
-
-#subtitle {
-    font-size: 20px;
-    font-weight: 100;
-}
-
-h3 {
-    font-size: 24px;
-    font-weight: bold;
-    text-align: center;
-    color: black;
-    text-decoration: underline;
-    text-decoration-color: #1DB954;
-}
-
-.float {
-    width: 33%;
-    height: 300px;
     float: left;
-    text-align: center;
-    background-color: white;
+    margin: 5px 0 0 5px
 }
 
-.float h4 {
-    font-size: 20px;
+nav ul>li {
+  
+    list-style-type: none;
+    float: right;
+    padding: 0 20px;
+    margin: 0;
+    overflow: hidden;
+}
+
+
+
+.header * {
+    color: #fff;
+    margin: auto;
+    text-align: center;
+
+
+}
+.header {
+    background-image: url("../images/landing.jpg");
+    background-position: center;
+    background-size: cover;
+    height: 800px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+
+
+}
+
+
+.header h1 {
+    font-size: 4em;
+    font-weight: 500;
+    margin: 0;
+}
+.header p {
+    font-size: 1.2em;
+    font-weight: 200;
+    margin: 0;
+
+}
+
+
+
+
+.first-block {
+    height: 450px;
+    max-width: 1200px;
+    margin-left: auto;
+    margin-right: auto;
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+    flex-wrap: wrap;
+}
+
+
+.first-block h1 {
+    font-size: 1.9em;
     font-weight: bold;
-    color: #1DB954;
+    margin-top: 40px;
+    color: 1A1A1A;
+    text-align: center;
+    text-decoration: underline;
+    text-decoration-color: #00B172;
+
+}
+
+
+
+
+.box-container  {
+    height: 250px;
+    margin-top: 20px;
+    padding-left: 20px;
+    padding-right: 20px;
+    text-align: center;
+    display: flex;
+    flex-direction: row;    
+justify-content: center;
+flex-wrap: wrap;
+
+}
+
+.box-container div {
+    width: 33%;
+
+}
+
+.box-container img {
+    
+height: 120px;
+}
+
+.box-container h4 {
+    font-size: 1.2em,;
+    font-weight: bold;
+    color: #00B172;
     margin-top: 20px;
 }
 
-.float div {
+.box-container div {
     height: 100px;
 }
 
-.float img {
-    width: 30%;
-    min-width: 100px;
-    min-height: 100px;
-    height: auto;
-}
 
-.float p {
+
+.box-container p {
     color: gray;
-    padding-left: 20px;
-    padding-right: 20px;
     font-size: 16px;
     font-weight: 400;
     margin-top: 20px;
+    padding: 0 20px 0 20px;
 }
 
-.separator {
-    background-color: white
-}
+
+
+
+
+
+
 
 .second-block {
-    margin: 0px 50px 0px 50px;
-    padding-left: 60px;
-    height: 1000px;
-    background-color: #1DB954
+    background-image: url("../images/spotify-icon-white.png");
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: 100px;
+    width: 90%;
+    max-width: 1200px;
+    height: 700px;
+    margin-left: auto;
+    margin-right: auto;
+    background-color: #00B172;
+    display: flex;
+    flex-wrap:wrap;
+    justify-content: center;
+    align-content: center;
+
+
 }
 
-.left {
-    float: left;
-    width: 50%;
+
+.left-box {
+    width: 60%;
     height: 100%;
     color: white;
+
 }
 
-.right {
-    float: right;
-    width: 50%;
-    height: 100%;
-    text-align: center;
-}
 
-.left h2 {
+
+
+.left-box h2 {
     font-size: 30px;
     font-weight: 500;
     text-decoration: underline;
     padding-top: 60px;
+    padding-left: 40px;
 }
 
-.left h4 {
-    padding-top: 20px;
+.left-box h4 {
+    padding-top: 40px;
     font-size: 22px;
     font-weight: 500;
+    padding-left: 40px;
+
 }
 
-.left p {
+.left-box p {
     font-size: 16px;
     font-weight: 200;
     margin-top: -10px;
-    width: 80%
-}
+    width: 50%;
+    padding-left: 40px;
 
-.resize_fit_center {
-    max-width: 66%;
-    max-height: 600px;
-    vertical-align: middle;
-    align-content: center;
-    padding-top: 80px;
-}
-
-.centered-logo {
-    max-width: 100px;
-    max-height: 100px;
-    vertical-align: middle;
-    align-content: center;
-    padding-top: 80px;
-}
-
-.centered-logo img {
-    width: 50px;
-    height: 50px;
-}
-
-.segon {
-    background-image: url("images/music-icon.png")
 }
 
 
+
+.right {
+    width: 40%;
+    max-width: 400px;
+    height: 100%;
+    text-align: center;
 }
+
+.right img {
+    width: 80%;
+    margin: 80px 0px 80px 0px;}
+
+    #foot {
+        height: 50px;
+        width: auto;
+    background-color: white;}
