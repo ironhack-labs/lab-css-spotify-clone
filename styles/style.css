@@ -6,3 +6,28 @@ Green: #00B172
 White: #FFF
 
 */
+* {
+  font: ;
+}
+
+.companyLogo {
+  /* how to resize this in a responsive way?  Answer Stefano: OK to work with pixels for logo, since usually this 
+  doesn't change in size depending on screen size. */
+  max-width: 150px;
+  background-color: yellow;
+}
+
+.selectorList {
+  background-color: yellow;
+  width: 350px; /* how can I have this width that smoothly fits around my content automatically? 
+    -- answer Stefano: either you tackle it this way, or you work with padding in children element.*/
+  display: flex;
+  list-style-type: none;
+  justify-content: space-between;
+  padding: 0;
+}
+
+header {
+  display: flex;
+  justify-content: space-between;
+}
