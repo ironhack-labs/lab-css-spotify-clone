@@ -1,84 +1,65 @@
-/*
-Colors:
-
-Text: 1A1A1A
-Green: #00B172
-White: #FFF
-
-*/
-
 body {
-    background-color: FFF;
+    background-color: #FFF;
     font-family: "Montserrat";
     color: 1A1A1A;
     margin: 0px;
     padding: 0px;
-display:flex;
-flex-direction: column;
-align-content: center;
-justify-content: center;
+    min-width: 800px;
 }
 
 nav {
-    height: 50px;
+    height: 75px;
     width: 100%;
-    background-color: FFF;
+    background-color: #FFF;
+    position: fixed;
 }
 
 nav img {
-    height: 40px;
+    height: 48px;
     float: left;
-    margin: 5px 0 0 5px
+    margin-top: 15px;
+    margin-left: 30px;
 }
 
 nav ul>li {
-  
     list-style-type: none;
     float: right;
-    padding: 0 20px;
-    margin: 0;
-    overflow: hidden;
+    padding: 18px 20px;
+    font-size: 15px
 }
-
-
 
 .header * {
     color: #fff;
     margin: auto;
     text-align: center;
-
-
 }
+
 .header {
     background-image: url("../images/landing.jpg");
     background-position: center;
     background-size: cover;
-    height: 800px;
+    height: 640px;
     display: flex;
     flex-direction: column;
     justify-content: center;
-
-
 }
-
 
 .header h1 {
-    font-size: 4em;
+    font-size: 58px;
     font-weight: 500;
     margin: 0;
+    padding-top: 0;
 }
+
 .header p {
-    font-size: 1.2em;
+    font-size: 20px;
     font-weight: 200;
     margin: 0;
-
+    padding-top: 10px;
 }
 
-
-
-
 .first-block {
-    height: 450px;
+    height: 380px;
     max-width: 1200px;
     margin-left: auto;
     margin-right: auto;
@@ -88,71 +69,56 @@ nav ul>li {
     flex-wrap: wrap;
 }
 
-
 .first-block h1 {
-    font-size: 1.9em;
-    font-weight: bold;
-    margin-top: 40px;
+    font-size: 25px;
+    font-weight: 600;
     color: 1A1A1A;
     text-align: center;
-    text-decoration: underline;
-    text-decoration-color: #00B172;
-
 }
 
+.bar {
+    border-top: 3px solid #00B172;
+    margin-top: -16px;
+    width: 222px;
+    margin-left: auto;
+    margin-right: auto;
+}
 
-
-
-.box-container  {
+.box-container {
     height: 250px;
-    margin-top: 20px;
+    margin-top: 45px;
     padding-left: 20px;
     padding-right: 20px;
     text-align: center;
     display: flex;
-    flex-direction: row;    
-justify-content: center;
-flex-wrap: wrap;
-
+    flex-direction: row;
+    justify-content: center;
+    flex-wrap: wrap;
 }
 
 .box-container div {
     width: 33%;
-
+    height: 100px;
 }
 
 .box-container img {
-    
-height: 120px;
+    height: 80px;
 }
 
 .box-container h4 {
-    font-size: 1.2em,;
-    font-weight: bold;
+    font-size: 20px;
+    font-weight: 700;
     color: #00B172;
     margin-top: 20px;
 }
 
-.box-container div {
-    height: 100px;
-}
-
-
-
 .box-container p {
-    color: gray;
+    color: rgb(56, 56, 56);
     font-size: 16px;
-    font-weight: 400;
+    font-weight: 300;
     margin-top: 20px;
-    padding: 0 20px 0 20px;
+    padding: 0 30px 0 30px;
 }
-
-
-
-
-
-
-
 
 .second-block {
     background-image: url("../images/spotify-icon-white.png");
@@ -161,43 +127,41 @@ height: 120px;
     background-size: 100px;
     width: 90%;
     max-width: 1200px;
-    height: 700px;
+    height: 600px;
     margin-left: auto;
     margin-right: auto;
     background-color: #00B172;
     display: flex;
-    flex-wrap:wrap;
+    flex-wrap: wrap;
     justify-content: center;
     align-content: center;
-
-
 }
-
 
 .left-box {
     width: 60%;
     height: 100%;
     color: white;
-
 }
 
-
-
+.second-bar {
+    border-top: 3px solid White;
+    margin-top: -20px;
+    width: 395px;
+    margin-left: 50px;
+}
 
 .left-box h2 {
-    font-size: 30px;
-    font-weight: 500;
-    text-decoration: underline;
-    padding-top: 60px;
-    padding-left: 40px;
+    font-size: 28px;
+    font-weight: 600;
+    padding-top: 30px;
+    padding-left: 50px;
 }
 
 .left-box h4 {
-    padding-top: 40px;
-    font-size: 22px;
+    padding-top: 20px;
+    font-size: 20px;
     font-weight: 500;
-    padding-left: 40px;
-
+    padding-left: 50px;
 }
 
 .left-box p {
@@ -205,24 +169,23 @@ height: 120px;
     font-weight: 200;
     margin-top: -10px;
     width: 50%;
-    padding-left: 40px;
-
+    padding-left: 50px;
 }
 
-
-
-.right {
+.right-box {
     width: 40%;
     max-width: 400px;
     height: 100%;
     text-align: center;
 }
 
-.right img {
-    width: 80%;
-    margin: 80px 0px 80px 0px;}
+.right-box img {
+    width: 70%;
+    margin: 80px 0px 80px 0px;
+}
 
-    #foot {
-        height: 50px;
-        width: auto;
-    background-color: white;}
+#foot {
+    height: 50px;
+    width: auto;
+    background-color: white;
+}
