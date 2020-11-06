@@ -65,6 +65,25 @@ h1 {
   display: flex;
   justify-content: space-evenly;
 }
+/*to bother center middle area and have even spacing. 
+Boxes need to have exactly the same size and then work with margins on the outer boxes.*/
+.middleArea h3 {
+  color: #00b172;
+  font-size: 48px;
+  display: flex;
+  justify-content: center;
+}
+
+.middleArea p {
+  font-size: 24px;
+  color: gray;
+  padding: 20px;
+  padding: 0 95px;
+}
+.centered {
+  text-align: center;
+  max-width: 500px;
+}
 
 .resizedLogo {
   width: 150px;
@@ -77,4 +96,33 @@ footer {
   background-position: center;
   background-size: 150px;
   margin: 0 50px;
+  display: flex;
+  justify-content: space-between;
+}
+
+.spotifyExample {
+  width: 30rem;
+  margin: 10rem 10rem 5rem 10rem;
+}
+
+.footerText {
+  color: white;
+  padding-left: 10rem;
+  padding-top: 5rem;
+  font-size: 2rem;
+}
+
+.footerText h3 {
+  font-size: 3.5rem;
+  text-decoration: underline;
+  text-underline-position: under;
+  padding-right: 0rem;
+}
+
+.footerText h4 {
+  font-size: 2.5rem;
+}
+
+.footerText p {
+  padding-right: 22rem;
 }
