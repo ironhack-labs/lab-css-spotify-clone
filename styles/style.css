@@ -6,28 +6,75 @@ Green: #00B172
 White: #FFF
 
 */
+
 * {
-  font: ;
+  font-family: Arial, Helvetica, sans-serif;
 }
 
 .companyLogo {
   /* how to resize this in a responsive way?  Answer Stefano: OK to work with pixels for logo, since usually this 
   doesn't change in size depending on screen size. */
-  max-width: 150px;
-  background-color: yellow;
+  max-width: 350px;
 }
 
 .selectorList {
-  background-color: yellow;
-  width: 350px; /* how can I have this width that smoothly fits around my content automatically? 
+  width: 600px; /* how can I have this width that smoothly fits around my content automatically? 
     -- answer Stefano: either you tackle it this way, or you work with padding in children element.*/
   display: flex;
+  font-size: 2em;
+  font-weight: 100;
+  color: gray;
   list-style-type: none;
   justify-content: space-between;
   padding: 0;
 }
 
+.selectorList > :last-of-type {
+  padding: 0 50px 0 0;
+}
+
 header {
   display: flex;
   justify-content: space-between;
+  margin: 25px 0 25px 0;
+}
+
+.centeredSection {
+  background-image: url('/images/landing.jpg');
+  background-size: cover;
+  background-repeat: no-repeat;
+  background-position: 0 0;
+  padding: 300px 200px 500px 200px;
+  text-align: center;
+  color: white;
+  font-size: 48px;
+}
+
+h1 {
+  font-size: 85px;
+}
+
+.linedTitle {
+  text-decoration: underline #00b172;
+  text-underline-position: under;
+  text-align: center;
+  font-size: 48px;
+}
+
+.middleArea {
+  display: flex;
+  justify-content: space-evenly;
+}
+
+.resizedLogo {
+  width: 150px;
+}
+
+footer {
+  background-color: #00b172;
+  background-image: url(/images/spotify-icon-white.png);
+  background-repeat: no-repeat;
+  background-position: center;
+  background-size: 150px;
+  margin: 0 50px;
 }
