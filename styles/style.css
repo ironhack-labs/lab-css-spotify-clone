@@ -1,8 +1,164 @@
 /*
-Colors:
+olors:
 
 Text: 1A1A1A
 Green: #00B172
 White: #FFF
 
 */
+
+@import url('https://fonts.googleapis.com/css?family=Roboto+Condensed:700|Roboto:100,300,700');
+  
+body {
+    font-family: Roboto, sans-serif;
+}
+
+.logo-spotify {
+    float: left;
+    height: 40px;
+    padding-bottom: 20px;
+}
+
+.bar-header {
+    height: 50px;
+    display: flex;
+    justify-content: space-between;
+    background-color: white;
+    position: fixed;
+    width: 100%;
+    top: 0;
+    padding-top: 3px;
+}
+
+#navbar * {
+    float: right;
+    text-decoration: none;
+    padding: 3px;
+    padding-right: 10px;
+    padding-bottom: 3px;
+    list-style-type: none;
+    font-style: normal;
+    color: black;
+    background-color: white;
+}
+
+#landing-spotify {
+    background-image: url(../images/landing.jpg);
+    background-size:cover;
+    color: white;
+    height: 700px;
+    width: 1335px;
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+    align-items: center;
+
+}
+
+h1 {
+    font-size: 75px;
+    padding-bottom: 175px;
+}
+
+h2 {
+    font-size: 35px;
+    text-align: center;
+    font-style: bold;
+    text-decoration: underline #00B172;
+}
+
+h4 {
+    padding-top: 10px;
+    color: white;
+    font-size: 35px;
+    font-style: bold;
+    text-decoration: underline white;
+}
+
+.subtitles {
+    font-size: 35px;
+    padding-left: 25%;
+    padding-right: 25%;
+    text-align: center;
+    position: absolute;
+    padding-top: 75px;
+
+}
+
+.megabox {
+    display: flex;
+    justify-content: space-around;
+}
+
+.boxboxbox {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    padding: 20px;
+}
+
+.boxboxbox > img {
+    height: 95px;
+}
+
+.boxboxbox > h3 {
+    color: #00B172;
+    font-size: 22.5px;
+}
+
+.boxboxbox > p {
+    font-size: 15px;
+    text-align: center;
+}
+
+.section0 {
+
+}
+
+.section1 {
+
+}
+
+.section2 {
+    background-color: #00B172;
+    color: white;
+}
+
+.section2-content {
+    display:flex;
+    justify-content: center;
+    justify-content: space-around;
+    align-items: center;
+
+}
+
+.boxboxbis {
+    font-style: bold;
+    display: flex;
+    justify-content: start;
+    justify-content: space-around;
+    flex-direction: column;
+    padding: 20px;
+}
+.boxboxbis > h3 {
+    font-size: 22.5px;
+}
+
+.whiteicon {
+    height: 95px;
+    position: absolute;
+    margin-left: auto;
+    margin-right: auto;
+    left: 0;
+    right: 0;
+    text-align: center;
+
+}
+
+.apppreview {
+    height: 475px;
+    width: auto;
+    padding-top: 50px;
+
+}
