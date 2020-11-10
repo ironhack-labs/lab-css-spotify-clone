@@ -6,3 +6,108 @@ Green: #00B172
 White: #FFF
 
 */
+@import url('https://fonts.googleapis.com/css2?family=Roboto:ital,wght@0,100;0,300;0,400;0,500;0,700;0,900;1,100;1,300;1,400;1,500;1,700;1,900&display=swap');
+
+* {
+font-family: 'Roboto';
+font-weight: normal}
+
+
+header {
+display:flex;
+justify-content: space-between; }
+
+#logo {
+    position:fixed;
+    float:left;
+    top: 10px;
+    height: 30px;
+}
+nav {
+position:fixed;
+top:0;
+left:0;
+height:50px;
+background-color:white; 
+width: 100%;
+}
+
+ul {
+    list-style: none;
+    display:flex;
+    width: 30%;
+    justify-content: space-evenly;
+    float: right;
+    }
+
+    li {
+        padding-right:10px;
+    }
+
+a { 
+text-decoration: none;
+}
+
+.main-section {
+    background-image: url(../images/landing.jpg);
+    height: 600px;
+    background-size: cover;
+    color:white;
+    display: flex;
+    flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  text-align: center;
+}
+
+h1 {
+    font-size:large;
+    color:white;
+}
+.section-2 {}
+
+.description {
+    display:flex;
+    justify-content: space-between;
+    text-align:center;
+    padding: 15px; 
+}
+
+.section-2 h2 { 
+    text-align:center; 
+}
+.description img {
+    width:40px;
+}
+.section-3{
+    top-margin: 100px;
+    background-color:#00B172;
+    display: flex;
+    color:white; 
+}
+.section-3 img{
+    width: 35%;
+    position:relative center;
+}
+
+.main-section p{
+    line-height: 1.5em;}
+h1 {
+    font-size: 3em;
+    font-weight: bold;}
+
+h2 {
+    font-size: 2.5em;
+    border-bottom: solid green 1px;
+}
+h3 {
+    font-size: 2em;
+    color:#00B172;
+}
+h4{
+    font-size: 1.8em;
+    text-decoration: underline;
+}
+h5{
+    font-size: 1.3em;
+}
