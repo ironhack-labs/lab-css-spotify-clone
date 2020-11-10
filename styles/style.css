@@ -6,3 +6,186 @@ Green: #00B172
 White: #FFF
 
 */
+
+@import url('https://fonts.googleapis.com/css?family=Roboto+Condensed:700|Roboto:100,300,700');
+
+body * {
+    font-family: Roboto;
+}
+
+/* 1) CSS content about the nav bar */
+
+
+/* Navigation bar */
+.nav-bar {
+    position: fixed;
+    z-index: 1;
+    background-color: #FFF;
+    width: 100vw;
+    margin: 0;
+    border: 0;
+    padding: 15px 0px 15px 0px;
+    top: 0;
+
+}
+
+/* Each links of the navigation bar*/
+.nav-bar a {
+    text-decoration: none;
+    color: black;
+    padding: 0px 20px 0px 10px;
+    margin: 10px;
+        
+}
+/* Green spotify logo*/
+.nav-bar #spotify-logo {
+    height: 40px;
+    float: left;
+}
+
+/* Links of the nav bar as a whole*/
+.nav-bar ul {
+    float: right;
+}
+
+/* 2) CSS content about the second section with the landing page*/
+
+
+/* Background landing image */
+.landing-section {
+    background-image: url('../images/landing.jpg');
+    height: 800px;
+    background-position: 0 0;
+    background-size: cover;
+    background-repeat: no-repeat;
+    padding-top: 200px;
+    position: relative;
+}
+
+/* Positioning of the text*/
+.landing-section h1, 
+h2 {
+    display: flex;
+    flex-direction: column;
+}
+
+/* "Music for everyone" Text*/
+.landing-section > h1 {
+    color: white;
+    font-size: 3em;
+    text-align: center;
+    padding-bottom: 5px;
+    padding-top: 180px;
+    
+}
+/* Baseline text */
+.landing-section > h2 {
+    color: white;
+    font-size: 1.5em;
+    text-align: center; 
+
+}
+
+/* CSS content about the third section */
+
+/* First text "What's on Spotify" */
+.about-section h3 {  
+    text-align: center;
+    margin-top: 30px;
+    padding-bottom: 60px;
+    font-size: 1.5em;
+}
+
+/* Underline of the first text quoted above*/
+.about-section span {
+    border-bottom: 3px solid #00B172;
+}
+
+/* All the small titles of each block*/
+.about-section h4 {
+    color: #00B172;
+}
+
+/* All the three blocks that have to be flexboxed*/
+.all-the-blocks {
+    display: flex;
+    justify-content: space-around;
+    width: 100vw;
+    margin-top: 30px;
+    margin-bottom: 60px;
+}
+
+/* I don't know why but when I specifically targeted the div the center worked*/
+.all-the-blocks div {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+/* Text containted in all three blocks*/
+.all-the-blocks p {
+    text-align: center;
+    color: rgb(68, 68, 68);
+}
+
+/* All the three images */
+#music-icon , #high-quality-icon , #devices-icon {
+    width: 100px;
+    height: 100px;
+}
+
+
+/* CSS content about the last section */
+
+/* Styling of the green section */
+.yeezy-section {
+    background-color: #00B172;
+    position: relative;
+    margin: 15px auto;
+    position: relative;
+}
+
+/* Title "It's as yeezy as ..." */
+.yeezy-section h5 {
+    color: #FFF;
+    font-size: 1.6em;
+    letter-spacing: 1px;
+}
+
+/* Texts Search, Browse, Discover */
+.yeezy-section h6 {
+    color: #FFF;
+    font-size: 1.5em;
+}
+
+/* Underline of the title "It's as yeezy.." */
+.yeezy-section span {
+    border-bottom: 2px solid #FFF;
+}
+
+/* Remaining text of the section */
+.yeezy-section p {
+    color: #FFF;
+    font-size: 0.9em;
+}
+
+/* I flexboxed the two divs of the text and the img */
+.solution {
+    display:flex;
+    justify-content:space-around;
+    align-items: center;
+
+}
+
+/* Stylisation of the white Spotify logo and position */
+#spotify-icon-white {
+    height: 70px;
+    position: absolute;
+    left: 50%;
+    top: 50%;
+}
+/* Spotify-app img */
+#spotify-app {
+    height: 500px;
+    padding-top: 10px;
+}
