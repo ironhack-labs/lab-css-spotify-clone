@@ -1,3 +1,162 @@
+@import url("https://fonts.googleapis.com/css?family=Roboto+Condensed:700|Roboto:100,300,700");
+
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+html,
+body {
+  font-family: roboto, sans-serif;
+  font-size: 16px;
+  font-weight: 300;
+}
+
+.logo {
+  width: 200px;
+  height: auto;
+}
+h1 {
+  font-size: 8em;
+  color: white;
+}
+
+h2 {
+  font-size: 3em;
+}
+
+h3 {
+  font-size: 2em;
+}
+
+.header {
+  display: flex;
+  align-items: center;
+  justify-content: flex-end;
+}
+header > div {
+  padding: 0 25px;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+nav {
+  width: 600px;
+}
+
+nav ul {
+  list-style: none;
+  display: flex;
+  justify-content: space-evenly;
+  align-items: center;
+}
+
+nav a {
+  text-decoration: none;
+  color: black;
+}
+
+.first-section {
+  background-image: url("/images/landing.jpg");
+  background-size: cover;
+  height: 650px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+}
+
+.first-section h1 {
+  font-weight: 500;
+}
+
+.first-section p {
+  font-size: 1.5em;
+  color: white;
+}
+
+.advantages {
+  margin: 20px;
+}
+
+.advantages img {
+  height: 100px;
+  width: auto;
+}
+.what {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+.what h2 {
+  border-bottom: 3px solid #00b172;
+  margin-bottom: 40px;
+}
+
+.container {
+  display: flex;
+  justify-content: space-evenly;
+}
+
+.container h3 {
+  color: #00b172;
+}
+.yeezy {
+  background-color: #00b172;
+  color: white;
+  position: relative;
+  height: 600px;
+}
+
+.text-yeezy {
+  padding-left: 50px;
+  padding-top: 50px;
+}
+
+.as-yeezy h2 {
+  width: 47%;
+  border-bottom: 3px solid #fff;
+  padding-bottom: 3px;
+  font-weight: 500;
+}
+
+.text-yeezy p {
+  line-height: 1.5em;
+}
+.search,
+.browse,
+.discover {
+  width: 20%;
+}
+
+.small-logo {
+  width: 100px;
+  height: auto;
+  position: absolute;
+  left: 50%;
+  top: 50%;
+}
+
+.flex-yeezy {
+  display: flex;
+  justify-content: flex-end;
+}
+
+.spotify-yeezy {
+  height: 500px;
+  width: auto;
+}
+
+.div-spotify-yeezy {
+  position: relative;
+  display: flex;
+  justify-content: flex-end;
+  right: 100px;
+  bottom: 460px;
+}
 /*
 Colors:
 
