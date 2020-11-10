@@ -1,3 +1,9 @@
+@import url("https://fonts.googleapis.com/css?family=Poppins:700|Poppins:100,300,500,700");
+
+body {
+  font-family: "Poppins";
+}
+
 body {
   box-sizing: border-box;
   padding: 0;
@@ -7,7 +13,6 @@ body {
 .spotifyLogo {
   width: 250px;
   height: auto;
-  
 }
 
 header > div {
@@ -22,7 +27,7 @@ header {
   position: fixed;
   width: 100%;
   height: auto;
-  padding:10px;
+  padding: 10px;
   z-index: 1;
 }
 
@@ -50,7 +55,7 @@ nav a {
   margin: 0;
 }
 
-.container {s
+.container {
   position: relative;
   text-align: center;
   color: white;
@@ -62,7 +67,7 @@ nav a {
   left: 50%;
   transform: translate(-50%, -50%);
   font-size: 7em;
-  width:100%
+  width: 100%;
 }
 
 .mediumtitle {
@@ -71,7 +76,7 @@ nav a {
   left: 50%;
   transform: translate(-50%, -50%);
   font-size: 2.5em;
-  width:100%
+  width: 100%;
 }
 
 .smalltitle {
@@ -80,39 +85,62 @@ nav a {
   left: 50%;
   transform: translate(-50%, -50%);
   font-size: 2.5em;
-  width:100%
+  width: 100%;
 }
 
-
-.middlepage h1{
-  font-size:4em;
+.middlepage span {
+  padding-top: 40px;
+  align-content: center;
+  font-size: 2.5em;
   text-align: center;
+  font-weight: 500;
+  border-bottom: #00b172 3px solid;
+  display: table;
+  margin: 0 auto;
 }
 
+.container2 {
+  padding-top: 40px;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  width: 33%;
+}
 
-.container2 h3{
-  font-size: 2em;
-  color:#00B172;
+.container2 p {
+  align-items: center;
+  align-content: center;
+  font-size: 1.5em;
+  margin: 10px;
+  width: 270px;
   text-align: center;
- 
+  font-weight: 100;
 }
 
-  .container2 img {
-    width: 180px;
-    height:auto;
-    
-    
-  }
+.container2 h3 {
+  font-size: 1.8em;
+  color: #00b172;
+  justify-content: center;
+  align-items: center;
+  align-content: center;
+  margin: 20px;
+  font-weight: 500;
+}
+
+.container2 img {
+  width: 150px;
+  height: auto;
+  align-items: center;
+  align-content: center;
+}
 
 .whatson {
   display: flex;
-	flex-direction: row;
-	justify-content: space-around;
-	align-items: center;
-  align-content: center;
-  margin-left: 100px;
-  margin-right:100px;
-  
+  flex-direction: row;
+  flex-wrap: nowrap;
+  justify-content: center;
+  align-items: baseline;
+  align-content: space-around;
 }
 /*
 Colors:
