@@ -6,3 +6,174 @@ Green: #00B172
 White: #FFF
 
 */
+
+@import url('https://fonts.googleapis.com/css2?family=Nunito:wght@200;300;400;600;700&display=swap');
+
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'Nunito', sans-serif;
+}
+
+
+nav > img{
+    width: 150px;
+    margin: 1% 2%;
+}
+
+nav div{
+    display: flex;
+    justify-content: center;
+    margin: 1% 5%;
+}
+
+nav div a{
+    text-transform: capitalize;
+    text-decoration: none;
+    margin: 3%;
+    color: #1A1A1A;
+    font-weight: 200;
+    font-size: 0.9rem;
+}
+
+nav{
+    display: flex;
+    justify-content: space-between;
+}
+
+header{
+    background-image:
+        radial-gradient(rgba(0,0,0,0.7),rgba(0,0,0,0.2)),
+        url('..//images/landing.jpg');
+    background-size: cover;
+    height: 100vh;
+    padding-top: 30vh;
+}        
+
+        
+h1{
+    font-weight: 400;
+    font-size: 3.5rem;
+    text-align: center;
+    padding: 5% auto;
+    color: #FFF;
+}
+
+header > h2{
+    font-weight: 200;
+    font-size: 1.3rem;
+    text-align: center;
+    margin: 2% 30%;
+    color: #FFF;
+    line-height: 2rem;
+}
+
+
+/* whats on spotify */
+
+header+section{
+    display: flex;
+    flex-flow: column nowrap;
+    align-items: center;
+}
+
+section > h2{
+    font-weight: 400;
+    font-size: 2.2rem;
+    text-align: center;    
+    display: block;
+    border-bottom: 0.2rem solid #00B172;
+    width: auto;
+    margin: 5% 30%;
+    display: inline-block;
+}
+
+div > h3{
+    font-size: 1.5rem;
+    font-weight: 200;
+    color: #00B172;
+    text-align: center;
+    padding: 1rem;
+}
+
+.icons img{
+    height: 3rem;
+    display: block;
+    overflow: hidden;
+}
+
+#features p{
+    font-size: 1.1rem;
+    font-weight: 100;
+    text-align: center;
+    padding: 0% 21%;
+}
+
+#features div{
+    display: flex;
+    flex-flow: column nowrap;
+    align-items: center;
+}
+
+#features{
+    display: flex;
+    align-items: center;
+    margin: 0% 7% 3%;    
+}
+
+
+/* the green section */
+div > h4{
+    font-weight: 400;
+    font-size: 2.2rem;
+    color: #FFF;
+    border-bottom: 0.2rem solid #FFF;
+    margin: 2%;
+    display: inline-block;
+}
+
+div > h5{
+    font-weight: 400;
+    font-size: 1.5rem;
+    color: #FFF;
+    margin: 2%;
+}
+
+h5+p{
+    color:white;
+    font-weight: 100;
+    font-size: 0.8rem;
+    margin: 2%;
+}
+
+section:last-of-type{
+    background-color: #00B172;
+    margin: 4%;
+    padding: 4%;
+    position: relative;
+}
+
+
+section:last-of-type>div{
+    z-index: 1;
+    position: relative;
+}
+
+
+.logo{
+    display: inline-block;
+    width: 10%;
+    position: absolute;
+    top: 40%;
+    left: 55%;
+}
+
+.phonePage {
+    display: inline-block;
+    margin-bottom: 5%;
+    width: 20%;
+    position: absolute;
+    right: 10%;
+    top: 7%;
+}

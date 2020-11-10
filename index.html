@@ -2,17 +2,104 @@
 <html lang="en">
   <head>
     <meta charset="UTF-8" />
-    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <meta name="viewport" content="width=divice-width, initial-scale=1.0" />
     <meta http-equiv="X-UA-Compatible" content="ie=edge" />
+    <link rel="stylesheet" href="styles/style.css">
     <title>Spotify Clone</title>
     <!-- don't forget to link your styles -->
   </head>
   <body>
-    Premium Discover Help Download Music for everyone. Spotify is now free on mobile, tablet and computer. Listen to the
-    right music, wherever you are. What’s on Spotify? Millions of Songs There are millions of songs on Spotify HD Music
-    Listen to music as if you were listening live Stream Everywhere Stream music on your smartphone, tablet or computer
-    It’s as yeezy as Kanye West. Search Know what you want to listen to? Just search and hit play. Browse Check out the
-    latest charts, brand new releases and great playlists for right now. Discover Enjoy new music every Monday with your
-    own personal playlist. Or sit back and enjoy Radio.
+    <!-- Iteration 1: Navbar
+
+    The navbar should be position: fixed.
+    Align the logo to the left and the ul with the links to the right, either using float or flex. -->
+
+  <nav>
+    <img src="images/spotify-logo.png" alt="spotify logo">
+
+    <div>
+      <a href="#">Premium</a>
+      <a href="#">Discover</a>
+      <a href="#">Help</a>
+      <a href="#">Download</a>
+    </div>
+
+  </nav>
+
+    <!-- Iteration 2: Large image background with text
+    Check out this guide on centering things. -->
+
+  <header>
+    <h1>Music for everyone. </h1>
+    <h2>Spotify is now free on mobile, tablet and computer. Listen to the
+    right music, wherever you are.</h2>
+  </header>
+
+  <!-- Iteration 3: What is on Spotify section
+
+    It looks like the divs take up about a third of the container each. How can you represent this in code? -->
+  <section>
+
+    <h2>What’s on Spotify?</h2>
+
+    <div id="features">
+
+        <div>
+            <div class="icons"><img src="images/music-icon.png" alt="Millions of Songs"></div>
+            <h3>Millions of Songs</h3>
+            <p>There are millions of songs on Spotify</p>
+        </div>
+
+        <div>
+           <div class="icons"><img class="icons" src="images/high-quality-icon.png" alt="High quality music"></div>
+            <h3>HD Music</h3>
+            <p>Listen to music as if you were listening live</p>
+        </div>
+
+        <div>
+            <div class="icons"><img class="icons" src="images/devices-icon.png" alt="Stream Spotify on every device"></div>
+            <h3>Stream Everywhere</h3>
+            <p>Stream music on your smartphone, tablet or computer</p>
+        </div>
+
+    </div>
+ </section> 
+  
+<!-- Iteration 4: The green section
+
+    It looks like we have 2 main sections, a containing element with the text flowing from top to bottom, and the image of the Spotify player on the right.
+    Position the Spotify logo absolutely according to the green div.
+ -->
+
+<section>
+
+    <div>
+
+        <h4>It’s as yeezy as Kanye West.</h4>
+
+        <div>
+          <h5>Search</h5>
+          <p>Know what you want to listen to? Just search and hit play. </p>
+        </div>
+
+        <div>
+          <h5>Browse</h5>
+          <p>Check out the
+          latest charts, brand new releases and great playlists for right now.</p>
+        </div>
+
+        <div>
+          <h5>Discover</h5>
+          <p>Enjoy new music every Monday with your
+          own personal playlist. Or sit back and enjoy Radio.</p>
+        </div>
+
+  </div>
+  <img class="logo" src="images/spotify-icon-white.png" alt="Spotify logo">
+  <img class="phonePage" src="images/spotify-app.jpg" alt="Album of Kanye West, shuffle play">
+  
+</section>              
+      
   </body>
 </html>
+
