@@ -6,3 +6,127 @@ Green: #00B172
 White: #FFF
 
 */
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+.header-main {
+  position: fixed;
+  width: 100vw;
+  z-index: 1;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  background-color: white;
+}
+.nav-main a {
+  height: 100%;
+  padding-right: 50px;
+  text-decoration: none;
+  color: black;
+}
+.header-main > img {
+  height: 80px;
+}
+.container {
+  background-image: url(./../images/landing.jpg);
+  height: 110vh;
+  background-position: 0 0;
+  background-repeat: no-repeat;
+  background-size: cover;
+  position: relative;
+  color: white;
+}
+h1 {
+  position: absolute;
+  top: 40%;
+  left: 27%;
+  font-size: 4em;
+  margin: 0;
+
+  font-family: "Arial";
+}
+h2 {
+  position: absolute;
+  top: 56%;
+  left: 30%;
+  margin: 0;
+  padding: 0;
+  text-align: center;
+}
+h3 {
+  text-align: center;
+  font-size: 2.5rem;
+  text-decoration: underline;
+  text-underline-position: under;
+  text-decoration-color: #00b172;
+  padding-top: 50px;
+}
+h4 {
+  font-size: 1.8rem;
+  color: #00b172;
+  margin-top: 10px;
+  margin-bottom: 0px;
+  text-align: center;
+}
+.information img {
+  height: 80px;
+}
+.information {
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+  height: 70vh;
+}
+.information article {
+  text-align: center;
+  margin: 0 auto;
+}
+h5 {
+  font-size: 2em;
+  text-decoration: underline;
+  text-underline-position: under;
+  position: relative;
+  left: 5%;
+  color: white;
+  padding-top: 40px;
+}
+h6 {
+  font-size: 2em;
+  position: relative;
+  left: 5%;
+  color: white;
+}
+.footer {
+  background-color: #00b172;
+  height: 90vh;
+}
+.footer P {
+  color: white;
+  padding: 45px;
+}
+.footer div {
+  padding-top: 90px;
+}
+.footer .spotify-app {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+.spotify-app {
+  height: 80vh;
+  position: absolute;
+  right: 80px;
+  top: 197vh;
+  padding: 10px;
+  margin: 5px;
+  width: 420px;
+}
+.soptify-icon {
+  height: 20vh;
+  position: absolute;
+  right: 95vh;
+  top: 220vh;
+}
