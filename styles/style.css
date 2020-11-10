@@ -1,8 +1,108 @@
-/*
-Colors:
+@import url('https://fonts.googleapis.com/css?family=Poppins');
 
-Text: 1A1A1A
-Green: #00B172
-White: #FFF
+body {
+    font-family: Poppins;
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+.header-logo {
+    width: 165px;
+    height: 50px;
+    padding: 10px 0px 10px 40px;
+}
+.nav-bar {
+    display: flex;
+    justify-content: space-between;
+    position: fixed;
+    width: 100vw;
+    background-color:white;
+}
+.nav-bar ul {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    width: 30vw;
+    list-style-type: none;
+    padding-right: 10px;
+}
+.nav-bar ul a {
+    text-decoration: none;
+    color: black;
+}
+.section-1 {
+    background-image: url(../images/landing.jpg);
+    background-position: 0 0;
+    background-repeat: no-repeat;
+    background-size: cover;
+    height: 700px;
+    width: auto;
+    display: flex;
+    flex-direction: column;
+    color: white;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+}
+.section-1 h1 {
+    font-size: 60px;
+}
+.section p {
+    font-size: 18px;
+}
+.section-2 h2 {
+    display: flex;
+    justify-content: center;
+}
+.green-line {
+    border: 2px solid #00B172;
+    width: 400px;
+}
+.section-2 img {
+    width: 90px;
+}
+.section-2 div {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+}
+.section-2 div article {
+    width: 30vw;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    letter-spacing: 1px;;
+}
+.section-2 h3 {
+    color: #00B172;
+}
+.section-3 {
+    background-color: #00B172;
+    position: relative;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+}
+.section-3 h2 {
+    border-bottom: 2px solid white;
+    letter-spacing: 1px;
 
-*/
+}
+.section-3 div {
+    color:white;
+    display: flex;
+    align-items: flex-start;
+    flex-direction: column;
+}
+.section-3 .kanye {
+    height: 450px;
+    padding-top: 45px;
+}
+.section-3 .white-logo {
+    width: 75px;
+    height: 75px;
+    position: absolute;
+    display: flex;
+    align-self: center;;
+}
