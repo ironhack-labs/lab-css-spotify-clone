@@ -1,8 +1,169 @@
 /*
 Colors:
 
-Text: 1A1A1A
+Text: #1A1A1A
 Green: #00B172
 White: #FFF
 
 */
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    list-style-type: none;
+}
+body{
+    background-color: whitesmoke;
+}
+
+/* ------------navigation section-------- */
+#navigation_section{
+    position: fixed;
+    z-index: 1;
+    width: 100vw;
+    height: 100px;
+    background-color: whitesmoke;
+}
+#nav_bar{
+    width: 100vw;
+    height: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding: 0 20px;
+}
+#nav_bar img{
+    width: 20%;
+}
+#nav_bar .menu{
+    display: flex;
+}
+#nav_bar .menu a{
+    font-size: 1.3em;
+    margin-right: 1rem;
+    text-decoration: none;
+    color: inherit;
+    transition: ease .5s;
+}
+#nav_bar .menu a:hover{
+    padding: 3px;
+    font-size: 2em;
+    margin: 1rem;
+    color: #ff2e63;
+}
+/* ------------end of navigation section-------- */
+
+/* ------------landing section-------- */
+#landing_section{
+    width: 100vw;
+    height: 100vh;
+    background-image: url(../images/landing.jpg);
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+}
+#landing_section h1{
+    font-size: 80px;
+    color: #FFF;
+}
+#landing_section p{
+    text-align: center;
+    font-size: 30px;
+    color: whitesmoke;
+}
+/* ------------end of landing section-------- */
+
+/* ------------description section-------- */
+#description_section{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+}
+#description_section h2{
+    margin: 30px 0 10px;
+    padding-bottom: 3px;
+    border-bottom: 5px solid #08d9d6;
+}
+#description_section .icon_container{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding: 0 20px;
+
+}
+#description_section .icon_container .icons{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    width: calc(100%/3);
+    margin: 30px 20px;
+    text-align: center;
+}
+#description_section .icon_container .icons img{
+    width: 30%;
+}
+.icons h3, .icons p{
+    margin-top: 10px;
+}
+/* ------------end of description section-------- */
+
+/* ------------demo section-------- */
+#demo_section{
+    background-color: #17b978;
+    align-items: center;
+    justify-content: center;
+    display: flex;
+    padding: 100px;
+}
+.left_part{
+    text-align: left;
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+    flex: 2;
+    color: whitesmoke;
+
+}
+.left_part .text{
+    display: flex;
+    flex-direction: column;
+    height: 100%;
+}
+.left_part .text h3{
+    font-size: 35px;
+    border-bottom: 5px solid whitesmoke;
+    padding-bottom: 3px;
+    margin-bottom: 30px;
+}
+.demo_text h4{
+    font-size: 30px;
+    margin-bottom: 25px;
+}
+.demo_text p{
+    font-size: 20px;
+    margin-bottom: 25px;
+    font-weight: normal;
+}
+
+.left_part .spotify_img{
+    width: 150px;
+    margin-right: 100px;    
+}
+.left_part .spotify_img img{
+    width: 100%;
+}
+.right_part{
+    flex: 1;
+    text-align: center;
+    margin-left: 50px;
+}
+.right_part img{
+    width: 70%;
+}
+/* ------------end of demo section-------- */
