@@ -1,3 +1,15 @@
+
+
+
+
+
+
+
+
+
+
+
+
 /*
 Colors:
 
@@ -6,3 +18,168 @@ Green: #00B172
 White: #FFF
 
 */
+
+* {
+    line-height: 30px;
+  }
+
+  #navbar {
+    position: fixed;
+    background-color: white;
+    width: 1450px;
+    overflow: hidden;
+    top: 0;
+  }
+
+  .spotify-logo {
+    float: left;
+    width: 200px;
+    padding-left: 30px;
+    padding-top: 5px;
+  }
+
+  #navbar-links {
+    display: flex;
+    justify-content: flex-end;
+    padding-right: 50px;
+  }
+
+  li {
+    padding: 10px;
+    list-style-type: none;
+  }
+
+  li a {
+    text-decoration: none;
+    color: black;
+    font-size: 20px;
+  }
+
+  #section-2 {
+    background-image: url("images/landing.jpg");
+    width: 100%;
+    height: 900px;
+    background-position: center;
+    background-size: cover;
+    background-repeat: no-repeat;
+    margin: auto;
+  }
+
+  #section-2 h1,
+  p {
+    color: white;
+    justify-content: center;
+    text-align: center;
+  }
+
+  #section-2 h1 {
+    padding-top: 350px;
+    font-size: 95px;
+  }
+
+  #section-2 p {
+    font-size: 35px;
+    width: 750px;
+    justify-content: center;
+    align-items: center;
+    margin: auto;
+  }
+
+  #section-3 {
+    display: flex;
+    height: 600px;
+    flex-direction: column;
+  }
+
+  #section-3 h4 {
+    text-decoration: underline solid #00b172;
+    color: black;
+    align-items: center;
+    justify-content: center;
+    margin: auto;
+    font-size: 35px;
+  }
+
+  #section-3 img {
+    width: 135px;
+  }
+
+  #section-3 p {
+    color: black;
+    width: 190px;
+  }
+
+  .horizontal-divs-wrap {
+    display: flex;
+    justify-content: space-around;
+    flex-direction: row;
+    align-items: center;
+
+    text-align: center;
+  }
+
+  .horizontal-div h5 {
+    font-size: 30px;
+    color: #00b172;
+  }
+  .horizontal-div p {
+    font-size: 20px;
+  }
+
+  #section-4 {
+    background-color: #00b172;
+    color: white;
+    margin: 0 30px;
+    height: 900px;
+  }
+
+  #section-4 h4 {
+    font-size: 35px;
+    text-decoration: underline;
+    padding-top: 80px;
+    padding-left: 30px;
+  }
+
+  #section-4 h5 {
+    font-size: 30px;
+    padding-left: 30px;
+  }
+
+  #section-4 p {
+    font-size: 25px;
+    text-align: left;
+    align-items: left;
+    padding-left: 30px;
+    width: 380px;
+  }
+
+  .player {
+    width: 200px;
+    height: 200px;
+    display: flex;
+    justify-content: right;
+    display: flex;
+  }
+
+  .white-logo {
+    width: 150px;
+    justify-content: center;
+    align-items: center;
+    position: absolute;
+    z-index: 10;
+  }
+
+  .vertical-divs-wrap {
+    margin-left: 75px;
+    margin-top: 75px;
+    text-align: left;
+  }
+
+  .vertical-div {
+    width: 265px;
+    align-items: flex-start;
+  }
+
+  .green-div {
+    position: relative;
+  }
