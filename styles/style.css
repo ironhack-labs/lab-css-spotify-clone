@@ -6,3 +6,150 @@ Green: #00B172
 White: #FFF
 
 */
+
+* {
+  margin: 0px;
+  padding: 0px;
+  box-sizing: border-box;
+}
+
+nav {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.small {
+  width: 150px;
+}
+
+ul {
+  list-style: none;
+  display: flex;
+  flex-direction: row;
+}
+
+a {
+  text-decoration: none;
+  color: #1a1a1a;
+  padding: 0 10px;
+}
+
+header {
+  background-image: url(../images/landing.jpg);
+  background-size: cover;
+  background-repeat: no-repeat;
+  height: 650px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+}
+
+.white h1,
+.white h2,
+.white h3,
+.white p {
+  color: #fff;
+}
+
+h1 {
+  font-weight: bold;
+  font-size: 60px;
+}
+
+header p {
+  font-size: 20px;
+}
+
+.section2 {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  height: 400px;
+}
+
+.section2 h2 {
+  padding-bottom: 5px;
+  text-decoration: underline #00b172;
+  text-underline-position: under;
+}
+
+.total-container {
+  display: flex;
+  justify-content: space-around;
+}
+
+.container {
+  display: flex;
+  flex-direction: column;
+  justify-content: flex-end;
+  max-width: 200px;
+  padding: 20px 40px;
+  align-items: center;
+}
+
+.container h3 {
+  color: #00b172;
+  text-align: center;
+  padding: 5px 0;
+}
+
+.white div {
+  background-color: #00b172;
+  display: flex;
+  height: 650px;
+}
+
+.steps {
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+  padding: 0 60px;
+}
+
+.steps .block {
+  display: flex;
+  flex-direction: column;
+  position: relative;
+  width: 210px;
+}
+
+.steps .block p {
+  padding: 20px 0;
+}
+
+.steps h2 {
+  text-decoration: underline #fff;
+  text-underline-position: under;
+  padding: 40px 0;
+}
+
+.white {
+  position: relative;
+}
+
+.icone {
+  position: absolute;
+  bottom: 50%;
+  left: 45%;
+  width: 80px;
+}
+
+.div .block {
+  display: flex;
+  flex-direction: column;
+}
+
+.side {
+  width: 440px;
+}
+
+.side img {
+  width: 300px;
+  height: 500;
+  position: absolute;
+  top: 60px;
+  right: 40px;
+}
