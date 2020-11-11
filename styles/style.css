@@ -1,205 +1,203 @@
-@import url('https://fonts.googleapis.com/css?family=Roboto+Condensed:700|Roboto:100,300,700');
+@import url("https://fonts.googleapis.com/css?family=Roboto+Condensed:700|Roboto:100,300,700");
 
 * {
-    margin: 0;
-    padding: 0;
-    box-sizing: border-box;
-    font-family: Roboto;
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  font-family: Roboto;
 }
 
 body {
-    min-height: 100vh;
-    /* vh : viewport height */
+  min-height: 100vh;
+  /* vh : viewport height */
 }
 
 /* NAV BAR */
 
 header > div {
-    background-color: #FFF;
-    position: fixed;
-    z-index: 10;
-    display: flex;
-    justify-content: space-between;
-    align-items: center;
-    width: 100vw;
-    height: 65px;
+  background-color: #fff;
+  position: fixed;
+  z-index: 10;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  width: 100vw;
+  height: 65px;
 }
 
 #logo {
-    width: 200px;
-    padding: 10px;
+  width: 200px;
+  padding: 10px;
 }
 
 nav ul {
-    list-style: none;
-    display: flex;
-    justify-content: space-between;
-    align-items: center;
+  list-style: none;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
 }
 
 nav li {
-    padding: 10px;
+  padding: 10px;
 }
 
 nav li:last-of-type {
-    margin-right: 20px;
+  margin-right: 20px;
 }
 
 nav a {
-    text-decoration: none;
-    color: #1A1A1A;
+  text-decoration: none;
+  color: #1a1a1a;
 }
 
 nav a:hover {
-    text-decoration: none;
-    color: #00B172;
+  text-decoration: none;
+  color: #00b172;
 }
 
 /* LANDING PICTURE */
 
 #top {
-    background-image: url("../images/landing.jpg");
-    background-position: 0, 0;
-    background-repeat: no-repeat;
-    background-size: cover;
-    height: 600px;
-    position: relative; 
-    top: 64px;
+  background-image: url("../images/landing.jpg");
+  background-position: 0, 0;
+  background-repeat: no-repeat;
+  background-size: cover;
+  height: 600px;
+  position: relative;
+  top: 64px;
 }
 
 h1 {
-    display: flex;
-    justify-content: center; 
-    align-items: center;
-    color: white;
-    text-align: center;
-    font-size: 80px;
-    font-weight: 300;
-    padding: 153px 0;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  color: white;
+  text-align: center;
+  font-size: 80px;
+  font-weight: 300;
+  padding: 153px 0;
 }
 
 #top > p {
-    color: white;
-    text-align: center;
-    display: flex;
-    justify-content: center;
-    font-size: 30px;
-    padding: 0 200px;
-    position: relative;
-    bottom: 100px;
+  color: white;
+  text-align: center;
+  display: flex;
+  justify-content: center;
+  font-size: 30px;
+  padding: 0 200px;
+  position: relative;
+  bottom: 100px;
 }
 
 /* MIDDLE SECTION */
 
 #middle {
-    margin-top: 100px;
+  margin-top: 100px;
 }
 h2 {
-    text-decoration: underline;
-    text-decoration-color: #00B172;
-    text-align: center;
-    font-size: 50px;
-    margin-bottom: 50px;
+  text-decoration: underline;
+  text-decoration-color: #00b172;
+  text-align: center;
+  font-size: 50px;
+  margin-bottom: 50px;
 }
 
 #my-cool-blocks {
-    display: flex;
-    justify-content: space-around;
-    align-items: center;
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
 }
 
 @media (max-width: 768px) {
-    #my-cool-blocks {
-        display: flex;
-        flex-direction: column;
-        justify-content: space-around;
-        align-items: center;
-        height: 300px;
-        width: 300px;
-    }
-}
-
-h3 {
-    color: #00B172;
-    font-size: 24px;
-    font-weight: bold;
-    text-align: center;
-}
-
-.icons {
-    height: 100px;
-    margin-bottom: 20px;
-}
-
-.block {
-    text-align: center;
+  #my-cool-blocks {
     display: flex;
     flex-direction: column;
     justify-content: space-around;
     align-items: center;
-    width: 33%; 
     height: 300px;
+    width: 300px;
+  }
+}
+
+h3 {
+  color: #00b172;
+  font-size: 24px;
+  font-weight: bold;
+  text-align: center;
+}
+
+.icons {
+  height: 100px;
+  margin-bottom: 20px;
+}
+
+.block {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  flex: 1;
+  height: 300px;
 }
 
 .block p {
-    text-align: center;
-    font-size: 20px;
-    margin: 10px 20px 40px;
+  text-align: center;
+  font-size: 20px;
+  margin: 10px 20px 20px;
 }
 
 /* BOTTOM SECTION */
 
 #bottom {
-    background-color: #00B172;
-    color: white;
-    margin: 0 20px 20px;
-    padding: 50px;
+  background-color: #00b172;
+  color: white;
+  margin: 0 20px 20px;
+  padding: 50px;
 }
 
 h4 {
-    font-size: 30px;
-    text-decoration: underline;
-    text-decoration-color: white;
+  font-size: 30px;
+  text-decoration: underline;
+  text-decoration-color: white;
 }
 
 h5 {
-    font-size: 30px;
-    padding: 20px;
+  font-size: 30px;
+  padding: 20px;
 }
 
 #bottom p {
-    font-size: 20px;
-    margin-top: 15px;
-    padding-right: 50px;
-    padding-left: 20px;
-    line-height: 35px;
+  font-size: 20px;
+  margin-top: 15px;
+  padding-right: 50px;
+  padding-left: 20px;
+  line-height: 35px;
 }
 
 #text-and-image {
-    display: flex;
-    justify-content: space-between;
-    align-items: center;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
 }
 
 #spotify-app-kanye {
-    width: 250px;
-    margin-right: 40px;
+  width: 250px;
+  margin-right: 40px;
 }
 
 #relative-div {
-    position: relative;
+  position: relative;
 }
 
 #yeezy-as-kanye {
-    margin-right: 350px;
+  margin-right: 350px;
 }
 
 #spotify-icon-white {
-    position: absolute;
-    top: calc(100% / 2 - 62px);
-    left: calc(100% / 2 - 62px);
+  position: absolute;
+  top: calc(100% / 2 - 62px);
+  left: calc(100% / 2 - 62px);
 }
 
 #spotify-icon-white > img {
-    width: 124px;
+  width: 124px;
 }
