@@ -6,3 +6,159 @@ Green: #00B172
 White: #FFF
 
 */
+@import url('https://fonts.googleapis.com/css?family=Roboto+Condensed:700|Roboto:100,300,700');
+
+body {
+    font-family: "Roboto";
+}
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+.spotify-logo {
+    width: 30vh;
+    justify-content: flex-start;
+    align-items: center;
+}
+
+#header-main {
+    background: white;
+    position: fixed;
+    width: 100vw;
+    z-index: 1;
+}
+  
+#nav-main {
+    float: right;
+    align-items: center;
+    padding-top: 20px;
+}
+  
+#nav-main a {
+    margin-right: 50px;
+}
+
+  
+#nav-main a:hover {
+    color: #00B172;
+}
+
+a {
+    text-decoration: none;
+    color: inherit;
+}
+
+
+.first {
+    background-image: url("../images/landing.jpg");
+    background-position: 0 0;
+    background-size: cover;
+    background-repeat: no-repeat;
+    height: 700px;
+    padding-top: 200px;
+    position: relative;
+    text-align: center;
+    color: white;
+}
+
+.first h1 {
+    font-size: 6em;
+    justify-content: center;
+}
+
+.first p {
+    font-size: 2em;
+    justify-content: center;
+}
+
+.second {
+    text-align: center;
+    display: flex;
+    flex-direction: column;
+}
+
+h2 {
+    padding-top: 40px;
+}
+h2 > span {
+    border-bottom: 2px solid #00B172;
+    font-size: 1.5em;
+}
+
+.second .blocks {
+    display: flex;   
+}
+
+.block {
+    width: 400px;
+    margin: 70px;
+    font-size: 20px;
+}
+
+.block img {
+    width: 150px;
+    height: 130px;    
+}
+
+h3 {
+  font-weight: bold;
+  color: #00B172;
+  padding-bottom: 20px;
+}
+
+.third > * {
+    padding: 0 50px;
+    background-color: #00B172;
+    margin: 0px 30px;
+    color: white;
+}
+
+h4 {
+    padding-top: 60px;
+    padding-bottom: 50px;
+}
+h4 > span {
+    border-bottom: 2px solid white;
+    font-size: 2.4em;
+}
+
+h5 {
+    font-size: 1.8em;
+    padding-bottom: 40px;
+}
+
+.green-section p {
+    font-size: 1.2em;
+    padding-bottom: 40px;
+}
+
+.green-section {
+    position: relative;
+}
+
+.spotify-icon {
+    width: 140px;
+    height: 140px;
+    position: absolute;
+    left: 50%;
+    margin-left: -70px;
+    top: 50%;
+    margin-top: -70px;
+}
+
+.spotify-app {
+    width: 300px;
+    height: 532px;
+    position: absolute;
+    left: 80%;
+    margin-left: -150px;
+    top: 50%;
+    margin-top: -266px;
+}
+
+.box {
+    margin-right: 750px;
+}
