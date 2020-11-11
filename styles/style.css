@@ -1,8 +1,112 @@
-/*
-Colors:
+@import url('https://fonts.googleapis.com/css?family=Roboto+Condensed:700|Roboto:100,300,700');
+* {
+    margin: 0;
+    font-family: Roboto Condensed;
+    padding:0;
+    box-sizing:border-box;
+}
 
-Text: 1A1A1A
-Green: #00B172
-White: #FFF
+.nav-bar {
 
-*/
+    display: flex;
+   
+    
+}
+.cover-image {
+    background-image: url("../images/landing.jpg");
+    background-size:cover;
+    height:700px;
+    width:1000px;
+    display:flex;
+    align-items:center;
+    justify-content:space-evenly;
+    padding:20px;
+    
+    }
+
+ .cover-image h1 {
+    color:white;
+    margin:20px;
+    }
+    .cover-image h2 {
+    color:white;
+    margin:20px;
+            }
+
+.menu {
+    position:fixed;
+    width :90%;
+}
+.logo {
+    
+    width:150px;
+}
+ul{
+    display: flex;
+    justify-content:flex-end;
+    list-style-type:none;
+}
+li{
+    padding:10px;
+}
+}
+
+#container {
+ border:1px solid black;
+}
+.bloc {
+    display :flex;
+    flex-direction:column;
+    justify-content:center;
+    align-items:center;
+    border:2px solid blue;
+
+
+}
+.picto {
+    width:70px;
+    padding:20px;
+
+}
+#section2 h2 {
+    text-align:center;
+    margin:80px;
+}
+#section3 {
+    background-color: #00B172;
+    margin:30px;
+    position:relative;
+}
+#section3 h2{
+    text-decoration:underline white;
+    padding:20px;
+    margin-left:20px;
+    color:white;
+    font-weight:bold;
+}
+#section3 h3{
+    font-weight:bold;
+    font-size:1.5em;
+    padding:20px;
+    color:white;
+margin-left:20px;
+width:220px;
+}
+#section3 p  {
+    color:white;
+    margin-left:20px;
+    width:220px;
+}
+.spotify-icon {
+    width: 100px;
+    left:500px;
+    bottom:80px;
+    position:absolute;
+   
+}
+.kayneWest {
+    width:200px;
+    top :50px;
+    right:80px;
+    position:absolute;
+}
