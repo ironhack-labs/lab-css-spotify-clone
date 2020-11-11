@@ -24,12 +24,14 @@ White: #FFF
 
 header{
     position:fixed; 
+    z-index: 1;
     width: 100vw;
     color: #1A1A1A 
     margin-top: 0;
+    height: 10vw;
     display:flex;
     justify-content: space-between;
-    padding: 20px 30px;
+    padding: 20px 20px;
     background-color: white; 
     
 }
@@ -140,8 +142,9 @@ header{
 .section-three{
     background-color: #00B172;
     position: relative;
+    bottom:10px;
     display:flex;
-    height: 800px;
+    height: 450px;
     justify-content: space-between;
     color: #FFF;
     margin: 0 30px;
@@ -151,36 +154,39 @@ header{
 .kanye-text * {
     text-align: left;
     padding-left: 50px;
-    width: 75%; 
+    width: 55%; 
 
 }
 
 .kanye-text h2 {
-    font-size: 2em;
-    margin-top: 30px;
+    font-size: 25px;
+    margin-top: 50px;
+    text-align: left;
+    margin-bottom: 20px;
 }
 
 .kanye-text h4 {
     font-size: 1.5em;
-    margin-top: 30px;
+    margin-top: 10px;
 }
 
 .kanye-text p {
     font-size: 1em;
-    margin-top: 30px;
+    margin-top: 10px;
 }
 
 #spotify-icon-white{
     position: absolute;
     top: 50%;
     width: 90px;
-    margin: 80px;
+    top: 50%;
+    left: 50%;
 }
 
 #spotify-app{
     height: 80%;
     width: auto;
-    margin: 50px;
+    margin: 10px;
     position: absolute;
     right: 30px;
     bottom: 30px;
