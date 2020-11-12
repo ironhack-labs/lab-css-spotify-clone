@@ -35,12 +35,17 @@ header{
     align-items: center;
     width: 1400px;
     margin: 0 10px;
+    position: fixed;
+    background-color: white;
+    padding: 0;
+    
 }
 
 .hor-cont-header{
     display: flex;
     flex-direction: row;
     justify-content: space-between;
+
 }
 
 .spoty-icon-nav{
@@ -67,6 +72,16 @@ ul{
 ul li {
     margin:10px;
     font-size: 20px;
+    color: black;
+    
+}
+
+a:link{
+    color:black;
+}
+
+a:visited{
+     color:black;
 }
 
 .landing{
@@ -78,6 +93,7 @@ ul li {
     background-image: url("../images/landing.jpg");
     background-repeat: no-repeat;
     background-size: cover;
+    margin: 100px 0 0 0;
 }
 
 .landing h1,p{
