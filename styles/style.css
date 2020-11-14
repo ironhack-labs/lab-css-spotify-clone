@@ -1,8 +1,103 @@
-/*
-Colors:
 
-Text: 1A1A1A
-Green: #00B172
-White: #FFF
-
-*/
+@font-face {
+  font-family: "Open Sans";
+  src: url("/fonts/OpenSans-Regular-webfont.woff2") format("woff2"),
+       url("/fonts/OpenSans-Regular-webfont.woff") format("woff");}
+*{
+  border: 0px 20px;
+  box-sizing: border-box;
+}
+nav{
+  display: flex;
+  justify-content: space-between;
+}
+nav img{
+  width: 200px;
+  height: 100%;
+}
+nav ul{
+  display: flex;
+  list-style-type: none;
+}
+a {
+  text-decoration: none;
+  color: inherit; 
+}
+nav li{
+  margin: 10px;
+}
+.partone{
+  display: block;
+  text-align: center;
+  color: white;
+}
+.partone img {
+  width: 100%;
+  display: block;
+}
+h1{
+  position: absolute;
+  top: 32%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  font-size: 48px;
+}
+p{
+  position: absolute;
+  top: 44%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  font-size: 20px;
+}
+h2{
+  text-align: center;
+}
+.container{
+  display:flex;
+  text-align: center;
+  justify-content: center;
+  align-items: center;
+}
+.block{
+  display: flex;
+  align-items: center;
+  flex-direction: column;
+}
+.block img{
+width: 20%;
+}
+.header{
+  color:#00B172;
+  font-weight: bold;
+}
+.text{
+  font-size: 15px;
+}
+.partthree {
+  background-color: #00B172;
+  color: #FFF;
+  margin-top: 30px;
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+}
+.yeezytext{
+  margin-left: 50px;
+  display: flex;
+  flex-direction: column;
+}
+.yeezyheader{
+  font-weight: bold;
+  text-decoration: underline;
+  font-size: 20px;
+}
+.yeezysmallheader{
+  font-weight: bold;
+}
+.spotifysmalllogo img{
+  width: 80px;
+}
+.yeezyspotifyadd img{
+  width: 250px;
+  margin: 50px;
+}
