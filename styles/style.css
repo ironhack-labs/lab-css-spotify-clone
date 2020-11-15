@@ -1,8 +1,217 @@
-/*
-Colors:
+@import url("https://fonts.googleapis.com/css2?family=Roboto:wght@300&display=swap");
+@import url("https://fonts.googleapis.com/css2?family=Roboto:wght@500&display=swap");
 
-Text: 1A1A1A
-Green: #00B172
-White: #FFF
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+body {
+  font-family: Roboto;
+  min-height: 200vh;
+}
 
-*/
+.header__main {
+  background-color: #fff;
+  height: 80px;
+  position: fixed;
+  width: 100%;
+  z-index: 1;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.header__main > img {
+  width: 180px;
+  height: 55px;
+  text-align: right;
+  padding-left: 10px;
+  padding-top: 5px;
+}
+
+.header__nav #list li {
+  position: relative;
+  list-style-type: none;
+  display: inline-block;
+  padding: 0px 15px;
+  font-size: 18px;
+}
+
+a {
+  color: inherit;
+  text-decoration: none;
+}
+
+.music {
+  background: url(../images/landing.jpg);
+  background-size: cover;
+  max-width: 100vw;
+  height: 100vh;
+  position: relative;
+}
+
+.music > h1 {
+  color: white;
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  text-align: center;
+  font-size: 70px;
+  padding-bottom: 20px;
+  font-style: bold;
+}
+
+.music > p {
+  color: white;
+  position: absolute;
+  bottom: 30%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  text-align: center;
+  line-height: 40px;
+  font-size: 25px;
+}
+
+/* Iteration 3 - What is on Spotify section */
+
+.title {
+  position: relative;
+  top: 50%;
+  left: 35%;
+  font-size: 30px;
+  padding: 40px;
+  margin-bottom: 10px;
+  text-decoration: underline #00b172;
+}
+
+.millions > img {
+  width: 150px;
+}
+
+.millions {
+  display: flex;
+  justify-content: center;
+  flex-direction: column;
+  align-items: center;
+}
+
+.millions > h3 {
+  padding: 20px;
+  font-size: 25px;
+  color: #00b172;
+}
+
+.millions > p {
+  text-align: center;
+  line-height: 25px;
+  font-size: 20px;
+}
+
+.hd > img {
+  width: 150px;
+}
+
+.hd {
+  display: flex;
+  justify-content: center;
+  flex-direction: column;
+  align-items: center;
+}
+
+.hd > h3 {
+  padding: 20px;
+  font-size: 25px;
+  color: #00b172;
+}
+
+.hd > p {
+  text-align: center;
+  line-height: 25px;
+  font-size: 20px;
+}
+
+.stream > img {
+  width: 150px;
+}
+
+.stream {
+  display: flex;
+  justify-content: center;
+  flex-direction: column;
+  align-items: center;
+}
+
+.stream > h3 {
+  padding: 20px;
+  font-size: 25px;
+  color: #00b172;
+}
+
+.stream > p {
+  text-align: center;
+  line-height: 25px;
+  font-size: 20px;
+}
+
+.three {
+  flex: 1;
+  display: flex;
+  justify-content: space-around;
+  padding-bottom: 50px;
+}
+
+/* Iteration 4 -  */
+
+.green {
+  background-color: #00b172;
+  position: relative;
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+  margin: 40px;
+}
+
+.text > h2 {
+  text-align: left;
+  position: relative;
+  padding-bottom: 30px;
+  padding-left: 10px;
+  font-size: 35px;
+  text-decoration: underline;
+}
+
+.text {
+  color: #fff;
+  margin-left: 30px;
+}
+
+.text h3 {
+  display: flex;
+  flex-direction: column;
+  padding: 15px;
+  font-size: 25px;
+}
+
+.text p {
+  display: flex;
+  flex-direction: column;
+  padding: 5px;
+  padding-left: 10px;
+  line-height: 25px;
+  font-size: 20px;
+}
+
+#kanye {
+  width: 400px;
+  height: 600px;
+  display: inline-block;
+  padding: 70px;
+}
+
+#white {
+  width: 120px;
+  height: 120px;
+  display: inline-block;
+}
