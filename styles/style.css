@@ -6,3 +6,131 @@ Green: #00B172
 White: #FFF
 
 */
+@import url('https://fonts.googleapis.com/css2?family=Source+Sans+Pro&display=swap');
+
+
+body { 
+    font-family: 'Source Sans Pro';
+    color: white;
+    font-size: 25px;
+
+    margin: 0px;
+    padding: 0px;
+}
+
+h2{
+    font-size: 2em;
+}
+
+
+
+/*------------------header------------------*/
+
+header {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: center;
+
+    color: black;
+
+    padding: 0px 20px;
+}
+
+header nav ul{
+    display: flex;
+    list-style: none;
+}
+
+nav ul li{
+    padding: 20px;
+}
+
+/*------------------section-1------------------*/
+
+#section-1{
+    display: flex;
+    flex-direction: column;
+    justify-content:center; 
+    align-items: center;
+
+    margin: 0px;
+    padding: 0px;
+
+    height: 1000px;
+
+    background-image: url("../images/landing.jpg");
+    background-position: center; 
+    background-size: contain;
+
+    color: white;
+   
+}
+
+/*------------------section-2------------------*/
+#section-2{
+    display: flex;
+    flex-direction: column;
+    justify-content:center; 
+    align-items: center;
+}
+
+#section-2-container{
+    display: flex;
+    flex-direction: row;   
+    justify-content: space-evenly; 
+    
+}
+
+.section-2-div{
+    display: flex;
+    flex-direction: column;
+    justify-content:center; 
+    align-items: center;
+    align-self: flex-end;
+    text-align: center;
+
+    margin: 50px 50px;
+    padding: 50px 50px;
+
+    color: #00B172;
+}
+
+#section-2 article{
+    color: black;
+}
+
+#section-2 h2{
+    color: black;
+
+    padding-bottom: 5px;
+    border-bottom: 5px solid #00B172;
+}
+
+/*------------------section-3------------------*/
+#section-3{
+    display: flex;
+    flex-direction: row;
+    justify-content:space-evenly; 
+    
+
+    background-color:#00B172;
+
+    margin: 50px 50px;
+
+}
+
+#section-3 h2{
+
+    padding-bottom: 5px;
+    border-bottom: 5px solid white
+
+}
+
+.section-3-div{
+    width: 400px;
+    text-align: left;
+
+    padding: 20px 5px;
+}
+   
