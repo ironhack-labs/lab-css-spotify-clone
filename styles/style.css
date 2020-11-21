@@ -6,3 +6,65 @@ Green: #00B172
 White: #FFF
 
 */
+
+@import url('https://fonts.googleapis.com/css2?family=Open+Sans&display=swap');
+
+body {
+    margin: 0px;
+    font-family: 'Open Sans', sans-serif;
+}
+
+nav {
+    position: fixed;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    background-color: white;
+    padding: 10px 25px;
+    align-items: center;
+
+}
+
+#main-logo {
+    width: 15%;
+    height: 15%;
+}
+
+menu {
+    display: flex;
+    flex-direction: row;
+    justify-content: flex-start;
+}
+
+nav ul {
+    list-style: none;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+nav li {
+    padding: 10px;
+}
+
+
+#welcome {
+    background: url('../images/landing.jpg');
+    background-position: center;
+    background-size: cover;
+    background-repeat: no-repeat;
+    text-align: center;
+    height: auto;
+    color: white;
+    padding: 20%;
+}
+
+.title {
+    font-size: 4em;
+    font-weight: bold;
+}
+
+.sub-title {
+    font-size: 1.5em;
+    margin: 0;
+}
