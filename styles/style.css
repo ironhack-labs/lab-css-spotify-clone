@@ -1,7 +1,11 @@
+@import url('https://fonts.googleapis.com/css2?family=Roboto:ital,wght@0,100;0,300;0,400;0,500;0,700;0,900;1,100;1,300;1,400;1,500;1,700;1,900&display=swap');
+
 body{
     background-color:#fff;
     padding:0px;
     margin:0px;
+    font-family: 'Roboto','sans-serif';
+    color: #1A1A1A
 }
 
 /*HEADER*/
@@ -12,7 +16,8 @@ header{
 }
 
 #upper-logo{
-    padding:10px;
+    padding: 10px;
+    align-self: flex-end;
 }
 
 nav ul{
@@ -25,12 +30,104 @@ nav ul{
 nav ul li{
     list-style-type: none;
     padding:15px;
+    font-weight: 300;
 }
 
 /*SECTION1 */
 
+#sec1{
+    height: 500px;
+    display:flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+    background-image: url('../images/landing.jpg');
+    background-size: contain;
+    color:#fff;
+    
+}
+
+#sec1 h1{
+    font-size: 4em;
+    font-weight: 500;
+}
 
 
+#sec1 article p{
+    padding:0 20%;
+    text-align: center;
+    font-weight: 200;
+}
+
+/*SECTION 2*/
+#sec2{
+    height: 400px;
+    display:flex;
+    flex-direction: column;
+    align-items: center;
+    
+}
+
+#sec2-heading{
+    /*Revisar para poner un espacio entre la linea y texto*/
+    text-decoration: underline;
+    text-underline-position: under;
+    text-decoration-color:#00B172 ;
+    text-decoration-thickness: 3px; /*It works on safari or mozilla firefox*/
+    font-size: 2em; 
+
+}
+
+#description-box-container{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+}
+
+.description-box{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+    padding: 30px;
+    margin:0 30px;
+    align-self: flex-end; 
+}
+
+.description-box h4{
+    color:#00B172;
+    font-weight:800;
+}
+
+.description-box p{
+    font-weight:200;
+}
+
+#sec3{
+    margin: 20px;
+    background-color:#00B172;
+    color:#FFF;
+    padding:40px 50px;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: center;
+}
+
+#text-box-container{
+    width: 30%;
+    
+}
+
+#text-box-container h3{
+    text-decoration: underline;
+    text-underline-position: under;
+    text-decoration-thickness: 3px;
+    
+    
+}
 /*
 Colors:
 
