@@ -6,3 +6,149 @@ Green: #00B172
 White: #FFF
 
 */
+
+@import url('https://fonts.googleapis.com/css2?family=Lato:wght@100;300;400;700;900&display=swap');
+
+body {
+    font-family: 'Lato', sans-serif;
+    margin: 0;
+    padding: 0;
+}
+
+h1{
+    margin-top: 270px;
+    margin-bottom: 20px;
+    font-size: 5em;
+}
+
+h2{
+    font-size: 2.2em;
+    margin: 30px 0px;
+    display: inline-block;
+    border-bottom: 3px solid #00B172;
+    padding-bottom: 3px;
+}
+
+h3{
+    font-size: 1.8em;
+}
+
+
+/* -----  Header ------ */
+
+nav {
+    display: flex;
+    justify-content: space-between;
+    margin: 10px 30px;
+}
+
+nav > img {
+    width: 200px;
+}
+
+nav a{
+    margin-left: 15px;
+    font-size: 1.2em;
+    text-decoration: none;
+    color: #1A1A1A;
+}
+
+nav > ul {
+    display: flex;
+    flex-direction: row;
+    list-style: none;
+}
+
+.intro {
+    background-image: url("../images/landing.jpg");
+    background-position: center 90%;
+    background-repeat: no-repeat;
+    background-size: cover;
+    height: 850px;
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+    color: #fff;
+}
+
+.intro > p{
+    font-size: 1.9em;
+    font-weight: 300;
+    text-align: center;
+    margin-top: 0px;
+}
+
+/* -----  Section1 ------ */
+
+.title-APP{
+    text-align: center;
+}
+
+.APP {
+    display:flex;
+    justify-content: space-around;
+    margin: 0px 40px 70px 40px;
+}
+
+.APP img{
+    width: 150px;
+    align-self: center;
+}
+
+.APP article{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    align-self: baseline;
+}
+
+.APP h3{
+    color: #00B172;
+}
+
+.APP p{
+    font-size: 1.5em;
+    margin: 0px 100px;
+    text-align: center;
+    font-weight: 300;
+    width: 240px;
+}
+
+/* -----  Section2 ------ */
+
+.artist {
+    height: 800px;
+    background-color: #00B172;
+    padding: 50px 90px 0px 90px;
+    margin: 0px 30px 30px 30px;
+    display: flex;
+    justify-content: space-between;
+    background-image: url("../images/spotify-icon-white.png");
+    background-position: absolute;
+    background-position-x: center;
+    background-position-y: center;
+    background-repeat: no-repeat;
+    background-size: 100px;
+    color: #fff;
+}
+
+.artist img {
+    width: 350px;
+    margin-top: 60px;
+    margin-right: 0px;
+}
+
+.artist h2{
+    border-bottom: 3px solid #fff;
+}
+
+.artist p{
+    font-size: 1.4em;
+    font-weight: 300;
+    width: 350px;
+    line-height: 35px;
+}
+
+
+
