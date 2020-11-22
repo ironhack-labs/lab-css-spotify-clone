@@ -1,12 +1,13 @@
 @import url('https://fonts.googleapis.com/css2?family=Lato&display=swap');
 
 body {
-  font-family: 'Lato', sans-serif;";
+  font-family: 'Lato';
+  width: 1356px;
 }
 /*
 Colors:
 
-Text: 1A1A1A
+Text: 1A1A1A 
 Green: #00B172
 White: #FFF
 font-family: 'Lato', sans-serif;
@@ -14,21 +15,29 @@ font-family: 'Lato', sans-serif;
 */
 
  /*Navbar*/
+ header > div {
+  padding: 0 1px;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
 nav {
-  width: 600px;
+    width: 1356px;;
 }
 
 nav ul {
   list-style: none;
   display: flex;
   justify-content: space-between;
-  align-items: flex-end;
-  font-size: 1em;
+  align-items: center;
+  font-size: 25px;
+  margin: 5px 559px 2.5px;
+  padding: 0px;
 }
 
 .links li {
-  margin-left: 0;
-  margin-right:0;
+  margin-left: 55px;
+  margin-right:0px;
 }
 nav a {
   text-decoration: none;
@@ -45,11 +54,61 @@ nav a {
  position: relative;
 }
 
-/*Seccion1*/
+.logo-spotify {
+  width: 160px;
+  margin-right: 1rem;
+  margin: 25px 1rem;
+}
 
+/*Seccion1*/
+#welcome{
+  height: 850px;
+  width: 1356px;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  text-align: center;
+  align-items: center;
+  background: url(https://github.com/amoralesp88/lab-css-spotify-clone/blob/master/images/landing.jpg?raw=true) 0 0 no-repeat;
+  background-size: cover;
+}
+.header {
+  color: white; 
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  align-items:center;
+  align-content: flex-start;
+  font-size:3em;
+  text-align: center;
+  font-weight: bold;
+}
+.welcome-content {
+  color: white;
+  width: 66%;
+  text-align: center;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  margin: 10px;
+  font-size: 20px;
+  font-weight: lighter;
+}
+
+  
 /*Seccion2*/
+
+h2{
+    text-align: center;
+    font-size: 35px;
+    text-decoration: underline;
+    text-underline-position: under;
+    text-decoration-color: #00B172;
+    padding-top: 50px;
+}
 #information{
-  height: 400px;
+  height: 417px;
+  width: 990px;
   display: flex;
   flex-direction: row;
   flex-wrap: nowrap;
@@ -61,15 +120,88 @@ nav a {
 }
 
 h3 {
-  color: #ED1C24;
-  font-size: 1em;
-  font-weight: bold;
-  margin: 0em;
+  color: #00B172;
+  font-size: 20px;
+  display: flex;
+  flex-direction: row;
+  flex-wrap: nowrap;
+  margin: 12px 15px;
+  padding: 5px 75px;
+  text-align: center;
+  align-items: center;
 }
 
 .info-spotify {
-  font-size: 0.8em;
+  font-size: 20px;
+  display: flex;
+  flex-direction: row;
+  flex-wrap: nowrap;
+  margin: 2px 36px;
+  padding: 5px 65px;
+  text-align: center;
+  
 }
+.imagenes {
+  width: 159px;
+  height:139px;
+  align-items: center;
+  margin: auto;
+  margin: 2px 36px;
+  padding: 5px 65px;
+  
+}
+  
 
 /*Seccion3*/
 
+#discover {
+    background-color: #00B172;
+    background-repeat: no-repeat;
+    background-position:center left;
+    width: 1256px;
+    height: 617px;
+    position: relative;
+    margin: 0px 50px 0px 25x;
+}
+
+#discover h2 {
+    color: white;  
+    text-align: left;
+    text-decoration: underline;
+    padding: 35px 60px;
+}
+
+#discover h3{
+    color: white;
+    font-size: 25px;
+    margin-bottom: 15px; 
+    margin-top:35px;
+}
+.discover-info{
+    color: white;
+    margin: 10px 10px 10px 10px;
+    padding: 0 60px;
+    width: 250px;
+    font-weight: lighter;
+}
+.spotify-icon{
+    padding: 10px; 
+     width: 90px; 
+     margin: 0 auto;
+     padding: 0 1rem;
+     position: absolute;
+     left: 550px;
+     top: 255px;
+     display: table-cell;
+}
+.spotify-app {
+    padding: 10px; 
+     width: 250px; 
+     height: 450px;
+     margin: 0 auto;
+     padding: 0 1rem;
+     position: absolute;
+     left: 900px;
+     top: 80px;
+
+}
