@@ -1,8 +1,92 @@
-/*
-Colors:
 
-Text: 1A1A1A
-Green: #00B172
-White: #FFF
+/* MAIN STYLES */
+body {
+    margin: 0;
+    font-family: sans-serif;
+    font-weight: lighter;
+}
 
-*/
+h3 {
+    color: #00B172;
+}
+
+img {
+    width: 5rem;
+}
+
+.dark-font {
+    color: 1A1A1A;
+}
+
+.white-font {
+    color:#FFF;
+}
+
+.green-font {
+    
+}
+
+h2 + hr {
+    width: inherit;
+}
+
+/* HEADER */
+
+/* HEADER: Top-Menu (logo and nav-bar) */
+.top-menu {    
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin: auto 10px;
+} 
+
+.nav-bar ul {
+    display: flex;
+    flex-direction: row;
+}
+
+.nav-bar li {
+    font-size: 12px;
+    list-style: none;
+    margin: auto 10px;
+}
+
+.nav-bar a {
+    text-decoration: none;
+    color: black;
+}
+
+/* HEADER: Music-for-everyone */
+.music-for-everyone {
+    /*background-image: url('../images/landing.jpg'); (REVISAR)*/ 
+    background-color: #00B172;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    max-width: 100%;
+    height: 35rem;
+    size: cover;
+}
+
+/* SECTION 1: WHAT'S ON SPOTIFY */
+#whats-on-spotify {
+    text-align: center;
+}
+
+.whats-on-spotify {
+    display: flex;
+    justify-content: center;
+    padding: 20px;
+}
+
+.whats-on-spotify > div {
+    display: flex;
+    flex-direction: column;
+    text-align: center;
+}
+
+/* SECTION 2: BOTTOM GREEN SECTION */
+#green-section {
+    background-color: #00B172;
+}
