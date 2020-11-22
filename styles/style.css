@@ -1,3 +1,4 @@
+
 /*
 Colors:
 
@@ -6,3 +7,74 @@ Green: #00B172
 White: #FFF
 
 */
+@import url('https://fonts.googleapis.com/css?family=Poppins');
+
+html, body {
+  margin: 0;
+  padding: 0;
+}
+body {
+    font-family: 'Poppins';
+
+}
+header {
+/* position: fixed;
+ left: 10px;
+ right:10px;
+ top:0;
+  */
+ display: flex;
+ justify-content: space-between;
+ align-items: center;
+}
+
+
+header img{
+  width: 366px;
+  height: 102px;
+  padding-bottom: 10px;
+  padding-top:10px;
+}
+nav {
+ 
+ 
+  width: 400px;
+  position: fixed;
+ left: 75%;
+ /*right:80%;*/
+ 
+
+}
+nav ul {
+  list-style: none;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+nav a {
+  text-decoration: none;
+  color: black;
+}
+
+.main-header {
+    background-image: url('./../images/landing.jpg');
+  /*   background-position: 0 0;*/
+  /*background-repeat: no-repeat;*/
+  background-size: contain;
+  height: 600px;
+  color: #FFF;
+  text-align: center; 
+  display: flex;
+  flex-direction: column;
+  align-content: center;
+  padding-top: 55px;
+}
+.main-header h1 {
+  font-size: 5em;
+}
+
+.main-header p {
+  font-size: 1.8em;
+  margin: 0;
+}
+
