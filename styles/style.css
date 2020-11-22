@@ -12,6 +12,7 @@ White: #FFF
 body {
     margin: 0px;
     font-family: 'Open Sans', sans-serif;
+    color: #1A1A1A
 }
 
 nav {
@@ -19,10 +20,10 @@ nav {
     display: flex;
     flex-direction: row;
     justify-content: space-between;
-    background-color: white;
+    background-color: #FFF;
     padding: 10px 25px;
     align-items: center;
-
+    z-index: 100;
 }
 
 #main-logo {
@@ -47,7 +48,6 @@ nav li {
     padding: 10px;
 }
 
-
 #welcome {
     background: url('../images/landing.jpg');
     background-position: center;
@@ -55,7 +55,7 @@ nav li {
     background-repeat: no-repeat;
     text-align: center;
     height: auto;
-    color: white;
+    color: #FFF;
     padding: 20%;
 }
 
@@ -67,4 +67,120 @@ nav li {
 .sub-title {
     font-size: 1.5em;
     margin: 0;
+}
+
+#whats-on {
+    text-align: center;
+    font-weight: lighter;
+}
+
+.title2 {
+    font-size: 1.8em;
+    font-weight: bold;
+    margin: 20px 0 5px 0;
+}
+
+#underline {
+    border: 4px;
+    border-style: none none solid none;
+    border-color: #00B172;
+    width: auto;
+    height: auto;
+}
+
+#row-1 {
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    padding-top: 20px
+}
+
+#row-2 {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    font-size: 1.5em;
+}
+
+#row-2 > div {
+    width: 30%;
+    padding: 50px;
+}
+
+#row-2 img {
+    width: 50%;
+    height: 50%;
+}
+
+.bold-green {
+    color: #00B172;
+    font-size: 1.2em;
+}
+
+#bottom {
+    background-color: #00B172;
+    margin: 40px;
+    padding: 5%;
+    color: #FFF
+}
+
+#underline-white {
+    border: 4px;
+    border-style: none none solid none;
+    border-color: #FFF;
+    width: auto;
+    height: auto;
+    padding-bottom: 10px;
+}
+
+#row-3 {
+    display: flex;
+    flex-direction: row;
+    justify-content: left;
+}
+
+#row-4 {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    font-size: 1.2em;
+}
+
+#row-4 img {
+    width: 100%;
+}
+
+.div-35 {
+    width: 35%;
+}
+
+.div-35 > p {
+    padding-top: 20px
+}
+
+.div-15 {
+    width: 15%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.title3 {
+    font-size: 1.5em;
+    font-weight: bold;
+    margin: 20px 0 5px 0;
+}
+
+.container {
+  position: relative;
+}
+
+.centered-element {
+  height: 150px;
+  width: 150px;
+  position: absolute;
+  left: 50%;
+  margin-left: -50px;
+  top: 50%;
+  margin-top: -50px;
 }
