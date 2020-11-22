@@ -15,41 +15,58 @@ html, body {
 }
 body {
     font-family: 'Poppins';
+    color: #1A1A1A;
+   
 
 }
 header {
-/* position: fixed;
- left: 10px;
- right:10px;
- top:0;
-  */
+
  display: flex;
+ flex-direction: row;
  justify-content: space-between;
  align-items: center;
+ position: fixed;
+ left:0;
+ right: 0 ;
+  
 }
 
-
+h2 {
+   font-size: 3em;
+   font-weight: 500px;
+}
+h3 {
+  font-size: 1.5em; 
+  font-weight: 500px;
+}
+p {
+  font-size: 1.3em; 
+}
 header img{
   width: 366px;
   height: 102px;
   padding-bottom: 10px;
   padding-top:10px;
 }
+
 nav {
  
  
   width: 400px;
-  position: fixed;
+  
  left: 75%;
+ margin-right: 30px;
  /*right:80%;*/
  
 
 }
+ 
 nav ul {
   list-style: none;
   display: flex;
   justify-content: space-between;
   align-items: center;
+  font-size: 1.2em;
 }
 nav a {
   text-decoration: none;
@@ -68,6 +85,8 @@ nav a {
   flex-direction: column;
   align-content: center;
   padding-top: 55px;
+  position: relative;
+  top:125px;
 }
 .main-header h1 {
   font-size: 5em;
@@ -76,5 +95,136 @@ nav a {
 .main-header p {
   font-size: 1.8em;
   margin: 0;
+}
+
+.head-caracteristics {
+  display:flex;
+  flex-direction: column;
+  align-content:center;
+
+
+}
+
+.head-caracteristics h2 {
+
+  text-align: center;
+  
+    text-decoration: underline #00B172;
+    text-underline-position: under;
+    text-decoration-thickness: 5px;
+  
+}
+
+.caracterictics {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-around;
+}
+.container-catacteritics {
+  display:flex;
+  flex-direction:column;
+ /* justify-content: center;*/
+  align-items: center;
+  width: 250px;
+  /*align-content: center;*/
+
+}
+.container-catacteritics img {
+  width:180px;
+  height: 150px;
+}
+.container-catacteritics h3 {
+  width:180px;
+  height: 150px;
+  color:  #00B172;
+  font-weight: bold;
+  text-align: center;
+  height: 25px;
+  width:250px;
+}
+.container-catacteritics p {
+  width:180px;
+  height: 150px;
+  text-align: center;
+  font-weight: lighter;
+    font-size: 1.1em; 
+}
+.green-section {
+  background-color:#00B172;
+  display:flex;
+  justify-content: space-between;
+  align-items: flex-start;
+    margin:  0 50px 50px 50px;
+
+}
+.green-section img {
+   margin-top: 244px;
+   margin-bottom: 244px;
+   margin-right: 50px;
+}
+
+.green-left-container {
+  display:flex;
+  flex-direction: column;
+  justify-content: space-around;
+  margin:  0 50px 50px 50px;
+
+
+}
+
+
+.green-left-container h2 {
+
+   text-decoration: underline #FFF;
+    text-underline-position: under;
+    text-decoration-thickness: 5px;
+    color: #FFF;
+    font-size: 3.4em;
+
+}
+.green-left-container h3 {
+  width:180px;
+  height: 150px;
+  color: #FFF;
+  font-weight: bold;
+  /*text-align: center;*/
+  height: 25px;
+  width:250px;
+
+}
+.green-left-container p {
+   
+    color: #FFF;
+
+}
+#spotify-icon {
+  width:180px;
+  height: 180px;
+  position: absolute;
+  bottom: inherit;
+  top:inherit;  
+  left: 850px;
+  right: inherit;
+}
+.green-text-container {
+
+  width: 350px;
+  height: 860px ;
+  display: flex;
+  flex-direction: column;
+  justify-content: flex-start;
+  /*text-align: left;*/
+  /*margin: 0 0 0 0;*/
+
+}
+.green-text-container h3 {
+
+  font-size: 2.8em;
+
+}
+.green-text-container p {
+
+  font-size: 1.5em;
+
 }
 
