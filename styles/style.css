@@ -31,11 +31,14 @@ header {
     flex-direction: row;
     justify-content: space-between;
     align-items: center;
+    position: fixed;
 
+    background-color: white;
     color: black;
     font-size: 30px;
 
     padding: 0px 40px;
+    width: 96%;
 }
 
 header nav ul{
@@ -45,6 +48,11 @@ header nav ul{
 
 nav ul li{
     padding: 20px;
+}
+
+nav ul li:hover{
+    padding: 20px;
+    color: #00B172;
 }
 
 /*------------------section-1------------------*/
@@ -60,7 +68,7 @@ nav ul li{
 
     height: 1000px;
 
-    background-image: url("../images/landing.jpg");
+    
     background-position: center; 
     background-size: contain;
 
