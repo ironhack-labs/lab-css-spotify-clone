@@ -33,8 +33,9 @@ header {
     align-items: center;
 
     color: black;
+    font-size: 30px;
 
-    padding: 0px 20px;
+    padding: 0px 40px;
 }
 
 header nav ul{
@@ -67,37 +68,53 @@ nav ul li{
    
 }
 
+#section-1 h1{
+    font-size: 5em;
+    margin-bottom: 0;
+    padding-bottom: 20;
+}
+
+#section-1 p{
+    font-size: 2em;
+    
+    margin-top: 20;
+    padding-top: 0;
+    text-align: center;
+
+    width: 1100px;
+}
+
 /*------------------section-2------------------*/
 #section-2{
     display: flex;
     flex-direction: column;
-    justify-content:center; 
     align-items: center;
 }
 
 #section-2-container{
     display: flex;
-    flex-direction: row;   
-    justify-content: space-evenly; 
-    
+    flex-direction: row;
+    justify-content:space-between; 
 }
 
 .section-2-div{
     display: flex;
     flex-direction: column;
-    justify-content:center; 
-    align-items: center;
-    align-self: flex-end;
-    text-align: center;
+    align-self: flex-start;
+    align-items: center; 
 
     margin: 50px 50px;
     padding: 50px 50px;
 
     color: #00B172;
+   
 }
 
 #section-2 article{
     color: black;
+    font-size: 1.5em;
+
+    text-align: center;  
 }
 
 #section-2 h2{
@@ -105,6 +122,8 @@ nav ul li{
 
     padding-bottom: 5px;
     border-bottom: 5px solid #00B172;
+
+    
 }
 
 /*------------------section-3------------------*/
@@ -112,25 +131,44 @@ nav ul li{
     display: flex;
     flex-direction: row;
     justify-content:space-evenly; 
+    align-items: center;
     
 
     background-color:#00B172;
 
     margin: 50px 50px;
-
+    padding: 40px 0px;
 }
 
+/* #section-3-container{
+    display: flex;
+
+} */
+
+
+.section-3-div{
+    padding: 15px 0px;
+    text-align: left;
+    width: 400px;
+}
 #section-3 h2{
 
     padding-bottom: 5px;
     border-bottom: 5px solid white
 
 }
-
-.section-3-div{
-    width: 400px;
-    text-align: left;
-
-    padding: 20px 5px;
+#section-3 h3{
+    
+    font-size: 2em;  
 }
-   
+
+#section-3 article{
+
+    font-size: 1.1em;
+
+}
+
+#spotify-icon-white-img{
+    position: relative;
+    right: 100px;
+}
