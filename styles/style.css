@@ -6,3 +6,168 @@ Green: #00B172
 White: #FFF
 
 */
+@import url('https://fonts.googleapis.com/css2?family=Open+Sans:wght@400&display=swap');
+*{
+    font-family: 'Open Sans', sans-serif; 
+    margin: 0;
+    padding: 0;
+}
+.body{
+    text-decoration: none;
+    box-sizing: border-box;
+    font-family: 'Open Sans', sans-serif;
+}
+
+.nav{
+    height: 80px;
+    width: 100%;
+    margin-top: 10px;
+}
+
+.nav img{
+    height: 65px;
+    padding: 0 50px;
+}
+
+.nav ul{
+    float: right;
+    padding: 0 20px;
+    margin-right:20px;
+}
+
+.nav ul, li{
+    display: inline-block;
+    line-height: 80px;
+    margin: 0 33px;
+
+}
+
+.nav ul, li, a{
+    font-size: 22px;
+    color: black;
+    text-decoration: none;
+}
+
+/*PRIMER SECTION*/
+.first-section{
+    background-image: url("../images/landing.jpg");
+    height: 800px;
+    position: 0 0;
+    background-repeat: no-repeat;
+    background-size: cover;
+    padding:50px;
+    background-position: center;
+}
+
+.first-section h1{
+    color: #FFF;
+    text-align: center;
+    padding-top: 15% ;
+    font-size: 4em;
+}
+
+.first-section h3{
+   color: #FFF;
+   text-align: center;
+   padding-top: 4%; 
+   font-size: 1.5em;
+}
+
+/*SECOND SECTION*/
+
+.second-section{
+    display: flex;
+    justify-content: space-evenly;
+}
+.second-section .div-spotify{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.title-whats-up{
+    text-align: center;
+    padding: 2%;
+    margin: 0 auto;
+    color: black;
+    font-size: 2em;
+}
+
+.line-spot{
+    width: 15%;
+    margin: auto;
+    border: 2px solid  #00B172;
+}
+
+.div-spotify{
+  width: 1200px;
+  margin: 0 auto;
+  padding: 75px;
+}
+
+.div-spotify img{
+    height: 100px;
+}
+
+.div-spotify h3{
+    color: #00B172;
+    font-size: 2.0em;
+    line-height: 1em;
+    padding: 4%;
+}
+
+.div-spotify p{
+    font-size: 1.3em;
+    text-align: center;
+}
+
+/*THIRD SECTION*/
+
+.thrid-section{
+    background-color: #00B172;
+    height: 750px;
+    padding-left: 10%;
+    padding-bottom:4%;
+    color: #FFF;
+    margin: 70px;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-evenly;
+    align-items: flex-start;
+    flex-wrap: wrap;
+    
+}
+.logo-white{
+   height: 130px;
+   position: relative;
+   left: 40%;
+   top: 45%;
+}
+.thrid-section h1{
+    font-size: 2.2em;
+    padding-bottom: 5px;
+
+}
+
+.thrid-section h2{
+    font-size: 2.0em;
+    letter-spacing: 2px;
+    padding-top: 50px ;
+}
+
+.thrid-section p{
+    font-size: 1.3em;
+}
+
+.thrid-section hr{
+    width: 30%;
+    border: 2px solid #FFF;
+    margin-bottom:20px;
+}
+
+.app{
+    height: 650px;
+    padding-left:10%;
+    padding-top: 8% ;
+    
+}
