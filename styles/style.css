@@ -8,13 +8,13 @@ body {
 body {
   font-family: 'Gothic A1', Helvetica, Arial, sans-serif;
   font-weight: 300;
-  font-size: 20px;
+  font-size: 18px;
+  color: #1A1A1A;
   
 }
 
 nav {
     background-color: white;
-    height: 4%;
     display: flex;
     justify-content: space-between;
     align-items: center;
@@ -29,20 +29,20 @@ nav img {
 .nav-buttons {
     list-style: none;
     display: flex;
-    justify-content: space-around;
+    justify-content: space-between;
     margin: auto 2%;
     width: 25%;
     padding: 0;
 }
 
-.nav-buttons li{
+.nav-buttons > li{
     padding: 4%;
     font-size: 100%;
 }
 
 header {
     margin: 0;
-    height: 40%;
+    height: 800px;
     color:white;
     display: flex;
     flex-direction: column;
@@ -62,18 +62,18 @@ header p {
     margin: 0;
     display: flex;
     justify-content: center;
+    align-items: center;
     text-align: center;
 }
 
 h1 {
     font-size: 500%;
-    padding-top: 20%
+    
 }
 
 header p {
-    font-size: 100%;
+    font-size: 170%;
     margin-top: 2%;
-    margin-bottom: 20%;
 }
 
 
@@ -91,9 +91,9 @@ header p {
 
 #first-section > div {
     display: flex;
-    justify-content: space-between;
-    margin: 0 5%;
+    justify-content: space-around;
     align-items: center;
+    
 }
 
 .container > article {
@@ -102,20 +102,23 @@ header p {
     justify-content: space-between;
     align-items: center;
     text-align: center;
+    width: 20%;
 }
 
 .icon-img img {
-    width: 30%;
-    margin: 10% auto auto auto;
+    width: 45%;
+    margin: 10% auto;
 }
 
 .title-green h3 {
     color: #00B172;
     margin: 5% 0;
+    font-weight: 800;
 }
 
 .explanation-text p {
     margin: auto auto 20% auto;
+    font-size: 110%;
 }
 
 #second-section {
@@ -151,13 +154,13 @@ header p {
     justify-content: center;
     align-items: center;
     width: 50%;
-    margin: auto auto auto 10%;
+    margin: auto 10%;
 
 }
 
 .image-app img {
     width: 50%;
-
+    margin: auto 10% auto 30%;
 }
 
 .back-logo {
