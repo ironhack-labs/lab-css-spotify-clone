@@ -6,28 +6,53 @@ Green: #00B172
 White: #FFF
 
 */
-body{
-    font-family: 'poppins';
-    height: 500px;
-}
 
 
-.spoty-logo{
-    width: 50px;
-    padding-left: 30px;
+body {
+    margin: 0;
+    padding: 0;
+    font-family: Arial, Helvetica, sans-serif;
+    color: #1A1A1A;
 }
-.nav-bar{
-   width: 300px;
- 
+.logo img{
+    
+    height: 40px;
+   
 }
-nav ul{
-    float:right
-    list-style: none;
+.logo{
+   padding: 15px 35px;
+
+}
+header{
+    width: 100%;
+    background-color: white;
     display: flex;
+    flex-direction: row;
     justify-content: space-between;
-    align-items: center;
+    text-align: center;
+    position: fixed;
 }
-.spoty-logo{
-    height: 300px;
-    width: 400px;
+.nav{
+    display: flex;
+    flex-direction: row;
+   
+}
+.nav >a{
+    padding-right: 30px;
+    padding-top: 30px;
+    text-decoration: none;
+}
+
+.photo{
+    background-size: cover;
+    background-position: bottom;
+    text-align: center;
+    color: white;
+    padding: 200px 
+}
+.photo >h1{
+    font-size: 70px;
+}
+.photo>p{
+    font-size: 25px;
 }
