@@ -1,8 +1,175 @@
+@import url('https://fonts.googleapis.com/css2?family=Gothic+A1:wght@200;300;400;500;600;700&display=swap');
+
+html,
+body {
+  margin: 0;
+}
+
+body {
+  font-family: 'Gothic A1', Helvetica, Arial, sans-serif;
+  font-weight: 300;
+  font-size: 20px;
+  
+}
+
+nav {
+    background-color: white;
+    height: 4%;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin: 0;
+}
+
+nav img {
+    width: 10%;
+    margin: 1%;
+}
+
+.nav-buttons {
+    list-style: none;
+    display: flex;
+    justify-content: space-around;
+    margin: auto 2%;
+    width: 25%;
+    padding: 0;
+}
+
+.nav-buttons li{
+    padding: 4%;
+    font-size: 100%;
+}
+
+header {
+    margin: 0;
+    height: 40%;
+    color:white;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+}
+
+
+.imageheader {
+    background-image: url("../images/landing.jpg");
+    background-position: 0 0;
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+header h1,
+header p {
+    margin: 0;
+    display: flex;
+    justify-content: center;
+    text-align: center;
+}
+
+h1 {
+    font-size: 500%;
+    padding-top: 20%
+}
+
+header p {
+    font-size: 100%;
+    margin-top: 2%;
+    margin-bottom: 20%;
+}
+
+
+#first-section > h2 {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-weight: 700;
+    padding: 1px;
+    width: auto;
+    border: solid #00B172;
+    border-width: 0 0 5px 0;
+    margin: 5% 40% auto 40%;
+}
+
+#first-section > div {
+    display: flex;
+    justify-content: space-between;
+    margin: 0 5%;
+    align-items: center;
+}
+
+.container > article {
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    align-items: center;
+    text-align: center;
+}
+
+.icon-img img {
+    width: 30%;
+    margin: 10% auto auto auto;
+}
+
+.title-green h3 {
+    color: #00B172;
+    margin: 5% 0;
+}
+
+.explanation-text p {
+    margin: auto auto 20% auto;
+}
+
+#second-section {
+    background-color: #00B172;
+    margin: 2%;
+    color: #FFF;
+    display: flex;
+    justify-content: space-around;
+}
+
+#second-section h2 {
+    padding: 1px;
+    width: auto;
+    border: solid #FFF;
+    border-width: 0 0 5px 0;
+    font-weight: 700;
+}
+
+#second-section p {
+    width: 60%;
+}
+
+.container-2 {
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+    width: 50%;
+    margin: auto auto auto 5%;
+}
+
+.image-app {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 50%;
+    margin: auto auto auto 10%;
+
+}
+
+.image-app img {
+    width: 50%;
+
+}
+
+.back-logo {
+    position: absolute;
+    width: 6%;
+    margin: 250px auto;
+}
 /*
 Colors:
-
 Text: 1A1A1A
 Green: #00B172
 White: #FFF
-
 */
+
+
