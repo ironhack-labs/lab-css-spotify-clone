@@ -19,11 +19,12 @@
   padding: 1em;
   position: fixed;
   width: 100%;
-  height: 100px;
+  height: 90px;
   display: flex;
   justify-content: space-between;
   align-items: center;
   background-color: white;
+  z-index: 1;
 }
 
 .header__navbar {
@@ -44,7 +45,7 @@
 
 .spacer {
   width: 100%;
-  height: 100px;
+  height: 90px;
 }
 .music-for-everyone {
   width: 100%;
@@ -119,6 +120,7 @@ h1 {
 }
 
 .the-green-section {
+  position: relative;
   background-color: #1DB954;
   color: white;
   margin: 2em;
@@ -136,13 +138,39 @@ h1 {
   flex-direction: column;
   justify-content: space-evenly;
 }
-.the-green-section img {
+.spotify-app {
   display: block;
   max-width: 250px;
   width: auto;
   height: auto;
 }
 
-.the-green-section * {
-  max-width: 300px;
+.the-green-section div {
+  max-width: 350px;
+}
+
+.the-green-section > div > h2 {
+  font-size: 1.60em;
+  padding-bottom: 0.25em;
+  white-space: nowrap;
+  border-bottom: 3px solid white;
+}
+
+.the-green-section > div > :not(:first-child){
+  max-width: 250px;
+}
+
+.the-green-section h3 {
+  font-size: 1.2em;
+  font-weight: bold;
+}
+
+.spotify-icon-white {
+  position: absolute;
+  top: 45%;
+  left: 45%;
+  display: block;
+  max-width: 100px;
+  width: auto;
+  height: auto;
 }
