@@ -9,6 +9,7 @@ body{
 }
 
 /*HEADER*/
+
 header{
     display:flex;
     flex-direction: row;
@@ -51,6 +52,7 @@ nav ul li{
 #sec1 h1{
     font-size: 4em;
     font-weight: 500;
+    margin-bottom: 0px;
 }
 
 
@@ -61,6 +63,7 @@ nav ul li{
 }
 
 /*SECTION 2*/
+
 #sec2{
     height: 400px;
     display:flex;
@@ -93,7 +96,7 @@ nav ul li{
     text-align: center;
     padding: 30px;
     margin:0 30px;
-    align-self: flex-end; 
+    align-self: baseline; 
 }
 
 .description-box h4{
@@ -105,11 +108,13 @@ nav ul li{
     font-weight:200;
 }
 
+/* SECTION 3 */
+
 #sec3{
     margin: 20px;
     background-color:#00B172;
     color:#FFF;
-    padding:40px 50px;
+    padding:40px 10%;
     display: flex;
     flex-direction: row;
     justify-content: space-between;
@@ -117,24 +122,30 @@ nav ul li{
 }
 
 #text-box-container{
-    width: 30%;
+    width: 45%;
     
 }
 
-#text-box-container h3{
+#heading-sec3 h3{
     text-decoration: underline;
     text-underline-position: under;
     text-decoration-thickness: 3px;
-    
-    
+    font-size: 1.3em;
+    font-weight: 400;  
 }
-/*
-Colors:
 
-Text: 1A1A1A
-Green: #00B172
-White: #FFF
+#text-box{
+    width: 80%;
+}
 
-*/
+#text-box p{
+    font-size: 0.9em;
+    font-weight: 200;
+}
+
+#white-icon-div{
+    padding: 0 10%;
+}
+
 
 
