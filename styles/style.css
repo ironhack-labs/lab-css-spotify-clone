@@ -6,3 +6,68 @@ Green: #00B172
 White: #FFF
 
 */
+@import url("https://fonts.googleapis.com/css2?family=Montserrat:wght@100;300;400;500;600;700&display=swap");
+
+h1,
+body,
+html,
+main {
+  margin: 0;
+}
+
+body {
+  font-family: "Montserrat", sans-serif;
+}
+
+h1 {
+  font-size: 56px;
+}
+
+h2 {
+  font-size: 24px;
+  font-weight: 300;
+  text-align: center;
+}
+nav {
+  position: fixed;
+  width: 100vw;
+  height: 80px;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  background-color: #fff;
+}
+
+nav img {
+  height: 40px;
+  margin-left: 20px;
+}
+
+ul {
+  display: flex;
+  list-style-type: none;
+  margin-right: 20px;
+}
+
+nav a {
+  color: #1a1a1a;
+  font-weight: 500;
+  text-decoration: none;
+  margin: 20px;
+}
+
+nav a:hover {
+  color: #808080;
+}
+
+#principal {
+  height: 100vh;
+  background-image: url(../images/landing.jpg);
+  background-size: cover;
+  background-position: center bottom;
+  color: #fff;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
