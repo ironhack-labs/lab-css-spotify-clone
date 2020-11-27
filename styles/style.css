@@ -20,18 +20,19 @@ body {
 }
 
 h1 {
-  font-size: 56px;
+  font-size: 4.5em;
 }
 
 h2 {
-  font-size: 24px;
+  font-size: 2em;
   font-weight: 300;
   text-align: center;
 }
+
 nav {
   position: fixed;
   width: 100vw;
-  height: 80px;
+  height: 120px;
   display: flex;
   justify-content: space-between;
   align-items: center;
@@ -39,7 +40,7 @@ nav {
 }
 
 nav img {
-  height: 40px;
+  height: 60px;
   margin-left: 20px;
 }
 
@@ -70,4 +71,51 @@ nav a:hover {
   flex-direction: column;
   justify-content: center;
   align-items: center;
+}
+
+#description h2 {
+  margin: 0;
+  columns: #1a1a1a;
+  font-size: 2em;
+  font-weight: 600;
+}
+
+#description-icons {
+  display: flex;
+  justify-content: center;
+  padding: 50px;
+  margin: 0 auto;
+  width: 90%;
+}
+
+#description-icons img {
+  height: 100px;
+}
+
+#description-icons div {
+  padding: 20px;
+  text-align: center;
+  width: 15%;
+
+  margin: 40px;
+}
+
+#description-icons h3 {
+  color: #00b172;
+}
+
+#description-title {
+  display: inline-block;
+}
+
+#description {
+  padding: 50px;
+  text-align: center;
+}
+
+hr {
+  margin-top: 10px;
+  color: #00b172;
+  border: 2px solid #00b172;
+  border-radius: 5px;
 }
