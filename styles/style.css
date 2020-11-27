@@ -4,15 +4,18 @@ Colors:
 Text: 1A1A1A
 Green: #00B172
 White: #FFF
-
 */
+
 @import url('https://fonts.googleapis.com/css2?family=Roboto:ital,wght@0,400;1,100&display=swap');
 
+/* ==== General ==== */
 html, body{
     padding: 0;
     margin: 0;
     font-family: 'Roboto', sans-serif;
 }
+
+/* ==== Header - NavBar ==== */
 .nav-bar{
     background-color: white;
     padding: 10px 0 0 45px;
@@ -21,6 +24,10 @@ html, body{
     display: flex;
     align-items: center;
     justify-content: space-between;
+}
+
+.spoty-logo{
+    width: 220px;
 }
 
 ul{
@@ -38,10 +45,7 @@ a {
     color: black;
 }
 
-.spoty-logo{
-    width: 220px;
-}
-
+/* ==== Section1 - Main Image ==== */
 .main-image{
     background-image: url(../images/landing.jpg);
     background-position: bottom;
@@ -51,16 +55,19 @@ a {
     color: white;
     padding: 400px 50px;
 }
-h1{
-    font-size: 80px;
-    margin: 0 auto 100px auto;
-}
+
 .main-image > h2{
     width: 750px;
     margin:0 auto;
     margin-bottom: 100px;
 }
 
+h1{
+    font-size: 80px;
+    margin: 0 auto 100px auto;
+}
+
+/* ==== Section2 - "What's on..." ==== */
 .buttons > h2{
     width: 340px;
     margin: 40px auto 0;
@@ -83,6 +90,11 @@ h1{
     font-size: 35px;
 }
 
+.icon{
+    width: 400px;
+    margin: 0 auto;
+}
+
 .icon > img{
     width: 170px;
     height:  170px;
@@ -93,6 +105,7 @@ h1{
     color: #00B172 ;
 }
 
+/* ==== Section3 - Green Back ==== */
 .green-back{
     background-color: #00B172 ;
     color:white;
@@ -108,10 +121,14 @@ h1{
     padding-bottom: 10px;
 }
 
+.sbd > h3, p{
+    margin: 52px 0 30px 0;
+}
+
 .opt{
     display: flex;
     justify-content: space-between;
-    margin:  40px 80px;
+    margin:  0px 80px 40px 80px;
 }
 
 .white-logo-div{
@@ -119,9 +136,10 @@ h1{
 }
 
 .white-logo{
-    height: 135px;
+    height: 250px;
     padding: auto 0px;
 }
+
 .app{
-    height: 640px;
+    height: 740px;
 }
