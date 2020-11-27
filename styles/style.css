@@ -1,3 +1,4 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins&display=swap');
 /*
 Colors:
 
@@ -6,3 +7,169 @@ Green: #00B172
 White: #FFF
 
 */
+
+
+h2,
+h3,
+h4,
+p {
+    font-family: 'Poppins', sans-serif;
+    letter-spacing: 1px;
+}
+
+h1,
+h2,
+h3 {
+    font-weight: 900;
+}
+
+body {
+    background-color: rgb(233, 223, 223);
+    margin: 0px 0px 30px 0px;
+}
+
+
+header {
+    display: flex;
+    flex-direction: column;
+
+}
+
+.headerNav {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin: 10px 30px;
+}
+
+.headerNav>nav>ul {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    list-style: none;
+}
+
+.headerNav>nav>ul>li {
+    padding-left: 30px;
+}
+
+.headerNav a {
+    text-decoration: none;
+    color: #1A1A1A;
+    font-size: 17px;
+}
+
+
+.headerNav div>img {
+    width: 150px;
+}
+
+.header {
+    background-image: url("../images/landing.jpg");
+    background-size: cover;
+    background-position: center;
+    height: 650px;
+    color: #fff;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+
+}
+
+.header h1 {
+    font-family: 'Poppins', sans-serif;
+    font-size: 3em;
+    text-align: center;
+    margin: 0;
+    letter-spacing: 4px;
+}
+
+.header>div>p {
+    font-size: large;
+    text-align: center;
+    width: 550px;
+    margin-bottom: 100px;
+}
+
+#sectionOne {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+}
+
+#sectionOne>div>h2>hr {
+    border: 2px solid #00B172;
+}
+
+#sectionOne h2 {
+    text-align: center;
+    margin-top: 50px;
+}
+
+#sectionOne>div {
+    display: flex;
+    justify-content: space-around;
+    align-items: baseline;
+    margin-bottom: 50px;
+}
+
+#sectionOne>div>article {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    width: 230px;
+}
+
+#sectionOne>div>article>img {
+    height: 80px;
+}
+
+#sectionOne>div>article>h3 {
+    text-align: center;
+    color: #00B172;
+}
+
+#sectionOne>div>article>p {
+    text-align: center;
+}
+
+#sectionTwo {
+    background-color: #00B172;
+    background-image: url("../images/spotify-icon-white.png");
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: 100px;
+    margin: 0px 20px;
+    height: 500px;
+    padding: 30px 70px 30px 70px;
+}
+
+#sectionTwo>div>div>div>h2>hr {
+    border: 1px solid #FFF;
+}
+
+#sectionTwo>div>div>div {
+    padding-bottom: 8px;
+}
+
+#sectionTwo>div {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    color: #FFF;
+}
+
+#sectionTwo>div>div>article {
+    width: 300px;
+}
+
+#sectionTwo>div>div>article>p {
+    font-size: 15px;
+}
+
+#sectionTwo>div>img {
+    height: 420px;
+    width: 240px;
+}
