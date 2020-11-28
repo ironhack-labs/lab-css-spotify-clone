@@ -6,3 +6,165 @@ Green: #00B172
 White: #FFF
 
 */
+
+@import url('https://fonts.googleapis.com/css?family=Poppins');
+
+html, body {
+    margin: 0;
+    padding: 0;
+    font-family: sans-serif;
+  }
+
+header img {
+    width: 350px;
+    height: 100px;
+    padding-bottom: 10px;
+    padding-top:10px;
+  }
+
+header {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+nav {
+    width: 400px;
+    position: fixed;
+    left: 70%;
+  }
+  
+nav ul {
+    list-style: none;
+    font-size: 20px;
+    display: flex;
+    padding: 15px;
+    justify-content: space-around;
+    align-items: center;
+  }
+  
+nav a {
+    text-decoration: none;
+    color: black;
+  }
+
+.main-header {
+    background-image: url('./../images/landing.jpg');
+    height: 900px;
+    color: #FFF;
+    text-align: center;
+    background-size: cover;
+    background-position: center;
+    padding: 10px;
+  }
+
+  .main-header h1 {
+    padding-top: 200px;
+    font-size: 100px;
+  }
+  
+  .main-header p {
+    font-size: 40px;
+    margin: auto;
+  }
+
+
+.on-spotify {
+    text-align: center;
+    padding: 70px 20px;
+  }
+  
+  .on-spotify h3 {
+    display: inline;
+    text-align: center;
+    font-size: 70px;
+    padding-bottom: 5px;
+    border-bottom: 10px solid #00B172;
+  }
+
+  .on-spotify h4 {
+    color : #00B172; 
+    font-size: 50px;
+    padding-bottom: 5px;
+  }
+
+  .on-spotify p {
+    color: gray;
+    font-size: 30px;
+  }
+
+
+.three-icons {
+    display: flex;
+    justify-content: space-between;
+    text-align: center;
+    padding: 50px 400px;
+    margin: 70px 0 50px 0;
+  }
+
+  .icon > img {
+    width: 200px;
+    height: 160px;
+  }
+
+.green-kanye {
+  background-color: #00B172;
+  display:flex;
+  justify-content: space-between;
+  align-items: flex-start;
+  margin: 10px 150px 20px;
+}
+
+.yeezy {
+  display:flex;
+  flex-direction: column;
+  justify-content: space-around;
+  margin: 5px 150px;
+}
+
+.yeezy h3 {
+  text-decoration: underline #FFF;
+  text-underline-position: under;
+  text-decoration-thickness: 10px;
+  color: #FFF;
+  font-size: 80px;
+}
+
+.three-options {
+  width: 350px;
+  height: 300px ;
+  display: flex;
+  text-align: left;
+  position: sticky ;
+  flex-direction: column;
+  justify-content: flex-start;
+  color: #FFF;
+}
+
+.three-options h4 {
+font-size: 50px;
+height: 20px;
+}
+
+.three-options p {
+  font-size: 23px;
+}
+
+.spotify-icon img {
+  height: 205px;
+  width: 205px;
+  position: relative;
+  right: 250px;
+  float: right;
+  padding: auto 30px;
+}
+
+
+.user-interface img {
+  position: relative;
+  right: 200px;
+  top: 150px;
+  height: 1100px;
+  margin: auto; 
+}
+
