@@ -7,7 +7,9 @@ White: #FFF
 
 */
 @import url("https://fonts.googleapis.com/css2?family=Montserrat:wght@100;300;400;500;600;700&display=swap");
-
+* {
+  box-sizing: border-box;
+}
 h1,
 body,
 html,
@@ -17,14 +19,15 @@ main {
 
 body {
   font-family: "Montserrat", sans-serif;
+  color: #1a1a1a;
 }
 
 h1 {
-  font-size: 4.5em;
+  font-size: 4.5rem;
 }
 
 h2 {
-  font-size: 2em;
+  font-size: 2rem;
   font-weight: 300;
   text-align: center;
 }
@@ -37,6 +40,7 @@ nav {
   justify-content: space-between;
   align-items: center;
   background-color: #fff;
+  z-index: 2;
 }
 
 nav img {
@@ -73,10 +77,10 @@ nav a:hover {
   align-items: center;
 }
 
-#description h2 {
+#description h2,
+#features h2 {
   margin: 0;
-  columns: #1a1a1a;
-  font-size: 2em;
+  font-size: 2.8rem;
   font-weight: 600;
 }
 
@@ -85,7 +89,7 @@ nav a:hover {
   justify-content: center;
   padding: 50px;
   margin: 0 auto;
-  width: 90%;
+  width: 100%;
 }
 
 #description-icons img {
@@ -95,8 +99,8 @@ nav a:hover {
 #description-icons div {
   padding: 20px;
   text-align: center;
-  width: 15%;
-
+  width: 30%;
+  font-size: 1.8rem;
   margin: 40px;
 }
 
@@ -104,7 +108,8 @@ nav a:hover {
   color: #00b172;
 }
 
-#description-title {
+#description-title,
+#features-title {
   display: inline-block;
 }
 
@@ -113,9 +118,57 @@ nav a:hover {
   text-align: center;
 }
 
-hr {
+#description hr {
   margin-top: 10px;
-  color: #00b172;
   border: 2px solid #00b172;
   border-radius: 5px;
+}
+
+#features {
+  position: relative;
+  color: #fff;
+  display: flex;
+  justify-content: space-between;
+  background: #00b172;
+  padding: 100px;
+  font-size: 1.5rem;
+  line-height: 1.5;
+  width: calc(100% - 100px);
+  margin: 0 auto 50px;
+}
+
+#image img {
+  height: 600px;
+}
+
+#features h2 {
+  margin: 0;
+  font-size: 2.8rem;
+  font-weight: 600;
+}
+
+#features hr {
+  margin-top: 10px;
+  color: #fff;
+  border: 2px solid #fff;
+  border-radius: 5px;
+}
+
+#text,
+#image {
+  width: 45%;
+}
+
+#image {
+  display: flex;
+  justify-content: flex-end;
+  align-items: center;
+}
+
+#icon {
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  height: 150px;
 }
