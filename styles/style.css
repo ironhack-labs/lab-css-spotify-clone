@@ -6,3 +6,113 @@ Green: #00B172
 White: #FFF
 
 */
+*{
+    box-sizing:border-box;
+}
+.header{
+    display:flex;
+}
+.logo img{
+    width:20%;
+    background-color:grey;
+}
+/*.nav-bar>ul{*/
+    ul>li{
+    list-style:none;
+    background-color: white;
+        margin-right: 10px;
+        display: flex;
+        justify-content: space-between;
+        margin-right: 20px;
+}
+h3{
+    text-decoration: underline green;
+    text-align: center;
+    
+}
+.nav-bar{
+    display:flex;
+    background-color:grey;
+    text-decoration: none;
+}
+.background{
+    width:100%;
+    height: 500px;
+    margin: 0 auto;
+    text-align: center;
+    background-image: url("../images/landing.jpg");
+    background-position:center;
+    background-size:cover;
+    display:flex; 
+/* Sirve para centrar el punto de mira de la imagen y asi no queda recortada*/
+ justify-content: center;
+align-items: center; 
+}
+.background-text h1{
+    color: white;   
+    font-size:200%;
+}
+.background-text{
+    color:white;
+    font-size: 160%;
+    background-color: red;
+}
+.speaker_icon{
+    background:purple;
+     margin:auto 10px;  
+   
+}
+.waves_icon{
+    background-color:yellow;
+    margin:auto 10px;
+    
+}
+.devices_icon{
+    background-color:purple;
+    margin:auto 10px;
+}
+.icons img{
+    width:20%;
+    margin: auto 40%;
+    background-color:red;
+    margin-top:10px;
+     }
+.icons p{
+    background-color:wheat;
+    margin: 20px;
+    text-align: center; 
+    
+}
+h4{
+    text-align:center;
+    color:blue;
+    size:40%;
+}
+.icons{
+    background:grey;
+   display:flex;
+    align-items: center; 
+}
+.left-logo{
+    background-color: pink;
+}
+.right-logo img{
+    width: 90%;
+    
+}
+.right-logo{
+    background-color: grey;
+    margin-top:50px;
+    
+}
+.logo2 img{
+    background-color:aqua;
+    margin:60%;
+}
+
+.final{
+    background-color: red;
+    display:flex;
+    justify-content: space-evenly;
+
+}
