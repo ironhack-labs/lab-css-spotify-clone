@@ -6,3 +6,119 @@ Green: #00B172
 White: #FFF
 
 */
+* {
+  font-family: "Open Sans", sans-serif;
+}
+
+html,
+body {
+  margin: 0;
+  padding: 0;
+}
+
+.h1-header {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+  height: 650px;
+  background-image: url("../images/landing.jpg");
+  background-position: 0 0;
+  background-repeat: no-repeart;
+  background-size: cover;
+  color: white;
+  margin: 0 auto;
+  text-align: left;
+}
+
+.h1-header h1 {
+  font-size: 3.2em;
+  text-align: center;
+}
+
+.logo-nav {
+  height: 40px;
+}
+
+.nav1 {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  margin: 10px 30px;
+}
+
+.nav1 > ul > li {
+  list-style-type: none;
+  margin-left: 20px;
+}
+
+.nav1 ul {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-evenly;
+}
+
+.whatsOn {
+  text-align: center;
+}
+
+.middleInfo {
+  display: flex;
+  justify-content: space-evenly;
+  flex-direction: column;
+}
+
+.middleInfo article {
+  display: flex;
+  flex-direction: column;
+  justify-content: space-evenly;
+  align-items: center;
+  flex-wrap: wrap;
+  width: 370px;
+  margin: 0 auto;
+  text-align: center;
+}
+
+.middleInfo h3 {
+  color: #00b172;
+  font-weight: bold;
+}
+
+.middleInfo article > img {
+  width: 20%;
+}
+
+.green {
+  background-color: #00b172;
+  color: #fff;
+  padding: 40px 70px;
+  margin: 0 30px;
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  align-items: center;
+  background-image: url("../images/spotify-icon-white.png");
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+  position: relative;
+  background-size: 100px;
+}
+
+.divGreen {
+  width: 45%;
+}
+
+.articleGreen {
+  width: 75%;
+}
+
+.divArticles {
+  display: flex;
+  flex-direction: row;
+  padding: 50px;
+}
+
+.kanye {
+  height: 400px;
+}
