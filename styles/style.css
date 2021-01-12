@@ -72,7 +72,8 @@ main {
 .features {
     display: flex;
     flex-direction: column;
-    padding: 30px 50px;
+    align-items: center;
+    padding: 30px 50px 70px;
 }
 
 .features>h2 {
@@ -85,7 +86,8 @@ main {
 
 .cards-container {
     display: flex;
-    justify-content: center;
+    justify-content: space-around;
+    width: 80%;
 }
 
 .card {
@@ -93,15 +95,23 @@ main {
     flex-direction: column;
     justify-content: center;
     align-items: center;
+    width: 25vw;
+}
+
+.card>h3 {
+    color: #00B172;
+    font-size: 1.4rem;
 }
 
 .card>img {
-    width: 75px;
+    width: 100px;
 }
 
 .card>p {
     text-align: center;
-    width: 55%;
+    width: 50%;
+    color: #1A1A1A;
+    font-size: 1.1rem;
 }
 
 .app {
