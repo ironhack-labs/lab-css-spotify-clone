@@ -6,3 +6,153 @@ Green: #00B172
 White: #FFF
 
 */
+
+* {
+    margin: 0;
+    padding: 0;
+}
+
+body {
+    font-family: sans-serif;
+}
+
+img {
+    width: 100%;
+}
+
+nav {
+    display: flex;
+    justify-content: space-between;
+    padding: 20px;
+    align-items: center;
+}
+
+nav img {
+    width: 150px;
+}
+
+nav ul {
+    display: flex;
+    list-style: none;
+}
+
+nav ul li {
+    margin: 0 20px;
+}
+
+nav a {
+    text-decoration: none;
+    color: black
+}
+
+.hero {
+    width: 100%;
+    background-image: url(../images/landing.jpg);
+    background-size: cover;
+    padding: 200px 0 300px;
+}
+
+h1, .hero p {
+    color: white;
+    text-align: center;
+    padding: 20px;
+    font-weight: 100;
+}
+
+h1 {
+    font-size: 4em;
+}
+
+.hero p {
+    font-size: 1.2em;
+    width: 50%;
+    margin: 0 auto;
+}
+
+.about h2 {
+    width: 23%;
+    padding: 50px 0 5px 0;
+    margin: 0 auto;
+    border-bottom: rgb(10, 207, 142) solid 3px;
+}
+
+.container {
+    display: flex;
+    justify-content: space-evenly;
+    padding: 50px 0;
+    align-items: center;
+}
+
+.container img {
+    width: 30%;
+    display: flex;
+    justify-content: center;
+    margin: 0 auto;
+}
+
+.comtainer div {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+.container h3 {
+    color: rgb(10, 207, 142);
+    margin: 20px 0;
+    text-align: center;
+}
+
+.container p {
+    padding: 0 60px;
+    text-align: center;
+}
+
+footer {
+    background-color: rgb(10, 207, 142);
+    color: white;
+    display: flex;
+    padding-bottom: 50px;
+}
+
+.text img {
+    width: 100px;
+} 
+
+.playlist img {
+    width: 300px;
+    margin: 40px 50px 0 0;
+}
+
+.text h2 {
+    font-size: 2em;
+    padding: 50px 0 0 50px;
+}
+
+.text hr {
+    width: 70%;
+    height: 3px;
+    background-color: rgb(255, 255, 255);
+    margin: 0 0 0 50px;
+}
+
+.text h3 {
+    padding: 50px;
+}
+
+.text p {
+    padding-left: 50px;
+}
+
+.supertext {
+    width: 50%;
+}
+
+.structure {
+    display: flex;
+    align-items: center;
+}
+
+.icon {
+    margin-left: 100px;
+}
