@@ -1,3 +1,5 @@
+@import url('https://fonts.googleapis.com/css2?family=Open+Sans:wght@300&display=swap');
+
 /*
 Colors:
 
@@ -6,3 +8,78 @@ Green: #00B172
 White: #FFF
 
 */
+
+* {
+    margin: 0;
+    padding: 0;
+}
+
+img {
+    width: 100%;
+}
+
+body {
+    font-family: 'Open Sans', sans-serif;
+}
+
+.bar {
+    display: flex;
+}
+
+.logo {
+    overflow: hidden;
+    position: fixed;
+    width: 100%;
+    height: 100px;
+    top: 0;
+    background-color: white;
+}
+
+.logo-spotify {
+    /* float: left; */
+    width: 150px;
+    display: flex;
+    margin-top: 20px;
+    margin-left: 20px;
+    display: flex;
+    justify-content: flex-start;
+}
+
+.menu {
+    text-align: center;
+    display: flex;
+}
+
+.navbar {
+    background-color: white;
+    position: fixed;
+    width: 25%;
+    margin-left: 70%;
+    height: 100px;
+    overflow: hidden;
+}
+
+.navbar-ul {
+    display: flex;
+    justify-content: flex-end;
+    padding: 25px;
+    text-align: center;
+    list-style: none;
+}
+
+.navbar-ul li {
+    margin: 10px;
+    font-weight: 800;
+}
+
+.navbar-ul li a {
+    text-decoration: none;
+    color: black;
+}
+
+.landing-img {
+    display: flex;
+    background-repeat: no-repeat;
+    background-image: fixed;
+    width: 100%;
+}
