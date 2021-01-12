@@ -14,9 +14,12 @@ body {
 }
 
 .navbar {
+    position: fixed;
     display: flex;
     justify-content: space-between;
     align-items: center;
+    background: white;
+    width: 100%;
 }
 
 .navbar>img {
@@ -34,7 +37,7 @@ body {
 }
 
 .navbar>ul>li {
-    color: #1A1A1A;
+    color: #1a1a1a;
 }
 
 .hero-img {
@@ -60,4 +63,43 @@ body {
     text-align: center;
     font-size: 2.1rem;
     font-weight: lighter;
+}
+
+main {
+    padding: 20px 50px 30px;
+}
+
+.features {
+    display: flex;
+    flex-direction: column;
+    padding: 30px 50px;
+}
+
+.features>h2 {
+    display: inline-block;
+    margin: 20px auto 50px;
+    text-align: center;
+    border-bottom: 2px solid #00B172;
+    font-size: 2rem;
+}
+
+.cards-container {
+    display: flex;
+    justify-content: center;
+}
+
+.card {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+.card>img {
+    width: 75px;
+}
+
+.card>p {
+    text-align: center;
+    width: 55%;
 }
