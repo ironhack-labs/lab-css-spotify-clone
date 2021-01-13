@@ -1,8 +1,150 @@
-/*
-Colors:
+body, html{
+    height: 100%;
+    margin: 0px;
+    font-family:'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+}
 
-Text: 1A1A1A
-Green: #00B172
-White: #FFF
+.logo {
+    width: 12%;
+    min-width: 100px;
+    margin-left: 3%;
+}
 
-*/
+nav {
+    width: 82%;
+    margin-right: 3%;
+}
+
+nav ul{
+    list-style: none;
+    display: flex;
+    justify-content: flex-end;
+    
+    
+}
+
+nav ul li {
+    
+    font-size: larger;
+    display: flex;
+    padding-left: 5%;
+    
+}
+
+header {
+    height: 12%;
+    background-color: #fff;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.hero-image {
+    background-image: url("/images/landing.jpg");
+    background-repeat: no-repeat;
+    background-size: cover;
+    height: 100%;
+    background-position: center;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.hero-text {
+    text-align: center;
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    color: white
+}
+
+.hero-text h1 {
+    color: #fff;
+    font-size: 555%;
+    margin-bottom: 0px;
+    
+}
+
+.hero-text p {
+    color: #fff;
+    font-size: 222%;
+}
+
+.content{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.content h2 {    
+    font-size: 333%;
+    border-bottom: solid 5px #00B172;
+    display: inline-block;
+}
+
+.flex-content {
+    display: flex;
+    justify-content: space-evenly;
+    padding: 80px;
+}
+
+.article-icons{
+    height: 120px;
+}
+
+.flex-article {
+    width: 30%;
+    text-align: center;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.flex-article h3 {
+    color: #00B172;
+    font-size: 249%;
+}
+
+.flex-article p {
+    color: #1A1A1A;
+    font-size: 222%;
+    width: 80%;
+}
+
+footer {
+    background-color: #00B172;
+    background-image: url("/images/spotify-icon-white.png");
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: 150px;
+    display: flex;
+    justify-content: space-around;
+    align-items: flex-start;
+    padding: 7%;
+    margin: 2%;
+}
+
+footer h2 {
+    color: #fff;
+    font-size: 333%;
+    border-bottom: solid 5px #fff;
+    display: inline-block;
+}
+
+.app-image {
+    padding: 100px 0px;
+    width: 35%;
+}
+
+.footer-content h4 {
+    color: #fff;
+    font-size: 233%;
+    width: 70%;
+}
+
+.footer-content p {
+    color: #fff;
+    font-size: 188%;
+    width: 45%;
+}
