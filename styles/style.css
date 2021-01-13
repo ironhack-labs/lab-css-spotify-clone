@@ -6,3 +6,157 @@ Green: #00B172
 White: #FFF
 
 */
+
+body,
+html,
+main {
+  margin: 0;
+  padding: 0;
+  font-family: Verdana, Geneva, Tahoma, sans-serif;
+  width: 100%;
+  height: 100%;
+}
+
+header {
+  padding: 15px 20px;
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  height: 5%;
+}
+
+header img {
+  height: 50px;
+}
+
+nav ul {
+  display: flex;
+  flex-direction: row;
+  list-style: none;
+}
+
+nav ul li {
+  padding: 0px 20px;
+}
+
+nav ul li a {
+  color: black;
+  text-decoration: none;
+}
+
+.hero {
+  background-image: url(../images/landing.jpg);
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  height: 95%;
+}
+
+h1 {
+  color: white;
+  font-size: 80px;
+}
+
+.hero p {
+  color: white;
+  font-size: 25px;
+  text-align: center;
+}
+
+section {
+  margin-top: 30px;
+  margin-bottom: 100px;
+}
+
+.on-spotify {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  text-align: center;
+}
+
+.on-spotify h2 {
+  font-size: 40px;
+  text-decoration: underline;
+  text-decoration-color: #00b172;
+  text-underline-position: under;
+  padding-bottom: 40px;
+}
+
+.on-spotify-items {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-around;
+  flex-grow:1; 
+  flex-wrap:wrap;
+}
+
+.on-spotify-items div {
+  width: 30%;
+  min-width: 200px;
+}
+
+.on-spotify-items h3 {
+  color: #00b172;
+  font-size: 26px;
+  font-weight: 800;
+}
+
+.on-spotify-items p {
+  font-size: 18px;
+}
+
+.on-spotify-items img {
+  height: 100px;
+}
+
+.features {
+  padding-top: 70px;
+  padding-bottom: 30px;
+  width: 100%;
+  background-color: #00b172;
+  background-image: url(/images/spotify-icon-white.png);
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: 100px;
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  color: white;
+  min-width: 200px;
+}
+
+.feature-texts {
+  display: flex;
+  flex-direction: column;
+  width: 45%;
+  padding-left: 20px;
+  justify-content: space-around;
+}
+
+.features h3 {
+  text-decoration: underline;
+  text-underline-position: under;
+  font-size: 36px;
+  margin-top: 0;
+}
+
+.features h4 {
+  font-size: 28px;
+  margin-top: 0;
+}
+
+.spotify-app {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  width: 45%;
+}
+
+.spotify-app img {
+  width: 300px;
+}
