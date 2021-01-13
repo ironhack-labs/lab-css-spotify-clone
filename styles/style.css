@@ -7,3 +7,150 @@ White: #FFF
 
 */
 
+body {
+  margin: 0;
+  font-family: "Open Sans", sans-serif;
+  font-size: 12px;
+  height: 100%;
+  color: #1a1a1a;
+}
+
+nav {
+  margin: 0 auto;
+  position: fixed;
+  justify-content: space-between;
+  display: flex;
+  background-color: #fff;
+  z-index: 1000;
+}
+
+nav ul {
+  display: flex;
+  list-style-type: none;
+  width: 300px;
+  padding-top: 1%;
+}
+
+nav li {
+  margin: 0 5%;
+}
+
+a {
+  text-decoration: none;
+  color: #1a1a1a;
+}
+
+.spotify-logo {
+  width: 20%;
+  margin: 15px;
+}
+
+.hero-image {
+  background-image: url(../images/landing.jpg);
+  height: 500px;
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+  position: relative;
+}
+
+.hero-text {
+  text-align: center;
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  color: #fff;
+}
+
+h1 {
+  font-size: 4em;
+  width: 600px;
+  margin: 0;
+}
+
+.hero-p {
+  font-size: 1.4em;
+}
+
+.icon {
+  width: 30%;
+}
+
+.h2-whats-on {
+  text-align: center;
+  margin-bottom: 0;
+}
+
+.hr-whats-on {
+  width: 170px;
+  border: none;
+  background-color: #00b172;
+  height: 2px;
+}
+
+/* Como deixar o conteúdo alinhado verticalmente? */
+.whats-on {
+  display: flex;
+  justify-content: space-around;
+  padding: 5%;
+}
+
+.whats-on div {
+  width: 30%;
+  text-align: center;
+}
+
+.whats-on h3 {
+  color: #00b172;
+  font-size: 1.2em;
+  font-weight: bold;
+}
+
+.kanye {
+  background-color: #00b172;
+  color: #fff;
+  padding: 3% 8%;
+  margin: 3%;
+  display: flex;
+}
+
+.kanye hr {
+  width: 100%;
+  border: none;
+  background-color: #fff;
+  height: 2px;
+  float: left;
+}
+
+.kanye h2 {
+  margin-bottom: 0;
+  font-size: 1.5em;
+}
+
+.kanye h3 {
+  font-size: 1.3em;
+  font-weight: bold;
+}
+
+.kanye-text-section {
+  display: flex;
+  flex-direction: column;
+}
+
+.kanye-text-section div {
+  margin-right: 30%;
+}
+
+/* Como colocar essa imagem na seção? */
+.kanye-background {
+  background-image: url(../images/spotify-icon-white.png);
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+  position: absolute;
+}
+
+.screenshot {
+  width: 250px;
+}
