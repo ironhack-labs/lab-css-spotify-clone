@@ -1,3 +1,168 @@
+body,
+html {
+  font-family: "Open Sans", sans-serif;
+  height: 100%;
+  margin: 0;
+}
+
+.logo {
+  width: auto;
+  height: 50px;
+  margin-top: 5px;
+}
+
+.nav-bar {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  margin: 5px;
+}
+
+.nav-bar-list {
+  display: flex;
+  list-style-type: none;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.nav-bar-list > li {
+  padding: 0 15px;
+}
+
+.hero-image {
+  background-image: url(../images/landing.jpg);
+  background-repeat: no-repeat;
+  background-attachment: fixed;
+  background-size: cover;
+  display: flex;
+  flex-direction: column;
+  flex-wrap: wrap;
+  justify-content: center;
+  align-items: center;
+  align-content: center;
+  /* nao consegui deixar a altura responsiva, com 50% da altura do body e html */
+  width: auto;
+  height: 700px;
+}
+
+.hero-image h1 {
+  color: white;
+  font-size: 60px;
+  text-align: center;
+  padding: 30px;
+}
+
+.hero-image h2 {
+  color: white;
+  text-align: center;
+  padding: 30px;
+  font-weight: 400;
+}
+
+h3 {
+  font-size: 28px;
+  font-weight: bold;
+  text-align: center;
+  margin-bottom: 0;
+}
+
+hr {
+  border: 2px solid;
+  border-radius: 1px;
+  margin: auto;
+  text-align: center;
+}
+
+.hr1 {
+  color: #00b172;
+  width: 250px;
+}
+
+.hr2 {
+  color: white;
+  width: 370px;
+}
+
+.image-inbox {
+  width: 70px;
+  height: 70px;
+  color: #1a1a1a;
+}
+
+.whats-on-box h3 {
+  color: #1a1a1a;
+}
+
+.whats-on-box h4 {
+  font-size: 20px;
+  color: #00b172;
+  text-align: center;
+  padding-bottom: 15px;
+}
+
+h1,
+h4 {
+  font-weight: 900;
+}
+
+.items-box {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-around;
+  align-items: baseline;
+  align-content: space-around;
+  padding-top: 50px;
+  padding-bottom: 80px;
+}
+
+.items-box p {
+  font-size: 18px;
+  text-align: center;
+  padding: 0 25px;
+  margin: 0;
+  width: 50%;
+}
+
+.box {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  width: 650px;
+}
+
+.green-box {
+  background-color: #00b172;
+  color: white;
+  margin: 0 30px;
+  padding: 25px;
+  display: flex;
+  flex-direction: column;
+  flex-wrap: wrap;
+  justify-content: flex-start;
+  align-items: center;
+  align-content: space-between;
+  height: 500px;
+  text-align: left;
+}
+
+.spotify-white {
+  width: auto;
+  height: 100px;
+  padding: 200px 0;
+  margin: 0;
+}
+
+.screen {
+  width: auto;
+  height: 300px;
+  padding: 200px 0;
+  margin: 0;
+}
+
+.item-green {
+  text-align: left;
+}
+
 /*
 Colors:
 
