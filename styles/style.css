@@ -6,3 +6,109 @@ Green: #00B172
 White: #FFF
 
 */
+
+html,
+body{
+    margin: 0;
+    font-family: sans-serif;
+}
+
+.navbar {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    background: white;
+    width: 100%;
+}
+
+.navbar>img {
+    width: 175px;
+    height: 50px;
+    padding: 10px 10px;
+}
+
+.navbar>ul{
+    width: 25%;
+    display: flex;
+    list-style: none;
+    justify-content: space-around;
+    align-items: center; 
+}
+
+.hero_img{
+    background-image: url("/images/landing.jpg");
+    background-size: cover;
+    background-repeat: no-repeat;
+    height: 600px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+h1{
+    color: white;
+    font-size: 50px;
+}
+
+.hero_img p{
+    font-size: 20px;
+    width: 70%;
+    text-align: center;
+    color: white;
+    font-weight:;
+}
+
+.text-center{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+}
+
+.second-block{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    padding: 30px 50px 70px; 
+}
+
+.highlight {
+    display: flex;
+    justify-content: space-around;
+    width: 80%;
+}
+
+.feature {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    width: 250px;
+}
+
+.feature img{
+    width: 80px;
+}
+
+.feature p{
+    text-align: center;
+}
+
+.green{
+    background-color:#00B172;
+    display: flex;
+    flex-direction: column;
+}  
+
+.last-block{
+    color: white;
+    margin: 20px;
+    width: 35%;
+}
+
+.last-block h2{
+    font-size: 30px;
+    padding: 5px;
+   border-bottom: 3px solid white
+
+}
