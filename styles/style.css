@@ -6,3 +6,103 @@ Green: #00B172
 White: #FFF
 
 */
+
+html,
+body {
+  margin: 0;
+  font-family: "Open Sans", sans-serif;
+}
+
+.navbar {
+  position: fixed;
+  justify-content: space-between;
+  align-items: center;
+  background-color: #fff;
+  width: 100%;
+}
+
+.navbar img {
+  width: 175px;
+  height: 50px;
+  padding: 10px 10px;
+}
+
+.navbar ul {
+  display: flex;
+  float: right;
+  list-style: none;
+  justify-content: space-around;
+  align-items: stretch;
+}
+
+.hero-img {
+  background-image: url("../images/landing.jpg");
+  background-repeat: no-repeat;
+  background-size: cover;
+  height: 25%;
+  background-position: center;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+h1 {
+  margin: 0;
+  display: flex;
+  color: white;
+  font-size: 50px;
+  text-align: center;
+}
+
+.hero-img p {
+  font-size: 20px;
+  width: 70%;
+  text-align: center;
+  color: white;
+}
+
+h2 {
+  text-align: center;
+}
+
+.hr-green {
+  background-color: #00b172;
+  margin: 0;
+  width: 10%;
+}
+
+.service-box {
+  font-size: 1.7em;
+  text-align: center;
+  flex-direction: row;
+  justify-content: space-evenly;
+}
+.service-box img {
+  width: 125px;
+}
+
+.green {
+  background-color: #00b172;
+  display: flex;
+  flex-direction: column;
+}
+
+.kanye-west {
+  color: white;
+  margin: 20px;
+  width: 35%;
+}
+
+.kanye-west h2 {
+  font-size: 30px;
+  padding: 5px;
+  border-bottom: 3px white;
+}
+
+hr {
+  width: 100%;
+  border: none;
+  background-color: #fff;
+  height: 2px;
+  float: left;
+}
