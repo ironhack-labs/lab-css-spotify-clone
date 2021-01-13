@@ -6,3 +6,135 @@ Green: #00B172
 White: #FFF
 
 */
+
+* {
+font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+}
+
+#header {
+    color: #1A1A1A;
+    position: fixed; 
+    background-color: #FFF;
+    width: 100%;
+    height: 120px;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+}
+
+#header nav ul {
+    width: 700px;
+    font-weight: 600;
+    font-size: 1.7em;
+    list-style-type: none;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+    align-content: flex-end;
+}
+
+#splash {
+    background-image: url("../images/landing.jpg"); 
+    background-repeat: no-repeat;
+    height: 1200px;
+    background-size: cover;
+    color: #FFF;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+}
+
+#splash h1 {
+    font-size: 5em;
+    font-weight: light;
+}
+
+#splash h2 {
+    font-size: 2.3em;
+    font-weight:lighter;
+    width: 50%;
+    text-align: center;
+}
+
+#spotify {
+    height: 600px;
+    padding: 20px 0px 20px 0px;
+   
+}
+
+#spotify h1 {
+    color: #1A1A1A;
+    font-size: 3em;
+    font-weight: bolder;
+    text-align: center;
+    text-decoration: underline;
+    text-decoration-color: #00B172;
+    text-underline-offset: 10px;
+    padding: 20px 0px 50px 0px;
+}
+
+#spotify div {
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+}
+
+#spotify div article {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+#spotify div article h2{
+    color: #00B172;
+    font-size: 2.6em;
+}
+
+#spotify div article div {
+    color: #1A1A1A;
+    font-weight: lighter;
+    font-size: 2.5em;
+    width: 70%;
+    text-align: center;
+}
+
+#green {
+    padding: 150px 50px 150px 50px;
+    color: #FFF;
+    background-color: #00B172;
+    display: flex;
+    flex-direction: row;
+    height: 800px;
+    justify-content:space-evenly;
+    align-items:center;
+}
+
+#green div {
+    display: flex;
+    flex-direction: column;
+    justify-items:flex-start;
+    align-items: left;
+}
+
+#green div h1{
+    font-size: 3.5em;
+    text-decoration: underline;
+    text-decoration-color: #FFF;
+    text-underline-offset: 10px;
+}
+
+
+#green article h2{
+    font-size: 3em;
+}
+
+#green article div{
+    font-size: 2em;
+    width: 60%;
+}
+
+#white-logo {
+    padding-right: 240px;
+}
