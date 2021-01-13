@@ -40,6 +40,11 @@ body {
     color: #1a1a1a;
 }
 
+.navbar a {
+    text-decoration: none;
+    color: #1A1A1A;
+}
+
 .hero-img {
     background-image: url("../images/landing.jpg");
     background-size: cover;
@@ -114,12 +119,12 @@ main {
     font-size: 1.1rem;
 }
 
-.app {
+.green {
     background-color: #00B172;
     display: flex;
     justify-content: space-around;
     align-items: center;
-    padding: 50px 50px;
+    padding: 70px 40px;
 }
 
 .logo {
@@ -129,15 +134,17 @@ main {
 }
 
 .spotify-app {
-    height: 400px;
+    height: 60vh;
+    max-height: 600px;
 }
 
-.container>p {
-    width: 50%;
+.text-container>p {
+    width: 35%;
     color: white;
+    margin: 50px 0;
 }
 
-.container>h2 {
+.text-container>h2 {
     display: inline-block;
     margin: 20px auto 50px;
     text-align: center;
@@ -146,7 +153,7 @@ main {
     color: white;
 }
 
-.container>h3 {
+.text-container>h3 {
     color: white;
     font-size: 1.5rem;
 }
