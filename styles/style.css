@@ -121,12 +121,17 @@ body {
 /* Section 4*/
 
 .inviting-section {
-  /*background-image: url(../images/spotify-icon-white.png);*/
-
   background-color: #00b172;
   margin-left: 2em;
   margin-right: 2em;
   color: #fff;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  background-image: url(../images/spotify-icon-white.png);
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: 150px;
 }
 
 .inviting-section h2 {
@@ -144,28 +149,23 @@ body {
   width: 100%;
 }
 
-.bottom-logo img {
-  display: flex;
-  flex-direction: column;
-  align-content: center;
-  width: 30%;
-}
-
 .spotify-print img {
   display: flex;
   flex-direction: column;
   align-content: center;
-  width: 90%;
+  height: 500px;
+  padding: 50px 50px 50px 0;
 }
 
 .column-text {
   display: flex;
   flex-direction: column;
   margin-left: 50px;
+  width: 35%;
 }
 
 .centered-container {
   display: flex;
-  justify-content: space-evenly;
+  justify-content: space-between;
   align-items: center;
 }
