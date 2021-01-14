@@ -1,3 +1,5 @@
+
+
 /*
 Colors:
 
@@ -6,3 +8,96 @@ Green: #00B172
 White: #FFF
 
 */
+
+body {
+    margin: 0;
+    padding: 0;
+    font-size: 16px;
+}
+
+.bg-div {
+  overflow: hidden;
+}
+
+.logo {
+  float: left;
+  position: relative;
+  height: 3em;
+  margin: 10px 15px 15px 10px;
+}
+
+.nav-bar{
+  /*dark blue*/
+  background-color:rgb(25, 33, 41); 
+}
+
+.nav-bar a{
+  color:white;
+  text-decoration:none;
+  font-family: Arial, Helvetica, sans-serif;
+  font-size:16px;
+}
+
+.nav-bar ul{
+  display:flex;
+  justify-content:space-evenly;
+  flex-direction:row; /*row by default */
+}
+
+.header {
+  background-image:url("/images/landing.jpg");
+  background-position:0, 0;
+  background-repeat:no-repeat;
+  background-size:cover;
+  height:650px;
+  padding:50px 0 0 0;
+  position:relative;
+}
+
+.header h1, h2, h3 {
+  color:white;
+}
+
+.dark-background{
+  background-color:white;
+  color:white;
+}
+
+#general-information .container {
+  display:flex;
+  flex-direction:column;
+  align-items:center;
+  width:370px;
+}
+
+#general-information{
+  display:flex;
+  justify-content:evenly;
+}
+
+.link-btn{
+  background-color:white;
+  color:grey;
+  font-family:roboto condensed;
+  font-size:2em;
+  letter-spacing:0.5px;
+  text-align:center;
+  text-decoration:none;
+  margin:20px 0;
+  padding:10px 30px;
+}
+
+.service-box {
+  font-size:1.7em;
+  text-align:center;
+  border:2px solid #eee;
+  border-radius:20px;
+  box-sizing:border-box;
+  box-shadow:2px 2px 10px 0 #eee;
+  margin:50px 5% 0 5%;
+  padding:20px;
+}
+
+.service-box img{
+  width:125px;
+}
