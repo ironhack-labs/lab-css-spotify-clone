@@ -6,3 +6,133 @@ Green: #00B172
 White: #FFF
 
 */
+
+header {
+    width: 100%;
+    position: fixed;
+    height: 69px;
+    align-items: center;
+    background-color: white;
+}
+
+.flex-container {
+    display: flex;
+    justify-content: space-evenly;
+    flex-direction: row;
+}
+
+nav a {
+    display: flex;
+    justify-content: space-evenly;
+    align-items: top;
+    margin-left: 10px;
+    margin-top: 20px;
+    color: black;
+    text-decoration: none;
+    font-size: 15px;
+    margin-right: 10px;
+}
+
+.background-image {
+    background-image: url("../images/landing.jpg");
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: center;
+    height: 100%;
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+.background-image h1 {
+    color: white;
+    text-align: center;
+    margin-top: 300px;
+}
+
+.background-image p {
+    color: white;
+    text-align: center;
+    margin-bottom: 300px;
+}
+
+.question {
+    text-align: center;
+    text-decoration: underline #00B172;
+}
+
+.box h2 {
+    color: #00B172;
+}
+
+.box {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    text-align: center;
+}
+
+#green-box {
+    background-color: #00B172;
+    color: white;
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    justify-content: space-around;
+    align-content: center;
+    align-items: center;
+    /*padding: 50px 0;*/
+}
+
+.box1>div>h2 {
+    text-decoration: underline white;
+    color: white;
+}
+
+.box1 {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.box-footer:nth-of-type(1) {
+    order: 0;
+    flex: 0 1 auto;
+    align-self: auto;
+    width: 40%;
+}
+
+.box-footer:nth-of-type(2) {
+    order: 0;
+    flex: 0 1 auto;
+    align-self: auto;
+    width: 30%;
+}
+
+.box-footer:nth-of-type(3) {
+    order: 0;
+    flex: 0 1 auto;
+    align-self: auto;
+    width: 20%;
+}
+
+#spotify-icon {
+    width: 80px;
+    height: 80px;
+}
+
+#playlist {
+    width: 200px;
+    padding-left: 100px;
+}
+
+@media (min-width: 320px) and (max-width:480px) {
+    .flex-container {
+        flex-direction: column;
+    }
+    #green-box {
+        width: 80vw;
+    }
+}
