@@ -6,3 +6,297 @@ Green: #00B172
 White: #FFF
 
 */
+
+/* reset code ---> */
+
+html, body, div, span, object, iframe,
+h1, h2, h3, h4, h5, h6, p, blockquote, pre,
+abbr, address, cite, code,
+del, dfn, em, img, ins, kbd, q, samp,
+small, strong, sub, sup, var,
+b, i,
+dl, dt, dd, ol, ul, li,
+fieldset, form, label, legend,
+table, caption, tbody, tfoot, thead, tr, th, td,
+article, aside, canvas, details, figcaption, figure, 
+footer, header, hgroup, menu, nav, section, summary,
+time, mark, audio, video {
+    margin:0;
+    padding:0;
+    border:0;
+    outline:0;
+    font-size:100%;
+    vertical-align:baseline;
+    background:transparent;
+}
+
+body {
+    line-height:1;
+}
+
+article,aside,details,figcaption,figure,
+footer,header,hgroup,menu,nav,section { 
+    display:block;
+}
+
+nav ul {
+    list-style:none;
+}
+
+blockquote, q {
+    quotes:none;
+}
+
+blockquote:before, blockquote:after,
+q:before, q:after {
+    content:'';
+    content:none;
+}
+
+a {
+    margin:0;
+    padding:0;
+    font-size:100%;
+    vertical-align:baseline;
+    background:transparent;
+}
+
+/* change colours to suit your needs */
+ins {
+    background-color:#ff9;
+    color:#000;
+    text-decoration:none;
+}
+
+/* change colours to suit your needs */
+mark {
+    background-color:#ff9;
+    color:#000; 
+    font-style:italic;
+    font-weight:bold;
+}
+
+del {
+    text-decoration: line-through;
+}
+
+abbr[title], dfn[title] {
+    border-bottom:1px dotted;
+    cursor:help;
+}
+
+table {
+    border-collapse:collapse;
+    border-spacing:0;
+}
+
+/* change border colour to suit your needs */
+hr {
+    display:block;
+    height:1px;
+    border:0;   
+    border-top:1px solid #cccccc;
+    margin:1em 0;
+    padding:0;
+}
+
+input, select {
+    vertical-align:middle;
+}
+
+/* <--- reset code */
+
+html,
+body {
+    margin: 0;
+    padding: 0;
+}
+body {
+    font-family: 'Arial';
+}
+.firstdiv {
+    padding: 0 25px 10px 0;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin: .7em;
+}
+.flexing-to1 {
+    flex: 1;
+}
+.spotify-logo {
+    width: 200px;
+    margin-left: 2em;
+}
+
+nav {
+    width: 600px;
+}
+nav ul {
+    list-style: none;
+    display: flex;
+    justify-content: flex-end;
+    align-items: center;
+}
+nav li {
+    font-size: 1.1em;
+    margin: .7em;
+}
+nav a {
+    text-decoration: none;
+    color: black;
+}
+
+#music-everyone {
+    background-image: url(../images/landing.jpg);
+    background-repeat: no-repeat;
+    background-position: center center;
+    background-size: 100%;
+}
+
+.center {
+    margin-right: auto;
+    margin-left: auto;
+    max-width: 48em;
+    padding: 5em 1em 15em 1em;
+    text-align: center;
+}
+h1 {
+    font-size: 4em;
+    font-weight: 100;
+    color: white;
+}
+
+.center .centerh1 {
+    margin: 1em 0;
+}
+.spotify-free {
+    margin-top: 30px;
+    display: flex;
+    flex-direction: column;
+    
+}
+.free {
+    margin-bottom: 45px;
+    margin-right: auto;
+    margin-left: auto;
+    width: 445px;
+    display: flex;
+    flex-direction: column;
+    line-height: 1.5em;
+}
+
+article {
+    font-size: 1.2em;
+    color: white;
+    font-weight: 100;
+    font-family: 'Raleway', sans-serif;
+
+}
+
+.whatsspotify-container {
+    margin-right: auto;
+    margin-left: auto;
+    max-width: 75em;
+    padding: 1em 1em;
+    text-align: center;
+    max-height: 900px;
+}
+.center-whats {
+    margin-right: auto;
+    margin-left: auto;
+    max-width: 60em;
+    padding: 1em 1em 1em 1em;
+    text-align: center;
+}
+
+h2 {
+    font-weight: 700;
+    font-size: 2em;
+    margin-top: 45px;
+}
+
+#whatsspotify {
+    
+}
+
+.container-whats {
+    display: flex;
+    flex-direction: column;
+}
+
+.what-it-is {
+    margin-top: 60px;
+    display: flex;
+    justify-content: space-evenly;
+}
+
+.what-it-is .container {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    width: 60%;
+}
+
+h3 {
+    font-weight: 600;
+    font-size: 1.2em;
+    margin-top: 10px;
+    margin-bottom: 30px;
+    color: #00B172;
+}
+ .container {
+     color: black;
+     line-height: 1.45;
+ }
+
+ .container img {
+     max-width: 90px;
+ }
+
+
+
+
+
+
+
+
+
+#features {
+    background-color: #00B172;
+    background-image: url(../images/spotify-icon-white.png);
+    background-repeat: no-repeat;
+    background-position: center center;
+    background-size: 100px;
+    margin-right: 30px;
+    margin-left: 30px;
+
+}
+
+.features {
+    display: flex;
+    margin-left: auto;
+    margin-right: auto;
+    width: 900px;
+    flex-direction: row;
+}
+
+.features-info {
+    margin-left: auto;
+    margin-right: auto;
+    padding-top: 50px;
+    padding-right: 300px;
+    padding-bottom: 10px; 
+}
+
+.spotify-app img {
+    display: block;
+    top: 50%;
+    left: 50%;
+    width: 270px;
+    padding: 5%;
+}
+
+
+
+
