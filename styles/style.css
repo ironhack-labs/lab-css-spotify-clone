@@ -6,3 +6,156 @@ Green: #00B172
 White: #FFF
 
 */
+@import url('https://fonts.googleapis.com/css2?family=Montserrat:wght@400;500;700&display=swap');
+body {
+    margin: 0px;
+    padding: 0px;
+    font-family: 'Montserrat', sans-serif;
+}
+
+.section1{
+    display: flex;
+}
+header {
+    display: flex;
+    flex-wrap: nowrap;
+    align-content: space-between;
+    position: fixed;
+    background-color: white;
+    width: 100%;
+}
+header img {
+    width: 12rem;
+    padding: 1rem;
+}
+header nav {
+    flex: 2;
+    align-self: center;
+}
+header nav ul {
+    display: flex;
+    float: right;
+    list-style: none;
+    align-items: center;
+    justify-content: center;
+}
+header nav ul a {
+    color: #1A1A1A;
+    padding: 2rem;
+    text-decoration: none;
+    margin: 0;
+}
+header nav ul a:hover {
+    background-color: #00B172;
+    color: #1A1A1A;
+    padding: 2rem;
+    text-decoration: none;
+}
+.landing {
+    display: flex;
+    flex-direction: column;
+    flex-wrap: nowrap;
+    justify-content: center;
+    align-content: flex-start;
+    align-items: center;
+    width: 100%;
+    height: 90vh;
+    background-image: url(../images/landing.jpg);
+    background-position: center;
+    background-size: cover;
+    color: white;
+    font-size: 16px;
+}
+.landing h1 {
+    text-align: center;
+    padding-left: 3rem;
+    padding-right: 3rem;
+    font-size: 4rem;
+}
+.landing p {
+    text-align: center;
+    padding-left: 3rem;
+    padding-right: 3rem;
+    font-size: 1.3rem;
+}
+
+.section2 {
+    display: flex;
+    flex-direction: column;
+    flex-wrap: nowrap;
+    justify-content: space-evenly;
+    align-content: center;
+    align-items: center;
+    height: 90vh;
+    width: 100%;
+    text-align: center;
+}
+.section2 h2 {
+    padding-bottom: 0.5rem;
+    border-bottom: #00B172 solid 3px;
+}
+.infoBoxes {
+    display: flex;
+    flex-direction: row;
+    flex-wrap: nowrap;
+    justify-content: center;
+    align-content: center;
+    align-items: center;
+}
+.infoBoxes div {
+    text-align: center;
+    padding: 3rem;
+}
+.infoBoxes div img {
+    width: 7rem;
+}
+.infoBoxes div h3 {
+    color:  #00B172;
+}
+
+
+.section3 {
+    background-color: #00B172;
+    background-image: url(../images/spotify-icon-white.png);
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: 10%;
+    display: flex;
+    flex-direction: row;
+    flex-wrap: nowrap;
+    justify-content: space-around;
+    align-content: center;
+    align-items: center;
+    color: #FFF;
+    height: 90vh;
+    width: 100%;
+
+}
+
+.left-box {
+
+    width: 25%;
+    
+}
+.left-box h2 {
+    margin-bottom: 2rem;
+    padding-bottom: 1rem;
+    font-weight:bold;
+    border-bottom: white solid 2px;
+    width: auto;
+}
+.left-box h3 {
+    padding-bottom: 1rem;
+}
+.left-box p {
+    padding-bottom: 1rem;
+
+}
+.right-box {
+    width: 25%;
+
+}
+.right-box img {
+    padding: 2rem;
+    width: 20rem;
+}
