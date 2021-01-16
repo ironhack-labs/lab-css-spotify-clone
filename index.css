@@ -1,5 +1,8 @@
 /* Primera sección */
-
+body{
+    margin: 0;
+    padding: 0
+}
 
 .nav-bar-ul{
     box-sizing: border-box;
@@ -22,13 +25,11 @@
 .grande {
     background-image: url(/images/landing.jpg);
     background-repeat: no-repeat;
-  background-size: cover;
-  height: 1000px;
-  width: 1500px;
-
-
-  color: white;
-  display: flex;
+    background-size: cover;
+    height: 1000px;
+    width: 100%;
+    color: white;
+    display: flex;
 	flex-direction: column;
 	flex-wrap: wrap;
 	justify-content: center;
@@ -60,7 +61,7 @@
       font-size: 40px;
       text-align: center;
     text-decoration: underline #00B172;
-    text-decoration-color: Green: #00B172;
+    text-decoration-color: #00B172;
   }
   
   .tercera {
@@ -81,10 +82,8 @@
 .cuarta {
     
     display: flex;
-	flex-direction: row-reverse;
-	flex-wrap: nowrap;
-	justify-content: flex-start;
-	align-items: center;
+	flex-direction: row;
+	justify-content: space-around;
 	align-content: stretch;
 }
 
@@ -95,21 +94,35 @@
 }
 
 .kaniss {
-    width: 250px;
-    display: flex;
-    flex-direction: row;
+    width: 400px;
+    margin: 100px 0 100px 0
 }
 
 .spo {
-    width: 200px;
-    height: 200px;
+    width: 100px;
+    height: 100px;
+    position: absolute;
+    top: 400px;
+    left: 600px;
+
 }
 
 .ultimo {
     color: white;
     width: 500px;
+    margin: 100px 0 100px 0
+
+}
+.ultimo > p{
+    width: 300px;
+
+}
+.ultimo > h4{
+    margin: 0
 }
 
 .ahora {
     background-color: #00B172;
+    margin: 0 2% 0 2%;
+    position: relative;
 }
