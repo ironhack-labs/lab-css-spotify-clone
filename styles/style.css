@@ -1,8 +1,138 @@
-/*
-Colors:
+* {
+    color: #1A1A1A;
+    margin: 0;
+    padding: 0;
+    font-family: Arial;
+    font-size: 22px;
+}
 
-Text: 1A1A1A
-Green: #00B172
-White: #FFF
+nav {
+    background-color: #fff;
+    width: 100%;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: center;
+}
 
-*/
+#nav-logo > img {
+    height: 65px;
+    margin: 10px 30px;
+}
+
+#navbar > ul > li {
+    display: inline;
+    list-style: none;
+    margin: auto 30px;
+    font-size: 20px;
+}
+
+.main-img {
+    background-image: url("../images/landing.jpg");
+    background-repeat: no-repeat;
+    background-size: cover;
+    height: 750px;
+    font-size: 70px;
+    margin-bottom: 10px;
+}
+
+.main-img > div {
+    width: 100%;
+    padding-top: 250px;
+    text-align: center;
+}
+
+.main-img > div > h1 {
+    font-size: 80px;
+    margin-bottom: 15px;
+    color: #fff;
+}
+
+.main-img > div > aside {
+    padding-top: 40px;
+    color: #fff;
+    font-size: 25px;
+}
+
+.whats-section > h2 {
+    margin: 35px auto;
+    text-align: center;
+    font-size: 33px;
+    padding-left: 5px;
+    padding-bottom: 5px;
+    border-bottom: 4px solid #00B172;
+    width: 305px;
+}
+
+.container {
+    display: flex;
+    justify-content: space-around;
+    margin: 80px;
+    align-items: center;
+    align-content: space-between;
+}
+
+.item > img {
+    height: 85px;
+    display: block;
+    margin: 20px auto;
+}
+
+h3 {
+    font-size: 30px;
+    color: #00B172;
+}
+
+.item > h3 {
+    text-align: center;
+    margin-bottom: 20px;
+}
+
+#mobile-example {
+    margin: 30px;
+    padding: 100px;
+    width: 1580px;
+    background-image: url("../images/spotify-icon-white.png");
+    background-color: #00B172;
+    background-repeat: no-repeat;
+    background-size: 150px;
+    background-position: center;
+}
+
+#mobile-example > div > img {
+    width: 380px;
+}
+
+#mobile-example  > div > h2 {
+    border-bottom: 3px solid #fff;
+    font-size: 25px;
+    color: #fff;
+    width: 335px;
+
+}
+
+#mobile-example > div > h3 {
+    color: #fff;
+    margin: 30px 0;
+    font-size: 25px;
+}
+
+#mobile-example > div > p {
+    color: #fff;
+    margin: 30px 0;
+    font-size: 15px;
+}
+
+.app {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-evenly;
+    align-items: center;
+}
+
+.app {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: center;
+}
