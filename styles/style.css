@@ -1,8 +1,156 @@
-/*
-Colors:
+body {
+  color: #1a1a1a;
+  font-family: Montserrat;
+  font-weight: lighter;
+  margin: 0;
+  padding: 0;
+}
 
-Text: 1A1A1A
-Green: #00B172
-White: #FFF
+header {
+  position: fixed;
+  background-color: white;
+  width: 100%;
+}
 
-*/
+header img {
+  width: 150px;
+  float: left;
+  padding: 10px;
+}
+
+header ul {
+  list-style: none;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  float: right;
+  padding: 10px;
+}
+
+header a {
+  text-decoration: none;
+  padding: 0 5px;
+  font-weight: bolder;
+}
+
+a:visited {
+  color: #1a1a1a;
+}
+
+.music-for-everyone {
+  background-image: url("/images/landing.jpg");
+  background-size: cover;
+  background-repeat: no-repeat;
+  height: 800px;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+
+h1 {
+  color: white;
+  font-size: 60px;
+  font-weight: 500;
+  line-height: 0%;
+}
+
+h2 {
+  text-weight: bolder;
+  text-decoration: underline;
+  text-underline-offset: 10px;
+}
+
+.music-for-everyone p {
+  color: white;
+  font-size: 20px;
+  text-align: center;
+}
+
+.whats-on {
+  height: 450px;
+}
+
+.whats-on {
+  display: flex;
+  flex-direction: column;
+  justify-content: flex-start;
+  align-items: center;
+}
+
+.whats-on h2 {
+  text-decoration-color: #00b172;
+  padding: 40px 0;
+}
+
+.benefits-container {
+  display: flex;
+  justify-content: space-between;
+  width: 70%;
+}
+
+.benefits-container article {
+  width: 30%;
+  padding: 20px;
+  margin: 10px;
+  text-align: center;
+}
+
+.whats-on h3 {
+  color: #00b172;
+  font-size: 20px;
+  font-weight: bolder;
+}
+
+.whats-on img {
+  height: 70px;
+}
+
+.app {
+  background-color: #00b172;
+  height: 600px;
+  display: flex;
+  justify-content: space-between;
+  position: relative;
+}
+
+.app div {
+  width: 50%;
+  color: white;
+  padding: 30px 60px;
+}
+
+.app article {
+  width: 50%;
+  padding-bottom: 10px;
+}
+
+.app-features-container h2 {
+  padding-bottom: 30px;
+}
+
+.app-features-container h3 {
+  font-weight: bold;
+}
+
+.app-features-container p {
+  font-size: 16px;
+}
+
+.app-image-container {
+  position: relative;
+}
+
+.app-screenshot {
+  height: 450px;
+  position: absolute;
+  top: 15%;
+  right: 20%;
+}
+
+.white-icon {
+  height: 120px;
+  position: absolute;
+  top: 40%;
+  left: 45%;
+}
