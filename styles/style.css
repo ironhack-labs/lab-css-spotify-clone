@@ -6,3 +6,149 @@ Green: #00B172
 White: #FFF
 
 */
+html,
+body {
+  margin: 0;
+  padding: 0;
+}
+
+.nav-bar {
+  position: fixed;
+  background-color: white;
+  width: 100vw;
+}
+nav img {
+  width: 200px;
+  padding-left: 40px;
+  padding-top: 10px;
+}
+nav ul {
+  list-style-type: none;
+  width: 400px;
+  font-size: 25px;
+  padding-right: 30px;
+  display: flex;
+  float: right;
+  justify-content: space-between;
+}
+header {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  background-image: url("/images/landing.jpg");
+  background-repeat: no-repeat;
+  background-size: cover;
+  height: 1000px;
+}
+
+header h1 {
+  font-size: 80px;
+
+  font-weight: lighter;
+  color: white;
+  text-align: center;
+}
+header p {
+  margin-top: 0;
+  padding-bottom: 40px;
+  font-size: 30px;
+  color: white;
+  width: 650px;
+  text-align: center;
+}
+
+.whats-on {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  height: 600px;
+}
+
+.whats-on > h2 {
+  line-height: 1.5em;
+  font-size: 40px;
+  border-bottom: 4px solid #00b172;
+}
+
+.container {
+  display: flex;
+  justify-content: space-evenly;
+  align-items: center;
+  width: 1500px;
+}
+.whats-on img {
+  width: 150px;
+}
+.millions {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+.hd {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+.stream {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+.container h2 {
+  color: #00b172;
+  font-size: 35px;
+}
+.container p {
+  text-align: center;
+  color: lightslategray;
+  margin-top: 0;
+  font-size: x-large;
+  width: 250px;
+}
+
+.kanye-west {
+  position: absolute;
+  height: 650px;
+  margin-left: 30px;
+  background-color: #00b172;
+  width: 95vw;
+}
+.text {
+  padding-left: 100px;
+  padding-top: 50px;
+  position: absolute;
+}
+.text h2 {
+  width: 480px;
+  color: white;
+  line-height: 1.5em;
+  font-size: 40px;
+  border-bottom: 4px solid white;
+}
+.text ul{
+  padding-left: 0;
+  list-style-type: none;
+  color: white;
+  font-size: 20px;
+}
+.text ul b {
+  font-size: 30px;
+}
+.app {
+  position: relative;
+  width: 300px;
+  float: right;
+  padding-right: 100px;
+  padding-top: 80px;
+}
+.icon {
+  width: 150px;
+  position: relative;
+  padding-left: 40%;
+  padding-top: 20%;
+}
