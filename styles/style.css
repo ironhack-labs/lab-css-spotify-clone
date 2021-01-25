@@ -1,8 +1,171 @@
-/*
-Colors:
+* {
+  margin: 0;
+  padding: 0;
+  font-family: Arial, Helvetica, sans-serif;
+  line-height: 1.3em;
+  color: #1a1a1a;
+}
 
-Text: 1A1A1A
-Green: #00B172
-White: #FFF
+body {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
 
-*/
+.music {
+  background-image: url("../images/landing.jpg");
+  height: 700px;
+  width: 90%;
+  background-size: cover;
+  background-position: center;
+}
+
+nav img {
+  height: 10%;
+  width: 10%;
+  margin-left: 2vw;
+  margin-top: 2vh;
+  margin-bottom: 2vh;
+}
+
+.menu-bar {
+  margin-right: 2vw;
+  margin-top: 3vh;
+}
+
+.menu-bar li {
+  list-style-type: none;
+  margin-right: 10vh;
+  display: block;
+  float: left;
+}
+
+.menu-bar li a {
+  text-decoration: none;
+  color: black;
+}
+
+nav {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  position: fixed;
+  top: 0px;
+  background-color: #fff;
+}
+
+.music-everyone {
+  position: absolute;
+  top: 35%;
+  left: 30%;
+  text-align: center;
+}
+
+.music-everyone h1 {
+  font-size: 4em;
+  font-weight: 200;
+  color: #fff;
+}
+
+.music-everyone p {
+  font-weight: 100;
+  font-size: 1.3em;
+  color: #fff;
+}
+
+.spotify-content {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  margin-top: 3vh;
+}
+
+.spotify-content h2 {
+  font-size: 1.5em;
+  font-weight: bold;
+  margin-bottom: 7vh;
+  border-bottom: 3px solid #00b172;
+  padding-bottom: 2px;
+}
+
+.offering {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-around;
+  width: 100vw;
+  margin-bottom: 6vh;
+}
+
+.offering article img {
+  width: 100px;
+  height: 75px;
+  margin-bottom: 2vh;
+}
+
+.offering article h3 {
+  color: #00b172;
+  margin-bottom: 2vh;
+}
+
+.offering article p {
+  width: 12vw;
+  text-align: center;
+  color: #1a1a1a;
+}
+
+.offering article {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+.get-started {
+  background-color: #00b172;
+  display: flex;
+  flex-direction: row;
+  justify-content: space-around;
+  width: 90%;
+  position: relative;
+  padding-bottom: 5vh;
+}
+
+.actions h2 {
+  display: inline-block;
+  font-size: 1.8em;
+  color: #fff;
+  font-weight: 300;
+  border-bottom: 3px solid #fff;
+  padding-bottom: 4px;
+  margin-bottom: 7vh;
+  margin-top: 5vh;
+}
+
+.spotify-logo {
+  width: 100px;
+  height: 100px;
+  position: absolute;
+  left: 30vw;
+  top: 30vh;
+}
+
+.kanye {
+  width: 270px;
+  height: 500px;
+  margin-top: 8vh;
+}
+
+.actions article h3,
+p {
+  color: #fff;
+  margin-bottom: 3vh;
+}
+
+.actions article p {
+  display: inline-block;
+  width: 18vw;
+}
+
+.actions {
+  position: relative;
+  left: -6vw;
+}
