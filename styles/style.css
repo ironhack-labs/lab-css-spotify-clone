@@ -50,9 +50,17 @@ nav a {
 h1,
 h2 {
   color: white;
-  width: 50%;
+  width: 60%;
   text-align: center;
+  margin: 0;
 }
+
+h1 {
+  font-size: 3.2em;
+}
+h2 {
+  font-size: 1em;
+  }
 
 #wos {
   text-align: center;
@@ -65,6 +73,7 @@ h2 {
   display: flex;
   justify-content: space-between;
   margin: 55px auto;
+  width: 80%;
 }
 
 #mid-section div {
@@ -83,21 +92,66 @@ h2 {
   color: #00b172;
 }
 
-#bottom-section {
+#bottom-section-group {
   background-color: #00b172;
-  width: 800px;
+  width: 740px;
   height: 600px;
   color: #fff;
   margin: auto;
+  padding: 0 25px;
+  display: flex;
+  flex-direction: column;
+  /* align-items: center; */
+  justify-content: space-evenly;
+}
+
+#bottom-section {
+  background-color: #00b172;
+  width: 740px;
+  /* height: 600px; */
+  color: #fff;
+  /* margin: auto; */
   display: flex;
   align-items: center;
   justify-content: space-between;
 }
 
+#left-column{
+  width: 45%;
+}
+
+#left-column > div {
+width: 80%;
+display: flex;
+flex-direction: column;
+align-items: flex-start;
+justify-content: left;
+padding-left: 20px;
+
+}
+
 #mid-column img{
-    height: 30px;
+    height: 70px;
+}
+
+#right-column {
+width: 45%;
 }
 
 #right-column img {
-    width: 50%;
+    width: 75%;
+    display: block;
+    margin: 0 auto;
+    margin-right: 10px;
+}
+
+#yeezy {
+  width: 50%;
+  display: block;
+  margin: -50px 20px;
+  /* position: relative; */
+  /* top: 60px; */
+  /* left: 60px; */
+  text-decoration: underline;
+  font-size: 25px;
 }
