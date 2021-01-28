@@ -1,3 +1,4 @@
+@import url('https://fonts.adobe.com/fonts/proxima-nova');
 /*
 Colors:
 
@@ -6,3 +7,144 @@ Green: #00B172
 White: #FFF
 
 */
+html {
+    font-family: sans-serif;
+}
+
+.header-div {
+    padding: 0 25px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.nav-bar {
+    width: 425px;
+}
+
+.nav-bar a {
+    color: #1A1A1A;
+    text-decoration: none;
+}
+
+.nav-bar-ul {
+    list-style: none;
+    display: flex;
+    justify-content: space-between;
+    align-items: left;
+    
+}
+
+.logo {
+    width: 150px;
+    padding-bottom: 10px;
+}
+
+.page-intro {
+    background-image: url(../images/landing.jpg);
+    background-size: 1000px;
+    height: 600px;
+    color: #FFF;
+    display: flex;
+    font-family: sans-serif;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+}
+
+h1 {
+    font-size: 68px;
+    align-items: center;
+    text-align: center;
+    font-weight: 1200;
+}
+
+.intro-body {
+    width: 600px;
+    align-items: center;
+    justify-content: center;
+    text-align: center;
+    font-size: 24px;
+    font-weight: 80;
+}
+
+h2 {
+    text-align: center;
+    font-size: 32px;
+}
+
+.top-hr {
+    border-top: 3px solid #00B172;
+    width: 300px;
+}
+
+h3 {
+    font-size: 22px;
+    color: #00B172;
+    width: 210px;
+    align-items: center;
+    text-align: center;
+    margin: 0 auto;
+}
+
+.middle-text {
+    font-size: 18px;
+    font-weight: 80;
+    line-height: 22px; 
+}
+
+.middle-container {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    text-align: center;
+    padding-top: 10px;
+    justify-content: space-evenly;
+    padding-top: 50px;
+    padding-bottom: 25px;
+}
+
+.middle-container > div {
+    width: 200px;
+}
+
+.music-icon, .quality-icon, .devices-icon {
+    width: 90px;
+}
+
+.bottom-section {
+    height: 1000px;
+    background-color: hsl(159, 100%, 35%);
+    color: #FFF;
+}
+
+.bottom-section p {
+    padding-left: 100px;
+    font-size: 24px;
+    font-weight: 300;
+    line-height: 35px;
+    width: 360px;
+}
+
+.bottom-hr {
+    border-top: 3px solid #FFF;
+    width: 500px;
+    text-align: left;
+    margin-left: 102px;
+    margin-top: -30px;
+}
+
+h4 {
+    color: #FFF;
+    padding-top: 100px;
+    padding-left: 100px;
+    font-size: 38px;
+    font-weight: 550;
+}
+
+h5 {
+    color: #FFF;
+    font-size: 34px;
+    font-weight: 550;
+    padding-left: 100px;
+}
