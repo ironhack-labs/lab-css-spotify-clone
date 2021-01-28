@@ -7,10 +7,13 @@ White: #FFF
 
 */
 
-body {
-  font-family: sans-serif;
+* {
+  font-family: "Segoe UI", Tahoma, Geneva, Verdana, sans-serif;
   font-weight: lighter;
+  margin: 0;
+  padding: 0;
 }
+
 .header {
   height: 10%;
   background-color: white;
@@ -21,27 +24,29 @@ body {
   font-size: 32px;
   word-spacing: 30px;
 }
-.spot-logo {
-  width: 15%;
+.header > img {
+  width: 20%;
   height: 15%;
-  padding: 8px 5px 8px 5px;
+  margin-left: 0%;
+  margin-top: -6%;
+  margin-bottom: -6%;
 }
+
 .background {
-  height: 30%;
   text-align: center;
   color: white;
   font-size: 40px;
 }
-.every {
+.background > h1 {
   position: absolute;
   top: 70%;
   left: 50%;
   transform: translate(-50%, -50%);
   white-space: nowrap;
 }
-.free {
+.background > h3 {
   position: absolute;
-  top: 95%;
+  top: 80%;
   left: 44%;
   transform: translate(-50%, -50%);
   white-space: nowrap;
@@ -68,88 +73,118 @@ body {
 
 .green {
   background-color: #00b172;
-  padding: 0 0 5px 0;
+  width: 1270px;
+  height: 790px;
+  margin-left: 3%;
+  margin-top: 5%;
+  margin-bottom: 3%;
 }
-header .nav {
+.header > nav {
   font-size: 22px;
-  padding: 25px 55px 5px 5px;
+  padding: 40px 55px 40px 5px;
 }
+
+nav a:hover {
+  color: #5db860;
+  transition: color 0.1s;
+  /*começa e termina na mesma velocidade*/
+}
+
 a {
   text-decoration: none;
   background-color: none;
   color: black;
 }
-.medium-title {
+main > h1 {
+  margin-top: 40px;
   text-align: center;
   font-size: 35px;
   height: 20px;
+  font-weight: bold;
 }
-.verte {
+main > hr {
+  margin: 2% 50% 1% 38.5%;
   color: #00b172;
   background-color: #00b172;
   width: 23%;
   height: 4px;
 }
+
 h2 {
   color: #00b172;
   text-align: center;
   font-size: 32px;
+  font-weight: bold;
 }
+
 p {
   text-align: center;
   font-size: 28px;
+  padding-top: 10%;
 }
 .millions {
   width: 30%;
-  margin-left: 34%;
+  margin-left: 40%;
+  margin-bottom: 2%;
+  margin-top: 20%;
 }
+
 .hd {
   width: 30%;
   margin-left: 34%;
+  margin-bottom: 2%;
+  margin-top: 20%;
 }
 .stream {
   width: 30%;
   margin-left: 34%;
+  margin-bottom: 2%;
+  margin-top: 20%;
 }
 
 .icon {
   position: relative;
   width: 10%;
   left: 50%;
-  transform: translate(-50%, 370%);
+  transform: translate(-50%, 300%);
   /* usar flexbox ou background image --> tentar construir essa parte novamente*/
 }
 
 .yeezy {
   color: white;
   margin-left: 80px;
-  height: 20px;
-  font-size: 35px;
+  margin-top: -3%;
+  font-size: 40px;
+  font-weight: bold;
 }
 .app {
   width: 25%;
   float: right;
   margin-right: 100px;
-  margin-top: 200px;
+  margin-top: 150px;
 }
 h3 {
   color: white;
   font-size: 30px;
   margin-left: 80px;
   margin-top: 60px;
+  margin-bottom: -90px;
+  font-weight: bold;
 }
 
 .know {
   color: white;
   text-align: left;
   margin-left: 80px;
-  margin-bottom: 60px;
+  margin-bottom: -20px;
   font-size: 25px;
 }
+
 .blanche {
   color: white;
   background-color: white;
-  width: 35%;
+  width: 40%;
   height: 3px;
   margin-left: 80px;
+  margin-top: 10px;
 }
