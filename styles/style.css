@@ -36,16 +36,16 @@
 #music-for-everyone {
     color: #FFF;
     font-family: Arial, Helvetica, sans-serif;
-    height: 1000px;
+    height: 800px;
     width: 100%;
     position: relative;
     top: 60px;
     z-index: -1;
+    margin-bottom: 100px;
 }
 
 .background-photo {
     background-image: linear-gradient(rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5)), url("/images/landing.jpg");
-    height: 800px;
     background-position: center;
     background-repeat: no-repeat;
     background-size: cover;
@@ -74,22 +74,36 @@
 /*section 2*/
 
 #whats-on-spotify{
-    height: 600px;
+    position: relative;
+    height: 400px;
     background-color: white;
     font-family: Arial, "Helvetica Neue", Helvetica, sans-serif;
 }
 
 #whats-on-spotify > h2{
-    font-size: 25px;
+    font-size: 3em;
     display: flex;
     justify-content: center;
     width: auto;
     text-decoration:underline 2px #00B172;
+    margin-bottom: 50px;
 }
 
 #icon-menu{
+    text-align: center;
     display: flex;
     flex-wrap: nowrap;
+    align-items: center;
+    justify-content: space-evenly;
+}
+
+#icon-menu img {
+    width: 60px;
+}
+
+#icon-menu h3 {
+    color: #00B172;
+    margin: 15px 20px;
 }
 
 /*section 3*/
