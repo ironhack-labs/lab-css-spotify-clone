@@ -1,8 +1,154 @@
 /*
 Colors:
-
 Text: 1A1A1A
 Green: #00B172
 White: #FFF
-
 */
+
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    color: #1A1A1A;
+}
+
+#logo{
+    width: 15%;
+}
+
+a{
+    text-decoration: none;
+    color: black;
+}
+
+ul{
+    color: #1A1A1A;
+    width: 40%;
+    list-style: none;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    font-size: 1.5em;
+}
+
+#nav-bar{
+    display: flex;
+    justify-content: space-between;
+    padding: 15px 30px;
+    position: fixed;
+    background-color: white;
+    z-index: 10;
+}
+
+#party{
+    height: 100vh;
+    background-color: black;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    background-image: url(./../images/landing.jpg);
+    background-position: center;
+    background-size: 100%;
+}
+
+h1{
+    color: white;
+    font-size: 5em;
+    padding: 50px;
+}
+
+#party p{
+    font-size: 2em;
+    color: white;
+    text-align: center;
+}
+
+h2{
+    font-size: 2em;
+    text-align: center;
+    margin-top: 50px;
+    border-bottom: 5px solid #00B172;
+    width: 280px;
+    padding: 3px;
+    margin: 50px auto;
+}
+
+article img{
+    width: 150px;
+    margin: 10px;
+}
+
+#spot-options{
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-around;
+    align-content: center;
+    margin: 100px 0;
+}
+
+article{
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+    justify-content: space-between;
+    width: 30%;
+    text-align: center;
+}
+
+h3{
+    color: #00B172;
+    font-size: 2em;
+}
+
+article p{
+    font-size: 1.5em;
+    width: 60%;
+}
+
+#green{
+    margin: 0 50px;
+    background-color: #00B172;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    padding: 5%;
+    margin-bottom: 100px;
+}
+
+h4{
+    color: white;
+    font-size: 2em; 
+    border-bottom: 5px solid white;
+    padding: 3px;
+    margin-bottom: 5%;
+}
+
+#white{
+    width: 100px;
+    height: 100px;
+}
+
+#app{
+    width: 320px;
+    height: 568px;
+}
+
+#green span{
+    display: flex;
+    flex-direction: column;
+    justify-content: space-around;
+    align-items: baseline;
+}
+
+h5{
+    color: white;
+    font-size: 1.8em;
+    margin: 30px 0;
+}
+
+#green p{
+    color: white;
+    font-size: 1.5em;
+    width: 350px;
+}
