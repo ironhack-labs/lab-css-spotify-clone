@@ -1,4 +1,4 @@
-*{
+* {
     margin: 0;
     padding: 0;
 }
@@ -9,33 +9,68 @@
     background-color: white;
     width: 100%;
     color: #1A1A1A;
-    display: flex;
     position: fixed;
 }
 
-#navbar > div{
+#navbar>div {
     display: flex;
-    align-items: center;
     justify-content: flex-end;
+    align-items: center;
+    height: 50px;
+    font-family: Arial, Helvetica, sans-serif;
 }
 
-.menu-links{
+.menu-links {
     margin: 5px 10px;
-    display: flex;
-    justify-content: flex-end;
 }
 
 .spotify-logo {
-    height:auto;
-    width: 20%;
-    margin: 5px 15px;
+    width: 100px;
+    margin: 15px;
     float: left;
 }
 
 
 /*Section 1*/
 
+#music-for-everyone {
+    color: #FFF;
+    font-family: Arial, Helvetica, sans-serif;
+    height: 1000px;
+    width: 100%;
+    position: relative;
+    top: 60px;
+    z-index: -1;
+}
 
+.background-photo {
+    background-image: linear-gradient(rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5)), url("/images/landing.jpg");
+    height: 800px;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    position: relative;
+}
+
+#h1 {
+    font-size: 4.5em;
+    margin: 20px;
+}
+
+#article {
+    font-size: 20px;
+    text-align: center;
+}
+
+.sec-1-text {
+    height: 800px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+}
+
+/*section 2*/
 
 
 /*
