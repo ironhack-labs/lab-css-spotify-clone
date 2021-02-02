@@ -30,7 +30,7 @@ body {
 }
 
 header img{
-    width: 120px;
+    width: 118px;
 }
 
 #header {
@@ -51,14 +51,25 @@ li
     padding:10px;
 }
 
-#section-deux {
-    height: 30%;
-    color: #1A1A1A;
-}
-
 #section-un {
     height: 500px;
 }
+
+#section-un {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    text-align: center;
+}
+
+#section-un h1 {
+    font-size: 3em;
+}
+
+#section-un p {
+    font-size: 1.5em;
+}
+
 
 article img {
     width: 40px;
@@ -71,6 +82,10 @@ article img {
 .spotify-icon-white {
     width: 30px;
     height: 30px;
+}
+#section-deux {
+    height: 30%;
+    color: #1A1A1A;
 }
 
 #section-deux div {
@@ -94,6 +109,10 @@ article img {
     padding: 20px 20px 0px 20px;
 }
 
+#section-deux p {
+    text-align:center
+}
+
 h4 {
     text-decoration: underline;
 }
@@ -103,21 +122,5 @@ h4 {
     padding-left: 30px;
 }
 
-#section-deux p {
-    text-align:center
-}
 
-#section-un {
-    display: flex;
-    flex-direction: column;
-    justify-content: center;
-    text-align: center;
-}
 
-#section-un h1 {
-    font-size: 3em;
-}
-
-#section-un p {
-    font-size: 1.5em;
-}
