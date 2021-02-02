@@ -209,6 +209,48 @@ h3 {
     
 }
 
+@media screen and (max-width: 850px) {
+    .content-container {
+        flex-direction: column;
+        align-items: center;
+    }
+
+    .widget p {
+        margin-bottom: 15px;
+    }
+
+    .widget:last-child p:last-child {
+        margin-bottom: 150px;
+    }
+
+    .footer-small-image {
+        display: none;
+    }
+
+    .footer-container {
+        flex-direction: column;
+        align-items: center;
+    }
+
+    .img-footer-container {
+        width: 200px;
+    }
+
+    .footer-container aside {
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+    }
+
+    .footer-widget {
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        text-align: center;
+    }
+    
+}
+
 
 
 
