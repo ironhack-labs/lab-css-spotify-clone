@@ -7,11 +7,15 @@ White: #FFF
 
 */
 
+@import url('https://fonts.googleapis.com/css2?family=Maven+Pro:wght@400;700&display=swap');
+
 * {
-    margin: 0;
     padding: 0;
+    margin: 0;
     box-sizing: border-box;
+    font-family: "Maven Pro";
 }
+
 
 header {
     height: 60px;
@@ -27,6 +31,8 @@ header {
 
 header > nav > a {
     margin: 0 10px;
+    padding: 20px;
+    text-decoration: none;
 }
 
 main {
@@ -50,12 +56,13 @@ main {
 }
 
 #music-every-one > h1 {
-    font-size: 10vh;
+    font-size: 5vw;
     padding: 5vh;
+    text-align: center;
 }   
 
 #music-every-one > article {
-    font-size: 4vh;
+    font-size: 2vw;
     text-align: center;
 }
 
@@ -73,11 +80,9 @@ main {
 
 #whats-on > h1 {
     text-align: center;
-    font-size: 7vh;
+    font-size: 5vw;
     border-bottom: 2px solid #00B172;
     margin: 7vw 0;
-    background-color: red;
-
 }
 
 #whats-on > div {
@@ -98,8 +103,83 @@ main {
 
 #whats-on > div > div > * {
     padding-bottom: 1vw;
+    font-size: 2vw;
 }
 
 #whats-on > div > div > h2 {
     color: #00B172;
 }
+
+#kanye {
+    width: 100%; 
+    height: 100vh;
+    padding: 6vh;
+    position: relative;
+    color: #FFF;
+}
+
+#kanye > div {
+    background-color: #00B172;
+    width: 100%;
+    height: 100%;
+    position: relative;
+}
+
+#kanye > div > div {
+    position: absolute;
+    width: 100%;
+    height: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+#logo-white {
+    width: 10vw;
+    z-index: 20;
+}
+
+#kanye-aticle > div {
+    width: 50%;
+}
+
+#kanye-text-container {
+    display: flex;
+    flex-direction: column;
+    justify-content: left;
+    padding-left: 8vw;
+    padding-right: 5vw;
+
+
+}
+
+#kanye-text-container >  h2 {
+    margin-bottom: 5vh;
+    font-size: 2.5vw;
+}
+
+#kanye-text-container >  article {
+    margin-bottom: 5vh;
+    font-size: 1.5vw;
+}
+
+
+#kanye-text-container >  h1 {
+    margin-bottom: 5vh;
+    padding: 1vh;
+    font-size: 3vw;
+    white-space: nowrap;
+    width: fit-content;
+    border-bottom: 2px solid #FFF;
+}
+
+#kanye-image-container {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+#kanye-image {
+    height: 80vh;
+}
+
