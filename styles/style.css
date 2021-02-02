@@ -1,8 +1,145 @@
 /*
 Colors:
 
-Text: 1A1A1A
+Text: 
 Green: #00B172
 White: #FFF
 
 */
+
+body {
+    font-family: Circular, Helvetica, Arial, sans-serif, IosFix;
+    padding:0;
+    margin:0;
+}
+header {
+    position:fixed;
+    background-color:#FFF;
+    width:100%;
+    padding:8px;
+
+}
+
+header > div {
+    display:flex;
+    justify-content: space-between;
+    align-items: right;
+}
+
+nav{
+    width:600%;
+}
+
+nav ul{
+    list-style:none;
+    display:flex;
+    justify-content: flex-end;
+    align-items: center; 
+    margin:10px;  
+}
+nav a{
+    text-decoration:none;
+    color:black;
+    margin:10px;  
+}
+
+.spotify-logo {
+    width:200px;
+}
+
+.music-center{
+    background-image: url(../images/landing.jpg);
+    background-repeat:no-repeat;
+    background-size:cover;
+    height:600px;
+    display:flex;
+    flex-direction:column;
+    align-items: center;
+    justify-content:center;
+    
+}
+
+.center-text{
+    color:#FFF;
+    text-align:center;
+    font-size:70px;
+}
+
+.center-p{
+    color:#FFF;
+    text-align:center;
+    margin:0;
+}
+
+.section-img-structure{
+    width:80px;
+    height:70px;
+}
+
+.name-style{
+    text-align:center;
+    text-decoration: underline #00B172;
+    text-underline-position:under;   
+}
+.section-style{
+    display:flex;
+    align-items: center;
+    justify-content: space-around;
+    flex-wrap: wrap;
+ 
+}
+
+.section-style > div {
+    text-align: center;
+    width: 200px;
+    justify-content:center;
+}
+
+.section-style > div > h3{
+    color:#00B172;
+}
+
+.section-style > div > p {
+    color:gray;
+}
+
+.h2{
+    text-align:center;
+}
+
+
+
+.footer{
+    background-color:#00B172; 
+    color:#FFF;
+   
+    margin:10px;
+    padding:30px;
+    
+}
+
+.footer h3{
+    text-decoration: underline #FFF;
+    text-underline-position:under;
+
+}
+
+.footer-flexbox{
+    display:flex;
+    align-items:center;
+    justify-items:space-between;
+
+}
+
+.footer-logo {
+    width:100px;
+    height:100px;
+    margin:20px;
+}
+
+.footer-img {
+    width:200px;
+    height:300px;
+    justify-content:right;
+
+}
