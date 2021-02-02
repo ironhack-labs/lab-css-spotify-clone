@@ -1,3 +1,118 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+body {
+  background-color: white;
+}
+#nav-bar {
+  display: flex;
+  justify-content: space-between;
+  position: fixed;
+  background-color: white;
+  width: 100%;
+  height: 80px;
+  z-index: 1000;
+}
+#nav-bar img {
+  padding: 10px;
+}
+#menu {
+  display: flex;
+  align-items: center;
+  position: relative;
+  right: 10px;
+}
+#menu li {
+  padding: 0 5px;
+  list-style-type: none;
+}
+#menu a {
+  text-decoration: none;
+  color: black;
+  font-size: 1.2em;
+}
+#landing {
+  position: relative;
+  top: 80px;
+  background-image: url(/images/landing.jpg);
+  background-repeat: no-repeat;
+  background-size: cover;
+  height: 700px;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+#landing-text {
+  position: absolute;
+  color: white;
+  font-size: 1.2em;
+  text-align: center;
+}
+h1 {
+  font-size: 60px;
+  padding-bottom: 20px;
+}
+#what-is-on-spotify {
+  position: relative;
+  top: 100px;
+}
+h2 {
+  font-size: 35px;
+}
+#what-is-on-spotify h2 {
+  text-align: center;
+  text-decoration: underline #00b172;
+  margin-bottom: 20px;
+}
+#what-box {
+  display: flex;
+  justify-content: space-evenly;
+}
+#what-box article {
+  width: 200px;
+}
+#what-box h3 {
+  color: #00b172;
+  font-weight: bold;
+}
+#what-box p {
+  padding-top: 10px;
+}
+.icons {
+  height: 50px;
+}
+#kanye {
+  position: relative;
+  top: 200px;
+  background-color: #00b172;
+  margin: 0 10px;
+  display: flex;
+  justify-content: space-between;
+  padding: 20px;
+}
+.background-icon {
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  width: 80px;
+}
+.yeezy {
+  color: white;
+  text-align: left;
+  width: 45%;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-evenly;
+}
+.yeezy h2 {
+  text-decoration: underline;
+}
+.app img {
+  width: 250px;
+}
 /*
 Colors:
 
