@@ -6,3 +6,169 @@ Green: #00B172
 White: #FFF
 
 */
+
+
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    color: #1A1A1A
+}
+
+/* body{
+    text-align: center; */
+
+#header-main{
+    position:fixed;
+    z-index: 1;
+    background: white;
+}
+
+#main-nav-bar {
+    display: flex;
+    height: 100px;
+    width: 100%;
+}
+#main-nav-bar div{
+    display: flex;
+    align-items: center;
+}
+
+#main-nav-bar img{
+width: 20%;
+}
+
+#main-nav-bar ul{
+    width: 80%;
+    display: flex;
+    justify-content: flex-end;
+    height: 100%;
+    align-items: center;
+    list-style-type: none;
+
+}
+
+#main-nav-bar li{
+    margin: 30px;
+
+}
+
+#main-nav-bar a{
+    text-decoration: none;
+    color: black;
+    font-size: 1.5em;
+}
+
+#section-1 {
+    height: 800px;
+    position:relative;
+    top: 100px;
+    background-image:url(/module-1/lab-css-spotify-clone/images/landing.jpg) ;
+    background-size: cover ;
+}
+
+#section-1 h1{
+    font-size: 5em;
+    color: white;
+    text-align: center;
+    padding: 200px 0 0 0;
+}
+
+#section-1 p{
+    text-align: center;
+    color:white;
+    padding: 30px 0 0 0;
+    font-size: 2em
+
+}
+
+#section-2 {
+    height: 650px;
+    position:relative;
+    top: 100px;
+    text-align: center;
+    
+}
+
+#section-2 h2{
+    text-align: center;
+    font-size: 3em;
+    margin: 40px 0 0 0;
+    border-bottom: 3px solid #00B172;
+    display: inline-block;
+}
+
+#section-2 div{
+    display:flex;
+    justify-content: space-evenly;
+    margin: 70px 40px 0 ;
+}
+
+#section-2 article{
+    width: 30%;
+    height: 300px;
+    display: flex;
+    flex-direction: column;
+    text-align: center;
+    margin: 0 100px;
+}
+
+#section-2 img{
+    height: 100px;
+    margin-left: auto;
+    margin-right: auto;
+    margin-bottom: 20px;
+}
+
+#section-2 h3{
+    color:  #00B172;
+    font-size: 2em;
+    font-weight: bold;
+    margin-bottom: 20px;
+
+}
+
+#section-2 p{
+    font-size: 1.5em;
+}
+
+#section-3{
+    background:  #00B172;
+    margin: 30px;
+    height: 800px;
+}
+
+#section-3 h2{
+    font-size: 2.5em;
+    margin: 70px 0 0 70px;
+    border-bottom: 3px solid white;
+    display: inline-block;
+    color: white
+}
+
+#section-3 h3{
+    color: white;
+    font-size: 2em;
+    font-weight: bold;
+    margin: 50px 0 40px 70px;
+}
+
+#section-3 p{
+    color: white;
+    font-size: 1.5em;
+    margin: 0 0 0 70px;
+}
+
+#spotify-logo{
+    width: 150px;
+    position:relative;
+    bottom: 350px;
+    left: calc(50% - 100px);
+}
+
+#spotify-screenshot{
+    width: 300px;
+    position:relative;
+    bottom: 750px;
+    left: 70%;
+}
