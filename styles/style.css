@@ -1,8 +1,154 @@
-/*
-Colors:
 
-Text: 1A1A1A
-Green: #00B172
-White: #FFF
 
-*/
+#header-main {
+    position: fixed;
+    left: 8px;
+    right: 8px;
+    height: 80px;
+    background: white;
+    z-index: 1;
+}
+
+#nav-bar {
+    display: flex;
+    flex-wrap: nowrap;
+    justify-content: space-between;
+    align-items: center;
+    width: 100%;
+}
+
+.spotify-logo {
+    width: 100px;
+    height:30px;
+}
+
+.nav-list {
+    list-style-type: none;
+    display: flex;
+    justify-content: space-between;
+    width: 100%;
+    max-width: 320px;
+}
+
+
+.div-section1 {
+    background-image: url('../images/landing.jpg');
+    position: relative;
+    
+    background-size: cover;
+    min-height: 673px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    color: wheat;
+}
+
+.div-section1 > p {
+    color: white;
+    font-size: 23px;
+}
+
+.landing {
+    width: 138vh;
+    height: 570px;
+}
+
+h1 {
+    color: white;
+    position: relative;
+    font-size: 90px;
+    
+   
+}
+
+h2 {
+    display: flex;
+    justify-content: center;
+    font-size: 34px;
+}
+
+.music-icon {
+    width: 20%;
+    height: 20%;
+}
+
+
+
+.quality-icon {
+    width: 20%;
+    height: 20%;
+}
+
+.device-icon {
+    width: 20%;
+    height: 20%;
+}
+
+h3 {
+    color: rgb(26,178,107);
+    margin: 5px;
+}
+
+.music-div,
+.quality-div,
+.device-div{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.music-div > p,
+.quality-div > p,
+.device-div > p{
+    margin: 5px;
+}
+
+.section2{
+    display: flex;
+    align-items: flex-end;
+}
+
+.section3 {
+    background-color: rgb(26,177,106);
+    position: relative;
+    background-size: cover;
+    min-height: 530px;
+}
+
+h4 {
+    text-decoration: underline;
+    font-size: 35px;
+    padding: 20px;
+    color: white;
+}
+
+.search-div > h5,
+.browse-div > h5,
+.discover-div > h5{
+font-size: 190%;
+    margin: 0;
+    color: white;
+}
+
+.search-div > p,
+.browse-div > p,
+.discover-div > p{
+    font-size: 18px;
+    color: white;
+}
+
+.search-div,
+.browse-div,
+.discover-div{
+   padding-left: 20px;
+}
+
+.white-logo {
+    max-width: 13%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    position: relative;
+    margin: auto;
+}
