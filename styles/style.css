@@ -6,22 +6,24 @@ Green: #00B172
 White: #FFF
 
 */
-
+@import url('https://fonts.googleapis.com/css2?family=Roboto:wght@300;400;500;700&display=swap');
 
 * {
     margin: 0;
     padding: 0;
+    font-family:"Roboto";
 }
 
 #header {
     display: flex;
     flex-direction: row;
     justify-content: space-between;
+    padding: 10px;
 }
 
 .menu {
     display: flex;
-    align-content: center;
+    align-items: center;
 }
 
 .menu a{
@@ -32,7 +34,7 @@ White: #FFF
 }
 
 #section1 {
-    background-size: 100%;
+    background-size: cover;
     width: 100%;
     height: 600px;
     color: white;
@@ -40,6 +42,7 @@ White: #FFF
     flex-direction: column;
     justify-content: center;
     text-align: center;
+    background-position: center bottom;
 }
 
 #section1 h1 {
@@ -56,11 +59,12 @@ White: #FFF
     display: flex;
     flex-direction: column;
     text-align: center;
+    align-items: center;
 }
 
 #section2 h2 {
     margin-top: 25px;
-    text-decoration: underline #00B172;
+    border-bottom: solid 3px #00B172;
 }
 
 .article h3 {
@@ -77,22 +81,64 @@ White: #FFF
 
 .boxes {
     display: flex;
-    justify-content: space-between;
+    justify-content: space-around;
     margin: 50px;
+    width: 100%;
 }
 
+.boxes-green-section {
+    margin: 60px;
+}
 .article {
     display: flex;
     flex-direction: column;
     align-items: center;
+    width: 200px;
 }
 
 #section3 {
     background-color: #00B172;
     color:white;
     height: 600px;
+    position: absolute;
+    width: 100%;
+    display: flex;
 }
 
 #section3 h2 {
-    
+    font-size: 30px;
+    border-bottom: solid 3px white;
+}
+
+.gb-article {
+    margin: 60px 0;
+}
+
+.gb-article h3{
+    font-size: 21px;
+    margin-bottom: 12px;
+}
+
+.spotify-img {
+    position: relative;
+    margin: 30px;
+}
+
+.kanye-pic {
+    position: relative;
+    margin: 30px 50px;
+}
+
+.gs-images{
+    display: flex;
+    justify-content:flex-end;
+    align-items: center;
+    margin-top: 40px;
+}
+
+.img-txt {
+    display: flex;
+    flex-direction: row-reverse;
+    width: 100%;
+    justify-content: space-between;
 }
