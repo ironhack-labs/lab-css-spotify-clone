@@ -6,3 +6,100 @@ Green: #00B172
 White: #FFF
 
 */
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+header {
+    height: 60px;
+    padding: 10px 20px ;
+    position: fixed;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    width: 100vw;
+    z-index: 2;
+    background-color: #FFF;
+}
+
+header > nav > a {
+    margin: 0 10px;
+}
+
+main {
+    position: relative;
+    top: 60px;
+}
+
+#logo {
+    height: 40px;
+}
+
+#music-every-one {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    background-image: url("../images/landing.jpg");
+    background-size: cover;
+    height: calc(100vh - 60px) ;
+    color: #FFF;
+}
+
+#music-every-one > h1 {
+    font-size: 10vh;
+    padding: 5vh;
+}   
+
+#music-every-one > article {
+    font-size: 4vh;
+    text-align: center;
+}
+
+#whats-on {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+}
+
+#whats-on img {
+    height: 60px;
+    width: 60px;
+}
+
+#whats-on > h1 {
+    text-align: center;
+    font-size: 7vh;
+    border-bottom: 2px solid #00B172;
+    margin: 7vw 0;
+    background-color: red;
+
+}
+
+#whats-on > div {
+    display: flex;
+    justify-content: space-between;
+
+}
+
+#whats-on > div > div {
+    width: 30vw;
+    height: 30vh;
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-start;
+    align-items: center;
+    text-align: center;
+}
+
+#whats-on > div > div > * {
+    padding-bottom: 1vw;
+}
+
+#whats-on > div > div > h2 {
+    color: #00B172;
+}
