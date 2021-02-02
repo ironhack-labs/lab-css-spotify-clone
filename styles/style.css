@@ -1,8 +1,144 @@
-/*
-Colors:
+@import url("https://fonts.googleapis.com/css?family=Montserrat");
 
-Text: 1A1A1A
-Green: #00B172
-White: #FFF
+html {
+    font-family: Montserrat;
+  }
 
-*/
+body {
+    margin: 0px;
+}  
+
+h1 {
+    font-size: 5em;
+    margin: 0px;
+}
+
+h2, h3 {
+    font-size: 2em;
+}
+
+h1, h3 {
+    font-weight: bold;
+}
+
+h2 {
+    text-decoration: underline;
+    text-underline-offset: 0.3em;
+}
+
+nav {
+    position: fixed;
+    width: 95%;
+    display: flex;
+    justify-content: space-between;
+    background-color: white;
+    padding: 20px 50px;
+}
+
+nav img {
+    width: 250px;
+    height: 75px;
+}
+
+ul {
+    display: flex;
+    font-size: 1.3em;
+}
+
+li {
+    list-style-type: none;
+    padding: 0px 10px;
+}
+
+a {
+    text-decoration: none;
+    color: black;
+}
+
+.div-title {
+    background-image: url("/day-2/lab-css-spotify-clone/images/landing.jpg");
+    background-size: cover;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    height: 1000px;
+}
+
+.div-title p, h1 {
+    width : 50%;
+    color: white;
+    text-align: center;
+}
+
+.div-title p {
+    font-size: 1.7em;
+}
+
+div p {
+    font-size: 1.5em;
+    color: #1A1A1A;
+}
+  
+#wrap > div {
+    display: flex;
+    justify-content: space-around;
+    flex-direction: row;
+    flex-wrap: wrap;
+    margin: 8%;
+}
+
+#wrap h2 {
+    text-align: center;
+    padding: 10px;
+    text-decoration-color: #00B172;
+}
+
+#wrap h3 {
+    color: #00B172;
+}
+
+.what-on-spotify {
+    text-align: center;
+    box-sizing: border-box;
+    width: 25%;
+}
+
+.what-on-spotify img {
+      width: 130px;
+}
+
+.yeezy {
+    background-color: #00B172;
+    color: white;
+    padding: 10px;
+    margin: 3%;
+}
+
+.yeezy p {
+    color:white;
+}
+
+#yeezy-wrap > div {
+    display: flex;
+    justify-content: space-between;
+    flex-direction: row;
+    flex-wrap: wrap;
+}
+
+.yeezy-Kanye {
+    width: 50%;
+}
+
+.yeezy-Kanye article {
+    margin: 5%;
+    width: 55%;
+}
+
+.img1 {
+    width: 25%;
+}
+
+.img2 {
+    width: 50%;
+}
