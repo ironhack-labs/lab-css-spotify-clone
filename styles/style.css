@@ -56,7 +56,8 @@ menu ul {
   padding-top: 80px;
   height: 700px;
   background-image: url("/images/landing.jpg");
-  background-size: contain;
+  background-size: cover;
+  background-position: center;
   flex-direction: column;
   justify-content: center;
   align-items: center;
@@ -90,11 +91,11 @@ menu ul {
   font-size: 30px;
 }
 
-#features {
+.features {
   margin-top: 80px;
   justify-content: center;
 }
-#features h3 {
+.features h3 {
   margin: 20px 0 30px 0;
   color: #00b172;
   font-weight: 700;
@@ -108,10 +109,10 @@ menu ul {
   margin-top: 5px;
 }
 
-#features img {
+.features img {
   height: 80px;
 }
-#features > div {
+.features > div {
   width: 250px;
   margin: 0 40px;
   flex-direction: column;
@@ -119,7 +120,7 @@ menu ul {
   justify-content: flex-start;
 }
 
-#features p {
+.features p {
   text-align: center;
 }
 
@@ -164,4 +165,84 @@ h3 {
 }
 #app-img img {
   height: 400px;
+}
+
+/* MEDIA QUERIES */
+@media (max-width: 880px) {
+  .logo {
+    width: 200px;
+  }
+  #menu li {
+    margin: 0 20px;
+  }
+  #section-one {
+    background-size: cover;
+  }
+  #section-one h1 {
+    font-size: 50px;
+    width: 90%;
+  }
+  #section-one p {
+    width: 80%;
+  }
+  .features {
+    flex-direction: column;
+    align-items: center;
+    margin-top: 0;
+  }
+  .features > div {
+    margin-top: 50px;
+    width: 300px;
+  }
+  #section-three {
+    padding: 40px;
+    background-size: 70px;
+    background-position: center;
+  }
+  #app-img {
+    margin-top: 30px;
+  }
+}
+@media (max-width: 700px) {
+  .logo {
+    width: 140px;
+  }
+  #menu li {
+    margin: 0 5px;
+  }
+  #section-one {
+    background-size: cover;
+  }
+  #section-one h1 {
+    font-size: 50px;
+    width: 90%;
+  }
+  #section-one p {
+    width: 80%;
+  }
+  .features {
+    flex-direction: column;
+    align-items: center;
+    margin-top: 0;
+  }
+  .features > div {
+    margin-top: 50px;
+    width: 300px;
+  }
+  #section-three {
+    flex-direction: column;
+    align-items: center;
+    padding: 40px 20px 80px;
+    background-size: 40px;
+    background-position: bottom 20px center;
+  }
+  #section-three > div {
+    align-items: center;
+  }
+  #section-three p {
+    text-align: center;
+  }
+  #app-img {
+    margin-top: 30px;
+  }
 }
