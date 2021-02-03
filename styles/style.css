@@ -6,3 +6,154 @@ Green: #00B172
 White: #FFF
 
 */
+html,
+body {
+    margin: 0;
+    }
+
+
+.navbar {
+    position: fixed;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    background: white;
+    width: 100%;
+}
+
+.navbar>img {
+    width: 175px;
+    height: 50px;
+    padding: 10px 50px;
+}
+    
+.navbar>ul {
+    display: flex;
+    list-style: none;
+    justify-content: space-around;
+    align-items: center;
+    width: 30%;
+}
+        
+.navbar>ul>li {
+    color: #1a1a1a
+}
+
+.navbar a {
+    text-decoration: none;
+    color: #1a1a1a;
+}
+            
+
+.hero-img {
+    background-image: url("../images/landing.jpg");
+    background-size: cover;
+    background-repeat: no-repeat;
+    height: 900px
+    width: 100%
+    display: flex;
+    content: justify;
+    align-items: center;
+    flex-direction: column;
+}
+
+.hero-img>h1 {
+    color: white;
+    font-size: 5rem;
+}
+    
+.description {
+    color: white;
+    width: 50%;
+    text-align: center;
+    font-size: 2.1rem;
+    font-weight: lighter;
+}
+
+main {
+    padding: 20px 50px 30px;
+}
+        
+.features {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    padding: 30px 50px 70px;
+}
+
+.features>h2 {
+    display: inline-block;
+    margin: 20px auto 50px;
+    text-align: center;
+    border-bottom: 2px solid #00B172;
+    font-size: 2rem;
+}
+            
+.cards-container {
+    display: flex;
+    justify-content: space-around;
+    width: 80%;
+}
+
+.card {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    width: 25vw;
+}
+    
+.card>h3 {
+    color: #00B172;
+    font-size: 1.4rem;
+}
+
+.card>img {
+    width: 100px;
+}
+    
+.card>p {
+    text-align: center;
+    width: 50%;
+    color: #1A1A1A;
+    font-size: 1.1rem;
+}
+   
+.green {
+    background-color: #00B172;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    padding: 70px 40px;
+}
+
+.logo {
+    width: 100px;
+    height: 100px;
+    position: absolute;
+}
+    
+.spotify-app {
+    height: 60vh;
+    max-height: 600px;
+}
+    
+.text-container>p {
+    width: 35%;
+    color: white;
+    margin: 50px 0;
+}
+    
+.text-container>h2 {
+    display: inline-block;
+    margin: 20px auto 50px;
+    text-align: center;
+    border-bottom: 2px solid white;
+    font-size: 2rem;
+    color: white;
+}
+    
+    .text-container>h3 {
+    color: white;
+    font-size: 1.5rem;
+}
