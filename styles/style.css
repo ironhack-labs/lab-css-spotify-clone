@@ -16,15 +16,17 @@ White: #FFF
     font-family: "Maven Pro";
 }
 
+/*Header*/
+
 
 header {
     height: 60px;
     padding: 10px 20px ;
+    width: 100vw;
     position: fixed;
     display: flex;
     align-items: center;
     justify-content: space-between;
-    width: 100vw;
     z-index: 2;
     background-color: #FFF;
 }
@@ -35,14 +37,18 @@ header > nav > a {
     text-decoration: none;
 }
 
+#logo {
+    height: 40px;
+}
+
+/*  Main */
+
 main {
     position: relative;
     top: 60px;
 }
 
-#logo {
-    height: 40px;
-}
+/*Music for every-one section*/
 
 #music-every-one {
     display: flex;
@@ -57,7 +63,7 @@ main {
 
 #music-every-one > h1 {
     font-size: 5vw;
-    padding: 5vh;
+    padding: 5vh 0;
     text-align: center;
 }   
 
@@ -66,16 +72,15 @@ main {
     text-align: center;
 }
 
+/*whats-on*/
+
+
 #whats-on {
     display: flex;
     flex-direction: column;
     align-items: center;
     justify-content: center;
-}
-
-#whats-on img {
-    height: 60px;
-    width: 60px;
+    color: #1A1A1A ;
 }
 
 #whats-on > h1 {
@@ -91,7 +96,7 @@ main {
 
 }
 
-#whats-on > div > div {
+#whats-on > div > article {
     width: 30vw;
     height: 30vh;
     display: flex;
@@ -101,31 +106,38 @@ main {
     text-align: center;
 }
 
-#whats-on > div > div > * {
+#whats-on > div > article > img, h2, p {
     padding-bottom: 1vw;
     font-size: 2vw;
 }
 
-#whats-on > div > div > h2 {
+#whats-on > div > article > img {
+    height: 60px;
+    width: 60px;
+}
+
+#whats-on > div > article > h2 {
     color: #00B172;
 }
 
+/*Kanye part : How to loose my last hair*/
+
 #kanye {
-    width: 100%; 
+    width: 100%; /*100vw does'ent work, it goes out of the screen ...*/
     height: 100vh;
-    padding: 6vh;
-    position: relative;
+    padding: 3vw;
+    /*position: relative;*/
     color: #FFF;
 }
 
-#kanye > div {
+#kanye > #green-background {
     background-color: #00B172;
     width: 100%;
     height: 100%;
     position: relative;
 }
 
-#kanye > div > div {
+#kanye > #green-background > div {
     position: absolute;
     width: 100%;
     height: 100%;
@@ -134,12 +146,12 @@ main {
     justify-content: center;
 }
 
-#logo-white {
+#kanye > #green-background > div > #logo-white {
     width: 10vw;
     z-index: 20;
 }
 
-#kanye-aticle > div {
+#kanye > #green-background > #kanye-aticle > div, article {
     width: 50%;
 }
 
@@ -153,17 +165,6 @@ main {
 
 }
 
-#kanye-text-container >  h2 {
-    margin-bottom: 5vh;
-    font-size: 2.5vw;
-}
-
-#kanye-text-container >  article {
-    margin-bottom: 5vh;
-    font-size: 1.5vw;
-}
-
-
 #kanye-text-container >  h1 {
     margin-bottom: 5vh;
     padding: 1vh;
@@ -172,6 +173,18 @@ main {
     width: fit-content;
     border-bottom: 2px solid #FFF;
 }
+
+
+#kanye-text-container >  h2 {
+    margin-bottom: 5vh;
+    font-size: 2.5vw;
+}
+
+#kanye-text-container >  p {
+    margin-bottom: 5vh;
+    font-size: 1.5vw;
+}
+
 
 #kanye-image-container {
     display: flex;
