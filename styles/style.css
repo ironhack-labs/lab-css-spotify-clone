@@ -16,36 +16,73 @@ White: #FFF
     font-family: "Maven Pro";
 }
 
+html {
+    font-size: 10px ;
+}
+
+@media (min-width: 600px) and (max-width: 999px) {
+    html {
+        font-size: 8px;
+      }
+}
+
+@media (max-width: 600px) {
+    html {
+      font-size: 6px;
+    }
+  }
+
 /*Header*/
 
+.text {
+    font-size: 2.8rem;
+}
 
 header {
-    height: 60px;
+    height: 80px;
     padding: 10px 20px ;
     width: 100vw;
+    background-color: #FFF;
+    font-size: 1.8rem;
     position: fixed;
     display: flex;
     align-items: center;
     justify-content: space-between;
     z-index: 2;
-    background-color: #FFF;
+}
+
+header > nav {
+    display: flex;
+    flex-flow: row wrap;
+    justify-content: space-around;
+    align-items: center;
+    height: 100%;
+    width: 40% ;
+}
+
+@media (max-width: 999px) {
+    header > nav {
+        width:50%;
+      }
 }
 
 header > nav > a {
     margin: 0 10px;
-    padding: 20px;
+    min-width: 60px;
     text-decoration: none;
+    color: #1A1A1A ;
+    text-align: center;
 }
 
 #logo {
-    height: 40px;
+    height: 60px;
 }
 
 /*  Main */
 
 main {
     position: relative;
-    top: 60px;
+    top: 80px;
 }
 
 /*Music for every-one section*/
@@ -57,18 +94,17 @@ main {
     justify-content: center;
     background-image: url("../images/landing.jpg");
     background-size: cover;
-    height: calc(100vh - 60px) ;
+    height: calc(100vh - 80px) ;
     color: #FFF;
 }
 
 #music-every-one > h1 {
-    font-size: 5vw;
+    font-size: 9rem;
     padding: 5vh 0;
     text-align: center;
 }   
 
 #music-every-one > article {
-    font-size: 2vw;
     text-align: center;
 }
 
@@ -84,20 +120,28 @@ main {
 }
 
 #whats-on > h1 {
+    font-size: 5rem ;
     text-align: center;
-    font-size: 5vw;
     border-bottom: 2px solid #00B172;
-    margin: 7vw 0;
+    margin: 3vw 0 7vw;
 }
 
 #whats-on > div {
     display: flex;
-    justify-content: space-between;
-
+    justify-content: space-around;
+    width: 100% ;
 }
 
+@media (max-width: 900px) {
+    #whats-on > div {
+        flex-wrap: wrap;
+    }
+  }
+
+
 #whats-on > div > article {
-    width: 30vw;
+    width: 20vw;
+    min-width: 300px ;
     height: 30vh;
     display: flex;
     flex-direction: column;
@@ -108,7 +152,6 @@ main {
 
 #whats-on > div > article > img, h2, p {
     padding-bottom: 1vw;
-    font-size: 2vw;
 }
 
 #whats-on > div > article > img {
@@ -124,68 +167,102 @@ main {
 
 #kanye {
     width: 100%; 
-        /*when i put the width in vw, the total width of #kanye seems to be more
-        than 100%. If you read this, can you help me ? :D*/
-    height: 100vh;
+    height: 100%;
+    min-height: calc(100vh - 80px);
     padding: 20px;
     color: #FFF;
 }
 
-#kanye > #green-background {
+#green-background {
     background-color: #00B172;
     width: 100%;
     height: 100%;
+    min-height: calc(100vh - 120px) ;
     position: relative;
+    display: flex;
+    align-items: center;
 }
-
-#kanye > #green-background > div {
+ 
+.logo-white-container {
     position: absolute;
     width: 100%;
     height: 100%;
+}
+
+.logo-white-container, #kanye-aticle {
     display: flex;
     align-items: center;
     justify-content: center;
 }
 
-#kanye > #green-background > div > #logo-white {
+
+.logo-white {
     width: 10vw;
     z-index: 20;
+    margin: 3rem;
 }
 
-#kanye > #green-background > #kanye-aticle > div, article {
+@media (max-width: 600px) {
+    .landscape {
+        display: none;
+    }
+  }
+@media (min-width: 600px) {
+    .portrait {
+        display: none;
+    }
+  }
+
+@media (max-width: 600px) {
+    #kanye-aticle {
+        display: flex;
+        flex-direction: column;
+        justify-content: space-between;
+    }
+  }
+
+
+#kanye-image-container, #kanye-text-container  {
     width: 50%;
+}
+
+@media (max-width: 600px) {
+    #kanye-image-container, #kanye-text-container  {
+        width: 100%;
+    }
 }
 
 #kanye-text-container {
     display: flex;
     flex-direction: column;
-    justify-content: left;
+    justify-content: center;
     padding-left: 8vw;
     padding-right: 5vw;
+}
 
+@media (max-width: 600px) {
+    #kanye-text-container {
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+    }
 
 }
 
 #kanye-text-container >  h1 {
     margin-bottom: 5vh;
-    padding: 1vh;
-    font-size: 3vw;
+    padding: 1rem;
     white-space: nowrap;
     width: fit-content;
     border-bottom: 2px solid #FFF;
+    font-size: 4rem;
 }
 
 
-#kanye-text-container >  h2 {
-    margin-bottom: 5vh;
-    font-size: 2.5vw;
+#kanye-text-container >  h2, p {
+    width: fit-content;
+    margin-bottom: 2.5rem;
 }
-
-#kanye-text-container >  p {
-    margin-bottom: 5vh;
-    font-size: 1.5vw;
-}
-
 
 #kanye-image-container {
     display: flex;
@@ -193,7 +270,20 @@ main {
     align-items: center;
 }
 
+@media (max-width: 600px) {
+    #kanye-image-container {
+        padding-bottom: 1rem;
+    }
+}
+
 #kanye-image {
-    width: 60%;
+   max-width: 50%;
+   margin: 2.5rem;
+}
+
+@media (max-width: 600px) {
+    #kanye-image {
+        max-width: 90%;
+    }
 }
 
