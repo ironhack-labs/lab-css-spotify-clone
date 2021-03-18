@@ -6,3 +6,162 @@ Green: #00B172
 White: #FFF
 
 */
+
+* {
+    box-sizing: border-box;
+}
+
+main {
+    max-width: 1024px;
+    margin: 0 auto;
+    font-family: 'Montserrat', sans-serif;
+}
+
+p {
+    font-weight: lighter;
+}
+
+header {
+    overflow: hidden;
+    max-width: 1024px;
+    width: 100%;
+    left: 50%;
+    transform: translateX(-50%);
+    position: fixed;
+    display: flex;
+    flex-direction: row;
+    background-color: white;
+    justify-content: space-between;
+    margin-bottom: 10px;
+    top: 0;
+    z-index: 1000;
+
+}
+
+#logo {
+    width: 200px;
+    margin: .5em;
+    
+}
+
+nav {
+    align-self: center; 
+    margin-right: 30px;  
+}
+
+nav a {
+    text-decoration: none;
+    color: black;
+    padding: .5em;
+    font-family: 'Montserrat', sans-serif;
+}
+
+.hero-img {
+    background-image: url("/images/landing.jpg");
+    height: 800px;
+    background-repeat: no-repeat;
+    background-position: bottom;
+    background-size: cover;
+    position: relative;
+}
+
+.hero-text {
+    text-align: center;
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    color: white;
+    font-size: 1.4em;
+  }
+
+  .hero-text h1 {
+    width: 100%;
+    font-size: 2.25em;
+    margin-bottom: 5px;
+  }
+
+  .features {
+    text-align: center;
+    display: flex;
+    flex-direction: column;
+  }
+  .features {
+    margin-top: 30px;
+}
+
+.features h2 span {
+    border-bottom: #00B172 3px solid;
+    padding-bottom: 5px;
+}
+
+  .feature-items {
+      display: flex;
+      flex-direction: row;
+      justify-content: space-evenly;
+      vertical-align: text-top;
+  }
+
+  .feature-item {
+      margin: 20px 5px;
+      max-width: 24%;
+  }
+
+  .feature-item img {
+      height: 80px;
+  }
+
+
+  .feature-item h3 {
+      color: #00B172;;
+  }
+
+  .spotlights {
+      margin: 0 auto;
+      width: 96%;
+      background-color: #00B172;
+      color: #fff;
+      padding: 2em 4em;
+      position: relative;
+      display: flex;
+      flex-direction: row;
+      justify-content: space-between;
+  }
+
+  .spotlights-items {
+      flex-basis: 66%;
+  }
+
+  #spotlight-logo {
+      width: 100px;
+      position: absolute;
+      top: 50%;
+      left: 50%;
+      transform: translate(-50%,-50%);
+  }
+
+  .spotlights h2 span {
+    border-bottom: #fff 3px solid;
+    padding-bottom: 5px;
+  }
+
+  .spotlights p {
+    margin: 0;
+    max-width: 50%;
+    line-height: 1.6em;
+  }
+
+  .spotlight-item {
+      margin-top: 2em;
+  }
+
+  .spotlight-imgs {
+      flex-basis: 33%;
+      align-self: center;
+      margin-top: 25px;
+     
+  }
+
+  .spotlight-img {
+      width: 100%;
+  }
