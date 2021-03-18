@@ -7,7 +7,9 @@ White: #FFF
 
 */
 
-* {
+*,
+*:before,
+*:after {
     box-sizing: border-box;
 }
 
@@ -72,12 +74,12 @@ nav a {
     left: 50%;
     transform: translate(-50%, -50%);
     color: white;
-    font-size: 1.4em;
+    font-size: 1.4rem;
   }
 
   .hero-text h1 {
     width: 100%;
-    font-size: 2.25em;
+    font-size: 2.25rem;
     margin-bottom: 5px;
   }
 
@@ -99,7 +101,7 @@ nav a {
       display: flex;
       flex-direction: row;
       justify-content: space-evenly;
-      vertical-align: text-top;
+      align-items: baseline;
   }
 
   .feature-item {
