@@ -1,8 +1,144 @@
 /*
 Colors:
-
 Text: 1A1A1A
 Green: #00B172
 White: #FFF
 
 */
+ /* UNIVERSAL ELEMENTS */
+*, *:before, *:after{
+    box-sizing: border-box;
+}
+
+html, body {
+    margin: 0;
+    padding: 0;
+    color: #1A1A1A;
+    font-family: "Lato", sans-serif;
+    font-size: 1.10em;
+}
+
+body {
+    display: flex;
+    flex-direction: column;
+    
+}
+
+ /* REUSABLE ELEMENTS */
+.container {
+    width: 85%;
+    margin: 0 auto;
+}
+
+
+ /* HEADER ELEMENTS */
+.header {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    align-content: center;
+}
+
+.nav-logo {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin: 15px 0;
+    position: sticky;
+    top: 0;
+    overflow: hidden;
+    background-color: #FFF;
+}
+
+.logo {
+    width: 200px;
+}
+
+.navbar a {
+    text-decoration: none;
+    color: #1A1A1A;
+    margin-right: 15px;
+}
+
+
+.bg-hero {
+    background-image: url('/images/landing.jpg');
+    height: 600px;
+    background-repeat: no-repeat;
+    background-size: cover;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    color: #FFF;
+}
+
+.bg-hero-text {
+    width: 60%;
+    text-align:center;
+    line-height: 1;
+}
+
+h1 {
+    font-size: 3em;
+    margin: 0;
+}
+
+ /* MAIN with WHITE BACKGROUND*/
+.white-bg h2 {
+    text-align: center;
+}
+.white-bg h2 span {
+    border-bottom: #00B172 3px solid; 
+    padding-bottom: 5px;
+}
+.features {
+    display: flex;
+    align-items: baseline;
+    align-content: center;
+    justify-content: space-evenly;
+    padding: 20px;
+    
+}
+
+.features article {
+    width: calc(100%/3);
+    text-align: center;
+    margin-right: 25px;
+}
+.article-img {
+    width: 100px;
+}
+
+.features h3 {
+    color: #00B172;
+}
+
+ /* MAIN with GREEN BACKGROUND*/
+.green-bg {
+    background-color: #00B172;
+    color: #FFF;
+    display: flex;
+    justify-content: space-evenly;
+    align-items: center;
+    padding: 50px;
+}
+
+.green-bg-text {
+    flex-basis: 45%;
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-start;
+}
+
+.green-bg h2 span {
+    border-bottom: #fff 3px solid; 
+    padding-bottom: 5px;
+
+}
+
+.screen-shot {
+   max-width: 30%;
+   margin-left: 20px;
+}
