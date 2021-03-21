@@ -5,44 +5,95 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <meta http-equiv="X-UA-Compatible" content="ie=edge" />
     <title>Spotify Clone</title>
+    <link rel="stylesheet" href="./styles/style.css" />
     <!-- don't forget to link your styles -->
   </head>
   <body>
     <header>
-      <div>
-        <!--Img-->
-      <nav>
-        <ul>
-          <li>Premium</li>
-          <li>Discover</li>
-          <li>Help</li>
-          <li>Download</li>
-        </ul>
-    </nav>
-  </div>
+      <div class="top-bar">
+        <img class="logo" src="images/spotify-logo.png" alt="Spotify logo">
+          <nav class="nav-bar">
+            <ul class="nav-bar-ul">
+              <li> <a class="nav-bar-item" href="Premium"> Premium </a></li>
+              <li> <a class="nav-bar-item" href="Discover"> Discover</a></li>
+              <li> <a class="nav-bar-item" href="Help"> Help</a></li>
+              <li> <a class="nav-bar-item" href="Download"> Download</a></li>
+            </ul>
+          </nav>
+       </div>
   <!--Main Title-->
-  <div>
-    <H1>Music for Everyone</H1>
-    <p>Spotify is now free on mobile, tablet and computer. Listen to the
-      right music, wherever you are.</p>
-  </div>
-    </header>
+    <section id="welcome"> 
+      <div class="main-page">
+        <div class="main-page-title">
+          <H1>Music for everyone.</H1>
+          <p class="main-page-sub">Spotify is now free on mobile, tablet and computer.<br>Listen to the
+            right music, wherever you are.</p>
+          </div>
+        </div>
+    </section>
+  </header>
 
-<section>
-<h2>What's on Spotify?</h2>
-<div> 
-  <img src=
+
+<!--Whats on spotify page-->
+
+<section class="container" id="whats-on">
+<h3>What's on Spotify?</h3>
+
+  <div> 
+    <article class="service-box">
+      <img src="images/music-icon.png" alt = "music icon">
+      <h4>Millions of Songs</h4>
+      <p>There are millions of<br>songs on Spotify</p>
+    </article>
+
+    <article class="service-box">
+      <img src="images/high-quality-icon.png" alt="soundwave image">
+      <h4>HD Music</h4>
+      <p>Listen to music as if you<br>were listening live</p>
+    </article>
+
+    <article class="service-box">
+      <img src="images/devices-icon.png" alt="devices image">
+      <h4>Stream Everywhere</h4>
+      <p>Stream music on your<br>smartphone, tablet or<br>computer</p>
+    </article>
+  </div>
+
+</section>
+
+<!--Yeezy Page-->
+
+<section id="yeezy-page"> 
+  <img class="spotify-icon" src="images/spotify-icon-white.png" alt="spotify logo">
+  <div class="yeezy-text">
+      <h3>It's as yeezy as Kanye West.</h3>
+
+    <article class="features">  
+      <h5>Search</h5>
+      <p>Know what you want to listen to? Just search and hit play.</p>
+    </article>  
+
+    <article class="features">
+      <h5>Browse</h5>
+      <p>Check out the latest charts, brand new releases and great playlists for right now</p>
+    </article>
+
+    <article class="features">
+      <h5>Discover</h5>
+      <p>Enjoy new music every Monday with your own personal playlist. Or sit back and enjoy Radio.</p>
+    </article>
+    
+  </div>
+
+
+
+<div>
+  <img  class="yeezy-img" src="images/spotify-app.jpg" alt="The greatest artist of all time">
 </div>
 
 </section>
 
 
 
-    Premium Discover Help Download Music for everyone. Spotify is now free on mobile, tablet and computer. Listen to the
-    right music, wherever you are. What’s on Spotify? Millions of Songs There are millions of songs on Spotify HD Music
-    Listen to music as if you were listening live Stream Everywhere Stream music on your smartphone, tablet or computer
-    It’s as yeezy as Kanye West. Search Know what you want to listen to? Just search and hit play. Browse Check out the
-    latest charts, brand new releases and great playlists for right now. Discover Enjoy new music every Monday with your
-    own personal playlist. Or sit back and enjoy Radio.
   </body>
 </html>
