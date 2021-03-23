@@ -142,12 +142,34 @@ h3 {
 .discover {
     display: flex;
     justify-content: space-between;
+    align-items: center;
 }
 
 .discover article {
     width: 40%;
 }
 
-.spotify-app img {
-    max-height: 450px;
+.spotify-app {
+ display: flex;
+ align-items: center;
 }
+
+.spotify-app img {
+    max-height: 400px;
+   }
+
+.fadein {
+    animation: fadeIn ease 2s;
+}
+
+.small-logo {
+    position:relative;
+    left: -130px;
+    width: 100px;
+
+}
+
+@keyframes fadeIn {
+    0% {opacity:0;margin-top:50px;}
+    100% {opacity:1;margin-top:0px;}
+    }
