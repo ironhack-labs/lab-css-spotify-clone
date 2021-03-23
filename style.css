@@ -1,0 +1,153 @@
+*{
+    padding: 0;
+    margin: 0;
+}
+
+body {
+    font-family: sans-serif;
+}
+
+h1{
+    margin-bottom: 30px;
+    font-size: 4em;
+    padding: none;
+    font-weight: 500;
+}
+
+hr {
+    height: 3px;
+    border-width:0;
+    margin-top: 5px;
+}
+
+p {
+    font-weight: 100;
+    font-size: 1.15em;
+    line-height: 1.5;
+}
+
+.news h2 {
+    text-align: center;
+    font-weight: 500;
+    font-size: 2em;
+}
+
+.discover h2 {
+    font-size: 1.8em;
+}
+
+header{
+    display: flex;
+    justify-content: space-between;
+    padding: 10px 20px;
+    align-items: center;
+}
+
+header img{
+    width: 160px;
+    height: auto;
+}
+
+nav {
+    float: right;
+}
+
+nav a {
+    text-decoration: none;
+    color: black;
+    font-weight: 100;
+    font-size: 1.2em;
+}
+
+nav ul{
+    display: flex;
+    list-style: none;
+}
+
+nav li{
+    margin-left: 30px;
+}
+
+.portada{
+    text-align: center;
+    padding: 220px 200px 275px;
+    background-image: url("images/landing.jpg");
+    background-repeat: no-repeat;
+    background-size: 100%;
+    color: white;
+}
+
+.portada p {
+    font-size: 1.5em;
+    line-height: 1.4;
+    font-weight: 200;
+}
+
+.news {
+    padding: 40px 0 75px;
+}
+
+.news hr {
+    width: 270px;
+    margin: auto;
+    background-color: #1ab26b;
+}
+
+.news img {
+    height: 75px;
+}
+
+h3 {
+    font-size: 1.35em;
+    margin-top: 5px;
+    margin-bottom: 20px;
+    color: #1ab26b;
+    text-align: center;
+}
+
+.news p {
+    text-align: center;
+}
+
+.news article {
+    display: flex;
+    justify-content: space-evenly;
+    margin-top: 75px;
+}
+
+.news div {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    width: 200px;
+}
+
+.discover {
+    padding: 65px 80px;
+    background-color:#00B172;
+    color: white;
+}
+
+.discover hr {
+    width: 380px;
+    background-color: white;
+}
+
+.discover h3 {
+    color: white;
+    text-align: left;
+    margin-top: 30px;
+}
+
+.discover {
+    display: flex;
+    justify-content: space-between;
+}
+
+.discover article {
+    width: 40%;
+}
+
+.spotify-app img {
+    max-height: 450px;
+}
