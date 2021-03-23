@@ -6,3 +6,188 @@ Green: #00B172
 White: #FFF
 
 */
+
+body {
+
+    margin: 0px;
+    font-family: 'Lexend', sans-serif;
+}
+
+
+.top-container {
+
+    background-color: #FFF;
+}
+
+
+.nav-bar {
+
+    display:flex;
+    justify-content: space-between;
+    border-bottom: 1px grey solid;
+    padding: 5px;
+    align-items: center;
+    padding: 15px;
+}
+
+.logo {
+
+    width: 180px;
+    height: auto;
+    object-fit: contain;
+    margin-left: 15px;
+}
+
+.nav-ul {
+
+    list-style: none;
+    display: flex;
+    margin-right: 60px;
+    font-size: 22px;    
+}
+
+.nav-ul li a {
+
+    margin-left: 30px;
+    text-decoration-line: none;
+    color: black;
+}
+
+
+.main-background-pic {
+
+    display: flex;
+    background-image: url(../images/landing.jpg);
+    height: 100vh;
+    width: 100%;
+    background-size: cover;
+    background-repeat: no-repeat;
+    justify-content: center;    
+}
+
+.text-container {
+
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    text-align: center;
+    width: 50%;
+    color: white;
+}
+
+.main-title {
+
+    font-size: 90px;
+}
+
+.main-section {
+
+    font-size:30px;    
+}
+
+.mid-section-container {
+
+    display: flex;
+    height: 400px;
+    justify-content: center;
+    padding: 0px 90px;
+    margin: 0px 20px;
+    background-color: #FFF;
+}
+
+.mid-section-title {
+
+    display: flex;
+    justify-content: center;
+    height: 100px;
+    align-items: center;
+    font-size: 24px;    
+}
+
+.mid-title-border {
+
+    border-bottom: 3px #00B172 solid;
+}
+
+
+.mid-image {
+
+    position: relative;
+    height: 110px;
+    left: 50%;
+    transform: translateX(-50%);
+}
+
+.mid-subtitle {
+
+    color:  #00B172 ;
+    font-size: 20px;
+    font-weight: bold;
+    text-align: center;
+}
+
+.mid-section-container div {
+
+    
+    width: 300px;
+    margin: 40px;    
+}
+
+.mid-section-text {
+
+    text-align: center;
+}
+
+.last-section {
+
+    display: flex;
+    height: 800px;
+    background-color: #1DB954;
+    margin: 30px;
+    justify-content: space-around;
+    position: relative;
+}
+
+.last-section-text {
+
+    color: white;
+    margin: 30px;
+    width: 700px;
+    font-size: 28px;
+}
+
+.last-title {
+
+    border-bottom: 4px white solid;
+    width: 500px;
+    font-size: 32px;
+}
+
+.last-section-subtext{
+
+    width: 500px;
+}
+
+
+
+
+.spotify-app {
+
+    object-fit: cover;
+    width: 65%;
+}
+
+.spotify-container {
+
+    display: flex;
+    justify-content: flex-end;
+    align-items: center;
+}
+
+.spotify-logo {
+
+    width: 150px;
+    margin: auto;
+    position: absolute;
+    top: 0; left: 0; bottom: 0; right: 0;    
+}
