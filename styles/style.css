@@ -10,8 +10,10 @@ body {
 
 /* header */
 header {
-    height: 100px;
+    width: 100vw;
+    height: 110px;
     background-color: white;
+    position: fixed;
 }
 header img {
     width: 250px;
@@ -21,7 +23,6 @@ header img {
 
 /* menu bar*/
 nav {
-    position: fixed;
     width: 100%;
     justify-content: center;
     padding: 2.5rem 4rem;
@@ -38,5 +39,24 @@ nav a{
     text-decoration: none;
     color: black;
     font-size: 1.5rem;
+}
+
+/* Section 1 */
+.landing{
+    background-image: url(/images/landing.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+    color: white;
+    text-align: center;
+    justify-content: center;
+    min-height: 130vh;
+}
+.landing h1 {
+    font-size: 5rem;
+    padding: 32rem 3rem 3rem;
+}
+.landing p{
+    font-size: 2rem;
+    font-weight: 100;
 }
 
