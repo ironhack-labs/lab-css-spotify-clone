@@ -6,3 +6,54 @@ Green: #00B172
 White: #FFF
 
 */
+body {
+    margin: 0 auto;
+    width: 1000px;
+}
+header {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+
+
+}
+
+header img{
+    height: 50px;
+}
+
+nav ul{
+    list-style: none;
+    display: flex;
+    justify-content: space-between;
+   
+}
+nav a{
+    margin-right: 20px;
+    text-decoration: none;
+    font-size: 18px;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
+
+div.concierto{
+    background-image: url(/images/landing.jpg);
+    background-size: cover;
+    height: 660px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    font-size: 25px;
+    color: white;
+}
+
+div.concierto h2{
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
+
+div.concierto p{
+    
+    text-align: center;
+    margin: 0 210px 90px 210px;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
