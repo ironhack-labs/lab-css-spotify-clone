@@ -17,8 +17,8 @@
 body,
 html {
 	font-family: Verdana, sans-serif;
-    width: 100%;
-    height: 100%;
+	width: 100%;
+	height: 100%;
 }
 /* Colors */
 #landing-text,
@@ -35,7 +35,10 @@ html {
 /* Alignements */
 header,
 #elem-nav,
-#landing-section {
+#landing-section,
+#features-section,
+#features-container,
+.feature-box {
 	display: flex;
 	align-items: center;
 	justify-content: center;
@@ -63,18 +66,17 @@ header {
 	list-style-type: none;
 	width: 40%;
 	min-width: 300px;
-	display: flex;
 	justify-content: space-around;
 }
 #elem-nav > li {
 	transition: color 0.3s;
 	cursor: pointer;
 }
-#ham-icon{
-    height: fit-content;
-    margin: auto 0;
-    font-size: 25px;
-    display: none;
+#ham-icon {
+	height: fit-content;
+	margin: auto 0;
+	font-size: 25px;
+	display: none;
 }
 /* MAIN */
 /* Landing Section*/
@@ -86,7 +88,6 @@ main {
 	background-size: cover;
 	background-repeat: no-repeat;
 	height: 700px;
-	display: flex;
 	flex-direction: column;
 }
 #landing-title {
@@ -107,13 +108,49 @@ main {
 .feature-box-icon {
 	height: 50px;
 }
+#features-section {
+	flex-direction: column;
+	padding-top: 30px;
+}
+hr {
+	width: 300px;
+	border: 2px solid var(--green-color);
+	margin-top: 10px;
+}
+#features-section-title {
+	font-size: 30px;
+	font-weight: 500;
+}
+#features-container {
+	width: 90%;
+	flex-wrap: wrap;
+}
+.feature-box {
+	width: 30%;
+	min-width: 240px;
+	flex-direction: column;
+	margin-top: 40px;
+}
+.feature-box-title {
+	text-align: center;
+	width: 240px;
+	font-size: 21px;
+	color: var(--green-color);
+	font-weight: 600;
+	margin: 25px 0px 25px 0px;
+}
+.feature-box-text {
+	text-align: center;
+	width: 240px;
+	font-size: 19px;
+}
 
 /* Green Box Section */
 #app-screen {
 	width: 100px;
 }
-#spotify-logo-white{
-    height: 20px;
+#spotify-logo-white {
+	height: 20px;
 }
 
 /* QUERIES */
@@ -128,11 +165,11 @@ main {
 		font-size: 17px;
 	}
 }
-@media (max-width: 450px){
-    #elem-nav {
-        display: none;
-    }
-    #ham-icon {
-        display: inline-block;
-    }
+@media (max-width: 450px) {
+	#elem-nav {
+		display: none;
+	}
+	#ham-icon {
+		display: inline-block;
+	}
 }
