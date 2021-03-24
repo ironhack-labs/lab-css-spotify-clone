@@ -14,15 +14,19 @@
 }
 
 /* COMMON PROPERTIES */
-body {
+body,
+html {
 	font-family: Verdana, sans-serif;
+    width: 100%;
+    height: 100%;
 }
 /* Colors */
 #landing-text,
 #landing-title {
 	color: var(--white-color);
 }
-#elem-nav {
+#elem-nav,
+#ham-icon {
 	color: var(--text-color);
 }
 #elem-nav > li:hover {
@@ -66,7 +70,12 @@ header {
 	transition: color 0.3s;
 	cursor: pointer;
 }
-
+#ham-icon{
+    height: fit-content;
+    margin: auto 0;
+    font-size: 25px;
+    display: none;
+}
 /* MAIN */
 /* Landing Section*/
 main {
@@ -103,6 +112,9 @@ main {
 #app-screen {
 	width: 100px;
 }
+#spotify-logo-white{
+    height: 20px;
+}
 
 /* QUERIES */
 @media (max-width: 550px) {
@@ -115,4 +127,12 @@ main {
 	#landing-text {
 		font-size: 17px;
 	}
+}
+@media (max-width: 450px){
+    #elem-nav {
+        display: none;
+    }
+    #ham-icon {
+        display: inline-block;
+    }
 }

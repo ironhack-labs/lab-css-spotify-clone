@@ -5,7 +5,10 @@
 		<meta name="viewport" content="width=device-width, initial-scale=1.0" />
 		<meta http-equiv="X-UA-Compatible" content="ie=edge" />
 		<title>Spotify Clone</title>
-		<link rel="stylesheet" href="/styles/style.css">
+		<link rel="stylesheet" href="/styles/style.css" />
+		<!--Fontawesome import-->
+		<script src="https://kit.fontawesome.com/d1d6edd90f.js" crossorigin="anonymous"></script>
+		<link rel="shortcut icon" href="../src/assets/icons/logo.ico" type="image/x-icon" />
 	</head>
 	<body>
 		<header>
@@ -17,6 +20,7 @@
 					<li>Help</li>
 					<li>Download</li>
 				</ul>
+				<i id="ham-icon" class="fas fa-bars"></i>
 			</nav>
 		</header>
 		<main>
@@ -31,17 +35,29 @@
 				<h4 id="features-section-title">What’s on Spotify?</h4>
 				<div id="features-container">
 					<article class="feature-box">
-						<img class="feature-box-icon" src="/images/music-icon.png" alt="Millions Songs Icon" />
+						<img
+							class="feature-box-icon"
+							src="/images/music-icon.png"
+							alt="Millions Songs Icon"
+						/>
 						<p class="feature-box-title">Millions of Songs</p>
 						<p class="feature-box-text">There are millions of songs on Spotify</p>
 					</article>
 					<article class="feature-box">
-						<img class="feature-box-icon" src="/images/high-quality-icon.png" alt="HD Music Icon" />
+						<img
+							class="feature-box-icon"
+							src="/images/high-quality-icon.png"
+							alt="HD Music Icon"
+						/>
 						<p class="feature-box-title">HD Music</p>
 						<p class="feature-box-text">Listen to music as if you were listening live</p>
 					</article>
 					<article class="feature-box">
-						<img class="feature-box-icon" src="/images/devices-icon.png" alt="Stream Everywhere Icon" />
+						<img
+							class="feature-box-icon"
+							src="/images/devices-icon.png"
+							alt="Stream Everywhere Icon"
+						/>
 						<p class="feature-box-title">Stream Everywhere</p>
 						<p class="feature-box-text">Stream music on your smartphone, tablet or computer</p>
 					</article>
@@ -53,7 +69,9 @@
 					<div>
 						<article class="green-box">
 							<h4 class="green-box-title">Search</h4>
-							<p class="green-box-text">Know what you want to listen to? Just search and hit play.</p>
+							<p class="green-box-text">
+								Know what you want to listen to? Just search and hit play.
+							</p>
 						</article>
 						<article class="green-box">
 							<h4 class="green-box-title">Browse</h4>
