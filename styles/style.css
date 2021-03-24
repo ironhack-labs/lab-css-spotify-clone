@@ -6,3 +6,164 @@ Green: #00B172
 White: #FFF
 
 */
+
+body {
+    width: 1000px;
+    background-color: black;
+    color: #FFF;
+    margin-left: auto;
+    margin-right: auto;
+    font-family: Helvetica, Arial, sans-serif;
+}
+
+nav {
+    position: fixed;
+    background-color: #FFF;
+    width: 1000px;
+}
+nav img {
+    float: left;
+    height: 60px;
+    margin-right: 350px;
+    margin-top: 10px;
+    margin-left: 10px;
+    margin-bottom: 10px;
+}
+
+nav ul {
+    display: flex;
+    align-items: flex-end;
+    justify-content: space-evenly;
+    margin-top: 30px;
+    
+}
+nav ul a {
+    text-decoration: none;
+    color: black;
+    font-size: 1.1em;
+}
+header div {
+    background-image: url('/images/landing.jpg');
+    background-size: cover;
+    height: 450px;
+    text-align: center;
+    padding-top: 200px;
+}
+
+header div h1 {
+    font-size: 4em;
+    font-weight: 300;
+    margin-bottom: 0;
+}
+
+header div p {
+    font-size: 1.5em;
+    font-weight: lighter;
+}
+
+section {
+    display: flex;
+    flex-direction: column;
+    padding-top: 10px;
+    background-color: #FFF;
+    color: black;
+    height: 450px;
+}
+
+#section-title {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-size: 1.8em;
+    padding-bottom: 4px;
+    margin-bottom: 0;
+    max-width: 270px;
+    margin-left: 365px;
+    border-bottom: 3.5px solid #00B172;
+}
+
+.linea {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    color: #00B172;
+    font-weight: bold;
+    padding-top: 0;
+    margin-top: 0;
+}
+
+#features {
+    margin: 60px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding-top: 0;
+
+}
+
+#features div {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    max-width: 33%;
+    text-align: center;
+}
+
+#features div img {
+    width: 120px;
+}
+
+#features div p {
+    margin-top: 0;
+    padding: 0 20px;
+}
+
+#features div p,
+#features div h4{
+    font-size: 1.2em;
+}
+
+footer {
+    background-color: #00B172;
+    position: relative;
+    height: 600px;
+}
+
+footer h3 {
+    margin-top: 0;
+    border-bottom: solid 3px white;
+    max-width: 370px;
+    padding: 50px 0 5px 0;
+    margin-left: 50px;
+    font-size: 1.8em;
+    font-weight: 200;
+}
+
+#icono {
+    position: absolute;
+    width: 100px;
+    left: 450px;
+    top: 250px;
+}
+
+#app {
+    height: 500px;
+    position: absolute;
+    left: 650px;
+    bottom: 40px;
+}
+
+footer article h4{
+    font-size: 1.3em;
+}
+
+footer article {
+    max-width: 300px;
+    margin-left:50px;
+}
+
+footer article p {
+    font-size: 1.15em;
+    font-weight:lighter;
+    margin-bottom: 40px;
+}
