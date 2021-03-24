@@ -9,6 +9,7 @@ White: #FFF
 body {
     margin: 0 auto;
     width: 1000px;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
 }
 header {
     display: flex;
@@ -21,7 +22,10 @@ header {
 header img{
     height: 50px;
 }
-
+nav{
+    position: fixed;
+    margin-left: 630px;
+}
 nav ul{
     list-style: none;
     display: flex;
@@ -56,4 +60,62 @@ div.concierto p{
     text-align: center;
     margin: 0 210px 90px 210px;
     font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
+
+section.features h2{
+    text-align: center;
+    margin: 30px auto 50px auto;
+    border-bottom: solid 3px #00B172;
+    max-width: 250px;
+    padding-bottom: 5px;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
+
+section.features article div img{
+    height: 60px;
+}
+
+section.features article{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-evenly;
+    margin-left: 22px;
+}
+
+#songs{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    width: 33%;
+    margin:0 60px;  
+    text-align: center;
+}
+#songs h3{
+    color: #00B172;
+    
+}
+#hd{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    width: 33%;
+    margin:0 80px;
+    text-align: center;
+    
+}
+#hd h3{
+    color: #00B172;
+    
+}
+#stream{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    width: 33%;
+    margin:0 80px;
+    text-align: center;
+    
+}
+#stream h3{
+    color: #00B172;
 }
