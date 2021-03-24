@@ -6,3 +6,165 @@ Green: #00B172
 White: #FFF
 
 */
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+html {
+    font-size: 62.5%;
+
+}
+
+header{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    width: 100vw;
+    height: 10vh;
+    padding: 10px;
+}
+
+header img {
+    width: 15%;
+    height: auto;
+}
+
+header ul {
+    display: flex;
+    margin: 5px;
+    list-style: none;
+}
+
+header li {
+    margin: 5px;
+    font-size: 1rem;
+    padding: auto;
+    justify-content: center;
+    align-items: center;
+    font-weight: lighter;
+}
+
+/*Section 1*/
+
+.banner{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    width: 100vw;
+    height: 100vh;
+    background-image: url(/images/landing.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;   
+}
+
+.banner h1 {
+    display: inline-block;
+    font-size: 4rem;
+    font-weight: bolder;
+    color: white;
+    margin: 0 auto;
+    padding: 0;
+}
+.banner p {
+    display: inline-block;
+    color: white;
+    margin: 0 auto;
+    font-size: 1.5rem;
+}
+
+/*Section 2*/
+
+.spotify {
+    width: 100%;
+    margin-bottom: 30px;
+}
+.spotify__title{
+    display: inline-block;
+    flex-direction: column;
+    text-align: center;
+    align-items: center;
+    margin: 40px 30% 0;
+    font-size: 2.5rem;
+    width: 50%;
+    text-decoration: underline #00B172 3px;
+    text-underline-offset: 10px;
+}
+
+.spotify__title h1 {
+    margin: 10px;
+}
+
+.spotify__container {
+    display: flex;
+    width: 100%;
+    height: 200px;
+    margin-top: 20px;
+    padding: 20px;
+    text-align: center;
+    border: 2px solid red;
+}
+
+.spotify__container img {
+    display: flex;
+    height: 100%;
+    width: 100%;
+    padding: 10%;
+    border: 2px solid green
+}
+
+.spotify__container--songs{
+    padding: 10px;
+    margin: 2px;
+    border: 2px solid blue;
+}
+.spotify__container--songs h3 {
+    color: #00B172;
+    margin: 10px 0 ;
+}
+
+.spotify__container--quality {
+    padding: 10px;
+    margin: 2px;
+    border: 2px solid blue;
+}
+
+.spotify__container--quality h3 {
+    color: #00B172;
+    margin: 10px 0 ;
+}
+
+.spotify__container--devices {
+    padding: 10px;
+    margin: 2px;
+    border: 2px solid blue;
+}
+.spotify__container--devices h3 {
+    color: #00B172;
+    margin: 10px 0 ;
+}
+
+/*Section 3*/
+.discover{
+    display: flex;
+    background-color:#00B172;
+    width: 40vh;
+    height: 100vh;
+}
+
+.discover__logo {
+    width: 100px;
+}
+.discover__phone {
+    width: 100px;
+}
+
+.discover__logo > img,
+.discover__phone > img
+{
+    height: 100%;
+    width: 100%;
+}
