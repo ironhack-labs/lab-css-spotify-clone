@@ -1,8 +1,42 @@
-/*
-Colors:
+* {
+    margin: 0;
+    padding: 0;
+    text-decoration: none;
+    box-sizing: border-box;
+}
+body {
+    font-family: Verdana, sans-serif;
+}
 
-Text: 1A1A1A
-Green: #00B172
-White: #FFF
+/* header */
+.header {
+    height: 100px;
+    background-color: white;
+}
+.header img {
+    width: 250px;
+    float: left;
+    margin: 1rem 3rem;
+}
 
-*/
+/* menu bar*/
+nav {
+    position: fixed;
+    width: 100%;
+    justify-content: center;
+    padding: 2.5rem 4rem;
+}
+nav ul{
+    list-style: none;
+    display: flex;
+    justify-content: flex-end;
+}
+nav li { 
+    padding-left: 2rem;    
+}
+nav a{
+    text-decoration: none;
+    color: black;
+    font-size: 1.5rem;
+}
+
