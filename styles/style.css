@@ -22,14 +22,19 @@ html {
 }
 /* Colors */
 #landing-text,
-#landing-title {
+#landing-title,
+#green-section-title,
+.green-box-title,
+.green-box-text {
 	color: var(--white-color);
 }
 #elem-nav,
 #ham-icon {
 	color: var(--text-color);
 }
-#elem-nav > li:hover {
+#elem-nav > li:hover,
+#ham-icon:hover,
+.feature-box-title{
 	color: var(--green-color);
 }
 /* Alignements */
@@ -38,11 +43,27 @@ header,
 #landing-section,
 #features-section,
 #features-container,
-.feature-box {
+.feature-box,
+#green-right,
+#green-left{
 	display: flex;
 	align-items: center;
 	justify-content: center;
 }
+
+/* Transitions */
+#landing-title,
+#landing-text,
+#green-section-title,
+.green-box-title,
+.green-box-text{
+    transition: font-size 0.2s;
+}
+#elem-nav > li,
+#ham-icon{
+	transition: color 0.3s;
+}
+
 
 /* HEADER */
 header {
@@ -57,7 +78,6 @@ header {
 	display: flex;
 	justify-content: space-between;
 	margin: 0px 30px;
-	transition: margin 0.2s;
 }
 #spotify-logo-nav {
 	height: 40px;
@@ -69,7 +89,6 @@ header {
 	justify-content: space-around;
 }
 #elem-nav > li {
-	transition: color 0.3s;
 	cursor: pointer;
 }
 #ham-icon {
@@ -78,6 +97,8 @@ header {
 	font-size: 25px;
 	display: none;
 }
+
+
 /* MAIN */
 /* Landing Section*/
 main {
@@ -93,7 +114,6 @@ main {
 #landing-title {
 	font-size: 50px;
 	text-align: center;
-	transition: font-size 0.2s;
 }
 #landing-text {
 	font-size: 19px;
@@ -101,7 +121,6 @@ main {
 	line-height: 30px;
 	max-width: 550px;
 	margin: 30px 20px 0px 20px;
-	transition: font-size 0.2s;
 }
 
 /* Features Section */
@@ -135,7 +154,6 @@ hr {
 	text-align: center;
 	width: 240px;
 	font-size: 21px;
-	color: var(--green-color);
 	font-weight: 600;
 	margin: 25px 0px 25px 0px;
 }
@@ -146,30 +164,114 @@ hr {
 }
 
 /* Green Box Section */
+#green-section{
+    padding: 50px 20px 0px 20px;
+    position: relative;
+    display: flex;
+    height: 700px;
+}
+#green-section-title{
+    background-color: var(--green-color);
+}
 #app-screen {
-	width: 100px;
+	width: 300px;
+    transition: width 0.2s;
+}
+.green-half-section{
+    background-color: var(--green-color);
+    width: 50%; 
+}
+#green-left{
+    flex-direction: column;
+    align-items: flex-start;
+    padding-left: 80px;
+}
+#green-section-title{
+    font-size: 30px;
+    text-decoration: underline;
+}
+.green-box{
+    max-width: 330px;
+    margin-top: 40px;
+}
+.green-box-title{
+    font-size: 21px;
+    margin: 20px 0px;
+}
+.green-box-text{
+    font-size: 19px;
+    font-weight: 100;
 }
 #spotify-logo-white {
-	height: 20px;
+    height: 90px;
+    position: absolute;
+    top: 50%;
+    right: 50%;
+    transition: opacity 0.2s;
 }
 
+
 /* QUERIES */
+@media (max-width: 1200px){
+    #spotify-logo-white {
+        opacity: 0;
+    }
+    #green-section-title{
+        font-size: 23px;
+    }
+    #green-left{
+        padding: 0px 40px;
+    }
+}
+
+@media (max-width: 850px){
+    #app-screen{
+        width: 230px;
+    }
+    #green-section-title{
+        font-size: 21px;
+    }
+    .green-box-title{
+        font-size: 18px;
+    }
+    .green-box-text{
+        font-size: 17px;
+    }
+}
+
+@media (max-width: 700px){
+    #app-screen,
+    #green-right{
+        display: none;
+    }
+    #green-left{
+        width: 100%;
+    }
+
+}
+
 @media (max-width: 550px) {
-	#nav-bar {
-		margin: 0px 15px;
-	}
 	#landing-title {
 		font-size: 40px;
 	}
 	#landing-text {
 		font-size: 17px;
 	}
-}
-@media (max-width: 450px) {
-	#elem-nav {
+    #green-left{
+        height: 730px;
+        padding-bottom: 100px;
+    }
+    #spotify-logo-white {
+        opacity: 1;
+        position: absolute;
+        top: 90%;
+        right: 40%;
+    }
+    #elem-nav {
 		display: none;
 	}
 	#ham-icon {
 		display: inline-block;
+        cursor: pointer;
 	}
 }
