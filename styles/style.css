@@ -6,3 +6,52 @@ Green: #00B172
 White: #FFF
 
 */
+body {
+  color: 1a1a1a;
+}
+.navbar {
+  position: fixed;
+  right: 0;
+  top: 0;
+}
+
+.navbar ul {
+  list-style: none;
+
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+li {
+  margin: 0 5px;
+}
+
+header img {
+  width: 50px;
+}
+
+header h1,
+header section {
+  text-align: center;
+  color: white;
+}
+h1 {
+  font-size: 4em;
+  padding-top: 120px;
+}
+header div.withbackground {
+  background-image: url('../images/landing.jpg');
+  background-size: cover;
+  background-position: center;
+  background-repeat: no-repeat;
+  height: 500px;
+}
+
+/* section 1*/
+.whatson {
+  display: flex;
+  justify-content: space-between;
+}
+.whatsoncont img {
+  width: 30px;
+}
