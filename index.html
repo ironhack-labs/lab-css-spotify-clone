@@ -5,18 +5,24 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <meta http-equiv="X-UA-Compatible" content="ie=edge" />
     <title>Spotify Clone</title>
-    <!-- don't forget to link your styles -->
+    <link rel="stylesheet" href="./styles/style.css" />
   </head>
   <body>
     <div class="container">
-      <section>
-        <header>
+      <header class="navbar">
+        <div class="img-logo">
           <img class="logo" src="images/spotify-logo.png" alt="logo" />
-          <a href="#">Premium</a>
-          <a href="#">Discover</a>
-          <a href="#">Help</a>
-          <a href="#">Download</a>
-        </header>
+        </div>
+        <div class="links-nav-bar">
+          <ul class="nav-bar-ul">
+            <li><a class="nav-bar-item" href="#">Premium</a></li>
+            <li><a class="nav-bar-item" href="#">Discover</a></li>
+            <li><a class="nav-bar-item" href="#">Help</a></li>
+            <li><a class="nav-bar-item" href="#">Download</a></li>
+          </ul>
+        </div>
+      </header>
+      <section>
         Music for everyone. Spotify is now free on mobile, tablet and computer.
         Listen to the right music, wherever you are.
       </section>
