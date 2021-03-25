@@ -19,13 +19,16 @@ html {
 	font-family: Verdana, sans-serif;
 	width: 100%;
 	height: 100%;
+	font-size: 10px;
+	min-width: 450px;
 }
 /* Colors */
 #landing-text,
 #landing-title,
 #green-section-title,
 .green-box-title,
-.green-box-text {
+.green-box-text,
+#download-btn {
 	color: var(--white-color);
 }
 #elem-nav,
@@ -87,6 +90,7 @@ header {
 	width: 40%;
 	min-width: 300px;
 	justify-content: space-around;
+	font-size: 1.6rem;
 }
 #elem-nav > li {
 	cursor: pointer;
@@ -94,8 +98,26 @@ header {
 #ham-icon {
 	height: fit-content;
 	margin: auto 0;
-	font-size: 25px;
+	font-size: 2.5rem;
 	display: none;
+}
+#download-btn{
+	text-decoration: none;
+	background-color: var(--green-color);
+	padding: 14px 32px;
+	border-radius: 30px;
+	margin-top: 25px;
+	font-size: 1.4rem;
+	transition: transform 0.2s;
+	border: 2px solid var(--green-color);
+}
+#download-btn:hover{
+	transform: scale(1.1);
+	opacity: 0.9;
+}
+#download-btn:active{
+	transform: scale(1);
+	border: 2px solid var(--white-color);
 }
 
 
@@ -112,11 +134,11 @@ main {
 	flex-direction: column;
 }
 #landing-title {
-	font-size: 50px;
+	font-size: 4.9rem;
 	text-align: center;
 }
 #landing-text {
-	font-size: 19px;
+	font-size: 1.9rem;
 	text-align: center;
 	line-height: 30px;
 	max-width: 550px;
@@ -137,7 +159,7 @@ hr {
 	margin-top: 10px;
 }
 #features-section-title {
-	font-size: 30px;
+	font-size: 3rem;
 	font-weight: 500;
 }
 #features-container {
@@ -153,14 +175,14 @@ hr {
 .feature-box-title {
 	text-align: center;
 	width: 240px;
-	font-size: 21px;
+	font-size: 2.1rem;
 	font-weight: 600;
 	margin: 25px 0px 25px 0px;
 }
 .feature-box-text {
 	text-align: center;
 	width: 240px;
-	font-size: 19px;
+	font-size: 1.9rem;
 }
 
 /* Green Box Section */
@@ -187,7 +209,7 @@ hr {
     padding-left: 80px;
 }
 #green-section-title{
-    font-size: 30px;
+    font-size: 3rem;
     text-decoration: underline;
 }
 .green-box{
@@ -195,18 +217,18 @@ hr {
     margin-top: 40px;
 }
 .green-box-title{
-    font-size: 21px;
+    font-size: 2.1rem;
     margin: 20px 0px;
 }
 .green-box-text{
-    font-size: 19px;
+    font-size: 1.9rem;
     font-weight: 100;
 }
 #spotify-logo-white {
     height: 90px;
     position: absolute;
     top: 50%;
-    right: 50%;
+    right: 47%;
     transition: opacity 0.2s;
 }
 
@@ -217,7 +239,7 @@ hr {
         opacity: 0;
     }
     #green-section-title{
-        font-size: 23px;
+        font-size: 2.2rem;
     }
     #green-left{
         padding: 0px 40px;
@@ -229,13 +251,13 @@ hr {
         width: 230px;
     }
     #green-section-title{
-        font-size: 21px;
+        font-size: 2.1rem;
     }
     .green-box-title{
-        font-size: 18px;
+        font-size: 1.8rem;
     }
     .green-box-text{
-        font-size: 17px;
+        font-size: 1.7rem;
     }
 }
 
@@ -247,15 +269,18 @@ hr {
     #green-left{
         width: 100%;
     }
+	#green-section-title{
+        font-size: 2rem;
+    }
 
 }
 
 @media (max-width: 550px) {
 	#landing-title {
-		font-size: 40px;
+		font-size: 4rem;
 	}
 	#landing-text {
-		font-size: 17px;
+		font-size: 1.7rem;
 	}
     #green-left{
         height: 730px;
