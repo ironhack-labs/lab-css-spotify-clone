@@ -7,51 +7,134 @@ White: #FFF
 
 */
 body {
-  color: 1a1a1a;
+  color: #1a1a1a;
+  margin: 10px;
+  padding: 0;
 }
-.navbar {
+
+/* nav*/
+.nav {
   position: fixed;
-  right: 0;
+  left: 0;
   top: 0;
+  width: 100%;
 }
 
+.nav img {
+  width: 120px;
+  margin-left: 10px;
+  margin-top: 5px;
+}
+.nav .navbar {
+  float: right;
+  margin-right: 10px;
+}
 .navbar ul {
-  list-style: none;
-
   display: flex;
   justify-content: space-between;
-  align-items: center;
+  list-style: none;
+  text-decoration: none;
 }
-li {
-  margin: 0 5px;
+.navbar li {
+  margin-left: 10px;
+}
+.navbar li a {
+  text-decoration: none;
+  color: #1a1a1a;
 }
 
-header img {
-  width: 50px;
-}
+/* header */
 
 header h1,
-header section {
-  text-align: center;
+header p {
   color: white;
+  text-align: center;
 }
 h1 {
   font-size: 4em;
-  padding-top: 120px;
 }
-header div.withbackground {
+header {
+  margin-top: 50px;
   background-image: url('../images/landing.jpg');
   background-size: cover;
   background-position: center;
   background-repeat: no-repeat;
+
+  display: flex;
+  justify-content: center;
+  flex-direction: column;
   height: 500px;
 }
+header div {
+  margin: 0 auto;
+}
 
-/* section 1*/
+/* spotify */
+.whatsoncont h2 {
+  font-size: 2em;
+  text-align: center;
+  text-decoration: underline;
+  text-decoration-color: #00b172;
+}
+
+.whatsoncont {
+  /* border: red solid 2px; */
+}
 .whatson {
   display: flex;
   justify-content: space-between;
+  /* border: orange solid 2px; */
+  padding: 5px;
 }
-.whatsoncont img {
-  width: 30px;
+.itison {
+  flex: 1;
+  margin: 40px;
+  text-align: center;
+  /* border: yellow solid 2px; */
+}
+.itison img {
+  width: 60px;
+}
+.itison h3 {
+  font-size: 1.3em;
+  color: #00b172;
+}
+
+/* song */
+
+.greenbox {
+  background-color: #00b172;
+  color: white;
+
+  padding: 20px;
+  display: flex;
+  justify-content: space-between;
+}
+
+.floatleft h5 {
+  font-size: 1.3em;
+  text-decoration: underline;
+}
+.floatleft h6 {
+  font-size: 1.2em;
+  line-height: 1em;
+}
+.floatleft p {
+  font-size: 1em;
+}
+.floatright {
+  margin-top: 60px;
+}
+.spotifyimg {
+  width: 60%;
+  float: right;
+}
+.abscontainer {
+  position: relative;
+}
+.spotifyico {
+  position: absolute;
+  top: 150px;
+  left: 15px;
+  width: 60px;
 }
