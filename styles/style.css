@@ -1,43 +1,32 @@
 
 body {
- margin: 0;
- padding: 0;
+ margin: 0px;
+ padding: 0px;
+ font-family: "Nunito Sans";
+ font-size: 16px;
+ color: #1A1A1A;
 }
 
-header {
-background-image: url("/images/landing.jpg");
-background-position: center;
-height: 1000px;
-background-size: cover;
-display: flex;
-flex-direction: column;
-justify-content: center;
-align-items: center;
-}
-
-/* header img {
-    width: 100%;
-} */
+/* MENU BAR */
 
 nav {
     position: fixed;
     width: 100%;
     background-color: white;
-    /* display: flex;
-    justify-content: space-between; */
+    font-size: 1.2rem;
 }
 
 nav img {
     float: left;
-    padding: 10px 0 0 20px;
     width: 175px;
+    padding: 15px 0 15px 20px;
 }
 
 nav ul {
     float: right;
-    padding: 0 20px 0 0;
+    padding: 0px 20px 0 0;
     display: flex;
-    /* justify-content: space-between; */
+    justify-content: space-between;
     list-style: none;
 }
 
@@ -45,46 +34,141 @@ nav li {
     margin: 10px;
 }
 
+/* HEADERS */
+
 h1 {
     color: white;
-    font-size: 60px;
-    /* font-family: "Roboto"; */
+    font-size: 5rem;
+    font-weight: 600;
 }
 
 h2 {
-
+    color: white;
+    font-size: 1.5rem;
+    font-weight: 200;
+    width: 50%;
+    text-align: center;
 }
 
 h3 {
-    color: white;
-    font-size: 30px;
-    font-weight: 200;
+    font-size: 1.5rem;
+    font-weight: 700;
+    text-align: center;
+}
+
+h3:after {
+    content: "";
+    display: block;
+    margin: 0 auto;
+    width: 210px;
+    padding-top: 5px;
+    border-bottom: 4px solid #00B172;
 }
 
 h4 {
-    color: #00B172;
+    color: white;
+    font-size: 2rem;
+    font-weight: 600;
+    letter-spacing: 1px;
+    margin: 0px 0 50px 0;
+    border-bottom: 4px solid white; /* Would love to learn alternatives which provide better responsiveness. */
 }
 
-.container {
+h5 {
+    color: #00B172;
+    font-size: 1.2rem;
+    font-weight: 800;
+    margin: 20px 0 15px 0;
+}
+
+h6 {
+    color: white;
+    font-size: 1.2rem;
+    margin: 15px 0 15px 0;
+}
+
+/* SECTIONS */
+
+#hero-section {
+    background-image: url("/images/landing.jpg");
+    background-size: cover;
+    height: 100vh;
     display: flex;
-    flex: 1;
-    justify-items: center;
+    flex-direction: column;
+    justify-content: center;
     align-items: center;
 }
 
-.container div > img {
+#icon-section {
+    width: 100%;
+}
+
+.icon-container {
+    display: flex;
+    justify-content: space-between;
+    padding: 50px 100px 75px 100px;
+}
+
+.icon-container div {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    text-align: center;
+    font-weight: 200;
+    width: 25%;
+}
+
+.icon-container div > img {
     height: 75px;
 }
 
+.icon-container p {
+    margin: 5px;
+}
 
+#demo-section {
+    position: relative;
+    display: flex;
+    justify-content: space-between;
+    background-color: #00B172;
+    padding: 10%;
+}
 
+#demo-section img {
+    width: 50%;
+}
 
+#demo-section p {
+    color: white;
+    font-weight: 200;
+}
 
-/*
-Colors:
+.yeezy-info {
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-start;
+    align-items: flex-start;
+}
 
-Text: 1A1A1A
-Green: #00B172
-White: #FFF
+.yeezy-info p {
+   width: 70%;
+}
 
-*/
+.kanye-demo {
+    display: flex;
+    justify-content: flex-end;
+    align-items: flex-end;
+}
+
+.center-logo {
+    position: absolute;
+    width: 10%;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+}
+
+.center-logo img {
+    width: 100% !important; /* Why is this important tag necessary here? If I don't add it, the div extends to include an empty space to the right of the icon. */
+    height: 100%;
+}
