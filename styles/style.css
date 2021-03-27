@@ -15,7 +15,7 @@ html, body {
 /* HEADER */
 /* nav-bar */
 .nav-bar {
-    width: 100vw;
+    width: 100%;
     height: 110px;
     background-color: white;
     position: sticky;
@@ -42,7 +42,7 @@ nav li {
 }
 nav a{
     text-decoration: none;
-    color: black;
+    color: #838383;
     font-size: 2.5rem;
 }
 
@@ -69,6 +69,10 @@ nav a{
 /* MAIN */
 main {
     width: 100%;
+    padding: 25px;
+}
+.feature-icon {
+	height: 85px;
 }
 
 /* Features Section */
@@ -83,7 +87,7 @@ main {
 }
 .feature-section hr {
 	width: 300px;
-	border: 2px solid green;
+	border: 2px solid #34B97B;
 	margin-top: 10px;
     margin: 0 auto;
 }
@@ -98,9 +102,6 @@ main {
 	flex-direction: column;
 	margin-top: 40px;
 }
-.feature-box-icon {
-	height: 85px;
-}
 .box-title{
 	text-align: center;
 	width: 240px;
@@ -114,4 +115,48 @@ main {
 	width: 240px;
 	font-size: 1.9rem;
     color: #B2B2B2;
+}
+
+/*Green Section*/
+.green-feature {
+    background-color: #1AB16A;
+    display: flex;
+    color: white;
+    justify-content: space-evenly;
+    align-items: center;
+    position: relative;
+    padding: 60px;
+}
+.green-feature-text h3 {
+    font-size: 3rem;
+    text-decoration: underline;
+    text-underline-position: under;
+    padding-bottom: 50px;
+}
+
+.green-feature-text article {
+    padding-bottom: 35px;
+    width: 50%;
+}
+.feature-article h4{
+    font-size: 2rem;
+}
+
+.feature-article p {
+    font-size: 1.75rem;
+    padding-top: 25px;
+    line-height: 2.5rem;
+}
+
+.green-icon {
+    position: absolute;
+    top: 43%;
+    left: 48%;
+}
+
+.green-feature-img {
+    width: 20%;
+}
+.green-feature-img img{
+    height: 400px;
 }
