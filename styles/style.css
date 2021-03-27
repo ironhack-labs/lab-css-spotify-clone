@@ -14,20 +14,69 @@ White: #FFF
 body {
   font-family: Verdana, sans-serif;
 }
-.container {
+.main {
   display: flex;
   flex-direction: column;
 }
 .navbar {
-  position: fixed;
+  width: 100%;
+  height: 10vh;
   display: flex;
+  position: fixed;
+  justify-content: space-between;
+}
+.links-nav-bar {
+  list-style-type: none;
+  background-color: orange;
+  display: flex;
+  width: 40vw;
+  height: 10vh;
+  justify-content: space-around;
+  align-items: center;
 }
 .logo {
-  height: 10%;
+  height: 50px;
   width: auto;
+  margin: 10px;
 }
 .nav-bar-ul a {
   text-decoration: none;
   color: black;
   list-style-type: none;
+}
+.nav-bar-ul {
+  list-style-type: none;
+  background-color: orange;
+  display: flex;
+  width: 30vw;
+  height: 10vh;
+  justify-content: space-around;
+  align-items: center;
+}
+.section2 {
+  padding-top: 10vh;
+  background-image: url(/images/landing.jpg);
+  height: 700px;
+  color: white;
+  background-size: 100% 100%;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  flex-direction: column;
+}
+.section2-title {
+  margin-bottom: 50px;
+  font-size: 4em;
+  font-weight: bold;
+}
+.section2-text {
+  font-size: 2em;
+  width: 70vw;
+  text-align: center;
+}
+.section3 {
+  background-color: bisque;
+}
+.section4 {
+  background-color: darkgoldenrod;
 }
