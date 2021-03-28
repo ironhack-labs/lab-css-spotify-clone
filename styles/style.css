@@ -2,6 +2,7 @@
     --text: #1A1A1A;
     --green: #00B172;
     --white: #FFF;
+    --gray: #A9A9A9;
 }
 
 * {
@@ -14,6 +15,7 @@ html {
     font-family: Arial, Verdana, sans-serif;
     font-size: 16px;
 }
+
 header {
     position: fixed;
     height: 60px;
@@ -41,7 +43,7 @@ nav ul {
 }
 
 nav ul li {
-   margin: 0 1rem;
+    margin: 0 1rem;
     display: inline-block;
 }
 
@@ -62,6 +64,108 @@ nav ul li a {
     width: 960px;
     margin: 60px auto 0;
 }
+
+h1 {
+    font-size: 4rem;
+    color: var(--white);
+    margin-bottom: 20px;
+}
+
+section p {
+    color: var(--white);
+    font-size: 1.2rem;
+
+}
+
+.section1 {
+    margin-bottom: 80px;
+}
+
+.section1 article {
+    text-align: center;
+    margin: 0;
+
+}
+
+.section1 h2 {
+    width: 300px;
+    text-align: center;
+    font-size: 2rem;
+    margin: 30px auto 80px;
+    border-bottom: 4px var(--green) solid;
+}
+
+.section1 h3 {
+    color: var(--green);
+    font-size: 1.5rem;
+    margin: 10px auto;
+
+}
+
+.section1 p {
+    color: var(--gray);
+    width: 210px;
+    margin: auto;
+}
+
+.section1 div {
+    display: flex;
+    justify-content: space-evenly;
+    margin: 30px 0;
+}
+
+.icon {
+    height: 70px;
+}
+
+.section2 {
+    background-color: var(--green);
+    padding: 50px 0;
+}
+
+.section2 .wrapper {
+    display: flex;
+    width: 960px;
+    background: url("../images/spotify-icon-white.png") center center no-repeat;
+    background-size: 110px;
+    margin: 0 auto;
+}
+.section2 .wrapper > div {
+    width: 50%;
+}
+
+.section2 h3 {
+    color: var(--white);
+    font-size: 2rem;
+    margin-bottom: 50px;
+    border-bottom: 4px var(--white) solid;
+    padding-bottom: 0.8rem;
+    display: inline-block;
+}
+
+.section2 h4 {
+    color: var(--white);
+    font-size: 1.5rem;
+    margin-bottom: 30px;
+
+}
+
+.section2 p {
+    color: var(--white);
+    width: 260px;
+    margin-bottom: 30px;
+    font-size: 1.1rem;
+}
+
+.spotify-screenshot {
+    height: 500px;
+}
+
+.section2 .right {
+    text-align: right;
+
+}
+
 
 
 
