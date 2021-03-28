@@ -6,3 +6,231 @@ Green: #00B172
 White: #FFF
 
 */
+
+/* Reset */
+/* http://meyerweb.com/eric/tools/css/reset/ 
+   v2.0 | 20110126
+   License: none (public domain)
+*/
+
+html, body, div, span, applet, object, iframe,
+h1, h2, h3, h4, h5, h6, p, blockquote, pre,
+a, abbr, acronym, address, big, cite, code,
+del, dfn, em, img, ins, kbd, q, s, samp,
+small, strike, strong, sub, sup, tt, var,
+b, u, i, center,
+dl, dt, dd, ol, ul, li,
+fieldset, form, label, legend,
+table, caption, tbody, tfoot, thead, tr, th, td,
+article, aside, canvas, details, embed, 
+figure, figcaption, footer, header, hgroup, 
+menu, nav, output, ruby, section, summary,
+time, mark, audio, video {
+	margin: 0;
+	padding: 0;
+	border: 0;
+	font-size: 100%;
+	font: inherit;
+	vertical-align: baseline;
+}
+/* HTML5 display-role reset for older browsers */
+article, aside, details, figcaption, figure, 
+footer, header, hgroup, menu, nav, section {
+	display: block;
+}
+body {
+	line-height: 1;
+}
+ol, ul {
+	list-style: none;
+}
+blockquote, q {
+	quotes: none;
+}
+blockquote:before, blockquote:after,
+q:before, q:after {
+	content: '';
+	content: none;
+}
+table {
+	border-collapse: collapse;
+	border-spacing: 0;
+}
+
+/* General settings */
+
+@import url('https://fonts.googleapis.com/css?family=Roboto+Condensed:700|Roboto:100,300,500,700');
+
+body {
+    font-family: 'Roboto';
+    font-size: .7rem;
+    line-height: 2.2em;
+    font-weight: 300;
+}
+
+.container{
+    margin: 0 auto;
+    width: 80%;
+}
+
+/* Font settings */
+
+h1 {
+    font-size: 4em;
+    text-align: center;
+    line-height: 1em;
+    color: white;
+    margin-bottom: .7em;
+    font-weight: 500;
+}
+
+h2 {
+    text-align: center;
+    font-size: 2.1em;
+    font-weight: bold;
+    margin-top: 1.2em;
+}
+
+h3 {
+    font-size: 1.8em;
+    text-align: center;
+    line-height: 1em;
+    margin-bottom: .7em;
+    color: #00B172;
+    font-weight: 500;
+}
+
+/* Header */
+
+.hero {
+    height: 100%;
+    min-height: 600px;
+    background-image: url(/images/landing.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+nav {
+    background-color: white;
+    position: fixed;
+    display: flex;
+    width: 100%;
+}
+
+.logo {
+    width: 13em;
+    margin: 1.3em;
+}
+
+.menu {
+    width: 80%;
+    display: flex;
+    align-items: center;
+    justify-content: flex-end;
+}
+
+ul > li {
+    font-size: 1.2rem;
+    padding: 0 2%;
+    font-weight: 400;
+}
+
+.title-subtitle {
+    position:relative;
+    top: 200px;
+}
+
+.title-subtitle span {
+    font-size: 2em;
+    text-align: center;
+    line-height: 1em;
+    margin-bottom: .7em;
+    color: white;
+    display: block;
+}
+
+/* Section one */
+
+.section-one {
+    margin: 40px 0;
+}
+
+.section-one p {
+    text-align: center;
+    color: #1a1a1a;
+    font-size: 1.1em;
+}
+
+.hr-section-one {
+    height: 3px;
+    width: 200px;
+    border: none;
+    background-color: #00B172;
+}
+
+.info-boxes {
+    display: flex;
+    justify-content: space-evenly;
+    align-content: center;
+    margin: 4em 0;
+}
+
+.box {
+    text-align: center;
+    width: 25%;
+}
+
+@supports(object-fit: cover){
+    .box img{
+        height: 60px;
+        object-fit: cover;
+        object-position: center center;
+    }
+}
+
+/* Section two */
+
+.section-two {
+    background-color: #00B172;
+    margin: 40px 0;
+    padding: 10px 50px;
+}
+
+.hr-section-two {
+    margin-left: 0;
+    height: 3px;
+    width: 295px;
+    border: none;
+    background-color: white;
+}
+
+.section-two h2, .section-two h3, .section-two p {
+    text-align: start;
+    color: white;
+}
+
+.section-two h3 {
+    line-height: 2em;
+    margin-top: 1em;
+}
+
+.info-boxes-section-two {
+    display: flex;
+    justify-content: space-between;
+    align-content: center;
+    margin-bottom: 30px;
+}
+
+.section-two-box {
+    width: 35%;
+    align-self: center;
+}
+
+.icon-spotify {
+    width: 30%;
+    margin-left: 5em;
+}
+
+.spotify-app {
+    width: 100%;
+}
