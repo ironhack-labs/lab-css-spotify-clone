@@ -6,3 +6,140 @@ Green: #00B172
 White: #FFF
 
 */
+@import url("https://fonts.googleapis.com/css?family=Roboto+Condensed:700|Roboto:100,300,700");
+
+body {
+  margin: 0;
+  font-family: Roboto;
+  font-size: 18px;
+  color: #1a1a1a;
+}
+
+nav {
+  background-color: white;
+  padding: 14px;
+  margin: 5px;
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+}
+
+nav img {
+  height: 90px;
+}
+
+.nav-links {
+  list-style: none;
+  display: flex;
+  flex-direction: row;
+  justify-content: space-evenly;
+  margin-top: 30px;
+}
+
+.nav-links a {
+  text-decoration: none;
+  margin: 20px;
+  font-size: 1.5em;
+  color: #1a1a1a;
+}
+
+#banner {
+  padding-top: 50px;
+  height: 800px;
+  width: 100%;
+  background-image: url("../images/landing.jpg");
+  background-position: 0, 0;
+  background-repeat: no-repeat;
+  background-size: cover;
+  position: relative;
+  color: #fff;
+  display: flex;
+  flex-direction: column;
+  text-align: center;
+}
+
+h1 {
+  font-size: 5em;
+  margin-top: 250px;
+  margin-bottom: 50px;
+}
+
+.banner-subtitle {
+  font-size: 1.8em;
+  margin-top: 0;
+}
+
+h2 {
+  font-size: 2.5em;
+  text-decoration: underline;
+  text-decoration-color: #00b172;
+  text-underline-position: under;
+  text-align: center;
+  padding: 25px;
+}
+
+#whatson art {
+  display: flex;
+  flex-direction: row;
+  text-align: center;
+}
+.container {
+  width: 1200px;
+  margin: 0 auto;
+  padding: 100px;
+}
+
+h3 {
+  font-size: 2em;
+  color: #00b172;
+}
+
+.container img {
+  width: 125px;
+}
+
+.container p {
+  font-size: 1.5em;
+}
+
+#yeezy {
+  background-color: #00b172;
+  background-clip: padding-box;
+  padding: 20px 60px;
+  margin: 0 50px;
+  color: #fff;
+  display: flex;
+  flex-direction: row;
+  justify-content: space-evenly;
+  position: relative;
+}
+
+#yeezy h2 {
+  text-decoration-color: #fff;
+  padding-left: 0;
+  margin-left: 0;
+  text-align: left;
+}
+
+h4 {
+  font-size: 2em;
+}
+
+.yeezy-content {
+  font-size: 1.5em;
+  max-width: 55%;
+  padding-left: 0;
+}
+
+.spotifylogo {
+  position: absolute;
+  left: calc(50% - 80px);
+  top: calc(50% - 80px);
+  width: 160px;
+  height: 160px;
+}
+
+.spotify-kanye {
+  height: 700px;
+  align-self: center;
+}
