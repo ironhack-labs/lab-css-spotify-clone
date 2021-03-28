@@ -1,8 +1,177 @@
-/*
-Colors:
 
-Text: 1A1A1A
-Green: #00B172
-White: #FFF
 
-*/
+body {
+    font-family: 'Cabin';
+    color: #1A1A1A;
+
+}
+
+body, html {
+    margin: 0;
+    padding: 0;
+}
+
+h1, h2 {
+    color: white;
+    text-align: center;
+}
+
+h1 {
+    font-size: 80px;
+    margin-bottom: 20px;
+}
+
+h2 {
+    font-size: 40px;
+    font-weight: 100px;
+    line-height: 50px;
+}
+
+h3 {
+    font-size: 45px;
+    margin-bottom: 0;
+}
+
+h4 {
+    font-size: 38px;
+}
+
+.main-banner {  
+    background-image: url('/images/landing.jpg');
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: center;
+    height: 900px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+}
+
+.navbar {
+    width: 100%;
+    top: 0;
+    position: fixed;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    background-color: white;
+}
+
+.links {
+    margin-right: 1rem;
+    list-style: none;
+    display: flex;
+    justify-content: space-between;
+  }
+
+
+.link {
+    margin-right: 32px;
+    font-size: 22px;
+}
+
+
+.nav-logo {
+    width: 10rem;
+    margin: 1rem;
+}
+
+.section {
+    padding: 16px 0;
+    display: flex;
+    align-items: center;
+}
+
+.section > hr {
+    background-color: #00B172;
+    position: relative;
+    width: 380px;
+}
+
+.services {
+    flex-direction: column;
+}
+
+.card-list {
+    display: flex;
+    margin: 32px;
+    justify-content: space-around;
+}
+
+.card {
+    display: flex;
+    flex-flow: column wrap;
+    justify-content: center;
+    align-items: center;
+    padding: 32px 80px;
+    width: 350px;
+}
+
+.service-card {
+    text-align: center;
+}
+
+.card-title {
+    margin-bottom: 0;
+    padding: 24px;
+}
+
+.service-card .card-title {
+    color: #00B172;
+}
+
+.card-logo {
+    width: 170px;
+}
+
+.features {
+    background-image: url('/images/spotify-icon-white.png');
+    background-repeat: no-repeat;
+    background-size: 120px;
+    background-color: #00B172;
+    background-position: center;
+    color: white;
+    justify-content: space-between;
+    align-items: center;
+    padding: 80px;
+}
+
+hr { 
+    height: 5px;
+    width: 600px;
+    background-color: white;
+    border: none;
+    border-radius: 1.5px;
+}
+
+
+
+.features .image-container {
+    display: flex;
+    justify-content: flex-end;
+    align-items: center;
+}
+
+.features img {
+    height: 750px;
+    padding-top: 50px;
+}
+
+
+.feature-card {
+    display: flex;
+    flex-direction: column;
+    padding: 0;
+    align-items: flex-start;
+}
+
+p {
+    line-height: 32px;
+    font-size: 28px;
+}
+
+
+
+
+  
