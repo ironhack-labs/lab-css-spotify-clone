@@ -1,8 +1,188 @@
-/*
-Colors:
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
 
-Text: 1A1A1A
-Green: #00B172
-White: #FFF
+nav {
+    margin: 0px;
+    display: flex;
+    justify-content: space-between;
+    position: fixed;
+    background-color: white;
 
-*/
+}
+
+nav img{
+    width: 20%;
+    height: 20%;
+}
+
+
+ul {
+    display: flex;
+    align-items: center;
+}
+
+ul li {
+    padding: 10px;
+    list-style-type: none;
+    font-size:  20px;
+}
+
+
+.banner {
+    background-image: url(/images/landing.jpg);
+    display: flex;
+    background-size: cover;
+    width: 100%;
+    height: 900px;
+    background-repeat: no-repeat;
+    color: white;
+    justify-content: center;
+    align-items:center;
+    flex-direction: column;
+}
+
+h1 {
+    font-size: 65px; 
+    margin-bottom: 50px;
+}
+
+.banner p{
+    text-align: center;
+    
+}
+
+.story h2 {
+    text-align: center;
+    border-bottom: 4px solid #00B172;
+    width: 30%;
+    padding-bottom: 10px;
+    
+}
+
+
+.banner p{
+    display: inline-block;
+}
+
+.story {
+    margin: 50px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+
+.features {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-top: 50px;
+    margin-bottom: 100px;
+    align-content: center;
+}
+
+.features img{
+    width: 30%;
+    height: 100%;
+    margin-bottom: 10px;
+    
+}
+
+.imgs {
+
+text-align: center;
+height: 100px;
+
+
+
+}
+
+.song {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    height: 222px;
+}
+
+.song p{
+
+    width: 300px;
+
+}
+.kanye h2{
+   border-bottom: 4px solid white;
+   padding-bottom: 20px;
+   width: 480px;
+}
+
+.cta {
+    display: flex;
+    color: white;
+    background-color: #00B172;
+    padding: 50px;
+    align-items: center;
+    justify-content: space-between;
+    
+}
+
+.cta img {
+    width: 130px;
+    height: 130px;
+}
+
+.app {
+    width: 33%;
+    
+}
+
+.app img {
+    width: 100%;
+    height: 600px;
+}
+
+
+
+.kanye {
+
+    display: flex;
+    flex-direction: column;
+    justify-content:space-between;
+    width: 45%;
+    text-align: left;
+    text
+}
+
+.kanye h3 {
+    font-size: 30px;
+    margin-bottom: 50px;
+    margin-top: 50px;
+}
+
+.kanye p{
+    width: 70%;
+}
+
+.story h3{
+    
+    color: #00B172;
+    font-size: 30px;
+    margin-top: 10px;
+    margin-bottom: 20px;
+}
+
+p {
+    font-size: 25px;
+}
+
+h2 {
+    font-size: 40px;
+}
+
+.features p{
+    text-align: center;
+}
+
