@@ -9,9 +9,9 @@ White: #FFF
 
 }
 
-h1{
+h1,h2 {
     font-size: large;
-    color: black;
+    color:#FFF;
 
 }
 li{
@@ -23,16 +23,12 @@ body{
     margin-left: auto;
     margin-right: auto;
 }
-.nav-bar-ul{
-    anchura: 1200px;
-     margen: 0 auto;
-     text-align: right;
-     float: right;
 
-}
-.nav{
-    position: fixed;
-    text-align: right;
+
+.nav-bar-ul{
+    display: flex;
+    justify-content:flex-end ;
+    
     font-size: solid,bold,2em;
     width: 1000px;
     margin-right: auto;
@@ -42,6 +38,8 @@ body{
     display: inline-block;
 }
 .logo{
+    display:flex;
+    justify-content: left;
     width: 150px;
     height: 50px;
     float:left;
@@ -60,9 +58,10 @@ section.green{
 
 .spotify-white{
     color:#FFF;
-    margin: 40px;
-    size:auto;
+    margin: 100px;
+    size: 50px;;
     justify-self: flex-end;
+    image-rendering: auto;
     
 }
 .tittle{
@@ -71,7 +70,7 @@ section.green{
 }
 .img-media{
     justify-self: flex-end;
-    justify-items: ;
+    justify-items:auto ;
     
 }
 .flex-center {
@@ -82,11 +81,13 @@ section.green{
     
     
   }
-  .flex-center-green{
+  .container-green{
       background-color: #00B172;
       display:flex;
-      justify-content:space-around ;
-    margin: auto;
+      align-items: center;
+      margin: auto;
+      flex-direction: row;
+      
   }
 
 
@@ -125,21 +126,19 @@ hr{
     background-color: #00B172;
 }
 .contenedor{
-    position:relative;
-    display:inline-block;
-    text-align:center;
+    position: relative;
+    display:flex;
     width:1000px;
+    flex-flow: row wrap;
+    justify-content: flex-end;
+    
+
 
 }
 
-.texto-center{
-    position:absolute;
-  margin:auto;
-    text-align: center;
-    justify-content: space-around;
-    width: 1000px;
 
-    .spotify-white{
+
+.spotify-white {
        margin:300px;
        justify-content.flex-center;
        display:flex;
