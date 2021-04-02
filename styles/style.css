@@ -1,8 +1,145 @@
-/*
-Colors:
+body {
+    margin-top: 0;
+    padding-top: 70px;
+    font-family: Helvetica, Arial, sans-serif;
+    color: #1A1A1A;
+}
+header {
+    width: 100%;
+    height: 70px;
+    position: fixed;
+    top: 0px;
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: space-between;
+    background-color: #fff;
+    margin-bottom:0;
+}
+    
+#spotify-logo {
+    height: 40px;
+    margin-left: 20px;
+}
 
-Text: 1A1A1A
-Green: #00B172
-White: #FFF
+nav {
+    width: 300px;
+    margin-right: 20px;
+}
 
-*/
+nav ul {
+    list-style: none;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    font-weight: 100;
+}
+
+main {
+    margin-top:-30px;
+    padding-top:0px;
+    background-image: url(./../images/landing.jpg);
+    background-size: cover;       
+    background-repeat: no-repeat;             
+    height: 600px;
+}
+
+h1 {
+    color: #fff;
+    font-weight: 400;
+    font-size: 50px;
+    text-align: center;
+    margin-top: 200;
+    padding-top: 200px;
+}
+
+main h1 + p {
+    color: #fff;
+    font-weight: 100;
+    font-size: 18px;
+    text-align: center;
+    margin-top: 300;
+}
+
+#primary {
+    padding-bottom: 50px;
+}
+
+#primary h2 {
+    text-align: center;
+    font-weight: 500;
+    padding-bottom: 20px;
+}
+
+#cards {
+    margin: 50px, 30px, 50px, 30px; 
+    display: flex;
+    flex-direction: row;
+    justify-content: space-evenly;
+}
+
+
+.card {
+    width: 30%;
+    text-align: center;
+    padding-top: 30px;
+}
+
+.card img {
+    height: 60px;
+    width: auto;
+}
+
+.card h3 {
+    color: #00B172;
+    font-size: 20px;
+    font-weight: 600;
+}
+
+.card p {
+    font-weight: 100;
+    font-size: 16px;
+}
+
+#secondary {
+    background-color: #00B172;
+    margin-left:20px;
+    margin-right:20px;
+    padding: 50px;
+    color: #fff;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+}
+
+#logo {
+    height: 70px;
+    position: absolute;
+    margin-top:150px;
+    margin-left:40%;
+}
+
+#screenshot {
+    height:400px;
+}
+
+#secondary h2 {
+    text-align: center;
+    font-weight: 500;
+    margin-bottom:5px;
+}
+
+hr {
+    margin-top:0;
+    border: 1px solid white;
+}
+
+#secondary h3 {
+    font-size: 20px;
+    font-weight: 600;
+}
+
+#secondary p {
+    font-weight: 100;
+    font-size: 16px;
+}
