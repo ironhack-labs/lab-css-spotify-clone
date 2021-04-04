@@ -6,3 +6,34 @@ Green: #00B172
 White: #FFF
 
 */
+h1, body, html, main { margin: 0; font-family: Verdana, Geneva, Tahoma, sans-serif; }
+header {width: 100%; text-align: center; position: relative; }
+header div{display:flex; flex-direction: column; justify-content: center; align-items: center ; width: 100%; min-height: 400px;  text-align: center; position: relative; overflow: hidden;}
+header img{width:100%; z-index: -1; position: absolute; }
+header h1 {color:#fff; font-size: 2em; margin: 0 auto ; z-index: 2; }
+header h2{color: #fff; font-size: 1em; margin:0 ; font-weight: 200; width: 50%; text-align: center;}
+nav {background-color: #fff; position: fixed; height: 100px;  z-index: 3; width: 100%; padding: 5px; display: flex; flex-direction: row; justify-content: space-between; align-items:center;}
+nav img{width: 100%; max-width: 200px; height: auto; min-height: 0; position: relative; }
+nav ul{list-style: none; display: flex;  justify-content: flex-end; margin: 2%; }
+nav li{padding: 2%;}
+nav a{text-decoration: none; color: #1A1A1A;}
+nav a:hover{color: #00B172;}
+section{padding: 2%; margin: auto;  color: #1A1A1A; width: 96%; display: flex; align-items: center; flex-direction: column; position: relative;  }
+section ul{display: flex; flex-direction: row; justify-content: space-between; align-items: flex-start; width: 100%; list-style: none; max-width: 1024px; text-align: center; padding: 0;}
+section li{width: 30%}
+section li img{height: 100%; max-height: 80px; }
+section h3{border-bottom: solid 2px #00B172;}
+section h4{color: #00B172; font-weight: bold;} 
+#green-section{background-color: #00B172; color: #fff; flex-direction: row; justify-content: space-around; flex-wrap: nowrap; align-items: center; }
+#green-section h3{border-bottom: solid 2px #fff;}
+#green-section h4{color: #fff;}
+#green-section p{font-weight: lighter; font-size: 1em;}
+#green-section img{width:100%; max-width: 250px;}
+#green-section .logo{position: absolute; max-width: 100px;}
+#green-section ul{ text-align: left; flex-direction: column; flex-wrap: nowrap; width: 30%; justify-content: left;}
+#green-section li{width: 100%;}
+
+
+
+
+
