@@ -6,3 +6,167 @@ Green: #00B172
 White: #FFF
 
 */
+
+@import url('https://fonts.googleapis.com/css?family=Roboto+Condensed:700|Roboto:100,300,700');
+
+body {
+    font-family:'Roboto';
+    font-size: 20px;
+    line-height: 1.6;
+}
+
+header > div {
+  padding: 0 25px;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.nav-bar-logo {
+    width: 20px;
+  }
+
+nav-bar {
+  padding: 0 25px;
+  justify-content: space-between;
+  align-items: center;
+  border-bottom: 1px solid lightgray;
+}
+
+  
+.nav-bar-ul {
+    list-style: none;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    width: 500px;
+}
+  
+.nav-bar-item {
+    text-decoration: none;
+    color: black;
+  }
+  
+
+ 
+.main {
+    background: url("/images/landing.jpg") 0 0 no-repeat;
+    background-size: cover;
+    height: 450px;
+    padding-top: 100px;
+    position: relative; 
+
+}
+
+h1 {
+    font-size: 40px;
+    font-weight: bold;
+    text-align: center;
+    
+}
+
+h2 {
+    font-size: 20px;
+    text-align: center;
+}
+
+h3 {
+    font-size: 30px;
+    text-align: center;
+}
+
+.under {
+       text-decoration: none; 
+       position: relative; 
+     } 
+
+.under:after {
+        position: absolute;
+        content: '';
+        height: 4px;
+        bottom: -4px; 
+        margin-left: 580px;
+        width: 18%;
+        background: #00B172;
+}
+
+h4 {
+    font-size: 25px;
+    color: #00B172;
+}
+
+
+h5 {
+    color: white;
+    font-size: 30px;
+    text-align: left;
+}
+
+.underline {
+       text-decoration: none; 
+       position: relative; 
+     }   
+
+.underline:after {
+        position: absolute;
+        content: '';
+        height: 4px;
+        bottom: -4px; 
+        margin: 0;
+        left: 0;
+        right: 0;
+        width: 29%;
+        background:white;
+}
+
+h6 {
+    color: white;
+    font-size: 20px;
+    text-align: left;
+    
+}
+
+p {
+    color: white;
+    font-size: 20px;
+    text-align: left;
+    
+}
+
+.middle {
+  margin-top: 80px;
+}
+
+.boxes {
+  width: 1200px; 
+  margin: 0 auto;
+  margin-bottom: 60px;
+  
+}
+
+.containers {
+  width: 20%;
+  text-align: center;
+ 
+}
+
+#structure {
+  display: flex;
+  justify-content: space-between;
+  flex-direction: row;
+  flex-wrap: wrap;
+  margin: 20px, 0px;
+}
+
+.bottom {
+  background-color: #00B172;
+  padding: 60px; 
+}
+
+#organization {
+  display: flex;
+  justify-content: space-between;
+  flex-direction: row;
+  flex-wrap: wrap;
+  margin: 10px, 0px;
+}
