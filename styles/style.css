@@ -1,8 +1,140 @@
-/*
-Colors:
+body {
+	/* border: 1px solid black; */
+	margin-top: 0;
+	color: #000;
+	font-family:Helvetica,  Arial, sans-serif;
+}
 
-Text: 1A1A1A
-Green: #00B172
-White: #FFF
+header {
+	/* border: 1px solid black; */
+	position: fixed;
+	top: 0px;
+	background-color: white;
+	width: 100%;
+	display: flex;
+	flex-direction: row;
+	justify-content: space-between;
+	align-items: center;
+}
 
-*/
+header img {
+	/* border: 1px solid black; */
+	height: 40px;
+	margin-left: 10px;
+}
+
+header nav {
+	margin-right: 20px;
+}
+
+nav ul {
+	/* border: 1px solid black; */
+	list-style: none;
+	display: flex;
+	flex-direction: row;
+	justify-content: space-between;
+	width: 500px;
+}
+
+main {
+	background-image: url("./../images/landing.jpg");
+	color: white;
+	height: 700px;
+	margin-top: -20px;
+	background-size: cover; /* escala la img del fondo */
+	background-position: bottom;/* de esta manera siempre se escalará desde abajo */
+	background-repeat: no-repeat;
+	display: flex;
+	flex-direction: column;
+	justify-content: center;
+	align-items: center;
+	text-align: center;
+}
+
+main h1 {
+	font-weight: 400;
+	font-size: 50px;
+}
+
+main p {
+	font-size: 18px;
+	font-weight: 100;
+}
+
+#primary {
+	padding-bottom: 50px;
+}
+
+#primary h2 {
+	text-align: center;
+	font-weight: 800;
+	padding-bottom: 20px;
+}
+
+#primary div {
+	display: flex;
+	flex-direction: row;
+	justify-content: space-evenly;
+}
+
+.features {
+	/* border: 1px solid black; */
+	text-align: center;
+	width: 30%;
+}
+
+.features img {
+	height: 60px;
+}
+
+.features h3 {
+	color: #00b172;
+	font-size: 20px;
+	font-weight: 600;
+}
+
+.features p {
+	font-size: 16px;
+	font-weight: 100;
+}
+
+#secondary {
+	background-color:#00b172;
+	margin-left: 20px;
+	margin-right: 20px;
+	padding: 50px;
+	color: white;
+	display: flex;
+	justify-content: space-between;
+}
+
+#secondary h2 {
+	font-weight: 500;
+	margin-bottom: 5px;
+}
+
+#secondary h3 {
+	font-weight: 600;
+	font-size: 20px;
+}
+
+#secondary p {
+	font-weight: 100;
+	font-size: 16px;
+}
+
+hr {
+	margin-top: 0;
+	border: 1px solid white;
+}
+
+#spotify-app {
+	height: 400px;
+}
+
+#icon-white {
+	height: 70px;
+	position: absolute;
+	margin-top: 150px;
+	margin-left: 40%;
+}
