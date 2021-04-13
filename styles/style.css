@@ -6,3 +6,183 @@ Green: #00B172
 White: #FFF
 
 */
+@import url('https://fonts.googleapis.com/css2?family=Maven+Pro:wght@400;700&display=swap');
+
+* {
+    font-family: "Maven Pro";
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+}
+
+#header {
+    background: #FFF;
+    height: 5%;
+    position: fixed;
+    top: 0;
+    right: 0;
+    left: 0;
+    z-index: 1;
+}
+
+#header>div {
+    padding: 0 25px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.spotify-logo {
+    width: 12%;
+}
+
+nav {
+    width: 60%;
+}
+
+nav ul {
+    list-style: none;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+nav a {
+    text-decoration: none;
+    color: black;
+}
+
+li {
+    padding-right: 20px;
+    font-size: 1.2rem;
+    font-weight: 500;
+}
+
+#main {
+    height: 20%;
+    width: 100%;
+}
+
+.landing {
+    position: relative;
+    width: 100%;
+}
+
+#main h1 {
+    position: absolute;
+    color: #FFF;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    font-size: 5em;
+}
+
+#main p {
+    position: absolute;
+    color: #FFF;
+    text-align: center;
+    margin-top: 10%;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    font-size: 2rem;
+    width: 45%;
+    font-weight: lighter;
+}
+
+#presentation {
+    height: 20%;
+    width: 100%;
+}
+
+.box img {
+    width: 70%;
+
+}
+
+h2 {
+    margin-top: 5rem;
+    text-align: center;
+    font-size: 3rem;
+}
+
+.blocks {
+    margin-top: 8%;
+    display: flex;
+    justify-content: space-around;
+    text-align: center;
+}
+
+.box {
+    width: 12%;
+}
+
+.box h3 {
+    margin: 30px 0;
+    color: #00B172;
+    font-size: 1.5rem;
+}
+
+.box p {
+    font-size: 1.3rem;
+
+
+}
+
+#footer {
+    margin-top: 8rem;
+    width: 100%;
+    height: 50rem;
+    background: #00B172;
+    position: relative;
+    padding: 30px;
+}
+
+.title{
+    color: #FFF;
+    font-size: 2rem;
+    border-bottom: 3px solid #FFF;
+    width: 24%;
+    text-align: center;
+}
+
+/* #SdB{
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+} */
+
+.greenBoxes{
+    color: #FFF;
+    margin-top: 5%;
+    width: 45%;
+}
+
+h4{
+    margin-bottom: 0.7rem;
+    margin-top: 0.7rem;
+    font-weight: bolder;
+    font-size: 2rem;
+}
+
+.greenBoxes p{
+font-size: 1.5rem;
+font-weight: lighter;
+}
+
+
+.spotify-app {
+    position: absolute;
+    width: 20%;
+    top: 10%;
+    left: 70%;
+}
+
+
+.spotifyIcon {
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%,-50%);
+    width: 70px;
+}
