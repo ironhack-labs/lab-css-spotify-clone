@@ -52,6 +52,9 @@ White: #FFF
   width: 100%;
   color: white;
   z-index: 1;
+}
+
+.flex-column {
   display: flex;
   flex-direction: column;
   justify-content: center;
@@ -65,4 +68,44 @@ h1 {
 .landing-text p {
   font-size: 1.8rem;
   margin: 5px 0;
+}
+
+/* What's on Spotify section */
+
+h2 {
+  font-size: 2rem;
+  padding-bottom: 5px;
+  border-bottom: 3px solid #00B172;
+  margin-bottom: 70px;
+  color: #1A1A1A;
+}
+
+.card-container {
+  width: 100%;
+  display: flex;
+  justify-content: space-evenly;
+}
+
+.card {
+  margin: 10px;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  width: 250px;
+  text-align: center;
+}
+
+h3 {
+  color: #00B172;
+  margin-bottom: 0;
+  font-size: 1.5rem;
+}
+
+.card img {
+  height: 75px;
+}
+
+.card p {
+  font-size: 1.3rem;
+  color: #1A1A1A;
 }
