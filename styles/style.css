@@ -71,10 +71,12 @@ h1 {
 }
 
 /* What's on Spotify section */
-
 h2 {
   font-size: 2rem;
   padding-bottom: 5px;
+}
+
+#on-spotify h2 {
   border-bottom: 3px solid #00B172;
   margin-bottom: 70px;
   color: #1A1A1A;
@@ -96,9 +98,12 @@ h2 {
 }
 
 h3 {
-  color: #00B172;
-  margin-bottom: 0;
   font-size: 1.5rem;
+  margin-bottom: 0;
+}
+
+#on-spotify h3 {
+  color: #00B172;
 }
 
 .card img {
@@ -108,4 +113,35 @@ h3 {
 .card p {
   font-size: 1.3rem;
   color: #1A1A1A;
+}
+
+/* Yeezy section */
+
+.green {
+  background-color: #00B172;
+  height: 700px;
+  display: flex;
+  color: white;
+  justify-content: space-around;
+}
+
+.green h2 {
+  border-bottom: 3px solid white;
+}
+
+#app-screenshot {
+  height: 500px;
+  margin: 100px auto;
+}
+
+.left {
+  align-items: flex-start;
+  margin: 0 50px;
+}
+
+.green p {
+  width: 280px;
+  font-size: 1.2rem;
+  font-weight: 100;
+  line-height: 1.25;
 }
