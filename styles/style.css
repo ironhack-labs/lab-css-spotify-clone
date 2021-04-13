@@ -1,32 +1,136 @@
-/*
-Colors:
 
-Text: 1A1A1A
-Green: #00B172
-White: #FFF
 
-*/
+h1, body, html, main {
+    margin: 0;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+}
+nav, header, section {
+    display: flex; 
+    flex-direction: column; 
 
-nav ul {
+}
+nav {
+    background-color: white;
+    position: fixed;
+    height: 80px;
+    width: 100%;
+    padding: 5px;
     display: flex;
     flex-direction: row;
     justify-content: space-between;
+    align-items: center;
+}
+nav img {
+    width: 140px;
+    max-width: 140px;
+    height: auto;
+    min-width: none;
+    position: relative;
+    padding-left: 30px;
+}
+nav ul {
+    list-style: none;
+    display: flex;
+    justify-content: flex-end;
+    margin: 5%;
+}
+nav li{
+    padding-left: 40px;
 }
 nav a {
-    margin-top: 20px;
     text-decoration: none;
-    font-size: 18px;
-    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    color: black;
+}
+header {
+    background-image: url("../images/landing.jpg");
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: 0px 0px;
+    height: 1000px;
+    width: 0 auto;
+    display: flex;
+    justify-content: center;
+    color: white; 
+    align-items: center;  
+}
+h1 {
+    font-size: 100px;
+}
+header > p {
+    font-size: 20px;
+    display: flex; 
+    justify-content: center; 
+    flex-wrap: wrap;
+}
+#features {
+    height: 400px; 
+    margin: 30px 10%;
+}
+#features h2 {
+    display: flex; 
+    justify-content: center;
+    text-decoration: underline;
+    text-decoration-color: #1DB954;
+    text-decoration-style: solid;
+    text-decoration-thickness: 5px;
+    font-size:30px;
 }
 
-
-
-
-
-.nav-image {
-    height: 40px;
+#features img {
+    width: 30%;
+    display: flex;
+    justify-content: center; 
 }
 
-.images {
-    height: 40px;
+#features .articles{
+    margin: 60px 15px;
+    display:flex;
+    flex-direction: row;
+    justify-content: space-between;
 }
+#features article {
+    display: flex; 
+    flex-direction: column; 
+    justify-content: center; 
+    align-items: center;
+    flex-wrap: wrap;
+    max-width: 300px;
+    text-align: center;
+}
+
+#features h3{
+    color: #1DB954;
+}
+#green-section {
+    background-color: #1DB954;
+    margin: 15px 15px; 
+    padding: 40px;
+    color: white;
+    height: 400
+}
+#green-section h2{
+    text-decoration: underline;
+}
+
+#green-section .icon{
+    width: 100px;
+    height: 100px;
+}
+
+#green-section .app {
+    width: 20%;
+}
+
+.text article{
+    display:flex;
+    flex-direction: column;
+    justify-content: flex-start;
+    width: 350px;
+}
+
+.textandimages{
+    display: flex; 
+    flex-direction: row; 
+    justify-content: space-around;
+    align-items: center; 
+} 
