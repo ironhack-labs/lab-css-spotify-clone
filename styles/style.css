@@ -77,13 +77,13 @@ h1{
     background-color: #FFF;
     height: 325px;
     color: #1A1A1A;
-    border: 2px solid burlywood;
-    padding-bottom: 10px;
+    padding: 10px;
 }
 .Boxes{
     width: 200px;
     height: 75px;
     text-align: top;
+    padding-top:30px;
 }
 .Boxes h3{
     color: #00B172;
@@ -96,10 +96,6 @@ h1{
     width: 90px;
     padding-bottom: 10px;
 }
-.rightIcon{
-    width: 100px;
-    padding-bottom: 10px;
-}
 .specialQuestion{
     text-align: center;
     padding-top: 20px;
@@ -108,11 +104,11 @@ h1{
     width: 20%;*/
 .underline{
     border: 2px solid #00B172;
-    margin: 0 auto;
+    margin: 10px auto 0 auto;
     display: flex;
     flex-direction: row;
     justify-content: center;
-    width: 215px;
+    width: 210px;
 }
 .mainTitle{
     text-align: center;
@@ -122,8 +118,11 @@ h1{
 }
 /*final part with the Kanye screenview*/
 .finalInsert{
+    position: absolute;
+    right: 50px;
+    left: 50px;
     display: flex;
-    justify-content: center;
+    justify-content: space-between;
     align-items: center;
     background-color:#00B172;
     color: #FFF;
@@ -131,12 +130,31 @@ h1{
     background-size: 7%;
     background-repeat: no-repeat;
     background-position: center;
-    padding: 50px;
+    padding: 50px 75px;
+}
+.underlineAgain{
+    border: 2px solid white;
+    margin: 10px 0 0 0;
+    width: 320px;
 }
 .organizeColumn p{
     width: 60%;
+    display: flex;
+    padding-bottom: 20px;
+    padding-top: 10px;
+    line-height: 22px;
+}
+.organizeColumn h3{
+    width: 60%;
+    padding-top: 20px;
+}
+.organizeColumn{
+    display: flex;
+    flex-direction: column;
+    justify-content: stretch;
 }
 .screenView{
-    width: 25%;
+    width: 28%;
     height: auto;
+    padding-right: 10px;
 }
