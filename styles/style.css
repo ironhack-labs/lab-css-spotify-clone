@@ -40,7 +40,7 @@ White: #FFF
     background-repeat: no-repeat;
     background-size: cover;
     background-position: center;
-    height: 50vh;
+    height: 65vh;
 }
 
 .desc {
@@ -51,4 +51,50 @@ White: #FFF
     justify-content: center;
     flex-direction: column;
     height: 90%;
+}
+.desc h1 {
+    font-size:5rem;
+    margin-bottom: 25px;
+}
+
+.desc p {
+    font-size: 2rem;
+}
+
+.whatsOn h2 {
+    text-align: center;
+    font-weight: bold;
+    font-size: 3rem;
+}
+
+.whatsOn hr {
+    color: #00B172;
+} 
+
+.whatsOn div {
+    display: flex;
+    justify-content: space-around;
+	align-items: center;
+	align-content: center;
+}
+
+.whatsOn > div > article {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+.whatsOn > div > article > img {
+    width: 100px;
+}
+
+.whatsOn > div > article > h3 {
+    color: #00B172;
+    font-size: 2.5rem;
+    text-align: center;
+}
+
+.whatsOn > div > article > p {
+    color: black;
+    font-size: 1.5rem;
+    text-align: center;
 }
