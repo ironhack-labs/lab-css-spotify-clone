@@ -1,4 +1,4 @@
-/*
+    /*
 Colors:
 
 Text: 1A1A1A
@@ -6,3 +6,170 @@ Green: #00B172
 White: #FFF
 
 */
+    
+    body {
+        margin: 0;
+        display: flex;
+        flex-direction: column;
+    }
+    
+    header {
+        width: 100%;
+        background-color: white;
+        border: 0;
+    }
+    
+    .imagen {
+        width: 150px;
+        height: 50px;
+    }
+    
+    .nav {
+        display: flex;
+        flex-direction: row;
+        justify-content: space-between;
+        height: 50px;
+    }
+    
+    .header {
+        display: flex;
+        flex-direction: row;
+    }
+    
+    .letrasHeader {
+        padding-right: 60px;
+        font-family: Arial, Helvetica, sans-serif;
+        font-size: 17px;
+    }
+    
+    .concierto {
+        height: 500px;
+        width: 100%;
+    }
+    
+    .titulo {
+        display: block;
+        position: absolute;
+        text-align: center;
+        color: white;
+        top: 200px;
+        left: 0;
+        right: 0;
+        bottom: 0;
+        margin: auto;
+        margin: 0
+    }
+    
+    .caja {
+        position: relative;
+        display: inline-block;
+    }
+    
+    .music {
+        font-size: 50px;
+        font-family: Arial, Helvetica, sans-serif;
+    }
+    
+    .spotify {
+        width: 500px;
+        display: inline-block;
+        font-family: Arial, Helvetica, sans-serif;
+        font-weight: lighter;
+    }
+    
+    .cuerpo {
+        width: 100%;
+        height: 400px;
+        margin-top: -1%;
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+    }
+    
+    .tituloCuerpo {
+        font-family: Arial, Helvetica, sans-serif;
+        font-size: 25px;
+        padding-top: 30px;
+    }
+    
+    .flexCuerpo {
+        display: flex;
+        flex-direction: row;
+        justify-content: space-around!important;
+        align-items: center;
+        flex-wrap: wrap;
+        width: 98%;
+        height: 300px;
+        margin-left: 20px;
+        margin-right: 20px;
+    }
+    
+    .flexCuerpo div {
+        width: 300px;
+        height: 250px;
+        text-align: center;
+    }
+    
+    .flexCuerpo div img {
+        width: 100px;
+        height: 80px;
+    }
+    
+    .flexCuerpo div h2 {
+        font-size: 25px;
+        color: #00B172;
+    }
+    
+    .flexCuerpo div h3 {
+        font-size: 20px;
+        color: gray;
+    }
+    
+    .footer {
+        width: 98%;
+        height: 600px;
+        display: flex;
+        margin-left: 1%;
+        flex-direction: row;
+        justify-content: space-around!important;
+        background-color: #00B172;
+        margin-bottom: 20px;
+    }
+    
+    .footer div {
+        width: 50%;
+        display: flex;
+        flex-direction: column;
+        color: #FFF;
+    }
+    
+    .footer div h2 {
+        font-family: Arial, Helvetica, sans-serif;
+        font-size: 23px;
+        text-align: left;
+        margin-top: 5%;
+        margin-left: 25%;
+    }
+    
+    .footer div h3 {
+        font-family: Arial, Helvetica, sans-serif;
+        font-size: 17px;
+        text-align: left;
+        margin-left: 25%;
+        margin-top: 0% !important;
+        font-weight: 100;
+        width: 280px;
+    }
+    
+    .footer>img {
+        width: 100px;
+        height: 100px;
+        margin-top: 17%;
+    }
+    
+    .footer div img {
+        margin-top: 5%;
+        margin-left: 20%;
+        height: 500px;
+        width: 300px;
+    }
