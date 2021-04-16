@@ -6,3 +6,49 @@ Green: #00B172
 White: #FFF
 
 */
+* {
+    margin: 0;
+    padding: 0;
+}
+
+
+
+#navBar, #navBar > nav > ul {
+    display: flex;
+    flex-direction: row;
+    flex-wrap: nowrap;
+    justify-content: space-between;
+    align-items: center;
+    align-content: stretch;
+    list-style-type: none;
+    background-color: #fff;
+}
+
+#navBar img {
+    width: 200px;
+}
+
+#navBar > nav > ul a {
+    text-decoration: none;
+    color: black;
+    font-size: 30px;
+    margin: 35px 25px;
+}
+
+.head {
+    background-image: url(/images/landing.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+    height: 50vh;
+}
+
+.desc {
+    color: white;
+    text-align: center;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+    height: 90%;
+}
