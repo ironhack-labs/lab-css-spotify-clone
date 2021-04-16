@@ -1,8 +1,159 @@
 /*
 Colors:
-
 Text: 1A1A1A
 Green: #00B172
 White: #FFF
-
 */
+/* 
+    1. IMPORTACIONES 
+*/
+/*
+    2. ETIQUETAS
+*/
+body {
+    font: 200 14px/1.5 sans-serif;
+    margin: 0;
+  }
+  * {
+    border: none;
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+  }
+  header{
+    display:flex;
+    position: fixed;
+    justify-content: space-between;
+    align-items: center;
+    width:100%;
+    background-color: white;
+  }
+  h1{
+      font-size:4em;
+    color: white}
+h2{
+    font-size:2.0em;
+    text-align: center;
+    border-bottom: 0.5vh solid #00B172;
+    width:max-content;
+    margin:  auto;
+}
+h3{
+    font-size:1.75em;
+    font-weight: bold;
+    text-align: center;
+    color:#00B172;
+    padding: 12px;
+}
+
+h4{
+    font-size: 1.9em;
+    border-bottom: 2px solid white;
+}
+
+h5{
+    font-size: 1.6em;
+    padding-bottom: 14px;
+}
+  /*3. IDS*/
+  #cover{
+    display: flex;
+    background-image: url(../images/landing.jpg);
+    background-size: cover;
+    height: 600px;
+    background-position: center;
+    flex-direction: column;
+    width: 100%;
+    align-items: center;
+    text-align: center;
+    justify-content: center;
+  }
+  #cover p{
+    color:white;
+    font-size:1.5em;
+    margin-top: 1%;
+    font-weight: 10;
+}
+#whatspotify{
+    padding-top: 50px;
+    width:100%;
+    top:4vh;
+    padding-bottom: 30px;
+    background-color: white;
+}
+  /*
+      4. CLASES
+  */
+ .flexbox{
+     display:flex;
+     justify-content: space-around;
+ }
+ .flexbox p{
+    font-size: 1.5em ;
+}
+ .tinybox{
+    display: flex;
+    flex-direction:column;
+    align-items: center;
+    justify-content: flex-start;
+    text-align: center;
+    width: 275px;
+    height: 200px;
+    margin : 75px 0;
+ }
+ .tinybox img{
+     height:70px;
+ }
+  .spotifylogo{
+      height:50px;
+      padding: 8px;
+  }
+  .links {
+    display: flex;
+    /*justify-content: space-evenly;*/
+    margin: auto 50px auto auto;
+  }
+  .links li{
+    list-style-type: none;
+    text-align: center;
+    padding: 5px 10px;
+    color: black;
+    }
+  .links a{
+      color:#06365f;
+      text-decoration: none;
+      color: rgb(44, 44, 44);
+  }
+  .greenbox{
+      background-color:#00B172;
+      height: 600px;
+      width: 100%;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 0 90px;
+  }
+  .logo-white{
+    position: relative;
+      width:110px;
+      margin: auto auto auto auto;
+      z-index: 0;
+  }
+
+.app-image{
+    width:250px;
+    height: 460px;
+}
+
+.appinfo{
+    width: 360px;
+    color: white;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    height: 480px;
+}
+
+.info{
+    padding-right: 90px;
+}
