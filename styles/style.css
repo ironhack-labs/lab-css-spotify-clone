@@ -1,8 +1,156 @@
-/*
-Colors:
+*{
+    margin: 0;
+    padding: 0;
+}
+body{
+    font-family: sans-serif;
+}
 
-Text: 1A1A1A
-Green: #00B172
-White: #FFF
+nav{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: center;
+    background-color: #fff;
+    padding: 5px 10px;
+    margin-top: 5px;
+    height: 10vh;
+}
 
-*/
+nav > img{
+    width: 150px;
+}
+nav > ul{
+    display:flex;
+    flex-direction: row;
+    justify-content: space-around;
+	align-items: center;
+    width: 600px;
+    list-style: none;
+}
+nav > ul > li > a{
+    text-decoration: none;
+    color: #1A1A1A;
+    font-size: 1.2em;
+}
+.spotify {
+    background:url(/images/landing.jpg) no-repeat center/cover;
+    height: 80vh;
+    color: #fff;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    margin-top: 15px;
+}
+.spotify h1{
+    width: 70%;
+    text-align: center;
+    font-size: 5em;
+}
+.spotify p{
+    width: 50%;
+    text-align: center;
+    font-size: 30px;
+}
+main{
+    display: flex;
+    flex-direction: column;
+}
+main hr{
+    width: 25%;
+    margin:auto;
+    border: solid;
+    border-color: #00B172;
+    border-width: 2px;
+}
+.what{
+    background: #fff;
+    height: 10vh;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    margin-top: 50px;;
+}
+.what h2{
+    text-align: center;
+    font-size: 40px;
+}
+.stream{
+    display: flex;
+    justify-content: space-around;
+	align-items: center;
+    margin-top: 40px;
+}
+.music{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    width: 33%
+}
+.music img{
+    width: 130px;
+    height: 130px;
+}
+.music h3{
+    color: #00B172;
+    font-size: 25px;
+}
+.music p{
+    color: #AAA;
+    font-size: 21px;
+    text-align: center;
+    width: 310px;
+}
+.app{
+    background-color: #00B172;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+    width: 96%;
+    height: 120vh;
+    margin: auto;
+    margin-top: 50px;
+}
+
+.white img{
+    width: 200px;
+}
+.application img{
+    width: 400px;
+}
+.text{
+    display: flex;
+	flex-direction: column;
+	align-items: flex-start;
+    margin-top: 100px;
+}
+.text section{
+    width: 600px;
+}
+.text > section > h3{
+    font-size: 35px;
+    color: #fff;
+    text-decoration-line: underline;
+}
+.text > section > h4{
+    font-size: 31px;
+    color: #fff;
+}
+
+.text > section > p{
+    font-size: 24px;
+    color: #fff;
+    font-weight:lighter;
+}
+.white{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+
+}
+.application {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
