@@ -6,3 +6,204 @@ Green: #00B172
 White: #FFF
 
 */
+
+html, body{
+    font: 200 14px/1.5 sans-serif;
+    margin: 0;
+    padding: 0;
+    }
+
+* {
+    border: none;
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+}
+h1 {
+    color: white;
+    font-size: 4em;
+}
+
+h2 {
+    font-size: 1.5em;
+  text-align: center;
+  line-height: 1em;
+  padding-top: 2%;
+}
+
+h3 {
+    text-align: center;
+    color: #00B172;
+    margin: 5px;
+}
+
+.headertext {
+    color: white;
+    font-size: 1.5em;
+}
+
+header{
+    position: fixed;
+    height: 50px;
+    width: 100%;
+    top: 0;
+    background-color: white;
+  }
+
+header > div {
+    padding: 0 25px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    border-bottom: 1px solid lightgray;
+}
+
+nav {
+    display: flex;
+    justify-content: space-between;
+}
+      
+nav ul {
+    list-style: none;
+    margin-top: 1.5rem;
+}
+
+nav ul li {
+    margin: 0 1rem;
+    display: inline-block;
+}
+
+nav ul li a {
+    text-decoration: none;
+    color: var(--text);
+    font-size: 1rem;
+}
+
+.spotilogo {
+
+    width: 120px;
+    margin: 10px 20px;
+     
+}
+
+.background {
+    background-image: url("https://raw.githubusercontent.com/ironhack-labs/lab-css-spotify-clone/master/images/landing.jpg");
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    background-size: cover;
+    height: 640px;
+    margin: 60px auto 0;
+}
+
+#section2 img {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    background-size: cover;
+    height: 90px;
+    margin: 60px auto 0;
+}
+
+
+
+.underline {
+    width: 20%;
+    margin-left: auto;
+    margin-right: auto;
+    margin-top: 2px;
+    border-color: #00B172;
+    background-color: #00B172;
+    height: 3px;
+}
+.underline2 {
+    width: 32%;
+    margin-left: 0;
+    margin-right: auto;
+    margin-top: 2px;
+    border-color: white;
+    background-color: white;
+    height: 3px;
+
+}
+
+#section2 div {
+    display: flex;
+	flex-direction: row;
+	justify-content: space-evenly;
+    
+}
+
+#section2 p {
+    text-align: center;
+    margin: 5px;
+}
+
+#lastsection {
+    color: white;
+    background-color: #00B172;
+    margin-left: 30px;
+    margin-right: 30px;
+}
+
+#lastsection h4 {
+    margin: 60px 45px 45px;
+    font-size: 1.5em;
+    text-align: left;
+}
+
+#lastsection p { 
+    margin: 60px 45px 45px;
+    font-size: 1.3em;
+}
+
+
+
+#lastsection h5 {
+    margin-left: 45px;
+    padding-top: 50px;
+    font-size: 1.5em;
+    text-align: left;
+}
+/*#lastsection img {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    background-size: cover;
+    height: 90px;
+    margin: 60px auto 0;
+}*/
+
+
+
+.spotifyapp {
+    padding-right: 50px;
+    width: 30%;
+    position: relative;
+    -o-object-fit: cover;
+    object-fit: cover;
+    float: right;
+    margin:  50px;
+}
+
+.whitelogo {
+    display: flex;
+    align-content: center;
+    justify-content: center;
+    position: absolute;
+    margin-top: 280px;
+    margin-left: 450px;
+    width: 10%;
+}
+
+.kanye { 
+    border-bottom: 3px solid white;
+    padding-bottom: 10px;
+    width: 650px;
+    margin-top: 100px;
+    margin-bottom: 50px;
+    font-size: 3em;
+}
