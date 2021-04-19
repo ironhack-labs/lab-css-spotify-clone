@@ -65,10 +65,12 @@ White: #FFF
     text-align: center;
     font-weight: bold;
     font-size: 3rem;
+    margin-top: 30px;
 }
 
 .whatsOn hr {
-    color: #00B172;
+    border-top: 4px solid #00B172;
+    margin: 10px 350px;
 } 
 
 .whatsOn div {
@@ -76,6 +78,7 @@ White: #FFF
     justify-content: space-around;
 	align-items: center;
 	align-content: center;
+    margin-bottom: 30px;
 }
 
 .whatsOn > div > article {
@@ -97,4 +100,54 @@ White: #FFF
     color: black;
     font-size: 1.5rem;
     text-align: center;
+}
+
+
+.appSec  {
+    background-color: #00B172;
+    color: white;
+    margin: 30px 20px;
+}
+
+
+.appSec  div {
+    display: flex;
+    justify-content: space-around;
+	align-items: center;
+	align-content: center;
+}
+
+.appSec h2 {
+    font-weight: bold;
+    font-size: 2.5rem;
+    padding: 40px 0 5px 40px;
+}
+
+.appSec hr {
+    border-top: 4px solid white;
+    margin: 0px 510px 0px 40px;
+}
+
+.appSec div > div{
+    display: flex;
+    flex-direction: column;
+    align-items:flex-start;
+    justify-content: space-around;
+}
+
+.appSec div > div > article {
+    padding: 0px 200px 90px 40px;
+}
+
+
+
+#iconWhite {
+    width: 15%;
+    padding-right: 60px;
+}
+
+#spotifyApp {
+    width: 30%;
+    padding-right: 40px;
+    padding-bottom: 40px;
 }
