@@ -6,3 +6,149 @@ Green: #00B172
 White: #FFF
 
 */
+
+body {
+    margin: 0;
+    font-family: 'Lato', sans-serif;
+    color:#1A1A1A;
+    font-weight: 300;
+}
+/*BARRA DEL MENU*/
+.header {
+    display: flex;
+    justify-content: space-between;
+    padding: 20px;
+    height: 50px;
+}
+.menu {
+    display: flex;
+    justify-content: flex-end;
+    
+}
+.menu ul{
+    display: flex;
+    align-content: center;
+    align-items: center;
+    list-style-type:none;
+}
+.menu ul li{
+    padding: 0px 10px;
+    font-size: 20px;
+    font-weight: 400;
+}
+/*SECCIÓN 1*/
+.first-section {
+    background-image: url(../images/landing.jpg);
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: bottom;
+    height: 565px;
+    display: flex;
+    justify-content: flex-start;
+    align-items: center;
+    flex-flow: column wrap;
+    padding-top: 100px;
+}
+h1 {
+    color: #fff;
+    font-size: 60px;
+    margin-bottom: 0px;
+    text-align: center;
+    letter-spacing: 1px;
+    font-weight: 600;
+}
+.first-section p{
+    color: #fff;
+    font-size: 26px;
+    text-align: center;
+}
+/*Sección 2*/
+.second-section {
+    height: 450px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-flow: column wrap;
+}
+.icons-section{
+    height: 300px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-flow: row wrap;
+}
+.icons{
+    display: flex;
+    justify-content: start;
+    align-items: center;
+    flex-flow: column wrap;
+    padding: 20px;
+    width: 300px;
+    height: 300px;
+}
+h2 {
+    font-size: 30px;
+    letter-spacing: 1px;
+    font-weight: 600;
+    line-height: 1.5em;
+}
+.second-section h2{
+    border-bottom: 4px solid #00B172;
+}
+
+h3 {
+    font-size: 24px;
+    margin-bottom: 0px;
+}
+
+/*SECCIÓN 3*/
+.third-section {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-flow: column wrap;
+    padding: 30px;
+}
+.green-section{
+    height: 100%;
+    width: 100%;
+    background-color: #00B172;
+    background-image: url(../images/spotify-icon-white.png);
+    background-repeat: no-repeat;
+    background-size: 10%;
+    background-position: center;
+    display: flex;
+    justify-content: space-around;
+    align-items: flex-start;
+    flex-flow: row wrap;
+}
+.column{
+    display: flex;
+    justify-content: flex-start;
+    align-items: flex-start;
+    flex-flow: column wrap;
+    padding: 40px;
+}
+
+.third-section h2{
+    color:#fff;
+    border-bottom: 4px solid #fff;
+}
+.icons h3{
+    color: #00B172;
+}
+.icons p{
+    font-size: 20px;
+    text-align: center;
+}
+.column h3{
+    color:#fff;
+}
+.column p{
+    font-size: 20px;
+    text-align: left;
+    color: #fff;
+}
+.column-article{
+    width: 350px;
+}
