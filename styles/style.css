@@ -6,3 +6,61 @@ Green: #00B172
 White: #FFF
 
 */
+
+body {
+    font-family: sans-serif;
+    margin: 0px;
+}
+
+nav {
+    position: fixed;
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: space-between;
+    width: 100%;
+    background-color:#fff;
+    padding: 10px 0px;
+}
+
+nav > img {
+    width: 250px;
+    margin-left: 20px;
+}
+
+nav > ul {
+    margin-right: 40px;
+    font-size: 30px;
+    display: flex;
+    flex-direction: row;
+}
+
+nav > ul > li {
+    list-style: none;
+    margin: 0px 20px;
+    font-weight: 100;
+}
+
+#music-for-everyone {
+    height: 800px;
+    background-image: url(../images/landing.jpg);
+    background-size: contain;
+    display: flex;
+    justify-content: center;
+}
+
+#music-for-everyone > h1 {
+    position: relative;
+    top: 30%;
+    color: #fff;
+    font-size: 80px;
+    font-weight: 600;
+}
+
+#music-for-everyone > h2 {
+    position: relative;
+    top: 30%;
+    color: #fff;
+    font-size: 30px;
+    font-weight: 600;
+}
