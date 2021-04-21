@@ -13,23 +13,41 @@ body {
     color:#1A1A1A;
     font-weight: 300;
 }
+h1 {
+    color: #fff;
+    font-size: 60px;
+    margin-bottom: 0px;
+    text-align: center;
+    letter-spacing: 1px;
+    font-weight: 600;
+}
+h2 {
+    font-size: 30px;
+    letter-spacing: 1px;
+    font-weight: 700;
+    line-height: 1.5em;
+}
 /*BARRA DEL MENU*/
-.header {
+.navbar {
+    background-color: #fff;
     display: flex;
     justify-content: space-between;
-    padding: 20px;
+align-items: center;
+    height: 70px;
+    position: fixed;
+    width: 100%;
+}
+.logotipo {
     height: 50px;
+    padding: 0px 20px;
 }
-.menu {
-    display: flex;
-    justify-content: flex-end;
-    
-}
+
 .menu ul{
     display: flex;
-    align-content: center;
     align-items: center;
     list-style-type:none;
+    padding: 0px 20px;
+    margin:0px;
 }
 .menu ul li{
     padding: 0px 10px;
@@ -42,76 +60,59 @@ body {
     background-size: cover;
     background-repeat: no-repeat;
     background-position: bottom;
-    height: 565px;
+    height: 100vh;
     display: flex;
-    justify-content: flex-start;
+    justify-content: center;
     align-items: center;
     flex-flow: column wrap;
-    padding-top: 100px;
 }
-h1 {
-    color: #fff;
-    font-size: 60px;
-    margin-bottom: 0px;
-    text-align: center;
-    letter-spacing: 1px;
-    font-weight: 600;
-}
+
 .first-section p{
     color: #fff;
     font-size: 26px;
     text-align: center;
 }
+
+
 /*Sección 2*/
 .second-section {
     height: 450px;
-    display: flex;
-    justify-content: center;
-    align-items: center;
-    flex-flow: column wrap;
+    text-align: center;
 }
 .icons-section{
     height: 300px;
     display: flex;
-    justify-content: center;
-    align-items: center;
+    justify-content: space-evenly;
+
     flex-flow: row wrap;
 }
-.icons{
+.icons-section article{
     display: flex;
-    justify-content: start;
+    justify-content: center;
     align-items: center;
     flex-flow: column wrap;
     padding: 20px;
     width: 300px;
     height: 300px;
+    text-align: center;
 }
-h2 {
-    font-size: 30px;
-    letter-spacing: 1px;
-    font-weight: 600;
-    line-height: 1.5em;
-}
-.second-section h2{
-    border-bottom: 4px solid #00B172;
-}
-
-h3 {
+.icons-section article h3 {
+    color: #00B172;
     font-size: 24px;
     margin-bottom: 0px;
 }
 
-/*SECCIÓN 3*/
-.third-section {
-    display: flex;
-    justify-content: center;
-    align-items: center;
-    flex-flow: column wrap;
-    padding: 30px;
+.second-section h2{
+    text-decoration: underline;
+    text-decoration-color: #00B172;
 }
+
+
+/*SECCIÓN 3*/
+
 .green-section{
     height: 100%;
-    width: 100%;
+    width: 95%;
     background-color: #00B172;
     background-image: url(../images/spotify-icon-white.png);
     background-repeat: no-repeat;
@@ -121,6 +122,8 @@ h3 {
     justify-content: space-around;
     align-items: flex-start;
     flex-flow: row wrap;
+    margin: 0 auto;
+
 }
 .column{
     display: flex;
@@ -133,6 +136,7 @@ h3 {
 .third-section h2{
     color:#fff;
     border-bottom: 4px solid #fff;
+    font-weight: 400;
 }
 .icons h3{
     color: #00B172;
@@ -143,6 +147,7 @@ h3 {
 }
 .column h3{
     color:#fff;
+    font-size: 25px;
 }
 .column p{
     font-size: 20px;
