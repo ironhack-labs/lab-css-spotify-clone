@@ -13,25 +13,158 @@ body {
 }
 
 header {
-    padding: 2%;
+    padding: 1% 1% 2%;
     background-color: #fff;
-    width: 100%;
+    width: 98%;
+    height: 40px;
     
 }
 nav {
     display: flex;
+    flex-direction: row;
+    flex-wrap: nowrap;
 }
 
 nav img {
-    width: 15%;
+    width: 10%;
+    padding-right: 53%;
+    padding-left: 3%;
+    padding-bottom: 3%;
+    
 }
 
 nav ul {
     width: 30%;
-    list-style: none;
-    flex-wrap: nowrap;
-    flex-direction: row;
+    list-style: none;    
+    display: flex;    
     justify-content: space-between;
-    position: 50px 50px 50px auto;
+}
+
+nav ul a {
+    color: rgb(82, 82, 82);  
+    text-decoration: none;
+    font-size: 20px;
+  }
+
+.section1 {
+    background-image: url(../images/landing.jpg);
+    background-size: cover;
+    height: 800px;
+    display: flex;
+    color: #fff;
+    justify-content: center;
+    text-align: center;
+    flex-direction: column;
+    background-position-x: top;
+    background-position-y: -120px;
+}
+
+.section1 h1 {
+    font-size: 80px;
+    margin: 0 auto;
+}
+
+.section1 p {
+    font-size: 30px;
+    padding: 0px 400px;
+    font-weight: lighter;
+}
+
+.section2 h2 {
+    font-size: 30px;
+    margin: 3% auto 0.5%;
+    text-align: center;
+    padding: 30px auto 0px;
+}
+
+.section2 hr {
+    height: 3px;
+    background-color: #00B172;
+    margin: 0px 630px;    
+  }
+
+.section3 {
+    display: flex;
+    justify-content: space-between;
+    flex-direction: row;
+}
+
+.section3 div {
+    text-align: center;
+    margin: 50px 5% 0 5%;
+    padding: 20px;
+    width: 40%;
+}
+
+.section3 img {
+    width: 140px;
+}
+
+.section3 h3 {
+    color: #00B172;
+    font-size: 30px;
+}
+
+.section3 p {
+    font-size: 25px;
+    padding: 0% 5%;
+    color: grey;
+}
+
+.section4 {
+    background-color: #00b172;
+    margin: 40px;
+    display: flex;
+    justify-content: space-between;
+    flex-direction: row;
+    flex-wrap: wrap;
+    align-items: center;    
+}
+
+.section4 div{
+    text-align: left;
+    padding: 2% 2% 5% 5%;        
+}
+
+.div2 img {
+    width: 120px;
+    position: absolute;
+    left: 600px;
+}
+
+.div3 img {    
+    width: 350px;
+    position: absolute;
+    top:1550px;
+    left: 1000px;      
+}
+
+.section4 div h4 {
+    font-size: 30px;
+    color: #fff;
+    width: 10%;
+    margin-top: 10%;    
+}
+
+.section4 div span {
+    font-size: 25px;
+    color: #fff;
+    font-weight: lighter;    
+}
+
+.section4 div h3 {
+    font-size: 40px;
+    color: #fff;
     
 }
+#h3sec4 {
+    padding: 5% 2% -5% 5%;
+    margin: 40px 0 0 0;
+}
+#hrsec4 {
+    height: 3px;
+    background-color: #fff;
+    margin-bottom: 40px;
+    
+  }
+
