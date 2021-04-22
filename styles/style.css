@@ -17,9 +17,11 @@ header {
     background-color: #fff;
     width: 98%;
     height: 40px;
+    position:fixed;
     
 }
 nav {
+    
     display: flex;
     flex-direction: row;
     flex-wrap: nowrap;
@@ -129,14 +131,16 @@ nav ul a {
 .div2 img {
     width: 120px;
     position: absolute;
-    left: 600px;
+    left: 650px;
 }
 
-.div3 img {    
-    width: 350px;
-    position: absolute;
-    top:1550px;
-    left: 1000px;      
+#div3 img {    
+    width: 360px;
+    display: flex;    
+    justify-content: flex-start;
+    align-items: baseline;
+    margin-left: -20%;
+    margin-top: 20%;      
 }
 
 .section4 div h4 {
@@ -164,7 +168,6 @@ nav ul a {
 #hrsec4 {
     height: 3px;
     background-color: #fff;
-    margin-bottom: 40px;
-    
+    margin-bottom: 40px;    
   }
 
