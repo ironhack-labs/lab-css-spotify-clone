@@ -1,3 +1,11 @@
+
+:root {
+    --color-white:#FFF;
+    --color-green:#1ab26b;
+    --color-text: #1A1A1A;
+}
+
+
 * {
     padding: 0;
     margin: 0;
@@ -11,6 +19,7 @@
 
 body {
     font-family: 'Roboto', sans-serif;
+    color: var(--color-text);
 }
 
 header nav {
@@ -18,7 +27,7 @@ header nav {
     top: 0;
     right: 0;
     left: 0;
-    background-color: white;
+    background-color: var(--color-white);
     display: flex;
     flex-direction: row;
     align-items: center;
@@ -43,14 +52,14 @@ header nav ul li {
 
 header nav ul li a {
     text-decoration: none;
-    color: black;
+    color: var(--color-text);
 }
 
 header > div {
     display: flex;
     align-items: center;
     justify-content: center;
-    color: white;
+    color: var(--color-white);
     flex-direction: column;
     background-image: url('../images/landing.jpg');
     height: 600px;
@@ -74,7 +83,7 @@ header > div p {
     text-align: center;
     padding-top: 60px;
     font-size: 30px;
-    color: black;
+    color: var(--color-text);
     font-weight: 500;
     letter-spacing: 0.5px;
 }
@@ -97,7 +106,7 @@ header > div p {
     padding-top: 10px;
     padding-bottom: 10px;
     text-transform: capitalize;
-    color: #1ab26b;
+    color: var(--color-green);
 }
 
 .quality-spotify  p {
@@ -120,7 +129,7 @@ header > div p {
     background-repeat: no-repeat;
     background-size: 80px 80px;
     padding: 60px 0;
-    background-color: #1ab26b;
+    background-color: var(--color-green);
 }
 
 .green-spotify .container {
@@ -138,12 +147,12 @@ header > div p {
 
 .green-spotify h3 {
     font-size: 32px;
-    color: white;
+    color: var(--color-white);
     letter-spacing: 1px;
     padding-bottom: 5px;
     font-weight: 500;
     text-transform: capitalize;
-    border-bottom: 2px solid white;
+    border-bottom: 2px solid var(--color-white);
 }
 
 .green-spotify article {
@@ -153,7 +162,7 @@ header > div p {
 .green-spotify h4 {
     margin-top: 30px;
     font-size: 20px;
-    color: white;
+    color: var(--color-white);
     letter-spacing: 1px;
     padding-bottom: 20px;
     font-weight: 600;
@@ -164,7 +173,7 @@ header > div p {
     font-size: 15px;
     letter-spacing: 0.5px;
     font-weight: 300;
-    color: white;
+    color: var(--color-white);
 }
 
 .green-spotify .app-spotify {
