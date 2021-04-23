@@ -65,13 +65,19 @@ a {
      margin: 0 450px;
  }
 
-.whats-on {
+#section1 > h2 {
   margin: 30px auto 10px;
   text-align: center;
+ }
+
+h2 > span {
   font-size: 1.8em;
   padding-bottom: 5px;
+}
+
+#section1 > h2 > span {
   border-bottom: 3px solid #00B172;
- }
+}
 
 .block > img {
   height: 85px;
@@ -101,8 +107,44 @@ h3 {
   text-align: center;
   font-size: 1.3em;
 }
-.section2 {
-    background-color:#00B172;
-    color: #FFF;
 
+#kanye {
+  background-color: #00B172;
+  background-image: url(../images/spotify-icon-white.png);
+  background-size: 100px;
+  background-repeat: no-repeat;
+  background-position: center;
+  padding: 100px;
+  margin: 30px;
+}
+
+.section2 {
+  display: flex;
+  flex-flow: row;
+  justify-content: space-between;
+  align-items: center;
+}
+
+#text {
+  margin-left: 50px;
+}
+
+#kanye > div > img {
+  width: 320px;
+  margin-right: 50px;
+}
+
+#kanye > div > h2 > span {
+  border-bottom: 3px solid #FFF;
+  color: #FFF;
+}
+
+#kanye > div > h3 {
+  color: #FFF;
+  margin: 30px 0;
+}
+
+#kanye > div > p {
+  color:#FFF;
+  font-size: 1.3em;
 }
