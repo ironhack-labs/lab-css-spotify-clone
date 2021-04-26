@@ -4,22 +4,28 @@ header, body {
     font-family: Roboto;
   }
 
+  body {
+    margin: 0;
+  }
 
-  .Spotify-logo {
+  .spotify-logo {
     width: 200px;
     margin-left: 20px;
+    padding-top: 10px;
   }
 
-  header > div {
-    padding: 0 25px;
+  .header {
+    position: relative;
+    text-align: center;
+    margin: 0 auto;
+    padding: 10px;
     display: flex;
     justify-content: space-between;
-    align-items: center;
-    margin-bottom: 10px;
-  }
+    align-items: left;
+}
   
   nav {
-    width: 400px;
+    width: 600px;
   }
   
   nav ul {
@@ -27,6 +33,7 @@ header, body {
     display: flex;
     justify-content: space-between;
     align-items: center;
+    padding-top: 15px;
   }
   
   nav a {
@@ -34,7 +41,35 @@ header, body {
     color: black;
   }
 
-  .header {
-    background-image: url('images/landing.jpg');
-    position: relative;
+  .spotify-landing {
+   background: url('../images/landing.jpg') no-repeat center center;
+   background-size: cover;
+   height: 900px;
+  }
+
+  .white-text1 {
+    color: white;
+    text-align: center;
+    font-size: 65px;
+    margin: 0px 0px;
+    padding-top: 390px;
+  }
+
+  .white-text2 {
+    color:white;
+    text-align: center;
+    font-size: 25px;
+    margin: 0px 0px;
+    padding-top: 30px;
+  }
+
+  #section1 > h2 {
+    text-align: center;
+  }
+
+  #section1 > h3 {
+    justify-content: space-between;
+    text-align: center;
+    color: green;
+    list-style: none;
   }
