@@ -6,3 +6,138 @@ Green: #00B172
 White: #FFF
 
 */
+
+body {
+    background-color: white;
+    font-family: Arial, Helvetica, sans-serif;
+    margin: 0;
+}
+
+#nav-bar {
+    background-color: white;
+    width: 100%;
+    height: 65px;
+    position: fixed;
+    top: 0;
+    display: flex;
+    justify-content: space-between;
+    padding:10px;
+    
+}
+
+#nav-bar > ul{
+    list-style: none;
+    display: flex;
+    justify-content: space-between;
+    margin-right: 10px;
+    font-size: large;
+}
+
+li {
+    margin: 0px 10px;
+    padding: 0px 10px;
+    margin-top:5px;
+}
+
+#spoti-logo {
+    height: 60px;
+    width: 210px;
+}
+
+#section1 {
+    background-image: url(../images/landing.jpg);
+    background-size: cover;
+    height:1000px;
+    margin-top: 65px ;
+
+    color: white;
+    text-align: center;
+    font-size: 30px;
+    padding-top: 400px;
+    font-weight: light;
+}
+
+h1 {
+
+    font-size: 80px;
+    text-align: center;
+}
+
+h2 {
+    font-size: 40px;
+    padding-bottom: 50px;
+    text-align: center;
+}   
+h2 > span {
+    padding-bottom: 5px;
+    border-bottom: 4px solid #00B172;
+}    
+
+
+#section2  img {
+    max-width: 120px;
+    height: auto;
+}
+
+#section2 h3 {
+    color: #00B172;
+    font-weight: bolder;
+    
+}
+#section2 {
+    color: 1A1A1A;
+    text-align: center;
+    font-size: 20px;
+    margin-top: 50px;
+    margin-bottom: 120px;
+}
+
+#section2 > div {
+    display: flex;
+    justify-content: space-around;
+}
+
+#section3 {
+    color: white;
+    background-color: #00B172;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+    margin-top: 70px;
+    padding-top: 70px;
+    border: 40px solid white;
+    
+}
+
+#section3 > article > h2 > span {
+    padding-bottom: 5px;
+    border-bottom: 4px solid white;
+}    
+
+
+
+article {
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-start;
+}
+
+article > div {
+    font-size:x-large
+}
+
+#spoti-icon{
+    max-width: 120px;
+    height: auto;
+    position: relative;
+    top: 320px;
+    right: 100px
+}
+
+#kanye {
+    max-width: 330px;
+    height: auto;
+    padding-top: 100px;
+    padding-bottom: 50px;
+}
+
