@@ -6,3 +6,137 @@ Green: #00B172
 White: #FFF
 
 */
+
+html, body {
+    margin: 0;
+    padding: 0;
+  }
+
+body {
+    font-family: sans-serif;
+    font-size: 40px;
+}
+
+nav {
+  position:fixed;
+  top: 0;
+  right: 0;
+  left: 0; 
+  background-color: white;
+  
+}
+
+.logo {
+    width: 500px;
+    margin-top: 20px;
+    margin-left: 50px;
+}
+
+header div{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    flex-direction: row;
+    margin-bottom: 10px;
+}
+
+nav ul{
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: space-between;
+    list-style: none;
+}
+
+.navbar{
+    margin: 15px;
+}
+.headerImage{
+    background-image: url("../images/landing.jpg");
+    height: 1500px;
+    background-size: cover;
+    background-position: center center;
+    color: #FFF;
+    text-align: center;
+    vertical-align: middle;
+    margin-top: 0px;
+}
+
+.headerText{
+    margin-top: 10px;
+}
+
+h1{
+    font-size: 150px;
+    text-align: center;
+    padding-top: 550px;
+    margin-bottom: 10px;
+}
+
+h2{
+    text-align: center;
+    margin-bottom: 20px;
+    font-size: 70px;
+}
+
+.hr{
+    color: #00B172;
+    width: 530px;
+    height: 5px;
+    background-color: #00B172;
+    margin-bottom: 250px;
+}
+
+.features{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-evenly;
+    align-items: center;
+    text-align: center;
+    }
+
+
+
+.features img{
+    width: 300px;
+    height: auto;
+    align-items: center;
+}
+
+.featureDescription > p {
+    text-align: center;
+}
+
+.featureDescription > h3 {
+    text-align: center;
+    color: #00B172;
+}
+
+.additionalInformation{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    background-color: #00B172;
+    margin: 100px;
+    height: 1500px;
+    color: #FFF;
+    background-image: url(../images/spotify-icon-white.png);
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: 300px 300px;
+}
+
+.kanyepic{
+    margin: 100px 200px;
+}
+.information {
+    display: flex;
+    flex-direction: column;
+    margin-left: 100px;
+    padding:200px; 
+    width: 1000px;
+}
+
+.informationhr {
+    width: auto;
+}
