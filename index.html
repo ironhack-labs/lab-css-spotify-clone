@@ -1,3 +1,4 @@
+
 <!DOCTYPE html>
 <html lang="en">
   <head>
@@ -5,77 +6,65 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <meta http-equiv="X-UA-Compatible" content="ie=edge" />
     <title>Spotify Clone</title>
-    <link rel="stylesheet" href="styles/style.css"/>
-    <!-- don't forget to link your styles -->
+    <link rel="stylesheet" href="/styles/style.css">
   </head>
   <body>
-
-    <nav class="nav">
-     <img class="logo" src="images/spotify-logo.png" alt="Spotify Logo">
-     <ul class="nav-bar-ul">
-      <li>Premium</li>
-      <li> Discover</li> 
-      <li>Help</li>
-      <li> Download</li>
-     </ul>
-    </nav>
-
-    <header class="contenedor">
-      <div >
-        <img class="imagenfondo" src="images/landing.jpg"alt="Imagen spotify">
-      </div>
-      <div>
-        <h1 > Music for everyone.</h1>
-        <h2>Spotify is now free on mobile, tablet and computer.Listen to theright music, wherever you are.</h2>
+    <header>
+      <nav>
+        <img src="images/spotify-logo.png" alt="Spotify Logo">
+        <ul>
+          <li><a href="index.html">Premium</a></li>
+          <li><a href="index.html">Discover</a></li>
+          <li><a href="index.html">Help</a></li>
+          <li><a href="index.html">Download</a></li>
+        </ul>
+      </nav>
+      <div class="align-center">
+        <h1>Music for everyone. </h1>
+        <p>Spotify is now free on mobile, tablet and computer. <br>Listen to the right music, wherever you are. </p>
       </div> 
-    </header> 
+    </header>
 
-
-    <section >
-         <h2 class="texto-subrayado"style="color:black;">What’s on Spotify?</h2>
-
-         <hr>
-         <main class="flex-center">
-          <div class="media">
-          <img class="img-media" src="images/music-icon.png"alt="altavoz">
-          <h3>Millions of Songs</h3> 
-          <p>There are millions of songs on Spotify </p>
-          </div>
-
-         <div class="media">
-          <img class="img-media"src="images/high-quality-icon.png"alt="high-quality-icon">
-          <h3>HD Music</h3>
-          <p>Listen to music as if you were listening live</p> 
+    <section>
+      <h3 id="section-title">What’s on Spotify?</h3>
+      <div id="features">
+        <div id="millions-song">
+          <img src="/images/music-icon.png" alt="Speaker icon">
+          <h4>Millions of Songs </h4>
+          <p>There are millions of songs on Spotify</p>
         </div>
-
-        <div class="media">
-          <img class="img-media"src="images/devices-icon.png"alt="devices-icon">
-          <h3>Stream Everywhere</h3>
-          <p>Stream music on your smartphone, tablet or computer</p> 
+        <div id="HD-music">
+          <img src="/images/high-quality-icon.png" alt="Music flow icon">
+          <h4>HD Music</h4>
+          <p>Listen to music as if you were listening live</p>
         </div>
-       </main> 
-    </section>
-
-    <section class="container-green">
         <div>
-          <p class="title">It’s as yeezy as Kanye West.</p>
-          <hr2>
-          <ol>
-           <dt>Search </dt>
-            <li>Know what you want to listen to? Just search and hit play.</li> 
-           <dt>Browse</dt>
-             <li>Check out the
-                latest charts, brand new releases and great playlists for right now.</li>
-           <dt> Discover </dt>
-             <li>Enjoy new music every Monday with your
-     own personal playlist. Or sit back and enjoy Radio.</li>
-         </ol>
-       </div>
-       <div><img class="spotify-white"src="images/spotify-icon-white.png"></div>
-       <div><img class="spotify-white" src="images/spotify-app.jpg"></div>
-        
-        
-   </section>
-  
+          <img src="/images/devices-icon.png" alt="Devices icon">
+          <h4>Stream Everywhere</h4> 
+          <p>Stream music on your smartphone, tablet or computer</p>
+        </div>
+      </div>
+    </section>
+    
+    <footer class="white-background">
+      <h3>It’s as yeezy as Kanye West.</h3> 
+      <article id="article-featue">
+        <h4>Search</h4> 
+        <p>
+          Know what you want to listen to? Just search and hit play.
+        </p>
+        <h4>Browse</h4>
+        <p>
+          Check out the latest charts, brand new releases and great playlists for right now. 
+        </p>
+        <h4>Discover</h4>
+        <p> 
+          Enjoy new music every Monday with your own personal playlist. Or sit back and enjoy Radio.
+        </p>
+      </article>
+      <img id="icono" src="images/spotify-icon-white.png" alt="Spotify Icon">
+      <img id="app" src="/images/spotify-app.jpg" alt="Picture of the app">
+    </footer>
+
   </body>
 </html>
