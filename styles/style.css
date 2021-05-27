@@ -6,3 +6,119 @@ Green: #00B172
 White: #FFF
 
 */
+
+* {
+    margin: 0;
+    padding: 0;
+    font-family: 'Raleway', sans-serif;
+}
+
+p {
+    font-size: 18px;
+}
+
+h2 {
+    font-size: 36px;
+}
+
+h3 {
+    font-size: 28px;
+}
+
+/* Header Section */
+
+.hero {
+    background-image: url("../images/landing.jpg");
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: 50% 50%;
+    height: 800px;
+}
+
+.empty {
+    height: 60px;
+}
+
+.navbar {
+    position: fixed;
+    display: flex;
+    justify-content: space-between;
+    background-color: white;
+    width: 100%;
+}
+.logo {
+width: 150px;
+padding: 1% 2%;
+}
+
+.navbar > ul {
+    display: flex; 
+    width: 20%;
+    justify-content: space-around;
+    list-style: none;
+    margin: 0 2%;
+    align-items: center;
+}
+
+
+
+.hero-text > p {
+    color: white;
+    letter-spacing: 2%;
+}
+
+.hero-text > h1 {
+    font-size: 64px;
+    color: white;
+    letter-spacing: 2%;
+    padding: 15px;
+}
+
+.hero-text > p {
+    font-size: 28px;
+    font-weight: 300;
+}
+
+.hero-text {
+    text-align: center;
+    margin: 20%;
+}
+
+/* USP Section */
+
+.usp-section {
+    text-align: center;
+    padding: 2%;
+}
+
+.usp-section > h2 {
+    padding: 1%;
+}
+
+.underline {
+border-bottom: solid 4px #00B172;
+width: 260px;
+margin: auto;
+}
+
+.middle-container {
+    display: flex;
+    justify-content: space-evenly;
+}
+
+.middle-container > div {
+    margin: 3% auto;
+    padding: 3%;
+    width: 30%;
+}
+
+.middle-container img {
+    width: 100px;
+}
+
+.middle-container h3 {
+    color: #00B172;
+    padding: 2%;
+}
+
+/* Feature List */
