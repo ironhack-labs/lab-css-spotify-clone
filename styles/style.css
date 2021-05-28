@@ -58,6 +58,10 @@ nav > ul > li {
     text-decoration: none;
     color: rgb(31, 28, 28);
 }
+nav > ul > li > a {
+    text-decoration: none;
+    color:rgb(31, 28, 28);
+}
 
 
 .paragraph-one {
@@ -85,14 +89,22 @@ h1 {
 
 .second-page h2 {
     display:flex;
-    text-decoration: underline solid #00B172;
     justify-content: center;
+    font-size: 40px;
 }
 
+.second-page hr{
+    border-top: 6px solid #00B172 ;
+    margin-right: 37%;
+    margin-left: 37%;
+    margin-top: -27px;
+
+}
 .second-page div {
     display: flex;
     justify-content: space-around;
     width: 100%;
+    align-items: center;
 }
 
 .second-page article {
@@ -100,25 +112,68 @@ h1 {
 }
 
 .second-page img {
+    margin-left: 55px;
     width: 150px;
 }
 
 .second-page h3 {
+    margin-left: 55px;
     color: #00B172;
+}
+/*nao consegui centralizar o HD MUSIC COM O LOGO*/
+
+.second-page p {
+    text-align: justify;
+    padding: 10%;
+    margin-top: -30px;
+    width: 70%;
+    margin-left: 5%;
 }
 
 .third-page {
     background-color: #00B172;
-    margin: 1.4em;
+    margin: 15px auto;
     color: white;
     display: :flex;
-    height: 500px;
-    }
+    flex-direction:row;
+    justify-content: space-between;
+ }
 
-.third-page-adjustments {
-    color: white;
-    display:flex;
-    flex-direction: column;
-    
+ 
+ .third-page h2{
+     padding-top: 3%;
+     margin-left: 5%;
+     font-size: 40px;
+ }
+
+ .third-page hr{
+    border-top: 4px solid white ;
+    margin-left: 5%;
+    margin-right: 59%;
+    margin-top: -27px;
+
+ }
+
+ .third-page h3{
+    font-size: 25px;
+    margin-left: 1%;
+
+ }
+
+ .third-page article{
+     width: 280px;
+     margin-left: 5%;
+     font-size: 16px;
+
+ }
+
+.img-spotify-icon {
+    height:100px;
+    width:100px;
 }
 
+.img-kanye-west{
+    width:250px;
+}
+
+/* não consegui organizar os elementos na third-page, , icone do spotify e imagem do kanye west estão abaixo do texto e não ao lado como demonstra a atividade*/
