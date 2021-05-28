@@ -6,3 +6,200 @@ Green: #00B172
 White: #FFF
 
 */
+
+@import url('https://fonts.googleapis.com/css2?family=Open+Sans:wght@300&display=swap');
+
+html, body{
+    color: #1A1A1A;
+    margin: 0;
+    padding: 0;
+    font-family: 'Open Sans', sans-serif;
+}
+
+h1{
+    color: #FFF;
+    font-size: 7.5em;
+    text-align: center;
+    font-weight: bold;
+}
+
+h2{
+    font-size: 3em;
+    text-align: center;
+    margin-bottom: 0;
+    margin-top: 50px;
+    font-weight: bold;
+}
+
+h3{
+    font-size: 1.5em;
+}
+
+/* Nav */
+
+#nav-bar{
+    margin: 0;
+    padding: auto ;
+    position: fixed;
+    background-color: #FFF;
+
+}
+
+#nav-bar .nav-bar-img {
+    width: 10%;
+    height: 10%;
+    padding-top: 20px;
+
+}
+
+#nav-bar .nav-bar-ul{
+    font-size: 2em;
+    padding-left: 950px;
+    list-style: none;
+    display: flex;
+    justify-content: space-between;
+
+}
+
+#nav-bar > div {
+    justify-content: space-between;
+
+}
+
+
+/* Section 1 */
+
+#header{
+    margin: 0 auto;
+    width: auto;
+    height: 1000px;
+    background-image: url('../images/landing.jpg');
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+}
+
+#header p{
+    color: #FFF;
+    font-size: 2.5em;
+    text-align: center;
+    margin: 0 ;
+}
+
+#header > div{
+    display: flex;
+    justify-content: center;
+}
+
+#header .header-title{
+    padding-top: 200px;
+    margin-bottom: 40px;
+    font-weight: bold;
+}
+
+
+/* Section 2 */
+#onspotify{
+    margin: 0 auto; 
+    padding-bottom: 50px;
+}
+
+#onspotify .section-title{
+    font-size: 2.5em;
+    font-weight: 700;
+    color: #00B172;
+    
+}
+
+#onspotify .section-text{
+    font-size: 1.5em;
+    text-align: center;
+}
+
+#onspotify img{
+    width: 20%;
+
+}
+
+#onspotify p{
+    width: 60%;
+    text-align: center;
+    margin: 10px auto;
+}
+
+#onspotify hr{
+    background-color: #00B172;
+    margin: 20px auto 30px auto;
+    width: 21%;
+    padding: 1px;
+    margin-bottom: 80px;
+
+}
+
+#onspotify > div{
+    display: flex;
+    justify-content: space-evenly;
+}
+
+#onspotify > div > article{
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+    align-items: center;
+}
+
+/* Section 3 */
+
+#kanyewest{
+    margin: 20px 20px;
+    background-color: #00B172;
+    color: #FFF;
+}
+
+#kanyewest .kanye-title{
+    text-align: left;
+    margin-left: 150px;
+    padding-top: 50px;
+}
+
+#kanyewest .kanye-text{
+    text-align: justify;
+    margin-left: 150px;
+    font-size: 1.5em;
+    margin-bottom: 100px;
+    width: 450px;
+
+}
+
+#kanyewest hr{
+    margin-left: 150px;
+    margin-bottom: 80px;
+    width: 30%;
+    padding: 1px;
+    background-color: #FFF;
+}
+
+#kanyewest .kanye-spotifylogo{
+    width: 10%;
+    height: 10%;
+
+}
+
+#kanyewest .kanye-img{
+    width: 30%;
+    height: 30%;
+
+}
+
+#kanyeimg{
+    display: flex;
+    justify-content: space-around;
+    padding-left: 700px;
+    align-items: center;
+}
+
+#kanye-vertcalbox{
+    display: flex;
+
+    align-content: space-around;
+}
