@@ -14,7 +14,8 @@ White: #FFF
 }
 
 p {
-    font-size: 18px;
+    font-size: 20px;
+    line-height: 1.5;
 }
 
 h2 {
@@ -95,7 +96,7 @@ padding: 1% 2%;
     padding: 1%;
 }
 
-.underline {
+.underline-green {
 border-bottom: solid 4px #00B172;
 width: 260px;
 margin: auto;
@@ -109,7 +110,7 @@ margin: auto;
 .middle-container > div {
     margin: 3% auto;
     padding: 3%;
-    width: 30%;
+    width: 20%;
 }
 
 .middle-container img {
@@ -118,7 +119,51 @@ margin: auto;
 
 .middle-container h3 {
     color: #00B172;
-    padding: 2%;
+    padding: 7% 2%;
+}
+
+.middle-container p {
+    padding: 2% 15%;
 }
 
 /* Feature List */
+
+.feature-list {
+    background-color: #00B172;
+    color: white;
+    background-image: url(../images/spotify-icon-white.png);
+    background-repeat: no-repeat;
+    background-position: 50% 50%;
+    background-size: 10%;
+    display: flex;
+    justify-content: space-around;
+}
+
+.feature-list img {
+    width: 350px;
+    margin: 30% 0;
+}
+
+.feature-one {
+    padding: 3% 0;
+}
+
+.feature-one h2 {
+    padding: 7% 0 2%;
+}
+
+.underline-white {
+    border-bottom: solid 4px white;
+    width: 30%px;
+    margin: auto;
+    margin-bottom: 5%;
+}
+
+.feature-one h3 {
+    padding: 5% 0;
+}
+
+.feature-one p {
+    padding: 2% 0;
+    letter-spacing: 2%;
+}
