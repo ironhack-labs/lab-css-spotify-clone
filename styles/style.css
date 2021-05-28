@@ -6,3 +6,128 @@ Green: #00B172
 White: #FFF
 
 */
+@import url('https://fonts.googleapis.com/css2?family=Montserrat:wght@200;400;500&display=swap');
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: "Montserrat", sans-serif;
+}
+/* HEADER-NAVBAR */
+header > div {
+    padding: 10px 25px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    
+}
+
+nav ul {
+    list-style: none;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    float: right;
+    
+    }
+
+nav ul li  {
+    padding: 10px;
+    list-style: none;
+    text-decoration: none;
+    color: black;
+    font-family: "Montserrat", sans-serif;
+    }
+
+nav ul a{
+    list-style: none;
+    text-decoration: none;
+    
+}
+
+
+/* SECTION BACKGROUND IMG */
+.backgroundimg {
+    background-image: url(../images/landing.jpg);
+    height: 740px;
+    background-size: cover;
+    /* filter: brightness(160%); */
+}
+
+.backgroundimg h1, p{
+    color: white; 
+    text-align: center;
+    
+}
+.backgroundimg h1{
+    padding-top: 280px;
+    text-align: center;
+    font-size: 70px;
+    color: #fffdfe;
+    font-family: "Montserrat", sans-serif;
+    font-weight: 500;
+}
+.backgroundimg p{
+    white-space: pre-line;
+    font-family: "Montserrat", sans-serif;
+    margin-top: 30px;
+    font-size: 25px;
+    font-weight: 200;
+}
+
+/* Section ONE */
+
+.sectionOne{
+    margin-bottom: 60px;
+}
+
+.textSectionOne{
+    display: flex;
+    justify-content: center;
+}
+.sectionOne .textWhitBorder{
+    color: black;
+    text-align: center;
+    margin-top: 50px;
+    font-size: 33px;
+    border-bottom: solid 4px #00B172 ;
+    display: inline-block;
+    vertical-align: middle;
+    border-radius:2px;
+    
+    
+}
+.sectionOne .container1 h3{
+    color: #00B172;
+    font-size: 25px;
+    margin-top: 15px;
+}
+
+.sectionOne img{
+    width: 100px;
+}
+
+.container1 { 
+    display: flex;
+    justify-content: space-around;
+    margin-top: 100px;
+    align-items: baseline;
+    margin-left: 50px;
+    margin-right: 50px;
+    
+    
+}
+.container1 p {
+    color: black;
+    font-weight: 100;
+    margin-top: 15px;
+   
+}
+
+.infoContent{
+    text-align: center;
+}
+.infoContent p{
+    white-space: pre-line;
+    font-size: 20px;
+}
