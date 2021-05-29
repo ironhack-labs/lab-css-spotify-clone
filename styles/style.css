@@ -1,4 +1,149 @@
-/*
+
+body{
+    color: #1a1a1a;
+    
+}
+header{
+    height: 100px;
+}
+header > nav > img{
+    width : 180px;
+}
+header > nav{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+}
+header > nav > ul{
+    display: flex;
+    justify-content: space-between;
+    align-items: flex-end;
+    
+    
+}
+header > nav > ul > li{
+    list-style: none;
+    display: flex;
+    justify-content: space-between;
+    margin-left: 10px;
+   margin-right: 20px;
+   font-size: 1.4em;
+}
+header > nav > ul > li>a{
+    text-decoration: none;
+    color: #1a1a1a;
+}
+#background{
+    background-image: url(../images/landing.jpg);
+    background-size: 100% 100%;
+    background-repeat: no-repeat;
+    height: 800px;
+    color: white;
+}
+#background div {
+    text-align: center;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    height: 300px;
+}
+#background > div > h1 {
+    font-size: 70px;
+    margin-bottom: 10px;
+}
+#background > div > p {
+    font-size: 1.5em;
+}
+#container {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+.options{
+    display: flex;
+    align-items: center;
+    width: 90%;
+}
+.options img{
+    width: 200px;
+    margin-top: 10px;
+}
+.title h3{
+    font-size: 3em;
+    border-bottom: 3px solid aqua;
+    margin-bottom: 20px;
+}
+.itens {
+    height: 400px;
+    width: 80%;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    margin: 30px 15px ;
+    
+}
+.itens h3{
+    color: aqua;
+    margin-bottom: 0;
+    font-size: 2.5em;
+    width: 350px;
+    text-align: center;
+}
+.align {
+    margin-top: 60px;
+}
+.itens p {
+    margin-top: 20px;
+    font-size: 1.3em;
+    text-align: center;
+    width: 300px;
+    height: 100px;
+}
+#containerGreen{
+    display: flex;
+    justify-content: center;
+    margin-bottom: 100px;
+}
+.green{
+    background-color: #00B172;
+    color: white;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+    align-items: center;
+    width: 90%;
+    margin-left: 0;
+    padding-bottom: 50px;
+}
+.spot{
+    width: 120px;
+    margin-right: 100px;
+}
+.app{
+    width: 300px;
+    margin: 100px 90px 80px 0;
+}
+.textGreen {
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    width: 1000px;
+    margin-right: 0;
+}
+.textGreen h4{
+    font-size: 2em;
+    width: 300px;
+}
+.text{
+    width: 400px;
+}
+.green > div> h3{
+    font-size: 3em;
+    border-bottom:3px solid white;
+    width: 580px;
+    margin-left: 90px;
+}
+    /*
 Colors:
 
 Text: 1A1A1A
