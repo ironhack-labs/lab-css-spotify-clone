@@ -136,6 +136,7 @@ White: #FFF
     .box-total{
         display: flex;
         justify-content: space-between;
+        flex-direction:row-reverse;
         align-items: center;
         color: #fff;
         background-color: #00B172;
@@ -144,30 +145,48 @@ White: #FFF
 
 
     .spotify-logo-white{
-        width: 100px;
-        height: auto;
+        width: auto;
+        height: 100px;
+       margin-right: 160px;
+       margin-top: 200px;
+       
     }
 
     .spotify-app{
         width: 250px;
-        height: auto;
+        height: auto;  
+        margin-right: 80px;
+        
+       
         
     }
 
     .section-title {
         display: inline;
         border-bottom: 3px solid #fff;
-        padding-bottom: 5px;
-        margin-bottom: 50%;
+        font-size: 20px;
+        text-align: justify;
+        margin-left: 80px;
     }
 
     .info{
-        font-size:20px; 
-        width:200px;
-        line-height: 30px;
+       
+        width:260px;
+        line-height: 20px;
         padding: 5px;
+        margin-left: 80px;
+        text-align: justify;
         
     }
+
+    .info h3{
+        font-size:20px;
+    }
+
+    .info p{
+        font-size:15px;
+    }
+
 
     .kayne{
         text-align: center;
@@ -175,4 +194,8 @@ White: #FFF
       
     }
 
-   
+   .img-end{
+       display: flex;
+       flex-direction:row;
+       padding: 50px 60px;
+   }
