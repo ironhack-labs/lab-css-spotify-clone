@@ -6,31 +6,75 @@ Green: #00B172
 White: #FFF
 
 */
+body {
+    margin: 0;
+}
 
+h1, h2, h3, p, a {
+    font-family: Arial, Helvetica, sans-serif;
+}
+h1{
+    font-size: 50px;
+}
 
 header{
     display: flex;
     justify-content: space-between;
-    list-style-position: inside;
-    ;
 }
- 
+
 li{
-list-style: none;
-color: lightslategrey;
-
-
+    list-style: none;
 }
 
 header img{
-width: 150px;
+    width: 200px;
+}
+
+nav a{
+    color: #1A1A1A;
+    text-decoration: none;
+    padding: 10px;
+    font-size: 18px; 
 }
 ul{
     display: flex;
-
 }
 
+.landing-page {
+    padding: 0;
+    display: flex;
+    height: 800px;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    background-image: url("../images/landing.jpg");
+    background-size: cover;
+    background-repeat: no-repeat;
+    color: #fff;
+}
 
-.landing-page{
-    background-image: url("images/landing-page.jpg");
+h2{
+    font-size: 27px;
+    text-align: center;
+}
+.container {
+    display:flex;
+    justify-content: center;   
+}
+.container h3 {
+    color: #00B172; 
+}
+
+.icon{
+    width: 130px;
+    height: 130px;
+}
+.kanye {
+    background-color: #00B172;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.playlist {
+    width: 250px;
 }
