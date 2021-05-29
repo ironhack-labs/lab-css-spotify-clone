@@ -1,8 +1,175 @@
 /*
 Colors:
-
 Text: 1A1A1A
 Green: #00B172
 White: #FFF
-
 */
+
+@import url('https://fonts.googleapis.com/css2?family=Inter:wght@100;200;300;400;500&display=swap');
+
+html, body {
+    color: #1A1A1A;
+    font-family: 'Inter', sans-serif;
+}
+
+#upper-bar {
+    background-color: #FFF;
+    display: flex;
+    height: 90px;
+    justify-content: space-between;
+    margin: 10px 50px 5px 50px;
+    align-items: center;
+}
+
+#upper-bar > img {
+    width: 200px;
+}
+
+#nav-bar > ul {
+    display: flex;
+    flex-direction: row;
+    list-style-type: none;
+}
+
+.li-nav-bar a {
+    text-decoration: none;
+    color: #1A1A1A;
+    font-size: 22px;
+    font-weight: 400;
+    margin: 10px;
+}
+
+#header {
+    background: url("../images/landing.jpg");
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    height: 500px;
+    padding-top: 100px;
+    padding-bottom: 200px;
+    position: static;
+    background-origin: content-box;
+    text-align: center;
+    color: #FFF;
+}
+
+#header > h1 {
+    font-size: 5em;
+    font-weight: 500;
+    padding-top: 82px;
+}
+
+#header > h2 {
+    font-size: 1.8em;
+    line-height: 0.4em;
+    font-weight: 200;
+
+}
+
+#section-1 {
+    text-align: center;
+    margin: 50px 0px 0px 0px;
+}
+
+#section-1 > h3 {
+    font-size: 2.3em;
+    line-height: 0em;
+    font-weight: 600;
+}
+
+#section-1 > hr {
+    width: 24%;
+    border: #00B172 solid 2px;
+    height: 0px;
+    position: center;
+}
+
+#spotify-info {
+    display: flex;
+    flex-direction: row;
+    align-items:baseline;
+}
+
+#spotify-info article {
+    margin: 30px 80px 80px 80px; 
+    justify-content: space-evenly;
+    align-items: center;
+    width: 1275px;    
+}
+
+#spotify-info article img {
+    width: 140px;
+}
+
+#spotify-info article h4 {
+    color: #00B172;
+    text-align: center;
+    font-size: 1.8em;
+    font-weight: 600;
+}
+
+#spotify-info article p {
+    color: #1A1A1A;
+    font-size: 0.85em;
+    line-height: 1.2em;
+    font-weight: 200;
+}
+
+#section-2 {
+    background: url("../images/spotify-icon-white.png");
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: 130px;
+    background-color: #00B172;
+    color: #FFF;
+    display: flex;
+    flex-direction: row;
+    align-items: left;
+    width: 1275px;
+    height: 800px;
+    margin: 0px 50px 50px 30px;
+    text-align: left;
+}
+
+#kanye-div {
+    justify-content: left;
+    width: 650px;
+}
+
+#kanye-div h3 {
+    text-align: left;
+    font-size: 2.3em;
+    font-weight: 500;
+    line-height: 2;
+    padding: 0px 0px 0px 0px;
+    margin: 50px 0px 0px 90px;
+}
+
+#kanye-div > hr {
+    width: 75%;
+    height: 0px;
+    border: #FFF solid 2px;
+    margin: 0px 0px 0px 90px;
+}
+
+#articles {
+    text-align: left;
+    font-size: 1.8em;
+    font-weight: 500;
+    line-height: 3;
+    padding: 0px 0px 50px 90px;
+    margin: 40px 0px 0px 0px;
+}
+
+#kanye-div p {
+    text-align: left;
+    font-size: 0.8em;
+    font-weight: 200;
+    line-height: 1.5;
+    margin: 0px 200px 25px 0px;
+}
+
+#spotify-app {
+    width: 350px;
+    margin: 120px 0px 0px 180px;
+}
