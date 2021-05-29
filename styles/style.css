@@ -1,8 +1,116 @@
-/*
-Colors:
+/*Parametros gerais da página*/
 
-Text: 1A1A1A
-Green: #00B172
-White: #FFF
+/*Header*/
+#nav-bar{
+    background-color: #FFF;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    height: 100px;
+    width: 100px;
+}
 
-*/
+#nav-bar img{
+    height: 50px;
+    padding: 0px 10px;
+}
+
+#nav-bar ul{
+    display: flex;
+    align-items: center;
+    margin-left: 890px;
+}
+
+#nav-bar ul li{
+    list-style-type: none; /*dica do DK*/
+    font-size: 25px;
+    padding: 0px 10px;
+}
+
+/*Music for everyone*/
+#first-section {
+    background-image: url(../images/landing.jpg);
+    background-size: cover;
+    height: 120vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-flow: column wrap;
+}
+
+#first-section h1{
+    color: #fff;
+    font-size: 80px;
+    text-align: center;
+}
+
+#first-section p{
+    color: #fff;
+    font-size: 26px;
+    text-align: center;
+}
+
+/*What's on Spotify*/
+.second-section {
+    text-align: center;
+    margin: 20px;
+}
+
+#second-section h2{
+    text-decoration: underline;
+    text-decoration-color: #00B172;
+    text-align: center;
+}
+
+.second-section-icons{
+    display: flex;
+    justify-content: space-evenly;
+}
+.second-section-icons article{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-flow: column wrap;
+    text-align: center;
+    padding: 10px;
+}
+.second-section-icons article h3 {
+    color: #00B172;
+}
+
+/*Yeezy as Kanye West*/
+#container{
+    height: 100%;
+    width: 100%;
+    background-color: #00B172;
+    background-image: url(../images/spotify-icon-white.png);
+    background-repeat: no-repeat;
+    background-size: 10%;
+    background-position: center;
+    display: flex;
+    justify-content: space-evenly;
+}
+
+#column{
+    display: flex;
+    justify-content: center;
+    flex-flow: column wrap;
+    padding: 40px;
+}
+
+#column h2{
+    color:#fff;
+    ont-size: 30px;
+}
+
+#column h3{
+    color:#fff;
+    font-size: 25px;
+}
+#column p{
+    font-size: 20px;
+    color: #fff;
+}
+#column article{
+    width: 350px;
+} 
