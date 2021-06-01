@@ -6,3 +6,141 @@ Green: #00B172
 White: #FFF
 
 */
+*{
+    margin: 0;
+    padding: 0;
+}
+
+body{
+    font-family: "Roboto", sans-serif ;
+}
+
+.menu{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    background-color: white;
+        position: fixed;
+        top: 0;
+        left: 0;
+        right: 0;
+    padding: 10px 20px;
+      
+}
+
+.logo{
+    width: 200px;
+}
+
+
+.nav{
+    display: flex;
+    justify-content: space-around;
+}
+
+ul{
+    list-style: none;
+}
+
+li,a{
+    margin: 0 5px;
+    text-decoration: none;
+    color: black;
+}
+
+.titulo{
+    background-image: url(../images/landing.jpg);
+    padding-top: 70px;
+    height: 150vh;
+    background-size: cover;
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+    justify-content: center;
+    color: white;
+}
+
+h1{
+    font-size: 100px;
+    margin-bottom: 20px ;
+    font-weight: 500;
+}
+
+p{
+    font-size: 30px;
+    font-weight: 100;
+}
+
+.section2{
+    margin: 50px auto;
+    text-align: center;
+    
+}
+.span{
+    border-bottom: #00B172 solid 3px;
+}
+
+.container{
+    display: flex;
+    justify-content: space-evenly;
+    align-items: center;
+}
+
+.music{
+    width: 100px;
+}
+
+.container h3{
+    color:#00B172 ;
+    margin: 20px 0;
+
+}
+
+.container article{
+    width: 300px;
+    text-align: center;
+}
+
+.container p{
+    font-size: 20px;
+    margin-bottom: 100px;
+}
+
+.lastSection{
+    background-color: #00B172;
+    margin: 0 30px;
+    display: flex;
+    justify-content: space-between;
+    background-image: url(../images/spotify-icon-white.png);
+    background-size: 100px;
+    background-position-x: center;
+    background-position-y: center;
+    background-repeat: no-repeat;
+    color: white;
+    
+}
+
+.text{
+    margin:70px;
+    width: 40%;
+}
+
+.west{
+    width: 300px;
+    margin: 70px;
+    
+}
+
+.lastSection h2 span{
+    border-bottom: white solid 3px;
+}
+
+.lastSection h3{
+    margin: 50px 0;
+    font-size: 30px;
+    }
+
+.lastSection p {
+    font-size: 25px;
+    width: 70%;
+}
