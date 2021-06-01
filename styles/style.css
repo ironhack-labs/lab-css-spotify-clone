@@ -1,8 +1,64 @@
-/*
-Colors:
+*{
+    padding: 0;
+    margin: 0;
+}
+:root{
+    --color-green: #00B172;
+    --color-white: #fff;
+    --color-text:#1a1a1a;
+}
+.nav-bar {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    align-content: center;
+}
+.nav-bar nav {
+    width: 100%;
+    display: flex;
+    justify-content: space-between;
+    padding: 10px;
+}
+.cards img{
+    width: 22%;
+}
+.nav-bar img{
+    width: 200px;
+}
+.nav-bar ul {
+    text-decoration: none;
+    list-style-type: none;
+    display: flex;
+    align-content: center;
+    align-items: center;
+}
+.nav-bar li{
+    margin-left: 10px;
+}
+.landing {
+    display: flex;
+    margin-top: 15px;
+    height: 113vh;
+    background-image: url(../images/landing.jpg);
+    background-size: cover;
+    color: var(--color-white);
+    
+}
+.landing div {
+    width: 100%;
+    display: flex;
+    justify-content: flex-start;
+    align-items: center;
+    align-content: center;
+    flex-direction: column;
+}
+.landing h2{
+    font-size: 6em;
+    margin-top: 250px;
+}
+.landing p{
 
-Text: 1A1A1A
-Green: #00B172
-White: #FFF
-
-*/
+}
+.cards{
+    display: flex;
+}
