@@ -6,3 +6,150 @@ Green: #00B172
 White: #FFF
 
 */
+
+/* nav */
+img {
+  width: 100%;
+}
+
+* {
+  margin: 0;
+  padding: 0;
+  /* border: 1px solid red; */
+}
+
+header img {
+  width: 200px;
+}
+
+header {
+  display: flex;
+  justify-content: space-between;
+  padding: 10px 30px;
+}
+
+nav {
+  display: flex;
+  align-items: center;
+}
+
+header nav ul {
+  display: flex;
+  list-style: none;
+}
+
+header nav ul li a {
+  text-decoration: none;
+  color: black;
+  padding: 5px 30px;
+  font-size: 1.1em;
+}
+
+/* hero */
+
+.hero {
+  width: 100%;
+  height: 90vh;
+  background-image: url("../images/landing.jpg");
+  background-repeat: no-repeat;
+  background-size: cover;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.title {
+  color: white;
+  width: 50%;
+  text-align: center;
+}
+
+.title p {
+  margin-bottom: 20px;
+}
+
+/* articles */
+
+.articles {
+  margin: 25px 0;
+  display: flex;
+  justify-content: space-around;
+}
+
+.articles article {
+  text-align: center;
+  width: 25%;
+}
+
+.articles article:nth-of-type(2) img {
+  width: 23%;
+}
+
+.articles article * {
+  margin: 20px 0;
+}
+
+.articles img {
+  width: 20%;
+}
+
+h2 {
+  margin: 0 auto;
+  margin-top: 30px;
+  margin-bottom: 10px;
+  text-align: center;
+  border-bottom: 2px solid #00b172;
+  width: 20%;
+}
+
+/* --------------- */
+h3 {
+  text-align: center;
+  color: #00b172;
+}
+
+.spoty {
+  padding: 20px 0;
+  display: flex;
+  justify-content: center;
+}
+
+.spoty section:nth-child(1) {
+  width: 45%;
+}
+.spoty section:nth-child(2) {
+  width: 15%;
+}
+.spoty section:nth-child(2) {
+  display: flex;
+  align-items: center;
+}
+
+.spoty section:nth-child(2) img {
+  width: 100px;
+}
+.spoty section:nth-child(3) {
+  display: flex;
+  justify-content: center;
+  width: 35%;
+}
+
+.spoty {
+  background-color: #00b172;
+  display: flex;
+  text-align: left;
+  color: white;
+}
+
+.spoty h2 {
+  width: 80%;
+}
+
+.spoty h3 {
+  text-align: left;
+  color: white;
+}
+
+.spoty img {
+  width: 200px;
+}
