@@ -68,7 +68,13 @@ li {
 .titulo {
 
     background-image: url("../images/landing.jpg");
-    width: 100%;
+    background-position: 0% 0%;
+    background-size: cover;
+    background-repeat: no-repeat;
+    position: relative;
+    height: 900px;
+
+  
 
 }
 
@@ -84,4 +90,49 @@ h1 {
     color: white;
     text-align: center;
     padding: 40px;
+}
+.iconos {
+display: flex;
+justify-content: space-evenly  ;
+align-items: center;
+align-content: center;
+margin: 30px;
+
+}
+
+.iconos article{
+
+    width: 15%;
+    text-align: center;
+    
+}
+
+.iconos img{
+
+    width: 150px;
+    
+}
+
+h2 {
+
+    text-align: center;
+    padding-top: 30px;
+    font-size: 2em;
+
+}
+h3 {
+
+    color: #00B172;
+    padding: 20px;
+
+    
+}
+
+hr {
+    margin: 20px auto 30px auto;
+    width: 30%;
+
+    color: #00B172;
+    font-weight: 600;
+    
 }
