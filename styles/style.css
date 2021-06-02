@@ -6,3 +6,135 @@ Green: #00B172
 White: #FFF
 
 */
+
+body{
+    font-family:Arial, Helvetica, sans-serif;
+    margin: 0;
+    color: #1A1A1A;
+}
+
+p {
+    margin: 0;
+}
+
+h1 {
+    margin: 0;
+}
+
+.navbar img {
+    width: 125px;
+}
+
+.navbar ul {
+    list-style: none;
+    display: flex;
+    justify-content: flex-end;
+    align-items: center;
+}
+
+.navbar li {
+    padding-right: 1.5em;
+}
+
+.navbar li a{
+    text-decoration: none;
+    color: black;
+}
+
+.navbar li:first-child {
+    margin-right: auto;
+}
+
+.section-one{
+    background-image: url(/images/landing.jpg);
+    background-size: 100% 100%;
+    height: 600px;
+    color: white;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+   
+}
+.section-one-text{
+    height: 150px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: space-between
+}
+.section-one p{
+    font-size: 20px;
+    text-align: center;
+}
+.section-one h1{
+    font-size: 60px;
+}
+
+.section-two .icons img {
+    width: 100px;
+}
+.section-two .icons{
+    height: 100px;
+}
+.section-two h2 {
+    border-bottom: 3px solid #00B172;
+    font-size: 30px;
+    
+}
+.section-two {
+    display: flex;
+    flex-direction: column;
+    justify-content: space-evenly;
+    align-items: center;
+    height: 370px;
+}
+
+.container-section-two{
+    display: flex;
+    justify-content: space-evenly;
+    width: 100%; 
+}
+.features-container{
+    display:flex;
+    flex-direction:column;
+    align-items: center;
+    width: 200px; 
+}
+.features-container p {
+    text-align: center;
+}
+.features-container h3 {
+    color: #00B172;
+}
+.section-three{
+    background-color: #00B172;
+    margin: 0 20px;
+    color: #FFF;
+    height: 700px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.logo-white img {
+    width: 100px;
+    padding-right: 150px;
+}
+.app-img img{
+    width: 300px;
+    padding-right: 100px;
+}
+.section-three h2{
+    text-decoration: underline;
+    text-underline-position: under;
+    text-decoration-color: white;
+    padding-bottom: 75px;
+    font-size: 30px;
+}
+.section-three p{
+    padding-bottom: 20px;
+    width: 250px;
+    line-height: 30px;
+}
+.sec-three-text-container{
+    padding-left: 100px;
+}
