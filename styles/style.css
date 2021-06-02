@@ -1,3 +1,184 @@
+@import url('https://fonts.googleapis.com/css?family=Poppins');
+
+body {
+  font-family: 'Poppins';
+  width: auto;
+
+}
+
+h1 {
+    text-align: center;
+    font-size: 80px;
+    margin: 0;
+}
+
+header {    
+    width: 100%;
+    background-color: #FFF;
+    position:fixed
+    
+}
+
+
+
+#navigator {
+    display:flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 10px 30px;
+
+}
+
+  #spotifyLogo {
+    width: 200px;
+  }
+
+  nav {
+    width: 450px;
+  }
+  
+  nav ul {
+    list-style: none;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+  }
+
+
+/* Section 1 */
+
+#front{
+    height: 800px;
+    background-image: url(../images/landing.jpg);
+    background-size: 100%;
+    background-repeat: no-repeat;
+    color:#FFF;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    
+}
+
+  #front div {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+  }
+
+  #front p{
+      width: 650px;
+      font-size: 22px;
+      text-align: center;
+  }
+
+
+/* Section 2 */
+
+#generalInformation {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    height: 5   00px;
+    margin-top: 20px;
+    margin-bottom: 20px;
+}
+  
+  #content {
+      width: 80%;
+      display: flex;
+      justify-content: space-around;
+      text-align: center;
+      
+  }
+
+  #content div {
+      margin: 20px;
+  }
+
+  #generalInformation img {
+      width: 100px;
+  }
+
+  #content p{
+      width: 200px;
+      color: grey;
+  }
+
+  #generalInformation h2{
+    font-size: 30px;
+    border-bottom: medium solid #00B172;
+    margin-bottom: 60px;
+  }
+
+  #generalInformation h3{
+    font-size: 20px;
+    color: #00B172
+  }
+
+
+/* Footer */
+
+footer {
+    margin: 0 20px;
+    height: 800px;
+    background-color: #00B172;
+    display: flex;
+    justify-content: space-around;  
+    align-items: center;
+    color:#FFF;
+
+}
+
+
+  footer img {
+      width: 350px;
+  }
+
+  footer h2 {
+      padding-top: 20px;
+      width: 470px;
+      border-bottom: medium solid #FFF;
+      letter-spacing: 2px;
+      font-size: 30px;
+  }
+
+  footer h3 {
+      font-size: 25px;
+  }
+
+  footer p {
+      width: 300px;
+      font-size: 17px;
+  }
+
+  #leftSide{
+    height: 100%;
+    width: 50%;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-around;
+    padding: 120px;
+
+  }
+
+  #rightSide {
+      display: flex;
+      justify-content: center;
+      align-items: center;
+      width: 50%;
+  }
+
+  #spotifyImage {
+      width: 120px;
+      position: relative;      
+      left: 50%;
+    
+  }
+
+
 /*
 Colors:
 
