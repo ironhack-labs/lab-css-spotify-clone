@@ -75,7 +75,8 @@ justify-content: center;
         margin-bottom: 50px;
         display: flex;
         justify-content: space-between;
-        align-items: center;
+        align-items: stretch;
+       
     }
     .question {
 position: relative;
@@ -110,6 +111,8 @@ position: relative;
 .block-container2 {
     display: flex;
     justify-content: space-between;
+    align-content: center;
+    flex-flow: column;
     flex-direction: column;
     background-color: #00B172;
     font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
@@ -124,4 +127,9 @@ position: relative;
 .hr {
     margin-left: 500px;
     margin-right: 500px;
+}
+
+.what {
+    border-top: 3px solid green;
+    width: 200px;
 }
