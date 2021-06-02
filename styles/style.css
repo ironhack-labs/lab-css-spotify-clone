@@ -1,3 +1,10 @@
+@import url('https://fonts.googleapis.com/css2?family=Manrope:wght@200;300;600&display=swap');
+
+body{
+    margin: 0;
+    font-family: "Manrope";
+}
+
 /*
 Colors:
 
@@ -6,3 +13,134 @@ Green: #00B172
 White: #FFF
 
 */
+/* 
+background-size */
+
+
+
+/* navbar */
+
+.navbar ul {
+    list-style: none;
+    display: flex;
+    justify-content: flex-end;
+    align-items: center;
+    }
+
+.navbar li:first-child {
+    margin-right: auto;
+}
+
+.navbar img {
+    width: 125px;
+}
+
+.navbar li {
+    padding-right: 2.3em;
+}
+
+.navbar a {
+    text-decoration: none;
+    color: black;
+}
+
+
+
+
+/* hero section */
+
+.hero {
+    background: url('../images/landing.jpg');
+    box-shadow:inset 0 0 0 20000px rgba(0, 0, 0, 0.3);
+    height: 700px;
+    background-size: 100% 100%;
+    display: flex;
+    align-items:center;
+    justify-content: center;
+    flex-direction: column;
+    color:white;
+}
+
+.hero h1 {
+    font-size: 56px;
+}
+
+.hero p {
+    font-size: 24px;
+    margin: 0 350px;
+    text-align: center;
+}
+
+
+
+
+
+/* section 2  */
+
+.section-2 {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+    margin: 70px;
+ }
+ .section-2 h2 {
+    border-bottom: 4px solid #00B172;
+ }
+
+ .row-flex {
+     display: flex;
+     flex-direction: row;
+     align-items: center;
+     justify-content: center;
+ }
+
+ .column img {
+    height: 100px;
+}
+
+.column {
+    width: 250px;
+    display: flex;
+    flex-direction: column;
+    flex-wrap: nowrap;
+    justify-content: center;
+    align-items: center;
+    align-content: space-around;
+    padding: 20px;
+
+}
+
+.column p {
+    text-align: center;
+}
+
+
+.section-2 h3 {
+    margin-top 0;
+    color: #00B172;
+    font-weight: 600;
+    font-size: 24px;
+    margin-bottom: 0px;
+}
+
+
+.section-3 {
+    background-color: #00B172;
+    display: flex;
+    color: white;
+    align-items: center;
+}
+
+.section-3 img {
+    height: 600px;
+    margin: 70px;
+}
+
+.section-3-div-c img {
+    height: 120px;
+}
+
+.section-3-div-l {
+    padding-left: 70px;
+}
