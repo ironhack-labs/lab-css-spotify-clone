@@ -6,3 +6,148 @@ Green: #00B172
 White: #FFF
 
 */
+a {
+    color: black;
+}
+body {
+    font-family: 'Montserrat', sans-serif;
+    font-size: 16px;
+    margin: 0;
+    color: #1a1a1a;
+  }
+  .icons {
+    width: 100px;
+  }
+  header {
+    height: 350px;
+    background-size: 100% 100%;
+    margin: 0px;
+    padding: 0px;
+  }
+  h1 {
+    font-size: 40px;
+    color: #fff;
+  }
+  
+  nav {
+    margin: 20px 20px 5px 20px;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+  }
+  
+  nav .logo {
+    width: 200px;
+    align-self: center;
+  }
+  
+  nav ul {
+    list-style-type: none;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+  }
+  nav ul li {
+    margin: 20px;
+  }
+  nav ul li a {
+    text-decoration: none;
+  }
+  
+  header {
+    background-image: url("/images/landing.jpg");
+    background-size: cover;
+    padding: 200px 0 200px 0;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+  }
+  header h1 {
+    text-align: center;
+  }
+  header p {
+    color: #fff;
+    font-size: 20px;
+    width: 50%;
+    text-align: center;
+  }
+  
+  .whatson {
+    margin: 20px 0 40px 0;
+  }
+  .whatson div {
+    text-align: center;
+  }
+  .whatson h2 {
+    display: inline-block;
+    border-bottom: 3px solid #2eb26a;
+    padding-bottom: 5px;
+    margin-bottom: 80px;
+  }
+  
+  .whatson .container {
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    flex-wrap: wrap;
+  }
+  .whatson .block {
+    width: 200px;
+    margin: 30px;
+  }
+  .whatson .block div {
+    padding: 0 20px 0 20px;
+    height: 50%;
+  }
+  .whatson h3 {
+    color: #2eb26a;
+    font-size: 16px;
+  }
+  
+  .greenpart {
+    background: #2eb26a;
+    color: #fff;
+    padding: 40px;
+  }
+  .greenpart .container {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+    margin: 20px;
+  }
+  .greenpart h2 {
+    width: fit-content;
+    border-bottom: 3px solid #fff;
+    padding-bottom: 10px;
+  }
+  
+  .block-right,
+  .block-left {
+    flex: 0 0 50%;
+  }
+  .block-left {
+    display: flex;
+    flex-direction: column;
+    margin: 10px 20px 10px 20px;
+  }
+  .block-left-content {
+    display: flex;
+    justify-content: space-between;
+  }
+  .block-left-content-txt {
+    flex: 0 0 60%;
+  }
+  .block-left-content-img {
+    flex: 0 0 20%;
+    align-self: center;
+  }
+  .block-left-content-img img {
+    width: 75%;
+  }
+  .block-right {
+    text-align: center;
+    margin: 10px 20px 10px 20px;
+  }
+  .block-right img {
+    width: 300px;
+  }
