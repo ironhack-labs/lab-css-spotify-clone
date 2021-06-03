@@ -6,3 +6,166 @@ Green: #00B172
 White: #FFF
 
 */
+@import url('https://fonts.googleapis.com/css2?family=Poppins&display=swap');
+
+body{
+    font-family: 'Poppins', sans-serif;
+    margin: 0;
+}
+
+
+nav{
+    position: fixed;
+    width: 100%;
+    background-color: white;
+}
+
+.green-logo{
+    width:200px;
+    height: 60px;
+    padding: 10px;
+}
+
+.nav-bar{
+    display: flex;
+    justify-content: space-between;
+}
+
+ul{
+    list-style: none;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: center;
+    width: 400px;
+    padding-right: 20px;
+    font-size: 20px;
+}
+
+a{
+    text-decoration: none;
+    color: black;
+
+}
+
+#first-section{
+    background-image: url(../images/landing.jpg);
+    width: 100%;
+    background-position: 0 0;
+    background-repeat: no-repeat;
+    background-size: cover;
+    height: 1200px;
+    text-align: center;
+    color: white;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    font-size: 40px;
+}
+
+#first-section p{
+    opacity: 0.7;
+    
+}
+
+#second-section{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+.second-sec-h2{
+font-size: 40px;
+margin-bottom: 0;
+}
+
+
+.second-sec-hr{
+    background-color: #00B172;
+    width: 350px;
+    height: 3px;
+    border: none;
+}
+
+.mid-div{
+    display: flex;
+    flex-direction: row;
+    flex-wrap: nowrap;
+    justify-items: space-around;
+    align-items: center;
+    padding: 0;
+    height: 350px;
+    
+}
+
+.mid-div img{
+    width:100px;
+    height: 100px;
+}
+
+.mid-div div{
+    text-align: center;
+    padding: 100px;
+    width: 250px;
+   
+}
+
+.weird-div{
+    margin-top: 25px;
+}
+
+h3{
+    color: #00B172;
+    font-weight: bolder;
+    font-size: 25px;
+
+}
+
+#third-section{
+    background-color: #00B172;
+    background-image: url(../images/spotify-icon-white.png);
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: 100px;
+    height: 700px;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+    align-items: center;
+    }
+
+.last-img img{
+    width: 300px;
+    height: 550px;
+}
+
+.kanye{
+    color: #FFF;
+    width: 450px;
+    font-size: 30px;
+    margin-bottom: 0;
+    
+}
+
+.last-div-hr{
+    height: 3px;
+    background-color: #FFF;
+    width: 410px;
+    border: none;
+    margin-left: 0;
+    
+}
+
+.text{
+    color: #FFF;
+}
+
+.text h3{
+    color:#FFF;
+}
+
+.text p{
+    opacity: 0.7;
+}
