@@ -9,7 +9,6 @@ White: #FFF
 html,
 
 h1,
-h3,
 h4 {
   text-align: center;
 }
@@ -21,25 +20,25 @@ h1 {
 h2 {
   font-size: 48px;
   text-decoration: underline;
-  text-underline-position: below;
+  text-underline-position: under;
+  text-underline-offset: 15%;
   text-decoration-color: #00B172;
 }
 
 h3 {
   font-size: 26px;
-  color: #00B172;
 }
 
 h4 {
 
   font-weight: normal;
-  font-size: 26px;
+  font-size: 24px;
 }
 
 body {
   margin: 0;
   padding: 0;
-  font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+  font-family: Georgia, 'Times New Roman', Times, serif;
 }
 
 .flex-nav {
@@ -55,9 +54,9 @@ body {
   width: 15%;
   height: auto;
   justify-content: left;
-  padding-top: 0.5%;
-  padding-left: 1.5%;
-  padding-bottom: 0.5%;
+  padding-top: 1%;
+  padding-left: 2%;
+  padding-bottom: 1%;
 }
 
 nav {
@@ -105,6 +104,7 @@ nav a {
   flex-direction: column;
   flex-flow: row;
   align-items: center;
+  padding-bottom: 5%;
 }
 
 .flex-item {
@@ -112,6 +112,48 @@ nav a {
   justify-content: center;
 }
 
+.flex-item h3 {
+  color: #00B172;
+}
+
 .flex-item img {
   width: 20%
+}
+
+.green-background {
+  background-color: #00B172;
+  color: white;
+}
+
+.green-background > h2 {
+  text-decoration: underline;
+  text-underline-position: under;
+  text-underline-offset: 15%;
+  text-decoration-color: white;
+  text-align: left;
+  padding-left: 5%;
+  padding-top: 5%;
+}
+
+.green-flex-container {
+  display: flex;
+  justify-content: center;
+  flex-direction: column;
+  flex-flow: row;
+  align-items: center;
+  padding-left: 5%;
+  padding-bottom: 5%;
+}
+
+.green-flex-container-item {
+  text-align: left;
+  color: white;
+}
+
+#image-logo-white {
+  width: 24%
+}
+
+#spotify-display-mobile {
+  width: 68%;
 }
