@@ -14,19 +14,48 @@ h4 {
   text-align: center;
 }
 
+h1 {
+  font-size: 64px;
+}
+
+h2 {
+  font-size: 48px;
+  text-decoration: underline;
+  text-underline-position: below;
+  text-decoration-color: #00B172;
+}
+
+h3 {
+  font-size: 26px;
+  color: #00B172;
+}
+
+h4 {
+
+  font-weight: normal;
+  font-size: 26px;
+}
+
+body {
+  margin: 0;
+  padding: 0;
+  font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
+
 .flex-nav {
   display: flex;
   position: fixed;
   justify-content: space-between;
   align-items: center;
   background-color: white;
-  z-index: 99999999;
+  z-index: 1;
 }
 
 .logo {
   width: 15%;
   height: auto;
   justify-content: left;
+  padding-top: 0.5%;
   padding-left: 1.5%;
   padding-bottom: 0.5%;
 }
@@ -52,6 +81,7 @@ nav a {
 .landing {
   width: 100%;
   height: auto;
+  margin-top: 80px;
 
 }
 
@@ -66,5 +96,22 @@ nav a {
   left: 50%;
   transform: translate(-50%, -50%);
   color: white;
-  width: 300px;
+  width: 1200px;
+}
+
+.flex-container {
+  display: flex;
+  justify-content: center;
+  flex-direction: column;
+  flex-flow: row;
+  align-items: center;
+}
+
+.flex-item {
+  text-align: center;
+  justify-content: center;
+}
+
+.flex-item img {
+  width: 20%
 }
