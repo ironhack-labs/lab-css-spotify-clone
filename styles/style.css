@@ -6,3 +6,150 @@ Green: #00B172
 White: #FFF
 
 */
+
+
+nav {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    height: 10vh;
+    width: 100vw;
+    /*justify-content: space-between;*/}
+
+nav img {
+    height: 50%;
+    width: auto;
+    margin-left: 2%;
+}
+
+nav ul {
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: flex-end;
+    list-style-type: none;
+}
+
+nav li {
+    font-size: 16px;
+    margin: 0 0 0 15px;
+}
+/*remeber margin between words*/
+
+.firstSection {
+    background-image: url("/lab-css-spotify-clone/images/landing.jpg");
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+    background-position: center;
+    background-size: cover;
+    height: 80vh;
+    background-size: 100%;
+    position: relative;
+    color: white;
+}
+
+.firstSection h1 {
+   font-size: 40px;
+}
+
+.firstSection span {
+    flex-flow: row wrap;
+    font-size: 16px;
+    position: absolute;
+    top: 60%;
+    left: 38%;
+    right: 38%;
+    text-align: center;
+}
+
+.secondSection {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+    align-items: center;
+    height: 35vh;
+}
+
+.secondSection article {
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+}
+
+.secondSection article h3 {
+    color: #1DB954;
+    text-align: center;
+    font-size: 26px;
+}
+
+.secondSection article span {
+    font-size: 20px;
+    flex-flow: row wrap;
+    text-align: center;
+    margin: 2% 15%;
+    color: rgba(60, 57, 57, 0.767);
+}
+.secondSection img {
+    height: 60px;
+    width: auto;
+}
+#startLines2 {
+    text-align: center;
+    font-size: 30px;
+    margin-top: 2%;
+    text-decoration: underline #1DB954;
+}
+
+.container {
+    display: flex;
+    height: 70vh;
+    width: 100%;
+    background-color: #1DB954;
+    color: white;
+    justify-content: space-around;
+    flex-wrap: wrap;
+    position: relative;
+    text-align: left;
+}
+
+.lastSection {
+    height: 60vh;
+    width: 25vw;
+}
+
+.lastSection h2 {
+    display: flex;
+    font-size: 28px;
+    text-decoration: underline white;
+}
+
+.lastSection h4 {
+    font-size: 22px;
+}
+
+.lastSection span {
+    font-size: 18px;
+    flex-flow: row wrap;
+    margin: 0% 10% 0% 0%;
+}
+
+#spotifyLogoWhite {
+    height: 100px;
+    width: auto;
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    right: 38%;
+}
+
+#kanyeW {
+    height: 60vh;
+    width: auto;
+    position: absolute;
+    top: 8%;
+    left: 80%;
+    right: 10%;
+    bottom: auto;
+}
