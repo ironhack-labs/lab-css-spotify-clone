@@ -10,14 +10,14 @@ body {
     margin: 0;
     padding: 0;
     font-family: 'Roboto', sans-serif;
+    font-size: 16px;
 }
 
 
 nav {
     width: 100%;
-    position: fixed;
     margin: 0;
-    padding: 0;
+    padding: 1;
     display: flex;
     align-items: center;
     justify-content: space-between;
@@ -27,7 +27,9 @@ nav {
     display: flex;
     justify-content: left;
     height: 60px;
+    padding: 10px;
 }
+
 
 .nav-bar-ul {
     display: flex;
@@ -36,12 +38,41 @@ nav {
     width: 300px;
     list-style: none;
 }
-header {
+#background-image {
     background-image: url("https://github.com/ironhack-labs/lab-css-spotify-clone/blob/master/images/landing.jpg?raw=true");
-    background-position: 0 0;
     background-size: cover;
     background-repeat: no-repeat;
-    height: 650px;
+    height: 600px;
     padding-top: 50px;
-    position: relative;
+  }
+
+  h1 {
+      text-align: center;
+      color: white;
+      font-size: 2rem;
+  }
+  header > ul {
+      text-align: center;
+      color: white;
+      list-style: none;
+      
+  }
+
+  .spotify-content {
+      display: flex;
+      justify-content: space-between;
+
+  }
+
+  .spotify-content > article {
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    align-items: center;
+    text-align: center;
+    color: green;
+  }
+
+  .spotify-content > article > t {
+      color: black;
   }
