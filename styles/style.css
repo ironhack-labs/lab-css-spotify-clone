@@ -6,3 +6,144 @@ Green: #00B172
 White: #FFF
 
 */
+html {
+    font-size: 16px;
+}
+body {
+    font-family: "Montserrat", sans-serif
+}
+nav {
+    background-color: white;
+    margin: 0;
+    overflow: hidden;
+  }
+
+  nav ul {
+    margin: 0;
+    padding: 0;
+    display: flex;
+
+  }
+  nav ul li {
+    display: inline-block;
+    list-style-type: none;
+  }
+  nav ul li a {
+    color: grey;
+    background-color: white;
+    display: block;
+    line-height: 3em;
+    padding: 1em 1em;
+    text-decoration: none;
+    font-weight: 700;
+  }
+  nav ul li:first-child {
+      margin-right: auto;
+  }
+  nav img {
+      max-width: 20vh;
+      padding-top: 10px;
+      padding-left: 20px;
+  }
+
+  .heading {
+      display: flex;
+      flex-direction: column;
+      background-image: url("/images/landing.jpg");
+      justify-content: center;
+      align-items: center;
+      height: 900px;
+      background-size: cover;
+      text-align: center;
+      color: white;
+  } 
+
+  .heading span {
+      width: 70%;
+      font-size: 1.2rem;
+  }
+
+  .heading h1 {
+      font-size: 4.5rem;
+  }
+  .information {
+      display: flex;
+      height: 500px;
+      flex-direction: column;
+      align-items: center;
+      justify-content: center;
+  }
+
+  .information h2 {
+      border-bottom: 4px solid #00B172;
+      font-size: 2rem;
+      padding: 3px;
+  }
+
+  .flex-container {
+      display: flex;
+      flex-direction: row;
+      justify-content: space-between;
+      width: 900px;
+    
+  }
+
+  .flex-container img {
+      max-width: 100px;
+  }
+
+  .flex-container h3 {
+      color: #00B172;
+  }
+
+  .flex-container div {
+      display: flex;
+      flex-direction: column;
+      justify-content: center;
+      align-items: center;
+      flex-wrap: wrap;
+  }
+
+  .flex-container p {
+      max-width: 220px;
+      text-align: center;
+  }
+
+  .green-section {
+      color:#fff;
+      position: relative;
+      background-color: #00B172;
+      display: flex;
+      flex-direction: row;
+      justify-content: space-around;
+      height: 700px;
+  }
+
+  .green-section div {
+      padding: 80px;
+  }
+
+  .green-section h2 {
+      font-size: 1.8rem;
+      border-bottom: 3px solid white;
+      width: 390px;
+      padding: 2px;
+  }
+  .green-section > img {
+      position: absolute;
+      max-width: 100px;
+      top: 40%;
+  }
+
+  .green-section p {
+      width: 50%;
+      font-weight: 100;
+  }
+  .screenshot img {
+      max-width: 300px;
+  }
+
+  .text h3 {
+      padding-top: 10px;
+      padding-bottom: 10px;
+  }
