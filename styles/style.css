@@ -6,3 +6,163 @@ Green: #00B172
 White: #FFF
 
 */
+
+html, body {
+    margin: 0;
+    padding: 0;
+    font-size: 16px;
+  }
+  
+body {
+    font-family: 'Open Sans', sans-serif;
+  }
+  
+h1 {
+    color: white;
+    font-size: 5rem;
+    text-align: center;
+}
+
+h2 {
+    font-size: 2.5rem;
+    font-weight: bolder;
+    border-bottom: 4px solid #00B172;
+}
+
+h3 {
+    font-size: 2rem;
+    color : #00B172;
+    font-weight: bolder;
+}
+
+.spotify-logo {
+    width: 15vw;
+    margin: 2vh 2vw;
+}
+
+header {
+    width: 100vw;
+    display:flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+nav {
+    width:100vw;
+    display: flex;
+    justify-content: space-between;
+}
+
+.containerLinks {
+    width: 40vw;
+    margin: 4vh;
+    display: flex;
+    flex-direction: row;
+    justify-content: flex-end;
+}
+
+.containerLinks li {
+    margin: 0 2vw;
+    list-style: none;
+}
+
+.containerLinks li a {
+    text-decoration: none;
+    color: black;
+    font-weight: bold;
+    font-size: 1.5rem;
+}
+
+.landing {
+    background-image: url("../images/landing.jpg");
+    width: 100vw;
+    height: 110vh;
+    background-position: center;
+    background-size: cover;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+}
+
+.landing p {
+    text-align: center;
+    color: white;
+    font-size: 2rem;
+}
+
+#intro {
+    width: 100vw;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+#intro img {
+    width: 10vw;
+}
+
+.containerDetails {
+    width: 80vw;
+    margin-top: 5vh;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.insideElement {
+    width: 20vw;
+    height: 50vh;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+.insideElement p {
+    width: 20vw;
+    text-align: center;
+    font-size: 1.5rem;
+}
+
+#findMore {
+    margin-top: 10vh;
+    display: flex;
+    justify-content: center;
+}
+
+.background {
+    width: 95vw;
+    background-color: #00B172;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.background div {
+    margin: 0 1.5vw
+}
+
+#iconWhite {
+    width: 10vw;
+}
+
+#spotify-app {
+    height: 80vh;
+    margin-left: 5vw;
+}
+
+.format {
+    color: #FFF;
+}
+
+#findMore h2 {
+    color: #FFF;
+    border-bottom: 4px solid #FFF;
+    width: 34vw;
+}
+
+#findMore p {
+    width: 24vw;
+    font-size: 1.5rem;
+}
