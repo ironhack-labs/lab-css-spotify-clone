@@ -1,3 +1,136 @@
+body{
+font-family: 'Roboto', sans-serif;
+margin: 0;
+padding: 0;
+}
+nav{
+    width: 100%;
+    display: flex;
+    justify-content: space-between;
+    padding: 15px;
+
+}
+nav > img{
+ height: 40px;
+}
+
+nav > ul {
+ width: 25%;
+ font-weight: 900;
+ display: flex;
+ list-style: none;
+ justify-content: space-around;
+
+}
+nav > ul > li > a{
+    text-decoration: none;
+    color: black;
+}
+
+header{
+    padding: 15px;
+    padding-bottom: 80px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    border: none;
+    width: 100%;
+    background-image: url(/images/landing.jpg);
+    background-position: center;
+    background-size: cover;
+    height: 600px;
+    color: white;
+}
+h1{
+    font-size: 3em;
+    font-weight: 1000;
+}
+header > p {
+    text-align: center;
+
+}
+.intro{
+    display: flex;
+    text-align: center;
+    flex-direction: column;
+    height: 350px;
+    justify-content: space-between;
+}
+#sec2title{
+    text-decoration: underline solid green;
+
+}
+
+.container{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+}
+.box > img{
+    width: 30%;
+}
+.box >h3{
+    font-size: 2em;
+    color: green;
+    font-weight: bold;
+}
+#lastSection{
+    height: 30%;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-evenly;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: 100px;
+    background-color: green;
+    background-image: url(/images/spotify-icon-white.png);
+}
+
+.secondContainer{
+    display: flex;
+    flex-direction: column;
+    color: white;
+    width: 55%;
+
+}
+.secondContainer > h2{
+    font-size: 28pt;
+    color: white;
+    font-weight: 400;
+}
+.secondContainer > h2 > span{
+    padding-bottom: 10px;
+    border-bottom: 4px solid white;
+
+}
+
+.secondContainer > h3{
+    padding-right: 20px;
+    font-weight: 600;
+}
+.secondContainer > h5{
+    font-size: 16px;
+    width: 40%;
+    padding-right: 20px;
+    font-weight: 200;
+}
+#logoImLast{
+    width: 100px;
+    height: auto;
+}
+#spotifyApp{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+#spotifyApp > img{
+    height: 400px;
+}
+
+
+
 /*
 Colors:
 
