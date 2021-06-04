@@ -14,25 +14,21 @@ header {
     font-size: 12px;
 }
 
-img {
-    width: 20%;
-}
-
 nav {
     background-color: #FFF;
-    justify-content: flex-end;
+    
     
 }
 
 #first-logo {
     width: 100px;
+    height: auto;
     justify-content: flex-start;
 }
 
 nav ul {
     list-style: none;
     display: flex;
-    justify-content: flex-end;
     width: 40%;
   }
 
@@ -42,11 +38,11 @@ nav ul {
 
   #section1 {
       background-image: url("/images/landing.jpg");
+      background-position: center center;
       background-repeat: no-repeat;
       background-size: 700px 400px;
       height: 400px;
       display: flex;
-      justify-content: center;
   }
 
   #section1 image {
@@ -67,6 +63,7 @@ nav ul {
 
   #section2-header {
       display: flex;
+      margin: 0 0 20px 0;
   }
 
   #section2-header h2 {
@@ -75,5 +72,63 @@ nav ul {
   }
 
   #three-middle-boxes {
-      
+      display: flex;
+      flex-flow: row;
+      text-align: center;
+      justify-content: space-evenly;
   }
+
+  #three-middle-boxes h3 {
+    color: #00B172;
+  }
+
+  #three-middle-boxes div {
+    margin: 0 40px 0 70px;
+  }
+
+  #three-middle-boxes img {
+    height: 50px;
+}
+
+#section3 {
+    background-color: #00B172;
+    color: #FFF;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+#spotify-logo {
+    width: 80px;
+}
+
+#kanye-west {
+    width: 190px;
+    padding: 0px 0px 0px 0px;
+}
+
+#spotify-logo {
+    justify-content: center;
+    
+}
+
+#section3-div1 {
+    flex: 2;
+    padding: 20px 50px 40px 40px;
+    flex: 2;
+}
+
+#section3-div1 h2 {
+    text-decoration: underline;
+}
+
+
+#section3-div2 {
+    flex: 1;
+    t
+}
+
+#section3-div3 {
+    flex: 2;
+    text-align: center;
+}
