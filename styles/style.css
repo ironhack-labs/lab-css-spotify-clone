@@ -6,3 +6,72 @@ Green: #00B172
 White: #FFF
 
 */
+
+/* html {
+    margin: 0;
+    padding: 0;
+} */
+
+
+nav {
+    position: fixed;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+}
+
+nav ul {
+    font-size: 1rem;
+    list-style: none;
+    display: flex;
+    flex-direction: row;
+    text-decoration: none;
+}
+
+nav a {
+    text-decoration: none;
+}
+
+#infoTiles div {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: space-around;
+    width: 33%;
+    text-align: center;
+}
+
+/*---IMAGES----*/
+
+#navSpotifyLogo {
+    width: 20%;
+}
+
+.infoTilesImages {
+    width: 30%;
+}
+
+/*---IMAGES AS BACKGROUNDS----*/
+#partyImgContent {
+    color: white;
+    background: 100vw;
+    background-size: auto;
+    background-image: url("https://github.com/pasqualipedro/lab-css-spotify-clone/blob/master/images/landing.jpg?raw=true");
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+/*---FLEXBOX ALINGMENTS CLASSES----*/
+
+.horizontalAlignment {
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+}
+
+/* .verticalAlignment {
+    display: flex;
+    flex-direction: column;
+    justify-content: space-around;
+} */
