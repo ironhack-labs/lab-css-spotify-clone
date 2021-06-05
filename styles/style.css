@@ -6,3 +6,163 @@ Green: #00B172
 White: #FFF
 
 */
+
+* {
+  box-sizing: border-box;
+}
+
+body {
+  margin: 0px;
+  padding: 0px;
+}
+
+h1,
+h2,
+h3 {
+  font-family: "Anton", sans-serif;
+  color: #1a1a1a;
+}
+
+h1 {
+  font-size: 3.4em;
+  color: white;
+  margin: 15px 0px;
+}
+
+h2 {
+  font-size: 2em;
+  margin: 10px 0px;
+}
+
+h3 {
+  font-size: 1.5em;
+  margin: 10px 0px;
+}
+
+a,
+p {
+  font-family: "PT Sans Narrow", sans-serif;
+  color: #1a1a1a;
+}
+
+p {
+  font-size: 1.2em;
+}
+
+a {
+  font-size: 1.1em;
+  color: black;
+  text-decoration: none;
+}
+
+a:hover {
+  text-decoration: underline;
+}
+
+header {
+  height: 8vh;
+  background-image: url("../images/spotify-logo.png");
+  background-repeat: no-repeat;
+  background-position-x: left;
+  background-size: contain;
+  margin: 20px;
+  display: flex;
+  justify-content: flex-end;
+  align-items: center;
+}
+
+nav {
+  width: 30vw;
+  display: flex;
+  justify-content: space-around;
+}
+
+#intro {
+  height: 90vh;
+  background-image: url("../images/landing.jpg");
+  background-size: cover;
+  background-position: center;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  text-align: center;
+}
+
+#intro p {
+  color: white;
+}
+
+#usp {
+  background-image: yellow;
+  text-align: center;
+  padding: 25px 0px;
+}
+
+#usp img {
+  width: 100px;
+}
+
+#usp h2 {
+  margin-bottom: 30px;
+}
+
+#usp div {
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+}
+
+#usp div article {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+#functions {
+  height: 700px;
+  background-color: #00b172;
+  background-image: url("../images/spotify-icon-white.png");
+  background-position: center center;
+  background-repeat: no-repeat;
+  background-size: 150px;
+  padding: 50px;
+  color: white;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+#functions img {
+  float: right;
+  width: 30%;
+  height: auto;
+}
+
+#functions div {
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+}
+
+#functions h2 {
+  color: white;
+}
+
+#functions h3 {
+  color: white;
+}
+
+#functions p {
+  color: white;
+}
+
+hr {
+  width: 100%;
+}
+
+#functions article {
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+}
