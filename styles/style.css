@@ -6,3 +6,176 @@ Green: #00B172
 White: #FFF
 
 */
+
+
+
+body{
+    font-family: Arial, Helvetica, sans-serif;
+    margin: 0;
+    padding: 0;
+}
+
+
+.spotify-logo{
+    width: 200px;
+    padding-top: 5px;
+    padding-left: 25px;
+}
+
+.nav-bar{
+    display: flex;
+    justify-content: space-between;
+    padding: 5px 0 10px ;
+}
+
+
+.nav-list-properties{
+    display: flex;
+    list-style-type: none;
+    justify-content: space-between;
+    width: 350px;
+    padding-right: 15px;
+    font-size: 20px;
+  
+}
+
+a{
+    text-decoration: none;    
+    color: #1A1A1A;
+}
+
+.banner{   
+/* background properties */
+    background-image: url('/Users/camiloespinosa/Desktop/IronHack/module1/lab-css-spotify-clone/images/landing.jpg');
+    background-size: 100% 100%;
+    background-repeat: no-repeat;
+    height: 700px;
+    width: auto;
+/* text properties */   
+    color: white;
+    display: flex;
+    flex-direction: column; 
+    align-items: center;
+    justify-content: center;
+}
+
+.banner h1{
+    font-size: 4em;
+    font-weight: 500;
+    margin-bottom: 25px;
+}
+
+.banner p{
+    font-weight: lighter;
+    font-size: 24px;
+    text-align: center;
+    width: 40%;
+    margin-top: 0;
+    margin-bottom: 70px;
+    color: rgba(255, 255, 255, 0.5);
+
+}
+
+
+.section2 h2{
+    font-weight: normal;
+    display: flex;
+    justify-content: center;
+}
+
+.inside-box-properties{
+    display: flex;
+    justify-content: space-around;
+}
+
+.inside-box-properties h3{
+    color: #00B172;
+}
+.inner-properties{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+
+}
+
+.inner-properties h3{
+    margin-top: 10px;
+    font-weight: normal;
+}
+
+.inner-properties p{
+    font-size: 20px;
+    text-align: center;
+    width: 250px;
+    font-weight: lighter;
+    margin-top: 0;
+}
+
+.icons
+{
+    height: 60px;
+    width: 60px;
+}
+
+.section3{
+    background-color:#00B172;
+    color: white;
+}
+
+.section3 h2{
+    display: flex;
+    margin-left: 60px;
+    margin-bottom: 0;
+    font-weight: normal;
+    font-size: 34px;
+    padding-top: 75px;
+    
+}
+
+.section3-positioning{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: center;
+    margin: 60px;
+    margin-bottom: 0;
+  
+}
+
+.spotify-icon-properties{
+    height: 120px;
+    width: 120px;
+}
+
+.spotify-app-properties{
+    height: 621px;
+    width: 350px;
+    margin-bottom: 60px;
+}
+
+.section3-div-positioning{
+    display: flex;
+    flex-direction: column;
+    padding-bottom: 40px;
+    width: 400px;
+}
+
+.section3-div-positioning h3{
+    font-size: 28px;
+    font-weight: normal;
+
+}
+
+.section3-div-positioning p{
+    font-size: 24px;
+    font-weight: lighter;
+    color: rgba(255, 255, 255, 0.5);
+}
+hr{
+    margin-left: 60px;
+    height: 2px;
+    background-color: white;
+    width: 440px;
+    float: left;
+   
+}
