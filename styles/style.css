@@ -6,3 +6,141 @@ Green: #00B172
 White: #FFF
 
 */
+
+@import url('https://fonts.googleapis.com/css2?family=Montserrat:wght@100;500;600&display=swap');
+/* resets */
+*{
+    font-family: Montserrat;
+}
+body{
+    margin: 0px;
+}
+/* utility */
+.flex{
+    display: flex;
+}
+.per60{
+    position: relative;
+    width: 60%;
+    float: right;
+    
+}
+
+/* the rest */
+.logo{
+    width: 200px;
+}
+.navbar{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 6px 12px;
+}
+
+ul{
+       display: flex;
+}
+ul > li{
+ 
+    list-style: none;
+    margin-left: 12px;
+}
+
+.hero{
+    background-image: url(../images/landing.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+    height: 800px;
+    color: #fff;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+
+}
+.hero > h1{
+    font-size: 4em;
+}
+.hero > h6{
+    font-weight: 300;
+    font-size: 1.4em;
+    width: 60%;
+    text-align: center;
+    
+
+}
+.under-hero{
+    text-align: center;
+    font-size: 1.8em;
+    font-weight: 700;
+    padding: 40px;
+    
+}
+.green-underline{
+    border-bottom: 4px solid #27B06D;
+}
+.feature{
+    justify-content: space-between;
+}
+.feature-icon{
+    width: 80px;
+    height: 80px;
+}
+.feature-third{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    width: 30%;
+ 
+    
+}
+.feature-third > h3{
+    color: #27B06D;
+    font-size: 1.8em;
+   
+
+}
+.feature-third > p{
+  text-align: center;
+
+}
+
+.half > h2{
+    font-size: 2em;
+}
+.border-b-white{
+    border-bottom: 3px solid #ffffff;
+}
+
+
+.artist-feature{
+    position: relative;
+    padding: 40px ;
+    background-color:#27B06D;
+    background-image: url(../images/spotify-icon-white.png);
+    background-position: center; /* Center the image */
+    background-repeat: no-repeat;
+    background-size:140px; 
+    color: #fff;
+    justify-content: space-around;
+    
+   
+}
+.spotify-feature{
+    padding-top: 20px;
+}
+.spotify-feature > h4{
+    font-size: 1.8em;
+    margin-bottom: .5em;
+}
+.spotify-feature > p{
+    font-weight: 300;
+    width: 400px;
+}
+.centered-white-logo{
+    width: 80px;
+    height: 80px;
+    position: relative;
+    left: 50%;
+    top: 50%;
+}
