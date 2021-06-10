@@ -3,10 +3,11 @@
 @import url('https://fonts.googleapis.com/css2?family=Montserrat:wght@100;500;600&display=swap');
 /* resets */
 *{
-    font-family: Montserrat;
+   
 }
 body{
     margin: 0px;
+    font-family: Montserrat;
 }
 /* utility */
 .flex{
@@ -33,11 +34,22 @@ body{
 
 ul{
        display: flex;
+       margin-right: 20px;
 }
 ul > li{
  
     list-style: none;
     margin-left: 12px;
+    
+}
+
+li > a{
+    text-decoration: none;
+    color: rgb(29, 29, 29);
+}
+
+li > a:hover{
+  color: #27B06D;
 }
 
 .hero{
