@@ -6,3 +6,172 @@ Green: #00B172
 White: #FFF
 
 */
+
+@import url('https://fonts.googleapis.com/css?family=Poppins');
+
+h1, h2, h3, h4, h5, p {
+    font-family: 'Poppins';
+}
+
+h1 {
+    color:white;
+    font-weight: bolder;
+    font-size: 4em;
+}
+
+h2 {
+    color:white;
+    font-size: 1.5em;
+}
+
+h3 {
+    color:black;
+    font-size: 2em;
+    border-bottom: 4px solid green;
+}
+
+h4 {
+    color:green;
+    font-size: 1.5em;
+}
+
+h5 {
+    color:#ffffff;
+    font-size: 1.5rem;
+    font-weight: 600; 
+    padding-bottom:10px; 
+    text-align: left;
+}
+
+h6 {
+    color: #ffffff;
+    font-size: 1rem;
+    font-weight:150;
+}
+
+nav {
+    font-family: 'Poppins';
+    padding: 0 25;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    font-size: 0.9em;;
+}
+    
+
+.logo {
+    align-items: left;
+    width: 100px;
+}
+
+.menu {
+    list-style: none;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    width: 350px;
+}
+
+.background {
+    background-image: url("../images/landing.jpg");
+    background-size: cover;
+    height:600px;
+    background-repeat: no-repeat;
+    background-position: center center;
+    padding-top: 100px;
+}
+
+#section-1 {
+    text-align: center;
+    align-items: center;
+}
+
+#section-2 {
+    padding: 5px 0;
+    text-align: center;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+#spotify {
+    display: flex;
+}
+
+.mini-logos {
+    width:80px;
+}
+
+.sec-container {
+    margin-top: 10%;
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+}
+
+.sec-one {
+    width: 280px;
+    height: 280px;
+    float: left;
+    text-align: center;
+}
+
+.bottom{
+    display: flex;
+    align-content: space-between;
+    background-color: #00B172;
+    border: 35px solid #FFFFFF;
+}
+.box{   
+    height: 40%;
+    width: 45%;      
+}
+.kanye{
+    width: 480px;
+    border-bottom: 5px solid #FFFFFF;
+    margin-left:120px; 
+    margin-top: 50px;
+    padding-bottom:0; 
+    margin-bottom: 50px;
+    margin-right: 0;
+}
+
+.square{
+    width: 470px;
+    height: 150px;
+    margin-bottom:50px; 
+    margin-left:120px; 
+    margin-right: 0;
+}
+
+.applications{
+    display: flex;
+    justify-content:center;
+    float: left;
+    width: 40%;
+    margin-left: 50px;
+}
+.footer{
+    display: flex;
+    align-content: center;
+    margin-top: 300px;
+    width: 150px;
+    height: 150px;
+    float: left;     
+}
+.footer img{
+    width: 150px;
+    height: 150px;
+}
+.bottomapp{
+    width: 300px;
+    height: 480px;
+    margin-left: 100px;
+    margin-top: 100px;
+    float: left;
+}
+.bottomapp img{
+    width: 350px;
+    height: 600px;
+}
