@@ -1,8 +1,113 @@
+
+
+@import url('https://fonts.googleapis.com/css2?family=Lato:wght@300;400&display=swap');
 /*
 Colors:
 
 Text: 1A1A1A
 Green: #00B172
-White: #FFF
+White: #FFF */
 
-*/
+html, body {margin:0;
+            padding:0}
+
+
+.header {size: 10px};
+h1,
+h2,
+h3,
+h4,
+h5,
+h6 {font-family:'Lato', sans-serif;
+}
+
+h1 {
+    font-size: 5em;
+    text-align: center;
+  }
+
+
+.nav-bar {
+    background-color:white;
+    padding:auto 0px;
+    display:flex;
+    justify-content: space-between;
+       border:solid blue;}
+    /*"J'ai montré les borders volontairement pour délimiter mes éléments"*/
+
+    .nav-bar-ul {margin-top:0px;width:500px; 
+        border: solid 5px green;
+        margin:20px;
+        display:flex;
+         justify-content:space-between;
+         list-style-type:none;
+         align-self:flex-end;
+        }
+
+    .nav-bar-item {justify-content:space-between;
+    font-size:2em;color:grey;text-decoration:none;}
+
+    .nav-bar img {margin:20px;width:150px;}
+
+
+.Background {background-image: url(/images/landing.jpg);
+    background-position: 0 0;
+    background-size:cover;
+    background-repeat:no-repeat;
+    height: 600px;;
+    padding-top:200px;
+    position:relative;
+    color:white;
+    text-align:center;
+    }
+    .Background h1 {font-weight:bold}
+    .Background h3 {font-weight:lighter;}
+
+.Spotify-section {border:solid red;
+    margin:auto 0;
+    background-color: white;
+    height: 715px;}
+    .Spotify-section h2 {text-align:center;text-decoration: underline green;}
+/*not succeeded in rearranging the boxes*/
+    .Box {
+        border:solid orange;
+        width:20px;
+        height:10px;
+        display:flex;
+        justify-content:space-between;
+    position:relative;}
+        
+    .Box h3 {width:90px;
+        height:90px;
+        color:#00B172;
+        border:solid;
+        text-align:center;
+        top:0%}
+
+.Box text{text-align:center;color:black;}
+.Box {padding:100px;text-align:;display:flex;flex-direction:row;align-items:center;justify-content:center;}
+.Spotify-section img{width:50px;}
+
+
+
+
+.green-section {color:white; 
+    border:solid black;
+    background-color:green;
+    text-align:left;}
+.green-section h2 {padding:2px;border:solid;color:white;text-align: center;text-decoration:underline;}
+
+
+                
+.green-section ul {list-style-type:none;}
+
+.green-section img {padding:0 auto;
+    border:solid;position:
+    relative;margin-left:
+    1000px;width:500px;
+    height:1000px;
+    justify-items: flex-end;
+    margin-bottom:200px;}
+
+
+
