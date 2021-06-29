@@ -1,8 +1,143 @@
-/*
-Colors:
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@100;200;400&display=swap');
 
-Text: 1A1A1A
-Green: #00B172
-White: #FFF
+body{
+    margin: 0px;
+}
+ul {
+    list-style: none;
+}
 
-*/
+nav {
+    justify-content: space-between;
+    display: flex;
+    position: fixed;
+    width: 100%;
+    background-color: white;
+    padding: 10px;
+    top: 0px;
+    height: 50px;
+}
+
+nav ul {
+    display: flex;
+    justify-content: end;
+    padding-inline-start: 0px;
+    margin-block-start: 0em;
+    margin-block-end: 0em;
+    margin-right: 50px;
+}
+
+nav ul li {
+    margin: 4px;
+    padding: 2px;
+    font-family: Poppins;
+    }
+nav ul li a{
+    text-decoration: none;
+    color: black;
+}
+
+.logo img {
+   
+    height: 40px;
+}
+.music{
+    text-align: center;
+    background-image: url(/images/landing.jpg);
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: center;
+    height: 500px;
+    color: white;
+    margin-top: 80px;
+}
+.spotify-mobile{
+   display: flex;
+   flex-direction: column;
+   height: 100%;
+   justify-content: center;
+   font-family: Poppins;
+
+}
+.spotify-mobile h1{
+    font-size: 72px;
+   
+    
+}
+.spotify-mobile p{
+    font-size: 28px;
+    margin-top: 8px;
+}
+
+.instruction h2{
+    font-family: Poppins;
+    text-align: center;
+    font-size: 36px;
+}
+.row ul{
+    display:flex;
+    justify-content: space-around;
+    flex-direction: row;
+    width: 100%;
+  
+}
+.row img{
+    width: 70px;}
+    .row ul li{
+    text-align: center;}
+    
+
+.row ul li h3{
+    font-family: Popins;
+    font-size: 24px;
+    color: rgb(52, 238, 207) ;
+    font-weight: bolder;
+}
+.row ul li p{
+    width: 200px;
+    font-size: 18px;
+}
+
+.fin{
+    background-color: rgb(108, 223, 165);
+    font-family: Poppins;
+    padding: 60px;
+}
+
+.app{
+    display:flex;
+    justify-content: space-around;
+    color: white;
+    height: 100%;
+    display:flex;
+    flex-direction: row;
+    justify-content: space-between;
+    height: 100%;
+
+}
+
+.west{
+    padding:50px;
+    max-width: 250px;
+}
+
+.fin h3{
+    font-size: 36px;
+    text-decoration: underline;
+    text-underline-offset: 6px;
+    color: white;
+}
+.app ul li h4{
+   font-weight: bold;
+    font-size: 24px;
+}
+ .net{
+     align-self: center;
+     max-width: 150px;
+
+ }
+
+ .avantages{
+     max-width:400px;
+     padding-inline-start: 0px;
+ }
