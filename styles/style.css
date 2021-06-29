@@ -33,12 +33,15 @@ nav {
 }
 
 .nav-links {
-  width: 45%;
   font-size: 80%;
   margin-right: 3%;
   color: black;
   display: flex;
   justify-content: space-between;
+}
+
+.nav-links a {
+  margin: 0 1rem;
 }
 
 #head-logo {
@@ -49,28 +52,23 @@ nav a {
   text-decoration: none;
 }
 
-/* big image */
-#big-image {
-  width: 100%;
-}
-
-.content-on-big-img {
-  position: absolute;
-  top: 50%;
-  left: 50%;
-  transform: translate(-50%, -50%);
+/* hero section */
+.hero {
+  background-image: url('/images/landing.jpg');
+  background-size: cover;
   color: var(--special-white);
+  padding: 15rem 8rem;
+  margin-bottom: 3rem;
+  text-align: center;
 }
 
-.content-on-big-img > article {
-  text-align: center;
-  font-size: 3em;
+.hero .hero-title {
+  font-size: 5vw;
+  margin-bottom: 1.8vw;
 }
 
-.content-on-big-img > p {
-  padding-top: 10%;
-  text-align: center;
-  font-size: 1em;
+.hero p {
+  font-size: 2vw;
 }
 
 /* middle section */
@@ -78,46 +76,56 @@ nav a {
   margin: 3%;
 }
 
-.middle-section > h1 {
+.text-center {
   text-align: center;
-  font-size: 2em;
-  padding: 5%;
 }
+
+h1 {
+  font-size: 3vw;
+}
+
+h2 {
+  font-size: 2vw;
+  margin: 1.5vw 0;
+}
+
+p {
+  font-size: 1.5vw;
+}
+
+.underline-h1--primary > h1 {
+  border-bottom-color: var(--primary-color);
+} /*will be used later in green section h1 underline*/
 
 .middle-section-container {
   display: flex;
   justify-content: center;
   align-content: center;
   padding: 5%;
-  height: 20rem;
 }
 
-.middle-section-container img {
-  width: 30%;
-  padding-bottom: 5%;
-}
-
-#songs,
-#hd,
-#stream {
+.middle-section-item {
   display: flex;
   flex-direction: column;
   justify-content: center;
   align-items: center;
+  flex-basis: 0;
+  flex-grow: 1;
 }
 
-#songs > h2,
-#hd > h2,
-#stream > h2 {
-  padding-top: 1em;
+.middle-section-item > img {
+  height: 6vw;
+}
+
+.middle-section-item > h2 {
+  text-align: center;
   color: var(--primary-color);
+  margin: 1em 0em;
+  font-weight: bold;
 }
 
-#songs > p,
-#hd > p,
-#stream > p {
-  padding-top: 1em;
-  font-size: 18px;
+.middle-section-item > p {
+  text-align: center;
   width: 80%;
 }
 
@@ -125,40 +133,43 @@ nav a {
 .green-section {
   background-color: var(--primary-color);
   color: var(--special-white);
-  height: 27rem;
   margin: 3%;
   padding: 5%;
   display: flex;
   justify-content: space-between;
-  position: relative;
+  background-image: url(/images/spotify-icon-white.png);
+  background-size: 10vw;
+  background-repeat: no-repeat;
+  background-position: center;
 }
 
 .green-left {
-  width: 40%;
-  display: flex;
-  flex-direction: column;
-  justify-content: space-around;
+  flex-grow: 5;
+  flex-basis: 0;
+}
+
+.green-left-container {
+  padding-right: 25vw;
 }
 
 .green-left > h1 {
-  font-size: 2rem;
+  border-bottom: 2px solid var(--special-white);
+  margin-bottom: 1.5rem;
+  padding-bottom: 0.3rem;
 }
 
-.green-middle {
-  width: 7%;
-  position: absolute;
-  top: 50%;
-  left: 50%;
-}
+.underline-h1 > h1 {
+  display: inline-block;
+  border-bottom: 2px solid var(--special-white);
+} /*use middle section defined underline feature*/
 
-.green-middle > img {
-  width: 100%;
+.green-left-container h2 {
+  margin-top: 5vw;
 }
 
 .green-right {
-  width: 26%;
-  position: absolute;
-  right: 5em;
+  flex-grow: 3;
+  flex-basis: 0;
 }
 
 .green-right > img {
