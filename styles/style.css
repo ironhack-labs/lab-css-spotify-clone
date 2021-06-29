@@ -1,8 +1,229 @@
-/*
-Colors:
+:root{
+    font-size: 17px;
+    --green-spotify: #1DB954;
+    --white-spotify: white;
+}
 
-Text: 1A1A1A
-Green: #00B172
-White: #FFF
+@font-face {
+    font-family: GothamBold;
+    src: url("../fonts/GothamBold.ttf");
+}
 
-*/
+@font-face {
+    font-family: GothamMedium;
+    src: url("../fonts/GothamMedium.ttf");
+}
+
+@font-face {
+    font-family: GothamLight;
+    src: url("../fonts/GothamLight.ttf");
+}
+
+@font-face {
+    font-family: GothamBook;
+    src: url("../fonts/GothamBook.ttf");
+}
+
+*{
+    margin: 0;
+    padding: 0;
+    list-style-type: none;
+    text-decoration: none;
+    color: inherit;
+    box-sizing: border-box;
+    font-family: GothamLight, Helvetica, sans-serif;
+}
+
+p{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+img{
+    width: 100%;
+}
+
+h2{
+    display: inline-block;
+    font-family: GothamBook, Helvetica, sans-serif;
+    padding-bottom: 10px;
+    font-size: 30px;
+}
+
+
+/* NAV bar */
+
+nav{
+    position:fixed;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    background-color: var(--white-spotify);
+    padding: 15px 35px;
+}
+
+.logo{
+    width: 17%;
+}
+
+.links ul{
+    display: flex;
+    justify-content: space-evenly;
+    align-items: center;
+}
+
+.links li{
+    padding-left: 20px;
+}
+
+.links a{
+    position: relative;
+    transition: opacity .6s ease-in-out;
+}
+
+.links a::after{
+    position: absolute;
+    content: '';
+    width: 100%;
+    height: 2px;
+    bottom: -5px;
+    left: 0;
+    background-color: var(--white-spotify);
+    transition: transform .6s ease-in-out;
+    transform: scaleX(0);
+    transform-origin: right;
+}
+
+.links a:hover{
+    opacity: .7;
+}
+
+.links a:hover::after{
+    transform: scaleX(1);
+    transform-origin: left;
+}
+
+/*landing page */
+
+.landing{
+    background-image: url("../images/landing.jpg");
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    color: var(--white-spotify);
+    width: 100%;
+    height: 100vh;
+}
+
+.landing h1{
+    font-size: 65px;
+    font-family: GothamBook, Helvetica, sans-serif;
+    padding: 30px;
+}
+
+.landing p{
+    font-size: 22px;
+    line-height: 33px;
+}
+
+/* Intro*/
+
+.intro{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    margin: 40px;
+}
+
+.intro h2{
+    border-bottom: solid 4px var(--green-spotify);
+}
+
+.thumbnails-wrapper{
+    display: flex;
+    justify-content: space-evenly;
+    align-items: center;
+    margin: 70px;
+    width: 100%;
+}
+
+.thumbnail{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+.thumbnail h3{
+    font-family: GothamBold, Helvetica, sans-serif;
+    font-size: 25px;
+    color: var(--green-spotify);
+    padding: 25px;
+}
+
+.thumbnail p{
+    font-size: 20px;
+    line-height: 30px;
+}
+
+.picto {
+    width: 110px;
+    height: auto;
+}
+
+/* Presentation */
+.presentation{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    position: relative;
+    background-color: var(--green-spotify);
+    color: var(--white-spotify);
+    margin: 30px;
+    padding: 60px 100px;
+}
+
+.presentation h2{
+    border-bottom: solid 4px;
+    margin-bottom: 35px;
+}
+
+.presentation-wrapper{
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    height: 100%;
+}
+
+.logo-mini{
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%,-50%);
+    width: 120px;
+    height: auto;
+}
+
+aside {
+    padding-top: 40px;
+    width: 290px;
+    height: auto;
+}
+
+.block h3{
+    font-family: GothamBold, Helvetica, sans-serif;
+    font-size: 25px;
+    padding: 30px 0;
+}
+
+.block p{
+    align-items: flex-start;
+    font-size: 20px;
+    line-height: 25px;
+}
