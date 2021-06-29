@@ -6,3 +6,149 @@ Green: #00B172
 White: #FFF
 
 */
+
+:root{
+    --green-spotify:#00B172;
+    --text-black:#1A1A1A;
+}
+*{
+    box-sizing: border-box;
+    padding: 0;
+    margin: 0;
+    color: var(--text-black);
+    font-family: proxima-nova​, sans-serif;
+}
+.whitefont {
+    color:white;
+}
+a{
+    text-decoration: none;
+}
+
+#header {
+    height: 50px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    position: fixed;
+    width: 100%;
+    background-color: white;
+}
+
+.logo {
+    height: 40px;
+}
+
+.navbar {
+    display: flex;
+    justify-content: space-between;
+}
+.navbar-btn {
+    display: flex;
+    padding: 5px 15px;
+    font-size: small;
+}
+
+#intro {
+    position: static;
+    top: 50px;
+    height: 90vh;
+
+    background-image: url("../images/landing.jpg");
+    background-color: red;
+    background-size: cover;
+    background-repeat: no-repeat;
+    color: white;
+    text-align: center;
+    display:flex;
+    flex-direction: column;
+    justify-content: center;
+}
+
+#intro h1 {
+    font-size: xx-large;
+    padding: 20px;
+}
+
+#intro p {
+    font-size:medium;
+    padding: 5px;
+}
+
+/* content */
+#features{
+    padding: 30px;
+}
+#features h2 {
+    text-align: center;
+    text-decoration: underline;
+    text-decoration-color: var(--green-spotify);
+    padding: 20px 0px 40px;
+    text-underline-offset: 5px;
+}
+.content {
+    text-align: center;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+}    
+
+.content .article h3 {
+    padding: 10px;
+    color: var(--green-spotify);
+    text-align: center;
+}
+
+.content .article p {
+    text-align: center;
+    font-size: small;
+    font-weight:lighter;
+}
+
+.article .img {
+    width: 33%;
+}
+
+/* Section green */
+#green {
+    background-color: var(--green-spotify);
+    background-image: url(/images/spotify-icon-white.png);
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: 10%;
+    display: flex;
+    justify-content: space-between;
+    padding: 20px;
+}
+
+#green h3 {
+    text-decoration: underline;
+    color: white;
+    text-underline-offset: 5px;
+}
+.verticalwrapper {
+    display: flex;
+    flex-direction: column;
+    justify-content: space-around;
+}
+
+.verticalwrapper {
+    display: flex;
+    flex-direction: column;
+    justify-content: space-around;
+    
+}
+.verticalwrapper p{
+    color:white;
+    font-size: small;
+    font-weight:100;
+}
+.verticalwrapper h4{
+    color: white;
+    padding-bottom: 10px;
+}
+
+.spotifyprnt {
+    width: 200px;
+    padding-top: 50px;
+}
