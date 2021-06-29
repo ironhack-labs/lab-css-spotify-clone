@@ -6,3 +6,161 @@ Green: #00B172
 White: #FFF
 
 */
+@import url('https://fonts.googleapis.com/css2?family=Roboto:wght@300;400;500&display=swap');
+
+* {
+  box-sizing: border-box;
+  padding: 0;
+  margin: 0;
+  color: var(--text-color);
+  font-family: 'Roboto', sans-serif;
+  /* border: 1px solid fuchsia; */
+}
+
+:root {
+  --primary-color: #00b172;
+  --special-white: #fff;
+  --text-color: 1a1a1a;
+}
+
+/* nav bar */
+nav {
+  height: 30%;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 0.5em 1em 0.5em 1em;
+}
+
+.nav-links {
+  width: 45%;
+  font-size: 80%;
+  margin-right: 3%;
+  color: black;
+  display: flex;
+  justify-content: space-between;
+}
+
+#head-logo {
+  width: 17%;
+}
+
+nav a {
+  text-decoration: none;
+}
+
+/* big image */
+#big-image {
+  width: 100%;
+}
+
+.content-on-big-img {
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  color: var(--special-white);
+}
+
+.content-on-big-img > article {
+  text-align: center;
+  font-size: 3em;
+}
+
+.content-on-big-img > p {
+  padding-top: 10%;
+  text-align: center;
+  font-size: 1em;
+}
+
+/* middle section */
+.middle-section {
+  margin: 3%;
+}
+
+.middle-section > h1 {
+  text-align: center;
+  font-size: 2em;
+  padding: 5%;
+}
+
+.middle-section-container {
+  display: flex;
+  justify-content: center;
+  align-content: center;
+  padding: 5%;
+  height: 20rem;
+}
+
+.middle-section-container img {
+  width: 30%;
+  padding-bottom: 5%;
+}
+
+#songs,
+#hd,
+#stream {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+
+#songs > h2,
+#hd > h2,
+#stream > h2 {
+  padding-top: 1em;
+  color: var(--primary-color);
+}
+
+#songs > p,
+#hd > p,
+#stream > p {
+  padding-top: 1em;
+  font-size: 18px;
+  width: 80%;
+}
+
+/* green section */
+.green-section {
+  background-color: var(--primary-color);
+  color: var(--special-white);
+  height: 27rem;
+  margin: 3%;
+  padding: 5%;
+  display: flex;
+  justify-content: space-between;
+  position: relative;
+}
+
+.green-left {
+  width: 40%;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-around;
+}
+
+.green-left > h1 {
+  font-size: 2rem;
+}
+
+.green-middle {
+  width: 7%;
+  position: absolute;
+  top: 50%;
+  left: 50%;
+}
+
+.green-middle > img {
+  width: 100%;
+}
+
+.green-right {
+  width: 26%;
+  position: absolute;
+  right: 5em;
+}
+
+.green-right > img {
+  width: 100%;
+}
