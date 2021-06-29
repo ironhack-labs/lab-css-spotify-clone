@@ -7,6 +7,8 @@ White: #FFF
 
 */
 
+@import url('https://fonts.googleapis.com/css2?family=Montserrat:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;1,100;1,200;1,300;1,400;1,500;1,600;1,700&display=swap');
+
 
 :root{
     --primary-color: #00B172;
@@ -22,7 +24,7 @@ White: #FFF
 }
 
 body {
-    font-family: Helvetica, Arial, sans-serif;
+    font-family: "Montserrat", Arial, sans-serif;
     font-weight: 300;
 }
 
@@ -85,6 +87,7 @@ h1 {
     text-align: center;
     font-size: var(--font-size-text);
     color: var(--secondary-color);
+    white-space: nowrap;
 }
 
 h2 {
@@ -136,7 +139,7 @@ h3 {
 
 #section-features {
     background-image: url("../images/spotify-icon-white.png");
-    background-size: 60px;
+    background-size: 120px;
     background-repeat: no-repeat;
     background-position: center;
     background-color: var(--primary-color);
@@ -153,7 +156,7 @@ h3 {
 }
 
 .features-text, .features-image {
-    margin: 4em;
+    margin: 2em 4em 0;
 }
 
 .features-text {
@@ -163,6 +166,10 @@ h3 {
     align-items: flex-start;
 }
 
+.features-text > .features-box {
+    margin-bottom: 1em;
+}
+
 
 .slogan hr {
     color: var(--secondary-color);
@@ -170,7 +177,6 @@ h3 {
 }
 
 h4 {
-    text-align: left;
     font-size: 2em; 
     white-space: nowrap;
 }
@@ -191,9 +197,8 @@ h5 {
 }
 
 .features-image img {
-    height: 60vh;;
-    display: block;
-    margin: 0 auto;
+    height: 60vh;
+    margin: 6em 0 6em 8em;
 }
 
 
