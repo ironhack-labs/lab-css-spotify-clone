@@ -1,12 +1,107 @@
-/*
-Colors:
+@import url('https://fonts.googleapis.com/css2?family=Montserrat:ital@1&display=swap');
 
-Text: 1A1A1A
-Green: #00B172
-White: #FFF
-
-*/
-
-h1{
-    color: blue;
+body{
+    font-family: 'Montserrat', sans-serif;
 }
+
+* {
+    margin: 0;
+    padding:0;
+    box-sizing: border-box;
+}
+
+#logo-header{
+    width: 200px;
+}
+
+li{
+   list-style: none;
+}
+
+nav{
+    display: flex;
+}
+
+.nav-img{
+    flex:67%;
+}
+
+.nav-items{
+    display: flex;
+    justify-content: space-around;
+    flex: 35%;
+}
+
+.presentation-page{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+    height: 100vh;
+    background-size: cover;
+    background-image: url(/images/landing.jpg);
+}
+
+.color-presentation{
+    color: white;
+}
+
+h1{ font-size: 100px;}
+
+p > .color-presentation {
+    font: 100px;
+}
+
+h2{text-align: center;}
+
+.spotify-flex{
+    display: flex;
+    flex-flow: row;
+    justify-content: space-around;
+}
+
+.flex{
+    height: 300px;
+    width: 250px;
+    margin: 25px;
+    text-align: center; 
+}
+
+.icon-size{
+    width: 60px;
+}
+
+.green-title{
+    color: #00B172;
+}
+
+.grey-text{
+    color: #1A1A1A;
+}
+
+#white-logo{
+    width:80px;
+}
+
+#spotify-img{
+    width: 300px;
+}
+
+.kanye-content{
+    display: flex;
+    flex-flow: row;
+    justify-content: space-around;
+    background-color: #00B172;
+ 
+}
+
+.white-logo{
+    position: absolute;
+    width: 25px;
+    height: 25px;
+}
+
+.kanye-section1{
+    color: white;
+}
+
