@@ -40,6 +40,7 @@ header{
     width: 100vw;
     height: 4em;
     top:0;
+    z-index: 256;
 }
 
 header ul{
@@ -148,15 +149,16 @@ font-size: 5em;
     width: 95%;
     display: flex;
     justify-content: space-around;
+    align-items: center;
     position:relative;
     color: var(--spotifyWhite);
 }
 
 #logoWhite{
     position: absolute;
-    top:37.5%;
-    left:37.5%;
-    height: 25%;
+    top:50%;
+    left:45%;
+    width:10%;
 }
 
 #sectionThree h4{
@@ -170,20 +172,24 @@ font-size: 5em;
 #sectionThree h5{
     font-size: 2em;
     margin-top: 1em;
-    margin-bottom: 2em;
+    
     
 }
 
 #sectionThree p{
     font-size: 1.5em;
-    width: 50%;    
+    width: 60%;   
+    margin-bottom: 1em; 
 }
 
 article{
-    width: 25%;
+    width: 38%;
+    margin:3em
 }
 
 #kanye{
-    height:30%;
-    padding:3em;
+    height: 40em;
+    width: auto;
+    padding:1em;
+    
 }
