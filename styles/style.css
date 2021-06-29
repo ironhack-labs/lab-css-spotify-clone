@@ -4,5 +4,71 @@ Colors:
 Text: 1A1A1A
 Green: #00B172
 White: #FFF
-
 */
+* {
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+    font-family: montserrat;
+}
+
+#navbar {
+    position: relative;
+    
+    display: flex;
+    width: 100vw;
+    height: 80px;
+    background-color: white;
+}
+header > nav {
+  background-color: white;
+  position: fixed;
+}
+ul {
+  list-style: none;
+}
+.nav-items {
+  display: flex;
+}
+
+.logo {
+    margin: 15px;
+} 
+
+
+a {
+    text-decoration: none;
+    color: black;
+  
+    justify-content: flex-end;
+     }
+     
+.landing-page {
+    width: 100vw;
+  display: flex;
+  position: relative;
+}
+.whatsonspotify {
+}
+.articles{
+  display: flex;
+}
+
+article > img {
+  width: 200px;
+}
+
+.yeezyasKW {
+  background-color: green;
+  display: flex;
+  color: white;
+  padding: 50px;
+}
+.yeezyasKW > div {
+  flex-direction: column;
+  justify-content: space-between;
+}
+.yeezyasKW > img {
+  width: 30%;
+  align-items: center;
+}
