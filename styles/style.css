@@ -43,12 +43,13 @@ h1 {
     height: 70px;
     background-color: var(--secondary-color);
     position: fixed;
-    width: 100%
+    width: 100%;
+    padding-right: 1em;
+    padding-left: 1em;
 }
 
 #header img {
     height: 40px;
-    margin-left: 8px;
 }
 
 .navbar {
@@ -57,7 +58,6 @@ h1 {
 .navbar ul{
     list-style-type: none;
     color: var(--font-color);
-    margin: 8px
 }
 
 .navbar li {
@@ -117,6 +117,8 @@ h3 {
 .content-box {
     width: 25%;
     margin: 1em 0;
+    width: 16em;
+    min-width: 16em;
 }
 
 .content-box p {
@@ -147,38 +149,49 @@ h3 {
 #section-features {
     display: flex;
     flex-direction: row;
-    justify-content: space-around;
+    justify-content: center;
+}
+
+.features-text, .features-image {
+    margin: 4em;
 }
 
 .features-text {
     display: flex; 
     flex-direction: column;
-    justify-content: center;
+    justify-content: flex-start;
     align-items: flex-start;
 }
 
-.slogan p {
-    font-size: 2em;
-    font-weight: 600;
-}
 
 .slogan hr {
     color: var(--secondary-color);
     border-top: 2px solid
 }
 
-
 h4 {
+    text-align: left;
+    font-size: 2em; 
+    white-space: nowrap;
+}
+
+h5 {
     text-align: left;
     font-size: 2em;
 }
 
+.features-box {
+    margin-top: 2em;
+}
+
 .features-box p {
     font-size: var(--font-size-text);
+    margin-top: 1em;
+    width: 15em;
 }
 
 .features-image img {
-    height: 70%;
+    height: 60vh;;
     display: block;
     margin: 0 auto;
 }
