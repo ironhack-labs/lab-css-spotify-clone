@@ -6,3 +6,172 @@ Green: #00B172
 White: #FFF
 
 */
+@import url('https://fonts.googleapis.com/css2?family=Roboto:wght@300;400;500&display=swap');
+
+* {
+  box-sizing: border-box;
+  padding: 0;
+  margin: 0;
+  color: var(--text-color);
+  font-family: 'Roboto', sans-serif;
+  /* border: 1px solid fuchsia; */
+}
+
+:root {
+  --primary-color: #00b172;
+  --special-white: #fff;
+  --text-color: 1a1a1a;
+}
+
+/* nav bar */
+nav {
+  height: 30%;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 0.5em 1em 0.5em 1em;
+}
+
+.nav-links {
+  font-size: 80%;
+  margin-right: 3%;
+  color: black;
+  display: flex;
+  justify-content: space-between;
+}
+
+.nav-links a {
+  margin: 0 1rem;
+}
+
+#head-logo {
+  width: 17%;
+}
+
+nav a {
+  text-decoration: none;
+}
+
+/* hero section */
+.hero {
+  background-image: url('/images/landing.jpg');
+  background-size: cover;
+  color: var(--special-white);
+  padding: 15rem 8rem;
+  margin-bottom: 3rem;
+  text-align: center;
+}
+
+.hero .hero-title {
+  font-size: 5vw;
+  margin-bottom: 1.8vw;
+}
+
+.hero p {
+  font-size: 2vw;
+}
+
+/* middle section */
+.middle-section {
+  margin: 3%;
+}
+
+.text-center {
+  text-align: center;
+}
+
+h1 {
+  font-size: 3vw;
+}
+
+h2 {
+  font-size: 2vw;
+  margin: 1.5vw 0;
+}
+
+p {
+  font-size: 1.5vw;
+}
+
+.underline-h1--primary > h1 {
+  border-bottom-color: var(--primary-color);
+} /*will be used later in green section h1 underline*/
+
+.middle-section-container {
+  display: flex;
+  justify-content: center;
+  align-content: center;
+  padding: 5%;
+}
+
+.middle-section-item {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  flex-basis: 0;
+  flex-grow: 1;
+}
+
+.middle-section-item > img {
+  height: 6vw;
+}
+
+.middle-section-item > h2 {
+  text-align: center;
+  color: var(--primary-color);
+  margin: 1em 0em;
+  font-weight: bold;
+}
+
+.middle-section-item > p {
+  text-align: center;
+  width: 80%;
+}
+
+/* green section */
+.green-section {
+  background-color: var(--primary-color);
+  color: var(--special-white);
+  margin: 3%;
+  padding: 5%;
+  display: flex;
+  justify-content: space-between;
+  background-image: url(/images/spotify-icon-white.png);
+  background-size: 10vw;
+  background-repeat: no-repeat;
+  background-position: center;
+}
+
+.green-left {
+  flex-grow: 5;
+  flex-basis: 0;
+}
+
+.green-left-container {
+  padding-right: 25vw;
+}
+
+.green-left > h1 {
+  border-bottom: 2px solid var(--special-white);
+  margin-bottom: 1.5rem;
+  padding-bottom: 0.3rem;
+}
+
+.underline-h1 > h1 {
+  display: inline-block;
+  border-bottom: 2px solid var(--special-white);
+} /*use middle section defined underline feature*/
+
+.green-left-container h2 {
+  margin-top: 5vw;
+}
+
+.green-right {
+  flex-grow: 3;
+  flex-basis: 0;
+}
+
+.green-right > img {
+  width: 100%;
+}
