@@ -1,8 +1,130 @@
-/*
-Colors:
+@import url('https://fonts.googleapis.com/css?family=Poppins');
 
-Text: 1A1A1A
-Green: #00B172
-White: #FFF
+body {
+    font-family: 'Poppins';
+  }
 
-*/
+.nav-bar{
+    position:fixed;
+    overflow:auto;
+    width:100%;
+    background-color: #FFF;
+    top:0;
+}
+
+.logo{
+    width:180px;
+    margin-left:25px;
+    padding-top: 10px;
+}
+
+.nav-bar a {
+    text-decoration: none;
+    color:black;
+    float:right;
+    display:block;
+    text-align: center;
+    padding:25px 10px;
+    margin-right:25px;
+}
+
+.intro{
+    background-image: url("../images/landing.jpg");
+    background-size: cover;
+    background-position:center;
+    background-repeat: no-repeat;
+    height:80vh;
+    display:flex;
+    justify-content:center;
+    align-items:center;
+    flex-direction: column;
+}
+
+h1{
+    color:white;
+    display:flex;
+    text-align: center;
+    font-size:65px;
+    margin-top:12px;
+}
+
+.intro p{
+    display:flex;
+    text-align: center;
+    color:white;
+    font-size:23px;
+    margin-top:-30px;
+}
+
+.feature h3{
+    font-size: 30px;
+    text-align: center;
+}
+
+.hr-line{
+    border-top: 3px solid #00B172;
+    width:22%;
+    margin-top:-30px;
+}
+
+.feature-icon{
+    width: 100px;
+}
+
+.features{
+    display:flex;
+    flex-direction:row;
+    justify-content:space-around;
+    align-items: baseline;
+    margin:80px 10px 20px;
+}
+
+.feature-box{
+ text-align: center;
+}
+
+.feature-box h4{
+    font-size:22px;
+    color:  #00B172;
+    margin-top:10px;
+    margin-bottom: 10px;
+    font-weight:600;
+}
+
+.feature-box p{
+    font-size: 18px;
+    width:200px;
+}
+
+.functions{
+    background-color: #00B172;
+    background-image: url(../images/spotify-app.jpg), url(../images/spotify-icon-white.png);
+    background-position: 90% 70%, center;
+    background-repeat: no-repeat, no-repeat;
+    background-size: 22%, 10%;
+    color:white;
+    margin-left: 20px;
+    margin-right: 20px;
+    padding: 30px 60px;
+    margin-top: 50px;
+    margin-bottom: 20px;   
+}
+
+.functions hr{
+    border: none;
+    height: 2px;
+    color:white;
+    background-color:white;
+    margin-top: -25px;
+    margin-bottom: 50px;
+    width:33%;
+    margin-left:0;
+}
+
+.functions h3{
+    font-size:25px;
+}
+
+.function-text{
+    width:280px;
+}
