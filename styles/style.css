@@ -6,3 +6,184 @@ Green: #00B172
 White: #FFF
 
 */
+
+* {
+  margin: 0;
+  padding: 0;
+  font-family: Helvetica, sans-serif;
+}
+
+nav {
+  width: 100%;
+  position: fixed;
+  display: flex;
+  flex-direction: row;
+  padding: 10px;
+  background-color: white;
+  z-index: 1;
+}
+
+nav img {
+  height: 50px;
+  object-fit: contain;
+  margin-left: 20px;
+}
+
+ul {
+  display: flex;
+  justify-content: flex-end;
+  align-items: center;
+  flex: 1;
+  list-style-type: none;
+  margin-right: 20px;
+}
+
+a {
+  text-decoration: none;
+  color: black;
+  margin-left: 20px;
+  font-weight: 200;
+}
+
+header {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  height: 600px;
+  background-image: url(/images/landing.jpg);
+  background-size: contain;
+  background-position: center center;
+  color: white;
+  padding-bottom: 60px;
+}
+
+#header-text {
+  text-align: center;
+  height: 100px;
+  width: 550px;
+}
+
+h1 {
+  font-size: 60px;
+  font-weight: 500;
+  margin-bottom: 20px;
+}
+
+p {
+  font-size: 22px;
+  font-weight: 300;
+  padding: 0 20px;
+}
+
+#middle-section {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  margin-top: 40px;
+}
+
+h2 {
+  font-size: 28px;
+  font-weight: normal;
+  padding-bottom: 5px;
+  border-bottom: 3px solid #1ab26b;
+}
+
+#info-boxes {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  padding: 30px 0px;
+  width: 96%;
+}
+
+.info-box {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  width: 25vw;
+  margin: 20px;
+  padding: 10px;
+}
+
+.info-box img {
+  width: 30%;
+}
+
+h3 {
+  color: #1ab26b;
+  font-size: 22px;
+  font-weight: 500;
+  margin: 20px 0;
+}
+
+.info-box p {
+  font-size: 18px;
+  width: 70%;
+  text-align: center;
+}
+
+#functionality-section {
+  width: 96%;
+  background-color: #1ab26b;
+  color: white;
+  display: flex;
+  position: relative;
+  height: 600px;
+}
+
+#section-left {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: left;
+  width: 50%;
+  padding: 50px 80px;
+}
+
+#section-left h2 {
+  width: 360px;
+  border-bottom: 3px solid white;
+}
+
+#functionality-list {
+  width: 22vw;
+}
+
+#functionality-list h3 {
+  color: white;
+  font-weight: bold;
+}
+
+#functionality-list p {
+  font-size: 18px;
+  padding: 0;
+}
+
+.functionality-item {
+  margin: 30px 0;
+}
+
+#section-right {
+  width: 49%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+#section-right div {
+  height: 75%;
+}
+
+#section-right img {
+  height: 100%;
+}
+
+#loose-spotify-logo {
+  height: 20%;
+  position: absolute;
+  left: 45%;
+  top: 45%;
+}
