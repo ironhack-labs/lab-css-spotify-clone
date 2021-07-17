@@ -1,8 +1,10 @@
 /*
 Colors:
+
 Text: 1A1A1A
 Green: #00B172
 White: #FFF
+
 */
 
 * {
@@ -20,6 +22,7 @@ nav {
     width: 100vw;
     top: 0;
     background: white;
+    z-index: 1;
     
 } 
 
@@ -51,18 +54,32 @@ nav {
 }*/
 
 .text-show {
-color: white;
-position: relative;
+    position: relative;
+    color: white;
+    height: 100px;
+    text-align: center;
+    margin-top: 20%;
+}
+
+.text-show h1{
+    font-size: 5em;
+    font-weight: bolder;
+    margin-bottom: 30px;
+}
+
+.text-show p {
+    font-size: 1.8em;
+    font-weight: 600;
 }
 
 .show {
-    width: 100%;
-    display: flex;
-    justify-content: center;
-    align-items: center;
-    position: relative;
+    position: absolute;
+    width: 100vw;
 }
 
 .music-for-everyone {
+    display: flex;
+    justify-content: center;
     margin-top: 80px;
-}
+    z-index: -1;
+ }
