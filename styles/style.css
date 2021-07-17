@@ -6,3 +6,65 @@ Green: #00B172
 White: #FFF
 
 */
+
+* {
+    margin: 0;
+    padding: 0;
+    font-family: 'Roboto', sans-serif;
+}
+
+nav {
+    display: flex;
+    position: fixed;
+    justify-content: space-between;
+    align-items: center;
+    height: 80px;
+    width: 100vw;
+    top: 0;
+    background: white;
+    
+} 
+
+.logo {
+    height: 50px;
+    margin-left: 30px;
+}
+
+.links-container {
+    width: 300px;
+    justify-content: space-between;
+    display: flex;
+    margin-right: 50px;
+}
+
+.links-container > a {
+    text-decoration: none;
+    color: black;
+    font-weight: bold;
+}
+
+/*.music-for-everyone {
+    margin-top: 80px;
+    background-image: url("../images/landing.jpg");
+    background-position: center;
+    height: 800px;
+    background-repeat: no-repeat;
+    background-size: cover;
+}*/
+
+.text-show {
+color: white;
+position: relative;
+}
+
+.show {
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    position: relative;
+}
+
+.music-for-everyone {
+    margin-top: 80px;
+}
