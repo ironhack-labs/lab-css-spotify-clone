@@ -29,10 +29,29 @@ transition-property: color;
 transition-duration: 0.3s;
 font-size: 15px;
 }
+@keyframes logo-animation {
+    0% {
+        width: 150px;
+    }
+    50%{
+        width: 200px;
+    }
+    100% {
+        width: 150px;
+    }
+}
 .logo{
     max-width: 180px;
     margin-left: 40px;
+
 }
+.logo:hover{
+    cursor: wait;
+    animation-name: logo-animation;
+    animation-duration: 1s;
+    animation-iteration-count: 8;
+}
+
 header{
     border: 1px solid red;
     background-image: url("/home/bartalo/Desktop/IronHack/lab-css-spotify-clone/images/landing.jpg");
@@ -63,19 +82,83 @@ h2{
 }
 h3{
     text-align: center;
+    margin: 20px 0 40px;
+    text-decoration: 2px underline #1d6b54;
+}
+.geneneralInfo h4{
+    margin: 10px 0 3px;
+    color: #1d6b54;
 }
 .geneneralInfo img{
-    width: 100px;
+    width: 80px;
+    border: 2px solid red;
 }
 .geneneralInfo div{
     display: flex;
     justify-content: space-between;
     align-items: center;
-  /*  border: 1px solid rgb(54, 54, 54); */
+    border: 2px solid hsl(313, 85%, 43%);
+    padding: 10px;
 }
 .geneneralInfo article{
     display: flex;
     flex-direction: column;
     align-items: center;
     border: 1px solid rgb(54, 54, 54); 
+    width: 250px;
+    text-align: center;
+}
+.textCenter {
+    display: flex;
+    flex-direction: column;
+    height: 60px;
+}
+.textCenter p{
+    margin: 0;
+}
+.imageCenter{
+    height: 80px;
+}
+
+.lastPart {
+    background-color: green;
+    color: white;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    height: 600px;
+    border: 2px solid red;
+}
+.lastPart div{
+    border: 1px solid #15a3a3;
+    text-align: left;
+
+}
+.iconSpotify img{
+    width: 70px;
+    border: 2px solid red;
+}
+.firspart h5{
+    font-size: 25px;
+    margin-left: 35px;
+    text-decoration: underline;
+    
+}
+.firspart h6{
+    font-size: 25px;
+    margin: 20px 0;
+}
+.screenApp img{
+    width: 200px;
+    border: 2px solid red;
+    margin-right: 35px;
+}
+.firspart article{
+    display: flex;
+    flex-direction: column;
+    align-items: left;
+    border: 1px solid rgb(54, 54, 54); 
+    width: 250px;
+    text-align: left;
+    margin-left: 35px;
 }
