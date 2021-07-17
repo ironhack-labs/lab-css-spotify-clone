@@ -13,73 +13,297 @@ White: #FFF
     font-family: 'Roboto', sans-serif;
 }
 
+@media (min-width: 725px){
+    nav{
+        height: 80px;
+    }
+
+    .logo {
+        height: 50px;
+        margin-left: 30px;
+    }
+
+    .links-container {
+        width: 400px;
+        margin-right: 50px;
+    }
+
+    .links-container > a {
+        font-size: 1.4em;
+    }
+
+    .text-show{
+        height: 100px;
+        margin-top: 20%;
+    }
+
+    .text-show h1{
+        font-size: 5em;
+        font-weight: 500;
+        margin-bottom: 30px;
+    }
+
+    .text-show p {
+        font-size: 1.8em;
+    }
+
+    .features {
+        margin: 8em;
+    }
+
+    .features img{
+        height: 100px;
+    }
+
+    .features div {
+        width: 200px;
+    }
+
+    .features p{
+        margin: 10px 0;
+        font-size: 1.2em;
+    }
+
+    .features h3 {
+        margin-top: 20px;
+        font-size: 1.4em;
+    }
+
+    .whats-on > h2 {
+        width: 329px;
+        padding-bottom: 5px;
+        font-size: 2.5em;
+        margin-top: 1.2em;
+        border-bottom: 4px solid #37913b;
+     }
+
+    .body-end {
+        height: 800px;
+        background-size: 200px;
+    }
+
+    .end-text {
+        margin-left: 80px;
+    }
+
+    .end-figure{
+        margin-right: 80px;
+        margin-left: 10px;
+    }
+
+    .end-figure > img {
+        height: 600px;
+    }
+
+    .end-text > h3 {
+        font-size: 2em;
+        margin: 1em auto;
+    }
+
+    .end-text > p {
+        font-size: 1.5em;
+        font-weight: 300;
+        line-height: 40px;
+    }
+
+    .end-text h3:nth-child(1) {
+        padding-bottom: 10px;
+        border-bottom: 3px solid white; 
+    }
+
+}
+
+@media (max-width: 725px){
+    nav{
+        height: 50px;
+    }
+
+    .logo {
+        height: 30px;
+        margin-left: 10px;
+    }
+
+    .links-container {
+        width: 200px;
+        margin-right: 25px;
+    }
+
+    .links-container > a {
+        font-size: 0.8em;
+    }
+
+    .text-show{
+        height: 50px;
+        margin-top: 25%;
+    }
+
+    .text-show h1{
+        font-size: 1.8em;
+        font-weight: 500;
+        margin-bottom: 5px;
+    }
+
+    .text-show p {
+        font-size: 0.7em;
+    }
+
+    .features {
+        margin: 2em;
+    }
+
+    .features img{
+        height: 50px;
+    }
+
+    .features div {
+        width: 100px;
+    }
+
+    .features p{
+        margin: 5px 0;
+        font-size: 0.8em;
+    }
+
+    .features h3 {
+        margin-top: 10px;
+        font-size: 1em;
+    }
+
+    .whats-on > h2 {
+        width: 198px;
+        padding-bottom: 3px;
+        font-size: 1.5em;
+        margin-top: 0.8em;
+        border-bottom: 1px solid #37913b;
+     }
+
+     .body-end {
+        background-size: 50px;
+        height: 400px;
+    }
+
+    .end-text {
+        margin-left: 20px;
+    }
+
+    .end-figure{
+        margin-right: 20px;
+        margin-left: 5px;
+    }
+
+    .end-figure > img {
+        height: 250px;
+    }
+
+    .end-text > h3 {
+        font-size: 0.9em;
+        margin: 1.2em auto;
+    }
+
+    .end-text > p {
+        font-size: 0.7em;
+        font-weight: 300;
+        line-height: 15px;
+    }
+
+    .end-text h3:nth-child(1) {
+        padding-bottom: 5px;
+        border-bottom: 1px solid white; 
+    }
+
+}
+
 nav {
     display: flex;
     position: fixed;
     justify-content: space-between;
     align-items: center;
-    height: 80px;
     width: 100vw;
     top: 0;
     background: white;
     z-index: 1;
-    
 } 
 
-.logo {
-    height: 50px;
-    margin-left: 30px;
-}
-
 .links-container {
-    width: 300px;
     justify-content: space-between;
     display: flex;
-    margin-right: 50px;
 }
 
 .links-container > a {
     text-decoration: none;
     color: black;
-    font-weight: bold;
+    font-weight: 300;
 }
-
-/*.music-for-everyone {
-    margin-top: 80px;
-    background-image: url("../images/landing.jpg");
-    background-position: center;
-    height: 800px;
-    background-repeat: no-repeat;
-    background-size: cover;
-}*/
 
 .text-show {
-    position: relative;
+    position: absolute;
     color: white;
-    height: 100px;
     text-align: center;
-    margin-top: 20%;
-}
-
-.text-show h1{
-    font-size: 5em;
-    font-weight: bolder;
-    margin-bottom: 30px;
 }
 
 .text-show p {
-    font-size: 1.8em;
-    font-weight: 600;
+    font-weight: 300;
 }
 
 .show {
-    position: absolute;
     width: 100vw;
 }
 
 .music-for-everyone {
     display: flex;
     justify-content: center;
-    margin-top: 80px;
     z-index: -1;
  }
+
+ .whats-on {
+     display: flex;
+     flex-direction: column;
+     align-items: center;
+ }
+
+ .whats-on > h2 {
+     text-align: center;
+     font-weight: 500;
+  }
+
+  .features {
+    display: flex;
+    justify-content: space-evenly;
+    width: 100vw;
+  }
+
+  .features div {
+    align-items: center;
+    display:flex;
+    flex-direction: column;
+  }
+
+  .features h3{
+    text-align: center;
+    color: #37916c;
+  }
+
+  .features p{
+    text-align: center;
+    font-weight: 300;
+  }
+
+  .body-end{
+    width: 95vw;
+    display: flex;
+    background-color: #379164;
+    justify-content: space-evenly;
+    align-items: center;
+    margin: 2vw auto;
+    background-image: url("../images/spotify-icon-white.png");
+    background-repeat: no-repeat;
+    background-position: center;
+  }
+
+  .end-text{
+    color: white;
+    margin-bottom: 20px;
+  }
+
+
+
