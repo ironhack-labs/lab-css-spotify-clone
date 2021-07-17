@@ -1,18 +1,20 @@
 * {
     margin: 0;
     padding: 0;
+    font-family: Helvetica, sans-serif;
 }
  /**   Colors:
     Text: 1A1A1A
     Green: #00B172
     White: #FFF */
-
 nav {
     display: flex;
     justify-content: space-between;
     align-items: center;
     background-color: rgb(255, 255, 255);
     height: 80px;
+    position: fixed;
+    width: 100%;
 }
 .nav-links{
     padding: 20px 30px;
@@ -29,29 +31,10 @@ transition-property: color;
 transition-duration: 0.3s;
 font-size: 15px;
 }
-@keyframes logo-animation {
-    0% {
-        width: 150px;
-    }
-    50%{
-        width: 200px;
-    }
-    100% {
-        width: 150px;
-    }
-}
 .logo{
     max-width: 180px;
     margin-left: 40px;
-
 }
-.logo:hover{
-    cursor: wait;
-    animation-name: logo-animation;
-    animation-duration: 1s;
-    animation-iteration-count: 8;
-}
-
 header{
     border: 1px solid red;
     background-image: url("/home/bartalo/Desktop/IronHack/lab-css-spotify-clone/images/landing.jpg");
@@ -66,7 +49,7 @@ header{
 h1{
     font-size: 2em;
     text-align: center;
-    margin-top: 150px;
+    margin-top: 200px;
     color: white;
     font-family:sans-serif;
 }
@@ -83,11 +66,11 @@ h2{
 h3{
     text-align: center;
     margin: 20px 0 40px;
-    text-decoration: 2px underline #1d6b54;
+    text-decoration: 2px underline #15B165;
 }
 .geneneralInfo h4{
     margin: 10px 0 3px;
-    color: #1d6b54;
+    color: #15B165;
 }
 .geneneralInfo img{
     width: 80px;
@@ -95,7 +78,7 @@ h3{
 }
 .geneneralInfo div{
     display: flex;
-    justify-content: space-between;
+    justify-content: space-evenly;
     align-items: center;
     border: 2px solid hsl(313, 85%, 43%);
     padding: 10px;
@@ -121,26 +104,29 @@ h3{
 }
 
 .lastPart {
-    background-color: green;
+    background-color:#15B165;
     color: white;
     display: flex;
-    justify-content: space-between;
+    justify-content: space-evenly;
+    position: relative;
     align-items: center;
     height: 600px;
     border: 2px solid red;
+    margin: 0 25px;
 }
 .lastPart div{
     border: 1px solid #15a3a3;
     text-align: left;
-
 }
-.iconSpotify img{
+.iconSpotify{
     width: 70px;
     border: 2px solid red;
+    position: absolute;
+    top: 50%;
 }
 .firspart h5{
     font-size: 25px;
-    margin-left: 35px;
+    margin-left: 25px;
     text-decoration: underline;
     
 }
@@ -160,5 +146,5 @@ h3{
     border: 1px solid rgb(54, 54, 54); 
     width: 250px;
     text-align: left;
-    margin-left: 35px;
+    margin-left: 25px;
 }
