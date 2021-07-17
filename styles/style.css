@@ -15,22 +15,27 @@ nav {
     height: 80px;
 }
 .nav-links{
-    border: 1px solid black;
     padding: 20px 30px;
     justify-content: space-evenly; 
 }
 .nav-links a {
     text-decoration: none;
     color: rgb(0, 0, 0);
+    margin: 0 5px;
+}
+a:hover{
+color: rgb(69, 131, 7);
+transition-property: color;
+transition-duration: 0.3s;
+font-size: 15px;
 }
 .logo{
-    max-width: 200px;
-    border: 1px solid red;
+    max-width: 180px;
     margin-left: 40px;
 }
 header{
     border: 1px solid red;
-    background-image: url("https://previews.123rf.com/images/kowit1982/kowit19821707/kowit1982170700152/82554216-club-party-is-blurred-for-background-light-in-club-party-show-and-silhouette-hands-enjoying-the-club.jpg");
+    background-image: url("/home/bartalo/Desktop/IronHack/lab-css-spotify-clone/images/landing.jpg");
     background-position: 0;
     background-repeat: no-repeat;
     background-size: cover;
@@ -47,8 +52,30 @@ h1{
     font-family:sans-serif;
 }
 h2{
-    font-size: 100%;
+    font-size: 80%;
     text-align: center;
+    color: white;
+    font-weight: lighter;
+}
+
+.subtitleImage{
     margin: 20px 20% 200px;
-    border: 1px solid black;
+}
+h3{
+    text-align: center;
+}
+.geneneralInfo img{
+    width: 100px;
+}
+.geneneralInfo div{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+  /*  border: 1px solid rgb(54, 54, 54); */
+}
+.geneneralInfo article{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    border: 1px solid rgb(54, 54, 54); 
 }
