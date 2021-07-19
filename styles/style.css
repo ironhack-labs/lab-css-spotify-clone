@@ -1,68 +1,136 @@
-/*
-Colors:
-Text: 1A1A1A
-Green: #00B172
-White: #FFF
-*/
-
 * {
-    margin: 0;
-    padding: 0;
-    font-family: 'Roboto', sans-serif;
+  margin: 0;
+  padding: 0;
+  font-family: "Roboto", sans-serif;
 }
 
 nav {
-    display: flex;
-    position: fixed;
-    justify-content: space-between;
-    align-items: center;
-    height: 80px;
-    width: 100vw;
-    top: 0;
-    background: white;
-    
-} 
+  display: flex;
+  position: fixed;
+  justify-content: space-between;
+  align-items: center;
+  height: 80px;
+  width: 100vw;
+  top: 0;
+  background: white;
+}
 
 .logo {
-    height: 50px;
-    margin-left: 30px;
+  height: 50px;
+  margin-left: 30px;
 }
 
 .links-container {
-    width: 300px;
-    justify-content: space-between;
-    display: flex;
-    margin-right: 50px;
+  width: 300px;
+  justify-content: space-between;
+  display: flex;
+  margin-right: 50px;
 }
 
 .links-container > a {
-    text-decoration: none;
-    color: black;
-    font-weight: bold;
+  text-decoration: none;
+  color: black;
+  font-weight: bold;
 }
 
-/*.music-for-everyone {
-    margin-top: 80px;
-    background-image: url("../images/landing.jpg");
-    background-position: center;
-    height: 800px;
-    background-repeat: no-repeat;
-    background-size: cover;
-}*/
-
 .text-show {
-color: white;
-position: relative;
+  color: white;
+  position: absolute;
+  text-align: center;
 }
 
 .show {
-    width: 100%;
-    display: flex;
-    justify-content: center;
-    align-items: center;
-    position: relative;
+  width: 100vw;
 }
 
 .music-for-everyone {
-    margin-top: 80px;
+  margin-top: 80px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.text-show > h1 {
+  font-size: 4em;
+  font-weight: bolder;
+}
+
+.text-show > p {
+  font-size: 1.4em;
+  margin-top: 20px;
+}
+
+.whats-spotify {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+.whats-spotify > h2 {
+  margin: 60px;
+  border-bottom: 2px solid #1ed760;
+  font-weight: bold;
+}
+
+.features-container {
+  display: flex;
+  justify-content: space-evenly;
+  width: 100vw;
+}
+
+.features-container > div {
+  text-align: center;
+  width: 200px;
+}
+
+.features-container img {
+  width: 150px;
+}
+
+.features-container h3 {
+  color: #1ed760;
+  font-weight: bold;
+  margin: 15px;
+}
+
+.functions {
+  width: 90vw;
+  height: 800px;
+  background-color: #158f40;
+  background-image: url("../images/spotify-icon-white.png");
+  background-repeat: no-repeat;
+  background-size: 12vw;
+  background-position: center;
+  margin: 5vw;
+  display: flex;
+  justify-content: space-evenly;
+  align-items: center;
+}
+
+.functions > img {
+  height: 500px;
+}
+
+.text {
+  margin-right: 80px;
+}
+
+.text > h3 {
+  color: white;
+  border-bottom: 2px solid white;
+  margin-bottom: 50px;
+  font-weight: bold;
+  font-size: 1.8em;
+}
+
+.text > h4 {
+  color: white;
+  font-size: 1.5em;
+  font-weight: bold;
+  margin: 25px auto;
+}
+
+.text > p {
+  color: white;
+  line-height: 25px;
 }
