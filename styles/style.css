@@ -6,3 +6,135 @@ Green: #00B172
 White: #FFF
 
 */
+* {
+  margin: 0;
+  padding: 0;
+  font-family: Arial, Helvetica, sans-serif;
+  box-sizing: border-box;
+}
+
+nav {
+  display: flex;
+  position: fixed;
+  width: 100%;
+  justify-content: space-between;
+  align-items: center;
+  height: 100px;
+  background-color: white;
+}
+.nav-links-container {
+  width: 500px;
+  display: flex;
+  justify-content: space-between;
+  margin-right: 40px;
+}
+nav img {
+  width: 250px;
+  margin-left: 40px;
+}
+nav a {
+  text-decoration: none;
+  color: black;
+  font-size: 20px;
+}
+main {
+  padding-top: 100px;
+}
+
+header {
+  background-image: url('../images/landing.jpg');
+  background-repeat: no-repeat;
+  background-size: cover;
+  height: calc(100vh - 100px);
+  width: 100%;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  text-align: center;
+}
+header > h1 {
+  font-size: 74px;
+  color: white;
+}
+header > p {
+  font-size: 24px;
+  color: white;
+  margin-top: 30px;
+  width: 550px;
+}
+.app-content-container {
+  text-align: center;
+  margin-top: 30px;
+}
+.app-content-container > div {
+  display: flex;
+  justify-content: space-evenly;
+  align-items: center;
+  margin: 30px;
+  padding: 30px;
+}
+
+.app-content-container > div > div {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+.app-content-container img {
+  height: 150px;
+  margin-bottom: 15px;
+}
+.app-content-container h3 {
+  color: green;
+  font-weight: bold;
+  font-size: 24px;
+  margin-bottom: 20px;
+}
+.app-content-container p {
+  width: 180px;
+}
+section > h2 {
+  font-size: 32px;
+  text-decoration: underline green;
+  text-underline-position: under;
+}
+
+.app-info-container {
+  color: white;
+}
+.app-info-container > div {
+  background-color: #00b172;
+  background-image: url("../images/spotify-icon-white.png");
+  background-repeat: no-repeat;
+  background-size: 200px;
+  background-position: center;
+  width: 95%;
+  margin: 0 auto;
+  padding: 80px 100px;
+
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+
+}
+.app-info-container h2 {
+  font-size: 50px;
+  text-decoration: underline;
+  text-underline-position: under;
+}
+.app-info-container > div > div > div > div {
+  margin-top: 50px;
+}
+.app-info-container h3 {
+  font-size: 32px;
+  margin-bottom: 50px;
+}
+
+.app-info-container p {
+  width: 500px;
+  font-size: 20px;
+}
+.app-info-container img {
+  height: 700px;
+}
