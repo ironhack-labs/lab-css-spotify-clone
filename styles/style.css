@@ -6,3 +6,81 @@ Green: #00B172
 White: #FFF
 
 */
+@import url("https://fonts.googleapis.com/css2?family=Roboto:wght@200;400;700&display=swap");
+
+html,
+body {
+  font-family: "Roboto", sans-serif;
+  margin: 0;
+  padding: 0;
+}
+
+/*-----------------
+Header Section
+-------------------*/
+.spotify-logo {
+  width: 180px;
+  margin-top: 25px;
+  margin-left: 50px;
+}
+
+header > div {
+  padding: 0 25px;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  margin-bottom: 0;
+}
+
+nav {
+  width: 35%;
+}
+
+nav ul {
+  list-style: none;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  margin-top: 25px;
+}
+
+nav a {
+  text-decoration: none;
+  color: #1a1a1a;
+  font-size: 1.5em;
+}
+
+.general-info {
+  position: relative;
+  text-align: center;
+  color: #fff;
+}
+
+.general-info > img {
+  width: 100%;
+  background-repeat: no-repeat;
+  background-size: cover;
+  height: 850px;
+  padding-top: 20px;
+  position: relative;
+  margin-top: 0;
+}
+
+.general-info h1 {
+  font-size: 6em;
+  font-weight: 400;
+  position: absolute;
+  top: 30%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+}
+
+.general-info h2 {
+  width: 40%;
+  font-size: 2em;
+  font-weight: 200;
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+}
