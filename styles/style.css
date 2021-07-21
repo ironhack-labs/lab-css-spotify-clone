@@ -6,3 +6,174 @@ Green: #00B172
 White: #FFF
 
 */
+
+/* 
+
+-- Title 1 -> 64px
+-- Title 2 -> 48px
+-- Tiele 3 -> 32px
+-- p -> 24px
+*/
+
+/* RESET */
+* {
+  padding: 0;
+  margin: 0;
+}
+
+body {
+  color: #1a1a1a;
+}
+.h1 {
+  font-size: 64px;
+}
+
+h2 {
+  font-size: 48px;
+}
+h3 {
+  font-size: 32px;
+}
+p {
+  font-size: 24px;
+}
+
+/* Reusable classes */
+
+.center {
+  text-align: center;
+}
+
+.right {
+  float: right;
+}
+
+.left {
+  float: left;
+}
+
+/* NAV */
+nav {
+  /* position: fixed; */
+  background-color: white;
+  box-shadow: rgba(0, 0, 0, 0.08) 0px 0.2rem 0.4rem;
+  width: 100%;
+  padding: 24px;
+}
+
+li,
+img {
+  display: inline;
+  list-style: none;
+}
+
+ul {
+  float: right;
+}
+
+ul a {
+  padding: 0px 8px;
+  text-decoration: none;
+  font-size: 20px;
+}
+
+.iconWithText {
+  width: 136px;
+}
+
+/* MODULES */
+section {
+  margin: 80px 0;
+}
+
+/* FIRST SECTION */
+.first {
+  background: url("../images/landing.jpg");
+  height: 980px;
+  color: #fff;
+  margin-top: 136px;
+}
+
+.first h1 {
+  font-size: 64px;
+  font-weight: 600;
+  margin-bottom: 24px;
+}
+
+.first p {
+  font-size: 24px;
+  font-weight: 100;
+}
+
+.first h1,
+.first p {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+/* SECOND SECTION */
+.second {
+}
+
+.second h2 {
+  font-weight: 600;
+  padding-bottom: 8px;
+  border-bottom: 6px #00b172 solid;
+  display: inline;
+}
+
+.second p {
+  color: #868686;
+  font-weight: 100;
+  margin-top: 8px;
+  font-size: 20px;
+}
+
+.second .col-3 {
+  width: 32%;
+  display: inline-block;
+  margin-top: 96px;
+}
+
+.second img {
+  width: 120px;
+  margin-bottom: 16px;
+}
+
+.first h1,
+.first p {
+  text-align: center;
+}
+.second h3 {
+  color: #00b172;
+}
+
+/* THIRD SECTION */
+.third {
+  background-color: #00b172;
+  color: #fff;
+  padding: 80px;
+  height: 800px;
+}
+
+.third h2 {
+  padding-bottom: 8px;
+  border-bottom: 4px #fff solid;
+  display: inline;
+}
+.third h3 {
+  padding-bottom: 24px;
+}
+
+.third .spotify-icon {
+  width: 120px;
+}
+
+.third .app-screenshot {
+  width: 360px;
+}
+
+.third div div {
+  margin-top: 32px;
+}
