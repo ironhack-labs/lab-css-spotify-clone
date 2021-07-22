@@ -1,8 +1,65 @@
 /*
 Colors:
 
-Text: 1A1A1A
+Text: #1A1A1A
 Green: #00B172
 White: #FFF
 
 */
+
+* {
+  box-sizing: border-box;
+  margin: 0;
+  padding: 0;
+  font-weight: 600px;
+}
+
+.nav-bar {
+  /*position: fixed;*/
+  background-color: white;
+  width: 100%;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 10px 20px;
+  margin: auto;
+}
+.nav-bar ul li {
+  list-style: none;
+  display: inline-block;
+  margin: 0 20px;
+}
+.nav-bar ul a {
+  text-decoration: none;
+  color: black;
+}
+.logo-img {
+  height: 50px;
+  cursor: pointer;
+}
+
+.hero-img {
+  background: url("../images/landing.jpg");
+  background-size: cover;
+  background-repeat: no-repeat;
+  height: 500px;
+}
+.hero-div {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+}
+.hero-div h1 {
+  color: white;
+  text-align: center;
+}
+.hero-div p {
+  color: white;
+  text-align: center;
+}
+.section-2 {
+  display: flex;
+}
+.icon-img {
+  height: 50px;
+}
