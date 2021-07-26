@@ -27,7 +27,7 @@ White: #FFF
 .nav-bar ul li {
   list-style: none;
   display: inline-block;
-  margin: 0 20px;
+  margin: 0 5px;
 }
 .nav-bar ul a {
   text-decoration: none;
@@ -45,21 +45,55 @@ White: #FFF
   height: 500px;
 }
 .hero-div {
+  height: 400px;
   display: flex;
   flex-direction: column;
+  align-items: center;
   justify-content: center;
 }
-.hero-div h1 {
+.hero-div > h1 {
+  font-size: 60px;
+  padding: 40px;
   color: white;
   text-align: center;
 }
-.hero-div p {
+.hero-div > p {
+  width: 70%;
+  font-size: 20px;
   color: white;
   text-align: center;
 }
-.section-2 {
+
+.section-3 > h2 {
+  font-size: 40px;
+  padding: 20px 10px;
+  border-bottom: 3px solid #00b172;
+  width: fit-content;
+  margin: auto;
+}
+.section-3 > div {
   display: flex;
+  justify-content: center;
+  flex-direction: row;
 }
-.icon-img {
-  height: 50px;
+
+.info {
+  display: flex;
+  flex-direction: column;
+  text-align: center;
+  font-size: 30px;
+  width: 50%;
+  padding: 30px;
+}
+
+.info img {
+  width: 100px;
+  margin: 0 auto;
+  padding-top: 70px;
+}
+
+.info > h4 {
+  font-size: 40px;
+  color: #00b172;
+  font-weight: bold;
 }
