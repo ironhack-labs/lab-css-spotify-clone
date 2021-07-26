@@ -1,8 +1,162 @@
-/*
-Colors:
+body {
+    margin: 0;
+    padding: 0;
+    font-family:Verdana, Geneva, Tahoma, sans-serif;
+}
 
-Text: 1A1A1A
-Green: #00B172
-White: #FFF
+header img {
+    width: 150px;
+    height: 50px;
+    padding: 10px 30px 15px  
+}
 
-*/
+header {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+nav {
+    width: 400px;
+    position: fixed;
+    left: 70%; 
+}
+
+nav ul {
+    list-style: none;
+    font-size: 15px;
+    display: flex;
+    padding: 15px;
+    justify-content: space-around;
+    align-items: center;
+}
+
+nav a {
+    text-decoration: none;
+    color: black;
+}
+
+.main-header {
+    background-image: url('./../images/landing.jpg');
+    height: 600px;
+    color: #FFF;
+    text-align: center;
+    background-size: cover;
+    background-position: center;
+    padding: 10px;
+}
+
+.main-header h1 {
+    padding-top: 100px;
+    font-size: 50px;
+}
+
+.main-header p {
+    font-size: 30px;
+    margin: auto;
+}
+
+.on-spotify {
+    text-align: center;
+    padding: 30px 10px;
+}
+
+.on-spotify h3 {
+    display: inline;
+    text-align: center;
+    font-size: 30px;
+    padding-bottom: 5px;
+    border-bottom: 10px solid #00B172;
+}
+
+.on-spotify h4 {
+    color : #00B172; 
+    font-size: 30px;
+    padding-bottom: 5px;
+}
+
+.on-spotify p {
+    color: gray;
+    font-size: 25px;
+}
+
+.three-icons {
+    display: flex;
+    justify-content: space-around;
+    text-align: center;
+    padding: 50px 200px;
+    margin: 70px 0 50px 0;
+}
+
+.icon > img {
+    width: 200px;
+    height: 160px;
+}
+
+.green-section {
+    background-color: #00B172;
+    display:flex;
+    justify-content: space-between;
+    align-items: flex-start;
+    margin: 50px 10px 10px;
+}
+
+.yeezy {
+    display:flex;
+    flex-direction: column;
+    justify-content: space-around;
+    margin: 5px 150px;
+}
+
+.yeezy h3 {
+    text-decoration: underline #FFF;
+    text-underline-position: under;
+    text-decoration-thickness: 5px;
+    color: #FFF;
+    font-size: 40px;
+}
+
+.three-options {
+    display: flex;
+    text-align: left;
+    position: sticky;
+    flex-direction: column;
+    justify-content: flex-start;
+    color: #FFF;
+}
+
+.three-options h4 {
+    font-size: 30px;
+    height: 30px;
+}
+    
+.three-options p {
+      font-size: 20px;
+}
+    
+.spotify-icon img {
+      height: 150px;
+      width: 150px;
+      position:static;
+      right: 100px;
+      float: right;
+}
+    
+    
+.user-interface img {
+    position: relative;
+    right: 50px;
+    top: 80px;
+    height: 700px;
+  }
+
+
+
+
+  
+
+    
+
+
+
+  
