@@ -85,6 +85,7 @@ General Section
   font-weight: 200;
   position: absolute;
   top: 50%;
+
   left: 50%;
   transform: translate(-50%, -50%);
 }
@@ -118,6 +119,7 @@ h4 {
 .whats-on img {
   width: 100px;
   margin: 0 auto;
+  padding-top: 70px;
 }
 
 h3 {
@@ -127,6 +129,59 @@ h3 {
   padding-bottom: 5px;
   border-bottom-style: solid;
   border-bottom-width: 3.1px;
+  border-bottom-color: #00b172;
   width: fit-content;
   margin: 0 auto;
+}
+
+/*-----------------
+Yeezy Section
+-------------------*/
+.yeezy {
+  background-color: #00b172;
+}
+
+.yeezy div {
+  display: flex;
+  justify-content: space-evenly;
+  flex-direction: row;
+  position: relative;
+}
+
+.kanye {
+  display: flex;
+  flex-direction: column;
+  font-size: 2em;
+  color: #fff;
+  text-align: left;
+  padding: 120px;
+  width: 30%;
+}
+
+.kanye img {
+  width: 80%;
+  margin-top: 50px;
+  margin-left: 100px;
+}
+
+.kanye h2 {
+  font-size: 1.25em;
+  text-align: left;
+  border-bottom-style: solid;
+  border-bottom-width: 3.1px;
+  border-bottom-color: #fff;
+  margin: 0 45px 20px 0;
+}
+.kanye h4 {
+  margin-top: 20px;
+  margin-bottom: 20px;
+}
+
+.white-logo {
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  width: 150px;
+  height: 150px;
 }
