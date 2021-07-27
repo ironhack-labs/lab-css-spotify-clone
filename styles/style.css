@@ -44,28 +44,32 @@ html {
     padding: 20px;
 }
 
-.container-fiadaputa {
+.landing-container {
     background-image: url('../images/landing.jpg');
     background-repeat: no-repeat;
     background-size: cover;
     height: 800px;
-}
-.container-fiadaputa > h1 {
-    font-size: 80px;
-    color: #fff;
-    padding-top: 400px;
-    text-align: center;
+    display: flex;
+    flex-direction: column;
+    justify-content: right;
+    align-items: center;
 }
 
-.container-fiadaputa p {
-    font-size: 30px;
-    color: #fff;
-    text-align: center;
-    font-weight: 100;
-    position: relative;
-    border: 3px solid #yellow;
+.landing-container h1{
+font-size: 80px;
+width: 100%;
+padding: 400px 0 0px 300px;
+
 }
 
+.landing-container p{
+text-align: center;
+width: 100%;
+font-size: 24px;
+padding: 10px 0 100px 0px;
+}
+
+/* ---- MID SECTION ----- */
 .whats-on-container{
     height: 500px;
 
@@ -82,7 +86,7 @@ margin: 80px;
 
     display: flex;
     justify-content: space-around;
-    align-items: flex-start;
+    align-items: center;
     text-align: center;
     font-size: 28px;
 }
@@ -91,21 +95,16 @@ margin: 80px;
     width: 350px;
 }
 
-.whats-on h3{
-    color:  #00B172;
-    font-weight: 900;
-    padding: 30px 0;
-
+.whats-on p {
+    width: 350px;
+    padding: 20px 0 ;
 }
-
-.whats-on p{
-    font-size: 24px;
-}
-
 
 .whats-on-container div img{
     max-width: 150px;
 }
+
+/* ---- LAST SECTION ----- */
 
 .app-container{
     color: #fff;
