@@ -4,5 +4,132 @@ Colors:
 Text: 1A1A1A
 Green: #00B172
 White: #FFF
-
 */
+
+*{
+box-sizing: border-box;
+margin: 0;
+padding: 0;
+}
+
+html {
+    font-size: 18px;
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+
+.nav-bar{
+    position: fixed;
+    height: 100px;
+    width: 100%;
+    background-color: #fff;
+    display: flex;
+    justify-content: space-between;
+
+}
+
+#logo{
+    padding: 15px;
+}
+
+
+.nav-bar > ul{
+    list-style: none;
+    align-items: center;
+    display: flex;
+    flex-direction: row;
+}
+
+.nav-bar li {
+    padding: 20px;
+}
+
+.container-fiadaputa {
+    background-image: url('../images/landing.jpg');
+    background-repeat: no-repeat;
+    background-size: cover;
+    height: 800px;
+}
+.container-fiadaputa > h1 {
+    font-size: 80px;
+    color: #fff;
+    padding-top: 400px;
+    text-align: center;
+}
+
+.container-fiadaputa p {
+    font-size: 30px;
+    color: #fff;
+    text-align: center;
+    font-weight: 100;
+    position: relative;
+    border: 3px solid #yellow;
+}
+
+.whats-on-container{
+    height: 500px;
+
+}
+.whats-on-container h2{
+text-align: center;
+justify-content: center;
+text-decoration-line: underline;
+font-size: 30px;
+margin: 80px;
+}
+
+.whats-on{
+
+    display: flex;
+    justify-content: space-around;
+    align-items: flex-start;
+    text-align: center;
+    font-size: 28px;
+}
+
+.whats-on div {
+    width: 350px;
+}
+
+.whats-on h3{
+    color:  #00B172;
+    font-weight: 900;
+    padding: 30px 0;
+
+}
+
+.whats-on p{
+    font-size: 24px;
+}
+
+
+.whats-on-container div img{
+    max-width: 150px;
+}
+
+.app-container{
+    color: #fff;
+    display: flex;
+}
+
+.app-container h3,p{
+    width: 500px;
+    padding: 30px 0 30px 120px;
+}
+.app-container h2{
+    width: 500px;
+    padding: 70px 0 90px 120px;
+  
+    text-decoration: underline;
+}
+
+.img-container img {
+    height: 700px;
+    padding-top: 100px;
+    padding-left: 200px;
+  }
+
+.app-container {
+    background-color: #00B172;
+    margin: 0 40px;
+}
