@@ -6,3 +6,150 @@ Green: #00B172
 White: #FFF
 
 */
+* {
+    margin: 0;
+    padding: 0;
+    font-family: sans-serif;
+}
+nav {
+    display: flex;
+    justify-content: space-between;
+    align-items: center; 
+    padding: 10px 36px;
+    background-color: #fff;   
+}
+.spotify-logo{
+    width: 190px;
+    height:auto;
+}
+
+header{
+    background-image: url("../images/landing.jpg");
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size:cover ;
+    height: 100vh;
+    background-color: #000;
+    display: flex;
+    flex-direction: column;
+}
+header p {
+    font-size: 1.8em;
+}
+#div-header{
+    background-color: #FFF;
+    position: fixed;
+    width: 100%;
+}
+
+ul{
+    display: flex;
+    list-style-type: none;
+    width: 380px;
+    justify-content: space-between;
+}
+
+ul > li:hover{
+    color: #00B172;
+}
+
+.text-img{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    margin: auto;
+    color: #FFF;
+    text-align: center;
+}
+
+h1 {
+    font-size: 4em;
+    margin-bottom: 0.3em;
+}
+
+main{
+    height: 520px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+main h2 {
+    margin-top: 46px;
+    font-size: 40px;
+    line-height: 50px;
+    border-bottom: 4px solid #00B172;
+    padding-bottom: 5px;
+}
+
+
+#whats-on{
+    display: flex;
+    justify-content:space-evenly;
+    align-items: center;
+    width: 80%;
+}
+
+.articles{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    width: 300px;
+    text-align: center;
+    margin-top: 100px;
+    padding: 0px 20px;
+    
+}
+
+.articles img {
+    width: 90px;
+}
+
+.articles h3 {
+    color: #00B172;
+    margin: 20px 0px;
+}
+
+p{
+    font-size: 1.4em;
+}
+
+.yeezy{
+    background-color: #00B172;
+    color: #FFF;
+    background-image: url(../images/spotify-icon-white.png);
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: 10em;
+    display: flex;
+    justify-content: space-evenly;
+    max-width: 1300px;
+}
+
+.yeezy article{
+    padding: 3em 3em 0 3em;
+    width: 50%;
+}
+
+.yeezy article h2{
+    margin-bottom: 1em;
+    font-size: 2em;
+}
+.yeezy article h3{
+    margin-bottom: 1em;
+    font-size: 2em;
+}
+
+.yeezy article:nth-of-type(3){
+    padding: 3em;
+}
+.app-img{
+    width: 50%;
+    display: flex;
+    text-align: right;
+}
+
+.app-img img{
+    width: 20em;
+    margin: auto;
+}
