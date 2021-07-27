@@ -1,8 +1,212 @@
 /*
 Colors:
-
 Text: 1A1A1A
 Green: #00B172
 White: #FFF
-
 */
+
+
+/* Page Properties */
+
+* {
+    margin: 0;
+    padding: 0;
+    font-family: Roboto, 'Segoe UI', Tahoma, sans-serif;
+    /*width: 100%;*/
+}
+
+
+/* Images */
+
+header img {
+    width: 200px;
+    padding: 2rem 2rem;
+    /* margin-left: 40px;
+    margin-top: 10px;
+    margin-bottom: 10px; */
+}
+
+.banner {
+    background-image: url(/images/landing.jpg);
+    /* width: 100vw; */
+    height: 100vh;
+    background-size: cover;
+    position: relative;
+    align-items: center;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+}
+
+
+/* Header */
+
+header>div {
+    /*position=fixed;*/
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+
+.banner p,
+.banner h1 {
+    display: flex;
+    justify-content: center;
+    text-align: center;
+}
+
+nav {
+    width: 500px;
+    padding: 2rem 2rem;
+}
+
+ul {
+    display: flex;
+    list-style: none;
+    justify-content: space-between;
+    align-items: center;
+    padding: 10px;
+}
+
+ul a {
+    text-decoration: none;
+    color: black;
+    font-size: 22px;
+    font-weight: 30;
+}
+
+
+/* titles */
+
+h1 {
+    font-size: 100px;
+    color: white;
+    margin-bottom: 0.35em;
+}
+
+h2 {
+    font-size: 50px;
+    font-weight: 600;
+    margin-bottom: 24px;
+}
+
+h3 {
+    font-size: 35px;
+    color: #1DB954;
+    margin-bottom: 0.50em;
+}
+
+.underline-green {
+    text-decoration: underline;
+    text-decoration-color: #00b172;
+    text-underline-offset: 12px;
+    text-decoration-thickness: 7px;
+    padding: 0.25rem 0.5rem;
+    display: flex;
+    justify-content: center;
+}
+
+h4 {
+    font-size: 30px;
+    color: #f6f6f6;
+    margin-bottom: 1em;
+    margin-top: 1em;
+}
+
+.underline {
+    text-decoration: underline;
+    text-underline-offset: 12px;
+    margin-bottom: 60px;
+    text-decoration-thickness: 7px;
+}
+
+
+/* general-info */
+
+section>p {
+    font-size: 35px;
+    color: rgba(234, 240, 246, 0.8);
+    font-weight: 200;
+    display: flex;
+    text-align: justify;
+    align-items: center;
+}
+
+.container {
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+    padding: 5rem 10rem;
+    width: 35%;
+}
+
+.container>p {
+    font-size: 30px;
+    font-weight: 150;
+    align-items: center;
+    text-align: center;
+}
+
+.threecontainers {
+    display: flex;
+    justify-content: space-between;
+    align-items: row;
+}
+
+
+/* .container>img {
+    // dimensions but I can't see images 
+} */
+
+#general-information {
+    padding: 4rem;
+}
+
+
+/* bottom. Kanye West */
+
+#backgroundgreen {
+    display: flex;
+    background-color: #00b172;
+    color: #fff;
+    padding: 80px;
+    height: 950px;
+    margin: 0px 50px 50px 50px;
+    flex-direction: column;
+}
+
+.centre {
+    display: flex;
+    flex-direction: column;
+    margin: 5px 150px;
+}
+
+.options {
+    width: 280px;
+    text-align: left;
+}
+
+.options p {
+    font-size: 30px;
+    font-weight: 180;
+}
+
+.spotifyiconwhite {
+    float: right;
+}
+
+.spotifyiconwhite img {
+    height: 300px;
+    width: 300px;
+}
+
+.spotifyapp {
+    float: left;
+}
+
+.spotifyApp img {
+    top: 50%;
+    left: 50%;
+    width: 200px;
+    height: auto;
+}
