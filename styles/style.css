@@ -12,13 +12,14 @@ White: #FFF
 -- Title 1 -> 64px
 -- Title 2 -> 48px
 -- Tiele 3 -> 32px
--- p -> 24px
+-- p -> 28px
 */
 
 /* RESET */
 * {
   padding: 0;
   margin: 0;
+  font-family: Roboto;
 }
 
 body {
@@ -35,7 +36,7 @@ h3 {
   font-size: 32px;
 }
 p {
-  font-size: 24px;
+  font-size: 28px;
 }
 
 /* Reusable classes */
@@ -54,11 +55,16 @@ p {
 
 /* NAV */
 nav {
-  /* position: fixed; */
+  margin: 16px;
+  border-radius: 8px;
   background-color: white;
+  position: fixed;
   box-shadow: rgba(0, 0, 0, 0.08) 0px 0.2rem 0.4rem;
-  width: 100%;
-  padding: 24px;
+  padding: 24px 32px;
+  top: 0;
+  right: 0;
+  left: 0;
+  z-index: 1000;
 }
 
 li,
@@ -69,12 +75,20 @@ img {
 
 ul {
   float: right;
+  margin-top: 8px;
+}
+
+ul li {
+  padding-top: 16px;
 }
 
 ul a {
   padding: 0px 8px;
   text-decoration: none;
   font-size: 20px;
+}
+a:visited {
+  color: #00b172;
 }
 
 .iconWithText {
@@ -88,10 +102,17 @@ section {
 
 /* FIRST SECTION */
 .first {
+  max-height: 400px;
+  /* Center and scale the image nicely */
   background: url("../images/landing.jpg");
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+
   height: 980px;
   color: #fff;
-  margin-top: 136px;
+  padding-top: 320px;
+  margin-top: -93px;
 }
 
 .first h1 {
@@ -114,6 +135,7 @@ section {
 
 /* SECOND SECTION */
 .second {
+  margin-bottom: 120px;
 }
 
 .second h2 {
@@ -126,7 +148,7 @@ section {
 .second p {
   color: #868686;
   font-weight: 100;
-  margin-top: 8px;
+  margin-top: 16px;
   font-size: 20px;
 }
 
@@ -168,12 +190,25 @@ section {
 
 .third .spotify-icon {
   width: 120px;
+  position: relative;
+  top: -240px;
 }
 
 .third .app-screenshot {
   width: 360px;
+  position: relative;
+  right: -120px;
 }
 
 .third div div {
   margin-top: 32px;
+}
+
+.third .left,
+.third .right {
+  width: 48%;
+}
+
+.third .right {
+  float: right;
 }
