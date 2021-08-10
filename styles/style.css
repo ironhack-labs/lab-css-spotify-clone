@@ -6,3 +6,156 @@ Green: #00B172
 White: #FFF
 
 */
+
+* {
+    margin: 0;
+    padding: 0;
+    font-family: "Roboto", sans-serif;
+    box-sizing: border-box;
+}
+
+header {
+    position: fixed;
+    width: 100vw;
+    height: 120px;
+    background-color: white;
+}
+
+.header-wrapper {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    padding: 1rem 2rem 1rem 2rem;
+}
+
+.header-wrapper img {
+    width: 300px;
+}
+
+.header-wrapper ul {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    list-style: none;
+}
+
+.header-wrapper li {
+    margin: 1rem;
+    font-size: 1.4rem;
+}
+
+a {
+    text-decoration: none;
+}
+
+.landing {
+    background-image: url("/images/landing.jpg");
+    background-repeat: no-repeat;
+    background-size: cover;
+    height: 99vh;
+    width: 100vw;
+    color: white;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+.landing h1 {
+    font-size: 7rem;
+    margin-bottom: 3rem;
+
+}
+
+.landing article {
+    font-size: 2.4rem;
+    font-weight: 100;
+    width: 50vw;
+    text-align: center;
+}
+
+
+.section-services h2 {
+    margin-top: 2rem;
+    padding-top: 2rem;
+    padding-bottom: 0.8rem;
+    font-size: 3rem;
+    text-align: center;
+    margin: auto;
+    border-bottom: 4px solid  #00B172;
+    width: 22vw;
+}
+
+.services-container {
+    display: flex;
+    flex-wrap: wrap;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+    padding: 5rem 3rem 10rem 3rem;
+
+}
+
+.services-container img {
+    width: 200px;
+}
+
+.services-container div {
+
+    width: 28vw;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    align-content: center;
+}
+
+h3 {
+    font-size: 2rem;
+    padding: 2rem 0 2rem 0;
+}
+
+.services-container p {
+    font-size: 2rem;
+    text-align: center;
+    font-weight: 100;
+    padding: 1rem;
+}
+
+.green-section {
+    background-color: #00B172;
+    color: white;
+    display: flex;
+    justify-content: space-between;
+    padding: 7rem;
+    margin: 3rem;
+}
+
+.green-section h2 {
+    font-size: 3rem;
+    border-bottom: 4px solid  #ffffff;
+    padding-bottom: 0.8rem;
+    margin-bottom: 2.5rem;
+}
+
+.green-section img {
+    width: 700px;
+    padding: 2rem;
+}
+
+.green-section h3 {
+    padding-top: 2rem;
+}
+
+.green-section article {
+    font-size: 1.7rem;
+    font-weight: 100;
+    width: 50%;
+}
+
+#logo {
+    position: absolute;
+    width: 13%;
+    margin-left: 31%;
+    margin-top: 23%;
+}
