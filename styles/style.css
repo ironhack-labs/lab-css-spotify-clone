@@ -1,8 +1,156 @@
-/*
-Colors:
+:root {
+  --textcolor: #1a1a1a;
+  --green: #00b172;
+  --white: #fff;
+}
 
-Text: 1A1A1A
-Green: #00B172
-White: #FFF
+body {
+  font-family: Arial, Helvetica, sans-serif;
+}
+/****************** NAVBAR CSS ********************/
 
-*/
+.header_container {
+  display: flex;
+  justify-content: space-between;
+  background-color: var(--white);
+  position: sticky;
+  top: 0;
+  z-index: 100;
+}
+
+.logo {
+  margin: 15px 0px 15px 30px;
+}
+.logo img {
+  width: 250px;
+}
+
+.nav_menu {
+  margin: 15px 30px 0px 0px;
+}
+
+.nav_items {
+  display: flex;
+  gap: 25px;
+}
+
+.nav_items li {
+  list-style: none;
+  font-size: 30px;
+}
+
+/************* SECTION 1 CSS ****************/
+
+.image_container {
+  background-image: url("/images/landing.jpg");
+  width: 100%;
+  height: 100vh;
+  background-size: cover;
+  background-position: center;
+}
+
+h1 {
+  text-align: center;
+  color: var(--white);
+  padding-top: 300px;
+  font-size: 100px;
+}
+
+.title_text {
+  text-align: center;
+  color: var(--white);
+  font-size: 30px;
+}
+
+/************ SECTION 2 CSS ***************/
+
+.services_container {
+  width: 80%;
+  margin: 0 auto 100px;
+}
+
+.services_title {
+  text-align: center;
+  font-size: 40px;
+  border-bottom: 4px solid var(--green);
+  width: 400px;
+  margin: 40px auto 80px;
+}
+
+.services_grid {
+  display: grid;
+  grid-template-columns: repeat(3, 1fr);
+  grid-template-rows: 103px 1fr;
+}
+
+.services_image {
+  grid-row: 1 / 2;
+  text-align: center;
+}
+
+.services_text {
+  grid-row: 2 / 3;
+  text-align: center;
+}
+
+.services_image img {
+  width: 120px;
+}
+
+.services_name {
+  color: var(--green);
+  font-size: 30px;
+  font-weight: bold;
+}
+
+.services_info {
+  font-size: 25px;
+}
+
+/************ SECTION 3 CSS **************/
+
+.extras_container {
+  width: 95%;
+  background-color: var(--green);
+  margin: 0 auto;
+  display: grid;
+  grid-template-columns: 60% 40%;
+  position: relative;
+}
+
+.spotify_logo {
+  width: 200px;
+  position: absolute;
+  top: 45%;
+  left: 45%;
+}
+
+.extras_info {
+  grid-column: 1 / 2;
+}
+
+.extras_image {
+  grid-column: 2 / 3;
+}
+
+.extras_info {
+  padding: 100px;
+  color: var(--white);
+  font-size: 30px;
+}
+
+.extras_title {
+  font-size: 50px;
+  border-bottom: 5px solid var(--white);
+  display: inline-block;
+  padding-bottom: 15px;
+}
+
+.extras_subtitles {
+  font-size: 40px;
+}
+
+.extras_image img {
+  width: 70%;
+  padding: 150px 0px 0px 100px;
+}
