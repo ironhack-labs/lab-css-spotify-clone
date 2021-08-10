@@ -6,3 +6,127 @@ Green: #00B172
 White: #FFF
 
 */
+
+@import url('https://fonts.googleapis.com/css2?family=Montserrat:wght@500&display=swap');
+
+* {
+    margin: 0;
+}
+
+body {
+    font-family: "Montserrat";
+}
+
+nav {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 10px;
+}
+
+nav img {
+    width: 8%;
+}
+
+ul {
+    list-style-type: none;
+}
+
+li {
+    display: inline;
+    padding: 10px;
+}
+
+.first-section {
+    text-align: center;
+    background-image: url(../images/landing.jpg);
+    background-size: cover;
+    height: 1000px;
+    color: white;
+}
+
+.first-section h1 {
+    padding-top: 350px;
+    font-size: 80px;
+}
+
+.first-section p {
+    padding: 20px 360px 0 360px;
+    font-size: 24px;
+
+}
+
+main {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+}
+
+.title-spotify {
+    text-align: center;
+    padding-top: 20px;
+    font-size: 40px;
+}
+
+hr {
+    width: 25%;
+    margin: auto;
+    background-color: #00B172;
+    height: 5px;
+    border: 0;
+    margin-top: 5px;
+}
+
+div {
+    display: flex;
+    justify-content: space-around;
+}
+
+div img {
+    width: 150px;
+}
+
+.container {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    padding: 70px;
+    width: 300px;
+    text-align: center;
+}
+
+.titles {
+    font-size: 30px;
+    color: #00B172;
+}
+
+.footer {
+    background-color: #00B172;
+    color: white;
+    background-image: url(../images/spotify-icon-white.png);
+    background-repeat: no-repeat;
+    background-size: 150px;
+    background-position: center;
+    display: flex;
+    justify-content: space-between;
+    padding: 50px 5px 0px 5px;
+}
+
+aside img {
+    width: 300px;
+}
+
+h3 {
+    padding: 0 20px 0 20px;
+}
+
+.footer-left-side {
+    padding: 0 20px 0 20px;
+    display: flex;
+    flex-direction: column;
+}
+
+.footer-left-side p {
+    width: 300px;
+}
