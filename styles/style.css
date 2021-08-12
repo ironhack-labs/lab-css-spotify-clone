@@ -6,3 +6,192 @@ Green: #00B172
 White: #FFF
 
 */
+@import url("https://fonts.googleapis.com/css2?family=Open+Sans:wght@300;400;600;700&display=swap");
+
+body {
+  margin: 0;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  height: 100vh;
+  font-family: "Open Sans", sans-serif;
+}
+
+.nav-bar {
+  position: fixed;
+  top: 0;
+  left: 0;
+  width: 100%;
+  min-width: 800px;
+  display: flex;
+  justify-content: space-between;
+  padding: 10px;
+  background-color: #fff;
+  z-index: 2;
+}
+
+.logo {
+  width: 180px;
+  height: 50px;
+  margin: 10px 10px 0px 0px;
+}
+
+ul {
+  padding: 10px;
+}
+
+li {
+  display: inline;
+  margin-right: 15px;
+}
+
+a {
+  color: black;
+  text-decoration: none;
+}
+
+a:hover {
+  color: #00a0c6;
+  text-decoration: none;
+  cursor: pointer;
+}
+
+.main-section {
+  position: relative;
+  margin-top: 94px;
+  width: 100%;
+  min-width: 800px;
+}
+
+.back-img {
+  width: 100%;
+  z-index: -1;
+}
+
+.main-contents {
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  width: 500px;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  color: white;
+}
+
+.main-title {
+  margin: 0;
+  font-size: 40px;
+}
+
+.main-text {
+  text-align: center;
+  font-size: 15px;
+  width: 370px;
+}
+
+.what-section {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  width: 100%;
+  margin: 50px 0px;
+  min-width: 800px;
+}
+
+.what-title {
+  width: 280px;
+  font-size: 30px;
+  text-align: center;
+  padding-bottom: 10px;
+  border-bottom: 2px solid #00b172;
+}
+
+.what-box {
+  display: flex;
+  align-items: center;
+  padding: 30px;
+}
+
+.box {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  margin: 20px;
+}
+
+.box-title {
+  color: #00b172;
+}
+
+.box-text {
+  text-align: center;
+}
+
+.songs-img {
+  width: 100px;
+  height: 100px;
+}
+
+.music-img {
+  width: 100px;
+  height: 100px;
+}
+
+.stream-img {
+  width: 100px;
+  height: 100px;
+}
+
+.green-section {
+  padding: 5% 5%;
+  position: relative;
+  display: flex;
+  justify-content: space-between;
+  width: 85%;
+  min-width: 660px;
+  background-color: #00b172;
+}
+
+.white-icon {
+  width: 10%;
+  min-width: 50px;
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+}
+
+.green-left {
+  width: 60%;
+  color: #fff;
+}
+
+.green-title {
+  margin: 0;
+  font-size: 25px;
+  width: 350px;
+  border-bottom: 2px solid #fff;
+}
+
+.green-subtitle {
+  font-size: 20px;
+  width: 300px;
+}
+
+.green-text {
+  font-size: 15px;
+  width: 300px;
+}
+
+.green-right {
+  margin: 40px 0px;
+  width: 30%;
+  display: flex;
+  align-items: center;
+}
+
+.app-img {
+  width: 100%;
+}
