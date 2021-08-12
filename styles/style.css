@@ -1,8 +1,192 @@
-/*
-Colors:
+@import url('https://fonts.googleapis.com/css2?family=Noto+Sans+JP:wght@100&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@100;200;300;400;500&display=swap');
 
-Text: 1A1A1A
-Green: #00B172
-White: #FFF
+:root {
+  margin: 0;
+  padding: 0;
+}
 
-*/
+html {
+  font-family: 'Poppins';
+}
+
+header {
+  font-family: 'Noto Sans JP';
+  display: flex;
+  justify-content: space-between;
+  /* margin: 20px; */
+  background-color: white;
+  position: fixed;
+  width: 100%;
+  padding: 20px;
+  /* right: 2%; */
+}
+
+h1 {
+  font-size: 80px;
+  margin-bottom: 10px;
+}
+
+article {
+  width: 700px;
+  font-size: 27px;
+  font-weight: 200;
+}
+
+header > img {
+  width: 200px;
+}
+
+nav {
+  display: flex;
+  justify-content: flex-end;
+  padding: 0;
+  /* right: 2%; */
+  /* width: 100%; */
+}
+
+nav ul {
+  list-style: none;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  font-weight: 300;
+  padding: 0 50px;
+  /* position: relative; */
+  /* text-align: right; */
+}
+
+nav a {
+  text-decoration: none;
+  color: black;
+  padding: 0 15px;
+  /* float: right; */
+  /* display: block; */
+}
+
+nav a:hover {
+  color: #1db954;
+  transition-duration: 1s;
+}
+
+.landing {
+  background-image: url('../images/landing.jpg');
+  height: 100vh;
+  background-position: center;
+  background-size: cover;
+  color: white;
+  text-align: center;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+}
+
+.whatsOnSpotify {
+  /* display: flex;
+  flex-direction: column;
+  align-items: center; */
+  text-align: center;
+  font-size: 1.5em;
+}
+
+.whatsOnSpotify hr {
+  color: #1db954;
+  margin-top: 0;
+  margin-bottom: 100px;
+  width: 410px;
+  height: 5px;
+  background-color: #1db954;
+  border: 0;
+}
+
+.container {
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  padding-left: 70px;
+}
+
+.whatsOnSpotify h3 {
+  font-size: 50px;
+  margin-bottom: 0;
+}
+
+.whatsOnSpotify * img {
+  width: auto;
+  height: 120px;
+}
+
+.infoBox {
+  text-align: center;
+  width: 350px;
+  height: 250px;
+  padding: 0 40px;
+}
+
+.infoHeading {
+  color: #1db954;
+  /* font-weight: 400px; */
+}
+
+.yeezy {
+  background-color: #1db954;
+  margin-top: 180px;
+  color: white;
+  padding: 100px;
+}
+
+.yeezy hr {
+  height: 4px;
+  background-color: white;
+  border: 0;
+  width: 410px;
+  margin: 0;
+  margin-bottom: 60px;
+}
+
+.yeezySection {
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  justify-content: space-between;
+  width: auto;
+  /* margin: 50px; */
+  height: 550px;
+}
+
+.yeezyText {
+  display: flex;
+  flex-direction: column;
+  width: 350px;
+  font-size: 20px;
+  margin-top: 0px;
+}
+
+h2 {
+  font-size: 30px;
+  font-weight: bold;
+  margin-bottom: 0;
+}
+
+h4 {
+  font-size: 30px;
+}
+
+.yeezyText p {
+  margin: 0;
+  font-weight: 200;
+}
+
+.app {
+  width: auto;
+  height: 600px;
+}
+
+.icon {
+  position: absolute;
+  left: 40%;
+  width: auto;
+  height: 120px;
+  padding: 400px 75px;
+}
