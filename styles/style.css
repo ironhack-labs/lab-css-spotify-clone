@@ -1,8 +1,218 @@
-/*
-Colors:
+body {
+  margin: 0;
+  padding: 0;
+  font-family: "Roboto", sans-serif;
+}
 
+/* Navigation Bar */
+
+header {
+  display: flex;
+  justify-content: space-between;
+  background-color: white;
+  position: fixed;
+  width: 100%;
+  padding: 20px;
+}
+
+header img {
+  width: 200px;
+  float: top;
+  align-content: flex-start;
+  margin-top: 5x;
+  margin-bottom: 5px;
+  background-image: url();
+}
+
+nav {
+  list-style: none;
+  margin: 0;
+  text-align: right;
+  display: flex;
+  font-family: "Roboto", sans-serif;
+  justify-content: flex-end;
+  flex-direction: row;
+  background-position: right;
+  position: fixed;
+}
+
+.navigation ul {
+  list-style: none;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  font-weight: 300;
+  padding: 0 1000px;
+  font-size: 15pt;
+}
+
+.navigation a {
+  text-decoration: none;
+  flex-direction: row;
+  padding: 0 15px;
+  color: #1a1a1a;
+}
+
+/* Landing Page */
+
+h1 {
+  text-align: center;
+  font-family: "Roboto", sans-serif;
+  font-size: 4em;
+  font-weight: bold;
+  color: white;
+  margin-bottom: 0.1 mm;
+}
+
+#page {
+  display: flex;
+  flex-direction: column;
+  flex-wrap: nowrap;
+  justify-content: space-between;
+  align-content: stretch;
+}
+
+.Top {
+  background-image: url(../../images/landing.jpg);
+  background-position: center;
+  background-size: cover;
+  height: 100vh;
+  text-align: center;
+  margin: auto;
+  padding-top: 22pc;
+}
+
+.Top p {
+  text-align: center;
+  font-family: "Roboto", sans-serif;
+  font-size: 20px;
+  margin: auto;
+  color: white;
+  margin-top: 0;
+}
+
+/* Second page */
+
+.Middle {
+  display: flex;
+  align-items: center;
+  align-items: center;
+  padding: auto;
+}
+
+.Middle h2 {
+  text-align: center;
+  font-weight: bold;
+  color: #1a1a1a;
+  text-decoration: underline;
+  text-decoration-color: #00b172;
+  text-underline-offset: 0.1em;
+  text-underline-offset: 8px;
+}
+
+.Middle h3 {
+  text-align: center;
+  color: #00b172;
+  font-weight: bolder;
+}
+
+.Middle img {
+  justify-content: space-around;
+  height: 100px;
+  width: auto;
+}
+
+.discription {
+  text-align: center;
+  width: 300px;
+  height: 250px;
+  padding: 0 40px;
+}
+
+#appDiscription {
+  display: flex;
+  flex-direction: row;
+  text-align: center;
+  justify-content: space-around;
+  align-content: center;
+  padding-top: 50px;
+}
+
+#appDiscription p {
+  margin: auto;
+}
+
+/* Bottom page  */
+
+#yeezyTitle {
+  background-color: #00b172;
+  margin-left: 20px;
+  margin-right: 20px;
+  box-shadow: 0 0 0 4px #fff;
+  padding: auto;
+}
+
+.Bottom {
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  justify-content: space-between;
+  width: auto;
+  height: 550px;
+}
+
+#yeezyTitle h2 {
+  text-align: left;
+  font-weight: lighter;
+  color: white;
+  font-family: "Atkinson Hyperlegible", sans-serif;
+  text-decoration: underline;
+  text-decoration-color: white;
+  font-size: 27pt;
+  text-underline-offset: 0.1em;
+  text-underline-offset: 8px;
+  padding-top: 40px;
+  padding-left: 70px;
+}
+
+.bottomText {
+  width: 350px;
+  padding-left: 70px;
+  padding-bottom: 80px;
+}
+
+.bottomText h3 {
+  text-align: left;
+  font-weight: bold;
+  color: white;
+  font-family: "Atkinson Hyperlegible", sans-serif;
+  font-size: 20pt;
+  margin-top: 20px;
+}
+
+.bottomText p {
+  font-weight: lighter;
+  color: white;
+  font-size: 15pt;
+  margin-bottom: 30px;
+}
+
+.spotifyLogo {
+  height: 120px;
+  width: auto;
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+}
+
+.spotifyApp {
+  height: 550px;
+  width: auto;
+  padding-right: 100px;
+  padding-bottom: 90px;
+}
+
+/* Colors:
 Text: 1A1A1A
 Green: #00B172
-White: #FFF
-
-*/
+White: #FFF */
