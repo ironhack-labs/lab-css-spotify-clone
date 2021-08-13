@@ -1,7 +1,7 @@
 /*
 Colors:
 
-Text: 1A1A1A
+Text: #1A1A1A
 Green: #00B172
 White: #FFF
 
@@ -10,7 +10,7 @@ White: #FFF
 body {
     margin: auto;
     padding: 0;
-    font-family: Arial, Helvetica, sans-serif;
+    font-family: Arial, Verdana,  Helvetica, sans-serif;
     font-size: 12px;
     line-height: 3.5em;
     font-weight: 300;
@@ -24,6 +24,7 @@ h1{
     text-align: center;
     margin: 0 auto 10px auto;
     color: #fff;
+    font-weight: 600;
 }
 
 h3{
@@ -45,32 +46,37 @@ p{
 }
 
 /*----------  HEADER ----------*/
-.header div {
-    padding: 0 25px;
-    display: flex;
-    justify-content: space-between;
-    align-items: center;
-    border-bottom: 1px solid lightgray;
-}
-.nav-logo img{
-    width: 150px;
-}
-
 /*---------- NAV HEADER ----------*/
 .nav-bar {
-    width: 400px;
+    display: flex;
+    justify-content: space-between;
+    padding: 10px 0;
+    position: fixed;
+    z-index: 99999;
+    background: white;
+    width: 1200px;
+}
+.nav-logo {
+    padding-left: 20px;
+    padding-top: 10px;
+}
+
+.nav-logo img{
+    width: 150px;
 }
 
 .nav-bar-ul {
     list-style: none;
     display: flex;
-    justify-content: space-between;
+    justify-content: space-around;
     align-items: center;
+    width: 30%;
 }
 
 .nav-bar a {
     text-decoration: none;
-    color: black;
+    color: #1A1A1A;
+    font-size: 1.5em;
 }
 
 /*---------- IMG COVER ----------*/
@@ -78,7 +84,9 @@ p{
     background-image: url(../images/landing.jpg);
     background-repeat: no-repeat;
     height: 800px;
-    background-size: contain;
+    background-size: cover;
+    padding-top: 50px;
+    position: relative;
     display: flex;
     justify-content:center;
     flex-direction: column;
@@ -94,25 +102,29 @@ p{
 }
 
 /*---------- SECTION 1 ----------*/
-#whatsOnSpotyfy{
-    height: 600px;
+#whatsOnSpotify{
+    margin: 50px 0 100px;
 }
 #whatsOnSpotify div{
     display: flex;
     justify-content: center;
     align-items: center;
     padding: 0 20px;
+    margin-top: 30px;
 }
+
 #whatsOnSpotify hr{
-    border: 2px solid #00B172;
+    height: 3px;
     width: 25%;
+    background-color: #00B172;
 }
 
 #whatsOnSpotify .whatsOn{
-    height: 400px;
-    flex-direction:column ;
+    height: 250px;
+    flex-direction: column;
     align-content: center;
     width: 25%;
+    margin-top: 50px;
 }
 
 .whatsOn img{
@@ -129,24 +141,59 @@ p{
     text-align: center;
     padding: 0 40px;
     margin-top: 0;
+    color: #1A1A1A;
 }
 
 /*---------- SECTION 2 ----------*/
 
 #green-section{
     background-color: #00B172 ;
-}
-#green-section div{
-    display: flex;
-    justify-content: center;
-    align-items: center;
-    padding: 0 20px;
+    margin: 20px;
+    height: 660px;
 }
 
+#green-section h3{
+    color: #fff;
+    text-align: left;
+    padding: 70px 0px 0px 90px;
+} 
+
+#green-section hr{
+    height: 3px;
+    width: 36%;
+    margin-left: 90px;
+    background-color: #fff;
+}
+
+
+#green-section .flex-box{
+    display: flex;
+    justify-content: space-around;
+}
+
+
+div .left{
+    flex-direction: column;
+    width: 45%;
+}
+
+.left div {
+    width: 51%;
+}
+
+.left h4, p{
+    color: #fff;
+}
+
+.logo-white {
+    position: relative;
+    bottom: 320px;
+    text-align: center;
+}
 .logo-white img{
-    width: 100px;
+    width: 125px;
 }
 
 .spoty-app img{
-    width: 200px;
+    width: 260px;
 }
