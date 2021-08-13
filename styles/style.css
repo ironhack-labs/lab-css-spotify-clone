@@ -6,3 +6,147 @@ Green: #00B172
 White: #FFF
 
 */
+
+body {
+    margin: auto;
+    padding: 0;
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 12px;
+    line-height: 3.5em;
+    font-weight: 300;
+    max-width: 1200px;
+    color: #1A1A1A;
+    box-sizing: border-box;
+}
+
+h1{
+    font-size: 6em;
+    text-align: center;
+    margin: 0 auto 10px auto;
+    color: #fff;
+}
+
+h3{
+    font-size: 2.5em;
+    letter-spacing: 0.4px;
+    line-height: 1em;
+    margin-bottom: 0px;
+    text-align: center;
+}
+
+h4{
+    font-size: 2em;
+    line-height: 1em;
+}
+
+p{
+    font-size: 1.5em;
+    line-height: 1.5em;
+}
+
+/*----------  HEADER ----------*/
+.header div {
+    padding: 0 25px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    border-bottom: 1px solid lightgray;
+}
+.nav-logo img{
+    width: 150px;
+}
+
+/*---------- NAV HEADER ----------*/
+.nav-bar {
+    width: 400px;
+}
+
+.nav-bar-ul {
+    list-style: none;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.nav-bar a {
+    text-decoration: none;
+    color: black;
+}
+
+/*---------- IMG COVER ----------*/
+.image-cover{
+    background-image: url(../images/landing.jpg);
+    background-repeat: no-repeat;
+    height: 800px;
+    background-size: contain;
+    display: flex;
+    justify-content:center;
+    flex-direction: column;
+    padding: 0 20px;
+}
+
+.image-cover p{
+    color: #fff;
+    text-align: center;
+    font-size: 2em;
+    padding: 0px 300px;
+    font-weight: 100;
+}
+
+/*---------- SECTION 1 ----------*/
+#whatsOnSpotyfy{
+    height: 600px;
+}
+#whatsOnSpotify div{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding: 0 20px;
+}
+#whatsOnSpotify hr{
+    border: 2px solid #00B172;
+    width: 25%;
+}
+
+#whatsOnSpotify .whatsOn{
+    height: 400px;
+    flex-direction:column ;
+    align-content: center;
+    width: 25%;
+}
+
+.whatsOn img{
+    width: 100px;
+    height: 100px;
+
+}
+
+.whatsOn h4{
+    color: #00B172;
+}
+
+.whatsOn p{
+    text-align: center;
+    padding: 0 40px;
+    margin-top: 0;
+}
+
+/*---------- SECTION 2 ----------*/
+
+#green-section{
+    background-color: #00B172 ;
+}
+#green-section div{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding: 0 20px;
+}
+
+.logo-white img{
+    width: 100px;
+}
+
+.spoty-app img{
+    width: 200px;
+}
