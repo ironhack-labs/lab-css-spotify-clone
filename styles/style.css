@@ -6,3 +6,172 @@ Green: #00B172
 White: #FFF
 
 */
+
+* {
+  font-size: 10px;
+  font-family: Verdana, Geneva, Tahoma, sans-serif;
+  margin: 0;
+  padding: 0;
+}
+
+nav > img {
+  width: 15%;
+  height: 5%;
+}
+
+nav {
+  background-color: #fff;
+  display: flex;
+  justify-content: space-between;
+  padding-top: 2em;
+  padding-bottom: 3em;
+  padding-left: 4em;
+  padding-right: 4em;
+}
+
+ul {
+  list-style-type: none;
+  display: flex;
+}
+
+ul > li {
+  padding: 2em;
+}
+
+a {
+  font-size: 3em;
+  text-decoration: none;
+  color: black;
+}
+/* Section 1 Landing */
+#landing {
+  background-color: #000000;
+  background-image: url("../images/landing.jpg");
+  height: 90em;
+  background-position: center;
+  background-size: 130em;
+  margin: 0;
+  padding: 0;
+  color: #fff;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  flex-direction: column;
+}
+
+#landing > h1 {
+  font-size: 10em;
+  padding-bottom: 0.5em;
+}
+
+#landing > p {
+  font-size: 3em;
+  padding-bottom: 0.3em;
+}
+
+/* Section 2 What's in Spotify */
+
+#what {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  height: 65em;
+}
+
+h2 {
+  font-size: 6em;
+  border: 0.1em solid #00b172;
+  border-top: 0;
+  border-left: 0;
+  border-right: 0;
+  padding-top: 1em;
+}
+
+#what > div {
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  padding-top: 7em;
+}
+
+.features {
+  display: flex;
+  justify-content: center;
+  flex-direction: column;
+  text-align: left;
+  padding-left: 15em;
+  padding-right: 15em;
+}
+
+.logo {
+  width: 65%;
+  display: flex;
+  padding-left: 6em;
+  padding-bottom: 4em;
+}
+
+#speaker {
+  padding-bottom: 1em;
+}
+
+.features h5 {
+  color: #00b172;
+  font-size: 3em;
+  text-align: center;
+  padding-bottom: 1em;
+}
+
+p {
+  color: #1a1a1a;
+  font-size: 3em;
+  text-align: center;
+}
+
+/* Section 3 Kanye */
+
+#app {
+  background-color: #00b172;
+  border: 4em solid #fff;
+  border-bottom: 0;
+  padding-bottom: 5em;
+  height: 96em;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+
+  /* Spotify Logo */
+  background-image: url(../images/spotify-icon-white.png);
+  background-position: center;
+  background-size: 15em;
+  background-repeat: no-repeat;
+}
+
+.kenyeTitle {
+  border-bottom: 0.1em solid #fff;
+  width: 62%;
+}
+
+#functionalities h5 {
+  color: #fff;
+  font-size: 3.5em;
+  padding-top: 1.5em;
+  padding-bottom: 1.5em;
+}
+
+#functionalities p {
+  text-align: left;
+  width: 35%;
+}
+
+#functionalities {
+  padding-left: 8em;
+}
+
+.kenye {
+  height: 80%;
+  place-items: center;
+  padding: 0;
+  padding-top: 15em;
+  padding-right: 10em;
+  margin: 0;
+}
