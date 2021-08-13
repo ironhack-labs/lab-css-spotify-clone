@@ -6,3 +6,173 @@ Green: #00B172
 White: #FFF
 
 */
+
+
+
+
+#nav-bar{
+    width: 100%;
+    height: 80px;
+    position: relative;
+    background-color:white;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+
+nav {
+    width: 300px;
+}
+
+nav a {
+    text-decoration: none;
+    color: black;
+}
+
+nav ul {    
+    list-style: none;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    margin-right: 25px;
+}
+
+nav li {
+    width: 40%;
+    margin-right: 25px;
+}
+
+
+.logo {
+    width: 155px;
+    padding:25px;
+    margin-top:15px;
+}
+
+.container {
+    position: relative;
+    text-align: center;
+    color:#fff;
+    width: 100%;
+    height: 600px;
+    padding-top: 5px;
+    background-image: url(/images/landing.jpg);
+    background-size: cover;
+    background-repeat: no-repeat;
+}
+
+.title-1 {
+    margin-top: 200px;
+    color: #fff;
+    font-size: 56px;
+    margin-bottom: 20px;
+}
+
+.subt-1 {
+    color: #fff;
+    font-size: 18px;
+}
+
+
+/*------- Section 1 -------*/
+#curiosity {
+    height:auto;
+    display: flex;
+    flex-direction:column;
+
+}
+
+#curiosity h2 {
+    font-size: 22px;
+    padding: 20px 15px 5px 15px;
+    height: 30px;
+    margin: 0 auto;
+    position:relative;
+    box-shadow: #00B172 0px 5px 0px 0px;
+}
+
+.external {
+    display: flex;
+    justify-content: space-evenly;
+    flex-direction: row;    
+}
+
+.external div {
+    margin: 60px;
+}
+
+
+.internal {
+    display: flex;
+    flex-direction: column;
+    justify-content: space-evenly;
+    text-align: center; 
+}
+
+.internal h3, img {
+    margin-bottom: 18px;
+    color:#00B172;
+    font-size: 22px;    
+}
+
+.internal img {
+    width: 35%;  
+    align-items: center;
+    margin-left: 98px;  
+}
+
+.internal p {
+    font-size: 16px;
+    color:grey;
+}
+
+
+/*------- Section 2 -------*/
+
+
+#green-part {
+    margin: 0px 20px;
+    background-color: #00B172;
+    display: flex;
+    justify-content: space-evenly;
+}
+
+#green-part h2,h3,p{
+    color: #fff;
+}
+
+#green-part h2 {   
+    margin-bottom: 50px; 
+    border-bottom: 3px solid #fff;
+    width: 430px;
+    font-size: 34px;    
+}
+
+.all {
+    padding-top:45px;
+    margin-left: 80px;
+}
+
+.all h3 {
+    margin-bottom: 20px;
+    font-size: 24px;
+}
+.all p { 
+    margin-bottom: 25px;
+    font-size: 20px;
+}
+
+.spotify-white {
+    width: 120px;
+    display: flex;
+    align-items: center;
+    position:absolute;
+    margin-top: 250px;
+}
+
+.app {
+    padding-top:80px;
+    padding-left: 380px;
+    padding-right: 20px;
+    width: 35%;
