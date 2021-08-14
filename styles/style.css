@@ -8,7 +8,7 @@ White: #FFF
 */
 body {
     width: 100%;
-    margin: 10px 0px;
+    margin: 0px 0px 0px 0px;
     /* padding: 50px; */
 }
 
@@ -20,13 +20,15 @@ nav {
     align-items: flex-start;
     align-content: flex-end;
     justify-content: space-between;
-
+    background-color: white;
+    padding: 5px 0px;
 
 }
 
 #spotify-logo {
     width: 150px;
     padding-left: 20px;
+    padding-top: 3px;
 }
 
 #links-container {
@@ -48,11 +50,12 @@ div ul {
 
 #nav-content {
     padding-top: 30px;
+    width: 100%;
 }
 
 #image-container {
     background-image: url(/images/landing.jpg);
-    height: 800px;
+    height: 700px;
     width: 100%;
     background-position: center;
     background-repeat: no-repeat;
@@ -71,6 +74,7 @@ h1 {
 
 h2 {
     font-size: 2rem;
+    text-align: center;
 }
 
 .section2-boxes {
@@ -87,7 +91,7 @@ h2 {
     align-items: center;
 }
 
-p {
+.section2 p {
     width: 180px;
     text-align: center;
 }
@@ -105,13 +109,84 @@ h4 {
     color: #00B172;
 }
 
-hr {
-
-    /* border-width: 0px; */
+.green-line {
     background-color: #00B172;
     height: 2px;
     border: none;
     margin-top: 5px;
     margin-bottom: 30px;
     width: 155px;
+}
+
+.section3 {
+    margin: 0px 20px;
+}
+
+.section3-title {
+    display: flex;
+    background-color: #00B172;
+    width: 100%;
+    justify-content: space-around;
+}
+
+.section3-title {
+    display: flex;
+    justify-content: center;
+    align-items: center
+}
+
+.icon2 {
+    display: flex;
+    background-color: #00B172;
+    width: 100%;
+    justify-content: flex-end;
+    align-items: center;
+    padding: 50px;
+}
+
+
+
+#spotify-icon-white {
+    width: 80px;
+    padding-right: 100px;
+}
+
+#kanye-img {
+    width: 250px;
+    padding: 40px;
+}
+
+.boxes>div {
+    /* display: flex;
+    flex-direction: column; */
+    margin-left: 40px;
+    padding: 0px;
+    color: white;
+}
+
+h6 {
+    font-size: 1rem;
+    margin: 0px;
+
+}
+
+h5 {
+    font-size: 2rem;
+    width: 400px;
+    margin-left: 20px;
+    color: white;
+}
+
+#line2 {
+    background-color: white;
+    height: 1px;
+    border: none;
+    /* margin-top: 5px; */
+    margin-bottom: 0px;
+    width: inherit;
+    padding: 0;
+}
+
+.section3-p {
+    width: 200px;
 }
