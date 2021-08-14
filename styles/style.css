@@ -1,3 +1,6 @@
+@import url('https://fonts.googleapis.com/css2?family=Roboto:wght@100;300;400&display=swap');
+
+
 /*
 Colors:
 
@@ -6,3 +9,72 @@ Green: #00B172
 White: #FFF
 
 */
+
+  /* keeps the element inside the parent border */
+  * {
+    margin: 0px;
+    padding: 0px;
+    box-sizing: border-box; 
+    font-family: Roboto;
+  }
+
+  .logo-image{
+    width: 10rem;
+    height: 3rem;
+
+    margin-left: 10px;
+  }
+
+  header{
+      position: fixed;
+      display: flex;
+      flex-direction: row;
+      justify-content: space-between;
+      padding: 15px;
+      background-color: #ffffff;
+      width: 100%;
+      align-items: center;
+  }
+
+  .nav-bar{
+      list-style-type: none;
+      display: flex;
+      flex-direction: row;
+      justify-content: space-around;
+  }
+
+  .nav-bar > li{
+      margin: 0 13px;
+  }
+
+  .landing-page-text{
+    background-image: url('../images/landing.jpg');
+    background-repeat: no-repeat;
+    background-size: cover;
+    color: #ffffff;
+    height: 750px;
+    text-align: center;
+
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-flow: column
+
+  }
+
+  .landing-page-text > h1{
+      font-size: 50px;
+      letter-spacing: 1px;
+
+  }
+
+  .landing-page-text > p{
+    margin-top: 20px;
+    font-size: 20px;
+    font-weight: 100;
+
+    width: 30rem;
+
+    letter-spacing: 0.2px;
+    line-height: 30px;
+  }
