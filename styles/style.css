@@ -1,8 +1,159 @@
-/*
-Colors:
+* {
+  box-sizing: border-box;
+  font-family: arial;
+  font-size: 10px;
+  padding: 0;
+  border: 0;
+}
 
-Text: 1A1A1A
-Green: #00B172
-White: #FFF
+/*  HEADER & NAV */
 
-*/
+.nav {
+  display: flex;
+  justify-content: space-between;
+  position: fixed;
+  padding: 10px 0;
+  background: white;
+  width: 100%;
+  padding: 3em 7em;
+  z-index: 2000;
+}
+
+.divLogo img {
+  width: 150px;
+}
+
+.listaNav {
+  display: flex;
+  list-style: none;
+  width: 30%;
+  justify-content: space-evenly;
+}
+
+.listaNav li a {
+  font-size: 2em;
+  text-decoration: none;
+  color: black;
+}
+
+.landing {
+  height: 140vh;
+  background-image: url(/images/landing.jpg);
+  background-size: cover;
+  display: flex;
+  justify-content: center;
+  flex-direction: column;
+  position: relative;
+  text-align: center;
+  color: white;
+}
+
+.landing h1 {
+  display: flex;
+  font-size: 6em;
+  color: white;
+  font-weight: lighter;
+  justify-content: center;
+}
+
+.landing p {
+  font-size: 2em;
+}
+
+/* SECTION 1 */
+
+.section1 {
+  height: 60vh;
+  text-align: center;
+}
+.section1 h1 {
+  font-size: 4em;
+  text-decoration: underline;
+  text-decoration-color: rgb(17, 163, 17);
+  height: 3em;
+}
+.elements {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+.sec1elements {
+  display: flex;
+  justify-content: space-evenly;
+}
+
+.elements img {
+  width: 120px;
+}
+
+.elements h2 {
+  font-size: 3em;
+  color: rgb(17, 163, 17);
+}
+
+.elements p {
+  font-size: 2.2em;
+  text-align: center;
+  width: 60%;
+}
+
+/* SECTION 2 */
+
+.section2 {
+  height: 110vh;
+  background-color: #1ab26b;
+  margin: 7em 7em 0 7em;
+  color: white;
+  display: flex;
+  flex-direction: row;
+}
+
+.section2Left {
+  display: flex;
+  flex-direction: column;
+  width: 50%;
+  align-items: center;
+}
+
+.titlesection2 h1 {
+  font-size: 3.5em;
+  font-weight: 500;
+  text-decoration: underline;
+  padding-left: 5.5em;
+  padding-top: 2em;
+}
+
+.elements2 {
+  height: 24vh;
+}
+.elements2 h1 {
+  font-size: 3em;
+  font-weight: 500;
+}
+
+.elements2 p {
+  font-size: 2em;
+  font-weight: 200;
+}
+
+.sectionRight {
+  height: 80em;
+  display: flex;
+  align-items: center;
+  padding-left: 20em;
+}
+
+.sectionRight img {
+  width: 35em;
+}
+
+.logosection2 {
+  position: absolute;
+  padding-left: 67em;
+  padding-top: 35em;
+}
+
+.logosection2 img {
+  width: 100px;
+}
