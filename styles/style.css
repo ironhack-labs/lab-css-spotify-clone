@@ -6,3 +6,225 @@ Green: #00B172
 White: #FFF
 
 */
+
+@import url('https://fonts.googleapis.com/css2?family=Inter:wght@100;200;300;400;500;600;700;800;900&display=swap');
+
+*{
+    font-family: inter;
+    margin: 0;
+    padding: 0;
+    font-size: 16px;
+}
+
+/* Menu Flotante*/
+
+nav{
+    position: fixed;
+    width: 100%;
+    background-color: white;
+    
+
+}
+
+.menu{
+    display: flex;
+    justify-content: space-between;
+    background-color: none;
+}
+
+.menu img{
+    width: 240px;
+    height: auto;
+    background-color: none;
+    margin: 18px 0px 18px 35px;
+}
+
+.menu ul{
+    display: flex;
+    justify-content: space-between;
+    list-style: none;
+    background-color: none;
+    width: 35%;
+    color: black;
+    margin: auto 35px;
+}
+
+.menu ul li a{
+    color: black;
+    text-decoration: none;
+    font-size: 1.4rem;
+    font-weight: 300;
+}
+
+/*-------------------------*/
+
+/* Sección de presentación */
+
+.presentation{
+    background-image: url("../images/landing.jpg");
+    background-size: cover;
+    height: 900px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+
+}
+
+.presentation .div{
+    margin: auto;
+}
+
+.presentation div h1{
+    font-size: 5.5rem;
+    color: #FFF;
+    font-weight:600;
+    margin: 30px auto;
+}
+
+.presentation div h3{
+    font-size: 2rem;
+    color: #FFF;
+    font-weight:lighter;
+    width: 60%;
+    margin: auto;
+}
+
+/*-------------------------*/
+
+/* Sección de características */
+
+.features{
+    text-align: center;
+    background-color: none;
+    height: 600px;
+
+}
+.features h2{
+    font-size: 2.8rem;
+    font-weight: 500;
+    margin: 60px auto 10px
+}
+.features hr{
+    margin: 0 520px;
+    border: 3px solid #00B172;
+
+}
+
+.featuresContainer{
+    display: flex;
+    justify-content: space-evenly;
+    background-color:none;
+    margin-top: 20px
+}
+
+.containerFeatures{
+    width: 300px;
+    height: 300px;
+    margin-top: 100px;
+    background-color:none;
+    display: flex;
+    flex-direction: column;  
+}
+.containerFeatures div {
+    height: 140px;
+    background-color: none;
+
+}
+.containerFeatures div img{
+    width: 150px;
+    background-color: none;
+    margin: 0 auto;
+    margin-bottom: 10px;
+    background-color: none;
+}
+
+.containerFeatures h3{ 
+    font-size: 1.8rem;
+    font-weight: 600;
+    background-color: none;
+    color: #00B172;
+
+}
+
+.containerFeatures p{
+    font-size: 1.5rem;
+    font-weight: lighter;
+    margin-top: 30px;
+    background-color: none;
+}
+
+/*-------------------------*/
+
+/* Aplicación Mobil */
+
+.mobileApp{
+    background-color: #00B172;
+    margin: 35px;
+    position: relative;
+    height: 780px;
+    
+}
+
+.backgroundLogo img{
+    position: absolute;
+    width: 150px;
+    top: 50%;
+    bottom: 50%;
+    left: 44%;
+    right: 50%;
+   
+}
+
+.flexElements{
+    display: flex;
+    justify-content: space-between;
+}
+
+.appText{
+    width: 50%;
+    height: 650px;
+    background-color: none;
+    margin: 80px
+}
+
+.appText h2{
+    font-size: 2.4rem;
+    font-weight: 600;
+    border-bottom: 3px solid white;
+    color: white;
+    margin: 0;
+    padding: 0;
+}
+
+.appText h3{
+    font-size: 1.8rem;
+    font-weight: 600;
+    background-color: none;
+    color: white;
+    padding-top: 40px
+}
+
+.appText p{
+    font-size: 1.5rem;
+    font-weight: lighter;
+    color: white;
+    background-color: none;
+    padding-right: 160px;
+    padding-top: 30px
+}
+
+.appImg {
+    width: 50%;
+    height: 650px;
+    background-color: none;
+    margin: 80px;
+    
+}
+
+.appImg img{
+    width: auto;
+    height: 100%;
+    margin-left: 120px
+}
