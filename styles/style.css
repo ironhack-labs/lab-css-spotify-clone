@@ -6,3 +6,140 @@ Green: #00B172
 White: #FFF
 
 */
+
+
+body {
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+    font-size: 10px;
+    background-color: black;
+}
+
+
+/*HEADER*/
+
+
+header{
+    background-color: #fff;
+    display: flex;
+    justify-content: space-between;
+   
+}
+
+#logo{
+    height: 80px;
+    width: 250px;
+    padding: 15px 40px;
+}
+
+nav{
+    margin: auto 0;
+    padding: 0 40px;
+}
+
+nav ul{
+    display: flex;
+    justify-content: space-around;
+}
+
+nav li{
+    list-style: none;
+    font-size: 1.7rem;
+    text-decoration: none;
+}
+
+nav a{
+    text-decoration: none;
+    color: #1A1A1A;
+    font-family: Arial;
+    font-weight: 200;
+    padding: 20px;
+    
+}
+
+
+/*INTRO SECTION*/
+
+#intro{
+    background: url(/images/landing.jpg);
+    background-size: cover;
+    height: 150vh;
+    display: flex;
+    flex-direction: column;
+}
+
+#intro h1{
+font-size: 5.5rem;
+font-family: arial;
+font-weight: lighter;
+color: #fff;
+margin:400px auto 40px auto;
+
+}
+
+#intro-text{
+    font-size: 2rem;
+    font-family: arial;
+    font-weight: lighter;
+    color: #fff;
+    width: 50%;
+    margin: 0 auto;
+    text-align: center;
+    line-height: 40px;
+    }
+
+
+/*SERVICES SECTION */
+
+#services{
+    background-color: #fff;
+    height: 100vh;
+    display: flex;
+    flex-direction: column;
+}
+
+#services h2{
+    font-size: 3rem;
+    font-family: Arial;
+    border-bottom: 5px solid #00B172;
+    margin: 50px auto;
+}
+
+#services-container{
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    ;
+}
+.services-card{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    border: 1px solid black;
+    padding: 0;
+    margin: 0;
+}
+.card-title{
+    font-size: 2rem;
+    font-weight: bold;
+    font-family: Arial;
+    width: 60%;
+    border: 1px solid black;
+    color: #00B172;
+   
+}
+
+.card-text{
+    font-size: 1.5rem;
+    font-family: Arial;
+    font-weight: lighter;
+    width: 40%;
+    border: 1px solid black;
+    text-align: center;
+}
+#services img{
+    height: 125px;
+    width: 125px;
+    border:1px solid black;
+}
