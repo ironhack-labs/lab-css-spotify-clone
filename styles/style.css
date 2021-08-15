@@ -6,3 +6,214 @@ Green: #00B172
 White: #FFF
 
 */
+
+body {
+    padding: 0;
+    margin: 0;
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+.header {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    height: 85px;
+}
+
+.header img{
+    margin-left: 20px;
+    width: 10%
+}
+
+.header-list{
+    margin-right: 30px;
+    width: 400px;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+}
+
+.header-list ul{
+    list-style: none;
+}
+
+
+.div1 {
+    width: 100%;
+    height: 880px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    position: relative;
+}
+
+.div1-img {
+    position: absolute;
+    height: 880px;
+    width: 100%;
+}
+
+.div1-title  {
+    font-size: 90px;
+    color: white;
+    height: 30px;
+    z-index: 2;
+}
+
+.div1-p {
+    z-index: 2;
+    margin-top: 2px;
+    color: white;
+    font-size: 35px;
+    text-align: center;
+}
+
+.div2{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+.div2-div{
+    display: flex;
+    flex-direction: column; 
+    justify-content: center;
+    align-items: center;
+}
+
+.div2 h3{
+    font-size: 50px;
+    margin-bottom: 5px;
+}
+
+.div2-string {
+    margin-top: 1px;
+    width: 100%;
+    height: 6px;
+    background-color: #00B172;
+}
+
+.div2-moreDivs {
+    display: flex;
+    flex-direction: row;
+    width: 100%;
+    justify-content: space-evenly;
+    margin-top: 60px;
+}
+
+.div2-moreDivs-div1 img{
+    width: 100px;
+}
+.div2-moreDivs-div2 img{
+    width: 100px;
+    margin-top: 15px;
+}
+.div2-moreDivs-div3 img{
+    width: 100px;
+}
+
+.div2-moreDivs-div1 {
+    display: flex;
+    width: 230px;
+    
+    flex-direction: column;
+    align-items: center;
+    text-align: center;
+}
+
+.div2-moreDivs-div2 {
+    display: flex;
+    width: 230px;
+    
+    flex-direction: column;
+    align-items: center;
+    text-align: center;
+}
+
+.div2-moreDivs-div3 {
+    display: flex;
+    width: 230px;
+    
+    flex-direction: column;
+    align-items: center;
+    text-align: center;
+}
+
+.div2-moreDivs-div1 h4 {
+    color: #00B172;
+    font-size: 25px;
+    margin-bottom: 5px;
+}
+
+.div2-moreDivs-div2 h4 {
+    color: #00B172;
+    font-size: 25px;
+    margin-bottom: 5px;
+}
+
+.div2-moreDivs-div3 h4 {
+    color: #00B172;
+    font-size: 25px;
+    margin-bottom: 5px;
+}
+
+.div3{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.div3-divFondo {
+    background-color: #00b172;
+    background-image: url(../images/spotify-icon-white.png);
+    background-repeat: no-repeat;
+    background-position: center center;
+    background-size: 100px;
+    display: flex;
+    width: 95%;
+    height: 100%;
+    flex-direction: row;
+    justify-content: space-between;
+}
+
+.div3-divFondo-leftDiv{
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+    margin-left: 60px;
+    margin-top: 45px;
+    color: white;
+}
+
+.div3-divFondo-leftDiv-string {
+    width: 100%;
+    height: 6px;
+    background-color: white;
+}
+
+.div3-divFondo-leftDiv h4{
+    font-size: 35px;
+    margin-bottom: 7px;
+}
+
+.div3-divFondo-leftDiv h5{
+    font-size: 28px;
+}
+
+.div3-divFondo-leftDiv p{
+    font-size: 18px;
+}
+
+.div3-divFondo-rigthDiv{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.div3-divFondo-rigthDiv img{
+    margin-top: 50px;
+    width: 60%;
+    height: 75%;
+}
