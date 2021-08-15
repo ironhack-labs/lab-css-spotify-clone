@@ -1,4 +1,4 @@
-/*
+/* 
 Colors:
 
 Text: 1A1A1A
@@ -6,3 +6,189 @@ Green: #00B172
 White: #FFF
 
 */
+@import url('https://fonts.googleapis.com/css2?family=Montserrat:wght@100&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Montserrat:wght@500&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Montserrat:wght@700&display=swap');
+
+*{
+    margin: 0;
+    padding: 0;
+}
+
+body{
+    font-family: 'Montserrat';
+    font-size: 10px;
+    color: 1A1A1A;
+    line-height: 3.5em;
+    font-weight: 300;
+}
+
+
+/* NAV  */
+.nav-bar {
+    padding: 30px 0px; 
+    background-color: #FFF;
+}
+
+.nav-bar img{
+    width: 150px;
+    float: left;
+    margin-left: 40px;
+}
+
+.nav-bar a{
+    color: inherit;
+    text-decoration: none;
+    font-size: 2em;
+    float: right;
+    margin: 6px 0px;
+    font-weight: 400;
+    
+}
+
+ .nav-bar-ul{ 
+     width: 0px;
+     margin: auto;
+     display: flex; 
+}
+
+
+.nav-bar-ul li{
+    list-style-type: none;
+    margin-left: 50px;
+    
+}
+
+/* HEADER */
+.header{
+    background-image: url("../images/landing.jpg");
+    background-size: cover; 
+    background-position: 0 0;
+    background-repeat: no-repeat;
+    height: 900px;
+    padding-top: 0px;
+    position: relative; 
+    object-fit: cover;
+}
+
+h1{
+    font-size: 7.5em;
+    text-align: center;
+    color: #FFF;
+    font-weight: bolder;
+    margin-top: 290px;
+    margin-bottom: 70px;
+    
+}
+
+h2{
+    color: #FFF;
+    font-size: 2.6em;
+    text-align: center;
+    line-height: 1;
+    font-weight: 100;
+   
+}
+
+.container{
+    font-size: 2.8em;
+    text-align: center;
+}
+
+.container hr{
+    margin: 10px auto 0px auto;
+    width: 22%;
+    border: 3px solid #00B172;
+}
+
+/* NEW SECTION */
+
+.container{
+  margin: 0 auto;
+  padding: 50px 0;
+}
+
+.container img{
+    width: 125px;
+    margin: 20px 0px;
+}
+.bigger-space{
+    margin-top:18px;
+}
+.bigger-space2{
+    margin-top: 8px;
+}
+
+.container > div{
+    display: flex;
+    justify-content: space-between;
+}
+
+.service-box{
+    margin: 80px;
+    width: 33.33%;
+    
+    
+}
+
+.service-box h4{
+    color: #00B172;
+    font-size: 0.8em;
+    margin-bottom: 10px;
+    font-style: 'Montserrat';
+    font-weight: 900;
+}
+.service-box p{
+    font-size: 1.2rem;
+    font-weight: 300;
+}
+
+/* Green Box */
+
+.green-box{
+    background-image: url(../images/spotify-icon-white.png);
+    background-size: 150px;
+    background-repeat: no-repeat;
+    background-position: center;
+    text-align: left;
+    display: flex;
+    margin: 0 40px 40px 40px;
+    background-color: #00B172;
+    color: #FFF;
+}
+
+.green-box div{
+    width: 50%;
+    margin: 60px 90px 90px 90px;
+    
+}
+
+.green-box h3{
+    font-weight: bolder;
+    font-size: 3em;
+}
+
+.green-box h4{
+    padding-top: 55px;
+    font-size: 2.2em;
+    font-weight: 700;
+}
+
+.green-box p{
+    font-size: 1.8em;
+    margin-top: 20px;
+    font-weight: 300;
+}
+.green-box hr{
+    margin: 5px 50px 0px auto;
+    border: 2px solid #FFF;
+
+}
+.green-box img{
+    width: 350px;
+    position: relative;
+    margin-top: 30px;
+}
+.app-image-right{
+    text-align: right;
+}
