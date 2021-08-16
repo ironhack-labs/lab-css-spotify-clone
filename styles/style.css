@@ -2,7 +2,188 @@
 Colors:
 
 Text: 1A1A1A
-Green: #00B172
-White: #FFF
+Green: 
+White: 
 
 */
+
+/* He visto esto del root y quiero probarlo, así que lo usaré aquí ya que tenemos dos colores definidos por defecto arriba */
+:root {
+    --main-color: #00B172;
+    --default-color: #FFF;
+    --text-color: #1A1A1A;
+  }
+
+* {
+    box-sizing: border-box;
+    padding: 0;
+    margin: 0;
+    font-family: 'open sans',arial,sans-serif;
+}
+
+.spotify-logo{
+    width: 250px;
+    padding-left: 20px;
+    padding-top: 3px;
+}
+
+.header{
+    position: fixed;
+    width: 100%;
+    display: flex;
+    background-color: var(--default-color);
+    padding: 5px 0px;
+    justify-content: flex-end;
+}
+
+header{
+    display: flex;
+    flex-direction: row;
+   
+}
+
+.header-container{
+    width: 100%;
+    align-self: center;
+    text-align: right;
+}
+
+.header-nav{
+    width: 100%;
+}
+
+.header-nav a{
+    text-decoration: none;
+    color: black;
+    padding: 0 30px;
+}
+
+.portrait-img{
+    background-image: url("../images/landing.jpg");
+    background-size: cover;
+    background-repeat: no-repeat;
+    height: 1200px;
+    width: 100vw;
+    justify-content: center;
+    align-items: center;
+    display:flex;
+    flex-direction: column;
+}
+
+.portrait-img h1{
+    color:white;
+    font-size:80px;
+    text-align: center;
+
+}
+
+.portrait-img p{
+    color:white;
+    margin-top:2%;
+    width:50%;
+    text-align: center;
+    font-size: 29px;
+    font-weight: lighter;
+}
+
+.section1{
+    margin-bottom: 50px;
+}
+
+.section1 h1{
+    width: 100%;
+    text-align: center;
+    margin-top: 2%;
+    font-size:40px;
+    margin-bottom:4%;
+    /* border-bottom: 4px solid var(--main-color); */
+    text-decoration: underline; 
+    text-decoration-color: var(--main-color);
+}
+
+.section1-container{
+    display:flex;
+    flex-direction: row;
+    justify-content: space-around;
+    text-align: center;
+    padding: 0 150px;
+    
+}
+
+.section1-container img{
+    width: 130px;
+}
+
+.section1-container p{
+    font-size: 20px;
+    width: 55%;
+    margin: 30px auto;
+    font-weight: lighter;
+
+}
+
+.div-options2 img{
+    margin-bottom: 15px;
+}
+
+.section1 h3{
+    color: var(--main-color);
+    font-size: 25px;
+    font-weight:bolder;
+}
+
+.footer{
+    background-color: var(--main-color);
+    color: var(--default-color);
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    width: 90vw;
+    margin: 0 auto;
+}
+
+.container1-footer{
+    width: 40%;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-evenly;
+}
+
+.container1-footer h1{
+  color:white;
+  border-bottom:4px solid white;
+  font-size: 40px;
+}
+
+.container1-footer p{
+  font-weight: lighter;
+  font-size: 20px;
+  /* margin: 20px 0; */
+  width: 70%;
+}
+
+.container1-footer h3{
+   font-size: 25px;
+   margin-bottom:40px;
+}
+
+.container2-footer{
+    align-self: center;
+    height: 100%;
+}
+
+.container2-footer img{
+    width: 130px;
+}
+
+.container3-footer{
+    height: 100%;
+    align-self: center;
+    width: 40%;
+    text-align: center;
+}
+
+.container3-footer img{
+    height: 80vh;
+    margin: 90px 0;
+}
