@@ -9,7 +9,7 @@ White: #FFF
 body {
     width: 100%;
     margin: 0px 0px 0px 0px;
-    /* padding: 50px; */
+
 }
 
 
@@ -125,44 +125,37 @@ h4 {
 .section3-title {
     display: flex;
     background-color: #00B172;
-    width: 100%;
     justify-content: space-around;
+    flex-direction: column;
+    align-items: flex-start;
+    color: white;
+    padding-left: 70px;
+    height: 500px;
 }
 
-.section3-title {
-    display: flex;
-    justify-content: center;
-    align-items: center
-}
+
 
 .icon2 {
-    display: flex;
-    background-color: #00B172;
     width: 100%;
-    justify-content: flex-end;
-    align-items: center;
     padding: 50px;
 }
 
-
-
 #spotify-icon-white {
+    position: relative;
+    bottom: 300px;
+    left: 400px;
     width: 80px;
     padding-right: 100px;
 }
 
 #kanye-img {
+    position: relative;
+    bottom: 700px;
+    left: 680px;
     width: 250px;
     padding: 40px;
 }
 
-.boxes>div {
-    /* display: flex;
-    flex-direction: column; */
-    margin-left: 40px;
-    padding: 0px;
-    color: white;
-}
 
 h6 {
     font-size: 1rem;
@@ -171,20 +164,24 @@ h6 {
 }
 
 h5 {
+    position: relative;
     font-size: 2rem;
-    width: 400px;
-    margin-left: 20px;
+    width: fit-content;
     color: white;
+    position: relative;
+    width: fit-content;
 }
 
 #line2 {
+    position: absolute;
+    top: 25px;
     background-color: white;
-    height: 1px;
+    height: 2px;
     border: none;
-    /* margin-top: 5px; */
     margin-bottom: 0px;
     width: inherit;
     padding: 0;
+    width: 100%;
 }
 
 .section3-p {
