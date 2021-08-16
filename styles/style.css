@@ -13,7 +13,7 @@ body {
     margin: 0;
     box-sizing: border-box;
     font-size: 10px;
-    background-color: black;
+    background-color: #fff;
 }
 
 
@@ -110,23 +110,24 @@ margin:400px auto 40px auto;
     display: flex;
     justify-content: space-around;
     align-items: center;
+    margin-top: 100px;
     ;
 }
 .services-card{
     display: flex;
     flex-direction: column;
     align-items: center;
-    border: 1px solid black;
-    padding: 0;
-    margin: 0;
+    width: 35%;
+    height: 100%;
 }
 .card-title{
     font-size: 2rem;
     font-weight: bold;
     font-family: Arial;
-    width: 60%;
-    border: 1px solid black;
+    text-align: center;
+    width: 70%;
     color: #00B172;
+    margin-bottom: 0;
    
 }
 
@@ -134,12 +135,28 @@ margin:400px auto 40px auto;
     font-size: 1.5rem;
     font-family: Arial;
     font-weight: lighter;
-    width: 40%;
-    border: 1px solid black;
+    margin-top: 30px;
+    width: 60%;
     text-align: center;
 }
 #services img{
     height: 125px;
     width: 125px;
-    border:1px solid black;
+}
+
+
+/*INFO BANNER*/
+#info-banner{
+    background-color: #fff;
+}
+
+#banner-container{
+    background-color:#00B172 ;
+    width: 95%;
+    margin: 0 auto;
+}
+
+#banner-container img{
+    height: 150px;
+    width: 150px;
 }
