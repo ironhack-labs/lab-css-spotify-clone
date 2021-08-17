@@ -6,3 +6,168 @@ Green: #00B172
 White: #FFF
 
 */
+
+* {
+    color: #1A1A1A;
+    margin: 0;
+}
+
+.nav-bar {
+    display: flex;
+    border: 1px solid blue;
+    margin-bottom: 45px;
+}
+
+.nav-bar img {
+    width: 14%;
+    height: auto;
+    margin-left: 10px;
+    margin-top: .2em;
+}
+
+.nav-bar nav {
+    position: fixed;
+   background-color: white;
+}
+
+
+
+.nav-bar ul{
+  float: right;
+  display: flex;
+  border: 1px solid red;
+  margin: 1em 0;
+}
+
+.nav-bar li {
+    padding: 0 1em;
+    list-style-type: none;
+}
+
+.intro {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    background-image: url(/images/landing.jpg);
+    background-size: cover;
+    height: 450px;
+    color: #FFF;
+}
+
+.intro h1, p {
+    color: white;
+    margin: .2em;
+}
+
+.intro h1 {
+    font-size: 45px;
+}
+
+.intro p {
+    font-size: 15px;
+    max-width: 350px;
+}
+
+.intro-text {
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+    text-align: center;
+    border: 1px solid yellow;
+}
+
+.divider {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.divider strong {
+    margin: 1em;
+    border-bottom: 2px solid #00B172;
+}
+
+.icons {
+    display: flex;
+    justify-content:space-around;
+    align-items: center;
+    border: 1px solid green;
+    color: black;
+    height: 12em;
+}
+
+.icons img {
+    width: 50px;
+    height: auto;
+}
+
+.icons h3 {
+    color: #00B172;
+    font-size: 15px;
+    
+}
+
+.icons div {
+    border: 1px solid red;
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+    align-items: center;
+    
+    height: 10em;
+    width: 12em;
+}
+
+.icons p {
+    text-align: center;
+    color: black;
+    font-size: 12;
+    
+}
+
+.bottom-section {
+    position: absolute;
+    background-color: #00B172;
+    height: 28em;
+    padding: 2em;
+    width: 100%;
+}
+
+.bottom-heading {
+    border-bottom: 1px solid white;
+    font-size: 1.5em;
+    font-weight: 400;
+}
+
+.bottom-section strong {
+    color: white;
+    margin-bottom: 10em;
+}
+
+.bottom-section div {
+    margin: 2em 0;
+    width: 12em;
+}
+
+.bottom-section p {
+    margin-top: 1.2em;
+    font-size: .8em;
+}
+
+.logo img{
+    position: absolute;
+   width: 5em;
+   top: 35%;
+   left: 40%;
+}
+
+.bottom-image {
+    position: absolute;
+    right: 20%;
+    top: 8%;
+}
+
+.bottom-image img {
+    width: 12em;
+}
