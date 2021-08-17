@@ -1,8 +1,153 @@
-/*
-Colors:
+body {
+    background-color: white;
+    margin: 0px;
+    font-family: "Open Sans", sans-serif;
+}
 
-Text: 1A1A1A
-Green: #00B172
-White: #FFF
+nav {
+    background-color: white;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    position: fixed;
+    top: 0px;
+    left: 0px;
+    width: 100%;
+    height: 60px;
+}
 
-*/
+nav ul {
+    list-style: none;
+    display: flex;
+    margin-right: 25px;
+
+}
+
+nav ul li {
+    margin-left: 20px;
+}
+
+nav ul a {
+    text-decoration: none;
+    color: #1A1A1A;
+}
+
+.header-logo {
+    width: 125px;
+    margin-left: 25px;
+}
+
+.banner {
+    background-image: url("../images/landing.jpg");
+    background-size: cover;
+    height: 600px;
+    background-color:thistle;
+    margin: 0px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    color: white;
+}
+
+.banner h1 {
+    font-size: 3.5rem;
+    margin-bottom: 15px;
+}
+
+.banner p {
+    text-align: center;
+    font-size: 1rem;
+}
+
+.main {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.main h3 {
+    text-align: center;
+    margin-bottom: 30px;
+    margin-top: 50px;
+    font-size: 1.75rem;
+    border-bottom: 2px solid #00B172;
+    padding-bottom: 10px;
+}
+
+.main-cards {
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    width: 100%;
+    margin-bottom: 75px;
+
+}
+
+.card {
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+    width: 175px;
+}
+
+.card img {
+    width: 75px;
+
+}
+
+.card h4 {
+    color: #00B172;
+    font-size: 1.1rem;
+    margin-bottom: 5px;
+}
+
+.card p {
+    text-align: center;
+    color: 1A1A1A;
+}
+
+.bottom-main {
+    display: flex;
+    background-color: #00B172;
+    color: white;
+    padding-left: 80px;
+}
+
+.bottom-main h3 {
+    margin-bottom: 30px;
+    margin-top: 50px;
+    font-size: 1.75rem;
+    border-bottom: 2px solid white;
+    padding-bottom: 10px;
+    display:inline-block;
+}
+
+.image-right {
+    width: 30%;
+    padding: 80px;
+}
+
+.image-right  img {
+    max-width: 100%;
+}
+
+.text-left {
+    flex-grow: 1;
+    position: relative;
+}
+
+.content-text{
+    max-width: 300px;
+}
+
+.content-text h4 {
+    font-size: 1.3rem;
+}
+
+.white-logo {
+    position: absolute;
+    top: 40%;
+    right: 10%;
+    width: 100px;
+}
