@@ -9,6 +9,7 @@ White: #FFF
 
 html {
     font-family: Circular,spotify-circular,Helvetica,Arial,sans-serif;        
+    color: 1A1A1A;    
 }
 
 img {
@@ -19,6 +20,52 @@ img {
 
 
 
+/*
+Service Box Part
+*/
+.whats-on-spotify {
+    display: flex;
+    flex-direction: column;
+    align-content: center;
+    margin-bottom: 25px;
+}
+
+.whats-on-spotify h2 {
+    text-align: center;
+}
+.whats-on-spotify hr {
+    border: 1.2px solid #00B172;
+    width: 225px;
+    margin-top: -15px;
+}
+
+.service-boxes {
+    display: flex;
+}
+
+.box {
+    width: 30%;
+    border: 2px solid lightgray;
+    margin: 5%;
+    text-align: center;
+    margin: 1%;
+    padding: 2%;
+}
+.box img {
+    width: 45px;
+}
+.box h3 {
+    color: #00B172;
+    font-size: smaller;
+    margin-top: 1px;
+}
+.box p {
+    font-size: 9px;
+}
+
+/*
+Kanye Info Part
+*/
 .news {
     background-image: url("/images/spotify-icon-white.png");
     background-color:#00B172;
