@@ -17,8 +17,32 @@ img {
     height: auto;
 }
 
+/*
+HeroImage Part
+*/
 
+.hero-image {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    background-image: url("/images/landing.jpg");
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: center;
 
+    width: 100%;
+    height: 250px;
+
+    color: white;
+    text-align: center;
+}
+.hero-image h1, p {
+    width: 70%;
+}
+.hero-image p {
+    font-size: 0.7em;
+    font-weight: lighter;
+}
 
 /*
 Service Box Part
