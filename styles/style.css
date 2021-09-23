@@ -98,23 +98,28 @@ Service Box Part
 }
 
 .box {
+    display: flex;
+    flex-direction: column;
     width: 30%;
     border: 2px solid lightgray;
     margin: 5%;
     text-align: center;
-    margin: 1%;
-    padding: 2%;
+    background-color: blueviolet;
 }
 .box img {
-    width: 45px;
+    width: 50%;
+    align-self: center;
 }
 .box h3 {
     color: #00B172;
     font-size: smaller;
-    margin-top: 1px;
+    align-self: center;
+    background-color: teal;
 }
 .box p {
+    background-color: tomato;
     font-size: 9px;
+    width: 100%;
 }
 
 /*
