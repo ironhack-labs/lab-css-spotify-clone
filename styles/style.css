@@ -7,7 +7,49 @@ White: #FFF
 
 */
 
+html {
+    font-family: Circular,spotify-circular,Helvetica,Arial,sans-serif;        
+}
+
 img {
     width: 250px;
     height: auto;
+}
+
+
+
+
+.news {
+    background-image: url("/images/spotify-icon-white.png");
+    background-color:#00B172;
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: 50px;
+    color: white;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+}
+.info {
+    width: 30%;
+}
+.news h3 {
+    border-bottom: 2px solid white;
+    padding-bottom: 2px;
+    max-width: fit-content;
+    width: 225px;
+    font-size: 1em;
+}
+.news h4 {
+    font-weight: bold;
+    font-size: 0.8em;
+}
+.news p {
+    font-size: 0.5em;
+    font-weight: lighter;
+}
+.news img {
+    width: 30%;
+    height: auto;
+    align-self: center;
 }
