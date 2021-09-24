@@ -89,14 +89,13 @@ Body general Part
 body {
     font-family: Circular,spotify-circular,Helvetica,Arial,sans-serif;        
     color: 1A1A1A;
-    margin: 0;
 }
 
 /*
 Nav Bar Part
 */
 header {
-    height: 30px;
+    height: 80px;
 }
 .header-content {
     display: flex;
@@ -106,22 +105,24 @@ header {
     background-color: white;
     position: fixed;
     width: 100%;
-    height: 30px;
+    height: 80px;
     
 }
 header img {
-    width: auto;
-    height: 24px;
+    width: 22%;
+    height: auto;
+    margin-left: 25px;
 }
 nav ul {
     display: flex;
     list-style-type: none;
     margin: 0;
     padding: 0;
+    margin-right: 25px;
 }
 nav li {
     padding: 2px;
-    font-size: 10px;
+    font-size: 16px;
 }
 
 
@@ -167,33 +168,34 @@ Service Box Part
 .whats-on-spotify hr {
     border: 1.2px solid #00B172;
     width: 225px;
-    margin-top: -15px;
 }
 
 .service-boxes {
     display: flex;
+    background-color: brown;
+    flex-direction: row;
+    align-items: baseline;
 }
 
 .box {
+    border: 2px solid lightgray;
     display: flex;
     flex-direction: column;
-    width: 30%;
-    border: 2px solid lightgray;
+    justify-content: end;
     margin: 5%;
-    text-align: center;
     background-color: blueviolet;
 }
 .box img {
     width: 50%;
-    align-self: center;
+    margin: auto;
 }
 .box h3 {
     color: #00B172;
     font-size: smaller;
-    align-self: center;
+    text-align: center;
     background-color: teal;
 }
-.box p {
+.box-text {
     background-color: tomato;
     font-size: 9px;
     width: 100%;
