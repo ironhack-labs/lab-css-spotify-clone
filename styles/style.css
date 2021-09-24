@@ -1,4 +1,5 @@
 /* Box sizing rules */
+@import url("https://fonts.googleapis.com/css?family=Roboto+Condensed:700|Roboto:100,300,500,700");
 *,
 *::before,
 *::after {
@@ -42,13 +43,13 @@ body {
   display: flex;
   justify-content: space-between;
   width: 100%;
-
+  padding: 0 20px;
   background-color: white;
-  height: 100px;
+  height: 80px;
 }
 
 .nav-bar img {
-  padding: 20px;
+  padding: 0.8em;
 }
 
 .nav-bar ul {
@@ -56,26 +57,44 @@ body {
   list-style: none;
   display: flex;
   justify-content: space-evenly;
-  width: 500px;
+  width: 33%;
 }
 
 .nav-bar a {
   color: black;
   text-decoration: none;
-  font-size: 1.5em;
+  font-size: 1.2em;
 }
 
 .nav-bar li {
   margin: auto;
 }
 
-header {
+.header {
   background-image: url("/images/landing.jpg");
-
   background-repeat: no-repeat;
   background-size: cover;
-  height: 650px;
-  position: relative;
+  height: 800px;
+}
+
+.header div {
+  padding: 300px 0;
+  margin: auto;
+  text-align: center;
+  width: 65%;
+}
+
+.header h1 {
+  color: white;
+  font-size: 4.5em;
+  font-weight: 500;
+}
+
+.header article {
+  color: white;
+  font-size: 1.8em;
+  font-weight: 100;
+  padding: 0.8em;
 }
 
 /*
