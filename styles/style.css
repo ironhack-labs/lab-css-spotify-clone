@@ -1,5 +1,5 @@
 /* Box sizing rules */
-@import url("https://fonts.googleapis.com/css?family=Roboto+Condensed:700|Roboto:200,300,400,500,700");
+@import url("https://fonts.googleapis.com/css?family=Roboto+Condensed:700|Roboto:200,300,400,500,600,700");
 *,
 *::before,
 *::after {
@@ -108,7 +108,7 @@ body {
   width: 18%;
 }
 #general-information img {
-  height: 100px;
+  height: 110px;
   padding: 10px;
 }
 
@@ -122,12 +122,13 @@ body {
   font-size: 2em;
   font-weight: 500;
   border-bottom: 3px solid #00b172;
-  margin-bottom: 50px;
+  width: 266px;
+  margin: 0 auto 50px auto;
 }
 #general-information h3 {
   padding: 0 0 20px 0;
   font-size: 1.3em;
-  font-weight: 800;
+  font-weight: 600;
   color: #00b172;
 }
 #general-information p {
@@ -136,6 +137,56 @@ body {
   margin: auto;
 }
 
+footer {
+  background-color: #00b172;
+  height: 800px;
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-between;
+  padding: 75px 50px;
+  color: white;
+  background-image: url("/images/spotify-icon-white.png");
+  background-repeat: no-repeat;
+  background-size: 150px;
+  background-position: center;
+}
+
+.footer-right {
+  width: 35%;
+  text-align: right;
+  margin-top: 50px;
+}
+
+footer img {
+  width: 85%;
+  text-align: right;
+}
+
+.footer-left {
+  width: 35%;
+  height: 80%;
+}
+
+footer h2 {
+  font-size: 2.5em;
+  font-weight: 500;
+  border-bottom: 4px solid #fff;
+  width: 500px;
+}
+
+footer h3 {
+  padding: 10px 0;
+  font-size: 1.7em;
+  font-weight: 600;
+  padding-top: 50px;
+}
+
+footer p {
+  font-weight: 200;
+  width: 270px;
+  font-size: 1.1em;
+  padding-top: 20px;
+}
 /*
 Colors:
 
