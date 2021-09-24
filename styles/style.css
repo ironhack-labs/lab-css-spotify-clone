@@ -94,18 +94,12 @@ a {
 
 /* Navigation */
 .logo {
-  width: 9rem;
+  width: 6rem;
 }
 
 nav {
   width: 65%;
   max-width: 600px;
-}
-
-nav a {
-  color: black;
-  font-size: .9rem;
-  font-weight: 400;
 }
 
 .nav-container {
@@ -124,8 +118,22 @@ nav a {
   justify-content: flex-end;
 }
 
-.nav-list li {
-  padding: 0 1rem;
+.nav-list a {
+  padding: 0 .5rem;
+}
+
+.nav-list a {
+  color: black;
+  font-size: .8rem;
+  font-weight: 400;
+  transition: all .2s linear;
+}
+
+.nav-list a:hover {
+  background-color: var(--green--color);
+  color: var(--white--color);
+  padding: .5rem 1rem;
+  border-radius: .1rem;
 }
 
 .nav-header {
@@ -151,7 +159,7 @@ nav a {
 .landing-section h1 {
   padding-bottom: 2rem;
   font-weight: 400;
-  font-size: 3.2rem;
+  font-size: 2rem;
 }
 
 .landing-section p {
@@ -179,18 +187,15 @@ nav a {
 
 .about-features {
   display: flex;
+  flex-direction: column;
   justify-content: center;
-  align-items: flex-start;
-}
-
-.about-features > * {
-  flex: 0 calc(33% - 3%);
 }
 
 .about-card {
   display: flex;
   flex-direction: column;
   align-items: center;
+  margin-bottom: 1rem;
 }
 
 .about-card h2 {
@@ -219,6 +224,7 @@ nav a {
   background-repeat: no-repeat;
   background-position: center;  */
   color: var(--white--color);
+   z-index: -1000; /* to be behind the fixed nav */
 }
 
 .discover-section h2 {
@@ -229,17 +235,17 @@ nav a {
 }
 
 .discover-section .spoty-white-center {
-  position: absolute; /* child set to absolute position */
-  top: 50%;  /* moves 50% from the top edge of the parent  */
-  left: 50%; /* moves 50% from the left edge of the parent  */
-  width: 5rem;
-  transform: translate(-50%, -50%); /* moves relative to width/height of the element size  */
-  /* moves by the size of its half, translateX(-50%) and translateY(-50%)   */
+  position: absolute;
+    top: 5%;
+    right: 5%;
+    width: 3rem;
+    transform: translate(-50%, -50%);
 }
 
 .wrapper-discover {
   display: flex;
-  justify-content: space-between;
+  flex-direction: column;
+  align-content: center;
 }
 
 .wrapper-text div {
@@ -260,4 +266,71 @@ nav a {
 
 .mobile-wrapper img {
   width: 205px;
+}
+
+.mobile-wrapper img {
+  margin: 0 auto;
+  width: 205px;
+  padding-top: 2rem;
+}
+
+/* Media queries */
+
+@media all and (min-width: 650px) {
+  /* navigation  */
+  .logo {
+    width: 9rem;
+  }
+
+  .nav-list a {
+    padding: .5rem 1rem;
+  }
+
+  .nav-list a {
+    font-size: .9rem;
+  }
+
+  .landing-section h1 {
+    padding-bottom: 2rem;
+    font-weight: 400;
+    font-size: 3.2rem;
+  }
+
+  /* About section  */
+  
+  .about-features {
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: flex-start;
+  }
+
+  .about-features > * {
+    flex: 0 calc(33% - 3%); /*padding left: 1.5%; padding right: 1.5%*/
+  }
+
+  /* About section  */
+  .about-card {
+    margin-top: 0;
+  }
+
+  /* Discover section  */
+  .discover-section .spoty-white-center {
+    position: absolute; /* child set to absolute position */
+    top: 50%;  /* moves 50% from the top edge of the parent  */
+    left: 50%; /* moves 50% from the left edge of the parent  */
+    width: 5rem;
+    transform: translate(-50%, -50%); /* moves relative to width/height of the element size  */
+    /* moves by the size of its half, translateX(-50%) and translateY(-50%)   */
+  }
+
+  .wrapper-discover {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+  }
+  .mobile-wrapper img {
+    padding-top: 0;
+  }
+
 }
