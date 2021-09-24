@@ -1,59 +1,122 @@
-/*
-Colors:
+/* Box sizing rules */
+*,
+*::before,
+*::after {
+	box-sizing: border-box;
+  margin: 0;
+  padding: 0;
+}
 
-Text: 1A1A1A
-Green: #00B172
-White: #FFF
+/* Remove default padding */
+ul[class],
+ol[class] {
+	padding: 0;
+}
 
-*/
+/* Remove default margin */
+body,
+h1,
+h2,
+h3,
+h4,
+p,
+ul[class],
+ol[class],
+li,
+figure,
+figcaption,
+blockquote,
+dl,
+dd {
+	margin: 0;
+}
 
+/* Set core body defaults */
+body {
+	min-height: 100vh;
+	scroll-behavior: smooth;
+	text-rendering: optimizeSpeed;
+	line-height: 1.5;
+}
+
+/* Remove list styles on ul, ol elements with a class attribute */
+ul[class],
+ol[class] {
+	list-style: none;
+}
+
+/* A elements that don't have a class get default styles */
+a:not([class]) {
+	text-decoration-skip-ink: auto;
+}
+
+/* Make images easier to work with */
+img {
+	max-width: 100%;
+	display: block;
+}
+
+/* Natural flow and rhythm in articles by default */
+article > * + * {
+	margin-top: 1em;
+}
+
+/* Inherit fonts for inputs and buttons */
+input,
+button,
+textarea,
+select {
+	font: inherit;
+}
+
+/* Variables for colors */
+:root {
+  --white--color: #fff;
+  --green--color: #00b172;
+  --text: #1a1a1a;
+
+
+}
+
+/* Import font size-- an option for Proxima Nova */
+@import url('https://fonts.googleapis.com/css2?family=Montserrat:wght@100;200;300;400;500;600;700;800;900&display=swap');
 /* Default settings */
 
 body {
-  font-family: "Open Sans", sans-serif;
+  font-family: 'Montserrat', 'Open Sans', sans-serif;
+  color: var(--text);
 }
 
-* {
-  margin: 0;
-  padding: 0;
-  box-sizing: border-box;
-}
-
-img {
-  width: 100%;
-  height: auto;
-}
 
 a {
   text-decoration: none;
 }
 
-ul {
-  list-style: none;
-}
-
+/* Navigation */
 .logo {
-  width: 10rem;
+  width: 9rem;
 }
 
 nav {
   width: 65%;
   max-width: 600px;
-  padding: 0 1.5rem;
 }
 
 nav a {
   color: black;
-  font-size: 1.2rem;
+  font-size: .9rem;
+  font-weight: 400;
 }
 
 .nav-container {
-  display: flex;
   position: fixed;
+  width: 100%;
+  display: flex;
   justify-content: space-between;
   align-items: center;
-  background-color: #fff;
-  width: 100%;
+  padding: .3rem;
+  background-color: var(--white--color);
+  
 }
 
 .nav-list {
@@ -71,20 +134,30 @@ nav a {
   background-size: cover;
   background-repeat: no-repeat;
   background-position: center;
-  background-attachment: scroll;
+  background-attachment: fixed;
   width: 100%;
   height: 100vh;
 }
 
+/* Main section - large image background */
 .landing-section {
-  padding-top: 15rem;
-  color: #fff;
+  max-width: 750px;
+  margin: 0 auto;
+  padding: 13rem 0 13rem 0;
+  color: var(--white--color);
   text-align: center;
 }
 
 .landing-section h1 {
-  font-size: 3.2rem;
   padding-bottom: 2rem;
+  font-weight: 400;
+  font-size: 3.2rem;
+}
+
+.landing-section p {
+  font-weight: 200;
+  font-size: 1.2rem;
+  letter-spacing: .5px;
 }
 
 .landing-section .text {
@@ -92,29 +165,99 @@ nav a {
   margin: 0 auto;
 }
 
+/* About section */
+.about {
+  text-align: center;
+  padding: 1.5rem;
+}
+
+.about h1 {
+  font-size: 1.5rem;
+  font-weight: 400;
+  padding-bottom: 3rem;
+}
+
 .about-features {
   display: flex;
-  justify-content: space-around;
+  justify-content: center;
+  align-items: flex-start;
 }
 
-.about-features div {
-  width: 30%;
+.about-features > * {
+  flex: 0 calc(33% - 3%);
+}
+
+.about-card {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+.about-card h2 {
+  color: var(--green--color);
+  font-size: 1.2rem;
+  padding: .5rem 0 .8rem 0;
+}
+
+.about-card p {
+  color: #959598;
+  font-weight: 300;
+  padding: 0 2.1rem;
 }
 .about-features .icon {
-  width: 9rem;
+  width: 5rem;
 }
-.footer {
-  background-color: #00B172;
-  background-image: url("../images/spotify-icon-white.png");
+
+/* Discover section */
+.discover-section {
+  position: relative;  /* parent with position relative, to move child logo */
+  margin: 0 1.7rem;
+  padding: 3rem 4rem;
+  background-color: var(--green--color);
+  /* background-image: url("../images/spotify-icon-white.png");
   background-size: 10%;
   background-repeat: no-repeat;
-  background-position: center;
+  background-position: center;  */
+  color: var(--white--color);
 }
 
-.wrapper-footer {
+.discover-section h2 {
+  width: fit-content;
+  font-weight: 400;
+  line-height: 2.5rem;
+  border-bottom: 2px solid #fff;
+}
+
+.discover-section .spoty-white-center {
+  position: absolute; /* child set to absolute position */
+  top: 50%;  /* moves 50% from the top edge of the parent  */
+  left: 50%; /* moves 50% from the left edge of the parent  */
+  width: 5rem;
+  transform: translate(-50%, -50%); /* moves relative to width/height of the element size  */
+  /* moves by the size of its half, translateX(-50%) and translateY(-50%)   */
+}
+
+.wrapper-discover {
   display: flex;
+  justify-content: space-between;
 }
 
-.mobile-wrapper {
-  width: 50%;
+.wrapper-text div {
+  padding-top: 2rem;
+}
+
+.wrapper-text h3 {
+  font-weight: 400;
+  padding-bottom: .8rem;
+}
+
+.wrapper-text p {
+  width: 220px;
+  font-weight: 100;
+  font-size: .95rem;
+  
+}
+
+.mobile-wrapper img {
+  width: 205px;
 }
