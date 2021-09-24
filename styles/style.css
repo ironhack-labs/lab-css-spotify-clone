@@ -1,5 +1,5 @@
 /* Box sizing rules */
-@import url("https://fonts.googleapis.com/css?family=Roboto+Condensed:700|Roboto:100,300,500,700");
+@import url("https://fonts.googleapis.com/css?family=Roboto+Condensed:700|Roboto:200,300,400,500,700");
 *,
 *::before,
 *::after {
@@ -44,7 +44,7 @@ body {
   justify-content: space-between;
   width: 100%;
   padding: 0 20px;
-  background-color: white;
+  background-color: #fff;
   height: 80px;
 }
 
@@ -61,9 +61,10 @@ body {
 }
 
 .nav-bar a {
-  color: black;
+  color: #1a1a1a;
   text-decoration: none;
   font-size: 1.2em;
+  font-weight: 400;
 }
 
 .nav-bar li {
@@ -85,16 +86,54 @@ body {
 }
 
 .header h1 {
-  color: white;
+  color: #fff;
   font-size: 4.5em;
   font-weight: 500;
 }
 
 .header article {
-  color: white;
+  color: #fff;
   font-size: 1.8em;
   font-weight: 100;
   padding: 0.8em;
+}
+
+#general-information {
+  margin: 0 auto;
+  padding: 30px 80px;
+  text-align: center;
+}
+
+#general-information article {
+  width: 18%;
+}
+#general-information img {
+  height: 100px;
+  padding: 10px;
+}
+
+#general-information div {
+  display: flex;
+  justify-content: space-around;
+  flex-wrap: wrap;
+}
+
+#general-information h2 {
+  font-size: 2em;
+  font-weight: 500;
+  border-bottom: 3px solid #00b172;
+  margin-bottom: 50px;
+}
+#general-information h3 {
+  padding: 0 0 20px 0;
+  font-size: 1.3em;
+  font-weight: 800;
+  color: #00b172;
+}
+#general-information p {
+  font-weight: 200;
+  width: 80%;
+  margin: auto;
 }
 
 /*
