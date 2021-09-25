@@ -1,0 +1,208 @@
+/*
+Colors:
+
+Text: 1A1A1A
+Green: #00B172
+White: #FFF
+
+*/
+
+
+/* Box sizing rules */
+*,
+*::before,
+*::after {
+	box-sizing: border-box;
+}
+
+/* Remove default padding */
+ul[class],
+ol[class] {
+	padding: 0;
+}
+
+/* Remove default margin */
+body,
+h1,
+h2,
+h3,
+h4,
+p,
+ul[class],
+ol[class],
+li,
+figure,
+figcaption,
+blockquote,
+dl,
+dd {
+	margin: 0;
+}
+
+/* Set core body defaults */
+body {
+	min-height: 100vh;
+	scroll-behavior: smooth;
+	text-rendering: optimizeSpeed;
+	line-height: 1.5;
+}
+
+/* Remove list styles on ul, ol elements with a class attribute */
+ul[class],
+ol[class] {
+	list-style: none;
+}
+
+/* A elements that don't have a class get default styles */
+a:not([class]) {
+	text-decoration-skip-ink: auto;
+}
+
+/* Make images easier to work with */
+img {
+	max-width: 100%;
+	display: block;
+}
+
+/* Natural flow and rhythm in articles by default */
+article > * + * {
+	margin-top: 1em;
+}
+
+/* Inherit fonts for inputs and buttons */
+input,
+button,
+textarea,
+select {
+	font: inherit;
+}
+
+body {
+    font-family: "Helvetica";
+  }
+  
+  /*navigation bar*/
+  header {
+    padding: 0 25px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+  }
+  
+  
+  nav ul {
+    list-style: none;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+  }
+  
+  li {
+    padding: 28px 17px;
+  }
+  
+  nav a {
+    text-decoration: none;
+    color: black;
+    font-weight: 400;
+  }
+  
+  .logo-button {
+     width: 150px;
+  }
+  
+  /*1st section*/
+  .main-page {
+    color: white;
+    height: 600px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+    text-align: center;
+    background-image: url(https://github.com/ironhack-labs/lab-css-spotify-clone/blob/master/images/landing.jpg?raw=true);
+    background-size: cover;
+    background-position: center;
+  }
+  
+  h1 {
+    font-size: 80px;
+  }
+  
+  /*2nd section*/
+  
+  .tab {
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+    justify-content: space-evenly;
+    text-align: center;
+    height: 600px;
+  }
+  
+  h2 {
+    font-size: 30px;
+    border-bottom: 3px solid #00B172;
+    padding-bottom: 3px;
+  }
+  
+  h3 {
+    color: #00B172;
+    font-size: 30px;
+    padding-bottom: 20px;
+  }
+  
+  .tableau {
+    display: flex;
+    flex-direction: row;
+  }
+  
+  .carr {
+    height: 100px;
+    padding-bottom: 20px;
+  }
+  
+  .carreau {
+    padding: 18px 50px;
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+  }
+  
+  
+  /*3rd section*/
+  
+  .browser {
+    background-color: #00B172;
+    background-image: url(https://github.com/ironhack-labs/lab-css-spotify-clone/blob/master/images/spotify-icon-white.png?raw=true);
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: 10%;
+    color: white;
+    display: flex;
+    flex-direction: row;
+    height: 750px;
+    padding: 40px 200px;
+    /*justify-content: space-evenly;*/
+  }
+  
+  h4 {
+    font-size: 30px;
+    border-bottom: 3px solid white;
+    padding-bottom: 3px;
+  }
+  
+  h5 {
+    font-size: 24px;
+  }
+  
+  article {
+    font-size: 20px;
+  }
+  
+  .spotify-app {
+    height: 550px;
+    padding-top: 80px;
+    margin-left: auto;
+   }
+  
