@@ -1,8 +1,173 @@
-/*
-Colors:
 
-Text: 1A1A1A
-Green: #00B172
-White: #FFF
+*,
+*::before,
+*::after {
+  box-sizing: border-box;
+  margin: 0;
+  padding: 0;
+}
 
-*/
+
+nav {
+display: flex;
+flex-direction: row;
+justify-content: space-between;
+margin: 15px;
+}
+
+.list {
+display: flex;
+flex-direction: row;
+justify-content: space-around;
+gap: 30px;
+margin-right: 30px;
+list-style-type: none;
+align-items: center;
+}
+
+.spLogo {
+    width: 200px;
+}
+
+.visit-card {
+display: flex;
+flex-direction: column;
+align-items: center;
+justify-content: center;
+font-size: 15pt;
+text-align: center;
+color: white;
+background-image: url("https://github.com/ironhack-labs/lab-css-spotify-clone/blob/master/images/landing.jpg?raw=true");
+background-size: cover;
+height: 100vh;
+}
+
+
+h1 {
+    font-size: 48pt;
+    font-weight: bold;
+    margin-bottom: 10px;
+}    
+
+.what-on {
+display: flex;
+flex-direction: column;
+align-items: center;
+column-gap: 30px;
+font-size: small;
+color: black;
+text-align: center;
+}
+
+h2 {
+    font-size:xx-large;
+    font-weight: bold;
+    border-bottom: 4px solid green ;
+    padding-bottom: 10px;
+    margin-bottom: 47px;
+    margin-top: 39px;
+}
+
+.category {
+    display: flex;
+    flex-direction: row;
+    justify-content:space-evenly;
+}
+
+.box {
+    margin-bottom: 100px;
+    margin-left: 100px;
+}
+.box img {
+    height: 71px;
+    margin-bottom: 20px;
+}
+
+.box h3 {
+    color: darkgreen;
+    font-weight: bold;
+    font-size: 25px;
+}
+
+.box p {
+    font-size: 20px ;
+    margin-top: 27px;
+}
+
+footer{
+    display: flex;
+    flex-direction:row;
+    color: white;
+    font-size: 21px;
+
+}
+.white-box {
+    display: flex;
+    background-color: green;
+    margin-right: 90px;
+    margin-left: 90px;
+    flex-grow: 1;
+    justify-content: center;
+    position: relative;
+}
+
+.left-col {
+    width: 50%;
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-start;
+}
+
+.left-col h4 {
+    font-size:39px;
+    font-weight: bold;
+    color: white;
+    border-bottom: 4px solid white;
+    margin-bottom: 32px;
+    margin-top: 100px;
+
+}
+
+.left-col h5 {
+    font-size:37px;
+    color: white;
+    margin-bottom: 20px;
+    margin-top: 20px;
+}
+
+
+.right-col {
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+    align-items: center;
+    width: 50%;
+}
+
+.right-col img {
+    width: 70%;
+    margin-top: 100px;
+    margin-bottom: 100px;
+
+}
+
+.white-box section {
+    margin-left: 50px;
+    margin-right: 50px;
+}
+
+.middle {
+    position: absolute;
+    top: 0;
+    bottom: 0;
+    left: 0;
+    right: 0;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.middle img {
+    width: 100px;
+}
