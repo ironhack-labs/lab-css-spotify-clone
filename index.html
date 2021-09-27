@@ -5,16 +5,16 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <meta http-equiv="X-UA-Compatible" content="ie=edge" />
     <title>Spotify Clone</title>
-    <!-- don't forget to link your styles -->
+    <link rel="stylesheet" href="styles/style.css">
   </head>
   <body>
 
     <section>
 
-      <header>
-        <img src="images/spotify-logo.png" alt="Spotify logo">
+      <header class="header">
+        <img class="icon" src="images/spotify-logo.png" alt="Spotify logo">
 
-        <div>
+        <div class="header">
           <p>Premium</p>
           <p>Discover</p>
           <p>Help</p>
@@ -23,13 +23,12 @@
         
       </header>
 
-      <div>
+      <article class="centered" id="background">
         <h1>Music for everyone.</h1>
 
         <p>Music for everyone. Spotify is now free on mobile, tablet and computer. Listen to the
-        right music, wherever you are. Spotify is now free on mobile, tablet and computer. Listen to the
         right music, wherever you are.</p>
-      </div>
+      </article>
 
     </section>
 
@@ -39,28 +38,28 @@
 
     <section>
 
-      <h2>What’s on Spotify?</h2>
+      <h2 class="centered">What’s on Spotify?</h2>
 
-      <div>
+      <div class="centered">
 
-        <div>
-          <img src="images/music-icon.png" alt="icon of a speaker">
+        <div class="centered">
+          <img class="icon" src="images/music-icon.png" alt="icon of a speaker">
 
           <h3>Millions of Songs</h3>
 
           <p>There are millions of songs on Spotify</p>
         </div>
 
-        <div>
-          <img src="images/high-quality-icon.png" alt="icon of high quality sound waves">
+        <div class="centered">
+          <img class="icon" src="images/high-quality-icon.png" alt="icon of high quality sound waves">
         
           <h3>HD Music</h3>
         
           <p>Listen to music as if you were listening live</p>
         </div>
 
-        <div>
-          <img src="images/devices-icon.png" alt="icon of multiple devices">
+        <div class="centered">
+          <img class="icon" src="images/devices-icon.png" alt="icon of multiple devices">
         
           <h3>Stream Everywhere</h3>
         
@@ -77,14 +76,15 @@
 
     <section>
 
-      <div>
-        
+      <div id="green">
 
-        <div>
+        <h3 class="centered">It’s as yeezy as Kanye West.</h3>
 
-          <h3>It’s as yeezy as Kanye West.</h3>
+        <div class="centered_row">
 
-          <div>
+          
+
+          <div id="left">
 
             <article>
               <h4>Search</h4>
@@ -103,9 +103,12 @@
 
           </div>
 
-          <img src="images/spotify-icon-white.png" alt="icon of the logo from spotify">
+          
+          <img class="icon" src="images/spotify-icon-white.png" alt="icon of the logo from spotify">
 
-          <img src="images/spotify-app.jpg" alt="screenshot of the interface when using the app, listening to kanye west">
+          <img id="rigth" src="images/spotify-app.jpg" alt="screenshot of the interface when using the app, listening to kanye west">
+
+          
 
         </div>
 
