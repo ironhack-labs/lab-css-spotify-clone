@@ -6,3 +6,164 @@ Green: #00B172
 White: #FFF
 
 */
+@import url('https://fonts.googleapis.com/css2?family=Inter:wght@300;400;500;600;700&display=swap');
+* {
+    margin: 0;
+    padding: 0;
+}
+
+body{
+    font-family: 'Inter', Arial, Helvetica, sans-serif;
+    color: #1A1A1A;
+
+}
+
+
+header > div {
+    padding: 0 25px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 20px 40px;
+    
+  }
+
+
+
+nav {
+  }
+  
+  nav ul {
+    list-style: none;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    width: 350px;
+    font-size: 1rem;
+    font-weight: 300;
+  }
+  
+  nav a {
+    text-decoration: none;
+    color: #1A1A1A;
+
+  
+  }
+  
+  .logo-header {
+    width: 200px;
+    margin-right: 1rem;
+  }
+  
+  #sect-1 {
+    background:url("../images/landing.jpg");
+    background-color: #cccccc; 
+    height: 800px; 
+    background-position: center; 
+    background-repeat: no-repeat;
+    background-size: cover; 
+    color: #FFF;
+    margin: 0 auto;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+}
+
+#sect-1 h1{
+    font-size:5em;
+    line-height: 1.5em;
+
+}
+
+#sect-1 p{
+    font-size: 1.5em;
+    line-height: 1.5em;
+    text-align: center;
+}
+
+#sect-2 {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  margin: 60px 40px;
+}
+
+#sect-2 h2{
+  font-size: 2em;
+  line-height: 1.5em;
+  font-weight: 600;
+  /*text-decoration: underline solid #00B172 5px;
+  */
+  border-bottom: 4px solid #00B172 ;
+  padding-bottom: 4px.
+
+
+}
+#arguments  {
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  margin: 60px 0;
+
+}
+
+#arguments .info {
+  display: flex;
+  justify-content:space-between;
+  flex-direction: column;
+  align-items: center ;
+  margin: 30px 10px;
+  width: 33.33%;
+
+
+}
+
+#arguments img {
+  width: 150px;
+  justify-content: flex-start;
+
+}
+
+#arguments h3 {
+  color:#00B172;
+  justify-content: flex-start;
+  font-weight:600;
+  font-size: 2rem;
+  padding: 20px 0;
+
+}
+
+#arguments p {
+  font-size: 1.5rem;
+  line-height: 1.8em;
+  font-weight: 100;
+  text-align: center;
+}
+
+#sect-3{
+    background-color:#00B172 ;
+    padding: 40px;
+    margin: 40px;
+    color: #FFF;
+
+}
+
+.phone-screen {
+
+  position: relative;
+  width: 50%;
+}
+
+.spotify-logo{ 
+  position: absolute;
+}
+.kanye {
+  display: flex;
+  justify-content:space-between;
+  flex-direction: column;
+  align-items: center ;
+  width: 30%;
+  margin: 30px 0;
+}
