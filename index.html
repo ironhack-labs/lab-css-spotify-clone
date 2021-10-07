@@ -1,18 +1,117 @@
 <!DOCTYPE html>
 <html lang="en">
-  <head>
-    <meta charset="UTF-8" />
-    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-    <meta http-equiv="X-UA-Compatible" content="ie=edge" />
+
+<head>
+
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+
+
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.1.1/dist/css/bootstrap.min.css" rel="stylesheet"
+        integrity="sha384-F3w7mX95PdgyTmZZMECAngseQB83DfGTowi0iMjiWaeVhAn4FJkqJByhZMI3AhiU" crossorigin="anonymous">
     <title>Spotify Clone</title>
-    <!-- don't forget to link your styles -->
-  </head>
-  <body>
-    Premium Discover Help Download Music for everyone. Spotify is now free on mobile, tablet and computer. Listen to the
-    right music, wherever you are. What’s on Spotify? Millions of Songs There are millions of songs on Spotify HD Music
-    Listen to music as if you were listening live Stream Everywhere Stream music on your smartphone, tablet or computer
-    It’s as yeezy as Kanye West. Search Know what you want to listen to? Just search and hit play. Browse Check out the
-    latest charts, brand new releases and great playlists for right now. Discover Enjoy new music every Monday with your
-    own personal playlist. Or sit back and enjoy Radio.
-  </body>
+    <link rel="stylesheet" href="spotify.css">
+</head>
+
+<body>
+    <nav class="navbar navbar-expand-lg navbar-light bg-light">
+        <div class="container-fluid">
+            <img class="diff"
+                src="https://raw.githubusercontent.com/ironhack-labs/lab-css-spotify-clone/master/images/spotify-logo.png"
+                alt="">
+            <button class="navbar-toggler" type="button" data-bs-toggle="collapse"
+                data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false"
+                aria-label="Toggle navigation">
+                <span class="navbar-toggler-icon"></span>
+            </button>
+            <div class="collapse navbar-collapse" id="navbarSupportedContent">
+                <ul class="navbar-nav me-auto mb-2 mb-lg-0">
+                    <li class="nav-item">
+                        <a class="nav-link active" aria-current="page" href="#">Premium</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link active" href="#">Discover</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link active" href="#">Help</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link active" href="#">Download</a>
+                    </li>
+                </ul>
+                <form class="d-flex">
+                    <input class="form-control me-2" type="search" placeholder="Search" aria-label="Search">
+                    <button class="btn btn-outline-success" type="submit">Search</button>
+                </form>
+            </div>
+        </div>
+    </nav>
+    <div class="container">
+        <img class="land"
+            src="https://raw.githubusercontent.com/ironhack-labs/lab-css-spotify-clone/master/images/landing.jpg"
+            alt="">
+        <div class="one">Music for everyone.</div>
+        <div class="two">Spotify is now free on mobile,tablet and computer.</div>
+        <div class="three">Listen to the right music,wherever you are.</div>
+    </div>
+
+    <section class="services-container">
+        <h1 class="h-primary center" id="contract">What's on Spotify?</h1>
+        <div class="flexkare">
+            <div id="services">
+                <div class="box">
+                    <img src="https://raw.githubusercontent.com/ironhack-labs/lab-css-spotify-clone/master/images/music-icon.png"
+                        alt="">
+                    <h2 class="h-secondary center">Millons of Songs</h2>
+                    <p>There are millions of<br>songs on Spotify</p>
+                </div>
+            </div>
+            <div id="services">
+                <div id="box2" class="box">
+                    <img src="https://raw.githubusercontent.com/ironhack-labs/lab-css-spotify-clone/master/images/high-quality-icon.png"
+                        alt="">
+                    <br>
+
+                    <h2 class="h-secondary center">HD Music</h2>
+                    <p>Listen to music as if you<br>were listening live</p>
+                </div>
+            </div>
+            <div id="services">
+                <div class="box">
+                    <img src="https://raw.githubusercontent.com/ironhack-labs/lab-css-spotify-clone/master/images/devices-icon.png"
+                        alt="">
+                    <h2 class="h-secondary center">Stream Everywhere</h2>
+                    <p>Stream music on your<br>smartphone,tablet or<br>computer</p>
+                </div>
+            </div>
+        </div>
+    </section>
+    <div class="container2">
+        <h1>It's as yeezy as Kanye West.</h1>
+        <div class="green1">
+            <h>Search</h>
+            <br><br>
+            <p>Know what you want to listen to?<br>Just search and hit play</p>
+        </div>
+        <div class="green2">
+            <h>Browse</h>
+            <br><br>
+            <p>Check out the latest charts,<br>brand new releases and great<br>playlists for right now.</p>
+        </div>
+        <div class="green3">
+            <h>Discover</h>
+            <br><br>
+            <p>Enjoy new music every Monday<br>with your own personal playlist.<br>Or sit back and enjoy radio</p>
+        </div>
+        <div class="green4">
+            <img src="https://raw.githubusercontent.com/ironhack-labs/lab-css-spotify-clone/master/images/spotify-icon-white.png"
+                alt="">
+        </div>
+        <div class="green5">
+            <img src="https://raw.githubusercontent.com/ironhack-labs/lab-css-spotify-clone/master/images/spotify-app.jpg"
+                alt="">
+        </div>
+    </div>
+</body>
+
 </html>
