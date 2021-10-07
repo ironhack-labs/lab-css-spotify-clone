@@ -10,50 +10,61 @@ White: #FFF
 * {
     margin: 0;
     padding: 0;
+    box-sizing: border-box;
 }
 
 body{
     font-family: 'Inter', Arial, Helvetica, sans-serif;
     color: #1A1A1A;
-
 }
 
 
-header > div {
-    padding: 0 25px;
+#header {
+  /*
+  position: fixed;
+  top: 0;
+  display: flex;
+  background-color: #FFF;
+  align-items: center;
+  width: 100%; 
+*/
+    position: fixed;
+    z-index:1;
     display: flex;
+    flex-direction: row;
     justify-content: space-between;
     align-items: center;
     padding: 20px 40px;
-    
+    background-color: #FFF;
+    top: 0;
+    width: 100%; 
+
+
   }
 
+  .logo-header {
+    width: 200px;
+    margin-right: 1rem;
 
-
-nav {
   }
-  
+
   nav ul {
+    width: 600px;
     list-style: none;
     display: flex;
     justify-content: space-between;
-    align-items: center;
-    width: 350px;
-    font-size: 1rem;
+
+    font-size: 1.3rem;
     font-weight: 300;
+
   }
   
   nav a {
     text-decoration: none;
     color: #1A1A1A;
+  }
+  
 
-  
-  }
-  
-  .logo-header {
-    width: 200px;
-    margin-right: 1rem;
-  }
   
   #sect-1 {
     background:url("../images/landing.jpg");
@@ -68,6 +79,7 @@ nav {
     flex-direction: column;
     align-items: center;
     justify-content: center;
+    
 }
 
 #sect-1 h1{
@@ -94,18 +106,22 @@ nav {
   font-size: 2em;
   line-height: 1.5em;
   font-weight: 600;
-  /*text-decoration: underline solid #00B172 5px;
-  */
   border-bottom: 4px solid #00B172 ;
-  padding-bottom: 4px.
-
-
+  padding-bottom: 4px;
 }
+
 #arguments  {
+  /*
   display: flex;
   flex-direction: row;
   justify-content: center;
-  margin: 60px 0;
+  margin: 60px 0;*/
+  display: flex;
+    flex-direction: row;
+    align-items: start;
+    justify-content: center;
+    margin: 40px 0;
+    
 
 }
 
@@ -114,15 +130,17 @@ nav {
   justify-content:space-between;
   flex-direction: column;
   align-items: center ;
-  margin: 30px 10px;
+  margin: 30px;
+  padding: 0 30px;
   width: 33.33%;
 
 
 }
 
 #arguments img {
-  width: 150px;
+  height: 100px;
   justify-content: flex-start;
+
 
 }
 
@@ -144,26 +162,61 @@ nav {
 
 #sect-3{
     background-color:#00B172 ;
-    padding: 40px;
+    padding: 80px;
     margin: 40px;
     color: #FFF;
+    display: inline-flex;
+    position: relative;
 
 }
 
-.phone-screen {
-
-  position: relative;
-  width: 50%;
-}
-
-.spotify-logo{ 
-  position: absolute;
-}
 .kanye {
+  
+}
+
+#sect-3 h2 {
+  font-size: 2em;
+  line-height: 1.5em;
+  font-weight: 600;
+  border-bottom: 4px solid #FFF ;
+  padding-bottom: 4px;
+  width: fit-content;
+}
+
+#sect-3 span {
   display: flex;
   justify-content:space-between;
   flex-direction: column;
-  align-items: center ;
-  width: 30%;
-  margin: 30px 0;
+  padding: 20px 0;
+  width: 50%;
 }
+
+#sect-3 span h5 {
+  font-weight:600;
+  font-size: 1.8rem;
+  padding-bottom: 20px ;
+}
+
+#sect-3 span p {
+  line-height: 1.8em;
+  font-size: 1.2rem;
+  font-weight: 200;
+}
+
+.phone-screen {
+  width: 300px;
+  padding: 20px 0;
+}
+
+.spotify-logo{ 
+  height: 120px;
+  position: absolute;
+  left: 50%;
+  top: 50%;
+  transform: translate(-50%, -50%);
+
+
+}
+
+
+
