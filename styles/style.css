@@ -1,3 +1,20 @@
+body {
+    padding: 0;
+}
+
+h1 {
+    font-size: 50px;
+    margin-bottom: 5px;
+}
+
+h2 {
+    font-size: 40px;
+}
+
+h3 {
+    font-size: 30px;
+}
+
 p{
     font-size: 18px;
 }
@@ -12,7 +29,7 @@ header {
 }
 
 .logo {
-    width: 150px;
+    width: 170px;
     height: 50px;
 }
 
@@ -38,7 +55,81 @@ header {
     height: 500px;
     background-image: url(../images/landing.jpg);
     background-size: cover;
+    background-position: bottom;
+    display: flex;
+    text-align: center;
+    flex-direction: column;
+    justify-content: center;
 }
+
+.section-two{
+    text-align: center;
+    padding: 80px;
+}
+
+.section-two h2 {
+    display: inline-block;
+    border-bottom: solid 5px #00B172;
+    padding-bottom: 5px;
+}
+
+.section-two h3 {
+    color: #00B172
+}
+
+.section-two .container {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    align-items: center;
+}
+
+.section-two img{
+    width: 80px;
+}
+
+.container div {
+    margin: 0 20px;
+    
+}
+
+.section-three{
+    background-color: #00B172;
+    color: white;
+    height: 700px;
+    padding: 50px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.section-three div{
+    flex-basis: 33%;
+    align-items: center;
+}
+
+.section-three h2 {
+    border-bottom: 5px solid white;
+    padding-bottom: 10px;
+}
+
+.white-logo {
+    width: 200px;
+}
+
+
+.spotify-playlist {
+    width: 300px;
+}
+
+.section-three div img {
+    text-align: center;
+}
+
+.section-three .image {
+    text-align: center;
+}
+
 
 /*
 Colors:
