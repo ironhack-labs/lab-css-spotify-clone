@@ -6,3 +6,177 @@ Green: #00B172
 White: #FFF
 
 */
+
+@import url('https://fonts.googleapis.com/css2?family=Fira+Code:wght@300&display=swap');
+
+html, body {
+    margin: 0;
+}
+
+body {
+    font-family: sans-serif;
+    font-weight: 300;
+    text-align: center;
+    color: #1A1A1A;
+}
+
+/* Nav Bar */
+
+#logo {
+    height: 3rem;
+}
+
+
+nav {
+    background-color: white;
+    padding: 0.8rem 0;
+    position: fixed;
+    width: 100%;
+    display: flex;
+    top: 0;
+}
+nav div:nth-child(1) {
+    margin-right: auto;
+}
+
+#logo {
+    margin-left: 2rem;
+}
+
+.nav-list {
+    display: flex;
+    padding: 0;
+}
+
+.nav-list li {
+    list-style-type: none;
+    /*background-color: tomato;*/
+}
+
+.nav-list a {
+    color: black;
+    text-decoration: none;
+    margin: 1em;
+}
+
+/* Header */
+
+header {
+    margin-top: 5rem;
+    background-image: url("/images/landing.jpg");
+    background-position: center;
+    background-size: cover;
+    background-repeat: no-repeat;
+    height: 26rem;
+    padding: 12rem 0 0;
+    color: #FFF;
+}
+
+h1 {
+    font-size: 4em;
+    font-weight: 400;
+    margin: 1.5rem 0;
+}
+
+header p {
+    font-size: 1.2rem;
+    font-weight: 100;
+    padding: 0 4rem;
+}
+
+.main {
+    width: 37rem;
+    margin: auto;
+    /* padding: 2rem; */
+}
+
+/* Information Section */
+
+#information img {
+    height: 4rem;
+}
+
+#information h3 {
+    font-size: 1.7rem;
+    margin-bottom: 1px;
+}
+
+#information hr {
+    width: 15rem;
+    border: 2px solid #00B172;
+}
+
+#information div {
+    display: flex;
+    justify-content: space-around;
+    padding: 4rem;
+}
+
+#information article {
+    flex:  0 0 auto;
+    width: 16rem;
+}
+
+#information h4 {
+    font-size: 1.4em;
+    font-weight: 700;
+    color: #00B172;
+    margin: 1.25em 0;
+}
+
+aside {
+    padding: 0 1.5rem;
+    font-size: 1.2rem;
+}
+/* Footer */
+
+footer {
+    padding: 3rem 0 2rem 4rem;
+    margin: 0 2rem;
+    background-color: #00B172;
+    color: #FFF;
+    position: relative;
+}
+
+footer h3 {
+    font-size: 1.7em;
+    font-weight: 500;
+    text-align: left;
+    margin: 6px 0;
+}
+
+footer hr {
+    width: 21.5rem;
+    margin: 0 0 5rem 0;
+    border: 1px solid #FFF;
+}
+
+footer h4, footer p {
+    width: 15rem;
+    text-align: left;
+    margin: 1.7rem 0;
+}
+
+footer h4 {
+    font-size: 1.2rem;
+}
+
+footer p {
+    line-height: 1.8rem;
+}
+
+#spotify-icon {
+    height: 6rem;
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+}
+
+#spotify-app {
+    height: 32rem;
+    position: absolute;
+    top: 52%;
+    left: 78%;
+    transform: translate(-50%, -50%);
+}
