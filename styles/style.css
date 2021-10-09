@@ -1,8 +1,128 @@
-/*
-Colors:
 
-Text: 1A1A1A
-Green: #00B172
-White: #FFF
+body,
+h1,
+h2,
+h3,
+h4,
+p,
+ul {
+    margin: 0;
+    padding: 0;
+}
 
-*/
+.nav-bar {
+    display: flex;
+    position: fixed;
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: center;
+    padding: 20px 40px;
+    background-color: #FFF;
+    width: 100%;
+}
+
+body {
+    font-family: 'Montserrat', 'Open Sans', sans-serif;
+}   
+
+nav a {
+    text-decoration: none;
+    color: #1A1A1A;
+}
+
+.logo {
+    width: 10rem;
+    margin-right: 1rem;
+}
+
+nav ul {
+    display: flex;
+    justify-content: space-between;
+	list-style: none;
+    padding: 0px;
+    padding-right: 5.5rem;
+    width: 350px;
+    font-size: 1.2rem;
+    font-weight: 100;
+}
+
+.section1 {
+    background:url("../images/landing.jpg");
+    height: 850px; 
+    background-position: center; 
+    background-repeat: no-repeat;
+    background-size: cover; 
+    color: #FFF;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+}
+
+.section1 h1 {
+    padding-bottom: 1rem;
+    font-size: 4rem;
+    margin-bottom: 0.5rem;
+}
+
+.section1 p {
+    font-size: 1.5rem;
+    line-height: 1.4em;
+    font-weight: 300;
+}
+
+.section2 {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    margin: 50px 20px;
+}
+
+.whats-on {
+    display: flex;
+    flex-direction:row;
+    align-items: center;
+    justify-content: center;
+    margin: 20px 20px;
+}
+
+.whats-on img {
+    height: 100px;
+    justify-content: flex-start;
+}
+
+.box {
+    display: flex;
+    justify-content:space-between;
+    flex-direction: column;
+    align-items: center;
+    margin: 30px;
+    padding: 0px 70px;
+}
+
+.box h3 {
+    font-size: 1.7rem;
+    color: #00bd7b;
+    padding: 1rem 1rem;
+}
+
+.box p {
+    font-size: 1.2rem;
+    font-weight: 100;
+}
+
+.section2 h2{
+    font-size: 2em;
+    line-height: 1.5em;
+    font-weight: 600;
+    border-bottom: 4px solid #00bd7b ;
+}
+
+.white-icon { 
+    height: 7rem;
+}
+
+.spotify-app-img {
+    width: 300px;
+  }
