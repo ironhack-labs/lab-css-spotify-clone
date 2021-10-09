@@ -121,8 +121,52 @@ nav ul {
 
 .white-icon { 
     height: 7rem;
+    position: absolute;
+    left: 50%;
+    top: 50%;
+    transform: translate(-50%, -50%);
 }
 
 .spotify-app-img {
-    width: 300px;
+    width: 350px;
   }
+
+
+.section3 {
+    display: flex;
+    position: relative;
+    padding: 150px;
+    margin: 50px;
+    background-color:#00bd7b;
+    color: #FFF;
+    height: 550px;
+} 
+
+.section3 h2 {
+    font-size: 2em;
+    font-weight: 700;
+    border-bottom: 4px solid #FFF ;
+    padding-bottom: 4px;
+    width: fit-content;
+}
+
+.section3 .box1 {
+    display: flex;
+    justify-content:space-between;
+    flex-direction: column;
+    padding: 30px 0px;
+    width: 45%;
+}
+
+.section3 h3{
+    font-weight:700;
+    font-size: 1.5rem;
+    padding-bottom: 10px;
+    padding-top: 10px;
+}
+
+.section3 p {
+    line-height: 2rem;
+    font-size: 1.2rem;
+    font-weight: 200;
+}
