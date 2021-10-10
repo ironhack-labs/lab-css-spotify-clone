@@ -9,6 +9,7 @@ White: #FFF
 h1{
     text-align: center;
     font-size: 50px;
+    color: #FFF;
   }
   h2{
     text-align: center;
@@ -17,14 +18,18 @@ h1{
     color: #1A1A1A;
   }
   h3 {
-      color:  #00B172;
+      color: #00B172;
       font-size: 1.5em;
       text-align: center;
-      line-height: 1em;  
+      line-height: 1em;
+      margin-top: 8px;
+  
     }
   
   h4{
-      font-size: 20px;
+      font-size: 25px;
+      color: #FFF;
+      margin-bottom: 5px;
     }
    
    h5{
@@ -36,7 +41,7 @@ h1{
   hr {
       margin-top: 8px;
       margin-bottom: 30px;
-      width: 16%;
+      width: 20%;
       background-color: #00B172;
       size: 8px;
       height: 2px;
@@ -99,7 +104,9 @@ h1{
   
   /*Seccion1*/
   .landing{
-      background: url("images/landing.jpg");
+      background-image: url('../images/landing.jpg');
+      height: 100%;
+      width: 100%;
       background-repeat: no-repeat;
       background-size: cover;
       background-position: center;
@@ -113,6 +120,8 @@ h1{
     margin-top: 0px;
     margin-bottom: 7px;
     font-size: 20px;
+    color: #FFF;
+    padding: 0px;
   }
   
   .title {
@@ -120,11 +129,11 @@ h1{
       justify-content:center;
       text-align: center;
       display: flex;
-        flex-direction: column;
-        flex-wrap: nowrap;
-        justify-content: center;
-        align-items: center;
-        align-content: center;  
+      flex-direction: column;
+      flex-wrap: nowrap;
+      justify-content: center;
+      align-items: center;
+      align-content: center;  
   }
   
   p{
@@ -132,32 +141,54 @@ h1{
     
   }
   /*Seccion2*/
+  .section2{
+    display: flex;
+	flex-direction: row;
+	flex-wrap: nowrap;
+	justify-content: space-between;
+	align-items: center;
+	align-content: flex-start;
+  
+  }
   
   
     .container {
       width: 1200px;
       margin: 0 auto;
       display: flex;
-      flex-direction: column;
-      align-items: center;
       width: 370px;
-      flex-direction: row;
-      flex-wrap: nowrap;
-      justify-content: space-around;
-      align-items: center;
-      align-content: center;
+      display: flex;
+	    flex-direction: column;
+	    flex-wrap: nowrap;
+	    justify-content: space-between;
+	    align-items: center;
+	    align-content: flex-start;
+  
     }
     .lastcont {
       width: 1200px;
       margin: 0 auto;
       background-color: #00B172;
+      display: flex;
+	    flex-direction: column;
+	    flex-wrap: wrap;
+	    justify-content: space-between;
+	    align-items: center;
+	    align-content: flex-start;
+      
     }
   
-    .text-class {
+    .text-class2 {
       font-size: 18px;
       font-weight: 100;
       text-align: center;
       margin: 4px 0;
+      display: flex;
+	    flex-direction: column;
+	    flex-wrap: wrap;
+	    justify-content: space-between;
+	    align-items: center;
+	    align-content: flex-start;
     }
   
   
@@ -173,7 +204,8 @@ h1{
     }
   
     .section2 p{
-      margin-bottom: 4px;
+      margin-bottom: 0px;
+      margin-top: 4px;
     }
   
     .icon{
@@ -192,51 +224,53 @@ h1{
     
   
     /*Seccion3*/
-   
-  .lastcont{
-    color: #FFF;
-    flex-direction: column;
-    align-items: baseline;
-    flex-wrap: wrap;
-    justify-content: flex-start;
-  }
-  
-  .lastcont p{
-    margin-bottom: 0px;
-    margin-top: 5px;
-  }
-  
-  .lastcont hr{
-    margin: 0px;
-    width: 300px;
-    display:flex; 
-    align-items: flex-start;
-  }
-  
-  .text-class2{
-    justify-content: flex-start;
-    flex-direction: column;
-    align-items: baseline;
-    flex-wrap: wrap;
-  }
-  
-   .section3{
-    display: flex;
-      flex-direction: row;
-      flex-wrap: nowrap;
-      justify-content: space-between;
-      align-items: center;
-      align-content: stretch;
-    background-color: #00B172;
-    padding: 55px;
-  
-   }
-  
-   .logo2{
-     height: 80px;
-     margin: 140px;
-   }
-  
-   .kayne{
-     height: 600px;
-   }
+    .section3{
+      background-color: #00B172;
+      color: #FFF;
+      display: flex;
+	    flex-direction: row;
+	    flex-wrap: nowrap;
+	    justify-content: space-around;
+	    align-items: center;
+	    align-content: flex-start;
+      margin: 25px;
+    }
+    .articles3{
+      display: flex;
+	    flex-direction: column;
+	    flex-wrap: nowrap;
+	    justify-content: space-around;
+	    align-items: flex-start;
+	    align-content: flex-start;
+      padding-left: 80px;
+    }
+    .articles3 hr{
+      width: 97%;
+      justify-content: flex-start;
+      display: flex;
+      align-items: flex-start;
+      align-content: flex-start;
+      margin:0px;
+      background-color: #FFF;
+      
+    }
+    .container2{
+      display: flex;
+	    flex-direction: column;
+	    flex-wrap: nowrap;
+	    justify-content: flex-start;
+	    align-items: flex-start;
+	    align-content: flex-start;
+      margin-top: 20px;
+    }
+
+    .logo2{
+      height: 80px;
+      margin: 100px;
+    }
+    .kanye{
+      height: 600px;
+      padding: 40px;
+    }
+
+
