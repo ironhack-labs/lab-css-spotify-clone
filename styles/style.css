@@ -1,8 +1,173 @@
-/*
-Colors:
+@font-face {
+  font-family: spotifyFont;
+  src: url(https://open.scdn.co/fonts/CircularSpUIv3T-Bold.woff2);
+}
+@font-face {
+  font-family: spotifyFontLight;
+  src: url(https://open.scdn.co/fonts/CircularSpUIv3T-Book.woff2);
+}
 
-Text: 1A1A1A
-Green: #00B172
-White: #FFF
+body {
+  font-family: spotifyFont;
+  color: #1a1a1a;
+}
 
-*/
+.header {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  background-color: white;
+  top: 0px;
+  height: 100px;
+  z-index: 1000;
+}
+
+h1 {
+  font-size: 5em;
+  left: 0;
+  position: absolute;
+  text-align: center;
+  top: 290px;
+  width: 100%;
+  color: white;
+}
+
+h2 {
+  font-size: 2em;
+
+  left: 0;
+  position: absolute;
+  text-align: center;
+  top: 440px;
+  width: 100%;
+  color: white;
+  font-family: spotifyFontLight;
+}
+
+h3 {
+  font-size: 2em;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+
+  color: black;
+  text-decoration-line: underline;
+  text-decoration-color: #00b172;
+  font-family: spotifyFontLight;
+  margin-top: 100px;
+}
+
+.logo {
+  display: flex;
+  align-items: center;
+  margin: 15px;
+}
+
+.menu {
+  display: flex;
+  flex-direction: row;
+  justify-content: flex-end;
+  align-items: center;
+  margin-right: 15px;
+}
+
+.menu div {
+  margin: 20px;
+}
+
+.header {
+  position: fixed;
+  width: 100%;
+}
+
+middle {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  flex-direction: column;
+}
+
+features {
+  display: flex;
+  align-items: center;
+  justify-content: space-around;
+  margin-bottom: 50px;
+}
+
+.boxtitle {
+  font-size: 30px;
+  color: #00b172;
+  font-weight: lighter;
+}
+
+.boxtext {
+  font-family: spotifyFontLight;
+  font-size: 25px;
+  text-align: center;
+  font-weight: lighter;
+}
+
+.square {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  flex-direction: column;
+  width: 360px;
+  margin: 40px;
+}
+
+.imageB {
+  position: absolute;
+  align-items: center;
+  z-index: -10000;
+}
+
+.last {
+  width: auto;
+  height: auto;
+
+  color: white;
+  overflow: auto;
+  margin-bottom: 100px;
+}
+
+.lastTitle {
+  font-size: 30px;
+  margin-left: 85px;
+  margin-top: 30px;
+}
+
+.lastText {
+  font-family: spotifyFontLight;
+
+  font-size: 20px;
+  margin-left: 85px;
+  margin-top: 25px;
+  width: 300px;
+}
+
+.lastTopTitle {
+  font-size: 40px;
+  margin-left: 85px;
+  margin-top: 100px;
+  text-decoration-line: underline;
+  text-decoration-color: white;
+}
+
+.imageApp {
+  margin-top: 100px;
+  margin-left: 150px;
+}
+
+.bottom {
+  background-color: #00b172;
+  background-image: url("/images/spotify-icon-white.png");
+  background-size: 150px;
+  background-repeat: no-repeat;
+  background-position: center;
+  width: 100%;
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  justify-content: space-around;
+}
