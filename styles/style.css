@@ -6,3 +6,101 @@ Green: #00B172
 White: #FFF
 
 */
+ul {
+	list-style: none;
+	padding: 0;
+	margin: 0;
+}
+a,
+a:hover,
+a:active {
+	text-decoration: none;
+	color: inherit;
+}
+
+img {
+	width: 100%;
+}
+.header {
+	height: 100vh;
+}
+.logo {
+	width: 300px;
+}
+
+.menu {
+	width: 100%;
+	display: flex;
+	justify-content: space-between;
+}
+.menu li a {
+	font-size: 1.5rem;
+}
+.hero {
+	background-image: url('../images/landing.jpg');
+	background-size: cover;
+	background-position: center;
+	height: 90%;
+	display: flex;
+	flex-direction: column;
+	justify-content: center;
+	align-items: center;
+}
+
+.hero h1,
+.hero p {
+	text-align: center;
+	color: white;
+	width: 70%;
+}
+.hero h1 {
+	font-size: 6rem;
+}
+.hero p {
+	font-size: 1.7em;
+	font-weight: 100;
+}
+.content h2 {
+	font-size: 2.5rem;
+	font-weight: 500;
+	line-height: 80%;
+	margin: 1em auto;
+	width: fit-content;
+	text-align: center;
+	padding-bottom: 0.5rem;
+	border-bottom: 3px solid #00b172;
+}
+.content h3 {
+	color: #00b172;
+	margin: 0.5em;
+}
+.item {
+	width: 30%;
+}
+.col-3 {
+	text-align: center;
+}
+.show-case {
+	background-color: #00b172;
+	background-image: url('../images/spotify-icon-white.png');
+	background-repeat: no-repeat;
+	background-size: 10%;
+	background-position: 50%;
+	color: white;
+}
+.show-case img {
+	width: 70%;
+}
+.show-case p {
+	font-size: 1.5rem;
+	font-weight: 100;
+}
+.show-case h4 {
+	margin: 1.5rem 0;
+	font-size: 1.5rem;
+
+	font-weight: bold;
+}
+.show-case h3 {
+	border-bottom: 3px solid white;
+}
