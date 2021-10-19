@@ -1,3 +1,4 @@
+@import url('http://fonts.cdnfonts.com/css/gotham');
 /*
 Colors:
 
@@ -6,3 +7,156 @@ Green: #00B172
 White: #FFF
 
 */
+body {
+    font-family: 'Gotham', sans-serif;
+    font-size: 16px;
+}
+* {
+    margin:0px;
+    padding: 0px;
+}
+header {
+    width: 100%;
+    height: 70px;
+    position: fixed;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: center;
+    background-color: #fff;
+    z-index: 100;
+}
+header img {
+    width: auto;
+    height: 50px;
+    display: block;
+    position: relative;
+     
+    margin-left: 20px;
+}
+header ul {
+    width: 30%;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    list-style: none;
+    margin: 0px;
+    padding: 0px;
+    margin-right: 20px;
+     
+}
+header ul li {
+    height: 20px;
+    display: flex;
+    justify-content: center;
+    position: relative;
+    align-items: end;
+    
+}
+header ul li a {
+    width: 100%;
+    display: block;
+    position: relative;
+    font-size: 20px;
+    font-weight: 400;
+    text-decoration: none;
+    color: black;
+}
+section.content-1 {
+    width: 100%;
+    height: 100vh;
+    display: block;
+    position: relative;
+    background-image: url('../images/landing.jpg');
+    background-repeat: no-repeat;
+    background-position: center center;
+    background-size: cover;
+    z-index: 1;
+}
+section.content-1 div {
+    width: 65%;
+    display: block;
+    position: absolute;
+    left: 50%;
+    top: 50%;
+    transform: translate(-50%, -50%);
+    -webkit-transform: translate(-50%, -50%);
+}
+section.content-1 div h1 {
+    font-size: 75px;
+    line-height: 77px;
+    font-weight: 500;
+    margin-bottom: 25px;
+    text-align: center;
+    color:#fff;
+}
+section.content-1 div p {
+    font-size: 24px;
+    line-height: 30px;
+    font-weight: 300;
+    text-align: center;
+    color:#fff;
+}
+section.content-2 {
+    display: block;
+    position: relative;
+    padding: 40px 0px;
+
+}
+section.content-2 p {
+    width: 25%;
+    font-size: 34px;
+    line-height: 32px;
+    font-weight: 500;
+    display: block;
+    position: relative;
+    margin: 0 auto;
+    margin-bottom: 100px;
+    text-align: center;
+    border-bottom: 3px solid #00B172;
+    
+}
+section.content-2 .content-boxes {
+    width: 90%;
+    display: flex;
+    flex-direction: row;
+    margin: 0 auto;
+    justify-content: space-around;
+
+}
+section.content-2 .content-boxes div{
+    width: 33%;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    padding: 10px;
+
+}
+section.content-2 .content-boxes div img {
+    height: 80px;
+    display: block;
+    position: relative;
+    margin-bottom: 30px;
+
+}
+section.content-2 .content-boxes div h4 {
+    width: 100%;
+    display: block;
+    position: relative;
+    text-align: center;
+    font-size: 26px;
+    line-height: 28px;
+    color: #00B172;
+    margin-bottom: 30px;
+}
+section.content-2 .content-boxes div p.txt {
+    width: 70%;
+    font-size:24px;
+    line-height: 28px;
+    font-weight: 300;
+    width: 100%;
+    display: block;
+    position: relative;
+    border:0px
+}
