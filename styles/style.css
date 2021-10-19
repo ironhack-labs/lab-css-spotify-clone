@@ -6,3 +6,125 @@ Green: #00B172
 White: #FFF
 
 */
+
+body {
+	margin: 0;
+	padding: 0;
+	box-sizing: border-box;
+	width: 100%;
+	min-height: 100vh;
+}
+
+.nav-section{
+	display: flex;
+	height: 10%;
+	width: 100%;
+	justify-content: space-around;
+	align-items: center;
+}
+
+.nav-container{
+	width: 100%;
+}
+
+.logo{
+	width: 30%;
+}
+
+.spoti-logo{
+	width:100%;
+	height:100%;
+	object-fit:cover;
+}
+
+nav ul{
+	list-style: none;
+	display: flex;
+	justify-content: space-evenly;
+	align-items: center;
+	width: 100%;
+}
+
+nav ul a{
+	text-decoration: none;
+	color: black;
+}
+
+.main-section{
+	height: 90vh;
+}
+
+.top{
+	background-image: url("landing.jpg");
+	background-size: cover;
+	background-position: 0 0;
+	position: relative;
+	background-repeat: no-repeat;
+	color: white;
+	height: 100%;
+	display: flex;
+	align-items: center;
+	justify-content: center;
+	flex-direction: column;
+}
+
+.music{
+	text-align: center;
+}
+
+.heading{
+	text-align: center;
+}
+
+.mid{
+	height: 100%;
+	justify-content: center;
+
+}
+
+.features{
+	display: flex;
+	align-items: center;
+	justify-content: space-around;
+	height: 25%;
+}
+
+.icon{
+	height: 80%;
+	display: flex;
+	flex-direction: column;
+	justify-content: center;
+	align-items: center;
+	padding: 6%;
+	width: 20%;
+}
+
+.icon-wrapper > img{
+	height: 50px;
+}
+
+.icon > div > h4, p{
+	text-align: center;
+}
+
+.icon > div > p{
+	text-align: center;
+}
+
+.bottom{
+	display: flex;
+	justify-content: space-around;
+	align-items: center;
+	background-color: #1BB16A;
+	color: white;
+	padding: 20%;
+}
+.general-info{
+	padding: 20%;
+}
+
+.kanye{
+	height: 25%;
+	padding: 20%;
+}
+
