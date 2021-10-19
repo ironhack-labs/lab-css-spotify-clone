@@ -6,7 +6,137 @@ Green: #00B172
 White: #FFF
 
 */
+*{
+padding: 0px;
+margin: 0px;
+}
 
 body{
+    font-family: sans-serif;
+}
+
+h1{
+    font-size: 6em;
+    padding-bottom: 30px;
+}
+
+h2{
+    text-align: center;
+    font-size: 2.2em;
+    padding: 40px;
+    text-decoration: underline #00B172 4px;
+    line-height: 10px;
+    margin-top: 20px;
+}
+
+h3 {
+    color: #00B172;
+    font-size: 1.8em;
+    margin-bottom: 20px;
+    margin-top: 10px;
+}
+
+.nav {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    text-align: center;
+    align-items: center;
+    margin: 20px;
+}
+nav img{
+    width: 15%;
+}
+nav ul{
+    display: flex;
+    flex-direction: row;
+    justify-content: flex-end; 
+    list-style: none;
+}
+nav ul li{
+    padding: 10px;
+    text-decoration: none;
+}
+nav ul li a{
+    color: #1A1A1A;
+    text-decoration: none;
+    font-size: 1.5em;
+}
+
+.hero{
+   color:#FFF;
+    background-image: url(../images/landing.jpg);
+    background-repeat: no-repeat;
+    padding: 300px;
+    text-align: center;
+    background-size: cover;
+    height: 500px; /* You must set a specified height */
+    background-position: center; 
+}
+
+.hero p{
+    font-size: 2em;
+    font-weight: lighter;
+
+}
+
+
+.s2 img{
+    width: 40%;
+
+}
+
+.whatson{
+    display: flex;
+   /* flex-direction: row; */
+   justify-content:space-around;
+   margin-top: 100px;
+   margin-bottom: 100px;
+   
+}
+
+.whatson div{
+    width: 20%;
+    text-align: center;
+   
+}
+
+.whatson p{
+    font-size: 1.8em;
+    font-weight: lighter;
+
+}
+
+.s3{
+    background-color: #00B172;
+    background-image: url(../images/spotify-icon-white.png);
+    background-repeat: no-repeat;
+    background-size: 150px;
+    background-position: center;
+    color:#FFF;
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+}
+
+.text{
+    text-align: left;
+
+}
+.text h2{
+    text-decoration: underline #FFF;
+    text-align: left;
+}
+.text h3{
+    color: #FFF;
     
+}
+.text p{
+    width: 33%;
+
+}
+.s3 img{
+    width: 50%;
+    margin-top:50px;
+    margin-left: 55%;
 }
