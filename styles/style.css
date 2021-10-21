@@ -6,3 +6,113 @@ Green: #00B172
 White: #FFF
 
 */
+@import url('https://fonts.googleapis.com/css?family=Roboto+Condensed:700|Roboto:100,300,700');
+html, body {
+    margin: 0;
+    padding: 0;
+    font-family: "Roboto";
+}
+h1 {
+    font-size: 4.5em;
+    color: #FFF;
+    font-weight: 100;
+    font-weight: 900;
+}
+
+h1 + p {
+    color: #FFF;
+    text-align: center;
+    margin: 30px;
+    font-size: 1.5em;
+    width: 50%;
+    font-weight: 500;
+    letter-spacing: 2px;
+    line-height: 1.4em;
+}
+
+.logo {
+    height: 40px;
+}
+header > div {
+    padding: 0 25px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    border-bottom: 1px solid lightgray;
+  }
+  
+  nav {
+    width: 400px;
+  }
+  
+  nav ul {
+    list-style: none;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+  }
+  
+  nav a {
+    text-decoration: none;
+    color: black;
+  }
+  .section-1 {
+    background-image: url('../images/landing.jpg');
+    height: 100vh;
+    background-size: cover;
+    background-position: center;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    margin: 0;
+    padding: 0;
+ }
+ .container img {
+     height: 50px;
+ }
+ .section-2 >h2, .container {
+     display: flex;
+    justify-content: center;
+    
+
+ }
+ .container {
+     display: flex;
+     justify-content: space-around;
+     align-items: center;
+     padding: 0 80px 0 80px;
+ }
+ .box {
+    
+    text-align: center;
+    box-sizing: border-box;
+    margin: 50px 5% 0 5%;
+    padding: 20px;
+    width: 40%;
+ }
+ .section-3 img {
+     padding-top: 60px;
+     height: 400px;
+ }
+ .section-3 {
+    background-image: url('../images/spotify-icon-white.png'); 
+    background-color: #00B172;
+    background-size: 80px ;
+    background-position: center;
+    background-repeat: no-repeat;
+    display: flex;
+    justify-content: space-around;
+    padding: 50px 10px 50px 10px;
+ }
+.left-section {
+    display: flex;
+    flex-direction: column;
+    width: 30%;
+}
+.left-section h2 {
+    margin-left: 60px;
+}
+.articles {
+    margin: 0 60px 0 60px;
+}
