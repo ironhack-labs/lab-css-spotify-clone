@@ -1,8 +1,92 @@
-/*
-Colors:
+@import url("https://fonts.googleapis.com/css?family=Poppins");
 
-Text: 1A1A1A
-Green: #00B172
-White: #FFF
+html,
+body {
+  font-family: "Poppins";
+  font-size: 100%;
+  color: 1a1a1a;
+}
 
-*/
+.logo {
+  width: 15%;
+}
+
+li {
+  list-style: none;
+}
+
+header {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+}
+
+ul {
+  display: flex;
+  align-items: flex-end;
+  justify-content: space-between;
+  margin: 10px;
+}
+
+li {
+  margin: 5px;
+  display: flex;
+  align-items: flex-end;
+  justify-content: space-between;
+}
+a {
+  font-size: 0.9em;
+  color: black;
+  text-decoration: none;
+  font-family: Arial, Helvetica, sans-serif;
+}
+.one {
+  display: flex;
+  flex-direction: column;
+  background-image: url(/images/landing.jpg);
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+  height: 100vh;
+}
+
+h1 {
+  font-family: Arial, Helvetica, sans-serif;
+  font-size: 2em;
+  height: 25vh;
+  color: #fff;
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+}
+
+.centred {
+  font-family: Arial, Helvetica, sans-serif;
+  font-weight: 10px;
+  height: 5vh;
+  text-align: center;
+  color: #fff;
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+}
+#info {
+  font-family: "Courier New", Courier, monospace;
+  font-size: 1.2em;
+  height: 25vh;
+  color: black;
+  text-align: center;
+  text-decoration: underline solid #00b172;
+}
+.two {
+  height: 100vh;
+}
+.about {
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+}
+.icons {
+}
