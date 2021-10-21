@@ -111,7 +111,9 @@ nav ul li{
 
 #third_section {
 background-color:#00B172;
-margin: 10px
+margin: 10px;
+display: flex;
+padding: 10px, 100px, 10px, 100px;
 }
 
 #third_section h2, h3 {
@@ -126,12 +128,26 @@ margin: 10px
     margin-left: 20px;
     }
 
-    #third_section .image1 {
-        text-align: right;
-        margin-right: 20px;
-    }
+    .icon {
+        display: flex;
+        flex-direction:row;
+        justify-content: center;
+      }
 
-    #third_section .image2 {
-     text-align: center;
-     size: 20px;
-    }
+      #whiteIcon {
+            margin: auto;
+            width: 150px;
+      }
+
+      .playlist {
+        display: flex;
+        flex-direction: column;
+        justify-content: right;
+        margin: auto;
+        padding: 100px; 
+      }
+
+      #spotifyPlaylist {
+        width: 400px;
+        margin-left: 50px;
+      }
