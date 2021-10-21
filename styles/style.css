@@ -13,15 +13,20 @@ White: #FFF
 body {
     font-family: Roboto;
     padding: 0%;
-  }
+}
 
   h1 {
     font-size: 50px;
     margin-bottom: 5px;
-  }
+}
 
   h2{
     font-size: 30px;
+    margin-bottom: 5px;
+}
+
+h3{
+    font-size: 20px;
     margin-bottom: 5px;
 }
 
@@ -32,7 +37,7 @@ p {
   #header img {
     height: 50px;
     margin: 10px;
-  }
+}
 
   .nav-bar {
      display: flex;
@@ -40,14 +45,13 @@ p {
      align-items: center;
      font-size: 20px;
      color: solid grey;
-  
-  }
+}
 
   nav ul{
     display: flex;
     list-style-type: none;
-
 }
+
 nav ul li{
     margin: 0 10px;
 }
@@ -67,7 +71,6 @@ nav ul li{
     color: white;
     font-size: 50px;
     text-align: center;
-
 }
 
 .first_section p{
@@ -86,68 +89,59 @@ nav ul li{
         font-size: 30px;
         color:rgb(80, 173, 80);
         text-decoration: none;
-
 }
 
-#second_section .container {
+.container {
     display: flex;
     flex-direction: row;
     justify-content: center;
     width: 100%;
-
 }
 
-#second_section .part {
+.part {
     display: flex;
     flex-direction: column;
     align-items: center;
     margin: 30px;
     width: 25%;
-
 }
+
 #second_section .container img{
     height: 100px;
 }
 
-#third_section {
-background-color:#00B172;
-margin: 10px;
-display: flex;
-padding: 10px, 100px, 10px, 100px;
+.third_section {
+   background-image: url('../images/spotify-icon-white.png'); 
+   background-color: #00B172;
+   background-size: 140px ;
+   background-position: center;
+   background-repeat: no-repeat;
+   display: flex;
+   justify-content: space-around
 }
 
-#third_section h2, h3 {
+.info {
+    display: flex;
+    width: 30%;
+    flex-direction: column;
+}
+
+.third_section h2 {
     color: white;
-    text-align: left;
-    margin-left: 20px;
     text-decoration: underline;
+    margin-top: 60px;
 }
-    #third_section p {
-        color: white;
-    text-align: left;
-    margin-left: 20px;
-    }
 
-    .icon {
-        display: flex;
-        flex-direction:row;
-        justify-content: center;
-      }
+.third_section h3 {
+    color: white;
+}
 
-      #whiteIcon {
-            margin: auto;
-            width: 150px;
-      }
+.articles {
+    color: white;
+ } 
 
-      .playlist {
-        display: flex;
-        flex-direction: column;
-        justify-content: right;
-        margin: auto;
-        padding: 100px; 
-      }
 
-      #spotifyPlaylist {
-        width: 400px;
-        margin-left: 50px;
-      }
+.third_section img {
+    height: 500px;
+    padding: 60px 0px 60px 0px;
+} 
