@@ -1,0 +1,221 @@
+@charset "UTF-8";
+/* SASS Document */
+
+/*=============================================== Imports ===============================================*/
+
+@import "mixins";
+@import "reset";
+@import "variables";
+
+/*=============================================== General ===============================================*/
+
+* {
+    outline: none;
+}
+
+body {
+    font-family: "Montserrat", sans-serif;
+}
+
+header {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding: 20px 5vw;
+
+    .logo {
+        width: 100px;
+    }
+
+    nav {
+        display: flex;
+        align-items: center;
+        justify-content: flex-start;
+
+        a {
+            color: var(--text);
+            text-decoration: none;
+            font-size: 18px;
+
+            &:not(:last-child) {
+                margin-right: 20px;
+            }
+        }
+    }
+}
+
+.hero {
+    position: relative;
+    width: 100%;
+    height: 100vh;
+    color: var(--white);
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    text-align: center;
+
+    img {
+        position: absolute;
+        top: 0;
+        left: 0;
+        z-index: 0;
+        width: 100%;
+        height: 100%;
+        object-fit: cover;
+    }
+
+    .hero-content {
+        position: relative;
+        z-index: 1;
+
+        h1 {
+            font-size: 48px;
+            margin-bottom: 16px;
+        }
+
+        p {
+            font-size: 24px;
+        }
+    }
+}
+
+.h2-container {
+    position: relative;
+    width: auto;
+    display: inline-flex;
+    justify-content: center;
+
+    h2 {
+        width: auto;
+        font-size: 32px;
+    }
+
+    .underline {
+        width: 100%;
+        background-color: var(--green);
+        position: absolute;
+        bottom: -4px;
+        height: 3px;
+    }
+
+    &.white {
+        h2 {
+            font-size: 24px;
+        }
+
+        .underline {
+            background-color: white;
+        }
+    }
+}
+
+h3 {
+    font-size: 24px;
+}
+
+.intro {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+    padding: 100px 5vw;
+
+    .grid {
+        display: grid;
+        grid-template-columns: repeat(3, 1fr);
+        gap: 24px;
+        margin-top: 50px;
+        align-items: start;
+
+        .item {
+            display: flex;
+            align-items: center;
+            justify-content: center;
+            flex-direction: column;
+
+            img {
+                --icon-size: 100px;
+                width: var(--icon-size);
+                height: var(--icon-size);
+                object-fit: contain;
+                margin-bottom: 20px;
+            }
+
+            h3 {
+                margin-bottom: 16px;
+                color: var(--green);
+            }
+
+            p {
+                font-weight: 200;
+                text-align: center;
+                font-size: 18px;
+            }
+        }
+    }
+}
+
+.easy {
+    border: 50px solid white;
+    background-color: var(--green);
+    color: white;
+    position: relative;
+
+    .spotify-icon {
+        position: absolute;
+        --size: 100px;
+        width: var(--size);
+        height: var(--size);
+        object-fit: contain;
+        top: calc(50% - var(--size) / 2);
+        left: calc(50% - var(--size) / 2);
+        z-index: 0;
+    }
+
+    .container {
+        display: flex;
+        align-items: center;
+        justify-content: space-between;
+        padding: 50px 10vw;
+
+        .text {
+            width: 50%;
+            margin-right: 20px;
+
+            .h2-container {
+                margin-bottom: 48px;
+            }
+
+            .item {
+                display: grid;
+                grid-template-columns: 1fr;
+                gap: 16px;
+
+                h4 {
+                    font-size: 24px;
+                }
+
+                p {
+                    font-size: 18px;
+                    max-width: 300px;
+                }
+
+                &:not(:last-child) {
+                    margin-bottom: 24px;
+                }
+            }
+        }
+
+        img {
+            height: 600px;
+        }
+    }
+}
+
+/*=============================================== Components ===============================================*/
+
+/*=============================================== Pages ===============================================*/
+
+/*=============================================== Helpers ===============================================*/
+
+@import "helpers";

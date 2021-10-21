@@ -1,0 +1,87 @@
+/*============================================================= Mixins =============================================================*/
+
+@mixin flexbox($align, $justify, $wrap) {
+    display: flex;
+    align-items: $align;
+    justify-content: $justify;
+    flex-wrap: $wrap;
+}
+
+@mixin grid($size, $column-gap, $row-gap) {
+    display: grid;
+    grid-template-columns: $size;
+    column-gap: $column-gap;
+    row-gap: $row-gap;
+}
+
+@mixin icon($icon, $size) {
+    content: "";
+    width: $size;
+    height: $size;
+    mask: url("/images/icons/#{$icon}.svg") no-repeat 50% 50%;
+    mask-size: cover;
+    display: inline-block;
+    background-color: $color;
+}
+
+@mixin paMar() {
+    padding: 0;
+    margin: 0;
+}
+
+@mixin ulNone() {
+    list-style: none;
+    @include paMar();
+}
+
+@mixin bgCenter() {
+    background-position: center !important;
+    background-size: cover !important;
+}
+
+/*============================================================= Animations =============================================================*/
+
+@mixin keyframes($name) {
+    @-webkit-keyframes #{$name} {
+        @content;
+    }
+
+    @-moz-keyframes #{$name} {
+        @content;
+    }
+
+    @-ms-keyframes #{$name} {
+        @content;
+    }
+
+    @keyframes #{$name} {
+        @content;
+    }
+}
+
+@mixin animation($keyframe) {
+    animation: #{$keyframe};
+}
+
+/*============================================================= Viewports =============================================================*/
+
+$breakpoint-tablet: 1024px;
+$breakpoint-mobile: 600px;
+
+@mixin tablet() {
+    @media (max-width: $breakpoint-tablet) {
+        @content;
+    }
+}
+
+@mixin mobile() {
+    @media (max-width: $breakpoint-mobile) {
+        @content;
+    }
+}
+
+@mixin touch() {
+    @media (hover: none) and (pointer: coarse) {
+        @content;
+    }
+}

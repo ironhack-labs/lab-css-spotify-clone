@@ -1,0 +1,43 @@
+/*=============================================== Variables ===============================================*/
+
+:root {
+    // Colors
+    --text-color: #1A1A1A;
+    --green: #00B172;
+    --white: #FFF;
+
+    // Margins
+    --margin-xxl: 48px;
+    --margin-xl: 32px;
+    --margin-l: 24px;
+    --margin-m: 16px;
+    --margin-s: 12px;
+    --margin-xs: 8px;
+    --margin-xxs: 4px;
+
+    // Fonts
+    --font-family: -apple-system, Arial, Helvetica, sans-serif;
+    --line-height: 1.4;
+
+    // Border Radiuses
+    --radius-xl: 16px;
+    --radius-l: 12px;
+    --radius-m: 8px;
+    --radius-s: 4px;
+    --radius-round: 99em;
+
+    // Container
+    --grid-template: 1fr 600px 1fr;
+    --grid-column: 2;
+    --grid-padding: var(--margin-xxl) 0;
+
+    @include tablet() {
+        --grid-template: 1fr;
+        --grid-column: 1;
+        --grid-padding: var(--margin-xxl) 5vw;
+    }
+
+    // Transitions
+    --transition-short: all 0.2s ease;
+    --transition-long: all 0.5s ease;
+}
