@@ -1,3 +1,150 @@
+@import url('https://fonts.googleapis.com/css2?family=Roboto&display=swap');
+* {
+  /* border: solid 1px black; */
+}
+
+body {
+  font-family: Roboto;
+}
+
+h1 {
+  font-size: 3rem;
+}
+
+.nav-bar {
+   display: flex;
+   justify-content: space-between;
+   align-items: center ;
+   
+}
+
+.list {
+  display: flex;
+  justify-content: flex-end;
+  align-items: flex-start;
+}
+
+.list li {
+  list-style-type: none;
+  margin: 10px;
+}
+
+#header{
+  background: white;
+}
+
+#header img {
+  height: 50px;
+}
+
+.background {
+  background-image: url(../images/landing.jpg);
+  background-position: 0 0;
+  background-size: cover;
+  background-repeat: no-repeat;
+  height: 650px;
+}
+
+.center {
+  
+  height: 88%;
+  color: white;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  text-align: center;
+}
+
+.center article {
+  font-size: 1.2rem;
+  width: 520px;
+  text-align: center;
+}
+
+#product {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+#product h2 {
+  border-bottom: 2px solid #00B172;
+  font-weight: 400;
+}
+
+.service {
+  width: 100vw;
+  display: flex;
+  flex-direction: row;
+  flex-wrap: wrap;
+  justify-content: space-evenly;
+}
+
+.service > div{
+  width: 250px;  
+  display: flex;
+  flex-direction: column;
+  align-items: center;  
+}
+
+#product img {
+  height: 80px;
+  width: 80px;
+}
+
+.service  h3 {
+  color: #00B172;
+}
+
+.service p {
+  color: #1A1A1A;
+  text-align: center;
+}
+
+#discover {
+  height: 500px;
+  background-color: #00B172;
+  color: white;
+  display: flex;
+  flex-flow: row wrap;
+  justify-content: space-evenly;
+}
+#discover > div {
+  display: flex;
+  flex-direction: column;
+}
+#discover h2 {
+  border-bottom: solid 2px white;
+  width: 100%;
+}
+
+#discover .logo {
+  width: 80px;
+}
+
+.center-kayne {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  
+}
+
+.kayne {
+  width: 200px;
+}
+
+#discover .search {
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  justify-content: space-between;
+  width: 500px;
+}
+
+.text {
+  width: 300px;
+}
 /*
 Colors:
 
