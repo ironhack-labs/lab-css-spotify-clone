@@ -1,8 +1,149 @@
-/*
-Colors:
+@import url("https://fonts.googleapis.com/css?family=Poppins");
 
-Text: 1A1A1A
-Green: #00B172
-White: #FFF
+body {
+  font-family: "Poppins";
+  margin: 0px;
+}
 
-*/
+#logo {
+  height: 50px;
+  margin: 10px 20px 0px 10px;
+}
+
+nav {
+  display: flex;
+  justify-content: space-between;
+}
+
+.navigation-wrapper ul li {
+  display: inline;
+  color: #1a1a1a;
+}
+
+.navigation-wrapper {
+  margin: 7px 20px 0px 0px;
+}
+
+.background-image {
+  width: 100%;
+  height: 800px;
+  background-image: url("../images/landing.jpg");
+  background-size: cover;
+  background-repeat: no-repeat;
+  background-position: center;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+
+.background-image {
+  color: white;
+}
+
+h1 {
+  font-size: 100px;
+}
+
+.background-image p {
+  text-align: center;
+  font-size: 30px;
+}
+
+h2 {
+  font-size: 60px;
+  text-align: center;
+}
+
+.three-images {
+  display: flex;
+  justify-content: space-between;
+}
+
+.three-images img {
+  height: 150px;
+}
+
+.three-images h3 {
+  color: #00b172;
+}
+
+.three-images p {
+  color: #858585fb;
+}
+
+.three-image {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  padding: 20px;
+  width: 25%;
+  text-align: center;
+  justify-content: flex-start;
+}
+
+.three-image h3 {
+  font-size: 50px;
+}
+
+.three-image p {
+  font-size: 40px;
+
+  align-self: flex-end;
+}
+
+.features {
+  background-color: #00b172;
+  color: white;
+  display: flex;
+  padding: 0px 100px 0px 100px;
+}
+
+.features h1 {
+  border-bottom: 10px solid white;
+  padding-bottom: 10px;
+  width: fit-content;
+  font-size: 40px;
+}
+
+.features h2 {
+  text-align: start;
+  font-size: 30px;
+}
+
+.features p {
+  font-size: 20px;
+  color: rgb(240, 240, 240);
+}
+
+.features-left {
+  display: flex;
+}
+
+.features-list {
+  display: flex;
+}
+
+#icon-white {
+  margin-left: 150px;
+  width: 150px;
+}
+
+.features-icon {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+}
+
+#spotify-app {
+  width: 400px;
+  margin-left: 50px;
+}
+
+.section-right {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  margin: auto;
+  padding: 100px;
+}
