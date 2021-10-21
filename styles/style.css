@@ -10,21 +10,128 @@ White: #FFF
 
 @import url(‘https://fonts.googleapis.com/css2?family=Roboto&display=swap’);
 
-html, body {
-    margin: 0;
-    padding: 0;
-    font-weight: 400;
-    font-family: Roboto, sans-serif
-}
-    
-h1, h2 {
-    font-size: 50px;
-}
+body {
+    font-family: Roboto;
+    padding: 0%;
+  }
 
-h3 {
+  h1 {
+    font-size: 50px;
+    margin-bottom: 5px;
+  }
+
+  h2{
     font-size: 30px;
+    margin-bottom: 5px;
 }
 
 p {
     font-size: 20px;
 }
+
+  #header img {
+    height: 50px;
+    margin: 10px;
+  }
+
+  .nav-bar {
+     display: flex;
+     justify-content: space-between;
+     align-items: center;
+     font-size: 20px;
+     color: solid grey;
+  
+  }
+
+  nav ul{
+    display: flex;
+    list-style-type: none;
+
+}
+nav ul li{
+    margin: 0 10px;
+}
+
+.first_section {
+    background-image: url(../images/landing.jpg);
+    background-size: cover;
+    height: 650px;
+    margin: 10px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+.first_section h1{
+    color: white;
+    font-size: 50px;
+    text-align: center;
+
+}
+
+.first_section p{
+    color: white;
+    text-align: center;
+    font-size: 30px;
+}
+
+#second_section h2{
+    color: black;
+    text-align: center;
+    text-decoration: underline;
+}
+
+#second_section h3 {
+        font-size: 30px;
+        color:rgb(80, 173, 80);
+        text-decoration: none;
+
+}
+
+#second_section .container {
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    width: 100%;
+
+}
+
+#second_section .part {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    margin: 30px;
+    width: 25%;
+
+}
+#second_section .container img{
+    height: 100px;
+}
+
+#third_section {
+background-color:#00B172;
+margin: 10px
+}
+
+#third_section h2, h3 {
+    color: white;
+    text-align: left;
+    margin-left: 20px;
+    text-decoration: underline;
+}
+    #third_section p {
+        color: white;
+    text-align: left;
+    margin-left: 20px;
+    }
+
+    #third_section .image1 {
+        text-align: right;
+        margin-right: 20px;
+    }
+
+    #third_section .image2 {
+     text-align: center;
+     size: 20px;
+    }
