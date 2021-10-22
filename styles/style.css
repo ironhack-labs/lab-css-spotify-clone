@@ -7,13 +7,18 @@ White: #FFF
 
 */
 *{
-    box-sizing: border-box;
+    box-sizing: content-box;
 }
 
 body, html {
     height: 100%;
     margin: 0;
     font-family:Arial, Helvetica, sans-serif;
+}
+
+a {
+    text-decoration: none;
+    color: black;
 }
 
 .hero-image {
@@ -62,6 +67,78 @@ navy ul li {
 
 .title {
     text-align: center;
-    margin-top: 40px;
-    text-decoration: underline;
+    padding-bottom: 10px;
+    border-bottom: 3px solid #00B172;
+    line-height: 15px;
+    display: table;
+    margin: 0 auto;
+}
+
+.adjust-mid {
+    display: flex;
+    justify-content: space-evenly;
+    margin: 50px 0;
+
+}
+
+.adjust-mid img {
+    width: auto;
+    height: 60px;
+}
+
+.adjust-mid div {
+    text-align: center;
+    width: 200px;
+}
+
+.adjust-mid h4 {
+    color: #00B172;
+    font-weight: bold;
+}
+
+.center-sec {
+    text-align: center;
+}
+
+.adjust-bot {
+    background-color: #00B172;
+    background-image: url(../images/spotify-icon-white.png);
+    background-size: 60px 60px;
+    background-position: center;
+    background-repeat: no-repeat;
+    color: white;
+    margin: 0 25px;
+    display: flex;
+    justify-content: space-between;
+    position: relative;
+}
+
+.column-left{
+    width: 50%;
+}
+
+.column-right{
+    width: 50%;
+    text-align: right;
+    margin: 50px 50px;
+}
+
+.adjust-bot h3 {
+    text-align: left;
+    padding-bottom: 10px;
+    border-bottom: 3px solid white;
+    line-height: 15px;
+    margin: 0 auto;
+    display:inline-table;
+}
+
+.left-adjust {
+    margin: 50px 50px 20px;
+    padding: 0px 250px 10px 0px;
+}
+
+
+.img-app {
+    width: auto;
+    height: 400px;
 }
