@@ -6,3 +6,222 @@ Green: #00B172
 White: #FFF
 
 */
+@import url('https://fonts.googleapis.com/css?family=Poppins');
+
+body {
+    margin: 0px;
+    height: 100%;
+    font-family: 'Poppins';
+    
+    
+}
+
+body, html {
+    height: 100%;
+    color: #1A1A1A;
+}
+
+
+/* The hero image */
+.hero-image {
+  /* Use "linear-gradient" to add a darken background effect to the image (photographer.jpg). This will make the text easier to read */
+  background-image: linear-gradient(rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5)), url("/images/landing.jpg");
+
+  /* Set a specific height */
+  height: 80%;
+  padding-top: 90px;
+  
+
+  /* Position and center the image to scale nicely on all screens */
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+  position: static;
+}
+
+
+/* Place text in the middle of the image */
+.hero-text {
+  text-align: center;
+  position: absolute;
+  top: 45%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  color: white;
+  width: 60%;
+  
+}
+
+.hero-text h1 {
+    font-size: 6rem;
+}
+
+.hero-text p {
+    font-size: 2rem;
+}
+
+.nav-menu {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: center;
+    background-color: white;
+    position: fixed;
+    top: 0px;
+    width: 100%; /* Full width */
+
+    height: 80px;
+    
+    
+}
+
+.nav-menu img {
+    width: 250px;
+    height: auto;
+    margin-left: 15px;
+    
+}
+
+.menu {
+    display: flex;
+}
+
+.menu li {
+    margin-right: 50px;
+    list-style-type: none;
+}
+
+.menu li > a {
+    text-decoration: none;
+    color: #1A1A1A;
+}
+
+
+
+
+.sptf {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    margin-top: 60px;
+}
+
+.sptf hr {
+    width: 250px;
+    background-color: #00B172;
+    height: 3px;
+    border: none;
+    border-radius: 7px;
+}
+
+.outer-div {
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    width: 100%;
+    height: 400px;
+    margin-top: -50px;
+    
+}
+
+.inner-div {
+    margin-top: 60px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    align-content: center;
+    width: 40%;
+
+}
+
+.inner-div h2 {
+    color: #00B172;
+}
+
+.inner-div img {
+    height: 15%;
+    width: auto;
+}
+
+
+.inner-div h3 {
+    color: #1A1A1A;
+}
+
+
+.section3 {
+    height: auto;
+    background-color: #00B172;
+}
+
+.kanye {
+    padding-top: 50px;
+    display: flex;
+    flex-direction: column;
+	flex-wrap: nowrap;
+	justify-content: flex-start;
+	align-items: flex-start;
+}
+
+.kanye h2 {
+    margin-left: 120px;
+    color: white;
+}
+
+
+.kanye hr {
+    margin-left: 120px;
+    width: 325px;
+    background-color: #fff;
+    height: 3px;
+    border: none;
+    border-radius: 7px;
+}
+
+
+.outer-div2 {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-evenly;
+	align-items: center;
+    margin-left: 100px;
+}
+
+
+.info {
+    width: 30%;
+    color: white;
+}
+
+.info p {
+    padding-bottom: 30px;
+}
+
+.logo {
+    width: 30%;
+}
+
+.inner-div2 {
+    width: 30%;
+}
+
+.logo img {
+    margin-left: 140px;
+    width: 20%;
+}
+
+.inner-div2 img {
+    margin-top: -30px;
+    width: 60%;
+}
+
+
+
+
+
+
+
+
+
+
