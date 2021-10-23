@@ -1,8 +1,165 @@
 /*
 Colors:
 
-Text: 1A1A1A
+Text: #1A1A1A
 Green: #00B172
 White: #FFF
 
 */
+h1, body, html, main {
+    margin: 0;
+    color: #1A1A1A;
+  }
+
+.nav-bar {
+    background: #FFF;
+    padding: 10px 0px 10px;
+    width: 1900px;
+    height: 60px;
+    position: fixed;
+    z-index: 1;
+    display: flex;
+    justify-content: space-between;
+}
+
+.nav-bar a {
+    color: black;
+    text-decoration: none;
+    font-size: 2em;
+}
+
+.nav-bar-ul {
+    list-style: none;
+    width: 600px;
+    margin: 0 30px 0 60px;
+    justify-content: space-between;
+    display: flex;
+    align-items: center;
+}
+
+.nav-bar-ul li {
+    color: black;
+    float: left;
+    list-style-type: none;
+    padding: 8px 0 0 0;
+    text-align: left;
+}
+
+.nav-bar img {
+    width: 200px;
+}
+
+#section-1{
+    height: 1200px;
+    background-image: url("/images/landing.jpg"); 
+    background-repeat: no-repeat;
+    background-color: black;
+    background-size: cover;
+    margin: auto;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+}
+
+h1{
+    color: #FFF;
+    font-size: 4em;
+    font-weight: bold;
+    padding: 20px;
+    margin: auto;
+}
+
+h2{
+    color: #FFF;
+    font-size: 2em;
+    margin: auto  
+}
+
+#section-1 div {
+    width: 1900px;
+    height: 100px;
+    position: absolute;
+    top: 50%;
+}
+
+#section-2 span {
+    font-size: 2em;
+    font-weight: bold;
+    text-align: center;
+    display: table;
+    margin:50px auto;
+    border-bottom: 5px solid  #00B172;
+}
+
+#section-2 > div {
+    padding: 0 25px;
+    display: flex;
+    justify-content: space-between;
+    margin: 100px;
+  }
+
+#section-2 .box-container {
+    width: 20%;
+    margin: 20px;
+    text-align: center;
+    font-size: 2em;
+}
+
+#section-2 .box-container img {
+    width: 80px;    
+}
+
+#section-2 .box-container h3 {
+    color: #00B172;
+}
+
+#section-3 {
+    position: relative;
+   background-color: #00B172;
+   height: 1000px;
+   margin: 50px;
+   display: flex;
+   justify-content: space-between;
+}
+
+
+
+#section-3-first-column {
+    height: 800px;
+    margin: 100px 100px 0;
+}
+
+
+#section-3-second-column{
+    height: 800px;
+    margin: 100px;
+}
+
+#section-3-first-column span {
+    font-size: 3em;
+    text-align: left;
+    display: table;
+    color: #FFF;
+    border-bottom: 5px solid  #FFF;
+}
+
+#section-3 .box-container {
+    color: #FFF;
+    width: 50%;
+    margin-top: 50px;
+    text-align: left;
+    font-size: 2em;
+}
+
+#spotify-icon-white {
+    position: absolute;
+    width: 180px;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+}
+
+#spotify-app {
+    height: 800px;
+    margin: 50px 70px 25px 0;
+}
