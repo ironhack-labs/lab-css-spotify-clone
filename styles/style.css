@@ -13,19 +13,28 @@ html {
 body {
   margin: 0;
 }
+a {
+  text-decoration: none;
+  color: inherit;
+}
 
 /********* NAV **************/
 nav {
   display: flex;
   flex-direction: row;
   justify-content: space-between;
-  padding: 0.75em 1em;
+  padding: 0.75em 0em;
+  position: fixed;
+  background-color: white;
+  width: 100%;
+  z-index: 1;
 }
 .nav-items {
   display: flex;
   flex-direction: row;
   justify-content: space-between;
   padding-inline-start: 0px;
+  padding-right: 2em;
 }
 .nav-items li {
   list-style-type: none;
@@ -34,6 +43,7 @@ nav {
 .logo {
   width: 150px;
   object-fit: contain;
+  padding-left: 2em;
 }
 /************ LANDING*****************/
 .landing {
