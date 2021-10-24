@@ -11,7 +11,7 @@ html {
   font-size: 14px;
 }
 body {
-    margin: 0;
+  margin: 0;
 }
 
 /********* NAV **************/
@@ -46,54 +46,92 @@ nav {
   justify-content: center;
   flex-direction: column;
   align-items: center;
-  
 }
 .landing h1 {
   font-weight: 600;
   font-size: 4.5em;
   margin-block-end: 0;
 }
-.landing p{
-max-width:550px ;
-font-size: 1.5em;
-font-weight: 300;
-text-align: center;
+.landing p {
+  max-width: 550px;
+  font-size: 1.5em;
+  font-weight: 300;
+  text-align: center;
 }
 /************* FEATURES****************/
 
-.features{
-display: flex;
-justify-content: space-around;
-padding: 1em;
+.features {
+  display: flex;
+  justify-content: space-around;
+  padding: 1em;
 }
-.features-title{
-    display: flex;
-    justify-content: center;
+.features-title {
+  display: flex;
+  justify-content: center;
 }
-.features-title h2{
-    border-bottom: 3px solid #00B172;
-    width: fit-content;
-    padding-top: 1em;
-    font-size: 1.75em;
-    font-weight: 600;
-    padding-bottom: 0.2em;
-}
-
-.box{
-    padding:1.5em;
-    text-align: center;
-    
+.features-title h2 {
+  border-bottom: 3px solid #00b172;
+  width: fit-content;
+  padding-top: 1em;
+  font-size: 1.75em;
+  font-weight: 600;
+  padding-bottom: 0.2em;
 }
 
-.box img{
-    width: 100px;
+.box {
+  padding: 1.5em;
+  text-align: center;
 }
-.box h3{
-    color: #00B172;
+
+.box img {
+  width: 100px;
 }
-.box p{
-    width: 170px;
-    text-align: center;
-    font-size: 1.2em;
-    font-weight: 300;
+.box h3 {
+  color: #00b172;
+}
+.box p {
+  width: 170px;
+  text-align: center;
+  font-size: 1.2em;
+  font-weight: 300;
+}
+
+/********* DEMO ***********/
+
+.demo-content {
+  background-color: #00b172;
+  display: flex;
+  justify-content: space-around;
+  padding: 3em 1em;
+  margin: 2em;
+  position: relative;
+}
+.spotify-icon {
+  position: absolute;
+  width: 100px;
+  object-fit: contain;
+  top: 43%;
+}
+.screenshot {
+  width: 230px;
+  object-fit: contain;
+}
+.demo-text {
+  width: 400px;
+  color: #fff;
+}
+.demo-text h2 {
+  border-bottom: 2px solid;
+  width: fit-content;
+  font-weight: 500;
+  font-size: 2em;
+  padding-bottom: 0.3em;
+}
+.text-box {
+  margin: 3em 0em;
+  width: 70%;
+}
+.text-box h3 {
+  font-weight: 600;
+  font-size: 1.3em;
 }
