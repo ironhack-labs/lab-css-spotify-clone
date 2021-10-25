@@ -1,8 +1,175 @@
-/*
-Colors:
+body {
+    font-family: 'Raleway', sans-serif;
+    margin: 0px;
+    padding: 0px;
+    color: #1a1a1a;
+    line-height: 1.4em;
+}
 
-Text: 1A1A1A
-Green: #00B172
-White: #FFF
+/* ------------ Header and nav ------------ */
 
-*/
+header {
+    width: 100vw;
+    height: 60px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    position: fixed;
+    top: 0px;
+    left: 0px;
+    background-color: white;
+}
+
+.spotify-logo {
+    padding: 10px 0px 0px 30px;
+}
+
+.spotify-logo img {
+    height: 45px;
+}
+
+.top-menu ul {
+    display: flex;
+    flex-direction: row;
+    padding-right: 20px;
+}
+
+.top-menu ul li {
+    list-style: none;
+}
+
+.top-menu .top-menu-item {
+    padding: 0px 12px;
+}
+
+/* ------------ Section Hero image------------ */
+
+.hero {
+    background-image: url('../images/landing.jpg');
+    background-size: cover;
+    height: 600px;
+    margin-top: 70px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.hero-text-wrapper {
+    color: white;
+    width: 60%;
+    height: 240px;
+    display: flex;
+    flex-direction: column;
+    text-align: center;
+}
+
+.hero h1.hero-title {
+    font-size: 3.2em;
+    line-height: 1.8em;
+    margin: 0px;
+}
+
+.hero p.hero-subtitle {
+    font-size: 1.3em;
+    line-height: 1.4em;
+}
+
+/* ------------ Section Bullet Points ------------ */
+
+.section-bullets {
+    text-align: center;
+    margin: 24px auto 60px;
+}
+
+.title-section {
+    font-size: 1.7em;
+    position: relative;
+    display: inline-block; /* so that "title-section" is as wide as its text */
+}
+
+h2.title-section::before {
+    content: "";
+    width: 100%;
+    height: 3px;
+    position: absolute;
+    bottom: -10px;
+    left: 0px;
+    background-color: #00B172;
+    display: block;
+}
+
+.bullet-points-wrapper {
+    width: 100vw;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-evenly;
+    align-items: baseline;
+    margin-top: 30px;
+}
+
+.bullet-point {
+    width: 210px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.bullet-point img {
+    width: 90px;
+}
+
+.bullet-point h3 {
+    color: #00B172;
+    font-weight: 800;
+    font-size: 1.3em;
+}
+
+.bullet-point .bullet-point-description {
+    line-height: 1.4em;
+}
+
+
+/* ------------ Bottom section ------------ */
+
+.bottom-section {
+    background-color: #00B172;
+    color: white;
+    margin: 30px;
+    padding: 40px 70px 50px;
+}
+
+.bottom-section h2.title-section::before {
+    background-color: white;
+}
+
+/* .wrapper-flexdiv --> has 3 elements: column-text, 1 image, and wrapper-img */
+.wrapper-flexdiv {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+
+.wrapper-flexdiv .column-text {
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    width: 245px;
+}
+
+.wrapper-flexdiv .column-text h4 {
+    font-size: 1.3em;
+}
+
+.wrapper-flexdiv .white-spotify-icon {
+    width: 50px;
+    width: 80px;
+}
+
+.wrapper-flexdiv .wrapper-img {
+    width: 250px;
+    margin-top: -25px;
+}
+
+.wrapper-flexdiv .spotify-screen {
+    width: 100%;
+}
