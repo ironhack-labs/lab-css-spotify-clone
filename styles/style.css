@@ -9,7 +9,153 @@ White: #FFF
 
 @import url('https://fonts.googleapis.com/css2?family=Raleway:wght@300&display=swap');
 
-* {
-    font-family: 'Raleway', sans-serif;;
+body {
+    font-family: 'Raleway', sans-serif;
+    margin-bottom: 10vh;
 }
 
+.spotifylogo  { /*why is the spotify logo higher?*/
+    width: 200px;
+}
+
+.nav {
+    position: fixed;
+}
+
+.sec1 ul {
+    font-size: 20px;
+    margin-left: 75%;
+    margin-top: auto;
+    padding: 0 5px;
+    display: flex;
+    justify-content: space-between;
+    list-style: none;
+    display: flex;
+    justify-content: space-between;
+    
+  }
+
+  
+.sec1 a {
+    text-decoration: none;
+    color: black;
+  
+}
+
+header {
+    background-image: url('images/landing.jpg'); /*bkgrd img not showing?*/
+      background-position: 0, 0;
+      background-repeat: no-repeat;
+      background-size: cover;
+      height: 650px;
+      padding-top: 50px;
+      position: relative;
+      text-align: center;
+}
+
+h1 {
+    font-size: 125px;
+}
+
+aside {
+    font-size: 40px;
+    font-weight: lighter; /*nothing happening*/
+}
+
+
+h2 {
+    text-align: center;
+    font-size: 3rem;
+    font-weight: bolder; /*nothing happening*/
+    padding-bottom: 50px;
+}
+
+.sec3 {
+    display: flex;
+    justify-content: center;
+    flex-direction: row;
+    align-content: space-between;
+
+
+}
+.three-logos {
+        display: flex;
+        flex-direction: row;
+        text-align: center;
+        align-items: stretch;
+        justify-content: center;
+
+      }
+
+.millions{
+    padding-right: 50px;
+}
+
+.HD{
+    padding-right: 50px;
+}
+
+.Stream{
+    padding-right: 50px;
+}
+
+.sec3 p{
+    font-size: 25px;
+    font-weight: bolder; /*doesn't do anything, do I need to download all font styles of this family?*/
+}
+
+.three-logos img {
+       width: 100px;
+       height: auto;
+       display: flex;
+       align-content: space-between;
+       justify-content: center;
+
+      }
+
+.three-logos h3 {
+    color: #00B172;
+    font-size: 30px;
+    font-weight: bold;
+}
+
+.sec4 {
+    background-color: #00B172;
+    color: #FFF;
+    margin: 100px;
+    padding: 50px;
+    list-style-type: none; /*trying to get rid of bullet points*/
+	
+}
+
+.sec4 h3{
+    font-size: 40px;
+}
+
+.sec4 h4 {
+    font-size: 30px;
+}
+
+.sec4 p{
+    font-size: 20px;
+    text-align: left;
+    font-weight: lighter;
+}
+
+.whitelogo{
+    width: 150px;
+}
+
+.kanye{
+    width: 500px;
+
+}
+
+.sec4 img{
+    display: flex;
+	flex-direction: row;
+	flex-wrap: nowrap;
+	justify-content: center;
+	align-items: center;
+	align-content: center;
+}
