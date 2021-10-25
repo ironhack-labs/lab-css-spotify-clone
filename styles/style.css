@@ -14,26 +14,45 @@ White: #FFF
 
 }
 
-.nav-bar {
-    margin-top: 15px;
-    margin-left: 30px;
-    margin-bottom: 15px;
+.navbar {
+    background-color: #FFF;
+    position: fixed;
+    top: 0;
+    width: 100%;
 }
 
 .spotify-logo {
     height: 40px;
     width: auto;
+    margin-top: 15PX;
+    margin-left: 30px;
+    margin-bottom: 15px;
 }
 
-.nav-list {
+.navbar {
+    display: flex;
+    justify-content: space-between;
+}
+
+.navbar-list {
     list-style: none;
+    display: flex;
+}
+
+.navbar-list li {
+    margin-right: 30px;
+    margin-top: 10px;
+}
+
+.navbar-list li a {
+    text-decoration: none;
 }
 
 .header-background-img {
     background-image: url("/images/landing.jpg");
     background-repeat: no-repeat;
     background-size: cover;
-    height: 700px;
+    height: 990px;
 }
 
 .features {
@@ -43,6 +62,15 @@ White: #FFF
 .songs-img {
     height: 100px;
     width: auto;
+}
+
+.features {
+    text-align: center;
+}
+
+.container {
+    display: flex;
+    justify-content: space-evenly;
 }
 
 .hd-music-img {
@@ -81,6 +109,4 @@ White: #FFF
     height: 35px;
     width: auto;
     vertical-align: middle;
-    filter: #00B172;}
-    
 }
