@@ -6,3 +6,166 @@ Green: #00B172
 White: #FFF
 
 */
+body{
+    overflow-x: hidden;
+    margin: 0;
+}
+#navbar li {
+    display:inline;
+    font-family: Arial, Helvetica, sans-serif;
+    margin: 0 15px;
+}
+
+#navbar{
+    padding: 1%;
+    width: 100%;
+    height: 5%;
+    display: flex;
+    position: fixed;
+    z-index: 2;
+    background-color: white;
+}
+
+#navbar img{
+    height: 90%;
+}
+
+.section1{
+    width: 100%;
+    height: 100vh;
+}
+
+#navlist{
+    margin-left: auto;
+    margin-right: 5%;
+}
+.border{
+    border: 1px solid black;
+}
+
+#main_image{
+    background: url(../images/landing.jpg);
+    background-repeat: no-repeat;
+    background-size: 100% 100%;
+    height: 100%;
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+}
+
+.section1 h1, p{
+    color: white;
+    font-family: Arial, Helvetica, sans-serif;
+font-size: 4rem;
+}
+
+.section1 p{
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 1.2rem!important;
+}
+.section2 {
+    text-align: center;
+    width: 100%;
+    height: 40vh;
+}
+
+.section2 h3{
+    color: black;
+    font-family: Arial, Helvetica, sans-serif;
+font-size: 1.6rem;
+text-decoration: underline;
+text-decoration-color: #00B172;
+text-underline-offset: 0.35em;
+
+}
+.services{
+    display: flex;
+}
+
+.service {
+	width: 30%;
+	margin: 3% 10%;
+}
+
+.service img{
+    width: 37%;
+}
+
+.service h5{
+    color: #00B172;
+    margin-top: 2%;
+    margin-bottom: 2%;
+    font-family: arial;
+    font-weight: bold;
+    font-size: 1.2rem;
+}
+
+.service p{
+    color: #1A1A1A8F;
+    font-family: arial;
+    font-size: 1.1rem;
+}
+
+.section3{
+    height: 65vh;
+    padding: 1% 2%;
+    
+}
+
+.container{
+    background-color: #00B172;
+    width: 100%;
+    height: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.text-container{
+    width: 35%;
+    padding: 2% 5%;
+}
+.img-container{
+    width: 65%;
+    justify-content: center;
+    display: flex;
+    align-items: center;
+}
+.img-container img{
+margin: 0 10%;
+}
+
+.icon{
+    width: 10%;
+    position: absolute;
+}
+
+.app{
+    position: absolute;
+    height: 50%;
+    margin-left: 15%;
+}
+
+.text-container h1{
+    color: white;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    font-size: 1.95rem;
+    text-decoration: underline;
+    text-decoration-color: currentcolor;
+    text-decoration-color: white;
+	text-underline-offset: 0.35em;
+    margin-bottom: 50px;
+}
+
+.text-container h4{
+    color: white;
+font-family: arial;
+font-size: 1.5rem;
+margin-bottom: 19.92px;
+}
+
+.text-container p{
+font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+font-size: 1rem;
+}
