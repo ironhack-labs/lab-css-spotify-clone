@@ -1,8 +1,106 @@
-/*
-Colors:
 
-Text: 1A1A1A
-Green: #00B172
-White: #FFF
+body{
+    font-family: 'Zen Kaku Gothic Antique', sans-serif;
+font-family: 'Zen Old Mincho', serif;
+}
 
-*/
+header{
+    position: fixed;
+    background-color: white;
+}
+#sections-wraper{
+
+    display: flex;
+    flex-direction: column;
+}
+
+#logoImg{
+    width: 10%;
+}
+#headerLinks{
+    float: right;
+}
+#headerLinks li{
+    float: left;
+    list-style-type: none;
+    margin-left: 10px;
+    
+}
+#headerLinks li a{
+    text-decoration: none;
+    color: black;
+}
+#headerLinks li a:hover{
+    color: rgb(88, 88, 221);
+}
+.imgBackground{
+    background-image: url("../images/landing.jpg");
+    padding: 5% 0 5% 0;
+    color:white;
+    text-align: center;
+    font-size: 200%;
+    background-repeat: no-repeat;
+    background-size: cover;
+    height: 700px;
+    background-position: left;
+    
+}
+#section_2{
+    text-align: center;
+    
+}
+#section_2 h2{
+    text-decoration: underline;
+    text-underline-offset: 9px;
+    text-decoration-color: green;
+    font-size: 250%;
+}
+#section_2 img{
+width: 10%;
+}
+#section_2 div{
+    float: left;
+    font-size: 110%;
+}
+#section_2 h3{
+    color:green;
+    
+}
+.Services{
+    margin-top: 4%;
+}
+#section_3{
+
+    display: flex;
+    flex-direction: row;
+}
+#section_3{
+    
+    background-color: rgba(26, 177, 106);
+    background-repeat: no-repeat;
+    justify-content: right;
+    align-items:flex-start;
+    align-items: center;
+    color: white;
+    font-size: 150%;
+    padding-left: 5%;
+    text-align: ;
+}
+#section_3 h4{
+    text-decoration: underline;
+    text-underline-offset: 10px;
+    font-size: 180%;
+}
+#section_3 h5{
+    font-size: 150%;
+}
+
+#spoty-icon{
+    margin:0 20% 0 20% ;
+    width: 5%;
+    
+}
+#app-img{
+    width:15%;
+    margin: 3%;
+}
