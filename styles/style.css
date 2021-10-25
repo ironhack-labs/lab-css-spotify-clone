@@ -1,13 +1,8 @@
-/*
-Colors:
-
-Text: 1A1A1A
-Green: #00B172
-White: #FFF
-
-*/
 body {
   margin: 0;
+  font-family: "Roboto", sans-serif;
+  font-weight: lighter;
+  color: #1a1a1a;
 }
 nav {
   display: flex;
@@ -18,30 +13,36 @@ header {
   display: flex;
   height: 54px;
   justify-content: space-between;
-  padding: 0 48px;
-  position: sticky;
+  position: fixed;
   top: 0;
-}
-.log {
-  height: 54px;
+  width: 100%;
 }
 .logo img {
   height: 75%;
-  margin: 7px;
+  margin: 7px 7px 7px 32px;
 }
 .nav-header {
   width: 30%;
   display: flex;
-  justify-content: space-around;
+  align-items: center;
+  justify-content: end;
 }
-.nav-buttons {
-  border: none;
-  background-color: white;
+.nav-buttons ul {
+  display: flex;
+  list-style-type: none;
+  margin-right: 32px;
+}
+.nav-buttons li {
+  margin: 8px;
+}
+.nav-buttons a {
+  text-decoration: none;
+  color: #1a1a1a;
 }
 .hero {
   background-image: url("/images/landing.jpg");
   background-size: cover;
-  height: 700px;
+  height: 900px;
   display: flex;
   align-items: center;
 }
@@ -50,14 +51,13 @@ header {
   margin: 0 auto;
   color: white;
   text-align: center;
-  height: fit-content;
-  align-items: center;
 }
 .hero-text h1 {
   font-size: 78px;
 }
 .hero-text h2 {
   font-size: 24px;
+  font-weight: lighter;
 }
 .section1 {
   display: flex;
@@ -96,6 +96,7 @@ header {
 .characteristics h3,
 p {
   text-align: center;
+  font-weight: ;
 }
 .characteristics h3 {
   color: #00b172;
@@ -104,6 +105,7 @@ p {
 .characteristics p {
   font-size: 20px;
   line-height: 28px;
+  font-weight: 100;
 }
 .section2 {
   display: flex;
@@ -112,6 +114,7 @@ p {
   height: 700px;
   width: 95%;
   margin: 0 auto;
+  padding-top: 24px;
 }
 .section2-left {
   display: flex;
@@ -137,6 +140,7 @@ p {
 .section2-left p {
   text-align: start;
   font-size: 18px;
+  line-height: 30px;
 }
 .spotify-logo-img {
   position: absolute;
@@ -161,7 +165,9 @@ p {
   display: flex;
   align-items: center;
   justify-content: center;
+  margin-top: 30px;
 }
 .spotify-app-img img {
   height: 550px;
+  margin-left: 48px;
 }
