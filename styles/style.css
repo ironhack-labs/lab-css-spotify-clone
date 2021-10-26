@@ -5,4 +5,170 @@ Text: 1A1A1A
 Green: #00B172
 White: #FFF
 
-*/
+*/  
+
+* {
+    margin: 0;
+    color: #1A1A1A;
+    font-family: Helvetica, sans-serif;
+}
+
+.nav-bar img{
+    width: 160px;
+    margin: 15px 30px;
+    
+}
+.nav-bar {
+    background-color: white;
+    width: 100%;
+    color: black;
+    display: flex;
+    justify-content: space-between;
+    position: fixed;
+}
+
+.nav-bar a{
+    text-decoration: none;
+}
+
+.nav-bar a:hover{
+    color: #00B172;
+}
+
+header .landing {
+    padding-top: 80px;
+    background-image: url(/images/landing.jpg);
+    background-size: cover;
+    width: 100%;
+    height: 500px;
+}
+
+header ul {
+    list-style-type:none;
+    height: 100%;
+    display: flex;
+    align-items: center;
+    margin-right: 25px;
+
+}
+
+header li {
+    margin: 0 10px;
+    
+}
+
+.landing {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+}
+
+.landing div {
+    width: 500px;
+    align-self: center;
+    text-align: center;
+}
+
+.landing h1 {
+    color: white;
+    font-size: 3rem;
+    font-weight: 600;
+    margin-bottom: 15px;
+}
+
+.landing  h2{
+    color: white;
+    font-size: 1.1rem;
+    font-weight: 500;
+}
+.what-is {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.section-title {
+    margin: 35px 0 35px 0;
+    border-bottom: solid 4px #00B172;
+    width: 217px;
+    padding-bottom: 6px;
+}
+.content{
+    display: flex;
+    justify-content: center;
+    margin-bottom: 40px;
+}
+
+.box-content {
+    display: flex;
+    width: 190px;
+    padding: 25px;
+    flex-direction: column;
+    align-items: center;
+}
+
+.box-content img {
+    width: 100px;
+}
+
+.box-content h3 {
+    margin-top: 15px;
+    color: #00B172;
+    font-size: 1.2rem;
+}
+
+.box-content p {
+    margin-top: 15px;
+    font-size: 1rem;;
+    font-weight: 100;
+    text-align: center;
+}
+
+.last-section {
+    background-color: #00B172;
+    margin: 30px;
+    display: flex;
+    justify-content: space-between;
+}
+
+.last-section > img{
+    position: absolute;
+    width: 84px;
+    height: 84px;
+    padding: 42vh 45vw;
+    
+}
+
+.last-section h1{
+    color: white;
+    font-size: 1.4rem;
+    border-bottom: solid 4px white ;
+    width: 301px;
+    padding-bottom: 6px;
+    margin-bottom: 50px;
+
+}
+
+.last-section h3{
+    color: white;
+    font-size: 1.2rem;
+    margin-bottom: 20px;
+}
+
+.last-section p {
+    font-size: 0.9rem;;
+    font-weight: 100;
+    color: white;
+    margin-bottom: 20px;
+    
+}
+
+.last-section-content{
+    padding: 60px;
+    width: 240px;
+}
+
+.last-section-image img {
+    width: 250px;
+    padding: 60px;
+}
