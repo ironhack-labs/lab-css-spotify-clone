@@ -1,8 +1,195 @@
-/*
-Colors:
+@import url("https://fonts.googleapis.com/css2?family=Raleway:wght@400;700;800&display=swap");
 
-Text: 1A1A1A
-Green: #00B172
-White: #FFF
 
-*/
+
+/* Blue	rgb(67, 163, 230);
+Dark Blue	rgb(25, 33, 41);
+Text	rgb(0, 0, 0); */
+body {
+  font-family: 'Raleway', sans-serif;
+  margin: 0px;
+  padding: 0px;
+  color: #000000;
+  line-height: 1.4em;
+}
+
+/* ------------- NAV -------------------------------------- NAV -------------- */
+
+header {
+    width: 100vw;
+    height: 80px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    position: fixed;
+    top: 0px;
+    left: 0px;
+    background-color: white;
+}
+
+.spotify-logo {
+    padding: 30px;
+}
+
+.spotify-logo img {
+    height: 60px;
+}
+
+.nav-bar ul {
+    list-style: none;
+    display: flex;
+    padding-right: 20px;
+}
+
+
+.nav-bar-item {
+    font-size: 20px;
+    padding: 0px 12px;
+    list-style: none;
+    justify-content: flex-end;
+}
+
+/* ------------- SECTION 1 -------------------------------------- SECTION 1 -------------- */
+
+#section1 {
+    width: 100%;
+    height: 900px;
+    background-size: cover;
+    background-image: url('../images/landing.jpg');
+    display: flex;
+    justify-content: center;
+}
+
+/* .title {
+    font-size: 30px;
+} */
+
+.text {
+    color: white;
+    display: flex;
+    flex-direction: column;
+    text-align: center;
+    margin-top: 300px;
+}
+
+.title {
+    font-size: 5em;
+    line-height: 1.5em;
+    margin: 0px;
+}
+
+.subtitle {
+    font-size: 1.8em;
+    line-height: 1.4em;
+}
+
+/* ------------- SECTION 2 -------------------------------------- SECTION 2 -------------- */
+
+
+#section2 h2 {
+    font-size: 35px;
+    display: flex;
+    justify-content: center;
+    border-bottom: 4px solid rgb(26, 178, 106);
+    padding: 20px;
+    margin: 40px 495px;
+}
+
+#section2 img {
+    height: 125px;
+}
+
+.flex {
+    display: flex;
+}
+
+.caixes {
+    flex-direction: row;
+    justify-content: space-evenly;
+    margin: 0px 100px;
+}
+
+#section2 div {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.divs {
+    margin: 0px 40px;
+    flex-direction: column;
+    justify-content: center;
+}
+
+
+#section2 h3 {
+    color: rgb(26, 178, 106);
+    font-size: 1.5em;
+    align-items: center;
+    line-height: 3em;
+}
+
+#section2 p {
+    font-size: 1.5em;
+    line-height: 1.5em;
+    padding-top: 10px;
+    text-align: center;
+}
+
+/* ------------- SECTION 3 -------------------------------------- SECTION 3 -------------- */
+
+
+#section3 {
+    /* display: flex; */
+}
+
+#green-box {
+    background-color: rgb(26, 178, 106);
+    height: 550px;
+    margin: 30px 30px 30px 30px;
+    padding: 40px 70px 50px 50px;
+}
+
+.caixes3 {
+    flex-direction: column;
+    justify-content: space-evenly;
+    margin: -620px 100px;
+    color: rgb(255, 255, 255);
+}
+
+#section3 h2 {
+    font-size: 2.7em;
+    border-bottom: 4px solid rgb(255, 255, 255);
+    margin-right: 600px; 
+    line-height: 2em;
+    margin-bottom: 30px;
+}
+
+#section3 h3 {
+    font-weight: 600;
+    font-size: 1.5em;
+    align-items: left;
+    line-height: 3em;
+}
+
+#section3 p {
+    font-size: 1em;
+    align-items: left;
+    line-height: 1.5em;
+    margin-right: 880px;
+}
+
+.white-logo img {
+    height: 130px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin: 350px 350px 150px 580px
+}
+
+.spotiphone img {
+    width: 260px;
+    display: flex;
+    justify-content: flex-end;
+    margin: -480px 30px 150px 900px
+}
