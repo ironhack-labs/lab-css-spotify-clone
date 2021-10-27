@@ -1,8 +1,208 @@
 /*
 Colors:
 
-Text: 1A1A1A
+Text: #1A1A1A
 Green: #00B172
 White: #FFF
 
 */
+@import url('https://fonts.googleapis.com/css2?family=Montserrat:wght@100;300;500;700&display=swap');
+
+:root {
+  --green: #00b172;
+  --text: #1a1a1a;
+  --white: #fff;
+}
+html, body, header, main {
+    font-family: 'Montserrat', sans-serif;
+    padding: 0;
+    margin: 0;
+    color:var(--white);
+}
+
+main {
+  margin: 10px 0;
+}
+
+.navbar {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  width: 100%;
+}
+.navbar-container {
+  width: 100%;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+
+  z-index: 9999;
+}
+.spotify-logo {
+  height: 40px;
+  width: auto;
+  padding-left: 20px;
+}
+
+.nav-li {
+  list-style: none;
+  display: flex;
+  justify-content: space-between;
+  align-items: flex-end;
+  flex-wrap: wrap;
+}
+
+.nav-li a {
+  text-decoration: none;
+  color: black;
+  padding: 0 20px;
+}
+
+.music {
+   height: 600px;
+    width: auto;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    color:var(--white);
+    text-align: center;;
+    background-image: url("/images/landing.jpg");
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-color: antiquewhite;
+}
+
+.music-container {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+.music-container h2 {
+    font-size: 60px;
+    padding-bottom: 15px;
+
+}
+.music-container p {
+    font-size: 20px;
+    font-weight: lighter;
+}
+
+.music-container .faulty-margin {
+    margin:0;
+}
+
+.spotify-container h4 {
+    color:var(--text);
+    text-align: center;
+    font-size: 45px;
+    font-weight: 500;
+    margin-top: 40px;
+}
+
+.first-hr {
+  max-width: 350px;
+  color: var(--green);
+
+}
+.general {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-evenly;
+  align-items: stretch;
+  flex-wrap: wrap;
+  margin: 20px 40px;
+}
+
+.icon {
+  max-width: 150px;
+  margin: 20px;
+}
+
+.tile {
+  max-width: 400px;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  margin: 15px 5px;
+  padding: 5px 10px;
+  text-align: center;
+  color: var(--text);
+}
+.img-HD {
+  margin-bottom: 42px;
+}
+
+.tile h5 {
+  color: var(--green);
+  font-size: 25px;
+}
+.tile p {
+font-size: 20px;
+padding:0 90px;
+}
+
+.tile .weird-margin {
+  margin: 0;
+}
+
+.kanye-container{
+  background-color: var(--green);
+  display: flex;
+  justify-content: space-evenly;
+  align-items: center;
+  align-content: center;
+  max-width: 90%;
+  margin: 3%;
+  padding: 3%;
+  height: auto;
+}
+.kanye {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-around;
+  align-items: center;
+  align-content: center;
+  width: 100%
+}
+
+.text-section {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: flex-start;
+  flex-wrap: wrap;
+  max-width: 40%;
+  margin-left: 25px;
+  text-align: left;
+}
+
+.text-section h3 {
+  font-size: 28px;
+  padding-bottom: 15px;
+  border-bottom: 2px solid white
+}
+.text-section h4 {
+  text-align: left;
+  font-size: 25px;
+  margin: 20px 0;
+}
+
+.text-section p {
+  font-size: 18px;
+  font-weight: lighter;
+}
+
+.app {
+  height: 450px;
+  width: auto;
+  padding: 30px 20px 20px 20px;
+  display: flex;
+  justify-content: flex-end;
+}
+.white-logo {
+  display: flex;
+  flex-wrap: wrap;
+  width: 10%;
+  height: auto;
+}
