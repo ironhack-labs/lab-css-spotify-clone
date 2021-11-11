@@ -6,3 +6,74 @@ Green: #00B172
 White: #FFF
 
 */
+
+body {
+    margin:0;
+    padding:0;
+}
+
+.navbar {
+    position:fixed;
+    padding: 15px;
+    width:100%;
+    background-color:white;
+
+}
+.navbar img {
+    float:left;
+    height:50px;
+    }
+
+.navbar ul {
+    list-style:none;
+    float:right;
+    margin-right:40px;
+}
+
+ .navbar ul li {
+    display:inline;
+    padding-right:5px;
+} 
+
+#hero {
+    height:600px;
+    display:flex;
+    align-items: center;
+    justify-content: center;
+    background-image: url("../images/landing.jpg");
+    background-size: contain;
+    background-color: #00B172;
+    flex-direction:column;
+    }
+
+#hero h1, #hero p {
+    color:white;
+    }
+
+#hero h1 {
+    font-size: 30px;
+    font-weight:600;
+    margin-bottom:20px;
+}
+
+#hero p {
+    margin:0;
+    padding:0;
+}
+
+#features {
+    margin-top:20px;
+    display:flex;
+    align-items:center;
+    justify-content:space-evenly;
+}
+
+.featureBox {
+    display:flex;
+    flex-direction: column;
+    align-items:center;
+    }
+
+.featureIcon {
+    height:35px;
+}
