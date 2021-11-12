@@ -7,13 +7,61 @@ White: #FFF
 
 */
 body{
+  margin: 0;
+  padding: 0;  
   font-family:arial;
   color: #1A1A1A;
+  font-size: 10px;
+  line-height: 3.5em;
+  font-weight: 300;
+}
+
+.nav-bar{
+ color: #1A1A1A;
+ background-color:white;
+ padding: 20px 0;
+ height: 200px;
+ border: black;
+ display: flex;
+ justify-content: space-evenly;
+position: fixed;
+}
+
+.nav-bar a{
+    text-decoration: none;
+    color: #1A1A1A;
+    background-color:white;
+    font-size: 3em;
+}
+
+.nav-bar img{
+    height: 60px;
+    margin:5px;
+}
+
+.nav-bar-ul{
+    display: flex;
+    justify-content: space-evenly;
+    margin: 5px 80px 5px 750px;
+    width: 40%;
+}
+
+.nav-bar-ul li {
+  list-style-type: none;
+  text-align: center;
 }
 
 
-.nav-bar{
-  position:fixed;
-  list-style: none;
-  flex-direction: right;
+.general-information{
+    background-image: "/images/landing.jpg";
+    background-position: 0 0;
+    background-repeat: no-repeat;
+    background-size: cover;
+    height: 500px;
+    padding-top: 90px;
+    position: relative;
+}
+
+h1{
+    text-align: center;
 }
