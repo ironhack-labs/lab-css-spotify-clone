@@ -9,8 +9,9 @@ White: #FFF
 
 /* GLOBAL STYLES */
 
-html {
+body {
     margin: 0%;
+    padding: 0%;
     font-family: 'Montserrat', sans-serif;
     color: #1A1A1A;
     background-color: #FFF;
@@ -18,12 +19,13 @@ html {
 
 /* GLOBAL STYLES */
 
-
 #navbar {
     width: 100%;
     position: fixed;
     display: flex;
     justify-content: space-between;
+    top: 0;
+    padding: 10px;
 }
 
 #navbar > img {
@@ -42,4 +44,5 @@ html {
 
 #presentation {
     background-image: url("../images/landing.jpg");
+    margin-top: 80px;
 }
