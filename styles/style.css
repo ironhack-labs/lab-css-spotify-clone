@@ -10,6 +10,7 @@ body {
     margin: 0;
     box-sizing: border-box;
     font-family:-apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+    
 }
 
 nav {
@@ -42,6 +43,7 @@ nav ul li a {
     padding: 5px 15px;
     text-decoration: none;
     color: #1A1A1A;
+    cursor: pointer;
 }
 #section1 {
     background-image: url("../images/landing.jpg");
@@ -71,13 +73,84 @@ nav ul li a {
     display: flex;
     flex-direction: column;
     align-items: center;
+    margin-top: 25px;
+    margin-bottom: 50px;
 }
 #section2 h2 {
     font-size: 200%;
+    border-bottom: 4px solid #00B172;
 }
 #section2 .info-area {
     display: flex;
+    justify-content: space-evenly;
     width: 100%;
 }
 
+#section2 .info-text-area {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    
+    
+}
+#section2 .icon-area img {
+    width: 100px;
+}
+#section2 h3 {
+    color: #00B172;
+}
+#section2 p {
+    max-width: 180px;
+    text-align: center;
+    color: #1A1A1A;
+}
+#section3 {
+    background-color: #00B172;
+    padding: 50px;
+    margin: 30px 30px 0px 30px;
+    color: #FFF;
+    display: flex;
+    justify-content: space-between;
 
+}
+#section3 h3 {
+    font-size: 22pt;
+    font-weight: 300;
+    border-bottom: 3px solid #FFF;
+    padding-bottom: 5px;
+    word-wrap: unset;
+}
+#section3 h4 {
+    font-size: 20pt;
+    font-weight: 500;
+}
+#section3 .section3-col-1 {
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    
+}
+#section3 .col1-text-area {
+    font-weight: 200;
+    max-width: 250px;
+
+}
+
+#section3 .col2-spotify-icon-area {
+    align-self: center;
+    margin-right: 75px;
+    
+    
+    
+}
+#section3 .col2-spotify-icon-area img {
+    width: 150px;
+    
+}
+#section3 .col2-spotify-app-area {
+    padding-top: 50px;
+}
+#section3 .col2-spotify-app-area img{
+    max-width: 300px;
+}
