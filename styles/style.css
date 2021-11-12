@@ -7,9 +7,12 @@ White: #FFF
 
 */
 
+@import url('https://fonts.googleapis.com/css2?family=Montserrat:wght@300;400;600;700&display=swap');
+
 body {
     margin:0;
     padding:0;
+    font-family:"Montserrat";
 }
 
 .navbar {
@@ -17,6 +20,7 @@ body {
     padding: 15px;
     width:100%;
     background-color:white;
+    z-index:2;
 
 }
 .navbar img {
@@ -34,6 +38,11 @@ body {
     display:inline;
     padding-right:5px;
 } 
+
+.navbar ul li a {
+    text-decoration:none;
+    color:#1A1A1A
+}
 
 #hero {
     height:600px;
@@ -61,6 +70,11 @@ body {
     padding:0;
 }
 
+.featuresTitle {
+    text-align:center;
+    margin-bottom:50px;
+}
+
 #features {
     margin-top:20px;
     display:flex;
@@ -72,8 +86,58 @@ body {
     display:flex;
     flex-direction: column;
     align-items:center;
+    width:33%;
+    text-align:center;
     }
 
 .featureIcon {
-    height:35px;
+    height:55px;
+}
+
+.featureBox h3 {
+ color:#00B172
+}
+
+.featureBox p {
+    color:#1A1A1A;
+    margin-top:0;
+}
+
+#functionalities {
+    background-color: #00B172;
+    color:white;
+    margin:2.5%;
+    padding:4%;
+    height:500px;
+    position:relative;
+    }
+
+#functionalities h2 {
+    text-decoration:underline;
+    font-size:30px
+}
+
+#functionalities h4 {
+    font-weight:600;
+    font-size:26px
+}
+
+#functionalities p {
+    font-weight:300;
+    font-size:17px;
+}
+
+#functionalities .copy {float:left;}
+#functionalities .appImg {
+    float:right;
+    width:270px;
+    margin-top:50px;
+}
+
+
+.spotifyIconWhite {
+    height:100px;
+    position:absolute;
+    left: 47%;
+    bottom: 40%;
 }
