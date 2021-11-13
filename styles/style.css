@@ -1,3 +1,7 @@
+* {
+  margin: 0px;
+  padding: 0px;
+}
 /*
 Colors:
 
@@ -6,3 +10,165 @@ Green: #00B172
 White: #FFF
 
 */
+
+body {
+  font-family: sans-serif;
+}
+
+header {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  background-color: #fff;
+  position: fixed; /* Set the navbar to fixed position */
+  width: 100%; /* Full width */
+}
+
+nav {
+  padding-right: 30px;
+}
+
+nav ul {
+  color: #1a1a1a;
+  list-style: none;
+  display: flex;
+  justify-content: space-between;
+  width: 350px;
+}
+
+#logo {
+  height: 50px;
+  margin: 20px;
+}
+
+.hero {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  background-image: url("/images/landing.jpg");
+  background-position: bottom center;
+  background-size: cover;
+  height: 550px;
+  padding-top: 100px;
+}
+
+.hero-heading {
+  font-size: 60px;
+  color: white;
+  font-weight: bold;
+  margin-bottom: 30px;
+}
+
+.hero-content {
+  color: white;
+  font-size: 25px;
+  font-weight: 100;
+  line-height: 1.7em;
+  width: 50%;
+  text-align: center;
+}
+
+.section-two {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+
+.section-two-header {
+  font-size: 30px;
+  padding-top: 50px;
+  padding-bottom: 10px;
+  border-bottom: 3px solid #00b172;
+}
+
+#triple-cards {
+  margin: 70px;
+  display: flex;
+  justify-content: space-around;
+  flex-direction: row;
+}
+
+.music-icons {
+  height: 70px;
+}
+
+.single-card {
+  display: flex;
+  flex-direction: column;
+  font-size: 22px;
+  font-weight: 100;
+  line-height: 1.3em;
+  width: 30%;
+  align-items: center;
+  text-align: center;
+  margin: 20px;
+}
+
+.single-card h3 {
+  color: #00b172;
+  padding: 20px;
+  font-size: 25px;
+}
+
+.single-card p {
+  width: 80%;
+}
+
+.section-three {
+  background-color: #00b172;
+}
+
+.section-three h3 {
+  font-size: 35px;
+  color: #ffffff;
+  padding-bottom: 50px;
+  border-bottom: 3px solid #ffffff;
+}
+
+.section-three-container {
+  display: flex;
+  justify-content: space-between;
+  align-items: flex-start;
+  padding: 100px;
+}
+
+.section-three-left {
+  width: 50%;
+}
+
+.section-three-right {
+  display: flex;
+  justify-content: center;
+  width: 50%;
+}
+
+.app-img {
+  width: 60%;
+}
+
+.small-logo {
+  height: 100px;
+}
+
+.text-with-logo {
+  align-items: center;
+  color: #ffffff;
+  display: flex;
+  flex-direction: row;
+  font-size: 20px;
+  font-weight: 100;
+  line-height: 1.3em;
+  justify-content: space-between;
+}
+
+.text-with-logo h4 {
+  font-size: 25px;
+  padding-bottom: 25px;
+  padding-top: 40px;
+}
+
+.text-section-three {
+  width: 60%;
+}
