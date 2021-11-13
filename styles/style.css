@@ -6,3 +6,199 @@ Green: #00B172
 White: #FFF
 
 */
+
+body {
+    font-family: 'Montserrat', sans-serif;
+    margin: 0;
+    color: #1A1A1A;
+    font-size: 20px;
+    font-weight: 300;
+    line-height: 1.5;
+}
+
+.centrado {
+    max-width: 80%;
+    margin: auto;
+}
+
+
+
+
+/* MENU */
+
+#menu {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+    position: fixed;
+    top: 0;
+    background-color: #fff;
+    align-items: center;
+    width: 100%;
+}
+
+#menu .logo {
+    width: 20%;
+}
+
+#menu .logo img  {
+    width: 125px;
+    margin-left: 15px;
+}
+
+#menu .main-menu {
+    width: 80%;
+}
+
+#menu nav ul {
+    list-style-type: none;
+    display: flex;
+    flex-direction: row;
+    justify-content: flex-end;
+}
+
+#menu nav ul li {
+    margin-right: 15px;
+    transition: all 0.3s linear;
+}
+
+#menu nav ul li:hover {
+    color: #00B172;
+    font-weight: 600;;
+}
+
+
+
+
+/* HEADER */
+
+#header {
+    background: url("/images/landing.jpg");
+    height: 900px;
+    background-size: cover;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    color: #fff;
+    text-align: center;
+}
+
+#header div {
+    width: 40%;
+    margin: auto;
+}
+
+#header h1 {
+    font-size: 60px;
+    margin: 0;
+}
+
+#header .subtitule {
+    font-size: 18px;
+    font-weight: 400;
+}
+
+
+
+
+
+/* ICONS*/
+
+
+#icons {
+    padding: 100px;
+}
+
+#icons h2 {
+    text-align: center;
+    font-size: 30px;
+    margin: 0;
+}
+
+#icons .border-green {
+    width: 20%;
+    height: 5px;
+    background-color: #00B172;
+    border: none;
+}
+
+
+#icons .columns-icons {
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    margin-top: 75px;
+}
+
+#icons .columns-icons article {
+    text-align: center;
+    padding: 50px;
+    width: 33.33%;
+}
+
+#icons .columns-icons article:hover {
+    box-shadow: 0px 0px 15px #e7e7e7;
+}
+
+#icons .columns-icons article h3{
+    color: #00B172;
+    font-size: 24px;
+    font-weight: 700;
+}
+
+#icons .columns-icons article img  {
+    width: 100px;
+} 
+
+
+
+
+
+
+/* GREEN SECTION*/
+#green-section {
+    background-color: #00B172;
+    padding: 50px;
+    color: #fff;
+}
+
+#green-section .centrado {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+}
+
+#green-section .centrado .left-column {
+    width: 40%;
+}
+
+#green-section .centrado .middle-column {
+    width: 20%;
+    display: flex;
+    justify-content: center;
+}   
+
+#green-section .centrado .middle-column img {
+    width: 50%;
+}
+
+#green-section .centrado .right-column {
+    width: 40%;
+    display: flex;
+    justify-content: center;
+}
+
+#green-section .centrado .right-column img {
+    width: 80%;
+}
+
+#green-section .border-white {
+    height: 5px;
+    background-color:#fff;
+    border: none;
+}
+
+#green-section article {
+    margin: 75px 0;
+}
