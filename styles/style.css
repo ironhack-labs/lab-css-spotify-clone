@@ -6,25 +6,32 @@ Green: #00B172
 White: #FFF
 
 */
-body{
+html,
+body {
   margin: 0;
-  padding: 0;  
+  padding: 0;
+}
+
+body{ 
   font-family:arial;
   color: #1A1A1A;
   font-size: 10px;
   line-height: 3.5em;
   font-weight: 300;
 }
+ 
+nav{
+    height:50px;
+}
 
 .nav-bar{
  color: #1A1A1A;
  background-color:white;
  padding: 20px 0;
- height: 200px;
+ height: 50px;
  border: black;
  display: flex;
- justify-content: space-evenly;
-position: fixed;
+ justify-content:space-between;
 }
 
 .nav-bar a{
@@ -36,13 +43,13 @@ position: fixed;
 
 .nav-bar img{
     height: 60px;
-    margin:5px;
+   margin: 0px 80px 35px 80px;
 }
 
 .nav-bar-ul{
     display: flex;
-    justify-content: space-evenly;
-    margin: 5px 80px 5px 750px;
+    justify-content: space-between;
+    margin: 10px 80px 10px 800px;
     width: 40%;
 }
 
@@ -53,15 +60,136 @@ position: fixed;
 
 
 .general-information{
-    background-image: "/images/landing.jpg";
-    background-position: 0 0;
+    background-image: url("/images/landing.jpg");
+    background-color: black;
+    background-position: center;
     background-repeat: no-repeat;
     background-size: cover;
-    height: 500px;
-    padding-top: 90px;
+   padding-top:30px;
+    height: 800px;
     position: relative;
+    color:#FFF;
+    justify-content: space-between;
 }
 
-h1{
-    text-align: center;
+h1 {
+  font-size: 8em;
+  text-align: center;
+  color:#FFF;
+  margin: 220px 330px 10px 325px;
+  line-height: 2em;
+}
+
+.header {
+  background-image: url("/images/landing.jpg");
+  background-color: black;
+  background-position: 0 0;
+  background-repeat: no-repeat;
+  background-size: cover;
+  height: 700px;
+  padding-top: 70px;
+  position: relative;
+  line-height: 1.7em;
+}
+.mobility{
+  font-size: 3em;
+  position: center;
+  margin: 35px 550px 10px 550px;
+  text-align:center;
+  line-height: 1.3em;
+}
+
+.whats-on-spotify h2 {
+  font-size: 4em;
+  text-align: center;
+  line-height: 1em;
+  text-decoration: underline;
+  text-underline-position: under;
+  text-underline-offset: 4px;
+  text-decoration-color: #00B172;
+margin-top: 180px;
+}
+.container {
+  text-align: center;
+  border-radius: 10px;
+  box-sizing: border-box;
+  margin: 20px 5% 0 5%;
+  padding: 20px;
+  width: 40%;
+}
+
+.whats-on-spotify{
+  padding: 75px 0;
+  margin-top:500px;
+  width: 1300px;
+}
+
+#characteristics{
+    display: flex;
+  justify-content: space-evenly;
+}
+#characteristics img{
+    height: 120px;
+    margin: 25px 35px 18px 35px;
+}
+#characteristics h3 {
+  font-size: 3.4em;
+  text-align: center;
+  line-height: 1em;
+   margin: 20px 25px 40px 30px;
+  font-weight: bold;
+  color:#00B172;
+}
+
+#characteristics p{
+  font-size: 2.5em;
+  text-align: center;
+  line-height: 1em;
+  margin: 0px 35px 80px 35px;
+}
+
+.green-section{
+background-color: #00B172;
+display:flex;
+color:#FFF;
+margin: 0 20px 0 50px;
+width: 1700px;
+height: 800px;
+text-align: justify;
+padding: 20px;
+background-image: url(/images/spotify-icon-white.png);
+background-position: center; 
+  background-repeat: no-repeat;
+  background-size: 200px;
+}
+
+
+.text h2 {
+  font-size: 4em;
+  text-align: center;
+  line-height: 1.5em;
+  text-decoration: underline;
+  text-underline-position: under;
+  text-underline-offset: 4px;
+  text-decoration-color: #FFF;
+  margin: 45px 0 40px 70px;
+}
+
+h3 {
+  font-size: 3.3em;
+  text-align: justify;
+  line-height: 1.3em;
+  margin: 45px 0 40px 95px;
+  font-weight: bold;
+}
+
+.text p{
+  font-size: 2.5em;
+  text-align: justify;
+  line-height: 1.2em;
+  margin: 40px 150px 40px 95px;
+}
+.image img{
+ height: 660px;
+ margin: 70px 170px 40px 500px;
 }
