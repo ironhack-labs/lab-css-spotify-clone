@@ -15,6 +15,8 @@ body {
     font-family: 'Montserrat', sans-serif;
     color: #1A1A1A;
     background-color: #FFF;
+    display: flex;
+    flex-direction: column;
 }
 
 /* GLOBAL STYLES */
@@ -26,23 +28,144 @@ body {
     justify-content: space-between;
     top: 0;
     padding: 10px;
+    background-color: #FFF;
 }
 
 #navbar > img {
     width: 200px;
     height: 60px;
+    margin-left: 10px;
 }
 
 #menu {
     display: flex;
     list-style: none;
+    margin-right: 15px;
 }
 
 #menu > li {
-    margin: 0px 10px;
+    margin: 5px 10px;
 }
+
+#menu a {
+    text-decoration: none;
+    color: #1A1A1A;
+}
+
+#menu a:focus {
+    text-decoration: none;
+}
+
+
+/* PRESENTATION SECTION */
 
 #presentation {
     background-image: url("../images/landing.jpg");
-    margin-top: 80px;
+    background-position: center;
+    background-size: cover;
+    width: 100%;
+    height: 750px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+}
+
+#presentation > h1 {
+    color: #FFF;
+    font-size: 60px;
+    font-weight: 500;
+    margin-top: 0px;
+}
+
+#presentation > p {
+    color: #FFF;
+    width: 50%;
+    text-align: center;
+    font-weight: 200;
+    font-size: 22px;
+    margin-top: -25px;
+}
+
+
+/* FEATURES SECTION */
+
+#features {
+    height: 400px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+h2 {
+    text-decoration: underline 3px #00B172;
+    text-underline-offset: 40%;
+    font-weight: 600;
+    margin: 40px 0px;
+}
+
+#features-cards {
+    display: flex;
+    justify-content: space-between;
+    align-items: baseline;
+    margin: 20px 100px;
+}
+
+.feature-card {
+    width: 30%;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+.feature-card > img {
+    width: 30%;
+}
+
+.feature-card h3 {
+    color: #00B172;
+    font-weight: 600;
+}
+
+.feature-card p {
+    width: 60%;
+    font-weight: 200;
+    text-align: center;
+}
+
+
+/* USER EXPLANATION SECTION */
+
+#user-explanation {
+    background-color: #00B172;
+    position: relative;
+    display: flex;
+    justify-content: space-between;
+    padding-left: 50px;
+}
+
+#user-explanation > img {
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    width: 7.5%;
+}
+
+#explanation-card-text {
+    color: #FFF;
+    width: 50%;
+}
+
+#explanation-card-text h2 {
+    text-decoration: underline 3px #FFF;
+}
+
+#explanation-card-text p {
+    font-weight: 200;
+}
+
+#explanation-card-img > img {
+    width: 50%;
 }
