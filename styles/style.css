@@ -1,3 +1,5 @@
+
+
 /*
 Colors:
 
@@ -6,3 +8,148 @@ Green: #00B172
 White: #FFF
 
 */
+
+* {
+    margin: 0;
+    padding: 0;
+}
+
+html,
+body {
+  font-family: Arial, Helvetica, sans-serif;
+}
+
+header {
+    display: flex;
+    height: 60px;
+    width: 98%;
+    justify-content: space-between;
+    background-color: #fff;
+    margin: 10px;
+    position: fixed;
+    z-index: 9999;
+    top: 0;
+}
+
+.logo {
+    width: 200px;
+}
+
+ul {
+    list-style: none;
+    display: flex;
+    justify-content: space-between;
+    font-size: 17px;  
+    margin: 10px;
+    width: 300px;
+    align-items: center;
+}
+
+
+.hero {
+    background-image: url(../images/landing.jpg);
+    background-position: 0 0;
+    background-size: cover;
+    background-repeat: no-repeat;
+    height: 450px;
+    position: relative;
+    color: #fff;
+    display: flex;
+    align-items: center;
+    justify-content: center;    
+    text-align: center;
+    margin-top: 80px;
+}
+
+.music {
+    height: 110px;
+    display: flex;
+    justify-content: space-between;
+    flex-direction: column;
+    letter-spacing: 1px;
+    font-weight: 100;
+}
+
+
+h1 {
+    font-size: 44px;
+    font-weight: 100;
+}
+
+.icons {
+    width: 80px;
+}
+
+.summary {
+    height: 300px;
+    margin: 30px;
+    display: flex;
+    align-items: center;
+    justify-content: space-around;    
+    text-align: center;
+    flex-direction: column;
+}
+
+.summary h2 {
+    text-decoration: underline #00B172;
+}
+
+.summary p {
+    color: rgba(136, 136, 136, 0.904);
+    font-size: 17px;
+}
+
+.content {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+    align-items: center;
+    margin: 10px 40px;
+    width: 800px;
+}
+
+.content-items {
+    width: 200px;
+    height: 200px;
+    display: flex;
+	flex-direction: column;
+	justify-content: space-around;
+	align-items: center;
+}
+
+.content-items h3 {
+    color: #00B172;
+}
+
+.bottom {
+    background-color: #00B172;
+    height: 500px;
+    margin: 30px;
+    display: flex;
+    align-items: center;
+    justify-content: space-around;    
+    text-align: left;
+    flex-direction: row;
+    color: #fff;  
+    font-weight: lighter;
+}
+
+.bottom h2 {
+    text-decoration: underline #fff;
+    width: 400px;
+}
+
+.bottom div {
+    display: flex;
+    justify-content: space-around; 
+    flex-direction: column;
+    width: 240px;
+    height: 400px;
+    margin: 30px 25px;   
+}
+
+.white-logo {
+    height: 80px;
+    width: 80px;
+    position: absolute;
+}
