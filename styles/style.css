@@ -1,4 +1,194 @@
-/*
+
+@import url('http://fonts.cdnfonts.com/css/gotham');
+body {
+    font-family: "Gotham Light";
+}
+
+/* NAV-BAR */
+.container {
+   display: flex;
+   flex-direction:row;
+   justify-content: space-between;
+   margin: 1px 0px;
+} 
+.items {
+   list-style: none;
+   padding: 0 50px;
+   display: flex;
+   flex-direction:row;
+   justify-content: space-around;
+   align-items: center;
+}
+
+.nav-bar {
+   align-self:center;
+   padding: 0% 5%;
+   
+}
+
+
+.spotify-logo {
+
+       width: 150px;
+       margin-right: 1rem;
+   }
+
+   /* SECTION 1 - LANDING */
+
+.landing {
+       background-image: url("../images/landing.jpg");
+       background-size: cover;
+       color:#fff;
+       display: flex;
+       flex-direction: column;
+       justify-content: space-around;
+}
+
+.title-landing {
+   color: #fff;
+   height:500px;
+   line-height: 40px;
+   font-size: 2em;
+   text-align: center;
+   
+   
+   
+ }
+
+ .p-landing {
+     color: #fff;
+     text-align:center;
+     margin: 0% 10%;
+     padding:2% 0%;
+     height: 20%;
+     font-size: 0.6em;
+     font-family: "Gotham Thin";
+     
+ }
+
+ /* SECTION 2 */
+
+ h2 {
+     text-align: center;
+     margin-bottom: 1px;
+ }
+ .hr1 {
+     height: 2px;
+     weigth: 1%;
+     margin-left: 38%;
+     margin-right: 38%;
+     border-style: none;
+     border-radius: 200px;
+     background-color: #00B172;
+     
+ }
+
+ .images {
+     width: 35%;
+ }
+
+ h3 {
+     color: #00B172;
+     font-family: "Gotham";
+     padding-bottom: 3%;
+ }
+
+ h3 > p {
+     text-align: justify;
+     paddin-top: 1%;
+ }
+
+ .container2 {
+     display: flex;
+     flex-direction: row;
+     justify-content: center;
+     margin-top: 60px;
+ }
+
+ .items2 {
+     display:flex;
+     flex-direction: column;
+     align-items: center;
+     justify-content: center;
+     text-align: center;
+     padding:0% 4%;
+ }
+
+ /* SECTION 3 */
+
+   .container3 {
+   background-color:#00B172;
+   color: #fff;    
+   display: flex;
+   flex-direction: row;
+   justify-content: space-between;
+   align-items: center;
+   margin-top: 60px;
+   }
+
+
+   .h2-second {
+       font-size: 1.5em;
+       display: flex;
+       align-items: flex-end;
+
+   }
+
+   .hr2 {
+       height: 2px;
+       background-color: #fff;
+       border-style: none;
+       border-radius: 200px; 
+   }
+
+   .item-column {
+       color:#fff;
+       margin-left: 80px;
+      
+       text-align: justify;
+       display: flex;
+       flex-direction: column;
+       align-items:flex-start;
+ }
+
+ h4 {
+   font-size: 1.2em;
+ }
+
+ .p {
+   font-family: "Gotham Thin";
+   font-size: 1em;
+ }
+
+ .align-images {
+     display: flex;
+     align-content: center;
+     justify-content:space-around;
+     padding: 0% 4%;
+ }
+
+ .logo-white {
+     width: 15%;
+     height: 15%;
+     align-self: center;
+     
+ }
+
+ .image-app {
+     width:35%;
+     height: 35%;
+     align-self: center;
+ }
+
+
+
+
+
+
+
+
+    
+    /*
 Colors:
 
 Text: 1A1A1A
