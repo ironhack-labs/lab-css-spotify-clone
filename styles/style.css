@@ -40,7 +40,7 @@ body {
 #menu {
     display: flex;
     list-style: none;
-    margin-right: 15px;
+    margin-right: 25px;
 }
 
 #menu > li {
@@ -138,34 +138,47 @@ h2 {
 /* USER EXPLANATION SECTION */
 
 #user-explanation {
+    width: 93%;
     background-color: #00B172;
     position: relative;
+    left: 50%;
+    transform: translateX(-50%);
     display: flex;
     justify-content: space-between;
-    padding-left: 50px;
+    height: 560px;
+    margin: 30px 0px;
 }
 
-#user-explanation > img {
+#spotifys-logo {
     position: absolute;
     top: 50%;
     left: 50%;
     transform: translate(-50%, -50%);
-    width: 7.5%;
+    width: 9%;
 }
 
 #explanation-card-text {
     color: #FFF;
     width: 50%;
+    margin-left: 70px;
+    margin-top: 20px;
 }
 
 #explanation-card-text h2 {
     text-decoration: underline 3px #FFF;
 }
 
-#explanation-card-text p {
-    font-weight: 200;
+#explanation-card-text h3 {
+    font-weight: 600;
+    margin: 30px 0px;
 }
 
-#explanation-card-img > img {
+#explanation-card-text p {
+    font-weight: 200;
     width: 50%;
+}
+
+#kanye-west-image {
+    width: auto;
+    margin: 85px 80px 60px 40px;
 }
