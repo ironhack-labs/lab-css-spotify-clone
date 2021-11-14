@@ -7,35 +7,72 @@ White: #FFF
 
 */
 
+@import url('https://fonts.googleapis.com/css2?family=Montserrat:wght@100&display=swap');
+
 body {
     font-family: "Montserrat", "sans-serif";
 }
 
-.divBackGroundImage {
-    background-image: url("../images/landing.jpg");
-    background-size: cover;
-    height: 1200px;
-    position: relative;
-
-}
 
 .divSpotylogo {
-
+    width: 100px;
+    height: 90px;
 }
 
 #spotifyLogo {    
     width:250px;
     float: left;
-    margin-top: 9px;
+    margin-top: 7px;
     margin-left: 30px;
 }
 
-.navBar{
-    float: right;
+.divNavBar {
+    display:flex;
+    padding-right: 10px ;
+    justify-content:flex-end;
+    width: 400px;
+
+}
+
+#mainHeader {
+    display: flex;
+    justify-content: space-between;
+    width: 1165px;
+}
+
+.navBar {
+    width: 400px;
+    display: flex;
+    justify-content: space-evenly;
+    align-items: center;
+    padding-top: 35px;
+    
+}
+
+.navBar > a {
+    text-decoration: none;
+    color: #1A1A1A ;
+    font-weight: bold3;
+}
+
+/*.navBar{
     width: 100px;
     height: 80px;
     display: flex;
-    justify-content: space-between;
+    justify-content: space-around;
+    align-items: flex-start;
+}
+
+.navBar > a {
+    text-decoration: none;
+    color: #1A1A1A;
+    font-weight: 900;
+}
+
+#divNavBar {
+    float: right;
+    display: flex;
+    align-items: flex-start;
 }
 
 
@@ -44,6 +81,13 @@ body {
     height: 100px;
 }
 
+.mainHeader > div {
+    padding: 0 25px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}*/
+
 div > h1 {
     text-align: center;
     color: #FFF;
@@ -51,11 +95,13 @@ div > h1 {
     align-items: center;
     justify-content: space-evenly;
     position: absolute;
-    top: 35%;
-    bottom: 75%;
+    top: 40%;
+    bottom: 60%;
     left: 50%;
     transform: translate(-50%, -50%);
     font-size: 100px;
+    width: 1000px;
+    font-weight: bold;
 }
 
 h1 ~ p {
@@ -65,11 +111,20 @@ h1 ~ p {
     align-items: center;
     justify-content: space-evenly;
     position: absolute;
-    top: 50%;
+    top: 55%;
     left: 50%;
     transform: translate(-50%, -50%);
     padding: auto 20% auto 20%;
     font-size: 30px;
+}
+
+
+.divBackGroundImage {
+    background-image: url("../images/landing.jpg");
+    background-size: cover;
+    height: 1200px;
+    position: relative;
+
 }
   
 
@@ -79,12 +134,8 @@ h1 ~ p {
 
 #optionsDiv {
     display: flex;
-    justify-content: space-evenly;
+    justify-content: space-around;
     padding-top: 9%;
-}
-
-#optionsDiv {
-    padding:;
 }
 
 .featuresImages {
@@ -102,26 +153,51 @@ h1 ~ p {
     font-size: 45px;
 }
 
-.GreenH2 {
+.greenH2 {
     color:#00B172;
+    font-weight: bold;
+    font-size: 30px;
+}
+
+.greenH2Padding {
+    color:#00B172;
+    font-weight: bold;
+    font-size: 30px;
+    padding-top: 18px;
+}
+
+.greenFlexDiv {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.greenParagraph {
+    font-size: 20px;
+    width: 250px;
+    text-align: center;
 }
 .musicZone {
     height: 1200px;
     background-color: #00B172;
     display: flex;
     justify-content: space-around;
+    border-left: 50px solid #FFF;
+    border-right: 50px solid #FFF;
 }
 
 #whiteLogo {
-    width: 250px;
+    width: 200px;
     padding-right: 100px;
     margin-top: 500px;
+    position: absolute;
+    left: 42%;
 }
 
 #kanyeImage {
     width: 500px;
-    margin-top: 40%;
-    margin-right: 20px;
+    margin-top: 35%;
+    margin-right: 50px;
 }
 
 .greenDescriptions {
@@ -142,7 +218,7 @@ margin-left: 100px;
     text-underline-offset: 20px;
     display: flex;
     justify-content: center;
-    font-size: 60px;
+    font-size: 50px;
     word-spacing: 5px;
 }
 
