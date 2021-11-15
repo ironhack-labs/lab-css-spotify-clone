@@ -6,3 +6,193 @@ Green: #00B172
 White: #FFF
 
 */
+html,body{
+    margin: 0;
+    padding: 0;
+    font-family: 'Roboto', sans-serif;
+}
+
+/* * {
+    box-sizing: border-box;
+} */
+
+#navbar{
+    box-sizing: border-box;
+    position: fixed;
+    top: 0;
+    width: 100%;
+    z-index: 99; /*x non far andare la foto sopra*/
+
+    padding: 10px 30px;
+    background-color: white;
+}
+
+.logo{
+    height: 45px;
+    float: left;
+}
+
+nav {
+    width: 375px;
+    float: right;
+    /* margin-top: 20px; */
+}
+
+nav ul{
+    list-style: none;
+    display: flex;
+    justify-content: space-between;
+}
+
+nav a {
+    text-decoration: none;
+    color: black;
+    font-weight: 200;
+
+  
+}
+
+/* SECTION 1 */
+.background{
+    height: 545px;
+    width: 100%;
+    margin-top: 70px;
+    color: white;
+
+    background-image: url('/images/landing.jpg');
+    background-size: cover;
+    position: relative;
+    background-position: bottom;
+}
+
+h1{
+    font-size: 3.3em;
+    font-weight: 540;
+    text-align: center;
+    padding-top: 17%;
+}
+
+.background p{
+    font-size: 1.2em;
+    line-height: 12px;
+    font-weight: 200;
+
+    text-align: center;
+    margin-top: -7px;
+}
+
+/* SECTION 2 */
+.section2{
+    width: 100%;
+    height: 400px;
+    
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: space-around;
+}
+
+.sectionArticle{
+    width: 90%;
+    height: 60%;
+    margin: 0 auto;
+}
+
+h2{
+    text-align: center;
+    font-weight: 550;
+
+    padding-bottom: 10px;
+    border-bottom: 3px solid #00B172;
+}
+
+article{
+    width: 33%;
+    height: 100%;
+
+    float: left ;
+    box-sizing: border-box;
+    padding: 0 50px;
+
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+article img{
+    height: 65px;
+}
+
+article h3{
+    color: #00B172;
+}
+
+article p{
+    text-align: center;
+    font-weight: 100;
+}
+
+/* SECTION 3 */
+.section3{
+    width: 95%;
+    height: 540px;
+    margin: 0 auto;
+    
+    margin-bottom: 40px;
+    background-color:#00B172 ;
+    color: white;
+    
+    
+}
+
+.container{
+    width: 85%;
+    height: 100%;
+    margin: 0 auto;
+    
+
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: center;
+}
+
+h4{
+    font-size: 1.5em;
+    font-weight: 600;
+    border-bottom: 3px solid;
+    padding-bottom: 10px;
+
+    position: absolute;
+    margin-top: -80px;
+    
+
+}
+
+.description{
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+    margin-bottom: -80px;
+}
+
+.description h3{
+    font-size: 1.2em;
+    font-weight: 600;
+    line-height: 1px;
+}
+
+.description p{
+    line-height: 20px;
+}
+
+.icon{
+    width: 90px;
+   
+}
+
+.kanye{
+    height: 420px;
+
+
+}
