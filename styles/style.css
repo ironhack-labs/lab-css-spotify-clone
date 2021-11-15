@@ -21,26 +21,31 @@ html, body {
   }
 
   .spotifyLogo {
-      width: 220px;
+      width: 200px;
+      height: 60%;
       padding: 10px 5px;
       float: left;
   }
 
   .nav-bar {
       margin: 0;
+      height: 20px;
+      width: 10px;
       background-color: #fff;
       padding: 10px 10px 0 0;
-      display: flex;
-      flex-flow: row wrap;
-      justify-content: flex-end;
+      position: fixed;
+      right: 280px;
+      
      
   }
 
   .nav-bar-ul {
     list-style-type: none;
-    color: grey;
-   
-     
+    color: grey;  
+    display: flex;
+    align-content:space-between;
+    
+
 }
 
   .nav-bar a {
@@ -70,7 +75,8 @@ html, body {
 
   h2 {
     color: #FFF;
-    font-family:Arial, Helvetica, sans-serif
+    font-family:Arial, Helvetica, sans-serif;
+    font-weight: lighter;
     font-size: 20px;
     text-align: center;
     position:relative;
@@ -80,23 +86,29 @@ html, body {
   .whats-on {
     color:black;
     font-family:Arial, Helvetica, sans-serif;
-    font-size: 20px;
-    text-align: center;
+    font-size: 30px;
+    font-weight:600;
     position:relative;
+    width: 30%;
+    height: 40px;
     bottom: 300px;
-    padding: 5px;
+    left: 600px;
+    border-bottom: 5px solid #00B172
+
   }
 
   #benefits {
     display: flex;
-    justify-content: space-evenly;
+    align-content: space-between;
+
   }
   
   #benefits .container {
       display: flex;
       flex-direction: column;
       align-items: center;
-      width: 370px;
+      width: 350px;
+      padding: 10px;
   }
 
   .container img {
@@ -110,42 +122,65 @@ html, body {
   }
 
   .container p {
-    color: #1A1A1A;
+    color:grey;
 
   }
 
   #kayne-west {
       background-color: #00B172;    
       margin: 40px;
+      height: 900px;
       display: flex;
       flex-direction: column;
+      justify-content:flex-start;
+      flex-wrap: wrap;
+      align-items: flex-start;
+      justify-content: space-around;
+      align-content: space-around;
   }
 
   .yeezy-text {
       color: #fff;
       font-size: 30px;
-      text-align: left;
+      height: 10px;
+      align-self:flex-start;
       position:relative;
       bottom: 0px;
+      padding: 30px;
+      border-bottom: 3px solid ;
     
   }
 
   .spoti-icon-white {
-    width: 100px;
-    align-self: center;
+    width: 140px;
+    position: relative;
+    top: 320px;  
+    left: -220px;
+  
+   
   }
 
   .spoti-app {
     width: 250px;
-    right: 10px;
-    align-self: flex-end;
+    position: relative;
+    bottom: 280px;
+    right: -80px;
+    
+
   }
 
   #kayne-west h3 {
       color: #fff;
+      font-size: 20px;
 
   }
 
   #kayne-west p {
       color: #fff;
+      font-weight: lighter;
+  }
+
+  #kayne-west .container {
+    padding: 2px 30px;
+    width: 250px;
   }
