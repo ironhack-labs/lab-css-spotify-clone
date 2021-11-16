@@ -6,3 +6,319 @@ Green: #00B172
 White: #FFF
 
 */
+
+/*
+:root {
+    --wombat-red-hover: #c40b0a;
+    --button-green: #00C642;
+    --wombat-yellow: #FFCD3A;
+    --wombat-violet: #8956FF;
+    --wombat-purple: #C836C3;
+    --wombat-green: #00C642;
+    --wombat-teal: #29ABE2;
+    --light-blue: #70b8ff;
+    --wombat-red: #cb3837;
+    --header-color: #000;
+    --bg-dark: #cb3837;
+    --npmRed: #cb3837;
+    --npmLightRed: #fb3e44;
+    --blue: #357edd;
+    --bg: #fff;
+    --background-color: #fafafa;
+    --code: "Fira Mono", "Andale Mono", "Consolas", monospace;
+    --code-ls: 0px;
+    --code-lh: 24px;
+    --standardCardTransition: all 0.2s ease;
+    --header-letter-spacing: 0.015625em;
+    --readme-font-size: 18px;
+    --readme-line-height: 1.6;
+    --copy-color: rgba(0, 0, 0, 0.85);
+    --code-bg: #f7f7f7;
+    --code-box-radius: 2px;
+}
+*/
+
+html  {
+    line-height: 1.15;
+    -webkit-text-size-adjust: 100%;
+    font-family: Circular,spotify-circular,Helvetica,Arial,sans-serif;
+}
+
+html, *::after, *::before {
+    box-sizing: border-box;
+}
+
+body {
+    margin: 0
+}
+
+.border-box, a, body, div, , h1, h2, h3, h4, h5, h6, header, html, li, main, nav, section, ul {
+    box-sizing: border-box
+}
+
+.app-container {
+    min-height: 100vh;
+    display: -ms-flexbox;
+    display: flex;
+    -ms-flex-direction: column;
+    flex-direction: column;
+    -webkit-font-smoothing: antialiased;
+    -moz-osx-font-smoothing: grayscale;
+}
+
+.app-container main {
+    position: relative;
+    -ms-flex: 0 0 auto;
+    flex: 0 0 auto;
+    -ms-flex-positive: 1;
+    flex-grow: 1;
+    display: -ms-flexbox;
+    display: flex;
+    -ms-flex-direction: column;
+    flex-direction: column;
+    background-color: white;
+}
+
+.flex {
+    display: flex;
+}
+
+.f-column {
+    flex-direction: column;
+}
+
+.vh-100 {
+    height: 100vh;
+}
+
+.header-block {
+    box-shadow: 0 4px 13px -3px rgb(0 0 0 / 10%);
+    border-bottom: 1px solid #d2d2d2;
+    -ms-flex: 0 0 auto;
+    flex: 0 0 auto;
+    border-color: rgba(0, 0, 0, .2);
+    background-color: white;
+    z-index: 2;
+}
+
+.header-container {
+    display: flex;
+    position: fixed;
+    width: 100%;
+    background-color: white;
+    padding-top: 8px;
+    padding-bottom: 8px;
+    box-shadow: 0 4px 13px -3px rgb(0 0 0 / 10%);
+    border-bottom: 1px solid #d2d2d2;
+    border-color: rgba(0, 0, 0, .2);
+}
+
+.navbar-container {
+    display: flex;
+    width: 100%;
+    margin-left: 0;
+    margin-right: 0;
+    padding-left: 2rem;
+    padding-right: 2rem;
+    align-items: center;
+}
+
+.landing {
+    display: flex;
+    background-image: url("../images/landing.jpg");
+    width: 100%;
+    height: 100vh;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: 100% 100%;
+    color: white;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+}
+
+.landing h1 {
+    font-size: 75px;
+    margin: 0;
+    padding-bottom: 1.25rem;
+}
+
+.landing h3 {
+    font-size: 30px;
+    max-width: 50rem;
+    font-weight: normal;
+    margin: 0;
+    padding-top: 1.25rem;
+}
+
+.logo {
+    display: flex;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: 100% 100%;
+    padding: 1rem;
+    flex-grow: 1;
+    justify-content: center;
+    flex-direction: column;
+    white-space: nowrap;
+    font-size: .875rem;
+    text-align: left;
+    margin-right: 2rem;
+}
+
+.logo img {
+    width: 200px;
+    height: 60px;
+}
+
+.menu {
+    -ms-flex-positive: 0;
+    display: block;
+    float: right;
+    width: 100%;
+    flex-grow: 0;
+    text-align: right;
+    white-space: nowrap;
+    overflow: hidden;
+    text-overflow: ellipsis;
+    box-sizing: border-box;
+}
+
+.menu ul {
+    display: flex;
+    list-style: none;
+    margin: 0;
+    padding-left: 0;
+}
+
+.menu li {
+    display: inline-block;
+    padding: 3px;
+}
+
+.menu a {
+    display: block;
+    font-size: x-large;
+    font-weight: 400;
+    line-height: 1.5;
+    padding: 10px;
+    position: relative;
+    text-decoration: none;
+    color: rgba(0, 0, 0, 0.726);
+}
+
+.about {
+    display: block;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+    font-size: 1.5rem;
+    padding: 4rem;
+    color: black;
+}
+
+.whats-on {
+    color: black;
+    border-bottom: 4px solid rgb(11, 187, 111);
+    margin: 0 auto;
+    width: fit-content;
+}
+
+.whats-on h1 {
+    margin: 0;
+    padding-bottom: 0.5rem;
+}
+
+.feature-icons {
+    display: flex;
+    justify-content:stretch;
+    align-items:flex-start;
+    color: black;
+    padding: 6rem
+}
+
+.feature-icons h2 {
+    color: rgb(11, 187, 111);
+}
+
+.pr-8 {
+    padding-right: 8rem;
+}
+
+.speaker, .frequency, .devices {
+    padding:0 3rem;
+}
+
+.speaker img, .frequency img, .devices img {
+    width: auto;
+    height: 7rem;
+}
+
+.block {
+    justify-content:space-between;
+    align-items:flex-start;
+    width: 60%;
+    padding-left: 8rem;
+}
+
+.howto-block {
+    display: flex;
+    flex-direction: column;
+    justify-content:space-around;
+    text-align: left;
+    font-size: 25px;
+    height: 100%;
+    font-weight: bold;
+}
+
+.howto-block h4{
+    font-size: 1.75rem;
+    margin: 0;
+    padding-bottom: 1.50rem;
+}
+
+.w-25r {
+    max-width: 23rem;
+}
+
+.green-block {
+    display: flex;
+    background-color: rgb(11, 187, 111);
+    background-image: url("../images/spotify-icon-white.png");
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: 8% 16%;
+    color: white;
+}
+
+.main-h3 {
+    width: fit-content;
+    border-bottom: 4px solid white;
+}
+
+.main-h3 h3 {
+    padding-bottom: 1rem;
+    margin: 0;
+    font-size: 2.25rem;
+}
+
+
+.image-kw-block {
+    max-height: 45rem;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 40%;
+}
+
+.image-kw-block img{
+    width: auto;
+    height: 85%;
+}
+
+@media screen and (min-width: 30em) {
+    .w-auto-sc30 {
+        width: auto;
+    }
+}
