@@ -1,8 +1,153 @@
-/*
-Colors:
+/* Colors:
 
 Text: 1A1A1A
 Green: #00B172
-White: #FFF
+White: #FFF */
 
-*/
+.body {
+    font-family: 'Montserrat', sans-serif;
+    font-style: normal;
+    font-weight: 100;
+}
+
+.navbar {
+    display: flex;
+    align-items: center;
+}
+
+.spotifylogo {
+    width: 100px;
+    display: flex;
+    align-content: left;
+}
+
+.navbar ul {
+    list-style: none;
+    display: flex;
+    justify-content: flex-end;
+    margin-left: auto;
+    font-family: 'Montserrat', sans-serif;
+}
+
+a {
+    text-decoration: none;
+    display: inline;
+    padding-right: 20px;
+    color: #1A1A1A;
+    font-size: 80%;
+    display: flex;
+    align-items: right;
+}
+
+#music {
+    background: url('../images/landing.jpg') no-repeat center;
+    height: 80vh;
+    background-size: cover;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    color: #FFF;
+    flex-flow: column;
+    font-family: 'Montserrat', sans-serif;
+    margin: 0px 0px 5px 0px;
+    padding: 0px 0px 5px 0px;
+}
+
+.musicbody {
+    text-align: center;
+    margin: 0px 0px 4px 0px;
+    padding: 0px 0px 4px 0px;
+}
+
+.musichead {
+    font-size: 250%;
+    font-weight: 400;
+    margin: 0px 0px 4px 0px;
+    padding: 0px 0px 4px 0px;
+}
+
+.featurehead {
+    text-align: center;
+    margin-bottom: 50px;
+    text-decoration-color: #00B172;
+    text-decoration-line: underline;
+    text-underline-offset: 6px;
+    font-family: 'Montserrat', sans-serif;
+    align-items: center;
+}
+
+.featureboxes {
+    text-align: center;
+    justify-content: space-evenly;
+}
+
+.featureboxes h3 {
+    color: #00B172;
+    font-family: 'Montserrat', sans-serif;
+}
+
+.featureboxes p {
+    font-size: 90%;
+}
+
+#features {
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+    font-family: 'Montserrat', sans-serif;
+    padding-bottom: 65px;
+}
+
+.volume {
+    width: 100px;
+}
+
+.highdef {
+    width: 100px;
+}
+
+.devices {
+    width: 100px;
+}
+
+.yeezybox {
+    margin-top: 10px;
+    background-color: #00B172
+}
+
+.yeezycopy {
+    color: #FFF;
+    font-family: 'Montserrat', sans-serif;
+    font-weight: 100;
+    padding-left: 40px;
+    padding-top: 20px;
+}
+
+.yeezycopy h3 {
+    text-decoration: underline;
+    text-underline-offset: 6px;
+    text-decoration-thickness: 3px;
+    padding-bottom: 15px;
+}
+
+.yeezycopy h2 {
+    font-size: 98%;
+    padding-bottom: 6px;
+}
+
+.yeezycopy p {
+    font-size: 90%;
+    padding-bottom: 6px;
+}
+
+.spofitywhiteicon {
+    height: 100px;
+    justify-content: center;
+    align-items: center
+}
+
+.appscreenshot {
+    float: inline-end;
+    width:270px;
+    margin-top:50px;
+}
