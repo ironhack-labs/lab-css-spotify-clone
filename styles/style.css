@@ -6,3 +6,150 @@ Green: #00B172
 White: #FFF
 
 */
+
+* {
+  --color-green: #00b172;
+  --color-white: #ffffff;
+  --color-dark-grey: #1a1a1a;
+  --main-header-height: 72px;
+  box-sizing: border-box;
+}
+
+body {
+  font-family: 'Poppins', Helvetica, Arial, sans-serif;
+  margin: 0;
+  padding: 0;
+  position: relative;
+  padding-top: var(--main-header-height);
+}
+
+a {
+  color: inherit;
+  text-decoration: none;
+  transition: 0.3s;
+}
+
+a:hover {
+  color: var(--color-green);
+}
+
+h1 {
+  font-size: 48px;
+  margin-bottom: 16px;
+  font-weight: 400;
+}
+
+h2 {
+  font-size: 32px;
+  margin-bottom: 16px;
+  font-weight: 500;
+}
+
+h3 {
+  font-size: 24px;
+  margin-bottom: 12px;
+  color: var(--color-green);
+}
+
+p.subtitle {
+  font-weight: 300;
+  font-size: 20px;
+  margin-block-start: 0;
+}
+
+.container {
+  padding: 0 40px 40px;
+  max-width: 1200px;
+  margin: 0 auto;
+}
+
+.main-header {
+  background: var(--color-white);
+  position: fixed;
+  width: 100%;
+  height: var(--main-header-height);
+  top: 0;
+  padding: 8px 20px;
+  display: flex;
+  align-items: center;
+  box-shadow: 0px 2px 12px rgba(0, 0, 0, 0.2);
+}
+
+.main-nav {
+  display: flex;
+  width: 100%;
+  align-items: center;
+  justify-content: space-between;
+}
+
+.main-nav .logo {
+  max-width: 160px;
+}
+
+.main-nav ul {
+  display: flex;
+  gap: 20px;
+  margin-block-start: 0;
+  margin-block-end: 0;
+  list-style-type: none;
+  padding-inline-start: 0;
+}
+
+.hero {
+  padding: 100px 72px 200px;
+  text-align: center;
+  background: url(/images/landing.jpg);
+  background-size: cover;
+  background-position: center;
+  color: var(--color-white);
+}
+
+.hero p {
+  max-width: 520px;
+  margin: 0 auto;
+}
+
+.whats-on {
+  padding: 40px 0;
+}
+
+.center-title {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+.whats-on h2 {
+  text-align: center;
+  position: relative;
+  display: inline-block;
+}
+
+.whats-on h2::before {
+  content: '';
+  width: 100%;
+  height: 4px;
+  background: var(--color-green);
+  position: absolute;
+  bottom: -4px;
+}
+
+.row {
+  display: flex;
+  width: 100%;
+  gap: 32px;
+}
+
+.col-4 {
+  width: 33.33%;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  text-align: center;
+  padding: 40px 0;
+}
+
+.whats-on-col-img {
+  max-width: 100px;
+  height: 80px;
+}
