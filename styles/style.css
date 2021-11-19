@@ -6,3 +6,164 @@ Green: #00B172
 White: #FFF
 
 */
+
+@import url('https://fonts.googleapis.com/css2?family=Montserrat:wght@200;400;700&family=Roboto:wght@100;300;400;700;900&display=swap');
+
+/* * {
+    border: 1px solid red;
+} */
+
+body {
+    margin: 0;
+    font-family: 'Roboto', sans-serif;
+}
+
+nav {
+    position: fixed;
+    margin: -20px 0;
+    height: 80px;
+    width: 100%;
+    background-color: #FFF;
+    display: flex;  
+    justify-content: space-between;   
+}
+
+.logo {
+    height: 60px;
+    padding: 10px 30px;
+}
+
+ul {
+    display: flex;
+	flex-direction: row;
+	flex-wrap: wrap;
+	justify-content: space-between;
+	align-items: stretch;
+	align-content: stretch;
+    padding: 0 32px 0 0;
+}
+
+ul > li {
+    margin: 10px;
+    list-style-type: none;
+    color: #424242;
+    font-size: 20px;
+}
+
+ .hero {
+    background-image: url(../images/landing.jpg);
+    background-position: center; 
+    background-size: cover;
+    height: 600px; 
+    color: #FFF;
+    display: flex;
+	flex-direction: row;
+	flex-wrap: nowrap;
+	justify-content: center;
+	align-items: center;
+	align-content: stretch;
+  
+} 
+
+ .music {
+    height: 110px;
+        display: flex;
+        flex-direction: column;
+        font-weight: 100;
+}
+
+h1 {
+    font-size: 72px;
+}
+
+.music p {
+    text-align: center;
+}
+
+
+
+.meio {
+    text-align: center;
+}
+
+.meio h2 {
+    border-bottom: 3px solid #00B172;
+    border-radius: 2px;
+    width: 300px;
+    margin: 40px 38% 75px;
+    font-size: 33px;
+    font-weight: 400;
+ 
+}
+
+.icons {
+    width: auto;
+    height: 100px;
+}
+
+.content {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+    margin: 10px 40px;
+}
+    
+.content-items {
+    width: 33rem;
+    margin: 2px;
+}
+
+.content-items h3 {
+    color: #00B172;
+    font-size: 30px;
+}
+
+.content-items p {
+    color:#424242;
+    font-size: 24px;
+    font-weight: lighter;
+}
+
+.final {
+    background-color: #00B172;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 80px;
+    margin: 20px;
+}
+
+.white-logo {
+    position: absolute;
+    width: 100px;
+    height: auto;
+    margin: 0 37%; 
+}
+
+.text-final{
+    display: flex;
+    flex-direction: column;
+    height: 520px;
+    color: #FFF;
+    margin: -20px 0;
+}
+
+.final > div > h2 {
+   font-size: 33px;
+   border-bottom: 3px solid #FFF;
+   letter-spacing: 0.7px;
+ 
+}
+
+.final > div > h3 {
+   font-size: 25px;
+}
+
+.final > div > p {
+    font-size: 16px;
+ }
+
+.music-img {
+    height: 560px;
+    width: auto;
+}
