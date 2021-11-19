@@ -1,8 +1,51 @@
-/*
-Colors:
+body {
+    font-family: Circular, spotify-circular, Helvetica, Arial, sans-serif;
+}
 
-Text: 1A1A1A
-Green: #00B172
-White: #FFF
+.banner{
+    align-items: center;
+    background-image: url('../images/landing.jpg');
+    background-repeat: no-repeat;
+    background-size: cover;
+    color: white;
+    display: flex;
+    justify-content: center;
+    height: 800px;
+    text-align: center;
+    width: 100%;
+    max-height: 100%;
+}
 
-*/
+.banner h1 {
+    font-size: 4em;
+}
+
+.banner p {
+    font-size: 2em;
+}
+
+.nav-bar {
+    align-items: center;
+    display: flex;
+    height: 50px;
+    justify-content: space-between;
+    margin: 20px 5px 20px 5px;
+}
+
+.nav-bar-img {
+    max-height: 5;
+    max-width: 15%;
+}
+
+.nav-bar ul {
+    display: flex;
+    list-style: none;
+    justify-content: space-between;
+}
+
+.nav-bar li {
+    font-size: 1.2em;
+    font-weight: 100;
+    margin: 0px 20px 0px 10px;
+    padding: 5px;
+}
