@@ -7,180 +7,182 @@ White: #FFF
 
 */
 
-@import url('https://fonts.googleapis.com/css2?family=Montserrat:wght@200;400;700&family=Roboto:wght@100;300;400;700;900&display=swap');
+@import url("https://fonts.googleapis.com/css2?family=Montserrat:wght@200;400;700&family=Roboto:wght@100;300;400;700;900&display=swap");
 
 body {
-    margin: 0;
-    font-family: 'Roboto', sans-serif;
-    letter-spacing: 0.9px;
-    word-spacing: 1.1px;
+  margin: 0;
+  font-family: 'Arial', 'Helvetica', 'sans-serif';
+  letter-spacing: 0.9px;
+  word-spacing: 1.1px;
 }
 
-.fill-gap{
-    height: 18px;
-    width: 100%;
+.fill-gap {
+  height: 18px;
+  width: 100%;
 }
 
 nav {
-        position: fixed;
-        margin: -20px 0;
-        height: 80px;
-        width: 100%;
-        background-color: #FFF;
-        display: flex;  
-        justify-content: space-between;   
+  position: fixed;
+  margin: -20px 0;
+  height: 80px;
+  width: 100%;
+  background-color: #fff;
+  display: flex;
+  justify-content: space-between;
 }
 
 .logo {
-    height: 60px;
-    padding: 10px 30px;
+  height: 60px;
+  padding: 10px 30px;
 }
 
 ul {
-    display: flex;
-	flex-direction: row;
-	flex-wrap: wrap;
-	justify-content: space-between;
-	align-items: stretch;
-	align-content: stretch;
-    padding: 0 32px 0 0;
+  display: flex;
+  flex-direction: row;
+  flex-wrap: wrap;
+  justify-content: space-between;
+  align-items: stretch;
+  align-content: stretch;
+  padding: 0 32px 0 0;
 }
 
 ul > li {
-    margin: 10px;
-    list-style-type: none;
-    color: #424242;
-    font-size: 20px;
+  margin: 10px;
+  list-style-type: none;
+  color: #424242;
+  font-size: 20px;
 }
 
- .hero {
-    background-image: url(../images/landing.jpg);
-    background-position: top;
-    background-size: cover;
-    height: 800px; 
-    color: #FFF;
-    display: flex;
-	flex-direction: row;
-	flex-wrap: nowrap;
-	justify-content: center;
-	align-items: center;
-	align-content: stretch;
-  
-} 
+ul > li > a {
+  text-decoration: none;
+  color: #424242;
+}
 
- .music {
-    display: flex;
-    flex-direction: column;
-    justify-content: space-around;
-    align-content: center;
+.hero {
+  background-image: url(../images/landing.jpg);
+  background-position: top;
+  background-size: cover;
+  height: 800px;
+  color: #fff;
+  display: flex;
+  flex-direction: row;
+  flex-wrap: nowrap;
+  justify-content: center;
+  align-items: center;
+  align-content: stretch;
+}
+
+.music {
+  display: flex;
+  flex-direction: column;
+  justify-content: space-around;
+  align-content: center;
 }
 
 h1 {
-    font-size: 72px;
-    text-align: center;
+  font-size: 72px;
+  text-align: center;
 }
 
 .music p {
-    text-align: center;
-    font-size: 26px;
-    margin-top: -15px;
-    width: 720px;
+  text-align: center;
+  font-size: 26px;
+  margin-top: -15px;
+  width: 720px;
 }
 
 .meio {
-    text-align: center;
-    display: flex;
-    flex-direction: column;
-    justify-content: center;
-    align-items: center;
-    margin: 40px;
+  text-align: center;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  margin: 40px;
 }
 
 .meio h2 {
-    border-bottom: 3px solid #00B172;
-    border-radius: 2px;
-    width: 290px;
-    font-size: 33px;
-    font-weight: 400;
- 
+  border-bottom: 4px solid #00b172;
+  border-radius: 2px;
+  width: 315px;
+  font-size: 33px;
+  font-weight: 600;
 }
 
 .icons {
-    width: auto;
-    height: 100px;
+  width: auto;
+  height: 100px;
 }
 
 .content {
-    display: flex;
-    flex-direction: row;
-    justify-content: space-between;
-    margin: 10px 40px;
-    width: 100%;
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  margin: 80px 40px;
+  width: 100%;
 }
-    
+
 .content-items {
-    width: 33rem;
-    margin: 2px;
-    
+  width: 33rem;
+  margin: 2px;
 }
 
 .content-items h3 {
-    color: #00B172;
-    font-size: 30px;
+  color: #00b172;
+  font-size: 30px;
 }
 
 .content-items p {
-    color:#424242;
-    font-size: 24px;
-    font-weight: lighter;
+  color: #424242;
+  font-size: 24px;
+  font-weight: lighter;
 }
 
 .final {
-    background-color: #1AB16A;
-    background-image: url(../images/spotify-icon-white.png);
-    background-position: center;
-    background-repeat: no-repeat;
-    background-size: 100px;
-    display: flex;
-    justify-content: space-between;
-    align-items: flex-end;
-    height: 720px;
-    padding-bottom: 80px;
-    margin: 0 20px; 
-  
+  background-color: #1ab16a;
+  background-image: url(../images/spotify-icon-white.png);
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: 100px;
+  display: flex;
+  justify-content: space-between;
+  align-items: flex-end;
+  height: 720px;
+  padding-bottom: 80px;
+  margin: 20px;
+
 }
 
-.text-final{
-    display: flex;
-    flex-direction: column;
-    justify-content: flex-start;
-    height: auto;
-    color: #FFF;
-    margin-left: 100px ;
-    width: 485px;
-    margin-bottom: -18px;
+.text-final {
+  display: flex;
+  flex-direction: column;
+  justify-content: flex-start;
+  height: auto;
+  color: #fff;
+  margin-left: 100px;
+  width: 485px;
+  margin-bottom: -18px;
 }
 
 .final > div > h2 {
-   font-size: 36px;
-   border-bottom: 3px solid #FFF;
-   /* letter-spacing: 0.7px;
+  font-size: 36px;
+  border-bottom: 3px solid #fff;
+  /* letter-spacing: 0.7px;
    word-spacing: 1.5px; */
-   width: 488px;
+  width: 488px;
 }
 
 .final > div > h3 {
-   font-size: 28px;
+  font-size: 28px;
 }
 
 .final > div > p {
-    font-size: 20px;
-    font-weight: lighter;
-    color:rgb(246, 245, 245)
- }
+  font-size: 20px;
+  font-weight: lighter;
+  color: rgb(246, 245, 245);
+}
 
 .music-img {
-    height: 560px;
-    width: auto;
-    margin-right: 100px ;
+  height: 560px;
+  width: auto;
+  margin-right: 100px;
 }
