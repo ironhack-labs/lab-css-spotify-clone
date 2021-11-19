@@ -9,23 +9,26 @@ White: #FFF
 
 @import url('https://fonts.googleapis.com/css2?family=Montserrat:wght@200;400;700&family=Roboto:wght@100;300;400;700;900&display=swap');
 
-/* * {
-    border: 1px solid red;
-} */
-
 body {
     margin: 0;
     font-family: 'Roboto', sans-serif;
+    letter-spacing: 0.9px;
+    word-spacing: 1.1px;
+}
+
+.fill-gap{
+    height: 18px;
+    width: 100%;
 }
 
 nav {
-    position: fixed;
-    margin: -20px 0;
-    height: 80px;
-    width: 100%;
-    background-color: #FFF;
-    display: flex;  
-    justify-content: space-between;   
+        position: fixed;
+        margin: -20px 0;
+        height: 80px;
+        width: 100%;
+        background-color: #FFF;
+        display: flex;  
+        justify-content: space-between;   
 }
 
 .logo {
@@ -52,9 +55,9 @@ ul > li {
 
  .hero {
     background-image: url(../images/landing.jpg);
-    background-position: center; 
+    background-position: top;
     background-size: cover;
-    height: 600px; 
+    height: 800px; 
     color: #FFF;
     display: flex;
 	flex-direction: row;
@@ -66,31 +69,37 @@ ul > li {
 } 
 
  .music {
-    height: 110px;
-        display: flex;
-        flex-direction: column;
-        font-weight: 100;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-around;
+    align-content: center;
 }
 
 h1 {
     font-size: 72px;
+    text-align: center;
 }
 
 .music p {
     text-align: center;
+    font-size: 26px;
+    margin-top: -15px;
+    width: 720px;
 }
-
-
 
 .meio {
     text-align: center;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    margin: 40px;
 }
 
 .meio h2 {
     border-bottom: 3px solid #00B172;
     border-radius: 2px;
-    width: 300px;
-    margin: 40px 38% 75px;
+    width: 290px;
     font-size: 33px;
     font-weight: 400;
  
@@ -104,13 +113,15 @@ h1 {
 .content {
     display: flex;
     flex-direction: row;
-    justify-content: space-around;
+    justify-content: space-between;
     margin: 10px 40px;
+    width: 100%;
 }
     
 .content-items {
     width: 33rem;
     margin: 2px;
+    
 }
 
 .content-items h3 {
@@ -125,45 +136,51 @@ h1 {
 }
 
 .final {
-    background-color: #00B172;
+    background-color: #1AB16A;
+    background-image: url(../images/spotify-icon-white.png);
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: 100px;
     display: flex;
     justify-content: space-between;
-    align-items: center;
-    padding: 80px;
-    margin: 20px;
-}
-
-.white-logo {
-    position: absolute;
-    width: 100px;
-    height: auto;
-    margin: 0 37%; 
+    align-items: flex-end;
+    height: 720px;
+    padding-bottom: 80px;
+    margin: 0 20px; 
+  
 }
 
 .text-final{
     display: flex;
     flex-direction: column;
-    height: 520px;
+    justify-content: flex-start;
+    height: auto;
     color: #FFF;
-    margin: -20px 0;
+    margin-left: 100px ;
+    width: 485px;
+    margin-bottom: -18px;
 }
 
 .final > div > h2 {
-   font-size: 33px;
+   font-size: 36px;
    border-bottom: 3px solid #FFF;
-   letter-spacing: 0.7px;
- 
+   /* letter-spacing: 0.7px;
+   word-spacing: 1.5px; */
+   width: 488px;
 }
 
 .final > div > h3 {
-   font-size: 25px;
+   font-size: 28px;
 }
 
 .final > div > p {
-    font-size: 16px;
+    font-size: 20px;
+    font-weight: lighter;
+    color:rgb(246, 245, 245)
  }
 
 .music-img {
     height: 560px;
     width: auto;
+    margin-right: 100px ;
 }
