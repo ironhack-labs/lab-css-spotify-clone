@@ -1,3 +1,166 @@
+
+@import url('https://fonts.googleapis.com/css2?family=Montserrat:wght@200;300;400&display=swap');
+
+body{
+    font-family: 'Montserrat', sans-serif;
+    max-width: 1600px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    margin: 0px;
+}
+nav{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    width: 1600px;
+
+}
+nav img{
+    height: 60px;
+    width: auto;
+    margin: 15px;
+}
+nav ul{
+    list-style: none;
+    display: flex;
+    flex-direction: row;
+}
+nav li{
+    font-size: 25px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin-right: 20px;
+}
+.banner{
+    display: flex;
+    background-image: url(../images/landing.jpg); 
+    background-position:0 0;
+    background-repeat: no-repeat;
+    background-size: cover;
+    height: 850px;
+    width: 1600px;
+    padding: 0px 0px 0px 0px;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+}
+h1{
+    font-size: 75px;
+    color: #FFF;
+    margin: 0;
+}
+.banner p{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-size: 28px;
+    color: #FFF;
+    width: 750px;
+    font-weight: 200;
+    text-align: center;
+    line-height: 40px;
+}
+.services{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+}
+
+.services h2{
+    font-size: 35px;
+    font-weight:900;
+    color: 1A1A1A;
+    margin: 40px;
+    border-bottom: 4px solid #00B172;
+    text-align: center;
+    width: 330px;
+    line-height: 50px;
+}
+.services{
+    width:1200px;
+    margin: 0 auto;
+    padding: 30px 0;  
+}
+.service-box{
+    text-align: center;
+    margin: 50px 5% 0px 5%;
+    padding: 20px;
+    width: 40%;
+  }
+.service-box img {
+    width: 130px;
+  }
+  .service-box h3{
+      color: #00B172;
+      font-size: 25px;
+  }
+  .service-box p{
+    font-size: 25px;
+    color: 1A1A1A;
+  }
+  #structure{
+  display: flex;
+  justify-content: space-around;  
+  }
+  #structure > div {
+    display: flex;
+    justify-content: space-between;
+    flex-direction: row;
+    flex-wrap: wrap;
+    width: 1600px;
+  }
+  #structure .service-box{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    width: 250px;
+  }
+.challenge{
+    background-color:#00B172;
+    width: 1500px;
+    height: 1000px;
+    display: flex;
+    align-content: center;
+    justify-content: space-evenly;
+    align-items: center;
+    margin-bottom: 50px;
+}
+
+  .challenge img{
+    width: 180px;
+}
+.challenge h2{
+    color:#FFF ;
+    font-size: 40px;
+    font-weight:900;
+    color: 1A1A1A;
+    border-bottom: 4px solid white;
+    text-align: center;
+    width: 560px;
+    line-height: 20px;
+    padding-bottom: 30px;
+    margin-bottom: 50px;
+}
+.kanye img{
+    width: 450px;
+    margin-left: 80px;
+}
+.top{
+    color:white;
+    width: 420px;
+    padding-bottom: 10px;
+}
+.top h3{
+    font-size: 30px;
+}
+.top p{
+    font-size: 25px;
+    line-height: 40px;
+}
 /*
 Colors:
 
