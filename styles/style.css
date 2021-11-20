@@ -1,3 +1,4 @@
+
 /*
 Colors:
 
@@ -5,4 +6,116 @@ Text: 1A1A1A
 Green: #00B172
 White: #FFF
 
+
 */
+@import url('https://fonts.googleapis.com/css?family=Roboto+Condensed:700|Roboto:100,300,700');
+html, body {
+    margin: 0;
+    padding: 0;
+  }
+  
+  body {
+    font-family: "roboto";
+    font-size: 10px;
+    /*line-height: 3.5em;*/
+    font-weight: 300;
+  }
+  h1 {
+    font-size: 8em;
+    text-align: center;
+  }
+  h2 {
+    font-size: 4em;
+    text-align: center;
+    line-height: 1.3em;
+    /*color: white;*/
+  }
+  h3 {
+    font-size: 4em;
+    text-align: center;
+    line-height: 3em;
+    text-decoration: underline;
+  }
+  h4 {
+    font-size: 3.5em;
+    text-align: center;
+    line-height: 1em;
+    color: #00B172; 
+  }
+  p {
+    font-size: 2.4em;
+    text-align: center;
+    line-height: 1em;
+  }
+
+  .list{
+    text-decoration: none;
+  }
+
+  .img {
+      width: 25%;
+      
+  }
+  
+  #section1 {
+    background-image: url('../images/landing.jpg');
+    background-position: center;
+    background-size: cover;
+    background-repeat: no-repeat;
+    height: 650px;
+    padding-top: 50px;
+    position: relative;
+    color: #FFF;
+  }
+  
+  #section2 {
+    height: 500px;
+    margin-bottom: 100px;
+  }
+  
+  #section3 {
+    height: 700px;
+  }
+
+
+  .green-background {
+    background-color: #00B172;
+    color: #FFF;
+  }
+  .green-background h4 {
+    color: #FFF;
+  }
+
+  .article-container {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 200px;
+    /*border: 3px solid green;*/
+    padding: 90px 0;
+  }
+
+  .article-box {
+      display: flex;
+      align-items:center;
+      flex-direction: column;
+  }
+
+  .article-box3 {
+    display: flex;
+    flex-direction: column;
+  }
+  .article-box3 p {
+    text-align: left;
+    padding-left: 50px;
+  }
+
+  .article-box3 h3 {
+    text-align: left;
+    padding-left: 50px;
+  }
+
+  .article-box3 h4 {
+    text-align: left;
+    padding-left: 50px;
+  }
