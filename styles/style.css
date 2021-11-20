@@ -1,8 +1,129 @@
-/*
-Colors:
+header {
+    display: flex;
+    margin: 20px;
+    align-items: center;
+}
 
-Text: 1A1A1A
-Green: #00B172
-White: #FFF
+#image-logo, .resource-image, #spotify-icon-white {
+    width: 170px;
+    height: auto;    
+}
 
-*/
+nav {
+    position: fixed;
+    right: 20px
+}
+
+#menu {
+    display: flex;
+    list-style: none;
+}
+
+.menu-option {
+   text-decoration: none;
+   margin: 20px;
+   color: black;
+   font-size: 25px;
+}
+
+.banner{
+    background-image: url("../images/landing.jpg");
+    background-size: cover;
+    height: 1000px;
+    text-align: center;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+}
+
+h1{
+    font-size: 90px;
+    color: white;
+    margin: 10px auto;
+}
+
+#banner-intro {
+    font-size: 30px;
+    width: 50%;
+    color: white;
+    margin: 10px auto;
+}
+
+h2 {
+    text-align: center;
+    font-size: 60px;
+    text-decoration: underline rgb(26,178,107);
+    text-underline-position: under
+}
+
+#whats-on {
+    margin: 50px 0;
+}
+
+.resources {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin: 0 120px;
+}
+
+#millions-of-songs, #high-quality, #devices  {
+    width: 28%;
+    text-align: center;
+}
+
+h3 {
+    font-size: 40px;
+    color: rgb(26,178,107);
+    font-weight: bold;
+}
+
+.resources-info {
+    font-size: 30px;
+    width: 90%;
+    margin: 10px auto;
+}
+
+#actions {
+    background-color: rgb(26,178,107);
+    margin: 100px 0;
+    padding: 50px 0;
+    display: flex;
+    align-items: center;
+    height: 750px;
+}
+
+h4 {
+    font-size: 35px;
+    color: white;
+    font-weight: bold;
+    text-decoration: underline;
+    text-underline-position: under
+}
+
+h5 {
+    font-size: 28px;
+    font-weight: bold;
+}
+
+h4, h5, .action-info {
+    margin: 0 100px;
+    padding: 22px;
+    color: white;
+}
+
+.action-info {
+    font-size: 20px;
+}
+
+#spotify-app {
+    width: 380px;
+    height: auto; 
+    position:absolute;
+    right: 125px;
+}
+
+#spotify-icon-white {
+    position: absolute;
+    right: 45%;
+}
