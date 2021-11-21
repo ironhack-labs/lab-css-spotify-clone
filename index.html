@@ -6,13 +6,92 @@
     <meta http-equiv="X-UA-Compatible" content="ie=edge" />
     <title>Spotify Clone</title>
     <!-- don't forget to link your styles -->
+    
   </head>
   <body>
-    Premium Discover Help Download Music for everyone. Spotify is now free on mobile, tablet and computer. Listen to the
-    right music, wherever you are. What’s on Spotify? Millions of Songs There are millions of songs on Spotify HD Music
-    Listen to music as if you were listening live Stream Everywhere Stream music on your smartphone, tablet or computer
-    It’s as yeezy as Kanye West. Search Know what you want to listen to? Just search and hit play. Browse Check out the
-    latest charts, brand new releases and great playlists for right now. Discover Enjoy new music every Monday with your
-    own personal playlist. Or sit back and enjoy Radio.
+<!-- Navegador -->
+    
+   <nav id="navegation">
+        <img class = 'logo' src="https://raw.githubusercontent.com/miguelbanos95/lab-css-spotify-clone/master/images/spotify-logo.png" alt="logo">
+        <ul>
+          <a href=""> Download  </a>
+          <a href=""> Help</a>
+          <a href=""> Discover </a>
+          <a href=""> Premium</a>    
+      </ul>  
+  </nav>
+<!-- Section 1 -->
+  <section >
+      <div class ="concert">
+        <h1 id="title-concert">Music for everyone.</h1>
+        <p class="text-photo1">Spotify is now free on mobile, tablet and computer.</p>
+        <p class="text-photo1">Listen to the right music, wherever you are.</p>
+      </div>
+    </section>
+      
+<!-- Section 2 -->
+   <section id="mid-section">
+     <h2 id = "h2-section2">What’s on Spotify?</h2>
+     
+     <div id= "three-boxs">
+  <!-- BOX 1/3 -->     
+       <div class = "mini-box">
+        <img class="mini-logos" src="https://raw.githubusercontent.com/ironhack-labs/lab-css-spotify-clone/master/images/music-icon.png">
+        <h3 class = "text-minibox">Millions of Songs</h3>
+        <p>There are millions of songs on Spotify</p>
+       </div>
+      
+  <!-- BOX 2/3 -->  
+       <div class ="mini-box">
+         <img class="mini-logos" src="https://raw.githubusercontent.com/ironhack-labs/lab-css-spotify-clone/master/images/high-quality-icon.png">
+         <h3 class = "text-minibox">HD Music</h3>
+         <p>Listen to music as if you were listening live</p>
+       </div>
+      
+  <!-- BOX 3/3 -->  
+       <div class ="mini-box">
+     <img class="mini-logos" src="https://raw.githubusercontent.com/ironhack-labs/lab-css-spotify-clone/master/images/devices-icon.png">
+      <h3 class = "text-minibox">Stream Everywhere</h3>
+         <p>Stream music on your smartphone, tablet or computer</p></div>
+     </div>
+  </section>
+<!-- Section 3 -->  
+  <section class="background">
+  <!-- Contain boxs: "container-left-right" -->
+    
+      <div id ="container-left-right">
+  <!-- Contain boxs: "left" + "right" -->
+        
+        <div id="left">
+  <!-- Contain boxs: "kanye-text" + "container-text-logo"-->
+          
+          <h3 id="kanye-text">It’s as yeezy as Kanye West.</h3>
+          
+          <div class="container-text-logo">
+  <!-- Contain boxs: "text" + (imagen "small-logo")-->
+            
+            <div class="text">
+              <h4>Search</h4>
+              Know what you want to listen to? Just search and hit play.
+              <h4>Browse</h4>
+              <p>Check out the latest charts, brand new releases and great
+              playlists for right now.</p>
+              <h4>Discover</h4>
+              <p>Discover Enjoy new music every Monday with your own personal
+              playlist. Or sit back and enjoy Radio.</p>
+            </div>
+            <img
+              class="small-logo"
+              src="https://raw.githubusercontent.com/ironhack-labs/lab-css-spotify-clone/master/images/spotify-icon-white.png"/>
+          </div> 
+        </div>
+        
+        <div id="right">
+<!-- Contain boxs: (imagen "kanye-west") -->
+          
+          <img id= "kanye-west" src ="https://raw.githubusercontent.com/ironhack-labs/lab-css-spotify-clone/master/images/spotify-app.jpg">  
+        </div>
+    </div>
+  </section>
   </body>
 </html>

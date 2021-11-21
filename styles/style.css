@@ -1,8 +1,185 @@
-/*
-Colors:
-
-Text: 1A1A1A
-Green: #00B172
-White: #FFF
-
-*/
+html{
+    font-family: 'Montserrat', sans-serif;
+  }
+  body{
+    padding: 0px;
+    margin: 0px;
+    color: #1A1A1A;
+    background-color: #FFF;
+    box-sizing: border-box;
+  }
+  *, *:before, *:after {
+    box-sizing: inherit;
+    
+  }
+  /*  NAVEGADOR */
+  nav{
+    position: fixed;
+    width: 100%;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    background-color: #fff; 
+  }
+  #navegation{
+    padding-right: 30px;
+    height: 70px;
+    margin-top: 0px;
+  }
+  .logo{
+    width: 200px;
+    height: 65px;
+    margin-left: 10px;
+  }
+  a{
+    float: right;
+    font-size:15px;
+    margin-top: 0px;
+    display: flex;
+    list-style: none;
+    margin-right: 55px;
+    margin: 5px 10px;
+    outline: none;
+    padding-right: 15px;
+    text-decoration: none;
+  }
+  
+  /*  SECTION 1 */
+  
+  .concert{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    background-image: url("https://raw.githubusercontent.com/ironhack-labs/lab-css-spotify-clone/master/images/landing.jpg");
+    background-position: bottom center;
+    height: 1000px;
+    background-size: cover;
+  }
+  #title-concert{
+    font-size: 90px;
+    margin-bottom: 30px;
+    color: white;
+    font-weight: bold;
+   
+  }
+  .text-photo1{
+    color: white;
+    font-size: 30px;
+    line-height: 15px;
+    width: 55%;
+    text-align: center;
+    font-weight: 150;
+  }
+  
+  /*  SECTION 2 */
+  
+  #mid-section{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+  }
+  #h2-section2{
+    font-size: 35px;
+    padding-top: 30px;
+    padding-bottom: 5px;
+    border-bottom: 4px solid #00b172;
+    
+  } 
+  #three-boxs{
+    margin: 100px;
+    display: flex;
+    position: relative;
+    flex-direction: row;
+    justify-content: space-between;
+    /*border: 1px solid black;*/
+  }
+  .mini-logos{
+    height: 90px;
+    /*border: 1px solid black;*/
+  }
+   .mini-box {
+    display: flex;
+    flex-direction: column;
+    font-size: 25px;
+    font-weight: 100;
+    align-items: center;
+    text-align: center;
+    line-height: 35px;
+    width: 33%;
+    margin: 30px;
+    /*border: 1px solid black;*/
+    margin-top: 80px;
+  }
+  .text-minibox{
+    color: #00B172;
+  }
+  
+  /* Section 3 // GREENZONE */
+  
+  .background{
+    background-color:#00B172;
+    margin-left: 20px;
+    margin-right: 20px;
+    padding-top: 60px;
+    /*border: 2px solid black;*/
+  }
+  #container-left-right {
+    display: flex;
+    justify-content: space-between;
+    align-items: flex-start;
+    padding: 70px;
+    /*border: 2px solid black;*/
+    
+  }
+  
+  #left{
+    width: 60%;
+    /*border: 2px solid black;*/
+    
+  }
+  #kanye-text{
+    font-size: 35px;
+    color: #fff;
+    margin-right: 110px;
+    padding-bottom: 15px;
+    border-bottom: 3px solid #ffffff;
+    /*border: 2px solid black;*/
+  }
+  .container-text-logo{
+   /* border: 2px solid black;*/
+    color: #fff; 
+    align-items: center;
+    display: flex;
+    flex-direction: row;
+    font-size: 20px;
+    font-weight: 150;
+    line-height: 30px;
+    justify-content: space-between;
+    margin: 0px
+   
+  }
+  .text {
+    width: 55%;
+   /* border: 2px solid black;*/
+  } 
+  .small-logo {
+    height: 100px;
+  }
+  h4 {
+    font-size: 25px;
+    padding-bottom: 25px;
+    padding-top: 40px;
+  }
+  #right{
+    display: flex;
+    justify-content: flex-end;
+    width: 50%;
+    /*border: 2px solid black;*/
+    margin-top: 300px
+  }
+  #kanye-west{
+    width: 65%;
+    float: right;
+  }
