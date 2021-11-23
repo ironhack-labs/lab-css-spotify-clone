@@ -1,8 +1,128 @@
-/*
-Colors:
+/*Colors
 
-Text: 1A1A1A
-Green: #00B172
-White: #FFF
+Text 1A1A1A
+Green #00B172
+White #FFF*/
+html,
+body {
+    width: 100%;
+    font-family: sans-serif;
+    margin: 0;
+    display: flex;
+    flex-direction: column;
+}
 
-*/
+header, nav {
+    margin: 0px 0 0 0;
+    height: 10%;
+    position: fixed;
+    background-color: #FFF;
+    text-align: center;
+    z-index: 1;
+}
+nav > img {
+    width: 15%;
+    float: left;
+    margin: 5px;
+
+}
+nav > a {
+    margin: 35px 20px 0px 10px;
+    float: right;
+    display: flex;
+    color: 1A1A1A; 
+}
+
+.section1 {
+    background-image: url(/5.lab-css-spotify-clone/images/landing.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 1000px;
+    color: #FFF;
+}
+
+#h1 {
+    font-size: 95px;  
+}
+
+.p {
+    font-size: 37px;
+    text-align: center;
+}
+
+.section2 {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+}
+
+#wos {
+    font-size: 40px;
+    text-decoration-line: underline;
+    text-underline-position: under;
+    text-decoration-color: #00B172; 
+}
+.container-whatsOnSpotify{
+    display: flex;
+    justify-content: space-around;
+    flex-direction: row;
+}
+
+.container-options {
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+    align-items: center;
+    margin: 50px 0;
+}
+
+.images {
+    width: 50%;
+}
+
+.option-text {
+    font-size: 37px;
+    color: #00B172;
+}
+
+#section3{
+    background-color: #00B172;
+    background-image: url(/5.lab-css-spotify-clone/images/spotify-icon-white.png);
+    background-repeat: no-repeat;
+    background-size: 10%;
+    background-position: center;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    color: #FFF;
+    
+
+}
+
+#textoLogoImg {
+    margin: 0px 30px 30px 30px;
+}
+
+#h2 {
+    font-size: 47px;
+    text-decoration-color: #FFF;
+    text-decoration-line: underline;
+    text-underline-position: under;
+
+}
+.sbd {
+    font-size: 37px;
+}
+
+.text {
+    font-size: 30px;
+}
+
+#kanyeW {
+    width: 25%;
+    height: 700px;
+}
