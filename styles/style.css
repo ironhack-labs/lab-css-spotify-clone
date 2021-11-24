@@ -1,8 +1,177 @@
-/*
-Colors:
+body {
+    margin: 0;
+}
 
-Text: 1A1A1A
-Green: #00B172
-White: #FFF
+.fixedbar {
+    position: fixed;
+    top: 0;
+    width: 100%;
+    height: 90px;
+    background-color: white;
+}
 
-*/
+.logoSpotify {
+    height: 60px;
+    width: 200px;
+    margin: 10px;
+}
+
+
+.navbarleft {
+    float: left;
+    width: auto;
+}
+
+.navbarright {
+    float: right;
+    width: auto;
+}
+
+
+.navbarright>ul>li {
+    list-style: none;
+    float: left;
+    margin: 10px 20px;
+    width: auto;
+    font-size: 25px;
+}
+
+
+.navbarright>ul>li>a {
+    text-decoration: none;
+    color: black;
+}
+
+
+.landingImage {
+    background-image:
+        url("../images/landing.jpg");
+    background-size: 100%;
+    height: 800px;
+    width: auto;
+    text-align: center;
+    color: white;
+    margin: 0;
+}
+
+
+.landingImage>div,
+h1,
+h6 {
+    /*centralizar verticalmente e horizontalmente*/
+    position: relative;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    margin: 0%;
+    /* restante da argumentação*/
+
+}
+
+.landingImage>div>h1 {
+    font-size: 5em;
+}
+
+
+.landingImage>div>h6 {
+    font-size: 26px;
+}
+
+
+#titleSection2 {
+    text-align: center;
+    text-decoration: none;
+    padding: 50px;
+}
+
+
+#titleSection2>span {
+    border-bottom: 3px solid #1DB954;
+    padding-bottom: 5px;
+    font-size: 2em;
+
+}
+
+#container {
+    display: flex;
+    justify-content: center;
+    width: 100%;
+    border-color: blue;
+    text-align: center;
+}
+
+.box {
+    display: inline-block;
+    width: 250px;
+    height: 300px;
+    margin: 10px 50px;
+}
+
+.box>div {
+    color: #1DB954;
+    font-size: 30px;
+    padding: 10px;
+}
+
+.box>p {
+    font-size: 25px;
+}
+
+#box {
+    ;
+}
+
+.icon {
+    height: 80px;
+}
+
+.section3 {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: space-between;
+    background-image: url("../images/spotify-icon-white.png");
+    height: 90vh;
+    background-color: #00B172;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: 15vh;
+    position: flex;
+    margin: 0 2vh 2vh 2vh;
+    padding: 5vh 0 0 5vh;
+}
+
+.kenye-img {
+    height: 70vh;
+    margin-right: 20vh;
+    position: flex;
+    right: 5vh;
+    top: 8vh;
+}
+
+.article-kenye-west {
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    color: white;
+    width: 35%;
+    margin: 45px;
+
+}
+
+.article-kenye-west>h2 {
+    font-size: 4.5vh;
+    font-weight: 900;
+    text-decoration: underline white;
+    text-underline-position: under
+}
+
+.article-kenye-west>p {
+    font-size: 2vh;
+    margin-bottom: 7vh;
+}
+
+.article-kenye-west>h3 {
+    font-size: 3.5vh;
+    font-weight: 600;
+}
