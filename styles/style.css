@@ -8,24 +8,31 @@ White: #FFF
 */
 
 body {
-    padding:0px;
+
     margin:0px;
     border:0px;
-    background-color: darkgray;
+    background-color: red;
     color:white;
     width:100%;
 }
-section {
-    padding:0;
+
+a {
+    color: 1A1A1A;
+    text-decoration:none;
+    }
+
+#section-1 {
+    display:flex;
+    background-color: royalblue;
 }
 header {
     padding:0;
+    z-index:-1;
 }
 .navbar-list {
     list-style: none;
     display:flex;
     justify-content:space-around;
-    
     min-width:300px;
 }
 
@@ -42,6 +49,10 @@ header {
 
 .big-pic {
     width:100%;
+    padding:0;
+    margin:0;
+    border:0;
+
 }
 .main-div {
     position:absolute;
