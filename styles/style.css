@@ -8,7 +8,7 @@ body {
 }
 
 .logo {
-  width: 15%;
+  width: 10%;
 }
 
 li {
@@ -43,7 +43,7 @@ a {
 .one {
   display: flex;
   flex-direction: column;
-  background-image: url(/images/landing.jpg);
+  background-image: url(../images/landing.jpg);
   background-position: center;
   background-repeat: no-repeat;
   background-size: cover;
@@ -92,12 +92,16 @@ h4 {
 }
 
 aside {
+  display: block;
   width: 30%;
 }
+img {
+  width: 50%;
+}
+
 #about-spotify {
   display: flex;
   flex-direction: row;
-}
-aside > img {
-  width: 50%;
+  align-items: center;
+  place-items: inherit;
 }
