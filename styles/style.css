@@ -6,3 +6,207 @@ Green: #00B172
 White: #FFF
 
 */
+
+@import url('https://fonts.googleapis.com/css2?family=Montserrat:display=swap');
+
+body {
+    font-family: 'Montserrat', sans-serif;
+    padding: 0;
+    margin: 0;
+}
+
+header {
+    top: 0px !important;
+    display: flex;
+    position: fixed;
+    width: 100%;
+    background-color: #fff;
+    padding: 20px 10px 20px 10px;
+}
+
+#nav-logo {
+    width: 225px;
+    float: left;
+
+}
+
+#nav-container {
+    display: flex;
+    justify-content: flex-end;
+    width: 100%;
+}
+
+nav {
+    justify-content: flex-end;
+    width: 60%;
+    max-width: 700px;
+}
+
+ul {
+    display: flex;
+    flex-direction: row;
+    height: 100%;
+    align-items: center;
+    margin: 0;
+}
+
+li {
+    font-size: 1.25em;
+    color: #1A1A1A;
+    width: 25%;
+    list-style-type: none;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 20%;
+}
+
+#section1 {
+    margin-top: 100px;
+    background-image: url(/images/landing.jpg);
+    background-position: center bottom;
+    background-repeat: no-repeat;
+    background-size: cover;
+    height: 65vh;
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+    justify-content: center;
+}
+
+#section1 h1 {
+    color: #fff;
+    font-size: 4em;
+    font-weight: 550;
+    margin-bottom: 20px;
+
+}
+
+#section1 h3 {
+    color: #fff;
+    font-size: 2em;
+    font-weight: 300;
+    text-align: center;
+    width: 800px;
+    margin-top: 0;
+}
+
+#column-container {
+    display: flex;
+    width: 80%;
+    margin: 0 auto;
+    text-align: center;
+}
+
+#section2 h3 {
+    color: #00B172;
+    font-size: 2em;
+    margin-top: 10px;
+}
+
+#section2 h2 {
+    text-align: center;
+    font-size: 2em;
+    font-weight: 500;
+    margin-top: 10px;
+    text-decoration: underline;
+    text-decoration-color: #00B172;
+    text-underline-offset: 10px;
+    margin: 50px 0 75px 0;
+}
+
+
+#section2 p {
+    font-size: 1.5em;
+    font-weight: 100;
+    line-height: 130%;
+}
+
+#section2 img {
+    height: 100px;
+}
+
+.column {
+    width: 33%;
+    padding: 20px;
+}
+
+#section3 #white-logo {
+    /* position: absolute;
+    top: 50%;
+    right: 50%;
+    transform: translate(-50%, -50%);
+    /* align-self: middle; 
+    display: block; */
+    width: 100px;
+    position: absolute; 
+  left: 0; 
+  right: 0; 
+  margin-left: auto; 
+  margin-right: auto;
+}
+
+#section3 {
+    margin: 20px;
+    padding: 75px;
+    background-color: #00B172;
+    position: relative;
+}
+
+#section3 h2 {
+    font-size: 2em;
+    font-weight: 300;
+    color: #fff;
+    text-decoration: underline;
+    text-decoration-color: #fff;
+    text-underline-offset: 10px;
+        text-align: left;
+    width: 75%;
+    white-space: nowrap
+}
+
+#section3 h3 {
+    font-size: 1.5em;
+    /* font-weight: 300; */
+    color: #fff;
+        text-align: left;
+    width: 75%;
+
+}
+
+#section3 p {
+    color: #fff;
+    font-weight: 100;
+    width: 75%;
+    line-height: 150%;
+    /* border: 1px solid red; */
+    /* padding-right: 100px; */
+}
+
+.full {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.half {
+    width: 50%;
+}
+
+.spotify-app-container {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.spotify-text-container {
+    display: flex;
+    flex-direction: column;
+    /* justify-content: center; */
+    align-items: center;
+    text-align: left;
+}
+
+.spotify-app {
+    height: 400px;
+}
