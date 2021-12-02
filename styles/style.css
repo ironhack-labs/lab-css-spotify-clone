@@ -82,11 +82,22 @@ h1 {
 }
 .two {
   height: 100vh;
+  display: flex;
+  flex-direction: column;
 }
-.about {
+
+h4 {
+  color: darkgreen;
+  font-weight: bolder;
+}
+
+aside {
+  width: 30%;
+}
+#about-spotify {
   display: flex;
   flex-direction: row;
-  align-items: center;
 }
-.icons {
+aside > img {
+  width: 50%;
 }
