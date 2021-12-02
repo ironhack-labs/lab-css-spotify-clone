@@ -6,3 +6,156 @@ Green: #00B172
 White: #FFF
 
 */
+
+* {
+    box-sizing: border-box;
+}
+
+body {
+    margin: 0;
+    color: #1A1A1A;
+    font-family: sans-serif;
+    line-height: 1.5em;
+}
+
+header {
+    position: fixed;
+    display: flex;
+    width: 100vw;
+    height: 6em;
+    justify-content: space-between;
+    align-items: center;
+    padding: 15px 30px;
+    background-color: #FFF;
+}
+
+p {
+    font-size: 19px;
+    font-weight: lighter;
+}
+
+#section-1 {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    color: #FFF;
+    height: 100vh;
+    background-image: url('../images/landing.jpg');
+    background-size: cover;
+}
+
+#section-1 > h2 {
+    font-size: 4em;
+    margin: 30px;
+    text-align: center;
+}
+
+#section-1 > p {
+    font-size: 1.5em;
+    text-align: center;
+    line-height: 1.5em;
+}
+
+nav {
+    display: flex;
+    align-items: center;
+}
+
+nav > ul {
+    padding: 0;
+    display: flex;
+    justify-content: space-between;
+    font-size: larger;
+}
+
+#logo {
+    height: 4em;
+}
+
+#nav-bar {
+    width: 400px;
+    list-style: none;
+}
+
+a {
+    text-decoration: none;
+    color: #1A1A1A;
+}
+
+#section-2 {
+    margin-top: 1.5em;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+#section-2 h3 {
+    font-size: 2em;
+    margin-bottom: 3em;
+    padding-bottom: 15px;
+    border-bottom: 4px solid #00B172;
+}
+
+#section-2 h4 {
+    color: #00B172;
+    font-size: 1.5em;
+    font-weight: bold;
+    margin: 15px;
+}
+
+#section-2 > div {
+    width: 100vw;
+    display: flex;
+    justify-content: space-evenly;
+}
+
+#section-2 > div > div {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    text-align: center;
+}
+
+#section-2 img {
+    height: 5em;
+}
+
+#section-3 {
+    max-width: 1200px;
+    min-width: 960px;
+    margin: 5em auto 2em auto;
+    color: #FFF;
+    display: flex;
+    justify-content: space-between;
+    padding: 5em;
+    background-color: #00B172;
+    background-image: url('../images/spotify-icon-white.png');
+    background-size: 8em;
+    background-repeat: no-repeat;
+    background-position: center;
+}
+
+#section-3 div {
+    display: flex;
+    flex-direction: column;
+    justify-content: space-around;
+}
+
+#section-3 h3 {
+    font-size: 2em;
+    margin: 0;
+    margin-bottom: 1.5em;
+    padding-bottom: 15px;
+    border-bottom: 4px solid #FFF;
+}
+
+#section-3 h4 {
+    font-size: 1.5em;
+    font-weight: bold;
+    margin: 0.5em 0;
+}
+
+#spotify-app {
+    width: 300px;
+}
