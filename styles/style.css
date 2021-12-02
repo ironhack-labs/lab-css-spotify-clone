@@ -6,3 +6,141 @@ Green: #00B172
 White: #FFF
 
 */
+@import url('https://fonts.googleapis.com/css?family=Montserrat:100,300,700');
+body {
+    margin: 0;
+    padding: 0;
+    font-family: Montserrat;
+    font-size: 10px;
+    line-height: 3.5em;
+    font-weight: 300;
+}
+
+nav {
+    position: fixed;
+    top: 0px;
+    width: 100%;
+    display: flex;
+    justify-content:space-between;
+    background-color: #fff;
+    padding: 10px 20px;
+}
+
+nav > img {
+    height: 60px;
+}
+nav > ul{
+    display: flex;
+    padding: 0 20px;
+}
+nav > ul > li {
+    list-style-type: none;
+    padding: 0 20px;
+}
+a {
+    color: #1A1A1A;
+    text-decoration: none;
+    font-size: 2em;
+}
+
+header{
+    background-image: url("../images/landing.jpg");
+    height: 650px;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    color: #fff;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+}
+
+h1{
+    font-size: 8em;
+    text-align: center;
+}
+
+h2{
+    font-size: 3.2em;
+}
+
+h3{
+    font-size: 2.9em;
+}
+
+p {
+    font-size: 2em;
+}
+
+header p {
+    font-size: 2.9em;
+    width: 700px;
+    text-align: center;
+}
+section{
+    text-align: center;
+}
+section > h2 {
+    margin-top: 40px;
+    margin-bottom: 5px;
+}
+section > hr{
+    width: 300px;
+    padding: 2px;
+    background-color: #00B172;
+    border: 0;
+}
+section > div{
+    padding: 80px 0 50px;
+    display: flex;
+    justify-content: space-evenly;
+}
+section > div > article {
+    width: 300px;
+    text-align: center;
+}
+section > div > article > img {
+    height: 90px;
+}
+section > div > article > h3 {
+    margin-top: 10px;
+    color: #00B172;
+}
+section > div > article > p {
+    padding: 0 10px;
+}
+
+footer {
+    background-color: #00B172;
+    background-image: url("../images/spotify-icon-white.png");
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: 150px;
+    margin: 0 30px;
+    padding: 80px 100px;
+    color: #fff;
+    display: flex;
+    justify-content: space-between;
+}
+footer > img {
+    padding-top: 40px;
+    width: 350px;
+}
+footer > div > h2 {
+    margin-bottom: 10px;
+}
+footer > div > hr {
+    width: 450px;
+    margin: 0;
+    padding: 2px;
+    background-color: #fff;
+    border: 0;
+}
+footer > div > div {
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    align-items: center;
+    width: 330px;
+}
