@@ -6,6 +6,9 @@ Green: #00B172
 White: #FFF
 
 */
+* {
+}
+
 
 body {
     font-family: 'Montserrat', sans-serif;
@@ -14,7 +17,12 @@ body {
     resize: none;
     outline: none;
     margin: 0;
-    pad: none;
+}
+
+header {
+    position: fixed;
+    width: 100%;
+    background-color: white;
 }
 
 #green-logo {
@@ -119,6 +127,7 @@ li {
     border: solid white 25px;
     align-content: center;
     align-items: center;
+    justify-content: space-between;
     height: 650px;
 }
 
