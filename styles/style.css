@@ -83,6 +83,7 @@ a {
 
 .featureboxes h3 {
     color: #00B172;
+    text-align: center;
     font-family: 'Montserrat', sans-serif;
 }
 
@@ -112,7 +113,9 @@ a {
 
 .yeezybox {
     margin-top: 10px;
-    background-color: #00B172
+    background-color: #00B172;
+    display: flex;
+    justify-content: space-around;
 }
 
 .yeezycopy {
@@ -141,13 +144,17 @@ a {
 }
 
 .spofitywhiteicon {
-    height: 100px;
-    justify-content: center;
-    align-items: center
+    height: 80px;
+    display: flex;
+    align-self: center;
+    justify-content: flex-end;
+    left: 50%;
+    
 }
 
 .appscreenshot {
-    float: inline-end;
-    width:270px;
-    margin-top:50px;
+    float: right;
+    width: 220px;
+    margin-top: 50px;
+    padding-bottom: 30px;
 }
