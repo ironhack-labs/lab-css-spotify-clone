@@ -6,3 +6,206 @@ Green: #00B172
 White: #FFF
 
 */
+
+*{
+    
+    margin: 0;
+    padding: 0;
+
+}
+
+.navbar{
+
+    height: 10%;
+    width: 100%;
+    position: fixed;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: center;
+    background-color: #FFF;
+  
+}
+
+.navbar > img {
+
+    width: 200px;
+    height: 55px;
+    margin-left: 20px;
+}
+
+.navbar ul {
+
+    width: 25%;
+    
+}
+
+.navbar ul li {
+
+    float: left;
+    list-style-type: none;
+    margin: 4%;
+   
+}
+
+
+#spotyLanding img{
+
+    width: 100%;
+    
+}
+
+.landingContent{
+
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    text-align: center;
+    width: 52%;
+}
+
+#spotyLanding h1,p {
+
+    color: #FFF;
+    
+}
+
+#spotyLanding h1 {
+
+    font-size: 90px;
+    margin-bottom: 15px;
+}
+
+#spotyLanding p {
+
+    font-size: 30px;
+}
+
+#whatsOnSpoty{
+
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    justify-content: space-evenly;
+    height: 500px;
+}
+
+#whatsOnSpoty h1{
+
+    font-size: 45px;
+    border-bottom: 4px solid #00B172;
+}
+
+.whatsOnSpotyContent {
+
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+
+}
+
+#whatsOnSpoty img {
+
+    width: 30%;
+
+}
+
+.whatsOnSpotyContent > div {
+
+    
+    margin: 25px;
+    width: 25%;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    
+}
+
+.whatsOnSpotyContent p {
+
+        color: black;
+        margin: 10px;
+        font-size: 18px;
+        text-align: center;
+        width: 57%;
+}
+
+.whatsOnSpotyContent h3 {
+
+    color: #00B172;
+    font-size: 24px;
+    margin: 10px;
+}
+
+#kanyeWest {
+
+    background-color: #00B172;
+    width: 100%;
+    height: 800px;
+    display: flex;
+    flex-direction: row;
+
+}
+
+.spotifyPicture, .spotifyApp {
+
+    display: flex;
+    justify-content: center;
+    align-items: center;
+
+}
+
+.spotifyPicture{
+
+    width: 15%;
+
+}
+
+.spotifyPicture img{
+
+    width: 55%;
+    margin-left: -75%;
+}
+
+.spotifyApp img{
+
+        height: 80%;
+        margin-top: 5%;
+        margin-left: 45% ;
+}
+
+.spotifyDescripton {
+
+    width: 35%;
+    display: flex;
+    flex-direction: column;
+    margin-top: 5%;
+    margin-left: 5%;
+    
+}
+
+
+.spotifyDescripton h1 {
+
+    color: #FFF;
+    margin: 20px;
+    font-size: 35px;
+    
+}
+
+.firstElement {
+
+    border-bottom: 3px solid #FFF;
+    
+}
+
+.spotifyDescripton p {
+    font-size: 18px;
+    width: 60%;
+    margin: 4%;
+    line-height: 165%;
+}
