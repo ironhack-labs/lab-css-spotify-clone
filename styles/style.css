@@ -6,3 +6,177 @@ Green: #00B172
 White: #FFF
 
 */
+
+* {
+    margin: 0;
+    padding: 0;
+}
+
+body {
+    color: #1A1A1A;
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 16px;
+}
+
+section,
+footer {
+    padding: 75px 0;
+}
+
+.container {
+    max-width: 1200px;
+    margin: 0 auto;
+}
+
+#header {
+    position: relative;
+}
+
+#header .navbar {
+    background-color: #FFFFFF;
+    position: fixed;
+    width: 100%;
+    z-index: 3;
+}
+
+#header .navbar .container {
+    align-items: center;
+    display: flex;
+    justify-content: space-between;
+}
+
+#header .navbar .logo-image {
+    max-height: 60px;
+}
+
+#header .navbar .menu-items {
+    list-style: none;
+}
+
+#header .navbar .menu-items .menu-item {
+    display: inline-block;
+    padding: 30px 10px;
+}
+
+#header .navbar .menu-items .menu-item a {
+    color: #1A1A1A;
+    outline: 0;
+    text-decoration: none;
+}
+
+#header .navbar .menu-items .menu-item a:hover,
+#header .navbar .menu-items .menu-item a:focus,
+#header .navbar .menu-items .menu-item a:active {
+    color: #00B172;
+}
+
+#header .navbar .nav li {
+    display: inline-block;
+}
+
+#jumbotron {
+    background: url("../images/landing.jpg") no-repeat center center scroll #FFFFFF;
+    background-size: cover;
+    padding: 300px 0;
+}
+
+#jumbotron .jumbotron-title {
+    color: #FFFFFF;
+    font-size: 4.5rem;
+    font-weight: 700;
+    margin-bottom: 30px;
+    text-align: center;
+}
+
+#jumbotron .jumbotron-description {
+    color: #FFFFFF;
+    font-size: 1.5rem;
+    font-weight: 100;
+    text-align: center;
+}
+
+#services .section-title {
+    color: #1A1A1A;
+    display: block;
+    margin: 0 auto 50px auto;
+    text-align: center;
+}
+
+#services .section-title span {
+    border-bottom: 3px solid #00B172;
+    padding: 5px 0;
+}
+
+#services .services {
+    align-items: flex-end;
+    display: flex;
+    justify-content: space-evenly;
+    position: relative;
+    text-align: center;
+}
+
+#services .service .service-icon {
+    margin-bottom: 15px;
+    max-width: 40%;
+}
+
+#services .service .service-title {
+    color: #00B172;
+    font-weight: 700;
+    margin-bottom: 20px;
+}
+
+#app {
+    background-color: #00B172;
+    color: #FFFFFF;
+}
+
+#app .container {
+    align-items: center;
+    display: flex;
+    flex-shrink: 1;
+    justify-content: space-evenly;
+}
+
+#app .section-title {
+    color: #FFFFFF;
+    display: block;
+    font-size: 1.7rem;
+    margin-bottom: 75px;
+}
+
+#app .section-title span {
+    border-bottom: 3px solid #FFFFFF;
+    padding: 5px 0;
+}
+
+#app .box {
+    width: 33%;
+}
+
+#app .subtitle {
+    color: #FFFFFF;
+    font-size: 1.4rem;
+    font-weight: 700;
+    margin: 30px 0;
+}
+
+#app p {
+    margin-bottom: 20px;
+}
+
+#app .footer-logo {
+    text-align: center;
+}
+
+#app .spotify-logo-white {
+    max-width: 100px;
+}
+
+#app .app-preview {
+    text-align: center;
+}
+
+#app .spotify-app  {
+    max-width: 300px;
+}
