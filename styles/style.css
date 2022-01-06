@@ -6,3 +6,165 @@ Green: #00B172
 White: #FFF
 
 */
+
+body {
+  font-family: Verdana, Geneva, Tahoma, sans-serif;
+  line-height: 1.5;
+  margin: 0;
+}
+
+h1 {
+  font-size: 4.5rem;
+  margin-bottom: 10px;
+}
+
+h2 {
+  font-size: 1.7rem;
+}
+
+h3 {
+  font-size: 1.5rem;
+  font-weight: bold;
+}
+
+p {
+  font-size: 1.5rem;
+}
+
+/* --- NAVIGATION BAR --- */
+.nav-bar {
+  position: fixed;
+  display: flex;
+  justify-content: space-between;
+  width: 100%;
+  z-index: 1;
+  background-color: white;
+  padding: 20px;
+}
+
+.nav-bar-links {
+  list-style: none;
+  display: flex;
+  align-items: center;
+}
+
+.nav-bar li {
+  padding: 15px;
+  font-size: 1.5rem;
+}
+
+.img-nav {
+  height: 75px;
+  display: inline-block;
+  margin-left: 30px;
+}
+
+/* --- INTRO SECTION --- */
+
+#intro {
+  position: relative;
+  top: 110px;
+  color: white;
+  background-image: url(../images/landing.jpg);
+  background-repeat: no-repeat;
+  background-size: 100%;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  padding: 200px 200px 400px 200px;
+}
+
+#intro p {
+  text-align: center;
+}
+
+/* --- BENEFITS SECTION --- */
+
+#benefits {
+  position: relative;
+  top: 110px;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+  align-items: center;
+  background-color: white;
+  padding-top: 30px;
+}
+
+#benefits h2 {
+  border-bottom: 3px solid #00b172;
+}
+
+.benefits-container {
+  display: flex;
+  justify-content: space-evenly;
+  align-items: start;
+  margin: 50px 70px;
+}
+
+.benefit-box {
+  display: flex;
+  flex-direction: column;
+  justify-content: space-around;
+  align-items: center;
+  padding: 30px 80px;
+  width: 30%;
+}
+
+.benefit-box img {
+  display: inline-block;
+  width: 70px;
+}
+
+.benefit-box h3 {
+  color: #00b172;
+  margin-bottom: 0;
+}
+
+.benefit-box p {
+  text-align: center;
+  padding: 10px;
+}
+
+/* --- SEARCH SECTION --- */
+#search {
+  position: relative;
+  top: 110px;
+  background-color: #00b172;
+  color: white;
+  margin: 30px;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+#search h2 {
+  border-bottom: 3px solid white;
+}
+
+.search-container-list {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: flex-start;
+  width: 50%;
+  padding-left: 80px;
+}
+
+.search-box {
+  width: 60%;
+}
+
+.img-app {
+  width: 300px;
+  display: inline-block;
+  margin-right: 80px;
+}
+
+.img-logo-white {
+  width: 150px;
+  position: absolute;
+  right: 700px;
+  top: 250px;
+}
