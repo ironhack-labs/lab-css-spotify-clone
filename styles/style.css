@@ -6,3 +6,154 @@ Green: #00B172
 White: #FFF
 
 */
+
+@import url("https://fonts.googleapis.com/css?family=Poppins");
+
+html,
+body {
+  font-family: "Poppins";
+  margin: 0;
+  padding: 0;
+}
+
+/* HEADER PART */
+.logo {
+  width: 150px;
+  margin: 0px 0px 0px 20px;
+}
+header {
+  background-image: url("../images/landing.jpg");
+  background-size: cover;
+  background-position: center;
+  padding: 0px 0px 200px 0px;
+}
+header > h1 {
+  padding-top: 200px;
+  font-size: 3em;
+  letter-spacing: 3px;
+  color: white;
+  text-align: center;
+}
+header > article {
+  padding-top: 30px;
+  font-size: 1em;
+  color: white;
+  width: 50%;
+  text-align: center;
+  margin: 0 auto;
+}
+header > div {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  border-bottom: 1px solid lightgray;
+  width: 100%;
+  position: fixed;
+  background-color: white;
+  top: 0px;
+  padding: 5px 0px 5px 0px;
+}
+
+nav {
+  width: 400px;
+  padding-right: 50px;
+}
+
+nav ul {
+  list-style: none;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+nav a {
+  text-decoration: none;
+  color: black;
+}
+
+/* FIRST SECTION */
+#first-section {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+#container {
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+}
+@media (max-width: 800px) {
+  #container {
+    flex-direction: column;
+  }
+}
+#container div {
+  width: 260px;
+  margin: 0px 10px 0px 10px;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+.img-container {
+  height: 70px;
+}
+.container-pic {
+  width: 80px;
+}
+h3 {
+  color: #00b172;
+}
+.firstsec-p {
+  width: 190px;
+  text-align: center;
+  font-size: 0.9em;
+  color: #1a1a1a;
+}
+
+/* SECOND SECTION */
+#second-section {
+  margin: 0px 20px 0px 20px;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  background-color: #00b172;
+}
+@media (max-width: 800px) {
+  #second-section {
+    margin: 0;
+  }
+}
+#second-section > article {
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+}
+@media (max-width: 800px) {
+  #second-section > article {
+    flex-direction: column;
+  }
+}
+#app {
+  width: 230px;
+  float: right;
+  margin-right: 50px;
+}
+h4 {
+  width: 369px;
+  letter-spacing: 3px;
+  font-size: 1.3em;
+  color: white;
+  border-bottom: 3px solid white;
+}
+h5 {
+  font-size: 1.1em;
+  color: white;
+}
+#second-section article > div {
+  color: white;
+  width: 400px;
+}
+#second-section article div p {
+  width: 260px;
+  font-size: 0.9em;
+}
