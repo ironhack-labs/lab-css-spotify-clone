@@ -13,7 +13,7 @@ White: #FFF
 }
 
 body {
-    font-family: sans-serif;
+    font-family: Helvetica, sans-serif;
 }
 
 header {
@@ -25,6 +25,8 @@ header {
     justify-content: center;
     align-content: center;
     flex-direction: row;
+    z-index: 5;
+    background-color:  white;
 }
 
 header img {
@@ -58,21 +60,136 @@ nav ul li {
     justify-content: center;
 }
 
-.section_container {
-    display:flex;
-    margin-top: 70px;
-    background-color: red;
-    flex-flow: column wrap;
+.section_one {
+    position: relative;
+    text-align: center;
+    color: white;
+    width: auto;
+    height: 500px;
+}
 
+.section_one img{
+    width: 100%;
+    height: 500px;
+    margin-top: 70px;
+    object-fit: cover;
+    position: relative;
+}
+
+.centered {
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+}
+
+.section_one p {
+    padding-top: 40px;
+    font-weight: lighter;
+    line-height: 32px;
+    font-size: 1.3em;
 }
 
 h1 {
-background: url("../images/landing.jpg") center no-repeat;
-background-size: cover;
-font-weight: normal;
-font-size: 300%;
-color: white;
-text-align: center;
-padding: 250px;
+    font-size: 2.8em;
+    margin-top: 25%;
+    font-weight: normal;
 }
 
+.section_two {
+    position: relative;
+    text-align: center;
+    color: black;
+    width: auto;
+    height: 250px;
+    margin-top: 130px;
+    margin-bottom: 80px;
+}
+
+h2 {
+    font-style: normal;
+    margin-bottom: 40px;
+}
+
+.services {
+    display: flex;
+    flex-flow: row wrap;
+}
+
+.services img {
+    width: 80px;
+    height: 70px;
+    margin-top: 20px;
+}
+
+article div {
+    margin: auto;
+    width: 30%;
+}
+
+div p:last-child {
+    padding-top: 16px;
+}
+
+div h3:nth-child(2) {
+padding-top: 16px;
+color: #1cb16a;
+}
+
+.section_three {
+display: flex;
+flex-flow: column wrap;
+position: relative;
+color: black;
+width: auto;
+height: 600px;  
+background-color: #1cb16a;
+padding-top: 50px;
+padding-left: 50px;
+}
+
+.section_three h2 {
+padding: 40px 0 20px 40px;
+color: white;
+text-decoration: underline;
+font-weight: 600;
+justify-content: flex-end;
+margin-bottom: 0px;
+width: auto;
+}
+
+.section_three h3 {
+    display: flex;
+    justify-content: left;
+    color:white;
+    padding-top: 24px;
+    padding-left: 40px;
+    font-weight: 400;
+    width: 40%;
+    margin-top: 20px;
+}
+
+.section_three p {
+    padding-left: 40px;
+    width: 20%;
+    color: white;
+    line-height: 1.5em;
+    padding-top: 24px;
+    font-weight: lighter;
+}
+
+.logo {
+    display: flex;
+    justify-content: center;
+    width: 100px;
+    height: auto;
+    margin-top: 20%;
+    margin-left: -120px;
+}
+
+.spotify-app {
+    justify-content: center;
+    margin-top: 100px;
+    width: 20%;
+    height: auto;
+}
