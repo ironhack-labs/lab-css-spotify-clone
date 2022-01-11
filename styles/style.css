@@ -6,3 +6,167 @@ Green: #00B172
 White: #FFF
 
 */
+*{
+    padding: 0;
+    margin: 0;
+}
+
+img{
+    width: 100%;
+}
+
+a {
+    text-decoration: none;
+    color: #1A1A1A;
+}
+
+body{
+    font-family: sans-serif, 'Gill Sans', 'Gill Sans MT', 'Calibri', 'Trebuchet MS';
+}
+
+.flex {
+    display: flex;
+}
+
+.fixed {
+    position: fixed;
+    width: 100%;
+    background-color: #fff;
+    padding: 20px;
+}
+
+#hero {
+    background: #fff url("../images/landing.jpg") no-repeat center;
+    width: 100%;
+    height: 100vh;
+    background-size: cover;
+    padding-top: 100px;
+    background-attachment: fixed;
+}
+
+#logo {
+    width: 200px;
+}
+
+nav ul {
+    list-style: none;
+    margin-bottom: 0;
+    align-items: center;
+}
+
+nav {
+    padding-right: 20px;
+}
+
+nav ul li {
+    margin-right: 10px;
+}
+
+h1 {
+    font-size: 4em;
+    font-weight: 400;
+    margin-bottom: 20px;
+}
+
+#hero p{
+    font-size: 1.5em;
+    font-weight: 100;
+}
+
+h1, #hero p{
+    color: #fff;
+    text-align: center;
+}
+
+h2 {
+    font-size: 2em;
+}
+
+section:nth-child(3){
+    padding: 50px;
+}
+
+h2:nth-child(1){
+    text-align: center;
+    margin-bottom: 40px;
+}
+
+
+#banner {
+    margin: 50px 0;
+}
+
+#banner h3{
+    color: #00B172;
+    margin: 30px 0;
+    font-size: 1.5em;
+}
+
+#banner .images {
+    width: 150px;
+}
+
+.space-around{
+    justify-content: space-around;
+    align-items: center;
+}
+
+#banner figure {
+    width: 18%;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+
+#banner h3, #banner p {
+    text-align: center;
+}
+
+.width40{
+    width: 40%;
+}
+
+.center {
+    justify-content: center;
+    align-items: center;
+}
+
+.justify-content-between {
+    justify-content:space-between;
+}
+
+#music img {
+    width: 65%;
+}
+
+#music article:nth-child(1) figure{
+    width: 52%;
+}
+
+#music article:nth-child(2){
+    text-align: center;
+}
+
+#music {
+    display: flex;
+    justify-content: center;
+    background-color: #00B172;
+    padding: 40px 0;
+}
+
+#music h3 {
+color: #fff;
+margin-bottom: 10px;
+}
+
+#music h2 {
+    padding-bottom: 20px;
+    text-decoration:underline #0000;
+}
+
+#music article {
+        width: 32%;
+
+}

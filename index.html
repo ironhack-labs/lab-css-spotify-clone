@@ -5,14 +5,15 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <meta http-equiv="X-UA-Compatible" content="ie=edge" />
     <title>Spotify Clone</title>
-    <!-- don't forget to link your styles -->
-  </head>
+    <link rel="stylesheet" href="./styles/style.css">  
+</head>
+
   <body>
     <main>
-      <section>
-        <img src="./images/spotify-logo.png" alt="Spotify logo">
-        <nav>
-          <ul>
+      <section class="flex justify-content-between fixed ">
+        <img id="logo" src="./images/spotify-logo.png" alt="Spotify logo">
+        <nav class="flex">
+          <ul class="flex">
             <li><a href="#">Premium</a></li>
             <li><a href="#">Discover</a></li>
             <li><a href="#">Help</a></li>
@@ -20,16 +21,23 @@
           </ul>
         </nav>
       </section>
-      <section>
-        <h1>Music for everyone.</h1>
-        <p>Spotify is now free on mobile, tablet and computer. Listen to the
-    right music, wherever you are.</p>
+
+      <!-- Hero section -->
+      <section id="hero" class="flex center">
+        <figure class="width40">
+          <h1>Music for everyone.</h1>
+          <p>Spotify is now free on mobile, tablet and computer. Listen to the right music, wherever you are.</p>
+        </figure>
       </section>
-      <section>
+
+      <!-- What's on section -->
+      <section id="banner">
         <h2>What’s on Spotify?</h2>
-        <article>
+        <article class="flex space-around">
           <figure>
-            <img src="./images/music-icon.png" alt="Millions of songs">
+            <div class="images">
+              <img src="./images/music-icon.png" alt="Millions of songs">
+            </div>
               <figcaption>
                 <h3>Millions of Songs</h3>
                 <p>There are millions of songs on Spotify</p>
@@ -37,7 +45,9 @@
             </img>
           </figure>
           <figure>
-            <img src="./images/high-quality-icon.png" alt="HD Music">
+            <div class="images">
+              <img src="./images/high-quality-icon.png" alt="HD Music">
+            </div>
               <figcaption>
                 <h3>HD Music</h3>
                 <p>Listen to music as if you were listening live</p>
@@ -45,7 +55,9 @@
             </img>
           </figure>
           <figure>
-            <img src="./images/devices-icon.png" alt="Stream everywhere">
+            <div class="images">
+              <img src="./images/devices-icon.png" alt="Stream everywhere">
+            </div>
               <figcaption>
                 <h3>Stream everywhere</h3>
                 <p>Stream music on your smartphone, tablet or computer</p>
@@ -53,7 +65,10 @@
             </img>
           </figure>
         </article>
-        <section>
+      </section>
+
+      <!-- Music section -->
+      <section id="music">
           <article>
             <h2>It’s as yeezy as Kanye West.</h2>
             <figure>
@@ -72,8 +87,8 @@
           <article>
             <img src="./images/spotify-app.jpg" alt="Spotify App">
           </article>
-        </section>
       </section>
+
     </main>
   </body>
 </html>
