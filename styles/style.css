@@ -6,3 +6,95 @@ Green: #00B172
 White: #FFF
 
 */
+*{
+    margin: 0;
+    padding:0;
+    font-family: sans-serif;
+}
+
+
+.menu-logo{
+    width: 120px;
+    height: 35px;
+}
+
+.bar-menu{
+    height: 50px;
+    background-color: white;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    padding: 0 20px;
+    align-items: center;
+}
+
+.menu{
+    list-style-type: none;
+    display: flex;
+    color:black;
+}
+
+.menu a{
+    text-decoration: none;
+    /* border: 1px solid white; ---->para ver las cajas */
+    margin-right:5px;
+
+}
+
+.front{
+    background-image: url("../images/landing.jpg");
+    background-size: 100%;
+    height: 600px;
+    display: flex;
+    text-align: center;
+    color: white;
+    flex-direction: column;
+    justify-content: center;
+}
+
+
+.front p{
+margin-top: 20px;
+
+}
+
+.front h1{
+font-size:3em;
+}
+
+
+.what{
+    border-bottom: 2px solid #00B172; 
+    /* convierte elemento bloque en elemento linea */
+}   
+
+.whatcontainer{
+    display: flex;
+    justify-content: center;
+    margin-top: 13px;
+}
+
+.descriptioncontainer{
+    justify-content: space-around;
+    display: flex;
+    flex-direction: row;
+    margin-top: 50px;
+    text-align: center;
+    }
+
+    .descriptioncontainer > div{
+        width: 190px;
+
+    }
+    .descriptioncontainer div p{
+        margin-top: 10px;
+    }
+
+    .descriptioncontainer div h3{
+        color:#00B172 ;
+        
+    }
+
+    .descriptioncontainer div img{
+        width: 30%;
+    }
