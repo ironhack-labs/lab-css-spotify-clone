@@ -1,8 +1,86 @@
-/*
-Colors:
+* {
+  margin: 0;
+  padding: 0;
+  font-family: sans-serif;
+}
 
-Text: 1A1A1A
-Green: #00B172
-White: #FFF
+html,
+body {
+  height: 100%;
+}
 
-*/
+img {
+  width: 100%;
+}
+
+nav {
+  display: flex;
+  justify-content: space-between;
+
+  background-color: white;
+}
+
+.menunav {
+  display: flex;
+  width: 35%;
+  justify-content: flex-end;
+  padding-right: 20px;
+}
+
+ul {
+  display: flex;
+  align-items: center;
+  list-style: none;
+  justify-content: space-between;
+  width: 70%;
+}
+
+a {
+  text-decoration: none;
+}
+
+.logo {
+  width: 10%;
+  padding: 15px;
+}
+
+.imageprinciple {
+  background-image: url("../images/landing.jpg");
+  background-size: cover;
+  background-position: center;
+  height: 100%;
+  padding: 200px;
+  text-align: center;
+}
+
+.imageprinciple h1 {
+  color: white;
+  font-size: 3em;
+  margin-bottom: 30px;
+}
+.imageprinciple p {
+  color: white;
+}
+
+.section2 h2 {
+  padding: 40px 200px;
+  text-align: center;
+}
+
+.icons {
+  display: flex;
+  align-items: center;
+  justify-content: space-evenly;
+}
+
+.icons article {
+  display: flex;
+  flex-direction: column;
+  width: 15%;
+}
+
+article h3 {
+  color: #12be82;
+  padding-top: 15px;
+  padding-bottom: 15px;
+}
