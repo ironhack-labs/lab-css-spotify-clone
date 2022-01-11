@@ -6,3 +6,133 @@ Green: #00B172
 White: #FFF
 
 */
+* {
+    margin: 0;
+    padding: 0;
+}
+
+img {
+    width: 100%;
+}
+
+body {
+    font-family: sans-serif;
+}
+
+.menu {
+    display: flex;
+    justify-content: space-between;
+    padding: 10px 20px;
+    align-items: center;
+}
+
+.menu img {
+    width: 200px;
+}
+
+.menu ul {
+    display: flex;
+    list-style: none;
+}
+
+.menu li {
+    margin-left: 20px;   
+}
+
+.menu li a {
+    text-decoration: none;
+    font-size: 1.2em;
+    color: #1A1A1A;
+}
+
+
+.hero {
+    background: url(../images/landing.jpg) no-repeat;
+    background-size: cover;
+}
+
+.hero article {
+    padding: 400px;
+    text-align: center;
+}
+
+.hero h1 {
+    font-size: 4em; 
+    color: white;
+    padding-bottom: 20px;
+}
+
+.hero p {
+    font-size: 1.5em;
+    color: white;
+}
+
+.whats-on {
+    margin-bottom: 100px;
+}
+
+.whats-on h2 {
+    text-align: center;
+    text-decoration: underline;
+    text-decoration-color: #00B172;
+    padding-top: 40px;
+    padding-bottom: 60px;
+    font-size: 2em;
+}
+
+.whats-on div {
+    display: flex;
+    justify-content: space-evenly;
+    align-items: center;
+    padding-left: 40px;
+}
+
+.whats-on article {
+    text-align: center;
+    width: 20%;
+}
+
+.whats-on img {
+    width: 100px;
+    padding-bottom: 20px;
+}
+
+.whats-on h3 {
+    color: #00B172;
+    font-size: 1.8em;
+    font-weight: bold;
+    padding-bottom: 20px;
+}
+
+.whats-on p {
+    font-size: 1.3em;
+}
+
+.kanye {
+    width: 90%;
+    background: url(../images/spotify-icon-white.png) no-repeat center;
+    background-size: 20%;
+    background-color: #00B172;
+}
+
+.kanye>div {
+    display: flex;
+    justify-content: space-evenly;
+    align-items: center;
+}
+
+.kanye div article{
+    display: flex;
+    flex-direction: column;
+    width: 30%;
+}
+
+.kanye div h3 {
+    color: white;
+    font-size: 1.4em;
+    padding-bottom: 10px;
+}
+
+.kanye img {
+    width: 300px;
+}
