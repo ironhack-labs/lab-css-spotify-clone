@@ -1,8 +1,158 @@
-/*
-Colors:
 
-Text: 1A1A1A
-Green: #00B172
-White: #FFF
+* {
+    font-family:'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif
+}
 
-*/
+.spotifylogo {
+    height: 50px;
+}
+
+
+nav ul {
+    list-style: none;
+    font-size: 20px;
+    font-weight: lighter;
+    margin-top: 15px;
+    padding-right: 10px;
+
+}
+
+nav li {
+    display: inline;
+    padding: 5px 10px 5px 10px;
+}
+
+nav {
+    background-color: white;
+    width: 100%;
+    position: fixed;
+    display: flex;
+    justify-content: space-between;
+    padding-top: 10px;
+}
+
+.firstSection {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-image: url("../images/landing.jpg");
+    background-size: 100%;
+    background-repeat: no-repeat;
+    height: 800px;
+}
+
+.firstSection div{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    color: white;
+    text-align: center;
+}
+.firstSection h1{
+    font-size: 100px;
+    margin: 0px 0px 30px 0px;
+    font-weight: lighter;
+}
+
+.firstSection article {
+    font-size: 25px;
+    font-weight: lighter;
+    width: 450px;
+}
+
+.middleSectionIcons {
+    display: flex;
+    justify-content: space-around;
+    width: 1050px;
+}
+
+.secondSection {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    margin-bottom: 100px;
+    margin-top: 50px;
+}
+
+.secondSection h2 {
+    font-weight: light;
+}
+
+.secondSection hr{
+    background-color: #00B172;
+    height: 1px;
+    width: 150px;
+    margin-top: 0;
+    margin-bottom: 60px;
+}
+
+
+.middleSectionIcons img {
+    height: 70px;
+
+}
+
+.middleSectionIcons h4 {
+    color: #00B172;
+}
+
+.middleSectionIcons article {
+    font-weight: lighter;
+    width: 150px;
+}
+
+.middleSectionIcons div {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    padding: 0px 20px 0px 20px
+}
+
+
+.thirdSection {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    background-color: #00B172;
+
+}
+
+.thirdSection div {
+    color: white;
+    width: 300px;
+    margin-left: 70px;
+}
+
+.thirdSection {
+
+}
+
+.logoWhite{
+    height: 100px;
+}
+
+.appImage {
+    height: 500px;
+    margin: 60px 60px 60px 60px;
+}
+
+.thirdSection div h3 {
+    font-size: 40px;
+    font-weight: lighter;
+    width: 650px;
+    margin-bottom: 3px;
+}
+
+.thirdSection hr{
+    width: 430px;
+    margin-top: 0;
+
+}
+
+.thirdSection p {
+    font-weight: lighter;
+}
+
+.thirdSection h4 {
+    font-size: 25px;
+}
