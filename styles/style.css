@@ -6,3 +6,119 @@ Green: #00B172
 White: #FFF
 
 */
+:root {
+    font-family: Arial, Helvetica, sans-serif ;
+}
+
+body {
+    margin: 0;
+}
+
+header {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    margin: 20px 40px;
+    align-items: center;
+}
+
+#logo {
+    height: 55px;
+}
+
+.navigation-menu {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    padding: 10px;
+    margin: 10px;
+    font-size: 16px;
+}
+
+.navigation-menu li {
+    margin-left: 16px;
+}
+
+.first-section {
+    color: #fff;
+    position: relative;
+}
+
+.first-section img {
+    width: 100%;
+}
+
+.first-section .content {
+    position: absolute;
+    left: 0;
+    right: 0;
+    top: 0;
+    bottom: 0;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+.first-section .content h1 {
+    font-size: 4rem;
+    margin: 0;
+}
+
+.section2 img{
+    width: 80px;
+    height: 80px;
+}
+
+.section2-flex {
+    display: flex;
+    flex-direction: row;
+    align-items: baseline;
+    justify-content: space-around;
+}
+
+.section3-flex {
+    display: flex;
+    /* background-color: #00B172; */
+    padding: 40px;
+    align-items: stretch;
+    background: #00B172 url('../images/spotify-icon-white.png')  no-repeat center;
+    background-size: 80px;
+}
+
+.section3-flex article {
+    min-width: 0;
+}
+
+.section3-flex article:first-child {
+    width: 100%;
+}
+
+.section3-flex article:last-child {
+    width: 40%;
+}
+
+.section3-flex article img {
+    width: 100%;
+}
+
+h2 {
+    text-align: center;
+}
+
+ul {
+    list-style-type: none;
+}
+
+.section2 h4{
+    color:#00B172;
+}
+
+.section2 h2 {
+    text-decoration: underline;
+    text-decoration-color:#00B172;
+}
+.section3 .section3-flex h3{
+    text-decoration: underline;
+    text-decoration-color: white;
+}
