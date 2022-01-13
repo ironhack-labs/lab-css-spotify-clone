@@ -6,3 +6,166 @@ Green: #00B172
 White: #FFF
 
 */
+
+* {
+  margin: 0;
+  text-decoration: none;
+  color: 1A1A1A;
+  font-family: sans-serif;
+}
+
+section:nth-child(1) {
+
+}
+
+header {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  height: 80px;
+  width: 100vw;
+  position: fixed;
+  background-color: #fff;
+}
+
+#spotifyLogo {
+  max-height: 80%;
+  padding: 15px;
+}
+
+nav {
+  margin: 0 20px;
+}
+
+nav a {
+  padding: 0 10px;
+  font-size: 18px;
+  color: #1A1A1A;
+}
+
+#banner {
+  background-image: url(../images/landing.jpg);
+  background-position: center;
+  background-size: cover;
+  height: 1000px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+}
+
+h1 {
+  font-size: 100px;
+  color: #fff;
+  padding: 20px;
+  /* margin: 0 auto; */
+
+}
+
+p {
+  /* font-size: 20px; */
+}
+
+#banner p {
+  color: #fff;
+  text-align: center;
+  font-size: 25px;
+  font-weight: 100;
+}
+
+
+section:nth-child(2) {
+ padding: 20px;
+ margin: 50px 0;
+}
+
+h2 {
+  text-align: center;
+  margin: 20px;
+  font-size: 35px;
+
+}
+
+#features {
+  display: flex;
+  justify-content: space-around;
+margin: 40px 0;
+}
+
+.smallLogos {
+  height: 150px;
+  /* width: 150px; */
+  margin: auto;
+}
+
+.cards {
+  display: flex;
+  flex-direction: column;
+  margin: 30px;
+  width: 30%;
+}
+
+h3 {
+  color: #00B172;
+  margin: 10px;
+  text-align: center;
+}
+
+#features p {
+  text-align: center;
+}
+
+section:nth-child(3) {
+  background-color: #00B172;
+  color: #fff;
+  margin: 0 2vw;
+  padding: 40px;
+}
+
+section:nth-child(3) h2 {
+  text-align: left;
+  padding: 20px 30px;
+  margin: 0 30px;
+}
+
+#description {
+display: flex;
+flex-direction: column;
+justify-content: space-around;
+padding: 0 30px;
+margin: 0 30px;
+width: 25%;
+}
+
+#description p {
+  line-height: 30px;
+}
+
+#bottomSection {
+  display: flex;
+}
+
+#spotifyLogoWhite {
+  height: 150px;
+  margin: auto;
+}
+
+h4 {
+  font-size: 25px;
+  margin: 30px 0 0;
+}
+
+span {
+  border-bottom: 4px solid #00B172;
+  padding: 5px;
+}
+
+section:nth-of-type(3) span {
+  border-bottom: 4px solid #fff;
+}
+
+
+#spotifyApp {
+  height: 600px;
+  margin: 20px;
+}
