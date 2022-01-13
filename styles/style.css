@@ -1,3 +1,5 @@
+@import url('https://fonts.googleapis.com/css2?family=Be+Vietnam+Pro:ital,wght@0,100;0,400;0,900;1,100;1,900&display=swap');
+
 /*
 Colors:
 
@@ -6,3 +8,156 @@ Green: #00B172
 White: #FFF
 
 */
+
+body {
+    padding: 0;
+    margin: 0;
+    font-family: 'Be Vietnam Pro', sans-serif;
+}
+
+nav {
+    height: 60px;
+    display: flex;
+    justify-content: space-between;
+    padding: 20px;
+
+
+}
+
+ul {
+    display: flex;
+    list-style: none;
+    
+    
+    
+
+}
+
+li {
+    padding: 8px;
+}
+
+a {
+    color: black;
+    text-decoration: none;
+
+}
+
+header {
+    background-image: url(../images/landing.jpg);
+    background-position: 0 0;
+    background-size: cover;
+    background-color: aquamarine;
+    height: 500px;
+    color: white;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    width: 100%;
+
+}
+
+header p {
+    text-align: center;
+}
+
+/* Class */
+
+.section1 {
+    display: flex;
+    text-align: center;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    
+
+}
+
+.section1Container {
+    display: flex;
+    justify-content: space-around;
+    text-align: center;
+    
+
+}
+
+.icons {
+    height: 60px;
+}
+
+.section1Container div{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    width: 30%;
+}
+
+.section1Container h4{
+    color: #2bc58f ;
+}  
+
+.underline h2 {
+    margin-bottom: 0;
+    
+    
+}
+
+.underline {
+    border-bottom: 6px #2bc58f solid;
+    width: fit-content;
+    height: fit-content;
+    margin-bottom: 50px;
+    
+}
+
+.section2 {
+    background-color: #1ab16a;
+    display: flex;
+    justify-content: space-around;
+    color: white;
+    
+    padding: 20px;
+}
+
+.logoWhite {
+    height: 100px;
+    position: absolute;
+    justify-self: center;
+    align-self: center;
+}
+
+.app {
+    height: 600px;
+}
+
+.section2 img {
+    padding: 50px;
+}
+
+.section2 h3 {
+    margin-bottom: 0;
+    font-size: 2.5em;
+    
+}
+
+.section2 .underline {
+    border-color: white;
+    justify-self: stretch;
+}
+
+.info {
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+
+}
+
+.test {
+    width: 50%;
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+    
+}
