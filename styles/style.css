@@ -6,3 +6,172 @@ Green: #00B172
 White: #FFF
 
 */
+* {
+  margin: 0;
+  padding: 0;
+}
+html {
+  font-size: 16px;
+}
+h1 {
+  font-size: 5rem;
+}
+h2 {
+  font-size: 2rem;
+}
+
+h3 {
+  font-size: 1.8rem;
+}
+p {
+  font-size: 1.5rem;
+}
+
+.logo {
+  width: 10%;
+}
+
+.nav-bar {
+  width: 100%;
+  display: flex;
+  justify-content: space-between;
+  padding: 1%;
+  position: fixed;
+  background-color: white;
+}
+
+.nav-bar ul {
+  display: flex;
+  justify-content: space-evenly;
+  align-items: center;
+  width: 30%;
+}
+.nav-bar ul li {
+  list-style: none;
+}
+
+#intro {
+  height: 950px;
+  background-image: url("../images/landing.jpg");
+  background-position: center;
+  background-size: cover;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  color: #fff;
+}
+
+#intro div {
+  text-align: center;
+}
+
+#intro div h1 {
+  line-height: 2;
+}
+
+#info {
+  height: 450px;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-around;
+  align-items: center;
+}
+
+#info .container {
+  display: flex;
+  justify-content: space-evenly;
+  align-items: center;
+  height: 60%;
+  width: 90%;
+}
+
+#info .container .icon {
+  width: 20%;
+}
+
+#info .container > div {
+  display: flex;
+  flex-direction: column;
+  justify-content: space-evenly;
+  align-items: center;
+  height: 100%;
+  width: calc(100% / 3);
+  text-align: center;
+}
+#info .container div p {
+  width: 50%;
+}
+#info h2 {
+  padding-bottom: 5px;
+  border-bottom: 4px solid #00b172;
+}
+
+#info h3 {
+  color: #00b172;
+}
+
+#info p {
+  color: #1a1a1a;
+}
+
+#instructions {
+  height: 700px;
+  display: flex;
+  color: white;
+}
+#instructions .green-bg > div > div {
+  display: flex;
+  flex-direction: column;
+  justify-content: space-evenly;
+  align-items: center;
+}
+#instructions .green-bg > div {
+  width: 100%;
+}
+#instructions .green-bg div .text-container {
+  height: 100%;
+}
+#instructions .green-bg div .text-container h2 {
+  border-bottom: 3px solid white;
+  margin-bottom: 5%;
+}
+#instructions .green-bg div .text-container h3 {
+  padding-bottom: 5%;
+}
+#instructions .green-bg div .text-container p {
+  padding-bottom: 5%;
+}
+#instructions .green-bg .text-container > div {
+  height: 100%;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-evenly;
+}
+#instructions .green-bg {
+  background-color: #00b172;
+  width: 90%;
+  height: 90%;
+  margin: auto;
+  display: flex;
+  justify-content: center;
+}
+#instructions .green-bg > div {
+  background-color: #00b172;
+  width: 80%;
+  margin: auto;
+  display: flex;
+  height: 90%;
+  justify-content: center;
+  /* align-items: flex-start; */
+}
+
+#instructions .container-div {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 100%;
+}
+
+#instructions .container-div img {
+  width: 30%;
+}
