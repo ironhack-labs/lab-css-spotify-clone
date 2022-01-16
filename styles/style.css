@@ -1,8 +1,144 @@
 /*
-Colors:
 
 Text: 1A1A1A
 Green: #00B172
 White: #FFF
 
 */
+
+@import url('http://fonts.cdnfonts.com/css/gotham?styles=17583,17585,17588,17591,17592');
+                
+
+html,
+body {
+  font-family: "Gotham Light", sans-serif;
+  font-size: 14px;
+  height: 100%;
+  margin: 0;
+  padding: 0;
+}
+
+header > div {
+  padding: 0 25px;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  border-bottom: 1px solid lightgray;
+}
+
+nav {
+  width: 600px;
+}
+
+nav ul {
+  list-style: none;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  width: 400px;
+}
+
+nav a {
+  text-decoration: none;
+  color: #1a1a1a;
+  font-size: 1.2em;
+  font-weight: lighter;
+}
+
+.logo {
+  min-width: 20px;
+  max-width: 20%;
+  margin-top: 1em;
+  margin-bottom: 1em;
+  margin-right: 1em;
+}
+
+.landing {
+  background-image: url(/images/landing.jpg);
+  background-repeat: no-repeat;
+  background-size: cover;
+  height: 100%;
+  width: 100%;
+  text-align: center;
+  margin: none;
+  color: white;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  font-size: 2.5em;
+  font-stretch: semi-expanded;
+}
+
+h1 {
+  font-weight: 500;
+  font-size: 2em;
+  text-align: center;
+}
+
+h2 {
+  color: black;
+  text-decoration: #00b172;
+  text-decoration-line: underline;
+  font-size: 2.5em;
+  font-stretch: semi-expanded;
+  text-align: center;
+}
+
+h3 {
+  color: #00b172;
+  text-decoration: none;
+  text-align: center;
+}
+
+h4 {
+  font-weight: 700;
+}
+
+.green_container h3 {
+  color: white;
+  text-decoration: underline;
+  text-align: left;
+  font-size: 1.7em;
+}
+
+.feature-container {
+  display: flex;
+  flex-direction: row;
+  align-items: left;
+  justify-content: space-evenly;
+  margin-top: 100px;
+  margin-bottom: 75px;
+  font-size: 1.5em;
+  font-weight: 300;
+}
+
+.feature-item {
+  margin: 10px;
+  align-items: center;
+  text-align: center;
+  width: 250px;
+}
+
+.feature-img {
+  width: 100px;
+}
+
+.green_container {
+  background-color: #00b172;
+  margin: 3em;
+  color: white;
+  font-size: 1.5em;
+  display: flex;
+  flex-direction: row;
+  justify-content: space-around;
+}
+
+.green_container > div {
+  max-width: 300px;
+  padding: 1em;
+}
+
+.app_pic {
+  height: 600px;
+}
+
