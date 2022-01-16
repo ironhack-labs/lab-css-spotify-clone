@@ -6,3 +6,146 @@ Green: #00B172
 White: #FFF
 
 */
+
+@import url('https://fonts.googleapis.com/css2?family=Poppins&display=swap');
+
+html, body{
+    padding: 0px 20px;
+    margin: 0;
+    font-family: 'Poppins', sans-serif;
+    position: relative;
+}
+
+header{
+    display: flex;
+    justify-content: space-between;
+    padding: 10px 0px;
+    position: fixed;
+    background-color: white;
+    width: 100%;
+}
+
+.first-part{
+    /* display: flex;
+    flex-direction: column;
+    height: 700px; */
+}
+
+nav{
+    background-color: white; 
+    width: 450px;
+    margin-right: 90px;
+}
+
+.spotify-logo{
+    width: 150px;
+    height: 45px;
+    margin-left: 30px;
+    padding-top: 5px;
+}
+
+.nav-links{
+    display: flex;
+    list-style: none;
+    justify-content: space-around; 
+}
+
+.nav-links li a{
+    text-decoration: none;
+    color: black
+}
+
+.landing-img{
+    background-image: url(../images/landing.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+.cover-img-section{
+    display: flex;
+    flex-direction: column;
+    color: white;
+    justify-content: center;
+    align-items: center;
+    height: 700px;
+}
+
+.cover-img-section h1{
+    font-size: 70px;
+    margin-bottom: 0px;
+}
+
+.cover-img-section p{
+    font-size: 20px;
+    width: 43%;
+    text-align: center;
+}
+
+.whats-on-spotify h2{
+    text-align: center;  
+    margin-top: 60px;
+}
+
+.three-items{
+    display: flex;
+    justify-content: space-around;
+    margin: 60px 0px;
+}
+
+.img-icons{
+    width: 90x;
+    height: 90px;
+}
+
+.feature-boxes{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    flex: 1;
+    text-align: center;
+}
+
+.feature-boxes h3{
+    color: #1ab16a;
+}
+
+.feature-boxes p{
+    font-size: 15px;
+    width: 70%;
+}
+
+.kanye-west{
+    background-color: #1ab16a;
+    position: relative;
+    color: white;
+    height: 600px;
+    display: flex;
+}
+
+.spotify-icon{
+    width: 120px;
+    height: 120px;
+    position: absolute;
+    top: 45%;
+    left: 45%;
+}
+
+.spotify-app-img{
+    width: 300px;
+    height: 500px;
+    margin-top: 50px;
+}
+
+.kanye-west-inner-div{
+    display: flex;
+    flex-direction: column;
+    margin: 40px 70px;
+}
+
+.actions-box{
+    flex: 1;
+}
+
+.actions-box p{
+    width: 40%;
+}
