@@ -105,5 +105,45 @@ header {
 
 .kanyeBox {
     background-color: #00B172;
-    color:white
+    color:white;
+    height: 1100px;
+    margin: 30px 60px 60px;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: center;
+    background-image: url("../images/spotify-icon-white.png");
+    background-position: center;
+    background-size: 200px auto;
+    background-repeat: no-repeat;
+}
+
+.appImg {
+    height: 800px;
+    margin-right: 160px;
+}
+
+.kanyeText {
+    width: 40%;
+    margin-left: 160px;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-evenly;
+    height: 85%;
+}
+
+.kanyeText > h1 {
+    text-decoration: underline;
+    text-underline-offset: 17px;
+    text-decoration-thickness: 5px;
+    font-size: 50px;
+}
+
+.kanyeText > h2 {
+    font-size: 40px;
+}
+
+.kanyeText > p {
+    font-size: 35px;
+    width: 70%;
 }
