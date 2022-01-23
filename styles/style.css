@@ -6,3 +6,160 @@ Green: #00B172
 White: #FFF
 
 */
+
+body {
+  margin-left: 0;
+  margin-right: 0;
+  font-family: "Open Sans", sans-serif;
+}
+
+nav {
+  position: fixed;
+  right: 0;
+  left: 0;
+  top: 0;
+  display: flex;
+  justify-content: space-between;
+  flex-wrap: nowrap;
+  padding: 15px 50px;
+  background-color: white;
+}
+
+.nav-menu li {
+  display: inline-block;
+  list-style: none;
+  margin-left: 15px;
+}
+
+.nav-menu li a {
+  text-decoration: none;
+  color: black;
+  font-weight: 500;
+  font-size: 1.1em;
+}
+
+.logo {
+  height: 50px;
+}
+
+.landing {
+  background-image: url("../images/landing.jpg");
+  background-position: center;
+  background-size: cover;
+  height: 1000px;
+  width: auto;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+  color: white;
+}
+
+.landing h1 {
+  font-size: 4.8em;
+  margin-bottom: 30px;
+}
+
+.landing p {
+  margin: 0;
+  font-size: 1.7em;
+}
+
+.features {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  height: 450px;
+}
+
+.section-title {
+  font-family: 1.6em;
+  padding-bottom: 5px;
+  border-bottom: 3px solid #00b172;
+  width: fit-content;
+}
+
+.section-title-white {
+  color: white;
+  border-color: white;
+}
+
+.features .items {
+  margin-top: 40px;
+  display: flex;
+  justify-content: space-evenly;
+  align-items: center;
+}
+
+.item {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+  margin-left: 60px;
+  margin-right: 60px;
+  width: 33.33%;
+}
+
+.item > img {
+  width: auto;
+  height: 80px;
+}
+
+.item > h3 {
+  font-size: 1.3em;
+  color: #00b172;
+  font-weight: bold;
+}
+
+.item > p {
+  margin-top: 0;
+}
+
+.app {
+  background-color: #00b172;
+  margin: 20px 80px;
+  display: flex;
+  justify-content: space-around;
+  padding: 50px 150px;
+}
+
+.app img {
+  margin-top: 50px;
+  width: 350px;
+  height: auto;
+}
+
+.app-features {
+  display: flex;
+  flex-direction: column;
+}
+
+.app-features > .section-title {
+  font-size: 2em;
+}
+
+.app-features h3 {
+  font-size: 1.5em;
+}
+
+.app-features p {
+  font-size: 1.2em;
+}
+
+.app-item {
+  color: white;
+  width: 50%;
+}
+
+.spotify-logo {
+  position: absolute;
+  align-self: center;
+  justify-self: center;
+}
+
+.spotify-logo > img {
+  width: 150px;
+  height: auto;
+}
