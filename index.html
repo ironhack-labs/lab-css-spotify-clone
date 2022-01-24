@@ -4,6 +4,12 @@
     <meta charset="UTF-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <meta http-equiv="X-UA-Compatible" content="ie=edge" />
+   
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Open+Sans:wght@300;400&family=Poppins&display=swap" rel="stylesheet">
+
+    
     <link type="text/css" rel="stylesheet" href="./styles/style.css"/>
     <title>Spotify Clone</title>
     <!-- don't forget to link your styles -->
@@ -22,32 +28,37 @@
     </header>
 
     <main>
-      <img src="/images/landing.jpg" />
-      <h1>Music for everyone.</h1>
-      <p>
-        Spotify is now free on mobile, tablet and computer. Listen to the right
-        music, wherever you are.
-      </p>
+      <div class="hero-image">
+        <div class="hero-text">
+          <h1>Music for everyone.</h1>
+          <p>
+            Spotify is now free on mobile, tablet and computer. 
+            <br>
+            Listen to the right music, wherever you are.
+          </p>
+        </div>  
+      </div>
     </main>
 
     <section class="whats-on-spotify">
       <h2>What’s on Spotify?</h2>
-      <section class="boxes">
-        <div class="millions">
-          <img src="/images/music-icon.png" />
+      <section class="container">
+        <div class="box">
+          <img src="/images/music-icon.png" class="icon"/>
           <h3>Millions of Songs</h3> 
           <p>There are millions of songs on Spotify</p>
         </div>
 
-        <div class="HD">
-          <img src="/images/high-quality-icon.png" />
+        <div class="box">
+          <img src="/images/high-quality-icon.png" class="icon"/>
           <h3>HD Music</h3> 
           <p>Listen to music as if you were listening live</p>
         </div>
 
-        <div class="stream">
-          <img src="/images/devices-icon.png" />
-          Stream Everywhere Stream music on your smartphone, tablet or computer
+        <div class="box">
+          <img src="/images/devices-icon.png" class="icon"/>
+          <h3>Stream Everywhere</h3> 
+          <p>Stream music on your smartphone, tablet or computer</p>
         </div>
       </section>
     </section>
