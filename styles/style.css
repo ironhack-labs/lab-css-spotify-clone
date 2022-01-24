@@ -6,3 +6,170 @@ Green: #00B172
 White: #FFF
 
 */
+html, body {
+    margin: 0;
+    padding: 0;
+  }
+  body {
+    font-family: 'Montserrat', sans-serif;
+  }
+  .nav-bar {
+    background-color: #FFF;
+    padding: 14px 0;
+    display: flex;
+    flex-direction: row;
+    margin-left: 30px;
+    justify-content: flex-end;
+   
+    
+  }
+  .nav-bar a {
+    font-size: 25px;
+    text-decoration: none;
+    color: #1A1A1A;
+    
+  }
+  .nav-bar img {
+      width: 200px;
+  }
+  .nav-bar-ul {
+    width: 600px;
+    margin: auto;
+    display: flex;
+    justify-content: space-evenly;
+    list-style-type: none;
+  }
+  .nav-bar-ul > li {
+   align-items: flex-end;
+   
+  }
+  .header {
+    background-image: url(/images/landing.jpg);
+    background-position: 0 0;
+    background-size: cover;
+    background-repeat: no-repeat;
+    height: 650px;
+    padding-top: 70px;
+    position: relative;
+  }
+  .header-text {
+    font-size: 30px;
+    text-align: center;
+    color: #FFF;
+    font-weight: lighter;
+  }
+  h1, h2, h3, h4, h5, h6 {
+    font-family:'Montserrat', sans-serif;
+    font-weight: bolder;
+  }
+  h1 {
+    font-size: 80px;
+    text-align: center;
+    justify-content: center;
+    color: #FFF;
+  }
+  h3 {
+      margin-bottom: 15px;
+  }
+  .box {
+    font-size: 1.7em;
+    text-align: center;
+    border: 2px #eee;
+    box-sizing: border-box;
+    Margin: 50px 5% 0 5%;
+    padding: 20px;
+    width: 40%
+  }
+  .box img {
+      width: 125px;
+  }
+  
+  #id-info {
+    display: flex;
+    justify-content: space-evenly;
+  }
+  #column {
+      display: flex;
+      flex-direction: column;
+     justify-content: space-evenly;
+    
+  }
+  .container {
+      width: 1200px;
+      margin: 0 auto;
+      padding: 20px 0;
+  }
+ .text {
+      margin: 20px 0;
+  }
+  .spotify-information h2 {
+    font-size: 50px;
+    text-align: center;
+    line-height: 1em;
+    margin-bottom: 12px;
+  }
+  .spotify-information h3 {
+    font-size: 30px;
+    text-align: center;
+    line-height: 1em;
+    color: #00B172 ;
+  }
+  .green-background .text {
+    font-size: 20px;
+    font-weight: 100;
+    text-align: center;
+    margin: 20px 0;
+  }
+  .green-background h4 {
+      font-size: 30px;
+      text-align: center;
+      font-weight: bolder;
+  }
+
+.green-background {
+    background-color: #00B172 ;
+    color: #FFF;
+    background-image: url(/images/spotify-icon-white.png);
+    background-position: center center;
+    background-size: 150px;
+    background-repeat: no-repeat;
+    margin: 50px;
+    padding: 60px;
+
+}
+.green-background h2 {
+    font-size: 40px;
+    margin-bottom: 0;
+}
+.green-background hr {
+  border: none;
+  height: 5px;
+  background-color: #FFF;
+  margin-top: 20px ;
+  margin-right: 50%;
+}
+#structure > div {
+display: flex;
+justify-content: space-evenly;
+flex-direction: row;
+
+}
+.spotify-information hr {
+  border: none;
+  height: 5px;
+  background-color: #00B172;
+  margin-top: 10px;
+  width: 40%;
+}
+.print {
+  width: 30%;
+  padding-top: 10%;
+  padding-bottom: 10%;
+  margin-right: 5%;
+}
+#id-info {
+display: flex;
+flex-direction: row-reverse;
+justify-content:flex-start
+
+}
