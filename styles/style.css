@@ -1,8 +1,87 @@
-/*
-Colors:
 
+@import url('https://fonts.googleapis.com/css2?family=Libre+Franklin:wght@400;500;600;700&family=Red+Hat+Display:wght@300;400;500;600;700&display=swap');
+    
+* {
+    font-family: 'Red Hat Display', sans-serif;;
+}
+/* Colors:
 Text: 1A1A1A
 Green: #00B172
-White: #FFF
+White: #FFF */
 
-*/
+.nav-section {
+    position: fixed;
+    display: inline-flex;
+    justify-content: space-between;
+    flex-direction: row;
+    align-items: center;
+    margin-top: 10px;
+    background-color: white;
+}
+
+.nav-section ul {
+    margin-right: 50px;
+    
+}
+
+.nav-section li {
+    display: inline-flex;
+    padding-left: 25px;
+      
+}
+
+.nav-section a {
+    text-decoration: none;
+    font-size: 25px;
+    font-weight: lighter;
+    color: black;
+}
+
+.nav-section img {
+    display: inline-flex;
+    width: 17%;
+    margin-left: 40px; 
+}
+
+.hero-image {
+    padding-top: 100px;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    position: relative;
+    
+}
+
+.hero-image img {
+    width: 100%;
+    
+    
+}
+
+.hero-text {
+    text-align: center;
+    position: absolute;
+    top: 55%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    color: white; 
+    white-space: nowrap;
+
+}
+
+.hero-text h1 {
+    font-family: 'Red Hat Display', sans-serif;
+    font-weight: 700;
+    font-size: 75px;
+    letter-spacing: 2px;
+    
+}
+
+.hero-text h2 {
+    font-size: 30px;;
+    font-weight: lighter;
+    letter-spacing: 1px;
+    margin-top: -20px;
+    
+}
+
