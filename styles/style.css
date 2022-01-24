@@ -16,24 +16,22 @@ White: #FFF */
     flex-direction: row;
     align-items: center;
     margin-top: 10px;
-    background-color: white;
+    background-color: #fff;
 }
 
 .nav-section ul {
-    margin-right: 50px;
-    
+    margin-right: 50px;   
 }
 
 .nav-section li {
     display: inline-flex;
-    padding-left: 25px;
-      
+    padding-left: 25px;    
 }
 
 .nav-section a {
     text-decoration: none;
     font-size: 25px;
-    font-weight: lighter;
+    font-weight: normal;
     color: black;
 }
 
@@ -48,14 +46,11 @@ White: #FFF */
     background-position: center;
     background-repeat: no-repeat;
     background-size: cover;
-    position: relative;
-    
+    position: relative;   
 }
 
 .hero-image img {
-    width: 100%;
-    
-    
+    width: 100%;    
 }
 
 .hero-text {
@@ -64,24 +59,112 @@ White: #FFF */
     top: 55%;
     left: 50%;
     transform: translate(-50%, -50%);
-    color: white; 
+    color: #fff; 
     white-space: nowrap;
-
 }
 
 .hero-text h1 {
     font-family: 'Red Hat Display', sans-serif;
     font-weight: 700;
     font-size: 75px;
-    letter-spacing: 2px;
-    
+    letter-spacing: 2px;  
 }
 
-.hero-text h2 {
+.hero-text p {
     font-size: 30px;;
     font-weight: lighter;
     letter-spacing: 1px;
     margin-top: -20px;
-    
 }
 
+.middle h2 {
+text-align: center;
+font-size: 40px;
+font-weight: 
+margin-bottom: 10px;
+text-decoration: underline #00B172;
+text-underline-offset: 10px;
+
+}
+
+.icon-containers {
+    display: flex;
+    align-items: center;
+    flex-direction: row;
+    justify-content: space-around;
+}
+
+.first-container {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    margin-top: 60px;
+}
+
+.first-container img {
+    width: 135px;
+}
+
+.first-container h3 {
+    font-size: 30px;
+    color: #00B172;
+    margin-top: 5px;
+}
+
+.first-container p {
+    font-size: 25px;
+    font-weight: lighter;
+    letter-spacing: 1px;
+    text-align:center;
+    margin-top: 0;
+}
+
+.second-container {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    margin-top: 60px;
+}
+
+.second-container img {
+    width: 135px;
+}
+
+.second-container h3 {
+    font-size: 30px;
+    color: #00B172;
+    margin-top: 20px;
+}
+
+.second-container p {
+    font-size: 25px;
+    font-weight: lighter;
+    letter-spacing: 1px;
+    text-align:center;
+    margin-top: 0;
+}
+
+.third-container {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    margin-top: 70px;
+}
+
+.third-container img {
+    width: 135px;
+}
+
+.third-container h3 {
+    font-size: 30px;
+    color: #00B172;
+    margin-top: 20px;
+}
+
+.third-container p {
+    font-size: 25px;
+    font-weight: lighter;
+    letter-spacing: 1px;
+    text-align:center;
+    margin-top: 0;
+}
