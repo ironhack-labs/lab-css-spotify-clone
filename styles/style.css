@@ -1,8 +1,129 @@
-/*
-Colors:
+.menu {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  margin-bottom: 20px;
+}
 
-Text: 1A1A1A
-Green: #00B172
-White: #FFF
+.logo {
+  height: 50px;
+}
+.navi {
+  display: inline;
+}
 
-*/
+.navi ul {
+  display: inline;
+  padding: 0;
+}
+.navi li {
+  display: inline;
+  padding: 0 15px;
+}
+
+.navi a {
+  text-decoration: none;
+  color: black;
+  size: 16px;
+}
+
+.hero-img {
+  background-image: url("../images/landing.jpg");
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-position: center;
+  position: relative;
+  height: 700px;
+}
+
+.hero-text {
+  color: white;
+  text-align: center;
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+}
+
+.hero-text h1 {
+  font-size: 56px;
+  margin: 30px 0;
+}
+.hero-text p {
+  font-size: 20px;
+  font-weight: 100;
+}
+
+.whats-on {
+  height: auto;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+  align-items: center;
+}
+.whats-on h2 {
+  border-bottom: #00b172 solid;
+  padding-bottom: 10px;
+  color: black;
+}
+.whats-on h3 {
+  color: #00b172;
+}
+.whats-on-list {
+  width: 90%;
+  display: flex;
+  justify-content: space-around;
+  flex-wrap: wrap;
+}
+
+.whats-on-list div {
+  width: 300px;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  padding: 20px;
+}
+
+.whats-on img {
+  width: 60px;
+}
+
+.app {
+  background-color: #00b172;
+  background-image: url("../images/spotify-icon-white.png");
+  background-repeat: no-repeat;
+  background-size: 110px;
+  background-position: center;
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+  flex-wrap: wrap;
+  padding: 50px 50px;
+}
+
+.app img {
+  height: 600px;
+}
+
+.app-list {
+  width: 500px;
+  display: flex;
+  flex-direction: column;
+  color: white;
+}
+
+.app-list h2 {
+  font-size: 40px;
+  padding-bottom: 10px;
+  border-bottom: white solid;
+}
+
+.app-list p {
+  width: 250px;
+  font-size: 16px;
+}
+
+.app-list h3 {
+  font-size: 36px;
+  margin: 26px 0;
+}
