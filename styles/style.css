@@ -6,3 +6,149 @@ Green: #00B172
 White: #FFF
 
 */
+
+* {
+    font-family:'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    color: #1A1A1A;
+}
+
+.img-logo {
+   width: 25%; 
+}
+
+.nav-bar {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin: 10px;
+}
+.nav-menu {
+    margin: 0;
+    padding: 0;
+    display: flex;
+    justify-content: flex-end;  
+}
+
+.nav-menu li {
+    display: inline;
+    margin-right: 20px;
+}
+
+.nav-menu li a {
+    text-decoration: none;
+    font-size: 15px;
+    font-weight: 400;
+    color: #1A1A1A;
+}
+
+.hero-image {
+    background-image: linear-gradient(0,0,0,0.5);
+    height: 700px;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    position: relative;
+}
+
+.hero-text {
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+    position: absolute;
+    top: 40%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+}
+
+.hero-text h1 {
+    font-size: 45px;
+    color: #FFF;
+    width: 420px ;
+    margin: 15px 0px;
+}
+
+.hero-text p {
+    color: #FFF;
+    font-size:18px;
+    text-align: center;
+    width: 410px;
+    margin: 5px 0px;  
+}
+
+.structure h2 {
+    margin-left: auto;
+    margin-right: auto;
+    border-bottom: 3px solid #00B172;
+    width: 220px;
+    padding-bottom: 5px;
+    text-align: center;
+}
+.content {
+    margin: 40px 0px;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-evenly;
+    align-items: center;
+    text-align: center;
+}
+
+.content img {
+    width: 35%;
+}    
+
+.content h3 {
+    color: #00B172;
+    font-size: 23px;
+}
+
+.container {
+    height: 600px;
+    background-color: #00B172;
+    padding-top: 10px;
+}
+
+.container h2 {
+    color: #FFF;
+    text-align: left;
+    border-bottom: 3px solid #FFF;
+    margin-left: 60px;
+    margin-top: 20px;
+    padding-bottom: 5px;
+    width: 310px;
+
+}
+
+.container-structure {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-evenly;
+    align-items: center;
+}
+
+.text-container {
+    text-align: left;
+    margin-left: 60px;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-around;
+}
+
+.text-container h3 {
+    color: #FFF;
+}
+
+.text-container p {
+    color: #FFF;
+}
+
+.img-white {
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    width: 30%;
+}
+
+.img-app {
+    width: 80%;
+    padding: 10px;
+}
