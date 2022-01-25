@@ -6,3 +6,83 @@ Green: #00B172
 White: #FFF
 
 */
+
+
+*{
+    font-family: 'Open Sans', sans-serif;
+}
+
+body{
+    margin: 0;
+}
+
+.nav-menu{
+    position: fixed;
+    display: inline-flex;
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: center;
+    background-color: white;
+}
+
+.nav-menu ul{
+    margin-right: 40px;
+}
+.nav-menu li{
+    display: inline-flex;
+    margin: 10px;
+}
+
+.nav-menu a{
+    text-decoration: none;
+    font-size: 25px;
+    font-weight: lighter;
+    color: black;
+}
+
+.first-spotify-logo{
+    display: inline-flex;
+    width: 15%;
+    margin-left: 40px;
+    margin-top: 10px;
+    margin-bottom: 10px;
+}
+
+.section-music{
+    display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+}
+
+.section-music-for-everyone-img{
+    background-position: center;
+    background-repeat: no-repeat;
+}
+
+.section-music-for-everyone-img img{
+    width: 100%;
+}
+
+.section-music-for-everyone{
+    text-align: center;
+    position: absolute;
+    top: 55%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    color: #fff; 
+    white-space: nowrap;
+}
+
+.section-music-for-everyone h1{
+    font-weight: 550;
+    font-size: 72px;
+    text-align: center;
+}
+
+.section-music-for-everyone article{
+    text-align: center;
+    font-size: 25px;
+    margin-top: -15px;
+}
+
