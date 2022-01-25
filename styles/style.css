@@ -2,12 +2,8 @@
 @import url('https://fonts.googleapis.com/css2?family=Libre+Franklin:wght@400;500;600;700&family=Red+Hat+Display:wght@300;400;500;600;700&display=swap');
     
 * {
-    font-family: 'Red Hat Display', sans-serif;;
+    font-family: 'Red Hat Display', sans-serif;
 }
-/* Colors:
-Text: 1A1A1A
-Green: #00B172
-White: #FFF */
 
 .nav-section {
     position: fixed;
@@ -15,8 +11,11 @@ White: #FFF */
     justify-content: space-between;
     flex-direction: row;
     align-items: center;
-    margin-top: 10px;
+    margin-top: 0;
+    padding-top: 25px;
+    padding-bottom: 25px;
     background-color: #fff;
+    
 }
 
 .nav-section ul {
@@ -39,14 +38,12 @@ White: #FFF */
     display: inline-flex;
     width: 17%;
     margin-left: 40px; 
+    background-color: #fff;
 }
 
 .hero-image {
-    padding-top: 100px;
     background-position: center;
-    background-repeat: no-repeat;
-    background-size: cover;
-    position: relative;   
+    background-repeat: no-repeat;  
 }
 
 .hero-image img {
@@ -98,7 +95,6 @@ text-underline-offset: 10px;
     display: flex;
     flex-direction: column;
     align-items: center;
-    margin-top: 60px;
 }
 
 .first-container img {
@@ -167,4 +163,52 @@ text-underline-offset: 10px;
     letter-spacing: 1px;
     text-align:center;
     margin-top: 0;
+}
+
+.green-section {
+    background-color: #00B172;
+    background-image: url(../images/spotify-icon-white.png);
+    background-repeat: no-repeat;
+    background-size: 150px;
+    background-position: center; 
+    color: #FFF; 
+    display: flex;
+    justify-content: space-around;
+    background-origin: content-box;
+    margin: 30px;
+    padding-bottom: 60px;
+}
+
+.container-one {
+    padding-left: 50px;
+}
+
+.container-one h2 {
+    padding-top: 20px;
+    font-size: 40px;
+    font-weight:600;
+    text-decoration: underline #FFF;
+    text-underline-offset: 15px;
+}
+
+.container-one h3 {
+    padding-top: 40px;
+    font-size: 30px;
+    font-weight:700;
+    margin-top: -10px;
+}
+
+.container-one p {
+    font-size: 23px;
+    font-weight: lighter;
+    letter-spacing: 1px;
+}
+
+.container-two {
+    padding-right: 50px;
+}
+
+.container-two img {
+    width: 350px;
+    margin-top: 150px;
 }
