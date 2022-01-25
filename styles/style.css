@@ -11,6 +11,10 @@ White: #FFF
   src: url(CircularStd-Medium.otf);
 }
 
+* {
+  margin: 0;
+}
+
 html {
   font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, Oxygen,
     Ubuntu, Cantarell, "Open Sans", "Helvetica Neue", sans-serif;
@@ -26,15 +30,8 @@ html {
   margin-bottom: 17px;
 }
 
-.Spotify-white-icon {
-  width: 7rem;
-  height: 7rem;
-  margin-right: 1rem;
-  margin-top: 70rem;
-  position: absolute;
-  left: 45%;
-  top: 50%;
-}
+/* NAV */
+
 .nav-ul {
   color: #1a1a1a;
   list-style: none;
@@ -52,17 +49,15 @@ nav a {
   margin-left: 30px;
   font-size: 1.5rem;
 }
-.download-botton {
-  margin-right: 20px;
-}
-.div {
+.div-nav {
   background-color: #fff;
   width: 100%;
 }
-.section1-background {
-  width: 1024px;
-  height: 603px;
+.download-botton {
+  margin-right: 20px;
 }
+
+/* SECTION 1 */
 
 .section-1 {
   color: #fff;
@@ -83,86 +78,106 @@ h1 {
   /* line-height: 500px; */
 }
 
-.h2-subtitle{
-    text-align: center;
-    font-weight: 200;
-    font-size: 2.3rem;
+.h2-subtitle {
+  text-align: center;
+  font-weight: 200;
+  font-size: 2.3rem;
 }
 
-.music-icon{
-    height: 86px;
-    width: 100px;
-}
-.hd-icon{
-    height: 72px;
-    width: 100px;
-    margin-bottom: 10px;
-}
-.devices-icon{
-    height: 84px;
-    width: 100px;
-}
+/* SECTION 2 */
 
-.section-2{
-   
-    height: 350px;
+.section-2 {
+  height: 350px;
+  margin-top: 2.5rem;
+  margin-bottom: 6rem;
 }
-.app-image{
-    height: 29rem;
-    width: 17rem;
-    float: right;
-    margin-top: 70px;
-    margin-left: 25rem;
-    
+.div-section-2 {
+  display: flex;
+  align-content: space-between;
+  justify-content: space-evenly;
+  text-align: center;
+  margin-top: 4rem;
+  align-items: baseline;
 }
-.div-section-2{
-    display: flex;
-    align-content: space-between;
-    justify-content: space-evenly;
-    text-align: center;
-    margin-top: 3rem;
-    
+.h2-title {
+  border-bottom: solid #00b172;
+  font-weight: 600;
+  width: 22rem;
+  font-size: 2.5rem;
+  padding-left: 0.5rem;
 }
-.text-section-2{
-    text-align: center;
-    position: absolute;
-    top: 70%;
-    left: 50%;
-    transform: translate(-50%, -50%);
-    color: white;
-
-}
-.section-1-h3{
-    color: #00b172;
-}
-
 .h2-wrapper {
-    width: 14rem;
-    margin: 0 auto;
+  text-align: center;
+  display: flex;
+  justify-content: center;
+}
+.section-2-h3 {
+  color: #00b172;
+  font-size: 1.7rem;
+}
+p {
+  font-size: 1.5rem;
+  font-weight: 200;
+  margin-top: 1.5rem;
+  margin-bottom: 1.5rem;
+}
+.music-icon {
+  height: 94px;
+  width: 108px;
+  margin-bottom: 1rem;
+}
+.hd-icon {
+  height: 80px;
+  width: 108px;
+  margin-bottom: 1rem;
+}
+.devices-icon {
+  height: 92px;
+  width: 108px;
+  margin-bottom: 1rem;
 }
 
-.h2-title{
-    border-bottom: solid #00b172;
-}
-
-.div-section-3{
-    display: flex;
-    background-color: #00b172;
-    width: 90%;
-    margin: 0 auto;
-    padding: 1.2rem;
-}
+/* SECTION 3 */
 
 .section-3 {
   color: #fff;
   width: 100%;
-  height: 600px;
 }
-
-.div-section3-p{
-    font-size: 1.3rem;
-    padding-left: 3em;
+.div-section-3 {
+  display: flex;
+  background-color: #00b172;
+  width: 90%;
+  margin: 0 auto;
+  padding: 1.5rem;
+  padding-bottom: 0.015rem;
+  align-content: space-between;
+  justify-content: space-evenly;
+  align-items: center;
 }
-.title-section-3{
-    width: 20em;
+.h2-title-section-3 {
+  margin-bottom: 2rem;
+  border-bottom: solid #fff;
+  font-size: 2.5rem;
+  font-weight: 500;
+  width: 31rem;
+}
+.h3-subtitle-section-3 {
+  font-size: 1.5rem;
+}
+.Spotify-white-icon {
+  width: 8rem;
+  height: 8rem;
+  margin-right: 1rem;
+  margin-top: 80rem;
+  position: absolute;
+  left: 45%;
+  top: 50%;
+}
+.app-image {
+  height: 29rem;
+  width: 17rem;
+  float: right;
+  margin-top: 70px;
+  margin-left: 7rem;
+  margin-bottom: 4rem;
 }
