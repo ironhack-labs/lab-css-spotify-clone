@@ -6,3 +6,172 @@ Green: #00B172
 White: #FFF
 
 */
+
+nav {
+  position: fixed;
+  background-color: #fff;
+  margin: 10px;
+  z-index: 1;
+}
+
+nav li {
+  margin-right: 10px;
+}
+
+nav li a {
+  text-decoration: none;
+  font-weight: 1000;
+  color: #1a1a1a;
+}
+
+nav ul {
+  margin-top: 25px;
+}
+
+.nav-menu {
+  display: flex;
+  justify-content: space-between;
+  align-content: center;
+}
+
+.nav-menu li {
+  display: inline;
+}
+
+.img-logo {
+  width: 20%;
+  height: auto;
+  object-fit: cover;
+}
+
+body {
+  margin: 0;
+  padding: 0;
+}
+.hero {
+  position: relative;
+  width: 100vw;
+  height: 100vh;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+.hero::before {
+  content: "";
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+  background: url(../images/landing.jpg);
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-position: center center;
+  filter: brightness(60%);
+  margin-top: 100px;
+}
+.hero-content {
+  position: relative;
+  font-family: "Monserrat", sans-serif;
+  color: white;
+  text-align: center;
+  margin: 0.625rem;
+}
+.hero-title {
+  font-size: 3rem;
+  font-weight: 400;
+  margin-bottom: 1rem;
+}
+.hero-subtitle {
+  font-size: 1.2rem;
+  font-weight: 200;
+  margin: 0;
+}
+
+.section1 {
+  margin-top: 150px;
+}
+.section1 h2 {
+  text-align: center;
+}
+
+.section1 div {
+  display: flex;
+  justify-content: space-between;
+  padding: 20px;
+}
+
+.section1 article {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  align-content: center;
+}
+
+.section1 article p {
+  display: flex;
+  flex-direction: column;
+  align-content: center;
+  margin: 0;
+}
+
+.section1 article h3 {
+  color: #00b172;
+}
+
+.img-icon {
+  width: 20%;
+  height: auto;
+}
+
+.section2 {
+  background-color: #00b172;
+  display: flex;
+  justify-content: center;
+  padding: 40px;
+  color: #fff;
+  position: relative;
+}
+
+.div-width {
+  width: 500px;
+  display: flex;
+  flex-direction: column;
+  flex-wrap: nowrap;
+  justify-content: center;
+  align-items: flex-start;
+}
+
+.div-width h2 {
+  margin-top: 10px;
+  margin-bottom: 30px;
+}
+
+.div-width p {
+  margin-top: -13px;
+}
+
+.section2 article {
+  display: flex;
+  justify-content: space-between;
+}
+
+.img-app {
+  width: 55%;
+  height: auto;
+  object-fit: cover;
+  margin-top: 19px;
+  margin-left: 166px;
+}
+
+.img-logo2 {
+  width: 10%;
+  height: auto;
+  object-fit: cover;
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  /* display: flex;
+  align-content: center; */
+}
