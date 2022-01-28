@@ -1,8 +1,279 @@
-/*
-Colors:
+/* General and Resets */
+*,
+:before,
+:after {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+html {
+  font-size: 62.5%;
+}
+body {
+  font-family: Helvetica, Arial, sans-serif;
+  line-height: 1.5;
+}
+img {
+  max-width: 100%;
+  display: block;
+}
+a {
+  text-decoration: none;
+}
+/* Header, Brand, Nav */
+header {
+  position: fixed;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100px;
+  background-color: #fff;
+  z-index: 1;
+}
+.header-container {
+  display: flex;
+  height: 100%;
+  max-width: 1200px;
+  margin: 0 auto;
+  padding: 0 25px;
+  justify-content: space-between;
+  align-items: center;
+}
+.brand-wrapper svg {
+  width: 150px;
+  height: auto;
+}
+nav ul {
+  display: flex;
+  list-style: none;
+}
+nav li {
+  padding: 1.7rem;
+}
+nav a {
+  display: block;
+  font-size: 1.8rem;
+  color: rgb(0, 0, 0, 0.7);
+  letter-spacing: 0.5px;
+  transition: color 0.25s ease-in;
+}
+nav a:hover {
+  color: rgb(30, 215, 96);
+}
 
-Text: 1A1A1A
-Green: #00B172
-White: #FFF
+/* Hero Section */
 
-*/
+.hero {
+  position: relative;
+  margin-top: 100px;
+  height: calc(100vh - 100px);
+}
+.hero:before {
+  position: absolute;
+  content: '';
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+  background-image: url('/images/landing.jpg');
+  background-size: cover;
+  background-position: center;
+  z-index: -1;
+}
+.hero-content-container {
+  display: flex;
+  height: 100%;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  color: #fff;
+}
+.hero-content-container h1 {
+  font-size: 9.5rem;
+  font-weight: 500;
+  text-align: center;
+}
+.hero-content-container h3 {
+  font-size: 2.8rem;
+  font-weight: 100;
+  letter-spacing: 0.5px;
+  text-align: center;
+  margin-top: 35px;
+  opacity: 0.95;
+}
+.hero-content-container h3 span {
+  display: block;
+}
+
+/* Features Section */
+
+.features {
+  max-width: 1200px;
+  margin: 100px auto;
+  text-align: center;
+}
+.features h2 {
+  display: inline-block;
+  text-align: center;
+  font-size: 3.5rem;
+}
+.features h2:after {
+  content: '';
+  display: block;
+  margin-top: 4px;
+  height: 4px;
+  background-color: rgb(30, 215, 96);
+}
+.features-container {
+  display: flex;
+  justify-content: space-around;
+  margin-top: 80px;
+}
+.feature {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+.feature img {
+  height: 90px;
+  object-fit: contain;
+}
+.feature h4 {
+  color: rgb(30, 215, 96);
+  font-size: 3rem;
+  padding: 15px 0;
+  text-align: center;
+}
+.feature p {
+  padding: 10px 20px;
+  font-size: 1.8rem;
+  text-align: center;
+  color: rgb(0, 0, 0, 0.6);
+}
+.feature p span {
+  display: block;
+}
+
+/* Application Usage Section */
+
+.application-usage {
+  width: 90%;
+  margin: 0 auto;
+}
+.usage-container {
+  position: relative;
+  background-color: #38b169;
+  display: flex;
+  flex-direction: column;
+}
+.usage-container:before {
+  position: absolute;
+  content: '';
+  background-image: url('../images/spotify-icon-white.png');
+  background-repeat: no-repeat;
+  background-position: center;
+  top: 50%;
+  left: 50%;
+  width: 150px;
+  height: 150px;
+  transform: translate(-50%, -50%);
+  background-size: 150px;
+  z-index: 1;
+}
+.usage-content-container {
+  position: relative;
+  display: flex;
+  justify-content: space-around;
+  padding: 80px 60px;
+  color: #fff;
+}
+.usage-content-container > div {
+  flex: 0 1 50%;
+}
+.usage-content h4 {
+  display: inline-block;
+  font-size: 3rem;
+  color: #fff;
+  font-weight: normal;
+}
+.usage-content h4:after {
+  content: '';
+  display: block;
+  margin-top: 4px;
+  height: 4px;
+  background-color: rgb(255, 255, 255);
+}
+.usage {
+  margin: 50px 0;
+}
+.usage:last-child {
+  margin-bottom: 0;
+}
+.usage h5 {
+  font-size: 2.3rem;
+  font-weight: 500;
+  letter-spacing: 0.5px;
+  margin-bottom: 20px;
+}
+.usage p {
+  font-size: 1.8rem;
+  font-weight: lighter;
+  line-height: 1.5;
+}
+.usage p span {
+  display: block;
+}
+.usage-image {
+  align-self: center;
+}
+.usage-image img {
+  max-width: 50%;
+  margin-left: auto;
+  object-fit: contain;
+}
+
+@media (max-width: 900px) {
+  header {
+    height: auto;
+  }
+  .header-container {
+    flex-direction: column;
+    padding: 20px;
+  }
+  nav li {
+    padding: 20px 10px 20px 10px;
+  }
+  nav a {
+    font-size: 1.6rem;
+  }
+  .hero {
+    margin-top: 145px;
+  }
+  .hero-content-container h1 {
+    font-size: 6.5rem;
+  }
+  .hero-content-container h3 {
+    padding: 25px;
+    font-size: 2rem;
+  }
+  .hero-content-container h3 span {
+    display: inline;
+  }
+  .features-container {
+    flex-direction: column;
+  }
+  .usage-container:before {
+    display: none;
+  }
+  .usage-content-container {
+    flex-direction: column;
+    padding: 20px;
+  }
+  .usage-content h4 {
+    font-size: 2.5rem;
+  }
+  .usage-image img {
+    max-width: 90%;
+    margin: 50px auto 25px auto;
+  }
+}
