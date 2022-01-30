@@ -1,0 +1,154 @@
+body {
+    font-family:'Segoe UI', Tahoma, Verdana, sans-serif;
+    color: #1A1A1A;
+}
+
+.barraDeNav {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin: 30px;
+}
+
+#spotify-logo {
+    width: 15%;
+}
+
+#navList {
+    margin: 0;
+    padding: 0;
+    display: flex;
+    justify-content: flex-end;  
+}
+
+#navList ul {
+    margin-right: 20px;
+}
+
+#navList li a {
+    display: inline-block;
+    text-decoration: none;
+    font-size: 15px;
+    color: #1A1A1A;
+}
+
+#hero-image {
+    background-image: url("../images/landing.jpg");
+    max-width: 100%;
+    justify-content: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    position: relative;
+}
+
+#hero-text {
+    display: flex;
+    text-align: center;
+    flex-direction: column;
+    position:absolute;
+    top: 50%;
+    left: 35%;
+    transform: scale(140%);
+}
+
+#hero-text h1 {
+    font-size: 45px;
+    color: white;
+    width: 420px ;
+    margin: 15px 0px;
+}
+
+#hero-text p {
+    color: white;
+    font-size:18px;
+    text-align: center;
+    width: 410px;
+    margin: 5px 0px;  
+}
+
+.middlePage h2 {
+    margin-left: auto;
+    margin-right: auto;
+    border-bottom: 3px solid #00B172;
+    width: 220px;
+    padding-bottom: 5px;
+    text-align: center;
+}
+
+.content {
+    margin: 40px 0px;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-evenly;
+    align-items: center;
+    text-align: center;
+}
+
+.content img {
+    width: 35%;
+}    
+
+.content h3 {
+    color: #00B172;
+    font-size: 23px;
+}
+
+.container {
+    height: 600px;
+    background-color: #00B172;
+    padding-top: 10px;
+}
+
+.container h2 {
+    color: #FFF;
+    text-align: left;
+    border-bottom: 3px solid #FFF;
+    margin-left: 60px;
+    margin-top: 20px;
+    padding-bottom: 5px;
+    width: 310px;
+
+}
+
+.container-structure {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-evenly;
+    align-items: center;
+}
+
+.text-content {
+    text-align: left;
+    margin-left: 60px;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-around;
+}
+
+.text-content h3 {
+    color: #FFF;
+}
+
+.text-content p {
+    color: #FFF;
+    max-width: 25%;
+}
+
+.img-white {
+    display:flex;
+    width: 10%;
+    flex-direction: row;
+    align-self: center;
+    position:absolute;
+    top: 260%;
+    left: 45%;
+}
+
+.img-app {
+    width: 22%;
+    padding: 10px;
+    align-self:flex-end;
+    position:absolute;
+    top: 231%;
+    left: 70%;
+}
