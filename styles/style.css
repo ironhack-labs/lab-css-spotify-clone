@@ -32,7 +32,7 @@ nav img {
   }
 
   nav a {
-    padding: 0em 2em;
+    padding: 0em 1em;
     text-decoration:none;
   }
 
@@ -61,6 +61,7 @@ header h2 {
     text-decoration:underline #00B172;
     text-align:center;
     margin-top:2em;
+    margin-right: 5em;
 }
 
 .moving {
@@ -83,4 +84,56 @@ header h2 {
     width: 100%; 
     line-height: 20px; 
     font-size: 1em;
+    font-weight: lighter;
+    padding: 0 11em 3em;
 }
+
+.moving img {
+    width: 5em;
+    height: 4em;
+}
+
+aside {
+    background-color:#00B172 ;
+    padding: 0 0 0 5em;
+    color:white;
+    background-image: url('/images/spotify-icon-white.png');
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: 5em;
+    display:flex;
+    flex-direction: row;
+    justify-content: space-evenly;
+    gap:15em;
+    font-size:22px;
+
+}
+
+aside div {
+    text-align: left;
+    flex-grow: 1;
+    display:flex;
+    flex-direction: column;
+    justify-content: space-evenly;
+    padding-right: 8em;
+}
+
+aside h2 {
+    text-decoration: underline;
+    text-underline-offset: 9px;
+    font-style:bold;
+}
+
+aside h3 {
+    font-style:bold;
+}
+
+aside h4 {
+    font-style:lighter;
+    color:whitesmoke;
+    font-size: 0,1em;
+}
+
+aside img {
+    width: 15em;
+    margin: 5em ; }
