@@ -46,12 +46,10 @@ nav a {
     text-decoration: none;
     color: #1A1A1A;
     font-size: 1.7rem;
-    padding: 14px 16px;
 }
 
 nav a:hover {
-    background-color: #00B172;
-    color: white;
+    color: #00B172;
 }
 
 #navbar-space {
@@ -83,6 +81,7 @@ nav a:hover {
     display: flex;
     flex-direction: column;
     align-items: center;
+    padding: 30px 0;
 }
 
 #spotify-content > div {
@@ -93,6 +92,7 @@ nav a:hover {
 #spotify-content > div > div {
     width: 290px;
     margin: 0 60px;
+    text-align: center;
 }
 
 #spotify-content h1 {
@@ -115,4 +115,47 @@ nav a:hover {
 #spotify-content img {
     width: 120px;
     height: 100px;
+}
+
+#green-section {
+    background-color: #00B172;
+    color: #FFF;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin: 0 25px;
+    padding: 30px 90px;
+}
+
+#green-section > div > div {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+#logo {
+    width: 125px;
+    height: 125px;
+    margin-right: -25px;
+}
+
+#overrated {
+    width: 225px;
+    height: 400px;
+}
+
+#green-section h1 {
+    width: fit-content;
+    font-size: 3.5rem;
+    padding-bottom: 5px;
+    border-bottom: 3px solid #FFF;
+}
+
+#green-section h2 {
+    font-size: 2.2rem;
+}
+
+#green-section p {
+    font-size: 1.7rem;
+    width: 250px;
 }
