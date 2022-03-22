@@ -6,3 +6,178 @@ Green: #00B172
 White: #FFF
 
 */
+
+*{
+    padding: 0;
+    margin: 0;
+}
+
+img {
+    width: 100%;
+}
+
+body{
+    font-family: sans-serif;
+}
+
+header {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding: 20px 30px;
+    position: fixed;
+    
+    width: 100vw;
+    background-color: #FFF;
+}
+
+header img {
+    width: 150px;
+
+}
+
+header ul{
+    display: flex;
+    list-style: none;
+    padding-right: 50px;
+    
+}
+
+header a {
+    text-decoration: none;
+    color: black;
+    margin: 0 10px;
+    font-size: 1.4em;
+    font-weight: lighter;
+}
+
+
+
+.section1 {
+    color: #FFF;
+    background-image: url("../images/landing.jpg");
+    background-size: 100%;
+    padding: 400px 150px;
+    text-align: center;
+    
+}
+
+.section1 h1 {
+    font-size: 5em;
+    margin-bottom: 20px;
+
+}
+
+.section1 p {
+    font-size: 1.6em;
+    font-weight: lighter;
+}
+
+
+.section2 {
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+    align-items: center;
+    padding: 20px;
+    
+}
+
+.section2 h2 {
+    font-size: 2em;
+
+}
+
+.section2 hr {
+    width: 300px;
+    height: 3px;
+    background-color: #00B172;
+    
+}
+
+.section2 div {
+    display: flex;
+    flex-direction: row;
+    padding: 20px;
+}
+.section2 img {
+    width: 100px;
+}
+
+.section2 article {
+
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    margin: 30px;
+    padding: 20px;
+    width: 25%;
+
+}
+
+.section2 article p {
+    width: 75%;
+    text-align: center;
+    margin-top: 20px;
+    font-size: 1.3em;
+
+}
+
+.section2 article h3 {
+    
+    text-align: center;
+    margin-top: 20px;
+    font-size: 2em;
+    color: #00B172;
+
+}
+
+.section3 {
+    background-color: #00B172;
+    background-image: url(../images/spotify-icon-white.png);
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: 150px;
+    display: flex;
+    flex-direction: row;
+    padding: 80px 100px;
+    justify-content: space-between;
+    margin: 0 30px;
+}
+
+.section3 div {
+    display: flex;
+    flex-direction: column;
+    width: 45%;
+    color: #FFF;
+}
+
+.section3 h2 {
+    font-size: 2.3em;
+}
+
+.section3 hr{
+    width: 92%;
+    height: 2px;
+    background-color: #FFF;
+    
+}
+
+.section3 h3 {
+    font-size: 1.7em;
+}
+
+.section3 p {
+    width: 70%;
+    margin: 30px 0;
+    font-size: 1.4em;
+    font-weight: lighter;
+}
+.section3 article{
+    padding: 20px 0;
+}
+
+.section3 img {
+    width: 30%;
+}
