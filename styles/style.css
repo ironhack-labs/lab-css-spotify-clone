@@ -6,3 +6,113 @@ Green: #00B172
 White: #FFF
 
 */
+
+body {
+    font-family: sans-serif;
+    color: 1A1A1A;
+}
+
+*{
+    padding: 0;
+    margin: 0;
+}
+
+img {
+    width: 100%;
+}
+
+header{
+    /* position: fixed; */
+    display: flex;
+    justify-content: space-between;
+    padding: 10px 30px;
+    align-items: center;
+}
+
+header img{
+    width: 200px;
+}
+
+
+header ul{
+    display: flex;
+    list-style: none;
+}
+
+header a{
+    text-decoration: none;
+    color: #1A1A1A;
+}
+
+header li{
+    margin-left: 40px;
+}
+
+.hero{
+    background-image: url(/lab-css-spotify-clone/images/landing.jpg);
+    padding: 20%;
+    background-color: red;
+    color: white;
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+    align-items: center;
+}
+
+.hero h1{
+    font-size: 5.5em;
+    padding-bottom: 25px;
+}
+.hero p{
+    font-size: 2.1em;
+}
+
+.spotify-title{
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+    align-items: center;
+}
+
+.spotify-title h2{
+    font-size: 2em;
+    padding: 40px 0 12px 0;
+    border-bottom: 5px solid #00B172;
+}
+
+.items{
+    display: flex;
+    justify-content: space-around;
+    width: 90%;
+}
+
+.yellow{
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+    align-items: center;
+    width: 25%;
+    padding: 60px;
+}
+
+.yellow img{
+    width: 130px;
+    padding: 20px;
+}
+
+.yellow h3{
+    color: #00B172;
+    font-size: 1.7em;
+    padding-bottom: 25px;
+}
+
+.yellow p{
+    font-size: 1.5em;
+    text-align: center;
+}
+
+.yeezy{
+   display: flex;
+    justify-content: center;
+    align-items: center; 
+}
