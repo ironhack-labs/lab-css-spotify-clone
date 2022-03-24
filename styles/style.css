@@ -7,5 +7,110 @@ White: #FFF
 
 */
 body{
-  background-color: gray;
+/*   background-color: white; */
+  font-family: 'Montserrat', sans-serif;
+  font-size: .8em;
+  margin: 0;
+  padding: 0;
+ 
+}
+nav{
+/*   position: fixed; */
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  align-content: stretch;
+  margin: 1em;
+  
+/*   background-color: white; */
+  
+}
+.spotify-logo {
+  height: 50px;
+
+}
+
+.buttons-nav{
+  list-style-type: none;
+  display: flex;
+  justify-content: flex-end;
+  gap: 2em;
+  
+}
+/* --------------------------------------- */
+
+.section1 {
+  background-image: url("../images/landing.jpg");
+  height: 600px;
+  background-position: center;
+  background-size: cover;
+  color: white;
+  text-align: center;
+
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-content: center;
+ 
+  
+}
+
+h1{
+  font-size: 5em;
+  font-weight: 300;
+  line-height: 0;
+/*   border: 1px solid white; */
+}
+.section1 p {
+  font-size: 1.4em;
+  font-weight: 100;
+  padding: 0 150px 0 150px;
+/*   border: 1px solid white; */
+}
+
+/* --------------------------------------- */
+h2{
+  text-align: center;
+  font-weight: 700;
+  font-size: 1.7em;
+}
+.tittle-section2 {
+  border-bottom: 3px solid #05a352;
+}
+
+
+
+.divs-container {
+  display: flex;
+  justify-content: center;
+  align-content: center;
+  text-align: center;
+
+  gap: 2rem;
+/*   border: 2px solid #c74343; */
+  padding: 3rem;
+}
+
+.cards {
+  flex-direction: column;
+  justify-content: center;
+  align-content: center;
+/*   border: 2px solid black; */
+  flex: 1;
+/*   width: 30%; */
+}
+.cards img{
+/*   size: auto; */
+  width: 90px;
+
+
+.divs-container {
+  color: #1db26c;
+}
+
+/* ------------------------------------- */
+
+.section3 {
+  background-color: #1bb16a;
+  color: white;
 }
