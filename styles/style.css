@@ -15,12 +15,17 @@ body{
  
 }
 nav{
-/*   position: fixed; */
   display: flex;
+  position: fixed;
+/*   width: 100vw; */
+  background-color: white;
   align-items: center;
   justify-content: space-between;
-  align-content: stretch;
-  margin: 1em;
+  left: 0;
+  right: 0;
+  padding: .5rem;
+/*   align-content: stretch; */
+/*   margin: 1em; */
   
 /*   background-color: white; */
   
@@ -41,7 +46,7 @@ nav{
 
 .section1 {
   background-image: url("../images/landing.jpg");
-  height: 600px;
+  height: 500px;
   background-position: center;
   background-size: cover;
   color: white;
@@ -102,15 +107,78 @@ h2{
 .cards img{
 /*   size: auto; */
   width: 90px;
+}
 
-
-.divs-container {
+.cards h3 {
   color: #1db26c;
+}
+.cards p{
+  color: black;
+  padding: 0 1.7rem;
 }
 
 /* ------------------------------------- */
 
 .section3 {
   background-color: #1bb16a;
+  background-image: url("../images/spotify-icon-white.png");
+  background-size: 40px;
+  background-repeat: no-repeat;
+  background-position: center;
+  height: 500px;
   color: white;
+  border: 1px solid #da4949;
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  
+  
+
 }
+
+
+}
+.section3 img{
+
+  vertical-align: middle;
+  margin: 0 auto;
+}
+h4{
+   font-size: 1.3rem;
+  font-weight: 500;
+   border-bottom: 3px solid #ffffff;
+}
+h5{
+  font-size: 1rem;
+  font-weight: 500;
+}
+.section3 p{
+  font-weight: 100;
+}
+
+.flex-right {
+  margin: 5rem;
+  display: flex;
+  flex-direction: column;
+  flex:1;
+  border: 4px solid #4c59bd;
+
+}
+.imageKanye{
+  height: 400px;
+  margin 0
+  1px ;
+  
+}
+
+.flex-left {
+  display:flex;
+  flex-direction: column;
+  border: 4px solid #ccbe1e;
+}
+.container3 {
+  display: flex;
+  border: 1px solid white;
+    flex-direction: row
+}
+
