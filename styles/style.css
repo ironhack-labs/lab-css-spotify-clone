@@ -1,3 +1,4 @@
+@import url('https://fonts.googleapis.com/css?family=Roboto+Condensed:700|Roboto:100,300,700');
 /*
 Colors:
 
@@ -6,3 +7,148 @@ Green: #00B172
 White: #FFF
 
 */
+
+body{
+    font-family: "Roboto";
+    font-size: 10px;
+    line-height: 3.5em;
+    font-weight: 300;
+  }
+
+h1,
+h2,
+h3,
+h4,
+h5,
+h6 {
+  /*  define font-family here  */
+  font-family: "Roboto Condensed";
+}
+
+.nav{
+    background-color: #FFF;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    height: 80px;
+}
+
+.nav img{
+    width: 15%;
+    padding-left: 20px;
+}
+
+.nav ul{
+    list-style-type: none;
+    text-align: center;
+    width: 30%;
+    display: flex;
+    justify-content: space-evenly;
+}
+
+.nav li{
+    margin: 0 5px;
+    font-size: 22px;
+    font-weight: 500;
+}
+
+.header{
+    background-image: url("../images/landing.jpg");
+    background-size: cover;
+    height: 850px;
+    color: #FFF;
+    text-align: center;
+    margin-top: 0;
+    padding-top: 100px;
+}
+
+.header h1{
+    padding-top: 18%;
+    font-size: 70px;
+    font-weight: 100;
+}
+
+.header p{
+    font-size: 30px;
+    margin: 0 25%;
+    font-weight: lighter;
+}
+
+.section2{
+    height: 500px;
+    
+}
+
+.section2 h2{
+    text-align: center;
+    text-decoration: underline solid #00B172;
+    text-underline-offset: 10px;
+    font-size: 40px;
+}
+
+.section2 div{
+    display: flex;
+    justify-content: space-between;
+    padding-top: 60px;
+}
+
+.section2 article{
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+    align-items: center;
+}
+
+.section2 img{
+    width: 150px;
+    
+}
+
+.section2 h4{
+    font-size: 30px;
+}
+
+.section2 p{
+    font-size: 20px;
+    margin: 0 90px;
+    text-align: center;
+}
+
+.section3{
+    height: 700;
+    display: flex;
+    justify-content: space-evenly;
+    background-color: #00B172;
+    align-items: center;
+    color: #FFF;
+}
+
+.section3 h3{
+    font-size: 35px;
+    text-decoration: underline solid #FFF;
+    text-underline-offset: 10px;
+}
+
+.section3 h4{
+    font-size: 30px;
+}
+
+.section3 p{
+    font-size: 20px;
+   
+}
+
+.section3 div{
+    padding: 50px 0  0 100px;
+}
+
+.icon img{
+    height: 100px;
+    padding-right: 90px;
+
+}
+
+.app img{
+    height: 550px;
+    padding-right: 100px;
+}
