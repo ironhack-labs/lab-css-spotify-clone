@@ -6,3 +6,134 @@ Green: #00B172
 White: #FFF
 
 */
+body {
+  margin: 0;
+}
+header {
+  padding: 30px;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+}
+header .logo {
+  height: 60px;
+  width: 200px;
+}
+
+.landing-image {
+  background-image: url('../images/landing.jpg');
+  background-position: center;
+  background-size: cover;
+  background-repeat: no-repeat;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  height: 1300px;
+}
+
+.landing-image h1 {
+  text-align: center;
+  font-family: 'Open Sans', sans-serif;
+  color: white;
+  font-size: 6em;
+}
+.landing-image p {
+  color: white;
+  font-size: 2em;
+  font-family: 'Open Sans', sans-serif;
+  padding: 20px;
+  width: 800px;
+  text-align: center;
+}
+
+nav {
+  display: flex;
+  list-style-type: none;
+}
+
+nav li {
+  padding-right: 40px;
+  font-size: 1.3em;
+
+  font-family: 'Open Sans', sans-serif;
+}
+
+section#middle {
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+  height: 600px;
+}
+.container p {
+  font-size: 1.5rem;
+}
+
+.whats {
+  text-align: center;
+  font-size: 3em;
+  font-family: 'Open Sans', sans-serif;
+}
+.container {
+  text-align: center;
+}
+
+.container img {
+  width: 150px;
+}
+
+section#bottom {
+  background-color: rgb(67, 230, 102);
+  position: relative;
+  padding: 100px;
+  margin: 0 45px;
+  margin-bottom: 50px;
+}
+.containertwo {
+  height: 100px;
+  width: 300px;
+}
+article h3 {
+  color: rgb(67, 230, 102);
+  font-size: 2.5em;
+  font-weight: bold;
+}
+
+.kanyediv {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 20px;
+}
+.kanyediv h2 {
+  color: white;
+  font-size: 2.7em;
+  border-bottom: 2px solid white;
+}
+.kanyediv p {
+  color: white;
+  font-size: 1.4em;
+}
+.kanye {
+  height: 600px;
+  width: 350px;
+  /* margin-top: 50px; */
+  align-items: center;
+}
+
+.spotifyicon {
+  position: absolute;
+  height: 150px;
+  width: 150px;
+  top: 50%;
+  left: 50%;
+  transform: translateX(-50%) translateY(-50%);
+}
+.bottomarticles {
+  display: flex;
+  flex-direction: column;
+  justify-content: space-evenly;
+}
+.bottomarticles h3 {
+  color: white;
+}
