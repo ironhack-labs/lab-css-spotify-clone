@@ -1,3 +1,5 @@
+@import url("https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&family=Roboto:ital,wght@0,100;0,300;0,400;0,500;0,700;0,900;1,100;1,300;1,400;1,500;1,700;1,900&display=swap");
+
 /*
 Colors:
 
@@ -6,3 +8,187 @@ Green: #00B172
 White: #FFF
 
 */
+body {
+  font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, Oxygen,
+    Ubuntu, Cantarell, "Open Sans", "Helvetica Neue", sans-serif;
+  margin: 0%;
+}
+
+nav {
+  display: flex;
+  flex-direction: row;
+  flex-wrap: nowrap;
+  justify-content: space-between;
+  align-items: center;
+  align-content: stretch;
+}
+
+.logo {
+  width: 150px;
+}
+
+nav a {
+  text-decoration: none;
+  color: black;
+  margin-left: 10px;
+  font-size: 20px;
+  margin-right: 20px;
+}
+
+header > div {
+  padding: 5px 5px;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+nav ul {
+  list-style: none;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  text-decoration: none;
+}
+
+.landingDiv {
+  position: relative;
+}
+
+.landingDiv div {
+  position: absolute;
+  width: 100%;
+  height: 100%;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+
+h1 {
+  color: white;
+  font-size: 100px;
+  font-weight: 400;
+  margin: 0 0;
+}
+
+.landingDiv p {
+  color: white;
+  width: 500px;
+  text-align: center;
+  font-size: 22px;
+}
+
+.landingImg {
+  width: 100%;
+  height: 90vh;
+  object-fit: cover;
+}
+
+.secondSectionDiv {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  align-content: center;
+  justify-content: center;
+  justify-items: center;
+  margin-bottom: 50px;
+}
+
+.secondSectionDiv hr {
+  width: 240px;
+  margin: 0 0 25px;
+  border: 2px solid #00b172;
+  background-color: #00b172;
+}
+
+.secondSectionDiv img {
+  width: 120px;
+}
+
+.secondSectionDiv h2 {
+  margin-bottom: 5px;
+}
+
+.secondSectionFrames {
+  display: flex;
+  flex-direction: row;
+  flex-wrap: wrap-reverse;
+  justify-content: space-evenly;
+  align-items: flex-end;
+  align-content: center;
+}
+
+.secondSectionFrames div {
+  display: flex;
+  flex-direction: column;
+  flex-wrap: wrap-reverse;
+  justify-content: flex-start;
+  align-items: center;
+  align-content: center;
+  width: 300px;
+}
+
+.secondSectionFrames img {
+  height: 90px;
+  object-fit: cover;
+}
+
+.secondSectionFrames h3 {
+  color: #00b172;
+  font-size: 25px;
+}
+
+.secondSectionFrames p {
+  width: 250px;
+  text-align: center;
+  font-size: 20px;
+  margin-top: 0;
+  margin-bottom: 0;
+}
+
+.thirdSectionDiv {
+  background-color: #00b172;
+  margin-left: 20px;
+  margin-right: 20px;
+  color: white;
+  padding: 25px 60px;
+  display: flex;
+  flex-direction: row;
+  position: relative;
+  justify-content: center;
+  align-items: center;
+}
+
+.thirdSectionDiv hr {
+  width: 240px;
+  margin: 0 0 25px;
+  border: 2px solid white;
+  background-color: white;
+}
+
+.thirdSectionDiv p {
+  width: 270px;
+  font-weight: 100;
+}
+
+.spotifyLogo {
+  width: 115px;
+  position: absolute;
+  left: 45%;
+  top: 45%;
+}
+
+.playerImg {
+  width: 260px;
+  margin-left: 300px;
+  padding: 25px;
+}
+
+.thirdSectionDivContent {
+  display: flex;
+  flex-direction: row;
+  position: relative;
+  justify-content: space-between;
+  align-items: center;
+  width: 75%;
+}
