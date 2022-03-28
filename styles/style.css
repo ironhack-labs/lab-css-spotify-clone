@@ -1,214 +1,174 @@
 body{
-    margin: 0;
     padding: 0;
+    margin: 0;
 }
 header{
     display: flex;
-    flex-direction: row;
     width: 100%;
+    height: 60px;
+    padding: 15px 0;
     position: fixed;
     background-color: white;
-    height: 90px;
 }
+header img{
+    display: flex;
+    width: 14%;
+    justify-content: flex-start;
+    margin-left: 2%;
+}
+nav {
+    width: 100%;
+    display: flex;
+    justify-content: flex-end;
+    margin-right: 2%;
 
- .divLogo{
-     width: 100%;
-     display: flex;
- }
- .divLogo img{
-     display: flex;
-     width: 35%;
-     margin-left: 30px;
-     height: 70px;
-     align-items: center;
-     margin-top: 10px;
- }
-
- .divUl{
-     width: 100%;
-     margin-right: 30px;
-     align-items: center;
-     margin-top: 13px;
- }
- ul{
-     display: flex;
-     flex-direction: row;
-     justify-content: flex-end;
-     padding: 0;
+}
+header ul{
+    display: flex;
+    flex-direction: row;
 }
 li{
     display: flex;
-     margin: 0 20px;
-     text-decoration: none;
-     font-size: 25px;
+    margin: 0 14px;
+    font-size:21px;
 }
-.divLanding{
+a{
+    display: flex;
+    text-decoration: none;
+    color: black;
+}
+
+.section1 {
+    display: flex;
+    width: 100%;
+    height: 870px;
+    background-image: url("../images/landing.jpg");
+    background-repeat: none;
+    background-size:cover;
+    justify-content: center;
+    padding-top: 90px;
+}
+.divTitulo{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+}
+h1{
     width: 100%;
     display: flex;
-    justify-content: center;
-    
-}
-.divLanding img{
-    width: 100%;
-}
-.DivText{
-    position: absolute;
-    width: 100%;
-    text-align: center;
-    justify-content: center;
-    margin-top: 200px;
-}
-.divLanding h1{
-    position: absolute;
-    width: 100%;
     font-size: 80px;
     color: white;
-    text-align: center;
+    margin: 30px 0;
 }
-.DivText div{
-    width: 100%;
+p{
     justify-content: center;
-    display: flex;
-}
-
-.divLanding p{
-    width: 600px;
-    position: absolute;
-    font-size: 25px;
-    color: white;
-    margin-top:250px;
-    text-align: center;
-}
-.divH2{
-    display: flex;
-    width: 100%;
-    justify-content: center;
-
-}
-
-h2{
-    margin-top: 40px;
-    display: flex;
-    justify-content: center;
-    text-align: center;
-    font-size: 45px;
-    padding-bottom: 3px;
-    border-bottom:  solid 4px rgb(97, 189, 97);
-}
-
-.divCaracteristicas{
-    margin-top: 80px;
     width: 100%;
     display: flex;
-    flex-direction: row;
-    justify-content: space-around;
-    margin: 0 0;
-    
-}
-h3{
     font-size: 30px;
-     margin: 30px 0 5px 0;
-     color: rgb(54, 189, 144);
+    text-align: center;
+    color: white;
+}
+h2{
+    display: flex;
+    justify-content: center;
+    font-size: 34px;
+    margin: 30px 40%;
+    border-bottom:  solid 4px rgb(97, 189, 97);
+
 }
 .Descriptions{
     display: flex;
-    justify-content: center;
+    flex-direction: row;
     margin: 60px 100px;
-}
-.divCaracteristicas div{
-    justify-content: center;
-    text-align: center;
 
 }
+.DivCaracteristica{
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    
+}
 .DivImageCara{
-    display: flex;
-}
-.divCaracteristicas img{
-    display: flex;
-    width: 30%;
-}
-.DivpCara{
     display: flex;
     width: 100%;
     justify-content: center;
 }
-.DivpCara p {
+.DivImageCara img {
     display: flex;
-    width: 55%;
-    text-align: center;
-    font-size: 24px;
-    color: rgb(139, 137, 137);
+    width: 22%;
 }
+.DivCaracteristica h3{
+    font-size: 30px;
+    display: flex;
+    justify-content: center;
+    color: rgb(54, 189, 144);
 
-.section3{
+}
+.DivCaracteristica p {
+    color: black;
+    font-size: 25px;
+    margin: 0px 0;
+    color: rgb(77, 76, 76);
+
+}
+.section3 {
     background-color: rgb(42, 187, 119);
-    margin: 0 40px;
-    flex-direction: column;
     display: flex;
-    height: 840px;
-
+    flex-direction: row;
+    justify-content: space-around;
+    padding-bottom: 50px;
 }
-.divTittleSection3{
+.section3 h4{
     display: flex;
-    width: 50%;
-    margin-left:120px ;
-}
-h4{
-    display: flex;
-    font-size: 45px;
-    color: rgb(255, 255, 255);
-    padding-bottom: 7px;
+    width: 100%;
+    font-size: 40px;;
+    color: white;
+    margin-left: 9%;
+    margin-bottom: 90px;
     border-bottom: solid 2px white;
 }
 .divColumns{
     display: flex;
-    margin-left: 120px;
+    color: white;
+    width: 100%;
     flex-direction: column;
-    width: 50%;
+    margin-left: 9%;
+    margin-top: 50px;
 }
 .divColumns h5{
-    color: white;
-    font-size: 30px;
-    margin: 8px 0;
     display: flex;
+    font-size:30px;
+    margin: 10px 0;
 }
 .divColumns p{
-    color: rgba(255, 255, 255, 0.753);
-    font-size: 27px;
-    width: 53%;
     display: flex;
+    font-size: 22px;
+    justify-content: flex-start;
+    text-align: left;
 }
 
-
-.divImageKanye{
+.divKanye{
     display: flex;
-    position: absolute;
-    justify-content: start;
-    margin-left: 60%;
-}
-.divImageKanye img{
-    display:flex;
-    position: absolute;
-    margin-top: 100px;
-    width: 400px;
-    height: 610px;
-}
-
-.Section33{
     width: 100%;
-    margin: 0;
+    justify-content: flex-end;
+    margin-top: 90px;
 }
-.divImagespoty{
+.divKanye img{
     display: flex;
-    position: absolute;
-    justify-content: start;
-    margin-left: 40%;
-    margin-top: 13%;
+    width: 60%;
+    margin-right: 10%;
+
 }
-.divImagespoty img{
-    display:flex;
+.iconLogo {
+    display: flex;
+    width: 100%;
     position: absolute;
-    margin-top: 100px;
-    width: 180px;
-    height: 180px;
+    justify-content: center;
+    margin-top: 370px;
+}
+.iconLogo img {
+    display: flex;
+    width: 10%;
+    position: absolute;
 }
