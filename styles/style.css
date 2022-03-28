@@ -18,27 +18,27 @@ html, body {
     padding: 10px;
     width: 100%;
     height: 0px;
+    display: flex;
+    justify-content: space-between;
+    flex-direction: row;
 }
 
 /* left off figuring out how to properly align the links in the nav bar */
-.nav-bar-ul {
-    width:  200px;
-    text-align: center;
-    text-decoration: none;
-}
-  
-.nav-bar-ul li {
+  header {
+      display: flex;
+
+  }
+
+.nav-bar li {
     list-style-type: none;
-    text-align: center;
-    justify-content: flex-end;
     display: flex;
+    flex-direction: row;
 }
 
 .nav-bar a {
     font-size: 1em;
     text-decoration: none;
     color: #1A1A1A;
-
 }
 
 .logo-size {
@@ -46,7 +46,7 @@ html, body {
     align-items: left;
     padding-left: 10px;
     padding-top: 10px;
-
+    display: flex;
 }
 
 .top-section {
@@ -78,29 +78,34 @@ html, body {
     border: 2px solid #00cc99;
 }
 
-#structure > article {
+section#structure {
     display: flex;
     justify-content: space-between;
     flex-direction: row;
-    flex-wrap: wrap;
+    text-align: center;
   }
 
 
 article img {
     height: 100px;
-    display: flex;
-    flex-wrap: wrap;
     align-items: center;
 }
 
 .middle-section {
-    font-size: 1.7em;
-    text-align: center;
+    font-size: 1.3em;
     margin: 50px 5% 0 5%;
     padding: 20px;
     width: 40%;
 }
- .aside1 {
+
+.middle-section h3 {
+    font-size: 1.5em;
+    color: #00cc99;
+    font-weight: bolder;
+}
+
+
+.aside1 {
     text-align: center;
     font-weight: lighter;
     font-size: 30px;
@@ -115,8 +120,33 @@ article img {
 }
 
 .bottom-section {
-   background-image: url('../images/spotify-icon-white.png'); 
-   background-repeat: no-repeat;
-   background-position: cover;
-   
+   color: #FFF;
+   background-color: #00B172;
+}
+
+.bottom-title {
+    font-size: 40px;
+    padding-top: 40px;
+    padding-left: 80px;
+}
+
+.bottom-title hr {
+    margin-top: 10px;
+    margin-right: 1100px;
+    width: 39%;
+    border: 2px solid #FFF;
+}
+
+.bottom-section h3 {
+    font-size: 30px;
+    font-weight: bold;
+}
+
+.bottom-section p {
+    font-size: 20px;
+    padding: 0px 5% 50px 6.5%;
+}
+.bottom-text{
+    padding-left: 80px;
+    padding-top: 0px;
 }
