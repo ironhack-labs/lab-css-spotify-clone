@@ -14,19 +14,24 @@ html, body {
     padding: 0;
 }
 
-.nav-bar {
-    padding: 10px;
-    width: 100%;
-    height: 0px;
+.desktop-menu {
+    display: none;
+}
+
+.mobile-menu {
+    display: none;
+}
+
+.mobile-menu-hamburger {
+    height: 80px;
     display: flex;
-    justify-content: space-between;
-    flex-direction: row;
+    justify-content: flex-end;
 }
 
 /* left off figuring out how to properly align the links in the nav bar */
   header {
       display: flex;
-
+      margin: 1rem;
   }
 
 .nav-bar li {
@@ -44,7 +49,6 @@ html, body {
 .logo-size {
     width: 200px;
     align-items: left;
-    padding-left: 10px;
     padding-top: 10px;
     display: flex;
 }
@@ -53,8 +57,9 @@ html, body {
     background-image: url('../images/landing.jpg');
     background-size: cover;
     background-repeat: no-repeat;
-    margin-top: 100px;
-    padding-top: 200px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
     height: 800px;
 }
 
@@ -122,6 +127,7 @@ article img {
 .bottom-section {
    color: #FFF;
    background-color: #00B172;
+   display: flex;
 }
 
 .bottom-title {
@@ -147,6 +153,25 @@ article img {
     padding: 0px 5% 50px 6.5%;
 }
 .bottom-text{
-    padding-left: 80px;
+    padding-left: 20px;
     padding-top: 0px;
+}
+
+.bottom-images {
+    display: flex;
+}
+
+#spotify-logo {
+    height: 50px;
+    padding-left: 70%;
+    padding-top: 30%;
+    display: flex;
+}
+#spotify-app {
+    height:600px;
+    display: flex;
+    justify-content: flex-end;
+    padding-left: 60%;
+    padding-top: 10%;
+    padding-bottom: 10%;
 }
