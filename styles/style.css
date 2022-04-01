@@ -1,8 +1,69 @@
-/*
-Colors:
+@import url('https://fonts.googleapis.com/css2?family=Montserrat:ital,wght@0,100;0,200;0,300;0,400;0,600;0,700;1,100;1,200;1,300&display=swap');
 
-Text: 1A1A1A
-Green: #00B172
-White: #FFF
 
-*/
+body{
+    font-family: 'Montserrat';
+    font-size: 16px;
+}
+
+
+#main-logo{
+    height: 50px;
+    width: auto;
+    margin-left: 30px;
+    outline: 1px solid red;
+}
+
+nav {
+    display: flex;
+    justify-content: space-between;
+    outline: 1px solid blue;
+    height: 60px;
+    align-items: center;
+    background-color: white;
+}
+
+nav ul {
+    list-style: none;
+    display: flex;
+    justify-content: space-between;
+    padding: 0 25px;
+}
+
+nav a {
+    text-decoration: none;
+    color: black;
+    padding-left: 20px;
+}
+
+header {
+    background-image: url('../images/landing.jpg');
+    height: 800px;
+    background-size: cover;
+}
+
+#landing-section {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    outline: 2px solid green;
+    height: 590px;
+    padding-top: 150px;
+}
+
+#landing-section h1 {
+    color: white;
+    font-weight: 500;
+    font-size: 3.9em;
+}
+
+#landing-section p {
+    color: white;
+    font-weight: 300;
+    font-size: 1.3em;
+    width: 60%;
+    text-align: center;
+    line-height: 150%;
+    margin-top: -20px;
+}
+
