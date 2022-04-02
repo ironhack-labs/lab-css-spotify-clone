@@ -1,8 +1,161 @@
-/*
-Colors:
 
-Text: 1A1A1A
-Green: #00B172
-White: #FFF
 
-*/
+body {
+    color: 1A1A1A;
+    font-family: "Gotham";
+}
+
+h1 {
+    font-size: 1.5em;
+    font-weight: 500;
+}
+
+h2 {
+    text-align: center;
+    margin: 50px;
+    font-size: 2em;
+}
+
+h3 {
+    color: #00B172; 
+    margin: 12px;
+}
+
+h4 {
+    font-size: 1.5em;
+    font-weight: 400;
+    padding-bottom: 20px;
+}
+
+#headerunderlined {
+    text-decoration: underline;
+    text-underline-offset: 8px;
+    text-decoration-color:#00B172;
+    text-decoration-thickness: 3.5px;
+}
+
+header {
+    display: flex;
+    flex-direction: row;
+    position: fixed;
+    background-color: white;
+    padding: 15px;
+}
+
+p {
+    font-size: 0.5em;
+    justify-content: center;
+    margin: 1.5em 12em;
+    font-weight: 200;
+}
+
+ul {
+    display: flex;
+    flex-direction: row;
+    color: black;  
+    list-style-type: none;
+    margin: auto;
+	text-align: center;
+    padding-left: 500px;
+    
+}
+
+li {
+    list-style-type: none; 
+    padding-left: 25px;
+}
+
+#spotifygreenlogo {
+    width: 10%;
+}
+
+.sectionimg {
+    width: 50%
+}
+
+#section-1{
+    background-image: url("../images/landing.jpg");
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: 50% 50%;
+    color: white;
+    height: 500px; 
+    text-align: center;
+    padding-top: 150px;
+    font-size: 50px;
+    font-weight: 500;
+
+}
+
+#articlecontainer {
+    display: flex;
+    flex-direction: row;
+    margin: 5%;
+}
+
+.s2article {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    width: 1200px;
+    margin: 0;
+    padding: 75px 85px;
+    text-align: center;
+}
+
+span {
+    padding-top: 15px;
+    font-weight: 200;
+}
+
+#hdtext {
+    padding-top: 25px;
+}
+
+#section-3 {
+    background-color: #23b26b;
+    color: white;
+    display:flex;
+
+}
+
+#greenheading {
+    text-decoration: underline;
+    font-weight: 400;
+    text-underline-offset: 10px;
+}
+
+#greenarticle {
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+
+    
+}
+
+.s3article {
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+    width: 300px;
+    margin: 0;
+    padding: 20px 50px;
+    padding-right: 120px;
+    margin-right: 100px;
+    font-weight: 200;
+    font-size: 1em;
+    
+}
+
+#whitelogo {
+    padding-top: 270px;
+    padding-right: 50px;
+    height: 85px;
+}
+
+#deviceslogo {
+    padding-top: 120px;
+    padding-left: 30px;
+    padding-bottom: 50px;
+    height: 500px;
+}
