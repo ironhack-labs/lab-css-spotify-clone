@@ -1,8 +1,175 @@
-/*
-Colors:
+@import url('https://fonts.googleapis.com/css?family=Poppins');
 
-Text: 1A1A1A
-Green: #00B172
-White: #FFF
+body {
+  font-family: 'Poppins';
+  padding: 0;
+  margin: 0;
+}
 
-*/
+/* NAV LEFT*/
+.navDiv {
+  padding: 0 2px;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  border-bottom: 1px solid lightgray;
+  margin-left: 25px;
+  margin-right: 25px;
+}
+
+.navDiv img {
+  width: 150px;
+}
+
+
+/* NAV RIGHT */
+nav {
+  width: 500px;
+}
+
+nav ul {
+  list-style: none;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+nav a {
+  /* Thẻ a mất gạch chân */
+  text-decoration: none;
+  color: black;
+}
+
+
+/* HEADER*/
+header {
+  background-image: url(../images/landing.jpg);
+  background-position: center;
+  background-size: cover;
+  background-repeat: no-repeat;
+  height: 800px;
+  width: 100%;
+  color: white;
+  text-align: center;
+
+}
+
+h1 {
+  font-size: 90px;
+  font-weight: 800;
+  padding-top: 200px;
+  padding-bottom: 40px;
+  margin: 0 auto;
+  text-align: center;
+}
+
+#header article {
+  font-size: 30px;
+  /* Muốn paragraph dưới title h1 và backgroundimage ở giữa : chọn flex center width 100% */
+  display: flex;
+  justify-content: center;
+  width: 100%;
+}
+
+/* First Section */
+.first-section {
+  height: 300px;
+  padding-top: 35px;
+  text-align: center;
+  margin-bottom: 100px;
+}
+
+h2 {
+  margin: 0 auto;
+  letter-spacing: 2px;
+  font-weight: 900;
+}
+
+hr {
+  height: 0.2em;
+  width: 13em;
+  /* Muốn thẻ hr đậm hơn : border hoặc padding; */
+  /* border: 1px solid rgb(2, 174, 2); */
+  background-color: #33ae75;
+  padding-top: 0.5px;
+}
+
+.first-section div {
+  display: flex;
+  justify-content: space-evenly;
+  text-align: center;
+  align-items: baseline;
+  margin: 0 auto;
+  padding-top: 60px;
+  padding-bottom: 60px;
+}
+
+h4 {
+  margin-bottom: 5px;
+  color: #33ae75;
+  font-weight: bolder;
+}
+
+.first-section div img {
+  width: 80px;
+  /* Muốn ảnh icon ở giữa */
+  margin: 0 auto;
+}
+
+.first-section div article {
+  display: flex;
+  justify-content: center;
+  flex-direction: column;
+  width: 200px;
+}
+
+/* Second Section */
+.second-section {
+  height: 600px;
+  text-align: left;
+  background-color: #33ae75;
+  color: white;
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+  margin-left: 25px;
+  margin-right: 25px;
+}
+
+.second-section>div>h2 {
+  font-size: 30px;
+  margin: 0 auto;
+  letter-spacing: 2px;
+  font-weight: 900;
+  color: white;
+
+}
+
+.second-section>div>hr {
+  height: 0.2em;
+  width: 30em;
+  /* Muốn thẻ hr đậm hơn : border hoặc padding; */
+  border: 1px solid white;
+  background-color: white;
+  text-align: left;
+  padding-top: 0.5px;
+  margin-bottom: 50px;
+}
+
+.article {
+  align-items: baseline;
+  width: 500px;
+  margin-left: 100px;
+}
+
+.second-section h4 {
+  font-size: 20px;
+  margin-bottom: 5px;
+  font-weight: bolder;
+  color: white
+}
+
+.second-section img {
+  width: 300px;
+  padding: 100px;
+}
