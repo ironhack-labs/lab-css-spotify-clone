@@ -10,7 +10,6 @@ White: #FFF
 body{
     font-family: Signika, sans-serif;
     margin: 0 auto;
-    width: auto;
 }
 
 header img {
@@ -27,9 +26,8 @@ header {
 }
 
 .navbar-right{
+    margin-right: 5px;
     display: flex;
-    margin-right: 20px;
-    width: 27%;
     justify-content: space-between;
 }
 
@@ -191,8 +189,13 @@ a:hover{
 }
 
 .app-photo {
-    margin: 50px auto 0 auto;
+    margin: auto;
+    min-width: 200px;
     width: 50%;
-    margin-top: 100px;
+    position: relative;
+    top: 50%;
+    -ms-transform: translateY(-50%);
+    transform: translateY(-50%);
+
 }
 
