@@ -1,7 +1,7 @@
 /*
 Colors:
 
-Text: 1A1A1A
+Text: #1A1A1A
 Green: #00B172
 White: #FFF
 
@@ -13,39 +13,85 @@ body, p, h1, h2, h3{
     font-weight: 200;
 }
 
+body {
+    margin: 0;
+    padding: 0;
+}
+
 header {
-    background-image: url(/images/landing.jpg);
+    background-image: url(../images/landing.jpg);
     background-size: cover;
     color: white;
-    height: 650px;    
     display: flex;
     justify-content: center;
     align-items: space-between;
     flex-wrap: wrap;
+    height: 708px; 
+    background-position-x: 0%;
+    background-position-y: 30%;
+    padding-bottom: 13%;
+}
+
+.hero-image {
+    background-image: url("../images/landing.jpg");
+    background-size: cover;
+    height: 400px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+  }
+  
+.hero-image h1{
+    color: white;
+    text-align: center;
+    font-size: 2.5rem;
+    margin-bottom: 0.5rem;
+  }
+  
+  
+.hero-image p{
+    color: white;
+    text-align: center;
+    padding: 0 0.5rem;
+  }
+  
+
+.navigation {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    margin: 1rem;
+}
+
+.hero-image .navigation img {
+    height: 48px;
+}
+
+#concert {
+    padding-bottom: 15%;
 }
 
 nav {
     background-color: white;
     width: 100%;
-    height: 10%;
+    height: 14%;
     display: flex;
     justify-content: space-between;
     align-items: center;
-
   }
   
   nav ul {
     list-style: none;
     display: flex;
     color: black;
-    /* justify-content: space-between;
-    align-items: flex-end; */
   }
 
   nav ul li {
-      margin-left: 10px;
-      margin-right: 10px;
+      margin-left: 0px;
+      margin-right: 1.35em;
       font-weight: 400;
+      font-size: 21px;      
   }
   
   li > a {
@@ -54,24 +100,8 @@ nav {
   }
 
   #logo {
-    height: 50px;
-    /* padding-top: 5px; */
+    height: 67px;
     margin-left: 1rem;
-  }
-  
-
-
-  /* not in use -  */
-  .logo {
-    height: 50px;
-    display: flex;
-   justify-content: flex-start;  
-    align-items: flex-start;  
-    /* margin: 5px 5px 5px 5px; */
-    /* flex-grow: 2;
-    font-family: "Fira Mono", "Andale Mono", "Consolas", monospace;
-    font-size: 16px;
-    letter-spacing: 0px;   */
   }
 
 header > section {
@@ -83,6 +113,12 @@ header > section {
     text-align: center;
 }
 
+header p { /* or assign ID to txt bnth h1 */
+    font-size: 1.7rem;
+    font-weight: 300;
+    margin-top: -5%;    
+}
+
 p {
     font-size: 1.3rem;
     font-weight: 300;
@@ -90,16 +126,17 @@ p {
 }
 
 .top-half p {
-    font-size: 1rem;
+    font-size: 1.5rem;
     text-align: center;
     padding-bottom: 10%
 }
 
 h1 {
-    font-size: 3rem;
+    font-size: 5rem;
     font-weight: 600;
-    margin-bottom: 0;
-    margin-top: 0;
+    width: 105%;
+    margin-left: 20px;
+    margin-top: 10%;
 }
 
 h2{
@@ -108,19 +145,20 @@ h2{
 }
 
  .top-half{
-    height: 415px;
+    margin-bottom: 10%;
  }  
 
 #underlined {
-    /* background-color: red; */
-    font-size: 1.5rem;
+    font-size: 2rem;
     font-weight: 600;
     border-bottom: 3px solid #00B172;
     margin-bottom: 10%;
+    margin-top: 3%;
+    padding-bottom: 5px;
 }
 
 .top-half > div > section > div > img {
-    height: 75px;
+    height: 100px;
 }
 
 .top-half > div {
@@ -131,11 +169,9 @@ h2{
 }
 
 .top-half > div > section {
-    /* width: 33%; */
     display: flex;
     flex-direction: row;
     justify-content: space-evenly;
-   /*  align-content: center; */
     height: 200px;
 }
 
@@ -146,7 +182,6 @@ h2{
     justify-content: center;
     align-items: center;
     text-align: center;
-    /* padding-left: 5px; */
     justify-content: center;    
     
 }
@@ -154,81 +189,164 @@ h2{
 h3 {
     color: #00B172;
     font-weight: 700;
+    font-size: 1.65rem;
 }
 
 
- /* img {
-    height: 75px;
-    padding-bottom: 20px;    
-    padding-top: 25px;
-} */
-
-/* article {
+.features .features-header-container {
+    text-align: center;
+    margin-top: 3rem;
+  }
+  
+  .features h2{
+    text-align: center;
+    border-bottom: 5px solid #00B172;
+    display: inline;
+    padding-bottom: 0.25rem;
+  }
+  
+  .features .features-header-container + div{
+    margin-bottom: 2rem;
+  }
+  
+  .features h3 {
+    color: #00B172;
+    margin-top: 0.5rem;
+    margin-bottom: 0;
+  }
+  
+  .features div > section > div {
     display: flex;
     flex-direction: column;
-    width: 950px;
-} */
+    align-items: center;
+    text-align: center;
+    margin-top: 2rem;
+  }
+  
+  .features div > section > div > img {
+    width: 92px;
+    height: 76px;
+  }
+  
+  .features div p {
+    padding: 0 1rem;
+    margin-top: 0.5rem;
+  }
 
 .bottom  {
     /* background-color: rgb(84,175,113); */
-    background-color: #20a658;
-    /* display: flex;
-    flex-direction: column;
-    align-items: center; */
+    /* background-color: #20a658; */
+    background-color: #00B172; /* new */
     display: flex;
     flex-direction: row;
     align-items: center;
-    margin-left: 2%;
-    margin-right: 2%;    
+    margin-left: 3%;
+    margin-right: 3%;    
     padding-left: 5%;
     height: 500px;
     margin-bottom: 2%;    
+    padding-top: 7%; 
+    padding-bottom: 15%;    
 }
 
 .bottom * {
     color: white;    
-    /* background-image:  url(/images/spotify-logo.png); */
-    /* display: flex; */
 }
 
 .bottom > section {
-    /* width: 50%; */
     display: flex;
     flex-direction: column;
-    align-items: flex-start;
+    align-items: flex-start;    
+    margin-bottom: -2%;    
 }    
 
 .bottom > section > article {
     align-content: left;
-    width: 260px;
+    width: 49%;
+    font-size: 20px;
+    font-weight: 300;    
 }
 
 
 
 .bottom h2 {
-    font-size: 1.5rem;
+    font-size: 2.3rem;
     font-weight: 600;
     border-bottom: 3px solid white;
     margin-bottom: 5%;
-    width: 350px;
+    margin-top: -10%;
+    padding-bottom: 10px;
 }
 
-/* .bottom img {
-    width: 100px;
-} */
+#details {
+  color: white;
+  background-color: #00B172;
+  padding-bottom: 4rem;
+}
+
+#details .details-image-container {
+  display: flex;
+  justify-content: center;
+}
+
+#details .details-image-container img {
+  width: 80%;
+  margin: 3rem 0;
+}
+
+#details .details-spotify-logo-container {
+  display: flex;
+  justify-content: center;
+}
+
+#details .details-spotify-logo-container img {
+  width: 92px;
+}
+
+#details h2 {
+  text-align: center;
+  border-bottom: 5px solid white;
+  padding-bottom: 0.25rem;
+  margin: 3rem 1rem 1rem 2rem;
+}
+
+#details article {
+  text-align: center;
+  margin: 2rem;
+}
+
+
+#details article p{
+  line-height: 1.5rem;
+}
+
 
 #app-preview{
-    width: 40%
+    width: 60%;
+    margin-right: 15%;
+    margin-top: 5%;    
 }
 
 #logo-white{
-    width: 100px;
+    width: 135px;
+    transform: translateX(-100%);
 }
 
 #images {
     display: flex;
     flex-direction: row;
-    justify-content: space-around;
+    justify-content: center;
     align-items: center;
     padding-top: 5%;
+}
+@media(min-width: 768px){
+
+    .features > div> section > div:last-of-type{
+      display: flex;
+      justify-content: center;
+    }
+  
+    .features article{
+      flex: 1;
+    }
 }
