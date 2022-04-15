@@ -6,3 +6,115 @@ Green: #00B172
 White: #FFF
 
 */
+* {
+  font-family: "Gill Sans", "Gill Sans MT", Calibri, "Trebuchet MS", sans-serif;
+  color: 1A1A1A;
+}
+
+#header-logo {
+  position: static;
+  width: auto;
+  max-width: 30%;
+}
+
+#navbar {
+  display: flex;
+  flex-direction: row;
+  flex-wrap: nowrap;
+  justify-content: flex-end;
+  align-items: flex-start;
+  align-content: flex-end;
+}
+
+ul li {
+  display: inline;
+  padding-left: 5px;
+  padding-right: 5px;
+  font-size: larger;
+}
+.center-me {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+#large-image {
+  min-height: 50%;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  color: #fff;
+  text-align: center;
+}
+
+#image-landing img {
+  min-height: 100%;
+  min-width: 1024px;
+  /* Set up proportionate scaling */
+  width: 100%;
+  height: auto;
+}
+
+#text-landing {
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+}
+
+#text-landing h1 {
+  font-weight: lighter;
+}
+#text-landing h2 {
+  font-weight: lighter;
+  font-size: small;
+}
+
+#description {
+  text-align: center;
+}
+
+#description div {
+  width: 30%;
+}
+#description img {
+  width: 50%;
+  height: auto;
+}
+
+#description h1 {
+  text-decoration: underline;
+  text-decoration-color: #00b172;
+  text-decoration-thickness: 3px;
+}
+#description h3 {
+  color: #00b172;
+}
+
+.flex-center {
+  display: flex;
+  justify-content: center;
+}
+
+#example {
+  background-color: #00b172;
+  margin-left: 1%;
+  margin-right: 1%;
+  padding-top: 5%;
+  padding-bottom: 5%;
+  padding-left: 10%;
+  padding-right: 10%;
+  color: #fff;
+}
+
+#example h1 {
+  text-decoration: underline;
+}
+
+#app-image {
+  right: 0;
+  padding-top: 10%;
+  height: 30px;
+  width: auto;
+  position: relative;
+}
