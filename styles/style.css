@@ -4,5 +4,180 @@ Colors:
 Text: 1A1A1A
 Green: #00B172
 White: #FFF
-
+font-family: 'Lato', sans-serif;
+font-family: 'Montserrat', sans-serif;
 */
+
+h1,
+h2,
+h3 {
+  font-family: "Montserrat", sans-serif;
+}
+p,
+a {
+  font-family: "Lato", sans-serif;
+}
+* {
+  color: #1a1a1a;
+}
+nav {
+  display: flex;
+  justify-content: space-between;
+  position: sticky;
+}
+
+.nav-list {
+  display: flex;
+  justify-content: space-between;
+}
+
+.nav-list li {
+  list-style: none;
+  padding: 1rem;
+}
+
+.nav-list a {
+  color: black;
+  text-decoration: none;
+  font-size: 20px;
+}
+
+.img-container img {
+  width: 150px;
+  padding-top: 1rem;
+}
+
+#info,
+#teaser {
+  padding: 2rem;
+}
+
+#hero {
+  min-height: 700px;
+  background-image: url(/images/landing.jpg);
+  background-size: cover;
+  background-repeat: no-repeat;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+
+.hero-title,
+.intro {
+  color: white;
+}
+
+.hero-title {
+  font-size: 72px;
+  margin-bottom: 2rem;
+}
+
+.intro {
+  font-size: 24px;
+  width: 80%;
+  font-weight: 300;
+  text-align: center;
+  line-height: 1.5;
+  letter-spacing: 1.5px;
+}
+
+#info {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  height: 400px;
+}
+
+#info h2 {
+  width: 30%;
+  padding-bottom: 0.8rem;
+  border-bottom: 3px solid #00b172;
+  text-align: center;
+  font-weight: 700;
+}
+
+h2 {
+  font-size: 34px;
+}
+
+h3 {
+  font-size: 24px;
+}
+
+.card-container {
+  display: flex;
+  justify-content: space-evenly;
+  align-items: center;
+  flex-basis: 33%;
+}
+
+.card-img {
+  max-width: 50px;
+  height: 40px;
+}
+.card {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  padding: 1.5rem;
+  flex: 0 0 250px;
+}
+
+.card-heading {
+  color: #00b172;
+  text-align: center;
+}
+
+p.card-text {
+  text-align: center;
+  letter-spacing: 1px;
+}
+
+#teaser {
+  background-color: #00b172;
+  padding: 3rem;
+  margin: 0 2rem;
+}
+#teaser h2,
+#teaser h3,
+#teaser p {
+  color: white;
+}
+
+#teaser h2 {
+  width: 40%;
+  padding-bottom: 0.5rem;
+  border-bottom: 3px solid white;
+}
+
+.icon-wrapper > img {
+  width: 150px;
+}
+
+.app-img > img {
+  width: 350px;
+}
+
+.teaser-text {
+  width: 25%;
+}
+
+.teaser-text p {
+  font-size: 22px;
+  font-weight: 300;
+  padding-bottom: 1rem;
+}
+.teaser-wrapper {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  position: relative;
+}
+.icon-wrapper {
+  position: absolute;
+  bottom: 50%;
+  left: 50%;
+}
