@@ -4,5 +4,174 @@ Colors:
 Text: 1A1A1A
 Green: #00B172
 White: #FFF
-
 */
+@import url('https://fonts.googleapis.com/css2?family=Montserrat&display=swap');
+
+* {
+  box-sizing: border-box;
+  margin: 0;
+  padding: 0px;
+}
+
+
+/* Navigation Bar  */
+
+header {
+  display: flex;
+  justify-content: flex-end;
+  align-items: center;
+  padding: 1% 1%;
+}
+
+li{
+  list-style: none;
+  display: inline;
+  padding-right: 6px;
+}
+
+a{
+  text-align: center;
+  text-decoration: none;
+  font-family: 'Montserrat', Arial, Helvetica, sans-serif;
+  color: #1A1A1A;
+}
+
+.logo{
+  width: 150px;
+  margin-right: auto;
+}
+
+
+/* Section 1 -> image background and white text */
+
+.text-container{
+  max-width: 100%;
+  margin: auto;
+  height: 100%;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+#white-font {
+  font-family: 'Montserrat',Arial, Helvetica, sans-serif;
+  color: white;
+  text-align: center;
+}
+
+#first-section {
+  background-image: url(/images/landing.jpg);
+  background-size: cover;
+  background-repeat: no-repeat;
+  height: 600px;
+}
+
+#music {
+  font-size: 55px;
+}
+
+.music-p {
+  font-size: 15px;
+}
+
+.p-container {
+  margin-top: 15px;
+}
+
+
+/* Section 2 -> black icons and green text*/
+
+#second-section {
+  height: 500px;
+}
+
+#icons-info-container {
+  height: 400px;
+  display: flex;
+  justify-content: space-evenly;
+  align-items: center;
+}
+
+.b-icons{
+  width: 300px;
+  height: 250px;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+
+.h1-container{
+  display: flex;
+  justify-content: center;
+}
+
+.h1-black{
+  font-family:'Montserrat',Arial, Helvetica, sans-serif;
+  font-weight: bolder;
+  display: inline;
+  padding-top: 20px;
+  padding-bottom: 5px;
+  border-bottom: 3px solid #00B172;
+}
+
+
+.black-icon {
+  height: 80px;
+}
+
+.green-text {
+  font-family: 'Montserrat',Arial, Helvetica, sans-serif;
+  color: #00B172;
+  padding: 10px 0;
+}
+
+.black-text {
+  font-family: 'Montserrat',Arial, Helvetica, sans-serif;
+  padding-top: 5px;
+  color: #1A1A1A;
+  font-weight: 300;
+  text-align: center;
+}
+
+
+#third-section{
+  background-color: #00B172;
+  margin: 15px;
+  height: 600px;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.testing{
+  color: white;
+  font-family: 'Montserrat',Arial, Helvetica, sans-serif;
+  width: 300px;
+  margin: 5px;
+  padding-left: 20px;
+}
+
+.white-title{
+  border-bottom:2px solid white;
+  width: 120%;
+  padding-bottom: 5px;
+}
+
+.wt-left {
+  padding-top: 40px;
+  padding-bottom: 5px;
+  height: 100px;
+}
+
+#white-logo{
+  width: 75px;
+}
+
+.whitelg{
+  height: 70px;
+}
+
+.yeezy{
+  height: 450px;
+}
