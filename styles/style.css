@@ -1,52 +1,160 @@
-#logo{
-    width: 200px;
-    
-}
-.nav {
-    
+html,
+body {
+  margin: 0;
+  padding: 0;
+  
 }
 
-.nav-bar-ul{
-    list-style-type: none;
-    margin: 0;
-    padding: 0;
-    
+.spotify-logo {
+    width: 200px;;
+    height: 5%;
+    padding: 20px;
+    margin-top: 6px;
+    margin-left: 20px;
+  }
+
+  header > div {
+    padding: 0 25px;
     display: flex;
-    justify-content:flex-end ;
+    justify-content: space-between;
+    align-items: center;
+    border-bottom: 1px solid lightgray;
+    margin-top: -12px;
+  }
+
+  nav {
+    width: 600px;
+
+  }
+  
+  nav ul {
+    list-style: none;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    width: 400px;
+  
+  }
+
+  .banner {
+    color: white;
+    background-size: cover;
+    padding: 200px 0;
+    height: 650px;
+  }
+
+  .container {
+    display: flex;
+    flex-direction: column;
+    justify-content: space-around;
+    align-items: center;
+  }
+
+  .banner h1 {
+    font-size: 100px;
+    align-items: center;
+  }
+  
+  .banner p {
+    margin-top: -20px;
+    font-size: 30px;
+    font-weight: lighter;
+    align-items: center;
+    text-align: center;
+    width: 1400px;
+  }
+
+  .navbar-links {
+    text-decoration: none;
+    font-size: 25px;
+    color: black;
+  }
+
+
+#middle {
+    height: 550px;
+    padding-top: 20px;
     
-}
-
-#bg-image{
-    background-image: inherit;
-}
-#landing {
-    width: 100px;
-}
-
-img {
-    width: 100px;
 }
 
 .whaton {
-    font-size: 30px;
+    font-size: 40px;
     text-align: center;
     text-decoration: underline;
+    text-decoration-color : #00B172 ;
+}
+.whaton  h2 {
+    color: #00B172;
 }
 
+
+.symbol {
+    color: #00B172;
+}
+
+.img {
+    width: 150px;
+}
+
+.caption {
+   
+    
+  font-weight: 100;
+  text-align: center;
+  
+}
+
+.set {
+    width: 400px;
+    margin: 0 auto;
+    padding: 75px 0;
+}
 .flex-container {
     display: flex;
     justify-content: center;
-    align-items: center;
+    align-items: baseline;
 }
 
 .flex-container > div {
     margin: 10px;
     padding: 20px;
     text-align: center;
-    line-height: 75px;
     font-size: 20px;
 }
 
+ .footer {
+    background-color: #00B172;
+    color: #FFF;
+    padding-top: 80px;
+    padding-bottom: 80px;
+    color: white;
+
+}
+
+.footer  h1 {
+    text-decoration: underline;
+    font-weight : bold ;
+    color: #FFF;
+    font-family:Arial, Helvetica, sans-serif ; 
+}
+
+.footer {
+    text-align: left;
+    font-size: 1.9em;
+    padding: 40px 100px;
+    margin-bottom: 25px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+  }
+
+  #icon {
+      width: 125px;
+  }
+
+  #app {
+      height: 650px;
+  }
 /*
 Colors:
 
