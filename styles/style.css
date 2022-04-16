@@ -1,8 +1,56 @@
-/*
-Colors:
 
-Text: 1A1A1A
-Green: #00B172
-White: #FFF
+.navbar {
+    display: flex;
+    position: fixed;
+    width: 100%;
+    justify-content: space-between;
+    top: 0px;
+    
+}
+.nav-menu {
+    list-style: none;
+    display: flex;
+    align-items: center;
+    margin-left: 10px;
+}
 
-*/
+.nav-menu{
+    height: 100px;
+    width: auto;
+}
+
+.hero{
+    display: flex ;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    margin-top: 100px;
+    width: 100%;
+    height: 500px;
+    background position: center;
+    background-size: cover;
+    background-image:url("/image")
+    color #fff ;
+}
+.hero-description{
+    text-align: center;
+}
+.features{
+    display: flex;
+
+
+}
+.features-column{
+    width: 30%;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+.features-column-icon{
+    height: auto;
+    width: 100px;
+}
+.features-column-title{
+    color: #00b;
+}
