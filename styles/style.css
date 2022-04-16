@@ -17,13 +17,20 @@ p,
 a {
   font-family: "Lato", sans-serif;
 }
+
+body {
+  margin: 0;
+}
 * {
   color: #1a1a1a;
 }
 nav {
   display: flex;
   justify-content: space-between;
-  position: sticky;
+  position: fixed;
+  width: calc(100% - 4rem);
+  background: white;
+  padding: 0 2rem;
 }
 
 .nav-list {
@@ -44,7 +51,8 @@ nav {
 
 .img-container img {
   width: 150px;
-  padding-top: 1rem;
+  display: flex;
+  align-items: center;
 }
 
 #info,
@@ -53,9 +61,10 @@ nav {
 }
 
 #hero {
+  padding-top: 150px;
   min-height: 700px;
   background-image: url(/images/landing.jpg);
-  background-size: cover;
+  background-size: 100%;
   background-repeat: no-repeat;
   display: flex;
   flex-direction: column;
@@ -108,9 +117,10 @@ h3 {
 
 .card-container {
   display: flex;
-  justify-content: space-evenly;
+  justify-content: space-between;
   align-items: center;
-  flex-basis: 33%;
+  gap: 3rem;
+  max-width: 1200px;
 }
 
 .card-img {
@@ -123,7 +133,7 @@ h3 {
   align-items: center;
   justify-content: center;
   padding: 1.5rem;
-  flex: 0 0 250px;
+  width: 33%;
 }
 
 .card-heading {
