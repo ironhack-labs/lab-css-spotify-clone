@@ -6,3 +6,73 @@ Green: #00B172
 White: #FFF
 
 */
+
+@import url('https://fonts.googleapis.com/css2?family=Montserrat:wght@200;400&family=Roboto:wght@400;700;900&display=swap');
+
+body {
+   font-family: 'Montserrat', sans-serif;
+  }
+
+#logo-nav-bar > img {
+      width: 150px;
+      margin: 5px 20px;
+  }
+
+#logo-nav-bar {
+    display: flex;
+    justify-content: space-between;
+}
+
+nav a {
+    text-decoration: none;
+    color: black;
+}
+
+nav ul {
+    list-style: none;
+    display: flex;
+    gap: 1rem;
+  }
+
+header {
+    background-image: url("./images/landing.jpg");
+    background-position: 0% 0%;
+    background-repeat: no-repeat;
+    background-size: cover;
+    height: 500px;
+    padding: 50px 0 0 0;
+    display: flex;
+    flex-direction: column;
+}
+
+h1 {
+    font-size: 3.5em;
+    /*color: white;*/
+    text-align: center;
+    font-weight: bold;
+}
+
+header > p {
+    text-align: center;
+    width: 550px;
+    /*color: white;*/
+    font-size: 20px;
+    /* margin-left: 120px; */
+    display: flex;
+    align-items: center;
+}
+
+#whats-on-spotify-section > h2 {
+    text-align: center;
+}
+
+hr {
+    margin: 20px auto 30px auto;
+    width: 20%;
+    color: #00B172;
+}
+
+#whats-on-spotify-section > div{
+    display: flex;
+    justify-content: space-around;
+}
