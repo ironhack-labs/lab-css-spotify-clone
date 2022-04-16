@@ -6,3 +6,147 @@ Green: #00B172
 White: #FFF
 
 */
+* {
+  font-family: sans-serif;
+}
+
+body {
+  margin: 0;
+}
+
+header {
+  width: 100%;
+  height: 100px;
+  background-color: #fff;
+  position: fixed;
+}
+
+a {
+  text-decoration: none;
+  color: black;
+}
+
+.navg {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+}
+
+ul {
+  display: flex;
+  flex-direction: row;
+  justify-content: flex-end;
+  font-size: 30px;
+}
+
+li {
+  list-style: none;
+  text-decoration: none;
+  margin-left: 30px;
+}
+
+.firstS {
+  background-image: url("../images/landing.jpg");
+  background-repeat: no-repeat repeat;
+  color: #fff;
+  background-size: 100%;
+  height: 50vw;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+}
+
+h1 {
+  font-size: 60px;
+}
+article {
+  font-size: 20px;
+  text-align: center;
+}
+.secondS {
+  padding-top: 70px;
+  padding-bottom: 70px;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+.middle {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  text-align: center;
+  width: 200px;
+}
+
+.middle > h3 {
+  color: #00b172;
+}
+
+.middleDiv {
+  display: flex;
+  width: 100%;
+  justify-content: space-around;
+}
+
+#scndTitle {
+  font-size: 35px;
+  border-bottom: 3px solid #00b172;
+  margin-bottom: 80px;
+}
+
+.thirdS {
+  background-color: #00b172;
+  background-image: url("../images/spotify-icon-white.png");
+  background-repeat: no-repeat;
+  background-position: center;
+  background-size: 100px;
+  height: 500px;
+  color: #fff;
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+  height: 700px;
+}
+
+.lastPart {
+  text-align: left;
+  width: 300px;
+  margin: 30px;
+}
+
+#lastTitle {
+  font-size: 35px;
+  width: max-content;
+  border-bottom: 3px solid #fff;
+}
+
+.lastPart > h3 {
+  font-size: 25px;
+  width: ;
+}
+p {
+  font-size: 20px;
+}
+
+/* IMAGES */
+#logo {
+  max-width: 300px;
+}
+
+#qualityIcon {
+  max-width: 100px;
+}
+
+#musicIcon {
+  max-width: 100px;
+}
+
+#devicesIcon {
+  max-width: 100px;
+}
+
+#app {
+  max-width: 320px;
+  width: 100%;
+}
