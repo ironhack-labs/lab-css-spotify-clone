@@ -6,6 +6,9 @@ Green: #00B172
 White: #FFF
 
 */
+body {
+  weight: 300;
+}
 .nav-bar {
     
     display: flex;
@@ -13,12 +16,12 @@ White: #FFF
 }
 .nav-bar-img {
   position: left;
-  width: 10px;
-  height: 30px;
+  width: 130px;
+  height: 60px;
 }
 
 .nav-bar-ul {
-    width: 1200px;
+  width: 900px;
   margin: 0 auto;
   display: flex;
   justify-content: space-evenly;
@@ -31,4 +34,56 @@ White: #FFF
   color: white;
   text-decoration: none;
   font-size: 2em;
+}
+.header {
+  background-image: url(images/landing.jpg);
+  position: 0 0;
+  position: relative;
+  repeat: no-repeat;
+  size: cover;
+  height: 850px;
+  padding-top: 50px;
+}
+section1 {
+  display: flex;
+  justify-content: center;
+}
+#heading-section2{
+  border-bottom: 1px solid #00B172;
+  margin-bottom: 20px;
+  position: center;
+}
+section1> div {
+  margin-top: 20px;
+  display: flex;
+  flex-direction: row;
+}
+section1> div> article {
+  padding: 20px;
+}
+.devices-icon, .music-icon, .high-quality-icon {
+  width: 110px;
+}
+
+section2 {
+  background-color: #00B172;
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  padding: 30px;
+  color: #FFF;
+  font-size: 20px;
+  font-family: serif;
+}
+#heading-section2 {
+padding-bottom: 10px;
+border-bottom: 2px solid #FFF;
+}
+.icon-white {
+  width: 80px;
+  height: 80px;
+
+}
+.spotify-app {
+  width: 310px;
 }
