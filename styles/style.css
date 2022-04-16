@@ -6,3 +6,180 @@ Green: #00B172
 White: #FFF
 
 */
+/*reset*/
+* {
+    margin: 0;
+	padding: 0;
+	border: 0;
+	font-size: 100%;
+	font: inherit;
+	vertical-align: baseline;
+}
+
+/* fonts */
+h1, h2, h3, li, p {
+    font-family: Arial, Helvetica, sans-serif;
+  }
+  
+/* tamaño y fondo de secciones*/
+
+header {
+    height: 10vh;
+    background-color: rgb(255, 255, 255);
+    padding: 15px;
+}
+
+.hero {
+    height: 90vh;
+    background-image: url("/images/landing.jpg");
+    background-position: center;
+    background-size: cover;
+}
+
+.mobile {
+    height: 80vh;
+    background: url("/images/spotify-icon-white.png"), #00B172;
+    background-position: center;
+    background-size: 7%;
+    background-repeat: no-repeat;
+    margin-left: 30px;
+    margin-right: 30px;
+}
+
+.attributes {
+    height: 50vh;
+}
+
+/*Tamaño de imagenes*/
+header img {
+    width: 190px;
+    height: 60px;
+}
+
+.attributes img {
+    width: 100px;
+    height: 100px;
+    padding-bottom: 10px;
+}
+
+
+.mob img{
+    width: 300px;
+    height: 500px;
+    margin-top: -80px;
+}
+
+
+/* sections flexbox*/
+.site-header {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+/* header */
+
+
+li {
+    display: inline;
+    margin: 10px;
+}
+
+/* seccion 1: hero*/
+.hero {
+    color: white;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+}
+
+.hero h1 {
+    font-size: 50px;
+    font-weight: 600;
+}
+
+.hero p {
+    font-size: 20px;
+    text-align: center;
+}
+
+/* seccion 2: attributes*/
+.attributes {
+    color: rgb(0, 0, 0);
+padding: 2em;
+background-color: rgb(255, 255, 255);
+text-align: center;
+}
+
+.attributes h2 {
+font-size: 30px;
+font-weight: 600;
+text-decoration: underline solid #00B172;
+}
+
+.attributes article h3{
+font-size: 20px;
+font-weight: 600;
+color: #00B172;
+padding-bottom: 10px;
+}
+
+.icons {
+display: flex;
+padding: 1em;
+margin: 1em;
+}
+.child{
+    flex-basis: 100%;
+    text-align: center;
+    padding: 40px;
+}
+
+
+/* seccion 3: mobile*/
+
+.mobile {
+    padding-top: 10vh;
+    padding-bottom: 10vh;
+    padding-right: 10vw;
+    padding-left: 10vw;
+}
+
+.mobile h2 {
+font-size: 30px;
+color: white;
+text-decoration: underline solid white;
+}
+
+.mob{
+color: white;
+padding-top: 80px;
+}
+.mob:first-child {
+display: inline-flex;
+display: table-row;
+float: left;
+width: 33%;
+}
+
+.mob {
+display: inline-flex;
+float: inline-end;
+}
+
+.mob h3 {
+font-size: 25px;
+font-weight: 600;
+padding-top: 20px;
+padding-bottom: 20px;
+}
+
+.mob h3:first-child {
+    padding-top: 0px;
+}
+
+.mob article > p {
+font-size: 20px;
+padding-bottom: 30px;
+}
