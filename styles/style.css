@@ -6,3 +6,135 @@ Green: #00B172
 White: #FFF
 
 */
+@import url("https://fonts.googleapis.com/css?family=Open+Sans&display=swap");
+
+body {
+  font-family: "Open Sans", sans-serif;
+  margin: auto;
+  width: 80%;
+}
+
+header > div {
+  padding: 0 25px;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  gap: 1em;
+  flex-wrap: wrap;
+}
+
+nav {
+  width: 600px;
+}
+
+nav ul {
+  display: flex;
+  justify-content: flex-end;
+  gap: 1rem;
+  list-style: none;
+  flex-wrap: wrap;
+}
+
+nav a {
+  text-decoration: none;
+  color: black;
+}
+
+.spotify-header {
+  width: 150px;
+  margin-right: 1rem;
+}
+
+.section-1 {
+  background-image: url(/images/landing.jpg);
+  background-repeat: no-repeat;
+  background-size: cover;
+  height: 100vh;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+
+h1 {
+  font-size: 4rem;
+  color: white;
+}
+
+.p-section1 {
+  text-align: center;
+  color: white;
+  font-size: 1.5rem;
+  height: 100px;
+  max-width: 700px;
+}
+
+h3 {
+  color: #00b172;
+}
+
+.container {
+  display: flex;
+  gap: 2rem;
+  width: 900px;
+  align-items: center;
+  justify-content: center;
+  text-align: center;
+  margin-bottom: 30px;
+}
+
+.section-2 {
+  display: inline-block;
+  margin-left: 150px;
+}
+
+.section-2 > h2 {
+  text-align: center;
+  margin-bottom: 70px;
+  width: max-content;
+  margin-left: 350px;
+  border-bottom: 3px solid #00b172;
+}
+
+.container > * {
+  flex: 1;
+}
+
+article > img {
+  width: 100px;
+}
+/* display:inline-block;
+  gap: 3rem;
+  margin: 0 0 1rem 0;
+  flex: 200px;
+ */
+
+.section-3 {
+  background: url(/images/spotify-icon-white.png) no-repeat center;
+  background-color: #00b172;
+  background-size: 150px;
+  color: white;
+  height: 100vh;
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+}
+
+.spotify-music-section3 {
+  width: 250px;
+}
+
+.div-section-3 {
+  text-align: left;
+  width: 300px;
+}
+
+h6 {
+  font-size: 20px;
+}
+
+h5 {
+  font-size: 25px;
+  width: max-content;
+  border-bottom: 3px solid white;
+}
