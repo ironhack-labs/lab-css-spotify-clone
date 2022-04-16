@@ -5,28 +5,40 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <meta http-equiv="X-UA-Compatible" content="ie=edge" />
     <title>Spotify Clone</title>
-    <link rel="stylesheet" href="style.css" />
+    <link rel="stylesheet" href="styles/style.css" />
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Raleway:wght@100;300;400;500;700;800;900&display=swap"
+      rel="stylesheet"
+    />
   </head>
   <body>
     <header>
-      <img src="images/spotify-logo.png" alt="spotify-logo" />
-      <nav class="nav-bar">
-        <ul>
-          <il><a href="#">Premium</a></il>
-          <il><a href="#">Discover</a></il>
-          <il><a href="#">Help</a></il>
-          <il><a href="#">Download</a></il>
+      <nav>
+        <ul class="nav-bar">
+          <li>
+            <img
+              src="images/spotify-logo.png"
+              alt="spotify-logo"
+              id="spotify-logo"
+            />
+          </li>
+          <li><a href="#">Premium</a></li>
+          <li><a href="#">Discover</a></li>
+          <li><a href="#">Help</a></li>
+          <li><a href="#">Download</a></li>
         </ul>
       </nav>
     </header>
     <section class="main-section">
       <h1>Music for everyone.</h1>
       <h2>
-        Spotify is now free on mobile, tablet and computer. Listen to the right
-        music, wherever you are.
+        Spotify is now free on mobile, tablet and computer.
+        <br />Listen to the right music, wherever you are.
       </h2>
     </section>
-    <section>
+    <section class="what-on-spotify">
       <h3>What’s on Spotify?</h3>
       <article class="container">
         <div class="volume">
@@ -36,7 +48,7 @@
         </div>
         <div class="waves">
           <img src="images/high-quality-icon.png" alt="waves" />
-          <h4>HD Music Listen</h4>
+          <h4>HD Music</h4>
           <p>Listen to music as if you were listening live</p>
         </div>
         <div class="devices">
@@ -48,7 +60,7 @@
     </section>
 
     <section class="kanye-example">
-      <div class="container">
+      <div class="kanye">
         <article class="find-on-spotify">
           <h3>It’s as yeezy as Kanye West.</h3>
           <h4>Search</h4>
@@ -65,10 +77,17 @@
           </p>
         </article>
       </div>
-      <div class="kanye-example-images">
-        <img src="images/spotify-icon-white.png" alt="spotify-white-icon" />
-        <img src="images/spotify-app.jpg" alt="kanye-west-page" />
-      </div>
+
+      <img
+        src="images/spotify-icon-white.png"
+        alt="spotify-white-icon"
+        id="spotify-white-icon"
+      />
+      <img
+        src="images/spotify-app.jpg"
+        alt="kanye-west-page"
+        id="spotify-app"
+      />
     </section>
   </body>
 </html>
