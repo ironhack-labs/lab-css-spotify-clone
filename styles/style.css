@@ -1,8 +1,145 @@
-/*
-Colors:
+main {
+  margin-top: 60px;
+}
 
-Text: 1A1A1A
-Green: #00B172
-White: #FFF
+body {
+  color: #1a1a1a;
+  font-family: "Signika", sans-serif;
+  margin: 0;
+  box-sizing: border-box;
+}
 
-*/
+header {
+  position: fixed;
+  top: 0;
+  width: calc(100vw - 80px);
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  /* margin: 0 40px; */
+  padding: 15px 40px;
+  background-color: #fff;
+}
+
+header img {
+  width: 10%;
+  height: auto;
+}
+
+header nav {
+  display: inline;
+}
+
+header ul {
+  list-style: none;
+  padding: 0;
+  margin: 0;
+  display: inline;
+}
+
+header ul li {
+  display: inline;
+  padding: 0 9px;
+}
+
+header ul li > a {
+  text-decoration: none;
+  color: #1a1a1a;
+}
+
+.music-for {
+  background-image: url("../images/landing.jpg");
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-position: center;
+  width: 100vw;
+  max-width: 100%;
+  height: calc(100vh - 60px);
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  color: #fff;
+}
+
+.music-for h1 {
+  font-size: 65px;
+}
+
+.music-for p {
+  font-size: 1.5em;
+  width: 550px;
+  font-weight: normal;
+  text-align: center;
+}
+
+.whats-on-spotify {
+  text-align: center;
+  margin: 25px;
+}
+
+.spotify-features {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  background-color: #00b172;
+  color: #fff;
+  padding: 90px;
+}
+
+.feature-blocks {
+  width: 220px;
+  font-size: 1.1em;
+  line-height: 1.6;
+}
+
+.feature-blocks:first-of-type {
+  padding-top: 30px;
+}
+
+.spotify-white-icon {
+  width: 120px;
+  height: auto;
+}
+
+.spotify-app {
+  width: 250px;
+  height: auto;
+}
+
+.section-title {
+  padding-bottom: 5px;
+  border-bottom: 3px solid #00b172;
+  display: inline;
+}
+
+.section-title--white {
+  border-color: #fff;
+  font-size: 26px;
+  letter-spacing: 1.5px;
+}
+
+.row {
+  display: flex;
+  justify-content: space-evenly;
+  margin-top: 25px;
+}
+
+.row .column {
+  text-align: center;
+  width: 200px;
+}
+
+.row .column img {
+  width: auto;
+  height: 60px;
+}
+
+.row .column h3 {
+  color: #00b172;
+  font-size: 1.5em;
+}
+
+.container {
+  margin: 0 35px;
+}
