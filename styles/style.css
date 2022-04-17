@@ -1,56 +1,127 @@
 
-.navbar {
-    display: flex;
+.navbar{
     position: fixed;
+    top: 0px; 
+    display: flex;
     width: 100%;
     justify-content: space-between;
-    top: 0px;
+    background-color: #fff;
     
 }
-.nav-menu {
+
+.navbar_logo{
+    width: auto;
+    height: 40px;
+}
+
+.navbar_menu{
     list-style: none;
     display: flex;
     align-items: center;
-    margin-left: 10px;
 }
 
-.nav-menu{
-    height: 100px;
-    width: auto;
+.navbar_menu li{
+   margin-left: 20px;
 }
 
-.hero{
-    display: flex ;
-    justify-content: center;
-    align-items: center;
-    flex-direction: column;
-    margin-top: 100px;
+.bob{
+    margin-top: 50px;
     width: 100%;
     height: 500px;
-    background position: center;
+    background-position: center;
     background-size: cover;
-    background-image:url("/image")
-    color #fff ;
+    background-image:url(../images/landing.jpg);
+    color: #fff; 
+    display: flex ;
+    flex-direction: column;   
+    justify-content: center;
+    align-items: center;   
 }
-.hero-description{
+
+.bob-description{
     text-align: center;
+
+    
 }
-.features{
+
+.bebe{
+    text-align: center;
     display: flex;
-
-
+    flex-direction: column;
 }
-.features-column{
+
+.bebe_headline{
+    width: fit-content;
+    align-self: center;
+    border-bottom: 2px solid #00b172;
+}
+
+.bebe_columns{
+    display: flex;
+    width: 100%;
+    justify-content: space-evenly;
+   
+}
+
+.bebe_column {
     width: 30%;
     display: flex;
     flex-direction: column;
     justify-content: center;
     align-items: center;
 }
-.features-column-icon{
+
+.bebe_column-icon{
     height: auto;
     width: 100px;
 }
-.features-column-title{
-    color: #00b;
+
+.bebe_column-title{
+    color: #00b172;
+}
+
+.bebe_column-text{
+    text-align: center;
+}
+
+.bebo{
+   position: relative;
+    background-color: #00b172;
+    display: flex;
+    width: 100%;
+}
+
+.bebo_icon{
+    position: absolute;
+    width: 100px;
+    height: auto;
+    top: 30%;
+    left: 40%;
+}
+
+.bebo_text {
+    width: 50%;
+    color: #fff;
+    display: flex;
+    flex-direction: column;
+    margin-left: 80px;
+}
+
+.bebo_text-headline{
+    border-bottom: 2px solid #fff;
+    width: fit-content;
+}
+
+.bebo_player{
+    width: 32%;
+    height: 50%;
+    display: flex;
+    flex-direction: column;
+    
+}
+
+.bebo_player-image{
+    height: 100%;
+    width: auto;
+    margin: 70px;
 }
