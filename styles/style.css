@@ -7,23 +7,84 @@ White: #FFF
 
 */
 
+* {
+  font-family: sans-serif;
+}
+
 nav {
-    position: fixed; ;
-    display: flex;
-    justify-content: space-between;
+  position: fixed;
+  display: flex;
+  justify-content: space-between;
+  background-color: #fff;
+}
+
+.spotifylogo {
+  width: 100px;
+  height: 50px;
+  display: flex;
+  justify-content: left;
+  
+}
+
+.listright {
+  list-style: none;
+  display: flex;
+  justify-content: right;
+  flex-direction: row;
+  text-align: right;
+  width: 1200px;
+}
+
+
+.mainpage {
+  background-image: url(/images/landing.jpg);
+  background-size: cover;
+  height: 1200px; 
+  width: auto;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
 
 }
 
-.img1 {
-    width: 100px;
+.heading1 {
+  text-align: center;
+  color: #fff;
+  font-size: 100px;
 }
 
-.navTopics {
-    list-style: none;
-    width: 700px;
-    display: flex;
-    justify-content: flex-end;
-    
+.maintext {
+  color: white;
+  font-size: 18px;
 
 }
 
+.heading2 {
+  text-decoration: underline;
+  text-decoration-color:#00B172;
+  text-align: center;
+}
+
+.sectiondiv {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+}
+
+.imgsize {
+  width: 60px;
+}
+
+.green {
+  color: #00B172;
+}
+
+p {
+  text-align: center;
+  width: 300px;
+}
+
+.toCenter {
+  text-align: center;
+}
