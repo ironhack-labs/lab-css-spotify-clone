@@ -6,3 +6,145 @@ Green: #00B172
 White: #FFF
 
 */
+
+body {
+  font-family: Arial, Helvetica, sans-serif;
+  margin: 0;
+}
+
+header {
+  position: fixed;
+  top: 0;
+}
+
+.headImage {
+  background-image: url(../images/landing.jpg);
+  background-position: 0 0;
+  background-repeat: no-repeat;
+  background-size: 100%;
+  height: 67vw;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  flex-direction: column;
+  text-align: center;
+}
+
+header #greenLogo {
+  margin-left: 20px;
+  width: 150px;
+}
+
+.headImage h1 {
+  color: white;
+  font-size: 50px;
+  margin-bottom: 0px;
+}
+
+.headImage > p {
+  color: white;
+  font-size: 20px;
+}
+
+.nav-bar {
+  height: 80px;
+  width: 100%;
+  background-color: white;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  flex-direction: row;
+  position: fixed;
+}
+
+.nav-bar-links > ul {
+  width: 300px;
+  list-style: none;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  margin-right: 20px;
+}
+
+.nav-bar-links > ul > li > a {
+  text-decoration: none;
+  color: black;
+}
+
+.center-part > h2 {
+  margin-left: 540px;
+  margin-top: 40px;
+  margin-bottom: 15px;
+  border-bottom: 4px solid #00b172;
+  width: 220px;
+}
+
+.reasons {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-around;
+  margin-top: 80px;
+  margin-bottom: 90px;
+}
+
+.reasons > div {
+  width: 200px;
+}
+
+.reasons h3 {
+  color: #00b172;
+  text-align: center;
+}
+
+.reasons p {
+  color: 1A1A1A;
+  text-align: center;
+}
+
+.center-part img {
+  height: 80px;
+  margin-left: 45px;
+}
+
+.bottom-part {
+  width: 95%;
+  height: 50vw;
+  border-right: 25px solid white;
+  border-left: 35px solid white;
+  background-color: #00b172;
+  display: flex;
+  flex-direction: row;
+  justify-content: space-around;
+  align-items: center;
+  background-image: url(../images/spotify-icon-white.png);
+  background-position: center center;
+  background-repeat: no-repeat;
+  background-size: 100px;
+}
+
+.bottom-part p {
+  width: 40%;
+  font-size: 202x;
+  color: white;
+}
+
+.bottom-part h3 {
+  font-weight: bolder;
+  color: white;
+  font-size: 25px;
+  margin-top: 50px;
+}
+
+.bottom-part h2 {
+  color: white;
+  border-bottom: 4px solid white;
+  width: 410px;
+  font-size: 30px;
+  margin-bottom: 40px;
+}
+
+#snapshot {
+  width: 280px;
+  margin-right: 20px;
+  margin-top: 80px;
+}
