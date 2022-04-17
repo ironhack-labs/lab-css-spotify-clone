@@ -7,6 +7,12 @@ White: #FFF
 
 */
 
+/* Difficulties: 
+- Getting the navbar to stay put at the top.
+- Getting the background image for the main section to fully appear within the width/height of the section.
+- Getting all items on the what-on-spotify section to be align in the center coherently.
+ */
+
 /* margin= espaço pra fora; padding= espaço pra fora; border= border of box; */
 body {
   margin: 0;
@@ -34,12 +40,17 @@ h4 {
 }
 
 .nav-bar {
+  top: 0;
+  background-color: #ffffff;
+  position: fixed;
+  width: 96%;
   list-style: none;
   display: flex;
   justify-content: center;
   align-items: center;
   gap: 18px;
   padding: 20px 40px;
+  background-color: #ffffff;
 }
 
 .nav-bar li:first-child {
@@ -60,7 +71,7 @@ h4 {
   align-items: center;
   justify-content: center;
   flex-direction: column;
-  margin-top: 10px;
+  margin-top: 30px;
   width: auto;
   height: 850px;
   background-image: url("../images/landing.jpg");
@@ -133,13 +144,13 @@ h4 {
   margin: 0 40px 0 40px;
 }
 .kanye-example h3 {
-  font-size: 48px;
+  font-size: 45px;
   text-decoration: underline;
   text-decoration-color: #ffffff;
   font-weight: 700;
 }
 .kanye-example h4 {
-  font-size: 40px;
+  font-size: 35px;
   font-weight: 600;
 }
 
@@ -151,9 +162,13 @@ h4 {
 }
 
 .find-on-spotify p {
-  margin-right: 140px;
-  font-size: 34px;
+  margin-right: 180px;
+  font-size: 28px;
   font-weight: 100;
+}
+
+.find-on-spotify > img {
+  position: absolute;
 }
 
 #spotify-white-icon {
