@@ -4,6 +4,19 @@
 
 ## Introduction
 
+
+    Premium Discover Help Download Music for everyone. Spotify is now free on mobile, tablet and computer. Listen to the
+    right music, wherever you are. What’s on Spotify? Millions of Songs There are millions of songs on Spotify HD Music
+    Listen to music as if you were listening live Stream Everywhere Stream music on your smartphone, tablet or computer
+    It’s as yeezy as Kanye West. Search Know what you want to listen to? Just search and hit play. Browse Check out the
+    latest charts, brand new releases and great playlists for right now. Discover Enjoy new music every Monday with your
+    own personal playlist. Or sit back and enjoy Radio.
+
+
+
+
+
+
 Everybody likes music, right? Odds are, if you do, you have heard of **Spotify**.
 
 In this lab, we will be building a simplified version of the Spotify landing page:
