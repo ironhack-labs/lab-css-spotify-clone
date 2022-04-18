@@ -6,3 +6,134 @@ Green: #00B172
 White: #FFF
 
 */
+html,
+body {
+  margin: 0;
+  padding: 0;
+  font-family: sans-serif;
+}
+
+nav > ul {
+  display: flex;
+  list-style-type: none;
+  float: right;
+  justify-content: space-evenly;
+  gap: 20px;
+  font-size: 1.5em;
+  padding-right: 50px;
+  padding-top: 10px;
+}
+nav {
+  background-color: #fff;
+  height: 50px;
+}
+nav > img {
+  width: 15%;
+  flex: left;
+  margin: 0%;
+  position: relative;
+  top: 10px;
+}
+header {
+  background-image: url(/images/landing.jpg);
+  background-repeat: no-repeat;
+  background-size: cover;
+  height: 100vh;
+  background-position: center;
+  color: #fff;
+}
+
+header > h1 {
+  font-size: 5em;
+  text-align: center;
+  position: relative;
+  top: 25%;
+}
+
+header > h3 {
+  font-size: 3em;
+  font-weight: lighter;
+  text-align: center;
+  width: 60%;
+  position: relative;
+  left: 20%;
+  top: 25%;
+}
+
+.sec2 > h3 {
+  text-align: center;
+  font-size: 3em;
+}
+.sec2 > hr {
+  width: 25em;
+  position: relative;
+  border: 5px solid #00b172;
+}
+.music-box {
+  flex-direction: column;
+  flex-wrap: wrap;
+  box-sizing: border-box;
+  text-align: center;
+  font-size: 2.5em;
+  padding-left: 7%;
+  margin: 0 auto;
+}
+.music-box img {
+  width: 35%;
+}
+.sec2 > div {
+  display: flex;
+  flex-direction: row;
+  flex-wrap: nowrap;
+  justify-content: space-around;
+  align-items: center;
+  align-content: center;
+}
+.sec2 > div > article > h3 {
+  color: #00b172;
+}
+
+.green {
+  background-color: #00b172;
+  margin-left: 50px;
+  margin-right: 50px;
+  display: flex;
+  color: #fff;
+  height: 100vh;
+  width: auto;
+  flex-direction: column;
+}
+.spotify-white {
+  background-size: 100%;
+  width: 200px;
+  height: 200px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.spotify-app {
+  width: 35%;
+  position: relative;
+}
+
+.green h2 {
+  font-size: 2.5em;
+  position: relative;
+  left: 8%;
+}
+
+.green hr {
+  width: 35%;
+  border: 3px solid white;
+  position: relative;
+  align-items: flex-start;
+}
+
+.green h3 {
+  font-size: 2.5em;
+  width: 50vh;
+}
+.green p {
+  font-size: 1.5em;
+}
