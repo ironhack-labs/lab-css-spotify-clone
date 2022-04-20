@@ -1,8 +1,177 @@
+*{
+    /* border: 1px solid red; */
+    font-family: spotify-circular, Circular, Helvetica, Arial, sans-serif;
+    color: 1A1A1A;
+    margin: 0;
+    padding: 0;
+}
+
 /*
 Colors:
 
 Text: 1A1A1A
-Green: #00B172
+Green: 
 White: #FFF
 
 */
+
+img{
+    display: flexbox
+    float: left;
+    width: 20%;
+    height: 25%;
+    /* border: 1px solid #00B172; */
+    margin: 10px 20px 10px 10px;
+    /* margin-top: 10px;
+    margin-bottom: 10px; */
+}
+#container{
+    display: flexbox;
+    justify-content: center;
+    align-items: center;
+}
+.navbar {
+    font-size: 40px;
+    float: right;
+    margin-top: 20px;
+    margin: 0 auto;
+    color: 1A1A1A;
+}
+ul {
+    list-style-type: none;
+    margin : 0;
+    padding: 5px;
+    overflow: hidden;
+    color: white;
+}
+.navbar ul li {
+    display: flex;
+    margin: 10px 15px 10px 10px;
+    float: right;
+    padding: 5px;
+    text-decoration: none;
+    color: black;
+}
+
+a {
+    color: 1A1A1A;
+    text-decoration: none; 
+    margin-top: 50px;   
+}
+#banner {
+    background-image: url("../images/landing.jpg");
+    background-repeat: no-repeat;
+    /* background-attachment: fixed; */
+    background-size: 100% 100%;
+    width: 100vmax;
+    height: 500px;
+    height: 120vh;
+    color: white;
+    margin: auto;
+    text-align: center;
+    vertical-align: auto;
+    justify-content: center;
+}
+.banner h1 {
+    font-size: 90px;
+    margin-top: 100px;
+    font-weight: lighter;
+    padding: 300px 300px 20px 300px;
+}
+.banner h2 {
+    margin: 0 auto;
+    text-align: center;
+    justify-content: center;
+    font-weight: 100;
+    padding: 100px 300px 20px 300px;
+    font-size: 40px;
+    font-family: system-ui;
+}
+.content {
+    display: flex;
+    flex-direction: row;
+    align-content: center;
+    justify-content: center;
+    overflow: hidden;
+}
+
+#descr{
+    height: 50vh;
+}
+#descr  h2 {
+    display:flexbox;
+    margin-top: 100px;
+    flex-direction: row;
+    text-align: center;
+    width: 100%;
+    text-decoration: underline 3px solid #00B172;   
+}
+#descr h1,h2 {
+    font-size: 50px;
+    margin-top: 100px;
+    font-weight: lighter;
+    padding: 25px;
+}
+#descr h3 {
+    font-size: 40px;
+    font-weight: bolder;
+    color: #00B172;
+}
+#descr p {
+    font-size: 30px;
+    font-weight: lighter;
+    padding: 25px;
+}
+.elemento {
+    display: inline-block;
+    float: left;
+    margin: 5px;
+    padding: 5px;
+    text-align: center;
+}
+
+
+.footer {
+    background-color: #00B172;
+    width: 100%;
+    height: fit-content;
+    display: flex;
+    color: #fff;
+    display: flex;
+    justify-content: space-around;
+}
+.footer h2 {
+    font-size: 30px;
+    width: 100%;
+    text-decoration: underline 3px solid #fff;
+    c
+}
+.childLeft{
+    display:inline-block;
+    float: left;
+}
+.childRight{
+    display:inline-block;
+    float: right;
+}
+.childRight img{
+    display: inline-flex;
+    float: right;
+    width: 80%;
+    height: 80%;
+    margin-top:100px;
+}
+.child img {
+    position: relative;
+    display: flexbox;
+    float: right
+}
+.child h3,p{
+    font-size: 25px;
+   
+    padding: 15px;
+}
+.child p {
+    font-family: system-ui;
+    font-weight: lighter;
+}
