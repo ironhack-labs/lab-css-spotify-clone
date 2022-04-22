@@ -1,8 +1,151 @@
 /*
 Colors:
-
-Text: 1A1A1A
+Text: #1a1a1a
 Green: #00B172
 White: #FFF
 
 */
+
+body {
+    font-family: "Helvetica";
+  }
+  
+  /* NAV */
+
+  header {
+    padding: 0 25px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+  }
+  
+
+  nav ul {
+    list-style: none;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+  }
+  
+  nav li {
+    padding: 28px 17px;
+  }
+  
+  nav a {
+    text-decoration: none;
+    color: black;
+    font-weight: 400;
+  }
+  
+  .logo {
+     width: 215px;
+     height: 63px;
+  }
+  
+  /* MAIN */
+  
+  .main-two {
+    background-image: url(https://github.com/ironhack-labs/lab-css-spotify-clone/blob/master/images/landing.jpg?raw=true);
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+    color: white;
+    height: 731px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+    text-align: center;  
+    font-size: 23px;
+}
+
+
+
+  .main-two h1 {
+    font-size: 80px;
+  }
+  
+  /* MIDDLE */
+  
+    div.middle {
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+    justify-content: space-evenly;
+    text-align: center;
+    height: 300px;
+    margin: 35px;
+    padding: 60px;
+}
+
+.middle img{
+
+  align-items: center;
+  max-width: 100px;
+  max-height: 1000px;
+}
+
+    .middle h2 {
+    font-size: 44px;
+    border-bottom: 8px solid #00B172;
+    margin-bottom: 60px;
+    padding-bottom: 15px;
+  }
+  
+    .middle h3 {
+    color: #00B172;
+    text-align: center;
+    font-size: 30px;
+  }
+  
+  .list {
+    display: flex;
+    flex-direction: row;
+    margin-bottom: 147px
+  }
+  
+  .one {
+    height: 100px;
+    padding: 18px 50px;
+  }
+  
+ 
+  
+/* END */
+  
+  .end {
+    background-color: #00B172;
+    background-image: url(https://github.com/ironhack-labs/lab-css-spotify-clone/blob/master/images/spotify-icon-white.png?raw=true);
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: 15%;
+    color: white;
+    display: flex;
+    flex-direction: row;
+    height: 600px;
+    padding: 20px;
+    
+  }
+  
+  .end h4 {
+    font-size: 30px;
+    border-bottom: 3px solid white;
+    padding-bottom: 3px;
+  }
+  
+  .end h5 {
+    font-size: 24px;
+  }
+  
+  .end article {
+    font-size: 20px;
+  }
+  
+  .spotify-app {
+    height: 530px;
+    width: 332px;
+    padding-top: 54px;
+    margin-left: auto;
+    margin-right: 35px;
+   }
+  
