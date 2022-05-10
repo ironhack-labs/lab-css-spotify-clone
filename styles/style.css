@@ -1,8 +1,103 @@
-/*
-Colors:
+* {
+    font-family:Verdana, Geneva, Tahoma, sans-serif;
+}
 
-Text: 1A1A1A
-Green: #00B172
-White: #FFF
+body {
+    margin: 0;
+}
 
-*/
+.firstBlock {
+    display: flex;
+    justify-content: space-between;
+    margin: 1.5vw;
+}
+
+.firstBlock-logo__dimensions{
+    width: 15vw;
+}
+
+.firstBlock-list__format {
+    display: inline;
+    padding: 1.2vw;
+}
+
+.firstBlock-list__format > a {
+    text-decoration: none;
+    color: black;
+}
+
+.firstBlock-list__format:hover{
+    transition: 0.9s;
+    background-color: grey;
+    border-radius: 5%;
+}
+
+.secondBlock__message-main {
+    font-size: 5.5vw;
+    font-weight: bold;
+}
+
+.secondBlock__message-childs  {
+    font-size: 2vw;
+    margin: 5px;
+}
+
+.secondBlock {
+    position: relative;
+}
+
+.secondBlock__message {
+    position: absolute;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    top: 30%;
+    left: 20%;
+}
+
+.secondBlock__logo{
+    width: 100%;
+}
+
+.secondBlock__message-color-white{
+    color: white;
+}
+
+.thirdBlock__message {
+    text-align: center;
+    font-size: 2.5vw;
+    font-weight: bold;
+}
+
+.thirdBlock__options {
+    display: flex;
+    flex-wrap: wrap;
+}
+
+.thirdBlock__options-child {
+    width: 33%;
+    text-align: center;
+    margin-top: 1vw;
+}
+
+.thirdBlock__options-child > img{
+    width: 20%;
+}
+
+.thirdBlock__options-child .thirdBlock__options-child-formatTitle {
+    text-align: center;
+    margin-left: 5vw;
+    margin-right: 5vw;
+}
+
+.thirdBlock__options-child-formatTitle ~ p {
+    margin-left: 7vw;
+    margin-right: 7vw;
+}
+
+.thirdBlock__options-child-formatTitle {
+    color: rgb(11, 175, 33);
+    font-weight: bold;
+    font-size: 1.5vw;
+}
+
