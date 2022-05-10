@@ -120,7 +120,6 @@ nav ul {
     width: 50%;
     font-weight: 200;
     font-size: max(1.2vw, 12px); 
-
 }
 
 nav ul li:first-child {
@@ -179,6 +178,8 @@ h2 {
     background-image: url(/images/landing.jpg);
     background-repeat: no-repeat;
     background-size: 100vw 100vh;
+    padding-left: 10%;
+    padding-right: 10%;
 }
 
 
@@ -192,7 +193,7 @@ h2 {
     background-color: white;
 }
 
-#section3 {
+#section2 {
     background-color: white;
     min-height: 60vh;
     display: flex;
@@ -221,6 +222,7 @@ h2 {
     align-items: center;
 }
 
+
 .block3Text {
     font-size: max(1.7vw, 12px); 
     font-weight: 200;
@@ -228,7 +230,7 @@ h2 {
     color: #1A1A1A;
     margin-bottom: 20px;
     padding: 10%;
-    margin-top: max(-8vw, -10px);
+    margin-top: max(-5vw, -80px);
 }
 
 h4 {
@@ -240,7 +242,6 @@ h4 {
 
 
 #section3 {
-    background-color: white;
     min-height: 60vh;
     display: flex;
     align-content: center;
@@ -248,4 +249,69 @@ h4 {
     justify-content: center;
     align-content: space-between;
     width: 100%;
+    background: url(/images/spotify-icon-white.png) no-repeat center center;
+    background-color: #00B172;
+    background-size: auto 20%;
+    padding-top: 3%;
+    padding-bottom: 3%;
+    padding-left: 10%;
+    padding-right: 10%;
+}
+
+
+.block2 {
+    width: 50%;
+    display: flex;
+    align-content: center;
+    flex-direction: column;
+    justify-content: center;
+    align-content: space-between;
+    align-items: left;
+    padding: 20px;
+}
+
+.block2:last-child{
+    align-items: center;
+}
+
+
+.block2 h2 {
+    font-size: max(2.5vw, 20px);   
+    font-weight: 700;
+    text-align: center;
+    color: white;
+    margin-bottom: 20px;
+    border-bottom-style: solid ;
+    border-color: white;
+    border-bottom-width:  max(0.3vw, 2.5px);
+    width: max(33vw, 100%);
+    max-width: 100vw;
+}
+
+
+.block2 h4 {
+    font-size: max(1.8vw, 16px); 
+    font-weight: 700;
+    text-align: left;
+    color: white;
+}
+
+.block2Text {
+    font-size: max(1.3vw, 12px); 
+    font-weight: 200;
+    color: white;
+    padding-top: 10%;
+    margin-top: max(-5vw, -80px);
+    text-align: left;
+    padding-right: 30%;
+}
+
+.imageBlock2 {
+    min-width: 140px;
+    max-width:max(9vw, 55%);
+    max-height: fit-content;
+    align-content: center;
+    justify-content: center;
+    align-items: center;
+    padding-top: 8%;
 }
