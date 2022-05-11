@@ -1,0 +1,142 @@
+@import url('https://fonts.googleapis.com/css2?family=Montserrat:wght@100;200;300;400;500;700&display=swap');
+
+body {
+    font-family: 'Montserrat';
+    margin: 0;
+    padding: 0;
+    font-size: 10px;
+    line-height: 3.5em;
+    font-weight: 300;
+}
+
+.nav-bar {
+    flex: auto;
+    display: flex;
+    align-items: center;
+    padding: 20px 40px;
+    position: fixed;
+    background-color: white;
+}
+
+.nav-bar-ul {
+    font-size: 30px;
+    display: flex;
+    justify-content: space-evenly;
+    align-items: center;
+    float: right;
+}
+
+.nav-bar li {
+    margin: 0 10px;
+    list-style: none;
+}
+
+.nav-bar a {
+    font-family: 'Montserrat';
+    text-decoration: none;
+    color: black;
+    font-size: large;
+    flex-direction: row;
+}
+
+.logo {
+    height: 100px;
+    float: left;
+
+}
+
+.header {
+    background-image: url(/images/landing.jpg);
+    background-position: 0, 0;
+    background-repeat: no-repeat;
+    background-size: cover;
+    height: 1000px;
+    color: white;
+    font-size: 4em;
+    font-family: 'Montserrat';
+    text-align: center;
+    padding-top: 400px;
+    line-height: 50px;
+}
+
+.box {
+    font-size: 1.5em;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+    width: 15%;
+    text-align: center;
+    color: black;
+    font-family: 'Montserrat';
+}
+
+.box img {
+    width: 125px;
+}
+  
+.three-boxes {
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    padding-left: 20%;
+    position: static;
+
+}
+
+.three-boxes h4 {
+    color: #00b172;
+    font-family: 'Montserrat';
+}
+
+.three-boxes p {
+    margin-top: -15px;
+    font-family: 'Montserrat';
+    font-size: medium;
+}
+
+.first-block article {
+    display: flex;
+    justify-content: space-evenly;
+}
+
+.first-block h2 {
+    font-family: 'Montserrat';
+    font-size: 60px;
+    text-decoration: underline;
+    text-decoration-color: #00b172;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+  
+.last-block {
+    background-color: #00b172;
+    margin: 50px 2%;
+    flex-direction: row;
+    justify-content: space-around;
+}
+
+.app-info {
+    color: white;
+    text-align: left;
+    align-items: center;
+    justify-content: center;
+    padding-top: 20px;
+    padding-left: 10%;
+    font-size: 1.5em;
+    
+}
+.app-info h3 {
+    text-decoration: underline;
+}
+.white-logo {
+    height: 100px;
+    position: absolute;
+    
+}
+
+.kanye-west-page {
+    height: 450px;
+    justify-items: end;
+}
