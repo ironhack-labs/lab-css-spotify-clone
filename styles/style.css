@@ -7,29 +7,44 @@ body {
 }
 
 .firstBlock {
+    position: fixed;
+    width: 100%;
+    top: 0;
+    left: 0;
+    background-color: white;
+}
+
+.firstBlock__menu {
     display: flex;
     justify-content: space-between;
-    margin: 1.5vw;
+    margin: 0.5vw;
 }
 
 .firstBlock-logo__dimensions{
-    width: 15vw;
+    width: 14vw;
+}
+.firstBlock-list{
+    display: flex;
+    align-items: center;
 }
 
 .firstBlock-list__format {
-    display: inline;
-    padding: 1.2vw;
+    display: table-cell;
+    vertical-align: middle;
+    text-align: center;
+    padding: 1vw;
+    width: 5vw;
 }
 
 .firstBlock-list__format > a {
     text-decoration: none;
     color: black;
+    font-size: 1vw;
 }
 
-.firstBlock-list__format:hover{
-    transition: 0.9s;
-    background-color: grey;
-    border-radius: 5%;
+.firstBlock-list__format a:hover{
+    transition: 0.5s;
+    color:rgb(17, 199, 17);
 }
 
 .secondBlock__message-main {
@@ -40,10 +55,6 @@ body {
 .secondBlock__message-childs  {
     font-size: 2vw;
     margin: 5px;
-}
-
-.secondBlock {
-    position: relative;
 }
 
 .secondBlock__message {
@@ -99,5 +110,71 @@ body {
     color: rgb(11, 175, 33);
     font-weight: bold;
     font-size: 1.5vw;
+}
+
+.fourthBlock {
+    background-color: rgb(11, 175, 33);
+    display: flex;
+    flex-direction: row;
+    justify-content: space-evenly;
+    color: white;
+    margin: 3vw;
+}
+
+.fourthBlock__text > .fourthBlock__text-title{
+    font-size: 2.7vw;
+    border-bottom: 0.2vw solid white;
+    padding-bottom: 0.5vh;
+    width: fit-content;
+}
+
+.fourthBlock__text .fourthBlock__text-container {
+    width: 35%;
+}
+
+.fourthBlock__text {
+    display: flex;
+    flex-direction: column;
+    justify-content: space-evenly;
+}
+
+.fourthBlock__text-container {
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+}
+
+.fourthBlock__section-container{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+}
+
+.fourthBlock__section-container img {
+    width: 10vw;
+    margin-right: 5vw;
+}
+
+.fourthBlock__streaming {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.fourthBlock__streaming > img {
+    width: 25vw;
+    padding-bottom: 20vh;
+    padding-top: 20vh;
+}
+
+.fourthBlock__text-title{
+    font-weight: bold;
+}
+
+.fourthBlock__text-container .fourthBlock__text-title {
+    font-size: 1.5vw;
+}
+.fourthBlock__text-title + p {
+    font-size: 1vw;
 }
 
