@@ -6,3 +6,107 @@ Green: #00B172
 White: #FFF
 
 */
+header {
+    background-color: rgb(255, 255, 255); /*he añadido color de fondo, aunque no lo hayan mandado, por que al moverse quedaba feo*/
+    position:fixed;
+    padding: 0 25px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+  }
+ header ul {
+    font-size: 20px;
+    padding: 0 130px;
+    text-align: left;
+    list-style: none;
+    display: flex;
+    justify-content: flex-end;
+  }
+  nav a {
+    padding: 0px 10px;
+    text-decoration: none;
+    color: rgb(0, 0, 0);
+  }
+h1 {
+    text-align: center;
+    font-size: 90px;
+    padding: 180px  0px 0px 0px;
+}
+h2{
+    text-align: center;
+    font-size: 40px;
+}
+h3{
+    text-align: center;
+    font-size: 30px;
+    color: rgb(11, 156, 25);
+}
+.art1{
+    font-size: 30px;
+    text-align: center;
+    padding-bottom: 180px;
+}
+
+.image1{
+    width: 10%;
+}
+.image2{
+    background-color: blueviolet;
+    background-image: url(images/landing.jpg);
+}
+.image3{
+    width:42%;
+    padding: none;
+}
+.image4{
+    width: 10%;
+    float:inherit;
+    position: absolute;
+}
+.image5{
+    width: 19%;
+    display: flex;
+
+}
+.service-box{
+    font-size: 1.7em;
+    text-align: center;
+    margin: 50px 0 0 9%;
+    padding: 1px 20px 1px 0px;
+    width: 20%;
+  }
+  .section3{
+    background-color: rgb(12, 157, 109);
+    display: flex;
+    flex-direction: row;
+    flex-wrap: nowrap;
+    justify-content: space-around;
+    align-items: center;
+    align-content: stretch;
+}
+  .section3 > article{
+    display:inline-block;
+  }
+  .last-sect {
+    color: white;
+    text-align: left;
+    flex-direction: column;
+    align-items: flex-start;
+}
+  h4{
+      font-size: 50px;
+      padding-bottom: 1px;
+      border-bottom-style: solid ;
+      vertical-align: text-top;
+      
+  }
+  h5{
+     font-size: 30px; 
+  }
+  .mufasa{
+      display: flex;
+  }
+  div > p{
+      font-size: 26px;
+      opacity: 0.7;;
+  }
