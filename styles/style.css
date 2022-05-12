@@ -6,3 +6,159 @@ Green: #00B172
 White: #FFF
 
 */
+*{
+    font-family: roboto;
+ }
+
+nav{
+    position: fixed;
+    display: flex;
+    justify-content: space-between;
+    background:#FFF;
+    padding: 10px 50px 10px 50px;
+}
+
+.navlogo{
+    max-width: 15%;
+    max-height: 10%;
+}
+
+li{
+    padding: 0px 15px; /*espazo entre as opcións do menú */
+    font-size: 2rem;  
+    font-weight: 50;
+    display: inline; /* como se faría con flex-box? Tamén quita os bullets, sen el como podo quitalos porque text-decoration non funciona*/
+    vertical-align: middle;
+    text-align: center;
+}
+
+a{
+    text-decoration: none;
+    color: black;
+    font-size: 2.5vh;
+    font-weight:800;
+}   
+
+.header{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center; 
+    background-image: url(/images/landing.jpg);
+    background-size: cover;
+    width: 100%;
+    height: 125vh;
+}   
+
+h1{
+    color: #FFF;
+    margin-bottom: 30px;
+    font-size: 11vh;
+    font-weight: 900;
+}
+
+h2{
+    color: #FFF;
+    text-align: center; 
+    font-size: 3.5vh;
+    font-weight:100;
+    width: 45%;
+}
+
+#caracteristics{
+    display: flex;
+    flex-direction: column;
+}
+
+#caracteristics header{
+    text-align: center;
+    font-size: 5vh;
+    font-weight: 900; /*por que non me deixa pór máis*/
+    margin: 60px 0px 150px 0px;
+    /*falta o subrayado*/
+}
+
+.boxes{
+    display: flex;
+    flex-direction: row;
+    justify-content:center;
+    margin-bottom: 15vh;
+}
+
+.boxes div{    
+    width: 25%;
+    text-align: center;
+
+}
+
+.boxes div img{
+    max-width: 45%;
+    max-height: 45%;
+} 
+
+h4{
+    color:#00B172;
+    font-size: 3.5vh;
+    font-weight: bolder;
+    margin: 5px 0 30px 0; 
+}
+
+div article{
+    font-size: 2.5vh;
+    margin: 0px 90px;
+    line-height: 1.5;
+}
+
+#greensection{
+    display: flex;
+    align-items:center;
+    justify-content: space-evenly;
+    align-content: center;
+    background-color: #00B172;
+    margin: 0px 70px 50px 70px;
+    padding-right: 150px;
+}
+
+#greensection .logo{
+    width: 10%;
+    height: 0%;
+    margin-right: 350px;
+
+      
+}
+
+#greensection h4{
+    color:white;
+    font-weight: 600;
+    
+
+}
+
+.kanyeWestimg img{
+    width: 90%;
+    height: auto;
+    margin: 50px 50px 50px 0px;
+    
+    
+}
+
+.text{
+    width: 50%;
+    margin-left: 250px;
+}
+
+.text h5{
+    color:white;
+    font-size: 3vh;
+    font-weight: 550;
+    margin-bottom: 0px;
+}
+
+.text p{
+    color:white;
+    font-size: 2vh;
+    font-weight: 50;
+    line-height: 1.5;
+}
+
+
