@@ -6,3 +6,151 @@ Green: #00B172
 White: #FFF
 
 */
+@import url('https://fonts.googleapis.com/css2?family=Montserrat:wght@100;200;300;400;500;700&display=swap');
+
+body {
+    margin: 0;
+    padding: 0;
+    font-family: 'Montserrat';
+}
+.nav-bar {
+    display: flex;
+    flex-direction: row;
+    padding: 20px;    
+    background-color: #FFF;
+    justify-content: space-between;
+    align-items: center;
+    
+}
+.nav-bar ul {
+    display: flex;
+    justify-content: space-between;
+    width: 300px;
+}
+.nav-bar li {
+    list-style: none;
+    display: inline;
+    float: left;
+    flex-direction: row;
+    justify-content: space-between;
+}
+.nav-bar a {
+    text-decoration: none;
+    color: #1A1A1A;
+    text-align: right;
+    justify-content: space-between;
+}
+.nav-bar img {
+    height: 80px;
+}
+
+.header {
+    background-image: url(/images/landing.jpg);
+    background-position: 0, 0;
+    background-repeat: no-repeat;
+    background-size: cover;
+    height: 1000px;
+    text-align: center;
+    padding-top: 400px;
+    line-height: 80px;
+}
+.header h1 {
+    font-family: 'Montserrat';
+    font-size: 100px;
+    color: #FFF;
+}
+.header p {
+    font-family: 'Montserrat';
+    font-size: 30px;
+    color: #FFF;
+}
+.first-block {
+    display: flex;
+    justify-content: space-around;
+    flex-direction: column;
+    align-items: center;
+}
+.first-block h2 {
+    font-size: 30px;
+    padding-bottom: 1px;
+    border-bottom-style: solid;
+    border-bottom-width: 5px;
+    border-bottom-color: #00B172;
+    vertical-align: text-top;
+}
+.spotify-section {
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+}
+.spotify-section article {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    padding-left: 100px;
+    justify-content: space-around;
+}
+.spotify-section article img {
+    width: 80px;
+}
+.spotify-section article h3 {
+    font-family: 'Montserrat';
+    font-size: 22px;
+    color: #00B172;
+}
+.spotify-section article p {
+    font-size: 20px;
+    text-align: center;
+    color: #1A1A1A;
+}
+.last-block > div {
+    width: 50%;
+}
+.last-block {
+    background-color: #00B172;
+    padding-left: 100px;
+    padding-top: 20px;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    margin-left: 10px;
+    margin-right: 10px;
+    /* background-image: url(/images/spotify-icon-white.png);
+    background-position: 0, 0;
+    background-repeat: no-repeat;
+    background-size: cover;
+    width: 100px; */
+}
+.last-block span {
+    font-family: 'Montserrat';
+    color: #FFF;
+    line-height : 25px;
+    font-size: 30px;
+    border-bottom-style: solid;
+    border-bottom-width: 3px;
+    border-bottom-color: #FFF;
+}
+.last-block article {
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+}
+.last-block h3 {
+    font-family: 'Montserrat';
+    color: #FFF;
+}
+.last-block p {
+    font-family: 'Montserrat';
+    color: #FFF;
+}
+.white-logo {
+    display: flex;
+    justify-content: center;
+    height: 80px;
+    padding: 100px;
+    position: absolute;
+
+}
+.artist-page{
+    width: 225px;
+}
