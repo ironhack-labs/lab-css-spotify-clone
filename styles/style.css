@@ -11,7 +11,7 @@ body {
     width: 100%;
     top: 0;
     left: 0;
-    background-color: white;
+    background-color: #FFF;
 }
 
 .firstBlock__menu {
@@ -44,7 +44,7 @@ body {
 
 .firstBlock-list__format a:hover{
     transition: 0.5s;
-    color:rgb(17, 199, 17);
+    color:#00B172;
 }
 
 .secondBlock__message-main {
@@ -74,10 +74,19 @@ body {
     color: white;
 }
 
+.thirdBlock {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
 .thirdBlock__message {
     text-align: center;
     font-size: 2.5vw;
     font-weight: bold;
+    border-bottom: 0.3vw solid #00B172;
+    padding-bottom: 0.4vw;
+    width: fit-content;
 }
 
 .thirdBlock__options {
@@ -107,13 +116,13 @@ body {
 }
 
 .thirdBlock__options-child-formatTitle {
-    color: rgb(11, 175, 33);
+    color: #00B172;
     font-weight: bold;
     font-size: 1.5vw;
 }
 
 .fourthBlock {
-    background-color: rgb(11, 175, 33);
+    background-color: #00B172;
     display: flex;
     flex-direction: row;
     justify-content: space-evenly;
