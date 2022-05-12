@@ -13,19 +13,19 @@ body {
 }
 
 .app {
-  width: 35%;
-  padding-right: 50px;
+  width: 25%;
+  padding-right: 150px;
 }
 
 .articles {
   color: white;
   font-family: Arial, Helvetica, sans-serif;
-  font-size: 2em;
+  font-size: 1.5em;
   display: flex;
   flex-direction: column;
   justify-content: space-evenly;
   height: fit-content;
-  padding-left: 50px;
+  padding-left: 100px;
 }
 .articles p {
   opacity: 0.7;
@@ -51,7 +51,7 @@ body {
   font-family: "Gill Sans", "Gill Sans MT", Calibri, "Trebuchet MS", sans-serif;
 }
 .box img {
-  width: 200px;
+  width: 130px;
 }
 .box h3 {
   font-size: 1.5em;
@@ -64,6 +64,7 @@ body {
 .boxes {
   display: flex;
   justify-content: space-evenly;
+  align-items:baseline;
 }
 .boxes h3 {
   color: #00b172;
@@ -77,14 +78,16 @@ body {
   display: flex;
   justify-content: space-evenly;
 }
-.first-block h2 {
+.first-block span {
   font-family: "Gill Sans", "Gill Sans MT", Calibri, "Trebuchet MS", sans-serif;
-  font-size: 60px;
-  text-decoration: underline;
-  text-decoration-color: #00b172;
+  font-size: 2.5em;
   display: flex;
   align-items: center;
   justify-content: center;
+  width:fit-content;
+  padding: 0 0 5px;
+  margin: 3% auto 8% auto;
+  border-bottom: solid 4px #00b172;
 }
 
 .header {
@@ -92,43 +95,47 @@ body {
   background-position: 0, 0;
   background-repeat: no-repeat;
   background-size: cover;
-  height: 1100px;
+  height:fit-content;
 }
 .header-text {
   color: #fff;
-  font-size: 4em;
   font-family: "Gill Sans", "Gill Sans MT", Calibri, "Trebuchet MS", sans-serif;
   text-align: center;
-  padding-top: 400px;
+  padding-top: 200px;
+  padding-bottom: 300px;
 }
-.header p {
-  opacity: 0.8;
+.header-text h1{
+  font-size: 6em;
+}
+.header-text p {
+  font-size: 2.3em;
+  opacity: 0.7;
 }
 
 .icon {
-  width: 200px;
-  height: 200px;
+  width: 130px;
+  height: 130px;
 }
 
 .main-logo {
-  height: 100px;
+  height: 70px;
 }
 
 .nav-bar {
   display: flex;
   justify-content: space-between;
   align-items: center;
-  padding: 20px 40px;
+  padding: 5px 40px;
 }
 .nav-bar-ul {
-  font-size: 30px;
+  font-size: 1.5em;
   display: flex;
   justify-content: space-evenly;
   align-items: center;
   list-style-type: none;
 }
 .nav-bar li {
-  margin: 0 10px;
+  margin: 0 20px;
 }
 .nav-bar a {
   font-family: "Gill Sans", "Gill Sans MT", Calibri, "Trebuchet MS", sans-serif;
@@ -140,10 +147,13 @@ body {
   background-color: #00b172;
   margin: 50px 2%;
 }
-.second-block h2 {
+.second-block span{
   color: white;
-  text-decoration: underline;
-  font-family: Arial, Helvetica, sans-serif;
-  font-size: 3em;
-  padding: 100px 0 0 100px;
+  font-family: "Gill Sans", "Gill Sans MT", Calibri, "Trebuchet MS", sans-serif;
+  font-size: 2.5em;
+  display: flex;
+  margin-left: 100px;
+  width:fit-content;
+  padding: 70px 0 5px;
+  border-bottom: solid 4px white;
 }
