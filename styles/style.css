@@ -1,8 +1,168 @@
-/*
-Colors:
 
-Text: 1A1A1A
-Green: #00B172
-White: #FFF
+body {
+    margin: 0;
+    padding: 0;
+    font-family: 'Roboto-light';
+    font-size: 10px;
+    line-height: 3.5em;  
+  }
 
-*/
+
+/*Nav*/
+nav{
+    position: fixed;
+} 
+.nav-bar{
+    background-color: white;
+    padding: 14px 0;
+    display: flex;
+   
+    width: 1200px;
+}
+.nav-bar img{
+    display:flex;
+    margin-left: 20px;
+    width: 150px;
+    align-items: flex-start;
+}
+.nav-bar-ul{
+    display: flex;
+    justify-content: flex-end;
+    align-items: flex-end;
+    margin: auto;    
+}
+.nav-bar-ul li{
+    list-style-type: none;
+    text-align: center;
+    padding: 0 10px;
+    
+}
+
+.nav-bar-ul a{
+    color: black;
+    text-decoration: none;
+    font-size: 1.5em; 
+}
+
+/*header*/
+
+header{
+    padding: 200px;
+    background-image: url('../images/landing.jpg');
+    background-position: 0 0;
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+.header h1{
+    font-Size: 5em;
+    text-align: center;
+    color: white;
+}
+.header h2{
+    font-weight: 200;
+    font-Size: 2em;
+    text-align: center;
+    color: white;
+    
+}
+
+/*seccion 1*/
+
+#info-spotify h3{
+    font-size: 2.5em;
+    text-align: center;
+    border-bottom: 3px solid #1ab16a;
+    padding-bottom: 3px;
+    margin: 20px auto 70px auto;
+    width: 25%;
+}
+.info-icons{
+    display: flex;
+    margin: 50px;
+    align-items: flex-start;
+
+}
+
+#info-spotify .container{
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+    align-items: center;
+    width: 30%;
+}
+
+.container .icons{
+    width: 90px;
+    height: 80px;
+  }
+  
+.container h4{
+    color: #1ab16a;
+    font-size: 2.2em;
+    margin-bottom: 0px;
+}
+
+.container p{
+    font-size: 1.8em;
+    align-items: center;
+    text-align: center;
+}
+
+/*seccion 2*/
+
+ 
+ 
+ /* 
+    
+}
+.kanye-left-section{
+    text-align: left ;
+    
+}
+
+#kanye-left-section h4{
+    font-size: 2em;
+}
+
+
+ */
+#green-section{
+    background-color: #1ab16a;
+    color: white;
+    display: flex;
+    margin: 25px;
+    padding: 25px 60px;
+    
+}
+.kanye-left-section{
+    
+      
+}
+.kanye-left-section h3{
+    font-size: 2.5em;
+    border-bottom: 3px solid white;
+    padding-bottom: 3px;
+}
+.kanye-left-section h4{
+    font-size: 2.2em;
+}
+.kanye-left-section p{
+    font-size: 1.8em; 
+    text-align: left;
+}
+.center-logo{
+    display: flex;
+    align-items: center;  
+}
+.whitelogo{
+    width: 100px;
+    height: 100px;   
+}
+.right-image{
+    display: flex;
+    justify-content: flex-end; 
+}
+.image-app{
+    width: 80%;
+    padding-top: 60px;
+}
