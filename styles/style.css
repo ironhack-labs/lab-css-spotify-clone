@@ -14,13 +14,17 @@ body {
     font-family: 'Montserrat';
 }
 .nav-bar {
+    position: fixed;
     display: flex;
     flex-direction: row;
-    padding: 20px;    
     background-color: #FFF;
     justify-content: space-between;
-    align-items: center;
-    
+    align-items: center; 
+    width: 100%;
+}
+.nav-bar img {
+    height: 100px;
+    padding: 10px;
 }
 .nav-bar ul {
     display: flex;
@@ -109,26 +113,24 @@ body {
 .last-block {
     background-color: #00B172;
     padding-left: 100px;
-    padding-top: 20px;
+    padding-top: 30px;
+    padding-bottom: 30px;
     display: flex;
     flex-direction: row;
     justify-content: space-between;
     margin-left: 10px;
     margin-right: 10px;
-    /* background-image: url(/images/spotify-icon-white.png);
-    background-position: 0, 0;
-    background-repeat: no-repeat;
-    background-size: cover;
-    width: 100px; */
 }
+
 .last-block span {
     font-family: 'Montserrat';
     color: #FFF;
     line-height : 25px;
-    font-size: 30px;
+    font-size: 27px;
     border-bottom-style: solid;
     border-bottom-width: 3px;
     border-bottom-color: #FFF;
+    width: auto;
 }
 .last-block article {
     display: flex;
@@ -144,13 +146,15 @@ body {
     color: #FFF;
 }
 .white-logo {
+    height: 100px;
     display: flex;
-    justify-content: center;
-    height: 80px;
-    padding: 100px;
-    position: absolute;
-
+    justify-content: space-between;
+    align-items: center;
+    padding: 30px;
 }
 .artist-page{
-    width: 225px;
+    display: flex;
+    justify-content: flex-end;
+    padding: 5px;
+    width: 70%;
 }
