@@ -6,3 +6,84 @@ Green: #00B172
 White: #FFF
 
 */
+
+/*navegador por defecto aplica márgenes, y como no los queremos se lo marcamos así*/
+body {
+    margin: 0;
+    padding: 0;
+}
+
+
+body {
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+}
+
+
+header {
+    display: flex;
+    justify-content: space-between;
+    padding: 10px;
+    align-items: center;
+}
+
+header .logo {
+    width: 200px;
+    height: 60px;
+}
+
+header .menu {
+    width: 350px;
+    display:flex;
+    justify-content: space-between;
+}
+
+/*esta propiedad quita los iconos de "listado" de cada <li>*/
+header .menu li {
+    list-style: none;
+}
+
+/*metemos la imagen directamente como background. Como por defecto ocupa 
+todo el ancho, jugamos únicamente con height. Para centrar el texto usamos align
+y justify center, con direction column, y finalmente text center.*/
+.hero {
+    background-image: url(../images/landing.jpg);
+    background-size: cover;
+    height: 800px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+    color: white;
+    padding: 0 250px;
+    text-align: center;
+}
+
+.hero h1 {
+    font-size: 60px;
+    margin: 20px;
+}
+
+/* con line height marcamos la altura de las líneas de texto (podemos probar en
+los devtools del navegador directamente para buscar el valor que nos guste)*/
+.hero h2 {
+    font-weight: normal;
+    line-height: 40px;
+}
+
+.whats-on h3 {
+    text-align: center;
+    margin-bottom: 40px;
+}
+
+.features {
+    display: flex;
+    justify-content: space-around;
+}
+
+.feature {
+    text-align: center;
+}
+
+.feature img {
+    width: 100px;
+}
