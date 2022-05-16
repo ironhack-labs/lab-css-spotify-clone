@@ -1,3 +1,132 @@
+
+body {
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    margin: 0;
+    padding: 0;
+}
+header {
+    display: flex;
+    justify-content: space-between;
+    padding: 10px;
+}
+
+header .logo {
+    width: 200px;
+    height: 60px;
+}
+
+header .menu {
+    width: 500px;
+    display: flex;
+    justify-content: space-between;
+    font-size: 20px;
+    font-weight: bold;
+    
+}
+header ul{
+    list-style: none;
+
+}
+
+/* first section */
+
+.tittle{
+    background: url(/images/landing.jpg);
+    background-size: cover;
+    height: 800px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    color: white;
+    padding: 0 250px;
+    text-align: center;
+
+}
+
+.tittle h1 {
+    font-size: 60px;
+    margin: 20px;
+}
+.tittle p {
+    font-size: larger;
+    font-weight:normal;
+    line-height: 20px;
+}
+
+/* second section*/
+.tittle-s2 h3 {
+    text-align: center;
+    margin-bottom: 40px;
+    font-size: 45px;
+}
+
+.main-block{
+    display: flex;
+    justify-content: space-around;
+    text-align: center;
+}
+
+.main-block img {
+    width: 100px;
+}
+
+.main-block h4{
+    font-size:30px;
+    color: #00B172 ;
+}
+.main-block p{
+    font-size: larger;
+    color: black
+}
+
+/* third section*/
+
+.green-section {
+    background-color:#00B172 ;
+    background-image: url(/images/spotify-icon-white.png);
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: 150px;
+    display: flex;
+    justify-content: space-around;
+    padding: 40px;
+}
+
+.first-content h3, h4, p{
+    color: #fff;
+}
+.first-content h3 {
+    font-size: 40px;
+}
+.first-content h4 {
+    font-size: 25px;
+    margin-bottom: 0px;
+}
+.first-content p {
+    font-size: 20px;
+}
+
+.feature {
+    width: 500px;
+    display: flex;
+    flex-direction: column;
+    
+}
+
+
+.second-section img {
+width: 70%;
+}
+
+.second-section{
+    display: flex;
+    flex-direction: row-reverse;
+    flex-wrap: wrap;
+    align-content: space-around;
+
+}
+
 /*
 Colors:
 
