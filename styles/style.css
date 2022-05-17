@@ -6,3 +6,143 @@ Green: #00B172
 White: #FFF
 
 */
+
+body{
+    padding: 0;
+    margin: 0;
+}
+
+body {
+    font-family: Verdana, Geneva, Tahoma, sans-serif
+}
+
+header {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 10px;
+}
+
+header .logo{
+    width: 200px;
+    height: 60px;
+}
+
+header .menu{
+    width: 300px;
+    display: flex;
+    justify-content: space-between;
+}
+
+header .menu li{
+    list-style: none;
+}
+
+.hero {
+    background: url(../images/landing.jpg);
+    background-size: cover;
+    height: 800px;
+    display:flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    color: white;
+    padding: 0 250px; 
+    text-align: center;
+}
+
+.hero h1{
+    font-size: 60px;
+    margin: 20px;
+}
+
+.hero h2{
+    font-weight: normal;
+}
+
+.features {
+    display: flex;
+    justify-content: space-around;
+}
+
+.feature {
+    text-align: center;
+}
+
+.feature img{
+width: 100px;
+}
+
+.feature-title{
+    color: #00B172;
+    font-weight: bolder;
+    margin-top: 10px;
+    margin-bottom: 20px;
+}
+
+.feature-desc{
+    color: gray;
+}
+
+.whats-on h3 {
+    text-align: center;
+    margin-bottom: 40px;
+}
+
+.green-content{
+    background: #00B172;
+    background-image: url(../images/spotify-icon-white.png);
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: 150px;
+    display: flex;
+}
+
+.green{
+    padding: 0 40px;
+    margin-bottom: 40px;
+}
+
+.green-content > div{
+    width: 50%
+}
+
+.green-content-app{ 
+    display: flex;
+    justify-content: center;
+    align-items: center;    
+}
+.green-content-app img{
+    width: 300px;
+}
+
+.green-content-text-box{
+    display: flex;
+    flex-direction: column;
+    justify-content: space-around;
+    padding: 20px 50px;
+    color: white;
+    font-size: 20px;
+}
+
+.green-content-text-title{
+    padding: 50px 50px;
+    color: white;
+    font-size: 35px;
+    border-bottom-color: white;
+    border-bottom-style: solid;
+    border-bottom-width: 5px;
+}
+
+
+
+.green-content-text-titlebox{
+    padding: 30px 0px;
+    color: white;
+    font-weight: bolder;
+    font-size: 25px;  
+}
+
+.green-content-text-desc{
+    font-weight: lighter;
+}
