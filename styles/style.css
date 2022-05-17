@@ -6,3 +6,179 @@ Green: #00B172
 White: #FFF
 
 */
+body{
+margin:0;
+padding:0;
+}
+
+                          /* NavBar */
+
+.nav{ 
+    display: flex;
+    justify-content: space-between;
+    background:white;
+    position:fixed;
+    width: -webkit-fill-available;
+}   
+
+.nav li{
+    display:table-cell;
+    vertical-align: middle;
+    text-align:center;
+    padding: 35px;
+    font-size: 30px;
+    align-items: center;
+}
+
+.nav li a{
+    text-decoration: none;
+    color:black;
+    
+}
+
+.imgSpoty{
+    width: 180px;
+    height: 59px;
+    margin-top: 30px;
+    margin-left: 60px;
+}
+
+
+.banner{  
+    display: flex;
+    background-image:url(../images/landing.jpg);
+    height: 200vh;
+    background-size: cover; /*para que cubra todo el espacio que tiene*/
+    color:white;
+    flex-direction: column;
+    flex-wrap: wrap;
+    justify-content: center;
+    align-items: center;
+    font-family: system-ui;
+}
+
+.banner h1{
+   font-size: 80px;
+   font-weight:800;
+   padding-bottom: 80px;
+}
+
+.banner h3{
+
+   font-weight: lighter;
+    font-size:40px;
+    letter-spacing:10px;
+    
+}
+
+
+
+
+
+                                /*SECTION2*/
+
+.sect2{
+    display:flex;
+    flex-direction: column;
+}
+
+.titleSect2{
+
+    font-size: 52px;
+    border-bottom: 9px solid #00B172;
+    width:fit-content;
+    margin:0 auto;
+    margin-top: 30px;
+}
+
+.banner2{
+    display:flex;
+    justify-content: space-around;
+    align-items: flex-end;
+}
+
+.banner2 h4{
+    display:flex;
+    font-size: 30px;
+    color:#00B172;
+    font-family:system-ui;
+    font-weight:600;
+    justify-content: space-around;
+}
+.banner2 h5{
+    display: flex;
+    font-size: 30px;
+    font-family: system-ui;
+    font-weight: 100;
+    justify-content: space-around;
+}
+.banner2 img{
+    width: 250px;
+    padding: 30%;
+}
+
+
+
+                                      /*SECTION 3*/
+
+.section3{
+    background-color: #00B172;
+    background-image: url(../images/spotify-icon-white.png);
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: 300px;
+    color:#FFF;
+    display:flex;
+    justify-content: space-around;
+    width: 90%;
+    margin: 0 auto;
+}
+
+.banner3{
+    display:flex;
+    flex-direction: column;
+}
+
+.titleBanner3{
+    display:flex;
+    border-bottom: 2px solid white;
+    font-family: system-ui;
+    font-weight: 400;
+    font-size: 52px;
+    margin-bottom:10%;
+}
+
+
+.banner3 article h4{
+    display:flex;
+    font-family: system-ui;
+    font-weight: 400;
+    font-size: 40px;
+    
+}
+
+.banner3 article p{
+    font-size: 25px;
+    font-family:sans-serif;
+    color:whitesmoke;
+    font-weight:150;
+    opacity:0.8;
+    letter-spacing:0.1em;
+}
+
+.iconSpotify{
+    max-height: 300px;
+    margin-left:120px;
+    margin-right:120px;
+    
+}
+
+.aside3{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+}
+
+.kanyWest{
+    width: 400px;
+}
