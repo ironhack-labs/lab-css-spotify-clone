@@ -1,3 +1,11 @@
+ @import url('https://fonts.googleapis.com/css2?family=Noto+Sans:wght@100;300;400;500;700&display=swap');
+
+ body {
+     margin: 0;
+     padding: 0;
+     font-family: 'Noto Sans', sans-serif;
+ }
+
 /*
 Colors:
 
@@ -6,3 +14,88 @@ Green: #00B172
 White: #FFF
 
 */
+
+/*** Fonts ***/
+h1 {
+    font-size: 72px;
+}
+h2 {
+    font-size: 46px;
+}
+h3 {
+    font-size: 28px;
+}
+p {
+    font-size: 18px;
+}
+
+
+.container {
+    margin: 0 auto;
+    max-width: 1170px;
+}
+
+.nav-container {
+    background-color: white;
+    position: fixed;
+    top: 0;
+    right: 0;
+    left: 0;
+    padding: 10px;
+}
+
+.navbar {
+    display: flex;
+	flex-direction: row;
+	flex-wrap: nowrap;
+	justify-content: space-between;
+	align-items: center;
+	align-content: stretch;
+    height: 80px;
+}
+
+.navbar nav ul{
+    display: flex;
+    flex-direction: row;
+}
+
+.navbar nav ul li {
+    list-style: none;
+    margin-right: 30px;
+}
+
+.navbar a {
+    text-decoration: none;
+    color: black;
+}
+.navbar a:hover {
+    color: #00B172;
+}
+
+img {
+    height: 70%;
+}
+
+.hero-container {
+    display: flex;
+	flex-direction: row;
+	flex-wrap: nowrap;
+	justify-content: space-between;
+	align-items: center;
+	align-content: stretch;
+    height: 100vh;
+    background-image: url(/images/landing.jpg);
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+.hero-container {
+    color: white;
+    text-align: center;
+}
+
+.hero-container p {
+    font-size: 24px;
+    font-weight: 300;
+}
