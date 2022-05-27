@@ -1,8 +1,156 @@
 /*
 Colors:
 
-Text: 1A1A1A
+Text: #1A1A1A
 Green: #00B172
 White: #FFF
 
 */
+
+@import url("https://fonts.googleapis.com/css?family=Poppins");
+
+body {
+  font-family: "Poppins";
+}
+
+.light-section {
+  color: #1a1a1a;
+}
+
+.dark-section {
+  color: #fff;
+}
+
+/* Header Section */
+/* Navbar Section */
+
+.navbar {
+  display: flex;
+  width: 100%;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.spotify-logo {
+  width: 12rem;
+}
+
+.navbar-nav {
+  display: flex;
+  list-style: none;
+}
+
+.nav-item {
+  margin: 10px;
+  font-size: 1.2rem;
+}
+
+.nav-link {
+  text-decoration: none;
+}
+
+#navbarNav {
+  padding: 0 1.5rem;
+}
+
+/* Landing Section */
+
+#landing-section {
+  height: 600px;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  text-align: center;
+  background-image: url("../images/landing.jpg");
+  background-size: cover;
+  background-repeat: no-repeat;
+}
+
+#landing-section h1 {
+  font-size: 3.5rem;
+  margin-bottom: 0;
+}
+
+#landing-section p {
+  font-size: 1.2rem;
+  width: 50%;
+}
+
+/* Spotify-Section */
+.spotify-section {
+  text-align: center;
+}
+
+.spotify-intro {
+  margin: 35px 0 25px;
+}
+
+.spotify-section span {
+  font-size: 1.7rem;
+  font-weight: bold;
+  padding-bottom: 1px;
+  border-bottom: 3px solid #00b172;
+}
+
+.spotify-section img {
+  width: 6rem;
+}
+
+.product-info {
+  display: flex;
+  justify-content: space-evenly;
+  align-items: center;
+  margin: 0 5px 25px;
+}
+
+.product-info h3 {
+  color: #00b172;
+  font-size: 1.5rem;
+}
+
+.product-detail {
+  width: 15rem;
+  padding: 1rem;
+  margin: 1rem;
+}
+
+/* Green Section */
+#green-section {
+  background-color: #00b172;
+  background-image: url(../images/spotify-icon-white.png);
+  background-repeat: no-repeat;
+  background-size: 9%;
+  background-position: center center;
+  display: flex;
+  justify-content: space-between;
+}
+
+.green-left {
+  margin: 30px 5px 30px 30px;
+}
+
+.app-slogan {
+  margin: 50px 10px 30px 40px;
+}
+
+.app-slogan span {
+  font-size: 1.7rem;
+  padding-bottom: 1px;
+  border-bottom: 3px solid #fff;
+}
+
+.app-action-list {
+  list-style-type: none;
+  width: 45%;
+}
+
+.app-action-list h3 {
+  font-size: 1.5rem;
+}
+
+.spotify-app-img {
+  width: 18rem;
+  padding: 4rem 4rem 1rem 0;
+  margin: 10px 10px 10px 5px;
+}
