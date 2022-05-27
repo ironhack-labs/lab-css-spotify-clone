@@ -5,14 +5,106 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <meta http-equiv="X-UA-Compatible" content="ie=edge" />
     <title>Spotify Clone</title>
-    <!-- don't forget to link your styles -->
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Roboto:wght@700&display=swap"
+      rel="stylesheet"
+    />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Roboto:wght@100;300&display=swap"
+      rel="stylesheet"
+    />
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Roboto&display=swap"
+      rel="stylesheet"
+    />
+    <link rel="stylesheet" href="/styles/style.css" />
   </head>
   <body>
-    Premium Discover Help Download Music for everyone. Spotify is now free on mobile, tablet and computer. Listen to the
-    right music, wherever you are. What’s on Spotify? Millions of Songs There are millions of songs on Spotify HD Music
-    Listen to music as if you were listening live Stream Everywhere Stream music on your smartphone, tablet or computer
-    It’s as yeezy as Kanye West. Search Know what you want to listen to? Just search and hit play. Browse Check out the
-    latest charts, brand new releases and great playlists for right now. Discover Enjoy new music every Monday with your
-    own personal playlist. Or sit back and enjoy Radio.
+    <!--Iteration 1: Navbar-->
+    <nav class="nav-bar">
+      <img class="spotify-logo" src="/images/spotify-logo.png" />
+    </nav>
+    <section class="nav-bar-links">
+      <ul class="nav-links">
+        <li class="links">Premium</li>
+        <li class="links">Discover</li>
+        <li class="links">Help</li>
+        <li class="links">Download</li>
+      </ul>
+    </section>
+
+    <!--Iteration 2: Large image background with text-->
+    <header class="header">
+      <h1 class="landing-title">Music for everyone</h1>
+      <p class="landing-paragraph">
+        Spotify is now free on mobile, tablet and computer. Listen to the right
+        music, wherever you are.
+      </p>
+    </header>
+
+    <!--Iteration 3: What's on Spotify section-->
+    <h2 class="general-title">What's on Spotify?</h2>
+    <section class="general-information-container">
+      <article class="info-container">
+        <img class="info-image" src="/images/music-icon.png" alt="music-icon" />
+        <h2 class="info-title">Millions of songs</h2>
+        <p class="general-text">There are millions of songs on Spotify</p>
+      </article>
+
+      <article class="info-container">
+        <img class="info-image" src="/images/high-quality-icon.png" />
+        <h2 class="info-title">HD Music</h2>
+        <p class="general-text">
+          Listen to music as if you were listening live
+        </p>
+      </article>
+
+      <article class="info-container">
+        <img class="info-image" src="/images/devices-icon.png" />
+        <h2 class="info-title">Stream everywhere</h2>
+        <p class="general-text">
+          Stream music on your smartphone, tablet or computer
+        </p>
+      </article>
+    </section>
+
+    <!--Iteration 4: The green section-->
+    <section class="green-container">
+      <h2 class="green-landing-title">It’s as yeezy as Kanye West.</h2>
+      <article class="green-info-container">
+        <h3 class="green-title">Search</h3>
+        <p class="green-text">
+          Know what you want to listen to? Just search and hit play.
+        </p>
+      </article>
+
+      <article class="green-info-container">
+        <h3 class="green-title">Browse</h3>
+        <p class="green-text">
+          Check out the latest charts, brand new releases and great playlists
+          for right now.
+        </p>
+      </article>
+
+      <article class="green-info-container">
+        <h3 class="green-title">Discover</h3>
+        <p class="green-text">
+          Enjoy new music every Monday with your own personal playlist. Or sit
+          back and enjoy Radio.
+        </p>
+      </article>
+      <img class="spotify-white-logo" src="/images/spotify-icon-white.png" />
+    </section>
+
+    <!--Container for the image to be placed inside of the green container-->
+    <section class="outer-container">
+      <img class="outer-img" src="/images/spotify-app.jpg" />
+    </section>
   </body>
 </html>

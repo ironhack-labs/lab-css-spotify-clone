@@ -1,8 +1,171 @@
 /*
 Colors:
 
-Text: 1A1A1A
+Text: #1A1A1A
 Green: #00B172
 White: #FFF
 
 */
+
+* {
+  font-family: "Roboto", sans-serif;
+}
+
+body {
+  margin: 0;
+  padding: 0;
+}
+
+.nav-bar {
+  position: fixed;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  top: 15px;
+  left: 20px;
+}
+
+.spotify-logo {
+  width: 160px;
+  height: 50px;
+}
+
+.nav-bar-links {
+  display: flex;
+  justify-content: flex-end;
+  align-items: center;
+  height: 80px;
+}
+
+.nav-links {
+  display: flex;
+  padding-right: 80px;
+  font-size: 20px;
+}
+
+.links {
+  display: flex;
+  text-decoration: none;
+  padding-right: 20px;
+}
+
+.header {
+  background-image: url(/images/landing.jpg);
+  background-position: 0 0;
+  background-repeat: no-repeat;
+  background-size: cover;
+  height: 650px;
+  padding-top: 50px;
+  position: relative;
+}
+
+.landing-title {
+  font-size: 5rem;
+  text-align: center;
+  color: #fff;
+  position: relative;
+  top: 220px;
+}
+
+.landing-paragraph {
+  color: #fff;
+  text-align: center;
+  position: relative;
+  top: 200px;
+  font-size: 1.8rem;
+  width: 700px;
+  margin: 0 auto;
+}
+
+.general-title {
+  color: #000;
+  text-align: center;
+  text-decoration: underline 5px solid #00b172;
+  text-underline-offset: 10px;
+  font-size: 40px;
+}
+
+.general-information-container {
+  display: flex;
+  justify-content: space-evenly;
+  align-items: center;
+  padding: 75px 0;
+}
+
+.info-container {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  width: 360px;
+}
+
+.info-image {
+  width: 125px;
+  padding-bottom: 20px;
+}
+
+.info-title {
+  color: #00b172;
+  margin: 0;
+  text-align: center;
+}
+
+.general-text {
+  color: #1a1a1a;
+  text-align: center;
+  font-size: 20px;
+  width: 250px;
+  margin: 0;
+  padding-top: 20px;
+}
+
+.green-container {
+  background-color: #00b172;
+  color: #fff;
+  width: 50%;
+  margin: 0 auto;
+  font-size: 1.3rem;
+  height: 50vh;
+  padding: 50px 90px 90px 60px;
+}
+
+.green-landing-title {
+  text-decoration: underline 5px solid #fff;
+  text-underline-offset: 10px;
+  font-weight: 300;
+  padding-bottom: 25px;
+}
+
+.spotify-white-logo {
+  width: 80px;
+  position: relative;
+  left: 550px;
+  bottom: 250px;
+}
+
+.green-info-container {
+  width: 300px;
+  display: flex;
+  flex-direction: column;
+}
+
+.green-title {
+  margin: 0;
+  font-weight: 400;
+}
+
+.green-text {
+  font-size: 1rem;
+}
+
+.outer-container {
+  display: flex;
+  justify-content: flex-end;
+  position: relative;
+  right: 450px;
+  bottom: 500px;
+}
+
+.outer-img {
+  width: 200px;
+}
