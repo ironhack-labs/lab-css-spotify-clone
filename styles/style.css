@@ -6,3 +6,163 @@ Green: #00B172
 White: #FFF
 
 */
+
+body, html{
+    margin: 0;
+    padding: 0;
+    font-family: 'Open Sans', sans-serif;
+}
+
+nav {
+    position: fixed;
+    top: 0;
+    margin: 0 0;
+    display: flex;
+    width: 100vw;
+    justify-content: space-between;
+}
+
+header nav {
+    background-color: rgb(233, 231, 231);
+}
+
+#spotify-logo {
+    height: 64px;
+    margin: 15px 45px;
+}
+
+ul {
+    display: flex;
+    flex-direction: row;
+}
+
+ul li {
+    padding: 15px 35px;
+    font-size: 26px;
+    list-style: none;
+    font-weight: 600;
+}
+
+a:link {
+    text-decoration: none;
+    color:black
+}
+  
+a:hover {
+    text-decoration: underline;
+    color: black;
+}
+
+.section1 div {
+    display: flex;
+    margin-top: 94px;
+    background-image: url(../images/landing.jpg);
+    background-size: cover;
+    background-repeat: no-repeat;
+    height: 1500px;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    color: white;
+}
+
+h1 {
+    font-size: 120px;
+    margin: 20px;
+}
+
+.section1 p {
+    font-size: 50px;
+    margin: 10px 300px;
+    text-align: center;
+}
+
+.section2 {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    margin-bottom: 150px;
+}
+
+.pros {
+    display: flex;
+    flex-direction: row;
+}
+
+.pros img {
+    height: 100px;
+    display: block;
+    margin: auto;
+}
+
+.section2 article {
+    margin: 10px 30px;
+    width: 500px;
+}
+
+.section2 h2 {
+    margin: 60px auto;
+    font-size: 44px;
+    border-bottom: 5px solid rgb(0, 177, 114);
+    border-radius: 2px;
+    padding-bottom: 5px;
+}
+
+ h3, p {
+    text-align: center;
+}
+
+.section2 h3{
+    color: rgb(0, 177, 114);
+    font-size: 30px;
+    font-weight: bolder;
+}
+
+.section2 p {
+    font-size: 25px;
+    margin: auto 110px;
+    color:rgb(107, 107, 107);
+}
+
+.section3 {
+    margin: auto 50px;
+    background-color: rgb(0, 177, 114);
+    padding: 80px 100px;
+    color: white;
+}
+
+.section3 div {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+}
+
+.circle {
+    height: 200px;
+}
+
+.app {
+    margin: auto 0 auto 250px;
+    height: 850px;
+}
+
+.section3 h2{
+    display: inline;
+    font-size: 40px;
+    border-bottom: 5px solid white;
+    border-radius: 2px;
+    padding-bottom: 5px;
+}
+
+.section3 h3 {
+    font-size: 30px;
+    text-align: left;
+}
+
+.section3 p {
+    font-size: 25px;
+    text-align: left;
+    margin-right: 250px;
+    width: 400px;
+}
