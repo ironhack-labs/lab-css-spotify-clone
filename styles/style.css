@@ -1,3 +1,7 @@
+@import url('https://fonts.googleapis.com/css?family=Roboto+Condensed:700|Roboto:100,300,700');
+@import url(https://fonts.googleapis.com/css?family=Roboto:100,100italic,300,300italic,400,400italic,500,500italic,700,700italic,900,900italic&subset=latin,latin-ext,cyrillic,cyrillic-ext,greek-ext,greek,vietnamese);
+@import url(https://fonts.googleapis.com/css?family=Roboto+Condensed:300,300italic,400,400italic,700,700italic&subset=latin,latin-ext,cyrillic-ext,cyrillic,greek-ext,greek,vietnamese);
+@import url(https://fonts.googleapis.com/css?family=Roboto+Slab:400,100,300,700&subset=latin,latin-ext,greek-ext,greek,vietnamese,cyrillic,cyrillic-ext);
 /*
 Colors:
 
@@ -6,3 +10,209 @@ Green: #00B172
 White: #FFF
 
 */
+
+body {
+    margin: 0;
+    padding: 0;
+    size: 10px;
+    line-height: 3.5em;
+    font-family: 'Roboto';
+  }
+
+.divTopPage{
+    margin-top: 0;
+    padding: 0;
+    display: flex;
+    justify-content: space-between;
+    background-color: #FFF;
+    position: fixed;
+    width: 100%;
+}
+
+.positionLogo{
+    display: inline-block;
+    padding: 10px 20px;
+}
+
+
+.imageSpotify{
+    width:300px;
+    height:100px;
+}
+
+.nav-bar{
+    top:0;
+    width: 100%;
+    display: inline-flex;
+    
+}
+
+.nav-bar ul{
+    display: inline-flex;
+    justify-content: right;
+    position: relative;
+    left: 50%;
+}
+
+li{
+    font-size: 25px;
+    width:100px;
+    list-style: none;
+    padding: 28px 17px;
+    text-align: center;
+}
+
+.header h1{
+    color: #FFF;
+    font-size: 5em ;
+    font-family: roboto;
+    padding: 500px 0 10px 0;
+    margin: 0 0 10px 0;
+    text-align: center;
+    height:100px;
+    width: auto;
+    
+}
+
+.header h2{
+    color: #FFF;
+    font-size: 3em ;
+    font-family: Roboto;
+    font-weight: 300;
+    padding: 10px;
+    text-align: center;
+    height: 700px;
+    width: auto;
+    margin: 10px 300px 0 300px;
+}
+
+.header{
+    margin-top:200;
+    background-image: url(../images/landing.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: bottom;
+    margin: 0 auto;
+}
+
+.divSection{
+    margin: 0 50px;
+    justify-content: center;
+}
+
+#generalInformation{
+    display: flex;
+    justify-content: center;
+}
+.titleSection{
+    text-align: center;
+    font-size: 4em ;
+    font-family: roboto;
+    margin: 55px;
+}
+
+.container{
+    width: 450px;
+    margin: 0 auto;
+    padding: 75px 0;
+    text-align: center;
+}
+
+
+
+.container img{
+    vertical-align: middle;
+    width: 250px;
+}
+
+.divjustifycenter{
+    justify-content: center!important;
+}
+
+.container h4{
+    text-align: center;
+    font-family: roboto;
+    font-weight: 700;
+    font-size: 35px;
+    margin: 10px 0;
+}
+.container p{
+    text-align: center;
+    font-family: roboto;
+    font-size: 30px;
+    margin: 10px 50px;
+}
+
+.backgroundKanye{
+    background-color: #00B172;
+    padding: 40px;
+}
+
+.divkanye1{
+    padding: 65px;
+}
+
+.divkanye2block{
+    display: block;
+    margin: 50px;
+
+}
+.divkanye3disflex{
+    display: flex;
+	flex-direction: row;
+	flex-wrap: nowrap;
+	justify-content: center;
+	align-items: stretch;
+	align-content: stretch;
+}
+
+.kanyeimage{
+    width: 450px;
+}
+
+.alignSpotfyimage{
+    margin: 30px;
+    text-align: center;
+}
+.whitespotifyImage{
+    padding: 250px 120px ;
+    width: 150px;
+}
+
+.h3kanye{
+    color: white;
+    letter-spacing: 2px;
+    text-align: left;
+    font-family: roboto;
+    font-weight: 700;
+    font-size: 4em;
+    margin: 0.2em;
+    padding: 0 0 0 100px;
+    text-decoration: underline;
+}
+
+.insideArticles{
+    width: auto;
+    padding-top: 100px;
+}
+
+.insideArticles article h4{
+    color: white;
+    letter-spacing: 2px;
+    text-align: left;
+    font-family: roboto;
+    font-weight: 700;
+    font-size: 3em;
+    margin: 10px 0;
+}
+
+.insideArticles article p{
+    color: white;
+    letter-spacing: 2px;
+    text-align: left;
+    font-family: roboto;
+    font-weight: 300;
+    font-size: 1.5em;
+    margin: 10px 0;
+    padding: 0 50px 0 0;
+}
