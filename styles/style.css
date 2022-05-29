@@ -6,3 +6,232 @@ Green: #00B172
 White: #FFF
 
 */
+
+/* CSS Reset */
+
+*, *::before, *::after {
+    box-sizing: border-box;
+  }
+
+* {    
+    margin: 0;
+    font-family: 'Lato', sans-serif;
+}
+
+html, body {
+    height: 100%;
+  }
+
+  img, picture, video, canvas, svg {
+    display: block;
+    max-width: 100%;
+  }
+
+/* CSS Content */
+
+h1 {
+    font-size: 7rem;
+    color: #FFF;
+    margin-bottom: 2rem;
+}
+
+
+header {
+    position: fixed;
+    display: block;
+    width: 100%;
+    height: 110px;
+}
+
+.navbar {
+    background-color: white;
+    position: fixed;
+    top: 0;
+    left: 0;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    flex-direction: row;
+    width: 100%;
+}
+
+.spoti-logo {
+    width: 250px;
+    margin: 1rem 3rem;
+}
+
+.nav-buttons {
+        text-decoration: none;
+}
+
+.nav-buttons > ul {
+    display: flex;
+    flex-direction: row;
+    gap: 20px;
+    font-size: 1.5rem;
+    margin: 1rem 3rem;
+}
+
+ul > li {
+    list-style-type: none;
+}
+
+.main-section {
+    background: url("/images/landing.jpg");
+    background-size: cover;
+    background-repeat: no-repeat;
+    height: 100vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+}
+
+.main-background-image {
+    background-position: 100%;
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+
+.central-text {
+    color: #FFF;
+    font-size: 2.5rem;
+    font-weight: 300;
+    width: 50%;
+    text-align: center;
+    line-height: 1.5;
+
+}
+
+.mid-section {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+}
+
+.whatson-title {
+    display: inline-block;
+    margin-top: 3rem;
+}
+
+.whatson-title > h2 {
+    font-size: 3rem;
+}
+
+.whatson-title > hr {
+    color: #00B172;
+    border: 3px solid;
+    margin-top: 0.5rem;
+}
+
+.whatson-three {
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    flex-direction: row; 
+    height: 40vh;
+    width: 100%;
+}
+
+.whatson-three-div {
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    flex-direction: column;
+    height: 70%;
+    width: 30%;
+}
+
+.whatson-three-div > h4 {
+    font-size: 2.5rem;
+    color: #00B172;
+    margin: 1rem 0 1.5rem
+}
+
+.whatson-three-div > p {
+    font-size: 2rem;
+    font-weight: 300;
+    width: 60%;
+    text-align: center;
+}
+
+.whatson-img {
+    width: 150px; 
+}
+
+.bottom-section {
+    background-color: #00B172;
+    color: #FFF;
+}
+
+.kanye-dumb {
+    display: flex;
+    justify-content: space-around;
+    
+}
+
+.kanye-bla {
+    padding-left: 8rem;
+    flex-grow: 2;
+    height: 800px;
+}
+
+.kanye-hate {
+    display: inline-block;
+    font-size: 2rem;
+    
+}
+
+.kanye-hate > hr {
+    border: 3px solid;
+    margin-bottom: 4rem;
+    margin-top: 1rem;
+}
+
+.kanye-blablabla {
+    display: flex;
+    flex-direction: column;
+}
+
+.kanye-blablabla > h3 {
+    font-weight: bold;
+    line-height: 2rem;
+    font-size: 2.5rem;
+    margin-bottom: 2rem;
+}
+
+.kanye-blablabla > p {
+    font-size: 2rem;
+    margin-bottom: 3rem;
+    font-weight: 300;
+    
+}
+
+
+.kanye-feo {
+    flex-grow: 1;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.spoti-icon-white {
+    display: flex;
+    text-align: center;
+    justify-content: center;
+    top: 45vh;
+    position: relative;
+}
+
+.spoti-icon-white > img {
+    width: 160px;     
+}
+
+.spoti-app {
+     height: 650px;
+     margin: 50px 0 100px;
+}
