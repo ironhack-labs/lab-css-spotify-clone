@@ -72,7 +72,7 @@ p {
     color: #00B172;
 }
 
-img {
+.logo-img {
     height: 70%;
 }
 
@@ -99,3 +99,82 @@ img {
     font-size: 24px;
     font-weight: 300;
 }
+
+.card-container {
+    display: flex;
+	flex-direction: row;
+	flex-wrap: nowrap;
+	justify-content: space-between;
+	align-items: center;
+    text-align: center;
+    row-gap: 10px;
+    padding-bottom: 100px;
+}
+
+.section-title {
+    text-align: center;
+    padding: 50px;
+}
+
+.card {
+    display: flex;
+    flex-direction: column;
+	justify-content: flex-end;
+	align-items: center;
+    text-align: center;
+    width: 320px;
+}
+
+.card h3 {
+    color: #00B172
+}
+
+.card img {
+    height: 80px;
+    margin: 25px;
+}
+
+.green-section {
+    position: relative;
+    background-color: #00B172;
+    color: white;
+    padding-bottom: 50px;
+}
+.green-section-header {
+    padding-top: 20px;
+}
+
+.green-section-content {
+    display: flex;
+    flex-direction: row;
+	justify-content: space-between;
+	align-items: ;
+    text-align: center; 
+}
+
+.green-section-content h3 {
+    padding: 0;
+    margin: 0 0 20px 0;
+} 
+
+.content {
+    width: 300px;
+}
+.img-test {
+    width: 100%;
+}
+
+.padre{
+    position: relative; /* Se usa para que no se salga la imagen de la caja, ya que la imagen tiene position absolute */
+    width: 100%;
+    height: 600px;
+    background-color: #ddd;
+}
+.logo {
+    position: absolute; /* se usa en caso de este div, donde tiene la altura y el ancho definido, sin esto top, right y left no funcionarían */
+    width: 100px;
+    top: 50%; /* sirve en caso de un div como este, donde tiene una altura definida, en caso de que la altura no este definida esta edición no se pone ; */
+    right: 0; /* se debe usar para que margin 0 auto funcione */
+    left: 0; /* se debe usar para que margin 0 auto funcione */
+    margin: 0 auto; /* Esto lo centra */
+}   
