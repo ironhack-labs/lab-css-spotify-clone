@@ -19,6 +19,7 @@ White: #FFF
  html {
     line-height: 1.15; /* 1 */
     -webkit-text-size-adjust: 100%; /* 2 */
+    font-family: sans-serif;
   }
   
   /* Sections
@@ -412,4 +413,34 @@ White: #FFF
 
   .section2{
       display: flex;
+      flex-direction: column;
+      align-items: center;
   }
+
+  .benefits{
+      display: flex;
+      width: 80%;
+  }
+
+  .benefits div{
+      display: flex;
+      flex-direction: column;
+      align-items: center;
+      padding: 0  10px;
+  }
+
+  .benefits div img{
+      width: 30%;
+      margin-bottom: 20px;
+  }
+
+  .benefits div h3{
+      color: green;
+      font-size: 34px;
+  }
+
+  .benefits div p{
+    font-size: 28px;
+    font-weight: 100;
+    text-align: center;
+}
