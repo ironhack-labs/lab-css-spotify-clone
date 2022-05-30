@@ -144,10 +144,9 @@ div > h2 {
 }
 
 #spotify-tools {       
-    height: 1200px;
+    height: 1180px;
     margin: 80px 50px 30px 50px;
     background-color: #00B172;
-    position: relative;
 }
 
 #spotify-tools > h2 {
@@ -172,10 +171,10 @@ div > h2 {
     margin-left: 150px;
 }
 
-#spotify-tools > div {
+.cards-container {
     display: flex;
-    justify-content: space-between;
-    align-items: center;
+    flex-flow: row nowrap;
+    align-items: center;  
 }
 
 #spotify-tools div div {
@@ -192,6 +191,7 @@ div > h2 {
     color: #FFF;
     margin-top: 100px;
     margin-left: 150px;
+    margin-bottom: 30px;
 }
 
 .paragraph {
@@ -199,20 +199,28 @@ div > h2 {
     font-size: 25px;
     font-weight: 200;
     color: #FFF;
-    margin-top: 30px;
     margin-left: 150px;    
-    width: 480px;
+    width: 400px;
 }
 
 .spotify-app {
-    height: 900px;  
-    margin-left: 200px;
+    margin-left: 150px;
+    padding: 0%;    
 }
+
+.spotify-app > img {
+    height: 900px;
+    padding: 0;
+    margin: 0;    
+}
+
+ .tools-cards {
+     position: relative;
+ }
 
 .second-logo {
     position: absolute;
-    bottom: 45%;
-    left: 45%;
+    right: 200px;
 }
 
 .spotify-icon-white {
