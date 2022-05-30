@@ -6,3 +6,189 @@ Green: #00B172
 White: #FFF
 
 */
+
+body {
+    margin: 0;
+    padding: 0;
+    font-family: 'Open Sans', sans-serif;
+}
+
+header {
+    background: #fff;
+    display: flex;
+    justify-content: space-between;
+    padding: 1rem 2rem 0.5rem;
+    align-items: center;
+}
+
+.logo {
+    width: 150px;
+    margin: 0 auto
+}
+header {
+    position: fixed;
+    width: 95%;
+}
+
+nav > ul {
+    display: flex;
+    list-style: none;
+    flex-wrap: wrap;
+    gap: 12px;
+    align-items: center;
+}
+
+nav > ul > li > a {
+    color: #1A1A1A;
+    text-decoration: none;
+    font-size: 1rem;
+    font-weight: bold;
+    padding: 0.5rem 1rem;
+    border-radius: 5px;
+    transition: all 0.3s ease;
+}
+
+nav > ul > li > a:hover {
+    background: #00B172;
+    color: #FFF;
+}
+
+#hero{
+    background: url('../images/landing.jpg');
+    width: 100vw;
+    height: 100vh;
+    background-size: cover;
+    background-position: center;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+} 
+
+#hero > div {
+    text-align: center;
+}
+
+#hero > div > h1 {
+    font-size: 6rem;
+    color: white;
+    margin-bottom: 2rem;
+}
+
+#hero > div > p {
+    font-size: 2rem;
+    color: white;
+    margin-bottom: 0;
+    font-weight: 100;
+}
+#what {
+   text-align: center;
+   margin-top: 3rem;
+}
+
+#what > h2 {
+    font-size: 2rem;
+    margin-bottom: 0;
+    font-weight: 100;
+    text-align: center;
+    padding-bottom: 7px;
+    border-bottom: 3px solid #00B172;
+    display: inline
+}
+#what > .cards {
+    display: flex;
+    justify-content: space-between;
+    padding: 0 4rem;
+    margin-top: 3rem;
+}
+.card {
+    display: block;
+    justify-content: center;
+    padding: 0 4rem;
+}
+
+.card-icon {
+    border-radius: 50%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-bottom: 1rem;
+}
+
+.card-icon > img {
+    width: 100px;
+    height: 100px;
+}
+
+.card-title {
+    font-size: 1.5rem;
+    font-weight: 100;
+    margin-bottom: 0;
+    color: #00B172;
+    font-weight: bold;
+}
+
+.card-description {
+    font-size: 1.1rem;
+    font-weight: 100;
+    margin-bottom: 0;
+    color: rgb(46, 46, 46);
+}
+
+#banner {
+    display: flex;
+    justify-content: space-between;
+    padding: 4rem 8rem;
+    margin-top: 3rem;
+    background-color: #00B172;
+    color: #fff;
+}
+
+#banner h3 {
+    font-size: 2rem;
+    font-weight: 100;
+    margin-bottom: 0;
+    color: #fff;
+    border-bottom: #fff 3px solid;
+    display:  inline;
+    padding: 0 0 0.5rem 0;
+}
+
+#banner h4 {
+    font-size: 1.3rem;
+    font-weight: 800;
+    margin-bottom: 0;
+    color: #fff;
+    font-weight: bold;
+}
+
+#banner p {
+    font-size: 1rem;
+    font-weight: 100;
+    margin-bottom: 0;
+    color: #fff;
+    width: 70%;
+}
+
+.banner-app {
+    display: flex;
+    justify-content: right;
+    padding: 0 4rem;
+    margin-top: 3rem;
+    align-items: center;
+    padding: 0 2rem
+}
+
+.banner-app img {
+    width: 250px;
+}
+
+.banner-logo {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-top: 3rem;
+}
+
+.banner-logo img {
+    width: 100px;
+}
