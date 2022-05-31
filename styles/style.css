@@ -6,3 +6,96 @@ Green: #00B172
 White: #FFF
 
 */
+* {
+    margin: 0;
+    padding: 0;
+    font-family: sans-serif;
+}
+
+header {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin:  auto 20px;
+    padding: 20px;
+}
+header img {
+    width: 300px;
+    display: block;
+   
+}
+header ul {
+    list-style: none;
+    display: flex;
+    justify-content: space-around;
+   
+}
+
+header a {
+    text-decoration: none;
+    margin-right: 20px;
+    color: #1A1A1A;
+    font-size: 1.2em;
+
+}
+.hero {
+    background: url(../images/landing.jpg);
+    background-size: cover;
+    background-position: center;
+    height:800px ;
+    background-repeat: no-repeat;
+    color: white;
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+    width: 100%;
+    
+}
+h1 {
+    font-size: 6em;
+}
+.text {
+    text-align: center;
+}
+.text2 {
+    font-size: 3em;
+}
+.titulo {
+    text-align: center;
+    font-size: 64px;
+    padding: 20px;
+    text-decoration: underline;
+    text-decoration-color: #00B172;
+
+}
+
+.col-container {
+    display: flex;
+    justify-content: space-between;
+}
+
+.column {
+    width: 25%;
+    margin: 30px;
+    display: flex;
+    flex-direction: column;
+    padding: 30px;
+    text-align: center;
+    align-items: center;
+
+}
+.column img {
+    width: 100px;
+    align-items: center;
+    margin-bottom: 10px;
+
+}
+.column h3 {
+    color: #00B172;
+    margin-bottom: 10px;
+}
+.green-section {
+    display: flex;
+    justify-content: space-between;
+    background-color: Green: #00B172;
+}
