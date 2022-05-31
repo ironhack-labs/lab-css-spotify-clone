@@ -1,3 +1,4 @@
+@import url('https://fonts.googleapis.com/css2?family=Montserrat:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap');
 /*
 Colors:
 
@@ -6,3 +7,168 @@ Green: #00B172
 White: #FFF
 
 */
+
+* { 
+    margin: 0;
+    padding: 0;
+    font-family: Montserrat;
+    font-size: 1em;
+}
+  
+header > div {
+    margin:
+    padding:30px;
+    display: flex;
+    justify-content: space-between;
+    vertical-align:middle;
+  }
+
+.spotifyLogo {
+    margin:10px;
+    width: 150px;
+    vertical-align:middle;
+}
+
+/* Nav Section Classes */
+
+nav li {
+    margin-top: 25px;
+    list-style: none;
+    display: inline-block;
+    padding: 0 20px;
+}
+nav ul {
+    display: flex;
+    justify-content:flex-end;
+    align-content:flex-end;
+    align-items: center;
+
+}
+
+nav a {
+    text-decoration: none;
+    color:black;
+}
+
+/* Section 1 Classes */
+
+.section1{ 
+    position:relative;
+    background: url("/images/landing.jpg");
+    width:100%;
+    height: 700px;
+    background-size:cover;
+    background-repeat:no-repeat;
+    display:inline-block;
+    text-align: center;
+    align-items: center;
+    align-content:center;
+
+}
+
+.section1-text{
+    color: white;
+    vertical-align:middle;
+    text-align:center;
+} 
+
+.section1-text h1{
+    font-size:3em;
+    font-weight: 500;
+    padding-top: 25%;
+
+}
+
+.section1-text article{
+    margin-top:20px;
+    font-size:1.2em;
+    font-weight:250;
+}
+
+/* Section 2 */
+
+.section2h2{
+    text-align: center;
+    padding-bottom:40px;
+    font-size:1.6em;
+    font-weight:600;
+    text-decoration: underline#00B172 ;
+    margin-top:5%;
+}
+#section-2{
+    display:flex;
+    position:center;
+    align-content: center;
+    align-items: flex-start;
+    text-align: center;
+    justify-content: space-evenly;
+    margin-left:9%;
+    margin-bottom: 54px;
+  }
+  
+#section-2 img{
+    max-width:100px;
+    max-height:70px;
+    display:block;
+    margin:0 auto;
+}
+
+#section-2 h3{
+    font-size:1.3em;
+    font-weight:650;
+    color: #00B172;
+}
+
+#section-2 h4{
+    font-size:1.0em;
+    font-family: Montserrat Light;
+    margin-top:-10%
+}
+
+/* Section 3 - App Photo */
+
+.section-3-background{
+    background-color:#00B172;
+    background-image: url(/images/spotify-icon-white.png);
+    justify-content: space-evenly;
+    position:relative;
+    background-repeat:no-repeat;
+    background-size:15%;
+    background-position-x: center;
+    background-position-y:center;
+    height: 600px;
+    
+}
+.section-3 {
+    color:white;
+    display:flex;
+    flex-direction: row;
+    align-content:center;
+    justify-content: space-between;
+    padding:54px 54px;
+}
+.section-3 h3{
+    padding-top:24px;
+    font-size: 1.5em;
+    font-weight: 650;
+}
+
+.section-3 h4{
+    font-size: 1.1em;
+    font-weight: 325;
+}
+
+
+.section-3 img{
+    max-width:250px;
+}
+
+#section-3-h2{
+    color:white;
+    padding-top:54px;
+    padding-left: 54px;
+    font-size: 1.8em;
+    font-weight: 450;
+    text-decoration: underline white ;
+}
+
