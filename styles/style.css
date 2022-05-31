@@ -11,6 +11,7 @@ body {
   font-size: 11px;
   font-family: Arial, Helvetica, sans-serif;
   font-weight: lighter;
+  width: 600px;
 }
 
 header {
@@ -20,7 +21,6 @@ header {
 .cuatroapertura {
   width: 200px;
   display: flex;
-  float: right;
   list-style: none;
   justify-content: space-around;
 }
@@ -39,32 +39,33 @@ header {
 
 .concertImage {
   background-image: url(../images/landing.jpg);
-  background-repeat: no-repeat;
   background-position: 0 0;
   background-size: cover;
-  position: relative;
   position: relative;
   display: inline-block;
 }
 
 .concertImage img {
   width: 100%;
+  height: 80%;
 }
 .titlemusic {
   position: absolute;
-  top: 35%;
+  top: 30%;
   color: white;
   font-size: 36px;
-  text-align: center;
+  padding: 0 0 0 140px;
 }
 
 .text {
   position: absolute;
-  bottom: 10%;
+  bottom: 38%;
+  left: 28%;
   color: white;
   text-align: center;
   font-size: 13px;
   line-height: 20px;
+  font-weight: lighter;
 }
 
 .h2title {
@@ -83,6 +84,13 @@ header {
   display: flex;
   flex-direction: column;
   justify-content: space-around;
+}
+.formato3 {
+  display: flex;
+  flex-direction: column;
+  justify-content: space-around;
+  align-items: center;
+  padding: 10px 0 -5px 0;
 }
 
 .icon {
