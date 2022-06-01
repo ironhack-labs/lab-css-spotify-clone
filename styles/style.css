@@ -6,3 +6,130 @@ Green: #00B172
 White: #FFF
 
 */
+
+* {
+    margin: 0;
+    padding: 0;
+}
+
+nav {
+    position: fixed;
+    background-color: #fff;
+    width: 100%;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: center;
+}
+
+#nav-spotify-logo > img {
+    height: 55px;
+    margin: 10px 30px;
+}
+
+#navbar > ul > li {
+    display: inline;
+    list-style: none;
+    margin: auto 30px;
+    font-size: 20px;
+}
+
+.button {
+    outline: none;
+    background-color: white;
+    border: none;
+    font-size: 18px;
+}
+
+header {
+    background-image: url(../images/landing.jpg);
+    background-size: cover;
+    height: 850px;
+}
+
+header > div {
+    width: 100%;
+    position: absolute;
+    margin: 300px auto 0;
+    text-align: center;
+}
+
+header > div > h1 {
+    color: #fff;
+    font-size: 90px;
+}
+
+header > div > p {
+    color: #fff;
+    font-size: 20px;
+}
+
+#whats-on-spotify > h1 {
+    text-align: center;
+    font-size: 50px;
+}
+
+.item > img {
+    height: 70px;
+    display: block;
+    margin: auto;
+}
+
+h2 {
+    font-size: 1.5em;
+}
+
+.item > h2 {
+    text-align: center;
+    color: #00b172;
+    margin-bottom: 20px;
+}
+
+.whats-on-box {
+    display: flex;
+    flex-flow: row wrap;
+    justify-content: space-around;
+    align-items: center;
+    align-content: space-around;
+    margin: 80px;
+}
+
+.item > p {
+    text-align: center;
+}
+
+#yeezy {
+    background-color: #00b172;
+    background-image: url(../images/spotify-icon-white.png);
+    background-size: 100px;
+    background-repeat: no-repeat;
+    background-position: center;
+    padding: 80px;
+    margin-right: 20px;
+    margin-left: 20px;
+}
+
+.yeezy-box {
+    display: flex;
+    flex-flow: row;
+    justify-content: space-between;
+    align-items: center;
+}
+
+#yeezy > div > img {
+    width: 300px;
+}
+
+#yeezy > div > h1 > span {
+    border-bottom: 3px solid #fff;
+    color: #fff;
+}
+
+#yeezy > div > h2 {
+    color: #fff;
+    margin: 20px;
+}
+
+#yeezy > div > p {
+    color: #fff;
+}
