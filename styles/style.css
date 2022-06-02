@@ -6,3 +6,138 @@ Green: #00B172
 White: #FFF
 
 */
+
+body {
+    margin: 0;
+}
+header img {
+    height: 50px;
+}
+nav a {
+    text-decoration: none;
+    font-size: 0.9em;
+    color: #1A1A1A;  
+    font-weight: lighter;
+    margin-left:15px ;
+}
+
+
+header {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: space-between;
+padding: 12px 20px 12px 20px;
+
+}
+
+#firstSection {
+    font-size: 3em;
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+    justify-content: center;
+    color: white;
+
+    background-image: url(/images/landing.jpg);
+    background-position: 0 0;
+    height: 100vh;
+    background-size: cover;
+    background-repeat: no-repeat;
+
+    padding-top: 50px;
+    position: relative;
+
+}
+
+#firstSection > h6 {
+    font-weight: lighter;
+    padding: 0 260px;
+    text-align: center;
+    margin-top: -20px;
+}
+
+
+#secondSection {
+    font-size: 2.5em;
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+    justify-content: center;
+    color: #1A1A1A;
+}
+
+#secondSection > div >h3 {
+    border-bottom: 5.5px solid #00B172;
+}
+.container {
+   
+    display: flex;
+    align-items: baseline;
+    flex-direction: row;
+    justify-content: center;
+    padding: 0 100px 100px 0;
+
+}
+
+.container img {
+    height: 140px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    
+}
+
+.box {
+    width: 30%;
+    color: #00B172;
+    text-align: center;
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+}
+
+span {
+    
+    font-size: 0.5em;
+    font-weight: lighter;
+    color: #1A1A1A;
+}
+
+#thirdSection {
+    margin: 0 50px;
+    /* padding: 60px 100px 60px 100px; */
+    background-color: #00B172;
+    font-size: 2em;
+    color: white;
+    display: flex;
+    flex-direction: row;
+    flex-wrap: inherit;
+    align-items: center;
+    justify-content: space-evenly;
+}
+
+.icon-white {
+    width: 120px;
+}
+
+.spotify-app {
+    width: 400px;
+}
+
+.thirdSectionText {
+    width: 380px;
+    padding-left: 60px;
+}
+
+.thirdSectionText h3 {
+    width: 520px;
+    padding-top: 60px;
+    border-bottom: 5.5px solid white;
+
+}
+
+.thirdSectionText h5 {
+    font-size: 0.8em;
+    font-weight: lighter;
+}
