@@ -6,3 +6,177 @@ Green: #00B172
 White: #FFF
 
 */
+
+
+* {
+    margin: 0;
+    padding: 0;
+}
+
+body {
+    font-family: 'Montserrat', sans-serif;
+}
+
+a {
+    text-decoration: none;
+    color: black;
+}
+
+
+header, nav, ul, div:first-of-type, section {
+    display: flex;
+}
+
+section, header, section div {
+    flex-direction: column;
+    align-items: center;
+}
+
+
+h1 {
+    font-size: 6vw;
+}
+
+h2 {
+    font-size: 18pt;
+    margin: 40px;
+    border-bottom: 3px solid #1ab26b;
+}
+
+
+.section-b h2 {
+    color: white;
+    font-weight: 500;
+    margin-left: 0px;
+    border-bottom: 3px solid white;
+}
+
+h3 {
+    color: black;
+    font-size: 18pt;
+    margin: 20px;
+}
+
+.section-b h3 {
+    color: white;
+    margin-left: 0px;
+}
+
+
+header {
+    justify-content: center;
+    background-image: url("/images/landing.jpg");
+    background-size: cover;
+    width: 100vw;
+    height: 100vh;
+    color: white;
+}
+
+
+li {
+    list-style-type: none;
+}
+
+li img {
+    width: 120px;
+}
+
+section:first-of-type li p {
+    max-width: 360px;
+}
+
+
+nav {
+    position: fixed;
+}
+
+p {
+    text-align: center;
+    font-size: 14pt;
+}
+
+section ul {
+    flex-wrap: wrap;
+    justify-content: space-around;
+    width: 100vw;
+}
+
+section li {
+    height: 260px;
+}
+
+nav a {
+    margin-left: 20px;
+}
+
+nav a:hover {
+    font-weight: 500;
+    transition: .3s;
+}
+
+nav img {
+    width: 120px;
+    margin: 20px 20px 20px 20px;
+}
+
+.section-b {
+    width: 100vw;
+    padding-bottom: 120px;
+    height: auto;
+    background-image: url("/images/spotify-icon.png");
+    flex-direction: unset;
+    justify-content: space-between;
+    background-repeat: no-repeat;
+    background-position: center;
+    background-color: #1ab26b;
+    background-size: 120px;
+}
+
+.section-b div {
+    width: 40vw;
+    height: 100vh;
+    align-items: flex-start;
+    margin: 100px;
+}
+
+.section-b li {
+    color: white;
+    display: block;
+    width: 400px;
+}
+
+.section-b ul {
+    width: 40vw;
+    height: 800px;
+    flex-wrap: wrap;
+    justify-content: flex-start;
+}
+
+.section-b li p {
+    text-align: left;
+}
+
+
+.section-b img {
+    width: 20vw;
+}
+
+.section-b div:last-of-type {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.navbar {
+    background-color: white;
+    width: 100vw;
+    align-items: center;
+    justify-content: space-between;
+}
+
+.navbar div:first-of-type {
+    margin-right: 20px;
+}
+
+
+
