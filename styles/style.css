@@ -6,3 +6,182 @@ Green: #00B172
 White: #FFF
 
 */
+
+html, body {
+    margin: 0; 
+    padding: 0;
+}
+
+body {
+    font-family: Arial, Helvetica, sans-serif; 
+    font-weight: 100; 
+    line-height: 1.5; 
+    color: #1a1a1a;
+}
+
+header > div {
+    padding: 0 2rem; 
+    display: flex; 
+    justify-content: space-between; 
+    align-items: center;
+} 
+
+#logo {
+    width: 4rem; 
+    height: 4rem; 
+    display: flex; 
+    justify-content: flex-start;
+}
+
+.nav {
+    position: fixed;
+} 
+
+#navbar {
+    display: flex; 
+    justify-content: space-between; 
+    align-items: center; 
+    list-style: none;
+} 
+
+#navbar li {
+    margin: 1rem;
+} 
+
+#navbar a {
+    text-decoration: none; 
+    color: #1a1a1a; 
+    font-weight: 100;
+}
+
+.background {
+    display: flex; 
+    justify-content: center; 
+    flex-direction: column; 
+    background-image: url("../images/landing.jpg");
+    background-position: center; 
+    background-repeat: no-repeat; 
+    background-size: cover; 
+    height: 150vh; 
+    color: #fff; 
+    padding: 0;
+} 
+
+.background h1 {
+    font-size: 5rem; 
+    margin: 0em;
+} 
+
+.background h2 {
+    font-size: 2rem; 
+    margin: 0; 
+    font-weight: lighter; 
+}
+
+.container {
+    margin: 0; 
+    padding: 10px; 
+} 
+
+#structure {
+    display: flex; 
+    flex-direction: column; 
+    margin: 0; 
+}
+
+#structure > div {
+    display: flex; 
+    justify-content: space-between; 
+    margin: 0;
+    padding: 0; 
+}
+
+#structure > h2 {
+    font-size: 2rem; 
+    text-align: center; 
+    padding: 20px 0 0 0; 
+    margin: 0;
+} 
+
+#structure hr {
+    border-top: 5px solid #00b172;
+    width: 280px; 
+    margin: 0 auto;
+}
+
+#structure .service-box {
+    display: flex;
+    flex-direction: column; 
+    align-content: center;
+    align-items: center;
+    padding: 50px; 
+    margin: 0; 
+    width: 33.3%;
+} 
+
+#structure .service-box img {
+    width: 100px;  
+    height: 80px; 
+} 
+
+#structure .service-box h2 {
+    display: flex; 
+    justify-content: center; 
+    color: #00b172; 
+    font-size: 1.5rem; 
+    margin: 0 0 10px 0; 
+    text-align: center;
+}
+
+#structure .service-box p {
+    text-align: center; 
+    margin: 0 10px;
+} 
+
+#greenSection {
+    background-color:  #00b172;
+    background-image: url("../images/spotify-icon-white.png"); 
+    background-repeat: no-repeat; 
+    background-size: 10%; 
+    background-position: center;
+    display: flex; 
+    justify-content: space-around; 
+    align-items: center; 
+    padding: 50px; 
+    margin: 10px; 
+    color: #fff; 
+} 
+
+#greenSection h2 {
+    margin: 0px 0; 
+    font-size: 2rem;
+} 
+
+#greenSection hr {
+    border-top: 4px solid #fff;
+    width: 425px;
+    margin: 0 0 50px 0;
+}
+
+#greenSection img {
+    width: 262px; 
+    height: 464px; 
+    padding: 50px;
+}
+
+#greenSection .greenBox {
+    margin-right: 50%;
+}
+
+.greenSection p {
+    font-weight: lighter;
+}
+
+.greenBox h3 {
+    font-size: 1.5rem;
+}
+
+#greenSection > div {
+    width: 50%; 
+    margin: 0;
+} 
