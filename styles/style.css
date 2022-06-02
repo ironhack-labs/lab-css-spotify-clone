@@ -1,8 +1,155 @@
-/*
-Colors:
+body {
+    font-family: Helvetica, sans-serif;
+    font-size: 14px;
+}
 
-Text: 1A1A1A
-Green: #00B172
-White: #FFF
+/*header*/
+.navbar {
+    position: fixed;
+    background-color: white;
+    width: 100%;
+    display: flex;
+    justify-content: space-between;
+}
 
-*/
+ul {
+    display: flex;
+    justify-content: row;
+    padding-right: 20px;
+
+}
+
+ul>li {
+    font-size: 24px;
+    list-style: none;
+    padding: 0 5px 0 5px;
+}
+
+.logo {
+    height: 50px;
+    padding: 15px;
+}
+
+/* section 1*/
+.section1 {
+    background: transparent url(../images/landing.jpg)no-repeat center center/cover;
+    margin-bottom: 5%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    height: 500px;
+}
+
+
+h1 {
+    color: white;
+    font-weight: 78;
+    font-size: xx-large;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+#landingPara {
+    color: white;
+    font-size: x-large;
+    font-weight: 99;
+    text-align: center;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+/* section 2*/
+h2 {
+    color: black;
+    font-size: x-large;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    text-decoration: underline;
+    text-decoration-color: green;
+    text-underline-offset: 30%;
+}
+
+.featureForPannels {
+    display: flex;
+    justify-content: space-between;
+    padding: 3em;
+}
+
+.pannels {
+    text-align: center;
+    margin: 0 auto;
+}
+
+.pannels img {
+    height: 80px;
+
+}
+
+.pannels h3 {
+    color: green;
+    font-size: 18px;
+}
+
+.pannels p {
+    color: black;
+    font-size: 18px;
+}
+
+.section2 {
+    margin-bottom: 5%;
+}
+
+/* section 3*/
+.screenshot {
+    height: 560px;
+}
+
+.screenshotdiv {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding-right: 60px;
+}
+
+h4 {
+    color: white;
+    font-size: x-large;
+    text-decoration: underline;
+    text-decoration-color: white;
+    text-underline-offset: 30%;
+    padding-bottom: 10px;
+    padding-left: 60px;
+}
+
+.bottomPannels {
+    text-align: left;
+    margin: 0 auto;
+    padding-left: 60px;
+}
+
+
+.bottomPannels h3 {
+    color: white;
+    font-size: 24px;
+}
+
+.bottomPannels p {
+    color: white;
+    font-weight: 500;
+    font-size: 18px;
+    padding-bottom: 5px;
+}
+
+.section3 {
+    background-image: url(../images/spotify-icon-white.png);
+    background-size: 100px;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-color: green;
+    display: flex;
+    justify-content: space-between;
+    padding: 3em;
+}
