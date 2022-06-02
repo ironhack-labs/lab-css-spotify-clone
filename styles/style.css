@@ -1,3 +1,9 @@
+body {
+  font-family: "Mulish", sans-serif;
+  margin: 0;
+  padding: 0;
+}
+
 /*
 Colors:
 
@@ -6,3 +12,143 @@ Green: #00B172
 White: #FFF
 
 */
+header {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  margin: 30px;
+}
+
+nav {
+  height: 25px;
+  width: 500px;
+  display: flex;
+  text-align: center;
+  justify-content: space-between;
+  font-size: 1.2rem;
+  word-spacing: 5px;
+  padding-right: 100px;
+}
+
+nav a {
+  color: #1a1a1a;
+  text-decoration: none;
+}
+
+.spotify-logo {
+  height: 15%;
+  width: 15%;
+  padding-left: 100px;
+}
+
+figure {
+  color: white;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  text-align: center;
+  height: 100vh;
+  width: auto;
+  margin: 0;
+  padding: 0;
+  background-image: url("/images/landing.jpg");
+  background-size: contain;
+  flex-direction: column;
+}
+
+h1 {
+  font-size: 5rem;
+  white-space: initial;
+}
+p1 {
+  font-size: 1.5rem;
+  line-height: 30px;
+  font-weight: 300;
+  opacity: 70%;
+}
+
+article {
+  text-align: center;
+  font-size: 1.5rem;
+  padding: 40px;
+}
+
+.info-container {
+  display: flex;
+  align-items: center;
+  justify-content: space-around;
+  padding: 20px;
+}
+
+.info-img {
+  width: 250px;
+}
+
+h3 {
+  color: #00b172;
+  font-weight: 900;
+}
+
+p2 {
+  font-weight: 300;
+  font-size: 1.4rem;
+}
+
+footer {
+  background-color: #00b172;
+  display: flex;
+  padding-bottom: 100px;
+  justify-content: space-evenly;
+  align-items: center;
+  width: 95%;
+  margin-left: 50px;
+  margin-top: 70px;
+}
+
+.footer-info {
+  font-size: 2rem;
+  color: #fff;
+  display: flex;
+  flex-direction: column;
+  justify-content: flex-start;
+}
+
+.logo-white {
+    margin-top: 200px;
+    margin-right: 200px;
+  width: 250px;
+  height: 250px;
+}
+
+.app-img {
+  height: 650px;
+  width: 370px;
+  margin-top: 150px;
+  margin-right: 50px;
+}
+
+p3 {
+  font-weight: 300;
+  font-size: 1.4rem;
+  padding-left: 0px;
+}
+h4 {
+  font-size: 3rem;
+  margin-bottom: 20px;
+}
+h5 {
+  font-size: larger;
+  margin: 50px;
+  margin-left: 0px;
+}
+
+hr {
+  border: 0;
+  clear: both;
+  display: block;
+  width: 150%;
+  background-color: #fff;
+  height: 3px;
+  padding: 0;
+  margin: 0;
+}
