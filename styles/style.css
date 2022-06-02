@@ -1,8 +1,116 @@
-/*
-Colors:
+@import url('https://fonts.googleapis.com/css2?family=Roboto:wght@100;400&display=swap');
 
-Text: 1A1A1A
-Green: #00B172
-White: #FFF
+html, body {
+    margin: 0;
+    padding: 0;
+}
+body {
+    font-family: Roboto;
+}
+h1 {
+    font-size: 70px;
+    font-weight: 400;
+}
+h2 {
+    text-align: center;
+    margin-top: 50px;
+    margin-bottom: 50px;
+    text-decoration: underline 3px solid #00B172;
+    text-underline-offset: 10px;
+    font-size: 26px;
+    font-weight: 400;
+}
+h3 {
+    color: #00B172;
+}
+h4 {
+    font-size: 26px;
+    text-decoration: underline 3px solid white;
+    text-underline-offset: 10px;
+}
+h5 {
+    font-size: 20px;
+}
+p {
+    font-weight: 100;
+    line-height: 1.6em;
+}
+.nav-bar {
+    background-color: white;
+    padding-top: 20px;
+    padding-bottom: 20px;
+    display: flex;
+    flex-direction: row;
+}
+.nav-bar img {
+    width: 200px;
+    margin-left: 30px;
+}
+.nav-bar ul {
+    width: 1200px;
+    margin-right: 20px;
+    list-style-type: none;
+    display: flex;
+    justify-content: right;
+    align-items: center;
+}
+.nav-bar li {
+    margin-left: 30px;
+}
+.main {
+    position: relative;
+    text-align: center;
+    color: white;
+}
+.bg-img {
+    height: 100vh;
+    width: 100%;
+}
+.about-spotify {
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+}
+.about-spotify p {
+    font-size: 20px;
+    line-height: 1.5em;
+}
+.box-img {
+    height: 100px;
+}
+.boxes {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: space-around;
+    margin-bottom: 50px;
+}
+.box {
+    box-sizing: border-box;
+    text-align: center;
+    width: 25%;
+}
+.spotify-info {
+    background-color: #00B172;
+    color: white;
+    margin: 30px;
+}
+.sound-img {
+    height: 150px;
+}
+.music-img {
+    width: 300px;
+}
+.spotify-info {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: center;
+    padding: 50px 80px;
+}
+.info-txt {
+    box-sizing: border-box;
+    width: 30%;
+}
 
-*/
