@@ -2,6 +2,7 @@ body {
   font-family: "Mulish", sans-serif;
   margin: 0;
   padding: 0;
+  animation: load-in 1s ease;
 }
 
 /*
@@ -33,6 +34,12 @@ nav {
 nav a {
   color: #1a1a1a;
   text-decoration: none;
+  transition: all ease 0.2s;
+}
+
+nav a:hover {
+    color: #00b172;
+    transition: all ease 0.2s;
 }
 
 .spotify-logo {
@@ -114,8 +121,8 @@ footer {
 }
 
 .logo-white {
-    margin-top: 200px;
-    margin-right: 200px;
+  margin-top: 200px;
+  margin-right: 200px;
   width: 250px;
   height: 250px;
 }
@@ -151,4 +158,18 @@ hr {
   height: 3px;
   padding: 0;
   margin: 0;
+}
+
+@keyframes load-in {
+    0%{
+        transform: translateY(-10%);
+        transform: scale(1.2);
+        opacity: 0%;
+    }
+    100%{
+        transform: translateY(0);
+        transform: scale(1);
+        opacity: 100%;
+
+    }
 }
