@@ -167,6 +167,7 @@ h3 {
     left: 50%;
     top: 50%;
     height: 120px;
+    transform: translate(-50%, -50%);
 }
 
 
@@ -193,7 +194,16 @@ h3 {
         align-items: center;
     } 
 
+    .text-container h3 {
+        text-align: center;
+    }
+
+    .text-container p {
+        text-align: center;
+    }
+
     #spotify-icon {
         position: static;
+        transform: translate(0%, 0%);
 }
 }
