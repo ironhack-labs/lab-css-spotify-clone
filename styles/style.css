@@ -1,8 +1,176 @@
-/*
-Colors:
+:root {
+    --green: #00b172;
+    --black: #1a1a1a;
+    --white: #fff;
+    font-family: Helvetica, Arial, sans-serif;
+}
 
-Text: 1A1A1A
-Green: #00B172
-White: #FFF
+* {
+    padding: 0;
+    margin: 0;
+}
 
-*/
+/* navbar */
+
+header {
+    position: fixed;
+    top: 0;
+    width: 100%;
+    height: 10vh;
+}
+
+nav {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 15px;
+    background-color: var(--white);
+}
+
+nav > img {
+    height: 5vmin;
+}
+
+nav > ul > li {
+    display: inline;
+    padding: 0 10px;
+}
+
+main {
+    margin-top: 10vh;
+}
+
+/* banner section */
+
+section#banner {
+    background-image: url(../images/landing.jpg);
+    background-repeat: no-repeat;
+    text-align: center;
+    color: var(--white);
+    height: 80vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+}
+
+section#banner h1 {
+    font-size: 3.5vw;
+}
+
+section#banner p {
+    font-size: 1.5vw;
+    margin-top: 5vh;
+}
+
+/* end banner section */
+
+/* features section */
+
+section#features {
+    padding: 2rem;
+    text-align: center;
+}
+
+section#features h2 {
+    font-size: 2.5vw;
+    margin-bottom: 1rem;
+}
+
+section#features h2 > span {
+    border-bottom: var(--green) solid medium;
+}
+
+div.features {
+    display: flex;
+    justify-content: first baseline;
+    align-items: center;
+    flex-wrap: wrap;
+    padding: 2rem;
+}
+
+div.feature {
+    width: 33%;
+}
+
+div.feature > h3 {
+    color: var(--green);
+    font-size: 1.5vw;
+}
+
+img.features {
+    width: 20%;
+}
+
+div.features > h3 {
+    margin-bottom: 12rem;
+}
+
+div.features > p {
+    font-size: 1.5vw;
+}
+
+
+/* end features section */
+
+/* artist section */
+
+section#artist {
+    background-color: var(--green);
+    padding: 3rem;
+}
+
+section#artist h2 {
+    color: var(--white);
+    font-size: 3em;
+}
+
+section#artist h2 > span {
+    border-bottom: var(--white) solid medium;
+}
+
+section#artist h3 {
+    color: var(--white);
+    font-size: 2em;
+}
+
+section#artist p {
+    color: var(--white);
+    font-size: 1.5em;
+}
+
+div.artist-flex {
+    display: flex;
+    justify-content: space-between;
+    width: 100%;
+}
+
+div.artist-flex div {
+    width: 33%;
+}
+
+
+div.artist-text h3 {
+    padding: 2rem 0;
+}
+
+div.artist-text p {
+    font-weight: 100;
+}
+
+
+div.artist-logo {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+div.artist-logo div > img {
+    width: 80%;
+}
+
+div.artist-app img {
+    width: 65%;
+}
+
+/* end artist section */
