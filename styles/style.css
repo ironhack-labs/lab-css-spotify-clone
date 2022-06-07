@@ -46,10 +46,6 @@ a {
 	text-decoration: none;
 }
 
-.perks img {
-	height: 50px;
-}
-
 /* HEADER STYLES */
 header {
 	display: flex;
@@ -58,7 +54,7 @@ header {
 	justify-content: center;
 	text-align: center;
 	height: 100vh;
-	margin-bottom: 2rem;
+	margin-bottom: 2.5rem;
 	color: #fff;
 	background-image: url(/images/landing.jpg);
 	background-size: cover;
@@ -73,4 +69,42 @@ header h1 {
 header p {
 	font-size: 1.5rem;
 	line-height: 1.5;
+}
+
+/* PERKS SECTION */
+
+.perks-section {
+	margin-bottom: 5rem;
+}
+
+.perks-section h2 {
+	text-align: center;
+	font-size: 1.8rem;
+	margin-bottom: 5rem;
+}
+
+.perks {
+	display: flex;
+	justify-content: center;
+	gap: 8rem;
+}
+
+.perk {
+	text-align: center;
+}
+
+.perk img {
+	height: 80px;
+	margin-bottom: 1rem;
+}
+
+.perk h3 {
+	font-size: 1.5rem;
+	color: #00b172;
+	margin-bottom: 2rem;
+}
+
+.perk p {
+	font-size: 1.4rem;
+	max-width: 250px;
 }
