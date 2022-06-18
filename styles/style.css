@@ -14,6 +14,10 @@ html,body{
     font-family: Arial;
 }
 
+body{
+    padding-bottom: 3em; 
+}
+
 nav {
     background-color: white;
     font-weight: 100;
@@ -63,7 +67,7 @@ main h1{
     margin-bottom: 2rem;
 }
 
-main figcaption{
+main span{
     color: white;
     font-weight: 100;
     font-size: 2rem;
@@ -87,6 +91,9 @@ main figcaption{
     width: 100%;
     padding: 6rem;
     margin-bottom: 3rem;
+    padding-right: 0;
+    padding-left: 0;
+    flex-wrap: wrap;
 }
 
 
@@ -111,4 +118,52 @@ main figcaption{
     font-weight: 100;
     width: 60%;
     margin: auto;
+}
+
+.yeezy-section{
+    margin: auto;
+    width: 95%;
+    height: 50rem;
+    background-color: #00B172;
+    background-image: url("/images/spotify-icon-white.png");
+    background-position: center;    
+    background-repeat: no-repeat;
+    background-size: 8rem;
+    display: flex;
+    justify-content: space-evenly;
+    align-items: center;
+    color: white;
+    margin-bottom: 3em; 
+    border: 1px solid blue;
+    flex-wrap: wrap;
+}
+
+.yeezy-section .articles{
+    font-size: 1.25rem;
+    font-weight: 100;
+    display: flex;
+    flex-direction: column;
+    align-content: flex-start;
+    width: 40rem;
+    padding-left: 0;
+
+}
+
+.yeezy-section h2{
+    padding-top: 1em;
+    font-size: 2.5rem;
+    text-decoration-color: white;
+    text-decoration-line: underline;
+    text-decoration-thickness: 0.25rem ;
+    text-underline-offset: 10px;
+}
+.yeezy-section h3{
+    font-size: 1.75rem;
+}
+.yeezy-section article{
+    width: 40%;
+}
+.yeezy-section img{
+    margin-top: 10rem;
+    width: 20rem;
 }
