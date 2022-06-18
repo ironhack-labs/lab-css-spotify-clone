@@ -59,6 +59,7 @@ main{
 main h1{
     color: white;
     font-size: 6rem;
+    text-align: center;
     margin-bottom: 2rem;
 }
 
@@ -68,4 +69,46 @@ main figcaption{
     font-size: 2rem;
     width: 40%;
     text-align: center;
+}
+
+.middle-setion h2{
+    font-size: 2rem;
+    text-align: center;
+    padding: 2rem;
+    text-decoration-color: #00B172;
+    text-decoration-line: underline;
+    text-decoration-thickness: 0.25rem ;
+    text-underline-offset: 10px;
+}
+
+.middle-setion .features{
+    display: flex;
+    justify-content: space-around;
+    width: 100%;
+    padding: 6rem;
+    margin-bottom: 3rem;
+}
+
+
+.middle-setion .features article{
+    display: flex;
+    flex-direction: column;
+    text-align: center;
+}
+
+.middle-setion .features img{
+    width: 9em;
+}
+
+.middle-setion .features figcaption{
+    color: #00B172;
+    font-size: 1.5em;
+    font-weight: 600;
+}
+
+.middle-setion .features span{
+    padding: 1em;
+    font-weight: 100;
+    width: 60%;
+    margin: auto;
 }
