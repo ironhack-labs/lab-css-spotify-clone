@@ -26,6 +26,66 @@ nav {
   position: fixed;
   top: 0;
   background-color: white;
+  z-index: 20;
+}
+
+
+.sideLinks{
+  background-color:black;
+  position: fixed;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-around;
+  align-items: flex-start;
+  width: 100%;
+  height: 100vh;
+  font-weight: bold;
+  z-index: 10;
+  text-align: center;
+  font-size: 1.5rem;
+  padding: 5% 0;
+  left: -100%;
+}
+
+.sideLinks.open{
+  left: 0;
+}
+
+.sideLinks {
+  transition: left ease-in 0.3s;
+}
+
+.burger {
+  display: relative;
+  font-size: 1.2rem;
+  cursor: pointer;
+  margin: 0;
+  z-index: 20;
+ 
+}
+
+.burger span {
+  display: block;
+  width: 0;
+  height: 2px;
+  background:white;
+  margin: 5px;
+  z-index: 20;
+}
+
+.burger.open span:nth-child(1) {
+  transform: rotate(45deg) translateY(10px);
+}
+.burger.open span:nth-child(2) {
+  opacity: 0;
+  width: 0;
+}
+.burger.open span:nth-child(3) {
+  transform: rotate(-45deg) translateY(-10px);
+}
+
+.burger span {
+  transition: all ease-in 0.3s;
 }
 
 .navLogo {
@@ -68,6 +128,12 @@ a:hover {
 /* selected link */
 a:active {
   color: black;
+}
+
+.sideLinks a {
+  color: white;
+  text-transform: capitalize;
+  width: 100%;
 }
 
 .landing {
@@ -191,12 +257,31 @@ a:active {
 
 @media only screen and (max-width: 700px) {
   nav {
-    justify-content: center;
-    align-items: center;
-    padding: 5% 0;
+    justify-content: space-between;
+    background-color: black;
+    padding: 10% 
   }
+
   .navLogo {
-    display: none;
+display: none;
+  }
+  
+  .navLogo img {
+    width: 100%;
+  }
+
+.burger{
+  padding: 5%;
+  position: fixed;
+}
+  
+  .burger span {
+    display: block;
+    width: 30px;
+    height: 2px;
+    background:white;
+    margin: 5px;
+    z-index: 20;
   }
 
   .links {
@@ -209,6 +294,7 @@ a:active {
     text-decoration: none;
     text-transform: capitalize;
     padding: 1% 5%;
+    display: none;
   }
 
   .landing h3 {
@@ -272,3 +358,4 @@ a:active {
     width: 80%;
   }
 }
+
