@@ -1,8 +1,275 @@
-/*
-Colors:
+@import url("https://fonts.googleapis.com/css2?family=Montserrat:wght@100;200;300;400;500;600&display=swap");
 
-Text: 1A1A1A
-Green: #00B172
-White: #FFF
+html,
+body,
+h1,
+h2,
+h3 {
+  padding: 0;
+  margin: 0;
+}
 
-*/
+body {
+  width: 100vw;
+  max-width: 1450px;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  font-family: "Montserrat", sans-serif;
+}
+
+nav {
+  width: 100%;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  position: fixed;
+  top: 0;
+  background-color: white;
+}
+
+.navLogo {
+  width: 20%;
+  height: 100%;
+  padding: 1% 5%;
+}
+
+.navLogo img {
+  width: 60%;
+}
+
+.links {
+  width: 40%;
+  height: 100%;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  text-decoration: none;
+  text-transform: capitalize;
+  padding: 1% 5%;
+  
+}
+
+a:link {
+  color: black;
+  text-decoration: none;
+  transition: color 0.4s ease 0.01s;
+  transition: 0.4s ease 0.01s;
+}
+
+a:visited {
+  color: black;
+}
+
+/* mouse over link */
+a:hover {
+  color: #00b172;
+}
+
+/* selected link */
+a:active {
+  color: black;
+}
+
+.landing {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  width: 100%;
+  height: 100vh;
+  background-image: url("../images/landing.jpg");
+  background-size: 100%;
+  color: white;
+}
+
+.landing h1 {
+  font-size: 4rem;
+  text-align: center;
+}
+
+.landing h3 {
+  width: 40%;
+  font-size: 1rem;
+  text-align: center;
+  font-weight: 300;
+  padding: 2% 0 0 0;
+}
+
+.whatsOn {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  margin-top: 2%;
+}
+
+.whatsOn h2 {
+  border-bottom: 2px solid #00b172;
+}
+
+.cardsContainer {
+  display: flex;
+  padding: 5% 10%;
+}
+
+.cardsContainer img {
+  width: 33%;
+}
+
+.card {
+  display: flex;
+  justify-content: space-between;
+  flex-direction: column;
+  align-items: center;
+}
+
+.card h3 {
+  color: #00b172;
+  padding: 1% 0;
+}
+
+.card p {
+  text-align: center;
+  vertical-align: bottom;
+  height: 5%;
+  padding: 0 0 7% 0;
+}
+
+.kaneWestContainer {
+  width: 75%;
+  display: flex;
+  flex-direction: column;
+  justify-items: center;
+  background-color: #00b172;
+  padding: 6% 4% 4% 4%;
+  color: white;
+}
+
+.kaneWestTitle {
+  width: 45%;
+  font-size: 1.8rem;
+  border-bottom: 3px solid white;
+  text-align: center;
+  padding: 0 0 0.5% 0;
+}
+
+.kaneWestBottomContainer {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.leftContainer {
+  width: 33%;
+  height: 50vh;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+  margin-top: 4%;
+}
+
+.leftContainerSection h3 {
+  font-size: 1.5rem;
+  margin-bottom: 7%;
+}
+.middleContainer {
+  width: 33%;
+  display: flex;
+  justify-content: center;
+}
+
+.middleContainer img {
+  width: 25%;
+}
+
+.rightContainer {
+  width: 33%;
+}
+
+.rightContainer img {
+  width: 80%;
+}
+
+@media only screen and (max-width: 700px) {
+  nav {
+    justify-content: center;
+    align-items: center;
+    padding: 5% 0;
+  }
+  .navLogo {
+    display: none;
+  }
+
+  .links {
+    width: 80%;
+    height: 100%;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    text-align: center;
+    text-decoration: none;
+    text-transform: capitalize;
+    padding: 1% 5%;
+  }
+
+  .landing h3 {
+    width: 60%;
+
+    padding: 10% 0 0 0;
+  }
+
+  .whatsOn {
+    margin-top: 5%;
+  }
+
+  .cardsContainer {
+    display: flex;
+    flex-direction: column;
+    padding: 5% 10%;
+  }
+
+  .kaneWestContainer {
+    width: 90%;
+    padding: 6% 4% 4% 4%;
+  }
+
+  .kaneWestBottomContainer {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+  }
+
+  .kaneWestTitle {
+    width: 100%;
+    font-size: 1.6rem;
+    border-bottom: 3px solid white;
+    text-align: center;
+    padding: 0 0 0.5% 0;
+    margin-top: 10%;
+  }
+
+  .leftContainer {
+    width: 80%;
+    height: 50vh;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    margin-top: 8%;
+  }
+
+  .middleContainer {
+    display: none;
+  }
+
+  .rightContainer {
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    padding-top: 10%;
+  }
+
+  .rightContainer img {
+    width: 80%;
+  }
+}
