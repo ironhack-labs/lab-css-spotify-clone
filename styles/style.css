@@ -1,0 +1,71 @@
+/*
+Colors:
+
+Text: 1A1A1A
+Green: #00B172
+White: #FFF
+
+*/
+
+html,body{
+    width: 100%;
+    height: 100%;
+    margin: 0;
+    font-family: Arial;
+}
+
+nav {
+    background-color: white;
+    font-weight: 100;
+    position: fixed;
+    top:0;
+    width: 100%;
+    height: 3rem;
+    padding: 1rem;
+    display: flex;
+    justify-content: space-between;
+}
+
+nav .spotify-logo{
+    width: 10rem;;
+}
+
+nav .links{
+    list-style: none;
+    color: black;
+    display: flex;
+    flex-direction: row;
+    margin-right: 2em;
+}
+
+nav .links li a{
+    font-size: 1.25rem;
+    padding: 1rem;
+    color: black;
+    text-decoration: none;
+}
+
+main{
+    background-image: url("../images/landing.jpg");
+    background-size: cover;
+    height: 80vh;
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+}
+
+main h1{
+    color: white;
+    font-size: 6rem;
+    margin-bottom: 2rem;
+}
+
+main figcaption{
+    color: white;
+    font-weight: 100;
+    font-size: 2rem;
+    width: 40%;
+    text-align: center;
+}
