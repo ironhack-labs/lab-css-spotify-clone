@@ -67,29 +67,54 @@ h1 {
   font-weight: 300;
   line-height: 1.5rem;
 }
-
+/*
 .introduction-section {
   display: flex;
   justify-content: center;
 }
 
+*/
+
 .introduction-section h2 {
   text-decoration: underline;
+  text-underline-position: under;
   text-align: center;
   text-decoration-color: #00B172;
   color: #1A1A1A;
   font-size: 1.5rem;
   letter-spacing: 0.5px;
+  margin-top: 3rem;
 }
 
-  .music-icon, .quality-icon, .devices-icon {
-    width: 5%;
+.intro-group {
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+  margin: auto 50px;
+  height: 50vh;
+}
+
+.intro-item {
+  text-align: center;
+  width: 25%;
+}
+
+.intro-item img {
+    width: 20%;
+    height: auto;
   }
 
-  .introduction-section h3 {
+  .intro-item h3 {
     color: #00B172;
     font-size: 1.15rem;
     font-weight: bold;
+    margin: 20px auto;
+  }
+
+  .intro-item p {
+    color: #1A1A1A;
+    font-size: 1rem;
+    font-weight: 300;
   }
 
   .green-part {
@@ -104,6 +129,7 @@ h1 {
 
   .green-part h2 {
     text-decoration: underline;
+    text-underline-position: under;
     text-align: left;
     font-size: 1.5rem;
     font-weight: 400;
