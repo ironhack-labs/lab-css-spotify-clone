@@ -1,16 +1,45 @@
-/*
-Colors:
+@import url('https://fonts.googleapis.com/css2?family=Open+Sans:wght@300;400;500&display=swap');
 
-Text: 1A1A1A
-Green: #00B172
-White: #FFF
-
-*/
 * {
     margin: 0;
     padding: 0;
 }
 
+body {
+  font-family: 'Open Sans', sans-serif;
+  box-sizing: border-box;
+  font-size: 10px;
+}
+
+header {
+  position: fixed;
+  top: 0;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 15px 40px;
+  background-color: #fff;
+}
+
+.spotify-top-logo {
+  width: 8%;
+  height: auto;
+}
+
+header ul {
+  list-style: none;
+}
+
+header ul li {
+  display: inline;
+  padding: 0 9px;
+}
+
+header ul li > a {
+  text-decoration: none;
+  color: #1A1A1A;
+  font-size: 1.1rem;
+}
 
 .landing-section {
     background-image: url(../images/landing.jpg);
@@ -18,34 +47,67 @@ White: #FFF
     background-size: cover;
     background-position: center;
     width: 100vw;
-    height: 650px;
+    height: 700px;
     color: #FFF;
-    text-align: center;
-    
-}
-
-.spotify-top-logo {
-    width: 10%;
-}
-
-.nav-bar ul {
-    list-style: none;
     display: flex;
-    justify-content: flex-end;
-  }
+    flex-direction: column;
+    justify-content: center;
+    text-align: center;
+    line-height: 3.5rem;
+}
 
-  nav a {
-    text-decoration: none;
-    color: #1A1A1A;
-  }
+h1 {
+  font-size: 3rem;
+  font-weight: 500;
+  margin-bottom: 2.5rem;
+}
+
+.landing-section p {
+  font-size: 1.25rem;
+  font-weight: 300;
+  line-height: 1.5rem;
+}
+
+.introduction-section {
+  display: flex;
+  justify-content: center;
+}
+
+.introduction-section h2 {
+  text-decoration: underline;
+  text-align: center;
+  text-decoration-color: #00B172;
+  color: #1A1A1A;
+  font-size: 1.5rem;
+  letter-spacing: 0.5px;
+}
 
   .music-icon, .quality-icon, .devices-icon {
     width: 5%;
   }
 
+  .introduction-section h3 {
+    color: #00B172;
+    font-size: 1.15rem;
+    font-weight: bold;
+  }
+
   .green-part {
     background-color: #00B172;
     color: #FFF;
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-start;
+    padding: 2rem;
+    margin: 1rem;
+  }
+
+  .green-part h2 {
+    text-decoration: underline;
+    text-align: left;
+    font-size: 1.5rem;
+    font-weight: 400;
+    letter-spacing: 0.5px;
   }
 
   .white-icon {
@@ -55,3 +117,12 @@ White: #FFF
   .kanye-photo {
     width: 15%;
   }
+
+  /*
+Colors:
+
+Text: 1A1A1A
+Green: #00B172
+White: #FFF
+
+*/
