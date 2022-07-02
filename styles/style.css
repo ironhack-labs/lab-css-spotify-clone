@@ -1,3 +1,230 @@
+body {
+    font-family: Sans-Serif;
+    color: #1a1a1a;
+    background-color: #fff;
+    width: 100%;
+}
+
+#one{
+    margin-top: 20px;
+    margin-bottom: 20px;
+}
+
+.header {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+}
+
+.logo {
+    height: 50px;
+    margin-left: 20px;
+}
+
+.menu {
+    width: 600px;
+}
+
+.menu > ul {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-evenly;
+    margin-bottom: 30px;
+}
+
+.menu > ul > li {
+    list-style: none; 
+}
+
+a{
+    text-decoration: none;
+    color: black; 
+}
+
+.landing {
+    width: 100%;
+}
+
+.texto-imagen {
+    position: relative;
+    text-align: center;
+}
+
+.texto-imagen > p {
+    color: white;
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    max-width: 600px;
+}
+
+.big-text {
+    font-size: 60px;
+}
+
+#two {
+    margin: 20px;
+}
+
+.titulo {
+    text-align: center;
+}
+
+.bloques {
+    margin: 50px;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-evenly;
+    text-align: center;
+}
+
+.box {
+    width: 300px;
+}
+
+.box > p {
+    width: 300px;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+.box > h2 {
+    color: #00B172;
+}
+
+.box img{
+    width: 100px;;
+}
+
+#three {
+    margin: 20px;
+    background-color: #00B172;
+}
+
+.fondo {
+    display: flex;
+    justify-content: space-around;
+}
+
+.yeezy {
+    padding-top: 50px;
+    color: white;
+    border-bottom: 2px solid white;
+}
+
+.texto-fondo {
+    color: white;
+    padding: 50px;
+    flex: 1;
+}
+
+.logo-fondo {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex: 1;
+}
+
+.pantalla-fondo {
+    flex: 1;
+}
+
+.img-logo-fondo {
+    height: 100px;
+}
+
+.imagen-pantalla {
+    padding: 50px;
+    width: 300px;
+}
+
+@media (min-width: 100px) and (max-width: 800px) {
+
+    body {
+        width: 100%;
+    }
+
+    #one {
+        min-width: 800px;
+    }
+
+    #two {
+        min-width: 800px;
+        font-size: 200%;
+    }
+
+    #three {
+        min-width: 800px;
+        font-size: 200%;
+    }
+
+    .header {
+        display: block;
+        padding: 50px;
+    }
+
+    .logo {
+        width: 80%;
+        height: auto;
+    }
+
+    .menu {
+        font-size: 50px;
+    }
+
+    .menu > ul{
+        display: flex;
+        flex-direction: column;
+    }
+
+    .menu > ul > li {
+        align-self: center;
+    }
+    
+    .landing {
+        width: 100%;
+        height: auto;
+    }
+
+    .bloques {
+        display: flex;
+        flex-direction: column;
+        padding: 50px;
+    }
+
+    .big-text {
+        font-size: 80px;
+    }
+
+    .texto-imagen > p {
+        font-size: 200%;
+    }
+
+    .box {
+        align-self: center;
+    }
+
+    .fondo {
+        display: flex;
+        flex-direction: column;
+    }
+
+    .texto-fondo {
+        padding: 50px;
+    }
+
+    .pantalla-fondo {
+        align-self: center;
+    }
+  }
+
+
+  
+
+
+
+
 /*
 Colors:
 
