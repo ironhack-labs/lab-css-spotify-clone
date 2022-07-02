@@ -2,8 +2,7 @@
   margin: 0;
   padding: 0;
   color: 1A1A1A;
-  font-family: "Helvetica Neue", sans-serif, Helvetica,
-    Arial, sans-serif;
+  font-family: "Helvetica Neue", sans-serif, Helvetica, Arial, sans-serif;
   font-size: 16px;
 }
 
@@ -49,7 +48,6 @@ h3 {
   text-decoration: none;
   color: black;
 }
-
 /*Banner*/
 
 .main-banner {
@@ -62,9 +60,7 @@ h3 {
   display: flex;
   justify-content: center;
   align-items: center;
-
 }
-
 .title-text {
   color: #fff;
   text-align: center;
@@ -75,31 +71,87 @@ h3 {
 
 /*features*/
 
-.what-spotify, .three-columns {
+.features {
+  height: 600px;
+}
+
+.what-spotify,
+.three-columns {
   display: flex;
   justify-content: center;
   align-items: center;
+  margin-top: 40px;
+  text-align: center;
 }
 
-.what-spotify h2{
-  width: 440px;
-  margin-top: 10px;
-  border-bottom: 2px solid #00B172 ;
+.what-spotify h2 {
+  width: 434px;
+  border-bottom: 4px solid #00b172;
+  padding-bottom: 10px;
 }
 
 .feature-box {
-  display: flex;
-  flex-direction: column;
+  width: 30%;
+  margin: 20px;
+}
+.col {
+  padding: 50px;
+}
+.col img {
+  width: 150px;
+}
+.col h3 {
+  color: #00b172;
+  padding: 20px 0;
+}
+.col p {
+  padding: 20px 0;
+  color: darkgrey;
 }
 
-
-
 /*Green author info*/
-
-.author-info {
-  background-color: #00B172;
+.author_highlight {
+  background-color: #00b172;
   color: #fff;
+  margin: 40px;
+  padding: 50px;
+}
+.author_highlight h2 {
+  padding-bottom: 15px;
+  border-bottom: solid 2px ;
+  max-width: 650px;
+  margin-top: 100px;
+}
+
+.bio-content {
+  height: 500px;
   background-image: url ("../images/spotify-icon-white.png");
   height: fit-content;
   background-repeat: no-repeat;
+  display: flex;
+  align-items: center;
+}
+.content-options {
+  justify-content: space-between;
+}
+
+.content-options {
+  margin: 50px 0;
+
+}
+.option-list h3, .option-list p{
+padding: 40px 0;
+}
+.option-list p {
+  font-size: 1.5em;
+  width: 70%;
+}
+
+.app-image {
+  text-align: end;
+}
+
+.app-image img {
+  width: 80%;
+
 }
