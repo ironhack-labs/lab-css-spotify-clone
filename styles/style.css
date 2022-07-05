@@ -14,15 +14,17 @@ White: #FFF
 }
 .logo{
     height: 28px;
-    justify-content: flex-start;
+
 }
 .header-bar{
+    align-items: flex-start ;
     position:fixed;
     display:flex;
     justify-content: space-between;
     width: 100%;
-    background-color: white;
-    align-items: center;
+    height:5%;
+    background-color:white;
+
 }
 .nav-ul{
     flex:0.7;
@@ -38,6 +40,68 @@ White: #FFF
     padding:1em;
     color:gray;
 }
+.landing-img{    
+    background-image:url('/images/landing.jpg');
+    background-repeat: no-repeat;
+    background-size: contain;
+    background-attachment: fixed;
+    height:55vh;
+    padding:0px;
+    padding-top: 10%;
+    margin:0px;
+    color: white;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    
+}
+.landing-img h1{
+    font-size: 60px;
+    text-align: center;
+}
+.landing-img p{
+    font-size: 20px;
+    text-align: center;
+}
+.central-container{
+    width:100%;
+    text-align: center;
+    
+}
+.central-container h2{
+    text-decoration: underline;
+    text-underline-offset: 10px;
+    text-decoration-color: rgb(12, 139, 79);
+
+}
+.features-container{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+    width:90%;
+    
+    flex-basis: 20%;
+
+}
+.features-box{
+    width: 30%;
+
+}
+.features-box h3{
+    color: rgb(12, 139, 79);
+    font-weight: bold;
+}
+.features-box img{
+    height:10%;
+}
+
+.bottom-container{
+    display: grid;
+    grid-template-columns: 2, 50%;
+    grid-template-rows: repeat(3, 20%);
+
+}
 @media (max-width: 800px){
     .nav-ul{
         flex-direction: row;
@@ -51,7 +115,5 @@ White: #FFF
         flex-wrap: wrap;
     }
 }
-.nav-ul>li{
-    
-}
+
 
