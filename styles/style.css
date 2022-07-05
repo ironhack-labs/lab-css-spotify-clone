@@ -1,8 +1,190 @@
+@import url('https://fonts.googleapis.com/css2?family=Open+Sans:wght@300;400;500&display=swap');
 /*
 Colors:
 
-Text: 1A1A1A
+Text: #1A1A1A
 Green: #00B172
 White: #FFF
 
 */
+
+body {
+    padding: 0;
+    margin: 0;
+    font-family: 'Open Sans', sans-serif;
+}
+
+html * {
+    box-sizing: border-box;
+}
+
+header {
+    height: 80px;
+}
+
+.container {
+    padding-left: 60px;
+    padding-right: 60px;
+}
+
+.navigation {
+    height: 80px;
+    width: 100%;
+    position: fixed;
+    top: 0;
+    left: 0;
+    z-index: 100;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 0 20px;
+    background-color: #fff;
+}
+
+.navigation .logo {
+    max-height: 50px;
+}
+
+.navigation ul li {
+    display: inline-block;
+    margin-left: 20px;
+}
+
+.navigation ul li a {
+    color: #1A1A1A;
+    text-decoration: none;
+    font-size: 18px;
+    font-weight: 200;
+}
+
+.hero {
+    background-image: url("../images/landing.jpg");
+    background-size: cover;
+    background-position: center;
+    height: 700px;
+    width: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+}
+
+.hero .hero-title {
+    color: #FFF;
+    font-size: 50px;
+    font-weight: 500;
+    margin: 0px
+}
+
+.hero .hero-subtitle {
+    color: #FFF;
+    font-size: 20px;
+    font-weight: 200;
+    text-align: center;
+}
+
+.section-title {
+    color: #1A1A1A;
+    font-size: 30px;
+    font-weight: 500;
+    margin-bottom: 20px;
+    border-bottom: 3px solid #00B172;
+    width: max-content;
+}
+
+.whats-on-spotify {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+}
+
+.whats-on-spotify .whats-on-spotify-title {
+    margin-bottom: 0;
+}
+
+.whats-on-spotify .container {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    width: 100%;
+    padding-top: 100px;
+    padding-bottom: 100px;
+}
+
+.whats-on-spotify .container .whats-on-spotify-item {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+}
+
+.whats-on-spotify .container .whats-on-spotify-item-title {
+    color: #00B172;
+    font-size: 24px;
+    font-weight: 500;
+    margin: 15px 0 0 0;
+}
+
+.whats-on-spotify .container p.whats-on-spotify-item-subtitle {
+    color: #1A1A1A;
+    width: 250px;
+    text-align: center;
+    font-weight: 200;
+}
+
+.whats-on-spotify .container .whats-on-spotify-item img {
+    height: 60px;
+}
+
+.functions {
+    background-color: #00B172;
+}
+
+.functions .container {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    width: 100%;
+    padding-top: 50px;
+    padding-bottom: 20px;
+}
+
+.functions .container ul.functions-items-list {
+    list-style-type: none;
+    padding: 0;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    align-items: center;
+    max-width: 300px;
+}
+
+.functions .container .functions-title {
+    color: #FFF;
+    border-bottom-color: #fff;
+}
+
+.functions .container .functions-subtitle {
+    color: #fff;
+}
+
+.functions .container .spotify-icon {
+    height: 100px;
+}
+
+.functions .container .spotify-app {
+    max-width: 290px;
+}
+
+.functions .container .functions-items-title {
+    font-size: 22px;
+    font-weight: 500;
+    color: #fff;
+}
+
+.functions .container .functions-items-subtitle {
+    font-size: 18px;
+    font-weight: 200;
+    color: #fff;
+}
