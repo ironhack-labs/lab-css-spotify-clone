@@ -82,18 +82,25 @@ body {
 
 }
 
+.central {
+    padding-top: 3%;
+    padding-bottom: 4%;
+}
+
 .whats-on {
-    width: 20%;
+    width: fit-content;
     margin: 0 auto;
     margin-top: 2%;
-    paddding-bottom: 2;
+    padding-bottom: 0;
     border-bottom-style: solid;
+    border-width: 3px;
     border-color:#00B172;
 }
 
 .whats-on h2 {
     text-align: center;
     font-weight: 500;
+    margin-bottom: 3px;
 }
 
 .highlights {
@@ -103,6 +110,9 @@ body {
     flex-wrap: nowrap;
     justify-content: space-between;
     align-items: center;
+    margin: 0 auto;
+    padding-left: 5%;
+    padding-right: 5%;
 }
 
 .songs, .hd-music, .stream {
@@ -117,7 +127,88 @@ body {
     width: 33%;
 
 }
-
-.songs h2, .hd-music h2, .stream h2 {
+.songs h2, .hd-music h2, .stream h2{
     text-align: center;
+    color: #00B172;
+    margin-bottom: 0;
+}
+
+.songs p, .hd-music p, .stream p {
+    text-align: center;
+    width: 50%;
+    font-size: 1.1em;
+    font-weight: 200;
+}
+
+.artist {
+    background-color: #00B172;
+    padding-top: 4%;
+    padding-bottom: 4%;
+    position: relative;;
+}
+
+.artist-info {
+    width: 80%;
+    margin: 0 auto;
+    display: flex;
+    flex-direction: row;
+    flex-wrap: nowrap;
+    justify-content: space-between;
+    color: white;
+}
+
+.artist-info h2 {
+    width: fit-content;
+    text-align: left;
+    font-weight: 400;
+    margin-bottom: 0;
+    border-bottom-style: solid;
+    border-width: 3px;
+    border-color: white;
+    padding-bottom: 2%;
+    letter-spacing: 1pt;
+
+}
+
+.artist h2 + h3 {
+    padding-top: 5%;
+}
+
+.artist-text {
+    width: 50%;
+}
+
+.artist-text h3 {
+    font-weight: 600;
+    padding-bottom: 2%;
+}
+
+.artist-text p {
+    width: 50%;
+    font-weight: 100;
+    padding-bottom: 2%;
+}
+
+.artist-img {
+    width: 50%;
+    display: flex;
+    flex-direction: column;
+    flex-wrap: nowrap;
+    justify-content: space-around;
+    align-content: space-around;
+    align-items: flex-end;
+}
+
+.artist-img img {
+    width: 50%;
+}
+
+.logo-spotify-white {
+    position: absolute;
+    width: 10%;
+    margin: auto;
+    right: 0;
+    left: 0;
+    top: 0;
+    bottom: 0;
 }
