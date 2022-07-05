@@ -11,6 +11,7 @@ body {
     font-family: 'Helvetica', 'Arial', sans-serif;
     margin: 0 auto;
     width: 100%;
+    color: #1A1A1A;
 }
 
 .menu-ppal {
@@ -79,4 +80,44 @@ body {
     width: 55%;
     font-weight: 100;
 
+}
+
+.whats-on {
+    width: 20%;
+    margin: 0 auto;
+    margin-top: 2%;
+    paddding-bottom: 2;
+    border-bottom-style: solid;
+    border-color:#00B172;
+}
+
+.whats-on h2 {
+    text-align: center;
+    font-weight: 500;
+}
+
+.highlights {
+    display: flex;
+    flex-direction: row;
+    padding-top: 4%;
+    flex-wrap: nowrap;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.songs, .hd-music, .stream {
+    display: flex;
+    width: 33%;
+    flex-direction: column;
+    flex-wrap: nowrap;
+    align-items: center;
+}
+
+.songs img, .hd-music img, .stream img {
+    width: 33%;
+
+}
+
+.songs h2, .hd-music h2, .stream h2 {
+    text-align: center;
 }
