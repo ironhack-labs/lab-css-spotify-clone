@@ -6,3 +6,116 @@ Green: #00B172
 White: #FFF
 
 */
+
+@import url('https://fonts.googleapis.com/css2?family=Open+Sans:wght@300;400&family=Roboto:wght@300;400;700&display=swap');
+
+*{
+    font-family: 'Montserrat', sans-serif;
+    font-size: 10px;
+    margin: 0;
+    padding: 0;
+}
+
+
+.header-container{
+
+    border: solid red;
+    
+    position: fixed;
+    height: 6em;
+    color: white;
+    width: 100vw;
+}
+.logo-container{
+    border: solid;
+}
+.spotify-logo{
+    border: solid blue;
+    
+    float: left;
+    height: 4em;
+}
+.nav-bar-list{
+    border: solid;
+    border-color: red;
+    float: right;
+
+    right: 10em;
+    list-style-type: none;
+    display: flex;
+}
+.nav-bar-item{
+    padding: 1em;
+    font-size: 1.5rem;
+    
+}
+
+
+.title-container{
+    border: solid blueviolet;
+
+    color: white;
+    clear: both;
+    background-image: url(/images/landing.jpg);
+    background-size: cover;
+    background-position: inherit;
+    background-repeat: no-repeat;
+    /*background-attachment:fixed;*/
+    height: 60em;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-flow: column;
+    text-align: center;
+}
+.title-main{
+    font-size: 6rem;
+    padding: 2rem;
+
+}
+
+.subtitle-main{
+    font-size: 2rem;
+    font-weight: 100;
+}
+
+.middle-container{
+    border: solid seagreen;
+    
+    padding: 2em;
+    clear: both;
+    text-align: center;
+}
+.subtitle-middle{
+    font-size: 2rem;
+    font-weight: 600;
+    text-decoration: underline green;
+    text-underline-offset: 25%;
+}
+.features{
+    border: solid magenta;
+    height: 30em;
+    margin: 2em;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+    align-items: center;
+}
+.feature-item{
+    border: solid orange;
+    width: 25em;
+    height: 25em;
+}
+.item-image{
+    height: 8em;
+    padding: 1em;
+}
+.item-title{
+    font-size: 2rem;
+    text-align: center;
+    padding: 1em;
+}
+.item-content{
+    font-size: 1.5rem;
+    text-align: center;
+}
