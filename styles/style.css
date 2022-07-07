@@ -6,3 +6,187 @@ Green: #00B172
 White: #FFF
 
 */
+
+@import url('https://fonts.googleapis.com/css2?family=Montserrat:wght@100;200;300;500;600;700&display=swap');
+* {
+    margin: 0;
+    padding: 0;
+}
+
+body {
+    font-family: 'Montserrat';
+}
+
+nav {
+    height: 80px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+nav img {
+    height: 60px;
+    margin-left: 20px;
+}
+
+nav ul {
+    list-style: none;
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+}
+
+nav ul li {
+    display: flex;
+    padding: 10px 20px;
+    transition: all 0.8s ease-in-out;
+    margin: 0 10px;
+}
+
+nav ul li:hover {
+    background-color: #00B172;
+    cursor: pointer;
+    padding: 10px 20px;
+    border-radius: 10px 0 10px 0;
+    color: white;
+}
+
+header {
+    background-image: url("/images/landing.jpg");
+    background-size: contain;
+    height: 650px;
+    color: white;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+}
+
+h1 {
+    font-size: 3em;
+}
+
+header p {
+    font-size: 1.5em;
+    padding: 30px 100px;
+    text-align: center;
+    display: flex;
+    flex-direction: column;
+}
+
+section {
+    padding: 30px 20px;
+    margin: 0 auto;
+}
+
+.wrap {
+    max-width: 1080px;
+    margin: 0 auto;
+}
+
+#whatsON .container {
+    display: flex;
+    flex-direction: row;
+    align-items: flex-start;
+    justify-content: center;
+    text-align: center;
+    padding: 50px 0 20px 0;
+    width: 100%;
+}
+
+#whatsON h4 {
+    font-size: 1.3em;
+    color: #00B172;
+}
+
+#whatsON .container p {
+    margin-top: 30px;
+    font-size: 1.2em;
+    font-weight: 200;
+}
+
+#whatsON .title {
+    font-size: 1.6em;
+    margin: 0 auto;
+    width: fit-content;
+    border-bottom: 3px solid #00B172;
+}
+
+#whatsON .container div {
+    width: 33%;
+}
+
+#whatsON img {
+    height: 80px;
+}
+
+#player {
+    background-color: #00B172;
+}
+
+#player .container {
+    margin: 20px;
+    padding: 50px;
+    display: flex;
+    flex-direction: column;
+}
+
+#player .player-inside {
+    display: flex;
+    flex-direction: row;
+    color: white;
+    align-items: center;
+    justify-content: space-between;
+}
+
+#player .div-icon img {
+    width: 100px;
+    margin: 0 auto;
+}
+
+#player .div-text {
+    width: 40%;
+}
+
+#player .div-icon {
+    width: 20%;
+    text-align: right;
+}
+
+#player .div-app {
+    width: 40%;
+    text-align: right;
+}
+
+#player .div-app img {
+    max-width: 300px;
+    margin: 0 auto;
+}
+
+#player .title {
+    font-size: 1.7em;
+    color: white;
+    font-weight: 400;
+    width: fit-content;
+    border-bottom: 3px solid white;
+}
+
+#player h4 {
+    font-size: 1.3em;
+    margin: 30px 0;
+}
+
+#player p {
+    font-weight: 300;
+}
+
+footer {
+    padding: 20px 0;
+    text-align: center;
+}
+
+footer a {
+    text-decoration: none;
+    color: #00B172;
+    font-weight: bold;
+}
