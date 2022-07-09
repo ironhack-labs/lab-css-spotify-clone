@@ -19,7 +19,7 @@ White: #FFF
 
 .header-container{
 
-    border: solid red;
+    /*border: solid red;*/
     
     position: fixed;
     height: 6em;
@@ -30,16 +30,17 @@ White: #FFF
     border: solid;
 }
 .spotify-logo{
-    border: solid blue;
+    /*border: solid blue;*/
     
     float: left;
     height: 4em;
 }
 .nav-bar-list{
     border: solid;
-    border-color: red;
+    /*border-color: red;*/
     float: right;
 
+    padding: 0em 1em 0em 0em;
     right: 10em;
     list-style-type: none;
     display: flex;
@@ -52,7 +53,7 @@ White: #FFF
 
 
 .title-container{
-    border: solid blueviolet;
+    /*border: solid blueviolet;*/
 
     color: white;
     clear: both;
@@ -80,7 +81,7 @@ White: #FFF
 }
 
 .middle-container{
-    border: solid seagreen;
+   /*border: solid seagreen;*/
     
     padding: 2em;
     clear: both;
@@ -93,7 +94,7 @@ White: #FFF
     text-underline-offset: 25%;
 }
 .features{
-    border: solid magenta;
+    /*border: solid magenta;*/
     height: 30em;
     margin: 2em;
     display: flex;
@@ -102,7 +103,7 @@ White: #FFF
     align-items: center;
 }
 .feature-item{
-    border: solid orange;
+    /*border: solid orange;*/
     width: 25em;
     height: 25em;
 }
@@ -116,6 +117,84 @@ White: #FFF
     padding: 1em;
 }
 .item-content{
+
+    color:#535252;
     font-size: 1.5rem;
     text-align: center;
+}
+
+
+.bottom-container{
+    position: relative;
+    /*border: solid brown;*/
+    background-color: #00B172;
+    height: 60em;
+    width: 100vw;
+}
+.bottom-grid{
+    /*border: solid red;*/
+    margin: 5rem 10rem 10rem 10rem;
+    padding: 5rem;
+    display: grid;
+    height: 40em;
+    grid-template-columns: 30% 1fr 1fr;
+    grid-template-rows: 5% 1fr 1fr 1fr;
+    grid-gap: 1rem;
+    grid-auto-flow: column;
+    justify-content: center;
+    justify-items: center;
+    color: white;
+    
+}
+.bottom-grid-item{
+    /*border: solid black;*/
+}
+.image-grid-container{
+    grid-column-start: 3;
+    grid-row-start: 2;
+    grid-row-end: 4;
+}
+.image-grid{
+    /*border: solid blue;*/
+    height: 40em;
+}
+
+.bottom-logo-container{
+    /*border: solid rgb(125, 0, 250);*/
+    height: 10em;
+    position: absolute; 
+    left: 45%;
+    bottom: 60%;
+}
+.bottom-logo{
+    /*border: solid red;*/
+    height: 10em;
+    /*position: absolute; 
+    left: 45%;
+    bottom: 60%;*/
+}
+.bottom-title-container{
+    grid-column-start: 1;
+    grid-column-end: 4;
+    align-self: center;
+    justify-self: left;
+    /*height: 10rem;*/
+    padding: 0 0 2% 0;
+}
+.bottom-title{
+    font-size: 2.5rem;
+    text-decoration: underline;
+    text-underline-offset: 20%;
+    /*height: 10rem;*/
+}
+.grid-item-title{
+    font-size: 2rem;
+    text-align: justify;
+    padding: 1em;
+}
+.grid-item-content{
+    font-size: 1.5rem;
+    padding: 1em;
+    text-align: justify;
+    color: rgb(221, 221, 216);
 }
