@@ -1,0 +1,160 @@
+/* General page styles */
+
+html{
+    max-width: 1500px;
+    margin:auto;
+    font-family: 'Red Hat Display', sans-serif;
+}
+
+body {
+    margin: 0;
+    padding: 0 0 0;
+}
+
+/* Nav-bar styles */
+
+nav{
+    max-width: 1500px;
+    margin-bottom: 0;
+    margin: auto;
+    /* position: fixed; */
+    top: 0;
+    left: 0;
+    padding: 0 2vw 0;
+    height: 5.5rem;
+    /* fexbox */
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    
+}
+
+nav div:nth-child(2) {
+    display:flex;
+    align-items: center;
+    justify-content: space-between;
+    width: 24%;
+    font-size: 20px;
+    
+}
+
+nav > img {
+    width: 170px;
+}
+
+/* Tile 1 section styles */
+
+.tile1{
+    background-image: url(./images/landing.jpg);
+    background-size: cover;
+    background-repeat: no-repeat;
+    width: auto;
+    height:800px;
+    color:white;
+    display: flex;
+    align-items: center;
+    flex-flow: column wrap;
+    justify-content: center;
+}
+
+.tile1Title h1 {
+    margin:0;
+    font-size: 3.3em;
+}
+
+/* h1{
+    margin:0;
+} */
+
+.tile1Text p {
+    text-align: center;
+    line-height: 1.5em;
+    font-size: 1.3em;
+    font-weight: 300;
+}
+
+/* Tile 2 styles */
+/* .tile2 {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+} */
+
+.tile2Title {
+    display: flex;
+    justify-content: center;
+    padding-top: 15px;
+    font-size: 1.3em;
+}
+
+.tile2Title h2 {
+    border-bottom: 4px solid rgb(27, 176, 105);
+    padding-bottom: 5px;
+}
+
+.tile2-sub-container {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+}
+
+.content-container {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    justify-items: center;
+    align-items: center;
+    width: 195px;
+    padding: 0 75px 0 75px;
+}
+
+.content-container img {
+    width: 90px;
+}
+
+.content-container h3 {
+    color: rgb(27, 176, 105);
+}
+
+.content-container p {
+    font-size: 1.1em;
+}
+
+/* Tile 3 styles */
+.tile3 {
+    background-color: rgb(27, 176, 105);
+    display: flex;
+    justify-content: space-around;
+    width: 1460px;
+    margin-left: 20px
+}
+
+/* .tile3Text {
+
+} */
+
+.tile3Text h2 {
+    font-size: 2em;
+    font-weight: 500;
+    color: white;
+    width: 398px;
+    border-bottom: 3px solid white;
+    padding-bottom: 5px;
+}
+
+.tile3Text h3 {
+    font-size: 1.5em;
+    font-weight: 500;
+    color: white;
+}
+
+.tile3Text p {
+    width: 238px;
+    color: white;
+    font-weight: 300;
+    font-size: 1.1em;
+}
+
+.tile3Image img {
+    height: 42%;
+}
