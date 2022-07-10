@@ -5,36 +5,42 @@ Text: 1A1A1A
 Green: #00B172
 White: #FFF */
 
+*{
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+}
 nav img {
-    height: 5vw;
+    height: 2vw;
 }
 
 body {
     margin: 0;
+    padding: 3.5rem 0;
     
     
 }
 
-/* nav {
-    
+nav {
     position: fixed;
+    width: 96vw;
     top: 0;
     left: 0;
-    width: 96vw;
     padding: 0 2vw;
     height: 3.5rem;
-    /* flexbox */
-    /* display: flex; */
-    /* align-items: center; */
-    /* justify-content: space-between; */
-/* } */ 
-
-/* nav a {
     display: flex;
-    flex-direction: row;
     align-items: center;
-    justify-content: right;
-} */
+    justify-content: space-between;
+}
+nav div:nth-child(2) {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    width: 20%;
+    
+}
+nav a {
+    text-decoration: none;
+    color: black;
+}
 
 #section1 {
     display: flex;
@@ -44,23 +50,79 @@ body {
     background-image: url('../images/landing.jpg');
     background-size: 100vw;
     background-repeat: no-repeat;
-    height: 700px;
+    height: 1200px;
 }
 
 #section1 h1 {
     display: flex;
     color: white;
-    padding: 5px;
+    font-size: 125px;
    
 }
 
 #section1 p {
-    /* display: flex;
-    justify-content: center;
-    align-items: center;
-    align-content: center; */
+    font-size: 25px;
     color: white;
     
     
 } 
+
+#section2 {
+    
+}
+
+#section2 h2 {
+    display: flex;
+    justify-content: center;
+    font-size: 40px;
+}
+
+#section2 h3 {
+    color: #00B172;
+}
+
+#section3 {
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    background-color: #00B172;
+    height: 40vw;
+    color: white;
+    padding: 0 25px;
+}
+
+#section3 h4 {
+    font-size: 35px;
+}
+
+#section3 h3.yeezy{
+    font-size: 40px;
+    
+}
+
+#section3 h3.yeezy span{
+    display:inline-block;
+    border-bottom:3px solid white;
+    padding-bottom:6px;
+    
+}
+
+.spotifyWhite {
+    width: 6vw;
+}
+
+.kanyeSpotify{
+    width: 6vw;
+}
+ /* #section2 h3 {
+    font-size: 100px;
+}
+/* */
+/* #section2 h3  p {
+    display: flex;
+    flex-direction: row;
+    align-content: center;
+}   */
+
+
 
