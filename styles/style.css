@@ -1,8 +1,150 @@
-/*
-Colors:
+:root{
+  --text: #1A1A1A;
+  --green: #00B172;
+  --white: #FFFFFF
+}
 
-Text: 1A1A1A
-Green: #00B172
-White: #FFF
+*{
+  margin:0;
+  padding:0;
+  box-sizing: border-box;
+}
 
-*/
+html {
+  font-size: 16px;
+  font-family: 'Roboto', sans-serif;
+}
+
+header{
+  background-color: var(--white);
+  position: sticky;
+  top: 0;
+  border-bottom: 1px solid var(--background-grey);
+  width: 100%;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+header > img {
+  width: 170px;
+  padding: 20px;
+}
+
+nav > button {
+  cursor: pointer;
+  text-transform: capitalize;
+  text-decoration: none;
+  border: none;
+  padding: 20px;
+  background-color: var(--white);
+}
+
+.page-one{
+  background-image: url(../images/landing.jpg);
+  background-size: 100%;
+  background-repeat: no-repeat;
+  height: 60vh;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+  color: var(--white);
+}
+
+.page-one > h1 {
+  margin-bottom: 20px;
+  font-size: 3rem;
+}
+
+.page-one > p {
+  font-weight: none;
+  letter-spacing: 0.7px;
+}
+
+.page-two{
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+
+.page-two > h2 {
+  margin-top: 30px;
+}
+
+.about-icons {
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  align-items: center;
+  margin-top: 20px;
+  width: 100%;
+}
+
+.about-icons > div {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  padding: 50px;
+  text-align: center;
+}
+
+.about-icons > div > img {
+  width: 5rem;
+  margin-bottom: 20px;
+}
+
+.about-icons > div > h2 {
+  color: var(--green);
+  margin-bottom: 15px;
+}
+
+footer {
+  width: 100%;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+
+.slice-footer{
+  width: 95%;
+  background: var(--green);
+  display: flex;
+  flex-direction: row;
+  justify-content: space-around;
+  align-items: center;
+}
+
+ul {
+  list-style-type: none;
+}
+
+.white-logo{
+  width: 5rem;
+}
+
+.spotify-app{
+  width: 15rem;
+  margin: 40px;
+}
+
+.slice-footer > div {
+  margin-left: 40px;
+  margin-right: 40px;
+  color: var(--white);
+}
+
+.slice-footer > div > h2{
+  text-decoration: underline;
+
+}
+
+.slice-footer > div > ul > li:first-child{
+  font-weight: 800;
+  margin-top: 20px;
+  margin-bottom: 20px;
+  font-size: 1.1rem;
+}
