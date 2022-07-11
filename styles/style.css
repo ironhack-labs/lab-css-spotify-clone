@@ -6,3 +6,151 @@ Green: #00B172
 White: #FFF
 
 */
+*{
+    margin: 0;
+    padding: 0;
+}
+
+body {
+    background-color: white;
+    font-family: 'Roboto', sans-serif;
+}
+
+nav {
+    position: fixed;
+    background-color: white;
+}
+
+.spotify-logo {
+    display: flex;
+    justify-content: left;
+    align-items: left;
+    width: 100%;
+    height: 5em;
+    padding: 20px;
+}
+
+.links {
+    display: flex;
+    justify-content: flex-end;
+    box-sizing: content-box;
+    padding: 20px;
+    box-sizing: border-box;
+  }
+
+.links ul {
+  list-style: none;
+  display: flex;
+  font-size: 23px;
+  margin: 0 5px 0 5px;
+  justify-content: space-around;
+}
+
+.links ul > li {
+    margin: 0 5px 0 5px;
+}
+
+.landing {
+    display: flex;
+    background-image: url('../images/landing.jpg');
+    background-size: cover;
+    flex-direction: column;
+    justify-content: center;
+    width: 100%;
+    height: 20em;
+    font-size: 2.5em;  
+    align-items: center;
+}
+
+.landing h1 {
+    color: #FFF;
+    justify-content: center;
+    text-align: center;
+    font-size: 2em;
+    padding-bottom: 20px;
+}
+
+.landing p {
+    color: #FFF;
+    text-align: center;
+    text-decoration: none;
+}
+
+#general-information {
+    display: flex;
+    justify-content: space-evenly;
+}
+
+#general-information h2 {
+    justify-content: center;
+    text-decoration: underline #00B172;
+    text-align: center;
+    padding: 30px 0px;
+}
+
+#general-information img {
+    width: 100px;
+}
+
+#general-information h3 {
+    color: #00B172;
+    text-decoration: bold;
+    padding: 20px;
+}
+
+#general-information .container {
+    display:flex;
+    flex-direction: column;
+    align-items: center;
+    width: 370px;
+}
+
+.container {
+  width: 1200px;
+  margin: 0 auto;
+  padding: 75px 0;
+  align-items: baseline;
+}
+
+#options .container2 {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    width: 370px;
+}
+
+#options {
+    background-color: #00B172;
+    color: #FFF;
+    background-image: url(../images/spotify-icon-white.png);
+    background-repeat: no-repeat;
+    background-size: 120px 120px;
+    
+}
+
+.container2 {
+  width: 100%;
+  padding: 75px 0#;
+  align-items: baseline;
+}
+
+#options h2 {
+    text-decoration: underline #FFF;
+    text-align: left;
+    padding: 20px;
+}
+
+#options h3 {
+    padding: 10px;
+    text-decoration: bold;
+}
+
+#options p {
+    padding: 10px;
+}
+
+.spotify-app img{
+  display: flex;
+  justify-content: space-between;
+  width: 17rem;
+}
