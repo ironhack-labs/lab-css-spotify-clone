@@ -1,4 +1,4 @@
-/* General page styles */
+/* General PAGE STYLES */
 
 html{
     max-width: 1500px;
@@ -8,43 +8,45 @@ html{
 
 body {
     margin: 0;
-    padding: 0 0 0;
+    padding: 0;
 }
 
-/* Nav-bar styles */
+/* NAV-BAR STYLES */
 
-nav{
-    max-width: 1500px;
-    margin-bottom: 0;
-    margin: auto;
-    /* position: fixed; */
-    top: 0;
-    left: 0;
-    padding: 0 2vw 0;
-    height: 5.5rem;
-    /* fexbox */
+nav {
     display: flex;
     align-items: center;
     justify-content: space-between;
-    
+    width: 1500px;
+    margin-bottom: 0;
+    position: fixed;
+    top: 0;
+    left: auto;
+    padding: 0 2vw 0 2vw;
+    height: 5.5rem;
+    background-color: white;
 }
 
-nav div:nth-child(2) {
+nav div {
     display:flex;
     align-items: center;
-    justify-content: space-between;
-    width: 24%;
+    justify-content: space-around;
+    width: 40%;
     font-size: 20px;
-    
 }
 
 nav > img {
     width: 170px;
 }
 
-/* Tile 1 section styles */
+a {
+    text-decoration: none;
+    color: black;
+}
 
-.tile1{
+/* TILE 1 SECTION STYLES */
+
+.tile1 {
     background-image: url(./images/landing.jpg);
     background-size: cover;
     background-repeat: no-repeat;
@@ -60,25 +62,21 @@ nav > img {
 .tile1Title h1 {
     margin:0;
     font-size: 3.3em;
+    letter-spacing: 4px;
 }
-
-/* h1{
-    margin:0;
-} */
 
 .tile1Text p {
     text-align: center;
     line-height: 1.5em;
     font-size: 1.3em;
     font-weight: 300;
+    letter-spacing: 1.1px;
 }
 
-/* Tile 2 styles */
-/* .tile2 {
-    display: flex;
-    flex-direction: column;
-    justify-content: center;
-} */
+/* TILE 2 STYLES */
+.tile2 {
+    margin-bottom: 50px;
+}
 
 .tile2Title {
     display: flex;
@@ -90,12 +88,14 @@ nav > img {
 .tile2Title h2 {
     border-bottom: 4px solid rgb(27, 176, 105);
     padding-bottom: 5px;
+    margin-bottom: 50px;
 }
 
 .tile2-sub-container {
     display: flex;
     flex-direction: row;
-    justify-content: space-around;
+    justify-content: space-between;
+    align-items: baseline;
 }
 
 .content-container {
@@ -104,34 +104,40 @@ nav > img {
     justify-content: center;
     justify-items: center;
     align-items: center;
-    width: 195px;
+    width: 230px;
     padding: 0 75px 0 75px;
 }
 
 .content-container img {
-    width: 90px;
+    width: 120px;
 }
 
 .content-container h3 {
     color: rgb(27, 176, 105);
+    font-size: 1.5em;
 }
 
-.content-container p {
-    font-size: 1.1em;
+.tile2 p {
+    text-align: center;
+    font-size: 1.3em;
+    color: #5b5b5b;
 }
 
-/* Tile 3 styles */
+/* Tile 3 STYLES */
 .tile3 {
     background-color: rgb(27, 176, 105);
+    background-image: url(./images/spotify-icon-white.png);
+    background-repeat: no-repeat;
+    background-size: 105px;
     display: flex;
     justify-content: space-around;
-    width: 1460px;
-    margin-left: 20px
+    max-width: 1460px;
+    margin-left: 20px;
+    background-position: center;
+    height: 640px;
+    align-items: center;
+    min-width: 600px;
 }
-
-/* .tile3Text {
-
-} */
 
 .tile3Text h2 {
     font-size: 2em;
@@ -149,12 +155,12 @@ nav > img {
 }
 
 .tile3Text p {
-    width: 238px;
+    width: 245px;
     color: white;
     font-weight: 300;
     font-size: 1.1em;
 }
 
 .tile3Image img {
-    height: 42%;
+    height: 440px;
 }
