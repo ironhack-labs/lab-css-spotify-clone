@@ -6,3 +6,167 @@ Green: #00B172
 White: #FFF
 
 */
+
+body{
+   margin: 0;
+   font-family: 'Open Sans', sans-serif;
+
+}
+
+.barra-navegacion{
+   display: flex;
+   flex-direction: row;
+   justify-content: space-between;
+   padding-top: 10px;
+   padding-bottom: 10px;
+   
+}
+
+.barra-logo{
+   padding-left: 25px;
+}
+
+.barra-logo img{
+   width: 200px;
+}
+
+.barra-lista ul{
+   display: flex;
+   flex-direction: row;
+
+}
+
+.lista li{
+   list-style: none;
+   padding: 0 25px;
+}
+
+.lista li a{
+   text-decoration: none;
+   color: #343434;
+   display: block;
+}
+
+.header-foto{
+   background-image: url(/images/landing.jpg);
+   background-size: cover;
+   background-repeat: no-repeat;
+   background-position: center;
+   width: 100vw;
+   height: 100vh;
+   position: relative;
+}
+
+.header-text{
+   position: absolute;
+   top: 50%;
+   left: 50%;
+   transform: translate(-50%, -50%);
+   color: #fff;
+   text-align: center;
+}
+
+.header-title{
+   font-size: 60px;
+   padding-bottom: 30px;
+}
+
+.header-description{
+   font-size: 20px;
+   font-weight: lighter;
+}
+
+.whats-title{
+   text-align: center;
+   font-size: 40px;
+   /* padding: 20px 0; */
+   padding-top: 20px;
+}
+
+.whats-separador{
+   border: 1px solid #55BD7E;
+   height: 2px;
+   max-width: 320px;
+   background-color: #55BD7E;
+   margin: 10px auto 30px auto;
+}
+
+.whats-bloque{
+   display: flex;
+   flex-direction: row;
+   justify-content: space-around;
+}
+
+.bloque{
+   display: flex;
+   flex-direction: column;
+   width: 300px;
+   height: 200px;
+   justify-content: space-between;
+
+}
+
+.bloque-title{
+   font-weight: bold;
+   color: #55BD7E;
+   font-size: 30px;
+   text-align: center;
+}
+
+.bloque-descripcion{
+   text-align: center;
+   font-size: 20px;
+   color: #555555;
+}
+
+.bloque-img{
+   text-align: center;
+}
+
+.bloque-img img{
+   width: 20%;
+}
+
+.whats-section{
+   margin-bottom: 80px;
+}
+
+.music-section{
+   background-color: #55BD7E;
+}
+
+.music-logo img{
+   width: 100px;
+
+}
+
+.music-bloque{
+   color: #fff;
+}
+
+.music-title{
+   color: #fff;
+   font-size: 40px;
+}
+
+.music-separador{
+   border: 1px solid #fff;
+   height: 2px;
+   width: 500px;
+   background-color: #fff;
+}
+
+.music-bloque{
+   display: flex;
+   flex-direction: column;
+   height: 100px;
+   justify-content: space-around;
+}
+
+.music-lable-1{
+   font-size: 30px;
+}
+
+.music-description-1{
+   font-size: 20px;
+}
