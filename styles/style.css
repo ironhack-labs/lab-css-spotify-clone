@@ -15,15 +15,17 @@
 	color: #FFF;
 }
 
+a {
+	text-decoration: none;
+}
+
+
+
 header {
 	display: flex;
 	flex-direction: row;
 	height: 2rem;
 	padding: 1.5rem;
-}
-
-header img {
-
 }
 
 ul{
@@ -32,9 +34,22 @@ ul{
 	gap: 30px;
 }
 
-li {
+#main {
+	width: 100vw;
+	height: 30rem;
+	background-image: url(../images/landing.jpg);
+	background-position: center;
+	background-repeat: no-repeat;
+	background-size: cover;
+	display: flex;
+	flex-direction: column;
+	align-items: center;
+	justify-content:center; 
+	gap: 5rem;
 
 }
+
+
 
 
 /* Smartphones (portrait) ----------- */
@@ -42,6 +57,19 @@ li {
 
 	.nav-horizontal {
 		display: none;
+	}
+
+	h1 {
+		font-weight: 600;
+		font-size: 3rem;
+		text-align: center;
+		width: 55%;
+	}
+
+	h3 {
+		font-weight: 200;
+		font-size: 1.2rem;
+		text-align: center;
 	}
 
 }
