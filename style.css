@@ -1,0 +1,98 @@
+body {
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 16px;
+    text-align: center;
+}
+
+h1 {
+    font-size: 6rem;
+    color: white;
+    margin: 0;
+}
+
+h4 {
+    font-size: 2.6rem;
+}
+
+h6 {
+    font-size: 2.2rem;
+    color: white;
+    margin: 2rem;
+}
+
+p {
+    font-size: 1.8rem;
+}
+
+nav {
+    display: flex;
+    position: relative;
+    justify-content: flex-end;  
+}
+
+nav img {
+    height: 3rem;
+    position: absolute;
+    top: 1rem;
+    left: 2rem;
+}
+
+nav ul {
+    list-style-type: none;
+    display: grid;
+    grid-template-columns: auto auto auto auto;
+    column-gap: 2.5rem;
+    padding: 0.6rem 2rem;
+}
+
+
+#front {
+    background-image: url(/images/landing.jpg);
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    height: 1000px;
+    display: flex;
+    flex-direction: column;
+    align-items: center; 
+    justify-content: center;
+}
+
+#whats-on {
+    margin: 2rem;
+}
+
+#whats-on > div {
+    display: grid;
+    grid-template-columns: auto auto auto;
+    column-gap: 5rem;
+    padding: 2rem 1rem;
+}
+#whats-on h6 {
+    color: #09BC7D;
+}
+
+.icon {
+    height: 10rem;
+}
+
+#west {
+    background-color: #1AB16A;
+    text-align: left;
+    color: white;
+    display: grid;
+    grid-template-rows: auto auto auto auto;
+    grid-template-columns: 50%;
+    gap: 5rem;
+}
+
+#west > div {
+    margin: 3rem 6rem;
+    padding: 3rem 0;
+}
+
+#west h4 {
+    text-decoration: underline;
+    margin-top: 0;
+    margin-bottom: 5rem;
+}
