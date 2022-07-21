@@ -1,12 +1,6 @@
-/*
-Colors:
-
-Text: 1A1A1A
-Green: #00B172
-White: #FFF
-
-*/
 @import url('https://fonts.googleapis.com/css2?family=Roboto:wght@100;300;400;500;700&display=swap');
+
+
 * {
     margin: 0;
     font-family: Roboto;
@@ -18,8 +12,12 @@ nav {
     width: 100%;
     height: 5rem;
     align-items: center;
-    justify-content: center;
+    justify-content: space-between;
     background-color: #fff;
+}
+
+.spotify-logo {
+    flex-grow: 1;
 }
 
 .spotify-logo img {
@@ -28,18 +26,19 @@ nav {
 }
 
 .nav-btn {
+    flex-grow: 3;
     display: flex;
-    justify-content: space-around;
+    justify-content: center;
     list-style: none;
     margin-right: 1rem;
     font-size: 1.1rem;
 }
 
 .nav-btn li {
+    font-size: 0.8rem;
     padding: 0 1rem;
     color: #1A1A1A;
 }
-
 
 .background-img {
     display: flex;
@@ -70,15 +69,21 @@ nav {
     padding: 5rem 15%;
 }
 
-#what-on-spotify h2 {
+.what-on-spotify-title {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.what-on-spotify-title h2 {
     font-size: 3rem;
     color: #1A1A1A;
     margin-bottom: 1rem;
     text-align: center;
 }
 
-#what-on-spotify hr {
-    size: 5rem;
+.what-on-spotify-title hr {
+    width: 12rem;
     border-top: 3px solid #00B172;
     margin-bottom: 3rem;
 }
@@ -132,7 +137,7 @@ nav {
 }
 
 .yeezy-text hr {
-    size: 3rem;
+    width: 19rem;
     border-top: 2px solid #fff;
     margin-bottom: 2rem;
 }
@@ -149,4 +154,78 @@ nav {
 
 .yeezy-app img {
     width: 100%;
+}
+
+@media only screen and (min-width: 500px) {
+    .spotify-logo img {
+        width: 8rem;
+    }
+
+    .nav-btn li {
+        font-size: 1.1rem;
+    }
+
+    .background-img h1 {
+        font-size: 3.5rem;
+    }
+
+    .background-img p {
+        font-size: 2rem;
+        width: 50%;
+    }
+
+    #what-on-spotify hr {
+        width: 25rem;
+    }
+
+    .card-container {
+        flex-direction: row;
+    }
+
+    #yeezy {
+        flex-direction: row;
+        justify-content: space-between;
+        align-items: center;
+        position: relative;
+        padding: 2rem 3%;
+    }
+
+    .yeezy-text {
+        align-self: flex-start;
+        width: 33%;
+    }
+
+    .yeezy-text h2 {
+        font-size: 2.5rem;
+        text-align: left;
+    }
+
+    .yeezy-text hr {
+        width: 32rem;
+    }
+
+    .yeezy-text h3 {
+        font-size: 2rem;
+        padding-bottom: 2rem;
+    }
+
+    .yeezy-text p {
+        font-size: 1.5rem;
+        padding-bottom: 2rem;
+        width: 70%;
+    }
+
+    .yeezy-logo {
+        justify-self: center;
+    }
+
+    .yeezy-app {
+        width: 33%;
+        align-self: center;
+    }
+
+    .yeezy-app img {
+        width: 25rem;
+        
+    }
 }
