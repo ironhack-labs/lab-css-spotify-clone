@@ -1,8 +1,47 @@
-/*
-Colors:
+*{
+	margin: 0;
+	font-family: 'montserrat';
+}
 
-Text: 1A1A1A
-Green: #00B172
-White: #FFF
+.green {
+	color: #00B172;
+}
 
-*/
+.text {
+	color: #1A1A1A;
+}
+
+.white {
+	color: #FFF;
+}
+
+header {
+	display: flex;
+	flex-direction: row;
+	height: 2rem;
+	padding: 1.5rem;
+}
+
+header img {
+
+}
+
+ul{
+	display: flex;
+	list-style: none;
+	gap: 30px;
+}
+
+li {
+
+}
+
+
+/* Smartphones (portrait) ----------- */
+@media only screen and (min-width : 320px) {
+
+	.nav-horizontal {
+		display: none;
+	}
+
+}
