@@ -44,13 +44,55 @@ ul{
 	display: flex;
 	flex-direction: column;
 	align-items: center;
-	justify-content:center; 
-	gap: 5rem;
-
+	justify-content: flex-start; 
+	gap: 2rem;
+	padding-top: 2rem;
 }
 
+#info {
+	display:flex;
+	flex-direction: column;
+	width: 100vw;
+	margin-top: 1rem;
+	align-items: center;
+}
 
+.characteristics {
+	display: flex;
+	width: 100vw;
+	flex-direction: column;
+	align-items: center;
+	justify-content: space-between;
+	border: 1px solid black;
+	gap: 6rem;
+	padding: 3rem 0;
+}
 
+.box {
+	width: 100vw;
+	height: 5rem;
+	display: flex;
+	flex-direction: column;
+	text-align: center;
+	align-items: center;
+	justify-content: space-around;
+	gap: 1rem;
+}
+
+.box p {
+	width: 75vw;
+}
+
+.underline {
+	border-bottom: 2px solid #00B172;
+	padding-bottom: 0.5rem;
+}
+
+#yeezy {
+	width: 100vw;
+	height: 10rem;
+	background-color: #00B172;
+}
 
 /* Smartphones (portrait) ----------- */
 @media only screen and (min-width : 320px) {
@@ -68,8 +110,28 @@ ul{
 
 	h3 {
 		font-weight: 200;
-		font-size: 1.2rem;
+		font-size: 1rem;
+		text-align: center;
+		width: 70%;
+	}
+
+	h2 {
+		font-weight: 600;
+		font-size: 1rem;
+		text-align: center;
+		width: 55%;
+	}
+
+	h4 {
+		font-weight: 600;
+		font-size: 1rem;
 		text-align: center;
 	}
+
+	#info img {
+		width: 5rem;
+	}
+
+	
 
 }
