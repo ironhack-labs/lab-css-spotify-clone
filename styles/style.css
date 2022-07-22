@@ -203,6 +203,7 @@ header {
 
 	.nav-horizontal {
 		display: unset;
+		margin-top: 3vh;
 	}
 
 	a {
@@ -288,13 +289,17 @@ header {
 		background-color: #00B172;
 		color: white;
 		display: flex;
-		flex-direction: row;
+		flex-direction: row-reverse;
 		margin-top: 10vh;
-		align-items:center;
+		align-items:flex-start;
+		justify-content: space-between;
+
 	}
 
 	#yeezy p {
 		margin-top: 5vh;
+		font-size: 1.2vw;
+		width: 50%;
 	}
 
 	.underline-white{
@@ -308,11 +313,18 @@ header {
 	}
 	
 	.container {
+		margin-top: 10vh;
+		margin-left: 5vw;
 		width: 50vw;
 		display: flex;
 		flex-direction: column;
 		align-items: flex-start;
 		gap: 2rem;
+		position: relative;
+	}
+
+	.container div{
+		margin-top: 5vh;
 	}
 	
 	.yeezy {
@@ -320,9 +332,14 @@ header {
 		height: auto;
 		padding: 10vh 5vw;
 	}
-	
-	
-	
+
+	.logo {
+		display: unset;
+		position: absolute;
+		width: 8vw;
+		left: 45vw;
+		margin-top: 20vw;
+	}
 }
 
 
