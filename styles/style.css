@@ -198,7 +198,7 @@ header {
 		justify-content: space-between;
 		align-content: center;
 		height: 10vh;
-		padding: 1rem;
+		padding: 1vw 4vh;
 	}
 
 	.nav-horizontal {
@@ -261,8 +261,7 @@ header {
 		flex-direction: row;
 		width: 100vw;
 		justify-content: space-around;
-		border: black 1px solid;
-		/* padding: 2rem 0; */
+
 	}
 
 	.box {
@@ -271,7 +270,8 @@ header {
 		text-align: center;
 		align-items: center; */
 		justify-content: space-around;
-		border: black 1px solid;
+		flex-grow: 1;
+		flex-basis: 0;
 		gap: 1rem;
 	}
 	
@@ -293,6 +293,10 @@ header {
 		align-items:center;
 	}
 
+	#yeezy p {
+		margin-top: 5vh;
+	}
+
 	.underline-white{
 		border-bottom: 0.5vh solid white;
 		padding-bottom: 0.5rem;
@@ -304,7 +308,7 @@ header {
 	}
 	
 	.container {
-		width: 100vw;
+		width: 50vw;
 		display: flex;
 		flex-direction: column;
 		align-items: flex-start;
@@ -312,7 +316,9 @@ header {
 	}
 	
 	.yeezy {
-		width: 10vw;
+		width: 25vw;
+		height: auto;
+		padding: 10vh 5vw;
 	}
 	
 	
