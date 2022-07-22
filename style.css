@@ -103,21 +103,25 @@ nav ul {
     background-color: #1AB16A;
     text-align: left;
     color: white;
-    display: flex;
-    justify-content: space-between;
-    align-items: center;
     padding: 10vw 8vw;
 }
 
 .west-container {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.list {
     display: grid;
     grid-template-rows: auto auto auto auto;
 }
 
 #west h4 {
     margin: 0;
-    border-bottom: 5px solid white;
-    padding-bottom: 12px;
+    text-decoration: underline;
+    /* border-bottom: 5px solid white;
+    padding-bottom: 12px; */
 }
 
 #west h6 {
@@ -126,11 +130,11 @@ nav ul {
 }
 
 .white-logo {
-    width: 6vw;
+    width: 10rem;
 }
 
 .app {
-    width: 25vw;
+    width: 27rem;
 }
 
 
