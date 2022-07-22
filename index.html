@@ -12,13 +12,17 @@
       href="https://fonts.googleapis.com/css2?family=Roboto+Condensed:wght@400;700&display=swap"
       rel="stylesheet"
     />
+    <link
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css"
+    />
   </head>
   <body>
     <div class="navbar">
       <div class="logo">
         <img src="images/Spotify-logo.svg" alt="" />
       </div>
-      <div class="menu">
+      <div class="menu" id="myLinks">
         <ul>
           <li><a href="#">Premium</a></li>
           <li><a href="#">Discover</a></li>
@@ -26,7 +30,13 @@
           <li><a href="#">Download</a></li>
         </ul>
       </div>
+      <!-- <a href="javascript:void(0);" class="icon" onclick="myFunction()">
+        <i style="margin-left: 15px" class="fa fa-bars"></i>
+      </a> -->
     </div>
+    </div>
+
+    
     <div class="header">
       <h1>Music for everyone.</h1>
       <p>
@@ -77,5 +87,16 @@
       </div>
       <div class="app-pic"><img src="/images/spotify-app.jpg" alt="" /></div>
     </div>
+    <!-- Script Sections -->
+    <script>
+      function myFunction() {
+        var x = document.getElementById("myLinks");
+        if (x.style.display === "block") {
+          x.style.display = "none";
+        } else {
+          x.style.display = "block";
+        }
+      }
+    </script>
   </body>
 </html>

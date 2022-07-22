@@ -32,12 +32,16 @@ a {
   color: black;
 }
 
+a:hover {
+  color: #1bd760;
+}
+
 .navbar {
   display: flex;
   align-items: center;
   justify-content: space-between;
   background-color: white;
-  position: absolute;
+  position: fixed;
   width: 100%;
 }
 
@@ -141,3 +145,57 @@ img {
   background-color: #1bd760;
   padding: 20px;
 }
+
+/* Break points section */
+
+@media (max-width: 770px) {
+  .cards {
+    flex-direction: column;
+  }
+}
+
+/* burger menu */
+/* .mobile-container {
+  max-width: 480px;
+  margin: auto;
+  background-color: #555;
+  height: 500px;
+  color: white;
+  border-radius: 10px;
+}
+
+.topnav {
+  overflow: hidden;
+  background-color: #333;
+  position: relative;
+}
+
+.topnav #myLinks {
+  display: none;
+}
+
+.topnav a {
+  color: white;
+  padding: 14px 16px;
+  text-decoration: none;
+  font-size: 17px;
+  display: block;
+}
+
+.topnav a.icon {
+  background: black;
+  display: block;
+  position: absolute;
+  right: 0;
+  top: 0;
+}
+
+.topnav a:hover {
+  background-color: #ddd;
+  color: black;
+}
+
+.active {
+  background-color: #04aa6d;
+  color: white;
+} */
