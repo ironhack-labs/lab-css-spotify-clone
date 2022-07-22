@@ -1,8 +1,99 @@
 /*
 Colors:
-
-Text: 1A1A1A
-Green: #00B172
-White: #FFF
-
+    Text: 1A1A1A
+    Green: #00B172
+    White: #FFF
 */
+
+* {
+    font-family: Arial, Helvetica, sans-serif;
+    padding: 0;
+    margin: 0;
+}
+
+/* html, body {
+    width: 100%;
+} */
+
+
+/* header */
+
+header {
+    background-color: #FFF;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    position: fixed;
+    width: 100%;
+    box-sizing: border-box;
+    padding: 10px;
+}
+
+header img {
+    height: 30px;
+}
+
+header #navbar {
+    font-size: 14px;
+}
+
+header #navbar ul {
+    display: flex;
+    list-style: none;
+}
+
+header #navbar ul li {
+    margin-left: 10px;
+}
+
+header #navbar a {
+    color: #1A1A1A;
+    text-decoration: none;
+}
+
+#music {
+    color: white;
+    background-image: url(../images/landing.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+    height: 800px ;
+    padding-top: 100px ; 
+    margin-bottom: 50px;
+}
+
+#spotify img {
+    width: 50px;
+}
+
+
+/* media queries  */
+
+/* Tablets and iPads */
+@media (min-width: 481px) {
+    header {
+        background-color: yellow;
+    }
+}
+
+/* Tablets and iPads lanscape */
+@media (min-width: 768px) {
+    header {
+        background-color: blue;
+    }
+}
+  
+/* Laptops and desktops */
+
+@media (min-width: 1024px) {
+    header {
+        background-color: green;
+    }
+}
+  
+/* Large screens */
+@media (min-width: 1280px) {
+    header {
+        background-color: white;
+    }
+}
