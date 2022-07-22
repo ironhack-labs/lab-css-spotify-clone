@@ -30,6 +30,7 @@ body{
    width: 200px;
 }
 
+
 .barra-lista ul{
    display: flex;
    flex-direction: row;
@@ -74,6 +75,11 @@ body{
 .header-description{
    font-size: 20px;
    font-weight: lighter;
+}
+
+.whats-section{
+   margin-left: 20px;
+   margin-right: 20px;
 }
 
 .whats-title{
@@ -133,6 +139,11 @@ body{
 
 .music-section{
    background-color: #55BD7E;
+   margin-left: 20px;
+   margin-right: 20px;
+   display: flex;
+   flex-direction: column;
+   align-items: center;
 }
 
 .music-logo img{
@@ -146,27 +157,135 @@ body{
 
 .music-title{
    color: #fff;
-   font-size: 40px;
+   font-size: 25px;
+   padding-top: 60px;
+   width: 90%;
+   padding-bottom: 30px;
 }
 
 .music-separador{
    border: 1px solid #fff;
    height: 2px;
-   width: 500px;
+   max-width: 320px;
    background-color: #fff;
+   margin-top: 10px;
+
 }
 
 .music-bloque{
    display: flex;
    flex-direction: column;
-   height: 100px;
-   justify-content: space-around;
+   height: 150px;
 }
 
+
 .music-lable-1{
-   font-size: 30px;
+   font-size: 25px;
 }
 
 .music-description-1{
    font-size: 20px;
+   max-width: 300px;
+   font-weight: 100;
+}
+
+.music-logo{
+   position: absolute;
+   top: 50%;
+   left: 50%;
+   transform: translate(-50%, -50%);
+}
+
+.music-relleno img{
+   max-width: 250px; 
+   height:auto;
+}
+
+.music-relleno-img{
+   display: flex;
+   align-items: center;
+}
+
+.music-relleno{
+   display: flex;
+   flex-direction: row;
+   justify-content: space-between;
+   padding-bottom: 50px;
+   position: relative;
+   width: 90%;
+}
+
+.music-relleno-bloques{
+   display: flex;
+   flex-direction: column; 
+
+}
+
+@media only screen and (max-width: 800px) {
+   .music-logo{
+      display: none;
+   }
+}
+
+@media only screen and (max-width: 700px){
+   .barra-navegacion{
+      display: flex;
+      flex-direction: column;
+      justify-content: center;
+
+   }
+
+   .barra-logo{
+      text-align: center;
+   }
+
+   .barra-lista ul{
+      display: flex;
+      flex-direction: row;
+      justify-content: center;
+      padding: 0;
+   }
+
+   .whats-bloque{
+      display: flex;
+      flex-direction: column;
+      justify-content: space-around;
+      align-items: center;
+   }
+
+   .bloque{
+      margin-bottom: 80px;
+   }
+
+   .music-relleno{
+      display: flex;
+      flex-direction: column;
+      justify-content: space-around;
+      align-items: center;
+   }
+
+   .music-lable-1{
+      text-align: center;
+   }
+
+   .music-logo{
+      display: none;
+   }
+
+   .music-relleno img{
+      padding-top: 50px;
+   }
+
+   .music-description-1{
+      text-align: center;
+   }
+
+   .music-title{
+      text-align: center;
+   }
+
+   .music-separador{
+      margin: 10px auto 0 auto;
+   }
+
 }
