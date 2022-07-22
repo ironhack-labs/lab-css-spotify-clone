@@ -3,6 +3,8 @@
 	font-family: 'montserrat';
 }
 
+/* Colors & fonts */
+
 .green {
 	color: #00B172;
 }
@@ -15,11 +17,33 @@
 	color: #FFF;
 }
 
-a {
-	text-decoration: none;
+h1 {
+	font-weight: 600;
+	font-size: 3rem;
+	text-align: center;
+	width: 55%;
 }
 
+h3 {
+	font-weight: 200;
+	font-size: 1rem;
+	text-align: center;
+	width: 70%;
+}
 
+h2 {
+	font-weight: 600;
+	font-size: 1rem;
+	text-align: center;
+	width: 55%;
+}
+
+h4 {
+	font-weight: 600;
+	font-size: 1rem;
+}
+
+/* Header */
 
 header {
 	display: flex;
@@ -28,11 +52,21 @@ header {
 	padding: 1.5rem;
 }
 
+.nav-horizontal {
+	display: none;
+}
+
+a {
+	text-decoration: none;
+}
+
 ul{
 	display: flex;
 	list-style: none;
 	gap: 30px;
 }
+
+/* Portada */
 
 #main {
 	width: 100vw;
@@ -44,17 +78,23 @@ ul{
 	display: flex;
 	flex-direction: column;
 	align-items: center;
-	justify-content: flex-start; 
+	justify-content: flex-start;
 	gap: 2rem;
-	padding-top: 2rem;
+	padding-top: 3rem;
 }
+
+/* Info */
 
 #info {
 	display:flex;
 	flex-direction: column;
 	width: 100vw;
-	margin-top: 1rem;
+	margin-top: 2rem;
 	align-items: center;
+}
+
+#info img {
+	width: 5rem;
 }
 
 .characteristics {
@@ -63,14 +103,12 @@ ul{
 	flex-direction: column;
 	align-items: center;
 	justify-content: space-between;
-	border: 1px solid black;
-	gap: 6rem;
-	padding: 3rem 0;
+	gap: 2rem;
+	padding: 2rem 0;
 }
 
 .box {
 	width: 100vw;
-	height: 5rem;
 	display: flex;
 	flex-direction: column;
 	text-align: center;
@@ -83,55 +121,64 @@ ul{
 	width: 75vw;
 }
 
-.underline {
+.underline-green{
 	border-bottom: 2px solid #00B172;
 	padding-bottom: 0.5rem;
 }
 
+
+/* Yeezy */
+
 #yeezy {
 	width: 100vw;
-	height: 10rem;
+	height: auto;
 	background-color: #00B172;
+	color: white;
+	display: flex;
+	flex-direction: column;
+	margin: 0 0;
 }
+
+.underline-white{
+	border-bottom: 2px solid white;
+	padding-bottom: 0.5rem;
+}
+
+.logo {
+	display: none;
+}
+
+.container {
+	width: 100vw;
+	display: flex;
+	flex-direction: column;
+	align-items: flex-start;
+	gap: 2rem;
+	padding: 2rem 3rem;
+}
+
+.container div {
+	width: 75vw;
+}
+
+.yeezy {
+	width: 100vw;
+}
+
+
+
+
+
+
 
 /* Smartphones (portrait) ----------- */
-@media only screen and (min-width : 320px) {
+/* @media only screen and (max-width : 320px) {
 
-	.nav-horizontal {
-		display: none;
-	}
 
-	h1 {
-		font-weight: 600;
-		font-size: 3rem;
-		text-align: center;
-		width: 55%;
-	}
 
-	h3 {
-		font-weight: 200;
-		font-size: 1rem;
-		text-align: center;
-		width: 70%;
-	}
+	/* .logo {
+	position: absolute;
 
-	h2 {
-		font-weight: 600;
-		font-size: 1rem;
-		text-align: center;
-		width: 55%;
-	}
+} */
 
-	h4 {
-		font-weight: 600;
-		font-size: 1rem;
-		text-align: center;
-	}
-
-	#info img {
-		width: 5rem;
-	}
-
-	
-
-}
+} */
