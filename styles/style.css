@@ -6,3 +6,299 @@ Green: #00B172
 White: #FFF
 
 */
+
+/*768p*/
+
+/* GENERAL */
+
+/* Reinicio ajustes + fuente a toda la pagina */
+*{
+    margin: 0;
+    padding: 0;
+    font-family: Arial, Helvetica, sans-serif;
+    color: #1a1a1a;
+}
+/* width al contenido */
+.container{
+    width: 90%;
+    margin: auto;
+}
+/* background  */
+.background{
+    padding-top: 50px;
+    background-image: url("/images/landing.jpg");
+    background-repeat: no-repeat;
+    background-position: center center;
+    background-size: cover;
+    width: 100%;
+    height: 400px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+/* modificaciones texto pagina */
+.text{
+    width: 80%;
+    margin: 0;
+}
+.text h1{
+    padding-bottom: 10vw;
+    font-size: 10vw;
+    font-weight: bold;
+    color: white;
+    text-align: center;
+}
+.text h2{
+    font-size: 3vw;
+    color: white;
+    text-align: center;
+}
+.whats-on-spotify{
+    padding: 5vh 0;
+    text-align: center;
+}
+.whats-on-spotify h2{
+    text-decoration: underline #00B172 4px;
+    text-underline-offset: 3px;
+}
+.whats-on-spotify img{
+    width: 30%;
+}
+
+/* Estilos seccion opciones */
+
+.options {
+    display: flex;
+}
+.options div{
+    padding: 6vh 0;
+}
+
+.options > div > h3 {
+    color: #00B172;
+    padding: 1rem 0;
+}
+
+/*seccion final - general */
+
+.spotify-app{
+    background-color: #00B172;
+}
+.spotify-app-flex{
+    display: flex;
+    flex-direction: column-reverse;
+}
+.spotify-app-flex img{
+    width: 100%;
+}
+.spotify-app-flex h3{
+    color: #FFF;
+    text-align: center;
+    padding: 1rem 0;
+    text-decoration: underline #fff 3px;
+    text-underline-offset: 3px;
+}
+.spotify-app-text{
+    color: #FFF;
+    padding-bottom: 1rem;
+    position: relative;
+
+}
+.spotify-app-text img{
+    width: 20%;
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+}
+.spotify-app-text h4, .spotify-app-text p{
+    padding: 0 1rem;
+}
+.spotify-app-text h4{
+    padding: 1rem 1rem; 
+    font-weight: bold;
+}
+
+/* Aplicamos estilos a pantallas con max 768px de ancho */
+@media only screen and (max-width: 768px) {
+    /* quitamos html para .desktop */
+    .nav-bar-desktop, .desktop{
+        display: none;
+    }
+    /* posicionamos logo navbar */
+    /* nav-bar */
+    .logo{
+        margin:0;
+        padding: 10px 0;
+        width: 100px;
+        position: relative;
+        top: 0;
+        left: 0.5rem;
+    }
+    .nav-bar-smartphone{
+        background-color: #FFF;
+        display: flex;
+        justify-content: space-between;
+        width: 100%;
+        position: fixed;
+    }
+    .nav-bar-smartphone ul, .nav-bar-smartphone li{
+        list-style-type: none;
+    }
+    #nav-menu-smartphone li > a > div > img{
+        width: 2rem;
+    }
+    #nav-menu-smartphone li > a > div {
+        display: flex;
+        justify-content: center;
+        align-items: center;
+    }
+    #nav-button > a{
+        padding: 0;
+        position: absolute;
+        top: 0.5rem;
+        right: 0.5rem;
+    }
+    .nav-bar-smartphone li > a{
+        background-color: #00B172;
+        color: white;
+        width: 5rem;
+        padding: 5px 0;
+        display: block;
+        text-align: center;
+        text-decoration: none;  
+    }
+    .nav-bar-smartphone li > a:hover{
+        background-color: #00593a;
+    }
+    .nav-bar-smartphone li > ul{
+        display: none;
+        position: absolute;
+        top: 0.5rem;
+        right: 0.5rem;
+    }
+    .nav-bar-smartphone li:hover > ul{
+        display: block;
+    }
+  /* opciones */
+    .whats-on-spotify img{
+        width: 50%;
+    }
+
+    .options{
+        flex-direction: column;
+    }
+    /* texto final pagina  */
+    .black-text{
+        position: relative;
+    }
+    .white-text{
+        position: relative;
+        color: #FFF; 
+    }
+}
+/* Aplicamos estilos a pantallas con minimo 769px de ancho */
+@media only screen and (min-width: 769px) {
+    /* quitamos la seccion de html para smartphone */
+    .nav-bar-smartphone, .smartphone{
+        display: none;
+    }
+    /* nav-bar */
+    .nav-bar-desktop{
+        background-color: #FFF;
+        display: flex;
+        width: 100%;
+        justify-content: space-between;
+        align-items: center;
+        position: fixed;
+        z-index: 10;
+    }
+    .nav-bar-desktop img{
+        width: 15%;
+        padding: 1rem 0 1rem 1rem;
+    }
+    .nav-bar-desktop ul{
+        display: flex;
+        padding: 1rem 1rem 1rem 0;
+    }
+    .nav-bar-desktop li{
+        font-size: 1.2rem;
+        list-style: none;
+        padding: 0 0 0 3rem;
+    }
+    .nav-bar-desktop a{
+        text-decoration: none;
+    }
+    /* acomodamos background img debajo nav a desktop */
+    .background{
+        height: 650px;
+    }
+    .background h1{
+        font-size: 5rem;
+    }
+    .background h2{
+        font-size: 2rem;
+        font-weight: lighter;
+    }
+    .text h1{
+        padding-bottom: 6vh;
+    }
+    /* opciones en :horizontal + estilos */
+    .options{
+        align-items: center;
+    }
+
+    .spotify-app-flex{
+        display: flex;
+        flex-direction: row;
+        justify-content: space-around;
+    }
+    .spotify-app-flex img{
+        width: 50%;
+    }
+
+    .spotify-app-flex h3{
+        font-size: 2rem;
+        color: #FFF;
+        text-align: left;
+        padding: 3rem;
+        text-decoration: underline #fff 3px;
+        text-underline-offset: 3px;
+    }
+
+    .spotify-app-flex h4, .spotify-app-flex p{
+        padding-left: 2rem;
+        width: 50%;
+        color: #FFF;
+    }
+
+    .spotify-app-flex h4{
+        padding: 3rem 0 3rem 3rem;
+        font-size: 1.5rem;
+    }
+
+    .spotify-app-flex p{
+        padding: 0 0 0 3rem;
+        font-size: 1rem;
+    }
+
+    .spotify-app-text{
+        z-index: 1;
+    }
+    .center-img{
+        display: flex;
+        justify-content: center;
+        align-items: center;
+    }
+    .desktop{
+        position: relative;
+    }
+    /* posicion icono spotify */
+    .icon{
+        width: 10%;
+        position: absolute;
+        top: 50%;
+        left: 50%;
+        transform: translate(-50%, -50%);
+    }
+}
