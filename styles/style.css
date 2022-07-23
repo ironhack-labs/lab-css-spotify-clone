@@ -11,10 +11,6 @@ Colors:
     margin: 0;
 }
 
-/* html, body {
-    width: 100%;
-} */
-
 
 /* header */
 
@@ -51,15 +47,33 @@ header #navbar a {
     text-decoration: none;
 }
 
+
+/* section */
+
 #music {
-    color: white;
+    color: #FFF;
+    text-align: center;
     background-image: url(../images/landing.jpg);
     background-repeat: no-repeat;
     background-size: cover;
     background-position: center;
-    height: 800px ;
-    padding-top: 100px ; 
-    margin-bottom: 50px;
+    height: 750px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    resize: vertical;
+    overflow: auto;
+    padding: 0px 30px;
+}
+
+#music h1 {
+    font-size: 40px;
+}
+
+#music p {
+    font-size: 20px;
+    line-height: 28px;
+    margin-top: 20px;
 }
 
 #spotify img {
@@ -71,23 +85,66 @@ header #navbar a {
 
 /* Tablets and iPads */
 @media (min-width: 481px) {
+
+    /* header */
     header {
         background-color: yellow;
+        padding: 14px 18px;
+    }
+
+    header img {
+        height: 40px;
+    }
+    
+    header #navbar {
+        font-size: 16px;
+    }
+
+    header #navbar ul li {
+        margin-left: 14px;
     }
 }
+
 
 /* Tablets and iPads lanscape */
 @media (min-width: 768px) {
+    
+    /* header */
     header {
         background-color: blue;
+        padding: 14px 26px;
+    }
+
+    #music h1 {
+        font-size: 50px;
+    }
+    
+    #music p {
+        font-size: 20px;
+        line-height: 28px;
     }
 }
   
+
 /* Laptops and desktops */
 
 @media (min-width: 1024px) {
+
+    /* header */
     header {
-        background-color: green;
+        background-color: greenyellow;
+    }
+
+    header img {
+        height: 48px;
+    }
+
+    #music h1 {
+        font-size: 54px;
+    }
+
+    header #navbar ul li {
+        margin-left: 20px;
     }
 }
   
