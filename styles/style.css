@@ -76,8 +76,83 @@ header #navbar a {
     margin-top: 20px;
 }
 
-#spotify img {
-    width: 50px;
+#spotify,
+#kanye-west {
+    width: 90%;
+}
+
+#spotify {
+    text-align: center;
+    margin: 30px auto 80px auto;
+}
+
+#spotify #container-flex .container-spotify {
+    padding: 20px;
+}
+
+#spotify #container-flex .container-spotify img {
+    width: 80px;
+}
+
+#spotify hr {
+    background-color: #00B172;
+    height: 2px;
+    width: 210px;
+    margin: 4px auto;
+}
+
+#spotify #container-flex .container-spotify h3 {
+    color: #00B172;
+    margin: 8px 0px 14px 0px;
+}
+
+#spotify #container-flex .container-spotify p {
+    font-size: 16px;
+}
+
+#kanye-west {
+    background-color: #00B172;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    box-sizing: border-box;
+    position: relative;
+    padding: 40px;
+    margin: 0px auto 20px auto;
+}
+
+#kanye-west h2 {
+    color: #FFF;
+}
+
+#kanye-west #container-kanye hr {
+    background-color: #FFF;
+    height: 2px;
+    width: 100%;
+    margin: 4px 0px;
+}
+
+#kanye-west #container-kanye h3 {
+    color: #FFF;
+    margin: 30px 0px 16px 0px;
+}
+
+#kanye-west #container-kanye p {
+    font-size: 16px;
+    color: #FFF;
+}
+
+#kanye-west #logo-kanye {
+    text-align: center;
+    margin: 30px 0px;
+}
+
+#kanye-west #logo-kanye img {
+    width: 60px;
+}
+
+#kanye-west #container-app img {
+    width: 100%;
 }
 
 
@@ -103,6 +178,46 @@ header #navbar a {
     header #navbar ul li {
         margin-left: 14px;
     }
+
+    /* section */
+    #spotify #container-flex {
+        display: flex;
+        justify-content: space-between;
+    }
+
+    #spotify #container-flex .container-spotify {
+        padding: 50px 30px;
+    }
+
+    #kanye-west {
+        display: flex;
+        flex-direction: row;
+        justify-content: space-between;
+    }
+
+    #kanye-west #container-kanye hr {
+        width: 90%;
+    }
+
+    #kanye-west #logo-kanye {
+        position: absolute;
+        left: 0;
+        right: 0;
+        margin: auto;
+        top: 50%;
+        height: 100px;
+        margin-top: -50px;
+    }
+
+    #kanye-west #container-kanye {
+        padding-right: 50px;
+    }
+
+    #kanye-west #container-app {
+        display: flex;
+        align-items: center;
+        padding-left: 50px;
+    }
 }
 
 
@@ -123,6 +238,15 @@ header #navbar a {
         font-size: 20px;
         line-height: 28px;
     }
+
+    /* section */
+    #kanye-west #container-kanye {
+        padding-right: 180px;
+    }
+
+    #kanye-west #container-app img {
+        width: 200px;
+    }
 }
   
 
@@ -139,12 +263,18 @@ header #navbar a {
         height: 48px;
     }
 
+    
+    header #navbar ul li {
+        margin-left: 20px;
+    }
+    
+    /* section */
     #music h1 {
         font-size: 54px;
     }
 
-    header #navbar ul li {
-        margin-left: 20px;
+    #kanye-west #container-kanye {
+        padding-right: 350px;
     }
 }
   
@@ -152,5 +282,15 @@ header #navbar a {
 @media (min-width: 1280px) {
     header {
         background-color: white;
+    }
+
+    /* section */
+    #spotify,
+    #kanye-west {
+        width: 80%;
+    }
+
+    #kanye-west #container-kanye {
+        padding-right: 450px;
     }
 }
