@@ -6,3 +6,138 @@ Green: #00B172
 White: #FFF
 
 */
+
+* {
+  box-sizing: border-box;
+}
+
+body {
+  margin: 0 auto;
+  font-family: Montserrat, sans-serif;
+}
+
+.scrolling-active {
+  background-color: rgba(255, 255, 255, 0.919);
+  transition-duration: 500ms;
+  box-shadow: 0 3px 1rem rgba(0, 0, 0, 0.1);
+}
+
+.scrolling-active #nav-bar a {
+  color: rgb(0, 0, 0);
+}
+
+header {
+  width: 100%;
+  position: fixed;
+  display: flex;
+  padding: 5px 0 5px 15px;
+  justify-content: space-between;
+  z-index: 1;
+}
+
+#nav-bar ul {
+  list-style: none;
+  display: flex;
+  align-items: center;
+  /* margin: 2rem 0; */
+}
+
+#nav-bar li {
+  font-size: 1.3rem;
+  margin: 0 15px;
+}
+
+#nav-bar a {
+  color: rgb(255, 255, 255);
+  text-decoration: none;
+  padding: 10px 10px 10px 10px;
+}
+
+.nav-link {
+  font-weight: bold;
+  font-size: 1.1rem;
+  text-transform: uppercase;
+  text-decoration: none;
+  color: white;
+  margin: 0px 0px;
+  display: inline-block;
+  position: relative;
+  opacity: 0.75;
+}
+
+.nav-link:hover {
+  opacity: 1;
+}
+
+.nav-link::before {
+  transition: 300ms;
+  height: 5px;
+  content: "";
+  position: absolute;
+  background-color: white;
+}
+
+.nav-link-fade::before {
+  width: 0%;
+  bottom: 5px;
+}
+
+.nav-link-fade:hover::before {
+  width: 82%;
+}
+
+.scrolling-active .nav-link-fade::before {
+  background-color: black;
+}
+
+header img {
+  display: flex;
+  align-items: center;
+  max-height: 60px;
+  max-width: 200px;
+  margin: 7px 0 5px 0;
+}
+
+#hero {
+  display: flex;
+  background-image: url("/images/landing.jpg");
+  background-size: cover;
+  height: 100vh;
+  background-position: center;
+  background-repeat: no-repeat;
+  align-items: center;
+  justify-content: center;
+  flex-direction: column;
+}
+
+#hero h1 {
+  margin: 0 0 25px 0;
+  font-weight: 800;
+  color: white;
+  font-size: 5.4rem;
+  filter: drop-shadow(0 0 0.75rem rgb(0, 0, 0));
+}
+
+#hero p {
+  margin: 0 auto;
+  padding: 0 100px;
+  font-size: 2rem;
+  font-weight: 200;
+  color: white;
+  text-align: center;
+  filter: drop-shadow(0 0 0.75rem rgb(0, 0, 0));
+}
+
+#whats-on h2 {
+  padding: 25px 100px 0 100px;
+  margin: 0 auto;
+  font-size: 2.2rem;
+  justify-content: center;
+  text-align: center;
+}
+
+#whats-on hr {
+  margin: 0 590px;
+  border: 3px solid #00B172;
+}
+
