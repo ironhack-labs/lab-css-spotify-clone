@@ -9,15 +9,32 @@
     <!-- don't forget to link your styles -->
   </head>
   <body>
-    <nav>
-      <img src="images/spotify-logo.png" alt="Spotify-logo" />
-      <div>
-        <ul>
-          <li>Premium</li>
-          <li>Discover</li>
-          <li>Help</li>
-          <li>Download</li>
-        </ul>
+    <nav
+      style="
+        width: 100%;
+        display: flex;
+        justify-content: center;
+        padding: 10px;
+        box-sizing: border-box;
+      "
+    >
+      <div
+        style="
+          width: 100%;
+          max-width: 1440px;
+          display: flex;
+          justify-content: space-between;
+        "
+      >
+        <img src="images/spotify-logo.png" alt="Spotify-logo" />
+        <div>
+          <ul id="pages">
+            <li>Premium</li>
+            <li>Discover</li>
+            <li>Help</li>
+            <li>Download</li>
+          </ul>
+        </div>
       </div>
     </nav>
     <header>
@@ -51,31 +68,33 @@
       </div>
     </section>
     <section id="last">
-      <div>
-        <h1>It’s as yeezy as Kanye West.</h1>
-        <hr id="line-white" />
-        <h2>Search</h2>
-        <p>Know what you want to listen to? Just search and hit play.</p>
-        <h2>Browse</h2>
-        <p>
-          Check out the latest charts, brand new releases and great playlists
-          for right now.
-        </p>
-        <h2>Discover</h2>
-        <p>
-          Enjoy new music every Monday with your own personal playlist. Or sit
-          back and enjoy Radio.
-        </p>
-      </div>
-      <div>
-        <img
-          class="last-img-size"
-          src="images/spotify-icon-white.png"
-          alt="Spotify icon white"
-        />
-      </div>
-      <div>
-        <img class="app-img" src="images/spotify-app.jpg" alt="Kanye west " />
+      <div id="last-container">
+        <div>
+          <h1>It’s as yeezy as Kanye West.</h1>
+          <hr id="line-white" />
+          <h2>Search</h2>
+          <p>Know what you want to listen to? Just search and hit play.</p>
+          <h2>Browse</h2>
+          <p>
+            Check out the latest charts, brand new releases and great playlists
+            for right now.
+          </p>
+          <h2>Discover</h2>
+          <p>
+            Enjoy new music every Monday with your own personal playlist. Or sit
+            back and enjoy Radio.
+          </p>
+        </div>
+        <div>
+          <img
+            class="last-img-size"
+            src="images/spotify-icon-white.png"
+            alt="Spotify icon white"
+          />
+        </div>
+        <div>
+          <img class="app-img" src="images/spotify-app.jpg" alt="Kanye west " />
+        </div>
       </div>
     </section>
   </body>

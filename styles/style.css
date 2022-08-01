@@ -32,9 +32,15 @@ nav {
   width: 100%;
 }
 
-nav div {
+/* nav div {
   width: 300px;
   text-align: center;
+} */
+
+#pages {
+  display: flex;
+  gap: 10px;
+  flex-wrap: wrap;
 }
 
 ul {
@@ -98,18 +104,23 @@ h1 {
 
 #last {
   background-color: #00b172;
+  color: #fff;
+  height: 900px;
+  width: 100%;
+}
+
+#last-container {
   display: flex;
   flex-direction: row;
   justify-content: space-around;
   margin: 0 auto;
   align-items: center;
-  color: #fff;
-  height: 900px;
-  width: 95%;
+  max-width: 1440px;
+  padding-top: 20px;
 }
 
 #last div {
-  max-width: 31%;
+  max-width: 1440px;
 }
 
 #last h1 {
