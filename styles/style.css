@@ -1,8 +1,74 @@
 /*
 Colors:
 
-Text: 1A1A1A
+Text: #1A1A1A
 Green: #00B172
 White: #FFF
 
 */
+img {
+    width: 100%;
+}
+
+html, body {
+    margin: 0 auto;
+    width: 100%;
+    
+}
+
+.navFlex {
+    display: flex;
+    justify-content: space-between;
+}
+
+.img1 {
+    width: 15%;
+    height: 50px;
+}
+
+.list{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-evenly;
+    width: 40%;
+    list-style-type: none;
+}
+
+ul a {
+    
+    text-decoration:none;
+    list-style: none;
+    color: #1A1A1A
+}
+
+.bckImg{
+    width: 100%;
+    height: 800px;
+    background-image:url("../images/landing.jpg");
+    background-repeat: no-repeat;
+    background-size: 100%;
+}
+
+.centered {
+    position: absolute;
+    top: 70%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    color: white
+}
+
+h1{
+    font-size: 50px;
+    text-align: center;
+}
+
+p{
+    font-size: 20px;
+    text-align: center;
+}
+
+.underLine {
+    text-decoration: underline;
+    text-underline-offset: 15px;
+}
+
