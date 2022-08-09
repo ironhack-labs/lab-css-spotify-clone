@@ -6,3 +6,150 @@ Green: #00B172
 White: #FFF
 
 */
+@import url('https://fonts.googleapis.com/css2?family=Roboto&display=swap');
+
+* {
+    margin: 0;
+    padding: 0;
+    font-family: 'Roboto', sans-serif;
+
+}
+
+a {
+    text-decoration: none;
+
+}
+
+/* Header */
+
+header {
+    display: flex;
+    padding: 10px 10px;
+    position: fixed;
+    background-color: white;
+}
+
+header li {
+    display: flex;
+    padding: 10px 5px;
+    margin: 0px 5px;
+}
+
+header ul {
+    display: flex;
+    justify-content: row;
+    text-decoration: none;
+}
+
+header a {
+    color: #1A1A1A;
+}
+
+.spotify-logo>img {
+    width: 10%;
+}
+
+/* Hero */
+.hero {
+    background-image: url(../images/landing.jpg);
+    background-size: cover;
+    width: 100%;
+    height: 900px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    color: white;
+
+}
+
+.hero h1 {
+    font-size: 5em;
+}
+
+.hero p {
+    font-size: 1.5em;
+}
+
+/* Services */
+.services img {
+    width: 30%;
+    margin-bottom: 20px;
+}
+
+.services h2 {
+    text-align: center;
+    padding-top: 20px;
+}
+
+.services .cards {
+    display: flex;
+    justify-content: space-evenly;
+    flex-direction: row;
+}
+
+.services p {
+    text-align: center;
+    width: 50%;
+    color: gray;
+}
+
+.services .card {
+    display: flex;
+    justify-content: space-evenly;
+    flex-direction: column;
+    align-content: space-between;
+    align-items: center;
+    padding: 20px;
+}
+
+.services h3 {
+    margin-bottom: 20px;
+    color: #09ba7b
+}
+
+/* Music */
+.music img {
+    width: 40%;
+}
+
+.music {
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    margin-top: 5%;
+    padding-bottom: 5%;
+    padding-top: 10%;
+    background-image: url(../images/spotify-icon-white.png);
+    background-repeat: no-repeat;
+    background-position: center center;
+    background-color: #1ab16a;
+    background-size: 10%;
+    color: white;
+    background-color: rgba(255, 255, 255, 0.5);
+}
+
+.music-text .title-song {
+    text-decoration: underline;
+    text-underline-offset: 1rem;
+}
+
+.music-text {
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-start;
+}
+
+.music-text h3 {
+    margin: 25px 0px;
+}
+
+.music-text p {
+    width: 50%;
+    text-align: left;
+}
+
+.spotify-app {
+    display: flex;
+    justify-content: flex-end;
+}
