@@ -6,3 +6,135 @@ Green: #00B172
 White: #FFF
 
 */
+@import url('https://fonts.googleapis.com/css2?family=Roboto:ital,wght@0,100;0,300;0,400;0,500;0,700;0,900;1,100;1,300;1,400;1,500;1,700;1,900&display=swap');
+body{
+    margin:0;
+    padding:0;
+    font-family: 'Roboto', sans-serif;
+}
+nav{
+    display:flex;
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: center;
+    height:5vh;
+    padding:10px;
+}
+nav #logo {
+height:35px;
+margin:5px 5px;
+
+}
+nav ul{
+    display: flex;
+    align-items: center;
+
+}
+nav li{
+    list-style: none;
+    display:inline-block;
+    padding: 0 30px;
+    
+}
+.hero{
+    background-image: url(/images/landing.jpg);
+    background-size: cover;
+    object-fit: contain;
+    background-repeat:no-repeat;
+    height:90vh;
+    width:100vw;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    color:#FFF;
+}
+ h1{
+    font-size: 56px;
+    font-weight:500;
+    margin:0;
+}
+.hero p{
+    font-size:24px;
+    font-weight: 200;
+    text-align:center
+}
+
+.What{
+    height:70vh;
+    width:100vw;
+    display:flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+ h2{
+    font-size: 32px;
+    font-weight:500;
+}
+.WhatWrapper{
+    display:flex;
+    text-align:center;
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: center;
+    max-width: 900px;
+}
+.WhatElement{
+    display:flex;
+    flex-direction: column;
+    justify-content: space-between;
+    align-items: center;
+    width:25%;
+    margin-top:0;
+
+}
+.icon{
+    height:80px;
+}
+.WhatElement > h3{
+    color:#00B172;
+    font-size:24px;
+    margin-top:15px;
+
+}
+.Yezzy{
+    background-color:#00B172;
+    height:100vh;
+    width:100vw;
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-content:center;
+    color:#FFF;
+    background-image: url('/images/spotify-icon-white.png');
+    background-repeat: no-repeat;
+    background-size: 80px;
+    background-position: center;
+
+
+
+}
+.YezzyContent{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: flex-start;
+    width:610px;
+
+}
+.YezzyContent h2{
+    border-bottom: 2px solid #FFF;
+    padding-bottom:5px;
+    
+}
+
+.YezzyPictures{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: flex-start;
+}
+.YezzyPictures img{
+  max-height:450px;
+}
