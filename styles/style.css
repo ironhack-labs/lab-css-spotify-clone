@@ -33,13 +33,14 @@ nav ul {
     align-items: center;
 }
 
-/* .titleBox {
+.titleBox {
     position: absolute;
-    top: 40%;
+    top: 50%;
     left: 50%;
     transform: translate(-50%,-50%);
     color: white;
-    font-size: 60px;
+    /* font-size: 60px; */
+    text-align: center;
 } */
 
 .section2-body {
@@ -47,15 +48,6 @@ nav ul {
     text-align: center;
     color: yellow;
 }
-
-/* .landingImage {
-    width: 1440px;
-    height: 600px;
-    left: 0px;
-    top: 0px;
-    object-fit: cover;
-
-} */
 
 .landingImage {
     width: 1440px;
@@ -66,24 +58,125 @@ nav ul {
     position: relative;
 }
 
-h1 .title {
-    position: absolute;
-    top: 200px;
-    left: 150px;
-    width: 100%;
-    margin: 0 auto;
-    width: 300px;
-    height: 50px;
-    color: white;
+.tagline {
+    font-size: 2em;
+    line-height: 1.5em;
 }
 
-h2 {
-    position: absolute;
-    top: 250px;
-    left: 150px;
-    width: 100%;
-    margin: 0 auto;
-    width: 300px;
-    height: 50px;
+.title {
+    font-size: 60px;
+}
+
+.section3Body {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    padding: 50px 25px;
+}
+
+.section3Body h3 {
+    /* border: 3px solid red; */
+    font-size: 2em;
+    /* text-decoration: underline;
+    text-decoration-color: #00B172; */
+    border-bottom: 3px solid #00B172;
+    padding-bottom: 3px;
+    margin: 70px;
+}
+
+/* .title3 {
+    border: 3px solid red;
+    font-size: 2em;
+    /* text-decoration: underline;
+    text-decoration-color: #00B172;
+    border-bottom: 3px solid #00B172;
+    padding-bottom: 3px;
+    margin: 0;
+} */
+
+.features {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.featureImage {
+    height: 100px;
+    
+
+}
+
+.feature1, .feature2, .feature3 {
+    /* border: 3px solid red; */
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-start;
+    align-items: center;
+    width: 30%;
+    height: 300px;
+    padding: 0 15px;
+}
+
+.feature1 > h4, .feature2 > h4, .feature3 > h4 {
+    color: #00B172;
+    font-size: 1.5em;
+    align-items: center;
+}
+
+.feature1 p, .feature2 p, .feature3 p {
+    color: black;
+    opacity: 0.5;
+    font-size: 1em;
+    text-align: center;
+}
+
+.section4Body {
+    background-color: #00B172;
+    display: flex;
+    padding: 20px 25px;
+    justify-content: center;
+    align-items: center;
+}
+
+.elementsText span {
     color: white;
+    font-size: 2em;
+    /* text-decoration: underline;
+    text-decoration-color: white; */
+    border-bottom: 3px solid white;
+    padding-bottom: 5px;
+}
+
+.elementsText {
+    display: flex;
+    flex-direction: column;
+}
+
+.elementsText h4 {
+    color: white;
+    font-size: 1.5em;
+}
+
+.elementsText p {
+    color: white;
+    opacity: 0.8;
+    width: 30vw;
+}
+
+.whiteLogo {
+    width: 150px;
+}
+
+.mobileApp {
+    width: 400px;
+}
+
+.elementsImage {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: center;
+    width: 50vw;
+    padding: 80px;
 }
