@@ -1,8 +1,128 @@
-/*
-Colors:
+body {
+    padding: 0px;
+    margin: 0px;
+    font-family: ‘Gill Sans’, ‘Gill Sans MT’, Calibri, ‘Trebuchet MS’, sans-serif;
+    display: flex;
+    flex-direction: column;
+}
+nav {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    padding: 10px;
+    padding-left: 30px;
+    padding-right: 30px;
+}
+header img {
+    display: block;
+    max-width:230px;
+    max-height:95px;
+    width: auto;
+    height: auto;
+}
+header a:link {
+    color: black;
+}
+ul {
+ display: flex;
+ flex-direction: row;
+ list-style: none;
+}
+li {
+    margin: 10px;
+    text-decoration: none;
+}
+a:link {
+    text-decoration: none;
+}
 
-Text: 1A1A1A
-Green: #00B172
-White: #FFF
+.top-section {
+    position: relative;
+    text-align: center;
+    color: white;
+    
+}
 
-*/
+.top-section img {
+    width: 100vw;
+    height: 100vh;
+    position: relative;
+}
+
+.top-section h1 {
+    position: absolute;
+    top: 40%;
+    left: 35%;
+}
+
+.top-section h3 {
+    position: absolute;
+    top: 50%;
+    left: 30%;
+}
+
+.benefit-wrapper {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    height: 350px;
+    
+}
+
+.box-wrapper {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+  
+   
+}
+
+.box-container {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: space-between;
+    padding: 10px;
+}
+
+.box-image img {
+    width: 100px;
+    height: 100px;
+}
+
+.bottom-content-wrapper {
+    background-color: #1DB954;
+    color: white;
+    height: 500px;
+    padding: 20px;
+    position: relative;
+}
+
+.middle-image img {
+  width: 150px;
+  height: 150px;
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+}
+
+.right-image img {
+  height: 400px;
+  width: 300px;
+  position: absolute;
+  top: 15%;
+  right: 10%; 
+
+}
+.top-header h2 {
+    text-decoration: underline;
+    
+    margin-top:  20px;
+
+}
+
+.left-text {
+    margin-left: 80px;
+    margin-top: 60px;
+}
