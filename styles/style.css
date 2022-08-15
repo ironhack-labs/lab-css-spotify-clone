@@ -7,9 +7,19 @@ White: #FFF
 
 */
 
+@import url('https://fonts.googleapis.com/css?family=Roboto+Condensed:700|Roboto:100,300,700');
+
+
+body {
+    font-family: "Roboto";
+    margin: 0;
+
+}
+
 .spotify-logo {
-    width: 300px;
-    float: left;
+    width: 200px;
+    padding: 10px;
+    /*float: left;*/
 }
 
 .navbar {
@@ -21,10 +31,75 @@ White: #FFF
 .navbar-list {
     list-style: none;
     display: flex;
-    justify-content: ;
     align-items: center;
 }
 
+
+h1 {
+    font-size: 50px;
+}
+
+.section-two {
+    background-image: url(/images/landing.jpg);
+    background-position: center;
+    background-size: cover;
+    height: 650px;
+    color: #FFF;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+.section-two > p {
+    font-size: 20px;
+    width: 450px;
+    text-align: center;
+}
+
+.article-three {
+    display: flex;
+    justify-content: space-around;
+}
+
+.section-three hr {
+    width: 22%;
+}
+
+.section-three img {
+    width: 80px;
+}
+
+.section-three h3 {
+    text-align: center;
+    font-size: 25px;
+}
+
+.section-three h4 {
+    color: #00b172
+}
+
+.section-four {
+    background-color: #00b172;
+    display: flex;
+    justify-content: space-between;
+    padding: 40px;
+    margin: 20px;
+}
+
+.article-four {
+    color: #FFF;
+}
+
+.article-four hr {
+    width: 50%;
+}
+
+.spotify-app {
+    height: 360px;
+}
+
 .spotify-icon-white {
-    width: 50px;
+   width: 110px;
+   height: 100px;
 }
