@@ -77,7 +77,7 @@ nav ul > li {
 }
 
 #whatOn {
-    margin-top: 10px;
+    margin: 15px auto;
     padding: 10px;
     display: flex;
     flex-direction: column;
@@ -86,6 +86,7 @@ nav ul > li {
 }
 
 #whatOn h2 {
+    margin-bottom: 0;
     font-size: 3rem;
     padding-bottom: 5px;
     border-bottom: 4px solid #00B172;
@@ -116,13 +117,57 @@ nav ul > li {
 }
 
 .childInfo h3 {
+    color: #00B172;
     margin-bottom: 10px;
     font-size: 2rem;
 }
 
 .childInfo p {
+    color: #1A1A1A;
     margin-top: 0;
     width: 70%;
     height: 20%;
     font-size: 1.5rem;
+    font-weight: 100;
+    line-height: 1.2em;
+}
+
+#yeezy {
+    margin: 40px;
+    padding: 60px 40px;
+    background-color: #00B172;
+    display: flex;
+    justify-content: space-evenly;
+    align-items: center;
+
+    background-image: url('../images/spotify-icon-white.png');
+    background-repeat: no-repeat;
+    background-size: 150px;
+    background-position: 50% 50%;
+}
+
+#yeezy img {
+    width: 45%;
+    height: 700px;
+    object-fit: scale-down;
+    margin: 10px 0;
+}
+
+#yeezy #parentFeat {
+    width: 45%;
+}
+
+#yeezy #parentFeat h2 {
+    width: fit-content;
+    color: white;
+    font-size: 3rem;
+    padding-bottom: 6px;
+    border-bottom: 4px solid white;
+}
+
+#yeezy #parentFeat .childFeat {
+    color: white;
+    font-size: 2rem;
+    line-height: 40px;
+    width: 90%;
 }
