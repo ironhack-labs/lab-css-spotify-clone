@@ -6,11 +6,11 @@ Green: #00B172
 White: #FFF
 
 */
-
+/*
 *{
     border: solid 1px black;
 }
-
+*/
 body{
     font-family:sans-serif;
     color: #1A1A1A;
@@ -29,6 +29,7 @@ body{
     justify-content: space-between;
     align-content: center;
     background-color: #FFF;
+    box-shadow: 0px 5px 5px #FFF;
 }
 
 .nav-bar img{
@@ -90,7 +91,7 @@ body{
 }
 
 .value-prop h2{
-    font-size: 2.5em;
+    font-size: 2em;
     text-align: center;
     text-decoration: underline #00B172;
 }
@@ -135,4 +136,50 @@ body{
     font-size: 1.15em;
     line-height: 1.5;
     padding: 8px;
+}
+
+.product-presentation{
+    display: flex;
+    flex-direction: row;
+    flex-wrap: nowrap;
+    justify-content: space-between;
+    padding:30px;
+    background-color: #00B172;
+    background-image: url("/images/spotify-icon-white.png");
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: 100px auto;
+}
+
+.product-presentation img {
+    max-height: 500px;
+    width:auto;
+    margin:0 12.5%;
+
+}
+
+.product-benefits{
+    width: 40%;
+    color:#FFF;
+    display: flex;
+    flex-direction: column;
+    flex-wrap: nowrap;
+    justify-content: left;
+    padding-left: 30px;
+    padding-right: 30px;
+}
+
+.product-benefits h2{
+    text-decoration: underline;
+    font-size: 2em;
+}
+
+.product-benefits h3{
+    font-size: 1.5em;
+    margin-bottom: 0.5em;
+}
+
+.product-benefits p{
+    width:70%;
+    font-size: 1.15em;
 }
