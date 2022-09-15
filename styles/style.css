@@ -6,3 +6,121 @@ Green: #00B172
 White: #FFF
 
 */
+html, body {
+    margin: 0;
+    padding-top: 2rem;
+}
+
+.SpotifyLogo {
+    width: 10rem;
+    height: 4rem;
+    padding: 1rem;
+}
+
+#nav-bar {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    width: 100%;
+    background-color: white;
+    top: 0;
+    position: fixed;
+    
+}
+#nav-bar a {
+    color: black;
+    text-decoration: none;
+}
+
+#nav-bar ul {
+    width: 300px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    list-style-type: none;
+    padding-right: 1em;
+}
+
+.headings {
+    background-image: url("../images/landing.jpg");
+    background-size: 100%;
+    height: 130vh;
+    color: white;
+    text-align: center;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+}
+
+.landing-tittle {
+    font-size: 100px;
+}
+
+.headings > h4 {
+    font-size: 20px;
+    font-weight: lighter;
+}
+
+.secondary-tittle {
+    text-align: center;
+    font-size: large;
+}
+.secondary-tittle > hr {
+    width: 15%;
+    border: #00B172 solid;
+}
+
+.services-images{
+    width: 5rem;
+    height: 5rem;
+}
+.service-container {
+    text-align: center;
+    display:flex;
+    justify-content: center;
+}
+.service-container h3{
+    color: #00B172;
+}
+
+.services-text {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    margin: 0 auto;
+    max-width: 10em;
+}
+.tips {
+    background-color: #00B172;
+}
+
+.text-and-images {
+    color: white;
+    display: flex;
+    flex-direction: column;
+    width: 100%; 
+    max-width: 14rem;
+    margin-left: 10px;  
+}
+
+.text-and-images h3 {
+    border-bottom: white;
+    border-bottom-style: solid;
+}
+
+.text-and-images h4 {
+    font-size: 20px;
+}
+
+.whiteLogo {
+    width: 90px;
+}
+.appImage {
+    width: 250px;
+}
+
+.tips {
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+}
