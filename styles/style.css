@@ -6,3 +6,125 @@ Green: #00B172
 White: #FFF
 
 */
+
+body {
+    font-family: 'Courier New', Courier, monospace;
+    margin: 0;
+}
+
+nav {
+    width: 100%;
+    position: fixed;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    background-color: white;
+    z-index: 1;
+    padding: 10px;
+}
+
+.spotify-logo {
+    width: 200px;
+}
+
+.nav-bar-links {
+    display: flex;
+    flex-direction: row;
+    justify-content: flex-end;
+}
+
+.nav-bar-links a {
+    text-decoration: none;
+    color: #1A1A1A;
+}
+
+.nav-bar-links li {
+    list-style-type: none;
+    width: 100px;
+    padding-right: 40px;
+    text-align: center;
+}
+
+.cover-picture {
+    background-image: url("../images/landing.jpg");
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+    width: 100%;
+    height: 100vh;
+    color: white;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    text-align: center;
+}
+
+h1 {
+    font-size: 80px;
+}
+
+.cover-picture p {
+    font-size: 25px;
+    margin: 0;
+}
+
+.features-pictures {
+    height: 100px;
+}
+
+.features-container {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.features-container h2 {
+    border-bottom: 3px solid #00B172;
+    width: fit-content;
+    padding-bottom: 0.5%;
+    font-size: 40px;
+    font-weight: 900;
+}
+
+.features-container-items {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-evenly;
+}
+
+.features-item {
+    width: 33%;
+    padding: 5%;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+}
+
+.features-item h3 {
+    font-size: 30px;
+    color: #00B172;
+    font-weight: 900;
+    margin-bottom: 15px;
+}
+
+.features-item p {
+    font-size: 25px;
+}
+
+.features-2 {
+    background-color: #00B172;
+    display: flex;
+}
+
+.spotify-icon-white img {
+    height: 130px;
+    position: absolute;
+
+}
+
+.spotify-app img {
+    height: 650px;
+}
