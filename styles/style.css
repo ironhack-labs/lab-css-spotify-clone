@@ -117,6 +117,20 @@ h1 {
 .features-2 {
     background-color: #00B172;
     display: flex;
+    justify-content: space-around;
+    padding: 3%;
+    color: white;
+}
+
+.features-2-container-items {
+    width: 30%;
+    display: flex;
+    flex-direction: column;
+    align-items: space-between;
+}
+
+.features-2-item {
+    width: 70%;
 }
 
 .spotify-icon-white img {
@@ -127,4 +141,9 @@ h1 {
 
 .spotify-app img {
     height: 650px;
+}
+
+.features-2-container-items h2 {
+    border-bottom: 3px solid white;
+    width: fit-content;
 }
