@@ -7,6 +7,9 @@ White: #FFF
 
 */
 
+head {
+    margin: 0px;
+}
 
 header {
     display: flex;
@@ -66,20 +69,100 @@ h3 {
 
 .second {
     display: flex;
-    align-items: center;
-    height: 800px;
+    justify-content:center;
+    align-items:center;
+    height: 300px;
     width: 100vw;
-    justify-content: center;
-    flex-direction: column;
-    background-color: aqua;
 }
 
 h2 {
-    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    font-family: Verdana, Tahoma, sans-serif;
     font-size:1.5rem;
     color: rgb(0, 0, 0);
     font-weight: lighter;
     margin: 5px;
     width: 60%;
     text-align: center;
+}
+
+.iconos {
+    height: 100px;
+    width: 100px;
+}
+
+.datos {
+    width: 200px;
+    height: 200px;
+    display: flex;
+    justify-content:center;
+    align-items:center;
+    flex-direction:column;
+    padding: 30px;
+}
+
+.titulo {
+    text-align: center;
+    display: flex;
+    align-items: center;
+    height: 50px;
+    width: 100vw;
+    justify-content: center;
+    padding-top: 30px;
+}
+
+li {
+list-style-type: none;
+}
+
+.verde {
+    color: green;
+}
+
+.gris {
+    color: darkgrey;
+    text-align: center;
+    font-style: oblique;
+}
+
+.third {
+    width:100vw;
+    background-color: rgb(113, 189, 113);
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    flex-direction: row;
+    height: 700px;
+
+}
+
+.circulo {
+    width: 100px;
+    padding-right: 40px;
+    margin-left: -80px;
+}
+
+.captura {
+    width: 300px;
+    padding-right: 40px;
+}
+
+.blanco {
+    color: white;
+    font-size: 20px;
+    font-weight: bolder;
+}
+
+.blancoDos {
+    color: white;
+    font-weight:lighter;
+    font-size: 15px;
+}
+
+.datosA {
+    margin-right: 200px
+}
+
+.kany {
+    margin-left: 50px;
+    text-decoration: underline;
 }
