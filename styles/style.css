@@ -6,3 +6,98 @@ Green: #00B172
 White: #FFF
 
 */
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+  }
+
+.header{
+    background-image: url("/images/landing.jpg");
+    background-size: cover;
+    background-repeat: no-repeat;
+    display: flex;
+    position: relative;
+    height: 600px;
+    color: white;
+}
+
+
+.img-head {
+    width: 100%;
+    
+}
+
+.img-text {
+    font-size: 1em;
+    align-items: center;
+} 
+
+
+.logo {
+    margin-left: 15px;
+    width: 15%;
+}
+
+.nav-bar {
+    background-color: white;
+    padding: 14px 0;
+    position: fixed;
+    display: flex;
+}
+
+.nav-bar a {
+    font-size: 2em;
+    text-decoration: none;
+    color: black;
+}
+
+.nav-bar-ul {
+    width: 1000px;
+    margin: 0 auto;
+    display: flex;
+	flex-direction: row;
+    justify-content: space-between;
+    align-items: center;
+    padding-left: 450px;
+    padding-right: 50px;
+}
+
+.nav-bar-ul li {
+    list-style-type: none;
+    /* text-align: center; */
+}
+
+.title {
+    text-align: center;
+}
+
+.mid-div {
+    padding-top: 30px;
+    display: flex;
+	flex-direction: row;
+    justify-content: space-around;
+    align-items: center;
+    height: 30%;
+
+}
+
+.mid-logo {
+    width: 25%;
+}
+
+.bottom-section {
+    background-color: green;
+}
+
+.bottom-logo {
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    width: 5%;
+}
+
+.img-app {
+    width: 10%;
+}
