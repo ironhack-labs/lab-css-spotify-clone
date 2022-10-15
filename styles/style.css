@@ -79,6 +79,9 @@ img{
     height:auto;
 }
 
+.wrapped-menu{
+    display:none;
+}
 
 
 /*HEADER*/
@@ -219,7 +222,7 @@ img{
 .spotify-logo{
     height: auto;
     position: absolute;
-    right: 47%;
+    right: 42%;
 }
 
 .kanyewest{
@@ -234,3 +237,86 @@ img{
         width:100%;
         height:auto;
     }
+
+
+
+/* RESPONSIVE  */
+
+/* DEVICES FROM 350 TO 600 (MOBILE) */
+@media only screen and (max-width: 600px){
+    /* NAV CHANGE TO MENU */
+    .menu{
+        display:none;
+    }
+
+    .wrapped-menu{
+        display:inline;
+        margin: 0px 20px;
+    }
+
+    /* LANDING TEXT SMALLER WIDTH */
+    .main-section article{
+        padding: 0px 35px;
+    }
+
+    /* FEATURES WIDTH AND TEXT */
+    .feature-column{
+        width:60%;
+    }
+    .feature-column p{
+        font-size: 16px;;
+    }
+
+    /* GREEN SECTION TO COLUMN DESIGN */
+    .green-section{
+        flex-direction: column-reverse;
+        max-width: 1120px; 
+        margin-bottom: 20px; 
+        padding: 0;
+    }
+
+    .columns-text {
+        width: 80%;
+        font-size: 16px;
+        margin-top: 30px;
+        margin-bottom: 30px;
+    }
+    .spotify-logo{
+        height: auto;
+        margin-top: 39px;
+        position: static;
+    }
+    .kanyewest{
+        width:100%;
+    }
+}
+
+@media only screen and (min-width: 420px) and (max-width:600px){
+    .columns-text{
+        text-align: center;
+        width:45%;
+    }
+}
+
+@media only screen and (min-width:960px) {
+    .spotify-logo{
+        right: 47%;
+    }
+}
+
+@media only screen and (min-width:1170px) {
+    .column-text {
+        max-width: 365px;
+    }
+
+    .column-text h3{
+        font-size: 25px;
+    }
+
+    .column-text p{
+        font-size: 20px;
+    }
+    
+
+}
+
