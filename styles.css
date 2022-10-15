@@ -1,1 +1,176 @@
+body {
+  margin: 0 auto;
+  font-family: sans-serif;
+  width: 1200px;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  background-color: lightgray;
+}
 
+section {
+  width: 100%;
+  box-sizing: border-box;
+}
+
+/* HEADER + NAV */
+header {
+  position: fixed;
+  width: 1200px;
+  top: 0;
+  height: 100px;
+  background-color: white;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 10px 30px;
+  box-sizing: border-box;
+}
+
+.logo {
+  height: 70px;
+}
+
+header a {
+  margin-left: 20px;
+  text-decoration: none;
+  color: black;
+}
+
+/* HERO */
+.hero h1 {
+  font-size: 2.5rem;
+  color: white;
+  text-align: center;
+}
+
+.hero p {
+  color: white;
+  text-align: center;
+}
+
+.hero {
+  background-image: url(images/landing.jpg);
+  background-size: cover;
+  width: 100%;
+  height: 700px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.hero-text {
+  width: 500px;
+}
+
+.section2 {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  padding: 50px 20px;
+  width: 100%;
+  background-color: white;
+}
+
+.section2 h2 {
+  color: black;
+  margin: 0;
+}
+
+.section2 p {
+  color: black;
+}
+
+.section2 hr {
+  border: 2px solid #1ab16a;
+  background-color: #1ab16a;
+  border-radius: 2px;
+  margin-bottom: 30px;
+}
+
+.section2 img {
+  height: 100px;
+}
+
+.flex-row {
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+}
+
+.flex-row article {
+  width: 25%;
+  margin: 20px;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  text-align: center;
+}
+
+.flex-row h3 {
+  color: #1ab16a;
+}
+
+.section3 {
+  margin: 0 30px;
+  background-color: #1ab16a;
+  padding: 50px 80px;
+  display: flex;
+  flex-direction: column;
+  position: relative;
+}
+
+.section3 .section-title {
+  display: inline;
+}
+
+.section3 h3,
+p {
+  color: white;
+  line-height: 23px;
+  margin: 30px 0;
+}
+
+.section3 h2 {
+  color: white;
+  margin: 0 auto;
+}
+
+.section3 hr {
+  border: 2px solid white;
+  background-color: white;
+  border-radius: 2px;
+  margin-bottom: 30px;
+}
+
+.section3 .section-title {
+  width: 330px;
+}
+
+.section3 .content {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.section3 .aside-div-info {
+  width: 80%;
+}
+
+.aside-div {
+  width: 40%;
+  min-width: 330px;
+}
+
+.app-img {
+  width: 250px;
+}
+
+.white-logo {
+  height: 100px;
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translateX(-50%);
+  transform: translateY(-50%);
+}
