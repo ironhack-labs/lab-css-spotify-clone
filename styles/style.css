@@ -153,8 +153,21 @@ li {
   text-decoration: underline;
 }
 
-@media screen and (max-width 600px) {
-  body {
-    background-color: aqua;
+@media screen and (max-width: 600px) {
+  .navbar-flex {
+    display: flex;
+    flex-direction: column;
+  }
+
+  .background-image {
+    width: 100%;
+    margin-top: 110px;
+    margin-bottom: 50px;
+  }
+
+  .features-items {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
   }
 }
