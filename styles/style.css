@@ -6,3 +6,155 @@ Green: #00B172
 White: #FFF
 
 */
+h1 {
+  color: #fff;
+  font-size: 3rem;
+}
+.container {
+  display: flex;
+  flex-direction: column;
+}
+
+.navbar {
+  position: fixed;
+  left: 0;
+  right: 0;
+  top: 0;
+  background-color: white;
+}
+
+.navbar-flex {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+}
+
+#logo {
+  width: 200px;
+  height: 70px;
+}
+
+#menu {
+  display: flex;
+  flex-direction: row;
+  list-style-type: none;
+}
+
+li {
+  padding-right: 14px;
+  font-family: Verdana, Geneva, Tahoma, sans-serif;
+}
+
+.background-image {
+  width: 100%;
+  margin-top: 70px;
+  margin-bottom: 50px;
+}
+
+.concert-container {
+  position: relative;
+  text-align: center;
+  color: white;
+}
+.centered {
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+}
+.flex-col-center {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  margin: 10px;
+  padding: 5px;
+}
+
+.flex-col-center > h3 {
+  color: #00b172;
+}
+
+.features-items {
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+}
+
+.features-items p {
+  font-family: Verdana, Geneva, Tahoma, sans-serif;
+  color: grey;
+}
+
+.features-items img {
+  width: 100px;
+  height: 85px;
+}
+
+.grid-container {
+  display: grid;
+  grid-template-columns: 1fr 1fr 1fr;
+  background-color: #00b172;
+  grid-row-gap: 20px;
+  grid-column-gap: 20px;
+  padding: 32px;
+}
+.grid-item-1 {
+  grid-column-start: 1;
+  grid-column-end: 3;
+}
+
+.grid-item-2 {
+  grid-row-start: 2;
+  grid-row-end: 3;
+}
+
+.grid-item-3 {
+  grid-row-start: 3;
+  grid-row-end: 4;
+}
+
+.grid-item-4 {
+  grid-row-start: 4;
+  grid-row-end: 5;
+}
+
+.grid-item-5 {
+  grid-column-start: 2;
+  grid-column-end: 3;
+  grid-row-start: 2;
+  grid-row-end: 4;
+}
+
+.grid-item-6 {
+  grid-column-start: 3;
+  grid-row-start: 1;
+  grid-row-end: 5;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+#white-logo {
+  width: 20%;
+}
+
+#kanye {
+  width: 70%;
+}
+
+.grid-container h2,
+.grid-container h3,
+.grid-container p {
+  color: #fff;
+  font-family: Verdana, Geneva, Tahoma, sans-serif;
+}
+
+.grid-container h2 {
+  text-decoration: underline;
+}
+
+@media screen and (max-width 600px) {
+  body {
+    background-color: aqua;
+  }
+}
