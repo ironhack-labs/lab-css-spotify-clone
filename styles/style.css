@@ -3,6 +3,130 @@ Colors:
 
 Text: 1A1A1A
 Green: #00B172
-White: #FFF
+White: #FFF */
 
-*/
+
+* {
+  font-family: Open Sans;
+  color: #1A1A1A;
+}
+nav {
+  background-color: #fff;
+  height: 70px;
+  position: fixed;
+  top: 0;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 1.5rem;
+  font-size: 18px;
+  width: 97%;
+}
+
+nav > img {
+  height: 70%;
+}
+
+.navbar_menu {
+  list-style: none;
+  display: flex;
+  padding: 0;
+}
+
+.navbar_menu > li {
+  padding: 1rem;
+}
+
+.banner {
+  height: 50em;
+  background: url("../images/landing.jpg") no-repeat;
+  background-size: cover;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-content: center;
+}
+.banner * {
+  color: white;
+  text-align: center;
+  width: 70%;
+  position: relative;
+  left: 15%;
+}
+
+.banner > h1 {
+  font-size: 56px;
+}
+
+.banner > h2 {
+  font-weight: lighter;
+  font-size: 26px;
+}
+
+.details_img {
+  height: 8rem;
+}
+.details > h2 {
+  text-align: center;
+  margin: 1.5rem;
+}
+
+.details_box {
+  display: flex;
+  width: 70%;
+  justify-content: space-around;
+  align-content: center;
+  position: relative;
+  left: 15%;
+  gap: 1rem;
+}
+
+.details_box > article {
+  padding: 1.5rem;
+  flex: 1;
+  text-align: center;
+}
+
+.article_title {
+  font-weight: bolder;
+  color: #00B172;
+}
+
+.showcase {
+  background-color: #00B172;
+  padding: 1rem;
+
+}
+.showcase h2 {
+  color: #fff;
+  font-size: 26px;
+}
+
+#showcase_title {
+  margin: 2rem;
+  padding: 2rem 0 1rem 0;
+  border-bottom: 2px solid #fff;
+  width: 55%;
+  font-size: 52px;
+}
+
+.showcase p {
+  color: #fff;
+  font-size: 20px;
+}
+
+.showcase_content {
+  display: flex;
+  justify-content: space-around;
+  padding: 2rem;
+}
+.showcase_content > img {
+  height: 44rem;
+}
+.showcase_articles {
+  display: flex;
+  flex-direction: column;
+  justify-content: space-around;
+  height: 44rem;
+  width: 30%;
+}
