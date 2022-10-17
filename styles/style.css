@@ -7,12 +7,13 @@ White: #FFF
 
 */
 
-
+body {
+  margin: 0;
+}
 
 .pre-banner {
     display: flex;
-    width: 55%;
-    padding: 10px;
+    width: 100%;   
     height: 50px;
     justify-content: space-between;
     
@@ -34,18 +35,114 @@ White: #FFF
 
 
   .banner {
-    display: flex;
     height: 705px;
-    width: 8%;
+    width: 100%;
+    background-image: url(/images/landing.jpg);
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: center;
+    display: flex;
+    justify-content: center;
+    align-items: center;
 
   }
 
  .music-text {
-  position: absolute;
-  top: 35%;
-  left: 20%;
   color: white;
   text-align: center;
   line-height: 20px;
-  text-size-adjust: 40px;
  }
+
+
+ .grid-container{
+  display: grid;
+  grid-template-columns: 33% 33% 33%;
+  justify-content: center;
+  margin-bottom: 50px;
+  
+  
+}
+
+.grid-container img{
+  width: 80px;
+  
+}
+
+.card {
+  display: grid;
+  justify-items: center;
+
+}
+
+
+.grid-container h2 {
+  color: #00B172;;
+}
+
+
+.title-spotify {
+  width: 100%;
+  display: flex;
+  justify-content: center;
+
+}
+
+
+.title-spotify h1 {
+  border-bottom: 3px solid #00B172;
+  padding-bottom: 5px;
+  width: fit-content;
+  
+  
+}
+
+
+
+.grid-kanye {
+  background-color: #00B172;
+  background-size: cover;
+  background-repeat: no-repeat;
+  background-position: center;
+  display: grid;
+  grid-template-columns: 3fr 1fr 3fr;
+  padding-top: 20px;
+  padding-bottom: 20px;
+  
+  
+}
+
+
+.grid-kanye h1 {
+  color: white;
+  border-bottom: 3px solid white;
+  padding-bottom: 5px;
+  width: fit-content;
+ }
+
+.card-kanye {
+  color: white;
+}
+
+
+.spotify-logo-grid {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  
+  }
+
+
+.spotify-kanye-grid {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  
+  
+}
+
+
+.kayne-text {
+  display: flex;
+  flex-direction: column;
+  align-items: flex-end;
+}
