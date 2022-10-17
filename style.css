@@ -121,7 +121,52 @@ body {
     text-align: center;
 }
 
-/* RESPONSIVE DESIGN SECTION  */
+/* App uses and phone with opened app section */
+
+.app-uses-container {
+    justify-content: space-between;
+    align-items: center;
+    background-color: #06bf72;
+    background-image: url(./images/spotify-icon-white.png);
+    background-repeat: no-repeat;
+    background-position: 50% 50%;
+    background-size: 160px auto;
+    margin: 50px;
+    padding: 100px 120px;
+}
+
+.uses-description {
+    flex-direction: column;
+    justify-content: space-around;
+    color: white;
+}
+
+.app-img {
+    width: 400px;
+    height: auto;
+    padding-top: 30px;
+}
+
+.app-uses-header {
+    font-size: 3em;
+    border-bottom: 5px solid white;
+    line-height: 1.5em;
+    margin-top: 0;
+}
+
+.app-uses-title {
+    font-size: 2.2em;
+}
+
+.app-uses-text {
+    font-size: 2em;
+}
+
+.app-uses {
+    width: 450px;
+}
+
+/* -------------------- RESPONSIVE DESIGN SECTION --------------------  */
 
 @media (max-width: 575.98px) {
 
@@ -197,5 +242,37 @@ body {
 
     .characteristics {
         margin: 20px 0;
+    }
+
+    /* App uses and phone with opened app section */
+
+    .app-uses-container {
+        flex-direction: column;
+        margin: 15px;
+        padding: 30px;
+        background-position: 50% 98%;
+        background-size: 70px;
+    }
+
+    .app-img {
+        margin-bottom: 70px;
+        width: 300px;
+        height: auto;
+    }
+
+    .app-uses-header {
+        font-size: 1.6em;
+    }
+    
+    .app-uses-title {
+        font-size: 1.2em;
+    }
+    
+    .app-uses-text {
+        font-size: 1em;
+    }
+
+    .app-uses {
+        width: 300px;
     }
 }
