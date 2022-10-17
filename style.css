@@ -1,3 +1,7 @@
+* {
+    box-sizing: border-box;
+}
+
 body {
     margin: 0;
     font-family: Verdana, Geneva, Tahoma, sans-serif;
@@ -13,6 +17,7 @@ body {
     justify-content: space-between;
     align-items: center;
     width: 100vw;
+    height: 100px;
     padding: 20px 50px;
     background-color: white;
     position: fixed;
@@ -25,7 +30,7 @@ body {
 
 .header-logo-img {
     height: auto;
-    width: 300px;
+    width: 220px;
 }
 
 .navbar  {
@@ -35,7 +40,7 @@ body {
 .navbar a {
     text-decoration: none;
     margin-left: 35px;
-    font-size: 1.8em;
+    font-size: 1.6em;
     color: black;
 }
 
@@ -47,11 +52,11 @@ body {
     background-image: url(./images/landing.jpg);
     background-size: cover;
     width: 100%;
-    height: 100%
 }
 
 .landing-page-content {
-    height: 1150px;
+    height: 100vh;
+    padding-top: 175px;
     flex-direction: column;
     justify-content: center;
     align-items: center;
@@ -66,30 +71,71 @@ body {
 }
 
 .lading-page-text {
-    font-size: 2em;
+    font-size: 2.2em;
 }
 
 /* What's on Spotify section */
 
-.characteristics-img {
-    width: auto;
-    height: 40px;
+
+.app-characteristics {
+    flex-direction: column;
+    justify-content: space-around;
+    align-items: center;
+    margin-bottom: 50px;
 }
 
 
+.characteristics {
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    width: 350px;
+    margin: 50px 0;
+}
+
+.characteristics-container {
+    justify-content: space-evenly;
+    width: 100%;
+}
+
+.app-characteristics-title {
+    font-size: 3em;
+    border-bottom: 5px solid #06bf72;
+    line-height: 1.5em;
+    margin: 50px 0;
+}
+
+.characteristics-img {
+    width: auto;
+    height: 140px;
+}
+
+.characteristics-title {
+    color: #06bf72;
+    font-size: 2.2em;
+}
+
+.characteristics-text {
+    font-size: 2em;
+    font-weight: lighter;
+    text-align: center;
+}
 
 /* RESPONSIVE DESIGN SECTION  */
 
 @media (max-width: 575.98px) {
+
+    /* Header and landing page image section */
 
     .flex-column {
         flex-direction: column;
     }
 
     .header {
-        align-items: flex-start;
+        align-items: center;
         padding-top: 20px;
         padding-bottom: 10px;
+        height: 150px;
     }
 
     .navbar-container {
@@ -110,7 +156,6 @@ body {
     .landing-page-content {
         justify-content: center;
         align-items: center;
-        height: 750px;
         padding-top: 100px;
     }
 
@@ -123,4 +168,34 @@ body {
         font-size: 1.2em;
         padding: 10px 60px;
     } 
+
+    /* What's on Spotify section */
+
+    .characteristics-container {
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+    }
+
+    .app-characteristics-title {
+        font-size: 1.6em;
+        margin: 50px 0 30px 0;
+    }
+
+    .characteristics-title {
+        font-size: 1.2em;
+    }
+
+    .characteristics-text {
+        font-size: 1em;
+    }
+
+    .characteristics-img {
+        height: auto;
+        width: 80px;
+    }
+
+    .characteristics {
+        margin: 20px 0;
+    }
 }
