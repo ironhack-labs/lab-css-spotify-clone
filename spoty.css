@@ -1,0 +1,260 @@
+body {
+  font-family: system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+}
+.navbar {
+     display: flex;
+    justify-content: space-between;
+    background-color: white;
+}
+
+.logo-navbar {
+    height: 50px;
+    width: max-content;
+}
+
+.nav-ul {
+list-style-type: none;
+text-align: center;
+word-spacing: 50px;
+}
+
+.nav-li {
+    display: inline-block;
+    font-size: 20px;
+    word-spacing: 20px;
+    margin-right: 5px;
+}
+
+.land-image {
+  background-image: url(images/landing.jpg);
+  background-repeat: no-repeat;
+  background-size: cover;
+  width: 100%;
+  height: 100vh;
+  position: relative;
+}
+
+.landing-title {
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  color:#FFF;
+  text-align: center;
+ 
+}
+
+.motto {
+  font-size: 50px;
+  line-height: 150px;
+}
+
+h2 {
+  text-align: center;
+  font-size: 40px;
+}
+.wrapper {
+display: grid;
+grid-template-columns: 33% 33% 33%;
+justify-content: center;
+padding-bottom: 120px;
+width: 100%;
+margin-left: 100px;
+}
+
+.box-title {
+  color:#00B172;
+  font-weight: bolder;
+  line-height: 50px;
+}
+
+.box1 {
+  height: 250px;
+  width: 250px;
+  background-color: #FFF;
+  color: #1A1A1A;
+  text-align: center;
+  font-size: 20px;
+}
+
+.box2 {
+  height: 250px;
+  width: 250px;
+  background-color: #FFF;
+  color: #1A1A1A;
+  text-align: center;
+  font-size: 20px;
+}
+
+.box3 {
+  height: 250px;
+  width: 250px;
+  background-color: #FFF;
+  color: #1A1A1A;
+  text-align: center;
+  font-size: 20px;
+}
+
+.music-icon {
+  background-color:#FFF;
+  width: 100%;
+}
+
+.wave-icon {
+  background-color:#FFF;
+  width: 100%;
+  height: 210px;
+}
+
+.device-icon {
+  background-color:#FFF;
+  width: 100%;
+}
+
+.green-screen {
+  width: 100%;
+  height: 80vh;
+  background-color: #00B172;
+  display: flex;
+  justify-content: space-between;
+  position: relative;
+}
+
+p {
+  color: #FFF;
+  font-size: 20px;
+  margin-left: 100px;
+}
+
+.p-main-title {
+  font-size: 35px;
+  border-bottom: 2px solid #FFF;
+  line-height: 100px;
+  font-weight: bolder;
+}
+
+.p-title {
+  font-size: 18px;
+  font-weight: bold;
+  line-height: 80px;
+}
+.central-logo {
+height:200px;
+width: 200px;
+position:absolute;
+top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+ }
+.screen {
+  width: 300px;
+  height: 550px;
+  margin-top: 100px;
+  margin-right: 100px;
+}
+
+@media (max-width: 600px) {
+  .body {
+    width: 290px;
+    margin: 0px;
+  }
+  .navbar {
+    display:flex;
+    font-size: small;
+  }
+  .nav-li {
+    display: none;
+  }
+    .land-image {
+height: 45vh;
+background-size: 290px 400px;
+position: relative;
+margin-left: 0%;
+}
+
+.landing-title  {
+display: none;
+}
+.wrapper {
+  display: grid;
+  grid-template-columns: 1fr;
+  margin-left: 60px;
+}
+.motto {
+  font-size: 16px;
+  color: #FFF;
+  position: absolute;
+}
+
+h2 {
+  width: 200px;
+  font-size: 25px;
+  text-align: center;
+  margin-left: 40px;
+}
+
+.box1 {
+  height: 250px;
+  width: 150px;
+  background-color: #FFF;
+  color: #1A1A1A;
+  text-align: center;
+  font-size: 14px;
+}
+
+.box2 {
+  height: 250px;
+  width: 150px;
+  background-color: #FFF;
+  color: #1A1A1A;
+  text-align: center;
+  font-size: 14px;
+}
+
+.box3 {
+  height: 200px;
+  width: 150px;
+  background-color: #FFF;
+  color: #1A1A1A;
+  text-align: center;
+  font-size: 14px;
+}
+
+.wave-icon {
+  background-color:#FFF;
+  width: 100%;
+  height: 120px;
+}
+
+.green-screen {
+height: 150vh;
+background-size: 190px 400px;
+   background-color: #00B172;
+  display: flex;
+  flex-direction: column;
+}
+.central-logo {
+  height:100px;
+  width: 100px;
+  margin-left: -40px;
+   }
+
+   p {
+    color: #FFF;
+    font-size: 14px;
+    margin-left: 10px
+     }
+  
+  .p-main-title {
+    font-size: 20px;
+    border-bottom: 2px solid #FFF;
+    line-height: 100px;
+    font-weight: bolder;
+  }
+  
+  .p-title {
+    font-size: 18px;
+    font-weight: bold;
+    line-height: 80px;
+  }
+}
