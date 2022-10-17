@@ -14,7 +14,6 @@ body {
 .pre-banner {
     display: flex;
     width: 100%;   
-    height: 50px;
     justify-content: space-between;
     
 
@@ -23,6 +22,11 @@ body {
     display: flex;
     
   }
+
+.nav{
+  display: flex;
+  padding-right: 20px;
+}
   
 .container a {
     display: flex;
@@ -56,7 +60,7 @@ body {
 
  .grid-container{
   display: grid;
-  grid-template-columns: 33% 33% 33%;
+  grid-template-columns: 1fr 1fr 1fr;
   justify-content: center;
   margin-bottom: 50px;
   
@@ -107,8 +111,8 @@ body {
   grid-template-columns: 3fr 1fr 3fr;
   padding-top: 20px;
   padding-bottom: 20px;
-  
-  
+  margin-right: 100px;
+  margin-left: 100px;
 }
 
 
@@ -123,26 +127,59 @@ body {
   color: white;
 }
 
+.spotify-logo{
+  padding: 20px;
+}
+
+.spotify-logo img{
+  width: 150px;
+}
 
 .spotify-logo-grid {
   display: flex;
   align-items: center;
   justify-content: center;
-  
-  }
+}
+
+.spotify-logo-grid img{
+  width: 100px;
+}
 
 
 .spotify-kanye-grid {
   display: flex;
   align-items: center;
   justify-content: center;
-  
-  
+  margin-right: 100px;
 }
 
+.spotify-kanye-grid img{
+  width: 250px;
+}
 
-.kayne-text {
+.kayne-text-wrapper {
   display: flex;
   flex-direction: column;
   align-items: flex-end;
+}
+
+
+@media (max-width: 768px) {
+  .spotify-kanye-grid {
+    justify-content: center;
+  }
+
+  .kayne-text{
+    padding-left: 20px;
+  }
+
+  .grid-container{
+    grid-template-columns: 1fr;
+    gap: 50px;
+  }
+
+  .grid-kanye{
+    grid-template-columns: 1fr;
+    gap: 50px;
+  }
 }
