@@ -12,8 +12,11 @@ body {
 .header {
     justify-content: space-between;
     align-items: center;
+    width: 100vw;
     padding: 20px 50px;
     background-color: white;
+    position: fixed;
+    box-sizing: border-box;
 }
 
 .header-logo-container {
@@ -66,3 +69,58 @@ body {
     font-size: 2em;
 }
 
+/* What's on Spotify section */
+
+.characteristics-img {
+    width: auto;
+    height: 40px;
+}
+
+
+
+/* RESPONSIVE DESIGN SECTION  */
+
+@media (max-width: 575.98px) {
+
+    .flex-column {
+        flex-direction: column;
+    }
+
+    .header {
+        align-items: flex-start;
+        padding-top: 20px;
+        padding-bottom: 10px;
+    }
+
+    .navbar-container {
+        width: 100%;
+    }
+
+    .navbar {
+        margin-top: 20px;
+        padding: 0;
+        justify-content: space-around;
+    }
+
+    .navbar a {
+        margin-left: 0;
+        font-size: 1em;
+    }
+
+    .landing-page-content {
+        justify-content: center;
+        align-items: center;
+        height: 750px;
+        padding-top: 100px;
+    }
+
+    .landing-page-title {
+        padding-top: 120px;
+        font-size: 2em;
+    }
+
+    .lading-page-text {
+        font-size: 1.2em;
+        padding: 10px 60px;
+    } 
+}
