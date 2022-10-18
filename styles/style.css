@@ -6,3 +6,133 @@ Green: #00B172
 White: #FFF
 
 */
+* {
+    margin: 0px;
+    padding: 0px;
+}
+
+html{
+    font-family: sans-serif;
+    font-size: 10px;
+    font-weight: 300;
+}
+
+.navigation-bar-container{
+    display: flex;
+    justify-content:space-between;  
+}
+
+
+.navigation-bar>ul {
+    display: flex;
+    flex-direction:row;
+    justify-content: space-around;
+    width: 300px;
+    list-style: none;
+}
+
+*li{
+    font-size: 2rem;
+}
+.landing-view{
+    display:flex;
+    background-image: url(../images/landing.jpg);
+    justify-content: center;
+    align-items: center;
+    background-size: cover;
+    height:100vh; 
+    flex-direction: column;
+    margin-top: 10px;
+}
+
+h2{
+    font-size: 8rem;
+    color:#FFF;
+    font-weight: 300;
+}
+.landing-view>p{
+    font-size: 2.5rem;
+    color:#FFF;
+    font-weight: 100;
+    text-align: center;
+    margin: 50px;
+    font-stretch: expanded;
+}
+h3{
+    font-size: 3rem;
+    font-weight: 500;
+    text-align: center;
+    margin-top: 50px;
+}
+h4{
+    font-size: 2rem;
+    color:#00B172;
+}
+hr{
+    border-top: 2px solid #00B172 ;
+    margin-left: 600px;
+    margin-right: 600px;
+}
+.description-part{
+    display: flex;
+    justify-content:space-evenly;
+    flex-direction:row;
+    margin-top: 50px;
+}
+.description-inside-part{
+    display: flex;
+    flex:1;
+    justify-content:space-evenly;
+    flex-direction:column;
+    align-items: center;
+    /*border: 2px solid;*/
+    height: 200px;
+    margin: 20px;
+
+}
+p{
+    font-size: 1.5em;
+    font-weight: 100;
+    text-align: center;
+    line-height: 1.5; 
+    color: #1A1A1A ; 
+}
+.description-container{
+    background-color: #00B172;
+    height: 100vh;
+    display: flex;
+    flex:1;
+    justify-content:space-evenly;
+    align-items: center;
+    margin: 20px;
+    
+}
+
+.description {
+    display: flex;
+    flex-direction:column;
+    justify-content: space-evenly;
+    margin: 20px;
+    height: 80vh;
+    
+}
+.description>p{
+    font-size: 1.5em;
+    font-weight: 100;
+    text-align:left;
+    line-height: 1.5;
+    color: #FFF;
+    
+}
+.description>h3{
+    font-size: 3rem;
+    color:#FFF;
+    text-decoration: underline;
+    text-underline-offset: 10px;
+    text-decoration-color: white;
+    text-align: left;
+}
+.description>h4{
+    font-size: 2rem;
+    color:white;
+}
