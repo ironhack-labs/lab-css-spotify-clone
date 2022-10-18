@@ -6,3 +6,166 @@ Green: #00B172
 White: #FFF
 
 */
+body{
+    font-family: sans-serif;
+    margin: 0;
+    padding: 0;
+}
+
+img{
+    width: 100%;
+}
+header{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 10px 20px ;
+}
+header img{
+    width: 200px;
+}
+
+header  ul{
+    display: flex;
+    list-style: none;
+    font-size: 20px;
+    gap: 20px;
+}
+
+header ul a{
+text-decoration: none;
+color: #1A1A1A;
+}
+
+
+/* parte princepal */
+main{
+    background-image: url("../images/landing.jpg");
+    background-position: center;
+    height: 750px;
+   background-size: cover;
+   display: flex;
+   color: #FFF;
+   flex-direction: column;
+   align-items: center;
+   justify-content: center;
+   text-align: center;
+}
+main h1{
+  font-size: 60px;
+}
+main p{
+    font-size: 25px;
+    max-width: 45ch;
+}
+
+/* features */
+.features{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    gap: 40px;
+    
+}
+.features h2{
+font-size: 30px;
+position: relative;
+}
+.features h2::after{
+    position: absolute;
+    content: '';
+    height: 4px;
+    background-color: #00B172;
+    z-index: 9999;
+    left: 0;
+    right: 0;
+    top: 40px;
+}
+.features >div{
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+}
+
+.card{
+    /* width: 250px; */
+    
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    text-align: center;
+    justify-content:end;
+}
+
+.card figure{
+    max-width: 60%;
+
+}
+
+.card h3{
+    color: #00B172;
+    font-size: 25px;
+}
+
+
+
+/* info */
+.info{
+    background-color: #00B172;
+    margin: 20px;
+    display: flex;
+    color: #FFF;
+    justify-content: space-around;
+    padding: 20px;
+    align-items: center;
+    gap: 20px;
+    /* align-content:  */
+}
+
+.info-text{
+display: flex;
+flex-direction: column;
+width: 55%;
+
+
+}
+
+.info-text h2{
+    position: relative;
+    width: max-content;
+    font-size: 30px;
+}
+
+.info-text h2::after {
+    position: absolute;
+    content: '';
+    height: 4px;
+    background-color: #FFF;
+    z-index: 9999;
+    left: 0;
+    right: 0;
+    top: 40px;
+}
+
+.info-text-total{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    gap: 80px;
+}
+.info-text-left h3{
+    font-size: 25px;
+
+}
+.info-text-left p{
+    max-width: 57ch;
+    line-height: 1.5;
+}
+.info-text-right{
+    width: 20%;
+}
+
+.info-img {
+    width: 20%;
+}
+
