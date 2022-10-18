@@ -1,8 +1,135 @@
-/*
+/* 
 Colors:
 
 Text: 1A1A1A
 Green: #00B172
-White: #FFF
+White: #FFF */
 
-*/
+@import url('https://fonts.googleapis.com/css2?family=Open+Sans:wght@300;400;500;600;700;800&display=swap');
+
+* { 
+    font-family: 'Open Sans', sans-serif;
+}
+
+.logo{
+    width: 150px;
+    height: 50px;
+}
+
+.flex-spacebetween{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    
+  }
+
+
+.ml-10{
+    margin: 10px;
+}
+
+.nodeco{
+    list-style: none;
+    text-decoration: none; 
+}
+
+.img-body{
+    display: block;
+    margin-left: 20;
+    margin-right: 20;
+    width: 100%;
+}
+ 
+.title{
+    color: white;
+    text-align: center;
+    position: absolute;
+    top: 65%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    font-weight: bold;
+}
+
+.subtitle{
+    color: white;
+    text-align: center;
+    position: absolute;
+    top: 75%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    font-weight: normal;
+}
+
+.whatson > h2 {
+    text-decoration: underline;
+    text-decoration-color: #00B172;
+    text-underline-position: under;
+    text-align: center;
+}
+
+.music-title{
+    color:#00B172;
+    font-weight: bold;
+    text-align: center;
+}
+
+.container-box{ 
+    display: flex;
+    justify-content: space-between;
+    justify-content: center;
+
+}
+
+.music-box{
+
+
+}
+
+.music-image{
+    width: 25%;
+    padding-left: 170px;
+}
+
+.container-box p {
+    justify-content: center;
+    display: flex;
+}
+
+.container-box{
+    align-items: center;
+    justify-content: center;
+    display: flex;
+}
+
+.kanyeshow{
+    background-color: #00B172;
+    color:white;
+    background-image: url(/images/spotify-icon-white.png);
+    background-size: 80px;
+    background-repeat: no-repeat;
+    background-position: 50%;
+    padding: 40px;
+
+}
+.kanyeshow p{
+    text-align: left;
+    width: 250px;
+
+}
+
+.spotify-app{
+    float: right;
+    width: 15%;
+    padding: 40px;
+}
+
+.presentation{
+    text-decoration: underline;
+    text-decoration-color: white;
+    text-underline-position: under;
+
+}
+
+.kanye-promo{
+    font-weight: bold;
+}
