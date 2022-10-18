@@ -6,3 +6,135 @@ Green: #00B172
 White: #FFF
 
 */
+* {
+    padding: 0;
+    margin: 0;
+}
+
+body {
+    font: 200 16px/1.5 "Helvetica Neue", Helvetica, Arial, sans-serif;
+}
+
+.nav-bar {
+    display: flex;
+    justify-content: space-between;
+    padding: 10px 20px;
+    align-items: center;
+    position: fixed;
+    width: calc(100vw - 40px);
+    top: 0;
+    z-index: 9999;
+    left: 0;
+    background: #FFF;
+}
+
+.spotify-logo {
+    width: 150px;
+}
+
+.list-nav {
+    display: flex;
+    list-style: none;
+}
+
+.list-nav li {
+    padding: 10px;
+}
+
+.list-nav li a {
+    color: #1A1A1A;
+    text-decoration: none;
+    text-transform: capitalize;
+
+}
+
+.main-banner {
+    position: relative;
+    margin-top: 65.016px;
+    background: url(../images/landing.jpg) no-repeat;
+    height: calc(100vh - 65.016px);
+    width: 100vw;
+    background-size: cover;
+    color: #FFF;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+
+}
+
+.main-banner h1 {
+    font-size: 4em;
+    font-weight: normal;
+}
+
+.main-banner p {
+    font-size: 22px;
+}
+
+.info-spotify h2 {
+    text-align: center;
+    padding: 25px;
+    font-size: 40px;
+}
+
+.on-spotify {
+    display: flex;
+    align-items: baseline;
+    justify-content: center;
+}
+
+.on-spotify img {
+    width: 140px;
+}
+
+.on-spotify div:nth-child(2) img {
+    width: auto;
+    height: 119.042px;
+}
+.on-spotify div {
+    text-align: center;
+    margin: 40px 100px;
+}
+.on-spotify div h3{
+    color: #00B172;
+    margin-top: 5px;
+    font-size: 28px;
+}
+.on-spotify div p {
+    font-size: 24px;
+    margin-top:5px;
+}
+.kanye-west {
+    background-color: #00B172 ;
+}
+.kanye-colum{
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+    padding:20px 50px;
+}
+.kanye-colum div{
+    width: 410px;
+    color: #FFF;
+}
+.kanye-colum div h2{
+    font-size: 30px;
+    text-decoration: underline;
+}
+.kanye-colum div h3 {
+    font-size: 20px;
+    margin-top:20px;
+    text-transform: capitalize;
+    margin-bottom: 20px;
+}
+
+.kanye-colum img:nth-child(2){
+    width: 150px;
+    margin: 20px 50px;
+}
+.kanye-colum img:nth-child(3){
+    width: 300px;
+    margin: 20px 50px;
+}
+       
