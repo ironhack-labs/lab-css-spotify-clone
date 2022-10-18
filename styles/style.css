@@ -57,7 +57,7 @@ ul a {
 }
 
 main {
-  margin-top: 4rem;
+  /* margin-top: 7rem; */
 }
 
 .hero {
@@ -68,7 +68,8 @@ main {
   background: url("../images/landing.jpg") center no-repeat;
   background-size: cover;
   min-height: 450px;
-  height: calc(100vh - 4rem);
+  /* height: calc(100vh - 4rem); */
+  height: 100vh;
   color: white;
 }
 
@@ -140,115 +141,54 @@ main {
   width: 60%;
 }
 
-@media only screen and (max-width: 800px) {
-  header {
-    display: flex;
-    justify-content: space-between;
-    align-items: center;
-    position: fixed;
-    top: 0;
-    left: 0;
-    right: 0;
-    background-color: white;
-    height: 4rem;
-  }
+.testimonials {
+  background: url("../images/spotify-icon-white.png") center no-repeat;
+  background-size: 9.5rem;
+  background-color: var(--spotify-green);
+  margin: 2.5em;
+  color: white;
+  display: flex;
+  justify-content: space-around;
+}
 
-  header img {
-    height: 40px;
-  }
+.col-text,
+.col-image {
+  padding: 3rem;
+}
 
-  header ul {
-    display: flex;
-    margin-right: 0;
-  }
+.col-text {
+  flex: 2;
+  margin-left: 7rem;
+}
 
-  ul a {
-    text-decoration: none;
-    color: inherit;
-    padding: 1rem 0.7rem;
-    margin-right: 0.2rem;
-    font-size: 0.9rem;
-    font-weight: 500;
-  }
+.col-text h4 {
+  font-size: 2.2rem;
+  font-weight: 600;
+  letter-spacing: 1.4;
+  display: inline-block;
+  border-bottom: 3px solid white;
+  padding-bottom: 0.4rem;
+}
 
-  main {
-    margin-top: 3.5rem;
-  }
+.col-text h5 {
+  font-size: 2.1rem;
+  font-weight: 600;
+  margin: 0;
+}
 
-  .hero {
-    display: flex;
-    flex-direction: column;
-    justify-content: center;
-    align-items: center;
-    background: url("../images/landing.jpg") center no-repeat;
-    background-size: cover;
-    height: 450px;
-    color: white;
-  }
+.col-text p {
+  font-size: 1.6rem;
+  font-weight: 300;
+  margin: 2rem 40% 3rem 0;
+}
 
-  .hero h1 {
-    font-size: 2.5rem;
-    font-weight: 500;
-    margin-bottom: 0.02em;
-  }
+.col-image {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
 
-  .hero p {
-    width: 60%;
-    text-align: center;
-    font-weight: 300;
-  }
-
-  .agenda {
-    display: flex;
-    flex-direction: column;
-    justify-content: center;
-    align-items: center;
-  }
-  
-  .agenda h2 {
-    font-size: 1.2rem;
-    font-weight: 550;
-    border-bottom: 3px solid var(--spotify-green);
-    padding: 0.1rem 0;
-    margin-top: 1.5rem;
-  }
-  
-  .agenda .box-container {
-    display: flex;
-    flex-direction: row;
-    justify-content: space-around;
-    align-items: baseline;
-    width: 85%;
-  }
-  
-  .box {
-    display: flex;
-    flex-direction: column;
-    justify-content: center;
-    align-items: center;
-  
-    width: 40%;
-    padding: 1.2rem;
-  }
-  
-  .box img {
-    width: 4.5rem;
-    padding: 0.2rem 0;
-    align-self: center;
-  }
-  
-  .box h3 {
-    color: var(--spotify-green);
-    font-weight: 400;
-    font-size: 0.95rem;
-    font-weight: 700;
-    margin-top: 0;
-  }
-  
-  .box p {
-    font-size: 0.8rem;
-    font-weight: 300;
-    text-align: center;
-    /* width: 40%; */
-  }
+.col-image img {
+  width: 52%;
+  height: auto;
 }
