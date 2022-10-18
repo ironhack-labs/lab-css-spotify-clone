@@ -1,4 +1,4 @@
-@import url('https://fonts.googleapis.com/css2?family=Montserrat:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,500;1,600;1,700;1,800;1,900&display=swap');
+@import url("https://fonts.googleapis.com/css2?family=Montserrat:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,500;1,600;1,700;1,800;1,900&display=swap");
 /*
 Colors:
 
@@ -6,11 +6,17 @@ Text: 1A1A1A
 Green: #00B172
 White: #FFF
 
+
+
 */
+:root {
+  --spotify-green: #00b172;
+}
+
 body {
   margin: 0;
   padding: 0;
-  font-family: 'Montserrat', sans-serif;
+  font-family: "Montserrat", sans-serif;
 }
 
 ul {
@@ -28,27 +34,30 @@ header {
   right: 0;
   padding: 0.1rem 0.5rem;
   background-color: white;
-  height: 3.5rem;
+  height: 7rem;
 }
 
 header img {
-  height: 40px;
+  height: 80px;
+  margin: 1rem 1.5rem;
 }
 
 header ul {
   display: flex;
+  margin-right: 1.5rem;
 }
 
 ul a {
   text-decoration: none;
   color: inherit;
   padding: 1rem 0.7rem;
-  font-size: 0.9rem;
-  font-weight: 500;
+  font-size: 1.5rem;
+  font-weight: 400;
+  margin-right: 0.8rem;
 }
 
 main {
-  margin-top: 3.5rem;
+  margin-top: 4rem;
 }
 
 .hero {
@@ -56,20 +65,142 @@ main {
   flex-direction: column;
   justify-content: center;
   align-items: center;
-  background: url('../images/landing.jpg') center no-repeat;
+  background: url("../images/landing.jpg") center no-repeat;
   background-size: cover;
-  height: 450px;
+  min-height: 450px;
+  height: calc(100vh - 4rem);
   color: white;
 }
 
 .hero h1 {
-  font-size: 2.5rem;
-  font-weight: 500;
-  margin-bottom: 0.02em;
+  font-size: 5.5rem;
+  font-weight: 600;
+  margin-bottom: 0.06em;
 }
 
 .hero p {
   width: 60%;
   text-align: center;
+  font-size: 1.7rem;
   font-weight: 300;
+}
+
+.agenda {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+
+.agenda h2 {
+  font-size: 1.2rem;
+  font-weight: 550;
+  border-bottom: 3px solid var(--spotify-green);
+  padding: 0.1rem 0;
+  margin-top: 1.5rem;
+}
+
+.agenda .box-container {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-around;
+  align-items: baseline;
+  width: 85%;
+}
+
+.box {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+
+  width: 40%;
+  padding: 1.2rem;
+}
+
+.box img {
+  width: 4.5rem;
+  padding: 0.2rem 0;
+  align-self: center;
+}
+
+.box h3 {
+  color: var(--spotify-green);
+  font-weight: 400;
+  font-size: 0.95rem;
+  font-weight: 700;
+  margin-top: 0;
+}
+
+.box p {
+  font-size: 0.8rem;
+  font-weight: 300;
+  text-align: center;
+  /* width: 40%; */
+}
+
+@media only screen and (max-width: 800px) {
+  header {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    position: fixed;
+    top: 0;
+    left: 0;
+    right: 0;
+    background-color: white;
+    height: 4rem;
+  }
+
+  header img {
+    height: 40px;
+  }
+
+  header ul {
+    display: flex;
+    margin-right: 0;
+  }
+
+  ul a {
+    text-decoration: none;
+    color: inherit;
+    padding: 1rem 0.7rem;
+    margin-right: 0.2rem;
+    font-size: 0.9rem;
+    font-weight: 500;
+  }
+
+  main {
+    margin-top: 3.5rem;
+  }
+
+  .hero {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    background: url("../images/landing.jpg") center no-repeat;
+    background-size: cover;
+    height: 450px;
+    color: white;
+  }
+
+  .hero h1 {
+    font-size: 2.5rem;
+    font-weight: 500;
+    margin-bottom: 0.02em;
+  }
+
+  .hero p {
+    width: 60%;
+    text-align: center;
+    font-weight: 300;
+  }
+
+  .agenda {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+  }
 }
