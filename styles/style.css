@@ -6,3 +6,140 @@ Green: #00B172
 White: #FFF
 
 */
+* {
+    margin: 0;
+    padding: 0;
+}
+
+.navbar {
+    display: flex;
+    position: fixed;
+    height: 115px;
+    margin-bottom: 10px;
+    top: 0;
+    width: 100%;
+    background-color: white;
+}
+
+.navbar-img {
+    height: 63px;
+    width: 210px;
+    margin: 25px 1250px 0 50px;
+}
+
+.nav-list {
+    display: flex;
+    height: 100%;
+    width: 500px;
+    align-items: center;
+    justify-content: space-between;
+}
+
+.nav-list li {
+    list-style: none;
+}
+
+.nav-list li a {
+    text-decoration: none;
+    font-size: 26px;
+    color: #000;
+}
+
+.hero {
+    margin-top: 120px;
+    background-image: url(../images/landing.jpg);
+    background-size: contain;
+    height: 90vh;
+    text-align: center;
+}
+
+.sub-hero {
+    padding: 400px 650px;
+}
+
+.sub-hero h1 {
+    color: white;
+    font-size: 84px;
+    width: 800px;
+    margin-bottom: 30px;
+}
+
+.sub-hero p {
+    color: white;
+    font-size: 35px;
+    width: 800px;
+}
+
+.first-section {
+    text-align: center;
+}
+
+.first-section h2 {
+    font-size: 45px;
+    text-decoration: underline;
+    text-underline-offset: 18px;
+    margin: 75px;
+    text-decoration-color: #0cb97d;
+}
+
+.items {
+    display: flex;
+    justify-content: space-around;
+}
+
+.items img {
+    height: 100px;
+}
+
+.items h3,
+p {
+    font-size: 40px;
+}
+
+.items h3 {
+    color: #0cb97d;
+}
+
+.items p {
+    width: 375px;
+    margin-top: 25px;
+}
+
+.yeezy {
+    background-color: #0cb97d;
+    margin: 50px;
+    height: 90vh;
+    background-image: url(../images/spotify-icon-white.png);
+    background-repeat: no-repeat;
+    background-size: 250px;
+    background-position: center;
+}
+
+.yeezy h4 {
+    font-size: 52px;
+    color: white;
+    text-decoration: underline;
+    text-underline-offset: 18px;
+    text-decoration-color: white;
+    padding: 75px 0 0 45px;
+}
+
+.yeezy h5 {
+    font-size: 40px;
+    color: white;
+    margin: 75px 0 0 45px;
+}
+
+.yeezy p {
+    font-size: 26px;
+    color: white;
+    margin: 75px 0 0 45px;
+    width: 351px;
+}
+
+.spotify-android {
+    position: absolute;
+    top: 1901px;
+    height: 750px;
+    left: 1400px;
+}
