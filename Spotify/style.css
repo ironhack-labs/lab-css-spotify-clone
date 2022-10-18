@@ -1,0 +1,362 @@
+@import url('https://fonts.googleapis.com/css2?family=Roboto:wght@100&display=swap');
+
+body{
+    margin: 0;
+    font-family: arial;
+}
+
+/* ------------------------- Header ------------------------- */
+
+header{
+    width: 100%;
+    display: flex;
+    justify-content: space-between;
+}
+
+header > img{
+    width: 10%;
+    padding: 10px 0px 10px 30px;
+}
+
+.menu{
+    display: flex;
+    align-items: center;
+}
+
+.menu > span{
+    margin-right: 40px;
+}
+
+.menu > span > a{
+    text-decoration: none;
+    color: black;
+    font-weight: 100;
+}
+
+/* ------------------------- Landing ------------------------- */
+
+
+.landing{
+    width: 100%;
+    height: 800px;
+    background-image: url(img/landing.jpg);
+    background-position: center;
+    background-size: 100%;
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+    text-align: center;
+    justify-content: center;
+    align-items: center;
+    display: flex;
+    flex-direction: column;
+}
+
+.landing > h1{
+    color: white;
+    font-size: 4em;
+}
+
+.landing > p{
+    color: white;
+    font-size: 1.5em;
+    margin-top: -20px;
+}
+
+
+/* ------------------------- Sección 1 ------------------------- */
+
+
+.seccion-Blocks{
+    width: 100%;
+    text-align: center;
+    justify-content: center;
+    align-items: center;
+    display: flex;
+    flex-direction: column;
+    padding: 0px 0px 58px 0px;
+}
+
+.seccion-Blocks > h2{
+    justify-content: center;
+    font-weight: 100;
+    font-size: 2.3em;
+    border-bottom: 3px solid #21B26E;
+}
+
+.div-Blocks{
+    display: flex;
+    justify-content: space-evenly;
+    margin-top: 50px;
+}
+
+.block > img{
+    width: 50%;
+}
+
+.block{
+    width: 10%;
+}
+
+.block > h3{
+    color: #21B26E;
+    font-size: 1.2em;
+}
+
+.block > p{
+    font-weight: 100;
+}
+
+.sepa{
+    margin-top: 30px;
+}
+
+.sepa2{
+    margin-top: 20px;
+}
+
+
+
+/* ------------------------- Footer ------------------------- */
+
+footer{
+    width: 100%;
+    display: flex;
+    justify-content: center;
+}
+
+.foot{
+    width: 80%;
+    height: 700px;
+    background-color: #21B26E;
+    display: flex;
+    padding: 77px 100px 0px 100px;
+}
+
+.foot > .foot-block-left > h2{
+    font-weight: 100;
+    font-size: 2.3em;
+    border-bottom: 3px solid #21B26E;
+    color: white;
+    border-bottom: 3px solid #ffffff;
+    height: 48px;
+    width: 469px;
+}
+
+.foot-block-left{
+    width: 55%;
+    /*background-color: red;*/
+    display: flex;
+    flex-direction: column;
+}
+
+.block-text{
+    width: 100%;
+    display: flex;
+    /*background-color: yellow;*/
+}
+.left-text{
+    width: 40%;
+}
+
+.left-text > div > h4{
+    color: white;
+    font-size: 1.5em;
+    font-weight: 500;
+}
+
+.left-text > div > p{
+    color: white;
+    font-weight: 100;
+    margin-top: -10px;
+    font-family: 'Roboto', sans-serif !important;
+}
+.left-text > div{
+    margin-bottom: 50px;
+}
+
+.right-text{
+    width: 60%;
+    display: flex;
+    justify-content: flex-end;
+    align-items: center;
+}
+
+.right-text > img{
+    width: 100px;
+}
+
+.foot-block-right{
+    width: 50%;
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+    align-items: flex-end;
+}
+
+.foot-block-right > img{
+    width: 45%;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+/* -------------------------------- Media Query ------------------------------------ */
+
+@media only screen and (max-width: 900px) and (min-width: 700px)  {
+    /* --------------  Landing ----------------*/
+    .landing {
+        width: 100%;
+        height: 503px;
+        background-image: url(img/landing.jpg);
+        background-position: top;
+        background-size: 100%;
+        background-repeat: no-repeat;
+        background-attachment: fixed;
+        text-align: center;
+        justify-content: center;
+        align-items: center;
+        display: flex;
+        flex-direction: column;
+    }
+
+    /* --------------  Seccion 1 ----------------*/
+    .block {
+        width: 23%;
+    }
+
+    /* --------------  footer ----------------*/
+    .left-text {
+        width: 79%;
+    }
+
+    .foot-block-right > img {
+        width: 70%;
+    }
+    
+}
+
+
+@media only screen and (max-width: 700px) {
+    /* --------------  Header ----------------*/
+    header > img {
+        width: 24%;
+        padding: 10px 9px 10px 0px;
+    }
+    header {
+        width: 100%;
+        display: flex;
+        justify-content: space-between;
+        flex-direction: column;
+        align-items: center;
+    }
+    .menu > span {
+        margin-right: 0px;
+        padding: 0px 10px;
+    }
+
+    /* --------------  Landing ----------------*/
+
+    .landing {
+        width: 100%;
+        margin-top: 6px;
+        height: 196px;
+        background-image: url(img/landing.jpg);
+        background-position: top;
+        background-size: 100%;
+        background-repeat: no-repeat;
+        background-attachment: fixed;
+        text-align: center;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        flex-direction: column;
+    }
+
+    .landing > h1 {
+        color: white;
+        font-size: 2em;
+    }
+
+    .landing > p {
+        color: white;
+        font-size: 0.8em;
+        margin-top: -12px;
+    }
+
+    /* --------------  Seccion 1 ----------------*/
+
+    .div-Blocks {
+        display: flex;
+        margin-top: 50px;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+    }
+
+    .block {
+        width: 50%;
+    }
+
+    /* --------------  footer ----------------*/
+
+    .foot > .foot-block-left > h2 {
+        font-weight: 100;
+        font-size: 1.5em;
+        border-bottom: 3px solid #21B26E;
+        color: white;
+        border-bottom: 3px solid #ffffff;
+        height: 32px;
+        width: 306px;
+    }
+
+    .foot-block-right {
+        display: none;
+    }
+    .right-text > img {
+        /* width: 100px; */
+        display: none;
+    }
+    .foot-block-left {
+        width: 100%;
+        /* background-color: red; */
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+    }
+    .right-text {
+        display: none;
+    }
+    .left-text {
+        width: auto;
+    }
+    .block-text {
+        width: 100%;
+        display: flex;
+        justify-content: center;
+    }
+    .foot {
+        width: 100%;
+        height: 605px;
+        background-color: #21B26E;
+        display: flex;
+        padding: 0; 
+    }
+
+    header {
+        width: 100%;
+        display: flex;
+        justify-content: space-between;
+        flex-direction: column;
+    }
+  }
+
+
+
