@@ -6,3 +6,163 @@ Green: #00B172
 White: #FFF
 
 */
+:root {
+	color: #1a1a1a;
+	--green: #00b172;
+	font-family: "Gill Sans", "Gill Sans MT", Calibri, "Trebuchet MS", sans-serif;
+}
+
+body {
+	margin: 0;
+	padding: 0;
+}
+
+nav,
+section {
+	margin: 1em 2em;
+}
+
+nav {
+	display: flex;
+	justify-content: space-between;
+}
+
+nav ul {
+	flex-grow: 1;
+
+	display: flex;
+	list-style-type: none;
+	justify-content: space-around;
+}
+
+nav li {
+	font-size: 36px;
+	font-weight: 100;
+}
+
+nav li a {
+	cursor: pointer;
+	text-decoration: none;
+	color: #1a1a1a;
+}
+
+nav > div {
+	flex-grow: 2;
+}
+
+nav img {
+	height: 80px;
+	object-fit: scale-down;
+}
+
+main {
+	color: white;
+	position: relative;
+}
+
+.hero-text {
+	position: absolute;
+	left: 50%;
+	top: 50%;
+	transform: translate(-50%, -50%);
+
+	text-align: center;
+	white-space: nowrap;
+	font-size: 2.5em;
+	font-weight: 100;
+}
+
+.hero-text h1 {
+	font-size: 2.7em;
+	font-weight: normal;
+}
+
+.hero-img img {
+	height: 100vh;
+	width: 100%;
+	object-fit: cover;
+}
+
+.features {
+	text-align: center;
+}
+
+.features h2 {
+	display: inline-block;
+	font-size: 3em;
+	font-weight: 600;
+	border-bottom: 5px solid var(--green);
+}
+
+.feature-container {
+	display: flex;
+	font-size: 2em;
+	justify-content: space-around;
+	margin-top: 2em;
+}
+
+.feature-items {
+	flex: 1 1 0;
+	max-width: 320px;
+}
+
+.feature-items img {
+	height: 100px;
+	object-fit: scale-down;
+}
+
+.feature-items h3 {
+	font-weight: bold;
+	color: var(--green);
+}
+
+.feature-items p,
+.app p {
+	font-weight: 100;
+}
+
+.app {
+	color: white;
+	background-color: var(--green);
+	font-size: 2em;
+	display: flex;
+	padding: 3em;
+}
+
+.app-features-container {
+	display: flex;
+	align-items: center;
+	justify-content: center;
+	flex: 2 1 0;
+}
+
+.app-features {
+	flex: 2 1 0;
+}
+
+.app-features p {
+	max-width: 430px;
+}
+
+.app-logo {
+	flex: 1 1 0;
+}
+
+.app h2 {
+	margin: 0;
+	display: inline-block;
+	padding: 5px 0;
+	border-bottom: 5px solid white;
+	white-space: nowrap;
+}
+
+.app-logo img {
+	height: 130px;
+	object-fit: scale-down;
+}
+
+.app aside img {
+	padding: 2em;
+	width: 360px;
+	object-fit: scale-down;
+}
