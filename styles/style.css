@@ -1,8 +1,137 @@
-/*
-Colors:
 
-Text: 1A1A1A
-Green: #00B172
-White: #FFF
+@font-face { font-family: Spot; src: url('../GothamLight.ttf'); } 
 
-*/
+body {
+    color: #1A1A1A;
+    margin: 0;
+    padding: 0;
+    font-family: Spot;
+    text-align: center;
+    
+}
+
+header {
+    display: flex;
+    justify-content: space-between;
+    margin: 20px 40px;
+}
+
+#logo-img {
+    width: 200px;
+    height: auto;
+}
+
+button {
+    all: unset;
+}
+
+button:hover {
+    color: blue;
+}
+
+#btn-container {
+    width: 300px;
+    display: flex;
+    justify-content: space-between;
+}
+
+#img-intro {
+    width: 100%;
+    height: auto;  
+}
+
+#section-one { 
+    color: white;
+    position: relative;
+}
+
+h1 {
+    font-size: 60px;
+    font-weight: bolder;
+    position: absolute;
+    top: 35%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    font-weight: bold;
+}
+
+ #introduction {
+    line-height: 30px;
+    font-size: 22px;
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    font-weight: normal; 
+}
+
+h3 {
+    font-weight: bolder;
+    font-size: 30px;
+    text-decoration: underline; 
+    text-decoration-color: #00B172;
+    text-underline-position: under;
+}
+
+.img-icon{
+    width: 100px;
+    height: 100px;
+}
+
+.green-title {
+    color: #00B172;
+    font-size: 26px;
+    font-weight: bold;
+}
+
+.icon-text {
+    font-size: 18px;
+    width: 250px;
+}
+
+#section-two {
+    display: flex;
+    justify-content: space-around;
+    
+}
+
+#last-title {
+    font-weight: bolder;
+    font-size: 30px;
+    text-decoration: underline; 
+    text-decoration-color: white;
+    text-underline-position: under;
+    margin-top: 0;
+}
+
+#last-section {
+    background-color: #00B172;
+    display: flex;
+    margin: 50px 30px 0 30px;
+    justify-content: space-between;
+    padding: 50px 80px;
+    text-align: left;
+    color: white;
+    background-image: url(../images/spotify-icon-white.png);
+    background-size: 150px;
+    background-repeat: no-repeat;
+    background-position: 50%;
+}
+
+#last-img {
+    width: 300px;
+    height: auto;    
+}
+
+.last-subtitle {
+    font-weight: bolder;
+    font-size: 24px;
+    margin-top: 40px;
+}
+
+.last-text {
+    font-size: 18px;
+    width: 295px;
+    line-height: 25px;
+    margin-top: 30px;
+}
