@@ -1,3 +1,6 @@
+@import url('https://fonts.googleapis.com/css2?family=Open+Sans:wght@500&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Open+Sans:wght@300&display=swap');
+
 /*
 Colors:
 
@@ -6,3 +9,198 @@ Green: #00B172
 White: #FFF
 
 */
+
+*{
+    padding: 0;
+    margin: 0;
+}
+:root{
+    font-family: 'Open Sans';
+    font-weight: 400;
+    font-size: 16px;
+    color: #1A1A1A;
+
+}
+
+h1{
+    font-size: 4rem;
+    font-weight: 500;
+    color: #fff;
+    text-align: center;
+
+}
+
+h2{
+    font-size: 2rem;
+    color: #fff;
+    text-align: center;
+    font-weight: 1
+;
+}
+
+h3{
+    font-size: 1.75rem;
+    font-weight: 600;
+}
+
+h4{
+    font-size: 1.5rem;
+    font-weight: 500;
+    color: #fff;
+}
+
+a{
+    text-decoration: none;
+    font-size: 1rem;
+    color: #000;    
+}
+
+/* navigator */
+.landingContainer {
+    margin: 0;
+    padding: 0;
+    flex: 1;
+}
+
+#presentHeader {
+    padding: 10px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+#menuLinks {
+    margin-right: 50px;
+    width: 400px;
+    display: flex;
+    justify-content: space-between;
+}
+
+#logo img {
+    margin-left: 20px;
+    width: 150px;
+}
+/* navigator */
+
+/* Secion 1 */
+#specialLanding {
+    height: 900px;
+    width: 100vw;
+    background-image: url("../images/landing.jpg");
+    background-repeat: no-repeat;
+    background-position: 0 0;
+    background-size: 100vw 100vh;
+    padding-top: 50px;
+    position: relative;
+    display: flex;
+    flex-flow: column;
+    justify-content:center;
+}
+
+#landingText {
+    height: 30%;
+}
+/* Section 1 */
+
+/* Section 2 */
+.service {
+    margin-top: 50px;
+    text-align: center;
+}
+
+
+.brace {
+    margin: 50px 0px 50px;
+    display: flex;
+    flex-direction: column;
+    justify-items: center;
+    align-content: center;
+    text-align: center;
+}
+
+.brace img {
+    width: 150px;
+    height: 150px;
+    align-self: center;
+    justify-self: center;
+}
+
+.brace h4 {
+    color: #00B172;
+    text-align: center;
+}
+
+
+#offerings {
+    display: flex;
+    flex: 1;
+    justify-content: space-around;
+    align-content: center;
+}
+
+.serviceInfo {
+    margin-top: 25px;
+}
+/* Section 2 */
+
+
+/* Section 3 */
+#pitch {
+    margin-left: 5vw;
+    margin-right: 5vw;
+    padding-top: 5vh;
+    padding-bottom: 5vh;
+    padding-left: 5vw;
+    padding-right: 5vw;
+    background-color: #00B172;
+    color: #fff; 
+    display: flex;
+    flex: 1;
+    align-content: space-between;
+    justify-content: space-between;
+    background-image: url(../images/spotify-icon-white.png
+    );
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: 100px
+    ;
+}
+
+#pitchText, #logoIcon, #appScreen {
+    width: 25vw;
+}
+
+#pitchText {
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+}
+#pitchHead h3 {
+    border-bottom: 2px solid #fff;
+    padding-bottom: 5px;
+}
+
+.pitchAct {
+    margin-bottom: 50px;
+}
+
+/*#logoIcon img{
+    width: 10vw;
+    text-align: center;
+    align-content: center;
+    justify-content: center;
+}
+JUST GO TO THE GODDAMN CENTER:::GEEZ!!!*/
+
+#logoIcon {
+    display: flex;
+    align-self: center;
+    justify-self: center;
+}
+#appScreen img{
+    width: 25vw;
+}
+#appScreen {
+    align-self: flex-end;
+}
+/* Section 3 */
