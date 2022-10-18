@@ -6,3 +6,115 @@ Green: #00B172
 White: #FFF
 
 */
+h1, body, html, main {
+    margin: 0;
+  }
+html {
+    font-family: 'Open Sans', sans-serif;
+    font-size: 18px;
+    font-weight: 100;
+}
+
+header {
+    position: fixed;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    width: 100%;
+    height: 50px;
+    padding: 10px 20px;
+    background-color: #fff;
+    z-index: 1;
+}
+.header-logo {
+    height: 50px;
+}
+.navbar {
+    width: 40%;
+}
+.navbar-list {
+    display: flex;
+    padding: 0;
+    list-style: none;
+    font-size: .8rem;
+}
+.navbar-list li {
+    flex: 1;
+}
+.navbar-list li a {
+    text-decoration: none;
+    color: inherit;
+}
+
+.hero {
+    position: relative;
+    top: 70px;
+    text-align: center;
+    color: #FFF;
+}
+.hero-text {
+    position: absolute;
+    top: 50%;
+    width: 100%;
+    text-align: center;
+}
+.hero-text h1 {
+    font-size: 4rem;
+    font-weight: 100;
+}
+.hero-text p {
+    width: 60%;
+    margin: 20px auto;
+    font-size: 1.3rem;
+}
+.hero img {
+    width: 100%;
+}
+
+.features h2 {
+    width: 100%;
+    text-align: center;
+    text-decoration: underline;
+    text-decoration-color: #00B172;
+    text-underline-offset: .5em;
+}
+.features-list {
+    display: flex;
+    justify-content: space-between;
+    margin: 70px;
+    text-align: center;
+}
+.features-list article {
+    flex: 1;
+    padding: 30px;
+}
+.features-list h3 {
+    color: #00B172;
+}
+.features img {
+    height: 100px;
+}
+
+.follow {
+    padding: 90px;
+    background-color: #00B172;
+    color: #FFF;
+}
+.follow h2 {
+    text-decoration: underline;
+    text-underline-offset: .5em;
+}
+.follow-content {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+.follow-content > div {
+    width: 25%;
+}
+.spoty-icon-white {
+    height: 100px;
+}
+.spoty-app {
+    height: 500px;
+}
