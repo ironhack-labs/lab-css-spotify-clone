@@ -6,3 +6,234 @@ Green: #00B172
 White: #FFF
 
 */
+
+:root {
+  --color-text--primary: #1a1a1a;
+  --color-white: #fff;
+  --color-green--primary: #00b172;
+}
+
+/******* Resets *******/
+
+*,
+*::before,
+*::after {
+  margin: 0;
+  padding: 0;
+  box-sizing: inherit;
+}
+
+html {
+  font-size: 62.5%;
+  box-sizing: border-box;
+  font-family: "Gotham", sans-serif;
+}
+
+body {
+  display: flex;
+  flex-direction: column;
+  color: var(--color-text--primary);
+  letter-spacing: 1px;
+}
+
+/******* Header *******/
+
+.header {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+
+  padding: 1.4rem 2.8rem;
+}
+
+.header_img {
+  width: 15%;
+}
+
+.header_nav {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  gap: 3.2rem;
+
+  font-size: 2rem;
+}
+
+.header_nav a:link {
+  text-decoration: none;
+  color: var(--color-text--primary);
+
+  position: relative;
+}
+
+.header_nav a:link::after {
+  content: "";
+  background-color: #00b172;
+  transform: scale(0);
+  width: 100%;
+  height: 0.3rem;
+  position: absolute;
+  top: 98%;
+  left: 0;
+  /* border-bottom: 3px solid transparent; */
+
+  transition: all 0.3s ease-out;
+}
+
+.header_nav a:hover::after {
+  transform: scale(1);
+  /* border-bottom: 3px solid #00b172; */
+  transform-origin: bottom left;
+}
+
+/******* Overley *******/
+.overlay {
+  height: 100vh;
+  background-image: url(../images/landing.jpg);
+  background-size: cover;
+  /* https://www.w3schools.com/cssref/pr_background-position.asp */
+  background-position: center bottom;
+
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  gap: 3.2rem;
+}
+
+.overlay > * {
+  color: var(--color-white);
+}
+
+.overlay h1 {
+  font-size: 8rem;
+  font-weight: 500;
+}
+.overlay h3 {
+  text-align: center;
+  font-size: 2.4rem;
+  font-weight: 400;
+  width: 60%;
+}
+
+/******* About *******/
+.about {
+  margin: 4.2rem;
+  display: grid;
+  grid-template-columns: repeat(3, 1fr);
+  row-gap: 8.4rem;
+  column-gap: 4.2rem;
+}
+
+.about h1 {
+  grid-column: 1 / -1;
+  text-align: center;
+  font-size: 3.2rem;
+  font-weight: 500;
+  position: relative;
+}
+
+.about h1::after {
+  content: "";
+  width: 30rem;
+  height: 8rem;
+  position: absolute;
+  top: -70%;
+  left: 37%;
+  border-bottom: 3px solid var(--color-green--primary);
+}
+
+.about_card {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+
+  gap: 2.4rem;
+}
+.about_card img {
+  width: 30%;
+}
+.about_card h2 {
+  color: var(--color-green--primary);
+  font-size: 2.8rem;
+}
+.about_card p {
+  display: block;
+  padding: 0 3.2rem;
+  font-size: 2rem;
+  font-weight: 400;
+  text-align: center;
+}
+
+/******* Playing *******/
+.playing {
+  margin: 4.2rem;
+  padding: 6.8rem;
+  height: 100vh;
+  background-color: var(--color-green--primary);
+  color: var(--color-white);
+
+  display: flex;
+  gap: 4rem;
+
+  position: relative;
+}
+
+.playing h1 {
+  font-size: 2.6rem;
+  margin-bottom: 2.4rem;
+  position: relative;
+}
+
+.playing h1::after {
+  content: "";
+  height: 2rem;
+  width: 94%;
+  color: #fff;
+
+  position: absolute;
+  top: 65%;
+  left: 0%;
+  border-bottom: 3px solid var(--color-white);
+}
+.playing_cta {
+  width: 40%;
+  display: flex;
+  flex-direction: column;
+  gap: 2.8rem;
+}
+
+.cta {
+  display: flex;
+  flex-direction: column;
+  gap: 3.2rem;
+}
+
+.cta h3 {
+  font-size: 2.4rem;
+}
+
+.cta p {
+  font-size: 2rem;
+  font-weight: 300;
+  text-align: left;
+  width: 80%;
+}
+
+.playing__img--app {
+  width: 25%;
+
+  position: absolute;
+  top: 50%;
+  right: 0%;
+  transform: translate(-50%, -50%);
+}
+.playing__img--logo {
+  width: 12%;
+
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+}
