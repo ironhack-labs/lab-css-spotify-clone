@@ -6,3 +6,178 @@ Green: #00B172
 White: #FFF
 
 */
+html,
+body {
+  margin: 0;
+  padding: 0;
+}
+.nav-bar{
+    /* display: flex; */
+    background-color: #fff;
+    padding: 10px;
+
+}
+
+.logo{
+    display: inline-block;
+    vertical-align: top;
+    width: 150px;
+    height: 45px;
+    margin-right: 20px;
+    margin-top: 15px;
+}
+.nav-bar-ul li{
+   float:right;
+   list-style-type:none;
+   /* float: left; */
+   color: black;
+   text-align: center;
+   padding: 14px 16px;
+   text-decoration: none;
+   font-size: 17px;
+   
+   
+}
+.nav-bar-ul{
+    float:right;
+    display: flex;
+    justify-content:end
+}
+.nav-bar-ul a{
+    text-decoration: none;
+    color: black;
+}
+.main-page{
+    background-image:url(/images/landing.jpg);
+    background-position:0 0;
+    background-repeat: no-repeat;
+    background-size: cover;
+    height:600px;
+    padding:50px;
+
+}
+h1,p{
+    text-align:center;
+    color: #fff;
+    word-spacing: 0.25em;
+    font-family:Verdana, Geneva, Tahoma, sans-serif;
+    padding:10px;
+    
+
+}
+h1{
+    padding-top: 10%;
+    font-size: 4em;
+    font-weight: 25;
+    margin: 0;
+}
+.main-page p{ margin:0;
+    font-size: 23px;
+    font-weight: 2;
+    font-family: 'Courier New', Courier, monospace;
+    /* padding-top:%; */
+}
+.whats-on-spotify{
+    display: flex;
+    justify-content: center;
+    margin:auto;
+    width: 20%;
+    /* border-bottom: 3px solid #00B172; */
+}
+.whats-on-spotify h2{
+    text-align: center;
+    margin-bottom: 0;
+    padding-bottom: 5px;
+    margin-right: 50px;
+    border-bottom: 3px solid  #00B172;
+}
+.spotify-rule{
+    background-color: #00B172;
+    height: 3px;
+    border:none;
+    width: 15%;
+    margin-top: 0;
+}
+.container{
+    display: flex;
+    /* grid-template-columns: auto auto auto; */
+    margin: auto;
+width: 60%;
+/* border: 5px solid #FFFF00; */
+padding: 10px;
+
+    
+   
+}
+.container img{
+    height: 50px;
+    width: 60px;
+
+}
+.container-box{
+    display: flex;
+    flex-direction: column;
+    justify-content: space-around;
+    align-items: center;
+    
+}
+h3{
+   color: #00B172; 
+   margin: 0;
+}
+.container-box p{
+    color: black;
+    font-family: ;
+}
+.green-div{
+    background-color: #00B172;
+    margin-left: 20px;
+    margin-right: 20px;
+    display: flex;
+    /* height: 500px; */
+    justify-content: space-around;
+    align-items: center;
+
+}
+.first-section{
+    display: flex;
+    width: 250px;
+    flex-direction: column;
+    margin-left: 100px;
+}
+.kanye-yeezy{
+    padding-top: 50px;
+    /* border-bottom: 2px solid white; */
+}
+.kanye-yeezy h3{
+    color: #fff;
+    border-bottom: 2px solid white;
+    width:220px
+}
+.kanye-img-div{
+    width: 350px;
+    display: flex;
+    margin-top: 70px;
+}
+.kanye-img{
+    width: 75%;
+    padding-left: 50px;
+}
+.small-container{
+    display: flex;
+    flex-direction: column;
+    padding-top:50px;
+}
+.small-container h4,p{
+    margin:0;
+    color:white;
+}
+.small-container p{
+    padding-left: 0;
+    text-align: left;
+}
+.spotify-white-icon{
+    width: auto;
+    height:50px;
+    position:absolute;
+}
