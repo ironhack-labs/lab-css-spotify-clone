@@ -7,9 +7,12 @@ White: #FFF
 
 */
 
+@import url('https://fonts.googleapis.com/css2?family=Montserrat:wght@100;300;400;500;600;700;800;900&display=swap');
+
 * {
     margin: 0;
     padding: 0;
+    font-family: 'Montserrat', sans-serif;
 }
 
 img {
@@ -111,7 +114,7 @@ h1 {
 .first-break{
     
     border: 1.5px solid #00B172;
-    width: 300px;
+    width: 335px;
     margin-top: 5px;
 }
 
@@ -124,11 +127,10 @@ span {
 }
 
 #content-align {
-    position: relative;
     display: flex;
     flex-direction:row;
-    justify-content: space-around;
-    margin: 40px;
+    align-items: baseline;
+    margin: 35px;
 }
 
 .first {
@@ -144,7 +146,7 @@ span {
 .second-image {
     display: flex;
     justify-content: space-around;
-    flex-direction: row;
+    flex-direction: column;
     height: 80px;
     width: 100px;
     margin-bottom: 20px;
@@ -156,13 +158,14 @@ span {
     text-align: center;
     padding-left: 80px;
     padding-right: 80px;
-    font-weight: lighter;
     font-size: 20px;
     margin-top: 20px;
+    font-weight: lighter;
 
 }
 .second-detail {
     display:flex;
+    flex: 1;
     align-items: center;
     text-align: center;
     color: #00B172;
@@ -194,9 +197,6 @@ span {
     margin: auto;
 }
 
-
-
-
 .third-title {
     display: flex;
     align-items: flex-start;
@@ -212,24 +212,25 @@ span {
     display: flex;
     justify-content: flex-start;
     border: 1.5px solid white;
-    width: 330px;
+    width: 355px;
     margin-left: 20px;
 }
 
 .make-block {
   padding: 20px;
-  margin-top: 60px;
+  margin-top: 40px;
+  font-size: 20px;
 }
 
 
 .third-title {
-
     color: white;
     padding: 0;
 }
 
 .third-p {
     color: white;
+    font-weight: lighter;
 }
 
 .white-logo {
