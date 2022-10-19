@@ -6,3 +6,193 @@ Green: #00B172
 White: #FFF
 
 */
+
+/* General */
+body {
+    padding: 0px;
+    margin: 0px;
+    font-family: Helvetica, Arial, sans-serif;;
+    font-size: 14px;
+}
+
+.horizontal-container {
+    display: flex;
+    flex-direction: row;
+}
+
+.vertical-container {
+    display: flex;
+    flex-direction: column;
+}
+
+h1 {
+    font-size: 5rem;
+}
+
+h2 {
+    font-size: 2.4rem;
+}
+
+h3 {
+    font-size: 1.8rem;
+}
+
+p {
+    font-size: 1.5rem;
+    font-weight: 100;
+}
+
+
+/* Navbar */
+
+nav {
+    position: fixed;
+    z-index: 3;
+    width: 100%;
+    background: white;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: center; 
+    padding: 0 50px 0 20px;
+}
+
+nav img {
+    height: 63px;
+    padding: 20px;
+}
+nav ul {
+    margin-right: 40px;
+}
+nav li {
+    display: inline;
+    padding: 10px 10px;
+    font-size: 24px;
+    font-weight: 100;
+
+}
+
+/* header */
+
+header {
+    color: white;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    text-align: center;  
+}
+
+.slogan {
+    position: absolute;  
+    width: 60%;  
+}
+
+.slogan h1 {
+    font-size: 5rem;
+    margin: 0 auto 30px;
+}
+
+.slogan p{
+    font-size: 1.8rem;
+    line-height: 2.4rem;
+}
+
+header img {
+    width: 100%;
+}
+
+
+/* first section: what's on spotify */
+#content {
+    display: flex;
+    flex-direction: column;
+    align-content: center;
+
+}
+
+#content h2 {
+    font-weight: 550;
+    padding: 40px;
+    text-align: center;  
+}
+
+#content h2 > span {
+    padding-bottom: 10px;
+    border-bottom: 4px solid #00B172;
+    
+
+} 
+
+.content-container {
+    margin: 0 40px;
+    padding: 0 60px;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+}
+
+.content-box {
+    margin: 50px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.content-box img{ 
+    height: 100px;
+}
+
+.content-box h3 {
+    color: #00B172;
+}
+
+.content-box p {
+    text-align: center;
+}
+
+
+
+/* App screenshot */
+.app {
+    background-color: #00B172;
+    color: white;
+    margin: 50px;
+    padding: 50px;
+    justify-content: center;
+    align-items: center;
+    overflow: hidden;
+
+}
+
+.article {
+    width: 60%;
+}
+
+.app h2 {
+    padding-left: 50px;
+    text-decoration: underline;
+    text-underline-offset: 20px;
+}
+
+
+#article {
+    padding-left: 50px;
+}
+
+.image-holder {
+    width: 40%;
+    display:flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.app img {
+    height: 150px;
+    width: auto;
+}
+
+#app-screenshot img {
+    height: 650px;
+}
+
+
