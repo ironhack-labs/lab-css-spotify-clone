@@ -7,7 +7,9 @@ White: #FFF
 
 */
 body {
-    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    font-family:system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+    box-sizing: border-box;
+    margin: 0;
 }
 
 nav {
@@ -32,4 +34,32 @@ ul {
 
 ul li {
     margin-left: 30px;
+}
+
+header {
+    background-image: url(/images/landing.jpg);
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+    height: 150vh;
+    width: 100%;
+    color: #fff;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    font-size: 40px;
+}
+
+header p{
+    font-size: 30px;
+    width: 700px;
+    margin: 0px;
+    font-weight: 300;
+    text-align: center;
+}
+
+h1 {
+    margin-top: -50px;
+    font-weight: 450;
 }
