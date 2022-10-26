@@ -12,6 +12,10 @@ White: #FFF
   font-weight: 100;
   letter-spacing: 0.02vw;
   margin: 0;
+}
+
+body {
+  color: #1a1a1a;
   font-size: 10px;
 }
 
@@ -40,7 +44,7 @@ ul {
 li {
   list-style: none;
   padding: 1vw;
-  font-size: 2rem;
+  font-size: 1.2rem;
 }
 
 #bg {
@@ -57,11 +61,60 @@ li {
 }
 
 h1 {
-  font-size: 9rem;
+  font-size: 5.5rem;
   font-weight: 400;
   padding-bottom: 2%;
 }
 
 #bg p {
-  font-size: 3rem;
+  font-size: 2rem;
+}
+
+h2 {
+  font-weight: 400;
+  font-size: 2rem;
+}
+
+#hr-spotify {
+  border-top: 3px solid #00b172;
+  width: 100%;
+  margin-bottom: 3%;
+}
+
+#whats-on-spotify {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: space-around;
+  margin-top: 3%;
+  margin-bottom: 5%;
+}
+
+#spotify-features img {
+  max-width: 30%;
+}
+
+#whats-on-spotify h3 {
+  color: #00b172;
+  font-size: 1.5rem;
+  font-weight: 400;
+  margin: 4%;
+}
+
+#whats-on-spotify p {
+  font-size: 1.2rem;
+}
+
+#spotify-features {
+  /* padding: 10%; */
+  display: flex;
+  flex-direction: row;
+  align-items: baseline;
+}
+
+.feature {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  padding: 3%;
 }
