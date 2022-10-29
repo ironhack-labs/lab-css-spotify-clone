@@ -10,6 +10,7 @@ body {
     font-family: 'Nanum Gothic', sans-serif;
     font-size: 16px;
     color: #1A1A1A;
+    width: auto;
 }
 
 
@@ -53,5 +54,72 @@ header {
     background-size: cover;
     background-position: 0 40%;
     color: #FFF;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
 }
 
+header h1 {
+    font-size: 5rem;
+    font-weight: bold;
+    margin-bottom: 10vh;
+}
+
+header p {
+    font-size: 1.5rem;
+    text-align: center;
+    line-height: 4vh;
+}
+
+/* Fist part of main - whats-on*/
+
+#whats-on {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    flex-wrap: wrap;
+}
+
+.underline {
+    border-bottom: 0.25rem solid #00B172;
+    padding-bottom: 0.4rem;  
+    margin: 6vh;
+}
+
+#whats-on > h2 {
+    display: block;
+    font-size: 2rem;
+    font-weight: bold;
+    text-align: center;
+    margin-top: 6vh;
+    margin-bottom: 15vh;
+    
+}
+
+#whats-on .features {
+    display: flex;
+    justify-content: space-evenly;
+}
+
+#whats-on .features-div {
+    width: 30%;
+    text-align: center;
+    margin-bottom: 10vh;
+}
+
+#whats-on img {
+    height: 15vh;
+    width: auto;
+}
+
+#whats-on .features-div > h2 {
+    color: #00B172;
+    font-weight: bold;
+    font-size: 1.5rem;
+    margin: 4vh 0;
+}
+
+#whats-on .features-div > p {
+
+}
