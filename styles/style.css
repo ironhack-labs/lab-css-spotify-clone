@@ -17,7 +17,6 @@ body {
 /* Nav bar */
 
 nav {
-    height: 12vh;
     background-color: #FFF;
     display: flex;
     align-items: center;
@@ -28,7 +27,7 @@ nav {
 
 nav #logo {
     height: 8vh;
-    margin-left: 5vh;
+    margin: 2vh 0 2vh 5vh;
 }
 
 nav .nav-links {
@@ -37,7 +36,7 @@ nav .nav-links {
 }
 
 nav .nav-links li {
-    margin: 0 2vh;
+    margin: 2vh 2vh;
 }
 
 nav .nav-links li a {
@@ -168,4 +167,50 @@ header p {
 #kayne-ad p {
     line-height: 1.4rem;
     font-size: 1.2rem;
+}
+
+@media only screen and (max-width: 600px) {
+    nav {
+        flex-direction: column;
+        align-items: flex-start;
+        position: static;
+    }
+    
+    nav .nav-links {
+        display: block;
+    }
+
+    nav .nav-links a {
+        float: none;
+        width: 100%;
+    }
+
+    header {
+        background-position: center;
+    }
+
+    #whats-on .features {
+        flex-direction: column;
+        align-items: center;
+    }
+
+    #whats-on .features-div {
+        width: auto;
+    }
+
+    #kayne-ad {
+        height: auto;
+        flex-direction: column;
+        gap: 5vh;
+        background-image: none;
+        margin-bottom: 4vh;
+    }
+
+    #kayne-ad h3,
+    h4,
+    p {
+        text-align: center;
+    }
+
+
 }
