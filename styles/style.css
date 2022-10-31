@@ -171,18 +171,41 @@ header p {
 
 @media only screen and (max-width: 600px) {
     nav {
-        flex-direction: column;
-        align-items: flex-start;
-        position: static;
+        width: 100%;
+        position: sticky;
+        display: inline-block;
+        text-align: center;
+        top: 0px;
     }
     
-    nav .nav-links {
-        display: block;
+    nav #logo {
+        margin: 2vh 0;
     }
 
-    nav .nav-links a {
-        float: none;
+    nav .nav-links {
+        display: none;
+        position: absolute;
+        z-index: 1;
+    }
+
+    nav:hover .nav-links {
+        display: block;
         width: 100%;
+
+    }
+
+    nav .nav-links li {
+        margin: 0;
+    }
+
+    nav .nav-links li a {
+        display: inline-block;
+        width: 100%;
+        padding: 2vh 0;
+        font-size: 1.5rem;
+        background-size: cover;
+        background-color: #FFF;
+        border: 1px solid lightgrey;
     }
 
     header {
@@ -211,6 +234,4 @@ header p {
     p {
         text-align: center;
     }
-
-
 }
