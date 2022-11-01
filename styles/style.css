@@ -6,3 +6,141 @@ Green: #00B172
 White: #FFF
 
 */
+
+html {
+  font-size: 16px;
+  font-family: Arial, Helvetica, sans-serif;
+}
+
+h1,
+h2,
+h3,
+h4,
+h5 {
+  margin: 0;
+  padding: 0;
+}
+
+header {
+  display: flex;
+  height: 50px;
+  padding: 10px 20px;
+  align-items: center;
+  justify-content: space-between;
+}
+header .logo img {
+  height: 50px;
+}
+
+header nav ul {
+  display: flex;
+  list-style-type: none;
+  gap: 40px;
+  color: #1A1A1A;
+}
+
+section.intro {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  text-align: center;
+  background: url(../images/landing.jpg);
+  background-size: cover;
+  height: 700px;
+  color: #fff;
+}
+
+section.intro h1 {
+  font-size: 4em;
+}
+
+section.intro h3 {
+  font-size: 1.3em;
+  padding-top: 30px;
+  font-weight: 500;
+  line-height: 1.3em;
+}
+
+section.whatson {
+  padding: 40px 0;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+
+section.whatson h2 {
+  font-size: 1.9rem;
+  letter-spacing: 7px;
+  border-bottom: 4px solid #00b172;
+  padding-bottom: 5px;
+}
+
+section.whatson > div {
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+  width: 100%;
+}
+section.whatson .features {
+  padding-top: 100px;
+  text-align: center;
+}
+section.whatson .features img {
+  height: 100px;
+}
+
+section.whatson .features article div:nth-child(2) {
+  color: #00b172;
+  font-weight: bold;
+  font-size: 1.5rem;
+  padding-top: 20px;
+}
+
+section.whatson .features article div:nth-child(3) p {
+  width: 180px;
+  margin: 20px auto;
+}
+
+section.bottom {
+    background-color: #00B172;
+    height: 500px;
+    display: flex;
+    padding: 50px;
+    color: #fff;
+    justify-content: space-around;
+}
+
+section.bottom > div {
+    width: 450px;
+}
+
+section.bottom > div.left > div {
+    padding-top: 50px;
+}
+
+section.bottom > div.left .title {
+    font-weight: 800;
+    font-size: 1.3em;
+}
+
+section.bottom > div.left .title + p {
+    width: 300px;
+    font-weight: 100;
+}
+
+section.bottom div.right img {
+    height: 450px;
+}
+
+section.bottom .left h2 span {
+    border-bottom: 2px solid #fff;
+    font-size: 1.2em;
+    padding-bottom: 8px;
+}
+
+section.bottom div.right {
+    text-align: center;
+    align-self: center;
+}
