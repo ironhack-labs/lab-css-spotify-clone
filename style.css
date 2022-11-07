@@ -9,11 +9,16 @@ White: #FFF
 body {
     font-family: Arial, Helvetica, sans-serif;
 }
+
+.nav-bar {
+  display: flex;
+}
   .nav-bar-ul {
     list-style: none;
     display: flex;
     text-align: right;
     justify-content: flex-end;
+
   }
 
   .nav-bar-ul li {
@@ -26,7 +31,28 @@ body {
     width: 15%;
   }
   .spotifyLanding{
-     background-size: cover;
-    background-image: ("");
-    width: 100%;
+     width: 100%;
+     
   }
+
+  h1 {
+    font-size: 5em;
+    text-align: center;
+    color: aliceblue;
+  } 
+  h2 {
+    text-align: center;
+    color: aliceblue;
+  }
+
+  .header {
+    background-image: url("./images/landing.jpg");
+      background-position: relative;
+      background-repeat: no-repeat;
+      background-size: cover;
+      height: 650px;
+      padding-top: 50px;
+  }
+
+  
+  
