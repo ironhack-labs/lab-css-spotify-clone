@@ -19,7 +19,8 @@ body {
     text-align: right;
     justify-content: flex-end;
     font-size: 135%;
-
+    font-family: system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+    font-weight: lighter;
   }
 
   .nav-bar-ul li {
@@ -53,7 +54,6 @@ body {
   h3{
     text-align: center;
     font-size: xx-large;
-    text-decoration : underline;
     text-decoration-color:#00B172;
   }
 
@@ -117,7 +117,12 @@ body {
 .yeezyConteinerTittle{
   color: #FFF;
   text-align: left;
-  text-decoration: underline;
+  font-size: x-large;
+}
+
+.yeezyConteinerTittle hr{
+  margin : 10px; 
+  width: 40%;
 }
 .yeezy-box{
   font-size: 2em;
@@ -125,23 +130,35 @@ body {
     text-align: left;
     border-style: hidden;
     box-sizing: border-box;
-    margin: 50px 5% 0 5%;
-    padding: 20px 30px 20px 30px;
-    border-width: 20%;
+    margin: 0;
+    padding: 5px;
     font-weight: lighter;
 }
 .textContainer{
   color: #FFF;
   border-style: hidden;
   width: 250px;
-	height: 250px;
+	height: 50px;
   font-weight: lighter;
 	border-radius: 4px;
-	margin: 10px;
-	padding: 5px;
+	margin: 0;
+	padding: 1px;
 	display: flex;
 	flex-direction: column;
   justify-content: space-between;
   font-family: system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
   font-size: 17px;
 }
+.images-spotify{
+  text-align: right;
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+}
+
+#whatsOn hr {
+  margin : 20px auto 30px auto;
+  width: 40%;
+  color: #00B172;
+}
+
