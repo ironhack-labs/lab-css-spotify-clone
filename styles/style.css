@@ -6,3 +6,158 @@ Green: #00B172
 White: #FFF
 
 */
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+html {
+    font-family:sans-serif;
+    font-size: 18px;
+    color: #1A1A1A;
+  }
+
+nav {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 10px;
+}
+
+nav ul {
+    list-style: none;
+    display: inherit;
+    margin-right: 50px;
+}
+
+nav a {
+    padding: 20px 30px;
+    text-decoration: none;
+    color: inherit;
+    font-size: 1.3em;
+}
+
+.nav-logo {
+    height: 80px;
+    margin: 20px 50px;
+}
+
+.landing-text {
+    background-image: url("../images/landing.jpg");
+    background-size:cover;
+    background-repeat: no-repeat;
+    height: 1200px;
+    color: #FFF;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+.landing-text h1 {
+    font-size: 6em;
+    margin: 30px;
+}
+
+.landing-text p {
+    width: 45%;
+    font-size: 2em;
+    margin: 20px;
+    text-align: center;
+}
+
+hr {
+    height: 5px;
+    border-style: none;
+    margin: 10px;
+}
+
+.features {
+    padding: 8vh 0;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: space-around;
+}
+
+.whats-on {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    font-size: 1.5em;
+}
+
+.whats-on hr {
+    background-color: #00B172;
+}
+
+.features-grid {
+    display: inherit;
+    justify-content: space-evenly;
+    margin-top: 5vh;
+}
+
+.features img {
+    width: 200px;
+}
+
+.feature-block {
+    display: inherit;
+    flex-direction: column;
+    align-items: center;
+    justify-content: space-between;
+    text-align: center;
+    width: 30vw;
+}
+
+.feature-block h3 {
+    color: #00B172;
+    font-size: 2em;
+    margin-bottom: 30px;
+}
+
+.feature-block p {
+    color: #1A1A1A;
+    font-size: 1.5em;
+}
+
+.promo {
+    background-color: #00B172;
+    color: #FFF;
+    padding: 5%;
+}
+
+.promo-title {
+    font-size: 1.5em;
+    width: fit-content;
+}
+
+.promo-title hr {
+    background-color: #FFF;
+}
+
+.promo-material {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+
+.promo-text {
+    width: 30%;
+}
+
+.promo-text h3, .promo-text p{
+    font-size: 1.8em;
+    margin: 40px 0;
+}
+
+.logo-white {
+    width: 200px;
+    height: 200px;
+}
+
+.app-img {
+    width: 400px;
+}
