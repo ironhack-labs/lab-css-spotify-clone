@@ -14,6 +14,10 @@ html{
     color: #1A1A1A;
 }
 
+body{
+    margin: 0;
+}
+
 .header{
     position: fixed;
     top: 0px;
@@ -23,36 +27,36 @@ html{
     justify-content: space-between;
     align-content: center;
     background-color: #fff;
-    padding: 10px 20px;
+    padding: 1em 1em;
     z-index: 1;
     margin: 0px;
     
 }
 
 .logo{
-    width: 140px;
-    padding-left: 7px;
-    
+    width: 150px;
 }
 
 
 .menu-list{
     display: flex;
     list-style: none;
+    justify-content: center;
+    align-items: center;
+    gap: 1em;
+    padding-right: 1.2em;
     
 }
-.menu-list li{
-    padding: 10px 10px 20px 10px;
-}
+
 
 #intro{
     position: relative;
-    top: 70px;
+    top: 60px;
     background-image: url("../images/landing.jpg");
     background-position: center;
     background-repeat: no-repeat;
     background-size: cover;
-    height: 500px;
+    height: 44em;
     display: flex;
     flex-direction: column;
     justify-content: center;
