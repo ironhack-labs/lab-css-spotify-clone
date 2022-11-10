@@ -6,3 +6,130 @@ Green: #00B172
 White: #FFF
 
 */
+
+@import url('https://fonts.googleapis.com/css2?family=Figtree:wght@300;600&display=swap');
+
+body {
+    align-content: center;
+    text-align: center;
+    font-family: 'Figtree', sans-serif;
+    font-size: 20px;
+    color: #1A1A1A;
+    margin: 0;
+}
+
+header {
+    position: relative;
+    background-color: white;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.logo img {
+    width: 200px;
+    margin: 8px 20px;
+}
+
+ul {
+    display: flex;
+    flex-direction: row;
+    list-style-type: none;
+}
+li {
+    padding: 0 0.8vw;
+}
+.nav-links{
+    padding-right: 20px;
+}
+
+a {
+    text-decoration: none;
+}
+
+.hero {
+    background-image: url(../images/landing.jpg);
+    background-position: 0 0;
+    background-repeat: no-repeat;
+    background-size: cover;
+    height: 950px;
+    color: white;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+}
+
+h1 {
+    font-size: 4.5em;
+    font-weight: 600;
+}
+
+.sub-title {
+    font-size: 1.6em;
+}
+
+
+.what-section {
+    padding: 80px;
+
+}
+
+h2 {
+    font-size: 2em;
+    text-decoration: underline #00B172;
+    text-underline-offset: 20px;
+}
+
+.what-cards {
+    display: flex;
+    justify-content: space-evenly;
+    align-items: center;
+    flex-wrap: wrap;
+}
+
+.what-box {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: space-between;
+    padding: 10px;
+    margin: 10px;
+    max-width: 300px;
+}
+
+.what-box img {
+    min-width: 100px;
+    max-width: 150px;
+}
+
+.kanye-green {
+    background-color: #00B172;
+    margin: 0 40px;
+    padding: 50px;
+    color: white;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    flex-wrap: wrap;
+}
+
+.kanye-text-content {
+    text-align: left;
+    display: flex;
+    flex-direction: column;
+    width: 400px;
+}
+
+.kanye-text h2 {
+    text-decoration: underline white;
+    text-align: left;
+}
+
+.spotify-icon {
+    height: 150px;
+}
+
+.spotify-app {
+    height: 600px;
+}
