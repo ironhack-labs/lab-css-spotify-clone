@@ -5,71 +5,104 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <meta http-equiv="X-UA-Compatible" content="ie=edge" />
     <title>Spotify Clone</title>
-    <link rel="stylesheet" href="styles/style.css">
+    <link rel="stylesheet" href="styles/style.css" />
   </head>
   <body>
-
-    <nav class="nav-bar">
-      <img src="./images/spotify-logo.png" alt="spotify Logo">
-      <ul class="nav-bar-ul">
-        <li> <a class="nav-bar-item" href="#premium"> Premium </a> </li>
-        <li> <a class="nav-bar-item" href="#discover"> Discover </a> </li>
-        <li> <a class="nav-bar-item" href="#help"> Help </a> </li>
-        <li> <a class="nav-bar-item" href="#download"> Download</a> </li>
-      </ul>
-    </nav>
-
     <header class="header">
-      <h1>Music for everyone.</h1>
-      <br>
-      <h2> Spotify is now free on mobile, tablet and computer. Listen to the
-        right music, wherever you are.</h2>
+      <div>
+        <div>
+          <img
+            class="logo"
+            src="./images/spotify-logo.png"
+            alt="spotify Logo"
+          />
+        </div>
+        <nav class="nav-bar">
+          <ul class="nav-bar-ul">
+            <li><a class="nav-bar-item" href="#premium"> Premium </a></li>
+            <li><a class="nav-bar-item" href="#discover"> Discover </a></li>
+            <li><a class="nav-bar-item" href="#help"> Help </a></li>
+            <li><a class="nav-bar-item" href="#download"> Download</a></li>
+          </ul>
+        </nav>
+      </div>
     </header>
+
+    <div class="no-header">
+      <img id="landing-img" src="./images/landing.jpg" alt="scenario" />
+      <div>
+        <h1>Music for everyone.</h1>
+        <br />
+        <span>Spotify is now free on mobile, tablet and computer.</span>
+        <br />
+        <span>Listen to the right music, wherever you are.</span>
+      </div>
+    </div>
 
     <section class="white-background" id="general-information">
       <h2>What’s on Spotify?</h2>
-      <article class="container">
-        <img src="./images/music-icon.png" alt="Icono Parlante">
-        <h3> <a class="link-btn" href="#">  Millions of Songs </a> </h3>
-        <p class="text">  There are millions of songs on Spotify </p>
-        
-      </article>
+      <div class="contiene-too">
+        <article class="container">
+          <img src="./images/music-icon.png" alt="Icono Parlante" />
+          <h3><a class="link-btn" href="#"> Millions of Songs </a></h3>
+          <p class="text">
+            There are millions of <br />
+            songs on Spotify
+          </p>
+        </article>
 
-      <article class="container">
-        <img src="./images/high-quality-icon.png" alt="Icono Musica">
-        <h3><a class="link-btn" href="#"> HD Music </a></h3>
-        <p class="text"> Listen to music as if you were listening live </p>
-        
-      </article>
+        <article class="container">
+          <img src="./images/high-quality-icon.png" alt="Icono Musica" />
+          <h3><a class="link-btn" href="#"> HD Music </a></h3>
+          <p class="text">
+            Listen to music as if you <br />
+            were listening live
+          </p>
+        </article>
 
-      <article class="container">
-        <img src="./images/devices-icon.png" alt="Icono dispositivos">
-        <h3> <a class="link-btn" href="#"> Stream Everywhere </a></h3>
-        <p class="text"> Stream music on your smartphone, tablet or computer </p>
-      </article>
-    </section>
-      
-    <section>
-      <div>
-        <h3>It’s as yeezy as Kanye West.</h3>
-        <ul>
-          <li><h4>Search</h4>
-          <p>Know what you want to listen to? Just search and hit play.</p></li>
-        </ul>
-        <ul>
-          <li><h4>Browse</h4>
-          <p>Check out the latest charts, brand new releases and great playlists for right now.</p></li>
-        </ul>
-        <ul>
-          <li><h4> Discover</h4>
-          <p>Enjoy new music every Monday with your
-            own personal playlist. Or sit back and enjoy Radio.</p></li>
-        </ul>
+        <article class="container">
+          <img src="./images/devices-icon.png" alt="Icono dispositivos" />
+          <h3><a class="link-btn" href="#"> Stream Everywhere </a></h3>
+          <p class="text">
+            Stream music on your <br />
+            smartphone, tablet or <br />
+            computer
+          </p>
+        </article>
       </div>
-      <img src="./images/spotify-icon-white.png" alt="Otro logo">
-      <img src="./images/spotify-app.jpg" alt="Reproductor de musica">
-           
     </section>
-    
+
+    <section class="greeny">
+      <div class="contiene-too">
+        <div>
+          <h2>It’s as yeezy as Kanye West.</h2>
+          <h2>Search</h2>
+          <p>
+            Know what you want to listen to? <br />
+            Just search and hit play.
+          </p>
+
+          <h2>Browse</h2>
+          <p>
+            Check out the latest charts,<br />
+            brand new releases and great<br />
+            playlists for right now.
+          </p>
+
+          <h2>Discover</h2>
+          <p>
+            Enjoy new music every Monday<br />
+            with your own personal playlist.<br />
+            Or sit back and enjoy Radio.
+          </p>
+        </div>
+        <div>
+          <img src="./images/spotify-icon-white.png" alt="Otro logo" />
+        </div>
+        <div>
+          <img src="./images/spotify-app.jpg" alt="Reproductor de musica" />
+        </div>
+      </div>
+    </section>
   </body>
 </html>
