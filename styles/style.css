@@ -1,3 +1,5 @@
+@import url('https://fonts.googleapis.com/css2?family=Montserrat:wght@400;500;600&display=swap');
+
 /*
 Colors:
 
@@ -6,3 +8,194 @@ Green: #00B172
 White: #FFF
 
 */
+
+
+* {
+    padding: 0px; 
+    margin: 0px; 
+    box-sizing: border-box;
+}
+
+body {
+    font-family: 'Montserrat', sans-serif;
+    font-size: 16px;
+    color: #fff;
+    background-color: #fff;
+}
+
+header {
+    position: relative;
+    display: flex; 
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+    width: 100vw;
+    background-color: #fff;
+    padding-top: 90px;
+    background-image: url(../images/landing.jpg);
+    background-size: cover;
+}
+
+header nav {
+    position: fixed;
+    top: 0;
+    left: 0;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: center;
+    height: 90px;
+    width: 100vw;
+    padding-inline: 30px;
+    padding-block: 20px;
+    background-color: #fff;
+    z-index: 1;
+}
+
+.spotify-logo {
+    height: auto;
+    width: 130px;
+}
+
+ul {
+    display: flex;
+    flex-direction: row;
+    justify-content: flex-start;
+    align-items: center;
+    height: 100%;
+    width: fit-content;
+    list-style: none;
+}
+
+ul > li {
+    margin-inline: 10px; 
+    color: #000; 
+    font-size: 1.1rem;
+}
+
+h1 {
+    font-size: 4rem;
+    font-weight: 600;
+    margin-bottom: 20px;
+}
+
+h2 {
+    font-size: 1.5rem;
+    font-weight: 400;
+    text-align: center;
+}
+
+.first-section {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    height: 500px;
+    width: 100%;
+    padding: 30px;
+}
+
+h3 {
+    font-size: 2rem;
+    font-weight: 600;
+    margin-bottom: 20px;
+    color: #000; 
+    border-bottom: 5px solid #1AB26B;
+    padding-bottom: 5px;
+    margin-bottom: 60px;
+}
+
+.cards-container {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+    align-items: flex-start;
+    height: fit-content;
+    width: fit-content;
+}
+
+.card {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    height: fit-content;
+    width: 20%;
+    color: #000; 
+}
+
+.card-icon {
+    height: 110px;
+    width: auto;
+    margin-bottom: 30px;
+}
+
+h4 {
+    font-size: 1.5rem;
+    font-weight: 700;
+    margin-bottom: 10px;
+    color: #1AB26B; 
+}
+
+.card p {
+    font-size: 1.2rem;
+    font-weight: 400;
+    text-align: center;
+}
+
+.second-section {
+    position: relative;
+    background-color: #1AB26B;
+    height: fit-content;
+    width: calc(100% - 60px);
+    margin: 30px;
+    padding: 70px; 
+}
+
+.second-section h3 {
+    width: fit-content;
+    color: #fff; 
+    border-bottom: 5px solid #fff;
+    padding-bottom: 5px;
+}
+
+.inline-container {
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-start;
+    align-items: flex-start;
+    height: fit-content;
+    width: 25%;
+}
+
+.second-section h4 {
+    font-size: 1.6rem;
+    color: #fff; 
+    margin-bottom: 20px;
+}
+
+.second-section p {
+    color: #fff; 
+    font-size: 1.2rem;
+    margin-bottom: 30px;
+}
+
+.spotify-icon {
+    position: absolute;
+    top: 50%;
+    right: 50%;
+    transform: translate(50%, -50%);
+    height: 100px;
+    width: auto;
+}
+
+.kanye-image {
+    position: absolute;
+    right: 0px;
+    top: 50%;
+    transform: translateY(-50%);
+    margin-right: 70px;
+    height: 500px;
+    width: auto;
+}
