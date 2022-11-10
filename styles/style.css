@@ -6,3 +6,153 @@ Green: #00B172
 White: #FFF
 
 */
+
+html{
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+    color: #1A1A1A;
+}
+
+.header{
+    position: fixed;
+    top: 0px;
+    height: 6%;
+    width: 100%;
+    display: flex;
+    justify-content: space-between;
+    align-content: center;
+    background-color: #fff;
+    padding: 10px 20px;
+    z-index: 1;
+    margin: 0px;
+    
+}
+
+.logo{
+    width: 140px;
+    padding-left: 7px;
+    
+}
+
+
+.menu-list{
+    display: flex;
+    list-style: none;
+    
+}
+.menu-list li{
+    padding: 10px 10px 20px 10px;
+}
+
+#intro{
+    position: relative;
+    top: 70px;
+    background-image: url("../images/landing.jpg");
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    height: 500px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    margin: 0px;
+
+}
+
+#intro h1{
+    color: #fff;
+    font-size: 4em;
+    font-weight: 100;
+    margin: 15px auto;
+}
+
+#intro p{
+    color: white;
+    margin: 0px 150px;
+    font-weight: 100;
+    text-align: center;
+    line-height: 1.5em;
+}
+
+.icon{
+    width: 6em;
+}
+
+#info{
+    width: 100%;
+    position: relative;
+    top: 80px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+.grid-section{
+    display:grid;
+    grid-template-columns: 1fr 1fr 1fr;
+    grid-template-rows: 1fr;
+    column-gap: 1em;
+    justify-items: center;
+    align-items: center;
+    margin: 20px;
+
+}
+
+.grid-section h2{
+    margin-bottom: 3.5em;
+}
+
+.grid-section p{
+    margin: 0 3em;
+}
+
+.grid-1,
+.grid-2,
+.grid-3{
+    text-align: center;
+}
+
+.grid-1 h3,
+.grid-2 h3,
+.grid-3 h3{
+ color:#00B172;
+}
+
+
+
+
+#yeezy{
+    
+   position: relative;
+   top: 100px;  
+   background-color: #00B172;
+   color: white;
+   padding: 30px;
+   margin: 0;
+    
+}
+#yeezy h2{
+    width: 12em;
+    padding-bottom: 0.5em;
+   border-bottom: 3px solid #fff;
+   margin-left: 1.4em;
+}
+
+
+.screenshot{
+    width: 15em;
+}
+
+.flex-section{
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    gap: 2em;
+}
+
+.flex-section div{
+    width: 33%;
+    line-height: 1.5em;;
+}
