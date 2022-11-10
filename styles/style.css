@@ -12,7 +12,14 @@ body {
     background:#FFF;
     font-size: 20px;
     font-family: Arial, Helvetica, sans-serif;
+    color: #1A1A1A;
 }
+
+.main-area {
+    padding: 1em;
+}
+
+/* NAV BAR SETTINGS */
 
 .nav-bar {
     position: fixed;
@@ -31,6 +38,40 @@ body {
 }
 
 .nav-bar-link {
+    text-decoration: none;
+    color: #1A1A1A;
+}
+
+.nav-bar-link li {
     display: inline;
     padding: 0 0.4em;
+}
+
+
+/* HERO SECTION */
+
+.top-header {
+    height: 600px;
+    background-image: url(../images/landing.jpg);
+    background-position: center;
+    background-size: cover;
+    color: white;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+}
+
+.hero-text {
+    text-align: center;
+    font-weight: 400;
+}
+
+.hero-text h1 {
+    font-size: 3em;
+}
+
+.hero-text p {
+    font-size: 1.1em;
+    padding: 0 20%;
 }
