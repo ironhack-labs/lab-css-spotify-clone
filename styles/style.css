@@ -6,3 +6,159 @@ Green: #00B172
 White: #FFF
 
 */
+
+@import url('https://fonts.googleapis.com/css2?family=Open+Sans:ital,wght@0,300;0,400;0,500;0,600;0,700;0,800;1,300;1,400;1,500;1,600;1,700;1,800&family=Roboto+Slab:wght@329;400&display=swap'); 
+
+
+html, body {
+    margin: 0;
+    padding: 0;
+    font-family: 'Open Sans', sans-serif;
+  }
+
+.logo{
+    width: 140px;
+    height: 50px;
+}
+
+nav ul{
+    display: flex;
+    gap: 30px;
+    margin: 0px 50px;
+}
+
+nav li{
+    list-style: none;
+    font-size: 20px;
+    font-weight: bolder;
+    
+}
+
+nav a{
+    color:black;
+    text-decoration: none;
+}
+
+header{
+    background-image: url("../images/landing.jpg");
+    width: 100%;
+    height: 800px;
+    background-size: cover;
+
+}
+
+nav{
+    padding: 30px;
+    position: fixed;
+    width: 100%;
+    height: 20px;
+    background-color: white;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.text{
+    height: 800px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    color: white;
+}
+h1{
+    font-size: 80px;
+}
+
+.text p{
+    font-size: 30px;
+    position: center;
+}
+
+.Seccion1{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+.Seccion1 h2{
+    margin-top: 40px;
+    border-bottom: 4px solid #00B172;
+    padding-bottom: 10px;
+    
+
+}
+
+.Seccion1 img{
+    width: 100px;
+    height: 100px;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+    margin-top: 80px;
+}
+.class-container p{
+    text-align: center;
+    margin-top: 20px;
+
+}
+.class-container h3{
+    text-align: center;
+    color:#00B172
+}
+.class-container img{
+    justify-content: center;
+}
+.class-container article{
+    display: flex;
+    width: 400px;
+    justify-content:center;
+    flex-direction: column;
+    align-items: center;
+    text-align: center;
+}
+.class-container{
+    display: flex;
+    gap: 100px;
+}
+
+.Section3{
+background-color: #00B172;
+color: white;
+margin: 0 50px;
+padding: 50px;
+position: relative;
+}
+.img1{
+width: 80px;
+height: 80px;
+position: absolute;
+left: 650px;
+bottom: 200px;
+}
+.img2{
+    width: 280px;
+    right:150px;
+    position:absolute;
+    bottom: 30px;
+    display: flex;
+}
+.Section3 article{
+    display: flex;
+    flex-direction: column;
+}
+.Section3 div{
+    margin: 40px;
+}
+.West p{
+    margin: 0px;
+}
+.West h2{
+    border-bottom: 2px solid white;
+    padding-bottom: 10px;
+    display: inline;
+}
+
+.West article{
+    padding: 10px ;
+}
