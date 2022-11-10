@@ -13,10 +13,15 @@ body {
     font-size: 20px;
     font-family: Arial, Helvetica, sans-serif;
     color: #1A1A1A;
+    
 }
 
 .main-area {
     padding: 1em;
+}
+
+p {
+    line-height: 1.7em;
 }
 
 /* NAV BAR SETTINGS */
@@ -109,4 +114,49 @@ body {
 .service-card h4 {
     color: #00B172;
     font-weight: 600;
+}
+
+/* PROMOTION SECTION */
+
+#promotion-section {
+    display: flex;
+    flex-wrap: wrap;
+    background-color: #00B172;
+    color: #FFF;
+    min-height: 40em;
+    padding: 3em;
+    align-items: center;
+    justify-content: space-between;
+    box-sizing: border-box;
+}
+
+#bottom-logo {
+    width: 6em;
+    position: absolute;
+    margin-left: auto;
+    margin-right: auto;
+    left: 0;
+    right: 0;
+    text-align: center;
+}
+
+.promotion-text > article {
+    max-width: 20em;
+}
+
+.promotion-text > article > h4 {
+    margin: 1.5em auto;
+    font-size: 1.4em;
+}
+
+#promotion-section h3 {
+    display: inline;
+    border-bottom: 4px solid #FFF;
+    padding-bottom: 6px;
+    font-size: 1.8em;
+}
+
+#bottom-screenshot {
+    align-self: center;
+    height: 28em;
 }
