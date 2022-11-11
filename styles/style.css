@@ -13,8 +13,10 @@ body{
 }
 
 header {
- 
+    position: fixed;
     top: 0px;
+    background-color: #FFF;
+    width: 100%;
 }
 
 header div {
@@ -57,30 +59,127 @@ ul li {
     flex-direction: column;
     align-items: center;
    background-size: cover;
-   height: 700px;
+   height: 1000px;
     background-image: url("../images/landing.jpg");
 }
 
 h1 {
     
-    background-color: red;
-    margin-top: 0px;
+    margin-top: 400px;
+    font-size: 70px;
+    text-align: center;
+    margin-bottom: 20px;
 }
 
-
+.first-section p {
+    font-size: 20px;
+    font-weight: lighter;
+    text-align: center;
+    width: 700px;
+    letter-spacing: 3px;
+    margin-top: 20px;
+}
 
 .second-section {
-    background-color: yellow;
     display: flex;
     flex-direction: column;
+    
+}
+
+h2 {
+    text-align: center;
+    font-size: 25px;
+    margin-top: 30px;
 }
 
 .second-section div {
     display: flex;
+    justify-content: space-around;
+    flex-wrap: wrap;
     
-    background-color: grey;
+}
+
+.characteristics {
+   
+    flex-direction: column;
+    width: 200px;
+    align-items: center;
+    padding: 20px 30px;
+    margin-top: 25px;
 }
 
 .second-section img {
-    height: 20px;
+   width: 100px;
+}
+
+h3 {
+    color: #00B172;
+    font-weight: bolder;
+    font-size: 20px;
+    margin-bottom: 10px;
+}
+
+.characteristics p {
+    text-align: center;
+    margin-top: 5px;
+}
+
+.third-section {
+    background-color: #00B172;
+    padding: 80px;
+}
+
+h4 {
+   
+    font-size: 30px;
+    color: #FFF;
+    margin: 0;
+    font-weight: lighter;
+    
+}
+
+hr {
+    background-color: #FFF;
+    width: 400px;
+    margin-left: 0;
+    height: 2px;
+    margin-bottom: 0;
+}
+
+h3 {
+    color: #FFF;
+    font-size: 20px;
+    margin-bottom: 20px;
+}
+.artist {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.actions div p{
+    color: #FFF;
+    font-size: 16px;
+    margin-top: 30px;
+    font-weight: lighter;
+}
+
+.actions {
+   
+    width: 260px;
+    display: flex;
+    flex-direction: column;
+}
+.actions div {
+    margin: 20px 0;
+   
+}
+
+.logo {
+    height: 120px;
+    margin: 0 50px;
+}
+
+.singer {
+    width: 300px
 }
