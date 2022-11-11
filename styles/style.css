@@ -6,3 +6,175 @@ Green: #00B172
 White: #FFF
 
 */
+
+* {
+    padding: 0;
+    margin: 0;
+
+}
+
+body {
+    font-family:Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+}
+
+.nav-bar {
+    display: flex;
+    box-sizing: border-box;
+    position: fixed;
+    background-color: white;
+    align-items: center;
+    justify-content: space-between;
+   
+    
+}
+
+
+.nav-bar-ul{
+    list-style-type: none;
+    display: flex;
+    flex-direction:row;
+    margin-right: 35px;
+}
+
+
+.nav-bar a {
+    text-decoration: none;
+    color: black;
+    font-size: 1.5rem;
+    margin: 15px;
+    align-items: flex-end;
+    
+   
+}
+
+.nav-bar img {
+    min-width: 200px;
+    width: 20%;
+    height: 5%;
+    padding: 30px
+    
+}
+
+.header {
+    background-image: url('/Users/alessiogibroni/Desktop/lab-css-spotify-clone/images/landing.jpg');
+    background-position: 0 0;
+    background-size: cover;
+    background-repeat: no-repeat;
+    height: 1000px;
+    width: auto;
+    display: flex;
+    text-align: center;
+    box-sizing: border-box;
+    align-items: center;
+    flex-direction: column;
+    justify-content: center;
+    
+
+}
+
+h1 {
+    font-size: 6rem;
+    
+}
+h4 {
+    
+    font-size: 2rem;
+}
+
+h1, h4 {
+    color: white;
+}
+
+
+.mid-text {
+    color: #00B172;
+}
+
+.section-1 {
+    box-sizing: border-box;
+    text-align: center;
+    
+}
+
+.section-1 img{
+    width: 100px;
+
+}
+
+#title-sec-1 {
+    margin-top: 5%;
+    font-size: 3rem;
+    text-decoration: underline;
+    text-decoration-color: #00B172;
+    text-decoration-thickness: 10%;
+    text-underline-offset: 15px;
+}
+
+.icons-box {
+    display: flex;
+    box-sizing: border-box;
+    flex-direction: row;
+    align-items: baseline;
+    justify-content: space-around;
+    text-align: center;
+    padding: 10%;
+   
+    
+}
+
+.icons-box div {
+    flex-wrap: wrap;
+}
+
+.section-2 {
+    width: auto;
+    height: 600px;
+    background-color: #00B172;
+    margin: 5%;
+    display: flex;
+    flex-direction: row;
+    box-sizing: border-box;
+    align-items: center;
+    justify-content: space-evenly;
+    
+
+}
+
+.section2-text {
+    color: white;
+    padding-left: 40px;
+}
+
+
+.section2-text p {
+    font-size: 1rem;
+}
+
+.section2-text * {
+    padding-bottom: 5%;
+}
+
+.logo {
+    height: 15vh;
+    
+}
+
+.app-img {
+    width: auto;
+    height: 500px;
+    padding: 10%;
+}
+
+#title-sec-2 {
+    color: white;
+    text-decoration: underline;
+    text-decoration-color: white;
+    text-decoration-thickness: 10%;
+    text-underline-offset: 15px;
+    font-size: 3rem;
+    padding-bottom: 15%;
+}
+
+.section2-text h4 {
+    font-size: 2rem;
+}
