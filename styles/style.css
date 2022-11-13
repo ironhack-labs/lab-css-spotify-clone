@@ -1,8 +1,201 @@
 /*
 Colors:
-
 Text: 1A1A1A
 Green: #00B172
 White: #FFF
-
 */
+
+@import url("https://fonts.googleapis.com/css2?family=Signika:wght@300&display=swap");
+
+body {
+  font-family: Signika;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+
+/*!------------------------ PRIMERA SECCION */
+#section1 {
+  margin: 0;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-content: center;
+  align-items: center;
+}
+
+/*?------------------------ LOGO + NAV-BAR */
+#head img {
+  width: 333, 1px;
+  height: 100px;
+  margin-top: 1%;
+  margin-bottom: 1%;
+  margin-left: 2%;
+}
+#head {
+  display: flex;
+  flex-direction: row;
+  width: 100%;
+  justify-content: space-between;
+  margin: 1%, 1%, 1%, 1%;
+  padding: 1%, 1%, 1%, 1%;
+
+  align-items: center;
+}
+
+/*?---------------------------------- NAVBAR */
+#nav-bar {
+  position: absolute;
+  display: flex;
+  flex-direction: row;
+  justify-content: flex-end;
+  margin-right: 3%;
+  width: 100%;
+  font-size: 40px;
+  list-style: none;
+}
+
+#nav-bar li {
+  margin-right: 5%;
+}
+
+/*?------------------------ IMAGEN LANDING + TEXTO */
+#landing-text {
+  position: relative;
+  text-align: center;
+}
+#landing-text h1 {
+  position: absolute;
+  top: 35%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  color: white;
+  font-size: 6vw;
+  font-weight: 100;
+}
+#landing-text h3 {
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  color: white;
+  font-size: 2.2vw;
+  font-weight: 100;
+}
+#landing-text img {
+  width: 100%;
+  height: auto;
+}
+
+/*!---------------------------- SEGUNDA SECCION */
+
+#section-2 {
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+}
+
+.title-section2 {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  font-size: 3vw;
+  border-bottom: 4px solid rgb(26, 177, 106);
+  margin-left: 35%;
+  margin-right: 35%;
+  padding-bottom: 1%;
+}
+
+.card-container {
+  width: 80vw;
+  display: flex;
+  flex-direction: row;
+  justify-content: space-around;
+  margin-left: 5%;
+}
+
+.card-container h2 {
+  color: rgb(48, 195, 144);
+  font-size: 2vw;
+  display: block;
+}
+.card-container p {
+  text-align: center;
+  text-justify: center;
+  font-size: 2vw;
+  margin: 3vw;
+  margin-top: 0;
+  padding-top: 1%;
+}
+
+.card {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  align-content: center;
+}
+
+.card img {
+  width: 7vw;
+}
+
+/*!------------------------------ TERCERA SECCION */
+
+#section3 {
+  background-color: rgb(26, 177, 106);
+  width: 100%;
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  padding-left: 20em;
+  padding-right: 20em;
+}
+
+.text-top-bottom {
+  padding: 5vw;
+  margin-top: -5px;
+  color: white;
+  flex-direction: column;
+  justify-content: space-around;
+  align-items: ;
+}
+
+.icon-spotify {
+    
+    justify-content: center;
+    margin-top: 30%;
+    justify-content: center;
+    align-content: center;
+    width: 8vw;
+    height: 8vw;
+}
+
+.text-top-bottom h1 {
+  color: white;
+  font-size: 3vw;
+  border-bottom: 10px solid white;
+  padding-bottom: 1%;
+  margin-top: 0;
+}
+
+.text-top-bottom h2 {
+  font-size: 3vw;
+}
+
+.img-kanye {
+  padding: 5vw;
+  margin-top: 4%;
+}
+
+
+.options-card {  
+    padding-top: 0.5vw;
+    display: flex;
+    flex-direction: column;    
+}
+
+.options-card p {
+    font-size: 40px;
+}
