@@ -6,3 +6,180 @@ Green: #00B172
 White: #FFF
 
 */
+@import url('https://fonts.googleapis.com/css2?family=Roboto:wght@100;900;300;700;500&display=swap');
+
+* {
+    box-sizing: border-box;
+    padding: 0;
+    margin: 0;
+    font-family: 'Roboto', sans-serif;
+}
+
+.nav {
+    display: flex;
+    justify-content: space-between;
+    position: fixed;
+    background-color: #fff;
+    width: 100%;
+    padding: 0.8rem 1.5rem;
+    z-index: 10;
+}
+
+.nav img {
+    height: 3rem;
+    margin: auto 0;
+    cursor: pointer;
+}
+
+.nav ul {
+    display: flex;
+    list-style: none;
+    gap: 3rem;
+    align-items: center;
+}
+
+.nav li {
+    font-size: 1.2rem;
+    cursor: pointer;
+}
+
+.header {
+    height: 85vh;
+    display: flex;
+    flex-direction: column;
+    background-image: url("../images/landing.jpg");
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+.header-title {
+    height: 100%;
+    color: #FFF;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+.header-title h1 {
+    font-size: 4.5rem;
+    font-weight: 500;
+    text-align: center;
+    margin-bottom: 2rem;
+}
+
+.header-title p {
+    font-size: 1.5rem;
+    font-weight: 100;
+    width: 600px;
+    text-align: center;
+}
+
+.content {
+    max-width: 1024px;
+    margin: 0 auto;
+}
+
+.content .content-title {
+    height: 15vh;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    color: #1A1A1A;
+    font-size: 1.2rem;
+    font-weight: 900;
+}
+
+.content .underline {
+    border-bottom: solid 5px #00B172;
+    padding-bottom: 10px;
+}
+
+.services {
+    display: flex;
+    justify-content: space-around;
+}
+
+.services div {
+    width: 25%;
+    text-align: center;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    margin: 4rem 0 6rem 0;
+}
+
+.services img {
+    width: 7rem;
+    margin-bottom: 2rem;
+}
+
+.services h3 {
+    color: #00B172;
+    font-size: 1.5rem;
+    margin-bottom: 1.5rem;
+}
+
+.services p {
+    font-size: 1.2rem;
+}
+
+.greensection {
+    background-color: #00B172;
+    position: relative;
+    padding: 4rem 4rem 2rem 4rem;
+    color: #FFF;
+    display: flex;
+    justify-content: center;
+}
+
+.greensection .icon {
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    width: 7rem;
+}
+
+.info {
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    align-items: flex-start;
+}
+
+.underline-white {
+    border-bottom: solid 4px #FFF;
+    padding-bottom: 10px;
+    font-size: 1.6rem;
+    margin-bottom: 1.5rem;
+}
+
+.subinfo {
+    width: 55%;
+    margin: 2rem 0;
+}
+
+.subinfo h4 {
+    font-size: 1.5rem;
+    margin-bottom: 1.5rem;
+}
+
+.subinfo p {
+    line-height: 1.5rem;
+    letter-spacing: 1px;
+}
+
+.image {
+    display: flex;
+    justify-content: flex-end;
+    align-items: center;
+}
+
+.image img {
+    width: 60%;
+    margin: auto 0;
+}
