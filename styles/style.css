@@ -30,11 +30,30 @@ body {
     padding: 0px 100px;
 }
 
+
+nav {
+    padding: 30px;
+    position: fixed;
+    width: 100vw;
+    height: 20px;
+    background-color: white;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    z-index: 1;
+}
+
+nav a {
+    text-decoration: none;
+    color: black;
+}
+
 header {
     background-image: url("../images/landing.jpg");
     width: 100vw;
     height: 800px;
     background-size: cover;
+    align-content: space-around;
 }
 
 .section-one {
@@ -90,15 +109,23 @@ header {
 
 .section-three {
     display: flex;
-    background-color: #00B172;
-    margin-left: 50px;
-    margin-right: 50px;
-    padding-top: 50px;
-    padding-bottom: 50px;
-    padding-right: 30px;
-    padding-left: 30px;
-    gap: 30px;
-}
+     justify-content: space-between;
+     background-color: #00B172;
+     margin: 0px 30px;
+     color: white;
+     position: relative;
+     padding: 80px;
+    }
+
+
+
+.logo-white {
+     width: 100px;
+     position: fixed;
+     left: 45%;
+     bottom: 45%;
+     align-items:center;
+ }
 
 .title-text {
     display: inline;
@@ -130,3 +157,8 @@ header {
 .text-container {
     margin-top: 60px;
 }
+
+.title-text {
+    display: inline;
+    padding-bottom: 10px;
+    border-bottom: 2px solid white;
