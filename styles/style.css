@@ -6,3 +6,146 @@ Green: #00B172
 White: #FFF
 
 */
+
+@import url('https://fonts.googleapis.com/css2?family=Noto+Sans+Lao+Looped&display=swap');
+
+*{
+    font-family: 'Noto Sans Lao Looped', sans-serif;
+    margin: 0;
+    padding: 0;
+}
+
+
+.header{
+    height: 100px;
+    display: flex;
+    align-items: center;
+    padding-left: 2%;
+}
+
+.menu{
+    list-style: none;
+    display: flex;
+    justify-content: space-evenly;
+    margin-right: 6%;
+}
+
+.menu li{
+    padding: 8%;
+}
+
+
+.menu a{
+    color: #1A1A1A;
+    text-decoration: none;
+    font-size: 1.1em;
+    font-weight: 500;
+
+}
+
+.section1{
+    height: 825px;
+    background-image: url(../images/landing.jpg);
+    background-size: 100%;
+    background-repeat: no-repeat;
+    background-position: 50%;
+
+}
+
+.section1Text{
+    color: white;
+    text-align: center;
+    padding-top: 250px;
+}
+
+.section1Text p{
+    font-size: 25px;
+    font-weight: lighter;
+}
+
+h1{
+    font-size: 80px;
+}
+
+.section2{
+    height: 500px;
+}
+
+h2{
+    font-size: 30px;
+    padding-top: 20px;
+    margin: 0 auto;
+    width: 259px;
+    text-align: center;
+    border-bottom: 2px solid #00B172;
+    
+}
+
+.boxContainer{
+    margin: 0 auto;
+    width: 100%;
+    height: 400px;
+    display: flex;
+    justify-content: space-around;
+}
+
+.boxes{
+    width: 20%;
+    height: 400px;
+    text-align: center;
+}
+
+.boxes img{
+    margin-top: 15%;
+}
+
+h3{
+    color: #00B172;
+    font-size: 1.8em;
+}
+
+.boxes p{
+    width: 50%;
+    margin: 0 auto;
+    padding-top: 20px;
+}
+
+.section3{
+    background-image: url(../images/spotify-icon-white.png);
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: 10%;
+    width: 95%;
+    height: 1000px;
+    background-color: #00B172;
+    margin: 0 auto;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+}
+
+.footerText{
+    width: 45%;
+    height: 90%;
+}
+
+.footerTitle{
+    color: white;
+    font-size: 2.3em;
+}
+
+/**.footerParragraph{
+    background-color: pink;
+    height: 250px;
+    width: 100%;
+}
+*/
+
+
+.player{
+    width: 45%;
+    height: 90%;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+}
