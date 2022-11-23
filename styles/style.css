@@ -1,8 +1,174 @@
-/*
-Colors:
+/* --------Color scheme--------
 
 Text: 1A1A1A
 Green: #00B172
 White: #FFF
 
 */
+
+/*----------type selectors----------*/
+body, html{
+    font-family: 'Roboto';
+    height: 100%;
+    margin: 0;
+    padding: 0;
+    width: 100%;
+}
+
+header{
+    align-items: center;
+    background-image: url(../images/landing.jpg);
+    background-position-y: -5vw;
+    background-size: cover;
+    color: #FFF;
+    display: flex;
+    flex-direction: column;
+    height: 60vw;
+    justify-content: center;
+}
+
+/*----------class selectors--------*/
+
+/*features-section*/
+
+.feature{
+    width: 20%;
+}
+
+.features{
+    align-items: center;
+    display: flex;
+    justify-content: space-around;
+    text-align: center;
+}
+
+.feature-heading{
+    color: #00B172;
+    font-size: 1.8vw;
+}
+
+.feature-icon{
+    width: 30%;
+}
+
+.features-heading {
+    font-size: 3vw;
+    text-align: center;
+}
+
+.feature-text{
+    font-size: 1.7vw;
+    padding: 0 1vw;
+}
+
+.horizontal-rule-features{
+    border-top: 0.2vw solid #00B172;
+    bottom: 2vw;
+    position: relative;
+    width: 22vw;
+}
+
+/*guide*/
+
+.guide{
+    display: flex;
+    padding: 1vw 3vw;
+}
+
+.guide-heading {
+    font-size: 3.5vw;
+}
+
+.guide-text, .guide-image{
+    width: 50%;
+}
+
+.guide-image{
+    text-align: right;
+}
+
+.guide-text-text{
+    font-size: 1.8vw;
+    margin-right: 15vw;
+}
+
+
+.app-image {
+    position:relative;
+    top: 3vw;
+    width: 70%;
+}
+
+.guide-text-heading{
+    font-size: 2.6vw;
+}
+
+.horizontal-rule-guide{
+    border-top: 0.13vw solid white;
+    bottom: 2.9vw;
+    position: relative;
+    right: 2vw;
+    width: 90%;
+}
+
+.spotify-logo-white{
+    left: 40vw;
+    position: relative;
+    top: 43vw;
+    width: 11%;
+}
+
+/*navbar*/
+.nav-links{
+    display: flex;
+    list-style-type: none;
+}
+
+.nav-link{
+    margin: 0 2vw;
+}
+
+.spotify-logo{
+    width: 15%;
+}
+
+/*title section*/
+
+.title{
+    bottom: 5vw;
+    text-align: center;
+    position: relative;
+    width: 50%;
+}
+
+.title-heading{
+    font-size: 5.4vw;
+}
+
+.title-aside{
+    font-size: 2.2vw;
+}
+
+/*--------id selectoors---------------*/
+#features {
+    margin-top: 5vw;
+}
+
+#navbar {
+    background-color: #FFF;
+    display: flex;
+    padding: 1vw;
+    position: fixed;
+    z-index: 1;
+}
+
+#site-guide{
+    background-color: #00B172;
+    color: #FFF;
+    display: flex;
+    flex-direction: column;
+    margin: 2vw;
+    padding-bottom: 0;
+}
+
+
