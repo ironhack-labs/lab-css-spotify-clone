@@ -6,3 +6,174 @@ Green: #00B172
 White: #FFF
 
 */
+
+html {
+	box-sizing: border-box;
+}
+
+*,
+*:before,
+*:after {
+	box-sizing: inherit;
+}
+
+body {
+	margin: 0 auto;
+	font-family: 'Lato', sans-serif;
+	height: 100vh;
+	max-width: 1200px;
+}
+
+header {
+	min-height: 50px;
+	display: flex;
+	justify-content: space-between;
+	padding: 10px 40px;
+	position: fixed;
+	background-color: white;
+	width: 100%;
+	max-width: 1200px;
+}
+nav {
+	width: fit-content;
+	display: flex;
+	justify-content: center;
+	align-items: center;
+}
+
+section {
+	display: flex;
+}
+
+.section__one {
+	flex-direction: column;
+	height: 50rem;
+}
+
+.logo {
+	display: flex;
+	justify-content: center;
+	align-items: center;
+}
+
+.logo img {
+	height: 50px;
+}
+
+ul {
+	margin: 0;
+	padding: 0;
+	display: flex;
+	list-style-type: none;
+	gap: 2rem;
+}
+
+.hero {
+	background: url('/lab-css-spotify-clone/images/landing.jpg');
+	background-size: cover;
+	background-position: 10%;
+	display: flex;
+	flex-direction: column;
+	flex: 1;
+	justify-content: center;
+	align-items: center;
+	color: white;
+	font-size: 22px;
+}
+#hero__title {
+	font-size: 60px;
+	font-weight: 700;
+	margin: 0;
+}
+
+#hero__text {
+	text-align: center;
+}
+.section__two {
+	display: flex;
+	flex-direction: column;
+	height: 30rem;
+	justify-content: center;
+	align-items: center;
+	margin-top: 40px;
+}
+
+article {
+	display: flex;
+	padding: 50px;
+}
+article > div {
+	flex: 1;
+}
+#s2__title {
+	font-size: 26px;
+	font-weight: 700;
+	border-bottom: 3px solid #00b172;
+	padding-bottom: 5px;
+}
+.card {
+	width: 20rem;
+	text-align: center;
+	padding: 60px;
+	font-size: 18px;
+}
+.card img {
+	height: 70px;
+}
+
+#green {
+	font-size: 20px;
+	color: #00b172;
+	font-weight: 900;
+}
+
+.section__three {
+	display: flex;
+	justify-content: center;
+}
+
+.background__green {
+	background-color: #00b172;
+	display: flex;
+	justify-content: space-between;
+	width: 90vw;
+	position: relative;
+}
+
+.right,
+.left {
+	width: fit-content;
+}
+.right {
+	margin: 70px 70px 50px 70px;
+	display: flex;
+	align-items: center;
+	justify-content: center;
+}
+.right img {
+	height: 30rem;
+}
+
+.left {
+	margin: 50px 70px;
+	color: white;
+}
+
+#last__title {
+	font-size: 26px;
+	font-weight: 700;
+	border-bottom: 3px solid white;
+	padding-bottom: 5px;
+}
+
+.stack {
+	width: 15rem;
+	padding: 10px;
+}
+
+img#spotify__white {
+	height: 5rem;
+	position: relative;
+
+	top: 50%;
+}
