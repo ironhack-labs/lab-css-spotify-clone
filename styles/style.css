@@ -6,3 +6,175 @@ Green: #00B172
 White: #FFF
 
 */
+
+
+* {
+    padding: 0;
+    margin: 0;
+    font-family: 'Montserrat', sans-serif;
+    color: #1A1A1A;
+}
+
+/* nav */
+
+#nav-container {
+    height: 6vh;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 1vh 3vh;
+}
+
+#nav-logo {
+    height: 6vh;
+}
+
+#nav-links-container {
+    display: flex;
+    justify-content: space-evenly;
+    font-weight: 400;
+    font-size: 0.8rem;
+}
+
+#nav-links-container li {
+    list-style: none;
+    padding: 0 1vh;
+}
+
+/* landing */
+
+#landing-page-container {
+    background-image: url("../images/landing.jpg");
+    background-repeat: no-repeat;
+    background-size: cover;
+    height: 68vh;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+  
+    position: relative;
+    text-align: center;
+}
+
+#landing-page-container h1 {
+    padding-top: 20vh;
+    font-size: 3rem;
+    font-weight: 600;
+    color: #FFF;
+}
+
+#landing-page-container p {
+    font-size: 1rem;
+    font-weight: 300;
+    padding: 0 22vh 32vh;
+    color: #FFF;
+}
+
+/* features */
+
+#main-features-block{
+    padding: 4vh;
+    height: 48vh;
+    text-align: center;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+}
+
+#features-container {
+    display: flex;
+    justify-content: space-evenly;
+    align-items: center;
+    padding-top: 6vh;
+}
+
+.feature-box {
+    display: flex;
+    flex-direction: column;
+    padding: 2vh;
+    text-align: center;
+    justify-content: space-evenly;
+    align-items: center;
+    width: 30%;
+    height: 100%;
+    
+}
+
+.feature-logo {
+    width: 10vh;
+}
+
+.feature-box h3 {
+    color: #00B172;
+    font-weight: 700;
+    font-size: 1.1rem;
+    padding: 1vh 0;
+}
+
+.feature-box p {
+    font-weight: 300;
+    font-size: 0.9rem;
+}
+
+/* last section */
+
+#discover-app-block {
+    height: 70vh;
+    width: 100%;
+    background-color: #00B172;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    position: relative;
+
+}
+
+#discover-app-left-pane {
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    height: 100%;
+    width: 50%;
+    padding: 0 8vh;
+    
+}
+
+#spotify-app {
+    width: 25%;
+    padding-right: 4vh;
+}
+
+#discover-app-title {
+    color: #FFF;
+    font-weight: 600;
+    font-size: 1.3rem;
+    text-decoration: underline;
+    text-underline-offset: 1.2vh;
+    padding-top: 8vh;
+}
+
+.discover-app-box {
+ padding-right: 16vh;
+ 
+
+}
+
+.discover-app-box h3 {
+    padding: 3vh 0;
+    color: #FFF;
+    font-size: 1.1rem;
+}
+
+.discover-app-box p {
+    font-weight: 300;
+    color: #FFF;
+    font-size: 0.9rem;
+}
+
+#spotify-icon-white{
+    width: 14vh;
+    position: absolute;
+    left: 50%;
+
+}
