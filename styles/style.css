@@ -6,3 +6,157 @@ Green: #00B172
 White: #FFF
 
 */
+
+* {
+  margin: 0;
+  box-sizing: border-box;
+}
+
+body {
+  font-family: 'Roboto', sans-serif;
+}
+
+ul,
+li {
+  list-style: none;
+}
+
+.navbar {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  padding: 20px 40px;
+}
+
+.logo-spotify {
+  width: 20%;
+}
+
+.menu-navbar {
+  gap: 30px;
+  align-items: center;
+  display: flex;
+  font-size: 1.2rem;
+}
+
+.bg-img {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  background: url(/images/landing.jpg);
+  background-size: cover;
+  text-align: center;
+  width: 100vw;
+  height: 100vh;
+  color: white;
+}
+
+.bg-img h1 {
+  font-size: 4rem;
+  font-weight: 500;
+}
+
+.bg-img p {
+  font-size: 1.5rem;
+  font-weight: 200;
+  width: 60%;
+  padding-top: 40px;
+}
+
+.section {
+  display: flex;
+  justify-content: space-between;
+  align-items: baseline;
+  padding-top: 60px;
+  gap: 50px;
+}
+
+.section img {
+  width: 40%;
+}
+
+.center-class {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  text-align: center;
+  gap: 20px;
+}
+
+.center-class h3 {
+  color: #00b172;
+  font-size: 2rem;
+}
+
+.center-class p {
+  color: #1a1a1a;
+  font-size: 1.4rem;
+  font-weight: 200;
+}
+
+.main-class {
+  text-align: center;
+  padding: 70px 80px;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+.title-spotify {
+  font-size: 2.5rem;
+  border-bottom: 3px solid #00b172;
+  width: max-content;
+  text-align: center;
+  padding-bottom: 5px;
+}
+
+.second-class {
+  background-color: #00b172;
+  display: flex;
+  padding: 50px;
+  margin: 50px;
+}
+
+.img-app {
+  width: 60%;
+}
+
+.wrapper-img {
+  justify-content: flex-end;
+  align-items: center;
+  display: flex;
+}
+
+.title {
+  font-size: 1.8rem;
+  border-bottom: 3px solid #fff;
+  max-width: max-content;
+  padding-bottom: 5px;
+  color: #fff;
+  margin-bottom: 50px;
+}
+
+.items {
+  padding-bottom: 40px;
+  width: 60%;
+  color: #fff;
+}
+
+.items h4 {
+  font-size: 1.4rem;
+  padding-bottom: 15px;
+}
+
+.items p {
+  font-size: 1.2rem;
+  font-weight: 200;
+}
+
+.icon-white {
+  position: relative;
+  top: 290px;
+  left: 460px;
+  width: 30%;
+  z-index: 1;
+}
