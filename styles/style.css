@@ -6,3 +6,120 @@ Green: #00B172
 White: #FFF
 
 */
+body{
+    font-family: sans-serif;
+    margin: 0;
+    padding: 0
+}
+
+.headerbar img{
+    margin-left: 1rem;
+    margin-bottom: 1rem;
+    width: 150px;
+}
+.headerbar{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+
+.headerbar > nav > a{
+    padding: 0 1rem;
+    text-decoration: none;
+    color: black;
+}
+.section1 {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    color: aliceblue;
+    background-image: url(../images/landing.jpg);
+    background-size: cover;
+    width: auto;
+    height: 600px;
+    margin: 0;
+}
+.section1 > h1{
+    font-size: 3rem;
+    font-weight: lighter;
+    margin: 0;
+}
+.section1 > p{
+    text-align: center;
+    padding: 0 13rem;
+    line-height: 1.5rem;
+    font-weight: 100;
+    font-size: 1rem;
+}
+
+#section2{
+    margin-bottom: 5rem;
+}
+#section2 > h2{
+    text-align: center;
+    padding-top: 0 4rem;
+    margin: 3rem 0;
+    font-size: 2rem;
+}
+#section2 > div{
+    display: flex;
+    justify-content: space-around;
+}
+#section2 > div > div{
+    display: flex;
+    flex-direction: column; 
+    text-align: center;
+    align-items: center;
+}
+
+#section2 > div > div > img{
+    width: 8rem;
+}
+    
+#section2 > div > div >h3{
+    color:#00B172
+}  
+#section2 > div > div > p{
+    margin-top: 3rem;
+    margin: 1rem 7rem 0 7rem;
+    line-height: 1.5rem;
+}
+
+#section3{
+    margin: 0 2rem;
+    background-color: #00B172;
+    display: flex;
+    justify-content: space-between;
+    background-image: url(../images/spotify-icon-white.png);
+    background-size: 10rem;
+    background-repeat: no-repeat;
+    background-position: center;
+    width: 100%;
+}
+#section3 > div >h2{
+    padding-bottom: 0.5rem;
+    color:aliceblue;
+    border-bottom:solid 2.5px aliceblue;
+}
+#section3 > div:first-child{
+    margin: 3rem 12rem 3rem 5rem;
+}
+#section3 > div:last-child{
+    display: flex;
+    align-items: center;
+}
+#section3 > div:last-child > img{
+    padding-right: 8rem;
+    width: 17rem ;
+    
+}
+.info{
+    color: aliceblue;
+}
+.info > div > h3{
+    margin: 2.5rem 0;
+}
+.info > div > p{
+    width: 16rem;
+}
