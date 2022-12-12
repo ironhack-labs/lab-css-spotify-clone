@@ -8,20 +8,38 @@ White: #FFF */
 body {
     
     font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    font-weight: lighter;
 }
-header {
+.header {
     background-image: url("../images/landing.jpg");
     background-size: cover;
     height: 2000px;
     color: #FFF;
 }
-nav {
+header {
     background-color: #FFF;
-    
+    position: fixed;
+    top: 0;
+    margin: 0;
+    width: 100%;
+    display: flex;
 }
 .navbar {
+    float: right;
+    display: flex;
+    justify-content: space-around;
+    list-style-type: none;
+    padding-left: 50%;
     color: #1A1A1A;
     text-align: end; 
+    font-size: 25px;
+    width: 80%;
+    /* line-height: 1.5em; */
+}
+
+.li {
+    padding-left: 20px;
+    padding-bottom: 30px;
 }
 
 .heading {
@@ -37,6 +55,78 @@ nav {
     text-decoration: none;
 }
 .logo-img {
-    width: 200px;
+    width: 15%;
     padding-left: 50px;
+    float: inline-start;
 }
+
+.spot {
+    text-align: center;
+    font-size: 50px;
+    padding: 50px;
+}
+
+.icons {
+    display: flex;
+    justify-content: space-around;
+
+}
+
+.icon-img {
+    width: 150px;
+}
+
+.icon-head {
+    color: #00B172;
+}
+
+.icon-txt {
+    font-size: 20px;
+}
+
+.green {
+    background-color: #00B172;
+    color: #FFF;
+    position: relative; 
+    height: 650px;
+}
+
+.yeezy {
+    text-decoration: underline;
+    font-size: 35px;
+    padding-left: 50px;
+    padding-top: 35px;
+    padding-bottom: 20px;
+}
+#white-icon {
+    width: 10%;
+    position: absolute;
+    left: 45%;
+    top: 30%;
+}
+
+#app {
+    /* float: right; */
+    position: absolute;
+    top: 50px;
+    right: 100px;
+    height: 68%
+}
+
+.article {
+    padding-bottom: 20px;
+    padding-left: 50px;
+    width: 300px
+}
+
+.art-head {
+    font-size: 25px;
+}
+
+.art-p {
+    font-size: 20px;
+}
+/* .section {
+    display: flex;
+    flex-direction: row;
+} */
