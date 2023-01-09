@@ -6,3 +6,136 @@ Green: #00B172
 White: #FFF
 
 */
+
+* {
+  font-family: "Arial";
+}
+
+nav {
+  margin: 10px;
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.logo {
+  height: 50px;
+}
+
+ul {
+  display: flex;
+  justify-content: right;
+}
+
+nav li {
+  list-style-type: none;
+  display: inline-block;
+  padding: 0 20px;
+}
+
+li a {
+  text-decoration: none;
+  color: black;
+}
+.cover {
+  background-image: url("/images/landing.jpg");
+  background-repeat: no-repeat;
+  height: 600px;
+  background-position: center;
+  background-color: #fff;
+  background-size: cover;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  color: #fff;
+  text-align: center;
+}
+
+h1 {
+  font-size: 60px;
+}
+
+.cover,
+p {
+  font-size: 18px;
+  line-height: 1.2;
+  font-weight: lighter;
+}
+
+h2 {
+  text-align: center;
+  font-size: 30px;
+  line-height: 1;
+  margin-bottom: 0;
+}
+
+hr {
+  border-top: 3px solid #00b172;
+  width: 280px;
+}
+.container-section {
+  display: flex;
+  flex-wrap: wrap;
+  align-items: center;
+  justify-content: center;
+  margin-bottom: 30px;
+  margin-top: 50px;
+}
+.section-card {
+  padding: 20px;
+}
+
+.section-card-icon {
+  width: 40px;
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+}
+
+.section-card h3 {
+  color: #00b172;
+  text-align: center;
+}
+
+.section-card p {
+  width: 300px;
+  font-size: 18px;
+  color: rgb(58, 58, 58);
+  text-align: center;
+}
+
+footer {
+  background-color: #00b172;
+  padding: 20px;
+  color: #fff;
+  display: flex;
+  flex-wrap: wrap;
+  align-items: center;
+  justify-content: center;
+}
+
+.footer-card,
+hr {
+  border-top: 3px solid #fff;
+  width: 400px;
+}
+
+.footer-card,
+p {
+  width: 300px;
+}
+.container-footer {
+  margin-bottom: 30px;
+  margin-top: 50px;
+  padding: 80px;
+}
+
+.container-footer .spotify-img {
+  width: 100px;
+}
+
+.container-footer .spotify-app-img {
+  width: 300px;
+}
