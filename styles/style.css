@@ -1,8 +1,231 @@
-/*
-Colors:
+@import url('https://fonts.googleapis.com/css2?family=Montserrat:wght@300&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Montserrat:wght@500;700&display=swap');
 
-Text: 1A1A1A
-Green: #00B172
-White: #FFF
+html, body {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'Montserrat', sans-serif;
+}
 
-*/
+:root {
+    --text: #1A1A1A;
+    --green: #00B172;
+    --white: #fff;
+}
+
+main {
+    margin: auto;
+}
+
+a {
+    text-decoration: none;
+    color: inherit;
+}
+
+.flex-column {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+.nav-bar {
+    position: fixed;
+    top: 0;
+    width: 100%;
+    background-color: var(--white);
+    padding: 10px;
+}
+
+.nav-container {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    width: 95vw;
+    margin: auto;
+}
+
+nav ul {
+    list-style: none;
+    display: flex;
+    gap: 30px;
+}
+
+.nav-bar img {
+    height: 60px;
+}
+
+@media screen and (max-width: 650px) {
+    .nav-container {
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+    }
+}
+.brand-intro {
+    margin-top: 80px;
+    width: 100%;
+    background-image: url("/images/landing.jpg");
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-clip: border-box;
+    min-width: 100vw;
+    height: 90vh;
+    color: var(--white);
+}
+
+.brand-intro h1 {
+    font-size: 4rem;
+    font-weight: 900;
+}
+
+.brand-intro p {
+    font-size: 1.3rem;
+    text-align: center;
+}
+
+.section-1 .section-2 {
+    width: 90vw;
+}
+.section-1 {
+    margin-bottom: 60px;
+}
+
+.section-1 h4 {
+    text-align: center;
+    color: var(--text);
+    font-size: 2rem;
+    font-weight: 900;
+    border-bottom: solid 3px var(--green);
+    width: fit-content;
+    line-height: 1.5;
+}
+
+.web-content {
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    justify-content: center;
+    gap: 10vw;
+    margin: 30px 0;
+}
+.content-item {
+    width: 250px;
+}
+
+.content-item img {
+    width: 100px;
+}
+
+.content-item h5 {
+    color: var(--green);
+    font-size: 1.5rem;
+    font-weight: 900;
+    margin: 10px 0;
+    text-align: center;
+}
+
+.content-item p {
+    text-align: center;
+    font-size: 1.2rem;
+    font-weight: 300;
+}
+
+@media screen and (max-width: 900px) {
+    .content-item {
+        width: 200px;
+    }
+
+    .brand-intro {
+        height: 70vh;
+    }
+}
+.section-2 {
+    background-color: var(--green);
+    color: var(--white);
+    display: grid;
+    grid-template-columns: 2fr 1fr;
+    align-items: center;
+    gap: 40px;
+    margin-bottom: 50px;
+}
+
+.item-1 {
+    margin: 70px 60px 70px 70px;
+}
+
+.item-2 {
+    margin-right: 70px;
+}
+
+.item-1 h3 {
+    border-bottom: solid 2px var(--white);
+    width: max-content;
+    line-height: 1.5;
+    font-size: 1.8rem;
+    margin: 0 0 30px
+}
+
+.item-1 article {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.article-text {
+    width: 250px;
+}
+
+.article-text h4 {
+    font-size: 1.5rem;
+}
+
+.article-text p {
+    font-size: 1.1rem;
+    font-weight: 300;
+}
+.item-1 img {
+    width: 100%;
+    height: auto;
+    max-width: 120px;
+}
+
+.item-2 img {
+    width: 100%;
+    height: auto;
+    max-width: 300px;
+}
+
+@media screen and (max-width: 750px) {
+    .brand-intro h1 {
+        font-size: 2rem;
+        font-weight: 900;
+    }
+    
+    .brand-intro p {
+        font-size: 1rem;
+        text-align: center;
+    }
+
+    .web-content {
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+    }
+    .section-2 {
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        justify-content: center;
+    }
+    .item-2 .item-1 {
+        margin: auto;
+    }
+    .item-2 {
+        margin-right: 0;
+    }
+    .item-2 img {
+        padding-bottom: 50px;
+    }
+}
