@@ -1,8 +1,8 @@
-
 * {
     margin: 0;
     font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
     font-weight: lighter;
+
 }
 
 
@@ -16,7 +16,7 @@ li {
 
 header {
     display: flex;
-    justify-content: space-between;
+    justify-content: space-between; 
     padding: 15px 25px 15px 25px;
     align-items: center;
     background-color: #FFFFFF;
@@ -29,11 +29,11 @@ nav ul {
     display: flex;
     align-items: center;
     padding-right: 50px;
+    width: 30vw;
+    justify-content: space-around;
+    flex-wrap: wrap;
 }
 
-nav ul li {
-    margin-left: 10px;
-}
 
 nav a {
     text-decoration: none;
@@ -52,11 +52,11 @@ nav a {
 }
 
 h1 {
-    font-size: 4em;
+    font-size: 4rem;
 }
 
 #first-section p {
-    font-size: 1.5em;
+    font-size: 1.5rem;
 }
 
 .features {
@@ -82,7 +82,7 @@ h1 {
     margin-top: 30px;
 }
 
-.container h4 {
+.subtitle {
     color: #00B172;
     font-size: 1.2em;
     padding-bottom: 10px;
@@ -103,7 +103,9 @@ h1 {
     
 }
 
-
+.kanye-container {
+    display: flex;
+}
 
 #kanye {
     width: 250px;
@@ -126,7 +128,7 @@ h3 {
     
 }
 
-.content h4 {
+.content .sub {
     margin-top: 25px;
     font-size: 1.2em;
 }
