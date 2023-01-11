@@ -1,8 +1,31 @@
-/*
-Colors:
+:root {
+  --padding: 0.8rem;
+}
 
-Text: 1A1A1A
-Green: #00B172
-White: #FFF
+/* ----------- header ----------------- */
 
-*/
+.header-links li {
+  list-style-type: none;
+  font-size: 1.5rem;
+  padding: var(--padding);
+}
+
+.top-level-header .spotify-logo {
+  display: flex;
+}
+
+.top-level-header ul {
+  display: flex;
+  padding-right: var(--padding);
+}
+
+.top-level-header img {
+  height: 4rem;
+  padding-left: var(--padding);
+}
+
+.top-level-header {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
