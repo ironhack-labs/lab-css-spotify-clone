@@ -62,3 +62,44 @@ body {
 }
 
 /* ----------- info banner ----------------- */
+
+.info-banner-title,
+.info-banner-columns strong {
+  color: #00b172;
+}
+
+.info-banner-title {
+  font-size: 1.5rem;
+  text-decoration: underline;
+  margin: 0%;
+}
+
+.info-banner-columns {
+  text-align: center;
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+  width: 100vw;
+}
+
+.info-banner-column {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  padding-left: 7%;
+  padding-right: 7%;
+}
+
+.info-banner-column img {
+  height: 3rem;
+  padding: var(--padding);
+}
+
+.info-banner {
+  display: flex;
+  flex-direction: column;
+  justify-content: space-around;
+  align-items: center;
+  width: 100vw;
+}
