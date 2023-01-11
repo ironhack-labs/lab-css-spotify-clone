@@ -1,5 +1,11 @@
 :root {
+  font-family: Arial, Helvetica, sans-serif;
+
   --padding: 0.8rem;
+}
+
+body {
+  margin: 0;
 }
 
 /* ----------- header ----------------- */
@@ -29,3 +35,30 @@
   justify-content: space-between;
   align-items: center;
 }
+
+/* ----------- mid-level-banner ----------------- */
+
+.mid-level-banner-title {
+  font-size: 4rem;
+  margin: 0%;
+}
+
+.mid-level-banner-content {
+  font-size: 1rem;
+  margin: 5%;
+  line-height: 1.5rem;
+}
+
+.mid-level-banner {
+  color: white;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  text-align: center;
+  background-image: url("../images/landing.jpg");
+  background-size: cover;
+  height: 80vh;
+}
+
+/* ----------- info banner ----------------- */
