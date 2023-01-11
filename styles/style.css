@@ -1,6 +1,7 @@
 :root {
   font-family: Arial, Helvetica, sans-serif;
 
+  --primary-color: #00b172;
   --padding: 0.8rem;
 }
 
@@ -65,7 +66,7 @@ body {
 
 .info-banner-title,
 .info-banner-columns strong {
-  color: #00b172;
+  color: var(--primary-color);
 }
 
 .info-banner-title {
@@ -102,4 +103,53 @@ body {
   justify-content: space-around;
   align-items: center;
   width: 100vw;
+}
+
+/* ----------- app banner ----------------- */
+
+.app-banner img {
+  padding: var(--padding);
+}
+
+.app-banner img[alt="spotify-icon-white"] {
+  height: 5rem;
+}
+
+.app-banner img[alt="spotify-app"] {
+  height: 20rem;
+}
+
+.app-banner-title {
+  font-size: 1.5rem;
+  text-decoration: underline;
+  margin: 0%;
+  padding: 0%;
+}
+
+.app-banner-desc {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  padding-left: 7%;
+  padding-right: 7%;
+}
+
+.app-banner-content {
+  background-color: var(--primary-color);
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  align-items: center;
+  text-align: center;
+  width: 100vw;
+  padding: var(--padding);
+}
+
+.app-banner {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  text-align: center;
 }
