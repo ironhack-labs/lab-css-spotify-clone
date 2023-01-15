@@ -6,3 +6,171 @@ Green: #00B172
 White: #FFF
 
 */
+* {
+  box-sizing: border-box;
+}
+
+html,
+body {
+  padding: 0;
+  margin: 0;
+}
+
+#logo {
+  width: 200px;
+  height: 60px;
+  margin-bottom: 10px;
+  margin-left: 15px;
+  margin-top: 5px;
+}
+
+nav {
+  display: flex;
+  width: 100vw;
+  background-color: #fff;
+  padding: 14px 0;
+  position: fixed;
+  justify-content: space-between;
+  flex-wrap: nowrap;
+}
+
+#navBarUL {
+  margin: 0 auto;
+}
+
+nav ul > li {
+  display: inline;
+  justify-content: space-evenly;
+  margin-right: 40px;
+  list-style: none;
+}
+
+a {
+  color: black;
+  text-decoration: none;
+}
+
+.header {
+  background-image: url("../images/landing.jpg");
+  height: 75em;
+  background-size: cover;
+  background-repeat: no-repeat;
+  background-position: 0 0;
+}
+
+h1 {
+  position: relative;
+  left: 35px;
+  top: 400px;
+  text-align: center;
+  line-height: 1em;
+  font-size: 6em;
+  color: #fff;
+  margin: 0;
+}
+
+header h2 {
+  position: relative;
+  left: 35px;
+  top: 500px;
+  text-align: center;
+  color: #fff;
+  font-size: 20px;
+}
+
+#landingImage {
+  width: 100vw;
+}
+
+#structure {
+  width: 100vw;
+  margin: 0 auto;
+  padding: 25px 0;
+}
+
+#structure > div {
+  display: flex;
+  justify-content: space-evenly;
+  flex-direction: row;
+  flex-wrap: nowrap;
+}
+
+#structure > h2 {
+  margin-top: 20px;
+  text-align: center;
+}
+
+#structure h2 > hr {
+  background-color: #00b172;
+  height: 5px;
+  width: 18%;
+}
+
+#structure h4 {
+  color: #00b172;
+  text-align: center;
+  font-weight: bolder;
+}
+
+.serviceBox {
+  text-align: center;
+  box-sizing: border-box;
+  margin: 50px 5% 0 5%;
+  padding: 30px;
+  width: 40%;
+}
+
+.serviceBox img {
+  width: 150px;
+}
+
+#wrapper {
+  display: flex;
+  background-color: #00b172;
+  background-image: url("../images/spotify-icon-white.png");
+  background-size: 100px;
+  background-repeat: no-repeat;
+  background-position: center;
+  margin: 0px 20px 20px 20px;
+  height: 30em;
+  justify-content: space-between;
+}
+
+#wrapper h2 {
+  color: #fff;
+  text-align: left;
+  margin-left: 50px;
+  width: 300px;
+}
+
+#wrapper h2 > hr {
+  background-color: #fff;
+  height: 5px;
+}
+
+#wrapper h3 {
+  color: #fff;
+  text-align: left;
+  font-weight: bold;
+  margin-bottom: 20px;
+  font-size: 20px;
+  margin-left: 50px;
+}
+
+#wrapper p {
+  color: #fff;
+  text-align: left;
+  width: 80%;
+  font-weight: lighter;
+  line-height: 2em;
+  margin-left: 50px;
+}
+
+#wrapper img {
+  margin-left: 150px;
+  padding-top: 30px;
+  padding-bottom: 30px;
+  width: 200px;
+  align-self: center;
+  margin-right: 50px;
+}
