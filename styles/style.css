@@ -6,3 +6,105 @@ Green: #00B172
 White: #FFF
 
 */
+img {
+    width: 100%
+}
+
+body {
+    margin: 0;
+    font-family: sans-serif;
+
+}
+
+header {
+
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 15px 30px;
+    position: fixed;
+    top: 0;
+    background-color: white;
+    width: 100%;
+    padding-right: 100px;
+
+}
+
+header img {
+    width: 200px
+}
+
+nav ul {
+    display: flex;
+    list-style: none;
+    margin: 0px
+}
+
+nav li {
+    margin: 10px;
+
+}
+
+nav li a {
+    text-decoration: none;
+    color: black;
+}
+
+.hero {
+    background-image: url(../images/landing.jpg);
+    color: white;
+    height: 100vh;
+    background-size: cover;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+.hero h1 {
+    font-size: 4em;
+    font-weight: 500;
+}
+
+.hero p {
+    font-size: 1.5em;
+}
+
+.main h2 {
+    text-align: center;
+    color: black;
+
+}
+
+.main hr {
+    background-color: #00B172;
+    width: 300px;
+    height: 2px;
+    border: none;
+}
+
+.features {
+
+    display: flex;
+    justify-content: center;
+    text-align: center;
+    align-items: center;
+    margin: 30px 0;
+}
+
+.features figure img {
+    height: 100%
+}
+
+.features figure h3 {
+    color: #00B172;
+    font-weight: 500;
+}
+
+.end {
+    display: flex;
+    justify-content: space-between;
+    height: 700px;
+    background-color: #00B172;
+
+}
