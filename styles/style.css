@@ -1,5 +1,4 @@
-@import url('https://fonts.googleapis.com/css2?family=Montserrat&display=swap');
-
+@import url('https://fonts.googleapis.com/css2?family=Montserrat:wght@400;600;700&display=swap');
 /*
 Colors:
 
@@ -15,6 +14,15 @@ html {
     font-family: 'Montserrat', sans-serif;
     font-size: 20px
   }
+  h3 {
+    color:#00B172 ;
+    font-weight:600;
+   }
+
+   hr {
+    border: 1px solid #00B172
+   }
+   /*  the nav bar */
 
   .nav-bar {
     position: fixed;
@@ -41,16 +49,18 @@ html {
     padding: 6px 10px;
    }
  
-.spotify-logo {
+  .spotify-logo {
     height: 50px;
   }
+
+ /*  hearder section */
 
   header {
     background-image: url(../images/landing.jpg);
     background-position: 0 0;
     background-size: cover;
     background-repeat: no-repeat;
-    height: 700px;
+    height: 800px;
     display: flex;
     justify-content: center;
     flex-direction: column;
@@ -58,15 +68,50 @@ html {
     color: #FFF;
     text-align: center;
     line-height: 1.6;  
-     
   }
 
   header h1 {
     font-size: 3.5em;
     letter-spacing: 2px;
-    
     margin: 10px;
   }
+
+  /*  second section */
+  .info {
+    display: flex;
+    flex-direction: column;
+    justify-content: space-around;
+    align-items: center; 
+    padding-top: 20px;
+    font-weight: normal;
+   }
+
+   #three-boxes {
+    display: flex;
+    justify-content: space-around;
+   } 
+
+   #three-boxes .container {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    width: 370px;
+   }
+
+   .container {
+    width: 1200px;
+    margin: 0 auto;
+    padding: 75px 0;
+   }
+
+   .text {
+    text-align: center;
+   }
+
+   .container img {
+    height: 48px;
+   }
+
 
  
 
