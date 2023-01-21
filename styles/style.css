@@ -12,17 +12,23 @@ html {
     margin: 0;
     padding: 0;
     font-family: 'Montserrat', sans-serif;
-    font-size: 20px
+    font-size: 18px;
   }
-  h3 {
-    color:#00B172 ;
-    font-weight:600;
-   }
+
+  h1 {
+    font-size: 4rem;
+  }
+  h2 {
+    font-size: 1.8rem;
+  }
 
    hr {
     border: 1px solid #00B172
    }
+
+
    /*  the nav bar */
+   
 
   .nav-bar {
     position: fixed;
@@ -71,24 +77,22 @@ html {
   }
 
   header h1 {
-    font-size: 3.5em;
-    letter-spacing: 2px;
     margin: 10px;
+    font-weight: normal;
   }
 
   /*  second section */
   .info {
     display: flex;
     flex-direction: column;
-    justify-content: space-around;
     align-items: center; 
     padding-top: 20px;
-    font-weight: normal;
    }
 
    #three-boxes {
     display: flex;
     justify-content: space-around;
+    line-height: 1.5; 
    } 
 
    #three-boxes .container {
@@ -109,8 +113,89 @@ html {
    }
 
    .container img {
-    height: 48px;
+    height: 80px;
    }
+
+   .green-sub {
+    color:#00B172 ;
+    font-weight:600;
+   }
+
+  /*  third section  */
+   #last-section {
+     display: flex;
+     background-color: #00B172;
+     align-content: center;
+     justify-content: center;
+     align-items: center;
+     color: #FFF;
+     margin: 3% 3% 0;
+     padding: 3%;
+     height: auto;
+     text-align: center;
+   }
+
+   #last-section h2 {
+    width: 90%;
+    text-align: left;
+    font-weight: normal;
+   }
+   
+   #last-section p {
+    text-align: left;
+    letter-spacing: 1.5px;
+    line-height: 1.5;
+   }
+  
+   #last-section .content {
+    width: 100%;
+    display: flex;
+    flex-direction: row;
+    flex-wrap: nowrap;
+    justify-content: space-around;
+    align-items: center;
+    align-content: center;
+   }
+
+   .text-flow {
+    display: flex;
+    flex-direction: column;
+    color: #FFF;
+    flex-wrap: wrap;
+    justify-content: center;
+    align-items: flex-start;
+    align-content: center;
+    width: 45%;
+
+   }
+
+   #last-section .text-flow {
+    display: flex;
+    flex-direction: column;
+    flex-wrap: wrap;
+    justify-content: center;
+    align-items: flex-start;
+    align-content: center;
+    width: 45%;
+    padding: 20px;
+   }
+
+  #last-section .white-icon-div {
+    width: 10%;
+   }
+  #last-section .app-icon-div {
+  width: 45%;
+   }
+
+   #last-section .white-icon {
+     width:110px
+   }
+   
+   #last-section .app-icon {
+   width: 70%;
+  }
+
+
 
 
  
