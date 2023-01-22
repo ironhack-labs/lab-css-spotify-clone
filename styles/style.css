@@ -6,3 +6,68 @@ Green: #00B172
 White: #FFF
 
 */
+
+body {
+    font-family: 'Montserrat', sans-serif;
+    margin: 0;
+}
+
+nav {
+    width: 100%;
+    position: fixed;
+    background-color: aquamarine;
+}
+
+.container {
+    width: 95%;
+    margin: auto;
+}
+
+.logo {
+    height: 50px;
+    float: left;
+    padding: 10px 0;
+}
+
+nav ul {
+    float: right;
+    padding: 0;
+    list-style: none;
+}
+
+nav li {
+    display: inline-block;
+    margin-left: 70px;
+    padding-top: 10px;
+
+    position: relative;
+}
+
+nav a {
+    color: rgb(50, 50, 50);
+    text-decoration: none;
+}
+
+nav a:hover {
+    color: black;
+}
+
+nav a::before {
+    content: '';
+    display: block;
+    height: 5px;
+    width: 0%;
+    background-color: rgb(50, 50, 50);
+
+    position: absolute;
+    top: 0;
+
+    transition: all ease-in-out 250ms;
+}
+
+nav a:hover::before {
+    width: 100%;
+}
+
+
+
