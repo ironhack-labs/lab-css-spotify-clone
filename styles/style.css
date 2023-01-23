@@ -15,7 +15,7 @@ body {
 nav {
     width: 100%;
     position: fixed;
-    background-color: aquamarine;
+    background-color: rgb(255, 255, 255);
 }
 
 .container {
@@ -33,12 +33,13 @@ nav ul {
     float: right;
     padding: 0;
     list-style: none;
+    margin: 0;
 }
 
 nav li {
     display: inline-block;
     margin-left: 70px;
-    padding-top: 10px;
+    padding-top: 27px;
 
     position: relative;
 }
@@ -57,7 +58,7 @@ nav a::before {
     display: block;
     height: 5px;
     width: 0%;
-    background-color: rgb(50, 50, 50);
+    background-color: rgb(0, 177, 114);
 
     position: absolute;
     top: 0;
@@ -69,5 +70,93 @@ nav a:hover::before {
     width: 100%;
 }
 
+h2 {
+    font-size: 2em;
+    text-decoration: underline;
+    text-underline-offset: 10px;
+}
 
 
+/*-------------------------------- Landing Image --------------------------------*/
+
+.landingImg {
+    background-color: rgb(197, 197, 197);
+    background-image: url("../images/landing.jpg");
+    background-size: cover;
+    background-blend-mode: multiply;
+    padding-top: 200px;
+    padding-bottom: 500px;
+    text-align: center;
+}
+
+h1 {
+    color: white;
+    font-size: 3.5em;
+    padding-top: 100px;
+}
+
+.landingImg p{
+    color: white;
+    font-size: 1.5em;
+    width: 50%;
+    margin: auto;
+}
+
+/*-------------------------------- Box section --------------------------------*/
+
+.boxSection {
+    text-align: center;
+    margin: 50px 0;
+}
+
+.boxSection img{
+    height: 100px;
+}
+
+.boxSection h2 {
+    text-decoration-color: rgb(0, 177, 114);
+}
+
+.boxSection h3 {
+    color: rgb(0, 177, 114);
+}
+
+.box {
+    display: inline-block;
+    width: 33%;
+    margin: 50px 0;
+}
+
+/*-------------------------------- Bottom section --------------------------------*/
+
+.bottom {
+    background-color: rgb(0, 177, 114);
+    position: relative;
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+}
+
+.leftBar {
+    color: white;
+    padding: 50px;
+    width: 35%;
+}
+
+.leftBar > div {
+    padding: 20px 0;
+}
+
+#spotifyIconBottom {
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    height: 100px;
+}
+
+#spotifyApp {
+    float: right;
+    height: 500px;
+    margin: auto;
+    margin-right: 100px;
+}
