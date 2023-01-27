@@ -6,3 +6,123 @@ Green: #00B172
 White: #FFF
 
 */
+
+body {
+  margin: 0;
+}
+
+nav {
+  width: 100%;
+  display: flex;
+  position: fixed;
+  background-color: #fff;
+}
+
+nav > ul {
+  display: flex;
+  align-items: flex-end;
+  margin: 20px;
+  gap: 10px;
+  list-style: none;
+}
+
+#spotifyLogo {
+  margin-right: auto;
+  padding: 10px;
+  height: 30px;
+  align-self: center;
+}
+
+main > h2 {
+  margin: 40px auto;
+  text-align: center;
+  border-bottom: 3px solid #00b172;
+  padding-bottom: 3px;
+  width: max-content;
+}
+
+.sect1 {
+  height: 500px;
+  background-image: url(/images/landing.jpg);
+  background-size: cover;
+  color: #fff;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+}
+
+.sect1 h1 {
+  font-size: 50px;
+  margin-bottom: 0;
+}
+main,
+.sect1 {
+  text-align: center;
+}
+
+.whats-on {
+  display: flex;
+  justify-content: center;
+}
+
+.whats-on {
+  gap: 20px;
+}
+
+.whats-on > div {
+  width: 25vw;
+}
+
+.whats-on h3 {
+  color: #00b172;
+}
+
+.icon {
+  height: 60px;
+}
+
+.green-section {
+  margin: 50px 20px 20px;
+  background-color: #00b172;
+  height: 500px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  color: #fff;
+}
+
+.division1,
+.division2 {
+  margin: 20px;
+}
+
+.division1 {
+  text-align: left;
+}
+
+.green-section h1 {
+  border-bottom: 1px solid #fff;
+  padding-bottom: 3px;
+  width: max-content;
+}
+
+.division1 > div {
+  width: 50%;
+}
+
+.division1 > p {
+  font-size: 10px;
+}
+/* alteraer essa responsividade */
+#spotifyApp {
+  float: right;
+  height: 500px;
+  margin: auto;
+  margin-right: 100px;
+}
+
+#spotifyIcon {
+  position: relative;
+  width: 10%;
+  bottom: 300px;
+}
