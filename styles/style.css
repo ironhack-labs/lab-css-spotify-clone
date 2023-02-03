@@ -11,6 +11,13 @@ body {
   font-family: Arial, Helvetica, sans-serif;
 }
 
+header > div {
+  padding: 0 25px;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
 .spotify-logo {
   width: 120px;
   margin-right: 1rem;
@@ -29,4 +36,29 @@ nav ul {
 nav a {
   text-decoration: none;
   color: black;
+}
+
+.img-background {
+  width: 100vw;
+  position: absolute;
+  top: 70px;
+  left: 0;
+  z-index: -1;
+  object-fit: cover;
+  height: 600px;
+}
+
+.container {
+  color: white;
+  text-align: center;
+  padding: 245px 400px 150px 400px;
+}
+
+.header {
+  font-size: 55px;
+  margin: 0;
+}
+
+.header-text {
+  font-size: 20px;
 }
