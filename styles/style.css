@@ -22,6 +22,7 @@ body {
  font-size: 100%;
 }
 
+/* Header */
 nav {
  
  position: fixed;
@@ -68,4 +69,58 @@ nav > img {
 .main > p{
  font-size: 1.2;
  width: 400px;
+}
+
+
+/* Information */
+
+
+.information {
+ display: flex;
+ flex-direction: column;
+ margin: 0;;
+}
+
+.information > h2{
+ font-size: 2em;
+ font-weight: 500;
+ border-bottom: 5px solid #00B172;
+ padding: 10px;
+ align-self: center;
+}
+
+.information__container  {
+ display: flex;
+ flex-direction: row;
+ justify-content: center;
+ align-content: center;
+ padding: 25px 15px;
+ margin: 20px;
+ flex-wrap: wrap;
+ gap: 25px;
+ 
+}
+
+.information__card{
+ height: 200px;
+ width: 200px;
+ 
+ display: flex;
+ flex-direction: column;
+ align-items: center;
+ text-align: center;
+}
+
+.information__card > img {
+ height: 60px;
+}
+
+.information__card > h3 {
+ color: #00B172;
+}
+
+.information__card > p {
+ 
+ width: 170px;
+ margin: 0;
 }
