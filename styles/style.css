@@ -1,3 +1,211 @@
+@import url("https://fonts.googleapis.com/css2?family=Almarai:wght@300;400;700&display=swap");
+
+* {
+  margin: 0;
+  padding: 0;
+  list-style-type: none;
+  box-sizing: border-box;
+  line-height: 1.5;
+}
+
+html {
+  font-family: "Almarai", sans-serif;
+}
+a {
+  text-decoration: none;
+  color: #1a1a1a;
+}
+a:hover {
+  text-decoration: underline;
+}
+.nav-bar img {
+  width: 200px;
+  height: auto;
+}
+
+.white-text {
+  color: #fff;
+}
+
+.nav-bar {
+  background-color: #fff;
+  position: fixed;
+  top: 0;
+  width: 100%;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 10px 20px;
+  z-index: 1; /*We avoid the last section's "position: relative" parameter to cover navbar*/
+}
+
+.nav-bar-list {
+  display: flex;
+}
+
+.nav-bar-list li {
+  margin: 0 20px;
+}
+
+/*Responsive ***************/
+@media (max-width: 768px) {
+  .nav-bar {
+    flex-direction: column;
+    align-items: center;
+  }
+
+  .nav-bar-list {
+    display: none;
+  }
+
+  .green .img-icon {
+    display: none;
+  }
+}
+@media (max-width: 1024px) {
+  .img-icon {
+    display: none;
+  }
+  .img-app {
+    width: 100px;
+  }
+}
+/***************************/
+
+.header {
+  background-image: url(../images/landing.jpg);
+  background-position: center center;
+  background-repeat: no-repeat;
+  background-size: cover;
+  height: 700px;
+  display: flex;
+  /*Aligning h1 and h2 elements inside*/
+  flex-direction: column;
+  justify-content: center;
+  text-align: center;
+}
+
+h1 {
+  font-size: 55px;
+  font-weight: 400;
+}
+
+h2 {
+  font-size: 20px;
+  font-weight: 200;
+  padding: 30px 200px;
+}
+.general-info {
+  justify-content: space-between;
+  margin: 50px 0;
+}
+.general-info h3 {
+  text-align: center;
+  font-size: 36px;
+  width: 320px;
+  border-bottom: 3px solid #00b172;
+  margin: auto;
+}
+
+.container {
+  display: flex;
+  justify-content: space-between;
+  margin: 80px 25px;
+}
+
+.container img {
+  width: auto;
+  height: 120px;
+  margin: 30px auto;
+}
+.info-box {
+  display: flex;
+  flex: 1; /*All boxes will occupy 1/3, since there are 3 items*/
+  flex-direction: column;
+  justify-content: space-between;
+  text-align: center;
+}
+.info-box h4 {
+  color: #00b172;
+  font-size: 24px;
+  margin-bottom: 12px;
+}
+.info-box p {
+  font-weight: 200;
+  font-size: 20px;
+  height: 48px; /*Required to align all three boxes*/
+}
+.green {
+  position: relative;
+  color: #fff;
+  background-color: #00b172;
+  height: 700px;
+  margin: 30px;
+  padding: 60px 80px;
+  display: grid;
+  grid-template-areas:
+    "title picture" /*article occupies 3/4 height, picture 4/4, title 1/4*/
+    "article picture"
+    "article picture"
+    "article picture";
+}
+
+.green > article {
+  grid-area: article;
+  width: 300px;
+  align-items: center;
+  margin-right: 30px;
+}
+.green > h3 {
+  grid-area: title;
+  font-size: 36px;
+  width: 370px;
+  margin-right: 30px;
+  border-bottom: 2px solid;
+}
+
+.green > article > h4 {
+  font-size: 22px;
+}
+
+.green > article > p {
+  font-size: 18px;
+  font-weight: 300;
+}
+.img-container {
+  grid-area: picture;
+  display: flex;
+  justify-content: flex-end;
+  align-items: center;
+}
+.img-app {
+  width: 300px;
+}
+/*Margin for all elements inside the article*/
+.green > article > * {
+  margin: 30px 0;
+}
+/**Centering spotify icon**/
+.green .img-icon {
+  width: 120px;
+  height: auto;
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+}
+
+/*Some effects when hovering *testing**/
+.general-info img:hover {
+  filter: blur(3px);
+  transition: all 0.4s ease-in-out;
+}
+.general-info h4:hover {
+  filter: brightness(1.3);
+  transition: all 0.3s ease-in-out;
+}
+/*************************************/
+
 /*
 Colors:
 
