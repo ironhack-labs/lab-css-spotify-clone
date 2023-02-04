@@ -6,3 +6,110 @@ Green: #00B172
 White: #FFF
 
 */
+@import url('https://fonts.googleapis.com/css2?family=Abril+Fatface&family=Montserrat:wght@300;400;500;600&display=swap');
+
+* {
+    margin: 0;
+    padding: 0;
+}
+body {
+    font-family: Montserrat;
+    overflow-x: hidden;
+}
+h1 {
+    font-size: 3em;
+}
+h3 {
+    color: #00B172
+}
+
+header {
+    display: flex;
+    justify-content: space-between;
+    padding: 10px 30px;
+    align-items: center;
+}
+nav {
+    width: 400px;
+}
+header ul {
+    display: flex;
+    justify-content: space-between;
+}
+header li {
+    list-style: none;
+}
+header img {
+    width: 150px;
+}
+.hero {
+    width: 100vw;
+    height: 60vh;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+    background-image: url(/images/landing.jpg);
+    background-size: contain;
+    color: white;
+}
+.hero h1 {
+    margin-bottom: 20px;
+}
+.hero p {
+    margin-bottom: 5px;
+}
+.explanation {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    margin-top: 30px;
+    width: 100vw;
+
+}
+.explanation h2 {
+    font-weight: 600;
+    font-size: 1.6em;
+    padding-bottom: 5px;
+    border-bottom: 4px solid #00B172;
+}
+.features {
+    display: flex;
+    justify-content: space-around;
+    margin: 40px 0px;
+    width: 100%;
+    height: 250px;
+}
+.features div {
+    width: 200px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    text-align:center;
+}
+.features img {
+    width: 120px;
+}
+.features h3 {
+    margin: 10px 0px 15px 0px;
+}
+#greenContain {
+    margin: 20px;
+}
+.greenComp {
+    background-color: #00B172;
+    color: white;
+    padding: 35px 50px;
+    display: flex;
+    justify-content: space-between;
+    width: 90%;
+}
+.greenComp h3 {
+    color: white;
+}
+#logoWhite {
+    height: 100px;
+}
+#app {
+    height: 500px;
+}
