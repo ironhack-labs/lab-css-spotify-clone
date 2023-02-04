@@ -6,9 +6,28 @@ Green: #00B172
 White: #FFF
 
 */
+@import url('https://fonts.googleapis.com/css?family=Roboto+Condensed:700|Roboto:100,300,700');
 *{
     margin: 0;
     padding: 0;
+}
+body {
+    font-family: "Roboto";
+    font-size: 14px;
+    line-height: 1.5;
+    font-weight: 300;
+
+}
+h1 {
+    font-size: 60px;
+    font-weight: 500;
+}
+h2 {
+    font-weight: 700;
+}
+h3 {
+    font-weight: 700;
+
 }
 header {
     background-image: url(/images/landing.jpg);
@@ -25,6 +44,7 @@ header nav {
 nav img {
     height: 50px;
     padding-left: 15px;
+    margin: 5px 0;
 
 }
 header nav div ul {
@@ -52,4 +72,81 @@ header nav div {
 }
 .musicForEveriOne h1 {
     margin-bottom: 15px;
+}
+.box img {
+    width: 70px;
+}
+section div {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    width: 100%;
+    margin-top: 30px;
+
+}
+.boxFeatures {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+    align-items: center;
+    margin: 30px 0
+}
+.box {
+    width: 200px;
+    margin-top: 10px;
+}
+.box h3 {
+    color: #00B172;
+    margin-top: 10px;
+}
+.box p {
+    text-align: center;
+    padding: 20px;
+}
+section div h2 {
+    border-bottom: 3px solid #00B172;
+}
+footer {
+    background-color: #00B172;
+    color:#FFF;
+    display: flex;
+    justify-content: space-evenly;
+    align-items: center;
+    flex-wrap: wrap;
+    padding-bottom: 40px;
+}
+#whiteLogo {
+    height: 80px;
+}
+#appImage {
+    height: 400px;
+}
+.browse {
+    width: 220px;
+}
+.search {
+    width: 220px;
+}
+.izquierdoH3 {
+    padding: 20px 0;
+}
+.discover {
+    width: 220px;
+}
+.textoIzquierdo {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-content: flex-start;
+    height: 100%;
+}
+.titleFooter {
+    display: flex;
+    width: 100%;
+    padding-top: 44px;
+    padding-left: 86px;
+}
+.titleFooter h2 {
+    border-bottom: 3px solid;
 }
