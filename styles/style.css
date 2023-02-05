@@ -1,8 +1,130 @@
-/*
-Colors:
-
-Text: 1A1A1A
-Green: #00B172
-White: #FFF
-
-*/
+body {
+    margin: 0;
+    padding: 0;
+    font-family: Arial, Helvetica, sans-serif;
+}
+.first-section{
+    display: flex;
+    flex-direction: column;
+    height: 650px;
+    margin-bottom: 5px;
+}
+.spotify-header{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: center;
+    height: 12%;
+    width: 100%;
+    position: fixed;
+    right: 0;
+    top: 0;
+    padding-top: 15px;
+    padding-bottom: 10px;
+    background-color: white;
+}
+.spotify-logo{
+    display: flex;
+    justify-content: flex-start;
+    max-height: 90%;
+    max-width: 25%;
+    margin: 10px 10px;
+}
+.nav-bar{
+    list-style-type: none;
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+}
+.nav-bar li{
+    padding: 10px;
+}
+.spotify-slogan{
+    max-height: 90%;
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    text-align: center;
+    color: white;
+    background-image: url(../images/landing.jpg);
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: center;
+    margin-top: 50px;
+    padding-top: 190px;
+    padding-bottom: 270px;
+}
+.second-section{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    margin-bottom: 60px;
+}
+.second-section > h3 {
+    font-size: 30px;
+    border-bottom: 4px solid #00B172;
+    margin-bottom: 40px;
+}
+.whats-on-spotify{
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    max-width: 100%;
+}
+.spotify-features{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    text-align: center;
+    margin: 15px;
+    max-width: 33%;
+    justify-content: space-between;
+}
+.spotify-features img {
+    width: 35%;
+    height: 35%;
+    padding-bottom: 15px;
+}
+.spotify-features h3{
+    color: #00B172;
+    height: 25%;
+}
+.spotify-features p {
+    margin-top: 15px;
+    height: 40%;
+}
+.third-section{
+    background-color: #00B172;
+    display: flex;
+    flex-direction: row;
+    color: white;
+    padding: 25px;
+}
+.first-column {
+    display: flex;
+    flex-direction: column;
+    max-width: 65%;
+}
+.celebrity-span {
+    border-bottom: 3px solid white;
+    font-size: 25px;
+    padding-bottom: 8px;
+}
+.footer-text{
+    max-width: 60%;
+    margin-top: 25px;
+}
+.second-column{
+    max-width: 35%;
+}
+.second-column img {
+    max-width: 90%;
+    max-height: 90%;
+    padding-top: 30px;
+}
+.spotify-icon{
+    width: 100px;
+    position: absolute;
+    margin-top: 200px;
+    margin-left: 45%;
+ }
