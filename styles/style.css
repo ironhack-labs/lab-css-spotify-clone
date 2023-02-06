@@ -34,3 +34,35 @@
 .navbar-brand{
     width:220px;
 }
+
+/*Styling for Header */
+header{
+    height:80vh;
+    width:100%;
+    position: relative;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+.header-background{
+    height:100%;
+    width:100%;
+    object-fit: cover;
+    position: absolute;
+    top:0;
+    left:0;
+    z-index:1;
+}
+.header-content{
+    z-index:2;
+    text-align: center;
+    color:var(--white);
+    width:60%
+}
+.header-content h1{
+    font-size: 4rem;
+    margin-bottom:1.4rem;
+}
+.header-content p {
+    font-size: 1.8rem;;
+}
