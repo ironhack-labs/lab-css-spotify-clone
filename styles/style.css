@@ -2,11 +2,11 @@
     border:0;
     margin:0;
     box-sizing:border-box;
-    border:1px solid red;
 }
 :root{
     --green:#00B172;
     --white:#FFF;
+    --text:#1A1A1A;
 }
 .container{
     width:80%;
@@ -91,6 +91,7 @@ header{
    width:8rem;
    height:7rem;
 }
+/* Styling for Main Top */
 .main-top{
   display: flex;
   justify-content: space-between;
@@ -104,4 +105,66 @@ header{
 }
 .main-top p{
     font-size:1.5rem;
+}
+
+/* Styling for Main Bottom */
+
+.main-bottom{
+    display: flex;
+    background-color:var(--green);
+    justify-content: center;
+    height:75vh;
+    padding:3.2rem;
+}
+.main-cover{
+    max-width:350px;
+    min-width:250px;
+}
+.main-bottom{
+    height:80vh;
+    padding:5rem 0;
+    width:100vw;
+    display: flex;
+    justify-content:center;
+    padding:4rem;
+}
+.main-wrapper{
+    width:100%;
+    max-width: 1400px;
+    position: relative;
+    height:100%;
+    display: flex;
+    justify-content: center;
+    gap:5rem;
+}
+.spotify-app{
+    max-width:350px;
+    min-width:250px;
+    min-height:40vh;
+    max-height:70vh;
+}
+.spotify-section{
+    display:flex;
+    
+    align-items: center;
+    justify-content: center;
+}
+.spotify-icon{
+    width:120px;
+    height:120px;
+}
+.main-bottom-list{
+   color:var(--white);
+}
+.main-bottom-list p{
+    font-size:1.5rem;
+}
+.main-bottom-list h5{
+   font-size:2.1rem;
+}
+.main-bottom-title{
+    font-size:2.8rem;
+    color:var(--white);
+    border-bottom:3px solid var(--white);
+    display:inline;
 }
