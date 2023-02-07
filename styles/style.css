@@ -6,3 +6,145 @@ Green: #00B172
 White: #FFF
 
 */
+
+*,
+*::after,
+*::before {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+nav {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  align-items: center;
+  margin: 15px;
+}
+
+img {
+  width: 120px;
+}
+
+nav ul {
+  list-style: none;
+  display: flex;
+  flex-direction: row;
+  gap: 20px;
+}
+
+main {
+  width: 100vw;
+  height: 90vh;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  background-image: url("./../images/landing.jpg");
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+
+main h1 {
+  font-size: 56px;
+  color: white;
+  margin-bottom: 16px;
+}
+
+main p {
+  width: 50%;
+  text-align: center;
+  font-size: 24px;
+  color: white;
+}
+
+.info-services {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  margin-top: 36px;
+}
+
+.info-services h2 {
+  font-size: 36px;
+  text-decoration: underline;
+  text-decoration-color: #00b172;
+  text-underline-offset: 12px;
+}
+
+.info-services h3 {
+  color: #00b172;
+}
+
+.info-services p {
+  color: #012d1d;
+}
+
+.info-services div {
+  width: 100%;
+  display: flex;
+  flex-direction: row;
+  justify-content: space-evenly;
+  align-items: center;
+  margin-top: 36px;
+}
+
+.info-services article {
+  width: 10%;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  text-align: center;
+}
+
+.info-services img,
+.info-services h3 {
+  margin-bottom: 16px;
+}
+
+.info-services p {
+  font-weight: 300;
+  color: rgba(0, 0, 0, 0.4);
+}
+
+.app-mobile {
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  justify-content: space-evenly;
+  margin: 36px 15px 0;
+  padding: 36px 0;
+  background-color: #00b172;
+}
+
+.app-mobile div {
+  display: flex;
+  flex-direction: column;
+}
+
+.app-mobile h3 {
+  font-size: 26px;
+  font-weight: 300;
+  text-decoration: underline;
+  text-underline-offset: 12px;
+  margin-bottom: 24px;
+  color: white;
+}
+
+.app-mobile h4 {
+  font-size: 24px;
+  font-weight: 600;
+}
+
+.app-mobile p,
+h4 {
+  width: 200px;
+  font-weight: 300;
+  margin-bottom: 24px;
+  color: white;
+}
+
+.app-mobile img:last-child {
+  width: 20%;
+}
