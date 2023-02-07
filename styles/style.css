@@ -6,3 +6,147 @@ Green: #00B172
 White: #FFF
 
 */
+@import url('https://fonts.googleapis.com/css2?family=Abril+Fatface&family=Montserrat:wght@300;400;500;600&display=swap');
+
+* {
+    margin: 0;
+    padding: 0;
+}
+body {
+    font-family: Montserrat;
+    overflow-x: hidden;
+}
+h1 {
+    font-size: 3em;
+}
+h3 {
+    color: #00B172
+}
+header {
+    display: flex;
+    justify-content: space-between;
+    padding: 10px 30px;
+    align-items: center;
+    background-color: white;
+    position: fixed;
+    width: 97%;
+}
+nav {
+    width: 400px;
+    padding: 0px 10px;
+}
+header ul {
+    display: flex;
+    justify-content: space-between;
+}
+header li {
+    list-style: none;
+    font-size: 1em;
+}
+header img {
+    width: 150px;
+}
+.hero {
+    width: 100vw;
+    height: 70vh;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+    background-image: url(/images/landing.jpg);
+    background-size: contain;
+    color: white;
+}
+.hero h1 {
+    margin-bottom: 20px;
+}
+.hero p {
+    margin-bottom: 5px;
+}
+.explanation {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    margin-top: 30px;
+    width: 100vw;
+
+}
+.explanation h2 {
+    font-weight: 600;
+    font-size: 1.6em;
+    padding-bottom: 5px;
+    border-bottom: 4px solid #00B172;
+}
+.features {
+    display: flex;
+    justify-content: space-around;
+    margin: 40px 0px;
+    width: 100%;
+    height: 250px;
+}
+.features div {
+    width: 200px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    text-align:center;
+}
+.features img {
+    width: 120px;
+}
+.features h3 {
+    margin: 10px 0px 15px 0px;
+}
+#greenContain {
+    display: flex;
+    justify-content: center;
+    padding: 0px 3%;
+}
+.greenComp {
+    background-color: #00B172;
+    color: white;
+    padding: 3% 7% 2% 7%;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    width: 90%;
+    height: 600px;
+}
+.izquierda {
+    width: 30%;
+    height: 50vh;
+}
+.izquierda p {
+    font-size: 0.9rem;
+    margin-bottom: 5px;
+}
+.izquierda h2 {
+    border-bottom: 3px solid white;
+    font-size: 1.7em;
+    padding-bottom: 10px;
+    margin-bottom: 40px;
+    width: max-content;
+}
+.featuresList {
+    display: flex;
+    flex-direction: column;
+    height: 100%;
+    justify-content: space-around;
+    width: 85%;
+    line-height: 120%;
+}
+.greenComp h3 {
+    color: white;
+    font-size: 1.3rem;
+    margin-bottom: 25px;
+
+}
+#logoWhite {
+    height: 8vw;
+}
+#app {
+    height: 35vw;
+    min-height: 350px;
+    margin-top: 7vh;
+    margin-bottom: 2vh;
+}
