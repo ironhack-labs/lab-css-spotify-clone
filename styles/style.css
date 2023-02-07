@@ -1,9 +1,74 @@
 @import url('https://fonts.googleapis.com/css?family=Roboto+Condensed:700|Roboto:100,300,700');
 
+body {
+    font-family: roboto;
+    margin: 0;
+}
+
+.bar {
+    justify-content: space-between;
+    display: flex;
+    padding: 20px;
+    position: fixed;
+    width: 100%;
+    top: 0;
+    z-index: 100;
+    background-color: white;
+}
+
 header img {
-    width: 225px;
+    width: 211px;
 }
 
 nav {
-    
+    display: flex;
+    align-items: center;
+   
+}
+
+ .menu ul {
+    display: flex;
+    font-size: 20px;
+    list-style: none;
+    color: inherit;
+    padding: 3px;
+}
+
+.menu a {
+    color: rgb(0,0,0);
+    text-decoration: none;
+    padding: 26px;
+    font-size: 22px;
+}
+
+.landing {
+    background-image: url("../images/landing.jpg");
+    position: relative;
+    width: 100%;
+    background-size: cover;
+    background-position: center;
+    margin: 110px 0 0 0;
+    padding: 0;
+    height: 855px;    
+}
+
+figcaption {
+    color: white;
+    text-align: center;
+    width: 100%;
+}
+
+figcaption h1 {
+    font-size: 83px;
+    padding: 285px 0 0 7px;
+    font-style: bold;
+    margin: 0 0 0 0;
+}
+
+figcaption h2 {
+    width: 700px;
+    font-weight: 500;
+    text-align: center;
+    margin: 20px auto;
+    font-size: 30px;
 }
