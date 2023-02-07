@@ -9,16 +9,20 @@ nav {
     position:fixed;
     background-color: white;
     display: flex;
-    flex-direction: row;
+    justify-content: space-between;
+
+    width: 100%;
 }
-.spotify-logo {
+nav .spotify-logo {
     width: 200px;
-    display: flex;
-    justify-content:flex-start;
 } 
-ul {
+nav ul {
     display: flex;
-    justify-content: space-evenly;
+    flex-flow: row wrap;
+}
+
+nav ul li {
+    padding-right: 30px;
 }
 .intro {
     width: 1024px;
@@ -26,7 +30,6 @@ ul {
     justify-content: center;
     align-items: center;
     color: white;
-    position: absolute;
 }
 .intro img {
     width: 1024px;
@@ -34,7 +37,22 @@ ul {
 .intro-text {
     position: absolute;
 }
+.intro {
+    margin: 0 auto;
+}
 
 .yeezy {
     background-color: rgb(10, 182, 139);
+}
+.info img {
+    width: 150px;
+}
+.info {
+    display: flex;
+}
+.info-title {
+    text-align: center;
+}
+.logo-white { 
+    width: 100px;
 }
