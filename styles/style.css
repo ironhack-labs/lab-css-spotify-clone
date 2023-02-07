@@ -1,16 +1,14 @@
-@import url('https://fonts.googleapis.com/css2?family=Montserrat:wght@300&display=swap');
-
 html,
 body {
     margin: 0;
     padding: 0;
+    font-family: Arial;
 }
 nav {
     position:fixed;
     background-color: white;
     display: flex;
     justify-content: space-between;
-
     width: 100%;
 }
 nav .spotify-logo {
@@ -19,40 +17,77 @@ nav .spotify-logo {
 nav ul {
     display: flex;
     flex-flow: row wrap;
+    text-decoration: none;
 }
 
 nav ul li {
     padding-right: 30px;
+    list-style: none;
+    font-size: 20px;
 }
 .intro {
-    width: 1024px;
+    background-image: url('../images/landing.jpg');
+    background-size: contain;
+    width: 100%;
     display: flex;
     justify-content: center;
     align-items: center;
     color: white;
-}
-.intro img {
-    width: 1024px;
+    height: 400px;
 }
 .intro-text {
-    position: absolute;
-}
-.intro {
-    margin: 0 auto;
-}
-
-.yeezy {
-    background-color: rgb(10, 182, 139);
-}
-.info img {
-    width: 150px;
-}
-.info {
-    display: flex;
-}
-.info-title {
     text-align: center;
 }
-.logo-white { 
-    width: 100px;
+.intro-text h1 {
+    font-size: 50px;
+}
+.intro-text p {
+    font-size: 25px;
+}
+.info h2 {
+    font-size: 50px;
+    text-align: center;
+    border-bottom: 5px solid #1ed760;
+    padding-bottom: 5px;
+}
+.info img{
+    width:150px;
+}
+.info-img-list {
+    display: flex;
+    justify-content: space-evenly;
+    text-align: center;
+    padding-top: 25px;
+}
+.info-img-list h3 {
+    font-size: 25px;
+    color: #1ed760;
+}
+.info-img-list p {
+    font-size: 18px;
+}
+.yeezy {
+    background-color: #1ed760;
+    color: white;
+    display: flex;
+    justify-content: center;
+}
+.outro {
+    font-size: 25px;
+    padding-top: 25px;
+    text-decoration: underline;
+}
+.logo-white {
+    width: 150px;
+    height: 150px;
+    align-self: center;
+}
+.application {
+    width: 500px;
+}
+.griddy {
+    align-self: center;
+}
+.griddy h4 {
+    font-size: 25px;
 }
