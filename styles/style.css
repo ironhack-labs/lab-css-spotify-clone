@@ -94,22 +94,48 @@ header img {
     margin: 10px 0px 15px 0px;
 }
 #greenContain {
-    margin: 20px;
+    display: flex;
+    justify-content: center;
+    padding: 0px 3%;
 }
 .greenComp {
     background-color: #00B172;
     color: white;
-    padding: 35px 50px;
+    padding: 7% 7%;
     display: flex;
     justify-content: space-between;
+    align-items: center;
     width: 90%;
+    height: 450px;
+}
+.izquierda {
+    width: 30%;
+}
+.izquierda p {
+    font-size: 0.9rem;
+}
+.izquierda h2 {
+    border-bottom: 3px solid white;
+    font-size: 1.7rem;
+    padding-bottom: 10px;
+    margin-bottom: 40px;
+    width: max-content;
+}
+.izquierda div {
+    display: flex;
+    flex-direction: column;
+    height: 65vh;
+    justify-content: space-around;
+    width: 90%;
+    line-height: 25px;
 }
 .greenComp h3 {
     color: white;
+    font-size: 1.3rem;
 }
 #logoWhite {
-    height: 100px;
+    height: 11vw;
 }
 #app {
-    height: 500px;
+    max-height: 40vw;
 }
