@@ -6,3 +6,184 @@ Green: #00B172
 White: #FFF
 
 */
+@import url('https://fonts.googleapis.com/css2?family=Abril+Fatface&family=Montserrat:wght@300;400;500;600&display=swap');
+* {
+    margin: 0;
+    padding: 0;
+}
+
+body {
+    font-family:'Montserrat';
+    overflow-x:hidden;
+}
+h1 {
+    font-size: 3em;
+}
+h2 {
+    border-bottom: 3px solid white;
+    font-size: 1.7em;
+    padding-bottom: 10px;
+    margin-bottom: 40px;
+    width:max-content;
+}
+
+h3 {
+    color:#00B172 ;
+}
+.fixheader {
+    font-size: 20px;
+    flex-wrap:wrap;
+}
+header {
+    display:flex;
+    justify-content:space-between;
+    padding:10px 30px;
+    align-items:center;
+    background-color: white;
+    position:fixed;
+    width: 97%;    
+}
+nav {
+    width:500px;
+    padding:0px 10px;
+
+}
+header ul {
+    display:flex;
+    justify-content:space-between;
+
+}
+header li {
+        list-style: none;
+        font-size: 1em;
+}
+header img {
+        width: 200px;
+}
+.music {
+    width: 100vw;
+    height: 70vh;
+    display:flex;
+    align-items:center;
+    justify-content:center;
+    flex-direction:column;
+    background-image:url(/lab-css-spotify-clone/images/landing.jpg);
+    background-size:contain;
+    color: white;
+}
+.music h1 {
+    font-size: 100px;
+    margin-bottom:20px;
+    padding-bottom: 60px;
+    line-height: 0%;
+ 
+}
+.music p {
+    margin-bottom:10px;
+    line-height: 90%;
+    font-size: 40px;
+}
+.boxes {
+    display:flex;
+    flex-direction:column;
+    align-items: center;
+    margin-top:30px;
+    width:100vw;
+}
+.boxes h2 {
+    font-weight: 600;
+    font-size: 2.2em;
+    border-bottom: 5px solid #00B172;
+    padding-bottom: 5px;
+}
+.boxes-in {
+    display: flex;
+    justify-content:space-evenly;
+    flex-direction:row;
+    margin:40px 0px;
+    width:100%;
+    height: 250px;
+}
+.boxes-in div {
+    width:250px;
+    display:flex;
+    flex-direction:column;
+    justify-content:center;
+    align-items: center;
+    text-align: center;
+    align-self: center;
+    font-size: 20px;
+}
+.boxes-in img {
+    width: 120px;
+}
+.boxes-in h3 {
+    margin:10px 0px 15px 0px;
+}
+
+.greenContain {
+   display:flex;
+   justify-content:center;
+   flex-direction:row;
+
+}
+.greenComp {
+    background-color:#00B172;
+    display:flex;
+    padding: 7% 7% 4% 1%;
+    margin-left: 9%;
+    margin-right: 9%;
+    margin-bottom:20px;
+    justify-content:space-between;
+    align-items:center;
+    width: 98%;
+    height:600px;
+}
+.greenColumn {
+    width:10%;
+    height:50vh; 
+    color:white;
+    margin-left: 7%;
+
+}
+.greenColumn h2 {
+    border-bottom: 3px solid white;
+    font-size: 1.7em;
+    padding-bottom: 10px;
+    margin-bottom: 15px;
+    width: max-content;
+}
+
+.greenlist {
+    display: flex;
+    flex-direction:column;
+    flex-wrap: nowrap;
+    margin:0;
+}
+.greenlist p{
+    display: flex;
+    flex-direction:row;
+    font-size: 20px;
+    margin-bottom: 5px;
+}
+.greenlist h3 {
+    color:white;
+    font-size: 1.9rem;
+    margin-bottom: 25px;
+}
+#greenlogo {
+    position: relative;
+    height: 10vw;
+    margin-left: 250px;
+}
+#greenapp {
+    height: 30vw;
+    min-height: 40px;
+    margin-top:2vh;
+    margin-bottom:8vh;
+    margin-left:120px;
+}
+
+
+
+
