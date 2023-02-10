@@ -7,13 +7,17 @@ Green: #00B172
 White: #FFF
 
 */
+.display-flex{
+    display: flex;
+}
+
+
 body{
     font-family: gotham;
     padding: 0px;
     margin: 0px;
-    display: flex;
-    align-items: baseline;
 }
+
 nav img{
     width: 200px;
     height: 60px;
@@ -27,7 +31,6 @@ header{
     background-color: white;
 }
 nav{
-    display: flex;
     justify-content: space-between;
     height:80px;
     margin: 0;
@@ -36,13 +39,10 @@ a{
     text-decoration: none;
     color: black;
     font-weight: 300;
-    
-
 }
 
 ul{
     list-style: none;
-    display: flex;
     flex-direction: row;
     font-size: 1.2em;
     margin-right: 50px;
@@ -50,7 +50,29 @@ ul{
 
 li {
     padding-left: 20px;
+    
+}
 
+h1{
+    font-size: 5em;
+    font-weight: 500;
+}
+h2{
+    text-align: center;
+    font-size: 2em;    
+}
+h3{
+    font-size: 1.5em;
+    color: #00B172;
+}
+h4{
+    font-size: 2.5em;
+    font-weight: 500;
+    margin-bottom: 15px;
+}
+h5{
+    font-size: 2em;
+    font-weight: 400;
 }
 .section-1{
     width: 100%;
@@ -58,19 +80,82 @@ li {
     background-image: url(../images/landing.jpg);
     background-repeat: no-repeat;
     background-size: cover;
+
     color: white;
-    text-align: center;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
 }
 
-.section-1 h1{
-    padding-top:250px;
-    font-size: 5em;
-    font-weight: 500;
-}
 
 .section-1 p {
     font-size: 1.8em;
     font-weight: 100;
-    width: 61%;
-    margin-left: 19%;
+    width: 50%;
+    text-align: center;
+}
+
+.section-2 img{
+    width: 35%;
+
+}
+.section-2 article{
+    padding: 10px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+}
+
+.section-2 p {
+    font-size: 1.5em;
+    color: #1A1A1A;
+    font-weight: 300;
+    text-align: center;
+    width: 75%;
+    
+}
+
+.articles-grid{
+    flex-direction: row;
+    margin: 5% 10%;
+}
+
+.section-2 hr {
+    width: 300px;
+    justify-content: center;
+    height: 3px;
+    background-color: #00B172;
+}
+
+.section-3 {
+    background-color: #00B172;
+    color: white;
+    
+    background-image: url("../images/spotify-icon-white.png");
+    background-repeat: no-repeat;
+    background-size: 10%;
+    background-position: 50% 50% ;
+
+    flex-direction: row;
+    justify-content: space-between;
+}
+.section-3 hr {
+    background-color: white;
+    height: 2px;
+}
+.section-3 article{
+    padding: 40px;
+    margin-left: 60px;
+}
+
+.section-3 img {
+    width: 22%;
+    padding: 10%;
+    height: 50%;
+}
+.section-3 p {
+    font-size: 1.6em;
+    width: 445px;
+    font-weight: 300;
 }
