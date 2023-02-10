@@ -1,3 +1,148 @@
+@font-face {
+    font-family: 'Circular';
+    src: url(../fonts/CircularStd-Medium.otf);
+}
+
+@font-face {
+    font-family: 'Circular light';
+    src: url(../fonts/CircularStd-Light.otf);
+}
+
+* {
+    font-family: 'Circular light'
+}
+
+nav img {
+    width: 200px;
+    padding: 15px;
+}
+
+a {
+    font-family: 'Circular light';
+    text-decoration: none;
+    color: black;
+    padding: 20px;
+    display: flex;
+    align-items: center;
+    
+}
+
+ul {
+    list-style:none;
+    display:flex;
+    flex-direction: row;
+    justify-content: space-between;
+}
+
+nav {
+    display: flex;
+    justify-content: space-between;
+    margin: 0 20px 0 20px;
+}
+
+#landing {
+    background-image: url(../images/landing.jpg);
+    background-size: cover;
+    background-position: 0 -50px;
+    height: 800px;
+}
+
+h1 {
+    color: white;
+    font-family: 'Circular';
+    font-size: 90px;
+    text-align: center;
+}
+
+#landing p {
+    color: white;
+    text-align: center;
+    font-size: 30px;
+    width: 690px;
+    font-family: 'Circular light';
+
+}
+
+#section-one h2 {
+    font-size: 30px;
+    font-family: 'Circular';
+    border-bottom: 3px solid #00B172;
+    width: fit-content;
+    margin: auto;
+    margin-top: 30px;
+    margin-bottom: 10px;
+    padding: 5px 0 5px 0;
+}
+
+#section-one h3 {
+    font-family: 'Circular';
+    font-size: 25px;
+    color: #00B172;
+    margin:10px;
+}
+
+#section-one p {
+    font-size: 20px;
+    width: 195px;
+    text-align: center;
+    margin:10px;
+    color: #1A1A1A;
+}
+.box {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+#section-one img {
+    width: 100px;
+}
+
+#icons {
+    display: flex;
+    justify-content: space-around;
+}
+
+#section-two {
+    background-color: #00B172;
+    background-image: url(../images/spotify-icon-white.png);
+    background-repeat: no-repeat;
+    background-size: 120px;
+    margin: 30px 30px 0 30px;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    padding:70px 0;
+    color:white;
+
+}
+
+#section-two img {
+    width: 300px;
+}
+
+#section-two div h2,h3{
+    font-family: 'Circular';
+}
+
+#section-two div h2 {
+    border-bottom: 3px solid white;
+    width: fit-content;
+    font-size: 30px;
+    padding: 10px 0;
+}
+
+#section-two div h3 {
+    font-size: 25px;
+    margin: 35px 0;
+}
+
+#section-two div p {
+    font-size: 20px;
+    width: 290px;
+    line-height: 30px;
+}
 /*
 Colors:
 
