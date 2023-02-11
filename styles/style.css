@@ -17,7 +17,7 @@ body {
 }
 
 header img {
-    width: 211px;
+    width: 250px;
 }
 
 nav {
@@ -47,9 +47,8 @@ nav {
     width: 100%;
     background-size: cover;
     background-position: center;
-    margin: 110px 0 0 0;
-    padding: 0;
-    height: 855px;    
+    margin: 0 auto;
+    height: 1200px;    
 }
 
 figcaption {
@@ -59,10 +58,10 @@ figcaption {
 }
 
 figcaption h1 {
-    font-size: 83px;
-    padding: 285px 0 0 7px;
+    font-size: 105px;
+    padding: 466px 0 0 20px;
     font-style: bold;
-    margin: 0 0 0 0;
+    margin: 0;
 }
 
 figcaption h3 {
@@ -73,25 +72,96 @@ figcaption h3 {
     font-size: 30px;
 }
 
-.negroni {
-    color: rgb(0,0.0);
+main h2 { 
     text-align: center;
-    font-size: 20px;
-    padding: 15px;
+    font-size: 45px;
+    padding-top: 45px;
+    text-decoration: underline rgb(60,179,113);
+    text-underline-position: under;
+    position: relative;
 }
 
 .mojito {
-    display: grid;
-    grid-template-columns: 20% 20% 20% 20% 20%;
-    grid-template-rows: 20% 20% 20% 20% 20%;
-    grid-column-start: 2;
-    grid-column-end: 5;
-    width: 211px;
-
+    padding: 45px;
+    margin: 60px 100px 55px 40px;
+    position: relative;
 }
 
-.mimosa {
+.mojito img {
+  width: 190px;
+  height: 130px;
+}
+
+.mojito article {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    height: 430px;
+    margin-left: 5%;
+    flex-wrap: wrap;
+    align-items: center;
+}
+  
+.mojito h3 {
+    color: rgb(69, 212, 134);
+    font-size: 35px;
+    text-align: center;
+    margin: 26px 20px 0 25px;
+    padding: 5px;
+  }
+
+.mojito p {
+    color: rgb(0,0,0);
+    font-size: 25px;
+    text-align: center;
+    font-weight: 100;
+}
+
+.baileys {
+    background-color: rgb(60,179,113);
     background-image: url(../images/spotify-icon-white.png);
-    width: 200px;
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: 10%;
+    margin: 78px;
+    padding: 74px 126px 95px;
 }
 
+ .malibu {
+    text-decoration: underline;
+    color: white;
+    font-size: 40px;
+    text-decoration: underline;
+    text-underline-position: under;
+    padding-bottom: 20px;
+ }
+
+ .cubana {
+    color: white;
+    display: flex;
+    flex-direction: column;
+    width: auto;
+ }
+
+ .cubana h3 {
+    font-size: 34px;
+    font-weight: 700;
+    margin-bottom: 15px;
+ }
+
+.cubana p {
+    font-size: 20px;
+    font-weight: 300;
+    margin-bottom: 17px;
+}
+
+
+.rum {
+    position: absolute;
+    right: 214px;
+    top: auto;
+    bottom: auto;
+    transform: translateY(-96%);
+    width: 19%;
+    height: auto;
+}
