@@ -32,11 +32,13 @@ ul {
     display:flex;
     flex-direction: row;
     justify-content: space-between;
+    font-size: 20px;
 }
 
 nav {
     display: flex;
     justify-content: space-between;
+    align-items: center;
     margin: 0 20px 0 20px;
 }
 
@@ -45,6 +47,11 @@ nav {
     background-size: cover;
     background-position: 0 -50px;
     height: 800px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    gap: 30px;
 }
 
 h1 {
@@ -56,12 +63,17 @@ h1 {
 
 #landing p {
     color: white;
-    text-align: center;
     font-size: 30px;
-    width: 690px;
     font-family: 'Circular light';
-
+    text-align: center;
+    width: 700px;
+    line-height: 35px;
 }
+
+#section-one {
+    margin: 50px 0;
+}
+
 
 #section-one h2 {
     font-size: 30px;
@@ -102,6 +114,7 @@ h1 {
 #icons {
     display: flex;
     justify-content: space-around;
+    margin: 50px 0;
 }
 
 #section-two {
@@ -109,6 +122,7 @@ h1 {
     background-image: url(../images/spotify-icon-white.png);
     background-repeat: no-repeat;
     background-size: 120px;
+    background-position: center;
     margin: 30px 30px 0 30px;
     display: flex;
     justify-content: space-around;
