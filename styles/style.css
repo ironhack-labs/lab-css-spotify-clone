@@ -11,6 +11,10 @@ White: #FFF
   box-sizing: border-box;
 }
 
+html {
+  font-size: 10px;
+}
+
 body {
   font-family: "Poppins", Arial, Helvetica, sans-serif;
 }
@@ -19,9 +23,7 @@ img {
   width: 100%;
 }
 
-.content {
-  margin-top: 81.84px;
-}
+/*** Header ***/
 
 /* Header Bar */
 
@@ -37,7 +39,7 @@ img {
 }
 
 .header-bar img {
-  width: 12%;
+  width: 140px;
 }
 
 nav {
@@ -51,9 +53,134 @@ nav {
 
 .header-bar a {
   text-decoration: none;
-  font-size: 18px;
+  font-size: 1.8rem;
   font-weight: lighter;
   color: #1a1a1a;
 }
 
-/* First block - Background image */
+/* Header - Background image */
+
+.background-image {
+  background-image: url(../images/landing.jpg);
+  background-position: 0 0;
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+
+.header-content {
+  height: 800px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.header-content h1 {
+  font-size: 6rem;
+  font-weight: 700;
+  color: white;
+  padding-bottom: 20px;
+}
+
+.header-content h2 {
+  text-align: center;
+  font-size: 2rem;
+  color: white;
+  padding-bottom: 7px;
+}
+
+/*** Sections ***/
+
+/* Section 1 - Features */
+
+.features h2 {
+  text-align: center;
+  font-size: 2.5rem;
+  font-weight: 700;
+  text-decoration: underline 3px #00b172;
+  text-underline-offset: 10px;
+  margin: 40px 0;
+}
+
+.features-description {
+  display: flex;
+  justify-content: center;
+  margin-bottom: 60px;
+  gap: 200px;
+}
+
+.features-box {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  width: 150px;
+}
+
+.features-box img {
+  width: 50%;
+  padding-bottom: 15px;
+}
+
+.features-box h3 {
+  font-size: 1.5rem;
+  font-weight: 700;
+  color: #00b172;
+  padding-bottom: 20px;
+}
+
+.features-box p {
+  font-size: 1.2rem;
+  text-align: center;
+}
+
+/* Section 2 - Options */
+
+.options {
+  background-color: #00b172;
+  border-left: solid 20px white;
+  border-right: solid 20px white;
+  padding: 60px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  gap: 100px;
+}
+
+.logo-bottom {
+  width: 80px;
+}
+
+.image-app {
+  width: 250px;
+}
+
+.option-blocks {
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+  gap: 100px;
+}
+
+.option-blocks h2 {
+  font-size: 2rem;
+  color: white;
+  text-decoration: underline 2px white;
+  text-underline-offset: 10px;
+  font-weight: 700;
+  padding-bottom: 40px;
+}
+
+.option-blocks h3 {
+  font-size: 1.5rem;
+  font-weight: 700;
+  color: white;
+  padding-bottom: 15px;
+}
+
+.option-blocks p {
+  font-size: 1.2rem;
+  color: white;
+  font-weight: lighter;
+  width: 200px;
+  line-height: 1.5;
+}
