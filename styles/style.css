@@ -12,10 +12,12 @@ White: #FFF
 
 body {
   color: #1a1a1a;
+  font-family: "Roboto", Arial;
+  font-weight: 300;
 }
 
 .navigation {
-  margin: 10px;
+  margin: 1rem 2rem;
   display: flex;
   align-items: center;
 }
@@ -27,35 +29,73 @@ body {
 }
 
 .navigation-item {
-  padding-right: 1rem;
-  font-size: 1.5rem;
-}
-
-.title {
-  display: flex;
-  align-items: center;
-  justify-content: center;
-  height: 8vh;
-}
-
-h2 {
-  border-bottom: 3px solid #00b172;
-  font-size: 2rem;
+  padding-right: 1.5rem;
+  font-size: 1.2rem;
 }
 
 .landing {
   background-image: url("../images/landing.jpg");
   background-size: cover;
-  min-height: 60vh;
+  min-height: 90vh;
   color: #fff;
   display: flex;
+}
+
+.landing__text {
+  margin: auto;
+  text-align: center;
+  width: 50%;
+}
+
+.landing__text h1 {
+  font-size: 4rem;
+  margin-bottom: 1rem;
+}
+
+.landing__text p {
+  font-size: 1.6rem;
+}
+
+.what {
+  margin-top: 2rem;
+  margin-bottom: 3rem;
+  padding-left: 2rem;
+  padding-right: 2rem;
+}
+.what__title {
+  display: flex;
   justify-content: center;
-  align-items: center;
+  margin-bottom: 3rem;
 }
 
-h1 {
-  border: 5px solid red;
+.what h2 {
+  border-bottom: 3px solid #00b172;
+  font-size: 2rem;
+  display: inline;
+}
+.what__articles {
+  display: flex;
+  justify-content: center;
+  gap: 10rem;
 }
 
-p {
+.what__articles article {
+  width: 20%;
+}
+
+.what__articles img {
+  display: block;
+  height: 100px;
+  margin: auto;
+  margin-bottom: 1rem;
+}
+.what__articles h3 {
+  color: #00b172;
+  font-size: 1.5rem;
+  text-align: center;
+  margin-bottom: 1rem;
+}
+.what__articles p {
+  text-align: center;
+  font-size: 1.3rem;
 }
