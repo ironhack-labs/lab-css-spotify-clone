@@ -6,3 +6,160 @@ Green: #00B172
 White: #FFF
 
 */
+
+img {
+    max-width: 100%;
+}
+
+body {
+    margin: 0;
+    font-family: "Helvetica", sans-serif;
+}
+
+nav {
+    background-color: #FFF;
+    width: 100%;
+    position: fixed;
+    display: flex;
+    align-items: center;
+    height: 50px;
+}
+
+nav div {
+    
+    display: flex;
+    margin-right: 20px;
+}
+
+
+
+nav img {
+    width: 100px;
+    margin-right: auto;
+    padding: 10px;
+}
+
+#intro {
+    background-image: url(../images/landing.jpg);
+    background-position: 0 0;
+    background-repeat: no-repeat;
+    background-size: cover;
+    height: 100vh;
+    padding-top: 50px;
+    display: flex;
+    flex-direction: column;
+    text-align: center;
+    justify-content: center;
+    color: white;
+}
+
+h1 {
+    font-size: 400%;
+    margin: 0;
+}
+
+#intro div {
+    font-size: 150%;
+    margin-top: 3%;
+}
+
+#intro span {
+    font-size: 150%;
+    margin-top: 0.5%;
+}
+
+#general-info {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    color: 1A1A1A;
+}
+
+#general-info h2 {
+    font-size: 2.5em;
+}
+
+.text-container {
+    text-align: center;
+    box-sizing: border-box;
+    padding: 20px;
+    width: 70%;
+}
+
+.text-container h3 {
+    font-size: 2em;
+    color: #00B172;
+}
+
+.text-container p {
+    font-size: 1.5em;
+    padding-left: 70px;
+    padding-right: 70px;
+    text-align: center;
+}
+
+#general-info > div {
+    display: flex;
+    flex-direction: row;
+    
+}
+
+#general-info img {
+    height: 70px;
+}
+
+#feature {
+    background-color: #00B172;
+    height: 100vh;
+    color: #FFF;
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+}
+
+
+
+#feature-text {
+    width: 40%;
+    display: flex;
+    flex-direction: column;
+    margin-left: 7%;
+}
+
+#feature h2 {
+    float: left;
+    font-size: 1.8em;
+    text-decoration: underline;
+    text-decoration-thickness: 4px;
+    text-underline-offset: 15px;
+}
+
+#feature-text article {
+    width: 70%;
+    margin-top: 5%;
+    margin-right: auto;
+    display: flex;
+    flex-direction: column;
+}
+
+#feature-text h3 {
+    font-size: 1.2em;
+    margin-top: 10%;
+}
+
+#feature-text div {
+    margin-top: 5%;
+
+}
+
+#spotify-icon-white {
+    width: 10%;
+    justify-content: center;
+}
+
+#spotify-app {
+    width: 20%;
+    margin-right: 7%;
+    margin-left: auto;
+}
