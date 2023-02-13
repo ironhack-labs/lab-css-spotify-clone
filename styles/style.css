@@ -83,7 +83,7 @@ main h2 {
 
 .mojito {
     padding: 45px;
-    margin: 60px 100px 55px 40px;
+    margin: 60px 70PX;
     position: relative;
 }
 
@@ -97,7 +97,6 @@ main h2 {
     flex-direction: column;
     justify-content: center;
     height: 430px;
-    margin-left: 5%;
     flex-wrap: wrap;
     align-items: center;
 }
@@ -123,25 +122,26 @@ main h2 {
     background-repeat: no-repeat;
     background-position: center;
     background-size: 10%;
-    margin: 78px;
-    padding: 74px 126px 95px;
+    margin: 80px;
+    padding: 40px 110px 60px;
+    display: flex;
 }
 
- .malibu {
+.cubana {
+   color: white;
+   width: auto;
+   display: flex;
+   flex-direction: column;
+   flex: 80%;
+}
+
+ .cubana h2 {
     text-decoration: underline;
     color: white;
     font-size: 40px;
     text-decoration: underline;
     text-underline-position: under;
-    padding-bottom: 20px;
- }
-
- .cubana {
-    color: white;
-    display: flex;
-    flex-direction: column;
-    width: auto;
- }
+}
 
  .cubana h3 {
     font-size: 34px;
@@ -155,13 +155,13 @@ main h2 {
     margin-bottom: 17px;
 }
 
-
 .rum {
-    position: absolute;
-    right: 214px;
-    top: auto;
-    bottom: auto;
-    transform: translateY(-96%);
-    width: 19%;
-    height: auto;
+    display: flex;
+    flex-direction: column;
+    flex: 20%;
+    justify-content: end;
+}
+
+.rum img {
+    width: 300px;
 }
