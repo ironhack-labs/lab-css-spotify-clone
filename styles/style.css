@@ -18,6 +18,7 @@ main {
     justify-content: space-between;
     padding: 20px 40px;
     align-items: center;
+    font-family: 'Poppins', sans-serif;
 }
 
 .nav-bar a {
@@ -25,8 +26,7 @@ main {
     color: #1A1A1A;
     padding: 10px 20px;
     font-family: 'Poppins', sans-serif;
-    font-family: 'Roboto', sans-serif;
-    font-weight: 300;
+    font-weight: 500;
     font-size: 1.4em;
 }
 
@@ -41,7 +41,12 @@ main {
     width: auto;
     background-size: cover;
     display: flex;
-    flex-wrap: wrap;
+}
+
+#first-section div {
+    width: 100%;
+    display: flex;
+    flex-direction: column;
     justify-content: center;
     align-items: center;
 }
@@ -49,13 +54,18 @@ main {
 .white-h1 {
     color: #fff;
     font-size: 6em;
+    padding: 25px;
+    text-align: center;
 }
 
 .white-p {
     color: #fff;
     font-size: 1.8em;
-    margin: 0% 30% ;
+    padding: 25px;
+    width: 56%;
     text-align: center;
+    font-family: 'Poppins', sans-serif;
+    font-weight: 500;
 }
 
 #whats-on {
@@ -67,17 +77,19 @@ main {
     text-align: center;
     text-decoration: underline;
     text-decoration-color: #00b172;  
-    padding: 40px 0;
 }
 
 .three-elem {
     display:flex;
     justify-content: space-evenly;
+    align-items: center;
+    height: 488px;
 }
 
 .three-elem img {
-    width: 100px;
+    width: 150px;
     height: auto;
+    padding-bottom: 20px;
 }
 
 .feat {
@@ -85,6 +97,7 @@ main {
     justify-content: center;
     text-align: center;
     padding: 40px 40px;
+    width: 30%;
 
 }
 
@@ -93,12 +106,18 @@ main {
     color: #00b172;
     padding: 20px;
     font-weight: 900;
+    display: flex;
+    justify-content: center;
+    align-items: center;
 }
 
 .feat p {
     font-size: 1.6em;
     color: #1A1A1A;
     font-weight: 300;
+    display: flex;
+    justify-content: center;
+    align-items: center;
 }
 
 .Green-section {
@@ -139,7 +158,8 @@ main {
 .Green-section p {
     color: #fff;
     font-size: 1.4em; 
-    font-weight: 400;
+    font-weight: 500;
+    font-family: 'Poppins', sans-serif;
 }
 
 .Green-section h3 {
