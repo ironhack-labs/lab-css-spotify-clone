@@ -1,3 +1,156 @@
+body{
+    margin: auto;
+    display: flex;
+    flex-direction: column; 
+    font-family: system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+    }
+    
+    .nav-bar{
+        display: flex;
+        margin: 10px;
+    
+    }
+    #logo{
+        width: 180px;
+        height: 60px;
+        margin: 10px 20px;
+    }
+    #logo +a{
+        justify-content: space-around;
+        margin-left: auto;  
+    }
+    
+    a{
+        margin-right: 20px;;
+        padding-top: 20px;
+    
+        font-size: 24px;
+        color:#3f3f3f;
+        text-decoration: none;
+    }
+    
+    header{
+        background-image: url("../images/landing.jpg");
+        background-size: cover;
+        background-position: center;
+        height: 100vh;
+        margin-top: 0px;
+        display: flex;
+        flex-direction: column; 
+        justify-content: center; align-items: center;
+    
+    }
+    
+    header>h1{
+        color: white;
+        font-weight: 500;
+        font-size: 80px;
+        margin-bottom: 10px;
+    
+    
+    }
+    
+    header>p{
+        color: white;
+        font-size: 25px;
+        font-weight: lighter;
+        margin-bottom: 3px;
+        text-align: justify;
+    }
+    
+    header p:last-child{
+        margin-top: 0px;
+    }
+    
+    h2{
+        text-align: center;
+    
+        color: black;
+        text-decoration: underline #00B172;
+        font-size: 32px;
+        font-weight: 600;
+    
+    
+        margin-top: 42px;
+        margin-bottom: 42px;
+    
+    }
+    
+    #wos{
+        display: flex;
+        justify-content: space-around;
+    
+    }
+    
+    #wos img{
+        width: 130px;
+        height: 110px;
+    }
+    
+    h3{
+        color: #00B172;
+        font-weight: bold;
+    }
+    
+    section{
+        margin-left: 113px;
+        text-align: center;
+    }
+    
+    section p{
+        color: dimgray;
+        text-align: justify, center;
+        font-weight: lighter;
+    
+    }
+    
+    #kayne{
+        background-color: #00B172;
+        background-image: url(../images/spotify-icon-white.png);
+        background-position: center;
+        background-size: 10%;
+        background-repeat: no-repeat;
+    
+        color: white;
+        
+        margin: 69px;
+        display: flex;
+        justify-content: space-between;
+    }
+    
+    
+    #kayne article{
+        padding-left: 42px;
+    }
+    
+    h4{
+        color: white;
+        text-decoration: underline white;
+        text-underline-offset: 10px;
+        font-size: 25px;
+        font-weight: 500;
+    }
+    
+    h5{
+        padding-bottom: 0px;
+    }
+    
+    /* je n'arrive pas à justifier les <p> **txt */
+    .txt{
+        font-weight: lighter;
+        font-size: 11px;
+        text-align: justify;
+        border: 32px;
+    }
+    
+    
+    #kayne img{
+        width: 150px;
+        height: 300px;
+        margin: 42px;
+        text-align: right;
+    }
+    
 /*
 Colors:
 
