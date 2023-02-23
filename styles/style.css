@@ -6,3 +6,142 @@ Green: #00B172
 White: #FFF
 
 */
+/* ****************************** body ***************************** */
+body {
+    background-color: #fff;
+    font-family: sans-serif;
+    font-style: 1A1A1A;
+    margin: 0;
+}
+
+/* ******************************* module 1 *************************** */
+.module1 {
+    display: flex;
+}
+
+
+#logo+div {
+    margin-left: auto;
+}
+
+#logo~div:not(:last-child) {
+    margin-right: 10px;
+}
+
+nav {
+    background: white;
+    padding: 15px;
+    align-items: center
+}
+
+img {
+
+    width: 150px;
+    margin-left: left;
+}
+
+/* ******************************* module 2 *************************** */
+header {
+
+    background-image: url('../images/landing.jpg');
+    background-size: contain;
+    height: 30vh;
+    width: auto;
+    color: #fff;
+    text-align: center;
+    font-size: 25px;
+    padding-block: 200px;
+    background-position: center
+}
+
+/* ********************************** module3 ************************** */
+
+
+h2 {
+    font-size: 30px;
+    text-align: center;
+    text-decoration: underline;
+    text-underline-position: under;
+    text-decoration-color: #00B172;
+}
+
+h3 {
+    color: #00B172;
+    font-size: 20px;
+
+}
+
+.module3 {
+    display: flex;
+    text-align: center;
+    font-size: 25px;
+
+}
+
+.module3>.ligne1 {
+    display: block;
+    margin-top: auto;
+    margin-left: 50px;
+    /* margin-right: auto; */
+
+}
+
+.module3>.ligne2 {
+    display: block;
+    margin-top: auto;
+    margin-left: 180px;
+    /* margin-right: auto;*/
+}
+
+.module3>.ligne3 {
+    display: block;
+    margin-top: auto;
+    margin-left: 80px;
+    margin-right: 50px;
+    /*text-align: center; */
+}
+
+
+/*  ********************************* module4 ***************************** */
+
+section {
+display: flex;
+background-image: url('../images/spotify-icon-white.png');
+background-repeat:no-repeat; 
+background-size: 15%;
+background-position: center;
+
+
+    
+    margin-left: 30px;
+    margin-right: 30px;
+    padding: 50px;
+    padding-left: 100px;
+    background-color: #00B172;
+    color: #fff;
+    line-height: 2;
+    font-size: 20px;
+   
+}
+
+article h2 {
+    font-size: 30px;
+    text-align: left;
+    text-decoration: underline;
+    text-underline-position: under;
+    text-decoration-color: #fff;
+    color: #fff;
+}
+
+article h3 {
+    font-size: 25px;
+    color: #fff;
+
+}
+
+section img {
+    width: 100%;
+    height: 100vh;
+}
+   
+    /* reste position  */
