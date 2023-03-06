@@ -7,7 +7,7 @@
    <h2>Learning Goals</h2>
   </summary>
 
-  This exercise is designed to allow you practice and apply the concepts and techniques taught in class. 
+  This exercise allows you to practice and apply the concepts and techniques taught in class. 
 
   Upon completion of this exercise, you will be able to:
 
@@ -26,7 +26,7 @@
 
 ## Introduction
 
-Everybody likes music, right? Odds are, if you do, you have heard of **Spotify**.
+Everybody likes music, right? So the odds are that you have heard of **Spotify**.
 
 In this lab, we will be building a simplified version of the Spotify landing page:
 
@@ -34,7 +34,7 @@ In this lab, we will be building a simplified version of the Spotify landing pag
 
 <br>
 
-All of the necessary assets and images are already provided. You might also find it useful to resort to the **[full-length PDF version of the website](https://s3-eu-west-1.amazonaws.com/ih-materials/uploads/spotify-prototype.pdf)** as reference.
+All of the necessary assets and images are already provided. You might also find it useful to resort to the **[full-length PDF version of the website](https://s3-eu-west-1.amazonaws.com/ih-materials/uploads/spotify-prototype.pdf)** as a reference.
 
 ## Requirements
 
@@ -55,11 +55,11 @@ Create Pull Request so your TAs can check up your work.
 
 ## Instructions
 
-You are provided with some assets - in the `images` folder, you will find the necessary images, and the text is ready for you in the `index.html` file. Write your HTML and CSS code in the `index.html` and `styles/style.css` files, respectively. Remember to follow the best practices.
+You are provided with some assets - in the `images` folder, you will find the necessary images, and the text is ready for you in the `index.html` file. Write your HTML and CSS code in the `index.html` and `styles/style.css` files, respectively. Again, remember to follow the best practices.
 
 The page is split into 4 sections, and we have generously cut it down into pieces!
 
-In general, website designs don't just come out the wild, so you will most likely be having mockups/sketches that you will have to integrate. It is a good practice to help you out before coding to cut the website into pieces in order to help you out _**structuring**_ your HTML.
+In general, website designs don't just come out of the wild, so you will likely have mockups/sketches that you will have to integrate. Therefore, it is a good practice to help you cut the website into pieces before coding to help you _**structuring**_ your HTML.
 
 _**The last section isn't as detailed as the others ones, good luck**_ :smile:
 
@@ -84,7 +84,7 @@ Let's do this!
 
 ### Iteration 4: The green section
 
-- It looks like we have 2 main sections, a containing element with the text flowing from top to bottom, and the image of the Spotify player on the right.
+- It looks like we have 2 main sections, a containing element with the text flowing from top to bottom and the image of the Spotify player on the right.
 - Position the Spotify logo absolutely according to the _green_ `div`.
 
 Happy coding! :heart:
