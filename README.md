@@ -2,6 +2,28 @@
 
 # LAB | HTML & CSS - Spotify Clone
 
+<details>
+  <summary>
+   <h2>Learning Goals</h2>
+  </summary>
+
+  This exercise is designed to allow you practice and apply the concepts and techniques taught in class. 
+
+  Upon completion of this exercise, you will be able to:
+
+  - Create a webpage based on provided design and assets.
+  - Create and link an external CSS stylesheet with an HTML document.
+  - Display images in a webpage using HTML image tags and CSS `background` property.
+  - Use the CSS `position` property to position elements on a webpage.
+  - Use Flexbox to layout and position elements on a webpage.
+  - Center content on a webpage, including images and text.
+  - Submit completed work using Git and GitHub by creating a Pull Request.
+
+  <br>
+  <hr> 
+
+</details>
+
 ## Introduction
 
 Everybody likes music, right? Odds are, if you do, you have heard of **Spotify**.
