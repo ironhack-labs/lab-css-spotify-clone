@@ -46,9 +46,9 @@ All of the necessary assets and images are already provided. You might also find
 Upon completion, run the following commands:
 
 ```shell
-$ git add .
-$ git commit -m "done"
-$ git push origin master
+git add .
+git commit -m "done"
+git push origin master
 ```
 
 Create Pull Request so your TAs can check up your work.
