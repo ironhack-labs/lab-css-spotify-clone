@@ -87,4 +87,6 @@ Let's do this!
 - It looks like we have 2 main sections, a containing element with the text flowing from top to bottom and the image of the Spotify player on the right.
 - Position the Spotify logo absolutely according to the _green_ `div`.
 
-Happy coding! :heart:
+<br>
+
+**Happy coding!** :heart:
