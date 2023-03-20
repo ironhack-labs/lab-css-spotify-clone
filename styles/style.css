@@ -23,6 +23,7 @@ header{
     align-items: center;
 }
 nav{
+    z-index: 10;
     box-sizing: border-box;
     top: 0;
     width: 100%;
@@ -33,6 +34,7 @@ nav{
     justify-content: space-between;
     align-items: center;
     background-color: white;
+    box-shadow: 0 5px 5px rgba(0, 0, 0, 0.1);
 }
 nav ul{
     display: flex;
@@ -105,4 +107,45 @@ header h1 + article{
 }
 .flex_container .item img{
     height: 100px;
+}
+footer{
+    padding: 100px;
+    background-color: var(--green);
+    color: white;
+    display: flex;
+    justify-content: space-between;
+    align-items: flex-start;
+    position: relative;
+}
+footer > div{
+    width: 300px;
+    display: flex;
+    flex-direction: column;
+    gap: 30px;
+}
+footer h2{
+    width: max-content;
+    font-size: 32pt;
+    font-weight: 400;
+    position: relative;
+}
+footer h2::after{
+    content: '';
+    position: absolute;
+    bottom: -15px;
+    left: 0;
+    height: 4px;
+    background-color: white;
+    width: 100%;
+}
+footer > img{
+    width: 300px;
+}
+footer > img:last-child{
+    height: 150px;
+    width: 150px;
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
 }
