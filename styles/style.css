@@ -1,8 +1,108 @@
-/*
-Colors:
+:root{
+    --text-color: #1A1A1A;
+    --green: #00B172;
+}
+*{
+    margin: 0;
+    padding: 0;
+}
+html{
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    font-size: 14pt;
+    color: var(--text-color);
+}
+header{
+    height: 100vh;
+    background-image: url("../images/landing.jpg");
+    background-size: cover;
+    background-repeat: no-repeat;
 
-Text: 1A1A1A
-Green: #00B172
-White: #FFF
-
-*/
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+nav{
+    box-sizing: border-box;
+    top: 0;
+    width: 100%;
+    position: fixed;
+    padding: 0 30px;
+    height: 90px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    background-color: white;
+}
+nav ul{
+    display: flex;
+    flex-direction: row;
+    list-style: none;
+    gap: 40px;
+}
+nav a{
+    height: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    text-decoration: none;
+    color: inherit;
+}
+nav img{
+    height: 75%;
+}
+header h1{
+    color: white;
+    font-size: 52pt;
+}
+header h1 + article{
+    font-size: 18pt;
+    color: white;
+    text-align: center;
+}
+.section-2{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+.section-2 h2{
+    margin: 30px 0;
+    width: max-content;
+    font-size: 28pt;
+    position: relative;
+}
+.section-2 h2::after{
+    content: '';
+    height: 4px;
+    background-color: var(--green);
+    width: 100%;
+    position: absolute;
+    bottom: 0;
+    left: 0;
+}
+.section-2 .flex_container{
+    margin: 50px 0;
+    width: 90%;
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+    flex-wrap: wrap;
+    gap: 50px;
+}
+.flex_container .item{
+    height: 300px;
+    max-width: 300px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    text-align: center;
+    gap: 20px;
+    flex: 1 0 33%
+}
+.flex_container h3{
+    color: var(--green);
+}
+.flex_container .item img{
+    height: 100px;
+}
