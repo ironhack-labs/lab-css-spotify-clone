@@ -1,8 +1,123 @@
-/*
-Colors:
+html, body {
+    margin: 0;
+    padding: 0;
+    color: #1a1a1a;
+    font-family: 'Roboto', sans-serif;
+    font-size: 18px;
+    line-height: 1.6;
+}
+h1, h2, h3 {
+    font-family: 'Roboto Condensed', sans-serif;
+}
+h1 {
+    font-size: 3.8em;
+}
+h2 {
+    font-size: 1.8em;
+    text-decoration: underline;
+}
+h3 {
+    font-size: 1.3em;
+    color: #00B172;
+    letter-spacing: 0.6px;
+}
 
-Text: 1A1A1A
-Green: #00B172
-White: #FFF
+header {
+    background-image: url("../images/landing.jpg");
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: center;
+    height: 800px;
+    display: flex;
+    flex-flow: column wrap;
+    justify-content: center;
+    margin-bottom: 50px;
+}
+.header-content {
+    text-align: center;
+    color: white;
+}
+.header-content > p {
+    max-width: 25em;
+    margin: 0 auto;
+    font-size: 1.2em;
+}
+.navbar {
+    background-color: white;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding: 10px 15px;
+    position: fixed;
+    top: 0;
+    left: 0;
+    width: 100%;
+    box-sizing: border-box;
+    box-shadow: 0px 4px 10px rgba(0,0,0,0.5);
+}
+nav > ul {
+    list-style: none;
+    display: flex;
+}
+nav > ul > li {
+    padding: 0 10px;
+}
+nav > ul > li > a {
+    text-decoration: none;
+    color: #1a1a1a;
+    font-size: 1.2em;
+}
 
-*/
+.img-logo {
+    width: 150px;
+}
+
+main {
+    padding: 50px;
+}
+
+section {
+    text-align: center;
+    margin-bottom: 50px;
+}
+section > div {
+    display: flex;
+    flex-flow: row wrap;
+    justify-content: space-evenly;
+    align-items:baseline;
+}
+article {
+    width: 33%;
+    padding: 15px;
+    box-sizing: border-box;
+}
+article > img {
+    width: 80px;
+}
+
+footer {
+    background-image: url("../images/spotify-icon-white.png");
+    background-size: 10%;
+    background-repeat: no-repeat;
+    background-position: center;
+    background-color: #00B172;
+    color: white;
+    display: flex;
+    justify-content: space-between;
+    padding: 50px;
+}
+.footer-text > h3 {
+    color: white;
+    padding-top: 15px;
+}
+.footer-text {
+    max-width: 35%;
+}
+.footer-img {
+    max-width: 35%;
+}
+.footer-img > img {
+    max-width: 100%;
+}
+
+
