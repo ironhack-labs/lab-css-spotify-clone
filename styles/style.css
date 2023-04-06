@@ -80,5 +80,35 @@ header div p {
 
 main {
   width: 100%;
-  
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  padding: 1rem;
+  margin: 1rem;
+}
+main img {
+  height: 60px;
+}
+main div {
+  display: flex;
+  align-items: center;
+  justify-content: space-evenly;
+  margin: 1rem;
+}
+main div section {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  text-align: center;
+  width: 20%;
+}
+main div section h3 {
+  width: 175px;
+  padding: 1rem 0;
+  color: #00B172;
+}
+main div section p {
+  font-weight: lighter;
 }
