@@ -6,3 +6,45 @@ Green: #00B172
 White: #FFF
 
 */
+
+html {
+  box-sizing: border-box;
+  font-size: 16px;
+}
+
+*, *:before, *:after {
+  box-sizing: inherit;
+}
+
+body, h1, h2, h3, h4, h5, h6, p, ol, ul {
+  margin: 0;
+  padding: 0;
+  font-weight: lighter;
+}
+
+header {
+  width:100%;
+}
+header nav {
+  width: 100%;
+  position: fixed;
+  top: 0;
+  overflow: hidden;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  background-color: white;
+  padding: 0.8rem 0.5rem;
+}
+.spotify-logo {
+  height: 60px;
+  padding-left: 1rem;
+}
+ul {
+  list-style: none;
+  display: flex;
+}
+ul li {
+  padding: 0 0.9rem;
+  color: #1A1A1A;
+}
