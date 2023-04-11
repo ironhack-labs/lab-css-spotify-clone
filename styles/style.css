@@ -6,3 +6,112 @@ Green: #00B172
 White: #FFF
 
 */
+body{
+    padding: 0;
+    margin: 0;
+}
+.logo {
+    width: 200px;
+}
+nav {
+    display: flex;
+    justify-content: space-between;
+    padding: 20px;
+}
+nav ul {
+    display: flex;
+    list-style: none;
+    gap: 10px;
+    
+}
+nav a {
+    text-decoration: none;
+    color: black;
+    font-size: 20px;
+}
+
+.hero {
+    background-image: url("../images/landing.jpg");
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+    height: 700px;
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+}
+h1{
+    font-size: 60px;
+    font-weight: 900;
+    color: #FFF;
+    margin-bottom: 0;
+}
+h2{
+    color: #FFF;
+    font-size: 25px;
+    text-align: center;
+    padding: 0 350px;
+}
+h3{
+    text-align: center;
+    font-size: 35px;
+    text-decoration: underline #00B172;
+    text-underline-offset: 10px;
+
+}
+.cards-container {
+    display: flex;
+    justify-content: space-around;
+    align-items: baseline;
+}
+.cards {
+    width: 250px;
+    text-align: center;
+    margin-bottom: 40px;
+}
+.cards h4{
+    color: #00B172;
+    font-size: 25px;
+    font-weight: 900;
+}
+
+.cards p{
+    font-size: 20px;
+}
+.footer{
+    display: flex;
+    background-color: #00B172;
+    justify-content: space-around;
+    background-image: url(../images/spotify-icon-white.png);
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: 125px;
+    padding: 25px 0px;
+    margin: 0 20px;
+}
+.section-left {
+    color: white;
+}
+.footer h3 {
+    padding-bottom: 20px;
+    text-decoration: underline;
+    text-underline-offset: 10px;
+}
+.boxes {
+    width: 300px;
+}
+
+.footer h4 {
+    font-weight: 900;
+    font-size: 25px;
+}
+.footer p {
+    font-size: 20px;
+
+}
+.section-right {
+    padding: 50px 0px;
+}
+
