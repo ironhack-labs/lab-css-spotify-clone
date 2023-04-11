@@ -6,3 +6,135 @@ Green: #00B172
 White: #FFF
 
 */
+
+body{
+    font-family: sans-serif;
+    margin: 0;
+    padding: 0;
+}
+
+img{
+    width: 100%
+}
+
+header{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: center;
+    padding: 1em;
+}
+
+.logo{
+    width: 200px;
+}
+
+nav{
+    width: 25%
+}
+
+nav ul{
+    display: flex;
+    flex-direction: row;
+    list-style: none;
+    justify-content: flex-end;
+}
+
+nav ul a{
+    margin-left: 20px;
+}
+
+.hero{
+    padding: 15em 10em;
+    background-image: url(../images/landing.jpg);
+    background-position: top center;
+    background-size: cover;
+}
+
+.hero h1,.hero p{
+    color: white;
+    text-align: center;
+}
+
+.hero h1{
+    font-size: 5em;
+}
+
+.info{
+    display:flex;
+    flex-direction: row;
+    justify-content: space-around;
+    align-items: center;
+}
+
+.info article{
+    width: 20%;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.info img{
+    width: 6em;
+}
+
+.info-box h2{
+    text-align: center;
+    text-decoration-line: underline;
+    text-decoration-color: #00B172;
+    padding-top: 1em;
+    padding-bottom: 2em;
+}
+
+ h3{
+    color: #00B172;
+ }
+
+
+.info article{
+    font-size: 1.5em;
+    font-weight: 300;
+    text-align: center;
+}
+
+.bonus{
+    padding: 1em;
+}
+
+.green{
+    padding: 5em;
+    background-color: #00B172;
+    color: white;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: stretch;
+    position: relative;
+
+}
+
+.green .left, .green .right{
+    width: 40%
+}
+
+.green .left{
+    text-align: left;
+}
+
+.green h3{
+    color: white;
+}
+
+.right{
+    width: 20%;
+}
+
+.icon{
+    position: absolute;
+    width: 6em;
+    top: 40%;
+    left: 45%
+    
+
+}
+
