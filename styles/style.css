@@ -1,8 +1,93 @@
 /*
 Colors:
 
-Text: 1A1A1A
+Text: 
 Green: #00B172
 White: #FFF
 
 */
+body {
+    font-family: sans-serif;
+    margin: 0;
+}
+img {
+    width: 100%;
+}
+nav{
+    display: flex;
+    justify-content: space-between;
+    width: 100%;
+    position: fixed;
+    background-color: white;
+    height: 90px;
+    top: 0;
+
+}
+nav img {
+    width: 25%;
+    padding: 10px 0 20px 20px;
+}
+nav ul {
+display: flex;
+margin: 0;
+padding: 0;
+}
+nav a {
+    text-decoration: none;
+    color: black;
+     display: block;
+     padding-top: 20px;
+     padding-right: 10px;
+     line-height: 45px;
+}
+nav li {
+    list-style-type: none;
+    margin-left: 20px;
+}
+header {
+    width: 100%;
+    background-image: url("../images/landing.jpg");
+    background-size: cover;
+    height: 500px;
+    text-align: center;
+    color: white;  
+    
+}
+
+h1 {
+    padding-top: 200px;
+}
+h2 {
+    text-align: center;
+    text-decoration-line: underline;
+    text-decoration-color: #00B172;
+}
+.icons {
+    display: flex;
+    align-items: center;
+    width: 80%; 
+    margin: auto;
+    text-align: center;
+}
+.icons img {
+    width: 50%;
+}
+.icons p {
+    color: #1A1A1A;
+}
+.icons h3 {
+    color: #00B172;
+}
+.final {
+    width: 90%;
+    margin: auto;
+    background-color: #00B172;
+    display: flex;
+    justify-content: space-between;
+}
+.final img{
+    width: 20%;
+}
+.final h3, h4, p {
+    color: white;
+}
