@@ -1,8 +1,171 @@
-/*
-Colors:
+/* CSS for the entire document */
 
-Text: 1A1A1A
-Green: #00B172
-White: #FFF
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
 
-*/
+h1, h2, h3, p, a, figcaption {
+    color:  #1A1A1A;
+    font-family: Helvetica, Arial, sans-serif;
+    padding: 10px 0;
+}
+
+h1 {
+    font-size: 70px;
+}
+
+h2 {
+    font-size: 40px;
+}
+
+h3 {
+    font-size: 30px;
+}
+
+/* CSS for the header */
+
+header {
+    z-index: 1;
+    position: fixed;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 30px 10px;
+    background-color: white;
+    width: 100%;
+}
+
+header img {
+    width: 170px;
+    height: 50px;
+}
+
+header ul {
+    list-style: none;
+    display: flex;
+}
+
+header a {
+    text-decoration: none;
+    color: black;
+    margin: 0 35px;
+}
+
+/* CSS for Central photo */
+
+#lasecciondelafoto {
+    display: flex;
+    flex-direction: column;
+    background-image: url("https://github.com/ironhack-labs/lab-css-spotify-clone/blob/master/images/landing.jpg?raw=true");
+    background-repeat: no-repeat;
+    background-position: center center;
+    background-size: cover;
+    height: 100vh;
+    justify-content: center;
+    align-items: center;
+}
+
+#lasecciondelafoto h3 {
+    color: white;
+    font-size: 80px;
+    width: 60%;
+    text-align: center;
+}
+
+#lasecciondelafoto h2 {
+    font-size: 35px;
+    font-weight: 100;
+    color: white;
+    text-align: center;
+    width: 60%;
+}
+
+/* CSS for the main section */
+
+main {
+    padding: 80px 10px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+main h2 {
+    text-align: center;
+    width: 400px;
+    border-bottom: 3px solid #00B172;
+    padding-bottom: 10px;
+    margin-bottom: 100px;
+}
+
+main h3 {
+    color: #00B172;
+}
+
+main article {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    text-align: center;
+    width: 60%;
+}
+
+main p {
+    width: 80%;
+    justify-content: center;
+}
+
+#beneficios-de-spotify {
+    display: flex;
+    justify-content: space-evenly;
+    align-content: space-between;
+}
+
+.contenido-general {
+    height: 150px;
+    margin-bottom: 40px;
+}
+
+/* CSS for the footer */
+
+footer {
+    background-color: #00B172;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+    position: relative;
+}
+
+#footer-text {
+    padding: 40px 0;
+}
+
+footer h2, footer h3, footer p {
+    color: white;
+}
+
+footer article {
+    margin: 40px 0;
+}
+
+footer h2 {
+    border-bottom: 4px solid white;
+    font-size: 50px;
+}
+
+footer p {
+    font-weight: lighter;
+    width: 50%;
+}
+
+#imagen-de-logo {
+    width: 200px;
+    position: absolute;
+    align-self: center;
+}
+
+#ye-perfil-spotifyapp {
+    width: 300px;
+    padding 60px 0;
+}
