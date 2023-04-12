@@ -93,10 +93,11 @@ h2{
 
 #whats-on div{
     display: flex;
+    flex:auto;
     padding: 50px;
     justify-content: space-evenly;
     margin-top: 30px;
-    
+    min-width: 60vw;
 }
 
 #whats-on article{
@@ -120,12 +121,45 @@ h2{
 }
 
 #easy{
+    display: flex;
     background-color: #00B172;
     margin: 30px;
     padding: 50px;
     color:white;
+    flex-direction: column;
+    height: 800px;
     background-image: url(../images/spotify-icon-white.png);
     background-position: center;
-    
+    background-size: 150px;
+    background-repeat: no-repeat;
 }
+
+#easy>div{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 0 80px;
+}
+
+#easy article{
+    display: flex;
+    flex-direction: column;
+    justify-content: space-evenly;
+    width: 30vw;
+    height: 600px;
+}
+
+#easy h3{
+    font-size: 22pt;
+    margin-bottom: -20px;
+}
+
+#easy p{
+    font-size: 16pt;
+}
+
+.app-screen{
+    height: 750px;
+}
+
 
