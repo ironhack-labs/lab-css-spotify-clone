@@ -6,3 +6,114 @@ Green: #00B172
 White: #FFF
 
 */
+header{
+display:flex;
+justify-content:space-between;
+align-items: center;
+}
+
+header img{
+    width: 10%;
+    height: auto;
+}
+
+header nav ul{
+    display:flex;
+    list-style-type:none;
+}
+
+header nav ul li{
+padding-left: 10px;
+}
+
+.hero-image{
+    background-image: url(../images/landing.jpg);
+    width: auto;
+    height: 600px;
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+    display:flex;
+    justify-content: center;
+    align-items: center;
+    viewport-fit:cover;
+    color: #FFF;
+    
+}
+
+.hero-text{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+
+}
+
+.hero-text h1{
+    font-size: 80px; 
+    text-align: center; 
+    margin: 0;
+}
+.hero-text p{
+    font-size: 28px; 
+    width: 60%; 
+    text-align: center;
+    font-style: normal;
+}
+
+.general-info{
+    text-align: center;
+    margin-top: 30px;
+}
+
+.general-info article{
+    width: 30%;
+    display: flex;
+    flex-direction: column;
+    text-align: center;
+    align-items: center;
+}
+
+article img{
+    width: auto;
+    height: 50px;
+}
+
+.general-info div{
+    display: flex;
+    text-align: center;
+    align-items: center;
+    justify-content: space-between;
+    margin-top: 50px;
+}
+
+article p{
+    width: 40%;   
+}
+
+.more-info{
+    background-color:#00B172;
+    display: flex;
+    justify-content: flex-start;
+    justify-content: space-between;
+}
+
+.spotify-icon{
+    width: 80px;
+    height: auto;
+}
+
+.spotify-app{
+    width: 270px;
+    height: auto
+}
+
+.articles{
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-start;
+    align-content: start;
+    color:white;
+   margin-left: 5%;
+}
