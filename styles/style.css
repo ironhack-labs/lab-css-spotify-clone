@@ -108,7 +108,7 @@ footer {
   bottom: 0;
   width: 100%;
   font-size: 1.5rem;
-  font-weight: 800;
+  font-weight: 900;
   text-decoration: underline;
   -moz-text-decoration-style: solid;
   text-decoration-color: #1DB954;
@@ -116,36 +116,69 @@ footer {
   text-underline-offset: 6px;
 }
 
-.image-row {
-  display: flex;
-  flex-wrap: wrap;
-  justify-content: center;
+#bottom{
+  font-style: bolder;
+  font-weight: 700;
 }
-
+.icon-section {
+  display: flex;
+  justify-content: space-evenly; 
+  align-items: center; /* vertically center the items */
+}
 .image-container {
-  text-align: center;
-  margin: 10px;
+  display: flex; 
+  flex-direction: column; /* stack the h4 and p elements below the image */
+  align-items: center; /* center the items horizontally */
+  margin: 30px;
 }
 
 .image-container img {
-  width: 20%;
+  width: 45%; /* make the image take up % the full width of the container */
+  padding-bottom: 10px;
 }
 
-.image-container h4 {
-  font-size: 1.2rem;
-  margin-top: 10px;
+.image-container h4, .image-container .image-text {
+  text-align: center;
 }
 
-.image-container p {
-  font-size: 0.8rem;
-  margin-top: 5px;
+h3 {
+  color: #1DB954;
+  font-weight: bold;
+  padding-bottom: 10px;
 }
 
-.image-container {
-display: flex;
-flex-direction: row;
-position: absolute;
-justify-content:space-between; 
+.image-text{
+  font-size: small;
+  font-weight: 400;
+  color: gray;
+}
+.text-section{
+  display: flex;
+  flex-direction: column;
+  background-color: #1DB954;
+  padding-left: 3%;
+  padding-right: 3%;
+  margin-left: 3%;
+  margin-right: 3%;
   
 }
 
+#West-text{
+  font-size: 1.5rem;
+  font-weight: 400;
+  text-decoration: underline;
+  text-underline-offset: 8px;
+  color: white;
+  padding-top: 5%;
+}
+
+  #img-player-section {
+    display: flex;
+    flex-direction: column;
+    align-self:flex-end;
+  }
+
+#spotify-icon-white{
+  padding-top: 35%;
+  padding-left: 45%;
+  }
