@@ -6,3 +6,144 @@ Green: #00B172
 White: #FFF
 
 */
+/* TODO*/
+*{
+    margin: 0;
+    padding: 0;
+    font-family: Arial, Helvetica, sans-serif;
+}
+/* HEADER */
+header{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 1%;
+}
+header img{
+    height: 65px;
+    text-align: start;
+}
+
+header section{
+    width: 40%;
+    font-size: 25px;
+}
+header ul{
+    display: flex;
+    justify-content: space-between;
+    gap: 20px;
+}
+header li{
+    list-style: none;
+}
+/* MAIN */
+
+/* First Section */
+.first-section{
+    background-image: url(../images/landing.jpg);
+    background-size: cover;
+    background-position: center;
+    height: 800px;
+    color: white;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+}
+h1{
+    font-size: 80px;
+}
+.first-section p{
+    font-size: 32px;
+    margin: 15px 20% 15px 20%;
+    text-align: center;
+}
+/* Second Section */
+.second-section h2{
+    font-size: 35px;
+    text-align: center;
+    margin-top: 35px;
+}
+.description-boxes{
+    display: flex;
+    justify-content: center;
+    gap: 10%;
+    padding-top: 60px;
+    padding-bottom: 60px;
+
+}
+.description-box{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    width: 200px;
+}
+.description-box img{
+    height: 70px;
+}
+.description-box h3{
+    font-size: 17px;
+    color: #00B172;
+    margin: 10%;
+}
+.description-box p{
+    font-size: 15px;
+    text-align: center;
+    color: #1A1A1A;
+    MARGIN: 0 5% 0 5%;
+}
+/* Third section */
+.third-section{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: #00B172;
+    margin: 0 1%;
+    color: white;
+}
+
+.app-information{
+    width: 60%;     
+}
+.app-information h2{
+    font-size: 40px;
+    width: 100%;
+    margin: 0 5%;
+}
+hr{
+    width: 540px;
+    margin: 0 5%;
+}
+.descriptive-inf{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: center;
+    height: 600px;
+    margin: 0 5%;
+}
+.app-box{
+    width: 300px;
+    text-align: start;
+    margin-bottom: 60px;
+}
+.app-box h3{
+    font-size: 20px;
+    font-weight: bold;
+    margin: 20px 0px;
+
+}
+.app-img{
+    margin: 5%;
+}
+.app-information img{
+    width: 150px;
+    
+}
+
+
+.img-app img{
+    height: 600px;
+    padding: 10%;
+}
