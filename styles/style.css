@@ -8,9 +8,9 @@ White: #FFF
 */
 body {
     font-family: 'Montserrat', sans-serif;
-    ;
     margin: 0PX;
 }
+
 
 #headerBar {
     margin: 15px 30px;
@@ -25,6 +25,7 @@ body {
 
 #navBar {
     width: 410px;
+    
     justify-content: right;
     padding: 0;
     margin: 0;
@@ -36,6 +37,7 @@ nav>ul {
     justify-content: space-between;
     align-items: center;
     vertical-align: middle;
+
 }
 
 #headerImage {
@@ -56,6 +58,15 @@ h1 {
     font-weight: bold;
 }
 
+h2 {
+    font-size: 30px;
+    padding-bottom: 5px;
+}
+
+h3 {
+    font-size: 25px;
+}
+
 #headerImage>p {
     font-size: 25px;
     max-width: 650px;
@@ -67,10 +78,96 @@ h1 {
     align-items: center;
     flex-direction: column;
     justify-content: center;
+
 }
 
-#spotifyInfo > h2 {
-    font-size: 25px;
-    padding-bottom: 5px;
+
+#spotifyInfo>h2 {
     border-bottom: 5px solid #00B172;
+    width: fit-content;
+}
+
+#spotifyAdvantages {
+    width: 75%;
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: space-evenly;
+    padding: 0 100px;
+    margin: 50px 100px;
+}
+
+#spotifyAdvantages div {
+    width: 350px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+    padding-top: 50px;
+    justify-content: space-between;
+    
+}
+
+#spotifyAdvantages img {
+    width: 100px;
+}
+
+#spotifyAdvantages p {
+    font-size: 20px;
+    text-align: center;
+}
+
+#appSection > div {
+    background-color: #00B172;
+    margin: 25px;
+    padding: 80px;
+    color: white;
+}
+#appSection h2 {
+    border-bottom: 5px solid #ffffff;
+    width: fit-content;
+}
+
+#appSectionContent {
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    
+}
+
+#spotifyIcon {
+    position: absolute;
+    left: 0px;
+    right: 0;
+    margin-top: 9%;
+    margin-left: auto;
+    margin-right: auto;
+    width: 150px;
+}
+#spotifyAppImage {
+    padding-left: 160px;
+    justify-content: center;
+    display: flex;
+
+}
+
+
+#spotifyAppImage > img{
+    max-width: 80%;
+    display: flex;
+    vertical-align: top;
+
+}
+
+#kayneWestInfo {
+    vertical-align: top;
+    text-align: left;
+    max-width: 100%;
+    padding-right: 25px;
+    display: flex;
+    flex-direction: column;
+}
+
+#kayneWestInfo h3,p {
+    max-width: 70%;
 }
