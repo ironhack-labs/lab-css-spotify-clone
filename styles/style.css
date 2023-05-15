@@ -6,3 +6,71 @@ Green: #00B172
 White: #FFF
 
 */
+body {
+    font-family: 'Montserrat', sans-serif;
+    ;
+    margin: 0PX;
+}
+
+#headerBar {
+    margin: 15px 30px;
+    display: flex;
+    justify-content: space-between;
+}
+
+#headerBar>img {
+    width: 175px;
+
+}
+
+#navBar {
+    width: 410px;
+    justify-content: right;
+    padding: 0;
+    margin: 0;
+}
+
+nav>ul {
+    list-style: none;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    vertical-align: middle;
+}
+
+#headerImage {
+    background-image: url("../images/landing.jpg");
+    background-position: center center;
+    background-size: cover;
+    padding: 150px 150px 300px;
+    color: white;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    text-align: center;
+}
+
+h1 {
+    font-size: 60px;
+    font-weight: bold;
+}
+
+#headerImage>p {
+    font-size: 25px;
+    max-width: 650px;
+
+}
+
+#spotifyInfo {
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+    justify-content: center;
+}
+
+#spotifyInfo > h2 {
+    font-size: 25px;
+    padding-bottom: 5px;
+    border-bottom: 5px solid #00B172;
+}
