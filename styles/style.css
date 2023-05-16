@@ -6,3 +6,159 @@ Green: #00B172
 White: #FFF
 
 */
+
+*{
+    margin: 0;
+    padding: 0;
+    font-family: system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+}
+
+.container{
+    height: 15vh;
+    display: flex;
+    align-items: center;
+}
+
+#logo{
+    background-image: url(../images/spotify-logo.png);
+   height: 50px;
+   width: 600px;
+   background-repeat: no-repeat;
+   background-size: 25%;
+   margin-left: 15px;
+   margin-top: 15px;
+   
+}
+
+nav ul{
+    list-style: none;
+    display: flex;
+    justify-content: right;
+    justify-content: space-around;
+    font-size: 12px; 
+}
+
+
+nav ul li a{
+    padding: 5px;
+    text-decoration: none;
+    color: black;
+
+}
+
+#bgrd{
+    height: 500px;
+    background-image: url(../images/landing.jpg);
+    background-size: cover;
+    background-position: center;
+    padding-top: 10px;
+}
+
+h1{
+    font-size: 40px;
+    color: #fff;
+    font-weight: normal;
+    text-align: center;
+    padding-top: 200px;
+}
+
+#bgrd p{
+    font-size: 15px;
+    color: #fff;
+    text-align: center;
+    padding: 20px 145px;
+}
+
+.firth2{
+    text-align: center;
+    font-size: 18px;
+    border-bottom: 3px solid #1AB069;
+    display: inline-block
+    margin: 25px 0;
+
+}
+
+#content{
+    display: flex;
+    align-items: center;
+    margin: 25px 15px 100px 15px;
+
+}
+
+.music-i{
+    width: 60px;
+    margin:auto;
+    display:block;
+}
+.music{
+    align-items: center;
+
+}
+
+h3{
+    text-align: center;
+    color: #1AB069;
+    margin: 10px 0;
+
+}
+
+.music-p{
+    text-align: center;
+    padding: 0 20px;
+}
+
+.green{
+    width: 100vw;
+    height: 100vh;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.cointainer-green{
+    position: relative;
+    display: flex;
+    justify-content: space-between;
+    background-color: #1AB069;
+    margin: 0 15px;
+    width: 100vw;
+    height: 100vh;
+}
+
+.green-h2{
+    color: white;
+    font-weight:300;
+    padding: 30px 20px 30px 50px;
+}
+
+
+.app-img{
+    width: 200px;
+    align-items: center;
+    margin-right: 50px;
+    margin-top: 60px;
+}
+
+h4{
+    font-size: 20px;
+    color: #fff;
+    padding-left: 50px;
+}
+
+.green-p{
+    font-size: 13px;
+    color: #fff;
+    padding: 10px 0px 15px 50px;
+    margin-top: 10px;
+    margin-right: 250px;
+    font-weight: lighter;
+}
+
+.logo-spoty{
+    position: absolute;
+    width: 100px;
+    transform: translate(-50% , -50%);
+    top: 50%;
+    left: 50%;
+    
+}
