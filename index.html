@@ -9,40 +9,50 @@
     <!-- don't forget to link your styles -->
   </head>
   <body>
-    <nav>
-      <img src="../lab-css-spotify-clone/images/spotify-logo.png" alt="spotify logo">
-      <ul> 
-       <li>Premium</li>
-       <li>Discover</li>
-       <li>Help</li>
-       <li>Download</li>
-      </ul> 
-    </nav>
 
-    <header>
-      <h1> Music for everyone.</h1>
-      <p>Spotify is now free on mobile, tablet and computer. Listen to the
-      right music, wherever you are.</p>
-    </header>
-    
-    <section>
-      <h3>What’s on Spotify?</h3>
-      
+    <div class="nav-bar">
+
+      <div class="nav-bar-logo">
+        <img src="../lab-css-spotify-clone/images/spotify-logo.png" alt="spotify logo">
       <div>
 
-        <article> 
+      <div class="nav-bar-ul">
+        <ul> 
+        <li>Premium</li>
+        <li>Discover</li>
+        <li>Help</li>
+        <li>Download</li>
+        </ul> 
+      </div>
+
+    </div>
+
+    <header class="header">
+      <div class="text-over-photo">
+        <h1> Music for everyone.</h1>
+        <p id="header-p">Spotify is now free on mobile, tablet and computer. Listen to the
+        right music, wherever you are.</p>
+      </div>
+    </header>
+    
+    <section class="white-section">
+      <h3>What’s on Spotify?</h3>
+      
+      <div class="info-promo-bigbox">
+
+        <article class="info-promo"> 
           <img src="../lab-css-spotify-clone/images/music-icon.png" alt="music icon">
           <h4>Millions of Songs</h4> 
           <p>There are millions of songs on Spotify</p>
         </article>
 
-        <article> 
+        <article class="info-promo"> 
           <img src="../lab-css-spotify-clone/images/high-quality-icon.png" alt="high quality icon">
           <h4>HD Music</h4> 
           <p>Listen to music as if you were listening live</p>
         </article>
 
-        <article>
+        <article class="info-promo">
           <img src="../lab-css-spotify-clone/images/devices-icon.png" alt="devices icon">
           <h4>Stream Everywhere</h4> 
           <p>Stream music on your smartphone, tablet or computer</p>
@@ -52,30 +62,43 @@
       </div>  
     </section>
 
-    <section> 
+    <section class="green-section"> 
       <h3>It’s as yeezy as Kanye West.</h3>
-      
-      <div>
 
-        <article> 
-          <h4>Search</h4> 
-          <p>Know what you want to listen to? Just search and hit play.</p>
-        </article>
+        <div class="elements-green-section">
 
-        <article> 
-          <h4>Browse</h4> 
-          <p>Check out the latest charts, brand new releases and great playlists for right now.</p>
-        </article>
+          <div class="text-green-section">
 
-        <article> 
-          <h4>Discover</h4> 
-          <p>Enjoy new music every Monday with your own personal playlist. Or sit back and enjoy Radio.</p>
-        </article>
-        
-        <img src="../lab-css-spotify-clone/images/spotify-icon-white.png" alt="spotify icon white">
-        <img src="../lab-css-spotify-clone/images/spotify-app.jpg" alt="spotify app image">
-       
-     </div>
+            <article> 
+              <h4>Search</h4> 
+              <p>Know what you want to listen to? Just search and hit play.</p>
+            </article>
+
+            <article> 
+              <h4>Browse</h4> 
+              <p>Check out the latest charts, brand new releases and great playlists for right now.</p>
+            </article>
+
+            <article> 
+              <h4>Discover</h4> 
+              <p>Enjoy new music every Monday with your own personal playlist. Or sit back and enjoy Radio.</p>
+            </article>
+
+          </div>
+            
+          <div>
+
+            <img src="../lab-css-spotify-clone/images/spotify-icon-white.png" alt="spotify icon white">
+
+          </div>
+
+          <div  class="img-green-section">
+
+            <img src="../lab-css-spotify-clone/images/spotify-app.jpg" alt="spotify app image">
+
+          </div>
+
+        </div>
     </section>
   </body>
 </html>
