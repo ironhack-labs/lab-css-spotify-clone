@@ -1,3 +1,12 @@
+*{
+    margin:0px;
+}
+
+html, body{
+    margin:0px;
+    padding:0px;
+}
+
 /*
 Colors:
 
@@ -6,3 +15,182 @@ Green: #00B172
 White: #FFF
 
 */
+
+
+navbar{
+    position:fixed;
+    display:flex;
+    background-color: #FFF;
+    justify-content: center;
+    width: 100%;
+    height:75px;
+}
+
+navbar img{
+    width: 150px;
+}
+
+.spotify-logo-container{
+    width: 47%;
+    padding-top: 15px;
+}
+
+navbar ul{
+    display: flex;
+    width: 47%;
+    justify-content: flex-end;
+    align-items: center;
+    gap: 20px;
+    font-size: 20px;
+    font-family: system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+}
+
+
+.main-container{
+    display:flex;
+    width: 100%;
+    height: 100%;
+    flex-direction: column;
+    align-items: center;
+}
+
+.main-picture-section{
+    background: url(../../images/landing.jpg) center center / 100% no-repeat;
+    display:flex;
+    flex-direction: column;
+    gap: 30px;
+    width: 100%;
+    height: 800px;
+    justify-content: center;
+    align-items: center;
+}
+
+.main-picture-section-header{
+    font-family: system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+    font-size: 75px;
+    color:#FFF;
+}
+
+.main-picture-section-text{
+    font-family: system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+    max-width:650px;
+    color:#fff;
+    text-align: center;
+    font-size: 28px;
+}
+
+.main-info-section{
+    display: flex;
+    flex-direction: column;
+    width: 100%;
+    height: 400px;
+    align-items: center;
+}
+
+.main-info-section-header{
+    display: flex;
+    width: 100%;
+    height: 25%;
+    justify-content: center;
+    font-family: system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+    font-weight: 600;
+    align-items: center;
+}
+
+.main-info-section-boxes{
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+    width: 98%;
+    height: 75%;
+    gap: 20px;
+}
+
+.main-info-section-box{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    gap:25px;
+    width: 30%;
+    width: 30%;
+}
+
+.main-info-section-boxes img{
+    width: 100px;
+}
+
+.main-info-section-box h2{
+    font-family: system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+    color:#00B172;
+    font-size: 25px;
+}
+
+.main-info-section-box span{
+    max-width: 210px;
+    font-family: system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+    font-size: 20px;
+    text-align: center;
+}
+
+.main-player-section-box{
+    background-color: #00B172;
+    display:flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+    width: 95%;
+    height: 660px;
+}
+
+.main-player-section-box-left{
+    display: flex;
+    flex-direction: column;
+    width: 40%;
+    height: 80%;
+    gap: 25px;
+}
+
+.main-player-section-box-header{
+    font-family: system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+    width: fit-content;
+    height: 50px;
+    font-size: 35px;
+    font-weight: 500;
+    border-bottom: 3px solid #FFF;
+    color: #FFF;
+    margin-bottom: 20px;
+}
+
+.main-player-section-box-right{
+    display: flex;
+    justify-content: flex-end;
+    align-items: center;
+    width: 40%;
+    height: 100%;
+}
+
+.main-player-section-box-right img{
+    height: 500px;
+}
+
+.spotify-logo-white{
+    position: absolute;
+    width: 100px;
+}
+
+.main-player-section-box h2{
+    font-family: system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+    color:#FFF;
+    font-weight: 500;
+    font-size: 25px;
+}
+
+.main-player-section-box span{
+    max-width: 295px;
+    font-family: system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+    color:#FFF;
+    font-size:20px;
+}
+
