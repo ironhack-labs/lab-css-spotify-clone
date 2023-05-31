@@ -6,3 +6,153 @@ Green: #00B172
 White: #FFF
 
 */
+body {
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 16px;
+    margin: 0px;
+    padding: 0;
+}
+
+
+h1 {
+    font-size: 4em;
+}
+
+.header-class {
+    background-color: rgb(252, 252, 252);
+    vertical-align: middle;
+    position: fixed;
+    display: table;
+    width: 100%;
+}
+
+#header-logo {
+    width: 200px;
+    float: left;
+}
+
+.header-class nav {
+    float: right;
+}
+
+.header-class nav ul li {
+    display: inline;
+    padding: 0 12px;
+    font-size: 0.9em;
+}
+
+:any-link {
+    text-decoration: none;
+    color: gray;
+}
+
+.intro-section {
+    clear: both;
+    height: 600px;
+    background-image: url(/images/landing.jpg);
+    background-size: contain;
+    color: white;
+    text-align: center;
+    vertical-align: middle;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+}
+
+.intro-section p {
+    font-size: 1em;
+}
+
+.title-container {
+    text-align: center;
+}
+
+.features-section h2 {
+    text-align: center;
+    box-sizing: content-box;
+    display: inline-block;
+    border-width: 0;
+    border-style: solid;
+    border-color: #00B172;
+    border-bottom-width: 2px;
+}
+
+.features-section h3 {
+    font-weight: bold;
+}
+
+.features-list {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-evenly;
+}
+
+.feature {
+    text-align: center;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: baseline;
+}
+
+.feature h3 {
+    color: #00B172;
+    margin-bottom: 0px;
+    padding-bottom: 0 px;
+}
+
+.feature-icon {
+    width: 120px;
+    box-sizing: border-box;
+    height: 100px;
+    padding: 10px;
+    margin: 10px;
+}
+
+.green-section {
+    color: white;
+    background-color: #09b176;
+    border: 2px solid white;
+    padding: 60px 80px;
+    position: relative;
+    margin: 50px;
+}
+
+.spotify-icone {
+    width: 100px;
+    position: absolute;
+    top: 50%;
+    left: 50%;
+}
+
+.container-green {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: flex-end;
+}
+
+.sbd {
+    box-sizing: border-box;
+    display: flex;
+    flex-direction: column;
+    max-width: 300px;
+}
+
+.sbd h3,
+p {
+    font-weight: lighter;
+}
+
+.green-section h2 {
+    box-sizing: content-box;
+    display: inline-block;
+    border-width: 0 0 2px 0;
+    border-style: solid;
+}
+
+.kanye-container {
+    box-sizing: border-box;
+    width: auto;
+    height: 400px;
+}
