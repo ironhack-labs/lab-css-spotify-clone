@@ -6,3 +6,211 @@ Green: #00B172
 White: #FFF
 
 */
+
+* {
+  padding: 0;
+  margin: 5px;
+  box-sizing: border-box;
+  font-family: "Gotham Rounded", sans-serif;
+}
+
+/* SPOTIFY NAVIGATION AND SPOTIFY LOOG --START */
+.header {
+  height: 100px;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  background-color: white;
+}
+
+.nav > a {
+  color: #1a1a1a;
+  text-decoration: none;
+  font-style: normal;
+  margin: 10px;
+  padding-right: 30px;
+  font-weight: 210;
+  font-size: 25px;
+}
+
+.logo {
+  width: 200px;
+  height: 70px;
+  overflow: hidden;
+  margin: 20px;
+}
+
+.logo img {
+  max-width: 100%;
+  height: auto;
+  /* display: block; */
+}
+
+/* SPOTIFY NAVIGATION AND SPOTIFY LOOG -- END */
+
+/* BACKGROUND BANNER IMAGE (HERO) AND  HERO TEXT --- START*/
+.hero {
+  /* display: flex; */
+  height: 500px;
+  background-image: url("../images/landing.jpg");
+  background-repeat: no-repeat;
+  background-position: center;
+  background-size: cover;
+  justify-content: center;
+  align-items: center;
+}
+.hero-header {
+  text-align: center;
+  padding-top: 180px;
+  /* font-family: "Calibri"; */
+  font-weight: 150;
+  font-size: 100px;
+  color: white;
+}
+
+.hero-paragraph {
+  width: 800px;
+  text-align: center;
+  color: white;
+  font-weight: 100;
+  font-size: 30px;
+  margin: 0 auto;
+}
+
+/* BACKGROUND BANNER IMAGE (HERO) AND  HERO TEXT --- END*/
+
+/* FEATURES ON SPOTIFY -- START */
+.on-spotify {
+  /* border: 1px solid red; */
+  text-align: center;
+  padding: 20px;
+  margin-top: 40px;
+}
+.on-spotify > p {
+  font-size: 30px;
+  /* font-weight: 200; */
+}
+
+.on-spotify-hr {
+  width: 280px;
+  margin: 20px auto;
+  height: 5px;
+  background: #00b172;
+}
+
+.features-container {
+  display: flex;
+}
+.feature {
+  /* border: 2px solid red; */
+  height: 350px;
+  width: 500px;
+  text-align: center;
+  padding-top: 50px;
+}
+
+.feature > img {
+  max-width: 800px;
+  height: 100px;
+  margin: 5px auto;
+  display: block;
+}
+
+.feature > h4 {
+  color: #00b172;
+  font-size: 30px;
+  font-weight: 400;
+}
+
+.feature > p {
+  width: 240px;
+  margin: 0 auto;
+  padding: 20px;
+  font-size: 17px;
+  font-weight: 200;
+}
+
+/* FEATURES ON SPOTIFY -- END */
+
+/* GREEN CONTAINER -- START */
+.green-container {
+  display: flex;
+  background-color: #00b172;
+  /* height: 1000px; */
+  /* width: 100%px; */
+}
+
+.kanye-div {
+  /* border: 2px solid red; */
+  /* flex-grow: 1; */
+}
+.app-div {
+  /* border: 2px solid red; */
+  /* flex-grow: 1; */
+}
+
+.app-div > img {
+  max-width: 800px;
+  height: 800px;
+  display: block;
+  margin: 100px auto;
+}
+
+.kanye-div {
+  padding-left: 90px;
+  padding-top: 70px;
+}
+
+.kanye-text {
+  color: white;
+  font-size: 30px;
+  /* margin-bottom: 30px; */
+}
+
+.kanye-hr {
+  height: 5px;
+  background: white;
+  width: 420px;
+  margin-bottom: 40px;
+}
+
+.content-h4 {
+  color: white;
+  font-size: 40px;
+  font-weight: 300;
+  margin-bottom: 25px;
+}
+
+.content {
+  height: 200px;
+  /* width: 500px; */
+  /* border: 1px solid blue; */
+}
+
+.browse {
+  display: flex;
+  height: 200px;
+  width: 700px;
+  /* border: 1px solid blue; */
+  /* align-items: center; */
+  justify-content: space-between;
+}
+
+.browse > p {
+  width: 300px;
+  /* border: 1px solid red; */
+  padding-top: 50px;
+}
+.browse-image-container > img {
+  max-width: 100%;
+  height: 100px;
+  display: block;
+}
+
+.content-p {
+  color: white;
+  font-weight: 200;
+  font-size: 20px;
+}
+
+/* GREEN CONTAINER -- END */
