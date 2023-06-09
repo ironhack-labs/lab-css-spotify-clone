@@ -1,8 +1,130 @@
-/*
-Colors:
 
-Text: 1A1A1A
-Green: #00B172
-White: #FFF
+body {
+    margin: 0;
+    padding: 0;
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 16px;
+}
+.header {
+    position: fixed;
+    display: table;
+    width: 100%;
+    vertical-align: middle;
+    background-color: rgb(252, 252, 252);
+}
+.nav-bar {
+    float: right;
+}
+#spotify-logo {
+    float: left;
+    width: 200px;
+}
+.nav-bar ul li {
+    display: inline;
+    font-size: 0.9em;
+    padding: 0 12px;
+}
+h1 {
+    font-size: 4em;
+}
+.information {
+    background-image:url(/images/landing.jpg);
+    background-size: contain;
+    color: white;
+    clear: both;
+    height: 600px;
+    display: flex;
+    text-align: center;
+    vertical-align: middle;
+    flex-direction: column;
+    justify-content: center;
+} 
+.information p {
+    font-size: 1em;
+}
+:any-link {
+    text-decoration: none;
+    color: gray;
+}
+.main-head {
+    text-align: center;
+}
+.main-section h3 {
+    text-align: center;
+    box-sizing: content-box;
+    display: inline-block;
+    border-width: 0 0 2px 0;
+    border-style: solid;
+    border-color: #00B172;
+}
+.secondary-section {
+    display:flex;
+    flex-direction: row;
+    justify-content: center;
+}
+.secondary-head {
+    text-align: center;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: baseline;
+}
+.secondary-head h4 {
+    color: #00B172;
+    margin-bottom: 0;
+    padding-bottom: 0;
+}
+.spotify-icons {
+    width: 120px;
+    box-sizing: border-box;
+    height: 100px;
+    padding: 10px;
+    margin: 10px;
+}
+.player-section {
+    background-color: #00B172;
+    color: white;
+    margin: 20px;
+    padding: 40px 50px;
+    position: relative;
+}
 
-*/
+.player-functions {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: flex-end;
+}
+
+.player-instructions {
+    box-sizing: border-box;
+    display: flex;
+    flex-direction: column;
+    max-width: 300px;
+}
+
+.player-instructions 
+p {
+    font-weight: lighter;
+}
+
+.player-section h3 {
+    box-sizing: content-box;
+    display: inline-block;
+    border-width: 0 0 2px 0;
+    border-style: solid;
+}
+
+.spotify-icon {
+    width: 100px;
+    position: absolute;
+    top: 50%;
+    left: 50%;
+}
+.spotify-app-image {
+    box-sizing: border-box;
+    width: auto;
+    height: 400px;
+}
+
+
