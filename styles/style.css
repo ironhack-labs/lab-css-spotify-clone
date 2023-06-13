@@ -99,9 +99,29 @@ White: #FFF
     margin: 0 25px;
 }
 
-.spotify-app {
+.wrapper-class {
     background-color: #1AB16A;
+    background-size: cover;
     display: flex;
-    justify-content: space-between;
+    justify-content: space-evenly;
     align-items: center;
+    margin: 0 25px;
+}
+
+.spotify-app {
+    color: white;
+    display: flex;
+    flex-direction: column;
+    text-align: justify;
+    align-items: baseline;
+}
+
+.spotify-app h1 {
+    text-decoration: underline;
+}
+
+.spotify-player img {
+    width: 300px;
+    height: auto;
+    padding: 25px 0;
 }
