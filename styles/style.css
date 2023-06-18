@@ -101,11 +101,16 @@ White: #FFF
 
 .wrapper-class {
     background-color: #1AB16A;
-    background-size: cover;
+    background-image: url("../images/spotify-icon-white.png");
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: 5%;
     display: flex;
     justify-content: space-evenly;
     align-items: center;
     margin: 0 25px;
+    padding-top: 100px;
+    padding-bottom: 50px;
 }
 
 .spotify-app {
@@ -114,10 +119,23 @@ White: #FFF
     flex-direction: column;
     text-align: justify;
     align-items: baseline;
+    height: 600px;
 }
 
 .spotify-app h1 {
     text-decoration: underline;
+}
+
+.spotify-category {
+    height: auto;
+    font-size: 20px;
+    max-width: 350px;
+}
+
+.spotify-category p {
+    line-height: 30px;
+    text-align: left;
+    
 }
 
 .spotify-player img {
