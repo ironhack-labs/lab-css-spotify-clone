@@ -6,3 +6,140 @@ Green: #00B172
 White: #FFF
 
 */
+
+.header {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.header img {
+    width: 200px;
+    height: auto;
+    padding: 10px;
+}
+
+.header nav ul {
+    list-style-type: none;
+    margin: 5px 10px;
+}
+
+.header nav ul li {
+    display: inline-block;
+    padding: 10px;
+    font-size: 24px;
+    font-weight: 400;
+}
+
+.landing-page {
+    background-image: url("../images/landing.jpg");
+    background-repeat: repeat;
+    background-size: cover;
+    background-position: 0 0;
+    font-size: 28px;
+    width: 100vw;
+    height: 1000px;
+    color: white;
+    position: relative;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+.landing-page p {
+    margin: 0 20px;
+    font-weight: lighter;
+    white-space: break-spaces;
+}
+
+.categories {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+.categories h1 {
+    margin-bottom: 50px;
+}
+
+.list-of-cards {
+    display: flex;
+    justify-content: center;
+    align-items: baseline;
+    margin-bottom: 50px;
+    margin-left: 10px;
+    margin-right: 10px;
+}
+
+.card {
+    width: 33%;
+    height: 100%;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+.card img {
+    width: 120px;
+    height: auto;
+}
+
+.card h2 {
+    color: #1AB16A;
+    text-align: center;
+}
+
+.card p {
+    font-size: 20px;
+    letter-spacing: 0.7px;
+    text-align: center;
+    padding: 0 15px;
+    margin: 0 25px;
+}
+
+.wrapper-class {
+    background-color: #1AB16A;
+    background-image: url("../images/spotify-icon-white.png");
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: 5%;
+    display: flex;
+    justify-content: space-evenly;
+    align-items: center;
+    margin: 0 25px;
+    padding-top: 100px;
+    padding-bottom: 50px;
+}
+
+.spotify-app {
+    color: white;
+    display: flex;
+    flex-direction: column;
+    text-align: justify;
+    align-items: baseline;
+    height: 600px;
+}
+
+.spotify-app h1 {
+    text-decoration: underline;
+}
+
+.spotify-category {
+    height: auto;
+    font-size: 20px;
+    max-width: 350px;
+}
+
+.spotify-category p {
+    line-height: 30px;
+    text-align: left;
+    
+}
+
+.spotify-player img {
+    width: 300px;
+    height: auto;
+    padding: 25px 0;
+}
