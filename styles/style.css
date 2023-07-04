@@ -6,3 +6,203 @@ Green: #00B172
 White: #FFF
 
 */
+
+/* GENERAL */
+
+*{
+  margin: 0;
+  padding:0;
+  /* outline: 1px solid red; */
+  font-family: Helvetica;
+  color: #1A1A1A;
+  box-sizing: border-box;
+}
+
+/* NAVBAR  */
+.navbar {
+  display: flex;
+  justify-content: space-between;
+  position: fixed;
+  width: 100%;
+  background-color: white;
+  padding: 20px;
+}
+
+.logo__green {
+  width: 200px;
+}
+
+.navbar__links {
+  display: flex;
+  width: 30%;
+  justify-content: space-around;
+  align-items: center;
+}
+
+.navbar__links a {
+  text-decoration: none;
+  font-weight: lighter;
+}
+
+/* MAIN  */
+
+.landing-page__content {
+  padding: 50px;
+}
+
+main {
+  padding-top: 100px;
+}
+
+/* BANNER */
+
+.banner {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  text-align: center;
+  background-image: url('./../images/landing.jpg');
+  background-size: cover;
+  background-position: bottom;
+  width: 100%;
+  height: 100vh;
+
+}
+
+.banner__text {
+  width: 100%;
+}
+
+h1 {
+  font-size: 4rem;
+  margin-bottom: 1rem;
+  color: white;
+  width: 100%;
+
+}
+
+.banner p {
+  font-size: 1.5rem;
+  margin: 0 auto;
+  font-weight: lighter;
+  color: white;
+  width: 100%;
+
+}
+
+/* DESCRIPTION */
+
+.lp__description h2 {
+ display: block;
+  justify-content: center;
+  text-align: center;
+  font-size: 3rem;
+  margin: 1.5rem auto;
+  padding: 30px 0;
+  width: 500px;
+  border-bottom: 3px solid #00B172;
+
+}
+
+
+.horizontal-container {
+  display: flex;
+  justify-content: space-around;
+  gap: 1rem;
+  margin: 10rem 0;
+
+}
+
+.card {
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+  align-items: center;
+  gap: 1rem;
+  width: 400px;
+  text-align: center;
+}
+
+
+.card__icon {
+  width: 150px;
+  aspect-ratio: 1;
+}
+
+.card__text {
+  flex-grow: 1;
+}
+
+.card h3 {
+  color: #00B172;
+  font-size: 2.5rem;
+  margin: 2rem 0;
+
+}
+
+.card p {
+  font-size: 1.5rem;
+  font-weight: 200;
+  width: 300px;
+  color: #1A1A1A;
+}
+
+
+/* process */
+
+.lp__process {
+  background-color: #00B172;
+  background-image: url('./../images/spotify-icon-white.png');
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: 10%;
+  padding: 90px 120px;
+}
+
+.lp__process h2 {
+  font-size: 2.3rem;
+  color: white;
+  padding: 1rem 0;
+  border-bottom: 2px solid white;
+
+}
+
+.process-container {
+  display: flex;
+  justify-content: space-between;
+}
+
+.vertical-container__text h3, p {
+  font-size: 1.8rem;
+  width: 300px;
+  color: white;
+}
+
+.vertical-container__text p {
+  font-size: 1.2rem;
+  font-weight: lighter;
+}
+
+
+.vertical-container__content {
+  display: flex;
+  flex-direction: column;
+  gap: 3rem;
+  align-items: start;
+  margin-top: 3rem;
+}
+
+.vertical-container__text {
+  display: flex;
+  flex-direction: column;
+  gap: 2rem;
+}
+
+.process-container__right {
+  align-self: flex-end;
+
+}
+
+.process-container__right img {
+  width: 300px;
+}
