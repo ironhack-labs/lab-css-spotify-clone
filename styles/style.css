@@ -15,6 +15,7 @@ White: #FFF
   /* outline: 1px solid red; */
   font-family: Helvetica;
   color: #1A1A1A;
+  box-sizing: border-box;
 }
 
 /* NAVBAR  */
@@ -85,7 +86,6 @@ h1 {
 .banner p {
   font-size: 1.5rem;
   margin: 0 auto;
-  /* padding: 0 1rem; */
   font-weight: lighter;
   color: white;
   width: 100%;
@@ -125,14 +125,20 @@ h1 {
   text-align: center;
 }
 
+
 .card__icon {
   width: 150px;
+  aspect-ratio: 1;
 }
 
+.card__text {
+  flex-grow: 1;
+}
 
 .card h3 {
   color: #00B172;
   font-size: 2.5rem;
+  margin: 2rem 0;
 
 }
 
@@ -152,11 +158,11 @@ h1 {
   background-position: center;
   background-repeat: no-repeat;
   background-size: 10%;
-  padding: 70px;
+  padding: 90px;
 }
 
 .explanation h2 {
-  font-size: 2rem;
+  font-size: 2.3rem;
   color: white;
   padding: 1rem 0;
   border-bottom: 2px solid white;
@@ -166,19 +172,26 @@ h1 {
 .explanation-container {
   display: flex;
   justify-content: space-between;
+  align-items: space-between;
 }
 
-.vertical-container h3, p {
-  font-size: 2rem;
-  width: 500px;
+.vertical-container__text h3, p {
+  font-size: 1.8rem;
+  width: 450px;
   color: white;
 }
+
+.vertical-container__text p {
+  font-size: 1.2rem;
+  font-weight: lighter;
+}
+
 
 .vertical-container__content {
   display: flex;
   flex-direction: column;
   gap: 3rem;
-  align-items: end;
+  align-items: start;
   margin-top: 3rem;
 }
 
@@ -187,7 +200,7 @@ h1 {
   flex-direction: column;
   gap: 2rem;
 }
-.explanation-container img {
-  width: 400px;
-  padding: 40px;
+
+.explanation-container__right img {
+  width: 300px;
 }
