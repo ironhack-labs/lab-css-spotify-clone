@@ -1,8 +1,166 @@
 /*
 Colors:
-
-Text: 1A1A1A
+Text: #1A1A1A
 Green: #00B172
 White: #FFF
-
 */
+
+html {
+    font-family: sans-serif;
+    font-size: 20px;
+    font-weight: lighter;
+}
+
+body {
+    margin: 0;
+}
+
+header {
+    padding: 10px 25px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    position: fixed;
+    top: 0;
+    left: 0;
+    right: 0;
+    background-color: white;
+}
+
+#spotify-logo {
+    width: 200px;
+}
+
+nav {
+    width: 35vw;
+}
+
+nav ul {
+    list-style: none;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+nav a {
+    text-decoration: none;
+    color: #1A1A1A;
+}
+
+#large-image-section {
+    margin-top: 80px; 
+    background-image: url("../images/landing.jpg");
+    background-position: center;
+    background-size: cover;
+    height: 800px;
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+#large-image-section h1 {
+    color: white;
+    text-align: center;
+    font-size: 3.5rem;
+    font-weight: bold;
+}
+
+#large-image-section p {
+    color: white;
+    text-align: center;
+    font-size: 1.5rem;
+    width: 55vw;
+    margin-top: -30px;
+    line-height: 2rem;
+}
+  
+#whats-on-section {
+    margin: 50px; 
+}
+
+#whats-on-section span {
+    font-size: 1.8rem;
+    border-bottom: solid #00B172 3px;
+    padding-bottom: 5px;
+}
+
+#whats-on-section h2 {
+    text-align: center;
+}
+
+#boxes {
+    margin: 80px auto;
+    display: flex;
+    justify-content: space-around;
+}
+
+.box img {
+    height: 100px;
+}
+
+.box h3 {
+    color: #00B172;
+    font-weight: bold;
+}
+
+.box p {
+    width: 22vw;
+}
+
+.box {
+    text-align: center;
+    font-size: 1.2rem;
+    line-height: 1.5rem;
+    color: #1A1A1A;
+}
+
+#green-section {
+    background-color: #00B172; 
+    padding: 50px 100px;
+    margin: 25px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+#green-section span {
+    font-size: 1.8rem;
+    font-weight: bold;
+    border-bottom: solid white 3px;
+    padding-bottom: 5px;
+}
+
+#green-section h2 {
+    text-align: start;
+    white-space: nowrap;
+}
+
+#green-section-text {
+    color: white;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+}
+
+.text-element {
+    font-size: 1.1rem;
+    width: 25vw;
+    line-height: 1.5rem;
+}
+
+.text-element h3 {
+    font-weight: bold;
+    margin: 30px 0;
+    font-size: 1.5rem;
+}
+
+#spotify-icon {
+    width: 125px; 
+    margin-left: -200px;
+}
+
+#spotify-app {
+    height: 500px;
+}
