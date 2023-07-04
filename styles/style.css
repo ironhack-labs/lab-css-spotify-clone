@@ -28,20 +28,18 @@ White: #FFF
   padding: 20px;
 }
 
-
-
 .logo__green {
   width: 200px;
 }
 
-.navigation-links {
+.navbar__links {
   display: flex;
   width: 30%;
   justify-content: space-around;
   align-items: center;
 }
 
-.navigation-links a {
+.navbar__links a {
   text-decoration: none;
   font-weight: lighter;
 }
@@ -94,7 +92,7 @@ h1 {
 
 /* DESCRIPTION */
 
-.description h2 {
+.lp__description h2 {
  display: block;
   justify-content: center;
   text-align: center;
@@ -150,18 +148,18 @@ h1 {
 }
 
 
-/* EXPLANATION */
+/* process */
 
-.explanation {
+.lp__process {
   background-color: #00B172;
   background-image: url('./../images/spotify-icon-white.png');
   background-position: center;
   background-repeat: no-repeat;
   background-size: 10%;
-  padding: 90px;
+  padding: 90px 120px;
 }
 
-.explanation h2 {
+.lp__process h2 {
   font-size: 2.3rem;
   color: white;
   padding: 1rem 0;
@@ -169,15 +167,14 @@ h1 {
 
 }
 
-.explanation-container {
+.process-container {
   display: flex;
   justify-content: space-between;
-  align-items: space-between;
 }
 
 .vertical-container__text h3, p {
   font-size: 1.8rem;
-  width: 450px;
+  width: 300px;
   color: white;
 }
 
@@ -201,6 +198,11 @@ h1 {
   gap: 2rem;
 }
 
-.explanation-container__right img {
+.process-container__right {
+  align-self: flex-end;
+
+}
+
+.process-container__right img {
   width: 300px;
 }
