@@ -14,6 +14,7 @@ White: #FFF
   padding:0;
   /* outline: 1px solid red; */
   font-family: Helvetica;
+  color: #1A1A1A;
 }
 
 /* NAVBAR  */
@@ -41,11 +42,14 @@ White: #FFF
 
 .navigation-links a {
   text-decoration: none;
-  color: #1A1A1A;
   font-weight: lighter;
 }
 
 /* MAIN  */
+
+.landing-page__content {
+  padding: 50px;
+}
 
 main {
   padding-top: 100px;
@@ -63,7 +67,7 @@ main {
   background-position: bottom;
   width: 100%;
   height: 80vh;
-  color: white;
+
 }
 
 .banner__text {
@@ -73,10 +77,109 @@ main {
 h1 {
   font-size: 4rem;
   margin-bottom: 1rem;
+  color: white;
 }
 
 .banner p {
   font-size: 1.5rem;
   padding: 0 1rem;
   font-weight: lighter;
+  color: white;
+}
+
+/* DESCRIPTION */
+
+.description h2 {
+ display: block;
+  justify-content: center;
+  text-align: center;
+  font-size: 3rem;
+  margin: 1.5rem auto;
+  padding: 30px 0;
+  width: 500px;
+  border-bottom: 3px solid #00B172;
+
+}
+
+
+.horizontal-container {
+  display: flex;
+  justify-content: space-around;
+  gap: 1rem;
+  margin: 10rem 0;
+
+}
+
+.card {
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+  align-items: center;
+  gap: 1rem;
+  width: 400px;
+  text-align: center;
+}
+
+.card__icon {
+  width: 150px;
+}
+
+
+.card h3 {
+  color: #00B172;
+  font-size: 2.5rem;
+
+}
+
+.card p {
+  font-size: 1.5rem;
+  font-weight: 200;
+  width: 300px;
+  color: #1A1A1A;
+}
+
+
+/* EXPLANATION */
+
+.explanation {
+  background-color: #00B172;
+  background-image: url(./../images/spotify-icon-white.png);
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: 10%;
+  padding: 70px;
+}
+
+.explanation h2 {
+  font-size: 2rem;
+  color: white;
+  padding: 1rem 0;
+  border-bottom: 2px solid white;
+
+}
+
+.vertical-container {
+  display: flex;
+  justify-content: space-between;
+}
+
+.vertical-container__left h3, p {
+  font-size: 2rem;
+  width: 500px;
+  color: white;
+}
+
+.vertical-container__content {
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+  gap: 3rem;
+  margin: 3rem 0;
+
+}
+
+.vertical-container__right img {
+  /* max-width: 100%;
+  flex: 1; */
+
 }
