@@ -6,3 +6,167 @@ Green: #00B172
 White: #FFF
 
 */
+
+
+
+@import url('https://fonts.googleapis.com/css2?family=Montserrat:ital,wght@0,400;1,100&display=swap');
+
+html, body {
+    margin: 0px;
+    padding: 0px;
+}
+
+body {
+    font-family: 'Montserrat', sans-serif;
+    font-size: 12px;
+}
+
+.nav-bar {
+    padding: 4px 14px;
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: space-between;
+    position: fixed;
+    left: 0;
+    right: 0;
+    top: 0;
+    width: auto;
+    background-color: white;
+}
+
+.nav-bar-logo img {
+    width: 200px;
+    padding: 8px 14px 4px;
+}
+
+a:link {
+    text-decoration: none;
+}
+
+.nav-bar-links {
+   width: 300px;
+   display: flex;
+   justify-content: space-around;
+   align-items: center;
+}
+
+.header {
+    height: 650px;
+    background-image: url(../images/landing.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+    padding: 150px;
+    margin-top: 5px;
+}
+
+.text-over-photo {
+    margin-top: 185px;
+    text-align: center;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.header h1 {
+    font-size: 60px;
+    color: white;
+    width: 600px;
+}
+
+.header p {
+    font-size: 20px;
+    color: white;
+    margin-top: -20px;
+    width: 550px;
+}
+
+.white-section h3 {
+    font-size: 25px;
+    text-align: center;
+    text-decoration: underline;
+    text-decoration-color: #1DB954;
+    text-underline-position: under;
+}
+
+.info-promo-bigbox {
+    margin-top: 60px;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+    align-items: center;
+}
+
+.info-promo {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    text-align: center;
+    justify-content: center;
+    width: 200px;
+}
+
+.info-promo img {
+    width: 100px;
+    height: 80px;
+}
+
+.info-promo h4 {
+    font-weight: bolder;
+    font-size: 18px;
+    color: #1DB954;
+}
+
+.info-promo p {
+    width: 150px;
+    padding-bottom: 60px;
+}
+
+.green-section {
+    background-color: #1DB954;
+    height: 700px; 
+    color: white;
+    margin: 20px;
+}
+
+.green-section h3 {
+    font-size: 25px;
+    padding-top: 50px;
+    padding-left: 80px;
+    text-decoration: underline;
+    text-decoration-color: white;
+    text-underline-position: under;
+}
+
+.text-green-section h4 {
+    font-size: 25px;
+}
+
+.text-green-section p {
+    font-size: 18px;
+}
+
+.text-green-section {
+    width: 350px;
+    height: 500px;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+}
+
+.elements-green-section {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: space-between;
+    margin: 30px 80px;
+}
+
+.img-green-section img {
+    width: 300px;
+}
+
+.logo-green-section img {
+    width: 120px;
+
+}
