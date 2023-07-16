@@ -23,7 +23,7 @@ h1{
 }
 
 h2{
-    font-size: 30px;
+    font-size: 40px;
 }
 
 h3{
@@ -32,7 +32,15 @@ h3{
 }
 
 h4{
-    font-size: 30px;
+    font-size: 40px;
+    color: #FFF;
+    margin: 0;
+    font-weight: 400;
+    width: 600px;
+}
+
+h5{
+    font-size: 25px;
     color: #FFF;
 }
 
@@ -50,7 +58,7 @@ h4{
     position: relative;
     content: '';
     border-bottom: 5px solid #FFF;
-    width: 59%;
+    width: 540px;
     bottom: 15px;
 }
 
@@ -66,8 +74,8 @@ nav{
 }
 
 nav img{
-    width: 15%;
-    height: 15%;
+    width: 10%;
+    height: 10%;
 }
 
 .menu{
@@ -148,32 +156,44 @@ article p{
 
 #information{
     background-color: #00B172;
+    margin: 0 30px;
+    padding: 80px 90px;
+}
+
+.info{
     display: flex;
     flex-direction: row;
-    margin: 0 30px;
-    padding: 20px 0;
+    justify-content: space-between;
 }
-
-.all-information{
-    display: flex;
-    flex-direction: column;
-}
-
-.icon-img{
-    width: 100px;
-    height: 100px;
-    right: 30%;
-    top: -50%;
-}
-
-.app-img{
-    width: 400px;
-    right: 0;
-    top: 50%;
-}
-
 
 .information-articles{
     display: flex;
     flex-direction: column;
+    width: 299px;
+}
+
+.information-articles p{
+    color: #FFF;
+    font-size: 18px;
+}
+
+.app-img{
+    display: flex;
+    align-self: center;
+    margin-top: 67px;
+}
+
+.app-img img{
+  height: 520px;
+}
+
+.icon-img {
+    width: 200px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+ 
+.icon-img img {
+    width: 150px;
 }
