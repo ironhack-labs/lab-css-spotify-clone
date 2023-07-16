@@ -26,6 +26,16 @@ h2{
     font-size: 30px;
 }
 
+h3{
+    color: #00B172;
+    margin-top: 10px;
+}
+
+h4{
+    font-size: 30px;
+    color: #FFF;
+}
+
 .h-green:after {
     display: inline-block;
     position: relative;
@@ -40,13 +50,8 @@ h2{
     position: relative;
     content: '';
     border-bottom: 5px solid #FFF;
-    width: 100%;
+    width: 59%;
     bottom: 15px;
-}
-
-h3{
-    color: #00B172;
-    margin-top: 10px;
 }
 
 /*----NAVEGATION BAR----*/
@@ -141,4 +146,34 @@ article p{
 
 /* ----INFORMATION----*/
 
+#information{
+    background-color: #00B172;
+    display: flex;
+    flex-direction: row;
+    margin: 0 30px;
+    padding: 20px 0;
+}
 
+.all-information{
+    display: flex;
+    flex-direction: column;
+}
+
+.icon-img{
+    width: 100px;
+    height: 100px;
+    right: 30%;
+    top: -50%;
+}
+
+.app-img{
+    width: 400px;
+    right: 0;
+    top: 50%;
+}
+
+
+.information-articles{
+    display: flex;
+    flex-direction: column;
+}
