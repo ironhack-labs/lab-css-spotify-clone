@@ -6,3 +6,78 @@ Green: #00B172
 White: #FFF
 
 */
+
+html,
+body{
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+    background-color: #FFF;
+    font-family: 'Montserrat', sans-serif;
+}
+
+/*----NAVEGATION BAR----*/
+
+nav{
+    position: fixed;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    padding: 10px 20px;
+    background-color: #FFF;
+}
+
+nav img{
+    width: 15%;
+    height: 15%;
+}
+
+.menu{
+    display: flex;
+    list-style: none;
+}
+
+.menu a {
+    text-decoration: none;
+    color:#1A1A1A;
+    padding: 1rem;
+}
+
+/* ----HEADER----*/
+
+#header{
+    display: inline-block;
+    text-align: center;
+    color: white;
+}
+
+.home-text{
+    position: absolute;
+    width: 750px;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+}
+
+h1{
+    display: inline-block;
+    font-size: 60px;
+    color: #FFF;
+}
+
+p{
+    display: inline-block;
+    font-size: 30px;
+    font-weight: 200;
+    color: #FFF;
+}
+  
+#header img {
+   display: block;
+   max-width: 100%;
+   height: auto;
+}
+
+/* ----FEATURES----*/
+
+
