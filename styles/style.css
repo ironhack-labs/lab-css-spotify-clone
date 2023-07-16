@@ -16,6 +16,39 @@ body{
     font-family: 'Montserrat', sans-serif;
 }
 
+h1{
+    display: inline-block;
+    font-size: 60px;
+    color: #FFF;
+}
+
+h2{
+    font-size: 30px;
+}
+
+.h-green:after {
+    display: inline-block;
+    position: relative;
+    content: '';
+    border-bottom: 5px solid #00B172;
+    width: 100%;
+    bottom: 15px;
+}
+
+.h-white::after{
+    display: inline-block;
+    position: relative;
+    content: '';
+    border-bottom: 5px solid #FFF;
+    width: 100%;
+    bottom: 15px;
+}
+
+h3{
+    color: #00B172;
+    margin-top: 10px;
+}
+
 /*----NAVEGATION BAR----*/
 
 nav{
@@ -59,13 +92,7 @@ nav img{
     transform: translate(-50%, -50%);
 }
 
-h1{
-    display: inline-block;
-    font-size: 60px;
-    color: #FFF;
-}
-
-p{
+.home-text p{
     display: inline-block;
     font-size: 30px;
     font-weight: 200;
@@ -79,5 +106,39 @@ p{
 }
 
 /* ----FEATURES----*/
+
+#features{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+
+    margin: 0 auto;
+    padding: 30px 0;
+}
+
+.features-articles{
+    display: flex;
+    justify-content: space-between;
+    align-items: baseline;
+    flex-direction: row;
+    padding: 20px;
+}
+
+.features-articles article{
+    font-size: 1.7em;
+    text-align: center;
+    width: 40%;
+    padding: 0 54px;
+}
+
+article img{
+    width: 150px;
+}
+
+article p{
+    color: black;
+}
+
+/* ----INFORMATION----*/
 
 
