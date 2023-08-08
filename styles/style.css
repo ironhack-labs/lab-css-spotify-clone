@@ -89,7 +89,7 @@ a {
 .whats-on-container h2 {
     text-align: center;
     font-size: 40px;
-    margin-top: 3%;
+    
 }
 
 .whats-on-wrapper {
@@ -126,10 +126,12 @@ figure p {
     background-color: #00B172;
     display: flex;
     padding: 50px;
+    justify-content: center;
 }
 
 .left-green-side {
-    width: 70%;
+    
+    position: relative;
 }
 
 .left-green-side h2 {
@@ -160,15 +162,17 @@ figure p {
 }
 
 .right-green-side {
-    width: 30%;
+    
 }
 aside {
     float: right;
-    margin-right: 100px;
     top: 50%;
+    position: absolute;
+    width: 100%;
+    left: 65%;
 }
 aside img {
-    width: 99px;
+    width: 100px;
 }
 
 .right-green-side img {
