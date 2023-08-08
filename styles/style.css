@@ -6,3 +6,172 @@ Green: #00B172
 White: #FFF
 
 */
+* {
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+
+nav {
+    /* position:fixed; */
+    display: flex;
+    justify-content: space-between;
+    align-content: center;
+    align-items: center;
+    padding: 20px 50px;
+    min-width: 90%;
+}
+
+nav img {
+    width: 150px;
+}
+
+.navbar-links-wrapper {
+    width: 30%;
+}
+
+.navbar-links-wrapper ul {
+    list-style: none;
+    display: flex;
+    justify-content: space-evenly;
+}
+
+.navbar-links-wrapper  a {
+    color: black;
+}
+
+ul {
+    list-style: none;
+}
+
+a {
+    text-decoration: none;
+}
+
+.hero {
+    background-image: url('../images/landing.jpg');
+    height: 100vh;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    position: relative;
+}
+
+.hero h1 {
+    text-align: center;
+    color: white;
+    position: absolute;
+    top: 50%;
+    left:50%;
+    transform: translate(-50%, -50%);
+    font-size: 80px;
+    margin-bottom: 100px;
+}
+
+.hero p {
+    text-align: center;
+    color: white;
+    position: absolute;
+    top: 50%;
+    left:50%;
+    transform: translate(-50%, -50%);
+    font-size: 20px;
+    margin-top: 100px;
+}
+
+.whats-on-container {
+    height: 50vh;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-evenly;
+}
+
+.whats-on-container h2 {
+    text-align: center;
+    font-size: 40px;
+    margin-top: 3%;
+}
+
+.whats-on-wrapper {
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+}
+
+.whats-on-wrapper img {
+    width: 80px;
+}
+
+figure {
+    display: flex;
+    flex-direction: column;
+    align-content: center;
+    justify-content: center;
+    align-items: center;
+    padding: 20px;
+}
+
+figure h3 {
+    margin-top: 10px;
+    color: #00B172;
+}
+
+figure p {
+    text-align: center;
+    margin-top: 10px;
+    color: #1A1A1A;
+}
+
+.green {
+    background-color: #00B172;
+    display: flex;
+    padding: 50px;
+}
+
+.left-green-side {
+    width: 70%;
+}
+
+.left-green-side h2 {
+    color: white;
+    font-size: 35px;;
+}
+
+.divider {
+    background-color:  white;
+    height: 2px;
+    margin-top: 2px;
+    width: 53ch;
+}
+
+.green-subsection h3, p {
+    color: white;
+    margin-top: 50px;
+}
+
+.green-subsection h3 {
+    font-size: 25px;
+}
+
+.green-subsection p {
+    font-size: 18px;
+    font-weight: lighter;
+    width: 40%;
+}
+
+.right-green-side {
+    width: 30%;
+}
+aside {
+    float: right;
+    margin-right: 100px;
+    top: 50%;
+}
+aside img {
+    width: 99px;
+}
+
+.right-green-side img {
+    height: 500px;
+    margin-top: 20px;
+}
