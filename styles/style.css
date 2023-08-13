@@ -1,8 +1,170 @@
-/*
-Colors:
 
+/* Colors:
 Text: 1A1A1A
 Green: #00B172
-White: #FFF
+White: #FFF */
 
-*/
+html {
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+}
+
+body {
+    color: #1A1A1A;
+    margin: 0;
+    padding: 0;
+    font-family: 'Open Sans', sans-serif;
+    font-size: 10px;
+    line-height: 1.5em;
+    font-weight: lighter;
+}
+
+/* nav section */
+.nav{
+    display: flex;
+    justify-content: space-between;
+    align-items:center ;
+    margin: 10px 5px;
+}
+
+nav ul {
+    list-style: none;
+    font-size: 1.2em;
+    margin: 0 15px;
+    padding: 0;
+    display: flex; 
+    font-weight: lighter;
+}
+
+nav li {
+    display:inline-block ;
+    margin: 0 5px
+}
+
+nav .spotify-logo  {
+    width: 100px;
+    margin: 0 20px;
+    padding: 0;
+}
+
+/* header section */
+header{
+    background-image: url("../images/landing.jpg");
+    height: 400px;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+.header div {
+    text-align: center;
+    padding-top: 110px;
+    font-size: 1.6em;
+    color: white;
+    font-weight: lighter;
+    line-height: 0.5em;
+}
+.header h1 {
+    font-size: 2.9em;
+    font-weight: 400;
+    line-height: 0.7em;
+}
+
+/* what's on section */
+.whats-on h2 {
+    text-align: center;
+    margin: 1.5em 0 0.1em 0;
+    font-size: 1.9em;
+}
+
+.hr {
+    text-decoration-line: underline;
+    text-underline-offset: 7px;
+    text-decoration-color: #00B172;
+    text-decoration-thickness: 1.5px;
+}
+
+.container {
+    display: flex;
+    justify-content: space-between;
+    margin: 40px 20px;
+}
+
+.container div {
+    width: 80%;
+    text-align: center;
+    font-size: 1.3em;
+    padding: 10px 30px;
+}
+
+.container h3 {
+    color: #00B172;
+    font-size: 15px;
+    margin: 0;
+}
+
+.container img{
+    width: 70px;
+    height: 60px;
+    margin-bottom: 10px;
+}
+
+/* green background section */
+.yeezy {
+    background-color: #00B172;
+    display: flex;
+    align-items: center;
+    justify-content: space-between; 
+    color: #FFF ;
+    margin: 20px;
+    position: relative;
+}
+
+.yeezy-details {
+    flex: 1;
+    font-size: 1.2em;
+    line-height: 1.5em;
+    margin-left: 40px;
+    padding-right: 30px;
+}
+
+.yeezy-details h2 {
+    text-decoration-line: underline;
+    text-underline-offset: 5px;
+    text-decoration-color: #FFF;
+    text-decoration-thickness: 1.5px;
+    width: 100%;
+    position: absolute;
+    top: 0;
+    left: 0;
+    margin: 40px 0 0 40px;
+}
+.yeezy-details h3 {
+    padding: 5px 0;
+    font-size: 1.3em;
+    margin: 10px 0;
+}
+
+.yeezy-details .details {
+    margin-top: 80px;
+}
+
+.images {
+    display: flex;
+    flex: 2;
+    flex-direction: row;
+    align-items: center;
+    justify-content: space-between;
+    position: relative;
+}
+
+img.icon  {
+    margin: 0 auto;
+    width: 18%;
+}
+
+img.app {
+    width: 170px;
+    margin: 50px 50px 50px 0;
+}
