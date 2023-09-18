@@ -6,3 +6,146 @@ Green: #00B172
 White: #FFF
 
 */
+
+body{
+  padding-top: 27px;
+  margin-left: 0;
+  margin-bottom: 0;
+  overflow-x: hidden;
+  font-family: "Circular Spotify Text";
+}
+
+nav {
+  top: 0px;
+  left: 0px;
+  position: fixed;
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  height: 55px;
+  width: 100vw;
+  padding: 0 10px;
+  background-color: white;
+  margin: 0;
+}
+
+nav img {
+  width: 160px;
+  padding: 5px
+}
+
+nav ul {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-around;
+  width: 25vw;
+  list-style: none;
+  padding-right: 20px;
+}
+
+nav a{
+  text-decoration: none;
+  color: black;
+}
+
+#info-image{
+  width: 100vw;
+  height: 120vh;
+  background-image: url(/images/landing.jpg);
+  background-size: cover;
+  background-position: 30px;
+  color: white;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+
+#info-image h1{
+  font-size: 120px;
+  margin-bottom: 0;
+  margin-top: 0;
+}
+
+#info-image p{
+  font-size: 45px;
+  text-align: center;
+}
+
+#triple-info{
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  width: 100vw;
+  margin-bottom: 100px;
+}
+
+#triple-info > h1{
+  border-bottom: 3px solid #00B172;
+  font-size: 40px;
+  margin-top: 50px;
+  margin-bottom: 100px;
+}
+
+#triple-container{
+  display: flex;
+  justify-content: space-around;
+  text-align: center;
+  width: 100vw;
+}
+
+.info-box{
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  width: 280px;
+}
+
+.info-box img{
+  height: 130px;
+}
+
+.info-box h1{
+  color: #00B172;
+  font-size: 30px;
+}
+
+.info-box p{
+  margin-top: 0;
+  width: 250px;
+  font-size: 20px;
+}
+
+#yeezy-info{
+  width: 95vw;
+  height: 120vh;
+  margin: auto;
+  background-color: #00B172;
+  color: white;
+  background-image: url(/images/spotify-icon-white.png);
+  background-repeat: no-repeat;
+  background-position: center;
+  background-size: 10vw;
+  display: flex;
+  flex-direction: row;
+  justify-content: space-around;
+  align-items: center;
+}
+
+#yeezy-info img{
+  width: 450px;
+}
+
+#yeezy-info h1{
+  font-size: 50px;
+  border-bottom: 4px solid white;
+}
+
+#yeezy-info h2{
+  font-size: 40px;
+}
+
+#yeezy-info p{
+  font-size: 30px;
+  width: 480px;
+}
