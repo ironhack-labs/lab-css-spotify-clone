@@ -6,3 +6,170 @@ Green: #00B172
 White: #FFF
 
 */
+* {
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+    text-decoration: none;
+    font-family: 'Roboto', sans-serif;
+    ;
+}
+
+a {
+    color: black;
+    font-size: 20px;
+    font-weight: 100;
+}
+
+.nav-header {
+    background-color: #fff;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    height: 70px;
+    padding: 45px;
+}
+
+.nav-logo img {
+    height: 50px;
+    width: auto;
+}
+
+.link-menu {
+    list-style: none;
+    display: flex;
+}
+
+.link-menu li {
+    margin: 30px;
+    padding 0;
+}
+
+#header-section {
+    background: url("../images/landing.jpg");
+    background-size: cover;
+    background-repeat: no-repeat;
+    height: 900px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    line-height: 2;
+}
+
+#header-section>h1 {
+    color: white;
+    font-size: 70px;
+    font-weight: bold;
+    letter-spacing: 2px;
+}
+
+#header-section>p {
+    color: white;
+    font-size: 25px;
+    text-align: center;
+    line-height: 1.5;
+}
+
+#middle-section {
+    height: 465px;
+    width: 100%;
+}
+
+#middle-section h2 {
+    text-align: center;
+    font-size: 35px;
+    font-weight: bold;
+    margin: 50px;
+    text-decoration: underline;
+    text-decoration-color: #00B172;
+    text-underline-position: under;
+}
+
+.spotify-items {
+    display: flex;
+    justify-content: space-around;
+}
+
+.middle-content {
+    margin: 65px;
+    text-align: center;
+    width: 33%;
+
+}
+
+.middle-content img {
+    height: 120px;
+    width: auto;
+}
+
+h3 {
+    margin-top: 30px;
+    color: #00B172;
+    font-weight: bold;
+    font-size: 25px;
+}
+
+.middle-content p {
+    margin-top: 20px;
+    font-size: 20px;
+    font-weight: 100;
+}
+
+#end-section {
+    background-color: #00B172;
+    margin: 50px;
+    color: white;
+
+
+}
+
+.left-section {
+    padding: 50px;
+    margin-left: 50px;
+}
+
+
+.left-section h2 {
+    margin-top: 40px;
+    margin-bottom: 40px;
+    font-size: 40px;
+    text-decoration: underline;
+    text-underline-position: under;
+}
+
+.flex-content {
+    height: 650px;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-around;
+}
+
+.end-content h3 {
+    color: white;
+    font-size: 30px;
+    margin-bottom: 30px;
+}
+
+.end-content p {
+    width: 30%;
+    font-size: 20px;
+    font-weight: 100;
+    margin-bottom: 30px;
+}
+
+.white-logo {
+    width: 12%;
+    height: auto;
+    position: absolute;
+    top: 1960px;
+    left: 700px;
+}
+
+.app-screen {
+    width: 24%;
+    height: auto;
+    position: absolute;
+    top: 1670px;
+    left: 1000px;
+}
