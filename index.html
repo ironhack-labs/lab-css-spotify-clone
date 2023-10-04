@@ -18,12 +18,12 @@
 
 <body>
 
-  <nav class="flex f-h-between p-h-2 p-v-">
+  <nav class="flex f-h-between p-h-2 p-v-1">
     <div class="logoContainer flex f-hv-center">
       <img src="/images/spotify-logo.png" alt="Spotify Logo" class="logo">
     </div>
-    <div class="menuContainer">
-      <ul class="flex f-h-between g-1">
+    <div class="menuContainer flex f-center">
+      <ul class="flex f-h-between f-v-center g-1">
         <li><a href="#" class="navLink">Premium</a></li>
         <li><a href="#" class="navLink">Discover</a></li>
         <li><a href="#" class="navLink">Help</a></li>
@@ -31,11 +31,13 @@
       </ul>
     </div>
   </nav>
-  <section class="mainBanner">
-    <div class="mainBanner-container">
+  <section class="mainBanner flex f-hv-center">
+    <div class="mainBanner-container flex f-hv-center f-col g-2">
       <h1>Music for everyone.</h1>
-      <p>Spotify is now free on mobile, tablet and computer.</p>
-      <p>Listen to the right music, wherever you are.</p>
+      <div class="mainBanner-catchText">
+        <p>Spotify is now free on mobile, tablet and computer.</p>
+        <p>Listen to the right music, wherever you are.</p>
+      </div>
     </div>
   </section>
   <section class="whatsOn">

@@ -8,6 +8,8 @@ White: #FFF
 */
 body {
   font-family: 'Roboto', arial, sans-serif;
+  margin: 0;
+  padding: 0;
 }
 
 /* NAVIGATION BAR STARTS */
@@ -19,12 +21,6 @@ nav .logoContainer {
 }
 nav .logoContainer img {
   width: 100%;
-}
-nav .menuContainer {
-}
-nav .menuContainer ul {
-}
-nav .menuContainer ul li {
 }
 nav .menuContainer ul li a {
   border-bottom: 2px solid transparent;
@@ -38,6 +34,28 @@ nav .menuContainer ul li a:hover {
 /* NAVIGATION BAR ENDS */
 /* **** **** **** **** */
 /* HEADER STARTS */
+section.mainBanner {
+  height: 100vh;
+  min-height: 600px;
+  background-image: url(/images/landing.jpg);
+  background-position: center;
+  background-size: cover;
+  background-repeat: no-repeat;
+  color: #fff;
+}
+section.mainBanner .mainBanner-container {
+  width: 100%;
+}
+section.mainBanner .mainBanner-container h1 {
+  margin: 0;
+  font-size: 5rem;
+}
+section.mainBanner .mainBanner-container p {
+  margin: 0;
+  font-size: 2rem;
+  font-weight: 100;
+  text-align: center;
+}
 
 /* HEADER ENDS */
 /* **** **** **** **** */
