@@ -6,3 +6,128 @@ Green: #00B172
 White: #FFF
 
 */
+* {
+  box-sizing: border-box;
+}
+body {
+  font-family: 'Roboto', arial, sans-serif;
+  margin: 0;
+  padding: 0;
+}
+
+/* NAVIGATION BAR STARTS */
+nav {
+  height: 100px;
+}
+nav .logoContainer {
+  width: 250px;
+}
+nav .logoContainer img {
+  width: 100%;
+}
+nav .menuContainer ul li a {
+  border-bottom: 2px solid transparent;
+  transition: all 0.4s ease-in-out 0.01s;
+}
+nav .menuContainer ul li a:hover {
+  color: #1db954;
+  border-bottom: 2px solid #1db954;
+  transition: all 0.4s ease-in-out 0.01s;
+}
+/* NAVIGATION BAR ENDS */
+/* **** **** **** **** */
+/* HEADER STARTS */
+section.mainBanner {
+  height: 100vh;
+  min-height: 600px;
+  background-image: url(/images/landing.jpg);
+  background-position: center;
+  background-size: cover;
+  background-repeat: no-repeat;
+  color: #fff;
+}
+section.mainBanner .mainBanner-container h1 {
+  margin: 0;
+  font-size: 5rem;
+}
+section.mainBanner .mainBanner-container p {
+  margin: 0;
+  font-size: 2rem;
+  font-weight: 100;
+  text-align: center;
+}
+/* HEADER ENDS */
+/* **** **** **** **** */
+/* WHATS-ON STARTS */
+section.whatsOn {
+}
+section.whatsOn h2 {
+  font-size: 3.5rem;
+  padding-bottom: 8px;
+  border-bottom: 4px solid #1db954;
+}
+section.whatsOn .whatsOn-cards {
+}
+section.whatsOn .whatson-cardContainer {
+}
+section.whatsOn .whatson-cardContainer img {
+  height: 100px;
+}
+section.whatsOn .whatson-cardContainer h3 {
+  font-size: 2rem;
+  color: #1db954;
+}
+section.whatsOn .whatson-cardContainer p {
+  font-size: 1.8rem;
+  text-align: center;
+  color: #777;
+  font-weight: 100;
+}
+
+/* WHATS-ON ENDS */
+/* **** **** **** **** */
+/* MINIPLAYER STARTS */
+section.miniPlayer {
+  width: 90vw;
+  margin: 0 auto;
+  background-color: #1db954;
+}
+section.miniPlayer .miniPlayer-container {
+  padding: 4.2em 5em 3em;
+  background-image: url(/images/spotify-icon-white.png);
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: 100px;
+  color: #fff;
+}
+section.miniPlayer .miniPlayer-leftCol {
+  flex: 1 0 50%;
+}
+section.miniPlayer .miniPlayer-leftCol h2 {
+  margin: 0 0 2em 0;
+  font-size: 2rem;
+  text-decoration: underline;
+  text-underline-offset: 15px;
+}
+section.miniPlayer .miniPlayer-leftCol .miniPlayer-leftCol-sec {
+  margin-bottom: 4em;
+}
+section.miniPlayer .miniPlayer-leftCol h3 {
+  font-size: 1.6em;
+  margin: 0 0 1em;
+}
+section.miniPlayer .miniPlayer-leftCol p {
+  width: 50%;
+  margin: 0;
+  font-weight: 100;
+  font-size: 1.2em;
+}
+section.miniPlayer .miniPlayer-rightCol {
+  flex: 1 0 50%;
+  justify-content: flex-end;
+}
+section.miniPlayer img {
+  width: 325px;
+}
+/* MINIPLAYER ENDS */
+/* **** **** **** **** */

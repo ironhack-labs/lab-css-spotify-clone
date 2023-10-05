@@ -1,18 +1,88 @@
 <!DOCTYPE html>
 <html lang="en">
-  <head>
-    <meta charset="UTF-8" />
-    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-    <meta http-equiv="X-UA-Compatible" content="ie=edge" />
-    <title>Spotify Clone</title>
-    <!-- don't forget to link your styles -->
-  </head>
-  <body>
-    Premium Discover Help Download Music for everyone. Spotify is now free on mobile, tablet and computer. Listen to the
-    right music, wherever you are. What’s on Spotify? Millions of Songs There are millions of songs on Spotify HD Music
-    Listen to music as if you were listening live Stream Everywhere Stream music on your smartphone, tablet or computer
-    It’s as yeezy as Kanye West. Search Know what you want to listen to? Just search and hit play. Browse Check out the
-    latest charts, brand new releases and great playlists for right now. Discover Enjoy new music every Monday with your
-    own personal playlist. Or sit back and enjoy Radio.
-  </body>
+
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <meta http-equiv="X-UA-Compatible" content="ie=edge" />
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link
+    href="https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&family=Roboto:wght@300;400;500;700;900&display=swap"
+    rel="stylesheet">
+  <link rel="stylesheet" href="styles/globals.css">
+  <link rel="stylesheet" href="styles/style.css">
+  <title>Ironhack Lab: M1C3|Spotify Clone</title>
+  <!-- don't forget to link your styles -->
+</head>
+
+<body>
+
+  <nav class="flex f-h-between p-h-2 p-v-1">
+    <div class="logoContainer flex f-hv-center">
+      <img src="/images/spotify-logo.png" alt="Spotify Logo" class="logo">
+    </div>
+    <div class="menuContainer flex f-center">
+      <ul class="flex f-h-between f-v-center g-1">
+        <li><a href="#" class="navLink">Premium</a></li>
+        <li><a href="#" class="navLink">Discover</a></li>
+        <li><a href="#" class="navLink">Help</a></li>
+        <li><a href="#" class="navLink">Download</a></li>
+      </ul>
+    </div>
+  </nav>
+  <section class="mainBanner flex f-hv-center">
+    <div class="mainBanner-container w-100v flex f-hv-center f-col g-2">
+      <h1>Music for everyone.</h1>
+      <div class="mainBanner-catchText">
+        <p>Spotify is now free on mobile, tablet and computer.</p>
+        <p>Listen to the right music, wherever you are.</p>
+      </div>
+    </div>
+  </section>
+  <section class="whatsOn flex f-col f-hv-center">
+    <h2>What’s on Spotify?</h2>
+    <div class="whatsOn-cards w-100v flex f-h-between p-2">
+      <div class="whatson-cardContainer w-30p flex f-col f-v-center p-2">
+        <img src="/images/music-icon.png" alt="Music Icon">
+        <h3>Millions of Songs</h3>
+        <p>There are millions of songs on Spotify</p>
+      </div>
+      <div class="whatson-cardContainer w-30p flex f-col f-v-center p-2">
+        <img src="/images/high-quality-icon.png" alt="High Quality Icon">
+        <h3>HD Music</h3>
+        <p>Listen to music as if you were listening live</p>
+      </div>
+      <div class="whatson-cardContainer w-30p flex f-col f-v-center p-2">
+        <img src="/images/devices-icon.png" alt="Multiple Devices Icon">
+        <h3>Stream Everywhere</h3>
+        <p>Stream music on your smartphone, tablet or computer</p>
+      </div>
+    </div>
+  </section>
+  <section class="miniPlayer flex f-h-center">
+    <div class="miniPlayer-container w-100v flex p-3">
+      <div class="miniPlayer-leftCol">
+        <h2 contenteditable="true">It’s as yeezy as Kanye West.</h2>
+        <div class="miniPlayer-leftCol-sec">
+          <h3>Search</h3>
+          <p>Know what you want to listen to? Just search and hit play.</p>
+        </div>
+        <div class="miniPlayer-leftCol-sec">
+          <h3>Browse</h3>
+          <p>Check out the latest charts, brand new releases and great playlists for right now.</p>
+        </div>
+        <div class="miniPlayer-leftCol-sec">
+          <h3>Discover</h3>
+          <p>Enjoy new music every Monday with your own personal playlist. Or sit back and enjoy Radio.</p>
+        </div>
+      </div>
+      <div class="miniPlayer-rightCol flex f-hv-center">
+        <img src="/images/spotify-app.jpg" alt="Spotify Miniplayer Screenshot" title="Spotify Miniplayer Screenshot">
+      </div>
+    </div>
+  </section>
+
+</body>
+
 </html>
