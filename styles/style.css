@@ -6,3 +6,400 @@ Green: #00B172
 White: #FFF
 
 */
+
+/* HTML font size configuration for rem */
+html {
+  font-size: 10px;
+}
+
+/* BODY FONT CONFIGURATION */
+body {
+  font-family: 'Montserrat', sans-serif;
+}
+
+/* NAV BAR */
+nav {
+  background-color: white;
+}
+
+/* flex container */
+
+.nav-flex {
+  position: fixed;
+  top: 0;
+  left: 0;
+  right: 0;
+  display: flex;
+  margin: 0;
+  padding: 10px 20px;
+  justify-content: space-between;
+  align-self: flex-start;
+  background-color: white;
+}
+
+/* Spotify logo */
+
+nav img {
+  height: 50px;
+}
+
+/* Nav bar items */
+
+nav ul {
+  display: flex;
+  list-style: none;
+  justify-content: flex-end;
+  align-items: center;
+  padding-left: 0;
+}
+
+nav ul li {
+  font-size: 1.8rem;
+  font-weight: 300;
+}
+
+.item {
+  padding-left: 30px;
+}
+
+/* Responsive Design breaking points for Nav bar */
+
+@media (min-width: 720px) and (max-width: 800px) {
+  .nav-flex {
+    padding: 15px;
+  }
+
+  nav img {
+    height: 45px;
+  }
+
+  .item {
+    padding-left: 10px;
+  }
+}
+
+@media (max-width: 719px) {
+  .nav-flex {
+    padding: 15px;
+  }
+
+  nav img {
+    height: 35px;
+  }
+
+  nav ul li {
+    font-size: 1.4rem;
+  }
+
+  .item {
+    padding-left: 10px;
+  }
+}
+
+/* HEADER */
+
+header {
+  padding: 250px 0;
+  width: 100%;
+  background-image: url(../images/landing.jpg);
+  background-position: center;
+  background-repeat: no-repeat;
+  background-clip: padding-box;
+  background-size: cover;
+}
+
+header h1 {
+  color: white;
+  font-size: 6rem;
+  font-weight: 600;
+  text-align: center;
+}
+
+header p {
+  color: white;
+  font-size: 2rem;
+  font-weight: 100;
+  text-align: center;
+  line-height: 1.5;
+}
+
+/* Responsive Design breaking points for Header */
+
+@media (min-width: 630px) and (max-width: 800px) {
+  header {
+    padding: 100px 0;
+  }
+
+  header h1 {
+    font-size: 4.5rem;
+  }
+
+  header p {
+    font-size: 1.7rem;
+  }
+}
+
+@media (min-width: 550px) and (max-width: 629px) {
+  header {
+    padding: 85px 0;
+  }
+
+  header h1 {
+    font-size: 4rem;
+  }
+
+  header p {
+    font-size: 1.4rem;
+  }
+}
+
+@media (max-width: 549px) {
+  header {
+    padding: 75px 0;
+  }
+
+  header h1 {
+    font-size: 3rem;
+  }
+
+  header p {
+    font-size: 1.2rem;
+  }
+}
+
+/* WHAT'S ON SPOTIFY SECTION */
+
+/* Section h2 title */
+
+.whats-on {
+  padding-bottom: 20px;
+}
+
+.whats-on h2 {
+  padding: 20px 0;
+  font-size: 2.5rem;
+  font-weight: 600;
+  text-decoration: underline #00b172 3px;
+  text-underline-offset: 1rem;
+  text-align: center;
+}
+
+/* Table to configure Icon, Title and Description alignment */
+
+table {
+  margin: 20px auto;
+  width: 100%;
+  padding: 0 10%;
+}
+
+th {
+  width: 30%;
+  padding: 0 20px;
+  vertical-align: top;
+}
+
+td {
+  width: 30%;
+  padding: 0 20px;
+  vertical-align: top;
+}
+
+th img {
+  height: 80px;
+  text-align: center;
+}
+
+td h3 {
+  color: #00b172;
+  font-size: 2rem;
+  font-weight: 700;
+  text-align: center;
+  vertical-align: middle;
+}
+
+td p {
+  font-size: 1.5rem;
+  font-weight: 100;
+  text-align: center;
+  margin: 0;
+}
+
+/* Responsive Design breaking points for what's on spotify section */
+
+@media (min-width: 550px) and (max-width: 800px) {
+  table {
+    padding: 0 5%;
+  }
+
+  .whats-on h2 {
+    font-size: 2.2rem;
+  }
+
+  th img {
+    height: 55px;
+  }
+
+  td h3 {
+    font-size: 1.8rem;
+  }
+
+  td p {
+    font-size: 1.3rem;
+  }
+}
+
+@media (max-width: 549px) {
+  table {
+    padding: 0;
+  }
+
+  .whats-on h2 {
+    font-size: 2rem;
+  }
+
+  th img {
+    height: 40px;
+  }
+
+  td h3 {
+    font-size: 1.5rem;
+  }
+
+  td p {
+    font-size: 1rem;
+  }
+}
+
+/* IT’S AS YEEZY AS KANYE WEST SECTION */
+
+.kayne-west {
+  background-color: #00b172;
+  padding: 20px 10%;
+}
+
+/* h2 title */
+
+.kayne-west h2 {
+  color: white;
+  font-size: 1.9rem;
+  font-weight: 700;
+  text-decoration: underline white 3px;
+  text-underline-offset: 1rem;
+}
+
+/* flex container */
+
+.search-browse-discover-flex {
+  display: flex;
+  justify-content: space-between;
+  align-content: center;
+  align-items: center;
+}
+
+/* Search, Browse, Discover area */
+
+.steps {
+  flex-basis: 30%;
+}
+
+.steps h3 {
+  color: white;
+  font-size: 1.8rem;
+}
+
+.steps p {
+  color: white;
+  font-weight: 100;
+  font-size: 1.5rem;
+  line-height: 2;
+}
+
+.search {
+  padding-bottom: 10px;
+}
+
+.browse {
+  padding-bottom: 10px;
+}
+
+/* White Spotify Icon */
+
+.spotify-white-logo img {
+  flex-basis: 30%;
+  height: 80px;
+}
+
+/* Spotify app image */
+
+.spotify-app img {
+  flex-basis: 30%;
+  height: 500px;
+}
+
+/* Responsive Design breaking points for it’s as yeezy as kanye west section */
+
+@media (min-width: 736px) and (max-width: 1000px) {
+  .kayne-west h2 {
+    font-size: 1.6rem;
+  }
+
+  .steps h3 {
+    font-size: 1.4rem;
+  }
+
+  .steps p {
+    font-size: 1.2rem;
+  }
+
+  .spotify-white-logo img {
+    height: 60px;
+  }
+
+  .spotify-app img {
+    height: 400px;
+  }
+}
+
+@media (min-width: 550px) and (max-width: 735px) {
+  .kayne-west h2 {
+    font-size: 1.4rem;
+  }
+
+  .steps h3 {
+    font-size: 1.4rem;
+  }
+
+  .steps p {
+    font-size: 1rem;
+  }
+
+  .spotify-white-logo img {
+    height: 50px;
+  }
+
+  .spotify-app img {
+    height: 300px;
+  }
+}
+
+@media (max-width: 549px) {
+  .kayne-west h2 {
+    font-size: 1.2rem;
+  }
+
+  .steps h3 {
+    font-size: 1.2rem;
+  }
+
+  .steps p {
+    font-size: 0.8rem;
+  }
+
+  .spotify-white-logo img {
+    height: 40px;
+  }
+
+  .spotify-app img {
+    height: 230px;
+  }
+}
