@@ -88,13 +88,12 @@ section.whatsOn .whatson-cardContainer p {
 /* **** **** **** **** */
 /* MINIPLAYER STARTS */
 section.miniPlayer {
-  width: 95vw;
-  min-height: 600px;
+  width: 90vw;
   margin: 0 auto;
   background-color: #1db954;
 }
 section.miniPlayer .miniPlayer-container {
-  padding-top: 4.2em;
+  padding: 4.2em 5em 3em;
   background-image: url(/images/spotify-icon-white.png);
   background-position: center;
   background-repeat: no-repeat;
@@ -125,9 +124,10 @@ section.miniPlayer .miniPlayer-leftCol p {
 }
 section.miniPlayer .miniPlayer-rightCol {
   flex: 1 0 50%;
+  justify-content: flex-end;
 }
 section.miniPlayer img {
-  width: 300px;
+  width: 325px;
 }
 /* MINIPLAYER ENDS */
 /* **** **** **** **** */
