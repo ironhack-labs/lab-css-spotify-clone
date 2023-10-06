@@ -6,3 +6,159 @@ Green: #00B172
 White: #FFF
 
 */
+body {
+  font-family: Arial, Helvetica, sans-serif;
+  font-size: 10px;
+  background-color: white;
+}
+.nav-bar {
+  position: fixed;
+}
+.spotify-logo {
+  width: 15%;
+  margin: 5px 30px 20px 30px;
+}
+.nav-list {
+  position: fixed;
+  display: flex;
+  flex-direction: row;
+  font-size: 2em;
+  width: 1200px;
+  justify-content: flex-end;
+  margin-left: 5%;
+}
+.nav-list-item {
+  text-decoration: none;
+  color: black;
+}
+.nav-list li {
+  list-style-type: none;
+  font-size: 1.2em;
+  margin: -7% 1%;
+}
+.background-img {
+  position: absolute;
+  width: 100%;
+  height: 100%;
+  left: 0px;
+  right: 0px;
+  background-image: url(/images/landing.jpg);
+  background-position: 0 0;
+  background-repeat: no-repeat;
+  background-size: cover;
+  position: relative;
+  margin-top: 80px;
+  padding: 0;
+}
+.title {
+  position: absolute;
+  top: 65%;
+  left: 20%;
+  color: white;
+  font-size: 9em;
+}
+.sub-title {
+  position: absolute;
+  top: 85%;
+  left: 25%;
+  margin-bottom: 30%;
+  color: white;
+  font-size: 3em;
+  text-align: center;
+}
+.info {
+  display: flex;
+  text-align: center;
+  align-items: center;
+  font-size: 4em;
+  justify-content: center;
+  margin: 50px 0;
+  padding: 0;
+}
+.section-1 {
+  width: 100%;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  text-align: center;
+}
+.container {
+  display: flex;
+  justify-content: space-between;
+  width: 70%;
+  margin-top: 30px;
+  font-size: 2em;
+}
+.box {
+  padding: 20px;
+  text-align: center;
+  margin: 0 10px;
+}
+.icon {
+  width: 50%;
+  margin: 0 auto;
+}
+.box h3 {
+  color: #00b172;
+  font-weight: bolder;
+  font-size: 1.3em;
+}
+.box p {
+  font-size: 1em;
+  font-weight: lighter;
+}
+.icon-music {
+  width: 50%;
+  margin: 0 auto 20px auto;
+}
+.icon-devices {
+  width: 50%;
+  margin: 0 auto 5px auto;
+}
+.green-background {
+  margin-top: 80px;
+  background-color: #00b172;
+  position: absolute;
+  left: 40px;
+  width: 94%;
+  height: 120%;
+  margin-bottom: 500px;
+}
+.center-image {
+  display: flex;
+  position: absolute;
+  width: 150px;
+  margin-left: 45%;
+  margin-top: 270px;
+}
+footer h2 {
+  color: white;
+  text-decoration: underline;
+  text-underline-offset: 0.5em;
+  font-size: 3.5em;
+  margin-left: 85px;
+  margin-top: 50px;
+  margin-bottom: -40%;
+}
+footer p {
+  font-weight: lighter;
+}
+.footer-container {
+  margin-left: 85px;
+  margin-top: 70px;
+  font-size: 2em;
+  color: white;
+}
+.right-image {
+  display: flex;
+  position: absolute;
+  width: 330px;
+  margin-left: 65%;
+  margin-top: 38%;
+}
+.first-box {
+  margin-top: 50%;
+}
+footer {
+  margin-bottom: 70%;
+}
