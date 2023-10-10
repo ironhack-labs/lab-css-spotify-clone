@@ -6,3 +6,172 @@ Green: #00B172
 White: #FFF
 
 */
+@import url('https://fonts.googleapis.com/css?family=Roboto:100,300,400,500,700&display=swap');
+*{
+    margin: 0;
+    padding: 0;
+    font-family: 'Roboto', sans-serif;
+}
+
+/* ---------------- Nav */
+nav{
+    height: 50px;
+    padding: 0px 20px;
+    font-family: 'Roboto', sans-serif;
+    position: fixed;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    width: calc(100% - 40px);
+    margin-top: -50px;
+    background-color:#FFF ;
+}
+nav > ul {
+    list-style: none;
+    display: flex;
+    gap: 20px;
+    
+}
+
+nav img{
+    height: 35px;
+}
+nav a{
+    text-decoration: none;
+    color: rgb(81, 81, 81);
+}
+
+/* ---------------- main title */
+
+#main-title{
+    margin-top: 50px;
+    border: 1px solid black;
+    position: inline-block;
+    min-height: 450px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    background-image: url(/images/landing.jpg);
+    background-position: center;
+    background-size: cover;
+    color: white;
+    text-align: center;
+    font-weight: lighter;
+}
+#main-title h1{
+    font-size: 3rem;
+    margin-bottom: 15px;
+}
+#main-title p{
+    font-size: 1.1rem;
+}
+
+/* ---------------- content*/
+
+#content{
+    padding: 25px 50px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    gap: 50px;
+
+}
+
+#content > p{
+    font-size: 1.3rem;
+    font-weight: 500;
+    border-bottom: 2px solid #00B172;
+    width: fit-content;
+    padding-bottom: 2px;
+}
+.content-main-square{
+    display: flex;
+}
+
+.content-square{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    text-align: center;
+    width: 33.3%;
+}
+
+.content-square img{
+    width: 75px;
+    margin-bottom: 10px;
+}
+
+.content-square h2{
+    color:#00B172;
+    font-size: 1.2rem;
+    margin-bottom: 15px;
+
+}
+
+.content-square p{
+    color: #000000dc ;
+    padding: 0px 30px;
+    font-size: 0.9rem;
+    font-weight: lighter;
+}
+
+/* ---------------- bottom section*/
+
+#bottom-part{
+    padding: 40px 60px;
+    background-color: #00B172;
+    display: flex;
+    justify-content: space-between;
+    margin: 20px;
+    position: relative;
+}
+#background-spotify{
+    width: 90px;
+    height: 90px;
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+}
+#phone-screenshot{
+    width: 200px;
+   height: 370px;
+}
+
+.text-container{
+    color: #FFF;
+}
+
+
+.text-container > h1{
+    white-space: nowrap;
+    border-bottom: 2px solid white;
+    padding-bottom: 3px;
+    width: fit-content;
+
+}
+
+.text-container > div{
+    width: 45%;
+}
+
+.bottom-text{
+    display: flex;
+    flex-direction: column;
+    gap: 20px;
+    margin-top: 30px;
+    line-height: 1.3rem;
+
+}
+
+.bottom-text h2{
+    font-size: 1.1rem;
+}
+
+.bottom-text p{
+    font-size: 0.9rem;
+    color: #ffffffdc;
+
+}
