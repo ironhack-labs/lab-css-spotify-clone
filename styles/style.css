@@ -6,17 +6,18 @@ Green: #00B172
 White: #FFF
 
 */
-
+@import url('https://fonts.googleapis.com/css?family=Roboto:100,300,400,500,700&display=swap');
 *{
     margin: 0;
     padding: 0;
+    font-family: 'Roboto', sans-serif;
 }
 
 /* ---------------- Nav */
 nav{
     height: 50px;
     padding: 0px 20px;
-    font-family:'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    font-family: 'Roboto', sans-serif;
     position: fixed;
     display: flex;
     align-items: center;
@@ -56,19 +57,20 @@ nav a{
     background-size: cover;
     color: white;
     text-align: center;
-    font-family: Helvetica, sans-serif;
     font-weight: lighter;
 }
 #main-title h1{
-    font-size: 2rem;
+    font-size: 3rem;
     margin-bottom: 15px;
+}
+#main-title p{
+    font-size: 1.1rem;
 }
 
 /* ---------------- content*/
 
 #content{
     padding: 25px 50px;
-    font-family:'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
     display: flex;
     flex-direction: column;
     align-items: center;
@@ -78,9 +80,8 @@ nav a{
 
 #content > p{
     font-size: 1.3rem;
-    font-family:'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
     font-weight: 500;
-    border-bottom: 1.5px solid #00B172;
+    border-bottom: 2px solid #00B172;
     width: fit-content;
     padding-bottom: 2px;
 }
@@ -110,16 +111,16 @@ nav a{
 }
 
 .content-square p{
-    color: #444444c0 ;
+    color: #000000dc ;
     padding: 0px 30px;
-    font-family:'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
     font-size: 0.9rem;
+    font-weight: lighter;
 }
 
 /* ---------------- bottom section*/
 
 #bottom-part{
-    padding: 70px;
+    padding: 40px 60px;
     background-color: #00B172;
     display: flex;
     justify-content: space-between;
@@ -141,7 +142,6 @@ nav a{
 
 .text-container{
     color: #FFF;
-    font-family: Arial, Helvetica, sans-serif;
 }
 
 
@@ -172,7 +172,6 @@ nav a{
 
 .bottom-text p{
     font-size: 0.9rem;
-    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
     color: #ffffffdc;
 
 }
