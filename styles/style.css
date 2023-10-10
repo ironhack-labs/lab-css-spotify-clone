@@ -6,3 +6,119 @@ Green: #00B172
 White: #FFF
 
 */
+body {
+    margin: 0;
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+/* NAV BAR*/
+#nav-main {
+    display: flex;
+    position: fixed;
+    justify-content: space-between;
+    align-items: center;
+    padding: 0px 20px;
+    width: calc(100% - 40px);
+    top: 0;
+    align-content: center;
+    background-color: #FFF;
+}
+#nav-ul {
+    display: flex;
+    list-style-type: none;
+    justify-content: space-between;
+    font-size: 120%;
+}
+nav img {
+    height: 50px;
+    padding: 10px;
+}
+.pad {
+    padding: 0 15px;
+    font-size: 120%;
+}
+
+/* LANDING IMAGE */
+#landing-image {
+    background-image: url("/images/landing.jpg");
+    height: 1000px;
+    width: 100%;
+    background-size: cover;
+    color: white;
+    text-align: center;
+}
+#landing-image h1 {
+    padding: 350px 250px 0 250px;
+    font-size: 500%;
+}
+#landing-image p {
+    padding: 0 250px 250px 250px;
+    font-size: 200%;
+}
+
+
+
+/* WHATS ON SPOTIFY*/
+#whats-on-spotify {
+    display: flex;
+    align-items: center;
+    justify-content: space-evenly;
+    text-align: center; 
+
+}
+#whats-on-spotify img {
+    height: 100px;
+}
+.whats-on-spotify-boxes {
+    align-items: center;
+    width: 30%;
+}
+#whats-on-spotify h3 {
+    color: #00B172;
+    font-size: 150%;
+}
+#whats-on-spotify p {
+    font-size: 120%;
+}
+#whats-on-spotify-h2 {
+    text-align: center;
+    font-size: 250%;
+    text-decoration: underline #00B172;
+    padding-top: 10px;
+    padding-bottom: 60px;
+    text-underline-offset: 12px;
+}
+
+
+/* KAYNE WEST */
+#kayne-west-yeezy {
+    background-color: #00B172;
+    display: flex;
+    direction: row;
+    justify-content: space-around;
+    color: #FFF;
+    padding: 120px 100px 80px 100px;
+    margin: 50px;
+    align-items: center;
+    line-height: 1.6;
+    font-size: 120%;
+}
+#kayne-west-yeezy h2 {
+    font-size: 200%;
+    text-decoration: underline;
+    text-underline-offset: 15px;
+}
+#spotify-kayne-logo {
+    height: 120px;
+    padding: 0 140px 0 0;
+}
+#kayne-west-yeezy-text h3 {
+    font-size: 150%;
+}
+#kayne-west-yeezy-text p {
+    font-size: 120%;
+}
+#spotify-kayne-image {
+    height: 800px;
+}
+ 
