@@ -6,3 +6,151 @@ Green: #00B172
 White: #FFF
 
 */
+
+body {
+    margin: 0;
+    font-family:'Times New Roman', Times, serif;
+}
+
+nav {
+    height: 70px;
+    background-color: #FFF;
+    padding: 0 100px;
+    width: calc(100% - 200px);
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    position: fixed;
+
+}
+
+nav img {
+    height: 50px;
+    width: 150px;
+}
+
+nav a {
+    color: 1A1A1A;
+}
+
+#background-img {
+    background-image: url("../images/landing.jpg");
+    width: 100%;
+    height: 100vh;
+    color: #FFF;
+    display: flex;
+    text-align: center;
+    background-position: center center;
+    background-size: cover;
+    justify-content: center;
+    flex-direction: column;
+}
+
+h1 {
+    font-size: 80px;
+}
+
+#background-img p {
+    font-size: 30px;
+    font-weight: lighter;
+}
+
+#main-section {
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+    width: 100%;
+}
+
+#main-section p{
+    font-size: 30px;
+    border-bottom: 2px solid #00B172;
+    width: fit-content;
+    text-align: center;
+}
+
+
+#spotify-possibility-main-div {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-evenly;
+    align-items: center;
+    
+}
+
+.spotify-possibility-div {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    width: 30%;
+
+}
+
+.spotify-possibility-div img {
+    width: 100px;
+}
+
+.spotify-possibility-div h3 {
+    color: #00B172;
+    font-size: 20px;
+}
+
+.spotify-possibility-div h4 {
+    width: 50%;
+    text-align: center;
+    font-size: 15px;
+    font-weight: lighter;
+}
+
+#green-main-section {
+    background-image: url(../images/spotify-icon-white.png);
+    background-repeat: no-repeat;
+    background-color: #00B172;
+    background-position: center;
+    display: flex;
+    background-size: 60px 60px;
+    padding: 5% 10%;
+}
+
+#table-content {
+    justify-content: space-between;
+    display:flex;
+    flex-direction: row;
+    align-items: center;
+    
+}
+
+#green-main-section h2 {
+    color: #FFF;
+    border-bottom: 2px solid #FFF;
+    width: fit-content;
+    font-size: 30px;
+}
+
+#green-main-section h3 {
+    color: #FFF;
+    font-size: 25px;
+}
+
+#green-main-section h4 {
+    color: #FFF;
+    font-size: 15px;
+    font-weight: lighter;
+}
+
+#green-div-section {
+    display: flex;
+    flex-direction: column;
+    width: 40%;
+}
+
+#spotify-app {
+    justify-content: right;
+    display: flex;
+}
+
+#spotify-app img{
+    width: 40%;
+    justify-content: right;
+    float: right;
+}
