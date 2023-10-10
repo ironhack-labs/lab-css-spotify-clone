@@ -6,3 +6,157 @@ Green: #00B172
 White: #FFF
 
 */
+
+@import url('https://fonts.googleapis.com/css2?family=Quicksand:wght@300&display=swap');
+
+html {
+    font-family:"Quicksand";
+}
+
+
+nav{
+    display: flex;
+    justify-content: space-between;
+    flex-direction: row;
+    align-items: center;
+    padding: 0 40px;
+    height:100px;
+}
+
+.nav-links{
+    display: flex;
+    justify-content: space-between;
+    position: relative;
+    bottom: 20%;
+}
+
+nav a{
+    font-size: 1.75em;
+    margin: 0 5px 0px 5px;
+}
+
+nav img{
+    width: 250px;
+}
+
+#landing{
+    background-image: url("../images/landing.jpg");
+    height: 750px;
+    background-size: 100%;
+    background-repeat: no-repeat;
+    color:#FFF;
+    display: flex;
+    border:1px dotted red;
+}
+
+.landing-text{
+    width: fit-content;
+    margin: auto;
+    text-align: center;
+}
+
+#landing h1{
+    font-size: 5em;
+}
+
+#landing p{
+    font-size: 1.75em;
+}
+
+#first-section-title{
+    margin: 0 auto;
+    width: fit-content;
+    border-bottom: 3px solid #00B172;
+    margin-bottom: 50px;
+    padding: 5px 0;
+}
+
+#first-section h2{
+    font-weight: bold;
+    color:#1A1A1A;
+    font-size: 2em;
+}
+
+#first-section p{
+    color:#1A1A1A;
+    font-size: 1.5em;
+    width: 75%;
+}
+
+.whats-on-spotify {
+    width: 100%;
+    display: flex;
+    justify-content: space-around;
+}
+
+.whats-on-spotify img{
+    width: 125px;
+    height:125px;
+}
+
+.whats-on-spotify article{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    width: 30%;
+    text-align: center;
+}
+
+.yeezy-content{
+    background-color: #00B172 ;
+    background-image: url("../images/spotify-icon-white.png") ;
+    background-size: 8%;
+    background-repeat: no-repeat;
+    background-position: center center;
+    display: flex;
+    flex-direction: row;
+    color: #FFF;
+    justify-content: space-between;
+    padding: 0 5%;
+}
+
+.yeezy-content > div{
+    width: 40%;
+    display: flex;
+    flex-direction: column;
+}
+
+.yeezy-content-title h2{
+    width: fit-content;
+    border-bottom: 3px solid white;
+    padding: 5px;
+    font-size: 2em;
+}
+
+.yeezy-content-article-box h3{
+    width: fit-content;
+    font-size: 1.75em;
+}
+
+.yeezy-content-article-box p{
+    width: fit-content;
+    font-size: 1em;
+}
+
+#yeezy-image{
+    padding: 25% 0;
+    margin: 0 auto;
+    width:60%;
+    height:auto;
+}
+
+.yeezy-content-text{
+    display: flex;
+    justify-content: start;
+    margin: 10px 0;
+}
+
+#first-section {
+    padding: 0px 30px;
+   margin:25px auto;
+}
+
+.yeezy-content{
+    margin: 0 25px;
+}
+
