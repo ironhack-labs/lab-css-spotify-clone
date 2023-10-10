@@ -13,6 +13,10 @@ html {
     font-family:"Quicksand";
 }
 
+body > section {
+    height: 33%;
+}
+
 
 nav{
     display: flex;
@@ -28,6 +32,7 @@ nav{
     justify-content: space-between;
     position: relative;
     bottom: 20%;
+    list-style: none;
 }
 
 nav a{
@@ -46,7 +51,6 @@ nav img{
     background-repeat: no-repeat;
     color:#FFF;
     display: flex;
-    border:1px dotted red;
 }
 
 .landing-text{
@@ -105,7 +109,7 @@ nav img{
 .yeezy-content{
     background-color: #00B172 ;
     background-image: url("../images/spotify-icon-white.png") ;
-    background-size: 8%;
+    background-size: 5%;
     background-repeat: no-repeat;
     background-position: center center;
     display: flex;
@@ -139,16 +143,16 @@ nav img{
 }
 
 #yeezy-image{
-    padding: 25% 0;
+    padding: 10% 0;
     margin: 0 auto;
-    width:60%;
+    width:40%;
     height:auto;
 }
 
 .yeezy-content-text{
     display: flex;
-    justify-content: start;
-    margin: 10px 0;
+    justify-content: space-around;
+    margin: 30px 0;
 }
 
 #first-section {
