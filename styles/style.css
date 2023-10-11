@@ -6,3 +6,155 @@ Green: #00B172
 White: #FFF
 
 */
+body {
+    margin: 0;
+    padding: 0;
+}
+
+nav {
+    height: 70px;
+    background-color: white;
+    padding: 0 100px;
+    width: calc(100% - 200px);
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    position:fixed;
+    margin: 0;
+
+}
+
+nav img {
+    height: 60px;
+    width: 200px;
+}
+
+nav ul {
+    text-align: right;
+    list-style: none;
+    display: flex;
+    flex-direction: row;
+    gap: 20px;
+}
+
+#list {
+    color: black;
+}
+
+#landing-image {
+    background-image: url("/images/landing.jpg"); 
+    background-size: 100%;
+    background-position: center;
+    height: 720px;
+}
+
+.centered {
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  text-align: center;
+  color: white;
+  font-size: 30px;
+}
+
+#whats-on-spotify {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    width: 100%;
+    margin-bottom: 50px;
+}
+
+
+#whats-on-spotify h1 {
+    text-align: center;
+    margin-top: 40px;
+    text-decoration: underline;
+    text-decoration-color: #30a14e;
+    font-size: 40px;
+}
+
+#whats-on-spotify h2 {
+    color: #30a14e;
+}
+
+#whats-on-spotify-main-div {
+    display:flex;
+    flex-direction: row;
+    justify-content: space-evenly;
+    align-items: center;
+    width: 100%;
+}
+
+.whats-on-spotify-div img {
+    margin-top: 50px;
+    display:flex;
+    flex-direction: row;
+    width: 100px;
+    height: 50px;
+}
+
+.whats-on-spotify-div {
+    display:flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+
+}
+
+
+
+#green-section {
+    background-color: #30a14e;
+    color: white;
+    display: flex;
+    flex-direction: row;
+    width:100%;
+    justify-content: space-between;
+    background-image: url("../images/spotify-icon-white.png");
+    background-repeat: no-repeat;
+    background-position: center center;
+    background-size: 10%;
+    margin: 30px;
+    padding: 30px 30px;
+    padding-bottom: 60px;
+    padding-top: 60px;
+}
+
+#green-section h1 {
+    text-decoration: underline;
+    text-decoration-color: white;
+}
+
+.green-section-first-div {
+    width: 45%;
+    justify-content: space-evenly;
+    flex-direction: column;
+}
+
+.green-section-first-div h1 {
+    font-size: 50px;
+    flex-direction: column;
+    
+}
+
+.green-section-first-div h2 {
+    margin-top: 180px;
+    font-size: 30px;
+    flex-direction: column;
+    space
+}
+
+.green-section-first-div p {
+    margin-top: 40px;
+    font-size: 25px;
+    justify-content: space-evenly;
+    
+
+}
+.green-section-second-div {
+    width: 35%;
+    margin-right: 100px;
+
+}
