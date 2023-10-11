@@ -6,3 +6,156 @@ Green: #00B172
 White: #FFF
 
 */
+body {
+    margin: 0;
+    font-family: Arial, sans-serif;
+}
+
+.nav-container {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    background-color: #FFF;
+    padding: 0 50px;
+    height: 110px;
+    position: fixed;
+    width: calc(100% - 100px);
+}
+
+.nav-img img {
+    height: 70px;
+    width: auto;
+}
+
+.nav-list ul {
+    display: flex;
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+}
+
+.nav-list li {
+    margin: 0 10px;
+}
+
+.nav-list li a {
+    text-decoration: none;
+    color: #1A1A1A;
+    font-size: 25px;
+    font-weight: lighter;
+}
+
+
+
+#music-for-everyone {
+    background: url("/images/landing.jpg");
+    height: 800px;
+    background-repeat: no-repeat;
+    background-size: cover;
+    padding-top: 90px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+}
+
+#music-for-everyone h1 {
+    color: #FFF;
+    font-size: 64px;
+}
+
+#music-for-everyone p {
+    margin-top: -10px;
+    color: #FFF;
+    font-size: 24px;
+}
+
+#what-on-spotify {
+    text-align: center;
+}
+
+#what-on-spotify h2 {
+    font-size: 40px;
+   text-decoration: underline #00B172;
+   margin-bottom: 100px;
+}
+
+.what-on-spotify-title{
+    color: #00B172;
+    font-size: 35px;
+}
+
+
+
+#what-on-spotify-main-div {
+    display: flex;
+    justify-content: space-around;
+    align-items: baseline;
+}
+
+#what-on-spotify-div {
+    width: 20%;
+    height: auto;
+}
+
+#what-on-spotify-div img {
+        width: 50%;
+        height: auto;
+}
+
+#what-on-spotify-div p {
+    font-size: 30px;
+    font-weight: 100;
+}
+
+#green-section{
+    margin: 50px;
+    background-color: #00B172;
+    justify-content: space-around;
+    flex-direction: row;
+    align-items: flex-start;
+    position: relative;
+    height: 1000px;
+    display: flex;
+    align-items: center;
+}
+
+
+.green-section-img {
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translateX(-50%) translateY(-50%);
+}
+
+.green-section-img img {
+    height: 150px;
+    width: auto;
+}
+
+
+.footer-text {
+    align-items: flex-start;
+}
+
+.footer-text h3{
+  font-size: 50px;  
+  color: #FFF;
+  text-decoration: underline #FFF;
+}
+
+.footer-text h4{
+    font-size: 30px;
+    color: #FFF;
+}
+
+.footer-text p {
+    color: #FFF;
+    font-size: 22px;
+}
+
+#footer-img img{
+    padding-left: 50px;
+    height: 800px;
+    width: auto;    
+}
