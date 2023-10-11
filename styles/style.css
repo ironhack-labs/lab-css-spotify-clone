@@ -4,5 +4,51 @@ Colors:
 Text: 1A1A1A
 Green: #00B172
 White: #FFF
+/**/
 
-*/
+body {
+color: #00B172;
+}
+
+nav {
+    height: 100px;
+    /*background-color: ;*/
+    padding: 0 100%;
+    width: calc(100% - 200%);
+    display: flex; /*or float*/
+    align-items: center; /*test*/
+    justify-content: space-between;
+    position: fixed;
+}
+
+#background {
+
+}
+
+#background div {
+background-color: url ('../images/landing.jpg'); /*correct way background image*/
+}
+
+.information {
+margin: 0;
+padding: .3rem;
+/*background-color: #eee; */
+/*font: 1rem 'Fira Sans'; sans-serif; ('Fira Sans' - não tem baixado)*/
+}
+
+.information > h2,
+.info {
+margin: .5rem;
+padding: .3rem;
+font-size: 1.2rem;
+}
+
+.info {
+    background: right/contain content-box border-box no-repeat;
+
+}
+
+.info {
+    margin: .2rem;
+    font-size: 1rem;
+}
