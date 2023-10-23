@@ -6,3 +6,151 @@ Green: #00B172
 White: #FFF
 
 */
+
+
+
+body {
+    margin: 0 ;
+    padding: 0;
+    height: 1200px;
+}
+
+/* - NAVIGATION BAR SECTION */
+
+.top-section {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    
+}
+
+.top-section > img {
+    height: 2.5em;
+    padding-top: 7px;
+    padding-left: 7px;
+
+}
+
+.top-section > .nav-bar {
+    display: inline; 
+   
+}
+
+.nav-bar > ul {
+    display: flex;
+    padding-top: 7px;
+    padding-left: 7px;
+}
+
+.nav-bar > ul > li {
+    padding-right: 20px;
+    list-style-type: none;
+}
+
+/* END */
+
+/* BEGINNING: Header section */
+
+.header {
+
+    background-image: url(/images/landing.jpg);
+    background-size: cover;
+    height: 600px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;    
+}
+
+.header > h1,
+.header > p {
+    color: white;
+    text-align: center;
+    margin-top: 40px;
+
+}
+
+/* END: Header section */
+
+/* BEGINNING: Second section */
+
+.second-section > h2 {
+    text-align: center;
+    margin-top: 20px;
+}
+
+.second-section > .icons {
+
+    display: flex;
+    justify-content: space-between;
+    margin-top: 20px;
+}
+
+.second-section > .icons > div {
+    flex: 1;
+    text-align: center;
+    padding: 0 20px; 
+    
+}
+
+.second-section .icons > .icon-1 > img,
+.second-section .icons > .icon-2 > img,
+.second-section .icons > .icon-3 > img {
+    height: 100px;
+}
+
+.second-section > h2 {
+
+    color: #00B172;
+}
+
+/* END Second-section */
+
+/* Green box */
+
+.green-box {
+
+    background-color: #00B172;
+    color: #FFF;
+    height: 700px;
+    margin: 20px;
+    display: flex;
+    flex-direction: row;
+    
+   
+     
+}
+
+.green-box > h3,
+.green-box > h4 {
+    position: absolute;
+
+}
+
+.green-box > h3 {
+
+    font-weight: bolder;
+    font-size: 2em; 
+    margin-left: 20px;
+    text-decoration: underline;
+}
+
+.green-box > .column {
+    height: 10em;
+    margin-top: 10em;
+    margin-left: 25px;
+    font-weight: bold;
+    
+}
+
+.green-box > .kanye {
+    margin-top: 50px;
+    margin-right: 50px;
+    height: 600px;
+}
+
+.green-box > .icon-white {
+    margin-top: 250px;
+    padding-right: 50px;
+    height: 200px;
+}
