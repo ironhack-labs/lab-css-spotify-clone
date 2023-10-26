@@ -6,3 +6,135 @@ Green: #00B172
 White: #FFF
 
 */
+* {
+  margin: 0;
+  padding: 0;
+  border: 0;
+}
+html {
+  max-width: 900px;
+  font-family: roboto;
+}
+#first-page {
+  display: flex;
+}
+
+nav {
+  position: fixed;
+  display: flex;
+  width: 100%;
+  height: 50px;
+  border: 1px solid black;
+  justify-content: space-between;
+  align-items: center;
+}
+#categories {
+  display: flex;
+  border: 3px solid yellow;
+  height: 30px;
+}
+#logo {
+  height: 40px;
+  margin-left: 15px;
+}
+#categories > li {
+  margin-right: 30px;
+  list-style: none;
+}
+#main {
+  background-image: url(../images/landing.jpg);
+  background-size: 100%;
+  margin-top: 50px;
+  background-repeat: no-repeat;
+  height: 500px;
+  display: flex;
+  flex-direction: column;
+}
+h1,
+#first-parag {
+  color: #fff;
+  text-align: center;
+  font-size: 1.5rem;
+  justify-content: center;
+  font-family: roboto;
+}
+h1 {
+  margin-top: 200px;
+  font-size: 3.5rem;
+}
+#first-parag {
+  width: 50%;
+  margin-left: 25%;
+  margin-top: 15px;
+}
+#second-header {
+  text-align: center;
+  margin: 25px 0;
+}
+#second-page {
+  display: flex;
+  flex-direction: column;
+  text-align: center;
+}
+#second-page > h2 {
+  margin: 20px 0 0 0;
+}
+#boxes {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-around;
+  margin: 10px;
+}
+.box {
+  border: 3px solid yellow;
+  width: 33%;
+  margin: 5px;
+}
+.box > h3 {
+  color: #00b172;
+}
+.box > p {
+  width: 60%;
+  margin: 15px 20%;
+  color: #1a1a1a;
+}
+#third-page {
+  display: flex;
+  background-image: url(../images/spotify-icon-white.png);
+  background-size: 10%;
+  background-repeat: no-repeat;
+  background-color: #00b172;
+  background-position: center;
+  /* background-position-x: 425px;
+  background-position-y: 225px; */
+  color: #fff;
+  justify-content: space-between;
+}
+#left {
+  width: 400px;
+}
+
+#left > h2 {
+  margin: 33px 0 10px 33px;
+}
+#left > h3,
+#left > p {
+  margin: 33px;
+}
+#third-page > img {
+  margin: auto 50px;
+}
+.line-1 {
+  height: 3px;
+  border: 0;
+  background: #00b172;
+  width: 200px;
+  margin: 0 auto;
+}
+.line-2 {
+  height: 3px;
+  border: 0;
+  background: #fff;
+  width: 75%;
+  margin-left: 33px;
+}
