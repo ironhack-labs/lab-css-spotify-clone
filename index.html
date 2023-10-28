@@ -4,15 +4,92 @@
     <meta charset="UTF-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <meta http-equiv="X-UA-Compatible" content="ie=edge" />
+
+    <link rel="stylesheet" href="./styles/reset.css">
+    <link rel="stylesheet" href="./styles/style.css">
+
     <title>Spotify Clone</title>
     <!-- don't forget to link your styles -->
   </head>
   <body>
-    Premium Discover Help Download Music for everyone. Spotify is now free on mobile, tablet and computer. Listen to the
-    right music, wherever you are. What’s on Spotify? Millions of Songs There are millions of songs on Spotify HD Music
-    Listen to music as if you were listening live Stream Everywhere Stream music on your smartphone, tablet or computer
-    It’s as yeezy as Kanye West. Search Know what you want to listen to? Just search and hit play. Browse Check out the
-    latest charts, brand new releases and great playlists for right now. Discover Enjoy new music every Monday with your
-    own personal playlist. Or sit back and enjoy Radio.
+    <nav id="navigation">
+      <ul>
+        <li><img src="./images/spotify-logo.png" alt="spotify-logo"></li>
+        <div class="menu">
+          <li>Premium</li>
+          <li>Discover</li>
+          <li>Help</li>
+          <li>Download</li>
+        </div>
+      </ul>
+    </nav> 
+
+    <!-- hero starts here -->
+    <header>
+      <div class="hero">
+        <h1>Music for everyone.</h1> 
+        <p>Spotify is now free on mobile, tablet and computer. 
+        <br>
+        Listen to the right music, wherever you are.</p>
+      </div>
+    </header>
+
+    <!-- first article -->
+    <article class="spotify-cards">
+      <h2 class="section-title">What’s on Spotify?</h2>
+      <div class="cards">
+          <!-- first element -->
+        <div>
+          <img src="./images/music-icon.png" alt="music-representation">
+          <h3>Millions of Songs</h3> 
+          <p>There are millions of songs on Spotify</p>
+        </div>
+
+        <!-- second element -->
+        <div>
+          <img src="./images/high-quality-icon.png" alt="quality-bands-representation">
+          <h3>HD Music</h3> 
+          <p>Listen to music as if you were listening live</p>
+        </div>
+
+        <!-- third element -->
+        <div>
+          <img src="./images/devices-icon.png" alt="different-devices-representation">
+          <h3>Stream Everywhere</h3> 
+          <p>Listen to music as if you were listening live</p>
+        </div>
+      </div>
+    </article>
+
+    <!-- footer -->
+    <footer>
+      <div>
+          <h3>It’s as yeezy as Kanye West.</h3>
+        <div class="footer-section">
+          <article class="article-footer">
+            <div class="spotify-footer-card">
+              <h4>Search</h4>
+              <p>Know what you want to listen to? Just search and hit play.</p>
+            </div>
+            <div class="spotify-footer-card">
+              <h4>Browse</h4>
+              <p>Check out the latest charts, brand new releases and great playlists for right now.</p>
+            </div>
+            <div class="spotify-footer-card">
+              <h4>Discover</h4>
+              <p>Enjoy new music every Monday with your own personal playlist. Or sit back and enjoy Radio.</p>
+            </div>
+          </article>
+          <div>
+            <img class="spotify-icon" src="./images/spotify-icon-white.png" alt="three-lines-spotify-icon"/>
+          </div>
+        </div>
+      </div>
+      
+        <aside>
+          <img class="kanye-west" src="./images/spotify-app.jpg" alt="Kanye-west-spotify-view"/>
+        </aside>  
+    </footer>
+    
   </body>
 </html>
