@@ -50,6 +50,7 @@ body{
 }
 .nav-menu{
     display: flex;
+    
    
     list-style: none;
     
@@ -57,7 +58,7 @@ body{
 }
 .nav-menu-item{
     font-size: 16px;
-    margin: 0px 5px;
+    margin: 0px 0px;
     padding: 8px;
    
     width: 100%;
@@ -66,7 +67,8 @@ body{
 .nav-menu-link:hover,
 .nav-menu-link-active:hover{
     
-    color: #4ecfa2; 
+    color: #505f5a; 
+    font-size: 1.2em;
     
 }
 .nav_toggle{
@@ -207,7 +209,7 @@ body{
         
         width: 100%; 
         padding:20px 0px;
-        height: calc(28% - 60px);/*con esto selecciona el 100*100 de la pagina de alto  */
+        height: calc(26% - 60px);/*con esto selecciona el 100*100 de la pagina de alto  */
         overflow-y: auto;/*con esto hacemos que cuando la pantalla sea muy corta añadira una barra de scroll en el nav para poder seleccionar lo que queramos */
         left: 100%;/*para que se vaya a la izquierda y no sue muestre en dispositivos moviles hasta que hagamos click en la hamburguesa*/;
         transition: left 0.3s;/*esto hace e efecto cortina */
@@ -223,7 +225,7 @@ body{
         
        
       
-        margin: 1px auto;
+        margin: 0px auto;
         color: #90b69a;
         
     }
