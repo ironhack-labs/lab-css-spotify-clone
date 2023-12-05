@@ -1,12 +1,5 @@
 @import url('https://fonts.googleapis.com/css2?family=Roboto:wght@400;700&family=Rubik:wght@400;500;600;700&display=swap');
-/*
-Colors:
 
-Text: 1A1A1A
-Green: #00B172
-White: #FFF
-
-*/
 *{
     margin: 0;
     padding: 0;
@@ -29,7 +22,7 @@ body{
  .logo{
     width: 150px;
     height: 50px;
-    margin-left: 10px;
+    margin-top: 5px;
    
    
 }
@@ -51,6 +44,8 @@ body{
 .nav-link{
     text-decoration: none;
     color: black;
+    width: 100%;
+    
 
 }
 .nav-menu{
@@ -64,6 +59,8 @@ body{
     font-size: 16px;
     margin: 0px 5px;
     padding: 8px;
+   
+    width: 100%;
     
 }
 .nav-menu-link:hover,
@@ -193,42 +190,49 @@ body{
 }
 /***************************************765px******************************/
 @media(max-width:765px) {
+    .section2{}
     
-    .header{
-        height: 10
-
-    }
     
     .nav-menu{
-
+        display: flex;
         flex-direction: column;
-        background-color:#4ecfa2;
+        justify-content: center;   
+        ;
+        background-color:#8aefad ;
         position: fixed;
-        left: 0;
-        top:50px;
-        align-items: center;
+        
+       
+        top: 50px;
+        margin-top: 11px;
         
         width: 100%; 
         padding:20px 0px;
-        height: calc(38% - 60px);/*con esto selecciona el 100*100 de la pagina de alto  */
+        height: calc(28% - 60px);/*con esto selecciona el 100*100 de la pagina de alto  */
         overflow-y: auto;/*con esto hacemos que cuando la pantalla sea muy corta añadira una barra de scroll en el nav para poder seleccionar lo que queramos */
         left: 100%;/*para que se vaya a la izquierda y no sue muestre en dispositivos moviles hasta que hagamos click en la hamburguesa*/;
         transition: left 0.3s;/*esto hace e efecto cortina */
+        
    }
     .nav-menu-item{
+        width: 100%;
         line-height: 14px;
-        border: solid;
-        border-radius: 5px;
-        margin: 5px auto;
-        color: white;
-        background-color:transparent;
+        border: solid 1px ;
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        
+       
+      
+        margin: 1px auto;
+        color: #90b69a;
+        
     }
     .nav_toggle{
         display: block;
     }
     
     .nav-menu_visible{
-        left: 0;
+       left: 0;
         }
         
         .title{
@@ -362,7 +366,7 @@ body{
 }
 
 .img-kanye{
- width: 320px;
+ width: 220px;
  margin-right: 30px;
  
 
