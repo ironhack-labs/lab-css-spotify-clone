@@ -1,8 +1,421 @@
-/*
-Colors:
+@import url('https://fonts.googleapis.com/css2?family=Roboto:wght@400;700&family=Rubik:wght@400;500;600;700&display=swap');
 
-Text: 1A1A1A
-Green: #00B172
-White: #FFF
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+body{
+    font-family: 'Rubik', sans-serif;
+    color: black;
+   
+}
+.header{
+    background-color: white;
+     position: fixed;
+     width: 100%;
+     height: 60px;
+     top: 0;
+     left: 0;
+     
+ }
+ .logo{
+    width: 150px;
+    height: 50px;
+    margin-top: 5px;
+   
+   
+}
+.logo:hover{
+    background-color: rgb(242, 244, 247);
+    border-radius: 5px;
+    width: 160px;
+    height: 51px;
+    
 
-*/
+}
+
+
+.nav{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 2px 15px;
+    width: 100%;
+    height: 60px;
+    max-width: 1300px;  
+    background-color:rgb(255, 255, 255);
+    
+
+}
+
+.nav-link{
+    text-decoration: none;
+    color: black;
+    width: 100%;
+    
+
+}
+.nav-menu{
+    display: flex;
+    
+   
+    list-style: none;
+    
+   
+}
+.nav-menu-item{
+    font-size: 16px;
+    margin: 0px 0px;
+    padding: 8px;
+   
+    width: 100%;
+    
+}
+.nav-menu-link:hover,
+.nav-menu-link-active:hover{
+    
+    color: #505f5a; 
+    font-size: 1.2em;
+    
+}
+.nav_toggle{
+  color: rgb(65, 50, 50);
+  background: none;
+  border: none;
+  font-size: 20px;
+  padding: 0;
+  line-height: 60px;
+  display: none;
+  cursor: pointer;
+
+
+}
+/**********************img-title******************/
+.title{
+    width: 100vw;
+    height: 400px;
+    display: flex;
+    
+    align-items: center;
+    justify-content: center;
+    margin-top: 50px;
+    background-image: url(/images/landing.jpg);
+    background-size: cover; 
+    background-position: center;   
+}
+.text{
+    color: white;
+    text-align: center;
+    align-items: center;
+}
+.title p{
+    max-width: 500px;
+    margin-top: 20px;
+}
+/***********************section 2******************************/
+.section2{
+    text-align: center;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    margin-top: 30px;
+    
+}
+.section2 hr{
+    width: 220px;
+    margin: 0 auto;
+    color: #4ecfa2;  
+}
+.trhee_cards{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+
+    width: 100%;
+   
+}
+.trhee_cards img{
+    width: 150px;
+}
+.cards {
+    width: 180px;
+    margin: 40px auto;
+}
+.cards h4{
+    color: #4ecfa2;
+    font-size: 20px;
+}
+
+.cards p{
+    color: #a0aaa5;
+    font-size: 15px;
+}
+
+/***************************scetion3**************************/
+.section3{
+    background-color: #4ecfa2;
+    margin-top: 40px;
+    
+    
+    
+}
+.section3 hr{
+    width: 220px;
+   margin: 0 auto;
+    color: white;  
+    
+
+}
+.logo-white{
+    width: 80px;
+    margin-bottom: 30px;
+       
+}
+.text-kayne{
+
+    color: white;
+    text-align: center;
+    align-items: center;
+   
+    padding-top: 20px;
+    
+    
+}
+
+.text1{
+    display: flex;
+    flex-direction: column;
+    
+    
+    width: 80%;
+    margin: 30px auto;
+    
+}
+.img-kanye{
+    width:300px;
+    border-radius: 5px;
+    
+}
+.img-kanye:hover{
+    width: 230px;
+}
+/***************************************765px******************************/
+@media(max-width:765px) {
+    .section2{}
+    
+    
+    .nav-menu{
+        display: flex;
+        flex-direction: column;
+        justify-content: center;   
+        ;
+        background-color:#8aefad ;
+        position: fixed;
+        
+       
+        top: 50px;
+        margin-top: 11px;
+        
+        width: 100%; 
+        padding:20px 0px;
+        height: calc(26% - 60px);/*con esto selecciona el 100*100 de la pagina de alto  */
+        overflow-y: auto;/*con esto hacemos que cuando la pantalla sea muy corta añadira una barra de scroll en el nav para poder seleccionar lo que queramos */
+        left: 100%;/*para que se vaya a la izquierda y no sue muestre en dispositivos moviles hasta que hagamos click en la hamburguesa*/;
+        transition: left 0.3s;/*esto hace e efecto cortina */
+        
+   }
+    .nav-menu-item{
+        width: 100%;
+        line-height: 14px;
+        border: solid 1px ;
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        
+       
+      
+        margin: 0px auto;
+        color: #90b69a;
+        
+    }
+    .nav_toggle{
+        display: block;
+    }
+    
+    .nav-menu_visible{
+       left: 0;
+        }
+        
+        .title{
+            width: 100vw;
+            height: 400px;
+            display: flex;
+            
+            align-items: center;
+            justify-content: center;
+            margin-top: 50px;
+            background-image: url(/images/landing.jpg);
+            background-size: cover; 
+            background-position: center;   
+        }
+        .text{
+            color: white;
+            text-align: center;
+            align-items: center;
+        }
+
+    }
+    /***********+ 765px *************/
+@media(min-width:765px) {
+    body{
+       
+    }
+    .title{
+        font-size: 25px;  
+       
+    }
+    .title p{
+        max-width: 550px;
+    }
+    .text{
+        color: white;
+        text-align: center;
+        align-items: center;
+    }
+
+/***********************section 2******************************/
+.section2{
+    text-align: center;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    
+   
+    
+}
+.section2 hr{
+    width: 230px;
+    margin: 0 auto;
+    color: #4ecfa2;  
+}
+.trhee_cards{
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    margin: 0 auto;
+    
+}
+.trhee_cards img{
+    width: 150px;
+}
+.cards {
+    width: 280px;
+    margin-top: 40px;
+    
+    
+    
+}
+.cards h4{
+    color: #4ecfa2;
+    font-size: 20px;
+}
+.cards p{
+    width: 200px;
+    margin: 10px auto;
+}
+/***************************scetion3**************************/
+.section3{
+    background-color: #4ecfa2;
+    margin: 40px auto;
+    width: 95%;
+   
+    height: 650px;
+
+    display: flex;
+
+    
+    
+    
+}
+.title-section3{
+    width: 480px;
+    
+   
+}
+.title-section3 h4{
+    font-weight: 100;
+    font-size: 30px;
+    margin-left: 50px;
+    
+  
+}
+.title-section3 hr{
+    border: white 2px solid;
+    margin-top: 10px;
+    width: 380px;
+
+}
+.text-kayne{
+
+    color:white;
+   width: 100%;
+    display: flex;
+    text-align: start;
+    padding: 10px;
+    justify-content: space-around;
+
+
+
+     
+}
+.logo-white{
+    width: 100px;
+    
+    margin-right: 100px;
+   
+       
+}
+
+.img-kanye{
+ width: 220px;
+ margin-right: 30px;
+ 
+}
+
+
+.text1 p{
+    width: 280px;
+    margin-top: 20px;
+    font-size: 15px;
+    margin-left: 20px;
+    
+    
+    
+
+} .prueba{
+
+  width: 400px;
+  
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+}
+    
