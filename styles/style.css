@@ -6,3 +6,181 @@ Green: #00B172
 White: #FFF
 
 */
+
+body {
+    margin: 0;
+    padding: 0;
+    font-family: 'Noto Sans', sans-serif;
+}
+
+/****************** NAV *******************/
+
+.nav__navBar {
+    position: fixed;
+    width: 100%;
+    display: flex;
+    justify-content: space-between;
+    background-color: #fff;
+    z-index: 999;
+}
+
+#nav__navBar--logoSpotify {
+    height: 60px;
+    padding: 20px;
+    margin-left: 40px;
+}
+
+.nav__navBar--navLinks {
+    width: 600px;
+    display: flex;
+    justify-content: flex-end;
+    margin-right: 30px;
+    list-style-type: none;
+    font-size: 22px;
+}
+
+.nav__navBar--navLinks li {
+    margin-right: 25px;
+}
+
+.nav__titleCenter {
+    width: 100%;
+    height: 900px; /* Ajusta la altura según tus necesidades */
+    background-image: url('../images/landing.jpg');
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: center;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    color: white;
+    text-align: center;
+}
+
+.nav__titleCenter--title {
+    font-size: 80px;
+    margin-bottom: 30px;
+    font-weight: 400;
+}
+
+.nav__titleCenter--paragraph {
+    width: 600px;
+    font-size: 25px;
+    margin: 0;
+}
+
+/****************** CHARACT SPOTIFY *******************/
+
+.charactSpotify {
+    height: 450px;
+    display: flex;
+    flex-direction: column;
+    margin-bottom: 180px;
+}
+
+.charactSpotify__subtitle {
+    text-align: center;
+    font-size: 45px;
+    text-decoration: underline;
+    text-decoration-color: #00B172;
+    text-decoration-thickness: 4px;
+    text-underline-offset: 15px;
+    margin-top: 40px;
+}
+
+.charactSpotify__box {
+    width: 80%;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-evenly;
+    align-content: center;
+    margin: 80px auto;
+}
+
+.charactSpotify__box--millions,
+.charactSpotify__box--hd,
+.charactSpotify__box--stream {
+    width: 500px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.charactSpotify__box--millionsSubtitleSpeaker,
+.charactSpotify__box--millionsWaveSubtitle,
+.charactSpotify__box--millionsSubtitleMobile {
+    font-size: 40px;
+    color: #00B172;
+    margin-bottom: 0;
+}
+
+.charactSpotify__box--millionsPSpeacker,
+.charactSpotify__box--millionsPWave,
+.charactSpotify__box--millionsPMobile {
+    width: 215px;
+    text-align: center;
+    font-size: 23px;
+}
+
+
+#speacker, #waveSound, #mobile{
+    height: 130px;
+}
+
+/****************** INFORMATION SPOTIFY *******************/
+
+.informationSpotify {
+    height: 700px;
+    background-color: #00B172;
+    margin: 0 50px;
+    display: flex;
+    justify-content: space-evenly;
+    position: relative
+}
+
+#informationSpotify__icon {
+    height: 130px;
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+}
+
+.informationSpotify__information {
+    color: white;
+    margin-top: 45px;
+    margin-right: 260px;   
+}
+
+.informationSpotify__information--subtitle {
+    font-size: 35px;
+    font-weight: 500;
+    text-decoration: underline;
+    text-underline-offset: 15px;
+}
+
+.informationSpotify__information--searchSubtitle {
+    font-size: 30px;
+    margin-top: 60px;
+}
+
+.informationSpotify__information--browserSubtitle,
+.informationSpotify__information--discoverSubtitle {
+    font-size: 30px;
+    margin-top: 30px;
+}
+
+.informationSpotify__information p {
+    width: 300px;
+    font-size: 18px;
+    word-spacing: 5px;
+    line-height: 1.5;
+    font-weight: 100;
+
+}
+
+#informationSpotify__screenshot {
+    height: 600px;
+    align-self: center;
+}
