@@ -6,3 +6,173 @@ Green: #00B172
 White: #FFF
 
 */
+
+* {
+    background-color: white;
+    font-family: Helvetica,Arial,sans-serif;
+}
+
+nav {
+    display: flex;
+    flex-direction: row;
+    align-items: stretch;
+    position: fixed;
+    top: 0;
+    width: 100%;
+    justify-content: space-between;
+    z-index: 1;
+}
+
+nav > ul {
+    list-style: none;
+    display: flex;
+    flex-direction: row;
+}
+
+nav > ul > li {
+    margin: 10px;
+    padding: 5px 20px;
+    font-size: 20px;
+    font-weight: 100;
+}
+
+nav > ul > li > a {
+text-decoration: none;
+color: black;
+}
+
+img#logo {
+    block-size: 50px;
+    margin: 10px;
+  }
+
+h1,h3.bannerz {
+    background-color: rgba(0,0,0,0);
+    color: white;
+    /* margin: 0 auto; */
+  }
+
+div#banner {
+    box-sizing: border-box;
+    background-image: url("../images/landing.jpg");
+    background-size: cover;
+    height: 800px;
+    color: white;
+    text-align: center;
+    margin: 100px auto;
+    position: relative;
+    display: flex;
+    flex-direction: column;
+    /* align-items: ; */
+    justify-content: center;
+}
+
+h1 {
+    font-size: 85px;
+}
+
+h3 {
+    font-size: 25px;
+    font-weight: 100;
+    line-height: 35px;
+}
+
+
+h2 {
+    text-decoration: underline;
+    text-align: center;
+    font-size: 40px;
+}
+
+article {
+    display: flex;
+    flex-direction: column;
+    block-size: 350px;
+    align-items: center;
+    margin: 20px 0;
+    justify-content: center;
+}
+
+article > img {
+    width: 150px;
+    align-items: center;
+}
+
+div.article-box {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-evenly;
+    align-items: center;
+}
+
+article > h3 {
+    color: rgb(50,182,107);
+    font-weight: bold;
+    text-align: center;
+}
+
+article > p {
+    font-size: 20px;
+    text-align: center;
+    text-wrap: wrap;
+    width: 250px;
+}
+
+section#call-to-action {
+    display: flex;
+    flex-direction: row;
+    background-color: rgb(45,166,88);
+    block-size: 700px;
+    justify-content: space-around;
+    padding: 25px;
+    margin: 25px;
+    align-items: center;
+}
+
+div.vert {
+    display: flex;
+    justify-content: space-around;
+    flex-direction: column;
+}
+
+div.usecase > span {
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+    margin-left: 10px;
+    width: 300px;
+    background-color: rgb(45,166,88);
+    color: white;
+}
+
+div.usecase > span > h3 {
+    font-size: 30px;
+    background-color: rgb(45,166,88);
+    font-weight: bold;
+}
+
+div.usecase > span > p {
+    font-size: 20px;
+    background-color: rgb(45,166,88);
+    font-weight: 100;
+}
+
+div.usecase > span > h2 {
+    background-color: rgb(45,166,88);
+    text-wrap: nowrap;
+    font-weight: 200;
+}
+
+div.usecase > img {
+    block-size: 500px;
+}
+
+div.usecase {
+background-color: rgb(45,166,88);
+}
+
+img#logowhite {
+    background-color: rgb(45,166,88);
+    block-size: 100px;
+    align-self: center;
+}
