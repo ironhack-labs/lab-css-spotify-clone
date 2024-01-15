@@ -6,3 +6,132 @@ Green: #00B172
 White: #FFF
 
 */
+
+body {
+    font-family: "Roboto", sans-serif;
+}
+
+p, span {
+    font-size: 1.25em;
+    line-height: 10px;
+    font-weight: 200;
+}
+
+h1 {
+    font-size: 4em;
+    font-weight: 400;
+}
+
+h2 {
+    font-size: 2em;
+    font-weight: 400;
+    text-decoration: underline;
+    text-underline-offset: 10px;
+}
+
+h3 {
+    font-size: 1.5em;
+    font-weight: 300;
+}
+
+.nav {
+    top:0px;
+    width: 100%;
+    line-height: 25px;
+    position: fixed;
+    font-size: 1.1em;
+    font-weight: 300;
+    background-color: white;
+}
+
+.nav img {
+    float: left;
+    height: 40px;
+    margin: 10px 20px;
+}
+
+.nav ul {
+    display: flex;
+    float: right;
+    list-style: none;
+    padding-right: 30px;
+}
+
+.nav ul li {
+    margin: 0 15px;
+}
+
+.block-one {
+    margin-top: 60px;
+    background-image: url("../images/landing.jpg");
+    background-size: contain;
+    height: 600px;
+    text-align:center;
+    vertical-align: middle;
+    color: white;
+}
+
+.block-one h1 {
+    padding-top: 180px;
+}
+
+.block-two h2 {
+    text-align:center;
+}
+
+.three-box {
+    display: flex;
+}
+
+.three-box .box {
+    width: 25%;
+    margin: auto;
+    padding: 50px 15px 50px 15px;
+    text-align: center;
+}
+
+.box img {
+    height:80px;
+}
+
+.block-three {
+    background-color: #00B172;
+    margin: 0 30px;
+    color: white;
+    height: 770px
+
+}
+
+.block-three h2, h3{
+    padding-top: 60px;
+    padding-left: 50px
+
+}
+
+.block-three p{
+    padding-left: 50px
+
+}
+
+#green-underline {
+    text-decoration-color: #00B172;
+}
+
+#spotify-white {
+
+    float: right;
+    margin-right: 25%;
+    margin-top: 8%;
+
+    height: 150px;
+}
+
+#screenshot {
+
+
+    float: right;
+    position: relative;
+    top: -7%;
+    margin-right: 5%;
+    height: 650px;
+}
