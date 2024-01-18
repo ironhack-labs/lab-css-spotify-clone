@@ -6,3 +6,87 @@ Green: #00B172
 White: #FFF
 
 */
+
+/* RESET */
+* {
+    min-width: 0;
+    font: inherit;
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+}
+
+/* GENERAL */
+body {
+    font-family: "Montserrat", sans-serif;
+    font-weight: 400;
+    color: #1A1A1A;
+    -webkit-font-smoothing: antialiased;
+    -moz-osx-font-smoothing: grayscale;
+}
+
+a {
+    color: #1A1A1A;
+    text-decoration: none;
+}
+
+.container {
+    width: 100%;
+    max-width: 1200px;
+    margin: 0 auto;
+    padding: 0 30px;
+}
+
+/* HEADER */
+.header {
+    position: fixed;
+    top: 0;
+    left: 0;
+    width: 100%;
+    background-color: #FFF;
+}
+
+.header__content {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    width: 100%;
+    height: 80px;
+}
+
+.header__logo img {
+    max-width: 10rem;
+}
+
+.header__navigation {
+    display: flex;
+    gap: 1rem;
+}
+
+/* HERO */
+section.hero {
+    width: 100%;
+    height: 80vh;
+    margin-top: 80px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    background-image: url("../images/landing.jpg");
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center center;
+    color: #FFF;
+}
+
+section.hero h1 {
+    font-size: 3.5rem;
+    font-weight: 600;
+    margin-bottom: 1.5rem;
+}
+
+section.hero h2 {
+    max-width: 40ch;
+    text-align: center;
+    font-size: 1.25rem;
+    margin: 0 auto;
+}
