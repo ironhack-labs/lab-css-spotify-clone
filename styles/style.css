@@ -6,3 +6,145 @@ Green: #00B172
 White: #FFF
 
 */
+
+body {
+    font-family: 'Montserrat';
+    font-size: 20px;
+}
+
+.header {
+    background-image: url(/lab-css-spotify-clone/images/landing.jpg);
+    background-size: cover;
+    color: white;
+    height: 800px;
+    margin-top: 50px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    width: 100%;
+}
+
+.header h1 {
+    font-size: 3em;
+}
+
+.navbar {
+    background-color: white;
+    height: 50px;
+    width: 100%;
+    position: fixed;
+    top: 0;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    padding:10px 0px;
+}
+
+.logo-wrapper img{
+    height: 50px;
+}
+
+.navbar ul {
+    display:flex;
+    flex-wrap: nowrap;
+    list-style: none;
+    align-items: center;
+}
+
+.navbar li {
+    margin-right: 40px;
+    text-decoration: none;
+}
+
+.navbar a {
+    text-decoration: none;
+    color: black;;
+}
+
+.dark-bg {
+    color: white;
+    background-color:#00B172;
+}
+
+.app .text-section h2{
+    text-decoration: underline;
+}
+
+.icono {
+    max-height: 100px;
+    width: auto;
+}
+
+.whats {
+    display: flex;
+    align-items:center;
+    flex-direction: column-reverse;
+}
+
+.titulo-icons {
+    text-decoration: underline #00B172;
+    margin-bottom: 40px;
+    width: 100%;
+    text-align: center;
+}
+
+.icons-row {
+    width: 100%;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-evenly;
+    padding: 20px 0px;
+}
+
+.icons-row h3 {
+    color: #00B172;
+}
+
+.icons-col {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    max-width: 250px;
+    padding: 10px;
+    text-align: center;
+}
+
+.app {
+    width: 100%;
+    display: flex;
+    align-items: center;
+    position: relative;
+}
+
+.app .text-section {
+    width: 60%;
+}
+
+.app .image-section {
+    width: 40%;
+    text-align: center;
+}
+
+.app .text-section {
+    padding: 40px;
+}
+
+.image-section img {
+    max-width: 300px;
+    padding: 50px 0px;
+}
+
+.text-section p {
+    padding-right: 200px;
+}
+
+.spotify-icon {
+    position: absolute;
+    top: 50%;
+    left: 50%;
+}
+
+.spotify-icon img {
+    width: 100px;
+}
