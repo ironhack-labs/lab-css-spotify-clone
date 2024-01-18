@@ -6,3 +6,127 @@ Green: #00B172
 White: #FFF
 
 */
+
+
+@import url('https://fonts.googleapis.com/css2?family=Open+Sans:ital,wght@0,300;0,400;0,500;0,600;0,700;1,300;1,400&family=Roboto:ital,wght@0,100;0,300;0,400;1,100;1,300&display=swap');
+
+
+body, html {
+    margin: 0 auto;
+    box-sizing: border-box;
+    padding: 0 auto;
+    
+    
+}
+
+body {
+    font-family: 'Open Sans', sans-serif;
+    font-size: 10px;
+    line-height: 3.5em;
+    font-weight: 300;
+}
+
+
+
+.nav-bar {
+    border: 2px solid red;
+    width: 100%;   
+    display: flex;
+    justify-content: space-between;
+    align-content: center;
+    position: fixed;
+    
+}
+
+
+.nav-bar-ul {
+    list-style: none;
+    text-align: center;
+    display: flex;
+    align-items:center;
+    justify-content: space-around;
+    border: 2px solid green;
+    width: 50%; 
+    gap: 1px;   
+}
+
+.nav-bar-ul li {
+    font-size: 2.5em;
+    font-weight:bolder;
+    color: #1A1A1A
+    
+}
+
+.logo {
+    width: 205px;
+    margin: 40px
+}
+
+#header {
+    position: relative;
+    border: 2px solid blue;
+    top: 140px;
+    width: 100%;
+    margin: 0 auto;
+    resize: both;
+    overflow: auto;
+    text-align: center;
+    width: 100%;
+    height: 100%;
+    text-align: center;
+}
+    
+
+.image-container {
+    background-image: url("../images/landing.jpg");
+    height: 800px;
+    background-position: 0 0;
+    background-repeat: no-repeat;
+    background-size: cover;
+    padding-top: 400px;
+    position: relative; 
+    object-fit: cover;
+    
+    
+}
+
+h1 {
+    color: white;
+    font-size: 4.5rem;
+}
+
+#header p {
+    color: white;
+    font-size: 1.8rem;
+    line-height: 60px;
+}
+
+#information {
+    margin-top: 100px;
+    padding: 40px;
+    display: flex;
+    border: 2px solid brown;
+}
+
+h2 {
+    font-size: 3rem;
+    color: rgb(0, 0, 0);
+
+}
+
+.information-container {
+    border: 2px solid yellow;
+}
+
+.million-songs {
+    border: 2px solid pink;
+}
+
+h3  {
+    font-size: 2.4rem;
+    color: #00B172;
+}
+
+p {
+    color: #1A1A1A;
+}
