@@ -30,11 +30,21 @@ a {
     text-decoration: none;
 }
 
+img {
+    display: block;
+    height: auto;
+    max-width: 100%;
+}
+
 .container {
     width: 100%;
     max-width: 1200px;
     margin: 0 auto;
-    padding: 0 30px;
+    padding: 0 2rem;
+}
+
+section {
+    padding: 4rem 0;
 }
 
 /* HEADER */
@@ -89,4 +99,104 @@ section.hero h2 {
     text-align: center;
     font-size: 1.25rem;
     margin: 0 auto;
+}
+
+/* FEATURES */
+section.features h3 {
+    text-align: center;
+    font-size: 1.5rem;
+    font-weight: 700;
+    text-decoration: underline;
+    text-decoration-color: #00B172;
+    text-decoration-thickness: 3px;
+    text-underline-offset: 8px;
+    margin-bottom: 6rem;
+}
+
+.features__items {
+    display: flex;
+    gap: 4rem;
+}
+
+.features__item {
+    flex: 0 1 33%;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    text-align: center;
+    gap: 1rem;
+}
+
+.features__image {
+    max-height: 4rem;
+}
+
+.features__item h4 {
+    font-size: 1.25rem;
+    color: #00B172;
+    font-weight: 700;
+}
+
+.features__item p {
+    max-width: 20ch;
+}
+
+/* PLAYER */
+section.player {
+    background-color: #00B172;
+    color: #FFF;
+    margin: 2rem;
+    position: relative;
+}
+
+.player__logo {
+    width: 100%;
+    max-width: 5rem;
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+}
+
+.player__content {
+    display: flex;
+    justify-content: space-between;
+}
+
+.player__text {
+    flex: 0 1 50%;
+}
+
+.player__text h3 {
+    font-size: 1.5rem;
+    font-weight: 700;
+    text-decoration: underline;
+    text-decoration-color: #FFF;
+    text-decoration-thickness: 2.5px;
+    text-underline-offset: 8px;
+    margin-bottom: 3rem;
+}
+
+.player__text-group {
+    margin-bottom: 2rem;
+}
+
+.player__text-group h4 {
+    font-size: 1.25rem;
+    font-weight: 700;
+    margin-bottom: .75rem;
+}
+
+.player__text-group p {
+    max-width: 28ch;
+}
+
+.player__image {
+    flex: 0 0 auto;
+    text-align: right;
+}
+
+.player__image img {
+    width: 100%;
+    max-width: 15rem;
 }
