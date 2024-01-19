@@ -6,3 +6,76 @@ Green: #00B172
 White: #FFF
 
 */
+
+#nav-bar {
+     /* background-color: grey; */
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    height: 80px;
+    margin: 20px 0;
+}
+
+#spotify-logo {
+    max-width: 236px;
+    max-height: 70px;
+    padding: 5px 0 0 15px;
+    /* border: 1px solid #000000; */
+}
+
+#nav-links {
+    /* background-color: aqua; */
+display: flex;
+max-width: 33%;
+justify-content: flex-end;
+align-items: center;
+}
+
+.navlink {
+    padding: 0px 10px;
+    margin: 0px 5px;
+    list-style: none;
+}
+
+.navlink > a {
+    text-decoration: none;
+    color: black;
+}
+
+header {
+    /* max-width:50%; */
+    position: relative;
+    text-align: center;
+    color: white;
+}
+
+header > img {
+    max-width: 100%;
+}
+
+#header-heading {
+    font-size: 4em;
+    /* border: 2px solid #ffffff; */
+    width: 700px;
+}
+
+#header-text {
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    font-size: 1em;
+    width: 700px;
+}
+
+#header-text-one {
+    font-size: 1.6em
+}
+
+#whats-on {
+    background-color: pink
+}
+
+#whats-on-flex-container {
+    display: flex;
+}
