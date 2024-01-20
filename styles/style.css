@@ -1,8 +1,168 @@
 /*
 Colors:
-
 Text: 1A1A1A
 Green: #00B172
 White: #FFF
-
 */
+
+html {
+    box-sizing: border-box;
+}
+
+*, *:before, *:after {
+    box-sizing: inherit;
+}
+
+
+body {
+    font-family: 'Open Sans';
+    font-size: 20px;
+    margin: 0;
+    padding: 0;
+}
+
+.header {
+    background-image: url(/lab-css-spotify-clone/images/landing.jpg);
+    background-size: cover;
+    color: white;
+    margin-top: 50px;
+    height: 100vh;
+    flex-direction: column;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    width: 100%;
+}
+
+.header h1 {
+    font-size: 2.5em;
+    font-weight: 900;
+    margin-top: 0;
+    margin-bottom: 20px;
+    text-align: center;
+}
+
+.center {
+    text-align: center;
+}
+
+.navbar {
+    background-color: white;
+    height: 50px;
+    width: 100%;
+    position: fixed;
+    top: 0;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    padding: 10px 0px;
+}
+
+.logo-wrapper img {
+    height: 50px;
+}
+
+.navbar ul {
+    display: flex;
+    flex-wrap: nowrap;
+    list-style: none;
+    align-items: center;
+}
+
+.navbar li {
+    margin-right: 40px;
+    text-decoration: none;
+}
+
+.navbar a {
+    text-decoration: none;
+    color: black;
+    ;
+}
+
+.ultima-seccion {
+    color: white;
+    background-color: #00B172;
+}
+
+.ultima-seccion .col-1 h2 {
+    text-decoration: underline;
+}
+
+.icono {
+    max-height: 100px;
+    width: auto;
+}
+
+.primera-seccion {
+    display: flex;
+    align-items: center;
+    flex-direction: column-reverse;
+}
+
+.titulo-icons {
+    text-decoration: underline #00B172;
+    margin-bottom: 40px;
+    width: 100%;
+    text-align: center;
+}
+
+.icons-row {
+    width: 100%;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-evenly;
+    padding: 20px 0px;
+}
+
+.verde {
+    color: #00B172;
+}
+
+.col-iconos {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    max-width: 250px;
+    padding: 10px;
+    text-align: center;
+}
+
+.ultima-seccion {
+    width: 100%;
+    display: flex;
+    align-items: center;
+    position: relative;
+}
+
+.ultima-seccion .col-1 {
+    width: 60%;
+}
+
+.ultima-seccion .col-2 {
+    width: 40%;
+    text-align: center;
+}
+
+.ultima-seccion .col-1 {
+    padding: 40px;
+}
+
+.col-2 img {
+    max-width: 300px;
+    padding: 50px 0px;
+}
+
+.col-1 p {
+    max-width: 500px;
+}
+
+.spotify img {
+    width: 100px;
+}
+
+.spotify {
+    position: absolute;
+    left: 50%;
+    top: 50%;
+}
