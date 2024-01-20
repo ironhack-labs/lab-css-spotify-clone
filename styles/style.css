@@ -7,6 +7,46 @@ White: #FFF
 
 */
 
+html {
+    font-size: 10px;
+    font-family: "Open Sans", sans-serif;
+}
+
 body {
-    color: #00b172;
+    margin: 0;
+    padding: 0;
+    color: #fff;
+}
+
+nav {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding: 0 40px;
+    height: 100px;
+}
+
+.logo-container {
+    justify-self: start;
+}
+
+.logo {
+    height: 70px;
+}
+
+.nav-bar-list {
+    display: flex;
+    justify-content: center;
+    list-style: none;
+}
+
+.nav-bar-list li {
+    margin: 0 20px;
+    font-size: 2rem;
+}
+
+.nav-bar-list li a {
+    text-decoration: none;
+    color: #1a1a1a;
+    font-weight: 300;
 }
