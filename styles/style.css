@@ -97,6 +97,7 @@ nav {
 .what-is-spotify-list {
     width: 85vw;
     display: flex;
+    list-style: none;
     /* justify-content: space-between; */
     /* justify-content:space-evenly; */
     /* align-items: center; */
@@ -123,8 +124,71 @@ nav {
 .what-is-spotify-list > li > p {
     color: #1a1a1a;
     font-size: 2rem;
-    padding: 0 50px;
+    padding: 0 53px;
 }
 
+/* ----------------------------- Green Section ---------------------------- */
 
+.green-section {
+    background-color: #00b172;
+    height: 725px;
+    margin: 0 40px 40px 40px;
+    background-image: url(/images/spotify-icon-white.png);
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: 120px;
+    display: flex;
+}
 
+.green-section article {
+    /* border: #1a1a1a 1px solid; */
+    flex: 1 1 0;
+}
+
+.app-info {
+    margin: 0 0 0 100px;
+}
+
+.app-info h2 {
+    color: #fff;
+    font-size: 3.5rem;
+    margin: 40px 0 0 0;
+    text-align: center;
+}
+
+.app-info hr {
+    margin-top: 5px;
+    width: 478px;
+    border: none;
+    height: 4px;
+    background-color: #fff;
+}
+
+.app-specs-list {
+    list-style: none;
+    margin: 0;
+    padding: 0;
+    /* border: #1a1a1a 1px solid; */
+    width: 310px;
+}
+
+.app-specs-list > li > h4 {
+    font-size: 2.8rem;
+}
+
+.app-specs-list > li > p {
+    font-size: 2rem;
+    
+}
+
+.app-image {
+    display: flex;
+    justify-content: flex-end;
+    align-items: center;
+    margin: 0 100px 0 0;
+}
+
+.app-image img {
+    width: 310px;
+    text-align: center;
+}
