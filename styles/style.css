@@ -18,6 +18,8 @@ body {
     color: #fff;
 }
 
+/* ----------------------------- NavBar Section ---------------------------- */
+
 nav {
     display: flex;
     align-items: center;
@@ -31,17 +33,16 @@ nav {
 }
 
 .logo {
-    height: 70px;
+    height: 60px;
 }
 
 .nav-bar-list {
     display: flex;
-    justify-content: center;
     list-style: none;
 }
 
 .nav-bar-list li {
-    margin: 0 20px;
+    margin: 0 15px;
     font-size: 2rem;
 }
 
@@ -49,4 +50,29 @@ nav {
     text-decoration: none;
     color: #1a1a1a;
     font-weight: 300;
+}
+
+/* ----------------------------- Header Section ---------------------------- */
+
+.header {
+    height: 725px;
+    background-image: url(/images/landing.jpg);
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    text-align: center;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+.header h1 {
+    margin: 0;
+    font-size: 7rem;
+}
+
+.header h3 {
+    font-size: 3rem;
+    font-weight: 100;
 }
