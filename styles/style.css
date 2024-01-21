@@ -7,6 +7,8 @@ White: #FFF
 
 */
 
+/*@@@@@@@@@@@@@@@ GLOBAL @@@@@@@@@@@@@@@*/
+
 * {
     margin: 0;
     padding: 0;
@@ -16,21 +18,45 @@ body {
     font-family: "Montserrat", sans-serif;
 }
 
+/*@@@@@@@@@@@@@@@ NAV BAR @@@@@@@@@@@@@@@*/
+
 nav {
-    height: 25px;
+    height: 40px;
     padding: 10px 20px;
+    display: flex;
+    justify-content: space-between;
+    flex-direction: row;
+    align-items: stretch;
+}
+
+nav img {
+    height: 100%;
+    align-self: flex-start;
 }
 
 nav ul {
     display: flex;
+    flex-direction: row;
     list-style: none;
-    justify-content: flex-end;
+    align-self: flex-end;
 }
+
+/*@@@@@@@@@@@@@@@ HERO @@@@@@@@@@@@@@@*/
 
 #hero {
     background-image: url('/images/landing.jpg');
     background-size: cover;
     background-position: center center;
     background-repeat: no-repeat;
-    height: 480px;
+    height: 460px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+}
+
+/*@@@@@@@@@@@@@@@ CLASSES @@@@@@@@@@@@@@@*/
+
+.white-text {
+    color: rgb(255,255,255);
 }
