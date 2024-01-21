@@ -6,3 +6,182 @@ Green: #00B172
 White: #FFF
 
 */
+
+
+*{
+    margin: 0;
+    padding: 0;
+    font-family: 'Roboto', sans-serif;
+    font-weight: 100;
+}
+
+body{
+    font-size: 16px;
+}
+/*PINK SECTION*/
+.nav-bar{
+    position: fixed;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    width: 100%;
+    background-color: #fff;
+    padding: 15px;
+}
+
+.nav-bar ul {
+    list-style: none;
+    display: flex;
+    margin-right: 20px;
+}
+
+.nav-bar li {
+    margin-right: 15px;
+    font-weight: 400;
+}
+.logo {
+    max-width: 100px; /* Adjust the max-width as needed */
+    height: auto;
+}
+
+.section-img {
+    background-image: url("../images/landing.jpg");
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+    height: 600px;
+    color: #fff;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    text-align: center;
+}
+h4{
+    color: #00B172;
+}
+
+h1{
+    font-size: 70px;
+    font-weight: 400;
+    margin-bottom: 20px;
+}
+h2{
+    font-size: 1.5em;
+    font-weight: 200;
+}
+
+h3{
+    text-align: center;
+}
+
+
+/*RED SECTION*/
+
+.red h2{
+    text-align: center;
+    margin-top: 20px;
+}
+
+.red h2 span{
+    font-weight: 600;
+    font-size: 20px;
+    border-bottom: 2px solid #00B172;
+}
+
+.big-icon-container{
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    text-align: center;
+    padding: 30px 10px;
+}
+
+.icon-container{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: space-between;
+    border: 1px solid green;
+    width: 150px;
+    height: 150px;
+    text-align: center;  
+    padding: 0 16px;
+}
+
+.icon-text{
+    color: #00B172;
+    font-size: 16px;
+    font-weight: 600;
+}
+.icon-img {
+    width: 45%;
+    height: 50px;
+}
+
+.icon-container p {
+    font-size: 14px;
+}
+
+
+/*PURPLE SECTION*/
+
+.container-violet {
+    display: flex;
+    background-color: #00B172;
+    margin: 40px;
+    height: 500px;
+    background-image: url("../images/spotify-icon-white.png");
+    background-position: center;
+    background-size: 100px;
+    background-repeat: no-repeat;
+    align-items: center;
+    justify-content: space-between;
+    max-width: 1200px;
+    margin: 0 auto;
+}
+
+.flex-container{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.left-column, .right-column {
+    flex: 1;
+    text-align: center;
+    padding: 50px;
+  }
+  
+  img.green-item {
+    height: 400px;
+    margin-left:  auto;
+    display: block;
+  }
+
+  .green-list{
+    list-style: none;
+    color: #fff;
+    padding: 0;
+    font-weight: 100;
+    margin: 0;
+  }
+
+  .bold-list{
+    font-weight: 500;
+    margin: 20px 0;
+  }
+
+  .left-column{
+    text-align: left;
+    padding-right: 200px;
+  }
+
+  .bold-list-title{
+    font-weight: 500;
+    position: relative;
+    display: inline-block;
+    font-size: 20px;
+    border-bottom: 2px solid #fff;
+    padding: 3px;
+  }
