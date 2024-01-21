@@ -16,6 +16,9 @@ White: #FFF
 
 body {
     font-family: "Montserrat", sans-serif;
+    font-size: 16px;
+    width: 1024px;
+    margin: 0 auto;
 }
 
 /*@@@@@@@@@@@@@@@ NAV BAR @@@@@@@@@@@@@@@*/
@@ -55,6 +58,11 @@ nav ul li {
     justify-content: center;
 }
 
+h1 {
+    font-weight: 500;
+    font-size: 3em;
+}
+
 /*@@@@@@@@@@@@@@@ FEATURES @@@@@@@@@@@@@@@*/
 
 #features h2 {
@@ -62,12 +70,17 @@ nav ul li {
     text-decoration: underline;
     text-decoration-color: #00B172;
     text-underline-offset: 8px;
+    text-decoration-thickness: 3px;
 }
 
 #card-container {
     display:  flex;
     flex-direction: row;
     justify-content: space-evenly;
+}
+
+#features h3 {
+    color: #00B172;
 }
 
 .card {
@@ -94,6 +107,11 @@ nav ul li {
     background-position: center center;
     background-repeat: no-repeat;
     background-size: 80px;
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: space-between;
+    padding: 20px;
     /* make it fit content see if it increases height automatically */
 }
 
@@ -101,6 +119,21 @@ nav ul li {
     text-decoration: underline;
     text-decoration-color: FFF;
     text-underline-offset: 8px;
+    text-decoration-thickness: 3px;
+}
+
+#how-to img {
+    width: 180px;
+}
+
+#left-column,
+#right-column {
+    flex: 1;
+}
+
+#right-column {
+    display: flex;
+    justify-content: center;
 }
 
 /*@@@@@@@@@@@@@@@ CLASSES @@@@@@@@@@@@@@@*/
