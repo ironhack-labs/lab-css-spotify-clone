@@ -79,7 +79,8 @@ body {
 
 .image-container {
     background-image: url("../images/landing.jpg");
-    height: 800px;
+    height: 650px;
+    width: 100%;
     background-position: 0 0;
     background-repeat: no-repeat;
     background-size: cover;
@@ -101,25 +102,22 @@ h1 {
     line-height: 60px;
 }
 
+/* SECTION 1 */
+
 #information {
     margin-top: 100px;
     padding: 40px;
     display: flex;
     border: 2px solid brown;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    height: auto;
 }
 
 h2 {
     font-size: 3rem;
     color: rgb(0, 0, 0);
-
-}
-
-.information-container {
-    border: 2px solid yellow;
-}
-
-.million-songs {
-    border: 2px solid pink;
 }
 
 h3  {
@@ -127,6 +125,36 @@ h3  {
     color: #00B172;
 }
 
+.information-container {
+    border: 2px solid yellow;
+    width: 90%;
+    display: flex;
+    align-items: baseline;
+    justify-content: space-evenly;
+    flex-wrap: nowrap;
+    gap: 180px;
+
+}
+
+.internal-div img {
+    width: 120px;
+    margin-top: 1rem;
+}
+
+.internal-div {
+    display: flex;
+    flex-direction: column;
+    flex-wrap: wrap;
+    justify-content: center;
+    align-items: center;
+    align-content:center;
+    width: 30%;
+    text-align: center;
+}
+
+
+
 p {
     color: #1A1A1A;
+    font-size: 1.3rem;
 }

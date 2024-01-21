@@ -94,8 +94,8 @@ Let's do this!
 
 
 
- HD Music
-    Listen to music as if you were listening live Stream Everywhere Stream music on your smartphone, tablet or computer
+
+     
     It’s as yeezy as Kanye West. Search Know what you want to listen to? Just search and hit play. Browse Check out the
     latest charts, brand new releases and great playlists for right now. Discover Enjoy new music every Monday with your
     own personal playlist. Or sit back and enjoy Radio.
