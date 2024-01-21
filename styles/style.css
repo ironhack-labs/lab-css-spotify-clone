@@ -20,8 +20,8 @@ header {
     display: flex;
     align-items: center;
     justify-content: space-between;
-    margin-left: 40px;
-    margin-right: 40px;
+    margin-left: 2%;
+    margin-right: 2%;
 }
  nav ol {
     display: flex;
@@ -31,7 +31,14 @@ header {
 }
 
 header img {
-    height: 70px;
+    height: 50%;
+}
+
+@media (max-width: 650px) {
+    nav ol {
+        display: none;
+    }
+    
 }
 
 /* MAIN SECTION - LANDING */
@@ -53,6 +60,19 @@ h1 {
     margin-top: 0;
     margin-bottom: 0;
     padding-bottom: 40px;
+    animation: appear 0.9s linear;
+}
+
+@keyframes appear {
+    0% {
+        padding-top: 225px;
+        opacity: 0.5;
+    }
+
+    100% {
+        padding-top: 250px;
+        opacity: 1;
+    }
 }
 
 #main-section p {
@@ -61,6 +81,17 @@ h1 {
     margin: 0;
     font-weight: 300;
     font-size: 2rem;
+}
+
+@media (max-width: 650px) {
+    h1 {
+        font-size: 4rem;
+    }
+    #main-section p {
+        font-size: 1.4rem;
+        padding: 0 6% 0 6%;
+
+    }
 }
 
 /* ARTICLES */
@@ -73,6 +104,15 @@ h1 {
     margin-right: 20px;
     margin-top: 50px;
     margin-bottom: 130px;
+}
+
+@media (max-width: 650px) {
+    #line-articles {
+        flex-direction: column;
+    }
+    h2 {
+        font-size: 1.3em;
+    }
 }
 
 h2 {
@@ -98,6 +138,13 @@ article {
 article img {
     width: 140px;
     text-align: center;
+}
+
+article img:hover {
+    width: 135px;
+    transition-property: width;
+    transition-duration: 0.1;
+    transition-timing-function: ease-in;
 }
 
 h3 {
@@ -137,6 +184,18 @@ article p {
     'search-div image'
     'browse-div image'
     'discover-div image';
+}
+
+@media (max-width: 650px) {
+    #howto-section {
+        background-image: none;
+        display: flex;
+        flex-direction: column;
+    }
+    #howto-section img {
+        display: none;
+    }
+
 }
 
 #howto-section h3 {
