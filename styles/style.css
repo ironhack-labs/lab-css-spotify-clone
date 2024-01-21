@@ -6,3 +6,113 @@ Green: #00B172
 White: #FFF
 
 */
+body {
+    font-family: sans-serif;
+}
+
+.heading {
+    display: flex;
+    justify-content: space-between;
+}
+
+.heading img {
+    width: 100px;
+    height: 50px;
+}
+
+.navbar {
+    display: flex;
+    flex-direction: row;
+    flex-wrap: nowrap;
+    justify-content: space-evenly;
+}
+
+.navbar li {
+    list-style: none;
+    padding: 10px;
+}
+
+.content {
+    display: flex;
+    background-image: url("../images/landing.jpg");
+    padding: 25px;
+    background-repeat: no-repeat;
+    background-size: cover;
+    width: 100%;
+    height: 500px;
+    color: white;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+}
+
+.content p {
+    margin: 0;
+}
+
+.line1 {
+    font-size: 45px;
+}
+
+.line2 {
+    font-size: 20px;
+    padding: 20px 80px 0px 80px;
+    text-align: justify;
+}
+
+.line3 {
+    font-size: 25px;
+    padding: 0px 80px 0px 80px;
+}
+
+.link-heading{
+    text-align: center;
+    font-size: 30px;
+}
+.links {
+    display: flex;
+    justify-content: center;
+}
+
+.link-box{
+    padding: 30px;
+    align-items: center;
+    text-align: center; 
+    color: #1A1A1A;   
+}
+.link-box h3{
+    color: #00B172;
+}
+.links img{
+    width: 50px;
+    height: 50px;
+}
+.songSearch{
+    display: flex;
+    background-color: #00B172;
+    justify-content:space-around;
+    padding: 40px;
+    color: white;
+}
+.songContent{
+    /* width: 50%; */
+}
+.songSearch img{
+width:200px;
+height: auto;
+}
+.songContent p{
+text-align:left;
+}
+.songSearch h3{
+    text-decoration: underline;
+}
+
+.logo-white{
+    align-self: center;
+}
+.logo-white img{
+    width: 50px;
+    height: 50px;
+   
+}
