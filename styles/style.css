@@ -17,6 +17,9 @@ White: #FFF
 
 body{
     font-size: 16px;
+    letter-spacing: 0.2px;
+    color: #1A1A1A;
+    
 }
 /*PINK SECTION*/
 .nav-bar{
@@ -26,7 +29,8 @@ body{
     justify-content: space-between;
     width: 100%;
     background-color: #fff;
-    padding: 15px;
+    padding: 0px 20px;
+    height: 60px;
 }
 
 .nav-bar ul {
@@ -37,10 +41,11 @@ body{
 
 .nav-bar li {
     margin-right: 15px;
-    font-weight: 400;
+    font-weight: 300;
+    font-size: 15px;
 }
 .logo {
-    max-width: 100px; /* Adjust the max-width as needed */
+    max-width: 130px; /* Adjust the max-width as needed */
     height: auto;
 }
 
@@ -49,7 +54,7 @@ body{
     background-size: cover;
     background-position: center;
     background-repeat: no-repeat;
-    height: 600px;
+    height: 525px;
     color: #fff;
     display: flex;
     flex-direction: column;
@@ -57,36 +62,43 @@ body{
     justify-content: center;
     text-align: center;
 }
-h4{
-    color: #00B172;
-}
+
 
 h1{
-    font-size: 70px;
+    font-size: 46px;
     font-weight: 400;
     margin-bottom: 20px;
 }
 h2{
-    font-size: 1.5em;
     font-weight: 200;
+    font-size: 18px;
 }
 
 h3{
     text-align: center;
 }
 
+h4{
+    color: #00B172;
+}
 
 /*RED SECTION*/
 
+
+.red{
+    height: 315px;
+}
 .red h2{
     text-align: center;
-    margin-top: 20px;
+    margin-top: 28px;
+    height: 35px;
 }
 
 .red h2 span{
     font-weight: 600;
-    font-size: 20px;
-    border-bottom: 2px solid #00B172;
+    font-size: 22px;
+    border-bottom: 3px solid #00B172;
+    padding-bottom: 3px;
 }
 
 .big-icon-container{
@@ -94,29 +106,27 @@ h3{
     justify-content: space-around;
     align-items: center;
     text-align: center;
-    padding: 30px 10px;
+    padding: 40px 10px;
 }
 
 .icon-container{
     display: flex;
     flex-direction: column;
     align-items: center;
-    justify-content: space-between;
-    border: 1px solid green;
-    width: 150px;
-    height: 150px;
+    justify-content: space-around;
+    width:200px;
+    height: 180px;
     text-align: center;  
-    padding: 0 16px;
+    padding: 0 20px;
 }
 
 .icon-text{
     color: #00B172;
-    font-size: 16px;
+    font-size: 18px;
     font-weight: 600;
 }
 .icon-img {
-    width: 45%;
-    height: 50px;
+    height: 70px;
 }
 
 .icon-container p {
@@ -133,19 +143,19 @@ h3{
     height: 500px;
     background-image: url("../images/spotify-icon-white.png");
     background-position: center;
-    background-size: 100px;
+    background-size: 80px;
     background-repeat: no-repeat;
-    align-items: center;
+
     justify-content: space-between;
     max-width: 1200px;
-    margin: 0 auto;
+    margin:  auto 20px;
 }
 
-.flex-container{
+/* .flex-container{
     display: flex;
     align-items: center;
     justify-content: center;
-}
+} */
 
 .left-column, .right-column {
     flex: 1;
@@ -154,34 +164,40 @@ h3{
   }
   
   img.green-item {
-    height: 400px;
-    margin-left:  auto;
-    display: block;
+    height: 360px;
+    margin-top: 25px;
   }
 
   .green-list{
     list-style: none;
     color: #fff;
-    padding: 0;
+    padding: 10px 0;
     font-weight: 100;
     margin: 0;
+    font-size: 13px;
+    width: 200px;
+  }
+
+  .green-list li{
+    line-height: 20px;
   }
 
   .bold-list{
-    font-weight: 500;
+    font-weight: 400;
     margin: 20px 0;
+    font-size: 16px;
   }
 
   .left-column{
     text-align: left;
-    padding-right: 200px;
   }
 
   .bold-list-title{
-    font-weight: 500;
+    font-weight: 400;
     position: relative;
     display: inline-block;
-    font-size: 20px;
-    border-bottom: 2px solid #fff;
+    font-size: 22px;
+    border-bottom: 2.5px solid #fff;
     padding: 3px;
+    color: #fff;
   }
