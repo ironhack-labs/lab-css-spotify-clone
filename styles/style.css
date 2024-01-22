@@ -27,6 +27,8 @@ nav {
     height: 40px;
     padding: 10px 20px;
     display: flex;
+    flex-direction: row;
+    align-items: center;
     justify-content: space-between;
 }
 
@@ -36,12 +38,14 @@ nav img {
 
 nav ul {
     height: 100%;
-    display: flex;
     list-style: none;
+    display: flex;
+    align-items: center;
+    justify-content: space-evenly;
 }
 
 nav ul li {
-    align-items: center;
+    margin-left: 24px;
 }
 
 /*@@@@@@@@@@@@@@@ HERO @@@@@@@@@@@@@@@*/
