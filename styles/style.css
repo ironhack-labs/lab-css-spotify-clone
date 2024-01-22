@@ -21,15 +21,18 @@ body {
 /* ----------------------------- NavBar Section ---------------------------- */
 
 nav {
+    position: fixed;
+    height: 100px;
+    width: 100%;
     display: flex;
     align-items: center;
     justify-content: space-between;
-    padding: 0 40px;
-    height: 100px;
+    background-color: #fff;
 }
 
 .logo-container {
     justify-self: start;
+    padding: 0 40px;
 }
 
 .logo {
@@ -39,6 +42,7 @@ nav {
 .nav-bar-list {
     display: flex;
     list-style: none;
+    padding: 0 40px;
 }
 
 .nav-bar-list li {
@@ -55,7 +59,7 @@ nav {
 /* ----------------------------- Header Section ---------------------------- */
 
 .header {
-    height: 725px;
+    height: 95vh;
     background-image: url(/images/landing.jpg);
     background-position: center;
     background-repeat: no-repeat;
