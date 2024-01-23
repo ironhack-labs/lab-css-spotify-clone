@@ -1,8 +1,187 @@
-/*
-Colors:
+/*@@@@@@@@@@@@@@@ GLOBAL @@@@@@@@@@@@@@@*/
 
-Text: 1A1A1A
-Green: #00B172
-White: #FFF
+body {
+    font-family: "Montserrat", sans-serif;
+    font-size: 16px;
+    max-width: 1024px;
+    margin: 0 auto;
+}
 
-*/
+/*@@@@@@@@@@@@@@@ NAV BAR @@@@@@@@@@@@@@@*/
+
+nav {
+    height: 60px;
+    padding: 10px 20px;
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: space-between;
+}
+
+nav img {
+    height: 90%
+}
+
+nav ul {
+    height: 100%;
+    list-style: none;
+    display: flex;
+    align-items: center;
+    justify-content: space-evenly;
+    font-size: 1em;
+}
+
+nav ul li {
+    margin-left: 24px;
+}
+
+/*@@@@@@@@@@@@@@@ HERO @@@@@@@@@@@@@@@*/
+
+#hero {
+    background-image: url('/images/landing.jpg');
+    background-size: cover;
+    background-position: center center;
+    background-repeat: no-repeat;
+    height: 600px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    text-align: center;
+}
+
+h1 {
+    font-weight: 600;
+    font-size: 3.5em;
+    margin: 24px auto;
+}
+
+#hero p {
+    font-size: 1.3em;
+    margin: 0 240px;
+    padding-bottom: 60px;
+}
+
+/*@@@@@@@@@@@@@@@ FEATURES @@@@@@@@@@@@@@@*/
+
+#features {
+    height: 428px;
+}
+
+#features h2 {
+    text-align: center;
+    text-decoration: underline;
+    text-decoration-color: #00B172;
+    text-underline-offset: 12px;
+    text-decoration-thickness: 3px;
+    font-weight: 600;
+    font-size: 1.7em;
+    margin-top: 32px;
+}
+
+#card-container {
+    display:  flex;
+    flex-direction: row;
+    justify-content: space-evenly;
+    align-items: center;
+    height: 100%;
+}
+
+#features h3 {
+    color: #00B172;
+    font-size: 1.3em;
+    text-align: center;
+}
+
+.card {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    width: 240px;
+}
+
+#features img {
+    height: 80px;
+}
+
+.card p {
+    font-family: sans-serif;
+    text-align: center;
+    font-size: 1.2em;
+    font-weight: lighter;
+    line-height: 1.4em;
+    height: 140px;
+    margin: 0;
+    width: 90%;
+    color: #1A1A1A;
+}
+
+/*@@@@@@@@@@@@@@@ HOW-TO @@@@@@@@@@@@@@@*/
+
+#how-to {
+    background-color: #00B172;
+    color: #FFF;
+    background-image: url('/images/spotify-icon-white.png');
+    background-position: center center;
+    background-repeat: no-repeat;
+    background-size: 100px;
+    display: flex;
+    flex-direction: row;
+    align-items: flex-end;
+    justify-content: space-between;
+    align-content: flex-end;
+    margin: 0 24px 24px 24px;
+    height: 550px;
+    padding: 0px 80px 60px 80px;
+}
+
+#how-to h2 {
+    text-decoration: underline;
+    text-decoration-color: FFF;
+    text-underline-offset: 12px;
+    text-decoration-thickness: 3px;
+    font-weight: 600;
+    font-size: 1.7em;
+}
+
+#how-to img {
+    width: 260px;
+}
+
+#left-column,
+#right-column {
+    flex: 1;
+}
+
+#right-column {
+    display: flex;
+    justify-content: flex-end;
+    align-items: end;
+    height: 100%;
+}
+
+#left-column {
+    align-items: end;
+}
+
+#left-column h2 {
+    margin-bottom: 48px;
+}
+
+#left-column h3 {
+    margin-top: 32px;
+    margin-bottom: 24px;
+    font-size: 1.4em;
+}
+
+#left-column p {
+    max-width: 266px;
+    line-height: 1.6em;
+    margin-bottom: 0;
+}
+
+/*@@@@@@@@@@@@@@@ CLASSES @@@@@@@@@@@@@@@*/
+
+.white-text {
+    color: rgb(255,255,255);
+}
