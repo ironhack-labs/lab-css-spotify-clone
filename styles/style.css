@@ -19,72 +19,93 @@ body {
 
 /*header*/
 
-header {
-    position: fixed;
-    top: 10px;
-    left: 10px;
-    width: 100%;
-    background-color: #FFF;
+.navbar img {
+    max-width: 170px;
+    padding-left: 30px;
 
-}
-
-.logo img {
-    max-width: 10rem;
-
-
-}
-
-.logo {
-    padding-top: 5px;
 }
 
 .navbar {
-
-    margin: 0;
     display: flex;
-    justify-content: flex-end;
-}
-
-.navbar a {
-    display: block;
-    padding: 1em;
-    margin-top: 0;
-}
-
-.header-content {
-    display: flex;
-    align-items: center;
     justify-content: space-between;
-    width: 100%;
-    height: 80px;
+    align-items: center;
+    font-size: 21px;
+
+
 }
+
+.navbar ul {
+    display: flex;
+    position: relative;
+    justify-content: right;
+    list-style: none;
+    gap: 30px;
+    padding: 0px 30px 0px 30px;
+
+}
+
+
 
 /*hero photo*/
 .hero-photo {
     background-image: url("../images/landing.jpg");
     background-repeat: no-repeat;
     background-size: cover;
-    background-position: center center;
+    background-position: center;
     width: 100%;
     height: 80vh;
-    margin-top: 80px;
-    display: flex;
-    align-items: center;
-    justify-content: center;
-
 }
 
-.hero-photo h1 {
-    font-size: 3.5rem;
-    font-weight: 600;
-    margin-bottom: 1.5rem;
+.hero-photo,
+.text p {
+    font-size: 85px;
+    font-weight: 300;
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    text-align: center;
     color: #FFF;
 }
 
 .hero-photo p {
-    max-width: 40ch;
-    text-align: center;
-    font-size: 1.25rem;
-    margin: 0 auto;
-    color: #FFF;
+    font-size: 28px;
+    top: 70%;
+}
+
+/*section grid container*/
+
+.grid-container {
+    display: flex;
+    flex-direction: column;
+    height: 500px;
+    padding: 0 20px 100px 20px;
+}
+
+.grid-container h3 {
+    font-size: 40px;
+    font-weight: 450;
+    padding-bottom: 5px;
+    border-bottom: 5px solid #00B172;
+
+}
+
+.grid-items img {
+    max-width: 150px;
+
+}
+
+.grid-items {
+    display: flex;
+    align-items: baseline;
+}
+
+.grid-items article {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    max-width: 400px;
+    justify-content: space-between;
+    padding-top: 50px;
+    padding-right: 80px;
 }
