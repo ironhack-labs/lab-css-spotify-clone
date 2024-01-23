@@ -141,24 +141,29 @@ h1 {
     background-image: url('/images/spotify-icon-white.png');
     background-position: center center;
     background-repeat: no-repeat;
-    background-size: 80px;
+    background-size: 100px;
     display: flex;
     flex-direction: row;
-    align-items: center;
+    align-items: flex-end;
     justify-content: space-between;
-    padding: 20px;
+    align-content: flex-end;
+    margin: 0 24px 24px 24px;
+    height: 600px;
+    padding: 0px 80px 60px 80px;
     /* make it fit content see if it increases height automatically */
 }
 
 #how-to h2 {
     text-decoration: underline;
     text-decoration-color: FFF;
-    text-underline-offset: 8px;
+    text-underline-offset: 12px;
     text-decoration-thickness: 3px;
+    font-weight: 600;
+    font-size: 1.6em;
 }
 
 #how-to img {
-    width: 180px;
+    width: 260px;
 }
 
 #left-column,
@@ -168,7 +173,22 @@ h1 {
 
 #right-column {
     display: flex;
-    justify-content: center;
+    justify-content: flex-end;
+    align-items: end;
+    height: 100%;
+}
+
+#left-column {
+    align-items: end;
+}
+
+#left-column h3 {
+    margin-top: 60px;
+    margin-bottom: 32px;
+}
+
+#left-column p {
+    margin-bottom: 0;
 }
 
 /*@@@@@@@@@@@@@@@ CLASSES @@@@@@@@@@@@@@@*/
