@@ -117,6 +117,49 @@ margin-bottom: 0;
 }
 
 .last {
-background-color: rgb(0, 177, 114);
-
+display: flex;
+flex-direction: column;
+text-align: left;
+color: white;
+padding-bottom: 40px;
+padding-top: 10px;
 }
+
+.kanye {
+display: inline;
+text-decoration: underline; 
+text-decoration-color: white; 
+color: white;
+text-decoration-thickness: 3px;
+text-underline-offset: 8px; 
+}
+
+.last-section h3 {
+color: white;
+}
+
+.spotifylogo {
+position: absolute;
+display: inline-block;
+justify-content: center;
+max-width: 30%;
+max-height: 20%;
+padding-top: 200px;
+padding-bottom: 50px;
+}
+
+.kanyewest {
+position: absolute;
+display: inline-block;
+align-items: right; 
+max-width: 23%;
+padding-top: 20px;
+}
+
+.last-section {
+display: grid;
+grid-template-columns: 1fr 1fr 1fr;
+background-color: rgb(0, 177, 114);
+}
+
+
