@@ -1,8 +1,197 @@
 /*
 Colors:
 
-Text: 1A1A1A
+Text: #1A1A1A
 Green: #00B172
 White: #FFF
 
-*/
+reset browser default styles */
+* {
+	margin: 0;
+	padding: 0;
+	box-sizing: border-box;
+}
+
+html,
+body {
+	/* font-family: Arial, Helvetica, sans-serif; */
+	font-size: 10px; /* to use REM for font sizes */
+	line-height: 1.2em; /* 1.2 to 1.45em */
+	font-weight: 400; /* 400 regular ; 700 bold */
+	font-family: sans-serif;
+	color: #1a1a1a;
+}
+
+.nav-bar {
+	font-size: 1.8rem;
+	line-height: 2em;
+	height: 3em;
+	background-color: #fff;
+	border: 2px solid red;
+
+	display: flex;
+	justify-content: space-between;
+	align-items: center; /* so its in the middle of height */
+
+	position: fixed;
+	top: 0;
+	width: 100%; /* to stretch across the viewport, inaczej za krotki */
+}
+
+.nav-bar ul {
+	list-style: none;
+	text-decoration: none; /* removes dots */
+	display: flex;
+	flex-direction: row; /* its default anyway */
+	align-items: center;
+	justify-content: space-between;
+	gap: 2.5rem;
+	border: 2px solid green;
+	padding: 0 1rem 0 1rem;
+}
+
+.nav-bar a {
+	text-decoration: none; /* removes link underline */
+	color: #1a1a1a;
+}
+
+.logo {
+	display: flex;
+	align-items: center;
+	border: 2px solid green;
+	padding: 0.5rem 1rem 0.5rem 1rem;
+}
+
+.logo img {
+	width: 120px;
+	height: auto;
+}
+
+.header {
+	background-image: url("../images/landing.jpg");
+	background-size: cover;
+	background-repeat: no-repeat;
+	background-position: 3em top center;
+	height: 100vh;
+	border: 2px solid rgb(255, 217, 0);
+
+	display: flex;
+	text-align: center;
+	justify-content: center; /* Center horizonatally */
+	align-items: center; /* Center vertically */
+	color: #fff;
+}
+
+h1 {
+	font-size: 6rem;
+	color: #fff;
+	padding-bottom: 20px;
+}
+.header-text-box {
+	border: 2px solid red;
+	line-height: 4rem;
+}
+
+.header p {
+	font-size: 2.5rem;
+	color: #fff;
+}
+
+h2 {
+	color: #1a1a1a;
+	font-size: 4rem;
+	line-height: normal;
+	text-decoration: underline;
+	text-decoration-color: #00b172;
+	text-align: center;
+	border: 2px solid red;
+	padding-top: 2rem;
+	padding-bottom: 2rem;
+}
+
+.elements-container {
+	display: flex;
+	flex-direction: row; /* its default anyway */
+	justify-content: space-evenly;
+	align-self: baseline;
+	flex-wrap: wrap;
+	line-height: 2rem;
+	border: 2px solid red;
+	padding-top: 20px;
+	padding-bottom: 20px;
+}
+.element-box {
+	font-size: 2rem;
+	text-align: center;
+	border: 2px solid green;
+	line-height: 2.5rem;
+	width: 23rem;
+}
+.element-box img {
+	width: 13rem;
+	height: 11rem;
+	border: 2px solid red;
+}
+
+.element-box h3 {
+	line-height: 4rem;
+	color: #00b172;
+}
+
+.text-section {
+	border: 2px solid red;
+	width: 50%;
+	height: 60rem;
+}
+
+.text-section h2 {
+	font-size: 4rem;
+	color: #fff;
+	text-decoration: underline;
+	text-decoration-color: #fff;
+	border: 2px solid goldenrod;
+	text-align: left;
+}
+
+.text-section h3 {
+	font-size: 2rem;
+	line-height: 6rem;
+	border: 2px solid black;
+}
+
+.text-section p {
+	font-size: 1.7rem;
+	line-height: 2.5rem;
+	width: 45%;
+	border: 2px solid red;
+}
+.image-section {
+	border: 2px solid red;
+}
+
+.image-section img {
+	height: 55vh;
+}
+
+#spotify-icon {
+	width: 12vh;
+	min-width: 50px;
+	position: absolute;
+	border: 2px solid red;
+
+	/* Using negative margins equal to half of that width and height, after you’ve absolutely positioned it at 50% / 50% will center it with great cross-browser support: */
+	top: 50%;
+	left: 50%;
+	margin: -50px 0 0 -50px;
+}
+
+.sections-container {
+	background-color: #00b172;
+	display: flex;
+	position: relative; /* so that logo can be positioned absolutely to it */
+	justify-content: space-evenly;
+	align-items: center;
+	color: #fff;
+	margin: 2rem;
+	height: 80vh;
+}
