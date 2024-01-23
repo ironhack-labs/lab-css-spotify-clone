@@ -51,15 +51,14 @@ body {
     background-image: url("../images/landing.jpg");
     background-repeat: no-repeat;
     background-size: cover;
-    background-position: center;
+    background-position: center center;
     width: 100%;
-    height: 80vh;
+    height: 100vh;
+    color: white;
 }
 
-.hero-photo,
-.text p {
-    font-size: 85px;
-    font-weight: 300;
+.text,
+.hero-photo p {
     position: absolute;
     top: 50%;
     left: 50%;
@@ -68,8 +67,14 @@ body {
     color: #FFF;
 }
 
+.text {
+    font-size: 85px;
+    font-weight: 550;
+}
+
 .hero-photo p {
     font-size: 28px;
+    font-weight: 100;
     top: 70%;
 }
 
@@ -80,6 +85,7 @@ body {
     flex-direction: column;
     height: 500px;
     padding: 0 20px 100px 20px;
+    align-items: center;
 }
 
 .grid-container h3 {
@@ -107,5 +113,23 @@ body {
     max-width: 400px;
     justify-content: space-between;
     padding-top: 50px;
-    padding-right: 80px;
+    padding-right: 120px;
+
 }
+
+.grid-items h5 {
+    color: #00B172;
+    font-size: 40px;
+    text-align: center;
+    font-weight: 700;
+
+}
+
+.grid-items p {
+    font-size: 25px;
+    color: #1A1A1A;
+    text-align: center;
+    max-width: 300px;
+}
+
+/*section green*/
