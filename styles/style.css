@@ -1,18 +1,4 @@
-/*
-Colors:
-
-Text: 1A1A1A
-Green: #00B172
-White: #FFF
-
-*/
-
 /*@@@@@@@@@@@@@@@ GLOBAL @@@@@@@@@@@@@@@*/
-
-* {
-   /*  padding: 0;
-    margin: 0;  */
-}
 
 body {
     font-family: "Montserrat", sans-serif;
@@ -34,8 +20,6 @@ nav {
 
 nav img {
     height: 90%
-        /* make it look smaller */
-
 }
 
 nav ul {
@@ -76,8 +60,6 @@ h1 {
     font-size: 1.3em;
     margin: 0 240px;
     padding-bottom: 60px;
-    min-width: 300px; /* to guarantee readability when page is resized to a very narrow size */
-
 }
 
 /*@@@@@@@@@@@@@@@ FEATURES @@@@@@@@@@@@@@@*/
@@ -93,7 +75,7 @@ h1 {
     text-underline-offset: 12px;
     text-decoration-thickness: 3px;
     font-weight: 600;
-    font-size: 1.6em;
+    font-size: 1.7em;
     margin-top: 32px;
 }
 
@@ -107,7 +89,7 @@ h1 {
 
 #features h3 {
     color: #00B172;
-    font-size: 1.4em;
+    font-size: 1.3em;
     text-align: center;
 }
 
@@ -119,7 +101,6 @@ h1 {
 }
 
 #features img {
-    width: auto;
     height: 80px;
 }
 
@@ -150,9 +131,8 @@ h1 {
     justify-content: space-between;
     align-content: flex-end;
     margin: 0 24px 24px 24px;
-    height: 600px;
+    height: 550px;
     padding: 0px 80px 60px 80px;
-    /* make it fit content see if it increases height automatically */
 }
 
 #how-to h2 {
@@ -161,7 +141,7 @@ h1 {
     text-underline-offset: 12px;
     text-decoration-thickness: 3px;
     font-weight: 600;
-    font-size: 1.6em;
+    font-size: 1.7em;
 }
 
 #how-to img {
@@ -184,14 +164,19 @@ h1 {
     align-items: end;
 }
 
+#left-column h2 {
+    margin-bottom: 48px;
+}
+
 #left-column h3 {
-    margin-top: 60px;
-    margin-bottom: 32px;
+    margin-top: 32px;
+    margin-bottom: 24px;
+    font-size: 1.4em;
 }
 
 #left-column p {
-    max-width: 280px;
-    line-height: 1.5em;
+    max-width: 266px;
+    line-height: 1.6em;
     margin-bottom: 0;
 }
 
@@ -199,17 +184,4 @@ h1 {
 
 .white-text {
     color: rgb(255,255,255);
-}
-
-/* .underline {
-    text-decoration: underline;
-    text-decoration-color: #00B172;
-    text-underline-offset: 8px;
-} */
-
-/*@@@@@@@@@@@@@@@ TO REMOVE @@@@@@@@@@@@@@@*/
-
-#spacer {
-    height: 60px;
-    background-color: rgb(50,54,57);
 }
