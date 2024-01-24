@@ -10,7 +10,7 @@ html,
 body {
     font-family: "Roboto";
     size: 10px;
-    line-height: 3.5em;
+    line-height: 1.8em;
     font-weight: 400;
     margin: 0 auto;
     padding: 0;
@@ -83,7 +83,6 @@ body {
 .grid-container {
     display: flex;
     flex-direction: column;
-    height: 500px;
     padding: 0 20px 100px 20px;
     align-items: center;
 }
@@ -111,7 +110,6 @@ body {
     flex-direction: column;
     align-items: center;
     max-width: 400px;
-    justify-content: space-between;
     padding-top: 50px;
     padding-right: 120px;
 
@@ -122,6 +120,7 @@ body {
     font-size: 40px;
     text-align: center;
     font-weight: 700;
+    padding-bottom: 0px;
 
 
 }
@@ -131,6 +130,7 @@ body {
     color: #1A1A1A;
     text-align: center;
     max-width: 300px;
+
 
 }
 
@@ -152,9 +152,12 @@ body {
     font-size: 3rem;
     margin: 40px 0 0 0;
     text-align: center;
-    border-bottom: 5px solid #ffffff;
     padding-bottom: 5px;
     font-weight: 450;
+}
+
+hr {
+    border: 3px solid white;
 }
 
 .green article {
