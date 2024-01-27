@@ -6,3 +6,203 @@ Green: #00B172
 White: #FFF
 
 */
+
+
+body {
+    font-family: 'Roboto', sans-serif;
+    margin: 0;
+    
+}
+
+/* -------------- NAVBAR ------------------- */
+
+.navbar {
+    position: fixed;
+    display: flex;
+    padding: 1rem;
+    justify-content: space-between;
+    box-sizing: border-box;
+    top: 0;
+    right: 0;
+    left: 0;
+    background-color: white;
+}
+
+.lista-nav {
+    list-style: none;
+    box-sizing: border-box;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+    align-content: center;
+    padding: 0;
+    width: 20rem;
+
+}
+
+.navbar li {
+    text-align: center;
+    float: right;
+
+}
+
+.navbar a {
+    text-decoration: none;
+
+}
+
+.nav-lista-elemento:hover a {
+    text-decoration: none;
+    color: #00B172;
+    font-weight: bold;
+}
+
+.img-navbar {
+    width: 20rem;
+}
+
+/* -------------- HEADER ------------------- */
+
+.main-title {
+    font-size: 5rem;
+    margin: 8rem 0 0 0;
+    color: white;
+    height: 60rem;
+    background-image: url(/images/landing.jpg);
+    background-repeat: no-repeat;
+    background-position:center;
+    background-size: cover;
+    display: flex;
+    flex-direction: column;
+    flex-wrap: wrap;
+    align-content: center;
+    justify-content: center;
+    
+}
+
+.main-title p {
+    font-size: 1.5rem;
+    text-align: center;
+    font-weight: 100;
+    margin: 3rem 0 0 0;
+}
+
+.main-title :last-child {
+    margin: 0.5rem 0 0 0;
+}
+
+/* -------------- SECTION 1 ------------------- */
+
+.section-1 h2 {
+    margin: 3rem 0;
+    text-align: center;
+    font-size: 2.5rem;
+    padding-top: 2rem;
+}
+
+.section-1 span {
+    border-bottom: 4px solid #00B172;
+    padding-bottom: 0.3rem;
+}
+
+.container {
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    padding: 1rem 1rem 6rem 1rem;
+
+}
+
+.container div {
+    display: flex;
+    flex-direction: column;
+    justify-content: end;
+    align-items: center;
+}
+
+.container img {
+    width: 15rem;
+    padding: 1rem 1rem 2rem 1rem;
+}
+
+.container h3 {
+    font-size: 1.5rem;
+    color: #00B172;
+}
+
+
+/* -------------- SECTION 2 ------------------- */
+
+.container-yeeze {
+    background-color: #00B172;
+    padding: 2rem 4rem;
+    color: white;
+    display: grid;
+    grid: repeat(4, 1fr) / 2fr 1fr 2fr;
+    height: 50rem;
+}
+
+.container-yeeze :nth-child(1) {
+    grid-auto-flow: column;
+    grid-column: 1/3;
+    grid-row: 1/2;
+}
+
+.container-yeeze :nth-child(2) {
+    grid-auto-flow: column;
+    grid-column: 1/2;
+    grid-row: 2/3;
+}
+
+.container-yeeze :nth-child(3) {
+    grid-auto-flow: column;
+    grid-column: 1/2;
+    grid-row: 3/4;
+}
+
+.container-yeeze :nth-child(4) {
+    grid-auto-flow: column;
+    grid-column: 1/2;
+    grid-row: 4/5;
+    
+}
+
+.container-yeeze :nth-child(5) {
+    grid-auto-flow: column;
+    grid-column: 3/4;
+    grid-row: 1/5;
+    display: grid;
+    justify-content: center;
+    align-items: center;
+}
+
+.container-yeeze :nth-child(6) {
+    grid-auto-flow: column;
+    grid-column: 2/3;
+    grid-row: 2/4;
+    display: grid;
+    justify-content: center;
+    align-items: center;
+}
+
+.container-yeeze h2 {
+    text-align: left;
+    font-size: 2.5rem;
+    padding-top: 2rem;
+}
+
+.section-2 span {
+    border-bottom: 4px solid white;
+    padding-bottom: 0.4rem;
+    
+}
+
+
+.spotify-icon-white {
+    width: 10rem;
+    height: auto;
+}
+
+.spotify-app {
+    width: 20rem;
+    height: auto;
+}
