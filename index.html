@@ -4,15 +4,80 @@
     <meta charset="UTF-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <meta http-equiv="X-UA-Compatible" content="ie=edge" />
+    <link rel="stylesheet" href="./styles/style.css" />
+    <link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Open Sans"/>
     <title>Spotify Clone</title>
-    <!-- don't forget to link your styles -->
   </head>
   <body>
-    Premium Discover Help Download Music for everyone. Spotify is now free on mobile, tablet and computer. Listen to the
-    right music, wherever you are. What’s on Spotify? Millions of Songs There are millions of songs on Spotify HD Music
-    Listen to music as if you were listening live Stream Everywhere Stream music on your smartphone, tablet or computer
-    It’s as yeezy as Kanye West. Search Know what you want to listen to? Just search and hit play. Browse Check out the
-    latest charts, brand new releases and great playlists for right now. Discover Enjoy new music every Monday with your
-    own personal playlist. Or sit back and enjoy Radio.
+    <!-- 
+      Navigation bar (logo and menu)
+      background image,  h1 & p        
+    -->
+    <header class="header">
+      <nav class="nav">
+          <img class="nav-logo" src="./images/spotify-logo.png" alt="spotify-logo">
+          <ul class="nav-menu">
+            <li class="nav-menu__li"><a href="#premium">Premium</a></li>
+            <li class="nav-menu__li"><a href="#discover">Discover</a></li>
+            <li class="nav-menu__li"><a href="#help">Help</a></li>
+            <li class="nav-menu__li"><a href="#download">Download</a></li>
+          </ul>
+        </div>
+      </nav>
+      <div class="header__text">
+        <h1 class="header__h1">Music for everyone.</h1>
+        
+        <p class="header__p">
+          Spotify is now free on mobile, tablet and computer.
+        </p>
+        <p class="header__p">
+         Listen to the right music, wherever you are.
+        </p>
+      </div>
+    </header>
+
+    <!-- section: h2, flex container, flex-items .. -->
+    <section class="section">
+      <h3 class="section__h3">What’s on Spotify?</h3>
+      <div class="section__container">
+        <div class="item">
+          <img class="item-img" src="./images/music-icon.png" alt="speaker" />
+          <h6>Milions of Songs</h6>
+          <p>Tere are millions of songs on Spotify</p>
+        </div>
+        <div class="item">
+          <img class="item-img" src="./images/high-quality-icon.png" alt="frequencies icon" />
+          <h6>HD Music</h6>
+          <p>Listen to music as if you were listening live</p>
+        </div>
+        <div class="item">
+          <img class="item-img" src="./images/devices-icon.png" alt="electronic devices icon" />
+          <h5>Stream Everywhere</h5>
+          <p>Stream music on your smartphone, tablet or computer</p>
+        </div>
+      </div>
+    </section>
+
+    <!-- article: The green section-->
+    <article class="article-green">
+      <section class="article-green__section-text">
+        <h5 class="article-green__h5">It’s as yeezy as Kanye West.</h5>
+        <h6 class="article-green__h6">Search</h6>
+        <p class="article-green__p">Know what you want to listen to? Just search and hit play.</p>
+        <h6 class="article-green__h6">Browse</h6>
+        <p class="article-green__p">
+          Check out the latest charts, brand new releases and great playlists
+          for right now.
+        </p>
+        <h6 class="article-green__h6">Discover</h6>
+        <p class="article-green__p">
+          Enjoy new music every Monday with your own personal playlist. Or sit
+          back and enjoy Radio.
+        </p>
+      </section>
+      <div id="kayne-wrapper">
+        <img id="kayne" src="./images/spotify-app.jpg" alt="spotify-app screenshot" />
+      </div>
+    </article>
   </body>
 </html>
