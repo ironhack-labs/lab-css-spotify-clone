@@ -1,8 +1,165 @@
-/*
-Colors:
+:root {
+   --green-color: #00B172;
+}
 
-Text: 1A1A1A
-Green: #00B172
-White: #FFF
+* {
+    margin: 0;
+    box-sizing: border-box;
+    font-size: 10px;
+}
 
-*/
+body {
+    font-family: "Open Sans", sans-serif;
+}
+/*  =========================================
+    header = Navbar + background-image + Text         
+    =========================================  */
+.nav {
+    position: fixed;
+    top: 0;
+    left: 0;
+    background-color: white;
+    display: flex;
+    height: 40px;
+    width: 100%;
+    padding: 5px;
+    justify-content: space-between;
+}
+
+.nav-menu {
+    align-self: center;   
+}
+
+.nav-logo {
+    width: auto;
+    justify-self: flex-start;
+}
+
+.nav li {
+    list-style: none;
+    display: inline-block;
+    margin: 5px;
+}
+
+a:link {
+    text-decoration: none;
+    color: gray;
+}
+
+.header {
+    background-image: url("../images/landing.jpg");
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    height: 550px;
+    width: 100%;
+    color: white;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+.header__text {
+    text-align: center;
+    width: 60%;
+}
+
+.header__h1 {
+ font-size: 3.5rem;   
+ font-weight: bolder;
+ text-align: center;
+ margin: 2rem;
+ letter-spacing: .07em;
+}
+
+.header__p {
+    font-size: 1.2rem;
+    margin-bottom: 3px;
+}
+
+/*  =========================================
+    section: h3 question + 3 boxes-answer          
+    =========================================  */
+
+.section {
+    text-align: center;
+    padding: 20px 5px;
+}
+.section__h3 {
+    font-size: 2.5em;
+    text-decoration: underline;
+    text-decoration-color: var(--green-color);
+    text-decoration-thickness: 3px;
+    text-underline-offset: 10px;
+    line-height: 40px;
+}
+
+.section__container {
+    display: flex;
+    justify-content: space-around;
+    padding: 2rem;
+    width: 100%;
+    height: 100%;
+    margin-top: 10px;;
+}
+
+.item {
+    display: flex;
+    flex-direction: column;
+    justify-content: space-around;
+    align-items: center;
+    width: 30%;
+    height: 150px;
+    margin: 1.5rem;
+    padding: .5rem;
+}
+
+.item-img {
+    width: 6em;
+}
+
+
+/*=============================================
+=            article: the green section        =
+=============================================*/
+.article-green {
+    color: white;
+    background-image: url(../images/spotify-icon-white.png);
+    background-size: 6rem;
+    background-position: center;
+    background-repeat: no-repeat;
+    padding: 3rem;
+    display: flex;
+    justify-content: space-between;
+    background-color: var(--green-color);
+}
+
+.article-green__h5 {
+    text-decoration: underline;
+    text-underline-offset: .5rem;
+    font-size: 1.5rem;
+    margin-bottom: 2rem;
+}
+
+.article-green__h6 {
+    font-size: 1.3rem;
+    margin: 1.1rem 0;
+}
+
+.article-green__p {
+    width: 50%;
+}
+
+#kayne-wrapper {
+    width: 50%;
+    display: flex;
+    justify-content: flex-end;
+}
+
+#kayne {
+    width: 75%;
+}
+
+/*=====  End of article: green-background  ======*/
+
