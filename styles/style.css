@@ -6,3 +6,162 @@ Green: #00B172
 White: #FFF
 
 */
+
+body{
+  box-sizing: border-box;
+  font-family: Helvetica, Arial, sans-serif;
+  margin: 0;
+  padding: 0;
+
+}
+.all-sections{
+  width: 100%;
+  margin-top: 50px;
+}
+nav{
+  height: 50px;
+  width: 100%;
+  position: fixed;
+  top: 0;
+  background-color: #FFF;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  font-size: 1.3rem;
+  padding: 1rem;
+}
+
+.nav-image{
+  height: 45px;
+  margin-top: 3px;
+  width: auto;
+}
+.nav-links{
+  display: flex;
+  flex-direction: row;
+  justify-content: space-around;
+  list-style: none;
+}
+
+.nav-links li{
+  margin-right: 4rem;
+}
+
+a {
+text-decoration: none;
+color: black;
+}
+
+.main-image {
+  background-image: url('../images/landing.jpg');
+  background-size: contain;
+  background-position: center;
+  width: 100%;
+  height: 50vw;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  text-align: center;
+  
+}
+
+h1{
+  color: #FFF;
+  font-size: 4em;
+}
+
+.article-group h3  {
+  color: #00B172;
+}
+
+.main-image p{
+  color: #FFF;
+  font-size: 1.2em;
+  width: 50%;
+}
+
+
+.feature-section{
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  margin-right: 2%;
+  margin-left: 2%;
+}
+
+.article-group{
+  display: flex;
+  width: 100%;
+  flex-direction: row;
+  justify-content: space-around;
+  font-size: 1.2rem;
+}
+
+article img{
+  width: 40px;
+  height: 40px;
+}
+
+.article-group article{
+  flex-basis: auto;
+  flex: 1;
+  flex-direction: column;
+  align-items: center;
+  min-width: 150px;
+  text-align: center;
+}
+
+.explain-section{
+  background-color:#00B172 ;
+  color: #FFF;
+  padding: 5rem;
+  margin-right: 3%;
+  margin-left: 3%;
+}
+
+.explain-section h2{
+  text-decoration: underline;
+  font-size: 2rem;
+  margin-bottom: 0px;
+}
+
+.explain-content{
+  flex-grow: 1;
+  flex: 2;
+  background-color:#00B172 ;
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  align-content: center;
+  justify-content: space-around;
+  gap:1rem
+}
+
+.explain-article-group{
+  flex-grow: 1;
+  flex: 1;
+  display: flex;
+  flex-direction: column;
+}
+.explain-article-group article{
+  font-size: 1.3rem;
+  width: 80%;
+}
+#logo{
+  width: 5rem;
+  height: 5rem;
+}
+
+.explain-article-image{
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex: 1;
+  flex-grow: 1;
+}
+
+.app-image{
+  height: 25rem;
+}
