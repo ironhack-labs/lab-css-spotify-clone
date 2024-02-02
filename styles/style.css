@@ -17,12 +17,16 @@ body {
 
 header {
     height: 100px;
+    width: 95%;
     display: flex;
     align-items: center;
     justify-content: space-between;
-    margin-left: 2%;
-    margin-right: 2%;
+    position: fixed;
+    padding-left: 2%;
+    padding-right: 4%;
+    background-color: white;
 }
+
  nav ol {
     display: flex;
     gap: 30px;
@@ -191,11 +195,15 @@ article p {
         background-image: none;
         display: flex;
         flex-direction: column;
+        height: auto;
+
     }
     #howto-section img {
         display: none;
     }
-
+    #howto-section h2 {
+        margin-bottom: 40px;
+    }
 }
 
 #howto-section h3 {
