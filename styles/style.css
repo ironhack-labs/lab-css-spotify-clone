@@ -6,3 +6,215 @@ Green: #00B172
 White: #FFF
 
 */
+
+/* RESET */
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+/* VARIABLES */
+
+:root {
+    --color-text: #1a1a1a;
+    --color-green: #00b172;
+}
+
+/* TYPOGRAPHY */
+
+body {
+    font-family: sans-serif;
+}
+
+nav ul li a {
+    color: var(--color-text);
+    text-decoration: none;
+    font-size: 0.65rem;
+}
+
+.hero {
+    color: white;
+}
+
+h1 {
+    font-size: 2.15rem;
+}
+
+.hero h2 {
+    font-size: 0.85rem;
+    font-weight: lighter;
+    text-align: center;
+}
+
+.content {
+    text-align: center;
+}
+
+.content h3 {
+    font-size: 1rem;
+}
+
+.content article h4{
+   color: var(--color-green);
+   font-size: 0.85rem;
+}
+
+.content article p {
+    font-size: 0.7rem;
+}
+
+.features {
+    color: white;
+}
+
+.features h3 {
+    font-size: 1.08rem;
+    font-weight: lighter;
+}
+
+.features article h4 {
+    font-size: 0.8rem;
+}
+
+.features article p {
+    font-size: 0.64rem;
+    line-height: 1.3;
+}
+
+/* LAYOUT */
+
+/* Header section */
+
+header img {
+    width: 17%;
+}
+
+header {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 0.5em 1em;
+}
+
+nav ul {
+    list-style: none;
+    display: flex;
+}
+
+nav ul li {
+    margin-left: 0.9em;
+}
+
+
+
+/* Hero section */
+
+.hero {
+    background-image: url(../images/landing.jpg);
+    background-size: cover;
+    background-position: bottom;
+    padding: 6.5em 0 10.5em 0;
+}
+
+.hero div {
+    width: 56%;
+    margin: 0 auto;
+}
+
+.hero div h1 {
+    padding-left: 0.2em;
+}
+
+.hero div h2 {
+    width: 95%;
+    margin: 0 auto;
+    margin-top: 1em;
+}
+
+/* Content section*/
+
+.content {
+    padding: 1.1em 0 0 0;
+}
+
+.content h3 {
+    width: 26%;
+    margin: 0 auto;
+    border-bottom: 2px solid var(--color-green);
+    padding-bottom: 0.2em;
+}
+
+.content div {
+    display: flex;
+    justify-content: space-between;
+    padding: 2.55em 2.5em 0 2.5em;
+}
+
+.content article {
+    width: 30%;
+}
+
+.content article figure {
+    height: 60px;
+}
+
+.content article img {
+    width: 40%;
+}
+
+.content article p {
+    margin-top: 1em;
+    width: 80%;
+    margin: 0 auto;
+    margin-top: 0.95em;
+}
+
+/* Features section */
+
+.features {
+    margin-top: 3em;
+    background-color: var(--color-green);
+    padding: 2.5em 3.8em;
+}
+
+.features h3 {
+    border-bottom: 2px solid white;
+    width: 47%;
+}
+
+.features article {
+    display: flex;
+    justify-content: space-between;
+}
+
+.features article div {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+}
+
+.features article div p {
+    margin-top: 1.2em;
+    margin-bottom: 1.5em;
+}
+
+.features article div img {
+    width: 100%;
+    margin: 0 auto;
+}
+
+.features article div.features-text {
+    width: 32%;
+    align-self: end;
+}
+
+.features article div.features-logo {
+    width: 12%;
+}
+
+.features article div.features-mockup {
+    width: 32%;
+}
+
