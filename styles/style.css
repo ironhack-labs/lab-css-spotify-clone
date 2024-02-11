@@ -1,8 +1,205 @@
-/*
-Colors:
+:root {
+  --Text: 1A1A1A;
+  --Green: #00b172;
+  --White: #fff;
+}
+* {
+  margin: 0;
+  padding: 0;
+}
 
-Text: 1A1A1A
-Green: #00B172
-White: #FFF
+*,
+h1,
+h2,
+h3,
+h4,
+h5,
+h6 {
+  font-family: "Signika", sans-serif;
+  font-weight: 300;
+}
 
-*/
+h1 {
+  font-size: 5.9vw;
+  font-weight: 700;
+}
+
+h2 {
+  font-size: 2.3vw;
+  padding-top: 10px;
+}
+
+.spotifyPerks h3 {
+  font-size: 3.5vw;
+  text-align: center;
+  text-decoration: underline;
+  text-underline-offset: 10px;
+  text-decoration-color: var(--Green);
+}
+
+.whatsOn div h4 {
+  font-size: 3vw;
+  font-weight: 500;
+  text-align: center;
+  color: var(--Green);
+  padding-bottom: 15px;
+}
+
+.kayneSection h3 {
+  padding-top: 50px;
+  font-size: 3.5vw;
+  padding-left: 50px;
+  text-align: left;
+  text-decoration: underline;
+  text-underline-offset: 10px;
+  color: var(--White);
+}
+
+.navBar {
+  position: sticky;
+  width: 100%;
+  height: 80px;
+  background-color: var(--White);
+  display: flex;
+  justify-content: space-between;
+  align-items: stretch;
+}
+
+.navBar img {
+  height: 50px;
+  width: auto;
+  float: left;
+  margin: 0 25px;
+  padding: 0 0;
+  padding-top: 13px;
+}
+
+.navBar ul {
+  display: inline;
+  position: sticky;
+  text-align: center;
+  padding-right: 20px;
+  padding-top: 25px;
+  list-style: none;
+  font-style: normal;
+}
+
+.navBar ul a {
+  text-decoration: none; /* no underline */
+  color: black;
+  padding-left: 20px;
+  font-size: large;
+}
+
+.landing {
+  color: var(--White);
+  background-image: url("../images/landing.jpg");
+  background-position: center center;
+  background-size: cover;
+  background-repeat: no-repeat;
+  height: 680px;
+  margin: 0;
+  text-align: center;
+}
+
+.landing nav {
+  padding-top: 240px;
+  display: flexbox;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+
+.whatsOn {
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  align-items: center;
+  align-content: center;
+  padding: 0 5%;
+}
+
+.whatsOn div img {
+  width: 40%;
+  align-self: center;
+  padding-left: 33%;
+  padding-bottom: 20px;
+}
+
+.whatsOn div p {
+  text-align: center;
+  font-size: 2.3vw;
+}
+
+.songs {
+  padding: 20px;
+  flex-shrink: 1;
+  align-self: center;
+}
+
+.listenTo {
+  padding: 20px;
+  flex-shrink: 1;
+  align-self: center;
+}
+.everywhere {
+  padding: 20px;
+  flex-shrink: 1;
+  align-self: center;
+}
+
+.spotifyPerks {
+  padding-top: 30px;
+  padding-bottom: 30px;
+}
+
+.kayneSection {
+  background-color: var(--Green);
+  width: 95%;
+  margin-left: 2.5%;
+  margin-right: 2.5%;
+}
+
+.kayneSection .container {
+  display: flex;
+  flex-direction: row;
+  flex-wrap: wrap;
+  justify-content: center;
+  align-items: center;
+  align-content: center;
+  padding-top: 50px;
+  padding-bottom: 50px;
+  justify-content: space-between;
+}
+
+.textContainer {
+  padding-left: 50px;
+  width: 300px;
+  height: auto;
+}
+
+.textContainer h4 {
+  font-size: 3vw;
+  font-weight: 500;
+  color: var(--White);
+  padding-bottom: 15px;
+}
+
+.textContainer p {
+  text-align: left;
+  font-weight: 100;
+  font-size: 1.7vw;
+  color: var(--White);
+  padding-bottom: 30px;
+}
+
+.iconImage img {
+  width: 120px;
+  height: auto;
+}
+
+.appImage img {
+  width: 290px;
+  height: auto;
+  padding-right: 50px;
+}
