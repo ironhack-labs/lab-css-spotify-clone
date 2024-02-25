@@ -8,7 +8,7 @@ White: #FFF
 */
 /* CSS RESET - do not remove */
 /* Reset default browser styles and provide a consistent starting point */
-
+@import url("https://fonts.googleapis.com/css?family=Roboto+Condensed:700|Roboto:100,300,700");
 html {
     box-sizing: border-box;
     font-size: 16px;
@@ -28,6 +28,9 @@ p{
 }
 
 /* Section 1 header CSS*/
+body {
+    font-family: Roboto;;
+  }
 
 #header img{
     width: 200px;
@@ -43,12 +46,49 @@ p{
     display: flex;
     flex-direction: row;
   }
+  #header ul>li{
+    width: auto;
+    padding: 5px 20px ;
+    margin-top: 15px;
+    align-content: center;
+  }
+
+ #main {
+
+    width: auto;
+  height: 650px;
+  padding-top: 80px;
+    background-image: url('../../images/landing.jpg');
+    background-repeat: no-repeat;
+  background-position: 0, 0;
+  background-size: cover;
+  align-content: center;
+  margin: auto;
+
+ }
+
+  #main h1{
+    color: white;
+    font-size: 3.5rem;
+    text-align: center;
+    margin-top: 180px;
+  }
+  #main p{
+    width: 40%;
+    color: white;
+    text-align: center;
+    margin-top: 30px;
+    margin-left: auto;
+  margin-right: auto;
+  font-size: 1.5em;
+    
+  }
+
 
 
 /* Section 2 CSS*/
 
 #section_2{
-    margin-top: 30px;
     height: 500px;
     display: flex;
     flex-direction: column;
@@ -57,12 +97,13 @@ p{
 }
 
 #section_2 img{
-    width: 150px;
+    width: 120px;
 }
 
 #section_2 > div{
+    margin-top: 30px;
     width: 100%;
-    padding: 20px;
+    padding: 50px;
     display: flex;
     flex-direction: row;
     justify-content:space-around;  
@@ -75,14 +116,18 @@ p{
 
 #section_2 h2{
     font-size: 2.5rem;
+    padding-bottom: 5px;
     border-bottom: #00B172 solid 4px;
 }
 
 #section_2 h3{
     font-size: 1.5rem;
     color:#00B172;
+    padding-top: 30px;
 }
-
+#section_2 p{
+    margin-top: 20px;
+}
 /* Section 3 CSS */
   
 #section_3{
@@ -131,6 +176,7 @@ p{
     width: 70%;
     font-size: 2.5rem;
     border-bottom: white solid 4px;
+    padding-bottom: 5px;
 }
 
 #section_3 h3{
