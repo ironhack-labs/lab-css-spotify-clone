@@ -6,3 +6,102 @@ Green: #00B172
 White: #FFF
 
 */
+
+/* reset */
+
+body {
+  margin: 0;
+  font-family: "Segoe UI", Tahoma, Geneva, Verdana, sans-serif;
+  position: relative;
+}
+
+/* Format nav bar*/
+nav {
+  background-color: white;
+  position: fixed;
+  width: 80rem;
+  display: flex;
+  flex-direction: row;
+  & ul {
+    list-style-type: none;
+    padding: 0 2 rem;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+    align-self: flex-end;
+    & li {
+      padding: 0 2rem;
+    }
+  }
+  & img {
+    height: 2rem;
+    align-self: flex-start;
+  }
+}
+/* format header */
+
+header {
+  height: 500px;
+  background-image: url("../images/landing.jpg");
+  background-position: center;
+  background-size: cover;
+  color: white;
+
+  & div {
+    margin: 0 auto;
+    padding: 10rem;
+    width: 50rem;
+    text-align: center;
+  }
+}
+
+/* Format middle section */
+
+.content h3 {
+  font-size: 2.3rem;
+  text-align: center;
+  margin-bottom: 0.5rem;
+  text-decoration: underline;
+  text-decoration-color: #00b172;
+  text-underline-offset: 0.9rem;
+  text-decoration-thickness: 3px;
+}
+
+.carousel {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-around;
+  text-align: center;
+}
+
+.feature {
+  display: flex;
+  flex-direction: column;
+  justif-content: center;
+
+  & h4 {
+    color: #00b172;
+    font-size: 1.4rem;
+    text-align: center;
+  }
+  & p {
+    font-size: 1rem;
+    width: 10rem;
+    text-align: center;
+  }
+}
+
+.carousel img {
+  height: 4rem;
+}
+
+/* Format bottom section */
+
+.ad {
+  color: white;
+  background-color: #00b172;
+  background-image: url("../images/spotify-icon-white.png");
+  background-repeat: no-repeat;
+  background-position: center;
+  background-size: 4rem;
+}
