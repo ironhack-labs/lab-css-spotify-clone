@@ -6,3 +6,153 @@ Green: #00B172
 White: #FFF
 
 */
+
+* {
+  margin: 0;
+  padding: 0;
+}
+
+html {
+  color: #1a1a1a;
+}
+
+body {
+  font-family: "Poppins", sans-serif;
+}
+
+nav {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 10px;
+  position: fixed;
+  top: 0;
+  width: 100vw;
+  background-color: white;
+}
+
+img {
+  padding-left: 15px;
+  height: 35px;
+}
+
+.links {
+  display: flex;
+  padding-right: 20px;
+}
+
+.link {
+  padding-right: 10px;
+  list-style-type: none;
+}
+
+li > a {
+  text-decoration: none;
+  color: #1a1a1a;
+  font-size: 0.8em;
+}
+
+.hero {
+  color: #fff;
+  background-image: url("../images/landing.jpg");
+  background-size: contain;
+  height: 450px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  text-align: center;
+  margin-top: 62px;
+}
+
+.hero > div > h1 {
+  font-size: 2.3em;
+  font-weight: 600;
+  margin-bottom: 25px;
+}
+
+.hero > div > p {
+  font-weight: 300;
+}
+
+.container {
+  padding: 0px 50px;
+}
+
+.container > .subtitle {
+  font-size: 1.3em;
+  text-align: center;
+  padding: 15px;
+  text-decoration: underline;
+  text-underline-offset: 7px;
+  text-decoration-color: #00b172;
+  text-decoration-thickness: 2px;
+}
+
+.sub-container {
+  display: flex;
+  margin: 25px;
+}
+
+.left-container {
+  width: 50%;
+}
+
+.info {
+  text-align: center;
+  margin: 10px;
+  width: 33%;
+  padding: 10px;
+}
+
+.title {
+  color: #00b172;
+  font-size: 0.9em;
+  padding: 10px 0px;
+}
+
+.content {
+  font-size: 0.7em;
+  font-weight: 300;
+}
+
+.small-logo {
+  height: 50px;
+}
+
+.footer {
+  margin: 25px;
+  padding: 45px;
+  background-color: #00b172;
+  color: white;
+  display: flex;
+  position: relative;
+}
+
+.footer > div > div > .subtitle {
+  font-size: 1.3em;
+  text-decoration: underline;
+  text-underline-offset: 7px;
+  text-decoration-thickness: 2px;
+}
+
+.functionality {
+  font-size: 0.9em;
+  padding: 20px 0px;
+}
+
+.left-container > div > p {
+  font-size: 0.75em;
+  font-weight: 300;
+}
+
+.spotify-app > img {
+  height: 350px;
+  margin-top: 25px;
+}
+
+.logo-white {
+  position: absolute;
+  top: 45%;
+  left: 45%;
+  height: 75px;
+}
