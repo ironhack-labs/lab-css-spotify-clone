@@ -6,3 +6,247 @@ Green: #00B172
 White: #FFF
 
 */
+html {
+    box-sizing: border-box;
+    font-size: 16px;
+  }
+  
+  *, *:before, *:after {
+    box-sizing: inherit;
+  }
+  
+  body, h1, h2, h3, h4, h5, h6, p, ol, ul {
+    margin: 0;
+    padding: 0;
+    font-weight: lighter;
+  }
+  
+  /*  Set the font */
+  body {
+    font-family: "Helvetica", sans-serif;
+  }
+  
+  nav {
+    position: fixed;
+    display: flex;
+    justify-content: space-between; 
+    align-items: center;
+    border: 1px solid black;
+    padding: 20px;
+    width: 100%;
+    background-color: white;
+    
+  }
+  
+  nav .logo {
+    margin-right: auto;
+    margin-left: 10px;
+    width: 150px;
+    height: 50px;
+  }
+  
+  nav .categorieslist {
+    list-style: none;
+    display: flex; 
+  }
+  
+  nav .categorieslist li {
+    margin-left: 20px;
+    margin-right: 10px;
+  }
+  
+  a{
+    text-decoration:none;
+    color: black;
+    font-size: 15px;
+  }
+  
+  div#music {
+    display: flex;
+    flex-direction: column;
+    background-image: url(../images/landing.jpg);
+    background-size:cover;
+    background-repeat: no-repeat;
+    height: 800px;
+    align-items:center;
+    justify-content: center;
+    
+  }
+  
+  #music > h1{
+    color:#FFF;
+    font-size: 50px;
+    font-weight: bold;
+  }
+  
+  #music > p{
+    font-size: 20px;
+    font-weight: lighter;
+    color:#FFF ;
+  }
+  
+  #whiteback{
+    margin-bottom: 25px;
+  }
+  
+  section .h2whatson{
+    display: flex;
+    padding-top: 30px;
+    justify-content: center;
+    font-weight: bold;
+    text-decoration: 3px underline #00B172;
+    text-underline-offset: 5px;
+  }
+  
+  #whatson{
+    display: flex;
+    justify-content: space-between;
+  }
+
+  
+  div .millions{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    margin: 30px;
+    width: 30%;
+    padding: 30px;
+  }
+
+  .millions > img{
+    height: 120px;
+    width: 120px;
+  }
+  
+  .millions > h3{
+    font-weight: bold;
+    color: #00B172;
+    font-size: 20px;
+    margin:20px;
+    
+  }
+  
+  .millions > p{
+    text-align: center;
+    line-height: 25px;
+    font-size: 17px;
+    color: grey;
+    width: 150px;
+  }
+  
+  div .hd{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    margin: 30px;
+    width: 30%;
+    padding: 30px;
+  }
+
+  .hd > img{
+    height: 120px;
+    width: 120px;
+  }
+  
+  .hd > h3{
+    font-weight: bold;
+    color: #00B172;
+    font-size: 20px;
+    margin:20px;
+  }
+  
+  .hd > p{
+    text-align: center;
+    line-height: 25px;
+    font-size: 17px;
+    color: grey;
+    width: 180px;
+  }
+  
+  div.stream{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    margin: 30px;
+    width: 30%;
+    padding: 30px;
+  }
+
+  .stream > img{
+    height: 120px;
+    width: 120px;
+  }
+  
+  .stream > h3{
+    font-weight: bold;
+    color: #00B172;
+    font-size: 20px;
+    margin:20px;
+  }
+  
+  .stream > p{
+    text-align: center;
+    line-height: 25px;
+    font-size: 17px;
+    color: grey;
+    width: 180px;
+  }
+  
+  #greenback{
+    background-color: #00B172;
+    margin-left: 40px;
+    margin-right: 40px;
+    position: relative;
+  }
+  
+  h2.yeezy{
+    text-decoration: 3px underline;
+    text-underline-offset: 5px;
+    margin-left: 30px;
+    color: #FFF;
+    padding-top: 40px;
+  }
+  
+  .yeezydiv{
+    margin-top: 40px;
+    margin-left: 30px;
+    padding-bottom: 40px;
+    color: #FFF;
+    width: 40%;
+  }
+  
+  .yeezydiv > h3{
+    font-weight: bold;
+    font-size: 20px;
+  }
+  
+  .yeezydiv > p{
+    width: 60%;
+    text-align: start;
+    line-height: 25px;
+    font-size: 17px;
+    color: #FFF;
+  }
+  
+  .whitelogo{
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    width: 100px;
+    height: 100px;
+  }
+
+  div.kanye{
+    position: absolute;
+    top: 10%;
+    left: 70%;
+  }
+
+
+  div.kanye > img{
+    height: 450px;
+    width: 300px;
+  }
