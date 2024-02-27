@@ -77,7 +77,7 @@ header {
 .feature {
   display: flex;
   flex-direction: column;
-  justif-content: center;
+  justify-content: center;
 
   & h4 {
     color: #00b172;
@@ -104,4 +104,28 @@ header {
   background-repeat: no-repeat;
   background-position: center;
   background-size: 4rem;
+  padding: 2rem;
+  display: flex;
+  flex-direction: row;
+  justify-content: space-around;
+}
+
+.adLeft {
+  & h3 {
+    font-size: 2rem;
+    text-decoration: underline;
+    text-decoration-color: white;
+    text-underline-offset: 0.8rem;
+    text-decoration-thickness: 3px;
+  }
+}
+
+.features {
+  width: 15rem;
+}
+
+.adRight {
+  & img {
+    height: 30rem;
+  }
 }
