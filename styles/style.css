@@ -6,3 +6,122 @@ Green: #00B172
 White: #FFF
 
 */
+* {
+  font-family: sans-serif;
+}
+
+body {
+  margin: 0;
+}
+
+.nav {
+  height: 75px;
+  position: fixed;
+  display: flex;
+  list-style-type: none;
+  width: 100%;
+  display: flex;
+  justify-content: space-between;
+  background-color: white;
+  position: relative;
+  align-items: center;
+}
+
+ul {
+  list-style-type: none;
+  display: flex;
+  justify-content: flex-end;
+  & a {
+    text-decoration: none;
+    color: #1a1a1a;
+  }
+  & li {
+    margin: 2rem;
+  }
+}
+#logo {
+  height: 50px;
+}
+
+.hero {
+  background-image: url(../images/landing.jpg);
+  height: 575px;
+  background-size: contain;
+  background-position: center;
+  position: relative;
+  color: white;
+  display: flex;
+  flex-direction: column;
+  text-align: center;
+  padding-top: 100px;
+  margin-bottom: 75px;
+  & h1 {
+    font-size: 5rem;
+    font-weight: lighter;
+  }
+  & p {
+    font-size: 1.5rem;
+    font-weight: lighter;
+    word-spacing: 0.5rem;
+  }
+}
+
+.on-spotify {
+  text-align: center;
+  & > h3 {
+    color: #1a1a1a;
+  }
+}
+
+#articles {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-around;
+  & img {
+    height: 75px;
+  }
+  margin-top: 75px;
+  font-weight: lighter;
+}
+
+article > h3 {
+  color: #00b172;
+}
+
+.green {
+  padding: 25px;
+  background-color: #00b172;
+  color: white;
+  text-align: left;
+  font-size: 1.5rem;
+  display: flex;
+  flex-direction: row;
+  height: 625px;
+  align-items: center;
+  justify-content: space-between;
+  margin: 50px;
+  & h2 {
+    font-size: 2rem;
+  }
+}
+
+#white-icon {
+  height: 125px;
+  margin: 0 200px;
+}
+
+#app-screenshot {
+  height: 500px;
+  margin-right: 45px;
+}
+
+#underline {
+  text-decoration: underline;
+  text-underline-offset: 0.8rem;
+}
+
+.underline-green {
+  text-decoration: underline;
+  text-decoration-color: #00b172;
+  text-underline-offset: 0.8rem;
+}
