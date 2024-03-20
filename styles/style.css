@@ -1,8 +1,111 @@
-/*
-Colors:
+nav {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 10px;
+    background-color: white;
+}
+header {
+    background-image: url("../images/landing.jpg");
+    background-position: center;
+    background-size: cover;
+    height: 400px;
+    color: white; 
+}
+a{
+    color: rgb(168, 170, 171);
+    text-decoration: none;
+}
 
-Text: 1A1A1A
-Green: #00B172
-White: #FFF
+.lista-navbar {
+display: flex;
+flex-direction: row;
+justify-content: space-between;
+list-style-type: none;
+margin-right: 50px;
+color: rgb(168, 170, 171);
+}
+li{
+    padding-left: 23px;
+}
 
-*/
+.text-header{
+display: flex;
+flex-direction: column;
+text-align: center;
+padding-top: 90px;
+}
+h1{
+    font-size: 40px;
+}
+h2{
+    text-align: center;
+    text-decoration: underline #00B172;
+}
+h4{
+    color: #00B172
+}
+.parrafo-intro{
+    padding-left: 140px;
+    padding-right: 140px;
+}
+
+
+.segunda-section{
+    display: flex;
+    flex-direction: column;
+}
+
+.div-iconos{
+    display: flex;
+    flex-direction: row;
+    padding-left: 40px;
+    padding-right: 40px;
+    margin-bottom: 30px;
+}
+.iconos{
+    text-align: center;
+    width: 25%;
+    margin-right: 25px;
+    margin-left: 25px;
+    color: rgb(168, 170, 171)
+}
+.p-icons{
+    font-size: 15px;
+}
+.bottom-section{
+    background-color: #00B172;
+    color: white;
+    height: 500px;
+    display: flex;
+    flex-direction: row;
+    padding-left: 40px;
+    padding-top: 40px;
+}
+h3{
+    text-decoration: underline white;
+    font-size: 30px;
+
+}
+.h4-bottom{
+color: white;
+}
+.text-bottom{
+    width: 250px;
+    margin-right: 30vw;
+}
+
+  #collapsible-toggle {
+    display: none;
+  }
+  
+  .content {
+    padding: 0 18px;
+    max-height: 0;
+    overflow: hidden;
+    transition: max-height 0.2s ease-out;
+  }
+  
+  #collapsible-toggle:checked + .collapsible + .content {
+    max-height: 1000px; 
+  }
