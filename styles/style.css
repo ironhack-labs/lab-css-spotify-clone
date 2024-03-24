@@ -1,8 +1,196 @@
 /*
 Colors:
 
-Text: 1A1A1A
+Text: #1A1A1A
 Green: #00B172
 White: #FFF
 
 */
+
+/* CSS reset */
+ 
+  @import url('https://fonts.googleapis.com/css?family=Poppins');
+
+
+  body, h1, h2, h3, h4, h5, h6, p, ol, ul {
+    margin: 0;
+    padding: 0;
+    font-family: 'Poppins';
+    color: #1A1A1A;
+  } 
+
+
+/* Header */
+
+header > div {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 0 25px;
+    position: fixed;
+    top: 0;
+    left: 0;
+    right: 0;
+    background-color: white;
+    height: 60px;
+
+}
+
+#spotify-logo img {
+    width: 150px;
+    padding-top: 5px;
+}
+
+/*!!! The navbar should be position: fixed.
+Align the logo to the left and the ul with the links to the right, either using float or flex. */
+
+nav ul {
+    list-style: none;
+    display: flex;
+    justify-content: space-between;
+    width: 350px;
+    
+}
+
+nav a {
+    color: #1A1A1A;
+    text-decoration: none;
+}
+
+
+/* Section1 */
+
+#section1 {
+    height: 600px;
+    background-image: url("../images/landing.jpg");
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    margin-top: 60px;
+}
+
+
+
+h1 {
+    color: white;
+    text-align: center;
+    font-size: 60px;
+}
+
+article {
+    color: white;
+    text-align: center;
+    
+}
+
+
+/* Section 2 */
+
+#section2 {
+    height: 400px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    
+}
+
+#section2 h2 {
+    margin: 30px 0
+}
+
+h2 {
+    text-align: center;
+    color: #1A1A1A;
+    border-bottom: 2px solid #00B172;
+    width: 220px;
+    margin: 20px 0 40px 0;
+}
+
+#section2-containers {
+    display: flex;
+    justify-content: center;
+    margin: 20px 0;
+    
+}
+
+
+.container-s2 {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    margin: 0 50px;
+}
+
+.container-s2 img {
+    width: 100px;
+    margin-bottom: 10px;
+}
+
+.container-s2 h3 {
+    color: #00B172;
+    margin-bottom: 20px;
+}
+
+.container-s2 p {
+    text-align: center;
+}
+
+
+/* Section 3 */
+
+#section3 {
+    background-color: #00B172;
+    margin: 0 80px;
+    padding: 40px 40px;
+    position: relative;
+    display: flex;
+    justify-content: center;
+
+    
+    /* Why I can't set up width here? */
+    
+}
+
+#left-section h2 {
+    color: white;
+    border-bottom: 2px solid white;
+    width: 329px;
+    margin: 0;
+}
+
+#left-section {
+    margin-right: 80px;
+    margin-left: 50px;
+    padding-bottom: 20px;
+    
+}
+
+
+.container-s3 h3 {
+    color: white;
+    margin: 20px 0;
+}
+
+.container-s3 p {
+    color: white;
+    font-size: 12px;
+    font-weight: 100;
+}
+
+#spotify-icon img {
+    width: 80px;
+    position: absolute;
+    left: 47%; /* Why it's not centered when I put left: 50%, top: 50% ? */
+    top: 45%
+}
+
+#app img {
+    height: 350px;
+    margin-right: 50px;
+    margin-left: 80px;
+}
+
