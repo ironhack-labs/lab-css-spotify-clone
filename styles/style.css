@@ -1,8 +1,255 @@
-/*
-Colors:
+/* General */
 
-Text: 1A1A1A
-Green: #00B172
-White: #FFF
+:root {
+    --text: #1A1A1A;
+    --green: #00B172;
+    --white: #fff;
+    --height-nav: 100px;
+}
 
-*/
+body {
+    margin: 0;
+    padding: 0;
+    font-family: 'Open sans', 'Noto sans', Arial, Helvetica, sans-serif;
+    font-size: 20px;
+    color: var(--text);
+    font-weight: 400;
+}
+
+img {
+    max-width: 100%;
+}
+
+a, 
+a:hover {
+    text-decoration: none;
+}
+
+.container {
+    margin: 0;
+    padding: 0;
+}
+
+.wrapper {
+    width: 100%;
+    max-width: 1200px;
+    margin: 0 auto;
+    padding-left: 15px;
+    padding-right: 15px;
+    box-sizing: border-box;
+}
+
+
+/* Nav */
+
+nav {
+    position: fixed;
+    width: 100%;
+    background-color: var(--white);
+    margin: 0;
+    padding: 0;
+    top: 0;
+    height: var(--height-nav);
+    display: flex;
+    align-items: center;
+}
+
+nav .wrapper {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    background-color: var(--white);
+    box-sizing: border-box;
+}
+
+nav .logo {
+    width: 180px;
+}
+
+nav .menu {
+    display: flex;
+    box-sizing: border-box;
+}
+
+nav .menu a {
+    text-decoration: none;
+    color: var(--text);
+    margin-left: 20px;
+    border-bottom: 2px solid transparent;
+}
+
+nav .menu a:hover {
+    color: var(--green);
+    border-bottom: 2px solid var(--green);
+}
+
+nav .menu a:first-of-type {
+    margin-left: none;
+}
+
+
+/* Header */
+
+header {
+    min-height: 60vh;
+    background-image: url(../images/landing.jpg);
+    background-position: center center;
+    background-size: cover;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    text-align: center;
+    justify-content: center;
+    color: var(--white);
+    margin-top: var(--height-nav);
+    margin-bottom: 80px;
+    width: 100%;
+}
+
+@media (min-width: 728px) {
+  header {
+    min-height: 80vh;
+  }
+}
+
+header .lead {
+    text-align: center;
+    max-width: 600px;
+    font-size: 1.4rem;
+    line-height: 1.6;
+}
+
+/* Titles */
+
+h1 {
+    font-size: 2.7em;
+    font-weight: 600;
+}
+  
+h2 {
+    font-size: 1.6em;
+    font-weight: 700;
+    border-bottom: 3px solid var(--green);
+    display: inline-block;
+    margin-bottom: 40px;
+    width: fit-content;
+}
+
+h3 {
+    font-weight: 700;
+    margin-bottom: 30px;
+}
+
+
+/* Layout */
+
+section {
+    margin-top: 60px;
+    margin-bottom: 60px;
+}
+
+section:last-of-type {
+    margin-bottom: 60px;
+}
+
+
+/* Section - What's on?  */
+
+#whats-on {
+    text-align: center;
+}
+
+#whats-on .whatson-wrapper {
+    text-align: center;
+    display: flex;
+    flex-direction: column;
+}
+
+@media (min-width: 728px) {
+    #whats-on .whatson-wrapper {
+        flex-direction: row;
+    }
+}
+
+#whats-on .whatson-wrapper .whatson-block {
+    padding-left: 20px;
+    padding-right: 20px;
+}
+
+@media (min-width: 728px) {
+    #whats-on .whatson-wrapper .whatson-block {
+        width: 33%;
+    }
+}
+
+#whats-on .whatson-wrapper .whatson-block h2 {
+    margin-bottom: 11em;
+}
+
+#whats-on .whatson-wrapper .whatson-block h3 {
+    color: var(--green);
+}
+
+#whats-on .whatson-wrapper .whatson-block img {
+    max-width: 80px;
+}
+
+
+/* Section - Features  */
+
+#features {
+    color: var(--white);
+    position: relative;
+}
+
+#features .wrapper {
+    background-color: var(--green);
+    display: flex;
+    flex-direction: column;
+    padding-left: 50px;
+}
+
+@media (min-width: 728px) {
+    #features .wrapper {
+        flex-direction: row;
+        gap: 10px
+    }
+}
+
+#features #features-left {
+    padding: 20px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+}
+
+#features h2 {
+    border-bottom: 3px solid var(--white);
+    display: inline-block;
+}
+
+#features #features-left #features-cols {
+    display: flex;
+    align-items: center;
+}
+
+#features #features-left #features-cols .round-logo {
+    max-width: 100px;
+    padding: 30px;
+    position: absolute;
+    left: 50%;
+    right: -45%;
+}
+
+#features #features-right {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding: 100px;
+}
+
+#features #features-right #spotify-app img {
+    border-radius: 5px;
+    box-shadow: 0 10px 40px var(--text);
+    max-width: 280px;
+}
