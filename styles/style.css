@@ -52,6 +52,7 @@ nav {
     height: var(--height-nav);
     display: flex;
     align-items: center;
+    z-index: 999
 }
 
 nav .wrapper {
@@ -137,7 +138,7 @@ h2 {
 
 h3 {
     font-weight: 700;
-    margin-bottom: 30px;
+    margin-bottom: 20px;
 }
 
 
@@ -231,6 +232,10 @@ section:last-of-type {
 #features #features-left #features-cols {
     display: flex;
     align-items: center;
+}
+
+#features #features-left #features-cols .features-block {
+    margin-bottom: 40px;
 }
 
 #features #features-left #features-cols .round-logo {
