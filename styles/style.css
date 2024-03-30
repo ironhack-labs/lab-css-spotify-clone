@@ -1,8 +1,206 @@
-/*
-Colors:
+/* Colors:
 
 Text: 1A1A1A
 Green: #00B172
-White: #FFF
+White: #FFF */
 
-*/
+html {
+    font-family: sans-serif;
+}
+#header div {
+    display: flex;
+    /* just have 2 elements, so one left and oder right */
+    justify-content: space-between;
+    /* the height of the logo do not stretch */
+    align-items: center;
+    padding: 0 11px;
+}
+
+#header img {
+    width: 22%;
+}
+
+nav {
+    width: 60%;
+}
+  
+nav ul {
+    list-style: none;
+    display: flex;
+    justify-content: space-between;
+    padding-left: 0;
+    width: 105%;
+}
+
+  
+nav a {
+    text-decoration: none;
+    color: black;
+    font-size: 0.7rem;
+    /* position: fixed; */
+}
+
+/* section 1 */
+
+#section-1 {
+    background-image: url(../images/landing.jpg);
+    height:20rem;
+    background-position: center;
+    /* makes the whole picture fit */
+    background-size: cover; 
+
+    color: #fff;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+#section-1 div {
+    text-align: center;
+    width: 75%;
+}
+
+#section-1 h1 {
+    font-size: 2rem;
+    margin-bottom: 0;    
+}
+
+#section-1 p {    
+    font-size: 0.8rem;
+}
+
+/* section-2 */
+
+#section-2{
+    padding: 2% 0;
+}
+#section-2 h2 {
+    display: flex;
+    justify-content: center;
+    margin-bottom: 5%;
+    font-size: 1.1rem;
+}
+
+.containers {
+    display: flex;
+}
+
+.individual-container img {
+    width: 25%;
+    height: 2rem;
+}
+
+.individual-container{
+    display: flex;
+    flex-direction: column;
+    align-items: center;   
+}
+
+.individual-container p {
+    width: 80%;
+    text-align: center;
+    font-size: 0.7rem;    
+}
+
+.individual-container h3 {
+    margin: 3% 0 0 0;
+    color: #00B172;
+    text-align: center;
+    font-size: 0.8rem;
+}
+
+
+.individual-container {
+    width: 81%;
+}
+
+
+/* section 3 */
+
+#section-3 {
+    background-color: #00B172;
+    color: #fff;
+    padding : 5% 8% 5% 7% ;
+}
+
+#section-3 h2 {
+    font-weight: lighter;
+    font-size: 1rem;
+}
+
+.texts-images {
+    display: inline-flex;
+}
+
+.texts {   
+    width: 40%;
+}
+
+.text p {
+    font-size: 0.6rem;
+}
+.spotify-icon {
+    width: 12%;
+    margin: auto;
+}
+
+.app-image {
+    width: 40%;
+}
+
+
+/* tablet */
+@media screen and (min-width: 768px) and (max-width: 1024px)  {
+    
+    #header img {
+        width: 13%;
+    }
+    nav {
+        width: 44%;
+    }
+    nav ul {       
+        width: 98%;
+    }
+    
+    .individual-container img {
+        height: 2.5rem;
+   }
+   .spotify-icon {
+    width: 11%;   
+    }
+
+    .app-image {
+     width: 25%;
+    }
+
+
+  }
+  
+  @media screen and (min-width: 1024px) and (max-width: 1440px) {
+
+    nav a {
+        font-size: 0.9rem;
+        
+    }
+    .individual-container img {
+        height: 3rem;
+   }
+
+   #section-3 h3 {
+    font-size: 1.5rem;
+  }
+
+  .text p {
+    font-size: 0.8rem;
+  }
+  .spotify-icon {
+    width: 10%;    
+  }
+
+  .app-image {
+      width: 21%;
+  }
+}
+  
+ 
