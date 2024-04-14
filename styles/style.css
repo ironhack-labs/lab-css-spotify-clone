@@ -6,3 +6,131 @@ Green: #00B172
 White: #FFF
 
 */
+
+html, body, h1, h2, h3, p {
+    padding: 0;
+    margin: 0;
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+header {
+    display: flex;
+    align-items: center; 
+    position: fixed;
+    width: 100%; 
+    height: 70px;
+    z-index: 1000; 
+    background-color: white;
+    padding: 0 2rem;
+}
+
+nav {
+    display: flex;
+    flex-direction: row;
+    justify-content: flex-end;
+    align-items: center;
+    width: 100%; 
+    height: 70px;
+    margin-right: 20px;
+}
+
+nav ul {
+    display: flex;
+    list-style: none;
+    gap: 1rem;
+     padding: 0 2rem;
+}
+
+.hero {
+    display: flex;
+    flex-direction: column;
+    color: white;
+    background-image: url(../images/landing.jpg);
+    background-size: cover; 
+    height: 500px;
+    padding-top: 70px;
+    justify-content: center;
+    align-items: center;
+}
+
+.hero h1 {
+    font-size: 3rem;
+    padding-bottom: 1rem;
+}
+
+.info-spotify div {
+    display: flex;
+    padding: 2rem;
+    gap: 1rem;
+    justify-content: center;
+}
+
+.info-spotify article {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+.info-spotify h2 {
+    text-align: center;
+    padding: 1rem;
+    text-decoration:underline #00B172;
+}
+
+.info-spotify img {
+    width: 50px;
+    height: 50px;
+    padding-bottom: 1rem;
+}
+
+.info-spotify h3 {
+    color:#00B172;
+    font-weight:bolder;
+}
+
+.info-spotify p {
+    text-align: center;
+    margin-top: 10px;
+}
+
+.green {
+    display: flex;
+    background-color: #00B172;
+    margin: 0 20px;
+    color: white;
+    padding: 3rem;
+}
+
+.green .column {
+    flex: 1; 
+    padding: 1rem; 
+}
+
+.green h2 {
+    text-decoration: underline;
+}
+
+.green h3 {
+    padding: 1rem;
+}
+
+.green p {
+    text-align: center;
+}
+
+.image-container1, .image-container2 {
+    display: flex;
+    align-items: center; 
+    justify-content: center;    
+}
+
+.image-container1 img {
+    width: 50px; 
+    height: 50px; 
+}
+
+.image-container2 img {
+    width: 300px;
+    height: 500px;
+}
