@@ -6,3 +6,172 @@ Green: #00B172
 White: #FFF
 
 */
+html {
+    box-sizing: border-box;
+    font-size: 16px;
+}
+
+  *, *:before, *:after {
+    box-sizing: inherit;
+}
+
+body, h1, h2, h3, h4, h5, h6, p, ol, ul {
+    margin: 0;
+    padding: 0;
+    font-weight: lighter;
+}
+
+  /*  Set the font */
+body {
+    font-family: "Helvetica", sans-serif;
+}
+.barra-nav{
+    display: flex;
+    background-color: white;
+    width: 100%;
+    height: 11%;
+    position: fixed;
+    align-items: center;
+    
+}
+.barra-nav img{
+    width: 180px;
+}
+.box11{
+    position: sticky;
+    width: 100%;
+    text-align: left;
+    margin-left: 2%;
+}
+.box22 {
+    position: sticky;
+    text-align: right;
+    width: 100%;
+    margin-right: 2%;
+}
+.box22 li{
+    font-size: 1.1rem;
+    display: inline;
+    margin: 10px;
+}
+.box22 li a{
+    text-decoration: none;
+    color: black;
+}
+.img-header{
+    background-image: url("/lab04/lab-css-spotify-clone/images/landing.jpg");
+    width: 100vw;
+    height: 90vh;
+    background-size: cover;
+    background-position: center center;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+}
+h1{
+    color: white;
+    font-size: 4.5rem;
+    
+}
+.img-header h3{
+    color: white;
+    
+}
+.separador{
+    display: flex;
+    justify-content: center;
+}
+.separador h2{
+    
+    font-size: 2.4rem;
+    margin-top: 40px;
+    margin-bottom: 80px;
+    border-bottom: 4px solid #00B172;  
+}
+
+.seccion1{
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    
+}
+.box-centrado{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    width: 33.33%;
+    padding: 80px;
+    padding-top: 10px;
+}
+.seccion1 img{
+    width: 115px;
+    margin-bottom: 10px;
+
+}
+.box-centrado h2{
+    color: #00B172;
+    margin-bottom: 15px;
+    font-size: 1.4rem;
+    text-align: center;
+    
+}
+.box-centrado h3{
+    text-align: center;
+}
+.background-green{
+    background-color: #00B172;
+    width: 100vw;
+    height: 93vh;
+    border-right: 3vw solid white;
+    border-left: 3vw solid white;
+    
+}
+.seccion2{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+.box1{
+    
+    display: flex;
+    width: 47%;
+    flex-direction: column;
+    color: white;
+    padding: 50px;
+}
+.box2{
+    
+    display: flex;
+    width: 6%;
+}
+.box3{
+    display: flex;
+    width: 47%;
+    justify-content: flex-end;
+    margin-right: 80px;
+}
+
+.logo-fijo{
+    width: 100px;
+    position: absolute;
+    
+    
+}
+.box1 div{
+    margin: 20px;
+}
+.box1 div h2{
+    margin: 25px;
+    margin-left: 0px;
+    font-size: 2rem;
+}
+.subrayado{
+    font-size: 2.3rem;
+    padding: 0px;
+    margin: 0px;
+    text-decoration: underline;
+}
+.capture-app{
+    width: 280px;
+}
