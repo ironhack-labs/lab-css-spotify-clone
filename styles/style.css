@@ -6,3 +6,227 @@ Green: #00B172
 White: #FFF
 
 */
+
+@import url('https://fonts.googleapis.com/css2?family=DM+Sans:ital,opsz,wght@0,9..40,100..1000;1,9..40,100..1000&display=swap');
+
+body {
+font-family: 'DM Sans';
+display: block;
+margin: 0px;
+}
+
+/* HEADER */
+
+.logo {
+    display: flex;
+}
+
+.logo img {
+height: 32px;
+}
+
+.navbar {
+    padding: 4px 8px;
+    background-color: white;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    position: sticky;
+    top: 0;
+}
+
+.menu {
+    font-weight: 200;
+    display: flex;
+    justify-content: flex-end;
+    gap: 16px;
+    align-items: center;
+    flex-direction: row;
+    flex-wrap: nowrap;
+    margin: 0px 16px;
+    list-style: none;
+}
+
+.menu a {
+    text-decoration: none;
+    color: #1A1A1A;
+}
+
+/* HERO */
+
+.landing {
+    width: 100vw;
+    height: 50vh;
+    background-image: url(/images/landing.jpg);
+    background-size: cover;
+    background-position: center;
+    display: flex;
+    color: white;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+}
+
+.title {
+    width: 50vw;
+}
+
+.title h1 {
+font-size: 40px;
+font-weight: 400;
+letter-spacing: 2px;
+margin: 0;
+text-align: center;
+}
+
+.title p {
+ font-weight: 100;
+ text-align: center;
+}
+
+/* What's in spotify */
+
+.inspotify {
+    margin: 40px 16px;
+}
+
+.inspotify h2 {
+    text-align: center;
+    font-size: 18px;
+    font-weight: 500;
+    margin: 0px 0px 24px 0px;
+}
+
+.inspotify a {
+    text-decoration: underline;
+    color: #1A1A1A;
+}
+
+.inspotify h3 {
+    color: #00B172;
+    text-align: center;
+    font-size: 16px;
+    font-weight: 400;
+    margin: 8px 0px 0px;
+}
+
+.inspotify p {
+    text-align: center;
+    font-size: 14px;
+    font-weight: 150;
+    margin: 12px 0px 0px;
+}
+
+.inspotify img {
+    width: 40px;
+    height: 40px;
+}
+
+.inspotify div {
+    margin: 0px 24px;
+    gap: 24px;
+    display: flex;
+    justify-content: space-around;
+    align-content: center;
+    flex-wrap: nowrap;
+    flex-direction: row;
+    align-items: center;
+}
+
+.auto-width span{
+    width: 200px;
+}
+
+.volume {
+    display: flex;
+    flex-wrap: wrap;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+}
+
+.wave {
+    display: flex;
+    flex-wrap: wrap;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+}
+
+.device {
+    display: flex;
+    flex-wrap: wrap;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+}
+
+/* KAINE WEST */
+
+.kayne {
+    padding: 16px 64px;
+    margin: 0px 24px;
+    background-color: #00B172;
+    color: white;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+}
+
+.kayne h2 {
+    font-size: 20px;
+    font-weight: 400;
+    letter-spacing: 1px;
+}
+
+.kayne a {
+    text-decoration: underline;
+    color: white;
+}
+
+.possibilities h3 {
+    font-size: 18px;
+    font-weight: 400;
+    letter-spacing: 0,5px;
+    margin: 0;
+}
+
+.possibilities p {
+    font-size: 16px;
+    font-weight: 100;
+    margin-top: 12px;
+}
+
+.possibilities {
+    display: flex;
+    flex-direction: column;
+    flex-wrap: nowrap;
+    align-items: flex-start;
+    width: 30vw;
+
+}
+
+.wlogo {
+    background-image: url(/images/spotify-icon-white.png);
+    width: 80px;
+    height: 80px;
+    background-size: cover;
+    position: absolute;
+    left: 50%;
+}
+
+.app img {
+    width: 200px;
+    border-radius: 8px;
+}
+
+.green {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    gap: 24px;
+}
+
+.possibilities div{
+    width: 300px;
+}
