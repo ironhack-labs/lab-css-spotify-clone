@@ -6,3 +6,167 @@ Green: #00B172
 White: #FFF
 
 */
+@font-face {
+  font-family: "CircularStd-Book";
+  src: url("../src/CircularStd-Book.otf");
+}
+@font-face {
+  font-family: "CircularStd-Light";
+  src: url("../src/CircularStd-Light.otf");
+}
+
+* {
+  font-family: "CircularStd-Book";
+}
+
+/*************************** NavBar ***********************/
+
+body {
+  margin: 0;
+  padding: 0;
+}
+
+p {
+  font-family: "CircularStd-Light";
+}
+
+.navbar {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  padding: 1%;
+}
+
+.navbar ul {
+  display: flex;
+  justify-content: space-around;
+  width: 20%;
+}
+
+ul {
+  list-style-type: none;
+}
+
+.spotify-logo {
+  width: 10%;
+}
+
+/*************************** Second segment ***********************/
+
+.sect2 {
+  background-image: url("../images/landing.jpg");
+  background-size: 100%;
+  background-repeat: no-repeat;
+  background-position: 100%;
+  height: 50em;
+  display: grid;
+  align-content: center;
+  justify-content: center;
+}
+
+.sect2-text {
+  color: white;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+
+.sect2-text h1 {
+  font-size: 6em;
+  margin: 0;
+}
+
+.sect2-text p {
+  font-size: 2em;
+  text-align: center;
+}
+
+/*************************** Third segment ***********************/
+
+.sect3 {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  margin: 0;
+}
+
+.sect3 img {
+  width: 25%;
+}
+
+.box-display {
+  padding: 0;
+  display: flex;
+  justify-content: space-between;
+}
+
+.box {
+  width: 30%;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  padding: 2%;
+}
+
+.box h1 {
+  color: #00b172;
+}
+
+.box p {
+  margin: 1%;
+  width: 55%;
+  text-align: center;
+  font-size: 1.5em;
+}
+
+/*************************** Forth segment ***********************/
+
+.sect4 {
+  display: flex;
+  justify-content: center;
+}
+
+.sect4 img {
+  padding: 10%;
+  width: 50%;
+}
+
+.green-rect {
+  background-image: url("../images/spotify-icon-white.png");
+  background-repeat: no-repeat;
+  background-position: center;
+  background-size: 6%;
+  background-color: #00b172;
+  width: 95%;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.text-part {
+  padding: 5%;
+  color: white;
+}
+
+.text-part h1 {
+  width: 78%;
+  margin: 0;
+  padding: 1%;
+  font-size: 3em;
+  border-bottom: 3px solid white;
+}
+
+.text-box {
+  width: 40%;
+}
+
+.text-box h2 {
+  font-size: 2em;
+}
+
+.text-box p {
+  width: 90%;
+  font-size: 1.2em;
+}
