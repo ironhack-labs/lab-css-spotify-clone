@@ -6,3 +6,178 @@ Green: #00B172
 White: #FFF
 
 */
+
+* {
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+}
+
+h1,
+h2,
+h3,
+p,
+a,
+figcaption {
+    color: #1A1A1A;
+    font-family: Helvetica, Arial, sans-serif;
+    padding: 10px 0;
+}
+
+
+h1 {
+    font-size: 70px;
+}
+
+h2 {
+    font-size: 40px;
+}
+
+h3 {
+    font-size: 30px;
+}
+
+#header {
+
+    position: fixed;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 30px 10px;
+    background-color: white;
+    width: 100%;
+}
+
+#logo-header {
+    width: 170px;
+    height: 50px;
+    margin-left: 20px;
+}
+
+#header ul {
+    list-style: none;
+    display: flex;
+
+}
+
+#header a {
+    text-decoration: none;
+    color: black;
+    margin: 0 35px;
+    font-weight: bold;
+    font-size: 20px;
+}
+
+
+#main-photo-section {
+    display: flex;
+    flex-direction: column;
+    background-image: url("../images/landing.jpg");
+    background-position: center center;
+    background-size: cover;
+    height: 100vh;
+    justify-content: center;
+    align-items: center;
+}
+
+#main-photo-section h1 {
+    color: white;
+    font-size: 80px;
+    width: 66%;
+    text-align: center;
+}
+
+#main-photo-section h2 {
+    font-size: 35px;
+    font-weight: 100;
+    color: white;
+    text-align: center;
+    width: 45%;
+}
+
+
+main {
+    padding: 50px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+main h2 {
+    text-align: center;
+    border-bottom: 6px solid #00B172;
+    margin-bottom: 50px;
+}
+
+main h3 {
+    color: #00B172;
+}
+
+main article {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    text-align: center;
+    width: 100%;
+}
+
+main p {
+    width: 40%;
+    justify-content: center;
+}
+
+#spotify-perks {
+    display: flex;
+    justify-content: space-around;
+    width: 100%;
+}
+
+.main-icons {
+    height: 150px;
+    margin-bottom: 40px;
+}
+
+
+footer {
+    background-color: #00B172;
+    display: flex;
+    justify-content: space-around;
+    position: relative;
+    margin: 20px;
+
+}
+
+#footer-text {
+    padding: 40px 0;
+}
+
+footer h2,
+footer h3,
+footer p {
+    color: white;
+}
+
+footer article {
+    margin: 40px 0;
+}
+
+footer h2 {
+    border-bottom: 4px solid white;
+    font-size: 50px;
+}
+
+footer p {
+    font-weight: lighter;
+    width: 50%;
+}
+
+#logo-footer {
+    width: 120px;
+    position: absolute;
+    align-self: center;
+}
+
+#spotify-app {
+    width: 300px;
+    padding: 60px 0;
+}
