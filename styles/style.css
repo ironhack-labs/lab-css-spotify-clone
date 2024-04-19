@@ -6,3 +6,205 @@ Green: #00B172
 White: #FFF
 
 */
+
+/* Google fonts import */
+@import url("'https://fonts.googleapis.com/css2?family=Roboto:wght@100;300;400;500;700&display=swap");
+
+/* CSS Reset */
+* {
+  box-sizing: border-box;
+  margin: 0;
+  padding: 0;
+  /* Temporary border guides */
+  /* outline: 1px red solid;
+  border: 1px red solid; */
+}
+
+/* General styling */
+body {
+  font-family: "Roboto", sans-serif;
+  width: 100vw;
+}
+
+/* Header styling */
+header {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  background-color: #fff;
+  position: sticky;
+  z-index: 1;
+  width: 100%;
+  top: 0;
+}
+
+.spotify-logo {
+  width: 200px;
+  padding: 20px;
+}
+
+/* Navigation bar styling */
+nav ul {
+  list-style-type: none;
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+  margin-right: 1rem;
+  gap: 1rem;
+}
+
+nav a {
+  text-decoration: none;
+  color: black;
+}
+
+/* Top section styling */
+#top-section {
+  display: flex;
+  flex-direction: column;
+  position: relative;
+  justify-content: center;
+}
+
+#top-section div {
+  display: flex;
+  flex-direction: column;
+  position: absolute;
+  color: #fff;
+  text-align: center;
+  align-self: center;
+}
+
+#top-section h1 {
+  font-size: 4rem;
+  margin-bottom: 1.5rem;
+}
+
+#top-section h4 {
+  font-size: 1.5rem;
+  font-weight: 100;
+}
+
+/* Middle section styling */
+.middle-section-container {
+  display: flex;
+  flex-direction: column;
+  justify-content: space-evenly;
+  align-items: center;
+  height: auto;
+}
+
+.middle-section-container div {
+  display: flex;
+  justify-content: space-evenly;
+  width: 90%;
+}
+
+.middle-section-container h1 {
+  padding: 10px;
+  margin: 3rem 0;
+  font-weight: 500;
+  font-size: 2.5rem;
+  text-align: center;
+}
+
+.content-box {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  text-align: center;
+  padding: 2rem;
+  gap: 1rem;
+}
+
+.content-box img {
+  max-height: 100px;
+}
+
+.content-box p {
+  font-weight: 100;
+}
+
+.content-box h2 {
+  color: #00b172;
+}
+
+#middle-section h1 span {
+  border-bottom: 4px solid #00b172;
+  padding: 8px 0;
+}
+
+/* Bottom section styling */
+#bottom-section {
+  background: #00b172;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  align-content: center;
+  color: #fff;
+  margin: 3%;
+  padding: 3%;
+  height: auto;
+  text-align: center;
+  position: relative;
+}
+
+#bottom-section h1 {
+  width: 90%;
+  font-weight: 700;
+  font-size: 1.5rem;
+  text-align: left;
+  margin-bottom: 1.5rem;
+}
+
+#bottom-section h1 span {
+  border-bottom: 4px solid #fff;
+}
+
+#bottom-section h2 {
+  font-weight: 300;
+  margin-bottom: 0.5rem;
+}
+
+#bottom-section p {
+  font-weight: 100;
+  font-size: 1rem;
+  text-align: left;
+  margin-bottom: 2rem;
+  width: 80%;
+}
+
+.right-container img {
+  width: 55%;
+}
+
+.middle-container img {
+  width: 9vw;
+}
+
+.bottom-section-container {
+  display: flex;
+  flex-wrap: nowrap;
+  justify-content: space-around;
+  align-items: center;
+  align-content: center;
+  width: 100%;
+}
+
+.left-container {
+  display: flex;
+  flex-direction: column;
+  flex-wrap: wrap;
+  justify-content: center;
+  align-items: flex-start;
+  align-content: center;
+  width: 45%;
+}
+
+.middle-container {
+  width: 10%;
+}
+
+.right-container {
+  width: 45%;
+}
