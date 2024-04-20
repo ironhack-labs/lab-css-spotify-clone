@@ -6,3 +6,143 @@ Green: #00B172
 White: #FFF
 
 */
+
+:root{
+    --green:#00B172;
+    --White:#fff;
+    --textColor: #1a1a1a;
+}
+
+body{
+    margin: 0 auto;
+    font-family: Helvetica;
+    box-sizing: border-box;
+    
+}
+
+nav{
+    display: flex;
+    justify-content: space-around;
+    background-color: var(--White);
+    padding: 25px;
+    width: 100%;
+}
+
+nav ul{
+    list-style: none;
+}
+
+nav ul li{
+    display: inline;
+    margin-left: 40px;
+}
+
+nav ul li:first-child{
+    margin-left: none;
+}
+
+nav ul li a{
+    text-decoration: none;
+    color: var(--textColor);
+}
+
+nav img{
+    width: 200px;
+    height: 60px;
+}
+
+header{
+    background-image: url("/images/landing.jpg");
+    background-size: cover;
+    height: 850px;
+    text-align: center;
+    display: flex;
+    flex-wrap: wrap;
+    height: 100%;
+}
+
+header div{
+    height: 800px;
+    display: flex;
+    flex-wrap: nowrap;
+    align-items: center;
+    justify-content: center;
+    align-content: center;
+    flex-direction: column;
+    width: 100%;
+
+}
+
+header h1{
+    color: var(--White);
+    font-size: 4em;
+}
+
+header p{
+    color: var(--White);
+}
+
+section:first-of-type{
+    text-align: center;
+    width: 100%;
+    margin-bottom: 50px;
+}
+
+section:first-of-type h2{
+    font-size: 2em;
+    margin-bottom: 50px;
+    margin-top: 50px;
+}
+
+section:first-of-type h3{
+    color: var(--green);
+}
+
+section:first-of-type div{
+    width: 100%;
+    display: flex;
+    justify-content: space-around;
+}
+
+section:first-of-type article{
+    width: 20%;
+    text-align: center;
+}
+
+section:first-of-type article img{
+    width: 50px;
+}
+
+section:last-of-type{
+    background-color: var(--green);
+    padding-top: 50px;
+    padding-bottom: 50px;
+    color: white;
+    display: flex;
+    justify-content: space-around;
+    align-content: center;
+    align-items: center;
+    background-image: url("/images/spotify-icon-white.png");
+    background-repeat: no-repeat;
+    background-size: 10%;
+    background-position: center;
+}
+
+section:last-of-type div:first-of-type{
+    display: flex;
+    flex-direction: column;
+    width: 40%;
+}
+
+section:last-of-type div:first-of-type h2{
+    font-size: 2em;
+    text-decoration: underline;
+}
+
+section:last-of-type div:last-of-type img{
+    text-align: center;
+}
+
+section:last-of-type div:last-of-type img{
+    width: 300px;
+}
