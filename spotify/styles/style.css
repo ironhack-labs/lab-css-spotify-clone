@@ -1,0 +1,387 @@
+
+/*
+Colors:
+Text: 1A1A1A
+Green: #00B172
+White: #FFF
+*/
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+body {
+    font-family: 'Roboto';
+    font-size: 16px;    padding-top: 10px;
+  }
+
+  .navbar {
+    position: fixed;
+    top: 0;
+    width: 100%;
+    padding: 20px 20px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    z-index: 1;
+    background-color: #fff; 
+}
+
+.navbar img {
+    width: 130px;
+    height: auto;
+}
+
+.navbar ul {
+    list-style-type: none;
+    margin-right: 20px;
+}
+
+.navbar li {
+    display: inline-block;
+    margin-right: 10px;
+}
+
+.navbar a {
+    color: black;
+    text-decoration: none;
+}
+
+.header {
+    padding-top: 90px;
+}
+
+.landing {
+    text-align: center;
+}
+
+.landing img{
+    width: 100%;
+    height: auto;
+    display: block;
+    margin: 0 auto;
+}
+
+.landing{
+    position: relative;
+}
+
+.landing-text {
+    position: absolute;
+    color: #fff;
+    text-align: center;
+    top:50%;
+    margin-left:20%;
+    width: 60%;
+    transform: translateY(-50%);
+    font-size: 1em;
+    resize:both;
+    overflow: auto;
+    padding: 50px;
+    line-height: 1.5em;
+}
+
+.landing h1 {
+    margin-bottom: 20px;
+    font-size: 2.5em;
+}
+
+.elements h3 {
+    text-decoration: underline;
+    text-decoration-color: #00B172;
+    text-decoration-thickness: 2px;
+    text-underline-offset: 0.5em;
+    padding-bottom: 5px;
+    text-align: center;
+    margin-top: 30px;
+    margin-bottom: 30px;
+    font-size: 1.5em;
+}
+
+.elements{
+    margin-bottom: 30px;
+}
+
+.element {
+   display: inline-block;
+    background-color: #fff;
+    width: 29.33%;
+    height: auto;
+    margin:1%;
+    padding: 1%;
+    text-align: center;
+    margin-left: 30px;
+    line-height: 24px;
+    vertical-align: top;
+
+}
+
+.element img {
+    width: 50px;
+    height: auto;
+}
+.element h4 {
+    color:#00B172;
+    margin-bottom: 1.2em;
+    font-size: 1.2em;
+}
+.content {
+    padding: 10px;
+    clear: both;
+}
+
+.content {
+    background-color: #00B172;
+    height: 650px;
+    color: #fff;
+    margin-left: 35px;
+    margin-right: 35px;
+    position: relative;
+
+}
+
+#icon {
+    width: 100px;
+    height: auto;
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    padding: 10px;
+}
+
+#app {
+    width: 300px;
+    height: auto;
+    position: absolute;
+    top: 10%;
+    right: 50px;
+}
+
+section, aside {
+    flex: 1;
+    margin-right: 50px;
+}
+section, aside {
+float: left;
+width: 42%;
+padding: 1%;
+margin: 1%;
+}
+
+section {
+    padding: 30px;
+    text-align: justify;
+    line-height: 150%;
+}
+
+.content p{
+    margin-top: 20px;
+    margin-bottom: 30px;
+}
+.content h3 {
+    font-size: 1.4em;
+    text-decoration: underline;
+    text-decoration-thickness: 2px;
+    text-underline-offset: 0.5em;
+    padding-bottom: 5px;
+    margin-bottom: 60px;
+}
+
+.content h4 {
+    font-size: 1.3em;
+    margin-bottom: 30px;
+}* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+body {
+    font-family: 'Roboto';
+    font-size: 16px;    
+    padding-top: 10px;
+}
+
+.navbar {
+    position: fixed;
+    top: 0;
+    width: 100%;
+    padding: 20px 20px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    z-index: 1;
+    background-color: #fff; 
+}
+
+.navbar img {
+    width: 130px;
+    height: auto;
+}
+
+.navbar ul {
+    list-style-type: none;
+    margin-right: 20px;
+}
+
+.navbar li {
+    display: inline-block;
+    margin-right: 10px;
+}
+
+.navbar a {
+    color: black;
+    text-decoration: none;
+}
+
+.hero {
+    text-align: center;
+}
+
+.hero img{
+    width: 100%;
+    height: auto;
+    display: block;
+    margin: 0 auto;
+}
+
+.hero{
+    position: relative;
+}
+
+.hero-text {
+    position: absolute;
+    color: #fff;
+    text-align: center;
+    top:50%;
+    margin-left:20%;
+    width: 60%;
+    transform: translateY(-50%);
+    font-size: 1em;
+    resize:both;
+    overflow: auto;
+    padding: 50px;
+    line-height: 1.5em;
+}
+
+.hero h1 {
+    margin-bottom: 20px;
+    font-size: 2.5em;
+}
+
+.features h3 {
+    text-decoration: underline;
+    text-decoration-color: #00B172;
+    text-decoration-thickness: 2px;
+    text-underline-offset: 0.5em;
+    padding-bottom: 5px;
+    text-align: center;
+    margin-top: 30px;
+    margin-bottom: 30px;
+    font-size: 1.5em;
+}
+
+.features{
+    margin-bottom: 30px;
+}
+
+.feature {
+   display: inline-block;
+    background-color: #fff;
+    width: 29.33%;
+    height: auto;
+    margin:1%;
+    padding: 1%;
+    text-align: center;
+    margin-left: 30px;
+    line-height: 24px;
+    vertical-align: top;
+
+}
+
+.feature img {
+    width: 50px;
+    height: auto;
+}
+.feature h4 {
+    color:#00B172;
+    margin-bottom: 1.2em;
+    font-size: 1.2em;
+}
+.content {
+    padding: 10px;
+    clear: both;
+}
+
+.content {
+    background-color: #00B172;
+    height: 650px;
+    color: #fff;
+    margin-left: 35px;
+    margin-right: 35px;
+    position: relative;
+
+}
+
+#icon {
+    width: 100px;
+    height: auto;
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    padding: 10px;
+}
+
+#app {
+    width: 300px;
+    height: auto;
+    position: absolute;
+    top: 10%;
+    right: 50px;
+}
+
+section, aside {
+    flex: 1;
+    margin-right: 50px;
+}
+section, aside {
+float: left;
+width: 42%;
+padding: 1%;
+margin: 1%;
+}
+
+section {
+    padding: 30px;
+    text-align: justify;
+    line-height: 150%;
+}
+
+.content p{
+    margin-top: 20px;
+    margin-bottom: 30px;
+}
+.content h3 {
+    font-size: 1.4em;
+    text-decoration: underline;
+    text-decoration-thickness: 2px;
+    text-underline-offset: 0.5em;
+    padding-bottom: 5px;
+    margin-bottom: 60px;
+}
+
+.content h4 {
+    font-size: 1.3em;
+    margin-bottom: 30px;
+}
+   
+
+@media screen and (max-width: 1110px) {
+    .features .feature {
+        width: 100%; 
+        margin: 0; 
+        margin-bottom: 20px;
+    }
+}
