@@ -1,0 +1,279 @@
+/* google fonts import  - ROBOTO */
+@import url("'https://fonts.googleapis.com/css2?family=Roboto:wght@100;300;400;500;700&display=swap");
+
+:root {
+  --clr-text: #1a1a1a;
+  --clr-white: #fff;
+  --green: #00b172;
+}
+
+*,
+*:before,
+*:after {
+  box-sizing: inherit;
+  text-decoration: none;
+  color: var(--clr-text);
+}
+
+ul,
+ol {
+  list-style-type: none;
+}
+
+html {
+  box-sizing: border-box;
+  font-size: 16px;
+}
+
+body {
+  font-family: "Roboto", sans-serif;
+}
+
+body,
+h1,
+h2,
+h3,
+h4,
+h5,
+h6,
+p,
+ol,
+ul {
+  margin: 0;
+  padding: 0;
+  font-weight: lighter;
+}
+
+.hr-spotify-section {
+  height: 5px;
+  background-color: var(--green);
+  max-width: 400px;
+}
+
+.container {
+  width: 90%;
+}
+
+/* ---------------------------------------------------> Navbar Section */
+nav {
+  min-height: 110px;
+  padding: 1.5rem;
+  margin: auto;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  flex-wrap: wrap;
+}
+
+nav ul {
+  display: flex;
+  justify-content: space-between;
+  flex-wrap: wrap;
+  gap: 45px;
+}
+
+nav ul a {
+  font-size: 1.7em;
+}
+
+nav img {
+  height: 75px;
+  width: auto;
+  margin-left: 50px;
+}
+
+/* ---------------------------------------------------> Header Section */
+header {
+  height: 900px;
+  background-image: url("../images/landing.jpg");
+  background-position: center center;
+  background-size: cover;
+  background-repeat: no-repeat;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  flex-direction: column;
+}
+
+.header-container {
+  margin: auto 20px;
+  display: flex;
+  flex-direction: column;
+}
+
+header h1 {
+  color: var(--clr-white);
+  font-weight: 100;
+  font-size: 6rem;
+  font-weight: 700;
+  margin-bottom: 35px;
+  text-align: center;
+}
+
+header p {
+  color: var(--clr-white);
+  font-size: 2rem;
+  text-align: center;
+}
+
+/* ---------------------------------------------------> Spotify Section */
+#spotify-section {
+  display: flex;
+  justify-content: center;
+  margin: 75px auto;
+}
+
+#spotify-section h2 {
+  font-size: 50px;
+  font-weight: 900;
+  text-align: center;
+}
+
+.three-column-container {
+  display: flex;
+  justify-content: space-evenly;
+  width: 100%;
+}
+
+.column {
+  flex: 1;
+  text-align: center;
+  padding: 20px;
+}
+
+.column img {
+  width: 100%;
+  height: auto;
+}
+
+.column h3 {
+  margin: 20px auto;
+  font-size: 24px;
+}
+
+.column p {
+  margin: 10px auto;
+  font-size: 18px;
+}
+
+.hr-text-information {
+  height: 5px;
+  background-color: var(--clr-white);
+  max-width: 400px;
+}
+
+/* ---------------------------------------------------> Green Section */
+#green-section {
+  display: flex;
+  margin: 50px auto;
+  justify-content: center;
+  width: 90%;
+  background-image: url("../images/spotify-icon-white.png");
+  background-position: center center;
+  background-size: 125px 125px;
+  background-repeat: no-repeat;
+  background-color: var(--green);
+  min-height: 500px;
+}
+
+.text-information {
+  flex-basis: 60%;
+  margin: 40px;
+}
+
+.text-information * {
+  color: var(--clr-white);
+}
+
+.text-information h2 {
+  padding: 20px;
+  margin: 10px;
+  font-size: 40px;
+}
+
+.text-information h3 {
+  margin: 25px auto;
+  font-weight: 900;
+  font-size: 28px;
+}
+
+.text-information p {
+  margin: 25px auto;
+  letter-spacing: 0.1rem;
+  word-spacing: 0.5rem;
+  font-size: 20px;
+}
+
+.secondary-text-information {
+  max-width: 350px;
+  padding: 20px;
+  margin: 10px;
+}
+
+.green-image {
+  flex-basis: 40%;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  margin: 50px 10px;
+}
+
+.green-image img {
+  max-width: 350px;
+  padding: 10px;
+  margin: 10px;
+}
+
+.hr-text-information {
+  height: 5px;
+  background-color: var(--clr-white);
+  max-width: 400px;
+  position: relative;
+}
+
+/* ---------------------------------------------------> Media Queries */
+/* Small devices */
+@media only screen and (max-width: 392px) {
+  header h1 {
+    color: var(--clr-white);
+    font-weight: 100;
+    font-size: 4rem;
+    font-weight: 700;
+    margin-bottom: 35px;
+  }
+
+  nav img {
+    height: 55px;
+    width: auto;
+  }
+}
+
+/* Medium devices */
+@media only screen and (max-width: 768px) {
+  #green-section {
+    flex-direction: column;
+    background-image: none;
+  }
+
+  nav {
+    flex-direction: column;
+  }
+
+  nav ul {
+    display: flex;
+    justify-content: space-between;
+    flex-wrap: wrap;
+    flex-direction: column;
+    margin-top: 35px;
+    gap: 25px;
+  }
+}
+
+/* Large devices */
+@media only screen and (max-width: 992px) {
+  .green-image img {
+    max-width: 250px;
+    padding: 10px;
+    margin: 10px;
+  }
+}
