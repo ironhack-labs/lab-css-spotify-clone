@@ -4,15 +4,117 @@
     <meta charset="UTF-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <meta http-equiv="X-UA-Compatible" content="ie=edge" />
-    <title>Spotify Clone</title>
-    <!-- don't forget to link your styles -->
+    <title>Spotify Clon MJ</title>
+
+    <link rel="stylesheet" href="./styles/style.css" />
   </head>
   <body>
-    Premium Discover Help Download Music for everyone. Spotify is now free on mobile, tablet and computer. Listen to the
-    right music, wherever you are. What’s on Spotify? Millions of Songs There are millions of songs on Spotify HD Music
-    Listen to music as if you were listening live Stream Everywhere Stream music on your smartphone, tablet or computer
-    It’s as yeezy as Kanye West. Search Know what you want to listen to? Just search and hit play. Browse Check out the
-    latest charts, brand new releases and great playlists for right now. Discover Enjoy new music every Monday with your
-    own personal playlist. Or sit back and enjoy Radio.
+    <!-- header -->
+    <header>
+      <!-- spotify logo -->
+      <img
+        class="spotify-logo"
+        src="./images/spotify-logo.png"
+        alt="Spotify Logo"
+      />
+      <!-- Navigation Links -->
+      <nav>
+        <ul>
+          <li><a href="#Premium"></a>Premium</li>
+          <li><a href="#Discover"></a>Discover</li>
+          <li><a href="#Help"></a>Help</li>
+          <li><a href="#Download"></a>Download</li>
+        </ul>
+      </nav>
+    </header>
+
+    <!-- Section #1 - Image Section -->
+    <section class="img-container">
+      <img id="img-back" src="./images/landing.jpg" alt="Landing Picture" />
+      <div class="centered-text">
+        <span class="centered-title">Music is for everyone.</span>
+        <br />
+        <span class="centered-subtitle"
+          >Spotify is now free on mobile, tablet and computer.</span
+        >
+        <br />
+        <span class="centered-subtitle">
+          Listen to the right music, wherever you are.</span
+        >
+      </div>
+    </section>
+
+    <!-- Section #2 - Whats on Spotify -->
+    <section id="advantages">
+      <h1>
+        <span
+          >What's on <br />
+          Spotify?</span
+        >
+      </h1>
+      <!-- Father elementwith class of external-div -->
+      <div class="external-div">
+        <!-- Child element with class of internal-div -->
+        <div class="internal-div">
+          <img src="./images/music-icon.png" alt="Music Icon" />
+          <h2>Millions of Songs</h2>
+          <p>There are millions of songs on Spotify HD</p>
+        </div>
+        <!-- Child element with class of internal-div -->
+        <div class="internal-div">
+          <img src="./images/high-quality-icon.png" alt="" />
+          <h2>HD Music</h2>
+          <p>Listen to music as if you were listening live</p>
+        </div>
+        <!-- Child element with class of internal-div -->
+        <div class="internal-div">
+          <img src="./images/devices-icon.png" alt="" />
+          <h2>Stream Everywhere</h2>
+          <p>Stream music on your smartphone, tablet or computer</p>
+        </div>
+      </div>
+    </section>
+
+    <!-- Section #3 - Green Section -->
+    <section id="green-section">
+      <!-- Father elementwith class of external-div -->
+      <div class="external-div">
+        <!-- Child element with class of internal-div -->
+        <div class="internal-div">
+          <h1><span>It's as yeezy as kanye West.</span></h1>
+          <h2>Search</h2>
+          <p>Know what you want to listen to? Just search and hit play.</p>
+
+          <h2>Browse</h2>
+          <p>
+            Check out the latest charts, brand new releases and great playlists
+            for right now.
+          </p>
+          <h2>Discover</h2>
+          <p>
+            Enjoy new music every Monday with your own personal playlist. Or sit
+            back and enjoy Radio.
+          </p>
+        </div>
+        <!-- Child element with class of internal-div -->
+        <div class="internal-div2">
+          <img
+            class="white-spotify"
+            src="./images/spotify-icon-white.png"
+            alt="Spotify Icon white"
+          />
+        </div>
+        <!-- Child element with class of internal-div -->
+        <div class="internal-div3">
+          <img
+            class="app-img"
+            src="./images/spotify-app.jpg"
+            alt="Spotify App with my man Ye"
+          />
+        </div>
+      </div>
+    </section>
+
+
   </body>
 </html>

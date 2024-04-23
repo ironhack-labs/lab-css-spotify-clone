@@ -6,3 +6,188 @@ Green: #00B172
 White: #FFF
 
 */
+
+/* CSS RESET */
+*/
+  box-sizing: border-box;
+  margin: 0;
+  padding: 0;
+
+body {
+  font-family: "Roboto", sans-serif;
+  color: #1a1a1a;
+}
+
+
+header {
+  position: fixed;
+  z-index: 1;
+  width: 100%;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  background-color: #fff;
+}
+
+.spotify-logo {
+  width: 160px;
+  padding: 20px;
+}
+
+nav ul {
+  list-style: none;
+
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+  margin-right: 1rem;
+}
+
+nav a {
+  text-decoration: none;
+  color: black;
+  padding: 0 16px;
+}
+
+
+.img-container {
+  position: relative;
+  text-align: center;
+  color: white;
+}
+
+#img-back {
+  object-fit: cover;
+  width: 100%;
+  height: 650px;
+  padding-top: 5vh;
+}
+
+.centered-text {
+  position: absolute;
+  top: 45%;
+  width: 100%;
+}
+
+.centered-title {
+  text-align: center;
+  font-size: 4rem;
+  font-weight: 700;
+}
+
+.centered-subtitle {
+  text-align: center;
+  font-size: 2rem;
+  font-weight: 400;
+}
+
+
+#advantages h1 {
+  padding: 5px;
+  margin-bottom: 5rem;
+  font-weight: 500;
+  font-size: 2.5rem;
+  text-align: center;
+}
+
+#advantages h1 span {
+  border-bottom: 4px solid #00b172;
+}
+
+#advantages h2 {
+  color: #00b172;
+}
+#advantages p {
+  font-weight: 100;
+  font-size: 1.5rem;
+  text-align: center;
+}
+#advantages img {
+  width: 120px;
+  margin-bottom: 2rem;
+}
+#advantages .external-div {
+  /* flex props */
+  display: flex;
+  flex-direction: row;
+  justify-content: space-evenly;
+  flex-wrap: nowrap;
+  align-items: baseline;
+  width: 90%;
+}
+#advantages .internal-div {
+  /* flex props */
+  display: flex;
+  flex-direction: column;
+  flex-wrap: wrap;
+  justify-content: center;
+  align-items: center;
+  width: 30%;
+}
+/* Section #3 - Green Section */
+#green-section {
+  /* color props  */
+  background: #00b172;
+  /* flex props */
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  align-content: center;
+  color: #fff;
+  margin: 3%;
+  padding: 3%;
+  height: auto;
+  text-align: center;
+  /* Position Props */
+  position: relative;
+}
+#green-section h1 {
+  width: 90%;
+  font-weight: 700;
+  font-size: 2rem;
+  text-align: left;
+}
+
+#green-section h1 span {
+  border-bottom: 4px solid #fff;
+}
+#green-section h2 {
+  font-weight: 500;
+}
+#green-section p {
+  font-weight: 100;
+  font-size: 1.5rem;
+  text-align: left;
+}
+#green-section .app-img {
+  width: 55%;
+}
+#green-section .white-spotify {
+  width: 9vw;
+}
+#green-section .external-div {
+  /* flex props */
+  display: flex;
+  flex-direction: row;
+  flex-wrap: nowrap;
+  justify-content: space-around;
+  align-items: center;
+  align-content: center;
+  width: 100%;
+}
+#green-section .internal-div {
+  /* flex props */
+  display: flex;
+  flex-direction: column;
+  flex-wrap: wrap;
+  justify-content: center;
+  align-items: flex-start;
+  align-content: center;
+  width: 45%;
+}
+#green-section .internal-div2 {
+  width: 10%;
+}
+#green-section .internal-div3 {
+  width: 45%;
+}
