@@ -6,3 +6,141 @@ Green: #00B172
 White: #FFF
 
 */
+html, 
+body{
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    margin: 20px;
+    background-color:#FFF;
+}
+.nav-bar{
+    display: flex;
+    position: fixed;
+    justify-content: space-between;
+    flex-direction: row;
+    width: 100%;
+    height: 100px;
+}
+img-size{
+    width: 70%;
+    height: 100px;
+    align-content: center;
+}
+.logo{
+    width: 100px;
+    height: 50px;
+}
+.tabs{
+    display: flex;
+    flex-direction: row;
+    width: 30%;
+    height: 100px;
+    justify-content: space-around;
+    align-items: center;
+    flex-wrap: wrap;
+}
+
+.tabs p{
+    text-decoration: none;
+    font-size: 14px;
+    color: grey;
+    display: flex;
+    flex-direction: row;
+    align-content: space-between;
+}
+.bg-concert{
+    width: 100%;
+    height: 600px;
+    background-image: url(images/landing.jpg);
+    background-repeat: no-repeat;
+    background-size:auto;
+}
+h1{
+    color: white;
+    font-size: 60px;
+    text-align: center;
+    padding-top: 250px;
+}
+.bg-concert p{
+    color:white;
+    font-size: 20px;
+    text-align: center;
+}
+br{
+    color:#00B172;
+}
+.cards{
+    display:flex;
+    flex-direction: row;
+    justify-content: space-between;
+    padding: 100px;
+}
+.card-1{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    border: 2px solid yellow;
+    width: 350px;
+    height: 200px;
+    margin: 30px;
+}
+.card-1 img {
+   width: 40px;
+   height: 40px;
+   align-content: center;
+}
+h2{
+    align-items: center;
+    text-decoration: underline;
+}
+
+.card-1 h3 {
+    color:#00B172;
+    text-align: center;
+}
+.card-1 p{
+    color: black;
+    size: 14px;
+    text-align: center;
+}
+.container{
+    background-color:#00B172;
+    width: 100%;
+    height: 600px;
+    display: flex;
+    flex-direction: row;
+}
+.bottom-text{
+    display: flex;
+    flex-direction: column;
+    width: 400px;
+    height: 100%;
+    padding-left: 30px;
+
+}
+h4{
+    color:white;
+    text-decoration: underline; 
+    font-size: 24px;
+}
+h5{
+    color:white;
+    font-size: 18px;
+}
+.container p{
+    color: white;
+    font-size: 14;
+}
+.bottom-img{
+    display: flex;
+    flex-direction: row-reverse;
+    align-content: space-between;
+    width: 600px;
+    height: 100%;
+    padding-right: 30px;
+    padding-top: 250px;
+}
+.bottom-img img{
+    width: 100px;
+    height: 200px;
+    align-content: center;
+}
