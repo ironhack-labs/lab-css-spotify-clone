@@ -1,8 +1,227 @@
-/*
-Colors:
+/* Reset default browser styles and provide a consistent starting point */
+html {
+    box-sizing: border-box;
+    font-size: 16px;
+}
 
-Text: 1A1A1A
-Green: #00B172
-White: #FFF
+*,
+*:before,
+*:after {
+    box-sizing: inherit;
+}
 
-*/
+body,
+h1,
+h2,
+h3,
+h4,
+h5,
+h6,
+p,
+ol,
+ul {
+    margin: 0;
+    padding: 0;
+    font-weight: lighter;
+}
+
+/* Set the font */
+body {
+    font-family: "Helvetica", sans-serif;
+}
+
+/* STYLES */
+
+#navMenu {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    position: fixed;
+    width: 100%;
+    background-color: #FFF;
+}
+
+#links,
+a {
+    text-decoration: none;
+    margin: 15px;
+    font-size: 1em;
+    color: #1A1A1A;
+}
+
+
+#heroSection {
+    background-image: url(../images/landing.jpg);
+    background-size: cover;
+    background-position: center;
+    height: 80vh;
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+    text-align: center;
+}
+
+.overlayHeading {
+    color: #FFF;
+    font-size: 3em;
+    font-weight: 500;
+    z-index: 1;
+    text-align: center;
+}
+
+.overlayText {
+    color: #FFF;
+    font-size: 1em;
+    text-align: center;
+}
+
+.optionsTitle {
+    text-align: center;
+    font-size: 1.8em;
+    width: fit-content;
+    margin: 30px auto 10px;
+}
+
+#services {
+    padding: 50px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+#services h2 {
+    text-align: center;
+    border-bottom: 6px solid #00B172;
+    margin-bottom: 50px;
+}
+
+#services h3 {
+    color: #00B172;
+}
+
+#services article {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    text-align: center;
+    width: 100%;
+}
+
+#services p {
+    width: 40%;
+    justify-content: center;
+}
+
+#spotify-perks {
+    display: flex;
+    justify-content: space-around;
+    width: 100%;
+}
+
+.main-icons {
+    height: 150px;
+    margin-bottom: 40px;
+}
+
+
+footer {
+    background-color: #00B172;
+    display: flex;
+    justify-content: space-around;
+    position: relative;
+    margin: 20px;
+
+}
+
+#footer-text {
+    padding: 40px 0;
+}
+
+footer article {
+    margin: 40px 0;
+}
+
+footer h2 {
+    display: inline-block;
+    border-bottom: 4px solid #FFF;
+    font-size: 2.1em;
+    color: #FFF;
+}
+
+footer h3 {
+    color: #FFF;
+    font-size: 1.5em;
+    font-weight: 500;
+    padding-bottom: 1em;
+}
+
+footer p {
+    font-weight: lighter;
+    width: 50%;
+    color: #FFF;
+}
+
+#logo-footer {
+    width: 120px;
+    position: absolute;
+    align-self: center;
+}
+
+#spotify-app {
+    width: 300px;
+    padding: 60px 0;
+}
+
+/* Media Queries for Mobile Devices */
+@media only screen and (max-width: 768px) {
+    #navMenu {
+        flex-direction: column;
+        align-items: center;
+    }
+
+    #links {
+        margin-top: 20px;
+    }
+
+    #heroSection {
+        height: 60vh;
+    }
+
+    .overlayHeading {
+        font-size: 2.5em;
+    }
+
+    .overlayText {
+        font-size: 0.8em;
+    }
+
+    #services p {
+        width: 70%;
+    }
+
+    footer {
+        flex-direction: column;
+        align-items: center;
+    }
+
+    footer h2 {
+        font-size: 1.8em;
+    }
+
+    footer h3 {
+        font-size: 1.2em;
+    }
+
+    footer p {
+        width: 80%;
+    }
+
+    #logo-footer {
+        position: relative;
+        margin-bottom: 20px;
+    }
+
+    #spotify-app {
+        width: 80%;
+    }
+}
