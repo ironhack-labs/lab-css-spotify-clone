@@ -6,3 +6,227 @@ Green: #00B172
 White: #FFF
 
 */
+
+html {
+    font-size: 16px;
+}
+
+body {
+    font-family: 'Roboto', sans-serif;
+    font-size: 1rem;
+    color: #1A1A1A;
+    background-color: #FFF;
+    margin: 0;
+    padding: 0;
+}
+
+nav {
+    position: fixed;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: center;
+    padding: 1rem 2rem;
+    width: 100vw;
+    margin-top: 0;
+    top: 0;
+    background-color: #FFF;
+}
+
+nav > div {
+    height: 2rem;
+}
+
+nav > ul {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+    align-items: center;
+    list-style: none;
+}
+
+nav > ul > li {
+    margin: 0 1rem;
+    font-weight: 300;
+}
+
+div[class=hero] {
+    position: relative;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    background-image: url('../images/landing.jpg');
+    background-size: contain;
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: auto 100%;
+    width: 100vw;
+    height: 100vh;
+    top: 4rem;
+}
+
+div[class=hero] > h1 {
+    font-size: 3rem;
+    color: #FFF;
+    text-align: center;
+    margin-top: 0;
+    line-height: 1.5;
+}
+
+div[class=hero] > p {
+    font-size: 1.5rem;
+    color: #FFF;
+    text-align: center;
+    font-weight: 300;
+    line-height: 1.25;
+    width: 35rem;
+}
+
+div[class=features] {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    background-color: #FFF;
+    color: #1A1A1A;
+    padding: 2rem;
+    margin-top: 5rem;
+    width: 30;
+}
+
+
+div[class=features] > h2 {
+    font-size: 2rem;
+    color: #1A1A1A;
+    text-align: center;
+}
+
+div[class=features] > hr {
+    border-bottom: 0.15rem solid #00B172;
+    margin: auto;
+    width: 16rem;
+    margin-top: 0.3rem;
+  }
+
+div[class=features] > div {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+    align-items: top;
+    margin-top: 2rem;
+}
+
+div[class=features] > div > div {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    width: 20rem;
+}
+
+div[class=features] h3 {
+    font-size: 1.5rem;
+    color: #00B172;
+    text-align: center;
+    margin-top: 0;
+    font-weight: 500;
+    line-height: 1.5;
+}
+
+div[class=features] p {
+    font-size: 1rem;
+    color: #1A1A1A;
+    text-align: center;
+    font-weight: 100;
+    line-height: 1.25;
+    margin-top: 1.5rem;
+    margin-bottom: 1.5rem;
+    width: 15rem;
+}
+
+div[class=fetaures-image] img {
+    width: 10rem;
+    height: 10rem;
+}
+
+div[class=yeezy] {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: center;
+    background-color: #00B172;
+    color: #FFF;
+    padding: 5rem;
+    margin: 2rem;
+    padding-top: 1rem;
+    margin-top: 1rem;
+}
+
+div[class=yeezy-features] {
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-start;
+    align-items: left;
+    width: 30rem;
+}
+
+div[class=yeezy-features] > hr {
+    border-bottom: 0.15rem solid #FFF;
+    text-align: center;
+    width: 20rem;
+    margin-top: 0.3rem;
+    margin-bottom: 10rem;
+}
+
+div[class=yeezy-features] > h2 {
+    font-size: 2rem;
+    color: #FFF;
+    margin-top: 0;
+}
+
+div[class=yeezy-features] > p {
+    font-size: 1.5rem;
+    color: #FFF;
+    font-weight: 300;
+    line-height: 1.25;
+    margin-top: 1.5rem;
+    width: 35rem;
+}
+
+div[class=yeezy-features] > div {
+    display: flex;
+    flex-direction: column;
+    justify-content: space-around;
+    align-items: top;
+    margin-top: 2rem;
+    width: 20rem;
+}
+
+div[class=yeezy-features] h3 {
+    font-size: 1.5rem;
+    color: #FFF;
+    text-align: left;
+    margin-top: 0;
+    font-weight: 800;
+    line-height: 1.5;
+    margin-bottom: 1rem;
+}
+div[class=yeezy-features] p {
+    font-size: 1rem;
+    color: #FFF;
+    text-align: left;
+    font-weight: 100;
+    line-height: 1.25;
+    margin-top: 0;
+    margin-bottom: 1.5rem;
+    width: 15rem;
+}
+
+div[class=spotify-image] img {
+    width: 10rem;
+}
+
+div[class="yeezy-image"] img {
+    width: 30rem;
+}
+
