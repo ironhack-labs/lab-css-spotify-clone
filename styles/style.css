@@ -6,3 +6,137 @@ Green: #00B172
 White: #FFF
 
 */
+
+
+html {
+    color: #1A1A1A;
+    font-family: system-ui, sans-serif;
+    font-size: 16px;
+}
+
+body {
+    margin: 0;
+    width: 100%;
+}
+
+.header {
+    position: fixed;
+    top: 0;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: center;
+    background-color: white;
+    width: 100%;
+}
+
+nav {
+    display: flex;
+    gap: 20px;
+    padding: 2%;
+}
+
+nav a{
+    text-decoration: none;
+    color: currentColor;
+}
+
+.logo {
+    width: 20vh;
+    margin-left: 2%;
+}
+
+.hero {
+    background-image: url("../images/landing.jpg");
+    background-size: cover;
+    background-position: center;
+    color: #FFF;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    text-align: center;
+    justify-content: center;
+    font-size: 1.5rem;
+    height: 85vh;
+    width: 100%;
+}
+
+.hero > h1 {
+    font-size: 4rem;
+}
+
+.whats-on {
+    display: flex;
+    justify-content: center;
+    margin: 20px 0;
+}
+
+.whats-on h1 {
+    border-bottom: 4px solid #00B172;
+} 
+
+.services {
+    display: flex;
+    justify-content: space-around;
+    padding: 2% 4%;
+}
+
+.services img {
+    height: 10vh;
+}
+
+.services h2 {
+    color: #00B172;
+}
+
+.services-card {
+    flex-basis: 33%;
+    text-align: center;
+}
+
+.green-section {
+    background-color: #00B172;
+    margin: 2%;
+    padding: 6%;
+    color: white;
+    display: flex;
+    justify-content: space-between;
+    position: relative;
+}
+
+.green-section .content {
+    display: flex;
+    flex-direction: column;
+    width: 50%;
+    font-size: 1.5rem;
+}
+
+.green-section h1 {
+    border-bottom: 4px solid white;
+    width: fit-content;
+    padding-bottom: 5px;
+}
+
+.green-section .image {
+    padding: 20px;
+}
+
+.green-section img {
+    width: auto !important;
+    height: 70vh;
+    margin-top: 100px;
+}
+
+.icon-absolute {
+    position: absolute;
+    height: 20vh !important;
+    align-self: center !important;
+    left: 50%;
+}
+
+
+
+
+
+
+    
