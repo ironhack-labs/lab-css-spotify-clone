@@ -1,8 +1,196 @@
-/*
-Colors:
+html {
+    font-size: 10px;
+}
 
-Text: 1A1A1A
-Green: #00B172
-White: #FFF
+body {
+    margin: 0rem;
+}
 
-*/
+header {
+    background-image: url("../images/landing.jpg");
+    background-repeat: no-repeat;
+    background-size: cover;
+    width: 100vw;
+}
+
+.nav-bar img {
+    width: 15rem;
+}
+
+li {
+    padding-left: 1.5rem;
+}
+
+.nav-bar {
+    position: fixed; /* Fixes the nav at the top of the viewport */
+    top: 0;
+    display: flex;
+    background-color: white;
+    font-size: 1.6rem;
+    justify-content: space-between;
+    align-items: center;
+    width: 100%;
+}
+
+.nav-bar ul {
+    display: flex;
+    list-style-type: none;
+    padding-bottom: 0.5rem;
+    margin: 0.5rem;
+    font-family: "Roboto", sans-serif;
+    font-weight: 300;
+    font-style: normal;
+    padding-left: 2.5rem;
+    padding-right: 2.5rem;
+}
+
+h1 {
+    color: white;
+    font-size: 4.5rem;
+    font-family: "Roboto", sans-serif;
+    font-weight: 400;
+    font-style: normal;
+}
+
+h2 {
+    color: white;
+    font-family: "Roboto", sans-serif;
+    font-weight: 100;
+    font-style: normal;
+    margin: 0.3rem;
+    text-align: center;
+    font-size: 2.0rem;
+}
+
+header article {
+    height: 50rem;
+    color: white;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    padding: 0 3rem;
+}
+
+header p {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    font-size: 15px;
+}
+
+h2 {
+    color: white;
+    font-family: "Roboto", sans-serif;
+    font-weight: 500;
+    font-style: normal;
+    font-size: 2.5rem;
+    padding-top: 2.5rem;
+    padding-bottom: 2.5rem;
+}
+
+section {
+    display: flex;
+    flex-wrap: wrap;
+    flex-direction: row;
+    justify-content: space-evenly;
+    margin-bottom: 4.5rem;
+}
+
+section > div {
+    display: flex;
+    flex-direction: column; /* Stacks div children vertically */
+    align-items: center; /* Aligns div children (h2, p) in the center horizontally */
+    justify-content: center;
+    max-width: 18rem;
+    text-align: center;
+    padding: 2.0rem;
+}
+
+.icons {
+    width: 8.0rem;
+}
+
+.green-heading {
+    color:#1db954;
+    font-family: "Roboto", sans-serif;
+    font-weight: 500;
+    font-style: normal;
+    font-size: 1.5rem;
+}
+
+.description-perks {
+    font-family: "Roboto", sans-serif;
+    font-weight: 100;
+    font-style: normal;
+    margin: 0.3rem;
+    text-align: center;
+    font-size: 1.5rem;
+}
+
+.footer-background {
+    position: relative;
+    background-color: #1db954;
+    background-size: cover;
+    width: 100vw;
+    display: flex;
+    justify-content: space-between;
+}
+
+.icon-on-green {
+    color: white;
+    position: absolute;
+    max-width: 10rem;
+    top: 50%; 
+    left: 50%;
+}
+
+.description-possibilities {
+    display: flex;
+    flex-direction: column;
+    align-items: start;
+    justify-content: space-between;
+    margin-left: 5.0rem;
+    text-align: start;
+    align-items: start;
+    padding-bottom: 2.5rem;;
+}
+
+.possibilites-text {
+    font-family: "Roboto", sans-serif;
+    font-weight: 100;
+    font-style: normal;
+    font-size: 1.3rem;
+    max-width: 18rem;
+    color: white;
+}
+
+#yeezy-title {
+    font-family: "Roboto", sans-serif;
+    font-weight: 500;
+    font-style: normal;
+    font-size: 2.5rem;
+    padding-top: 2.5rem;
+    padding-bottom: 2.5rem;
+    text-decoration: white underline;
+    text-underline-offset: 1.5rem;
+}
+
+.possibilities-headings {
+    font-family: "Roboto", sans-serif;
+    color: white;
+    font-weight: 500;
+    font-style: normal;
+    font-size: 2.0rem;
+}
+
+.app-container {
+    display: flex;
+    justify-content: center;
+    align-items: end;
+}
+.app-container > img {
+    width: 210px;
+    margin-right: 70px;
+    margin-bottom: 50px;
+}
