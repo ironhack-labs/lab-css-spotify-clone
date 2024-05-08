@@ -6,3 +6,140 @@ Green: #00B172
 White: #FFF
 
 */
+
+header {
+    display: flex;
+    justify-content: space-between;
+    flex-direction: row;
+}
+
+nav {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    width: 100vw;
+    position: fixed;
+    background-color: white;
+}
+
+#spotify-logo {
+    margin-left: 20px;
+}
+
+nav ul {
+    list-style: none;
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+}
+
+.list-one li {
+    display: flex;
+    justify-content: space-between;
+    margin-right: 30px;
+}
+
+#landing-pic {
+    display: flex;
+    padding-top: 50px;
+    padding-bottom: 30px;
+}
+
+#landing {
+    position: relative;
+    text-align: center;
+    color: white;
+}
+
+#landing-text {
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+}
+
+#landing-paragraph {
+    width: 350px;
+}
+
+h2 {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    text-decoration: underline; 
+    text-decoration-color: #00B172;
+}
+
+#container {
+    display: flex;
+    justify-content: space-between;
+    margin-top: 30px;
+}
+
+.box {
+    flex: 0 1 calc(33.33% - 10px);
+    margin-right: 40px;
+    margin-left: 40px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    text-align: center;
+    border: 4px solid yellow;
+}
+
+h3 {
+    color: #00B172;
+}
+
+#k-west-page {
+    margin-top: 50px;
+    padding: 30px;
+    margin: 40px;
+    background-color: #00B172;
+    display: flex;
+    justify-content: space-between;
+    position: relative;
+}
+
+#k-west {
+    color: white;
+    height: auto;
+    display: flex;
+    justify-content: space-between;
+    flex-direction: column;
+    align-items: flex-start;
+    margin-top: 30px;
+}
+
+h4 {
+    font-size: 30px;
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+    text-decoration: underline; 
+}
+
+h5 {
+    font-size: 20px;
+}
+
+.box2 {
+    flex: 0 1 calc(33.33% - 10px);
+    width: 200px;
+    display: flex;
+    flex-direction: column;
+    
+}
+
+#spotify-icon {
+    position: absolute;
+    top: 50%; 
+    left: 50%; 
+    transform: translate(-50%, -50%);  
+}
+
+#spotify-app {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
