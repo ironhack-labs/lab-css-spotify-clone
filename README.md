@@ -26,7 +26,7 @@
 
 ## Introduction
 
-Everybody likes music, right? So the odds are that you have heard of **Spotify**.
+Everybody likes music, right? So the odds are that you have heard of **music lite**.
 
 In this lab, we will be building a simplified version of the Spotify landing page:
 
