@@ -6,3 +6,147 @@ Green: #00B172
 White: #FFF
 
 */
+@import url('https://fonts.googleapis.com/css2?family=Montserrat:ital,wght@0,100..900;1,100..900&family=Roboto+Mono:ital,wght@0,100..700;1,100..700&display=swap');
+
+*{
+    margin: 0;
+    padding: 0;
+    font-family: "Montserrat", sans-serif;
+}
+
+html{
+    scroll-behavior: smooth;
+}
+/* styling Navbar */
+.navlogo img{
+    width: 50%;
+
+}
+
+nav{
+    display: flex;
+    justify-content: space-between;
+    padding: 20px;
+}
+
+.navlogo{
+    width: 20%;
+}
+
+
+.navList a{
+    text-decoration: none;
+    color: #1a1a1a;
+    padding: 5px;
+}
+
+/* styling header with background Image */
+
+header{
+    background: url("./../images/landing.jpg");
+    background-size: cover;
+    background-position: center;
+    height: 400px;
+    color: #fff;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+}
+
+.headingContent h1{
+    padding-bottom: 20px;
+}
+
+#spotifyHeading{
+    width: 90%;
+    margin-left: auto;
+    margin-right: auto;
+    margin-bottom: 80px;
+}
+h2{
+    text-align: center;
+    margin-top: 20px;
+    
+}
+
+#spotifyList{
+    display: flex;
+    justify-content: space-around;
+    text-align: center;
+    margin: 40px 20px;
+    gap: 10px;
+}
+
+.spotifySection{
+    width: 150px;
+    height: 150px;
+}
+.spotifySection img{
+    width: 80px;
+}
+
+.spotifySection h3{
+    color: #00B172;
+    margin: 10px 0;
+}
+
+#spotifySinger{
+    display: flex;
+    width: 90%;
+    margin: 0 auto;
+    background-color: #00B172;
+    padding-top: 50px;
+
+
+}
+.leftSinger{
+    padding-left: 30px;
+    color: #fff;
+}
+
+.leftSinger h3{
+    border-bottom: 3px solid #fff;
+    padding: 0;
+    width: max-content;
+    padding-bottom: 5px;
+    margin-bottom: 25px;
+}
+
+.spotifyFunction{
+    display: flex;
+    width: 100%;
+    position: relative;
+}
+
+.leftSection{
+    width: 50%;
+}
+
+.middleSection img{
+    width: 40%;
+    z-index: 1;
+    position: absolute;
+    top: 40%;
+    left: 60%;
+
+}
+
+
+.rightSinger{
+    padding-left: 120px;
+    padding-top: 20px;
+}
+
+.rightSinger img{
+    width: 60%;
+}
+
+.eachSection h4{
+    margin-top: 20px;
+    margin-bottom: 20px;
+}
+
+.eachSection p{
+    font-size: 14px;
+}
