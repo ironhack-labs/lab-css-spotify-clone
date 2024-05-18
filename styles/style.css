@@ -1,8 +1,239 @@
-/*
-Colors:
+:root {
+  --font-size-l: 3rem;
+  --font-size-m: 1.3rem;
+  --font-size-s: 1.2rem;
+  --font-size-xs: 1rem;
+  --text-color: #1a1a1a;
+  --main-brand-color: #00b172;
+}
 
-Text: 1A1A1A
-Green: #00B172
-White: #FFF
+html {
+  font-family: sans-serif;
+  color: var(--text-color);
+}
 
-*/
+.logo-and-navigation-container {
+  width: auto;
+  background-color: #fff;
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+  padding: 1rem;
+  position: sticky;
+  top: 0;
+  z-index: 100;
+}
+
+.navigation-logo {
+  height: 25px;
+}
+
+.navigation-bar {
+  display: flex;
+  font-size: var(--font-size-xs);
+}
+
+.__navigation-options {
+  list-style: none;
+  display: flex;
+}
+
+.__navigation-item {
+  text-decoration: none;
+  color: var(--text-color);
+  margin: 1rem;
+}
+
+.__navigation-item:hover {
+  color: var(--main-brand-color);
+}
+
+.main-text-wrapper {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  background-image: url(/images/landing.jpg);
+  background-size: cover;
+  background-repeat: no-repeat;
+  background-position: 0, 0;
+  color: #fff;
+  padding: 1rem;
+}
+
+.main-heading {
+  margin: 0 auto 10px;
+  text-align: center;
+  font-size: var(--font-size-l);
+  font-weight: 600;
+}
+
+.introduction-text {
+  text-align: center;
+  line-height: 1.4em;
+  font-size: var(--font-size-s);
+}
+
+.whats-on-spotify {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+}
+
+.__services-heading {
+  display: inline;
+  margin: 4rem auto 1.5rem;
+  text-align: center;
+  border-bottom: 1.5px solid var(--main-brand-color);
+  padding-bottom: 5px;
+  line-height: 10px;
+}
+
+.__services-wrapper {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-around;
+}
+
+.__service-box {
+  text-align: center;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  margin: auto;
+  padding: 0.5rem;
+  flex-basis: 100%;
+}
+
+.__service-image {
+  height: 40px;
+  transition: filter 0.25s, transform 0.25s;
+}
+
+.__service-image:hover {
+  transform: scale3d(1.3, 1.3, 1);
+
+  filter: invert(43%) sepia(77%) saturate(1801%) hue-rotate(129deg)
+    brightness(94%) contrast(101%);
+}
+
+.__service-heading {
+  margin: 8px 0 10px;
+  font-size: var(--font-size-s);
+  font-weight: 600;
+  color: var(--main-brand-color);
+}
+
+.__service-text {
+  font-size: var(--font-size-xs);
+  line-height: 1.4em;
+  padding: 1rem;
+}
+
+.functionalities {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-around;
+  align-items: center;
+  background-color: var(--main-brand-color);
+  background-image: url(/images/spotify-icon-white.png);
+  background-repeat: no-repeat;
+  background-size: 12%;
+  background-position: center;
+  padding: 2rem;
+}
+
+.__functionalities-wrapper {
+  display: flex;
+  flex-direction: column;
+  color: #fff;
+}
+
+.__functionalities-heading {
+  font-size: var(--font-size-m);
+  display: inline;
+  margin: 0 auto 1.5rem 0;
+  font-weight: bold;
+  border-bottom: 1.5px solid #fff;
+  padding-bottom: 0.2rem;
+}
+
+.__functionality-heading {
+  font-size: var(--font-size-m);
+  font-weight: bolder;
+  margin-bottom: 0.9rem;
+}
+
+.__functionality-boxes-wrapper {
+  width: 50%;
+}
+
+.__functionality-text {
+  font-size: var(--font-size-xs);
+  font-weight: lighter;
+  margin-bottom: 1.2rem;
+  line-height: 0.8rem;
+}
+
+.spotify-app-image {
+  height: 15rem;
+}
+
+@media (max-width: 639px) {
+  .navigation-bar {
+    font-size: 0.5rem;
+  }
+  .__services-heading {
+    margin: 2rem auto 1.5rem;
+  }
+  .__services-wrapper {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+  }
+
+  .__functionality-boxes-wrapper {
+    width: 150%;
+  }
+  .spotify-app-image {
+    visibility: hidden;
+  }
+  .functionalities {
+    background-image: unset;
+  }
+}
+
+@media (min-width: 640px) {
+  .main-text-wrapper {
+    height: 200px;
+  }
+}
+
+@media (min-width: 1024px) {
+  .main-text-wrapper,
+  .whats-on-spotify,
+  .functionalities {
+    max-width: 1000px;
+    margin: auto;
+  }
+  .main-text-wrapper {
+    height: 600px;
+  }
+  .introduction-text {
+    max-width: 40%;
+  }
+  .spotify-app-image {
+    height: 25rem;
+    padding: 2rem;
+  }
+}
+
+@media (min-width: 1536px) {
+  .main-text-wrapper {
+    max-width: 1200px;
+    margin: auto;
+  }
+  .main-text-wrapper {
+    height: 750px;
+  }
+}
