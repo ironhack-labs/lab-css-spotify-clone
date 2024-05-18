@@ -1,8 +1,247 @@
-/*
-Colors:
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
 
-Text: 1A1A1A
-Green: #00B172
-White: #FFF
+body {
+    font-family: 'Arial', sans-serif;
+}
 
-*/
+/* Navbar */
+.navbar {
+    position: fixed;
+    top: 0;
+    width: 100%;
+    background-color: #282828;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 10px 20px;
+    z-index: 1000;
+}
+
+.navbar .logo {
+    height: 40px;
+}
+
+.navbar ul {
+    list-style: none;
+    display: flex;
+    gap: 20px;
+}
+
+.navbar ul li a {
+    color: white;
+    text-decoration: none;
+    font-size: 14px;
+}
+
+/* Hero Section */
+.hero {
+    background-image: url('../images/landing.jpg');
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+    height: 100vh;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+    color: white;
+    padding: 20px;
+}
+
+.hero h1 {
+    font-size: 4em;
+    margin-bottom: 10px;
+    font-weight: bold; 
+    text-shadow: 2px 2px 4px rgba(0, 0, 0, 0.7); 
+}
+
+.hero p {
+    font-size: 1.5em;
+    margin-bottom: 10px;
+    font-weight: 300;
+    text-shadow: 1px 1px 3px rgba(0, 0, 0, 0.7); 
+}
+
+/* Main Section */
+.main-section {
+    background-color: white; 
+    padding: 50px 20px; 
+    text-align: center; 
+}
+
+/* Main Section */
+.main-section {
+    background-color: white; 
+    padding: 50px 20px;
+    text-align: center; 
+}
+
+.main-title {
+    font-size: 2.5em; 
+    font-weight: bold; 
+    margin-bottom: 50px; 
+    position: relative;
+    display: inline-block;
+}
+
+.main-title::after {
+    content: "";
+    display: block;
+    width: 100%;
+    height: 4px;
+    background-color: #1DB954;
+    position: absolute;
+    bottom: -10px; 
+    left: 0;
+}
+
+/* Sub-section Styles */
+.icons-section {
+    display: flex;
+    justify-content: space-around;
+    padding: 50px 20px;
+    background-color: white;
+    text-align: center;
+}
+
+.feature {
+    flex: 1;
+    margin: 0 20px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.feature img {
+    width: 100px;
+    height: 100px;
+    margin-bottom: 20px;
+}
+
+.feature h2 {
+    font-size: 1.5em;
+    font-weight: bold;
+    color: #1DB954; 
+    margin-bottom: 20px;
+    text-decoration: none; 
+}
+
+.feature p {
+    font-size: 1.1em; 
+    color: #666;
+    text-align: center;
+    line-height: 1.5; 
+    margin-top: 10px; 
+}
+
+/* Green Section */
+.green-section {
+    background-color: #1DB954;
+    padding: 50px 20px;
+    color: white;
+}
+
+.green-title {
+    font-size: 2em;
+    font-weight: bold;
+    position: relative;
+    margin-bottom: 30px;
+    text-align: left;
+}
+
+.green-title::after {
+    content: "";
+    display: block;
+    width: 100%; 
+    height: 4px;
+    background-color: white;
+    position: absolute;
+    bottom: -10px;
+    left: 0;
+}
+
+.content-container {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    height: 100%;
+}
+
+.text-container {
+    flex: 1;
+    padding: 20px;
+    max-width: 300px;
+    text-align: left;
+}
+
+.feature-text {
+    margin-bottom: 20px;
+}
+
+.feature-text h3 {
+    font-size: 1.5em;
+    margin-bottom: 10px;
+}
+
+.feature-text p {
+    font-size: 1.2em;
+    line-height: 1.5;
+}
+
+.icon-container, .app-container {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin: 0 20px;
+    height: 100%;
+}
+
+.icon-container {
+    flex: 0 1 100px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100%; 
+}
+
+.app-container {
+    flex: 0 1 300px;
+}
+
+.spotify-icon {
+    width: 100px;
+    height: 100px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin: auto; 
+}
+
+.spotify-app {
+    width: 300px;
+    height: auto;
+    margin: auto; 
+}
+
+/* Media Query for Responsiveness */
+@media (max-width: 768px) {
+    .content-container {
+        flex-direction: column;
+        text-align: center;
+    }
+    .text-container {
+        max-width: 100%;
+    }
+    .icon-container, .app-container {
+        margin-top: 20px;
+    }
+    .spotify-app {
+        width: 100%;
+        height: auto;
+    }
+}
