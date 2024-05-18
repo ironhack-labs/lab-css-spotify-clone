@@ -6,3 +6,176 @@ Green: #00B172
 White: #FFF
 
 */
+
+body {
+    margin: 0;
+    padding: 0;
+    font-family: 'Lato', sans-serif; /*buscar circular sptofy?*/
+}
+
+header {
+    display: flex;
+    justify-content: space-between;
+    margin: 10px;
+}
+
+nav {
+    position: fixed;
+    right: 10px;
+    top: 0;
+    background: #fff;
+    padding: 5px 20px 5px 0;
+    border-radius: 10px;
+    color: #1A1A1A;
+}
+
+nav > ul {
+    display: flex;
+    justify-content: flex-end;
+    gap: 20px;
+}
+
+nav > ul > li {
+    list-style: none;  
+}
+
+nav a {
+    text-decoration: none;
+    color: #1A1A1A;
+}
+
+nav a:hover {
+    background-color: #dff3f3;
+    padding: 0.5em 1em;
+    border-radius: 10px;
+}
+
+ img {
+    width: 10rem;
+}
+
+.landing {
+    background-image: url("../images/landing.jpg");
+    background-size: cover;
+    height: 500px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.title {
+    color: #fff;
+    text-align: center;
+    width: 50%;
+}
+
+.title > h1 {
+    font-size: 3em;
+}
+
+.title h4 {
+    font-weight: 200;
+    font-size: 1.3em;
+}
+
+.whats-on {
+    margin-bottom: 50px;
+    color: #1A1A1A;
+    margin: 0 20px 40px 20px;
+    position: relative; /*para centrar el h2*/
+}
+
+.whats-on > h2 {
+    display: inline-block;
+    position: absolute;
+    left: 50%;
+    transform: translateX(-50%);  /*mirar cómo funciona esto!!*/
+    margin-bottom: 40px; 
+    border-bottom: 3px solid #00B172;
+    padding-bottom: 5px;  
+}
+
+.whats-on p {
+    width: 55%;
+    font-weight: 200;
+}
+
+.container-icons {
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr;
+    grid-gap: 10px;
+    height: 100%;
+    padding-top: 15%;
+}
+
+.container-icons img {
+    width: 70px;
+}
+
+.container-icons > div {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    text-align: center;
+
+}
+
+.container-icons h3 {
+    color: #00B172;
+}
+
+
+.green {
+    display: grid;
+    grid-template-columns: 2fr 1fr;
+    background-color: #00B172;
+    color: #fff;
+    height: 50%;
+    position: relative;
+    
+}
+
+.left-col > div {
+    width: 45%;
+}
+
+.left-col > h3 {
+    font-size: 1.4em;
+    display: inline-block;
+    position: absolute;
+    left: 40px;
+    margin-bottom: 200px;
+    padding-bottom: 5px;
+    border-bottom: 3px #fff solid; 
+}
+
+.left-col-content {
+    margin-top: 80px;
+}
+
+.left-col {
+    margin: 40px;
+    align-self: stretch; /*no hace stretch cuando aumento la pantalla!!*/
+
+}
+
+.right-col {
+    margin: 70px 50px 50px;
+    
+}
+
+.right-col img {
+    width: 100%;
+}
+
+.green > img {
+    position: absolute;
+    top: 40%;
+    left: 45%;
+    width: 80px;
+}
+
+.green p {
+    font-weight: 300;
+}
