@@ -4,5 +4,153 @@ Colors:
 Text: 1A1A1A
 Green: #00B172
 White: #FFF
-
 */
+
+html,
+body {
+  padding: 0;
+  margin: 0;
+  font-family: arial;
+  font-size: 16px;
+  color: #1a1a1a;
+}
+
+/* Header */
+header {
+  background-color: #fff;
+  color: #1a1a1a;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 1em 2em;
+  height: 10vh;
+  position: fixed;
+  min-width: 100%;
+}
+
+header img {
+  height: 70px;
+}
+
+header ul {
+  list-style: none;
+  display: flex;
+}
+
+header li {
+  margin-left: 1em;
+  font-size: 1.5em;
+}
+
+#landing {
+  min-height: 100vh;
+  background-image: url("../images/landing.jpg");
+  background-repeat: no-repeat;
+  background-position: 0 100;
+  background-size: cover;
+  display: flex;
+  flex-direction: column;
+}
+
+#main-section {
+  height: 90vh;
+  display: flex;
+  color: #fff;
+  justify-content: center;
+  flex-direction: column;
+  align-items: center;
+  align-content: center;
+  min-height: auto;
+}
+
+h1 {
+  font-size: 5em;
+  text-align: center;
+  margin-bottom: 1.5rem;
+  padding-bottom: 0;
+}
+
+h2 {
+  font-size: 2.5em;
+}
+
+h3 {
+  font-size: 2em;
+  text-align: center;
+}
+
+#product-details {
+  min-height: 60vh;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+}
+
+#product-details img {
+  max-height: 5em;
+}
+
+#product-details h2 {
+  text-decoration: underline;
+  text-decoration-color: #00b172;
+  text-underline-offset: 0.5em;
+}
+
+.blocks {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-around;
+  min-width: 100%;
+  padding: 2em 0;
+}
+
+#product-details article {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  padding: 1em;
+}
+
+#product-details h3 {
+  color: #00b172;
+  margin: 0.5em 0;
+}
+
+#product-details p {
+  font-size: 1.2em;
+  margin: 0.5em 0;
+}
+
+#kanye {
+  min-height: 80vh;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 4em;
+  background-color: #00b172;
+  color: white;
+  background-image: url("../images/spotify-icon-white.png");
+  background-repeat: no-repeat;
+  background-size: 8em;
+  background-position: center;
+}
+
+#kanye img {
+  max-height: 70vh;
+}
+
+#kanye h2 {
+  text-decoration: underline;
+  text-decoration-color: white;
+  text-underline-offset: 0.5em;
+}
+
+#kanye h3 {
+  text-align: left;
+}
+
+#kanye p {
+  max-width: 50%;
+  font-size: 1.5em;
+}
