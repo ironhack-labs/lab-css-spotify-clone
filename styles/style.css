@@ -1,8 +1,157 @@
-/*
-Colors:
+@import url('https://fonts.googleapis.com/css2?family=Montserrat:wght@100;300;600;700;&display=swap');
 
-Text: 1A1A1A
-Green: #00B172
-White: #FFF
 
-*/
+.thin {
+    font-weight: 100;
+}
+  
+.light {
+    font-weight: 300;
+}
+  
+.semibold {
+    font-weight: 600;
+}
+  
+.bold {
+    font-weight: 700;
+}
+
+html,
+body {
+    margin: 0;
+    padding: 0;
+    font-family: 'Montserrat', sans-serif;
+    color: #1A1A1A;
+    font-size: 16px;
+}
+
+.header {
+    display: flex;
+    box-sizing: border-box;
+    width: 100%;
+    justify-content: space-between;
+    position: fixed;
+    background-color: #fff;
+    padding: 1em;
+    height: 12vh;
+}
+
+.header img {
+    height: 50px;
+    width: auto;
+}
+
+.header ul {
+    display: flex;
+    list-style: none;
+    gap: 30px;
+}
+
+#music-for-everyone {
+    display: flex;
+    flex-direction: column;
+    height: 80vh;
+    background: url('../images/landing.jpg') no-repeat center center;
+    background-size: cover;
+    color: white;
+    text-align: center;
+    justify-content: center;
+}
+
+#music-for-everyone h1{
+    font-size: 3em;
+    font-weight: 600;
+    padding: 0 20% 0 20%;
+    padding-bottom: 30px;
+    text-align: center;
+    color: #fff;
+}
+
+#music-for-everyone h3 {
+    font-size: 1em;
+    font-weight: 300;
+    text-align: center;
+    color: #fff;
+}
+
+#whats-on {
+    text-align: center;
+    background-color: #fff;
+}
+
+#whats-on h3 {
+    font-weight: 600;
+    text-underline-offset: 0.3em;
+    text-decoration: underline;
+    text-decoration-color: #00B172;
+}
+
+.article-cont {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    padding: 3em;
+}
+
+.article-cont article {
+    padding: 0 1em;
+}
+
+.article-cont img {
+    max-height: 4em;
+}
+
+.title {
+    font-weight: 600;
+    color: #00B172;
+}
+
+.text {
+    font-weight: 100;
+    color: #1A1A1A;
+}
+
+#green-section {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: space-between;
+    background-color:#00B172;
+    padding: 4em;
+    color: #fff;
+    background-image: url("../images/spotify-icon-white.png");
+    background-repeat: no-repeat;
+    background-size: 6em;
+    background-position: center;
+}
+
+.green-cont {
+    flex: 1;
+    max-width: 35%;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    text-align: left;
+}
+
+.green-cont h3 {
+    font-weight: 600;
+    text-underline-offset: 0.3em;
+    text-decoration: underline;
+    text-decoration-color: #fff;
+}
+
+.green-cont h4 {
+    font-weight: 600;
+}
+
+.green-cont p {
+    font-weight: 100;
+    font-size: 0.8em;
+}
+
+#green-section img {
+    max-height: 50vh;
+}
+
