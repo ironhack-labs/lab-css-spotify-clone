@@ -1,8 +1,170 @@
 /*
 Colors:
-
 Text: 1A1A1A
 Green: #00B172
 White: #FFF
-
 */
+
+body {
+  color: #1a1a1a;
+  font-family: "Helvetica", sans-serif;
+  font-weight: lighter;
+}
+
+* {
+  box-sizing: border-box;
+  margin: 0;
+  padding: 0;
+}
+
+// Remove formatting from links
+a {
+  color: inherit;
+  text-decoration: none;
+}
+
+// Set a max width to the content
+.container {
+  width: 980px;
+  margin: 0 auto;
+  min-height: 80px;
+}
+
+// Style the navbar and its contents
+.logo img {
+  height: 62px;
+  float: left;
+  padding: 10px 20px;
+}
+
+.menu li {
+  display: inline-block;
+  list-style-type: none;
+  margin: 20px;
+}
+
+.nav {
+  float: right;
+}
+
+.banner img {
+  width: 100%;
+}
+
+header.fixed-nav {
+  height: 60px;
+  position: fixed;
+  top: 0;
+  background-color: white;
+  width: 100%;
+}
+
+.banner {
+  background-image: url("../images/landing.jpg");
+  background-color: transparent;
+  background-size: cover;
+  height: 600px;
+  font-size: 4rem;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  flex-direction: column;
+  padding:0 10%;
+}
+
+.banner h1 {
+  font-size: 1em;
+  color: white;
+  background-image: none;
+  background-color: transparent;
+}
+.banner h3 {
+  color: #fff;
+  font-size: 24px;
+  font-weight: lighter;
+  text-align: center;
+}
+.spotify-heading h3 {
+  border-bottom: 2px solid #00b172;
+}
+
+.spotify-heading {
+  justify-content: center;
+  display: flex;
+  margin-top: 30px;
+}
+
+.spotify-heading h3 {
+  font-size: 24px;
+  font-weight: normal;
+}
+
+.thumbnail-box {
+  width: 30%;
+  text-align: center;
+  padding: 60px 50px;
+}
+
+.thumbnail-box h3 {
+  color: #00b172;
+  font-size: 20px;
+  margin-bottom: 20px;
+}
+
+.thumbnail-box img {
+  width: 100px;
+}
+
+.thumbnail-container,
+.footer-section {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+}
+
+.middle-img.box {
+}
+
+.footer-section .box {
+  width: 40%;
+  text-align: left;
+  display: inline-block;
+}
+
+.footer-section .right-img img {
+  width: 90%;
+  margin-top: 60px;
+}
+
+.footer-section .middle-img img {
+  width: 35%;
+  justify-self: center;
+}
+
+.footer-section .middle-img {
+  width: 37%;
+  justify-self: center;
+  align-self: center;
+  margin: 0 auto;
+  text-align: center;
+}
+
+.footer-container {
+  background-color: #00b172;
+  color: white;
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  padding: 50px;
+}
+
+.left-content h3 {
+  margin: 30px 0;
+}
+
+.left-content h2 {
+  margin: 30px 0;
+  border-bottom: 2px solid #fff;
+  font-weight: 400;
+  font-size: 23px;
+}
