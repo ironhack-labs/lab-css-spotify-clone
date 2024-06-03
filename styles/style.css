@@ -6,3 +6,385 @@ Green: #00B172
 White: #FFF
 
 */
+
+root{
+    font-size: 16px;
+    border: 0;
+    margin: 0;
+}
+
+*{
+    box-sizing: border-box;
+}
+
+body, html{
+    margin: 0;
+}
+
+header{
+    display: flex;
+    justify-content: space-around;
+    margin: 1%;
+    padding: 1em 0;
+    position: fixed;
+    width: 100%;
+    z-index: 1;
+    background-color: white;
+    margin-left: 0px;
+    right: 0px;
+    left: 0px;
+    top: 0px;
+    margin-top: 0px;
+    flex-direction: row;
+    border-bottom: 2px solid rgb(162, 162, 162);
+    align-items: center;
+}
+
+header img{
+    display: flex;
+    height: 10%;
+    width: 10%;
+    margin: 0;
+}
+
+h1 ,h2, h3{
+    display: flex;
+    justify-content: center;
+    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+}
+
+h2#products{
+    padding-top: 1em;
+    font-size: 3em;
+    padding-bottom: 1em;
+}
+
+
+a{
+    display: flex;
+    color: black;
+    cursor: pointer;
+    text-decoration: none;
+    justify-content: flex-end;
+}
+
+
+section.products{
+    display: flex;
+    align-items: center;
+}
+
+.box, .box1, .box3{
+    width: 100%;
+    height: 300px;
+	padding: 1.5em;
+	position: relative;
+	display: flex;
+	align-items: flex-end;
+    justify-items: center;
+	transition: 0.4s ease-out;
+    background-color: white;
+    margin: 0 2em;
+}
+
+.box:hover, .box1:hover, .box3:hover{
+		transform: translateY(1.2rem);
+    }
+.box:hover::before, .box1:hover::before, .box3:hover::before{
+		opacity: 1;
+    }
+
+    .box:hover .content, .box1:hover .content, .box3:hover .content{
+		opacity: 1;
+       transform: translateY(0px);
+    }
+
+    .box::before, .box1::before, .box3:before{
+        content: "";
+        position: absolute;
+        top: 0;
+        left: 0;
+        display: block;
+        width: 100%;
+        height: 100%;
+        border-radius: 1em;
+        background: rgba(0, 0, 0, 0.6);
+        z-index: 2;
+        transition: 0.5s;
+        opacity: 0; 
+    }
+
+
+.content{
+    position: relative;
+    z-index: 3;
+    color: white;
+    opacity: 0;
+    transform: translateY(30px);
+    transition: 0.5s;
+}
+
+.content:hover{
+position: relative;
+border-radius: 1em;
+background-color: rgba(black, 0.6);
+z-index: 2;
+transition: 0.5s;
+opacity: 1;
+box-shadow: 0px 7px 10px rgba(black, 0.5);
+}
+
+
+
+.box img, .box1 img, .box3 img{
+		width: 100%;
+		height: 100%;
+		object-fit: cover;
+        -o-object-fit: cover;
+		position: absolute;
+		top: 0;
+		left: 0;
+		border-radius: 1rem;
+        justify-content: space-between;
+        display: flex;
+}
+
+
+
+section#about{
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    background-image: url(/lab-css-spotify-clone/images/landing.jpg);
+    background-position: center;
+    background-size: cover; 
+    color: white;
+    height: 100%;
+    width: 100%;
+    align-content: center;
+    justify-content: center;
+    font-size: 3em;
+    text-align: center;
+}
+
+
+
+
+section#about img{
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    border-radius: 1em;
+    margin: 0;
+    border: 0;
+}
+
+section#gallery{
+    display: flex;
+    flex-direction: row;
+    padding-top: 2em;
+    overflow: scroll;
+}
+
+
+section#gallery img{
+    object-fit: scale-down;
+    height: 15em;
+    padding-inline: 0.5em;
+    width: 500px;
+    cursor: auto;
+    transition: 0.5s ease-out;
+    border-radius: 1em;
+}
+
+section#gallery img:hover{
+    transition: 0.5s ease-in;
+    transform: scale(1.1);
+}
+
+
+section#gallery p.description{
+    padding: 0em;
+    text-align: center;
+}
+
+ul{
+    justify-content: space-between;
+}
+
+li{
+    list-style: none;
+    text-align: flex-start;
+    padding: 0.5em;
+}
+
+p{
+    text-justify:auto;
+    filter: none;
+}
+
+
+footer#contact{
+    background-color: #000000c8;
+    padding: 1em 3em 2em 3em;
+    color: white;
+}
+
+footer#contact h3{
+    display: flex;
+    justify-content: space-around;
+    flex-direction: row;
+    flex-wrap: wrap;
+
+}
+
+section.screenexpl{
+display: flex;
+align-items: center;
+background-color: #00B172;
+margin: 4em 3em;
+justify-content: space-around;
+padding: 2em 2em;
+}
+
+section.text h3, section.text p{
+    width: 90%;
+    color: white;
+}
+
+section.text h2{
+    border-bottom: 2px solid white;
+    padding-bottom: 0.5em;
+    width: 120%;
+    color: white;
+}
+
+section.text{
+    width: 25%;
+}
+
+
+.icon{
+width: 100px;
+height: 100px;
+}
+
+.logos{
+    width: 300px;
+    height: auto;
+}
+
+section.con{
+    display: flex;
+    cursor: auto;
+    flex-direction: row;
+    flex-wrap: wrap;
+    justify-content: space-between;
+    margin: 0;
+    padding: 0;
+  }
+
+  section.con a{
+    color: white;
+  }
+
+i{
+    padding-inline: 0.5em;
+}
+
+
+
+@media only screen and (max-width: 1399px) {
+   h1{
+    font-size: 1.5em;
+   }
+}
+
+@media only screen and (max-width: 768px){
+    section.products{
+        display: inline-flex;
+        flex-direction: column;
+    }
+
+    .box, .box1, .box3{
+        width: 90%;
+        height: 300px;
+        border-radius: 1em;
+        padding: 1.5em;
+        position: relative;
+        display: flex;
+        align-items: flex-end;
+        justify-items: center;
+        transition: 0.4s ease-out;
+        background-color: white;
+        box-shadow: 0px 7px 10px rgba(black, 0.5);
+        margin: 1em 2em;
+        padding-inline: 1em;
+    }
+
+    section#about{
+        padding: 1em 0 0 0;
+    }
+
+    section.content1{
+        padding: 1em;
+    }
+}
+
+@media only screen and (max-width:437px){
+h1{
+    font-size: 1.2em;
+    margin-top: 1em;
+}
+
+    section.products{
+        display: inline-flex;
+        flex-direction: column;
+    }
+
+    .box, .box1, .box3{
+        width: 90%;
+        height: 200px;
+        border-radius: .5em;
+        padding: 1em;
+        position: relative;
+        display: flex;
+        align-items: flex-end;
+        justify-items: center;
+        transition: 0.4s ease-out;
+        background-color: white;
+        box-shadow: 0px 7px 10px rgba(black, 0.5);
+        margin: 1em 2em;
+        padding-inline: 1em;
+    }
+
+    section#about{
+        padding: 1em 0 0 0;
+    }
+
+    section.content1{
+        padding: 1em;
+        font-size: 1em;
+    }
+
+    section.con{
+        display: flex;
+        cursor: auto;
+        flex-direction: row;
+        flex-wrap: wrap;
+        justify-content: space-around;
+        margin: 0;
+        padding: 0;
+      }
+
+      section#gallery img{
+        object-fit: scale-down;
+        height: 10em;
+        padding-inline: 0.5em;
+        width: 300px;
+        cursor: auto;
+        transition: 0.5s ease-out;
+        border-radius: 1em;
+    }
+}
+
