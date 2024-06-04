@@ -6,3 +6,229 @@ Green: #00B172
 White: #FFF
 
 */
+
+/* Reset default browser styles and provide a consistent starting point */
+html {
+    box-sizing: border-box;
+    font-size: 16px;
+}
+
+*, *:before, *:after {
+    box-sizing: inherit;
+}
+
+body, h1, h2, h3, h4, h5, h6, p, ol, ul {
+    margin: 0;
+    padding: 0;
+    font-weight: lighter;
+}
+
+html {
+    font-family: 'Open Sans', sans-serif;
+    font-size: 18px
+}
+
+.navbar {
+    position: fixed;
+    top: 0;
+    display: flex;
+    justify-content: space-between;
+    width: 100vw;
+    height: 12vh; 
+    background-color: white;
+    align-items: center;
+    padding: 0 2vw;
+    color: #1A1A1A;
+    z-index: 100;
+}
+
+.navbar ul {
+    list-style-type: none;
+    padding: 0;
+    margin: 0;
+}
+
+.navbar ul li {
+    display: inline;
+    margin-right: 1em;
+}
+
+.navbar img {
+    width: 12%;
+    
+}
+
+.header {
+    color: white;
+    margin-top: 10vh;
+    background-image: url("/images/landing.jpg");
+    background-position: center 55%;
+    background-size: cover;
+    width: 100%;
+    background-repeat: no-repeat;
+    height: 90vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+}
+
+h1 {
+    font-size: 3em;
+}
+
+.title {
+    display: block;
+    width: 100%;
+    padding: 0 25vw 1em;
+    text-align: center;
+}
+
+.info-section {
+    padding-top: 2em;
+    color: #1A1A1A;
+}
+
+.info-title {
+    display: flex;
+    justify-content: center;
+}
+
+.info-title div {
+    width: 20%;
+    border-bottom: 0.2em solid #00B172;
+    text-align: center;
+    padding-bottom: 0.7em;
+}
+
+.info-title h2 {
+    font-weight: bold;
+}
+
+.info-article img {
+    width: 50%;
+}
+
+.general-info {
+    display: flex;
+    justify-content: space-evenly;
+}
+
+.general-info h3 {
+    font-weight: bold;
+    color: #00B172
+}
+
+.info-article {
+    width: 30%;
+    text-align: center;
+    padding: 5em;
+}
+
+.info-article p {
+    padding-top: 1.7em;
+}
+
+.green-section {
+    background-color: #00B172;
+    color: white;
+    padding: 3em;
+    margin: 0 1.5em;
+    height: 100vh;
+    position: relative;
+}
+
+.green-section .spotify-icon {
+    position: absolute;
+    top: 50%;
+    left: 45%;
+    width: 10%;
+    height: auto;
+}
+
+.green-container {
+    display: flex;
+    flex-wrap: nowrap;
+    justify-content: space-between;
+    height: 80%;
+}
+
+.column {
+    width: 30%;
+}
+
+
+
+.app-col img {
+    height: 100%;
+}
+
+.green-article {
+    padding-bottom: 3em;
+}
+
+.green-title {
+    width: 35%;
+    border-bottom: 0.2em solid white;
+    padding-bottom: 1em;
+    margin-bottom: 2em;
+}
+
+.green-title h2 {
+    font-weight: bold;
+}
+
+.green-article h3 {
+    padding-bottom: 0.5em;
+    font-weight: bold;
+}
+
+a {
+    text-decoration: none;
+    color: #1A1A1A;
+}
+
+@media (max-width: 768px) {
+    .general-info {
+        flex-direction: column;
+        padding: 5px;
+    }
+
+    .info-title div {
+        width: 50%;
+    }
+
+    .info-article { 
+        width: 50%;
+        align-self: center;
+        padding: 1em 0;
+    }
+
+    .green-title {
+        width: 80%;
+    }
+
+    .column {
+        width: 40%;
+    }
+
+    .app-col {
+        display: none;
+    }
+
+    .header {
+        margin-top: 5vh;
+    }
+
+    .navbar {
+        height: 5vh;
+    }
+
+    .navbar img {
+        width: 20%;
+    }
+
+    .navbar ul li {
+        margin-right: 0.5em
+    }
+}
