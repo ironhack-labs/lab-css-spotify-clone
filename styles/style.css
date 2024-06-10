@@ -1,8 +1,199 @@
 /*
 Colors:
-
 Text: 1A1A1A
 Green: #00B172
 White: #FFF
 
 */
+
+body {
+    margin: 0;
+}
+
+.navbar {
+    position: fixed;
+    width: 100%;
+    top: 0;
+    display: flex;
+    justify-content: space-between;
+    padding: 10px 20px;
+    background-color: white;
+}
+
+.logo {
+    height: 50px;
+
+}
+
+.navlist {
+    display: flex;
+    flex-direction: row;
+    align-content: end;
+    padding-right: 30px;
+}
+
+.navlist li {
+    list-style: none;
+    padding-right: 20px;
+    font-family: Arial, Helvetica, sans-serif;
+    font-weight: 100;
+}
+
+
+header {
+    background-image: url(../images/landing.jpg);
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+    color: white;
+    text-align: center;
+    align-content: center;
+    margin: 0;
+    margin-top: 70px;
+    box-sizing: border-box;
+
+}
+
+header h1 {
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 5em;
+    font-weight: 100;
+    padding-top: 300px;
+    color: white;
+}
+
+header .p1 {
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 2em;
+    font-weight: 80;
+    padding-top: 10px;
+    color: white;
+}
+
+header .p2 {
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 2em;
+    font-weight: 80;
+    padding-top: 10px;
+    padding-bottom: 300px;
+    color: white;
+}
+
+section {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+.grid3 {
+    width: 100%;
+    margin: 20;
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+
+}
+
+.grid3 img {
+    height: 80px;
+}
+
+.divgrid {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    margin: 30px;
+    text-align: center;
+    padding: 20px;
+}
+
+section .p3 {
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 2em;
+    font-weight: 200;
+    padding-top: 20px;
+    padding-bottom: 3px;
+    text-align: center;
+    width: 280px;
+    border-bottom: solid 5px #00B172;
+    color: #1A1A1A;
+}
+
+section .tsection {
+    font-family: Arial, Helvetica, sans-serif;
+    color: #00B172;
+    font-size: 2em;
+    font-weight: 700;
+    padding-top: 20;
+    padding-bottom: 3px;
+    text-align: center;
+}
+
+section .psection {
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 2em;
+    font-weight: 1;
+    text-align: center;
+    width: 340px;
+    color: #1A1A1A;
+}
+
+
+footer {
+    display: flex;
+    flex-direction: row;
+    bottom: 0;
+    background-color: #00B172;
+    margin-left: 30px;
+    margin-right: 30px;
+    margin-bottom: 30px;
+    padding: 20px;
+}
+
+footer .div {
+    display: flex;
+    flex-direction: column;
+    width: 500px;
+}
+
+footer h4 {
+    font-family: Arial, Helvetica, sans-serif;
+    padding-bottom: 5px;
+    font-size: 3em;
+    font-weight: 300;
+    color: white;
+    border-bottom: 3px solid white;
+}
+
+footer article {
+    width: 250px;
+}
+
+footer .particle-title {
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 2em;
+    font-weight: 300;
+    color: white;
+}
+
+footer .particle-text {
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 1.5em;
+    font-weight: 1;
+    color: white;
+}
+
+footer .img1 {
+    height: 150px;
+    margin-top: 250px;
+    margin-right: 250px;
+    margin-left: 50px
+}
+
+footer .img2 {
+    margin: 80px;
+    height: 600px;
+}
