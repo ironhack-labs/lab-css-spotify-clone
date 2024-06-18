@@ -6,3 +6,154 @@ Green: #00B172
 White: #FFF
 
 */
+
+body {
+  font-family: "Roboto", sans-serif;
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  color: #1a1a1a;
+}
+
+header {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 1vw 2vw;
+}
+
+nav {
+  display: flex;
+  justify-content: flex-end;
+  gap: 1vw;
+}
+
+nav > a {
+  text-decoration: none;
+  color: #1a1a1a;
+}
+
+.logo-img {
+  width: 100px;
+}
+
+.hero-image {
+  color: white;
+  height: 500px;
+  width: 100vw;
+  background-size: cover;
+  background-image: url(../images/landing.jpg);
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+
+.hero-image h1 {
+  font-size: 3rem;
+}
+
+section {
+  display: flex;
+  flex-direction: column;
+  padding: 2vw;
+}
+.sub-title {
+  align-self: center;
+}
+
+.sub-title::after {
+  content: "";
+  display: block;
+  width: 100%;
+  border-bottom: 4px solid #00b172;
+}
+
+.card-container {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-evenly;
+}
+
+.card {
+  display: grid;
+  grid-template-rows: 1fr 1fr 1fr;
+  width: 25vw;
+  align-content: center;
+  justify-items: center;
+  text-align: center;
+}
+
+.card-icon {
+  width: 100px;
+}
+
+.card-title {
+  color: #00b172;
+  font-size: 1.5rem;
+  font-weight: bolder;
+}
+
+.card-text {
+  opacity: 75%;
+}
+
+.spotlight-container {
+  color: white;
+  background-color: #00b172;
+  display: flex;
+  flex-direction: column;
+  padding: 4vw 7vw;
+}
+
+.spotlight-items {
+  width: 100%;
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  align-items: center;
+  flex-wrap: nowrap;
+  gap: 5vw;
+}
+
+.spotlight-left {
+  flex-grow: 2;
+  display: flex;
+  flex-direction: column;
+  width: 33%;
+}
+
+.spotlight-middle {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  width: 33%;
+}
+
+.spotlight-right {
+  width: 33%;
+}
+
+.spotlight-title {
+  font-size: 2rem;
+  width: 59%;
+}
+
+.spotlight-title:after {
+  content: "";
+  display: block;
+  border-bottom: 3px solid #fff;
+}
+
+.spotlight-logo {
+  width: 100px;
+}
+
+.spotlight-image {
+  width: 200px;
+}
+
+.spotlight-text {
+  opacity: 75%;
+}
