@@ -6,3 +6,146 @@ Green: #00B172
 White: #FFF
 
 */
+
+body {
+  margin: 0;
+  padding: 0;
+}
+
+.nav-container {
+  width: 96vw;
+  position: fixed;
+  background-color: white;
+  z-index: 2;
+  padding: 2vw;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.logo-wrapper {
+  width: 10rem;
+}
+
+a {
+  text-decoration: none;
+  color: black;
+  font-size: 16px;
+  margin-left: 2rem;
+}
+
+.hero {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  background-image: url("../images/landing.jpg");
+  height: 90vh;
+  background-size: cover;
+  color: white;
+  font-size: 2.5rem;
+}
+
+.hero-text {
+  width: 60vw;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+
+.hero p {
+  font-size: 2rem;
+  text-align: center;
+}
+
+.features {
+  width: 100%;
+}
+
+h2 {
+  font-size: 30px;
+  text-align: center;
+  text-decoration: underline;
+  text-decoration-thickness: 3px;
+  text-decoration-color: #00b172;
+  text-underline-offset: 10px;
+}
+
+.card-container {
+  padding-top: 3rem;
+  display: flex;
+  justify-content: space-around;
+  align-items: baseline;
+}
+
+.card {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  width: 15rem;
+}
+
+.card-image-wrapper {
+  width: 10vw;
+}
+
+.card-heading {
+  color: #00b172;
+  font-size: 24px;
+}
+
+.card-text {
+  font-size: 20px;
+  font-weight: 100;
+  text-align: center;
+}
+
+.section-green {
+  padding: 0rem 2rem;
+  color: white;
+  position: relative;
+}
+
+.wrapper-green {
+  background-color: #00b172;
+  padding: 3rem;
+}
+
+.green-content-wrapper {
+  display: flex;
+  justify-content: space-between;
+}
+
+.green-text-wrapper {
+  width: 16rem;
+}
+
+.green-h3 {
+  font-weight: 400;
+  font-size: 30px;
+  text-decoration: underline;
+  text-decoration-thickness: 3px;
+  text-decoration-color: white;
+  text-underline-offset: 10px;
+}
+
+.green-h4 {
+  font-size: 24px;
+}
+
+.green-p {
+  font-size: 18px;
+  font-weight: 100;
+}
+
+.green-image-wrapper {
+  width: 20rem;
+}
+
+.icon-wrapper {
+  width: 8rem;
+  position: absolute;
+  top: 40%;
+  left: 45%;
+}
