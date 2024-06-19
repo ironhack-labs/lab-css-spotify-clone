@@ -1,8 +1,195 @@
-/*
-Colors:
+@font-face {
+    font-family: "loew-bold";
+    src: url(./loew-bold.otf);
+}
 
-Text: 1A1A1A
-Green: #00B172
-White: #FFF
+:root {
+    --spoty-text: #1a1a1a;
+    --spoty-main: #00b172;
+}
 
-*/
+html, body {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    width: 100vw;
+    overflow-x: hidden;  
+}
+
+header {
+    width: 100vw;
+    position: relative;
+}
+
+.main-img {
+    height: 60px;
+}
+
+.blank {
+    height: 90px;
+}
+
+.img-nav {
+    width: calc(100% - 60px);
+    height: 90px;
+    background-color: white;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding: 0 30px;
+    position: fixed;
+    top: 0;
+    left: 0;
+    z-index: 1000;
+}
+
+ul {
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+}
+
+.nav-bar ul {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-evenly;
+    align-items: center;
+    width: 300px;
+}
+
+.nav-bar a {
+    color: var(--spoty-text);
+    text-decoration: none;
+    font-size: 18px;
+    font-weight: bold;
+}
+
+.img-background {
+    background-image: url(../images/landing.jpg);
+    background-size: cover;
+    background-position: center;
+    width: 100vw;
+    height: 700px;
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+    justify-content: center;
+}
+
+h1 {
+    color: white;
+}
+
+.img-background p, h1, .tile {
+    color: white;
+}
+
+.title {
+    margin-bottom: 40px;
+    font-size: 55px;
+}
+
+.img-background p {
+    font-size: 40px;
+    margin: 10px 0;
+}
+
+.whats-on {
+    width: 100vw;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    margin-top: 30px;
+}
+
+.whats-on h2 {
+    font-size: 40px;
+    border-bottom: 4px solid var(--spoty-main);
+    font-weight: 900;
+    padding: 5px;
+    margin-bottom: 80px;
+}
+
+.whats-on article {
+    width: 90%;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+}
+
+.whats-on article div {
+    min-width: 250px;
+    width: 30%;
+    height: 250px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+}
+
+.little-icon {
+    height: 120px;
+    margin-bottom: 20px;
+}
+
+.subtext {
+    color: var(--spoty-main);
+    font-size: 25px;    
+    margin-bottom: 20px;
+}
+
+.description {
+    font-size: 22px;    
+    text-align: center;
+}
+
+.kanye {
+    width: 90vw;
+    height: 600px;
+    background-color: var(--spoty-main);
+    background-image: url(../images/spotify-icon-white.png);
+    background-repeat: no-repeat;
+    background-size: 100px;
+    background-position: 50% 50%;
+    margin: 200px 5vw 40px 5vw;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    color: white;
+}
+
+.kanye article {
+    width: 50%;
+    height: 100%;
+    padding: 50px;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-around;
+}
+
+.kanye article h2 {
+    font-size: 40px;
+    border-bottom: 3px solid white;
+    padding-bottom: 5px;
+    letter-spacing: 2px; /* Espacio entre letras */
+}
+
+.kanye img {
+    height: 70%;
+    margin: auto;
+}
+
+.kanye article div h3 {
+    font-size: 30px;
+    margin-bottom: 15px;
+    font-weight: bold;
+}
+
+.kanye article div p {
+    font-size: 18px;
+    margin-bottom: 8px;
+    font-weight: 100;
+}
