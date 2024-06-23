@@ -6,3 +6,89 @@ Green: #00B172
 White: #FFF
 
 */
+html {
+  box-sizing: border-box;
+  font-size: 16px;
+}
+
+*,
+*:before,
+*:after {
+  box-sizing: inherit;
+}
+
+body,
+h1,
+h2,
+h3,
+h4,
+h5,
+h6,
+p,
+ol,
+ul {
+  margin: 0;
+  padding: 0;
+  font-weight: lighter;
+}
+
+/*  Set the font */
+body {
+  font-family: "Helvetica", sans-serif;
+}
+
+nav {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  padding: 10px 20px;
+  background-color: white; /* Spotify's green color */
+}
+
+nav img {
+  height: 40px; /* Adjust the height as needed */
+}
+
+nav ul {
+  list-style-type: none;
+  margin: 0;
+  padding: 0;
+  display: flex;
+  gap: 20px; /* Space between the list items */
+}
+
+nav ul li {
+  color: black;
+  /* cursor: pointer; */
+  font-weight: normal;
+}
+
+nav ul li:hover {
+  text-decoration: underline;
+}
+
+header {
+  background-image: url(/lab-css-spotify-clone/images/landing.jpg);
+  color: white;
+  height: 650px;
+  font-size: 2em;
+  position: relative;
+  background-position: 0 0;
+  background-repeat: no-repeat;
+  background-size: cover;
+  padding-top: 50px;
+  text-align: center;
+  display: flex;
+  justify-content: center;
+}
+
+header p {
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  text-align: center;
+  color: gray;
+  font-size: 0.5em;
+  font-weight: normal;
+}
