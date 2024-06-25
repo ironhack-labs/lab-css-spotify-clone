@@ -1,92 +1,66 @@
 ![logo_ironhack_blue 7](https://user-images.githubusercontent.com/23629340/40541063-a07a0a8a-601a-11e8-91b5-2f13e4e6b441.png)
 
-# LAB | HTML & CSS - Spotify Clone
+# LAB | HTML & CSS - Clon de Spotify
 
-<details>
-  <summary>
-   <h2>Learning Goals</h2>
-  </summary>
+## Introducción
 
-  This exercise allows you to practice and apply the concepts and techniques taught in class. 
+A todo el mundo le gusta la música, ¿verdad? Lo más probable es que, si te gusta, hayas oído hablar de **Spotify**.
 
-  Upon completion of this exercise, you will be able to:
-
-  - Create a webpage based on provided design and assets.
-  - Create and link an external CSS stylesheet with an HTML document.
-  - Display images in a webpage using HTML image tags and CSS `background` property.
-  - Use the CSS `position` property to position elements on a webpage.
-  - Use Flexbox to layout and position elements on a webpage.
-  - Center content on a webpage, including images and text.
-  - Submit completed work using Git and GitHub by creating a Pull Request.
-
-  <br>
-  <hr> 
-
-</details>
-
-## Introduction
-
-Everybody likes music, right? So the odds are that you have heard of **Spotify**.
-
-In this lab, we will be building a simplified version of the Spotify landing page:
+En este laboratorio, construiremos una versión simplificada de la página de aterrizaje de Spotify:
 
 ![Spotify image](https://i.imgur.com/xVD0bm6.jpg)
 
-<br>
+<br/>
 
-All of the necessary assets and images are already provided. You might also find it useful to resort to the **[full-length PDF version of the website](https://s3-eu-west-1.amazonaws.com/ih-materials/uploads/spotify-prototype.pdf)** as a reference.
+Todos los activos e imágenes necesarios ya están incluidos. También puede resultarte útil recurrir a la **[versión completa en PDF de la](https://s3-eu-west-1.amazonaws.com/ih-materials/uploads/spotify-prototype.pdf)** página como referencia.
 
-## Requirements
+## Requisitos
 
-- Fork this repo
-- Clone this repo
+- Haz un fork de este repo
+- Clona este repositorio
 
-## Submission
+## La presentación
 
-Upon completion, run the following commands:
+Al terminar, ejecuta los siguientes comandos:
 
 ```shell
-git add .
-git commit -m "done"
-git push origin master
+$ git add .
+$ git commit -m "done"
+$ git push origin master
 ```
 
-Create Pull Request so your TAs can check up your work.
+Cree una solicitud de extracción para que sus tutores puedan comprobar su trabajo.
 
-## Instructions
+## Instrucciones
 
-You are provided with some assets - in the `images` folder, you will find the necessary images, and the text is ready for you in the `index.html` file. Write your HTML and CSS code in the `index.html` and `styles/style.css` files, respectively. Again, remember to follow the best practices.
+Se te proporcionan algunos activos: en la carpeta de `images`, encontrarás las imágenes necesarias, y el texto está listo para ti en el archivo `index.html`. Escribe tu código HTML y CSS en los archivos `index.html` y `styles/style.css`, respectivamente. Recuerda seguir las mejores prácticas.
 
-The page is split into 4 sections, and we have generously cut it down into pieces!
+La página está dividida en 4 secciones, ¡y la hemos cortado generosamente en trozos!
 
-In general, website designs don't just come out of the wild, so you will likely have mockups/sketches that you will have to integrate. Therefore, it is a good practice to help you cut the website into pieces before coding to help you _**structuring**_ your HTML.
+En general, los diseños de sitios web no salen de la nada, así que lo más probable es que tengas maquetas/bocetos que tendrás que integrar. Es una buena práctica para ayudarte antes de codificar a cortar el sitio web en pedazos con el fin de ayudarte a _**estructurar**_ tu HTML.
 
-_**The last section isn't as detailed as the others ones, good luck**_ :smile:
+_**La última sección no es tan detallada como las otras, buena suerte**_ :smile:
 
-:muscle: :muscle: :muscle:
-<br>
-![](https://res.cloudinary.com/ihwebdeb/image/upload/v1571085836/Ironhack/spotify-prototype_1x_ahk8ep.jpg)
+:muscle: :muscle: :muscle:<br/>![](https://res.cloudinary.com/ihwebdeb/image/upload/v1571085836/Ironhack/spotify-prototype_1x_ahk8ep.jpg)
 
-Let's do this!
+¡Hagamos esto!
 
-### Iteration 1: Navbar
+### Iteración 1: Barra de navegación
 
-- The navbar should be `position: fixed`.
-- Align the logo to the left and the `ul` with the links to the right, either using `float` or `flex`.
+- La barra de navegación debe estar en `posición: fixed`.
+- Alinear el logo a la izquierda y la `ul` con los enlaces a la derecha, ya sea usando `float` o `flex`.
 
-### Iteration 2: Large image background with text
+### Iteración 2: Fondo de imagen grande con texto
 
-- Check out [this guide](https://css-tricks.com/centering-css-complete-guide/) on centering things.
+- Consulta [esta guía](https://css-tricks.com/centering-css-complete-guide/) sobre cómo centrar las cosas.
 
-### Iteration 3: What is on Spotify section
+### Iteración 3: Sección "¿Qué hay en Spotify?
 
-- It looks like the `div`s take up about a third of the container each. How can you represent this in code?
+- Parece que los `divs` ocupan aproximadamente un tercio del contenedor cada uno. ¿Cómo se puede representar esto en el código?
 
-### Iteration 4: The green section
+### Iteración 4: La sección verde
 
-- It looks like we have 2 main sections, a containing element with the text flowing from top to bottom and the image of the Spotify player on the right.
-- Position the Spotify logo absolutely according to the _green_ `div`.
+- Parece que tenemos 2 secciones principales, un elemento contenedor con el texto que fluye de arriba a abajo, y la imagen del reproductor de Spotify a la derecha.
+- Coloca el logotipo de Spotify absolutamente de acuerdo con el `div` _verde_.
 
-<br>
-
-**Happy coding!** :heart:
+¡Feliz codificación! :heart:

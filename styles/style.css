@@ -1,8 +1,212 @@
-/*
-Colors:
+/* Global styles */
+:root {
+    --color-text: #1A1A1A;
+    --color-green: #00B172;
+    --color-white: #FFF;
+    --nav-height: 3rem;
+    --background-logo-size: 4rem;
+}
 
-Text: 1A1A1A
-Green: #00B172
-White: #FFF
+h1,
+h2,
+h3,
+body,
+html,
+main {
+    margin: 0;
+}
 
-*/
+html {
+    font-family: 'Open Sans', 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    font-size: 18px;
+    color: var(--color-text);
+    /* box-sizing: border-box; */
+}
+
+nav,
+p {
+    font-size: .8rem;
+}
+
+ul {
+    list-style-type: none;
+    padding: 0;
+    margin: 0;
+}
+
+section {
+    margin-inline: 2rem;
+    padding-block: 2rem;
+}
+
+section:last-of-type {
+    margin-bottom: 2rem;
+}
+
+h2 {
+    width: fit-content;
+    padding-bottom: .1rem;
+    margin-bottom: 2rem;
+    font-size: 1.3rem;
+    font-weight: 600;
+    border-bottom: 3px solid var(--color-green);
+}
+
+h3 {
+    font-size: .9rem;
+    font-weight: 700;
+    color: var(--color-green);
+}
+
+p {
+    font-weight: 300;
+    text-wrap: balance;
+}
+
+/* Top nav styles */
+.top-nav {
+    padding: .5rem 1.25rem;
+    font-size: .7rem;
+    background-color: var(--color-white);
+    position: fixed;
+    inset: 0 0 auto 0;
+    display: flex;
+    justify-content: space-between;
+
+    .logo {
+        height: 2rem;
+        transition: filter 100ms ease;
+
+        &:hover {
+            filter: brightness(.9);
+        }
+    }
+
+    ul {
+        display: flex;
+        justify-content: space-between;
+        align-items: center;
+
+        li {
+            height: 100%;
+
+            a {
+                display: flex;
+                height: 100%;
+                align-items: center;
+
+                padding: 0 .5rem;
+                text-decoration: none;
+                color: var(--color-text);
+                transition: color 100ms ease;
+
+                &:hover {
+                    color: var(--color-green);
+                }
+            }
+        }
+    }
+}
+
+/* Header styles */
+header {
+    background-image: url("../images/landing.jpg");
+    background-size: cover;
+    color: white;
+    padding: 9rem 1rem;
+
+    h1 {
+        text-align: center;
+        font-weight: 600;
+    }
+
+    p {
+        text-align: center;
+    }
+}
+
+/* Specific sections */
+#whats-on {
+    h2 {
+        margin-inline: auto;
+    }
+
+    ul {
+        display: grid;
+        grid-template-columns: repeat(auto-fit, minmax(150px, 1fr));
+        gap: 1rem;
+
+        article {
+            text-align: center;
+
+            img {
+                height: 3.2rem;
+            }
+        }
+    }
+}
+
+#kanye-west {
+    display: flex;
+    justify-content: space-between;
+    text-align: start;
+    gap: var(--background-logo-size);
+
+    background-image: url("../images/spotify-icon-white.png");
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: var(--background-logo-size);
+
+    ul {
+        max-width: 50%;
+    }
+
+    .side-image {
+        height: 20rem;
+        align-self: center;
+    }
+}
+
+
+/* Dark sections */
+section.dark {
+    padding: 2rem 3rem;
+    background-color: var(--color-green);
+    color: var(--color-white);
+
+    h2 {
+        border-color: var(--color-white);
+    }
+
+    h3 {
+        color: var(--color-white);
+    }
+}
+
+/* Mobile mode */
+@media (max-width: 640px) {
+    section.dark {
+        margin: 0;
+    }
+
+    #whats-on {
+        ul {
+            grid-template-columns: 1fr;
+        }
+    }
+
+    #kanye-west {
+        flex-direction: column;
+
+        ul {
+            max-width: none;
+        }
+    }
+}
+
+/* Bigger screens */
+@media (min-width: 1280px) {
+    html {
+        font-size: 24px;
+    }
+}
