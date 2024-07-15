@@ -6,3 +6,207 @@ Green: #00B172
 White: #FFF
 
 */
+
+body {
+  margin: 0;
+  font-family: Arial, sans-serif;
+}
+
+.navbar {
+  position: fixed;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 10px;
+  background-color: white;
+  z-index: 1000;
+  top: 0;
+  left: 0;
+  width: 100%;
+}
+
+.navbar-brand a {
+  color: white;
+  text-decoration: none;
+  font-size: 1.5rem;
+}
+
+.navbar-nav {
+  list-style: none;
+  display: flex;
+  margin: 0;
+  padding-right: 30px;
+}
+
+.nav-item {
+  margin-left: 1rem;
+}
+
+.nav-item a {
+  color: #1A1A1A;
+  font-size: 24px;
+  text-decoration: none;
+  padding: 0.5rem 1rem;
+}
+
+.nav-item a:hover {
+  background-color: #00B172;
+  border-radius: 50px;
+}
+
+.logo {
+  width: 300px;
+}
+
+.header {
+  color: white;
+  background: url('../images/landing.jpg') no-repeat center center;
+  background-size: cover;
+  display: flex;
+  justify-content: center;
+  text-align: center;
+  height: 100vh;
+  width: 100%;
+  position: relative;
+  flex-direction: column;
+}
+
+h1 {
+  font-size: 80px;
+}
+
+
+.p-header {
+  font-size: 30px;
+}
+
+.p1-header{
+  padding-top: 5px;
+  font-size: 30px;
+}
+
+.info {
+  text-align: center;
+}
+
+.info-1 {
+  text-align: center;
+
+}
+
+.custom-underline {
+    position: relative;
+    display: inline-block;
+    padding-bottom: 10px;
+    font-size: 60px;
+}
+
+.custom-underline::after {
+    content: '';
+    position: absolute;
+    left: 0;
+    bottom: 0;
+    width: 100%;
+    height: 5px;
+    background-color: #00B172;
+}
+
+.info-1 {
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  padding-top: 50px;
+  padding-bottom: 50px;
+}
+
+.img {
+  width: 150px;
+  height: 100px;
+}
+
+
+.div2 {
+  padding-right: 300px;
+}
+
+.div1 {
+  padding-right: 300px;
+}
+
+.h3 {
+  color: #00B172;
+  font-size: 40px;
+}
+ .p3 {
+  font-size: 24px;
+ }
+
+ .final-div {
+  background-color: #00B172;
+  height: 90vh;
+  margin-left: 40px;
+  margin-right: 40px;
+  position: relative;
+  color: white;
+  display: flex;
+  flex-direction: row;
+ }
+
+ .h3-final{
+  font-size: 40px;
+  text-align: left;
+ }
+
+ .custom-underline1 {
+  position: relative;
+  display: inline-block;
+  padding-bottom: 10px;
+  font-size: 60px;
+}
+.div8 {
+  text-align: left;
+  padding-left: 120px;
+  padding-top: 120px;
+  display: flex;
+  flex-direction: column;
+}
+
+.custom-underline1::after {
+  content: '';
+  position: absolute;
+  left: 0;
+  bottom: 0;
+  width: 100%;
+  height: 5px;
+  background-color: white;
+}
+
+.logo-white {
+  width: 200px;
+}
+
+.final-p {
+  font-size: 24px;
+}
+
+.logo-app {
+  width: 500px;
+  height: 900px;
+}
+
+.div7 {
+  display: flex;
+  position: relative;
+  justify-content: right;
+  width: 50%;
+  height: auto;
+  padding-top: 150px;
+}
+
+.div5 {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  justify-items: center;
+  width: 50%;
+}
