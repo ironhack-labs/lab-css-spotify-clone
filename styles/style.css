@@ -6,3 +6,174 @@ Green: #00B172
 White: #FFF
 
 */
+
+* {
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+}
+
+nav {
+    height: 100px;
+    background: #FFF;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;   
+}
+
+nav a {
+    text-decoration: none;
+    margin: 10px;
+    color: black;
+}
+
+.nav-items {
+    padding: 15px; 
+}
+
+
+.spotify-logo {
+    height: 80px;
+    width: 250px;
+}
+
+.hero {
+    background-image: url(../images/landing.jpg);
+    height: 650px;
+    width: auto;
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+.hero-container {
+    display: grid;
+    height: 95vh;
+    color: #FFF;
+}
+
+.column-center  {
+ display: flex;
+ flex-direction: column;
+ align-items: center;
+ justify-content: center;
+
+ h1 {
+    font-size: 70px;
+ }
+
+ p {
+   text-align: center;
+   font-size: 27px;
+ }
+}
+
+.on-spotify {
+    height: 350px;
+}
+
+.display-boxes-title {
+    text-align: center;
+    h2 {
+        text-decoration: underline;
+        text-decoration-color: #00B172;
+        padding: 20px;
+        font-size: 28px;
+    }
+}
+.display-boxes {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    height: 290px;
+     h3 {
+        color: #00B172;
+        padding: 12px;
+     }
+}
+
+
+.left-box {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    text-align: center;
+    width: 250px;
+}
+
+.center-box {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    text-align: center;
+    width: 250px;
+}
+
+.right-box {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    text-align: center;
+    width: 250px;
+}
+
+.display-icons {
+    height: 50px;
+    width: 80px;
+    justify-content: center;
+    align-items: center;
+}
+
+
+.green-section {
+    background-color: #00B172;
+    display: flex;
+    color: #FFF;
+    padding: 30px;
+    height: 400px;
+
+    .green-section-title {
+        padding: 5px;
+        text-decoration-line: underline;
+        text-underline-offset: 10px;
+    }
+
+    h3 {
+        margin-top: 20px;
+        margin-bottom: 20px;
+        font-size: 20px;
+        text-align: left;
+    }
+
+    p {
+        text-align: left;
+    }
+}
+
+.green-section-words {
+    padding: 20px;
+    display: flex;
+    flex-direction: column;
+    width: 400px;
+}
+
+.white-icon {
+    width: 80px;
+   display: flex; 
+   justify-content: right;
+   align-items: center;
+   margin: 50px;
+}
+
+.shopify-app-image {
+    height: 350px;
+    display: flex;
+    justify-content: end;
+    align-items: end;
+    margin-left: 80px;
+}
+
+.green-section-icon {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
