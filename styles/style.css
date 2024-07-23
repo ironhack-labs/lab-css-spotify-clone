@@ -1,8 +1,252 @@
-/*
+/* 
 Colors:
 
 Text: 1A1A1A
 Green: #00B172
 White: #FFF
+ */
 
-*/
+* {
+    box-sizing: border-box;
+}
+
+body {
+    margin: 0;
+}
+
+nav {
+    height: 100px;
+    background: #FFF;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;   
+}
+
+nav a {
+    text-decoration: none;
+    margin: 10px;
+    color: black;
+}
+
+.nav-items {
+    padding: 15px; 
+}
+
+
+.spotify-logo {
+    height: 80px;
+    width: 250px;
+}
+
+.hero {
+    background-image: url('../images/landing.jpg');
+    background-size: cover;
+    background-position: center;
+    height: 1000px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    color: white;
+}
+
+.hero-container {
+    text-align: center;
+    display: grid;
+    font: 50px 'Roboto', sans-serif;
+}
+
+.column-center {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+
+    h1 {
+    font-size: 80px;
+    }
+
+    p {
+        font-size: 30px;
+    }
+}
+
+
+
+.on-spotify {
+    height: 350px;
+}
+
+.display-boxes-title {
+    text-align: center;
+    h2 {
+        text-decoration: underline;
+        text-underline-offset: 0.5em;
+        font: 0px 'Roboto', sans-serif;
+        text-decoration-color: #00B172;
+        font-size: 38px;
+    }
+}
+
+.display-boxes {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    gap: 300px;
+    height: 300px;
+     h3 {
+        margin-bottom: -20px;
+        color: #00B172;
+        padding: 12px;
+        font-size: 35px;
+     }
+}
+
+.left-box {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    text-align: center;
+    font-size: 22px;
+    color: #585858;
+    width: 250px;
+}
+
+.middle-box {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    text-align: center;
+    font-size: 22px;
+    color: #585858;
+    width: 250px;
+}
+
+.right-box {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    text-align: center;
+    font-size: 22px;
+    color: #585858;
+    width: 250px;
+}
+
+.display-icons {
+    height: 60px;
+    width: auto;
+    justify-content: center;
+    align-items: center;
+    margin-bottom: -35px;
+}
+
+
+
+.green-section {
+    background: #00B172;
+    display: flex;
+    color: #fff;
+    padding: 50px;
+    /* height: auto; */
+
+    .green-section-title {
+        font-size: 30px;
+        padding: 5px;
+        text-decoration-line: underline;
+        text-underline-offset: 10px;
+    }
+
+    h3 {
+        font-size: 30px;
+        text-align: left;
+    }
+
+    p {
+        text-align: left;
+        font: 15px 'Roboto', sans-serif;
+    }
+}
+
+.green-section-paragraph {
+    padding: 20px;
+    display: flex;
+    flex-direction: column;
+    width: 400px;
+}
+
+.white-icon {
+    width: 100px;
+   display: flex; 
+   justify-content: right;
+   align-items: center;
+   margin: 50px;
+}
+
+.shopify-app-image {
+    height: 350px;
+    display: flex;
+    justify-content: end;
+    align-items: end;
+    margin-left: 80px;
+}
+
+.green-section-icon {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+
+/* .green-section {
+    background-color: #00B172;
+    display: flex;
+    color: #FFF;
+    padding: 30px;
+    height: auto;
+
+    .green-section-title {
+        padding: 5px;
+        text-decoration-line: underline;
+        text-underline-offset: 10px;
+    }
+
+    h3 {
+        margin-top: 20px;
+        margin-bottom: 20px;
+        font-size: 20px;
+        text-align: left;
+    }
+
+    p {
+        text-align: left;
+    }
+}
+
+.green-section-words {
+    padding: 20px;
+    display: flex;
+    flex-direction: column;
+    width: 400px;
+}
+
+
+.white-icon {
+    width: 80px;
+   display: flex; 
+   justify-content: right;
+   align-items: center;
+   margin: 50px;
+}
+
+.shopify-image {
+    width: 300px;
+    height: auto;
+    margin-top: 20px;
+    margin-right: 100px;
+    align-items: end;;
+}
+
+.green-section-icon {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+} */
