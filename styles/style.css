@@ -6,3 +6,237 @@ Green: #00B172
 White: #FFF
 
 */
+
+/* Reset some default styles */
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    font-family: 'Circular', 'Helvetica Neue', Helvetica, Arial, sans-serif;
+    color: #1A1A1A;
+}
+
+/* Container class for centering content */
+.container {
+    width: 90%;
+    margin: 0 auto;
+    
+}
+
+/* Navbar styles */
+.navbar {
+    position: fixed;
+    top: 0;
+    left: 0;
+    width: 100%;
+    background-color: #FFF;
+    padding: 10px 0;
+    z-index: 1000;
+}
+
+.navbar .container {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    
+}
+
+.navbar .logo img {
+    height: 40px; 
+    margin-left: 20px;
+}
+
+.navbar nav ul {
+    list-style-type: none;
+    display: flex;
+}
+
+.navbar nav ul li {
+    margin-right: 20px;
+}
+
+.navbar nav ul li:last-child {
+    margin-right: 0;
+}
+
+.navbar nav ul li a {
+    text-decoration: none;
+    color: black;
+    font-size: 0.9rem;
+    font-weight: bold;
+}
+
+/* Large image background section */
+.large-bg {
+    background-image: url('/images/landing.jpg');
+    background-size: cover;
+    background-position: center;
+    height: 100vh;
+    display: flex;
+    justify-content: center; 
+    align-items: center;
+    text-align: center;
+    color: white;
+}
+
+.large-bg h1 {
+    font-size: 3rem;
+    margin-bottom: 20px;
+}
+
+.large-bg p {
+    font-size: 1.2rem;
+}
+
+/* What's on Spotify section */
+.whats-on {
+    padding: 50px 0;
+    text-align: center;
+    
+}
+
+.whats-on-heading h2 {
+    font-size: 2.2rem;
+    margin-bottom: 30px;
+    position: relative;
+    display: inline-block;
+}
+
+.whats-on-heading h2::after {
+    content: '';
+    display: block;
+    width: 90%;
+    height: 4px;
+    background-color: #00B172;
+    margin: 10px auto 0;
+}
+
+.container {
+    max-width: 1200px;
+    margin: 0 auto;
+}
+
+.features {
+    display: flex;
+    justify-content: space-around;
+    align-items: flex-start;
+    flex-wrap: wrap;
+}
+
+.features h2 {
+    margin-bottom: 30px;
+    font-size: 2rem;
+    color: #00B172;
+}
+
+.feature {
+    width: 30%; /* Each feature takes up about a third */
+    margin: 0 1%;
+    text-align: center;
+}
+
+.feature img {
+    width: 50%;
+    border-radius: 5px;
+    margin-bottom: 20px;
+    
+}
+
+.feature h2 {
+    font-size: 1.5rem;
+    margin-bottom: 10px;
+}
+
+.feature p {
+    font-size: 1.2rem;
+}
+
+.green-section {
+    background-color: #00B172;
+    padding: 50px 0; /* Increase padding to make the section bigger */
+    margin: 0 35px;
+}
+.green-section .container {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+.content {
+    display: flex;
+    justify-content: space-between;
+    width: 100%;
+    max-width: 1200px; /* Limit the width of the content */
+    
+}
+
+.content-header{
+    color: white;
+    font-size: 1.2rem;
+    margin-bottom: 30px;
+    position: relative;
+    display: inline-block;
+    
+}
+
+.content-header h2 {
+    font-size: 2rem;
+    margin-bottom: 10px;
+    font-weight: 300;
+}
+
+.content-header h2::after {
+    content: '';
+    display: block;
+    width: 99%;
+    height: 4px;
+    background-color: white;
+    
+}
+
+.left-articles {
+    flex: 1;
+    margin-right: 20px; /* Add space between articles and icon */
+
+}
+.article {
+    color: white;
+    margin-bottom: 20px;
+
+    padding: 10px; /* Add padding inside articles */
+    font-weight: 300;
+}
+
+.article p {
+
+    line-height: 1.6;
+    font-weight: 300;
+    font-size: 1.1rem;
+}
+
+.middle-spotify-icon {
+    flex: 0 0 auto; /* Prevent the icon from stretching */
+    margin: 200px 20px 0 20px; /* Add space around the icon */
+}
+.spotify-icon {
+    width: 150px; /* Adjust the size of the Spotify icon */
+}
+.right-spotify-app {
+    flex: 1;
+    margin-left: 20px; /* Add space between icon and app picture */
+
+    text-align: center;
+}
+.spotify-app {
+    width: 300px; /* Adjust the size of the Spotify app picture */
+}
+
+/* Footer */
+footer {
+    background-color: #333;
+    color: white;
+    text-align: center;
+    padding: 10px 0;
+}
