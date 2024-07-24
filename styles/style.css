@@ -6,3 +6,204 @@ Green: #00B172
 White: #FFF
 
 */
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    color: #1A1A1A;
+    font-family: 'Montserrat', sans-serif;
+}
+
+header {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+
+    max-width: 1300px;
+    margin: 0 auto;
+    padding: 20px;
+}
+
+.logo-container {
+
+}
+
+.logo-img {
+    width: 200px;
+}
+
+.navbar {
+
+}
+
+.navbar-list {
+    list-style: none;
+    display: flex;
+    gap: 16px;
+}
+
+.navbar-item {
+
+}
+
+.navbar-item a:link,
+.navbar-item a:visited {
+    text-decoration: none;
+    color: #1A1A1A;
+
+}
+
+.section-hero {
+    height: 90vh;
+    background-image: url("../images/landing.jpg");
+    background-size: cover;
+    background-position: center;
+
+    position: relative;
+}
+
+.hero-text {
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+
+    color: white;
+    text-align: center;
+    width: 720px;
+}
+
+.primary-heading {
+    font-size: 70px;
+    margin-bottom: 20px;
+    font-weight: 400;
+    letter-spacing: 4px;
+}
+
+.hero-para {
+    font-size: 30px;
+    font-weight: 100;
+}
+
+.section-features {
+    padding: 80px 0;
+    max-width: 1200px;
+    margin: 0 auto;
+}
+
+.heading-secondary {
+    font-size: 36px;
+    /*text-align: center;*/
+    margin-bottom: 48px;
+}
+
+.features-container {
+    display: flex;
+    /*gap: 16px;*/
+
+    justify-content: space-around;
+
+    text-align: center;
+    /*align-items: center;*/
+    /*justify-content: center;*/
+}
+
+.feature {
+    /*flex-basis: 33%;*/
+    width: 200px;
+}
+
+.feature-icon img {
+    height: 64px;
+    width: 64px;
+
+    margin-bottom: 16px;
+}
+
+.heading-tertiary {
+    font-size: 20px;
+    color: #00B172;
+    margin-bottom: 24px;
+}
+
+.para-feature {
+    font-size: 18px;
+    font-weight: 300;
+    line-height: 1.4;
+}
+
+.section-yeezy {
+    color: #fff;
+    max-width: 1200px;
+    margin: 0 auto;
+    background: #00B172;
+    padding: 60px 120px;
+
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+
+    position: relative;
+
+}
+.logo {
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+}
+.logo img{
+    width: 140px;
+}
+
+.left-side {
+
+}
+
+.right-side {
+
+}
+
+.right-side img {
+    width: 240px
+}
+.steps-container {
+    width: 250px;
+
+    display: flex;
+    flex-direction: column;
+    gap: 40px;
+}
+
+.heading-4 {
+    font-size: 20px;
+    margin-bottom: 20px;
+}
+
+.para-steps {
+    font-weight: 300;
+    font-size: 16px;
+    line-height: 1.6;
+}
+
+/*UTILITY CLASSES*/
+.text-align-center {
+    text-align: center;
+}
+
+.text-decoration-underline {
+    text-decoration: underline;
+}
+
+.padding-bottom-10 {
+    padding-bottom: 10px;
+}
+
+.text-underline-offset-20 {
+    text-underline-offset: 20px;
+}
+
