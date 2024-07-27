@@ -1,3 +1,312 @@
+body {
+    font-family: "Lucida Sans", "Lucida Sans Regular", "Lucida Grande",
+        "Lucida Sans Unicode", Geneva, Verdana, sans-serif;
+    background: #fff;
+}
+
+.nav {
+    position: fixed;
+    height: 12%;
+    margin-left: 5px;
+    width: 98%;
+    background: #fff;
+    text-align: right;
+    word-spacing: 25px;
+}
+
+.nav::before {
+    content: "";
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 98.5%;
+    height: 95%;
+    border: 5px solid aqua;
+    transform: translate(5px, 5px);
+    z-index: -1;
+}
+
+.logo {
+    position: fixed;
+    width: 177px;
+    height: 60px;
+    left: 35px;
+    background: #fff;
+    margin: 10px;
+}
+
+.logo img {
+    width: 100%;
+    height: 100%;
+}
+
+.spotify-logo {
+    object-fit: contains;
+}
+
+.menu {
+    position: fixed;
+    right: 40px;
+    top: 20px;
+    text-align: right;
+    padding: 17px;
+    width: 35%;
+    font-size: 125%;
+    color: rgb(100, 100, 100);
+    opacity: 0.9;
+}
+
+.menu::before {
+    content: "";
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 98.5%;
+    height: 75%;
+    border: 6px solid #5bfd04;
+    transform: translate(5px, 5px);
+    z-index: -1;
+}
+
+.music-for-everyone {
+    text-align: center;
+}
+
+.background-image {
+    outline: 5px fuchsia solid;
+    outline-offset: -5px;
+    background-color: black;
+    width: 100%;
+    height: 100%;
+}
+
+.landing-image {
+    width: 100%;
+    height: 100%;
+    object-fit: contains;
+    margin-bottom: -20px;
+}
+
+.info0 {
+    font-size: 380%;
+    word-spacing: 5px;
+    color: #fff;
+    position: absolute;
+    top: 40%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+}
+
+.info01 {
+    font-family: system-ui, -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto,
+        Oxygen, Ubuntu, Cantarell, "Open Sans", "Helvetica Neue", sans-serif;
+    font-size: 155%;
+    word-spacing: 2px;
+    color: silver;
+    opacity: 0.8;
+    position: absolute;
+    top: 60%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+}
+
+.what-is-on-spotify {
+    width: 96.8%;
+    height: 97%;
+    margin-top: 15px;
+    margin-bottom: 10px;
+    background-color: #fff;
+    outline: 5px red solid;
+    outline-offset: -5px;
+    padding: 20px;
+    text-align: center;
+}
+
+.underlined-text1 {
+    color: black;
+    font-size: 200%;
+    text-decoration: underline;
+    text-underline-offset: 9px;
+    text-decoration-color: #00b172;
+    text-decoration-thickness: 5px;
+    text-decoration-skip-ink: none;
+}
+
+.box1 {
+    width: 99.1%;
+    display: flex;
+    height: 90%;
+    outline-color: #f59d06;
+    outline-width: 5px;
+    outline-style: solid;
+    float: center;
+    background-color: #FFF;
+    margin: 12px;
+    margin-bottom: 40px;
+    font-size: 100%;
+}
+
+.container {
+
+    outline: solid;
+    outline-color: rgb(229, 250, 6);
+    outline-width: 4px;
+    margin-left: 40px;
+    margin-top: 40px;
+    margin-bottom: 40px;
+    padding: 65px;
+}
+
+.box11-image {
+    width: 100px;
+    height: 100px;
+    left: 5px;
+    background: #fff;
+    margin: 10px auto;
+}
+
+.box11-image img {
+    width: 100%;
+    height: 100%;
+}
+
+.music-icon {
+    object-fit: cover;
+}
+
+.box12-image {
+    width: 100px;
+    height: 100px;
+    left: 5px;
+    background: #fff;
+    margin: 10px auto;
+}
+
+.box12-image img {
+    width: 100%;
+    height: 100%;
+}
+
+.high-quality-icon {
+    object-fit: cover;
+}
+
+.box13-image {
+    width: 100px;
+    height: 100px;
+    left: 5px;
+    background: #fff;
+    margin: 10px auto;
+}
+
+.box13-image img {
+    width: 100%;
+    height: 100%;
+}
+
+.devices-icon {
+    object-fit: cover;
+}
+
+.title {
+    color: #00b172;
+    font-size: 150%;
+}
+
+.text {
+    color: black;
+    opacity: 0.5;
+    font-size: 110%;
+
+}
+
+.green-panel {
+    width: 94.5%;
+    float: center;
+    background-color: #00b172;
+    margin: 30px;
+    padding-bottom: 75px;
+    margin-top: -15px;
+}
+
+.green-panel::before {
+    content: "";
+    position: absolute;
+    margin-top: 10px;
+    top: -150;
+    left: 0;
+    margin-left: 1px;
+    width: 97.9%;
+    height: 91%;
+    border: 6px solid rgb(85, 4, 206);
+    transform: translate(5px, 5px);
+    z-index: 1;
+}
+
+.underlined-text2 {
+    color: #FFF;
+    text-decoration: underline;
+    text-underline-offset: 9px;
+    text-decoration-thickness: 3px;
+    text-decoration-skip-ink: none;
+}
+
+.info4 {
+    font-size: 110%;
+    padding-top: 50px;
+    color: #FFF;
+    text-align: left bottom;
+    margin-left: 90px;
+}
+
+.info4-text {
+    font-family: system-ui, -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto,
+        Oxygen, Ubuntu, Cantarell, "Open Sans", "Helvetica Neue", sans-serif;
+    font-size: 105%;
+    color: rgb(229, 229, 229);
+    opacity: 0.8;
+}
+
+.logo2 {
+    position: absolute;
+    width: 130px;
+    height: 130px;
+    top: 240%;
+    left: 48%;
+    margin: -50px;
+    margin-bottom: -50px;
+}
+
+.logo2 img {
+    width: 100%;
+    height: 100%;
+}
+
+.spotify-logo2 {
+    object-fit: contains;
+    position: sticky;
+}
+
+.spotify-app {
+    position: absolute;
+    width: 300px;
+    height: 563px;
+    top: 215%;
+    left: 68%;
+    margin: -50px;
+    margin-bottom: -50px;
+}
+
+.spotify-app img {
+    width: 100%;
+    height: 100%;
+}
+
+.spotify-app1 {
+    object-fit: contains;
+    position: sticky;
+}
+
 /*
 Colors:
 
