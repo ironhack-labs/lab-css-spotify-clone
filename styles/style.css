@@ -1,8 +1,186 @@
-/*
-Colors:
+body {
+    margin: 0;
+    font-family: Arial, sans-serif;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    background-color: #fff;
+}
 
-Text: 1A1A1A
-Green: #00B172
-White: #FFF
+.header {
+    width: 100%;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 20px 50px;
+    background-color: #fff;
+    border-bottom: 1px solid #ccc;
+}
 
-*/
+.logo {
+    height: 50px;
+}
+
+.nav a {
+    margin: 0 15px;
+    text-decoration: none;
+    color: black;
+    font-weight: normal;
+}
+
+.main-content {
+    position: relative;
+    text-align: center;
+    margin-top: 0px;
+}
+
+.main-image {
+    width: 100%;
+    height: auto;
+}
+
+.main-content h1 {
+    font-size: 2.5em;
+    margin: 20px 0 10px;
+}
+
+.main-content p {
+    font-size: 1.2em;
+    color: #555;
+}
+.text-overlay {
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    color: white;
+    text-align: center;
+    text-shadow: 2px 2px 4px rgba(0, 0, 0, 0.7); /* Optional for better readability */
+}
+
+.text-overlay h1 {
+    font-size: 3.5em;
+    margin: 0;
+    color: white;
+}
+
+.text-overlay p {
+    font-size: 1.5em;
+    margin-top: 20px;
+    color: white;
+}
+
+.features {
+    background-color: #fff;
+    color: #000;
+    padding: 50px 0;
+    text-align: center;
+}
+
+.features h2 {
+    font-size: 2em;
+    margin-bottom: 30px;
+    border-bottom: 2px solid #1DB954;
+    display: inline-block;
+    padding-bottom: 10px;
+}
+
+.feature-container {
+    display: flex;
+    justify-content: space-around;
+    flex-wrap: wrap;
+}
+
+.feature-item {
+    flex: 1 1 30%;
+    padding: 20px;
+    max-width: 30%;
+    box-sizing: border-box;
+    text-align: center;
+}
+
+.feature-item img {
+    width: 80px;
+    height: auto;
+}
+
+.feature-item h3 {
+    font-size: 1.7em;
+    margin: 20px 0 10px;
+    color: #1DB954;
+}
+
+.feature-item p {
+    font-size: 1.3em;
+    color: #555;
+}
+
+.yeezy {
+    background-color: #1DB954;
+    color: white;
+    padding: 50px 0;
+    text-align: left;
+}
+
+.yeezy h2 {
+    font-size: 2em;
+    margin-bottom: 30px;
+    border-bottom: 2px solid white;
+    display: inline-block;
+    margin-left: 40px;
+    padding-bottom: 10px;
+}
+
+.yeezy-content {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    flex-wrap: wrap;
+    max-width: 1200px;
+    margin: 0 auto;
+    padding: 0 20px;
+    box-sizing: border-box;
+}
+
+.yeezy-text {
+    flex: 1;
+    padding: 20px;
+    text-align: left;
+    min-width: 300px;
+}
+
+.yeezy-text h3 {
+    font-size: 1.7em;
+    margin: 20px 0 10px;
+}
+
+.yeezy-text p {
+    font-size: 1.2em;
+    color: white;
+}
+
+.yeezy-icon {
+    flex: 0 1 auto;
+    padding: 20px;
+    text-align: center;
+}
+
+.yeezy-icon img {
+    width: 80px;
+    height: auto;
+}
+
+.yeezy-image {
+    flex: 1;
+    text-align: center;
+    padding: 20px;
+    min-width: 300px;
+}
+
+.yeezy-image img {
+    max-width: 50%;
+    height: auto;
+    border: 5px solid white; /* Optional: adds a border around the image */
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2); /* Optional: adds a shadow around the image */
+}
+
