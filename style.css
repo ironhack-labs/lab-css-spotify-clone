@@ -1,0 +1,155 @@
+@import url('https://fonts.googleapis.com/css?family=Roboto+Condensed:700|Roboto:100,300,700');
+
+* {
+  box-sizing: border-box;
+  margin: 0;
+  padding: 0;
+}
+
+body {
+  margin: 20;
+  font-weight: light;
+}
+
+.navbar{
+  width: 100vw;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 20px 25px;
+  img{
+    width: 140px;
+  }
+  .links-list{
+    display: flex;
+    width: 350px;
+    justify-content: space-around;
+    list-style: none;
+    li a{
+      text-decoration: none;
+      color: black;
+    }
+  }
+}
+
+.header{
+  background-image: url('./images/landing.jpg');
+  background-size: cover;
+  background-repeat: no-repeat;
+  background-position:center ;
+  height: 50vh;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  h1{
+    color: aliceblue;
+    font-size: 3.5rem;
+  }
+  .title{
+    color: aliceblue;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    gap: 10px;
+    h1{
+      font-size: 4rem;
+      font-weight: lighter;
+    }
+    p {
+      line-height: 22px;
+      text-align: center;
+      font-size:larger;
+      span{
+        color: lightgray;
+      }
+    }
+  }
+}
+
+.mid-section{
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  text-align: center;
+  gap: 60px;
+  padding: 50px 0;
+  h2{
+    font-size: 2rem;
+  }
+  .boxes{
+    display: flex;
+    align-items: center;
+    justify-content: space-evenly;
+    .box{
+      img{
+        width:120px;
+      }
+      width: 220px;
+      padding: 5px;
+      display: flex;
+      flex-direction: column;
+      align-items: center;
+      gap: 20px;
+      h2{
+        font-size: 1.5em;
+        color: rgb(46, 182, 46);
+      }
+      p{
+        font-size: large;
+        color: gray;
+      }
+    }
+  }
+}
+
+.footer{
+  background-color: rgb(46, 182, 46);
+
+  display: flex;
+  padding: 0 40px;
+  margin: 30px 50px 0 50px;
+  justify-content: space-between;
+  position: relative;
+
+  .footer-section{
+    display: flex;
+    flex-direction: column;
+    gap: 50px;
+    padding: 60px;
+    color: aliceblue;
+
+    h1{
+      font-size: 2rem;
+      text-decoration:underline;
+    }
+
+    .boxes{
+      display: flex;
+      flex-direction: column;
+      gap: 20px;
+      p{
+        font-size: large;
+        line-height: 25px;
+        font-weight: lighter;
+      }
+    }
+  }
+}
+
+.app-image{
+  display: flex;
+  justify-content: end;
+  align-self:center;
+  padding: 85px;
+  img{
+    width: 300px;
+  }
+}
+
+.footer>img{
+  width: 120px;
+  color: lightgray;
+  position: absolute;
+  left: 43%;
+  top: 43%;
+}
