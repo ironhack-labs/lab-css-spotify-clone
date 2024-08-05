@@ -1,8 +1,116 @@
-/*
-Colors:
+body {
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+}
 
-Text: 1A1A1A
-Green: #00B172
-White: #FFF
+header {
+    position: fixed;
+    width: 100%;
+    background: white;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 10px 50px;
+    box-shadow: 0 2px 5px rgba(0,0,0,0.1);
+    z-index: 1000;
+}
 
-*/
+.logo img {
+    height: 40px;
+}
+
+.nav-links {
+    list-style: none;
+    display: flex;
+    align-items: center;
+    margin: 0;
+    padding: 0;
+}
+
+.nav-links li {
+    margin-left: 20px;
+}
+
+.nav-links a {
+    text-decoration: none;
+    color: black;
+    font-weight: bold;
+}
+
+.hero {
+    background: url('../images/landing.jpg') no-repeat center center/cover;
+    height: 100vh;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    text-align: center;
+    color: white;
+}
+
+.hero-text {
+    max-width: 600px;
+    padding: 20px;
+}
+
+.features {
+    padding: 50px 0;
+    text-align: center;
+    background: #f8f8f8;
+}
+
+.features h2 {
+    margin-bottom: 30px;
+}
+
+.features-container {
+    display: flex;
+    justify-content: space-around;
+    padding: 0 50px;
+}
+
+.feature {
+    flex: 1;
+    margin: 0 20px;
+    text-align: center;
+}
+
+.feature img {
+    width: 80px;
+    margin-bottom: 20px;
+}
+
+.green-section {
+    background: #1DB954;
+    color: white;
+    padding: 50px;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+
+.green-section .text {
+    flex: 1;
+    max-width: 500px;
+}
+
+.green-section ul {
+    list-style: none;
+    padding: 0;
+}
+
+.green-section li {
+    margin-bottom: 20px;
+}
+
+.green-section .spotify-player {
+    flex: 1;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.green-section .spotify-player img {
+    width: 300px;
+    border-radius: 15px;
+}
