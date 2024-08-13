@@ -1,8 +1,118 @@
-/*
-Colors:
+* {
+    padding: 0px;
+    margin: 0px;
+    box-sizing: border-box;
+}
+body {
+    height: 100vh;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+}
+p {
+    font-size: 1.2em;
+}
+header {
+    width: 100%;
+    position: fixed;
+    top: 0;
+    left: 0;
+}
+header nav {
+    display: flex;
+    justify-content: space-between;
+    padding: 20px;
+}
+.logo img {
+    width: 150px;
+}
+.nav-links {
+    display: flex;
+    justify-content: space-between;
+    list-style: none;
+}
+.nav-links li {
+    margin-left: 15px;
+    margin-top: 10px;
+}
+.nav-links li a {
+    text-decoration: none;
+    color: #000;
+    font-size: 1.2em;
+}
+.hero {
+    background: url('../images/landing.jpg');
+    background-size: cover;
+    background-position: center center;
+    background-attachment: fixed;
+    background-repeat: no-repeat;
+    height: 100vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-top: 70px;
+}
+h1 {
+    font-size: 4em;
+    color: white;
+    text-align: start;
+    font-weight: bold;
+}
+.hero-p {
+    font-size: 1.5em;
+    color: white;
+    margin-top: 10px;
+}
+.features h2 {
+    text-align: center;
+    margin-top: 15px;
+    font-size: 3em;
+    font-weight: bold;
+}
+.cols-container {
+    display: flex;
+    width: 100%;
+    justify-content: space-between;
+}
+.cols-container .image-container {
+    padding: 30px;
+    text-align: center;
+}
+.cols-container .image-container img{
+    width: 150px;
+}
+.light-blue-header {
+    font-weight: bold;
+    color: rgb(11, 207, 142);
+    font-size: 1.5em;
+}
+.discover {
+    display: flex;
+    justify-content: space-between;
+    background:rgb(11, 207, 142);
+    padding: 20px;
+}
+.yeezy-text {
+    font-size: 2em;
+    border-bottom: 2px solid #fff;
+    color: #fff;
+    margin-bottom: 15px;
+}
+.discover-container {
+    color: white;
+}
+.search-text {
+    font-size: 2em;
+    margin-top: 30px;
+}
+.white-icon-container {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.white-icon-container img {
+    width: 50px;
+}
 
-Text: 1A1A1A
-Green: #00B172
-White: #FFF
-
-*/
+.app-container img {
+    width: 450px;
+    height: 500px;
+}
