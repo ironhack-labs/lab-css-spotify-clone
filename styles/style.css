@@ -6,3 +6,162 @@ Green: #00B172
 White: #FFF
 
 */
+
+nav {
+    position: fixed;
+    top: 0;
+    width: 100%;
+    background-color: #fff;
+    padding: 10px 20px;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    z-index: 1000;
+  }
+  
+  nav img {
+    max-height: 30px;
+    width: auto;
+  }
+
+  nav ul {
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+    display: flex;
+    padding-right: 5%;
+  }
+
+  nav ul li {
+    margin-left: 20px;
+  }
+
+  .image-section {
+    position: relative;
+    width: 100%;
+    height: 100vh;
+    overflow: hidden;
+  }
+
+  .image-section img {
+    width: 100%; 
+    height: 100%;
+    object-fit: cover;
+    display: block;
+  }
+
+  .image-section .text {
+    font-style:inherit;
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    padding: 10px;
+    border-radius: 10px;
+    color: white;
+    text-align: center;
+  }
+
+  .spotify-section {
+    padding: 50px 20px;
+    background-color: #fff;
+  }
+
+  .spotify-section h2 {
+    text-align: center;
+    margin-bottom: 40px;
+
+  }
+
+  .spotify-container {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    flex-wrap: wrap;
+  }
+
+  .spotify-card {
+    flex: 1 1 30%; /* This takes up about a third of the container */
+    box-sizing: border-box;
+    padding: 20px;
+    background-color: white;
+    margin: 10px;
+    text-align: center;
+  }
+
+  .spotify-card h3 {
+    margin-bottom: 15px;
+    color: #00B172;
+  }
+  
+  .spotify-card p {
+    margin: 0;
+  }
+  
+  .spotify-card img {
+    max-width: 100px; /* Used to adjust the size of the icon */
+    margin-bottom: 15px; /* Used to add some space below the icon */
+  }
+
+  .green-section {
+    background-color: #00B172; 
+    color: white;
+    padding: 50px 20px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    position: relative;
+  }
+
+  .green-section h2 {
+    text-align: left;
+    margin-bottom: 20px;
+
+  }
+  
+  .green-section .text-content {
+    margin-left: 40px;
+    flex: 1;
+    max-width: 50%;
+  }
+  
+  .green-section .text-content h1 {
+    margin: 20px 0 10px;
+  }
+
+  .green-section h1::after {
+    text-align: left;
+    content: '';
+    display: block;
+    width: 55%;
+    height: 2px;
+    background-color: white;
+  }
+
+  .green-section .spotify-player-white {
+    flex: 1;
+    max-width: 10%; /* Adjust as necessary */
+    display: flex;
+    justify-content: center;
+    align-items: center;
+  }
+  
+  .green-section .spotify-player-white img {
+    max-width: 100%;
+    margin-right: 50px;
+    height: auto;
+  }
+
+  .green-section .player-image {
+    flex: 1;
+    display: flex;
+    justify-content: flex-end; /* Align image to the right */
+
+  }
+  
+  .green-section .player-image img {
+    margin-right: 110px;
+    max-width: 100%;
+    height: auto;
+    max-height: 400px; /* Limit the height */
+  }
