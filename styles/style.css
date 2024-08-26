@@ -1,3 +1,5 @@
+@import url('https://fonts.googleapis.com/css2?family=Montserrat:ital,wght@0,100..900;1,100..900&display=swap');
+
 /*
 Colors:
 
@@ -6,3 +8,175 @@ Green: #00B172
 White: #FFF
 
 */
+
+/*Some necessary adjustments*/
+html {
+    box-sizing: border-box;
+    font-size: 16px;
+}
+
+*, *:before, *:after {
+    box-sizing: inherit;
+}
+
+h1, body, html, main {
+    margin: 0;
+}
+/*Import the font and set the default size*/
+html {
+font-family: Montserrat;
+font-size: 18px;
+}
+
+body{
+    max-width: 1200px;
+    margin: 0 auto;
+}
+nav{
+    max-width: 1200px;
+    display: flex;
+    position: fixed;
+    justify-content: space-between;
+    align-content: center;
+    width: 100%;
+    height: 74px;
+    background-color: white;
+    padding: 12px 35px;
+}
+
+nav img{
+    height: 50px;
+}
+
+nav ul{
+    display: flex;
+    justify-content: space-around;
+    flex-direction: row;
+    list-style-type: none;
+}
+
+nav ul li a{
+    text-decoration: none;
+    margin-left: 15px;
+    font-size: .85em;
+    font-weight: 450;
+    color: #1A1A1A;
+}
+
+header{
+    display: flex;
+    flex-direction: column;
+    width: 100%;
+    height: 780px;
+    background-image: url("../images/landing.jpg");
+    background-size: cover;
+    background-position-y: -10px;
+    color: white;
+    align-items: center;
+    justify-content: center;
+    text-align: center;
+}
+
+h1{
+    font-size: 3.6em;
+    font-weight: 500;
+}
+
+h4{
+    margin: 30px;
+    font-weight: 200;
+    font-size: 1.3em;
+    line-height: 1.5em;
+}
+
+h2{
+    text-align: center;
+    text-decoration: underline;
+    text-decoration-color: #00B172;
+    text-underline-offset: 12px;
+    margin-top: 40px;
+    font-size: 1.4em;
+}
+
+.container-specs{
+    width: 100%;
+    display: flex;
+    padding: 60px;
+    justify-content: space-around;
+}
+
+.specs{
+    width: 35%;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+}
+
+.specs img{
+    width: 30%;
+}
+
+h3{
+    color: #00B172;
+    margin: 4px auto;
+    font-size: 1.1em;
+    margin-top: 20px;
+}
+
+.specs p{
+    font-size: .9em;
+    font-weight: 320;
+}
+
+#example{
+    display: flex;
+    justify-content: space-between;
+    align-content: center;
+    align-items:flex-end;
+    margin: 30px auto 0;
+    width: 94%;
+    background-color: #00B172;
+    height: 770px;
+    padding: 30px 70px 70px;
+}
+
+.left-side{
+    width: 50%;
+    display: flex;
+    flex-direction: column;
+    color: white;
+}
+
+.left-side h2{
+    text-align: left;
+    text-decoration-color: white;
+    font-size: 1.65em;
+}
+
+.left-content{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    text-align: left;
+}
+
+.left-content img{
+    height: 120px;
+}
+
+.features{
+    line-height: 1.7em;
+}
+.features h3{
+    color: white;
+    font-size: 1.4em;;
+    margin: 40px 0 35px;
+}
+
+#example > img{
+    height: 620px;
+    /* border: solid 1px red; */
+}
+
