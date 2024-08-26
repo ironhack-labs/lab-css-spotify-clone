@@ -6,3 +6,159 @@ Green: #00B172
 White: #FFF
 
 */
+
+body {
+    font-family: sans-serif;
+}
+
+.navbar {
+    position: fixed;
+    background-color: white;
+    top: 0;
+    left: 0;
+    width: 100%;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 5px;
+    padding-top: 0;
+    margin-right: 5px;
+}
+
+.navbar-logo {
+    height: 25px;
+    margin: 5px;
+}
+
+.navbar-menu {
+    list-style: none;
+    display: flex;
+}
+
+.navbar-menu li {
+    margin-right: 15px;
+    font-size: 12px;
+    font-weight: 300;
+}
+
+a {
+    text-decoration: none;
+    color: black;
+}
+  
+.header {
+    background-image: url(/images/landing.jpg);
+    background-size: 600px;
+    background-position: 0cm;
+    color: white;
+    margin-top: 50px;
+    margin-right: 0;
+    height: 300px;
+    text-align: center;
+  }
+
+  h1 {
+    padding-top: 60px;
+    font-weight: 400;
+  }
+  
+  h3 {
+    font-size: 15px;
+    font-weight: 200;
+    line-height: 25px;  
+    }
+    
+  h2 {  
+    font-size: 16px;
+    font-weight: 500;
+    text-decoration: underline;
+    text-underline-offset: 8px;
+    text-decoration-color: #1DB954;
+    text-decoration-thickness: 3px;
+   }
+
+   h4 {
+    font-size: 13px;
+    color: #1DB954;
+   }
+
+   .intro-h2 {
+    text-align: center;
+    padding: 20px;
+   }
+
+   .card {
+    text-align: center;
+    font-size: 12px;
+    font-weight: 300;
+    display: flex;
+    justify-content: center;
+    margin-bottom: 50px;
+    max-width: 1200px;
+    margin: 0 auto;
+    padding: 0 50px;
+   }
+
+   .card-space {
+    width: 250px;
+    padding: 0 25px;
+   }
+   
+   .card-image {
+    margin-top: 25px;
+    width: 50px;
+   }
+
+   .green-section {
+    background-color: #1DB954;
+    margin-top: 50px;
+    padding: 40px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 75px;
+   }
+
+   .section-item {
+    margin-bottom: 20px;
+   }
+
+   .content-list {
+    width: 200px;
+   }
+
+   #section-h2 {
+    color: white;
+    text-decoration-color: white;
+    padding-bottom: 15px;
+   }
+
+   #section-subtitle {
+    color: white;
+    font-weight: 400;
+    margin-top: 30px;
+   }
+
+   .section-image-container {
+    display: flex;
+    align-items: center;
+    gap: 75px;
+   }
+
+   .section-text {
+    color: white;
+    font-size: 12px;
+    font-weight: 300;
+   }
+
+  .icon-image img {
+    width: 50px;
+   }
+
+   /* icon image should be position: absolute according to the exercise requirements;
+   fixing the cointainers should solve the issues then; anyway,
+   time to sleep is part of the homework! */ 
+
+   .medium-image img {
+    width: 200px;
+   }
