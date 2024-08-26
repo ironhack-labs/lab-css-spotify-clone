@@ -1,8 +1,169 @@
-/*
-Colors:
+@import url('https://fonts.googleapis.com/css2?family=Roboto:wght@300;400;700&display=swap');
 
-Text: 1A1A1A
-Green: #00B172
-White: #FFF
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
 
-*/
+body {
+    color: #1A1A1A;
+    font-family: "Roboto", sans-serif;
+    font-weight: 300;
+}
+
+nav {
+    position: fixed;
+    top: 0;
+    left: 0;
+    width: 100%;
+    z-index: 100;
+    border-bottom: 1px solid #ccc;
+    padding: 8px 20px;
+    background-color: white;
+}
+
+.logo {
+    float: left;
+}
+
+.logo img {
+    height: 48px;
+}
+
+.nav-links {
+    float: right;
+    list-style: none;
+}
+
+.nav-links li {
+    float: left;
+    margin-left: 20px;
+    margin-top: 16px;
+}
+
+.nav-links li a {
+    text-decoration: none;
+    color: black;
+    font-size: 16px;
+}
+
+.nav-links li a:hover {
+    color: #00B172; 
+}
+
+header {
+    background-image: url(../images/landing.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+    padding-top: 96px;
+    color: white;
+    text-align: center;
+    height: 500px;
+}
+
+header h1 {
+    font-size: 64px;
+    padding-top: 150px;
+    padding-bottom: 16px;
+    font-weight: 400;
+}
+
+header p {
+    font-size: 20px;
+}
+
+#benefit-container h2 {
+    margin-bottom: 32px;
+    font-weight: 400;
+    text-align: center;
+}
+
+h3 {
+    margin-bottom: 16px;
+}
+
+#benefit-container h2::after,
+#functionality-container h2::after {
+    content: '';
+    display: block;
+    width: 200px;
+    height: 4px;
+    background-color: #1DB954;
+    margin: 10px auto 0;
+}
+
+#benefit-container,
+#functionality-container {
+    margin-top: 24px;
+    text-align: center;
+}
+
+.benefit {
+    display: inline-block;
+    text-align: center;
+    margin: 32px;
+    vertical-align: top;
+}
+
+.benefit img {
+    height: 80px;
+}
+
+.benefit h3 {
+    color: #00B172;
+}
+
+.benefit p {
+    width: 180px;
+    margin: 0 auto;
+}
+
+#functionality-container {
+    background-color: #1DB954;
+    color: white;
+    text-align: left;
+}
+
+#functionality-container h2 {
+    padding-top: 100px;
+    padding-bottom: 16px;
+    padding-left: 360px;
+}
+
+#functionality-container h2::after {
+    width: 300px;
+    background-color: #ffffff;
+    margin: 10px 0 24px 0;
+}
+
+#functionality-columns {
+    text-align: center;
+}
+
+.functionality h3 {
+    text-align: left;
+}
+
+.column {
+    display: inline-block;
+    vertical-align: top;
+    margin: 0 24px;
+}
+
+.functionality p {
+    width: 200px;
+    margin: 0 auto 32px auto;
+    text-align: left;
+} 
+
+#white-logo {
+    width: 80px;
+    padding-top: 50px;
+}
+
+#app-img {
+    width: 250px;
+}
+
