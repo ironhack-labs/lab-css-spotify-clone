@@ -6,3 +6,166 @@ Green: #00B172
 White: #FFF
 
 */
+body {
+    margin: 0%;
+    padding: 0px;
+    font-family: Arial, Helvetica, sans-serif;
+    font-weight: 100;
+}
+
+.navBar {
+    position: fixed;
+    background-color: white;
+    height: 40px;
+    width: 100%;
+    /* display: flex;
+    justify-content: flex-end; */
+}
+
+.navBar ul {
+    position: relative;
+    bottom: 40px;
+    width: auto;
+    height: 40px;
+    display: flex;
+    align-self: flex-end;
+    justify-content: flex-end;
+    flex-direction: row;
+    align-items:center;
+    margin: 0%;
+    padding: 0%;
+}
+
+.navBar ul li {
+    list-style-type: none;
+    text-decoration: none;
+    padding-right: 5px;
+}
+.navBar a{
+    color: black;
+    text-decoration: none;
+}
+.navBar img {
+    position: relative;
+
+}
+
+.homeLogo {
+    display: flex;
+    align-self: flex-start;
+    height: 100%;
+    width: auto;
+}
+
+header {
+    background-image: url("../images/landing.jpg");
+    background-repeat: no-repeat;
+    width: 100%;
+    height: auto;
+    background-size:cover;
+    background-position: center;
+    color: white;
+    text-align: center;
+    margin: 0%;
+    padding: 300px 0px;
+    font-size: 18px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+}
+
+header h1 {
+    font-size: 60px;
+}
+
+header p {
+    width: 60%;
+}
+
+.premium{
+    margin: auto auto 40px;
+}
+
+.premium div {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.premium h2 {
+    padding: 0%;
+    margin: 20px auto 40px;
+    text-align: center;
+    text-decoration: underline #00B172 2px;
+}
+
+.premium article {
+    text-align: center;
+    width: 30%;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+.premium article h3{
+    color:#00B172;
+}
+
+.premium article p {
+    width: 60%;
+}
+
+.premium article img {
+    height: auto;
+    width: 30%;
+}
+
+.discover {
+    margin: 10px;
+    background-color: #00B172;
+    color: white;
+}
+
+.discover h2 {
+    padding: 40px 10% 0px;
+    margin: 0px;
+    text-decoration: underline ;
+}
+
+.discover div {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: center;
+    padding: 0 10% 5% 10%;
+}
+
+.discover div article {
+    display: flex;
+    justify-content: flex-start;
+    align-items: flex-start;
+    flex-direction: column;
+    width: 30%;
+}
+
+#logoWhite {
+    width: 10%;
+}
+
+#screenshot {
+    width: 30%;
+}
+
+.discover p {
+    margin-bottom: 0%;
+    margin-top: 12%;
+}
+
+
+.discover h3 {
+    margin-bottom: 0%;
+    margin-top: 12%;
+}
+
