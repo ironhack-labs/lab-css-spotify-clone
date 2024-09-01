@@ -6,3 +6,159 @@ Green: #00B172
 White: #FFF
 
 */
+html {
+    font-size: 16px
+}
+
+body  {
+    margin: 0;
+    padding: 0;
+    font-weight: lighter;
+    font-family: sans-serif, Arial, Helvetica;
+}
+
+header {
+    background-image: url(../images/landing.jpg);
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+    height: 500px;
+}
+
+header h1 {
+    color:  #FFF;
+    text-align: center;
+    padding-top: 200px;
+    padding-left: 20%;
+    padding-right: 20%;
+    font-size: 50px;
+    font-weight: bold;
+}
+
+header p {
+    color:  #FFF;
+    text-align: center;
+    font-size: 25px;
+    padding: 0 20%;
+    margin: 0;
+
+}
+
+nav {
+    background-color: #FFF;
+    width: 100%;
+    height: 60px;
+    position: fixed;
+    top: 0;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+.nav-logo {
+    padding: 10px;
+    text-align: center;
+}
+.nav-logo img {
+    width: 70px;
+}
+
+.navbar {
+    list-style-type: none;
+    margin-right: 10px;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+}
+.navbar li {
+    padding: 20px;
+    color:black;
+}
+.navbar li a {
+    text-decoration: none;
+    color: black;
+}
+
+#articles-container {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin: 0 50px;
+}
+
+.middle-section h2 {
+    padding: 0;
+    margin: 2% 40%;
+    width: 250px;
+    text-align: center;
+    border-bottom: #00B172 solid 5px;
+}
+
+article {
+    text-align: center;
+}
+article h3 {
+    color: #00B172;
+    text-align: center;
+}
+
+article p {
+    text-align: center;
+    color: black;
+    padding: 0 70px;
+}
+article img {
+    width: 50px;
+    text-align: center;
+}
+
+#green-section {
+    background-color: #00B172;
+    padding: 50px;
+    display: flex;
+    flex-direction: row;
+}
+.green-left  {
+    width: 50%;
+    display: flex;
+    flex-direction: column;
+    justify-content:space-between;
+    align-items: flex-start;
+}
+
+.green-left h2, h3, p {
+    text-align: left;
+    color: #FFF;
+}
+.green-left h2 {
+    font-size: 30px;
+    padding-bottom: 5px;
+    border-bottom: solid white 2px;
+}
+
+.green-left h3 {
+    font-size: 20px;
+}
+
+.green-left p {
+
+    font-size: 16px;
+}
+.green-rigth {
+    width: 50%;
+    display: flex;
+    justify-content: center;
+}
+.green-rigth img {
+    margin: 30px;
+    width: 300px;
+}
+
+#green-logo {
+    position: absolute;
+    left: 50%;
+    top: 130%;
+    transform: translate(-50%, -50%);
+}
+#green-logo img {
+    width: 100px;
+}
