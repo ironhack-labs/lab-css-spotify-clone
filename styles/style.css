@@ -1,8 +1,135 @@
 /*
 Colors:
 
-Text: 1A1A1A
+Text: #1A1A1A
 Green: #00B172
 White: #FFF
-
 */
+body {
+    margin: 0 auto;
+    font-family: Arial, Helvetica, sans-serif
+}
+
+.header {
+    position: fixed;
+    padding: 10px;
+    background-color: #FFF;
+    color: #1A1A1A;
+    width: 100%;
+    display: flex;
+    justify-content: space-between;    
+}
+
+.logo {
+    width: 30vh;
+}
+
+.nav-list {
+    list-style: none;
+    display: flex;
+}
+.nav-list li {
+    padding-right: 5vh;
+    font-size: 1.5rem;
+}
+
+.nav-list a {
+    color: black;
+    text-decoration: none;
+}
+
+.nav-list a:hover {
+    color: #00B172;
+}
+
+.landing {
+    background-image: url("../images/landing.jpg");
+    height: 100vh;
+    background-size: contain;
+    color: #FFF;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    
+}
+
+.landing h1 {
+    font-size: 3rem;
+}
+
+.landing h2 {
+    font-size: 2rem;
+    margin: 1vh;
+}
+
+.container {
+    /* margin: 0 auto; */
+    margin: 40px 100px;
+    text-align: center;
+    
+}
+.title {
+    display: inline-block;
+    justify-content: center;
+    text-align: center;
+    font-size: 2rem;
+    border-bottom: 4px solid #00B172;
+}
+
+.grid {
+    display: grid;
+    grid-template-columns: repeat(3, auto);
+    justify-content: center;
+    align-items: center;
+    gap: 3rem;
+}
+
+.grid div {
+    text-align: center;
+}
+
+.grid h2 {
+    color: #00B172;
+}
+
+.grid p {
+    font-size: 1.1rem;
+}
+
+img {
+    width: 10vw;
+}
+
+.green {
+    text-align: left;       /* Para quitarle el centrado de 'container'*/
+    background-color: #00B172;
+    padding: 4vw;
+    color: #FFF;
+}
+
+#h2-kanye {
+    border-bottom: 3px solid #FFF;
+    width: fit-content;
+}
+
+.flex {
+    display: flex;
+    gap: 12vw;
+}
+
+.green-right {
+    display: flex;
+    align-items: center;
+    gap: 10vw;
+}
+
+.green-right .logo {
+    width: 100px;
+    height: 100px;
+}
+
+.photo {
+    width: 250px;
+    height: 400px;
+}
