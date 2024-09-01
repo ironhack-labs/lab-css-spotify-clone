@@ -6,3 +6,154 @@ Green: #00B172
 White: #FFF
 
 */
+body {
+    margin: 0;
+    padding: 0;
+}
+
+header nav {
+    background-color: #fff;
+    padding: 10px 20px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+
+}
+
+.logo {
+    display: flex;
+    flex-direction: row;
+    align-content: flex-start;
+    max-width: 20%;
+    margin: 10px 20px;
+}
+
+nav ul {
+    list-style-type: none;
+    display: flex;
+    flex-direction: row;
+    align-items: flex-end;
+    gap: 20px;
+}
+
+nav ul li {
+    font-size: 2rem;
+    color: #1A1A1A;
+}
+
+div {
+    position: relative;
+}
+
+.image-main {
+    display: block;
+    width: 100%;
+}
+
+.text {
+    position: absolute;
+    transform: translate(-50%, -50%);
+    z-index: 1;
+    top: 45%;
+    left: 50%;
+    color: #fff;
+    padding: 1rem;
+    font-size: 4rem;
+}
+
+.textp {
+    position: absolute;
+    transform: translate(-50%, -50%);
+    z-index: 1;
+    top: 60%;
+    left: 50%;
+    color: #fff;
+    padding: 1rem;
+    font-size: 2rem;
+    text-align: center;
+}
+
+h3 {
+    text-align: center;
+    font-size: 2rem;
+    border-bottom: 3px solid #00B172;
+    padding-bottom: 15px;
+}
+
+.container {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 40px;
+    max-width: 100%;
+    margin: 0 auto;
+    padding: 20px;
+}
+
+.cont {
+    max-width: 50%;
+    height: auto;
+    display: block;
+    margin: 0 auto 10px;
+    padding-left: 0;
+}
+
+h4 {
+    text-align: center;
+    margin-top: 20px;
+    color: #00B172;
+    font-size: 1.5rem;
+}
+
+h5 {
+    color: #1A1A1A;
+    text-align: center;
+    font-size: 1rem;
+}
+
+.green-footer {
+    background-color: #00B172;
+    margin: 0;
+    padding: 20px;
+    display: flex;
+    align-items: flex-start;
+    justify-content: space-between;
+
+}
+
+.text-column {
+    width: 35%;
+}
+
+footer h6 {
+    font-size: 2.5rem;
+    margin-bottom: 10px;
+    color: #FFF;
+    text-align: left;
+    border-bottom: #fff 5px solid;
+    padding-bottom: 5px;
+    margin-bottom: 20px;
+}
+
+.title-spotify {
+    font-size: 2rem;
+    color: #fff;
+    margin-bottom: 5px;
+}
+
+.sub-title-spotify {
+    font-size: 1.2rem;
+    color: #fff;
+    font-weight: 400;
+    margin-bottom: 15px;
+}
+
+.spotify-icon-1 {
+    align-self: center;
+    max-width: 10%;
+}
+
+.kanye-west {
+    max-width: 20%;
+    align-self: flex-end;
+}
