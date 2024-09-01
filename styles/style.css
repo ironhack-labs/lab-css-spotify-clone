@@ -6,3 +6,147 @@ Green: #00B172
 White: #FFF
 
 */
+
+/* common font for entire body */
+body{font-family: Arial, Helvetica, sans-serif;}
+
+/* top menu bar styling */
+.navstyle{ 
+    position: fixed;
+    display: block;
+    padding: 10;
+    background-color: white;
+    
+} 
+
+.navstyle a{
+  color: black;
+  text-decoration: none;
+}
+
+/*styling spotify logo top left */
+.navstyle img{ 
+  text-align: left;
+  width: 10%;
+  height: 10%;
+}
+
+/* horizontal menu in navbar */
+.navstyle li{ 
+   
+    list-style-type: none;
+    float: right;
+    padding-right: 20px;
+    padding-top: 10px;
+    font-size: 20px;
+}
+
+/* first section with large background image */
+.everyone { 
+    background-image: url(https://github.com/olfbreue/lab-css-spotify-clone/blob/master/images/landing.jpg?raw=true);
+    background-color: #cccccc; /* Used if the image is unavailable */
+  height: 700px; /* You must set a specified height */
+  background-position: center; /* Center the image */
+  background-repeat: no-repeat; /* Do not repeat the image */
+  background-size: cover; /* Resize the background image to cover the entire container */
+    text-align: center;
+    color: white;
+    
+}
+
+/* header and textblock below of first section */
+.header {
+    padding: 5px;
+    height: 70px;
+
+  }
+  .bigtext{
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 60px;
+    font-weight: bold;
+    padding-top: 250px;
+    margin-top: 10px;
+
+  }
+ 
+  /* second section with three blocks in flex layout */
+  .intermediate {
+    text-align: center;
+    padding-top: 40px;
+  }
+  /* styling for three blocks in flex layout */
+  .triplet {
+    gap: 3em;
+    text-align: center;
+    display: flex;
+    flex-direction: row;
+    flex-wrap: row;
+    align-content: center;
+    justify-content: center;
+    height: 320px;
+  }
+
+  /* induvidual block styling */
+  .item {
+    width: 20%;
+    height: 250px;
+    font-size: 25px;
+  }
+
+  .item text{
+    font-size: 25px;
+  }
+
+  .greentext {
+    color:green;
+  }
+/* styling for the three png images in triplets*/
+  .item img {
+    height: 100px;
+    width: 100px;
+  }
+
+/* third section with green background */
+  .greendiv {
+    height: 900px;
+    background-color:#00B172;
+    background-size: cover;
+    background-image: url(https://github.com/olfbreue/lab-css-spotify-clone/blob/master/images/spotify-icon-white.png?raw=true);
+    background-size: 10%;
+    background-position: center;
+    background-repeat: no-repeat;
+  }
+
+  .mobile img{ 
+    float: right;
+    width: 25%;
+    height: 25%;
+    padding: 130px;
+  }
+
+  .lower_headline{
+    font-family: Arial, Helvetica, sans-serif;
+    width: 590px;
+    padding-bottom: 20px;
+    margin-left: 90px;
+    padding-top: 90px;
+    border-bottom: 5px solid white;
+    font-size: 47px;
+    color: white;
+  }
+
+  .leftblock{
+    color: white;
+    padding-left: 90px;
+    padding-top: 20px;
+    width: 430px;
+  }
+
+  .headline{
+    font-size: 30px;
+    font-weight: bold;
+  }
+  .detail{
+    font-size: 25px;
+  }
+
