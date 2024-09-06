@@ -1,8 +1,196 @@
-/*
-Colors:
+body {
+    font-family: Arial, Helvetica, sans-serif;
+    margin: 0;
+    color: #1A1A1A;
 
-Text: 1A1A1A
-Green: #00B172
-White: #FFF
+}
 
-*/
+h3 {
+    font-size: 2rem;
+}
+
+h4 {
+    font-size: 1.6rem;
+}
+
+.stylized-headerline {
+    display: flex;
+    justify-content: center;
+}
+
+.stylized-headerline h2 {
+    font-size: 2.6rem;
+    color: #1A1A1A;
+    margin: 0;
+    padding-bottom: 4px;
+    border-bottom: 4px solid #00B172;
+}
+
+header {
+    position: relative;
+    height: 86px;
+}
+
+header .header-wrapper {
+    position: fixed;
+    top: 0;
+    left: 0;
+    z-index: 999;
+    width: 100%;
+    background-color: #fff;
+}
+
+header .header-wrapper .header-image {
+    padding: 1rem 0 1rem 2rem;
+}
+
+header .header-wrapper .header-nav {
+    padding: 1rem 2rem 1rem 0;
+}
+
+header .header-wrapper .header-image,
+header .header-wrapper .header-nav {
+    display: inline-block;
+}
+
+header .header-wrapper .header-image img {
+    width: auto;
+    height: 3rem;
+}
+
+header .header-wrapper .header-nav {
+    float: right;
+}
+
+header .header-wrapper .header-nav ul {
+    list-style-type: none;
+}
+
+header .header-wrapper .header-nav ul li {
+    display: inline;
+    margin: 0 0.5rem;
+}
+
+header .header-wrapper .header-nav ul li a {
+    color: #1A1A1A;
+    font-size: 1.2rem;
+    text-decoration: none;
+}
+
+.container {
+    margin: 0 auto;
+    max-width: 1440px;
+    padding-left: 2rem;
+    padding-right: 2rem;
+}
+
+section.hero {
+    position: relative;
+    background: linear-gradient(rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5)), url('https://img.freepik.com/free-photo/excited-audience-watching-confetti-fireworks-having-fun-music-festival-night-copy-space_637285-559.jpg?t=st=1725465101~exp=1725468701~hmac=74854d2e88885683eba32b64caf55b329eaee7e74024ddb0e08f92140156c7bf&w=2000');
+    background-size: cover;
+    height: 800px;
+    width: auto;
+}
+
+section.hero .hero-content-wrapper {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    row-gap: 1.8rem;
+    color: #fff;
+    height: 800px;
+    text-align: center;
+}
+
+section.hero .hero-content-wrapper h1 {
+    font-size: 5rem;
+    margin: 0;
+}
+
+section.hero .hero-content-wrapper p {
+    font-size: 2rem;
+    margin: 0;
+}
+
+section.about-spotify {
+    padding: 3rem 0;
+}
+
+section.about-spotify .spotify-benefits-wrapper {
+    display: flex;
+    justify-content: space-evenly;
+    flex-wrap: wrap;
+    column-gap: 4rem;
+    padding-top: 5rem;
+}
+
+section.about-spotify .spotify-benefits-wrapper .spotify-benefits-item {
+    flex: auto;
+    text-align: center;
+}
+
+section.about-spotify .spotify-benefits-wrapper .spotify-benefits-item img {
+    height: 8rem;
+}
+
+section.about-spotify .spotify-benefits-wrapper .spotify-benefits-item h3 {
+    font-size: 2rem;
+    color: #00B172;
+}
+
+section.about-spotify .spotify-benefits-wrapper .spotify-benefits-item p {
+    font-size: 1.8rem;
+}
+
+section.highlight-box .highlight-box-wrapper {
+    position: relative;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+    column-gap: 4rem;
+    padding: 3rem 5rem;
+    background-color: #00B172;
+    color: #fff;
+}
+
+section.highlight-box .highlight-box-wrapper .spotify-logo {
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+}
+
+section.highlight-box .highlight-box-wrapper .spotify-logo img {
+    width: 8rem;
+}
+
+section.highlight-box .highlight-box-wrapper .highlight-box-left h3 {
+    margin: 0;
+    text-decoration: underline;
+    text-underline-offset: 1rem;
+}
+
+section.highlight-box .highlight-box-wrapper .highlight-box-left .highlight-box-left-features {
+    display: flex;
+    flex-direction: column;
+    row-gap: 2rem;
+    padding-top: 4rem;
+}
+
+section.highlight-box .highlight-box-wrapper .highlight-box-left .highlight-box-left-features h4,
+section.highlight-box .highlight-box-wrapper .highlight-box-left .highlight-box-left-features p {
+    margin: 0;
+}
+
+section.highlight-box .highlight-box-wrapper .highlight-box-left .highlight-box-left-features p {
+    width: 300px;
+}
+
+section.highlight-box .highlight-box-wrapper .highlight-box-right {
+    padding-top: 2.8rem;
+    text-align: right;
+}
+
+section.highlight-box .highlight-box-wrapper .highlight-box-right img {
+    width: 250px;
+}
