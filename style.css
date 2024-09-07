@@ -1,0 +1,191 @@
+
+/*general*/
+*{
+    margin: 0;
+    padding: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+}
+li {
+    list-style-type: none; 
+   }
+ul {
+    margin-left: 0; 
+    padding-left: 0; 
+   }
+.mainContainer {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    z-index: 0;
+  
+}
+   /*nav*/
+.logo img{
+    width: 16rem;
+    padding-left: 2rem;
+    padding-top: 0.35rem;
+}
+.nav {
+    width: 100%;
+    height: 4.8rem;
+    display: flex;
+    justify-content: space-between;
+    align-content: center;
+    top: 0;
+    left: 0;
+    position: fixed;
+    z-index: 1;
+    background-color: white;
+    margin-bottom: 6rem;
+}
+.navMenu {
+    width: 40%;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+    font-size: 1.5rem;
+    padding-top: 1.5rem;
+    padding-right: 1.5rem;
+}
+
+/* Landing */
+
+.landing {
+    width: 100%;
+    height: 70vh;
+    margin-top: 5rem;
+    background-image: url("../images/landing.jpg");
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    gap: 2rem;
+  background-size: 75%;
+}
+
+.textLanding{
+    width: 60%;
+    text-align: center;
+    font-size: 1.8rem;
+    color: white;
+}
+.mainTitel {
+    font-size: 4rem;
+    color: white;
+}
+
+/*section Tools*/
+.tools {
+    display: flex;
+    flex-direction:column;
+    width: 100%;
+    height: 22rem;
+    justify-content: center;
+    align-items: center;
+    gap: 2rem;
+}
+.titleTools {
+    width: 23rem;
+    height: 3rem;
+    text-align: center;
+    font-size: 2.4rem;
+    border-bottom: 4px solid lightgreen;
+    font-weight: 700;
+}
+.optionsContainer {
+    width: 100%;
+    display: flex;
+    flex-direction: row;
+    justify-content:space-around;  
+}
+.toolBox {
+    width: 20rem;
+    height: 14rem;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-content: center;
+    text-align: center;
+    margin-left: 2.5rem;
+    margin-right: 2.5rem;
+}
+.imgDiv img {
+    width: 7rem;
+}
+.greenText{
+    width: 100%;
+    color: green;
+    font-size: 1.7rem;
+    font-weight: 700;
+    margin-bottom: 1.4rem;
+}
+.textTool {
+    font-size: 1.2rem;
+}
+/*section3*/
+
+.section3 {
+    width: 95%;
+    height:46rem;
+    background-color: green;
+    margin-bottom: 6rem;
+    display: flex;
+    flex-direction: row;
+    align-content: center;
+}
+.imgApp {
+    padding-top: 4rem;
+    width: 30%;
+}
+.info{
+    width: 65%;
+    display: flex;
+    flex-direction: row;
+   
+}
+.imgApp img {
+    width: 80%;
+    height: auto;
+}
+.textInfo{
+    color: white;
+    padding-bottom: 3rem;
+
+}
+.spotImg {
+    width: 15rem;;
+}
+.spotImg img{
+width: 10rem;
+padding-top: 15rem;
+padding-left: 2rem;
+padding-right: 2rem;
+}
+.song{
+    width:28rem;
+     display: flex;
+     flex-direction: column;
+}
+.containerInfo{
+    width:20rem;
+    margin-left: 3rem;
+    display: flex;
+    flex-direction: column;
+    font-size: 1.2rem;
+}
+.titleInfo {
+    color: white;
+    width: 24rem;
+    font-size: 1.8rem;
+    margin-top: 3rem;
+    margin-left: 3rem;
+    margin-right: 2rem;
+    margin-bottom: 3rem;
+
+   border-bottom: 2px solid white;
+}
+.info {
+    margin-bottom: 2rem;
+}
