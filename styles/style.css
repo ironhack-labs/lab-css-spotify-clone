@@ -1,3 +1,175 @@
+/* Overwrite browser defaults */
+* {
+    padding: 0px;
+    margin: 0px
+}
+
+/* Set the size and position of the Spotify Logo in the nav section */
+.logo {
+    width: 120px;
+    height: auto;
+    margin-left: 50px;
+    display: flex;
+    justify-content: flex-start
+}
+
+/* style and position if the nav-bar */
+.nav-bar {
+    background-color: white;
+    color: #1A1A1A;
+    width: 1200px;
+    text-decoration: none;
+    list-style: none;
+    position: fixed;
+    display: flex;
+    justify-content: space-between
+}
+
+/* style and position of the nav-links*/
+.nav-links {
+    list-style: none;
+    display: flex;
+    justify-content: flex-end;
+    align-items: center;
+    gap: 2em;
+}
+
+.nav-links li a {
+    margin-left: 12px;
+    color: #1A1A1A;
+    text-decoration: none;
+    font-size: 20px;
+}
+
+.nav-bar ul {
+    list-style: none;
+}
+
+/* font-family for the whole Website */
+body {
+    font-family: Arial, Helvetica, sans-serif;
+
+}
+
+/* style and positiong for the header */
+.header {
+    width: 1200px;
+    height: 700px;
+    background-image: url("/images/landing.jpg");
+    background-position: 0 0;
+    background-repeat: no-repeat;
+    background-size: cover;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+}
+
+.header h1 {
+    color: #FFF;
+    font-size: 4.5em;
+    margin-bottom: 0.5em;
+}
+
+.header p {
+    color: #FFF;
+    font-size: 1.5em;
+}
+
+/* style and positiong for the h2 in the general information section */
+#general-information h2 {
+    color: #1A1A1A;
+    width: 1200px;
+    text-align: center;
+    font-size: 2.5em;
+    text-decoration: underline;
+    text-decoration-color: #00B172;
+    margin: 50px 0;
+
+}
+
+/* positioning for the divs in the general information section  */
+.info-container {
+    width: 1200px;
+    display: flex;
+    justify-content: space-around;
+    margin-bottom: 70px;
+}
+/* size of the logos in the general information section */
+.info-logo {
+    width: 120px;
+    height: 120px;
+    margin-bottom: 15px;
+}
+
+/* aligning, styling and sizing of the info-divs */
+.info p {
+    text-align: center;
+    font-size: 1.5em;
+}
+
+.info h4 {
+    text-align: center;
+    color: #00B172;
+    font-size: 1.8em;
+    margin-bottom: 25px;
+}
+
+.info {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+/* sizing, coloring of the player section, setting position to relative to position the logo absolute to the div */
+#player {
+    width: 1080px;
+    margin: 20px;
+    padding: 40px;
+    background-color: #00B172;
+    position: relative;
+
+}
+
+/* coloring and sizing of the text in player section */
+.text {
+    color: #FFF;
+}
+
+.text h2 {
+    text-decoration: underline;
+    font-size: 2.3em;
+}
+
+.text h4 {
+    margin: 30px 0px;
+    font-size: 1.8em;
+}
+.text p {
+    font-size: 1.5 em;
+}
+
+/* sizing of the player image in player section */
+.app-image {
+    width: 230px;
+}
+
+
+/* sizing of the spotify logo and position it absolute to the player section */
+.spot-logo {
+    width: 80px;
+    top: 240px;
+    left: 500px;
+    position: absolute;
+}
+
+/* Arranging the two divs in the player section */
+.player-container {
+    display: flex;
+    justify-content: space-around;
+    align-items: center
+}
+
 /*
 Colors:
 
