@@ -1,0 +1,189 @@
+* {
+    margin: 0;
+    padding: 0;
+}
+
+body {
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+
+.nav-bar {
+    top: 0;
+    position: fixed;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    width: 100%;
+    height: 40px;
+    padding: 20px;
+    background-color: white;
+}
+
+.logo {
+
+    width: 120px;
+    height: auto;
+    margin-left: 50px;
+    display: flex;
+}
+
+.nav-links {
+    list-style: none;
+    display: flex;
+    padding-right: 100px;
+}
+
+.nav-links li a {
+    margin-left: 12px;
+    color: black;
+    text-decoration: none;
+    font-size: 20px;
+}
+
+.landing {
+    background-image: url("https://github.com/ironhack-labs/lab-css-spotify-clone/blob/master/images/landing.jpg?raw=true");
+    height: 500px;
+    width: 90%;
+    background-repeat: no repeat;
+    background-size: cover;
+    margin-top: 80px;
+    margin-left: 75px;
+    margin-right: 75px;
+    padding-top: 180px;
+    padding-bottom: 180px;
+}
+
+.landing-text {
+    text-align: center;
+    color: white;
+    padding: 70px;
+    font-size: 24px;
+    font-weight: lighter;
+
+}
+
+h1 {
+    color: white;
+    text-align: center;
+    font-size: 70px;
+    justify-content: center;
+
+}
+
+h2 {
+    color: black;
+    text-align: center;
+    font-size: 30px;
+    text-decoration: underline rgb(29, 185, 84);
+    padding: 30px;
+    text-underline-offset: 15px;
+}
+
+.second-part {
+    background-color: white;
+    display: flex;
+    flex-direction: row;
+    gap: 1em;
+    justify-content: center;
+    height: 80vh;
+    margin-top: 50px;
+    text-align: center;
+}
+
+.item {
+    border: 6px solid rgb(246, 246, 7);
+    height: 250px;
+    width: 250px;
+    background-color: white;
+    display: flex;
+    color: rgb(29, 185, 84);
+    font-size: 20px;
+    font-weight: bold;
+    align-items: center;
+    flex-direction: column;
+    flex-wrap: wrap;
+    justify-content: space-between;
+    padding: 70px;
+    gap: 20px;
+}
+
+p {
+    color: black;
+    font-size: 16px;
+    font-weight: lighter;
+    margin-top: -30px;
+    line-height: 1.6;
+}
+
+.item-2 {
+    display: flex;
+    font-weight: bold;
+    flex-direction: column;
+    flex-wrap: wrap;
+    justify-content: center;
+    color: white;
+}
+
+.music-icon {
+    width: 90px;
+    height: 90px;
+}
+
+.high-quality-icon {
+    width: 90px;
+    height: 90px;
+}
+
+.devices-icon {
+    width: 90px;
+    height: 90px;
+}
+
+
+.flex-greenbox {
+    display: flex;
+    background-color: rgb(29, 185, 84);
+    align-items: center;
+    justify-content: space-between;
+    padding: 150px;
+    margin-left: 75px;
+    margin-right: 75px;
+    margin-top: -50px;
+}
+
+.flex-greenbox p {
+    color: white;
+    line-height: 1.6;
+    margin-top: -30px;
+}
+
+.app {
+    height: 500px;
+    width: 300px;
+}
+
+.icon {
+    width: 100px;
+    height: 100px;
+}
+
+h3 {
+    text-decoration: underline white;
+    text-underline-offset: 15px;
+    text-align: left;
+    color: white;
+    font-size: 24px;
+    margin-top: -80px;
+}
+
+h5 {
+    color: white;
+    font-size: 20px;
+}
+
+.green-text {
+    display: flex;
+    flex-direction: column;
+    gap: 50px;
+}
