@@ -1,8 +1,211 @@
-/*
-Colors:
+body {
+    margin: 0;
+    font-family: Arial, sans-serif;
+}
 
-Text: 1A1A1A
-Green: #00B172
-White: #FFF
+.header {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 10px 20px;
+    background-color: white; 
+    border-bottom: 1px solid #ddd; 
+}
 
-*/
+.logo img {
+    height: 50px; 
+}
+
+.nav ul {
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+    display: flex;
+    gap: 20px; 
+}
+
+.nav ul li {
+    display: inline;
+}
+
+.nav ul li a {
+    text-decoration: none;
+    color: #333; 
+    font-weight: bold;
+    font-size: 1.2em;
+}
+
+.nav ul li a:hover {
+    color: #007bff; 
+}
+
+body {
+    background-color: #ffffff; 
+}
+
+.music {
+    background-image: url('https://github.com/ironhack-labs/lab-css-spotify-clone/blob/master/images/landing.jpg?raw=true'); /* Replace with your image path */
+    background-size: cover;
+    background-position: center;
+    height: 100vh; 
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+    color: white; 
+}
+
+.music h1 {
+    font-size: 4em; 
+    margin: 0; 
+    font-family: 1A1A1A;
+    
+}
+
+.music p {
+    font-size: 2em; 
+    margin-top: 10px;
+    font-weight: lighter;
+    font-family: 1A1A1A;
+
+}
+
+.music-overlay {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.center-me {
+    text-align: center; 
+    margin: 0 auto;     
+    display: block;
+    width: 100%;       
+}
+
+.center-me h2 {
+
+    text-decoration: underline;
+
+}
+
+.container {
+    background-color: white;
+    display: flex;
+    flex-direction: row;
+    gap: 1em;
+    justify-content: center;
+    align-items:center;
+    flex-flow: row wrap ;
+    height: 30vh;
+
+}
+
+.service-box {
+    width: 200px; 
+    text-align: center;
+    font-size: 1em;
+}
+
+.service-box h4 {
+    color: #00B172; 
+}
+
+.service-box img {
+    width: 50%; 
+    height: auto; 
+}
+
+.green-section {
+    display: flex;
+    background-color: rgb(29, 185, 84);
+    align-items: center-left;
+    justify-content: space-between;
+    padding: 80px;
+    margin-left: 0px;
+    margin-right: 0px;
+    margin-top: 20px;
+    flex-direction: row;
+    
+    
+}
+
+.green-section h2 {
+    text-decoration: underline;
+    color: white;
+
+}
+
+.content {
+    max-width: 78%; /* Adjust width for the text content */
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    margin-left: 5%;
+    gap: 100px;
+
+}
+
+.clickable-sections {
+    display: flex;
+    flex-direction: column;
+    gap: 20px; /* Space between clickable items */
+}
+
+.clickable-item {
+    text-align: center-left;
+}
+
+.clickable-title {
+    display: block;
+    color: white;
+    font-size: 1em; /* Larger text for clickable titles */
+    text-decoration: none;
+    font-weight: bold;
+    margin-bottom: 5px;
+    font-weight: bold;
+    
+}
+
+.clickable-title:hover {
+    color: whitesmoke; /* Change color on hover */
+}
+
+.clickable-description {
+    font-size: 1em; /* Smaller text for descriptions */
+    color: whitesmoke;
+}
+
+
+.logo-container {
+    justify-content: center;
+    align-items: center;
+    width: 10%; /* Reducimos el ancho del logo a 20% */
+    position: relative;
+    margin-top: 16%;
+
+}
+
+.spotify-logo {
+    width: 100px;
+    height: 100px;
+}
+
+.spotify-player {
+
+    justify-content: right;
+    align-items: right;
+    width: 30%; /* Reducimos el ancho del logo a 20% */
+    position: flex-end;
+
+}
+
+.spotify-player img {
+    max-width: 900px;
+    height: 750px;
+    flex-direction: row-end;
+    margin-left: 100px;
+    margin-right: 0px;
+    margin-top: 0px;
+
+}
