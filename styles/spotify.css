@@ -1,0 +1,177 @@
+/*
+Colors:
+
+Text: 1A1A1A
+Green: #00B172
+White: #FFF
+
+*/
+body {
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+/* Style for Nav bar */
+
+header {
+    position: fixed;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 10px;
+    background-color: #FFF;
+}
+
+.logo {
+    text-align: left;
+    width: 10%;
+    height: 10%;
+}
+
+/* Style for horizontal menu */
+
+.navbar li {
+    list-style-type: none;
+    float: right;
+    padding-right: 20px;
+    padding-top: 10px;
+    font-size: 20px;
+}
+
+.navbar a {
+    color: black;
+    text-decoration: none;
+}
+
+/* Style for main section*/
+/* Couldn't figure out what I did wrong with the text over the image */
+
+.background {
+    position: relative;
+    background-image: url(images/landing.jpg);
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    display: flex;
+    height: 700px;
+    text-align: center;
+    color: #FFF;
+}
+
+.background img {
+    width: 100vw;
+    height: auto;
+}
+
+.background h1 {
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 60px;
+    font-weight: bold;
+    color: #FFF;
+    padding-top: 250px;
+    margin-top: 10px;
+    position:absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+}    
+
+.background p {
+        font-family: Arial, Helvetica, sans-serif;
+        font-size: 20px;
+        font-weight: bold;
+        color: #FFF;
+        padding-top: 250px;
+        margin-top: 10px;
+        position: absolute;
+        top: 50%;
+        left: 50%;
+        transform: translate(-50%, -50%);
+    }
+
+/* Style for second section */
+
+.spotify {
+    text-align: center;
+    padding-top: 40px;
+}
+
+.tree {
+    gap: 3em;
+    text-align: center;
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    align-content: center;
+    justify-content: center;
+    height: 320px;
+}
+
+.item {
+    width: 20%;
+    height: 250px;
+    font-size: 25px;
+}
+
+.item img {
+    height: 100px;
+    width: 100px;
+}
+
+.item text {
+    font-size: 25px;
+}
+
+.greenText {
+    color: #00B172;
+}
+
+/* Style for section 3 - green background*/
+
+.greenSection {
+    height: 100vw;
+    background-color: #00B172;
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: 100%;
+    position: static;
+}
+
+.mobile {
+    float: right;
+    width: fit-content;
+    height: fit-content;
+    padding: 130px;
+}
+
+.greenSection h1 {
+    font-family: Arial, Helvetica, sans-serif;
+    width: 590px;
+    padding-bottom: 20px;
+    margin-left: 90px;
+    padding-top: 90px;
+    border-bottom: 5px solid #FFF;
+    color: #FFF;
+}
+
+.leftContainer {
+    color: #FFF;
+    padding-left: 90px;
+    padding-top: 20px;
+    width: 430px;
+}
+
+.whiteText {
+    font-size: 30px;
+    font-weight: bold;
+}
+
+.info {
+    font-size: 25px;
+}
+
+.iconwhite {
+    position: absolute;
+    height: 100px;
+    width: 100px;
+}
