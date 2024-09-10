@@ -6,3 +6,122 @@ Green: #00B172
 White: #FFF
 
 */
+
+body {
+    margin: 0;
+    padding: 0;
+    display: flex;
+    flex-direction: column;
+    flex-wrap: nowrap;
+    justify-content: space-between;
+}
+
+
+header {
+    position: fixed;
+    padding: 10px;
+    height: 5vh;
+    width: 100%;
+    background-color: white;
+    display: flex;
+    justify-content: space-between;
+}
+
+h1 {
+    font-size: 3em;
+}
+
+h2 {
+    text-decoration: underline;
+    text-decoration-color: #FFF;
+    font-size: 2em;
+}
+
+h3 {
+    color: #FFF;
+}
+
+nav {
+    display: flex;
+    padding: 5px;
+    align-items: center;
+    font-size: 1.35em;
+}
+
+
+a {
+    text-decoration: none;
+    color: #1A1A1A;
+}
+
+.nav-ul {
+    list-style: none;
+    gap: 8px;
+    padding: 8px;
+    display: flex;
+}
+
+section {
+    font-size: 1.5em;
+    display: flex;
+    flex-direction: column;
+
+    width: 98%;
+    padding: 1%;
+
+    margin-left: 0;
+    margin-right: 0;
+
+    justify-content: center; /* will put all child ellements verticaly in the middle */
+}
+
+.section1{
+    /* Background related */
+    background-image: url('/images/landing.jpg');
+    background-size: 100% 100%; /* no change this anymore best solution */
+    background-repeat: no-repeat;
+    background-position-x: center;
+    background-position-y: center;
+
+    min-height: 864px; /* 25% of the original size*/
+
+    align-items: center;
+    letter-spacing: 0px;
+    /* Boxing related */
+    color: white;
+}
+
+.section2{
+    align-items:first center;
+}
+
+.section2 .main-box {
+    display: flex;
+    flex-direction: row;
+}
+
+
+.section2 .main-box .small-box {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.small-box img {
+    min-width: 250px;
+    width: 50%;
+    max-width: 700px;
+    max-height: 600px;
+}
+
+.section3 {
+    color: #FFF;
+    flex-direction: row;
+}
+
+.section3 aside{
+    background-color: #00B172;
+    align-content: center;
+    padding: 3%;
+}
+
