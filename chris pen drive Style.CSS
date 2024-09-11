@@ -1,0 +1,155 @@
+/* General Styling */
+
+body {
+    margin: 0;
+    padding: 0;
+    display: flex;
+    flex-direction: column;
+    flex-wrap: nowrap;
+    justify-content: space-between;
+
+    min-width: 640px;
+    max-width: 5184px;
+}
+
+.nav{
+    background-color: white;
+    position: fixed;
+    top:0;
+    width: 100vw;
+    height: max-content;
+    left:-0.5rem;
+
+    padding: 2rem;
+    word-spacing: 2rem;
+
+    z-index:100;
+}
+
+.nav img{
+    float: left;
+    height: 4rem;
+}
+
+.nav ul{
+    font-size: 1.4rem;
+    float: right;
+    padding-right: 3rem;
+}
+
+header{
+    position: relative;
+    width: 100vw;
+    margin:-0.5rem;
+}
+
+.about_spotify img{    
+    max-width: 100vw;
+    filter: brightness(60%);
+}
+
+.about_spotify h1{
+    color:white;
+    font-size:3em;
+    width: 100vw;
+    text-align: center;
+
+    position: absolute;
+    top:30%;
+    left:50%;
+    transform: translate(-50%, -50%);
+}
+
+.about_spotify p{
+    color:white;
+    font-size: 1em;
+    width: 100vw;
+    text-align: center;
+
+    position: absolute;
+    top:40%;
+    left:50%;
+    transform: translate(-50%, -50%);
+}
+
+#whats_on_spotify{
+    text-align: center;
+    margin: 4rem 4rem;
+    font-size: 2rem;
+}
+
+.container1{
+    display: flex;
+    flex-direction: row;
+    align-content: center;
+    justify-content: space-around;
+    align-items: flex-start;
+    text-align: center;
+}
+
+.item{
+    border: white;
+    background-color: white;
+
+}
+
+.container1 h4{
+    color: rgb(30, 215, 96);
+    font-size: 1.2rem;
+}
+
+.container1 p{
+    color: black;
+    font-size:1rem;
+    font-weight: 150;
+}
+
+.container1 img{
+    height: 4rem;
+}
+
+.big_green_box{
+    background-color: rgb(30, 215, 96);
+    color: white;
+    padding: 4rem;
+    padding-bottom: 4rem;
+    margin: 2rem;
+
+    position:relative;
+}
+
+.main_flex{
+    display: flex;
+    flex-direction: row;   
+    justify-content:space-between;
+    align-items:center;
+}
+
+.flex_in_flex{
+    display: flex;
+    flex-direction: column;
+    justify-content: space-evenly;
+    align-items: baseline;
+}
+
+.flex_in_flex h3{
+    font-size: 2rem;
+    text-decoration: underline;
+    text-underline-offset: 1rem;
+}
+
+.flex_in_flex h4{
+    font-size: 1.5rem;
+}
+
+#player img{
+    max-width: 17rem;
+}
+
+#logo img{
+    width: 8rem;
+    position: absolute;
+    top:50%;
+    left:50%;
+    transform: translate(-50%, -50%);
+}
