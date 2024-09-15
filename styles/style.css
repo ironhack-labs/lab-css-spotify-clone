@@ -6,3 +6,146 @@ Green: #00B172
 White: #FFF
 
 */
+:root {
+	font-size: 16px;
+}
+* {
+	margin: 0;
+	padding: 0;
+	box-sizing: border-box;
+	font-family: Helvetica, sans-serif;
+}
+
+header {
+	display: flex;
+	justify-content: space-between;
+	align-items: center;
+	padding: 0.5rem 1.5rem;
+	margin-bottom: 0;
+	img {
+		width: 200px;
+		height: auto;
+	}
+	nav {
+		display: flex;
+		gap: 1.5rem;
+		a {
+			font-size: 1.3rem;
+			text-decoration: none;
+			color: #000;
+			font-weight: lighter;
+		}
+	}
+}
+
+#hero {
+	background-image: url(../images/landing.jpg);
+	height: 600px;
+	background-size: cover;
+	display: flex;
+	flex-direction: column;
+	align-items: center;
+	justify-content: center;
+
+	p {
+		color: white;
+		font-size: 1.3rem;
+		width: 40%;
+		text-align: center;
+	}
+
+	h1 {
+		font-size: 4rem;
+		color: white;
+		margin-bottom: 30px;
+		text-align: center;
+	}
+}
+
+h2 {
+	text-align: center;
+	font-size: 1.8rem;
+	margin: 3rem 0;
+	text-decoration: underline #00b172;
+	text-underline-offset: 10px;
+	font-weight: normal;
+}
+#presentation .advantages {
+	display: flex;
+	align-items: flex-start;
+	justify-content: space-evenly;
+	div {
+		width: 30%;
+	}
+	img {
+		height: 60px;
+		width: auto;
+		display: block;
+		margin: 0 auto; /*preguntar a Marcel */
+	}
+	h3,
+	p,
+	img {
+		text-align: center;
+		justify-content: center;
+		margin-bottom: 1rem;
+	}
+
+	p {
+		margin-left: 15%;
+		margin-right: 15%;
+		font-size: 1.3rem;
+		font-weight: lighter;
+	}
+	h3 {
+		color: #00b172;
+		font-size: 1.5rem;
+	}
+}
+
+#example {
+	background-color: #00b172;
+	background-image: url(../images/spotify-icon-white.png);
+	background-repeat: no-repeat;
+	background-position: center;
+	background-size: 80px;
+	display: flex;
+	justify-content: space-evenly;
+    padding-top: 3rem;
+    padding-bottom: 3rem;
+
+	div {
+		width: 40%;
+		h3 {
+			color: #fff;
+			font-size: 1.6rem;
+			text-decoration: underline #fff;
+			text-underline-offset: 10px;
+			font-weight: normal;
+            margin-bottom: 3.5rem;
+		}
+        h4 {
+            color: #fff;
+            font-size: 1.3rem;
+            font-weight: bold;
+            margin-bottom: 1.5rem;
+        }
+        p {
+            color: #fff;
+            font-size: 1.1rem;
+            margin-bottom: 2.5rem;
+            padding-right: 3rem;
+        }
+		& + div {
+			display: flex;
+			justify-content: center;
+            padding-top: 1.2rem;
+            img {
+                height: 440px;
+                width: auto;
+                
+            }
+		}
+	}
+	
+}
