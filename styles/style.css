@@ -6,3 +6,130 @@ Green: #00B172
 White: #FFF
 
 */
+html {
+    box-sizing: border-box;
+    font-size: 16px;
+  }
+  
+*, *:before, *:after {
+box-sizing: inherit;
+}
+
+body, h1, h2, h3, h4, h5, h6, p, ol, ul {
+margin: 0;
+padding: 0;
+font-weight: lighter;
+}
+body {
+    font-family: sans-serif;
+}
+.header-info{
+    flex-direction: row;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding:10px 30px;
+}
+.header-info img{
+    width: 200px;
+}
+.header-info nav{
+    display: inline;
+    color: black;
+}
+.header-info a{
+    color: black;
+    text-decoration: none;
+    padding: 0 3px;
+}
+.imgContainer{
+    background-image: url('../images/landing.jpg');
+    min-height: 700px; 
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    flex-direction: column;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+.imgContainer h1{
+    color: white;
+    font-size: 64px;
+    padding:40px 0;
+    text-align: center;
+}
+.imgContainer h3{
+    color: white;
+    padding:10px 0;
+    text-align: center;
+    
+}
+.information{
+    padding: 20px 0;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+}
+.information .informationHeaderContainer h1{
+    font-size: 22px;
+    font-weight: bold;
+}
+.tableContainer{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-evenly;
+}
+.tableContainer img{
+    width: 100px;
+}
+.itemTable{
+    padding:20px;
+    align-items: center;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+    text-wrap: wrap;
+    flex:1;
+}
+.itemTable h1{
+    color: #00B172;
+    font-weight: bold;
+    padding: 15px 0;
+}
+.footerContainer{
+    display: flex;
+    background-color: #00B172;
+    margin: 0 60px;
+    flex-direction: column;
+}
+.footerContainer h1{
+    color: white;
+
+}
+.footerHeaderContainer {
+    padding: 50px;
+}
+.footerInfoContainer{
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: space-evenly;
+
+}
+.footerInfo{
+    flex-direction: column;
+}
+.footerItem{
+    padding:20px 0;
+}
+.footerItem p{
+    color: white;
+}
+
+
+
+
+
+
