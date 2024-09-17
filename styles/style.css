@@ -1,8 +1,146 @@
-/*
-Colors:
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
 
-Text: 1A1A1A
-Green: #00B172
-White: #FFF
+body {
+    font-family: Arial, sans-serif;
+}
 
-*/
+/* Header Section */
+header {
+    background-color: white;
+    padding: 20px 0;
+}
+
+.container {
+    width: 80%;
+    margin: 0 auto;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    
+}
+
+.logo {
+    width: 150px;
+}
+
+nav ul {
+    display: flex;
+    list-style: none;
+}
+
+nav ul li {
+    margin-left: 20px;
+}
+
+nav ul li a {
+    text-decoration: none;
+    color: #333;
+    font-weight: bold;
+}
+
+/* Hero Section */
+.hero {
+    background-image: url(/images/landing.jpg);
+    background-size: cover;
+    background-position: center;
+    height: 400px;
+    color: white;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+}
+
+.hero-content h1 {
+    font-size: 48px;
+    margin-bottom: 20px;
+}
+
+.hero-content p {
+    font-size: 20px;
+    width: 50%;
+}
+
+/* Info Section */
+.info {
+    background-color: #fff;
+    padding: 50px 0;
+    text-align: center;
+}
+
+.info h2 {
+    font-size: 32px;
+    margin-bottom: 40px;
+}
+
+.info-cards {
+    display: flex;
+    justify-content: center;
+    gap: 20px;
+}
+
+.card {
+    border: 2px solid #ffca28;
+    padding: 20px;
+    width: 250px;
+    text-align: center;
+}
+
+.card img {
+    width: 60px;
+    margin-bottom: 20px;
+}
+
+.card h3 {
+    font-size: 20px;
+    margin-bottom: 10px;
+}
+
+.card p {
+    font-size: 16px;
+    color: #adaaaa;
+}
+
+/* Bottom Feature Section */
+.feature {
+    background-color: #1db954;
+    padding: 50px 0;
+}
+
+.feature-content {
+    width: 80%;
+    margin: 0 auto;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    color: white;
+}
+
+.text-section {
+    width: 50%;
+}
+
+.text-section h2 {
+    font-size: 28px;
+    margin-bottom: 20px;
+}
+
+.text-section p {
+    font-size: 16px;
+    margin-bottom: 10px;
+}
+
+.image-section {
+    
+    width: 40%;
+}
+
+.image-section img {
+    background-image: url('7.png');
+    width: 100%;
+    border-radius: 20px;
+}
