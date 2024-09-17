@@ -6,3 +6,152 @@ Green: #00B172
 White: #FFF
 
 */
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+body {
+  font-family: Helvetica, Arial, sans-serif;
+  width: 292px;
+  height: 495px;
+  border: 1px solid black;
+}
+
+h1,
+h2,
+h3,
+h4,
+h5,
+h6 {
+  margin: 0;
+  padding: 0;
+}
+
+#section-1 {
+  background-image: url(../images/landing.jpg);
+}
+
+/* section 2 (Features) */
+
+/* section 2 general layout */
+#section-2 {
+  margin: 0.5em;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: flex-start;
+}
+
+/* What's on spotify? */
+#section-2 h3 {
+  font-size: 0.5em;
+  text-decoration: underline;
+  text-underline-offset: 0.5em;
+  text-decoration-thickness: 1px;
+  text-decoration-color: #00b172;
+}
+
+/* styles for the "feature" images */
+.image-container {
+  margin: 0 auto;
+  text-align: center;
+}
+
+.image-container img {
+  width: 35%;
+}
+
+/* "feature" articles's styling */
+#articles-container {
+  display: flex;
+  justify-content: space-around;
+  align-items: baseline;
+  margin: 0.6em 0 0.8em;
+}
+
+#articles-container {
+  article {
+    width: 30%;
+    margin-top: 1em;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: space-around;
+  }
+
+  h4 {
+    font-size: 0.4em;
+    font-weight: bold;
+    color: #00b172;
+    margin-bottom: 1em;
+  }
+
+  p {
+    color: #1a1a1ab3;
+    font-size: 0.2em;
+    text-align: center;
+    width: 75%;
+  }
+}
+
+/* section 3 (advantages) */
+
+/* section 3's general layout */
+#section-3 {
+  background-color: #00b172;
+  padding: 1em;
+  margin: 0 0.5em;
+  position: relative
+}
+
+/* Text div general layout */
+#text-container {
+  color: white;
+}
+
+#text-container h3 {
+  width: 50%;
+  text-decoration: underline;
+  text-underline-offset: 0.5em;
+  text-decoration-thickness: 1px;
+  font-size: 0.5em;
+  font-weight: lighter;
+  margin-bottom: 1em;
+}
+
+/* styling for the articles */
+.text-box {
+  margin-top: 0.72em;
+}
+
+.text-box {
+  h4 {
+    font-size: 0.3em;
+    margin-bottom: 1em;
+  }
+
+  p {
+    width: 35%;
+    font-size: 0.1em;
+    color: rgba(255, 255, 255, 0.7);
+  }
+}
+
+/* white logo */
+#logo-white {
+  position: absolute;
+  width: 11%;
+  left: 50%;
+  top: 50%;
+  transform: translate(-50%, -50%);
+}
+
+/* image of the app view */
+#app-image {
+  width: 26%;
+  position: absolute;
+  top: 1.6em;
+  right: 1.5em;
+}
