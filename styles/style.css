@@ -6,3 +6,171 @@ Green: #00B172
 White: #FFF
 
 */
+
+* {
+  padding: 0;
+  margin: 0;
+  box-sizing: border-box;
+  font-family: sans-serif;
+}
+
+#green-logo {
+  width: 120px;
+}
+
+nav {
+  display: flex;
+  justify-content: space-between;
+  flex-direction: row;
+  align-items: center;
+  margin: 10px;
+  /**position: fixed;**/
+}
+
+#menu {
+  display: flex;
+  list-style-type: none;
+}
+
+#menu > li {
+  margin-right: 20px;
+}
+
+.section-1 {
+  background-image: url(../images/landing.jpg);
+  background-size: cover;
+  height: 80vh;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  text-align: center;
+  background-position: center;
+}
+
+.section-1 > div {
+  width: 80ch;
+}
+
+h1 {
+  color: white;
+  font-size: 60px;
+}
+
+.section-1 p {
+  color: white;
+  font-size: 18px;
+  margin-top: 20px;
+}
+
+.section-2 h2 {
+  align-self: center;
+  /* display: inline-block; */
+  font-size: 25px;
+  margin: 0 auto;
+  text-decoration: underline #00b172;
+  text-align: center;
+  text-underline-offset: 7px;
+  margin-bottom: 50px;
+}
+
+.section-2 {
+  padding: 30px;
+  padding-bottom: 50px;
+}
+
+#features {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-around;
+  align-items: baseline;
+  list-style-type: none;
+}
+
+#features img {
+  height: 99px;
+  padding: 10px;
+  display: flex;
+  justify-content: center;
+  object-fit: contain;
+}
+
+.section-3 {
+  background-color: #00b172;
+  display: flex;
+  justify-content: space-around;
+  padding: 30px;
+  color: white;
+  margin: 33px;
+}
+
+#white-logo {
+  width: 100px;
+  object-fit: contain;
+}
+
+#Kanye {
+  display: flex;
+  width: 270px;
+  height: 481px;
+  margin: 30px;
+}
+
+.section-3 ul {
+  list-style-type: none;
+}
+.section-3 li {
+  padding-bottom: 55px;
+}
+.section-3 h3 {
+  padding: 10px;
+}
+
+.section-3 h2 {
+  margin-bottom: 30px;
+  margin-top: 40px;
+  text-decoration: underline;
+  text-underline-offset: 7px;
+  margin-left: 34px;
+}
+
+#list-logo {
+  display: flex;
+  flex-direction: column;
+  width: 67%;
+}
+
+#list-kanye {
+  display: flex;
+  flex-direction: row;
+}
+
+.features1 {
+  width: 200px;
+  display: flex;
+  flex-direction: column;
+}
+
+.paragraph {
+  text-align: center;
+}
+
+.green-title {
+  text-align: center;
+  color: #00b172;
+  margin-bottom: 20px;
+}
+
+.options p {
+  padding: 11px;
+  display: flex;
+  flex-direction: column;
+}
+
+#Discover {
+  display: flex;
+  justify-content: space-between;
+  align-items: flex-start;
+  flex-direction: column;
+  padding: 20px;
+  width: 81%;
+}
