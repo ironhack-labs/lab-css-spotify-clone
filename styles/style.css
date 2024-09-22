@@ -6,3 +6,181 @@ Green: #00B172
 White: #FFF
 
 */
+
+/* Reset margin and padding for all elements */
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'Montserrat', sans-serif;
+}
+
+/* Ensure body and html take the full width and height */
+html, body {
+    margin: 0;
+    padding: 0;
+    width: 100%;
+    height: 100%;
+}
+
+.navbar-white {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    text-align: center;
+    background-color: white;
+    height: 60px;
+    padding: 10px;
+}
+
+.navbar-logo {
+    display: flex;
+    align-items: center;
+}
+
+.navbar-logo-jpg {
+    height: 3rem;
+    width: auto
+}
+
+.navbar-links {
+    display: flex;
+    align-items: center;
+    gap: 20px;
+    
+}
+
+.nav-link {
+    color:black;
+    text-decoration: none;
+}
+
+.main-section {
+    display: flex;
+    background-image: url("../images/landing.jpg");
+    height: 600px;
+    width: 100vw;
+    background-size: cover;
+    background-position: center;
+    flex-direction: column;
+    text-align: center;
+    align-items: center;
+    justify-content: center;
+    padding:0;
+    margin:0;
+}
+
+.h1-white-centered {
+    display: flex;
+    color: white;
+    padding: 20px;
+    font-size: 50px;;
+}
+
+.p-white-centered {
+    display: flex;
+    color: white;
+    text-align: center;
+    align-items: center;
+    justify-content: center;
+    padding: 0px;
+    font-size: 20px;
+}
+
+#section-title {
+    display:flex;
+    justify-content: center;
+    padding: 15px 0px 5px 0px;
+    font-size: 30px;
+}
+
+.green-hr {
+    height: 3px;
+    width: 30%;
+    background-color:#00B172;
+    margin: 0 auto;
+}
+
+.icon-section {
+    display: flex;
+    justify-content: space-around; 
+    align-items: center; 
+    margin: 40px 0;
+}
+
+.icon-text {
+    text-align: center;
+    width: 30%; 
+}
+
+.icon img {
+    width: 80px; 
+    height: auto; 
+    margin-bottom: 10px; 
+}
+
+.icon-section h3 {
+    color: #00B172; 
+    font-size: 18px; 
+    margin: 10px 0 5px 0;
+}
+
+.icon-section p {
+    font-size: 14px; 
+    color: #666; 
+}
+
+.green-container {
+    display:flex;
+    background-color: #00B172;
+    padding: 30px;
+    margin: 20px;
+    color: white;
+    align-items: center;
+    justify-content: center;
+    align-content: center;
+}
+
+.white-h2 {
+    font-size:24px;
+}
+
+.white-hr {
+    height: 3px;
+    width: 400px;
+    
+}
+
+#functions-section {
+    display:flex;
+    flex-direction:column;
+    gap: 30px;
+    padding: 30px 0 0 0;
+    flex-wrap: wrap;
+}
+
+#spotify-logo-white img {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    align-items: center;
+    width: 110px;
+    height: auto;
+    padding: 20px;
+}
+
+#spotify-app-container img {
+    width:200px;
+    height: auto;
+    display: flex;
+    align-content: center;
+    justify-content: center;
+    align-items: center;
+}
+
+#spotify-app-container {
+    display: flex;
+    align-content: center;
+    justify-content: center;
+    align-items: center;
+}
