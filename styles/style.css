@@ -6,3 +6,168 @@ Green: #00B172
 White: #FFF
 
 */
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+body {
+    font-family: Arial, Helvetica, sans-serif; 
+    margin: 0;
+    padding: 0;
+}
+nav{
+    position: fixed;
+    top: 0;
+    left: 0;
+    width: 100%;
+    background-color: #fff;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 10px 20px;
+    z-index: 1000;
+}
+.logo img {
+    height: 40px;
+}
+.nav-links {
+    list-style: none;
+    display: flex;
+}
+.nav-links li {
+    margin-left: 20px;
+}
+.nav-links a {
+    text-decoration: none;
+    color: #333;
+    font-weight: 500;
+}
+#section1 {
+    margin-top: 80px; /* Para evitar que el contenido se superponga con el nav */
+    padding: 20px;
+    height: 600px;
+    background-image: url("../images/landing.jpg");
+    background-size: cover;
+    background-position: center;
+    display: flex; /* Utiliza flexbox*/
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+}
+h1{
+    font-size: 60px;
+    font-weight:900;
+    color: #fff;
+    justify-content: center;
+    margin: auto;
+}
+.text1{
+    color: #fff;
+    display: flex;
+    align-items: center;
+    width: 400px;
+    margin:auto;
+    margin-top: 40px;
+    text-align: center;
+}
+#section2{
+    margin-top: 80px; /* Para evitar que el contenido se superponga con el nav */
+    padding: 20px;
+    height: 400px;
+    background-color: #fff;
+}
+#section2 > div{
+    padding: 20px;
+    display: flex; /* Utiliza flexbox*/
+    justify-content: space-evenly;
+}
+#section2 > div > article{
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+    align-items: center;
+}
+h2{
+    font-size: 40px;
+    font-weight: 900;
+    text-decoration: underline; /* Aplica el subrayado */
+    text-decoration-color: #1DB954; /* Color verde (similar al verde de Spotify) */
+    text-underline-offset: 10px; /* Ajusta la distancia del subrayado */
+    color: black;
+    justify-content: center;
+    margin: auto;
+}
+.music-icon, .high-quality-icon, .devices-icon{
+    height: 70px;
+}
+.link-btn{
+    padding: 20px;
+    text-decoration: none; 
+    color: #1DB954;
+    font-weight: 900;
+}
+.text2{
+    color: grey;
+    display: flex;
+    align-items: center;
+    width: 200px;
+    margin:auto;
+    margin-top: 10px;
+    text-align: center;
+}
+#section3{
+    margin-top: 80px; /* Para evitar que el contenido se superponga con el nav */
+    width: 100%;
+    padding: 20px;
+    margin: 20px;
+    height: 600px;
+    background-color: #1DB954;
+    display: flex; /* Coloca los divs en línea */
+    justify-content: space-between; /* Distribuye los divs con espacio entre ellos */
+    align-items: center; /* Alinea los divs en la parte central */
+}
+.text-container {
+    display: flex;
+    flex-direction: column; /* Organiza el contenido en columna */
+    flex: 1; /* Haz que este div ocupe más espacio si es necesario */
+    margin: 60px;
+}
+/* Estilo para los artículos dentro del primer div */
+.text-container article {
+    margin-top: 30px; /* Espacio entre los artículos */
+}
+
+/* Estilo para los divs que contienen las imágenes */
+.image-container {
+    flex: 1; /* Define cómo se distribuye el espacio */
+    display: flex;
+    justify-content: center; /* Centra la imagen dentro de su contenedor */
+}
+.spotify-icon-white{
+    height: 100px;
+}
+.spotify-app{
+    height: 500px;
+}
+h3{
+    font-size: 40px;
+    text-decoration: underline; /* Aplica el subrayado */
+    text-decoration-color: #fff; /* Color verde (similar al verde de Spotify) */
+    text-underline-offset: 10px; /* Ajusta la distancia del subrayado */
+    color: #fff;
+    width: 550px;
+}
+.link-btn2{
+    text-decoration: none; 
+    color: #fff;
+    font-size: 20px;
+    font-weight: 900;
+}
+.text3{
+    margin-top: 20px;
+    color: #fff;
+    font-size: 20px;
+    width: 300px;
+}
