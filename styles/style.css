@@ -1,8 +1,170 @@
-/*
-Colors:
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
 
-Text: 1A1A1A
-Green: #00B172
-White: #FFF
+body {
+  font-family: Arial, sans-serif;
+  color: #1a1a1a;
+}
 
-*/
+/* Iteration 1: Navbar*/
+nav {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  background-color: white;
+  padding: 20px 50px;
+  position: fixed;
+  width: 100%;
+  top: 0;
+  z-index: 1000;
+}
+
+#spotify-logo {
+  width: 132px;
+}
+
+.nav-links {
+  list-style: none;
+  display: flex;
+}
+
+.nav-links li {
+  margin-left: 20px;
+}
+
+.nav-links a {
+  text-decoration: none;
+  color: #1a1a1a;
+  font-weight: bold;
+}
+
+/* Iteration 2: Large image background with text */
+.section-1 {
+  position: relative;
+  height: 100vh;
+  overflow: hidden;
+}
+
+.section-1-background {
+  width: 100%;
+  height: 100%;
+  object-fit: cover;
+  position: absolute;
+  top: 0;
+  left: 0;
+}
+
+.section-1-content {
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  text-align: center;
+  color: white;
+  z-index: 1;
+  width: 100%;
+  max-width: 800px;
+  padding: 20px;
+}
+
+h1 {
+  font-size: 4rem;
+  margin-bottom: 20px;
+}
+
+p {
+  font-size: 1.2rem;
+  line-height: 1.5;
+}
+
+/* Iteration 3: What is on Spotify section */
+.section-2 h2 {
+  text-decoration: underline;
+  text-underline-offset: 8px;
+  text-decoration-color: #00b172;
+  text-align: center;
+  padding: 50px;
+}
+
+.container-section-2 {
+  display: grid;
+  grid-template-columns: repeat(3, 1fr);
+  gap: 30px;
+  padding: 0 20px;
+}
+
+.info-card {
+  text-align: center;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  padding: 20px;
+}
+
+.info-card img {
+  width: 130px;
+  margin-bottom: 20px;
+}
+
+.info-card h3 {
+  color: #00b172;
+  padding-bottom: 10px;
+}
+
+.info-card p {
+  color: grey;
+}
+
+/* Iteration 4: The green section */
+.section-3 {
+  background-color: #00b172;
+  color: white;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+}
+
+.section-3-content {
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+  margin: 70px;
+  padding-right: 200px;
+  position: relative;
+}
+
+.section-3-content h3 {
+  text-decoration: underline;
+  text-underline-offset: 8px;
+  padding-bottom: 50px;
+}
+
+.section-3-content h4 {
+  padding-bottom: 20px;
+}
+
+.section-3-content p {
+  padding-bottom: 20px;
+}
+
+.section-3-content {
+  margin: 70px;
+}
+
+.spotify-player {
+  margin: 70px;
+}
+.spotify-player img {
+  width: 250px;
+}
+
+.spotify-icon-white {
+  width: 100px;
+  position: absolute;
+  right: 0;
+  top: 50%;
+  transform: translateY(-50%);
+}
