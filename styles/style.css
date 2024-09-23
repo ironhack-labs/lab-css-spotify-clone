@@ -1,8 +1,242 @@
-/*
-Colors:
+/* Importar la fuente Montserrat desde Google Fonts */
+@import url('https://fonts.googleapis.com/css2?family=Montserrat:wght@300;400;500;700&display=swap');
 
-Text: 1A1A1A
-Green: #00B172
-White: #FFF
+/* Global Styles */
+body {
+  font-family: 'Montserrat', sans-serif; /* Aplicar Montserrat globalmente */
+  margin: 0;
+  padding: 0;
+}
 
-*/
+/* Navbar */
+.navbar {
+  position: fixed;
+  top: 0;
+  width: 100%;
+  background-color: white; /* Fondo blanco */
+  padding: 10px 0;
+  z-index: 1000;
+  border-bottom: 1px solid #e5e5e5; /* Borde sutil en la parte inferior */
+}
+
+.navbar-container {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  width: 90%;
+  margin: auto;
+}
+
+.logo img {
+  height: 50px;
+}
+
+.nav-links {
+  list-style: none;
+  display: flex;
+  gap: 20px;
+}
+
+.nav-links li a {
+  color: black; /* El color de los enlaces es negro */
+  text-decoration: none;
+  font-weight: 400; /* Regular */
+}
+
+.nav-links li a:hover {
+  color: #1db954; /* Cambia el color al verde de Spotify al hacer hover */
+}
+
+/* Aplicar diferentes pesos de Montserrat */
+h1 {
+  font-weight: 800; /* Montserrat Bold */
+  margin: 20px 0;
+}
+
+h2 {
+  font-weight: 600; /* Montserrat Medium */
+  margin: 20px 0;
+}
+
+p {
+  font-weight: 400; /* Montserrat Regular */
+  margin: 10px 0;
+}
+
+small {
+  font-weight: 300; /* Montserrat Light */
+  margin: 5px 0;
+}
+
+/* HERO Section */
+.hero {
+  height: 100vh; /* Full screen height */
+  background-image: url('/images/landing.jpg'); /* Replace with your image */
+  background-size: cover;
+  background-position: center;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  text-align: center;
+  color: white;
+}
+
+.hero-content {
+  max-width: 700px;
+}
+
+.hero h1 {
+  font-weight: 700;
+  font-size: 48px;
+  margin-bottom: 10px;
+}
+
+.hero p {
+  font-weight: 400;
+  font-size: 18px;
+  line-height: 1.5;
+} every Monday with your own personal playlist.</li>
+      </ul>
+    </div>
+    <div class="green-image">
+      <img src="spotify-player.png" alt="Spotify Player" />
+      <img class="spotify-logo" src="spotify-logo.png" alt="Spotify Logo" />
+
+/* Spotify Features Section */
+
+/* Clearfix para evitar que elementos flotantes colapsen la sección */
+.spotify-section::after {
+  content: "";
+  display: block;
+  clear: both;
+}
+
+/* Aumentar el padding-bottom */
+.spotify-section {
+  padding: 50px 0;
+  text-align: center;
+  padding-bottom: 200px; /* Aumenta el espacio con padding */
+}
+
+/* Estilo para los iconos dentro de la sección Spotify Features */
+.feature img {
+  width: 100px; /* Ajusta este valor según el tamaño que quieras */
+  height: auto; /* Mantiene la proporción de la imagen */
+  margin-bottom: 15px; /* Espacio entre el icono y el título */
+}
+
+.spotify-section h2 {
+  font-size: 32px;
+  text-align: center;
+  font-weight: bold; /* Negrilla */
+  text-decoration: underline; /* Subrayado */
+  text-decoration-color: #1db954; /* Color verde Spotify para el subrayado */
+  margin-top: 50px; /* Ajusta el margen superior según lo necesites */
+  margin-bottom: 70px; /* Haz el margen inferior más ancho */
+} 
+
+.spotify-features {
+  display: flex;
+  justify-content: space-around;
+  width: 90%;
+  margin: auto;
+}
+
+.feature img {
+  width: 60px;  /* Ancho fijo para todas las imágenes */
+  height: 60px; /* Alto fijo para todas las imágenes */
+  object-fit: cover; /* Asegura que la imagen se ajuste dentro del área sin distorsionarse */
+  margin-bottom: 15px;
+  border-radius: /* Opcional: si deseas que las imágenes sean redondas */
+}
+
+.feature i {
+  font-size: 40px;
+  margin-bottom: 15px;
+  /* Cambiar los iconos a color negro */
+  color: black;
+}
+
+.feature h3 {
+  font-size: 22px;
+  color: #1db954; /* Verde Spotify */
+  margin-bottom: 10px;
+  min-height: 60px; /* Define una altura mínima para alinear los títulos */
+  display: flex;
+  align-items: center; /* Centra el texto verticalmente dentro de la altura definida */
+  justify-content: center; /* Centra el texto horizontalmente */
+}
+
+
+.feature p {
+  max-width: 200px; /* Limitar el ancho del párrafo */
+  margin: 0 auto; /* Centramos el párrafo */
+  font-size: 18px; /* Ajusta el tamaño de la fuente */
+  line-height: 1.6; /* Espaciado entre líneas para mejor legibilidad */
+  text-align: center; /* Centramos el texto */
+}
+
+/* Green Section */
+.green-section {
+  display: flex;
+  justify-content: space-between;
+  align-items: flex-start; /* Alinea los elementos al inicio (parte superior) */
+  background-color: #1db954;
+  padding: 50px;
+  color: white;
+  position: relative; /* Para poder posicionar el logo correctamente */
+}
+
+.green-text {
+  width: 45%;
+}
+
+.green-text h2 {
+  font-size: 40px;
+  font-weight: bold;
+  text-decoration: underline;
+  text-decoration-color: white;
+  margin-bottom: 30px;
+}
+
+.green-text ul {
+  list-style: none;
+  padding: 0;
+  margin: 0;
+}
+
+.green-text li {
+  margin-bottom: 30px; /* Reduce el espacio entre items */
+  font-size: 20px;
+  line-height: 1.3;
+}
+
+.green-text li{
+  max-width: 30ch; /* Limita el texto a un ancho similar al del título */
+}
+
+.green-text strong {
+  font-weight: bold;
+}
+
+/* Centrar el logo en la sección */
+.spotify-logo-container {
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%); /* Centrar el logo perfectamente */
+}
+
+.spotify-logo {
+  width: 100px; /* Tamaño del logo */
+  height: auto;
+}
+
+.green-image {
+  width: 40%;
+}
+
+.green-image img {
+  width: 70%;
+  border-radius: 
+}
