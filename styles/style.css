@@ -6,3 +6,170 @@ Green: #00B172
 White: #FFF
 
 */
+body {
+    margin: 0;
+    padding: 0;
+    font-size: 10px;
+}
+
+.navbar {
+    position: fixed;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    height: 14%;
+    width: 100%;
+    background: #FFF;
+    /* border: 1px solid black; */
+}
+
+.navbar img {
+    padding: 1% 0 1% 3%;
+    width: 18%;
+    /* border: 1px solid red; */
+}
+
+.navbar ul {
+    /* border: 1px solid red; */
+    display: flex;
+    flex-wrap: wrap;
+    flex-direction: row;
+    justify-content: space-evenly;
+    align-content: center;
+    width: 35%;
+}
+
+li {
+    list-style: none;
+    margin-right: 4%;
+}
+
+a {
+    text-decoration: none;
+    font-size: 2.5em;
+    color: #1A1A1A;
+}
+
+#first-section {
+    display: flex;
+    flex-direction: column;
+    width: 100vw;
+    height: 150vh;
+    background-image: url(/images/landing.jpg);
+    background-size: contain;
+    background-repeat: no-repeat;
+}
+
+#first-section h1,
+#first-section p {
+    color: white;
+    text-align: center;
+}
+
+#first-section h1 {
+    margin-top: 25%;
+    margin-bottom: 3%;
+    font-size: 9em;
+}
+
+#first-section p {
+    margin: 0 25%;
+    font-size: 3em;
+    /* font-weight: 100; */
+}
+
+section h2 {
+    margin-top: -1.5em;
+    text-align: center;
+    font-size: 3em;
+}
+
+section hr {
+    border-color: white;
+    background-color: #00B172;
+    height: 0.25em;
+    margin: 0 40%;
+}
+
+section .container2 {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-evenly;
+    /* border: #1A1A1A 1px solid; */
+    margin: 5% 5%;
+    height: 25em;
+}
+
+.container2 div {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    /* border: #1A1A1A 1px solid; */
+}
+
+.container2 img {
+    max-width: 25%;
+}
+
+.container2 h3 {
+    font-size: 3em;
+    text-align: center;
+    color: #00B172;
+}
+
+.container2 p {
+    font-size: 1.8em;
+    text-align: center;
+    margin: 0 25%;
+}
+
+.green {
+    margin: 5% 5%;
+    height: 100vh;
+    background-color: #1AB16A;
+    background-image: url(/images/spotify-icon-white.png);
+    background-repeat: no-repeat;
+    background-size: 10%;
+    background-position: 50% 50%;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+}
+
+.green div {
+    margin: 5% 5%;
+    /* border: 2px solid black; */
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    width: 40%;
+}
+
+.green div img {
+    width: 70%;
+    margin: 0 auto;
+}
+
+.green div h2 {
+    font-size: 4em;
+    text-decoration: underline;
+    text-underline-offset: 20%;
+    color: white;
+    position: absolute;
+    margin-bottom: 35%;
+}
+
+.green div h3 {
+    margin: 2% 0 0 0;
+    padding: 2% 0 0 0;
+    font-size: 3em;
+    color: white;
+}
+
+.green div p {
+    padding: 2% 25% 0 0;
+    margin: 2% 0 0 0;
+    color: white;
+    font-size: 2.5em;
+}
