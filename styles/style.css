@@ -6,3 +6,200 @@ Green: #00B172
 White: #FFF
 
 */
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    font-family: Arial, sans-serif;
+    background-color: white;
+}
+
+/* Header */
+header {
+    position: fixed;
+    width: 100%;
+    top: 0;
+    left: 0;
+    background-color: white;
+    padding: 10px 20px;
+}
+
+.nav-bar {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    height: 50px;
+}
+
+.logo {
+    width: 120px;
+}
+
+nav ul {
+    list-style-type: none;
+    display: flex;
+    gap: 20px;
+    /* Espacio entre los elementos */
+}
+
+nav ul li a {
+    text-decoration: none;
+    color: black;
+    font-weight: bold;
+}
+
+/* Main Section */
+.main-section {
+    background-image: url('../images/landing.jpg');
+    background-size: cover;
+    background-position: center;
+    height: 100vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    color: white;
+    text-align: center;
+    padding-top: 60px;
+}
+
+.main-content h1 {
+    font-size: 90px;
+    margin-bottom: 20px;
+}
+
+.main-content p {
+    font-size: 30px;
+    width: 60%;
+    text-align: center;
+    margin: 0 auto;
+}
+
+/* What's on Spotify Section */
+.whats-on-spotify {
+    text-align: center;
+    padding: 40px;
+    margin-bottom: 100px;
+}
+
+.whats-on-spotify h2 {
+    font-size: 32px;
+    margin-bottom: 30px;
+    text-decoration: underline;
+    text-decoration-color: #00B172;
+    text-underline-offset: 15px;
+    margin-bottom: 100px;
+}
+
+/*.underline{
+    height: 5px;
+    background: #00B172;
+    width: ;
+}*/
+
+.features {
+    display: flex;
+    justify-content: center;
+    height: 300px;
+}
+
+.feature-box {
+    text-align: center; /* Centramos todo el contenido de la caja */
+    padding: 20px;
+    background-color: white;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+}
+
+.feature-icon {
+    width: 33%; /* Tamaño uniforme para los íconos */
+    height: auto; /* Mantiene las proporciones de la imagen */
+    margin-bottom: 10px; /* Espacio entre el ícono y el texto */
+    vertical-align: auto;
+}
+
+.feature-box h3 {
+    font-size: 24px;
+    margin-bottom: 10px;
+    color: #00B172;
+}
+
+.feature-box p {
+    font-size: 26px;
+    width: 70%;
+    margin: auto;
+    padding-top: 20px;
+    vertical-align: auto;
+}
+
+
+/* Kanye West Section */
+.kanye-west {
+    background-color: #00B172;
+    height: 1000px;
+    border: 50px solid white;
+    padding: 10px 100px;
+}
+
+
+.kanye-content {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    height: 30%;
+}
+
+
+
+.kanye-west h2 {
+    color: white;
+    font-size: 42px;
+    margin-bottom: 200px;
+    margin-top: 100px;
+    text-decoration: underline;
+    text-decoration-color: white;
+    text-underline-offset: 15px;
+}
+
+.kanye-info {
+    width: 20%;
+}
+
+.kanye-info article h3 {
+    font-size: 24px;
+    margin-bottom: 1000px;
+    color: white;
+    margin: 50px auto;
+    height: 100%;
+}
+
+.kanye-info article p {
+    font-size: 20px;
+    margin-bottom: 20px;
+    color: white;
+}
+
+.white-logo {
+    width: 8%;
+}
+
+.white-logo img {
+    width: 100%;
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+.kanye-image {
+    width: 25%;
+    height: 300%;
+}
+
+.kanye-image img {
+    width: 100%;
+}
