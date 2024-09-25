@@ -6,3 +6,174 @@ Green: #00B172
 White: #FFF
 
 */
+
+.header {
+    background-color: transparent; /* Color de fondo del header */
+    width: 100%; /* Establece la anchura máxima del header */
+    max-width: 100%; /* Evita que el header se desborde */
+    margin: 0 auto; /* Centra el header horizontalmente */
+    padding: 20px; /* Agrega un padding para separar el contenido */
+    box-sizing: border-box; /* Incluye el padding en la anchura total */
+  }
+  
+  .header section {
+    display: flex; /* Establecemos un layout flexible */
+    justify-content: space-between; /* Distribuimos los elementos en el eje horizontal */
+    align-items: center; /* Centramos los elementos en el eje vertical */
+    margin-bottom: 20px; /* Espacio entre la sección y la imagen */
+  }
+  
+  .logo {
+    width: 120px; /* Ancho del logotipo */
+    height: 40px; /* Alto del logotipo */
+    margin-right: 20px; /* Espacio entre el logotipo y la navegación */
+  }
+  
+  nav ul {
+    list-style: none; /* Quitamos los puntos de la lista */
+    margin: 0; /* Quitamos el margen de la lista */
+    padding: 0; /* Quitamos el padding de la lista */
+    display: flex; /* Establecemos un layout flexible para la lista */
+  }
+  
+  nav li {
+    margin-right: 20px; /* Espacio entre los elementos de la lista */
+  }
+  
+  nav a {
+    color: #1A1A1A; /* Color del texto de los enlaces */
+    text-decoration: none; /* Quitamos la decoración de los enlaces */
+  }
+  
+  nav a:hover {
+    color: #1A1A1A; /* Color del texto de los enlaces al pasar el mouse */
+  }
+  
+  .landing {
+    width: 100%; /* Ancho de la imagen */
+    height: 600px; /* Alto de la imagen */
+    object-fit: cover; /* Ajustamos la imagen al tamaño del contenedor */
+    margin-top: 20px; /* Espacio entre la sección y la imagen */
+  }
+
+  .container {
+    position: relative;
+    width: 100%;
+    max-width: 100%;
+    margin: 0 auto;
+    box-sizing: border-box;
+    height: 100vh; /* ajusta el alto según sea necesario */
+  }
+  
+  .landing {
+    width: 100%;
+    height: auto;
+    object-fit: cover;
+  }
+  
+  .texto-centrado {
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    text-align: center;
+    color: #fff; /* ajusta el color según sea necesario */
+  }
+
+  .texto-centrado h1 {
+    font-size: 72px; /* Aumenta el tamaño del título */
+    margin-bottom: 10px; /* Reduce el espacio entre el título y el párrafo */
+  }
+
+  .texto-centrado p {
+    font-size: 20px;
+    margin-bottom: 1px; /* Reduce el espacio entre párrafos */
+  }
+
+  .container2 {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    margin-top: 260px;
+    flex-wrap: wrap;
+    justify-content: space-between;
+  }
+
+  .container2 section {
+    display: flex; /* Establecemos un layout flexible */
+    justify-content: space-between; /* Distribuimos los elementos en el eje horizontal */
+    align-items: center; /* Centramos los elementos en el eje vertical */
+    margin-bottom: 20px; /* Espacio entre la sección y la imagen */
+  }
+
+  .container2 img {
+    width: 125px;
+  }
+
+  .container2 div {
+    margin-left: 165px;
+    margin-right: 150px;
+    display: flex; /* Establece un layout flexible */
+    flex-direction: column; /* Establece la dirección de la flexbox como columna */
+    justify-content: center; /* Centra el contenido horizontalmente */
+    align-items: center; /* Centra el contenido verticalmente */
+    text-align: center; /* Centra el texto horizontalmente */
+  }
+
+  .container2 h1 {
+    font-size: 42px; /* Aumenta el tamaño del título */
+    margin-bottom: 60px; /* Reduce el espacio entre el título y el párrafo */
+    text-decoration: underline; /* Subraya el título */
+    text-decoration-color: #00B172; /* Establece el color de la subraya */
+  }
+
+  .container2 h2 {
+    color: #00B172;
+  }
+
+  .container2 p {
+    font-size: 20px;
+  }
+
+  .container3 {
+    background-color: #00B172; /* fondo de color #00B172 */
+    color: #FFFFFF; /* texto en letras blancas */
+  }
+  
+  .container3 h1 {
+    border-bottom: 3px solid #FFFFFF; /* línea blanca debajo del h1 */
+    max-width: 33%;
+    margin-left: 5%;
+    padding-top: 5%;
+  }
+
+  .whiteLogo {
+    width: 120px; /* Ancho del logotipo */
+    height: 120px; /* Alto del logotipo */
+  }
+
+  .container3 section {
+    display: flex; /* Establecemos un layout flexible */
+    justify-content: space-between; /* Distribuimos los elementos en el eje horizontal */
+    align-items: center; /* Centramos los elementos en el eje vertical */
+    margin-bottom: 20px; /* Espacio entre la sección y la imagen */
+  }
+
+  .rightImage {
+    width: 500px; /* Ancho de la img */
+    height: 800px; /* Alto de la img */
+  }
+
+  .subContainer3 {
+    margin-right: 5%;
+    margin-left: 5%;
+  }
+
+  .subContainer3_2 {
+    margin-right: 5%;
+  }
+
+  .subContainer3_3 {
+    margin-right: 5%;
+    margin-bottom: 5%;
+  }
