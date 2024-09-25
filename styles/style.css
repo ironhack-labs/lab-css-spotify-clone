@@ -1,8 +1,200 @@
 /*
 Colors:
 
-Text: 1A1A1A
+Text: #1A1A1A
 Green: #00B172
 White: #FFF
 
 */
+* {
+    box-sizing: border-box;
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+body {
+    margin: 0;
+    padding-top: 100px;
+}
+
+.logo {
+    width: 200px;
+    margin-left: 40px;
+}
+
+.main-header {
+    width: 100%;
+    position: fixed;
+    top: 0;
+    height: 100px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    background-color: #fff;
+    z-index: 2;
+}
+
+.header-content {
+    width: 30%;
+}
+
+.nav-bar {
+    margin-right: 60px;
+}
+
+.nav-list {
+    display: flex;
+
+    list-style: none;
+
+}
+
+.nav-item {
+    margin-right: 35px;
+    font-size: 1.5rem;
+}
+
+
+.nav-link {
+    text-decoration: none;
+    color: rgb(79, 79, 79);
+}
+
+.section-music {
+
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 600px;
+    background-image: url('/images/landing.jpg');
+    background-repeat: no-repeat;
+    background-size: cover;
+
+    background-position: center -180px;
+    
+}
+
+.section-music__title {
+    font-size: 4rem;
+    font-weight: normal;
+    color: rgb(255, 255, 255);
+    text-align: center;
+}
+
+.section-music__description {
+    font-size: 1.5rem;
+    font-weight: normal;
+    text-align: center;
+    color: rgb(217, 215, 215);
+    
+}
+
+.section-music__content {
+    margin-bottom: 220px;
+}
+
+.section-what {
+    background-color: white;
+    height: 600px;
+}
+
+.section-what__content {
+    display: flex;
+    justify-content: space-around;
+    font-size: 1.4rem;
+}
+
+.section-what__icon {
+    width: 100px;
+}
+
+.section-what-title {
+
+    color: #000;
+    font-size: 3rem;
+    text-align: center;
+    border-bottom: 0.6rem solid #00B172;
+    margin: 68px auto;
+    padding-bottom: 6px;
+    width: fit-content;
+}
+
+.section-what__content {
+    width: 100%;
+    display: flex;
+    justify-content: space-around;
+    align-items: baseline;
+    margin-top: 200px;
+    color: #fff;
+}
+
+
+.section-what__item {
+
+    width: 33%;
+    height: 100px;
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+    align-items: center;
+}
+
+
+.texto-verde {
+    color: #00B172;
+    font-size: 2rem;
+}
+
+.section-what__description {
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 1em;
+    text-align: center;
+    color: #000;
+}
+
+.yeezy {
+    width: 30%;
+    color: #fff;
+    font-size: 1rem;
+    line-height: 30px;
+}
+
+.yeezy-spotify-app {
+    width: 250px;
+    margin-top: 40px;
+}
+
+.container-green {
+    height: 600px;
+    position: relative;
+    margin: 0 auto;
+    width: 95%;
+    background-color: #00B172;
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+    
+
+}
+
+.yeezy-logo {
+    position: relative;
+}
+
+.container-green-logo {
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+}
+
+.underline {
+    font-size: 1.5rem;
+    border-bottom: 4px solid #fff;
+    width: fit-content;
+
+}
+
+.icon-spotify-white {
+
+    width: 100px;
+}

@@ -5,14 +5,130 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <meta http-equiv="X-UA-Compatible" content="ie=edge" />
     <title>Spotify Clone</title>
+    <link rel="stylesheet" href="styles/style.css" />
     <!-- don't forget to link your styles -->
   </head>
   <body>
-    Premium Discover Help Download Music for everyone. Spotify is now free on mobile, tablet and computer. Listen to the
-    right music, wherever you are. What’s on Spotify? Millions of Songs There are millions of songs on Spotify HD Music
-    Listen to music as if you were listening live Stream Everywhere Stream music on your smartphone, tablet or computer
-    It’s as yeezy as Kanye West. Search Know what you want to listen to? Just search and hit play. Browse Check out the
-    latest charts, brand new releases and great playlists for right now. Discover Enjoy new music every Monday with your
-    own personal playlist. Or sit back and enjoy Radio.
+    <div class="container">
+      <header class="main-header">
+        <div class="header-content">
+          <img src="images/spotify-logo.png" alt="logo-spotify" class="logo" />
+        </div>
+        <nav class="nav-bar">
+          <ul class="nav-list">
+            <li class="nav-item"><a href="#" class="nav-link">Premium</a></li>
+            <li class="nav-item">
+              <a href="#about" class="nav-link">Discover</a>
+            </li>
+            <li class="nav-item">
+              <a href="#services" class="nav-link">Help</a>
+            </li>
+            <li class="nav-item">
+              <a href="#download" class="nav-link">Download</a>
+            </li>
+          </ul>
+        </nav>
+      </header>
+
+      <section class="section-music">
+        <div class="section-music__content">
+          <h1 class="section-music__title">Music for everyone.</h1>
+          <p class="section-music__description">
+            Spotify is now free on mobile, tablet and computer.<br />
+            Listen to the right music, wherever you are.
+          </p>
+        </div>
+      </section>
+
+      <section class="section-what">
+        <h3 class="section-what-title">What's on Spotify?</h3>
+        <div class="section-what__content">
+          <article class="section-what__item">
+            <img
+              src="images/music-icon.png"
+              alt="altavoz"
+              class="section-what__icon"
+            />
+            <h3 class="section-what__title">
+              <span class="texto-verde">Millions of Songs</span>
+            </h3>
+            <p class="section-what__description">
+              There are millions of <br />
+              songs of Spotify
+            </p>
+          </article>
+          <article class="section-what__item">
+            <img
+              src="images/high-quality-icon.png"
+              alt="high-quality-icon"
+              class="section-what__icon"
+            />
+            <h3 class="section-what__title">
+              <span class="texto-verde">HD Music</span>
+            </h3>
+            <p class="section-what__description">
+              Listen to music as if you <br />
+              were listening live
+            </p>
+          </article>
+          <article class="section-what__item">
+            <img
+              src="images/devices-icon.png"
+              alt="devices-icon"
+              class="section-what__icon"
+            />
+            <h3 class="section-what__title">
+              <span class="texto-verde">Stream Everywhere</span>
+            </h3>
+            <p class="section-what__description">
+              Stream music on your <br />
+              smarphone, table or <br />
+              computer
+            </p>
+          </article>
+        </div>
+      </section>
+
+      <div class="container-green" id="green">
+        <section class="yeezy">
+          <h3 class="container-green-title underline" >It's as yeezy as Kanye West.</h3>
+          <article class="yeezy-article">
+            <h3 class="container-green-title">Search</h3>
+            <p class="yeezy-description">
+              Know what you want to listen to? <br> Just search and hit play.
+            </p>
+          </article>
+          <article>
+            <h3 class="container-green-title">Browse</h3>
+            <p class="yeezy-description">
+              Check out the latest charts, <br> brand new releases and great <br>
+              playlists for right now.
+            </p>
+          </article>
+          <article>
+            <h3 class="container-green-title">Discover</h3>
+            <p class="yeezy-description">
+              Enjoy new music every Monday <br> with your own personal playlist. <br> Or
+              sit back and enjoy Radio.
+            </p>
+          </article>
+        </section>
+        <section class="container-green-logo">
+          <img
+            src="images/spotify-icon-white.png"
+            alt="icon-spotify-white"
+            class="icon-spotify-white"
+          />
+        </section>
+
+        <section>
+          <img
+            src="images/spotify-app.jpg"
+            alt="spotify-app"
+            class="yeezy-spotify-app"
+          />
+        </section>
+      </div>
+    </div>
   </body>
 </html>
