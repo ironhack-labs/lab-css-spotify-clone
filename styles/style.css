@@ -1,8 +1,147 @@
 /*
 Colors:
-
-Text: 1A1A1A
+Text: #1A1A1A
 Green: #00B172
 White: #FFF
-
 */
+
+/* General resets */
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    font-family: Arial, sans-serif;
+    color: #1A1A1A; /* Color de texto principal */
+}
+header{
+    position: fixed; /* Navbar fija */
+    top: 0;
+    left: 0;
+    width: 100%; /* Ocupa todo el ancho de la pantalla */
+    background-color: #fff; /* Fondo blanco */
+    z-index: 1000; /* Asegura que la barra esté sobre otros elementos */
+    border-bottom: 1px solid #ccc; /* Añadir una línea inferior */
+}
+
+/* Navbar container */
+.navbar{
+    display: flex;
+    justify-content: space-between; /* Alinea el logo a la izquierda y el menú a la derecha */
+    align-items: center;
+    padding:10px 20px;
+    background-color: #FFF; /* Color de fondo blanco */
+    border-bottom: 1px solid #ccc;
+    z-index: 1000;
+    margin-top: 0;
+    display: flex;
+}
+
+/* Logo a la izquierda */
+.logo img {
+    height: 50px; /* Ajusta la altura del logo */
+    justify-content: space-between;
+    padding: 10px 20px;
+    margin-bottom: 0;
+}
+
+.menu div{
+    display: flex;
+}
+
+/* Menú de navegación */
+.menu ul {
+    list-style: none; /* Quita los puntos de la lista */
+    display: flex; /* Coloca los elementos de la lista en una fila horizontal */
+    justify-content: flex-end; /* Alinea los elementos a la derecha */
+    height: 50px;
+    padding: 20px;
+}
+
+.menu ul li {
+    margin-left: 20px; /* Añade espacio entre los elementos del menú */
+}
+
+.menu ul li a {
+    text-decoration: none; /* Quita el subrayado */
+    color: #1A1A1A; /* Color de texto negro */
+    font-weight: bold; /* Texto en negrita */
+}
+
+/* Landing section with background image */
+
+.landing{
+    max-width: 100%; /* Limita el ancho del texto */
+    height: 500px;
+    margin: 0 auto; /* Asegura que el contenedor esté centrado */
+    background-image: url('../images/landing.jpg'); /* Ruta de la imagen */
+    background-repeat: no-repeat;
+    background-position: center center;
+    background-size: cover; /* Cubre toda la sección */
+    display: flex;
+    justify-content: center; /* Centrar horizontalmente */
+    align-items: center; /* Centrar verticalmente */
+    text-align: center; /* Centrar texto horizontalmente */
+    color: #FFF; /* Texto blanco */
+    padding: 20px; /* Asegura un pequeño espacio interno */
+}
+.content-wrap {
+    max-width: 800px; /* Limita el ancho del contenido */
+    text-align: center; /* Centrar el texto horizontalmente */
+    margin: 0 auto; /* Asegura que el contenido esté centrado */
+}
+
+#landing h1 {
+    font-size: 4em; /* Tamaño grande para el título */
+    margin-bottom: 20px;
+}
+#landing p{
+    font-size: 1.5em; /* Tamaño de fuente para el párrafo */
+}
+
+/* What is on Spotify Section */
+.spotify-section {
+    text-align: center;
+    padding: 50px;
+}
+
+.spotify-section h2 {
+    font-size: 2em;
+    margin-bottom: 20px;
+}
+
+.spotify-features {
+    display: flex;
+    justify-content: space-around;
+}
+
+.feature {
+    width: 30%;
+    padding: 20px;
+    border: 1px solid #ccc;
+}
+
+.feature img {
+    width: 50px;
+    height: 50px;
+    margin-bottom: 10px;
+}
+
+/* Green section */
+.green-section {
+    display: flex;
+    background-color: #00B172; /* Color verde personalizado */
+    color: #FFF; /* Texto blanco */
+    padding: 50px;
+}
+
+.green-section .text-content {
+    flex: 1;
+}
+
+.green-section img {
+    height: 300px;
+    position: relative;
+}
