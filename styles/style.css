@@ -6,3 +6,156 @@ Green: #00B172
 White: #FFF
 
 */
+/*
+Colors:
+
+Text: 1A1A1A
+Green: #00B172
+White: #FFF
+
+*/
+
+@font-face {
+  font-family: "Gotham-Medium", sans-serif;
+  src: url(../font/Gotham-Medium.otf);
+  font-weight: normal;
+  font-style: normal;
+}
+
+body {
+  font-family: "Gotham-Medium", sans-serif;
+}
+
+nav {
+  height: 50px;
+  width: 100%;
+  position: fixed;
+  top: 0;
+  background-color: #fff;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  font-size: 1.3rem;
+  padding: 1rem;
+}
+
+.nav-bar {
+  display: flex;
+  flex-direction: row;
+  list-style: none;
+  justify-content: space-around;
+}
+
+.nav-bar li {
+  margin-right: 4rem;
+}
+
+main {
+  width: 100%;
+  margin-top: 50px;
+}
+
+.banner {
+  background-image: url("../images/landing.jpg");
+  background-size: cover;
+  background-position: center;
+  width: 100%;
+  min-width: 500px;
+  height: 500px;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  text-align: center;
+  padding-bottom: 20%;
+}
+
+.banner h1 {
+  color: #fff;
+  font-size: 3rem;
+}
+
+.banner p {
+  color: #fff;
+  font-family: "Gotham-XLight", sans-serif;
+}
+
+.features {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+
+.feature-article {
+  display: flex;
+  width: 100%;
+  flex-direction: row;
+  justify-content: space-around;
+  font-size: 12px;
+  margin-top: 2em;
+}
+
+.feature-article img {
+  width: 50px;
+  height: 50px;
+  flex-direction: row;
+  align-items: center;
+}
+
+.feature-article article {
+  flex-basis: auto;
+  flex: 1;
+  flex-direction: column;
+  align-items: center;
+  min-width: 150px;
+  text-align: center;
+}
+
+.title-underline {
+  font-size: 1.3rem;
+  border-bottom: 3px solid #00b172;
+}
+
+.feature-article h3 {
+  color: #00b172;
+}
+
+.kanye-ad {
+  background-color: #00b172;
+  color: #fff;
+  padding: 50px;
+}
+
+.underline {
+  display: inline-block;
+  border-bottom: 3px solid #fff;
+  font-size: 1.5rem;
+}
+
+.kanye-group {
+  flex-grow: 1;
+  flex: 2;
+  background-color: #00b172;
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  align-content: center;
+  justify-content: space-around;
+  gap: 1rem;
+}
+.kanye-group-articles {
+  flex-grow: 1;
+  flex: 1;
+  display: flex;
+  flex-direction: column;
+}
+
+#logo {
+  width: 70px;
+  height: 70px;
+}
+
+#app {
+  height: 25rem;
+}
