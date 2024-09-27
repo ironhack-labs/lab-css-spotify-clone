@@ -1,8 +1,161 @@
-/*
-Colors:
+/* General */
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
 
-Text: 1A1A1A
-Green: #00B172
-White: #FFF
+body {
+    font-family: Arial, sans-serif;
+    color: #333;
+}
 
-*/
+a {
+    text-decoration: none;
+    color: #333;
+}
+
+/* CABECERA */
+
+header {
+    background-color: #fff;
+    padding: 20px;
+    position: fixed;
+    width: 100%;
+    top: 0;
+    left: 0;
+    z-index: 100;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+#logo {
+    width: 100px;
+}
+
+#linksCabecera {
+    display: flex;
+    justify-content: flex-end;
+}
+
+#linksCabecera li {
+    list-style: none;
+    margin-left: 20px;
+}
+
+#linksCabecera a {
+    font-size: 16px;
+    font-weight: bold;
+    color: #333;
+}
+/* FIN DE LA CABECERA */
+
+/* PARTE CENTRAL*/
+
+#parteCentral {
+    height: 100vh;
+    background: url('../images/landing.jpg') no-repeat center center/cover;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+    color: white;
+    margin-top: 80px; 
+}
+
+#parteCentral h1 {
+    font-size: 4rem;
+    margin-bottom: 20px;
+}
+
+#parteCentral p {
+    font-size: 1.5rem;
+}
+
+h3 {
+
+    color: #31a65a;
+
+}
+
+/*FIN PARTE CENTRAL*/
+
+/* OFERTAS */
+
+#ofertas {
+    padding: 60px 20px;
+    text-align: center;
+    background-color: #f8f8f8;
+}
+
+#ofertas h2 {
+    font-size: 2.5rem;
+    margin-bottom: 40px;
+}
+
+#ofertas-cajas {
+    display: flex;
+    justify-content: space-around;
+    max-width: 1200px;
+    margin: 0 auto;
+}
+
+.oferta {
+    width: 30%;
+    text-align: center;
+}
+
+.oferta img {
+    width: 60px;
+    margin-bottom: 20px;
+}
+
+.oferta h3 {
+    font-size: 1.5rem;
+    margin-bottom: 10px;
+}
+
+
+/* FIN DE LA PARTE DE OFERTAS */
+
+
+/* FINAL */
+
+#final {
+    background-color: #31a65a;
+    color: white;
+    padding: 50px 20px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+#textoFinal {
+    width: 50%;
+    font-size: 1.2rem;
+    line-height: 1.5;
+}
+
+#textoFinal h2 {
+
+    text-decoration: underline;
+
+}
+
+#imagenCentral {
+    width: 100px; 
+
+}
+
+
+#spotify-player {
+    width: 300px;
+}
+
+#spotify-player img {
+    width: 100%;
+}
+
+
+/* FINAL DE LA PARTE FINAL*/
