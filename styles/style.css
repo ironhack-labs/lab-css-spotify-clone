@@ -1,8 +1,164 @@
-/*
-Colors:
 
-Text: 1A1A1A
-Green: #00B172
-White: #FFF
+body {
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+}
+/*header*/
 
-*/
+h1 {
+ font-size: 4em;
+}
+
+h2 {
+    font-size: 2em;
+    text-decoration: underline;
+    text-underline-offset: 12px;
+}
+
+h3 {
+    font-size: 2em;
+}
+
+.topnav {
+    background-color: rgb(255, 255, 255);
+    height: 60px;
+    width: 100%;
+    font-size: 20px;
+    color: black;
+    display: flex;
+    justify-content: space-between;
+    padding: 0.5em;
+}
+
+.links > ul {
+    display: flex;
+    flex-direction: row;
+    padding: 1px 30px 3px 1px;
+    gap: 30px;
+    margin-top: 10px;
+}
+
+.links li {
+    list-style: none;
+}
+
+.links a {
+    text-decoration: none;
+    color: black;
+}
+
+.logo{
+    float: left;                                                                                                                
+    padding: 1px 30px 3px 1px;
+}
+
+.links {
+    padding: 0px;
+    background-color: white;
+    text-decoration: none;
+}
+
+.first {
+    width: 100%;
+    height: 800px;
+    background-image: url("../images/landing.jpg");
+    background-position: fixed;
+    background-size: 100% 100%;
+    background-repeat: no-repeat;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    color: white;
+    text-align: center;
+}
+
+.first > p {
+    font-size: 2em;
+    width: 55%;
+    font-weight: lighter;
+}
+
+.second {
+    width: 100%;
+    height: 500px;
+    background-color: white;   
+    text-align: center;
+}
+
+.second > h2 {
+    text-decoration-color: #00B172;
+}
+
+.item > img {
+    height: 85px;
+    display: block;
+    margin: 20px auto;
+  }
+
+.item > h3 {
+    color: #00B172;
+}
+  
+  .flex-container {
+    display: flex;
+    flex-flow: row wrap;
+    justify-content: space-around;
+    align-items: center;
+    align-content: space-around;
+    margin: 80px;
+  }
+  
+  .item > p {
+    text-align: center;
+    font-size: 1em;
+    font-weight: lighter;
+    
+  }
+  
+  .last {
+    background-color: #00B172;
+    background-image: url(../images/spotify-icon-white.png);
+    background-size: 150px;
+    background-repeat: no-repeat;
+    background-position: center;
+    padding: 100px;
+    display: flex; 
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: baseline;
+    width: 100%;
+    box-sizing: border-box;
+  }
+
+   .last > div {
+    display: flex;
+    justify-content: space-between;
+    align-items: left;
+    color: #FFF;
+    flex-direction: column;
+    width: 100%;
+  }
+  
+   .last > img {
+    object-fit: cover;
+    justify-content: space-around; 
+    align-self: flex-end; 
+    width: 30%;
+  } 
+  .last p {
+    color: #FFF;
+    font-size: 1.5em;
+    
+  }
+
+
+
+
+
+
+
+
+
+
+
+
