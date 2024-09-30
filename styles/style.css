@@ -1,8 +1,183 @@
 /*
 Colors:
 
-Text: 1A1A1A
+Text: #1A1A1A
 Green: #00B172
 White: #FFF
 
 */
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+body {
+  font-family: "Poppins", sans-serif;
+  background-color: #fff;
+  color: #1a1a1a;
+}
+
+header {
+  position: fixed;
+  top: 0;
+  width: 100%;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  background-color: #fff;
+  padding: 10px 20px;
+}
+
+header img {
+  height: 40px;
+}
+
+header nav ul {
+  list-style: none;
+  display: flex;
+  gap: 20px;
+}
+
+header nav ul li {
+  display: inline;
+}
+
+header nav ul li a {
+  text-decoration: none;
+  color: #1a1a1a;
+}
+
+main {
+  margin-top: 60px;
+}
+
+.landing {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  color: #fff;
+  background-image: url("../images/landing.jpg");
+  background-size: cover;
+  background-position: center;
+  height: 100vh;
+  flex-direction: column;
+  text-wrap: balance;
+  text-align: center;
+}
+
+.landing h1 {
+  font-size: 5rem;
+  margin-bottom: 40px;
+  font-weight: 700;
+}
+
+.landing p {
+  font-size: 1.8rem;
+  font-weight: 100;
+  line-height: 1.5;
+}
+
+.whatson {
+  text-align: center;
+  margin: 50px auto;
+  width: 80%;
+}
+
+.whatson h2 {
+  margin-bottom: 50px;
+  padding-bottom: 5px;
+  font-size: 2.5rem;
+  border-bottom: 4px solid #00b172;
+  display: inline-block;
+}
+
+.whatson .sections {
+  display: flex;
+  justify-content: center;
+  gap: 20px;
+}
+
+.whatson .sections section {
+  flex: 1;
+  padding: 10px;
+  box-sizing: border-box;
+  text-align: center;
+}
+
+.whatson section h3 {
+  margin: 20px 0 30px 0;
+  font-size: 1.5rem;
+  color: #00b172;
+}
+
+.whatson section p {
+  margin-bottom: 20px;
+  font-size: 1.1rem;
+  text-wrap: balance;
+  color: #1a1a1aa8;
+}
+
+.whatson img {
+  max-width: 40%;
+  height: 95px;
+}
+
+.greensection {
+  position: relative;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  background-color: #00b172;
+  padding: 100px 150px;
+  color: #fff;
+  margin: 0 30px 0 30px;
+  z-index: -999;
+}
+
+.spotify-white-logo {
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  height: 120px;
+}
+
+.greensection .left {
+  flex: 1;
+  padding-right: 100px;
+}
+
+.greensection h2 {
+  font-size: 2.3rem;
+  margin-bottom: 80px;
+  padding-bottom: 7px;
+  border-bottom: 4px solid #fff;
+  display: inline-block;
+  font-weight: 300;
+}
+
+.greensection h3 {
+  font-size: 1.8rem;
+  margin-bottom: 30px;
+}
+
+.greensection p {
+  font-size: 1.3rem;
+  margin-bottom: 40px;
+  text-wrap: balance;
+  line-height: 1.5;
+  font-weight: 100;
+}
+
+.greensection .right {
+  flex: 1;
+  display: flex;
+  justify-content: flex-end;
+  padding-top: 30px;
+}
+
+.greensection .right img {
+  max-width: 55%;
+  height: auto;
+}
