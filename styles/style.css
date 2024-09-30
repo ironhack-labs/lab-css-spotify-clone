@@ -6,3 +6,121 @@ Green: #00B172
 White: #FFF
 
 */
+
+.logo {
+    height: 4rem;
+}
+
+body {
+    font-family:Verdana, Geneva, Tahoma, sans-serif;
+    font-size: 30px; 
+    margin: 0;
+    padding: 0;
+}
+
+nav {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    margin: 0;
+    padding: 0 1em;
+    font-size: 2rem;
+    word-spacing: 1em;
+    background-color: white;
+    position: fixed;
+    width: 100%;
+}
+ 
+li { 
+    display: inline;
+    list-style-type: none;
+}
+
+.header {
+    margin: 0;
+    padding: 0;
+    width: 100%;
+    height: 800px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-image: url(/images/landing.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position-x: center;
+    background-position-y: center;
+    flex-direction: column;
+}
+
+h1 {
+    color:white;
+    font-size: 80px;
+    font-weight: bold;
+}
+
+h2 {
+    text-align: center;
+    padding-top: 5rem;
+}
+
+h3 {
+    color:  rgb(18, 183, 114);
+}
+
+h4 {
+    text-decoration: underline;
+    text-underline-offset: 20px;
+    color: white;
+    font-size: 40px;
+}
+
+h5 {
+    color: white;
+}
+
+.header-text {
+    color: white;
+}
+
+.description {
+    font-size: 20px;
+    color: white;
+    font-weight: 100;
+}
+
+.green-section {
+    background-color: rgb(18, 183, 114);
+    display: flex; 
+    justify-content: space-evenly;
+    align-items: center;
+}
+
+#player {
+    padding: 5rem;
+    height: 40rem;
+}
+
+#icon {
+    height: 10rem;
+    position: absolute;
+}
+
+.middle-section {
+    display: flex;
+    justify-content: space-evenly;
+    padding: 0;
+}
+
+.middle-icon {
+    height: 10rem;
+}
+
+div {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    padding: 5rem 5rem 10rem 5rem ;
+    max-width: 40rem;
+    text-align: center;
+}
