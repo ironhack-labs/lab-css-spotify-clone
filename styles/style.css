@@ -1,3 +1,155 @@
+
+
+header>div {
+    padding: 0 25px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+nav {
+    width: 800px;
+    position: fixed;
+    right: 0;
+    
+}
+
+nav ul {
+    list-style: none;
+    display: flex;
+    justify-content: right;
+}
+nav a {
+    text-decoration: none;
+    color: black;
+}
+
+nav li {
+    padding: 15px;
+    font-size: 30px;
+}
+
+
+
+.SpotifyLogo {
+    width: 200px;
+}
+
+.ImagenDeCarga {
+    height: 800px;
+    background-image: url("../images/landing.jpg");
+    background-size: contain;
+    display: flex;      
+    flex-direction: column; 
+    justify-content: center; 
+    align-items: center; 
+    color: white; 
+    text-align: center;
+    font-size: 40px;
+}
+.section-blanco {
+    background-color: white; 
+    padding: 20px; 
+    color: black;
+    height: 60%;
+}
+.subrayado-verde-espaciado {
+    display: inline-block; 
+    border-bottom: 2px solid #4CAF50; 
+    padding-bottom: 5px;
+    color: black; 
+    font-size: 40px;
+}
+.subrayado-blanco-espaciado {
+    display: inline-block; 
+    border-bottom: 2px solid white; 
+    padding-bottom: 5px;
+    color: white; 
+    font-size: 60px;
+}
+
+
+.contenido {
+    text-align: center;
+    height: 5%;
+}
+.section-verde {
+    display: flex; 
+    justify-content: space-between; 
+    align-items: center; 
+    background-color: #4CAF50;
+    color: white; 
+    padding: 20px;
+}
+
+.contenido-texto-logo {
+    position: relative; 
+    width: 60%; 
+    padding-left: 40px;
+}
+
+.contenido-texto-logo p {
+    font-size: 30px;
+    font-family: 'Helvetica', 'Arial', sans-serif;
+    line-height: 1.5;
+    font-weight: 200;
+}
+
+.spotify-logo {
+    position: absolute; 
+    top: 50%; 
+    right: 20px; 
+    transform: translateY(-50%);
+}
+
+
+.spotify-logo img {
+    width: 100px; 
+    height: auto;
+}
+
+.imagen-derecha {
+    width: 35%; 
+}
+
+.imagen-derecha img {
+    width: 60%; 
+    height: auto; 
+    padding-top: 50px;
+}
+
+
+
+.middle {
+    display: flex; 
+    justify-content: center; 
+    align-items: center;
+    height: 15%;
+    width: 100%;
+    flex-wrap: nowrap;
+   text-align: center;
+   flex-direction: row; 
+}
+
+.iconsSection {
+    width: 100px;         
+    float: center;
+}
+
+.headerSection {
+    color: #4CAF50;
+    font-weight: bold;
+    font-size: 30px;
+}
+
+.divSection {
+    padding: 40px;
+    height: 500px;
+    text-align: center;
+    
+}
+
+
 /*
 Colors:
 
