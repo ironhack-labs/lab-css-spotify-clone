@@ -1,8 +1,162 @@
-/*
-Colors:
+body {
+    margin: 0%;
+    padding: 0%;
+}
 
-Text: 1A1A1A
-Green: #00B172
-White: #FFF
+.navbar {
+    padding: 50px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    height: 50px;
+}
 
-*/
+.navbar a {
+    color: black;
+    text-decoration: none;
+    display: block;
+    font-weight: 500;
+    font-size: 20px;
+}
+
+.navbar ul li {
+    list-style-type: none;
+    display: inline-block;
+    margin-right: 20px;
+}
+
+.navbar ul li a {
+    font-size: 30px;
+}
+
+.navbar img {
+    height: 100px;
+    margin-right: 20px;
+}
+
+/* header start */
+
+.header {
+    background-image: url(../images/landing.jpg);
+    padding: 450px 0px;
+    background-position: center;
+    background-size: cover;
+    background-repeat: no-repeat;
+}
+
+.header-text {
+    color: white;
+    text-align: center;
+}
+
+.header-text h1 {
+    font-size: 100px;
+    font-weight: 900;
+}
+
+.header-text p {
+    font-size: 35px;
+}
+
+/* header end */
+
+/* about section start */
+
+.about {
+    text-align: center;
+}
+
+.about h2 {
+    font-size: 50px;
+    font-weight: 900;
+    margin: 0px;
+}
+
+.about-header {
+    padding: 50px 0px;
+}
+
+.about-header hr {
+    width: 400px;
+    height: 5px;
+    background-color: #13b36b;
+    border: none;
+}
+
+.about-content {
+    padding-top: 30px;
+    display: flex;
+    justify-content: space-around;
+    color: #000;
+}
+
+.about-content h3 {
+    color: #13b36b;
+    font-weight: 900;
+    font-size: 40px;
+}
+
+.about-content p {
+    font-size: 30px;
+    color: #191919a4;
+}
+
+.about img {
+    width: 100px;
+}
+
+/* about section end */
+
+/* features section start */
+
+.container {
+    background-color: #13b36b;
+    padding: 50px 0px;
+    margin: 30px 50px;
+}
+
+.features-section-content {
+    display: flex;
+    align-items: center;
+    justify-content: space-evenly;
+}
+
+.container h2 {
+    color: white;
+    text-align: center;
+    margin: 0px;
+    font-size: 50px;
+}
+
+.features-section-text hr {
+    width: 600px;
+    height: 5px;
+    background-color: white;
+    border: none;
+}
+
+.features-section-text {
+    color: white;
+}
+
+.features-section-text h3 {
+    color: white;
+    font-weight: 900;
+    font-size: 40px;
+}
+
+.features-section-text p {
+    font-size: 30px;
+}
+
+.spotify-icon img {
+    width: 200px;
+    margin-right: 40px;
+}
+
+.spotify-app img {
+    width: 400px;
+    height: auto;
+}
+
+/* features section end */
