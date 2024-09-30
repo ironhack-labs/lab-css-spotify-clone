@@ -6,3 +6,142 @@ Green: #00B172
 White: #FFF
 
 */
+body,
+h1,
+h2,
+h3,
+h4,
+h5,
+h6,
+p,
+ol,
+ul {
+  margin: 0;
+  padding: 0;
+  font-family: 'Poppins', 'Montserrat', 'Arial', sans-serif;
+}
+body {
+  font-size: 18px;
+  color: #1a1a1a;
+}
+/* ************* */
+/* Class Selectors */
+/* ************ */
+.navbar {
+  display: flex;
+  justify-content: space-between;
+  margin: 0 2rem;
+  height: 70px;
+  justify-items: center;
+  align-items: center;
+  position: fixed;
+  width: 100%;
+}
+.header-main {
+  background-image: url('../images/landing.jpg');
+  height: 800px;
+  background-repeat: no-repeat;
+  background-size: cover;
+  display: flex;
+  justify-items: center;
+  justify-content: center;
+  align-items: center;
+  color: #ffff;
+}
+.feature {
+  margin: 2rem auto;
+}
+.feature-card {
+  display: flex;
+  justify-content: space-around;
+}
+.card {
+  text-align: center;
+  max-width: 200px;
+}
+.music-feature {
+  background-color: #00b172;
+  display: flex;
+  justify-content: space-between;
+  padding: 40px;
+}
+.spotify-card {
+  width: 60%;
+  color: #fff;
+  text-align: left;
+}
+
+.spotify-app {
+  width: 40%;
+}
+.app-card {
+  display: flex;
+  flex-direction: column;
+}
+.spotify-card-app {
+  display: flex;
+  justify-content: space-between;
+}
+/* *********Descendant*********** */
+.navbar img {
+  width: 180px;
+}
+nav a {
+  text-decoration: none;
+  color: #1a1a1a;
+  margin: 0 5px;
+}
+.header-main div {
+  text-align: center;
+}
+.header-main h1 {
+  font-size: 40px;
+}
+.feature h2 {
+  text-align: center;
+  border-bottom: 3px solid #00b172;
+  width: 250px;
+  margin: auto;
+  margin-bottom: 1rem;
+}
+.card img {
+  width: 90px;
+}
+.feature-card .card p {
+  color: #00b172;
+  font-size: 25px;
+  font-weight: 600;
+}
+.card span {
+  font-weight: 100;
+}
+.spotify-card h3 {
+  border-bottom: 3px solid #fff;
+  width: 350px;
+  font-size: 25px;
+  margin-bottom: 1rem;
+}
+.spotify-app img {
+  max-width: 400px;
+  height: 500px;
+}
+
+.spotify-card-app img {
+  width: 130px;
+  height: 130px;
+  margin: auto 0;
+  margin-right: 90px;
+}
+.app-card .card {
+  text-align: left;
+  min-width: 250px;
+}
+.app-card .card p {
+  font-size: 25px;
+  margin: 20px 0;
+  font-weight: 600;
+}
+.app-card .card {
+  font-weight: 100;
+  line-height: 1.5;
+}
