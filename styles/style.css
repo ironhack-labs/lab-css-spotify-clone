@@ -6,3 +6,129 @@ Green: #00B172
 White: #FFF
 
 */
+/* Reset and basic styles */
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'Arial', sans-serif;
+}
+
+body {
+    line-height: 1.6;
+}
+
+/* Navbar */
+nav {
+    position: fixed;
+    top: 0;
+    width: 100%;
+    background-color: white;
+    border-top: 5px solid #1db954;
+    border-bottom: 5px solid #1db954;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 20px;
+    z-index: 1000;
+}
+
+.logo img {
+    height: 40px;
+}
+
+.nav-links {
+    list-style: none;
+    display: flex;
+    gap: 20px;
+}
+
+.nav-links li a {
+    color: black;
+    text-decoration: none;
+    font-size: 16px;
+}
+
+/* Hero Section */
+.hero {
+    background-image: url('https://github.com/crahmouni/lab-css-spotify-clone/blob/master/images/landing.jpg?raw=true');
+    height: 100vh;
+    background-size: cover;
+    background-position: center;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    color: white;
+    text-align: center;
+}
+
+.hero-content h1 {
+    font-size: 4rem;
+    margin-bottom: 20px;
+}
+
+.hero-content p {
+    font-size: 1.2rem;
+}
+
+/* Spotify Features Section */
+.spotify-features {
+    background-color: white;
+    padding: 50px;
+    text-align: center;
+}
+
+.spotify-features h2 {
+    font-size: 2.5rem;
+    margin-bottom: 40px;
+}
+
+.features-container {
+    display: flex;
+    justify-content: space-around;
+}
+
+.feature {
+    flex: 1;
+    margin: 0 20px;
+    text-align: center;
+    border: 2px solid #e0e0e0;
+    padding: 20px;
+}
+
+.feature img {
+    width: 60px;
+    margin-bottom: 20px;
+}
+
+.feature h3 {
+    font-size: 1.5rem;
+    margin-bottom: 10px;
+    color: #1db954;
+}
+
+.feature:nth-child(2) h3 {
+    color: black;
+}
+
+.feature:nth-child(3) h3 {
+    color: #1db954;
+}
+
+/* Green Section */
+.spotify-green {
+    background-color: #1db954;
+    color: white;
+    display: flex;
+    justify-content: space-between;
+    padding: 50px;
+    position: relative;
+}
+
+.spotify-content {
+    flex: 1;
+}
+
+.spotify-image img {
+    width: 300px;
+}
