@@ -6,3 +6,138 @@ Green: #00B172
 White: #FFF
 
 */
+
+body {
+    margin: 0;
+    padding: 0;
+}
+.navbar {
+    display: flex;
+    position: fixed;
+    align-items: center;
+    justify-content: space-between;
+    top: 0;
+    width: 100%;
+}
+
+.nav-list {
+    display: flex;
+    list-style: none;
+    font-size: 1.2em;
+    margin-right: 20px;
+}
+
+.nav-list li {
+    margin-right: 20px;
+}
+.nav-list li:last-child {
+    margin-right: 20px;
+}
+
+.nav-list a {
+    text-decoration: none;
+    color: black;
+}
+
+.nav-list li a:hover {
+    color: #00B172;
+    transition: color 0.3s ease-in-out;
+}
+
+.title {
+    background-image: url("../images/landing.jpg");
+    background-repeat: no-repeat;
+    background-size: cover;
+    position: relative;
+    height: 1000px;
+}
+
+h1 {
+    color: #FFF;
+    font-size: 6em;
+    text-align: center;
+    padding-top: 4em;
+}
+
+.sub-title {
+    color: #FFF;
+    font-size: 2em;
+    text-align: center;
+}
+
+.container-info {
+    text-align: center;
+}
+
+.info {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-evenly;
+    padding: 50px;
+}
+
+h2 {
+    font-size: 2em;
+}
+
+.info img {
+    width: 100px;
+    height: 100px;
+}
+
+.sub-info {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    width: 370px;
+}
+
+h3 {
+    color: #00B172;
+    font-size: 1.5em;
+}
+
+.sub-info > p {
+    justify-content: center;
+    font-size: 1.1em;
+}
+
+.container-example {
+    background-color: #00B172;
+    color: #FFF;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.container-example h2 {
+    font-size: 1.8em;
+    text-decoration: underline;
+    margin-top: 0;
+}
+
+.container-example h3 {
+    color: #FFF;
+    font-size: 1.6em;
+}
+
+.container-example p {
+    font-size: 1.4em;
+}
+
+.container-options {
+    display: flex;
+    flex-direction: column;
+    text-align: left;
+    justify-items: flex-start;
+    padding: 50px 300px 50px 50px;
+}
+
+.container-logo img {
+    width: 200px;
+}
+
+.container-img img {
+    width: 300px;
+    padding: 150px;
+}
