@@ -6,3 +6,196 @@ Green: #00B172
 White: #FFF
 
 */
+
+:root {
+  --spotify-green: #00B172;
+  --text-color   : #1A1A1A;
+}
+
+body {
+  font-family: Verdana, Geneva, Tahoma, sans-serif;
+  color      : var(--text-color);
+
+  padding-bottom: 10rem;
+}
+
+h2 {
+  font-size  : 1.2rem;
+  font-weight: bold;
+
+  text-decoration      : underline;
+  text-underline-offset: .5rem;
+}
+
+/* Navigation */
+nav {
+  position       : fixed;
+  top            : 0;
+  width          : 100%;
+  display        : flex;
+  justify-content: space-between;
+
+  background-color: white;
+  z-index         : 1000;
+}
+
+img#nav-logo {
+  width       : 10rem;
+  padding     : .5rem;
+  padding-left: 1rem;
+}
+
+nav ul {
+  display      : flex;
+  align-items  : stretch;
+  padding-right: 1rem;
+}
+
+nav li {
+  display        : flex;
+  justify-content: center;
+  align-items    : center;
+  flex-direction : column;
+}
+
+nav ul li a {
+  padding    : 0 .5rem;
+  line-height: 3rem;
+
+  text-decoration: none;
+  color          : var(--text-color);
+}
+
+/* Hero */
+section.hero {
+  margin-top: 3rem;
+
+  background-image   : url("/images/landing.jpg");
+  background-size    : cover;
+  background-position: center;
+  width              : 100%;
+  aspect-ratio       : 16/9;
+
+  color          : white;
+  display        : flex;
+  flex-direction : column;
+  justify-content: center;
+  align-items    : center;
+}
+
+section.hero h1 {
+  font-size: 2.5rem;
+  padding  : 1.5rem 0;
+}
+
+section.hero p {
+  text-align : center;
+  line-height: 1rem;
+  font-size  : .75rem;
+}
+
+/* What's on Spotify */
+section.what-is-on-spotify {
+  padding: 2rem;
+}
+
+section.what-is-on-spotify h2 {
+  text-align           : center;
+  text-decoration-color: var(--spotify-green);
+}
+
+section.what-is-on-spotify .card-container {
+  display              : grid;
+  grid-template-columns: repeat(3, 1fr);
+  gap                  : 2rem;
+
+  padding: 3rem 0;
+}
+
+section.what-is-on-spotify .card {
+  display        : flex;
+  flex-direction : column;
+  justify-content: center;
+  align-items    : center;
+  gap            : 1rem;
+
+  text-align: center;
+}
+
+section.what-is-on-spotify .card img {
+  width: 6rem;
+}
+
+section.what-is-on-spotify .card h3 {
+  color      : var(--spotify-green);
+  font-weight: bolder;
+}
+
+section.what-is-on-spotify .card p {}
+
+/* It's as yeezy as Kanye West */
+.green {
+  background-color: var(--spotify-green);
+  margin          : 0 2rem;
+  position        : relative;
+
+  display              : grid;
+  grid-template-columns: 5fr 3fr;
+  gap                  : 2rem;
+
+  z-index: 110;
+}
+
+section.green-text {
+  color  : white;
+  z-index: 120;
+  padding: 3rem;
+}
+
+section.green-text h2 {
+  margin-bottom: 3rem;
+}
+
+section.green-text section {
+  margin   : 1rem 0;
+  max-width: 15rem;
+}
+
+section.green-text section h4 {
+  margin     : 1rem 0;
+  font-weight: bold;
+}
+
+section.green-text section p {
+  margin   : 1rem 0;
+  font-size: small;
+}
+
+section.green-screen {
+  padding: 3rem;
+  z-index: 120;
+
+  display        : grid;
+  justify-content: center;
+  align-items    : center;
+}
+
+section.green-screen img {
+  width       : 100%;
+  justify-self: center;
+}
+
+.background-logo-wrapper {
+  position: absolute;
+  width   : 100%;
+  height  : 100%;
+
+  display        : grid;
+  justify-content: center;
+  align-items    : center;
+}
+
+img.background-logo {
+  width  : 5rem;
+  z-index: 100;
+}
