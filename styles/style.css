@@ -6,3 +6,144 @@ Green: #00B172
 White: #FFF
 
 */
+* {
+	margin: 0px;
+	padding: 0px;
+	font-family: 'Montserrat', sans-serif;
+	color: #1a1a1a;
+	box-sizing: border-box;
+}
+nav {
+	display: flex;
+	justify-content: space-between;
+	align-items: center;
+}
+nav img {
+	width: 150px;
+	padding: 15px 30px;
+}
+nav ul li {
+	display: inline;
+	padding-right: 30px;
+}
+
+/* CLASSES */
+
+.img-container {
+	background-image: url('../images/landing.jpg');
+	height: 800px;
+	background-position: center;
+	background-size: cover;
+	background-repeat: no-repeat;
+	display: flex;
+	justify-content: center;
+	align-items: center;
+}
+
+.msg-container {
+	padding: 0 300px;
+}
+.msg-container h1,
+p {
+	color: #fff;
+	text-align: center;
+}
+.msg-container h1 {
+	font-size: 80px;
+	font-weight: 600;
+	margin-bottom: 50px;
+}
+.msg-container p {
+	font-size: 30px;
+	font-weight: 200;
+}
+
+.whats-on {
+	display: flex;
+	flex-direction: column;
+	align-items: center;
+	padding: 50px 0px 100px 0px;
+	width: 90%;
+	margin: auto;
+}
+
+.whats-on_container {
+	display: flex;
+	justify-content: space-between;
+	width: 100%;
+}
+.whats-on_container-contents {
+	display: flex;
+	flex-direction: column;
+	align-items: center;
+	justify-content: space-between;
+	padding: 0 30px;
+}
+
+.whats-on_container-contents img {
+	width: 100px;
+}
+
+.whats-on > h2 {
+	font-size: 40px;
+	border-bottom: 5px solid #00b172;
+	padding-bottom: 3px;
+	margin-bottom: 100px;
+	color: #1a1a1a;
+}
+
+.whats-on_container-contents h2 {
+	color: #00b172;
+	margin: 10px 0px 30px 0px;
+}
+.whats-on_container-contents p {
+	color: #1a1a1a;
+}
+
+.what-to-do {
+	width: 90%;
+	background-color: #00b172;
+	display: flex;
+	justify-content: space-between;
+	margin: auto;
+	margin-bottom: 100px;
+	background-image: url('../images/spotify-icon-white.png');
+	background-position: center;
+	background-repeat: no-repeat;
+	background-size: 100px;
+	padding: 50px 100px 50px 100px;
+}
+
+.what-to-do h3,
+h2,
+p {
+	color: #fff;
+}
+
+.what-to-do_artist {
+	display: flex;
+	flex-direction: column;
+	justify-content: space-between;
+	width: 50%;
+}
+#what-to-do_h3 {
+	margin-bottom: 50px;
+}
+#what-to-do_h3 span {
+	color: #fff;
+	border-bottom: 3px solid #fff;
+	font-size: 25px;
+	padding-bottom: 10px;
+}
+.what-to-do_app img {
+	height: 500px;
+}
+
+.what-to-do_artist_feats h2 {
+	margin-bottom: 20px;
+}
+
+.what-to-do_artist_feats p {
+	text-align: left;
+	line-height: 1.5;
+}
