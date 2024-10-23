@@ -6,3 +6,185 @@ Green: #00B172
 White: #FFF
 
 */
+
+* {
+    margin : 0;
+    padding: 0;
+}
+
+body, h1, h2, h3, h4, h5, h6, p, ol, ul {
+    margin: 0;
+    padding: 0;
+    font-weight: lighter;
+  }
+
+  /*  Set the font */
+  body {
+    font-family: "Helvetica", sans-serif;
+  }
+  .nav-bar {
+    height: auto;
+    margin: 1.25rem 1.875rem;
+
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+
+  }
+
+  .nav-bar img{
+    height: 5rem;
+  }
+
+  .nav-bar ul {
+    font-size: 1.5625rem;
+    list-style: none;
+    display: flex;
+  }
+
+  .nav-bar li {
+    padding: .9375rem;
+
+  }
+
+.header {
+    background-image: url(../images/landing.jpg);
+    background-position : bottom;
+    background-size: cover;
+    height: 53.125rem;
+    color: white;
+
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+h1 {
+    font-size: 5.5em;
+    font-weight: 500;
+    letter-spacing: .125rem;
+    padding: 1.25rem;
+    margin-bottom: .625rem;
+
+}
+
+h2 {
+    font-size: 2em;
+    line-height: 1.3em;
+    margin-bottom: 12.5rem;
+}
+
+
+
+.row-container {
+    width: 90%;
+    margin: 2vh auto;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+#row-title {
+    text-align: center;
+    font-weight: 600;
+    font-size: 1.8em;
+
+}
+
+/* row-container */
+.row {
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    padding-left: 3.125rem;
+}
+
+.row-container img{
+    width: 7.8125rem;
+    height: 6.25rem;
+    object-fit: cover;
+    margin: .625rem;
+}
+
+
+/* Row Card */
+.row-card {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    text-align: center;
+    padding: 0rem 6.875rem;
+}
+
+.row-card h3{
+  font-size: 1.2em;
+  width:100%;
+}
+
+.row-card p {
+  margin-top: .9375rem;
+  font-size: 1.2em;
+  margin-bottom: .9375rem;
+  color: #1A1A1A;
+}
+
+.row-card img{
+    margin-bottom: .9375rem;
+}
+
+.greenText {
+  color: #00B172;
+  font-weight: 600;
+}
+
+/* Bottom Container */
+#bottom-container {
+    background-color: #00B172;
+    height: 43.75rem;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    width: 100%;
+}
+
+#bottom-container h3 {
+  color: white;
+  font-size: 1.8em;
+
+}
+
+#bottom-title {
+  border-bottom: .25rem solid white;
+  width: 60%;
+  margin-bottom: 40px;
+}
+
+.bottom-text {
+  display: flex;
+  flex-direction: column;
+  height: 600px;
+  width: 632px;
+}
+
+.bottom-img img{
+  width: 350px;
+  height: 600px;
+  z-index: -1;
+}
+
+.btm h3{
+  margin: 5px 0px 20px 0px;
+}
+.btm p{
+  width: 290px;
+  color: white;
+  margin-bottom: 40px;
+  font-size: 1.2em;
+}
+#spotify-logo{
+  position: absolute;
+  width: 9%;
+  height: 18%;
+
+}
