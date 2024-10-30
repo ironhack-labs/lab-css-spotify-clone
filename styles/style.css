@@ -1,8 +1,168 @@
-/*
-Colors:
+* {
+  margin: 0;
+  padding: 0;
+  --green: rgb(26, 178, 107);
+}
 
-Text: 1A1A1A
-Green: #00B172
-White: #FFF
+body,
+h1,
+h2,
+h3,
+h4,
+h5,
+h6,
+p,
+ol,
+ul {
+  margin: 0;
+  padding: 0;
+  font-weight: lighter;
+}
 
-*/
+/*  Set the font */
+body {
+  font-family: "Helvetica", sans-serif;
+}
+
+.nav-bar {
+  height: auto;
+  margin: 20px 30px;
+
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.nav-bar img {
+  height: 80px;
+}
+
+.nav-bar ul {
+  font-size: 25px;
+  list-style: none;
+  display: flex;
+}
+
+.nav-bar li {
+  padding: 15px;
+}
+
+.header {
+  background-image: url(../images/landing.jpg);
+  background-position: bottom;
+  background-size: cover;
+  height: 850px;
+  color: white;
+
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+
+h1 {
+  font-size: 5.5em;
+  font-weight: 500;
+  letter-spacing: 2px;
+  padding: 20px;
+  margin-bottom: 10px;
+}
+
+h2 {
+  font-size: 2em;
+  line-height: 1.3em;
+  margin-bottom: 200px;
+}
+
+/* robert */
+section {
+  margin: 100 px auto;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+
+#service {
+  text-align: center;
+}
+
+#service h3 {
+  margin: 40px 0 10px;
+  font-size: 2.5em;
+  font-weight: 500;
+  text-decoration: underline;
+  text-decoration-color: var(--green);
+  text-underline-offset: 20px;
+}
+
+#service .service-container {
+  margin: 50px auto;
+  display: flex;
+  justify-content: space-evenly;
+  align-items: center;
+}
+
+#service .service-card {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  margin: 20px 5%;
+}
+
+.service-card img {
+  width: 30%;
+}
+
+h4 {
+  color: var(--green);
+  font-size: 1.5em;
+  font-weight: 600;
+  margin: 10px 0;
+  text-align: center;
+}
+
+#service p {
+  font-weight: 100;
+  margin: 10px auto 20px;
+  text-align: center;
+}
+
+#kanye {
+  background-color: var(--green);
+  margin: 30px;
+  color: white;
+  display: flex;
+  flex-direction: row;
+  justify-content: space-around;
+  align-items: center;
+}
+
+#kanye h3 {
+  font-size: 2em;
+  font-weight: 500;
+  text-align: left;
+  padding: 30px 0;
+  text-decoration: underline;
+  text-underline-offset: 10px;
+}
+
+#text-box {
+  width: 30%;
+}
+
+.white-logo {
+  width: 150px;
+}
+
+.screenshot {
+  width: 25%;
+  padding: 50px 0;
+}
+
+.text-element h4 {
+  color: white;
+  margin: 10px 0;
+  text-align: left;
+}
