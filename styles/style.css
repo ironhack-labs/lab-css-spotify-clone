@@ -6,3 +6,146 @@ Green: #00B172
 White: #FFF
 
 */
+
+.logoSpotify {
+  width: 230px;
+}
+
+body {
+  margin: 0;
+  font-family: "Montserrat", sans-serif;
+}
+
+nav {
+  display: flex;
+  justify-content: space-between;
+  padding: 20px 40px 20px 30px;
+}
+
+nav ul {
+  list-style: none;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  width: 33%;
+}
+nav a {
+  text-decoration: none;
+  color: #1a1a1a;
+  font-size: 20px;
+  font-family: "Montserrat", sans-serif;
+}
+
+.landing-section {
+  background-image: url("/images/landing.jpg");
+  background-size: cover;
+  background-position: center;
+  color: white;
+  display: flex;
+  height: 800px;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  padding: 20px; /* Añade espacio alrededor del contenido */
+}
+.landing-section p {
+  font-size: 25px; /* Tamaño de fuente adecuado para el texto descriptivo */
+  margin: 5px;
+}
+
+.landing-section h1 {
+  font-size: 80px;
+  font-weight: 500; /* Cambia el peso a 500 para un grosor intermedio */
+  margin: 10px;
+}
+
+.onSpotify {
+  display: grid;
+  align-items: center;
+  text-align: center;
+  margin: 30px 10px 50px 10px;
+}
+
+.onSpotifyGrid {
+  display: grid;
+  grid-template-columns: repeat(3, 1fr);
+  align-items: center;
+  justify-items: center;
+  margin: 0px 50px;
+}
+
+.onSpotify h3 {
+  color: #00b172;
+}
+.onSpotify h2 {
+  text-decoration: underline;
+  text-decoration-thickness: 4px;
+  text-underline-offset: 10px;
+  text-decoration-color: #00b172;
+  font-size: 35px;
+}
+
+.onSpotify-icons {
+  width: 130px;
+}
+
+.itemsGrid {
+  padding: 40px;
+  font-size: 25px;
+}
+
+.greenSection {
+  position: relative;
+  background-color: #00b172;
+  margin: 40px;
+  padding: 60px;
+  color: white;
+}
+
+.greenSection h2 {
+  text-decoration: underline;
+  text-decoration-thickness: 4px;
+  text-underline-offset: 10px;
+  text-decoration-color: white;
+  font-size: 35px;
+  color: white;
+  font-weight: 500;
+  margin: 0;
+  line-height: 3;
+}
+
+.greenSection h3 {
+  font-size: 20px;
+  margin: 5px 0px;
+}
+
+.greenSection h4 {
+  font-size: 17px; /* Hacer las descripciones más pequeñas */
+  line-height: 2;
+  font-weight: 500;
+}
+
+.greenSection-content {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.letra {
+  width: 287px;
+  display: grid;
+}
+
+.greenSection .spotify-icon-white {
+  width: 100px;
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  z-index: 1;
+}
+
+.spotify-app {
+  width: 350px;
+  height: 520px;
+}
