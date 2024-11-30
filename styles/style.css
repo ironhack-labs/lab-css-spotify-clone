@@ -1,8 +1,296 @@
-/*
-Colors:
+@import url('https://fonts.googleapis.com/css?family=Roboto:100,300,400,500,700&display=swap');
 
-Text: 1A1A1A
-Green: #00B172
-White: #FFF
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'Roboto', sans-serif;
+    font-weight: 200;
+}
 
-*/
+nav label,
+#burger{
+    display: none;
+}
+
+#menu-container{
+    background-color: white;
+    padding: 10px;
+    position: fixed;
+    width: 100%;
+}
+
+#menu-bar{
+    width: 100%;
+    display: flex;
+    flex-direction: space-between;
+    height: 40px;
+    padding: 0 10px;
+    background-color: white;
+}
+
+#menu-bar img{
+    height: 100%
+}
+
+nav{
+    width: 100%;
+    display: flex;
+    align-items: center;
+}
+
+header ul{
+    list-style: none;
+    display: flex;
+    justify-content: flex-end;
+    align-items: center;
+    width: 100%;
+    height: 100%
+}
+
+header ul li{
+    padding: 15px;
+}
+
+header a{
+    text-decoration: none;
+    color: black;
+}
+
+.hero{
+    background-image: url("../images/landing.jpg");
+    background-size: cover;
+    height: 600px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+}
+
+.hero h1{
+    color: white;
+    font-size: 5rem;
+    padding: 30px;
+    font-weight: 500;
+}
+
+.hero p{
+    color: white;
+    font-size: 2rem;
+    width: 55%;
+    text-align: center;
+}
+
+#what h2{
+    text-align: center;
+    padding: 50px 0 20px;
+    font-weight: 600;
+    text-decoration: underline;
+    text-decoration-thickness: 3px;
+    text-decoration-color: rgb(26 177 106);
+    text-underline-offset: 8px;
+}
+
+.cards-container{
+    display: flex;
+    margin-bottom: 20px;
+}
+
+.card{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    padding: 15px;
+    margin: 15px;
+    width: 100%;
+}
+
+.card img{
+    width: 80px;
+    padding-bottom: 10px;
+}
+
+.card h3{
+    color: rgb(26 177 106);
+    font-weight: 600;
+    padding: 5px;
+}
+
+.card p{
+    padding: 15px;
+    text-align: center;
+    max-width: 250px;
+}
+
+#green{
+    background-color: rgb(26 177 106);
+    padding: 2%;
+    margin: 3%;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-evenly;
+    align-items: center;
+}
+
+.col{
+    padding: 2%;
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+#col1{
+    min-width: 40vw;
+    color: white;
+    align-items: flex-start;
+}
+
+#col2{
+    max-width: 20vw;
+}
+
+#col2 img{
+    width: 50%;
+}
+
+#col3 img{
+    width: 70%;
+}
+
+#col1 h2{
+    font-size: 2rem;
+    text-decoration: underline;
+    text-decoration-thickness: 3px;
+    text-underline-offset: 8px;
+    padding: 40px;
+    padding-left: 0;
+}
+
+#col1 .sec{
+    padding: 20px;
+    padding-left: 0;
+}
+
+.sec h3{
+    font-weight: 500;
+    font-size: 1.5rem;
+    padding: 10px;
+    padding-left: 0;
+}
+
+.sec p{
+    width: 70%;
+    line-height: 1.5rem;
+    font-size: 1.2rem;
+
+}
+
+
+/* media queries for responsiveness */
+
+@media screen and (max-width: 800px) {
+    
+    nav label{
+        display: inline-block;
+        color: black;
+        font-size: normal;
+        font-size: 2em;
+        padding: 10px;
+        position: absolute;
+        top: 15px;
+        right: 20px;
+    }
+
+    nav ul{
+        padding-top: 10px;
+    }
+
+    nav ul li{
+        font-size: 1.2em;
+    }
+
+    /* Toggle menu with click on burger-menu (checkbox) */
+    nav ul{
+        display: none;
+    }
+
+    /* 
+    :checked: This is a pseudo-class that applies styles to the checkbox when it is in the checked state.
+    ~ ul: This is the general sibling combinator. It selects the ul element that is a sibling of the input[type='checkbox'] element, but only when the checkbox is checked
+    */
+    nav input[type='checkbox']:checked ~ ul{
+        animation: fadein 1s forwards;
+        display: block;
+        text-align: center;
+    }
+
+    #menu-bar{
+        flex-direction: column;
+        height: auto;
+        align-items: center;
+    }
+
+    #menu-bar img{
+        width: 50%;
+        max-width: 200px;
+        height: auto;
+    }
+
+    #menu-bar ul{
+        flex-direction: column;
+    }
+
+    .hero > h1,
+    .hero p{
+        padding: 15px 20px;
+        text-align: center;
+        width: 80%;
+    }
+
+    .hero h1{
+        font-size: 4rem;
+    }
+
+    .hero p{
+        font-size: 1.5rem;
+    }
+
+    .cards-container{
+        flex-direction: column;
+    }
+
+    .card{
+        padding: 15px;
+        margin: 0;
+    }
+
+    #green{
+        flex-direction: column;
+    }
+
+    #col1{
+        align-items: center;
+        text-align: center;
+    }
+
+    #col1 .sec{
+        padding: 20px;
+        text-align: center;
+    }
+
+    #col1 h2,
+    #col1 h3{
+        padding: 20px;
+    }
+
+    #col1 p{
+        display: block;
+        margin: auto;
+    }
+
+    #col3 img{
+        width: 50%;
+    }
+
+}
