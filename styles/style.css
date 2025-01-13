@@ -6,3 +6,162 @@ Green: #00B172
 White: #FFF
 
 */
+
+body {
+    background-color: #FFF;
+    color: #1A1A1A;
+    font-family: Arial, sans-serif;
+    margin:  auto;
+}
+
+.navbar {
+    display: flex;
+    top: 0;
+    width: 100%;
+    justify-content: space-between;
+    padding: 10px 20px;
+    position: fixed;
+    background-color: #FFF;
+}
+.links {
+    display: flex;
+    justify-content: space-between;
+    width: 38%;
+    padding-top: 10px;
+    margin-right: 60px;
+    
+}
+.logo {
+    width: 10%;
+}
+
+.container-cover {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    height: 100vh;
+    text-align: center;
+    background-image: url(../images/landing.jpg);
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+    color: #FFF;
+    margin-bottom: 30px;
+}
+.text-header {
+    font-size: 54px;
+    font-weight: 400;
+}
+.text-subheader {
+    font-size: 16px;
+    font-weight: 0;
+    max-width: 450px;
+    margin: 0;
+}
+h2 {
+text-align: center;
+}
+.feature-section {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    height: 30vh;
+    text-align: center;
+    margin-top: 30px;
+    margin-bottom: 50px;
+    height: auto;
+
+}
+.feature-container-main {
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    grid-gap: 20px;
+    margin: 10px;
+    height: auto;
+  
+}
+.feature-header {
+    margin: 40px;
+    font-size: 24px;
+    font-weight: 600;
+    display: flex;
+    
+}
+.feature-title {
+    margin-bottom: 10px;
+    font-size: 18px;
+    font-weight: 600;
+}
+
+.icon { 
+    width: 40%;
+}
+.feature-container {
+    padding: 20px;
+    text-align: center;
+}
+
+.artist-section-div {
+    display: flex;
+    position: relative;
+    flex-direction: column;
+    
+    justify-content: center;
+    margin-top: 0px;
+    margin-bottom: 0px;
+    background-color: #00B172;
+    color: #FFF;
+}
+.artist-header {
+    font-size: 24px;
+    border-bottom: 2px solid #FFF;
+    left: 0;
+    max-width: 310px;
+    padding-bottom: 10px;
+    margin: 50px 0 0 50px;
+    
+}
+.options {
+    font-size: 22px;
+    font-weight: 600;
+    color: #FFF;
+}
+
+.artist-container-main {
+display: grid;
+grid-template-rows: repeat(3, 1fr);
+width: 35%;
+height: auto;
+position: relative;
+margin-left: 50px;
+}
+
+.action-container {
+    padding: 10px;
+    text-align: left;
+    position: relative;
+    margin-right: 20px;
+}
+.action-subheader {
+    font-weight: 100;
+    opacity: 0.95;
+}
+
+.big-logo {
+    height: 15%;
+    width: auto;
+    position: absolute;
+    margin-top: 50px;
+    margin-left: 49%;
+}
+.kanye {
+    height: 80%;
+    margin-top: 50px;
+    margin-left: 70%;
+    float: right;
+    position: absolute;
+   
+
+}
