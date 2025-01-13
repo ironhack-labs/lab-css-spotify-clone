@@ -1,8 +1,173 @@
 /*
 Colors:
 
-Text: 1A1A1A
+Text: 1A1A1A 26,26,26
 Green: #00B172
 White: #FFF
 
 */
+
+.nav-bar {
+    position: fixed;
+    background-color: #FFF;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 10px 20px;
+    top: 0;
+    left: 0;
+}
+
+.nav-bar-ul {
+    margin-left: 60%;
+    list-style-type: none;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+  }
+
+  .nav-bar a {
+    color: rgb(0, 0, 0);
+    text-decoration: none;
+    font-size: 30px;
+    padding-top: 14px;
+    padding-bottom: 14px;
+    padding-right: 5px;
+  }
+
+  .nav-bar-ul > li {
+    padding: 5px;
+  }
+
+  #logo {
+    height: 5%;
+    width: 10%;
+    list-style-type: none;
+    display: flex;
+    flex-direction: row;
+    justify-content: right;
+  }
+
+#principal {
+    background-image: url("https://raw.githubusercontent.com/nestorsdelgado/lab-css-spotify-clone/refs/heads/master/images/landing.jpg");
+    background-repeat: no-repeat;
+    background-size: cover;
+    padding-top: 50px;
+    height: 850px;
+    width: 100%;
+  }
+
+  #principal h1 {
+    color: #FFF;
+    text-align: center;
+    padding-top: 20%; 
+    font-weight: bold;
+    font-size: 50px;
+ }
+
+ #principal h2 {
+    color: #FFF;
+    text-align: center;
+    font-weight:lighter;
+    font-size: 25px;
+    margin-bottom: 0px;
+ }
+
+ #principal h3 {
+    color: #FFF;
+    text-align: center;
+    font-weight:lighter;
+    font-size: 25px;
+    margin-top: 0px;
+
+ }
+
+  .bloque {
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+  }
+  
+  #spotify-features h2 {
+    text-align: center;
+    font-size: 40px;
+    margin: 10px;
+    padding-bottom: 10px;
+  }
+
+  #spotify-features h3 {
+    font-size: 40px;
+    color: #00B172;
+    height: 50px;
+  }
+
+  #spotify-features p {
+    font-size: 25px;
+    padding-left: 20px;
+    padding-right: 20px;
+    margin-right: 20px;
+    margin-left: 20px;
+    margin: 0;
+    color: gray;
+    height: 10px;
+  }
+
+  .features {
+    display: flex;
+    flex-direction: column;
+    text-align:center;
+    align-items: center;
+    justify-content:space-between;
+    height: 300px;
+    width: 500px;
+    padding-bottom: 25px;
+  }
+
+  .features img{
+    width: 175px;
+    height: 150px;
+  }
+
+  #last-section {
+    background-color: #00B172;
+    color: white;
+    padding: 100px;
+  }
+
+  #column-container {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-evenly;
+  }
+
+  #last-section h3 {
+    font-size: 40px;
+    text-decoration: underline;
+  }
+
+  #last-section h4 {
+    font-size: 35px;
+  }
+
+  #last-section p {
+    font-size: 25px;
+    margin-right: 600px;
+  }
+
+  #pantalla {
+    padding-left: 20px;
+    height: 100%;
+    width: 80%;
+  }
+
+  #white-logo {
+    height: 150px;
+    width: 150px;
+    display: flex;
+    position: absolute;
+    top: 225%;
+    left: 45%;
+
+  }
