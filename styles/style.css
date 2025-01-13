@@ -6,3 +6,164 @@ Green: #00B172
 White: #FFF
 
 */
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+body {
+  font-family: Arial, sans-serif;
+}
+
+nav {
+  position: fixed;
+  top: 0;
+  left: 0;
+  width: 100%;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  background-color: #fff;
+  padding: 10px 20px;
+  box-shadow: 0 2px 5px rgba(0, 0, 0, 0.1);
+  z-index: 1000;
+}
+
+.logo img {
+  width: 170px;
+  margin: 5px 0px;
+}
+
+.nav-links ul {
+  display: flex;
+  list-style: none;
+}
+
+.nav-links ul li {
+  margin: 0 15px;
+}
+
+.nav-links ul li a {
+  text-decoration: none;
+  color: #1a1a1a;
+}
+
+.hero {
+  height: 100vh;
+  background: url("../images/landing.jpg") no-repeat center center/cover;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  text-align: center;
+  color: white;
+  padding: 0 20px;
+}
+
+.hero h1 {
+  font-size: 5rem;
+  margin-bottom: 20px;
+}
+
+.hero p {
+  font-size: 1.5rem;
+  font-weight: 100;
+  line-height: 2rem;
+}
+
+.features {
+  padding: 50px 20px;
+  margin: 50px 20px;
+  text-align: center;
+}
+
+.features h2 {
+  margin-bottom: 30px;
+  text-decoration: underline;
+  text-underline-offset: 10px;
+  text-decoration-color: #1db954;
+  font-size: 2rem;
+}
+.features img {
+  width: 150px;
+  height: auto;
+  object-fit: cover;
+}
+
+.features-container {
+  display: flex;
+  justify-content: center;
+  flex-wrap: wrap;
+}
+
+.feature {
+  flex: 1 1 22%;
+  max-width: 22%;
+  margin: 10px;
+  text-align: center;
+}
+.feature h2 {
+  border-bottom: 2px solid #1db954;
+  margin-bottom: 15px;
+}
+
+.feature h3 {
+  font-size: 1.5em;
+  color: #00b172;
+  margin-top: 15px;
+  margin-bottom: 15px;
+}
+
+.feature p {
+  font-size: 1.5em;
+  color: #1a1a1a;
+  padding: 0 40px;
+}
+
+.green-section {
+  background: url("../images/spotify-icon-white.png") no-repeat center
+    center/10%;
+  background-color: #00b172;
+  color: white;
+  padding: 50px 20px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  gap: 20px;
+  margin: 0 30px;
+}
+
+.green-section .text {
+  flex: 1;
+  max-width: 50%;
+}
+
+.green-section .text h2 {
+  font-size: 2.5em;
+  margin-bottom: 70px;
+  text-decoration: underline;
+  text-underline-offset: 15px;
+  line-height: 1.3;
+}
+
+.green-section .text p {
+  font-size: 1.2em;
+  margin-bottom: 20px;
+  line-height: 1.6;
+  max-width: 400px;
+}
+
+.green-section .text strong {
+  display: block;
+  margin-bottom: 10px;
+  font-size: 1.3em;
+  font-weight: bold;
+}
+
+.green-section img {
+  flex: 1;
+  max-width: 300px;
+  height: auto;
+  border-radius: 10px;
+}
