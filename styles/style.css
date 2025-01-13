@@ -6,3 +6,150 @@ Green: #00B172
 White: #FFF
 
 */
+* {
+    box-sizing: border-box;
+    padding: 0;
+    margin: 0;
+
+}
+
+
+h1 {
+    text-align: center;
+    padding-top: 190px;
+    color: white;
+    font-size: 4rem;
+}
+
+h2 {
+    font-size: 1.6em;
+}
+
+header {
+    margin-top: 20px;
+    width: 100%;
+    background-image: url(../images/landing.jpg);
+    background-size: cover;
+
+    height: 100vh;
+    height: 100dvh;
+
+}
+
+nav {
+    position: fixed;
+    width: 100%;
+    padding: 10px;
+    background-color: white;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    top: 0;
+
+}
+
+header nav img {
+    width: 200px;
+    height: 60px;
+}
+
+header nav ul {
+    width: 300px;
+    list-style-type: none;
+    display: block;
+    display: flex;
+    justify-content: space-around;
+}
+
+header nav ul li a {
+    text-decoration: none;
+    color: #1A1A1A
+}
+
+header p {
+    text-align: center;
+    color: rgba(255, 255, 255, 0.647);
+}
+
+.container {
+    text-align: center;
+    width: 100%;
+}
+.container  h2{
+    padding: 20px;
+}
+.caja {
+    padding: 30px 20px 20px 20px;
+    width: 100%;
+    display: flex;
+    justify-content: space-around;
+    height: 50dvh;
+    height: 50vh;
+  
+ 
+}
+
+#section1 h2 {
+    /* color: #00B172; */
+
+    text-decoration: underline  #00B172;
+    text-underline-offset: 10px;
+
+
+}
+
+.caja article {
+    width: 170px;
+}
+
+.caja article img {
+    width: 60px;
+}
+
+footer{
+    margin: auto;
+    background-color: #00B172;
+    width: 96%;
+    display: flex;
+    color: white;
+    flex-wrap: wrap;
+    
+}
+footer article h2{
+    color: white;
+    text-decoration: underline white;
+    text-underline-offset: 10px;
+
+}
+
+footer article {
+    display: flex;
+    flex-direction: column; 
+    align-items: left; 
+    justify-content: center; 
+    width: 27%;
+    padding: 25px; 
+    gap: 50px;
+    min-width: 300px;
+  
+
+  }
+footer img {
+    padding: 10px;
+    margin: auto;
+    background-color: #00B172;
+    width: 130px;
+}
+footer aside {
+    margin: auto;
+    background-color: #00B172;
+    width: 100%;
+    min-width: 300px;
+    max-width: 400px;
+}
+footer aside img {
+   padding-top: 55px;
+    background-color: #00B172;
+    width: 100%;
+    
+}
