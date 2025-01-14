@@ -6,3 +6,146 @@ Green: #00B172
 White: #FFF
 
 */
+
+body {
+  margin: 0;
+  font-family: sans-serif;
+  font-weight: lighter;
+}
+
+.header {
+  position: fixed;
+  width: 100%;
+  background-color: white;
+  top: 0;
+  height: 80px;
+}
+
+.logo {
+  height: 40px;
+  padding: 20px 30px;
+}
+
+.navbar {
+  float: right;
+  padding: 0 50px;
+}
+
+.navbar ul {
+  display: flex;
+  flex-wrap: wrap;
+  list-style: none;
+  padding-top: 20px;
+}
+
+.navbar ul li {
+  padding-left: 20px;
+}
+
+.navbar ul li a {
+  text-decoration: none;
+  color: black;
+  font-weight: lighter;
+}
+
+.container {
+  width: 100%;
+  height: 800px;
+  background-image: url("../images/landing.jpg");
+  background-size: 100%;
+}
+
+.container .content {
+  position: relative;
+  top: 50%;
+  text-align: center;
+  transform: translateY(-50%);
+  color: #fff;
+}
+
+.content h1 {
+  font-size: 80px;
+  font-weight: bold;
+}
+
+.container p {
+  font-size: 30px;
+  font-weight: lighter;
+  line-height: 2.5rem;
+}
+
+.whats-on-spotify {
+  margin: 50px auto;
+}
+
+.whats-on-spotify h2 {
+  text-align: center;
+  font-size: 2rem;
+  font-weight: bold;
+  text-decoration: underline #00b172;
+  text-underline-offset: 10px;
+  background-color: #fff;
+}
+
+.specs {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-around;
+}
+.specs img {
+  padding-top: 50px;
+  height: 100px;
+}
+
+.specs h2 {
+  color: #00b172;
+  text-decoration: none;
+  font-size: 1.5rem;
+}
+
+.specs p {
+  font-size: 1rem;
+}
+
+.specs div {
+  text-align: center;
+  width: 200px;
+}
+
+.kanye {
+  background-color: #00b172;
+  margin: 30px 30px;
+  padding: 60px;
+  color: #fff;
+  background-image: url("../images/spotify-icon-white.png");
+  background-repeat: no-repeat;
+  background-size: 100px;
+  background-position: center;
+}
+
+.kanye h2 {
+  text-decoration: underline;
+  text-underline-offset: 10px;
+  font-size: 1.5rem;
+}
+
+.kanye h3 {
+  font-size: 1.5rem;
+}
+
+.left-side div {
+  margin-top: 50px;
+  width: 250px;
+}
+
+.spotify-overview {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-between;
+  margin: auto 125px;
+}
+
+.image-container img {
+  height: 470px;
+  margin-top: 30px;
+}
