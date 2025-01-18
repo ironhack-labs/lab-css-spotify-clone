@@ -6,3 +6,147 @@ Green: #00B172
 White: #FFF
 
 */
+body, h1, h2, h3, h4, h5, h6, p, ol, ul {
+    margin: 0;
+    padding: 0;
+    
+}
+
+/*  Set the font */
+body {
+font-family: "Helvetica", sans-serif;
+}
+
+h1{
+    font-size: 80px;
+    font-weight: bolder;
+}
+
+p{
+    margin-top: 10px;
+    font-size: 20px;
+    font-weight: 100;
+}
+
+h2{
+    text-align: center;
+    font-size: 40px;
+}
+
+h3{
+    font-size: 35;
+    
+}
+
+.nav{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    /* border: 3px black solid; */
+}
+.nav>img{
+    height: 30px;
+}
+.nav-selection{
+    width: 50%;
+    /* border: 3px green solid; */
+    display: flex;
+    justify-content: space-around;
+}
+.nav-selection>a{
+    text-decoration: none;
+    color: rgb(68, 65, 65);
+}
+
+.header{
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+    text-align: center;
+    height: 600px;
+    background-image: url("../images/landing.jpg");
+    background-size: cover;
+    background-position: center;
+    color:white
+}
+
+.intro{
+    display: flex;
+    justify-content: space-around;
+    padding: 20px 0;
+    /* border: 3px red solid; */
+}
+
+.intro h3{
+    color: #00B172;
+}
+
+.intro-head > hr{
+    width: 55%;
+    height: 5px;
+    background-color: black;
+    border: none;
+    border-radius: 10px;
+    size: 20px;
+}
+
+.container{
+    /* border: 3px green solid; */
+    width:30%;
+    text-align: center;
+}
+.container>img{
+    height: 150px;
+    /* border: 3px black solid; */
+}
+
+.ye{
+    background-image: url("../images/spotify-icon-white.png");
+    background-color: #00B172;
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: 90px ;
+    color: #FFF;
+    display: flex;
+    justify-content: space-around;
+}
+
+.ye-text{
+    width:40%;
+    margin-right:30px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    /* text-align: left; */
+    /* border: 3px black solid; */
+}
+
+.ye-content{
+    width: 80%;
+    /* border: 3px black solid; */
+    margin: 10px
+}
+
+.ye-content h3{
+    margin-bottom: 10px;
+}
+.ye-content p{
+    margin-bottom: 20px;
+}
+
+.ye-text > hr{
+    width: 65%;
+    height:3px;
+    background-color: #FFF;
+    border: none;
+    border-radius: 10px;
+    
+}
+
+.ye img{
+    height: 520px;
+    margin: 20px 0;
+}
+
+
