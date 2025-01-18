@@ -6,3 +6,177 @@ Green: #00B172
 White: #FFF
 
 */
+
+p, h1, h2, h3, h4, h5, ul {
+  font-family: "Poppins", serif;
+}
+
+h1{
+    font-size: 70px;
+    font-weight: 500;
+    margin-block-start: 8px;
+    margin-block-end: 8px;
+}
+
+h2{
+    font-size: 24px;
+    font-weight: 200;
+}
+
+#articles h2{
+    font-size: 28px;
+    font-weight: 500;
+
+}
+
+h3{
+    color: #00B172;
+    font-weight: 600;
+}
+
+h4{
+    font-size: 26px;
+    color: white;
+    font-weight: 400;
+    margin-block-start: 8px;
+    margin-block-end: 8px
+}
+
+h5{
+    margin-block-end: 16px;
+    font-size: 16px;
+    font-weight: 600;
+    color: white;
+}
+
+p {
+    font-size: 14px;
+    font-weight: 200;
+    line-height: 20px;
+}
+
+#features p{
+    margin: 0px;
+    color: white;
+    
+}
+
+.menu{
+    position: fixed;
+    top: 0;
+    width: 100%;
+    overflow: hidden;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: center;
+    padding: 8px 0;
+    background-color: #ffffff;
+}
+
+.menu-list{
+    gap: 16px;
+    padding: 0 16px;
+
+}
+ul{
+    list-style-type: none;
+}
+
+li {
+    font-size: 14px;
+    font-weight: 300;
+}
+
+.logo{
+    width: 120px;
+    padding-left: 16px;
+}
+
+.menu-list{
+   display: flex;
+    flex-direction: row; 
+}
+
+#hero{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    background-image: url("../images/landing.jpg");
+    background-size: cover;
+    text-align: center;
+    color: #ffffff;
+    width: 100%;
+    height: auto;
+    min-height: 750px;
+}
+
+#articles{
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-start;
+    align-items: center;
+    padding: 48px 128px;
+}
+
+.article-list{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: center;
+    padding: 32px 0;
+    width: 100%;
+}
+
+.article-box{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    max-width: 200px;
+    text-align: center;
+}
+
+
+
+.icons{
+    width: 80px;
+    font-weight: 600;
+}
+
+
+#features{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: center;
+    padding: 48px 128px;
+    background-color: #00B172;
+}
+
+.features-box{
+    padding-bottom: 8px;
+}
+
+.left-col{
+
+}
+.kayne{
+    width: 200px;
+}
+
+hr {
+border: 2px solid white;
+}
+
+.features-box{
+    max-width: 280px;
+}
+
+.white-logo{
+    position: absolute;
+    width: 80px;
+    padding: 24px;
+    margin-left: 33%;
+}
