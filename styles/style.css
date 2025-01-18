@@ -1,3 +1,139 @@
+*{
+  font-family: Arial, Helvetica, sans-serif;
+}
+
+body {
+  box-sizing: border-box;
+}
+
+.spotifyLogo {
+  height: 60px;
+  margin: 10px 25px;
+}
+
+.nav{
+  display: flex;
+  justify-content: space-between;
+  position: fixed;
+  top: 0;
+  width: 100%;
+  background-color: white;
+}
+
+.menu {
+  list-style: none;
+  display: flex;
+  padding-right: 50px;
+  align-items: center;
+  font-size: 1.1rem;
+}
+
+.menu li {
+  padding: 0 10px;
+}
+
+.header {
+  background-image: url(../images/landing.jpg);
+  background-position: top 50px;
+  background-repeat: no-repeat;
+  background-size: cover;
+  height: 800px;
+  color: white;
+  display: flex;
+  justify-content: center;
+}
+
+.titleInfo {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  padding: 0px 30px;
+}
+
+.musicTitle {
+  font-size: 5em;
+}
+
+.spotifyInfo {
+  font-size: 1.5rem;
+}
+
+.section{
+  height: 300px;
+}
+
+.introTitle {
+  text-align: center;
+  text-decoration: underline;
+  text-underline-offset: 8px;
+  text-decoration-color: rgb(29, 185, 84);
+  padding-bottom: 50px;
+}
+
+.main {
+  display: flex;
+  justify-content: space-around;
+}
+
+.third{
+  color: rgb(29, 185, 84);
+  width: 33%;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+
+.third > img{
+  width: 50px;
+}
+
+.third > p {
+  color: gray;
+  text-align: center;
+  font-size: 15px;
+}
+
+.footer {
+  background-color: rgb(29, 185, 84);
+  color: white;
+  display: flex;
+}
+
+.left {
+  padding-left: 35px;
+  width: 66%;
+  display: flex;
+  justify-content: space-evenly;
+}
+
+.rightIcon {
+  display: flex;
+  align-items: center;
+}
+
+.leftText > h3 {
+  text-decoration: underline;
+  text-underline-offset: 8px;
+  text-decoration-color: white;
+}
+
+.icon {
+  height: 90px;
+  margin: 10px 25px;
+}
+
+.right {
+  display: flex;
+  width: 33%;
+  justify-content: flex-start;
+  align-items: center;
+}
+
+.app {
+  height: 400px;
+}
 /*
 Colors:
 
