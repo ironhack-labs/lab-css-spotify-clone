@@ -6,3 +6,169 @@ Green: #00B172
 White: #FFF
 
 */
+* {
+  font-family: Helvetica, sans-serif;
+  margin: 0;
+}
+
+.navbar {
+  position: fixed;
+  top: 0;
+  left: 0;
+  width: 95%;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 10px 40px;
+  background-color: rgba(255, 255, 255);
+  z-index: 1000;
+}
+
+.logo-icon {
+  display: flex;
+  justify-content: flex-start;
+  align-items: center;
+  height: 40px;
+}
+
+.menu-links {
+  display: flex;
+  justify-content: flex-end;
+  gap: 20px;
+}
+
+.menu-links > li {
+  list-style: none;
+  font-size: 16px;
+}
+
+.landing {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+
+.landing {
+  position: relative;
+  color: white;
+  text-align: center;
+}
+
+.landing-img {
+  width: 100%;
+  height: auto;
+  margin: 0 auto;
+}
+
+.container {
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+}
+
+.main-title {
+  width: 800px;
+  font-size: 5em;
+  font-weight: 200;
+  margin-bottom: 40px;
+}
+
+.description {
+  font-size: 2em;
+}
+
+.boxes img {
+  width: 100px;
+}
+
+.spotify-info {
+  display: flex;
+  justify-content: center;
+  flex-direction: column;
+  align-items: center;
+  padding: 40px 0;
+}
+
+.spotify-info h2 {
+  border-bottom: 3px solid #00b172;
+  padding: 5px;
+  margin-bottom: 20px;
+  font-size: 1.8em;
+}
+
+.box-container {
+  width: 90%;
+  height: 300px;
+  display: flex;
+  justify-content: space-between;
+}
+
+.boxes {
+  width: 33%;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  text-align: center;
+  color: #1a1a1a;
+}
+
+.boxes h4 {
+  color: #00b172;
+  font-size: 1.5em;
+  line-height: 3em;
+}
+
+.boxes p {
+  font-size: 1.2em;
+}
+
+footer {
+  background-color: #00b172;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  gap: 100px;
+  color: white;
+  padding: 60px 60px;
+  border-left: 30px solid white;
+  border-right: 30px solid white;
+}
+
+footer .articles {
+  flex: 1;
+  margin-left: 70px;
+}
+
+.articles h3 {
+  text-decoration: underline;
+  text-underline-offset: 0.5em;
+  font-size: 1.8em;
+  margin-bottom: 60px;
+  width: 400px;
+}
+
+article p {
+  font-size: 1.2em;
+  margin-bottom: 30px;
+  line-height: 1.3em;
+}
+
+.article-title {
+  font-size: 1.5em;
+  margin-bottom: 40px;
+}
+
+.spotify-icon-white {
+  height: 100px;
+  display: flex;
+  align-self: center;
+}
+
+.spotify-app {
+  height: 500px;
+  margin-right: 50px;
+  margin-left: 120px;
+}
