@@ -6,3 +6,188 @@ Green: #00B172
 White: #FFF
 
 */
+
+/*
+Iteration 1: Navbar
+The navbar should be position: fixed.
+Align the logo to the left and the ul with the links to the right, either using float or flex.
+
+Iteration 2: Large image background with text
+Check out this guide on centering things.
+
+Iteration 3: What is on Spotify section
+It looks like the divs take up about a third of the container each. How can you represent this in code?
+
+Iteration 4: The green section
+It looks like we have 2 main sections, a containing element with the text flowing from top to bottom and the image of the Spotify player on the right.
+Position the Spotify logo absolutely according to the green div.
+*/
+
+
+html, body {
+  margin: 0;
+  padding: 0;
+  }
+
+  .logoSpotify {
+  width: 16%;
+  height:40%;  
+}
+
+.nav-bar {
+  background-color: white;
+  position: fixed;
+  top: 0;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding:16px 24px;
+  
+}
+
+body >header > ul {
+  padding-left: 0;
+  display: flex;
+}
+
+body >header > ul > li {
+  list-style-type: none;
+}
+
+body >header > ul > li >a {
+  text-decoration: none;
+  padding-right: 24px ;
+  color: black;
+  font-family: sans-serif;
+}
+
+.header-image {
+  margin-top: 80px;
+  padding: 120px 0 ;
+  background-image:url("../images/landing.jpg");
+  width: 100%;
+  height: 100%;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  background-size: cover;
+  background-position: center;
+}
+
+.text-header{
+  color:white;
+  text-align: center;
+  width: 50%;
+}
+
+h1{
+  font-family: sans-serif;
+  font-size: 32px;
+}
+
+.text-header >h2{
+  font-family: sans-serif;
+  font-weight: normal;
+  font-size: 16px;
+}
+
+.characteristics >h2{
+  text-align: center;
+  font-family: sans-serif;
+}
+.characteristics{
+  width: 100%;
+  margin: 80px 0;
+}
+
+.content-cards{
+  display: flex;
+  justify-content: center;
+}
+
+.imagen-card{
+  width: 60px;
+}
+
+.cards{
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  text-align: center;
+  width: 200px;
+  height: 200px;
+  margin: 0 24px;
+}
+
+.cards >h3{
+  color:#00B172 ;
+  margin: 0;
+  padding-top: 8px;
+  font-family: sans-serif;
+  font-weight: bold;
+  font-size: 20px;
+}
+
+.cards >p{
+  font-family: sans-serif;
+  font-size: 14px;
+  color: gray;
+}
+
+.text{
+  width: 268px;
+  padding-right: 150px;
+}
+
+.img-mobile-app{
+  width: 50%;
+}
+
+.app{
+  width: 200px;
+}
+
+.discover {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  width: 100%;
+  margin-bottom: 40px;
+}
+
+.content-text-img {
+  background-color: #00B172;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  width: 80%;
+  padding: 24px;
+}
+
+.text >h3 {
+  font-family: sans-serif;
+  font-size: 20px;
+  text-decoration: underline;
+  color: white;
+  padding-bottom: 24px;
+}
+
+.text >h2 {
+  font-family: sans-serif;
+  font-size: 16px;
+  color: white;
+}
+
+.text >p {
+  font-family: sans-serif;
+  font-size: 14px;
+  color: white;
+  padding-bottom: 16px;
+}
+
+.logo-bg{
+  width: 60px;
+  position: absolute;
+}
+
