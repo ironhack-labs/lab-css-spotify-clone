@@ -1,8 +1,162 @@
-/*
-Colors:
+ body {
+    font-family: Arial, sans-serif;
+    background-color: white;
+    margin: 0;
+    color: white;
+ }
 
-Text: 1A1A1A
-Green: #00B172
-White: #FFF
+ .menu {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    width: 100%;
+    padding: 10px 0px;
+    position: fixed;
+    top: 0;
+    left: 0;
+    background-color: white;
+    z-index: 1000;
+ }
 
-*/
+ #spotify {
+    width: 140px;
+    padding: 10px;
+ }
+
+ .navigationbar ul {
+    color: black;
+    list-style-type: none;
+    display: flex;
+    gap: 20px;
+    margin: 0;
+    padding: 0;
+    margin-right: 20px;
+ }
+
+ .background-image {
+    background: url('..//images/landing.jpg') no-repeat center center/cover;
+    height: 100vh;
+ }
+
+ .content {
+    position: absolute;
+    text-align: center;
+    top: 35%;
+    left: 35%;
+ }
+
+ h1 {
+    font-size: 3rem;
+    font-weight: bold;
+    text-align: center;
+ }
+
+ .content p {
+    text-align: center;
+    font-size: 1.2rem;
+    line-height: 1.5;
+ }
+
+ h2 {
+    text-align: center;
+    font-size: 27px;
+    color: black;
+    padding-top: 1%;
+ }
+
+ .containers {
+    display: flex;
+    justify-content: space-evenly;
+    text-align: center;   
+ }
+
+ #first, #second, #third {
+    width: 70px;
+    height: 70px;
+    font-weight: bold;
+ }
+
+ h3 {
+    font-size: 30px;
+    color: rgb(19, 224, 111);
+ }
+
+ h4 {
+    font-size: 18px;
+    color: #777;
+    padding-bottom: 19%;
+ }
+
+ .section {
+    display: flex;
+    justify-content: space-evenly;
+    align-items: center;
+    background-color: rgb(0, 104, 71);
+    padding: 15px 75px;
+    color: white;
+    margin: 0 auto;
+    max-width: 88%;
+ }
+  
+ .greentext {
+    display: flex;
+    flex-direction: column;
+ }
+  
+ h5 {
+    font-size: 2rem;
+    margin-bottom: 1px;
+    color: white;
+    white-space: nowrap;
+ }
+  
+ h6 {
+    font-size: 1.5rem;
+    margin: 10px 0px 20px 0px;
+    color: white;
+    justify-content: space-between;
+    font-weight: bold
+ }
+  
+ p {
+    font-size: 0.9rem;
+    line-height: 1.5;
+    opacity: 0.9;
+ }
+  
+ .images {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    gap: 200px;
+    text-align: center;
+    justify-content: space-between;
+  }
+  
+ .app {
+    width: 250px;
+    border-radius: 10px
+ }
+  
+ .spotify-icon {
+    width: 80px;
+    height: 80px;
+    margin-left: 5%;
+ }
+  
+ .hrgreen {
+    width: 13%;
+    height: 2px;
+    margin: 0px 50px 50px 43.5%;
+    background-color: rgb(19, 224, 111);
+    border: none;
+ }
+  
+ .hrwhite {
+    width: 100%;
+    height: 2px;
+    background-color: white;
+    margin: 10px 0 50px 0;
+ }
+  
+  
