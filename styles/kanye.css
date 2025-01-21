@@ -1,0 +1,117 @@
+.kanye-section {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: #fff;
+    padding: 80px 20px;
+}
+
+.kanye-card {
+    display: flex;
+    max-width: 1100px;
+    width: 100%;
+    background-color: #00B172;
+    border-radius: 10px;
+    overflow: hidden;
+    box-shadow: 0 5px 15px rgba(0, 0, 0, 0.2);
+    align-items: center;
+}
+
+
+.kanye-info {
+    flex: 1;
+    color: #fff;
+    padding: 50px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+}
+
+.kanye-info h2 {
+    font-size: 2rem;
+    font-weight: bold;
+}
+
+.kanye-info hr {
+    width: 100%;
+    height: 3px;
+    background-color: #fff;
+    border: none;
+    margin-bottom: 30px;
+}
+
+.kanye-text h3 {
+    font-size: 1.8rem;
+    font-weight: bold;
+    margin-bottom: 10px;
+}
+
+.kanye-text p {
+    font-size: 1.2rem;
+    margin-bottom: 30px;
+}
+
+.kanye-logo {
+    flex: 0 0 auto;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding: 20px;
+}
+
+.kanye-logo img {
+    width: 100px;
+}
+
+
+.kanye-image {
+    flex: 1;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding: 20px;
+}
+
+.kanye-image img {
+    max-width: 90%;
+    height: auto;
+    border-radius: 10px;
+}
+
+/* Responsividad */
+@media (max-width: 768px) {
+    .kanye-card {
+        flex-direction: column;
+    }
+
+    .kanye-info {
+        text-align: center;
+        padding: 30px;
+    }
+
+    .kanye-logo {
+        margin: 20px 0;
+    }
+
+    .kanye-image img {
+        border-radius: 0 0 10px 10px;
+    }
+}
+
+@media (max-width: 480px) {
+    .kanye-info h2 {
+        font-size: 2rem;
+    }
+
+    .kanye-text h3 {
+        font-size: 1.2rem;
+    }
+
+    .kanye-text p {
+        font-size: 0.9rem;
+    }
+
+    .kanye-logo img {
+        width: 80px;
+    }
+}
