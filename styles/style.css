@@ -1,8 +1,169 @@
-/*
-Colors:
+* {
+  font-family: Helvetica, sans-serif;
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
 
-Text: 1A1A1A
-Green: #00B172
-White: #FFF
+.navbar {
+  position: fixed;
+  color: #000;
+  background-color: #fff;
 
-*/
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  top: 0;
+  left: 0;
+  height: 50px;
+  width: 100vw;
+  padding:0 20px;
+
+  img {
+    width: 100px;
+  }
+
+  ul {
+    display: flex;
+    list-style-type: none;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+    top: 0;
+    right: 0;
+    padding: 5px;
+
+    li{
+        margin-left: 20px;
+    }
+
+    a {
+      text-decoration: none;
+      color: #000;
+      font-size: 18px;
+      padding-top: 14px;
+      padding-bottom: 14px;
+      padding-right: 5px;
+    }
+  }
+}
+
+#intro {
+  background-image: url("https://raw.githubusercontent.com/nestorsdelgado/lab-css-spotify-clone/refs/heads/master/images/landing.jpg");
+  background-size: cover;
+  background-repeat: no-repeat;
+  background-position: 0 0;
+  height: 800px;
+  width: 100%;
+  padding-top: 50px;
+
+  h1 {
+    color: white;
+    text-align: center;
+    font-size: 70px;
+    padding-top: 30%;
+    font-weight: bold;
+    flex: 1;
+    max-width: 700px;
+    margin: 0 auto;
+    
+  }
+
+  h2 {
+    font-family: "Open Sans", sans-serif;
+    color: white;
+    text-align: center;
+    font-size: 25px;
+    padding-top: 20px;
+    flex: 1;
+    max-width: 700px;
+    margin: 0 auto;
+  }
+}
+
+#features {
+  text-align: center;
+  padding: 40px;
+
+  .features-container{
+    display: flex;
+    justify-content: space-around;
+    align-items: stretch;
+    width: 100%;
+  }
+
+  h2 {
+    margin-bottom: 20px;
+    color: black;
+    text-decoration: underline #1DB954;
+    font-size: 30px;
+  }
+
+  h3 {
+    margin-bottom: 10px;
+    color: #1DB954;
+  }
+
+  p {
+    margin-bottom: 10px;
+    color: gray;
+  }
+
+  article {
+    padding: 20px;
+    flex: 1;
+  }
+
+  img {
+    width: 50px;
+    height: 50px;
+    margin-bottom: 10px;
+  }
+}
+
+#kanye {
+background-image: url("https://raw.githubusercontent.com/nestorsdelgado/lab-css-spotify-clone/refs/heads/master/images/spotify-icon-white.png");
+background-repeat: no-repeat;
+background-position: center center;  
+background-color: #1DB954;
+background-size: 100px;
+  color: white;
+  padding: 40px;
+  display: flex;
+  align-items: center;
+  max-height:500px;
+  height: 100%;
+
+  .kanye-content {
+    flex: 0.6;
+    padding-right: 40px;
+  }
+
+  h3 {
+    font-size: 1.5em;
+    margin-bottom: 20px;
+    text-decoration: underline;
+  }
+
+  .kanye-feature {
+    margin-bottom: 30px;
+  }
+
+  h4 {
+    font-size: 1.2em;
+    margin-bottom: 10px;
+  }
+
+  p{
+    font-size: 1em;
+    max-width: 250px;
+  }
+
+  .kanye-image {
+    flex: 0.4;
+    text-align: center;
+    img {
+      width: 60%;
+    }
+  }
+}
