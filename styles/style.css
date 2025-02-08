@@ -1,8 +1,180 @@
-/*
-Colors:
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
 
-Text: 1A1A1A
-Green: #00B172
-White: #FFF
+html {
+    font-family: 'Open Sans', Arial, Helvetica, sans-serif;
+    font-size: 10px;
+    --text-color: #1A1A1A;
+    --green: #00B172;
+}
 
-*/
+.navbar {
+    width: 100vw;
+    height: 6vh;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 0 2vw;
+    position: fixed;
+    z-index: 1;
+    background-color: #fff;
+}
+
+.logo {
+    height: 4vh;
+}
+
+ul {
+    display: flex;
+    justify-content: space-between;
+    list-style: none;
+    flex-basis: 40%;
+}
+
+li {
+    font-size: 1.4rem;
+    padding-left: 2vw;
+}
+
+a {
+    color: var(--text-color);
+    text-decoration: none;
+    font-weight: 100;
+}
+
+.landing {
+    display: flex;
+    width: 100vw;
+    height: 80vh;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    background-image: url('../images/landing.jpg');
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    color: #fff;
+    text-align: center;
+
+    h1 {
+        font-size: 6rem;
+        margin-bottom: 2.3vh;
+    }
+
+    h2 {
+        font-size: 2.2rem;
+        font-weight: 100;
+
+    }
+}
+
+.main-section {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: space-around;
+    width: 100vw;
+    height: 45vh;
+
+    h2 {
+        font-size: 3rem;
+        margin-top: 3rem;
+        margin-bottom: 1rem;
+        padding-bottom: 0.2rem;
+        border-bottom: solid 0.3rem var(--green);
+    }  
+}
+
+.container {
+    width: 100vw;
+    height: 60%;
+    display: flex;
+    justify-content: space-between;
+}
+
+.function-container {
+    width: 28%;
+    height: 100%;
+    text-align: center;
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-end;
+    align-items: center;
+    gap: 1%;
+
+    img {
+        height: 30%;
+        padding-bottom: 3%;
+    }
+
+    h3 {
+        color: var(--green);
+        font-size: 2rem;
+    }
+
+    p {
+        color: var(--text-color);
+        font-size: 1.6rem;
+        font-weight: 100;
+        width: 60%;
+        height: 55%;
+    }
+}
+
+.footer {
+    background-color: var(--green);
+    color: #fff;
+    border: 30px solid #fff;
+    border-top: none;
+    width: 100vw;
+    height: 57vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+
+    .footer-content {
+       width: 90vw;
+       margin: 0 3.8vw;
+        display: flex;
+        justify-content: space-between;
+        align-items: center;
+        
+        .footer-text {
+            h3 {
+                font-size: 2.3rem;
+                padding-top: 3vh;
+                padding-bottom: 1vh;
+                margin-bottom: 1vh;
+                border-bottom: solid 0.3rem #fff;
+                text-align: start;
+            }
+
+            h4 {
+                font-size: 1.8rem;
+                line-height: 3.2
+            } 
+    
+            p {
+                font-size: 1.6rem;
+                font-weight: 100;
+            }
+        }
+        
+        .music-icon{
+            img {
+                width: 150px;
+            }
+        }
+    
+        .footer-img {
+            align-self flex-end;
+
+            img {
+                height: 45vh;
+            }  
+        }
+    }  
+}
