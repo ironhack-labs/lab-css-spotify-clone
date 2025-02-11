@@ -6,3 +6,149 @@ Green: #00B172
 White: #FFF
 
 */
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box; /*hace que el padding y el border pasen a formar parte del cálculo del ancho de la caja y no lo suman posteriormente*/
+    overflow-x:hidden; /*para quitar la barra horizontal*/
+    
+}
+
+
+header { /*hero: navegador+foto*/
+    width: 100vw;
+    height: 80vh;
+    background-image: url(../images/landing.jpg);
+    background-color: black; /*aparece si la imagen no carga*/
+    background-position: center;
+    background-size: cover;
+    background-repeat: no-repeat;
+    display: flex;
+
+}
+
+.navegador { /*logo+navegador sobre foto hero con su fondo blanco*/
+    width: 100vw;
+    height: 8vh;
+    padding-left: 2rem;
+    padding-right: 2rem;
+    background-color: white;
+    background-size: cover;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    position: fixed;
+
+}
+
+ul {
+    list-style: none; /*para quitar puntos de ul del navegador*/
+    display: flex;
+    flex-direction: row;
+    gap: 1rem; /*espacio entre los boxes*/
+
+}
+
+a {
+    text-decoration: none; /*para quitar la linea de los links*/
+    color: black;
+}
+
+.hero-text {
+    width: 100vw;
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+    align-items: center;
+    color: white;
+
+}
+
+.sectionwhats{
+    margin-left: 2rem;
+    margin-right: 2rem;
+}
+.whats {
+    margin-top: 30px;
+    margin-bottom: 50px;
+    justify-content: center;
+    display: flex;
+    align-items: center;
+}
+
+.whats h2{
+    border-bottom:solid 3px #5da376;
+}
+
+.divwhats {
+    margin-top: 30px;
+    margin-bottom: 60px;
+    display: flex;
+    align-content: center;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+    gap: 10rem;
+    text-align: center;
+}
+
+.songs{
+    width: 279.953px;
+}
+
+.music{
+    width: 279.953px;
+}
+
+.stream{
+    width: 279.953px;
+}
+
+div img {
+    width: 5rem;
+    height: 5rem;
+}
+
+span {
+    color: #5da376;
+}
+
+
+.sectionits {
+    margin-left: 1rem;
+    margin-right: 1rem;
+    margin-bottom: 1rem;
+    padding: 3rem;
+    height: 65vh;
+    position: relative;
+    background-color: #5da376;
+    /*aparece si la imagen no carga*/
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    color: white;
+    
+}
+
+.texto{
+    width: 18rem;
+    height: 30rem;
+    text-align: left;
+    
+    word-wrap: break-word;
+}
+
+.itsicon{
+    width: 5em;
+    height: 5em;
+}
+
+.fotoapp{
+    width: 20rem;
+    height: 90%;
+}
+
+.texto h2{
+    border-bottom:solid 3px white;
+
+}
