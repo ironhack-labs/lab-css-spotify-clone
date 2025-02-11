@@ -1,8 +1,155 @@
-/*
-Colors:
+:root{
+  --color-green: #00B172;
+  --color-white: #FFF;
+  --color-gray: #1A1A1A;
+}
 
-Text: 1A1A1A
-Green: #00B172
-White: #FFF
+body{
+  font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
 
-*/
+h1{
+  font-size: 6rem;
+}
+
+h2{
+  font-size: 4rem;
+}
+
+h3{
+  font-size: 3rem;;
+  color: var(--color-green);
+}
+
+.navbar-container{
+  padding: 2rem;
+  display: flex;
+  height: 100px;
+  justify-content: space-between;  
+  align-items: center;
+}
+
+.img-logo{
+  width: 200px;
+}
+
+.menu-navbar{
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+  width: 40%;
+  padding: 10px;
+}
+
+li{
+  list-style: none;
+  font-size: 2rem;
+}
+
+.hero-section{
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  background-image: url(../images/landing.jpg);
+  background-size: cover; 
+  background-position: center;
+  height: 700px;
+  color: white;
+  font-size: 2rem;
+  text-align: center;
+}
+
+.whats-spotify{
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  
+}
+.whats-spotify-container{
+  display: flex;
+  justify-content: space-between;
+  width: 100%;
+ 
+  margin: 55px;
+}
+
+.whats-spotify-container article{
+  flex: 1;
+  align-items: center;
+  text-align: center;
+  padding: 15px;
+}
+
+.underline-green{
+    border: 3px solid var(--color-green);
+}
+
+.underline-white{
+  border: 3px solid var(--color-white);
+}
+
+p{
+  font-size: 2rem;
+}
+
+.whats-spotify-container img{
+  width: 30%;
+}
+
+.green-section{
+  background-color: var(--color-green);
+  display: flex;
+  flex:1;
+  width: 100%;
+  justify-content: space-around;
+  color: var(--color-white);
+}
+
+.green-section h3{
+  color: var(--color-white);
+  font-size: 4rem;
+}
+
+h4{
+  font-size: 3rem;
+}
+
+.article-right{
+  justify-content: flex-end;
+}
+
+.article-right img{
+  margin: 3rem;
+}
+
+.article-left{
+  font-size: 4rem;
+  display: flex;
+}
+
+.green-section-p{
+  margin-top: 2rem;
+  font-size: 2rem;
+  font-weight: lighter;
+}
+
+.footer-article p{
+  font-size: 2rem;
+  font-weight: lighter;
+}
+
+.green-section-div-left{
+  flex: 7;
+}
+
+.div-spotify-icon{
+  display: flex;
+  flex: 3;
+  align-items: center;
+  flex:1;
+}
+
+.div-spotify-icon img{
+  width: 300px;
+}
