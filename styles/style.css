@@ -6,3 +6,161 @@ Green: #00B172
 White: #FFF
 
 */
+body {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-size: 20px;
+    font-family: Helvetica, sans-serif;
+}
+
+h1 {
+    font-size: 7em;
+    color: #FFF;
+    font-weight: 0;
+}
+
+h2 {
+    font-size: 2em;
+}
+
+h3 {
+    font-size: 1.5em;
+    color: #00B172;
+
+}
+
+h4 {
+    color: #FFF;
+    font-size: 2em;
+
+}
+
+h5 {
+    font-size: 1.5em;
+    color: #FFF;
+}
+
+nav {
+    width: 100%;
+}
+
+.nav-container {
+    display: flex;
+    flex-flow: row nowrap;
+    justify-content: space-between;
+    background-color: #FFF;
+    position: fixed;
+
+}
+
+.spoty-logo {
+    height: 60px;
+    margin: 20px;
+
+}
+
+.nav-list {
+    width: 700px;
+    display: flex;
+    align-items: center;
+    margin: 20px;
+    padding: 0;
+}
+
+ul {
+    justify-content: space-between;
+}
+
+.nav-list li {
+    list-style: none;
+
+}
+
+.nav-list a {
+    text-decoration: none;
+    color: black;
+    font-size: 2em;
+}
+
+header {
+    background-image: url(../images/landing.jpg);
+    background-position: 0, 0;
+    background-repeat: no-repeat;
+    background-size: cover;
+
+}
+
+.header {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 1000px;
+}
+
+.header p {
+    justify-items: center;
+    text-align: center;
+    color: #FFF;
+    font-size: 2em;
+}
+
+.icons {
+    width: 150px;
+    height: 150;
+}
+
+.icons-spoty h2 {
+    display: flex;
+    justify-content: center;
+}
+
+.icons-options {
+    width: 100%;
+    display: flex;
+    flex-wrap: column nowrap;
+    justify-content: space-between;
+    padding: 20px;
+    margin: 50px;
+
+}
+
+.icons-options article {
+    width: 350px;
+    text-align: center;
+}
+
+.kanye-west-section {
+    position: relative;
+    display: flex;
+    justify-content: space-between;
+    background-color: #00B172;
+}
+
+.kanye-west-section h4 {
+    text-align: left;
+}
+
+.info-section {
+    color: #FFF;
+    text-align: left;
+    justify-content: space-around;
+    justify-content: space-between;
+    margin: 50px;
+}
+
+.white-logo {
+    position: absolute;
+    top: 40%;
+    left: 40%;
+    height: 100px;
+    width: 100px;
+}
+
+.image-app {
+    position: absolute;
+    top: 10%;
+    right: 5%;
+    height: 600px;
+    width: 500px;
+}
