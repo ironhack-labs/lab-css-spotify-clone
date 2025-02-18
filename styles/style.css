@@ -6,3 +6,175 @@ Green: #00B172
 White: #FFF
 
 */
+html {
+    margin: 0;
+    padding: 0;
+    font-size: 16px;
+}
+
+body {
+    font-family: 'Roboto', sans-serif;
+    margin: 0;
+    padding: 0;
+    background-color: #FFF;
+    color: #1A1A1A;
+}
+
+/* Navigation */
+
+nav {
+    display:flex;
+    align-items: center;
+    width: 100%;
+    height: 100px;
+    background-color: #FFF;
+}
+
+
+nav ul {
+    display: flex;
+    align-items: center;
+    list-style-type: none;
+    margin-left: auto;
+}
+
+nav ul li a {
+    text-decoration: none;
+    color: #1A1A1A;
+    font-size: 1.2em;
+    margin: 0 30px;
+}
+
+nav ul li a:hover {
+    color: #00B172;
+}
+
+nav img {
+    width: 200px;
+    height: 60px;
+    align-items: center;
+    padding: 0 0 0 40px ;
+}
+
+/* Header */
+
+.header {
+    display: flex;
+    flex-direction: column;
+    background-image: url('../images/landing.jpg');
+    background-size: cover;
+    background-repeat: no-repeat;
+    width: 100%;
+    height: 100vh;
+}
+
+.header h1 {
+    font-size: 4em;
+    text-align: center;
+    padding-top: 200px;
+    color: #FFF;
+    font-weight: 500;
+    text-shadow: 2px 2px 4px #6c6767;
+    letter-spacing: 1.6;
+}
+
+.header p {
+    font-size: 20px;
+    font-weight: 300;
+    text-align: center;
+    color: #FFF;
+}
+
+/* Grid */
+
+.content h2 {
+    text-align: center;
+    font-size: 2em;
+    padding-top: 40px;
+    color: #1A1A1A;
+}
+
+.grid {
+    display: grid;
+    grid-auto-flow: column;
+    grid-template-columns: repeat(3, 1fr);
+    grid-gap: 20px;
+    padding: 60px;
+}
+
+.grid-item{
+    background-color: #FFF;
+    border-radius: 15px;
+    box-shadow: 0 4px 8px 0 rgba(0,0,0,0.2);
+    padding: 20px;
+    text-align: center;
+}
+
+.grid-item h3 {
+    font-size: 1.5em;
+    color:#00B172;
+}
+
+.grid img {
+    width: 40%;
+    height: auto;
+}
+
+/* Container */ 
+
+.container {
+    background-color:#00B172;
+    display: grid;
+    grid-auto-flow: column;
+    grid-template-columns: 1.4fr repeat(2, 1fr);
+    grid-gap: 10px;
+    padding: 30px 60px;
+}
+
+.container h3 {
+    width: 100%;
+    text-align: center;
+    font-size: 1.8em;
+    font-weight: 500;
+    word-spacing: 1.6;
+    color: #FFF;
+}
+
+.container h2 {
+ color:#FFF;
+ font-weight: 500;
+}
+
+.container p {
+    color: #FFF;
+    font-weight: 300;
+    letter-spacing: 1.8;
+    word-spacing: 1.6;
+    padding-top: 5px;
+    width: 80%;
+}
+
+hr {
+    border: 0;
+    height: 3px;
+    background: #FFF;
+}
+
+.container-img {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.Kanye-img{
+    width: 300px;
+    height: auto;
+    box-shadow: 10px 10px 20px #6c6767;;
+} 
+
+.spotify-logo {
+    width: 120px;
+    height: auto;
+    justify-content: center;
+    align-items: center;
+}
