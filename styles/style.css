@@ -1,8 +1,224 @@
-/*
-Colors:
-
-Text: 1A1A1A
-Green: #00B172
-White: #FFF
-
+/* http://meyerweb.com/eric/tools/css/reset/ 
+   v2.0 | 20110126
+   License: none (public domain)
 */
+
+html, body, div, span, applet, object, iframe,
+h1, h2, h3, h4, h5, h6, p, blockquote, pre,
+a, abbr, acronym, address, big, cite, code,
+del, dfn, em, img, ins, kbd, q, s, samp,
+small, strike, strong, sub, sup, tt, var,
+b, u, i, center,
+dl, dt, dd, ol, ul, li,
+fieldset, form, label, legend,
+table, caption, tbody, tfoot, thead, tr, th, td,
+article, aside, canvas, details, embed, 
+figure, figcaption, footer, header, hgroup, 
+menu, nav, output, ruby, section, summary,
+time, mark, audio, video {
+	margin: 0;
+	padding: 0;
+	border: 0;
+	font-size: 100%;
+	font: inherit;
+	vertical-align: baseline;
+}
+/* HTML5 display-role reset for older browsers */
+article, aside, details, figcaption, figure, 
+footer, header, hgroup, menu, nav, section {
+	display: block;
+}
+body {
+	line-height: 1;
+}
+ol, ul {
+	list-style: none;
+}
+blockquote, q {
+	quotes: none;
+}
+blockquote:before, blockquote:after,
+q:before, q:after {
+	content: '';
+	content: none;
+}
+table {
+	border-collapse: collapse;
+	border-spacing: 0;
+}
+/*
+Variables
+*/
+@import url('https://fonts.googleapis.com/css2?family=Montserrat:ital,wght@0,100..900;1,100..900&display=swap');
+:root{
+    --text-color: #1A1A1A;
+    --green-spotify: #00B172;
+    --white: #FFF;
+    --main: 'Montserrat';
+}
+html{
+    box-sizing: border-box;
+}
+*, *:before, *:after {
+    box-sizing: inherit;
+}
+body{
+    position: relative;
+    font-size: 16px;
+    color: var(--text-color);
+    font-family: var(--main), Verdana, Geneva, Tahoma, sans-serif;
+}
+.nav_container{
+    position: fixed;
+    padding: 16px 42px;
+    width: 100%;
+    background-color: var(--white);
+    box-shadow: 0 8px 8px 0px rgba(0,0,0,0.2);
+}
+.nav{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    width: 100%;
+    /* background-color: coral; */
+}
+.logo{
+    width: 240px;
+    height: auto;
+}
+.nav_list_container{
+    display: flex;
+    list-style: none;
+    justify-content: space-between;
+    align-items: center;
+    gap: 24px;
+}
+.nav_list_item{
+    text-decoration: none;
+    font-size: 22px;
+    line-height: 150%;
+    font-weight: 400;
+    color: var(--text-color);
+}
+
+.hero_container{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 100%;
+    height: 960px;
+    background-image: url('../images/landing.jpg');
+    background-repeat: no-repeat;
+    background-position: bottom center;
+    background-size: cover;
+}
+.title_container{
+    color: var(--white);
+}
+.title{
+    width: max-content;
+    font-size: 82px;
+    font-weight: 700;
+    margin-bottom: 42px;
+}
+.subtitle{
+    width: 100%;
+    max-width: 768px;
+    font-size: 29px;
+    font-weight: 400;
+    line-height: 150%;
+    text-align: center;
+}
+.argument_container{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    padding: 44px 112px 0 112px;
+}
+.title_dark{
+    width: max-content;
+    font-size: 36px;
+    line-height: 150%;
+    font-weight: 700;
+    border-bottom: 4px solid var(--green-spotify);
+}
+.card_container{
+    display: flex;
+    justify-content: space-between;
+    align-items: top;
+    margin: 112px 0;
+    width: 100%;
+}
+.argument_item{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+.argument_item_image{
+    width: auto;
+    height: 104px;
+}
+.argument_item_title{
+    margin: 32px 0;
+    font-size: 30px;
+    line-height: auto;
+    font-weight: 700;
+    color: var(--green-spotify);
+}
+.argument_item_text{
+    width: 100%;
+    max-width: 306px;
+    font-size: 24px;
+    line-height: 150%;
+    text-align: center;
+}
+
+.mockup_container{
+    padding: 0 42px 36px 42px;
+}
+.green_container{
+    display: flex;
+    padding: 72px 102px;
+    width: 100%;
+    background-color: var(--green-spotify);
+    background-image: url('../images/spotify-icon-white.png');
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: 144px;
+}
+.mockup_text_container{
+    width: 50%;
+    color: var(--white);
+}
+.title_light{
+    margin-bottom: 56px;
+    width: max-content;
+    font-size: 39px;
+    line-height: 150%;
+    font-weight: 700;
+    border-bottom: 4px solid var(--white);
+}
+.mockup_item_container{
+    width: 100%;
+    max-width: 368px;
+}
+.mockup_item_title{
+    margin: 32px 0;
+    width: max-content;
+    font-size: 32px;
+    line-height: 150%;
+    font-weight: 700;
+}
+.mockup_item_text{
+    font-size: 22px;
+    line-height: 150%;
+}
+.mockup_image_container{
+    display: flex;
+    justify-content: flex-end;
+    width: 50%;
+}
+.mockup_image{
+    width: 364px;
+    height: auto;
+}
