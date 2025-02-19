@@ -6,3 +6,136 @@ Green: #00B172
 White: #FFF
 
 */
+h2{
+  text-align: center;
+}
+
+  body {
+    color:#1A1A1A;
+    padding:0;
+    margin:0;
+    font-family: Arial, Helvetica, sans-serif;
+}
+nav{
+    background-color: white; 
+    position: fixed;
+    width:100%;
+    height: 80px;
+    line-height: 80px;
+    display: flex;
+    align-items: center;
+    top:0;
+    left:0;
+    z-index: 1000;
+}
+
+nav img{
+  display: flex;
+  justify-content: left;
+  height: auto;
+  width: 200px;
+}
+
+nav ul{
+  list-style-type: none;
+  display:flex;
+  justify-content: flex-end;
+  margin:0;
+  padding: 0;
+  flex-grow: 1;
+}
+
+nav ul li{
+  margin: 0 10px;  
+}
+
+nav a{
+  text-decoration: none;
+  color:black;
+}
+
+#back-img{
+  background-image: url("../images/landing.jpg") ;
+  background-position: center; 
+  background-repeat: no-repeat;
+  background-size: cover;
+  height:700px;
+  width:auto;
+  margin: 0 auto;
+  display: flex;
+  flex-direction: column; /* Stack children (h1 and p) vertically */
+  justify-content: center; /* Vertically center the content */
+  align-items: center; /* Horizontally center the content */
+  text-align: center;
+}
+
+#back-img h1, #back-img p {
+  color: white; 
+  margin: 0; /* Remove any default margin */
+}
+
+#back-img h1 {
+  font-size: 3rem; /* Make the heading large */
+  margin-bottom: 0px; /* Space between heading and paragraph */
+}
+
+#back-img p {
+  font-size: 1.2rem; /* Adjust paragraph size */
+  line-height: 1.5; 
+}
+
+#info{
+ display: flex;
+ justify-content: space-around;
+ align-items: center;
+ text-align: center;
+ padding: 0 0 40px 0;
+}
+
+#info img{
+  height: 50px;
+  width:auto;
+}
+
+#info h3{
+  color:#00B172;
+}
+
+#sound-example{
+  background-color:#00B172;
+  color:white;
+  padding: 20px 100px;
+  display:flex;
+  flex-direction: row;  /* Display the content in a row (text on left, image on right) */
+  justify-content: space-between;  /* Space between the text and image */
+  align-items: center;  /* Vertically align the items in the center */
+  
+}
+
+
+#sound-example hr{
+    border-bottom: solid rgb(255, 252, 252);
+    width: 80%; /* Make the hr line x% width */
+    margin:0;
+}
+
+#sound-example img{
+    height: 400px;
+    width:auto;
+}
+
+#sound-example h3, #sound-example h4, #sound-example p {
+    margin: 10px 0; /* Add some space between headings and paragraphs */
+}
+
+#sound-example p{
+    max-width: 300px; /* Adjust as needed */
+    word-wrap: break-word;
+}
+
+.icon {
+    height:auto;
+    width: 200px;
+    display: block;  /* Ensures it behaves properly */
+    margin: 0 auto; 
+}
