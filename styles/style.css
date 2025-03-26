@@ -1,8 +1,124 @@
-/*
-Colors:
-
-Text: 1A1A1A
-Green: #00B172
-White: #FFF
-
-*/
+/* ================ GENERAL RESET OR BASE ================ */
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+  }
+  
+  body {
+    font-family: Arial, sans-serif;
+    color: #1a1a1a;
+  }
+  
+  /* ================ NAVBAR (Iteration 1) ================ */
+  .navbar {
+    position: fixed; 
+    top: 0;
+    left: 0;
+    width: 100%;
+    background-color: #FFF;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    /* Some padding and shadow for style */
+    padding: 10px 20px;
+    box-shadow: 0 2px 4px rgba(0,0,0,0.1);
+    z-index: 999; /* So it stays above other elements */
+  }
+  
+  /* Logo aligned left */
+  .logo img {
+    height: 40px;
+    width: auto;
+  }
+  
+  /* Nav links aligned right */
+  .nav-links {
+    list-style: none;
+    display: flex;
+    gap: 20px;
+  }
+  
+  .nav-links li a {
+    text-decoration: none;
+    color: #1a1a1a;
+    font-weight: bold;
+  }
+  
+  .nav-links li a:hover {
+    color: #00B172; 
+  }
+  
+  /* ================ HERO SECTION (Iteration 2) ================ */
+  .hero {
+    padding-top: 80px; 
+    height: 80vh; 
+    background: url("https://via.placeholder.com/1200x700/00B172/FFF?text=Spotify+Hero")
+      no-repeat center center/cover; 
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    text-align: center;
+    position: relative;
+  }
+  
+  .hero-text {
+    max-width: 600px;
+    background-color: rgba(255, 255, 255, 0.8); 
+    padding: 20px;
+    border-radius: 8px;
+  }
+  
+  .hero-text h1 {
+    font-size: 2.5rem;
+    margin-bottom: 10px;
+  }
+  
+  /* ================ WHAT'S ON SPOTIFY SECTION (Iteration 3) ================ */
+  .spotify-features {
+    display: flex;
+    justify-content: space-around; 
+    align-items: flex-start;
+    margin: 60px auto;
+    max-width: 1200px;
+  }
+  
+  .feature {
+    width: 30%; 
+    background-color: #f8f8f8;
+    padding: 20px;
+    text-align: center;
+    border-radius: 6px;
+  }
+  
+  .feature h2 {
+    margin-bottom: 10px;
+  }
+  
+  /* ================ GREEN SECTION (Iteration 4) ================ */
+  .green-section {
+    position: relative; 
+    background-color: #00B172;
+    color: #fff;
+    padding: 60px 20px;
+    min-height: 300px;
+    display: flex;
+    align-items: center;
+  }
+  
+  .green-text {
+    width: 50%;
+    padding-right: 20px;
+  }
+  
+  .green-text h2 {
+    margin-bottom: 15px;
+    font-size: 2rem;
+  }
+  
+  .player-image {
+    position: absolute;
+    top: 20px;
+    right: 30px;
+    width: 200px; 
+  }  
