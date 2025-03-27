@@ -6,3 +6,187 @@ Green: #00B172
 White: #FFF
 
 */
+
+html {
+    font-size: 62.5%; /** 1REM = 10pX **/
+    box-sizing: border-box;
+}
+
+:root {
+    --text: #1A1A1A;	
+    --green: #00B172;
+    --white: #fff;
+}
+
+
+body {
+    font-family: 'Roboto', sans-serif;
+    box-sizing: border-box;
+}
+
+
+/*------------------ NAVBAR --------------------*/
+
+.navbar {
+    position: fixed;
+    display: flex;
+    background-color: var(--white);
+    justify-content: space-between;
+    align-items: center;
+    font-size: 2rem;
+    padding: 1.5rem;
+    top: 0;
+    right: 0;
+    left: 0;
+}
+
+.navbar img {
+    height: 5rem;
+}
+
+.lista-navbar {
+    display: flex;
+    list-style: none;
+    padding: 0;
+    
+}
+
+.lista-navbar a {
+    text-decoration: none;
+
+}
+
+.lista-navbar a:visited {
+    color: #1A1A1A;
+
+}
+
+.lista-navbar li {
+    margin: 0 0.5rem;
+}
+
+/*------------------ HERO --------------------*/
+
+.hero {
+    background-image: url(/images/landing.jpg);
+    height: 100rem;
+    color: var(--white);
+    background-size: cover;
+    background-repeat: no-repeat;
+    font-size: 8rem;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    margin: 0;
+}
+
+.p-main-title {
+    font-size: 2rem;
+    color: var(--white);
+    margin: 0.5rem;
+
+}
+
+/*------------------ SECTION 1 --------------------*/
+
+.h2-title {
+    font-size: 4rem;
+    display: block;
+    width: fit-content;
+    margin: 7rem auto;
+    border-bottom: 3px solid var(--green);
+}
+
+.article-container {
+    display: flex;
+    justify-content: space-evenly;
+    padding: 2rem;
+}
+
+.box-container {
+    display: flex;
+    flex: 1;
+    flex-direction: column;
+    padding: 1rem;
+    justify-content: center;
+    align-items: center;
+
+}
+
+.box-container img {
+    max-width: 25rem;
+    max-height: 20rem;
+}
+
+.box-container h3 {
+    font-size: 3rem;
+    color: var(--green);
+}
+
+.box-container p {
+    font-size: 2rem;
+}
+
+/*------------------ SECTION 2 --------------------*/
+
+.yeezy {
+    background-color: var(--green);
+    margin-top: 10rem;
+    padding: 10rem;
+}
+
+.article-yeezy h2 {
+    font-size: 8rem;
+    display: block;
+    width: fit-content;
+    /* margin-bottom: 1rem; */
+    border-bottom: 3px solid white;
+    color: white;
+}
+
+.article-yeezy h3 {
+    font-size: 5rem;
+    color: white;
+}
+
+.article-yeezy p {
+    font-size: 2rem;
+    color: white;
+}
+
+.info-container {
+    display: grid;
+    gap: 5rem;
+    grid-template-columns: repeat(3, 1fr);;
+    grid-template-rows: repeat(3, 1fr);;
+}
+
+.info-1 {
+    grid-column: 1 / 2;
+    grid-row: 1 / 2;    
+}
+
+.info-2 {
+    grid-column: 1 / 2;
+    grid-row: 2 / 3;    
+}
+
+.info-3 {
+    grid-column: 1 / 2;
+    grid-row: 3 / 4;    
+}
+
+.info-4 {
+    grid-column: 2 / 3;
+    grid-row: 1 / 4;
+    place-self: center;
+    width: 30rem;
+}
+
+.info-5 {
+    grid-column: 3 / 4;
+    grid-row: 1 / 4; 
+    place-self: center;
+
+}
