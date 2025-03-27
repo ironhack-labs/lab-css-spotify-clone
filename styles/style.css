@@ -6,3 +6,250 @@ Green: #00B172
 White: #FFF
 
 */
+
+* {
+  box-sizing: border-box;
+  margin: 0;
+  padding: 0;
+  color: #1a1a1a;
+  font-family: sans-serif;
+  font-weight: 300;
+  letter-spacing: 0.5px;
+}
+
+h1,
+h2,
+h3,
+h4,
+h5,
+h6,
+p {
+  margin: 0;
+  padding: 0;
+}
+
+header {
+  background-image: url("../images/landing.jpg");
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-position: center;
+  display: flex;
+  flex-direction: column;
+  height: 600px;
+  position: relative;
+}
+
+.nav-bar {
+  background-color: white;
+  height: 60px;
+  display: flex;
+  justify-content: space-between;
+  padding: 10px;
+  align-content: space-around;
+  flex-wrap: wrap;
+  /* max-height: 20px; */
+}
+
+.nav-bar nav {
+  display: flex;
+  align-content: space-around;
+  flex-wrap: wrap;
+}
+
+@media (max-width: 462px) {
+  .nab-bar-list {
+    margin-bottom: 3%;
+  }
+}
+
+.nav-bar img {
+  height: 100%;
+  width: auto;
+  margin: 5px;
+  margin-left: 20px;
+}
+
+.nab-bar-list {
+  list-style: none;
+  display: flex;
+}
+
+.nab-bar-list li a {
+  text-decoration: none;
+  margin: 5px;
+}
+
+.header-content {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  position: absolute;
+  top: 35%;
+  align-self: center;
+  text-align: center;
+}
+
+.header-content h1,
+.header-content h4 {
+  color: #fff;
+}
+
+.header-content h1 {
+  font-size: 3em;
+  margin: 20px;
+}
+
+.cards-section {
+  padding-left: 40px;
+  padding-right: 40px;
+  padding-bottom: 10px;
+  display: flex;
+  position: relative;
+  flex-direction: column;
+}
+
+.cards-title {
+  text-align: center;
+  position: relative;
+}
+
+.cards-title h2 {
+  font-size: 1.5em;
+  font-weight: 500;
+  margin-top: 30px;
+}
+
+.line {
+  position: absolute;
+  left: 50%;
+  margin-top: 5px;
+  border: 2px #00b172 solid;
+  width: 206px;
+  transform: translate(-50%, -50%);
+}
+
+.cards {
+  display: flex;
+  height: 100%;
+  flex-wrap: wrap;
+}
+
+.cards article {
+  flex: 1;
+  display: flex;
+  flex-direction: column;
+  margin: 30px;
+  text-align: center;
+  align-items: center;
+}
+
+.cards article img {
+  height: auto;
+  width: 50px;
+  margin: 5%;
+}
+
+.cards article h3 {
+  margin-top: 10px;
+  margin-bottom: 15px;
+  color: #00b172;
+  font-weight: 900;
+}
+
+.cards article p {
+  color: #1a1a1a;
+  font-weight: 100;
+}
+
+.content-bottom {
+  background-color: #00b172;
+  margin-left: 3%;
+  margin-right: 3%;
+  margin-bottom: 3%;
+  display: flex;
+}
+
+.flex-content-bottom {
+  flex: 1;
+  margin-left: 5%;
+  margin-top: 5%;
+  margin-bottom: 5%;
+  padding-left: 20px;
+}
+
+.flex-content-bottom-img {
+  flex: 1;
+  margin-right: 8%;
+  margin-top: 10%;
+  margin-bottom: 5%;
+  text-align: end;
+}
+
+.flex-content-bottom-img img {
+  width: 60%;
+}
+
+.flex-content-bottom h3,
+p,
+h4 {
+  color: #fff;
+}
+
+.h3-bottom {
+  font-size: 1.4em;
+  display: inline;
+  border-bottom: 2px white solid;
+  padding-bottom: 6px;
+  line-height: 1.6em;
+  font-weight: 500;
+}
+
+@media (min-width: 1000px) {
+  .h3-bottom {
+    font-size: 2.3em;
+  }
+}
+
+.list-bottom {
+  list-style: none;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-around;
+  padding-top: 10%;
+}
+
+.h4-bottom {
+  font-size: 1.1rem;
+  font-weight: 600;
+  margin-bottom: 5%;
+  margin-top: 5%;
+}
+
+@media (min-width: 1000px) {
+  .h4-bottom {
+    font-size: 1.8em;
+  }
+}
+
+.p-bottom {
+  font-weight: 100;
+  font-size: 14px;
+}
+@media (min-width: 1000px) {
+  .p-bottom {
+    font-size: 1.2em;
+  }
+}
+
+.content-section {
+  position: relative;
+}
+
+.spotify-logo {
+  position: absolute;
+  width: 10%;
+  height: auto;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+}
