@@ -6,3 +6,180 @@ Green: #00B172
 White: #FFF
 
 */
+
+@import url("https://fonts.googleapis.com/css?family=Roboto+Condensed:700|Roboto:100,300,700");
+@import url("https://fonts.googleapis.com/css2?family=Anton&display=swap");
+
+* {
+ 
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box; /* Asegura que el padding y border no afecten al tamaño total del elemento */
+}
+/*  Set the font */
+body {
+  font-family: "Helvetica", sans-serif;
+  background-color: beige;
+}
+
+.main {
+  max-width: 1400px;
+  margin: auto;
+  background-color: white;
+}
+
+.nav {
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  justify-content: space-between;
+  background-color: white;
+}
+
+.nav > div > img {
+  width: 180px;
+  padding: 20px;
+}
+
+a,
+a:hover,
+a:active {
+  color: inherit; /* Mantiene el mismo color cuando el enlace está en hover o active */
+  text-decoration: none; /* Quita el subrayado en hover o active si lo deseas */
+  font-size: 1em;
+  font-weight: 300;
+}
+
+.menu {
+  display: flex;
+  gap: 15px;
+  padding: 20px;
+  margin-right: 40px;
+}
+.back {
+  background: no-repeat url("../images/landing.jpg");
+  background-size: cover;
+  width: 100%; /* Ancho del contenedor */
+  height: 90vh;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  color: white;
+  text-align: center;
+}
+.back > h1 {
+  font-size: 4.4em;
+  font-weight: 500;
+}
+.back > h2 {
+  font-size: 1.5em;
+  font-weight: 200;
+  margin-top: 40px;
+  width: 40%;
+}
+
+.whats {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  margin: 64px;
+}
+.whats > div > h3 {
+  position: relative;
+  display: inline-block;
+  padding-bottom: 10px;
+  overflow: hidden;
+}
+.whats > div > h3::after {
+  content: "";
+  position: absolute;
+  left: 0;
+  bottom: -1px;
+  width: 100%;
+  height: 4px;
+  background-color: #00B172
+}
+
+.what-flex {
+  display: flex;
+  flex-direction: row;
+  gap: 64px;
+  padding: 50px;
+
+}
+
+.card {
+  width: 250px;
+  height: 250px;
+   display: flex;
+  flex-direction: column;
+  align-items: center;
+  padding: 32px;
+
+}
+
+.card > .icon {
+  width: 80px;
+ 
+}
+.card > h4{
+  margin-top: 30px;
+  color: #00B172;
+  
+}
+.card > p{
+  margin-top: 30px;
+  text-align: center;
+  color: #1A1A1A;
+  font-size: 1em;
+}
+
+.green-box{
+  margin: 0px 24px;
+  background-color: #00B172;
+  color: white;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+
+}
+.green-box >.text{
+  display: flex;
+  flex-direction: column;
+  gap: 44px;
+
+
+  margin-left: 80px;
+}
+.green-box >.text > h4{
+  font-size: 2em ;
+  position: relative;
+}
+.green-box >.text > h4::after{
+content: "";
+  position: absolute;
+  bottom: -10px;
+  right: 0px;
+  width: 100%;
+  height: 4px;
+  background-color: #ffffff
+}
+.green-box > .text > h5{
+  font-size: 1.3em;
+}
+.green-box >.text >p{
+  font-weight: 300;
+  line-height: 1.5em;
+  
+}
+.green-box > .logo >.icon{
+  height: 100px;
+}
+.green-box > .app{
+  margin: 80px;
+  height: 568px;
+}
+.green-box > .app > .app-img{
+  width: 320px;
+}
