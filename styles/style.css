@@ -6,3 +6,198 @@ Green: #00B172
 White: #FFF
 
 */
+
+body {
+    margin: 0;
+    padding: 0;
+    font-family: 'Open Sans', sans-serif;
+    background-color: #FFF;
+}
+#header{
+    height: 100px;
+    width: 100%;
+}
+.logo{
+padding: 10px 0 20px 20px;
+width: auto;
+height: 70px;
+}
+
+nav {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 0 1rem;
+}
+nav ul {
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+    text-align: center;
+}
+.nav-links {
+display: flex;
+flex-direction: row;
+align-items: center;
+justify-content: space-between;
+}
+.nav-links li a {
+    display: inline-block;
+    margin: 0 10px;
+    text-decoration: none;
+    color:black;
+}
+
+#landing {
+    position: relative;
+}
+
+.landing-image{
+    width: 100%;
+    height: 600%; 
+    display: block;
+}
+
+#landing h1{
+    top:30%;
+    position: absolute;
+    width: 100%;
+    text-align: center;
+    color: white;
+    font-size: 4rem;
+    
+}
+
+#landing p {
+    top: 70%;
+    position: absolute;
+    width: 100%;
+    text-align: center;
+    color: white;
+    font-size: 1.5rem;
+
+}
+
+#features {
+
+    text-align: center;
+    padding: 50px 20px;
+    background-color: #f9f9f9;
+}
+
+#features h2 {
+    font-size: 2rem;
+    margin-bottom: 20px;
+    color: #1A1A1A;
+}
+
+#features ul {
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    gap: 30px;
+    padding: 0;
+    list-style: none;
+    flex-wrap: wrap;
+
+}
+.features-list{
+    justify-content: space-between;
+    align-items: center;
+    padding: 0 1rem;
+
+}
+#features li {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    max-width: 250px;
+    text-align: center;
+    font-weight: bold;
+    color:#00B172;
+}
+
+#features li img {
+    width: 80px;
+    height: auto;
+    margin-bottom: 15px;
+}
+
+#features li p {
+    color: #666;
+    margin-top: 10px;
+}
+
+#general-info {
+    width: 90%;
+    margin: 0 auto;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    gap: 50px;
+    padding: 50px 20px;
+    background-color: #00B172;
+    color: #FFF;
+    text-align: left;
+}
+
+#general-info div {
+    flex: 1;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+#general-info h2 {
+    font-size: 1.5rem;
+    margin-bottom: 10px;
+}
+
+#general-info hr {
+    width: 100%;
+    margin-bottom: 20px;
+    border: 1px solid #FFF;
+}
+
+#general-info ul {
+    list-style: none;
+    padding: 0;
+}
+
+#general-info li {
+    font-size: 1.2rem;
+    margin-bottom: 15px;
+}
+
+#general-info li p {
+    font-size: 1rem;
+    color: #f1f1f1;
+    margin-top: 5px;
+}
+
+#general-info img {
+    max-width: 100%;
+    height: auto;
+}
+
+
+#general-info>div:first-child {
+    align-items: flex-start;
+    text-align: left;
+}
+
+#general-info>div:nth-child(2) {
+    align-items: center;
+}
+
+#general-info>div:last-child {
+    align-items: flex-end;
+}
+
+.general-info-p {
+    padding-top: 15px;
+    font-size: 1em;
+}
+
+
+
