@@ -6,3 +6,141 @@ Green: #00B172
 White: #FFF
 
 */
+body {
+    color: #1a1a1a;
+    font-family: "Monserrat", sans-serif;
+    margin: 0;
+    box-sizing: border-box;
+}
+
+header {
+    position: fixed;
+    top: 0;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 15px 40px;
+    background-color: #fff;
+  }
+
+header img {
+    width: 16%;
+    height: auto;
+} 
+
+.nav-bar {
+    display: inline;
+}
+
+.nav-bar-ul {
+    list-style: none;
+    display: flex;
+    gap: 20px;
+}
+
+.nav-bar-ul li {
+    display: inline;
+    padding: 9px;
+}
+
+header ul li > a {
+    text-decoration: none;
+    color: #1a1a1a;
+}
+
+.crowd {
+    background-image: url("../images/landing.jpg");
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: 0 0;
+    width: 100vw;
+    max-width: 100%;
+    height: calc(100vh - 60px);
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    padding-top: 50px;
+    color: #fff;
+}
+
+.crowd h1 {
+    font-size: 58px;
+}
+
+.crowd p {
+    font-size: 1.3em;
+    width: 500px;
+    font-weight: normal;
+    text-align: center;
+}
+
+.features {
+    text-align: center;
+    margin: 30px;
+}
+
+.feature {
+    margin: 0 auto;
+    padding: 50px 0;
+}
+
+.feature-blocks {
+    display: flex;
+    justify-content: space-evenly;
+    margin-top: 25px;
+}
+
+.feature {
+    text-align: center;
+    width: 200px;
+}
+
+.feature img {
+    width: auto;
+    height: 60px;
+}
+
+.feature h3 {
+    color: #00b172;
+    font-size: 1.1em;
+}
+
+.kanye-section {
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    background-color: #00b172;
+    color: #fff;
+    padding: 70px;
+    position: relative;
+}
+
+.search-browse {
+    margin-top: 30px; 
+    width: 250px;
+    font-size: 1em;
+    line-height: 1.5;
+}
+
+.spot-icon {
+    width: 10%;
+    height: auto;
+}
+
+.app {
+    width: 240px;
+    position: absolute;
+    right: 10%;
+    top: 43%;
+    transform: translateY(-50%);
+    height: auto;
+    max-width: 100%;
+}
+
+.kanye-title {
+    padding-bottom: 9px;
+    border-bottom: 2px solid #fff;
+    display: inline;
+}
+
