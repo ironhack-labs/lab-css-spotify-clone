@@ -6,3 +6,147 @@ Green: #00B172
 White: #FFF
 
 */
+
+
+body, html {
+    margin: 0;
+    padding: 0;
+    height: 100%;
+}
+
+.navbar {
+    position: fixed;
+    top: 0;
+    width: 100%;
+    background-color: white;
+    padding: 10px;
+    display: flex;
+    justify-content: space-between;
+    
+    
+}
+
+.logo img {
+    height: 40px; 
+}
+
+.nav-links {
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+    display: flex;
+    
+}
+
+.nav-links li {
+    margin-left: 20px;
+}
+
+.nav-links a {
+    color: black;
+    text-decoration: none;
+    font-size: 16px;
+}
+
+header {
+    background-image: url(/images/landing.jpg);
+    background-position: center;
+    background-size: cover;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+    flex-direction: column;
+    padding: 0 20px;
+}
+
+header h1 {
+    color: white;
+    font-size: 80px;
+}
+
+header p {
+    color: white;
+    font-size: 25px;
+    text-align: center;
+    margin-top: 0;
+}
+
+#information {
+    display: flex;
+    justify-content: space-evenly;
+    align-items: center;
+}
+
+#information .container {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    
+}
+
+#cabecera {
+    display: flex;
+    justify-content: center;
+    
+}
+
+hr {
+    width: 15%;
+    color: #00B172;
+}
+
+.container h3 {
+    color: #00B172;
+}
+
+#explain {
+    padding: 20px 10px 50px 10px;
+}
+
+.image  {
+    width: 90px;
+    padding-top: 50px;
+}
+
+#app-section {
+    background-color: #00B172;
+    color: white;
+    margin: 20px;
+    padding: 50px;
+    display: flex;
+    position: relative;
+}
+
+#app-section h2 {
+    border-bottom: 3px solid white;
+    max-width: 300px;
+    position: absolute;
+    
+}
+
+.app-boxes {
+    padding: 70px 20px 0 0;
+}
+
+#logo-blanco {
+    margin-right: 20px;
+    width: 100px;
+    position: absolute;
+    top: 250px;
+    left: 150px;
+    
+}
+
+#app {
+    width: 300px;
+}
+
+#last-section {
+    display: flex;
+    justify-content: flex-end;
+    align-items: center;
+    width: 100%;
+    position: relative;
+    
+}   
