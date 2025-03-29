@@ -1,8 +1,188 @@
-/*
-Colors:
+@import url('https://fonts.googleapis.com/css?family=Poppins');
 
-Text: 1A1A1A
-Green: #00B172
-White: #FFF
+*{
+    box-sizing: border-box;
+}
 
-*/
+body {
+    font-family: 'Poppins';
+    margin: 0;
+    padding: 0;
+  }
+
+/*--Section 1: Introduction--*/
+/*HEADER*/
+/*Logo*/
+.spotify-logo {
+    width: 13rem;
+}
+
+/*Navegation Menu*/
+header {
+    position: fixed; 
+    width: 100%;
+    padding: 18px 30px;
+    top: 0; /*To place it at the top of the web*/
+    background-color: white;
+    display: flex;
+    justify-content: space-between;
+}
+.nav-menu .menu-item {
+    text-decoration: none; /*Whithout underline*/
+    color: black;
+    padding-left: 40px;
+    font-size: 1.3rem;
+}
+
+/*when the cursor is hovered it will change color*/
+.menu-item:hover {
+    color: #36d48a;
+}
+
+.nav-menu > ul {
+    list-style: none; /*Without bullets*/
+    display: flex;
+    flex-direction: row;
+}
+
+
+/*Image background and Slogan*/
+#intro-container {
+    background-image: url("../images/landing.jpg"); /*Background image*/
+    width: 100%;
+    height: 70rem;
+    background-size: cover; /*The image cover the entire container*/
+    background-position: center; /*Center the image*/
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+}
+
+.slogan {
+    font-size: 5rem;
+    margin: 0;
+}
+
+.intro-text {
+    color: white;
+    font-size: 1.8rem;
+}
+
+
+
+/*Section 2: Whats on Spotify*/
+
+#whats-on-spotify {
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+    margin: 2rem 0;
+}
+
+h2 {
+    font-size: 2.2rem;
+    position: relative;
+    display: inline-block;
+}
+
+.underline-green::after {
+    content: '';
+    position: absolute;
+    background-color: #36d48a;
+    height: 3.5px;
+    left: 0;
+    right: 0;
+    bottom: -3px;
+}
+
+/*Features*/
+.features-container {
+    display: flex;
+    flex-direction: row;
+    align-items: baseline;
+    width: 100%;
+    justify-content: space-evenly;
+    font-size: 1.5rem;
+}
+
+.feature-item {
+    display: flex;
+    flex-direction: column;
+    text-align: center; /*To center the text (inline element)*/
+    margin:50px 0;
+}
+
+.feature-item > h3 {
+    font-size: 2rem;
+    margin: 15px 0 0;
+    font-weight: bold;
+    color: #1db954;
+}
+
+.feature-item > p {
+    width: 19rem;
+}
+
+
+.img-feature {
+    width: 130px;
+    margin: 0 auto; /*To center the images, because they are block elements*/
+}
+
+/*Section 3: Funcionalities*/
+.spotify-app {
+    background-color: #36d48a;
+    color: white;
+    padding: 4rem 8rem;
+}
+
+.description-app {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    font-size: 1.5rem;
+    align-items: center;
+}
+
+.functionalities-container {
+    display: flex;
+    flex-direction: column;
+}
+
+.funcionality-item {
+    display: flex;
+    flex-direction: column;
+    width: 400px;
+}
+
+.underline-white {
+    position: relative;
+}
+
+.underline-white::after {
+    content: '';
+    position: absolute;
+    background-color: white;
+    right: 0;
+    left: 0;
+    bottom: -3px;
+    height: 4px;
+}
+
+.white-logo {
+    width: 150px;
+}
+
+.img-app {
+    width: 400px;
+}
+
+h3 {
+    font-size: 2rem;
+    margin: 0.5rem 0;
+}
+
+.spotify-app, .whats-on-spotify {
+    margin: 0 3rem;
+}
