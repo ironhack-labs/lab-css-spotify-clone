@@ -1,0 +1,54 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Layout Test</title>
+  <style>
+    body {
+      margin: 0;
+      padding: 0;
+    }
+    .container {
+      max-width: 1000px;
+      margin: 0 auto;
+      background-color: rgba(255, 0, 0, 0.2);
+      height: 100px;
+    }
+    .nav {
+      width: 100%;
+      background-color: #f0f0f0;
+      padding: 20px 0;
+    }
+    .nav-container {
+      max-width: 1400px;
+      margin: 0 auto;
+      display: flex;
+      justify-content: space-between;
+    }
+    .logo {
+      margin-left: calc(50% - 500px);
+      background-color: green;
+      width: 100px;
+      height: 40px;
+    }
+    .menu {
+      margin-right: calc(50% - 500px);
+      background-color: blue;
+      width: 200px;
+      height: 40px;
+    }
+  </style>
+</head>
+<body>
+  <div class="nav">
+    <div class="nav-container">
+      <div class="logo">LOGO</div>
+      <div class="menu">MENU</div>
+    </div>
+  </div>
+  <div class="container">
+    CONTENT AREA (1000px)
+  </div>
+</body>
+</html>
