@@ -1,8 +1,192 @@
-/*
-Colors:
+@import url('https://fonts.googleapis.com/css2?family=Montserrat:wght@400;700&display=swap');
 
-Text: 1A1A1A
-Green: #00B172
-White: #FFF
+body{
+    font-family: 'Circular', 'Gotham', 'Proxima Nova', 'Montserrat', sans-serif;
+    font-size: 1.5rem;
+    margin: 0;
+    padding: 0;
+    width: 100%; /* En lugar de max-width */
+    display: flex;
+    flex-direction: column;
+}
 
-*/
+header {
+    position: fixed;
+    display:flex;
+    top: 0; /* Se mantiene pegado arriba */
+    left: 0;
+    width: 100vw; /* Ocupa todo el ancho */
+    height: 10vh;
+    z-index: 1000; /* Asegura que quede sobre otros elementos */
+    background-color: white;
+    padding: 0;
+    margin: 0;
+    flex-direction: row;
+    flex-wrap: nowrap;
+    align-content: center;
+    justify-content: space-between;
+    align-items: center;
+}
+
+header img {
+    width: 10rem;
+    height: auto;
+    margin-right: auto;
+    padding: 0% 0% 0% 3%;
+    margin: 0;
+}
+
+nav ul {
+    display: flex;  /* Coloca los elementos en línea */
+    gap: 2rem;  /* Espacio entre cada palabra */
+    list-style: none;  /* Quita los puntos de la lista */
+    padding: 0% 10% 0% 0%;
+    margin: 0;  /* Elimina márgenes innecesarios */
+    justify-content: flex-end;
+}
+
+nav a {
+    text-decoration: none; /* Quita el subrayado de los enlaces */
+    color: black; /* Color de los enlaces */
+    font-size: 1.2rem; /* Tamaño del texto */
+    margin: auto 0;
+}
+
+nav a:hover {
+    color: blue; /* Cambia de color al pasar el mouse */
+}
+
+.block1 {
+    position: relative; /* Contenedor relativo para que el texto se posicione dentro de él */
+    width: 100vw;
+    height: 100vh;
+}
+
+.block1 img {    
+    width: 100vw;
+    height: 100vh;
+    object-fit: cover; /* Ajusta la imagen sin deformarla */
+}
+
+.texto-superpuesto {
+    position: absolute; /* Se posiciona sobre la imagen */
+    top: 50%; /* Centra verticalmente */
+    left: 50%; /* Centra horizontalmente */
+    transform: translate(-50%, -50%); /* Ajuste perfecto al centro */
+    color: white; /* Color del texto para contraste */
+    text-align: center;
+}
+
+h1 {
+    font-size: 4rem;
+    font-weight: 700;
+    padding: 0;
+    margin-bottom: 5%;
+}
+
+.block2 {
+    position: relative;
+    display: flex;
+    flex-wrap: nowrap;
+    flex-direction: column;
+    align-content: center;
+    justify-content: center;
+    align-items: center;
+}
+
+h2 {
+    font-size: 2.5rem;
+    font-weight: 600;
+    text-decoration: underline;
+    padding: 0;
+    margin: 0;
+}
+
+.block2 article {
+    position: relative;
+    display: flex;
+    padding: 5%;
+}
+
+.block2 h2 {
+    text-decoration-color: #1DB954;
+    padding: 5% 0% 0% 0%;
+}
+
+.block2 table {
+    table-layout: fixed;
+    width: 90vw;
+    text-align: center; 
+}
+
+.block2 table td, th {
+    width: 33vw;
+    padding: 0% 5% 0% 5%;
+}
+
+.block2 img {
+    width: 8vw;
+}
+
+.block2 h3 {
+    color: #1DB954;
+}
+
+.align-row td{
+    vertical-align: top;
+    text-align: center;
+}
+
+.green-back {
+    background-color: #1DB954;
+    margin: 3%;
+    padding: 5%;
+}
+
+.green-back h2 {
+    color: white;
+} 
+
+.block3 {
+    position: relative;
+    display: flex;
+    flex-direction: row;
+    flex-wrap: nowrap;
+    align-items: center;
+    align-content: center;
+    justify-content: space-between;
+}
+
+.block3-text {
+    width: 27vw;
+    height: auto;
+    color: white;
+}
+
+.block3-text h3{
+    color: white;
+    padding-bottom: 5%;
+    margin: 0;
+}
+
+.block3-text p{
+    padding-bottom: 10%;
+    margin: 0;
+}
+
+.block3-img-1 img {
+    width: 23vw;
+    height: auto;
+    margin-left: 22rem;
+}
+
+.block3-img-2 img {
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    width: 10vw;
+    height: auto;
+}
+
+
