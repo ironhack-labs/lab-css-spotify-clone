@@ -1,8 +1,121 @@
-/*
-Colors:
 
-Text: 1A1A1A
-Green: #00B172
-White: #FFF
-
+/*Colors:
+Text:   #1A1A1A;
+Green:  #00B172;
+White:  #FFFFFF;
 */
+.top-bar {
+    position: fixed;
+    top: 0;
+    left: 0;
+    width:100%;
+    background-color:#FFFFFF;
+}
+.spotify-logo{
+    width: 200px;
+    position:fixed;
+    top:10px;
+    left:30px;
+    height:auto;
+}
+.top-bar ul {
+    display:flex;
+justify-content:flex-end;
+    list-style: none;
+    gap: 25px;
+}
+.top-bar ul li {
+    margin: 20px 20px 0px 10px;
+    font-size: 25px;
+}
+.section1 {
+    background-image: url(/lab-css-spotify-clone/images/landing.jpg);
+    background-size: cover;
+    margin-top:30px;
+    width: 100%;
+    height: 800px;
+    color: white;
+    display:flex;
+    flex-direction:column;
+    justify-content:center;
+    align-items:center;
+}
+.section1 h1{
+    font-size: 100px;
+    margin:0 0  30px 0 ;
+}
+.section1 p{
+    font-size:30px;
+    margin-top: 0
+}
+.section2 {
+    text-align:center;
+    padding:  0 20px;
+    background-color:#FFFFFF;
+}
+.section2 h2{
+    margin: 50px 0 80px 0;
+    font-size: 40px;
+}
+.section2 {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+.article-container {
+  display: flex;
+  justify-content: space-evenly;
+  width: 100%;
+}
+.article-container h3 {
+    font-size: 30px;
+    color:#00B172;
+}
+.article-container p{
+    font-size: 20px;
+}
+.images{
+    width: 30%;
+}
+.section3 {
+  background-color: #00B172;
+  color: #FFFFFF;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+padding: 10px 100px;
+}
+
+.kanye-west {
+  max-width: 30%;
+  font-size: 30px;
+    max-width:1000px;
+}
+
+.kanye-west h2{
+    font-size: 50px;
+}
+.hr-line {
+    position:relative;
+    bottom: 30px;
+    height:5px;
+    background-color:#FFFFFF;
+    
+}
+.kanye-west h3 {
+  font-size: 30px;
+}
+.kanye-west p {
+    font-size: 20px;
+}
+.spotify-icon-white {
+  width: 150px;
+    position:absolute;
+    left : 650px;
+}   
+
+.Kanye {
+  width: 350px;
+  height: auto;
+}
