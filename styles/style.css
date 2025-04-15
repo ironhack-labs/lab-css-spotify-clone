@@ -6,3 +6,174 @@ Green: #00B172
 White: #FFF
 
 */
+* {
+    box-sizing: border-box;
+}
+
+body {
+    margin: 0;
+    font-family: Arial;
+    overflow-x: hidden;
+}
+
+#navbar-panel{
+    display: flex;
+    position: fixed;
+    justify-content:space-between;
+    align-items:center;
+    background-color:white;
+    padding: 10px 40px;
+    width: 100%;
+    top: 0;
+    left: 0;
+    z-index: 1000;
+}
+
+.spotify-logo{
+    width: 150px;
+    height:auto;
+}
+
+.navbar{
+    list-style: none;
+    display: flex;
+    margin: 0;
+    padding: 0;
+   
+}
+
+.navbar li {
+    margin-left: 16px; 
+}
+
+.navbar li a {
+    text-decoration: none;
+    color: #1A1A1A;
+}
+
+.banner{
+    height:100%;
+    width: 100%;
+}
+
+
+
+#title {
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    color: white;
+    font-size: 4rem;
+    text-align: center;
+  
+  }
+
+  .paragraph{
+    position: absolute;
+    top: 70%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    color: white;
+    font-size:x-large;
+    text-align: center;
+    font-family: Arial;
+    font-style:normal;
+    margin-top: auto;
+    font-weight:normal !important;
+  }
+
+.inline-block-center {
+    text-align: center;
+}
+
+.inline-block-center div {
+    display: inline-block;
+    text-align: left;
+}
+
+.feature-list {
+    display: flex;
+    justify-content: space-between;
+}
+
+.features-title {
+    text-align: center;
+    color: #1A1A1A;
+    text-decoration: underline;
+    text-decoration-color: #00B172;
+    text-decoration-thickness: 2px;
+   
+}
+
+.feature-item {
+    display: flex;
+    flex-direction: column;
+    align-items:center;
+    padding: 40px;
+}
+
+.feature-icon {
+    height:100x;
+    width:100px;
+}
+
+.feature-title {
+    color: #00B172;
+    text-align: center;
+}
+
+.feature-description {
+    text-align: center;
+    font-size: larger;
+}
+
+.feature-icon-dev {
+    min-height: 85px;
+}
+
+.spotify-app {
+    height:550x;
+    width:250px;
+    float: right;
+}
+
+.spotify-details-title {
+    text-decoration: underline;
+    text-decoration-color: #FFF;
+    text-decoration-thickness: 2px;
+    color: #FFF; 
+    font-size: x-large; 
+}
+
+#spotify-details {
+    background-color: #00B172;
+    margin: 50px;
+    padding: 70px;
+    display: flex;
+    color: #FFF;
+}
+
+#spotify-details-title-div {
+    width: 70%;
+}
+
+#details {
+    width: 60%;
+   
+   
+}
+
+.spotify-title {
+    font-size: larger;
+}
+
+.spotify-icon {
+    height:100x;
+    width:100px;
+}
+
+#details-div {
+    flex-direction: row;
+    display: flex;
+}
