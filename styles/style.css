@@ -6,3 +6,219 @@ Green: #00B172
 White: #FFF
 
 */
+html {
+    box-sizing: border-box;
+    font-size: 16px;
+    color: #1A1A1A;
+  }
+    
+  *, *:before, *:after {
+    box-sizing: inherit;
+  }
+    
+  body, h1, h2, h3, h4, h5, h6, p, ul {
+    margin: 0;
+    padding: 0;
+    font-weight: lighter;
+  }
+  
+  /* STYLES */
+  
+  /*  Fonts */
+  body {
+    font-family: "Helvetica", sans-serif;
+  }
+
+  header{
+    /* position: fixed; */
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 20px;
+    background-color: #fff;
+    position: fixed;
+    top: 0;
+    width: 100%;
+    overflow: hidden;
+    z-index: 1000;
+  }
+
+  .logo img{
+    width: 120px;
+  }
+
+  .menu-list{
+    display: flex;
+    justify-content: space-between;
+    gap: 20px;
+    list-style-type: none;
+  }
+
+  .menu-list li a{
+    text-decoration: none;
+    color: #1A1A1A;
+  }
+
+  /* hero section */
+    #hero{
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        height: 50rem;
+        width: 100%;
+        background-image: url('../images/landing.jpg');
+        background-size: cover;
+        background-position: center;
+    }   
+
+    .hero-content{
+        text-align: center;
+        color: #e0dede;
+    }
+
+    .hero-content h1{
+        font-size: 3rem;
+        font-weight: 600;
+        margin-bottom: 20px;
+    }
+
+    .hero-content p{
+        font-size: 1rem;
+        font-weight: 50;
+        margin-bottom: 10px;
+        line-height: 20px;
+    }
+
+    #features{
+        padding: 30px 0;
+        margin-top: 5rem;
+    }
+
+    #features h2{
+        text-align: center;
+        font-size: 1.5rem;
+        font-weight: 500;
+        margin-bottom: 10px;
+    }
+
+    #features hr{
+        width: 190px;
+        height: 3px;
+        background-color: #00B172;
+        border: none;
+        margin: 0 auto 20px auto;
+    }
+
+    .features-content{
+        display: flex;
+        justify-content: space-evenly;
+        flex-wrap: wrap;
+        gap: 20px;
+        align-items: center;
+        padding: 50px 0;
+        text-align: center;
+        margin-top: 3rem;
+    }
+
+    .feature-item{
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+        max-width: 300px;
+        padding: 20px;
+        border-radius: 10px;
+        background-color: #fff;
+        box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+    }
+
+    .feature-item img{
+        width: 80px;
+        margin-bottom: 10px;
+    }
+
+    .feature-item h3{
+        font-size: 1.2rem;
+        font-weight: 600;
+        color: #00B172;
+        margin-bottom: 10px;
+    }
+
+    .feature-item p{
+        font-size: 1rem;
+        font-weight: 50;
+        line-height: 20px;
+    }
+
+    #green{
+        background-color: #00B172;
+        display: flex;
+        justify-content: space-between;
+        align-items: center;
+        margin: 5rem;
+        padding: 5rem;
+        position: relative;
+        overflow: hidden;
+    }
+
+    .image{
+        max-width: 100%;
+    }
+    .photo{
+        height: 500px;
+        padding-top: 40px; 
+    }
+
+    .items-container{
+        display: flex;
+        flex-direction: column;
+        justify-content: space-between;
+        align-items: flex-start;
+        /* gap: 20px; */
+        width: 40%;
+        max-height: 100%;
+    }
+
+    .items-container h2{
+        font-size: 1.5rem;
+        font-weight: 600;
+        color: #fff;
+    }
+
+    .items-container hr{
+        border: .1rem solid #fff;
+        width: 72%;
+        margin-left: 0;
+    }
+
+    .items{
+        display: flex;
+        flex-direction: column;
+        justify-content: space-between;
+        align-items: center;
+        gap: 50px;
+        margin-top: 2rem;
+        width: 70%;
+    }
+
+    .items h3{
+        font-size: 1.2rem;
+        font-weight: 600;
+        color: #fff;
+        margin-bottom: 1.5rem;
+    }
+
+    .items p{
+        font-size: 1rem;
+        font-weight: lighter;
+        color: #fff;
+        line-height: 20px;
+    }
+
+    .white-icon{
+        width: 10rem;
+        height: 10rem;
+        position: absolute;
+        right: 45%;
+        overflow: hidden;
+    }
