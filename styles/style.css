@@ -6,3 +6,246 @@ Green: #00B172
 White: #FFF
 
 */
+/* font */
+
+html {
+  box-sizing: border-box;
+  font-size: 16px;
+  color: #1a1a1a;
+}
+
+*,
+*:before,
+*:after {
+  box-sizing: inherit;
+}
+
+body,
+h1,
+h2,
+h3,
+h4,
+h5,
+h6,
+p,
+ul {
+  margin: 0;
+  padding: 0;
+  font-weight: lighter;
+}
+
+body {
+  font-family: "helvetica", sans-serif;
+}
+
+header {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 20px;
+  background-color: #fff;
+  position: fixed;
+  top: 0;
+  width: 100%;
+  overflow: hidden;
+}
+.spotify-logo img {
+  width: 140px;
+}
+
+.menu-list {
+  display: flex;
+  justify-content: space-between;
+  gap: 20px;
+  list-style-type: none;
+}
+.spotify-logo {
+  width: 140px;
+}
+.navbar-ul {
+  display: flex;
+  justify-content: space-between;
+  gap: 20px;
+  text-decoration: none;
+}
+.menu-list li a {
+  text-decoration: none;
+  color: #1a1a1a;
+}
+
+/* Hero Section ID*/
+
+#hero {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 80vh;
+  background-image: url(/images/landing.jpg);
+  background-size: cover;
+  background-position: center;
+}
+.hero-content {
+  text-align: center;
+  color: white;
+}
+.hero-content h1 {
+  font-size: 3rem;
+  font-weight: 600;
+  margin-bottom: 20px;
+}
+.hero-content p {
+  font-size: 1rem;
+  font-weight: 50;
+  margin-bottom: 10px;
+  line-height: 20px;
+}
+/* Features ID*/
+#features {
+  padding: 45px 0;
+}
+
+#features h2 {
+  text-align: center;
+  font-size: 1.5rem;
+  font-weight: 500;
+  margin-bottom: 10px;
+}
+#features hr {
+  width: 190px;
+  height: 3px;
+  background-color: #00b172;
+  border: none;
+  margin: 0 auto 20px auto;
+}
+.features-content {
+  display: flex;
+  justify-content: space-evenly;
+  align-items: center;
+  padding: 50px;
+  text-align: center;
+  flex-wrap: wrap;
+  gap: 20px;
+  margin: top 3rem;
+}
+.feature-item img {
+  width: 80px;
+  margin-bottom: 10px;
+}
+.feature-item h3 {
+  font-size: 1.2rem;
+  font-weight: 600;
+  color: #00b172;
+  margin-bottom: 10px;
+}
+.feature-item {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  max-width: 300px;
+  padding: 20px;
+  border-radius: 10px;
+  background-color: #fff;
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+}
+.feature-item p {
+  font-size: 1rem;
+  font-weight: 50;
+  line-height: 25px;
+}
+/* last (green) section */
+
+#green-section {
+  background-color: #00b172;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 5rem 3rem;
+  position: relative;
+  flex-wrap: wrap;
+  margin: 0 auto;
+  max-width: 1600px;
+  width: 100%;
+}
+
+.items-container {
+  flex: 1;
+  max-width: 30%;
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+  color: white;
+}
+
+.items-container h2 {
+  font-size: 1.8rem;
+  font-weight: 300;
+  margin-bottom: 1rem;
+  color: white;
+}
+
+.items-container hr {
+  border: 0.1rem solid #fff;
+  width: 80%;
+  margin-bottom: 2rem ;
+
+  
+}
+
+.items {
+  display: flex;
+  flex-direction: column;
+  gap: 1rem;
+}
+
+.items h3 {
+  font-size: 1.2rem;
+  font-weight: 600;
+  color: white;
+  margin-bottom:35px;
+}
+
+.items p {
+  font-size: 1rem;
+  color: white;
+  line-height: 1.6;
+  font-weight: 300;
+  text-align: left;
+  margin-bottom: 15px;
+}
+
+/* white icon */
+.white-icon-wrapper {
+  flex: 1;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.white-icon {
+  width: 8rem;
+  height: 8rem;
+  position: absolute;
+  margin-right: 70px ;
+}
+/* kanye image */
+.image {
+  display: flex;
+  justify-content: flex-end;
+  margin-right: 10px;
+}
+.photo {
+  max-width: 100%;
+  height: auto;
+  max-height: 600px;
+}
+.green-container {
+  max-width: 1400px;
+  margin: 0 auto;
+  width: 100%;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  gap: 2rem; 
+  flex-wrap: wrap;
+}
