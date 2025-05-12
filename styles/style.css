@@ -6,3 +6,168 @@ Green: #00B172
 White: #FFF
 
 */
+
+body {
+  background-color: #fff;
+  color: #1a1a1a;
+  font-family: 'Inter', sans-serif;
+  margin: 0;
+  padding: 0;
+}
+/* NAV */
+nav {
+  display: flex;
+  background-color: #fff;
+  justify-content: space-between;
+  padding-top: 2.5vh;
+  padding-bottom: 2.5vh;
+  padding-left: 2vw;
+  padding-right: 2vw;
+}
+
+nav ul {
+  list-style: none;
+  display: flex;
+  gap: 3vw;
+}
+
+nav ul a {
+  text-decoration: none;
+  color: #1a1a1a;
+  font-size: 1.2rem;
+}
+
+.spotify-logo-nav {
+  height: 50px;
+}
+
+/* HEADER */
+
+header {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  height: 600px;
+}
+
+header img {
+  width: 100%;
+  height: 600px;
+  object-fit: cover;
+  padding: 0;
+}
+
+.landing-text {
+  position: absolute;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  text-align: center;
+  color: #fff;
+}
+
+header h1 {
+  font-size: 60px;
+  line-height: 0;
+  font-weight: 500;
+}
+
+header p {
+  font-size: 20px;
+  line-height: 25px;
+  font-weight: 400;
+}
+
+/* SERVICES SECTION */
+
+.services {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  height: 500px;
+  justify-content: space-around;
+  margin-bottom: 8vh;
+}
+
+.services h2 {
+  font-size: 40px;
+  text-decoration: underline #00b172;
+  font-weight: 600;
+  margin: 0;
+}
+
+.services-container {
+  display: flex;
+  justify-content: space-evenly;
+}
+
+.services-container h3 {
+  color: #00b172;
+  font-weight: bold;
+  font-size: 28px;
+}
+
+.services-container p {
+  font-size: 25px;
+  text-align: center;
+  font-weight: 300;
+  margin: 0;
+}
+
+.services-img {
+  height: 80px;
+}
+
+.services-card {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  width: 23%;
+}
+
+/* GREEN CONTAINER */
+
+.green-container {
+  background-color: #00b172;
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+  height: 700px;
+  margin: 0 4vw;
+  padding: 1rem;
+  width: 90%;
+}
+
+.text-green {
+  color: #fff;
+}
+
+.text-title-green {
+  font-size: 40px;
+  text-decoration: underline;
+  font-weight: 600;
+  position: absolute;
+  margin-left: 4vw;
+  padding-left: 3.5rem;
+  color: #fff;
+}
+
+.inside-text {
+  width: 400px;
+}
+
+.inside-text h3 {
+  font-weight: bold;
+  font-size: 28px;
+}
+
+.inside-text p {
+  font-size: 24px;
+  font-weight: 400;
+}
+
+.spotify-white {
+  height: 100px;
+}
