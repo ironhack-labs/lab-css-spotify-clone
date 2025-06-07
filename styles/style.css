@@ -6,3 +6,92 @@ Green: #00B172
 White: #FFF
 
 */
+* {
+  margin: 0;
+}
+
+body {
+    font-family:Arial, Helvetica, sans-serif;
+}
+
+nav {
+    background-color: white;
+    position: fixed;
+    height: 50px;
+    width: 100%;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+}
+
+ul {
+    text-align:end;
+    padding: 20px;
+}
+
+header {
+    background-image: url(../images/landing.jpg);
+    background-size: cover;
+    background-repeat: no-repeat;
+    height: 500px;
+    color: white;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    padding: 20px;
+    text-align: center;
+    font-weight: lighter;
+}
+
+h1 {
+    margin-bottom: 30px;
+}
+.icon {
+    height:40px;
+    padding: 5px;
+}
+h2 {
+    text-align: center;
+    font-size:medium;
+    padding-top: 20px;
+    border: solid #00B172;
+    border-width: 0 0 2px 0;
+    padding-bottom: 5px;
+    width: 150px;
+
+}
+
+.offers {
+    display: flex;
+    flex-direction: row;
+    justify-content:space-between ;
+
+}
+
+.usage {
+    background-color: #00B172;
+    display: flex;
+    flex-direction: row;
+    align-items: flex-start;
+    justify-content: space-between;
+    padding: 50px 0;
+}
+
+.usage .icon {
+    align-self: center;
+}
+
+.instructions {
+    display: flex;
+    flex-direction: column;
+    color:white;
+    max-width: 40%;
+}
+
+
+.screenshot {
+    width: 300px;
+    height: 300px;
+    object-fit: contain;
+}
