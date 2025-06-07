@@ -6,3 +6,128 @@ Green: #00B172
 White: #FFF
 
 */
+* {
+    margin: 0;
+    padding: 0;
+}
+
+#logo {
+    width: 20vh;
+}
+
+nav {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin: 10px 0;
+}
+
+.navLinks {
+    display: flex;
+    gap: 20px;
+}
+
+header {
+    background-image: url(../images/landing.jpg);
+    background-size: cover;
+    background-position: center;
+    width: 100%;
+    height: 100vh;
+    color: white;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+}
+
+header h2 {
+    font-size: 60px;
+}
+
+
+
+/* Section 2 */
+
+.description {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+    padding: 20px;
+    margin-bottom: 10px;
+}
+
+.title {
+    font-size: 30px;
+}
+
+.card {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    text-align: center;
+}
+
+.boxTitle {
+    color: #3eba8f;
+    font-size: 30px;
+    font-weight: 800;
+}
+.cardImg {
+    height: 100px;
+}
+
+.boxes {
+    width: 25%;
+    
+}
+
+.card p {
+    font-size: 25px;
+    margin-top: 10px;
+}
+
+/* Section 3 (.green) */
+
+.green {
+ background-color: #00B172;   
+}
+
+.greenTitle {
+    color: white;
+    font-size: 50px;
+    text-decoration: underline;
+    padding-top: 30px;
+    padding-left: 50px;
+}
+
+.explanation {
+    color: white;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 0 50px;
+}
+
+.explanation h5 {
+    font-size: 30px;
+}
+
+article {
+    font-size: 20px;
+    width: 30%;
+    display: flex;
+    flex-direction: column;
+    gap: 30px;
+}
+
+
+.logo {
+    height: 25vh;
+}
+
+.screenshot {
+    height: 90vh;
+}
