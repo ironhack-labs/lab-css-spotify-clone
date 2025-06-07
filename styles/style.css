@@ -6,3 +6,146 @@ Green: #00B172
 White: #FFF
 
 */
+body{
+    font-family: 'Raleway', sans-serif;
+}
+
+.enlaces{
+    color: #1A1A1A;
+    display: flex;
+    flex-direction: row;
+    text-decoration: none;
+    list-style: none;
+    justify-content: flex-end;
+}
+
+.navegador{
+    position: static;
+    top: 0;
+    height: 45;
+    padding: 10px;
+    display: flex;
+    flex-direction: row;
+    background-color: white;
+    top: 0;
+}
+.enlaces a {
+    display: flex;
+    color: #1A1A1A;
+    text-decoration: none;
+    align-items: center;
+    letter-spacing: 2px;
+}
+
+.background{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    position:relative;
+    background-image: url(../images/landing.jpg);
+    background-position: 0 0;
+    background-repeat: no-repeat;
+    background-size:cover;
+    height: 800px;
+    padding-top:50px;
+  }
+.logo-spoty{
+    width: 10%;
+    padding-right: 2%;
+}
+
+.titulo{
+    text-align: center;
+    color: white;
+}
+
+.titulo h4{
+    font-weight: lighter;
+}
+
+.whatOn{
+    text-align: center;
+}
+hr{
+    width: 15%;
+    height: 3px;
+}
+
+li{
+    margin: 0 10px;
+}
+
+.iconos{
+    width: 125px;
+}
+
+.qualities{
+    display: flex;
+    justify-content: space-evenly;
+    flex-wrap: wrap;
+}
+
+.qualititesOrder{
+    display: flex;
+    flex-direction: column;
+    text-align: center;
+}
+
+.iconos-box{
+    font-size: 20px;
+    text-align: center;
+    /*RETO DE CLASES AGREGADAS*/
+    box-sizing: border-box;
+    padding: 10px;
+    width: 25%;
+}
+
+.iconos-box h3{
+    font-weight: bolder;
+    color: #00B172;
+}
+
+.iconos-box p{
+    font-weight:normal ;
+    color: #1A1A1A;
+}
+
+.footer{
+    flex-wrap: wrap;
+    padding: 2%;
+    display: flex;
+    flex-direction: row;
+    background-color: #00B172;
+    justify-content:space-around;
+    align-items: center;
+}
+
+#logoBlanco{
+    width: 30%;
+}
+
+.footer div{
+    width: 20%;
+    margin: 0 10px;
+}
+
+#app{
+    width: 60%;
+}
+
+#copyBlanco{
+    color: white;
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-end;
+}
+
+.lineaFinal{
+    border-bottom: white 3px;
+}
+
+#hrfinal{
+border-bottom: 3px solid white;
+padding-bottom: 5px;
+}
