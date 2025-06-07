@@ -6,3 +6,186 @@ Green: #00B172
 White: #FFF
 
 */
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+html {
+  font-size: 10px;
+}
+
+body {
+  color: #1a1a1a;
+}
+
+ul {
+  list-style: none;
+}
+
+a {
+  text-decoration: none;
+}
+
+p {
+  font-size: 1.6rem;
+}
+
+h2 {
+  font-size: 4rem;
+}
+
+h3 {
+  font-size: 2.4rem;
+}
+
+.wrapper {
+  width: 90%;
+  margin: 0 auto;
+}
+/* header */
+header {
+  width: 100%;
+  margin-bottom: 10rem;
+}
+
+nav {
+  width: 100%;
+  height: 10rem;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  padding: 1rem 4rem;
+}
+
+.logo {
+  width: 10%;
+}
+
+.logo img {
+  width: 100%;
+  height: auto;
+}
+
+.nav-right {
+  width: 35%;
+}
+
+.navbar {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.navbar a {
+  color: #1a1a1a;
+  font-size: 1.6rem;
+}
+
+.navbar a:hover {
+  color: #00b172;
+}
+
+header .banner {
+  height: 128rem;
+  background: url(../images/landing.jpg) no-repeat;
+  background-size: cover;
+  color: #fff;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  text-align: center;
+}
+
+h1 {
+  font-size: 6.4rem;
+  margin-bottom: 3rem;
+}
+
+.banner p {
+  font-size: 2.2rem;
+  line-height: 1.8;
+}
+
+/* intro section */
+.intro {
+  text-align: center;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  margin-bottom: 10rem;
+}
+
+.intro h2 {
+  width: 38rem;
+  border-bottom: 4px solid #00b172;
+  margin-bottom: 6rem;
+}
+
+.box {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  gap: 6rem;
+}
+
+.box-content {
+  width: 30%;
+  height: 22rem;
+}
+
+.box-content img {
+  height: 8.6rem;
+  margin-bottom: 2rem;
+}
+
+.box-content h3 {
+  color: #00b172;
+  margin-bottom: 2rem;
+}
+
+/* section content */
+.content {
+  background: #00b172;
+  color: #fff;
+  padding: 7rem;
+  display: flex;
+  align-items: center;
+  position: relative;
+}
+
+.content-left {
+  width: 50%;
+}
+
+.content-left h2 {
+  border-bottom: 3px solid #fff;
+  margin-bottom: 6rem;
+}
+
+.content-left h3 {
+  margin: 5rem 0;
+}
+
+.content-left p {
+  line-height: 1.6;
+  letter-spacing: 0.8px;
+}
+
+.content-right {
+  display: flex;
+  justify-content: flex-end;
+}
+.content-right img {
+  width: 60%;
+}
+
+.content > img {
+  width: 15rem;
+  height: 15rem;
+  position: absolute;
+  left: 40%;
+  top: 50%;
+}
