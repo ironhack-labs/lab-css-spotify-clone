@@ -6,3 +6,153 @@ Green: #00B172
 White: #FFF
 
 */
+
+:root {
+  --green: #00b172;
+  --text: #1a1a1a;
+  --white: #fff;
+}
+
+* {
+  box-sizing: border-box;
+  margin: 0;
+  padding: 0;
+  font-family: "Roboto", sans-serif;
+}
+
+body {
+  line-height: 1.6;
+  color: var(--text);
+  background-color: var(--white);
+}
+
+header {
+  background: var(--white);
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 20px 40px;
+  border-bottom: 1px solid #ddd;
+}
+
+.logo img {
+  height: 40px;
+}
+
+nav a {
+  margin-left: 30px;
+  text-decoration: none;
+  color: var(--text);
+  font-weight: 500;
+}
+
+.hero {
+  background: url("../images/landing.jpg") center/cover no-repeat;
+  color: var(--white);
+  text-align: center;
+  padding: 100px 20px;
+  height: 500px;
+}
+
+.hero h1 {
+  font-size: 48px;
+  margin-bottom: 20px;
+}
+
+.hero p {
+  font-size: 20px;
+  font-weight: 300;
+}
+
+.features {
+  background: var(--white);
+  text-align: center;
+  padding: 60px 20px;
+}
+
+.features h2 {
+  font-size: 28px;
+  margin-bottom: 40px;
+  color: var(--text);
+}
+
+.feature-grid {
+  display: flex;
+  justify-content: center;
+  flex-wrap: wrap;
+  gap: 30px;
+}
+
+.feature {
+  width: 250px;
+  padding: 20px;
+}
+
+.feature img {
+  width: 50px;
+  height: 50px;
+}
+
+.feature h3 {
+  color: var(--green);
+  margin: 10px 0;
+  font-weight: 700;
+}
+
+.feature p {
+  color: #ccc;
+  font-weight: 300;
+}
+
+.yeezy-section {
+  background: var(--green);
+  color: var(--white);
+  display: flex;
+  justify-content: space-between;
+  padding: 60px 40px;
+  flex-wrap: wrap;
+  position: relative;
+}
+
+.yeezy-text {
+  flex: 1;
+  max-width: 500px;
+  position: relative;
+  z-index: 1;
+}
+
+.yeezy-text h2 {
+  margin-bottom: 20px;
+  font-weight: 700;
+}
+
+.yeezy-text p {
+  margin-bottom: 10px;
+  color: #dcdcdc;
+  font-weight: 300;
+}
+
+.yeezy-text strong {
+  color: var(--white);
+  font-weight: 700;
+}
+
+.kanye-img {
+  flex: 1;
+  max-width: 300px;
+  z-index: 1;
+}
+
+.kanye-img img {
+  width: 100%;
+  border-radius: 10px;
+}
+
+.center-logo {
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  /* opacity: 0.1; */
+  width: 80px;
+}
