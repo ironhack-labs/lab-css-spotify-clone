@@ -6,3 +6,151 @@ Green: #00B172
 White: #FFF
 
 */
+body {
+    max-width: 1490px;
+}
+.navbar {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 20px;
+    position: fixed;
+    background-color: white;
+    width: 100%;
+    max-width: 1490px;
+    top: 0;
+    left: 0;
+    z-index: 1000;
+}
+.navbar .logo img {
+    width: 200px;
+    height: auto;
+}
+
+.nav-links {
+    display: flex;
+    gap: 20px;
+    list-style: none;
+}
+
+.nav-links li a {
+    font-size: 1.2rem;
+    color: #1A1A1A;
+    text-decoration: none;
+}
+
+.hero {
+    background-image: url("../images/landing.jpg");
+    background-size: cover;
+    height: 100vh;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    color: white;
+    font-weight:normal;
+}
+.hero h1 {
+    font-size: 3rem;
+    margin-bottom: 20px;
+}
+.hero p {
+    font-size: 1.5rem;
+    margin-bottom: 30px;
+    text-align: center;
+    flex-wrap: wrap;
+    width: 40%;
+    font-weight: normal;
+}
+
+.SpotifyDetails {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    padding: 50px 20px;
+}
+
+.SpotifyDetails h2 {
+    font-size: 2.5rem;
+    margin-bottom: 20px;
+}
+
+.cards {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    gap: 20px;
+    padding: 20px;
+}
+.SpotifyDetails h3 {
+    font-size: 1.8rem;
+    margin-bottom: 10px;
+    color: #00B172;
+}
+.SpotifyDetails p {
+    font-size: 1.2rem;
+    margin-bottom: 20px;
+    text-align: center;
+    width: 60%;
+}
+
+.cards img {
+    width: 100px;
+    height: auto;
+    border-radius: 10px;
+}
+
+.cards div {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    text-align: center;
+    width: 300px;
+    height: auto;
+    padding: 40px;
+}
+
+.kanye-section {
+    background-color: #00B172;
+    background-image: url("../images/spotify-icon-white.png");
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: 150px;
+    padding: 100px 100px;
+    display: flex;
+    justify-content: space-between;
+}
+
+.Kanye {
+    flex-direction: column;
+    align-items: center;
+    padding-left: 40px;
+}
+
+.kanye-text {
+    color: white;
+    align-self: center;
+    line-height: 1.5;
+}
+
+.Kanye h2 {
+    color: white;
+    font-size: 2.5rem;
+    margin-bottom: 20px;
+    border-bottom: 2px solid white;
+    width: 85%;
+}
+.Kanye h3 {
+    color: white;
+    font-size: 1.8rem;
+    margin-bottom: 10px;
+}
+.Kanye p {
+    font-size: 1rem;
+    margin-bottom: 20px;
+    width: 50%;
+}
+.kanye-section img {
+    width: 350px;
+    height: auto;
+}
