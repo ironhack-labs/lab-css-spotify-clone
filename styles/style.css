@@ -6,3 +6,139 @@ Green: #00B172
 White: #FFF
 
 */
+
+body {
+  margin: 0;
+  padding: 0;
+  color: #1a1a1a;
+  font-family: Arial, Helvetica, sans-serif;
+}
+
+.nav-bar {
+  display: flex;
+  justify-content: space-between;
+  position: fixed;
+  top: 0;
+  background-color: #fff;
+  width: 100%;
+  box-sizing: border-box;
+  padding: 15px;
+}
+
+.nav-bar img {
+  max-width: 150px;
+}
+
+.nav-bar ul li {
+  display: inline-block;
+  padding-right: 10px;
+  text-decoration: none;
+}
+
+.nav-bar ul li a {
+  text-decoration: none;
+  color: #1a1a1a;
+}
+
+.hero {
+  margin-top: 80px;
+  background-image: url("../images/landing.jpg");
+  background-repeat: no-repeat;
+  background-position: 0% 0%;
+  background-size: cover;
+  height: 650px;
+  color: #fff;
+  text-align: center;
+}
+
+.hero h1,
+h2 {
+  position: relative;
+  top: 30%;
+}
+.hero h1 {
+  font-weight: 500;
+  font-size: 3.9em;
+}
+.hero h2 {
+  font-weight: lighter;
+  font-size: 1.2em;
+  width: 50%;
+  margin: 0 auto;
+}
+
+/*WHITE SECTION*/
+main {
+  margin: 30px;
+}
+
+#white-section h3 {
+  text-align: center;
+  font-size: 2em;
+  text-decoration: underline #00b172;
+  text-underline-offset: 10px;
+}
+
+#white-section img {
+  max-height: 80px;
+  width: auto;
+}
+
+#white-section h4 {
+  color: #00b172;
+  font-size: 1.2em;
+}
+.flexer {
+  display: flex;
+  justify-content: space-around;
+  padding: 70px;
+}
+.container {
+  text-align: center;
+  width: 250px;
+}
+
+/*GREEN SECTION*/
+#green-section {
+  background-color: #00b172;
+}
+
+#green-section {
+  display: flex;
+  justify-content: space-between;
+  padding: 65px;
+  color: #fff;
+  font-size: 1.2em;
+  position: relative;
+}
+
+#green-section div {
+  height: 500px;
+  width: 285px;
+}
+
+#green-section h3 {
+  text-decoration: underline 2px;
+  text-underline-offset: 10px;
+  width: 400px;
+  font-size: 1.2em;
+  margin-bottom: 55px;
+}
+
+#green-section p {
+  font-size: 0.9em;
+}
+
+.mobile-spotify {
+  max-height: 470px;
+  width: auto;
+  margin-top: 50px;
+}
+
+.logo {
+  position: absolute;
+  max-width: 100px;
+  height: auto;
+  top: 45%;
+  left: 45%;
+}
