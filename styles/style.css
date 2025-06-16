@@ -6,3 +6,178 @@ Green: #00B172
 White: #FFF
 
 */
+:root {
+  --text: #1a1a1a;
+  --green: #00b172;
+  --white: #fff;
+}
+
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+body {
+  font-family: "regencie";
+}
+
+.navbar {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  position: sticky;
+  margin: 10px;
+  padding-left: 20px;
+  padding-right: 20px;
+  align-items: center;
+}
+
+.spotify-logo {
+  width: 145px;
+}
+
+.navbar ul {
+  display: flex;
+  flex-direction: row;
+  list-style: none;
+  gap: 20px;
+  justify-content: space-around;
+}
+
+a {
+  color: var(--text);
+  text-decoration: none;
+  text-decoration-color: black;
+}
+
+.hero {
+  background-image: url("../images/landing.jpg");
+  height: 505px;
+  background-position: center;
+  background-size: cover;
+  align-content: center;
+  text-align: center;
+  color: white;
+  padding-left: 90px;
+  padding-right: 90px;
+}
+
+.hero h1 {
+  font-size: 3rem;
+  margin-bottom: 20px;
+}
+
+.hero p {
+  font-size: 17px;
+  margin-left: 200px;
+  margin-right: 200px;
+}
+
+.features {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+}
+
+.features h2 {
+  margin-top: 20px;
+  text-align: center;
+  text-decoration: underline 3px var(--green);
+  text-underline-position: below;
+  text-underline-offset: 10px;
+}
+
+.features-container {
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+}
+
+.feature-div {
+  display: flex;
+  flex-direction: column;
+  width: 280px;
+  justify-content: space-around;
+}
+
+.feature__img {
+  transform: scale(35%);
+  object-fit: scale-down;
+}
+
+.feature-div > h3 {
+  color: var(--green);
+  font-family: Arial, Helvetica, sans-serif;
+  text-align: center;
+  transform: translateY(-90px);
+}
+
+.feature-div:nth-child(even) > h3 {
+  margin-top: 40px;
+}
+
+.feature-div:last-child > h3 {
+  margin-top: 30px;
+}
+
+.feature-div:last-child p {
+  transform: translateY(-70px);
+}
+
+.feature-div p {
+  transform: translateY(-80px);
+  padding-left: 50px;
+  padding-right: 50px;
+  text-align: center;
+}
+
+.greener {
+  background-color: var(--green);
+  background-image: url(../images/spotify-icon-white.png);
+  background-repeat: no-repeat;
+  background-position: center;
+  background-size: 75px 75px;
+  display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(250px, 1fr));
+  justify-content: space-around;
+  padding: 50px 50px;
+  align-items: center;
+  flex-wrap: nowrap;
+}
+.greener-text {
+  display: flex;
+  flex-direction: column;
+  justify-content: right;
+  color: var(--white);
+  gap: 30px;
+}
+.greener-text > h2 {
+  text-decoration: underline 3px var(--white);
+  text-underline-position: below;
+  text-underline-offset: 10px;
+  font-size: 25px;
+  margin-bottom: 20px;
+}
+.greener__article {
+  display: flex;
+  flex-direction: column;
+  row-gap: 20px;
+  gap:30px;
+}
+
+.greener__article h3 {
+  font-family: Arial, Helvetica, sans-serif;
+}
+.greener__article p {
+  width: 63%;
+  font-size: small;
+}
+.greener__div {
+  justify-content: right;
+  margin-left: 130px;
+  padding-top: 30px;
+}
+.greener-img {
+  width: 90%;
+}
