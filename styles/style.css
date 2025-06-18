@@ -1,8 +1,180 @@
-/*
-Colors:
+@import url("https://fonts.googleapis.com/css2?family=Montserrat:ital,wght@0,100..900;1,100..900&family=Open+Sans:ital,wght@0,300..800;1,300..800&family=Roboto:ital,wght@0,100..900;1,100..900&display=swap");
 
-Text: 1A1A1A
-Green: #00B172
-White: #FFF
+:root {
+  --text-color: #1a1a1a;
+  --green-color: #00b172;
+  --white-color: #fff;
+  --font-main: Roboto;
+}
 
-*/
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+html,
+body {
+  width: 100%;
+  font-family: var(--font-main);
+  background-color: var(--white-color);
+  color: var(--text-color);
+  line-height: 1.6;
+  scroll-behavior: smooth;
+}
+
+.header {
+  display: flex;
+  align-content: center;
+  flex-wrap: nowrap;
+  justify-content: space-between;
+  align-items: center;
+  margin: 1rem;
+  margin-inline: 2rem;
+}
+
+.logo img {
+  width: 200px;
+}
+
+.nav ul {
+  display: flex;
+  list-style: none;
+}
+
+.nav a {
+  color: var(--text-color);
+  text-decoration: none;
+  font-weight: 300;
+  font-size: 1.5rem;
+  margin-left: 2rem;
+  padding: 1rem;
+}
+
+.nav a:hover {
+  background-color: var(--green-color);
+}
+
+.hero {
+  background-image: url(/images/landing.jpg);
+  background-repeat: no-repeat;
+  height: 800px;
+  background-position: center;
+  background-size: cover;
+  color: var(--white-color);
+  display: flex;
+  flex-direction: column;
+  flex-wrap: nowrap;
+  align-content: center;
+  justify-content: center;
+  align-items: center;
+}
+
+.hero h1 {
+  font-size: 5rem;
+  font-weight: 450;
+  text-align: center;
+}
+
+.hero h2 {
+  font-size: 1.75rem;
+  font-weight: 250;
+  text-align: center;
+}
+
+.whatsOnSpotify {
+  margin-top: 2rem;
+  margin-bottom: 3rem;
+}
+
+.whatsOnSpotify h2 {
+  font-size: 2.25rem;
+  text-align: center;
+  font-weight: 500;
+  text-decoration-line: underline;
+  text-decoration-color: var(--green-color);
+  text-underline-offset: 15px;
+  margin-bottom: 4rem;
+}
+
+.insideSpotify div {
+  display: flex;
+  flex-direction: column;
+  flex-wrap: nowrap;
+  align-content: center;
+  justify-content: flex-start;
+  align-items: center;
+  width: 300px;
+  min-height: 300px;
+  padding-top: 1rem;
+  box-sizing: border-box;
+}
+
+.insideSpotify {
+  display: flex;
+  flex-direction: row;
+  flex-wrap: nowrap;
+  align-content: center;
+  justify-content: space-evenly;
+  align-items: center;
+}
+
+.insideSpotify img {
+  width: 100px;
+  height: 85px;
+  margin-bottom: 1rem;
+}
+
+.insideSpotify h3 {
+  margin: 0;
+  padding-bottom: 0.5rem;
+  color: var(--green-color);
+  font-size: 1.75rem;
+  text-align: center;
+}
+
+.insideSpotify p {
+  text-align: center;
+  font-size: 1.5rem;
+  font-weight: 250;
+}
+
+.greenSection {
+  background-color: var(--green-color);
+  color: var(--white-color);
+  padding: 4.5rem;
+  margin: 2rem;
+}
+
+.greenSection h2 {
+  font-size: 2.25rem;
+  text-align: left;
+  font-weight: 500;
+  text-decoration-line: underline;
+  text-underline-offset: 15px;
+}
+
+.greenLayout {
+  display: grid;
+  grid-template-columns: 2fr 1fr 2fr;
+  justify-items: center;
+  align-items: center;
+}
+
+.greenLayout h4 {
+  font-size: 1.75rem;
+  margin-block: 1rem;
+}
+
+.greenLayout p {
+  font-size: 1.5rem;
+  font-weight: lighter;
+}
+
+.whiteLogo img {
+  width: 120px;
+}
+
+.screenshot img {
+  width: 300px;
+}
