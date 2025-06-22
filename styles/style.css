@@ -1,8 +1,167 @@
-/*
-Colors:
+html{
+    margin: 0;
+}
+body{
+    font-size: 1vw;
+    font-family: sans-serif;
+    margin: 0;
+    padding: 0;
+    color: black;
+}
+p,h1,h2,h3{
+    margin: 0;
+}
 
-Text: 1A1A1A
-Green: #00B172
-White: #FFF
 
-*/
+#navbar-container{
+    margin: 0;
+    padding: 1vw;
+    width: 100%;
+    background-color: antiquewhite;
+    position: fixed;
+    top: 0;
+    display: flex;
+    flex-wrap: nowrap;
+    justify-content: space-between;
+    align-items: center;
+}
+#spotify-logo{
+height: 3vw;
+}
+#nav-links{
+    display: flex;
+    flex-wrap: nowrap;
+    justify-content: space-evenly;
+    text-align: center;
+    padding-right: 2vw;
+}
+#nav-links a{
+    padding: 1vw;
+    text-decoration: none;
+    color: black;
+}
+#musicForEvry-container{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    color: white;
+    height: 50vw;
+    background-image:url('../images/landing.jpg') ;
+    background-size: cover;
+    background-position: center;
+}
+h1{
+    font-size: 5vw;
+    font-weight: 100;
+    padding-bottom: 2vw;
+}
+#musicForEvry-container p{
+    font-size: 1.5vw;
+    text-align: center;
+    word-spacing: 0.2vw;
+    line-height: 2vw;
+}
+#whatsOnSpotify{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    margin: 3vw;
+}
+h2{
+    padding-bottom: 1vw;
+    margin-bottom: 1vw;
+    font-size: 2vw;
+    color: #00B172;
+    border-bottom: 0.3vw solid #00B172 ;
+}
+#watsOnSpot-container{
+    display: flex;
+    flex-direction: row;
+    flex-wrap: nowrap;
+    justify-content: space-between;
+    gap:15vw;
+    align-items: baseline;
+    padding-top: 3vw;
+}
+.whatsOn-rowElements{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+#watsOnSpot-container img{
+    width: 8vw;
+}
+.whatsOn-headers{
+    font-size: 2vw;
+    font-weight: 600;
+    color: #00B172;
+    margin: 0;
+    padding: 1vw;
+}
+.whatsOn-text{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+.whatsOn-smallText{
+    text-align: center;
+    font-size: 1.5vw;
+    color: grey;
+    margin: 0;
+    line-height: 2vw;
+}
+#footer-container{
+    margin: 0 7vw;
+    background-color: #00B172;
+    background-size: 10vw 10vw;
+    background-repeat: no-repeat;
+    background-position: center;
+    background-image: url('../images/spotify-icon-white.png');
+}
+#footer-rows{
+    display: flex;
+    flex-wrap: nowrap;
+    flex-direction: row;
+    justify-content: space-around;
+    align-items: center;
+    margin: 0;
+}
+#footer-element{
+    color: white;
+   margin: 0;
+   display: flex;
+   flex-direction: column;
+   text-align: left;
+   align-content: space-around;
+   gap: 4vw;
+   padding: 4vw 0 4vw 4vw;
+
+}
+#kanyeWest{
+    font-size: 2vw;
+    color: white;
+    padding-bottom: 0.5vw;
+    border-bottom: 0.3vw solid white ;
+}
+.footer-element-text-container{
+    display: flex;
+    flex-direction: column;
+    align-content:space-between;
+    gap: 1vw;
+}
+.footer-element-headers{
+    font-size: 1.5vw;
+    padding-top: 1vw;
+}
+#footer-container img{
+    height: 30vw;
+    padding: 4vw 4vw 4vw 0;
+}
+.footer-element-text{
+    line-height: 1.5vw;
+    letter-spacing: 0.1vw;
+}
+
+
+
