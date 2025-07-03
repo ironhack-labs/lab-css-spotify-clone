@@ -6,3 +6,176 @@ Green: #00B172
 White: #FFF
 
 */
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+body{
+    background-color: white;
+    color: #1A1A1A;
+    font-family: Arial, sans-serif;
+    line-height: 1.3;
+}
+
+nav {
+    position: fixed;
+    top: 0;
+    width: 100%;
+    background-color: white;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 15px 40px;
+}
+
+nav img {
+    height: 40px;
+}
+
+nav ul {
+    list-style: none;
+    display: flex;
+    gap: 25px;
+}
+
+nav li {
+    cursor: pointer;
+}
+
+nav li:hover {
+    color: #00B172;
+}
+
+.hero {
+    background-image: url(../images/landing.jpg);
+    background-size: cover;
+    background-position: center;
+    height: 100vh;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+    color: white;
+    padding: 0 20px;
+    padding-top: 80px;
+}
+
+.hero h1 {
+    font-size: 50px;
+    margin-bottom: 10px;
+}
+
+.hero p {
+    font-size: 20px;
+    max-width: 600px;
+}
+
+.features {
+    padding: 80px 40px;
+    text-align: center;
+}
+
+.features h2 {
+    font-size: 30px;
+    color: #00B172;
+    margin-bottom: 40px;
+    border-bottom: 3px solid #00B172;
+    display: inline-block;
+    padding-bottom: 5px;
+}
+
+.features-cards {
+    display: flex;
+    justify-content: space-between;
+    flex-wrap: wrap;
+    gap: 10px;
+    margin-top: 40px;
+}
+ .card {
+    flex: 1;
+    padding: 30px 20px;
+    border-radius: 10px;
+    transition: 0.5s ease;
+ }
+
+ .card:hover {
+    transform: scale(1.03);
+ }
+
+ .card img {
+    height: 50px;
+    margin-bottom: 10px;
+ }
+
+ .card h3 {
+    font-size: 25px;
+    margin-bottom: 10px;
+    color: #00B172;
+}
+
+.card p {
+    font-size: 15px;
+}
+
+.green {
+    background-color: #00B172;
+    color: #ffffff;
+    display: flex;
+    justify-content: space-between;
+    align-items: flex-start;
+    padding: 80px 40px;
+    flex-wrap: wrap;
+}
+
+.left{
+    flex: 1;
+    min-width: 300px;
+    padding-right: 40px;
+}
+
+.left h2{
+    font-size: 30px;
+    margin-top: 20px;
+    border-bottom: 2px solid rgb(255, 255, 255);
+    display: inline-block;
+    padding-bottom: 5px;
+}
+
+.left h3{
+    font-size: 20px;
+    margin-top: 40px;
+    margin-bottom: 20px;
+}
+
+.left p {
+    font-size: 15px;
+    white-space: pre-line;
+    line-height: 1.5;
+}
+
+.right {
+    flex: 1;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.right img {
+    max-width: 90%;
+    height: 500px;
+    max-height: 100%;
+}
+
+.spotify-icon {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding: 40px
+}
+
+.spotify-icon img{
+    margin-top: 200px;
+    height: 90px;
+}
