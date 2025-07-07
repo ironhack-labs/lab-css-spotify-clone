@@ -6,3 +6,110 @@ Green: #00B172
 White: #FFF
 
 */
+body {
+  font-family: "Poppins", sans-serif;
+}
+
+.image-container {
+  display: flex;
+  justify-content: space-between;
+}
+.spotify-logo-container {
+  text-align: center;
+  margin: 10px;
+}
+.spotify-logo-png {
+  width: 100px;
+  height: auto;
+  max-width: 100%;
+}
+.nav-bar {
+  display: flex;
+  justify-content: space-between;
+  margin: 10px;
+}
+.nav-list {
+  display: flex;
+  justify-content: space-evenly;
+  gap: 10px;
+  list-style: none;
+}
+.music-container {
+  background-image: url("../images/landing.jpg");
+  background-size: cover;
+  background-position: center;
+  height: 400px;
+  width: 100%;
+  position: relative;
+  color: white;
+}
+.music-container-text {
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  font-size: 20px;
+}
+.spotify-container {
+  text-align: center;
+  margin: 10px;
+}
+.options-container {
+  display: flex;
+  justify-content: space-evenly;
+}
+.sections-container {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  width: 30%;
+  padding: 20px;
+  box-sizing: border-box;
+}
+.sections-container > h3 {
+  color: green;
+}
+.sections-container > p {
+  text-align: center;
+}
+.flex-image {
+  width: 150px;
+  height: 125px;
+}
+.kanye-container {
+  background-color: rgb(80, 164, 80);
+  display: flex;
+  flex-direction: row;
+  align-content: center;
+  justify-content: space-evenly;
+  padding: 50px;
+  color: white;
+  height: 600px;
+}
+.sub-kanye-container h2 {
+  border-bottom: solid white;
+  width: fit-content;
+}
+.sub-kanye-container {
+  display: flex;
+  flex-direction: column;
+}
+.sub-kanye-container h3 {
+  font-size: 1.5em;
+}
+
+#spotify-white-icon {
+  margin: auto;
+}
+#spotify-white-icon img {
+  width: 100px;
+  height: 100px;
+}
+#kanye-img img {
+  height: 600px;
+}
+.kanye-text-container {
+  display: flex;
+  flex-direction: column;
+  width: 400px;
+}
