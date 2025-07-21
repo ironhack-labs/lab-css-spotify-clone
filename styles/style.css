@@ -1,8 +1,228 @@
-/*
-Colors:
+@import url('https://fonts.googleapis.com/css?family=Montserrat:wght@100,200,300,400,500,600&display=swap');
 
-Text: 1A1A1A
-Green: #00B172
-White: #FFF
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
 
-*/
+html, body {
+  font-family: Montserrat, sans-serif;
+  color: #FFF;
+}
+
+h2{
+    font-size: 30px;
+    font-weight: 600;
+}
+
+h3{
+    font-size: 27px;
+}
+
+hr{
+    padding: 2px;
+    margin: 20px auto 30px;
+    box-shadow: none;
+    border: none;
+}
+
+.navbar{
+    position:fixed;
+    width: 100%;
+    height: 90px;
+    display: flex;
+    background-color: #FFF;
+    justify-content: space-between;
+    align-items: center;
+    padding: 10px 0;
+    z-index: 1000;
+    /* border: 5px solid yellow; */
+}
+
+.navbar img {
+    height: 4em;
+    /* border: 1px solid black; */
+    margin-left: 50px;
+    
+}
+
+.nav-links {
+  display: flex;
+  justify-content: space-evenly;    
+  align-items: center;
+  width: 40%;
+  height: auto;
+  /* border: 1px solid black; */
+  color: #1a1a1a;
+}
+
+.nav-links li {
+    font-size: 18px;
+    list-style-type: none;
+    text-align: center;
+}
+
+.hero{
+    /* border: 5px solid aquamarine; */
+    background-image: url("../images/landing.jpg");
+    /* height: 1200px; */
+    height: 130vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    text-align: center;
+    background-size: cover;
+    background-position: center;
+}
+
+header h1 {
+  font-size: 70px;
+  font-weight: 600;
+  margin-top: 20px;
+  /* border: 1px solid #FFF; */
+}
+
+header p {
+  font-size: 25px;
+  font-weight: 300;
+  line-height: 1.4;
+  margin-top: 30px;
+  transform: scaleY(1.1);
+}
+
+#spotify-content {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    flex-wrap: wrap;
+    margin-top: 30px;
+}
+
+#spotify-content h2{
+    color:#1a1a1a;
+    text-align: center;
+    transform: scaleY(1.1);
+}
+
+#spotify-content hr{
+    background-color:#00B172;
+    width: 25%;
+}
+
+#spotify-content div{
+    color: #1a1a1a;
+    width: 100%;
+    display: flex;
+    flex-direction: row;
+    place-content: center space-evenly;
+    align-items: center;
+    height: 350px;
+    margin-top: 30px;
+    /* border: 5px solid orange; */
+}
+
+#spotify-content div article{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    height: 100%;
+    width:100%;
+    /* border: 5px solid blueviolet; */
+}
+
+#spotify-content div article img{
+    height: 98px;
+    width: 113px;
+    margin-top: 20px;
+    /* border: 2px solid purple; */
+}
+
+#spotify-content div article h3{
+    text-align: center;
+    color:#00B172;
+    margin-top: 15px;
+}
+
+.text{
+    font-size: 19px;
+    font-weight: 300;
+}
+
+#spotify-content  > div > article > p{
+    text-align: center;
+    max-width: 300px;
+    margin-top: 30px;
+    /* border: 2px solid brown; */
+}
+
+#spotify-functions{
+    position:relative;
+    margin: 0 50px 60px ;
+    padding: 80px 120px;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: center;
+    background-color: #00B172;
+    /* border: 2px solid brown; */
+}
+
+.left-block{
+    display: flex;
+    flex-flow: column wrap;
+    /* justify-content: left; */
+    /* align-items: flex-start; */
+    align-content: flex-start;
+    /* border:1px solid yellow; */
+}
+
+.header-underlined{
+    display: flex;
+    flex-direction: column;
+    margin-bottom: 5px;
+    /* border:1px solid black; */
+}
+
+#spotify-functions hr{
+    background-color: #FFF;
+    width: 100%;
+}
+
+#spotify-functions div article {
+    margin-bottom: 10px;
+    /* border:1px solid violet; */
+}
+
+#spotify-functions div article h3{
+    padding: 25px 0;
+    /* border:1px solid black; */
+}
+
+#spotify-functions div article p{
+    color: #FFF;
+    display: flex;
+    flex-direction: row;
+    background-color: #00B172;
+    width: 350px;
+    line-height: 1.5; 
+}
+
+.image-spotify-app {
+    position:absolute;
+    right: 80px; 
+    top: 100px;
+    width: 330px;
+    height: 563px;
+    border: 1px solid black;
+}
+
+.image-spotify-white-icon{
+    position:absolute;
+    top: 43%;     
+    left: 45%; 
+    width: 120px;
+    height: 120px;
+}
