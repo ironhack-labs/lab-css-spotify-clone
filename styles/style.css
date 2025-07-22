@@ -1,3 +1,170 @@
+body {
+  margin: 0;
+  padding: 0;
+  font-family: "GothamPro";
+  font-weight: 300;
+  color: #1a1a1a;
+}
+
+#header {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 15px 25px;
+  position: fixed;
+  width: 100%;
+  background-color: white;
+}
+
+#logo {
+  display: flex;
+  justify-content: center;
+}
+
+#logo img {
+  max-height: 40px;
+  padding-left: 10px;
+}
+
+#nav-list {
+  display: flex;
+  justify-content: space-between;
+  list-style: none;
+  margin-right: 40px;
+}
+
+#nav-list li {
+  padding: 0px 10px;
+}
+
+#nav-list a {
+  text-decoration: none;
+  color: #1a1a1a;
+}
+
+#intro {
+  background-image: url("../images/landing.jpg");
+  background-size: cover;
+  height: 800px;
+  color: white;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+}
+
+#intro h1 {
+  font-size: 60px;
+  font-weight: 500;
+  margin: 30px;
+}
+
+#intro p {
+  padding: 2px;
+  margin: 0;
+  font-size: 21px;
+  font-weight: 100;
+  text-align: center;
+}
+
+#whats-on-spotify {
+  text-align: center;
+}
+
+#whats-on-spotify h2 {
+  font-size: 30px;
+  font-weight: 500;
+  margin: 30px;
+  text-decoration: underline #00b172 4px;
+  text-underline-offset: 10px;
+}
+
+.spotify-highlights-container {
+  display: flex;
+  justify-content: center;
+  flex-wrap: wrap;
+  padding: 20px;
+}
+
+.spotify-highlights {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: space-around;
+  flex-wrap: wrap;
+  padding: 20px;
+  max-width: 20%;
+  margin: 0px 20px;
+}
+
+.spotify-highlights img {
+  max-width: 110px;
+}
+
+.spotify-highlights h3 {
+  font-size: 25px;
+  font-weight: 600;
+  margin: 10px;
+  color: #00b172;
+}
+
+.spotify-highlights p {
+  font-size: 20px;
+  font-weight: 100;
+}
+
+#features {
+  background-color: #00b172;
+  margin: 25px;
+  padding: 50px 80px;
+  color: white;
+  display: flex;
+  align-items: center;
+  position: relative;
+}
+
+#features h2 {
+  font-size: 30px;
+  font-weight: 500;
+  text-decoration: underline white 3px;
+  text-underline-offset: 10px;
+  margin: 40px 0px;
+}
+
+#features-text {
+  font-weight: 100;
+}
+
+#features-text div {
+  max-width: 50%;
+}
+
+#features h3 {
+  font-weight: 400;
+  font-size: 20px;
+}
+
+#features p {
+  font-size: 18px;
+  line-height: 1.5em;
+}
+
+#spotify-logo-white {
+    
+}
+
+#spotify-logo-white img {
+  position: absolute;
+  max-width: 100px;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+}
+
+#app-snapshot img {
+  max-width: 300px;
+}
+
 /*
 Colors:
 
