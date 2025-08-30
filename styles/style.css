@@ -1,8 +1,230 @@
-/*
-Colors:
 
-Text: 1A1A1A
-Green: #00B172
-White: #FFF
+.container {
+    width: 100%;
+    min-height: 100vh;
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+    grid-template-rows: auto 1fr;
+    gap: 0;
+}
 
-*/
+.section {
+    padding: 20px;
+}
+
+.header {
+    background-color: white !important;
+    display: flex;
+    padding: 20px 40px;
+    grid-column: 1 / -1;  
+}
+
+.logo {
+    height: 60px;
+}
+
+nav {
+    margin-left: auto;
+}
+
+nav ul {
+    display: flex;
+    list-style: none;
+    gap: 20px;
+}
+
+nav ul li {
+    color: black;
+    font-weight: 500;
+    font-size: 30px;
+    cursor: pointer;
+}
+
+.second {
+    grid-column: 1 / -1;
+    padding: 0;
+    position: relative;
+    border: none;
+    background-color: transparent;
+}
+
+.landing {
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+    display: block;
+}
+
+.second .content {
+    position: absolute;
+    top: 40%;
+    left: 50%;  
+    transform: translate(-50%, -50%);  
+    text-align: center;  
+    color: #FFF;
+}
+
+.second .content h1 {
+    font-size: 100px; 
+    white-space: nowrap; 
+    margin-bottom: 30px; 
+    margin-top: 40px;
+}
+
+.second .content p {
+   font-size: 30px;
+    white-space: nowrap;
+    line-height: 1.5;
+    margin: 0 auto; 
+    text-align: center;
+    
+}
+
+.third {
+    grid-column: 1 / -1;
+    background-color: white;
+    padding: 60px 0;  
+    display: flex;    
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+}
+
+.third h2 {
+    text-align: center;
+    font-size: 50px;
+    margin-bottom: 40px;
+    margin-top: 5px;
+    position: relative;
+    width: 100%;  
+}
+
+.third h2::after {
+    content: '';
+    position: absolute;
+    left: 50%;
+    transform: translateX(-50%);
+    bottom: -10px;
+    width: 400px;
+    height: 3px;
+    background-color: #00B172;
+}
+
+.features-container {
+    display: flex;
+    justify-content: center;  
+    gap: 40px;
+    width: 100%;
+    max-width: 1200px;
+    padding: 0 20px; 
+    margin: 0 auto;  
+}
+
+.feature {
+    flex: 1;
+    text-align: center;
+    padding: 50px;
+    max-width: 300px;  
+}
+
+.feature img {
+    width: 200px;
+    height: 150px;
+    margin-bottom: 20px;
+}
+
+.feature h3 {
+    color: #00B172;
+    font-size: 35px;
+    margin-bottom: 10px;
+    margin-left: 0px;
+    margin-right:0px;
+    white-space: nowrap;
+}
+
+.feature p {
+    font-size: 18px;
+    line-height: 1.5;
+    color: #1A1A1A;
+}
+
+.fourth {
+    grid-column: 1 / -1;
+    background-color: #00B172;
+    padding: 60px 0;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin: 40px;
+}
+
+.fourth-content {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    max-width: 1200px;
+    width: 100%;
+    padding: 0 40px;
+    position: relative;
+    padding: 0 20px;
+}
+
+.text-content {
+    flex: 1;
+    color: white;
+    padding-right: 100px;  
+    margin-left: -40px;   
+}
+
+.text-content h2 {
+    font-size: 45px;
+    margin-bottom: 40px;
+    position: relative;
+}
+
+.text-content h2::after {
+    content: '';
+    position: absolute;
+    left: 0;
+    bottom: -10px;
+    width: 530px;
+    height: 3px;
+    background-color: white;
+}
+
+.text-items p {
+    font-size: 25px; 
+    line-height: 1.6;
+    margin-bottom: 20px;
+}
+
+.text-items p strong {
+    font-weight: bold;
+    display: block;  
+    margin-bottom: 10px;
+    font-size: 35px;  
+    color: white;    
+}
+
+.spotify-icon {
+    position: absolute;
+    left: 50%;
+    top: 50%;
+    transform: translate(-50%, -50%);
+    width: 150px; 
+    height: auto;
+    z-index: 1;  }
+
+.player-container {
+    flex: 1;
+    position: relative;
+}
+
+.spotify-player {
+    width: 400px;
+    max-width: 500px;
+    position: absolute;
+    right: 0;
+    top: 50%;
+    transform: translateY(-50%);
+}
