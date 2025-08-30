@@ -6,3 +6,195 @@ Green: #00B172
 White: #FFF
 
 */
+html,
+body {
+  margin: 0;
+  padding: 0;
+  width: 100vw;
+  height: 100vh;
+  overflow-x: hidden;
+}
+
+/*
+Classes
+*/
+/*Top Nav*/
+#logoimg {
+  width: 250px;
+  height: 70px;
+}
+
+.topnav {
+  background-color: #fff;
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  align-items: center;
+  width: 100vw;
+  margin: 0;
+  padding: 0;
+  color: #1a1a1a;
+  position: fixed;
+  top: 0;
+  height: 120px;
+}
+
+.topnav img {
+  padding-left: 40px;
+}
+
+.topnav ul {
+  list-style: none;
+  display: flex;
+  flex-direction: row;
+  justify-content: space-evenly;
+  padding: 0;
+  margin: 0;
+}
+
+.topnav a {
+  text-decoration: none;
+  color: black;
+  font-size: 22px;
+  padding: 35px;
+  box-sizing: border-box;
+}
+/* End of Top Nav*/
+
+/*Mainfront*/
+.header {
+  background-image: url(../images/landing.jpg);
+  background-size: cover;
+  background-position: center;
+  background-repeat: no-repeat;
+  width: 100vw;
+  height: 1300px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  color: #fff;
+}
+
+.header h1 {
+  text-align: center;
+  font-size: 100px;
+  font-weight: bolder;
+  font-family: "Franklin Gothic Medium", "Arial Narrow", Arial, sans-serif;
+}
+
+.header p {
+  text-align: center;
+  font-size: 50px;
+  width: 1100px;
+  font-weight: lighter;
+  font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
+/* End of Mainfront*/
+
+/* Whatsonspotify*/
+.whatsonspotify {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+
+  h2 {
+    font-size: 50px;
+    font-family: "Franklin Gothic Medium", "Arial Narrow", Arial, sans-serif;
+    border-bottom: 7px #00b172 solid;
+    margin-bottom: 120px;
+  }
+
+  div {
+    display: flex;
+    flex-direction: row;
+    width: 100%;
+    justify-content: space-evenly;
+  }
+
+  h3 {
+    color: #00b172;
+    font-size: 40px;
+    font-weight: 900;
+    font-family: "Franklin Gothic Medium", "Arial Narrow", Arial, sans-serif;
+  }
+
+  p {
+    color: #1a1a1a;
+    font-size: 40px;
+    font-weight: 100;
+    text-align: center;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+  }
+  div div {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: start;
+    width: 400px;
+  }
+
+  div div img {
+    width: 200px;
+    height: 200px;
+  }
+}
+
+/* End of Whatsonspotify*/
+
+/* greezy*/
+.greezy {
+  background-color: #00B172;
+  margin: 50px;
+  position: relative;
+}
+
+#yeezy-header {
+  font-size: 50px;
+  border-bottom: 5px #fff solid;
+}
+.content {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+}
+.spotify-icon-white {
+  width: 170px;
+  height: 170px;
+  position: absolute;
+  left: 45%;
+  top: 45%;
+}
+
+.kanye-west-profile {
+  width: 450px;
+  height: 750px;
+}
+
+#content {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  align-items: center;
+  padding: 50px 100px 50px 100px;
+  color: #fff;
+  font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;   
+  box-sizing: border-box;
+}
+
+#greezy-text {
+  display: flex;
+  flex-direction: column;
+  justify-content: space-around;
+  align-items: start;
+}
+
+#greezy-text h3 {
+  font-size: 40px;
+  font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
+#greezy-text p {
+  font-size: 30px;
+  width: 420px;
+  font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
+/* End of greezy*/
