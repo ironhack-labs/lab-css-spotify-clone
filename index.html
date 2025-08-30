@@ -5,14 +5,153 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <meta http-equiv="X-UA-Compatible" content="ie=edge" />
     <title>Spotify Clone</title>
-    <!-- don't forget to link your styles -->
+    <link
+      href="https://fonts.googleapis.com/css2?family=Montserrat:wght@400;600;800&display=swap"
+      rel="stylesheet"
+    />
+    <link
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.2/css/all.min.css"
+    />
+    <link rel="stylesheet" href="./styles/style.css" />
+   
   </head>
   <body>
-    Premium Discover Help Download Music for everyone. Spotify is now free on mobile, tablet and computer. Listen to the
-    right music, wherever you are. What’s on Spotify? Millions of Songs There are millions of songs on Spotify HD Music
-    Listen to music as if you were listening live Stream Everywhere Stream music on your smartphone, tablet or computer
-    It’s as yeezy as Kanye West. Search Know what you want to listen to? Just search and hit play. Browse Check out the
-    latest charts, brand new releases and great playlists for right now. Discover Enjoy new music every Monday with your
-    own personal playlist. Or sit back and enjoy Radio.
+    <header class="header">
+      <nav class="nav">
+        <img src="./images/spotify-logo.png" alt="spotify logo" class="logo" />
+        <ul>
+          <li><a href="http://">Premium</a></li>
+          <li><a href="http://">Discover</a></li>
+          <li><a href="http://">Help</a></li>
+          <li><a href="http://">Download</a></li>
+        </ul>
+      </nav>
+      <div class="hero-content">
+        <h1>Music for everyone.</h1>
+        <p>
+          Spotify is now free on mobile, tablet and computer. Listen to the
+          right music, wherever you are.
+        </p>
+      </div>
+    </header>
+
+    <section class="features">
+      <h2>What’s on Spotify?</h2>
+
+      <div class="features-container">
+        <article class="feature">
+          <img src="./images/music-icon.png" alt="icon-music" class="icons" />
+          <h3>Millions of Songs</h3>
+          <p>There are millions of songs on Spotify</p>
+        </article>
+
+        <article class="feature">
+          <img
+            src="./images/high-quality-icon.png"
+            alt="icon-hd-music"
+            class="icons"
+          />
+          <h3>HD Music</h3>
+          <p>Listen to music as if you were listening live</p>
+        </article>
+
+        <article class="feature">
+          <img
+            src="./images/devices-icon.png"
+            alt="icon-stream"
+            class="icons"
+          />
+          <h3>Stream Everywhere</h3>
+          <p>Stream music on your smartphone, tablet or computer</p>
+        </article>
+      </div>
+    </section>
+
+    <section class="info">
+      <div class="info-wrap">
+        <div class="info-head">
+          <h2>It’s as yeezy as Kanye West</h2>
+        </div>
+
+        <div class="info-row">
+          <div class="info-text">
+            <ul>
+              <li>
+                <h3>Search</h3>
+                <p>
+                  Know what you want to listen to? <br />
+                  Just search and hit play
+                </p>
+              </li>
+              <li>
+                <h3>Browse</h3>
+                <p>
+                  Check out the latest charts, brand new releases and great
+                  playlists for right now.
+                </p>
+              </li>
+              <li>
+                <h3>Discover</h3>
+                <p>
+                  Enjoy new music every Monday with your own personal playlist.
+                  <br />
+                  Or sit back and enjoy Radio.
+                </p>
+              </li>
+            </ul>
+          </div>
+
+          <div class="info-logo">
+            <img
+              src="./images/spotify-icon-white.png"
+              alt="Spotify logo White"
+            />
+          </div>
+
+          <div class="info-mockup">
+            <img src="./images/spotify-app.jpg" alt="picture app mobile" />
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <footer class="footer">
+      <div class="footer-info">
+        <div class="footer-copyr">
+          <p class="legal">© 2025 Spotify Clone — ironhack-course</p>
+        </div>
+
+        <div class="footer-links">
+          <div class="principal-links">
+            <h4>Our social media:</h4>
+            <ul>
+              <li>
+                <a href="#"><i class="fab fa-facebook-f"></i></a>
+              </li>
+              <li>
+                <a href="#"><i class="fab fa-instagram"></i></a>
+              </li>
+              <li>
+                <a href="#"><i class="fab fa-twitter"></i></a>
+              </li>
+            </ul>
+          </div>
+        </div>
+      </div>
+
+      <div class="register">
+        <div class="register-inner">
+          <div class="register-text">
+            <h4>Access Spotify</h4>
+            <p>Sign up for unlimited access to songs and podcasts.</p>
+          </div>
+
+          <div class="register-btn">
+            <a href="#" class="btn">Register</a>
+          </div>
+        </div>
+      </div>
+    </footer>
   </body>
 </html>
