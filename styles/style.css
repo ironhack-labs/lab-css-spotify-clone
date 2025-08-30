@@ -6,3 +6,159 @@ Green: #00B172
 White: #FFF
 
 */
+body {
+font-family: sans-serif;
+}
+.Navbar {
+   display: flex;
+   position: fixed;
+   top: 0;
+   left: 0;
+   width: 100%;
+   justify-content: space-between;
+   align-items: center;
+   padding: 10px 20px;
+   background-color: white;
+   box-sizing: border-box;
+   z-index: 1000;
+}
+   .texto-link{
+   color: inherit;
+   text-decoration: none;
+   cursor: pointer;
+ }
+   .Opciones ul{
+   display: flex;
+   list-style: none;
+   margin: 0px;
+   gap: 50px;
+   text-align: right;
+   font-size: 25px;
+   font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+   word-spacing: 50px;
+}
+.Opciones ul a:last-child {
+margin-right: 40px;
+}
+
+.LargeImage {
+   background-image: url(landing.jpg);
+   background-size: cover;        
+   background-position: center;   
+   background-repeat: no-repeat;  
+   background-attachment: scroll; 
+   width: 100%;                   
+   height: 100vh;
+
+   display: flex;
+   justify-content: center;
+   align-items: center;
+   text-align: center;
+}
+.musica {
+   display: flexbox;
+   color: white;
+   text-align: center;
+   font-size: 30px;
+   font-family: ;
+
+}
+
+.what1 h2{
+   text-align: center;
+   font-size: 2rem;
+   text-decoration: underline;
+   text-decoration-color: #1DB954;
+   text-underline-offset: 10px;
+   text-underline-position: below;
+}
+.what img{
+   width: 150px;
+   height: auto;
+   margin-bottom: 20px;  
+
+}
+.what {
+   display: flex;
+   justify-content: space-between;
+   align-items: flex-start;
+   text-align: center;
+   font-size: large;
+   padding: 50px 20px;
+   gap: 20px;
+}
+.Mejoras {
+   flex: 1;
+   display: flex;
+   flex-direction: column;
+   align-items: center;
+   text-align: center;
+   padding: 0 10px;
+}
+.Mejoras h3 {
+   margin: 10px 0;
+   font-size: 22px;
+   color: #1DB954;
+}
+.Mejoras p {
+   margin: 0;
+   font-size: 16px;
+   color: #555;
+}
+.contenedor {
+   background-color: #1DB954;
+   padding: 40px;
+   font-style: normal;
+   font-size: large;
+   position: relative;
+}
+.contenedor h1{
+   text-decoration: underline;
+   text-underline-offset: 8px;
+   font-size: 35px;
+   color: white;
+   padding: 40px;
+   margin-bottom: -20px;
+}
+.Imagen{
+   align-self: flex-start;
+   margin-top: 0;
+}
+.Imagen img{
+   width: 350px;
+   height: auto;
+   margin-right: 300px;
+   display: block;
+   margin-top: -100px;
+}
+
+.fila {
+display: flex;
+justify-content: space-between;
+align-items: flex-start;
+gap: 20px;
+}
+
+.info {
+   color: white;
+   margin-left: 40px;
+   margin-top: 20px;
+
+}
+.info h2{
+   display: block;
+   margin-top: 40px;
+   margin-bottom: 30px;
+ }
+
+ .LogoSpotify {
+  position: absolute;                                  
+  height: auto;
+  top: 50%;
+  right: 50%;
+ }
+
+ .LogoSpotify img{
+   width: 100px;
+   height: auto;
+ }
