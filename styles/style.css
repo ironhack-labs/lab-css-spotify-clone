@@ -6,3 +6,161 @@ Green: #00B172
 White: #FFF
 
 */
+html,
+body {
+	font-family: Arial, sans-serif;
+	font-size: 16px;
+	color: #1a1a1a;
+	margin: 0;
+	padding: 0;
+}
+ul {
+	display: block;
+	list-style-type: disc;
+	margin-block-start: 0;
+	margin-block-end: 0;
+	padding-inline-start: 0;
+	unicode-bidi: isolate;
+}
+.navbar {
+	position: fixed;
+	top: 0;
+	display: flex;
+	background-color: #fff;
+	align-items: center;
+	gap: 4vw;
+	list-style: none;
+	width: calc(100vw - 2vw);
+	padding: 1vh 1vw;
+}
+.navbar img {
+	width: 15vw;
+}
+.navbar li:first-child {
+	flex-grow: 1;
+}
+
+.first img {
+	width: 100%;
+	height: 90vh;
+	object-fit: cover;
+	overflow: hidden;
+}
+.first .text {
+	position: absolute;
+	display: flex;
+	flex-direction: column;
+	align-items: center;
+	justify-content: center;
+	top: 40vh;
+	left: 20vw;
+	width: 60vw;
+	color: #fff;
+}
+.first .text h1 {
+	font-size: 5rem;
+	margin: 0;
+}
+.first .text p {
+	text-align: center;
+	font-size: 1.5rem;
+	text-wrap: balance;
+}
+.second .phrase {
+	text-align: center;
+	font-size: 3rem;
+	margin: 2vh 0 0.5vh;
+}
+#one {
+	text-align: center;
+	border: none;
+	height: 0.5vh;
+	background-color: #00b172;
+	margin: 0 35vw;
+	width: 30vw;
+}
+.container {
+	display: flex;
+	justify-content: space-around;
+	align-items: center;
+	margin: 5vh 10vw;
+	gap: 5vw;
+}
+.container img {
+	width: 15vw;
+	height: 15vw;
+	object-fit: cover;
+}
+.container .icons {
+	display: flex;
+	flex-direction: column;
+	align-items: center;
+}
+.container h2 {
+	color: #00b172;
+}
+.container p {
+	text-wrap: balance;
+	text-align: center;
+	font-size: 1.5rem;
+}
+.third {
+	height: 90vh;
+	display: flex;
+	background-color: #00b172;
+	padding: 2vh 2vw;
+	position: relative;
+	gap: 15vw;
+}
+.third .yezzy {
+	color: #fff;
+	width: 40vw;
+	display: flex;
+	flex-direction: column;
+	justify-content: flex-start;
+}
+
+.third .yezzy h2 {
+	font-size: 2rem;
+	margin: 1vh 2vw 1vw 3vh;
+}
+.third .yezzy p {
+	font-size: 1.5rem;
+	margin: 1vh 2vw 3vh;
+}
+.spotify-app {
+	width: 40vw;
+	display: flex;
+	flex-direction: column;
+	justify-content: center;
+	align-items: center;
+}
+.third img {
+	width: 35vw;
+	height: auto;
+	margin: 1vh 2vw 3vh;
+}
+
+.third h3 {
+	font-size: 2rem;
+	margin: 1vh 2vw 3vh;
+}
+#two {
+	text-align: center;
+	border: none;
+	height: 0.5vh;
+	background-color: #fff;
+	margin: 0 2vw 1vh;
+	width: 33vw;
+}
+.third .logo {
+	width: 10vw;
+	position: absolute;
+	top: 50%;
+	left: 50%;
+	transform: translate(-50%, -50%);
+}
+.third p {
+	font-size: 1.5rem;
+	margin: 1vh 2vw 3vh;
+}
