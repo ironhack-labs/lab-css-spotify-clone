@@ -1,8 +1,107 @@
-/*
+/* 
 Colors:
 
 Text: 1A1A1A
 Green: #00B172
 White: #FFF
 
-*/
+ */
+* {
+  box-sizing: border-box;
+  margin: 0;
+  padding: 0;
+}
+
+.nav-bar {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 20px;
+}
+
+ul {
+  list-style: none;
+  display: flex;
+  align-items: center;
+  gap: 25px;
+  color: #1a1a1a;
+}
+
+.box1 {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  text-align: center;
+  color: #fff;
+  background-image: url("/images/landing.jpg");
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+  padding: 200px 0px;
+  letter-spacing: 2px;
+}
+.box1 p {
+  font-size: 15px;
+  line-height: 25px;
+}
+
+.title-text {
+  font-size: 48px;
+  margin: 15px;
+  font-weight: 800;
+}
+
+.middle {
+  margin: 40px 30px;
+  text-align: center;
+}
+
+.box2 {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  padding: 20px;
+}
+
+.post {
+  text-align: center;
+  flex-direction: column;
+  margin: 20px;
+  color: #1a1a1a;
+}
+
+.post h3 {
+  color: #00b172;
+  margin: 10px;
+}
+
+.post img {
+  width: 100px;
+}
+
+.footer {
+  background-color: #00b172;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  padding: 40px;
+  margin: 0 20px;
+}
+
+.footer-text {
+  color: #fff;
+}
+
+.footer img {
+  margin: 40px;
+}
+
+.footer h3 {
+  margin: 20px 0;
+}
+
+.footer h2 {
+  border-bottom: 3px #fff solid;
+  padding-bottom: 10px;
+}
