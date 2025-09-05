@@ -1,8 +1,123 @@
-/*
-Colors:
+*{
+    box-sizing: border-box;
+}
 
-Text: 1A1A1A
-Green: #00B172
-White: #FFF
+body{
+    margin: 0;
+    padding: 0;
+}
 
-*/
+.nav-bar {
+    background-color: white;
+    position: fixed;
+    width: 100%;
+    height: 60px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    }
+
+.nav-bar img{
+    width: 150px;
+}
+
+.nav-bar ul{
+    list-style: none;
+    display: flex;
+    gap: 30px;
+}
+
+.nav-bar li{
+    display: inline;
+     
+}
+
+.nav-bar a{
+   text-decoration: none;
+    color: black;
+   
+}
+
+.header {
+  background-image: url(/images/landing.jpg);
+   background-position: center;   
+   background-repeat: no-repeat;  
+    background-size: cover;        
+    height: 900px;                 
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+}
+
+.header h1{
+   color: white;
+   font-size: 90px;
+}
+
+.header h3{
+    color: white;
+    font-size: 45px;
+}
+
+.specs  {
+   
+    display: flex;
+    justify-content: space-around;
+    align-items: flex-start;
+    gap: 100px;
+}
+
+.heading{
+    text-align: center;
+    font-size: 35px;
+}
+.spec{
+   display: flex;
+   flex-direction: column;
+   align-items: center;
+   width: 50px;
+   align-items: center;
+   margin-bottom: 20px;
+}
+
+.spec h3{
+    color: green;
+    font-weight: 900;
+}
+
+.icon{
+    height: 100px;
+    width: 100px;
+
+}
+
+.kanye {
+  background: green;
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+  padding: 60px 40px;
+}
+
+.kanye .left {
+    color: white;
+  width: 50%;
+}
+
+.kanye h2 {
+    font-size: 2.5em;
+  color:white;
+  text-decoration: underline;
+  margin-bottom: 20px;
+}
+
+.kanye h3 {
+    font-size: 1.5em;
+    color: white;
+    margin-top: 20px;
+
+}
+
