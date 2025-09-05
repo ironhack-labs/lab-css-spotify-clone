@@ -1,0 +1,188 @@
+/*
+Colors:
+
+Text: 1A1A1A
+Green: #00B172
+White: #FFF
+
+/* Reset & Basics */
+
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+body {
+  font-family: Arial, sans-serif;
+  color: #1a1a1a;
+  background-color: #fff;
+  line-height: 1.6;
+}
+
+.navbar {
+  position: fixed;
+  top: 0;
+  width: 100%;
+  background: #fff;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 20px 40px;
+  border-bottom: 1px solid #ddd;
+  z-index: 1000;
+}
+
+.logo {
+  height: 40px;
+}
+.navbar ul {
+  display: flex;
+  list-style: none;
+  gap: 20px;
+}
+.navbar a {
+  text-decoration: none;
+  color: #1a1a1a;
+  font-weight: bold;
+}
+.navbar a:hover {
+  color: #00b172;
+}
+
+.hero {
+  background: url("../images/landing.jpg") center/cover no-repeat;
+  height: 100vh;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  text-align: center;
+  padding-top: 80px;
+  color: #fff;
+}
+.hero-icon {
+  width: 120px;
+  margin-bottom: 20px;
+}
+.hero h1 {
+  font-size: 3rem;
+  margin-bottom: 20px;
+}
+.hero p {
+  font-size: 1.2rem;
+}
+
+.features {
+  padding: 80px 20px;
+  text-align: center;
+}
+.features h2 {
+  font-size: 2rem;
+  margin-bottom: 50px;
+  border-bottom: 3px solid #00b172;
+  display: inline-block;
+  padding-bottom: 10px;
+}
+.features-container {
+  display: flex;
+  justify-content: center;
+  gap: 40px;
+}
+.feature {
+  max-width: 250px;
+}
+.feature img {
+  width: 80px;
+  margin-bottom: 20px;
+}
+.feature h3 {
+  font-size: 1.4rem;
+  color: #00b172;
+  margin-bottom: 10px;
+}
+.feature p {
+  font-size: 1rem;
+}
+
+.highlight {
+  background: #00b172;
+  color: #fff;
+  display: flex;
+  justify-content: center;
+  align-items: flex-start;
+  gap: 60px;
+  padding: 80px 60px;
+}
+
+.highlight-left {
+  flex: 1;
+  text-align: left;
+}
+
+.highlight-left h2 {
+  font-size: 32px;
+  font-weight: bold;
+  margin-bottom: 50px;
+  border-bottom: 3px solid #fff;
+  display: inline-block;
+  padding-bottom: 8px;
+}
+
+.highlight-features {
+  display: flex;
+  flex-direction: column;
+  gap: 40px;
+}
+
+.h-feature h3 {
+  font-size: 22px;
+  font-weight: bold;
+  margin-bottom: 10px;
+}
+
+.h-feature p {
+  font-size: 16px;
+  line-height: 1.4;
+}
+
+.highlight-center {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.highlight-center img {
+  width: 80px;
+}
+
+.highlight-right {
+  flex: 1;
+  display: flex;
+  justify-content: center;
+}
+
+.app-img {
+  max-width: 280px;
+  border-radius: 8px;
+}
+
+@media (max-width: 1000px) {
+  .highlight {
+    flex-direction: column;
+    align-items: center;
+    text-align: center;
+    gap: 40px;
+  }
+
+  .highlight-left {
+    text-align: center;
+  }
+
+  .highlight-features {
+    align-items: center;
+    text-align: center;
+  }
+
+  .highlight-center {
+    margin: 20px 0;
+  }
+}
