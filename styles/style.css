@@ -6,3 +6,152 @@ Green: #00B172
 White: #FFF
 
 */
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+body {
+  font-family: Arial, sans-serif;
+  line-height: 1.5;
+}
+
+/* Navbar */
+nav {
+  position: fixed;
+  top: 0;
+  left: 0;
+  width: 100%;
+  background: white;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 15px 50px;
+  z-index: 1000;
+  border-bottom: 1px solid #ddd;
+}
+
+nav img {
+  height: 40px;
+}
+
+nav ul {
+  list-style: none;
+  display: flex;
+  gap: 20px;
+}
+
+nav ul li {
+  display: inline;
+}
+
+nav ul li a {
+  text-decoration: none;
+  color: black;
+  font-weight: bold;
+}
+
+/* Hero section */
+.hero {
+  display: grid;
+  grid-template-areas: "a";
+  align-items: center;          
+  justify-items: center;        
+  text-align: center;               
+  color: white;
+}
+
+.hero img,
+.hero-text {
+  grid-area: a;                 
+}
+
+.hero-image {
+  width: 100%;
+  height: 100%;
+  object-fit: cover;           
+}
+
+.hero-text {
+  display: flex;              
+  flex-direction: column;
+  gap: 20px;                    
+  align-items: center;          
+}
+
+.hero-text h1 {
+  font-size: 3rem;
+  margin: 0;
+}
+
+.hero-text p {
+  font-size: 1.2rem;
+  max-width: 600px;
+  margin: 0 auto;
+}
+
+
+
+/* What’s on Spotify section */
+.features {
+  padding: 50px;
+  display: flex;
+  justify-content: space-between;
+  text-align: center;
+}
+
+.feature {
+  flex: 1;
+  padding: 20px;
+}
+
+.feature h3 {
+  color: #1db954;
+  margin-bottom: 10px;
+}
+
+.image-icon img,
+.high-icon img,
+.device-icon img {
+    width: 70px;  
+    height: auto; 
+}
+
+/* Green Section */
+.green-section {
+  background: #1db954;
+  color: white;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 50px;
+  position: relative;
+}
+
+.green-section .text {
+  flex: 1;
+  padding-right: 20px;
+}
+
+.green-section .text h2 {
+  margin-bottom: 20px ;
+  border-bottom: 5px solid white;
+   display: inline-block; 
+}
+.green-section .text p {
+    margin-bottom: 10px;
+    
+}
+
+.green-section .spotify-logo {
+  position: absolute;
+  left: 50%;
+  top: 20px;
+  height: 80px;
+}
+
+.green-section img {
+  height: 300px;
+  border-radius: 10px;
+}
