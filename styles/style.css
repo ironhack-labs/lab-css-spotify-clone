@@ -1,8 +1,238 @@
-/*
-Colors:
+.navbar {
+    display: flex;
+    align-items: center;   
+    justify-content: space-between; 
+    border: 1px solid green;
+    padding: 10px;
+    box-shadow: 0 0 0 3px  #800080;
+}
 
-Text: 1A1A1A
-Green: #00B172
-White: #FFF
+.navbar img {
+    width: 18%;
+    height: auto;
+}
+.navbar img:hover {
+  width: 30%;
+}
 
-*/
+.nav-list {
+    list-style: none;
+    display: flex;
+    gap: 28px;
+    margin: 0;
+    padding: 8px 12px;
+    border: 1px solid green;
+    border-radius: 4px;
+}
+
+.nav-list a {
+    text-decoration: none;
+    color: black;
+    
+}
+.nav-list a:hover {
+    color: green;
+    font-weight: bold;
+    
+} 
+.hero-image img {
+    width: 100%;
+    height: auto;
+    display: block;
+    border: none;
+   
+}
+.hero-content {
+    background: url("../images/landing.jpg") no-repeat center/cover;
+    background-size: cover;   
+    height: 50vh;            
+    display: flex;
+    flex-direction: column;
+    justify-content: center;  
+    align-items: center;      
+    color: white;             
+    text-align: center;
+    position: relative;
+    font-size: 25px;
+    margin: 0;
+    box-shadow: 0 0 0 3px  #800080;
+
+    
+}
+.hero::before {
+    content: "";
+    position: absolute;
+    top: 0; left: 0;
+    width: 100%; height: 100%;
+    
+    
+
+}
+
+.hero-content {
+    position: relative;
+    z-index: 1;  /* ensures text stays above overlay */
+}
+.hero-content h1 {
+  margin-bottom: 10px;  
+}
+/* layout wrapper (optional) */
+.container {
+  max-width: 1100px;
+  margin: 0 auto;
+  padding: 0 16px;
+  box-sizing: border-box;
+}
+
+/* section */
+.features {
+  background: #fff;
+  padding: 48px 0 56px;
+  border: 3px solid red;
+
+}
+
+/* heading with subtle underline */
+.features h2 {
+  text-align: center;
+  font-size: 28px;
+  margin: 0 0 28px;
+  position: relative;
+}
+.features h2::after {
+  content: "";
+  display: block;
+  width: 220px;
+  height: 2px;
+  background: #1db954; 
+  margin: 10px auto 0;
+ 
+}
+
+/* the 3 cards */
+.feature-grid {
+    display: flex;
+    gap: 16px;
+  /* display: grid;
+  grid-template-columns: repeat(3, minmax(220px, 1fr));
+  gap: 24px; */
+  border: 3px solid orange;
+  padding: 40px;
+  margin: 0 auto;
+  /* width: 100%;
+  overflow-x: scroll; */
+}
+
+.feature {
+  background: #fff;
+  border: 2px solid rgb(204, 204, 0);    
+  padding: 24px 18px;
+  text-align: center;
+  width: 100%;
+ 
+}
+
+.feature img {
+  width: 56px;
+  height: auto;
+  display: block;
+  margin: 0 auto 12px;
+}
+
+.feature h3 {
+  margin: 8px 0 8px;
+  color: #1db954;                  
+  font-size: 20px;
+}
+
+.feature p {
+  margin: 0;
+  color: #444;
+  line-height: 1.35;
+  font-size: 14px;
+}
+.find-info {
+
+  /*margin-left: 70px*/
+  background-color: #1db954;
+  width: 100%;
+  margin:auto; 
+  padding-top: 3%;
+  padding-bottom: 10%;
+  max-width: 95%;
+  /*position: relative;
+  padding: 420px;*/
+}
+.finder-list li {
+  display: flex;
+  margin-left: 50px;
+  color: white;
+  font-weight: bolder;
+  padding-top: 20px;
+  max-width: 50%;
+  border: none;
+    
+}
+.finder-list p {
+  margin-left: 50px;
+  text-decoration:none;
+  color: white;
+  font-size: 14px;
+  max-width: 50%;
+  border: none;
+}
+h3{
+  display: inline-block;
+  margin-left: 50px;
+  border-bottom: 2px solid white;
+  padding-bottom: 5px;
+  color: white;  
+}
+/* Layout for the row */
+.browse-section {
+  display: flex;
+  align-items: center;          /* center the logo with the text block */
+  justify-content: space-between;
+  margin-left: 50px;            /* keep same left gutter */
+}
+
+/* Make the heading and paragraph stack and reset margins */
+.browse-text {
+  flex: 1;
+  display: flex;
+  flex-direction: column;
+}
+
+.browse-section .browse-text h4 {
+  margin: 0 0 8px 0;            /* no left offset */
+}
+
+.browse-section .browse-text p {
+  margin: 0;                    /* <-- removes the 50px left margin from .finder-list p */
+  max-width: none;              /* <-- ignore the global 50% width if you set one */
+  color: white;
+  font-weight: 200;
+}
+
+/* Logo size and spacing */
+ .image1 img {
+  max-width: 80px;
+  height: auto;
+  margin-right: 40px;
+}
+
+.image3  img{
+  position: absolute;
+  right: 70px;            /* adjust gap from the right edge */
+  /*top: 50%*/
+  transform: translateY(-55%);
+  width: 183px;           /* or whatever size you want */
+  height: auto;
+  display: block;
+  margin-left: 25%;
+  padding-bottom: 10px;
+
+}
+
+  
+  
