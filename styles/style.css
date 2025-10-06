@@ -6,3 +6,114 @@ Green: #00B172
 White: #FFF
 
 */
+/* .container {
+  border: 1px solid red;
+} */
+
+.navbar {
+  border: 1px solid red;
+  background-color: white;
+  position: fixed;
+  top: 0;
+  left: 0;
+  width: 100%;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 10px 20px;
+  z-index: 1000;
+}
+
+.logo img {
+  width: auto;
+  height: 40px;
+}
+
+.nav-links {
+  list-style-type: none;
+  display: flex;
+  justify-content: flex-end; /* Ensure all links stay aligned to the right */
+  align-items: center;
+  padding: 0; /* Remove extra padding */
+  margin: 0;
+}
+
+.nav-links a {
+  text-decoration: none;
+  margin-right: 45px;
+  color: black;
+}
+
+.banner {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  background-image: url("../images/landing.jpg");
+  width: 100%;
+  height: 700px;
+  background-size: cover;
+  background-repeat: no-repeat;
+}
+/* 
+.banner-content {
+  position: relative;
+  z-index: 1;
+  max-width: 800px; 
+} */
+
+.banner h1 {
+  color: white;
+  font-size: 2.5rem;
+  justify-content: center;
+  margin-bottom: 20px;
+}
+
+.banner p {
+  color: white;
+  margin-bottom: 20px;
+  font-size: 1.2rem;
+}
+
+.bottom-serction {
+  padding: 50px 20px;
+  background-color: #121212;
+  color: white;
+  text-align: center;
+}
+
+.section-text h2 {
+  font-size: 2.5rem;
+  margin-bottom: 10px;
+  display: flex;
+  justify-content: center;
+}
+
+.card-container {
+  display: flex;
+}
+
+.card img {
+  background-color: white; /* Dark background for cards */
+  padding: 20px 70px;
+  width: 40%; /* Each card takes 30% of the width */
+  transition: transform 0.3s ease;
+  text-align: center; /* Align text to the left */
+}
+
+.card h3 {
+  font-size: 1.5rem;
+  margin-bottom: 10px;
+  color: green;
+  padding: 0 80px;
+}
+
+.card p {
+  font-size: 1rem;
+  margin-bottom: 10px;
+  padding: 0 80px;
+}
+
+.hr {
+  border: 2px solid green;
+  width: 300px;
+}
