@@ -1,8 +1,176 @@
-/*
-Colors:
+* {
+    margin: 0;
+    padding: 0;
+    font-family: "Poppins", sans-serif;
+    font-weight: 400;
+    font-style: normal;
+}
 
-Text: 1A1A1A
-Green: #00B172
-White: #FFF
+/* header */
 
-*/
+header {
+    background-color: rgb(255, 255, 255);
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 0.75rem 1rem;
+}
+
+header a img {
+    height: 2rem;
+}
+
+header nav ul {
+    display: flex;
+
+}
+
+header nav ul li {
+    list-style: none;
+    margin: 0 0.4rem;
+}
+
+
+header nav ul li a {
+    text-decoration: none;
+}
+
+header nav ul li a:visited {
+    text-decoration: none;
+    color: black;
+}
+
+/* hero banner landing */
+
+#hero-banner {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+    background-image: url(/images/landing.jpg);
+    background-size: cover;
+    background-position: center;
+    height: 32rem;
+    color: white;
+}
+
+#hero-banner h1 {
+    font-size: 2.8rem;
+    font-weight: 400;
+    margin-bottom: 1rem;
+}
+
+#hero-banner p {
+    padding: 0 9.8rem;
+    font-weight: 200;
+    margin-bottom: 4rem;
+}
+
+/* #features */
+#features {
+    padding: 2rem;
+}
+
+#features h1 {
+    text-align: center;
+    font-weight: 500;
+}
+
+#features .line {
+    border: solid 2px;
+    color: #00B172;
+    width: 16rem;
+    margin: 0 auto;
+}
+
+#features .container {
+    display: flex;
+    justify-content: space-around;
+    text-align: center;
+    align-items: center;
+}
+
+#features .container .feature-cards {
+    height: 16rem;
+    width: 18rem;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    gap: 1rem;
+    
+}
+
+#features .container .feature-cards img {
+    height: 3rem;
+}
+
+#features .container .feature-cards h4 {
+    font-size: large;
+    font-weight: bold;
+    color: #00B172;
+}
+
+#features .container .feature-cards p {
+    min-height: 5rem;
+    font-weight: 200;
+    max-width: 70%;
+}
+
+/* #advertise  */
+
+#advertise {
+    background-color: #00B172;
+    background-image: url(/images/spotify-icon-white.png);
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: 10%;
+    height: auto;
+    color: #fff;
+    padding: 2rem 6rem;
+}
+#advertise .container{
+    display: flex;
+    justify-content: space-between;
+}
+
+#advertise .container .ads-container {
+    height: auto;
+    width: 20rem;
+    display: flex;
+    flex-direction: column;
+    align-items: start;
+    justify-content: space-around;
+}
+
+#advertise .container .ads-container h3 {
+    font-weight: 600;
+    font-size: larger;
+}
+
+#advertise .container .ads-container .line {
+    border: solid 2px;
+    color: #ffffff;
+    width: 16rem;
+}
+
+#advertise .container .ads-container .ads-card {
+    margin-top: 2rem;
+}
+#advertise .container .ads-container .ads-card h4 {
+    font-weight: 800;
+}
+#advertise .container .ads-container .ads-card p {
+    width: 80%;
+    margin-top: 1rem;
+    font-weight: 200;
+}
+
+#advertise .container .img-container {
+    display: flex;
+    align-items: center;
+}
+#advertise .container img {
+    height: 28rem;
+}
