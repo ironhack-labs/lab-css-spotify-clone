@@ -6,3 +6,151 @@ Green: #00B172
 White: #FFF
 
 */
+*{
+    box-sizing: content-box;
+    margin: 0px;
+    padding: 0px;
+    font-family: "Lato", sans-serif;
+}
+
+header{
+    position: fixed;
+    background-color: #FFFFFF;
+    width: 100%;
+}
+
+.navbar{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    margin: 1rem;
+}
+
+.navbar-list{
+    display: flex;
+}
+
+.navbar-item{
+    list-style-type: none;
+    padding: 1rem;
+}
+
+.navbar-link{
+    text-decoration: none;
+    color: #1A1A1A;
+}
+
+.logo{
+    max-height: 3.5rem;
+}
+
+article:first-of-type{
+    background-image: url(/images/landing.jpg);
+    background-size: cover;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    height: 1200px;
+    gap: 2.5rem;
+}
+
+article:first-of-type h1, p{
+    color:#FFFFFF;
+}
+
+article:first-of-type h1{
+    text-align: center;
+    font-size: 5rem;
+}
+
+article:first-of-type p{
+    text-align: center;
+    font-size: 1.75rem;
+    font-family: "Lato light", sans-serif;
+}
+
+article:nth-of-type(2){
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    height: 300px;
+}
+
+article:nth-of-type(2) h2{
+    text-align: center;
+    padding: 1rem;
+    text-decoration: underline  #00B172 0.2rem;
+    text-underline-offset: 8px;
+}
+
+article:nth-of-type(2) img{
+    max-width: 100px;
+}
+
+.options{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    gap: 3rem;
+}
+
+.option{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    padding: 2rem;
+}
+
+.option h3{
+    color: #00B172;
+    text-align: center;
+    font-family: "Lato black", sans-serif;
+    font-size: 1.5rem;
+}
+
+.option p{
+    color: #1A1A1A;
+    text-align: center;
+    font-family: "Lato light", sans-serif;
+    font-size: 1.25rem;
+}
+
+article:nth-of-type(3){
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+    background-color: #00B172;
+    background-image: url(/images/spotify-icon-white.png);
+    background-repeat: no-repeat;
+    background-size: 10%;
+    background-position: center;
+    height: 700px;
+    margin-left: 1rem;
+    margin-right: 1rem;
+}
+
+article:nth-of-type(3) div:first-of-type h2, h3, p{
+    color:#FFFFFF;
+}
+
+article:nth-of-type(3) div:first-of-type h2{
+    text-decoration: underline  #FFFFFF 0.2rem;
+    text-underline-offset: 8px;
+    margin: 2rem 0rem;
+}
+
+article:nth-of-type(3) div:first-of-type h3{
+    margin: 2rem 0rem;
+    font-family: "Lato black", sans-serif;
+}
+
+article:nth-of-type(3) div:first-of-type p{
+    font-family: "Lato light", sans-serif;
+    font-size: 1.1rem;
+}
+
+article:nth-of-type(3) img{
+    max-width: 300px;
+}
