@@ -6,3 +6,73 @@ Green: #00B172
 White: #FFF
 
 */
+*{
+    box-sizing: content-box;
+    margin: 0px;
+    padding: 0px;
+    font-family: "Lato", sans-serif;
+}
+
+header{
+    position: fixed;
+    background-color: #FFFFFF;
+    width: 100%;
+}
+
+.navbar{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    margin: 1rem;
+}
+
+.navbar-list{
+    display: flex;
+}
+
+.navbar-item{
+    list-style-type: none;
+    padding: 1rem;
+}
+
+.navbar-link{
+    text-decoration: none;
+    color: #1A1A1A;
+}
+
+.logo{
+    max-height: 3.5rem;
+}
+
+article:first-of-type{
+    background-image: url(/images/landing.jpg);
+    background-size: cover;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    height: 1200px;
+    gap: 2.5rem;
+}
+
+article:first-of-type h1, p{
+    color:#FFFFFF;
+}
+
+article:first-of-type h1{
+    text-align: center;
+    font-size: 5rem;
+}
+
+article:first-of-type p{
+    text-align: center;
+    font-size: 1.75rem;
+    font-family: "Lato light", sans-serif;
+}
+
+article{
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+    justify-content: center;
+}
