@@ -6,3 +6,118 @@ Green: #00B172
 White: #FFF
 
 */
+.greentext {
+    color: #00B172;
+}
+.whitetext {
+    color: #fff
+}
+.centred {
+ text-align: center;
+ align-content: center;
+}
+.underlinewhite {
+    text-decoration: underline #fff;
+    text-underline-offset: 20px;
+}
+
+.underlinegreen {
+    text-decoration: underline #00B172;
+    text-underline-offset: 20px;
+}
+
+
+body {
+  font-size: 20px;
+  font-family:'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif
+}
+
+.header {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 2rem;
+    margin: 1rem;
+}
+
+
+#logo {
+    max-width: 200px;
+    display: block; 
+}
+
+.topMenu {
+    display: flex;
+    font-size: 24px;
+    gap: 2rem;
+    justify-self: end;
+}
+
+.hero {
+    
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    background-image: url(../images/landing.jpg);
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat; 
+    min-height: 400px;
+    color: white;
+    padding: 4rem;
+    margin-bottom: 4rem;
+
+}
+
+h1 {
+    font-size: 5rem;
+}
+
+h2 {
+    font-size: 3rem;
+
+}
+
+.centralBlock {
+    display: grid; 
+    grid-template-columns: 1fr 1fr 1fr;
+    gap: 1rem;
+}
+
+.icon {
+    max-width: 200px;
+}
+
+
+#appSpotify { 
+    display: block;
+    max-width: 500px;
+}
+
+.footer {
+    display: flex;
+    padding: 5%;
+    justify-content: center;
+    gap: 25%;
+    background-color: #00B172;
+    position: relative;
+    z-index: 1; 
+    margin: 0 auto;
+    }
+
+.footer::before {
+  content: "";
+  position: absolute;
+  inset: 0;
+  background: url(../images/spotify-icon-white.png) no-repeat center;
+  background-size: 100px auto;
+  z-index: 0;
+}
+
+.greenBox{
+  flex: 1;
+  padding: 16px;
+  border-radius: 8px;
+  z-index: 0;  
+}
