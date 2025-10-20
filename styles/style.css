@@ -6,3 +6,208 @@ Green: #00B172
 White: #FFF
 
 */
+body {
+    padding: 0;
+    margin: 0;
+    font-family: 'Roboto', sans-serif;
+}
+
+.textcolor {
+    color: #1A1A1A;
+}
+
+.green {
+    color: #00B172;
+}
+
+.white {
+    color: #FFF;
+}
+
+.navbar {
+    width: 100%;
+    height: 60px;
+    display: flex;
+    position: fixed;
+    justify-content: space-between;
+    align-items: center;
+    background-color: #FFF;
+    margin: 0;
+    padding: 0 20px;
+    box-sizing: border-box;
+}
+
+.navbar ul {
+    display: flex;
+    margin: 0;
+    padding: 0;
+    gap: 1.5rem;
+    font-weight: 200;
+}
+
+.navbar li {
+    display: flex;    
+    justify-content: space-between;
+    border-right: 1px solid #FFF;
+}
+
+.navLogo {
+    height: 47px;
+    width: auto;
+}
+
+.imageCover {
+    display: flex;
+    background-image: url("../images/landing.jpg");
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: center;
+    justify-content: center;
+    height: 600px;
+    padding: 0;
+    margin: 0;
+}
+
+.textCover {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    width: 550px;
+    gap: 5px;
+}
+
+.textCover h1 {
+    font-size: 60px;
+    font-weight: 500;
+}
+
+.textCover p {
+    font-size: 23px;
+    font-weight: 200;
+}
+
+.titleBloq {
+    display: flex;
+    text-align: center;
+    padding: 2px;
+    margin: 2px;
+}
+
+.features {
+    padding: 40px 40px; 
+    text-align: center; 
+    height: 350px;  
+}
+
+.feature {
+    margin-bottom: 30px;
+}
+
+.featuresTitle {
+    border-bottom: 3px solid #00B172;
+    font-size: 30px;
+    font-weight: bold;
+}
+
+.sections {
+    display: flex;              
+    flex-direction: row;        
+    justify-content: center;    
+    align-items: flex-start;    
+    gap: 100px;                  
+    padding: 20px;
+}
+
+.section {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    text-align: center;
+    max-width: 250px;
+    gap: 10px;
+}
+
+.section img {
+    width: 100px;
+    height: 100px;
+    object-fit: contain;
+}
+
+.section h2 {
+    margin: 10px 0 5px;
+    font-size: 1.5rem;
+}
+
+.section p {
+    margin: 0;
+    font-size: 1.1rem;
+    font-weight: 300;
+    line-height: 1.5;
+    color: #9c9c9c;
+    width: 190px;
+}
+
+.sections--bottom {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    background-color: #00B172;
+    margin: 0 30px 30px 30px;
+    height: 600px;
+    gap: 20px;
+}
+
+.section--bottom--left {
+    display: flex;
+    flex: 1;
+    flex-direction: column;        
+    justify-content: center;    
+    align-items: center;
+    
+}
+
+.section--bottom--left h1 {
+    font-weight: 500;
+}
+
+.section--bottom--left--title {
+    border-bottom: 3px solid #FFF;
+    padding-bottom: 8px;
+    width: 400px;
+}
+
+.section--bottom--left--text {
+    width: 250px;
+}
+
+.section--bottom--left--text p {
+    font-weight: 200;
+    line-height: 1.5;
+    font-size: 1rem;
+}
+
+.section--bottom--img--icon {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.section--bottom--img--icon img {
+    width: 100px;
+    height: 100px;
+    object-fit: contain;
+}
+
+.section--bottom--img--app {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    
+}
+
+.section--bottom--img--app img {
+    width: auto;
+    height: 450px;
+    object-fit: contain;
+}
