@@ -1,0 +1,125 @@
+/*
+Colors:
+
+Text: 1A1A1A
+Green: #00B172
+White: #FFF
+
+*/
+/* ----------- NAVBAR---------*/
+
+* {
+    color: 1A1A1A;
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+.navdiv{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+
+img{
+    height: 45px;
+    padding: 10px;
+}
+
+ul{
+    list-style-type: none;
+    display: flex;
+}
+li{
+    padding: 10px;
+}
+
+/*MAIN MAIN*/
+.main-image{
+    background-image: url(../images/landing.jpg);
+    background-size: cover;
+    background-position: center;
+    height: 600px;
+    margin: 0;
+    padding: 0;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    position: relative;
+    
+}
+
+.main-text{
+    text-align: center;
+    color: white;
+    font-size: 60px;
+    margin: 0;
+    padding: 0;
+
+}
+
+.main-paragraph{
+    font-size: 25px;
+    color: white;
+    text-align: center;
+    font-weight: lighter;
+}
+
+/* Whats on Spotify */
+
+h2 {
+    text-decoration: underline #00B172 3px;
+    text-underline-offset: 7px;;
+}
+
+
+.articles {
+    display: flex;
+    justify-content: space-around;
+    
+}
+article {
+    width: 20vw;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.spotify-title {
+    text-align: center;
+}
+
+.green-bkg {
+    background-color: #00B172;
+    margin: 0 15px;
+    height: 500px;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+}
+
+.yeezy {
+    margin-left: -1%;
+}
+
+.spotify-icon {
+    position: absolute;
+    left: 50%;
+    top: 132%;
+    height: 60px;
+
+}
+.kanye {
+    width: 35vw;
+    color: white;
+    
+}
+
+.west {
+    color: white;
+    text-decoration: underline white 3px;
+    text-underline-offset: 7px;
+}
+
+.album-cover-div, .album-cover {
+    width: 250px;
+    height: 430px;
+}
