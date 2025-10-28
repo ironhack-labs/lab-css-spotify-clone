@@ -6,3 +6,185 @@ Green: #00B172
 White: #FFF
 
 */
+body {
+    background-color: black;
+    margin: 0;
+    padding: 0;
+    font-family: Arial, sans-serif;
+    color: #333;
+}
+
+.container-alinhamento {
+    max-width: 960px;
+    margin: 0 auto;
+    padding-left: 30px;
+    padding-right: 30px;
+    background-color: transparent;
+}
+
+header {
+    background-color: white;
+    max-width: 960px;
+    padding-top: 5px;
+    padding-bottom: 5px;
+    margin: 0 auto;
+}
+
+.header-container {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.music-icon {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    background-image: url(/images/music-icon.png);
+
+}
+
+.hero-section {
+    background-color: black;
+    color: white;
+    text-align: center;
+    background-image: url('/images/landing.jpg');
+    background-size: cover;
+    background-position: center bottom;
+    background-repeat: no-repeat;
+    max-width: 960px;
+    padding-top: 150px;
+    padding-bottom: 150px;
+    margin: 0 auto;
+}
+
+.hero-content {
+    padding: 0;
+    margin: 0 auto;
+    /* text-align: center;*/
+}
+
+
+.main-container {
+    max-width: 960px;
+    margin: 0 auto;
+    background-color: white;
+    text-align: center;
+    padding-top: 50px;
+    padding-bottom: 50px;
+
+    
+}
+.main-container h2 {
+        text-align: center;
+        margin-bottom: 30px;
+
+}
+
+.main-container section {
+    padding-left: 30px;
+    padding-right: 30px;
+}
+
+.cards-spotify {
+    display: flex;
+    justify-content: space-between;
+    align-items: stretch;
+    text-align: center;
+    margin-top: 30px;
+    margin-bottom: 50px;
+}
+
+.card-item {
+    width: 30%;
+    padding: 20px 10px;
+    border: 1px solid #ffde00;
+    border-radius: 5px;
+}
+
+.card-item img {
+    width: 70px;
+    height: auto;
+    margin-bottom: 10px;
+}
+
+.card-item h4 {
+    color: #1ed760;
+    font-size: 16px;
+    margin-top: 0;
+}
+
+.second-paragraph {
+    padding-top: 20px;
+}
+
+
+.logo {
+    width: 120px;
+    height: auto;
+}
+
+.menu-principal ul {
+    display: flex;
+    list-style: none;
+    margin: 0;
+    padding: 0;
+}
+
+.menu-principal li {
+    margin-left: 20px;
+}
+
+.menu-principal li a {
+    text-decoration: none;
+    color: #333;
+    font-family: Arial, sans-serif;
+    font-size: 14px;
+    padding: 5px 0;
+}
+.kanye-section {
+    background-color: #1ED760; 
+    padding-top: 80px;
+    padding-bottom: 80px;
+}
+
+.kanye-content {
+   
+    display: flex;
+    align-items: center; 
+    justify-content: space-between; 
+}
+
+.kanye-text {
+    flex-basis: 60%; 
+    color: white;
+    padding-right: 30px; 
+}
+
+.kanye-text h2 {
+    font-size: 36px;
+    margin-bottom: 40px;
+}
+
+.kanye-image {
+    flex-basis: 40%;
+    text-align: center;
+}
+
+.kanye-image .phone-mockup {
+    max-width: 100%;
+    height: auto;
+    display: block; 
+    margin: 0 auto;
+}
+
+
+.feature-item h3 {
+    font-size: 24px;
+    margin-bottom: 5px;
+}
+
+.feature-item p {
+    font-size: 16px;
+    margin-bottom: 20px;
+}
