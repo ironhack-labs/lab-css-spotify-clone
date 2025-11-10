@@ -1,8 +1,142 @@
-/*
-Colors:
+html, body {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  font-family: 'Arial', sans-serif;
+}
 
-Text: 1A1A1A
-Green: #00B172
-White: #FFF
 
-*/
+
+
+/* ====== HEADER ====== */
+.navbar {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 15px 60px;
+  background-color: white;
+}
+
+.logo img {
+  height: 40px;
+}
+
+.menu a {
+  text-decoration: none;
+  color: black;
+  margin-left: 20px;
+  font-size: 16px;
+}
+
+.menu a:hover {
+  color: #1db954;
+}
+
+/* ====== HERO SECTION ====== */
+.hero {
+  background-image: url('../images/landing.jpg');
+  background-size: cover;
+  background-position: center;
+  height: 500px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  text-align: center;
+  color: white;
+}
+
+.hero-text h1 {
+  font-size: 3em;
+  font-weight: 700;
+}
+
+.hero-text p {
+  margin-top: 10px;
+  font-size: 1.2em;
+}
+
+/* ====== FEATURES SECTION ====== */
+.features {
+  text-align: center;
+  padding: 60px 20px;
+  background-color: #fff;
+}
+
+.features h2 {
+  font-size: 2em;
+  margin-bottom: 40px;
+  border-bottom: 2px solid #1db954;
+  display: inline-block;
+  padding-bottom: 5px;
+}
+
+.features-container {
+  display: flex;
+  justify-content: center;
+  gap: 40px;
+  flex-wrap: wrap;
+}
+
+.feature-box {
+  width: 250px;
+  padding: 20px;
+  border: 2px solid #eee;
+  border-radius: 10px;
+}
+
+.feature-box img {
+  width: 60px;
+  margin-bottom: 15px;
+}
+
+.feature-box h3 {
+  color: #1db954;
+  font-size: 1.3em;
+  margin-bottom: 10px;
+}
+
+.feature-box p {
+  color: #555;
+}
+
+/* ====== BOTTOM SECTION ====== */
+.bottom {
+  background-color: #1db954;
+  color: white;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 60px;
+  flex-wrap: wrap;
+}
+
+.bottom-text {
+  max-width: 500px;
+}
+
+.bottom-text h2 {
+  font-size: 2em;
+  margin-bottom: 20px;
+}
+
+.bottom-text h3 {
+  margin-top: 15px;
+  font-size: 1.3em;
+}
+
+.bottom-visuals {
+  display: flex;
+  align-items: center;
+  gap: 25px;
+}
+
+.bottom-logo {
+  width: 80px;
+  filter: brightness(0) invert(1); /* Lo hace blanco */
+}
+
+.bottom-image {
+  width: 250px;
+  border-radius: 10px;
+  box-shadow: 0 5px 10px rgba(0,0,0,0.3);
+}
