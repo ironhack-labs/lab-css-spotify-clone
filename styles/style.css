@@ -6,3 +6,192 @@ Green: #00B172
 White: #FFF
 
 */
+
+html {
+  box-sizing: border-box;
+  font-size: 16px;
+}
+
+*,
+*:before,
+*:after {
+  box-sizing: inherit;
+}
+
+body,
+h1,
+h2,
+h3,
+h4,
+h5,
+h6,
+p,
+ol,
+ul {
+  margin: 0;
+  padding: 0;
+  font-weight: lighter;
+}
+
+/*  Set the font */
+body {
+  font-family: "Helvetica", sans-serif;
+
+
+}
+
+
+.nav-bar{
+margin: 0;
+padding: 0;
+display: flex;
+}
+
+nav img {
+  height: 50px;
+  margin: 10px;
+  display: flex;
+  justify-content: flex-start;
+  align-items: center;
+
+}
+
+.nav-bar-ul {
+  width: 1200px;
+  padding: 20px;
+  margin: 0 auto;
+  display: flex;
+  flex-direction: row;
+  justify-content: flex-end;
+  align-items: center;
+}
+
+.nav-bar-ul li {
+  list-style-type: none;
+  text-align: left;
+  margin: 20px;
+}
+
+.title {
+  background-image: url(../images/landing.jpg);
+  background-size: cover;
+  height: 650px;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  text-align: center;
+  color: white;
+
+
+}
+
+.music {
+  font-size: 80px;
+  font-weight: bold;
+  margin-bottom: 10px;
+}
+
+.quote {
+  display: flex;
+  margin-left:350px;
+  margin-right: 350px;
+}
+
+.whatOnSpotify {
+  font-size: 30px;
+  text-align: center;
+  margin-top: 20px;
+}
+hr {
+  margin: 5px auto 40px auto;
+  width: 17%;
+  border: 2px solid #00B172;
+}
+
+.icon {
+  height: 90px;
+}
+
+.articles-container {
+  display: flex;
+  align-items: center;
+  justify-content: space-around;
+  padding: 20px;
+  
+}
+.subtitles {
+  color: #00B172;
+  font-size: 25px; 
+  font-weight: bold; 
+  margin-top: 15px; 
+
+}
+
+.article {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+.article p{
+  font-size: 20px;
+  text-align: center;
+  padding: 30px;
+  margin-left: 20%;
+  margin-right:20%;
+}
+
+.greenSection{
+  background-color: #00B172;
+  height:auto;
+  color: white;
+  padding: 30px;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  
+}
+
+.row{
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  width: 100%;
+}
+
+.kanye{
+  font-size: 30px;
+  margin-left:70px;
+}
+.kanye-hr{
+  margin-left: 00px;
+  width: 390px;
+  border: 2px solid white;
+}
+
+
+.explain h3{
+  font-size:20px ;
+  font-weight:bold;
+  margin-left: 70px;
+  margin-bottom: 25px;
+}
+
+.explain p{
+  margin-left: 70px;
+  margin-bottom: 25px;
+  margin-right: 100px;
+}
+
+.icon2 {
+  height: 150px;
+  width:min-content;
+  margin-right: 90px;
+  
+}
+
+.player {
+  height:600px;
+  margin-right: 90px;
+ 
+}
