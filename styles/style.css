@@ -1,8 +1,142 @@
-/*
-Colors:
+body {
+    font-family: Arial, sans-serif;
+    color: #1A1A1A;
+    margin: 0;
+    padding: 0;
+}
 
-Text: 1A1A1A
-Green: #00B172
-White: #FFF
+/* header and navigation */
+.header {
+    background-color: #FFF;
+    padding: 10px 20px;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    position: fixed;
+    top: 0;
+    left: 0;
+    width: 100%;
+}
 
-*/
+.nav {
+    margin-right: 50px; 
+}
+
+.logo{
+    width: 120px;
+    height: auto;
+    margin: 20px;
+}
+
+
+.nav ul {
+    list-style: none;
+    padding: 20px;
+    display: flex;
+    /* justify-content: space-between; */
+    gap: 30px;
+}
+
+.nav ul li a{
+    text-decoration: none;
+    color: #1A1A1A;
+    font-size: 18px;
+    font-weight: lighter;
+}
+
+/* hero section */
+.hero-image {
+    color: #FFF;
+    background-image: url('../images/landing.jpg');
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    width: auto;
+    height: 1000px;
+    text-align: center;
+    align-content: center;
+}
+
+.hero-title{
+    font-size: 80px;
+}
+
+.hero-paragraph {
+    font-size: 27px;
+    width: 600px;
+    margin: 0 auto;
+    line-height: 1.5;
+}
+
+/* content section */
+.content-section h2 {
+    font-size: 36px;
+    margin-top: 50px;
+    margin-bottom: 10px;
+    text-align: center;
+}
+
+.content-cards {
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    gap: 60px;
+}
+
+.card{
+    width: 200px;
+    height: auto;
+    margin: 50px 20px;
+    padding: 20px;
+    text-align: center;
+}
+
+.card img{
+    width: 150px;
+    height: 150px;
+}
+
+.card-title{
+    color: #00B172;
+}
+
+
+/* final section */
+.final-section {
+    background-color: #00B172;
+    color: #FFF;
+    padding: 80px;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+}
+
+.final-text h2{
+    text-decoration: underline;
+    text-underline-offset: 14px; 
+    font-size: 36px;
+    margin-top: 50px;
+    margin-bottom: 10px;
+}
+
+.final-text h3{
+    font-size: 25px;
+    font-weight: bold;
+    padding-top: 35px;
+}
+
+.final-text p{
+    font-size: 20px;
+    width: 400px;
+    line-height: 1.5;
+}
+
+.icon-spotify{
+    width: 100px;
+    height: auto;
+}
+
+.final-image img{
+    width: 350px;
+    height: auto;
+}
