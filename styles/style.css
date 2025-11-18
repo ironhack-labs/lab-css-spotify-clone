@@ -6,3 +6,186 @@ Green: #00B172
 White: #FFF
 
 */
+header {
+    background-color: #FFF;
+    justify-content: space-between;
+    padding: 15px 40px;
+    display: flex;
+}
+.logo {
+    background-image: url("../images/spotify-logo.png");
+    width: 150px;
+    height: 50px;
+    background-size: contain;
+    background-repeat: no-repeat;
+}
+.nav-links {
+    list-style: none;
+    display: flex;
+    text-align-last: right;
+    gap: 25px;
+    margin-left: auto;
+}
+.nav-links li {
+    margin: 0 15px;
+}
+.nav-links a{
+    text-decoration: none;
+    color: #1A1A1A;
+    font-weight: bold;
+    font-size: 16px;
+}
+.download-btn {
+    background-color: #00B172;
+    color: #FFF;
+    padding: 10px 20px;
+    border-radius: 20px;
+}
+.download-btn:hover {
+    background-color: #019a5b;
+    transition: background-color 0.3s ease;
+}
+
+.Spotify-free {
+    background-image: url(../images/landing.jpg);
+    background-size: cover;
+    color: white;
+    height: 600px;
+    display: flex;
+    padding: 100px 20px;
+    align-items: center;
+    justify-content: center;
+}
+h1 {
+    font-size: 40px;
+    margin-bottom: 20px;
+    text-align: center;
+    text-transform: capitalize;
+    font-family: "Arial", sans-serif;
+}
+.Spotify-content p {
+    font-size: 20px;
+    text-align: center;
+    font-family: "Arial", sans-serif;
+}
+
+.whats {
+  display: flex;
+  justify-content: center;
+}
+
+.title1 {
+  text-align: center;
+  margin: 20px 0;
+  font-size: 28px;
+  font-family: "Arial", sans-serif;
+}
+
+.features {
+  display: flex;
+  justify-content: center;
+  gap: 50px;
+  margin: 60px 0;
+  text-align: center;
+}
+
+.feature-box {
+  width: 260px;
+}
+
+.icon1::before,
+.icon2::before,
+.icon3::before {
+  content: "";
+  display: block;
+  width: 80px;
+  height: 80px;
+  margin: 0 auto 15px;
+  background-repeat: no-repeat;
+  background-size: contain;
+}
+.icon1::before {
+  background-image: url("../images/music-icon.png");
+}
+.icon2::before {
+  background-image: url("../images/high-quality-icon.png");
+}
+.icon3::before {
+  background-image: url("../images/devices-icon.png");
+}
+.feature-item p {
+  font-size: 16px;
+  color: #555;
+}
+
+.feature-icon {
+  width: 80px;
+  height: auto;
+  margin-bottom: 15px;
+}
+.features h3, h4, h5 {
+  color: #00B172;
+  font-size: 22px;
+  margin: 10px 0;
+}
+.features p {
+  font-size: 16px;
+  color: #1A1A1A;
+}
+
+.yeezy {
+  background-image: url("../images/spotify-icon-white.png");
+  background-size: 100px;
+  background-position: center;
+  background-repeat: no-repeat;
+  background-color: #00B172;
+  color: #FFF;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 60px 80px;
+}
+
+.yeezy-text {
+  max-width: 450px;
+}
+
+.yeezy-text h2 {
+  font-size: 32px;
+  margin-bottom: 25px;
+  font-family: Arial, sans-serif;
+  position: relative;
+  padding-bottom: 8px;
+}
+
+.yeezy-text h2::after {
+  content: "";
+  width: 100px;
+  height: 3px;
+  background-color: #fff;
+  position: absolute;
+  left: 0;
+  bottom: 0;
+}
+
+.yeezy-text h3 {
+  font-size: 22px;
+  margin-top: 25px;
+  margin-bottom: 8px;
+  font-family: Arial, sans-serif;
+}
+
+.yeezy-text p {
+  font-size: 16px;
+  line-height: 1.5;
+  font-family: Arial, sans-serif;
+}
+
+.yeezy-image {
+  width: 400px;
+  height: 450px;
+  background-image: url("../images/spotify-app.jpg"); 
+  background-size: contain;
+  background-position: center;
+  background-repeat: no-repeat;
+}
