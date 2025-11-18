@@ -1,3 +1,5 @@
+@import url('https://fonts.googleapis.com/css2?family=Montserrat:ital,wght@0,100..900;1,100..900&family=Roboto:ital,wght@0,100..900;1,100..900&display=swap');
+
 /*
 Colors:
 
@@ -6,3 +8,167 @@ Green: #00B172
 White: #FFF
 
 */
+
+* {
+    padding: 0;
+    margin: 0;
+}
+
+body {
+    font-family: "Montserrat", sans-serif;
+    font-optical-sizing: auto;
+    font-weight: weight;
+    font-style: normal;
+}
+
+ul {
+    list-style: none;
+}
+
+h1 {
+    font-size: 3em;
+    text-align: center;
+    color: white;
+    padding-top: 130px;
+    padding-bottom: 25px;
+}
+
+h2 {
+    width: 240px;
+    margin: 0 auto;
+    padding-top: 25px;
+    font-size: 1.5em;
+    text-align: center;
+    color: black;
+    border-bottom: 4px solid #00B172;
+    line-height: 35px;
+}
+
+h3 {
+    font-size: 1.2em;
+    text-align: center;
+    line-height: 1em;
+    color: #00B172;
+    padding-bottom: 20px;
+}
+
+h4 {
+    font-size: 1.2em;
+    letter-spacing: 0.4px;
+    line-height: 1em;
+    margin-bottom: 15px;
+    color: white;
+}
+
+#nav-bar {
+    display: flex;
+}
+
+#nav-bar img{
+    margin: 10px 20px;
+    width: 150px;
+}
+
+.nav-bar-ul{
+    display: flex;
+    width:400px;
+    margin: 0 auto;
+    justify-content: space-evenly;
+    align-items: center;
+    margin-right: 10px;
+}
+
+header .landing {
+    background-image: url(/lab-css-spotify-clone/images/landing.jpg);
+    background-position: 0 0;
+    background-repeat: no-repeat;
+    background-size: cover;
+    height: 650px;
+    padding-top: 50px;
+}
+
+.landing p{
+    color: rgba(255, 255, 255, 0.834);
+    text-align: center;
+    font-size: 1.1em;
+}
+
+#presentation .buttons {
+    display: flex;
+    width: 100%;
+    padding-top: 30px;
+    padding-bottom: 50px;
+    justify-content: space-evenly;
+    align-items: flex-start;
+    text-align: center;
+    gap: 40px;
+}
+
+#presentation p{
+    color: rgba(0, 0, 0, 0.436);
+}
+
+#presentation img {
+    width: 100px;
+    height: 100px;
+
+}
+
+.buttons article{
+    width: 200px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+footer{
+    display: flex;
+    background: #00B172 url(/lab-css-spotify-clone/images/spotify-icon-white.png) center/100px no-repeat;
+    margin: 20px;
+    color: white;
+} 
+
+#footer .footer-title {
+    padding-top: 50px;
+    width: 350px;
+    color: white;
+    border-bottom: 3px solid white;
+}
+
+#footer .baseboard {
+    display: flex;
+    justify-content: space-between;
+    flex-direction: column;
+    width: 250px;
+    padding: 0 0 60px 60px;
+    align-items: center;
+}
+
+ .footer-info{
+    width: 100%;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+#footer h2{
+    margin-bottom: 30px;
+}
+
+#footer h4 {
+    padding-bottom: 20px;
+    padding-top: 30px;
+    text-align: left;
+}
+
+#footer .white-logo{
+    width: 100px;
+}
+
+#footer .footer-info img {
+    width: 250px;
+    height: auto;
+    object-fit: cover;
+    padding: 80px;
+}
