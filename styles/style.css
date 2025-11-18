@@ -6,3 +6,163 @@ Green: #00B172
 White: #FFF
 
 */
+
+* {
+  margin: 0;
+  padding: 0;
+}
+.header-site {
+  padding: 20px 20px;
+}
+
+.header-inner {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+.header-inner ul {
+  display: flex;
+  gap: 20px;
+  list-style: none;
+}
+.header-inner li {
+  color: rgb(0, 0, 0);
+  cursor: pointer;
+  font-size: 25px;
+  font-weight: 100;
+}
+
+.header-inner img {
+  width: 150px;
+}
+
+/* sectiontwo css starts herw */
+
+.section-two {
+  background-image: url(../images/landing.jpg);
+  height: 800px;
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  margin-bottom: 40px;
+}
+
+.section-two-heading h1 {
+  color: white;
+  font-size: 50px;
+}
+
+.section-two-heading h3 {
+  font-size: 20px;
+  text-align: center;
+  margin-top: 20px;
+  color: white;
+  font-weight: 100;
+}
+
+/* section three css starts from here */
+
+.section-three {
+  text-align: center;
+  padding: 40px 0;
+  margin-bottom: 50px;
+}
+
+.section-three-heading h1 {
+  display: inline-block;
+  position: relative;
+  font-size: 40px;
+  font-weight: 700;
+  margin-bottom: 50px;
+}
+
+.section-three-heading h1::after {
+  content: "";
+  position: absolute;
+  bottom: -8px;
+  left: 0;
+  width: 100%;
+  height: 4px;
+  background-color: #1db954;
+  border-radius: 2px;
+}
+
+.section-three-main-block {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.section-three-block {
+  width: 30%;
+  padding: 5px;
+}
+
+.section-three-block img {
+  width: 150px;
+  height: auto;
+  margin-bottom: 10px;
+}
+
+.section-three-block h5 {
+  color: #1db954;
+  font-size: 25px;
+  margin-bottom: 10px;
+}
+
+/* section four css starts here */
+
+.section-four {
+  background-color: #1db954;
+
+  padding: 30px;
+  box-sizing: border-box;
+}
+
+.main {
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+}
+.left-side h3 {
+  color: white;
+  font-size: 35px;
+  border-bottom: 2px solid white;
+}
+
+.left-side-inner {
+}
+
+.right-side img {
+  width: 200px;
+}
+
+.left-side-inner {
+  padding: 10px;
+  margin-top: 20px;
+}
+
+.left-side-inner h4 {
+  font-size: 25px;
+  color: white;
+  margin-bottom: 10px;
+}
+
+.left-side-inner p {
+  color: white;
+  font-size: 20px;
+}
+
+.position {
+  position: relative;
+}
+.position img {
+  position: absolute;
+  width: 60px;
+  bottom: 10px;
+  right: 620px;
+  top: 0px;
+}
