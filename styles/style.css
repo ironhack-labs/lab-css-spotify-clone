@@ -1,8 +1,141 @@
 /*
 Colors:
-
 Text: 1A1A1A
 Green: #00B172
 White: #FFF
-
 */
+
+/* RESET */
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+body {
+  font-family: Arial, sans-serif;
+  color: #1A1A1A;
+}
+
+/* NAVBAR */
+.navbar {
+  position: fixed;
+  top: 0;
+  width: 100%;
+  background: white;
+  display: flex;
+  justify-content: space-between;
+  padding: 15px 30px;
+  align-items: center;
+  z-index: 100;
+}
+
+.logo {
+  width: 130px;
+}
+
+.nav-links {
+  list-style: none;
+  display: flex;
+  gap: 25px;
+}
+
+.nav-links a {
+  color: #1A1A1A;
+  text-decoration: none;
+  font-weight: bold;
+}
+
+/* HERO SECTION */
+.hero {
+  background: url("../images/landing.jpg") center/cover no-repeat;
+  height: 100vh;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  padding-top: 60px;
+}
+
+.hero-text {
+  color: white;
+  text-align: center;
+}
+
+.hero-text h1 {
+  font-size: 60px;
+  margin-bottom: 15px;
+}
+
+/* FEATURES */
+.features {
+  padding: 70px 20px;
+  text-align: center;
+}
+
+.features h2 {
+  font-size: 32px;
+  margin-bottom: 40px;
+}
+
+.features-container {
+  display: flex;
+  justify-content: center;
+  gap: 60px;
+}
+
+.feature-box {
+  width: 250px;
+}
+
+.feature-box img {
+  width: 100px;
+  margin-bottom: 20px;
+}
+
+.feature-box h3 {
+  margin-bottom: 10px;
+}
+
+/* GREEN SECTION */
+.green-section {
+  background: #00B172;
+  display: flex;
+  justify-content: space-between;
+  padding: 80px;
+  color: white;
+  position: relative;
+}
+
+.green-text {
+  width: 50%;
+}
+
+.green-text h2 {
+  font-size: 40px;
+  margin-bottom: 40px;
+}
+
+.item {
+  margin-bottom: 25px;
+}
+
+.green-image {
+  width: 45%;
+  position: relative;
+  display: flex;
+  justify-content: center;
+}
+
+.app-img {
+  width: 300px;
+  border-radius: 10px;
+}
+
+.white-logo {
+  position: absolute;
+  top: 20px;
+  left: 20px;
+  width: 120px;
+  opacity: 0.7;
+}
+ 
