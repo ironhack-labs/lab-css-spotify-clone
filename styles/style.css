@@ -6,3 +6,119 @@ Green: #00B172
 White: #FFF
 
 */
+
+body{
+ margin: 0;
+ padding: 0;
+ font-family: 'Montserrat', sans-serif;
+}
+
+.nav-container{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding-top: 23px;
+    padding-bottom: 23px;
+
+}
+
+#logo{
+    height: 70px;
+    width: auto;
+    padding-left: 30px;
+}
+
+span{
+    padding:10px;
+    font-size: 16px;
+    
+}
+
+.lista{
+    padding-right: 30px;
+}
+
+.landing{
+    position: relative;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+   
+}
+
+.imagen-landing{
+    height: auto;
+    width: 100%;
+}
+
+.text-landing{
+
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  color: white;
+  font-size: 20px;
+  font-weight: bold;
+  display: flex;
+  flex-direction: column;
+  width: 450px
+  
+}
+
+.section-container {
+    display: flex;
+    flex-direction: row;
+    width: 100%
+}
+
+.spotify-container {
+    flex: 1; /* 🔥 Esto hace que los 3 ocupen todo el ancho */
+    text-align: center;
+    padding: 40px;
+    box-sizing: border-box;
+    border: 3px solid yellow;
+    margin: 20px
+}
+
+
+.spotify-container img {
+    width: 100px;   
+   
+}
+
+.spotify-container-two{
+    background-color: #1AB16A;
+    border: 30px black;
+    margin: 30px;
+    padding: 30px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    
+}
+
+.spotify-app{
+    width: 200px;
+    margin: 30px;
+}
+
+.spotify-container-two-text{
+    width: 450px;
+}
+
+.text-color{
+    color: #1EC087;
+}
+
+.spotify-icon-white{
+    height: 70px;
+    
+}
+
+.spotify-container-two h3,
+.spotify-container-two h4,
+.spotify-container-two p {
+    color: white;
+}
