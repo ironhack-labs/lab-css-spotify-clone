@@ -6,3 +6,129 @@ Green: #00B172
 White: #FFF
 
 */
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: box-model;
+    font-family:Arial, Helvetica, sans-serif;
+}
+
+/* Navigation Bar */
+#nav-image{
+    height: 50px;
+    margin-left: 30px;
+}
+nav ul{
+    display: flex;
+    justify-content: space-evenly;
+    list-style: none;
+    width: 45%;
+}
+nav ul a{
+    text-decoration: none;
+    color: black;
+    font-size: 1.2rem;
+}
+nav{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin-top: 10px;
+}
+
+/* Header */
+header{
+    background-image: url('../images/landing.jpg');
+    height: 700px;
+    background-size: cover;
+    color: white;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    margin-top: 10px;
+}
+header h1{
+    font-size: 5rem;
+    padding-bottom: 30px;
+}
+header p{
+    text-align: center;
+    font-size: 1.5rem;
+    color: #f6f6f6b0;
+}
+
+/* Main */
+#main-part1{
+    text-align: center;
+    font-size: 1.7rem;
+    margin-top: 35px;
+}
+.main-image{
+    height: auto;
+    width: 100px;
+    margin: 20px 0;
+}
+#main-part2{
+    display: flex;
+    justify-content: space-evenly;
+    margin-top: 35px
+}
+#main-part2 article{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+#main-part2 article h3{
+    color: rgba(0, 128, 0, 0.739);
+    margin-bottom: 20px;
+    font-size: 1.5rem;
+}
+#main-part2 article p{
+    width: 180px;
+    text-align: center;
+    font-size: 1.1rem;
+    color: grey;
+}
+
+/* Footer */
+footer{
+    background-color:rgba(0, 128, 0, 0.739);
+    display: flex;
+
+    align-items: center;
+    color: white;
+    margin-top: 70px;
+}
+#white-icon{
+    height: 150px;
+    margin-right: 100px;
+}
+.left-side{
+    width: 40%;
+    margin-left: 60px;
+    padding: 80px 0;
+}
+#app-icon{
+    height: 500px;
+    margin: 80px 0;
+}
+#footer-part1 h2{
+    font-size: 2.3rem;
+}
+#footer-part1 hr{
+    height: 2px;
+    background-color: white;
+    margin-bottom: 40px;
+}
+#footer-part2 h3{
+    font-size: 2.1rem;
+    margin-bottom: 30px;
+}
+#footer-part2 p{
+    margin-bottom: 30px;
+    color: rgba(205, 205, 205, 0.894);
+    width: 70%;
+    font-size: 1.3rem;
+}
