@@ -6,3 +6,143 @@ Green: #00B172
 White: #FFF
 
 */
+
+body {
+    font-family: 'Arial', sans-serif;
+    color: #1A1A1A;
+    margin: 0;
+    padding: 0;
+}
+
+#navbar {
+    background-color: #FFF;
+    padding: 20px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    position:fixed;
+    width:100%;
+    top: 0;
+    left:0;
+   
+}
+
+#navbar img {
+    height: 50px;
+    
+}
+
+#navbar ul {
+    list-style-type: none;
+    display: flex;
+    gap: 20px;
+    padding: 0px 50px;
+}
+
+
+#spotify-header {
+    background-image: url('../images/landing.jpg');
+    background-size: cover;
+    background-position: center;
+    color: #FFF;
+    height: 600px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;  
+    align-items: center;      
+    text-align: center;
+}
+
+#spotify-header h1 {
+    font-size: 48px;
+    margin: 0;
+}
+
+#spotify-header p {
+    font-size: 18px;
+    margin-top: 20px;
+}
+
+#spotify-advantages {
+    display: flex;
+    flex-direction: column;
+    padding: 50px 20px;
+    text-align: center;
+}
+
+#spotify-advantages ul {
+list-style-type: none;
+   display: flex;
+   gap: 20px;
+}
+
+#spotify-advantages ul li img {
+    height: 80px;
+  
+}
+
+#spotify-advantages li {
+    flex: 1;
+    background-color: #FFF;
+    padding: 20px;
+    border-radius: 10px;
+}
+
+
+#spotify-advantages h2 {
+    text-decoration: underline #00B172 2px;
+    text-underline-offset: 10px;
+}
+
+#spotify-advantages li h3 {
+    margin-top: 10px;
+    color: #00B172;
+
+}
+
+#spotify-advantages li p {
+    padding: 10px 70px;
+
+}
+
+#spotify-options {
+  
+  color: white;
+  padding: 60px 40px;
+  position: relative;
+  width: 100%;
+  box-sizing: border-box;
+}
+
+
+#spotify-options table {
+background-color: #00B172;
+  width: 100%;
+  padding: 40px 40px;
+}
+#spotify-options th {
+  font-size: 24px;
+  text-align: left;
+;
+    text-decoration: underline #FFF 2px;
+    text-underline-offset: 10px;
+}
+#spotify-options td {
+  padding:20px  25px;
+  vertical-align: top;
+
+}
+
+#spotify-options img.spotify-icon {
+  width: 100px;
+  height: auto;
+  padding: 150px 100px
+  
+ 
+}
+
+#spotify-options img.spotify-app {
+  width: auto;
+  height: 500px;
+}
+
