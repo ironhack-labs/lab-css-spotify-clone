@@ -6,3 +6,222 @@ Green: #00B172
 White: #FFF
 
 */
+
+html {
+  box-sizing: border-box;
+  font-size: 16px;
+}
+
+*,
+*:before,
+*:after {
+  box-sizing: inherit;margin:0;
+
+}
+
+
+h1,h2,h3,h4,h5,h6{
+  margin: 20px 0;
+  line-height: 1.2;
+  padding: 0;
+  font-family: "Noto Sans", sans-serif;
+}
+
+h1 {
+  font-size: 4.5rem;
+  padding-bottom: 5px;
+  font-weight: 500;
+}
+
+h2{
+  font-size: 2.2rem;
+  padding-bottom: 5px;
+  font-weight: 500;
+}
+
+h3{
+  font-size: 2rem;
+  font-weight: 700;
+   padding-bottom: 5px;
+  font-family: "Noto Sans", sans-serif;
+}
+
+
+ol,
+ul {
+  margin: 0;
+  padding: 0;
+  list-style: none;
+}
+
+p{
+  margin: 0;
+  padding: 0;
+  text-align: left;
+}
+
+body{
+  font-family: "Noto Sans", sans-serif;
+  font-size: 1.3em;
+  font-weight: 200;
+  
+}
+
+section{
+  padding: 20px 40px;
+  display: flex;
+  flex-direction: column;
+ 
+
+}
+
+section:not[id="hero"][id="navbar"]{
+  max-width: 1200px;
+  margin: 0 auto;
+}
+
+
+
+#navbar{
+  background-color: #fff;
+  padding: 20px;
+  position:fixed;
+  display:block;
+  width:100%;
+ z-index: 1000;
+  top:0;
+  box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+}
+
+#navbar-content{
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+}
+
+#logo{
+  width: 120px;
+}
+
+nav.nav{
+  float: right; 
+  padding-right: 10px;
+}
+
+nav > ul {
+  display: flex;
+  flex-flow: row nowrap;
+  gap: 20px;
+}
+
+#hero{
+  background-image: url(../images/landing.jpg);
+  height: 100vh;
+  background-size: cover;
+  background-position: center;
+  width:100%
+}
+
+#hero-content{
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  height: 100%;
+  color: #fff;
+  text-align: center;
+}
+
+#container{
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  margin-bottom: 40px;
+}
+
+.spotify-features{
+  display: flex;
+  flex-flow: row wrap;
+  gap: 20px;
+  justify-content: space-between;
+  align-content: center;
+}
+
+.spotify-feature{
+max-width: 300px;
+display:flex; 
+justify-content: center ;
+align-items: center; 
+flex-direction: column;
+flex: 1 0 0;
+padding: 40px 0;
+}
+
+.spotify-feature > h3{
+  margin-top: 20px;
+  font-size: 26px;
+  text-align: center;
+  color:#1ab26b;
+  
+}
+
+.spotify-feature > p{
+  text-align: center;
+}
+
+#container > h2{
+  border-bottom: 4px solid #1ab26b;
+  
+}
+img.icons{
+  width: 100px;
+}
+
+.advantages {
+  color: #fff;
+  position: relative;
+  background-color: #1ab26b;
+  padding: 40px 90px 60px ;
+}
+
+.advantages h3{
+ color: #ffffff 
+
+}
+
+#left-col{
+  display: flex;
+  flex-direction: column;
+  justify-content: start;
+}
+
+#left-col > h2{
+  border-bottom: solid 4px #fff;
+  width: auto;
+ }
+
+.green{
+  padding:10px 0;
+  align-items: start;
+  p{
+    text-align: left;
+  }
+}
+
+
+.illustration {
+  max-width: 300px;
+      align-self: end;
+
+  img{
+    width:100%
+  }
+}
+
+.floating-logo{
+  position: absolute;
+  top: calc(1/2*100% - 40px);    
+  left:47%;
+  width: 120px;
+}
+
