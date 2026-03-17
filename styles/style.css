@@ -6,3 +6,176 @@ Green: #00B172
 White: #FFF
 
 */
+body {
+margin: 0;  
+font-family: Arial, Helvetica, sans-serif;  
+}
+
+{ box-sizing: border-box;
+}
+
+nav {
+    position: fixed;
+    top: 0;
+    width: 100%;
+    padding: 5px 20px;
+    background-color: #FFF;
+    }
+
+.spotify-logo {
+    width: 180px;
+}
+
+nav ul {
+    list-style: none;
+    display: flex;
+    gap: 10px;
+    margin: 10px;
+    padding: 10px;
+    float: right;
+    margin-right: 5%;
+    color: #3f3f3f;
+    font-size: 14px;
+
+}
+
+
+
+header {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding: 20px;
+    height: 100vh;            
+    background-image: url("../images/landing.jpg");
+    background-size: cover;  
+    background-position: center; 
+    text-align: center;
+    color: white;
+    flex-direction: column;
+}
+
+h1 {
+    font-size: 48px;
+    margin-bottom: 20px;
+}
+
+p {
+    font-size: 15px;
+    margin-bottom: 20px;
+    
+}
+
+h2 {
+    font-size: 30px;
+    margin-bottom: 20px;
+}
+
+
+section {
+    margin: 20px;
+    padding: 30px;
+    
+}
+
+.features {
+  text-align: center;
+  padding: 60px 40px 90px;
+  background-color: white;
+}
+
+.features h2 {
+  font-size: 36px;
+  margin-bottom: 60px;
+  text-decoration: underline;
+  text-decoration-color: #00b172;
+  text-underline-offset: 10px;
+}
+
+.features-section {
+  text-align: center;
+}
+
+.features-icon {
+  display: inline-block;
+  width: 28%;
+  vertical-align: top;
+  margin: 0 2%;
+}
+
+.features-icon img {
+  width: 100px;
+  margin-bottom: 20px;
+}
+
+.features-icon h3 {
+  color: #00b172;
+  font-size: 30px;
+  margin-bottom: 15px;
+}
+
+.features-icon p {
+  font-size: 18px;
+  color: #666;
+  line-height: 1.4;
+}
+
+.spotify-app-section {
+  background-color: #00b172;
+  color: white;
+  padding: 70px 60px;
+  margin: 40px;
+}
+
+.spotify-text,
+.spotify-center-icon,
+.spotify-phone {
+  display: inline-block;
+  vertical-align: middle;
+}
+
+.spotify-text {
+  width: 38%;
+}
+
+.spotify-text h2 {
+  font-size: 42px;
+  margin-top: 0;
+  margin-bottom: 40px;
+  text-decoration: underline;
+  text-underline-offset: 10px;
+}
+
+.spotify-text h3 {
+  font-size: 32px;
+  margin-bottom: 10px;
+}
+
+.spotify-text p {
+  font-size: 18px;
+  line-height: 1.5;
+  margin-bottom: 30px;
+}
+
+.spotify-center-icon {
+  width: 20%;
+  text-align: center;
+}
+
+.spotify-icon {
+  width: 120px;
+}
+
+.spotify-app {
+  width: 38%;
+  text-align: right;
+}
+
+.spotify-app-section .spotify-app {
+  display: inline-block;
+  vertical-align: middle;
+}
+.spotify-app img {
+  width: 200px;
+}
+
