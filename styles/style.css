@@ -6,3 +6,188 @@ Green: #00B172
 White: #FFF
 
 */
+*, html, body {
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+    font-family: 'Arial', sans-serif;
+}
+
+body {
+    background-color: #fff;
+    line-height: 1.6;
+}
+.navbar {
+    position: absolute;
+    top: 0;
+    width: 100%;
+    background-color: #fff;
+    margin: 0 auto;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 25px 40px;
+}
+
+.hero {
+    
+    width: 100%;
+    background-image: url("../images/landing.jpg");
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+  
+  /* Es vital darle una altura al header si es fondo */
+    height: 1000px;
+  
+    /* Centrar el texto internamente (opcional) */
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}   
+.logo img{
+    height: 50px;
+}
+.nav-links {
+    font-size: 20px;
+    font-weight: bold;
+    list-style: none;
+    display: flex;
+    gap: 30px;
+}
+.nav-links :hover{
+    color: #00B172;
+    cursor: grab;
+}
+.hero-content {
+    text-align: center;
+    color: #fff;
+}
+.hero-content h1 {
+    font-size: 72px;
+    font-weight: bold;
+    margin-bottom: 10px;
+}
+
+.hero-content p {
+    font-size: 22px;
+    max-width: 700px;
+    margin: 0 auto;
+}
+.features-section {
+    padding: 30px 0;
+    text-align: center;
+}
+
+/*iconos de section features-section*/
+
+.features-grid {
+    display: flex;
+    justify-content: space-around;
+    gap: 10px;
+    margin: 0 40px;
+    margin-bottom: 40px;
+}
+
+.feature-card .icon img {
+    width: 150px;
+}
+
+.feature-card .icon {
+    font-size: 10px;
+    width: 100%;
+  
+}
+.logo-music .icon img {
+    width: 180px;
+    padding-bottom: 0;
+}
+
+.feature-card h3 {
+    color: #1DB954;
+    font-size: 35px;
+    margin-bottom: 15px;
+}
+
+.feature-card p {
+    color: #0e0d0d;
+    font-size: 30px;
+    width: 300px;
+}
+.section-title {
+    font-size: 34px;
+    margin-bottom: 100px;
+    position: flex;
+    justify-content: center;
+}
+
+.section-title::after {
+    content: "";
+    display: block;
+    width: 290px;
+    height: 3px;
+    background-color: #00B172;
+    margin: 5px auto 0;
+}
+
+/*section yeezy*/
+.yeezy-section {
+    background-color: #00B172;
+    color: white;
+    padding: 60px 0;
+    overflow: hidden;
+    margin: 0px 40px;
+    
+}
+
+.yeezy-flex {
+    display: flex;
+    align-items: center;
+    flex: 1;
+    justify-content: space-between;
+}
+
+.yeezy-text {
+    padding-left: 80px;
+    
+}
+
+.yeezy-title {
+    font-size: 38px;
+    margin-bottom: 40px;
+    border-bottom: 2px solid white;
+    display: inline-block;
+    font-weight: bold;
+}
+
+.info-group {
+    margin-bottom: 50px;
+    width: 80%;}
+
+.info-group h3 {
+    font-size: 24px;
+    margin-bottom: 10px;
+}
+
+.info-group p {
+    font-size: 20px;
+    max-width: 450px;
+}
+
+.yeezy-visual {
+    flex: 1;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    position: relative;
+}
+.center-logo {
+    width: 150px;
+    
+}
+.phone-mockup {
+    max-width: 50%;
+    height: 700px;
+    margin-right: 100px;
+    margin-top: 50px
+}
