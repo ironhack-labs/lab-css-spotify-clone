@@ -6,3 +6,123 @@ Green: #00B172
 White: #FFF
 
 */
+:root{
+    --text-color: #1A1A1A;
+    --green-color: #00B172;
+    --white-color: #FFF;
+}
+
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+header img{
+    width: 100px;
+}
+header ul{
+    display: flex;
+    list-style: none;
+    gap: 2em;
+}
+header{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 20px;
+    background-color: var(--white-color);
+    position: fixed;
+  top: 0;
+  left: 0;
+  width: 100%;
+  z-index: 1000;
+}
+.hero{
+    background-image: url('../images/landing.jpg');
+    background-size:cover;
+    background-position:bottom;
+    color: var(--white-color);
+    padding: 20px;
+    height: 70vh;
+    display: flex;
+    font-size: 1.5em;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    margin-bottom: 1.5em;
+}
+h1{
+    margin-bottom: 10px;
+    font-weight: 800;
+}
+.hero + section{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    margin-bottom: 5em;
+}
+.hero + section h2{
+    margin-bottom: 2em;
+    border-bottom: 2.5px solid var(--green-color);
+}
+.hero + section img{
+    width: 100px;
+    height: 100px;
+}
+.spotify-content{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 20px;
+}
+.spotify-content h3{
+    color: var(--green-color);
+}
+.spotify-content article{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    width: 200px;
+    text-align: center;
+    gap: 1em;
+}
+
+.last-section{
+    background-color: var(--green-color);
+    color: var(--white-color);
+}
+img[alt="icon-white"] {
+  width: 100px;
+}
+img[alt="app-movil"] {
+  width: 300px;
+}
+
+.last-section {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  gap: 20px;
+  padding: 4em;
+}
+ .last-section div {
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between; 
+  height: 60vh;             
+} 
+.last-section div h2{
+  font-size: 1.9em;
+  border-bottom: 2px solid var(--white-color);
+  width: auto;
+}
+.last-section div p{
+  width: 240px;
+}
+
+.last-section h3{
+  margin-bottom: 1em;
+  font-size: 1.4em;
+}
