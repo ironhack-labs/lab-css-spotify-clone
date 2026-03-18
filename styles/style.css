@@ -28,7 +28,11 @@ img {
 .header {
   background: #FFF;
   padding: 20px 0;
-    
+      position: fixed;
+  top: 0;
+  width: 100%;
+  
+  z-index: 1000;
 }
 
 .header img {
@@ -127,15 +131,11 @@ font-weight: 200;
 width: 100px;
 }
 
-
-
-
 .info-content {
   display: flex;
   align-items: center;
+  position: relative; 
 }
-
-
 
 .info-text h2,
 .info-text h3,
