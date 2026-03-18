@@ -6,3 +6,158 @@ Green: #00B172
 White: #FFF
 
 */
+html, body {
+    color: #1A1A1A;
+    margin: 0;
+    font-family: /*Arial,*/ Helvetica, sans-serif;
+    font-size: 20px;
+    font-weight:lighter;
+}
+
+header {
+    background-color:#FFF;
+    backdrop-filter: blur(10px);
+    position: sticky;
+    top: 0px;
+    display: flex;
+    flex-direction: row;
+    height: 100px;
+    justify-content: space-between;
+    align-items: center;
+    background-color: rgba(255,255,255,0.6);
+}
+header a, #spotlogo {
+
+    position: relative;
+    transition:all .2s ease;
+    font-size: 1.4rem;
+}
+
+#spotlogo:hover img{
+    height: 50px;
+}
+header li:hover a{
+    font-size: 1.6rem;
+    font-weight: bold;
+}
+header img {
+    margin-top: 2px;
+    margin-left: 10px;
+    height: 40px;
+}
+header ul {
+    list-style-type: none;
+    display: flex;
+    align-content: center;
+}
+header ul li {
+    padding: 0 10px;
+}
+header ul a {
+    color: #1A1A1A;
+    text-decoration: none;
+}
+#slogan {
+ background-image: url(/Primer-css/lab-css-spotify-clone/images/landing.jpg);
+ background-size: cover;
+ height: 600px;
+ color: #FFF;
+ text-align: center;
+ padding-top:280px;
+ display: flex;
+ flex-direction: column;
+ align-items: center;
+}
+#slogan h2 {
+    font-size: 4em;
+}
+#slogan p {
+    width: 700px;
+    font-size: 1.5em;
+}
+#intro {
+    height: 600px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+#intro h2 {
+    width: fit-content;
+    padding-bottom: 5px;
+    font-size: 2em;
+    border-bottom: #00B172 solid;
+}
+#intro article{
+    width: 100%;
+    display: flex;
+    flex-wrap:nowrap;
+    justify-content:space-evenly;
+}
+#intro div {
+    display: flex;
+    flex-direction: column;
+    
+    height: 300px;
+    align-items: center;
+    text-align: center;
+    font-size: 1.5em;
+}
+#intro h3 {
+    width: 360px;
+    font-size: 1.2em;
+    color: #00B172;
+    margin-bottom: 0;
+}
+#intro p {
+    width: 330px;
+}
+#intro img {
+    margin: 0 10%;
+    height: 120px;
+}
+
+#green {
+    background: url(/Primer-css/lab-css-spotify-clone/images/spotify-icon-white.png) center no-repeat, #00B172;
+    background-size: 10%;
+    margin:0 20px;
+    color:#FFF;
+    display: flex;
+    flex-wrap:nowrap;
+    justify-content:space-evenly;
+    align-items: center;
+    height: 800px;
+
+}
+#green h2{
+    width: 40vw;
+    font-size: 2rem;
+    width: fit-content;
+    padding-bottom: 5px;
+    font-size: 2em;
+    border-bottom: #FFF solid;
+    letter-spacing: 2px;
+}
+.logo, .app {
+    height: 600px;
+    width: 30%;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.text {
+    height: 600px;
+    font-size: 1.2em;
+}
+#green>article>div {
+    padding-top:5px;
+    width: 360px;
+}
+
+
+.app img{
+    padding-top: 45px;
+    height: 600px;
+    width:338px;
+    
+}
