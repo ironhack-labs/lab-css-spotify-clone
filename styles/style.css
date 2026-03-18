@@ -1,8 +1,175 @@
-/*
-Colors:
+/* RESET */
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
 
-Text: 1A1A1A
-Green: #00B172
-White: #FFF
+body {
+  font-family: "Helvetica Neue", Helvetica, Arial, sans-serif;
+}
 
-*/
+/* HEADER */
+.header {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 15px 50px;
+  background: white;
+  position: sticky;
+  top: 0;
+  z-index: 100;
+}
+
+.logo {
+  height: 40px;
+}
+
+.nav-links {
+  list-style: none;
+  display: flex;
+  gap: 20px;
+}
+
+.nav-links a {
+  text-decoration: none;
+  color: #333;
+  font-weight: 500;
+}
+
+/* HERO */
+.hero {
+  height: 80vh;
+  background:
+    linear-gradient(rgba(0, 0, 0, 0.3), rgba(0, 0, 0, 0.3)),
+    url("../images/landing.jpg");
+  background-size: cover;
+  background-position: center;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  text-align: center;
+  color: white;
+}
+
+.hero h1 {
+  font-size: 70px;
+  margin-bottom: 15px;
+}
+.hero p {
+  font-size: 22px;
+}
+
+/* FEATURES */
+.features {
+  padding: 60px 20px;
+  text-align: center;
+}
+
+.section-title {
+  font-size: 30px;
+  margin-bottom: 50px;
+  display: inline-block;
+  border-bottom: 3px solid #1db954;
+  padding-bottom: 5px;
+}
+
+.features-container {
+  display: flex;
+  justify-content: space-around;
+  max-width: 1100px;
+  margin: 0 auto;
+}
+
+.feature-card img {
+  width: 90px;
+  margin-bottom: 20px;
+}
+.feature-card h3 {
+  color: #1db954;
+  margin-bottom: 10px;
+}
+.feature-card p {
+  color: #666;
+  font-size: 15px;
+}
+
+/* KANYE SECTION (GREEN) */
+.kanye-section {
+  background-color: #1db954;
+  padding: 80px 40px;
+  color: white;
+}
+
+.kanye-container {
+  max-width: 1200px;
+  margin: 0 auto;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+}
+
+/* Columna 1: Texto */
+.kanye-col-text {
+  flex: 2; /* Toma más espacio */
+}
+
+.white-underline {
+  font-size: 32px;
+  margin-bottom: 40px;
+  border-bottom: 2px solid white;
+  display: inline-block;
+}
+
+.info-block {
+  margin-bottom: 25px;
+}
+.info-block h3 {
+  font-size: 22px;
+  margin-bottom: 5px;
+}
+.info-block p {
+  font-weight: 300;
+  font-size: 16px;
+  opacity: 0.9;
+}
+
+/* Columna 2: Logo Blanco */
+.kanye-col-icon {
+  flex: 1;
+  display: flex;
+  justify-content: center;
+}
+
+.kanye-col-icon img {
+  width: 100px;
+}
+
+/* Columna 3: App Screenshot */
+.kanye-col-app {
+  flex: 1.5;
+  display: flex;
+  justify-content: flex-end;
+}
+
+.kanye-col-app img {
+  width: 100%;
+  max-width: 280px;
+  border-radius: 4px;
+  box-shadow: 0 15px 35px rgba(0, 0, 0, 0.2);
+}
+
+/* Responsive */
+@media (max-width: 900px) {
+  .kanye-container {
+    flex-direction: column;
+    text-align: center;
+  }
+  .kanye-col-text,
+  .kanye-col-icon,
+  .kanye-col-app {
+    width: 100%;
+    margin-bottom: 40px;
+    justify-content: center;
+  }
+}
