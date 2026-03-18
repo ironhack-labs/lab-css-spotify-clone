@@ -3,6 +3,135 @@ Colors:
 
 Text: 1A1A1A
 Green: #00B172
-White: #FFF
+#FFF: #FFF
 
 */
+
+p{
+    font-size: 20px;
+}
+
+nav {
+    display: flex;
+    position: fixed;
+    top: 0;
+    left: 0;
+    width: 100%;
+
+    align-items: center;
+    flex-direction: row;
+    justify-content: space-between;
+    background-color: #FFF;
+}
+nav img{
+    margin-left: 20px;
+    height: 40px;
+    width: 30x;
+}
+
+.lista-nav{
+    display: flex;
+    flex-direction: row;
+    align-content: center;
+    justify-content: flex-end;
+}
+
+.lista-nav li{
+    padding: 20px
+}
+
+.hero{
+    background-image: url("../images/landing.jpg");
+    background-size: cover;
+    background-position: center;
+    height: 700px;
+    color:#FFF;
+    text-align: center;
+    display:flex;
+    flex-direction: column;
+    justify-content: center; /* centra horizontal */
+    align-items: center;     /* centra vertical */
+
+}
+
+.titulo-fondo{
+    font-size: 60px;
+}
+
+.mensaje-fondo{
+    font-size: 30px;
+    padding-left: 30px;
+    padding-right: 30px;
+}
+h2 {
+    display: inline-block;
+    padding-bottom: 5px;
+    border-bottom: 5px solid #00B172;
+    text-align: center;
+    font-size: 30px;
+}
+
+.titulo{
+    display: flex;
+    justify-content: center;
+}
+
+.bloques {
+  display: flex;
+  justify-content: center; 
+  gap: 50px;
+  margin-top: 50px;
+  align-items:center;
+  
+}
+
+.caracteristicas {
+    display:block;
+    text-align: center;
+    max-width: 250px;
+}
+
+.caracteristicas img{
+    height: 50px;
+    width: 50x;
+}
+
+.enunciado{
+    font-weight: bold;
+    color:#00B172;
+    font-size: 25px;
+    min-height: 50px;
+}
+
+
+
+.canciones{
+    margin: 20px;
+    background-color: #00B172;
+    color: #FFF;
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    padding-left:30px;
+    justify-content: space-between;
+}
+
+h3{
+    text-align: center;
+    font-size: 30px;
+}
+
+h4{
+    font-size: 25px;
+}
+
+.iconospot{
+    height: 50px;
+    width: 50px;
+}
+
+.imagenspot{
+    height: 400px;
+    width: 200px;
+    padding:30px;
+}
