@@ -6,3 +6,205 @@ Green: #00B172
 White: #FFF
 
 */
+
+:root{
+    --green: #00B172;
+    --color-text: #1A1A1A;
+    --white: #FFF;
+}
+
+*, html, body {
+    font-family: "Poppins", sans-serif;   
+    font-weight: 500;
+    font-style: normal;
+    padding: 0;
+    margin: 0;
+}
+
+/*HEADER*/
+
+header .nav-bar {
+    background-color: var(--white);
+    position: fixed;
+    top: 0;
+    left: 0;
+    width: 100%;
+    z-index: 1000;
+    
+}
+
+header .nav-bar nav {
+    display: flex;
+    justify-content: space-between; 
+    align-items: center;            
+    padding: 25px 40px;           
+    max-width: 100%;
+}
+
+header .nav-bar .logo-nav img {
+    width: 25%;
+    display: block;
+}
+
+header .nav-bar ul {
+    display: flex;
+    list-style: none;
+    margin: 0;
+    padding: 0;
+}
+
+header .nav-bar ul li {
+    margin-left: 1.2rem;
+    font-size: 1.3rem;
+    font-weight: 300;
+    cursor: pointer;
+    color: var(--color-text);
+}
+
+/*HEADER HERO*/
+
+.hero {
+    background-image: url(../images/landing.jpg);
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+    height: 650px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center; 
+    align-items: center;
+    color: white;
+}
+
+.hero h1 {
+    font-size: 4.5rem;
+    
+}
+
+.hero p {
+    font-size: 1.3rem;
+    padding: 0 20rem;
+    text-align: center;
+    font-weight: 300;
+}
+
+
+/* BENEFITS SECTION*/
+
+
+main .benefits h2 {
+    text-align: center;
+    margin-top: 2rem;
+    font-size: 2rem;
+    color: var(--color-text);
+}
+
+main .benefits hr {
+    height: 4px;
+    background-color: var(--green);
+    border: none;
+    width: 20%;
+    margin: 20px auto;
+}
+
+.features {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin: 3rem 3rem 6rem;
+    padding: 0 3rem;
+}
+
+.features article {
+    width: 33%;
+    text-align: center;
+}
+
+.features article img {
+    width: 37%;
+}
+
+.features article h3{
+    color: var(--green);
+    font-size: 1.7rem;
+    font-weight: 600;
+    margin-bottom: 0.8rem;
+}
+
+.features article p{
+    padding: 0 3rem;
+    font-size: 1.3rem;
+    font-weight: 280;
+    color: var(--color-text);
+}
+
+/*EASY SECTION*/
+
+.easy {
+    padding: 0 3rem 5rem;
+}
+
+.green {
+    background-color: var(--green);
+    color: var(--white);
+    padding: 5rem 0 5rem 5.5rem;
+    display: flex;
+    position: relative;
+    height: 600px;
+    width: 93%;
+    overflow: hidden;
+}
+
+.first-colum {
+    width: 80%;
+    margin-right: 10rem;
+}
+
+.first-colum h2{
+    font-size: 2.2rem;
+    
+}
+
+.first-colum hr{
+    margin-bottom: 2.8rem;
+    height: 4px;
+    background-color: var(--white);
+    border: none;
+    width: 31rem;
+    
+}
+
+.articles {
+    width: 70%;
+}
+
+.first-colum .articles h3{
+    font-size: 1.8rem;
+    margin-bottom: 1.5rem;
+}
+
+.first-colum .articles p{
+    font-size: 1.2rem;
+    font-weight: 300;
+    margin-bottom: 1.8rem;
+    padding-right: 5.5rem;
+}
+
+.logo img {
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    width: 10%;
+    height: auto;
+}
+
+.app {
+    padding-top: 0;
+    margin: 0;
+}
+
+.app img{
+    width: 75%;
+    margin-top: 2.5rem;
+}
