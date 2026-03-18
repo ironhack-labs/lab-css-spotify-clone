@@ -1,0 +1,179 @@
+header {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  padding: 20px;
+}
+body {
+  margin: 0;
+  padding: 0;
+  font-family: "montserrat";
+  font-weight: 500;
+}
+header img {
+  width: 100px;
+  height: auto;
+}
+
+ul {
+  list-style: none;
+  display: flex;
+  gap: 20px;
+  color: grey;
+}
+
+ul.nav-links li a {
+  right: 20px;
+  color: grey;
+  text-decoration: none;
+  font: 100%/1.5;
+  font-weight: 500px;
+  font-size: 14px;
+}
+
+.hero-container {
+  position: relative;
+  text-align: center;
+  color: white;
+}
+.landing-image {
+  width: 100%;
+  height: 100%;
+  position: center;
+  background-size: cover;
+}
+.hero-text {
+  position: absolute;
+  top: 28%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  color: white;
+  text-align: center;
+  font: 100%/1.5;
+  font-size: 14px;
+}
+.hero-text h1 {
+  font-size: 48px;
+  margin-bottom: 20px;
+}
+.hero-text p {
+  font-size: 24px;
+  margin-bottom: 10px;
+}
+
+div h2 {
+  display: flex;
+  justify-content: space-around;
+  padding: 40px 20px;
+  font: 100%/1.5;
+  font-weight: 500;
+  color: black;
+  font-size: 24px;
+}
+.feature {
+  color: black;
+  font: montserrat;
+}
+div.feature p {
+  display: flex;
+  justify-content: space-around;
+  padding: 0px 20px;
+  color: black;
+  font: 100%/1.5;
+  font-weight: 500;
+  font-size: 14px;
+}
+
+.feature div {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  padding: 20px;
+  gap: 10px;
+}
+.service-description {
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  padding: 40px 20px;
+  gap: 30px;
+  justify-content: center;
+  margin: auto;
+}
+.service-description article {
+  color: #1db954;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  gap: 10px;
+  text-align: center;
+  flex: 1;
+}
+
+.service-description p {
+  color: grey;
+  align-items: center;
+}
+.service-description img {
+  margin-bottom: 10px;
+  width: 100px;
+  height: auto;
+}
+section.bottom-section {
+  background-color: #1db954;
+  color: white;
+  padding: 40px 20px;
+  background-image: url(images/spotify-icon-white.png);
+  background-repeat: no-repeat;
+  background-position: center;
+  background-size: 100px;
+  display: flex;
+  justify-content: space-around;
+}
+
+.bottom {
+  width: 40%;
+  display: flex;
+  align-items: flex-start;
+}
+
+.bottom h2 {
+  font-size: 24px;
+  font-weight: 500;
+  color: white;
+  flex-direction: row;
+  width: 70%;
+  text-align: left;
+  letter-spacing: 2px;
+  padding-bottom: 5px;
+  display: inline-block;
+  border-bottom: 3px solid white;
+  margin: 10px 0px;
+}
+
+.bottom > div {
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+  color: white;
+  padding: 0px;
+}
+
+.bottom p {
+  text-align: left;
+  width: 60%;
+}
+
+article.bottom {
+  display: flex;
+  flex-direction: column;
+  gap: 10px;
+}
+
+.spotify-app-image {
+  width: 100%;
+  max-width: 400px;
+  height: auto;
+  display: flex;
+  justify-content: flex-end;
+}
