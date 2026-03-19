@@ -6,3 +6,138 @@ Green: #00B172
 White: #FFF
 
 */
+*,
+html,
+body {
+  margin: 0px;
+  padding: 0px;
+  box-sizing: border-box;
+  font-family: sans-serif;
+}
+
+.header {
+  display: flex;
+  height: 80px;
+  justify-content: space-between;
+  align-items: center;
+  padding: 0 40px;
+  position: fixed;
+  background-color: #fff;
+  width: 100vw;
+}
+
+.header img {
+  height: 40px;
+}
+
+.nav-list ul {
+  list-style-type: none;
+  display: flex;
+  gap: 30px;
+}
+
+.hero {
+  background-image: url(../images/landing.jpg);
+  background-size: cover;
+  background-position: center;
+  color: #fff;
+  height: 700px;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  gap: 40px;
+  text-align: center;
+}
+
+.hero h1 {
+  width: 600px;
+  font-size: 50px;
+}
+
+.hero p {
+  width: 400px;
+  font-size: 18px;
+}
+
+.spotify-section {
+  display: flex;
+  flex-direction: column;
+  text-align: center;
+  align-items: center;
+  height: 500px;
+}
+
+.spotify-section h2 {
+  /* width: 100%; */
+  padding: 20px 0 2px;
+  border-bottom: 3px solid #00b172;
+}
+
+.imgs-class {
+  display: flex;
+  align-items: center;
+  padding: 20px 20px;
+  width: 90%;
+}
+
+.box {
+  width: 33%;
+  height: 250px;
+  margin: 20px;
+}
+
+.box img {
+  height: 100px;
+  margin-top: 20px;
+}
+.box h3 {
+  color: #00b172;
+  margin-top: 20px;
+}
+
+.box p {
+  margin-top: 15px;
+  text-align: center;
+}
+
+.kanye {
+  background-color: #00b172;
+  background-image: url(../images/spotify-icon-white.png);
+  background-position: center;
+  background-size: 150px;
+  background-repeat: no-repeat;
+  color: #fff;
+  margin: 0 20px;
+  display: flex;
+  text-align: left;
+  justify-content: space-between;
+  height: 800px;
+}
+
+.kanye-text {
+  padding: 130px;
+  display: flex;
+  flex-direction: column;
+}
+
+.kanye-text h2 {
+  font-size: 38px;
+  border-bottom: 3px solid white;
+}
+
+.kanye img {
+  margin-top: 50px;
+  padding: 70px;
+  height: 750px;
+}
+
+.kanye-text-box {
+  margin-top: 80px;
+  width: 300px;
+}
+
+.kanye-text-box h3{
+    margin-bottom: 20px;
+    font-size: 24px;
+}
