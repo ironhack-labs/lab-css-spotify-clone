@@ -1,8 +1,180 @@
-/*
-Colors:
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
 
-Text: 1A1A1A
-Green: #00B172
-White: #FFF
+body {
+  font-family: Arial, Helvetica, sans-serif;
+  color: #1A1A1A;
+}
 
-*/
+#nav-bar {
+  position: fixed;
+  top: 0;
+  left: 0;
+  width: 100%;
+  background-color: #FFF;
+  z-index: 1000;
+  border-bottom: 1px solid #e5e5e5;
+}
+
+.nav-wrapper {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 15px 20px;
+  max-width: 1200px;
+  margin: 0 auto;
+}
+
+.logo {
+  width: 150px;
+}
+
+.nav-links {
+  display: flex;
+  list-style: none;
+  gap: 30px;
+}
+
+.nav-links a {
+  text-decoration: none;
+  color: #1A1A1A;
+  font-size: 14px;
+  font-weight: 500;
+}
+
+.nav-links a:hover {
+  color: #00B172;
+}
+
+#hero {
+  background-image: url('../images/landing.jpg');
+  background-size: cover;
+  background-position: center;
+  height: 100vh;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  text-align: center;
+}
+
+.hero-content {
+  color: #FFF;
+  max-width: 600px;
+  padding: 20px;
+}
+
+.hero-content h1 {
+  font-size: 60px;
+  margin-bottom: 20px;
+  font-weight: bold;
+}
+
+.hero-content p {
+  font-size: 20px;
+  line-height: 1.5;
+}
+
+#features {
+  padding: 80px 20px;
+  text-align: center;
+  background-color: #FFF;
+}
+
+#features h2 {
+  font-size: 36px;
+  margin-bottom: 60px;
+  border-bottom: 3px solid #00B172;
+  display: inline-block;
+  padding-bottom: 10px;
+}
+
+.features-container {
+  display: flex;
+  justify-content: center;
+  gap: 40px;
+  max-width: 1200px;
+  margin: 0 auto;
+}
+
+.feature {
+  flex: 1;
+  max-width: 350px;
+}
+
+.feature img {
+  width: 120px;
+  height: 120px;
+  margin-bottom: 20px;
+}
+
+.feature h3 {
+  font-size: 22px;
+  margin-bottom: 15px;
+  color: #00B172;
+}
+
+.feature p {
+  font-size: 16px;
+  line-height: 1.6;
+  color: #1A1A1A;
+}
+
+#app-section {
+  background-color: #00B172;
+  padding: 80px 20px;
+  position: relative;
+}
+
+.app-content {
+  display: flex;
+  max-width: 1200px;
+  margin: 0 auto;
+  align-items: center;
+  gap: 60px;
+}
+
+.app-text {
+  flex: 1;
+  color: #FFF;
+}
+
+.app-text h2 {
+  font-size: 36px;
+  margin-bottom: 40px;
+}
+
+.app-features h3 {
+  font-size: 24px;
+  margin-top: 30px;
+  margin-bottom: 10px;
+}
+
+.app-features p {
+  font-size: 16px;
+  line-height: 1.6;
+  margin-bottom: 20px;
+  max-width: 350px;
+}
+
+.app-image {
+  flex: 1;
+  display: flex;
+  justify-content: center;
+}
+
+.app-image img {
+  width: 100%;
+  max-width: 450px;
+}
+
+.floating-logo {
+  position: absolute;
+  width: 100px;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  z-index: 10;
+}
