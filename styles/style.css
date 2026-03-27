@@ -6,3 +6,166 @@ Green: #00B172
 White: #FFF
 
 */
+* {
+  margin: 0;
+  padding: 0;
+  font-family: 'Arial', sans-serif;
+  box-sizing: border-box;
+
+}
+
+.hero {
+  height: 1000px;
+  background-image: url("/images/landing.jpg");
+  background-size: cover;
+  background-repeat:no-repeat;
+  background-position: center;
+  width: 100%;
+  justify-content: center;
+  align-items: center;
+  display: flex;
+}
+
+.navbar {
+  position: fixed;
+  top: 0; 
+  width: 100%;
+  display: flex;
+  padding: 15px 30px;
+  background-color: white;
+  left: 0;
+  justify-content: space-between;
+  align-items: center; 
+  padding: 15px 30px;
+  z-index: 1000;
+
+}
+
+.hero .navbar .logo img {
+  width: 120px;
+  display: block;
+}
+
+.nav-links {
+    display: flex;
+    list-style: none;
+    margin: 0;
+    padding: 0;
+}   
+
+.nav-links li {
+    margin-left: 20px;
+}   
+
+.nav-links li a {
+    text-decoration: none;
+    color: #1A1A1A;
+    font-weight: bold;
+    font-size: 14px;
+}
+
+.music {
+    color: white;
+    font-size: 20px;
+    text-align: center;
+}
+
+.music p {
+      max-width: 700px
+}
+.whats-on {
+  text-align: center;
+  padding: 50px 20px;
+}
+.whats-on h2 {
+  font-size: 28px;
+  margin-bottom: 40px;
+  text-align: center;
+  border-bottom: 3px solid #00B172;
+  Padding-bottom: 10px;
+  display: incline-block;
+}
+
+.container-features {
+  display: flex;
+  justify-content: center;
+  gap: 40px;
+  max-width: 1000px;
+  margin: 0 auto;
+}
+
+.container-features article {
+  flex: 1;
+  padding: 20px;
+}
+
+.container-features article img {
+  width: 100px;
+  margin-bottom: 20px;
+}
+
+.container-features h3 {
+  margin-bottom: 15px;
+  color: #00B172;
+}
+.container {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  background: #2ebd59; 
+  padding: 80px 60px;
+  color: white;
+  overflow: hidden;
+}
+
+.left {
+  flex: 1.2;
+}
+
+.left h1 {
+  font-size: 38px;
+  margin-bottom: 40px;
+  border-bottom: 2px solid white;
+  display: inline-block;
+  padding-bottom: 10px;
+}
+
+.info-group {
+  margin-bottom: 30px;
+}
+
+.left h3 {
+  font-size: 24px;
+  margin-bottom: 5px;
+}
+
+.left p {
+  font-size: 16px;
+  opacity: 0.95;
+  max-width: 450px;
+}
+
+.center {
+  flex: 0.5;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.center img {
+  width: 100px;
+  margin-right: 50px; 
+}
+
+.right {
+  flex: 1;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.right img {
+  max-width: 320px;
+  border-radius: 20px;
+  box-shadow: 0 30px 60px rgba(0,0,0,0.4);
+}
