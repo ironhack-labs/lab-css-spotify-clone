@@ -1,8 +1,210 @@
-/*
-Colors:
 
-Text: 1A1A1A
-Green: #00B172
-White: #FFF
+header{
+    font-family: Arial, Helvetica, sans-serif;
+    display: flex;
+    justify-content: space-between;
+    position: fixed;
+    align-items: center;
+    padding: 0 20px;
+    height: 60px;
+    background-color: white;
+    top: 0;
+    left: 0;
+    width: 100%;
+    box-sizing: border-box;
+    z-index: 10;
+}
 
-*/
+header img {
+    height: 40px;
+    width: auto;
+    object-fit: contain;
+}
+
+nav ul {
+    list-style-type: none;
+    display: flex;
+    gap: 30px;
+    margin: 0;
+    padding: 0;
+}
+
+body {
+    margin: 0;
+    padding: 0;
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+section.main {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+
+ /* Fondo */
+    background-image: url('../images/landing.jpg');
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+}
+section.main h1 {
+    font-size: 4em;
+    color: white;
+    font-style: bold;
+    margin-bottom: 20px;
+    justify-content: center;
+    position: relative;
+    align-items: center;
+}
+
+section.main h3 {
+    font-size: 1.5em;
+    color: white;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    gap: 5px;
+    margin-top: 5px;
+}
+
+section.elements {
+    background-color: white;
+}   
+
+section.elements h2 {
+    font-size: 2.5em;
+    color: black;
+    font-weight: bold;
+    margin-bottom: 20px;
+    display: flex;
+    justify-content: center;
+    position: relative;
+    align-items: center;
+
+    /* Subrayado */
+    text-decoration: underline;
+    text-decoration-color: #1DB954;
+    text-decoration-thickness: 5px;
+    text-underline-offset: 10px;
+   
+}
+
+/* Lista */
+section.elements ul {
+    list-style-type: none;
+    padding: 0;
+    margin: 0;
+    display: flex;
+    justify-content: center;
+    flex-wrap: wrap;
+    gap: 30px;
+}
+
+/* Elementos de la Lista */
+section.elements li {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    flex: 1 1 200px;
+    text-align: center;
+    min-width: 200px;
+    }
+
+/* Imágenes de la Lista */
+section.elements li img {
+    width: 100px;
+    height: 100px    ;
+    object-fit: cover;
+    border-radius: 10px;
+    margin-bottom: 15px;
+}
+
+section.elements li h4 {
+    font-size: 1.8em;
+    margin-bottom: 10px;
+    color: #1DB954;
+}
+
+section.elements li p {
+    font-size: 1.2em;
+    color: #333;
+    max-width: 300px;
+}
+
+/* Sección del Reproductor completa */
+section.player, 
+section.player * {
+    all: unset;          
+    box-sizing: border-box;
+}
+section.player {
+    display: flex;                    
+    justify-content: space-between;   
+    align-items: flex-start;
+    padding: 50px 40px;
+    background-color: #1DB954;
+
+    /* logo de fondo */
+    background-image: url('../images/spotify-icon-white.png');
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: 100px;
+
+    color: white; 
+}
+
+/* Bloque de texto */
+.player-left {
+    max-width: 60%;  
+}
+
+/* h3 alineado a la izquierda con subrayado */
+.player-left h3 {
+    font-size: 2em;
+    margin-bottom: 20px;
+    text-align: left;
+    text-decoration: underline;
+    text-decoration-color: white;
+    text-decoration-thickness: 3px;
+    text-underline-offset: 10px;
+    color: white;
+}
+
+/* Lista vertical en Player */
+section.player ul {
+    list-style: none;        
+    padding: 0;
+    margin: 30px 0 0 0;
+    display: block;          
+}
+
+section.player li {
+    display: block;          
+    margin-bottom: 20px;
+}
+
+section.player li h4 {
+    font-size: 1.5em;
+    color: white !important; 
+    display: block;          
+    margin-bottom: 5px;
+}
+
+section.player li p {
+    font-size: 1em;
+    color: white !important; 
+    display: block;
+}
+
+/* Imagen a la derecha */
+.player-right {
+    flex-shrink: 0; 
+}
+
+.player-right img {
+    max-width: 300px;
+    height: auto;
+    border-radius: 10px;
+}
