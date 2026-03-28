@@ -1,8 +1,112 @@
-/*
-Colors:
+:root {
+  --text: rgb(26, 26, 26);
+  --green: rgb(0, 177, 114);
+  --white: rgb(255, 255, 255);
+}
 
-Text: 1A1A1A
-Green: #00B172
-White: #FFF
+body {
+  margin: 0;
+  font-family: "Franklin Gothic Medium", "Arial Narrow", Arial, sans-serif;
+}
 
-*/
+
+
+.class-div-link {
+  position: fixed;
+  top: 0;
+  width: 100%;
+
+  background-color: var(--white);
+  padding: 20px 0;
+
+  z-index: 1000;
+}
+
+
+.class-link {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.nav-container {
+  max-width: 1200px;
+  margin: 0 auto;
+  padding: 0 20px;
+
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  width: 100%;
+}
+
+
+.class-logo img {
+  height: 40px;
+}
+
+
+.nav-container ul {
+  display: flex;
+  gap: 25px;
+  list-style: none;
+  margin: 0;
+  padding: 0;
+}
+
+.nav-container a {
+  text-decoration: none;
+  color: var(--text);
+  font-weight: 500;
+  font-size: 16px;
+}
+
+.nav-container a:hover {
+  color: var(--green);
+}
+
+
+
+.class-header {
+  position: relative;
+  height: 100vh;
+
+  background-image: url("../images/landing.jpg");
+  background-size: cover;
+  background-position: center;
+  background-repeat: no-repeat;
+
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+
+  text-align: center;
+  color: white;
+
+  padding-top: 80px;
+}
+
+.class-header::before {
+  content: "";
+  position: absolute;
+  inset: 0;
+  background: rgba(0, 0, 0, 0.5);
+}
+
+.class-header h1,
+.class-header p {
+  position: relative;
+  z-index: 2;
+}
+
+.class-header h1 {
+  font-size: 64px;
+  margin-bottom: 20px;
+}
+
+.class-header p {
+  font-size: 20px;
+  max-width: 700px;
+  line-height: 1.5;
+}
