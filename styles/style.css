@@ -6,3 +6,162 @@ Green: #00B172
 White: #FFF
 
 */
+html, body {
+    margin: 0;
+    padding: 0;
+}
+
+.spotify_logo {
+    width: 15em;
+    height: auto;
+}
+
+.landing {
+    width: 100%;
+    height: auto;
+
+}
+
+.navigation_bar {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: space-between;
+    padding-right: 5em;
+}
+
+.nav_link {
+    display: flex;
+    flex-direction: row;
+    list-style: none;
+    gap: 20px;
+    padding: 0;
+    margin: 0;
+    font-family: 'Montserrat', sans-serif;
+}
+
+.welcome_body {
+ background-image: url(/images/landing.jpg);
+ background-size: cover;
+ background-position: center;
+ height: 100vh;
+ display: flex;
+ flex-direction: column;
+ justify-content: center;
+ align-items: center;
+ text-align: center;
+}
+
+.welcome_h1 {
+    color: white;
+    font-size: 3rem;
+    margin-bottom: 0;
+    font-family: 'Montserrat', sans-serif;   
+}
+
+.ad {
+    color: white;
+    font-size: 2em;
+    margin-bottom: 0;
+    font-family: 'Montserrat', sans-serif;
+}
+
+.news {
+    display: flex;
+    justify-content: space-evenly;
+    margin-left: 5em;
+    margin-right: 5em;
+}
+
+.news h3 {
+   text-align: center;
+}
+
+.news img {
+    width: 6em;
+    flex-flow: row;
+    justify-content: center;
+    margin-top: 4em;
+}
+
+.spotify_news {
+    text-decoration: underline;
+    text-decoration-color: #00B172;
+}
+
+.wrap {
+    text-align: center;
+}
+
+.news h3 {
+    color: #00B172;
+    font-family: 'Montserrat', sans-serif;
+    font-size: 1.5em;
+}
+
+.item {
+    display: flex;
+    justify-content: flex-end;
+    align-items: center;
+    flex-direction: column;
+}
+
+.news p {
+    font-size: 1.8em;
+    text-align: center;
+    font-family: 'Montserrat', sans-serif;
+}
+
+.artist {
+    background-image: url(/images/spotify-icon-white.png);
+    background-size: 15vh;
+    background-position: center;
+    background-repeat: no-repeat;
+    height: 100vh;
+    background-color: #00B172;
+    margin-left: 4em;
+    margin-right: 4em;
+    position: relative;
+}
+
+.kanye h3 {
+    font-size: 2em;
+    color: white;
+    border-bottom: 2px solid white;
+    display: inline-block;
+    font-family: 'Montserrat', sans-serif;
+    text-decoration: none;
+}
+
+.kanye {
+    padding-top: 3em;
+    padding-left: 4em;
+}
+
+.text {
+    padding-top: 3em;
+    padding-left: 4em;
+    width: 16.5em;
+}
+
+.sub_header {
+    color: white;
+    font-size: 2em;
+    font-family: 'Montserrat', sans-serif;
+    margin-top: 0;
+    font-weight: bold;
+}
+
+.sub_text {
+    color: white;
+    font-size: 1.2em;
+    margin: 0em;    
+}
+
+.spotify-app {
+    width: 19em;
+    position: absolute;
+    right: 10%;
+    top: 45%;
+    transform: translateY(-50%);
+}
