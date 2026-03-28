@@ -1,8 +1,138 @@
-/*
-Colors:
+/* General Styles */
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: sans-serif;
+}
 
-Text: 1A1A1A
-Green: #00B172
-White: #FFF
+/* Iteration 1: Navbar */
+.navbar {
+    position: fixed;
+    top: 0;
+    width: 100%;
+    height: 80px;
+    background-color: white;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 0 50px;
+    z-index: 1000;
+}
 
-*/
+.logo {
+    height: 40px;
+}
+
+.navbar ul {
+    display: flex;
+    list-style: none;
+}
+
+.navbar ul li a {
+    text-decoration: none;
+    color: black;
+    margin-left: 20px;
+    font-weight: 500;
+}
+
+/* Iteration 2: Hero Section */
+.hero {
+    height: 100vh;
+    background-image: url('../images/landing.jpg');
+    background-size: cover;
+    background-position: center;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+    color: white;
+}
+
+.hero h1 {
+    font-size: 80px;
+    margin-bottom: 20px;
+}
+
+.hero p {
+    font-size: 24px;
+    max-width: 700px;
+}
+
+/* Iteration 3: Features Section */
+.features {
+    padding: 100px 50px;
+    text-align: center;
+}
+
+.features h2 {
+    font-size: 36px;
+    margin-bottom: 60px;
+    border-bottom: 2px solid #1DB954;
+    display: inline-block;
+}
+
+.features .container {
+    display: flex;
+    justify-content: space-around;
+    gap: 20px;
+}
+
+.feature-card {
+    flex: 1; /* Nimmt jeweils 1/3 ein */
+    padding: 20px;
+}
+
+.feature-card img {
+    height: 100px;
+    margin-bottom: 20px;
+}
+
+.feature-card h3 {
+    color: #1DB954;
+    margin-bottom: 15px;
+}
+
+/* Iteration 4: Green Section */
+.app-section {
+    background-color: #1DB954;
+    color: white;
+    padding: 100px 50px;
+}
+
+.app-container {
+    display: flex;
+    align-items: center;
+    max-width: 1000px;
+    margin: 0 auto;
+}
+
+.text-content {
+    flex: 2;
+}
+
+.text-content h2 {
+    font-size: 40px;
+    margin-bottom: 30px;
+}
+
+.sub-features div {
+    margin-bottom: 30px;
+}
+
+.image-content {
+    flex: 1;
+    position: relative; /* Wichtig für die absolute Positionierung des Logos */
+}
+
+.app-mockup {
+    width: 100%;
+}
+
+.absolute-logo {
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%); /* Zentriert das Icon */
+    width: 80px;
+}
