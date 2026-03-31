@@ -39,7 +39,7 @@ All of the necessary assets and images are already provided. You might also find
 ## Requirements
 
 - Fork this repo
-- Clone this repo
+- Clone this repo - CLON CHECK
 
 ## Submission
 

@@ -6,3 +6,175 @@ Green: #00B172
 White: #FFF
 
 */
+html {
+    box-sizing: border-box;
+    font-family: 'Inter', sans-serif;
+}
+
+*, *:before, *:after {
+    box-sizing: inherit;
+}
+
+body{
+    margin: 0;
+}
+
+nav img {
+    width: 150px;
+    height: 50px;
+}
+
+.navbar {
+    align-self: flex-start;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 20px;
+    position: fixed;
+    top: 0;
+    left: 0;
+    width: 100%;
+    z-index: 1000;
+    background-color: #FFF;
+}
+
+.navbar ul {
+    display: flex;
+    list-style: none;
+    gap: 20px;
+}
+
+.navbar a {
+    font-size: 1.5rem;
+    text-decoration: none;
+    color: #1A1A1A;
+}
+
+.heroImg {
+    background-image: url("../images/landing.jpg");
+    height: 100vh;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    position: relative;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+}
+
+.heroImg h1 {
+    color: #FFF;
+    font-size: 8rem;
+    font-weight: bold;
+    margin-bottom: 1%;
+}
+.heroImg p {
+    color: #FFF;
+    text-align: center;
+    font-size: 2rem;
+    font-weight: -100;
+    width: 45%;
+} 
+
+.features {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    flex-wrap: wrap;
+    margin-bottom: 5%;
+    
+}
+
+.features h2 {
+    font-size: 3rem;
+    margin-bottom: 150px;
+    padding-bottom: 10px;
+    border-bottom: 5px solid #00B172;  
+} 
+
+.features-container {
+    display: flex;
+    justify-content: space-around;
+    gap: 200px;
+    max-width: 100%;
+}
+
+.features-container div {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    text-align: center;
+    max-width: 300px;
+}
+
+.features-container h3 {
+    font-size: 1.5rem;
+    margin-top: 20px;
+    margin-bottom: 10px;
+    color: #00B172;
+    font-weight: bold;
+}
+
+.features-container img {
+    width: 120px;
+    height: 100px;
+} 
+
+.features-container p {
+    font-size: 1.4rem;
+    width: 85%;
+    color: grey;
+}
+
+.app {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    gap: 5%;
+    flex-wrap: wrap;
+    margin: 3%;
+    padding: 5%;
+    background-color: #00B172;
+     
+}
+
+.app div {
+    display: flex;
+    flex-direction: column;
+    text-align: left;
+    max-width: 35%;
+    color: #FFF;
+}
+
+.app h2 {
+    font-size: 3rem;
+    margin-bottom: 50px;
+    padding-bottom: 10px;
+    border-bottom: 5px solid #FFF;  
+}
+
+.app h3 {
+    font-size: 2.5rem;
+    margin-top: 20px;
+    margin-bottom: 10px;
+    color: #FFF;
+    font-weight: bold;
+}
+
+.app p {
+    font-size: 1.5rem;
+    width: 60%;
+}
+
+.app img {
+    width: 250px;
+    height: 250px;
+}
+
+#spotify-app {
+    padding-left: 5%;
+    width: 500px;
+    height: 800px;
+}
