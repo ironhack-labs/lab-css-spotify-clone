@@ -1,0 +1,177 @@
+body{
+    margin: 0;
+    padding: 0;
+    font-family: 'Roboto Condensed', sans-serif;
+}
+
+.navbar {
+  position: fixed;
+  top: 0;
+  width: 100%;
+  background-color: #ffffff;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 10px 20px;
+}
+
+.logo {
+  color: rgb(7, 6, 6);
+  font-size: 20px;
+  font-weight: bold;
+}
+
+.logo img{
+    width: 10%;
+}
+
+.nav-links {
+  list-style: none;
+  display: flex;
+  margin: 0 2% 0 0;
+  padding: 0;
+  font-family: 'Roboto Condensed', sans-serif;
+}
+
+.nav-links li {
+  margin-left: 20px;
+}
+
+.nav-links a {
+  color: rgb(0, 0, 0);
+  text-decoration: none;
+}
+
+.content {
+  margin-top: 60px;
+  padding: 20px;
+}
+
+.content img{
+    width: 100%;
+    margin: 0 auto;
+    background-size: cover;
+    background-position: center;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+.text{
+    position: absolute;
+    top: 45%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    color: white;
+    font-size: 40px;
+    font-weight: bold;
+    font-family: 'Roboto Condensed', sans-serif;
+}
+.content p{
+    position: absolute; 
+    top: 50%;
+    left: 50%;
+    padding: 10%;
+    transform: translate(-50%, -50%);
+    color: rgb(247, 247, 247);
+    font-size: 1.35em;
+    font-weight: lighter;
+    text-align: justify; 
+    font-family: 'Roboto Condensed', sans-serif;
+    white-space: wrap;
+}
+
+.what h2 {
+    text-align: center;
+    font-size: 2em;
+    margin-bottom: 30px;
+}
+
+.cards{
+    display: flex;
+    gap: 40px;
+    align-items: center;
+    justify-content: space-around;
+}
+
+.testa {
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+    gap: 20px;
+    max-width: 300px;
+}
+
+.testa img {
+    width: 100px;
+    height: auto;
+}
+
+.text2 h3 {
+    
+    color: #00B172;
+    font-family: 'Roboto Condensed', sans-serif;
+    font-size: 1.5em;
+    text-align: center;
+}
+
+.text2 p {
+    margin: 5px 0 0;
+    font-size: 1em;
+    font-family: 'Roboto Condensed', sans-serif;
+    text-align: center;
+}
+
+
+.feed {
+    background-color: #00B172;
+    margin: 1%;
+    padding: 40px;
+    color: white;
+}
+
+
+.feed .title {
+    font-size: 2.5em;
+    text-decoration: underline;
+    margin-bottom: 40px;
+}
+
+
+.content {
+    display: flex;                 
+    justify-content: space-between;
+    align-items: flex-start;
+}
+
+.left {
+    flex: 1;
+    max-width: 50%;
+}
+
+
+.middle img{
+    max-width: 100px;
+    height: auto;
+    
+}
+
+
+.right img {
+    max-width: 300px;
+    height: auto;
+    
+}
+
+
+.feed h3 {
+    margin: 20px 0 5px;
+    font-size: 1.6em;
+}
+
+.feed h4 {
+    margin: 0 0 10px;
+    font-weight: lighter;
+    line-height: 1.4;
+}
