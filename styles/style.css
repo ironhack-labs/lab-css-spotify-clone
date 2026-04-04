@@ -1,8 +1,263 @@
-/*
-Colors:
+/* ===============================
+   ROOT-VARIABLEN
+   =============================== */
+:root {
+  --spotify-green: #00b172;
+  --text-gray: #1a1a1a;
+  --white-color: #fff;
+  --spotify-font: "Montserrat", sans-serif;
+}
 
-Text: 1A1A1A
-Green: #00B172
-White: #FFF
+/* ===============================
+   GLOBALE SETTINGS
+   =============================== */
+*,
+*::before,
+*::after {
+  box-sizing: border-box; /* Angegebene Breite/Höhe beinhaltet bereits Padding und Border. */
+}
+html,
+body {
+  overflow-x: hidden; /* verhindert horizontales Scrollen (Swipen) */
+}
+body {
+  margin: 0;
+  padding: 0;
+  max-width: 100vw;
+  font-family: var(--spotify-font);
+  color: var(--text-gray);
+}
+h2 {
+  display: inline-block;
+  font-size: clamp(1rem, 17vw, 2.5rem); /*clamp(MIN, VAL, MAX);*/
+  font-weight: 600;
+}
+h3 {
+  font-size: clamp(0.5rem, 2.1vw, 4rem);
+}
 
-*/
+p {
+  line-height: 1.5; /* Abstand zwischen den Zeilen */
+}
+
+/* ===============================
+   NAVIGATIONSLEISTE
+   =============================== */
+nav {
+  background-color: var(--white-color);
+  position: fixed;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  width: 100vw;
+  height: 14vh;
+
+  padding: 0 2.3em;
+  z-index: 999; /* Navbar bleibt über allem */
+}
+.nav-links {
+  display: flex;
+  list-style: none; /*keine Punkte vor den Listen-Elementen*/
+  gap: 1.5vw;
+}
+.nav-links a {
+  display: inline-block;
+  text-decoration: none;
+  color: var(--text-gray);
+  transition: transform 0.2s; /*verlangsamt das Hochspringen der Links bei Hovering*/
+}
+.nav-links a:hover {
+  transform: translateY(-0.1em); /* Links gehen bei Hovering nach oben*/
+}
+.spotify-logo {
+  height: 9vh;
+  width: auto;
+}
+
+/* ===============================
+   CATCHPHRASES / HEADER
+   =============================== */
+.catch-phrases {
+  height: 128vh;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: flex-start;
+  text-align: center;
+  color: var(--white-color);
+  padding-top: 18rem;
+  background-image: url("/images/landing.jpg"); /*Bild Konzert*/
+  background-size: cover; /*Bild füllt kompletten Container*/
+  background-position: center;
+  background-repeat: no-repeat;
+}
+/* "Music for everyone" */
+.catch-phrases h1 {
+  font-size: clamp(2.5rem, 23vw, 5rem);
+  font-weight: 600;
+  margin-bottom: 0.1em;
+}
+/* "Spotify is now free on..." */
+.catch-phrases p {
+  font-size: clamp(1rem, 2.1vw, 3.5rem);
+  line-height: 0.5;
+  margin-bottom: 0;
+}
+
+/* ===============================
+   FEATURES-SECTION
+   =============================== */
+.features {
+  text-align: center;
+  padding: 2.7rem 2rem 0.1rem; /* oben links/rechts unten */
+  margin-bottom: 3em;
+}
+.features h2 {
+  border-bottom: 3px solid var(--spotify-green); /*Unterstrich unter Überschrift*/
+  margin: 0 0 0.3em;
+}
+.features h3 {
+  color: var(--spotify-green);
+  margin: 0;
+}
+.feature-container {
+  display: flex;
+  flex-wrap: wrap; /* erlaubt Zeilenumbruch auf kleinen Screens */
+  justify-content: space-around;
+  padding: 4em 1.5em 2em;
+}
+/* Artikel / Einzelne Feature-Box */
+.feature-container article {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  text-align: center;
+  max-width: 26rem;
+  font-size: 1.2em;
+  flex: 1; /* alle Artikel gleich breit */
+  padding-top: 1.4em; /* Innenabstand für Icon/Text */
+}
+/* Article: "Millions of Songs" */
+.feature-container article:first-child {
+  padding-left: 2rem;
+}
+/* mittlerer Artikel "HD Music" */
+.feature-container article:nth-child(2) {
+  padding-left: 1rem;
+  padding-right: 1rem;
+}
+/* "Stream Everywhere" */
+.feature-container article:last-child {
+  padding-right: 2rem;
+}
+.feature-container article p {
+  margin-top: 1em;
+  font-size: clamp(1rem, 3.4vh, 4rem);
+}
+.icon-wrapper {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  margin-bottom: 1.6rem;
+  height: 10vh;
+}
+.feature-img {
+  height: 15vh;
+  width: auto;
+}
+.feature-img-2 {
+  height: 13vh;
+  width: auto;
+}
+@media (max-width: 48rem) {
+  .feature-container {
+    flex-direction: column;
+    align-items: center;
+  }
+  .feature-container article {
+    max-width: 90%;
+    margin-bottom: 2em;
+  }
+}
+
+/* ===============================
+   GRÜNE INFO-SECTION
+   =============================== */
+.info {
+  background-color: var(--spotify-green);
+  color: var(--white-color);
+  display: flex;
+  justify-content: space-between; /* Text links, Bild rechts */
+  position: relative;
+  align-items: flex-start;
+  padding: 0 3em 4.5em;
+  margin: 0 2em 2em;
+  min-height: 40vh;
+  max-width: 100vw;
+}
+.spotify-icon-img {
+  position: absolute;
+  display: block;
+  max-width: 10%;
+  height: auto;
+  z-index: 2; /* liegt weniger tief als info-content */
+  top: 50%;
+  left: 50%; /*Positioniert die obere linke Ecke des Bildes bei 50% von oben ("top: 50%") und links des Containers.*/
+  transform: translate(
+    -50%,
+    -50%
+  ); /*verschiebt Bild nach oben und links um die Hälfte seiner eigenen Größe.*/
+  margin: 0 auto; /* zentriert das Logo */
+}
+.info-content {
+  position: relative;
+  max-width: 50rem;
+  margin: 0;
+  padding: 3em 2em 0;
+  color: var(--white-color);
+  display: flex;
+  flex-direction: column;
+  justify-content: flex-start;
+  z-index: 1;
+  text-align: left;
+}
+.app-image-container {
+  max-width: 40%;
+  display: flex;
+  justify-content: flex-end; /* Bild am rechten Rand des Containers */
+  align-items: flex-start;
+  margin: 9em 0 3em;
+  padding-right: 4.5em;
+}
+.app-on-smartphone-img {
+  height: 87vh;
+  width: auto;
+  object-fit: contain; /*Bild bleibt vollständig sichtbar, Seitenverhältnis wird beibehalten*/
+}
+/* Info Überschriften und Texte */
+.info h2 {
+  border-bottom: 3px solid var(--white-color);
+}
+.info h3 {
+  margin: 1.2em 0;
+}
+.info p,
+.nav-links {
+  font-size: clamp(0.5rem, 1.5vw, 2rem);
+  margin: 0.3em 0;
+}
+@media (max-width: 48rem) {
+  .info {
+    flex-direction: column;
+    align-items: center;
+    text-align: center;
+  }
+  .info-content {
+    max-width: 90%;
+  }
+  .app-on-smartphone-img {
+    max-width: 80%;
+    margin-top: 2em; /*Abstand zum Text*/
+    justify-content: center;
+  }
+}
