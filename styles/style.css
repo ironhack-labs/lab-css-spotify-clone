@@ -15,7 +15,7 @@ html {
 *,
 *:before,
 *:after {
-    box-sizing: inherit;
+
 }
 
 
@@ -129,27 +129,29 @@ body {
     background-color: #00B172;
     margin: 20px;
     color: white;
-    padding: 50px;
+    padding: 50px 7%;
     position: relative;
 }
 
 
-.box-flex {
-    display: flex;
-    width: 80%;
-    justify-self: center;
-    align-items: center;
-    height: 500px;
-
-}
 
 .features-section img {
-    height: 450px;
-    width: auto;
+    width: 250px;
+    height: auto;
+    display: inline-block;
+    position: relative;
+    left: 60%;
 }
 
+
 .features-left {
-    width: 100%;
+    width: 40%;
+    display: inline-block;
+    margin-top: 30px;
+    width: 250px;
+    line-height: 1.6em;
+    left: 6%;
+    position: relative;
 }
 
 .features-left h2 {
@@ -162,20 +164,12 @@ body {
     margin-bottom: 20px;
 }
 
-.features-left div {
-    margin-top: 30px;
-    width: 250px;
-    line-height: 1.6em;
-}
-
-.features-section #white-spotify {
-    height: 100px;
-    width: auto;
+#white-spotify{
     position: absolute;
-    left: 50%;
-    top: 40%;
-
+    top: 150px;
+    left: 43%;
 }
+
 
 
 
