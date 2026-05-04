@@ -6,3 +6,183 @@ Green: #00B172
 White: #FFF
 
 */
+
+html {
+    box-sizing: border-box;
+    font-size: 16px;
+}
+
+*,
+*:before,
+*:after {
+    box-sizing: inherit;
+}
+
+
+body,
+h1,
+h2,
+h3,
+h4,
+h5,
+h6,
+p,
+ol,
+ul {
+    margin: 0;
+    padding: 0;
+    font-weight: normal;
+}
+
+body {
+    font-family: sans-serif;
+}
+
+
+
+.header {
+    height: 60px;
+    display: block;
+    position: fixed;
+    width: 100%;
+    z-index: 1;
+    background-color: #FFF;
+}
+
+.nav-container {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    height: 100%;
+}
+
+.nav-container img {
+    width: 160px;
+    height: auto;
+}
+
+.nav-list li {
+    display: inline-block;
+    margin: 0 20px;
+}
+
+.main-section {
+    height: 600px;
+    background: url(../images/landing.jpg) 0 0 / cover no-repeat;
+    position: relative;
+    top: 60px;
+    margin-bottom: 80px;
+    text-align: center;
+    color: white;
+    align-content: center;
+}
+
+.main-section h1 {
+    font-size: 4em;
+    font-weight: 600;
+    margin-bottom: 30px;
+}
+
+.main-section p {
+    font-size: 1.3em;
+    line-height: 1.4em;
+}
+
+.services-section {
+    /* background-color: greenyellow; */
+    padding: 10px 0;
+    text-align: center;
+}
+
+.services-flex {
+    display: flex;
+    justify-content: center;
+    /* background-color: red; */
+    margin: 0 20px;
+    justify-content: space-around;
+    padding: 25px 10px;
+}
+
+.child-flex {
+    /* border:1px solid green; */
+    height: 200px;
+    width: 200px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: space-around;
+    padding: 10px;
+}
+
+.child-flex img {
+    width: 100px;
+    height: auto;
+}
+
+.child-flex h3 {
+    color: #00B172;
+    font-weight: bold;
+
+}
+
+.features-section {
+    background-color: #00B172;
+    margin: 20px;
+    color: white;
+    padding: 50px;
+    position: relative;
+}
+
+
+.box-flex {
+    display: flex;
+    width: 80%;
+    justify-self: center;
+    align-items: center;
+    height: 500px;
+
+}
+
+.features-section img {
+    height: 450px;
+    width: auto;
+}
+
+.features-left {
+    width: 100%;
+}
+
+.features-left h2 {
+    text-decoration: underline;
+    margin-bottom: 30px;
+}
+
+.features-left h3 {
+    font-weight: bold;
+    margin-bottom: 20px;
+}
+
+.features-left div {
+    margin-top: 30px;
+    width: 250px;
+    line-height: 1.6em;
+}
+
+.features-section #white-spotify {
+    height: 100px;
+    width: auto;
+    position: absolute;
+    left: 50%;
+    top: 40%;
+
+}
+
+
+
+
+
+/* .features-left{
+    width: 50%;
+    height: 100%;
+    background-color: blue;
+} */
