@@ -14,9 +14,7 @@ html {
 
 *,
 *:before,
-*:after {
-
-}
+*:after {}
 
 
 body,
@@ -32,151 +30,161 @@ ul {
     margin: 0;
     padding: 0;
     font-weight: normal;
-}
-
-body {
     font-family: sans-serif;
+    font-size: 16px;
 }
 
 
 
 .header {
-    height: 60px;
-    display: block;
-    position: fixed;
-    width: 100%;
-    z-index: 1;
-    background-color: #FFF;
-}
-
-.nav-container {
     display: flex;
     justify-content: space-between;
+    flex-flow: row wrap;
     align-items: center;
-    height: 100%;
+    position: fixed;
+    width: 100%;
+    height: 80px;
+    z-index: 1;
+    background-color: #fff;
 }
 
-.nav-container img {
-    width: 160px;
-    height: auto;
+
+.header a {
+    text-decoration: none;
+    color: black;
+    padding: 0 20px;
 }
 
-.nav-list li {
+.header li {
     display: inline-block;
-    margin: 0 20px;
+    text-decoration: none;
+}
+
+.header img {
+    width: auto;
+    height: 60px;
 }
 
 .main-section {
-    height: 600px;
-    background: url(../images/landing.jpg) 0 0 / cover no-repeat;
     position: relative;
-    top: 60px;
-    margin-bottom: 80px;
+    top: 80px;
+    background-image: url('../images/landing.jpg');
+    background-position: center;
+    background-size: cover;
+    background-repeat: no-repeat;
+    height: 800px;
     text-align: center;
-    color: white;
     align-content: center;
+    color: white;
 }
 
 .main-section h1 {
     font-size: 4em;
-    font-weight: 600;
-    margin-bottom: 30px;
+    margin-bottom: 1em;
 }
 
 .main-section p {
-    font-size: 1.3em;
-    line-height: 1.4em;
+    font-size: 1.5em;
+    font-weight: 100;
 }
 
 .services-section {
-    /* background-color: greenyellow; */
-    padding: 10px 0;
+    position: relative;
+    top: 80px;
     text-align: center;
+    padding-top: 40px;
+    padding-bottom: 50px;
+}
+
+.services-section h2 {
+    font-size: 2.8em;
+    text-decoration: underline;
+    text-decoration-color: #00B172;
+    text-decoration-thickness: 5px;
+    text-underline-offset: 15px;
 }
 
 .services-flex {
     display: flex;
     justify-content: center;
-    /* background-color: red; */
-    margin: 0 20px;
-    justify-content: space-around;
-    padding: 25px 10px;
+    padding-top: 50px;
+}
+
+.services-flex img {
+    height: auto;
+    width: 150px;
 }
 
 .child-flex {
-    /* border:1px solid green; */
-    height: 200px;
-    width: 200px;
     display: flex;
-    flex-direction: column;
+    flex-flow: column nowrap;
     align-items: center;
-    justify-content: space-around;
-    padding: 10px;
-}
-
-.child-flex img {
-    width: 100px;
-    height: auto;
-}
-
-.child-flex h3 {
-    color: #00B172;
-    font-weight: bold;
-
+    justify-content: space-evenly;
+    width: 200px;
+    height: 250px;
+    margin: 0 30px;
 }
 
 .features-section {
+    position: relative;
+    top: 80px;
+    padding-top: 50px;
     background-color: #00B172;
-    margin: 20px;
-    color: white;
-    padding: 50px 7%;
-    position: relative;
+    margin: 0 38px;
+    display: flex;
+    flex-flow: nowrap row;
+    justify-content: space-evenly;
+    padding-bottom: 70px;
+}
+
+.features-details {
+    width: 38%;
+    color: #fff;
+    display: flex;
+    flex-flow: column nowrap;
+    
 }
 
 
-
-.features-section img {
-    width: 250px;
-    height: auto;
-    display: inline-block;
-    position: relative;
-    left: 60%;
-}
-
-
-.features-left {
-    width: 40%;
-    display: inline-block;
-    margin-top: 30px;
-    width: 250px;
-    line-height: 1.6em;
-    left: 6%;
-    position: relative;
-}
-
-.features-left h2 {
+.features-details h2 {
+    font-size: 2em;
     text-decoration: underline;
+    text-decoration-color: #fff;
+    text-decoration-thickness: 5px;
+    text-underline-offset: 15px;
+    margin-bottom: 60px;
+}
+
+
+
+.features-details h3{
+    font-size: 1.5em;
+    margin-bottom: 20px;
+}
+
+.features-details p{
+    font-size: 1em;
+    font-weight: 100;
     margin-bottom: 30px;
 }
 
-.features-left h3 {
-    font-weight: bold;
-    margin-bottom: 20px;
+.kanye {
+    width: 38%;
+    text-align: end;
+}
+
+.kanye img {
+    height: auto;
+    width: 250px;
+}
+
+.inner-div{
+    width: 50%
 }
 
 #white-spotify{
     position: absolute;
-    top: 150px;
-    left: 43%;
+    height: auto;
+    width: 200px;
+    top: 50%;
 }
-
-
-
-
-
-
-/* .features-left{
-    width: 50%;
-    height: 100%;
-    background-color: blue;
-} */
