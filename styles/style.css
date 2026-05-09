@@ -6,3 +6,96 @@ Green: #00B172
 White: #FFF
 
 */
+
+header {
+    display: flex;
+    justify-content: space-between;
+}
+
+header img {
+    height: 50px;
+}
+
+
+nav ul{
+    list-style: none;
+    display: flex;
+    width: 300px;
+    justify-content: space-around;
+    padding: 0;
+}
+
+
+nav a {
+    color: black;
+    text-decoration: none;
+}
+
+.hero {
+    display: flex;
+    color: white;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    height: 300px;
+    margin: 0;
+    background-size: cover;
+    background-image: url("../images/landing.jpg");
+}
+
+.hero p {
+    margin: 0;
+}
+
+.features {
+    text-align: center;
+}
+
+.features h2 {
+    font-weight: bold;
+    border-bottom: 2px solid #00B172;
+    display: inline-block;
+}
+
+.features-grid {
+    display: flex;
+    justify-content: center;
+}
+
+.features-grid img {
+    height: 50px;
+}
+
+.features h3 {
+    color: #00B172;
+}
+
+.kanye {
+    color: white;
+    display: flex;
+    background-color: #00B172;
+    justify-content: center;
+    align-items: center;
+    * {
+        margin: 10px;
+    }
+}
+
+.kanye h2 {
+    border-bottom: white solid 2px;
+    display: inline-block;
+}
+
+.kanye-spotify {
+    align-content: center;
+    img {
+        height: 50px;
+    }
+}
+
+.kanye-image {
+    align-content: center;
+    img {
+        height: 250px;
+    }
+}
