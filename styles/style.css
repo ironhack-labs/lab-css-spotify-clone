@@ -6,3 +6,111 @@ Green: #00B172
 White: #FFF
 
 */
+
+.navbar {
+position: fixed;
+top: 0;
+left: 0;
+width: 100%;
+background-color: white;
+display: flex;
+justify-content: space-between;
+align-items: center;
+padding: 15px 30px;
+z-index: 100;
+}
+
+.logo {
+height: 40px;
+}
+
+.nav-links {
+list-style: none;
+display: flex;
+gap: 20px;
+}
+
+.nav-links a {
+color: #010000;
+text-decoration: none;
+font-size: 14px;
+font-weight: bold;
+}
+
+.nav-links a:hover {
+color: #00B172;
+}
+.hero {
+background-image: url('../images/landing.jpg');
+background-size: cover;
+background-position: center;
+height: 100vh;
+display: flex;
+flex-direction: column;
+justify-content: center;
+align-items: center;
+text-align: center;
+color: #fff;
+padding: 20px;
+}
+
+.hero h1 {
+font-size: 60px;
+margin-bottom: 20px;
+}
+
+.hero p {
+font-size: 18px;
+margin-bottom: 30px;
+max-width: 500px;
+}
+
+.btn {
+background-color: #00B172;
+color: #fff;
+border: none;
+padding: 15px 40px;
+font-size: 16px;
+font-weight: bold;
+border-radius: 30px;
+cursor: pointer;
+letter-spacing: 1px;
+}
+
+.green-image {
+    display:flex;
+    flex-direction: column;
+    justify-content:right;
+    align-items: end;
+    margin-right: 50px;
+    padding-bottom: 50px;
+}
+.features{
+    text-align: center;
+}
+.grline {
+    width: 15px;
+    height: 2px;
+    background-color: #00B172;
+}
+.spoti-white {
+    display: flex;
+    flex-direction:row;
+    justify-content: center;
+    padding-left: 700px;
+}
+
+.green-section {
+    background-color: #00B172;
+}
+.features-container {
+    display:flex;
+    flex-direction: row;
+    justify-content:space-between;
+}
+.green-feature {
+    display:flex;
+    flex-direction: column;
+    justify-content:left;
+    margin-top: 200px;
+}
