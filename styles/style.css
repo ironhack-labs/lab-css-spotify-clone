@@ -6,3 +6,71 @@ Green: #00B172
 White: #FFF
 
 */
+body{
+    font-family: Arial, Helvetica, sans-serif;
+}
+h5{
+    color: rgb(4, 127, 49);
+}
+header{
+    display: flex;
+    justify-content: space-between;
+}
+nav{
+    display: flex;
+}
+.logo_img{
+ width: 150px;
+}
+nav ul{
+    display: flex;
+    list-style: none;
+    justify-content: space-around;
+    width: 290px;
+}
+.hero_main{
+    background-image: url("../images/landing.jpg");
+    background-size: cover;
+    background-position: center;
+    height: 310px;
+    color: aliceblue;
+    display: flex;
+    justify-content: center;
+    text-align: center;
+    align-items: center;
+    flex-direction: column;
+}
+.hero_main p{
+    font-size: small;
+    margin: 0;
+}
+/* Body */
+.ques_parent{
+    text-align: center;
+}
+.ques{
+    font-weight: 600;
+    margin: 2% 0;
+    border-bottom: 3px solid green;
+    display: inline-block;
+}
+.features_section{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.feature{
+    list-style: none;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-around;
+    align-items: center;
+}
+.f_img{
+    width: 50px;
+    height: 50%;
+}
+.p_card{
+    text-align: center;
+    font-size: x-small;
+}
