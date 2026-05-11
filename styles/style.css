@@ -6,3 +6,229 @@ Green: #00B172
 White: #FFF
 
 */
+
+body {
+  margin: 0;
+  padding: 0;
+  color: #1A1A1A;
+  font-family: Arial, Helvetica, sans-serif;
+}
+
+.logo-nav {
+  position: fixed;
+  top: 0;
+  left: 0;
+  z-index: 10;
+
+  width: 100%;
+  height: 70px;
+
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+
+  padding: 0 35px;
+
+  background-color: #FFF;
+}
+
+.logo {
+  width: 160px;
+  object-fit: contain;
+}
+
+.navbar {
+  display: flex;
+  flex-direction: row;
+  gap: 30px;
+
+  margin: 0;
+  padding: 0;
+
+  list-style: none;
+}
+
+.navbar li {
+  font-size: 17px;
+  color: #1A1A1A;
+}
+
+h3{
+    display: flex;
+    justify-content: center;
+    padding: 15px;
+    font-size: x-large;
+    text-decoration: underline;
+    text-decoration-color: #00B172;
+}
+
+#header-container {
+  height: 650px;
+  width: 100%;
+
+  margin-top: 70px;
+
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+
+  background-image: url("../images/landing.jpg");
+  background-position: center;
+  background-size: cover;
+  background-repeat: no-repeat;
+
+  text-align: center;
+}
+
+#header-container h1 {
+  margin: 0 0 25px 0;
+
+  color: #FFF;
+  font-size: 58px;
+  font-weight: bold;
+}
+
+#header-container h4 {
+  width: 65%;
+  margin: 0;
+
+  color: #FFF;
+  font-size: 24px;
+  font-weight: normal;
+  line-height: 1.4;
+}
+h3 {
+  width: fit-content;
+
+  margin: 45px auto;
+  padding-bottom: 8px;
+
+  color: #1A1A1A;
+  font-size: 30px;
+  font-weight: bold;
+  text-align: center;
+
+  border-bottom: 4px solid #00B172;
+  text-decoration: none;
+}
+
+.logo-container {
+  display: flex;
+  justify-content: space-between;
+  gap: 35px;
+
+  padding: 0 50px 70px 50px;
+}
+
+.songs,
+.hd,
+.stream {
+  width: 33.33%;
+
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+
+  text-align: center;
+}
+
+.songs-icon,
+.hd-icon,
+.devices-icon {
+  width: 90px;
+  height: 90px;
+
+  object-fit: contain;
+  margin-bottom: 20px;
+}
+
+.songs h3,
+.hd h3,
+.stream h3 {
+  margin: 0 0 15px 0;
+  padding: 0;
+
+  color: #00B172;
+  font-size: 24px;
+  font-weight: bold;
+
+  text-decoration: none;
+}
+
+.songs p,
+.hd p,
+.stream p {
+  width: 70%;
+  margin: 0;
+
+  color: #555;
+  font-size: 18px;
+  line-height: 1.4;
+}
+
+/* SECTION VERTE */
+
+.low-container {
+  position: relative;
+
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+
+  margin: 0 30px 30px 30px;
+  padding: 60px 90px;
+
+  background-color: #00B172;
+  color: #FFF;
+}
+
+.text {
+  width: 40%;
+}
+
+.text h3 {
+  width: fit-content;
+
+  margin: 0 0 45px 0;
+  padding: 0 0 8px 0;
+
+  color: #FFF;
+  font-size: 30px;
+  font-weight: bold;
+
+  border-bottom: 3px solid #FFF;
+  text-decoration: none;
+}
+
+.text h4 {
+  margin: 0 0 15px 0;
+
+  color: #FFF;
+  font-size: 24px;
+  font-weight: bold;
+}
+
+.text p {
+  margin: 0 0 30px 0;
+
+  color: #FFF;
+  font-size: 17px;
+  line-height: 1.5;
+}
+
+.spotify-icon-white {
+  position: absolute;
+
+  width: 120px;
+
+  top: 50%;
+  left: 50%;
+
+  transform: translate(-50%, -50%);
+}
+
+.spotify-app-icon {
+  width: 270px;
+}
+
