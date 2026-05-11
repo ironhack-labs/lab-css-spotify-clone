@@ -6,3 +6,135 @@ Green: #00B172
 White: #FFF
 
 */
+
+* {
+  box-sizing: border-box;
+  margin: 0;
+  padding: 0;
+}
+
+body {
+  font-family: "Arial", sans-serif;
+  background-color: #fff;
+  color: #1a1a1a;
+  overflow-x: hidden;
+}
+
+.header {
+  align-items: center;
+}
+
+.logo {
+  font-size: 24px;
+  font-weight: bold;
+  color: #00b172;
+  width: 150px;
+}
+.navigation {
+  display: flex;
+  flex-direction: row;
+  flex-wrap: wrap;
+  align-content: center;
+  justify-content: space-between;
+  align-items: center;
+  padding: 20px;
+}
+.nav-links {
+  display: flex;
+  gap: 20px;
+}
+.nav-links a {
+  text-decoration: none;
+  color: #1a1a1a;
+  font-size: 16px;
+}
+.nav-links a:hover {
+  color: #00b172;
+}
+
+.hero-content-container {
+  background-image: url("/clone/lab-css-spotify-clone/images/landing.jpg");
+  display: flex;
+  height: 80vh;
+  display: flex;
+  justify-content: center;
+  align-content: center;
+  flex-wrap: wrap;
+  flex-direction: column;
+  align-items: center;
+  background-position: center; /* Center the image */
+  background-repeat: no-repeat; /* Do not repeat the image */
+  background-size: cover; /* Resize the background image to cover the entire container */
+}
+h1 {
+  font-size: 50px;
+  margin-bottom: 1rem;
+}
+.hero-content-container > h1 {
+  width: 80%;
+  text-align: center;
+  color: #fff;
+}
+p.hero-banner-text {
+  color: #fff;
+}
+.hero-content-container a {
+  text-decoration: none;
+  color: #fff;
+  font-size: 16px;
+}
+.features-section-title-header {
+  text-align: center;
+  margin: 3rem;
+  font-size: 2em;
+  border-bottom: solid #11b36c;
+  text-underline-position: under solid green;
+}
+.features-icon {
+  width: 10rem;
+}
+.faetures-section-icon-text {
+  display: flex;
+  flex-direction: row;
+  flex-wrap: wrap;
+  align-content: center;
+  justify-content: space-evenly;
+  align-items: center;
+}
+.features-section-icon-text-title {
+  text-align: center;
+}
+
+p.features-icon-text {
+  color: black;
+  text-align: center;
+}
+h3.features-icon-title {
+  color: #11b36c;
+  font-size: 2rem;
+  margin: 1rem;
+}
+.music-featues {
+  background-color: #11b36c;
+  padding: 3rem;
+  margin: 2rem;
+}
+.spotify-icon-white {
+  width: 10rem;
+}
+img.spotify-app {
+  width: 20rem;
+}
+
+.music-features-contianer-colum-three {
+  display: flex;
+  flex-direction: row;
+  flex-wrap: wrap;
+  justify-content: space-evenly;
+  align-items: center;
+}
+.music-features-contianer {
+  color: #fff;
+  line-height: 3rem;
+  width: 23%;
+}
