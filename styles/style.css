@@ -1,8 +1,157 @@
-/*
-Colors:
+body {
+  margin: 0;
+  padding: 0;
+  font-family: Arial, sans-serif;
+}
 
-Text: 1A1A1A
-Green: #00B172
-White: #FFF
+/* navbar */
+.navbar {
+  background-color: white;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 15px 30px;
+  position: fixed;
+  top: 0;
+  left: 0;
+  right: 0;
+  z-index: 10;
+}
 
-*/
+.logo {
+  height: 40px;
+}
+
+.nav-links {
+  list-style: none;
+  display: flex;
+  gap: 20px;
+  margin: 0;
+  padding: 0;
+}
+
+.nav-links a {
+  text-decoration: none;
+  color: black;
+  font-weight: bold;
+  font-size: 14px;
+}
+
+/* hero section */
+.hero {
+  background-image: url('../images/landing.jpg');
+  background-size: cover;
+  height: 100vh;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  text-align: center;
+  color: white;
+}
+
+.hero h1 {
+  font-size: 60px;
+  margin-bottom: 20px;
+}
+
+.hero p {
+  font-size: 18px;
+  margin-bottom: 30px;
+}
+
+.btn {
+  background-color: #00b172;
+  color: white;
+  padding: 15px 40px;
+  border: none;
+  border-radius: 30px;
+  font-size: 14px;
+  font-weight: bold;
+}
+
+/* what's on spotify section */
+.features {
+  padding: 50px;
+  text-align: center;
+}
+
+.features h2 {
+  font-size: 28px;
+  border-bottom: 3px solid #00b172;
+  display: inline-block;
+  padding-bottom: 8px;
+  margin-bottom: 40px;
+}
+
+.features-container {
+  display: flex;
+  justify-content: space-around;
+}
+
+.feature {
+  width: 28%;
+  border: 1px solid #ccc;
+  padding: 20px;
+}
+
+.feature img {
+  width: 70px;
+  margin-bottom: 15px;
+}
+
+.feature h3 {
+  color: #00b172;
+  margin-bottom: 10px;
+}
+
+.feature p {
+  color: gray;
+}
+
+/* green section */
+.green-section {
+  background-color: #00b172;
+  color: white;
+  display: flex;
+  align-items: center;
+  padding: 60px;
+  position: relative;
+}
+
+.green-text {
+  width: 45%;
+}
+
+.green-section h2 {
+  font-size: 26px;
+  border-bottom: 2px solid white;
+  display: inline-block;
+  padding-bottom: 8px;
+  margin-bottom: 25px;
+}
+
+.green-section h3 {
+  font-weight: bold;
+  margin-bottom: 8px;
+}
+
+.green-section p {
+  margin-bottom: 20px;
+}
+
+.spotify-icon {
+  position: absolute;
+  left: 47%;
+  width: 90px;
+}
+
+.green-image {
+  width: 45%;
+  margin-left: auto;
+  text-align: center;
+}
+
+.green-image img {
+  width: 55%;
+}
