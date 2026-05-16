@@ -6,3 +6,151 @@ Green: #00B172
 White: #FFF
 
 */
+
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+body {
+  font-family: Arial, Helvetica, sans-serif;
+  font-size: 1.2em;
+  color: #1a1a1a;
+}
+
+a {
+  text-decoration: none;
+  color: #1a1a1a;
+}
+
+/* Iteration 1: Navbar */
+nav {
+  position: fixed;
+  top: 0;
+  left: 0;
+  width: 100%;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 0 40px;
+  height: 80px;
+  background-color: #fff;
+  z-index: 10;
+}
+
+nav img {
+  height: 40px;
+}
+
+nav ul {
+  display: flex;
+  list-style: none;
+  gap: 20px;
+}
+
+/* Iteration 2: Hero */
+.hero {
+  background-image: url("../images/landing.jpg");
+  background-size: cover;
+  background-position: center;
+  height: 100vh;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  text-align: center;
+  color: #fff;
+  padding-top: 80px;
+}
+
+.hero-content {
+  width: 60%;
+}
+
+.hero-content h1 {
+  font-size: 4rem;
+  margin-bottom: 20px;
+}
+
+.hero-content p {
+  font-size: 1.5rem;
+  font-weight: 300;
+}
+
+/* Iteration 3: What's on Spotify */
+.whats-on {
+  padding: 80px 40px;
+  text-align: center;
+}
+
+.whats-on h2 {
+  font-size: 2.5rem;
+  margin-bottom: 40px;
+  border-bottom: 3px solid #00b172;
+  display: inline-block;
+  padding-bottom: 5px;
+}
+
+.features {
+  display: flex;
+  justify-content: space-between;
+  gap: 40px;
+}
+
+.feature {
+  flex: 1;
+  max-width: 33%;
+  padding: 20px;
+}
+
+.feature img {
+  width: 100px;
+  margin-bottom: 20px;
+}
+
+.feature h3 {
+  color: #00b172;
+  margin-bottom: 15px;
+}
+
+/* Iteration 4: Green section */
+.green-section {
+  position: relative;
+  background-color: #00b172;
+  color: #fff;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 100px 80px 100px 200px;
+  gap: 60px;
+}
+
+.spotify-icon {
+  position: absolute;
+  top: 40px;
+  left: 40px;
+  width: 150px;
+}
+
+.green-text {
+  flex: 1;
+}
+
+.green-text h2 {
+  font-size: 2.5rem;
+  margin-bottom: 40px;
+}
+
+.green-text h3 {
+  font-size: 1.5rem;
+  margin-bottom: 10px;
+}
+
+.green-text p {
+  margin-bottom: 30px;
+  font-weight: 300;
+}
+
+.spotify-app {
+  width: 300px;
+}
