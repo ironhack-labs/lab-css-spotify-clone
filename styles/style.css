@@ -1,8 +1,115 @@
-/*
-Colors:
 
-Text: 1A1A1A
-Green: #00B172
-White: #FFF
+body{
+    width: 100%;
+}
 
-*/
+
+.container{
+    display: flex;
+    margin: 5px 5px 5px 5px;
+    justify-content: space-between;
+}
+#spotify_logo{
+    width: 130px;
+    height: 45px;
+    margin-left: 20px;
+    margin-top: 0;
+    margin-bottom: 5px;
+}
+.navbar{
+    position: fixed;
+    right: 5px;
+    display: flex;
+    gap: 20px;
+    width: 300px;
+    padding-top: 5px;
+    padding-left: 20px;
+    padding-bottom: 15px;
+    padding-right: 5px;
+    margin:10px 10px 10px 10px;
+}
+.navbar a {
+  text-decoration: none;
+}
+.section1-img{
+    max-width: 100%;
+    height: auto;
+}
+.intro{
+    position: relative;
+}
+.text-section-1{
+    position: absolute;
+    color:white;
+    top:40%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    text-align: center;
+}
+
+.text-section-1 h1{
+    font-size: clamp(5px, 4vw, 80px);
+}
+
+
+.section-2 h1{
+    font-size: clamp(5px, 3vw, 60px);
+    text-align: center;
+    text-decoration: underline;
+    text-decoration-color: rgb(0, 255, 42);
+}
+.content{
+    display: flex;
+    justify-content:space-around ;
+}
+.inside-content{
+    width: 350px;
+    height: 250px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    margin: 30px;
+}
+.icons{
+    width: 40px;
+    height: 40px;
+}
+.image-text{
+    color:rgb(66, 215, 66);
+    font-size:20px;
+}
+
+
+.section-3{
+    background-image: url("../images/spotify-icon-white.png");
+    background-size: 300px 200px;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-color: rgb(44, 165, 44);
+    display: flex;
+    justify-content: space-between;
+    padding: 70px;
+}
+#section3-img{
+    padding-top: 40px;
+    width: 100%;
+    max-width: 350px;
+    height: 450px;
+    
+}
+.section3-text{
+    color:white;
+    width: 300px;
+
+}
+.inside-section3{
+    font-size: 30px;;
+}
+#title-section3{
+    font-size: 40px;
+    color: white;
+    text-decoration: underline;
+    text-decoration-color: white;
+    text-underline-offset: 12px;
+}
