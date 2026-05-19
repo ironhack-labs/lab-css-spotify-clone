@@ -6,3 +6,190 @@ Green: #00B172
 White: #FFF
 
 */
+
+
+* {
+    box-sizing: border-box;
+    padding: 0;
+    margin: 0;
+}
+
+body {
+    font-family: sans-serif;
+}
+
+.navbar {
+    display: flex;
+    justify-content: space-between;
+}
+
+.header-section-1 , .header-section-2 {
+    padding: 10px 20px;
+    display: flex;
+    align-items: center;
+}
+
+.header-section-2 ul {
+    display: flex;
+    gap: 20px;
+    list-style: none;
+}
+
+.website-logo {
+    width: 150px;
+}
+
+.nav-link {
+    text-decoration: none;
+    color: #1a1a1a;
+}
+
+.hero-section {
+    background-image: url("/images/landing.jpg");
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+    width: 100%;
+    min-height: 600px;
+    color: white;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    padding: 10%;
+}
+
+.hero-header {
+    font-size: 5em;
+}
+
+.offer-container {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    gap: 20px;
+}
+
+.offer-image {
+    width: 100px;
+}
+
+.whats-on-spotify {
+    padding: 20px;
+}
+
+.offer-box {
+    padding: 10px;
+    text-align: center;
+    max-width: 300px;
+    text-align: center;
+}
+
+.offer-text {
+    padding-top: 10px;
+    color: #1a1a1a;
+}
+
+.offer-header {
+    color: #00B172;
+}
+
+.offer-main-header-box {
+    display: flex;
+    justify-content: center;
+}
+
+.offer-main-header {
+    text-align: center;
+    display: inline;
+    color: #00B172;
+    font-size: 30px;
+    border-bottom: 3px solid #00B172;
+}
+
+.green-section {
+    background-color: #00B172;
+    display: flex;
+    justify-content: space-between;
+    color: white;
+    padding: 45px;
+    margin: 0 20px;
+    position: relative;
+}
+
+.green-text-container {
+    display: flex;
+    flex-direction: column;
+}
+
+.spotify-music-image {
+    max-width: 250px;
+}
+
+.green-header {
+    padding-top: 22px;
+    padding-bottom: 22px;
+    font-size: 22px;
+}
+
+.green-main-header {
+    font-size: 25px;
+    border-bottom: 3px solid white;
+    padding-bottom: 8px;
+}
+
+.green-main-header-box {
+    display: flex;
+    
+}
+
+.green-text {
+    color: rgba(240, 240, 240, 0.8);
+    max-width: 250px;
+}
+
+.spotify-icon {
+    position: absolute;
+    width: 100px;
+    top: 45%;
+    left: 45%;
+}
+
+@media (max-width: 800px) {
+    .offer-container {
+        flex-direction: column;
+    }
+
+    .spotify-icon {
+        top: auto;
+        bottom: 1%;
+        width: 60px;
+    }
+
+    .spotify-music-image {
+        width: 200px;
+        padding-top: 40px;
+    }
+}
+
+@media (max-width: 690px) {
+    .green-section {
+        flex-direction: column;
+    }
+
+    .green-image-section {
+        margin: 0 auto;
+    }
+
+    .spotify-icon {
+        width: 100px;
+        top: 27%;
+        left: auto;
+        right: 10%;
+    }
+
+    .spotify-music-image {
+        padding-top: 30px;
+        width: 300px;
+    }
+}
