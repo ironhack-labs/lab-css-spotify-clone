@@ -1,8 +1,134 @@
-/*
-Colors:
+*{
+    box-sizing: border-box;
+}
 
-Text: 1A1A1A
-Green: #00B172
-White: #FFF
+    .navbar{
+        display: flex;
+        justify-content: space-between;
+        align-items: center;
+        position: fixed; 
+    top: 0px;
+    left: 0px;
+    width: 100%;
+    background-color: rgb(242, 235, 235);
+    padding: 20px 30px;
+    z-index: 1000;
+    }
 
-*/
+    .nav-links{ 
+        display: flex;
+        list-style:none;
+        position: fixed;
+        top: 0px;
+        right: 10px;
+        gap: 20px;
+    }
+
+
+    .logo{
+        display:flex;   
+        position:fixed;
+        top: 5px;
+        left: 10px;
+        width: 100px;
+    }
+    .body{
+        padding-top: 80px;
+    }
+
+    .container{
+        height: 100vh;
+        width: 100%;
+        background-image: url('../images/landing.jpg');
+        background-size: cover;
+        background-position: center;
+        align-items:center;
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        gap: 20px;
+        padding: 20px;
+        color: white;
+    }
+
+    .features-section{
+        text-align:center;
+        padding: 80px 20px;
+        background-color: white;
+    }
+
+    .features-container{
+        display:flex;
+        justify-content: center;
+        gap: 40px;
+        max-width: 10000px;
+        margin: 0 auto;
+        margin-top: 50px;
+    }
+
+    .feature-box{
+        flex: 1;
+    }
+
+    .feature-icon{
+        width: 80px;
+        margin-bottom: 20px;
+    }
+
+
+    .green-section{
+        background-color: #1ed760;
+        color: white;
+        padding: 100px 20px;
+        position: relative;
+    }
+
+    .green-content {
+        display: flex;
+        justify-content: space-between;
+        align-items:center;
+        max-width:1000px;
+        margin: 0 auto;
+    }
+
+    .text-column{
+        flex: 1;
+    }
+
+    .image-column{
+        flex: 1;
+        text-align: right;
+    
+    }
+
+    .phone-image{
+        width:280px;
+
+    }
+
+    .text-column h2{
+        font-size: 32px;
+        border-bottom: 2px solid white;
+        display: inline-block;
+        padding-bottom: 10px;
+        margin-bottom: 30px;
+    }
+
+    .feature-text{
+        margin-bottom: 25px;
+    }
+
+    .absolute-logo{
+        position: absolute;
+        width:100px;
+        top:50%;
+        left:50%;
+
+        transform: translate(-50%, -50%);
+        opacity: 0.9;
+
+
+    }
+
+
+    
