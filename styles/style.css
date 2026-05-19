@@ -1,8 +1,286 @@
-/*
-Colors:
+*{
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  font-family: "Helvetica Neue", Helvetica, Arial, sans-serif;
+}
 
-Text: 1A1A1A
-Green: #00B172
-White: #FFF
+body{
+  background: #FFF;
+  color: #1A1A1A;
+  -webkit-font-smoothing: antialiased;
+}
 
-*/
+
+.navbar{
+  position: fixed;
+  top: 0;
+  left: 0;
+  width: 100%;
+  background: #FFF;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 25px 10%;
+  z-index: 1000;
+}
+
+.logo{
+  display: flex;
+  align-items: center;
+  gap: 8px;
+  font-size: 38px;
+  font-weight: 700;
+  letter-spacing: -1px;
+}
+
+.logo i{
+  color: #23CF5F;
+  font-size: 46px;
+}
+
+.nav-links{
+  display: flex;
+  gap: 35px;
+  list-style: none;
+}
+
+.nav-links a{
+  text-decoration: none;
+  color: #1A1A1A; 
+  font-size: 18px;
+  font-weight: 200;
+  transition: opacity 0.2s;
+}
+
+.nav-links a:hover{
+  opacity: 0.7;
+}
+
+
+.hero{
+  height: 100vh;
+  background-image: url("https://images.unsplash.com/photo-1501386761578-eac5c94b800a?q=80&w=1470&auto=format&fit=crop");
+  background-size: cover;
+  background-position: center 30%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  text-align: center;
+  color: #FFF;
+  position: relative;
+}
+
+.hero::before{
+  content: "";
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+  background: rgba(0, 0, 0, 0.45);
+}
+
+.hero-content{
+  position: relative;
+  z-index: 2;
+  max-width: 900px;
+}
+
+.hero-content h1{
+  font-size: 84px;
+  font-weight: 700;
+  margin-bottom: 35px;
+  letter-spacing: -1px;
+}
+
+.hero-content p{
+  font-size: 26px;
+  font-weight: 300;
+  line-height: 1.5;
+}
+
+
+.spotify-section{
+  padding: 90px 10%;
+  text-align: center;
+  background: #FFF;
+}
+
+.spotify-section h2{
+  font-size: 44px;
+  font-weight: 700;
+  margin-bottom: 10px;
+  display: inline-block;
+  color: #000;
+}
+
+.spotify-section h2::after{
+  content: "";
+  display: block;
+  width: 100%;
+  height: 4px;
+  background: #23CF5F;
+  margin-top: 15px;
+}
+
+.cards{
+  display: flex;
+  justify-content: space-between;
+  margin-top: 90px;
+  gap: 40px;
+}
+
+.card{
+  flex: 1;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  text-align: center;
+}
+
+.card .icon-wrapper{
+  height: 100px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  margin-bottom: 35px;
+}
+
+
+.card i{
+  font-size: 85px;
+  color: #000; 
+}
+
+.card h3{
+  color: #23CF5F;
+  font-size: 26px;
+  font-weight: 700;
+  margin-bottom: 25px;
+}
+
+.card p{
+  color: #7F7F7F;
+  font-size: 18px;
+  line-height: 1.5;
+  font-weight: 400;
+}
+
+
+.green-section{
+  background: #23CF5F;
+  color: #FFF;
+  padding: 90px 8%;
+}
+
+.green-container {
+  max-width: 1200px;
+  margin: 0 auto;
+  display: flex;
+  justify-content: space-between;
+  align-items: center; 
+}
+
+.green-left{
+  width: 45%;
+}
+
+.green-left h2{
+  font-size: 42px;
+  font-weight: 700;
+  padding-bottom: 15px;
+  border-bottom: 4px solid #FFF; 
+  margin-bottom: 50px;
+}
+
+.green-left .info{
+  margin-bottom: 40px;
+}
+
+.green-left .info:last-child {
+  margin-bottom: 0;
+}
+
+.info h3{
+  font-size: 28px;
+  font-weight: 700;
+  margin-bottom: 15px;
+}
+
+.info p{
+  font-size: 18px;
+  line-height: 1.5;
+  font-weight: 400;
+}
+
+
+.green-center-logo{
+  width: 20%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.white-logo {
+  width: 120px;
+  filter: brightness(0) invert(1); 
+}
+
+.green-right{
+  width: 30%;
+  display: flex;
+  justify-content: flex-end;
+}
+
+.green-right img{
+  width: 100%;
+  max-width: 260px;
+  height: auto;
+}
+
+
+@media(max-width: 960px){
+  .navbar{
+    padding: 20px 5%;
+    flex-direction: column;
+    gap: 15px;
+  }
+
+  .hero-content h1{
+    font-size: 50px;
+  }
+
+  .hero-content p{
+    font-size: 20px;
+  }
+
+  .cards{
+    flex-direction: column;
+    gap: 60px;
+    margin-top: 50px;
+  }
+
+  .green-container {
+    flex-direction: column;
+    text-align: center;
+    gap: 60px;
+  }
+
+  .green-left{
+    width: 100%;
+  }
+
+  .green-left h2 {
+    display: inline-block;
+  }
+
+  .green-center-logo {
+    width: 100%;
+  }
+
+  .green-right {
+    width: 100%;
+    justify-content: center;
+  }
+}
