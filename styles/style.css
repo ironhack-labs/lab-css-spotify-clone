@@ -6,3 +6,183 @@ Green: #00B172
 White: #FFF
 
 */
+
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+body {
+  font-family: Arial, sans-serif;
+  color: #1A1A1A;
+}
+
+/* Navbar */
+.navbar {
+  position: fixed;
+  top: 0;
+  width: 100%;
+  background-color: #FFF;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 20px 40px;
+  z-index: 1000;
+}
+
+.logo {
+  height: 50px;
+}
+
+.nav-links {
+  list-style: none;
+  display: flex;
+}
+
+.nav-links li {
+  margin-left: 30px;
+}
+
+.nav-links a {
+  text-decoration: none;
+  color: #1A1A1A;
+  font-weight: bold;
+}
+
+.nav-links a:hover {
+  color: #00B172;
+}
+
+/* Hero Section */
+.hero {
+  background-image: url('../images/landing.jpg');
+  background-size: cover;
+  background-position: center;
+  height: 100vh;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  text-align: center;
+  color: #FFF;
+}
+
+.hero-content {
+  max-width: 800px;
+  padding: 20px;
+}
+
+.hero-content h1 {
+  font-size: 4.5rem;
+  margin-bottom: 20px;
+}
+
+.hero-content p {
+  font-size: 1.5rem;
+  font-weight: 300;
+}
+
+/* Features Section */
+.features {
+  padding: 80px 40px;
+  text-align: center;
+  background-color: #FFF;
+}
+
+.features h2 {
+  font-size: 2.5rem;
+  margin-bottom: 60px;
+  text-decoration: underline;
+  text-decoration-color: #00B172;
+  text-underline-offset: 10px;
+}
+
+.features-container {
+  display: flex;
+  justify-content: space-around;
+  flex-wrap: wrap;
+  max-width: 1200px;
+  margin: 0 auto;
+}
+
+.feature-item {
+  width: 30%;
+  padding: 20px;
+}
+
+.feature-item img {
+  height: 80px;
+  margin-bottom: 20px;
+}
+
+.feature-item h3 {
+  font-size: 1.5rem;
+  color: #00B172;
+  margin-bottom: 15px;
+}
+
+.feature-item p {
+  font-size: 1.1rem;
+  line-height: 1.5;
+}
+
+/* Green Section */
+.green-section {
+  background-color: #00B172;
+  color: #FFF;
+  padding: 80px 40px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  position: relative;
+  overflow: hidden;
+}
+
+.white-logo {
+  position: absolute;
+  width: 150px;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  opacity: 0.2;
+}
+
+.green-content {
+  width: 40%;
+  padding-right: 40px;
+  z-index: 1;
+}
+
+.green-content h2 {
+  font-size: 2.5rem;
+  margin-bottom: 40px;
+  border-bottom: 2px solid #FFF;
+  display: inline-block;
+  padding-bottom: 10px;
+}
+
+.text-item {
+  margin-bottom: 30px;
+}
+
+.text-item h3 {
+  font-size: 1.5rem;
+  margin-bottom: 10px;
+}
+
+.text-item p {
+  font-size: 1.1rem;
+  line-height: 1.4;
+}
+
+.green-image {
+  width: 40%;
+  display: flex;
+  justify-content: center;
+  z-index: 1;
+}
+
+.app-screenshot {
+  max-width: 100%;
+  height: auto;
+}
