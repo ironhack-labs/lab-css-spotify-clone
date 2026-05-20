@@ -6,3 +6,148 @@ Green: #00B172
 White: #FFF
 
 */
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+body {
+  font-family: Arial, Helvetica, sans-serif;
+  color: #1a1a1a;
+}
+
+nav {
+  width: 100%;
+  height: 80px;
+  background-color: white;
+  position: fixed;
+  top: 0;
+  left: 0;
+  z-index: 10;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 0 40px;
+}
+
+.logo {
+  width: 170px;
+}
+
+nav ul {
+  list-style: none;
+  display: flex;
+  gap: 30px;
+}
+
+nav a {
+  text-decoration: none;
+  color: #1a1a1a;
+  font-size: 18px;
+}
+
+.hero {
+  height: 700px;
+  background-image: url("../images/landing.jpg");
+  background-size: cover;
+  background-position: center;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  text-align: center;
+  color: white;
+}
+
+.hero h1 {
+  font-size: 70px;
+  margin-bottom: 30px;
+}
+
+.hero p {
+  font-size: 25px;
+  line-height: 1.5;
+}
+
+.what {
+  padding: 60px 80px;
+  text-align: center;
+}
+
+.what h2 {
+  display: inline-block;
+  font-size: 35px;
+  border-bottom: 4px solid #1db954;
+  margin-bottom: 60px;
+}
+
+.features {
+  display: flex;
+  justify-content: space-around;
+  gap: 40px;
+}
+
+.feature {
+  width: 33%;
+}
+
+.feature img {
+  height: 90px;
+  margin-bottom: 25px;
+}
+
+.feature h3 {
+  color: #1db954;
+  font-size: 25px;
+  margin-bottom: 20px;
+}
+
+.feature p {
+  font-size: 20px;
+  line-height: 1.4;
+}
+
+.green-section {
+  margin: 40px;
+  padding: 70px;
+  background-color: #1db954;
+  color: white;
+  position: relative;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.green-text {
+  width: 40%;
+}
+
+.green-text h2 {
+  font-size: 35px;
+  border-bottom: 4px solid white;
+  margin-bottom: 40px;
+  padding-bottom: 8px;
+}
+
+.green-text h3 {
+  font-size: 28px;
+  margin-top: 35px;
+  margin-bottom: 20px;
+}
+
+.green-text p {
+  font-size: 20px;
+  line-height: 1.5;
+}
+
+.app-img {
+  width: 300px;
+}
+
+.white-logo {
+  width: 120px;
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+}
