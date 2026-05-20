@@ -6,3 +6,193 @@ Green: #00B172
 White: #FFF
 
 */
+
+
+/* styles/style.css */
+
+
+/* ================= RESET ================= */
+
+*{
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+
+/* ================= BODY ================= */
+
+body{
+  font-family: Arial, sans-serif;
+}
+
+
+/* ================= NAVBAR ================= */
+
+.navbar{
+  position: fixed;
+  top: 0;
+
+  width: 100%;
+
+  background-color: white;
+
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+
+  padding: 20px 50px;
+
+  z-index: 100;
+}
+
+.logo{
+  width: 180px;
+}
+
+.nav-links{
+  display: flex;
+  gap: 25px;
+
+  list-style: none;
+}
+
+.nav-links a{
+  text-decoration: none;
+  color: black;
+  font-weight: bold;
+}
+
+
+/* ================= HERO ================= */
+
+.hero{
+  height: 100vh;
+
+  background-image: url("../images/landing.jpg");
+  background-size: cover;
+  background-position: center;
+
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+
+  text-align: center;
+
+  color: white;
+}
+
+.hero h1{
+  font-size: 70px;
+  margin-bottom: 20px;
+}
+
+.hero p{
+  font-size: 24px;
+  line-height: 1.5;
+}
+
+
+/* ================= FEATURES ================= */
+
+.features{
+  padding: 80px 60px;
+
+  text-align: center;
+}
+
+.features h2{
+  font-size: 35px;
+
+  margin-bottom: 60px;
+}
+
+.features-container{
+  display: flex;
+  justify-content: space-between;
+  gap: 30px;
+}
+
+.feature-card{
+  width: 33%;
+}
+
+.feature-card img{
+  width: 120px;
+
+  margin-bottom: 20px;
+}
+
+.feature-card h3{
+  color: #1DB954;
+
+  margin-bottom: 15px;
+
+  font-size: 24px;
+}
+
+.feature-card p{
+  font-size: 18px;
+  line-height: 1.5;
+}
+
+
+/* ================= GREEN SECTION ================= */
+
+.green-section{
+  background-color: #1DB954;
+
+  color: white;
+
+  padding: 80px;
+
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+
+  position: relative;
+}
+
+.green-text{
+  width: 40%;
+}
+
+.green-text h2{
+  font-size: 40px;
+
+  margin-bottom: 50px;
+}
+
+.text-box{
+  margin-bottom: 35px;
+}
+
+.text-box h3{
+  font-size: 28px;
+
+  margin-bottom: 10px;
+}
+
+.text-box p{
+  line-height: 1.5;
+  font-size: 18px;
+}
+
+.green-image img{
+  width: 320px;
+}
+
+
+/* ================= ABSOLUTE ICON ================= */
+
+.spotify-icon{
+  position: absolute;
+
+  width: 120px;
+
+  top: 50%;
+  left: 50%;
+
+  transform: translate(-50%, -50%);
+}
