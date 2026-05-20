@@ -1,8 +1,135 @@
-/*
-Colors:
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box; 
+  font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
 
-Text: 1A1A1A
-Green: #00B172
-White: #FFF
+nav {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 15px;  
+}
 
-*/
+.logo img {
+  width: 170px;
+  height: 50px;
+}
+
+.nav-links {
+  display: flex;
+  gap: 20px;
+  list-style: none;
+}
+
+.nav-links li a {
+  text-decoration: none;
+  color: black;
+}
+
+.hero {
+  background-image: url("../images/landing.jpg");
+  background-size: cover;
+  background-position: center;
+  background-repeat: no-repeat;
+  color: white;
+  text-align: center;
+  font-size: 24px;
+  height: 80vh;
+  width: 100%;
+  padding-top: 180px;
+}
+
+
+.hero h1 {
+  margin-bottom: 20px;
+}
+
+
+.hero p {
+  max-width: 600px;
+  margin: 0 auto; 
+  line-height: 1.4;
+}
+
+.middle {
+  text-align: center;
+  padding-top: 40px;
+  font-size: 20px;
+}
+
+.middle h2 {
+  text-decoration: underline;
+  text-underline-offset: 10px;
+  text-decoration-color: #00B172;
+}
+
+.container {
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+  padding-top: 70px;
+}
+
+.box img {
+  width: 100px;
+  height: 80px;
+}
+
+.box h3 {
+  margin-top: 10px;
+  color: #00B172;
+  margin-bottom: 10px;
+}
+
+.box p {
+  max-width: 200px;
+  margin: 0 auto;
+  line-height: 1.4;
+}
+
+.music_card {
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+  margin: 100px 30px 20px 30px;
+  background-color: #2abd89;
+  color: white;
+  font-size: 18px;
+  padding: 100px 0;
+}
+
+
+.music_card_info {
+  max-width: 400px; 
+}
+
+.music_icon img {
+  width: 100px;
+  height: 100px;
+}
+
+.music_card_player img {
+  width: 280px;
+  height: 500px;
+}
+
+.music_card h2 {
+  padding-bottom: 40px; 
+  text-decoration: underline;
+  text-underline-offset: 10px;
+  text-decoration-color: #ffffff;
+}
+
+.info_block {
+  margin-bottom: 25px;
+}
+
+.info_block h3 {
+  margin-bottom: 5px;
+}
+
+.info_block p {
+  line-height: 1.4;
+}
