@@ -1,8 +1,207 @@
 /*
 Colors:
 
-Text: 1A1A1A
+Text: #1A1A1A
 Green: #00B172
 White: #FFF
 
 */
+
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+body {
+  font-family: Arial, Helvetica, sans-serif;
+  font-size: 10px;
+  font-weight: lighter;
+  line-height: 1.5em;
+  color: #1a1a1a;
+}
+
+a {
+  text-decoration: none;
+  color: inherit;
+}
+
+/* Iteration 1: Navbar */
+
+.navbar {
+  position: fixed;
+  top: 0;
+  left: 0;
+  width: 100%;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 15px 50px;
+  background-color: #fff;
+  z-index: 10;
+}
+
+.navbar .logo {
+  width: 180px;
+}
+
+.navbar ul {
+  display: flex;
+  list-style: none;
+  width: 65%;
+  justify-content: space-between;
+  max-width: 560px;
+}
+
+.navbar ul li a {
+  font-size: 1.8em;
+  font-weight: 300;
+}
+
+/* Iteration 2: Hero */
+
+.header {
+  background-image: url(../images/landing.jpg);
+  background-size: cover;
+  background-position: center;
+  background-repeat: no-repeat;
+  height: 100vh;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  text-align: center;
+  color: #fff;
+  padding: 0 5%;
+}
+
+.header-content {
+  width: 100%;
+  max-width: 1400px;
+}
+
+.header h1 {
+  font-size: 5rem;
+  font-weight: 700;
+  margin-bottom: 20px;
+  line-height: 1.1;
+  white-space: nowrap;
+}
+
+.header p {
+  font-size: 1.5rem;
+  font-weight: 300;
+  line-height: 1.4;
+  white-space: nowrap;
+}
+
+/* Iteration 3: What's on Spotify */
+
+.whats-on {
+  text-align: center;
+  padding: 80px 40px 60px;
+}
+
+.whats-on h2 {
+  display: inline-block;
+  font-size: 4.5em;
+  font-weight: 600;
+  margin-bottom: 80px;
+  padding-bottom: 15px;
+  border-bottom: 3px solid #00b172;
+}
+
+.boxes {
+  display: flex;
+  justify-content: space-between;
+  max-width: 1200px;
+  margin: 0 auto;
+}
+
+.box {
+  flex: 1;
+  padding: 0 50px;
+}
+
+.box img {
+  width: 100px;
+  margin-bottom: 25px;
+}
+
+.box h3 {
+  font-size: 2em;
+  font-weight: 600;
+  color: #00b172;
+  margin-bottom: 15px;
+}
+
+.box p {
+  font-size: 1.5em;
+  font-weight: 300;
+  color: #999;
+  line-height: 1.4em;
+}
+
+/* Iteration 4: Green section */
+
+.green-section {
+  position: relative;
+  background-color: #00b172;
+  color: #fff;
+  padding: 80px 8% 80px;
+  margin-top: 40px;
+}
+
+.green-section h2 {
+  display: inline-block;
+  font-size: 3.5em;
+  font-weight: 600;
+  margin-bottom: 50px;
+  padding-bottom: 12px;
+  border-bottom: 2px solid #fff;
+  text-align: left;
+}
+
+.wrapper {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  gap: 30px;
+}
+
+.features {
+  flex: 1;
+  max-width: 600px;
+}
+
+.features article {
+  margin-bottom: 40px;
+}
+
+.features article:last-child {
+  margin-bottom: 0;
+}
+
+.features h3 {
+  font-size: 3em;
+  font-weight: 600;
+  margin-bottom: 16px;
+}
+
+.features p {
+  font-size: 1.9em;
+  font-weight: 300;
+  line-height: 1.5em;
+}
+
+.spotify-icon {
+  flex-shrink: 0;
+  width: 157px;
+  align-self: center;
+  margin: 0 20px;
+}
+
+.app-screenshot {
+  flex-shrink: 0;
+  width: 32%;
+  max-width: 350px;
+}
