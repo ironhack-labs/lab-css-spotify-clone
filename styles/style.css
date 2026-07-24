@@ -6,3 +6,164 @@ Green: #00B172
 White: #FFF
 
 */
+
+* {
+  box-sizing: border-box;
+  margin: 0;
+  padding: 0;
+}
+html{
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  background-color: #000000;
+  font-family: Helvetica, sans-serif; 
+
+}
+main {
+  max-width: 1200px;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  background-color: #ffffff;
+}
+
+nav {
+  background-color: #ffffff;
+  font-size: 18px;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 20px;
+} 
+.logo img {
+  width: 150px;
+}
+
+ul {
+  list-style: none;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 0;
+  gap: 20px;
+}
+
+ul li a {
+  text-decoration: none;
+  color: #1A1A1A;
+}
+
+div{
+  text-align: center;
+}
+.hero {
+    display: flex;
+    justify-content: space-between;
+  align-items: center;
+  justify-content: center;
+  height: 90vh;
+  width: 100%;
+  background-image: url('../images/landing.jpg');
+  background-size: cover;
+  background-position: center;
+  color: #ffffff;
+  font-size: 1.5em;
+  font-weight: 50;
+}
+h1 {
+  font-size: 3.5em;
+  margin-bottom: 20px;
+  font-weight: normal; 
+  
+}
+.features {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: space-between;
+  padding: 50px 0;
+  height: 50vh;
+  font-size: 1.2em;
+
+}
+.features h2 {
+  font-size: 2.5em;
+  margin-bottom: 20px;
+}
+.features h3 {
+  color:#00B172;
+  font-size: 1.6em;
+  padding: 20px;
+}
+.features-grid {
+display: flex;
+justify-content: space-between;
+
+}
+.feature {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: space-between;
+    text-align: center;
+    padding: 20px;
+    width: 30%;
+}
+.feature p {
+  font-weight: 100;
+  font-size: 1.1em;
+}
+
+.feature img {
+    width: 100px;
+    height: 100px;
+    margin-bottom: 20px;
+} 
+
+.adventages{
+  background-color: #00B172;
+  display: flex;
+  justify-content: space-between;
+  background-image: url('../images/spotify-icon-white.png');
+  background-size:10%;
+  background-repeat: no-repeat;
+  background-position: center;
+  color: #ffffff;
+  text-align: left;
+  padding: 50px;
+} 
+
+.adventages-content {
+  text-align: left;
+  width: 45%;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+  font-size: 1.2em;
+
+}
+
+.adventages img {
+  width: 350px;
+}
+.adventages h2 {
+  font-size: 1.8em;
+}
+.adventages h4 {
+  font-size: 1.6em;
+  margin-bottom: 10px;
+}
+.adventages p {
+  margin-bottom: 20px;
+  font-size: 1em;
+  font-weight: 100;
+  padding-right: 30%;
+}
+hr {
+  border: 1px solid #ffffff;
+  width: 100%;
+  margin-bottom: 20px;
+}
