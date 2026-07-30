@@ -1,8 +1,66 @@
-/*
-Colors:
+body {
+  background-color: black;
+  color: rgb(3, 33, 59);
+  padding: 0;
+  margin: 0;
+}
+h1 {
+  background-color: aqua;
+  padding: 10px;
+  margin: 10px;
+  border: 5px solid rgb(89, 10, 23);
+}
+#articles-container {
+  display: flex;
+  flex-direction: column;
+}
+article {
+  border: 2px solid white;
+  margin: 10px;
+  width: 100%;
+}
+article img {
+  width: 80%;
+  height: 100px;
+  object-fit: cover;
+}
 
-Text: 1A1A1A
-Green: #00B172
-White: #FFF
+/* our first media query for tablet */
+@media screen and (min-width: 380px) {
+  body {
+    background-color: rgb(155, 102, 4);
+  }
+  article {
+    width: 40%;
+  }
+  #articles-container {
+    flex-direction: row;
+    flex-wrap: wrap;
+  }
+}
 
-*/
+/* Media query for full size monitor  */
+@media screen and (min-width: 1000px) {
+  body {
+    background-color: rgb(28, 119, 3);
+  }
+  h1 {
+    background-color: rgb(186, 8, 2);
+  }
+  article {
+    width: 10%;
+    height: 200px;
+  }
+  .offset {
+    margin-top: 80px;
+  }
+  #articles-container {
+    height: 400px;
+    flex-direction: row;
+    background-color: brown;
+    /* centers or moves the items horizontally  */
+    justify-content: space-evenly;
+    /* centers or moves the items vertically  */
+    align-items: center;
+  }
+}
