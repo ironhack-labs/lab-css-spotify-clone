@@ -1,8 +1,214 @@
-/*
-Colors:
+*{
+    margin:0;
+    padding:0;
+    box-sizing:border-box;
+}
 
-Text: 1A1A1A
-Green: #00B172
-White: #FFF
+body{
+    font-family:Arial, Helvetica, sans-serif;
+}
 
-*/
+header{
+    height:90px;
+
+    display:flex;
+    justify-content:space-between;
+    align-items:center;
+
+    padding:0 70px;
+
+    background:white;
+}
+
+.logo img{
+    height:50px;
+}
+
+nav{
+    display:flex;
+    gap:40px;
+}
+
+nav a{
+    text-decoration:none;
+    color:#222;
+    font-size:20px;
+}
+
+nav a:hover{
+    color:#1db954;
+}
+
+.hero{
+
+    height:650px;
+
+    background:url("/images/landing.jpg") center/cover no-repeat;
+
+    display:flex;
+    justify-content:center;
+    align-items:center;
+
+    text-align:center;
+}
+
+.overlay{
+
+    color:white;
+}
+
+.overlay h1{
+
+    font-size:80px;
+
+    margin-bottom:30px;
+}
+
+.overlay p{
+
+    font-size:28px;
+
+    line-height:1.5;
+}
+
+.features{
+
+    padding:70px;
+
+    text-align:center;
+}
+
+.features h2{
+
+    font-size:48px;
+}
+
+.line{
+
+    width:220px;
+    height:5px;
+
+    background:#1db954;
+
+    margin:15px auto 70px;
+}
+
+.cards{
+
+    display:flex;
+
+    justify-content:space-between;
+
+    gap:40px;
+}
+
+.card{
+
+    flex:1;
+}
+
+.card i{
+
+    font-size:90px;
+
+    margin-bottom:30px;
+}
+
+.card h3{
+
+    color:#1db954;
+
+    font-size:34px;
+
+    margin-bottom:25px;
+}
+
+.card p{
+
+    font-size:26px;
+
+    line-height:1.5;
+
+    color:#555;
+}
+
+.app{
+
+    background:#1db954;
+
+    color:white;
+
+    display:flex;
+
+    justify-content:space-between;
+
+    align-items:center;
+
+    padding:70px;
+}
+
+.left{
+
+    width:35%;
+}
+
+.left h2{
+
+    font-size:46px;
+
+    margin-bottom:15px;
+}
+
+.line-white{
+
+    width:260px;
+
+    height:5px;
+
+    background:white;
+
+    margin-bottom:50px;
+}
+
+.left h3{
+
+    font-size:34px;
+
+    margin-top:45px;
+    margin-bottom:15px;
+}
+
+.left p{
+
+    font-size:24px;
+
+    line-height:1.6;
+}
+
+.center{
+
+    width:20%;
+
+    display:flex;
+
+    justify-content:center;
+}
+
+.center img{
+
+    width:170px;
+}
+
+.right{
+
+    width:35%;
+
+    display:flex;
+
+    justify-content:center;
+}
+
+.right img{
+
+    width:320px;
+}
