@@ -1,8 +1,170 @@
-/*
-Colors:
 
-Text: 1A1A1A
+/*Text: 1A1A1A
 Green: #00B172
-White: #FFF
+White: #FFF*/
 
-*/
+body {
+    /* presentation */
+    background: #fff;
+
+    font: 16px 'Roboto', Arial, Helvetica;
+}
+
+.header {
+    /* layout */
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: space-between;
+
+    /* box-model */
+    padding: 1rem 1.5rem;
+}
+    .logo{
+        /* box-model */
+        width: 200px;
+    }
+    
+    .nav{
+        /* layout */
+        display: flex;
+        flex-direction: row;
+        align-items: center;
+        justify-content: center;
+        gap: 20px;
+    }
+
+        .nav a {
+            /* typo */
+            font-size: 1.4rem;
+            text-decoration: none;
+            color: #333;
+            font-weight: 200;
+        }
+
+.container{
+}
+
+    .hero{
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+
+        background: url('../images/landing.jpg') no-repeat center center;
+        background-size: cover;
+        height: 70vh;
+        width: 100%;
+    }
+        .title{
+            margin-bottom: 1rem;
+
+            font-size: 5rem;
+            font-weight: 700;
+            color: #fff;
+        }
+
+        .description{
+            font-size: 2rem;
+            font-weight: 300;
+            color: #fff;
+        }
+
+    .features{
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        justify-content: center;
+        padding: 2rem;
+    }
+        .subtitle{
+            padding-bottom: 5px;
+            margin-bottom: 4rem;
+            font-size: 2rem;
+            border-bottom: 4px solid #00B172;
+        }
+
+        .features-list{
+            display: flex;
+            flex-direction: row;
+            justify-content: space-between;
+            text-align: center;
+            gap: 100px;
+            padding: 0 100px;
+        }
+
+            .features-list-item {
+                width: calc(100% / 3);
+                padding-top: 150px;
+            }
+
+            .ico-music,
+            .ico-high,
+            .ico-devices {
+                background: no-repeat center top;
+                background-size: 150px auto;
+            }
+
+                .ico-music {
+                    background-image: url(../images/music-icon.png);
+                }
+                .ico-high {
+                    background-image: url(../images/high-quality-icon.png);
+                }
+                .ico-devices {
+                    background-image: url(../images/devices-icon.png);
+                }
+
+                .feature-title{
+                    font-size: 1.5rem;
+                    font-weight: 900;
+                    color: #00B172;
+                }
+
+                .feature-description{
+                    font-size: 1.4rem;
+                    font-weight: 100;
+                }
+    .spotify-app{
+        display: flex;
+        flex-direction: row;
+        justify-content: space-between;
+        align-items: flex-start;
+        background: #00B172 url("../images/spotify-icon-white.png") no-repeat center center;
+        background-size: 100px auto;
+        margin: 2rem;
+        padding: 2rem;
+        color: white
+    }
+        .spotify-app-text{
+            
+        }
+
+            .spotify-app-subtitle{
+                display: inline-block;
+                font-size: 3rem;
+                font-weight: 700;
+                border-bottom: 3px solid white;
+                margin: 0 20rem 2rem 0;
+            }
+
+            .spotify-app-list{
+                display: flex;
+                flex-direction: column;
+                justify-content: flex-start;
+                padding-right: 40rem;
+            }
+                .app-feature-title{
+                    font-size: 1.7rem;
+                    font-weight: 700;
+                    margin-bottom: 1.2rem;
+                }
+
+                .app-feature-description{
+                    margin-bottom: 1.2rem;
+                    font-size: 1.4rem;
+                }
+
+        .app-image{
+            width: 20rem;
+        }
