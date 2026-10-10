@@ -6,3 +6,128 @@ Green: #00B172
 White: #FFF
 
 */
+
+* {
+  box-sizing: border-box;
+}
+h1 {
+  font-size: 60px;
+  font-family: "Times New Roman", Times, serif;
+  font-weight: bold;
+}
+h2 {
+  font-size: 32px;
+  font-weight: bold;
+  font-family: "Times New Roman", Times, serif;
+}
+
+h3 {
+  font-size: 18px;
+  font-weight: normal;
+  font-family: Arial, Helvetica, sans-serif;
+}
+
+p {
+  font-size: 16px;
+  font-weight: normal;
+  font-family: Arial, Helvetica, sans-serif;
+}
+.navlinks {
+  background-color: #ffffff;
+  float: right;
+  padding-bottom: 32px;
+}
+
+.navlinks a {
+  align-items: cent;
+  text-decoration: none;
+  color: #000000;
+  padding: 16px;
+  font-size: 16px;
+  font-family: Arial, Helvetica, sans-serif;
+}
+
+.navbar {
+  border-color: black;
+  background-color: #ffffff;
+  overflow: hidden;
+  justify-content: space-between;
+  align-items: center;
+  max-height: 80px;
+}
+.logo-home {
+  width: 174px;
+  full-height: 100%;
+  align-items: center;
+}
+img {
+  width: 15vw;
+}
+
+.hero-image {
+  background-image: url("../images/landing.jpg");
+  width: 100vw;
+  height: 50vh;
+  background-position: center;
+  background-size: cover;
+  background-repeat: no-repeat;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.hero-text {
+  font-family: "Courier New", Courier, monospace;
+  text-align: center;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+  color: #ffffff;
+}
+
+.hero-content {
+  width: 80%;
+  position: center;
+}
+
+.headersection {
+  text-align: center;
+}
+
+.cards {
+  padding: 16px;
+  height: auto;
+  width: fit-content;
+  text-align: center;
+  box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.1);
+  border-radius: 12px;
+  justify-content: right;
+}
+
+.column {
+  width: 25%;
+  padding: 12px;
+}
+
+.cards-row {
+  margin: 0 -5px;
+  display: flex;
+  align-items: center;
+  justify-content: space-evenly;
+}
+
+.artist {
+  background-color: green;
+  color: white;
+}
+
+.artist-box {
+  margin: 10px;
+  display: flex;
+  align-items: center;
+  justify-content: space-around;
+}
+.content-artist {
+  width: 30%;
+}
