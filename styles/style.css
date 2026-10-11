@@ -6,3 +6,168 @@ Green: #00B172
 White: #FFF
 
 */
+
+* {
+  box-sizing: border-box;
+	font: Arial, sans-serif;
+}
+
+.navbar {
+  position: fixed;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+	/* took me long enough to figure this out ;w; */
+	background-color: #ffffff;
+	top: 0;
+	height: auto;	
+	width: 100%;
+  padding: 15px;
+}
+
+.logo img {
+  width: 125px;
+  height: auto;
+}
+
+.navbar-links a {
+  align-items: center;
+  text-decoration: none;
+  padding: 10px;
+  font-size: 20px;
+	color: #000000;
+}
+
+.header-image {
+	background-image: url("../images/landing.jpg");
+	width: 100%;
+	height: 850px;
+	margin-top: 65px;
+	margin-bottom: 45px;
+	background-position: center;
+	background-size: cover;
+	background-repeat: no-repeat;
+	display: flex;
+	flex-direction: column;
+	justify-content: center;
+	align-items: center;
+}
+
+.header-text h1 {	
+	color: #ffffff;
+	font-size: 64px;
+	font-weight: 800;
+	text-align: center;
+	
+}
+
+.header-smaller-text h3 {
+	margin-top: 5px;
+	color: #ffffff;
+	font-size: 24px;
+	font-weight: 400;
+	text-align: center;
+}
+
+.middle-of-the-page {
+	display: flex;
+	flex-wrap: wrap;
+	justify-content: space-around;
+	align-items: center;
+	padding: 20px;
+} 
+
+.middle-title {
+  width: 100%;
+  font-size: 28px;
+  text-align: center;
+	margin-bottom: 75px;
+}
+
+.middle-title span {
+  border-bottom: 4px solid #00B172;
+  padding-bottom: 6px;
+}
+
+.boxes-row {
+  width: 33%;
+  text-align: center;
+}
+
+.boxes-row-images {
+	width: 30%;
+}
+
+.boxes-row-titles {
+	color: #00B172;
+	font-size: 24px;
+}
+
+.boxes-row-smaller-text {
+	font-size: 18px;
+	font-weight: 300;
+}
+
+.big-box {
+	background-color: #00B172;
+	display: flex;
+	flex-wrap: wrap;
+	justify-content: space-between;
+	align-items: center;
+	padding: 50px;
+	margin-top: 75px;
+	width: 100%;
+}
+
+.big-box-logo {
+  width: 200px;
+  height: auto;
+}
+
+.big-box-kanye {
+  width: 400px;
+  height: auto;
+}
+
+.title-big-box {
+  width: 100%;
+  text-align: left;
+  color: #ffffff;
+}
+
+.title-big-box span {
+	border-bottom: 4px solid #ffffff ;
+	padding-bottom: 15px;
+	font-weight: 400;
+	font-size: 50px;
+}
+
+.title-text-big-box {
+	color: #ffffff;
+	margin-bottom: 65px;
+}
+
+.bigger-text-big-box {
+  color: #ffffff;
+  margin-bottom: 50px;
+  font-size: 32px;
+  font-weight: 600;
+}
+
+.text-big-box {
+	color: #ffffff;
+	margin-bottom: 75px;
+	font-size: 25px;
+	font-weight: 400;
+}
+
+.text-side {
+ width: 45%;
+}
+
+.images-side {
+	display:flex;
+	align-items: center;
+	gap: 30px;
+	width: 55%;
+}
