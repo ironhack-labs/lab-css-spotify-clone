@@ -1,8 +1,188 @@
-/*
-Colors:
+html {
+    box-sizing: border-box;
+    font-size: 16px;
+}
 
-Text: 1A1A1A
-Green: #00B172
-White: #FFF
+body {
+    font-family:Arial, Helvetica, sans-serif;
+    margin: 0;
+    color: #1a1a1a;
+}
 
-*/
+.logo {
+    height: 60px;
+    width: auto;
+}
+
+.Spotify{
+    display: flex;
+    align-items: center;
+    background-color: white;
+    padding: 10px 40px;
+}
+
+.options-bar {
+    margin-left: auto;
+}
+
+nav ul {
+    list-style: none;
+    display: flex;
+    align-items: center;
+    gap: 30px;
+    margin: 0;
+    padding: 0;
+}
+
+nav a {
+    text-decoration: none;
+    color: black;
+    font-size: 18px;
+}
+
+.hero-image {
+    min-height: 70vh;
+    width: 100%;
+    background-image: url("../images/landing.jpg");
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    box-sizing: border-box;
+    padding: 0 20px;
+}
+
+.hero-text {
+    color: white;
+    max-width: 600px;
+}
+
+h1 {
+    font-size: 3.5rem;
+    text-align: center;
+    margin: 0 0 20px;
+}
+
+.music p {
+    font-size: 18px;
+    text-align: center;
+    margin: 0;
+}
+
+.icons {
+    padding-bottom: 50px;
+}
+
+.question {
+    width: fit-content;
+    margin: 0 auto;
+    font-size: 24px;
+    border-bottom: 3px solid #00b172;
+    padding-bottom: 0;
+}
+
+h2 {
+    margin: 5px;
+    padding-top: 20px;
+    font-weight: bolder;
+} 
+
+.orange {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+    align-items: flex-start;
+    gap: 40px;
+    padding: 20px 40px;
+}
+
+.yellow {
+    flex: 1;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    text-align: center;
+    margin-top: 30px;
+}
+
+h3 {
+    margin: 15px 5px;
+    color: #00b172;
+    font-weight: bold;
+    font-size: 24px;
+}
+
+.yellow p {
+    margin: 0;
+    color: #555;
+}
+
+.icon {
+    height: 50px;
+}
+
+.kanye {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    background-color: #00b172;
+    gap: 40px;
+    padding: 40px 60px;
+}
+
+.bottom-info {
+    color: white;
+    flex: 1;
+    display: flex;
+    flex-direction: column;
+    gap: 40px;
+}
+
+.options h4 {
+    font-size: 30px;
+    border-bottom: 5px solid white;
+    text-align: left;
+    width: fit-content;
+    margin: 0 0 10px;
+}
+
+.options h5 {
+    font-size: 24px;
+    margin: 0 0 10px;
+}
+
+.options p {
+    font-size: 18px;
+    text-align: left;
+    margin: 0;
+    line-height: 1.5;
+}
+
+.white-logo {
+    flex: 1;
+    display: flex;
+    justify-content: center;
+}
+
+.white-logo img {
+    height: 100px;
+    width: auto;
+}
+
+.playlist { 
+    flex: 1;
+    display: flex;
+    justify-content: flex-end;
+}
+
+.playlist img {
+    max-height: 600px;
+    height: auto;
+    width: 100%;
+    max-width: 320px;
+}
+
+
