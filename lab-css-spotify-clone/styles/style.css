@@ -1,0 +1,164 @@
+/*
+Colors:
+
+Text: 1A1A1A
+Green: #00B172
+White: #FFF
+
+*/
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body{
+    font-family: 'Helvetica Nue', Arial, sans-serif;
+    color: darkgrey;
+}
+
+.introduction{
+    background: url(../images/landing.jpg);
+    background-size: cover;
+    background-position: center;
+    height: 100%;
+    text-align: center;
+}
+
+.navbar{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 20px 50px;
+}
+
+.navbar .logo{
+    height:40px;
+}
+
+.navbar ul{
+    display: flex;
+    list-style: none;
+}
+
+.navbar ul li{
+    margin-left: 20px;
+}
+
+.navbar ul li a{
+    text-decoration: none;
+    color: white;
+    font-weight: 500;
+}
+
+.hero-text{
+    margin-top: 15vh;
+}
+
+
+.hero-text h1 {
+  font-size: 3.5rem;
+  margin-bottom: 20px;
+}
+
+.hero-text p {
+  font-size: 1.2rem;
+  max-width: 600px;
+  margin: 0 auto; 
+}
+
+.services {
+  padding: 60px 20px;
+  text-align: center;
+  background-color: white;
+}
+
+.services h2 {
+  font-size: 2rem;
+  margin-bottom: 40px;
+  position: relative;
+}
+
+
+.services h2::after {
+  content: "";
+  display: block;
+  width: 50px;
+  height: 3px;
+  background-color: #00B060;
+  margin: 10px auto 0 auto;
+}
+
+
+.features {
+  display: flex;
+  justify-content: center;
+  gap: 40px; 
+  max-width: 1100px;
+  margin: 0 auto;
+}
+
+
+.each-feature {
+  flex: 1; 
+  padding: 20px;
+}
+
+.each-feature img {
+  height: 60px;
+  margin-bottom: 20px;
+}
+
+.each-feature h3 {
+  color: #00B060; 
+  margin-bottom: 15px;
+}
+
+.each-feature p {
+  color: #666;
+  font-size: 0.95rem;
+  line-height: 1.5;
+}
+
+.bottom {
+  background-color: #00B060; 
+  color: white;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 80px 10%;
+}
+
+
+.bottom-content {
+  flex: 1;
+  max-width: 500px;
+}
+
+.bottom-content h2 {
+  font-size: 2.2rem;
+  margin-bottom: 30px;
+  border-bottom: 2px solid white; 
+  padding-bottom: 10px;
+  display: inline-block;
+}
+
+.bottom-content h3 {
+  font-size: 1.3rem;
+  margin-top: 20px;
+  margin-bottom: 5px;
+}
+
+.bottom-content p {
+  font-size: 1rem;
+  line-height: 1.6;
+  opacity: 0.9; 
+
+}
+
+/* Right Side Image */
+.bottom img {
+  max-width: 350px;
+  height: auto;
+  box-shadow: 0 10px 30px rgba(0,0,0,0.3); 
+}
