@@ -1,8 +1,210 @@
 /*
 Colors:
 
-Text: 1A1A1A
+Text: #1A1A1A
 Green: #00B172
 White: #FFF
 
 */
+
+* {
+  padding: 0;
+  margin: 0;
+}
+
+header {
+  display: flex;
+  justify-content: space-between;
+  padding: 20px;
+}
+.spotifylogo {
+  background-image: url("../images/spotify-logo.png");
+  width: 150px;
+  height: 10px;
+  padding: 40px;
+  background-size: contain;
+  background-repeat: no-repeat;
+}
+
+ul li {
+  float: right;
+}
+
+ul li a {
+  display: block;
+  color: black;
+  padding: 14px 16px;
+  text-decoration: none;
+  font-family: "Segoe UI", Tahoma, Geneva, Verdana, sans-serif;
+  font-size: 25px;
+}
+
+ul {
+  list-style-type: none;
+  margin: 0;
+  padding: 0;
+  overflow: hidden;
+}
+
+.landing {
+  background-image: url("../images/landing.jpg");
+  width: 100vw;
+  height: 100vh;
+  margin-top: 1px;
+  background-size: cover;
+  background-repeat: no-repeat;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.title {
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-40%, -50%);
+  font-size: 90px;
+  color: white;
+  font-family: "Segoe UI", Tahoma, Geneva, Verdana, sans-serif;
+}
+
+.subtitle {
+  position: absolute;
+  top: 60%;
+  left: 2%;
+  font-size: 50px;
+  color: white;
+  font-family: "Segoe UI", Tahoma, Geneva, Verdana, sans-serif;
+  text-align: center;
+}
+
+.whatsonspotify {
+  text-align: center;
+  padding: 40px;
+  font-family: "Segoe UI", Tahoma, Geneva, Verdana, sans-serif;
+  font-size: 40px;
+}
+
+.hrtag1 {
+  width: 300px;
+  border: none;
+  border-top: 5px solid #00b172;
+  margin: 5px auto 0;
+}
+
+.whatsonspotify1 {
+  display: flex;
+  justify-content: center;
+  align-items: flex-start;
+  text-align: center;
+  padding: 60px;
+  gap: 150px;
+}
+
+.spotify-card {
+  width: 20%;
+}
+
+.millionsofsongs {
+  background-image: url("../images/music-icon.png");
+  width: 150px;
+  height: 100px;
+  padding: 40px;
+  background-size: contain;
+  background-repeat: no-repeat;
+  background-position: center;
+  margin: auto;
+}
+
+.hdmusic {
+  background-image: url("../images/high-quality-icon.png");
+  width: 150px;
+  height: 100px;
+  padding: 40px;
+  background-size: contain;
+  background-repeat: no-repeat;
+  background-position: center;
+  margin: auto;
+}
+
+.streameverywhere {
+  background-image: url("../images/devices-icon.png");
+  width: 150px;
+  height: 100px;
+  padding: 40px;
+  background-size: contain;
+  background-repeat: no-repeat;
+  background-position: center;
+  margin: auto;
+}
+
+.whatsonspotify1 h3 {
+  font-family: "Segoe UI", Tahoma, Geneva, Verdana, sans-serif;
+  font-size: 25px;
+  margin: 15px;
+  color: #00b172;
+}
+
+.whatsonspotify1 p {
+  font-family: "Segoe UI", Tahoma, Geneva, Verdana, sans-serif;
+  color: #1a1a1a;
+  padding: 25px;
+}
+
+.yeezy {
+  background-color: #00b172;
+  text-align: left;
+  padding: 40px;
+  font-family: "Segoe UI", Tahoma, Geneva, Verdana, sans-serif;
+  font-size: 40px;
+  position: relative;
+}
+
+.hrtag2 {
+  width: 500px;
+  border: none;
+  border-top: 5px solid white;
+  margin: 5px 0 0 0;
+}
+
+.yeezyfooter h2 {
+  width: 40px;
+  height: 40px;
+  display: flex;
+  flex-direction: column;
+  color: white;
+  font-family: "Segoe UI", Tahoma, Geneva, Verdana, sans-serif;
+  font-size: 25px;
+  margin-top: 60px;
+}
+
+.yeezyfooter p {
+  font-size: 25px;
+  width: 400px;
+  color: lightcyan;
+}
+
+.spotify-logo {
+  background-image: url("../images/spotify-icon-white.png");
+  width: 200px;
+  height: 200px;
+  background-size: contain;
+  background-repeat: no-repeat;
+  background-position: center;
+  position: absolute;
+  margin: auto;
+  margin-left: 700px;
+  margin-top: -450px;
+}
+
+.spotify-image {
+  background-image: url("../images/spotify-app.jpg");
+  width: 400px;
+  height: 600px;
+  background-size: contain;
+  background-repeat: no-repeat;
+  background-position: center;
+  position: absolute;
+  right: 8%;
+  top: 10%;
+}
