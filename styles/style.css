@@ -6,3 +6,149 @@ Green: #00B172
 White: #FFF
 
 */
+
+
+* {
+    font-family: montserrat;
+    margin: 0;
+    padding: 0;
+}
+
+.montserrat {
+  font-family: "Montserrat", sans-serif;
+  font-optical-sizing: auto;
+  font-weight: 100;
+  font-style: normal;
+}
+
+body {
+    background-color: white;
+}
+
+.header-container {
+display: flex;
+width: 100vw;
+justify-content: space-between;
+background-color: white;
+position: fixed;
+align-items: stretch;
+}
+
+.logo{
+    height: 40px;
+    padding: 10px;
+}
+
+ul {
+    display: flex;
+    flex-direction: row;
+    justify-content: flex-end;
+    list-style-type: none;
+    padding-right: 20px;
+    padding-top: 10px;
+    align-items: center;
+
+}
+
+li {
+    padding: 10px;
+}
+
+
+
+.hero-image {
+    display: flex;
+    flex-direction: column;
+    background-image: url(../images/landing.jpg);
+    width: 100vw;
+    height: 600px;
+    background-repeat: no-repeat;
+    background-size: cover;
+    border: 0px;
+    justify-content: center;
+    align-items: center;
+
+}
+/*why is my image like this*/
+
+h1 {
+    color: white;
+}
+
+.hero-text {
+    color: white;
+}
+
+.section2 {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    padding: 20px;
+}
+
+.articles-box {
+    display: flex;
+    flex-direction: row;
+    align-items: baseline;
+    justify-content: center;
+}
+
+.little-boxes {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    padding: 20px;
+    align-self: center;
+    flex-basis: 33%;
+}
+
+.little-boxes > p {
+    text-align: center;
+}
+
+.icons {
+    width: 10vw;
+}
+
+.section3 {
+    display: flex;
+    flex-direction: row;
+    background-color: #00B172;
+    width: 100vw;
+}
+
+.kanye {
+    display: flex;
+    flex-direction: column;
+    margin: 20px;
+    padding: 50px;
+    padding-right: 20vw;
+}
+
+.spotify-icon-white {
+    display: block;
+    position: absolute;
+    top: 1050px;
+    left: 50%;
+    width: 10%;
+}
+
+.kanye > h2 {
+    color: white;
+}
+
+.kanye > h3 {
+    color: white;
+}
+
+.kanye > p {
+    color: white;
+}
+
+.spotify-app {
+    display: flex;
+    width: 30vw;
+    padding: 50px;
+}
