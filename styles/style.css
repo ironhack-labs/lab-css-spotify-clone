@@ -6,3 +6,144 @@ Green: #00B172
 White: #FFF
 
 */
+
+body {
+  margin: 0;
+  font-family: 'Helvetica', sans-serif;
+  color: #1A1A1A;
+}
+
+#navbar {
+  position: fixed;
+  top: 0;
+  width: 100%;
+  height: 70px;
+  padding: 0 40px;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  background-color: #FFF;
+  box-sizing: border-box;
+}
+
+.nav-logo {
+  width: 130px;
+}
+
+.nav-links {
+  list-style: none;
+  display: flex;
+  margin: 0;
+}
+
+.nav-link {
+  margin-left: 30px;
+  text-decoration: none;
+  color: #1A1A1A;
+  font-weight: bold;
+}
+
+#hero {
+  height: 600px;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  background-image: url('../images/landing.jpg');
+  background-size: cover;
+  background-position: center;
+  color: #FFF;
+  text-align: center;
+}
+
+.hero-title {
+  margin: 0 0 20px 0;
+  font-size: 64px;
+}
+
+.hero-text {
+  margin: 5px 0;
+  font-size: 20px;
+}
+
+#whats-on {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  padding: 60px 0 80px 0;
+}
+
+.whats-on-title {
+  margin: 0 0 50px 0;
+  font-size: 40px;
+  color: #00B172;
+}
+
+.features {
+  display: flex;
+  justify-content: space-between;
+  width: 1000px;
+}
+
+.feature {
+  width: 33%;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  text-align: center;
+}
+
+.feature-icon {
+  width: 80px;
+}
+
+.feature-title {
+  margin: 20px 0 10px 0;
+  font-size: 22px;
+}
+
+.feature-text {
+  width: 220px;
+  margin: 0;
+  font-size: 16px;
+}
+
+#green {
+  position: relative;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 100px 80px 60px 80px;
+  background-color: #00B172;
+  color: #FFF;
+}
+
+.green-logo {
+  position: absolute;
+  top: 30px;
+  left: 80px;
+  width: 50px;
+}
+
+.green-text {
+  width: 40%;
+}
+
+.green-title {
+  margin: 0 0 30px 0;
+  font-size: 36px;
+}
+
+.green-subtitle {
+  margin: 20px 0 5px 0;
+  font-size: 22px;
+}
+
+.green-paragraph {
+  margin: 0;
+  font-size: 16px;
+}
+
+.green-app {
+  width: 50%;
+}
