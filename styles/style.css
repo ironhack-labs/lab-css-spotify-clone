@@ -1,3 +1,4 @@
+
 /*
 Colors:
 
@@ -5,4 +6,241 @@ Text: 1A1A1A
 Green: #00B172
 White: #FFF
 
+
 */
+
+* {
+  box-sizing: border-box;
+}
+
+html {
+  scroll-behavior: smooth;
+}
+
+body {
+  margin: 0;
+  font-family: Arial, Helvetica, sans-serif;
+  color: #222;
+}
+
+img {
+  max-width: 100%;
+  display: block;
+}
+
+/* Section 1: Navbar */
+/*z-index - control of elment to appear in front/behind */
+.navbar {
+  position: fixed;
+  top: 0;
+  left: 0;
+  z-index: 1000;
+  width: 100%;
+  padding: 15px 5%;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  background: #000;
+}
+
+.logo img {
+  width: 140px;
+}
+
+.navbar ul {
+  display: flex;
+  align-items: center;
+  gap: 30px;
+  margin: 0;
+  padding: 0;
+  list-style: none;
+}
+
+.navbar a {
+  color: #fff;
+  text-decoration: none;
+}
+
+.navbar a:hover {
+  color: #1ed760;
+}
+
+/* Section 2: Hero */
+.hero {
+  min-height: 100vh;
+  padding: 100px 5% 40px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  text-align: center;
+  color: #fff;
+
+  background-image: url("../images/landing.jpg");
+  background-size: cover;
+  background-position: center;
+  background-repeat: no-repeat;
+}
+
+.hero-content {
+  max-width: 900px;
+}
+
+.hero h1 {
+  margin: 0 0 25px;
+  font-size: clamp(2.5rem, 7vw, 5rem);
+}
+
+.hero p {
+  margin: 0;
+  font-size: clamp(1.1rem, 3vw, 1.75rem);
+  line-height: 1.5;
+}
+
+/* Section 3: Features */
+.features {
+  padding: 80px 5%;
+  text-align: center;
+  
+}
+
+.features h2 {
+  margin: 0 0 50px;
+  font-size: 2.5rem;
+  text-decoration: underline;
+  
+}
+
+.features-container {
+  display: flex;
+  justify-content: space-between;
+  align-items: flex-start;
+  gap: 30px;
+  align-items: normal;
+  
+}
+
+.feature {
+  flex: 1;
+  min-width: 0;
+  border: 4px solid #00B172;
+
+}
+
+.feature img {
+  width: 100%;
+  max-width: 250px;
+  height: 200px;
+  margin: 0 auto 25px;
+  object-fit: contain;
+}
+
+.feature h3 {
+  margin-bottom: 15px;
+  font-size: 1.5rem;
+  color: #00B172;
+}
+
+.feature p {
+  line-height: 1.6;
+}
+
+/* Section 4: Green section */
+.green-section {
+  position: relative;
+  min-height: 600px;
+  padding: 80px 8%;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  gap: 50px;
+  overflow: hidden;
+  background-color: #00bfa5;
+  color: #fff;
+}
+
+.green-content {
+  flex: 1;
+  max-width: 550px;
+  position: relative;
+}
+
+.green-content h2 {
+  font-size:25px;
+  text-decoration:underline;
+}
+
+.green-content p {
+  font-size: 1.2rem;
+  line-height: 1.7;
+}
+
+.player-image {
+  flex: 0 1 350px;
+  width: 100%;
+  max-width: 350px;
+  height: auto;
+}
+
+.spotify-mark {
+  position: absolute;
+  width: 60px;
+  height: auto;
+  top: 50%;
+  left: 55%;
+  
+}
+
+/* Responsive layout */
+@media (max-width: 768px) {
+  .navbar {
+    padding: 15px 4%;
+  }
+
+  .logo img {
+    width: 100px;
+  }
+
+  .navbar ul {
+    gap: 12px;
+  }
+
+  .navbar a {
+    font-size: 0.85rem;
+  }
+
+  .features-container {
+    flex-direction: column;
+    align-items: center;
+  }
+
+  .feature {
+    width: 100%;
+    max-width: 400px;
+  }
+
+  .green-section {
+    flex-direction: column;
+    text-align: center;
+  }
+
+  .green-content {
+    max-width: 100%;
+  }
+
+  .player-image {
+    flex-basis: auto;
+    max-width: 280px;
+  }
+}
+
+@media (max-width: 480px) {
+  .navbar {
+    flex-wrap: wrap;
+    gap: 5px;
+  }
+
+  .navbar ul {
+    flex-wrap: wrap;
+    gap: 5px;
+  }
+}
