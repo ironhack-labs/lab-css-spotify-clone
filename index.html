@@ -1,18 +1,74 @@
-<!DOCTYPE html>
+<!doctype html>
 <html lang="en">
   <head>
     <meta charset="UTF-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <meta http-equiv="X-UA-Compatible" content="ie=edge" />
     <title>Spotify Clone</title>
-    <!-- don't forget to link your styles -->
+    <meta name="description"content="Discover Spotify: millions of songs, high-quality music, and listening on every device."/>
+  <link rel="stylesheet" href="styles/style.css" />
   </head>
   <body>
-    Premium Discover Help Download Music for everyone. Spotify is now free on mobile, tablet and computer. Listen to the
-    right music, wherever you are. What’s on Spotify? Millions of Songs There are millions of songs on Spotify HD Music
-    Listen to music as if you were listening live Stream Everywhere Stream music on your smartphone, tablet or computer
-    It’s as yeezy as Kanye West. Search Know what you want to listen to? Just search and hit play. Browse Check out the
-    latest charts, brand new releases and great playlists for right now. Discover Enjoy new music every Monday with your
-    own personal playlist. Or sit back and enjoy Radio.
-  </body>
-</html>
+  <header class="site-header">
+  <nav class="navigation" aria-label="Main navigation">
+  <a class="brand" href="#home" aria-label="Spotify home">
+  <img src="images/spotify-logo.png" alt="Spotify" />
+  </a>
+  <ul class="navigation-links">
+  <li><a href="#premium">Premium</a></li>
+  <li><a href="#discover">Discover</a></li>
+  <li><a href="https://support.spotify.com/"target="_blank"rel="noreferrer">Help</a></li>
+  <li><a href="https://www.spotify.com/download/"target="_blank" rel="noreferrer">Download</a></li>
+    </ul>
+    </nav>
+    </header>
+    <main>
+    <section class="hero" id="home" aria-labelledby="hero-title">
+    <div class="hero-content">
+    <h1 id="hero-title">Music for everyone.</h1>
+    <p>Spotify is now free on mobile, tablet and computer. Listen to the right music, wherever you are.</p>
+    </div>
+      </section>
+      <section class="discover-section"id="discover"aria-labelledby="discover-title">
+        <h2 class="section-title" id="discover-title">What’s on Spotify?</h2>
+        <div class="benefits">
+        <article class="benefit">
+        <img src="images/music-icon.png" alt="" />
+        <h3>Millions of Songs</h3>
+        <p>There are millions of songs on Spotify.</p>
+        </article>
+        <article class="benefit">
+        <img src="images/high-quality-icon.png" alt="" />
+        <h3>HD Music</h3>
+        <p>Listen to music as if you were listening live.</p>
+        </article>
+        <article class="benefit">
+        <img src="images/devices-icon.png" alt="" />
+        <h3>Stream Everywhere</h3>
+        <p>Stream music on your smartphone, tablet or computer.</p>
+        </article>
+        </div>
+        </section>
+        <section class="premium-section" id="premium"aria-labelledby = "premium-title">
+        <div class="premium-copy">
+        <h2 id="premium-title">It’s as yeezy as Kanye West.</h2>
+        <div class="feature-list">
+        <article class="feature">
+        <h3>Search</h3>
+        <p>Know what you want to listen to? Just search and hit play.</p>
+        </article>
+        <article class="feature">
+        <h3>Browse</h3>
+        <p>Check out the latest charts, brand new releases and great playlists for right now.</p>
+        </article>
+        <article class="feature">
+        <h3>Discover</h3>
+        <p>Enjoy new music every Monday with your own personal playlist. Or sit back and enjoy Radio.</p>
+        </article>
+        </div>
+        <img class="premium-logo"src="images/spotify-icon-white.png"alt="Spotify"/>
+        <img class="app-preview"src="images/spotify-app.jpg"alt="Spotify playing Kanye West on a phone"/>
+        </section>
+        </main>
+        </body>
+        </html>
