@@ -1,8 +1,179 @@
-/*
-Colors:
+html,
+body {
+  margin: 0;
+  padding: 0;
+  font-family: Arial, Helvetica;
+}
 
-Text: 1A1A1A
-Green: #00B172
-White: #FFF
+.navbar {
+    position: fixed;
+    width: 100%;
+    top: 0;
+    left: 0;
+}
 
-*/
+.nav-container {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin: 0 auto;
+    padding: 15px 40px;
+}
+
+.nav-links {
+    display: flex;
+    list-style: none;
+}
+
+.nav-links li {
+    margin-left: 30px;
+}
+
+.nav-links a {
+    text-decoration: none;
+    font-size: 14px;
+    color: black;
+}
+
+.logo {
+    height: 45px;
+}
+
+h1 {
+    text-align: center;
+    font-size: 40px;
+    text-transform: uppercase;
+    color: white;
+}
+
+
+.main-header {
+    background-image: url("../images/landing.jpg");
+    background-size: cover;
+    background-position: center;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+    height: 100vh;
+    margin-top: 75px;
+    max-width: 100%;
+}
+
+.box h2 {
+    display: flex;
+    justify-content: center;
+    text-align: center;
+}
+
+.main-header {
+    padding: 80px 20px;
+    text-align: center;
+    max-width: 1000px;
+    margin: O auto;
+}
+
+.main-header h2 {
+    font-size: 32px;
+    margin-bottom: 10px;
+}
+
+.box {
+    display: flex;
+    justify-content: space-between;
+    align-items: flex-start;
+}
+
+.items {
+    flex: 1;
+    padding: 0 20px;
+}
+
+.items img {
+    height: 80px;
+    margin-bottom: 20px;
+    color: #00b172;
+}
+
+.items h3 {
+    font-size: 16px;
+    margin-bottom: 15px;
+}
+
+.items p {
+    font-size: 16px;
+    color: #666;
+}
+
+.green-section {
+    background-color: #00b172;
+    color: #fff;
+    padding: 80px 40px;
+}
+
+.green-container {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    max-width: 1000px;
+    margin: 0 auto;
+}
+
+.green-text-content {
+    flex: 1;
+    padding-right: 50px;
+}
+
+.green-header {
+    margin-bottom: 40px;
+}
+
+.green-header h2 {
+    font-size: 36px;
+    margin-bottom: 10px;
+}
+
+.white {
+    height: 2px;
+    width: 250px;
+    background-color: #fff;
+}
+
+.info {
+    margin-bottom: 30px;
+}
+
+.info h3 {
+    font-size: 22px;
+    margin-bottom: 5px;
+}
+
+.info p {
+    font-size: 16px;
+    font-weight: 300;
+}
+
+.relative-info {
+    position: relative;
+}
+
+.background-logo {
+    position: absolute;
+    width: 100px;
+    right: 50px;
+    top: 10px;
+}
+
+.kanye-image {
+    flex: 1;
+    display: flex;
+    justify-content: center;
+}
+
+.Kanye {
+    max-width: 300px;
+    width: 100%;
+    display: flex;
+    justify-content: flex-end;
+    align-items: flex-end;
+}
