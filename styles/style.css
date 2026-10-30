@@ -1,8 +1,25 @@
-/*
-Colors:
-
-Text: 1A1A1A
-Green: #00B172
-White: #FFF
-
-*/
+* { box-sizing: border-box; margin: 0; padding: 0; }
+body { font-family: 'Helvetica Neue', Helvetica, Arial, sans-serif; color: #1A1A1A; line-height: 1.6; }
+.navbar { position: fixed; top: 0; left: 0; width: 100%; display: flex; justify-content: space-between; align-items: center; padding: 15px 40px; background-color: #FFF; z-index: 1000; box-shadow: 0 2px 4px rgba(0,0,0,0.1); }
+.navbar .logo img { height: 40px; }
+.navbar .nav-links { display: flex; list-style: none; gap: 25px; }
+.navbar .nav-links li a { text-decoration: none; color: #1A1A1A; font-weight: bold; font-size: 14px; text-transform: uppercase; }
+.hero { height: 100vh; background-image: linear-gradient(rgba(0, 0, 0, 0.4), rgba(0, 0, 0, 0.4)), url('../images/landing.jpg'); background-size: cover; background-position: center; display: flex; justify-content: center; align-items: center; text-align: center; color: #FFF; padding-top: 70px; }
+.hero h1 { font-size: 64px; margin-bottom: 20px; font-weight: 900; }
+.hero p { font-size: 18px; max-width: 600px; }
+.whats-on-spotify { text-align: center; padding: 80px 40px; background-color: #FFF; }
+.whats-on-spotify h2 { font-size: 32px; margin-bottom: 50px; color: #00B172; }
+.features { display: flex; justify-content: center; gap: 40px; }
+.feature-box { flex: 1; max-width: 33.3%; padding: 20px; }
+.feature-box img { width: 80px; margin-bottom: 20px; }
+.feature-box h3 { font-size: 18px; margin-bottom: 10px; }
+.feature-box p { color: #555; font-size: 14px; }
+.green-section { background-color: #00B172; color: #FFF; display: flex; padding: 60px; position: relative; }
+.green-content { flex: 1; display: flex; flex-direction: column; position: relative; padding-top: 60px; }
+.green-logo { position: absolute; top: 60px; left: 60px; width: 50px; }
+.green-content h2 { font-size: 28px; margin-bottom: 40px; }
+.text-blocks { display: flex; flex-direction: column; gap: 30px; }
+.text-blocks h3 { font-size: 18px; margin-bottom: 10px; }
+.text-blocks p { font-size: 14px; opacity: 0.9; }
+.app-image { flex: 1; display: flex; justify-content: center; align-items: center; }
+.app-image img { max-width: 100%; height: auto; max-height: 500px; box-shadow: 0 15px 30px rgba(0,0,0,0.3); }
