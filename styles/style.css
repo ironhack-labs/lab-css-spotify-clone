@@ -6,3 +6,242 @@ Green: #00B172
 White: #FFF
 
 */
+:root {
+  --text-color: #1a1a1a;
+  --theme-color: #00b172;
+  --primary-color: #fff;
+  --secondary-color: #efeeef;
+}
+*,
+html {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  font-family: "Gill Sans MT", Calibri, "Trebuchet MS", sans-serif;
+}
+body {
+  background-color: var(--secondary-color);
+}
+p {
+  line-height: 1.5;
+}
+.container {
+  position: relative;
+  margin: 0 5%;
+  background-color: var(--secondary-color);
+}
+/* navbar section */
+
+.navbar {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  background-color: var(--secondary-color);
+  padding: 10px 25px;
+  height: 100px;
+  position: fixed;
+  top: 0;
+  left: 5%;
+  width: 90%;
+  box-shadow: 0px 0px 3px grey;
+  z-index: 1;
+}
+.menu {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  gap: 1rem;
+  list-style: none;
+}
+.menu li {
+  font-size: 1.5rem;
+}
+.hamburger-menu-container {
+  display: none;
+  border: none;
+  outline: none;
+  background-color: transparent;
+}
+.hamburger-menu-container i {
+  font-size: 24px;
+  color: var(--theme-color);
+}
+/* navbar end */
+
+/* hero section start */
+.hero {
+  margin-top: 100px;
+  width: 100%;
+  height: calc(100dvh - 100px);
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  gap: 1.5rem;
+  flex-direction: column;
+  background-image: url("/images/landing.jpg");
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-position: center;
+}
+.hero-title {
+  color: var(--primary-color);
+  font-size: clamp(4rem, 4.5vw + 0.5rem, 7vw);
+  text-align: center;
+}
+.hero-desc {
+  color: var(--secondary-color);
+  font-size: clamp(16px, 24px + 0.5rem, 30px);
+  width: 50%;
+  text-align: center;
+}
+/* hero section end */
+
+/* about section start */
+.about {
+  height: auto;
+  width: 100%;
+  min-height: 70dvh;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  flex-direction: column;
+  gap: 5rem;
+  padding: 60px;
+}
+.about img {
+  height: 80px;
+}
+.section-title {
+  font-size: clamp(2.5rem, 2vw + 0.5rem, 2.5vw);
+  border-bottom: 5px solid var(--theme-color);
+  padding-bottom: 5px;
+  width: max-content;
+  text-align: center;
+}
+.card-container {
+  display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(350px, 1fr));
+  width: 100%;
+  gap: 2rem;
+}
+.card {
+  display: flex;
+  align-items: center;
+  justify-content: flex-start;
+  flex-direction: column;
+  gap: 1.5rem;
+  padding: 20px;
+}
+.card img {
+  height: clamp(2rem, 3.5vw + 0.5rem, 4rem);
+}
+.card-title {
+  font-size: clamp(2rem, 1.5vw + 0.5rem, 2.5vw);
+  text-align: center;
+  color: var(--theme-color);
+}
+.card-desc {
+  font-size: clamp(1.2rem, 1.3vw + 0.5rem, 2vw);
+  text-align: center;
+}
+/* about sectio end */
+
+/* explore section start */
+.explore {
+  width: calc(100% - 50px);
+  padding: 70px 100px;
+  position: relative;
+  color: black;
+  display: flex;
+  align-items: stretch;
+  justify-content: space-between;
+  background-color: var(--theme-color);
+  margin: 25px;
+}
+.left {
+  width: 50%;
+}
+.explore-title {
+  width: fit-content;
+  color: var(--primary-color);
+  border-bottom: 5px solid var(--primary-color);
+  margin-bottom: 3rem;
+  font-size: clamp(2.5rem, 2vw + 0.5rem, 2.5vw);
+}
+
+.explore-card-container {
+  display: flex;
+  align-items: flex-start;
+  justify-content: flex-start;
+  flex-direction: column;
+  gap: 3rem;
+}
+
+.explore-card {
+  display: flex;
+  flex-direction: column;
+  gap: 1rem;
+  padding: 0px;
+  max-width: 400px;
+  flex: 1;
+}
+.explore-card-title {
+  text-align: left;
+  color: var(--primary-color);
+  font-size: clamp(1rem, 1.5vw + 0.5rem, 2vw);
+  font-weight: bolder;
+}
+.explore-card-desc {
+  text-align: left;
+  color: var(--primary-color);
+  font-size: clamp(1rem, 1vw + 0.5rem, 2vw);
+}
+.icon-container {
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+}
+.icon-container img {
+  max-height: clamp(50px, 5vw + 1rem, 100px);
+}
+.right {
+  width: 50%;
+  display: flex;
+  align-items: center;
+  justify-content: right;
+}
+.spotify-app {
+  padding: 0;
+  width: 50%;
+}
+/* explore section end */
+
+/* small screen */
+@media (max-width: 768px) {
+  body {
+    padding: 0;
+  }
+  .navbar {
+    height: auto;
+    gap: 2rem;
+  }
+  .menu {
+    flex-direction: column;
+    height: auto;
+    display: none;
+  }
+  .hamburger-menu-container {
+    display: flex;
+  }
+  .hero-desc {
+    width: 98%;
+  }
+
+  .card {
+    width: 100%;
+  }
+}
+/* medium screens*/
+@media (min-width: 768px) and (max-width: 1024px) {
+}
